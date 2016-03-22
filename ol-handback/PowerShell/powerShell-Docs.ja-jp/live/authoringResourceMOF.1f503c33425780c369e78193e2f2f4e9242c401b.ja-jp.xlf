@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="ja-jp">
+    <body>
+      <group id="main" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Writing a custom DSC resource with MOF</source>
+          <target state="translated">MOF を使用したカスタム DSC リソースの記述</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</source>
+          <target state="translated">適用先: Windows PowerShell 4.0、Windows PowerShell 5.0</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In this topic, we will define the schema for a Windows PowerShell Desired State Configuration (DSC) custom resource in a MOF file, and implement the resource in a Windows PowerShell script file.</source>
+          <target state="translated">このトピックでは、MOF ファイルで Windows PowerShell Desired State Configuration (DSC) カスタム リソースのスキーマを定義し、Windows PowerShell スクリプト ファイルでリソースを実装します。</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This custom resource is for creating and maintaining a web site.</source>
+          <target state="translated">このカスタム リソースは、Web サイトを作成および保守するためのものです。</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Creating the MOF schema</source>
+          <target state="translated">MOF スキーマの作成</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The schema defines the properties of your resource that can be configured by a DSC configuration script.</source>
+          <target state="translated">スキーマでは、DSC 構成スクリプトによって構成できるリソースのプロパティを定義します。</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Folder structure for a MOF resource</source>
+          <target state="translated">MOF リソースのフォルダー構造</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To implement a DSC custom resource with a MOF schema, create the following folder structure.</source>
+          <target state="translated">MOF スキーマを使用して DSC カスタム リソースを実装するには、次のフォルダー構造を作成します。</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The MOF schema is defined in the file Demo_IISWebsite.schema.mof, and the resource script is defined in Demo_IISWebsite.ps1.</source>
+          <target state="translated">MOF スキーマは Demo_IISWebsite.schema.mof ファイルで定義し、リソース スクリプトは Demo_IISWebsite.ps1 で定義します。</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Optionally, you can create a module manifest (psd1) file.</source>
+          <target state="translated">必要に応じて、モジュール マニフェスト (psd1) ファイルを作成できます。</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Note that it is necessary to create a folder named DSCResources under the top-level folder, and that the folder for each resource must have the same name as the resource.</source>
+          <target state="translated">最上位のフォルダーの下に DSCResources という名前のフォルダーを作成し、各リソースのフォルダーにリソースと同じ名前を付ける必要があります。</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The contents of the MOF file</source>
+          <target state="translated">MOF ファイルの内容</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Following is an example MOF file that can be used for a custom website resource.</source>
+          <target state="translated">カスタム Web サイト リソースに使用できる MOF ファイルの例を次に示します。</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To follow this example, save this schema to a file, and call the file <bpt id="p1">*</bpt>Demo_IISWebsite.schema.mof<ept id="p1">*</ept>.</source>
+          <target state="translated">この例に従うには、このスキーマをファイルに保存し、ファイルの名前は <bpt id="p1">*</bpt>Demo_IISWebsite.schema.mof<ept id="p1">*</ept> にします。</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Note the following about the previous code:</source>
+          <target state="translated">前のコードについて、次のことに注意してください。</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`FriendlyName`</ph> defines the name you can use to refer to this custom resource in DSC configuration scripts.</source>
+          <target state="translated"><ph id="ph1">`FriendlyName`</ph> では、DSC 構成スクリプトでこのカスタム リソースを参照するために使用できる名前を定義します。</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In this example, <ph id="ph2">`Website`</ph> is equivalent to the friendly name <ph id="ph3">`Archive`</ph> for the built-in Archive resource.</source>
+          <target state="translated">この例では、<ph id="ph2">`Website`</ph> は、組み込みのアーカイブ リソースのフレンドリ名 <ph id="ph3">`Archive`</ph> に相当します。</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The class you define for your custom resource must derive from <ph id="ph4">`OMI_BaseResource`</ph>.</source>
+          <target state="translated">カスタム リソース用に定義するクラスは、<ph id="ph4">`OMI_BaseResource`</ph> から派生する必要があります。</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The type qualifier, <ph id="ph5">`[Key]`</ph>, on a property indicates that this property will uniquely identify the resource instance.</source>
+          <target state="translated">プロパティの型修飾子 <ph id="ph5">`[Key]`</ph> は、このプロパティがリソース インスタンスを一意に識別することを示します。</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph6">`[Key]`</ph> property is also required.</source>
+          <target state="translated"><ph id="ph6">`[Key]`</ph> プロパティは必須でもあります。</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph7">`[Required]`</ph> qualifier indicates that the property is required (a value must be specified in any configuration script that uses this resource).</source>
+          <target state="translated"><ph id="ph7">`[Required]`</ph> 修飾子は、プロパティが必須であることを示します (このリソースを使用する構成スクリプトで値を指定する必要があります)。</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph8">`[write]`</ph> qualifier indicates that this property is optional when using the custom resource in a configuration script.</source>
+          <target state="translated"><ph id="ph8">`[write]`</ph> 修飾子は、構成スクリプトでカスタム リソースを使用するときにこのプロパティが省略可能であることを示します。</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph9">`[read]`</ph> qualifier indicates that a property cannot be set by a configuration, and is for reporting purposes only.</source>
+          <target state="translated"><ph id="ph9">`[read]`</ph> 修飾子は、プロパティが構成では設定できず、報告のみを目的とするとを示します。</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><ph id="ph10">`Values`</ph> restricts the values that can be assigned to the property to the list of values defined in <ph id="ph11">`ValueMap`</ph>.</source>
+          <target state="translated"><ph id="ph10">`Values`</ph> は、プロパティに割り当てることのできる値を <ph id="ph11">`ValueMap`</ph> で定義されている値の一覧に制限します。</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p2">[</bpt>ValueMap and Value Qualifiers<ept id="p2">](https://msdn.microsoft.com/library/windows/desktop/aa393965.aspx)</ept>.</source>
+          <target state="translated">詳細については、「<bpt id="p2">[</bpt>ValueMap and Value Qualifiers (ValueMap 修飾子と Value 修飾子)<ept id="p2">](https://msdn.microsoft.com/library/windows/desktop/aa393965.aspx)</ept>」を参照してください。</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Including a property called <ph id="ph12">`Ensure`</ph> in your resource is recommended as a way to maintain a consistent style with built-in DSC resources.</source>
+          <target state="translated">組み込みの DSC リソースとの一貫したスタイルを維持する方法として、リソースに <ph id="ph12">`Ensure`</ph> というプロパティを含めることをお勧めします。</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Name the schema file for your custom resource as follows: <ph id="ph13">`classname.schema.mof`</ph>, where <ph id="ph14">`classname`</ph> is the identifier that follows the <ph id="ph15">`class`</ph> keyword in your schema definition.</source>
+          <target state="translated">カスタム リソースのスキーマ ファイルには、<ph id="ph13">`classname.schema.mof`</ph> のように名前を付けます。ここで、<ph id="ph14">`classname`</ph> はスキーマ定義内の <ph id="ph15">`class`</ph> キーワードに続く識別子です。</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Writing the resource script</source>
+          <target state="translated">リソース スクリプトの作成</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The resource script implements the logic of the resource.</source>
+          <target state="translated">リソース スクリプトでは、リソースのロジックを実装します。</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In this module, you must include three functions called <bpt id="p3">**</bpt>Get-TargetResource<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Set-TargetResource<ept id="p4">**</ept>, and <bpt id="p5">**</bpt>Test-TargetResource<ept id="p5">**</ept>.</source>
+          <target state="translated">このモジュールでは、<bpt id="p3">**</bpt>Get-TargetResource<ept id="p3">**</ept>、<bpt id="p4">**</bpt>Set-TargetResource<ept id="p4">**</ept>、および <bpt id="p5">**</bpt>Test-TargetResource<ept id="p5">**</ept> という 3 つの関数を含める必要があります。</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>All three functions must take a parameter set that is identical to the set of properties defined in the MOF schema that you created for your resource.</source>
+          <target state="translated">3 つのすべての関数は、リソース用に作成した MOF スキーマで定義されている一連のプロパティと同じパラメーター セットを受け取る必要があります。</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>In this document, this set of properties is referred to as the “resource properties.”</source>
+          <target state="translated">このドキュメントでは、この一連のプロパティを "リソース プロパティ" と呼びます。</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Store these three functions in a file called <ph id="ph16">&lt;ResourceName&gt;</ph>.psm1.</source>
+          <target state="translated">これらの 3 つの関数は、<ph id="ph16">&lt;ResourceName&gt;</ph>.psm1 というファイルに格納します。</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>In the following example, the functions are stored in a file called Demo_IISWebsite.psm1.</source>
+          <target state="translated">次の例では、関数は Demo_IISWebsite.psm1 というファイルに格納されます。</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p6">**</bpt>Note<ept id="p6">**</ept>: When you run the same configuration script on your resource more than once, you should receive no errors and the resource should remain in the same state as running the script once.</source>
+          <target state="translated"><bpt id="p6">**</bpt>注<ept id="p6">**</ept>: リソースに対して同じ構成スクリプトを複数回実行する場合は、エラーが発生しないこと、および、リソースの状態が、スクリプトを 1 回実行したときと同じに保たれることが必要となります。</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>To accomplish this, ensure that your <bpt id="p7">**</bpt>Get-TargetResource<ept id="p7">**</ept> and <bpt id="p8">**</bpt>Test-TargetResource<ept id="p8">**</ept> functions leave the resource unchanged, and that invoking the <bpt id="p9">**</bpt>Set-TargetResource<ept id="p9">**</ept> function more than once in a sequence with the same parameter values is always equivalent to invoking it once.</source>
+          <target state="translated">これを実現するには、<bpt id="p7">**</bpt>Get-TargetResource<ept id="p7">**</ept> と <bpt id="p8">**</bpt>Test-TargetResource<ept id="p8">**</ept> 関数によってリソースが変更されないようにし、シーケンス内で同じパラメーター値を使用して <bpt id="p9">**</bpt>Set-TargetResource<ept id="p9">**</ept> 関数を複数回呼び出した場合に、1 回呼び出した場合と常に同じ結果になるようにします。</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p10">**</bpt>Get-TargetResource<ept id="p10">**</ept> function implementation, use the key resource property values that are provided as parameters to check the status of the specified resource instance.</source>
+          <target state="translated"><bpt id="p10">**</bpt>Get-TargetResource<ept id="p10">**</ept> 関数の実装では、パラメーターとして指定されたキー リソース プロパティ値を使用して、指定されたリソース インスタンスの状態を確認します。</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This function must return a hash table that lists all the resource properties as keys and the actual values of these properties as the corresponding values.</source>
+          <target state="translated">この関数は、キーとしてすべてのリソース プロパティを、対応する値としてこれらのプロパティの実際の値を一覧表示するハッシュ テーブルを返す必要があります。</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The following code provides an example.</source>
+          <target state="translated">コードの例は次のとおりです。</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Depending on the values that are specified for the resource properties in the configuration script, the <bpt id="p11">**</bpt>Set-TargetResource<ept id="p11">**</ept> must do one of the following:</source>
+          <target state="translated">構成スクリプトでリソース プロパティに指定されている値に応じて、<bpt id="p11">**</bpt>Set-TargetResource<ept id="p11">**</ept> は次のいずれかを実行する必要があります。</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Create a new website</source>
+          <target state="translated">新しい Web サイトの作成</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Update an existing website</source>
+          <target state="translated">既存の Web サイトの更新</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Delete an existing website</source>
+          <target state="translated">既存の Web サイトの削除</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The following example illustrates this.</source>
+          <target state="translated">これを次の例に示します。</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Finally, the <bpt id="p12">**</bpt>Test-TargetResource<ept id="p12">**</ept> function must take the same parameter set as <bpt id="p13">**</bpt>Get-TargetResource<ept id="p13">**</ept> and <bpt id="p14">**</bpt>Set-TargetResource<ept id="p14">**</ept>.</source>
+          <target state="translated">最後に、<bpt id="p12">**</bpt>Test-TargetResource<ept id="p12">**</ept> 関数は、<bpt id="p13">**</bpt>Get-TargetResource<ept id="p13">**</ept> および <bpt id="p14">**</bpt>Set-TargetResource<ept id="p14">**</ept> と同じパラメーター セットを受け取る必要があります。</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>In your implementation of <bpt id="p15">**</bpt>Test-TargetResource<ept id="p15">**</ept>, check the status of the resource instance that is specified in the key parameters.</source>
+          <target state="translated"><bpt id="p15">**</bpt>Test-TargetResource<ept id="p15">**</ept> の実装で、キー パラメーターで指定されているリソース インスタンスの状態を確認します。</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>If the actual status of the resource instance does not match the values specified in the parameter set, return <bpt id="p16">**</bpt>$false<ept id="p16">**</ept>.</source>
+          <target state="translated">リソース インスタンスの実際の状態がパラメーター セットで指定された値と一致しない場合は、<bpt id="p16">**</bpt>$false<ept id="p16">**</ept> を返します。</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Otherwise, return <bpt id="p17">**</bpt>$true<ept id="p17">**</ept>.</source>
+          <target state="translated">それ以外の場合は、<bpt id="p17">**</bpt>$true <ept id="p17">**</ept> を返します。</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The following code implements the <bpt id="p18">**</bpt>Test-TargetResource<ept id="p18">**</ept> function.</source>
+          <target state="translated">次のコードでは、<bpt id="p18">**</bpt>Test-TargetResource<ept id="p18">**</ept> 関数を実装します。</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p19">**</bpt>Note<ept id="p19">**</ept>: For easier debugging, use the <bpt id="p20">**</bpt>Write-Verbose<ept id="p20">**</ept> cmdlet in your implementation of the previous three functions.</source>
+          <target state="translated"><bpt id="p19">**</bpt>注<ept id="p19">**</ept>: 簡単にデバッグするには、前の 3 つの関数の実装で <bpt id="p20">**</bpt>Write-Verbose<ept id="p20">**</ept> コマンドレットを使用します。</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This cmdlet writes text to the verbose message stream.</source>
+          <target state="translated">このコマンドレットは、テキストを詳細メッセージ ストリームに書き込みます。</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>By default, the verbose message stream is not displayed, but you can display it by changing the value of the <bpt id="p21">**</bpt>$VerbosePreference<ept id="p21">**</ept> variable or by using the <bpt id="p22">**</bpt>Verbose<ept id="p22">**</ept> parameter in the DSC cmdlets = new.</source>
+          <target state="translated">既定では、詳細メッセージ ストリームは表示されません。表示するには、<bpt id="p21">**</bpt>$VerbosePreference<ept id="p21">**</ept> 変数の値を変更するか、DSC コマンドレットで <bpt id="p22">**</bpt>Verbose<ept id="p22">**</ept> パラメーターを使用します。</target>         
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Creating the module manifest</source>
+          <target state="translated">モジュール マニフェストの作成</target>         
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Finally, use the <bpt id="p23">**</bpt>New-ModuleManifest<ept id="p23">**</ept> cmdlet to define a <ph id="ph17">&lt;ResourceName&gt;</ph>.psd1 file for your custom resource module.</source>
+          <target state="translated">最後に、<bpt id="p23">**</bpt>New-ModuleManifest<ept id="p23">**</ept> コマンドレットを使用して、カスタム リソース モジュールの <ph id="ph17">&lt;ResourceName&gt;</ph>.psd1 ファイルを定義します。</target>         
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>When you invoke this cmdlet, reference the script module (.psm1) file described in the previous section.</source>
+          <target state="translated">このコマンドレットを呼び出すときに、前のセクションで説明したスクリプト モジュール (.psm1) ファイルを参照します。</target>         
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Include <bpt id="p24">**</bpt>Get-TargetResource<ept id="p24">**</ept>, <bpt id="p25">**</bpt>Set-TargetResource<ept id="p25">**</ept>, and <bpt id="p26">**</bpt>Test-TargetResource<ept id="p26">**</ept> in the list of functions to export.</source>
+          <target state="translated"><bpt id="p24">**</bpt>Get-TargetResource<ept id="p24">**</ept>、<bpt id="p25">**</bpt>Set-TargetResource<ept id="p25">**</ept>、および <bpt id="p26">**</bpt>Test-TargetResource<ept id="p26">**</ept> をエクスポートする関数の一覧に含めます。</target>         
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Following is an example manifest file.</source>
+          <target state="translated">マニフェスト ファイルの例を次に示します。</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <header xmlns="">
+    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f64cbea29a1e9998b8ade46d69c1ef1c584bd633</xliffext:olfilehash>
+  </header>
+</xliff>
