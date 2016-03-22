@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="fr-fr">
+    <body>
+      <group id="main" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>DSC Service Resource</source>
+          <target state="translated">Ressource Service dans DSC</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</source>
+          <target state="translated">S’applique à : Windows PowerShell 4.0, Windows PowerShell 5.0</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Service<ept id="p1">**</ept> resource in Windows PowerShell Desired State Configuration (DSC) provides a mechanism to manage services on the target node.</source>
+          <target state="translated">La ressource <bpt id="p1">**</bpt>Service<ept id="p1">**</ept> dans la configuration d’état souhaité (DSC) Windows PowerShell fournit un mécanisme pour gérer des services sur un nœud cible.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Syntax</source>
+          <target state="translated">Syntaxe</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Properties</source>
+          <target state="translated">Propriétés</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Property</source>
+          <target state="translated">Propriété</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Description</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="translated">Name</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Indicates the service name.</source>
+          <target state="translated">Indique le nom du service</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Note that sometimes this is different from the display name.</source>
+          <target state="translated">Notez qu’il peut être différent du nom d’affichage.</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can get a list of the services and their current state with the Get-Service cmdlet.</source>
+          <target state="translated">Vous pouvez obtenir une liste des services et leur état actuel avec l’applet de commande Get-Service.</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>BuiltInAccount</source>
+          <target state="translated">BuiltInAccount</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Indicates the sign-in account to use for the service.</source>
+          <target state="translated">Indique le compte de connexion à utiliser pour le service.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The values that are allowed for this property are: <bpt id="p2">**</bpt>LocalService<ept id="p2">**</ept>, <bpt id="p3">**</bpt>LocalSystem<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>NetworkService<ept id="p4">**</ept>.</source>
+          <target state="translated">Les valeurs autorisées pour cette propriété sont : <bpt id="p2">**</bpt>LocalService<ept id="p2">**</ept>, <bpt id="p3">**</bpt>LocalSystem<ept id="p3">**</ept> et <bpt id="p4">**</bpt>NetworkService<ept id="p4">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Credential</source>
+          <target state="translated">Credential</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Indicates credentials for the account that the service will run under.</source>
+          <target state="translated">Indique les informations d’identification pour le compte sous lequel s’exécute le service.</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This property and the <bpt id="p5">__</bpt>BuiltinAccount<ept id="p5">__</ept> property cannot be used together.</source>
+          <target state="translated">Cette propriété et la propriété <bpt id="p5">__</bpt>BuiltinAccount<ept id="p5">__</ept> ne peuvent pas être utilisées ensemble.</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>DependsOn</source>
+          <target state="translated">DependsOn</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Indicates that the configuration of another resource must run before this resource is configured.</source>
+          <target state="translated">Indique que la configuration d’une autre ressource doit être exécutée avant celle de cette ressource.</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For example, if the ID of the resource configuration script block that you want to run first is <bpt id="p6">__</bpt>ResourceName<ept id="p6">__</ept> and its type is <bpt id="p7">__</bpt>ResourceType<ept id="p7">__</ept>, the syntax for using this property is <ph id="ph1">`DependsOn = "[ResourceType]ResourceName"`</ph>.</source>
+          <target state="translated">Par exemple, si vous voulez exécuter en premier le bloc de script de configuration de ressource <bpt id="p6">__</bpt>ResourceName<ept id="p6">__</ept> de type <bpt id="p7">__</bpt>ResourceType<ept id="p7">__</ept>, la syntaxe pour utiliser cette propriété est <ph id="ph1">`DependsOn = "[ResourceType]ResourceName"`</ph>.</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>StartupType</source>
+          <target state="translated">StartupType</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Indicates the startup type for the service.</source>
+          <target state="translated">Indique le type de démarrage du service.</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The values that are allowed for this property are: <bpt id="p8">**</bpt>Automatic<ept id="p8">**</ept>, <bpt id="p9">**</bpt>Disabled<ept id="p9">**</ept>, and <bpt id="p10">**</bpt>Manual<ept id="p10">**</ept></source>
+          <target state="translated">Les valeurs autorisées pour cette propriété sont : <bpt id="p8">**</bpt>Automatic<ept id="p8">**</ept>, <bpt id="p9">**</bpt>Disabled<ept id="p9">**</ept> et <bpt id="p10">**</bpt>Manual<ept id="p10">**</ept></target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>State</source>
+          <target state="translated">State</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Indicates the state you want to ensure for the service.</source>
+          <target state="translated">Indique l’état que vous voulez assurer pour le service.</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Example</source>
+          <target state="translated">Exemple</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <header xmlns="">
+    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ca609ad6055d8053e43e482ed2e57b3db41c3549</xliffext:olfilehash>
+  </header>
+</xliff>
