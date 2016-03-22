@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="ja-jp">
+    <body>
+      <group id="main" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell 4.0 Desired State Configuration Local Configuration Manager (LCM)</source>
+          <target state="translated">Windows PowerShell 4.0 Desired State Configuration のローカル構成マネージャー (LCM)</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</source>
+          <target state="translated">適用先: Windows PowerShell 4.0、Windows PowerShell 5.0</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Local Configuration Manager is the Windows PowerShell Desired State Configuration (DSC) engine.</source>
+          <target state="translated">ローカル構成マネージャーは、Windows PowerShell Desired State Configuration (DSC) エンジンです。</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>It runs on all target nodes, and it is responsible for calling the configuration resources that are included in a DSC configuration script.</source>
+          <target state="translated">すべてのターゲット ノードで実行され、DSC 構成スクリプトに含まれている構成リソースを呼び出します。</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This topic lists the properties of Local Configuration Manager and describes how you can modify the Local Configuration Manager settings on a target node.</source>
+          <target state="translated">このトピックでは、ローカル構成マネージャーのプロパティを一覧表示し、ターゲット ノードでローカル構成マネージャーの設定を変更する方法について説明します。</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Local Configuration Manager properties</source>
+          <target state="translated">ローカル構成マネージャーのプロパティ</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The following lists the Local Configuration Manager properties that you can set or retrieve.</source>
+          <target state="translated">設定または取得できるローカル構成マネージャーのプロパティを次に示します。</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>AllowModuleOverwrite<ept id="p1">**</ept>: Controls whether new configurations downloaded from the configuration server are allowed to overwrite the old ones on the target node.</source>
+          <target state="translated"><bpt id="p1">**</bpt>AllowModuleOverwrite<ept id="p1">**</ept>: 構成サーバーからダウンロードされた新しい構成がターゲット ノードの古い構成を上書きできるかどうかを制御します。</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Possible values are True and False.</source>
+          <target state="translated">設定可能な値は True および False です。</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p2">**</bpt>CertificateID<ept id="p2">**</ept>: GUID a certificate used to secure credentials for access to the configuration.</source>
+          <target state="translated"><bpt id="p2">**</bpt>CertificateID<ept id="p2">**</ept>: 構成へのアクセスの資格情報をセキュリティ保護するために使用される証明書の GUID。</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For more information see <bpt id="p3">[</bpt>Want to secure credentials in Windows PowerShell Desired State Configuration?<ept id="p3">](http://blogs.msdn.com/b/powershell/archive/2014/01/31/want-to-secure-credentials-in-windows-powershell-desired-state-configuration.aspx)</ept>.</source>
+          <target state="translated">詳細については、「<bpt id="p3">[</bpt>Want to secure credentials in Windows PowerShell Desired State Configuration? (Windows PowerShell Desired State Configuration で資格情報をセキュリティ保護する)<ept id="p3">](http://blogs.msdn.com/b/powershell/archive/2014/01/31/want-to-secure-credentials-in-windows-powershell-desired-state-configuration.aspx)</ept>」を参照してください。</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p4">**</bpt>ConfigurationID<ept id="p4">**</ept>: Indicates a GUID which is used to get a particular configuration file from a server set up as a “pull” server.</source>
+          <target state="translated"><bpt id="p4">**</bpt>ConfigurationID<ept id="p4">**</ept>: "プル" サーバーとしてセットアップされたサーバーから特定の構成ファイルを取得するために使用する GUID を示します。</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The GUID ensures that the correct configuration file is accessed.</source>
+          <target state="translated">この GUID によって、適切な構成ファイルにアクセスできます。</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p5">**</bpt>ConfigurationMode<ept id="p5">**</ept>: Specifies how the Local Configuration Manager actually applies the configuration to the target nodes.</source>
+          <target state="translated"><bpt id="p5">**</bpt>ConfigurationMode<ept id="p5">**</ept>: ローカル構成マネージャーによってターゲット ノードに構成が実際に適用される方法を指定します。</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>It can take the following values:</source>
+          <target state="translated">次の値を指定できます。</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p6">**</bpt>ApplyOnly<ept id="p6">**</ept>: With this option, DSC applies the configuration and does nothing further unless a new configuration is detected, either by you sending a new configuration directly to the target node (“push”) or if you have configured a “pull” server and DSC discovers a new configuration when it checks with the “pull” server.</source>
+          <target state="translated"><bpt id="p6">**</bpt>ApplyOnly<ept id="p6">**</ept>: このオプションを使用すると、DSC によって構成が適用され、その後何も行われません。ただし、ターゲット ノードに直接新しい構成を送信した (プッシュ) 場合や、"プル" サーバーを構成しており、DSC が "プル" サーバーを確認して新しい構成を検出した場合を除きます。</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If the target node’s configuration drifts, no action is taken.</source>
+          <target state="translated">ターゲット ノードの構成のずれが発生した場合、アクションは実行されません。</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p7">**</bpt>ApplyAndMonitor<ept id="p7">**</ept>: With this option (which is the default), DSC applies any new configurations, whether sent by you directly to the target node or discovered on a “pull” server.</source>
+          <target state="translated"><bpt id="p7">**</bpt>ApplyAndMonitor<ept id="p7">**</ept>: このオプション (既定) を使用すると、新しい構成をターゲット ノードに直接送信した場合でも、"プル" サーバーで検出された場合でも、DSC によって新しい構成が適用されます。</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Thereafter, if the configuration of the target node drifts from the configuration file, DSC reports the discrepancy in logs.</source>
+          <target state="translated">その後、ターゲット ノードの構成が構成ファイルからずれた場合、DSC はログで不一致を報告します。</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For more about DSC logging, see <bpt id="p8">[</bpt>Using Event Logs to Diagnose Errors in Desired State Configuration<ept id="p8">](http://blogs.msdn.com/b/powershell/archive/2014/01/03/using-event-logs-to-diagnose-errors-in-desired-state-configuration.aspx)</ept>.</source>
+          <target state="translated">DSC ログの詳細については、「<bpt id="p8">[</bpt>Using Event Logs to Diagnose Errors in Desired State Configuration (Desired State Configuration でのイベント ログを使用したエラーの診断)<ept id="p8">](http://blogs.msdn.com/b/powershell/archive/2014/01/03/using-event-logs-to-diagnose-errors-in-desired-state-configuration.aspx)</ept>」を参照してください。</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p9">**</bpt>ApplyAndAutoCorrect<ept id="p9">**</ept>: With this option, DSC applies any new configurations, whether sent by you directly to the target node or discovered on a “pull” server.</source>
+          <target state="translated"><bpt id="p9">**</bpt>ApplyAndAutoCorrect<ept id="p9">**</ept>: このオプションを使用すると、新しい構成をターゲット ノードに直接送信した場合も、"プル" サーバーで検出された場合も、DSC によって新しい構成が適用されます。</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Thereafter, if the configuration of the target node drifts from the configuration file, DSC reports the discrepancy in logs, and then attempts to adjust the target node configuration to bring in compliance with the configuration file.</source>
+          <target state="translated">その後、ターゲット ノードの構成が構成ファイルからずれた場合、DSC はログで不一致を報告し、構成ファイルに準拠するようにターゲット ノードの構成を調整します。</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p10">**</bpt>ConfigurationModeFrequencyMins<ept id="p10">**</ept>: Represents the frequency (in minutes) at which the background application of DSC attempts to implement the current configuration on the target node.</source>
+          <target state="translated"><bpt id="p10">**</bpt>ConfigurationModeFrequencyMins<ept id="p10">**</ept>: DSC のバックグラウンド アプリケーションがターゲット ノード上の現在の構成の実装を試行する頻度を表します (分単位)。</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The default value is 15.</source>
+          <target state="translated">既定値は 15 です。</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This value can be set in conjunction with RefreshMode.</source>
+          <target state="translated">この値は、RefreshMode と組み合わせて設定することができます。</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>When RefreshMode is set to PULL, the target node contacts the configuration server at an interval set by RefreshFrequencyMins and downloads the current configuration.</source>
+          <target state="translated">RefreshMode を PULL に設定すると、ターゲット ノードは RefreshFrequencyMins の設定間隔で構成サーバーに接続し、現在の構成をダウンロードします。</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Regardless of the RefreshMode value, at the interval set by ConfigurationModeFrequencyMins, the consistency engine applies the latest configuration that was downloaded to the target node.</source>
+          <target state="translated">RefreshMode の値に関係なく、ConfigurationModeFrequencyMins の設定間隔で、整合性エンジンは、ターゲット ノードにダウンロードされた最新の構成を適用します。</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>RefreshFrequencyMins should be set to an integer multiple of ConfigurationModeFrequencyMins.</source>
+          <target state="translated">RefreshFrequencyMins は、ConfigurationModeFrequencyMins の倍数である整数に設定する必要があります。</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p11">**</bpt>Credential<ept id="p11">**</ept>: Indicates credentials (as with Get-Credential) required to access remote resources, such as to contact the configuration server.</source>
+          <target state="translated"><bpt id="p11">**</bpt>Credential<ept id="p11">**</ept>: 構成サーバーへの接続など、リモート リソースにアクセスするために必要な資格情報を示します (Get-Credential と同様)。</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p12">**</bpt>DownloadManagerCustomData<ept id="p12">**</ept>: Represents an array that contains custom data specific to the download manager.</source>
+          <target state="translated"><bpt id="p12">**</bpt>DownloadManagerCustomData<ept id="p12">**</ept>: ダウンロード マネージャーに固有のカスタム データを格納する配列を表します。</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p13">**</bpt>DownloadManagerName<ept id="p13">**</ept>: Indicates the name of the configuration and module download manager.</source>
+          <target state="translated"><bpt id="p13">**</bpt>DownloadManagerName<ept id="p13">**</ept>: 構成とモジュールのダウンロード マネージャーの名前を示します。</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p14">**</bpt>RebootNodeIfNeeded<ept id="p14">**</ept>: Certain configuration changes on a target node might require it to be restarted for the changes to be applied.</source>
+          <target state="translated"><bpt id="p14">**</bpt>RebootNodeIfNeeded<ept id="p14">**</ept>: ターゲット ノード上の特定の構成変更では、変更を適用するために再起動する必要がある場合があります。</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>With the value <bpt id="p15">**</bpt>True<ept id="p15">**</ept>, this property will restart the node as soon as the configuration has been completely applies, without further warning.</source>
+          <target state="translated">値 <bpt id="p15">**</bpt>True<ept id="p15">**</ept> を指定すると、このプロパティは、構成が完全に適用されるとすぐに、追加の警告なく、ノードを再起動します。</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p16">**</bpt>False<ept id="p16">**</ept> (the default value), the configuration will be completed, but the node must be restarted manually for the changes to take effect.</source>
+          <target state="translated"><bpt id="p16">**</bpt>False<ept id="p16">**</ept> (既定値) の場合は、構成が完了しても、変更を有効にするために、ノードを手動で再起動する必要があります。</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p17">**</bpt>RefreshFrequencyMins<ept id="p17">**</ept>: Used when you have set up a “pull” server.</source>
+          <target state="translated"><bpt id="p17">**</bpt>RefreshFrequencyMins<ept id="p17">**</ept>: "プル" サーバーをセットアップするときに使用します。</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Represents the frequency (in minutes) at which the Local Configuration Manager contacts a “pull” server to download the current configuration.</source>
+          <target state="translated">ローカル構成マネージャーが "プル" サーバーに接続して現在の構成をダウンロードする頻度 (分) を表します。</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This value can be set in conjunction with ConfigurationModeFrequencyMins.</source>
+          <target state="translated">この値は、ConfigurationModeFrequencyMins と組み合わせて設定することができます。</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>When RefreshMode is set to PULL, the target node contacts the “pull” server at an interval set by RefreshFrequencyMins and downloads the current configuration.</source>
+          <target state="translated">RefreshMode を PULL に設定すると、ターゲット ノードは RefreshFrequencyMins の設定間隔で "プル" サーバーに接続し、現在の構成をダウンロードします。</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>At the interval set by ConfigurationModeFrequencyMins, the consistency engine then applies the latest configuration that was downloaded to the target node.</source>
+          <target state="translated">その後、ConfigurationModeFrequencyMins の設定間隔で、整合性エンジンがターゲット ノードにダウンロードされた最新の構成を適用します。</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>If RefreshFrequencyMins is not set to an integer multiple of ConfigurationModeFrequencyMins, the system will round it up.</source>
+          <target state="translated">RefreshFrequencyMins が ConfigurationModeFrequencyMins の倍数である整数に設定されていない場合は、システムによって切り上げられます。</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The default value is 30.</source>
+          <target state="translated">既定値は 30 です。</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p18">**</bpt>RefreshMode<ept id="p18">**</ept>: Possible values are <bpt id="p19">**</bpt>Push<ept id="p19">**</ept> (the default) and <bpt id="p20">**</bpt>Pull<ept id="p20">**</ept>.</source>
+          <target state="translated"><bpt id="p18">**</bpt>RefreshMode<ept id="p18">**</ept>: 設定可能な値は <bpt id="p19">**</bpt>Push<ept id="p19">**</ept> (既定値) と <bpt id="p20">**</bpt>Pull<ept id="p20">**</ept> です。</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>In the “push” configuration, you must place a configuration file on each target node, using any client computer.</source>
+          <target state="translated">"プッシュ" 構成では、任意のクライアント コンピューターを使用して各ターゲット ノードに構成ファイル配置する必要があります。</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>In the “pull” mode, you must set up a “pull” server for Local Configuration Manager to contact and access the configuration files.</source>
+          <target state="translated">"プル" モードでは、ローカル構成マネージャーの "プル" サーバーを構成ファイルに接続およびアクセスするようにセットアップする必要があります。</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Example of updating Local Configuration Manager settings</source>
+          <target state="translated">ローカル構成マネージャー設定の更新の例</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>You can update the Local Configuration Manager settings of a target node by including a <bpt id="p21">**</bpt>LocalConfigurationManager<ept id="p21">**</ept> block inside the node block in a configuration script, as shown in the following example.</source>
+          <target state="translated">次の例に示すように、構成スクリプトのノード ブロックに <bpt id="p21">**</bpt>LocalConfigurationManager<ept id="p21">**</ept> ブロックを含めることによって、ターゲット ノードのローカル構成マネージャー設定を更新できます。</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Running the script in the previous example generates a MOF file that specifies and stores the desired settings.</source>
+          <target state="translated">前の例のスクリプトを実行すると、目的の設定を指定および格納する MOF ファイルが生成されます。</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>To apply the settings, you can use the <bpt id="p22">**</bpt>Set-DscLocalConfigurationManager<ept id="p22">**</ept> cmdlet, as shown in the following example.</source>
+          <target state="translated">設定を適用するには、次の例に示すように <bpt id="p22">**</bpt>Set-DscLocalConfigurationManager<ept id="p22">**</ept> コマンドレットを使用します。</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p23">**</bpt>Note<ept id="p23">**</ept>: For the <bpt id="p24">**</bpt>Path<ept id="p24">**</ept> parameter, you must specify the same path that you specified for the <bpt id="p25">**</bpt>OutputPath<ept id="p25">**</ept> parameter when you invoked the configuration in the previous example.</source>
+          <target state="translated"><bpt id="p23">**</bpt>注<ept id="p23">**</ept>: <bpt id="p24">**</bpt>Path<ept id="p24">**</ept> パラメーターには、前の例で構成を呼び出したときに <bpt id="p25">**</bpt>OutputPath<ept id="p25">**</ept> パラメーターに指定したパスと同じパスを指定する必要があります。</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>To see the current Local Configuration Manager settings, you can use the <bpt id="p26">**</bpt>Get-DscLocalConfigurationManager<ept id="p26">**</ept> cmdlet.</source>
+          <target state="translated">現在のローカル構成マネージャー設定を表示するには、<bpt id="p26">**</bpt>Get-DscLocalConfigurationManager<ept id="p26">**</ept> コマンドレットを使用します。</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>If you invoke this cmdlet with no parameters, by default it will get the Local Configuration Manager settings for the node on which you run it.</source>
+          <target state="translated">パラメーターなしでこのコマンドレットを呼び出す場合、既定では、ローカル構成マネージャーを実行しているノードのローカル構成マネージャー設定が取得されます。</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To specify another node, use the <bpt id="p27">**</bpt>CimSession<ept id="p27">**</ept> parameter with this cmdlet.</source>
+          <target state="translated">別のノードを指定するには、このコマンドレットで <bpt id="p27">**</bpt>CimSession<ept id="p27">**</ept> パラメーターを使用します。</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <header xmlns="">
+    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ef2664b6dd61bd55898971adf7e4a57f92be88cc</xliffext:olfilehash>
+  </header>
+</xliff>
