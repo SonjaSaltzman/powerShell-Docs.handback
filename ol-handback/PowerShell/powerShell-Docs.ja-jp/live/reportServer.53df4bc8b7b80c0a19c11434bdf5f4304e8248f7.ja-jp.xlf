@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="ja-jp">
+    <body>
+      <group id="main" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Using a DSC report server</source>
+          <target state="translated">DSC レポート サーバーの使用</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 5.0</source>
+          <target state="translated">適用先: Windows PowerShell 5.0</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> The report server described in this topic is not availalbe in PowerShell 4.0.</source>
+          <target state="translated"><bpt id="p1">**</bpt>注:<ept id="p1">**</ept> このトピックで説明しているレポート サーバーは、PowerShell 4.0 では使用できません。</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>For reporting in PowerShell 4.0, see Using a DSC compliance server.</source>
+          <target state="translated">PowerShell 4.0 でのレポートについては、「Using a DSC compliance server (DSC コンプライアンス サーバーの使用)」を参照してください。</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The Local Configuration Manager (LCM) of a node can be configured to send reports about its configuration status to a pull server, which can then be queried to retrieve that data.</source>
+          <target state="translated">構成の状態に関するレポートをプル サーバーに送信するように、ノードのローカル構成マネージャー (LCM) を構成できます。これにより、プル サーバーに対してクエリを実行してデータを取得できるようになります。</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Each time the node checks and applies
+a configuration, it sends a report to the report server.</source>
+          <target state="translated">ノードは、構成を確認して適用するたびに、
+レポート サーバーにレポートを送信します。</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>These reports are stored in a database on the server, and can be retrieved by calling the reporting web service.</source>
+          <target state="translated">これらのレポートは、サーバー上のデータベースに格納され、レポート Web サービスを呼び出すことで取得できます。</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Each report contains
+information such as what configurations were applied and whether they succeeded, the resources used, any errors that were thrown, and start and finish times.</source>
+          <target state="translated">各レポートには、
+適用された構成の内容、構成適用が成功したかどうか、使用されたリソース、スローされたエラー、開始時刻と終了時刻などの情報が含まれています。</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Configuring a node to send reports</source>
+          <target state="translated">レポートを送信するようにするためのノードの構成</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You tell a node to send reports to a server by using a <bpt id="p2">**</bpt>ReportServerWeb<ept id="p2">**</ept> block in the node's LCM configuration (for information about configuring the LCM,
+ see <bpt id="p3">[</bpt>Configuring the Local Configuration Manager<ept id="p3">](metaConfig.md)</ept>).</source>
+          <target state="translated">ノードがサーバーにレポートを送信するようにするには、そのノードの LCM 構成で <bpt id="p2">**</bpt>ReportServerWeb<ept id="p2">**</ept> ブロックを使用します (LCM の構成については、
+「<bpt id="p3">[</bpt>ローカル構成マネージャーの構成<ept id="p3">](metaConfig.md)</ept>」を参照してください)。</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The server to which the node sends reports must be set up as a web pull server (you cannot send reports
+ to an SMB share).</source>
+          <target state="translated">ノードからレポートを送信するサーバーは、Web プル サーバーとしてセットアップする必要があります 
+(SMB 共有にレポートを送信することはできません)。</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For information about setting up a pull server, see <bpt id="p4">[</bpt>Setting up a DSC web pull server<ept id="p4">](pullServer.md)</ept>.</source>
+          <target state="translated">プル サーバーのセットアップについては、「<bpt id="p4">[</bpt>DSC Web プル サーバーのセットアップ<ept id="p4">](pullServer.md)</ept>」を参照してください。</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The report server can be the same service from which
+ the node pulls configurations and gets resources, or it can be a different service.</source>
+          <target state="translated">レポート サーバーは、ノードが構成をプルしてリソースを取得するのと同じサービスにすることも、
+別のサービスにすることもできます。</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p5">**</bpt>ReportServerWeb<ept id="p5">**</ept> block, you specify the URL of the pull service
+ and a registration key that is known to the server.</source>
+          <target state="translated"><bpt id="p5">**</bpt>ReportServerWeb<ept id="p5">**</ept> ブロックには、プル サービスの URL と、
+サーバーに認識されている登録キーを指定します。</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The following configuration configures a node to pull configurations from one service, and send reports
+ to a service on a different server.</source>
+          <target state="translated">次の構成は、あるサービスから構成をプルし、別のサーバー上のサービスにレポートを送信するように
+ノードを構成しています。</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Getting report data</source>
+          <target state="translated">レポート データの取得</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Reports sent to the pull server are entered into a database on the server.</source>
+          <target state="translated">プル サーバーに送信されたレポートは、サーバー上のデータベースに格納されます。</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The reports are available through calls to the web service.</source>
+          <target state="translated">これらのレポートは、Web サービスを呼び出すことで利用できます。</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To retrieve reports for a specific node, 
+send an HTTP request to the report web service in the following form:
+<ph id="ph1">`http://CONTOSO-REPORT:8080/PSDSCReportServer.svc/Nodes(AgentID = MyNodeAgentId)/Reports`</ph> 
+where <ph id="ph2">`MyNodeAgentId`</ph> is the AgentId of the node for which you want to get reports.</source>
+          <target state="translated">特定のノードのレポートを取得するには、
+次の形式でレポート Web サービスに HTTP 要求を送信します。
+<ph id="ph1">`http://CONTOSO-REPORT:8080/PSDSCReportServer.svc/Nodes(AgentID = MyNodeAgentId)/Reports`</ph>
+ここで、<ph id="ph2">`MyNodeAgentId`</ph> はレポートを取得するノードの AgentId です。</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can get the AgentID for a node by calling <bpt id="p6">[</bpt>Get-DscLocalConfigurationManager<ept id="p6">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept>
+on that node.</source>
+          <target state="translated">ノードの AgentID を取得するには、そのノードで <bpt id="p6">[</bpt>Get-DscLocalConfigurationManager<ept id="p6">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept> を
+呼び出します。</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The reports are returned as an array of JSON objects.</source>
+          <target state="translated">レポートは、JSON オブジェクトの配列として返されます。</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The following script returns the reports for the node on which it is run:</source>
+          <target state="translated">次のスクリプトは、実行元のノードのレポートを返します。</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Viewing report data</source>
+          <target state="translated">レポート データの表示</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>If you set a variable to the result of the <bpt id="p7">**</bpt>GetReport<ept id="p7">**</ept> function, you can view the individual fields in an element of the array that is returned:</source>
+          <target state="translated"><bpt id="p7">**</bpt>GetReport<ept id="p7">**</ept> 関数の結果を変数に設定すると、返される配列の要素に個別のフィールドを表示できます。</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Notice that the <bpt id="p8">**</bpt>StatusData<ept id="p8">**</ept> field is an object with three properties: <bpt id="p9">**</bpt>NumberOfResources<ept id="p9">**</ept>, <bpt id="p10">**</bpt>Locale<ept id="p10">**</ept>, and <bpt id="p11">**</bpt>ResourcesInDesiredState<ept id="p11">**</ept>.</source>
+          <target state="translated"><bpt id="p8">**</bpt>StatusData<ept id="p8">**</ept> フィールドは、3 つのプロパティを持つオブジェクトです。<bpt id="p9">**</bpt>NumberOfResources<ept id="p9">**</ept>、<bpt id="p10">**</bpt>Locale<ept id="p10">**</ept>、および <bpt id="p11">**</bpt>ResourcesInDesiredState<ept id="p11">**</ept> です。</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p12">**</bpt>ResourcesInDesiredState<ept id="p12">**</ept>
+property is an array of objects that each have a number of properties.</source>
+          <target state="translated"><bpt id="p12">**</bpt>ResourcesInDesiredState<ept id="p12">**</ept>
+プロパティは、それそれが多数のプロパティを持つオブジェクトの配列です。</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The following script takes a single report as a parameter, iterates through its <bpt id="p13">**</bpt>ResourcesInDesiredState<ept id="p13">**</ept>
+array, and writes them to the console:</source>
+          <target state="translated">次のスクリプトは、パラメーターとして 1 つのレポートを取得し、その <bpt id="p13">**</bpt>ResourcesInDesiredState<ept id="p13">**</ept> 配列を反復処理し、
+それらをコンソールに書き込みます。</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Here is a sample output after calling the <bpt id="p14">**</bpt>GetStatusData<ept id="p14">**</ept> function:</source>
+          <target state="translated">次に、<bpt id="p14">**</bpt>GetStatusData<ept id="p14">**</ept> 関数を呼び出した後のサンプル出力を示します。</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Note that these examples are meant to give you an idea of what you can do with report data.</source>
+          <target state="translated">これらの例は、レポート データを使用してどのようなことができるかを理解するためのものです。</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>For an introduction on working with JSON in PowerShell, see
+<bpt id="p15">[</bpt>Playing with JSON and PowerShell<ept id="p15">](https://blogs.technet.microsoft.com/heyscriptingguy/2015/10/08/playing-with-json-and-powershell/)</ept>.</source>
+          <target state="translated">PowerShell での JSON の操作の概要については、
+「<bpt id="p15">[</bpt>Playing with JSON and PowerShell (JSON と PowerShell で遊ぶ)<ept id="p15">](https://blogs.technet.microsoft.com/heyscriptingguy/2015/10/08/playing-with-json-and-powershell/)</ept>」を参照してください。</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">参照</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p16">[</bpt>Configuring the Local Configuration Manager<ept id="p16">](metaConfig.md)</ept>
+<bpt id="p17">[</bpt>Setting up a DSC web pull server<ept id="p17">](pullServer.md)</ept>
+<bpt id="p18">[</bpt>Setting up a pull client using configuration names<ept id="p18">](pullClientConfigNames.md)</ept></source>
+          <target state="translated"><bpt id="p16">[</bpt>ローカル構成マネージャーの構成<ept id="p16">](metaConfig.md)</ept>
+<bpt id="p17">[</bpt>DSC Web プル サーバーのセットアップ<ept id="p17">](pullServer.md)</ept>
+<bpt id="p18">[</bpt>構成名を使用したプル クライアントのセットアップ<ept id="p18">](pullClientConfigNames.md)</ept></target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <header xmlns="">
+    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6753e6cbb4745a5da02aa68190d815383b552e12</xliffext:olfilehash>
+  </header>
+</xliff>
