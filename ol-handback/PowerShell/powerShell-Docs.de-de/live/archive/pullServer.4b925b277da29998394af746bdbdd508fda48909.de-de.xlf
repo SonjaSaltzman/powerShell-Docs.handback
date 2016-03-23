@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" target-language="de-de">
+  <file datatype="xml" original="md" source-language="en-US" target-language="de-de">
     <body>
-      <group id="main" extype="content">
+      <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
           <source>Setting up a DSC web pull server</source>
           <target state="translated">Einrichten eines DSC-Webpullservers</target>         
@@ -64,60 +64,60 @@
           <target state="translated">Rufen Sie das Cmdlet <bpt id="p1">[</bpt>Install-Module<ept id="p1">](https://technet.microsoft.com/en-us/library/dn807162.aspx)</ept> auf, um das Modul <bpt id="p2">**</bpt>xPSDesiredStateConfiguration<ept id="p2">**</ept> zu installieren.</target>         
         </trans-unit>
         <trans-unit id="116" translate="yes" xml:space="preserve">
-          <source><bpt id="p3">**</bpt>Note<ept id="p3">**</ept>: <bpt id="p4">**</bpt>Install-Module<ept id="p4">**</ept> is included in the <bpt id="p5">**</bpt>PowerShellGet<ept id="p5">**</ept> module, which is included in PowerShell 5.0.</source>
-          <target state="translated"><bpt id="p3">**</bpt>Hinweis<ept id="p3">**</ept>: <bpt id="p4">**</bpt>Install-Module<ept id="p4">**</ept> ist im Modul <bpt id="p5">**</bpt>PowerShellGet<ept id="p5">**</ept> enthalten, das Bestandteil von PowerShell 5.0 ist.</target>         
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: <bpt id="p2">**</bpt>Install-Module<ept id="p2">**</ept> is included in the <bpt id="p3">**</bpt>PowerShellGet<ept id="p3">**</ept> module, which is included in PowerShell 5.0.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Hinweis<ept id="p1">**</ept>: <bpt id="p2">**</bpt>Install-Module<ept id="p2">**</ept> ist im Modul <bpt id="p3">**</bpt>PowerShellGet<ept id="p3">**</ept> enthalten, das Bestandteil von PowerShell 5.0 ist.</target>         
         </trans-unit>
         <trans-unit id="117" translate="yes" xml:space="preserve">
-          <source>You can download the <bpt id="p6">**</bpt>PowerShellGet<ept id="p6">**</ept> module for PowerShell 3.0 and 4.0 at <bpt id="p7">[</bpt>PackageManagement PowerShell Modules Preview<ept id="p7">](https://www.microsoft.com/en-us/download/details.aspx?id=49186)</ept>.</source>
-          <target state="translated">Das Modul <bpt id="p6">**</bpt>PowerShellGet<ept id="p6">**</ept> für PowerShell 3.0 und 4.0 können Sie unter <bpt id="p7">[</bpt>PowerShell-Module „PackageManagement“ – Vorschau<ept id="p7">](https://www.microsoft.com/en-us/download/details.aspx?id=49186)</ept> herunterladen.</target>         
+          <source>You can download the <bpt id="p1">**</bpt>PowerShellGet<ept id="p1">**</ept> module for PowerShell 3.0 and 4.0 at <bpt id="p2">[</bpt>PackageManagement PowerShell Modules Preview<ept id="p2">](https://www.microsoft.com/en-us/download/details.aspx?id=49186)</ept>.</source>
+          <target state="translated">Das Modul <bpt id="p1">**</bpt>PowerShellGet<ept id="p1">**</ept> für PowerShell 3.0 und 4.0 können Sie unter <bpt id="p2">[</bpt>PowerShell-Module „PackageManagement“ – Vorschau<ept id="p2">](https://www.microsoft.com/en-us/download/details.aspx?id=49186)</ept> herunterladen.</target>         
         </trans-unit>
         <trans-unit id="118" translate="yes" xml:space="preserve">
           <source>Create a self-signed certificate with the subject <ph id="ph1">`"CN=PSDSCPullServerCert"`</ph> in the <ph id="ph2">`CERT:\LocalMachine\MY\`</ph> store.</source>
           <target state="translated">Erstellen Sie ein selbstsigniertes Zertifikat mit dem Betreff <ph id="ph1">`"CN=PSDSCPullServerCert"`</ph> im <ph id="ph2">`CERT:\LocalMachine\MY\`</ph>-Speicher.</target>         
         </trans-unit>
         <trans-unit id="119" translate="yes" xml:space="preserve">
-          <source>You can do this with the command <ph id="ph3">`New-SelfSignedCertificate  -CertStoreLocation 'CERT:\LocalMachine\MY' -DnsName "PSDSCPullServerCert"`</ph>.</source>
-          <target state="translated">Hierzu können Sie den Befehl <ph id="ph3">`New-SelfSignedCertificate  -CertStoreLocation 'CERT:\LocalMachine\MY' -DnsName "PSDSCPullServerCert"`</ph> verwenden.</target>         
+          <source>You can do this with the command <ph id="ph1">`New-SelfSignedCertificate  -CertStoreLocation 'CERT:\LocalMachine\MY' -DnsName "PSDSCPullServerCert"`</ph>.</source>
+          <target state="translated">Hierzu können Sie den Befehl <ph id="ph1">`New-SelfSignedCertificate  -CertStoreLocation 'CERT:\LocalMachine\MY' -DnsName "PSDSCPullServerCert"`</ph> verwenden.</target>         
         </trans-unit>
         <trans-unit id="120" translate="yes" xml:space="preserve">
-          <source>In the PowerShell ISE, start (F5) the following configuration script (included in the Example folder of the  <bpt id="p8">**</bpt>xPSDesiredStateConfiguration<ept id="p8">**</ept> module as Sample_xDscWebService.ps1).</source>
-          <target state="translated">Starten Sie (F5) in PowerShell ISE das folgende Konfigurationsskript (enthalten im Beispielordner des Moduls <bpt id="p8">**</bpt>xPSDesiredStateConfiguration<ept id="p8">**</ept> als Sample_xDscWebService.ps1).</target>         
+          <source>In the PowerShell ISE, start (F5) the following configuration script (included in the Example folder of the  <bpt id="p1">**</bpt>xPSDesiredStateConfiguration<ept id="p1">**</ept> module as Sample_xDscWebService.ps1).</source>
+          <target state="translated">Starten Sie (F5) in PowerShell ISE das folgende Konfigurationsskript (enthalten im Beispielordner des Moduls <bpt id="p1">**</bpt>xPSDesiredStateConfiguration<ept id="p1">**</ept> als Sample_xDscWebService.ps1).</target>         
         </trans-unit>
         <trans-unit id="121" translate="yes" xml:space="preserve">
           <source>This script sets up the pull server and a compliance server.</source>
           <target state="translated">Dieses Skript richtet den Pullserver und einen Kompatibilitätsserver ein.</target>         
         </trans-unit>
         <trans-unit id="122" translate="yes" xml:space="preserve">
-          <source>Run the configuration, passing the thumbprint of the self-signed certificate you created as the <bpt id="p9">**</bpt>certificateThumbPrint<ept id="p9">**</ept> parameter:</source>
-          <target state="translated">Führen Sie die Konfiguration aus, und übergeben Sie den Fingerabdruck des selbstsignierten Zertifikats, das Sie erstellt haben, mit dem Parameter <bpt id="p9">**</bpt>certificateThumbPrint<ept id="p9">**</ept>:</target>         
+          <source>Run the configuration, passing the thumbprint of the self-signed certificate you created as the <bpt id="p1">**</bpt>certificateThumbPrint<ept id="p1">**</ept> parameter:</source>
+          <target state="translated">Führen Sie die Konfiguration aus, und übergeben Sie den Fingerabdruck des selbstsignierten Zertifikats, das Sie erstellt haben, mit dem Parameter <bpt id="p1">**</bpt>certificateThumbPrint<ept id="p1">**</ept>:</target>         
         </trans-unit>
         <trans-unit id="123" translate="yes" xml:space="preserve">
           <source>Registration Key</source>
           <target state="translated">Registrierungsschlüssel</target>         
         </trans-unit>
         <trans-unit id="124" translate="yes" xml:space="preserve">
-          <source>To allow client nodes to register with the server so that they can use configuration names instead of a configuration ID, a registration key (which is a GUID known to both the server and the client node) must be placed in a file named <ph id="ph4">`RegistrationKeys.txt`</ph>.</source>
-          <target state="translated">Um zuzulassen, dass Clientknoten sich beim Server registrieren und Konfigurationsnamen anstelle einer Konfigurations-ID verwenden können, muss ein Registrierungsschlüssel (eine GUID, die dem Server- und dem Clientknoten bekannt ist) in eine Datei namens <ph id="ph4">`RegistrationKeys.txt`</ph> platziert werden.</target>         
+          <source>To allow client nodes to register with the server so that they can use configuration names instead of a configuration ID, a registration key (which is a GUID known to both the server and the client node) must be placed in a file named <ph id="ph1">`RegistrationKeys.txt`</ph>.</source>
+          <target state="translated">Um zuzulassen, dass Clientknoten sich beim Server registrieren und Konfigurationsnamen anstelle einer Konfigurations-ID verwenden können, muss ein Registrierungsschlüssel (eine GUID, die dem Server- und dem Clientknoten bekannt ist) in eine Datei namens <ph id="ph1">`RegistrationKeys.txt`</ph> platziert werden.</target>         
         </trans-unit>
         <trans-unit id="125" translate="yes" xml:space="preserve">
-          <source>By default, the pull server created by this example expects that file to be located in <ph id="ph5">`C:\Program Files\WindowsPowerShell\DscService`</ph>.</source>
-          <target state="translated">Standardmäßig erwartet der durch dieses Beispiel erstellte Pullserver die Datei unter <ph id="ph5">`C:\Program Files\WindowsPowerShell\DscService`</ph>.</target>         
+          <source>By default, the pull server created by this example expects that file to be located in <ph id="ph1">`C:\Program Files\WindowsPowerShell\DscService`</ph>.</source>
+          <target state="translated">Standardmäßig erwartet der durch dieses Beispiel erstellte Pullserver die Datei unter <ph id="ph1">`C:\Program Files\WindowsPowerShell\DscService`</ph>.</target>         
         </trans-unit>
         <trans-unit id="126" translate="yes" xml:space="preserve">
           <source>Create a text file with only one line consisting of the registration key and save it in that folder.</source>
           <target state="translated">Erstellen Sie eine Textdatei mit nur einer Zeile, die den Registrierungsschlüssel enthält, und speichern Sie sie in diesem Ordner.</target>         
         </trans-unit>
         <trans-unit id="127" translate="yes" xml:space="preserve">
-          <source><bpt id="p10">**</bpt>Note<ept id="p10">**</ept>: Registration keys are not supported in PowerShell 4.0.</source>
-          <target state="translated"><bpt id="p10">**</bpt>Hinweis<ept id="p10">**</ept>: Registrierungsschlüssel werden in PowerShell 4.0 nicht unterstützt.</target>         
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: Registration keys are not supported in PowerShell 4.0.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Hinweis<ept id="p1">**</ept>: Registrierungsschlüssel werden in PowerShell 4.0 nicht unterstützt.</target>         
         </trans-unit>
         <trans-unit id="128" translate="yes" xml:space="preserve">
           <source>Placing configurations and resources</source>
           <target state="translated">Platzieren von Konfigurationen und Ressourcen</target>         
         </trans-unit>
         <trans-unit id="129" translate="yes" xml:space="preserve">
-          <source>After the pull server setup completes, there is a new folder under <ph id="ph6">`$env:PROGRAMFILES\WindowsPowerShell`</ph> named "DscService".</source>
-          <target state="translated">Nach Abschluss des Setups des Pullservers ist unter <ph id="ph6">`$env:PROGRAMFILES\WindowsPowerShell`</ph> ein neuer Ordner mit dem Namen „DscService“ vorhanden.</target>         
+          <source>After the pull server setup completes, there is a new folder under <ph id="ph1">`$env:PROGRAMFILES\WindowsPowerShell`</ph> named "DscService".</source>
+          <target state="translated">Nach Abschluss des Setups des Pullservers ist unter <ph id="ph1">`$env:PROGRAMFILES\WindowsPowerShell`</ph> ein neuer Ordner mit dem Namen „DscService“ vorhanden.</target>         
         </trans-unit>
         <trans-unit id="130" translate="yes" xml:space="preserve">
           <source>In that folder, there are two folders named "Modules" and "Configuration".</source>
@@ -140,16 +140,16 @@
           <target state="translated">In den folgenden Themen wird das Einrichten von Pullclients im Detail beschrieben:</target>         
         </trans-unit>
         <trans-unit id="135" translate="yes" xml:space="preserve">
-          <source><ph id="ph7">[</ph>Setting up a DSC pull client using a configuration ID<ph id="ph8">](pullClientConfigID.md)</ph></source>
-          <target state="translated"><ph id="ph7">[</ph>Einrichten eines DSC-Pullclients mithilfe einer Konfigurations-ID<ph id="ph8">](pullClientConfigID.md)</ph></target>         
+          <source>Setting up a DSC pull client using a configuration ID</source>
+          <target state="translated">Einrichten eines DSC-Pullclients mithilfe einer Konfigurations-ID</target>         
         </trans-unit>
         <trans-unit id="136" translate="yes" xml:space="preserve">
-          <source><ph id="ph9">[</ph>Setting up a DSC pull client using configuration names<ph id="ph10">](pullClientConfigNames.md)</ph></source>
-          <target state="translated"><ph id="ph9">[</ph>Einrichten eines DSC-Pullclients mithilfe von Konfigurationsnamen<ph id="ph10">](pullClientConfigNames.md)</ph></target>         
+          <source>Setting up a DSC pull client using configuration names</source>
+          <target state="translated">Einrichten eines DSC-Pullclients mithilfe von Konfigurationsnamen</target>         
         </trans-unit>
         <trans-unit id="137" translate="yes" xml:space="preserve">
-          <source><ph id="ph11">[</ph>Partial configurations<ph id="ph12">](partialConfigs.md)</ph></source>
-          <target state="translated"><ph id="ph11">[</ph>Teilkonfigurationen<ph id="ph12">](partialConfigs.md)</ph></target>         
+          <source>Partial configurations</source>
+          <target state="translated">Teilkonfigurationen</target>         
         </trans-unit>
         <trans-unit id="138" translate="yes" xml:space="preserve">
           <source>Creating the MOF checksum</source>
@@ -160,49 +160,49 @@
           <target state="translated">Eine MOF-Konfigurationsdatei muss einer Prüfsummendatei zugeordnet werden, damit ein LCM auf einem Zielknoten die Konfiguration überprüfen kann.</target>         
         </trans-unit>
         <trans-unit id="140" translate="yes" xml:space="preserve">
-          <source>To create a checksum, call the <bpt id="p11">[</bpt>New-DSCCheckSum<ept id="p11">](https://technet.microsoft.com/en-us/library/dn521622.aspx)</ept> cmdlet.</source>
-          <target state="translated">Um eine Prüfsumme zu erstellen, rufen Sie das Cmdlet <bpt id="p11">[</bpt>New-DSCCheckSum<ept id="p11">](https://technet.microsoft.com/en-us/library/dn521622.aspx)</ept> auf.</target>         
+          <source>To create a checksum, call the <bpt id="p1">[</bpt>New-DSCCheckSum<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521622.aspx)</ept> cmdlet.</source>
+          <target state="translated">Um eine Prüfsumme zu erstellen, rufen Sie das Cmdlet <bpt id="p1">[</bpt>New-DSCCheckSum<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521622.aspx)</ept> auf.</target>         
         </trans-unit>
         <trans-unit id="141" translate="yes" xml:space="preserve">
-          <source>The cmdlet takes a <bpt id="p12">**</bpt>Path<ept id="p12">**</ept> parameter that specifies the folder where the configuration MOF is located.</source>
-          <target state="translated">Das Cmdlet verwendet einen <bpt id="p12">**</bpt>Path<ept id="p12">**</ept>-Parameter, der den Ordner angibt, in dem sich die MOF-Konfigurationsdatei befindet.</target>         
+          <source>The cmdlet takes a <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter that specifies the folder where the configuration MOF is located.</source>
+          <target state="translated">Das Cmdlet verwendet einen <bpt id="p1">**</bpt>Path<ept id="p1">**</ept>-Parameter, der den Ordner angibt, in dem sich die MOF-Konfigurationsdatei befindet.</target>         
         </trans-unit>
         <trans-unit id="142" translate="yes" xml:space="preserve">
-          <source>The cmdlet creates a checksum file named <ph id="ph13">`ConfigurationMOFName.mof.checksum`</ph>, where <ph id="ph14">`ConfigurationMOFName`</ph> is the name of the configuration mof file.</source>
-          <target state="translated">Das Cmdlet erstellt eine Prüfsummendatei mit dem Namen <ph id="ph13">`ConfigurationMOFName.mof.checksum`</ph>, wobei <ph id="ph14">`ConfigurationMOFName`</ph> der Name der MOF-Konfigurationsdatei ist.</target>         
+          <source>The cmdlet creates a checksum file named <ph id="ph1">`ConfigurationMOFName.mof.checksum`</ph>, where <ph id="ph2">`ConfigurationMOFName`</ph> is the name of the configuration mof file.</source>
+          <target state="translated">Das Cmdlet erstellt eine Prüfsummendatei mit dem Namen <ph id="ph1">`ConfigurationMOFName.mof.checksum`</ph>, wobei <ph id="ph2">`ConfigurationMOFName`</ph> der Name der MOF-Konfigurationsdatei ist.</target>         
         </trans-unit>
         <trans-unit id="143" translate="yes" xml:space="preserve">
           <source>If there are more than one configuration MOF files in the specified folder, a checksum is created for each configuration in the folder.</source>
           <target state="translated">Wenn in dem angegebenen Ordner mehrere MOF-Konfigurationsdateien vorhanden sind, wird für jede Konfiguration im Ordner eine Prüfsumme erstellt.</target>         
         </trans-unit>
         <trans-unit id="144" translate="yes" xml:space="preserve">
-          <source>The checksum file must be present in the same directory as the configuration MOF file (<ph id="ph15">`$env:PROGRAMFILES\WindowsPowerShell\DscService\Configuration`</ph> by default), and have the same name with the <ph id="ph16">`.checksum`</ph> extension appended.</source>
-          <target state="translated">Die Prüfsummendatei muss sich im gleichen Verzeichnis wie die MOF-Konfigurationsdatei befinden (standardmäßig <ph id="ph15">`$env:PROGRAMFILES\WindowsPowerShell\DscService\Configuration`</ph>). Sie muss den gleichen Namen mit der Erweiterung <ph id="ph16">`.checksum`</ph> haben.</target>         
+          <source>The checksum file must be present in the same directory as the configuration MOF file (<ph id="ph1">`$env:PROGRAMFILES\WindowsPowerShell\DscService\Configuration`</ph> by default), and have the same name with the <ph id="ph2">`.checksum`</ph> extension appended.</source>
+          <target state="translated">Die Prüfsummendatei muss sich im gleichen Verzeichnis wie die MOF-Konfigurationsdatei befinden (standardmäßig <ph id="ph1">`$env:PROGRAMFILES\WindowsPowerShell\DscService\Configuration`</ph>). Sie muss den gleichen Namen mit der Erweiterung <ph id="ph2">`.checksum`</ph> haben.</target>         
         </trans-unit>
         <trans-unit id="145" translate="yes" xml:space="preserve">
-          <source><bpt id="p13">**</bpt>Note<ept id="p13">**</ept>: If you change the configuration MOF file in any way, you must also recreate the checksum file.</source>
-          <target state="translated"><bpt id="p13">**</bpt>Hinweis<ept id="p13">**</ept>: Wenn Sie die MOF-Konfigurationsdatei in irgendeiner Weise ändern, müssen Sie auch die Prüfsummendatei neu erstellen.</target>         
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: If you change the configuration MOF file in any way, you must also recreate the checksum file.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Hinweis<ept id="p1">**</ept>: Wenn Sie die MOF-Konfigurationsdatei in irgendeiner Weise ändern, müssen Sie auch die Prüfsummendatei neu erstellen.</target>         
         </trans-unit>
         <trans-unit id="146" translate="yes" xml:space="preserve">
           <source>See also</source>
           <target state="translated">Siehe auch</target>         
         </trans-unit>
         <trans-unit id="147" translate="yes" xml:space="preserve">
-          <source><ph id="ph17">[</ph>Windows PowerShell Desired State Configuration Overview<ph id="ph18">](overview.md)</ph></source>
-          <target state="translated"><ph id="ph17">[</ph>Windows PowerShell DSC – Übersicht<ph id="ph18">](overview.md)</ph></target>         
+          <source>Windows PowerShell Desired State Configuration Overview</source>
+          <target state="translated">Windows PowerShell DSC – Übersicht</target>         
         </trans-unit>
         <trans-unit id="148" translate="yes" xml:space="preserve">
-          <source><ph id="ph19">[</ph>Enacting configurations<ph id="ph20">](enactingConfigurations.md)</ph></source>
-          <target state="translated"><ph id="ph19">[</ph>Inkraftsetzung von Konfigurationen<ph id="ph20">](enactingConfigurations.md)</ph></target>         
+          <source>Enacting configurations</source>
+          <target state="translated">Inkraftsetzung von Konfigurationen</target>         
         </trans-unit>
         <trans-unit id="149" translate="yes" xml:space="preserve">
-          <source><ph id="ph21">[</ph>How to retrieve node information from DSC pull server<ph id="ph22">](retrieveNodeInfo.md)</ph></source>
-          <target state="translated"><ph id="ph21">[</ph>Abrufen von Knoteninformationen vom DSC-Pullserver<ph id="ph22">](retrieveNodeInfo.md)</ph></target>         
+          <source>How to retrieve node information from DSC pull server</source>
+          <target state="translated">Abrufen von Knoteninformationen vom DSC-Pullserver</target>         
         </trans-unit>
       </group>
     </body>
   </file>
   <header xmlns="">
-    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">81a21499e1043cdd948f59dda3a727b1820d1542</xliffext:olfilehash>
+    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0ef3dedfc2ca50e9edf86f8bb8931d778c3005c4</xliffext:olfilehash>
   </header>
 </xliff>
