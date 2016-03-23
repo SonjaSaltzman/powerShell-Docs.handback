@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="zh-tw">
+    <body>
+      <group id="main" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Debugging DSC resources</source>
+          <target state="translated">偵錯 DSC 資源</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 5.0</source>
+          <target state="translated">適用於：Windows PowerShell 5.0</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In PowerShell 5.0, a new feature was introduced in Desired State Configuraiton (DSC) that allows you to debug a DSC resource as a configuration is being applied.</source>
+          <target state="translated">在 PowerShell 5.0 中，預期狀態設定 (DSC) 引進了新功能，可讓您將 DSC 資源當做已套用的設定偵錯。</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Enabling DSC debugging</source>
+          <target state="translated">啟用 DSC 偵錯</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Before you can debug a resource, you have to enable debugging by calling the <bpt id="p1">[</bpt>Enable-DscDebug<ept id="p1">](https://technet.microsoft.com/en-us/library/mt517870.aspx)</ept> cmdlet.</source>
+          <target state="translated">偵錯資源之前，您必須先呼叫 <bpt id="p1">[</bpt>Enable-DscDebug<ept id="p1">](https://technet.microsoft.com/en-us/library/mt517870.aspx)</ept> Cmdlet 啟用偵錯。</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This cmdlet takes a mandatory parameter, <bpt id="p2">**</bpt>BreakAll<ept id="p2">**</ept>.</source>
+          <target state="translated">這個 Cmdlet 使用強制參數 <bpt id="p2">**</bpt>BreakAll<ept id="p2">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can verify that debugging has been enabled by looking at the result of a call to <bpt id="p3">[</bpt>Get-DscLocalConfigurationManager<ept id="p3">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept>.</source>
+          <target state="translated">您可以查看呼叫 <bpt id="p3">[</bpt>Get-DscLocalConfigurationManager<ept id="p3">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept> 的結果，確認是否啟用偵錯。</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The following PowerShell output shows the result of enabling debugging:</source>
+          <target state="translated">下列 PowerShell 輸出會顯示啟用偵錯的結果：</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Starting a configuration with debug enabled</source>
+          <target state="translated">啟動啟用偵錯的設定</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To debug a DSC resource, you start a configuration that calls that resource.</source>
+          <target state="translated">若要偵錯 DSC 資源，您要啟動設定呼叫該資源。</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For this example, we'll look at a simple configuration that calls the <bpt id="p4">[</bpt>WindowsFeature<ept id="p4">](windowsfeatureResource.md)</ept> resource to ensure that the "WindowsPowerShellWebAccess" feature is installed:</source>
+          <target state="translated">本例中，我們會探討呼叫 <bpt id="p4">[</bpt>WindowsFeature<ept id="p4">](windowsfeatureResource.md)</ept> 資源的簡單設定，確定已安裝 "WindowsPowerShellWebAccess" 功能：</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>After compiling the configuration, start it by calling <bpt id="p5">[</bpt>Start-DscConfiguration<ept id="p5">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept>.</source>
+          <target state="translated">編譯設定之後，再呼叫 <bpt id="p5">[</bpt>Start-DscConfiguration<ept id="p5">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> 來啟動它。</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The configuration will stop when the
+Local Configuration Manager (LCM) calls into the first resoure in the configuration.</source>
+          <target state="translated">設定停止的時機為
+本機設定管理員 (LCM) 叫入設定的第一個資源。</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If you use the <ph id="ph1">`-Verbose`</ph> and <ph id="ph2">`-Wait`</ph> parameters, the output displays the lines you need to enter
+to start debugging.</source>
+          <target state="translated">如果使用 <ph id="ph1">`-Verbose`</ph> 和 <ph id="ph2">`-Wait`</ph> 參數，輸出會顯示您需要輸入的程式行
+以開始偵錯。</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>At this point, the LCM has called the resource, and come to the first break point.</source>
+          <target state="translated">此時，LCM 已呼叫資源且來到第一個中斷點。</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The last three lines in the output show you how to attach to the process and start debugging the resource script.</source>
+          <target state="translated">輸出中的最後三行會示範如何附加至處理程序，並開始偵錯資源指令碼。</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Debugging the resource script</source>
+          <target state="translated">偵錯資源指令碼</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Start a new instance of the PowerShell ISE.</source>
+          <target state="translated">啟動 PowerShell ISE 的新執行個體。</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In the console pane, enter the last three lines of output from the <ph id="ph3">`Start-DscConifiguration`</ph> output as commands, replacing <ph id="ph4">`&lt;credentials&gt;`</ph> with
+valid user credentials.</source>
+          <target state="translated">在主控台窗格中，輸入 <ph id="ph3">`Start-DscConifiguration`</ph> 輸出的最後三行輸出作為命令，將 <ph id="ph4">`&lt;credentials&gt;`</ph> 替換成
+有效的使用者認證。</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Here is the resulting output.</source>
+          <target state="translated">以下為得到的輸出。</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <header xmlns="">
+    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5740ae503616927c717ce17ce3d1ae146a88c411</xliffext:olfilehash>
+  </header>
+</xliff>
