@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="it-it">
+    <body>
+      <group id="main" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Troubleshooting DSC</source>
+          <target state="translated">Risoluzione dei problemi relativi a DSC</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</source>
+          <target state="translated">Si applica a: Windows PowerShell 4.0, Windows PowerShell 5.0</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This topic describes methods for getting your Desired State Configuration (DSC) scripts to run without error.</source>
+          <target state="translated">Questo argomento descrive i modi per eseguire gli script DSC (Desired State Configuration) senza errori.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>By using logs effectively to track down errors, and understanding how to recycle the cache to see the immediate results of your resource changes, you’ll be able to troubleshoot DSC more effectively.</source>
+          <target state="translated">Usando i registri in modo efficace per tenere traccia degli errori e comprendendo come riciclare la cache per vedere i risultati immediati delle modifiche alle risorse, sarà possibile risolvere in modo più efficace i problemi relativi a DSC.</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>These technics are discussed in two sections:</source>
+          <target state="translated">Queste tecniche vengono illustrate in due sezioni:</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>My script won’t run: <bpt id="p1">**</bpt>Using DSC logs to diagnose script errors<ept id="p1">**</ept></source>
+          <target state="translated">Lo script non viene eseguito: <bpt id="p1">**</bpt>Uso di registri DSC per diagnosticare gli errori di script<ept id="p1">**</ept></target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>My resources won’t update: <bpt id="p2">**</bpt>How to reset the cache<ept id="p2">**</ept></source>
+          <target state="translated">Le risorse non vengono aggiornate: <bpt id="p2">**</bpt>Come reimpostare la cache<ept id="p2">**</ept></target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>My script won’t run: Using DSC logs to diagnose script errors</source>
+          <target state="translated">Lo script non viene eseguito: Uso di registri DSC per diagnosticare gli errori di script</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Like all Windows software, DSC records errors and events in <bpt id="p3">[</bpt>logs<ept id="p3">](https://msdn.microsoft.com/library/windows/desktop/aa363632.aspx)</ept> that can be viewed from the <bpt id="p4">[</bpt>Event Viewer<ept id="p4">](http://windows.microsoft.com/windows/what-information-event-logs-event-viewer)</ept>.</source>
+          <target state="translated">Come tutti i software Windows, DSC registra errori ed eventi in <bpt id="p3">[</bpt>registri<ept id="p3">](https://msdn.microsoft.com/library/windows/desktop/aa363632.aspx)</ept> che possono essere visualizzati dal <bpt id="p4">[</bpt>Visualizzatore eventi<ept id="p4">](http://windows.microsoft.com/windows/what-information-event-logs-event-viewer)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Examining these logs can help you understand why a particular operation failed, and how to prevent failure in the future.</source>
+          <target state="translated">Esaminando questi registri è possibile comprendere perché un'operazione specifica non è riuscita e come evitare l'errore in futuro.</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Writing configuration scripts can be tricky, so to make tracking errors easier as you author, use the DSC Log resource to track the progress of your configuration in the DSC Analytic event log.</source>
+          <target state="translated">La scrittura di script di configurazione può essere complessa, quindi per rendere più semplice il rilevamento degli errori durante la scrittura è possibile usare la risorsa Log DSC per tenere traccia dello stato della configurazione nel registro eventi DSC Analytic.</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Where are DSC event logs?</source>
+          <target state="translated">Dove sono i registri eventi DSC?</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In Event Viewer, DSC events are in: <bpt id="p5">**</bpt>Applications and Services Logs/Microsoft/Windows/Desired State Configuration<ept id="p5">**</ept></source>
+          <target state="translated">Nel Visualizzatore eventi gli eventi DSC si trovano in: <bpt id="p5">**</bpt>Registri applicazioni e servizi/Microsoft/Windows/Desired State Configuration<ept id="p5">**</ept></target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The corresponding PowerShell cmdlet, <bpt id="p6">[</bpt>Get-WinEvent<ept id="p6">](https://technet.microsoft.com/library/hh849682.aspx)</ept>, can also be run to view the event logs:</source>
+          <target state="translated">Per visualizzare i registri eventi è anche possibile eseguire il cmdlet di PowerShell corrispondente, <bpt id="p6">[</bpt>Get-WinEvent<ept id="p6">](https://technet.microsoft.com/library/hh849682.aspx)</ept>:</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>As shown above, DSC’s primary log name is <bpt id="p7">**</bpt>Microsoft-&gt;Windows-&gt;DSC<ept id="p7">**</ept> (other log names under Windows are not shown here for brevity).</source>
+          <target state="translated">Come illustrato in precedenza, il nome del registro principale di DSC è <bpt id="p7">**</bpt>Microsoft-&gt;Windows-&gt;DSC<ept id="p7">**</ept> (gli altri nomi di registro in Windows non sono riportati per brevità).</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The primary name is appended to the channel name to create the complete log name.</source>
+          <target state="translated">Il nome principale viene aggiunto al nome del canale per creare il nome completo del registro.</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The DSC engine writes mainly into three types of logs: <bpt id="p8">[</bpt>Operational, Analytic, and Debug logs<ept id="p8">](https://technet.microsoft.com/library/cc722404.aspx)</ept>.</source>
+          <target state="translated">Il motore DSC scrive principalmente in tre tipi di registri: <bpt id="p8">[</bpt>registri di debug, operativo e analitico<ept id="p8">](https://technet.microsoft.com/library/cc722404.aspx)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Since the analytic and debug logs are turned off by default, you should enable them in Event Viewer.</source>
+          <target state="translated">Poiché i registri di debug e analitico sono disattivati per impostazione predefinita, è necessario abilitarli nel Visualizzatore eventi.</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To do this, open Event Viewer by typing eventvwr in Windows PowerShell; or, click the <bpt id="p9">**</bpt>Start<ept id="p9">**</ept> button, click <bpt id="p10">**</bpt>Control Panel<ept id="p10">**</ept>, click <bpt id="p11">**</bpt>Administrative Tools<ept id="p11">**</ept>, and then click <bpt id="p12">**</bpt>Event Viewer<ept id="p12">**</ept>.</source>
+          <target state="translated">A tale scopo, aprire il Visualizzatore eventi digitando eventvwr in Windows PowerShell oppure fare clic sul pulsante <bpt id="p9">**</bpt>Start<ept id="p9">**</ept>, scegliere <bpt id="p10">**</bpt>Pannello di controllo<ept id="p10">**</ept>, fare clic su <bpt id="p11">**</bpt>Strumenti di amministrazione<ept id="p11">**</ept> e quindi su <bpt id="p12">**</bpt>Visualizzatore eventi<ept id="p12">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p13">**</bpt>View<ept id="p13">**</ept> menu in Event viewer, click <bpt id="p14">**</bpt>Show Analytic and Debug Logs<ept id="p14">**</ept>.</source>
+          <target state="translated">Scegliere <bpt id="p13">**</bpt>Visualizza registri analitici e di debug<ept id="p13">**</ept> dal menu <bpt id="p14">**</bpt>Visualizza<ept id="p14">**</ept> del Visualizzatore eventi.</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The log name for the analytic channel is <bpt id="p15">**</bpt>Microsoft-Windows-Dsc/Analytic<ept id="p15">**</ept>, and the debug channel is <bpt id="p16">**</bpt>Microsoft-Windows-Dsc/Debug<ept id="p16">**</ept>.</source>
+          <target state="translated">Il nome del registro per il canale analitico è <bpt id="p15">**</bpt>Microsoft-Windows-Dsc/Analytic<ept id="p15">**</ept> e per il canale di debug è <bpt id="p16">**</bpt>Microsoft-Windows-Dsc/Debug<ept id="p16">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You could also use the <bpt id="p17">[</bpt>wevtutil<ept id="p17">](https://technet.microsoft.com/library/cc732848.aspx)</ept> utility to enable the logs, as shown in the following example.</source>
+          <target state="translated">È anche possibile usare l'utilità <bpt id="p17">[</bpt>wevtutil<ept id="p17">](https://technet.microsoft.com/library/cc732848.aspx)</ept> per abilitare i registri, come illustrato nell'esempio seguente.</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>What do DSC logs contain?</source>
+          <target state="translated">Cosa contengono i registri DSC?</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>DSC logs are split over the three log channels based on the importance of the message.</source>
+          <target state="translated">I registri DSC sono suddivisi in tre canali in base all'importanza del messaggio.</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The operational log in DSC contains all error messages, and can be used to identify a problem.</source>
+          <target state="translated">Il registro operativo in DSC contiene tutti i messaggi di errore e può essere usato per identificare un problema.</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The analytic log has a higher volume of events, and can identify where error(s) occurred.</source>
+          <target state="translated">Il registro analitico include un volume maggiore di eventi e consente di identificare la posizione in cui si sono verificati gli errori.</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This channel also contains verbose messages (if any).</source>
+          <target state="translated">Questo canale contiene anche i messaggi dettagliati, se disponibili.</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The debug log contains logs that can help you understand how the errors occurred.</source>
+          <target state="translated">Il registro di debug contiene registri che aiutano a capire come si sono verificati gli errori.</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>DSC event messages are structured such that every event message begins with a job ID that uniquely represents a DSC operation.</source>
+          <target state="translated">I messaggi di evento DSC sono strutturati in modo che ogni messaggio inizi con un ID processo che rappresenta in modo univoco un'operazione DSC.</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The example below attempts to obtain the message from the first event logged into the operational DSC log.</source>
+          <target state="translated">Nell'esempio seguente si tenta di ottenere il messaggio dal primo evento registrato nel registro operativo DSC.</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>DSC events are logged in a particular structure that enables the user to aggregate events from one DSC job.</source>
+          <target state="translated">Gli eventi DSC vengono registrati in una struttura specifica che consente all'utente di aggregare gli eventi relativi a un processo DSC.</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The structure is as follows:</source>
+          <target state="translated">La struttura è la seguente:</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p18">**</bpt>Job ID : \&lt;Guid\&gt;<ept id="p18">**</ept>
+<bpt id="p19">**</bpt>\&lt;Event Message\&gt;<ept id="p19">**</ept></source>
+          <target state="translated"><bpt id="p18">**</bpt>ID processo: \&lt;GUID\&gt;<ept id="p18">**</ept>
+<bpt id="p19">**</bpt>\&lt;Messaggio evento\&gt;<ept id="p19">**</ept></target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Gathering events from a single DSC operation</source>
+          <target state="translated">Raccolta di eventi da una singola operazione DSC</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>DSC event logs contain events generated by various DSC operations.</source>
+          <target state="translated">I registri eventi DSC contengono eventi generati da diverse operazioni DSC.</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>However, you’ll usually be concerned with the detail about just one particular operation.</source>
+          <target state="translated">In genere, tuttavia, all'utente interessano i dettagli solo di un'operazione specifica.</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>All DSC logs can be grouped by the job ID property that is unique for every DSC operation.</source>
+          <target state="translated">Tutti i registri DSC possono essere raggruppati in base alla proprietà ID processo, che è univoca per ogni operazione DSC.</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The job ID is displayed as the first property value in all DSC events.</source>
+          <target state="translated">L'ID processo viene visualizzato come primo valore della proprietà in tutti gli eventi DSC.</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The following steps explain how to accumulate all events in a grouped array structure.</source>
+          <target state="translated">I passaggi seguenti illustrano come riunire tutti gli eventi in una struttura di matrice raggruppata.</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Here, the variable <ph id="ph1">`$SeparateDscOperations`</ph> contains logs grouped by the job IDs.</source>
+          <target state="translated">In questo caso la variabile <ph id="ph1">`$SeparateDscOperations`</ph> contiene i registri raggruppati in base a ID processo.</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Each array element of this variable represents a group of events logged by a different DSC operation, allowing access to more information about the logs.</source>
+          <target state="translated">Ogni elemento della matrice di questa variabile rappresenta un gruppo di eventi registrati da un'operazione DSC diversa e consente l'accesso ad altre informazioni sui registri.</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You can extract the data in the variable <ph id="ph2">`$SeparateDscOperations`</ph> using <bpt id="p20">[</bpt>Where-Object<ept id="p20">](https://technet.microsoft.com/library/ee177028.aspx)</ept>.</source>
+          <target state="translated">È possibile estrarre i dati nella variabile <ph id="ph2">`$SeparateDscOperations`</ph> usando <bpt id="p20">[</bpt>Where-Object<ept id="p20">](https://technet.microsoft.com/library/ee177028.aspx)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Following are five scenarios in which you might want to extract data for troubleshooting DSC:</source>
+          <target state="translated">Di seguito sono illustrati cinque scenari in cui è possibile estrarre i dati per la risoluzione dei problemi relativi a DSC:</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>1: Operations failures</source>
+          <target state="translated">1: Errori relativi alle operazioni</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>All events have <bpt id="p21">[</bpt>severity levels<ept id="p21">](https://msdn.microsoft.com/library/dd996917(v=vs.85))</ept>.</source>
+          <target state="translated">Tutti gli eventi hanno <bpt id="p21">[</bpt>livelli di gravità<ept id="p21">](https://msdn.microsoft.com/library/dd996917(v=vs.85))</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This information can be used to identify the error events:</source>
+          <target state="translated">Queste informazioni possono essere usate per identificare gli eventi di errore:</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>2: Details of operations run in the last half hour</source>
+          <target state="translated">2: Dettagli delle operazioni eseguite nell'ultima mezz'ora</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><ph id="ph3">`TimeCreated`</ph>, a property of every Windows event, states the time the event was created.</source>
+          <target state="translated"><ph id="ph3">`TimeCreated`</ph>, una proprietà di ogni evento di Windows, indica l'ora di creazione dell'evento.</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Comparing this property with a particular date/time object can be used to filter all events:</source>
+          <target state="translated">Il confronto tra questa proprietà e un oggetto di data/ora specifico consente di filtrare tutti gli eventi:</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>3: Messages from the latest operation</source>
+          <target state="translated">3: Messaggi dell'operazione più recente</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The latest operation is stored in the first index of the array group <ph id="ph4">`$SeparateDscOperations`</ph>.</source>
+          <target state="translated">L'operazione più recente viene archiviata nel primo indice del gruppo di matrici <ph id="ph4">`$SeparateDscOperations`</ph>.</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Querying the group’s messages for index 0 returns all messages for the latest operation:</source>
+          <target state="translated">Eseguendo una query relativa ai messaggi del gruppo con indice 0, vengono restituiti tutti i messaggi per l'operazione più recente:</target>         
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>4: Error messages logged for recent failed operations</source>
+          <target state="translated">4: Messaggi di errore registrati per operazioni recenti non riuscite</target>         
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><ph id="ph5">`$SeparateDscOperations[0].Group`</ph> contains a set of events for the latest operation.</source>
+          <target state="translated"><ph id="ph5">`$SeparateDscOperations[0].Group`</ph> contiene un set di eventi per l'operazione più recente.</target>         
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Run the <ph id="ph6">`Where-Object`</ph> cmdlet to filter the events based on their level display name.</source>
+          <target state="translated">Eseguire il cmdlet <ph id="ph6">`Where-Object`</ph> per filtrare gli eventi in base al nome visualizzato del livello.</target>         
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Results are stored in the <ph id="ph7">`$myFailedEvent`</ph> variable, which can be further dissected to get the event message:</source>
+          <target state="translated">I risultati vengono archiviati nella variabile <ph id="ph7">`$myFailedEvent`</ph>, che può essere analizzata più in dettaglio per ottenere il messaggio di evento:</target>         
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>5: All events generated for a particular job ID.</source>
+          <target state="translated">5: Tutti gli eventi generati per un ID processo specifico.</target>         
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><ph id="ph8">`$SeparateDscOperations`</ph> is an array of groups, each of which has the name as the unique job ID.</source>
+          <target state="translated"><ph id="ph8">`$SeparateDscOperations`</ph> è una matrice di gruppi, ognuno dei quali ha un nome che rappresenta l'ID processo univoco.</target>         
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>By running the <ph id="ph9">`Where-Object`</ph> cmdlet, you can extract those groups of events that have a particular job ID:</source>
+          <target state="translated">Eseguendo il cmdlet <ph id="ph9">`Where-Object`</ph>, è possibile estrarre i gruppi di eventi con un ID processo specifico:</target>         
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Using xDscDiagnostics to analyze DSC logs</source>
+          <target state="translated">Uso di xDscDiagnostics per analizzare i registri DSC</target>         
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p22">**</bpt>xDscDiagnostics<ept id="p22">**</ept> is a PowerShell module that consists of two simple operations that can help analyze DSC failures on your machine: <ph id="ph10">`Get-xDscOperation`</ph> and <ph id="ph11">`Trace-xDscOperation`</ph>.</source>
+          <target state="translated"><bpt id="p22">**</bpt>xDscDiagnostics<ept id="p22">**</ept> è un modulo di PowerShell costituito da due semplici operazioni che consentono di analizzare gli errori di DSC nel computer in uso: <ph id="ph10">`Get-xDscOperation`</ph> e <ph id="ph11">`Trace-xDscOperation`</ph>.</target>         
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>These functions can help you identify all local events from past DSC operations, or DSC events on remote computers (with valid credentials).</source>
+          <target state="translated">Queste funzioni possono aiutare a identificare tutti gli eventi locali delle operazioni DSC passate oppure gli eventi DSC in computer remoti (con credenziali valide).</target>         
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Here, the term DSC Operation is used to define a single unique DSC execution from its start to its end.</source>
+          <target state="translated">Il termine operazione DSC in questo ambito viene usato per definire una singola esecuzione di DSC univoca, dall'inizio alla fine.</target>         
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>For example, <ph id="ph12">`Test-DscConfiguration`</ph> would be a separate DSC Operation.</source>
+          <target state="translated">Ad esempio, <ph id="ph12">`Test-DscConfiguration`</ph> sarebbe un'operazione DSC distinta.</target>         
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Similarly, every other cmdlet in DSC (such as <ph id="ph13">`Get-DscConfiguration`</ph>, <ph id="ph14">`Start-DscConfiguration`</ph>, etc.) could each be identified as separate DSC operations.</source>
+          <target state="translated">Allo stesso modo, ogni altro cmdlet in DSC (ad esempio <ph id="ph13">`Get-DscConfiguration`</ph>, <ph id="ph14">`Start-DscConfiguration`</ph> e così via) può essere identificato come operazione DSC distinta.</target>         
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The two cmdlets are explained in <bpt id="p23">[</bpt>xDscDiagnostics<ept id="p23">](https://powershellgallery.com/packages/xDscDiagnostics)</ept> PowerShell Module (DSC Resource Kit) and in more detail below.</source>
+          <target state="translated">I due cmdlet sono illustrati nel modulo <bpt id="p23">[</bpt>xDscDiagnostics<ept id="p23">](https://powershellgallery.com/packages/xDscDiagnostics)</ept> di PowerShell (DSC Resource Kit) e in dettaglio più avanti.</target>         
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Help is available by running <ph id="ph15">`Get-Help &lt;cmdlet name&gt;`</ph>.</source>
+          <target state="translated">La Guida è disponibile eseguendo <ph id="ph15">`Get-Help &lt;cmdlet name&gt;`</ph>.</target>         
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Get-xDscOperation</source>
+          <target state="translated">Get-xDscOperation</target>         
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>This cmdlet lets you find the results of the DSC operations that run on one or multiple computers, and returns an object that contains the collection of events produced by each DSC operation.</source>
+          <target state="translated">Questo cmdlet consente di trovare i risultati delle operazioni DSC eseguite in uno o più computer e restituisce un oggetto che contiene la raccolta di eventi generati da ogni operazione DSC.</target>         
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>For example, in the following output, three commands were run.</source>
+          <target state="translated">Nell'output seguente, ad esempio, sono stati eseguiti tre comandi.</target>         
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The first one passed, and the other two failed.</source>
+          <target state="translated">Il primo ha avuto esito positivo e gli altri due esito negativo.</target>         
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>These results are summarized in the output of <ph id="ph16">`Get-xDscOperation`</ph>.</source>
+          <target state="translated">Questi risultati sono riepilogati nell'output di <ph id="ph16">`Get-xDscOperation`</ph>.</target>         
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>TODO: Replace this image that shows Get-xDscOperation output</source>
+          <target state="translated">TODO: Sostituire questa immagine che mostra l'output di Get-xDscOperation</target>         
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Parameters</source>
+          <target state="translated">Parametri</target>         
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p24">**</bpt>Newest<ept id="p24">**</ept>: Accepts an integer value to indicate the number of operations to be displayed.</source>
+          <target state="translated"><bpt id="p24">**</bpt>Newest<ept id="p24">**</ept>: accetta un valore intero che indica il numero di operazioni da visualizzare.</target>         
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>By default, it returns 10 newest operations.</source>
+          <target state="translated">Per impostazione predefinita, vengono restituite le 10 operazioni più recenti.</target>         
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>For instance,
+TODO: Show Get-xDscOperation -Newest 5</source>
+          <target state="translated">Ad esempio:
+TODO: Mostrare Get-xDscOperation -Newest 5</target>         
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><bpt id="p25">**</bpt>ComputerName<ept id="p25">**</ept>: Parameter that accepts an array of strings, each containing the name of a computer from where you’d like to collect DSC event log data.</source>
+          <target state="translated"><bpt id="p25">**</bpt>ComputerName<ept id="p25">**</ept>: parametro che accetta una matrice di stringhe, ognuna delle quali contiene il nome di un computer da cui raccogliere dati del registro eventi DSC.</target>         
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>By default, it collects data from the host machine.</source>
+          <target state="translated">Per impostazione predefinita, vengono raccolti i dati dal computer host.</target>         
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>To enable this feature, you must run the following command in the remote machines, in elevated mode so that the will allow collection of events</source>
+          <target state="translated">Per abilitare questa funzionalità, è necessario eseguire il comando seguente nei computer remoti, in modalità con privilegi elevati in modo che sia consentita la raccolta di eventi.</target>         
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><bpt id="p26">**</bpt>Credential<ept id="p26">**</ept>: Parameter that is of type PSCredential, which can help access to the computers specified in the ComputerName parameter.</source>
+          <target state="translated"><bpt id="p26">**</bpt>Credential<ept id="p26">**</ept>: parametro di tipo PSCredential, che consente l'accesso ai computer specificati nel parametro ComputerName.</target>         
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Returned object</source>
+          <target state="translated">Oggetto restituito</target>         
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The cmdlet returns an array of objects each of type <bpt id="p27">**</bpt>Microsoft.PowerShell.xDscDiagnostics.GroupedEvents<ept id="p27">**</ept>.</source>
+          <target state="translated">Il cmdlet restituisce una matrice di oggetti, ognuno di tipo <bpt id="p27">**</bpt>Microsoft.PowerShell.xDscDiagnostics.GroupedEvents<ept id="p27">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Each object in this array pertains to a different DSC operation.</source>
+          <target state="translated">Ogni oggetto nella matrice si riferisce a un'operazione DSC distinta.</target>         
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The default display for this object has the following properties</source>
+          <target state="translated">La visualizzazione predefinita per questo oggetto ha le proprietà seguenti:</target>         
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><bpt id="p28">**</bpt>SequenceID<ept id="p28">**</ept>: Specifies the incremental number assigned to the DSC operation based on time.</source>
+          <target state="translated"><bpt id="p28">**</bpt>SequenceID<ept id="p28">**</ept>: specifica il numero incrementale assegnato all'operazione DSC in base a quando viene eseguita.</target>         
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>For example, the last executed operation would have SequenceID as 1, the second to last DSC operation would have SequenceID of 2, and so on.</source>
+          <target state="translated">Ad esempio, l'ultima operazione eseguita ha un valore SequenceID pari a 1, la penultima operazione DSC ha un valore SequenceID pari a 2 e così via.</target>         
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>This number is another identifier for each object in the returned array.</source>
+          <target state="translated">Questo numero è un altro identificatore per ogni oggetto nella matrice restituita.</target>         
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source><bpt id="p29">**</bpt>TimeCreated<ept id="p29">**</ept>: A DateTime value that indicates when the DSC operation began.</source>
+          <target state="translated"><bpt id="p29">**</bpt>TimeCreated<ept id="p29">**</ept>: valore DateTime che indica quando è iniziata l'operazione DSC.</target>         
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><bpt id="p30">**</bpt>ComputerName<ept id="p30">**</ept>: The computer name from where the results are aggregated.</source>
+          <target state="translated"><bpt id="p30">**</bpt>ComputerName<ept id="p30">**</ept>: nome del computer da cui vengono aggregati i risultati.</target>         
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source><bpt id="p31">**</bpt>Result<ept id="p31">**</ept>: A string with value <bpt id="p32">**</bpt>Failure<ept id="p32">**</ept> or <bpt id="p33">**</bpt>Success<ept id="p33">**</ept> that indicates if that DSC operation had an error or not, respectively.</source>
+          <target state="translated"><bpt id="p31">**</bpt>Result<ept id="p31">**</ept>: stringa con valore <bpt id="p32">**</bpt>Failure<ept id="p32">**</ept> o <bpt id="p33">**</bpt>Success<ept id="p33">**</ept>, che indica se l'operazione DSC ha restituito un errore o no.</target>         
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><bpt id="p34">**</bpt>AllEvents<ept id="p34">**</ept>: An object that represents a collection of events produced by the DSC operation.</source>
+          <target state="translated"><bpt id="p34">**</bpt>AllEvents<ept id="p34">**</ept>: oggetto che rappresenta una raccolta di eventi generati dall'operazione DSC.</target>         
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>For example, the following output shows results of the last operation from multiple computers:
+  TODO: Replace picture for Get-xDscOperation to display remote computer logs</source>
+          <target state="translated">Ad esempio, l'output seguente mostra i risultati dell'ultima operazione da più computer:
+  TODO: Sostituire l'immagine per Get-xDscOperation per visualizzare i registri dei computer remoti</target>         
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Trace-xDscOperation</source>
+          <target state="translated">Trace-xDscOperation</target>         
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>This cmdlet returns an object containing a collection of events, their event types, and the message output generated from a particular DSC operation.</source>
+          <target state="translated">Questo cmdlet restituisce un oggetto contenente una raccolta di eventi, i relativi tipi e l'output del messaggio generato da un'operazione DSC specifica.</target>         
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Typically, when you find a failure in any of the operations using <ph id="ph17">`Get-xDscOperation`</ph>, you would trace that operation to find out which of the events caused a failure.</source>
+          <target state="translated">In genere, quando viene individuato un errore in un'operazione tramite <ph id="ph17">`Get-xDscOperation`</ph>, è necessario tracciare tale operazione per determinare gli eventi che hanno causato l'errore.</target>         
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Parameters</source>
+          <target state="translated">Parametri</target>         
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source><bpt id="p35">**</bpt>SequenceID<ept id="p35">**</ept>: This is the integer value assigned to any operation, pertaining to a specific computer.</source>
+          <target state="translated"><bpt id="p35">**</bpt>SequenceID<ept id="p35">**</ept>: valore intero assegnato a qualsiasi operazione, relativamente a un computer specifico.</target>         
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>By specifying a sequence ID of say, 4, the trace for the DSC operation that was 4th from the last will be output</source>
+          <target state="translated">Specificando, ad esempio, un ID di sequenza pari a 4, l'output restituito corrisponde alla traccia per la quartultima operazione DSC.</target>         
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Trace-xDscOperation with sequence ID specified</source>
+          <target state="translated">Trace-xDscOperation con ID di sequenza specificato</target>         
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source><bpt id="p36">**</bpt>JobID<ept id="p36">**</ept>: This is the GUID value assigned by LCM xDscOperation to uniquely identify an operation.</source>
+          <target state="translated"><bpt id="p36">**</bpt>JobID<ept id="p36">**</ept>: valore GUID assegnato da xDscOperation di Gestione configurazione locale per identificare in modo univoco un'operazione.</target>         
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>when a JobID is specified, the trace of the corresponding DSC operation is output.</source>
+          <target state="translated">Quando viene specificato un valore di JobID, l'output è costituito dalla traccia dell'operazione DSC corrispondente.</target>         
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>TODO: Replace picture for Trace-xDscOperation taking JobID as a parameter</source>
+          <target state="translated">TODO: Sostituire l'immagine per Trace-xDscOperation con un parametro JobID</target>         
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source><bpt id="p37">**</bpt>ComputerName<ept id="p37">**</ept> and <bpt id="p38">**</bpt>Credential<ept id="p38">**</ept>: These parameters allow the trace to be collected from remote computers:</source>
+          <target state="translated"><bpt id="p37">**</bpt>ComputerName<ept id="p37">**</ept> e <bpt id="p38">**</bpt>Credential<ept id="p38">**</ept>: questi parametri consentono di raccogliere la traccia dai computer remoti:</target>         
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>TODO: Replace picture for Trace-xDscOperation run on a different compute</source>
+          <target state="translated">TODO: Sostituire l'immagine per Trace-xDscOperation in esecuzione in un computer diverso</target>         
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Note that, since <ph id="ph18">`Trace-xDscOperation`</ph> aggregates events from the Analytic, Debug, and operational logs, it will prompt you to enable these logs as described above.</source>
+          <target state="translated">Si noti che, poiché <ph id="ph18">`Trace-xDscOperation`</ph> aggrega gli eventi dei registri di debug, operativo e analitico, verrà chiesto di abilitare questi registri, come descritto in precedenza.</target>         
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Returned object</source>
+          <target state="translated">Oggetto restituito</target>         
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The cmdlet returns an array of objects, each of type <ph id="ph19">`Microsoft.PowerShell.xDscDiagnostics.TraceOutput`</ph>.</source>
+          <target state="translated">Questo cmdlet restituisce una matrice di oggetti, ognuno di tipo <ph id="ph19">`Microsoft.PowerShell.xDscDiagnostics.TraceOutput`</ph>.</target>         
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Each object in this array contains the following fields:</source>
+          <target state="translated">Ogni oggetto in questa matrice contiene i campi seguenti:</target>         
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source><bpt id="p39">**</bpt>ComputerName<ept id="p39">**</ept>: The name of the computer from where the logs are being collected.</source>
+          <target state="translated"><bpt id="p39">**</bpt>ComputerName<ept id="p39">**</ept>: nome del computer da cui vengono raccolti i registri.</target>         
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><bpt id="p40">**</bpt>EventType<ept id="p40">**</ept>: This is an enumerator type field that contains information on the type of event.</source>
+          <target state="translated"><bpt id="p40">**</bpt>EventType<ept id="p40">**</ept>: campo di tipo enumeratore che contiene informazioni sul tipo di evento.</target>         
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>It could be any of the following:</source>
+          <target state="translated">I tipi possibili sono i seguenti:</target>         
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source><bpt id="p41">*</bpt>Operational<ept id="p41">*</ept>: The event is from the operational log.</source>
+          <target state="translated"><bpt id="p41">*</bpt>Operational<ept id="p41">*</ept>: l'evento è incluso nel registro operativo.</target>         
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source><bpt id="p42">*</bpt>Analytic<ept id="p42">*</ept>: The event is from the analytic log.</source>
+          <target state="translated"><bpt id="p42">*</bpt>Analytic<ept id="p42">*</ept>: l'evento è incluso nel registro analitico.</target>         
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><bpt id="p43">*</bpt>Debug<ept id="p43">*</ept>: The event is from the debug log.</source>
+          <target state="translated"><bpt id="p43">*</bpt>Debug<ept id="p43">*</ept>: l'evento è incluso nel registro di debug.</target>         
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><bpt id="p44">*</bpt>Verbose<ept id="p44">*</ept>: Events output as verbose messages during execution.</source>
+          <target state="translated"><bpt id="p44">*</bpt>Verbose<ept id="p44">*</ept>: l'output degli eventi è costituito da messaggi dettagliati durante l'esecuzione.</target>         
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The verbose messages make it easy to identify the sequence of events that are published.</source>
+          <target state="translated">I messaggi dettagliati semplificano l'identificazione della sequenza di eventi pubblicati.</target>         
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source><bpt id="p45">*</bpt>Error<ept id="p45">*</ept>: Error events.</source>
+          <target state="translated"><bpt id="p45">*</bpt>Error<ept id="p45">*</ept>: eventi di errore.</target>         
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>By looking for the error events, you can usually quickly find the reason for the failure.</source>
+          <target state="translated">Cercando gli eventi di errore, in genere è possibile trovare rapidamente la causa dell'errore.</target>         
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source><bpt id="p46">**</bpt>TimeCreated<ept id="p46">**</ept>: A DateTime value indicating when the event was logged by DSC.</source>
+          <target state="translated"><bpt id="p46">**</bpt>TimeCreated<ept id="p46">**</ept>: valore DateTime che indica quando è stato registrato l'evento da DSC.</target>         
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source><bpt id="p47">**</bpt>Message<ept id="p47">**</ept>: The message that was logged by DSC into the event logs.</source>
+          <target state="translated"><bpt id="p47">**</bpt>Message<ept id="p47">**</ept>: messaggio registrato da DSC nei registri eventi.</target>         
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Following are fields in this object that can be used for more information about the event, but are not displayed by default:</source>
+          <target state="translated">Di seguito sono illustrati i campi di questo oggetto che è possibile usare per ottenere altre informazioni sull'evento, ma che non sono visualizzati per impostazione predefinita:</target>         
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source><bpt id="p48">**</bpt>JobID<ept id="p48">**</ept>: The job ID (GUID format) specific to that DSC operation.</source>
+          <target state="translated"><bpt id="p48">**</bpt>JobID<ept id="p48">**</ept>: ID processo (in formato GUID) specifico dell'operazione DSC.</target>         
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source><bpt id="p49">**</bpt>SequenceID<ept id="p49">**</ept>: The SequenceID unique to that DSC operation in that computer.</source>
+          <target state="translated"><bpt id="p49">**</bpt>SequenceID<ept id="p49">**</ept>: valore SequenceID univoco dell'operazione DSC nel computer.</target>         
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source><bpt id="p50">**</bpt>Event<ept id="p50">**</ept>: This is the actual event logged by DSC, of type <ph id="ph20">`System.Diagnostics.Eventing.Reader.EventLogRecord`</ph>.</source>
+          <target state="translated"><bpt id="p50">**</bpt>Event<ept id="p50">**</ept>: evento effettivo registrato da DSC, di tipo <ph id="ph20">`System.Diagnostics.Eventing.Reader.EventLogRecord`</ph>.</target>         
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>This can also the obtained by running the cmdlet <ph id="ph21">`Get-WinEvent`</ph>.</source>
+          <target state="translated">È possibile ottenere questo elemento anche eseguendo il cmdlet <ph id="ph21">`Get-WinEvent`</ph>.</target>         
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>It contains more information, such as the task, eventID, and level of the event.</source>
+          <target state="translated">Sono incluse informazioni aggiuntive, ad esempio attività, ID e livello dell'evento.</target>         
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Alternately, you can gather information on the events by saving the output of <ph id="ph22">`Trace-xDscOperation`</ph> into a variable.</source>
+          <target state="translated">In alternativa, è possibile raccogliere informazioni sugli eventi salvando l'output di <ph id="ph22">`Trace-xDscOperation`</ph> in una variabile.</target>         
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>You can use the following command to display all the events for a particular DSC operation:</source>
+          <target state="translated">È possibile usare il comando seguente per visualizzare tutti gli eventi per un'operazione DSC specifica:</target>         
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>This will display the same results as the <ph id="ph23">`Get-WinEvent`</ph> cmdlet, such as in the output below:
+  TODO: What output?</source>
+          <target state="translated">In questo modo, verranno visualizzati gli stessi risultati del cmdlet <ph id="ph23">`Get-WinEvent`</ph>, come nell'output seguente:
+  TODO: Quale output?</target>         
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Ideally, you would first use <ph id="ph24">`Get-xDscOperations`</ph> to list out the last few DSC configuration runs on your machines.</source>
+          <target state="translated">Idealmente, è consigliabile usare prima di tutto <ph id="ph24">`Get-xDscOperations`</ph> per elencare le ultime esecuzioni della configurazione DSC nei computer.</target>         
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Following this, you can examine any single operation (using its sequenceID or JobID) with <ph id="ph25">`Trace-xDscOperation`</ph> to discover what it did behind the scenes.</source>
+          <target state="translated">In seguito, è possibile esaminare qualsiasi singola operazione (usando il campo SequenceID o JobID) con <ph id="ph25">`Trace-xDscOperation`</ph> per determinare le azioni eseguite in background.</target>         
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>My resources won’t update: How to reset the cache</source>
+          <target state="translated">Le risorse non vengono aggiornate: Come reimpostare la cache</target>         
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The DSC engine caches resources implemented as a PowerShell module for efficiency purposes.</source>
+          <target state="translated">Il motore DSC memorizza nella cache le risorse implementate come modulo di PowerShell, per garantire maggiore efficienza.</target>         
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>However, this can cause problems when you are authoring a resource and testing it simultaneously because DSC will load the cached version until the process is restarted.</source>
+          <target state="translated">Tuttavia, ciò può provocare problemi quando si crea una risorsa e contemporaneamente la si testa, perché DSC carica la versione memorizzata nella cache fino a quando non viene riavviato il processo.</target>         
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The only way to make DSC load the newer version is to explicitly kill the process hosting the DSC engine.</source>
+          <target state="translated">Per fare in modo che DSC carichi la versione più recente, è necessario terminare in modo esplicito il processo che ospita il motore DSC.</target>         
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Similarly, when you run <ph id="ph26">`Start-DSCConfiguration`</ph>, after adding and modifying a custom resource, the modification may not execute unless, or until, the computer is rebooted.</source>
+          <target state="translated">Analogamente, quando si esegue <ph id="ph26">`Start-DSCConfiguration`</ph>, dopo l'aggiunta e la modifica di una risorsa personalizzata, la modifica potrebbe non venire applicata fino a quando il computer non viene riavviato.</target>         
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>This is because DSC runs in the WMI Provider Host Process (WmiPrvSE), and usually, there are many instances of WmiPrvSE running at once.</source>
+          <target state="translated">Ciò avviene perché DSC viene eseguito nel processo host del provider WMI (WmiPrvSE) e in genere ci sono molte istanze di WmiPrvSE in esecuzione contemporaneamente.</target>         
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>When you reboot, the host process is restarted and the cache is cleared.</source>
+          <target state="translated">Quando si riavvia, il processo host viene riavviato e la cache viene cancellata.</target>         
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>To successfully recycle the configuration and clear the cache without rebooting, you must stop and then restart the host process.</source>
+          <target state="translated">Per riciclare la configurazione e cancellare la cache senza riavviare il computer, è necessario arrestare e quindi riavviare il processo host.</target>         
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>This can be done on a per instance basis, whereby you identify the process, stop it, and restart it.</source>
+          <target state="translated">Questa operazione può essere eseguita per ogni istanza, identificando il processo, arrestandolo e riavviandolo.</target>         
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Or, you can use <ph id="ph27">`DebugMode`</ph>, as demonstrated below, to reload the PowerShell DSC resource.</source>
+          <target state="translated">In alternativa, è possibile usare <ph id="ph27">`DebugMode`</ph>, come illustrato di seguito, per ricaricare la risorsa PowerShell DSC.</target>         
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>To identify which process is hosting the DSC engine and stop it on a per instance basis, you can list the process ID of the WmiPrvSE which is hosting the DSC engine.</source>
+          <target state="translated">Per identificare il processo che ospita il motore DSC e arrestarlo per ogni istanza, è possibile elencare l'ID processo di WmiPrvSE che ospita il motore DSC.</target>         
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Then, to update the provider, stop the WmiPrvSE process using the commands below, and then run <bpt id="p51">**</bpt>Start-DscConfiguration<ept id="p51">**</ept> again.</source>
+          <target state="translated">Quindi, per aggiornare il provider, arrestare il processo WmiPrvSE usando i comandi seguenti ed eseguire <bpt id="p51">**</bpt>Start-DscConfiguration<ept id="p51">**</ept> di nuovo.</target>         
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Using DebugMode</source>
+          <target state="translated">Uso di DebugMode</target>         
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>You can configure the DSC Local Configuration Manager (LCM) to use <ph id="ph28">`DebugMode`</ph> to always clear the cache when the host process is restarted.</source>
+          <target state="translated">È possibile configurare Gestione configurazione locale per DSC in modo da usare <ph id="ph28">`DebugMode`</ph> per cancellare sempre la cache quando il processo host viene riavviato.</target>         
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>When set to <bpt id="p52">**</bpt>TRUE<ept id="p52">**</ept>, it causes the engine to always reload the PowerShell DSC resource.</source>
+          <target state="translated">Se l'impostazione è <bpt id="p52">**</bpt>TRUE<ept id="p52">**</ept>, il motore ricarica sempre la risorsa PowerShell DSC.</target>         
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Once you are done writing your resource, you can set it back to <bpt id="p53">**</bpt>FALSE<ept id="p53">**</ept> and the engine will revert to its behavior of caching the modules.</source>
+          <target state="translated">Dopo aver terminato di scrivere la risorsa, è possibile impostare di nuovo il valore su <bpt id="p53">**</bpt>FALSE<ept id="p53">**</ept> per ripristinare il comportamento del motore in base a cui i moduli vengono memorizzati nella cache.</target>         
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Following is a demonstration to show how <ph id="ph29">`DebugMode`</ph> can automatically refresh the cache.</source>
+          <target state="translated">Di seguito è illustrato in che modo <ph id="ph29">`DebugMode`</ph> può aggiornare automaticamente la cache.</target>         
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>First, let’s look at the default configuration:</source>
+          <target state="translated">Si analizzi prima di tutto la configurazione predefinita:</target>         
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>You can see that <ph id="ph30">`DebugMode`</ph> is set to <bpt id="p54">**</bpt>FALSE<ept id="p54">**</ept>.</source>
+          <target state="translated">È possibile vedere che <ph id="ph30">`DebugMode`</ph> è impostato su <bpt id="p54">**</bpt>FALSE<ept id="p54">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>To set up the <ph id="ph31">`DebugMode`</ph> demonstration, use the following PowerShell resource:</source>
+          <target state="translated">Per la dimostrazione di <ph id="ph31">`DebugMode`</ph>, usare la risorsa di PowerShell seguente:</target>         
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Now, author a configuration using the above resource called <ph id="ph32">`TestProviderDebugMode`</ph>:</source>
+          <target state="translated">Creare quindi una configurazione usando la risorsa precedente denominata <ph id="ph32">`TestProviderDebugMode`</ph>:</target>         
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>You will see that the contents of file: “<bpt id="p55">**</bpt>$env:SystemDrive\OutputFromTestProviderDebugMode.txt<ept id="p55">**</ept>” is <bpt id="p56">**</bpt>1<ept id="p56">**</ept>.</source>
+          <target state="translated">È possibile notare che contenuto del file: "<bpt id="p55">**</bpt>$env:SystemDrive\OutputFromTestProviderDebugMode.txt<ept id="p55">**</ept>" è <bpt id="p56">**</bpt>1<ept id="p56">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Now, update the provider code using the following script:</source>
+          <target state="translated">Aggiornare quindi il codice del provider usando lo script seguente:</target>         
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>This script generates a random number and updates the provider cade accordingly.</source>
+          <target state="translated">Questo script genera un numero casuale e aggiorna di conseguenza il codice del provider.</target>         
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>With <ph id="ph33">`DebugMode`</ph> set to false, the contents of the file “<bpt id="p57">**</bpt>$env:SystemDrive\OutputFromTestProviderDebugMode.txt<ept id="p57">**</ept>” are never changed.</source>
+          <target state="translated">Con <ph id="ph33">`DebugMode`</ph> impostato su false, i contenuti del file "<bpt id="p57">**</bpt>$env:SystemDrive\OutputFromTestProviderDebugMode.txt<ept id="p57">**</ept>" non vengono mai modificati.</target>         
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Now, set <ph id="ph34">`DebugMode`</ph> to <bpt id="p58">**</bpt>TRUE<ept id="p58">**</ept> in your configuration script:</source>
+          <target state="translated">A questo punto, impostare <ph id="ph34">`DebugMode`</ph> su <bpt id="p58">**</bpt>TRUE<ept id="p58">**</ept> nello script di configurazione:</target>         
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>When you run the above script again, you will see that the content of the file is different every time.</source>
+          <target state="translated">Quando si esegue di nuovo lo script precedente, si noterà che il contenuto del file è diverso ogni volta.</target>         
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>(You can run <ph id="ph35">`Get-DscConfiguration`</ph> to check it).</source>
+          <target state="translated">È possibile eseguire <ph id="ph35">`Get-DscConfiguration`</ph> per verificare.</target>         
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Below is the result of two additional runs (your results may be different when you run the script):</source>
+          <target state="translated">Di seguito è riportato il risultato di due esecuzioni aggiuntive (quando si esegue lo script, i risultati potrebbero essere diversi):</target>         
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">Vedere anche</target>         
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Reference</source>
+          <target state="translated">Riferimento</target>         
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source><ph id="ph36">[</ph>DSC Log Resource<ph id="ph37">](logResource.md)</ph></source>
+          <target state="translated"><ph id="ph36">[</ph>Risorsa Log DSC<ph id="ph37">](logResource.md)</ph></target>         
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Concepts</source>
+          <target state="translated">Concetti</target>         
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source><ph id="ph38">[</ph>Build Custom Windows PowerShell Desired State Configuration Resources<ph id="ph39">](authoringResource.md)</ph></source>
+          <target state="translated"><ph id="ph38">[</ph>Creare risorse Windows PowerShell DSC (Desired State Configuration) personalizzate<ph id="ph39">](authoringResource.md)</ph></target>         
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Other Resources</source>
+          <target state="translated">Risorse aggiuntive</target>         
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source><ph id="ph40">[</ph>Windows PowerShell Desired State Configuration Cmdlets<ph id="ph41">](https://technet.microsoft.com/en-us/library/dn521624(v=wps.630).aspx)</ph></source>
+          <target state="translated"><ph id="ph40">[</ph>Cmdlet di Windows PowerShell DSC (Desired State Configuration)<ph id="ph41">](https://technet.microsoft.com/en-us/library/dn521624(v=wps.630).aspx)</ph></target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <header xmlns="">
+    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2886767875ee6a9882ca050e34787cfa1fb64109</xliffext:olfilehash>
+  </header>
+</xliff>

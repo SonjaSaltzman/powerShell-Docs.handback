@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="it-it">
+    <body>
+      <group id="main" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Debugging DSC resources</source>
+          <target state="translated">Debug di risorse DSC</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 5.0</source>
+          <target state="translated">Si applica a: Windows PowerShell 5.0</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In PowerShell 5.0, a new feature was introduced in Desired State Configuraiton (DSC) that allows you to debug a DSC resource as a configuration is being applied.</source>
+          <target state="translated">In PowerShell 5.0 è stata introdotta una nuova funzionalità in DSC (Desired State Configuration) che permette di eseguire il debug di una risorsa DSC durante l'applicazione di una configurazione.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Enabling DSC debugging</source>
+          <target state="translated">Abilitazione del debug di DSC</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Before you can debug a resource, you have to enable debugging by calling the <bpt id="p1">[</bpt>Enable-DscDebug<ept id="p1">](https://technet.microsoft.com/en-us/library/mt517870.aspx)</ept> cmdlet.</source>
+          <target state="translated">Prima di poter eseguire il debug di una risorsa, è necessario abilitare il debug chiamando il cmdlet <bpt id="p1">[</bpt>Enable-DscDebug<ept id="p1">](https://technet.microsoft.com/en-us/library/mt517870.aspx)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This cmdlet takes a mandatory parameter, <bpt id="p2">**</bpt>BreakAll<ept id="p2">**</ept>.</source>
+          <target state="translated">Questo cmdlet accetta il parametro obbligatorio <bpt id="p2">**</bpt>BreakAll<ept id="p2">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can verify that debugging has been enabled by looking at the result of a call to <bpt id="p3">[</bpt>Get-DscLocalConfigurationManager<ept id="p3">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept>.</source>
+          <target state="translated">È possibile verificare che il debug sia stato abilitato osservando il risultato di una chiamata a <bpt id="p3">[</bpt>Get-DscLocalConfigurationManager<ept id="p3">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The following PowerShell output shows the result of enabling debugging:</source>
+          <target state="translated">L'output di PowerShell seguente mostra il risultato dell'abilitazione del debug:</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Starting a configuration with debug enabled</source>
+          <target state="translated">Avvio di una configurazione con il debug abilitato</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To debug a DSC resource, you start a configuration that calls that resource.</source>
+          <target state="translated">Per eseguire il debug di una risorsa DSC, è necessario avviare una configurazione che chiami la risorsa.</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For this example, we'll look at a simple configuration that calls the <bpt id="p4">[</bpt>WindowsFeature<ept id="p4">](windowsfeatureResource.md)</ept> resource to ensure that the "WindowsPowerShellWebAccess" feature is installed:</source>
+          <target state="translated">In questo esempio una semplice configurazione chiama la risorsa <bpt id="p4">[</bpt>WindowsFeature<ept id="p4">](windowsfeatureResource.md)</ept> per specificare che la funzionalità "WindowsPowerShellWebAccess" è installata:</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>After compiling the configuration, start it by calling <bpt id="p5">[</bpt>Start-DscConfiguration<ept id="p5">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept>.</source>
+          <target state="translated">Dopo aver compilato la configurazione, avviarla chiamando <bpt id="p5">[</bpt>Start-DscConfiguration<ept id="p5">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The configuration will stop when the
+Local Configuration Manager (LCM) calls into the first resoure in the configuration.</source>
+          <target state="translated">La configurazione verrà arrestata quando
+Gestione configurazione locale esegue una chiamata nella prima risorsa nella configurazione.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If you use the <ph id="ph1">`-Verbose`</ph> and <ph id="ph2">`-Wait`</ph> parameters, the output displays the lines you need to enter
+to start debugging.</source>
+          <target state="translated">Se si usano i parametri <ph id="ph1">`-Verbose`</ph> e <ph id="ph2">`-Wait`</ph>, l'output visualizza le righe che devono essere immesse
+per avviare il debug.</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>At this point, the LCM has called the resource, and come to the first break point.</source>
+          <target state="translated">A questo punto, Gestione configurazione locale ha chiamato la risorsa e ha raggiunto il primo punto di interruzione.</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The last three lines in the output show you how to attach to the process and start debugging the resource script.</source>
+          <target state="translated">Le ultime tre righe dell'output mostrano come collegarsi al processo e avviare il debug dello script della risorsa.</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Debugging the resource script</source>
+          <target state="translated">Debug dello script della risorsa</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Start a new instance of the PowerShell ISE.</source>
+          <target state="translated">Avviare una nuova istanza di PowerShell ISE.</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In the console pane, enter the last three lines of output from the <ph id="ph3">`Start-DscConifiguration`</ph> output as commands, replacing <ph id="ph4">`&lt;credentials&gt;`</ph> with
+valid user credentials.</source>
+          <target state="translated">Nel riquadro della console immettere le ultime tre righe di output dall'output di <ph id="ph3">`Start-DscConifiguration`</ph> come comandi, sostituendo <ph id="ph4">`&lt;credentials&gt;`</ph> con
+credenziali utente valide.</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Here is the resulting output.</source>
+          <target state="translated">Ecco l'output risultante.</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <header xmlns="">
+    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5740ae503616927c717ce17ce3d1ae146a88c411</xliffext:olfilehash>
+  </header>
+</xliff>
