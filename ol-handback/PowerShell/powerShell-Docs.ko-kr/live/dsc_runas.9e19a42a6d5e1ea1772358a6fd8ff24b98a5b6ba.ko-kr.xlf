@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="md" source-language="en-US" target-language="ko-kr">
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Automatic RunAs support for DSC Resources</source>
+          <target state="translated">DSC 리소스의 자동 RunAs 지원</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Support for DSC RunAs credential</source>
+          <target state="translated">DSC RunAs 자격 증명 지원</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>WMF 5.0 Preview April 2015 includes support for running <bpt id="p1">**</bpt>any<ept id="p1">**</ept> DSC resource under a specified set of credentials by using the property PsDscRunAsCredential.</source>
+          <target state="translated">WMF 5.0 Preview 2015년 4월에서는 PsDscRunAsCredential 속성을 사용하여 지정된 자격 증명 집합으로 <bpt id="p1">**</bpt>모든<ept id="p1">**</ept> DSC 리소스를 실행할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>It enables scenarios like installing MSI packages in a specific user context, accessing a user’s registry hive, accessing a user’s specific local directory, accessing a network share, etc.</source>
+          <target state="translated">특정 사용자 컨텍스트에서 MSI 패키지 설치, 사용자의 레지스트리 하이브 액세스, 사용자의 특정 로컬 디렉터리 액세스, 네트워크 공유 액세스 등의 시나리오를 사용합니다.</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The following shows an example of using the PsDscRunAsCredential property in DSC to change the background color of the command prompt of a user.</source>
+          <target state="translated">다음에서는 DSC의 PsDscRunAsCredential 속성을 사용하여 사용자의 명령 프롬프트 배경색을 변경하는 예제를 보여 줍니다.</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Configuration ChangeCmdBackGroundColor</source>
+          <target state="translated">구성 ChangeCmdBackGroundColor</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>{</source>
+          <target state="translated">{</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>}</source>
+          <target state="translated">}</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>$configData = @{</source>
+          <target state="translated">$configData = @{</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>AllNodes = @(</source>
+          <target state="translated">AllNodes = @(</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>@{</source>
+          <target state="translated">@{</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>NodeName="localhost";</source>
+          <target state="translated">NodeName="localhost";</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>CertificateFile = "C:\\publicKeys\\targetNode.cer"</source>
+          <target state="translated">CertificateFile = "C:\\publicKeys\\targetNode.cer"</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>}</source>
+          <target state="translated">}</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>}</source>
+          <target state="translated">}</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>ChangeCmdBackGroundColor -ConfigurationData $configData</source>
+          <target state="translated">ChangeCmdBackGroundColor -ConfigurationData $configData</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Known issues</source>
+          <target state="translated">알려진 문제</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In this release, the following are known issues of the DSC RunAs credential feature:</source>
+          <target state="translated">다음은 이번 릴리스에서 DSC RunAs 자격 증명 기능의 알려진 문제입니다.</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The WindowsProcess resource doesn’t support RunAs credential.</source>
+          <target state="translated">WindowsProcess 리소스에서 RunAs 자격 증명을 지원하지 않습니다.</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <header xmlns="">
+    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d4919d80c1b1f8509b4e581768dd6f74e9d01f0d</xliffext:olfilehash>
+  </header>
+</xliff>

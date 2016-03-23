@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="md" source-language="en-US" target-language="ko-kr">
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Separation of Node and Configuration IDs</source>
+          <target state="translated">노드 및 구성 ID의 분리</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Overview</source>
+          <target state="translated">개요</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In order to provide a more flexible and streamlined experience when using DSC in Pull mode, we have added a number of features in this release.</source>
+          <target state="translated">끌어오기 모드에서 DSC를 사용할 때 보다 유연하고 원활한 환경을 제공하기 위해 이번 릴리스에서 많은 기능을 추가했습니다.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>These features are intended to allow you to have the flexibility to easily setup and deploy configurations across multiple nodes, while still tracking status and reporting information for each node individually.</source>
+          <target state="translated">이러한 기능은 각 노드에 대해 개별적으로 상태를 추적하고 정보를 보고하면서 여러 노드 간에 구성을 쉽게 설정하고 배포할 수 있는 유연성을 제공하기 위한 것입니다.</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>These features are as follows:</source>
+          <target state="translated">이러한 기능은 다음과 같습니다.</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>A configuration name which identifies the configuration for a computer.</source>
+          <target state="translated">컴퓨터에 대한 구성을 식별하는 구성 이름.</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This name can be shared by multiple target nodes</source>
+          <target state="translated">이 이름은 여러 대상 노드에서 공유할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>An agent ID which uniquely identifies a single node</source>
+          <target state="translated">단일 노드를 고유하게 식별하는 에이전트 ID</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>A registration step which only occurs the first time a target node connects to a pull server</source>
+          <target state="translated">대상 노드가 끌어오기 서버에 처음으로 연결할 때만 수행되는 등록 단계</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> These features and functionality have been added and do not replace the existing pull features and concepts.</source>
+          <target state="translated"><bpt id="p1">**</bpt>참고:<ept id="p1">**</ept> 이러한 기능은 추가된 것이며 기존의 끌어오기 기능 및 개념을 대체하지 않습니다.</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can use these new features or the older ones with the new pull server shipping in this release.</source>
+          <target state="translated">이번 릴리스에서 제공되는 새로운 끌어오기 서버에서는 이러한 새로운 기능이나 이전 기능을 사용할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Agent ID</source>
+          <target state="translated">에이전트 ID</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This feature is for users who do not want to setup and manage unique identifiers for each target node.</source>
+          <target state="translated">이 기능은 각 대상 노드에 대해 고유 식별자를 설정하고 관리하지 않으려는 사용자를 위한 것입니다.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Now, there is no more bookkeeping of GUIDs required.</source>
+          <target state="translated">이제 더 이상 GUID를 기록할 필요가 없습니다.</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>DSC automatically generates an agent ID that it uses when communicating with the pull server.</source>
+          <target state="translated">DSC에서 끌어오기 서버와 통신할 때 사용하는 에이전트 ID를 자동으로 생성합니다.</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This ID is used by the pull server to uniquely identify all information with a given node.</source>
+          <target state="translated">이 ID는 끌어오기 서버에서 지정된 노드에 대한 모든 정보를 고유하게 식별하는 데 사용됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>It also means that you do not need to set up each target node with a unique meta-configuation containing a unique ID so a single meta-configuation can be used by many target nodes while still retaining each node's unique identity.</source>
+          <target state="translated">또한 고유 ID를 포함하는 고유한 meta-configuation으로 각 대상 노드를 설정할 필요가 없으므로 많은 대상 노드에서 각 노드의 고유 ID를 유지하면서 단일 meta-configuation을 사용할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Configuration name</source>
+          <target state="translated">구성 이름</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The configuration name is a friendly name that defines that name of the configuration that a target node will apply.</source>
+          <target state="translated">구성 이름은 대상 노드에서 적용할 구성의 이름을 정의하는 식별 이름입니다.</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The changes associated to this are as follows:</source>
+          <target state="translated">이 기능과 관련된 변경 내용은 다음과 같습니다.</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Friendly naming</source>
+          <target state="translated">식별 이름 지정</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This can be any string!</source>
+          <target state="translated">모든 문자열을 사용할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>It does not need to be in the format of a GUID so a configuration that sets up SQL server can simply be named 'SQL_Server'.</source>
+          <target state="translated">GUID 형식일 필요가 없으므로 SQL server를 설정하는 구성의 경우 이름을 'SQL_Server'라고만 지정하면 됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This makes it much easier to identify what a given configuration does.</source>
+          <target state="translated">따라서 특정 구성의 용도를 훨씬 더 쉽게 식별할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Assignment</source>
+          <target state="translated">할당</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The configuration that a target node is assigned is centrally managed on the pull server.</source>
+          <target state="translated">대상 노드가 할당되는 구성은 끌어오기 서버의 중앙에서 관리됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This can be bootstrapped by defining the ConfigrationName property in the meta-configuration but this is only used during registration.</source>
+          <target state="translated">이 기능은 메타 구성에서 ConfigrationName 속성을 정의하여 부트스트랩할 수 있지만 등록하는 동안에만 사용됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>After registration, the server tells the target node what configuration it will get.</source>
+          <target state="translated">등록 후에는 서버가 가져올 구성을 대상 노드에 알립니다.</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For the on-premises pull server this mapping between configurations and target nodes can only be done during registration, but in Azure Automation these changes can be made easily in the UI or through their cmdlets.</source>
+          <target state="translated">온-프레미스 끌어오기 서버의 경우 구성과 대상 노드 간의 이 매핑을 등록 중에만 수행할 수 있지만 Azure 자동화에서는 UI나 해당 cmdlet을 통해 쉽게 변경할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To change the configuration assigned to a target node for the on-premises pull server you can re-run registration.</source>
+          <target state="translated">온-프레미스 끌어오기 서버의 경우 대상 노드에 할당된 구성을 변경하려면 등록을 다시 실행할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Multiple/Partial configurations</source>
+          <target state="translated">여러/부분 구성</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If multiple configuration names are assigned to a target node, they will be treated like partial configurations.</source>
+          <target state="translated">여러 구성 이름이 대상 노드에 할당되는 경우 부분 구성으로 처리됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>In order for this to work, the meta-configuration on the target node must be configured to accept the partial configurations.</source>
+          <target state="translated">이 기능이 작동하려면 부분 구성을 허용하도록 대상 노드의 메타 구성을 구성해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> This is only supported on the on-premises pull server.</source>
+          <target state="translated"><bpt id="p1">**</bpt>참고:<ept id="p1">**</ept> 이 기능은 온-프레미스 끌어오기 서버에서만 지원됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Azure Automation does not support partial configurations.</source>
+          <target state="translated">Azure 자동화에서는 부분 구성을 지원하지 않습니다.</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Registration</source>
+          <target state="translated">등록</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Because configuration names are no longer GUIDs (they are now friendly names), anyone can guess them.</source>
+          <target state="translated">구성 이름이 더 이상 GUID가 아니고 식별 이름이므로 모든 사용자가 추측할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To mitigate the inherent security issue with this, we added a registration step before a node can start requesting configurations from a server.</source>
+          <target state="translated">따라서 본질적으로 발생되는 보안 문제를 완하하기 위해 노드가 서버에서 구성 요청을 시작하기 이전의 등록 단계를 추가했습니다.</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>A node registers itself with the pull server with a shared secret (which the node and the server both know already), and, optionally, the name of the configuration it will request.</source>
+          <target state="translated">노드는 공유 암호(노드와 서버 둘 다 이미 알고 있음) 및 필요에 따라 요청될 구성의 이름을 사용하여 끌어오기 서버에 자신을 등록합니다.</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This shared secret doesn't have to be unique for each computer.</source>
+          <target state="translated">이 공유 암호는 각 컴퓨터에 대해 고유할 필요가 없습니다.</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Assumption: the shared secret is a hard-to-guess identifier, like a GUID.</source>
+          <target state="translated">가정: 공유 암호는 GUID 처럼 추측하기 어려운 식별자입니다.</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This shared secret is defined by the <bpt id="p1">**</bpt>RegistrationKey<ept id="p1">**</ept> property in the target node's meta-configuration.</source>
+          <target state="translated">이 공유 암호는 대상 노드 메타 구성의 <bpt id="p1">**</bpt>RegistrationKey<ept id="p1">**</ept> 속성으로 정의됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Example meta-configuration</source>
+          <target state="translated">예제 메타 구성</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The RegistrationKey value must be defined by on the pull server.</source>
+          <target state="translated">RegistrationKey 값은 끌어오기 서버에서 정의해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>In order to do this while setting up the pull server, create a text file with the name <bpt id="p1">**</bpt>RegistrationKeys.txt<ept id="p1">**</ept> in a specific location, and then set this location in the web.config of the pull server, as shown below.</source>
+          <target state="translated">끌어오기 서버를 설정하는 동안 이 작업을 수행하려면 다음과 같이 이름이 <bpt id="p1">**</bpt>RegistrationKeys.txt<ept id="p1">**</ept>인 텍스트 파일을 특정 위치에 만든 다음 끌어오기 서버의 web.config에서 이 위치를 설정합니다.</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Use the latest version of the xDSCWebService DSC resource to fully deploy an on-premises pull server for use with this.</source>
+          <target state="translated">이 작업에 사용할 온-프레미스 끌어오기 서버를 완전히 배포하려면 최신 버전의 xDSCWebService DSC 리소스를 사용하세요.</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">[</bpt>Example Configuration<ept id="p1">](https://github.com/grayzu/PSSummitEU2015/blob/master/PullServer/02%20-%20PullServer%20Config.ps1)</ept> for a complete configuration.</source>
+          <target state="translated">전체 구성은 <bpt id="p1">[</bpt>Example Configuration(예제 구성)<ept id="p1">](https://github.com/grayzu/PSSummitEU2015/blob/master/PullServer/02%20-%20PullServer%20Config.ps1)</ept>을 참조하세요.</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> This feature is not supported when the pull server is set up to be a file share.</source>
+          <target state="translated"><bpt id="p1">**</bpt>참고:<ept id="p1">**</ept> 이 기능은 끌어오기 서버가 파일 공유로 설정된 경우 지원되지 않습니다.</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>It is only supported for the web-based pull server.</source>
+          <target state="translated">웹 기반 끌어오기 서버에서만 지원됩니다.</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <header xmlns="">
+    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">517c1d3654cd87b2356abadabf474c76580767f4</xliffext:olfilehash>
+  </header>
+</xliff>
