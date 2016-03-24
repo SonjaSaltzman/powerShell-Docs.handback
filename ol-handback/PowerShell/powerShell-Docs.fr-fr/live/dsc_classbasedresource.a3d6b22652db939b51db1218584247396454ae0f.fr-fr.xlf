@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="md" source-language="en-US" target-language="fr-fr">
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Class-based DSC Resources</source>
+          <target state="translated">Ressources DSC basées sur une classe</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Defining DSC resources with classes</source>
+          <target state="translated">Définition de ressources DSC avec des classes</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Based on feedback, we’ve made authoring class-based DSC resources simpler and easier to understand.</source>
+          <target state="translated">Suite à vos commentaires, nous avons simplifié la création et la compréhension des ressources DSC basées sur des classes.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The major differences between a class-based DSC resource and a cmdlet DSC resource provider are:</source>
+          <target state="translated">Les principales différences entre une ressource DSC basée sur une classe et un fournisseur de ressources DSC d’applet de commande sont les suivantes :</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>A MOF file for the schema is not required.</source>
+          <target state="translated">Aucun fichier MOF pour le schéma n’est nécessaire.</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">**</bpt>DSCResource<ept id="p1">**</ept> subfolder in the module folder is not required.</source>
+          <target state="translated">Aucun sous-dossier <bpt id="p1">**</bpt>DSCResource<ept id="p1">**</ept> dans le dossier de module n’est nécessaire.</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>A PowerShell module file can contain multiple DSC resource classes.</source>
+          <target state="translated">Un fichier de module PowerShell peut contenir plusieurs classes de ressources DSC.</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The following is an example of a class-based DSC resource that extends the other class DSC resource in the same file.</source>
+          <target state="translated">Voici un exemple de ressource DSC basée sur une classe qui étend l’autre ressource DSC de classe dans le même fichier.</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This is saved as a module, <bpt id="p1">**</bpt>MyDSCResource.psm1<ept id="p1">**</ept>.</source>
+          <target state="translated">Elle est enregistrée en tant que module nommé <bpt id="p1">**</bpt>MyDSCResource.psm1<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Note that you must always include at least one key property and Get, Set, Test method in a class-defined DSC resource or its base classes.</source>
+          <target state="translated">Notez que vous devez toujours inclure au moins une propriété clé et une méthode Get, Set ou Test dans une ressource DSC définie par une classe ou ses classes de base.</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>After creating the class-defined DSC resource provider, and saving it as a module, create a module manifest for the module.</source>
+          <target state="translated">Après avoir créé le fournisseur de ressources DSC défini par une classe et l’avoir enregistré en tant que module, créez un manifeste de module pour ce module.</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In this example, the following module manifest is saved as <bpt id="p1">**</bpt>MyDscResource.psd1<ept id="p1">**</ept>.</source>
+          <target state="translated">Dans cet exemple, le manifeste de module suivant est enregistré en tant que <bpt id="p1">**</bpt>MyDscResource.psd1<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Deploy the new DSC resource provider by creating a <bpt id="p1">**</bpt>MyDscResource<ept id="p1">**</ept> folder for it under <ph id="ph1">`$env:SystemDrive\Program Files\WindowsPowerShell\Modules`</ph>.</source>
+          <target state="translated">Déployez le nouveau fournisseur de ressources DSC en créant un dossier <bpt id="p1">**</bpt>MyDscResource<ept id="p1">**</ept> sous <ph id="ph1">`$env:SystemDrive\Program Files\WindowsPowerShell\Modules`</ph>.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You do not need to create a DSCResource subfolder.</source>
+          <target state="translated">Il est inutile de créer un sous-dossier DSCResource.</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Copy the module and module manifest files (<bpt id="p1">**</bpt>MyDscResource.psm1<ept id="p1">**</ept> and <bpt id="p2">**</bpt>MyDscResource.psd1<ept id="p2">**</ept>) to the <bpt id="p3">**</bpt>MyDscResource<ept id="p3">**</ept> folder.</source>
+          <target state="translated">Copiez les fichiers de module et de manifeste de module (<bpt id="p1">**</bpt>MyDscResource.psm1<ept id="p1">**</ept> et <bpt id="p2">**</bpt>MyDscResource.psd1<ept id="p2">**</ept>) dans le dossier <bpt id="p3">**</bpt>MyDscResource<ept id="p3">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>From this point, you create and run a configuration script as you would with any DSC resource.</source>
+          <target state="translated">Désormais, vous pouvez créer et exécuter un script de configuration comme vous le feriez avec n’importe quelle ressource DSC.</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The following is a configuration that references the MyDSCResource module.</source>
+          <target state="translated">Voici une configuration qui fait référence au module MyDSCResource.</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Save this as a script, <bpt id="p1">**</bpt>MyResource.ps1<ept id="p1">**</ept>.</source>
+          <target state="translated">Enregistrez-la en tant que script nommé <bpt id="p1">**</bpt>MyResource.ps1<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Run this as you would any DSC configuration script.</source>
+          <target state="translated">Exécutez ce script comme vous le feriez pour n’importe quel script de configuration DSC.</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To start the configuration, in an elevated Windows PowerShell console, run the following cmdlet.</source>
+          <target state="translated">Pour démarrer la configuration, dans une console Windows PowerShell avec élévation de privilèges, exécutez l’applet de commande suivante.</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You will see the output of Get-DscConfiguration from FileResource contains more information than BaseFileResource.</source>
+          <target state="translated">Vous constaterez que la sortie Get-DscConfiguration de FileResource contient davantage d’informations que BaseFileResource.</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Known issues</source>
+          <target state="translated">Problèmes connus</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In this release, the following are known issues with class-based DSC resources:</source>
+          <target state="translated">Voici une liste des problèmes connus avec les ressources DSC basées sur des classes dans cette version :</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Get-DscConfiguration may return empty values (null) or errors if a complex type is returned by Get() function of a class based DSC resource.</source>
+          <target state="translated">Get-DscConfiguration peut retourner des valeurs vides (null) ou des erreurs si un type complexe est retourné par la fonction Get() d’une ressource DSC basée sur une classe.</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Composite resources cannot be written as a class-based resource.</source>
+          <target state="translated">Les ressources composites ne peuvent pas être écrites en tant que ressources basées sur des classes.</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <header xmlns="">
+    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">af92e9b7eb75d6b25d2194b9c738b9d6ae2c157f</xliffext:olfilehash>
+  </header>
+</xliff>

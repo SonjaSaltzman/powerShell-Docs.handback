@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="md" source-language="en-US" target-language="fr-fr">
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifying Cross Node Dependencies</source>
+          <target state="translated">Spécification de dépendances entre nœuds</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>By using the built-in WaitFor\* resources (WaitForAll, WaitForAny, and WaitForSome), you can now specify dependencies across computers during configuration runs, without external orchestration.</source>
+          <target state="translated">Avec les ressources WaitFor\* intégrées (WaitForAll, WaitForAny et WaitForSome), vous pouvez maintenant spécifier des dépendances entre ordinateurs lors des exécutions de configuration, sans orchestration externe.</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The behavior or each WaitFor\* resource is:</source>
+          <target state="translated">Le comportement de chaque ressource WaitFor\* est le suivant :</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>WaitForAll<ept id="p1">**</ept> Waits for the specified resource to be in the desired state on <bpt id="p2">*</bpt>All<ept id="p2">*</ept> target nodes defined in the NodeName property.</source>
+          <target state="translated"><bpt id="p1">**</bpt>WaitForAll<ept id="p1">**</ept> attend que la ressource spécifiée soit à l’état souhaité sur <bpt id="p2">*</bpt>tous<ept id="p2">*</ept> les nœuds cibles définis dans la propriété NodeName.</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>WaitForAny<ept id="p1">**</ept> Waits for the specified resource to be in the desired state on <bpt id="p2">*</bpt>Any<ept id="p2">*</ept> target node defined in the NodeName property.</source>
+          <target state="translated"><bpt id="p1">**</bpt>WaitForAny<ept id="p1">**</ept> attend que la ressource spécifiée soit à l’état souhaité sur <bpt id="p2">*</bpt>n’importe quel<ept id="p2">*</ept> nœud cible défini dans la propriété NodeName.</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>WaitForSome<ept id="p1">**</ept> Waits for the specified resource to be in the desired state on specific number, defined by the property NodeCount, of target nodes defined in the NodeName property.</source>
+          <target state="translated"><bpt id="p1">**</bpt>WaitForSome<ept id="p1">**</ept> attend que la ressource spécifiée soit à l’état souhaité sur un nombre spécifique (défini par la propriété NodeCount) de nœuds cibles définis dans la propriété NodeName.</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>These resources provide node-to-node synchronization by using CIM connections over the WS-Man protocol.</source>
+          <target state="translated">Ces ressources fournissent une synchronisation de nœud à nœud à l’aide de connexions CIM sur le protocole WS-Man.</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>By using these resources, a configuration can wait for another computer’s specific resource state to change before it continues with its own configuration.</source>
+          <target state="translated">Grâce à ces ressources, une configuration peut attendre que l’état d’une ressource spécifique d’un autre ordinateur change avant de poursuivre sa propre configuration.</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For example, in the following configuration, the target node is waiting for the <bpt id="p1">**</bpt>xADDomain<ept id="p1">**</ept> resource to finish on the <bpt id="p2">**</bpt>MyDC<ept id="p2">**</ept> node with a few retries, before the target node can join the domain.</source>
+          <target state="translated">Par exemple, dans la configuration suivante, le nœud cible attend que la ressource <bpt id="p1">**</bpt>xADDomain<ept id="p1">**</ept> se termine sur le nœud <bpt id="p2">**</bpt>MyDC<ept id="p2">**</ept> avec quelques nouvelles tentatives, avant que le nœud cible puisse joindre le domaine.</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Hint:<ept id="p1">**</ept> By default the WaitFor\* resources try one time and then fail so although it is not required, you will typically want to specify a regry interval and count.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Conseil :<ept id="p1">**</ept> Par défaut, les ressources WaitFor\* essaient une seule fois puis échouent. Même si ce n’est pas obligatoire, vous souhaiterez peut-être spécifier un intervalle et un nombre de nouvelles tentatives.</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <header xmlns="">
+    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d24d5d5b83c758103c685a1ed010988a08eae035</xliffext:olfilehash>
+  </header>
+</xliff>
