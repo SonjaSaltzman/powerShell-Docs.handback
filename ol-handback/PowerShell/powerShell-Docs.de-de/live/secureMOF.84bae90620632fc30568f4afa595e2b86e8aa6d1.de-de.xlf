@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="de-de">
+    <body>
+      <group id="main" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Securing the MOF File</source>
+          <target state="translated">Schützen der MOF-Datei</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</source>
+          <target state="translated">Gilt für: Windows PowerShell 4.0, Windows PowerShell 5.0</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>DSC tells the target nodes what configuration they should have by sending a MOF file with that information to each node, where the Local Configuration Manager (LCM) implements the desired configuration.</source>
+          <target state="translated">DSC weist die Zielknoten an, welche Konfiguration sie aufweisen sollen, indem eine MOF-Datei mit den gewünschten Informationen an alle Knoten gesendet wird, auf denen der lokale Konfigurations-Manager (LCM) die gewünschte Konfiguration implementiert.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Because this file contains the details of the configuration, it’s important to keep it secure.</source>
+          <target state="translated">Da diese Datei die Details der Konfiguration enthält, muss sie geschützt werden.</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To do this, you can set the Local Configuration Manager to check the credentials of a user.</source>
+          <target state="translated">Zu diesem Zweck können Sie den lokalen Konfigurations-Managers die Anmeldeinformationen eines Benutzers überprüfen lassen.</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This topic describes how to transmit those credentials securely to the target node by encrypting them with certificates.</source>
+          <target state="translated">In diesem Thema wird beschrieben, wie diese Anmeldeinformationen sicher an den Zielknoten übertragen werden, indem sie mithilfe von Zertifikaten verschlüsselt werden.</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+          <target state="translated">Voraussetzungen</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To successfully encrypt the credentials used to secure a DSC configuration, make sure you have the following:</source>
+          <target state="translated">Stellen Sie sicher, dass Folgendes zutrifft, um die Anmeldeinformationen sicher zu verschlüsseln, die zum Schutz einer DSC-Konfiguration dienen:</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Some means of issuing and distributing certificates<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Möglichkeiten zum Ausstellen und Verteilen von Zertifikaten<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This topic and its examples assume you are using Active Directory Certification Authority.</source>
+          <target state="translated">In diesem Thema und seinen Beispielen wird davon ausgegangen, dass Sie eine Active Directory-Zertifizierungsstelle verwenden.</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For more background information on Active Directory Certificate Services, see <bpt id="p2">[</bpt>Active Directory Certificate Services Overview<ept id="p2">](https://technet.microsoft.com/library/hh831740.aspx)</ept> and <bpt id="p3">[</bpt>Active Directory Certificate Services in Windows Server 2008<ept id="p3">](https://technet.microsoft.com/windowsserver/dd448615.aspx)</ept>.</source>
+          <target state="translated">Weitere Informationen zu Active Directory-Zertifikatdiensten finden Sie unter <bpt id="p2">[</bpt>Übersicht über Active Directory-Zertifikatdienste<ept id="p2">](https://technet.microsoft.com/library/hh831740.aspx)</ept> und <bpt id="p3">[</bpt>Active Directory-Zertifikatdienste in Windows Server 2008<ept id="p3">](https://technet.microsoft.com/windowsserver/dd448615.aspx)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p4">**</bpt>Administrative access to the target node or nodes<ept id="p4">**</ept>.</source>
+          <target state="translated"><bpt id="p4">**</bpt>Administratorzugriff auf den Zielknoten oder Knoten<ept id="p4">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p5">**</bpt>Each target node has an encryption-capable certificate saved its Personal Store<ept id="p5">**</ept>.</source>
+          <target state="translated"><bpt id="p5">**</bpt>Jeder Zielknoten hat ein verschlüsselungsfähiges Zertifikat, das in seinem persönlichen Speicher gespeichert ist<ept id="p5">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell, the path to the store is Cert:\LocalMachine\My.</source>
+          <target state="translated">In Windows PowerShell ist der Pfad zum Speicher „Cert: \LocalMachine\My“.</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The examples in this topic use the “workstation authentication” template, which you can find (along with other certificate templates) at <bpt id="p6">[</bpt>Default Certificate Templates<ept id="p6">](https://technet.microsoft.com/library/cc740061(v=WS.10).aspx)</ept>.</source>
+          <target state="translated">In den Beispielen in diesem Thema verwenden Sie die Vorlage „Arbeitsstationsauthentifizierung“, die Sie (zusammen mit anderen Zertifikatvorlagen) unter <bpt id="p6">[</bpt>Standardzertifikatvorlagen<ept id="p6">](https://technet.microsoft.com/library/cc740061(v=WS.10).aspx)</ept> finden.</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If you will be running this configuration on a computer other than the target node, <bpt id="p7">**</bpt>export the public key of the certificate<ept id="p7">**</ept>, and then import it to the computer you will run the configuration from.</source>
+          <target state="translated">Wenn Sie diese Konfiguration auf einem anderen Computer als dem Zielknoten ausführen, <bpt id="p7">**</bpt>exportieren Sie den öffentlichen Schlüssel des Zertifikats<ept id="p7">**</ept>, und importieren Sie ihn anschließend auf den Computer, auf dem Sie die Konfiguration ausführen.</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Make sure that you export only the <bpt id="p8">**</bpt>public<ept id="p8">**</ept> key; keep the private key secure.</source>
+          <target state="translated">Stellen Sie sicher, dass Sie nur den <bpt id="p8">**</bpt>öffentlichen<ept id="p8">**</ept> Schlüssel exportieren. Halten Sie den privaten Schlüssel geschützt.</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Overall process</source>
+          <target state="translated">Allgemeiner Prozess</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Set up the certificates, keys, and thumbprints, making sure that each target node has copies of the certificate and the configuration computer has the public key and thumbprint.</source>
+          <target state="translated">Richten Sie die Zertifikate, Schlüssel und Fingerabdrücke ein, und stellen Sie sicher, dass jeder Zielknoten über Kopien des Zertifikats verfügt, und dass sich der öffentliche Schlüssel und Fingerabdruck auf dem Konfigurationscomputer befinden.</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Create a configuration data block that contains the path and thumbprint of the public key.</source>
+          <target state="translated">Erstellen Sie einen „Configuration“-Datenblock, der den Pfad und Fingerabdruck des öffentlichen Schlüssels enthält.</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Create a configuration script that defines your desired configuration for the target node and sets up decryption on the target nodes by commanding the Local Configuration manager to decrypt the configuration data using the certificate and its thumbprint.</source>
+          <target state="translated">Erstellen Sie ein Konfigurationsskript, das die gewünschte Konfiguration für den Zielknoten definiert. Richten Sie die Entschlüsselung auf den Zielknoten ein, indem Sie den lokalen Konfigurations-Manager anweisen, die Konfigurationsdaten mithilfe des Zertifikats und Fingerabdrucks zu entschlüsseln.</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Run the configuration, which will set the Local Configuration Manager settings and start the DSC configuration.</source>
+          <target state="translated">Führen Sie die Konfiguration aus, woraufhin die Einstellungen des lokalen Konfigurations-Managers festgelegt werden und die DSC-Konfiguration gestartet wird.</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Configuration data</source>
+          <target state="translated">Konfigurationsdaten</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The configuration data block defines which target nodes to operate on, whether or not to encrypt the credentials, the means of encryption, and other information.</source>
+          <target state="translated">Der „Configuration“-Datenblock definiert die betroffenen Zielknoten, ob die Anmeldeinformationen verschlüsselt werden oder nicht, die Verschlüsselungsmethode und andere Informationen.</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For more information on the configuration data block, see <bpt id="p9">[</bpt>Separating Configuration and Environment Data<ept id="p9">](configData.md)</ept>.</source>
+          <target state="translated">Weitere Informationen zum „Configuration“-Datenblock finden Sie unter <bpt id="p9">[</bpt>Trennen von Konfigurations- und Umgebungsdaten<ept id="p9">](configData.md)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This example shows a configuration data block that specifies a target node to act on named targetNode, the path to the public key certificate file (named targetNode.cer), and the thumbprint for the public key.</source>
+          <target state="translated">Dieses Beispiel zeigt einen „Configuration“-Datenblock, einen betroffenen Zielknoten namens „targetNode“, den Pfad zur Zertifikatdatei mit dem öffentlichen Schlüssel (namens „targetNode.cer“) und den Fingerabdruck des öffentlichen Schlüssels.</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Configuration script</source>
+          <target state="translated">Konfigurationsskript</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>In the configuration script itself, use the <ph id="ph1">`PsCredential`</ph> parameter to ensure that credentials are stored for the shortest possible time.</source>
+          <target state="translated">Verwenden Sie im Skript selbst den <ph id="ph1">`PsCredential`</ph>-Parameter, um sicherzustellen, dass die Anmeldeinformationen so kurz wie möglich gespeichert werden.</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>When you run the supplied example, DSC will prompt you for credentials and then encrypt the MOF file using the CertificateFile that is associated with the target node in the configuration data block.</source>
+          <target state="translated">Wenn Sie das bereitgestellte Beispiel ausführen, werden Sie von DSC zum Eingeben von Anmeldeinformationen und anschließendem Verschlüsseln der MOF-Datei mithilfe der Zertifikatdatei aufgefordert, die dem Zielknoten im „Configuration“-Datenblock zugeordnet ist.</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This code example copies a file from a share that is secured to a user.</source>
+          <target state="translated">Bei diesem Codebeispiel wird eine Datei aus einer geschützten Freigabe zu einem Benutzer kopiert.</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Setting up decryption</source>
+          <target state="translated">Einrichten der Entschlüsselung</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Before <ph id="ph2">`Start-DscConfiguration`</ph> can work, you have to tell the Local Configuration Manager on each target node which certificate to use to decrypt the credentials, using the CertificateID resource to verify the certificate’s thumbprint.</source>
+          <target state="translated">Damit <ph id="ph2">`Start-DscConfiguration`</ph> funktionieren kann, müssen Sie den lokalen Konfigurations-Manager auf allen Zielknoten informieren, welches Zertifikat zum Entschlüsseln der Anmeldeinformationen verwendet werden soll. Die „CertificateID“-Ressource wird zum Überprüfen des Fingerabdrucks des Zertifikats verwendet.</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This example function will find the appropriate local certificate (you might have to customize it so it will find the exact certificate you want to use):</source>
+          <target state="translated">Diese Beispielfunktion findet das entsprechende lokale Zertifikat (Sie müssen ggf. eine Anpassung vornehmen, damit genau das gewünschte Zertifikat gefunden wird):</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>With the certificate identified by its thumbprint, the configuration script can be updated to use the value:</source>
+          <target state="translated">Mit dem über seinen Fingerabdruck bestimmten Zertifikat kann das Konfigurationsskript für das Verwenden des folgenden Werts aktualisiert werden:</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Running the configuration</source>
+          <target state="translated">Ausführen der Konfiguration</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>At this point, you can run the configuration, which will output two files:</source>
+          <target state="translated">An dieser Stellen können Sie die Konfiguration ausführen, woraufhin zwei Dateien ausgegeben werden:</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>A *.meta.mof file that configures the Local Configuration Manager to decrypt the credentials using the certificate that is stored on the local machine store and identified by its thumbprint.</source>
+          <target state="translated">Eine Datei des Typs „*.meta.mof“, die vom lokalen Konfigurations-Manager zum Entschlüsseln der Anmeldeinformationen mithilfe des Zertifikats verwendet wird, das sich im lokalen Computerspeicher befindet und von dessen Fingerabdruck bestimmt wird.</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Set-DscLocalConfigurationManager applies the *.meta.mof file.</source>
+          <target state="translated">„Set DscLocalConfigurationManager“ wendet die Datei „*.meta.mof“ an.</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>A MOF file that actually applies the configuration.</source>
+          <target state="translated">Eine MOF-Datei, die die Konfiguration tatsächlich anwendet.</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Start-DscConfiguration applies the configuration.</source>
+          <target state="translated">„Start-DscConfiguration“ wendet die Konfiguration an.</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>These commands will accomplish those steps:</source>
+          <target state="translated">Mit diesen Befehlen werden diese Schritte ausgeführt:</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Here is a full example that incorporates all of these steps, plus a helper cmdlet that exports and copies the public keys:</source>
+          <target state="translated">Es folgt ein vollständiges Beispiel, das alle diese Schritte enthält, sowie ein Hilfs-Cmdlet zum Exportieren und Kopieren der öffentlichen Schlüssel:</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <header xmlns="">
+    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">14cf6c2005eb756200e7fd065b61e4120d84c02e</xliffext:olfilehash>
+  </header>
+</xliff>
