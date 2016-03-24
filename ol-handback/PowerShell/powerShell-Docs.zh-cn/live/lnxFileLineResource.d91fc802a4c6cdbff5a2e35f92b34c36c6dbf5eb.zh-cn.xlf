@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="zh-cn">
+    <body>
+      <group id="main" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>DSC for Linux nxFileLine Resource</source>
+          <target state="translated">适用于 Linux nxFileLine 资源的 DSC</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>nxFileLine<ept id="p1">**</ept> resource in PowerShell Desired State Configuration (DSC) provides a mechanism to to manage lines within a configuration file on a Linux node.</source>
+          <target state="translated">PowerShell Desired State Configuration (DSC) 中的 <bpt id="p1">**</bpt>nxFileLine<ept id="p1">**</ept> 资源提供了管理 Linux 节点上配置文件中的行的机制。</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Syntax</source>
+          <target state="translated">语法</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Properties</source>
+          <target state="translated">“属性”</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Property</source>
+          <target state="translated">属性</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">说明</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>FilePath</source>
+          <target state="translated">文件路径</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The full path to the file to manage lines in on the target node.</source>
+          <target state="translated">要管理其在目标节点上的行的文件的完整路径。</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>ContainsLine</source>
+          <target state="translated">ContainsLine</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A line to ensure exists in the file.</source>
+          <target state="translated">要确保存在于文件中的行。</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This line will be appended to the file if it does not exist in the file.</source>
+          <target state="translated">如果此行不存在于文件中，则将其追加到该文件中。</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p2">**</bpt>ContainsLine<ept id="p2">**</ept> is mandatory, but can be set to an empty string (`ContainsLine = ‘’``) if it is not needed.</source>
+          <target state="translated"><bpt id="p2">**</bpt>ContainsLine<ept id="p2">**</ept> 为必填项，但是如不需要，则可将设置为空字符串 (ContainsLine = ' ')。</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>DoesNotContainPattern</source>
+          <target state="translated">DoesNotContainPattern</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A regular expression pattern for lines that should not exist in the file.</source>
+          <target state="translated">不应存在于此文件中的行的正则表达式模式。</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For any lines that exist in the file that match this regular expression, the line will be removed from the file.</source>
+          <target state="translated">将从文件中删除任何存在于此文件中并与正则表达式相匹配的行。</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>DependsOn</source>
+          <target state="translated">DependsOn</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Indicates that the configuration of another resource must run before this resource is configured.</source>
+          <target state="translated">指示必须先运行其他资源的配置，再配置此资源。</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For example, if the <bpt id="p3">**</bpt>ID<ept id="p3">**</ept> of the resource configuration script block that you want to run first is <bpt id="p4">**</bpt>ResourceName<ept id="p4">**</ept> and its type is <bpt id="p5">**</bpt>ResourceType<ept id="p5">**</ept>, the syntax for using this property is <ph id="ph1">`DependsOn = "[ResourceType]ResourceName"`</ph>.</source>
+          <target state="translated">例如，如果你想要首先运行 <bpt id="p3">**</bpt>ID<ept id="p3">**</ept> 为 <bpt id="p4">**</bpt>ResourceName<ept id="p4">**</ept>、类型为 <bpt id="p5">**</bpt>ResourceType<ept id="p5">**</ept> 的资源配置脚本块，则使用此属性的语法为 <ph id="ph1">`DependsOn = "[ResourceType]ResourceName"`</ph>。</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Example</source>
+          <target state="translated">示例</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This example demonstrates using the <bpt id="p6">**</bpt>nxFileLine<ept id="p6">**</ept> resource to configure the <ph id="ph2">`/etc/sudoers`</ph> file, ensuring that the user: monuser is configured to not requiretty.</source>
+          <target state="translated">此示例演示如何使用 <bpt id="p6">**</bpt>nxFileLine<ept id="p6">**</ept> 资源来配置 <ph id="ph2">`/etc/sudoers`</ph> 文件，从而确保将用户 monuser 配置为“not requiretty”。</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <header xmlns="">
+    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0b7aa5b03a19ff1afa79f5ae96f24d034531e4b8</xliffext:olfilehash>
+  </header>
+</xliff>
