@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="ru-ru">
+    <body>
+      <group id="main" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Debugging DSC resources</source>
+          <target state="translated">Отладка ресурсов DSC</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 5.0</source>
+          <target state="translated">Область применения: Windows PowerShell 5.0</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In PowerShell 5.0, a new feature was introduced in Desired State Configuraiton (DSC) that allows you to debug a DSC resource as a configuration is being applied.</source>
+          <target state="translated">В PowerShell 5.0 в DSC появилась новая функция, позволяющая выполнять отладку ресурса DSC при применении конфигурации.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Enabling DSC debugging</source>
+          <target state="translated">Включение отладки DSC</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Before you can debug a resource, you have to enable debugging by calling the <bpt id="p1">[</bpt>Enable-DscDebug<ept id="p1">](https://technet.microsoft.com/en-us/library/mt517870.aspx)</ept> cmdlet.</source>
+          <target state="translated">Перед отладкой ресурса необходимо включить отладку с помощью командлета <bpt id="p1">[</bpt>Enable-DscDebug<ept id="p1">](https://technet.microsoft.com/en-us/library/mt517870.aspx)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This cmdlet takes a mandatory parameter, <bpt id="p2">**</bpt>BreakAll<ept id="p2">**</ept>.</source>
+          <target state="translated">Он принимает обязательный параметр <bpt id="p2">**</bpt>BreakAll<ept id="p2">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can verify that debugging has been enabled by looking at the result of a call to <bpt id="p3">[</bpt>Get-DscLocalConfigurationManager<ept id="p3">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept>.</source>
+          <target state="translated">Убедитесь, что отладка включена, вызвав командлет <bpt id="p3">[</bpt>Get-DscLocalConfigurationManager<ept id="p3">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept> и проверив результат.</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The following PowerShell output shows the result of enabling debugging:</source>
+          <target state="translated">Следующие выходные данные PowerShell демонстрируют результат включения отладки:</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Starting a configuration with debug enabled</source>
+          <target state="translated">Запуск конфигурации с включенной функцией отладки</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To debug a DSC resource, you start a configuration that calls that resource.</source>
+          <target state="translated">Для отладки ресурса DSC необходимо запустить конфигурацию, вызывающую этот ресурс.</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For this example, we'll look at a simple configuration that calls the <bpt id="p4">[</bpt>WindowsFeature<ept id="p4">](windowsfeatureResource.md)</ept> resource to ensure that the "WindowsPowerShellWebAccess" feature is installed:</source>
+          <target state="translated">В этом примере мы рассмотрим простую конфигурацию, которая вызывает ресурс <bpt id="p4">[</bpt>WindowsFeature<ept id="p4">](windowsfeatureResource.md)</ept>, чтобы проверить, установлен ли компонент WindowsPowerShellWebAccess:</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>After compiling the configuration, start it by calling <bpt id="p5">[</bpt>Start-DscConfiguration<ept id="p5">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept>.</source>
+          <target state="translated">Скомпилировав конфигурацию, запустите ее, вызвав командлет <bpt id="p5">[</bpt>Start-DscConfiguration<ept id="p5">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The configuration will stop when the
+Local Configuration Manager (LCM) calls into the first resoure in the configuration.</source>
+          <target state="translated">Конфигурация остановится, когда
+локальный диспетчер конфигураций (LCM) вызовет первый ресурс в конфигурации.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If you use the <ph id="ph1">`-Verbose`</ph> and <ph id="ph2">`-Wait`</ph> parameters, the output displays the lines you need to enter
+to start debugging.</source>
+          <target state="translated">Если используются параметры <ph id="ph1">`-Verbose`</ph> и <ph id="ph2">`-Wait`</ph>, выходные данные будут содержать строки, которые нужно ввести
+для запуска отладки.</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>At this point, the LCM has called the resource, and come to the first break point.</source>
+          <target state="translated">К этому моменту LCM вызвал ресурс и достиг первой контрольной точки.</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The last three lines in the output show you how to attach to the process and start debugging the resource script.</source>
+          <target state="translated">Последние три строки выходных данных показывают, как присоединиться к процессу и запустить отладку сценария ресурса.</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Debugging the resource script</source>
+          <target state="translated">Отладка сценария ресурса</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Start a new instance of the PowerShell ISE.</source>
+          <target state="translated">Запустите новый экземпляр интегрированной среды сценариев PowerShell.</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In the console pane, enter the last three lines of output from the <ph id="ph3">`Start-DscConifiguration`</ph> output as commands, replacing <ph id="ph4">`&lt;credentials&gt;`</ph> with
+valid user credentials.</source>
+          <target state="translated">В консоли введите последние три строки выходных данных <ph id="ph3">`Start-DscConifiguration`</ph> в виде команд, заменив <ph id="ph4">`&lt;credentials&gt;`</ph> на
+действительные учетные данные пользователя.</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Here is the resulting output.</source>
+          <target state="translated">Вы получите следующие выходные данные.</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <header xmlns="">
+    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5740ae503616927c717ce17ce3d1ae146a88c411</xliffext:olfilehash>
+  </header>
+</xliff>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="ru-ru">
+    <body>
+      <group id="main" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>DSC for Linux nxFileLine Resource</source>
+          <target state="translated">Ресурса nxFileLine в DSC для Linux</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>nxFileLine<ept id="p1">**</ept> resource in PowerShell Desired State Configuration (DSC) provides a mechanism to to manage lines within a configuration file on a Linux node.</source>
+          <target state="translated">Ресурс <bpt id="p1">**</bpt>nxFileLine<ept id="p1">**</ept> в DSC PowerShell предоставляет механизм управления строками в файле конфигурации на узле Linux.</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Syntax</source>
+          <target state="translated">Синтаксис</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Properties</source>
+          <target state="translated">Свойства</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Property</source>
+          <target state="translated">Свойство</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Описание</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>FilePath</source>
+          <target state="translated">FilePath</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The full path to the file to manage lines in on the target node.</source>
+          <target state="translated">Полный путь к файлу для управления строками на целевом узле.</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>ContainsLine</source>
+          <target state="translated">ContainsLine</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A line to ensure exists in the file.</source>
+          <target state="translated">Строка, которая должна существовать в файле.</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This line will be appended to the file if it does not exist in the file.</source>
+          <target state="translated">Если в файле эта строка отсутствует, она будет добавлена.</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p2">**</bpt>ContainsLine<ept id="p2">**</ept> is mandatory, but can be set to an empty string (`ContainsLine = ‘’``) if it is not needed.</source>
+          <target state="translated">Свойство <bpt id="p2">**</bpt>ContainsLine<ept id="p2">**</ept> является обязательным, но, если оно не требуется, можно задать в качестве его значения пустую строку ("ContainsLine ="").</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>DoesNotContainPattern</source>
+          <target state="translated">DoesNotContainPattern</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A regular expression pattern for lines that should not exist in the file.</source>
+          <target state="translated">Шаблон регулярных выражений для строк, которые не должны присутствовать в файле.</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For any lines that exist in the file that match this regular expression, the line will be removed from the file.</source>
+          <target state="translated">Присутствующие в файле строки, которые соответствуют этому регулярному выражению, будут удалены.</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>DependsOn</source>
+          <target state="translated">DependsOn</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Indicates that the configuration of another resource must run before this resource is configured.</source>
+          <target state="translated">Указывает, что перед настройкой этого ресурса необходимо запустить настройку другого ресурса.</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For example, if the <bpt id="p3">**</bpt>ID<ept id="p3">**</ept> of the resource configuration script block that you want to run first is <bpt id="p4">**</bpt>ResourceName<ept id="p4">**</ept> and its type is <bpt id="p5">**</bpt>ResourceType<ept id="p5">**</ept>, the syntax for using this property is <ph id="ph1">`DependsOn = "[ResourceType]ResourceName"`</ph>.</source>
+          <target state="translated">Например, если <bpt id="p3">**</bpt>идентификатор<ept id="p3">**</ept> первого запускаемого блока сценария для конфигурации ресурса — <bpt id="p4">**</bpt>ResourceName<ept id="p4">**</ept>, а его тип — <bpt id="p5">**</bpt>ResourceType<ept id="p5">**</ept>, то синтаксис использования этого свойства таков: <ph id="ph1">`DependsOn = "[ResourceType]ResourceName"`</ph>.</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Example</source>
+          <target state="translated">Пример</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This example demonstrates using the <bpt id="p6">**</bpt>nxFileLine<ept id="p6">**</ept> resource to configure the <ph id="ph2">`/etc/sudoers`</ph> file, ensuring that the user: monuser is configured to not requiretty.</source>
+          <target state="translated">В этом примере показывается, как использовать ресурс <bpt id="p6">**</bpt>nxFileLine<ept id="p6">**</ept> для настройки файла <ph id="ph2">`/etc/sudoers`</ph>, чтобы пользователь monuser не требовал использовать телетайп (TTY).</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <header xmlns="">
+    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0b7aa5b03a19ff1afa79f5ae96f24d034531e4b8</xliffext:olfilehash>
+  </header>
+</xliff>
