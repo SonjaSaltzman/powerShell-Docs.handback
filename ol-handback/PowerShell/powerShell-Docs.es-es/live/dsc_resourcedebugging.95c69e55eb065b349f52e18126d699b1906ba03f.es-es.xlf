@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="md" source-language="en-US" target-language="es-es">
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>DSC Resource Script Debugging</source>
+          <target state="translated">Depuración de scripts de recursos de DSC</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>WMF 5.0 Production Preview includes support for debugging DSC resource scripts while they run on target nodes.</source>
+          <target state="translated">WMF 5.0 Production Preview incluye compatibilidad para depurar scripts de recursos de DSC mientras se ejecutan en nodos de destino.</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In older WMF 5.0 releases, we added advanced script debugging features with the ability to attach to local processes (Get-PSHostProcessInfo, Enter-PSHostProcessInfo, Exit-PSHostProcessInfo), enumerate all runspaces in a process, and debug an arbitrary runspace in a process (Get-Runspace, Debug-Runspace).</source>
+          <target state="translated">En las versiones anteriores de WMF 5.0, agregamos características de depuración de scripts avanzadas con las capacidades de conexión a procesos locales (Get-PSHostProcessInfo, Enter-PSHostProcessInfo, Exit-PSHostProcessInfo), enumeración de todos los espacios de ejecución en un proceso y depuración de un espacio de ejecución arbitraria en un proceso (Get-Runspace, Debug-Runspace).</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>DSC resource script debugging builds on this work by adding two new cmdlets.</source>
+          <target state="translated">La depuración de scripts de recursos de DSC se basa en este trabajo mediante la adición de dos nuevos cmdlets.</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Syntax</source>
+          <target state="translated">Sintaxis</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Enable-DscDebug<ept id="p1">**</ept></source>
+          <target state="translated"><bpt id="p1">**</bpt>Enable-DscDebug<ept id="p1">**</ept></target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Enable-DscDebug \[-BreakAll\] \[-CimSession &amp;lt;CimSession\[\]&amp;gt;\] \[-ThrottleLimit &amp;lt;int&amp;gt;\] \[-AsJob\] \[-WhatIf\] \[-Confirm\] \[&amp;lt;CommonParameters&amp;gt;\]</source>
+          <target state="translated">Enable-DscDebug \[-BreakAll\] \[-CimSession &amp;lt;CimSession\[\]&amp;gt;\] \[-ThrottleLimit &amp;lt;int&amp;gt;\] \[-AsJob\] \[-WhatIf\] \[-Confirm\] \[&amp;lt;CommonParameters&amp;gt;\]</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Disable-DscDebug<ept id="p1">**</ept></source>
+          <target state="translated"><bpt id="p1">**</bpt>Disable-DscDebug<ept id="p1">**</ept></target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Disable-DscDebug \[-CimSession &amp;lt;CimSession\[\]&amp;gt;\] \[-ThrottleLimit &amp;lt;int&amp;gt;\] \[-AsJob\] \[-WhatIf\] \[-Confirm\] \[&amp;lt;CommonParameters&amp;gt;\]</source>
+          <target state="translated">Disable-DscDebug \[-CimSession &amp;lt;CimSession\[\]&amp;gt;\] \[-ThrottleLimit &amp;lt;int&amp;gt;\] \[-AsJob\] \[-WhatIf\] \[-Confirm\] \[&amp;lt;CommonParameters&amp;gt;\]</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Typical WorkFlow</source>
+          <target state="translated">Flujo de trabajo típico</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Now lets take a look at each of these commands and what they do:</source>
+          <target state="translated">Echemos un vistazo a cada uno de estos comandos y a las acciones que realizan:</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Enable-DscDebug –BreakAll<ept id="p1">**</ept></source>
+          <target state="translated"><bpt id="p1">**</bpt>Enable-DscDebug –BreakAll<ept id="p1">**</ept></target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Enable-DscDebug cmdlet with BreakAll configures the DSC LCM to run Get-TargetResource, Set-TargetResource, and Test-TargetResource scripts in Break All mode.</source>
+          <target state="translated">El cmdlet Enable-DscDebug con BreakAll configura el LCM de DSC para ejecutar los scripts Get-TargetResource, Set-TargetResource y Test-TargetResource en modo Interrumpir todos.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This means that the script stops at the first script statement and waits for a debugger to be attached.</source>
+          <target state="translated">Esto significa que el script se detiene en la primera instrucción de script y espera a que se conecte un depurador.</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can then connect to the target computer by using Windows PowerShell remoting, and attach the Windows PowerShell debugger to the LCM process and runspace to debug the script.</source>
+          <target state="translated">A continuación, para puede conectarse al equipo de destino, puede usar la comunicación remota de Windows PowerShell y conectar el depurador de Windows PowerShell al proceso y al espacio de ejecución de LCM para depurar el script.</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>After you do this, you can set breakpoints and debug the script in the normal Windows PowerShell way.</source>
+          <target state="translated">Después de hacerlo, puede establecer puntos de interrupción y depurar el script de la forma habitual de Windows PowerShell.</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Start-DscConfiguration -path .\TestConfig2 -Wait -Verbose</source>
+          <target state="translated">Start-DscConfiguration -path .\TestConfig2 -Wait -Verbose</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This kicks off DSC but as noted above, since the target node has debug mode enabled it will stop at the first DSC resource that the LCM executes.</source>
+          <target state="translated">Esto inicia DSC, pero como se mencionó anteriormente, puesto que el nodo de destino tiene habilitado el modo de depuración se detendrá en el primer recurso de DSC que ejecute el LCM.</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In order to begin the debugging session run the commands shown in the warning message after running Start-DscConfiguration, you attach your client Windows PowerShell script debugger to the appropriate computer, process, application domain, and runspace.</source>
+          <target state="translated">Para iniciar la sesión de depuración, ejecute los comandos que aparecen en el mensaje de advertencia después de ejecutar Start-DscConfiguration, y conecte el depurador de scripts de Windows PowerShell de cliente al equipo, el proceso, el dominio de aplicación y el espacio de ejecución adecuados.</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Run this command to optionally use Windows PowerShell remoting to connect to the target computer.</source>
+          <target state="translated">Ejecute este comando para poder usar la comunicación remota de Windows PowerShell para conectarse al equipo de destino.</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Skip this if you already have a remote desktop connection.</source>
+          <target state="translated">Omita este paso si ya tiene una conexión a Escritorio remoto.</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This command attaches to the DSC LCM host process and app domain where the resource script is running.</source>
+          <target state="translated">Este comando se asocia al proceso de host de LCM de DSC y al dominio de aplicación donde se ejecuta el script del recurso.</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This last command lets you debug the DSC runspace running the script.</source>
+          <target state="translated">Este último comando le permite depurar el espacio de ejecución de DSC que ejecuta el script.</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>After you have the debugger attached, set line breakpoints where you want to investigate script execution and run the <bpt id="p1">**</bpt>continue<ept id="p1">**</ept> debugger command to let the script run in the debugger.</source>
+          <target state="translated">Después de conectar el depurador, establezca puntos de interrupción de línea donde desee investigar la ejecución del script y ejecute el comando <bpt id="p1">**</bpt>continue<ept id="p1">**</ept> del depurador para permitir la ejecución del script en el depurador.</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>When you are done debugging, you can stop the script from running by typing the <bpt id="p1">**</bpt>quit<ept id="p1">**</ept> debugger command, or let the script continue to run without the debugger by running the <bpt id="p2">**</bpt>detach<ept id="p2">**</ept> debugger command.</source>
+          <target state="translated">Cuando termine la depuración, puede detener la ejecución del script escribiendo el comando <bpt id="p1">**</bpt>quit<ept id="p1">**</ept> del depurador o dejar que el script se siga ejecutando sin el depurador ejecutando el comando <bpt id="p2">**</bpt>detach<ept id="p2">**</ept> del depurador.</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Notice that <bpt id="p1">***</bpt>all<ept id="p1">***</ept> resource scripts are stopped in the debugger.</source>
+          <target state="translated">Observe los scripts del recurso <bpt id="p1">***</bpt>all<ept id="p1">***</ept> se detienen en el depurador.</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This means that Test-TargetResoruce, Set-TargetResource, and Get-TargetResource scripts each in turn stop in the debugger.</source>
+          <target state="translated">Esto significa que los scripts Test-TargetResoruce, Set-TargetResource y Get-TargetResource también se detienen, a su vez, en el depurador.</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>If you don't want to debug a resource script, you can exit debug mode in the runspace by running this command.</source>
+          <target state="translated">Si no quiere depurar un script de recursos, puede ejecutar este comando para salir del modo de depuración en el espacio de ejecución.</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Disable-RunspaceDebug -RunspaceId 3</source>
+          <target state="translated">Disable-RunspaceDebug -RunspaceId 3</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Or you can attach the debugger by running Debug-Runspace, and then immediately run the <bpt id="p1">**</bpt>detach<ept id="p1">**</ept> command.</source>
+          <target state="translated">Para conectar el depurador, también puede ejecutar Debug-Runspace y luego ejecutar inmediatamente el comando <bpt id="p1">**</bpt>detach<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>After you are done debugging your resource script, you should stop the DSC configuration by running the following command.</source>
+          <target state="translated">Cuando termine de depurar el script de recursos, debe detener la configuración de DSC ejecutando el comando siguiente.</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Stop-DscConfiguration –Force</source>
+          <target state="translated">Stop-DscConfiguration – Force</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Finally, you must reconfigure the target computer LCM to disable debug mode using Disable-DscDebug cmdlet..</source>
+          <target state="translated">Por último, debe volver a configurar el LCM del equipo de destino para deshabilitar el modo de depuración con el cmdlet Disable-DscDebug.</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <header xmlns="">
+    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">68949a10a4e8b6cac5a2d596567e7c0e680db8a2</xliffext:olfilehash>
+  </header>
+</xliff>

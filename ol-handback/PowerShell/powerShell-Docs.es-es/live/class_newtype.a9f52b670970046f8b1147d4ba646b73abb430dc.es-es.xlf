@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="md" source-language="en-US" target-language="es-es">
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>New language features in PowerShell 5.0</source>
+          <target state="translated">Nuevas características de lenguaje de PowerShell 5.0</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>PowerShell 5.0 introduces the following new language elements in Windows PowerShell:</source>
+          <target state="translated">PowerShell 5.0 presenta los siguientes nuevos elementos de lenguaje en Windows PowerShell:</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Class keyword</source>
+          <target state="translated">Palabra clave class</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>class<ept id="p1">**</ept> keyword defines a new class.</source>
+          <target state="translated">La palabra clave <bpt id="p1">**</bpt>class<ept id="p1">**</ept> define una nueva clase.</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This is a true .NET Framework type.</source>
+          <target state="translated">Se trata de un tipo verdadero de .NET Framework.</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Class members are public, but only public within the module scope.</source>
+          <target state="translated">Los miembros de clase son públicos, pero solo en el ámbito del módulo.</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can't refer to the type name as a string (for example, <ph id="ph1">`New-Object`</ph> doesn't work), and in this release, you can't use a type literal (for example, <ph id="ph2">`[MyClass]`</ph>) outside the script/module file in which the class is defined.</source>
+          <target state="translated">No puede hacer referencia al nombre de tipo como una cadena (por ejemplo, <ph id="ph1">`New-Object`</ph> no funciona) y, en esta versión, no puede usar un literal de tipo (por ejemplo, <ph id="ph2">`[MyClass]`</ph>) fuera del archivo de script o módulo en el que se define la clase.</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Enum keyword and enumerations</source>
+          <target state="translated">Palabra clave Enum y enumeraciones</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Support for the <bpt id="p1">**</bpt>enum<ept id="p1">**</ept> keyword has been added, which uses newline as the delimiter.</source>
+          <target state="translated">Se agregó compatibilidad con la palabra clave <bpt id="p1">**</bpt>enum<ept id="p1">**</ept>, que usa el delimitador de nueva línea.</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Current limitations: you cannot define an enumerator in terms of itself, but you can initialize an enum in terms of another enum, as shown in the following example.</source>
+          <target state="translated">Limitaciones actuales: no se puede definir un enumerador en términos propios, pero se puede inicializar una enumeración en términos de otra enumeración, tal como se muestra en el ejemplo siguiente.</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Also, the base type cannot currently be specified; it is always [int].</source>
+          <target state="translated">Además, el tipo base no se puede especificar actualmente; siempre es [int].</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>An enumerator value must be a parse time constant; you cannot set it to the result of an invoked command.</source>
+          <target state="translated">Un valor de enumerador debe ser una constante de tiempo de análisis; no puede establecerlo en el resultado de un comando invocado.</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Enums support arithmetic operations, as shown in the following example.</source>
+          <target state="translated">Las enumeraciones admiten operaciones aritméticas, como se muestra en el ejemplo siguiente.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Import-DscResource</source>
+          <target state="translated">Import-DscResource</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Import-DscResource<ept id="p1">**</ept> is now a true dynamic keyword.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Import-DscResource<ept id="p1">**</ept> es ahora una palabra clave dinámica verdadera.</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>PowerShell parses the specified module’s root module, searching for classes that contain the <bpt id="p1">**</bpt>DscResource<ept id="p1">**</ept> attribute.</source>
+          <target state="translated">PowerShell analiza el módulo raíz del módulo especificado y busca las clases que contienen el atributo <bpt id="p1">**</bpt>DscResource<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>ImplementingAssembly</source>
+          <target state="translated">ImplementingAssembly</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A new field, <bpt id="p1">**</bpt>ImplementingAssembly<ept id="p1">**</ept>, has been added to ModuleInfo.</source>
+          <target state="translated">Un nuevo campo, <bpt id="p1">**</bpt>ImplementingAssembly<ept id="p1">**</ept>, se agregó a ModuleInfo.</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>It is set to the dynamic assembly created for a script module if the script defines classes, or the loaded assembly for binary modules.</source>
+          <target state="translated">Se establece en el ensamblado dinámico creado para un módulo de script si el script define clases, o en el ensamblado cargado en el caso de los módulos binarios.</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>It is not set when ModuleType = Manifest.</source>
+          <target state="translated">No se establece si ModuleType = Manifest.</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Reflection on the <bpt id="p1">**</bpt>ImplementingAssembly<ept id="p1">**</ept> field discovers resources in a module.</source>
+          <target state="translated">La reflexión en el campo <bpt id="p1">**</bpt>ImplementingAssembly<ept id="p1">**</ept> descubre los recursos de un módulo.</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This means you can discover resources written in either PowerShell or other managed languages.</source>
+          <target state="translated">Esto significa que puede descubrir recursos escritos en PowerShell o en otros lenguajes administrados.</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Fields with initializers:</source>
+          <target state="translated">Campos con inicializadores:</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Static is supported; it works like an attribute, as do the type constraints, so it can be specified in any order.</source>
+          <target state="translated">Se admite static; funciona como un atributo, como ocurre en las restricciones de tipo, por lo que puede especificarse en cualquier orden.</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A type is optional.</source>
+          <target state="translated">Un tipo es opcional.</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>All members are public.</source>
+          <target state="translated">Todos los miembros son públicos.</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Constructors and instantiation</source>
+          <target state="translated">Creación de instancias y constructores</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell classes can have constructors; they have the same name as their class.</source>
+          <target state="translated">Las clases de Windows PowerShell pueden tener constructores; tienen el mismo nombre que su clase.</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Constructors can be overloaded.</source>
+          <target state="translated">Los constructores se pueden sobrecargar.</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Static constructors are supported.</source>
+          <target state="translated">Se admiten constructores estáticos.</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Properties with initialization expressions are initialized before running any code in a constructor.</source>
+          <target state="translated">Las propiedades con expresiones de inicialización se inicializan antes de ejecutar cualquier código en un constructor.</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Static properties are initialized before the body of a static constructor, and instance properties are initialized before the body of the non-static constructor.</source>
+          <target state="translated">Las propiedades estáticas se inicializan antes del cuerpo de un constructor estático y las propiedades de instancia se inicializan antes del cuerpo del constructor no estático.</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Currently, there is no syntax for calling a constructor from another constructor (like the C\# syntax ": this()").</source>
+          <target state="translated">Actualmente no hay ninguna sintaxis para llamar a un constructor desde otro constructor (como la sintaxis de C\# ": this()").</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The workaround is to define a common Init method.</source>
+          <target state="translated">La solución consiste en definir un método Init común.</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The following are ways of instantiating classes in this release.</source>
+          <target state="translated">Las siguientes son formas de crear instancias de clases en esta versión.</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Instantiating by using the default constructor.</source>
+          <target state="translated">Crear una instancia mediante el constructor predeterminado.</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Note that New-Object is not supported in this release.</source>
+          <target state="translated">Tenga en cuenta que New-Object no se admite en esta versión.</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Calling a constructor with a parameter</source>
+          <target state="translated">Llamar a un constructor con un parámetro</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Passing an array to a constructor with multiple parameters</source>
+          <target state="translated">Pasar una matriz a un constructor con varios parámetros</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>In this release, New-Object does not work with classes defined in Windows PowerShell.</source>
+          <target state="translated">En esta versión, New-Object no funciona con las clases definidas en Windows PowerShell.</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Also for this release, the type name is only visible lexically, meaning it is not visible outside of the module or script that defines the class.</source>
+          <target state="translated">En esta versión, el nombre del tipo solo es visible léxicamente, lo que significa que no está visible fuera del módulo o el script que define la clase.</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Functions can return instances of a class defined in Windows PowerShell, and instances work well outside of the module or script.</source>
+          <target state="translated">Las funciones pueden devolver instancias de una clase definida en Windows PowerShell, y las instancias funcionan bien fuera del módulo o el script.</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Get-Member -Static`</ph> lists constructors, so you can view overloads like any other method.</source>
+          <target state="translated"><ph id="ph1">`Get-Member -Static`</ph> enumera los constructores, para que pueda ver las sobrecargas como cualquier otro método.</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The performance of this syntax is also considerably faster than New-Object.</source>
+          <target state="translated">El rendimiento de esta sintaxis también es considerablemente más rápido que el de New-Object.</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The pseudo-static method named <bpt id="p1">**</bpt>new<ept id="p1">**</ept> works with .NET types, as shown in the following example.</source>
+          <target state="translated">El método seudoestático denominado <bpt id="p1">**</bpt>new<ept id="p1">**</ept> funciona con los tipos .NET, como se muestra en el ejemplo siguiente.</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>You can now see constructor overloads with Get-Member, or as shown in this example:</source>
+          <target state="translated">Ahora puede ver las sobrecargas de constructores con Get-Member, o bien como se muestra en este ejemplo:</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Methods</source>
+          <target state="translated">Métodos</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A Windows PowerShell class method is implemented as a ScriptBlock that has only an end block.</source>
+          <target state="translated">Un método de clase de Windows PowerShell se implementa como un bloque de script que tiene solo un bloque final.</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>All methods are public.</source>
+          <target state="translated">Todos los métodos son públicos.</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The following shows an example of defining a method named <bpt id="p1">**</bpt>DoSomething<ept id="p1">**</ept>.</source>
+          <target state="translated">A continuación, se ofrece un ejemplo de definición de un método denominado <bpt id="p1">**</bpt>DoSomething<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Method invocation:</source>
+          <target state="translated">Invocación del método:</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Overloaded methods--that is, those that are named the same as an existing method, but differentiated by their specified values--are also supported.</source>
+          <target state="translated">También se admiten los métodos sobrecargados, es decir, aquellos con el mismo nombre que un método existente, pero que se diferencian por los valores especificados.</target>         
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Properties</source>
+          <target state="translated">Propiedades</target>         
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>All properties are public.</source>
+          <target state="translated">Todas las propiedades son públicas.</target>         
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Properties require either a newline or semicolon.</source>
+          <target state="translated">Las propiedades requieren una nueva línea o un punto y coma.</target>         
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If no object type is specified, the property type is object.</source>
+          <target state="translated">Si no se especifica ningún tipo de objeto, el tipo de propiedad es object.</target>         
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Properties that use validation attributes or argument transformation attributes (e.g. <ph id="ph1">`[ValidateSet("aaa")]`</ph>) work as expected.</source>
+          <target state="translated">Las propiedades que usan atributos de validación o atributos de transformación de argumentos (por ejemplo, <ph id="ph1">`[ValidateSet("aaa")]`</ph>) funcionan según lo esperado.</target>         
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Hidden</source>
+          <target state="translated">Hidden</target>         
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>A new keyword, <bpt id="p1">**</bpt>Hidden<ept id="p1">**</ept>, has been added.</source>
+          <target state="translated">Se agregó la nueva palabra clave <bpt id="p1">**</bpt>Hidden<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Hidden<ept id="p1">**</ept> can be applied to properties and methods (including constructors).</source>
+          <target state="translated"><bpt id="p1">**</bpt>Hidden<ept id="p1">**</ept> se puede aplicar a propiedades y métodos (incluidos constructores).</target>         
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Hidden members are public, but do not appear in the output of Get-Member unless the -Force parameter is added.</source>
+          <target state="translated">Los miembros ocultos son públicos, pero no aparecen en la salida de Get-Member salvo que se agregue el parámetro -Force.</target>         
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Hidden members are not included when tab completing or using Intellisense unless the completion occurs in the class defining the hidden member.</source>
+          <target state="translated">Los miembros ocultos no se incluyen al finalizar con tabulación o usar Intellisense, salvo que la finalización se produzca en la clase que define el miembro oculto.</target>         
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>A new attribute, <bpt id="p1">**</bpt>System.Management.Automation.HiddenAttribute<ept id="p1">**</ept> has been added so that C# code can have the same semantics within Windows PowerShell.</source>
+          <target state="translated">Un atributo nuevo, <bpt id="p1">**</bpt>System.Management.Automation.HiddenAttribute<ept id="p1">**</ept> se agregó para que el código de C# pueda tener la misma semántica en Windows PowerShell.</target>         
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Return types</source>
+          <target state="translated">Tipos de valor devueltos</target>         
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Return type is a contract; the return value is converted to the expected type.</source>
+          <target state="translated">El tipo de valor devuelto es un contrato; el valor devuelto se convierte en el tipo esperado.</target>         
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>If no return type is specified, the return type is void.</source>
+          <target state="translated">Si no se especifica ningún tipo de valor devuelto, el tipo de valor devuelto es void.</target>         
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>There is no streaming of objects; objects cannot be written to the pipeline either intentionally or by accident.</source>
+          <target state="translated">No hay ningún streaming de objetos; los objetos no se pueden escribir en la canalización, ni intencionadamente ni por accidente.</target>         
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Attributes</source>
+          <target state="translated">Atributos</target>         
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Four new attributes, <bpt id="p1">**</bpt>DscResource<ept id="p1">**</ept>, <bpt id="p2">**</bpt>DscResourceKey<ept id="p2">**</ept>, <bpt id="p3">**</bpt>DscResourceMandatory<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>DscResourceOut<ept id="p4">**</ept> have been added.</source>
+          <target state="translated">Se agregaron cuatro nuevos atributos, <bpt id="p1">**</bpt>DscResource<ept id="p1">**</ept>, <bpt id="p2">**</bpt>DscResourceKey<ept id="p2">**</ept>, <bpt id="p3">**</bpt>DscResourceMandatory<ept id="p3">**</ept> y <bpt id="p4">**</bpt>DscResourceOut<ept id="p4">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Lexical scoping of variables</source>
+          <target state="translated">Ámbito léxico de las variables</target>         
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The following shows an example of how lexical scoping works in this release.</source>
+          <target state="translated">A continuación, se muestra un ejemplo del funcionamiento del ámbito léxico en esta versión.</target>         
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>End-to-End Example</source>
+          <target state="translated">Acceso de un extremo a otro</target>         
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The following example creates several new, custom classes to implement an HTML dynamic style sheet language (DSL).</source>
+          <target state="translated">En el ejemplo siguiente se crean varias clases nuevas y personalizadas para implementar un lenguaje de hojas de estilo dinámico (DSL) HTML.</target>         
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Then, the example adds helper functions to create specific element types as part of the element class, such as heading styles and tables, because types cannot be used outside the scope of a module.</source>
+          <target state="translated">A continuación, el ejemplo agrega funciones auxiliares para crear tipos de elementos específicos como parte de la clase de elemento, tales como tablas y estilos de encabezado, porque los tipos no pueden usarse fuera del ámbito de un módulo.</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <header xmlns="">
+    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5728269b9c4e2f64fea941460ea24b8ec9f59c85</xliffext:olfilehash>
+  </header>
+</xliff>
