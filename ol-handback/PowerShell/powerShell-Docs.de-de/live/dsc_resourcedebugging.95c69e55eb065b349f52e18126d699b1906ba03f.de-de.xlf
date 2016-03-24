@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="md" source-language="en-US" target-language="de-de">
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>DSC Resource Script Debugging</source>
+          <target state="translated">Debuggen von DSC-Ressourcenskripts</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>WMF 5.0 Production Preview includes support for debugging DSC resource scripts while they run on target nodes.</source>
+          <target state="translated">WMF 5.0 Produktion Preview unterstützt das Debuggen von DSC-Ressourcenskripts, während sie auf den Zielknoten ausgeführt werden.</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In older WMF 5.0 releases, we added advanced script debugging features with the ability to attach to local processes (Get-PSHostProcessInfo, Enter-PSHostProcessInfo, Exit-PSHostProcessInfo), enumerate all runspaces in a process, and debug an arbitrary runspace in a process (Get-Runspace, Debug-Runspace).</source>
+          <target state="translated">In älteren Versionen von WMF 5.0 haben wir erweiterte Features für das Debuggen von Skripts mit der Möglichkeit zum Anfügen an lokale Prozesse (Get-PSHostProcessInfo, Enter-PSHostProcessInfo, Exit-PSHostProcessInfo), zum Auflisten aller Runspaces in einem Prozess und Debuggen eines beliebigen Runspaces in einem Prozess (Get-Runspace, Debug-Runspace) hinzugefügt.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>DSC resource script debugging builds on this work by adding two new cmdlets.</source>
+          <target state="translated">Das Debuggen von DSC-Ressourcenskript baut auf diesem Fundament auf und bietet zwei neue Cmdlets.</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Syntax</source>
+          <target state="translated">Syntax</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Enable-DscDebug<ept id="p1">**</ept></source>
+          <target state="translated"><bpt id="p1">**</bpt>Enable-DscDebug<ept id="p1">**</ept></target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Enable-DscDebug \[-BreakAll\] \[-CimSession &amp;lt;CimSession\[\]&amp;gt;\] \[-ThrottleLimit &amp;lt;int&amp;gt;\] \[-AsJob\] \[-WhatIf\] \[-Confirm\] \[&amp;lt;CommonParameters&amp;gt;\]</source>
+          <target state="translated">Enable-DscDebug \[-BreakAll\] \[-CimSession &amp;lt;CimSession\[\]&amp;gt;\] \[-ThrottleLimit &amp;lt;int&amp;gt;\] \[-AsJob\] \[-WhatIf\] \[-Confirm\] \[&amp;lt;CommonParameters&amp;gt;\]</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Disable-DscDebug<ept id="p1">**</ept></source>
+          <target state="translated"><bpt id="p1">**</bpt>Disable-DscDebug<ept id="p1">**</ept></target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Disable-DscDebug \[-CimSession &amp;lt;CimSession\[\]&amp;gt;\] \[-ThrottleLimit &amp;lt;int&amp;gt;\] \[-AsJob\] \[-WhatIf\] \[-Confirm\] \[&amp;lt;CommonParameters&amp;gt;\]</source>
+          <target state="translated">Disable-DscDebug \[-CimSession &amp;lt;CimSession\[\]&amp;gt;\] \[-ThrottleLimit &amp;lt;int&amp;gt;\] \[-AsJob\] \[-WhatIf\] \[-Confirm\] \[&amp;lt;CommonParameters&amp;gt;\]</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Typical WorkFlow</source>
+          <target state="translated">Typischer Workflow</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Now lets take a look at each of these commands and what they do:</source>
+          <target state="translated">Nun wollen wir uns diese Befehle ansehen und prüfen, was ihre Aufgabe ist:</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Enable-DscDebug –BreakAll<ept id="p1">**</ept></source>
+          <target state="translated"><bpt id="p1">**</bpt>Enable-DscDebug –BreakAll<ept id="p1">**</ept></target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Enable-DscDebug cmdlet with BreakAll configures the DSC LCM to run Get-TargetResource, Set-TargetResource, and Test-TargetResource scripts in Break All mode.</source>
+          <target state="translated">Das Cmdlet „Enable-DscDebug“ mit „BreakAll“ konfiguriert den LCM von DSC für das Ausführen der Skripts „Get-TargetResource“, „Set-TargetResource“ und „Test-TargetResource“ im Modus „Alle unterbrechen“.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This means that the script stops at the first script statement and waits for a debugger to be attached.</source>
+          <target state="translated">Dies bedeutet, dass das Skript bei der ersten Skriptanweisung angehalten wird und wartet, bis ein Debugger angefügt wird.</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can then connect to the target computer by using Windows PowerShell remoting, and attach the Windows PowerShell debugger to the LCM process and runspace to debug the script.</source>
+          <target state="translated">Sie können dann über Windows PowerShell-Remoting eine Verbindung mit dem Zielcomputer herstellen und den Windows PowerShell-Debugger an den LCM-Prozess und Runspace anfügen, um das Skript zu debuggen.</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>After you do this, you can set breakpoints and debug the script in the normal Windows PowerShell way.</source>
+          <target state="translated">Im Abschluss können Sie Haltepunkte setzen und das Skript auf die übliche Windows PowerShell-Weise debuggen.</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Start-DscConfiguration -path .\TestConfig2 -Wait -Verbose</source>
+          <target state="translated">Start-DscConfiguration -path .\TestConfig2 -Wait -Verbose</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This kicks off DSC but as noted above, since the target node has debug mode enabled it will stop at the first DSC resource that the LCM executes.</source>
+          <target state="translated">Hiermit wird DSC gestartet, doch da sich der Zielknoten, wie zuvor erwähnt, im Debugmodus befindet, hält es an der ersten DSC-Ressource an, die der LCM ausführt.</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In order to begin the debugging session run the commands shown in the warning message after running Start-DscConfiguration, you attach your client Windows PowerShell script debugger to the appropriate computer, process, application domain, and runspace.</source>
+          <target state="translated">Um die Debugsitzung zu starten, führen Sie die Befehle aus, die nach Ausführen von „Start-DscConfiguration“ in der Warnmeldung angezeigt werden. Fügen Sie Ihren clientseitigen Windows PowerShell-Skriptdebugger an den entsprechenden Computer, Prozess, Runspace bzw. die entsprechende Anwendungsdomäne an.</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Run this command to optionally use Windows PowerShell remoting to connect to the target computer.</source>
+          <target state="translated">Führen Sie diesen Befehl aus, um optional über Windows PowerShell-Remoting eine Verbindung mit dem Zielcomputer herzustellen.</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Skip this if you already have a remote desktop connection.</source>
+          <target state="translated">Überspringen Sie diesen Schritt, wenn bereits eine Remotedesktopverbindung besteht.</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This command attaches to the DSC LCM host process and app domain where the resource script is running.</source>
+          <target state="translated">Durch diesen Befehl erfolgt ein Anfügen an den LCM-Hostprozess für DSC und die App-Domäne, in der das Ressourcenskript ausgeführt wird.</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This last command lets you debug the DSC runspace running the script.</source>
+          <target state="translated">Mit dem letzten Befehl können Sie den DSC-Runspace debuggen, der das Skript ausführt.</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>After you have the debugger attached, set line breakpoints where you want to investigate script execution and run the <bpt id="p1">**</bpt>continue<ept id="p1">**</ept> debugger command to let the script run in the debugger.</source>
+          <target state="translated">Nachdem Sie den Debugger angefügt haben, setzen Sie in den Zeilen Haltepunkte, in denen Sie die Ausführung des Skripts untersuchen möchten. Führen Sie dann den Debuggerbefehl <bpt id="p1">**</bpt>continue<ept id="p1">**</ept> aus, um das Skript im Debugger auszuführen.</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>When you are done debugging, you can stop the script from running by typing the <bpt id="p1">**</bpt>quit<ept id="p1">**</ept> debugger command, or let the script continue to run without the debugger by running the <bpt id="p2">**</bpt>detach<ept id="p2">**</ept> debugger command.</source>
+          <target state="translated">Wenn Sie mit dem Debuggen fertig sind, können Sie die Ausführung des Skript durch Eingabe des Debuggerbefehls <bpt id="p1">**</bpt>quit<ept id="p1">**</ept> beenden. Sie können auch die Ausführung des Skripts ohne Debugger fortsetzen, indem Sie den Debuggerbefehl <bpt id="p2">**</bpt>detach<ept id="p2">**</ept> ausführen.</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Notice that <bpt id="p1">***</bpt>all<ept id="p1">***</ept> resource scripts are stopped in the debugger.</source>
+          <target state="translated">Beachten Sie, dass <bpt id="p1">***</bpt>alle<ept id="p1">***</ept> Ressourcenskripts im Debugger angehalten werden.</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This means that Test-TargetResoruce, Set-TargetResource, and Get-TargetResource scripts each in turn stop in the debugger.</source>
+          <target state="translated">Dies bedeutet, dass die Skripts „Test-TargetResoruce“, „Set-TargetResource“ und „Get-TargetResource“ nacheinander im Debugger beendet werden.</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>If you don't want to debug a resource script, you can exit debug mode in the runspace by running this command.</source>
+          <target state="translated">Wenn Sie ein Ressourcenskript nicht debuggen möchten, können Sie den Debugmodus durch Ausführen dieses Befehls im Runspace beenden:</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Disable-RunspaceDebug -RunspaceId 3</source>
+          <target state="translated">Disable-RunspaceDebug -RunspaceId 3</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Or you can attach the debugger by running Debug-Runspace, and then immediately run the <bpt id="p1">**</bpt>detach<ept id="p1">**</ept> command.</source>
+          <target state="translated">Oder Sie können den Debugger anfügen, indem Sie erst „Debug-Runspace“ und gleich darauf den <bpt id="p1">**</bpt>detach<ept id="p1">**</ept>-Befehl ausführen.</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>After you are done debugging your resource script, you should stop the DSC configuration by running the following command.</source>
+          <target state="translated">Wenn Sie mit dem Debuggen Ihres Ressourcenskripts fertig sind, müssen Sie die DSC-Konfiguration durch Ausführen des folgenden Befehls beenden.</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Stop-DscConfiguration –Force</source>
+          <target state="translated">Stop-DscConfiguration –Force</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Finally, you must reconfigure the target computer LCM to disable debug mode using Disable-DscDebug cmdlet..</source>
+          <target state="translated">Abschließend müssen Sie den LCM auf dem Zielcomputer so konfigurieren, dass mithilfe des Cmdlets „Disable-DscDebug“ der Debugmodus deaktiviert wird.</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <header xmlns="">
+    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">68949a10a4e8b6cac5a2d596567e7c0e680db8a2</xliffext:olfilehash>
+  </header>
+</xliff>

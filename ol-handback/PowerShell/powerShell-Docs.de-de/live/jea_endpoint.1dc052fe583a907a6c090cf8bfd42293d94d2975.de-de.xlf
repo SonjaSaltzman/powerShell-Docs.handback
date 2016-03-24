@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="md" source-language="en-US" target-language="de-de">
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Creating and Connecting to a JEA Endpoint</source>
+          <target state="translated">Erstellen eines JEA-Endpunkts und Herstellen einer Verbindung damit</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>To create a JEA endpoint, you need to create and register a specially-configured PowerShell Session Configuration file, which can be generated with the <bpt id="p1">**</bpt>New-PSSessionConfigurationFile<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">Um einen JEA-Endpunkt zu erstellen, müssen Sie eine besonders konfigurierte PowerShell-Sitzungskonfigurationsdatei erstellen und registrieren, die mit dem Cmdlet <bpt id="p1">**</bpt>New-PSSessionConfigurationFile<ept id="p1">**</ept> generiert werden kann.</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This will create a session configuration file that looks like this:</source>
+          <target state="translated">Diese Sitzungskonfigurationsdatei sieht folgendermaßen aus:</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>When creating a JEA endpoint, the following parameters of the command (and corresponding keys in the file) must be set:</source>
+          <target state="translated">Beim Erstellen eines JEA-Endpunkts müssen die folgenden Parameter des Befehls (und entsprechenden Schlüssel in der Datei) festgelegt werden:</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>SessionType to RestrictedRemoteServer</source>
+          <target state="translated">„SessionType“ auf „RestrictedRemoteServer“.</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>RunAsVirtualAccount to <bpt id="p1">**</bpt>$true<ept id="p1">**</ept></source>
+          <target state="translated">„RunAsVirtualAccount“ auf <bpt id="p1">**</bpt>$true<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>TranscriptPath to the directory where “over the shoulder” transcripts will be saved after each session</source>
+          <target state="translated">„TranscriptPath“ auf das Verzeichnis, in dem „Über die Schulter“-Aufzeichnungen nach jeder Sitzung gespeichert werden.</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>RoleDefinitions to a hashtable that defines which groups have access to which “Role Capabilities.”</source>
+          <target state="translated">„RoleDefinitions“ auf eine Hashtabelle, die definiert, welche Gruppen Zugriff auf bestimmte „Rollenfunktionen“ haben.</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This field defines <bpt id="p1">**</bpt>who<ept id="p1">**</ept> can do <bpt id="p2">**</bpt>what<ept id="p2">**</ept> on this endpoint.</source>
+          <target state="translated">Dieses Feld bestimmt, <bpt id="p1">**</bpt>wer<ept id="p1">**</ept> auf diesen Endpunkt <bpt id="p2">**</bpt>was<ept id="p2">**</ept> anwenden darf.</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Role Capabilities are special files that will be explained shortly.</source>
+          <target state="translated">„Rollenfunktionen“ sind spezielle Dateien, die in Kürze erläutert werden.</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The RoleDefinitions field defines which groups had access to which Role Capabilities.</source>
+          <target state="translated">Das Feld „RoleDefinitions“ definiert, welche Gruppen Zugriff auf bestimmte Rollenfunktionen haben.</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A Role Capability is a file that defines a set of capabilities that will be exposed to connecting users.</source>
+          <target state="translated">Eine Rollenfunktion ist eine Datei, die verschiedene Funktionen definiert, die Benutzern, die eine Verbindung herstellen, verfügbar gemacht werden.</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can create Role Capabilities with the <bpt id="p1">**</bpt>New-PSRoleCapabilityFile<ept id="p1">**</ept> command.</source>
+          <target state="translated">Sie können Rollenfunktionen mit dem Befehl <bpt id="p1">**</bpt>New-PSRoleCapabilityFile<ept id="p1">**</ept> erstellen.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This will generate a template role capability that looks like this:</source>
+          <target state="translated">Dadurch wird eine Rollenfunktionsvorlage erstellt, die wie folgt aussieht:</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To be used by a JEA session configuration, Role Capabilities must be saved as a valid PowerShell module in a directory named “RoleCapabilities”.</source>
+          <target state="translated">Um in einer JEA-Sitzungskonfiguration verwendet zu werden, müssen Rollenfunktionen als gültige PowerShell-Module im Verzeichnis „RoleCapabilities“ gespeichert werden.</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>A module may have multiple role capability files, if desired.</source>
+          <target state="translated">Ein Modul kann, falls gewünscht, mehrere Rollenfunktionsdateien enthalten.</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To start configuring which cmdlets, functions, aliases, and scripts a user may access when connecting to a JEA session, add your own rules to the Role Capability file following the commented out templates.</source>
+          <target state="translated">Zum Starten der Festlegung, auf welche Cmdlets, Funktionen, Aliase und Skripts ein Benutzer zugreifen darf, wenn eine Verbindung mit einer JEA-Sitzung hergestellt wird, fügen Sie der Datei mit den Rollenfunktionen hinter den auskommentierten Vorlagen eigene Regeln hinzu.</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For a deeper look into how you can configure Role Capabilities, check out the full <bpt id="p1">[</bpt>experience guide<ept id="p1">](http://aka.ms/JEA)</ept>.</source>
+          <target state="translated">Um sich einen tieferen Einblick in die Konfiguration von Rollenfunktionen zu verschaffen, konsultieren Sie das vollständige <bpt id="p1">[</bpt>Just Enough Administration-Handbuch<ept id="p1">](http://aka.ms/JEA)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Finally, once you have finished customizing your session configuration and related Role Capabilities, register this session configuration and create the endpoint by running <bpt id="p1">**</bpt>Register-PSSessionConfiguration<ept id="p1">**</ept>.</source>
+          <target state="translated">Nachdem Sie die Anpassung Ihrer Sitzungskonfiguration und dazugehörigen Rollenfunktionen abgeschlossen haben, registrieren Sie diese Sitzungskonfiguration. Erstellen Sie den Endpunkt durch Ausführen von <bpt id="p1">**</bpt>Register-PSSessionConfiguration<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Connect to a JEA Endpoint</source>
+          <target state="translated">Herstellen einer Verbindung mit einem JEA-Endpunkt</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Connecting to a JEA Endpoint works the same way connecting to any other PowerShell endpoint works.</source>
+          <target state="translated">Das Herstellen einer Verbindung mit einem JEA-Endpunkt erfolgt wie das Verbinden mit einem beliebigen anderen PowerShell-Endpunkt.</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You simply have to give your JEA endpoint name as the “ConfigurationName” parameter for <bpt id="p1">**</bpt>New-PSSession<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Invoke-Command<ept id="p2">**</ept>, or <bpt id="p3">**</bpt>Enter-PSSession<ept id="p3">**</ept>.</source>
+          <target state="translated">Sie müssen einfach den Namen Ihres JEA-Endpunkts als „ConfigurationName“-Parameter für <bpt id="p1">**</bpt>New-PSSession<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Invoke-Command<ept id="p2">**</ept> oder <bpt id="p3">**</bpt>Enter-PSSession<ept id="p3">**</ept> eingeben.</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Once you have connected to the JEA session, you will be limited to running the commands whitelisted in the Role Capabilities that you have access to.</source>
+          <target state="translated">Sobald Sie mit der JEA-Sitzung verbunden sind, können Sie nur noch die Befehle ausführen, die in der Positivliste unter den Rollenfunktionen angegeben sind.</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>If you try to run any command not allowed for your role, you will encounter an error.</source>
+          <target state="translated">Wenn Sie versuchen, einen für Ihre Rolle nicht zulässigen Befehl auszuführen, tritt ein Fehler auf.</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <header xmlns="">
+    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">061fb3a39191f7aaf3f5e51b12f56cac84031f49</xliffext:olfilehash>
+  </header>
+</xliff>
