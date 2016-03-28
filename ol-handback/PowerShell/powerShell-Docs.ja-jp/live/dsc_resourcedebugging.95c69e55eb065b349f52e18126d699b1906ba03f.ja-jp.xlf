@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="md" source-language="en-US" target-language="ja-jp">
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>DSC Resource Script Debugging</source>
+          <target state="translated">DSC リソース スクリプトのデバッグ</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>WMF 5.0 Production Preview includes support for debugging DSC resource scripts while they run on target nodes.</source>
+          <target state="translated">WMF 5.0 Production Preview には、ターゲット ノードで実行中に DSC リソース スクリプトをデバッグするためのサポートが含まれています。</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In older WMF 5.0 releases, we added advanced script debugging features with the ability to attach to local processes (Get-PSHostProcessInfo, Enter-PSHostProcessInfo, Exit-PSHostProcessInfo), enumerate all runspaces in a process, and debug an arbitrary runspace in a process (Get-Runspace, Debug-Runspace).</source>
+          <target state="translated">以前の WMF 5.0 リリースでは、高度なスクリプト デバッグ機能として、ローカル プロセスにアタッチする機能 (Get-PSHostProcessInfo、Enter-PSHostProcessInfo、Exit-PSHostProcessInfo)、プロセス内のすべての実行空間を列挙する機能、およびプロセス内の任意の実行空間をデバッグする機能 (Get-Runspace、Debug-Runspace) が追加されました。</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>DSC resource script debugging builds on this work by adding two new cmdlets.</source>
+          <target state="translated">DSC リソース スクリプトのデバッグでは、この機能を土台にして、さらに 2 つの新しいコマンドレットが追加されました。</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Syntax</source>
+          <target state="translated">構文</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Enable-DscDebug<ept id="p1">**</ept></source>
+          <target state="translated"><bpt id="p1">**</bpt>Enable-DscDebug<ept id="p1">**</ept></target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Enable-DscDebug \[-BreakAll\] \[-CimSession &amp;lt;CimSession\[\]&amp;gt;\] \[-ThrottleLimit &amp;lt;int&amp;gt;\] \[-AsJob\] \[-WhatIf\] \[-Confirm\] \[&amp;lt;CommonParameters&amp;gt;\]</source>
+          <target state="translated">Enable-DscDebug \[-BreakAll\] \[-CimSession &amp;lt;CimSession\[\]&amp;gt;\] \[-ThrottleLimit &amp;lt;int&amp;gt;\] \[-AsJob\] \[-WhatIf\] \[-Confirm\] \[&amp;lt;CommonParameters&amp;gt;\]</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Disable-DscDebug<ept id="p1">**</ept></source>
+          <target state="translated"><bpt id="p1">**</bpt>Disable-DscDebug<ept id="p1">**</ept></target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Disable-DscDebug \[-CimSession &amp;lt;CimSession\[\]&amp;gt;\] \[-ThrottleLimit &amp;lt;int&amp;gt;\] \[-AsJob\] \[-WhatIf\] \[-Confirm\] \[&amp;lt;CommonParameters&amp;gt;\]</source>
+          <target state="translated">Disable-DscDebug \[-CimSession &amp;lt;CimSession\[\]&amp;gt;\] \[-ThrottleLimit &amp;lt;int&amp;gt;\] \[-AsJob\] \[-WhatIf\] \[-Confirm\] \[&amp;lt;CommonParameters&amp;gt;\]</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Typical WorkFlow</source>
+          <target state="translated">典型的なワークフロー</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Now lets take a look at each of these commands and what they do:</source>
+          <target state="translated">これらの各コマンドとその実行内容を見ていきましょう。</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Enable-DscDebug –BreakAll<ept id="p1">**</ept></source>
+          <target state="translated"><bpt id="p1">**</bpt>Enable-DscDebug –BreakAll<ept id="p1">**</ept></target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Enable-DscDebug cmdlet with BreakAll configures the DSC LCM to run Get-TargetResource, Set-TargetResource, and Test-TargetResource scripts in Break All mode.</source>
+          <target state="translated">BreakAll を指定した Enable-DscDebug コマンドレットでは、Get-TargetResource、Set-TargetResource、および Test-TargetResource の各スクリプトを [すべて中断] モードで実行するように DSC LCM を構成します。</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This means that the script stops at the first script statement and waits for a debugger to be attached.</source>
+          <target state="translated">このモードでは、スクリプトはスクリプトの最初のステートメントで停止し、デバッガーがアタッチされるまで待機します。</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can then connect to the target computer by using Windows PowerShell remoting, and attach the Windows PowerShell debugger to the LCM process and runspace to debug the script.</source>
+          <target state="translated">その後、Windows PowerShell リモート処理を使ってターゲット コンピューターに接続し、スクリプトをデバッグするための LCM プロセスと実行空間に Windows PowerShell デバッガーをアタッチします。</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>After you do this, you can set breakpoints and debug the script in the normal Windows PowerShell way.</source>
+          <target state="translated">その後は、Windows PowerShell の通常の方法でブレークポイントを設定し、スクリプトをデバッグできます。</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Start-DscConfiguration -path .\TestConfig2 -Wait -Verbose</source>
+          <target state="translated">Start-DscConfiguration -path .\TestConfig2 -Wait -Verbose</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This kicks off DSC but as noted above, since the target node has debug mode enabled it will stop at the first DSC resource that the LCM executes.</source>
+          <target state="translated">これにより、DSC が開始します。ただし、ターゲット ノードはデバッグ モードになっているため、前に説明したとおり、LCM が実行する最初の DSC リソースの位置で停止します。</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In order to begin the debugging session run the commands shown in the warning message after running Start-DscConfiguration, you attach your client Windows PowerShell script debugger to the appropriate computer, process, application domain, and runspace.</source>
+          <target state="translated">デバッグ セッションを開始するには、Start-DscConfiguration を実行した後の警告メッセージに示されているコマンドを実行することにより、該当するコンピューター、プロセス、アプリケーション ドメイン、および実行空間に、クライアントの Windows PowerShell スクリプト デバッガーをアタッチします。</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Run this command to optionally use Windows PowerShell remoting to connect to the target computer.</source>
+          <target state="translated">このコマンドは、Windows PowerShell リモート処理を使って対象のコンピューターに接続するために、必要に応じて実行します。</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Skip this if you already have a remote desktop connection.</source>
+          <target state="translated">既にリモート デスクトップ接続がある場合は、この手順をスキップします。</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This command attaches to the DSC LCM host process and app domain where the resource script is running.</source>
+          <target state="translated">このコマンドでは、リソースのスクリプトが実行されている DSC LCM ホスト プロセスおよびアプリ ドメインにアタッチします。</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This last command lets you debug the DSC runspace running the script.</source>
+          <target state="translated">この最後のコマンドにより、スクリプトを実行している DSC 実行空間をデバッグできるようになります。</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>After you have the debugger attached, set line breakpoints where you want to investigate script execution and run the <bpt id="p1">**</bpt>continue<ept id="p1">**</ept> debugger command to let the script run in the debugger.</source>
+          <target state="translated">デバッガーをアタッチした後は、スクリプトの実行を調査する行にブレークポイントを設定し、<bpt id="p1">**</bpt>continue<ept id="p1">**</ept> デバッガー コマンドを実行して、スクリプトをデバッガー内で実行します。</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>When you are done debugging, you can stop the script from running by typing the <bpt id="p1">**</bpt>quit<ept id="p1">**</ept> debugger command, or let the script continue to run without the debugger by running the <bpt id="p2">**</bpt>detach<ept id="p2">**</ept> debugger command.</source>
+          <target state="translated">デバッグが終了したら、<bpt id="p1">**</bpt>quit<ept id="p1">**</ept> デバッガー コマンドを入力すれば、スクリプトの実行を停止できます。または、<bpt id="p2">**</bpt>detach<ept id="p2">**</ept> デバッガー コマンドを実行すれば、デバッガーなしでスクリプトの実行を続行できます。</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Notice that <bpt id="p1">***</bpt>all<ept id="p1">***</ept> resource scripts are stopped in the debugger.</source>
+          <target state="translated">デバッガーでは、<bpt id="p1">***</bpt>すべての<ept id="p1">***</ept>リソース スクリプトが停止することに注意してください。</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This means that Test-TargetResoruce, Set-TargetResource, and Get-TargetResource scripts each in turn stop in the debugger.</source>
+          <target state="translated">これは、デバッガーでは Test-TargetResoruce、Set-TargetResource、および Get-TargetResource スクリプトがそれぞれ順番に停止することを意味します。</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>If you don't want to debug a resource script, you can exit debug mode in the runspace by running this command.</source>
+          <target state="translated">リソース スクリプトをデバッグする必要がない場合は、次のコマンドを実行すれば、実行空間でのデバッグ モードを終了できます。</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Disable-RunspaceDebug -RunspaceId 3</source>
+          <target state="translated">Disable-RunspaceDebug -RunspaceId 3</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Or you can attach the debugger by running Debug-Runspace, and then immediately run the <bpt id="p1">**</bpt>detach<ept id="p1">**</ept> command.</source>
+          <target state="translated">または、Debug-Runspace を実行してデバッガーをアタッチした後、すぐに <bpt id="p1">**</bpt>detach<ept id="p1">**</ept> コマンドを実行することもできます。</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>After you are done debugging your resource script, you should stop the DSC configuration by running the following command.</source>
+          <target state="translated">リソース スクリプトのデバッグが完了したら、次のコマンドを実行して、DSC 構成を停止する必要があります。</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Stop-DscConfiguration –Force</source>
+          <target state="translated">Stop-DscConfiguration –Force</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Finally, you must reconfigure the target computer LCM to disable debug mode using Disable-DscDebug cmdlet..</source>
+          <target state="translated">最後に、Disable-DscDebug コマンドレットを使って、デバッグ モードを無効にするように対象のコンピューターの LCM を再構成する必要があります.</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <header xmlns="">
+    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">68949a10a4e8b6cac5a2d596567e7c0e680db8a2</xliffext:olfilehash>
+  </header>
+</xliff>

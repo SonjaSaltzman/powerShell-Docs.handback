@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="md" source-language="en-US" target-language="ja-jp">
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>On-demand PULL of DSC Configurations</source>
+          <target state="translated">DSC 構成のオンデマンド プル</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The new Update-DscConfiguration cmdlet triggers a pull from the pull server(s) defined in the meta-configuration.</source>
+          <target state="translated">新しい Update-DscConfiguration コマンドレットは、メタ構成で定義されているプル サーバーからのプルをトリガーします。</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The behavior is often referred to as 'Pull Now'.</source>
+          <target state="translated">この動作のことを、よく '今すぐプル' と呼びます。</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Once triggered, the pull behaves exactly the same as it would have when triggered during the regular frequency:</source>
+          <target state="translated">トリガーされたプルは、通常の頻度でトリガーされるプルとまったく同様に動作します。</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The checksum for current configuration is compared to the checksum for the configuration on the pull server.</source>
+          <target state="translated">現在の構成のチェックサムが、プル サーバー上の構成のチェックサムと比較されます。</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If they are the same, it completes successfully without applying the configuration.</source>
+          <target state="translated">この 2 つが同一の場合は、構成を適用せずに、正常に終了します。</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>If they are different, the configuration is pulled down from the pull server and applied.</source>
+          <target state="translated">この 2 つが異なる場合は、構成がプル サーバーからダウンロードされ、適用されます。</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> If the Meta-Configuration RefreshMode = 'Push' an error is returned by this cmdlet so this cmdlet will always do nothing when a target node is in 'Push' Mode.</source>
+          <target state="translated"><bpt id="p1">**</bpt>注:<ept id="p1">**</ept> メタ構成で RefreshMode = 'Push' の場合は、コマンドレットからエラーが返されます。そのため、ターゲット ノードが 'Push' モードの場合は常に、このコマンドレットは何も実行しません。</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <header xmlns="">
+    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">64101be0217053e685f39cd6aebf4447df700c7f</xliffext:olfilehash>
+  </header>
+</xliff>
