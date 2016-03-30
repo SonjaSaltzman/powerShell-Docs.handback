@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="es-es">
+    <body>
+      <group id="main" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Setting up a pull client using configuration ID</source>
+          <target state="translated">Configuración de un cliente de extracción mediante id. de configuración</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 5.0</source>
+          <target state="translated">Se aplica a: Windows PowerShell 5.0</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Each target node has to be told to use pull mode and given the URL where it can contact the pull server to get configurations.</source>
+          <target state="translated">Es necesario indicar a cada nodo de destino que debe usar el modo de extracción y se le debe facilitar la dirección URL donde puede establecer contacto con el servidor de extracción para obtener las configuraciones.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>To do this, you have to configure the Local Configuration Manager (LCM) with the necessary information.</source>
+          <target state="translated">Para ello, tendrá que configurar el administrador de configuración local (LCM) con la información necesaria.</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To configure the LCM, you create a special type of configuration, derated with the <bpt id="p1">**</bpt>DSCLocalConfigurationManager<ept id="p1">**</ept> attribute.</source>
+          <target state="translated">Para configurar el LCM, debe crear un tipo especial de configuración, haya sido decorado con el atributo <bpt id="p1">**</bpt>DSCLocalConfigurationManager<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For more information about configuring the LCM, see <bpt id="p2">[</bpt>Configuring the Local Configuration Manager<ept id="p2">](metaConfig.md)</ept>.</source>
+          <target state="translated">Para más información sobre la configuración del LCM, consulte <bpt id="p2">[</bpt>Configuración del administrador de configuración local<ept id="p2">](metaConfig.md)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p3">**</bpt>Note<ept id="p3">**</ept>: This topic applies to PowerShell 5.0.</source>
+          <target state="translated"><bpt id="p3">**</bpt>Nota<ept id="p3">**</ept>: Este tema se aplica a PowerShell 5.0.</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For information on setting up a pull client in PowerShell 4.0, see <bpt id="p4">[</bpt>Setting up a pull client using configuration ID in PowerShell 4.0<ept id="p4">](pullClientConfigID4.md)</ept></source>
+          <target state="translated">Para obtener información sobre cómo configurar un cliente de extracción en PowerShell 4.0, consulte <bpt id="p4">[</bpt>Configuración de un cliente de extracción con el id. de configuración de PowerShell 4.0<ept id="p4">](pullClientConfigID4.md)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The following script configures the LCM to pull configurations from a server named "CONTOSO-PullSrv".</source>
+          <target state="translated">El script siguiente configura el LCM para que extraiga configuraciones de un servidor denominado "CONTOSO-PullSrv".</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In the script, the <bpt id="p5">**</bpt>ConfigurationRepositoryWeb<ept id="p5">**</ept> block defines the pull server.</source>
+          <target state="translated">En el script, el bloque <bpt id="p5">**</bpt>ConfigurationRepositoryWeb<ept id="p5">**</ept> define el servidor de extracción.</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p6">**</bpt>ServerURL<ept id="p6">**</ept></source>
+          <target state="translated">El elemento <bpt id="p6">**</bpt>ServerURL<ept id="p6">**</ept></target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>After this script runs, it creates a new output folder named <bpt id="p7">**</bpt>PullClientConfigID<ept id="p7">**</ept> and puts a metaconfiguration MOF file there.</source>
+          <target state="translated">Después de que se ejecute este script, se crea una nueva carpeta de salida denominada <bpt id="p7">**</bpt>PullClientConfigID<ept id="p7">**</ept> y se coloca un archivo MOF de metaconfiguración en ella.</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In this case, the metaconfiguration MOF file will be named <ph id="ph1">`localhost.meta.mof`</ph>.</source>
+          <target state="translated">En este caso, el nombre del archivo MOF de metaconfiguración será <ph id="ph1">`localhost.meta.mof`</ph>.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To apply the configuration, call the <bpt id="p8">**</bpt>Set-DscLocalConfigurationManager<ept id="p8">**</ept> cmdlet, with the <bpt id="p9">**</bpt>Path<ept id="p9">**</ept> set to the location of the metaconfiguration MOF file.</source>
+          <target state="translated">Para aplicar la configuración, llame al cmdlet <bpt id="p8">**</bpt>Set-DscLocalConfigurationManager<ept id="p8">**</ept>, con el valor de <bpt id="p9">**</bpt>Path<ept id="p9">**</ept> establecido en la ubicación del archivo MOF de metaconfiguración.</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For example: <ph id="ph2">`Set-DSCLocalConfigurationManager localhost –Path .\PullClientConfigID –Verbose.`</ph></source>
+          <target state="translated">Por ejemplo: <ph id="ph2">`Set-DSCLocalConfigurationManager localhost –Path .\PullClientConfigID –Verbose.`</ph></target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Configuration ID</source>
+          <target state="translated">Id. de configuración</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The script sets the <bpt id="p10">**</bpt>ConfigurationID<ept id="p10">**</ept> property of LCM to a GUID that had been previously created for this purpose (you can create a GUID by using the <bpt id="p11">**</bpt>New-Guid<ept id="p11">**</ept> cmdlet).</source>
+          <target state="translated">El script establece la propiedad <bpt id="p10">**</bpt>ConfigurationID<ept id="p10">**</ept> del LCM en un GUID que se había creado anteriormente para este fin (puede crear un GUID mediante el cmdlet <bpt id="p11">**</bpt>New-Guid<ept id="p11">**</ept>).</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p12">**</bpt>ConfigurationID<ept id="p12">**</ept> is what the LCM uses to find the appropriate configuration on the pull server.</source>
+          <target state="translated">La propiedad <bpt id="p12">**</bpt>ConfigurationID<ept id="p12">**</ept> es lo que usa LCM para encontrar la configuración adecuada en el servidor de extracción.</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The configuration MOF file on the pull server must be named <bpt id="p13">_</bpt>ConfigurationID<ept id="p13">_</ept>.mof, where <bpt id="p14">_</bpt>ConfigurationID<ept id="p14">_</ept> is the value of the <bpt id="p15">**</bpt>ConfigurationID<ept id="p15">**</ept> property of the target node's LCM.</source>
+          <target state="translated">El archivo MOF de configuración del servidor de extracción debe denominarse <bpt id="p13">_</bpt>ConfigurationID<ept id="p13">_</ept>.mof, donde <bpt id="p14">_</bpt>ConfigurationID<ept id="p14">_</ept> es el valor de la propiedad <bpt id="p15">**</bpt>ConfigurationID<ept id="p15">**</ept> del LCM del nodo de destino.</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>SMB pull server</source>
+          <target state="translated">Servidor de extracción SMB</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To set up a client to pull configurations from an SMB server, use a <bpt id="p16">**</bpt>ConfigurationRepositoryShare<ept id="p16">**</ept> block.</source>
+          <target state="translated">Para configurar un cliente que extraiga configuraciones de un servidor SMB, use un bloque <bpt id="p16">**</bpt>ConfigurationRepositoryShare<ept id="p16">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>In a <bpt id="p17">**</bpt>ConfigurationRepositoryShare<ept id="p17">**</ept> block, you specify the path to the server by setting the <bpt id="p18">**</bpt>SourcePath<ept id="p18">**</ept> property.</source>
+          <target state="translated">En un bloque <bpt id="p17">**</bpt>ConfigurationRepositoryShare<ept id="p17">**</ept>, especifique la ruta de acceso al servidor mediante el establecimiento de la propiedad <bpt id="p18">**</bpt>SourcePath<ept id="p18">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The following metaconfiguration configures the target node to pull from an SMB pull server named <bpt id="p19">**</bpt>SMBPullServer<ept id="p19">**</ept>.</source>
+          <target state="translated">La metaconfiguración siguiente configura el nodo de destino para que extraiga de un servidor de extracción SMB denominado <bpt id="p19">**</bpt>SMBPullServer<ept id="p19">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Resource and report servers</source>
+          <target state="translated">Servidores de informes y recursos</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>By default, the client node gets required resources from and reports status to the configuration pull server.</source>
+          <target state="translated">De forma predeterminada, el nodo cliente obtiene los recursos necesarios del servidor de extracción de configuración e informa del estado al mismo servidor.</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>However, you can specify different pull servers for resources and reporting.</source>
+          <target state="translated">Sin embargo, es posible especificar servidores de extracción diferentes para los recursos y los informes.</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To specify a resource server, you use either a <bpt id="p20">**</bpt>ResourceRepositoryWeb<ept id="p20">**</ept> (for a web pull server) or a <bpt id="p21">**</bpt>ResourceRepositoryShare<ept id="p21">**</ept> block (for an SMB pull server).</source>
+          <target state="translated">Para especificar un servidor de recursos, utilice un bloque <bpt id="p20">**</bpt>ResourceRepositoryWeb<ept id="p20">**</ept> (para un servidor de extracción web) o un bloque <bpt id="p21">**</bpt>ResourceRepositoryShare<ept id="p21">**</ept> (para un servidor de extracción SMB).</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To specify a report server, you use a <bpt id="p22">**</bpt>ReportRepositoryWeb<ept id="p22">**</ept> block.</source>
+          <target state="translated">Para especificar un servidor de informes, utilice un bloque <bpt id="p22">**</bpt>ReportRepositoryWeb<ept id="p22">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A report server cannot be an SMB server.</source>
+          <target state="translated">Un servidor de informes no puede ser un servidor SMB.</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The following metaconfiguration configures a pull client to get its configurations from <bpt id="p23">**</bpt>CONTOSO-PullSrv<ept id="p23">**</ept> and its resources from <bpt id="p24">**</bpt>CONTOSO-ResourceSrv<ept id="p24">**</ept>, and to send status reports to <bpt id="p25">**</bpt>CONTOSO-ReportSrv<ept id="p25">**</ept>.</source>
+          <target state="translated">La metaconfiguración siguiente configura un cliente de extracción para que obtenga sus configuraciones de <bpt id="p23">**</bpt>CONTOSO-PullSrv<ept id="p23">**</ept> y sus recursos de <bpt id="p24">**</bpt>CONTOSO-ResourceSrv<ept id="p24">**</ept>, y para que envíe los informes a <bpt id="p25">**</bpt>CONTOSO-ReportSrv<ept id="p25">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">Consulte también</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><ph id="ph3">[</ph>Setting up a pull client with configuration names<ph id="ph4">](pullClientConfigNames.md)</ph></source>
+          <target state="translated"><ph id="ph3">[</ph>Configuración de un cliente de extracción con nombres de configuración<ph id="ph4">](pullClientConfigNames.md)</ph></target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <header xmlns="">
+    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">54bb78b313c4f0c721862910496c5154ed5444ef</xliffext:olfilehash>
+  </header>
+</xliff>
