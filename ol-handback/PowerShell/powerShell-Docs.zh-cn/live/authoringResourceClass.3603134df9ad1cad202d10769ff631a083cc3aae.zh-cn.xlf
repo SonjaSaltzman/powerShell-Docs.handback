@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="zh-cn">
+    <body>
+      <group id="main" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Writing a custom DSC resource with PowerShell classes</source>
+          <target state="translated">使用 PowerShell 类编写自定义 DSC 资源</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows Windows PowerShell 5.0</source>
+          <target state="translated">适用于：Windows PowerShell 5.0</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>With the introduction of PowerShell classes in Windows PowerShell 5.0, you can now define a DSC resource by creating a class.</source>
+          <target state="translated">了解了在 Windows PowerShell 5.0 中使用 PowerShell 类的简介后，现在你可以通过创建一个类来定义 DSC 资源。</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The class defines both the schema and the implementation of the resource, so there is no need to create a separate MOF file.</source>
+          <target state="translated">类可以同时定义资源的架构和实现，因此无需创建单独的 MOF 文件。</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The folder structure for a class-based resource is also simpler, because a <bpt id="p1">**</bpt>DSCResources<ept id="p1">**</ept> folder is not necessary.</source>
+          <target state="translated">因为无需 <bpt id="p1">**</bpt>DSCResources<ept id="p1">**</ept> 文件夹，基于类的资源的文件夹结构也得以简化。</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In a class-based DSC resource, the schema is defined as properties of the class which can be modified with attributes to specify the property type..</source>
+          <target state="translated">在基于类的 DSC 资源中，架构被定义为类的属性，可通过特性对其进行修改来指定属性类型。</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The resource is implemented by <bpt id="p2">**</bpt>Get()<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Set()<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Test()<ept id="p4">**</ept> methods (equivalent to the <bpt id="p5">**</bpt>Get-TargetResource<ept id="p5">**</ept>, <bpt id="p6">**</bpt>Set-TargetResource<ept id="p6">**</ept>, and <bpt id="p7">**</bpt>Test-TargetResource<ept id="p7">**</ept> functions in a script resource.</source>
+          <target state="translated">资源通过 <bpt id="p2">**</bpt>Get()<ept id="p2">**</ept>、<bpt id="p3">**</bpt>Set()<ept id="p3">**</ept> 和 <bpt id="p4">**</bpt>Test()<ept id="p4">**</ept> 的方法得到实现（相当于脚本资源中的 <bpt id="p5">**</bpt>Get-TargetResource<ept id="p5">**</ept>、<bpt id="p6">**</bpt>Set-TargetResource<ept id="p6">**</ept> 和 <bpt id="p7">**</bpt>Test-TargetResource<ept id="p7">**</ept> 函数）。</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In this topic, we will create a simple resource named <bpt id="p8">**</bpt>FileResource<ept id="p8">**</ept> that manages a file in a specified path.</source>
+          <target state="translated">在本主题中，我们将创建一个名为 <bpt id="p8">**</bpt>FileResource<ept id="p8">**</ept> 的简单资源来管理指定路径中的文件。</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For more information about DSC resources, see <bpt id="p9">[</bpt>Build Custom Windows PowerShell Desired State Configuration Resources<ept id="p9">](authoringResource.md)</ept></source>
+          <target state="translated">有关 DSC 资源的详细信息，请参阅<bpt id="p9">[</bpt>构建自定义 Windows PowerShell Desired State Configuration 资源<ept id="p9">](authoringResource.md)</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Folder structure for a class resource</source>
+          <target state="translated">类资源的文件夹结构</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To implement a DSC custom resource with a PowerShell class, create the following folder structure.</source>
+          <target state="translated">想要使用 PowerShell 类实现 DSC 自定义资源，请创建下列文件夹结构。</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The class is defined in <bpt id="p10">**</bpt>MyDscResource.psm1<ept id="p10">**</ept> and the module manifest is defined in <bpt id="p11">**</bpt>MyDscResource.psd1<ept id="p11">**</ept>.</source>
+          <target state="translated">在 <bpt id="p10">**</bpt>MyDscResource.psm1<ept id="p10">**</ept> 中定义类，并且在 <bpt id="p11">**</bpt>MyDscResource.psd1<ept id="p11">**</ept> 中定义模块清单。</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Nested modules</source>
+          <target state="translated">嵌套模块</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Alternatively, you can split resources across several <ph id="ph1">`.psm1`</ph> files and include them as nested modules.</source>
+          <target state="translated">或者你可以跨多个 <ph id="ph1">`.psm1`</ph> 文件拆分资源，并将他们归结到嵌套模块中。</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>It's reasonable, when you have a lot of resources and putting them all in one file would make it hard to manage.</source>
+          <target state="translated">当你有大量资源时，将所有资源放在一个文件中会很难管理，因此这个做法是合理的。</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can put one class in each file, or several of them.</source>
+          <target state="translated">你可以每个文件放一个类，也可以几个文件放一个类。</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>It can be useful to group resources by a sub-area inside one nested module.</source>
+          <target state="translated">通过嵌套模块内的子区域来对资源进行分组，这样简单有效。</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>From the user point of view, there is no difference in usage.</source>
+          <target state="translated">从用户角度来看，使用起来也没有任何差别。</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>All resource will show up in <ph id="ph2">`MyDscResource`</ph> module.</source>
+          <target state="translated">所有资源将都显示在 <ph id="ph2">`MyDscResource`</ph> 模块。</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Think about these nested modules as implementation details and use it for your convinience.</source>
+          <target state="translated">考虑将这些嵌套模块当做实现的细节，让其简化你的工作。</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Create the class</source>
+          <target state="translated">创建类</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You use the class keyword to create a PowerShell class.</source>
+          <target state="translated">使用类关键字创建 PowerShell 类。</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To specify that a class is a DSC resource, use the <bpt id="p12">**</bpt>DscResource()<ept id="p12">**</ept> attribute.</source>
+          <target state="translated">使用 <bpt id="p12">**</bpt>DscResource()<ept id="p12">**</ept> 特性来指定类是 DSC 资源。</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The name of the class is the name of the DSC resource.</source>
+          <target state="translated">类的名称就是 DSC 资源的名称。</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Declare properties</source>
+          <target state="translated">声明属性</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The DSC resource schema is defined as properties of the class.</source>
+          <target state="translated">DSC 资源架构被定义为类的属性。</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>We declare three properties as follows.</source>
+          <target state="translated">我们声明下列三个属性。</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Notice that the properties are modified by attributes.</source>
+          <target state="translated">请注意，属性通过特性进行修改。</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The meaning of the attributes is as follows:</source>
+          <target state="translated">特性的含义如下：</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p13">**</bpt>DscProperty(Key)<ept id="p13">**</ept>: The property is required.</source>
+          <target state="translated"><bpt id="p13">**</bpt>DscProperty(Key)<ept id="p13">**</ept>：属性是必需的。</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The property is a key.</source>
+          <target state="translated">属性为键。</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The values of all properties marked as keys must combine to uniquely identify a resource instance within a configuration.</source>
+          <target state="translated">所有被标记为键的属性的值必须接合以唯一地标识配置内的资源实例。</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p14">**</bpt>DscProperty(Mandatory)<ept id="p14">**</ept>: The property is required.</source>
+          <target state="translated"><bpt id="p14">**</bpt>DscProperty(Mandatory)<ept id="p14">**</ept>：属性是必需的。</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p15">**</bpt>DscProperty(NotConfigurable)<ept id="p15">**</ept>: The property is read-only.</source>
+          <target state="translated"><bpt id="p15">**</bpt>DscProperty(NotConfigurable)<ept id="p15">**</ept>：属性为只读属性。</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Properties marked with this attribute cannot be set by a configuration, but are populated by the <bpt id="p16">**</bpt>Get()<ept id="p16">**</ept> method when present.</source>
+          <target state="translated">使用此特性标记的属性不能通过配置进行设置，但出现时使用 <bpt id="p16">**</bpt>Get()<ept id="p16">**</ept> 方法进行填充。</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p17">**</bpt>DscProperty()<ept id="p17">**</ept>: The property is configurable, but it is not required.</source>
+          <target state="translated"><bpt id="p17">**</bpt>DscProperty()<ept id="p17">**</ept>：属性可配置，但不是必需的。</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p18">**</bpt>$Path<ept id="p18">**</ept> and <bpt id="p19">**</bpt>$SourcePath<ept id="p19">**</ept> properties are both strings.</source>
+          <target state="translated"><bpt id="p18">**</bpt>$Path<ept id="p18">**</ept> 和 <bpt id="p19">**</bpt>$SourcePath<ept id="p19">**</ept> 属性都是字符串。</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p20">**</bpt>$CreationTime<ept id="p20">**</ept> is a <bpt id="p21">[</bpt>DateTime<ept id="p21">](https://technet.microsoft.com/en-us/library/system.datetime.aspx)</ept> property.</source>
+          <target state="translated"><bpt id="p20">**</bpt>$CreationTime<ept id="p20">**</ept> 是一个 <bpt id="p21">[</bpt>DateTime<ept id="p21">](https://technet.microsoft.com/en-us/library/system.datetime.aspx)</ept> 属性。</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p22">**</bpt>$Ensure<ept id="p22">**</ept> property is an enumeration type, defined as follows.</source>
+          <target state="translated"><bpt id="p22">**</bpt>$Ensure<ept id="p22">**</ept> 属性是枚举类，定义如下。</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Implementing the methods</source>
+          <target state="translated">实现该方法</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p23">**</bpt>Get()<ept id="p23">**</ept>, <bpt id="p24">**</bpt>Set()<ept id="p24">**</ept>, and <bpt id="p25">**</bpt>Test()<ept id="p25">**</ept> methods are analogous to the <bpt id="p26">**</bpt>Get-TargetResource<ept id="p26">**</ept>, <bpt id="p27">**</bpt>Set-TargetResource<ept id="p27">**</ept>, and <bpt id="p28">**</bpt>Test-TargetResource<ept id="p28">**</ept> functions in a script resource.</source>
+          <target state="translated"><bpt id="p23">**</bpt>Get()<ept id="p23">**</ept>、<bpt id="p24">**</bpt>Set()<ept id="p24">**</ept> 和 <bpt id="p25">**</bpt>Test()<ept id="p25">**</ept> 方法类似于脚本资源中的 <bpt id="p26">**</bpt>Get-TargetResource<ept id="p26">**</ept>、<bpt id="p27">**</bpt>Set-TargetResource<ept id="p27">**</ept> 和 <bpt id="p28">**</bpt>Test-TargetResource<ept id="p28">**</ept> 函数。</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This code also includes the CopyFile() function, a helper function that copies the file from <bpt id="p29">**</bpt>$SourcePath<ept id="p29">**</ept> to <bpt id="p30">**</bpt>$Path<ept id="p30">**</ept>.</source>
+          <target state="translated">此代码还包括 CopyFile() 函数，是一个可将文件从 <bpt id="p29">**</bpt>$SourcePath<ept id="p29">**</ept> 复制到 <bpt id="p30">**</bpt>$Path<ept id="p30">**</ept> 的 helper 函数。</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The complete file</source>
+          <target state="translated">完整文件</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The complete class file follows.</source>
+          <target state="translated">完整类文件如下。</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Create a manifest</source>
+          <target state="translated">创建清单</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To make a class-based resource available to the DSC engine, you must include a <bpt id="p31">**</bpt>DscResourcesToExport<ept id="p31">**</ept> statement in the manifest file that instructs the module to export resources.</source>
+          <target state="translated">想要让基于类的资源对 DSC 引擎可用，必须在清单文件中包含一个 <bpt id="p31">**</bpt>DscResourcesToExport<ept id="p31">**</ept> 声明，指示模块导出资源。</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>If you are using <bpt id="p32">**</bpt>Nested modules<ept id="p32">**</ept> to split resources into few files, you should put the list of nested modules in <ph id="ph3">`NestedModules`</ph> key</source>
+          <target state="translated">如果使用<bpt id="p32">**</bpt>Nested modules<ept id="p32">**</ept> 将资源拆分成几个文件，则应该将嵌套模块的列表放在 <ph id="ph3">`NestedModules`</ph> 键</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Test the resource</source>
+          <target state="translated">测试资源</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>After saving the class and manifest files in the folder structure as described earlier, you can create a configuration that uses the new resource.</source>
+          <target state="translated">如前面所述，将类和清单文件保存到文件夹结构中之后，就可以创建一个使用新资源的配置。</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>For information about how to run a DSC configuration, see <bpt id="p33">[</bpt>Enacting configurations<ept id="p33">](enactingConfigurations.md)</ept>.</source>
+          <target state="translated">有关如何运行 DSC 配置的信息，请参阅<bpt id="p33">[</bpt>执行配置<ept id="p33">](enactingConfigurations.md)</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The following configuration will check to see whether the file at <ph id="ph4">`c:\test\test.txt`</ph> exists, and, if not, copies the file from <ph id="ph5">`c:\test.txt`</ph> (you should create <ph id="ph6">`c:\test.txt`</ph> before you run the configuration).</source>
+          <target state="translated">下面的配置将检查 <ph id="ph4">`c:\test\test.txt`</ph> 的文件是否存在，如果不存在，则会从 <ph id="ph5">`c:\test.txt`</ph> 进行复制（运行配置前应先创建 <ph id="ph6">`c:\test.txt`</ph>）。</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">另请参阅</target>         
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Concepts</source>
+          <target state="translated">概念</target>         
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Build Custom Windows PowerShell Desired State Configuration Resources</source>
+          <target state="translated">构建自定义 Windows PowerShell Desired State Configuration 资源</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <header xmlns="">
+    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">09fdf376a7001ef6e43d4c4a6b8d14516b616fc5</xliffext:olfilehash>
+  </header>
+</xliff>
