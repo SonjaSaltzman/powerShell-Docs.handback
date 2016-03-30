@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" target-language="zh-tw">
+  <file datatype="xml" original="md" source-language="en-US" target-language="zh-tw">
     <body>
-      <group id="main" extype="content">
+      <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
           <source>Setting up a DSC web pull server</source>
           <target state="translated">設定 DSC Web 提取伺服器</target>         
@@ -64,60 +64,60 @@
           <target state="translated">呼叫 <bpt id="p1">[</bpt>Install-Module<ept id="p1">](https://technet.microsoft.com/en-us/library/dn807162.aspx)</ept> Cmdlet 以安裝 <bpt id="p2">**</bpt>xPSDesiredStateConfiguration<ept id="p2">**</ept> 模組。</target>         
         </trans-unit>
         <trans-unit id="116" translate="yes" xml:space="preserve">
-          <source><bpt id="p3">**</bpt>Note<ept id="p3">**</ept>: <bpt id="p4">**</bpt>Install-Module<ept id="p4">**</ept> is included in the <bpt id="p5">**</bpt>PowerShellGet<ept id="p5">**</ept> module, which is included in PowerShell 5.0.</source>
-          <target state="translated"><bpt id="p3">**</bpt>注意<ept id="p3">**</ept>：<bpt id="p4">**</bpt>Install-Module<ept id="p4">**</ept> 已納入 <bpt id="p5">**</bpt>PowerShellGet<ept id="p5">**</ept> 模組，其隨附於 PowerShell 5.0。</target>         
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: <bpt id="p2">**</bpt>Install-Module<ept id="p2">**</ept> is included in the <bpt id="p3">**</bpt>PowerShellGet<ept id="p3">**</ept> module, which is included in PowerShell 5.0.</source>
+          <target state="translated"><bpt id="p1">**</bpt>注意<ept id="p1">**</ept>：<bpt id="p2">**</bpt>Install-Module<ept id="p2">**</ept> 已納入 <bpt id="p3">**</bpt>PowerShellGet<ept id="p3">**</ept> 模組，其隨附於 PowerShell 5.0。</target>         
         </trans-unit>
         <trans-unit id="117" translate="yes" xml:space="preserve">
-          <source>You can download the <bpt id="p6">**</bpt>PowerShellGet<ept id="p6">**</ept> module for PowerShell 3.0 and 4.0 at <bpt id="p7">[</bpt>PackageManagement PowerShell Modules Preview<ept id="p7">](https://www.microsoft.com/en-us/download/details.aspx?id=49186)</ept>.</source>
-          <target state="translated">您可以在 <bpt id="p7">[</bpt>PackageManagement PowerShell 模組預覽<ept id="p7">](https://www.microsoft.com/en-us/download/details.aspx?id=49186)</ept>下載 PowerShell 3.0 和 4.0 的 <bpt id="p6">**</bpt>PowerShellGet<ept id="p6">**</ept> 模組。</target>         
+          <source>You can download the <bpt id="p1">**</bpt>PowerShellGet<ept id="p1">**</ept> module for PowerShell 3.0 and 4.0 at <bpt id="p2">[</bpt>PackageManagement PowerShell Modules Preview<ept id="p2">](https://www.microsoft.com/en-us/download/details.aspx?id=49186)</ept>.</source>
+          <target state="translated">您可以在 <bpt id="p2">[</bpt>PackageManagement PowerShell 模組預覽<ept id="p2">](https://www.microsoft.com/en-us/download/details.aspx?id=49186)</ept>下載 PowerShell 3.0 和 4.0 的 <bpt id="p1">**</bpt>PowerShellGet<ept id="p1">**</ept> 模組。</target>         
         </trans-unit>
         <trans-unit id="118" translate="yes" xml:space="preserve">
           <source>Create a self-signed certificate with the subject <ph id="ph1">`"CN=PSDSCPullServerCert"`</ph> in the <ph id="ph2">`CERT:\LocalMachine\MY\`</ph> store.</source>
           <target state="translated">在 <ph id="ph2">`CERT:\LocalMachine\MY\`</ph> 存放區建立主體為 <ph id="ph1">`"CN=PSDSCPullServerCert"`</ph> 的自我簽署憑證。</target>         
         </trans-unit>
         <trans-unit id="119" translate="yes" xml:space="preserve">
-          <source>You can do this with the command <ph id="ph3">`New-SelfSignedCertificate  -CertStoreLocation 'CERT:\LocalMachine\MY' -DnsName "PSDSCPullServerCert"`</ph>.</source>
-          <target state="translated">您可以使用命令 <ph id="ph3">`New-SelfSignedCertificate  -CertStoreLocation 'CERT:\LocalMachine\MY' -DnsName "PSDSCPullServerCert"`</ph> 進行這項作業。</target>         
+          <source>You can do this with the command <ph id="ph1">`New-SelfSignedCertificate  -CertStoreLocation 'CERT:\LocalMachine\MY' -DnsName "PSDSCPullServerCert"`</ph>.</source>
+          <target state="translated">您可以使用命令 <ph id="ph1">`New-SelfSignedCertificate  -CertStoreLocation 'CERT:\LocalMachine\MY' -DnsName "PSDSCPullServerCert"`</ph> 進行這項作業。</target>         
         </trans-unit>
         <trans-unit id="120" translate="yes" xml:space="preserve">
-          <source>In the PowerShell ISE, start (F5) the following configuration script (included in the Example folder of the  <bpt id="p8">**</bpt>xPSDesiredStateConfiguration<ept id="p8">**</ept> module as Sample_xDscWebService.ps1).</source>
-          <target state="translated">在 PowerShell ISE 中，啟動 (F5) 下列設定指令碼 (包含於 <bpt id="p8">**</bpt>xPSDesiredStateConfiguration<ept id="p8">**</ept> 模組的 Example 資料夾的 Sample_xDscWebService.ps1)。</target>         
+          <source>In the PowerShell ISE, start (F5) the following configuration script (included in the Example folder of the  <bpt id="p1">**</bpt>xPSDesiredStateConfiguration<ept id="p1">**</ept> module as Sample_xDscWebService.ps1).</source>
+          <target state="translated">在 PowerShell ISE 中，啟動 (F5) 下列設定指令碼 (包含於 <bpt id="p1">**</bpt>xPSDesiredStateConfiguration<ept id="p1">**</ept> 模組的 Example 資料夾的 Sample_xDscWebService.ps1)。</target>         
         </trans-unit>
         <trans-unit id="121" translate="yes" xml:space="preserve">
           <source>This script sets up the pull server and a compliance server.</source>
           <target state="translated">此指令碼會設定提取伺服器和更新狀態伺服器。</target>         
         </trans-unit>
         <trans-unit id="122" translate="yes" xml:space="preserve">
-          <source>Run the configuration, passing the thumbprint of the self-signed certificate you created as the <bpt id="p9">**</bpt>certificateThumbPrint<ept id="p9">**</ept> parameter:</source>
-          <target state="translated">執行設定，傳遞您所建立的自我簽署憑證指紋，作為 <bpt id="p9">**</bpt>certificateThumbPrint<ept id="p9">**</ept> 參數：</target>         
+          <source>Run the configuration, passing the thumbprint of the self-signed certificate you created as the <bpt id="p1">**</bpt>certificateThumbPrint<ept id="p1">**</ept> parameter:</source>
+          <target state="translated">執行設定，傳遞您所建立的自我簽署憑證指紋，作為 <bpt id="p1">**</bpt>certificateThumbPrint<ept id="p1">**</ept> 參數：</target>         
         </trans-unit>
         <trans-unit id="123" translate="yes" xml:space="preserve">
           <source>Registration Key</source>
           <target state="translated">註冊金鑰</target>         
         </trans-unit>
         <trans-unit id="124" translate="yes" xml:space="preserve">
-          <source>To allow client nodes to register with the server so that they can use configuration names instead of a configuration ID, a registration key (which is a GUID known to both the server and the client node) must be placed in a file named <ph id="ph4">`RegistrationKeys.txt`</ph>.</source>
-          <target state="translated">若要可讓用戶端向伺服器註冊，使其可以使用設定名稱，而非設定識別碼，註冊金鑰 (也就是伺服器和用戶端節點皆已知的 GUID) 必須放在名為 <ph id="ph4">`RegistrationKeys.txt`</ph> 的檔案中。</target>         
+          <source>To allow client nodes to register with the server so that they can use configuration names instead of a configuration ID, a registration key (which is a GUID known to both the server and the client node) must be placed in a file named <ph id="ph1">`RegistrationKeys.txt`</ph>.</source>
+          <target state="translated">若要可讓用戶端向伺服器註冊，使其可以使用設定名稱，而非設定識別碼，註冊金鑰 (也就是伺服器和用戶端節點皆已知的 GUID) 必須放在名為 <ph id="ph1">`RegistrationKeys.txt`</ph> 的檔案中。</target>         
         </trans-unit>
         <trans-unit id="125" translate="yes" xml:space="preserve">
-          <source>By default, the pull server created by this example expects that file to be located in <ph id="ph5">`C:\Program Files\WindowsPowerShell\DscService`</ph>.</source>
-          <target state="translated">根據預設，此範例所建立的提取伺服器預期該檔案必須位於 <ph id="ph5">`C:\Program Files\WindowsPowerShell\DscService`</ph>。</target>         
+          <source>By default, the pull server created by this example expects that file to be located in <ph id="ph1">`C:\Program Files\WindowsPowerShell\DscService`</ph>.</source>
+          <target state="translated">根據預設，此範例所建立的提取伺服器預期該檔案必須位於 <ph id="ph1">`C:\Program Files\WindowsPowerShell\DscService`</ph>。</target>         
         </trans-unit>
         <trans-unit id="126" translate="yes" xml:space="preserve">
           <source>Create a text file with only one line consisting of the registration key and save it in that folder.</source>
           <target state="translated">建立文字檔案，其中只有包含註冊金鑰的一行字，然後將此文字檔案儲存在該資料夾中。</target>         
         </trans-unit>
         <trans-unit id="127" translate="yes" xml:space="preserve">
-          <source><bpt id="p10">**</bpt>Note<ept id="p10">**</ept>: Registration keys are not supported in PowerShell 4.0.</source>
-          <target state="translated"><bpt id="p10">**</bpt>注意<ept id="p10">**</ept>：PowerShell 4.0 中不支援註冊金鑰。</target>         
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: Registration keys are not supported in PowerShell 4.0.</source>
+          <target state="translated"><bpt id="p1">**</bpt>注意<ept id="p1">**</ept>：PowerShell 4.0 中不支援註冊金鑰。</target>         
         </trans-unit>
         <trans-unit id="128" translate="yes" xml:space="preserve">
           <source>Placing configurations and resources</source>
           <target state="translated">放置設定和資源</target>         
         </trans-unit>
         <trans-unit id="129" translate="yes" xml:space="preserve">
-          <source>After the pull server setup completes, there is a new folder under <ph id="ph6">`$env:PROGRAMFILES\WindowsPowerShell`</ph> named "DscService".</source>
-          <target state="translated">提取伺服器安裝完成之後，在 <ph id="ph6">`$env:PROGRAMFILES\WindowsPowerShell`</ph> 底下有一個名為 "DscService" 的新資料夾。</target>         
+          <source>After the pull server setup completes, there is a new folder under <ph id="ph1">`$env:PROGRAMFILES\WindowsPowerShell`</ph> named "DscService".</source>
+          <target state="translated">提取伺服器安裝完成之後，在 <ph id="ph1">`$env:PROGRAMFILES\WindowsPowerShell`</ph> 底下有一個名為 "DscService" 的新資料夾。</target>         
         </trans-unit>
         <trans-unit id="130" translate="yes" xml:space="preserve">
           <source>In that folder, there are two folders named "Modules" and "Configuration".</source>
@@ -140,16 +140,16 @@
           <target state="translated">下列主題將詳細描述如何設定提取用戶端：</target>         
         </trans-unit>
         <trans-unit id="135" translate="yes" xml:space="preserve">
-          <source><ph id="ph7">[</ph>Setting up a DSC pull client using a configuration ID<ph id="ph8">](pullClientConfigID.md)</ph></source>
-          <target state="translated"><ph id="ph7">[</ph>使用設定識別碼設定 DSC 提取用戶端<ph id="ph8">](pullClientConfigID.md)</ph></target>         
+          <source>Setting up a DSC pull client using a configuration ID</source>
+          <target state="translated">使用設定識別碼設定 DSC 提取用戶端</target>         
         </trans-unit>
         <trans-unit id="136" translate="yes" xml:space="preserve">
-          <source><ph id="ph9">[</ph>Setting up a DSC pull client using configuration names<ph id="ph10">](pullClientConfigNames.md)</ph></source>
-          <target state="translated"><ph id="ph9">[</ph>使用設定名稱設定 DSC 提取用戶端<ph id="ph10">](pullClientConfigNames.md)</ph></target>         
+          <source>Setting up a DSC pull client using configuration names</source>
+          <target state="translated">使用設定名稱設定 DSC 提取用戶端</target>         
         </trans-unit>
         <trans-unit id="137" translate="yes" xml:space="preserve">
-          <source><ph id="ph11">[</ph>Partial configurations<ph id="ph12">](partialConfigs.md)</ph></source>
-          <target state="translated"><ph id="ph11">[</ph>部分設定<ph id="ph12">](partialConfigs.md)</ph></target>         
+          <source>Partial configurations</source>
+          <target state="translated">部分設定</target>         
         </trans-unit>
         <trans-unit id="138" translate="yes" xml:space="preserve">
           <source>Creating the MOF checksum</source>
@@ -160,49 +160,49 @@
           <target state="translated">設定 MOF 檔案需要與總和檢查碼檔案配對，以便目標節點上的 LCM 可驗證設定。</target>         
         </trans-unit>
         <trans-unit id="140" translate="yes" xml:space="preserve">
-          <source>To create a checksum, call the <bpt id="p11">[</bpt>New-DSCCheckSum<ept id="p11">](https://technet.microsoft.com/en-us/library/dn521622.aspx)</ept> cmdlet.</source>
-          <target state="translated">若要建立總和檢查碼，請呼叫 <bpt id="p11">[</bpt>New-DSCCheckSum<ept id="p11">](https://technet.microsoft.com/en-us/library/dn521622.aspx)</ept> Cmdlet。</target>         
+          <source>To create a checksum, call the <bpt id="p1">[</bpt>New-DSCCheckSum<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521622.aspx)</ept> cmdlet.</source>
+          <target state="translated">若要建立總和檢查碼，請呼叫 <bpt id="p1">[</bpt>New-DSCCheckSum<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521622.aspx)</ept> Cmdlet。</target>         
         </trans-unit>
         <trans-unit id="141" translate="yes" xml:space="preserve">
-          <source>The cmdlet takes a <bpt id="p12">**</bpt>Path<ept id="p12">**</ept> parameter that specifies the folder where the configuration MOF is located.</source>
-          <target state="translated">此 Cmdlet 會使用 <bpt id="p12">**</bpt>Path<ept id="p12">**</ept> 參數，指定設定 MOF 所在的資料夾。</target>         
+          <source>The cmdlet takes a <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter that specifies the folder where the configuration MOF is located.</source>
+          <target state="translated">此 Cmdlet 會使用 <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> 參數，指定設定 MOF 所在的資料夾。</target>         
         </trans-unit>
         <trans-unit id="142" translate="yes" xml:space="preserve">
-          <source>The cmdlet creates a checksum file named <ph id="ph13">`ConfigurationMOFName.mof.checksum`</ph>, where <ph id="ph14">`ConfigurationMOFName`</ph> is the name of the configuration mof file.</source>
-          <target state="translated">此 Cmdlet 會建立名為 <ph id="ph13">`ConfigurationMOFName.mof.checksum`</ph> 的總和檢查碼檔案，其中 <ph id="ph14">`ConfigurationMOFName`</ph> 是設定 MOF 檔案的名稱。</target>         
+          <source>The cmdlet creates a checksum file named <ph id="ph1">`ConfigurationMOFName.mof.checksum`</ph>, where <ph id="ph2">`ConfigurationMOFName`</ph> is the name of the configuration mof file.</source>
+          <target state="translated">此 Cmdlet 會建立名為 <ph id="ph1">`ConfigurationMOFName.mof.checksum`</ph> 的總和檢查碼檔案，其中 <ph id="ph2">`ConfigurationMOFName`</ph> 是設定 MOF 檔案的名稱。</target>         
         </trans-unit>
         <trans-unit id="143" translate="yes" xml:space="preserve">
           <source>If there are more than one configuration MOF files in the specified folder, a checksum is created for each configuration in the folder.</source>
           <target state="translated">如果在指定的資料夾中有多個設定 MOF 檔案，就會在每個設定資料夾中各建立一個總和檢查碼。</target>         
         </trans-unit>
         <trans-unit id="144" translate="yes" xml:space="preserve">
-          <source>The checksum file must be present in the same directory as the configuration MOF file (<ph id="ph15">`$env:PROGRAMFILES\WindowsPowerShell\DscService\Configuration`</ph> by default), and have the same name with the <ph id="ph16">`.checksum`</ph> extension appended.</source>
-          <target state="translated">總和檢查碼檔案必須存在於和設定 MOF 檔案相同的目錄中 (預設為 <ph id="ph15">`$env:PROGRAMFILES\WindowsPowerShell\DscService\Configuration`</ph>)，而且具有相同名稱，附加副檔名為 <ph id="ph16">`.checksum`</ph>。</target>         
+          <source>The checksum file must be present in the same directory as the configuration MOF file (<ph id="ph1">`$env:PROGRAMFILES\WindowsPowerShell\DscService\Configuration`</ph> by default), and have the same name with the <ph id="ph2">`.checksum`</ph> extension appended.</source>
+          <target state="translated">總和檢查碼檔案必須存在於和設定 MOF 檔案相同的目錄中 (預設為 <ph id="ph1">`$env:PROGRAMFILES\WindowsPowerShell\DscService\Configuration`</ph>)，而且具有相同名稱，附加副檔名為 <ph id="ph2">`.checksum`</ph>。</target>         
         </trans-unit>
         <trans-unit id="145" translate="yes" xml:space="preserve">
-          <source><bpt id="p13">**</bpt>Note<ept id="p13">**</ept>: If you change the configuration MOF file in any way, you must also recreate the checksum file.</source>
-          <target state="translated"><bpt id="p13">**</bpt>注意<ept id="p13">**</ept>：如果您以任何方式變更設定 MOF 檔案，也必須重新建立總和檢查碼檔案。</target>         
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: If you change the configuration MOF file in any way, you must also recreate the checksum file.</source>
+          <target state="translated"><bpt id="p1">**</bpt>注意<ept id="p1">**</ept>：如果您以任何方式變更設定 MOF 檔案，也必須重新建立總和檢查碼檔案。</target>         
         </trans-unit>
         <trans-unit id="146" translate="yes" xml:space="preserve">
           <source>See also</source>
           <target state="translated">另請參閱</target>         
         </trans-unit>
         <trans-unit id="147" translate="yes" xml:space="preserve">
-          <source><ph id="ph17">[</ph>Windows PowerShell Desired State Configuration Overview<ph id="ph18">](overview.md)</ph></source>
-          <target state="translated"><ph id="ph17">[</ph>Windows PowerShell 預期狀態設定概觀<ph id="ph18">](overview.md)</ph></target>         
+          <source>Windows PowerShell Desired State Configuration Overview</source>
+          <target state="translated">Windows PowerShell 預期狀態設定概觀</target>         
         </trans-unit>
         <trans-unit id="148" translate="yes" xml:space="preserve">
-          <source><ph id="ph19">[</ph>Enacting configurations<ph id="ph20">](enactingConfigurations.md)</ph></source>
-          <target state="translated"><ph id="ph19">[</ph>制定設定<ph id="ph20">](enactingConfigurations.md)</ph></target>         
+          <source>Enacting configurations</source>
+          <target state="translated">施行設定</target>         
         </trans-unit>
         <trans-unit id="149" translate="yes" xml:space="preserve">
-          <source><ph id="ph21">[</ph>How to retrieve node information from DSC pull server<ph id="ph22">](retrieveNodeInfo.md)</ph></source>
-          <target state="translated"><ph id="ph21">[</ph>如何從 DSC 提取伺服器擷取節點資訊<ph id="ph22">](retrieveNodeInfo.md)</ph></target>         
+          <source>How to retrieve node information from DSC pull server</source>
+          <target state="translated">如何從 DSC 提取伺服器擷取節點資訊</target>         
         </trans-unit>
       </group>
     </body>
   </file>
   <header xmlns="">
-    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">81a21499e1043cdd948f59dda3a727b1820d1542</xliffext:olfilehash>
+    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0ef3dedfc2ca50e9edf86f8bb8931d778c3005c4</xliffext:olfilehash>
   </header>
 </xliff>
