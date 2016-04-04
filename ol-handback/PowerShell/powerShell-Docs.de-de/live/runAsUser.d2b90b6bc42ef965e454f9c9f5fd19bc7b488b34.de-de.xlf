@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="md" source-language="en-US" target-language="de-de">
+    <header>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">53ace617daf20d1375838e7021771af0e8b29193</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-e76445a" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Running DSC with user credentials</source>
+          <target state="translated">Ausführen von DSC mit Benutzeranmeldeinformationen</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 5.0</source>
+          <target state="translated">Gilt für: Windows PowerShell 5.0</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You can run a DSC configuration under a specified set of credentials by using the <g id="p1" mdpre="**" mdpost="**">PsDscRunAsCredential</g> property in the configuration.</source>
+          <target state="translated">Sie können eine DSC-Konfiguration unter einen angegebenen Satz von Anmeldeinformationen ausführen, indem Sie die Eigenschaft <g id="p1" mdpre="**" mdpost="**">PsDscRunAsCredential</g> in der Konfiguration verwenden.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>By default, DSC runs</source>
+          <target state="translated">Standardmäßig wird DSC als Systemkonto ausgeführt.</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>as the system account.</source>
+          <target state="translated"></target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>There are times when running as a user is necessary, such as installing MSI packages in a specific user context, setting a user's registry keys,</source>
+          <target state="translated">Es gibt Situationen, in denen DSC unter einem Benutzerkonto ausgeführt werden muss, z. B. beim Installieren von MSI-Paketen in einem bestimmten Benutzerkontext, beim Festlegen der Registrierungsschlüssel eines Benutzers, beim Zugriff auf ein bestimmtes lokales Verzeichnis eines Benutzers oder beim Zugriff auf eine Netzwerkfreigabe.</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>accessing a user's specific local directory, or accessing a network share.</source>
+          <target state="translated"></target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Every DSC resource has a <g id="p1" mdpre="**" mdpost="**">PsDscRunAsCredential</g> property that can be set to any user credentials (a <g id="p2" mdpre="[" mdpost="](https://msdn.microsoft.com/en-us/library/ms572524(v=VS.85).aspx)">PSCredential</g> object).</source>
+          <target state="translated">Jede DSC-Ressource verfügt über eine <g id="p1" mdpre="**" mdpost="**">PsDscRunAsCredential</g>-Eigenschaft, die auf beliebige Anmeldeinformationen festgelegt werden kann (ein <g id="p2" mdpre="[" mdpost="](https://msdn.microsoft.com/en-us/library/ms572524(v=VS.85).aspx)">PSCredential</g>-Objekt).</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The credential can be hard-coded as the value of the property in the configuration, or you can set the value to <g id="p1" mdpre="[" mdpost="](https://technet.microsoft.com/en-us/library/hh849815.aspx)">Get-Credential</g>,</source>
+          <target state="translated">Die Anmeldeinformationen können als Wert der Eigenschaft in der Konfiguration hartcodiert werden, oder Sie können den Wert auf <g id="p1" mdpre="[" mdpost="](https://technet.microsoft.com/en-us/library/hh849815.aspx)">Get-Credential</g> festlegen, wodurch der Benutzer beim Kompilieren der Konfiguration zur Eingabe der Anmeldeinformationen aufgefordert wird (Informationen zum Kompilieren von Konfigurationen finden Sie unter <g id="p1" mdpre="[" mdpost="](https://technet.microsoft.com/en-us/library/hh849815.aspx)">Konfigurationen</g>.</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>which will prompt the user for a credential when the configuration is compiled (for information about compiling configurations, see <g id="p1" mdpre="[" mdpost="](configurations.md)">Configurations</g>.</source>
+          <target state="translated"></target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><g id="p1" mdpre="**" mdpost="**">Note:</g> The <g id="p2" mdpre="**" mdpost="**">PsDscRunAsCredential</g> property is not available in PowerShell 4.0.</source>
+          <target state="translated"><g id="p1" mdpre="**" mdpost="**">Hinweis:</g> Die Eigenschaft <g id="p2" mdpre="**" mdpost="**">PsDscRunAsCredential</g> ist in PowerShell 4.0 nicht verfügbar.</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In the following example, <g id="p1" mdpre="**" mdpost="**">Get-Credential</g> is used to prompt the user for credentials.</source>
+          <target state="translated">Im folgenden Beispiel wird <g id="p1" mdpre="**" mdpost="**">Get-Credential</g> verwendet, um den Benutzer zur Eingabe von Anmeldeinformationen aufzufordern.</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The <g id="p1" mdpre="[" mdpost="](registryResource.md)">Registry</g> resource is used to change the registry key that specifies the background color</source>
+          <target state="translated">Die Ressource <g id="p1" mdpre="[" mdpost="](registryResource.md)">Registry</g> wird verwendet, um den Registrierungsschlüssel zu ändern, der die Hintergrundfarbe für das Windows-Eingabeaufforderungsfenster angibt.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>for the Windows command prompt window.</source>
+          <target state="translated"></target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><g id="p1" mdpre="**" mdpost="**">Note:</g> This example assumes that you have a valid certificate at <ph id="ph1">`C:\publicKeys\targetNode.cer`</ph>, and that the thumbprint of that certificate is the value shown.</source>
+          <target state="translated"><g id="p1" mdpre="**" mdpost="**">Hinweis:</g> In diesem Beispiel wird vorausgesetzt, dass Sie über ein gültiges Zertifikat unter <ph id="ph1">`C:\publicKeys\targetNode.cer`</ph> verfügen und dass der Fingerabdruck dieses Zertifikats der angezeigte Wert ist.</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For information about encrypting credentials in DSC configuration MOF files, see <g id="p1" mdpre="[" mdpost="](secureMOF.md)">Securing the MOF file</g>.</source>
+          <target state="translated">Informationen zum Verschlüsseln von Anmeldeinformationen in DSC MOF-Konfigurationsdateien finden Sie unter <g id="p1" mdpre="[" mdpost="](secureMOF.md)">Absichern der MOF-Datei</g>.</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

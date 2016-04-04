@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="md" source-language="en-US" target-language="de-de">
+    <header>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d0beb3d04da2488302a56f714d8d8a5b9e5ac6f9</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-869bb40" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Setting up a pull client using configuration ID in PowerShell 4.0</source>
+          <target state="translated">Einrichten eines DSC-Pullclients mithilfe einer Konfigurations-ID in PowerShell 4.0</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</source>
+          <target state="translated">Gilt für: Windows PowerShell 4.0, Windows PowerShell 5.0</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Each target node has to be told to use pull mode and given the URL where it can contact the pull server to get configurations.</source>
+          <target state="translated">Jeder Zielknoten muss angewiesen werden, den Pullmodus zu verwenden. Außerdem muss die URL angegeben werden, unter der der Pullserver zum Abrufen von Konfigurationen kontaktiert werden kann.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>To do this, you have to configure the Local Configuration Manager (LCM) with the necessary information.</source>
+          <target state="translated">Hierzu müssen Sie den lokalen Konfigurations-Manager (LCM) mit den benötigten Informationen konfigurieren.</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To configure the LCM, you create a special type of configuration known as a "metaconfiguration".</source>
+          <target state="translated">Zum Konfigurieren des LCM müssen Sie einen besonderen Typ von Konfiguration erstellen, die als „Metakonfiguration“ bezeichnet wird.</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For more information about configuring the LCM, see <g id="p1" mdpre="[" mdpost="](metaConfig4.md)">Windows PowerShell 4.0 Desired State Configuration Local Configuration Manager</g></source>
+          <target state="translated">Weitere Informationen zum Konfigurieren des LCM finden Sie unter <g id="p1" mdpre="[" mdpost="](metaConfig4.md)">Windows PowerShell 4.0 DSC – Lokaler Konfigurations-Manager</g>.</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The following script configures the LCM to pull configurations from a server named "PullServer":</source>
+          <target state="translated">Das folgende Skript konfiguriert den LCM zum Abrufen von Konfigurationen von einem Pullserver namens „PullServer“:</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In the script, <g id="p1" mdpre="**" mdpost="**">DownloadManagerCustomData</g> passes the URL of the pull server and (for this example) allows an unsecured connection.</source>
+          <target state="translated">Im Skript übergibt <g id="p1" mdpre="**" mdpost="**">DownloadManagerCustomData</g> die URL des Pullservers und lässt (bei diesem Beispiel) eine unsichere Verbindung zu.</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>After this script runs, it creates a new output folder called <g id="p1" mdpre="**" mdpost="**">SimpleMetaConfigurationForPull</g> and puts a metaconfiguration MOF file there.</source>
+          <target state="translated">Nachdem das Skript ausgeführt wurde, erstellt es einen neuen Ausgabeordner mit dem Namen <g id="p1" mdpre="**" mdpost="**">SimpleMetaConfigurationForPull</g>, der eine MOF-Datei mit der Metakonfiguration enthält.</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To apply the configuration, use <g id="p1" mdpre="**" mdpost="**">Set-DscLocalConfigurationManager</g> with parameters for <g id="p2" mdpre="**" mdpost="**">ComputerName</g> (use “localhost”) and <g id="p3" mdpre="**" mdpost="**">Path</g> (the path to the location of the target node’s localhost.meta.mof file).</source>
+          <target state="translated">Um die Konfiguration anzuwenden, verwenden Sie das Cmdlet <g id="p1" mdpre="**" mdpost="**">Set-DscLocalConfigurationManager</g> mit Parametern für <g id="p2" mdpre="**" mdpost="**">ComputerName</g> (verwenden Sie „localhost“) und <g id="p3" mdpre="**" mdpost="**">Path</g> (der Pfad zum Speicherort der Datei „localhost.meta.mof“ für den Zielknoten).</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">Beispiel:</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Configuration ID</source>
+          <target state="translated">Konfigurations-ID</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The script sets the <g id="p1" mdpre="**" mdpost="**">ConfigurationID</g> property of the LCM to a GUID that had been previously created for this purpose (you can create a GUID by using the <g id="p2" mdpre="**" mdpost="**">New-Guid</g> cmdlet).</source>
+          <target state="translated">Das Skript legt die Eigenschaft <g id="p1" mdpre="**" mdpost="**">ConfigurationID</g> des LCM auf eine GUID fest, die zuvor für diesen Zweck erstellt wurde (Sie können eine GUID mit dem Cmdlet <g id="p2" mdpre="**" mdpost="**">New-Guid</g> erstellen).</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <g id="p1" mdpre="**" mdpost="**">ConfigurationID</g> is what the LCM uses to find the appropriate configuration on the pull server.</source>
+          <target state="translated">Der LCM nutzt die <g id="p1" mdpre="**" mdpost="**">ConfigurationID</g> zum Auffinden der entsprechenden Konfiguration auf dem Pullserver.</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The configuration MOF file on the pull server must be named <ph id="ph1">`ConfigurationID.mof`</ph>, where <g id="p1" mdpre="*" mdpost="*">ConfigurationID</g> is the value of the <g id="p2" mdpre="**" mdpost="**">ConfigurationID</g> property of the target node's LCM.</source>
+          <target state="translated">Die MOF-Konfigurationsdatei auf dem Pullserver muss den Namen <ph id="ph1">`ConfigurationID.mof`</ph> haben, wobei <g id="p1" mdpre="*" mdpost="*">ConfigurationID</g> der Wert der Eigenschaft <g id="p2" mdpre="**" mdpost="**">ConfigurationID</g> des LCM des Zielknotens ist.</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Pulling from an SMB server</source>
+          <target state="translated">Abrufen per Pull von einem SMB-Server</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If the pull server is set up as an SMB file share, rather than a web service, you specify the <g id="p1" mdpre="**" mdpost="**">DscFileDownloadManager</g> rather than the <g id="p2" mdpre="**" mdpost="**">WebDownLoadManager</g>.</source>
+          <target state="translated">Wenn der Pullserver nicht als Webdienst, sondern als SMB-Dateifreigabe konfiguriert wurde, legen Sie <g id="p1" mdpre="**" mdpost="**">DscFileDownloadManager</g> anstelle von <g id="p2" mdpre="**" mdpost="**">WebDownLoadManager</g> fest.</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The <g id="p1" mdpre="**" mdpost="**">DscFileDownloadManager</g> takes a <g id="p2" mdpre="**" mdpost="**">SourcePath</g> property instead of <g id="p3" mdpre="**" mdpost="**">ServerUrl</g>.</source>
+          <target state="translated"><g id="p1" mdpre="**" mdpost="**">DscFileDownloadManager</g> verwendet eine <g id="p2" mdpre="**" mdpost="**">SourcePath</g>-Eigenschaft anstelle von <g id="p3" mdpre="**" mdpost="**">ServerUrl</g>.</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The following script configures the LCM to pull configurations from an SMB share named</source>
+          <target state="translated">Das folgende Skript konfiguriert den LCM zum Abrufen von Konfigurationen von einer SMB-Freigabe namens „SmbDscShare“ auf einem Server namens „CONTOSO-SERVER“:</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>"SmbDscShare" on a server named "CONTOSO-SERVER":</source>
+          <target state="translated"></target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">Weitere Informationen</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Setting up a DSC web pull server</source>
+          <target state="translated">Einrichten eines DSC-Webpullservers</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Setting up a DSC SMB pull server</source>
+          <target state="translated">Einrichten eines DSC-SMB-Pullservers</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
