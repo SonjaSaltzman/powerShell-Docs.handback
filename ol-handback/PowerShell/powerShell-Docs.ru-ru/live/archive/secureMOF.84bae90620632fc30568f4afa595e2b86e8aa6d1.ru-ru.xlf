@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" target-language="ru-ru">
+  <file datatype="xml" original="md" source-language="en-US" target-language="ru-ru">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c3b61e7f85bc59833548873a73b6ce9559dcea3a</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-02a95cf" tool-company="Microsoft" />
+    </header>
     <body>
-      <group id="main" extype="content">
+      <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
           <source>Securing the MOF File</source>
           <target state="translated">Защита MOF-файла</target>         
@@ -36,40 +41,40 @@
           <target state="translated">Чтобы успешно шифровать учетные данные, используемые для защиты конфигурации DSC, вам необходимо следующее:</target>         
         </trans-unit>
         <trans-unit id="109" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Some means of issuing and distributing certificates<ept id="p1">**</ept>.</source>
-          <target state="translated"><bpt id="p1">**</bpt>Какие-либо средства выпуска и распространения сертификатов<ept id="p1">**</ept>.</target>         
+          <source><g id="p1" mdpre="**" mdpost="**">Some means of issuing and distributing certificates</g>.</source>
+          <target state="translated"><g id="p1" mdpre="**" mdpost="**">Какие-либо средства выпуска и распространения сертификатов</g>.</target>         
         </trans-unit>
         <trans-unit id="110" translate="yes" xml:space="preserve">
           <source>This topic and its examples assume you are using Active Directory Certification Authority.</source>
           <target state="translated">В этом разделе и примерах в нем предполагается, что вы используете центр сертификации Active Directory.</target>         
         </trans-unit>
         <trans-unit id="111" translate="yes" xml:space="preserve">
-          <source>For more background information on Active Directory Certificate Services, see <bpt id="p2">[</bpt>Active Directory Certificate Services Overview<ept id="p2">](https://technet.microsoft.com/library/hh831740.aspx)</ept> and <bpt id="p3">[</bpt>Active Directory Certificate Services in Windows Server 2008<ept id="p3">](https://technet.microsoft.com/windowsserver/dd448615.aspx)</ept>.</source>
-          <target state="translated">Дополнительные сведения о службах сертификации Active Directory см. в статьях <bpt id="p2">[</bpt>Общие сведения о службах сертификации Active Directory<ept id="p2">](https://technet.microsoft.com/library/hh831740.aspx)</ept> и <bpt id="p3">[</bpt>Службы сертификации Active Directory в Windows Server 2008<ept id="p3">](https://technet.microsoft.com/windowsserver/dd448615.aspx)</ept>.</target>         
+          <source>For more background information on Active Directory Certificate Services, see <g id="p1" mdpre="[" mdpost="](https://technet.microsoft.com/library/hh831740.aspx)">Active Directory Certificate Services Overview</g> and <g id="p2" mdpre="[" mdpost="](https://technet.microsoft.com/windowsserver/dd448615.aspx)">Active Directory Certificate Services in Windows Server 2008</g>.</source>
+          <target state="translated">Дополнительные сведения о службах сертификации Active Directory см. в статьях <g id="p1" mdpre="[" mdpost="](https://technet.microsoft.com/library/hh831740.aspx)">Общие сведения о службах сертификации Active Directory</g> и <g id="p2" mdpre="[" mdpost="](https://technet.microsoft.com/windowsserver/dd448615.aspx)">Службы сертификации Active Directory в Windows Server 2008</g>.</target>         
         </trans-unit>
         <trans-unit id="112" translate="yes" xml:space="preserve">
-          <source><bpt id="p4">**</bpt>Administrative access to the target node or nodes<ept id="p4">**</ept>.</source>
-          <target state="translated"><bpt id="p4">**</bpt>Административный доступ к целевому узлу или узлам<ept id="p4">**</ept>.</target>         
+          <source><g id="p1" mdpre="**" mdpost="**">Administrative access to the target node or nodes</g>.</source>
+          <target state="translated"><g id="p1" mdpre="**" mdpost="**">Административный доступ к целевому узлу или узлам</g>.</target>         
         </trans-unit>
         <trans-unit id="113" translate="yes" xml:space="preserve">
-          <source><bpt id="p5">**</bpt>Each target node has an encryption-capable certificate saved its Personal Store<ept id="p5">**</ept>.</source>
-          <target state="translated"><bpt id="p5">**</bpt>У каждого целевого узла должен быть сертификат с поддержкой шифрования, сохраненный в личном хранилище этого узла<ept id="p5">**</ept>.</target>         
+          <source><g id="p1" mdpre="**" mdpost="**">Each target node has an encryption-capable certificate saved its Personal Store</g>.</source>
+          <target state="translated"><g id="p1" mdpre="**" mdpost="**">У каждого целевого узла должен быть сертификат с поддержкой шифрования, сохраненный в личном хранилище этого узла</g>.</target>         
         </trans-unit>
         <trans-unit id="114" translate="yes" xml:space="preserve">
           <source>In Windows PowerShell, the path to the store is Cert:\LocalMachine\My.</source>
           <target state="translated">В Windows PowerShell путь к этому хранилищу будет таким: "Cert:\LocalMachine\My".</target>         
         </trans-unit>
         <trans-unit id="115" translate="yes" xml:space="preserve">
-          <source>The examples in this topic use the “workstation authentication” template, which you can find (along with other certificate templates) at <bpt id="p6">[</bpt>Default Certificate Templates<ept id="p6">](https://technet.microsoft.com/library/cc740061(v=WS.10).aspx)</ept>.</source>
-          <target state="translated">В примерах в этом разделе используется шаблон "Проверка подлинности рабочей станции", который (вместе с другими шаблонами сертификатов) можно найти в разделе <bpt id="p6">[</bpt>Шаблоны сертификатов по умолчанию<ept id="p6">](https://technet.microsoft.com/library/cc740061(v=WS.10).aspx)</ept>.</target>         
+          <source>The examples in this topic use the “workstation authentication” template, which you can find (along with other certificate templates) at <g id="p1" mdpre="[" mdpost="](https://technet.microsoft.com/library/cc740061(v=WS.10).aspx)">Default Certificate Templates</g>.</source>
+          <target state="translated">В примерах в этом разделе используется шаблон "Проверка подлинности рабочей станции", который (вместе с другими шаблонами сертификатов) можно найти в разделе <g id="p1" mdpre="[" mdpost="](https://technet.microsoft.com/library/cc740061(v=WS.10).aspx)">Шаблоны сертификатов по умолчанию</g>.</target>         
         </trans-unit>
         <trans-unit id="116" translate="yes" xml:space="preserve">
-          <source>If you will be running this configuration on a computer other than the target node, <bpt id="p7">**</bpt>export the public key of the certificate<ept id="p7">**</ept>, and then import it to the computer you will run the configuration from.</source>
-          <target state="translated">Если вы будете запускать эту конфигурацию не на целевом узле, <bpt id="p7">**</bpt>экспортируйте открытый ключ сертификата<ept id="p7">**</ept>, а затем импортируйте его на компьютер, на котором будете запускать конфигурацию.</target>         
+          <source>If you will be running this configuration on a computer other than the target node, <g id="p1" mdpre="**" mdpost="**">export the public key of the certificate</g>, and then import it to the computer you will run the configuration from.</source>
+          <target state="translated">Если вы будете запускать эту конфигурацию не на целевом узле, <g id="p1" mdpre="**" mdpost="**">экспортируйте открытый ключ сертификата</g>, а затем импортируйте его на компьютер, на котором будете запускать конфигурацию.</target>         
         </trans-unit>
         <trans-unit id="117" translate="yes" xml:space="preserve">
-          <source>Make sure that you export only the <bpt id="p8">**</bpt>public<ept id="p8">**</ept> key; keep the private key secure.</source>
-          <target state="translated">Убедитесь, что вы экспортируете только <bpt id="p8">**</bpt>открытый<ept id="p8">**</ept> ключ; закрытый ключ должен оставаться конфиденциальным.</target>         
+          <source>Make sure that you export only the <g id="p1" mdpre="**" mdpost="**">public</g> key; keep the private key secure.</source>
+          <target state="translated">Убедитесь, что вы экспортируете только <g id="p1" mdpre="**" mdpost="**">открытый</g> ключ; закрытый ключ должен оставаться конфиденциальным.</target>         
         </trans-unit>
         <trans-unit id="118" translate="yes" xml:space="preserve">
           <source>Overall process</source>
@@ -92,89 +97,206 @@
           <target state="translated">Запустите конфигурацию, которая задает параметры локального диспетчера конфигураций и запускает конфигурацию DSC.</target>         
         </trans-unit>
         <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Diagram1</source>
+          <target state="translated">Diagram1</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Certificate Requirements</source>
+          <target state="translated">Требования к сертификатам</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To enact credential encryption, a public key certificate is required to be available on the <g id="p1" mdpre="_" mdpost="_">Target Node</g> that is <g id="p2" mdpre="**" mdpost="**">trusted</g> by the computer being used to author the DSC configuration.</source>
+          <target state="translated">Для применения шифрования учетных данных на <g id="p1" mdpre="_" mdpost="_">целевом узле</g> должен быть доступен сертификат открытого ключа, который является <g id="p2" mdpre="**" mdpost="**">доверенным</g> для компьютера, используемого для создания конфигурации DSC.</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This public key certificate has specific requirements that must be satisfied to allow it to be used for DSC Credential Encryption:</source>
+          <target state="translated">Сертификат открытого ключа имеет определенные требования, которые должны быть удовлетворены, чтобы его можно было использовать для шифрования учетных данных DSC.</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><g id="p1" mdpre="**" mdpost="**">Key Usage</g>:</source>
+          <target state="translated"><g id="p1" mdpre="**" mdpost="**">Использование ключа</g>:</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Must contain: 'KeyEncipherment' and 'DataEncipherment'.</source>
+          <target state="translated">Должен содержать: "KeyEncipherment" и "DataEncipherment".</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Should <g id="p1" mdpre="_" mdpost="_">not</g> contain: 'Digital Signature'.</source>
+          <target state="translated"><g id="p1" mdpre="_" mdpost="_">Не должен</g> содержать: "Digital Signature".</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><g id="p1" mdpre="**" mdpost="**">Enhanced Key Usage</g>:</source>
+          <target state="translated"><g id="p1" mdpre="**" mdpost="**">Расширенное использование ключа</g>:</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Must contain: Document Encryption (1.3.6.1.4.1.311.80.1).</source>
+          <target state="translated">Должен содержать: "Document Encryption" (1.3.6.1.4.1.311.80.1).</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Should <g id="p1" mdpre="_" mdpost="_">not</g> contain: Client Authentication (1.3.6.1.5.5.7.3.2) and Server Authentication (1.3.6.1.5.5.7.3.1).</source>
+          <target state="translated"><g id="p1" mdpre="_" mdpost="_">Не должен</g> содержать: "Client Authentication" (1.3.6.1.5.5.7.3.2) и "Server Authentication" (1.3.6.1.5.5.7.3.1).</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The Private Key for the certificate is available on the <g id="p1" mdpre="_" mdpost="_">Target Node</g>.</source>
+          <target state="translated">Закрытый ключ для сертификата доступен на <g id="p1" mdpre="_" mdpost="_">целевом узле</g>.</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><g id="p1" mdpre="**" mdpost="**">Recommended Best Practice:</g> Although you can use a certificate with containing a Key Usage of 'Digital Signature' or one of the Authentication EKU's, this will enable the encryption key to be more easily misused and vulnerable to attack.</source>
+          <target state="translated"><g id="p1" mdpre="**" mdpost="**">Рекомендация</g>. Хотя можно использовать сертификат с использованием ключа типа "Digital Signature" или одним из вариантов расширенного использования ключа для проверки подлинности, это облегчит использование ключа не по назначению и сделает ключ более уязвимым для атаки.</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>So it is best practice to use a certificate created specifically for the purpose of securing DSC credentials that omits these Key Usage and EKUs.</source>
+          <target state="translated">Поэтому рекомендуется использовать сертификат, созданный специально для защиты учетных данных DSC. В этом сертификате не применяются указанные типы использования ключа и расширенного использования ключа.</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Any existing certificate on the <g id="p1" mdpre="_" mdpost="_">Target Node</g> that meets these criteria may be used to secure DSC credentials.</source>
+          <target state="translated">Для защиты учетных данных DSC можно использовать любой существующий сертификат на <g id="p1" mdpre="_" mdpost="_">целевом узле</g>, удовлетворяющий этим критериям.</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Creating the Certificate</source>
+          <target state="translated">Создание сертификата</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The private key certificate can be created on the <g id="p1" mdpre="_" mdpost="_">Target Node</g> and the public key certificate copied to up to the computer being used to compile the DSC configuration into a MOF file.</source>
+          <target state="translated">Сертификат закрытого ключа можно создать на <g id="p1" mdpre="_" mdpost="_">целевом узле</g>, а сертификат открытого ключа — скопировать на компьютер, используемый для компиляции конфигурации DSC в MOF-файл.</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Alternately, the private key certificate can be created on the computer being used to compile the DSC configuration file, exported with the private key then imported on the <g id="p1" mdpre="_" mdpost="_">Target Node</g>.</source>
+          <target state="translated">Другой вариант — создать сертификат закрытого ключа на компьютере, который используется для компиляции файла конфигурации DSC, экспортировать его с закрытым ключом и затем импортировать на <g id="p1" mdpre="_" mdpost="_">целевой узел</g>.</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This is the current method for implementing DSC credential encryption on Nano Server.</source>
+          <target state="translated">Это текущий метод шифрования учетных данных DSC на сервере Nano.</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
           <source>Configuration data</source>
           <target state="translated">Данные конфигурации</target>         
         </trans-unit>
-        <trans-unit id="124" translate="yes" xml:space="preserve">
+        <trans-unit id="142" translate="yes" xml:space="preserve">
           <source>The configuration data block defines which target nodes to operate on, whether or not to encrypt the credentials, the means of encryption, and other information.</source>
           <target state="translated">Блок данных конфигурации определяет, какие целевые узлы использовать, следует ли шифровать учетные данные, какие средства шифрования использовать и т. д.</target>         
         </trans-unit>
-        <trans-unit id="125" translate="yes" xml:space="preserve">
-          <source>For more information on the configuration data block, see <bpt id="p9">[</bpt>Separating Configuration and Environment Data<ept id="p9">](configData.md)</ept>.</source>
-          <target state="translated">Дополнительные сведения о блоке данных конфигурации см. в разделе <bpt id="p9">[</bpt>Разделение данных конфигурации и данных среды<ept id="p9">](configData.md)</ept>.</target>         
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>For more information on the configuration data block, see <g id="p1" mdpre="[" mdpost="](configData.md)">Separating Configuration and Environment Data</g>.</source>
+          <target state="translated">Дополнительные сведения о блоке данных конфигурации см. в разделе <g id="p1" mdpre="[" mdpost="](configData.md)">Разделение данных конфигурации и данных среды</g>.</target>         
         </trans-unit>
-        <trans-unit id="126" translate="yes" xml:space="preserve">
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The elements that can be configured for each node that are related to credential encryption are:</source>
+          <target state="translated">Ниже перечислены элементы, связанные с учетными данными шифрования, которые можно настроить для каждого узла:</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><g id="p1" mdpre="**" mdpost="**">NodeName</g> - the name of the target node that the credential encryption is being configured for.</source>
+          <target state="translated"><g id="p1" mdpre="**" mdpost="**">NodeName</g> — имя целевого узла, для которого настраивается шифрование учетных данных.</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><g id="p1" mdpre="**" mdpost="**">PsDscAllowPlainTextPassword</g> - whether unencrypted credentials will be allowed to be passed to this node.</source>
+          <target state="translated"><g id="p1" mdpre="**" mdpost="**">PsDscAllowPlainTextPassword</g> — определяет, могут ли незашифрованные учетные данные передаваться на этот узел.</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This is <g id="p1" mdpre="**" mdpost="**">not recommended</g>.</source>
+          <target state="translated">Это делать <g id="p1" mdpre="**" mdpost="**">не рекомендуется</g>.</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><g id="p1" mdpre="**" mdpost="**">Thumbprint</g> - the thumbprint of the certificate that will be used to decrypt the credentials in the DSC Configuration on the <g id="p2" mdpre="_" mdpost="_">Target Node</g>.</source>
+          <target state="translated"><g id="p1" mdpre="**" mdpost="**">Thumbprint</g> — отпечаток сертификата, который будет использоваться для расшифровки учетных данных в конфигурации DSC на <g id="p2" mdpre="_" mdpost="_">целевом узле</g>.</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This certificate must exist in the Local Machine certificate store on the Target Node.</source>
+          <target state="translated">Этот сертификат должен существовать в хранилище сертификатов локального компьютера на целевом узле.</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><g id="p1" mdpre="**" mdpost="**">CertificateFile</g> - the certificate file (containing the public key only) that should be used to encrypt the credentials for the <g id="p2" mdpre="_" mdpost="_">Target Node</g>.</source>
+          <target state="translated"><g id="p1" mdpre="**" mdpost="**">CertificateFile</g> — файл сертификата (содержащий только открытый ключ), который следует использовать для шифрования учетных данных для <g id="p2" mdpre="_" mdpost="_">целевого узла</g>.</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This must be either a DER encoded binary X.509 or Base-64 encoded X.509 format certificate file.</source>
+          <target state="translated">Формат этого файла сертификата — двоичный стандарт X.509 в кодировке DER или Base-64.</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
           <source>This example shows a configuration data block that specifies a target node to act on named targetNode, the path to the public key certificate file (named targetNode.cer), and the thumbprint for the public key.</source>
           <target state="translated">В этом примере показан блок данных конфигурации, в котором определен целевой узел для обработки, называемый targetNode, путь к файлу сертификата открытого ключа (с именем targetNode.cer) и отпечаток открытого ключа.</target>         
         </trans-unit>
-        <trans-unit id="127" translate="yes" xml:space="preserve">
+        <trans-unit id="153" translate="yes" xml:space="preserve">
           <source>Configuration script</source>
           <target state="translated">Сценарий конфигурации</target>         
         </trans-unit>
-        <trans-unit id="128" translate="yes" xml:space="preserve">
+        <trans-unit id="154" translate="yes" xml:space="preserve">
           <source>In the configuration script itself, use the <ph id="ph1">`PsCredential`</ph> parameter to ensure that credentials are stored for the shortest possible time.</source>
           <target state="translated">В самом сценарии конфигурации используйте параметр <ph id="ph1">`PsCredential`</ph>, чтобы учетные данные хранились в течение минимально возможного срока.</target>         
         </trans-unit>
-        <trans-unit id="129" translate="yes" xml:space="preserve">
+        <trans-unit id="155" translate="yes" xml:space="preserve">
           <source>When you run the supplied example, DSC will prompt you for credentials and then encrypt the MOF file using the CertificateFile that is associated with the target node in the configuration data block.</source>
           <target state="translated">При запуске этого примера DSC запросит у вас учетные данные и затем зашифрует MOF-файл с помощью сертификата CertificateFile, который связан с этим целевым узлом в блоке данных конфигурации.</target>         
         </trans-unit>
-        <trans-unit id="130" translate="yes" xml:space="preserve">
+        <trans-unit id="156" translate="yes" xml:space="preserve">
           <source>This code example copies a file from a share that is secured to a user.</source>
           <target state="translated">В этом коде файл копируется из общей папки, которая защищена для пользователя.</target>         
         </trans-unit>
-        <trans-unit id="131" translate="yes" xml:space="preserve">
+        <trans-unit id="157" translate="yes" xml:space="preserve">
           <source>Setting up decryption</source>
           <target state="translated">Настройка расшифровки</target>         
         </trans-unit>
-        <trans-unit id="132" translate="yes" xml:space="preserve">
-          <source>Before <ph id="ph2">`Start-DscConfiguration`</ph> can work, you have to tell the Local Configuration Manager on each target node which certificate to use to decrypt the credentials, using the CertificateID resource to verify the certificate’s thumbprint.</source>
-          <target state="translated">Перед началом работы <ph id="ph2">`Start-DscConfiguration`</ph> необходимо сообщить локальному диспетчеру конфигураций каждого целевого узла, какой сертификат необходимо использовать для расшифровки учетных данных с помощью ресурса CertificateID для проверки отпечатка сертификата.</target>         
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Before <g id="p1" mdpre="[" mdpost="](https://technet.microsoft.com/en-us/library/dn521623.aspx)"><ph id="ph1">`Start-DscConfiguration`</ph></g> can work, you have to tell the Local Configuration Manager on each target node which certificate to use to decrypt the credentials, using the CertificateID resource to verify the certificate’s thumbprint.</source>
+          <target state="translated">Перед началом работы <g id="p1" mdpre="[" mdpost="](https://technet.microsoft.com/en-us/library/dn521623.aspx)"><ph id="ph1">`Start-DscConfiguration`</ph></g> вам необходимо сообщить локальному диспетчеру конфигураций каждого целевого узла, какой сертификат необходимо использовать для расшифровки учетных данных с помощью ресурса CertificateID для проверки отпечатка сертификата.</target>         
         </trans-unit>
-        <trans-unit id="133" translate="yes" xml:space="preserve">
+        <trans-unit id="159" translate="yes" xml:space="preserve">
           <source>This example function will find the appropriate local certificate (you might have to customize it so it will find the exact certificate you want to use):</source>
           <target state="translated">Этот пример функции найдет соответствующий локальный сертификат (может потребоваться изменить его так, чтобы он нашел именно тот сертификат, который вы хотите использовать):</target>         
         </trans-unit>
-        <trans-unit id="134" translate="yes" xml:space="preserve">
+        <trans-unit id="160" translate="yes" xml:space="preserve">
           <source>With the certificate identified by its thumbprint, the configuration script can be updated to use the value:</source>
           <target state="translated">С сертификатом, который определяется отпечатком, можно обновить сценарий конфигурации, чтобы он использовал это значение:</target>         
         </trans-unit>
-        <trans-unit id="135" translate="yes" xml:space="preserve">
+        <trans-unit id="161" translate="yes" xml:space="preserve">
           <source>Running the configuration</source>
           <target state="translated">Выполнение конфигурации</target>         
         </trans-unit>
-        <trans-unit id="136" translate="yes" xml:space="preserve">
+        <trans-unit id="162" translate="yes" xml:space="preserve">
           <source>At this point, you can run the configuration, which will output two files:</source>
           <target state="translated">На этом этапе можно запустить конфигурацию, в результате чего вы получите два выходных файла:</target>         
         </trans-unit>
-        <trans-unit id="137" translate="yes" xml:space="preserve">
+        <trans-unit id="163" translate="yes" xml:space="preserve">
           <source>A *.meta.mof file that configures the Local Configuration Manager to decrypt the credentials using the certificate that is stored on the local machine store and identified by its thumbprint.</source>
           <target state="translated">Файл *. meta.mof, настраивающий расшифровку учетных данных в локальном диспетчере конфигураций с помощью сертификата, который хранится в хранилище локального компьютера и определяется его отпечатком.</target>         
         </trans-unit>
-        <trans-unit id="138" translate="yes" xml:space="preserve">
-          <source>Set-DscLocalConfigurationManager applies the *.meta.mof file.</source>
-          <target state="translated">Командлет Set-DscLocalConfigurationManager применяет файл *.meta.mof.</target>         
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><g id="p1" mdpre="[" mdpost="](https://technet.microsoft.com/en-us/library/dn521621.aspx)"><ph id="ph1">`Set-DscLocalConfigurationManager`</ph></g> applies the *.meta.mof file.</source>
+          <target state="translated"><g id="p1" mdpre="[" mdpost="](https://technet.microsoft.com/en-us/library/dn521621.aspx)"><ph id="ph1">`Set-DscLocalConfigurationManager`</ph></g> применяет файл *.meta.mof.</target>         
         </trans-unit>
-        <trans-unit id="139" translate="yes" xml:space="preserve">
+        <trans-unit id="165" translate="yes" xml:space="preserve">
           <source>A MOF file that actually applies the configuration.</source>
           <target state="translated">MOF-файл, который фактически применяет конфигурацию.</target>         
         </trans-unit>
-        <trans-unit id="140" translate="yes" xml:space="preserve">
+        <trans-unit id="166" translate="yes" xml:space="preserve">
           <source>Start-DscConfiguration applies the configuration.</source>
           <target state="translated">Командлет Start-DscConfiguration применяет конфигурацию.</target>         
         </trans-unit>
-        <trans-unit id="141" translate="yes" xml:space="preserve">
+        <trans-unit id="167" translate="yes" xml:space="preserve">
           <source>These commands will accomplish those steps:</source>
           <target state="translated">Эти команды выполнят следующие действия:</target>         
         </trans-unit>
-        <trans-unit id="142" translate="yes" xml:space="preserve">
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>This example would push the DSC configuration to the target node.</source>
+          <target state="translated">В этом примере конфигурация DSC будет принудительно отправляться на целевой узел.</target>         
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The DSC configuration can also be applied using a DSC Pull Server if one is available.</source>
+          <target state="translated">Конфигурацию DSC также можно применить с помощью опрашивающего сервера DSC, если он доступен.</target>         
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>See <g id="p1" mdpre="[" mdpost="](PullClient.md)">this page</g> for more information on applying DSC configurations using a DSC Pull Server.</source>
+          <target state="translated">Дополнительные сведения о применении конфигурации DSC с помощью опрашивающего сервера DSC приведены на <g id="p1" mdpre="[" mdpost="](PullClient.md)">этой странице</g>.</target>         
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Credential Encryption Module Example</source>
+          <target state="translated">Пример модуля шифрования учетных данных</target>         
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
           <source>Here is a full example that incorporates all of these steps, plus a helper cmdlet that exports and copies the public keys:</source>
           <target state="translated">Ниже приведен полный пример, включающий все эти действия, а также вспомогательный командлет, который экспортирует и копирует открытые ключи:</target>         
         </trans-unit>
       </group>
     </body>
   </file>
-  <header xmlns="">
-    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">14cf6c2005eb756200e7fd065b61e4120d84c02e</xliffext:olfilehash>
-  </header>
 </xliff>
