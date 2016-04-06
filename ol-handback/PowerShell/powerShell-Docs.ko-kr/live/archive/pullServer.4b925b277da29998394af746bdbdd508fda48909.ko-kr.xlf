@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" target-language="ko-kr">
+  <file datatype="xml" original="md" source-language="en-US" target-language="ko-kr">
     <body>
-      <group id="main" extype="content">
+      <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
           <source>Setting up a DSC web pull server</source>
           <target state="translated">DSC 웹 끌어오기 서버 설정</target>         
@@ -64,60 +64,60 @@
           <target state="translated"><bpt id="p1">[</bpt>Install-Module<ept id="p1">](https://technet.microsoft.com/en-us/library/dn807162.aspx)</ept> cmdlet을 호출하여 <bpt id="p2">**</bpt>xPSDesiredStateConfiguration<ept id="p2">**</ept> 모듈을 설치하세요.</target>         
         </trans-unit>
         <trans-unit id="116" translate="yes" xml:space="preserve">
-          <source><bpt id="p3">**</bpt>Note<ept id="p3">**</ept>: <bpt id="p4">**</bpt>Install-Module<ept id="p4">**</ept> is included in the <bpt id="p5">**</bpt>PowerShellGet<ept id="p5">**</ept> module, which is included in PowerShell 5.0.</source>
-          <target state="translated"><bpt id="p3">**</bpt>참고<ept id="p3">**</ept>: <bpt id="p4">**</bpt>Install-Module<ept id="p4">**</ept>은 PowerShell 5.0에 포함된 <bpt id="p5">**</bpt>PowerShellGet<ept id="p5">**</ept> 모듈에 포함되어 있습니다.</target>         
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: <bpt id="p2">**</bpt>Install-Module<ept id="p2">**</ept> is included in the <bpt id="p3">**</bpt>PowerShellGet<ept id="p3">**</ept> module, which is included in PowerShell 5.0.</source>
+          <target state="translated"><bpt id="p1">**</bpt>참고<ept id="p1">**</ept>: <bpt id="p2">**</bpt>Install-Module<ept id="p2">**</ept>은 PowerShell 5.0에 포함된 <bpt id="p3">**</bpt>PowerShellGet<ept id="p3">**</ept> 모듈에 포함되어 있습니다.</target>         
         </trans-unit>
         <trans-unit id="117" translate="yes" xml:space="preserve">
-          <source>You can download the <bpt id="p6">**</bpt>PowerShellGet<ept id="p6">**</ept> module for PowerShell 3.0 and 4.0 at <bpt id="p7">[</bpt>PackageManagement PowerShell Modules Preview<ept id="p7">](https://www.microsoft.com/en-us/download/details.aspx?id=49186)</ept>.</source>
-          <target state="translated"><bpt id="p7">[</bpt>PackageManagement PowerShell 모듈 미리 보기<ept id="p7">](https://www.microsoft.com/en-us/download/details.aspx?id=49186)</ept>에서 PowerShell 3.0 및 4.0용 <bpt id="p6">**</bpt>PowerShellGet<ept id="p6">**</ept> 모듈을 다운로드할 수 있습니다.</target>         
+          <source>You can download the <bpt id="p1">**</bpt>PowerShellGet<ept id="p1">**</ept> module for PowerShell 3.0 and 4.0 at <bpt id="p2">[</bpt>PackageManagement PowerShell Modules Preview<ept id="p2">](https://www.microsoft.com/en-us/download/details.aspx?id=49186)</ept>.</source>
+          <target state="translated"><bpt id="p2">[</bpt>PackageManagement PowerShell 모듈 미리 보기<ept id="p2">](https://www.microsoft.com/en-us/download/details.aspx?id=49186)</ept>에서 PowerShell 3.0 및 4.0용 <bpt id="p1">**</bpt>PowerShellGet<ept id="p1">**</ept> 모듈을 다운로드할 수 있습니다.</target>         
         </trans-unit>
         <trans-unit id="118" translate="yes" xml:space="preserve">
           <source>Create a self-signed certificate with the subject <ph id="ph1">`"CN=PSDSCPullServerCert"`</ph> in the <ph id="ph2">`CERT:\LocalMachine\MY\`</ph> store.</source>
           <target state="translated"><ph id="ph2">`CERT:\LocalMachine\MY\`</ph> 스토어에서 주체 <ph id="ph1">`"CN=PSDSCPullServerCert"`</ph>를 사용하여 자체 서명된 인증서를 만듭니다.</target>         
         </trans-unit>
         <trans-unit id="119" translate="yes" xml:space="preserve">
-          <source>You can do this with the command <ph id="ph3">`New-SelfSignedCertificate  -CertStoreLocation 'CERT:\LocalMachine\MY' -DnsName "PSDSCPullServerCert"`</ph>.</source>
-          <target state="translated">이 작업은 <ph id="ph3">`New-SelfSignedCertificate  -CertStoreLocation 'CERT:\LocalMachine\MY' -DnsName "PSDSCPullServerCert"`</ph> 명령을 사용하여 수행할 수 있습니다.</target>         
+          <source>You can do this with the command <ph id="ph1">`New-SelfSignedCertificate  -CertStoreLocation 'CERT:\LocalMachine\MY' -DnsName "PSDSCPullServerCert"`</ph>.</source>
+          <target state="translated">이 작업은 <ph id="ph1">`New-SelfSignedCertificate  -CertStoreLocation 'CERT:\LocalMachine\MY' -DnsName "PSDSCPullServerCert"`</ph> 명령을 사용하여 수행할 수 있습니다.</target>         
         </trans-unit>
         <trans-unit id="120" translate="yes" xml:space="preserve">
-          <source>In the PowerShell ISE, start (F5) the following configuration script (included in the Example folder of the  <bpt id="p8">**</bpt>xPSDesiredStateConfiguration<ept id="p8">**</ept> module as Sample_xDscWebService.ps1).</source>
-          <target state="translated">PowerShell ISE에서 다음의 구성 스크립트(<bpt id="p8">**</bpt>xPSDesiredStateConfiguration<ept id="p8">**</ept> 모듈의 예제 폴더에 Sample_xDscWebService.ps1로 포함됨)를 시작합니다(F5).</target>         
+          <source>In the PowerShell ISE, start (F5) the following configuration script (included in the Example folder of the  <bpt id="p1">**</bpt>xPSDesiredStateConfiguration<ept id="p1">**</ept> module as Sample_xDscWebService.ps1).</source>
+          <target state="translated">PowerShell ISE에서 다음의 구성 스크립트(<bpt id="p1">**</bpt>xPSDesiredStateConfiguration<ept id="p1">**</ept> 모듈의 예제 폴더에 Sample_xDscWebService.ps1로 포함됨)를 시작합니다(F5).</target>         
         </trans-unit>
         <trans-unit id="121" translate="yes" xml:space="preserve">
           <source>This script sets up the pull server and a compliance server.</source>
           <target state="translated">이 스크립트는 끌어오기 서버와 준수 서버를 설정합니다.</target>         
         </trans-unit>
         <trans-unit id="122" translate="yes" xml:space="preserve">
-          <source>Run the configuration, passing the thumbprint of the self-signed certificate you created as the <bpt id="p9">**</bpt>certificateThumbPrint<ept id="p9">**</ept> parameter:</source>
-          <target state="translated">구성을 실행하여, <bpt id="p9">**</bpt>certificateThumbPrint<ept id="p9">**</ept> 매개 변수로 만든 자체 서명된 인증서의 지문을 전달합니다.</target>         
+          <source>Run the configuration, passing the thumbprint of the self-signed certificate you created as the <bpt id="p1">**</bpt>certificateThumbPrint<ept id="p1">**</ept> parameter:</source>
+          <target state="translated">구성을 실행하여, <bpt id="p1">**</bpt>certificateThumbPrint<ept id="p1">**</ept> 매개 변수로 만든 자체 서명된 인증서의 지문을 전달합니다.</target>         
         </trans-unit>
         <trans-unit id="123" translate="yes" xml:space="preserve">
           <source>Registration Key</source>
           <target state="translated">등록 키</target>         
         </trans-unit>
         <trans-unit id="124" translate="yes" xml:space="preserve">
-          <source>To allow client nodes to register with the server so that they can use configuration names instead of a configuration ID, a registration key (which is a GUID known to both the server and the client node) must be placed in a file named <ph id="ph4">`RegistrationKeys.txt`</ph>.</source>
-          <target state="translated">구성 ID 대신 구성 이름을 사용할 수 있도록 클라이언트 노드가 서버에 등록할 수 있도록 하려면 등록 키(서버와 클라이언트 노드 모두에게 GUID로 알려짐)를 <ph id="ph4">`RegistrationKeys.txt`</ph>라는 파일에 배치해야 합니다.</target>         
+          <source>To allow client nodes to register with the server so that they can use configuration names instead of a configuration ID, a registration key (which is a GUID known to both the server and the client node) must be placed in a file named <ph id="ph1">`RegistrationKeys.txt`</ph>.</source>
+          <target state="translated">구성 ID 대신 구성 이름을 사용할 수 있도록 클라이언트 노드가 서버에 등록할 수 있도록 하려면 등록 키(서버와 클라이언트 노드 모두에게 GUID로 알려짐)를 <ph id="ph1">`RegistrationKeys.txt`</ph>라는 파일에 배치해야 합니다.</target>         
         </trans-unit>
         <trans-unit id="125" translate="yes" xml:space="preserve">
-          <source>By default, the pull server created by this example expects that file to be located in <ph id="ph5">`C:\Program Files\WindowsPowerShell\DscService`</ph>.</source>
-          <target state="translated">기본적으로 이 예제에서 만든 끌어오기 서버는 해당 파일이 <ph id="ph5">`C:\Program Files\WindowsPowerShell\DscService`</ph>에 있을 것으로 예상합니다.</target>         
+          <source>By default, the pull server created by this example expects that file to be located in <ph id="ph1">`C:\Program Files\WindowsPowerShell\DscService`</ph>.</source>
+          <target state="translated">기본적으로 이 예제에서 만든 끌어오기 서버는 해당 파일이 <ph id="ph1">`C:\Program Files\WindowsPowerShell\DscService`</ph>에 있을 것으로 예상합니다.</target>         
         </trans-unit>
         <trans-unit id="126" translate="yes" xml:space="preserve">
           <source>Create a text file with only one line consisting of the registration key and save it in that folder.</source>
           <target state="translated">등록 키로 구성된 한 줄만 있는 텍스트 파일을 만들어 해당 폴더에 저장하세요.</target>         
         </trans-unit>
         <trans-unit id="127" translate="yes" xml:space="preserve">
-          <source><bpt id="p10">**</bpt>Note<ept id="p10">**</ept>: Registration keys are not supported in PowerShell 4.0.</source>
-          <target state="translated"><bpt id="p10">**</bpt>참고<ept id="p10">**</ept>: PowerShell 4.0에서는 등록 키가 지원되지 않습니다.</target>         
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: Registration keys are not supported in PowerShell 4.0.</source>
+          <target state="translated"><bpt id="p1">**</bpt>참고<ept id="p1">**</ept>: PowerShell 4.0에서는 등록 키가 지원되지 않습니다.</target>         
         </trans-unit>
         <trans-unit id="128" translate="yes" xml:space="preserve">
           <source>Placing configurations and resources</source>
           <target state="translated">구성 및 리소스 배치</target>         
         </trans-unit>
         <trans-unit id="129" translate="yes" xml:space="preserve">
-          <source>After the pull server setup completes, there is a new folder under <ph id="ph6">`$env:PROGRAMFILES\WindowsPowerShell`</ph> named "DscService".</source>
-          <target state="translated">끌어오기 서버 설정이 완료되면 <ph id="ph6">`$env:PROGRAMFILES\WindowsPowerShell`</ph> 아래에 "DscService"라는 새 폴더가 생깁니다.</target>         
+          <source>After the pull server setup completes, there is a new folder under <ph id="ph1">`$env:PROGRAMFILES\WindowsPowerShell`</ph> named "DscService".</source>
+          <target state="translated">끌어오기 서버 설정이 완료되면 <ph id="ph1">`$env:PROGRAMFILES\WindowsPowerShell`</ph> 아래에 "DscService"라는 새 폴더가 생깁니다.</target>         
         </trans-unit>
         <trans-unit id="130" translate="yes" xml:space="preserve">
           <source>In that folder, there are two folders named "Modules" and "Configuration".</source>
@@ -140,16 +140,16 @@
           <target state="translated">다음 항목에서는 끌어오기 클라이언트를 설정하는 것에 대해 자세히 설명합니다.</target>         
         </trans-unit>
         <trans-unit id="135" translate="yes" xml:space="preserve">
-          <source><ph id="ph7">[</ph>Setting up a DSC pull client using a configuration ID<ph id="ph8">](pullClientConfigID.md)</ph></source>
-          <target state="translated"><ph id="ph7">[</ph>구성 ID를 사용하여 DSC 끌어오기 클라이언트 설정<ph id="ph8">](pullClientConfigID.md)</ph></target>         
+          <source>Setting up a DSC pull client using a configuration ID</source>
+          <target state="translated">구성 ID를 사용하여 DSC 끌어오기 클라이언트 설정</target>         
         </trans-unit>
         <trans-unit id="136" translate="yes" xml:space="preserve">
-          <source><ph id="ph9">[</ph>Setting up a DSC pull client using configuration names<ph id="ph10">](pullClientConfigNames.md)</ph></source>
-          <target state="translated"><ph id="ph9">[</ph>구성 이름을 사용하여 DSC 끌어오기 클라이언트 설정<ph id="ph10">](pullClientConfigNames.md)</ph></target>         
+          <source>Setting up a DSC pull client using configuration names</source>
+          <target state="translated">구성 이름을 사용하여 DSC 끌어오기 클라이언트 설정</target>         
         </trans-unit>
         <trans-unit id="137" translate="yes" xml:space="preserve">
-          <source><ph id="ph11">[</ph>Partial configurations<ph id="ph12">](partialConfigs.md)</ph></source>
-          <target state="translated"><ph id="ph11">[</ph>부분 구성<ph id="ph12">](partialConfigs.md)</ph></target>         
+          <source>Partial configurations</source>
+          <target state="translated">부분 구성</target>         
         </trans-unit>
         <trans-unit id="138" translate="yes" xml:space="preserve">
           <source>Creating the MOF checksum</source>
@@ -160,49 +160,49 @@
           <target state="translated">구성 MOF 파일은 대상 노드의 LCM이 구성에 대한 유효성을 검사할 수 있도록 체크섬 파일과 함께 사용해야 합니다.</target>         
         </trans-unit>
         <trans-unit id="140" translate="yes" xml:space="preserve">
-          <source>To create a checksum, call the <bpt id="p11">[</bpt>New-DSCCheckSum<ept id="p11">](https://technet.microsoft.com/en-us/library/dn521622.aspx)</ept> cmdlet.</source>
-          <target state="translated">체크섬을 만들려면 <bpt id="p11">[</bpt>New-DSCCheckSum<ept id="p11">](https://technet.microsoft.com/en-us/library/dn521622.aspx)</ept> cmdlet을 호출합니다.</target>         
+          <source>To create a checksum, call the <bpt id="p1">[</bpt>New-DSCCheckSum<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521622.aspx)</ept> cmdlet.</source>
+          <target state="translated">체크섬을 만들려면 <bpt id="p1">[</bpt>New-DSCCheckSum<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521622.aspx)</ept> cmdlet을 호출합니다.</target>         
         </trans-unit>
         <trans-unit id="141" translate="yes" xml:space="preserve">
-          <source>The cmdlet takes a <bpt id="p12">**</bpt>Path<ept id="p12">**</ept> parameter that specifies the folder where the configuration MOF is located.</source>
-          <target state="translated">이 cmdlet은 구성 MOF가 있는 폴더를 지정하는 <bpt id="p12">**</bpt>Path<ept id="p12">**</ept> 매개 변수를 사용합니다.</target>         
+          <source>The cmdlet takes a <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter that specifies the folder where the configuration MOF is located.</source>
+          <target state="translated">이 cmdlet은 구성 MOF가 있는 폴더를 지정하는 <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> 매개 변수를 사용합니다.</target>         
         </trans-unit>
         <trans-unit id="142" translate="yes" xml:space="preserve">
-          <source>The cmdlet creates a checksum file named <ph id="ph13">`ConfigurationMOFName.mof.checksum`</ph>, where <ph id="ph14">`ConfigurationMOFName`</ph> is the name of the configuration mof file.</source>
-          <target state="translated">cmdlet은 <ph id="ph13">`ConfigurationMOFName.mof.checksum`</ph>이라는 체크섬 파일을 만들며, 여기서 <ph id="ph14">`ConfigurationMOFName`</ph>은 구성 mof 파일의 이름입니다.</target>         
+          <source>The cmdlet creates a checksum file named <ph id="ph1">`ConfigurationMOFName.mof.checksum`</ph>, where <ph id="ph2">`ConfigurationMOFName`</ph> is the name of the configuration mof file.</source>
+          <target state="translated">cmdlet은 <ph id="ph1">`ConfigurationMOFName.mof.checksum`</ph>이라는 체크섬 파일을 만들며, 여기서 <ph id="ph2">`ConfigurationMOFName`</ph>은 구성 mof 파일의 이름입니다.</target>         
         </trans-unit>
         <trans-unit id="143" translate="yes" xml:space="preserve">
           <source>If there are more than one configuration MOF files in the specified folder, a checksum is created for each configuration in the folder.</source>
           <target state="translated">지정된 폴더에 구성 MOF 파일이 두 개 이상 있는 경우, 폴더에 있는 각 구성에 대해 체크섬이 만들어집니다.</target>         
         </trans-unit>
         <trans-unit id="144" translate="yes" xml:space="preserve">
-          <source>The checksum file must be present in the same directory as the configuration MOF file (<ph id="ph15">`$env:PROGRAMFILES\WindowsPowerShell\DscService\Configuration`</ph> by default), and have the same name with the <ph id="ph16">`.checksum`</ph> extension appended.</source>
-          <target state="translated">체크섬 파일은 구성 MOF 파일과 동일한 디렉터리에 있어야 하며(기본적으로 <ph id="ph15">`$env:PROGRAMFILES\WindowsPowerShell\DscService\Configuration`</ph>), 동일한 이름에 확장명으로 <ph id="ph16">`.checksum`</ph>을 사용해야 합니다.</target>         
+          <source>The checksum file must be present in the same directory as the configuration MOF file (<ph id="ph1">`$env:PROGRAMFILES\WindowsPowerShell\DscService\Configuration`</ph> by default), and have the same name with the <ph id="ph2">`.checksum`</ph> extension appended.</source>
+          <target state="translated">체크섬 파일은 구성 MOF 파일과 동일한 디렉터리에 있어야 하며(기본적으로 <ph id="ph1">`$env:PROGRAMFILES\WindowsPowerShell\DscService\Configuration`</ph>), 동일한 이름에 확장명으로 <ph id="ph2">`.checksum`</ph>을 사용해야 합니다.</target>         
         </trans-unit>
         <trans-unit id="145" translate="yes" xml:space="preserve">
-          <source><bpt id="p13">**</bpt>Note<ept id="p13">**</ept>: If you change the configuration MOF file in any way, you must also recreate the checksum file.</source>
-          <target state="translated"><bpt id="p13">**</bpt>참고<ept id="p13">**</ept>: 어떤 식으로든 구성 MOF 파일을 변경하는 경우 체크섬 파일도 다시 만들어야 합니다.</target>         
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: If you change the configuration MOF file in any way, you must also recreate the checksum file.</source>
+          <target state="translated"><bpt id="p1">**</bpt>참고<ept id="p1">**</ept>: 어떤 식으로든 구성 MOF 파일을 변경하는 경우 체크섬 파일도 다시 만들어야 합니다.</target>         
         </trans-unit>
         <trans-unit id="146" translate="yes" xml:space="preserve">
           <source>See also</source>
           <target state="translated">참고 항목</target>         
         </trans-unit>
         <trans-unit id="147" translate="yes" xml:space="preserve">
-          <source><ph id="ph17">[</ph>Windows PowerShell Desired State Configuration Overview<ph id="ph18">](overview.md)</ph></source>
-          <target state="translated"><ph id="ph17">[</ph>Windows PowerShell 필요한 상태 구성 개요<ph id="ph18">](overview.md)</ph></target>         
+          <source>Windows PowerShell Desired State Configuration Overview</source>
+          <target state="translated">Windows PowerShell 필요한 상태 구성 개요</target>         
         </trans-unit>
         <trans-unit id="148" translate="yes" xml:space="preserve">
-          <source><ph id="ph19">[</ph>Enacting configurations<ph id="ph20">](enactingConfigurations.md)</ph></source>
-          <target state="translated"><ph id="ph19">[</ph>구성 시행<ph id="ph20">](enactingConfigurations.md)</ph></target>         
+          <source>Enacting configurations</source>
+          <target state="translated">구성 시행</target>         
         </trans-unit>
         <trans-unit id="149" translate="yes" xml:space="preserve">
-          <source><ph id="ph21">[</ph>How to retrieve node information from DSC pull server<ph id="ph22">](retrieveNodeInfo.md)</ph></source>
-          <target state="translated"><ph id="ph21">[</ph>DSC 끌어오기 서버에서 노드 정보를 검색하는 방법<ph id="ph22">](retrieveNodeInfo.md)</ph></target>         
+          <source>How to retrieve node information from DSC pull server</source>
+          <target state="translated">DSC 끌어오기 서버에서 노드 정보를 검색하는 방법</target>         
         </trans-unit>
       </group>
     </body>
   </file>
   <header xmlns="">
-    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">81a21499e1043cdd948f59dda3a727b1820d1542</xliffext:olfilehash>
+    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0ef3dedfc2ca50e9edf86f8bb8931d778c3005c4</xliffext:olfilehash>
   </header>
 </xliff>
