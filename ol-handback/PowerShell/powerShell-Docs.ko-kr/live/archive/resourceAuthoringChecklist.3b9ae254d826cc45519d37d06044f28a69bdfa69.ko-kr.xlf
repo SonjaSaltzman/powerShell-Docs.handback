@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="md" source-language="en-US" target-language="ko-kr">
+    <header>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c21a8247aac04887b4454122eb9b42476b40a543</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-869bb40" tool-company="Microsoft" />
+    </header>
     <body>
       <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
@@ -8,625 +12,626 @@
           <target state="translated">리소스 작성 검사 목록</target>         
         </trans-unit>
         <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This checklist is a list of best practices when authoring a new DSC Resource</source>
+          <target state="translated">이 검사 목록은 새 DSC 리소스를 작성할 때 따를 모범 사례 목록입니다.</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
           <source>Resource module contains .psd1 file and schema.mof for every resource</source>
           <target state="translated">리소스 모듈에 모든 리소스에 대한 .psd1 파일과 schema.mof가 포함되어 있음</target>         
         </trans-unit>
-        <trans-unit id="103" translate="yes" xml:space="preserve">
-          <source>The first think you should do is to check that your resource has correct structure and contains all required files.</source>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The first thing you should do is to check that your resource has correct structure and contains all required files.</source>
           <target state="translated">첫 번째로 리소스의 구조가 올바르고 필요한 파일이 모두 포함되어 있는지 확인해야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="104" translate="yes" xml:space="preserve">
+        <trans-unit id="105" translate="yes" xml:space="preserve">
           <source>Every resource module should contain a .psd1 file and every non-composite resource should have schema.mof file.</source>
           <target state="translated">모든 리소스 모듈에 .psd1 파일이 포함되어 있고 모든 비복합 리소스에 schema.mof 파일이 있어야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="105" translate="yes" xml:space="preserve">
+        <trans-unit id="106" translate="yes" xml:space="preserve">
           <source>Resources that do not contain schema will not be listed by <bpt id="p1">**</bpt>Get-DscResource<ept id="p1">**</ept> and users will not be able to use the intellisense when writing code against those modules in ISE.</source>
           <target state="translated">스키마가 포함되지 않은 리소스는 <bpt id="p1">**</bpt>Get-DscResource<ept id="p1">**</ept>로 나열되지 않고 사용자는 ISE에서 해당 모듈에 대해 코드를 작성할 때 intellisense를 사용할 수 없습니다.</target>         
         </trans-unit>
-        <trans-unit id="106" translate="yes" xml:space="preserve">
+        <trans-unit id="107" translate="yes" xml:space="preserve">
           <source>The sample directory structure for xRemoteFile resource, which is part of the xPSDesiredStateConfiguration resource module, could look as follows:</source>
           <target state="translated">xPSDesiredStateConfiguration 리소스 모듈의 일부인 xRemoteFile 리소스에 대한 샘플 디렉터리 구조는 다음과 같이 표시될 수 있습니다.</target>         
         </trans-unit>
-        <trans-unit id="107" translate="yes" xml:space="preserve">
+        <trans-unit id="108" translate="yes" xml:space="preserve">
           <source>Resource and schema are correct and have been verified using DscResourceDesigner cmdlets</source>
           <target state="translated">리소스 및 스키마가 올바르고 DscResourceDesigner cmdlet을 사용하여 확인되었음</target>         
         </trans-unit>
-        <trans-unit id="108" translate="yes" xml:space="preserve">
+        <trans-unit id="109" translate="yes" xml:space="preserve">
           <source>Another important aspect is verifying the resource schema (*.schema.mof) file.</source>
           <target state="translated">또 다른 중요한 측면은 리소스 스키마 파일(*.schema.mof)을 확인하는 것입니다.</target>         
         </trans-unit>
-        <trans-unit id="109" translate="yes" xml:space="preserve">
+        <trans-unit id="110" translate="yes" xml:space="preserve">
           <source>Make sure that:</source>
           <target state="translated">다음 사항을 확인하세요.</target>         
         </trans-unit>
-        <trans-unit id="110" translate="yes" xml:space="preserve">
+        <trans-unit id="111" translate="yes" xml:space="preserve">
           <source>Property types are correct (e.g. don’t use String for properties which accept numeric values, you should use UInt32 or other numeric types instead)</source>
           <target state="translated">속성 형식이 올바릅니다. 예를 들어 숫자 값을 허용하는 속성에 문자열을 사용하지 마세요. 대신 UInt32나 다른 숫자 형식을 사용해야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="111" translate="yes" xml:space="preserve">
+        <trans-unit id="112" translate="yes" xml:space="preserve">
           <source>Property attributes are specified correctly ([key], [required], [write], [read])</source>
           <target state="translated">속성 특성이 올바르게 지정되었습니다([key], [required], [write], [read]).</target>         
         </trans-unit>
-        <trans-unit id="112" translate="yes" xml:space="preserve">
+        <trans-unit id="113" translate="yes" xml:space="preserve">
           <source>At least one parameter in the schema has to be marked as [key]</source>
           <target state="translated">스키마에서 하나 이상의 매개 변수가 [key]로 표시되어야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="113" translate="yes" xml:space="preserve">
+        <trans-unit id="114" translate="yes" xml:space="preserve">
           <source>[read] property cannot coexist together with any of: [required], [key], [write]</source>
           <target state="translated">[read] 속성은 [required], [key], [write] 중 하나와 함께 사용할 수 없습니다.</target>         
         </trans-unit>
-        <trans-unit id="114" translate="yes" xml:space="preserve">
+        <trans-unit id="115" translate="yes" xml:space="preserve">
           <source>If multiple qualifiers are specified except [read], then [key] takes precedence</source>
           <target state="translated">[read]를 제외한 여러 한정자가 지정된 경우 [key]가 우선적으로 적용됩니다.</target>         
         </trans-unit>
-        <trans-unit id="115" translate="yes" xml:space="preserve">
+        <trans-unit id="116" translate="yes" xml:space="preserve">
           <source>If [write] and [required] are specified, then [required] takes precedence</source>
           <target state="translated">[write] 및 [required]가 지정된 경우 [required]가 우선적으로 적용됩니다.</target>         
         </trans-unit>
-        <trans-unit id="116" translate="yes" xml:space="preserve">
+        <trans-unit id="117" translate="yes" xml:space="preserve">
           <source>ValueMap is specified where appropriate</source>
           <target state="translated">ValueMap이 적절하게 지정되었습니다.</target>         
         </trans-unit>
-        <trans-unit id="117" translate="yes" xml:space="preserve">
+        <trans-unit id="118" translate="yes" xml:space="preserve">
           <source>Example:</source>
           <target state="translated">예:</target>         
         </trans-unit>
-        <trans-unit id="118" translate="yes" xml:space="preserve">
+        <trans-unit id="119" translate="yes" xml:space="preserve">
           <source>Friendly name is specified and confirms to DSC naming conventions</source>
           <target state="translated">식별 이름이 지정되고 DSC 명명 규칙을 준수합니다.</target>         
         </trans-unit>
-        <trans-unit id="119" translate="yes" xml:space="preserve">
+        <trans-unit id="120" translate="yes" xml:space="preserve">
           <source>Example:</source>
           <target state="translated">예:</target>         
         </trans-unit>
-        <trans-unit id="120" translate="yes" xml:space="preserve">
+        <trans-unit id="121" translate="yes" xml:space="preserve">
           <source>Every field has meaningful description</source>
           <target state="translated">모든 필드에 의미 있는 설명이 있습니다.</target>         
         </trans-unit>
-        <trans-unit id="121" translate="yes" xml:space="preserve">
+        <trans-unit id="122" translate="yes" xml:space="preserve">
           <source>Below you can find a good example of the resource schema file (this is the actual schema of xRemoteFile resource from the DSC Resource Kit)</source>
           <target state="translated">다음은 리소스 스키마 파일(DSC Resource Kit에서 xRemoteFile 리소스의 실제 스키마)의 좋은 예입니다.</target>         
         </trans-unit>
-        <trans-unit id="122" translate="yes" xml:space="preserve">
+        <trans-unit id="123" translate="yes" xml:space="preserve">
           <source>Additionally, you should use <bpt id="p1">**</bpt>Test-xDscResource<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Test-xDscSchema<ept id="p2">**</ept> cmdlets from Dsc Resource Designer to automatically verify the resource and schema:</source>
           <target state="translated">또한 DSC 리소스 디자이너의 <bpt id="p1">**</bpt>Test-xDscResource<ept id="p1">**</ept> 및 <bpt id="p2">**</bpt>Test-xDscSchema<ept id="p2">**</ept> cmdlet을 사용하여 리소스 및 스키마를 자동으로 확인해야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="123" translate="yes" xml:space="preserve">
+        <trans-unit id="124" translate="yes" xml:space="preserve">
           <source>For example:</source>
           <target state="translated">예:</target>         
         </trans-unit>
-        <trans-unit id="124" translate="yes" xml:space="preserve">
+        <trans-unit id="125" translate="yes" xml:space="preserve">
           <source>Resource loads without errors</source>
           <target state="translated">리소스가 오류 없이 로드됨</target>         
         </trans-unit>
-        <trans-unit id="125" translate="yes" xml:space="preserve">
+        <trans-unit id="126" translate="yes" xml:space="preserve">
           <source>Once you verified that resource contains all necessary files and verified them using DSC Resource Designer, it’s time to check whether resource module can be successfully loaded.</source>
           <target state="translated">리소스에 필요한 모든 파일이 포함되어 있는지 확인하고 DSC 리소스 디자이너를 사용하여 파일을 확인했으면 리소스 모듈을 로드할 수 있는지 여부를 확인해야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="126" translate="yes" xml:space="preserve">
+        <trans-unit id="127" translate="yes" xml:space="preserve">
           <source>You can do it either manually, by running <ph id="ph1">`Import-Module &lt;resource_module&gt; -force `</ph> and confirming that no errors occurred, or by writing test automation.</source>
           <target state="translated">이 작업은 수동으로 수행하거나, <ph id="ph1">`Import-Module &lt;resource_module&gt; -force `</ph>을 실행하고 오류가 발생하지 않는지 확인하여 수행하거나, 테스트 자동화를 작성하여 수행할 수 있습니다.</target>         
         </trans-unit>
-        <trans-unit id="127" translate="yes" xml:space="preserve">
+        <trans-unit id="128" translate="yes" xml:space="preserve">
           <source>In case of the latter, you can follow this structure in your test case:</source>
           <target state="translated">후자의 경우 테스트 사례에서 다음 구조를 따를 수 있습니다.</target>         
         </trans-unit>
-        <trans-unit id="128" translate="yes" xml:space="preserve">
+        <trans-unit id="129" translate="yes" xml:space="preserve">
           <source>4   Resource is idempotent in the positive case</source>
           <target state="translated">4   리소스가 양성 사례에서 idempotent임</target>         
         </trans-unit>
-        <trans-unit id="129" translate="yes" xml:space="preserve">
+        <trans-unit id="130" translate="yes" xml:space="preserve">
           <source>One of the fundamental characteristics of every DSC resource should be idempotence.</source>
           <target state="translated">모든 DSC 리소스의 기본 특성 중 하나는 idempotence여야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="130" translate="yes" xml:space="preserve">
+        <trans-unit id="131" translate="yes" xml:space="preserve">
           <source>It means that we can apply a DSC configuration containing that resource multiple times without changing the result beyond the initial application.</source>
           <target state="translated">즉, 초기 응용 프로그램 이상의 결과를 변경하지 않고 해당 리소스를 여러 번 포함하는 DSC 구성을 적용할 수 있습니다.</target>         
         </trans-unit>
-        <trans-unit id="131" translate="yes" xml:space="preserve">
+        <trans-unit id="132" translate="yes" xml:space="preserve">
           <source>For example, if we create a configuration which contains the following File resource:</source>
           <target state="translated">예를 들면 다음과 같은 파일 리소스를 포함하는 구성을 만드는 경우입니다.</target>         
         </trans-unit>
-        <trans-unit id="132" translate="yes" xml:space="preserve">
+        <trans-unit id="133" translate="yes" xml:space="preserve">
           <source>After applying it for the first time, file test.txt should appear in C:\test folder.</source>
           <target state="translated">처음으로 적용한 후 test.txt 파일이 C:\test 폴더에 나타나야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="133" translate="yes" xml:space="preserve">
+        <trans-unit id="134" translate="yes" xml:space="preserve">
           <source>However, subsequent runs of the same configuration should not change the state of the machine (e.g. no copies of the test.txt file should be created).</source>
           <target state="translated">그러나 동일한 구성의 후속 실행에서도 컴퓨터의 상태는 변경되지 않아야 합니다. 예를 들어 test.txt 파일의 복사본이 만들어지지 않아야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="134" translate="yes" xml:space="preserve">
+        <trans-unit id="135" translate="yes" xml:space="preserve">
           <source>To ensure our resource is idempotent we can repeatedly call <bpt id="p1">**</bpt>Set-TargetResource<ept id="p1">**</ept> when testing the resource directly, or call <bpt id="p2">**</bpt>Start-DscConfiguration<ept id="p2">**</ept> multiple times when doing end to end testing.</source>
           <target state="translated">리소스가 idempotent인지 확인하려면 리소스를 직접 테스트할 때 <bpt id="p1">**</bpt>Set-TargetResource<ept id="p1">**</ept>를 반복적으로 호출하거나 종단 간 테스트를 수행할 때 <bpt id="p2">**</bpt>Start-DscConfiguration<ept id="p2">**</ept>을 여러 번 호출할 수 있습니다.</target>         
         </trans-unit>
-        <trans-unit id="135" translate="yes" xml:space="preserve">
+        <trans-unit id="136" translate="yes" xml:space="preserve">
           <source>The result should be the same after every run.</source>
           <target state="translated">결과는 모든 실행 후에 동일해야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="136" translate="yes" xml:space="preserve">
+        <trans-unit id="137" translate="yes" xml:space="preserve">
           <source>User modification scenario was tested</source>
           <target state="translated">사용자 수정 시나리오가 테스트됨</target>         
         </trans-unit>
-        <trans-unit id="137" translate="yes" xml:space="preserve">
+        <trans-unit id="138" translate="yes" xml:space="preserve">
           <source>User modification is another common scenario worth testing out.</source>
           <target state="translated">사용자 수정은 테스트할 가치가 있는 또 다른 일반적인 시나리오입니다.</target>         
         </trans-unit>
-        <trans-unit id="138" translate="yes" xml:space="preserve">
+        <trans-unit id="139" translate="yes" xml:space="preserve">
           <source>It helps you verify that <bpt id="p1">**</bpt>Set-TargetResource<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Test-TargetResource<ept id="p2">**</ept> function properly.</source>
           <target state="translated">이 테스트는 <bpt id="p1">**</bpt>Set-TargetResource<ept id="p1">**</ept> 및 <bpt id="p2">**</bpt>Test-TargetResource<ept id="p2">**</ept>가 제대로 작동하는지 확인하는 데 도움이 됩니다.</target>         
         </trans-unit>
-        <trans-unit id="139" translate="yes" xml:space="preserve">
+        <trans-unit id="140" translate="yes" xml:space="preserve">
           <source>Here are steps you should take to test it:</source>
           <target state="translated">다음은 이 테스트를 위해 수행해야 하는 단계입니다.</target>         
         </trans-unit>
-        <trans-unit id="140" translate="yes" xml:space="preserve">
+        <trans-unit id="141" translate="yes" xml:space="preserve">
           <source>Start with the resource not in the desired state.</source>
           <target state="translated">원하는 상태가 아닌 리소스에서 시작합니다.</target>         
         </trans-unit>
-        <trans-unit id="141" translate="yes" xml:space="preserve">
+        <trans-unit id="142" translate="yes" xml:space="preserve">
           <source>Run configuration with your resource</source>
           <target state="translated">리소스에서 구성을 실행합니다.</target>         
         </trans-unit>
-        <trans-unit id="142" translate="yes" xml:space="preserve">
+        <trans-unit id="143" translate="yes" xml:space="preserve">
           <source>Verify <bpt id="p1">**</bpt>Test-DscConfiguration<ept id="p1">**</ept> returns True</source>
           <target state="translated"><bpt id="p1">**</bpt>Test-DscConfiguration<ept id="p1">**</ept>이 True를 반환하는지 확인합니다.</target>         
         </trans-unit>
-        <trans-unit id="143" translate="yes" xml:space="preserve">
+        <trans-unit id="144" translate="yes" xml:space="preserve">
           <source>Modify the resource out of the desired state</source>
           <target state="translated">원하는 상태에서 리소스를 수정합니다.</target>         
         </trans-unit>
-        <trans-unit id="144" translate="yes" xml:space="preserve">
+        <trans-unit id="145" translate="yes" xml:space="preserve">
           <source>Verify <bpt id="p1">**</bpt>Test-DscConfiguration<ept id="p1">**</ept> returns false</source>
           <target state="translated"><bpt id="p1">**</bpt>Test-DscConfiguration<ept id="p1">**</ept>이 false를 반환하는지 확인합니다.</target>         
         </trans-unit>
-        <trans-unit id="145" translate="yes" xml:space="preserve">
+        <trans-unit id="146" translate="yes" xml:space="preserve">
           <source>Here’s a more concrete example using Registry resource:</source>
           <target state="translated">다음은 레지스트리 키를 사용하는 보다 구체적인 예입니다.</target>         
         </trans-unit>
-        <trans-unit id="146" translate="yes" xml:space="preserve">
+        <trans-unit id="147" translate="yes" xml:space="preserve">
           <source>Start with registry key not in the desired state</source>
           <target state="translated">원하는 상태가 아닌 레지스트리 키에서 시작합니다.</target>         
         </trans-unit>
-        <trans-unit id="147" translate="yes" xml:space="preserve">
+        <trans-unit id="148" translate="yes" xml:space="preserve">
           <source>Run <bpt id="p1">**</bpt>Start-DscConfiguration<ept id="p1">**</ept> with a configuration to put it in the desired state and verify it passes.</source>
           <target state="translated">구성에서 <bpt id="p1">**</bpt>Start-DscConfiguration<ept id="p1">**</ept>을 실행하여 원하는 상태로 전환하고 통과하는지 확인합니다.</target>         
         </trans-unit>
-        <trans-unit id="148" translate="yes" xml:space="preserve">
+        <trans-unit id="149" translate="yes" xml:space="preserve">
           <source>Run <bpt id="p1">**</bpt>Test-DscConfiguration<ept id="p1">**</ept> and verify it returns true</source>
           <target state="translated"><bpt id="p1">**</bpt>Test-DscConfiguration<ept id="p1">**</ept>을 실행하고 true를 반환하는지 확인합니다.</target>         
         </trans-unit>
-        <trans-unit id="149" translate="yes" xml:space="preserve">
+        <trans-unit id="150" translate="yes" xml:space="preserve">
           <source>Modify the value of the key so that it is not in the desired state</source>
           <target state="translated">키의 값을 수정하여 원하는 상태가 되지 않도록 합니다.</target>         
         </trans-unit>
-        <trans-unit id="150" translate="yes" xml:space="preserve">
+        <trans-unit id="151" translate="yes" xml:space="preserve">
           <source>Run <bpt id="p1">**</bpt>Test-DscConfiguration<ept id="p1">**</ept> and verify it returns false</source>
           <target state="translated"><bpt id="p1">**</bpt>Test-DscConfiguration<ept id="p1">**</ept>을 실행하여 false를 반환하는지 확인합니다.</target>         
         </trans-unit>
-        <trans-unit id="151" translate="yes" xml:space="preserve">
+        <trans-unit id="152" translate="yes" xml:space="preserve">
           <source>Get-TargetResource functionality was verified using Get-DscConfiguration</source>
           <target state="translated">Get-TargetResource 기능이 Get-DscConfiguration을 사용하여 확인됨</target>         
         </trans-unit>
-        <trans-unit id="152" translate="yes" xml:space="preserve">
+        <trans-unit id="153" translate="yes" xml:space="preserve">
           <source>Get-TargetResource should return details of the current state of the resource.</source>
           <target state="translated">Get-TargetResource는 리소스의 현재 상태에 대한 세부 정보를 반환해야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="153" translate="yes" xml:space="preserve">
+        <trans-unit id="154" translate="yes" xml:space="preserve">
           <source>Make sure you test it by calling Get-DscConfiguration after you apply the configuration and verifying that output correctly reflects the current state of the machine.</source>
           <target state="translated">구성을 적용한 후 Get-DscConfiguration을 호출하고 출력에 컴퓨터의 현재 상태가 올바르게 반영되는지 확인하여 테스트해야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="154" translate="yes" xml:space="preserve">
+        <trans-unit id="155" translate="yes" xml:space="preserve">
           <source>It's important to test it separately, since any issues in this area won't appear when calling Start-DscConfiguration.</source>
           <target state="translated">Start-DscConfiguration을 호출할 때 이 영역의 문제가 나타나지 않으므로 별도로 테스트해야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="155" translate="yes" xml:space="preserve">
+        <trans-unit id="156" translate="yes" xml:space="preserve">
           <source>Resource was verified by calling <bpt id="p1">**</bpt>Get/Set/Test-TargetResource<ept id="p1">**</ept> functions directly</source>
           <target state="translated">리소스가 <bpt id="p1">**</bpt>Get/Set/Test-TargetResource<ept id="p1">**</ept> 함수를 직접 호출하여 확인됨</target>         
         </trans-unit>
-        <trans-unit id="156" translate="yes" xml:space="preserve">
+        <trans-unit id="157" translate="yes" xml:space="preserve">
           <source>Make sure you test the <bpt id="p1">**</bpt>Get/Set/Test-TargetResource<ept id="p1">**</ept> functions implemented in your resource by calling them directly and verifying that they work as expected.</source>
           <target state="translated">리소스에 구현된 <bpt id="p1">**</bpt>Get/Set/Test-TargetResource<ept id="p1">**</ept> 함수를 직접 호출하고 예상대로 작동하는지 확인하여 이 함수를 테스트해야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="157" translate="yes" xml:space="preserve">
+        <trans-unit id="158" translate="yes" xml:space="preserve">
           <source>Resource was verified End to End using <bpt id="p1">**</bpt>Start-DscConfiguration<ept id="p1">**</ept></source>
           <target state="translated">리소스가 <bpt id="p1">**</bpt>Start-DscConfiguration<ept id="p1">**</ept>을 사용하여 종단 간 확인됨</target>         
         </trans-unit>
-        <trans-unit id="158" translate="yes" xml:space="preserve">
+        <trans-unit id="159" translate="yes" xml:space="preserve">
           <source>Testing <bpt id="p1">**</bpt>Get/Set/Test-TargetResource<ept id="p1">**</ept> functions by calling them directly is important, but not all issues will be discovered this way.</source>
           <target state="translated"><bpt id="p1">**</bpt>Get/Set/Test-TargetResource<ept id="p1">**</ept> 함수를 직접 호출하여 테스트하는 것이 중요하지만 이런 방식으로 모든 문제가 검색되는 것은 아닙니다.</target>         
         </trans-unit>
-        <trans-unit id="159" translate="yes" xml:space="preserve">
+        <trans-unit id="160" translate="yes" xml:space="preserve">
           <source>You should focus significant part of your testing on using <bpt id="p1">**</bpt>Start-DscConfiguration<ept id="p1">**</ept> or the pull server.</source>
           <target state="translated"><bpt id="p1">**</bpt>Start-DscConfiguration<ept id="p1">**</ept> 또는 끌어오기 서버 사용에 테스트의 초점을 맞추어야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="160" translate="yes" xml:space="preserve">
+        <trans-unit id="161" translate="yes" xml:space="preserve">
           <source>In fact, this is how users will use the resource, so don’t underestimate the significance of this type of tests.</source>
           <target state="translated">실제로 사용자가 리소스를 사용하는 방법이므로 이러한 테스트 유형의 중요성을 간과해서는 안 됩니다.</target>         
         </trans-unit>
-        <trans-unit id="161" translate="yes" xml:space="preserve">
+        <trans-unit id="162" translate="yes" xml:space="preserve">
           <source>Possible types of issues:</source>
           <target state="translated">가능한 문제 유형:</target>         
         </trans-unit>
-        <trans-unit id="162" translate="yes" xml:space="preserve">
+        <trans-unit id="163" translate="yes" xml:space="preserve">
           <source>Credential/Session may behave differently because the DSC agent runs as a service.</source>
           <target state="translated">DSC 에이전트가 서비스로 실행되기 때문에 자격 증명/세션이 다르게 동작할 수 있습니다.</target>         
         </trans-unit>
-        <trans-unit id="163" translate="yes" xml:space="preserve">
+        <trans-unit id="164" translate="yes" xml:space="preserve">
           <source>Be sure to test any features here end to end.</source>
           <target state="translated">여기에서 모든 기능을 종단 간 테스트해야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="164" translate="yes" xml:space="preserve">
+        <trans-unit id="165" translate="yes" xml:space="preserve">
           <source>Verify error messages displayed by the resource make sense.</source>
           <target state="translated">리소스에서 표시하는 오류 메시지가 적합한지 확인합니다.</target>         
         </trans-unit>
-        <trans-unit id="165" translate="yes" xml:space="preserve">
+        <trans-unit id="166" translate="yes" xml:space="preserve">
           <source>For example, errors outputted by <bpt id="p1">**</bpt>Start-DscConfiguration<ept id="p1">**</ept> may be different than those displayed when calling the <bpt id="p2">**</bpt>Set-TargetResource<ept id="p2">**</ept> function directly.</source>
           <target state="translated">예를 들어 <bpt id="p1">**</bpt>Start-DscConfiguration<ept id="p1">**</ept>에 의해 출력된 오류가 <bpt id="p2">**</bpt>Set-TargetResource<ept id="p2">**</ept> 함수를 직접 호출할 때 표시되는 오류와 다를 수 있습니다.</target>         
         </trans-unit>
-        <trans-unit id="166" translate="yes" xml:space="preserve">
+        <trans-unit id="167" translate="yes" xml:space="preserve">
           <source>Resource behaves correctly on all DSC supported platforms (or returns a specific error otherwise)</source>
           <target state="translated">리소스가 모든 DSC 지원 플랫폼에서 올바르게 동작하거나 그렇지 않으면 특정 오류를 반환함</target>         
         </trans-unit>
-        <trans-unit id="167" translate="yes" xml:space="preserve">
+        <trans-unit id="168" translate="yes" xml:space="preserve">
           <source>Resource should work on all DSC supported platforms (Windows Server 2008 R2 and newer).</source>
           <target state="translated">리소스는 모든 DSC 지원 플랫폼(Windows Server 2008 R2 이상)에서 작동해야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="168" translate="yes" xml:space="preserve">
+        <trans-unit id="169" translate="yes" xml:space="preserve">
           <source>Make sure you install latest WMF (Windows Management Framework) on your OS to get the latest version of DSC.</source>
           <target state="translated">최신 버전의 DSC를 가져오려면 OS에 최신 WMF(Windows Management Framework)가 설치되었는지 확인합니다.</target>         
         </trans-unit>
-        <trans-unit id="169" translate="yes" xml:space="preserve">
+        <trans-unit id="170" translate="yes" xml:space="preserve">
           <source>If resource by-design does not work on some of these platforms, a specific error message should be returned.</source>
           <target state="translated">리소스가 디자인에 따라 이러한 플랫폼 일부에서 작동하지 않을 경우 특정 오류 메시지가 반환되어야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="170" translate="yes" xml:space="preserve">
+        <trans-unit id="171" translate="yes" xml:space="preserve">
           <source>Also, make sure your resource checks whether cmdlets you are calling are present on particular machine.</source>
           <target state="translated">또한 호출하는 cmdlet이 특정 컴퓨터에 있는지 여부를 리소스에서 확인해야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="171" translate="yes" xml:space="preserve">
+        <trans-unit id="172" translate="yes" xml:space="preserve">
           <source>Windows Server 2012 added a large number of new cmdlets that are not available on Windows Server 2008R2, even with WMF installed.</source>
           <target state="translated">Windows Server 2012에서는 Windows Server 2008 R2에서 WMF가 설치된 경우에도 제공하지 않는 많은 새로운 cmdlet이 추가되었습니다.</target>         
         </trans-unit>
-        <trans-unit id="172" translate="yes" xml:space="preserve">
+        <trans-unit id="173" translate="yes" xml:space="preserve">
           <source>Resource functionality was verified on Windows Client (if applicable)</source>
           <target state="translated">리소스 기능이 Windows 클라이언트에서 확인됨(해당되는 경우)</target>         
         </trans-unit>
-        <trans-unit id="173" translate="yes" xml:space="preserve">
+        <trans-unit id="174" translate="yes" xml:space="preserve">
           <source>One very common test gap is verifying the resource only on server versions of Windows.</source>
           <target state="translated">매우 일반적인 테스트 간격은 Windows의 서버 버전에서만 리소스를 확인하는 것입니다.</target>         
         </trans-unit>
-        <trans-unit id="174" translate="yes" xml:space="preserve">
+        <trans-unit id="175" translate="yes" xml:space="preserve">
           <source>Many resources are also designed to work on Client SKUs, so if that’s true in your case, don’t forget to test it on those platforms as well.</source>
           <target state="translated">또한 많은 리소스가 클라이언트 SKU에서 작동하도록 설계되었으므로 해당되는 경우 해당 플랫폼에서도 테스트해야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="175" translate="yes" xml:space="preserve">
+        <trans-unit id="176" translate="yes" xml:space="preserve">
           <source>Get-DSCResource lists the resource</source>
           <target state="translated">Get-DSCResource에서 리소스를 나열함</target>         
         </trans-unit>
-        <trans-unit id="176" translate="yes" xml:space="preserve">
+        <trans-unit id="177" translate="yes" xml:space="preserve">
           <source>After deploying the module on the machine, calling Get-DscResource should list your resource among others as a result.</source>
           <target state="translated">컴퓨터에서 모듈을 배포한 후 Get-DscResource를 호출하면 결과로 리소스를 나열해야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="177" translate="yes" xml:space="preserve">
+        <trans-unit id="178" translate="yes" xml:space="preserve">
           <source>If you can’t find your resource in the list, make sure that schema.mof file for that resource exists.</source>
           <target state="translated">목록에서 리소스를 찾을 수 없으면 해당 리소스에 대한 schema.mof 파일이 있는지 확인하세요.</target>         
         </trans-unit>
-        <trans-unit id="178" translate="yes" xml:space="preserve">
+        <trans-unit id="179" translate="yes" xml:space="preserve">
           <source>Resource module contains examples</source>
           <target state="translated">리소스 모듈에 예제가 포함되어 있음</target>         
         </trans-unit>
-        <trans-unit id="179" translate="yes" xml:space="preserve">
+        <trans-unit id="180" translate="yes" xml:space="preserve">
           <source>If you intend to share the resource (which you hopefully do), creating quality examples which will help others understand how to use it.</source>
           <target state="translated">리소스를 공유하려는 경우 품질 예제를 만들면 다른 사용자가 사용 방법을 이해하는 데 도움을 줄 수 있습니다.</target>         
         </trans-unit>
-        <trans-unit id="180" translate="yes" xml:space="preserve">
+        <trans-unit id="181" translate="yes" xml:space="preserve">
           <source>This is crucial, especially since many users treat sample code as documentation.</source>
           <target state="translated">따라서 이 작업은 중요하며 특히 많은 사용자가 샘플 코드를 설명서로 처리하기 때문에 더욱 그렇습니다.</target>         
         </trans-unit>
-        <trans-unit id="181" translate="yes" xml:space="preserve">
+        <trans-unit id="182" translate="yes" xml:space="preserve">
           <source>First, you should determine the examples that will be included with the module – at minimum, you should cover most important use cases for your resource:</source>
           <target state="translated">먼저 모듈에 포함될 예제를 결정해야 합니다. 최소한 리소스에 대한 가장 중요한 사용 사례를 포함해야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="182" translate="yes" xml:space="preserve">
+        <trans-unit id="183" translate="yes" xml:space="preserve">
           <source>If your module contains several resources that need to work together for an end-to-end scenario, the basic end-to-end example would ideally be first.</source>
           <target state="translated">종단 간 시나리오에서 함께 작동해야 하는 여러 가지 리소스가 모듈에 포함된 경우 기본적인 종단 간 예제가 첫 번째로 포함되는 것이 좋습니다.</target>         
         </trans-unit>
-        <trans-unit id="183" translate="yes" xml:space="preserve">
+        <trans-unit id="184" translate="yes" xml:space="preserve">
           <source>The initial examples should be very simple -- how to get started with your resources in small manageable chunks (e.g. creating a new VHD)</source>
           <target state="translated">초기 예제는 매우 간단해야 합니다. 즉, 관리할 수 있는 작은 청크(예: 새 VHD 만들기)로 리소스를 시작하는 방법이 될 수 있습니다.</target>         
         </trans-unit>
-        <trans-unit id="184" translate="yes" xml:space="preserve">
+        <trans-unit id="185" translate="yes" xml:space="preserve">
           <source>Subsequent examples should build on those examples (e.g. creating a VM from a VHD, removing VM, modifying VM), and show advanced functionality (e.g. creating a VM with dynamic memory)</source>
           <target state="translated">이후 예제는 이 예제를 기반으로 해야 하며(예: VHD에서 VM 만들기, VM 제거, VM 수정) 고급 기능(예: 동적 메모리로 VM 만들기)을 보여 주어야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="185" translate="yes" xml:space="preserve">
+        <trans-unit id="186" translate="yes" xml:space="preserve">
           <source>Example configurations should be parameterized (all values should be passed to the configuration as parameters and there should be no hardcoded values):</source>
           <target state="translated">예제 구성을 매개 변수화해야 합니다. 즉, 모든 값을 매개 변수로 구성에 전달해야 하며 하드 코드된 값이 없어야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="186" translate="yes" xml:space="preserve">
+        <trans-unit id="187" translate="yes" xml:space="preserve">
           <source>It’s a good practice to include (commented out) example of how to call the configuration with the actual values at the end of the example script.</source>
           <target state="translated">예제 스크립트의 끝에 실제 값으로 구성을 호출하는 방법에 대한 예제를 포함(주석으로 처리)하는 것이 좋습니다.</target>         
         </trans-unit>
-        <trans-unit id="187" translate="yes" xml:space="preserve">
+        <trans-unit id="188" translate="yes" xml:space="preserve">
           <source>For example, in the configuration above it won’t be obvious for everyone that the best way to specify UserAgent is:</source>
           <target state="translated">예를 들어 위 구성에서는 UserAgent를 지정하는 가장 좋은 방법이 모든 사용자에게 명확하지 않습니다.</target>         
         </trans-unit>
-        <trans-unit id="188" translate="yes" xml:space="preserve">
+        <trans-unit id="189" translate="yes" xml:space="preserve">
           <source>That’s why we should include comment with sample execution of the configuration:</source>
           <target state="translated">이러한 이유로 구성의 샘플 실행에 주석을 포함해야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="189" translate="yes" xml:space="preserve">
+        <trans-unit id="190" translate="yes" xml:space="preserve">
           <source>For each example, write a short description which explains what it does, and the meaning of the parameters.</source>
           <target state="translated">각 예제에 대해 용도, 매개 변수의 의미를 설명하는 간단한 설명을 작성합니다.</target>         
         </trans-unit>
-        <trans-unit id="190" translate="yes" xml:space="preserve">
+        <trans-unit id="191" translate="yes" xml:space="preserve">
           <source>Make sure examples cover most the important scenarios for your resource and if there’s nothing missing, verify that they all execute and put machine in the desired state.</source>
           <target state="translated">리소스에 가장 중요한 시나리오가 예제에 포함되었는지 확인하고 누락된 내용이 없을 경우 모두 실행되고 컴퓨터가 원하는 상태로 전환되는지 확인합니다.</target>         
         </trans-unit>
-        <trans-unit id="191" translate="yes" xml:space="preserve">
+        <trans-unit id="192" translate="yes" xml:space="preserve">
           <source>Error messages are easy to understand and help users solve problems</source>
           <target state="translated">오류 메시지가 이해하기 쉽고 사용자가 문제를 해결하는 데 도움이 됨</target>         
         </trans-unit>
-        <trans-unit id="192" translate="yes" xml:space="preserve">
+        <trans-unit id="193" translate="yes" xml:space="preserve">
           <source>Good error messages should be:</source>
           <target state="translated">좋은 오류 메시지는 다음과 같아야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="193" translate="yes" xml:space="preserve">
+        <trans-unit id="194" translate="yes" xml:space="preserve">
           <source>There: The biggest problem with error messages is that they often don’t exist, so make sure they are there.</source>
           <target state="translated">존재: 오류 메시지의 가장 큰 문제는 종종 존재하지 않는다는 점이므로 실제로 있는지 확인해야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="194" translate="yes" xml:space="preserve">
+        <trans-unit id="195" translate="yes" xml:space="preserve">
           <source>Easy to understand: Human readable, no obscure error codes</source>
           <target state="translated">이해하기 쉬움: 사용자가 읽을 수 있고 명확하지 않은 오류 코드가 없어야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="195" translate="yes" xml:space="preserve">
+        <trans-unit id="196" translate="yes" xml:space="preserve">
           <source>Precise: Describe what’s exactly the problem</source>
           <target state="translated">정확함: 문제를 정확하게 설명해야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="196" translate="yes" xml:space="preserve">
+        <trans-unit id="197" translate="yes" xml:space="preserve">
           <source>Constructive: Advice how to fix the issue</source>
           <target state="translated">건설적임: 문제를 해결하는 방법을 조언해야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="197" translate="yes" xml:space="preserve">
+        <trans-unit id="198" translate="yes" xml:space="preserve">
           <source>Polite: Don’t blame user or make them feel stupid</source>
           <target state="translated">정중함: 사용자를 비난하거나 어리석다 생각하지 않도록 해야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="198" translate="yes" xml:space="preserve">
+        <trans-unit id="199" translate="yes" xml:space="preserve">
           <source>Make sure you verify errors in End to End scenarios (using <bpt id="p1">**</bpt>Start-DscConfiguration<ept id="p1">**</ept>), because they may differ from those returned when running resource functions directly.</source>
           <target state="translated">리소스 함수를 직접 실행할 때 반환되는 오류와 다를 수 있으므로 종단 간 시나리오에서 <bpt id="p1">**</bpt>Start-DscConfiguration<ept id="p1">**</ept>을 사용하여 오류를 확인해야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="199" translate="yes" xml:space="preserve">
+        <trans-unit id="200" translate="yes" xml:space="preserve">
           <source>Log messages are easy to understand and informative (including –verbose, –debug and ETW logs)</source>
           <target state="translated">로그 메시지는 이해하기 쉽고 정보를 제공해야 함(–verbose, –debug 및 ETW 로그 포함)</target>         
         </trans-unit>
-        <trans-unit id="200" translate="yes" xml:space="preserve">
+        <trans-unit id="201" translate="yes" xml:space="preserve">
           <source>Ensure that logs outputted by the resource are easy to understand and provide value to the user.</source>
           <target state="translated">리소스에 의해 출력된 로그가 이해하기 쉽고 사용자에게 값을 제공하는지 확인합니다.</target>         
         </trans-unit>
-        <trans-unit id="201" translate="yes" xml:space="preserve">
+        <trans-unit id="202" translate="yes" xml:space="preserve">
           <source>Resources should output all information which might be helpful to the user, but more logs is not always better.</source>
           <target state="translated">리소스는 사용자에게 도움이 될 수 있는 모든 정보를 출력해야 하지만 로그가 많을수록 항상 더 좋은 것은 아닙니다.</target>         
         </trans-unit>
-        <trans-unit id="202" translate="yes" xml:space="preserve">
+        <trans-unit id="203" translate="yes" xml:space="preserve">
           <source>You should avoid redundancy and outputting data which does not provide additional value – don’t make someone go through hundreds of log entries in order to find what they're looking for.</source>
           <target state="translated">추가 값을 제공하지 않는 데이터의 출력 및 중복성을 방지해야 합니다. 즉, 원하는 항목을 찾기 위해 수백 개의 로그 항목을 검토하는 일이 없도록 해야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="203" translate="yes" xml:space="preserve">
+        <trans-unit id="204" translate="yes" xml:space="preserve">
           <source>Of course, no logs is not an acceptable solution for this problem either.</source>
           <target state="translated">물론 로그가 없는 것도 이 문제에 적합한 솔루션은 아닐 수 있습니다.</target>         
         </trans-unit>
-        <trans-unit id="204" translate="yes" xml:space="preserve">
+        <trans-unit id="205" translate="yes" xml:space="preserve">
           <source>When testing, you should also analyze verbose and debug logs (by running <bpt id="p1">**</bpt>Start-DscConfiguration<ept id="p1">**</ept> with –verbose and –debug switches appropriately), as well as ETW logs.</source>
           <target state="translated">테스트할 때 ETW 로그뿐만 아니라 자세한 정보 로그 및 디버그 로그(–verbose 및 –debug 스위치를 적절히 사용하여 <bpt id="p1">**</bpt>Start-DscConfiguration<ept id="p1">**</ept> 실행)도 분석해야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="205" translate="yes" xml:space="preserve">
+        <trans-unit id="206" translate="yes" xml:space="preserve">
           <source>To see DSC ETW logs, go to Event Viewer and open the following folder: Applications and Services- Microsoft - Windows - Desired State Configuration.</source>
           <target state="translated">DSC ETW 로그를 보려면 이벤트 뷰어로 이동하고 응용 프로그램 및 서비스 - Microsoft - Windows - 원하는 상태 구성 폴더를 엽니다.</target>         
         </trans-unit>
-        <trans-unit id="206" translate="yes" xml:space="preserve">
+        <trans-unit id="207" translate="yes" xml:space="preserve">
           <source>By default there will be Operational channel, but make sure you enable Analytic and Debug channels (you have to do it before running the configuration).</source>
           <target state="translated">기본적으로 작동 채널이 있지만 분석 및 디버그 채널을 사용하도록 설정해야 합니다. 이 작업은 구성을 실행하기 전에 수행해야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="207" translate="yes" xml:space="preserve">
+        <trans-unit id="208" translate="yes" xml:space="preserve">
           <source>To enable Analytic/Debug channels, you can execute script below:</source>
           <target state="translated">분석/디버그 채널을 사용하려면 다음 스크립트를 실행할 수 있습니다.</target>         
         </trans-unit>
-        <trans-unit id="208" translate="yes" xml:space="preserve">
+        <trans-unit id="209" translate="yes" xml:space="preserve">
           <source>Resource implementation does not contain hardcoded paths</source>
           <target state="translated">리소스 구현에 하드 코드된 경로가 포함되지 않음</target>         
         </trans-unit>
-        <trans-unit id="209" translate="yes" xml:space="preserve">
+        <trans-unit id="210" translate="yes" xml:space="preserve">
           <source>Ensure there are no hardcoded paths in the resource implementation, particularly if they assume language (en-us), or when there are system variables that can be used.</source>
           <target state="translated">리소스 구현에 하드 코드된 경로가 없는지 확인합니다. 특히 언어(en-us)를 가정하거나 사용할 수 있는 시스템 변수가 있는 경우는 더욱 그렇습니다.</target>         
         </trans-unit>
-        <trans-unit id="210" translate="yes" xml:space="preserve">
+        <trans-unit id="211" translate="yes" xml:space="preserve">
           <source>If your resource need to access specific paths, use environment variables instead of hardcoding the path, as it may differ on other machines.</source>
           <target state="translated">리소스에서 특정 경로에 액세스해야 하는 경우 다른 컴퓨터에서는 달라질 수 있으므로 경로를 하드코딩하는 대신 환경 변수를 사용하세요.</target>         
         </trans-unit>
-        <trans-unit id="211" translate="yes" xml:space="preserve">
+        <trans-unit id="212" translate="yes" xml:space="preserve">
           <source>Example:</source>
           <target state="translated">예:</target>         
         </trans-unit>
-        <trans-unit id="212" translate="yes" xml:space="preserve">
+        <trans-unit id="213" translate="yes" xml:space="preserve">
           <source>Instead of:</source>
           <target state="translated">다음 문자열 대신에</target>         
         </trans-unit>
-        <trans-unit id="213" translate="yes" xml:space="preserve">
+        <trans-unit id="214" translate="yes" xml:space="preserve">
           <source>You can write:</source>
           <target state="translated">다음과 같이 작성:</target>         
         </trans-unit>
-        <trans-unit id="214" translate="yes" xml:space="preserve">
+        <trans-unit id="215" translate="yes" xml:space="preserve">
           <source>Resource implementation does not contain user information</source>
           <target state="translated">리소스 구현에 사용자 정보가 포함되지 않음</target>         
         </trans-unit>
-        <trans-unit id="215" translate="yes" xml:space="preserve">
+        <trans-unit id="216" translate="yes" xml:space="preserve">
           <source>Make sure there are no email names, account information, or names of people in the code.</source>
           <target state="translated">코드에 메일 이름, 계정 정보 또는 사람 이름이 없는지 확인합니다.</target>         
         </trans-unit>
-        <trans-unit id="216" translate="yes" xml:space="preserve">
+        <trans-unit id="217" translate="yes" xml:space="preserve">
           <source>Resource was tested with valid/invalid credentials</source>
           <target state="translated">리소스가 유효한/잘못된 자격 증명으로 테스트됨</target>         
         </trans-unit>
-        <trans-unit id="217" translate="yes" xml:space="preserve">
+        <trans-unit id="218" translate="yes" xml:space="preserve">
           <source>If your resource takes a credential as parameter:</source>
           <target state="translated">리소스에서 자격 증명을 매개 변수로 사용하는 경우:</target>         
         </trans-unit>
-        <trans-unit id="218" translate="yes" xml:space="preserve">
+        <trans-unit id="219" translate="yes" xml:space="preserve">
           <source>Verify the resource works when Local System (or the computer account for remote resources) does not have access.</source>
           <target state="translated">로컬 시스템(또는 원격 리소스에 대한 컴퓨터 계정)에 액세스 권한이 없는 경우에 리소스가 작동하는지 확인합니다.</target>         
         </trans-unit>
-        <trans-unit id="219" translate="yes" xml:space="preserve">
+        <trans-unit id="220" translate="yes" xml:space="preserve">
           <source>Verify the resource works with a credential specified for Get, Set and Test</source>
           <target state="translated">Get, Set 및 Test에 지정된 자격 증명에서 리소스가 작동하는지 확인합니다.</target>         
         </trans-unit>
-        <trans-unit id="220" translate="yes" xml:space="preserve">
+        <trans-unit id="221" translate="yes" xml:space="preserve">
           <source>If your resource accesses shares, test all the variants you need to support.</source>
           <target state="translated">리소스에서 공유에 액세스하는 경우 지원해야 하는 모든 변형을 테스트합니다.</target>         
         </trans-unit>
-        <trans-unit id="221" translate="yes" xml:space="preserve">
+        <trans-unit id="222" translate="yes" xml:space="preserve">
           <source>For example:</source>
           <target state="translated">예:</target>         
         </trans-unit>
-        <trans-unit id="222" translate="yes" xml:space="preserve">
+        <trans-unit id="223" translate="yes" xml:space="preserve">
           <source>Standard windows shares.</source>
           <target state="translated">표준 Windows 공유</target>         
         </trans-unit>
-        <trans-unit id="223" translate="yes" xml:space="preserve">
+        <trans-unit id="224" translate="yes" xml:space="preserve">
           <source>DFS shares.</source>
           <target state="translated">DFS 공유</target>         
         </trans-unit>
-        <trans-unit id="224" translate="yes" xml:space="preserve">
+        <trans-unit id="225" translate="yes" xml:space="preserve">
           <source>SAMBA shares (if you want to support Linux.)</source>
           <target state="translated">SAMBA 공유(Linux를 지원하려는 경우)</target>         
         </trans-unit>
-        <trans-unit id="225" translate="yes" xml:space="preserve">
+        <trans-unit id="226" translate="yes" xml:space="preserve">
           <source>Resource is not using cmdlets requiring interactive input</source>
           <target state="translated">리소스에서 대화형 입력이 필요한 cmdlet을 사용하지 않음</target>         
         </trans-unit>
-        <trans-unit id="226" translate="yes" xml:space="preserve">
+        <trans-unit id="227" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Get/Set/Test-TargetResource<ept id="p1">**</ept> functions should be executed automatically and must not wait for user’s input at any stage of execution (e.g. you should not use <bpt id="p2">**</bpt>Get-Credential<ept id="p2">**</ept> inside these functions).</source>
           <target state="translated"><bpt id="p1">**</bpt>Get/Set/Test-TargetResource<ept id="p1">**</ept> 함수는 자동으로 실행되어야 하며 모든 실행 단계에서 사용자의 입력을 대기하지 않아야 합니다. 예를 들어 이러한 함수 내부에서 <bpt id="p2">**</bpt>Get-Credential<ept id="p2">**</ept>을 사용해서는 안 됩니다.</target>         
         </trans-unit>
-        <trans-unit id="227" translate="yes" xml:space="preserve">
+        <trans-unit id="228" translate="yes" xml:space="preserve">
           <source>If you need to provide user’s input, you should pass it to the configuration as parameter during the compilation phase.</source>
           <target state="translated">사용자의 입력을 제공해야 하는 경우 컴파일 단계 중 매개 변수로 구성에 전달해야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="228" translate="yes" xml:space="preserve">
+        <trans-unit id="229" translate="yes" xml:space="preserve">
           <source>Resource functionality was thoroughly tested</source>
           <target state="translated">리소스 기능이 철저하게 테스트됨</target>         
         </trans-unit>
-        <trans-unit id="229" translate="yes" xml:space="preserve">
+        <trans-unit id="230" translate="yes" xml:space="preserve">
           <source>You are responsible to make sure the resource is behaving correctly, so test its functionality manually or, better yet, write automation.</source>
           <target state="translated">사용자는 리소스가 올바르게 작동하고 있는지 확인하여 기능을 수동으로 테스트하거나 자동화를 작성하면 더욱 좋습니다.</target>         
         </trans-unit>
-        <trans-unit id="230" translate="yes" xml:space="preserve">
+        <trans-unit id="231" translate="yes" xml:space="preserve">
           <source>This checklist contains items which are important to be tested and/or are often missed.</source>
           <target state="translated">이 검사 목록에는 테스트해야 하거나 누락되는 경우가 많은 항목이 포함되어 있습니다.</target>         
         </trans-unit>
-        <trans-unit id="231" translate="yes" xml:space="preserve">
+        <trans-unit id="232" translate="yes" xml:space="preserve">
           <source>There will be bunch of tests, mainly functional ones which will be specific to the resource you are testing and are not mentioned here.</source>
           <target state="translated">다양한 테스트가 있을 수 있으며, 주로 테스트하고 있지만 여기에 언급되지 않은 리소스와 관련된 기능 테스트입니다.</target>         
         </trans-unit>
-        <trans-unit id="232" translate="yes" xml:space="preserve">
+        <trans-unit id="233" translate="yes" xml:space="preserve">
           <source>Don’t forget about negative test cases.</source>
           <target state="translated">부정적인 테스트 사례를 기억해 두어야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="233" translate="yes" xml:space="preserve">
+        <trans-unit id="234" translate="yes" xml:space="preserve">
           <source>This will likely be the most time consuming part of the resource testing.</source>
           <target state="translated">리소스 테스트에서 시간이 가장 많이 걸리는 부분일 수 있습니다.</target>         
         </trans-unit>
-        <trans-unit id="234" translate="yes" xml:space="preserve">
+        <trans-unit id="235" translate="yes" xml:space="preserve">
           <source>Best practice: Resource module contains Tests folder with ResourceDesignerTests.ps1 script</source>
           <target state="translated">모범 사례: 리소스 모듈에 ResourceDesignerTests.ps1 스크립트가 포함된 Tests 폴더가 있음</target>         
         </trans-unit>
-        <trans-unit id="235" translate="yes" xml:space="preserve">
+        <trans-unit id="236" translate="yes" xml:space="preserve">
           <source>It’s a good practice to create folder “Tests” inside resource module, create ResourceDesignerTests.ps1 file and add tests using <bpt id="p1">**</bpt>Test-xDscResource<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Test-xDscSchema<ept id="p2">**</ept> for all resources in given module.</source>
           <target state="translated">리소스 모듈 내에 “Tests” 폴더를 만들고 ResourceDesignerTests.ps1 파일을 만든 다음 지정된 모듈의 모든 리소스에 대해 <bpt id="p1">**</bpt>Test-xDscResource<ept id="p1">**</ept> 및 <bpt id="p2">**</bpt>Test-xDscSchema<ept id="p2">**</ept>를 사용하여 테스트를 추가하는 것이 좋습니다.</target>         
         </trans-unit>
-        <trans-unit id="236" translate="yes" xml:space="preserve">
+        <trans-unit id="237" translate="yes" xml:space="preserve">
           <source>This way we can quickly validate schemas of all resources from given modules and do sanity check before publishing.</source>
           <target state="translated">이런 방식으로 지정된 모듈에서 모든 리소스의 스키마에 대해 신속하게 유효성을 검사하고 게시하기 전에 온전성 검사를 수행할 수 있습니다.</target>         
         </trans-unit>
-        <trans-unit id="237" translate="yes" xml:space="preserve">
+        <trans-unit id="238" translate="yes" xml:space="preserve">
           <source>For xRemoteFile, ResourceTests.ps1 could look as simple as:</source>
           <target state="translated">xRemoteFile의 경우 ResourceTests.ps1이 다음과 같이 간단하게 표시될 수 있습니다.</target>         
         </trans-unit>
-        <trans-unit id="238" translate="yes" xml:space="preserve">
+        <trans-unit id="239" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Best practice: Resource folder contains resource designer script for generating schema<ept id="p1">**</ept></source>
           <target state="translated"><bpt id="p1">**</bpt>모범 사례: 리소스 폴더에 스키마를 생성하는 리소스 디자이너 스크립트가 있음<ept id="p1">**</ept></target>         
         </trans-unit>
-        <trans-unit id="239" translate="yes" xml:space="preserve">
+        <trans-unit id="240" translate="yes" xml:space="preserve">
           <source>Each resource should contain a resource designer script which generates a mof schema of the resource.</source>
           <target state="translated">각 리소스에는 리소스의 mof 스키마를 생성하는 리소스 디자이너 스크립트가 있어야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="240" translate="yes" xml:space="preserve">
+        <trans-unit id="241" translate="yes" xml:space="preserve">
           <source>This file should be placed in</source>
           <target state="translated">이 파일은</target>         
         </trans-unit>
-        <trans-unit id="241" translate="yes" xml:space="preserve">
+        <trans-unit id="242" translate="yes" xml:space="preserve">
           <source>\ResourceDesignerScripts and be named Generate</source>
           <target state="translated">\ResourceDesignerScripts에 저장되며 이름은 Generate</target>         
         </trans-unit>
-        <trans-unit id="242" translate="yes" xml:space="preserve">
+        <trans-unit id="243" translate="yes" xml:space="preserve">
           <source>Schema.ps1</source>
           <target state="translated">Schema.ps1로 지정됩니다.</target>         
         </trans-unit>
-        <trans-unit id="243" translate="yes" xml:space="preserve">
+        <trans-unit id="244" translate="yes" xml:space="preserve">
           <source>For xRemoteFile resource this file would be called GenerateXRemoteFileSchema.ps1 and contain:</source>
           <target state="translated">XRemoteFile 리소스의 경우 이 파일을 GenerateXRemoteFileSchema.ps1이라고 하며 다음을 포함합니다.</target>         
         </trans-unit>
-        <trans-unit id="244" translate="yes" xml:space="preserve">
+        <trans-unit id="245" translate="yes" xml:space="preserve">
           <source>22  Best practice: Resource supports -whatif</source>
           <target state="translated">22  모범 사례: 리소스에서 -whatif를 지원함</target>         
         </trans-unit>
-        <trans-unit id="245" translate="yes" xml:space="preserve">
+        <trans-unit id="246" translate="yes" xml:space="preserve">
           <source>If your resource is performing “dangerous” operations, it’s a good practice to implement -whatif functionality.</source>
           <target state="translated">리소스에서 “위험한” 작업을 수행하고 있는 경우 -whatif 기능을 구현하는 것이 좋습니다.</target>         
         </trans-unit>
-        <trans-unit id="246" translate="yes" xml:space="preserve">
+        <trans-unit id="247" translate="yes" xml:space="preserve">
           <source>After it’s done, make sure that whatif output correctly describes operations which would happen if command was executed without whatif switch.</source>
           <target state="translated">완료된 후에는 명령이 whatif 스위치 없이 실행된 경우 수행된 작업에 대해 whatif 출력이 올바르게 설명하는지 확인합니다.</target>         
         </trans-unit>
-        <trans-unit id="247" translate="yes" xml:space="preserve">
+        <trans-unit id="248" translate="yes" xml:space="preserve">
           <source>Also, verify that operations does not execute (no changes to the node’s state are made) when –whatif switch is present.</source>
           <target state="translated">또한 –whatif 스위치가 있으면 작업이 실행되지 않고 노드의 상태가 변경되지 않는지 확인합니다.</target>         
         </trans-unit>
-        <trans-unit id="248" translate="yes" xml:space="preserve">
+        <trans-unit id="249" translate="yes" xml:space="preserve">
           <source>For example, let’s assume we are testing File resource.</source>
           <target state="translated">예를 들어 파일 리소스를 테스트한다고 가정해 보겠습니다.</target>         
         </trans-unit>
-        <trans-unit id="249" translate="yes" xml:space="preserve">
+        <trans-unit id="250" translate="yes" xml:space="preserve">
           <source>Below is simple configuration which creates file “test.txt” with contents “test”:</source>
           <target state="translated">다음은 "test" 콘텐츠로 "test.txt" 파일을 만드는 간단한 구성입니다.</target>         
         </trans-unit>
-        <trans-unit id="250" translate="yes" xml:space="preserve">
+        <trans-unit id="251" translate="yes" xml:space="preserve">
           <source>If we compile and then execute the configuration with the –whatif switch, the output is telling us exactly what would happen when we run the configuration.</source>
           <target state="translated">–whatif 스위치를 사용하여 구성을 컴파일한 다음 실행하면 출력에서 구성을 실행할 때 수행된 작업을 정확하게 알려줍니다.</target>         
         </trans-unit>
-        <trans-unit id="251" translate="yes" xml:space="preserve">
+        <trans-unit id="252" translate="yes" xml:space="preserve">
           <source>The configuration itself however was not executed (test.txt file was not created).</source>
           <target state="translated">그러나 구성 자체는 실행되지 않았습니다. test.txt 파일이 생성되지 않았습니다.</target>         
         </trans-unit>
-        <trans-unit id="252" translate="yes" xml:space="preserve">
+        <trans-unit id="253" translate="yes" xml:space="preserve">
           <source>This wraps up our checklist.</source>
           <target state="translated">이것으로 검사 목록을 마치겠습니다.</target>         
         </trans-unit>
-        <trans-unit id="253" translate="yes" xml:space="preserve">
+        <trans-unit id="254" translate="yes" xml:space="preserve">
           <source>Please keep in mind that this list is not exhaustive, but it covers many important issues which we encountered while designing, developing and testing DSC resources.</source>
           <target state="translated">이 목록은 완벽하지는 않지만 DSC 리소스를 디자인, 개발 및 테스트하는 동안 발생할 수 있는 여러 가지 중요한 문제를 다루고 있습니다.</target>         
         </trans-unit>
-        <trans-unit id="254" translate="yes" xml:space="preserve">
+        <trans-unit id="255" translate="yes" xml:space="preserve">
           <source>Having a checklist helps to ensure we didn’t forget about any of those aspects and in fact, we use it at Microsoft when developing DSC resources ourselves.</source>
           <target state="translated">이 검사 목록이 있으면 이러한 측면을 기억하는 데 도움이 되며 실제로 Microsoft에서 직접 DSC 리소스를 개발할 때 사용할 수 있습니다.</target>         
         </trans-unit>
-        <trans-unit id="255" translate="yes" xml:space="preserve">
+        <trans-unit id="256" translate="yes" xml:space="preserve">
           <source>If you developed guidelines and best practices which you use for writing and testing DSC resources, please share them!</source>
           <target state="translated">DSC 리소스를 작성하고 테스트하는 데 사용하는 지침 및 모범 사례를 개발한 경우 공유해 보세요.</target>         
         </trans-unit>
       </group>
     </body>
   </file>
-  <header xmlns="">
-    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">291df6b35ab58b5616aebbe412362ef8cc4c2279</xliffext:olfilehash>
-  </header>
 </xliff>
