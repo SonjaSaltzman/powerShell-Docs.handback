@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" target-language="pt-br">
+  <file datatype="xml" original="md" source-language="en-US" target-language="pt-br">
+    <header>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0959c2576a82b63e814b73a95a085e5512c0726f</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-e76445a" tool-company="Microsoft" />
+    </header>
     <body>
-      <group id="main" extype="content">
+      <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
           <source>Debugging DSC resources</source>
           <target state="translated">Depurando os recursos de DSC</target>         
@@ -24,12 +28,12 @@
           <target state="translated">Para poder depurar um recurso, é preciso habilitar a depuração chamando o cmdlet <bpt id="p1">[</bpt>Enable-DscDebug<ept id="p1">](https://technet.microsoft.com/en-us/library/mt517870.aspx)</ept>.</target>         
         </trans-unit>
         <trans-unit id="106" translate="yes" xml:space="preserve">
-          <source>This cmdlet takes a mandatory parameter, <bpt id="p2">**</bpt>BreakAll<ept id="p2">**</ept>.</source>
-          <target state="translated">Esse cmdlet usa um parâmetro obrigatório, o <bpt id="p2">**</bpt>BreakAll<ept id="p2">**</ept>.</target>         
+          <source>This cmdlet takes a mandatory parameter, <bpt id="p1">**</bpt>BreakAll<ept id="p1">**</ept>.</source>
+          <target state="translated">Esse cmdlet usa um parâmetro obrigatório, o <bpt id="p1">**</bpt>BreakAll<ept id="p1">**</ept>.</target>         
         </trans-unit>
         <trans-unit id="107" translate="yes" xml:space="preserve">
-          <source>You can verify that debugging has been enabled by looking at the result of a call to <bpt id="p3">[</bpt>Get-DscLocalConfigurationManager<ept id="p3">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept>.</source>
-          <target state="translated">É possível verificar se a depuração foi habilitada analisando o resultado de uma chamada para o <bpt id="p3">[</bpt>Get-DscLocalConfigurationManager<ept id="p3">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept>.</target>         
+          <source>You can verify that debugging has been enabled by looking at the result of a call to <bpt id="p1">[</bpt>Get-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept>.</source>
+          <target state="translated">É possível verificar se a depuração foi habilitada analisando o resultado de uma chamada para o <bpt id="p1">[</bpt>Get-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept>.</target>         
         </trans-unit>
         <trans-unit id="108" translate="yes" xml:space="preserve">
           <source>The following PowerShell output shows the result of enabling debugging:</source>
@@ -44,55 +48,90 @@
           <target state="translated">Para depurar um recurso de DSC, inicie uma configuração que chame esse recurso.</target>         
         </trans-unit>
         <trans-unit id="111" translate="yes" xml:space="preserve">
-          <source>For this example, we'll look at a simple configuration that calls the <bpt id="p4">[</bpt>WindowsFeature<ept id="p4">](windowsfeatureResource.md)</ept> resource to ensure that the "WindowsPowerShellWebAccess" feature is installed:</source>
-          <target state="translated">Para este exemplo, analisaremos uma configuração simples que chame o recurso <bpt id="p4">[</bpt>WindowsFeature<ept id="p4">](windowsfeatureResource.md)</ept> a fim de garantir que o recurso "WindowsPowerShellWebAccess" seja instalado:</target>         
+          <source>For this example, we'll look at a simple configuration that calls the <bpt id="p1">[</bpt>WindowsFeature<ept id="p1">](windowsfeatureResource.md)</ept> resource to ensure that the "WindowsPowerShellWebAccess" feature is installed:</source>
+          <target state="translated">Para este exemplo, analisaremos uma configuração simples que chame o recurso <bpt id="p1">[</bpt>WindowsFeature<ept id="p1">](windowsfeatureResource.md)</ept> a fim de garantir que o recurso "WindowsPowerShellWebAccess" seja instalado:</target>         
         </trans-unit>
         <trans-unit id="112" translate="yes" xml:space="preserve">
-          <source>After compiling the configuration, start it by calling <bpt id="p5">[</bpt>Start-DscConfiguration<ept id="p5">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept>.</source>
-          <target state="translated">Depois de compilar a configuração, inicie chamando <bpt id="p5">[</bpt>Start-DscConfiguration<ept id="p5">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept>.</target>         
+          <source>After compiling the configuration, start it by calling <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept>.</source>
+          <target state="translated">Depois de compilar a configuração, inicie chamando <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept>.</target>         
         </trans-unit>
         <trans-unit id="113" translate="yes" xml:space="preserve">
-          <source>The configuration will stop when the
-Local Configuration Manager (LCM) calls into the first resoure in the configuration.</source>
-          <target state="translated">A configuração parará quando o
-Gerenciador de Configurações Local (LCM) chamar o primeiro recurso na configuração.</target>         
+          <source>The configuration will stop when the</source>
+          <target state="translated">A configuração parará quando o</target>         
         </trans-unit>
         <trans-unit id="114" translate="yes" xml:space="preserve">
-          <source>If you use the <ph id="ph1">`-Verbose`</ph> and <ph id="ph2">`-Wait`</ph> parameters, the output displays the lines you need to enter
-to start debugging.</source>
-          <target state="translated">Se você usar os parâmetros <ph id="ph1">`-Verbose`</ph> e <ph id="ph2">`-Wait`</ph>, a saída exibirá as linhas que você precisa inserir
-para iniciar a depuração.</target>         
+          <source>Local Configuration Manager (LCM) calls into the first resoure in the configuration.</source>
+          <target state="translated">Gerenciador de Configurações Local (LCM) chamar o primeiro recurso na configuração.</target>         
         </trans-unit>
         <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If you use the <ph id="ph1">`-Verbose`</ph> and <ph id="ph2">`-Wait`</ph> parameters, the output displays the lines you need to enter</source>
+          <target state="translated">Se você usar os parâmetros <ph id="ph1">`-Verbose`</ph> e <ph id="ph2">`-Wait`</ph>, a saída exibirá as linhas que você precisa inserir</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>to start debugging.</source>
+          <target state="translated">para iniciar a depuração.</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
           <source>At this point, the LCM has called the resource, and come to the first break point.</source>
           <target state="translated">Nesse ponto, o LCM chama o recurso e vai até o primeiro ponto de interrupção.</target>         
         </trans-unit>
-        <trans-unit id="116" translate="yes" xml:space="preserve">
+        <trans-unit id="118" translate="yes" xml:space="preserve">
           <source>The last three lines in the output show you how to attach to the process and start debugging the resource script.</source>
           <target state="translated">As três últimas linhas na saída mostram como anexar ao processo e iniciar a depuração do script do recurso.</target>         
         </trans-unit>
-        <trans-unit id="117" translate="yes" xml:space="preserve">
+        <trans-unit id="119" translate="yes" xml:space="preserve">
           <source>Debugging the resource script</source>
           <target state="translated">Depurando o script de recurso</target>         
         </trans-unit>
-        <trans-unit id="118" translate="yes" xml:space="preserve">
+        <trans-unit id="120" translate="yes" xml:space="preserve">
           <source>Start a new instance of the PowerShell ISE.</source>
           <target state="translated">Inicie uma nova instância do ISE do PowerShell.</target>         
         </trans-unit>
-        <trans-unit id="119" translate="yes" xml:space="preserve">
-          <source>In the console pane, enter the last three lines of output from the <ph id="ph3">`Start-DscConifiguration`</ph> output as commands, replacing <ph id="ph4">`&lt;credentials&gt;`</ph> with
-valid user credentials.</source>
-          <target state="translated">No painel do console, digite as três últimas linhas de saída da saída <ph id="ph3">`Start-DscConifiguration`</ph> como comandos, substituindo <ph id="ph4">`&lt;credentials&gt;`</ph> por
-credenciais de usuário válidas.</target>         
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In the console pane, enter the last three lines of output from the <ph id="ph1">`Start-DscConifiguration`</ph> output as commands, replacing <ph id="ph2">`&lt;credentials&gt;`</ph> with</source>
+          <target state="translated">No painel do console, digite as três últimas linhas de saída da saída <ph id="ph1">`Start-DscConifiguration`</ph> como comandos, substituindo <ph id="ph2">`&lt;credentials&gt;`</ph> por</target>         
         </trans-unit>
-        <trans-unit id="120" translate="yes" xml:space="preserve">
-          <source>Here is the resulting output.</source>
-          <target state="translated">Esta é a saída resultante.</target>         
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>valid user credentials.</source>
+          <target state="translated">credenciais de usuário válidas.</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You should now see a prompt that looks similar to:</source>
+          <target state="translated">Agora você verá um prompt semelhante a:</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The resource script will open in the script pane, and the debugger is stopped at the first line of the <bpt id="p1">**</bpt>Test-TargetResource<ept id="p1">**</ept> function (the <bpt id="p2">**</bpt>Test()<ept id="p2">**</ept> method of a class-based resource).</source>
+          <target state="translated">O script de recurso será aberto no painel de script e o depurador será interrompido na primeira linha da função <bpt id="p1">**</bpt>Test-TargetResource<ept id="p1">**</ept> (o método <bpt id="p2">**</bpt>Test()<ept id="p2">**</ept> de um recurso baseado em classe).</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Now you can use the debug commands in the ISE to step through the resource script, look at variable values, view the call stack, and so on.</source>
+          <target state="translated">Agora você pode usar os comandos de depuração no ISE para percorrer o script de recurso, examinar os valores das variáveis, exibir a pilha de chamadas e assim por diante.</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For information about debugging in the PowerShell ISE,</source>
+          <target state="translated">Para obter informações sobre a depuração com o ISE do PowerShell,</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>see <bpt id="p1">[</bpt>How to Debug Scripts in Windows PowerShell ISE<ept id="p1">](https://technet.microsoft.com/en-us/library/dd819480.aspx)</ept>.</source>
+          <target state="translated">veja <bpt id="p1">[</bpt>Como depurar scripts no ISE do Windows PowerShell<ept id="p1">](https://technet.microsoft.com/en-us/library/dd819480.aspx)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Remember that every line in the resource script (or class) is set as a break point.</source>
+          <target state="translated">Lembre-se de que toda linha no script de recurso (ou classe) é definida como um ponto de interrupção.</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">Consulte Também</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Writing a custom DSC resource with MOF</source>
+          <target state="translated">Escrevendo um recurso personalizado de DSC com MOF</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Writing a custom DSC resource with PowerShell classes</source>
+          <target state="translated">Escrevendo um recurso personalizado de DSC com classes do PowerShell</target>         
         </trans-unit>
       </group>
     </body>
   </file>
-  <header xmlns="">
-    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5740ae503616927c717ce17ce3d1ae146a88c411</xliffext:olfilehash>
-  </header>
 </xliff>
