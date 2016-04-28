@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="md" source-language="en-US" target-language="ko-kr">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">df17a2af726925e59275f2ecabf702c105b0cdc8</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1457980" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Setting up a DSC web pull server</source>
+          <target state="translated">DSC 웹 끌어오기 서버 설정</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 5.0</source>
+          <target state="translated">적용 대상: Windows PowerShell 5.0</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>A DSC web pull server is a web service in IIS that uses an OData interface to make DSC configuration files available to target nodes when those nodes ask for them.</source>
+          <target state="translated">DSC 웹 끌어오기 서버는 해당 노드에서 요청하면 OData 인터페이스를 사용하여 DSC 구성 파일을 대상 노드에 사용할 수 있도록 하는 IIS의 웹 서비스입니다.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Requirements for using a pull server:</source>
+          <target state="translated">끌어오기 서버 사용을 위한 요구 사항:</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>A server running:</source>
+          <target state="translated">다음 항목을 실행 중인 서버:</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>WMF/PowerShell 5.0 or greater</source>
+          <target state="translated">WMF/PowerShell 5.0 이상</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>IIS server role</source>
+          <target state="translated">IIS 서버 역할</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>DSC Service</source>
+          <target state="translated">DSC 서비스</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Ideally, some means of generating a certificate, to secure credentials passed to the Local Configuration Manager (LCM) on target nodes</source>
+          <target state="translated">인증서를 생성하여 대상 노드에서 LCM(로컬 구성 관리자)에 전달된 자격 증명을 보호할 방법이 있으면 가장 좋습니다.</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can add the IIS server role and DSC Service with the Add Roles and Features wizard in Server Manager, or by using PowerShell.</source>
+          <target state="translated">서버 관리자에서 역할 및 기능 추가 마법사를 사용하거나 PowerShell을 사용하여 IIS 서버 역할 및 DSC 서비스를 추가할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The sample scripts included in this topic will handle both of these steps for you as well.</source>
+          <target state="translated">이 항목에 포함된 샘플 스크립트는 이 두 단계를 모두 처리하게 됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Using the xWebService resource</source>
+          <target state="translated">xWebService 리소스 사용</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The easiest way to set up a web pull server is to use the xWebService resource, included in the xPSDesiredStateConfiguration module.</source>
+          <target state="translated">웹 끌어오기 서버를 설정하는 가장 쉬운 방법은 xPSDesiredStateConfiguration 모듈에 포함된 xWebService 리소스를 사용하는 것입니다.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The following steps explain how to use the resource in a configuration that sets up the web service.</source>
+          <target state="translated">다음 단계에서는 웹 서비스를 설정하는 구성에서 리소스를 사용하는 방법에 대해 설명합니다.</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Call the <bpt id="p1">[</bpt>Install-Module<ept id="p1">](https://technet.microsoft.com/en-us/library/dn807162.aspx)</ept> cmdlet to install the <bpt id="p2">**</bpt>xPSDesiredStateConfiguration<ept id="p2">**</ept> module.</source>
+          <target state="translated"><bpt id="p1">[</bpt>Install-Module<ept id="p1">](https://technet.microsoft.com/en-us/library/dn807162.aspx)</ept> cmdlet을 호출하여 <bpt id="p2">**</bpt>xPSDesiredStateConfiguration<ept id="p2">**</ept> 모듈을 설치하세요.</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: <bpt id="p2">**</bpt>Install-Module<ept id="p2">**</ept> is included in the <bpt id="p3">**</bpt>PowerShellGet<ept id="p3">**</ept> module, which is included in PowerShell 5.0.</source>
+          <target state="translated"><bpt id="p1">**</bpt>참고<ept id="p1">**</ept>: <bpt id="p2">**</bpt>Install-Module<ept id="p2">**</ept>은 PowerShell 5.0에 포함된 <bpt id="p3">**</bpt>PowerShellGet<ept id="p3">**</ept> 모듈에 포함되어 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can download the <bpt id="p1">**</bpt>PowerShellGet<ept id="p1">**</ept> module for PowerShell 3.0 and 4.0 at <bpt id="p2">[</bpt>PackageManagement PowerShell Modules Preview<ept id="p2">](https://www.microsoft.com/en-us/download/details.aspx?id=49186)</ept>.</source>
+          <target state="translated"><bpt id="p2">[</bpt>PackageManagement PowerShell 모듈 미리 보기<ept id="p2">](https://www.microsoft.com/en-us/download/details.aspx?id=49186)</ept>에서 PowerShell 3.0 및 4.0용 <bpt id="p1">**</bpt>PowerShellGet<ept id="p1">**</ept> 모듈을 다운로드할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Get an SSL certificate for the DSC Pull server from a trusted Certificate Authority, either within your orgnaization or a public authority.</source>
+          <target state="translated">조직 내 또는 공공 기관 내의 신뢰할 수 있는 인증 기관에서 DSC 끌어오기 서버에 대한 SSL 인증서를 가져옵니다.</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The certificate recieved from the authority is usually in the PFX format.</source>
+          <target state="translated">기관에서 받은 인증서는 일반적으로 PFX 형식입니다.</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Install the certificate on the node that will become the DSC Pull server in the default location which should be CERT:\LocalMachine\My.</source>
+          <target state="translated">DSC 끌어오기 서버 역할을 할 노드에서 기본 위치 CERT:\LocalMachine\My에 인증서를 설치합니다.</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Make a note of the certificate thumbprint.</source>
+          <target state="translated">인증서 지문을 기록해 둡니다.</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Select a GUID to be used as the Registration Key.</source>
+          <target state="translated">등록 키로 사용할 GUID를 선택합니다.</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To generate one using PowerShell enter the following at the PS prompt and press enter: '<ph id="ph1">``` [guid]::newGuid()```</ph>'.</source>
+          <target state="translated">PowerShell을 사용하여 생성하려면 PS 프롬프트에 '<ph id="ph1">``` [guid]::newGuid()```</ph>'를 입력하고 Enter 키를 누릅니다.</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This key will be used by client nodes as a shared key to authenticate during registration.</source>
+          <target state="translated">이 키는 클라이언트 노드에서 등록할 때 인증할 공유 키로 사용됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For more information see <bpt id="p1">[</bpt>Registration Key<ept id="p1">](#RegKey)</ept> section below.</source>
+          <target state="translated">자세한 내용은 아래의 <bpt id="p1">[</bpt>등록 키<ept id="p1">](#RegKey)</ept> 섹션을 참조하세요.</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>In the PowerShell ISE, start (F5) the following configuration script (included in the Example folder of the  <bpt id="p1">**</bpt>xPSDesiredStateConfiguration<ept id="p1">**</ept> module as Sample_xDscWebService.ps1).</source>
+          <target state="translated">PowerShell ISE에서 다음의 구성 스크립트(<bpt id="p1">**</bpt>xPSDesiredStateConfiguration<ept id="p1">**</ept> 모듈의 예제 폴더에 Sample_xDscWebService.ps1로 포함됨)를 시작합니다(F5).</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This script sets up the pull server.</source>
+          <target state="translated">이 스크립트는 끌어오기 서버를 설정합니다.</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Run the configuration, passing the thumbprint of the SSL certificate as the <bpt id="p1">**</bpt>certificateThumbPrint<ept id="p1">**</ept> parameter and a GUID registration key as the <bpt id="p2">**</bpt>RegistrationKey<ept id="p2">**</ept> parameter:</source>
+          <target state="translated">구성을 실행합니다. 이때 SSL 인증서의 지문을 <bpt id="p1">**</bpt>certificateThumbPrint<ept id="p1">**</ept> 매개 변수로 전달하고 GUID 등록 키를 <bpt id="p2">**</bpt>RegistrationKey<ept id="p2">**</ept> 매개 변수로 전달합니다.</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Registration Key</source>
+          <target state="translated">등록 키</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To allow client nodes to register with the server so that they can use configuration names instead of a configuration ID, a registration key which was created by the above configuration is saved in a file named <ph id="ph1">`RegistrationKeys.txt`</ph> in <ph id="ph2">`C:\Program Files\WindowsPowerShell\DscService`</ph>.</source>
+          <target state="translated">구성 ID 대신 구성 이름을 사용할 수 있도록 클라이언트 노드가 서버에 등록할 수 있도록 하려면 위 구성에서 만든 등록 키가 <ph id="ph2">`C:\Program Files\WindowsPowerShell\DscService`</ph>에서 <ph id="ph1">`RegistrationKeys.txt`</ph>라는 파일에 저장되어 있어야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The registration key functions as a shared secret used during the initial registration by the client with the pull server.</source>
+          <target state="translated">등록 키는 끌어오기 서버에 클라이언트를 처음 등록할 때 사용되는 공유 암호 역할을 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The client will generate a self-signed certificate which is used to uniquely authenticate to the pull server once registration is successfully completed.</source>
+          <target state="translated">클라이언트는 등록이 완료되면 끌어오기 서버에 고유하게 인증하는 데 사용되는 자체 서명된 인증서를 생성합니다.</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The thumbprint of the this certificate is stored locally and associated with the URL of the pull server.</source>
+          <target state="translated">이 지문의 인증서는 로컬에 저장되고 끌어오기 서버의 URL에 연결됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: Registration keys are not supported in PowerShell 4.0.</source>
+          <target state="translated"><bpt id="p1">**</bpt>참고<ept id="p1">**</ept>: PowerShell 4.0에서는 등록 키가 지원되지 않습니다.</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>In order to configure the a node to authenticate with the pull server the registration key needs to be in the metaconfiguration for any target node that will be registering with this pull server.</source>
+          <target state="translated">끌어오기 서버에 인증하도록 노드를 구성하려면 이 끌어오기 서버에 등록할 모든 대상 노드의 메타 구성에 등록 키가 있어야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Note that the <bpt id="p1">**</bpt>RegistrationKey<ept id="p1">**</ept> in the metaconfiguration below is removed after the target machine has successfully registered, and that the value '140a952b-b9d6-406b-b416-e0f759c9c0e4' must match the value stored in the RegistrationKeys.txt file on the pull server.</source>
+          <target state="translated">아래 메타 구성에서 <bpt id="p1">**</bpt>RegistrationKey<ept id="p1">**</ept>는 대상 컴퓨터가 등록된 후 제거되며 '140a952b-b9d6-406b-b416-e0f759c9c0e4' 값은 끌어오기 서버의 RegistrationKeys.txt 파일에 저장된 값과 일치해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Always treat the registration key value securely, because knowing it allows any target machine to register with the pull server.</source>
+          <target state="translated">등록 키 값을 알면 대상 컴퓨터가 끌어오기 서버에 등록할 수 있으므로 등록 키 값을 항상 안전하게 보관하세요.</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: The <bpt id="p2">**</bpt>ReportServerWeb<ept id="p2">**</ept> section allows reporting data to be sent to the pull server.</source>
+          <target state="translated"><bpt id="p1">**</bpt>참고<ept id="p1">**</ept>: <bpt id="p2">**</bpt>ReportServerWeb<ept id="p2">**</ept> 섹션을 사용하면 보고 데이터를 끌어오기 서버로 보낼 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The lack of the <bpt id="p1">**</bpt>ConfigurationID<ept id="p1">**</ept> property in the metaconfiguration file implicitly means that pull server is supporting the V2 version of the pull server protocol so an initial registration is required.</source>
+          <target state="translated">메타 구성 파일에 <bpt id="p1">**</bpt>ConfigurationID<ept id="p1">**</ept> 속성이 없으면 끌어오기 서버가 V2 버전의 끌어오기 서버 프로토콜을 지원하므로 초기 등록이 필요하다는 의미입니다.</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Conversely, the presents of a <bpt id="p1">**</bpt>ConfigurationID<ept id="p1">**</ept> means that the V1 version of the pull server protocol is used and there is no registration processing.</source>
+          <target state="translated">반대로 <bpt id="p1">**</bpt>ConfigurationID<ept id="p1">**</ept>가 있으면 V1 버전의 끌어오기 서버 프로토콜이 사용되고 등록 처리가 없습니다.</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: In a PUSH scenario, a bug exists in the current relase that makes it necessary to define a ConfigurationID property in the metaconfiguration file for nodes that have never registered with a pull server.</source>
+          <target state="translated"><bpt id="p1">**</bpt>참고<ept id="p1">**</ept>: 밀어넣기 시나리오에서 현재 릴리스에는 끌어오기 서버에 등록하지 않는 노드에 대한 ConfigurationID 속성을 메타 구성 파일에 정의해야 하는 버그가 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This will force the V1 Pull Server protocol and avoid registration failure messages.</source>
+          <target state="translated">따라서 V1 끌어오기 서버 프로토콜이 강제로 사용되고 등록 실패 메시지가 표시되지 않습니다.</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Placing configurations and resources</source>
+          <target state="translated">구성 및 리소스 배치</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>After the pull server setup completes, the folders defined by the <bpt id="p1">**</bpt>ConfigurationPath<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ModulePath<ept id="p2">**</ept> properties in the pull server configuration are where you will place modules and configurations that will be available for target nodes to pull.</source>
+          <target state="translated">끌어오기 서버 설정이 완료되면 끌어오기 서버 구성의 <bpt id="p1">**</bpt>ConfigurationPath<ept id="p1">**</ept> 및 <bpt id="p2">**</bpt>ModulePath<ept id="p2">**</ept> 속성에 정의된 폴더에 끌어올 대상 노드에 사용할 수 있는 모듈 및 구성을 배치합니다.</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>These files need to be in a specific format in order for the pull server to correctly process them.</source>
+          <target state="translated">이러한 파일은 특정 형식이어야만 끌어오기 서버에서 올바로 처리할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>DSC resource module package format</source>
+          <target state="translated">DSC 리소스 모듈 패키지 형식</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Each resource module needs to be zipped and named according the the following pattern <bpt id="p1">**</bpt>{Module Name}_{Module Version}.zip<ept id="p1">**</ept>.</source>
+          <target state="translated">각 리소스 모듈은 압축해야 하며 <bpt id="p1">**</bpt>{모듈 이름}_{모듈 버전}.zip<ept id="p1">**</ept> 패턴으로 이름을 지정해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For example, a module named xWebAdminstration with a module version of 3.1.2.0 would be named 'xWebAdministration_3.2.1.0.zip'.</source>
+          <target state="translated">예를 들어 모듈 버전이 3.1.2.0인 xWebAdminstration이라는 모듈은 'xWebAdministration_3.2.1.0.zip'으로 이름이 지정됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Each version of a module must be contained in a single zip file.</source>
+          <target state="translated">모듈의 각 버전은 단일 zip 파일에 포함되어야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Since there is only a single version of a resource in each zip file the module format added in WMF 5.0 with support for multiple module versions in a single directory is not supported.</source>
+          <target state="translated">각 zip 파일에 리소스의 단일 버전만 있으므로 단일 디렉터리에서 여러 모듈 버전을 지원하는 WMF 5.0에서 추가된 모듈 형식은 지원되지 않습니다.</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This means that before packaging up DSC resource modules for use with pull server you will need to make a small change to the directory structure.</source>
+          <target state="translated">따라서 끌어오기 서버에서 사용할 DSC 리소스 모듈을 패키징하기 전에 디렉터리 구조를 약간 변경해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The default format of modules containing DSC resource in WMF 5.0 is '{Module Folder}\{Module Version}\DscResources\{DSC Resource Folder}\'.</source>
+          <target state="translated">WMF 5.0에서 DSC 리소스를 포함하는 모듈의 기본 형식은 '{모듈 폴더}\{모듈 버전}\DscResources\{DSC 리소스 폴더}\'입니다.</target>         
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Before packaging up for the pull server simply remove the <bpt id="p1">**</bpt>{Module version}<ept id="p1">**</ept> folder so the path becomes '{Module Folder}\DscResources\{DSC Resource Folder}\'.</source>
+          <target state="translated">끌어오기 서버에 대해 패키징하기 전에 <bpt id="p1">**</bpt>{모듈 버전}<ept id="p1">**</ept> 폴더를 제거하면 되므로 폴더는 '{모듈 폴더}\DscResources\{DSC 리소스 폴더}\'가 됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>With this change, zip the folder as described above and place these zip files in the <bpt id="p1">**</bpt>ModulePath<ept id="p1">**</ept> folder.</source>
+          <target state="translated">이렇게 변경하고 위에서 설명한 대로 폴더를 압축하여 이러한 zip 파일을 <bpt id="p1">**</bpt>ModulePath<ept id="p1">**</ept> 폴더에 배치합니다.</target>         
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Configuration MOF format</source>
+          <target state="translated">구성 MOF 형식</target>         
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>A configuration MOF file needs to be paired with a checksum file so that an LCM on a target node can validate the configuration.</source>
+          <target state="translated">구성 MOF 파일은 대상 노드의 LCM이 구성에 대한 유효성을 검사할 수 있도록 체크섬 파일과 함께 사용해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>To create a checksum, call the <bpt id="p1">[</bpt>New-DSCCheckSum<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521622.aspx)</ept> cmdlet.</source>
+          <target state="translated">체크섬을 만들려면 <bpt id="p1">[</bpt>New-DSCCheckSum<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521622.aspx)</ept> cmdlet을 호출합니다.</target>         
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The cmdlet takes a <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter that specifies the folder where the configuration MOF is located.</source>
+          <target state="translated">이 cmdlet은 구성 MOF가 있는 폴더를 지정하는 <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> 매개 변수를 사용합니다.</target>         
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The cmdlet creates a checksum file named <ph id="ph1">`ConfigurationMOFName.mof.checksum`</ph>, where <ph id="ph2">`ConfigurationMOFName`</ph> is the name of the configuration mof file.</source>
+          <target state="translated">cmdlet은 <ph id="ph1">`ConfigurationMOFName.mof.checksum`</ph>이라는 체크섬 파일을 만들며, 여기서 <ph id="ph2">`ConfigurationMOFName`</ph>은 구성 mof 파일의 이름입니다.</target>         
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If there are more than one configuration MOF files in the specified folder, a checksum is created for each configuration in the folder.</source>
+          <target state="translated">지정된 폴더에 구성 MOF 파일이 두 개 이상 있는 경우, 폴더에 있는 각 구성에 대해 체크섬이 만들어집니다.</target>         
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Place the MOF files and their associated checksum files in the the <bpt id="p1">**</bpt>ConfigurationPath<ept id="p1">**</ept> folder.</source>
+          <target state="translated">MOF 파일 및 연관된 체크섬 파일을 <bpt id="p1">**</bpt>ConfigurationPath<ept id="p1">**</ept> 폴더에 배치합니다.</target>         
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: If you change the configuration MOF file in any way, you must also recreate the checksum file.</source>
+          <target state="translated"><bpt id="p1">**</bpt>참고<ept id="p1">**</ept>: 어떤 식으로든 구성 MOF 파일을 변경하는 경우 체크섬 파일도 다시 만들어야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Tooling</source>
+          <target state="translated">도구</target>         
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>In order to make setting up, validating and managing the pull server easier, the following tools are included as examples in the latest version of the xPSDesiredStateConfiguration module:</source>
+          <target state="translated">끌어오기 서버를 더 간단히 설정하고 유효성을 검사하고 관리할 수 있도록 xPSDesiredStateConfiguration 모듈의 최신 버전에는 다음 도구가 예제로 포함되어 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>A module that will help with packaging DSC resource modules and configuration files for use on the pull server.</source>
+          <target state="translated">끌어오기 서버에서 사용할 DSC 리소스 모듈 및 구성 파일을 패키징하는 데 도움이 되는 모듈:</target>         
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>PublishModulesAndMofsToPullServer.psm1<ept id="p1">](https://github.com/PowerShell/xPSDesiredStateConfiguration/blob/dev/DSCPullServerSetup/PublishModulesAndMofsToPullServer.psm1)</ept>.</source>
+          <target state="translated"><bpt id="p1">[</bpt>PublishModulesAndMofsToPullServer.psm1<ept id="p1">](https://github.com/PowerShell/xPSDesiredStateConfiguration/blob/dev/DSCPullServerSetup/PublishModulesAndMofsToPullServer.psm1)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Examples below:</source>
+          <target state="translated">다음은 예제입니다.</target>         
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>A script that validates the Pull Server is configured correctly.</source>
+          <target state="translated">끌어오기 서버가 올바로 구성되었는지 확인하는 스크립트:</target>         
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>PullServerSetupTests.ps1<ept id="p1">](https://github.com/PowerShell/xPSDesiredStateConfiguration/blob/dev/Examples/PullServerDeploymentVerificationTest/PullServerSetupTests.ps1)</ept>.</source>
+          <target state="translated"><bpt id="p1">[</bpt>PullServerSetupTests.ps1<ept id="p1">](https://github.com/PowerShell/xPSDesiredStateConfiguration/blob/dev/Examples/PullServerDeploymentVerificationTest/PullServerSetupTests.ps1)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Pull client configuration</source>
+          <target state="translated">끌어오기 클라이언트 구성</target>         
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The following topics describe setting up pull clients in detail:</source>
+          <target state="translated">다음 항목에서는 끌어오기 클라이언트를 설정하는 것에 대해 자세히 설명합니다.</target>         
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Setting up a DSC pull client using a configuration ID</source>
+          <target state="translated">구성 ID를 사용하여 DSC 끌어오기 클라이언트 설정</target>         
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Setting up a DSC pull client using configuration names</source>
+          <target state="translated">구성 이름을 사용하여 DSC 끌어오기 클라이언트 설정</target>         
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Partial configurations</source>
+          <target state="translated">부분 구성</target>         
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="translated">참고 항목</target>         
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Desired State Configuration Overview</source>
+          <target state="translated">Windows PowerShell 필요한 상태 구성 개요</target>         
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Enacting configurations</source>
+          <target state="translated">구성 시행</target>         
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Using a DSC report server</source>
+          <target state="translated">DSC 보고서 서버 사용</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
