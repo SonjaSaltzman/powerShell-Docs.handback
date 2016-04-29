@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="md" source-language="en-US" target-language="ru-ru">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d3c0a8b3499f566e491c4bf72feea97ccd15a250</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-04046aa" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Managing Processes with Process Cmdlets</source>
+          <target state="translated">Управление процессами с помощью командлетов Process</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Managing Processes with Process Cmdlets</source>
+          <target state="translated">Управление процессами с помощью командлетов Process</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You can use the Process cmdlets in Windows PowerShell to manage local and remote processes in Windows PowerShell.</source>
+          <target state="translated">Командлеты Process в Windows PowerShell позволяют управлять локальными и удаленными процессами в Windows PowerShell.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Getting Processes (Get\-Process)</source>
+          <target state="translated">Получение процессов (Get-Process)</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To get the processes running on the local computer, run a <bpt id="p1">**</bpt>Get\-Process<ept id="p1">**</ept> with no parameters.</source>
+          <target state="translated">Для получения процессов, запущенных на локальном компьютере, выполните <bpt id="p1">**</bpt>Get-Process<ept id="p1">**</ept> без параметров.</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You can get particular processes by specifying their process names or process IDs.</source>
+          <target state="translated">Отдельные процессы можно получить, указав их имена или идентификаторы.</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The following command gets the Idle process:</source>
+          <target state="translated">Следующая команда возвращает процесс Idle:</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Although it is normal for cmdlets to return no data in some situations, when you specify a process by its ProcessId, <bpt id="p1">**</bpt>Get\-Process<ept id="p1">**</ept> generates an error if it finds no matches, because the usual intent is to retrieve a known running process.</source>
+          <target state="translated">То, что в некоторых ситуациях командлеты не возвращают данные, является нормальным. Однако если при указании процесса по его идентификатору <bpt id="p1">**</bpt>Get-Process<ept id="p1">**</ept> не находит совпадений, он выдает ошибку, так как стандартной целью является получение известного выполняющегося процесса.</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If there is no process with that Id, it is likely that the Id is incorrect or that the process of interest has already exited:</source>
+          <target state="translated">Если процесс с указанным идентификатором отсутствует, весьма вероятно, что идентификатор неправильный или нужный процесс уже завершился:</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can use the Name parameter of the Get\-Process cmdlet to specify a subset of processes based on the process name.</source>
+          <target state="translated">Параметр Name командлета Get-Process можно использовать для указания подмножества процессов на основе имени процесса.</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The Name parameter can take multiple names in a comma\-separated list and it supports the use of wildcards, so you can type name patterns.</source>
+          <target state="translated">Параметр Name может принимать несколько имен в виде списка с разделителями-запятыми и поддерживает использование подстановочных знаков, что позволяет задавать шаблоны имен.</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For example, the following command gets process whose names begin with "ex."</source>
+          <target state="translated">Например, следующая команда возвращает процессы, имена которых начинаются с "ex.".</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Because the .NET System.Diagnostics.Process class is the foundation for Windows PowerShell processes, it follows some of the conventions used by System.Diagnostics.Process.</source>
+          <target state="translated">Поскольку класс System.Diagnostics.Process .NET является основой для процессов Windows PowerShell, он удовлетворяет некоторым соглашениям, используемым System.Diagnostics.Process.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>One of those conventions is that the process name for an executable never includes the ".exe" at the end of the executable name.</source>
+          <target state="translated">Одно из таких соглашений требует, чтобы имя процесса для исполняемого файла никогда не содержало ".exe" в конце имени этого файла.</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get\-Process<ept id="p1">**</ept> also accepts multiple values for the Name parameter.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get-Process<ept id="p1">**</ept> также принимает несколько значений для параметра Name.</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can use the ComputerName parameter of Get\-Process to get processes on remote computers.</source>
+          <target state="translated">Параметр ComputerName командлета Get-Process можно использовать для получения процессов на удаленных компьютерах.</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For example, the following command gets the PowerShell processes on the local computer (represented by "localhost") and on two remote computers.</source>
+          <target state="translated">Например, следующая команда получает процессы PowerShell на локальном (представленным "localhost") и двух удаленных компьютерах.</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The computer names are not evident in this display, but they are stored in the MachineName property of the process objects that Get\-Process returns.</source>
+          <target state="translated">Имена компьютеров в этих данных не указаны, однако они хранятся в свойстве MachineName объектов процесса, возвращаемых Get-Process.</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The following command uses the Format\-Table cmdlet to display the process ID, ProcessName and MachineName (ComputerName) properties of the process objects.</source>
+          <target state="translated">Следующая команда использует командлет Format-Table для отображения свойств ID, ProcessName и MachineName (ComputerName) объектов процесса.</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This more complex command adds the MachineName property to the standard Get\-Process display.</source>
+          <target state="translated">Эта более сложная команда добавляет в стандартные отображаемые данные Get-Process свойство MachineName.</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The backtick (\`)(ASCII 96) is the Windows PowerShell continuation character.</source>
+          <target state="translated">Обратный апостроф (`) (ASCII 96) является символом продолжения Windows PowerShell.</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Stopping Processes (Stop\-Process)</source>
+          <target state="translated">Остановка процессов (Stop-Process)</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell gives you flexibility for listing processes, but what about stopping a process?</source>
+          <target state="translated">Windows PowerShell позволяет гибко выводить списки процессов, но как обстоят дела с остановкой процесса?</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Stop\-Process<ept id="p1">**</ept> cmdlet takes a Name or Id to specify a process you want to stop.</source>
+          <target state="translated">Командлет <bpt id="p1">**</bpt>Stop-Process<ept id="p1">**</ept> принимает имя или идентификатор, указывающие останавливаемый процесс.</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Your ability to stop processes depends on your permissions.</source>
+          <target state="translated">Возможность остановки процессов зависит от ваших разрешений.</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Some processes cannot be stopped.</source>
+          <target state="translated">Некоторые процессы остановить нельзя.</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For example, if you try to stop the idle process, you get an error:</source>
+          <target state="translated">Например, при попытке остановить неактивный процесс возникает ошибка:</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You can also force prompting with the <bpt id="p1">**</bpt>Confirm<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Можно также принудительно вывести запрос с помощью параметра <bpt id="p1">**</bpt>Confirm<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This parameter is particularly useful if you use a wildcard when specifying the process name, because you may accidentally match some processes you do not want to stop:</source>
+          <target state="translated">Он особенно удобен при использовании подстановочного знака в имени процесса, так как случайно может быть определено соответствие с некоторыми процессами, которые не нужно останавливать:</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Complex process manipulation is possible by using some of the object filtering cmdlets.</source>
+          <target state="translated">Сложную обработку процессов можно реализовать с помощью командлетов фильтрации объектов.</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Because a Process object has a Responding property that is true when it is no longer responding, you can stop all nonresponsive applications with the following command:</source>
+          <target state="translated">Так как объект Process имеет свойство Responding, которое равно true, если он перестал отвечать, вы можете остановить все неотвечающие приложения с помощью следующей команды:</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You can use the same approach in other situations.</source>
+          <target state="translated">Аналогичный подход возможен и в других ситуациях.</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>For example, suppose a secondary notification area application automatically runs when users start another application.</source>
+          <target state="translated">Предположим, например, что приложение дополнительной области уведомлений запускается автоматически при открытии другого приложения.</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You may find that this does not work correctly in Terminal Services sessions, but you still want to keep it in sessions that run on the physical computer console.</source>
+          <target state="translated">Эта процедура может работать неправильно в сеансах служб терминалов, однако вам все равно нужно сохранить ее в сеансах, выполняемых в консоли физического компьютера.</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Sessions connected to the physical computer desktop always have a session ID of 0, so you can stop all instances of the process that are in other sessions by using <bpt id="p1">**</bpt>Where\-Object<ept id="p1">**</ept> and the process, <bpt id="p2">**</bpt>SessionId<ept id="p2">**</ept>:</source>
+          <target state="translated">Сеансы, подключенные к рабочему столу физического компьютера, всегда имеют идентификатор сеанса 0, поэтому можно остановить все экземпляры процесса, находящиеся в других сеансах, с помощью <bpt id="p1">**</bpt>Where-Object<ept id="p1">**</ept> , <bpt id="p2">**</bpt>SessionId<ept id="p2">**</ept> процесса:</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The Stop\-Process cmdlet does not have a ComputerName parameter.</source>
+          <target state="translated">Командлет Stop-Process не использует параметр ComputerName.</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Therefore, to run a stop process command on a remote computer, you need to use the Invoke\-Command cmdlet.</source>
+          <target state="translated">Поэтому для выполнения команды остановки процесса на удаленном компьютере необходимо использовать командлет Invoke-Command.</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For example, to stop the PowerShell process on the Server01 remote computer, type:</source>
+          <target state="translated">Например, чтобы остановить процесс PowerShell на удаленном компьютере Server01, введите:</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Stopping All Other Windows PowerShell Sessions</source>
+          <target state="translated">Остановка всех остальных сеансов Windows PowerShell</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>It may occasionally be useful to be able to stop all running Windows PowerShell sessions other than the current session.</source>
+          <target state="translated">В некоторых случаях может пригодиться возможность остановки всех выполняющихся сеансов Windows PowerShell, отличных от текущего.</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If a session is using too many resources or is inaccessible (it may be running remotely or in another desktop session), you may not be able to directly stop it.</source>
+          <target state="translated">Если сеанс использует слишком много ресурсов или недоступен (он может выполняться удаленно или в другом сеансе), возможно, остановить его напрямую не получится.</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>If you try to stop all running sessions, however, the current session may be terminated instead.</source>
+          <target state="translated">При попытке остановить все выполняющиеся сеансы может быть завершен текущий сеанс.</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Each Windows PowerShell session has an environment variable PID that contains the Id of the Windows PowerShell process.</source>
+          <target state="translated">Каждый сеанс Windows PowerShell имеет переменную среды PID, содержащую идентификатор процесса Windows PowerShell.</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You can check the $PID against the Id of each session and terminate only Windows PowerShell sessions that have a different Id.</source>
+          <target state="translated">Можно проверить переменную $PID на наличие идентификатора каждого сеанса и завершить только сеансы Windows PowerShell с другим идентификатором.</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The following pipeline command does this and returns the list of terminated sessions (because of the use of the <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter):</source>
+          <target state="translated">Следующая команда конвейера делает именно это и возвращает список завершенных сеансов (из-за использования параметра <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept>):</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Starting, Debugging, and Waiting for Processes</source>
+          <target state="translated">Запуск, отладка и ожидание процессов</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell also comes with cmdlets to start (or restart), debug a process, and wait for a process to complete before running a command.</source>
+          <target state="translated">Windows PowerShell также имеет командлеты для запуска (или перезапуска), отладки процесса и ожидания завершения процесса перед выполнением команды.</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For information about these cmdlets, see the cmdlet help topic for each cmdlet.</source>
+          <target state="translated">Дополнительные сведения об этих командлетах см. в разделах справки по каждому из них.</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">См. также</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Get-Process [m2]</source>
+          <target state="translated">Get-Process [m2]</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Stop-Process [m2]</source>
+          <target state="translated">Stop-Process [m2]</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Start-Process</source>
+          <target state="translated">Start-Process</target>         
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Wait-Process</source>
+          <target state="translated">Wait-Process</target>         
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Debug-Process</source>
+          <target state="translated">Debug-Process</target>         
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Invoke-Command</source>
+          <target state="translated">Invoke-Command</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="md" source-language="en-US" target-language="ja-jp">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d3c0a8b3499f566e491c4bf72feea97ccd15a250</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-04046aa" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Managing Processes with Process Cmdlets</source>
+          <target state="translated">Process コマンドレットによるプロセスの管理</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Managing Processes with Process Cmdlets</source>
+          <target state="translated">Process コマンドレットによるプロセスの管理</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You can use the Process cmdlets in Windows PowerShell to manage local and remote processes in Windows PowerShell.</source>
+          <target state="translated">Windows PowerShell で Process コマンドレットを使用して、Windows PowerShell のローカル プロセスおよびリモート プロセスを管理できます。</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Getting Processes (Get\-Process)</source>
+          <target state="translated">プロセスの取得 (Get-Process)</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To get the processes running on the local computer, run a <bpt id="p1">**</bpt>Get\-Process<ept id="p1">**</ept> with no parameters.</source>
+          <target state="translated">ローカル コンピューターで実行されているプロセスを取得するには、パラメーターを指定せずに <bpt id="p1">**</bpt>Get-Process<ept id="p1">**</ept> を実行します。</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You can get particular processes by specifying their process names or process IDs.</source>
+          <target state="translated">特定のプロセスを取得するには、プロセス名またはプロセス ID を指定します。</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The following command gets the Idle process:</source>
+          <target state="translated">次のコマンドを実行すると、アイドル状態のプロセスを取得できます。</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Although it is normal for cmdlets to return no data in some situations, when you specify a process by its ProcessId, <bpt id="p1">**</bpt>Get\-Process<ept id="p1">**</ept> generates an error if it finds no matches, because the usual intent is to retrieve a known running process.</source>
+          <target state="translated">場合によっては、コマンドレットからデータが返されないこともあります。しかし、<bpt id="p1">**</bpt>Get-Process<ept id="p1">**</ept> で ProcessId を使用してプロセスを指定した場合は、通常、実行中の既知のプロセスを取得することが目的であるため、一致するプロセスが見つからないときはエラーが発生します。</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If there is no process with that Id, it is likely that the Id is incorrect or that the process of interest has already exited:</source>
+          <target state="translated">指定された ID と一致するプロセスが存在しない場合、その ID が間違っているか、プロセスが既に終了している可能性があります。</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can use the Name parameter of the Get\-Process cmdlet to specify a subset of processes based on the process name.</source>
+          <target state="translated">Get-Process コマンドレットの Name パラメーターを使用すると、プロセスのサブセットをプロセス名で指定できます。</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The Name parameter can take multiple names in a comma\-separated list and it supports the use of wildcards, so you can type name patterns.</source>
+          <target state="translated">Name パラメーターでは、コンマ区切り一覧を使用して複数の名前を指定できます。また、ワイルドカードを使用できるため、名前のパターンを入力できます。</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For example, the following command gets process whose names begin with "ex."</source>
+          <target state="translated">たとえば、次のコマンドでは、名前が "ex" で始まるプロセスを取得できます。</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Because the .NET System.Diagnostics.Process class is the foundation for Windows PowerShell processes, it follows some of the conventions used by System.Diagnostics.Process.</source>
+          <target state="translated">.NET System.Diagnostics.Process クラスは、Windows PowerShell のプロセスの基礎となるクラスです。そのため、Windows PowerShell のプロセスには、System.Diagnostics.Process の表記規則の一部が使用されています。</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>One of those conventions is that the process name for an executable never includes the ".exe" at the end of the executable name.</source>
+          <target state="translated">これらの規則の 1 つとして、実行可能ファイルのプロセス名の最後に ".exe" は付きません。</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get\-Process<ept id="p1">**</ept> also accepts multiple values for the Name parameter.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get-Process<ept id="p1">**</ept> の Name パラメーターには、複数の値を指定することもできます。</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can use the ComputerName parameter of Get\-Process to get processes on remote computers.</source>
+          <target state="translated">Get-Process の ComputerName パラメーターを使用すると、リモート コンピューター上のプロセスを取得できます。</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For example, the following command gets the PowerShell processes on the local computer (represented by "localhost") and on two remote computers.</source>
+          <target state="translated">たとえば、次のコマンドでは、ローカル コンピューター ("localhost" で表す) と 2 台のリモート コンピューターの PowerShell プロセスを取得できます。</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The computer names are not evident in this display, but they are stored in the MachineName property of the process objects that Get\-Process returns.</source>
+          <target state="translated">ここではコンピューターの名前は表示されませんが、Get-Process から返されたプロセス オブジェクトの MachineName プロパティに格納されています。</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The following command uses the Format\-Table cmdlet to display the process ID, ProcessName and MachineName (ComputerName) properties of the process objects.</source>
+          <target state="translated">次のコマンドでは、Format-Table コマンドレットを使用して、プロセス オブジェクトのプロセス ID、ProcessName、および MachineName (ComputerName) の各プロパティを表示します。</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This more complex command adds the MachineName property to the standard Get\-Process display.</source>
+          <target state="translated">より複雑なこのコマンドは、Get-Process の標準の表示に MachineName プロパティを追加します。</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The backtick (\`)(ASCII 96) is the Windows PowerShell continuation character.</source>
+          <target state="translated">アクサン グラーブ文字 (`) (ASCII 96) は、Windows PowerShell の連結文字です。</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Stopping Processes (Stop\-Process)</source>
+          <target state="translated">プロセスの停止 (Stop-Process)</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell gives you flexibility for listing processes, but what about stopping a process?</source>
+          <target state="translated">Windows PowerShell では、さまざまな方法でプロセスを一覧表示できますが、プロセスの停止についてはどうでしょうか。</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Stop\-Process<ept id="p1">**</ept> cmdlet takes a Name or Id to specify a process you want to stop.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Stop-Process<ept id="p1">**</ept> コマンドレットでは、停止するプロセスを Name または Id で指定できます。</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Your ability to stop processes depends on your permissions.</source>
+          <target state="translated">プロセスを停止できるかどうかは、ユーザーのアクセス許可によって異なります。</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Some processes cannot be stopped.</source>
+          <target state="translated">停止することのできないプロセスもあります。</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For example, if you try to stop the idle process, you get an error:</source>
+          <target state="translated">たとえば、アイドル状態のプロセスを停止しようとすると、エラーが発生します。</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You can also force prompting with the <bpt id="p1">**</bpt>Confirm<ept id="p1">**</ept> parameter.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Confirm<ept id="p1">**</ept> パラメーターを使用して、確認メッセージを強制的に表示することもできます。</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This parameter is particularly useful if you use a wildcard when specifying the process name, because you may accidentally match some processes you do not want to stop:</source>
+          <target state="translated">ワイルドカードを使ってプロセス名を指定する場合、停止する必要のないプロセスに誤って一致する可能性があるため、このパラメーターは特に便利です。</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Complex process manipulation is possible by using some of the object filtering cmdlets.</source>
+          <target state="translated">オブジェクトのフィルター処理コマンドレットを使用すれば、複雑なプロセス操作を行うこともできます。</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Because a Process object has a Responding property that is true when it is no longer responding, you can stop all nonresponsive applications with the following command:</source>
+          <target state="translated">Process オブジェクトには、応答がない場合に True を返す Responding プロパティがあります。したがって、次のコマンドを使用すると、応答のないアプリケーションをすべて停止できます。</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You can use the same approach in other situations.</source>
+          <target state="translated">他の状況でも、これと同じアプローチを使用できます。</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>For example, suppose a secondary notification area application automatically runs when users start another application.</source>
+          <target state="translated">たとえば、あるアプリケーションを起動すると、補助的なアプリケーションが自動的に実行され、通知領域に表示されるとします。</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You may find that this does not work correctly in Terminal Services sessions, but you still want to keep it in sessions that run on the physical computer console.</source>
+          <target state="translated">このとき、ターミナル サービスのセッションで補助的なアプリケーションが正しく起動しないことがわかりました。しかし、物理的なコンピューター コンソールで実行されているセッションでは起動したままにしておく必要があります。</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Sessions connected to the physical computer desktop always have a session ID of 0, so you can stop all instances of the process that are in other sessions by using <bpt id="p1">**</bpt>Where\-Object<ept id="p1">**</ept> and the process, <bpt id="p2">**</bpt>SessionId<ept id="p2">**</ept>:</source>
+          <target state="translated">物理的なコンピューター デスクトップに関連付けられたセッションには、常にセッション ID として 0 が割り当てられます。したがって、<bpt id="p1">**</bpt>Where-Object<ept id="p1">**</ept> およびプロセスの <bpt id="p2">**</bpt>SessionId<ept id="p2">**</ept> を使用することで、その他のセッションに属するプロセスのすべてのインスタンスを停止できます。</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The Stop\-Process cmdlet does not have a ComputerName parameter.</source>
+          <target state="translated">Stop-Process コマンドレットには、ComputerName パラメーターがありません。</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Therefore, to run a stop process command on a remote computer, you need to use the Invoke\-Command cmdlet.</source>
+          <target state="translated">そのため、リモート コンピューター上でプロセスを停止するコマンドを実行するには、Invoke-Command コマンドレットを使用します。</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For example, to stop the PowerShell process on the Server01 remote computer, type:</source>
+          <target state="translated">たとえば、リモート コンピューター Server01 上で PowerShell プロセスを停止するには、次のように入力します。</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Stopping All Other Windows PowerShell Sessions</source>
+          <target state="translated">他のすべての Windows PowerShell セッションの停止</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>It may occasionally be useful to be able to stop all running Windows PowerShell sessions other than the current session.</source>
+          <target state="translated">現在のセッションを除いて、実行中のすべての Windows PowerShell セッションを停止できると便利な場合があります。</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If a session is using too many resources or is inaccessible (it may be running remotely or in another desktop session), you may not be able to directly stop it.</source>
+          <target state="translated">特定のセッションで大量のリソースが消費されていたり、セッションがアクセスできない状態になっている場合 (リモートから実行されていたり、別のデスクトップ セッションで使用されている場合など)、そのプロセスを直接停止できない場合があります。</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>If you try to stop all running sessions, however, the current session may be terminated instead.</source>
+          <target state="translated">しかし、実行中のすべてのセッションを停止しようとすると、現在のセッションまで停止されてしまう可能性があります。</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Each Windows PowerShell session has an environment variable PID that contains the Id of the Windows PowerShell process.</source>
+          <target state="translated">Windows PowerShell の各セッションには、Windows PowerShell プロセスの ID を保持する環境変数 PID が割り当てられます。</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You can check the $PID against the Id of each session and terminate only Windows PowerShell sessions that have a different Id.</source>
+          <target state="translated">$PID と各セッションの ID を照合することによって、異なる ID を持つ Windows PowerShell セッションだけを強制終了できます。</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The following pipeline command does this and returns the list of terminated sessions (because of the use of the <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter):</source>
+          <target state="translated">これは、次のパイプライン コマンドで実現できます。また、<bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> パラメーターを使用しているため、強制終了されたセッションが一覧表示されます。</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Starting, Debugging, and Waiting for Processes</source>
+          <target state="translated">プロセスの開始、デバッグ、待機</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell also comes with cmdlets to start (or restart), debug a process, and wait for a process to complete before running a command.</source>
+          <target state="translated">Windows PowerShell には、プロセスを開始 (または再開) するためのコマンドレット、プロセスのデバッグ用コマンドレット、コマンドを実行する前にプロセスが完了するまで待機するためのコマンドレットが用意されています。</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For information about these cmdlets, see the cmdlet help topic for each cmdlet.</source>
+          <target state="translated">これらのコマンドレットについては、各コマンドレットのヘルプ トピックをご覧ください。</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">参照</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Get-Process [m2]</source>
+          <target state="translated">Get-Process [m2]</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Stop-Process [m2]</source>
+          <target state="translated">Stop-Process [m2]</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Start-Process</source>
+          <target state="translated">Start-Process</target>         
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Wait-Process</source>
+          <target state="translated">Wait-Process</target>         
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Debug-Process</source>
+          <target state="translated">Debug-Process</target>         
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Invoke-Command</source>
+          <target state="translated">Invoke-Command</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
