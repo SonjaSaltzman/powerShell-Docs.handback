@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="md" source-language="en-US" target-language="ja-jp">
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Getting Started with PowerShell Desired State Configuration</source>
+          <target state="translated">PowerShell Desired State Configuration の概要</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This guide describes how to begin creating PowerShell Desired State Configuration documents and apply them to machines.</source>
+          <target state="translated">このガイドでは、PowerShell Desired State Configuration ドキュメントの作成を開始し、マシンに適用する方法について説明します。</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>It assumes basic familiarity with PowerShell cmdlets, modules, and functions.</source>
+          <target state="translated">PowerShell コマンドレット、モジュール、および関数の基礎知識があることを前提とします。</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Create a Configuration</source>
+          <target state="translated">構成の作成</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;ctype="x-NOTFOUND" mdpre="[" mdpost="](https://msdn.microsoft.com/en-us/powershell/dsc/configurations)"&gt;</bpt><bpt id="p2">&lt;ctype="x-NOTFOUND" mdpre="**" mdpost="**"&gt;</bpt>Configurations<ept id="p2">&lt;/ctype="x-NOTFOUND"&gt;</ept><ept id="p1">&lt;/ctype="x-NOTFOUND"&gt;</ept> are documents that describe an environment.</source>
+          <target state="translated"><bpt id="p1">&lt;ctype="x-NOTFOUND" mdpre="[" mdpost="](https://msdn.microsoft.com/en-us/powershell/dsc/configurations)"&gt;</bpt><bpt id="p2">&lt;ctype="x-NOTFOUND" mdpre="**" mdpost="**"&gt;</bpt>構成<ept id="p2">&lt;/ctype="x-NOTFOUND"&gt;</ept><ept id="p1">&lt;/ctype="x-NOTFOUND"&gt;</ept>は、環境について説明するドキュメントです。</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Environments consist of "<bpt id="p1">&lt;ctype="x-NOTFOUND" mdpre="**" mdpost="**"&gt;</bpt>nodes<ept id="p1">&lt;/ctype="x-NOTFOUND"&gt;</ept>", which are commonly virtual or physical machines.</source>
+          <target state="translated">環境は "<bpt id="p1">&lt;ctype="x-NOTFOUND" mdpre="**" mdpost="**"&gt;</bpt>ノード<ept id="p1">&lt;/ctype="x-NOTFOUND"&gt;</ept>" で構成され、ノードは通常、仮想マシンまたは物理マシンです。</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Configurations can come in a variety of forms.</source>
+          <target state="translated">構成には、さまざまな形式があります。</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The easiest way to create a new configuration is to create a .ps1 (PowerShell script) file.</source>
+          <target state="translated">新しい構成を作成する最も簡単な方法は、.ps1 (PowerShell スクリプト) ファイルを作成することです。</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To do this, open your editor of choice.</source>
+          <target state="translated">これを行うには、任意のエディターを開きます。</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The PowerShell ISE is a good choice, since it understands DSC natively.</source>
+          <target state="translated">PowerShell ISE では DSC がネイティブに認識されるため、適切な選択です。</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Save the following as a PS1:</source>
+          <target state="translated">以下を PS1 として保存します。</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Parts of a Configuration</source>
+          <target state="translated">構成のパーツ</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;ctype="x-NOTFOUND" mdpre="**" mdpost="**"&gt;</bpt>Configuration<ept id="p1">&lt;/ctype="x-NOTFOUND"&gt;</ept> is a keyword that has been added to PowerShell 4.0.</source>
+          <target state="translated"><bpt id="p1">&lt;ctype="x-NOTFOUND" mdpre="**" mdpost="**"&gt;</bpt>Configuration<ept id="p1">&lt;/ctype="x-NOTFOUND"&gt;</ept> は、PowerShell 4.0 に追加されたキーワードです。</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>It signifies a special kind of PowerShell function used by Desired State Configuration.</source>
+          <target state="translated">これは、Desired State Configuration で使用される特別な種類の PowerShell 関数を示します。</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>In this example, the function is named myFirstConfiguration.</source>
+          <target state="translated">この例では、関数の名前は myFirstConfiguration です。</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The next line is an import statement, similar to importing a module.</source>
+          <target state="translated">次の行は、モジュールのインポートと同様のインポート ステートメントです。</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>It will be discussed later on.</source>
+          <target state="translated">これについては後で説明します。</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>"Node" defines the machine name this configuration will act on.</source>
+          <target state="translated">"Node" では、この構成が機能するマシン名を定義します。</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Although this configuration is edited locally, configurations can reach out to remote nodes and configure them.</source>
+          <target state="translated">この構成はローカルで編集されますが、構成はリモート ノードに到達し、それらを構成できます。</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Nodes can be machine names or IP addresses.</source>
+          <target state="translated">ノードには、マシン名または IP アドレスを指定できます。</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You can have multiple nodes in a single configuration document.</source>
+          <target state="translated">1 つの構成ドキュメントに複数のノードを指定できます。</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Using <bpt id="p1">&lt;ctype="x-NOTFOUND" mdpre="[" mdpost="](https://msdn.microsoft.com/en-us/powershell/dsc/configdata)"&gt;</bpt>configuration data<ept id="p1">&lt;/ctype="x-NOTFOUND"&gt;</ept>, you can also have the same configuration apply to multiple nodes.</source>
+          <target state="translated"><bpt id="p1">&lt;ctype="x-NOTFOUND" mdpre="[" mdpost="](https://msdn.microsoft.com/en-us/powershell/dsc/configdata)"&gt;</bpt>構成データ<ept id="p1">&lt;/ctype="x-NOTFOUND"&gt;</ept>を使用して、同じ構成を複数のノードに適用することもできます。</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In this case, the node is "localhost" - which means the local computer.</source>
+          <target state="translated">この場合、ノードは "localhost" であり、ローカル コンピューターを意味します。</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The next item is a <bpt id="p1">&lt;ctype="x-NOTFOUND" mdpre="[" mdpost="](https://msdn.microsoft.com/en-us/powershell/dsc/resources)"&gt;</bpt><bpt id="p2">&lt;ctype="x-NOTFOUND" mdpre="**" mdpost="**"&gt;</bpt>resource<ept id="p2">&lt;/ctype="x-NOTFOUND"&gt;</ept><ept id="p1">&lt;/ctype="x-NOTFOUND"&gt;</ept>.</source>
+          <target state="translated">次の項目は、<bpt id="p1">&lt;ctype="x-NOTFOUND" mdpre="[" mdpost="](https://msdn.microsoft.com/en-us/powershell/dsc/resources)"&gt;</bpt><bpt id="p2">&lt;ctype="x-NOTFOUND" mdpre="**" mdpost="**"&gt;</bpt>リソース<ept id="p2">&lt;/ctype="x-NOTFOUND"&gt;</ept><ept id="p1">&lt;/ctype="x-NOTFOUND"&gt;</ept>です。</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Resources are building blocks of configurations.</source>
+          <target state="translated">リソースは、構成の構成要素です。</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Each resource is a module that defines the implementation logic of a single aspect of a machine.</source>
+          <target state="translated">各リソースは、マシンの 1 つの側面の実装ロジックを定義するモジュールです。</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You can view every resource on your machine by running <bpt id="p1">&lt;ctype="x-NOTFOUND" mdpre="**" mdpost="**"&gt;</bpt>Get-DscResource<ept id="p1">&lt;/ctype="x-NOTFOUND"&gt;</ept> in PowerShell.</source>
+          <target state="translated">PowerShell で <bpt id="p1">&lt;ctype="x-NOTFOUND" mdpre="**" mdpost="**"&gt;</bpt>Get-DscResource<ept id="p1">&lt;/ctype="x-NOTFOUND"&gt;</ept> を実行して、コンピューター上のすべてのリソースを表示できます。</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Resources must be present on the local machine and imported before they can be used in a configuration with <bpt id="p1">&lt;ctype="x-NOTFOUND" mdpre="**" mdpost="**"&gt;</bpt>Import-DscResource<ept id="p1">&lt;/ctype="x-NOTFOUND"&gt;</ept> which is on the second line of this configuration.</source>
+          <target state="translated">この構成の 2 行目にある <bpt id="p1">&lt;ctype="x-NOTFOUND" mdpre="**" mdpost="**"&gt;</bpt>Import-DscResource<ept id="p1">&lt;/ctype="x-NOTFOUND"&gt;</ept> を含む構成で使用するには、リソースがローカル コンピューター上に存在し、インポートされている必要があります。</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Enacting a Configuration</source>
+          <target state="translated">構成の適用</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If the script above is saved and run, no output will be produced.</source>
+          <target state="translated">上記のスクリプトを保存して実行した場合、出力は生成されません。</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This is because a configuration is just a function, and the script above has defined the function but not yet run it.</source>
+          <target state="translated">これは、構成は単なる関数であり、上記のスクリプトでは関数を定義してもまだ実行されていないためです。</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>After the function is defined, it must be invoked:</source>
+          <target state="translated">関数を定義した後、呼び出す必要があります。</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>When executed, configuration functions validate the configuration is valid.</source>
+          <target state="translated">実行すると、構成関数により構成が有効であることが検証されます。</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>It should have no syntax errors, resources should have all mandatory parameters defined, and all resources should be imported before execution.</source>
+          <target state="translated">構成に構文エラーがなく、リソースにすべての必須パラメーターが定義され、実行前にすべてのリソースがインポートされている必要があります。</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Once the configuration is executed, it creates a folder with the name of the configuration containing a <bpt id="p1">&lt;ctype="x-NOTFOUND" mdpre="**" mdpost="**"&gt;</bpt>.MOF file<ept id="p1">&lt;/ctype="x-NOTFOUND"&gt;</ept> for every node in the configuration.</source>
+          <target state="translated">構成を実行すると、構成内の各ノードに対して <bpt id="p1">&lt;ctype="x-NOTFOUND" mdpre="**" mdpost="**"&gt;</bpt>.MOF ファイル<ept id="p1">&lt;/ctype="x-NOTFOUND"&gt;</ept>を含む構成の名前が付いたフォルダーが作成されます。</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The .MOF file is a standards-based management format which is used by PowerShell DSC to communicate over the network.</source>
+          <target state="translated">.MOF ファイルは、ネットワーク経由で通信するために PowerShell DSC で使用される標準ベースの管理形式です。</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To enact the configuration:</source>
+          <target state="translated">構成を適用するには:</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This creates a PowerShell job that reaches out to the nodes in the configuration and configures them.</source>
+          <target state="translated">これにより、構成内のノードに到達してそれらを構成する PowerShell ジョブが作成されます。</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To see the output of the job, use -Wait.</source>
+          <target state="translated">ジョブの出力を表示するには、-Wait を使用します。</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <header xmlns="">
+    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2faac24e90c7925eb22d7a5d95ef6f86831284f5</xliffext:olfilehash>
+  </header>
+</xliff>

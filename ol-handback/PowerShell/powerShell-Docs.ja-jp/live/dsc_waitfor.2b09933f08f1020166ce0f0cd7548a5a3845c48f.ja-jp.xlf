@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="md" source-language="en-US" target-language="ja-jp">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">24a680a5f41f6b6cb150226f347e90a2c5eafb25</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-02a95cf" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifying Cross Node Dependencies</source>
+          <target state="translated">ノードの相互依存関係の指定</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>By using the built-in WaitFor\* resources (WaitForAll, WaitForAny, and WaitForSome), you can now specify dependencies across computers during configuration runs, without external orchestration.</source>
+          <target state="translated">組み込みの WaitFor\* リソース (WaitForAll、WaitForAny、および WaitForSome) を使えば、コンピューター間の依存関係を外部の指揮なしで構成の実行中に指定できます。</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The behavior or each WaitFor\* resource is:</source>
+          <target state="translated">各 WaitFor\* リソースの動作は次のとおりです。</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;ctype="x-NOTFOUND" mdpre="**" mdpost="**"&gt;</bpt>WaitForAll<ept id="p1">&lt;/ctype="x-NOTFOUND"&gt;</ept> Waits for the specified resource to be in the desired state on <bpt id="p2">&lt;ctype="x-NOTFOUND" mdpre="*" mdpost="*"&gt;</bpt>All<ept id="p2">&lt;/ctype="x-NOTFOUND"&gt;</ept> target nodes defined in the NodeName property.</source>
+          <target state="translated"><bpt id="p1">&lt;ctype="x-NOTFOUND" mdpre="**" mdpost="**"&gt;</bpt>WaitForAll<ept id="p1">&lt;/ctype="x-NOTFOUND"&gt;</ept> では、NodeName プロパティで定義されている<bpt id="p2">&lt;ctype="x-NOTFOUND" mdpre="*" mdpost="*"&gt;</bpt>すべての<ept id="p2">&lt;/ctype="x-NOTFOUND"&gt;</ept>ターゲット ノード上の指定されたリソースが必要な状態になるのを待機します。</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;ctype="x-NOTFOUND" mdpre="**" mdpost="**"&gt;</bpt>WaitForAny<ept id="p1">&lt;/ctype="x-NOTFOUND"&gt;</ept> Waits for the specified resource to be in the desired state on <bpt id="p2">&lt;ctype="x-NOTFOUND" mdpre="*" mdpost="*"&gt;</bpt>Any<ept id="p2">&lt;/ctype="x-NOTFOUND"&gt;</ept> target node defined in the NodeName property.</source>
+          <target state="translated"><bpt id="p1">&lt;ctype="x-NOTFOUND" mdpre="**" mdpost="**"&gt;</bpt>WaitForAny<ept id="p1">&lt;/ctype="x-NOTFOUND"&gt;</ept> では、NodeName プロパティで定義されている<bpt id="p2">&lt;ctype="x-NOTFOUND" mdpre="*" mdpost="*"&gt;</bpt>いずれかの<ept id="p2">&lt;/ctype="x-NOTFOUND"&gt;</ept>ターゲット ノード上の指定されたリソースが必要な状態になるのを待機します。</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;ctype="x-NOTFOUND" mdpre="**" mdpost="**"&gt;</bpt>WaitForSome<ept id="p1">&lt;/ctype="x-NOTFOUND"&gt;</ept> Waits for the specified resource to be in the desired state on specific number, defined by the property NodeCount, of target nodes defined in the NodeName property.</source>
+          <target state="translated"><bpt id="p1">&lt;ctype="x-NOTFOUND" mdpre="**" mdpost="**"&gt;</bpt>WaitForSome<ept id="p1">&lt;/ctype="x-NOTFOUND"&gt;</ept> NodeName プロパティで定義されているターゲット ノード上の指定されたリソースが、NodeCount プロパティで定義された個数まで必要な状態になるのを待機します。</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>These resources provide node-to-node synchronization by using CIM connections over the WS-Man protocol.</source>
+          <target state="translated">これらのリソースは、WS-Man プロトコルで CIM 接続を使用して、ノード間の同期を提供します。</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>By using these resources, a configuration can wait for another computer’s specific resource state to change before it continues with its own configuration.</source>
+          <target state="translated">これらのリソースを使うと、別のコンピューターの特定のリソースの状態が変化するのを待機してから、構成を続行することができます。</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For example, in the following configuration, the target node is waiting for the <bpt id="p1">&lt;ctype="x-NOTFOUND" mdpre="**" mdpost="**"&gt;</bpt>xADDomain<ept id="p1">&lt;/ctype="x-NOTFOUND"&gt;</ept> resource to finish on the <bpt id="p2">&lt;ctype="x-NOTFOUND" mdpre="**" mdpost="**"&gt;</bpt>MyDC<ept id="p2">&lt;/ctype="x-NOTFOUND"&gt;</ept> node with a few retries, before the target node can join the domain.</source>
+          <target state="translated">たとえば、次の構成では、ターゲット ノードは <bpt id="p1">&lt;ctype="x-NOTFOUND" mdpre="**" mdpost="**"&gt;</bpt>MyDC<ept id="p1">&lt;/ctype="x-NOTFOUND"&gt;</ept> ノード上の <bpt id="p2">&lt;ctype="x-NOTFOUND" mdpre="**" mdpost="**"&gt;</bpt>xADDomain<ept id="p2">&lt;/ctype="x-NOTFOUND"&gt;</ept> リソースが完了するまで何回か再試行しながら待機した後で、ドメインに参加できるようになります。</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;ctype="x-NOTFOUND" mdpre="**" mdpost="**"&gt;</bpt>Hint:<ept id="p1">&lt;/ctype="x-NOTFOUND"&gt;</ept> By default the WaitFor\* resources try one time and then fail so although it is not required, you will typically want to specify a retry interval and count.</source>
+          <target state="translated"><bpt id="p1">&lt;ctype="x-NOTFOUND" mdpre="**" mdpost="**"&gt;</bpt>ヒント:<ept id="p1">&lt;/ctype="x-NOTFOUND"&gt;</ept> WaitFor\* リソースは、既定では、1 回試行してから失敗します。そのため、必須ではありませんが、通常は再試行の間隔と回数を指定することをお勧めします。</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
