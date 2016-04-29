@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="md" source-language="en-US" target-language="fr-fr">
+    <header>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f1dfcb2e422869686b457b9c080d3165031fafcd</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-869bb40" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Setting up a DSC SMB pull server</source>
+          <target state="translated">Configuration d’un serveur collecteur SMB DSC</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</source>
+          <target state="translated">S’applique à : Windows PowerShell 4.0, Windows PowerShell 5.0</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>A DSC <bpt id="p1">[</bpt>SMB<ept id="p1">](https://technet.microsoft.com/en-us/library/hh831795.aspx)</ept> pull server is an SMB file share that makes DSC configuration files and/or DSC resources</source>
+          <target state="translated">Un serveur collecteur <bpt id="p1">[</bpt>SMB<ept id="p1">](https://technet.microsoft.com/en-us/library/hh831795.aspx)</ept> DSC est un partage de fichiers SMB qui fournit des fichiers de configuration DSC et/ou des ressources DSC</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>available to target nodes when those nodes ask for them.</source>
+          <target state="translated">aux nœuds cibles quand ces derniers les demandent.</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To use an SMB pull server for DSC, you have to:</source>
+          <target state="translated">Pour utiliser un serveur collecteur SMB pour DSC, vous devez effectuer les étapes suivantes :</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Set up an SMB file share on a server running PowerShell 4.0 or higher</source>
+          <target state="translated">Configurer un partage de fichiers SMB sur un serveur qui exécute PowerShell 4.0 ou version ultérieure</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Configure a client running PowerShell 4.0 or higher to pull from that SMB share</source>
+          <target state="translated">Configurer un client qui exécute PowerShell 4.0 ou version ultérieure pour l’extraction à partir de ce partage SMB</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Using the xSmbShare resource to create an SMB file share</source>
+          <target state="translated">Utilisation de la ressource xSmbShare pour créer un partage de fichiers SMB</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>There are a number of ways to set up an SMB file share, but let's look at how you can do this by using DSC.</source>
+          <target state="translated">Il existe plusieurs façons de configurer un partage de fichiers SMB, mais nous allons le faire à l’aide de DSC.</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Install the xSmbShare resource</source>
+          <target state="translated">Installer la ressource xSmbShare</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Call the <bpt id="p1">[</bpt>Install-Module<ept id="p1">](https://technet.microsoft.com/en-us/library/dn807162.aspx)</ept> cmdlet to install the <bpt id="p2">**</bpt>xSmbShare<ept id="p2">**</ept> module.</source>
+          <target state="translated">Appelez l’applet de commande <bpt id="p1">[</bpt>Install-Module<ept id="p1">](https://technet.microsoft.com/en-us/library/dn807162.aspx)</ept> pour installer le module <bpt id="p2">**</bpt>xSmbShare<ept id="p2">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: <bpt id="p2">**</bpt>Install-Module<ept id="p2">**</ept> is included in the <bpt id="p3">**</bpt>PowerShellGet<ept id="p3">**</ept> module, which is included in PowerShell 5.0.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Remarque<ept id="p1">**</ept> : <bpt id="p2">**</bpt>Install-Module<ept id="p2">**</ept> est inclus dans le module <bpt id="p3">**</bpt>PowerShellGet<ept id="p3">**</ept> de PowerShell 5.0.</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can download the <bpt id="p1">**</bpt>PowerShellGet<ept id="p1">**</ept> module for PowerShell 3.0 and 4.0</source>
+          <target state="translated">Vous pouvez télécharger le module <bpt id="p1">**</bpt>PowerShellGet<ept id="p1">**</ept> pour PowerShell 3.0 et 4.0</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>at <bpt id="p1">[</bpt>PackageManagement PowerShell Modules Preview<ept id="p1">](https://www.microsoft.com/en-us/download/details.aspx?id=49186)</ept>.</source>
+          <target state="translated">à la page <bpt id="p1">[</bpt>PackageManagement PowerShell Modules Preview<ept id="p1">](https://www.microsoft.com/en-us/download/details.aspx?id=49186)</ept> (Aperçu des modules PowerShell PackageManagement).</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>xSmbShare<ept id="p1">**</ept> contains the DSC resource <bpt id="p2">**</bpt>xSmbShare<ept id="p2">**</ept>, which can be used</source>
+          <target state="translated"><bpt id="p1">**</bpt>xSmbShare<ept id="p1">**</ept> contient la ressource DSC <bpt id="p2">**</bpt>xSmbShare<ept id="p2">**</ept> qui peut être utilisée</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>to create an SMB file share.</source>
+          <target state="translated">pour créer un partage de fichiers SMB.</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Create the directory and file share</source>
+          <target state="translated">Créer le répertoire et le partage de fichiers</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The following configuration uses the <bpt id="p1">[</bpt>File<ept id="p1">](fileResource.md)</ept> resource to create the directory for the share, and the <bpt id="p2">**</bpt>xSmbShare<ept id="p2">**</ept> resource to set up the SMB share:</source>
+          <target state="translated">La configuration suivante utilise la ressource <bpt id="p1">[</bpt>File<ept id="p1">](fileResource.md)</ept> pour créer le répertoire du partage et la ressource <bpt id="p2">**</bpt>xSmbShare<ept id="p2">**</ept> pour configurer le partage SMB :</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The configuration creates the directory <ph id="ph1">`C:\DscSmbShare`</ph> if it doesn't already exists, and then uses that directory as an SMB file share.</source>
+          <target state="translated">La configuration crée le répertoire <ph id="ph1">`C:\DscSmbShare`</ph> s’il n’existe pas et utilise ensuite ce répertoire comme partage de fichiers SMB.</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>FullAccess<ept id="p1">**</ept> should be given to any</source>
+          <target state="translated">L’autorisation <bpt id="p1">**</bpt>FullAccess<ept id="p1">**</ept> doit être accordée à tous les</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>account that needs to write to or delete from the file share, and <bpt id="p1">**</bpt>ReadAccess<ept id="p1">**</ept> must be given to any client nodes that will get configurations and/or DSC resources from the share (</source>
+          <target state="translated">comptes devant écrire ou supprimer des entrées dans le partage de fichiers, et l’autorisation <bpt id="p1">**</bpt>ReadAccess<ept id="p1">**</ept> doit être accordée à tous les nœuds clients obtenant des configurations et/ou des ressources DSC du partage (</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>this is because DSC runs as the system account by default, so the computer itself has to have access to the share).</source>
+          <target state="translated">étant donné que DSC s’exécute sous le compte système par défaut, l’ordinateur doit donc avoir accès au partage).</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Give file system access to the pull client</source>
+          <target state="translated">Donner accès au système de fichiers pour le client collecteur</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Giving <bpt id="p1">**</bpt>ReadAccess<ept id="p1">**</ept> to a client node allows that node to access the SMB share, but not to files or folders within that share.</source>
+          <target state="translated">L’autorisation <bpt id="p1">**</bpt>ReadAccess<ept id="p1">**</ept> accordée à un nœud client permet à ce dernier d’accéder au partage SMB, mais pas aux fichiers et dossiers dans ce partage.</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You have to explicitly grant client nodes access to the SMB share</source>
+          <target state="translated">Vous devez accorder explicitement l’accès au dossier et aux sous-dossiers</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>folder and sub-folders.</source>
+          <target state="translated">du partage SMB pour les nœuds clients.</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>We can do this with DSC by adding using the <bpt id="p1">**</bpt>cNtfsPermissionEntry<ept id="p1">**</ept> resource, which is contained in the <bpt id="p2">[</bpt>CNtfsAccessControl<ept id="p2">](https://www.powershellgallery.com/packages/cNtfsAccessControl/1.2.0)</ept></source>
+          <target state="translated">Vous pouvez le faire avec DSC à l’aide de la ressource <bpt id="p1">**</bpt>cNtfsPermissionEntry<ept id="p1">**</ept>, qui est contenue dans le module <bpt id="p2">[</bpt>CNtfsAccessControl<ept id="p2">](https://www.powershellgallery.com/packages/cNtfsAccessControl/1.2.0)</ept></target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>module.</source>
+          <target state="translated">.</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The following configuration adds a <bpt id="p1">**</bpt>cNtfsPermissionEntry<ept id="p1">**</ept> block that grants ReadAndExecute access to the pull client:</source>
+          <target state="translated">La configuration suivante ajoute un bloc <bpt id="p1">**</bpt>cNtfsPermissionEntry<ept id="p1">**</ept> qui accorde un accès ReadAndExecute au client collecteur :</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Placing configurations and resources</source>
+          <target state="translated">Placement des configurations et des ressources</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Save any configuration MOF files and/or DSC resources that you want client nodes to pull in the SMB share folder.</source>
+          <target state="translated">Enregistrez les fichiers MOF de configuration et/ou les ressources DSC que les nœuds clients doivent extraire dans le dossier de partage SMB.</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Any configuration MOF file must be named <bpt id="p1">_</bpt>ConfigurationID<ept id="p1">_</ept>.mof, where <bpt id="p2">_</bpt>ConfigurationID<ept id="p2">_</ept> is the value of the <bpt id="p3">**</bpt>ConfigurationID<ept id="p3">**</ept> property of the target node's LCM.</source>
+          <target state="translated">Les fichiers MOF de configuration doivent être nommés <bpt id="p1">_</bpt>ConfigurationID<ept id="p1">_</ept>.mof, où <bpt id="p2">_</bpt>ConfigurationID<ept id="p2">_</ept> est la valeur de la propriété <bpt id="p3">**</bpt>ConfigurationID<ept id="p3">**</ept> du gestionnaire de configuration local du nœud cible.</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>For more information about</source>
+          <target state="translated">Pour plus d’informations sur</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>setting up pull clients, see <bpt id="p1">[</bpt>Setting up a pull client using configuration ID<ept id="p1">](pullClientConfigID.md)</ept>.</source>
+          <target state="translated">la configuration des clients collecteurs, consultez <bpt id="p1">[</bpt>Configuration d’un client collecteur à l’aide de l’ID de configuration<ept id="p1">](pullClientConfigID.md)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> You must use configuration IDs if you are using an SMB pull server.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Remarque :<ept id="p1">**</ept> Vous devez utiliser les ID de configuration si vous utilisez un serveur collecteur SMB.</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Configuration names are not supported for SMB.</source>
+          <target state="translated">Les noms de configuration ne sont pas pris en charge pour SMB.</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Any resources needed by the client must be placed in the SMB share folder as archived <ph id="ph1">`.zip`</ph> files.</source>
+          <target state="translated">Toutes les ressources nécessaires pour le client doivent être placées dans le dossier de partage SMB sous forme de fichiers <ph id="ph1">`.zip`</ph> archivés.</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Creating the MOF checksum</source>
+          <target state="translated">Création de la somme de contrôle MOF</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>A configuration MOF file needs to be paired with a checksum file so that an LCM on a target node can validate the configuration.</source>
+          <target state="translated">Un fichier MOF de configuration doit être associé à un fichier de somme de contrôle pour que le gestionnaire de configuration local sur un nœud cible puisse valider la configuration.</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To create a checksum, call the <bpt id="p1">[</bpt>New-DSCCheckSum<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521622.aspx)</ept> cmdlet.</source>
+          <target state="translated">Pour créer une somme de contrôle, appelez l’applet de commande <bpt id="p1">[</bpt>New-DSCCheckSum<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521622.aspx)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The cmdlet takes a <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter that specifies the folder</source>
+          <target state="translated">L’applet de commande prend un paramètre <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> qui spécifie le dossier</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>where the configuration MOF is located.</source>
+          <target state="translated">où se trouve le fichier MOF de configuration.</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The cmdlet creates a checksum file named <ph id="ph1">`ConfigurationMOFName.mof.checksum`</ph>, where <ph id="ph2">`ConfigurationMOFName`</ph> is the name of the configuration mof file.</source>
+          <target state="translated">L’applet de commande crée un fichier de somme de contrôle nommé <ph id="ph1">`ConfigurationMOFName.mof.checksum`</ph>, où <ph id="ph2">`ConfigurationMOFName`</ph> est le nom du fichier MOF de configuration.</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If there are more than one configuration MOF files in the specified folder, a checksum is created for each configuration in the folder.</source>
+          <target state="translated">S’il existe plusieurs fichiers MOF de configuration dans le dossier spécifié, une somme de contrôle est créée pour chaque configuration du dossier.</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The checksum file must be present in the same directory as the configuration MOF file (<ph id="ph1">`$env:PROGRAMFILES\WindowsPowerShell\DscService\Configuration`</ph> by default), and have the same name with the <ph id="ph2">`.checksum`</ph> extension appended.</source>
+          <target state="translated">Le fichier de somme de contrôle doit être présent dans le même répertoire que celui du fichier MOF de configuration (<ph id="ph1">`$env:PROGRAMFILES\WindowsPowerShell\DscService\Configuration`</ph> par défaut), et avoir le même nom, mais avec l’extension <ph id="ph2">`.checksum`</ph>.</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: If you change the configuration MOF file in any way, you must also recreate the checksum file.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Remarque<ept id="p1">**</ept> : Si vous modifiez le fichier MOF de configuration de quelque façon que ce soit, vous devez aussi recréer le fichier de somme de contrôle.</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Acknowledgements</source>
+          <target state="translated">Accusés de réception</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Special thanks to the following:</source>
+          <target state="translated">Un remerciement particulier aux personnes suivantes :</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Mike F. Robbins, whose posts on using SMB for DSC helped inform the content in this topic.</source>
+          <target state="translated">Mike F. Robbins, dont les billets sur l’utilisation de SMB pour DSC ont permis de documenter le contenu de cette rubrique.</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>His blog is at <bpt id="p1">[</bpt>Mike F Robbins<ept id="p1">](http://mikefrobbins.com/)</ept>.</source>
+          <target state="translated">Son blog : <bpt id="p1">[</bpt>Mike F Robbins<ept id="p1">](http://mikefrobbins.com/)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Serge Nikalaichyk, who authored the <bpt id="p1">**</bpt>cNtfsAccessControl<ept id="p1">**</ept> module.</source>
+          <target state="translated">Serge Nikalaichyk, qui a créé le module <bpt id="p1">**</bpt>cNtfsAccessControl<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The source for this module is at https://github.com/SNikalaichyk/cNtfsAccessControl.</source>
+          <target state="translated">La source de ce module est à l’adresse https://github.com/SNikalaichyk/cNtfsAccessControl.</target>         
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="translated">Voir aussi</target>         
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Desired State Configuration Overview</source>
+          <target state="translated">Vue d’ensemble de la fonctionnalité Desired State Configuration de Windows PowerShell</target>         
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Enacting configurations</source>
+          <target state="translated">Application des configurations</target>         
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Setting up a pull client using configuration ID</source>
+          <target state="translated">Configuration d’un client collecteur à l’aide de l’ID de configuration</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
