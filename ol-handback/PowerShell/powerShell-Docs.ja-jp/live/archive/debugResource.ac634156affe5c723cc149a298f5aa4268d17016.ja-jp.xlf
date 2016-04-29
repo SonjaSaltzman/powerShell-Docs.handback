@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" target-language="ja-jp">
+  <file datatype="xml" original="md" source-language="en-US" target-language="ja-jp">
+    <header>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0959c2576a82b63e814b73a95a085e5512c0726f</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-e76445a" tool-company="Microsoft" />
+    </header>
     <body>
-      <group id="main" extype="content">
+      <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
           <source>Debugging DSC resources</source>
           <target state="translated">DSC リソースのデバッグ</target>         
@@ -24,12 +28,12 @@
           <target state="translated">リソースをデバッグする前に、<bpt id="p1">[</bpt>Enable-DscDebug<ept id="p1">](https://technet.microsoft.com/en-us/library/mt517870.aspx)</ept> コマンドレットを呼び出すことによって、デバッグを有効にする必要があります。</target>         
         </trans-unit>
         <trans-unit id="106" translate="yes" xml:space="preserve">
-          <source>This cmdlet takes a mandatory parameter, <bpt id="p2">**</bpt>BreakAll<ept id="p2">**</ept>.</source>
-          <target state="translated">このコマンドレットは、必須パラメーター <bpt id="p2">**</bpt>BreakAll<ept id="p2">**</ept> を受け取ります。</target>         
+          <source>This cmdlet takes a mandatory parameter, <bpt id="p1">**</bpt>BreakAll<ept id="p1">**</ept>.</source>
+          <target state="translated">このコマンドレットは、必須パラメーター <bpt id="p1">**</bpt>BreakAll<ept id="p1">**</ept> を取ります。</target>         
         </trans-unit>
         <trans-unit id="107" translate="yes" xml:space="preserve">
-          <source>You can verify that debugging has been enabled by looking at the result of a call to <bpt id="p3">[</bpt>Get-DscLocalConfigurationManager<ept id="p3">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept>.</source>
-          <target state="translated"><bpt id="p3">[</bpt>Get-DscLocalConfigurationManager<ept id="p3">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept> への呼び出しの結果を参照して、デバッグが有効になっていることを確認できます。</target>         
+          <source>You can verify that debugging has been enabled by looking at the result of a call to <bpt id="p1">[</bpt>Get-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept>.</source>
+          <target state="translated"><bpt id="p1">[</bpt>Get-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept> への呼び出しの結果を参照して、デバッグが有効になっていることを確認できます。</target>         
         </trans-unit>
         <trans-unit id="108" translate="yes" xml:space="preserve">
           <source>The following PowerShell output shows the result of enabling debugging:</source>
@@ -44,55 +48,90 @@
           <target state="translated">DSC リソースをデバッグするには、そのリソースを呼び出す構成を開始します。</target>         
         </trans-unit>
         <trans-unit id="111" translate="yes" xml:space="preserve">
-          <source>For this example, we'll look at a simple configuration that calls the <bpt id="p4">[</bpt>WindowsFeature<ept id="p4">](windowsfeatureResource.md)</ept> resource to ensure that the "WindowsPowerShellWebAccess" feature is installed:</source>
-          <target state="translated">この例では、"WindowsPowerShellWebAccess" 機能がインストールされていることを確認するために <bpt id="p4">[</bpt>WindowsFeature<ept id="p4">](windowsfeatureResource.md)</ept> リソースを呼び出す単純な構成を見ていきます。</target>         
+          <source>For this example, we'll look at a simple configuration that calls the <bpt id="p1">[</bpt>WindowsFeature<ept id="p1">](windowsfeatureResource.md)</ept> resource to ensure that the "WindowsPowerShellWebAccess" feature is installed:</source>
+          <target state="translated">この例では、"WindowsPowerShellWebAccess" 機能がインストールされていることを確認するために <bpt id="p1">[</bpt>WindowsFeature<ept id="p1">](windowsfeatureResource.md)</ept> リソースを呼び出す単純な構成を見ていきます。</target>         
         </trans-unit>
         <trans-unit id="112" translate="yes" xml:space="preserve">
-          <source>After compiling the configuration, start it by calling <bpt id="p5">[</bpt>Start-DscConfiguration<ept id="p5">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept>.</source>
-          <target state="translated">構成をコンパイルした後、<bpt id="p5">[</bpt>Start-DscConfiguration<ept id="p5">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> を呼び出して開始します。</target>         
+          <source>After compiling the configuration, start it by calling <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept>.</source>
+          <target state="translated">構成をコンパイルした後、<bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> を呼び出して開始します。</target>         
         </trans-unit>
         <trans-unit id="113" translate="yes" xml:space="preserve">
-          <source>The configuration will stop when the
-Local Configuration Manager (LCM) calls into the first resoure in the configuration.</source>
-          <target state="translated">構成は、
-ローカル構成マネージャー (LCM) が構成の最初のリソースを呼び出したときに停止します。</target>         
+          <source>The configuration will stop when the</source>
+          <target state="translated">構成は、</target>         
         </trans-unit>
         <trans-unit id="114" translate="yes" xml:space="preserve">
-          <source>If you use the <ph id="ph1">`-Verbose`</ph> and <ph id="ph2">`-Wait`</ph> parameters, the output displays the lines you need to enter
-to start debugging.</source>
-          <target state="translated"><ph id="ph1">`-Verbose`</ph> および <ph id="ph2">`-Wait`</ph> パラメーターを使用した場合、デバッグを開始するために入力する必要がある行が
-出力に表示されます。</target>         
+          <source>Local Configuration Manager (LCM) calls into the first resoure in the configuration.</source>
+          <target state="translated">ローカル構成マネージャー (LCM) が構成の最初のリソースを呼び出したときに停止します。</target>         
         </trans-unit>
         <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If you use the <ph id="ph1">`-Verbose`</ph> and <ph id="ph2">`-Wait`</ph> parameters, the output displays the lines you need to enter</source>
+          <target state="translated"><ph id="ph1">`-Verbose`</ph> および <ph id="ph2">`-Wait`</ph> パラメーターを使用した場合、デバッグを開始するために入力する必要がある行が</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>to start debugging.</source>
+          <target state="translated">出力に表示されます。</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
           <source>At this point, the LCM has called the resource, and come to the first break point.</source>
           <target state="translated">この時点で、LCM はリソースを呼び出し、最初のブレーク ポイントに到達しています。</target>         
         </trans-unit>
-        <trans-unit id="116" translate="yes" xml:space="preserve">
+        <trans-unit id="118" translate="yes" xml:space="preserve">
           <source>The last three lines in the output show you how to attach to the process and start debugging the resource script.</source>
           <target state="translated">出力の最後の 3 行は、プロセスに接続し、リソース スクリプトのデバッグを開始する方法を示しています。</target>         
         </trans-unit>
-        <trans-unit id="117" translate="yes" xml:space="preserve">
+        <trans-unit id="119" translate="yes" xml:space="preserve">
           <source>Debugging the resource script</source>
           <target state="translated">リソース スクリプトのデバッグ</target>         
         </trans-unit>
-        <trans-unit id="118" translate="yes" xml:space="preserve">
+        <trans-unit id="120" translate="yes" xml:space="preserve">
           <source>Start a new instance of the PowerShell ISE.</source>
           <target state="translated">PowerShell ISE の新しいインスタンスを開始します。</target>         
         </trans-unit>
-        <trans-unit id="119" translate="yes" xml:space="preserve">
-          <source>In the console pane, enter the last three lines of output from the <ph id="ph3">`Start-DscConifiguration`</ph> output as commands, replacing <ph id="ph4">`&lt;credentials&gt;`</ph> with
-valid user credentials.</source>
-          <target state="translated">コンソール ウィンドウで、<ph id="ph3">`Start-DscConifiguration`</ph> 出力から出力の最後の 3 行をコマンドとして入力し、<ph id="ph4">`&lt;credentials&gt;`</ph> を
-有効なユーザー資格情報に置き換えます。</target>         
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In the console pane, enter the last three lines of output from the <ph id="ph1">`Start-DscConifiguration`</ph> output as commands, replacing <ph id="ph2">`&lt;credentials&gt;`</ph> with</source>
+          <target state="translated">コンソール ウィンドウで、<ph id="ph1">`Start-DscConifiguration`</ph> 出力から出力の最後の 3 行をコマンドとして入力し、<ph id="ph2">`&lt;credentials&gt;`</ph> を</target>         
         </trans-unit>
-        <trans-unit id="120" translate="yes" xml:space="preserve">
-          <source>Here is the resulting output.</source>
-          <target state="translated">次に、結果の出力を示します。</target>         
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>valid user credentials.</source>
+          <target state="translated">有効なユーザー資格情報に置き換えます。</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You should now see a prompt that looks similar to:</source>
+          <target state="translated">次のようなプロンプトが表示されます。</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The resource script will open in the script pane, and the debugger is stopped at the first line of the <bpt id="p1">**</bpt>Test-TargetResource<ept id="p1">**</ept> function (the <bpt id="p2">**</bpt>Test()<ept id="p2">**</ept> method of a class-based resource).</source>
+          <target state="translated">スクリプト ウィンドウが開いてリソース スクリプトが表示され、<bpt id="p1">**</bpt>Test-TargetResource<ept id="p1">**</ept> 関数の最初の行 (クラスベースのリソースの <bpt id="p2">**</bpt>Test()<ept id="p2">**</ept> メソッド) でデバッガーが停止します。</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Now you can use the debug commands in the ISE to step through the resource script, look at variable values, view the call stack, and so on.</source>
+          <target state="translated">ISE でデバッグ コマンドを使うと、リソース スクリプトをステップ実行したり、変数の値を確認したり、呼び出し履歴を表示したりできます。</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For information about debugging in the PowerShell ISE,</source>
+          <target state="translated">PowerShell ISE でのデバッグについて</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>see <bpt id="p1">[</bpt>How to Debug Scripts in Windows PowerShell ISE<ept id="p1">](https://technet.microsoft.com/en-us/library/dd819480.aspx)</ept>.</source>
+          <target state="translated">詳しくは、「Windows PowerShell ISE でスクリプトをデバッグする方法」をご覧ください。</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Remember that every line in the resource script (or class) is set as a break point.</source>
+          <target state="translated">リソース スクリプト (またはクラス) のすべての行がブレークポイントとして設定されていることに注意してください。</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">参照</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Writing a custom DSC resource with MOF</source>
+          <target state="translated">MOF を使用したカスタム DSC リソースの記述</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Writing a custom DSC resource with PowerShell classes</source>
+          <target state="translated">PowerShell クラスを使用したカスタム DSC リソースの記述</target>         
         </trans-unit>
       </group>
     </body>
   </file>
-  <header xmlns="">
-    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5740ae503616927c717ce17ce3d1ae146a88c411</xliffext:olfilehash>
-  </header>
 </xliff>
