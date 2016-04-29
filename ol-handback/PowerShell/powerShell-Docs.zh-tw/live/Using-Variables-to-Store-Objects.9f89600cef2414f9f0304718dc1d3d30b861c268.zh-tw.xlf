@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="md" source-language="en-US" target-language="zh-tw">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">670f3b9f1d61e8ddcf00bf9c2670f770392e429c</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-04046aa" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Using Variables to Store Objects</source>
+          <target state="translated">使用變數儲存物件</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Using Variables to Store Objects</source>
+          <target state="translated">使用變數儲存物件</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell works with objects.</source>
+          <target state="translated">Windows PowerShell 使用物件。</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell lets you create variables \- essentially named objects \- to preserve output to use later.</source>
+          <target state="translated">Windows PowerShell 可讓您建立基本上為具名物件的變數，以保留輸出供之後使用。</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If you are used to working with variables in other shells, remember that Windows PowerShell variables are objects, not text.</source>
+          <target state="translated">如果您是用來使用其他殼層中的變數，請記得 Windows PowerShell 變數是物件，而非文字。</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Variables are always specified with the initial character $, and can include any alphanumeric characters or the underscore in their names.</source>
+          <target state="translated">變數一律會指定起始字元 $，而且可以在其名稱中包括任何英數字元或底線。</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Creating a Variable</source>
+          <target state="translated">建立變數</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can create a variable by typing a valid variable name:</source>
+          <target state="translated">您可以輸入有效的變數名稱來建立變數︰</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This returns no result because <bpt id="p1">**</bpt>$loc<ept id="p1">**</ept> does not have a value.</source>
+          <target state="translated">這不會傳回任何結果，因為 <bpt id="p1">**</bpt>$loc<ept id="p1">**</ept> 沒有值。</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can create a variable and assign it a value in the same step.</source>
+          <target state="translated">您可以在相同的步驟中建立變數並指派其值。</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell only creates the variable if it does not exist; otherwise, it assigns the specified value to the existing variable.</source>
+          <target state="translated">Windows PowerShell 只會建立不存在的變數；否則，它會將指定的值指派給現有變數。</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To store your current location in the variable <bpt id="p1">**</bpt>$loc<ept id="p1">**</ept>, type:</source>
+          <target state="translated">若要將您的目前位置儲存在變數 <bpt id="p1">**</bpt>$loc<ept id="p1">**</ept> 中，請輸入：</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>There is no output displayed when you type this command because the output is sent to $loc.</source>
+          <target state="translated">輸入這個命令時未顯示任何輸出，因為輸出會傳送至 $loc。</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell, displayed output is a side effect of the fact that data which is not otherwise directed always gets sent to the screen.</source>
+          <target state="translated">在 Windows PowerShell 中，顯示的輸出是下列事實的副作用：未指示的資料一律會傳送至螢幕。</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Typing $loc will show your current location:</source>
+          <target state="translated">輸入 $loc 將顯示目前的位置：</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can use <bpt id="p1">**</bpt>Get\-Member<ept id="p1">**</ept> to display information about the contents of variables.</source>
+          <target state="translated">您可以使用 <bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept> 顯示變數內容的相關資訊。</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Piping $loc to Get\-Member will show you that it is a <bpt id="p1">**</bpt>PathInfo<ept id="p1">**</ept> object, just like the output from Get\-Location:</source>
+          <target state="translated">將 $loc 傳送到 Get-Member 將顯示它是 <bpt id="p1">**</bpt>PathInfo<ept id="p1">**</ept> 物件，就像 Get-Location 的輸出一樣：</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Manipulating Variables</source>
+          <target state="translated">操作變數</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell provides several commands to manipulate variables.</source>
+          <target state="translated">Windows PowerShell 提供數個命令來操作變數。</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can see a complete listing in a readable form by typing:</source>
+          <target state="translated">您可以查看可讀取形式的完整清單，方法是輸入︰</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In addition to the variables you create in your current Windows PowerShell session, there are several system\-defined variables.</source>
+          <target state="translated">除了您在目前 Windows PowerShell 工作階段中建立的變數之外，還有數個系統定義的變數。</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">**</bpt>Remove\-Variable<ept id="p1">**</ept> cmdlet to clear out all of the variables which are not controlled by Windows PowerShell.</source>
+          <target state="translated">您可以使用 <bpt id="p1">**</bpt>Remove-Variable<ept id="p1">**</ept> Cmdlet 來清除所有不受 Windows PowerShell 控制的變數。</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Type the following command to clear all variables:</source>
+          <target state="translated">輸入下列命令以清除所有變數：</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This will produce the confirmation prompt you see below.</source>
+          <target state="translated">這將產生您在下面看到的確認提示。</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If you then run the <bpt id="p1">**</bpt>Get\-Variable<ept id="p1">**</ept> cmdlet, you will see the remaining Windows PowerShell variables.</source>
+          <target state="translated">如果您之後執行 <bpt id="p1">**</bpt>Get-Variable<ept id="p1">**</ept> Cmdlet，則會看到其餘的 Windows PowerShell 變數。</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Since there is also a variable Windows PowerShell drive, you can also display all Windows PowerShell variables by typing:</source>
+          <target state="translated">因為也有變數 Windows PowerShell 磁碟機，所以您也可以顯示所有 Windows PowerShell 變數，方法是輸入︰</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Using Cmd.exe Variables</source>
+          <target state="translated">使用 Cmd.exe 變數</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Although Windows PowerShell is not Cmd.exe, it runs in a command shell environment and can use the same variables available in any environment in Windows.</source>
+          <target state="translated">雖然 Windows PowerShell 不是 Cmd.exe，但是會在命令殼層環境中執行，而且可以在 Windows 的任何環境中使用相同的變數。</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>These variables are exposed through a drive named <bpt id="p1">**</bpt>env<ept id="p1">**</ept>:.</source>
+          <target state="translated">這些變數是透過名為 <bpt id="p1">**</bpt>env<ept id="p1">**</ept> 的磁碟機公開：</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You can view these variables by typing:</source>
+          <target state="translated">您可以檢視這些變數，方法是輸入︰</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Although the standard variable cmdlets are not designed to work with <bpt id="p1">**</bpt>env:<ept id="p1">**</ept> variables, you can still use them by specifying the <bpt id="p2">**</bpt>env:<ept id="p2">**</ept> prefix.</source>
+          <target state="translated">雖然標準變數 Cmdlet 未設計成使用 <bpt id="p1">**</bpt>env:<ept id="p1">**</ept> 變數，但是您仍然可以指定 <bpt id="p2">**</bpt>env:<ept id="p2">**</ept> 前置詞來使用它們。</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For example, to see the operating system root directory, you can use the command\-shell <bpt id="p1">**</bpt>%SystemRoot%<ept id="p1">**</ept> variable from within Windows PowerShell by typing:</source>
+          <target state="translated">例如，若要查看作業系統根目錄，您可以從 Windows PowerShell 使用命令殼層 <bpt id="p1">**</bpt>%SystemRoot%<ept id="p1">**</ept> 變數，方法是輸入︰</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You can also create and modify environment variables from within Windows PowerShell.</source>
+          <target state="translated">您也可以從 Windows PowerShell 建立和修改環境變數。</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Environment variables accessed from Windows PowerShell conform to the normal rules for environment variables elsewhere in Windows.</source>
+          <target state="translated">從 Windows PowerShell 存取的環境變數符合 Windows 中其他位置之環境變數的一般規則。</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
