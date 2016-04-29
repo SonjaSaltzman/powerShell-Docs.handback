@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" target-language="fr-fr">
+  <file datatype="xml" original="md" source-language="en-US" target-language="fr-fr">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">da7b4dad0811bf0dc4745b6482c74731448edbdd</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1457980" tool-company="Microsoft" />
+    </header>
     <body>
-      <group id="main" extype="content">
+      <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
           <source>PowerShell Desired State Configuration partial configurations</source>
           <target state="translated">Configurations partielles du service de configuration d’état souhaité PowerShell</target>         
@@ -60,7 +65,7 @@
           <target state="translated">Chaque configuration partielle doit être envoyée à la cible à l’aide de l’applet de commande Publish-DSCConfiguration.</target>         
         </trans-unit>
         <trans-unit id="115" translate="yes" xml:space="preserve">
-          <source>The target node then combines the partial configuration into a single configuration, and you can apply the configuration by calling the <bpt id="p1">[</bpt>Start-DscConfigurationxt<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> cmdlet.</source>
+          <source>The target node then combines the partial configuration into a single configuration, and you can apply the configuration by calling the <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> cmdlet.</source>
           <target state="translated">Le nœud cible associe ensuite la configuration partielle à une configuration unique, que vous pouvez appliquer en appelant l’applet de commande <bpt id="p1">[</bpt>Start-DscConfigurationxt<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept>.</target>         
         </trans-unit>
         <trans-unit id="116" translate="yes" xml:space="preserve">
@@ -68,48 +73,48 @@
           <target state="translated">Configuration du gestionnaire de configuration local pour les configurations partielles en mode par envoi</target>         
         </trans-unit>
         <trans-unit id="117" translate="yes" xml:space="preserve">
-          <source>To configure the LCM for partial configurations in push mode, you create a <bpt id="p2">**</bpt>DSCLocalConfigurationManager<ept id="p2">**</ept> configuration with one <bpt id="p3">**</bpt>PartialConfiguration<ept id="p3">**</ept> block for each partial configuration.</source>
-          <target state="translated">Pour configurer le gestionnaire de configuration local pour les configurations partielles en mode par envoi, vous créez une configuration <bpt id="p2">**</bpt>DSCLocalConfigurationManager<ept id="p2">**</ept> avec un bloc <bpt id="p3">**</bpt>PartialConfiguration<ept id="p3">**</ept> pour chaque configuration partielle.</target>         
+          <source>To configure the LCM for partial configurations in push mode, you create a <bpt id="p1">**</bpt>DSCLocalConfigurationManager<ept id="p1">**</ept> configuration with one <bpt id="p2">**</bpt>PartialConfiguration<ept id="p2">**</ept> block for each partial configuration.</source>
+          <target state="translated">Pour configurer le gestionnaire de configuration local pour les configurations partielles en mode par envoi, vous créez une configuration <bpt id="p1">**</bpt>DSCLocalConfigurationManager<ept id="p1">**</ept> avec un bloc <bpt id="p2">**</bpt>PartialConfiguration<ept id="p2">**</ept> pour chaque configuration partielle.</target>         
         </trans-unit>
         <trans-unit id="118" translate="yes" xml:space="preserve">
-          <source>For more information about configuring the LCM, see <bpt id="p4">[</bpt>Windows Configuring the Local Configuration Manager<ept id="p4">](https://technet.microsoft.com/en-us/library/mt421188.aspx)</ept>.</source>
-          <target state="translated">Pour plus d’informations sur la configuration du gestionnaire de configuration local, consultez <bpt id="p4">[</bpt>Configuring the Local Configuration Manager<ept id="p4">](https://technet.microsoft.com/en-us/library/mt421188.aspx)</ept>.</target>         
+          <source>For more information about configuring the LCM, see <bpt id="p1">[</bpt>Windows Configuring the Local Configuration Manager<ept id="p1">](https://technet.microsoft.com/en-us/library/mt421188.aspx)</ept>.</source>
+          <target state="translated">Pour plus d’informations sur la configuration du gestionnaire de configuration local, consultez <bpt id="p1">[</bpt>Configuring the Local Configuration Manager<ept id="p1">](https://technet.microsoft.com/en-us/library/mt421188.aspx)</ept> (Configuration du gestionnaire de configuration local).</target>         
         </trans-unit>
         <trans-unit id="119" translate="yes" xml:space="preserve">
           <source>The following example shows an LCM configuration that expects two partial configurations—one that deploys the OS, and one that deploys and configures SharePoint.</source>
           <target state="translated">L’exemple suivant montre une configuration de gestionnaire de configuration local avec deux configurations partielles : une qui déploie le système d’exploitation, et l’autre qui déploie et configure SharePoint.</target>         
         </trans-unit>
         <trans-unit id="120" translate="yes" xml:space="preserve">
-          <source>The <bpt id="p5">**</bpt>RefreshMode<ept id="p5">**</ept> for each partial configuration is set to "Push".</source>
-          <target state="translated">Le paramètre <bpt id="p5">**</bpt>RefreshMode<ept id="p5">**</ept> pour chaque configuration partielle est défini sur « Émission ».</target>         
+          <source>The <bpt id="p1">**</bpt>RefreshMode<ept id="p1">**</ept> for each partial configuration is set to "Push".</source>
+          <target state="translated">Le paramètre <bpt id="p1">**</bpt>RefreshMode<ept id="p1">**</ept> pour chaque configuration partielle est défini sur « Émission ».</target>         
         </trans-unit>
         <trans-unit id="121" translate="yes" xml:space="preserve">
-          <source>The names of the <bpt id="p6">**</bpt>PartialConfiguration<ept id="p6">**</ept> blocks (in this case, "OSInstall" and "SharePointConfig") must match exactly the names of the configurations that are pushed to the target node.</source>
-          <target state="translated">Les noms des blocs <bpt id="p6">**</bpt>PartialConfiguration<ept id="p6">**</ept> (dans ce cas, « OSInstall » et « SharePointConfig ») doivent correspondre exactement aux noms des configurations envoyées au nœud cible.</target>         
+          <source>The names of the <bpt id="p1">**</bpt>PartialConfiguration<ept id="p1">**</ept> blocks (in this case, "OSInstall" and "SharePointConfig") must match exactly the names of the configurations that are pushed to the target node.</source>
+          <target state="translated">Les noms des blocs <bpt id="p1">**</bpt>PartialConfiguration<ept id="p1">**</ept> (dans ce cas, «OSInstall » et « SharePointConfig ») doivent correspondre exactement aux noms des configurations envoyées au nœud cible.</target>         
         </trans-unit>
         <trans-unit id="122" translate="yes" xml:space="preserve">
           <source>Publishing and starting push-mode partial configurations</source>
           <target state="translated">Publication et démarrage de configurations partielles en mode par envoi</target>         
         </trans-unit>
         <trans-unit id="123" translate="yes" xml:space="preserve">
-          <source><ph id="ph1">![</ph>PartialConfig folder structure<ph id="ph2">](./images/PartialConfig1.jpg)</ph></source>
-          <target state="translated"><ph id="ph1">![</ph>Structure du dossier PartialConfig<ph id="ph2">](./images/PartialConfig1.jpg)</ph></target>         
+          <source>PartialConfig folder structure</source>
+          <target state="translated">Structure du dossier PartialConfig</target>         
         </trans-unit>
         <trans-unit id="124" translate="yes" xml:space="preserve">
-          <source>You then call <bpt id="p7">**</bpt>Publish-DSCConfiguration<ept id="p7">**</ept> for each configuration, passing the folders that contain the configuration documents as the Path parameters.</source>
-          <target state="translated">Vous appelez ensuite <bpt id="p7">**</bpt>Publish-DSCConfiguration<ept id="p7">**</ept> pour chaque configuration, en passant les dossiers contenant les documents de configuration comme paramètres Path.</target>         
+          <source>You then call <bpt id="p1">**</bpt>Publish-DSCConfiguration<ept id="p1">**</ept> for each configuration, passing the folders that contain the configuration documents as the Path parameters.</source>
+          <target state="translated">Vous appelez ensuite <bpt id="p1">**</bpt>Publish-DSCConfiguration<ept id="p1">**</ept> pour chaque configuration, en passant les dossiers contenant les documents de configuration comme paramètres Path.</target>         
         </trans-unit>
         <trans-unit id="125" translate="yes" xml:space="preserve">
-          <source>After publishing both configurations, you can call <ph id="ph3">`Start-DSCConfiguration –UseExisting`</ph> on the target node.</source>
-          <target state="translated">Après avoir publié les deux configurations, vous pouvez appeler <ph id="ph3">`Start-DSCConfiguration –UseExisting`</ph> sur le nœud cible.</target>         
+          <source>After publishing both configurations, you can call <ph id="ph1">`Start-DSCConfiguration –UseExisting`</ph> on the target node.</source>
+          <target state="translated">Après avoir publié les deux configurations, vous pouvez appeler <ph id="ph1">`Start-DSCConfiguration –UseExisting`</ph> sur le nœud cible.</target>         
         </trans-unit>
         <trans-unit id="126" translate="yes" xml:space="preserve">
           <source>Partial configurations in pull mode</source>
           <target state="translated">Configurations partielles en mode par extraction</target>         
         </trans-unit>
         <trans-unit id="127" translate="yes" xml:space="preserve">
-          <source>Partial configurations can be pulled from one or more pull servers (for more information about pull servers, see <bpt id="p8">[</bpt>Windows PowerShell Desired State Configuration Pull Servers<ept id="p8">](pullServer.md)</ept>.</source>
-          <target state="translated">Les configurations partielles peuvent être extraites d’un ou plusieurs serveurs collecteurs (pour plus d’informations sur les serveurs collecteurs, consultez <bpt id="p8">[</bpt>Serveurs collecteurs de la configuration d’état souhaité Windows PowerShell<ept id="p8">](pullServer.md)</ept>.</target>         
+          <source>Partial configurations can be pulled from one or more pull servers (for more information about pull servers, see <bpt id="p1">[</bpt>Windows PowerShell Desired State Configuration Pull Servers<ept id="p1">](pullServer.md)</ept>.</source>
+          <target state="translated">Les configurations partielles peuvent être extraites d’un ou plusieurs serveurs collecteurs (pour plus d’informations sur les serveurs collecteurs, consultez <bpt id="p1">[</bpt>Serveurs collecteurs de la configuration d’état souhaité Windows PowerShell<ept id="p1">](pullServer.md)</ept>.</target>         
         </trans-unit>
         <trans-unit id="128" translate="yes" xml:space="preserve">
           <source>To do this, you have to configure the LCM on the target node to pull the partial configurations, and name and locate the configuration documents properly on the pull servers.</source>
@@ -120,12 +125,12 @@
           <target state="translated">Configuration du gestionnaire de configuration local pour les configurations en mode par extraction</target>         
         </trans-unit>
         <trans-unit id="130" translate="yes" xml:space="preserve">
-          <source>To configure the LCM to pull partial configurations from a pull server, you define the pull server in either a <bpt id="p9">**</bpt>ConfigurationRepositoryWeb<ept id="p9">**</ept> (for an HTTP pull server) or <bpt id="p10">**</bpt>ConfigurationRepositoryShare<ept id="p10">**</ept> (for an SMB pull server) block.</source>
-          <target state="translated">Pour configurer le gestionnaire de configuration local de façon à extraire les configurations partielles d’un serveur collecteur, vous définissez le serveur collecteur dans un bloc <bpt id="p9">**</bpt>ConfigurationRepositoryWeb<ept id="p9">**</ept> (pour un serveur collecteur HTTP) ou <bpt id="p10">**</bpt>ConfigurationRepositoryShare<ept id="p10">**</ept> (pour un serveur collecteur SMB).</target>         
+          <source>To configure the LCM to pull partial configurations from a pull server, you define the pull server in either a <bpt id="p1">**</bpt>ConfigurationRepositoryWeb<ept id="p1">**</ept> (for an HTTP pull server) or <bpt id="p2">**</bpt>ConfigurationRepositoryShare<ept id="p2">**</ept> (for an SMB pull server) block.</source>
+          <target state="translated">Pour configurer le gestionnaire de configuration local de façon à extraire les configurations partielles d’un serveur collecteur, vous définissez le serveur collecteur dans un bloc <bpt id="p1">**</bpt>ConfigurationRepositoryWeb<ept id="p1">**</ept> (pour un serveur collecteur HTTP) ou <bpt id="p2">**</bpt>ConfigurationRepositoryShare<ept id="p2">**</ept> (pour un serveur collecteur SMB).</target>         
         </trans-unit>
         <trans-unit id="131" translate="yes" xml:space="preserve">
-          <source>You then create <bpt id="p11">**</bpt>PartialConfiguration<ept id="p11">**</ept> blocks that refer to the pull server by using the <bpt id="p12">**</bpt>ConfigurationSource<ept id="p12">**</ept> property.</source>
-          <target state="translated">Vous créez ensuite des blocs <bpt id="p11">**</bpt>PartialConfiguration<ept id="p11">**</ept> qui font référence au serveur collecteur à l’aide de la propriété <bpt id="p12">**</bpt>ConfigurationSource<ept id="p12">**</ept>.</target>         
+          <source>You then create <bpt id="p1">**</bpt>PartialConfiguration<ept id="p1">**</ept> blocks that refer to the pull server by using the <bpt id="p2">**</bpt>ConfigurationSource<ept id="p2">**</ept> property.</source>
+          <target state="translated">Vous créez ensuite des blocs <bpt id="p1">**</bpt>PartialConfiguration<ept id="p1">**</ept> qui font référence au serveur collecteur à l’aide de la propriété <bpt id="p2">**</bpt>ConfigurationSource<ept id="p2">**</ept>.</target>         
         </trans-unit>
         <trans-unit id="132" translate="yes" xml:space="preserve">
           <source>You also need to create a Settings block to specify that the LCM uses pull mode, and to specify the ConfigurationID that the pull server and target node use to identify the configurations.</source>
@@ -140,44 +145,44 @@
           <target state="translated">Vous pouvez extraire des configurations partielles de plusieurs serveurs collecteurs, vous devez simplement définir chaque serveur collecteur, puis faire référence au serveur collecteur approprié dans chaque bloc PartialConfiguration.</target>         
         </trans-unit>
         <trans-unit id="135" translate="yes" xml:space="preserve">
-          <source>After creating the meta-configuration, you must run it to create a configuration document (a MOF file), and then call <bpt id="p13">[</bpt>Set-DscLocalConfigurationManager<ept id="p13">](https://technet.microsoft.com/en-us/library/dn521621(v=wps.630).aspx)</ept> to configure the LCM.</source>
-          <target state="translated">Après avoir créé la métaconfiguration, vous devez l’exécuter pour créer un document de configuration (un fichier MOF), puis appeler <bpt id="p13">[</bpt>Set-DscLocalConfigurationManager<ept id="p13">](https://technet.microsoft.com/en-us/library/dn521621(v=wps.630).aspx)</ept> pour configurer le gestionnaire de configuration local.</target>         
+          <source>After creating the meta-configuration, you must run it to create a configuration document (a MOF file), and then call <bpt id="p1">[</bpt>Set-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521621(v=wps.630).aspx)</ept> to configure the LCM.</source>
+          <target state="translated">Après avoir créé la métaconfiguration, vous devez l’exécuter pour créer un document de configuration (un fichier MOF), puis appeler <bpt id="p1">[</bpt>Set-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521621(v=wps.630).aspx)</ept> pour configurer le gestionnaire de configuration local.</target>         
         </trans-unit>
         <trans-unit id="136" translate="yes" xml:space="preserve">
           <source>Naming and placing the configuration documents on the pull server</source>
           <target state="translated">Attribution de noms et placement des documents de configuration sur le serveur collecteur</target>         
         </trans-unit>
         <trans-unit id="137" translate="yes" xml:space="preserve">
-          <source>The partial configuration documents must be placed in the folder specified as the <bpt id="p14">**</bpt>ConfigurationPath<ept id="p14">**</ept> in the <ph id="ph4">`web.config`</ph> file for the pull server (typically <ph id="ph5">`C:\Program Files\WindowsPowerShell\DscService\Configuration`</ph>).</source>
-          <target state="translated">Les documents de configuration partielle doivent être placés dans le dossier spécifié comme <bpt id="p14">**</bpt>ConfigurationPath<ept id="p14">**</ept> dans le fichier <ph id="ph4">`web.config`</ph> pour le serveur collecteur (généralement <ph id="ph5">`C:\Program Files\WindowsPowerShell\DscService\Configuration`</ph>).</target>         
+          <source>The partial configuration documents must be placed in the folder specified as the <bpt id="p1">**</bpt>ConfigurationPath<ept id="p1">**</ept> in the <ph id="ph1">`web.config`</ph> file for the pull server (typically <ph id="ph2">`C:\Program Files\WindowsPowerShell\DscService\Configuration`</ph>).</source>
+          <target state="translated">Les documents de configuration partielle doivent être placés dans le dossier spécifié comme <bpt id="p1">**</bpt>ConfigurationPath<ept id="p1">**</ept> dans le fichier <ph id="ph1">`web.config`</ph> pour le serveur collecteur (généralement <ph id="ph2">`C:\Program Files\WindowsPowerShell\DscService\Configuration`</ph>).</target>         
         </trans-unit>
         <trans-unit id="138" translate="yes" xml:space="preserve">
-          <source>The configuration documents must be named as follows: <bpt id="p15">_</bpt>ConfigurationName<ept id="p15">_</ept>.</source>
-          <target state="translated">Les documents de configuration doivent être nommés comme suit : <bpt id="p15">_</bpt>ConfigurationName<ept id="p15">_</ept>,</target>         
+          <source>The configuration documents must be named as follows: <bpt id="p1">_</bpt>ConfigurationName<ept id="p1">_</ept>.</source>
+          <target state="translated">Les documents de configuration doivent être nommés comme suit : <bpt id="p1">_</bpt>ConfigurationName<ept id="p1">_</ept>,</target>         
         </trans-unit>
         <trans-unit id="139" translate="yes" xml:space="preserve">
-          <source><bpt id="p16">_</bpt>ConfigurationID<ept id="p16">_</ept><ph id="ph6">`.mof`</ph>, where <bpt id="p17">_</bpt>ConfigurationName<ept id="p17">_</ept> is the name of the partial configuration and <bpt id="p18">_</bpt>ConfigurationID<ept id="p18">_</ept> is the configuration ID defined in the LCM on the target node.</source>
-          <target state="translated"><bpt id="p16">_</bpt>ConfigurationID<ept id="p16">_</ept><ph id="ph6">`.mof`</ph>, où <bpt id="p17">_</bpt>ConfigurationName<ept id="p17">_</ept> est le nom de la configuration partielle et <bpt id="p18">_</bpt>ConfigurationID<ept id="p18">_</ept> est l’ID de configuration défini dans le gestionnaire de configuration local sur le nœud cible.</target>         
+          <source><bpt id="p1">_</bpt>ConfigurationID<ept id="p1">_</ept><ph id="ph1">`.mof`</ph>, where <bpt id="p2">_</bpt>ConfigurationName<ept id="p2">_</ept> is the name of the partial configuration and <bpt id="p3">_</bpt>ConfigurationID<ept id="p3">_</ept> is the configuration ID defined in the LCM on the target node.</source>
+          <target state="translated"><bpt id="p1">_</bpt>ConfigurationID<ept id="p1">_</ept><ph id="ph1">`.mof`</ph>, où <bpt id="p2">_</bpt>ConfigurationName<ept id="p2">_</ept> est le nom de la configuration partielle et <bpt id="p3">_</bpt>ConfigurationID<ept id="p3">_</ept> est l’ID de configuration défini dans le gestionnaire de configuration local sur le nœud cible.</target>         
         </trans-unit>
         <trans-unit id="140" translate="yes" xml:space="preserve">
           <source>For our example, the configuration documents should be names as follows.</source>
           <target state="translated">Dans notre exemple, les documents de configuration doivent être nommés comme suit.</target>         
         </trans-unit>
         <trans-unit id="141" translate="yes" xml:space="preserve">
-          <source><ph id="ph7">![</ph>PartialConfig names on pull server<ph id="ph8">](images/PartialConfigPullServer.jpg)</ph></source>
-          <target state="translated"><ph id="ph7">![</ph>Noms PartialConfig sur le serveur collecteur<ph id="ph8">](images/PartialConfigPullServer.jpg)</ph></target>         
+          <source><ph id="ph1">![</ph>PartialConfig names on pull server<ph id="ph2">](images/PartialConfigPullServer.jpg)</ph></source>
+          <target state="translated"><ph id="ph1">![</ph>Noms PartialConfig sur le serveur collecteur<ph id="ph2">](images/PartialConfigPullServer.jpg)</ph></target>         
         </trans-unit>
         <trans-unit id="142" translate="yes" xml:space="preserve">
           <source>Running partial configurations from a pull server</source>
           <target state="translated">Exécution des configurations partielles d’un serveur collecteur</target>         
         </trans-unit>
         <trans-unit id="143" translate="yes" xml:space="preserve">
-          <source>After the LCM on the target node has been configured, and the configuration documents have been created and properly named on the pull server, the target node will pull the partial configurations, combine them, and apply the resulting configuration at regular intervals as specified by the <bpt id="p19">**</bpt>RefreshFrequencyMins<ept id="p19">**</ept> property of the LCM.</source>
-          <target state="translated">Une fois que le gestionnaire de configuration local a été configuré sur le nœud cible et que les documents de configuration ont été créés et correctement nommés sur le serveur collecteur, le nœud cible extrait les configurations partielles, les combine et applique la configuration obtenue à intervalles réguliers, comme spécifié par la propriété <bpt id="p19">**</bpt>RefreshFrequencyMins<ept id="p19">**</ept> du gestionnaire de configuration local.</target>         
+          <source>After the LCM on the target node has been configured, and the configuration documents have been created and properly named on the pull server, the target node will pull the partial configurations, combine them, and apply the resulting configuration at regular intervals as specified by the <bpt id="p1">**</bpt>RefreshFrequencyMins<ept id="p1">**</ept> property of the LCM.</source>
+          <target state="translated">Une fois que le gestionnaire de configuration local a été configuré sur le nœud cible et que les documents de configuration ont été créés et correctement nommés sur le serveur collecteur, le nœud cible extrait les configurations partielles, les combine et applique la configuration obtenue à intervalles réguliers, comme spécifié par la propriété <bpt id="p1">**</bpt>RefreshFrequencyMins<ept id="p1">**</ept> du gestionnaire de configuration local.</target>         
         </trans-unit>
         <trans-unit id="144" translate="yes" xml:space="preserve">
-          <source>If you want to force a refresh, you can call the Update-DscConfiguration cmdlet, to pull the configurations, and then <ph id="ph9">`Start-DSCConfiguration –UseExisting`</ph> to apply them.</source>
-          <target state="translated">Si vous voulez forcer une actualisation, vous pouvez appeler l’applet de commande Update-DscConfiguration pour extraire les configurations, puis <ph id="ph9">`Start-DSCConfiguration –UseExisting`</ph> pour les appliquer.</target>         
+          <source>If you want to force a refresh, you can call the Update-DscConfiguration cmdlet, to pull the configurations, and then <ph id="ph1">`Start-DSCConfiguration –UseExisting`</ph> to apply them.</source>
+          <target state="translated">Si vous voulez forcer une actualisation, vous pouvez appeler l’applet de commande Update-DscConfiguration pour extraire les configurations, puis <ph id="ph1">`Start-DSCConfiguration –UseExisting`</ph> pour les appliquer.</target>         
         </trans-unit>
         <trans-unit id="145" translate="yes" xml:space="preserve">
           <source>Partial configurations in mixed push and pull modes</source>
@@ -200,33 +205,34 @@
           <target state="translated">Par exemple, la métaconfiguration suivante décrit le même scénario, avec la configuration partielle du système d’exploitation en mode par extraction et la configuration partielle de SharePoint en mode par envoi.</target>         
         </trans-unit>
         <trans-unit id="150" translate="yes" xml:space="preserve">
-          <source>Note that the <bpt id="p20">**</bpt>RefreshMode<ept id="p20">**</ept> specified in the Settings block is "Pull", but the <bpt id="p21">**</bpt>RefreshMode<ept id="p21">**</ept> for the OSInstall partial configuration is "Push".</source>
-          <target state="translated">Notez que le paramètre <bpt id="p20">**</bpt>RefreshMode<ept id="p20">**</ept> spécifié dans le bloc de paramètres est « Collecte », mais que le paramètre <bpt id="p21">**</bpt>RefreshMode<ept id="p21">**</ept> de la configuration partielle OSInstall est « Émission ».</target>         
+          <source>Note that the <bpt id="p1">**</bpt>RefreshMode<ept id="p1">**</ept> specified in the Settings block is "Pull", but the <bpt id="p2">**</bpt>RefreshMode<ept id="p2">**</ept> for the OSInstall partial configuration is "Push".</source>
+          <target state="translated">Notez que le paramètre <bpt id="p1">**</bpt>RefreshMode<ept id="p1">**</ept> spécifié dans le bloc de paramètres est « Collecte », mais que le paramètre <bpt id="p2">**</bpt>RefreshMode<ept id="p2">**</ept> de la configuration partielle OSInstall est « Émission ».</target>         
         </trans-unit>
         <trans-unit id="151" translate="yes" xml:space="preserve">
           <source>You would name and locate the configuration documents as described above for their respective refresh modes.</source>
           <target state="translated">Vous nommez et localisez les documents de configuration comme décrit ci-dessus selon leurs modes d’actualisation respectifs.</target>         
         </trans-unit>
         <trans-unit id="152" translate="yes" xml:space="preserve">
-          <source>You would call <bpt id="p22">**</bpt>Publish-DSCConfiguration<ept id="p22">**</ept> to publish the SharePointInstall partial configuration, and either wait for the OSInstall configuration to be pulled from the pull server, or force a refresh by calling <bpt id="p23">[</bpt>Update-DscConfiguration<ept id="p23">](https://technet.microsoft.com/en-us/library/mt143541(v=wps.630).aspx)</ept>.</source>
-          <target state="translated">Vous appelez <bpt id="p22">**</bpt>Publish-DSCConfiguration<ept id="p22">**</ept> pour publier la configuration partielle SharePointInstall, et vous attendez que la configuration OSInstall soit extraite du serveur collecteur ou vous forcez une actualisation en appelant <bpt id="p23">[</bpt>Update-DscConfiguration<ept id="p23">](https://technet.microsoft.com/en-us/library/mt143541(v=wps.630).aspx)</ept>.</target>         
+          <source>You would call <bpt id="p1">**</bpt>Publish-DSCConfiguration<ept id="p1">**</ept> to publish the SharePointInstall partial configuration, and either wait for the OSInstall configuration to be pulled from the pull server, or force a refresh by calling <bpt id="p2">[</bpt>Update-DscConfiguration<ept id="p2">](https://technet.microsoft.com/en-us/library/mt143541(v=wps.630).aspx)</ept>.</source>
+          <target state="translated">Vous appelez <bpt id="p1">**</bpt>Publish-DSCConfiguration<ept id="p1">**</ept> pour publier la configuration partielle SharePointInstall, et vous attendez que la configuration OSInstall soit extraite du serveur collecteur ou vous forcez une actualisation en appelant <bpt id="p2">[</bpt>Update-DscConfiguration<ept id="p2">](https://technet.microsoft.com/en-us/library/mt143541(v=wps.630).aspx)</ept>.</target>         
         </trans-unit>
         <trans-unit id="153" translate="yes" xml:space="preserve">
           <source>See Also</source>
           <target state="translated">Voir aussi</target>         
         </trans-unit>
         <trans-unit id="154" translate="yes" xml:space="preserve">
-          <source><bpt id="p24">**</bpt>Concepts<ept id="p24">**</ept>
-<bpt id="p25">[</bpt>Windows PowerShell Desired State Configuration Pull Servers<ept id="p25">](pullServer.md)</ept> 
-<bpt id="p26">[</bpt>Windows Configuring the Local Configuration Manager<ept id="p26">](https://technet.microsoft.com/en-us/library/mt421188.aspx)</ept></source>
-          <target state="translated"><bpt id="p24">**</bpt>Concepts<ept id="p24">**</ept>
-<bpt id="p25">[</bpt>Serveurs collecteurs de la configuration d’état souhaité Windows PowerShell<ept id="p25">](pullServer.md)</ept> 
-<bpt id="p26">[</bpt>Configuring the Local Configuration Manager<ept id="p26">](https://technet.microsoft.com/en-us/library/mt421188.aspx)</ept></target>         
+          <source>Concepts</source>
+          <target state="translated">Concepts</target>         
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Desired State Configuration Pull Servers</source>
+          <target state="translated">Serveurs collecteurs de la configuration d’état souhaité Windows PowerShell</target>         
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Windows Configuring the Local Configuration Manager</source>
+          <target state="translated">Configuration du gestionnaire de configuration local</target>         
         </trans-unit>
       </group>
     </body>
   </file>
-  <header xmlns="">
-    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3f1843e8a1335617c562084ce69fc82ae7c2c694</xliffext:olfilehash>
-  </header>
 </xliff>
