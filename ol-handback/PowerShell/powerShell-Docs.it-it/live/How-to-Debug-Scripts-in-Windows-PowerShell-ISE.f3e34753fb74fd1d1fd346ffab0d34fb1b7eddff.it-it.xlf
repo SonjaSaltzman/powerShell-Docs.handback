@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="md" source-language="en-US" target-language="it-it">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">641d94404b4d0addb5bfc139f1f154c822e7f605</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-04046aa" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>How to Debug Scripts in Windows PowerShell ISE</source>
+          <target state="translated">Modalità di esecuzione del debug degli script in Windows PowerShell ISE</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>How to Debug Scripts in Windows PowerShell ISE</source>
+          <target state="translated">Modalità di esecuzione del debug degli script in Windows PowerShell ISE</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This topic describes how to debug scripts on a local computer by using the <ph id="ph1">[!INCLUDE[ise_1](../Token/ise_1_md.md)]</ph> visual debugging features.</source>
+          <target state="translated">Questo argomento illustra come eseguire il debug degli script in un computer locale usando le funzionalità di debug visivo di <ph id="ph1">[!INCLUDE[ise_1](../Token/ise_1_md.md)]</ph>.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>How to manage breakpoints</source>
+          <target state="translated">Come gestire i punti di interruzione</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>How to manage a debugging session</source>
+          <target state="translated">Come gestire una sessione di debug</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>How to step over, step into, and step out while debugging</source>
+          <target state="translated">Come eseguire un'istruzione/routine, eseguire un'istruzione e uscire da un'istruzione/routine durante il debug</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>How to display the values of variables while debugging</source>
+          <target state="translated">Come visualizzare i valori delle variabili durante il debug</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="bkmk_1"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>How to manage breakpoints</source>
+          <target state="translated"><ph id="ph1">&lt;a name="bkmk_1"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Come gestire i punti di interruzione</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>A breakpoint is a designated spot in a script where you would like operation to pause so that you can examine the current state of the variables and the environment in which your script is running.</source>
+          <target state="translated">Un punto di interruzione è un punto specificato all'interno di uno script in cui si vuole sospendere l'esecuzione delle operazioni per poter esaminare lo stato corrente delle variabili e l'ambiente di esecuzione dello script.</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Once your script is paused by a breakpoint, you can run commands in the Console Pane to examine the state of your script.</source>
+          <target state="translated">Quando lo script viene sospeso da un punto di interruzione, è possibile eseguire comandi nel riquadro della console per esaminare lo stato dello script.</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can output variables or run other commands.</source>
+          <target state="translated">È anche possibile eseguire l'output di variabili o eseguire altri comandi.</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can even modify the value of any variables that are visible to the context of the currently running script.</source>
+          <target state="translated">Si può persino modificare il valore di tutte le variabili visibili nel contesto dello script attualmente in esecuzione.</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>After you have examined what you want to see, you can resume operation of the script.</source>
+          <target state="translated">Dopo aver esaminato gli elementi desiderati, è possibile riavviare l'esecuzione dello script.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can set three types of breakpoints in the Windows PowerShell debugging environment:</source>
+          <target state="translated">Nell'ambiente di debug di Windows PowerShell si possono impostare tre tipi di punti di interruzione:</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Line breakpoint<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Punto di interruzione riga<ept id="p1">**</ept></target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The script pauses when the designated line is reached during the operation of the script</source>
+          <target state="translated">Lo script viene sospeso quando durante l'esecuzione viene raggiunta la riga specificata</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Variable breakpoint.</source>
+          <target state="translated">Punto di interruzione variabile.</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The script pauses whenever the designated variable’s value changes.</source>
+          <target state="translated">Lo script viene sospeso ogni volta che il valore della variabile specificata cambia.</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Command breakpoint.</source>
+          <target state="translated">Punto di interruzione comando.</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The script pauses whenever the designated command is about to be run during the operation of the script.</source>
+          <target state="translated">Lo script viene sospeso ogni volta che durante il funzionamento dello script sta per essere eseguito il comando specificato.</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>It can include parameters to further filter the breakpoint to only the operation you want.</source>
+          <target state="translated">Può includere parametri per filtrare ulteriormente il punto di interruzione alla sola operazione desiderata.</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The command can also be a function you created.</source>
+          <target state="translated">Il comando può essere anche una funzione creata dall'utente.</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Of these, in the <ph id="ph1">[!INCLUDE[ise_2](../Token/ise_2_md.md)]</ph> debugging environment, only line breakpoints can be set by using the menu or the keyboard shortcuts.</source>
+          <target state="translated">Nell'ambiente di debug di <ph id="ph1">[!INCLUDE[ise_2](../Token/ise_2_md.md)]</ph>, solo i punti di interruzione riga possono essere impostati usando il menu o i tasti di scelta rapida.</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The other two types of breakpoints can be set, but they are set from the Console Pane by using the <bpt id="p1">[</bpt>Set-PSBreakpoint [m2]<ept id="p1">](https://technet.microsoft.com/en-us/library/88d2d9ad-17dc-44ae-99aa-f841125b9dc8)</ept> cmdlet.</source>
+          <target state="translated">Gli altri due tipi di punti di interruzione vanno impostati dal riquadro della console usando il cmdlet <bpt id="p1">[</bpt>Set-PSBreakpoint [m2]<ept id="p1">](https://technet.microsoft.com/en-us/library/88d2d9ad-17dc-44ae-99aa-f841125b9dc8)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This section describes how you can perform debugging tasks in <ph id="ph1">[!INCLUDE[ise_2](../Token/ise_2_md.md)]</ph> by using the menus where available, and perform a wider range of commands from the Console Pane by using scripting.</source>
+          <target state="translated">Questa sezione illustra come eseguire le attività di debug in <ph id="ph1">[!INCLUDE[ise_2](../Token/ise_2_md.md)]</ph> usando i comandi di menu, ove disponibili, e come eseguire una più ampia gamma di comandi dal riquadro della console mediante l'uso di script.</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To set a breakpoint</source>
+          <target state="translated">Per impostare un punto di interruzione</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A breakpoint can be set in a script only after it has been saved.</source>
+          <target state="translated">È possibile impostare un punto di interruzione in uno script solo dopo averlo salvato.</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Right\-click the line where you want to set a line breakpoint, and then click <bpt id="p1">**</bpt>Toggle Breakpoint<ept id="p1">**</ept>.</source>
+          <target state="translated">Fare clic con il pulsante destro del mouse sulla riga in cui si vuole impostare un punto di interruzione e scegliere <bpt id="p1">**</bpt>Attiva/disattiva punto di interruzione<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Or, click the line where you want to set a line breakpoint, and press <bpt id="p1">**</bpt>F9<ept id="p1">**</ept> or, on the <bpt id="p2">**</bpt>Debug<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Toggle Breakpoint<ept id="p3">**</ept>.</source>
+          <target state="translated">In alternativa, fare clic sulla riga in cui si vuole impostare un punto di interruzione e premere <bpt id="p1">**</bpt>F9<ept id="p1">**</ept> oppure scegliere <bpt id="p2">**</bpt>Attiva/disattiva punto di interruzione<ept id="p2">**</ept> dal menu <bpt id="p3">**</bpt>Debug<ept id="p3">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The following script is an example of how you can set a variable breakpoint from the Console Pane by using the <bpt id="p1">[</bpt>Set-PSBreakpoint<ept id="p1">](https://technet.microsoft.com/en-us/library/6afd5d2c-a285-4796-8607-3cbf49471420)</ept> cmdlet.</source>
+          <target state="translated">Lo script seguente è un esempio di come si può impostare un punto di interruzione variabile dal riquadro della console usando il cmdlet <bpt id="p1">[</bpt>Set-PSBreakpoint<ept id="p1">](https://technet.microsoft.com/en-us/library/6afd5d2c-a285-4796-8607-3cbf49471420)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>List all breakpoints</source>
+          <target state="translated">Elencare tutti i punti di interruzione</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Displays all breakpoints in the current <ph id="ph1">[!INCLUDE[wps_1](../Token/wps_1_md.md)]</ph> session.</source>
+          <target state="translated">Questo comando mostra tutti i punti di interruzione nella sessione di <ph id="ph1">[!INCLUDE[wps_1](../Token/wps_1_md.md)]</ph> corrente.</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Debug<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>List Breakpoints<ept id="p2">**</ept>.</source>
+          <target state="translated">Scegliere <bpt id="p1">**</bpt>Elenca punti di interruzione<ept id="p1">**</ept> dal menu <bpt id="p2">**</bpt>Debug<ept id="p2">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The following script is an example of how you can list all breakpoints from the Console Pane by using the <bpt id="p1">[</bpt>Get-PSBreakpoint<ept id="p1">](https://technet.microsoft.com/en-us/library/0bf48936-00ab-411c-b5e0-9b10a812a3c6)</ept> cmdlet.</source>
+          <target state="translated">Lo script seguente è un esempio di come si può ottenere un elenco di tutti i punti di interruzione dal riquadro della console usando il cmdlet <bpt id="p1">[</bpt>Get-PSBreakpoint<ept id="p1">](https://technet.microsoft.com/en-us/library/0bf48936-00ab-411c-b5e0-9b10a812a3c6)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Remove a breakpoint</source>
+          <target state="translated">Rimuovere un punto di interruzione</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Removing a breakpoint deletes it.</source>
+          <target state="translated">Rimuovere un punto di interruzione equivale a eliminarlo.</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If you think you might want to use it again later, consider <bpt id="p1">[</bpt>disabling<ept id="p1">](#bkmk_disable)</ept> it instead.</source>
+          <target state="translated">Se si pensa di riutilizzarlo in un momento successivo, si può anche pensare di <bpt id="p1">[</bpt>disabilitarlo<ept id="p1">](#bkmk_disable)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Right\-click the line where you want to remove a breakpoint, and then click <bpt id="p1">**</bpt>Toggle Breakpoint<ept id="p1">**</ept>.</source>
+          <target state="translated">Fare clic con il pulsante destro del mouse sulla riga in cui si vuole rimuovere un punto di interruzione e scegliere <bpt id="p1">**</bpt>Attiva/disattiva punto di interruzione<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Or, click the line where you want to remove a breakpoint, and on the <bpt id="p1">**</bpt>Debug<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>Toggle Breakpoint<ept id="p2">**</ept>.</source>
+          <target state="translated">In alternativa, fare clic sulla riga in cui si vuole rimuovere un punto di interruzione e scegliere <bpt id="p1">**</bpt>Attiva/disattiva punto di interruzione<ept id="p1">**</ept> dal menu <bpt id="p2">**</bpt>Debug<ept id="p2">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The following script is an example of how to remove a breakpoint with a specified ID from the Console Pane by using the <bpt id="p1">[</bpt>Remove-PSBreakpoint<ept id="p1">](https://technet.microsoft.com/en-us/library/4c877a80-0ea0-4790-9281-88c08ef0ddd6)</ept> cmdlet.</source>
+          <target state="translated">Lo script seguente è un esempio di come si può rimuovere un punto di interruzione con un ID specificato dal riquadro della console usando il cmdlet <bpt id="p1">[</bpt>Remove-PSBreakpoint<ept id="p1">](https://technet.microsoft.com/en-us/library/4c877a80-0ea0-4790-9281-88c08ef0ddd6)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Remove All Breakpoints</source>
+          <target state="translated">Rimuovere tutti i punti di interruzione</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To remove all breakpoints defined in the current session, on the <bpt id="p1">**</bpt>Debug<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>Remove All Breakpoints<ept id="p2">**</ept>.</source>
+          <target state="translated">Per rimuovere tutti i punti di interruzione definiti nella sessione corrente, scegliere <bpt id="p1">**</bpt>Rimuovi tutti i punti di interruzione<ept id="p1">**</ept> dal menu <bpt id="p2">**</bpt>Debug<ept id="p2">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The following script is an example of how to remove all breakpoints from the Console Pane by using the <bpt id="p1">[</bpt>Remove-PSBreakpoint<ept id="p1">](https://technet.microsoft.com/en-us/library/4c877a80-0ea0-4790-9281-88c08ef0ddd6)</ept> cmdlet.</source>
+          <target state="translated">Lo script seguente è un esempio di come si possono rimuovere tutti i punti di interruzione dal riquadro della console usando il cmdlet <bpt id="p1">[</bpt>Remove-PSBreakpoint<ept id="p1">](https://technet.microsoft.com/en-us/library/4c877a80-0ea0-4790-9281-88c08ef0ddd6)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="bkmk_disable"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Disable a Breakpoint</source>
+          <target state="translated"><ph id="ph1">&lt;a name="bkmk_disable"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Disabilitare un punto di interruzione</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Disabling a breakpoint does not remove it; it turns it off until it is enabled.</source>
+          <target state="translated">La disabilitazione di un punto di interruzione non ne comporta la rimozione, ma la disattivazione fino a quando non viene abilitato di nuovo.</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To disable a specific line breakpoint, right\-click the line where you want to disable a breakpoint, and then click <bpt id="p1">**</bpt>Disable Breakpoint<ept id="p1">**</ept>.</source>
+          <target state="translated">Per disabilitare uno specifico punto di interruzione riga, fare clic con il pulsante destro del mouse sulla riga in cui si trova e quindi scegliere <bpt id="p1">**</bpt>Disattiva punto di interruzione<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Or, click the line where you want to disable a breakpoint, and press <bpt id="p1">**</bpt>F9<ept id="p1">**</ept> or, on the <bpt id="p2">**</bpt>Debug<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Disable Breakpoint<ept id="p3">**</ept>.</source>
+          <target state="translated">In alternativa, fare clic sulla riga in cui si vuole disabilitare un punto di interruzione e premere <bpt id="p1">**</bpt>F9<ept id="p1">**</ept> oppure scegliere <bpt id="p2">**</bpt>Disattiva punto di interruzione<ept id="p2">**</ept> dal menu <bpt id="p3">**</bpt>Debug<ept id="p3">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The following script is an example of how you can remove a breakpoint with a specified ID from the Console Pane by using the <bpt id="p1">[</bpt>Disable-PSBreakpoint<ept id="p1">](https://technet.microsoft.com/en-us/library/d4974e9b-0aaa-4e20-b87f-f599a413e4e8)</ept> cmdlet.</source>
+          <target state="translated">Lo script seguente è un esempio di come si può rimuovere un punto di interruzione con un ID specificato dal riquadro della console usando il cmdlet <bpt id="p1">[</bpt>Disable-PSBreakpoint<ept id="p1">](https://technet.microsoft.com/en-us/library/d4974e9b-0aaa-4e20-b87f-f599a413e4e8)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Disable All Breakpoints</source>
+          <target state="translated">Disabilitare tutti i punti di interruzione</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Disabling a breakpoint does not remove it; it turns it off until it is enabled.</source>
+          <target state="translated">La disabilitazione di un punto di interruzione non ne comporta la rimozione, ma la disattivazione fino a quando non viene abilitato di nuovo.</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To disable all breakpoints in the current session, on the <bpt id="p1">**</bpt>Debug<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>Disable all Breakpoints<ept id="p2">**</ept>.</source>
+          <target state="translated">Per disabilitare tutti i punti di interruzione definiti nella sessione corrente, scegliere <bpt id="p1">**</bpt>Disattiva tutti i punti di interruzione<ept id="p1">**</ept> dal menu <bpt id="p2">**</bpt>Debug<ept id="p2">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The following script is an example of how you can disable all breakpoints from the Console Pane by using the <bpt id="p1">[</bpt>Disable-PSBreakpoint<ept id="p1">](https://technet.microsoft.com/en-us/library/d4974e9b-0aaa-4e20-b87f-f599a413e4e8)</ept> cmdlet.</source>
+          <target state="translated">Lo script seguente è un esempio di come si possono disabilitare tutti i punti di interruzione dal riquadro della console usando il cmdlet <bpt id="p1">[</bpt>Disable-PSBreakpoint<ept id="p1">](https://technet.microsoft.com/en-us/library/d4974e9b-0aaa-4e20-b87f-f599a413e4e8)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Enable a Breakpoint</source>
+          <target state="translated">Abilitare un punto di interruzione</target>         
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To enable a specific breakpoint, right\-click the line where you want to enable a breakpoint, and then click <bpt id="p1">**</bpt>Enable Breakpoint<ept id="p1">**</ept>.</source>
+          <target state="translated">Per abilitare uno specifico punto di interruzione, fare clic con il pulsante destro del mouse sulla riga in cui si trova e quindi scegliere <bpt id="p1">**</bpt>Attiva punto di interruzione<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Or, click the line where you want to enable a breakpoint, and then press <bpt id="p1">**</bpt>F9<ept id="p1">**</ept> or, on the <bpt id="p2">**</bpt>Debug<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Enable Breakpoint<ept id="p3">**</ept>.</source>
+          <target state="translated">In alternativa, fare clic sulla riga in cui si vuole abilitare un punto di interruzione e premere <bpt id="p1">**</bpt>F9<ept id="p1">**</ept> oppure scegliere <bpt id="p2">**</bpt>Attiva punto di interruzione<ept id="p2">**</ept> dal menu <bpt id="p3">**</bpt>Debug<ept id="p3">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The following script is an example of how you can enable specific breakpoints from the Console Pane by using the <bpt id="p1">[</bpt>Enable-PSBreakpoint<ept id="p1">](https://technet.microsoft.com/en-us/library/739e1091-3b3f-405f-a428-bec7543e5df0)</ept> cmdlet.</source>
+          <target state="translated">Lo script seguente è un esempio di come si possono abilitare specifici punti di interruzione dal riquadro della console usando il cmdlet <bpt id="p1">[</bpt>Enable-PSBreakpoint<ept id="p1">](https://technet.microsoft.com/en-us/library/739e1091-3b3f-405f-a428-bec7543e5df0)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Enable All Breakpoints</source>
+          <target state="translated">Abilitare tutti i punti di interruzione</target>         
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>To enable all breakpoints defined in the current session, on the <bpt id="p1">**</bpt>Debug<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>Enable all Breakpoints<ept id="p2">**</ept>.</source>
+          <target state="translated">Per abilitare tutti i punti di interruzione definiti nella sessione corrente, scegliere <bpt id="p1">**</bpt>Attiva tutti i punti di interruzione<ept id="p1">**</ept> dal menu <bpt id="p2">**</bpt>Debug<ept id="p2">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The following script is an example of how you can enable all breakpoints from the Console Pane by using the <bpt id="p1">[</bpt>Enable-PSBreakpoint<ept id="p1">](https://technet.microsoft.com/en-us/library/739e1091-3b3f-405f-a428-bec7543e5df0)</ept> cmdlet.</source>
+          <target state="translated">Lo script seguente è un esempio di come si possono abilitare tutti i punti di interruzione dal riquadro della console usando il cmdlet <bpt id="p1">[</bpt>Enable-PSBreakpoint<ept id="p1">](https://technet.microsoft.com/en-us/library/739e1091-3b3f-405f-a428-bec7543e5df0)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="bkmk_2"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>How to manage a debugging session</source>
+          <target state="translated"><ph id="ph1">&lt;a name="bkmk_2"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Come gestire una sessione di debug</target>         
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Before you start debugging, you must set one or more breakpoints.</source>
+          <target state="translated">Prima di avviare il debug è necessario impostare uno o più punti di interruzione.</target>         
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You cannot set a breakpoint unless the script that you want to debug is saved.</source>
+          <target state="translated">Non si può impostare un punto di interruzione finché lo script di cui si vuole eseguire il debug non è stato salvato.</target>         
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>For directions on of how to set a breakpoint, see <bpt id="p1">[</bpt>How to manage breakpoints<ept id="p1">](#bkmk_1)</ept> or <bpt id="p2">[</bpt>Set-PSBreakpoint<ept id="p2">](https://technet.microsoft.com/en-us/library/6afd5d2c-a285-4796-8607-3cbf49471420)</ept>.</source>
+          <target state="translated">Per istruzioni su come impostare un punto di interruzione, vedere <bpt id="p1">[</bpt>Come gestire i punti di interruzione<ept id="p1">](#bkmk_1)</ept> o <bpt id="p2">[</bpt>Set-PSBreakpoint<ept id="p2">](https://technet.microsoft.com/en-us/library/6afd5d2c-a285-4796-8607-3cbf49471420)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>After you start debugging, you cannot edit a script until you stop debugging.</source>
+          <target state="translated">Dopo avere avviato il debug, non è possibile modificare uno script se non si arresta il debug.</target>         
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>A script that has one or more breakpoints set is automatically saved before it is run.</source>
+          <target state="translated">Uno script in cui sono impostati uno o più punti di interruzione viene salvato automaticamente prima dell'esecuzione.</target>         
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>To start debugging</source>
+          <target state="translated">Per avviare il debug</target>         
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Press <bpt id="p1">**</bpt>F5<ept id="p1">**</ept> or, on the toolbar, click the <bpt id="p2">**</bpt>Run Script<ept id="p2">**</ept> icon, or on the <bpt id="p3">**</bpt>Debug<ept id="p3">**</ept> menu click <bpt id="p4">**</bpt>Run\/Continue<ept id="p4">**</ept>.</source>
+          <target state="translated">Premere <bpt id="p1">**</bpt>F5<ept id="p1">**</ept> o fare clic sull'icona <bpt id="p2">**</bpt>Esegui script<ept id="p2">**</ept> sulla barra degli strumenti oppure in alternativa scegliere <bpt id="p3">**</bpt>Esegui/Continua<ept id="p3">**</ept> dal menu <bpt id="p4">**</bpt>Debug<ept id="p4">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The script runs until it encounters the first breakpoint.</source>
+          <target state="translated">Lo script viene eseguito finché non incontra il primo punto di interruzione.</target>         
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>It pauses operation there and highlights the line on which it paused.</source>
+          <target state="translated">L'esecuzione viene sospesa e la riga in cui è stata sospesa viene evidenziata.</target>         
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>To continue debugging</source>
+          <target state="translated">Per continuare il debug</target>         
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Press <bpt id="p1">**</bpt>F5<ept id="p1">**</ept> or, on the toolbar, click the <bpt id="p2">**</bpt>Run Script<ept id="p2">**</ept> icon, or on the <bpt id="p3">**</bpt>Debug<ept id="p3">**</ept> menu, click <bpt id="p4">**</bpt>Run\/Continue<ept id="p4">**</ept> or, in the Console Pane, type <bpt id="p5">**</bpt>C<ept id="p5">**</ept> and then press <bpt id="p6">**</bpt>ENTER<ept id="p6">**</ept>.</source>
+          <target state="translated">Premere <bpt id="p1">**</bpt>F5<ept id="p1">**</ept> o fare clic sull'icona <bpt id="p2">**</bpt>Esegui script<ept id="p2">**</ept> sulla barra degli strumenti. In alternativa, scegliere <bpt id="p3">**</bpt>Esegui/Continua<ept id="p3">**</ept> dal menu <bpt id="p4">**</bpt>Debug<ept id="p4">**</ept> oppure digitare <bpt id="p5">**</bpt>C<ept id="p5">**</ept> nel riquadro della console e premere <bpt id="p6">**</bpt>INVIO<ept id="p6">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>This causes the script to continue running to the next breakpoint or to the end of the script if no further breakpoints are encountered.</source>
+          <target state="translated">In questo modo, l'esecuzione dello script continua fino al punto di interruzione successivo o, se non ne sono presenti altri, fino al termine dello script.</target>         
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>To view the call stack</source>
+          <target state="translated">Per visualizzare lo stack di chiamate</target>         
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The call stack displays the current run location in the script.</source>
+          <target state="translated">Lo stack di chiamate mostra la posizione di esecuzione corrente nello script.</target>         
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>If the script is running in a function that was called by a different function, then that is represented in the display by additional rows in the output.</source>
+          <target state="translated">Se lo script è in esecuzione in una funzione chiamata da una funzione diversa, questa situazione viene rappresentata visualizzando righe aggiuntive nell'output.</target>         
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The bottom\-most row displays the original script and the line in it in which a function was called.</source>
+          <target state="translated">L'ultima riga mostra lo script originale e la riga in cui è stata chiamata una funzione.</target>         
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The next line up shows that function and the line in it in which another function might have been called.</source>
+          <target state="translated">La riga successiva mostra tale funzione e la riga in cui potrebbe essere stata chiamata un'altra funzione.</target>         
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The top\-most row shows the current context of the current line on which the breakpoint is set.</source>
+          <target state="translated">La prima riga mostra il contesto corrente della riga corrente in cui è impostato il punto di interruzione.</target>         
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>While paused, to see the current call stack, press <bpt id="p1">**</bpt>CTRL\+SHIFT\+D<ept id="p1">**</ept> or, on the <bpt id="p2">**</bpt>Debug<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Display Call Stack<ept id="p3">**</ept> or, in the Console Pane, type <bpt id="p4">**</bpt>K<ept id="p4">**</ept> and then press <bpt id="p5">**</bpt>ENTER<ept id="p5">**</ept>.</source>
+          <target state="translated">Per vedere lo stack di chiamate corrente mentre l'esecuzione è sospesa, premere <bpt id="p1">**</bpt>CTRL+MAIUSC+D<ept id="p1">**</ept>. In alternativa, scegliere <bpt id="p2">**</bpt>Visualizza lo stack di chiamate<ept id="p2">**</ept> dal menu <bpt id="p3">**</bpt>Debug<ept id="p3">**</ept> oppure digitare <bpt id="p4">**</bpt>K<ept id="p4">**</ept> nel riquadro della console e premere <bpt id="p5">**</bpt>INVIO<ept id="p5">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>To stop debugging</source>
+          <target state="translated">Per arrestare il debug</target>         
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Press <bpt id="p1">**</bpt>SHIFT\-F5<ept id="p1">**</ept> or, on the <bpt id="p2">**</bpt>Debug<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Stop Debugger<ept id="p3">**</ept>, or, in the Console Pane, type <bpt id="p4">**</bpt>Q<ept id="p4">**</ept> and then press <bpt id="p5">**</bpt>ENTER<ept id="p5">**</ept>.</source>
+          <target state="translated">Premere <bpt id="p1">**</bpt>MAIUSC+F5<ept id="p1">**</ept>, scegliere <bpt id="p2">**</bpt>Arresta debugger<ept id="p2">**</ept> dal menu <bpt id="p3">**</bpt>Debug<ept id="p3">**</ept> oppure digitare <bpt id="p4">**</bpt>Q<ept id="p4">**</ept> nel riquadro della console e premere <bpt id="p5">**</bpt>INVIO<ept id="p5">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="bkmk_3"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>How to step over, step into, and step out while debugging</source>
+          <target state="translated"><ph id="ph1">&lt;a name="bkmk_3"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Come eseguire un'istruzione/routine, eseguire un'istruzione e uscire da un'istruzione/routine durante il debug</target>         
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Stepping is the process of running one statement at a time.</source>
+          <target state="translated">Per il debug è fondamentale eseguire le istruzioni una alla volta in varie modalità.</target>         
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>You can stop on a line of code, and examine the values of variables and the state of the system.</source>
+          <target state="translated">È possibile arrestare il debug in corrispondenza di una riga di codice ed esaminare i valori delle variabili e lo stato del sistema.</target>         
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The following table describes common debugging tasks such as stepping over, stepping into, and stepping out.</source>
+          <target state="translated">La tabella seguente descrive le attività di debug comuni, ad esempio eseguire un'istruzione/routine, eseguire un'istruzione e uscire da un'istruzione/routine.</target>         
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Debugging Task</source>
+          <target state="translated">Attività di debug</target>         
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Descrizione</target>         
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>How to accomplish it in PowerShell ISE</source>
+          <target state="translated">Modalità di esecuzione in PowerShell ISE</target>         
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Step Into</source>
+          <target state="translated">Esegui istruzione</target>         
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Executes the current statement and then stops at the next statement.</source>
+          <target state="translated">Esegue l'istruzione corrente e quindi arresta l'esecuzione in corrispondenza dell'istruzione successiva.</target>         
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>If the current statement is a function or script call, then the debugger steps into that function or script, otherwise it stops at the next statement.</source>
+          <target state="translated">Se l'istruzione corrente è una chiamata di funzione o di script, il debugger esegue tale funzione o script. In caso contrario, si ferma in corrispondenza dell'istruzione successiva.</target>         
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Press <bpt id="p1">**</bpt>F11<ept id="p1">**</ept> or, on the <bpt id="p2">**</bpt>Debug<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Step Into<ept id="p3">**</ept>, or in the Console Pane, type <bpt id="p4">**</bpt>S<ept id="p4">**</ept> and press <bpt id="p5">**</bpt>ENTER<ept id="p5">**</ept>.</source>
+          <target state="translated">Premere <bpt id="p1">**</bpt>F11<ept id="p1">**</ept>, scegliere <bpt id="p2">**</bpt>Esegui istruzione<ept id="p2">**</ept> dal menu <bpt id="p3">**</bpt>Debug<ept id="p3">**</ept> oppure digitare <bpt id="p4">**</bpt>S<ept id="p4">**</ept> nel riquadro della console e premere <bpt id="p5">**</bpt>INVIO<ept id="p5">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Step Over</source>
+          <target state="translated">Esegui istruzione/routine</target>         
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Executes the current statement and then stops at the next statement.</source>
+          <target state="translated">Esegue l'istruzione corrente e quindi arresta l'esecuzione in corrispondenza dell'istruzione successiva.</target>         
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>If the current statement is a function or script call then the debugger executes the whole function or script, and it stops at the next statement after the function call.</source>
+          <target state="translated">Se l'istruzione corrente è una chiamata di funzione o di script, il debugger esegue l'intera funzione o script e si ferma in corrispondenza dell'istruzione successiva alla chiamata di funzione.</target>         
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Press <bpt id="p1">**</bpt>F10<ept id="p1">**</ept> or, on the <bpt id="p2">**</bpt>Debug<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Step Over<ept id="p3">**</ept>, or in the Console Pane, type <bpt id="p4">**</bpt>V<ept id="p4">**</ept> and press <bpt id="p5">**</bpt>ENTER<ept id="p5">**</ept>.</source>
+          <target state="translated">Premere <bpt id="p1">**</bpt>F10<ept id="p1">**</ept>, scegliere <bpt id="p2">**</bpt>Esegui istruzione/routine<ept id="p2">**</ept> dal menu <bpt id="p3">**</bpt>Debug<ept id="p3">**</ept> oppure digitare <bpt id="p4">**</bpt>V<ept id="p4">**</ept> nel riquadro della console e premere <bpt id="p5">**</bpt>INVIO<ept id="p5">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Step Out</source>
+          <target state="translated">Esci da istruzione/routine</target>         
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Steps out of the current function and up one level if the function is nested.</source>
+          <target state="translated">Esce dall'istruzione/routine della funzione corrente e risale di un livello se la funzione è nidificata.</target>         
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>If in the main body, the script is executed to the end, or to the next breakpoint.</source>
+          <target state="translated">Se si trova nel corpo principale, lo script viene eseguito fino al termine o fino al punto di interruzione successivo.</target>         
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The skipped statements are executed, but not stepped through.</source>
+          <target state="translated">Le istruzioni ignorate vengono eseguite, ma non una alla volta.</target>         
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Press <bpt id="p1">**</bpt>SHIFT\+F11<ept id="p1">**</ept>, or on the <bpt id="p2">**</bpt>Debug<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Step Out<ept id="p3">**</ept>, or in the Console Pane, type <bpt id="p4">**</bpt>O<ept id="p4">**</ept> and press <bpt id="p5">**</bpt>ENTER<ept id="p5">**</ept>.</source>
+          <target state="translated">Premere <bpt id="p1">**</bpt>MAIUSC+F11<ept id="p1">**</ept>, scegliere <bpt id="p2">**</bpt>Esci da istruzione/routine<ept id="p2">**</ept> dal menu <bpt id="p3">**</bpt>Debug<ept id="p3">**</ept> oppure digitare <bpt id="p4">**</bpt>O<ept id="p4">**</ept> nel riquadro della console e premere <bpt id="p5">**</bpt>INVIO<ept id="p5">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Continue</source>
+          <target state="translated">Continua</target>         
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Continues execution to the end, or to the next breakpoint.</source>
+          <target state="translated">Continua l'esecuzione fino al termine o fino al punto di interruzione successivo.</target>         
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The skipped functions and invocations are executed, but not stepped through.</source>
+          <target state="translated">Le funzioni e le chiamate ignorate vengono eseguite, ma non una alla volta.</target>         
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Press <bpt id="p1">**</bpt>F5<ept id="p1">**</ept> or, on the <bpt id="p2">**</bpt>Debug<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Run\/Continue<ept id="p3">**</ept>, or in the Console Pane, type <bpt id="p4">**</bpt>C<ept id="p4">**</ept> and press <bpt id="p5">**</bpt>ENTER<ept id="p5">**</ept>.</source>
+          <target state="translated">Premere <bpt id="p1">**</bpt>F5<ept id="p1">**</ept>, scegliere <bpt id="p2">**</bpt>Esegui/Continua<ept id="p2">**</ept> dal menu <bpt id="p3">**</bpt>Debug<ept id="p3">**</ept> oppure digitare <bpt id="p4">**</bpt>C<ept id="p4">**</ept> nel riquadro della console e premere <bpt id="p5">**</bpt>INVIO<ept id="p5">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="bkmk_4"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>How to display the values of variables while debugging</source>
+          <target state="translated"><ph id="ph1">&lt;a name="bkmk_4"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Come visualizzare i valori delle variabili durante il debug</target>         
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>You can display the current values of variables in the script as you step through the code.</source>
+          <target state="translated">È possibile visualizzare i valori correnti delle variabili mentre si esamina il codice.</target>         
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>To display the values of standard variables</source>
+          <target state="translated">Per visualizzare i valori delle variabili standard</target>         
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Use one of the following methods:</source>
+          <target state="translated">Utilizzare uno dei seguenti metodi:</target>         
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>In the Script Pane, hover over the variable to display its value as a tool tip.</source>
+          <target state="translated">Nel riquadro di script spostare il puntatore sulla variabile per visualizzarne il valore come descrizione comando.</target>         
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>In the Console Pane, type the variable name and press <bpt id="p1">**</bpt>ENTER<ept id="p1">**</ept>.</source>
+          <target state="translated">Nel riquadro della console digitare il nome della variabile e premere <bpt id="p1">**</bpt>INVIO<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>All panes in ISE are always in the same scope.</source>
+          <target state="translated">In Windows PowerShell ISE, tutti i riquadri si trovano sempre nello stesso ambito.</target>         
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Therefore, while you are debugging a script, the commands that you type in the Console Pane run in script scope.</source>
+          <target state="translated">Di conseguenza, durante il debug di uno script, i comandi digitati nel riquadro della console vengono eseguiti nell'ambito dello script.</target>         
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>This allows you to use the Console Pane to find the values of variables and call functions that are defined only in the script.</source>
+          <target state="translated">Questo consente di usare il riquadro della console per trovare i valori delle variabili e delle funzioni di chiamata definite solo nello script.</target>         
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>To display the values of automatic variables</source>
+          <target state="translated">Per visualizzare i valori delle variabili automatiche</target>         
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>You can use the preceding method to display the value of almost all variables while you are debugging a script.</source>
+          <target state="translated">Si può usare il metodo precedente per visualizzare il valore di quasi tutte le variabili durante il debug di uno script.</target>         
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>However, these methods do not work for the following automatic variables.</source>
+          <target state="translated">Tuttavia, questi metodi non funzionano per le variabili automatiche seguenti.</target>         
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>$\_</source>
+          <target state="translated">$_</target>         
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>$Input</source>
+          <target state="translated">$Input</target>         
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>$MyInvocation</source>
+          <target state="translated">$MyInvocation</target>         
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>$PSBoundParameters</source>
+          <target state="translated">$PSBoundParameters</target>         
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>$Args</source>
+          <target state="translated">$Args</target>         
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>If you try to display the value of any of these variables, you get the value of that variable for in an internal pipeline the debugger uses, not the value of the variable in the script.</source>
+          <target state="translated">Se si prova a visualizzare il valore di una di queste variabili, si ottiene il valore della variabile per una pipeline interna usata dal debugger, non il valore della variabile nello script.</target>         
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>You can work around this for a few variables ($\_, $Input, $MyInvocation, $PSBoundParameters, and $Args) by using the following method:</source>
+          <target state="translated">Per alcune variabili ($_, $Input, $MyInvocation, $PSBoundParameters e $Args) si può risolvere il problema usando il metodo seguente:</target>         
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>In the script, assign the value of the automatic variable to a new variable.</source>
+          <target state="translated">Nello script assegnare il valore della variabile automatica a una nuova variabile.</target>         
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Display the value of the new variable, either by hovering over the new variable in the Script Pane, or by typing the new variable in the Console Pane.</source>
+          <target state="translated">Visualizzare il valore della nuova variabile, spostando il puntatore sulla nuova variabile nel riquadro di script o digitando la nuova variabile nel riquadro della console.</target>         
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>For example, to display the value of the $MyInvocation variable, in the script, assign the value to a new variable, such as $scriptname, and then hover over or type the $scriptname variable to display its value.</source>
+          <target state="translated">Ad esempio, per visualizzare il valore della variabile $MyInvocation, nello script assegnare il valore a una nuova variabile, ad esempio $scriptname e quindi spostare il puntatore su $scriptname o digitare il nome della variabile per visualizzarne il valore.</target>         
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">Vedere anche</target>         
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Using the Windows PowerShell ISE</source>
+          <target state="translated">Uso di Windows PowerShell ISE</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
