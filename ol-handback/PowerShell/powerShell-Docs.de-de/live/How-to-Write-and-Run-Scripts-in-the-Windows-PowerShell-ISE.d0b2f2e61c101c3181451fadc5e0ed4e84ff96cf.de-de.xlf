@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="md" source-language="en-US" target-language="de-de">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bc0ccd3406c09d2b1dee455602908b64b495e49b</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-04046aa" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>How to Write and Run Scripts in the Windows PowerShell ISE</source>
+          <target state="translated">Schreiben und Ausführen von Skripts in der Windows PowerShell ISE</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>How to Write and Run Scripts in the Windows PowerShell ISE</source>
+          <target state="translated">Schreiben und Ausführen von Skripts in der Windows PowerShell ISE</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This topic describes how to create, edit, run, and save scripts in the Script Pane.</source>
+          <target state="translated">In diesem Thema ist beschrieben, wie Skripts im Skriptbereich erstellt, bearbeitet, ausgeführt und gespeichert werden.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>How to create and run scripts</source>
+          <target state="translated">Erstellen und Ausführen von Skripts</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>How to write and edit text in the Script Pane</source>
+          <target state="translated">Schreiben und Bearbeiten von Text im Skriptbereich</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>How to save a script</source>
+          <target state="translated">Speichern eines Skripts</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="bkmk_1"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>How to create and run scripts</source>
+          <target state="translated"><ph id="ph1">&lt;a name="bkmk_1"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Erstellen und Ausführen von Skripts</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can open and edit <ph id="ph1">[!INCLUDE[wps_1](../Token/wps_1_md.md)]</ph> files in the Script Pane.</source>
+          <target state="translated">Sie können <ph id="ph1">[!INCLUDE[wps_1](../Token/wps_1_md.md)]</ph>-Dateien im Skriptbereich öffnen und bearbeiten.</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Specific file types of interest in <ph id="ph1">[!INCLUDE[wps_1](../Token/wps_1_md.md)]</ph> are script files (.ps1), script data files (.psd1), and script module files (.psm1).</source>
+          <target state="translated">Die speziellen Dateitypen für <ph id="ph1">[!INCLUDE[wps_1](../Token/wps_1_md.md)]</ph> sind Skriptdateien (PS1), Skriptdatendateien (PSD1) und Skriptmoduldateien (PSM1).</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>These file types are syntax colored in the Script Pane editor.</source>
+          <target state="translated">Diese Dateitypen werden mit Syntaxfärbung im Skriptbereichs-Editor angezeigt.</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Other common file types you may open in the Script Pane are configuration files (.ps1xml), XML files, and text files.</source>
+          <target state="translated">Andere gängige Dateitypen, die Sie möglicherweise im Skriptbereich öffnen möchten, sind Konfigurationsdateien (PS1XML), XML-Dateien und Textdateien.</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">[!INCLUDE[wps_2](../Token/wps_2_md.md)]</ph> execution policy determines whether you can run scripts and load Windows PowerShell profiles and configuration files.</source>
+          <target state="translated">Die <ph id="ph1">[!INCLUDE[wps_2](../Token/wps_2_md.md)]</ph>-Ausführungsrichtlinie bestimmt, ob Sie Skripts ausführen sowie Windows PowerShell-Profile und -Konfigurationsdateien laden können.</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The default execution policy, Restricted, prevents all scripts from running, and prevents loading profiles.</source>
+          <target state="translated">Die Standardausführungsrichtlinie, „Restricted“, verhindert sowohl das Ausführen jeglicher Skripts als auch das Laden von Profilen.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To change the execution policy to allow profiles to load and be used, see <bpt id="p1">[</bpt>Set-ExecutionPolicy[PSITPro5_Security]<ept id="p1">](assetId:///5690a0e1-495b-4e63-8280-65ead7bf01ab)</ept> and <bpt id="p2">[</bpt>about_Signing [v4]<ept id="p2">](assetId:///fcbdd3b9-0b9f-4734-b5c7-e0dcc304fa1d)</ept>.</source>
+          <target state="translated">Wenn Sie die Ausführungsrichtlinie ändern möchten, sodass sie das Laden und Verwenden von Profilen zulässt, lesen Sie <bpt id="p1">[</bpt>Set-ExecutionPolicy[PSITPro5_Security]<ept id="p1">](assetId:///5690a0e1-495b-4e63-8280-65ead7bf01ab)</ept> und <bpt id="p2">[</bpt>about_Signing [v4]<ept id="p2">](assetId:///fcbdd3b9-0b9f-4734-b5c7-e0dcc304fa1d)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To create a new script file</source>
+          <target state="translated">So erstellen Sie eine neue Skriptdatei</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>On the toolbar, click <bpt id="p1">**</bpt>New<ept id="p1">**</ept> , or on the <bpt id="p2">**</bpt>File<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>New<ept id="p3">**</ept>.</source>
+          <target state="translated">Klicken Sie auf der Symbolleiste auf <bpt id="p1">**</bpt>Neu<ept id="p1">**</ept>, oder klicken Sie im Menü <bpt id="p2">**</bpt>Datei<ept id="p2">**</ept> auf <bpt id="p3">**</bpt>Neu<ept id="p3">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The created file appears in a new file tab under the current PowerShell tab.</source>
+          <target state="translated">Die erstellte Datei wird in einer neuen Dateiregisterkarte unter der aktuellen PowerShell-Registerkarte angezeigt.</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Remember that the PowerShell tabs are only visible when there are more than one.</source>
+          <target state="translated">Denken Sie daran, dass die PowerShell-Registerkarten nur angezeigt werden, wenn mehrere vorhanden sind.</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>By default a file of type script (.ps1) is created, but it can be saved with a new name and extension.</source>
+          <target state="translated">Standardmäßig wird eine Datei des Typs Skript (PS1) erstellt, diese kann aber mit einem neuen Namen und einer neuen Erweiterung gespeichert werden.</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Multiple script files can be created in the same PowerShell tab.</source>
+          <target state="translated">Es können mehrere Skriptdateien auf derselben PowerShell-Registerkarte erstellt werden.</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To open an existing script</source>
+          <target state="translated">So öffnen Sie ein vorhandenes Skript</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>On the toolbar, click <bpt id="p1">**</bpt>Open…<ept id="p1">**</ept>, or on the <bpt id="p2">**</bpt>File<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Open<ept id="p3">**</ept>.</source>
+          <target state="translated">Klicken Sie auf der Symbolleiste auf <bpt id="p1">**</bpt>Öffnen…<ept id="p1">**</ept>, oder klicken Sie im Menü <bpt id="p2">**</bpt>Datei<ept id="p2">**</ept> auf <bpt id="p3">**</bpt>Öffnen<ept id="p3">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Open<ept id="p1">**</ept> dialog box, select the file you want to open.</source>
+          <target state="translated">Wählen Sie im Dialogfeld <bpt id="p1">**</bpt>Öffnen<ept id="p1">**</ept> die Datei aus, die Sie öffnen möchten.</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The opened file appears in a new tab.</source>
+          <target state="translated">Die geöffnete Datei wird auf einer neuen Registerkarte angezeigt.</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To close a script tab</source>
+          <target state="translated">So schließen Sie eine Skriptregisterkarte</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Click the script tab of the script you want to close, then do one of the following:</source>
+          <target state="translated">Klicken Sie auf die Skriptregisterkarte des Skripts, das Sie schließen möchten, und führen Sie dann einen der folgenden Schritte aus:</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Close<ept id="p1">**</ept> icon (X) on the script tab.</source>
+          <target state="translated">Klicken Sie auf das <bpt id="p1">**</bpt>Schließen<ept id="p1">**</ept>-Symbol (X) auf der Skriptregisterkarte.</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>File<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>Close<ept id="p2">**</ept>.</source>
+          <target state="translated">Klicken Sie im Menü <bpt id="p1">**</bpt>Datei<ept id="p1">**</ept> auf <bpt id="p2">**</bpt>Schließen<ept id="p2">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>If the file has been altered since it was last saved, you are prompted to save or discard it.</source>
+          <target state="translated">Wurde die Datei seit ihrer letzten Speicherung geändert, werden Sie aufgefordert, die Datei zu speichern oder zu verwerfen.</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To display the file path</source>
+          <target state="translated">So zeigen Sie den Dateipfad an</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>On the file tab, point to the file name.</source>
+          <target state="translated">Zeigen Sie auf der Registerkarte der Datei auf den Dateinamen an.</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The fully qualified path to the script file appears in a tooltip.</source>
+          <target state="translated">Der vollqualifizierte Pfad der Skriptdatei wird als QuickInfo angezeigt.</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To run a script</source>
+          <target state="translated">So führen Sie ein Skript aus</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>On the toolbar, click <bpt id="p1">**</bpt>Run Script<ept id="p1">**</ept>, or on the <bpt id="p2">**</bpt>File<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Run<ept id="p3">**</ept>.</source>
+          <target state="translated">Klicken Sie auf der Symbolleiste auf <bpt id="p1">**</bpt>Skript ausführen<ept id="p1">**</ept>, oder klicken Sie im Menü <bpt id="p2">**</bpt>Datei<ept id="p2">**</ept> auf <bpt id="p3">**</bpt>Ausführen<ept id="p3">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To run a portion of a script</source>
+          <target state="translated">So führen Sie einen Abschnitt eines Skripts aus</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>In the Script Pane, select a portion of a script.</source>
+          <target state="translated">Wählen Sie Skriptbereich einen Abschnitt eines Skripts aus.</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>File<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>Run Selection<ept id="p2">**</ept>, or on the toolbar, click <bpt id="p3">**</bpt>Run Selection<ept id="p3">**</ept>.</source>
+          <target state="translated">Klicken Sie im Menü <bpt id="p1">**</bpt>Datei<ept id="p1">**</ept> auf <bpt id="p2">**</bpt>Auswahl ausführen<ept id="p2">**</ept>, oder klicken Sie auf der Symbolleiste auf <bpt id="p3">**</bpt>Auswahl ausführen<ept id="p3">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To stop a running script</source>
+          <target state="translated">So beenden Sie ein Skript, das ausgeführt wird</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>On the toolbar, click <bpt id="p1">**</bpt>Stop Operation<ept id="p1">**</ept>, press CTRL\+BREAK, or on the <bpt id="p2">**</bpt>File<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Stop Operation<ept id="p3">**</ept>.</source>
+          <target state="translated">Klicken Sie auf der Symbolleiste auf <bpt id="p1">**</bpt>Vorgang beenden<ept id="p1">**</ept>, drücken Sie STRG+UNTBR, oder klicken Sie im Menü <bpt id="p2">**</bpt>Datei<ept id="p2">**</ept> auf <bpt id="p3">**</bpt>Vorgang beenden<ept id="p3">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Pressing <bpt id="p1">**</bpt>CTRL\+C<ept id="p1">**</ept> also works unless some text is currently selected, in which case <bpt id="p2">**</bpt>CTRL\+C<ept id="p2">**</ept> maps to the copy function for the selected text.</source>
+          <target state="translated">Drücken von <bpt id="p1">**</bpt>STRG+C<ept id="p1">**</ept> funktioniert ebenfalls, sofern aktuell kein Text ausgewählt ist. Ist dies der Fall, wird <bpt id="p2">**</bpt>STRG+C<ept id="p2">**</ept> der Kopierfunktion für den ausgewählten Text zugeordnet.</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="bkmk_2"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>How to write and edit text in the Script Pane</source>
+          <target state="translated"><ph id="ph1">&lt;a name="bkmk_2"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Schreiben und Bearbeiten von Text im Skriptbereich</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Use the following steps to edit text in the Script Pane.</source>
+          <target state="translated">Führen Sie die folgenden Schritte aus, um Text im Skriptbereich zu bearbeiten.</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>You can copy, cut, paste, find, and replace text.</source>
+          <target state="translated">Sie können Text kopieren, ausschneiden, einfügen, suchen und ersetzen.</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You can also undo and redo the last action you just performed.</source>
+          <target state="translated">Sie können außerdem die letzte von Ihnen ausgeführte Aktion rückgängig machen und wiederholen.</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The keyboard shortcuts for performing these actions are the same as those used for all Windows applications.</source>
+          <target state="translated">Die Tastenkombinationen zum Ausführen dieser Aktionen sind mit denen identisch, die für alle Windows-Anwendungen verwendet werden.</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To enter text in the Script Pane</source>
+          <target state="translated">So geben Sie Text im Skriptbereich ein</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Move the cursor to the Script Pane by clicking anywhere in the Script Pane, or by clicking <bpt id="p1">**</bpt>Go to Script Pane<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>View<ept id="p2">**</ept> menu.</source>
+          <target state="translated">Bewegen Sie den Cursor in den Skriptbereich, indem Sie auf eine beliebige Stelle im Skriptbereich oder im Menü <bpt id="p1">**</bpt>Ansicht<ept id="p1">**</ept> auf <bpt id="p2">**</bpt>Zum Skriptbereich gehen<ept id="p2">**</ept> klicken.</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Create a script.</source>
+          <target state="translated">Erstellen Sie ein Skript.</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Syntax coloring and tab completion make this a richer experience in <ph id="ph1">[!INCLUDE[ise_2](../Token/ise_2_md.md)]</ph>.</source>
+          <target state="translated">Farbliche Syntaxkennzeichnung und Vervollständigung mit der TAB-TASTE vereinfachen dies erheblich in <ph id="ph1">[!INCLUDE[ise_2](../Token/ise_2_md.md)]</ph>.</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">[</bpt>How to Use Tab Completion in the Script Pane and Console Pane<ept id="p1">](../Topic/How-to-Use-Tab-Completion-in-the-Script-Pane-and-Console-Pane.md)</ept> for details about using the tab completion feature to help in typing.</source>
+          <target state="translated">Ausführliche Informationen dazu, wie das Nutzen der Funktion Vervollständigung mit der TAB-TASTE beim Eingeben helfen kann, finden Sie unter <bpt id="p1">[</bpt>Verwenden von Vervollständigung mit der TAB-TASTE im Skriptbereich und Konsolenbereich<ept id="p1">](../Topic/How-to-Use-Tab-Completion-in-the-Script-Pane-and-Console-Pane.md)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To find text in the Script Pane</source>
+          <target state="translated">So suchen Sie nach Text im Skriptbereich</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To find text anywhere, press <bpt id="p1">**</bpt>CTRL\+F<ept id="p1">**</ept> or, on the <bpt id="p2">**</bpt>Edit<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Find in Script<ept id="p3">**</ept>.</source>
+          <target state="translated">Um nach Text an einer beliebigen Stelle zu suchen, drücken Sie <bpt id="p1">**</bpt>STRG+F<ept id="p1">**</ept>, oder klicken Sie im Menü <bpt id="p2">**</bpt>Bearbeiten<ept id="p2">**</ept> auf <bpt id="p3">**</bpt>Im Skript suchen<ept id="p3">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>To find text after the cursor, press <bpt id="p1">**</bpt>F3<ept id="p1">**</ept> or, on the <bpt id="p2">**</bpt>Edit<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Find Next in Script<ept id="p3">**</ept>.</source>
+          <target state="translated">Um nach Text ab dem Cursor zu suchen, drücken Sie <bpt id="p1">**</bpt>F3<ept id="p1">**</ept>, oder klicken Sie im Menü <bpt id="p2">**</bpt>Bearbeiten<ept id="p2">**</ept> auf <bpt id="p3">**</bpt>Im Skript weitersuchen<ept id="p3">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To find text before the cursor, press <bpt id="p1">**</bpt>SHIFT\+F3<ept id="p1">**</ept> or, on the <bpt id="p2">**</bpt>Edit<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Find Previous in Script<ept id="p3">**</ept>.</source>
+          <target state="translated">Um nach Text vor dem Cursor zu suchen, drücken Sie <bpt id="p1">**</bpt>UMSCHALT+F3<ept id="p1">**</ept>, oder klicken Sie im Menü <bpt id="p2">**</bpt>Bearbeiten<ept id="p2">**</ept> auf <bpt id="p3">**</bpt>Vorheriges im Skript suchen<ept id="p3">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>To find and replace text in the Script Pane</source>
+          <target state="translated">So finden und ersetzen Sie Text im Skriptbereich</target>         
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Press <bpt id="p1">**</bpt>CRTL\+H<ept id="p1">**</ept> or, on the <bpt id="p2">**</bpt>Edit<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Replace in Script<ept id="p3">**</ept>.</source>
+          <target state="translated">Drücken Sie <bpt id="p1">**</bpt>STRG+H<ept id="p1">**</ept>, oder klicken Sie im Menü <bpt id="p2">**</bpt>Bearbeiten<ept id="p2">**</ept> auf <bpt id="p3">**</bpt>Im Skript ersetzen<ept id="p3">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Enter both the text you want to find and the text with which you want to replace it, and then press <bpt id="p1">**</bpt>ENTER<ept id="p1">**</ept>.</source>
+          <target state="translated">Geben Sie sowohl den zu suchenden Text und auch den Text ein, durch den der zu suchende Text ersetzt werden soll, und drücken Sie die <bpt id="p1">**</bpt>EINGABETASTE<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>To go to a particular line of text in the Script Pane</source>
+          <target state="translated">So wechseln Sie zu einer bestimmten Zeile des Texts im Skriptbereich</target>         
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>In the Script Pane, press <bpt id="p1">**</bpt>CTRL\+G<ept id="p1">**</ept> or, on the <bpt id="p2">**</bpt>Edit<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Go to Line<ept id="p3">**</ept>.</source>
+          <target state="translated">Drücken Sie im Skriptbereich die Tastenkombination <bpt id="p1">**</bpt>STRG+G<ept id="p1">**</ept>, oder klicken Sie im Menü <bpt id="p2">**</bpt>Bearbeiten<ept id="p2">**</ept> auf <bpt id="p3">**</bpt>Gehe zu Zeile<ept id="p3">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Enter a line number.</source>
+          <target state="translated">Geben Sie eine Zeilennummer ein.</target>         
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>To copy text in the Script Pane</source>
+          <target state="translated">So kopieren Sie Text in den Skriptbereich</target>         
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>In the Script Pane, select the text that you want to copy.</source>
+          <target state="translated">Wählen Sie im Skriptbereich den Text aus, den Sie kopieren möchten.</target>         
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Press <bpt id="p1">**</bpt>CTRL\+C<ept id="p1">**</ept> or, on the toolbar, click the <bpt id="p2">**</bpt>Copy<ept id="p2">**</ept> icon, or on the <bpt id="p3">**</bpt>Edit<ept id="p3">**</ept> menu, click <bpt id="p4">**</bpt>Copy<ept id="p4">**</ept>.</source>
+          <target state="translated">Drücken Sie <bpt id="p1">**</bpt>STRG+C<ept id="p1">**</ept>, oder klicken Sie auf der Symbolleiste auf das <bpt id="p2">**</bpt>Kopieren<ept id="p2">**</ept>-Symbol, oder klicken Sie im Menü <bpt id="p3">**</bpt>Bearbeiten<ept id="p3">**</ept> auf <bpt id="p4">**</bpt>Kopieren<ept id="p4">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>To cut text in the Script Pane</source>
+          <target state="translated">So schneiden Sie Text im Skriptbereich aus</target>         
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>In the Script Pane, select the text that you want to cut.</source>
+          <target state="translated">Wählen Sie im Skriptbereich den Text aus, den Sie ausschneiden möchten.</target>         
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Press <bpt id="p1">**</bpt>CTRL\+X<ept id="p1">**</ept> or, on the toolbar, click the <bpt id="p2">**</bpt>Cut<ept id="p2">**</ept> icon, or on the <bpt id="p3">**</bpt>Edit<ept id="p3">**</ept> menu, click <bpt id="p4">**</bpt>Cut<ept id="p4">**</ept>.</source>
+          <target state="translated">Drücken Sie <bpt id="p1">**</bpt>STRG+X<ept id="p1">**</ept>, oder klicken Sie auf der Symbolleiste auf das <bpt id="p2">**</bpt>Ausschneiden<ept id="p2">**</ept>-Symbol, oder klicken Sie im Menü <bpt id="p3">**</bpt>Bearbeiten<ept id="p3">**</ept> auf <bpt id="p4">**</bpt>Ausschneiden<ept id="p4">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>To paste text into the Script Pane</source>
+          <target state="translated">So fügen Sie Text in den Skriptbereich ein</target>         
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Press <bpt id="p1">**</bpt>CTRL\+V<ept id="p1">**</ept> or, on the toolbar, click the <bpt id="p2">**</bpt>Paste<ept id="p2">**</ept> icon, or on the <bpt id="p3">**</bpt>Edit<ept id="p3">**</ept> menu, click <bpt id="p4">**</bpt>Paste<ept id="p4">**</ept>.</source>
+          <target state="translated">Drücken Sie <bpt id="p1">**</bpt>STRG+V<ept id="p1">**</ept>, oder klicken Sie auf der Symbolleiste auf das <bpt id="p2">**</bpt>Einfügen<ept id="p2">**</ept>-Symbol, oder klicken Sie im Menü <bpt id="p3">**</bpt>Bearbeiten<ept id="p3">**</ept> auf <bpt id="p4">**</bpt>Einfügen<ept id="p4">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>To undo an action in the Script Pane</source>
+          <target state="translated">So machen Sie eine Aktion im Skriptbereich rückgängig</target>         
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Press <bpt id="p1">**</bpt>CTRL\+Z<ept id="p1">**</ept> or, on the toolbar, click the <bpt id="p2">**</bpt>Undo<ept id="p2">**</ept> icon, or on the <bpt id="p3">**</bpt>Edit<ept id="p3">**</ept> menu, click <bpt id="p4">**</bpt>Undo<ept id="p4">**</ept>.</source>
+          <target state="translated">Drücken Sie <bpt id="p1">**</bpt>STRG+Z<ept id="p1">**</ept>, oder klicken Sie auf der Symbolleiste auf das <bpt id="p2">**</bpt>Rückgängig<ept id="p2">**</ept>-Symbol, oder klicken Sie im Menü <bpt id="p3">**</bpt>Bearbeiten<ept id="p3">**</ept> auf <bpt id="p4">**</bpt>Rückgängig<ept id="p4">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>To redo an action in the Script Pane</source>
+          <target state="translated">So wiederholen Sie eine Aktion im Skriptbereich</target>         
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Press <bpt id="p1">**</bpt>CTRL\+Y<ept id="p1">**</ept> or, on the toolbar, click the <bpt id="p2">**</bpt>Redo<ept id="p2">**</ept> icon, or on the <bpt id="p3">**</bpt>Edit<ept id="p3">**</ept> menu, click <bpt id="p4">**</bpt>Redo<ept id="p4">**</ept>.</source>
+          <target state="translated">Drücken Sie <bpt id="p1">**</bpt>STRG+Y<ept id="p1">**</ept>, oder klicken Sie auf der Symbolleiste auf das <bpt id="p2">**</bpt>Wiederholen<ept id="p2">**</ept>-Symbol, oder klicken Sie im Menü <bpt id="p3">**</bpt>Bearbeiten<ept id="p3">**</ept> auf <bpt id="p4">**</bpt>Wiederholen<ept id="p4">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="bkmk_3"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>How to save a script</source>
+          <target state="translated"><ph id="ph1">&lt;a name="bkmk_3"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Speichern eines Skripts</target>         
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Use the following steps to save and name a script.</source>
+          <target state="translated">Gehen Sie folgendermaßen vor, um einem Skript einen Namen zu geben und es zu speichern.</target>         
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>An asterisk appears next to the script name to mark a file that has not been saved since it was altered.</source>
+          <target state="translated">Ein Sternchen wird neben dem Skriptnamen angezeigt, um zu kennzeichnen, dass die Datei nicht gespeichert wurde, seit sie geändert wurde.</target>         
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The asterisk disappears when the file is saved.</source>
+          <target state="translated">Das Sternchen verschwindet, wenn die Datei gespeichert wird.</target>         
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>To save a script</source>
+          <target state="translated">So speichern Sie ein Skript</target>         
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Press <bpt id="p1">**</bpt>CTRL\+S<ept id="p1">**</ept> or, on the toolbar, click the <bpt id="p2">**</bpt>Save<ept id="p2">**</ept> icon, or on the <bpt id="p3">**</bpt>File<ept id="p3">**</ept> menu, click <bpt id="p4">**</bpt>Save<ept id="p4">**</ept>.</source>
+          <target state="translated">Drücken Sie <bpt id="p1">**</bpt>STRG+S<ept id="p1">**</ept>, oder klicken Sie auf der Symbolleiste auf das <bpt id="p2">**</bpt>Speichern<ept id="p2">**</ept>-Symbol, oder klicken Sie im Menü <bpt id="p3">**</bpt>Datei<ept id="p3">**</ept> auf <bpt id="p4">**</bpt>Speichern<ept id="p4">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>To save and name a script</source>
+          <target state="translated">So geben Sie einem Skript einen Namen und speichern es</target>         
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>File<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>Save As<ept id="p2">**</ept>.</source>
+          <target state="translated">Klicken Sie im Menü <bpt id="p1">**</bpt>Datei<ept id="p1">**</ept> auf <bpt id="p2">**</bpt>Speichern unter<ept id="p2">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Save As<ept id="p1">**</ept> dialog box will appear.</source>
+          <target state="translated">Das Dialogfeld <bpt id="p1">**</bpt>Speichern unter<ept id="p1">**</ept> wird angezeigt.</target>         
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>File name<ept id="p1">**</ept> box, enter a name for the file.</source>
+          <target state="translated">Geben Sie in das Feld <bpt id="p1">**</bpt>Dateiname<ept id="p1">**</ept> einen Namen für die Datei ein.</target>         
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Save as type<ept id="p1">**</ept> box, select a file type.</source>
+          <target state="translated">Wählen Sie im Feld <bpt id="p1">**</bpt>Dateityp<ept id="p1">**</ept> einen Dateityp aus.</target>         
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>For example, in the <bpt id="p1">**</bpt>Save as type<ept id="p1">**</ept> box, select “PowerShell Scripts (\* .ps1)”.</source>
+          <target state="translated">Wählen Sie beispielsweise im Feld <bpt id="p1">**</bpt>Dateityp<ept id="p1">**</ept> den Typ „PowerShell-Skripte (*.ps1)“ aus.</target>         
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</source>
+          <target state="translated">Klicken Sie auf <bpt id="p1">**</bpt>Speichern<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>To save a script in ASCII encoding</source>
+          <target state="translated">So speichern Sie ein Skript in ASCII-Codierung</target>         
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>By default, <ph id="ph1">[!INCLUDE[ise_2](../Token/ise_2_md.md)]</ph> saves new script files (.ps1), script data files (.psd1), and script module files (.psm1) as Unicode (BigEndianUnicode) by default.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[ise_2](../Token/ise_2_md.md)]</ph> speichert neue Skriptdateien (PS1), Skriptdatendateien (PSD1) und Skriptmoduldateien (PSM1) standardmäßig im Unicode-Format (BigEndianUnicode).</target>         
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>To save a script in another encoding, such as ASCII (ANSI), use the <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> or <bpt id="p2">**</bpt>SaveAs<ept id="p2">**</ept> methods on the <bpt id="p3">[</bpt>$psISE.CurrentFile<ept id="p3">](assetId:///bc3300e4-9c17-4f00-a621-c8867126e3b3#CurrentFile)</ept> object.</source>
+          <target state="translated">Um ein Skript in einer anderen Codierung, z. B. ASCII (ANSI), zu speichern, verwenden Sie die <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>- oder <bpt id="p2">**</bpt>SaveAs<ept id="p2">**</ept>-Methode des <bpt id="p3">[</bpt>$psISE.CurrentFile<ept id="p3">](assetId:///bc3300e4-9c17-4f00-a621-c8867126e3b3#CurrentFile)</ept>-Objekts.</target>         
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The following command saves a new script as MyScript.ps1 with ASCII encoding.</source>
+          <target state="translated">Im folgenden Befehl wird ein neues Skript als „MyScript.ps1“ mit ASCII-Codierung gespeichert.</target>         
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The following command replaces the current script file with a file with the same name, but with ASCII encoding.</source>
+          <target state="translated">Im folgenden Befehl wird die aktuelle Skriptdatei durch eine Datei ersetzt, die denselben Namen hat, aber in ASCII-Codierung vorliegt.</target>         
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The following command gets the encoding of the current file.</source>
+          <target state="translated">Im folgenden Befehl wird die Codierung der aktuellen Datei abgerufen.</target>         
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[ise_2](../Token/ise_2_md.md)]</ph> supports the following encoding options: ASCII, BigEndianUnicode, Unicode, UTF32, UTF7, UTF8 and Default.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[ise_2](../Token/ise_2_md.md)]</ph> unterstützt die folgenden Codierungsoptionen: ASCII, BigEndianUnicode, Unicode, UTF32, UTF7, UTF8 und Default.</target>         
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The value of the Default option varies with the system.</source>
+          <target state="translated">Der Wert der Option „Default“ ist je nach System unterschiedlich.</target>         
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[ise_2](../Token/ise_2_md.md)]</ph> does not change the encoding of scripts that were created by in other editors, even when you use the Save or Save As commands in <ph id="ph2">[!INCLUDE[ise_2](../Token/ise_2_md.md)]</ph>.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[ise_2](../Token/ise_2_md.md)]</ph> ändert nicht die Codierung von Skripts, die in anderen Editoren erstellt wurden. Dies gilt selbst dann, wenn Sie den Befehl „Speichern“ oder „Speichern unter“ in <ph id="ph2">[!INCLUDE[ise_2](../Token/ise_2_md.md)]</ph> verwenden.</target>         
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">Weitere Informationen</target>         
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Using the Windows PowerShell ISE</source>
+          <target state="translated">Verwenden der Windows PowerShell ISE</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
