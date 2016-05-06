@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="md" source-language="en-US" target-language="ja-jp">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b34db3f79c3148bf0f32970c3b7d7e3ba252ae66</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-04046aa" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Understanding Important Windows PowerShell Concepts</source>
+          <target state="translated">Windows PowerShell の重要な概念を理解する</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Understanding Important Windows PowerShell Concepts</source>
+          <target state="translated">Windows PowerShell の重要な概念を理解する</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell design integrates concepts from many different environments.</source>
+          <target state="translated">Windows PowerShell の設計には、多数の異なる環境の概念が取り入れられています。</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Several of them are familiar to people with experience in specific shells or programming environments, but very few people will know about all of them.</source>
+          <target state="translated">特定のシェルやプログラミング環境を使ったことのあるユーザーであれば、そのいくつかについては既に使い慣れているかもしれません。しかし、これらすべてに精通しているユーザーはごく一部に限られると思われます。</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Looking at some of these concepts provides a useful overview of the shell.</source>
+          <target state="translated">これらのいくつかの概念について理解することは、シェルの概要を把握するのに役立ちます。</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Commands Are Not Text\-Based</source>
+          <target state="translated">コマンドがテキストベースではない</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Unlike traditional command\-line interface commands, Windows PowerShell cmdlets are designed to deal with objects \- structured information that is more than just a string of characters appearing on the screen.</source>
+          <target state="translated">従来のコマンドライン インターフェイス コマンドとは異なり、Windows PowerShell コマンドレットは、オブジェクトを処理するように設計されています。オブジェクトは、単に画面上に表示される文字列ではなく、構造化された情報です。</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Command output always carries along extra information that you can use if you need it.</source>
+          <target state="translated">コマンドの実行結果は常に補足的な情報を伴って出力され、この情報は必要に応じて使用できます。</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>We will discuss this topic in depth in this document.</source>
+          <target state="translated">この点については、このドキュメントで詳しく説明します。</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If you have used text\-processing tools to process command\-line data in the past, you will find that they behave differently if you try to use them in Windows PowerShell.</source>
+          <target state="translated">以前にテキスト処理ツールを使ってコマンドライン データを処理したことがあるなら、Windows PowerShell でこのツール使うと動作が異なることがわかります。</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In most cases, you do not need text\-processing tools to extract specific information.</source>
+          <target state="translated">ほとんどの場合、テキスト処理ツールを使用して特定の情報を抽出する必要はありません。</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can access portions of the data directly by using standard Windows PowerShell object manipulation commands.</source>
+          <target state="translated">標準の Windows PowerShell オブジェクト操作コマンドを使って、データの一部に直接アクセスできます。</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The Command Family Is Extensible</source>
+          <target state="translated">拡張可能なコマンド ファミリ</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Interfaces such as Cmd.exe do not provide a way for you to directly extend the built\-in command set.</source>
+          <target state="translated">Cmd.exe などのインターフェイスには、組み込みのコマンド セットを直接拡張する手段が存在しません。</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can create external command\-line tools that run in Cmd.exe, but these external tools do not have services, such as Help integration, and Cmd.exe does not automatically know that they are valid commands.</source>
+          <target state="translated">外部のコマンドライン ツールを作成して Cmd.exe で実行することはできますが、外部のツールには、ヘルプを統合することができないなど、サービス上の制約があります。また、Cmd.exe では、それらが正しいコマンドであるかどうかを自動的に判別することはできません。</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The native binary commands in Windows PowerShell, known as <bpt id="p1">*</bpt>cmdlets<ept id="p1">*</ept> (pronounced command\-lets), can be augmented by cmdlets that you create and that you add to Windows PowerShell by using snap\-ins.</source>
+          <target state="translated">Windows PowerShell のネイティブのバイナリ コマンドは<bpt id="p1">*</bpt>コマンドレット<ept id="p1">*</ept>と呼ばれ、ユーザーが自由に拡張できます。コマンドレットを独自に作成し、スナップインを使用して Windows PowerShell に追加できます。</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell <bpt id="p1">*</bpt>snap\-ins<ept id="p1">*</ept> are compiled, just like binary tools in any other interface.</source>
+          <target state="translated">Windows PowerShell <bpt id="p1">*</bpt>スナップイン<ept id="p1">*</ept>は、他のインターフェイスのバイナリ ツールと同じようにコンパイルされています。</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can use them to add Windows PowerShell providers to the shell, as well as new cmdlets.</source>
+          <target state="translated">これらを使用することにより、新しいコマンドレットだけでなく、Windows PowerShell プロバイダーをシェルに追加することもできます。</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Because of the special nature of the Windows PowerShell internal commands, we will refer to them as <bpt id="p1">*</bpt>cmdlets<ept id="p1">*</ept>.</source>
+          <target state="translated">Windows PowerShell の内部コマンドが<bpt id="p1">*</bpt>コマンドレット<ept id="p1">*</ept>と呼ばれているのは、こうした特殊な性質によるものです。</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell can run commands other than cmdlets.</source>
+          <target state="translated">Windows PowerShell では、コマンドレット以外のコマンドも実行できます。</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>We will not be discussing them in detail in the Windows PowerShell User's Guide, but they are useful to know about as categories of command types.</source>
+          <target state="translated">この点については、『Windows PowerShell ユーザー ガイド』で詳しく取り上げていませんが、コマンドの種類として、そのようなカテゴリもあるということは覚えておいてください。</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell supports scripts that are analogous to UNIX shell scripts and Cmd.exe batch files, but have a .ps1 file name extension.</source>
+          <target state="translated">Windows PowerShell は、UNIX のシェル スクリプトや Cmd.exe のバッチ ファイルに似たスクリプト (ファイル名の拡張子は .ps1) をサポートしています。</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell also allows you to create internal functions that can be used directly in the interface or in scripts.</source>
+          <target state="translated">また、Windows PowerShell では、インターフェイスまたはスクリプトから直接使用することのできる内部関数を作成することもできます。</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Handles Console Input and Display</source>
+          <target state="translated">Windows PowerShell によってコンソールの入力と表示が処理される</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>When you type a command, Windows PowerShell always processes the command\-line input directly.</source>
+          <target state="translated">コマンドを入力すると、常に、コマンドラインの入力が Windows PowerShell によって直接処理されます。</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell also formats the output that you see on the screen.</source>
+          <target state="translated">また、出力は、ユーザーに対して表示する形式へと自動的に書式化されます。</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This is significant because it reduces the work required of each cmdlet and ensures that you can always do things the same way regardless of which cmdlet you are using.</source>
+          <target state="translated">各コマンドレットで必要となる作業が軽減され、どのコマンドレットの場合も常に同じ方法で使用できるようになるため、このことは重要です。</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>One example of how this simplifies life for both tool developers and users is command\-line Help.</source>
+          <target state="translated">このことがツール開発者とユーザーの両方にもたらす利点の一例として、コマンドライン ヘルプが挙げられます。</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Traditional command\-line tools have their own schemes for requesting and displaying Help.</source>
+          <target state="translated">従来のコマンドライン ツールでは、ヘルプの要求と表示に独自の体系が採用されていました。</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Some command\-line tools use <bpt id="p1">**</bpt>\/?<ept id="p1">**</ept></source>
+          <target state="translated">あるコマンドライン ツールは <bpt id="p1">**</bpt>/?<ept id="p1">**</ept> を使って</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>to trigger the Help display; others use <bpt id="p1">**</bpt>\-?<ept id="p1">**</ept>, <bpt id="p2">**</bpt>\/H<ept id="p2">**</ept>, or even <bpt id="p3">**</bpt>\/\/<ept id="p3">**</ept>.</source>
+          <target state="translated">ヘルプを表示し、他のコマンドライン ツールは <bpt id="p1">**</bpt>-?<ept id="p1">**</ept>、<bpt id="p2">**</bpt>/H<ept id="p2">**</ept>、<bpt id="p3">**</bpt>//<ept id="p3">**</ept> などを使っていました。</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Some will display Help in a GUI window, rather than in the console display.</source>
+          <target state="translated">ヘルプがコンソール画面に表示される代わりに、GUI のウィンドウに表示されるものもあります。</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Some complex tools, such as application updaters, unpack internal files before displaying their Help.</source>
+          <target state="translated">アプリケーション更新ツールなど、複雑なツールになると、内部のファイルを展開してからヘルプを表示するものもあります。</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If you use the wrong parameter, the tool might ignore what you typed and begin performing a task automatically.</source>
+          <target state="translated">間違ったパラメーターを使用すると、入力内容が無視され、タスクが自動的に実行される可能性もあります。</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>When you enter a command in Windows PowerShell, everything you enter is automatically parsed and pre\-processed by Windows PowerShell.</source>
+          <target state="translated">Windows PowerShell でコマンドを入力すると、入力したすべての情報に対し、解析と前処理が自動的に実行されます。</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">**</bpt>\-?<ept id="p1">**</ept></source>
+          <target state="translated">Windows PowerShell のコマンドレットでは、<bpt id="p1">**</bpt>-?<ept id="p1">**</ept></target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>parameter with a Windows PowerShell cmdlet, it always means "show me Help for this command".</source>
+          <target state="translated"> パラメーターを使用すると、常に "このコマンドのヘルプを表示する" という意味になります。</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Cmdlet developers do not have to parse the command; they only need to provide the Help text.</source>
+          <target state="translated">コマンドレットの開発者は、ヘルプ テキストを用意するだけでよく、コマンドを解析するための処理を自ら実装する必要はありません。</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>It is important to understand that the Help features of Windows PowerShell are available even when you run traditional command\-line tools in Windows PowerShell.</source>
+          <target state="translated">理解すべき大切な点は、Windows PowerShell のヘルプ機能は、従来のコマンドライン ツールを Windows PowerShell で実行する場合にも利用できるという点です。</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell processes the parameters and passes the results to the external tools.</source>
+          <target state="translated">Windows PowerShell は、パラメーターを処理し、結果を外部ツールに渡します。</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If you run an graphic application in Windows PowerShell, the window for the application opens.</source>
+          <target state="translated">Windows PowerShell でグラフィック アプリケーションを実行した場合は、そのアプリケーションのウィンドウが開きます。</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell intervenes only when processing the command\-line input you supply or the application output returned to the console window; it does not affect how the application works internally.</source>
+          <target state="translated">Windows PowerShell が介在するのは、ユーザーによって指定されたコマンドライン入力を処理するときと、コンソール ウィンドウに返されたアプリケーション出力を処理するときだけです。アプリケーション内部の動作には影響しません。</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Uses Some C\# Syntax</source>
+          <target state="translated">Windows PowerShell では C# の構文が一部使用される</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell has syntax features and keywords that are very similar to those used in the C\# programming language, because Windows PowerShell is based on the .NET Framework.</source>
+          <target state="translated">Windows PowerShell は .NET Framework をベースとしているため、Windows PowerShell の構文とキーワードは C# プログラミング言語に非常に似ています。</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Learning Windows PowerShell will make it much easier to learn C\#, if you are interested in the language.</source>
+          <target state="translated">C# 言語に興味がある方は、Windows PowerShell の使い方を覚えることにより、C# の習得にもつながります。</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If you are not a C\# programmer, this similarity is not important.</source>
+          <target state="translated">C# プログラマではないユーザーにとって、この類似性は特に重要な意味を持ちません。</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>However, if you are already familiar with C\#, the similarities can make learning Windows PowerShell much easier.</source>
+          <target state="translated">しかし、C# に精通している場合は、この類似性のおかげで Windows PowerShell の使い方を覚えるのはとても簡単です。</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
