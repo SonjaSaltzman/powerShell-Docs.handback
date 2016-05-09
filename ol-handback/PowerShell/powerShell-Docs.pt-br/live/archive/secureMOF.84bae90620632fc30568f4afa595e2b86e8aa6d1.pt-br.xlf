@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" original="md" source-language="en-US" target-language="pt-br">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
     <header>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c44d8f0f02ca735a1d545dba99f6b1fa78b2110f</xliffext:olfilehash>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1457980" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a91df114d8313e435db416ff6cda69c2126e3399</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-46be25e" tool-company="Microsoft" />
     </header>
     <body>
       <group id="content" extype="content">
@@ -209,166 +209,290 @@
           <target state="translated">Qualquer certificado existente no <bpt id="p1">_</bpt>Nó de Destino<ept id="p1">_</ept> que atende esses critérios pode ser usado para proteger credenciais DSC.</target>         
         </trans-unit>
         <trans-unit id="151" translate="yes" xml:space="preserve">
-          <source>Creating the Certificate</source>
-          <target state="translated">Criar o Certificado</target>         
+          <source>Certificate creation</source>
+          <target state="translated">Criação de certificado</target>         
         </trans-unit>
         <trans-unit id="152" translate="yes" xml:space="preserve">
-          <source>The private key must be kept secret, because it is used to decrypt the MOF.</source>
-          <target state="translated">A chave privada deve ser mantida em segredo, pois ela é usada para descriptografar o MOF.</target>         
+          <source>There are two approaches you can take to create and use the required Encryption Certificate (public-private key pair).</source>
+          <target state="translated">Há duas abordagens que você pode executar para criar e usar o certificado de criptografia necessário (par de chaves públicas-privadas).</target>         
         </trans-unit>
         <trans-unit id="153" translate="yes" xml:space="preserve">
-          <source>The easiest way to do that is to create the private key certificate on the <bpt id="p1">*</bpt>Target Node<ept id="p1">*</ept>, and copy the public key</source>
-          <target state="translated">A maneira mais fácil de fazer isso é criar o certificado de chave privada no <bpt id="p1">*</bpt>Nó do Destino<ept id="p1">*</ept> e copiar o certificado de chave pública</target>         
+          <source>Create it on the <bpt id="p1">**</bpt>Target Node<ept id="p1">**</ept> and export just the public key to the <bpt id="p2">**</bpt>Authoring Node<ept id="p2">**</ept></source>
+          <target state="translated">Criá-lo no <bpt id="p1">**</bpt>Nó de Destino<ept id="p1">**</ept> e exportar apenas a chave pública para o <bpt id="p2">**</bpt>Nó de Criação<ept id="p2">**</ept></target>         
         </trans-unit>
         <trans-unit id="154" translate="yes" xml:space="preserve">
-          <source>certificate to the computer being used to compile the DSC configuration into a MOF file.</source>
-          <target state="translated">para o computador que está sendo usado para compilar a configuração DSC para um arquivo MOF.</target>         
+          <source>Create it on the <bpt id="p1">**</bpt>Authoring Node<ept id="p1">**</ept> and export the entire key pair to the <bpt id="p2">**</bpt>Target Node<ept id="p2">**</ept></source>
+          <target state="translated">Criá-lo no <bpt id="p1">**</bpt>Nó de Criação<ept id="p1">**</ept> e exportar o par de chaves inteiro para o <bpt id="p2">**</bpt>Nó de Destino<ept id="p2">**</ept></target>         
         </trans-unit>
         <trans-unit id="155" translate="yes" xml:space="preserve">
-          <source>The following example creates a certificate, exports the public key, and then imports the public key</source>
-          <target state="translated">O exemplo a seguir cria um certificado, exporta a chave pública e importa a chave pública</target>         
+          <source>Method 1 is recommended because the private key used to decrypt credentials in the MOF stays on the Target Node at all times.</source>
+          <target state="translated">O Método 1 é recomendado porque a chave privada usada para descriptografar credenciais no MOF permanece no nó de destino em todos os momentos.</target>         
         </trans-unit>
         <trans-unit id="156" translate="yes" xml:space="preserve">
-          <source>into the root of the local certificate store.</source>
-          <target state="translated">para a raiz do repositório de certificados local.</target>         
+          <source>Creating the Certificate on the Target Node</source>
+          <target state="translated">Criando o certificado no nó de destino</target>         
         </trans-unit>
         <trans-unit id="157" translate="yes" xml:space="preserve">
-          <source>Alternately, the private key certificate can be created on the computer being used to compile the DSC configuration file, exported with the private key then imported on the <bpt id="p1">_</bpt>Target Node<ept id="p1">_</ept>.</source>
-          <target state="translated">Como alternativa, o certificado de chave privada pode ser criado no computador que está sendo usado para compilar o arquivo de configuração DSC, exportado com a chave privada e então importado no <bpt id="p1">_</bpt>Nó de Destino<ept id="p1">_</ept>.</target>         
+          <source>The private key must be kept secret, because is used to decrypt the MOF on the <bpt id="p1">**</bpt>Target Node<ept id="p1">**</ept></source>
+          <target state="translated">A chave privada deve ser mantida em segredo, pois ela é usada para descriptografar o MOF no <bpt id="p1">**</bpt>Nó de Destino<ept id="p1">**</ept></target>         
         </trans-unit>
         <trans-unit id="158" translate="yes" xml:space="preserve">
-          <source>This is the current method for implementing DSC credential encryption on Nano Server.</source>
-          <target state="translated">Esse é o método atual para implementar a criptografia de credencial DSC em Nano Server.</target>         
+          <source>The easiest way to do that is to create the private key certificate on the <bpt id="p1">**</bpt>Target Node<ept id="p1">**</ept>, and copy the <bpt id="p2">**</bpt>public key certificate<ept id="p2">**</ept> to the computer being used to author the DSC configuration into a MOF file.</source>
+          <target state="translated">A forma mais fácil de fazer isso é criar o certificado da chave privada no <bpt id="p1">**</bpt>Nó de Destino<ept id="p1">**</ept> e copiar o <bpt id="p2">**</bpt>certificado de chave pública<ept id="p2">**</ept> no computador que está sendo usado para criar a configuração DSC em um arquivo MOF.</target>         
         </trans-unit>
         <trans-unit id="159" translate="yes" xml:space="preserve">
-          <source>The private key must be kept secure during transit.</source>
-          <target state="translated">A chave privada deve ser mantida segura durante o trânsito.</target>         
+          <source>The following example:</source>
+          <target state="translated">O exemplo a seguir:</target>         
         </trans-unit>
         <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>creates a certificate on the <bpt id="p1">**</bpt>Target node<ept id="p1">**</ept></source>
+          <target state="translated">cria um certificado no <bpt id="p1">**</bpt>Nó de destino<ept id="p1">**</ept></target>         
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>exports the public key certificate on the <bpt id="p1">**</bpt>Target node<ept id="p1">**</ept>.</source>
+          <target state="translated">exporta o certificado de chave pública para o <bpt id="p1">**</bpt>Nó de destino<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>imports the public key certificate into the <bpt id="p1">**</bpt>my<ept id="p1">**</ept> certificate store on the <bpt id="p2">**</bpt>Authoring node<ept id="p2">**</ept>.</source>
+          <target state="translated">importa o certificado de chave pública para o <bpt id="p1">**</bpt>meu<ept id="p1">**</ept> repositório de certificados no <bpt id="p2">**</bpt>Nó de criação<ept id="p2">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>On the Target Node: create and export the certificate</source>
+          <target state="translated">No Nó de destino: criar e exportar o certificado</target>         
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Authoring Node: Windows Server 2016 and Windows 10</source>
+          <target state="translated">Nó de Criação: Windows Server 2016 e Windows 10</target>         
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Once exported, the <ph id="ph1">```DscPublicKey.cer```</ph> would need to be copied to the <bpt id="p1">**</bpt>Authoring Node<ept id="p1">**</ept>.</source>
+          <target state="translated">Uma vez exportado, o <ph id="ph1">```DscPublicKey.cer```</ph> precisaria ser copiados no <bpt id="p1">**</bpt>Nó de Criação<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Authoring Node: Windows Server 2012 R2/Windows 8.1 and earlier</source>
+          <target state="translated">Nó de Criação: Windows Server 2012 R2/Windows 8.1 e versões anteriores</target>         
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Because the New-SelfSignedCertificate cmdlet on Windows Operating Systems prior to Windows 10 and Windows Server 2016 do not support the <bpt id="p1">**</bpt>Type<ept id="p1">**</ept> parameter, an alternate method of creating this certificate is required on these operating systems.</source>
+          <target state="translated">Como não há suporte para o cmdlet New-SelfSignedCertificate em sistemas operacionais Windows anteriores ao Windows 10 e o Windows Server 2016 não dá suporte ao parâmetro <bpt id="p1">**</bpt>Type<ept id="p1">**</ept>, um método alternativo de criar esse certificado é necessário nesses sistemas operacionais.</target>         
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>In this case you can use <ph id="ph1">```makecert.exe```</ph> or <ph id="ph2">```certutil.exe```</ph> to create the certificate.</source>
+          <target state="translated">Nesse caso, você pode usar <ph id="ph1">```makecert.exe```</ph> ou <ph id="ph2">```certutil.exe```</ph> para criar o certificado.</target>         
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>An alternate method is to <bpt id="p1">[</bpt>download the New-SelfSignedCertificateEx.ps1 script from Microsoft Script Center<ept id="p1">](https://gallery.technet.microsoft.com/scriptcenter/Self-signed-certificate-5920a7c6)</ept> and use it to create the certificate instead:</source>
+          <target state="translated">Um método alternativo é <bpt id="p1">[</bpt>baixar o script New-SelfSignedCertificateEx.ps1 do Microsoft Script Center<ept id="p1">](https://gallery.technet.microsoft.com/scriptcenter/Self-signed-certificate-5920a7c6)</ept> e usá-lo para criar o certificado em vez disso:</target>         
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Once exported, the <ph id="ph1">```DscPublicKey.cer```</ph> would need to be copied to the <bpt id="p1">**</bpt>Authoring Node<ept id="p1">**</ept>.</source>
+          <target state="translated">Uma vez exportado, o <ph id="ph1">```DscPublicKey.cer```</ph> precisaria ser copiados no <bpt id="p1">**</bpt>Nó de Criação<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>On the Authoring Node: import the cert’s public key</source>
+          <target state="translated">No Nó de Criação: importar a chave pública do certificado</target>         
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Creating the Certificate on the Authoring Node</source>
+          <target state="translated">Criando o certificado no Nó de Criação</target>         
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Alternately, the encryption certificate can be created on the <bpt id="p1">**</bpt>Authoring Node<ept id="p1">**</ept>, exported with the <bpt id="p2">**</bpt>private key<ept id="p2">**</ept> as a PFX file and then imported on the <bpt id="p3">**</bpt>Target Node<ept id="p3">**</ept>.</source>
+          <target state="translated">Como alternativa, o certificado de criptografia pode ser criado no <bpt id="p1">**</bpt>Nó de Criação<ept id="p1">**</ept>, exportado com a <bpt id="p2">**</bpt>chave privada<ept id="p2">**</ept> como um arquivo PFX e, em seguida, importado no <bpt id="p3">**</bpt>Nó de Destino<ept id="p3">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>This is the current method for implementing DSC credential encryption on <bpt id="p1">_</bpt>Nano Server<ept id="p1">_</ept>.</source>
+          <target state="translated">Esse é o método atual para implementar a criptografia de credencial DSC no <bpt id="p1">_</bpt>Nano Server<ept id="p1">_</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Although the PFX is secured with a password it should be kept secure during transit.</source>
+          <target state="translated">Embora o PFX seja protegido por uma senha, ele deve ser mantido seguro durante o trânsito.</target>         
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The following example:</source>
+          <target state="translated">O exemplo a seguir:</target>         
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>creates a certificate on the <bpt id="p1">**</bpt>Authoring node<ept id="p1">**</ept>.</source>
+          <target state="translated">cria um certificado no <bpt id="p1">**</bpt>Nó de criação<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>exports the certificate including the private key on the <bpt id="p1">**</bpt>Authoring node<ept id="p1">**</ept>.</source>
+          <target state="translated">exporta o certificado, incluindo a chave privada do <bpt id="p1">**</bpt>Nó de criação<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>removes the private key from the <bpt id="p1">**</bpt>Authoring node<ept id="p1">**</ept>, but keeps the public key certificate in the <bpt id="p2">**</bpt>my<ept id="p2">**</ept> store.</source>
+          <target state="translated">remove a chave privada do <bpt id="p1">**</bpt>Nó de criação<ept id="p1">**</ept>, mas mantém o certificado de chave pública no <bpt id="p2">**</bpt>meu<ept id="p2">**</ept> repositório.</target>         
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>imports the private key certificate into the root certificate store on the <bpt id="p1">**</bpt>Target node<ept id="p1">**</ept>.</source>
+          <target state="translated">importa o certificado de chave privada para o repositório de certificados raiz no <bpt id="p1">**</bpt>Nó de destino<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>it must be added to the root store so that it will be trusted by the <bpt id="p1">**</bpt>Target node<ept id="p1">**</ept>.</source>
+          <target state="translated">ele deve ser adicionado ao repositório raiz para que seja confiável pelo <bpt id="p1">**</bpt>Nó de destino<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>On the Authoring Node: create and export the certificate</source>
+          <target state="translated">No Nó de criação: criar e exportar o certificado</target>         
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Target Node: Windows Server 2016 and Windows 10</source>
+          <target state="translated">Nó de destino: Windows Server 2016 e Windows 10</target>         
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Once exported, the <ph id="ph1">```DscPrivateKey.cer```</ph> would need to be copied to the <bpt id="p1">**</bpt>Target Node<ept id="p1">**</ept>.</source>
+          <target state="translated">Uma vez exportado, o <ph id="ph1">```DscPrivateKey.cer```</ph> precisaria ser copiado no <bpt id="p1">**</bpt>Nó de Destino<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Target Node: Windows Server 2012 R2/Windows 8.1 and earlier</source>
+          <target state="translated">Nó de destino: Windows Server 2012 R2/Windows 8.1 e versões anteriores</target>         
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Because the New-SelfSignedCertificate cmdlet on Windows Operating Systems prior to Windows 10 and Windows Server 2016 do not support the <bpt id="p1">**</bpt>Type<ept id="p1">**</ept> parameter, an alternate method of creating this certificate is required on these operating systems.</source>
+          <target state="translated">Como não há suporte para o cmdlet New-SelfSignedCertificate em sistemas operacionais Windows anteriores ao Windows 10 e o Windows Server 2016 não dá suporte ao parâmetro <bpt id="p1">**</bpt>Type<ept id="p1">**</ept>, um método alternativo de criar esse certificado é necessário nesses sistemas operacionais.</target>         
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>In this case you can use <ph id="ph1">```makecert.exe```</ph> or <ph id="ph2">```certutil.exe```</ph> to create the certificate.</source>
+          <target state="translated">Nesse caso, você pode usar <ph id="ph1">```makecert.exe```</ph> ou <ph id="ph2">```certutil.exe```</ph> para criar o certificado.</target>         
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>An alternate method is to <bpt id="p1">[</bpt>download the New-SelfSignedCertificateEx.ps1 script from Microsoft Script Center<ept id="p1">](https://gallery.technet.microsoft.com/scriptcenter/Self-signed-certificate-5920a7c6)</ept> and use it to create the certificate instead:</source>
+          <target state="translated">Um método alternativo é <bpt id="p1">[</bpt>baixar o script New-SelfSignedCertificateEx.ps1 do Microsoft Script Center<ept id="p1">](https://gallery.technet.microsoft.com/scriptcenter/Self-signed-certificate-5920a7c6)</ept> e usá-lo para criar o certificado em vez disso:</target>         
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>On the Target Node: import the cert’s private key as a trusted root</source>
+          <target state="translated">No Nó de destino: importar a chave privada do certificado como uma raiz confiável</target>         
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Note: If your target node is a <bpt id="p1">_</bpt>Nano Server<ept id="p1">_</ept>, you should use the CertOC.exe application to import the private key certificate because the <ph id="ph1">```Import-PfxCertificate```</ph> cmdlet is not available.</source>
+          <target state="translated">Observação: se o nó de destino for um <bpt id="p1">_</bpt>Nano Server<ept id="p1">_</ept>, você deverá usar o aplicativo CertOC.exe para importar o certificado de chave privada porque o cmdlet <ph id="ph1">```Import-PfxCertificate```</ph> não estará disponível.</target>         
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
           <source>Configuration data</source>
           <target state="translated">Dados de configuração</target>         
         </trans-unit>
-        <trans-unit id="161" translate="yes" xml:space="preserve">
+        <trans-unit id="192" translate="yes" xml:space="preserve">
           <source>The configuration data block defines which target nodes to operate on, whether or not to encrypt the credentials, the means of encryption, and other information.</source>
           <target state="translated">O bloco de dados de configuração define em quais nós de destino vai operar, se vai criptografar as credenciais ou não, o meio de criptografia e outras informações.</target>         
         </trans-unit>
-        <trans-unit id="162" translate="yes" xml:space="preserve">
+        <trans-unit id="193" translate="yes" xml:space="preserve">
           <source>For more information on the configuration data block, see <bpt id="p1">[</bpt>Separating Configuration and Environment Data<ept id="p1">](configData.md)</ept>.</source>
           <target state="translated">Para obter mais informações sobre o bloco de dados de configuração, consulte <bpt id="p1">[</bpt>Separando Dados de Configuração e de Ambiente<ept id="p1">](configData.md)</ept>.</target>         
         </trans-unit>
-        <trans-unit id="163" translate="yes" xml:space="preserve">
+        <trans-unit id="194" translate="yes" xml:space="preserve">
           <source>The elements that can be configured for each node that are related to credential encryption are:</source>
           <target state="translated">Os elementos que podem ser configurados para cada nó que estão relacionados à criptografia de credencial são:</target>         
         </trans-unit>
-        <trans-unit id="164" translate="yes" xml:space="preserve">
+        <trans-unit id="195" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>NodeName<ept id="p1">**</ept> - the name of the target node that the credential encryption is being configured for.</source>
           <target state="translated"><bpt id="p1">**</bpt>NodeName<ept id="p1">**</ept>: o nome do nó de destino para o qual a criptografia de credencial está sendo configurada.</target>         
         </trans-unit>
-        <trans-unit id="165" translate="yes" xml:space="preserve">
+        <trans-unit id="196" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>PsDscAllowPlainTextPassword<ept id="p1">**</ept> - whether unencrypted credentials will be allowed to be passed to this node.</source>
           <target state="translated"><bpt id="p1">**</bpt>PsDscAllowPlainTextPassword<ept id="p1">**</ept>: se credenciais sem criptografia poderão ou não ser passadas para esse nó.</target>         
         </trans-unit>
-        <trans-unit id="166" translate="yes" xml:space="preserve">
+        <trans-unit id="197" translate="yes" xml:space="preserve">
           <source>This is <bpt id="p1">**</bpt>not recommended<ept id="p1">**</ept>.</source>
           <target state="translated">Isso <bpt id="p1">**</bpt>não é recomendável<ept id="p1">**</ept>.</target>         
         </trans-unit>
-        <trans-unit id="167" translate="yes" xml:space="preserve">
+        <trans-unit id="198" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Thumbprint<ept id="p1">**</ept> - the thumbprint of the certificate that will be used to decrypt the credentials in the DSC Configuration on the <bpt id="p2">_</bpt>Target Node<ept id="p2">_</ept>.</source>
           <target state="translated"><bpt id="p1">**</bpt>Impressão digital<ept id="p1">**</ept>: a impressão digital do certificado que será usada para descriptografar as credenciais na Configuração DSC no <bpt id="p2">_</bpt>Nó de Destino<ept id="p2">_</ept>.</target>         
         </trans-unit>
-        <trans-unit id="168" translate="yes" xml:space="preserve">
+        <trans-unit id="199" translate="yes" xml:space="preserve">
           <source>This certificate must exist in the Local Machine certificate store on the Target Node.</source>
           <target state="translated">Esse certificado deve existir no repositório de certificados do Computador Local no Nó de Destino.</target>         
         </trans-unit>
-        <trans-unit id="169" translate="yes" xml:space="preserve">
+        <trans-unit id="200" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>CertificateFile<ept id="p1">**</ept> - the certificate file (containing the public key only) that should be used to encrypt the credentials for the <bpt id="p2">_</bpt>Target Node<ept id="p2">_</ept>.</source>
           <target state="translated"><bpt id="p1">**</bpt>CertificateFile<ept id="p1">**</ept>: o arquivo de certificado (contendo somente a chave pública) que deve ser usado para criptografar as credenciais para o <bpt id="p2">_</bpt>Nó de Destino<ept id="p2">_</ept>.</target>         
         </trans-unit>
-        <trans-unit id="170" translate="yes" xml:space="preserve">
+        <trans-unit id="201" translate="yes" xml:space="preserve">
           <source>This must be either a DER encoded binary X.509 or Base-64 encoded X.509 format certificate file.</source>
           <target state="translated">Isso deve ser X.509 binário codificado por DER ou um arquivo de certificado de formato X.509 com codificação de Base 64.</target>         
         </trans-unit>
-        <trans-unit id="171" translate="yes" xml:space="preserve">
+        <trans-unit id="202" translate="yes" xml:space="preserve">
           <source>This example shows a configuration data block that specifies a target node to act on named targetNode, the path to the public key certificate file (named targetNode.cer), and the thumbprint for the public key.</source>
           <target state="translated">Este exemplo mostra um bloco de dados de configuração que especifica um nó de destino para atuar no targetNode nomeado, o caminho até o arquivo de certificado de chave pública (denominado targetNode.cer) e a impressão digital da chave pública.</target>         
         </trans-unit>
-        <trans-unit id="172" translate="yes" xml:space="preserve">
+        <trans-unit id="203" translate="yes" xml:space="preserve">
           <source>Configuration script</source>
           <target state="translated">Script de configuração</target>         
         </trans-unit>
-        <trans-unit id="173" translate="yes" xml:space="preserve">
+        <trans-unit id="204" translate="yes" xml:space="preserve">
           <source>In the configuration script itself, use the <ph id="ph1">`PsCredential`</ph> parameter to ensure that credentials are stored for the shortest possible time.</source>
           <target state="translated">No próprio script de configuração, use o parâmetro <ph id="ph1">`PsCredential`</ph> para garantir que as credenciais sejam armazenadas pelo menor tempo possível.</target>         
         </trans-unit>
-        <trans-unit id="174" translate="yes" xml:space="preserve">
+        <trans-unit id="205" translate="yes" xml:space="preserve">
           <source>When you run the supplied example, DSC will prompt you for credentials and then encrypt the MOF file using the CertificateFile that is associated with the target node in the configuration data block.</source>
           <target state="translated">Quando você executa o exemplo fornecido, a DSC solicitará credenciais e, em seguida, criptografará o arquivo MOF usando o CertificateFile que está associado com o nó de destino no bloco de dados de configuração.</target>         
         </trans-unit>
-        <trans-unit id="175" translate="yes" xml:space="preserve">
+        <trans-unit id="206" translate="yes" xml:space="preserve">
           <source>This code example copies a file from a share that is secured to a user.</source>
           <target state="translated">Este exemplo de código copia um arquivo de um compartilhamento protegido para um usuário.</target>         
         </trans-unit>
-        <trans-unit id="176" translate="yes" xml:space="preserve">
+        <trans-unit id="207" translate="yes" xml:space="preserve">
           <source>Setting up decryption</source>
           <target state="translated">Configurando a descriptografia</target>         
         </trans-unit>
-        <trans-unit id="177" translate="yes" xml:space="preserve">
+        <trans-unit id="208" translate="yes" xml:space="preserve">
           <source>Before <bpt id="p1">[</bpt><ph id="ph1">`Start-DscConfiguration`</ph><ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> can work, you have to tell the Local Configuration Manager on each target node which certificate to use to decrypt the credentials, using the CertificateID resource to verify the certificate’s thumbprint.</source>
           <target state="translated">Para que o <bpt id="p1">[</bpt><ph id="ph1">`Start-DscConfiguration`</ph><ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> possa funcionar, você precisa informar ao Gerenciador de Configurações Local em cada nó de destino qual certificado usar para descriptografar as credenciais, usando o recurso CertificateID para verificar a impressão digital do certificado.</target>         
         </trans-unit>
-        <trans-unit id="178" translate="yes" xml:space="preserve">
+        <trans-unit id="209" translate="yes" xml:space="preserve">
           <source>This example function will find the appropriate local certificate (you might have to customize it so it will find the exact certificate you want to use):</source>
           <target state="translated">A função neste exemplo encontrará o certificado local apropriado (talvez seja necessário personalizá-lo para ele encontrar o certificado exato que você deseja usar):</target>         
         </trans-unit>
-        <trans-unit id="179" translate="yes" xml:space="preserve">
+        <trans-unit id="210" translate="yes" xml:space="preserve">
           <source>With the certificate identified by its thumbprint, the configuration script can be updated to use the value:</source>
           <target state="translated">Com o certificado identificado por sua impressão digital, o script de configuração pode ser atualizado para usar o valor:</target>         
         </trans-unit>
-        <trans-unit id="180" translate="yes" xml:space="preserve">
+        <trans-unit id="211" translate="yes" xml:space="preserve">
           <source>Running the configuration</source>
           <target state="translated">Executando a configuração</target>         
         </trans-unit>
-        <trans-unit id="181" translate="yes" xml:space="preserve">
+        <trans-unit id="212" translate="yes" xml:space="preserve">
           <source>At this point, you can run the configuration, which will output two files:</source>
           <target state="translated">Neste ponto, você pode executar a configuração, o que resultará em dois arquivos:</target>         
         </trans-unit>
-        <trans-unit id="182" translate="yes" xml:space="preserve">
+        <trans-unit id="213" translate="yes" xml:space="preserve">
           <source>A *.meta.mof file that configures the Local Configuration Manager to decrypt the credentials using the certificate that is stored on the local machine store and identified by its thumbprint.</source>
           <target state="translated">Um arquivo *.meta.mof que configura o Gerenciador de Configurações Local para descriptografar as credenciais usando o certificado armazenado no repositório do computador local e identificado por sua impressão digital.</target>         
         </trans-unit>
-        <trans-unit id="183" translate="yes" xml:space="preserve">
+        <trans-unit id="214" translate="yes" xml:space="preserve">
           <source><bpt id="p1">[</bpt><ph id="ph1">`Set-DscLocalConfigurationManager`</ph><ept id="p1">](https://technet.microsoft.com/en-us/library/dn521621.aspx)</ept> applies the *.meta.mof file.</source>
           <target state="translated"><bpt id="p1">[</bpt><ph id="ph1">`Set-DscLocalConfigurationManager`</ph><ept id="p1">](https://technet.microsoft.com/en-us/library/dn521621.aspx)</ept> aplica o arquivo *.meta.mof.</target>         
         </trans-unit>
-        <trans-unit id="184" translate="yes" xml:space="preserve">
+        <trans-unit id="215" translate="yes" xml:space="preserve">
           <source>A MOF file that actually applies the configuration.</source>
           <target state="translated">Um arquivo MOF que realmente aplica a configuração.</target>         
         </trans-unit>
-        <trans-unit id="185" translate="yes" xml:space="preserve">
+        <trans-unit id="216" translate="yes" xml:space="preserve">
           <source>Start-DscConfiguration applies the configuration.</source>
           <target state="translated">O Start-DscConfiguration aplica a configuração.</target>         
         </trans-unit>
-        <trans-unit id="186" translate="yes" xml:space="preserve">
+        <trans-unit id="217" translate="yes" xml:space="preserve">
           <source>These commands will accomplish those steps:</source>
           <target state="translated">Estes comandos realizarão estas etapas:</target>         
         </trans-unit>
-        <trans-unit id="187" translate="yes" xml:space="preserve">
+        <trans-unit id="218" translate="yes" xml:space="preserve">
           <source>This example would push the DSC configuration to the target node.</source>
           <target state="translated">Este exemplo enviaria por push a configuração DSC para o nó de destino.</target>         
         </trans-unit>
-        <trans-unit id="188" translate="yes" xml:space="preserve">
+        <trans-unit id="219" translate="yes" xml:space="preserve">
           <source>The DSC configuration can also be applied using a DSC Pull Server if one is available.</source>
           <target state="translated">A configuração DSC também poderá ser aplicada usando um Servidor de Pull de DSC, se houver um disponível.</target>         
         </trans-unit>
-        <trans-unit id="189" translate="yes" xml:space="preserve">
-          <source>See <bpt id="p1">[</bpt>this page<ept id="p1">](PullClient.md)</ept> for more information on applying DSC configurations using a DSC Pull Server.</source>
-          <target state="translated">Consulte <bpt id="p1">[</bpt>esta página<ept id="p1">](PullClient.md)</ept> para obter mais informações sobre como aplicar as configurações DSC usando um Servidor de Pull de DSC.</target>         
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">[</bpt>Setting up a DSC pull client<ept id="p1">](pullClient.md)</ept> for more information on applying DSC configurations using a DSC Pull Server.</source>
+          <target state="translated">Consulte <bpt id="p1">[</bpt>Configurando um cliente pull de DSC<ept id="p1">](pullClient.md)</ept> para obter mais informações sobre como aplicar configurações de DSC usando um Servidor de Pull de DSC.</target>         
         </trans-unit>
-        <trans-unit id="190" translate="yes" xml:space="preserve">
+        <trans-unit id="221" translate="yes" xml:space="preserve">
           <source>Credential Encryption Module Example</source>
           <target state="translated">Exemplo de Módulo de Criptografia de Credencial</target>         
         </trans-unit>
-        <trans-unit id="191" translate="yes" xml:space="preserve">
+        <trans-unit id="222" translate="yes" xml:space="preserve">
           <source>Here is a full example that incorporates all of these steps, plus a helper cmdlet that exports and copies the public keys:</source>
           <target state="translated">Aqui está um exemplo completo que incorpora todas essas etapas, além de um cmdlet auxiliar que exporta e copia as chaves públicas:</target>         
         </trans-unit>
