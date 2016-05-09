@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" original="md" source-language="en-US" target-language="fr-fr">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="fr-fr">
     <header>
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">53ace617daf20d1375838e7021771af0e8b29193</xliffext:olfilehash>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-e76445a" tool-company="Microsoft" />
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0560274d9f9c8efaddf790dd784ddd936fe90e5d</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-2072b6e" tool-company="Microsoft" />
     </header>
     <body>
       <group id="content" extype="content">
@@ -16,60 +17,52 @@
           <target state="translated">S’applique à : Windows PowerShell 5.0</target>         
         </trans-unit>
         <trans-unit id="103" translate="yes" xml:space="preserve">
-          <source>You can run a DSC configuration under a specified set of credentials by using the <bpt id="p1">**</bpt>PsDscRunAsCredential<ept id="p1">**</ept> property in the configuration.</source>
-          <target state="translated">Vous pouvez exécuter une configuration DSC sous un jeu d’informations d’identification spécifié à l’aide de la propriété <bpt id="p1">**</bpt>PsDscRunAsCredential<ept id="p1">**</ept> dans la configuration.</target>         
+          <source>You can run a DSC resource under a specified set of credentials by using the automatic <bpt id="p1">**</bpt>PsDscRunAsCredential<ept id="p1">**</ept> property in the configuration.</source>
+          <target state="translated">Vous pouvez exécuter une ressource DSC sous un jeu d’informations d’identification spécifié à l’aide de la propriété automatique <bpt id="p1">**</bpt>PsDscRunAsCredential<ept id="p1">**</ept> dans la configuration.</target>         
         </trans-unit>
         <trans-unit id="104" translate="yes" xml:space="preserve">
-          <source>By default, DSC runs</source>
-          <target state="translated">Par défaut, DSC s’exécute</target>         
+          <source>By default, DSC runs each resource as the system account.</source>
+          <target state="translated">Par défaut, DSC exécute chaque ressource comme compte système.</target>         
         </trans-unit>
         <trans-unit id="105" translate="yes" xml:space="preserve">
-          <source>as the system account.</source>
-          <target state="translated">en tant que compte système.</target>         
+          <source>There are times when running as a user is necessary, such as installing MSI packages in a specific user context, setting a user's registry keys, accessing a user's specific local directory, or accessing a network share.</source>
+          <target state="translated">Voici les heures où l’exécution en tant qu’utilisateur est nécessaire, par exemple, l’installation de packages MSI dans un contexte d’utilisateur spécifique, la définition de clés de Registre d’un utilisateur, l’accès à un annuaire local spécifique d’un utilisateur ou l’accès à un partage réseau.</target>         
         </trans-unit>
         <trans-unit id="106" translate="yes" xml:space="preserve">
-          <source>There are times when running as a user is necessary, such as installing MSI packages in a specific user context, setting a user's registry keys,</source>
-          <target state="translated">Voici les heures où l’exécution en tant qu’utilisateur est nécessaire, par exemple, l’installation de packages MSI dans un contexte d’utilisateur spécifique, la définition de clés de Registre d’un utilisateur,</target>         
-        </trans-unit>
-        <trans-unit id="107" translate="yes" xml:space="preserve">
-          <source>accessing a user's specific local directory, or accessing a network share.</source>
-          <target state="translated">l’accès au répertoire local spécifique d’un utilisateur ou l’accès à un partage réseau.</target>         
-        </trans-unit>
-        <trans-unit id="108" translate="yes" xml:space="preserve">
           <source>Every DSC resource has a <bpt id="p1">**</bpt>PsDscRunAsCredential<ept id="p1">**</ept> property that can be set to any user credentials (a <bpt id="p2">[</bpt>PSCredential<ept id="p2">](https://msdn.microsoft.com/en-us/library/ms572524(v=VS.85).aspx)</ept> object).</source>
           <target state="translated">Toutes les ressources DSC ont une propriété <bpt id="p1">**</bpt>PsDscRunAsCredential<ept id="p1">**</ept> qui peut être définie sur n’importe quelles informations d’identification de l’utilisateur (un objet <bpt id="p2">[</bpt>PSCredential<ept id="p2">](https://msdn.microsoft.com/en-us/library/ms572524(v=VS.85).aspx)</ept>).</target>         
         </trans-unit>
-        <trans-unit id="109" translate="yes" xml:space="preserve">
+        <trans-unit id="107" translate="yes" xml:space="preserve">
           <source>The credential can be hard-coded as the value of the property in the configuration, or you can set the value to <bpt id="p1">[</bpt>Get-Credential<ept id="p1">](https://technet.microsoft.com/en-us/library/hh849815.aspx)</ept>,</source>
-          <target state="translated">Les informations d’identification peuvent être codées en dur en tant que valeur de la propriété dans la configuration, ou vous pouvez définir la valeur sur <bpt id="p1">[</bpt>Get-Credential<ept id="p1">](https://technet.microsoft.com/en-us/library/hh849815.aspx)</ept>,</target>         
+          <target state="translated">Les informations d’identification peuvent être codées en dur comme valeur de la propriété dans la configuration, ou vous pouvez définir la valeur sur <bpt id="p1">[</bpt>Get-Credential<ept id="p1">](https://technet.microsoft.com/en-us/library/hh849815.aspx)</ept>,</target>         
         </trans-unit>
-        <trans-unit id="110" translate="yes" xml:space="preserve">
-          <source>which will prompt the user for a credential when the configuration is compiled (for information about compiling configurations, see <bpt id="p1">[</bpt>Configurations<ept id="p1">](configurations.md)</ept>.</source>
-          <target state="translated">ce qui invite l’utilisateur à entrer des informations d’identification lors de la compilation de la configuration (pour plus d’informations sur la compilation des configurations, consultez <bpt id="p1">[</bpt>Configurations<ept id="p1">](configurations.md)</ept>.</target>         
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>which will prompt the user for a credential when the configuration is compiled (for information about compiling configurations, see <bpt id="p1">[</bpt>Configurations<ept id="p1">](configurations.md)</ept></source>
+          <target state="translated">ce qui invite l’utilisateur à entrer des informations d’identification lors de la compilation de la configuration (pour plus d’informations sur la compilation des configurations, consultez <bpt id="p1">[</bpt>Configurations<ept id="p1">](configurations.md)</ept>).</target>         
         </trans-unit>
-        <trans-unit id="111" translate="yes" xml:space="preserve">
+        <trans-unit id="109" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> The <bpt id="p2">**</bpt>PsDscRunAsCredential<ept id="p2">**</ept> property is not available in PowerShell 4.0.</source>
           <target state="translated"><bpt id="p1">**</bpt>Remarque :<ept id="p1">**</ept> La propriété <bpt id="p2">**</bpt>PsDscRunAsCredential<ept id="p2">**</ept> n’est pas disponible dans PowerShell 4.0.</target>         
         </trans-unit>
-        <trans-unit id="112" translate="yes" xml:space="preserve">
+        <trans-unit id="110" translate="yes" xml:space="preserve">
           <source>In the following example, <bpt id="p1">**</bpt>Get-Credential<ept id="p1">**</ept> is used to prompt the user for credentials.</source>
-          <target state="translated">Dans l’exemple suivant, <bpt id="p1">**</bpt>Get-Credential<ept id="p1">**</ept> est utilisée pour demander les informations d’identification de l’utilisateur.</target>         
+          <target state="translated">Dans l’exemple suivant, <bpt id="p1">**</bpt>Get-Credential<ept id="p1">**</ept> est utilisé pour demander les informations d’identification de l’utilisateur.</target>         
         </trans-unit>
-        <trans-unit id="113" translate="yes" xml:space="preserve">
+        <trans-unit id="111" translate="yes" xml:space="preserve">
           <source>The <bpt id="p1">[</bpt>Registry<ept id="p1">](registryResource.md)</ept> resource is used to change the registry key that specifies the background color</source>
           <target state="translated">La ressource <bpt id="p1">[</bpt>Registry<ept id="p1">](registryResource.md)</ept> permet de modifier la clé de Registre qui spécifie la couleur d’arrière-plan</target>         
         </trans-unit>
-        <trans-unit id="114" translate="yes" xml:space="preserve">
+        <trans-unit id="112" translate="yes" xml:space="preserve">
           <source>for the Windows command prompt window.</source>
           <target state="translated">de la fenêtre d’invite de commandes Windows.</target>         
         </trans-unit>
-        <trans-unit id="115" translate="yes" xml:space="preserve">
+        <trans-unit id="113" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> This example assumes that you have a valid certificate at <ph id="ph1">`C:\publicKeys\targetNode.cer`</ph>, and that the thumbprint of that certificate is the value shown.</source>
           <target state="translated"><bpt id="p1">**</bpt>Remarque :<ept id="p1">**</ept> Cet exemple suppose que vous disposez d’un certificat valide dans <ph id="ph1">`C:\publicKeys\targetNode.cer`</ph> et que l’empreinte du certificat est la valeur affichée.</target>         
         </trans-unit>
-        <trans-unit id="116" translate="yes" xml:space="preserve">
-          <source>For information about encrypting credentials in DSC configuration MOF files, see <bpt id="p1">[</bpt>Securing the MOF file<ept id="p1">](secureMOF.md)</ept>.</source>
-          <target state="translated">Pour plus d’informations sur le chiffrement des informations d’identification dans les fichiers MOF de configuration DSC, consultez <bpt id="p1">[</bpt>Sécurisation du fichier MOF<ept id="p1">](secureMOF.md)</ept>.</target>         
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For information about encrypting credentials in DSC configuration MOF files, see <bpt id="p1">[</bpt>Securing the MOF file<ept id="p1">](secureMOF.md)</ept></source>
+          <target state="translated">Pour plus d’informations sur le chiffrement des informations d’identification dans les fichiers MOF de configuration DSC, consultez <bpt id="p1">[</bpt>Sécurisation du fichier MOF<ept id="p1">](secureMOF.md)</ept></target>         
         </trans-unit>
       </group>
     </body>
