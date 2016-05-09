@@ -2,8 +2,9 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="md" source-language="en-US" target-language="es-es">
     <header>
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4e6495b5c237c43240fc6cc30c3d435c1b8e0cbf</xliffext:olfilehash>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-e76445a" tool-company="Microsoft" />
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8b473eae7f12242e9995613ec747c5d80ebacd2c</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-04046aa" tool-company="Microsoft" />
     </header>
     <body>
       <group id="content" extype="content">
@@ -145,7 +146,7 @@
         </trans-unit>
         <trans-unit id="135" translate="yes" xml:space="preserve">
           <source>You must install the <bpt id="p1">[</bpt>Open Management Infrastructure (OMI)<ept id="p1">](https://collaboration.opengroup.org/omi/)</ept> before installing DSC for Linux.</source>
-          <target state="translated">Debe instalar <bpt id="p1">[</bpt>Open Management Infrastructure (OMI)<ept id="p1">](https://collaboration.opengroup.org/omi/)</ept> antes de instalar DSC para Linux.</target>         
+          <target state="translated">Debe instalar la <bpt id="p1">[</bpt>infraestructura de administración abierta (OMI)<ept id="p1">](https://collaboration.opengroup.org/omi/)</ept> antes de instalar DSC para Linux.</target>         
         </trans-unit>
         <trans-unit id="136" translate="yes" xml:space="preserve">
           <source>Installing OMI</source>
@@ -244,8 +245,8 @@
           <target state="translated">El módulo de Windows PowerShell nx contiene el esquema para los recursos integrados de DSC para Linux y debe instalarse en el equipo local e importarse en la configuración.</target>         
         </trans-unit>
         <trans-unit id="160" translate="yes" xml:space="preserve">
-          <source>-To install the nx module, copy the nx module directory to either <ph id="ph1">`%UserProfile%\Documents\WindowsPowerShell\Modules\`</ph> or <ph id="ph2">`C:\windows\system32\WindowsPowerShell\v1.0\Modules`</ph>.</source>
-          <target state="translated">-Para instalar el módulo nx, copie el directorio del módulo nx a <ph id="ph1">`%UserProfile%\Documents\WindowsPowerShell\Modules\`</ph> o <ph id="ph2">`C:\windows\system32\WindowsPowerShell\v1.0\Modules`</ph>.</target>         
+          <source>-To install the nx module, copy the nx module directory to either <ph id="ph1">`$env:USERPROFILE\Documents\WindowsPowerShell\Modules\`</ph> or <ph id="ph2">`$PSHOME\Modules`</ph>.</source>
+          <target state="translated">-Para instalar el módulo nx, copie el directorio del módulo nx a <ph id="ph1">`$env:USERPROFILE\Documents\WindowsPowerShell\Modules\`</ph> o <ph id="ph2">`$PSHOME\Modules`</ph>.</target>         
         </trans-unit>
         <trans-unit id="161" translate="yes" xml:space="preserve">
           <source>The nx module is included in the DSC for Linux installation package (MSI).</source>
@@ -297,7 +298,7 @@
         </trans-unit>
         <trans-unit id="173" translate="yes" xml:space="preserve">
           <source>If this certificate is not trusted by the Windows computer that you are running the <bpt id="p1">[</bpt>New-CimSession<ept id="p1">](https://technet.microsoft.com/en-us/library/jj590760.aspx)</ept> cmdlet on, you can choose to ignore certificate validation with the CIMSession Options: <ph id="ph1">`-SkipCACheck:$true -SkipCNCheck:$true -SkipRevocationCheck:$true`</ph></source>
-          <target state="translated">Si este certificado no es de confianza para el equipo de Windows en el que se está ejecutando el cmdlet <bpt id="p1">[</bpt>New-CimSession<ept id="p1">](https://technet.microsoft.com/en-us/library/jj590760.aspx)</ept>, puede elegir ignorar la validación de certificados con las opciones de CIMSession <ph id="ph1">`-SkipCACheck:$true -SkipCNCheck:$true -SkipRevocationCheck:$true`</ph></target>         
+          <target state="translated">Si este certificado no es de confianza para el equipo de Windows en el que se está ejecutando el cmdlet <bpt id="p1">[</bpt>New-CimSession<ept id="p1">](https://technet.microsoft.com/en-us/library/jj590760.aspx)</ept>, puede elegir omitir la validación de certificados con las opciones de CIMSession <ph id="ph1">`-SkipCACheck:$true -SkipCNCheck:$true -SkipRevocationCheck:$true`</ph></target>         
         </trans-unit>
         <trans-unit id="174" translate="yes" xml:space="preserve">
           <source>Run the following command to push the DSC configuration to the Linux node.</source>
@@ -313,7 +314,7 @@
         </trans-unit>
         <trans-unit id="177" translate="yes" xml:space="preserve">
           <source>For guidance on using a pull server, see <bpt id="p1">[</bpt>Windows PowerShell Desired State Configuration Pull Servers<ept id="p1">](pullServer.md)</ept>.</source>
-          <target state="translated">Para obtener instrucciones sobre el uso de un servidor de incorporación de cambios, consulte <bpt id="p1">[</bpt>Servidores de incorporación de cambios de la configuración de estado deseado de Windows PowerShell<ept id="p1">](pullServer.md)</ept>.</target>         
+          <target state="translated">Para obtener instrucciones sobre el uso de un servidor de extracción, consulte <bpt id="p1">[</bpt>Servidores de extracción de la configuración de estado deseado de Windows PowerShell<ept id="p1">](pullServer.md)</ept>.</target>         
         </trans-unit>
         <trans-unit id="178" translate="yes" xml:space="preserve">
           <source>For additional information and limitations related to using Linux computers with a pull server, see the Release Notes for Desired State Configuration for Linux.</source>

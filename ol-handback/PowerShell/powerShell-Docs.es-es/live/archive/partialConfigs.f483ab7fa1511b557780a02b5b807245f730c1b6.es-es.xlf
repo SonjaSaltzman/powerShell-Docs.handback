@@ -3,8 +3,8 @@
   <file datatype="xml" original="md" source-language="en-US" target-language="es-es">
     <header>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">da7b4dad0811bf0dc4745b6482c74731448edbdd</xliffext:olfilehash>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1457980" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">826fa37544f408a817e0cdea1557c2b00f3a6e51</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-708c90d" tool-company="Microsoft" />
     </header>
     <body>
       <group id="content" extype="content">
@@ -126,11 +126,11 @@
         </trans-unit>
         <trans-unit id="130" translate="yes" xml:space="preserve">
           <source>To configure the LCM to pull partial configurations from a pull server, you define the pull server in either a <bpt id="p1">**</bpt>ConfigurationRepositoryWeb<ept id="p1">**</ept> (for an HTTP pull server) or <bpt id="p2">**</bpt>ConfigurationRepositoryShare<ept id="p2">**</ept> (for an SMB pull server) block.</source>
-          <target state="translated">Para configurar el LCM para extraer configuraciones parciales de un servidor de incorporación de cambios, debe definir el servidor de incorporación de cambios en un bloque <bpt id="p1">**</bpt>ConfigurationRepositoryWeb<ept id="p1">**</ept> (para un servidor de incorporación de cambios HTTP) o <bpt id="p2">**</bpt>ConfigurationRepositoryShare<ept id="p2">**</ept> (para un servidor de incorporación de cambios SMB).</target>         
+          <target state="translated">Para configurar el LCM para extraer configuraciones parciales de un servidor de extracción, debe definir el servidor de extracción en un bloque <bpt id="p1">**</bpt>ConfigurationRepositoryWeb<ept id="p1">**</ept> (para un servidor de extracción HTTP) o <bpt id="p2">**</bpt>ConfigurationRepositoryShare<ept id="p2">**</ept> (para un servidor de extracción SMB).</target>         
         </trans-unit>
         <trans-unit id="131" translate="yes" xml:space="preserve">
           <source>You then create <bpt id="p1">**</bpt>PartialConfiguration<ept id="p1">**</ept> blocks that refer to the pull server by using the <bpt id="p2">**</bpt>ConfigurationSource<ept id="p2">**</ept> property.</source>
-          <target state="translated">A continuación, cree bloques <bpt id="p1">**</bpt>PartialConfiguration<ept id="p1">**</ept> que hagan referencia al servidor de incorporación de cambios mediante la propiedad <bpt id="p2">**</bpt>ConfigurationSource<ept id="p2">**</ept>.</target>         
+          <target state="translated">A continuación, cree bloques <bpt id="p1">**</bpt>PartialConfiguration<ept id="p1">**</ept> que hagan referencia al servidor de extracción mediante la propiedad <bpt id="p2">**</bpt>ConfigurationSource<ept id="p2">**</ept>.</target>         
         </trans-unit>
         <trans-unit id="132" translate="yes" xml:space="preserve">
           <source>You also need to create a Settings block to specify that the LCM uses pull mode, and to specify the ConfigurationID that the pull server and target node use to identify the configurations.</source>
@@ -146,7 +146,7 @@
         </trans-unit>
         <trans-unit id="135" translate="yes" xml:space="preserve">
           <source>After creating the meta-configuration, you must run it to create a configuration document (a MOF file), and then call <bpt id="p1">[</bpt>Set-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521621(v=wps.630).aspx)</ept> to configure the LCM.</source>
-          <target state="translated">Después de crear la metaconfiguración, debe ejecutarla para crear un documento de configuración (archivo MOF) y, a continuación, llamar a <bpt id="p1">[</bpt>Set-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521621(v=wps.630).aspx)</ept> para configurar el LCM.</target>         
+          <target state="translated">Después de crear la metaconfiguración, debe ejecutar para crear un documento de configuración (archivo MOF) y, a continuación, llame a <bpt id="p1">[</bpt>Set-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521621(v=wps.630).aspx)</ept> para configurar el LCM.</target>         
         </trans-unit>
         <trans-unit id="136" translate="yes" xml:space="preserve">
           <source>Naming and placing the configuration documents on the pull server</source>
@@ -154,7 +154,7 @@
         </trans-unit>
         <trans-unit id="137" translate="yes" xml:space="preserve">
           <source>The partial configuration documents must be placed in the folder specified as the <bpt id="p1">**</bpt>ConfigurationPath<ept id="p1">**</ept> in the <ph id="ph1">`web.config`</ph> file for the pull server (typically <ph id="ph2">`C:\Program Files\WindowsPowerShell\DscService\Configuration`</ph>).</source>
-          <target state="translated">Los documentos de configuración parcial deben ubicarse en la carpeta especificada en el valor <bpt id="p1">**</bpt>ConfigurationPath<ept id="p1">**</ept> del archivo <ph id="ph1">`web.config`</ph> del servidor de incorporación de cambios (normalmente <ph id="ph2">`C:\Program Files\WindowsPowerShell\DscService\Configuration`</ph>).</target>         
+          <target state="translated">Los documentos de configuración parcial deben ubicarse en la carpeta especificada en el valor <bpt id="p1">**</bpt>ConfigurationPath<ept id="p1">**</ept> del archivo <ph id="ph1">`web.config`</ph> del servidor de extracción (normalmente <ph id="ph2">`C:\Program Files\WindowsPowerShell\DscService\Configuration`</ph>).</target>         
         </trans-unit>
         <trans-unit id="138" translate="yes" xml:space="preserve">
           <source>The configuration documents must be named as follows: <bpt id="p1">_</bpt>ConfigurationName<ept id="p1">_</ept>.</source>
@@ -178,7 +178,7 @@
         </trans-unit>
         <trans-unit id="143" translate="yes" xml:space="preserve">
           <source>After the LCM on the target node has been configured, and the configuration documents have been created and properly named on the pull server, the target node will pull the partial configurations, combine them, and apply the resulting configuration at regular intervals as specified by the <bpt id="p1">**</bpt>RefreshFrequencyMins<ept id="p1">**</ept> property of the LCM.</source>
-          <target state="translated">Cuando se haya configurado el LCM en el nodo de destino y se hayan creado los documentos de configuración con los nombres correctos en el servidor de incorporación de cambios, el nodo de destino extraerá las configuraciones parciales, las combinará y aplicará la configuración resultante a intervalos regulares, según especifique la propiedad <bpt id="p1">**</bpt>RefreshFrequencyMins<ept id="p1">**</ept> del LCM.</target>         
+          <target state="translated">Cuando se haya configurado el LCM en el nodo de destino y se hayan creado los documentos de configuración con los nombres correctos en el servidor de extracción, el nodo de destino extraerá las configuraciones parciales, las combinará y aplicará la configuración resultante a intervalos regulares, según especifique la propiedad <bpt id="p1">**</bpt>RefreshFrequencyMins<ept id="p1">**</ept> del LCM.</target>         
         </trans-unit>
         <trans-unit id="144" translate="yes" xml:space="preserve">
           <source>If you want to force a refresh, you can call the Update-DscConfiguration cmdlet, to pull the configurations, and then <ph id="ph1">`Start-DSCConfiguration –UseExisting`</ph> to apply them.</source>
@@ -214,7 +214,7 @@
         </trans-unit>
         <trans-unit id="152" translate="yes" xml:space="preserve">
           <source>You would call <bpt id="p1">**</bpt>Publish-DSCConfiguration<ept id="p1">**</ept> to publish the SharePointInstall partial configuration, and either wait for the OSInstall configuration to be pulled from the pull server, or force a refresh by calling <bpt id="p2">[</bpt>Update-DscConfiguration<ept id="p2">](https://technet.microsoft.com/en-us/library/mt143541(v=wps.630).aspx)</ept>.</source>
-          <target state="translated">Debería llamar a <bpt id="p1">**</bpt>Publish-DSCConfiguration<ept id="p1">**</ept> para publicar la configuración parcial de SharePointInstall y, o bien esperar a que se extraiga la configuración OSInstall del servidor de incorporación de cambios, o bien forzar una actualización mediante una llamada a <bpt id="p2">[</bpt>Update-DscConfiguration<ept id="p2">](https://technet.microsoft.com/en-us/library/mt143541(v=wps.630).aspx)</ept>.</target>         
+          <target state="translated">Debería llamar a <bpt id="p1">**</bpt>Publish-DSCConfiguration<ept id="p1">**</ept> para publicar la configuración parcial de SharePointInstall y, o bien esperar a que se extraiga la configuración OSInstall del servidor de extracción, o bien forzar una actualización mediante una llamada a <bpt id="p2">[</bpt>Update-DscConfiguration<ept id="p2">](https://technet.microsoft.com/en-us/library/mt143541(v=wps.630).aspx)</ept>.</target>         
         </trans-unit>
         <trans-unit id="153" translate="yes" xml:space="preserve">
           <source>See Also</source>
