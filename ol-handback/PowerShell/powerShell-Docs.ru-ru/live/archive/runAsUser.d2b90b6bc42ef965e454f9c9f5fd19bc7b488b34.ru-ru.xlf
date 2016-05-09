@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" original="md" source-language="en-US" target-language="ru-ru">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
     <header>
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">53ace617daf20d1375838e7021771af0e8b29193</xliffext:olfilehash>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-e76445a" tool-company="Microsoft" />
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0560274d9f9c8efaddf790dd784ddd936fe90e5d</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-2072b6e" tool-company="Microsoft" />
     </header>
     <body>
       <group id="content" extype="content">
@@ -16,60 +17,52 @@
           <target state="translated">Область применения: Windows PowerShell 5.0</target>         
         </trans-unit>
         <trans-unit id="103" translate="yes" xml:space="preserve">
-          <source>You can run a DSC configuration under a specified set of credentials by using the <g id="p1" mdpre="**" mdpost="**">PsDscRunAsCredential</g> property in the configuration.</source>
-          <target state="translated">Конфигурацию DSC можно запустить с заданным набором учетных данных. Для этого используется свойство <g id="p1" mdpre="**" mdpost="**">PsDscRunAsCredential</g> в конфигурации.</target>         
+          <source>You can run a DSC resource under a specified set of credentials by using the automatic <bpt id="p1">**</bpt>PsDscRunAsCredential<ept id="p1">**</ept> property in the configuration.</source>
+          <target state="translated">Ресурс DSC можно запускать с определенным набором учетных данных. Для этого используется автоматическое свойство <bpt id="p1">**</bpt>PsDscRunAsCredential<ept id="p1">**</ept> в конфигурации.</target>         
         </trans-unit>
         <trans-unit id="104" translate="yes" xml:space="preserve">
-          <source>By default, DSC runs</source>
-          <target state="translated">По умолчанию DSC запускается</target>         
+          <source>By default, DSC runs each resource as the system account.</source>
+          <target state="translated">По умолчанию DSC запускает каждый ресурс в качестве системной учетной записи.</target>         
         </trans-unit>
         <trans-unit id="105" translate="yes" xml:space="preserve">
-          <source>as the system account.</source>
-          <target state="translated">с системной учетной записью.</target>         
+          <source>There are times when running as a user is necessary, such as installing MSI packages in a specific user context, setting a user's registry keys, accessing a user's specific local directory, or accessing a network share.</source>
+          <target state="translated">Иногда бывает необходим запуск с учетной записью обычного пользователя, например, при установке MSI-пакетов в контексте определенного пользователя, при установке разделов реестра пользователя, доступе к конкретному локальному каталогу пользователя или сетевой папке.</target>         
         </trans-unit>
         <trans-unit id="106" translate="yes" xml:space="preserve">
-          <source>There are times when running as a user is necessary, such as installing MSI packages in a specific user context, setting a user's registry keys,</source>
-          <target state="translated">Иногда необходимо запустить ее с учетной записью обычного пользователя, например: при установке MSI-пакетов в контексте определенного пользователя, при установке разделов реестра пользователя,</target>         
+          <source>Every DSC resource has a <bpt id="p1">**</bpt>PsDscRunAsCredential<ept id="p1">**</ept> property that can be set to any user credentials (a <bpt id="p2">[</bpt>PSCredential<ept id="p2">](https://msdn.microsoft.com/en-us/library/ms572524(v=VS.85).aspx)</ept> object).</source>
+          <target state="translated">У каждого ресурса есть свойство <bpt id="p1">**</bpt>PsDscRunAsCredential<ept id="p1">**</ept>, которому можно назначить учетные данные любого пользователя (объект <bpt id="p2">[</bpt>PSCredential<ept id="p2">](https://msdn.microsoft.com/en-us/library/ms572524(v=VS.85).aspx)</ept>).</target>         
         </trans-unit>
         <trans-unit id="107" translate="yes" xml:space="preserve">
-          <source>accessing a user's specific local directory, or accessing a network share.</source>
-          <target state="translated">при доступе к локальному каталогу определенного пользователя или при доступе к сетевой папке.</target>         
+          <source>The credential can be hard-coded as the value of the property in the configuration, or you can set the value to <bpt id="p1">[</bpt>Get-Credential<ept id="p1">](https://technet.microsoft.com/en-us/library/hh849815.aspx)</ept>,</source>
+          <target state="translated">Учетные данные можно жестко задать в качестве значения свойства конфигурации или установить в качестве значения <bpt id="p1">[</bpt>Get-Credential<ept id="p1">](https://technet.microsoft.com/en-us/library/hh849815.aspx)</ept>.</target>         
         </trans-unit>
         <trans-unit id="108" translate="yes" xml:space="preserve">
-          <source>Every DSC resource has a <g id="p1" mdpre="**" mdpost="**">PsDscRunAsCredential</g> property that can be set to any user credentials (a <g id="p2" mdpre="[" mdpost="](https://msdn.microsoft.com/en-us/library/ms572524(v=VS.85).aspx)">PSCredential</g> object).</source>
-          <target state="translated">У каждого ресурса есть свойство <g id="p1" mdpre="**" mdpost="**">PsDscRunAsCredential</g>, которому можно присвоить учетные данные любого пользователя (объект <g id="p2" mdpre="[" mdpost="](https://msdn.microsoft.com/en-us/library/ms572524(v=VS.85).aspx)">PSCredential</g>).</target>         
+          <source>which will prompt the user for a credential when the configuration is compiled (for information about compiling configurations, see <bpt id="p1">[</bpt>Configurations<ept id="p1">](configurations.md)</ept></source>
+          <target state="translated">В этом случае пользователю будет предложено ввести учетные данные при компиляции конфигурации (дополнительные сведения о компиляции конфигурации см. в разделе <bpt id="p1">[</bpt>Конфигурации<ept id="p1">](configurations.md)</ept>).</target>         
         </trans-unit>
         <trans-unit id="109" translate="yes" xml:space="preserve">
-          <source>The credential can be hard-coded as the value of the property in the configuration, or you can set the value to <g id="p1" mdpre="[" mdpost="](https://technet.microsoft.com/en-us/library/hh849815.aspx)">Get-Credential</g>,</source>
-          <target state="translated">Учетные данные можно жестко закодировать в значении свойства конфигурации или установить в качестве значения <g id="p1" mdpre="[" mdpost="](https://technet.microsoft.com/en-us/library/hh849815.aspx)">Get-Credential</g>,</target>         
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> The <bpt id="p2">**</bpt>PsDscRunAsCredential<ept id="p2">**</ept> property is not available in PowerShell 4.0.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Примечание<ept id="p1">**</ept>. Свойство <bpt id="p2">**</bpt>PsDscRunAsCredential<ept id="p2">**</ept> недоступно в PowerShell 4.0.</target>         
         </trans-unit>
         <trans-unit id="110" translate="yes" xml:space="preserve">
-          <source>which will prompt the user for a credential when the configuration is compiled (for information about compiling configurations, see <g id="p1" mdpre="[" mdpost="](configurations.md)">Configurations</g>.</source>
-          <target state="translated">в этом случае пользователю будет предложено ввести учетные данные при компиляции конфигурации (дополнительные сведения о компиляции конфигурации в разделе <g id="p1" mdpre="[" mdpost="](configurations.md)">Конфигурации</g>).</target>         
+          <source>In the following example, <bpt id="p1">**</bpt>Get-Credential<ept id="p1">**</ept> is used to prompt the user for credentials.</source>
+          <target state="translated">В следующем примере <bpt id="p1">**</bpt>Get-Credential<ept id="p1">**</ept> используется для запроса учетных данных пользователя.</target>         
         </trans-unit>
         <trans-unit id="111" translate="yes" xml:space="preserve">
-          <source><g id="p1" mdpre="**" mdpost="**">Note:</g> The <g id="p2" mdpre="**" mdpost="**">PsDscRunAsCredential</g> property is not available in PowerShell 4.0.</source>
-          <target state="translated"><g id="p1" mdpre="**" mdpost="**">Примечание</g>. Свойство <g id="p2" mdpre="**" mdpost="**">PsDscRunAsCredential</g> недоступно в PowerShell 4.0.</target>         
+          <source>The <bpt id="p1">[</bpt>Registry<ept id="p1">](registryResource.md)</ept> resource is used to change the registry key that specifies the background color</source>
+          <target state="translated">Ресурс <bpt id="p1">[</bpt>Registry<ept id="p1">](registryResource.md)</ept> используется для изменения раздела реестра, указывающего цвет фона</target>         
         </trans-unit>
         <trans-unit id="112" translate="yes" xml:space="preserve">
-          <source>In the following example, <g id="p1" mdpre="**" mdpost="**">Get-Credential</g> is used to prompt the user for credentials.</source>
-          <target state="translated">В следующем примере <g id="p1" mdpre="**" mdpost="**">Get-Credential</g> используется для запроса учетных данных пользователя.</target>         
-        </trans-unit>
-        <trans-unit id="113" translate="yes" xml:space="preserve">
-          <source>The <g id="p1" mdpre="[" mdpost="](registryResource.md)">Registry</g> resource is used to change the registry key that specifies the background color</source>
-          <target state="translated">Ресурс <g id="p1" mdpre="[" mdpost="](registryResource.md)">Registry</g> используется для изменения раздела реестра, указывающего цвет фона</target>         
-        </trans-unit>
-        <trans-unit id="114" translate="yes" xml:space="preserve">
           <source>for the Windows command prompt window.</source>
           <target state="translated">для окна командной строки Windows.</target>         
         </trans-unit>
-        <trans-unit id="115" translate="yes" xml:space="preserve">
-          <source><g id="p1" mdpre="**" mdpost="**">Note:</g> This example assumes that you have a valid certificate at <ph id="ph1">`C:\publicKeys\targetNode.cer`</ph>, and that the thumbprint of that certificate is the value shown.</source>
-          <target state="translated"><g id="p1" mdpre="**" mdpost="**">Примечание</g>. В этом примере предполагается, что у вас есть действительный сертификат в <ph id="ph1">`C:\publicKeys\targetNode.cer`</ph> и что отображаемое значение представляет собой отпечаток этого сертификата.</target>         
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> This example assumes that you have a valid certificate at <ph id="ph1">`C:\publicKeys\targetNode.cer`</ph>, and that the thumbprint of that certificate is the value shown.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Примечание<ept id="p1">**</ept>. В этом примере предполагается, что у вас есть действительный сертификат в <ph id="ph1">`C:\publicKeys\targetNode.cer`</ph> и что отображаемое значение представляет собой отпечаток этого сертификата.</target>         
         </trans-unit>
-        <trans-unit id="116" translate="yes" xml:space="preserve">
-          <source>For information about encrypting credentials in DSC configuration MOF files, see <g id="p1" mdpre="[" mdpost="](secureMOF.md)">Securing the MOF file</g>.</source>
-          <target state="translated">Сведения о шифровании учетных данных в MOF-файлах конфигурации DSC см. в разделе <g id="p1" mdpre="[" mdpost="](secureMOF.md)">Защита MOF-файла</g>.</target>         
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For information about encrypting credentials in DSC configuration MOF files, see <bpt id="p1">[</bpt>Securing the MOF file<ept id="p1">](secureMOF.md)</ept></source>
+          <target state="translated">Сведения о шифровании учетных данных в MOF-файлах конфигурации DSC см. в разделе <bpt id="p1">[</bpt>Защита MOF-файла<ept id="p1">](secureMOF.md)</ept>.</target>         
         </trans-unit>
       </group>
     </body>
