@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="md" source-language="en-US" target-language="pt-br">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ab74c4e76b998f694982786942879dc02deeb777</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-04046aa" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>DSC Configurations</source>
+          <target state="translated">Configurações DSC</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</source>
+          <target state="translated">Aplica-se a: Windows PowerShell 4.0, Windows PowerShell 5.0</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>DSC configurations are PowerShell scripts that define a special type of function.</source>
+          <target state="translated">As configurações DSC são scripts do PowerShell que definem um tipo especial de função.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>To define a configuration, you use the PowerShell keyword <bpt id="p1">__</bpt>Configuration<ept id="p1">__</ept>.</source>
+          <target state="translated">Para definir uma configuração utilize a palavra-chave do PowerShell <bpt id="p1">__</bpt>Configuration<ept id="p1">__</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Save the script as a .ps1 file.</source>
+          <target state="translated">Salve o script como um arquivo .ps1.</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Configuration syntax</source>
+          <target state="translated">Sintaxe da configuração</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>A configuration script consists of the following parts:</source>
+          <target state="translated">Um script de configuração é composto por estas partes:</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Configuration<ept id="p1">**</ept> block.</source>
+          <target state="translated">O bloco <bpt id="p1">**</bpt>Configuration<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This is the outermost script block.</source>
+          <target state="translated">É o bloco de script externo.</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You define it by using the <bpt id="p1">**</bpt>Configuration<ept id="p1">**</ept> keyword and providing a name.</source>
+          <target state="translated">Para defini-lo, use a palavra-chave <bpt id="p1">**</bpt>Configuration<ept id="p1">**</ept> e forneça um nome.</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In this case, the name of the configuration is "MyDscConfiguration".</source>
+          <target state="translated">Nesse caso, o nome da configuração é "MyDscConfiguration".</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>One or more <bpt id="p1">**</bpt>Node<ept id="p1">**</ept> blocks.</source>
+          <target state="translated">Um ou mais blocos de <bpt id="p1">**</bpt>Nó<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>These define the nodes (computers or VMs) that you are configuring.</source>
+          <target state="translated">Definem os nós (computadores ou máquinas virtuais) que você está configurando.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In the above configuration, there is one <bpt id="p1">**</bpt>Node<ept id="p1">**</ept> block that targets a computer named "TEST-PC1".</source>
+          <target state="translated">Na configuração acima, há um bloco de <bpt id="p1">**</bpt>Nó<ept id="p1">**</ept> que tem como destino um computador denominado "TEST-PC1".</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>One or more resource blocks.</source>
+          <target state="translated">Um ou mais blocos de recurso.</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This is where the configuration sets the properties for the resources that it is configuring.</source>
+          <target state="translated">É onde a configuração define as propriedades para os recursos que estão sendo configurados.</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In this case, there are two resource blocks, each of which call the "WindowsFeature" resource.</source>
+          <target state="translated">Nesse caso, há dois blocos de recurso; cada um deles chama o recurso "WindowsFeature".</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Within a <bpt id="p1">**</bpt>Configuration<ept id="p1">**</ept> block, you can do anything that you normally could in a PoweShell function.</source>
+          <target state="translated">Dentro de um bloco de <bpt id="p1">**</bpt>configuração<ept id="p1">**</ept>, é possível fazer qualquer coisa que normalmente poderia ser feita em uma função do PoweShell.</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For example, in the previous example, if you didn't want to hard code the name of the target computer in the configuration, you could add a parameter for the node name:</source>
+          <target state="translated">No exemplo anterior, se você não quisesse embutir em código o nome do computador de destino na configuração, poderia adicionar um parâmetro para o nome do nó:</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>In this example, you specify the name of the node by passing it as the $computerName parameter when you [compile the configuraton](# Compiling the configuration).</source>
+          <target state="translated">Neste exemplo, o nome do nó é especificado ao ser passado como o parâmetro $computerName quando você [compila a configuração](# Compiling the configuration).</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The name defaults to "localhost".</source>
+          <target state="translated">O nome padrão é "localhost".</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Compiling the configuration</source>
+          <target state="translated">Compilando a configuração</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Before you can enact a configuration, you have to compile it into a MOF document.</source>
+          <target state="translated">Para poder aplicar uma configuração, você precisa compilá-la em um documento MOF.</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You do this by calling the configuration like you would a PowerShell function.</source>
+          <target state="translated">Chame a configuração como chamaria uma função do PowerShell.</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">__</bpt>Note:<ept id="p1">__</ept> To call a configuration, the function must be in global scope (as with any other PowerShell function).</source>
+          <target state="translated"><bpt id="p1">__</bpt>Observação:<ept id="p1">__</ept> para chamar uma configuração, a função precisa estar no escopo global (como acontece com qualquer outra função do PowerShell).</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You can make this happen either by "dot-sourcing" the script, or by running the configuration script by using F5 or clicking on the <bpt id="p1">__</bpt>Run Script<ept id="p1">__</ept> button in the ISE.</source>
+          <target state="translated">Isso pode ser feito por meio de "dot-sourcing" do script ou ao executar o script de configuração usando F5 ou clicando no botão <bpt id="p1">__</bpt>Executar Script<ept id="p1">__</ept> no ISE.</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To dot-source the script, run the command <ph id="ph1">`. .\myConfig.ps1`</ph> where <ph id="ph2">`myConfig.ps1`</ph> is the name of the script file that contains your configuration.</source>
+          <target state="translated">Para fazer o dot-source do script, execute o comando <ph id="ph1">`. .\myConfig.ps1`</ph>, em que <ph id="ph2">`myConfig.ps1`</ph> é o nome do arquivo de script que contém sua configuração.</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>When you call the configuration, it creates:</source>
+          <target state="translated">Quando você chama a configuração, ela cria:</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A folder in the current directory with the same name as the configuration.</source>
+          <target state="translated">Uma pasta no diretório atual com o mesmo nome que a configuração.</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>A file named <bpt id="p1">_</bpt>NodeName<ept id="p1">_</ept>.mof in the new directory, where <bpt id="p2">_</bpt>NodeName<ept id="p2">_</ept> is the name of the target node of the configuration.</source>
+          <target state="translated">Um arquivo chamado <bpt id="p1">_</bpt>NodeName<ept id="p1">_</ept>.mof no novo diretório, em que <bpt id="p2">_</bpt>NodeName<ept id="p2">_</ept> é o nome do nó de destino da configuração.</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>If there are more than one nodes, a MOF file will be created for each node.</source>
+          <target state="translated">Se houver mais de um nó, será criado um arquivo MOF para cada nó.</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">__</bpt>Note<ept id="p1">__</ept>: The MOF file contains all of the configuration information for the target node.</source>
+          <target state="translated"><bpt id="p1">__</bpt>Observação<ept id="p1">__</ept>: o arquivo MOF contém todas as informações de configuração para o nó de destino.</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Because of this, it’s important to keep it secure.</source>
+          <target state="translated">Por isso, é importante mantê-lo seguro.</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Securing the MOF file<ept id="p1">](secureMOF.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>Protegendo o arquivo MOF<ept id="p1">](secureMOF.md)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Compiling the first configuration above results in the following folder structure:</source>
+          <target state="translated">A compilação da primeira configuração acima resulta na seguinte estrutura de pastas:</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>If the configuration takes a parameter, as in the second example, that has to be provided at compile time.</source>
+          <target state="translated">Se a configuração utilizar um parâmetro, como no segundo exemplo, ele precisará ser fornecido no tempo de compilação.</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Here's how that would look:</source>
+          <target state="translated">A aparência deveria ser esta:</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Using DependsOn</source>
+          <target state="translated">Usando o DependsOn</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>A useful DSC keyword is <bpt id="p1">__</bpt>DependsOn<ept id="p1">__</ept>.</source>
+          <target state="translated">Uma palavra-chave útil da DSC é <bpt id="p1">__</bpt>DependsOn<ept id="p1">__</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Typically (though not necessarily always), DSC applies the resources in the order that they appear within the configuration.</source>
+          <target state="translated">Normalmente (mas nem sempre), a DSC aplica os recursos na ordem em que aparecem dentro da configuração.</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>However, <bpt id="p1">__</bpt>DependsOn<ept id="p1">__</ept> specifies which resources depend on other resources, and the LCM ensures that they are applied in the correct order, regardless of the order in which resource instances are defined.</source>
+          <target state="translated">Contudo, o <bpt id="p1">__</bpt>DependsOn<ept id="p1">__</ept> especifica quais recursos dependem de outros recursos, enquanto o LCM garante que sejam aplicados na ordem correta, independentemente da ordem na qual as instâncias de recurso são definidas.</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>For example, a configuration might specify that an instance of the <bpt id="p1">__</bpt>User<ept id="p1">__</ept> resource depends on the existence of a <bpt id="p2">__</bpt>Group<ept id="p2">__</ept> instance:</source>
+          <target state="translated">Por exemplo, uma configuração pode especificar que uma instância do recurso <bpt id="p1">__</bpt>User<ept id="p1">__</ept> depende da existência de uma instância <bpt id="p2">__</bpt>Group<ept id="p2">__</ept>:</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Using New Resources in Your Configuration</source>
+          <target state="translated">Usando Novos Recursos na sua Configuração</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If you ran the previous examples, you might have noticed that you were warned that you were using a resource without explicitly importing it.</source>
+          <target state="translated">Se você executou os exemplos anteriores, talvez tenha notado que foi informado que estava usando um recurso sem importá-lo explicitamente.</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Today, DSC ships with 12 resources as part of the PSDesiredStateConfiguration module.</source>
+          <target state="translated">Atualmente, a DSC vem com 12 recursos como parte do módulo PSDesiredStateConfiguration.</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Other resources in external modules must be placed in <ph id="ph1">`$env:PSModulePath`</ph> in order to be recognized by the LCM.</source>
+          <target state="translated">Outros recursos em módulos externos devem ser colocados em <ph id="ph1">`$env:PSModulePath`</ph> para serem reconhecidos pelo LCM.</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A new cmdlet, <bpt id="p1">[</bpt>Get-DscResource<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521625.aspx)</ept>, can be used to determine what resources are installed on the system and available for use by the LCM.</source>
+          <target state="translated">Um novo cmdlet, <bpt id="p1">[</bpt>Get-DscResource<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521625.aspx)</ept>, pode ser usado para determinar quais recursos estão instalados no sistema e disponíveis para uso pelo LCM.</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Once these modules have been placed in <ph id="ph1">`$env:PSModulePath`</ph> and are properly recognized by <bpt id="p1">[</bpt>Get-DscResource<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521625.aspx)</ept>, they still need to be loaded within your configuration.</source>
+          <target state="translated">Depois que esses módulos forem colocados em <ph id="ph1">`$env:PSModulePath`</ph> e reconhecidos adequadamente pelo <bpt id="p1">[</bpt>Get-DscResource<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521625.aspx)</ept>, ainda precisam ser carregados na sua configuração.</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">__</bpt>Import-DscResource<ept id="p1">__</ept> is a dynamic keyword that can only be recognized within a <bpt id="p2">__</bpt>Configuration<ept id="p2">__</ept> block (i.e. it is not a cmdlet).</source>
+          <target state="translated"><bpt id="p1">__</bpt>Import-DscResource<ept id="p1">__</ept> é uma palavra-chave dinâmica que pode ser reconhecida apenas dentro de um bloco de <bpt id="p2">__</bpt>configuração<ept id="p2">__</ept> (ou seja, não é um cmdlet).</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">__</bpt>Import-DscResource<ept id="p1">__</ept> supports two parameters:</source>
+          <target state="translated">O <bpt id="p1">__</bpt>Import-DscResource<ept id="p1">__</ept> dá suporte a dois parâmetros:</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">__</bpt>ModuleName<ept id="p1">__</ept> is the recommended way of using <bpt id="p2">__</bpt>Import-DscResource<ept id="p2">__</ept>.</source>
+          <target state="translated"><bpt id="p1">__</bpt>ModuleName<ept id="p1">__</ept> é a forma recomendada de usar o <bpt id="p2">__</bpt>Import-DscResource<ept id="p2">__</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>It accepts the name of the module that contains the resources to be imported (as well as a string array of module names).</source>
+          <target state="translated">Aceita o nome do módulo que contém os recursos que serão importados (assim como uma matriz de cadeia de caracteres de nomes de módulos).</target>         
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">__</bpt>Name<ept id="p1">__</ept> is the name of the resource to import.</source>
+          <target state="translated"><bpt id="p1">__</bpt>Name<ept id="p1">__</ept> é o nome do recurso que será importado.</target>         
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>This is not the friendly name returned as "Name" by <bpt id="p1">[</bpt>Get-DscResource<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521625.aspx)</ept>, but the class name used when defining the resource schema (returned as <bpt id="p2">__</bpt>ResourceType<ept id="p2">__</ept> by <bpt id="p3">[</bpt>Get-DscResource<ept id="p3">](https://technet.microsoft.com/en-us/library/dn521625.aspx)</ept>).</source>
+          <target state="translated">Não é o nome amigável gerado como "Name" pelo <bpt id="p1">[</bpt>Get-DscResource<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521625.aspx)</ept>, mas o nome de classe usado na hora de definir o esquema de recurso (gerado como <bpt id="p2">__</bpt>ResourceType<ept id="p2">__</ept> pelo <bpt id="p3">[</bpt>Get-DscResource<ept id="p3">](https://technet.microsoft.com/en-us/library/dn521625.aspx)</ept>).</target>         
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">Consulte Também</target>         
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Desired State Configuration Overview</source>
+          <target state="translated">Visão Geral da Configuração de Estado Desejado do Windows PowerShell</target>         
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>DSC Resources</source>
+          <target state="translated">Recursos de DSC</target>         
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Configuring The Local Configuration Manager</source>
+          <target state="translated">Configurando o Gerenciador de Configurações Local</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
