@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" original="md" source-language="en-US" target-language="zh-tw">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
     <header>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c44d8f0f02ca735a1d545dba99f6b1fa78b2110f</xliffext:olfilehash>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1457980" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a91df114d8313e435db416ff6cda69c2126e3399</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-46be25e" tool-company="Microsoft" />
     </header>
     <body>
       <group id="content" extype="content">
@@ -209,166 +209,290 @@
           <target state="translated">您可以在<bpt id="p1">_</bpt>目標節點<ept id="p1">_</ept>上，使用符合這些準則的任何現有憑證來保護 DSC 認證。</target>         
         </trans-unit>
         <trans-unit id="151" translate="yes" xml:space="preserve">
-          <source>Creating the Certificate</source>
+          <source>Certificate creation</source>
           <target state="translated">建立憑證</target>         
         </trans-unit>
         <trans-unit id="152" translate="yes" xml:space="preserve">
-          <source>The private key must be kept secret, because it is used to decrypt the MOF.</source>
-          <target state="translated">由於私密金鑰會用來解密 MOF，因此請務必確保其安全。</target>         
+          <source>There are two approaches you can take to create and use the required Encryption Certificate (public-private key pair).</source>
+          <target state="translated">建立及使用必要的加密憑證 (成對的公用/私密金鑰組) 有兩種方法。</target>         
         </trans-unit>
         <trans-unit id="153" translate="yes" xml:space="preserve">
-          <source>The easiest way to do that is to create the private key certificate on the <bpt id="p1">*</bpt>Target Node<ept id="p1">*</ept>, and copy the public key</source>
-          <target state="translated">最簡單的方法是在<bpt id="p1">*</bpt>目標節點<ept id="p1">*</ept>上建立私密金鑰憑證，並將公開金鑰</target>         
+          <source>Create it on the <bpt id="p1">**</bpt>Target Node<ept id="p1">**</ept> and export just the public key to the <bpt id="p2">**</bpt>Authoring Node<ept id="p2">**</ept></source>
+          <target state="translated">在<bpt id="p1">**</bpt>目標節點<ept id="p1">**</ept>上建立，並只將公用金鑰匯出至<bpt id="p2">**</bpt>撰寫節點<ept id="p2">**</ept></target>         
         </trans-unit>
         <trans-unit id="154" translate="yes" xml:space="preserve">
-          <source>certificate to the computer being used to compile the DSC configuration into a MOF file.</source>
-          <target state="translated">憑證複製到要用來將 DSC 設定編譯成 MOF 檔案的電腦。</target>         
+          <source>Create it on the <bpt id="p1">**</bpt>Authoring Node<ept id="p1">**</ept> and export the entire key pair to the <bpt id="p2">**</bpt>Target Node<ept id="p2">**</ept></source>
+          <target state="translated">在<bpt id="p1">**</bpt>撰寫節點<ept id="p1">**</ept>上建立，並將整組成對的金鑰匯出至<bpt id="p2">**</bpt>目標節點<ept id="p2">**</ept></target>         
         </trans-unit>
         <trans-unit id="155" translate="yes" xml:space="preserve">
-          <source>The following example creates a certificate, exports the public key, and then imports the public key</source>
-          <target state="translated">下列範例會建立憑證、匯出公開金鑰，然後將公開金鑰匯入</target>         
+          <source>Method 1 is recommended because the private key used to decrypt credentials in the MOF stays on the Target Node at all times.</source>
+          <target state="translated">因為用於在 MOF 中解密認證的私密金鑰，會一直保存在目標節點中，所建議採用方法 1。</target>         
         </trans-unit>
         <trans-unit id="156" translate="yes" xml:space="preserve">
-          <source>into the root of the local certificate store.</source>
-          <target state="translated">本機憑證存放區的根目錄。</target>         
+          <source>Creating the Certificate on the Target Node</source>
+          <target state="translated">在目標節點上建立憑證</target>         
         </trans-unit>
         <trans-unit id="157" translate="yes" xml:space="preserve">
-          <source>Alternately, the private key certificate can be created on the computer being used to compile the DSC configuration file, exported with the private key then imported on the <bpt id="p1">_</bpt>Target Node<ept id="p1">_</ept>.</source>
-          <target state="translated">或者，您可以在用來編譯 DSC 設定檔的電腦上建立私密金鑰，使用私密金鑰匯出檔案，再於<bpt id="p1">_</bpt>目標節點<ept id="p1">_</ept>上匯入。</target>         
+          <source>The private key must be kept secret, because is used to decrypt the MOF on the <bpt id="p1">**</bpt>Target Node<ept id="p1">**</ept></source>
+          <target state="translated">由於會使用私密金鑰在<bpt id="p1">**</bpt>目標節點<ept id="p1">**</ept>上解密 MOF，因此請務必確保其安全。</target>         
         </trans-unit>
         <trans-unit id="158" translate="yes" xml:space="preserve">
-          <source>This is the current method for implementing DSC credential encryption on Nano Server.</source>
-          <target state="translated">這是目前用來在 Nano Server 上實作 DSC 認證加密的方法。</target>         
+          <source>The easiest way to do that is to create the private key certificate on the <bpt id="p1">**</bpt>Target Node<ept id="p1">**</ept>, and copy the <bpt id="p2">**</bpt>public key certificate<ept id="p2">**</ept> to the computer being used to author the DSC configuration into a MOF file.</source>
+          <target state="translated">最簡單的方法是在<bpt id="p1">**</bpt>目標節點<ept id="p1">**</ept>上建立私密金鑰憑證，並將<bpt id="p2">**</bpt>公開金鑰憑證<ept id="p2">**</ept>複製到用於將 DSC 設定撰寫入 MOF 檔案的電腦。</target>         
         </trans-unit>
         <trans-unit id="159" translate="yes" xml:space="preserve">
-          <source>The private key must be kept secure during transit.</source>
-          <target state="translated">請務必在傳輸期間確保私密金鑰的安全。</target>         
+          <source>The following example:</source>
+          <target state="translated">下列範例︰</target>         
         </trans-unit>
         <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>creates a certificate on the <bpt id="p1">**</bpt>Target node<ept id="p1">**</ept></source>
+          <target state="translated">在<bpt id="p1">**</bpt>目標節點<ept id="p1">**</ept>上建立憑證</target>         
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>exports the public key certificate on the <bpt id="p1">**</bpt>Target node<ept id="p1">**</ept>.</source>
+          <target state="translated">在<bpt id="p1">**</bpt>目標節點<ept id="p1">**</ept>上匯出公開金鑰憑證。</target>         
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>imports the public key certificate into the <bpt id="p1">**</bpt>my<ept id="p1">**</ept> certificate store on the <bpt id="p2">**</bpt>Authoring node<ept id="p2">**</ept>.</source>
+          <target state="translated">在<bpt id="p1">**</bpt>撰寫節點<ept id="p1">**</ept>上將公開金鑰憑證匯入<bpt id="p2">**</bpt>我的<ept id="p2">**</ept>憑證存放區。</target>         
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>On the Target Node: create and export the certificate</source>
+          <target state="translated">在目標節點上︰ 建立及匯出憑證</target>         
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Authoring Node: Windows Server 2016 and Windows 10</source>
+          <target state="translated">撰寫節點︰Windows Server 2016 與 Windows 10</target>         
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Once exported, the <ph id="ph1">```DscPublicKey.cer```</ph> would need to be copied to the <bpt id="p1">**</bpt>Authoring Node<ept id="p1">**</ept>.</source>
+          <target state="translated">匯出之後，必須將 <ph id="ph1">```DscPublicKey.cer```</ph> 複製到<bpt id="p1">**</bpt>撰寫節點<ept id="p1">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Authoring Node: Windows Server 2012 R2/Windows 8.1 and earlier</source>
+          <target state="translated">撰寫節點 ︰Windows Server 2012 R2/Windows 8.1 及更早的版本</target>         
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Because the New-SelfSignedCertificate cmdlet on Windows Operating Systems prior to Windows 10 and Windows Server 2016 do not support the <bpt id="p1">**</bpt>Type<ept id="p1">**</ept> parameter, an alternate method of creating this certificate is required on these operating systems.</source>
+          <target state="translated">因為在比 Windows 10 和 Windows Server 2016 更早的 Windows 作業系統上之 New-SelfSignedCertificate Cmdlet，並不支援 <bpt id="p1">**</bpt>Type<ept id="p1">**</ept> 參數，所以在這些作業系統上需要建立此憑證的替代方法。</target>         
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>In this case you can use <ph id="ph1">```makecert.exe```</ph> or <ph id="ph2">```certutil.exe```</ph> to create the certificate.</source>
+          <target state="translated">在此情況下，可以使用 <ph id="ph1">```makecert.exe```</ph> 或 <ph id="ph2">```certutil.exe```</ph> 來建立憑證。</target>         
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>An alternate method is to <bpt id="p1">[</bpt>download the New-SelfSignedCertificateEx.ps1 script from Microsoft Script Center<ept id="p1">](https://gallery.technet.microsoft.com/scriptcenter/Self-signed-certificate-5920a7c6)</ept> and use it to create the certificate instead:</source>
+          <target state="translated">替代方法是<bpt id="p1">[</bpt>從 Microsoft 指令碼中心下載 New-SelfSignedCertificateEx.ps1 指令碼<ept id="p1">](https://gallery.technet.microsoft.com/scriptcenter/Self-signed-certificate-5920a7c6)</ept>，並改用它來建立憑證︰</target>         
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Once exported, the <ph id="ph1">```DscPublicKey.cer```</ph> would need to be copied to the <bpt id="p1">**</bpt>Authoring Node<ept id="p1">**</ept>.</source>
+          <target state="translated">匯出之後，必須將 <ph id="ph1">```DscPublicKey.cer```</ph> 複製到<bpt id="p1">**</bpt>撰寫節點<ept id="p1">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>On the Authoring Node: import the cert’s public key</source>
+          <target state="translated">在撰寫節點上︰匯入憑證的公開金鑰</target>         
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Creating the Certificate on the Authoring Node</source>
+          <target state="translated">在撰寫節點上建立憑證</target>         
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Alternately, the encryption certificate can be created on the <bpt id="p1">**</bpt>Authoring Node<ept id="p1">**</ept>, exported with the <bpt id="p2">**</bpt>private key<ept id="p2">**</ept> as a PFX file and then imported on the <bpt id="p3">**</bpt>Target Node<ept id="p3">**</ept>.</source>
+          <target state="translated">或者，在<bpt id="p1">**</bpt>撰寫節點<ept id="p1">**</ept>上建立加密憑證，搭配<bpt id="p2">**</bpt>私密金鑰<ept id="p2">**</ept>作為 PFX 檔案進行匯出，然後再匯入到<bpt id="p3">**</bpt>目標節點<ept id="p3">**</ept>上。</target>         
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>This is the current method for implementing DSC credential encryption on <bpt id="p1">_</bpt>Nano Server<ept id="p1">_</ept>.</source>
+          <target state="translated">這是目前在 <bpt id="p1">_</bpt>Nano Server<ept id="p1">_</ept> 上實作 DSC 認證加密的方法。</target>         
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Although the PFX is secured with a password it should be kept secure during transit.</source>
+          <target state="translated">雖然有使用密碼保護 PFX，在傳輸期間也應該保持安全狀態。</target>         
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The following example:</source>
+          <target state="translated">下列範例︰</target>         
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>creates a certificate on the <bpt id="p1">**</bpt>Authoring node<ept id="p1">**</ept>.</source>
+          <target state="translated">在<bpt id="p1">**</bpt>撰寫節點<ept id="p1">**</ept>上建立憑證。</target>         
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>exports the certificate including the private key on the <bpt id="p1">**</bpt>Authoring node<ept id="p1">**</ept>.</source>
+          <target state="translated">在<bpt id="p1">**</bpt>撰寫節點<ept id="p1">**</ept>上匯出包含私密金鑰的憑證。</target>         
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>removes the private key from the <bpt id="p1">**</bpt>Authoring node<ept id="p1">**</ept>, but keeps the public key certificate in the <bpt id="p2">**</bpt>my<ept id="p2">**</ept> store.</source>
+          <target state="translated">從<bpt id="p1">**</bpt>製作節點<ept id="p1">**</ept>移除私密金鑰 ，但保留<bpt id="p2">**</bpt>我的<ept id="p2">**</ept>存放區中之公開金鑰憑證。</target>         
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>imports the private key certificate into the root certificate store on the <bpt id="p1">**</bpt>Target node<ept id="p1">**</ept>.</source>
+          <target state="translated">將私密金鑰憑證匯入<bpt id="p1">**</bpt>目標節點<ept id="p1">**</ept>的根憑證存放區。</target>         
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>it must be added to the root store so that it will be trusted by the <bpt id="p1">**</bpt>Target node<ept id="p1">**</ept>.</source>
+          <target state="translated">它必須加入根存放區，才會得到<bpt id="p1">**</bpt>目標節點<ept id="p1">**</ept>的信任。</target>         
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>On the Authoring Node: create and export the certificate</source>
+          <target state="translated">在撰寫節點上：建立及匯出憑證</target>         
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Target Node: Windows Server 2016 and Windows 10</source>
+          <target state="translated">目標節點︰Windows Server 2016 與 Windows 10</target>         
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Once exported, the <ph id="ph1">```DscPrivateKey.cer```</ph> would need to be copied to the <bpt id="p1">**</bpt>Target Node<ept id="p1">**</ept>.</source>
+          <target state="translated">匯出之後，必須將 <ph id="ph1">```DscPrivateKey.cer```</ph> 複製到<bpt id="p1">**</bpt>目標節點<ept id="p1">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Target Node: Windows Server 2012 R2/Windows 8.1 and earlier</source>
+          <target state="translated">目標節點︰Windows Server 2012 R2/Windows 8.1 及更早的版本</target>         
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Because the New-SelfSignedCertificate cmdlet on Windows Operating Systems prior to Windows 10 and Windows Server 2016 do not support the <bpt id="p1">**</bpt>Type<ept id="p1">**</ept> parameter, an alternate method of creating this certificate is required on these operating systems.</source>
+          <target state="translated">因為在比 Windows 10 和 Windows Server 2016 更早的 Windows 作業系統上之 New-SelfSignedCertificate Cmdlet，並不支援 <bpt id="p1">**</bpt>Type<ept id="p1">**</ept> 參數，所以在這些作業系統上需要建立此憑證的替代方法。</target>         
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>In this case you can use <ph id="ph1">```makecert.exe```</ph> or <ph id="ph2">```certutil.exe```</ph> to create the certificate.</source>
+          <target state="translated">在此情況下，可以使用 <ph id="ph1">```makecert.exe```</ph> 或 <ph id="ph2">```certutil.exe```</ph> 來建立憑證。</target>         
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>An alternate method is to <bpt id="p1">[</bpt>download the New-SelfSignedCertificateEx.ps1 script from Microsoft Script Center<ept id="p1">](https://gallery.technet.microsoft.com/scriptcenter/Self-signed-certificate-5920a7c6)</ept> and use it to create the certificate instead:</source>
+          <target state="translated">替代方法是<bpt id="p1">[</bpt>從 Microsoft 指令碼中心下載 New-SelfSignedCertificateEx.ps1 指令碼<ept id="p1">](https://gallery.technet.microsoft.com/scriptcenter/Self-signed-certificate-5920a7c6)</ept>，並改用它來建立憑證︰</target>         
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>On the Target Node: import the cert’s private key as a trusted root</source>
+          <target state="translated">在目標節點上︰匯入憑證的私密金鑰作為受信任的根</target>         
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Note: If your target node is a <bpt id="p1">_</bpt>Nano Server<ept id="p1">_</ept>, you should use the CertOC.exe application to import the private key certificate because the <ph id="ph1">```Import-PfxCertificate```</ph> cmdlet is not available.</source>
+          <target state="translated">注意︰如果目標節點為 <bpt id="p1">_</bpt>Nano Server<ept id="p1">_</ept>，因為無法使用 <ph id="ph1">```Import-PfxCertificate```</ph> Cmdlet，以應使用 CertOC.exe 應用程式匯入私密金鑰憑證。</target>         
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
           <source>Configuration data</source>
           <target state="translated">設定資料</target>         
         </trans-unit>
-        <trans-unit id="161" translate="yes" xml:space="preserve">
+        <trans-unit id="192" translate="yes" xml:space="preserve">
           <source>The configuration data block defines which target nodes to operate on, whether or not to encrypt the credentials, the means of encryption, and other information.</source>
           <target state="translated">設定資料區塊會定義哪些是執行作業的目標節點、是否加密認證、加密方法和其他資訊。</target>         
         </trans-unit>
-        <trans-unit id="162" translate="yes" xml:space="preserve">
+        <trans-unit id="193" translate="yes" xml:space="preserve">
           <source>For more information on the configuration data block, see <bpt id="p1">[</bpt>Separating Configuration and Environment Data<ept id="p1">](configData.md)</ept>.</source>
           <target state="translated">如需設定資料區塊的詳細資訊，請參閱<bpt id="p1">[</bpt>分離設定和環境資料<ept id="p1">](configData.md)</ept>。</target>         
         </trans-unit>
-        <trans-unit id="163" translate="yes" xml:space="preserve">
+        <trans-unit id="194" translate="yes" xml:space="preserve">
           <source>The elements that can be configured for each node that are related to credential encryption are:</source>
           <target state="translated">可為每個認證加密相關節點進行設定的項目包括：</target>         
         </trans-unit>
-        <trans-unit id="164" translate="yes" xml:space="preserve">
+        <trans-unit id="195" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>NodeName<ept id="p1">**</ept> - the name of the target node that the credential encryption is being configured for.</source>
           <target state="translated"><bpt id="p1">**</bpt>NodeName<ept id="p1">**</ept> - 要設定認證加密的目標節點名稱。</target>         
         </trans-unit>
-        <trans-unit id="165" translate="yes" xml:space="preserve">
+        <trans-unit id="196" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>PsDscAllowPlainTextPassword<ept id="p1">**</ept> - whether unencrypted credentials will be allowed to be passed to this node.</source>
           <target state="translated"><bpt id="p1">**</bpt>PsDscAllowPlainTextPassword<ept id="p1">**</ept> - 是否允許將未加密的認證傳遞給這個節點。</target>         
         </trans-unit>
-        <trans-unit id="166" translate="yes" xml:space="preserve">
+        <trans-unit id="197" translate="yes" xml:space="preserve">
           <source>This is <bpt id="p1">**</bpt>not recommended<ept id="p1">**</ept>.</source>
           <target state="translated"><bpt id="p1">**</bpt>不建議<ept id="p1">**</ept>這樣做。</target>         
         </trans-unit>
-        <trans-unit id="167" translate="yes" xml:space="preserve">
+        <trans-unit id="198" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Thumbprint<ept id="p1">**</ept> - the thumbprint of the certificate that will be used to decrypt the credentials in the DSC Configuration on the <bpt id="p2">_</bpt>Target Node<ept id="p2">_</ept>.</source>
           <target state="translated"><bpt id="p1">**</bpt>Thumbprint<ept id="p1">**</ept> - 將用來解密<bpt id="p2">_</bpt>目標節點<ept id="p2">_</ept>上 DSC 設定中認證的憑證指紋。</target>         
         </trans-unit>
-        <trans-unit id="168" translate="yes" xml:space="preserve">
+        <trans-unit id="199" translate="yes" xml:space="preserve">
           <source>This certificate must exist in the Local Machine certificate store on the Target Node.</source>
           <target state="translated">目標節點的本機電腦憑證存放區中必須有此憑證。</target>         
         </trans-unit>
-        <trans-unit id="169" translate="yes" xml:space="preserve">
+        <trans-unit id="200" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>CertificateFile<ept id="p1">**</ept> - the certificate file (containing the public key only) that should be used to encrypt the credentials for the <bpt id="p2">_</bpt>Target Node<ept id="p2">_</ept>.</source>
           <target state="translated"><bpt id="p1">**</bpt>CertificateFile<ept id="p1">**</ept> - 應用來加密<bpt id="p2">_</bpt>目標節點<ept id="p2">_</ept>認證的憑證檔案 (僅包含公開金鑰)。</target>         
         </trans-unit>
-        <trans-unit id="170" translate="yes" xml:space="preserve">
+        <trans-unit id="201" translate="yes" xml:space="preserve">
           <source>This must be either a DER encoded binary X.509 or Base-64 encoded X.509 format certificate file.</source>
           <target state="translated">這必須是 DER 編碼的二進位 X.509 或 Base-64 編碼的 X.509 格式憑證檔案。</target>         
         </trans-unit>
-        <trans-unit id="171" translate="yes" xml:space="preserve">
+        <trans-unit id="202" translate="yes" xml:space="preserve">
           <source>This example shows a configuration data block that specifies a target node to act on named targetNode, the path to the public key certificate file (named targetNode.cer), and the thumbprint for the public key.</source>
           <target state="translated">本範例會示範指定目標節點在具名的 targetNode 上動作的設定資料區塊、公開金鑰憑證檔案 (名為 targetNode.cer) 的路徑，以及公開金鑰的指紋。</target>         
         </trans-unit>
-        <trans-unit id="172" translate="yes" xml:space="preserve">
+        <trans-unit id="203" translate="yes" xml:space="preserve">
           <source>Configuration script</source>
           <target state="translated">設定指令碼</target>         
         </trans-unit>
-        <trans-unit id="173" translate="yes" xml:space="preserve">
+        <trans-unit id="204" translate="yes" xml:space="preserve">
           <source>In the configuration script itself, use the <ph id="ph1">`PsCredential`</ph> parameter to ensure that credentials are stored for the shortest possible time.</source>
           <target state="translated">在設定指令碼中，使用 <ph id="ph1">`PsCredential`</ph> 參數確保以最短的時間儲存認證。</target>         
         </trans-unit>
-        <trans-unit id="174" translate="yes" xml:space="preserve">
+        <trans-unit id="205" translate="yes" xml:space="preserve">
           <source>When you run the supplied example, DSC will prompt you for credentials and then encrypt the MOF file using the CertificateFile that is associated with the target node in the configuration data block.</source>
           <target state="translated">當您執行提供的範例時，DSC 會提示您輸入認證，在設定資料區塊中使用與目標節點相關聯的 CertificateFile 來加密 MOF 檔案。</target>         
         </trans-unit>
-        <trans-unit id="175" translate="yes" xml:space="preserve">
+        <trans-unit id="206" translate="yes" xml:space="preserve">
           <source>This code example copies a file from a share that is secured to a user.</source>
           <target state="translated">這個程式碼範例會從受保護的共用將檔案複製到使用者。</target>         
         </trans-unit>
-        <trans-unit id="176" translate="yes" xml:space="preserve">
+        <trans-unit id="207" translate="yes" xml:space="preserve">
           <source>Setting up decryption</source>
           <target state="translated">設定解密</target>         
         </trans-unit>
-        <trans-unit id="177" translate="yes" xml:space="preserve">
+        <trans-unit id="208" translate="yes" xml:space="preserve">
           <source>Before <bpt id="p1">[</bpt><ph id="ph1">`Start-DscConfiguration`</ph><ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> can work, you have to tell the Local Configuration Manager on each target node which certificate to use to decrypt the credentials, using the CertificateID resource to verify the certificate’s thumbprint.</source>
           <target state="translated">您必須先使用 CertificateID 資源來驗證憑證的指紋，通知每個目標節點上的本機設定管理員要使用哪項憑證來解密認證，<bpt id="p1">[</bpt><ph id="ph1">`Start-DscConfiguration`</ph><ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> 才能運作。</target>         
         </trans-unit>
-        <trans-unit id="178" translate="yes" xml:space="preserve">
+        <trans-unit id="209" translate="yes" xml:space="preserve">
           <source>This example function will find the appropriate local certificate (you might have to customize it so it will find the exact certificate you want to use):</source>
           <target state="translated">這個範例函式會尋找合適的本機憑證 (您可能需要自訂，讓它找到您想要使用的確切憑證)：</target>         
         </trans-unit>
-        <trans-unit id="179" translate="yes" xml:space="preserve">
+        <trans-unit id="210" translate="yes" xml:space="preserve">
           <source>With the certificate identified by its thumbprint, the configuration script can be updated to use the value:</source>
           <target state="translated">使用以指紋識別的憑證，設定指令碼可以更新成使用值：</target>         
         </trans-unit>
-        <trans-unit id="180" translate="yes" xml:space="preserve">
+        <trans-unit id="211" translate="yes" xml:space="preserve">
           <source>Running the configuration</source>
           <target state="translated">執行設定</target>         
         </trans-unit>
-        <trans-unit id="181" translate="yes" xml:space="preserve">
+        <trans-unit id="212" translate="yes" xml:space="preserve">
           <source>At this point, you can run the configuration, which will output two files:</source>
           <target state="translated">此時，您可以執行設定，這樣會輸出兩個檔案：</target>         
         </trans-unit>
-        <trans-unit id="182" translate="yes" xml:space="preserve">
+        <trans-unit id="213" translate="yes" xml:space="preserve">
           <source>A *.meta.mof file that configures the Local Configuration Manager to decrypt the credentials using the certificate that is stored on the local machine store and identified by its thumbprint.</source>
           <target state="translated">*.meta.mof 檔案，使用儲存在本機電腦存放區以指紋識別的憑證，設定本機設定管理員來解密憑證。</target>         
         </trans-unit>
-        <trans-unit id="183" translate="yes" xml:space="preserve">
+        <trans-unit id="214" translate="yes" xml:space="preserve">
           <source><bpt id="p1">[</bpt><ph id="ph1">`Set-DscLocalConfigurationManager`</ph><ept id="p1">](https://technet.microsoft.com/en-us/library/dn521621.aspx)</ept> applies the *.meta.mof file.</source>
           <target state="translated"><bpt id="p1">[</bpt><ph id="ph1">`Set-DscLocalConfigurationManager`</ph><ept id="p1">](https://technet.microsoft.com/en-us/library/dn521621.aspx)</ept> 會套用 *.meta.mof 檔案。</target>         
         </trans-unit>
-        <trans-unit id="184" translate="yes" xml:space="preserve">
+        <trans-unit id="215" translate="yes" xml:space="preserve">
           <source>A MOF file that actually applies the configuration.</source>
           <target state="translated">實際套用設定的 MOF 檔案。</target>         
         </trans-unit>
-        <trans-unit id="185" translate="yes" xml:space="preserve">
+        <trans-unit id="216" translate="yes" xml:space="preserve">
           <source>Start-DscConfiguration applies the configuration.</source>
           <target state="translated">Start-DscConfiguration 會套用設定。</target>         
         </trans-unit>
-        <trans-unit id="186" translate="yes" xml:space="preserve">
+        <trans-unit id="217" translate="yes" xml:space="preserve">
           <source>These commands will accomplish those steps:</source>
           <target state="translated">這些命令會完成這些步驟：</target>         
         </trans-unit>
-        <trans-unit id="187" translate="yes" xml:space="preserve">
+        <trans-unit id="218" translate="yes" xml:space="preserve">
           <source>This example would push the DSC configuration to the target node.</source>
           <target state="translated">這個範例會將 DSC 設定推送至目標節點。</target>         
         </trans-unit>
-        <trans-unit id="188" translate="yes" xml:space="preserve">
+        <trans-unit id="219" translate="yes" xml:space="preserve">
           <source>The DSC configuration can also be applied using a DSC Pull Server if one is available.</source>
           <target state="translated">如果有一部 DSC 提取伺服器，也可以使用此伺服器套用 DSC 設定。</target>         
         </trans-unit>
-        <trans-unit id="189" translate="yes" xml:space="preserve">
-          <source>See <bpt id="p1">[</bpt>this page<ept id="p1">](PullClient.md)</ept> for more information on applying DSC configurations using a DSC Pull Server.</source>
-          <target state="translated">如需使用 DSC 提取伺服器套用 DSC 設定的詳細資訊，請參閱 <bpt id="p1">[</bpt>此頁面<ept id="p1">](PullClient.md)</ept>。</target>         
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">[</bpt>Setting up a DSC pull client<ept id="p1">](pullClient.md)</ept> for more information on applying DSC configurations using a DSC Pull Server.</source>
+          <target state="translated">如需使用 DSC 提取伺服器套用 DSC 設定的詳細資訊，請參閱<bpt id="p1">[</bpt>設定 DSC 提取用戶端<ept id="p1">](pullClient.md)</ept>。</target>         
         </trans-unit>
-        <trans-unit id="190" translate="yes" xml:space="preserve">
+        <trans-unit id="221" translate="yes" xml:space="preserve">
           <source>Credential Encryption Module Example</source>
           <target state="translated">認證加密模組範例</target>         
         </trans-unit>
-        <trans-unit id="191" translate="yes" xml:space="preserve">
+        <trans-unit id="222" translate="yes" xml:space="preserve">
           <source>Here is a full example that incorporates all of these steps, plus a helper cmdlet that exports and copies the public keys:</source>
           <target state="translated">以下是完整的範例，包含所有的步驟，以及匯出及複製公開金鑰的協助程式 Cmdlet：</target>         
         </trans-unit>
