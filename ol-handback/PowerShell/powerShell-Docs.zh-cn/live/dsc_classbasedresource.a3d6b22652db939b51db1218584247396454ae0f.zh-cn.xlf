@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7e25c8195c153a2fda21fac320c2750d51678b6a</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-2072b6e" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Class-based DSC Resources</source>
+          <target state="translated">基于类的 DSC 资源</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Defining DSC resources with classes</source>
+          <target state="translated">使用类定义 DSC 资源</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Based on feedback, we’ve made authoring class-based DSC resources simpler and easier to understand.</source>
+          <target state="translated">根据反馈，我们已简化了编写基于类的 DSC 资源的操作，并且内容更易于理解。</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The major differences between a class-based DSC resource and a cmdlet DSC resource provider are:</source>
+          <target state="translated">基于类的 DSC 资源和 cmdlet DSC 资源提供程序之间的主要区别如下：</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>A MOF file for the schema is not required.</source>
+          <target state="translated">架构的 MOF 文件不是必需的。</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">**</bpt>DSCResource<ept id="p1">**</ept> subfolder in the module folder is not required.</source>
+          <target state="translated">模块文件中的 <bpt id="p1">**</bpt>DSCResource<ept id="p1">**</ept> 子文件夹不是必需的。</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>A PowerShell module file can contain multiple DSC resource classes.</source>
+          <target state="translated">PowerShell 模块文件可以包含多个 DSC 资源类。</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The following is an example of a class-based DSC resource that extends the other class DSC resource in the same file.</source>
+          <target state="translated">下面是基于类的 DSC 资源的示例，该资源可扩展同一个文件中的另一个类 DSC 资源。</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This is saved as a module, <bpt id="p1">**</bpt>MyDSCResource.psm1<ept id="p1">**</ept></source>
+          <target state="translated">这将被另存为一个模块 <bpt id="p1">**</bpt>MyDSCResource.psm1<ept id="p1">**</ept></target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Note that you must always include at least one key property and Get, Set, Test method in a class-defined DSC resource or its base classes.</source>
+          <target state="translated">请注意，必须始终在类定义的 DSC 资源或其基类中包含至少一个关键字属性和 Get、Set、Test 方法。</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>After creating the class-defined DSC resource provider, and saving it as a module, create a module manifest for the module.</source>
+          <target state="translated">在创建类定义的 DSC 资源提供程序并将其另存为模块之后，为该模块创建一个模块清单。</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In this example, the following module manifest is saved as <bpt id="p1">**</bpt>MyDscResource.psd1<ept id="p1">**</ept></source>
+          <target state="translated">在此示例中，下面的模块清单另存为 <bpt id="p1">**</bpt>MyDscResource.psd1<ept id="p1">**</ept></target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Deploy the new DSC resource provider by creating a <bpt id="p1">**</bpt>MyDscResource<ept id="p1">**</ept> folder for it under</source>
+          <target state="translated">通过为其在以下内容之下创建 <bpt id="p1">**</bpt>MyDscResource<ept id="p1">**</ept> 文件夹部署新的 DSC 资源提供程序</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You do not need to create a DSCResource subfolder.</source>
+          <target state="translated">你不需要创建一个 DSCResource 子文件夹。</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Copy the module and module manifest files (<bpt id="p1">**</bpt>MyDscResource.psm1<ept id="p1">**</ept> and <bpt id="p2">**</bpt>MyDscResource.psd1<ept id="p2">**</ept>) to the <bpt id="p3">**</bpt>MyDscResource<ept id="p3">**</ept> folder.</source>
+          <target state="translated">将模块和模块清单文件（<bpt id="p1">**</bpt>MyDscResource.psm1<ept id="p1">**</ept> 和 <bpt id="p2">**</bpt>MyDscResource.psd1<ept id="p2">**</ept>）复制到 <bpt id="p3">**</bpt>MyDscResource<ept id="p3">**</ept> 文件夹。</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>From this point, you create and run a configuration script as you would with any DSC resource.</source>
+          <target state="translated">从这时开始，你可以像对其他 DSC 资源进行的操作一样，创建并运行配置脚本。</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The following is a configuration that references the MyDSCResource module.</source>
+          <target state="translated">以下是引用 MyDSCResource 模块的配置。</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Save this as a script, <bpt id="p1">**</bpt>MyResource.ps1<ept id="p1">**</ept></source>
+          <target state="translated">将该配置另存为脚本 <bpt id="p1">**</bpt>MyResource.ps1<ept id="p1">**</ept></target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Run this as you would any DSC configuration script.</source>
+          <target state="translated">运行此配置，就像对任何 DSC 配置脚本进行的操作一样。</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To start the configuration, in an elevated Windows PowerShell console, run the following cmdlet.</source>
+          <target state="translated">若要在已提升权限的 Windows PowerShell 控制台中启动该配置，运行以下 cmdlet。</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You will see the output of Get-DscConfiguration from FileResource contains more information than BaseFileResource.</source>
+          <target state="translated">你会发现 FileResource 中的 Get-DscConfiguration 输出包含的信息比 BaseFileResource 多。</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Known issues</source>
+          <target state="translated">已知问题</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In this release, the following are known issues with class-based DSC resources:</source>
+          <target state="translated">以下是此版本中基于类的 DSC 资源的已知问题。</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Get-DscConfiguration may return empty values (null) or errors if a complex type is returned by Get() function of a class based DSC resource.</source>
+          <target state="translated">如果基于类的 DSC 资源的 Get() 函数返回复杂类型，则 Get-DscConfiguration 可能会返回空值 (Null)。</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Composite resources cannot be written as a class-based resource.</source>
+          <target state="translated">复合资源不能作为基于类的资源写入。</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
