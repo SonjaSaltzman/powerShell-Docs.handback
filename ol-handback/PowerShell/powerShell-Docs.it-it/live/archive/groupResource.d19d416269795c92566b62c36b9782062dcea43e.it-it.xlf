@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" target-language="it-it">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9037bb481d63eddc838ab96bbde205cb1a6ff161</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-46be25e" tool-company="Microsoft" />
+    </header>
     <body>
-      <group id="main" extype="content">
+      <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
           <source>DSC Group Resource</source>
           <target state="translated">Risorsa Group DSC</target>         
@@ -108,21 +113,30 @@
           <target state="translated">Indica che prima di configurare la risorsa è necessario eseguire la configurazione di un'altra risorsa.</target>         
         </trans-unit>
         <trans-unit id="127" translate="yes" xml:space="preserve">
-          <source>For example, if the ID of the resource configuration script block that you want to run first is <bpt id="p2">__</bpt>ResourceName<ept id="p2">__</ept> and its type is <bpt id="p3">__</bpt>ResourceType<ept id="p3">__</ept>, the syntax for using this property is `DependsOn = "[ResourceType]ResourceName"``.</source>
-          <target state="translated">Ad esempio, se l'ID del blocco script di configurazione della risorsa che si vuole eseguire per primo è <bpt id="p2">__</bpt>ResourceName<ept id="p2">__</ept> e il tipo è <bpt id="p3">__</bpt>ResourceType<ept id="p3">__</ept>, la sintassi per usare questa proprietà è `DependsOn = "[ResourceType]ResourceName"``.</target>         
+          <source>For example, if the ID of the resource configuration script block that you want to run first is <bpt id="p1">__</bpt>ResourceName<ept id="p1">__</ept> and its type is <bpt id="p2">__</bpt>ResourceType<ept id="p2">__</ept>, the syntax for using this property is `DependsOn = "[ResourceType]ResourceName"``.</source>
+          <target state="translated">Ad esempio, se l'ID del blocco script di configurazione della risorsa che si vuole eseguire per primo è <bpt id="p1">__</bpt>ResourceName<ept id="p1">__</ept> e il tipo è <bpt id="p2">__</bpt>ResourceType<ept id="p2">__</ept>, la sintassi per usare questa proprietà è `DependsOn = "[ResourceType]ResourceName"``.</target>         
         </trans-unit>
         <trans-unit id="128" translate="yes" xml:space="preserve">
-          <source>Example</source>
-          <target state="translated">Esempio</target>         
+          <source>Example 1</source>
+          <target state="translated">Esempio 1</target>         
         </trans-unit>
         <trans-unit id="129" translate="yes" xml:space="preserve">
           <source>The following example shows how to ensure that a group called TestGroup is absent.</source>
           <target state="translated">L'esempio seguente mostra come specificare che un gruppo denominato TestGroup è assente.</target>         
         </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Example 2</source>
+          <target state="translated">Esempio 2</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The following example shows how to add an Active Directory User to the local administrators group as part of a Multi-Machine Lab build where you are already using a PSCredential for the Local Adminstrator account.</source>
+          <target state="translated">L'esempio seguente illustra come aggiungere un utente Active Directory al gruppo Administrators locale come parte della compilazione di un ambiente con più computer in cui è già in uso un PSCredential per l'account amministratore locale.</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>As this is also used for the Domain Admin Account (after Domain promotion) we then need to convert this existing PSCredential to a Domain Friendly credential to enable us to add a Domain User to the Local Administrators Group on the Member server.</source>
+          <target state="translated">Questo utente viene anche usato per l'account amministratore di dominio (dopo l'innalzamento di livello di un dominio). A questo punto è necessario convertire il PSCredential esistente in credenziali descrittive del dominio per consentire l'aggiunta di un utente di dominio al gruppo Administrators locale del server membro.</target>         
+        </trans-unit>
       </group>
     </body>
   </file>
-  <header xmlns="">
-    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bc098355d65bff2203a212f2387be6f79fbb63e8</xliffext:olfilehash>
-  </header>
 </xliff>
