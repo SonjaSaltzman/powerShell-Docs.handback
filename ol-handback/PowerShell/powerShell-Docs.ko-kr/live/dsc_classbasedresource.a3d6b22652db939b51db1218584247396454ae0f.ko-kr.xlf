@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7e25c8195c153a2fda21fac320c2750d51678b6a</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-2072b6e" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Class-based DSC Resources</source>
+          <target state="translated">클래스 기반 DSC 리소스</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Defining DSC resources with classes</source>
+          <target state="translated">클래스를 사용하여 DSC 리소스 정의</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Based on feedback, we’ve made authoring class-based DSC resources simpler and easier to understand.</source>
+          <target state="translated">피드백에 따라 클래스 기반 DSC 리소스 작성을 보다 간단하고 이해하기 쉽게 만들었습니다.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The major differences between a class-based DSC resource and a cmdlet DSC resource provider are:</source>
+          <target state="translated">클래스 기반 DSC 리소스와 cmdlet DSC 리소스 공급자의 주요 차이점은 다음과 같습니다.</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>A MOF file for the schema is not required.</source>
+          <target state="translated">스키마에 대한 MOF 파일이 필요하지 않습니다.</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">**</bpt>DSCResource<ept id="p1">**</ept> subfolder in the module folder is not required.</source>
+          <target state="translated">모듈 폴더에서 <bpt id="p1">**</bpt>DSCResource<ept id="p1">**</ept> 하위 폴더가 필요하지 않습니다.</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>A PowerShell module file can contain multiple DSC resource classes.</source>
+          <target state="translated">PowerShell 모듈 파일에 여러 가지 DSC 리소스 클래스가 포함될 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The following is an example of a class-based DSC resource that extends the other class DSC resource in the same file.</source>
+          <target state="translated">다음은 동일한 파일에서 다른 클래스 DSC 리소스를 확장하는 클래스 기반 DSC 리소스의 예입니다.</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This is saved as a module, <bpt id="p1">**</bpt>MyDSCResource.psm1<ept id="p1">**</ept></source>
+          <target state="translated">이 리소스는 모듈 <bpt id="p1">**</bpt>MyDSCResource.psm1<ept id="p1">**</ept>로 저장됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Note that you must always include at least one key property and Get, Set, Test method in a class-defined DSC resource or its base classes.</source>
+          <target state="translated">항상 하나 이상의 키 속성 및 Get, Set, Test 메서드를 클래스 정의 DSC 리소스 또는 해당 기본 클래스에 포함해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>After creating the class-defined DSC resource provider, and saving it as a module, create a module manifest for the module.</source>
+          <target state="translated">클래스 정의 DSC 리소스 공급자를 만들고 모듈로 저장한 후 모듈에 대한 모듈 매니페스트를 만듭니다.</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In this example, the following module manifest is saved as <bpt id="p1">**</bpt>MyDscResource.psd1<ept id="p1">**</ept></source>
+          <target state="translated">이 예제에서는 다음 모듈 매니페스트가 <bpt id="p1">**</bpt>MyDscResource.psd1<ept id="p1">**</ept>로 저장됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Deploy the new DSC resource provider by creating a <bpt id="p1">**</bpt>MyDscResource<ept id="p1">**</ept> folder for it under</source>
+          <target state="translated"> 아래에 <bpt id="p1">**</bpt>MyDscResource<ept id="p1">**</ept> 폴더를 만들어 새 DSC 리소스 공급자를 배포합니다.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You do not need to create a DSCResource subfolder.</source>
+          <target state="translated">DSCResource 하위 폴더는 만들 필요가 없습니다.</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Copy the module and module manifest files (<bpt id="p1">**</bpt>MyDscResource.psm1<ept id="p1">**</ept> and <bpt id="p2">**</bpt>MyDscResource.psd1<ept id="p2">**</ept>) to the <bpt id="p3">**</bpt>MyDscResource<ept id="p3">**</ept> folder.</source>
+          <target state="translated">모듈 및 모듈 매니페스트 파일(<bpt id="p1">**</bpt>MyDscResource.psm1<ept id="p1">**</ept> 및 <bpt id="p2">**</bpt>MyDscResource.psd1<ept id="p2">**</ept>)을 <bpt id="p3">**</bpt>MyDscResource<ept id="p3">**</ept> 폴더에 복사합니다.</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>From this point, you create and run a configuration script as you would with any DSC resource.</source>
+          <target state="translated">이 시점에서 DSC 리소스와 마찬가지로 구성 스크립트를 만들어 실행합니다.</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The following is a configuration that references the MyDSCResource module.</source>
+          <target state="translated">다음은 MyDSCResource 모듈을 참조하는 구성입니다.</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Save this as a script, <bpt id="p1">**</bpt>MyResource.ps1<ept id="p1">**</ept></source>
+          <target state="translated">이 구성을 스크립트 <bpt id="p1">**</bpt>MyResource.ps1<ept id="p1">**</ept>로 저장합니다.</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Run this as you would any DSC configuration script.</source>
+          <target state="translated">DSC 구성 스크립트와 마찬가지로 이 스크립트를 실행합니다.</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To start the configuration, in an elevated Windows PowerShell console, run the following cmdlet.</source>
+          <target state="translated">구성을 시작하려면 관리자 권한 Windows PowerShell 콘솔에서 다음 cmdlet을 실행합니다.</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You will see the output of Get-DscConfiguration from FileResource contains more information than BaseFileResource.</source>
+          <target state="translated">FileResource의 Get-DscConfiguration 출력에 BaseFileResource보다 더 많은 정보가 포함되어 있는 것을 확인할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Known issues</source>
+          <target state="translated">알려진 문제</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In this release, the following are known issues with class-based DSC resources:</source>
+          <target state="translated">이 릴리스의 클래스 기반 DSC 리소스에는 다음과 같은 알려진 문제가 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Get-DscConfiguration may return empty values (null) or errors if a complex type is returned by Get() function of a class based DSC resource.</source>
+          <target state="translated">클래스 기반 DSC 리소스의 Get() 함수에서 복합 형식을 반환하는 경우 Get-DscConfiguration에서 빈 값(null) 또는 오류를 반환할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Composite resources cannot be written as a class-based resource.</source>
+          <target state="translated">복합 리소스는 클래스 기반 리소스로 작성할 수 없습니다.</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
