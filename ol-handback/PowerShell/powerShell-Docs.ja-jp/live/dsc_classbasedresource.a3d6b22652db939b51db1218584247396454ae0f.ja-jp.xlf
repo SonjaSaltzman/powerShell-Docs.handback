@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7e25c8195c153a2fda21fac320c2750d51678b6a</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-2072b6e" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Class-based DSC Resources</source>
+          <target state="translated">クラスベースの DSC リソース</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Defining DSC resources with classes</source>
+          <target state="translated">クラスでの DSC リソースの定義</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Based on feedback, we’ve made authoring class-based DSC resources simpler and easier to understand.</source>
+          <target state="translated">フィードバックに基づいて、クラスベースの DSC リソースのオーサリングを簡略化し、わかりやすくしました。</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The major differences between a class-based DSC resource and a cmdlet DSC resource provider are:</source>
+          <target state="translated">クラスベースの DSC リソースとコマンドレット DSC リソース プロバイダーの主な相違点は次のとおりです。</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>A MOF file for the schema is not required.</source>
+          <target state="translated">スキーマの MOF ファイルは不要です。</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">**</bpt>DSCResource<ept id="p1">**</ept> subfolder in the module folder is not required.</source>
+          <target state="translated">モジュール フォルダーの <bpt id="p1">**</bpt>DSCResource<ept id="p1">**</ept> サブフォルダーは不要です。</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>A PowerShell module file can contain multiple DSC resource classes.</source>
+          <target state="translated">PowerShell モジュールのファイルには、複数の DSC リソース クラスを含めることができます。</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The following is an example of a class-based DSC resource that extends the other class DSC resource in the same file.</source>
+          <target state="translated">同じファイル内の他のクラスの DSC リソースを拡張するクラスベースの DSC リソースの例を次に示します。</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This is saved as a module, <bpt id="p1">**</bpt>MyDSCResource.psm1<ept id="p1">**</ept></source>
+          <target state="translated">これは、モジュール <bpt id="p1">**</bpt>MyDSCResource.psm1<ept id="p1">**</ept> として保存されます。</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Note that you must always include at least one key property and Get, Set, Test method in a class-defined DSC resource or its base classes.</source>
+          <target state="translated">少なくとも 1 つのキー プロパティと、クラス定義の DSC リソースやその基本クラスの Get、Set、Test メソッドを常に含める必要があることに注意してください。</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>After creating the class-defined DSC resource provider, and saving it as a module, create a module manifest for the module.</source>
+          <target state="translated">クラス定義の DSC リソース プロバイダーを作成し、モジュールとして保存すると、モジュールのモジュール マニフェストを作成できます。</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In this example, the following module manifest is saved as <bpt id="p1">**</bpt>MyDscResource.psd1<ept id="p1">**</ept></source>
+          <target state="translated">この例では、次のモジュール マニフェストは <bpt id="p1">**</bpt>MyDscResource.psd1<ept id="p1">**</ept> として保存されます。</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Deploy the new DSC resource provider by creating a <bpt id="p1">**</bpt>MyDscResource<ept id="p1">**</ept> folder for it under</source>
+          <target state="translated">新しい DSC リソース プロバイダーをデプロイするには、それに対する <bpt id="p1">**</bpt>MyDscResource<ept id="p1">**</ept> フォルダーを次の下で作成します。</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You do not need to create a DSCResource subfolder.</source>
+          <target state="translated">DSCResource サブフォルダーを作成する必要はありません。</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Copy the module and module manifest files (<bpt id="p1">**</bpt>MyDscResource.psm1<ept id="p1">**</ept> and <bpt id="p2">**</bpt>MyDscResource.psd1<ept id="p2">**</ept>) to the <bpt id="p3">**</bpt>MyDscResource<ept id="p3">**</ept> folder.</source>
+          <target state="translated">モジュールとモジュールのマニフェスト ファイル (<bpt id="p1">**</bpt>MyDscResource.psm1<ept id="p1">**</ept> と <bpt id="p2">**</bpt>MyDscResource.psd1<ept id="p2">**</ept>) を <bpt id="p3">**</bpt>MyDscResource<ept id="p3">**</ept> フォルダーにコピーします。</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>From this point, you create and run a configuration script as you would with any DSC resource.</source>
+          <target state="translated">これ以降、他の DSC リソースの場合と同様に、構成スクリプトを作成して実行します。</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The following is a configuration that references the MyDSCResource module.</source>
+          <target state="translated">MyDSCResource モジュールを参照する構成を次に示します。</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Save this as a script, <bpt id="p1">**</bpt>MyResource.ps1<ept id="p1">**</ept></source>
+          <target state="translated">これをスクリプト <bpt id="p1">**</bpt>MyResource.ps1<ept id="p1">**</ept> として保存します。</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Run this as you would any DSC configuration script.</source>
+          <target state="translated">他の DSC 構成スクリプトの場合と同様に、これを実行します。</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To start the configuration, in an elevated Windows PowerShell console, run the following cmdlet.</source>
+          <target state="translated">管理者特権の Windows PowerShell コンソールで、構成を開始するには、次のコマンドレットを実行します。</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You will see the output of Get-DscConfiguration from FileResource contains more information than BaseFileResource.</source>
+          <target state="translated">FileResource からの Get-DscConfiguration の出力には、BaseFileResource よりも多くの情報が含まれます。</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Known issues</source>
+          <target state="translated">既知の問題</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In this release, the following are known issues with class-based DSC resources:</source>
+          <target state="translated">このリリースについて、クラスベースの DSC リソースの既知の問題を次に示します。</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Get-DscConfiguration may return empty values (null) or errors if a complex type is returned by Get() function of a class based DSC resource.</source>
+          <target state="translated">クラスベースの DSC リソースの Get() 関数によって複合型が返される場合、Get-DscConfiguration は空の値 (null) やエラーを返すことがあります。</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Composite resources cannot be written as a class-based resource.</source>
+          <target state="translated">複合リソースを、クラスベースのリソースとして記述することはできません。</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
