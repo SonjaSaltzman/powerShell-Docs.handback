@@ -3,7 +3,7 @@
   <file datatype="xml" original="md" source-language="en-US" target-language="fr-fr">
     <header>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d3c0a8b3499f566e491c4bf72feea97ccd15a250</xliffext:olfilehash>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">719e3da3a26f2e3f6b049fec30d543f7bccf8d34</xliffext:olfilehash>
       <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-04046aa" tool-company="Microsoft" />
     </header>
     <body>
@@ -18,7 +18,7 @@
         </trans-unit>
         <trans-unit id="103" translate="yes" xml:space="preserve">
           <source>You can use the Process cmdlets in Windows PowerShell to manage local and remote processes in Windows PowerShell.</source>
-          <target state="translated">Les applets de commande Process de Windows PowerShell permettent de gérer des processus locaux et distants.</target>         
+          <target state="translated">Les applets de commande Process de Windows PowerShell permettent de gérer des processus locaux et distants dans Windows PowerShell.</target>         
         </trans-unit>
         <trans-unit id="104" translate="yes" xml:space="preserve">
           <source>Getting Processes (Get\-Process)</source>
@@ -38,19 +38,19 @@
         </trans-unit>
         <trans-unit id="108" translate="yes" xml:space="preserve">
           <source>Although it is normal for cmdlets to return no data in some situations, when you specify a process by its ProcessId, <bpt id="p1">**</bpt>Get\-Process<ept id="p1">**</ept> generates an error if it finds no matches, because the usual intent is to retrieve a known running process.</source>
-          <target state="translated">S’il est normal que des applets de commande ne retournent aucune donnée dans certaines situations, lorsque vous spécifiez un processus par son ID, l’applet de commande <bpt id="p1">**</bpt>Get-Process<ept id="p1">**</ept> génère une erreur si elle ne trouve aucune correspondance, car l’objectif habituel consiste à récupérer un processus en cours d’exécution connu.</target>         
+          <target state="translated">S’il est normal que des applets de commande ne retournent aucune donnée dans certaines situations, lorsque vous spécifiez un processus par son ID, l’applet de commande <bpt id="p1">**</bpt>Get-Process<ept id="p1">**</ept> génère une erreur si elle ne trouve aucune correspondance, car l’objectif consiste généralement à récupérer un processus en cours d’exécution connu.</target>         
         </trans-unit>
         <trans-unit id="109" translate="yes" xml:space="preserve">
           <source>If there is no process with that Id, it is likely that the Id is incorrect or that the process of interest has already exited:</source>
-          <target state="translated">S’il aucun processus ne correspond à cet ID, il est probable que celui-ci soit incorrect ou que son exécution soit déjà terminée :</target>         
+          <target state="translated">Si aucun processus ne correspond à cet ID, il est probable que celui-ci est incorrect ou que son exécution est déjà terminée :</target>         
         </trans-unit>
         <trans-unit id="110" translate="yes" xml:space="preserve">
           <source>You can use the Name parameter of the Get\-Process cmdlet to specify a subset of processes based on the process name.</source>
-          <target state="translated">Vous pouvez utiliser le paramètre Name de l’applet de commande Get-Process pour spécifier un sous-ensemble de processus basé sur le nom du processus.</target>         
+          <target state="translated">Vous pouvez utiliser le paramètre Name de l’applet de commande Get-Process pour spécifier une partie des processus en se basant sur le nom des processus.</target>         
         </trans-unit>
         <trans-unit id="111" translate="yes" xml:space="preserve">
           <source>The Name parameter can take multiple names in a comma\-separated list and it supports the use of wildcards, so you can type name patterns.</source>
-          <target state="translated">Le paramètre Name peut prendre plusieurs noms dans une liste de valeurs séparées par des virgules. Par ailleurs, comme il prend en charge l’utilisation de caractères génériques, vous pouvez entrer des modèles de noms.</target>         
+          <target state="translated">Le paramètre Name peut prendre plusieurs noms dans une liste de valeurs séparées par des virgules. Comme il prend en charge l’utilisation de caractères génériques, vous pouvez entrer des modèles de noms.</target>         
         </trans-unit>
         <trans-unit id="112" translate="yes" xml:space="preserve">
           <source>For example, the following command gets process whose names begin with "ex."</source>
@@ -62,7 +62,7 @@
         </trans-unit>
         <trans-unit id="114" translate="yes" xml:space="preserve">
           <source>One of those conventions is that the process name for an executable never includes the ".exe" at the end of the executable name.</source>
-          <target state="translated">Une de ces conventions est que le nom de processus d’un exécutable n’inclut jamais la chaîne « .exe ».</target>         
+          <target state="translated">L’une de ces conventions est que le nom de processus d’un exécutable n’inclut jamais « .exe » à la fin du nom.</target>         
         </trans-unit>
         <trans-unit id="115" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Get\-Process<ept id="p1">**</ept> also accepts multiple values for the Name parameter.</source>
@@ -74,7 +74,7 @@
         </trans-unit>
         <trans-unit id="117" translate="yes" xml:space="preserve">
           <source>For example, the following command gets the PowerShell processes on the local computer (represented by "localhost") and on two remote computers.</source>
-          <target state="translated">Par exemple, la commande suivante obtient les processus PowerShell en cours d’exécution sur l’ordinateur local (représenté par « localhost ») et sur deux ordinateurs distants.</target>         
+          <target state="translated">Par exemple, la commande suivante obtient les processus PowerShell sur l’ordinateur local (représenté par « localhost ») et sur deux ordinateurs distants.</target>         
         </trans-unit>
         <trans-unit id="118" translate="yes" xml:space="preserve">
           <source>The computer names are not evident in this display, but they are stored in the MachineName property of the process objects that Get\-Process returns.</source>
@@ -90,7 +90,7 @@
         </trans-unit>
         <trans-unit id="121" translate="yes" xml:space="preserve">
           <source>The backtick (\`)(ASCII 96) is the Windows PowerShell continuation character.</source>
-          <target state="translated">L’accent grave (’)(ASCII 96) est le caractère de continuation de Windows PowerShell.</target>         
+          <target state="translated">L’accent grave (`)(ASCII 96) est le caractère de continuation de Windows PowerShell.</target>         
         </trans-unit>
         <trans-unit id="122" translate="yes" xml:space="preserve">
           <source>Stopping Processes (Stop\-Process)</source>
@@ -110,7 +110,7 @@
         </trans-unit>
         <trans-unit id="126" translate="yes" xml:space="preserve">
           <source>Some processes cannot be stopped.</source>
-          <target state="translated">Certains processus ne peut pas être arrêtés.</target>         
+          <target state="translated">Certains processus ne peuvent pas être arrêtés.</target>         
         </trans-unit>
         <trans-unit id="127" translate="yes" xml:space="preserve">
           <source>For example, if you try to stop the idle process, you get an error:</source>
@@ -122,7 +122,7 @@
         </trans-unit>
         <trans-unit id="129" translate="yes" xml:space="preserve">
           <source>This parameter is particularly useful if you use a wildcard when specifying the process name, because you may accidentally match some processes you do not want to stop:</source>
-          <target state="translated">Ce paramètre est particulièrement utile si vous utilisez un caractère générique lorsque vous spécifiez le nom du processus, car vous pouvez accidentellement établir une correspondance avec des processus que vous ne souhaitez pas arrêter :</target>         
+          <target state="translated">Ce paramètre est particulièrement utile si vous utilisez un caractère générique quand vous spécifiez le nom du processus, car vous pouvez accidentellement établir une correspondance avec des processus que vous ne souhaitez pas arrêter :</target>         
         </trans-unit>
         <trans-unit id="130" translate="yes" xml:space="preserve">
           <source>Complex process manipulation is possible by using some of the object filtering cmdlets.</source>
@@ -130,7 +130,7 @@
         </trans-unit>
         <trans-unit id="131" translate="yes" xml:space="preserve">
           <source>Because a Process object has a Responding property that is true when it is no longer responding, you can stop all nonresponsive applications with the following command:</source>
-          <target state="translated">Étant donné qu’un objet Process a une propriété Responding dont la valeur est vraie quand il ne répond plus, vous pouvez arrêter toutes les applications qui ne répondent pas avec la commande suivante :</target>         
+          <target state="translated">Étant donné qu’un objet Process a une propriété Responding dont la valeur est true quand il ne répond plus, vous pouvez arrêter toutes les applications qui ne répondent pas avec la commande suivante :</target>         
         </trans-unit>
         <trans-unit id="132" translate="yes" xml:space="preserve">
           <source>You can use the same approach in other situations.</source>
@@ -138,15 +138,15 @@
         </trans-unit>
         <trans-unit id="133" translate="yes" xml:space="preserve">
           <source>For example, suppose a secondary notification area application automatically runs when users start another application.</source>
-          <target state="translated">Par exemple, supposons qu’une application de zone de notification secondaire s’exécute automatiquement lorsque des utilisateurs démarrent une autre application.</target>         
+          <target state="translated">Par exemple, supposons qu’une application de zone de notification secondaire s’exécute automatiquement quand des utilisateurs démarrent une autre application.</target>         
         </trans-unit>
         <trans-unit id="134" translate="yes" xml:space="preserve">
           <source>You may find that this does not work correctly in Terminal Services sessions, but you still want to keep it in sessions that run on the physical computer console.</source>
-          <target state="translated">Il est possible que vous constatiez que cela ne fonctionne pas correctement dans des sessions Terminal Services, mais que vous souhaitiez conserver cette approche dans des sessions qui s’exécutent sur la console de l’ordinateur physique.</target>         
+          <target state="translated">Il est possible que vous constatiez que cela ne fonctionne pas correctement dans les sessions des services Terminal Server, mais que vous souhaitiez conserver cette approche dans les sessions qui s’exécutent sur la console de l’ordinateur physique.</target>         
         </trans-unit>
         <trans-unit id="135" translate="yes" xml:space="preserve">
           <source>Sessions connected to the physical computer desktop always have a session ID of 0, so you can stop all instances of the process that are in other sessions by using <bpt id="p1">**</bpt>Where\-Object<ept id="p1">**</ept> and the process, <bpt id="p2">**</bpt>SessionId<ept id="p2">**</ept>:</source>
-          <target state="translated">Les sessions connectées à l’ordinateur physique ont toujours un ID de session 0, et vous pouvez arrêter toutes les instances du processus figurant dans d’autres sessions à l’aide de l’applet de commande <bpt id="p1">**</bpt>Where-Object<ept id="p1">**</ept> et du processus <bpt id="p2">**</bpt>SessionId<ept id="p2">**</ept> :</target>         
+          <target state="translated">Les sessions connectées au bureau de l’ordinateur physique ayant toujours un ID de session 0, vous pouvez arrêter toutes les instances du processus figurant dans d’autres sessions à l’aide de l’applet de commande <bpt id="p1">**</bpt>Where-Object<ept id="p1">**</ept> et du processus <bpt id="p2">**</bpt>SessionId<ept id="p2">**</ept> :</target>         
         </trans-unit>
         <trans-unit id="136" translate="yes" xml:space="preserve">
           <source>The Stop\-Process cmdlet does not have a ComputerName parameter.</source>
@@ -158,7 +158,7 @@
         </trans-unit>
         <trans-unit id="138" translate="yes" xml:space="preserve">
           <source>For example, to stop the PowerShell process on the Server01 remote computer, type:</source>
-          <target state="translated">Par exemple, pour arrêter le processus PowerShell sur l’ordinateur distant Server01, tapez :</target>         
+          <target state="translated">Par exemple, pour arrêter le processus PowerShell sur l’ordinateur distant Serveur01, tapez :</target>         
         </trans-unit>
         <trans-unit id="139" translate="yes" xml:space="preserve">
           <source>Stopping All Other Windows PowerShell Sessions</source>
@@ -178,7 +178,7 @@
         </trans-unit>
         <trans-unit id="143" translate="yes" xml:space="preserve">
           <source>Each Windows PowerShell session has an environment variable PID that contains the Id of the Windows PowerShell process.</source>
-          <target state="translated">Chaque session Windows PowerShell a une variable d’environnement PID qui contient l’ID du processus Windows PowerShell.</target>         
+          <target state="translated">Chaque session Windows PowerShell a un PID de variable d’environnement qui contient l’ID du processus Windows PowerShell.</target>         
         </trans-unit>
         <trans-unit id="144" translate="yes" xml:space="preserve">
           <source>You can check the $PID against the Id of each session and terminate only Windows PowerShell sessions that have a different Id.</source>
@@ -198,7 +198,7 @@
         </trans-unit>
         <trans-unit id="148" translate="yes" xml:space="preserve">
           <source>For information about these cmdlets, see the cmdlet help topic for each cmdlet.</source>
-          <target state="translated">Pour plus d’informations sur ces applets de commande, consultez la rubrique d’aide sur chacune d’elles.</target>         
+          <target state="translated">Pour plus d’informations sur ces applets de commande, voir la rubrique d’aide sur chacune d’elles.</target>         
         </trans-unit>
         <trans-unit id="149" translate="yes" xml:space="preserve">
           <source>See Also</source>
