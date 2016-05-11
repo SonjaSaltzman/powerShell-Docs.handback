@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ee9548a75d6eef498109c42007ef6c9d91b7c1ba</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-73e0d58" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Using DSC on Nano Server</source>
+          <target state="translated">Использование DSC на сервере Nano Server</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 5.0</source>
+          <target state="translated">Область применения: Windows PowerShell 5.0</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>DSC on Nano Server<ept id="p1">**</ept> is an optional package in the <ph id="ph1">`NanoServer\Packages`</ph> folder of the Windows Server 2016 media.</source>
+          <target state="translated"><bpt id="p1">**</bpt>DSC для Nano Server<ept id="p1">**</ept> — это дополнительный пакет в папке <ph id="ph1">`NanoServer\Packages`</ph> носителей Windows Server 2016.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The package can be installed when you create a VHD for a Nano Server by</source>
+          <target state="translated">Пакет можно установить при создании виртуального жесткого диска для сервера Nano Server, указав</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>specifying <bpt id="p1">**</bpt>Microsoft-NanoServer-DSC-Package<ept id="p1">**</ept> as the value of the <bpt id="p2">**</bpt>Packages<ept id="p2">**</ept> parameter of the <bpt id="p3">**</bpt>New-NanoServerImage<ept id="p3">**</ept> function.</source>
+          <target state="translated">значение <bpt id="p1">**</bpt>Microsoft-NanoServer-DSC-Package<ept id="p1">**</ept> для параметра <bpt id="p2">**</bpt>Packages<ept id="p2">**</ept> функции <bpt id="p3">**</bpt>New-NanoServerImage<ept id="p3">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For example, if you are creating a VHD for a virtual</source>
+          <target state="translated">Например, при создании виртуального жесткого диска для виртуальной</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>machine, the command would look like the following:</source>
+          <target state="translated">машины команда будет выглядеть следующим образом:</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For information about installing and using Nano Server, as well as how to manage Nano Server with PowerShell Remoting, see</source>
+          <target state="translated">Сведения об установке и использовании сервера Nano Server, а также об управлении этим сервером с помощью удаленного взаимодействия PowerShell см. в статье</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Getting Started with Nano Server</source>
+          <target state="translated">Getting Started with Nano Server (Приступая к работе с сервером Nano Server)</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>DSC features available on Nano Server</source>
+          <target state="translated">Функции DSC, доступные на сервере Nano Server</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Because Nano Server supports only a limited set of APIs compared to a full version of Windows Server, DSC on Nano Server does not have full functional parity with DSC running on</source>
+          <target state="translated">Поскольку сервер Nano Server поддерживает только ограниченный набор API, по сравнению с полной версией Windows Server, набор функций DSC в системе Nano Server на данный момент несравним с</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>full SKUs for the time being.</source>
+          <target state="translated">DSC в полнофункциональных SKU.</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>DSC on Nano Server is in active development and is not yet feature complete.</source>
+          <target state="translated">DSC для Nano Server в настоящее время активно разрабатывается и не является законченным компонентом.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The following DSC features are currently available on Nano Server:</source>
+          <target state="translated">Следующие функции DSC в настоящее время доступны для Nano Server:</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Both push and pull modes</source>
+          <target state="translated">Режимы опроса и принудительной отправки</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>All DSC cmdlets that exist on a full version of Windows Server, including the following:</source>
+          <target state="translated">Все командлеты DSC, которые существуют в полной версии Windows Server, включая следующие:</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Get-DscLocalConfigurationManager</source>
+          <target state="translated">Get-DscLocalConfigurationManager</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Set-DscLocalConfigurationManager</source>
+          <target state="translated">Set-DscLocalConfigurationManager</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Enable-DscDebug</source>
+          <target state="translated">Enable-DscDebug</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Disable-DscDebug</source>
+          <target state="translated">Disable-DscDebug</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Start-DscConfiguration</source>
+          <target state="translated">Start-DscConfiguration</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Stop-DscConfiguration</source>
+          <target state="translated">Stop-DscConfiguration</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Get-DscConfiguration</source>
+          <target state="translated">Get-DscConfiguration</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Test-DscConfiguration</source>
+          <target state="translated">Test-DscConfiguration</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Publish-DscConfiguraiton</source>
+          <target state="translated">Publish-DscConfiguraiton</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Update-DscConfiguration</source>
+          <target state="translated">Update-DscConfiguration</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Restore-DscConfiguration</source>
+          <target state="translated">Restore-DscConfiguration</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Remove-DscConfigurationDocument</source>
+          <target state="translated">Remove-DscConfigurationDocument</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Get-DscConfigurationStatus</source>
+          <target state="translated">Get-DscConfigurationStatus</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Invoke-DscResource</source>
+          <target state="translated">Invoke-DscResource</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Find-DscResource</source>
+          <target state="translated">Find-DscResource</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Get-DscResource</source>
+          <target state="translated">Get-DscResource</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>New-DscChecksum</source>
+          <target state="translated">New-DscChecksum</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Compiling configurations (see <bpt id="p1">[</bpt>DSC configurations<ept id="p1">](configurations.md)</ept></source>
+          <target state="translated">Конфигурации компиляции (см. раздел <bpt id="p1">[</bpt>Конфигурации DSC<ept id="p1">](configurations.md)</ept>)</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Compiling metaconfigurations (see <bpt id="p1">[</bpt>Configuring the Local Configuration Manager<ept id="p1">](metaConfig.md)</ept></source>
+          <target state="translated">Метаконфигурации компиляции (см. раздел <bpt id="p1">[</bpt>Настройка локального диспетчера конфигураций<ept id="p1">](metaConfig.md)</ept>)</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Running DSC with user credentials (RunAs)</source>
+          <target state="translated">Запуск DSC с учетными данными пользователя (запуск от имени)</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Class-based resources (see <bpt id="p1">[</bpt>Writing a custom DSC resource with PowerShell classes<ept id="p1">](authoringResourceClass.md)</ept></source>
+          <target state="translated">Ресурсы, основанные на классах (см. раздел <bpt id="p1">[</bpt>Написание пользовательских ресурсов DSC с использованием классов PowerShell<ept id="p1">](authoringResourceClass.md)</ept>)</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Specifying cross-node dependencies</source>
+          <target state="translated">Указание межузловых зависимостей</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Resource versioning</source>
+          <target state="translated">Управление версиями ресурсов</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Events</source>
+          <target state="translated">События</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Pull client (configurations &amp; resources) (see <bpt id="p1">[</bpt>Setting up a pull client using configuration names<ept id="p1">](pullClientConfigNames.md)</ept></source>
+          <target state="translated">Опрашивающий клиент (конфигурации и ресурсы) (см. раздел <bpt id="p1">[</bpt>Настройка опрашивающего клиента с помощью имен конфигураций<ept id="p1">](pullClientConfigNames.md)</ept>)</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Partial configurations (pull &amp; push)</source>
+          <target state="translated">Частичные конфигурации (по запросу и принудительная отправка)</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Reporting to pull server</source>
+          <target state="translated">Передача отчетов на опрашивающий сервер</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>MOF encryption</source>
+          <target state="translated">Шифрование MOF-файлов</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Event logging</source>
+          <target state="translated">Ведение журналов событий</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Azure Automation DSC reporting</source>
+          <target state="translated">Отчеты DSC службы автоматизации Azure</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Resources that work</source>
+          <target state="translated">Работающие ресурсы</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Archive</source>
+          <target state="translated">Archive</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Environment</source>
+          <target state="translated">Среда</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>File</source>
+          <target state="translated">Файл</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Group</source>
+          <target state="translated">Группа</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>GroupSet</source>
+          <target state="translated">GroupSet</target>         
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Log</source>
+          <target state="translated">Журнал</target>         
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>ProcessSet</source>
+          <target state="translated">ProcessSet</target>         
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Registry</source>
+          <target state="translated">Реестр</target>         
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Service</source>
+          <target state="translated">Служба</target>         
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>ServiceSet</source>
+          <target state="translated">ServiceSet</target>         
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Script</source>
+          <target state="translated">Скрипт</target>         
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>User</source>
+          <target state="translated">User</target>         
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>WindowsPackageCab</source>
+          <target state="translated">WindowsPackageCab</target>         
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>WindowsProcess</source>
+          <target state="translated">WindowsProcess</target>         
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>WaitForAll (see <bpt id="p1">[</bpt>Specifying cross-node dependencies<ept id="p1">](crossNodeDependencies.md)</ept></source>
+          <target state="translated">WaitForAll (см. раздел <bpt id="p1">[</bpt>Указание межузловых зависимостей<ept id="p1">](crossNodeDependencies.md)</ept>)</target>         
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>WaitForAny (see <bpt id="p1">[</bpt>Specifying cross-node dependencies<ept id="p1">](crossNodeDependencies.md)</ept></source>
+          <target state="translated">WaitForAny (см. раздел <bpt id="p1">[</bpt>Указание межузловых зависимостей<ept id="p1">](crossNodeDependencies.md)</ept>)</target>         
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>WaitForSome (see <bpt id="p1">[</bpt>Specifying cross-node dependencies<ept id="p1">](crossNodeDependencies.md)</ept></source>
+          <target state="translated">WaitForSome (см. раздел <bpt id="p1">[</bpt>Указание межузловых зависимостей<ept id="p1">](crossNodeDependencies.md)</ept>)</target>         
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>DSC features not available on Nano Server</source>
+          <target state="translated">Функции DSC, недоступные на сервере Nano Server</target>         
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The following DSC features are not currently available on Nano Server:</source>
+          <target state="translated">Следующие функции DSC в настоящее время недоступны для Nano Server:</target>         
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Pull Server--you cannot currently set up a pull server on Nano Server</source>
+          <target state="translated">Опрашивающий сервер — в настоящее время опрашивающий сервер нельзя настроить на сервере Nano Server.</target>         
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Anything that is not in the list of feature works</source>
+          <target state="translated">Все компоненты, не указанные в списке функций, работают.</target>         
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Using custom DSC resources on Nano Server</source>
+          <target state="translated">Использование настраиваемых ресурсов DSC на сервере Nano Server</target>         
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Due to a limited sets of Windows APIs and CLR libraries available on Nano Server, DSC resources that work on the full CLR version of Windows do not necessarily work on Nano Server.</source>
+          <target state="translated">Поскольку набор API Windows и библиотек CLR, доступный на сервере Nano Server, ограничен, ресурсы DSC, работающие в полной версии среды выполнения Windows, не всегда работают в Nano Server.</target>         
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Complete end-to-end testing before deploying any DSC custom resources to a production environment.</source>
+          <target state="translated">Перед развертыванием каких-либо настраиваемых ресурсов DSC в рабочей среде рекомендуется выполнять их полное и всестороннее тестирование.</target>         
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">См. также</target>         
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Getting Started with Nano Server</source>
+          <target state="translated">Getting Started with Nano Server (Приступая к работе с сервером Nano Server)</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
