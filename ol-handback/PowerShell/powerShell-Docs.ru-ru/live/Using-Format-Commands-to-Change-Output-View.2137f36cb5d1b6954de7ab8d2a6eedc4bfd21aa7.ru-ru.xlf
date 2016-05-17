@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Using-Format-Commands-to-Change-Output-View.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">411923bac650f0f4a11808a86acaca1de7e1c076</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-39517ae" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Using Format Commands to Change Output View</source>
+          <target state="translated">Использование команд Format для изменения представления вывода</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Using Format Commands to Change Output View</source>
+          <target state="translated">Использование команд Format для изменения представления вывода</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell has a set of cmdlets that allow you to control which properties are displayed for particular objects.</source>
+          <target state="translated">Windows PowerShell содержит набор командлетов, позволяющих пользователю контролировать, какие свойства должны отображаться для определенных объектов.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The names of all the cmdlets begin with the verb <bpt id="p1">**</bpt>Format<ept id="p1">**</ept>.</source>
+          <target state="translated">Имена всех этих командлетов начинаются глаголом <bpt id="p1">**</bpt>Format<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>They let you select one or more properties to show.</source>
+          <target state="translated">Они позволяют выбрать для отображения одно или несколько свойств.</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Format<ept id="p1">**</ept> cmdlets are <bpt id="p2">**</bpt>Format\-Wide<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Format\-List<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Format\-Table<ept id="p4">**</ept>, and <bpt id="p5">**</bpt>Format\-Custom<ept id="p5">**</ept>.</source>
+          <target state="translated">С глагола <bpt id="p1">**</bpt>Format<ept id="p1">**</ept> начинаются командлеты <bpt id="p2">**</bpt>Format-Wide<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Format-List<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Format-Table<ept id="p4">**</ept> и <bpt id="p5">**</bpt>Format-Custom<ept id="p5">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>We will only describe the <bpt id="p1">**</bpt>Format\-Wide<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Format\-List<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Format\-Table<ept id="p3">**</ept> cmdlets in this user's guide.</source>
+          <target state="translated">В этом руководстве пользователя рассматриваются только командлеты <bpt id="p1">**</bpt>Format-Wide<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Format-List<ept id="p2">**</ept> и <bpt id="p3">**</bpt>Format-Table<ept id="p3">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Each format cmdlet has default properties that will be used if you do not specify specific properties to display.</source>
+          <target state="translated">Каждый командлет форматирования имеет свойства по умолчанию, которые используются, если не задается отображение каких-либо определенных свойств.</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Each cmdlet also uses the same parameter name, <bpt id="p1">**</bpt>Property<ept id="p1">**</ept>, to specify which properties you want to display.</source>
+          <target state="translated">Для указания свойств, которые нужно отобразить, каждый командлет использует одно и то же имя параметра <bpt id="p1">**</bpt>Property<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Because <bpt id="p1">**</bpt>Format\-Wide<ept id="p1">**</ept> only shows a single property, its <bpt id="p2">**</bpt>Property<ept id="p2">**</ept> parameter only takes a single value, but the property parameters of <bpt id="p3">**</bpt>Format\-List<ept id="p3">**</ept> and <bpt id="p4">**</bpt>Format\-Table<ept id="p4">**</ept> will accept a list of property names.</source>
+          <target state="translated">Так как командлет <bpt id="p1">**</bpt>Format-Wide<ept id="p1">**</ept> отображает только одно свойство, для его параметра <bpt id="p2">**</bpt>Property<ept id="p2">**</ept> задается только одно значение, но в качестве значений параметров свойств у командлетов <bpt id="p3">**</bpt>Format-List<ept id="p3">**</ept> и <bpt id="p4">**</bpt>Format-Table<ept id="p4">**</ept> задается список имен свойств.</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If you use the command <bpt id="p1">**</bpt>Get\-Process \-Name powershell<ept id="p1">**</ept> with two instances of Windows PowerShell running, you get output that looks like this:</source>
+          <target state="translated">Если команда <bpt id="p1">**</bpt>Get-Process -Name powershell<ept id="p1">**</ept> используется во время работы двух экземпляров Windows PowerShell, формируются следующие выходные данные:</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In the rest of this section, we will explore how to use <bpt id="p1">**</bpt>Format<ept id="p1">**</ept> cmdlets to change the way the output of this command is displayed.</source>
+          <target state="translated">Оставшаяся часть этого раздела посвящена ознакомлению с тем, как использовать командлеты <bpt id="p1">**</bpt>Format<ept id="p1">**</ept> для изменения способа отображения выходных данных команды.</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Using Format\-Wide for Single\-Item Output</source>
+          <target state="translated">Применение командлета Format-Wide для вывода с одним элементом</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Format\-Wide<ept id="p1">**</ept> cmdlet, by default, displays only the default property of an object.</source>
+          <target state="translated">По умолчанию командлет <bpt id="p1">**</bpt>Format-Wide<ept id="p1">**</ept> отображает только свойство по умолчанию для объекта.</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The information associated with each object is displayed in a single column:</source>
+          <target state="translated">Данные, связанные с каждым объектом, отображаются в одном столбце:</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can also specify a non\-default property:</source>
+          <target state="translated">Можно также задать свойство, отличное от используемого по умолчанию:</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Controlling Format\-Wide Display with Column</source>
+          <target state="translated">Настройка отображения командлета Format-Wide с помощью параметра Column</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>With the <bpt id="p1">**</bpt>Format\-Wide<ept id="p1">**</ept> cmdlet, you can only display a single property at a time.</source>
+          <target state="translated">С помощью командлета <bpt id="p1">**</bpt>Format-Wide<ept id="p1">**</ept> одновременно можно отобразить только одно свойство.</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This makes it useful for displaying simple lists that show only one element per line.</source>
+          <target state="translated">Это может быть полезным при отображении простых списков, у которых в каждой строке отображается только один элемент.</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To get a simple listing, set the value of the <bpt id="p1">**</bpt>Column<ept id="p1">**</ept> parameter to 1 by typing:</source>
+          <target state="translated">Для получения простого списка нужно установить для параметра <bpt id="p1">**</bpt>Column<ept id="p1">**</ept> значение 1, введя следующее:</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Using Format\-List for a List View</source>
+          <target state="translated">Использование командлета Format-List для представления списком</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Format\-List<ept id="p1">**</ept> cmdlet displays an object in the form of a listing, with each property labeled and displayed on a separate line:</source>
+          <target state="translated">Командлет <bpt id="p1">**</bpt>Format-List<ept id="p1">**</ept> показывает объект в виде списка, в котором каждое свойство снабжено меткой и отображается в отдельной строке:</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You can specify as many properties as you want:</source>
+          <target state="translated">Можно указать произвольное число свойств:</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Getting Detailed Information by Using Format\-List with Wildcards</source>
+          <target state="translated">Получение подробных сведений с помощью подстановочных знаков в командлете Format-List</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Format\-List<ept id="p1">**</ept> cmdlet lets you use a wildcard as the value of its <bpt id="p2">**</bpt>Property<ept id="p2">**</ept> parameter.</source>
+          <target state="translated">Командлет <bpt id="p1">**</bpt>Format-List<ept id="p1">**</ept> позволяет использовать подстановочные знаки в качестве значения параметра <bpt id="p2">**</bpt>Property<ept id="p2">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This lets you display detailed information.</source>
+          <target state="translated">Это дает возможность отображать подробные сведения.</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Often, objects include more information than you need, which is why Windows PowerShell does not show all property values by default.</source>
+          <target state="translated">Часто объекты содержат больше информации, чем необходимо. Поэтому Windows PowerShell по умолчанию выводит значения не всех свойств.</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To show all of properties of an object, use the <bpt id="p1">**</bpt>Format\-List \-Property \&amp;#42;<ept id="p1">**</ept> command.</source>
+          <target state="translated">Чтобы вывести список всех свойств объекта, используйте команду <bpt id="p1">**</bpt>Format-List -Property &amp;#42;<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The following command generates over 60 lines of output for a single process:</source>
+          <target state="translated">Следующая команда формирует более 60 строк выходных данных для одного процесса:</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Although the <bpt id="p1">**</bpt>Format\-List<ept id="p1">**</ept> command is useful for showing detail, if you want an overview of output that includes many items, a simpler tabular view is often more useful.</source>
+          <target state="translated">Хотя команда <bpt id="p1">**</bpt>Format-List<ept id="p1">**</ept> и полезна для вывода подробных сведений, для получения сведений, содержащих много элементов, обычно удобнее использовать упрощенное табличное представление.</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Using Format\-Table for Tabular Output</source>
+          <target state="translated">Применение командлета Format-Table для табличного вывода</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">**</bpt>Format\-Table<ept id="p1">**</ept> cmdlet with no property names specified to format the output of the <bpt id="p2">**</bpt>Get\-Process<ept id="p2">**</ept> command, you get exactly the same output as you do without performing any formatting.</source>
+          <target state="translated">Если использовать командлет <bpt id="p1">**</bpt>Format-Table<ept id="p1">**</ept> без указания имен свойств для форматирования вывода команды <bpt id="p2">**</bpt>Get-Process<ept id="p2">**</ept>, будут получены точно такие же выходные данные, что и без использования форматирования.</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The reason is that processes are usually displayed in a tabular format, as are most Windows PowerShell objects.</source>
+          <target state="translated">Это вызвано тем, что процессы обычно показываются в виде таблицы, как и большинство объектов Windows PowerShell.</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Improving Format\-Table Output (AutoSize)</source>
+          <target state="translated">Улучшение вывода командлета Format-Table (параметр AutoSize)</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Although a tabular view is useful for displaying a lot of comparable information, it may be difficult to interpret if the display is too narrow for the data.</source>
+          <target state="translated">Хотя табличное представление и полезно при выводе большого количества сведений для сравнения, интерпретация данных может вызвать затруднения, если экран слишком узок и не вмещает все данные.</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For example, if you try to display process path, ID, name, and company, you get truncated output for the process path and the company column:</source>
+          <target state="translated">Например, если отобразить путь процесса, идентификатор, имя и организацию, данные в столбцах пути процесса и организации окажутся обрезанными:</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If you specify the <bpt id="p1">**</bpt>AutoSize<ept id="p1">**</ept> parameter when you run the <bpt id="p2">**</bpt>Format\-Table<ept id="p2">**</ept> command, Windows PowerShell will calculate column widths based on the actual data you are going to display.</source>
+          <target state="translated">Если указать параметр <bpt id="p1">**</bpt>AutoSize<ept id="p1">**</ept> при выполнении команды <bpt id="p2">**</bpt>Format-Table<ept id="p2">**</ept>, Windows PowerShell вычислит ширину столбцов по ширине реально отображаемых данных.</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This makes the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> column readable, but the company column remains truncated:</source>
+          <target state="translated">Это улучшит внешний вид столбца <bpt id="p1">**</bpt>Path<ept id="p1">**</ept>, но значение столбца с названием организации останется обрезанным:</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Format\-Table<ept id="p1">**</ept> cmdlet might still truncate data, but it will only do so at the end of the screen.</source>
+          <target state="translated">Командлет <bpt id="p1">**</bpt>Format-Table<ept id="p1">**</ept> может обрезать данные, но это происходит только на правой границе экрана.</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Properties, other than the last one displayed, are given as much size as they need for their longest data element to display correctly.</source>
+          <target state="translated">Свойствам, за исключением последнего отображаемого, выделяется столько места, сколько нужно для корректного вывода самого длинного элемента данных.</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>You can see that company name is visible but path is truncated if you swap the locations of <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Company<ept id="p2">**</ept> in the <bpt id="p3">**</bpt>Property<ept id="p3">**</ept> value list:</source>
+          <target state="translated">Если поменять местами элементы <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> и <bpt id="p2">**</bpt>Company<ept id="p2">**</ept> в списке значений <bpt id="p3">**</bpt>Property<ept id="p3">**</ept>, название организации отображается полностью, но путь обрезан:</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Format\-Table<ept id="p1">**</ept> command assumes that the nearer a property is to the beginning of the property list, the more important it is.</source>
+          <target state="translated">Команда <bpt id="p1">**</bpt>Format-Table<ept id="p1">**</ept> предполагает, что чем ближе свойство к началу списка свойств, тем оно важнее.</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>So it attempts to display the properties nearest the beginning completely.</source>
+          <target state="translated">В связи с этим предпринимается попытка отобразить полностью свойства, находящиеся ближе всего к началу.</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">**</bpt>Format\-Table<ept id="p1">**</ept> command cannot display all the properties, it will remove some columns from the display and provide a warning.</source>
+          <target state="translated">Если команда <bpt id="p1">**</bpt>Format-Table<ept id="p1">**</ept> не может отобразить все свойства, она удаляет некоторые столбцы из выходных данных и выдает предупреждение.</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You can see this behavior if you make <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> the last property in the list:</source>
+          <target state="translated">Такое поведение можно наблюдать, если поместить свойство <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> в конец списка:</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>In the output above, the ID column is truncated to make it fit into the listing, and the column headings are stacked up.</source>
+          <target state="translated">В приведенных выше входных данных столбец идентификатора обрезан, чтобы его значение уместилось в списке, а заголовки столбцов расположены вертикально.</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Automatically resizing the columns does not always do what you want.</source>
+          <target state="translated">Автоматическое изменение размера столбцов не всегда дает желаемый результат.</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Wrapping Format\-Table Output in Columns (Wrap)</source>
+          <target state="translated">Перенос на следующую строку вывода командлета Format-Table в столбцах (параметр Wrap)</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>You can force lengthy <bpt id="p1">**</bpt>Format\-Table<ept id="p1">**</ept> data to wrap within its display column by using the <bpt id="p2">**</bpt>Wrap<ept id="p2">**</ept> parameter.</source>
+          <target state="translated">Длинные данные командлета <bpt id="p1">**</bpt>Format-Table<ept id="p1">**</ept> можно принудительно перенести на следующую строку в пределах столбца с помощью параметра <bpt id="p2">**</bpt>Wrap<ept id="p2">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Using the <bpt id="p1">**</bpt>Wrap<ept id="p1">**</ept> parameter alone will not necessarily do what you expect, since it uses default settings if you do not also specify <bpt id="p2">**</bpt>AutoSize<ept id="p2">**</ept>:</source>
+          <target state="translated">Использование параметра <bpt id="p1">**</bpt>Wrap<ept id="p1">**</ept> в отдельности не всегда приводит к ожидаемому результату, так как если не указан еще и параметр <bpt id="p2">**</bpt>AutoSize<ept id="p2">**</ept>, применяются параметры по умолчанию:</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>An advantage of using the <bpt id="p1">**</bpt>Wrap<ept id="p1">**</ept> parameter by itself is that it does not slow down processing very much.</source>
+          <target state="translated">Преимущество использования параметра <bpt id="p1">**</bpt>Wrap<ept id="p1">**</ept> без других параметров заключается в отсутствии существенного замедления обработки.</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>If you perform a recursive file listing of a large directory system, it might take a very long time and use a lot of memory before displaying the first output items if you use <bpt id="p1">**</bpt>AutoSize<ept id="p1">**</ept>.</source>
+          <target state="translated">Использование параметра <bpt id="p1">**</bpt>AutoSize<ept id="p1">**</ept> во время выполнения рекурсивного вывода списка файлов в большом каталоге может потребовать значительного объема памяти и времени перед отображением первых выходных данных.</target>         
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If you are not concerned about system load, then <bpt id="p1">**</bpt>AutoSize<ept id="p1">**</ept> works well with the <bpt id="p2">**</bpt>Wrap<ept id="p2">**</ept> parameter.</source>
+          <target state="translated">Если загрузка системы не имеет решающего значения, параметр <bpt id="p1">**</bpt>AutoSize<ept id="p1">**</ept> хорошо работает в сочетании с параметром <bpt id="p2">**</bpt>Wrap<ept id="p2">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The initial columns are always allotted as much width as they need to display items on one line, just as when you specify <bpt id="p1">**</bpt>AutoSize<ept id="p1">**</ept> without the <bpt id="p2">**</bpt>Wrap<ept id="p2">**</ept> parameter.</source>
+          <target state="translated">Начальным столбцам всегда выделяется необходимый размер для вывода элементов в одной строке, как и при указании параметра <bpt id="p1">**</bpt>AutoSize<ept id="p1">**</ept> без параметра <bpt id="p2">**</bpt>Wrap<ept id="p2">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The only difference is that the final column will be wrapped if necessary:</source>
+          <target state="translated">Единственное отличие состоит в том, что последний столбец будет при необходимости перенесен на следующую строку:</target>         
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Some columns might not be displayed if you specify the widest columns first, so it is safest to specify the smallest data elements first.</source>
+          <target state="translated">Некоторые столбцы могут не быть показаны, если первым указать самый широкий столбец, поэтому безопаснее указывать первыми самые маленькие элементы данных.</target>         
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>In the following example, we specify the extremely wide path element first, and even with wrapping, we still lose the final <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> column:</source>
+          <target state="translated">В следующем примере первым указан чрезвычайно большой элемент — путь. Даже при переносе на следующую строку последний столбец <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> теряется:</target>         
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Organizing Table Output (\-GroupBy)</source>
+          <target state="translated">Организация табличного вывода (параметр -GroupBy)</target>         
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Another useful parameter for tabular output control is <bpt id="p1">**</bpt>GroupBy<ept id="p1">**</ept>.</source>
+          <target state="translated">Другим полезным параметром управления табличным выводом является <bpt id="p1">**</bpt>GroupBy<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Longer tabular listings in particular may be hard to compare.</source>
+          <target state="translated">Длинные табличные списки особенно тяжелы для сравнения.</target>         
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>GroupBy<ept id="p1">**</ept> parameter groups output based on a property value.</source>
+          <target state="translated">Параметр <bpt id="p1">**</bpt>GroupBy<ept id="p1">**</ept> группирует выходные данные в соответствии со значением свойства.</target>         
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>For example, we can group processes by company for easier inspection, omitting the company value from the property listing:</source>
+          <target state="translated">Например, можно сгруппировать процессы по организации для упрощения проверки, исключая название организации из списка свойства:</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

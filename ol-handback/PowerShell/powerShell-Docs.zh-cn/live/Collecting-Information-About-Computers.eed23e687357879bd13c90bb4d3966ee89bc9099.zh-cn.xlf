@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Collecting-Information-About-Computers.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d45fbf8a7ddaf7c1176dc09386f96b4f0c0da8f6</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-39517ae" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Collecting Information About Computers</source>
+          <target state="translated">收集有关计算机的信息</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Collecting Information About Computers</source>
+          <target state="translated">收集有关计算机的信息</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get\-WmiObject<ept id="p1">**</ept> is the most important cmdlet for general system management tasks.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get-WmiObject<ept id="p1">**</ept> 是常规系统管理任务最重要的 cmdlet。</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>All critical subsystem settings are exposed through WMI.</source>
+          <target state="translated">所有关键子系统设置都通过 WMI 公开。</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Furthermore, WMI treats data as objects that are in collections of one or more items.</source>
+          <target state="translated">此外，WMI 将数据视为一个或多个项的集合中的对象。</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Because Windows PowerShell also works with objects and has a pipeline that allows you to treat single or multiple objects in the same way, generic WMI access allows you to perform some advanced tasks with very little work.</source>
+          <target state="translated">由于 Windows PowerShell 也可以使用对象，且具有允许你以相同方式处理单个和多个对象的管道，因此通过泛型 WMI 访问可以非常轻易地执行某些高级任务。</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The following examples demonstrate how to collect specific information by using <bpt id="p1">**</bpt>Get\-WmiObject<ept id="p1">**</ept> against an arbitrary computer.</source>
+          <target state="translated">下面的示例演示如何针对任意计算机使用 <bpt id="p1">**</bpt>Get-WmiObject<ept id="p1">**</ept> 收集特定信息。</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>We specify the <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> parameter with the dot value (<bpt id="p2">**</bpt>.<ept id="p2">**</ept>), which represents the local computer.</source>
+          <target state="translated">我们为 <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> 参数指定点值 (<bpt id="p2">**</bpt>.<ept id="p2">**</ept>)，它表示本地计算机。</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can specify a name or IP address associated with any computer you can reach through WMI.</source>
+          <target state="translated">你可以指定与可以通过 WMI 访问的任意计算机相关联的名称或 IP 地址。</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To retrieve information about the local computer, you could omit the <bpt id="p1">**</bpt>\-ComputerName.<ept id="p1">**</ept></source>
+          <target state="translated">若要检索有关本地计算机的信息，可以省略 <bpt id="p1">**</bpt>-ComputerName。<ept id="p1">**</ept></target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Listing Desktop Settings</source>
+          <target state="translated">列出桌面设置</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>We'll begin with a command that collects information about the desktops on the local computer.</source>
+          <target state="translated">我们将首先处理用于收集有关本地计算机上桌面信息的命令。</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This returns information for all desktops, whether they are in use or not.</source>
+          <target state="translated">这将返回所有桌面的信息，无论它们是否正在使用中。</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Information returned by some WMI classes can be very detailed, and often include metadata about the WMI class.</source>
+          <target state="translated">WMI 类返回的某些信息可能非常详细，且通常包括有关 WMI 类的元数据。</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Because most of these metadata properties have names that begin with a double\-underscore, you can filter the properties using Select\-Object.</source>
+          <target state="translated">因为这些元数据属性大多具有以双下划线开头的名称，因此可以使用 Select-Object 筛选属性。</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Specify only properties that begin with alphabetic characters by using <bpt id="p1">**</bpt>\[a\-z]\&amp;#42;<ept id="p1">**</ept> as the Property value.</source>
+          <target state="translated">将 <bpt id="p1">**</bpt>[a-z]&amp;#42;<ept id="p1">**</ept> 用作 Property 值以仅指定以字母开头的属性。</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">例如：</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To filter out the metadata, use a pipeline operator (|) to send the results of the Get\-WmiObject command to <bpt id="p1">**</bpt>Select\-Object \-Property \[a\-z]\&amp;#42;<ept id="p1">**</ept>.</source>
+          <target state="translated">若要筛选出元数据，请使用管道运算符 (|) 将 Get-WmiObject 命令的结果发送到 <bpt id="p1">**</bpt>Select-Object -Property [a-z]&amp;#42;<ept id="p1">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Listing BIOS Information</source>
+          <target state="translated">列出 BIOS 信息</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The WMI Win32\_BIOS class returns fairly compact and complete information about the system BIOS on the local computer:</source>
+          <target state="translated">WMI Win32_BIOS 类返回有关本地计算机上系统 BIOS 的高度压缩的完整信息：</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Listing Processor Information</source>
+          <target state="translated">列出处理器信息</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You can retrieve general processor information by using WMI's <bpt id="p1">**</bpt>Win32\_Processor<ept id="p1">**</ept> class, although you will likely want to filter the information:</source>
+          <target state="translated">可以通过使用 WMI 的 <bpt id="p1">**</bpt>Win32_Processor<ept id="p1">**</ept> 类检索常规处理器信息 ，尽管很可能需要筛选信息：</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For a generic description string of the processor family, you can just return the <bpt id="p1">**</bpt>Win32\_ComputerSystemSystemType<ept id="p1">**</ept> property:</source>
+          <target state="translated">对于该处理器系列的常规描述字符串，可能返回 <bpt id="p1">**</bpt>Win32_ComputerSystemSystemType<ept id="p1">**</ept> 属性︰</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Listing Computer Manufacturer and Model</source>
+          <target state="translated">列出计算机制造商和型号</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Computer model information is also available from <bpt id="p1">**</bpt>Win32\_ComputerSystem<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Win32_ComputerSystem<ept id="p1">**</ept> 中也提供了计算机型号信息。</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The standard displayed output will not need any filtering to provide OEM data:</source>
+          <target state="translated">标准显示输出不需要任何筛选便可提供 OEM 数据：</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Your output from commands such as this, which return information directly from some hardware, is only as good as the data you have.</source>
+          <target state="translated">像这种来自命令的输出（它直接从某个硬件返回信息）仅相当于你拥有的数据。</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Some information is not correctly configured by hardware manufacturers and may therefore be unavailable.</source>
+          <target state="translated">某些信息未由硬件制造商正确配置，因此可能不可用。</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Listing Installed Hotfixes</source>
+          <target state="translated">列出已安装的修补程序</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You can list all installed hotfixes by using <bpt id="p1">**</bpt>Win32\_QuickFixEngineering<ept id="p1">**</ept>:</source>
+          <target state="translated">可以通过使用 <bpt id="p1">**</bpt>Win32_QuickFixEngineering<ept id="p1">**</ept> 列出所有已安装的修补程序：</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This class returns a list of hotfixes that looks like this:</source>
+          <target state="translated">此类将返回如下所示的修补程序列表：</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For more succinct output, you may want to exclude some properties.</source>
+          <target state="translated">为了使输出更简洁，可能需要排除某些属性。</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Although you can use the <bpt id="p1">**</bpt>Get\-WmiObject Property<ept id="p1">**</ept> parameter to choose only the <bpt id="p2">**</bpt>HotFixID<ept id="p2">**</ept>, doing so will actually return more information, because all the metadata is displayed by default:</source>
+          <target state="translated">尽管可以使用 <bpt id="p1">**</bpt>Get-WmiObject Property<ept id="p1">**</ept> 参数以仅选择 <bpt id="p2">**</bpt>HotFixID<ept id="p2">**</ept>，但这样做实际上将返回更多信息，因为默认显示所有元数据：</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The additional data is returned, because the Property parameter in <bpt id="p1">**</bpt>Get\-WmiObject<ept id="p1">**</ept> restricts the properties returned from WMI class instances, not the object returned to Windows PowerShell.</source>
+          <target state="translated">返回额外数据是因为 <bpt id="p1">**</bpt>Get-WmiObject<ept id="p1">**</ept> 中的 Property 参数限制从 WMI 类实例返回的属性，而不限制返回到 Windows PowerShell 的对象。</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To reduce the output, use <bpt id="p1">**</bpt>Select\-Object<ept id="p1">**</ept>:</source>
+          <target state="translated">若要减少输出，请使用 <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept>：</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Listing Operating System Version Information</source>
+          <target state="translated">列出操作系统版本信息</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Win32\_OperatingSystem<ept id="p1">**</ept> class properties include version and service pack information.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Win32_OperatingSystem<ept id="p1">**</ept> 类属性包括版本和服务包信息。</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You can explicitly select only these properties to get a version information summary from <bpt id="p1">**</bpt>Win32\_OperatingSystem<ept id="p1">**</ept>:</source>
+          <target state="translated">你可以明确仅选择这些属性，以从 <bpt id="p1">**</bpt>Win32_OperatingSystem<ept id="p1">**</ept> 获取版本信息摘要：</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You can also use wildcards with the <bpt id="p1">**</bpt>Select\-Object Property<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">也可以将通配符用于 <bpt id="p1">**</bpt>Select-Object Property<ept id="p1">**</ept> 参数。</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Because all the properties beginning with either <bpt id="p1">**</bpt>Build<ept id="p1">**</ept> or <bpt id="p2">**</bpt>ServicePack<ept id="p2">**</ept> are important to use here, we can shorten this to the following form:</source>
+          <target state="translated">因为在此处使用以 <bpt id="p1">**</bpt>Build<ept id="p1">**</ept> 或 <bpt id="p2">**</bpt>ServicePack<ept id="p2">**</ept> 开头的所有属性很重要，所以我们可以将此缩短为下列形式：</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Listing Local Users and Owner</source>
+          <target state="translated">列出本地用户和所有者</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Local general user information—number of licensed users, current number of users, and owner name—can be found with a selection of <bpt id="p1">**</bpt>Win32\_OperatingSystem<ept id="p1">**</ept> properties.</source>
+          <target state="translated">本地常规用户信息（许可的用户数、当前用户数和所有者名称）可通过选择 <bpt id="p1">**</bpt>Win32_OperatingSystem<ept id="p1">**</ept> 属性找到。</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>You can explicitly select the properties to display like this:</source>
+          <target state="translated">你可以明确选择使属性显示如下：</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>A more succinct version using wildcards is:</source>
+          <target state="translated">使用通配符的更简洁版本是：</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Getting Available Disk Space</source>
+          <target state="translated">获取可用磁盘空间</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To see the disk space and free space for local drives, you can use the WMI Win32\_LogicalDisk class.</source>
+          <target state="translated">若要查看本地驱动器的磁盘空间和可用空间，你可以使用 WMI Win32_LogicalDisk 类。</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>You need to see only instances with a DriveType of 3—the value WMI uses for fixed hard disks.</source>
+          <target state="translated">仅需要查看具有 DriveType 3 的实例—WMI 将此值用作固定硬盘。</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Getting Logon Session Information</source>
+          <target state="translated">获取登录会话信息</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>You can get general information about logon sessions associated with users through the WMI Win32\_LogonSession class:</source>
+          <target state="translated">可以通过 WMI Win32_LogonSession 类获取有关与用户相关联的登录会话的常规信息：</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Getting the User Logged on to a Computer</source>
+          <target state="translated">获取登录到计算机的用户</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>You can display the user logged on to a particular computer system using Win32\_ComputerSystem.</source>
+          <target state="translated">可以使用 Win32_ComputerSystem 显示已登录到特定计算机系统的用户。</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This command returns only the user logged on to the system desktop:</source>
+          <target state="translated">此命令将仅返回登录到系统桌面的用户：</target>         
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Getting Local Time from a Computer</source>
+          <target state="translated">获取计算机的本地时间</target>         
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>You can retrieve the current local time on a specific computer by using the WMI Win32\_LocalTime class.</source>
+          <target state="translated">可以通过使用 WMI Win32_LocalTime 类检索指定计算机上的当前本地时间。</target>         
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Because this class by default displays all metadata, you may want to filter it using <bpt id="p1">**</bpt>Select\-Object<ept id="p1">**</ept>:</source>
+          <target state="translated">由于此类默认显示所有元数据，因此可能需要使用 <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> 对其进行筛选：</target>         
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Displaying Service Status</source>
+          <target state="translated">显示服务状态</target>         
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>To view the status of all services on a specific computer, you can locally use the <bpt id="p1">**</bpt>Get\-Service<ept id="p1">**</ept> cmdlet as mentioned earlier.</source>
+          <target state="translated">若要查看指定计算机上所有服务的状态，可以本地使用 <bpt id="p1">**</bpt>Get-Service<ept id="p1">**</ept> cmdlet，如前文所述。</target>         
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>For remote systems, you can use the WMI Win32\_Service class.</source>
+          <target state="translated">对于远程系统，可以使用 WMI Win32_Service 类。</target>         
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If you also use <bpt id="p1">**</bpt>Select\-Object<ept id="p1">**</ept> to filter the results to <bpt id="p2">**</bpt>Status<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Name<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>DisplayName<ept id="p4">**</ept>, the output format will be almost identical to that from <bpt id="p5">**</bpt>Get\-Service<ept id="p5">**</ept>:</source>
+          <target state="translated">如果你还使用 <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> 来筛选<bpt id="p2">**</bpt>Status<ept id="p2">**</ept>、<bpt id="p3">**</bpt>Name<ept id="p3">**</ept> 和 <bpt id="p4">**</bpt>DisplayName<ept id="p4">**</ept> 的结果，则输出格式将与 <bpt id="p5">**</bpt>Get-Service<ept id="p5">**</ept> 的输出格式几乎完全相同：</target>         
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>To allow the complete display of names for the occasional services with extremely long names, you may want to use <bpt id="p1">**</bpt>Format\-Table<ept id="p1">**</ept> with the <bpt id="p2">**</bpt>AutoSize<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Wrap<ept id="p3">**</ept> parameters, to optimize column width and allow long names to wrap instead of being truncated:</source>
+          <target state="translated">若要完整显示具有极长名称的临时服务的名称，可能需要使用具有 <bpt id="p2">**</bpt>AutoSize<ept id="p2">**</ept> 和 <bpt id="p3">**</bpt>Wrap<ept id="p3">**</ept> 参数的 <bpt id="p1">**</bpt>Format-Table<ept id="p1">**</ept>，以优化列宽并允许较长名称换行而不被截断：</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
