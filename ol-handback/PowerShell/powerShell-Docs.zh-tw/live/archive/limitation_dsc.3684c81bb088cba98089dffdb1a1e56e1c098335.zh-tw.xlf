@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" original="md" source-language="en-US" target-language="zh-tw">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fe1c40cbfd2c76f45d170b82d8a099e860b15db8</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-ac20adc" tool-company="Microsoft" />
+    </header>
     <body>
       <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
@@ -28,8 +33,8 @@
           <target state="translated"><bpt id="p1">**</bpt>解決方式︰<ept id="p1">**</ept>以 [資料編密] 或 [金鑰編密] 的金鑰使用方式，與 [文件加密增強] 金鑰使用方式 (1.3.6.1.4.1.311.80.1) 重新建立憑證。</target>         
         </trans-unit>
         <trans-unit id="107" translate="yes" xml:space="preserve">
-          <source>Technet article <bpt id="p1">&lt;</bpt><ept id="p1">https://technet.microsoft.com/en-us/library/dn807171.aspx&gt;</ept> has more information.</source>
-          <target state="translated">Technet 文章 <bpt id="p1">&lt;</bpt><ept id="p1">https://technet.microsoft.com/en-us/library/dn807171.aspx&gt;</ept> 有詳細資訊。</target>         
+          <source>Technet article <bpt id="p1">&lt;</bpt>https://technet.microsoft.com/en-us/library/dn807171.aspx<ept id="p1">&gt;</ept> has more information.</source>
+          <target state="translated">Technet 文章 <bpt id="p1">&lt;</bpt>https://technet.microsoft.com/en-us/library/dn807171.aspx<ept id="p1">&gt;</ept> 可提供更多詳細資訊。</target>         
         </trans-unit>
         <trans-unit id="108" translate="yes" xml:space="preserve">
           <source>DSC cmdlets may fail after installing WMF 5.0 RTM</source>
@@ -253,32 +258,25 @@
         </trans-unit>
         <trans-unit id="163" translate="yes" xml:space="preserve">
           <source>The WindowsOptionalFeature DSC resource is not available in Windows 7.</source>
-          <target state="translated">WindowsOptionalFeature 資源不適用於 Windows 7。</target>         
+          <target state="translated">WindowsOptionalFeature DSC 資源不適用於 Windows 7。</target>         
         </trans-unit>
         <trans-unit id="164" translate="yes" xml:space="preserve">
           <source>This resource requires the DISM module, and DISM cmdlets that are available starting in Windows 8 and newer releases of the Windows operating system.</source>
           <target state="translated">此資源需要 DISM 模組，以及在 Windows 8 起和較新版本 Windows 作業系統中可用的 DISM Cmdlet。</target>         
         </trans-unit>
         <trans-unit id="165" translate="yes" xml:space="preserve">
-          <source>Running Set-DscLocalConfigurationManager to set Meta Configuration against WMF 4.0 or WMF 5.0 Production Preview builds will not work</source>
-          <target state="translated">將無法執行 Set-DscLocalConfigurationManager，以針對 WMF 4.0 或 WMF 5.0 Production Preview 組建設定中繼組態</target>         
+          <source>For Class-based DSC resources, Import-DscResource -ModuleVersion may not work as expected</source>
+          <target state="translated">針對以類別為基礎的 DSC 資源，Import-DscResource -ModuleVersion 可能無法如預期般運作</target>         
         </trans-unit>
         <trans-unit id="166" translate="yes" xml:space="preserve">
-          <source>There is a backward compatibility issue when running Set-DscLocalConfiguration against previous WMFs.</source>
-          <target state="translated">對舊版 WMF 執行 Set-DscLocalConfiguration 時，會產生回溯相容性問題。</target>         
+          <source>If the compilation node has multiple version of a class-based DSC resource module, <ph id="ph1">`Import-DscResource -ModuleVersion`</ph> does not pick the specified version and results in following compilation error.</source>
+          <target state="translated">如果編譯節點有多個版本的以類別為基礎的 DSC 資源模組，<ph id="ph1">`Import-DscResource -ModuleVersion`</ph> 就不會選擇指定的版本，並產生下列編譯錯誤。</target>         
         </trans-unit>
         <trans-unit id="167" translate="yes" xml:space="preserve">
-          <source>You will see this error complaining about newly added -Force parameter not being available on the target machine.</source>
-          <target state="translated">您會看到新增的 -Force 參數無法在目標電腦上使用的錯誤。</target>         
-        </trans-unit>
-        <trans-unit id="168" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> Follow these steps to use Invoke-CimMethod to call underlying CIM method directly to set meta configuration.</source>
-          <target state="translated"><bpt id="p1">**</bpt>解決方式︰<ept id="p1">**</ept>遵循下列步驟使用 Invoke-CimMethod 直接呼叫基礎 CIM 方法，以設定中繼組態。</target>         
+          <source><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> Import the required version by defining the <bpt id="p2">*</bpt>ModuleSpecification<ept id="p2">*</ept> object to the <ph id="ph1">`-ModuleName`</ph> with <ph id="ph2">`RequiredVersion`</ph> key specified as follows:</source>
+          <target state="translated"><bpt id="p1">**</bpt>解決方式︰<ept id="p1">**</ept>藉由將 <bpt id="p2">*</bpt>ModuleSpecification<ept id="p2">*</ept> 物件定義為 <ph id="ph1">`-ModuleName`</ph> 並指定 <ph id="ph2">`RequiredVersion`</ph> 索引鍵來匯入所需的版本，如下所示︰</target>         
         </trans-unit>
       </group>
     </body>
   </file>
-  <header xmlns="">
-    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c87ec977d6b2cc74aae51a81ae1f9b790157ded9</xliffext:olfilehash>
-  </header>
 </xliff>
