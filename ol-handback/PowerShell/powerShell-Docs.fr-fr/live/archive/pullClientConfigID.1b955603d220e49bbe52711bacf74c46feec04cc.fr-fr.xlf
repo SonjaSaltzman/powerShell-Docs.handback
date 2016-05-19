@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" original="md" source-language="en-US" target-language="fr-fr">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="fr-fr">
     <header>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c113ad890c30be1c801fca78ec6781b2fd8e6ef8</xliffext:olfilehash>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-02a95cf" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f53571fddcce612b5e12398766b82e5ede98e046</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-ac20adc" tool-company="Microsoft" />
     </header>
     <body>
       <group id="content" extype="content">
@@ -29,16 +29,16 @@
           <target state="translated">Pour configurer le gestionnaire de configuration local, vous créez un type spécial de configuration, avec l’attribut <bpt id="p1">**</bpt>DSCLocalConfigurationManager<ept id="p1">**</ept>.</target>         
         </trans-unit>
         <trans-unit id="106" translate="yes" xml:space="preserve">
-          <source>For more information about configuring the LCM, see <bpt id="p1">[</bpt>Configuring the Local Configuration Manager<ept id="p1">](metaConfig.md)</ept>.</source>
+          <source>For more information about configuring the LCM, see <bpt id="p1">[</bpt>Configuring the Local Configuration Manager<ept id="p1">](metaConfig.md)</ept></source>
           <target state="translated">Pour plus d’informations sur la configuration du gestionnaire de configuration local, consultez <bpt id="p1">[</bpt>Configuration du gestionnaire de configuration local<ept id="p1">](metaConfig.md)</ept>.</target>         
         </trans-unit>
         <trans-unit id="107" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: This topic applies to PowerShell 5.0.</source>
-          <target state="translated"><bpt id="p1">**</bpt>Remarque<ept id="p1">**</ept> : Cette rubrique s’applique à PowerShell 5.0.</target>         
+          <target state="translated"><bpt id="p1">**</bpt>Remarque<ept id="p1">**</ept> : Cette rubrique s’applique à PowerShell 5.0.</target>         
         </trans-unit>
         <trans-unit id="108" translate="yes" xml:space="preserve">
           <source>For information on setting up a pull client in PowerShell 4.0, see <bpt id="p1">[</bpt>Setting up a pull client using configuration ID in PowerShell 4.0<ept id="p1">](pullClientConfigID4.md)</ept></source>
-          <target state="translated">Pour des informations sur la configuration d’un client collecteur dans PowerShell 4.0, consultez <bpt id="p1">[</bpt>Configuration d’un client collecteur à l’aide de l’ID de configuration dans PowerShell 4.0<ept id="p1">](pullClientConfigID4.md)</ept></target>         
+          <target state="translated">Pour des informations sur la configuration d’un client collecteur dans PowerShell 4.0, consultez <bpt id="p1">[</bpt>Configuration d’un client collecteur à l’aide de l’ID de configuration dans PowerShell 4.0<ept id="p1">](pullClientConfigID4.md)</ept></target>         
         </trans-unit>
         <trans-unit id="109" translate="yes" xml:space="preserve">
           <source>The following script configures the LCM to pull configurations from a server named "CONTOSO-PullSrv".</source>
@@ -57,16 +57,16 @@
           <target state="translated">Quand le script s’exécute, il crée un dossier de sortie nommé <bpt id="p1">**</bpt>PullClientConfigID<ept id="p1">**</ept> et y place un fichier MOF de métaconfiguration.</target>         
         </trans-unit>
         <trans-unit id="113" translate="yes" xml:space="preserve">
-          <source>In this case, the metaconfiguration MOF file will be named <ph id="ph1">`localhost.meta.mof`</ph>.</source>
-          <target state="translated">Dans ce cas, le fichier MOF de métaconfiguration est nommé <ph id="ph1">`localhost.meta.mof`</ph>.</target>         
+          <source>In this case, the metaconfiguration MOF file will be named</source>
+          <target state="translated">Dans ce cas, le fichier MOF de métaconfiguration est nommé</target>         
         </trans-unit>
         <trans-unit id="114" translate="yes" xml:space="preserve">
           <source>To apply the configuration, call the <bpt id="p1">**</bpt>Set-DscLocalConfigurationManager<ept id="p1">**</ept> cmdlet, with the <bpt id="p2">**</bpt>Path<ept id="p2">**</ept> set to the location of the metaconfiguration MOF file.</source>
           <target state="translated">Pour appliquer la configuration, appelez l’applet de commande <bpt id="p1">**</bpt>Set-DscLocalConfigurationManager<ept id="p1">**</ept> avec le paramètre <bpt id="p2">**</bpt>Path<ept id="p2">**</ept> défini sur l’emplacement du fichier MOF de métaconfiguration.</target>         
         </trans-unit>
         <trans-unit id="115" translate="yes" xml:space="preserve">
-          <source>For example: <ph id="ph1">`Set-DSCLocalConfigurationManager localhost –Path .\PullClientConfigID –Verbose.`</ph></source>
-          <target state="translated">Par exemple : <ph id="ph1">`Set-DSCLocalConfigurationManager localhost –Path .\PullClientConfigID –Verbose.`</ph></target>         
+          <source>For example:</source>
+          <target state="translated">Par exemple :</target>         
         </trans-unit>
         <trans-unit id="116" translate="yes" xml:space="preserve">
           <source>Configuration ID</source>
@@ -97,7 +97,7 @@
           <target state="translated">Dans un bloc <bpt id="p1">**</bpt>ConfigurationRepositoryShare<ept id="p1">**</ept>, vous spécifiez le chemin du serveur en définissant la propriété <bpt id="p2">**</bpt>SourcePath<ept id="p2">**</ept>.</target>         
         </trans-unit>
         <trans-unit id="123" translate="yes" xml:space="preserve">
-          <source>The following metaconfiguration configures the target node to pull from an SMB pull server named <bpt id="p1">**</bpt>SMBPullServer<ept id="p1">**</ept>.</source>
+          <source>The following metaconfiguration configures the target node to pull from an SMB pull server named <bpt id="p1">**</bpt>SMBPullServer<ept id="p1">**</ept></source>
           <target state="translated">La métaconfiguration suivante configure le nœud cible de façon à extraire des configurations d’un serveur collecteur SMB nommé <bpt id="p1">**</bpt>SMBPullServer<ept id="p1">**</ept>.</target>         
         </trans-unit>
         <trans-unit id="124" translate="yes" xml:space="preserve">
@@ -150,7 +150,7 @@
         </trans-unit>
         <trans-unit id="136" translate="yes" xml:space="preserve">
           <source>The following metaconfiguration configures a pull client to get its configurations from <bpt id="p1">**</bpt>CONTOSO-PullSrv<ept id="p1">**</ept> and its resources from <bpt id="p2">**</bpt>CONTOSO-ResourceSrv<ept id="p2">**</ept>, and to send status reports to <bpt id="p3">**</bpt>CONTOSO-ReportSrv<ept id="p3">**</ept>:</source>
-          <target state="translated">La métaconfiguration suivante configure un client collecteur de façon à obtenir sa configuration de <bpt id="p1">**</bpt>CONTOSO-PullSrv<ept id="p1">**</ept> et ses ressources de <bpt id="p2">**</bpt>CONTOSO-ResourceSrv<ept id="p2">**</ept>, et à envoyer des rapports d’état à <bpt id="p3">**</bpt>CONTOSO-ReportSrv<ept id="p3">**</ept> :</target>         
+          <target state="translated">La métaconfiguration suivante configure un client collecteur de façon à obtenir sa configuration de <bpt id="p1">**</bpt>CONTOSO-PullSrv<ept id="p1">**</ept> et ses ressources de <bpt id="p2">**</bpt>CONTOSO-ResourceSrv<ept id="p2">**</ept>, et à envoyer des rapports d’état à <bpt id="p3">**</bpt>CONTOSO-ReportSrv<ept id="p3">**</ept> :</target>         
         </trans-unit>
         <trans-unit id="137" translate="yes" xml:space="preserve">
           <source>See Also</source>
