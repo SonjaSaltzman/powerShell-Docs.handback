@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" original="md" source-language="en-US" target-language="zh-cn">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fe1c40cbfd2c76f45d170b82d8a099e860b15db8</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-ac20adc" tool-company="Microsoft" />
+    </header>
     <body>
       <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
@@ -28,8 +33,8 @@
           <target state="translated"><bpt id="p1">**</bpt>解决方法：<ept id="p1">**</ept>使用数据加密或密钥加密密钥用法和文档加密增强型密钥用法 (1.3.6.1.4.1.311.80.1) 重新创建证书。</target>         
         </trans-unit>
         <trans-unit id="107" translate="yes" xml:space="preserve">
-          <source>Technet article <bpt id="p1">&lt;</bpt><ept id="p1">https://technet.microsoft.com/en-us/library/dn807171.aspx&gt;</ept> has more information.</source>
-          <target state="translated">Technet 文章 <bpt id="p1">&lt;</bpt><ept id="p1">https://technet.microsoft.com/en-us/library/dn807171.aspx&gt;</ept> 提供了更多信息。</target>         
+          <source>Technet article <bpt id="p1">&lt;</bpt>https://technet.microsoft.com/en-us/library/dn807171.aspx<ept id="p1">&gt;</ept> has more information.</source>
+          <target state="translated">Technet 文章 <bpt id="p1">&lt;</bpt>https://technet.microsoft.com/en-us/library/dn807171.aspx<ept id="p1">&gt;</ept> 中提供了详细信息。</target>         
         </trans-unit>
         <trans-unit id="108" translate="yes" xml:space="preserve">
           <source>DSC cmdlets may fail after installing WMF 5.0 RTM</source>
@@ -260,25 +265,18 @@
           <target state="translated">此资源需要 DISM 模块以及在 Windows 8 和更新版 Windows 操作系统中开始提供的 DISM cmdlet。</target>         
         </trans-unit>
         <trans-unit id="165" translate="yes" xml:space="preserve">
-          <source>Running Set-DscLocalConfigurationManager to set Meta Configuration against WMF 4.0 or WMF 5.0 Production Preview builds will not work</source>
-          <target state="translated">运行 Set-DscLocalConfigurationManager 以针对 WMF 4.0 或 WMF 5.0 生产预览版设置元配置将无效</target>         
+          <source>For Class-based DSC resources, Import-DscResource -ModuleVersion may not work as expected</source>
+          <target state="translated">对于基于类的 DSC 资源，Import-DscResource -ModuleVersion 可能未按预期运行</target>         
         </trans-unit>
         <trans-unit id="166" translate="yes" xml:space="preserve">
-          <source>There is a backward compatibility issue when running Set-DscLocalConfiguration against previous WMFs.</source>
-          <target state="translated">针对旧版 WMF 运行 Set-DscLocalConfiguration 时存在向后兼容问题。</target>         
+          <source>If the compilation node has multiple version of a class-based DSC resource module, <ph id="ph1">`Import-DscResource -ModuleVersion`</ph> does not pick the specified version and results in following compilation error.</source>
+          <target state="translated">如果编译节点具有多个版本的基于类的 DSC 资源模块，<ph id="ph1">`Import-DscResource -ModuleVersion`</ph> 不会获取指定版本，并导致产生以下编译错误。</target>         
         </trans-unit>
         <trans-unit id="167" translate="yes" xml:space="preserve">
-          <source>You will see this error complaining about newly added -Force parameter not being available on the target machine.</source>
-          <target state="translated">此错误将声称新添加的 -Force 参数在目标计算机上不可用。</target>         
-        </trans-unit>
-        <trans-unit id="168" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> Follow these steps to use Invoke-CimMethod to call underlying CIM method directly to set meta configuration.</source>
-          <target state="translated"><bpt id="p1">**</bpt>解决方法：<ept id="p1">**</ept>按照下列步骤，使用 Invoke-CimMethod 直接调用基础 CIM 方法以设置元配置。</target>         
+          <source><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> Import the required version by defining the <bpt id="p2">*</bpt>ModuleSpecification<ept id="p2">*</ept> object to the <ph id="ph1">`-ModuleName`</ph> with <ph id="ph2">`RequiredVersion`</ph> key specified as follows:</source>
+          <target state="translated"><bpt id="p1">**</bpt>解决方法：<ept id="p1">**</ept>通过定义 <bpt id="p2">*</bpt>ModuleSpecification<ept id="p2">*</ept> 对象将所需版本导入到 <ph id="ph1">`-ModuleName`</ph>，<ph id="ph2">`RequiredVersion`</ph> 密钥按如下所示指定：</target>         
         </trans-unit>
       </group>
     </body>
   </file>
-  <header xmlns="">
-    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c87ec977d6b2cc74aae51a81ae1f9b790157ded9</xliffext:olfilehash>
-  </header>
 </xliff>
