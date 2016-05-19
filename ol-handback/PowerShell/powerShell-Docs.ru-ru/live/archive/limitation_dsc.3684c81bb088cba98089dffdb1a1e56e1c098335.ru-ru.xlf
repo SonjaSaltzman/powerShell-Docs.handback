@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" original="md" source-language="en-US" target-language="ru-ru">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fe1c40cbfd2c76f45d170b82d8a099e860b15db8</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-ac20adc" tool-company="Microsoft" />
+    </header>
     <body>
       <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
@@ -28,8 +33,8 @@
           <target state="translated"><bpt id="p1">**</bpt>Разрешение.<ept id="p1">**</ept> Повторно создайте сертификат с использованием шифрования ключа или данных и расширенного ключа шифрования документов (1.3.6.1.4.1.311.80.1).</target>         
         </trans-unit>
         <trans-unit id="107" translate="yes" xml:space="preserve">
-          <source>Technet article <bpt id="p1">&lt;</bpt><ept id="p1">https://technet.microsoft.com/en-us/library/dn807171.aspx&gt;</ept> has more information.</source>
-          <target state="translated">Дополнительные сведения см. в статье TechNet <bpt id="p1">&lt;</bpt><ept id="p1">https://technet.microsoft.com/en-us/library/dn807171.aspx&gt;</ept>.</target>         
+          <source>Technet article <bpt id="p1">&lt;</bpt>https://technet.microsoft.com/en-us/library/dn807171.aspx<ept id="p1">&gt;</ept> has more information.</source>
+          <target state="translated">Дополнительные сведения см. в статье TechNet <bpt id="p1">&lt;</bpt>https://technet.microsoft.com/en-us/library/dn807171.aspx<ept id="p1">&gt;</ept>.</target>         
         </trans-unit>
         <trans-unit id="108" translate="yes" xml:space="preserve">
           <source>DSC cmdlets may fail after installing WMF 5.0 RTM</source>
@@ -260,25 +265,18 @@
           <target state="translated">Он требует наличия модуля и командлетов DISM, которые доступны только в Windows 8 и более поздних выпусках.</target>         
         </trans-unit>
         <trans-unit id="165" translate="yes" xml:space="preserve">
-          <source>Running Set-DscLocalConfigurationManager to set Meta Configuration against WMF 4.0 or WMF 5.0 Production Preview builds will not work</source>
-          <target state="translated">Выполнение DscLocalConfigurationManager для настройки метаконфигурации на работу со сборками WMF 4.0 или WMF 5.0 Production Preview не работает</target>         
+          <source>For Class-based DSC resources, Import-DscResource -ModuleVersion may not work as expected</source>
+          <target state="translated">Для ресурсов DSC на основе классов командлет Import-DscResource -ModuleVersion может не работать, как ожидалось</target>         
         </trans-unit>
         <trans-unit id="166" translate="yes" xml:space="preserve">
-          <source>There is a backward compatibility issue when running Set-DscLocalConfiguration against previous WMFs.</source>
-          <target state="translated">При выполнении Set-DscLocalConfiguration для предыдущих выпусков WMF существует проблема обратной совместимости.</target>         
+          <source>If the compilation node has multiple version of a class-based DSC resource module, <ph id="ph1">`Import-DscResource -ModuleVersion`</ph> does not pick the specified version and results in following compilation error.</source>
+          <target state="translated">Если у узла компиляции нескольких версий модуля ресурса DSC на основе класса, <ph id="ph1">`Import-DscResource -ModuleVersion`</ph> не может получить указанную версию и вызывает следующую ошибку компиляции.</target>         
         </trans-unit>
         <trans-unit id="167" translate="yes" xml:space="preserve">
-          <source>You will see this error complaining about newly added -Force parameter not being available on the target machine.</source>
-          <target state="translated">Вы увидите следующую ошибку о том, что недавно добавленный параметр -Force недоступен на конечном компьютере.</target>         
-        </trans-unit>
-        <trans-unit id="168" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> Follow these steps to use Invoke-CimMethod to call underlying CIM method directly to set meta configuration.</source>
-          <target state="translated"><bpt id="p1">**</bpt>Решение.<ept id="p1">**</ept> Выполните следующие действия, чтобы напрямую вызвать базовый метод CIM с помощью Invoke-CimMethod для задания метаконфигурации.</target>         
+          <source><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> Import the required version by defining the <bpt id="p2">*</bpt>ModuleSpecification<ept id="p2">*</ept> object to the <ph id="ph1">`-ModuleName`</ph> with <ph id="ph2">`RequiredVersion`</ph> key specified as follows:</source>
+          <target state="translated"><bpt id="p1">**</bpt>Решение<ept id="p1">**</ept>. Импортируйте требуемую версию, определив объект <bpt id="p2">*</bpt>ModuleSpecification<ept id="p2">*</ept> для <ph id="ph1">`-ModuleName`</ph> с ключом <ph id="ph2">`RequiredVersion`</ph>, указанным следующим образом:</target>         
         </trans-unit>
       </group>
     </body>
   </file>
-  <header xmlns="">
-    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c87ec977d6b2cc74aae51a81ae1f9b790157ded9</xliffext:olfilehash>
-  </header>
 </xliff>
