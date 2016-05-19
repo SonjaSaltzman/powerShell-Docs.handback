@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" target-language="zh-cn">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c9dbaed88eb4aec3c745686b466b04a04b708979</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-ac20adc" tool-company="Microsoft" />
+    </header>
     <body>
-      <group id="main" extype="content">
+      <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
-          <source>Authoring a DSC resource in C<ph id="ph1">`#`</ph></source>
-          <target state="translated">在 C 中创作 DSC 资源<ph id="ph1">`#`</ph></target>         
+          <source>Authoring a DSC resource in C</source>
+          <target state="translated">在 C 中创作 DSC 资源</target>         
         </trans-unit>
         <trans-unit id="102" translate="yes" xml:space="preserve">
           <source>Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</source>
@@ -20,12 +25,12 @@
           <target state="translated">但是你也可以通过在 C# 中编写 cmdlet 来实现 DSC 自定义资源的功能。</target>         
         </trans-unit>
         <trans-unit id="105" translate="yes" xml:space="preserve">
-          <source>For an introduction on writing cmdlets in C#, see <bpt id="p1">[</bpt>Writing a Windows PowerShell Cmdlet<ept id="p1">](https://technet.microsoft.com/en-us/library/dd878294.aspx)</ept>.</source>
-          <target state="translated">有关在 C# 中编写 cmdlet 的介绍，请参阅<bpt id="p1">[</bpt>编写 Windows PowerShell Cmdlet<ept id="p1">](https://technet.microsoft.com/en-us/library/dd878294.aspx)</ept>。</target>         
+          <source>For an introduction on writing cmdlets in C#, see <bpt id="p1">[</bpt>Writing a Windows PowerShell Cmdlet<ept id="p1">](https://technet.microsoft.com/en-us/library/dd878294.aspx)</ept></source>
+          <target state="translated">有关在 C# 中编写 cmdlet 的介绍，请参阅<bpt id="p1">[</bpt>编写 Windows PowerShell Cmdlet<ept id="p1">](https://technet.microsoft.com/en-us/library/dd878294.aspx)</ept></target>         
         </trans-unit>
         <trans-unit id="106" translate="yes" xml:space="preserve">
-          <source>Aside from implementing the resource in C# as cmdlets, the process of creating the MOF schema, creating the folder structure, importing and using your custom DSC resource are the same as described in <bpt id="p2">[</bpt>Writing a custom DSC resource with MOF<ept id="p2">](authoringResourceMOF.md)</ept>.</source>
-          <target state="translated">除在 C# 中用 cmdlet 实现资源外，创建 MOF 架构、创建文件夹结构、导入和使用自定义 DSC 资源的过程都与<bpt id="p2">[</bpt>使用 MOF 编写自定义 DSC 资源<ept id="p2">](authoringResourceMOF.md)</ept>中介绍的相同。</target>         
+          <source>Aside from implementing the resource in C# as cmdlets, the process of creating the MOF schema, creating the folder structure, importing and using your custom DSC resource are the same as described in <bpt id="p1">[</bpt>Writing a custom DSC resource with MOF<ept id="p1">](authoringResourceMOF.md)</ept></source>
+          <target state="translated">除在 C# 中用 cmdlet 实现资源外，创建 MOF 架构、创建文件夹结构、导入和使用自定义 DSC 资源的过程都与<bpt id="p1">[</bpt>使用 MOF 编写自定义 DSC 资源<ept id="p1">](authoringResourceMOF.md)</ept>中介绍的相同</target>         
         </trans-unit>
         <trans-unit id="107" translate="yes" xml:space="preserve">
           <source>Writing a cmdlet-based resource</source>
@@ -60,12 +65,12 @@
           <target state="translated">创建 C# 项目并命名。</target>         
         </trans-unit>
         <trans-unit id="115" translate="yes" xml:space="preserve">
-          <source>Select <bpt id="p3">**</bpt>Class Library<ept id="p3">**</ept> from the available project templates.</source>
-          <target state="translated">从可用的项目模板中选择<bpt id="p3">**</bpt>类库<ept id="p3">**</ept>。</target>         
+          <source>Select <bpt id="p1">**</bpt>Class Library<ept id="p1">**</ept> from the available project templates.</source>
+          <target state="translated">从可用的项目模板中选择<bpt id="p1">**</bpt>类库<ept id="p1">**</ept>。</target>         
         </trans-unit>
         <trans-unit id="116" translate="yes" xml:space="preserve">
-          <source>Click <bpt id="p4">**</bpt>Ok<ept id="p4">**</ept>.</source>
-          <target state="translated">单击“确定”<bpt id="p4">**</bpt><ept id="p4">**</ept>。</target>         
+          <source>Click <bpt id="p1">**</bpt>Ok<ept id="p1">**</ept></source>
+          <target state="translated">单击“确定”</target>         
         </trans-unit>
         <trans-unit id="117" translate="yes" xml:space="preserve">
           <source>Add an assembly reference to System.Automation.Management.dll to your project.</source>
@@ -76,16 +81,16 @@
           <target state="translated">更改程序集名称，使其与资源名称一致。</target>         
         </trans-unit>
         <trans-unit id="119" translate="yes" xml:space="preserve">
-          <source>In this case, the assembly should be named <bpt id="p5">**</bpt>MSFT_XDemoFile<ept id="p5">**</ept>.</source>
-          <target state="translated">在本示例中，程序集应该被命名为 <bpt id="p5">**</bpt>MSFT_XDemoFile<ept id="p5">**</ept>。</target>         
+          <source>In this case, the assembly should be named <bpt id="p1">**</bpt>MSFT_XDemoFile<ept id="p1">**</ept></source>
+          <target state="translated">在本示例中，程序集应命名为 <bpt id="p1">**</bpt>MSFT_XDemoFile<ept id="p1">**</ept></target>         
         </trans-unit>
         <trans-unit id="120" translate="yes" xml:space="preserve">
           <source>Writing the cmdlet code</source>
           <target state="translated">编写 cmdlet 代码</target>         
         </trans-unit>
         <trans-unit id="121" translate="yes" xml:space="preserve">
-          <source>The following C# code implements the <bpt id="p6">**</bpt>Get-TargetResource<ept id="p6">**</ept>, <bpt id="p7">**</bpt>Set-TargetResource<ept id="p7">**</ept>, and <bpt id="p8">**</bpt>Test-TargetResource<ept id="p8">**</ept> cmdlets.</source>
-          <target state="translated">下列 C# 代码会实现 <bpt id="p6">**</bpt>Get-TargetResource<ept id="p6">**</ept>、<bpt id="p7">**</bpt>Set-TargetResource<ept id="p7">**</ept> 和 <bpt id="p8">**</bpt>Test-TargetResource<ept id="p8">**</ept> cmdlet。</target>         
+          <source>The following C# code implements the <bpt id="p1">**</bpt>Get-TargetResource<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Set-TargetResource<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Test-TargetResource<ept id="p3">**</ept> cmdlets.</source>
+          <target state="translated">下列 C# 代码会实现 <bpt id="p1">**</bpt>Get-TargetResource<ept id="p1">**</ept>、<bpt id="p2">**</bpt>Set-TargetResource<ept id="p2">**</ept> 和 <bpt id="p3">**</bpt>Test-TargetResource<ept id="p3">**</ept> cmdlet。</target>         
         </trans-unit>
         <trans-unit id="122" translate="yes" xml:space="preserve">
           <source>Deploying the resource</source>
@@ -122,7 +127,4 @@
       </group>
     </body>
   </file>
-  <header xmlns="">
-    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">303b98d41ad471ad7e8a9821225fa8967d7cba5a</xliffext:olfilehash>
-  </header>
 </xliff>
