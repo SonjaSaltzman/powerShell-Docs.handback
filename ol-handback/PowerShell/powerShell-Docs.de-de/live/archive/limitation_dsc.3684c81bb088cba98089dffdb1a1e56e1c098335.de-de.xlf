@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" original="md" source-language="en-US" target-language="de-de">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fe1c40cbfd2c76f45d170b82d8a099e860b15db8</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-ac20adc" tool-company="Microsoft" />
+    </header>
     <body>
       <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
@@ -28,8 +33,8 @@
           <target state="translated"><bpt id="p1">**</bpt>Lösung:<ept id="p1">**</ept> Erstellen Sie das Zertifikat neu, indem Sie Data Encipherment oder Key Encipherment Key und Document Encryption Enhanced Key (1.3.6.1.4.1.311.80.1) verwenden.</target>         
         </trans-unit>
         <trans-unit id="107" translate="yes" xml:space="preserve">
-          <source>Technet article <bpt id="p1">&lt;</bpt><ept id="p1">https://technet.microsoft.com/en-us/library/dn807171.aspx&gt;</ept> has more information.</source>
-          <target state="translated">Im TechNet-Artikel <bpt id="p1">&lt;</bpt><ept id="p1">https://technet.microsoft.com/en-us/library/dn807171.aspx&gt;</ept> finden Sie weitere Informationen.</target>         
+          <source>Technet article <bpt id="p1">&lt;</bpt>https://technet.microsoft.com/en-us/library/dn807171.aspx<ept id="p1">&gt;</ept> has more information.</source>
+          <target state="translated">Im TechNet-Artikel <bpt id="p1">&lt;</bpt>https://technet.microsoft.com/en-us/library/dn807171.aspx<ept id="p1">&gt;</ept> finden Sie weitere Informationen.</target>         
         </trans-unit>
         <trans-unit id="108" translate="yes" xml:space="preserve">
           <source>DSC cmdlets may fail after installing WMF 5.0 RTM</source>
@@ -260,25 +265,18 @@
           <target state="translated">Diese Ressource erfordert das DISM-Modul und DISM-Cmdlets, die ab Windows 8 und in neueren Versionen des Windows-Betriebssystems verfügbar sind.</target>         
         </trans-unit>
         <trans-unit id="165" translate="yes" xml:space="preserve">
-          <source>Running Set-DscLocalConfigurationManager to set Meta Configuration against WMF 4.0 or WMF 5.0 Production Preview builds will not work</source>
-          <target state="translated">Das Ausführen von „Set-DscLocalConfigurationManager“ zum Festlegen einer Metakonfiguration für WMF 4.0- oder WMF 5.0 Production Preview-Builds funktioniert nicht</target>         
+          <source>For Class-based DSC resources, Import-DscResource -ModuleVersion may not work as expected</source>
+          <target state="translated">Bei klassenbasierten DSC-Ressourcen funktioniert „Import-DscResource-ModuleVersion“ möglicherweise nicht wie erwartet</target>         
         </trans-unit>
         <trans-unit id="166" translate="yes" xml:space="preserve">
-          <source>There is a backward compatibility issue when running Set-DscLocalConfiguration against previous WMFs.</source>
-          <target state="translated">Es liegt ein Abwärtskompatibilitätsproblem vor, wenn „Set-DscLocalConfiguration“ für vorherige WMFs ausgeführt wird.</target>         
+          <source>If the compilation node has multiple version of a class-based DSC resource module, <ph id="ph1">`Import-DscResource -ModuleVersion`</ph> does not pick the specified version and results in following compilation error.</source>
+          <target state="translated">Falls der Kompilierungsknoten mehrere Versionen eines klassenbasierten DSC-Ressourcenmoduls aufweist, wählt <ph id="ph1">`Import-DscResource -ModuleVersion`</ph> nicht die angegebene Version aus und folgender Kompilierungsfehler wird zurückgegeben.</target>         
         </trans-unit>
         <trans-unit id="167" translate="yes" xml:space="preserve">
-          <source>You will see this error complaining about newly added -Force parameter not being available on the target machine.</source>
-          <target state="translated">Sie sehen diese Fehlermeldung, die besagt, dass der neu hinzugefügte „-Force“-Parameter auf dem Zielcomputer nicht verfügbar ist.</target>         
-        </trans-unit>
-        <trans-unit id="168" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> Follow these steps to use Invoke-CimMethod to call underlying CIM method directly to set meta configuration.</source>
-          <target state="translated"><bpt id="p1">**</bpt>Lösung:<ept id="p1">**</ept> Führen Sie diese Schritte aus, um mit „Invoke-CimMethod“ die zugrunde liegende CIM-Methode direkt aufzurufen, um die Metakonfiguration festzulegen.</target>         
+          <source><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> Import the required version by defining the <bpt id="p2">*</bpt>ModuleSpecification<ept id="p2">*</ept> object to the <ph id="ph1">`-ModuleName`</ph> with <ph id="ph2">`RequiredVersion`</ph> key specified as follows:</source>
+          <target state="translated"><bpt id="p1">**</bpt>Lösung:<ept id="p1">**</ept> Importieren Sie die erforderliche Version, indem Sie das <bpt id="p2">*</bpt>ModuleSpecification<ept id="p2">*</ept>-Objekt in <ph id="ph1">`-ModuleName`</ph> mit dem <ph id="ph2">`RequiredVersion`</ph>-Schlüssel wie folgt definieren:</target>         
         </trans-unit>
       </group>
     </body>
   </file>
-  <header xmlns="">
-    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c87ec977d6b2cc74aae51a81ae1f9b790157ded9</xliffext:olfilehash>
-  </header>
 </xliff>
