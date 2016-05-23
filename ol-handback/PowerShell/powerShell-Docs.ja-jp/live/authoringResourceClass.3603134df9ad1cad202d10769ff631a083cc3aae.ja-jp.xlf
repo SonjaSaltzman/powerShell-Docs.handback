@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\authoringResourceClass.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">553ef07e42a4c41e5f0dc9e80c54f828d9c625c3</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-8d96cd8" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Writing a custom DSC resource with PowerShell classes</source>
+          <target state="translated">PowerShell クラスを使用したカスタム DSC リソースの記述</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Writing a custom DSC resource with PowerShell classes</source>
+          <target state="translated">PowerShell クラスを使用したカスタム DSC リソースの記述</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows Windows PowerShell 5.0</source>
+          <target state="translated">適用先: Windows PowerShell 5.0</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>With the introduction of PowerShell classes in Windows PowerShell 5.0, you can now define a DSC resource by creating a class.</source>
+          <target state="translated">Windows PowerShell 5.0 の PowerShell クラスの導入により、クラスを作成して DSC リソースを定義できるようになりました。</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The class defines both the schema and the implementation of the resource, so there is no need to create a separate MOF file.</source>
+          <target state="translated">クラスでは、スキーマとリソースの実装の両方を定義するため、MOF ファイルを別途作成する必要がありません。</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The folder structure for a class-based resource is also simpler, because a <bpt id="p1">**</bpt>DSCResources<ept id="p1">**</ept> folder is not necessary.</source>
+          <target state="translated"><bpt id="p1">**</bpt>DSCResources<ept id="p1">**</ept> フォルダーが必要ないため、クラスベースのリソースのフォルダー構造は単純になりました。</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In a class-based DSC resource, the schema is defined as properties of the class which can be modified with attributes to specify the property type..</source>
+          <target state="translated">クラスベースの DSC リソースでは、スキーマは、プロパティの型を指定する属性で変更できるクラスのプロパティとして定義されます。</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The resource is implemented by <bpt id="p1">**</bpt>Get()<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Set()<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Test()<ept id="p3">**</ept> methods (equivalent to the <bpt id="p4">**</bpt>Get-TargetResource<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Set-TargetResource<ept id="p5">**</ept>, and <bpt id="p6">**</bpt>Test-TargetResource<ept id="p6">**</ept> functions in a script resource.</source>
+          <target state="translated">リソースは、<bpt id="p1">**</bpt>Get()<ept id="p1">**</ept>、<bpt id="p2">**</bpt>Set()<ept id="p2">**</ept>、および <bpt id="p3">**</bpt>Test()<ept id="p3">**</ept> メソッド (スクリプト リソースの <bpt id="p4">**</bpt>Get-TargetResource<ept id="p4">**</ept>、<bpt id="p5">**</bpt>Set-TargetResource<ept id="p5">**</ept>、および <bpt id="p6">**</bpt>Test-TargetResource<ept id="p6">**</ept> 関数に相当します) によって実装されます。</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In this topic, we will create a simple resource named <bpt id="p1">**</bpt>FileResource<ept id="p1">**</ept> that manages a file in a specified path.</source>
+          <target state="translated">このトピックでは、指定されたパス内のファイルを管理する <bpt id="p1">**</bpt>FileResource<ept id="p1">**</ept> という名前の単純なリソースを作成します。</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For more information about DSC resources, see <bpt id="p1">[</bpt>Build Custom Windows PowerShell Desired State Configuration Resources<ept id="p1">](authoringResource.md)</ept></source>
+          <target state="translated">DSC リソースの詳細については、「<bpt id="p1">[</bpt>カスタム Windows PowerShell Desired State Configuration のビルド<ept id="p1">](authoringResource.md)</ept>」をご覧ください。</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Folder structure for a class resource</source>
+          <target state="translated">クラス リソースのフォルダー構造</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To implement a DSC custom resource with a PowerShell class, create the following folder structure.</source>
+          <target state="translated">PowerShell クラスを使用して DSC カスタム リソースを実装するには、次のフォルダー構造を作成します。</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The class is defined in <bpt id="p1">**</bpt>MyDscResource.psm1<ept id="p1">**</ept> and the module manifest is defined in <bpt id="p2">**</bpt>MyDscResource.psd1<ept id="p2">**</ept>.</source>
+          <target state="translated">クラスは <bpt id="p1">**</bpt>MyDscResource.psm1<ept id="p1">**</ept> で定義し、モジュール マニフェストは <bpt id="p2">**</bpt>MyDscResource.psd1<ept id="p2">**</ept> で定義します。</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Create the class</source>
+          <target state="translated">クラスの作成</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You use the class keyword to create a PowerShell class.</source>
+          <target state="translated">PowerShell クラスを作成するには、class キーワードを使用します。</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To specify that a class is a DSC resource, use the <bpt id="p1">**</bpt>DscResource()<ept id="p1">**</ept> attribute.</source>
+          <target state="translated">クラスを DSC リソースとして指定するには、<bpt id="p1">**</bpt>DscResource()<ept id="p1">**</ept> 属性を使用します。</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The name of the class is the name of the DSC resource.</source>
+          <target state="translated">クラスの名前は、DSC リソースの名前です。</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Declare properties</source>
+          <target state="translated">プロパティの宣言</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The DSC resource schema is defined as properties of the class.</source>
+          <target state="translated">DSC リソースのスキーマは、クラスのプロパティとして定義します。</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>We declare three properties as follows.</source>
+          <target state="translated">3 つのプロパティを次のように宣言します。</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Notice that the properties are modified by attributes.</source>
+          <target state="translated">属性によってプロパティが変更されることに注意してください。</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The meaning of the attributes is as follows:</source>
+          <target state="translated">属性の意味は次のとおりです。</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>DscProperty(Key)<ept id="p1">**</ept>: The property is required.</source>
+          <target state="translated"><bpt id="p1">**</bpt>DscProperty(Key)<ept id="p1">**</ept>: プロパティは必須です。</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The property is a key.</source>
+          <target state="translated">プロパティはキーです。</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The values of all properties marked as keys must combine to uniquely identify a resource instance within a configuration.</source>
+          <target state="translated">キーとしてマークされたすべてのプロパティの値を組み合わせて、構成内のリソース インスタンスを一意に識別する必要があります。</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>DscProperty(Mandatory)<ept id="p1">**</ept>: The property is required.</source>
+          <target state="translated"><bpt id="p1">**</bpt>DscProperty(Mandatory)<ept id="p1">**</ept>: プロパティは必須です。</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>DscProperty(NotConfigurable)<ept id="p1">**</ept>: The property is read-only.</source>
+          <target state="translated"><bpt id="p1">**</bpt>DscProperty(NotConfigurable)<ept id="p1">**</ept>: プロパティは読み取り専用です。</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Properties marked with this attribute cannot be set by a configuration, but are populated by the <bpt id="p1">**</bpt>Get()<ept id="p1">**</ept> method when present.</source>
+          <target state="translated">この属性でマークされたプロパティは、構成で設定できませんが、<bpt id="p1">**</bpt>Get()<ept id="p1">**</ept> メソッド (存在する場合) によって設定されます。</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>DscProperty()<ept id="p1">**</ept>: The property is configurable, but it is not required.</source>
+          <target state="translated"><bpt id="p1">**</bpt>DscProperty()<ept id="p1">**</ept>: プロパティは構成可能ですが、必須ではありません。</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>$Path<ept id="p1">**</ept> and <bpt id="p2">**</bpt>$SourcePath<ept id="p2">**</ept> properties are both strings.</source>
+          <target state="translated"><bpt id="p1">**</bpt>$Path<ept id="p1">**</ept> プロパティと <bpt id="p2">**</bpt>$SourcePath<ept id="p2">**</ept> プロパティは、両方とも文字列です。</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>$CreationTime<ept id="p1">**</ept> is a <bpt id="p2">[</bpt>DateTime<ept id="p2">](https://technet.microsoft.com/en-us/library/system.datetime.aspx)</ept> property.</source>
+          <target state="translated"><bpt id="p1">**</bpt>$CreationTime<ept id="p1">**</ept> は、<bpt id="p2">[</bpt>DateTime<ept id="p2">](https://technet.microsoft.com/en-us/library/system.datetime.aspx)</ept> プロパティです。</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>$Ensure<ept id="p1">**</ept> property is an enumeration type, defined as follows.</source>
+          <target state="translated"><bpt id="p1">**</bpt>$Ensure<ept id="p1">**</ept> プロパティは、次のように定義された列挙型です。</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Implementing the methods</source>
+          <target state="translated">メソッドの実装</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get()<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Set()<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Test()<ept id="p3">**</ept> methods are analogous to the <bpt id="p4">**</bpt>Get-TargetResource<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Set-TargetResource<ept id="p5">**</ept>, and <bpt id="p6">**</bpt>Test-TargetResource<ept id="p6">**</ept> functions in a script resource.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get()<ept id="p1">**</ept>、<bpt id="p2">**</bpt>Set()<ept id="p2">**</ept>、および <bpt id="p3">**</bpt>Test()<ept id="p3">**</ept> メソッドは、スクリプト リソースの <bpt id="p4">**</bpt>Get-TargetResource<ept id="p4">**</ept>、<bpt id="p5">**</bpt>Set-TargetResource<ept id="p5">**</ept>、および <bpt id="p6">**</bpt>Test-TargetResource<ept id="p6">**</ept> 関数に似ています。</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This code also includes the CopyFile() function, a helper function that copies the file from <bpt id="p1">**</bpt>$SourcePath<ept id="p1">**</ept> to <bpt id="p2">**</bpt>$Path<ept id="p2">**</ept>.</source>
+          <target state="translated">このコードには、ファイルを <bpt id="p1">**</bpt>$SourcePath<ept id="p1">**</ept> から <bpt id="p2">**</bpt>$Path<ept id="p2">**</ept> にコピーするヘルパー関数である CopyFile() 関数も含まれています。</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The complete file</source>
+          <target state="translated">完全なファイル</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The complete class file follows.</source>
+          <target state="translated">完全なクラス ファイルは次のとおりです。</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Create a manifest</source>
+          <target state="translated">マニフェストの作成</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To make a class-based resource available to the DSC engine, you must include a <bpt id="p1">**</bpt>DscResourcesToExport<ept id="p1">**</ept> statement in the manifest file that instructs the module to export the resource.</source>
+          <target state="translated">クラスベースのリソースを DSC エンジンで使用できるようにするには、マニフェスト ファイルに、リソースをエクスポートするようにモジュールに指示する <bpt id="p1">**</bpt>DscResourcesToExport<ept id="p1">**</ept> ステートメントを含める必要があります。</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Our manifest looks like this:</source>
+          <target state="translated">この例では、マニフェストは次のようになります。</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Test the resource</source>
+          <target state="translated">リソースのテスト</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>After saving the class and manifest files in the folder structure as described earlier, you can create a configuration that uses the new resource.</source>
+          <target state="translated">既に説明したように、クラスとマニフェスト ファイルをフォルダー構造で保存した後で、新しいリソースを使用する構成を作成できます。</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>For information about how to run a DSC configuration, see <bpt id="p1">[</bpt>Enacting configurations<ept id="p1">](enactingConfigurations.md)</ept>.</source>
+          <target state="translated">DSC 構成を実行する方法については、「<bpt id="p1">[</bpt>構成の適用<ept id="p1">](enactingConfigurations.md)</ept>」をご覧ください。</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The following configuration will check to see whether the file at <ph id="ph1">`c:\test\test.txt`</ph> exists, and, if not, copies the file from <ph id="ph2">`c:\test.txt`</ph> (you should create <ph id="ph3">`c:\test.txt`</ph> before you run the configuration).</source>
+          <target state="translated">次の構成では、<ph id="ph1">`c:\test\test.txt`</ph> のファイルが存在するかどうかを確認し、存在しない場合は、ファイルを <ph id="ph2">`c:\test.txt`</ph> からコピーします (構成を実行する前に <ph id="ph3">`c:\test.txt`</ph> を作成する必要があります)。</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">参照</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Concepts</source>
+          <target state="translated">概念</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Build Custom Windows PowerShell Desired State Configuration Resources</source>
+          <target state="translated">カスタム Windows PowerShell Desired State Configuration のビルド</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\fundamental\Learning-Windows-PowerShell-Names.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bc504fbde14d0ba743accf644ee5114810afb609</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-39517ae" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Learning Windows PowerShell Names</source>
+          <target state="translated">Windows PowerShell 이름 학습</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Learning Windows PowerShell Names</source>
+          <target state="translated">Windows PowerShell 이름 학습</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Learning names of commands and command parameters is a significant time investment with most command\-line interfaces.</source>
+          <target state="translated">명령 및 명령 매개 변수의 이름을 학습하려면 대부분의 명령줄 인터페이스에서 상당한 시간이 소요됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The issue is that there are very few patterns, so the only way to learn is by memorizing each command and each parameter that you need to use on a regular basis.</source>
+          <target state="translated">문제는 패턴이 거의 없으므로 정기적으로 사용해야 하는 각 명령과 각 매개 변수를 기억하는 것이 유일한 학습 방법이라는 점입니다.</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>When you work with a new command or parameter, you cannot generally use what you already know; you have to find and learn a new name.</source>
+          <target state="translated">새 명령이나 매개 변수로 작업하는 경우 일반적으로 이미 알고 있는 사항을 사용할 수 없으므로 새 이름을 찾아서 학습해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If you look at how interfaces grow from a small set of tools with incremental additions to functionality, it is easy to see why the structure is nonstandard.</source>
+          <target state="translated">인터페이스가 작은 도구 집합에서 점점 기능을 추가하는 방식을 살펴보면 표준 구조가 아닌 이유를 쉽게 알 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>With command names in particular, this may sound logical since each command is a separate tool, but there is a better way to handle command names.</source>
+          <target state="translated">특히 명령 이름의 경우 각 명령이 개별 도구이므로 논리적인 것 같지만 명령 이름을 처리하는 더 나은 방법이 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Most commands are built to manage elements of the operating system or applications, such as services or processes.</source>
+          <target state="translated">대부분의 명령은 서비스나 프로세스와 같은 운영 체제 또는 응용 프로그램의 요소를 관리하도록 작성되었습니다.</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The commands have a variety of names that may or may not fit into a family.</source>
+          <target state="translated">명령에는 패밀리에 맞거나 맞지 않을 수 있는 다양한 이름이 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For example, on Windows systems, you can use the <bpt id="p1">**</bpt>net start<ept id="p1">**</ept> and <bpt id="p2">**</bpt>net stop<ept id="p2">**</ept> commands to start and stop a service.</source>
+          <target state="translated">예를 들어 Windows 시스템에서는 <bpt id="p1">**</bpt>net start<ept id="p1">**</ept> 및 <bpt id="p2">**</bpt>net stop<ept id="p2">**</ept> 명령을 사용하여 서비스를 시작하고 중지할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>There is another more generalized service control tool for Windows that has a completely different name, <bpt id="p1">**</bpt>sc<ept id="p1">**</ept>, that does not fit into the naming pattern for the <bpt id="p2">**</bpt>net<ept id="p2">**</ept> service commands.</source>
+          <target state="translated"><bpt id="p2">**</bpt>net<ept id="p2">**</ept> 서비스 명령의 명명 패턴에 맞지 않는 <bpt id="p1">**</bpt>sc<ept id="p1">**</ept>라는 완전히 다른 이름을 가진 보다 일반화된 다른 Windows용 서비스 제어 도구도 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For process management, Windows has the <bpt id="p1">**</bpt>tasklist<ept id="p1">**</ept> command to list processes and the <bpt id="p2">**</bpt>taskkill<ept id="p2">**</ept> command to kill processes.</source>
+          <target state="translated">프로세스 관리의 경우 Windows에는 프로세스를 표시하는 <bpt id="p1">**</bpt>tasklist<ept id="p1">**</ept> 명령과 프로세스를 중단하는 <bpt id="p2">**</bpt>taskkill<ept id="p2">**</ept> 명령이 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Commands that take parameters have irregular parameter specifications.</source>
+          <target state="translated">매개 변수를 사용하는 명령에는 불규칙한 매개 변수 사양이 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You cannot use the <bpt id="p1">**</bpt>net start<ept id="p1">**</ept> command to start a service on a remote computer.</source>
+          <target state="translated"><bpt id="p1">**</bpt>net start<ept id="p1">**</ept> 명령을 사용하여 원격 컴퓨터에서 서비스를 시작할 수는 없습니다.</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>sc<ept id="p1">**</ept> command will start a service on a remote computer, but to specify the remote computer, you must prefix its name with a double backslash.</source>
+          <target state="translated"><bpt id="p1">**</bpt>sc<ept id="p1">**</ept> 명령은 원격 컴퓨터에서 서비스를 시작하지만 원격 컴퓨터를 지정하기 위해 해당 이름 앞에 이중 백슬래시를 추가해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For example, to start the spooler service on a remote computer named DC01, you would type <bpt id="p1">**</bpt>sc \\\\DC01 start spooler<ept id="p1">**</ept>.</source>
+          <target state="translated">예를 들어 DC01이라는 원격 컴퓨터에서 스풀러 서비스를 시작하려면 <bpt id="p1">**</bpt>sc \\\\DC01 start spooler<ept id="p1">**</ept>를 입력합니다.</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To list tasks running on DC01, you need to use the <bpt id="p1">**</bpt>\/S<ept id="p1">**</ept> (for "system") parameter and supply the name DC01 without backslashes, like this: <bpt id="p2">**</bpt>tasklist \/S DC01<ept id="p2">**</ept>.</source>
+          <target state="translated">DC01에서 실행 중인 작업을 표시하려면 다음과 같이 <bpt id="p1">**</bpt>\/S<ept id="p1">**</ept>("system") 매개 변수를 사용하고 백슬래시 없이 DC01 이름을 입력해야 합니다. <bpt id="p2">**</bpt>tasklist \/S DC01<ept id="p2">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Although there are important technical distinctions between a service and a process, they are both examples of manageable elements on a computer that have a well\-defined life cycle.</source>
+          <target state="translated">서비스와 프로세스 간에는 중요한 기술적 차이가 있지만 둘 다 잘 정의된 수명 주기를 가진 컴퓨터 관리 가능 요소의 예입니다.</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You may want to start or stop a service or process, or get a list of all currently running services or processes.</source>
+          <target state="translated">서비스나 프로세스를 시작 또는 중지하거나, 현재 실행 중인 모든 서비스나 프로세스의 목록을 가져올 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>In other words, although a service and a process are different things, the actions we perform on a service or a process are often conceptually the same.</source>
+          <target state="translated">즉, 서비스와 프로세스는 서로 다르지만 서비스나 프로세스에서 수행하는 작업은 개념적으로 동일한 경우가 많습니다.</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Furthermore, choices we may make to customize an action by specifying parameters may be conceptually similar as well.</source>
+          <target state="translated">또한 매개 변수를 지정하여 작업을 사용자 지정하기 위해 선택할 수 있는 사항도 개념적으로 유사할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell exploits these similarities to reduce the number of distinct names you need to know to understand and use cmdlets.</source>
+          <target state="translated">Windows PowerShell은 이러한 유사성을 이용하여 cmdlet을 이해하고 사용하기 위해 알아야 하는 고유 이름 수를 줄입니다.</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Cmdlets Use Verb\-Noun Names to Reduce Command Memorization</source>
+          <target state="translated">쉽게 기억할 수 있는 Cmdlet에 동사\-명사 이름 사용</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell uses a "verb\-noun" naming system, where each cmdlet name consists of a standard verb hyphenated with a specific noun.</source>
+          <target state="translated">Windows PowerShell은 각 cmdlet 이름이 표준 동사와 특정 명사를 하이픈으로 연결하여 구성되는 "동사\-명사" 명명 시스템을 사용합니다.</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell verbs are not always English verbs, but they express specific actions in Windows PowerShell.</source>
+          <target state="translated">Windows PowerShell 동사는 영어 동사가 아닐 수도 있지만 Windows PowerShell에서 특정 작업을 나타냅니다.</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Nouns are very much like nouns in any language, they describe specific types of objects that are important in system administration.</source>
+          <target state="translated">명사는 모든 언어의 명사와 매우 비슷하며, 시스템 관리에서 중요한 특정 유형의 개체를 설명합니다.</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>It is easy to demonstrate how these two\-part names reduce learning effort by looking at a few examples of verbs and nouns.</source>
+          <target state="translated">동사와 명사의 몇 가지 예를 살펴보면 두 부분으로 이루어진 이러한 이름이 학습에 어떻게 도움이 되는지를 쉽게 확인할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Nouns are less restricted, but they should always describe what a command acts upon.</source>
+          <target state="translated">명사는 덜 제한적이지만 항상 명령의 실행 대상을 나타내야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell has commands such as <bpt id="p1">**</bpt>Get\-Process<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Stop\-Process<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Get\-Service<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Stop\-Service<ept id="p4">**</ept>.</source>
+          <target state="translated">Windows PowerShell에는 <bpt id="p1">**</bpt>Get\-Process<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Stop\-Process<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Get\-Service<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Stop\-Service<ept id="p4">**</ept> 등의 명령이 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In the case of two nouns and two verbs, consistency does not simplify learning that much.</source>
+          <target state="translated">명사 2개와 동사 2개를 사용하는 경우 일관성을 유지해도 학습이 크게 간소화되지 않습니다.</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>However, if you look at a standard set of 10 verbs and 10 nouns, you then have only 20 words to understand, but those words can be used to form 100 distinct command names.</source>
+          <target state="translated">그러나 동사 10개와 명사 10개의 표준 집합을 살펴보면 20개의 단어만 이해해도 해당 단어를 사용하여 100개의 고유한 명령 이름을 구성할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Frequently, you can recognize what a command does by reading its name, and it is usually apparent what name should be used for a new command.</source>
+          <target state="translated">이름을 통해 명령이 수행하는 작업을 인식할 수 있는 경우가 많으며, 일반적으로 새 명령에 어떤 이름을 사용해야 하는지가 명확합니다.</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>For example, a computer shutdown command might be <bpt id="p1">**</bpt>Stop\-Computer<ept id="p1">**</ept>.</source>
+          <target state="translated">예를 들어 컴퓨터 종료 명령은 <bpt id="p1">**</bpt>Stop\-Computer<ept id="p1">**</ept>일 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A command that lists all computers on a network might be <bpt id="p1">**</bpt>Get\-Computer<ept id="p1">**</ept>.</source>
+          <target state="translated">네트워크에 있는 모든 컴퓨터를 표시하는 명령은 <bpt id="p1">**</bpt>Get\-Computer<ept id="p1">**</ept>일 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The command that gets the system date is <bpt id="p1">**</bpt>Get\-Date<ept id="p1">**</ept>.</source>
+          <target state="translated">시스템 날짜를 가져오는 명령은 <bpt id="p1">**</bpt>Get\-Date<ept id="p1">**</ept>입니다.</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You can list all commands that include a particular verb with the <bpt id="p1">**</bpt>\-Verb<ept id="p1">**</ept> parameter for <bpt id="p2">**</bpt>Get\-Command<ept id="p2">**</ept> (We will discuss <bpt id="p3">**</bpt>Get\-Command<ept id="p3">**</ept> in detail in the next section).</source>
+          <target state="translated"><bpt id="p2">**</bpt>Get\-Command<ept id="p2">**</ept>의 <bpt id="p1">**</bpt>\-Verb<ept id="p1">**</ept> 매개 변수를 사용하여 특정 동사를 포함하는 모든 명령을 표시할 수 있습니다. <bpt id="p3">**</bpt>Get\-Command<ept id="p3">**</ept>는 다음 섹션에서 자세히 설명하겠습니다.</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>For example, to see all cmdlets that use the verb <bpt id="p1">**</bpt>Get<ept id="p1">**</ept>, type:</source>
+          <target state="translated">예를 들어 <bpt id="p1">**</bpt>Get<ept id="p1">**</ept> 동사를 사용하는 모든 cmdlet을 보려면 다음과 같이 입력합니다.</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>\-Noun<ept id="p1">**</ept> parameter is even more useful because it allows you to see a family of commands that affect the same type of object.</source>
+          <target state="translated"><bpt id="p1">**</bpt>\-Noun<ept id="p1">**</ept> 매개 변수는 동일한 유형의 개체에 영향을 주는 명령 패밀리를 표시하므로 훨씬 더 유용합니다.</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For example, if you want to see which commands are available for managing services, type following command:</source>
+          <target state="translated">예를 들어 서비스 관리에 사용할 수 있는 명령을 보려는 경우 다음 명령을 입력합니다.</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A command is not necessarily a cmdlet, just because it has a verb\-noun naming scheme.</source>
+          <target state="translated">명령이 동사\-명사 명명 체계를 사용한다고 해서 반드시 cmdlet은 아닙니다.</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>One example of a native Windows PowerShell command that is not a cmdlet but has a verb\-noun name, is the command for clearing a console window, Clear\-Host.</source>
+          <target state="translated">cmdlet은 아니지만 동사\-명사 이름을 가진 네이티브 Windows PowerShell 명령의 한 예로 콘솔 창을 지우는 명령인 Clear\-Host가 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The Clear\-Host command is actually an internal function, as you can see if you run Get\-Command against it:</source>
+          <target state="translated">다음과 같이 Get\-Command를 실행하면 알 수 있듯이 Clear\-Host 명령은 실제로 내부 함수입니다.</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Cmdlets Use Standard Parameters</source>
+          <target state="translated">표준 매개 변수 사용</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>As noted earlier, commands used in traditional command\-line interfaces do not generally have consistent parameter names.</source>
+          <target state="translated">앞에서 설명한 대로 기존 명령줄 인터페이스에서 사용되는 명령에는 일반적으로 일관된 매개 변수 이름이 없습니다.</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Sometimes parameters do not have names at all.</source>
+          <target state="translated">매개 변수에 이름이 없는 경우도 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>When they do, they are often single\-character or abbreviated words that can be typed rapidly but are not easily understood by new users.</source>
+          <target state="translated">이름이 있어도 단일 문자나 약어로 되어 있어 신속하게 입력할 수는 있지만 새로운 사용자가 쉽게 이해하기 힘듭니다.</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Unlike most other traditional command\-line interfaces, Windows PowerShell processes parameters directly, and it uses this direct access to the parameters along with developer guidance to standardize parameter names.</source>
+          <target state="translated">대부분의 다른 기존 명령줄 인터페이스와 달리 Windows PowerShell은 매개 변수를 직접 처리하며, 매개 변수에 대한 이러한 직접 액세스와 함께 개발자 지침을 사용하여 매개 변수 이름을 표준화합니다.</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Although this does not guarantee that every cmdlet will always conform to the standards, it does encourage it.</source>
+          <target state="translated">이렇게 해도 모든 cmdlet이 항상 표준 이름을 사용하는 것은 아니지만 표준화를 촉진합니다.</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Parameter names always have a '\-' prepended to them when you use them, to allow Windows PowerShell to clearly identify them as parameters.</source>
+          <target state="translated">매개 변수 이름을 사용할 때는 항상 '\-'이 앞에 추가되므로 Windows PowerShell이 명확하게 매개 변수로 식별할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Get\-Command \-Name Clear\-Host<ept id="p1">**</ept> example, the parameter's name is <bpt id="p2">**</bpt>Name<ept id="p2">**</ept>, but it is entered as \-<bpt id="p3">**</bpt>Name<ept id="p3">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get\-Command \-Name Clear\-Host<ept id="p1">**</ept> 예제에서 매개 변수 이름은 <bpt id="p2">**</bpt>Name<ept id="p2">**</ept>이지만 \-<bpt id="p3">**</bpt>Name<ept id="p3">**</ept>으로 입력됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Here are some of the general characteristics of the standard parameter names and usages.</source>
+          <target state="translated">다음은 표준 매개 변수 이름 및 사용법의 몇 가지 일반적인 특성입니다.</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The Help Parameter (?)</source>
+          <target state="translated">도움말 매개 변수(?)</target>         
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>When you specify the <bpt id="p1">**</bpt>\-?<ept id="p1">**</ept></source>
+          <target state="translated"><bpt id="p1">**</bpt>\-?<ept id="p1">**</ept></target>         
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>parameter to any cmdlet, the cmdlet is not executed.</source>
+          <target state="translated">매개 변수를 cmdlet에 지정하면 cmdlet이 실행되는 대신</target>         
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Instead, Windows PowerShell displays help for the cmdlet.</source>
+          <target state="translated">cmdlet에 대한 도움말이 표시됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Common Parameters</source>
+          <target state="translated">일반 매개 변수</target>         
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell has several parameters known as <bpt id="p1">*</bpt>common parameters<ept id="p1">*</ept>.</source>
+          <target state="translated">Windows PowerShell에는 <bpt id="p1">*</bpt>일반 매개 변수<ept id="p1">*</ept>라고 알려진 여러 매개 변수가 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Because these parameters are controlled by the Windows PowerShell engine, whenever they are implemented by a cmdlet, they will always behave the same way.</source>
+          <target state="translated">이러한 매개 변수는 Windows PowerShell 엔진에 의해 제어되므로 cmdlet에서 구현할 때마다 항상 동일한 방식으로 동작합니다.</target>         
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The common parameters are <bpt id="p1">**</bpt>WhatIf<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Confirm<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Verbose<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Debug<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Warn<ept id="p5">**</ept>, <bpt id="p6">**</bpt>ErrorAction<ept id="p6">**</ept>, <bpt id="p7">**</bpt>ErrorVariable<ept id="p7">**</ept>, <bpt id="p8">**</bpt>OutVariable<ept id="p8">**</ept>, and <bpt id="p9">**</bpt>OutBuffer<ept id="p9">**</ept>.</source>
+          <target state="translated">일반 매개 변수로는 <bpt id="p1">**</bpt>WhatIf<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Confirm<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Verbose<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Debug<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Warn<ept id="p5">**</ept>, <bpt id="p6">**</bpt>ErrorAction<ept id="p6">**</ept>, <bpt id="p7">**</bpt>ErrorVariable<ept id="p7">**</ept>, <bpt id="p8">**</bpt>OutVariable<ept id="p8">**</ept> 및 <bpt id="p9">**</bpt>OutBuffer<ept id="p9">**</ept>가 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Suggested Parameters</source>
+          <target state="translated">권장 매개 변수</target>         
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell core cmdlets use standard names for similar parameters.</source>
+          <target state="translated">Windows PowerShell 핵심 cmdlet은 유사한 매개 변수에 표준 이름을 사용합니다.</target>         
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Although the use of parameter names is not enforced, there is explicit guidance for usage to encourage standardization.</source>
+          <target state="translated">매개 변수 이름을 반드시 사용해야 하는 것은 아니지만 Windows PowerShell에는 표준 이름 사용을 권장하는 명시적 지침이 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>For example, the guidance recommends naming a parameter that refers to a computer by name as <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept>, rather than Server, Host, System, Node, or other common alternative words.</source>
+          <target state="translated">예를 들어 이 지침에서는 Server, Host, System, Node 또는 기타 일반적인 대체 단어가 아니라 <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept>과 같이 컴퓨터를 이름으로 참조하는 매개 변수 이름을 권장합니다.</target>         
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Among the important suggested parameter names are <bpt id="p1">**</bpt>Force<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Exclude<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Include<ept id="p3">**</ept>, <bpt id="p4">**</bpt>PassThru<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Path<ept id="p5">**</ept>, and <bpt id="p6">**</bpt>CaseSensitive<ept id="p6">**</ept>.</source>
+          <target state="translated">이러한 권장 매개 변수 이름으로는 <bpt id="p1">**</bpt>Force<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Exclude<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Include<ept id="p3">**</ept>, <bpt id="p4">**</bpt>PassThru<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Path<ept id="p5">**</ept> 및 <bpt id="p6">**</bpt>CaseSensitive<ept id="p6">**</ept>가 있습니다.</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
