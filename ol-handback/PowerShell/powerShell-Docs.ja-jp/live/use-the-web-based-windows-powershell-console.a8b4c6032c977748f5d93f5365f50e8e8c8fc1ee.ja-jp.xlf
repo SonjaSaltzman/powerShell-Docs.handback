@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">352af7fafc5c103d170501e3be57e630bbcd439b</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-ac20adc" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Use the Web-based Windows PowerShell Console</source>
+          <target state="translated">Web ベースの Windows PowerShell コンソールの使用</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Updated: June 24, 2013</source>
+          <target state="translated">最終更新日 : 2013 年 6 月 24 日</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows Server 2012 R2, Windows Server 2012</source>
+          <target state="translated">適用対象: Windows Server 2012 R2、Windows Server 2012</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell® Web Access lets Windows PowerShell® users sign in to a Secure Sockets Layer (SSL)-secured website to use Windows PowerShell sessions, cmdlets, and scripts to manage a remote computer.</source>
+          <target state="translated">Windows PowerShell® Web Access を使うと、Windows PowerShell® のユーザーは、Secure Sockets Layer (SSL) で保護された Web サイトにサインインして、Windows PowerShell のセッション、コマンドレット、およびスクリプトを使ってリモート コンピューターを管理できるようになります。</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Because the Windows PowerShell console runs in a web browser, it can be opened from a variety of client devices, including cell phones, tablet computers, public computing kiosks, laptop computers, or shared or borrowed computers.</source>
+          <target state="translated">Windows PowerShell コンソールは Web ブラウザー内で実行されるため、携帯電話、タブレット コンピューター、公共のコンピューティング キオスク、ノート PC、共有や貸与されているコンピューターなど、さまざまなクライアント デバイスで表示することができます。</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The web-based Windows PowerShell console is targeted at a remote computer that is specified by users as part of the sign-in process.</source>
+          <target state="translated">Web ベースの Windows PowerShell コンソールは、サインイン プロセスでユーザーが指定するリモート コンピューターを対象としています。</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This topic describes how to sign in to and start using the Windows PowerShell Web Access web-based console.</source>
+          <target state="translated">このトピックでは、Windows PowerShell Web Access の Web ベース コンソールにサインインして使用を開始する方法について説明します。</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This topic does not describe how to use Windows PowerShell or run cmdlets or scripts.</source>
+          <target state="translated">Windows PowerShell の使用方法や、コマンドレットまたはスクリプトの実行方法はこのトピックの対象外です。</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For information about how to use Windows PowerShell, and scripting resources, see the See Also section at the end of this topic.</source>
+          <target state="translated">Windows PowerShell およびスクリプト リソースの使用方法の詳細については、このトピックの最後にある「関連項目」セクションを参照してください。</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In this topic:</source>
+          <target state="translated">このトピックの内容:</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Supported browsers and client devices</source>
+          <target state="translated">サポートされているブラウザーとクライアント デバイス</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Signing in to Windows PowerShell Web Access</source>
+          <target state="translated">Windows PowerShell Web Access へのサインイン</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Signing out and timing out</source>
+          <target state="translated">サインアウトとタイムアウト</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Differences in the web-based Windows PowerShell console</source>
+          <target state="translated">Web ベースの Windows PowerShell コンソールにおける相違点</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Web Access supports the following Internet browsers.</source>
+          <target state="translated">Windows PowerShell Web Access は次のインターネット ブラウザーをサポートします。</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Although mobile browsers are not officially supported, many may be able to run the web-based Windows PowerShell console.</source>
+          <target state="translated">モバイル ブラウザーは公式にはサポートされていませんが、それらの多くが Web ベースの Windows PowerShell コンソールを実行できるようです。</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Other browsers that accept cookies, run JavaScript, and run HTTPS websites are expected to work, but are not officially tested.</source>
+          <target state="translated">その他のブラウザーも、Cookie の許可、JavaScript の実行、および HTTPS Web サイトの実行に対応している場合は動作すると思われますが、公式にはテストされていません。</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Supported desktop computer browsers</source>
+          <target state="translated">サポート対象のデスクトップ コンピューター ブラウザー</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Windows® Internet Explorer® for Microsoft Windows® 8.0, 9.0, 10.0, and 11.0</source>
+          <target state="translated">Windows® Internet Explorer® for Microsoft Windows® 8.0、9.0、10.0、および 11.0</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Mozilla Firefox® 10.0.2</source>
+          <target state="translated">Mozilla Firefox® 10.0.2</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Google Chrome™ 17.0.963.56m for Windows</source>
+          <target state="translated">Google Chrome™ 17.0.963.56m for Windows</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Apple Safari® 5.1.2 for Windows</source>
+          <target state="translated">Apple Safari® 5.1.2 for Windows</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Apple Safari 5.1.2 for Mac OS®</source>
+          <target state="translated">Apple Safari 5.1.2 for Mac OS®</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Minimally-tested mobile devices or browsers</source>
+          <target state="translated">最低限のテストを実施済みのモバイル デバイスまたはブラウザー</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Windows Phone 7 and 7.5</source>
+          <target state="translated">Windows Phone 7 および 7.5</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Google Android WebKit 3.1 Browser Android 2.2.1 (Kernel 2.6)</source>
+          <target state="translated">Google Android WebKit 3.1 Browser Android 2.2.1 (Kernel 2.6)</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Apple Safari for iPhone operating system 5.0.1</source>
+          <target state="translated">Apple Safari for iPhone operating system 5.0.1</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Apple Safari for iPad 2 operating system 5.0.1</source>
+          <target state="translated">Apple Safari for iPad 2 operating system 5.0.1</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Browser requirements</source>
+          <target state="translated">ブラウザーの要件</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To use the Windows PowerShell Web Access web-based console, browsers must do the following.</source>
+          <target state="translated">Web ベースの Windows PowerShell コンソールを使うには、ブラウザーが次の操作を実行できる必要があります。</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Allow cookies from the Windows PowerShell Web Access gateway website.</source>
+          <target state="translated">Windows PowerShell Web Access ゲートウェイ Web サイトの Cookie を許可する。</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Be able to open and read HTTPS pages.</source>
+          <target state="translated">HTTPS ページを開き、読み取る。</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Open and run websites that use JavaScript.</source>
+          <target state="translated">JavaScript を使う Web サイトを開き、実行する。</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Signing in to Windows PowerShell Web Access</source>
+          <target state="translated">Windows PowerShell Web Access へのサインイン</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Your Windows PowerShell Web Access administrator should provide you with a URL that is the address of your organization’s Windows PowerShell Web Access gateway website.</source>
+          <target state="translated">Windows PowerShell Web Access 管理者は、所属組織の Windows PowerShell Web Access ゲートウェイ Web サイトのアドレスを示す URL を担当者に提供する必要があります。</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>By default, this website address is https://<ph id="ph1">&amp;lt;</ph>server\_name<ph id="ph2">&amp;gt;</ph>/pswa.</source>
+          <target state="translated">この Web サイトのアドレスは、既定で https://<ph id="ph1">&amp;lt;</ph>server\_name<ph id="ph2">&amp;gt;</ph>/pswa となっています。</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Before you sign in to Windows PowerShell Web Access, be sure that you have the name or IP address of the remote computer that you want to manage.</source>
+          <target state="translated">Windows PowerShell Web Access にサインインする前に、管理対象のリモート コンピューターの名前または IP アドレスがわかっていることを確認してください。</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You must be an authorized user on the remote computer, and it must be configured to allow remote management.</source>
+          <target state="translated">また担当者がリモート コンピューターの承認済みユーザーであることと、リモート コンピューターがリモート管理を許可するよう構成されている必要があります。</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For more information about configuring your computer to allow remote management, see <bpt id="p1">[</bpt>Enable and Use Remote Commands in Windows PowerShell<ept id="p1">](https://technet.microsoft.com/magazine/ff700227.aspx)</ept>.</source>
+          <target state="translated">リモート管理を許可するようコンピューターを構成する方法の詳細については、<bpt id="p1">[</bpt>Windows PowerShell でのリモート コマンドの有効化および使用<ept id="p1">](https://technet.microsoft.com/magazine/ff700227.aspx)</ept>に関するページを参照してください。</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The simplest method of configuring your computer to allow remote management is to run the <bpt id="p1">**</bpt>Enable-PSRemoting -force<ept id="p1">**</ept> cmdlet on the computer, in a Windows PowerShell session that has been opened with elevated user rights (<bpt id="p2">**</bpt>Run as Administrator<ept id="p2">**</ept></source>
+          <target state="translated">コンピューターを構成してリモート管理を有効にする最も簡単な方法は、Windows PowerShell セッションを管理者特権で開き (<bpt id="p2">**</bpt>[管理者として実行]<ept id="p2">**</ept>)、コンピューター上で <bpt id="p1">**</bpt>Enable-PSRemoting -force<ept id="p1">**</ept> コマンドレットを実行することです。</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>To sign in to Windows PowerShell Web Access</source>
+          <target state="translated">Windows PowerShell Web Access にサインインするには</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Open the Windows PowerShell Web Access website in an Internet browser window or tab.</source>
+          <target state="translated">Windows PowerShell Web Access Web サイトをインターネット ブラウザーのウィンドウまたはタブで開きます。</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>On the Windows PowerShell Web Access sign-in page, provide your network user name, password, and the name of the computer that you want to manage (and on which you are an authorized user).</source>
+          <target state="translated">Windows PowerShell Web Access のサインイン ページで、ネットワーク ユーザー名、パスワード、および管理対象の (自分が承認済みユーザーとなっている) コンピューター名を入力します。</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If the Windows PowerShell Web Access administrator has instructed you to use a URI to a custom site or proxy server instead of a computer name, select <bpt id="p1">**</bpt>Connection URI<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>Connection type<ept id="p2">**</ept> field, and then provide the URI.</source>
+          <target state="translated">コンピューター名の代わりにカスタム サイトまたはプロキシ サーバーの URI を使うよう Windows PowerShell Web Access 管理者から指示されている場合は、<bpt id="p2">**</bpt>"接続の種類"<ept id="p2">**</ept> フィールドの <bpt id="p1">**</bpt>[接続 URI]<ept id="p1">**</ept> を選択し、URI を入力してください。</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Note</source>
+          <target state="translated">注意</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If the destination computer is in a workgroup, use the following syntax to provide your user name and sign in to the computer:<ph id="ph1">&amp;lt;&lt;em&gt;</ph>workgroup_name<ph id="ph2">&lt;/em&gt;&amp;gt;\&amp;lt;&lt;em&gt;</ph>user_name</source>
+          <target state="translated">対象のコンピューターがワークグループに含まれる場合、computer:<ph id="ph1">&amp;lt;&lt;em&gt;</ph>workgroup_name<ph id="ph2">&lt;/em&gt;&amp;gt;\&amp;lt;&lt;em&gt;</ph>user_name の構文を使ってユーザー名を入力し、コンピューターにサインインします。</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>If the destination computer is the gateway server, you can specify <ph id="ph1">&lt;strong&gt;</ph>localhost<ph id="ph2">&lt;/strong&gt;</ph> in the <ph id="ph3">&lt;strong&gt;</ph>Computer name<ph id="ph4">&lt;/strong&gt;</ph> field.</source>
+          <target state="translated">対象のコンピューターがゲートウェイ サーバーの場合、<ph id="ph3">&lt;strong&gt;</ph>[コンピューター名]<ph id="ph4">&lt;/strong&gt;</ph> フィールドで <ph id="ph1">&lt;strong&gt;</ph>localhost<ph id="ph2">&lt;/strong&gt;</ph> を指定できます。</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If the destination computer is the gateway server, and the gateway server is in a workgroup, you can use <ph id="ph1">&lt;strong&gt;</ph>localhost<ph id="ph2">&lt;/strong&gt;</ph> in the <ph id="ph3">&lt;strong&gt;</ph>Computer name<ph id="ph4">&lt;/strong&gt;</ph> field, but do not use localhost\<ph id="ph5">&amp;lt;&lt;em&gt;</ph>user_name<ph id="ph6">&lt;/em&gt;&amp;gt;</ph> in the <ph id="ph7">&lt;strong&gt;</ph>User name<ph id="ph8">&lt;/strong&gt;</ph> field.</source>
+          <target state="translated">対象のコンピューターがゲートウェイ サーバーで、そのゲートウェイ サーバーがワークグループに含まれている場合、<ph id="ph3">&lt;strong&gt;</ph>[コンピューター名]<ph id="ph4">&lt;/strong&gt;</ph> フィールドで <ph id="ph1">&lt;strong&gt;</ph>localhost<ph id="ph2">&lt;/strong&gt;</ph> を使用できます。ただし <ph id="ph7">&lt;strong&gt;</ph>[ユーザー名]<ph id="ph8">&lt;/strong&gt;</ph> フィールドでは localhost\<ph id="ph5">&amp;lt;&lt;em&gt;</ph>user_name<ph id="ph6">&lt;/em&gt;&amp;gt;</ph> を使わないでください。</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>You must use <ph id="ph1">&amp;lt;&lt;em&gt;</ph>workgroup name<ph id="ph2">&lt;/em&gt;&amp;gt;\&amp;lt;&lt;em&gt;</ph>user_name</source>
+          <target state="translated"><ph id="ph1">&amp;lt;&lt;em&gt;</ph>workgroup name<ph id="ph2">&lt;/em&gt;&amp;gt;\&amp;lt;&lt;em&gt;</ph>user_name を使用する必要があります。</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Optional Connection Settings<ept id="p1">**</ept> section relates to the authorization requirements of the remote computer that you want to manage.</source>
+          <target state="translated"><bpt id="p1">**</bpt>[オプションの接続設定]<ept id="p1">**</ept> セクションは、管理対象のリモート コンピューターの承認要件に関連しています。</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>For more information about the parameters that are equivalent to optional connection settings, see the <bpt id="p1">[</bpt>Enter-PSSession cmdlet Help<ept id="p1">](https://technet.microsoft.com/library/dd315384.aspx)</ept></source>
+          <target state="translated">オプションの接続設定に相当するパラメーターの詳細については、<bpt id="p1">[</bpt>Enter-PSSession コマンドレットのヘルプ<ept id="p1">](https://technet.microsoft.com/library/dd315384.aspx)</ept>を参照してください。</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Typically, the credentials you use to pass through the Windows PowerShell Web Access gateway are the same that are recognized by the remote computer that you want to manage.</source>
+          <target state="translated">通常、Windows PowerShell Web Access ゲートウェイの通過に使う資格情報は、管理対象のリモート コンピューターが認識する資格情報と同じです。</target>         
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>However, if you want to use different credentials to manage the remote computer that you specified in step 2, expand the <bpt id="p1">**</bpt>Optional Connection Settings<ept id="p1">**</ept> section, and provide the alternate credentials.</source>
+          <target state="translated">ただし、手順 2. で指定したリモート コンピューターを別の資格情報を使って管理する場合、<bpt id="p1">**</bpt>[オプションの接続設定]<ept id="p1">**</ept> セクションを展開して、別の資格情報を入力します。</target>         
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Otherwise, skip to step 6.</source>
+          <target state="translated">それ以外の場合、手順 6. に進みます。</target>         
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>If the Windows PowerShell Web Access administrator has created a custom session configuration for Windows PowerShell Web Access users, type the name of the session configuration name in the <bpt id="p1">**</bpt>Configuration name<ept id="p1">**</ept> field.</source>
+          <target state="translated">Windows PowerShell Web Access 管理者が Windows PowerShell Web Access ユーザー用にカスタムのセッション構成を作成している場合、そのセッション構成の名前を <bpt id="p1">**</bpt>"構成名"<ept id="p1">**</ept> フィールドに入力します。</target>         
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>For more information about session configurations, see <bpt id="p1">[</bpt>about\_Session\_Configurations<ept id="p1">](https://technet.microsoft.com/library/dd819508.aspx)</ept> on the Microsoft website.</source>
+          <target state="translated">セッション構成の詳細については、Microsoft Web サイトの「<bpt id="p1">[</bpt>about\_Session\_Configurations<ept id="p1">](https://technet.microsoft.com/library/dd819508.aspx)</ept>」を参照してください。</target>         
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Keep the <bpt id="p1">**</bpt>Authentication type<ept id="p1">**</ept> set to <bpt id="p2">**</bpt>Default<ept id="p2">**</ept> unless you have been instructed to do otherwise by the Windows PowerShell Web Access administrator.</source>
+          <target state="translated"><bpt id="p1">**</bpt>[認証の種類]<ept id="p1">**</ept> の設定は、それ以外にするよう Windows PowerShell Web Access 管理者から指示された場合を除き、<bpt id="p2">**</bpt>[既定]<ept id="p2">**</ept> が設定されたままにしておきます。</target>         
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Sign in<ept id="p1">**</ept></source>
+          <target state="translated"><bpt id="p1">**</bpt>[サインイン]<ept id="p1">**</ept> をクリックします。</target>         
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Signing out and timing out</source>
+          <target state="translated">サインアウトとタイムアウト</target>         
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Any of the following signs you out of a web-based Windows PowerShell session.</source>
+          <target state="translated">次のいずれかの操作を実行すると、Web ベースの Windows PowerShell セッションからサインアウトします。</target>         
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Clicking <bpt id="p1">**</bpt>Sign out<ept id="p1">**</ept> in the lower right corner of the console.</source>
+          <target state="translated">コンソールの右下隅にある <bpt id="p1">**</bpt>[サインアウト]<ept id="p1">**</ept> をクリックする</target>         
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>(Windows Server 2012 only)</source>
+          <target state="translated">(Windows Server 2012 のみ)</target>         
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Clicking <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Exit<ept id="p2">**</ept> in the lower right corner of the console (Windows Server 2012 R2 only).</source>
+          <target state="translated">コンソールの右下隅にある <bpt id="p1">**</bpt>[保存]<ept id="p1">**</ept> または <bpt id="p2">**</bpt>[終了]<ept id="p2">**</ept> をクリックする (Windows Server 2012 R2 のみ)。</target>         
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Clicking <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> saves and closes your Windows PowerShell Web Access session; you can reconnect to the session later.</source>
+          <target state="translated"><bpt id="p1">**</bpt>[保存]<ept id="p1">**</ept> をクリックすると Windows PowerShell Web Access セッションが保存されて閉じます。後でセッションに再接続できます。</target>         
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>When you sign in to Windows PowerShell Web Access again, Windows PowerShell Web Access displays a list of your saved sessions; you can either select and reconnect to a saved session, or start a new session.</source>
+          <target state="translated">Windows PowerShell Web Access に再びサインインすると、保存したセッションの一覧が Windows PowerShell Web Access に表示されます。保存されているセッションを選択して再接続することも、新しいセッションを開始することもできます。</target>         
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The maximum number of open sessions that users are allowed, both saved and active, is configured by the gateway administrator.</source>
+          <target state="translated">ユーザーが開くことのできるセッションの最大数 (保存されているものとアクティブの両方) は、ゲートウェイの管理者が構成します。</target>         
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Clicking <bpt id="p1">**</bpt>Exit<ept id="p1">**</ept> signs you out of the Windows PowerShell Web Access session without saving it.</source>
+          <target state="translated"><bpt id="p1">**</bpt>[終了]<ept id="p1">**</ept> をクリックすると、Windows PowerShell Web Access セッションが保存されずにサインアウトします。</target>         
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Attempting to sign in to manage a different remote computer in the same browser session, or in a new tab of the same browser session.</source>
+          <target state="translated">同じブラウザー セッションまたは同じブラウザー セッションの新しいタブで、別のリモート コンピューターを管理するためにサインインする。</target>         
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>(This does not apply if the gateway server is running Windows Server 2012 R2; Windows PowerShell Web Access running on Windows Server 2012 R2 does allow multiple user sessions in new tabs in the same browser session.) For more information about how to use more than one active session on the same computer, see “Connecting to multiple target computers simultaneously” in the <bpt id="p1">[</bpt>Limitations of the web-based console<ept id="p1">](#BKMK_limits)</ept> section of this topic.</source>
+          <target state="translated">(これは、ゲートウェイ サーバーが Windows Server 2012 R2 を実行している場合は適用されません。Windows Server 2012 R2 で実行している Windows PowerShell Web Access では、同じブラウザー セッションの新しいタブで複数のユーザー セッションを開くことができます)。同じコンピューターで複数のアクティブ セッションを使う方法の詳細については、このトピックの「<bpt id="p1">[</bpt>Web ベース コンソールの制限事項<ept id="p1">](#BKMK_limits)</ept>」セクションの「複数の対象コンピューターへの同時接続」を参照してください。</target>         
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>20 minutes of inactivity in the session.</source>
+          <target state="translated">セッションの非アクティブな状態が 20 分続いた場合。</target>         
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The gateway administrator can customize the inactivity time-out period; for more information, see <bpt id="p1">[</bpt>Session management<ept id="p1">](https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx#BKMK_sesmgmt)</ept></source>
+          <target state="translated">ゲートウェイの管理者は、非アクティブ状態によるタイムアウトの長さをカスタマイズできます。詳細については、「<bpt id="p1">[</bpt>セッションの管理<ept id="p1">](https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx#BKMK_sesmgmt)</ept>」を参照してください。</target>         
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>If you are disconnected from a session in the web-based console because of a network error or other unplanned shutdown or failure, and not because you have closed the session yourself, the Windows PowerShell Web Access session continues to run, connected to the target computer, until the time-out period on the client side lapses.</source>
+          <target state="translated">ユーザー自身がセッションを閉じたためではなく、ネットワーク エラーまたはその他の予期しないシャットダウンや障害のために、ユーザーがセッションから切断された場合、クライアント側でタイムアウト期間が経過するまで Windows PowerShell Web Access セッションは実行を続け、ターゲット コンピューターに接続されたままになります。</target>         
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>By default, this time-out period is 20 minutes, and is configured by the gateway administrator.</source>
+          <target state="translated">既定ではこのタイムアウト期間は 20 分であり、ゲートウェイ管理者が構成します。</target>         
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The session is disconnected after either the default 20 minutes, or after the time-out period specified by the gateway administrator, whichever is shorter.</source>
+          <target state="translated">既定の 20 分またはゲートウェイ管理者が指定したタイムアウト期間のどちらか短い方が経過すると、セッションは切断されます。</target>         
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>If the gateway server is running Windows Server 2012 R2, Windows PowerShell Web Access lets users reconnect to saved sessions at a later time, but you cannot see or reconnect to saved sessions until after the time-out period specified by the gateway administrator has lapsed.</source>
+          <target state="translated">ゲートウェイ サーバーが Windows Server 2012 R2 を実行している場合の Windows PowerShell Web Access では、ユーザーは保存されているセッションに再接続できますが、ゲートウェイ管理者によって指定されたタイムアウト期間が経過するまでは、保存されているセッションを表示または再接続できません。</target>         
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Closing the browser window or tab.</source>
+          <target state="translated">ブラウザー ウィンドウまたはタブを閉じる。</target>         
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Turning off the client device on which the browser is running, or disconnecting it from the network.</source>
+          <target state="translated">ブラウザーが実行されているクライアント デバイスの電源を切る、またはネットワークから切断する。</target>         
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Running the <bpt id="p1">**</bpt>Exit<ept id="p1">**</ept> command in the web console.</source>
+          <target state="translated">Web コンソールで <bpt id="p1">**</bpt>[終了]<ept id="p1">**</ept> コマンドを実行する。</target>         
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This command does not work if the session configuration to which you are connected to is configured to support <bpt id="p1">[</bpt>NoLanguage<ept id="p1">](https://msdn.microsoft.com/library/windows/desktop/system.management.automation.pslanguagemode.aspx)</ept> mode, or is in a restricted runspace.</source>
+          <target state="translated">接続先のセッション構成が <bpt id="p1">[</bpt>NoLanguage<ept id="p1">](https://msdn.microsoft.com/library/windows/desktop/system.management.automation.pslanguagemode.aspx)</ept> モードをサポートするよう構成されている場合、または制限付き実行空間が指定されている場合は、このコマンドは機能しません。</target>         
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>If you want to sign in again, open the Windows PowerShell Web Access web page again, and sign in by following the steps in <bpt id="p1">[</bpt>To sign in to Windows PowerShell Web Access<ept id="p1">](#BKMK_signin)</ept> in this topic.</source>
+          <target state="translated">もう一度サインインする場合は、Windows PowerShell Web Access の Web ページをもう一度開き、このトピックの「<bpt id="p1">[</bpt>Windows PowerShell Web Access にサインインするには<ept id="p1">](#BKMK_signin)</ept>」の手順に従ってサインインします。</target>         
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Differences in the web-based Windows PowerShell console</source>
+          <target state="translated">Web ベースの Windows PowerShell コンソールにおける相違点</target>         
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>After signing in to Windows PowerShell Web Access, a web-based Windows PowerShell console opens in your browser window or tab.</source>
+          <target state="translated">Windows PowerShell Web Access にサインインすると、Web ベースの Windows PowerShell コンソールがブラウザー ウィンドウまたはタブに表示されます。</target>         
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Because the console is connected to the remote computer that you specified during the sign-in process, only those Windows PowerShell cmdlets or scripts that are available on the remote computer can be used in the console.</source>
+          <target state="translated">コンソールはサインイン プロセスで指定したリモート コンピューターに接続されているため、このコンソールで使える Windows PowerShell コマンドレットまたはスクリプトは、対象のリモート コンピューターで利用可能なものだけです。</target>         
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>This section describes other limitations of Windows PowerShell Web Access consoles, and differences between Windows PowerShell Web Access consoles and the installed <bpt id="p1">**</bpt>PowerShell.exe<ept id="p1">**</ept> console.</source>
+          <target state="translated">このセクションでは、Windows PowerShell Web Access コンソールにおけるその他の制限事項と、Windows PowerShell Web Access コンソールとインストール型の <bpt id="p1">**</bpt>PowerShell.exe<ept id="p1">**</ept> コンソールとの間の違いについて説明します。</target>         
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Functional disparity with PowerShell.exe</source>
+          <target state="translated">PowerShell.exe との機能面の相違点</target>         
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The majority of Windows PowerShell host functionality is available in the Windows PowerShell Web Access web-based console, but there are some features that are not available.</source>
+          <target state="translated">Windows PowerShell のホスト機能の大部分は Windows PowerShell Web Access の Web ベース コンソールでも利用できますが、いくつかの機能は利用できません。</target>         
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Nested progress displays.</source>
+          <target state="translated">入れ子になった進行状況の表示。</target>         
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Web Access displays a progress GUI for cmdlets that report progress, but only top-level progress information is displayed.</source>
+          <target state="translated">進行状況を報告するコマンドレットを使用すると、Windows PowerShell Web Access が表示する進行状況 GUI には、最上位レベルの情報だけが表示されます。</target>         
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Input color modification.</source>
+          <target state="translated">入力色の変更。</target>         
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The input color (both foreground and background) cannot be changed.</source>
+          <target state="translated">入力色 (前景と背景) は変更できません。</target>         
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The style of output, warning, verbose, and error messages can all be changed by running a script.</source>
+          <target state="translated">出力、警告、詳細、およびエラー メッセージのスタイルは、スクリプトを実行することで変更できます。</target>         
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>PSHostRawUserInterface.</source>
+          <target state="translated">PSHostRawUserInterface。</target>         
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Web Access is implemented over Windows PowerShell remote management, and uses a remote runspace.</source>
+          <target state="translated">Windows PowerShell Web Accessは Windows PowerShell リモート管理経由で実装され、リモートの実行空間を使います。</target>         
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Web Access does not implement some methods in this interface; for example, any command that writes to the Windows console.</source>
+          <target state="translated">たとえば Windows コンソールへの書き込みを実行するあらゆるコマンドなど、一部のメソッドは Windows PowerShell Web Access によってこのインターフェイスに実装されません。</target>         
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Commands such as <bpt id="p1">**</bpt>PowerTab<ept id="p1">**</ept> do not work in Windows PowerShell Web Access.</source>
+          <target state="translated"><bpt id="p1">**</bpt>PowerTab<ept id="p1">**</ept> などのコマンドは、Windows PowerShell Web Access では動作しません。</target>         
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Function keys.</source>
+          <target state="translated">ファンクション キー。</target>         
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Web Access does not support some function keys, in many cases because the commands are reserved by the browser.</source>
+          <target state="translated">一部のファンクション キーは Windows PowerShell Web Access によってサポートされません。多くの場合、それらのコマンドがブラウザーによって予約されていることが原因です。</target>         
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Unsupported Function Key</source>
+          <target state="translated">サポートされないファンクション キー</target>         
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Action</source>
+          <target state="translated">操作</target>         
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Ctrl+C</source>
+          <target state="translated">Ctrl+C</target>         
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell Web Access, <ph id="ph1">&lt;strong&gt;</ph>Ctrl+C<ph id="ph2">&lt;/strong&gt;</ph> is used by the browser to copy content.</source>
+          <target state="translated">Windows PowerShell Web Access では、<ph id="ph1">&lt;strong&gt;</ph>Ctrl + C<ph id="ph2">&lt;/strong&gt;</ph> はブラウザーによるコンテンツのコピーに使われます。</target>         
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The console offers a <ph id="ph1">&lt;strong&gt;</ph>Cancel<ph id="ph2">&lt;/strong&gt;</ph> button, and users can also use <ph id="ph3">&lt;strong&gt;</ph>Ctrl+Q<ph id="ph4">&lt;/strong&gt;</ph> to cancel commands.</source>
+          <target state="translated">コンソールが提供する <ph id="ph1">&lt;strong&gt;</ph>[キャンセル]<ph id="ph2">&lt;/strong&gt;</ph> ボタンのほか、ユーザーは <ph id="ph3">&lt;strong&gt;</ph>Ctrl + Q<ph id="ph4">&lt;/strong&gt;</ph> を使ってコマンドをキャンセルできます。</target>         
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Alt-space, e, l</source>
+          <target state="translated">Alt + Space、e、l</target>         
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Scroll through the screen buffer</source>
+          <target state="translated">画面バッファーをスクロール</target>         
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Alt+Space, e, f</source>
+          <target state="translated">Alt + Space、e、f</target>         
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Search for text in the screen buffer</source>
+          <target state="translated">画面バッファー内のテキストを検索</target>         
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Alt+Space, e, k</source>
+          <target state="translated">Alt + Space、e、k</target>         
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Select text to be copied from the screen buffer</source>
+          <target state="translated">Select text to be copied from the screen bufferコピーするテキストを画面バッファーから選択</target>         
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Alt+Space, e, p</source>
+          <target state="translated">Alt + Space、e、p</target>         
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Paste clipboard contents into the Windows PowerShell console</source>
+          <target state="translated">クリップボードのコンテンツを Windows PowerShell コンソールに貼り付け</target>         
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Alt+Space, c</source>
+          <target state="translated">Alt + Space、c</target>         
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Close the Windows PowerShell console</source>
+          <target state="translated">Windows PowerShell コンソールを閉じる</target>         
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Ctrl+Break</source>
+          <target state="translated">Ctrl + Break</target>         
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Force the Windows PowerShell window to close</source>
+          <target state="translated">Windows PowerShell ウィンドウを強制的に閉じる</target>         
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Ctrl+Home</source>
+          <target state="translated">Ctrl + Home</target>         
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Deletes from the beginning of the current command line</source>
+          <target state="translated">現在のコマンド ラインの先頭から削除</target>         
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Ctrl+End</source>
+          <target state="translated">Ctrl + End</target>         
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Deletes to end of the command line</source>
+          <target state="translated">コマンドラインの末尾まで削除</target>         
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>F1</source>
+          <target state="translated">F1</target>         
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Move cursor one character to the right on your command line</source>
+          <target state="translated">コマンド ライン上でカーソルを 1 文字分移動</target>         
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>F2</source>
+          <target state="translated">F2</target>         
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Creates a new command by copying your last command up to the character that you type</source>
+          <target state="translated">最後のコマンドをコピーし、入力する文字に合わせて新しいコマンドを作成</target>         
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>F3</source>
+          <target state="translated">F3</target>         
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Complete the command line with content from your last command line</source>
+          <target state="translated">最後のコマンド ラインの内容を使ってコマンド ラインを完成させる</target>         
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>F4</source>
+          <target state="translated">F4</target>         
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Deletes characters from cursor position</source>
+          <target state="translated">カーソル位置から文字を削除</target>         
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>F5</source>
+          <target state="translated">F5</target>         
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Scan backward through your command history.</source>
+          <target state="translated">コマンド履歴をさかのぼってスキャン</target>         
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>To access commands in the command history in Windows PowerShell Web Access, click the <ph id="ph1">&lt;strong&gt;</ph>History<ph id="ph2">&lt;/strong&gt;</ph> scroll buttons in the web-based console.</source>
+          <target state="translated">Windows PowerShell Web Access のコマンド履歴にあるコマンドにアクセスするには、Web ベース コンソールで <ph id="ph1">&lt;strong&gt;</ph>[履歴]<ph id="ph2">&lt;/strong&gt;</ph> スクロール ボタンをクリックします。</target>         
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>F7</source>
+          <target state="translated">F7</target>         
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Interactively select a command from your command history</source>
+          <target state="translated">コマンド履歴のコマンドを対話的に選択</target>         
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>F8</source>
+          <target state="translated">F8</target>         
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Scan history displaying commands that match current text</source>
+          <target state="translated">現在のテキストに一致するコマンドが表示された履歴をスキャン</target>         
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>F9</source>
+          <target state="translated">F9</target>         
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Run a specific numbered command from history</source>
+          <target state="translated">履歴から特定の番号の付いたコマンドを実行</target>         
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Page Up</source>
+          <target state="translated">PageUp</target>         
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Run the first command in the history</source>
+          <target state="translated">履歴内の最初のコマンドを実行</target>         
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Page Down</source>
+          <target state="translated">PageDown</target>         
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Run the last command in the history</source>
+          <target state="translated">履歴内の最後のコマンドを実行</target>         
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Alt+F7</source>
+          <target state="translated">Alt + F7</target>         
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Clear the command history list</source>
+          <target state="translated">コマンド履歴の一覧を消去</target>         
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Limitations of the web-based console</source>
+          <target state="translated">Web ベース コンソールの制限事項</target>         
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Double-hop.</source>
+          <target state="translated">ダブルホップ。</target>         
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>You can encounter the double-hop (or connecting to a second computer from the first connection) limitation if you try to create or work on a new session by using Windows PowerShell Web Access.</source>
+          <target state="translated">Windows PowerShell Web Access を使って新しいセッションを作成または操作しようとすると、ダブルホップ (最初の接続から 2 つ目のコンピューターに接続すること) の制限が発生します。</target>         
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Web Access uses a remote runspace, and currently, <bpt id="p1">**</bpt>PowerShell.exe<ept id="p1">**</ept> does not support establishing a remote connection to a second computer from a remote runspace.</source>
+          <target state="translated">Windows PowerShell Web Access はリモートの実行空間を使いますが、現時点では、リモートの実行空間から 2 つ目のコンピューターへのリモート接続の確立を <bpt id="p1">**</bpt>PowerShell.exe<ept id="p1">**</ept> がサポートしていません。</target>         
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>If you attempt to connect to a second remote computer from an existing connection by using the <bpt id="p1">**</bpt>Enter-PSSession<ept id="p1">**</ept> cmdlet, for example, you can get various errors, such as “Cannot get network resources.”</source>
+          <target state="translated">たとえば、<bpt id="p1">**</bpt>Enter-PSSession<ept id="p1">**</ept> コマンドレットを使って既存の接続から 2 つ目のリモート コンピューターに接続しようとすると、"ネットワーク リソースを取得できません" など、さまざまなエラーが発生します。</target>         
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>To avoid double-hop errors, your administrator should configure CredSSP authentication in your organization’s network environment.</source>
+          <target state="translated">ダブルホップのエラーを避けるには、管理者が組織のネットワーク環境に CredSSP 認証を構成する必要があります。</target>         
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>For more information about configuring CredSSP authentication, see <bpt id="p1">[</bpt>CredSSP for second-hop remoting<ept id="p1">](http://blogs.msdn.com/b/powershell/archive/2008/06/05/credssp-for-second-hop-remoting-part-i-domain-account.aspx)</ept> on the Microsoft website.</source>
+          <target state="translated">CredSSP 認証の構成方法の詳細については、Microsoft Web サイトの <bpt id="p1">[</bpt>CredSSP による次ホップのリモート処理<ept id="p1">](http://blogs.msdn.com/b/powershell/archive/2008/06/05/credssp-for-second-hop-remoting-part-i-domain-account.aspx)</ept>に関するページを参照してください。</target>         
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>You can also provide explicit credentials when you want to manage a second remote computer; implicit credentials are unlikely to allow the second hop.</source>
+          <target state="translated">2 つ目のリモート コンピューターを管理する場合、明示的な資格情報を提供することも可能です。暗黙的な資格情報の場合、次ホップが許可される可能性が低くなります。</target>         
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Web Access uses and has the same limitations as a remote Windows PowerShell session.</source>
+          <target state="translated">Windows PowerShell Web Access に使用され適用される制限事項は、リモートの Windows PowerShell セッションと同じです。</target>         
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Commands that directly call Windows console APIs, such as those for console-based editors or text-based menu programs, do not work because the commands do not read or write to standard input, output, and error pipes.</source>
+          <target state="translated">コンソールベースのエディターやテキストベースのメニュー プログラムなど、Windows コンソール API を直接呼び出すコマンドは動作しません。これは、これらのコマンドが、標準入力、出力、エラーの各パイプの読み取りと書き込みを実行しないためです。</target>         
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Therefore, commands that launch an executable file, such as <bpt id="p1">**</bpt>notepad.exe<ept id="p1">**</ept>, or display a GUI, such as <ph id="ph1">&lt;span class="code"&gt;</ph>OpenGridView<ph id="ph2">&lt;/span&gt;</ph> or <ph id="ph3">&lt;span class="code"&gt;</ph>ogv<ph id="ph4">&lt;/span&gt;</ph>, do not work.</source>
+          <target state="translated">このため、実行可能ファイルを起動するコマンド (<bpt id="p1">**</bpt>notepad.exe<ept id="p1">**</ept> など) や GUI を表示するコマンド (<ph id="ph1">&lt;span class="code"&gt;</ph>OpenGridView<ph id="ph2">&lt;/span&gt;</ph> や <ph id="ph3">&lt;span class="code"&gt;</ph>ogv<ph id="ph4">&lt;/span&gt;</ph> など) は動作しません。</target>         
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Your experience is affected by this behavior; to you, it appears that Windows PowerShell Web Access is not responding to your command.</source>
+          <target state="translated">この動作は担当者のエクスペリエンスに影響を与えます。つまり、担当者には Windows PowerShell Web Access がコマンドに応答していないように見えます。</target>         
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Tab completion does not work in a session configuration with a restricted runspace or one that is in <bpt id="p1">**</bpt>NoLanguage<ept id="p1">**</ept> mode.</source>
+          <target state="translated">タブ補完は、制限付き実行空間が指定されたセッション構成、または <bpt id="p1">**</bpt>NoLanguage<ept id="p1">**</ept> モードのセッション構成では動作しません。</target>         
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Although administrators can configure a session to support tab completion, it is discouraged for security reasons, because it can expose the following information to unauthorized users.</source>
+          <target state="translated">管理者がタブ補完をサポートするようセッションを構成できますが、承認されていないユーザーに次の情報が公開される可能性があるというセキュリティ上の理由から推奨されません。</target>         
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Internal file system paths</source>
+          <target state="translated">内部ファイル システムのパス</target>         
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Shared folders on internal computers</source>
+          <target state="translated">内部コンピューターの共有フォルダー</target>         
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Variables in the runspace</source>
+          <target state="translated">実行空間の変数</target>         
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Loaded types or.NET Framework namespaces</source>
+          <target state="translated">読み込まれる型または .NET Framework の名前空間</target>         
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Environment variables</source>
+          <target state="translated">環境変数</target>         
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Users who are signed in to a <bpt id="p1">**</bpt>NoLanguage<ept id="p1">**</ept> session configuration or a restricted runspace in Windows PowerShell Web Access cannot run the <bpt id="p2">**</bpt>Exit<ept id="p2">**</ept> command to end the session.</source>
+          <target state="translated"><bpt id="p1">**</bpt>NoLanguage<ept id="p1">**</ept> の Windows PowerShell Web Access セッション構成または制限付き実行空間にサインインしているユーザーは <bpt id="p2">**</bpt>[終了]<ept id="p2">**</ept> コマンドを実行してセッションを終了できません。</target>         
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>To sign out, users should click <bpt id="p1">**</bpt>Sign Out<ept id="p1">**</ept> on the console page.</source>
+          <target state="translated">サインアウトするには、コンソール ページの <bpt id="p1">**</bpt>[サインアウト]<ept id="p1">**</ept> をクリックする必要があります。</target>         
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Connecting to multiple target computers simultaneously.</source>
+          <target state="translated">複数の対象コンピューターへの同時接続。</target>         
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>If the gateway server is running Windows Server 2012, Windows PowerShell Web Access allows only one remote computer connection per browser session; it does not allow users to sign in once, and connect to multiple remote computers by using separate browser tabs.</source>
+          <target state="translated">ゲートウェイ サーバーが Windows Server 2012 を実行している場合、Windows PowerShell Web Access では、ブラウザー セッションごとに接続できるリモート コンピューターは 1 つだけです。一度サインインした後に別のブラウザー タブを使って複数のリモート コンピューターに接続することはできません。</target>         
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>When you open a new tab or new browser window, Windows PowerShell Web Access prompts you to disconnect your current session and start a new session, so that you can connect to the new (or the same) remote computer.</source>
+          <target state="translated">新しいタブまたはブラウザー ウィンドウを開くと、現在のセッションの切断と新しいセッションの開始を確認するメッセージが Windows PowerShell Web Access により表示されます。このメッセージから新しい (または同じ) リモート コンピューターに接続できます。</target>         
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>If two or more separate sessions to different remote computers are desired, however, a feature in Internet Explorer lets you create a new session.</source>
+          <target state="translated">ただし、異なるリモート コンピューターに対して個別のセッションを 2 つ以上実行する必要がある場合、Internet Explorer の機能を使って新しいセッションを作成できます。</target>         
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>To start a new browser session in Internet Explorer, press <bpt id="p1">**</bpt>ALT<ept id="p1">**</ept>, open the <bpt id="p2">**</bpt>File<ept id="p2">**</ept> menu, and then select <bpt id="p3">**</bpt>New Session<ept id="p3">**</ept>.</source>
+          <target state="translated">Internet Explorer で新しいブラウザー セッションを開始するには、<bpt id="p1">**</bpt>Alt<ept id="p1">**</ept> キーを押して <bpt id="p2">**</bpt>[ファイル]<ept id="p2">**</ept> メニューを開き、<bpt id="p3">**</bpt>[新しいセッション]<ept id="p3">**</ept> をクリックします。</target>         
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Then, open the Windows PowerShell Web Access website in the new session, and sign in to access another remote computer.</source>
+          <target state="translated">次に新しいセッションで Windows PowerShell Web Access の Web サイトを開き、サインインして別のリモート コンピューターにアクセスします。</target>         
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>When the Windows PowerShell Web Access gateway is running on Windows Server 2012 R2, users can open multiple connections to remote computers in different browser tabs.</source>
+          <target state="translated">Windows PowerShell Web Access ゲートウェイが Windows Server 2012 R2 で実行されている場合、ユーザーは異なるブラウザー タブでリモート コンピューターへの複数の接続を開くことができます。</target>         
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>If you want to open more than one connection to a remote computer by using the web-based Windows PowerShell console, check with your Windows PowerShell Web Access gateway administrator to see if this feature is supported by the gateway server.</source>
+          <target state="translated">Web ベースの Windows PowerShell コンソールを使用してリモート コンピューターへの複数の接続を開く必要がある場合は、ゲートウェイ サーバーがこの機能をサポートしているかどうかを Windows PowerShell Web Access ゲートウェイ管理者に確認してください。</target>         
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Persistent Windows PowerShell sessions (Reconnection).</source>
+          <target state="translated">永続的な Windows PowerShell セッション (再接続)。</target>         
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>After you time out of the Windows PowerShell Web Access gateway, the remote connection between the gateway and the target computer is closed.</source>
+          <target state="translated">Windows PowerShell Web Access ゲートウェイがタイムアウトすると、ゲートウェイと対象コンピューターとのリモート接続は閉じられます。</target>         
+        </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>This stops any cmdlets or scripts that are currently in process.</source>
+          <target state="translated">これによって、現在処理中のすべてのコマンドレットとスクリプトが停止されます。</target>         
+        </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>You are encouraged to use the Windows PowerShell <bpt id="p1">**</bpt>-Job<ept id="p1">**</ept> infrastructure when you are performing long-running tasks, so that you can start jobs, disconnect from the computer, reconnect later, and have jobs persist.</source>
+          <target state="translated">実行時間の長いタスクを実行している場合は、Windows PowerShell の <bpt id="p1">**</bpt>-Job<ept id="p1">**</ept> インフラストラクチャを使うことが推奨されます。これにより、ジョブを開始し、コンピューターから切断した後に再接続して、ジョブを永続的なものにすることができます。</target>         
+        </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Another benefit of using <bpt id="p1">**</bpt>-Job<ept id="p1">**</ept> cmdlets is that you can start them by using Windows PowerShell Web Access, sign out, and then reconnect later, either by running Windows PowerShell Web Access or another host (such as Windows PowerShell® Integrated Scripting Environment (ISE)).</source>
+          <target state="translated"><bpt id="p1">**</bpt>-Job<ept id="p1">**</ept> コマンドレットを使うもう 1 つのメリットは、Windows PowerShell Web Access を使ってジョブを開始し、サインアウトした後に、Windows PowerShell Web Access またはその他のホスト (Windows PowerShell® 統合スクリプティング環境 (ISE) など) を使って再接続できる点です。</target>         
+        </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Console resizing.</source>
+          <target state="translated">コンソールのサイズ変更。</target>         
+        </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>PowerShell.exe<ept id="p1">**</ept> console window can be resized in the following three ways.</source>
+          <target state="translated"><bpt id="p1">**</bpt>PowerShell.exe<ept id="p1">**</ept> コンソール ウィンドウのサイズは次の 3 つの方法で変更できます。</target>         
+        </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Drag and adjust the console window size with a mouse</source>
+          <target state="translated">マウスを使ってコンソール ウィンドウをドラッグして調整する</target>         
+        </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Change the height and width properties by using a GUI for console properties</source>
+          <target state="translated">コンソール プロパティの GUI を使って高さと幅のプロパティを変更する</target>         
+        </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Changing the height and width of console windows with a cmdlet</source>
+          <target state="translated">コマンドレットを使ってコンソール ウィンドウの高さと幅を変更する</target>         
+        </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>The console window for Windows PowerShell Web Access can be configured by using the cmdlets as follows.</source>
+          <target state="translated">Windows PowerShell Web Access のコンソール ウィンドウは、次のコマンドレットを使って構成できます。</target>         
+        </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>In the following example, a user changes the width of Windows PowerShell Web Access console to <bpt id="p1">**</bpt>20<ept id="p1">**</ept></source>
+          <target state="translated">次の例では、ユーザーが Windows PowerShell Web Access コンソールの幅を <bpt id="p1">**</bpt>20<ept id="p1">**</ept> に変更しています。</target>         
+        </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_778d5e55-9195-4bd7-b313-d1fbca7876e4'); "Copy to clipboard.")</source>
+          <target state="translated">[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_778d5e55-9195-4bd7-b313-d1fbca7876e4'); "Copy to clipboard.")</target>         
+        </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>You can change the height of the console in a similar manner.</source>
+          <target state="translated">同じ方法でコンソールの高さを変更できます。</target>         
+        </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Additional examples for customizing the console view are available in the <bpt id="p1">[</bpt>Windows PowerShell Team Blog<ept id="p1">](http://blogs.msdn.com/b/powershell/)</ept></source>
+          <target state="translated">コンソール ビューをカスタマイズするその他の例については、<bpt id="p1">[</bpt>Windows PowerShell チームのブログ<ept id="p1">](http://blogs.msdn.com/b/powershell/)</ept>を参照してください。</target>         
+        </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">参照</target>         
+        </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Cmdlet Reference</source>
+          <target state="translated">Windows PowerShell コマンドレット リファレンスのページ</target>         
+        </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell on Microsoft TechNet</source>
+          <target state="translated">Microsoft TechNet の「Windows PowerShell (Windows PowerShell)」</target>         
+        </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>TechNet Script Center Repository</source>
+          <target state="translated">TechNet スクリプト センター リポジトリのページ</target>         
+        </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Script Center - Hey, Scripting Guy!</source>
+          <target state="translated">スクリプト センター - Hey, Scripting Guy! のページ</target>         
+        </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Team Blog</source>
+          <target state="translated">Windows PowerShell チーム ブログのページ</target>         
+        </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Show:<ph id="ph1">&lt;/span&gt;</ph> Inherited Protected</source>
+          <target state="translated">表示:<ph id="ph1">&lt;/span&gt;</ph> 保護されている継承</target>         
+        </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Was this page helpful?</source>
+          <target state="translated">このページは役に立ちましたか。</target>         
+        </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">はい</target>         
+        </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="translated">いいえ</target>         
+        </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Additional feedback?</source>
+          <target state="translated">その他にご意見はありますか。</target>         
+        </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>1500<ph id="ph1">&lt;/span&gt;</ph> characters remaining</source>
+          <target state="translated">残り 1500<ph id="ph1">&lt;/span&gt;</ph> 文字</target>         
+        </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Submit</source>
+          <target state="translated">送信</target>         
+        </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Skip this</source>
+          <target state="translated">スキップする</target>         
+        </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Thank you!<ph id="ph1">&lt;/span&gt; &lt;span class="stdr-appreciate"&gt;</ph>We appreciate your feedback.</source>
+          <target state="translated">ありがとうございました。<ph id="ph1">&lt;/span&gt; &lt;span class="stdr-appreciate"&gt;</ph>貴重なご意見をお寄せいただき心より感謝いたします。</target>         
+        </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Manage Your Profile</source>
+          <target state="translated">プロファイル (個人情報) の管理</target>         
+        </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Site Feedback</source>
+          <target state="translated">サイトのフィードバック</target>         
+        </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>Site Feedback</source>
+          <target state="translated">サイトのフィードバック</target>         
+        </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>x</source>
+          <target state="translated">x</target>         
+        </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Tell us about your experience...</source>
+          <target state="translated">お客様のご体験をお聞かせください。</target>         
+        </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>Did the page load quickly?</source>
+          <target state="translated">ページはすばやく表示されましたか?</target>         
+        </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>Yes<ph id="ph1">&lt;span&gt; &lt;/span&gt;&lt;/span&gt; &lt;span&gt;</ph> No</source>
+          <target state="translated">はい<ph id="ph1">&lt;span&gt; &lt;/span&gt;&lt;/span&gt; &lt;span&gt;</ph> いいえ</target>         
+        </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>Do you like the page design?</source>
+          <target state="translated">ページのデザインは気に入りましたか?</target>         
+        </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>Yes<ph id="ph1">&lt;span&gt; &lt;/span&gt;&lt;/span&gt; &lt;span&gt;</ph> No</source>
+          <target state="translated">はい<ph id="ph1">&lt;span&gt; &lt;/span&gt;&lt;/span&gt; &lt;span&gt;</ph> いいえ</target>         
+        </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>Tell us more</source>
+          <target state="translated">詳しくお聞かせください。</target>         
+        </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Flash Newsletter</source>
+          <target state="translated">Flash ニュースレター</target>         
+        </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Contact Us</source>
+          <target state="translated">お問い合わせ先</target>         
+        </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Privacy Statement</source>
+          <target state="translated">プライバシーに関する声明</target>         
+        </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Terms of Use</source>
+          <target state="translated">使用条件</target>         
+        </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>Trademarks</source>
+          <target state="translated">商標</target>         
+        </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>© 2016 Microsoft</source>
+          <target state="translated">© 2016 Microsoft</target>         
+        </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>© 2016 Microsoft</source>
+          <target state="translated">© 2016 Microsoft</target>         
+        </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>Third party scripts and code linked to or referenced from this website are licensed to you by the parties that own such code, not by Microsoft.</source>
+          <target state="translated">サードパーティのスクリプトやコード、サードパーティから本 Web サイトへのリンク、あるいは本サイトからサードパーティへのリンクは、マイクロソフトではなく、そのようなコードの所有者によってお客様にライセンス供与されています。</target>         
+        </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>See ASP.NET Ajax CDN Terms of Use – http://www.asp.net/ajaxlibrary/CDN.ashx.</source>
+          <target state="translated">ASP.NET Ajax CDN の使用条件 - http://www.asp.net/ajaxlibrary/CDN.ashx</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
