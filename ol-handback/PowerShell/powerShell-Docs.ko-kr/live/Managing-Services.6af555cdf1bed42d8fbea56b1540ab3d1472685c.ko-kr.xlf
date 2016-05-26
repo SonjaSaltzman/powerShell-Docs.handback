@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Managing-Services.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a9d6ece1df3b66090b2abf9d85019fee4db946b5</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-39517ae" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Managing Services</source>
+          <target state="translated">서비스 관리</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Managing Services</source>
+          <target state="translated">서비스 관리</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>There are eight core Service cmdlets, designed for a wide range of service tasks .</source>
+          <target state="translated">다양한 서비스 작업을 위해 설계된 8개의 핵심 Service cmdlet이 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>We will look only at listing and changing running state for services, but you can get a list Service cmdlets by using <bpt id="p1">**</bpt>Get\-Help \&amp;#42;\-Service<ept id="p1">**</ept>, and you can find information about each Service cmdlet by using <bpt id="p2">**</bpt>Get\-Help&lt;Cmdlet\-Name&gt;<ept id="p2">**</ept>, such as <bpt id="p3">**</bpt>Get\-Help New\-Service<ept id="p3">**</ept>.</source>
+          <target state="translated">이 설명서에서는 실행 중인 서비스의 상태를 표시하고 변경하는 방법에 대해서만 설명하지만 <bpt id="p1">**</bpt>Get\-Help \&amp;#42;\-Service<ept id="p1">**</ept>를 사용하여 Service cmdlet의 목록을 보거나 <bpt id="p3">**</bpt>Get\-Help New\-Service<ept id="p3">**</ept>와 같은 <bpt id="p2">**</bpt>Get\-Help&lt;Cmdlet\-Name&gt;<ept id="p2">**</ept>을 사용하여 각 Service cmdlet에 대한 정보를 찾을 수도 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Getting Services</source>
+          <target state="translated">서비스 가져오기</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You can get the services on a local or remote computer by using the <bpt id="p1">**</bpt>Get\-Service<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get\-Service<ept id="p1">**</ept> cmdlet을 사용하여 로컬 또는 원격 컴퓨터에 있는 서비스를 가져올 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>As with <bpt id="p1">**</bpt>Get\-Process<ept id="p1">**</ept>, using the <bpt id="p2">**</bpt>Get\-Service<ept id="p2">**</ept> command without parameters returns all services.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get\-Process<ept id="p1">**</ept>와 마찬가지로 <bpt id="p2">**</bpt>Get\-Service<ept id="p2">**</ept> 명령을 매개 변수 없이 사용하면 모든 서비스가 반환됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can filter by name, even using an asterisk as a wildcard:</source>
+          <target state="translated">이때 다음과 같이 별표를 와일드카드로 사용하여 이름을 기준으로 필터링할 수도 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Because it is not always obvious what the real name for the service is, you may find you need to find services by display name.</source>
+          <target state="translated">서비스의 실제 이름이 항상 분명한 것은 아니기 때문에 서비스를 표시 이름으로 찾아야 할 수도 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can do this by specific name, using wildcards, or using a list of display names:</source>
+          <target state="translated">이렇게 하려면 다음과 같이 와일드카드를 사용하거나 표시 이름 목록을 사용하여 특정 이름으로 찾으면 됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can use the ComputerName parameter of the Get\-Service cmdlet to get the services on remote computers.</source>
+          <target state="translated">Get\-Service cmdlet의 ComputerName 매개 변수를 사용하여 원격 컴퓨터의 서비스를 가져올 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The ComputerName parameter accepts multiple values and wildcard characters, so you can get the services on multiple computers with a single command.</source>
+          <target state="translated">ComputerName 매개 변수는 여러 개의 값과 와일드카드 문자를 받아들이기 때문에 하나의 명령으로 여러 컴퓨터의 서비스를 가져올 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For example, the following command gets the services on the Server01 remote computer.</source>
+          <target state="translated">예를 들어 다음 명령은 Server01 원격 컴퓨터의 서비스를 가져옵니다.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Getting Required and Dependent Services</source>
+          <target state="translated">필수 및 종속 서비스 가져오기</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The Get\-Service cmdlet has two parameters that are very useful in service administration.</source>
+          <target state="translated">Get\-Service cmdlet에는 서비스 관리에 매우 유용한 두 개의 매개 변수가 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The DependentServices parameter gets services that depend on the service.</source>
+          <target state="translated">DependentServices 매개 변수는 이 서비스에 종속된 서비스를 가져옵니다.</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The RequiredServices parameter gets services upon which this service depends.</source>
+          <target state="translated">RequiredServices 매개 변수는 이 서비스가 종속된 서비스를 가져옵니다.</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>These parameters just display the values of the DependentServices and ServicesDependedOn (alias\=RequiredServices) properties of the System.ServiceProcess.ServiceController object that Get\-Service returns, but they simplify commands and make getting this information much simpler.</source>
+          <target state="translated">이러한 매개 변수는 Get\-Service가 반환하는 System.ServiceProcess.ServiceController 개체의 DependentServices 및 ServicesDependedOn(별칭=RequiredServices) 속성 값을 표시할 뿐만 아니라 명령을 단순화하고 이 정보를 보다 간단하게 가져올 수 있도록 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The following command gets the services that the LanmanWorkstation service requires.</source>
+          <target state="translated">다음 명령은 LanmanWorkstation 서비스에 필요한 서비스를 가져옵니다.</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The following command gets the services that require the LanmanWorkstation service.</source>
+          <target state="translated">다음 명령은 LanmanWorkstation 서비스를 필요로 하는 서비스를 가져옵니다.</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You can even get all services that have dependencies.</source>
+          <target state="translated">종속성을 가진 모든 서비스를 가져올 수도 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The following command does just that, and then it uses the Format\-Table cmdlet to display the Status, Name, RequiredServices and DependentServices properties of the services on the computer.</source>
+          <target state="translated">다음 명령은 종속성을 가진 모든 서비스를 가져온 다음 cmdlet을 사용하여 컴퓨터에 있는 서비스의 Status, Name, RequiredServices 및 DependentServices 속성을 표시합니다.</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Stopping, Starting, Suspending, and Restarting Services</source>
+          <target state="translated">서비스 중지, 시작, 일시 중단 및 다시 시작</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The Service cmdlets all have the same general form.</source>
+          <target state="translated">Service cmdlet은 모두 동일한 일반 형식으로 되어 있기 때문에</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Services can be specified by common name or display name, and take lists and wildcards as values.</source>
+          <target state="translated">서비스를 일반 이름이나 표시 이름으로 지정할 수 있으며 목록과 와일드카드를 값으로 사용할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To stop the print spooler, use:</source>
+          <target state="translated">인쇄 스풀러를 중지하려면 다음 명령을 사용합니다.</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To start the print spooler after it is stopped, use:</source>
+          <target state="translated">인쇄 스풀러를 중지한 후 다시 시작하려면 다음 명령을 사용합니다.</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To suspend the print spooler, use:</source>
+          <target state="translated">인쇄 스풀러를 일시 중단하려면 다음 명령을 사용합니다.</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Restart\-Service<ept id="p1">**</ept> cmdlet works in the same manner as the other Service cmdlets, but we will show some more complex examples for it.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Restart\-Service<ept id="p1">**</ept> cmdlet은 다른 Service cmdlet과 동일한 방식으로 작동하지만 이 설명서에서는 이 cmdlet에 대해 약간 더 복잡한 예제를 보여 줍니다.</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In the simplest use, you specify the name of the service:</source>
+          <target state="translated">가장 간단한 사용 시나리오에서는 다음과 같이 서비스 이름을 지정합니다.</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>You will notice that you get a repeated warning message about the Print Spooler starting up.</source>
+          <target state="translated">그러면 인쇄 스풀러 시작에 대한 경고 메시지가 반복해서 나타나는데,</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>When you perform a service operation that takes some time, Windows PowerShell will notify you that it is still attempting to perform the task.</source>
+          <target state="translated">다소 시간이 걸리는 서비스 작업을 수행하면 Windows PowerShell이 계속 작업을 시도하고 있다는 내용의 메시지를 표시하기 때문입니다.</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If you want to restart multiple services, you can get a list of services, filter them, and then perform the restart:</source>
+          <target state="translated">여러 서비스를 다시 시작하려면 다음과 같이 서비스 목록을 보고, 필터링한 다음 원하는 서비스를 다시 시작하면 됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>These Service cmdlets do not have a ComputerName parameter, but you can run them on a remote computer by using the Invoke\-Command cmdlet.</source>
+          <target state="translated">이러한 Service cmdlet에는 ComputerName 매개 변수가 없지만 Invoke\-Command cmdlet을 사용하여 원격 컴퓨터에서 실행할 수는 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For example, the following command restarts the Spooler service on the Server01 remote computer.</source>
+          <target state="translated">예를 들어 다음 명령은 Server01 원격 컴퓨터에서 스풀러 서비스를 다시 시작합니다.</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Setting Service Properties</source>
+          <target state="translated">서비스 속성 설정</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The Set\-Service cmdlet changes the properties of a service on a local or remote computer.</source>
+          <target state="translated">Set\-Service cmdlet은 로컬 또는 원격 컴퓨터에서 서비스의 속성을 변경합니다.</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Because the service status is a property, you can use this cmdlet to start, stop, and suspend a service.</source>
+          <target state="translated">서비스 상태는 속성이기 때문에 이 cmdlet을 사용하여 서비스를 시작, 중지 및 일시 중단할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The Set\-Service cmdlet also has a StartupType parameter that lets you change the service startup type.</source>
+          <target state="translated">Set\-Service cmdlet에는 서비스 시작 유형을 변경할 수 있도록 해주는 StartupType 매개 변수도 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To use Set\-Service on Windows Vista and later versions of Windows, open Windows PowerShell with the "Run as administrator" option.</source>
+          <target state="translated">Windows Vista 이상에서 Set\-Service를 사용하려면 "관리자 권한으로 실행" 옵션을 사용하여 Windows PowerShell을 엽니다.</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set-Service [m2]<ept id="p1">](https://technet.microsoft.com/en-us/library/b71e29ed-372b-4e32-a4b7-5eb6216e56c3)</ept></source>
+          <target state="translated">자세한 내용은 <bpt id="p1">[</bpt>Set-Service [m2]<ept id="p1">](https://technet.microsoft.com/en-us/library/b71e29ed-372b-4e32-a4b7-5eb6216e56c3)</ept>를 참조하세요.</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">참고 항목</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Get-Service [m2]<ept id="p1">](https://technet.microsoft.com/en-us/library/0a09cb22-0a1c-4a79-9851-4e53075f9cf6)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Set-Service [m2]<ept id="p2">](https://technet.microsoft.com/en-us/library/b71e29ed-372b-4e32-a4b7-5eb6216e56c3)</ept><ph id="ph2">
+</ph><bpt id="p3">[</bpt>Restart-Service [m2]<ept id="p3">](https://technet.microsoft.com/en-us/library/45acf50d-2277-4523-baf7-ce7ced977d0f)</ept><ph id="ph3">
+</ph><bpt id="p4">[</bpt>Suspend-Service [m2]<ept id="p4">](https://technet.microsoft.com/en-us/library/c8492b87-0e21-4faf-8054-3c83c2ec2826)</ept></source>
+          <target state="translated"><bpt id="p1">[</bpt>Get-Service [m2]<ept id="p1">](https://technet.microsoft.com/en-us/library/0a09cb22-0a1c-4a79-9851-4e53075f9cf6)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Set-Service [m2]<ept id="p2">](https://technet.microsoft.com/en-us/library/b71e29ed-372b-4e32-a4b7-5eb6216e56c3)</ept><ph id="ph2">
+</ph><bpt id="p3">[</bpt>Restart-Service [m2]<ept id="p3">](https://technet.microsoft.com/en-us/library/45acf50d-2277-4523-baf7-ce7ced977d0f)</ept><ph id="ph3">
+</ph><bpt id="p4">[</bpt>Suspend-Service [m2]<ept id="p4">](https://technet.microsoft.com/en-us/library/c8492b87-0e21-4faf-8054-3c83c2ec2826)</ept></target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
