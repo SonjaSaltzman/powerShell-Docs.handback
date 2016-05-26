@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Using-Static-Classes-and-Methods.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">50ebc8a737b50aba5a5af49716b59905da74669a</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-39517ae" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Using Static Classes and Methods</source>
+          <target state="translated">Usando classes e métodos estáticos</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Using Static Classes and Methods</source>
+          <target state="translated">Usando classes e métodos estáticos</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Not all .NET Framework classes can be created by using <bpt id="p1">**</bpt>New\-Object<ept id="p1">**</ept>.</source>
+          <target state="translated">Nem todas as classes do .NET Framework podem ser criadas usando <bpt id="p1">**</bpt>New-Object<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>For example, if you try to create a <bpt id="p1">**</bpt>System.Environment<ept id="p1">**</ept> or a <bpt id="p2">**</bpt>System.Math<ept id="p2">**</ept> object with <bpt id="p3">**</bpt>New\-Object<ept id="p3">**</ept>, you will get the following error messages:</source>
+          <target state="translated">Por exemplo, se você tentar criar um objeto <bpt id="p1">**</bpt>System.Environment<ept id="p1">**</ept> ou um <bpt id="p2">**</bpt>System.Math<ept id="p2">**</ept> com <bpt id="p3">**</bpt>New-Object<ept id="p3">**</ept>, você receberá as mensagens de erro a seguir:</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>These errors occur because there is no way to create a new object from these classes.</source>
+          <target state="translated">Esses erros ocorrem porque não há nenhuma maneira de criar um novo objeto dessas classes.</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>These classes are reference libraries of methods and properties that do not change state.</source>
+          <target state="translated">Essas classes são bibliotecas de referência de métodos e propriedades que não mudam de estado.</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You don't need to create them, you simply use them.</source>
+          <target state="translated">Não é necessário criá-las, você simplesmente as usa.</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Classes and methods such as these are called <bpt id="p1">*</bpt>static classes<ept id="p1">*</ept> because they are not created, destroyed, or changed.</source>
+          <target state="translated">Classes e métodos como esses são chamados de <bpt id="p1">*</bpt>classes estáticas<ept id="p1">*</ept> porque não são criados, destruídos ou alterados.</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To make this clear we will provide examples that use static classes.</source>
+          <target state="translated">Para esclarecer esse ponto, forneceremos exemplos que usam classes estáticas.</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Getting Environment Data with System.Environment</source>
+          <target state="translated">Obtendo dados de ambiente com o System.Environment</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Usually, the first step in working with an object in Windows PowerShell is to use Get\-Member to find out what members it contains.</source>
+          <target state="translated">Normalmente, a primeira etapa ao trabalhar com um objeto no Windows PowerShell é usar Get-Member para descobrir quais membros ele contém.</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>With static classes, the process is a little different because the actual class is not an object.</source>
+          <target state="translated">Com classes estáticas, o processo é um pouco diferente porque a classe real não é um objeto.</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Referring to the Static System.Environment Class</source>
+          <target state="translated">Fazendo referência à classe estática System.Environment</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can refer to a static class by surrounding the class name with square brackets.</source>
+          <target state="translated">Você pode fazer referência a uma classe estática envolvendo o nome de classe entre colchetes.</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For example, you can refer to <bpt id="p1">**</bpt>System.Environment<ept id="p1">**</ept> by typing the name within brackets.</source>
+          <target state="translated">Por exemplo, você pode fazer referência a <bpt id="p1">**</bpt>System.Environment<ept id="p1">**</ept> digitando o nome entre colchetes.</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Doing so displays some generic type information:</source>
+          <target state="translated">Isso exibe algumas informações de tipo genérico:</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>As we mentioned previously, Windows PowerShell automatically prepends '<bpt id="p1">**</bpt>System.<ept id="p1">**</ept>'</source>
+          <target state="translated">Conforme mencionado anteriormente, o Windows PowerShell adiciona “<bpt id="p1">**</bpt>System.<ept id="p1">**</ept>” automaticamente no início</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>to type names when you use <bpt id="p1">**</bpt>New\-Object<ept id="p1">**</ept>.</source>
+          <target state="translated">de nomes de tipo quando você usa <bpt id="p1">**</bpt>New-Object<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The same thing happens when using a bracketed type name, so you can specify <bpt id="p1">**</bpt>\[System.Environment]<ept id="p1">**</ept> as <bpt id="p2">**</bpt>\[Environment]<ept id="p2">**</ept>.</source>
+          <target state="translated">A mesma coisa acontece ao usar um nome de tipo entre colchetes, por isso você pode especificar <bpt id="p1">**</bpt>[System.Environment]<ept id="p1">**</ept> como <bpt id="p2">**</bpt>[Environment]<ept id="p2">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>System.Environment<ept id="p1">**</ept> class contains general information about the working environment for the current process, which is powershell.exe when working within Windows PowerShell.</source>
+          <target state="translated">A classe <bpt id="p1">**</bpt>System. Environment<ept id="p1">**</ept> classe contém informações gerais sobre o ambiente de trabalho para o processo atual, que é powershell.exe ao trabalhar no Windows PowerShell.</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If you try to view details of this class by typing <bpt id="p1">**</bpt>\[System.Environment] | Get\-Member<ept id="p1">**</ept>, the object type is reported as being <bpt id="p2">**</bpt>System.RuntimeType<ept id="p2">**</ept> , not <bpt id="p3">**</bpt>System.Environment<ept id="p3">**</ept>:</source>
+          <target state="translated">Se você tentar exibir detalhes dessa classe digitando <bpt id="p1">**</bpt>[System.Environment] | Get-Member<ept id="p1">**</ept>, o tipo de objeto será relatado como <bpt id="p2">**</bpt>System.RuntimeType<ept id="p2">**</ept>, não <bpt id="p3">**</bpt>System.Environment<ept id="p3">**</ept>:</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To view static members with Get\-Member, specify the <bpt id="p1">**</bpt>Static<ept id="p1">**</ept> parameter:</source>
+          <target state="translated">Para exibir membros estáticos com Get-Member, especifique o parâmetro <bpt id="p1">**</bpt>Static<ept id="p1">**</ept>:</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>We can now select properties to view from System.Environment.</source>
+          <target state="translated">Agora podemos selecionar propriedades a serem exibidas de System.Environment.</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Displaying Static Properties of System.Environment</source>
+          <target state="translated">Exibindo propriedades estáticas do System.Environment</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The properties of System.Environment are also static, and must be specified in a different way than normal properties.</source>
+          <target state="translated">As propriedades do System.Environment também são estáticas e devem ser especificadas de forma diferente que as propriedades normais.</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>We use <bpt id="p1">**</bpt>::<ept id="p1">**</ept> to indicate to Windows PowerShell that we want to work with a static method or property.</source>
+          <target state="translated">Usamos <bpt id="p1">**</bpt>::<ept id="p1">**</ept> para indicar ao Windows PowerShell que queremos trabalhar com uma propriedade ou método estático.</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To see the command that was used to launch Windows PowerShell, we check the <bpt id="p1">**</bpt>CommandLine<ept id="p1">**</ept> property by typing:</source>
+          <target state="translated">Para ver o comando que foi usado para iniciar o Windows PowerShell, verificamos a propriedade <bpt id="p1">**</bpt>CommandLine<ept id="p1">**</ept> digitando:</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To check the operating system version, display the OSVersion property by typing:</source>
+          <target state="translated">Para verificar a versão do sistema operacional, exiba a propriedade OSVersion digitando:</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>We can check whether the computer is in the process of shutting down by displaying the <bpt id="p1">**</bpt>HasShutdownStarted<ept id="p1">**</ept> property:</source>
+          <target state="translated">Podemos verificar se o computador está no processo de desligamento exibindo a propriedade <bpt id="p1">**</bpt>HasShutdownStarted<ept id="p1">**</ept>:</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Doing Math with System.Math</source>
+          <target state="translated">Fazendo cálculos com o System.Math</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The System.Math static class is useful for performing some mathematical operations.</source>
+          <target state="translated">A classe estática System.Math é útil para executar algumas operações matemáticas.</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The important members of <bpt id="p1">**</bpt>System.Math<ept id="p1">**</ept> are mostly methods, which we can display by using <bpt id="p2">**</bpt>Get\-Member<ept id="p2">**</ept>.</source>
+          <target state="translated">Os membros importantes do <bpt id="p1">**</bpt>System.Math<ept id="p1">**</ept> são em sua maioria métodos, que podemos exibir usando <bpt id="p2">**</bpt>Get-Member<ept id="p2">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!NOTE]</ph> System.Math has several methods with the same name, but they are distinguished by the type of their parameters.</source>
+          <target state="translated"><ph id="ph1">[!NOTE]</ph> O System.Math tem vários métodos com o mesmo nome, mas eles são diferenciados pelo tipo dos seus parâmetros.</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Type the following command to list the methods of the <bpt id="p1">**</bpt>System.Math<ept id="p1">**</ept> class.</source>
+          <target state="translated">Digite o comando a seguir para listar os métodos da classe <bpt id="p1">**</bpt>System.Math<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This displays several mathematical methods.</source>
+          <target state="translated">Isso exibe vários métodos matemáticos.</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Here is a list of commands that demonstrate how some of the common methods work:</source>
+          <target state="translated">Aqui está uma lista de comandos que demonstram como alguns dos métodos comuns funcionam:</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
