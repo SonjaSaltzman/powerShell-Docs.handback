@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Working-with-Registry-Entries.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d7fb731bc2527e324271bc75f00112a67a1147e3</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-39517ae" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Working with Registry Entries</source>
+          <target state="translated">使用注册表条目</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Working with Registry Entries</source>
+          <target state="translated">使用注册表条目</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Because registry entries are properties of keys and, as such, cannot be directly browsed, we need to take a slightly different approach when working with them.</source>
+          <target state="translated">因为注册表条目是项的属性而无法直接浏览，因此我们在使用它们时需要采取略有不同的方式。</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Listing Registry Entries</source>
+          <target state="translated">列出注册表条目</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>There are many different ways to examine registry entries.</source>
+          <target state="translated">可采用许多不同的方法检查注册表条目。</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The simplest way is to get the property names associated with a key.</source>
+          <target state="translated">最简单的方法是获取与某个项相关联的属性名称。</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For example, to see the names of the entries in the registry key <bpt id="p1">**</bpt>HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion<ept id="p1">**</ept>, use <bpt id="p2">**</bpt>Get\-Item<ept id="p2">**</ept>.</source>
+          <target state="translated">例如，若要查看注册表项 <bpt id="p1">**</bpt>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion<ept id="p1">**</ept> 中的条目的名称，请使用 <bpt id="p2">**</bpt>Get-Item<ept id="p2">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Registry keys have a property with the generic name of "Property" that is a list of registry entries in the key.</source>
+          <target state="translated">注册表项具有一个通用名称为“Property”的属性，它是项中的注册表条目的列表。</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The following command selects the Property property and expands the items so that they are displayed in a list:</source>
+          <target state="translated">以下命令选择 Property 属性并扩展这些项，以便它们可在列表中显示：</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To view the registry entries in a more readable form, use <bpt id="p1">**</bpt>Get\-ItemProperty<ept id="p1">**</ept>:</source>
+          <target state="translated">若要在可读性更强的窗体中查看注册表条目，请使用 <bpt id="p1">**</bpt>Get-ItemProperty<ept id="p1">**</ept>：</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell\-related properties for the key are all prefixed with "PS", such as <bpt id="p1">**</bpt>PSPath<ept id="p1">**</ept>, <bpt id="p2">**</bpt>PSParentPath<ept id="p2">**</ept>, <bpt id="p3">**</bpt>PSChildName<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>PSProvider<ept id="p4">**</ept>.</source>
+          <target state="translated">该项的 Windows PowerShell 相关的属性全都带有“PS”前缀，例如 <bpt id="p1">**</bpt>PSPath<ept id="p1">**</ept>、<bpt id="p2">**</bpt>PSParentPath<ept id="p2">**</ept>、<bpt id="p3">**</bpt>PSChildName<ept id="p3">**</ept> 和 <bpt id="p4">**</bpt>PSProvider<ept id="p4">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can use the "<bpt id="p1">**</bpt>.<ept id="p1">**</ept>" notation for referring to the current location.</source>
+          <target state="translated">你可以将“<bpt id="p1">**</bpt>.<ept id="p1">**</ept>”表示法用于引用当前位置。</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can use <bpt id="p1">**</bpt>Set\-Location<ept id="p1">**</ept> to change to the <bpt id="p2">**</bpt>CurrentVersion<ept id="p2">**</ept> registry container first:</source>
+          <target state="translated">你可以先使用 <bpt id="p1">**</bpt>Set-Location<ept id="p1">**</ept> 更改为 <bpt id="p2">**</bpt>CurrentVersion<ept id="p2">**</ept> 注册表容器：</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Alternatively, you can use the built\-in HKLM PSDrive with <bpt id="p1">**</bpt>Set\-Location<ept id="p1">**</ept>:</source>
+          <target state="translated">另外，你可以将内置 HKLM PSDrive 与 <bpt id="p1">**</bpt>Set-Location<ept id="p1">**</ept> 结合使用：</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can then use the "<bpt id="p1">**</bpt>.<ept id="p1">**</ept>" notation for the current location to list the properties without specifying a full path:</source>
+          <target state="translated">然后，你可以将“<bpt id="p1">**</bpt>.<ept id="p1">**</ept>”表示法用于当前位置以列出属性，而无需指定完整路径：</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Path expansion works the same as it does within the file system, so from this location you can get the <bpt id="p1">**</bpt>ItemProperty<ept id="p1">**</ept> listing for <bpt id="p2">**</bpt>HKLM:\\SOFTWARE\\Microsoft\\Windows\\Help<ept id="p2">**</ept> by using <bpt id="p3">**</bpt>Get\-ItemProperty \-Path ..\\Help<ept id="p3">**</ept>.</source>
+          <target state="translated">路径扩展的工作方式与其在文件系统中的工作方式相同，因此在此位置中，你可以通过使用 <bpt id="p3">**</bpt>Get-ItemProperty -Path ..\Help<ept id="p3">**</ept> 来获取 <bpt id="p2">**</bpt>HKLM:\SOFTWARE\Microsoft\Windows\Help<ept id="p2">**</ept> 的 <bpt id="p1">**</bpt>ItemProperty<ept id="p1">**</ept> 列表。</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Getting a Single Registry Entry</source>
+          <target state="translated">获取单个注册表条目</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If you want to retrieve a specific entry in a registry key, you can use one of several possible approaches.</source>
+          <target state="translated">如果你希望在注册表项中检索特定条目，可以使用几种可能的方法之一。</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This example finds the value of <bpt id="p1">**</bpt>DevicePath<ept id="p1">**</ept> in <bpt id="p2">**</bpt>HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion<ept id="p2">**</ept>.</source>
+          <target state="translated">此示例在 <bpt id="p2">**</bpt>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion<ept id="p2">**</ept> 中查找 <bpt id="p1">**</bpt>DevicePath<ept id="p1">**</ept> 的值。</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Using <bpt id="p1">**</bpt>Get\-ItemProperty<ept id="p1">**</ept>, use the <bpt id="p2">**</bpt>Path<ept id="p2">**</ept> parameter to specify the name of the key, and the <bpt id="p3">**</bpt>Name<ept id="p3">**</ept> parameter to specify the name of the <bpt id="p4">**</bpt>DevicePath<ept id="p4">**</ept> entry.</source>
+          <target state="translated">通过使用 <bpt id="p1">**</bpt>Get-ItemProperty<ept id="p1">**</ept>，可使用 <bpt id="p2">**</bpt>Path<ept id="p2">**</ept> 参数指定项的名称，使用 <bpt id="p3">**</bpt>Name<ept id="p3">**</ept> 参数指定 <bpt id="p4">**</bpt>DevicePath<ept id="p4">**</ept> 条目的名称。</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This command returns the standard Windows PowerShell properties as well as the <bpt id="p1">**</bpt>DevicePath<ept id="p1">**</ept> property.</source>
+          <target state="translated">此命令返回标准 Windows PowerShell 属性以及 <bpt id="p1">**</bpt>DevicePath<ept id="p1">**</ept> 属性。</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Although <bpt id="p1">**</bpt>Get\-ItemProperty<ept id="p1">**</ept> has <bpt id="p2">**</bpt>Filter<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Include<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Exclude<ept id="p4">**</ept> parameters, they cannot be used to filter by property name.</source>
+          <target state="translated">尽管 <bpt id="p1">**</bpt>Get-ItemProperty<ept id="p1">**</ept> 具有 <bpt id="p2">**</bpt>Filter<ept id="p2">**</ept>、<bpt id="p3">**</bpt>Include<ept id="p3">**</ept> 和 <bpt id="p4">**</bpt>Exclude<ept id="p4">**</ept> 参数，但它们无法用于按属性名称进行筛选。</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>These parameters refer to registry keys—which are item paths—and not registry entries—which are item properties.</source>
+          <target state="translated">这些参数引用注册表项（即项路径），而不引用注册表条目（即项属性）。</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Another option is to use the Reg.exe command line tool.</source>
+          <target state="translated">另一种方法是使用 Reg.exe 命令行工具。</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For help with reg.exe, type <bpt id="p1">**</bpt>reg.exe \/?<ept id="p1">**</ept></source>
+          <target state="translated">有关 reg.exe 的帮助，请在命令提示符下键入 <bpt id="p1">**</bpt>reg.exe /?<ept id="p1">**</ept></target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>at a command prompt.</source>
+          <target state="translated">。</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To find the DevicePath entry, use reg.exe as shown in the following command:</source>
+          <target state="translated">若要查找 DevicePath 条目，请使用 reg.exe，如以下命令中所示：</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You can also use the <bpt id="p1">**</bpt>WshShell COM<ept id="p1">**</ept> object as well to find some registry entries, although this method does not work with large binary data or with registry entry names that include characters such as "\\").</source>
+          <target state="translated">还可以使用 <bpt id="p1">**</bpt>WshShell COM<ept id="p1">**</ept> 对象查找某些注册表条目，尽管此方法对大型二进制数据或包含诸如“\”字符的注册表条目名称不起作用也是如此。</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Append the property name to the item path with a \\ separator:</source>
+          <target state="translated">将属性名称附加到带有 \ 分隔符的项路径：</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Creating New Registry Entries</source>
+          <target state="translated">创建新注册表条目</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To add a new entry named "PowerShellPath" to the <bpt id="p1">**</bpt>CurrentVersion<ept id="p1">**</ept> key, use <bpt id="p2">**</bpt>New\-ItemProperty<ept id="p2">**</ept> with the path to the key, the entry name, and the value of the entry.</source>
+          <target state="translated">若要将名为“PowerShellPath”的新条目添加到 <bpt id="p1">**</bpt>CurrentVersion<ept id="p1">**</ept> 项，请将 <bpt id="p2">**</bpt>New-ItemProperty<ept id="p2">**</ept> 与该项的路径、条目名称和条目的值一起使用。</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For this example, we will take the value of the Windows PowerShell variable <bpt id="p1">**</bpt>$PSHome<ept id="p1">**</ept>, which stores the path to the installation directory for Windows PowerShell.</source>
+          <target state="translated">对于此示例，我们将采用 Windows PowerShell 变量 <bpt id="p1">**</bpt>$PSHome<ept id="p1">**</ept> 的值，该变量可存储 Windows PowerShell 的安装目录的路径。</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You can add the new entry to the key by using the following command, and the command also returns information about the new entry:</source>
+          <target state="translated">你可以通过使用以下命令来将新条目添加到项，该命令还会返回有关新条目的信息：</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>PropertyType<ept id="p1">**</ept> must be the name of a <bpt id="p2">**</bpt>Microsoft.Win32.RegistryValueKind<ept id="p2">**</ept> enumeration member from the following table:</source>
+          <target state="translated"><bpt id="p1">**</bpt>PropertyType<ept id="p1">**</ept> 必须是以下表格中的 <bpt id="p2">**</bpt>Microsoft.Win32.RegistryValueKind<ept id="p2">**</ept> 枚举成员的名称：</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>PropertyType Value</source>
+          <target state="translated">PropertyType 值</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Meaning</source>
+          <target state="translated">含义</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Binary</source>
+          <target state="translated">Binary</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Binary data</source>
+          <target state="translated">二进制数据</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>DWord</source>
+          <target state="translated">DWord</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A number that is a valid UInt32</source>
+          <target state="translated">一个数字，类型为有效的 UInt32</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>ExpandString</source>
+          <target state="translated">ExpandString</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A string that can contain environment variables that are dynamically expanded</source>
+          <target state="translated">一个字符串，可包含动态扩展的环境变量</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>MultiString</source>
+          <target state="translated">MultiString</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>A multiline string</source>
+          <target state="translated">一个多行字符串</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>String</source>
+          <target state="translated">字符串</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Any string value</source>
+          <target state="translated">任意字符串值</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>QWord</source>
+          <target state="translated">QWord</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>8 bytes of binary data</source>
+          <target state="translated">8 字节的二进制数据</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!NOTE]</ph> You can add a registry entry to multiple locations by specifying an array of values for the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter:</source>
+          <target state="translated"><ph id="ph1">[!NOTE]</ph> 你可以为 <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> 参数指定一组值，从而将注册表项添加到多个位置：</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>You can also overwrite a pre\-existing registry entry value by adding the <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> parameter to any <bpt id="p2">**</bpt>New\-ItemProperty<ept id="p2">**</ept> command.</source>
+          <target state="translated">你还可以替代预先存在的注册表条目值，方法是将 <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> 参数添加到任何 <bpt id="p2">**</bpt>New-ItemProperty<ept id="p2">**</ept> 命令。</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Renaming Registry Entries</source>
+          <target state="translated">重命名注册表条目</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To rename the <bpt id="p1">**</bpt>PowerShellPath<ept id="p1">**</ept> entry to "PSHome," use <bpt id="p2">**</bpt>Rename\-ItemProperty<ept id="p2">**</ept>:</source>
+          <target state="translated">若要将 <bpt id="p1">**</bpt>PowerShellPath<ept id="p1">**</ept> 条目重命名为“PSHome”，请使用 <bpt id="p2">**</bpt>Rename-ItemProperty<ept id="p2">**</ept>：</target>         
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>To display the renamed value, add the <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter to the command.</source>
+          <target state="translated">若要显示重命名的值，请将 <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> 参数添加到该命令。</target>         
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Deleting Registry Entries</source>
+          <target state="translated">删除注册表条目</target>         
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>To delete both the PSHome and PowerShellPath registry entries, use <bpt id="p1">**</bpt>Remove\-ItemProperty<ept id="p1">**</ept>:</source>
+          <target state="translated">若要删除 PSHome 和 PowerShellPath 注册表条目，请使用 <bpt id="p1">**</bpt>Remove-ItemProperty<ept id="p1">**</ept>：</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
