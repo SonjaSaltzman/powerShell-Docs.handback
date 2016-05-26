@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="fr-fr">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Working-With-Files-Folders-and-Registry-Keys.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c2d203fee4e1595498c666d4060e7a1060b2aa4d</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-39517ae" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Working With Files Folders and Registry Keys</source>
+          <target state="translated">Utilisation des fichiers, dossiers et clés de Registre</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Working With Files, Folders and Registry Keys</source>
+          <target state="translated">Utilisation des fichiers, dossiers et clés de Registre</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell uses the noun <bpt id="p1">**</bpt>Item<ept id="p1">**</ept> to refer to items found on a Windows PowerShell drive.</source>
+          <target state="translated">Windows PowerShell utilise le substantif <bpt id="p1">**</bpt>Item<ept id="p1">**</ept> pour faire référence aux éléments figurant sur un lecteur Windows PowerShell.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>When dealing with the Windows PowerShell FileSystem provider, an <bpt id="p1">**</bpt>Item<ept id="p1">**</ept> might be a file, a folder, or the Windows PowerShell drive.</source>
+          <target state="translated">En relation avec le fournisseur FileSystem de Windows PowerShell, le terme <bpt id="p1">**</bpt>Item<ept id="p1">**</ept> peut désigner un fichier, un dossier ou le lecteur Windows PowerShell.</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Listing and working with these items is a critical basic task in most administrative settings, so we want to discuss these tasks in detail.</source>
+          <target state="translated">Nous allons examiner en détail comment répertorier et utiliser ces éléments, ces tâches étant essentielles dans la plupart des environnements d'administration.</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Enumerating Files, Folders, and Registry Keys (Get\-ChildItem)</source>
+          <target state="translated">Énumération de fichiers, dossiers et clés de Registre (Get-ChildItem)</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Since getting a collection of items from a particular location is such a common task, the <bpt id="p1">**</bpt>Get\-ChildItem<ept id="p1">**</ept> cmdlet is designed specifically to return all items found within a container such as a folder.</source>
+          <target state="translated">L’obtention d’une collection d’éléments à partir d’un emplacement particulier étant une tâche très courante, l’applet de commande <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept> est conçue pour retourner tous les éléments figurant dans un conteneur tel qu’un dossier.</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If you want to return all files and folders that are contained directly within the folder C:\\Windows, type:</source>
+          <target state="translated">Pour retourner tous les fichiers et dossiers contenus directement dans le dossier C:\Windows, tapez ce qui suit :</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The listing looks similar to what you would see when you enter the <bpt id="p1">**</bpt>dir<ept id="p1">**</ept> command in <bpt id="p2">**</bpt>Cmd.exe<ept id="p2">**</ept>, or the <bpt id="p3">**</bpt>ls<ept id="p3">**</ept> command in a UNIX command shell.</source>
+          <target state="translated">La liste ressemble à celle qui s’affiche quand vous entrez la commande <bpt id="p1">**</bpt>dir<ept id="p1">**</ept> dans <bpt id="p2">**</bpt>Cmd.exe<ept id="p2">**</ept>, ou la commande <bpt id="p3">**</bpt>ls<ept id="p3">**</ept> dans un interpréteur de commandes UNIX.</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can perform very complex listings by using parameters of the <bpt id="p1">**</bpt>Get\-ChildItem<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">Vous pouvez effectuer des recherches très complexes à l’aide des paramètres de l’applet de commande <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>We will look at a few scenarios next.</source>
+          <target state="translated">Nous examinerons quelques scénarios dans les sections suivantes.</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can see the syntax the <bpt id="p1">**</bpt>Get\-ChildItem<ept id="p1">**</ept> cmdlet by typing:</source>
+          <target state="translated">Pour afficher la syntaxe de l’applet de commande <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept>, tapez ce qui suit :</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>These parameters can be mixed and matched to get highly customized output.</source>
+          <target state="translated">Vous pouvez combiner ces paramètres pour personnaliser davantage les sorties.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Listing all Contained Items (\-Recurse)</source>
+          <target state="translated">Affichage de la liste de tous les éléments contenus (-Recurse)</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To see both the items inside a Windows folder and any items that are contained within the subfolders, use the <bpt id="p1">**</bpt>Recurse<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Get\-ChildItem<ept id="p2">**</ept>.</source>
+          <target state="translated">Pour afficher à la fois les éléments d’un dossier Windows et ceux contenus dans ses sous-dossiers, utilisez le paramètre <bpt id="p1">**</bpt>Recurse<ept id="p1">**</ept> de l’applet de commande <bpt id="p2">**</bpt>Get-ChildItem<ept id="p2">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The listing displays everything within the Windows folder and the items in its subfolders.</source>
+          <target state="translated">La liste affiche tous les éléments contenus dans le dossier Windows et ses sous-dossiers.</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">Par exemple :</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Filtering Items by Name (\-Name)</source>
+          <target state="translated">Filtrage des éléments par nom (-Name)</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To display only the names of items, use the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Get\-Childitem<ept id="p2">**</ept>:</source>
+          <target state="translated">Pour afficher uniquement les noms des éléments, utilisez le paramètre <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> de l’applet de commande <bpt id="p2">**</bpt>Get-Childitem<ept id="p2">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Forcibly Listing Hidden Items (\-Force)</source>
+          <target state="translated">Affichage forcé de la liste des éléments masqués (-Force)</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Items that are normally invisible in File Explorer or Cmd.exe are not displayed in the output of a <bpt id="p1">**</bpt>Get\-ChildItem<ept id="p1">**</ept> command.</source>
+          <target state="translated">Les éléments normalement invisibles dans l’Explorateur de fichiers ou dans Cmd.exe n’apparaissent pas dans la sortie d’une commande <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To display hidden items, use the <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Get\-ChildItem<ept id="p2">**</ept>.</source>
+          <target state="translated">Pour afficher les éléments masqués, utilisez le paramètre <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> de l’applet de commande <bpt id="p2">**</bpt>Get-ChildItem<ept id="p2">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">Par exemple :</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This parameter is named Force because you can forcibly override the normal behavior of the <bpt id="p1">**</bpt>Get\-ChildItem<ept id="p1">**</ept> command.</source>
+          <target state="translated">Ce paramètre est nommé Force, car il permet de remplacer de force le comportement normal de la commande <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Force is a widely used parameter that forces an action that a cmdlet would not normally perform, although it will not perform any action that compromises the security of the system.</source>
+          <target state="translated">Force est un paramètre couramment employé qui force une action dont l'exécution n'est généralement pas assurée par une applet de commande. Notez toutefois qu'il n'exécute aucune action susceptible de compromettre la sécurité du système.</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Matching Item Names with Wildcards</source>
+          <target state="translated">Recherche de noms d'éléments avec des caractères génériques</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>The Get\-ChildItem<ept id="p1">**</ept> command accepts wildcards in the path of the items to list.</source>
+          <target state="translated">La commande <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept> accepte les caractères génériques dans le chemin d’accès des éléments à répertorier..</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Because wildcard matching is handled by the Windows PowerShell engine, all cmdlets that accepts wildcards use the same notation and have the same matching behavior.</source>
+          <target state="translated">La mise en correspondance des caractères génériques étant gérée par le moteur Windows PowerShell, toutes les applets de commande qui acceptent des caractères génériques utilisent la même notation et suivent le même comportement de mise en correspondance.</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell wildcard notation includes:</source>
+          <target state="translated">Parmi les caractères génériques disponibles dans la notation Windows PowerShell, citons les suivants :</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Asterisk (\*)matches zero or more occurrences of any character.</source>
+          <target state="translated">L’astérisque (*) correspond à zéro ou plusieurs occurrences d’un caractère quelconque.</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Question mark (?) matches exactly one character.</source>
+          <target state="translated">Le point d'interrogation (?) correspond à exactement un caractère.</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Left bracket (\[) character and right bracket (]) character surround a set of characters to be matched.</source>
+          <target state="translated">Le crochet gauche ([) et le crochet droit (]) entourent un ensemble de caractères à mettre en correspondance.</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Here are some examples of how wildcard specification works.</source>
+          <target state="translated">Voici quelques exemples qui illustrent l'utilisation des caractères génériques.</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To find all files in the Windows directory with the suffix <bpt id="p1">**</bpt>.log<ept id="p1">**</ept> and exactly five characters in the base name, enter the following command:</source>
+          <target state="translated">Pour trouver tous les fichiers contenus dans le répertoire Windows avec le suffixe <bpt id="p1">**</bpt>.log<ept id="p1">**</ept> et exactement cinq caractères dans le nom de base, entrez la commande suivante :</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To find all files that begin with the letter <bpt id="p1">**</bpt>x<ept id="p1">**</ept> in the Windows directory, type:</source>
+          <target state="translated">Pour rechercher tous les fichiers qui commencent par la lettre <bpt id="p1">**</bpt>x<ept id="p1">**</ept> dans le répertoire Windows, tapez ce qui suit :</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>To find all files whose names begin with <bpt id="p1">**</bpt>x<ept id="p1">**</ept> or <bpt id="p2">**</bpt>z<ept id="p2">**</ept>, type:</source>
+          <target state="translated">Pour rechercher tous les fichiers dont le nom commence par <bpt id="p1">**</bpt>x<ept id="p1">**</ept> ou <bpt id="p2">**</bpt>z<ept id="p2">**</ept>, tapez ce qui suit :</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Excluding Items (\-Exclude)</source>
+          <target state="translated">Exclusion d’éléments (-Exclude)</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You can exclude specific items by using the <bpt id="p1">**</bpt>Exclude<ept id="p1">**</ept> parameter of Get\-ChildItem.</source>
+          <target state="translated">Vous pouvez exclure des éléments spécifiques à l’aide du paramètre <bpt id="p1">**</bpt>Exclude<ept id="p1">**</ept> de l’applet de commande Get-ChildItem.</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This lets you perform complex filtering in a single statement.</source>
+          <target state="translated">Vous pouvez ainsi effectuer des opérations de filtrage complexes à l'aide d'une seule instruction.</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For example, suppose you are trying to find the Windows Time Service DLL in the System32 folder, and all you can remember about the DLL name is that it begins with "W" and has "32" in it.</source>
+          <target state="translated">Par exemple, supposons que vous essayiez de trouver la DLL Windows Time Service dans le dossier System32. Tout ce dont vous souvenez, c'est que le nom de la DLL commence par la lettre « W » et qu'il contient le nombre « 32 ».</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>An expression like <bpt id="p1">**</bpt>w\&amp;#42;32\&amp;#42;.dll<ept id="p1">**</ept> will find all DLLs that satisfy the conditions, but it may also return the Windows 95 and 16\-bit Windows compatibility DLLs that include "95" or "16" in their names.</source>
+          <target state="translated">Une expression telle que <bpt id="p1">**</bpt>w&amp;#42;32&amp;#42;.dll<ept id="p1">**</ept> permet de trouver toutes les DLL qui répondent aux conditions, mais peut également retourner les DLL de compatibilité avec Windows 95 et Windows 16 bits qui comprennent « 95 » ou « 16 » dans leur nom.</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You can omit files that have any of these numbers in their names by using the <bpt id="p1">**</bpt>Exclude<ept id="p1">**</ept> parameter with the pattern <bpt id="p2">**</bpt>\&amp;#42;\[9516]\&amp;#42;<ept id="p2">**</ept>:</source>
+          <target state="translated">Pour omettre les fichiers contenant l’un de ces nombres dans leur nom, utilisez le paramètre <bpt id="p1">**</bpt>Exclude<ept id="p1">**</ept> selon le modèle <bpt id="p2">**</bpt>&amp;#42;[9516]&amp;#42;<ept id="p2">**</ept> :</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>PS&gt; Get-ChildItem -Path C:\WINDOWS\System32\w<bpt id="p1">*</bpt>32<ept id="p1">*</ept>.dll -Exclude <bpt id="p2">*</bpt>[9516]<ept id="p2">*</ept> Directory: Microsoft.PowerShell.Core\FileSystem::C:\WINDOWS\System32 Mode                LastWriteTime     Length Name ----                -------------     ------ ---- -a---        2004-08-04   8:00 AM     174592 w32time.dll -a---        2004-08-04   8:00 AM      22016 w32topl.dll -a---        2004-08-04   8:00 AM     101888 win32spl.dll -a---        2004-08-04   8:00 AM     172032 wldap32.dll -a---        2004-08-04   8:00 AM     264192 wow32.dll -a---        2004-08-04   8:00 AM      82944 ws2_32.dll -a---        2004-08-04   8:00 AM      42496 wsnmp32.dll -a---        2004-08-04   8:00 AM      22528 wsock32.dll -a---        2004-08-04   8:00 AM      18432 wtsapi32.dll</source>
+          <target state="translated">PS&gt; Get-ChildItem -Path C:\WINDOWS\System32\w<bpt id="p1">*</bpt>32<ept id="p1">*</ept>.dll -Exclude <bpt id="p2">*</bpt>[9516]<ept id="p2">*</ept> Directory: Microsoft.PowerShell.Core\FileSystem::C:\WINDOWS\System32 Mode                LastWriteTime     Length Name ----                -------------     ------ ---- -a---        2004-08-04   8:00 AM     174592 w32time.dll -a---        2004-08-04   8:00 AM      22016 w32topl.dll -a---        2004-08-04   8:00 AM     101888 win32spl.dll -a---        2004-08-04   8:00 AM     172032 wldap32.dll -a---        2004-08-04   8:00 AM     264192 wow32.dll -a---        2004-08-04   8:00 AM      82944 ws2_32.dll -a---        2004-08-04   8:00 AM      42496 wsnmp32.dll -a---        2004-08-04   8:00 AM      22528 wsock32.dll -a---        2004-08-04   8:00 AM      18432 wtsapi32.dll</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Mixing Get\-ChildItem Parameters</source>
+          <target state="translated">Combinaison de paramètres Get-ChildItem</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You can use several of the parameters of the <bpt id="p1">**</bpt>Get\-ChildItem<ept id="p1">**</ept> cmdlet in the same command.</source>
+          <target state="translated">Vous pouvez utiliser plusieurs paramètres de l’applet de commande <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept> dans la même commande.</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Before you mix parameters, be sure that you understand wildcard matching.</source>
+          <target state="translated">Avant de combiner des paramètres, assurez-vous de bien comprendre à quoi correspondent les caractères génériques.</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>For example, the following command returns no results:</source>
+          <target state="translated">Par exemple, la commande suivante ne retourne aucun résultat :</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>There are no results, even though there are two DLLs that begin with the letter "z" in the Windows folder.</source>
+          <target state="translated">Aucun résultat n'est disponible, même s'il existe deux DLL qui commencent par la lettre « z » dans le dossier Windows.</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>No results were returned because we specified the wildcard as part of the path.</source>
+          <target state="translated">Aucun résultat n'est retourné, car nous avons spécifié le caractère générique comme faisant partie du chemin d'accès.</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Even though the command was recursive, the <bpt id="p1">**</bpt>Get\-ChildItem<ept id="p1">**</ept> cmdlet restricted the items to those that are in the Windows folder with names ending with ".dll".</source>
+          <target state="translated">Bien que la commande soit récursive, l’applet de commande <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept> limite le résultat aux éléments qui se trouvent dans le dossier Windows et dont le nom se termine par « .dll ».</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To specify a recursive search for files whose names match a special pattern, use the <bpt id="p1">**</bpt>\-Include<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Pour spécifier une recherche récursive des fichiers dont le nom correspond à un modèle particulier, utilisez le paramètre <bpt id="p1">**</bpt>-Include<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
