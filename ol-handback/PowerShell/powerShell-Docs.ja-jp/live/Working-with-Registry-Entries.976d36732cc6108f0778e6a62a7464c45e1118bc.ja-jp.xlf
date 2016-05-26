@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Working-with-Registry-Entries.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d7fb731bc2527e324271bc75f00112a67a1147e3</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-39517ae" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Working with Registry Entries</source>
+          <target state="translated">レジストリ エントリの操作</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Working with Registry Entries</source>
+          <target state="translated">レジストリ エントリの操作</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Because registry entries are properties of keys and, as such, cannot be directly browsed, we need to take a slightly different approach when working with them.</source>
+          <target state="translated">レジストリ エントリはキーのプロパティであり直接参照できないため、利用するときは少し異なる方法を取る必要があります。</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Listing Registry Entries</source>
+          <target state="translated">レジストリ エントリの一覧表示</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>There are many different ways to examine registry entries.</source>
+          <target state="translated">レジストリ エントリを確認するには、多くのさまざまな方法があります。</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The simplest way is to get the property names associated with a key.</source>
+          <target state="translated">最も簡単な方法は、キーに関連付けられているプロパティの名前を取得することです。</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For example, to see the names of the entries in the registry key <bpt id="p1">**</bpt>HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion<ept id="p1">**</ept>, use <bpt id="p2">**</bpt>Get\-Item<ept id="p2">**</ept>.</source>
+          <target state="translated">たとえば、レジストリ キー <bpt id="p1">**</bpt>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion<ept id="p1">**</ept> のエントリの名前を表示するには、<bpt id="p2">**</bpt>Get-Item<ept id="p2">**</ept> を使用します。</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Registry keys have a property with the generic name of "Property" that is a list of registry entries in the key.</source>
+          <target state="translated">レジストリ キーは、キーのレジストリ エントリの一覧であり、"Property"という汎用的な名前のプロパティを持っています。</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The following command selects the Property property and expands the items so that they are displayed in a list:</source>
+          <target state="translated">次のコマンドは、Property プロパティを選択し、一覧に表示されるように項目を拡張します。</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To view the registry entries in a more readable form, use <bpt id="p1">**</bpt>Get\-ItemProperty<ept id="p1">**</ept>:</source>
+          <target state="translated">レジストリ エントリをさらに読みやすい形式で表示するには、<bpt id="p1">**</bpt>Get-ItemProperty<ept id="p1">**</ept> を使用します。</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell\-related properties for the key are all prefixed with "PS", such as <bpt id="p1">**</bpt>PSPath<ept id="p1">**</ept>, <bpt id="p2">**</bpt>PSParentPath<ept id="p2">**</ept>, <bpt id="p3">**</bpt>PSChildName<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>PSProvider<ept id="p4">**</ept>.</source>
+          <target state="translated">キーの Windows PowerShell 関連のプロパティには、<bpt id="p1">**</bpt>PSPath<ept id="p1">**</ept>、<bpt id="p2">**</bpt>PSParentPath<ept id="p2">**</ept>、<bpt id="p3">**</bpt>PSChildName<ept id="p3">**</ept>、および <bpt id="p4">**</bpt>PSProvider<ept id="p4">**</ept> のように、すべて先頭に "PS" が付きます。</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can use the "<bpt id="p1">**</bpt>.<ept id="p1">**</ept>" notation for referring to the current location.</source>
+          <target state="translated">現在の場所を参照するには、"<bpt id="p1">**</bpt>.<ept id="p1">**</ept>" 表記法を使用できます。</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can use <bpt id="p1">**</bpt>Set\-Location<ept id="p1">**</ept> to change to the <bpt id="p2">**</bpt>CurrentVersion<ept id="p2">**</ept> registry container first:</source>
+          <target state="translated"><bpt id="p1">**</bpt>Set-Location<ept id="p1">**</ept> を使用して、まず <bpt id="p2">**</bpt>CurrentVersion<ept id="p2">**</ept> レジストリのコンテナーに移動します。</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Alternatively, you can use the built\-in HKLM PSDrive with <bpt id="p1">**</bpt>Set\-Location<ept id="p1">**</ept>:</source>
+          <target state="translated">または、<bpt id="p1">**</bpt>Set-Location<ept id="p1">**</ept> を指定して組み込みの HKLM PSDrive を使用できます。</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can then use the "<bpt id="p1">**</bpt>.<ept id="p1">**</ept>" notation for the current location to list the properties without specifying a full path:</source>
+          <target state="translated">現在の場所に対して "<bpt id="p1">**</bpt>.<ept id="p1">**</ept>" 表記法を使用して、完全パスを指定しないでプロパティの一覧を表示することができます。</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Path expansion works the same as it does within the file system, so from this location you can get the <bpt id="p1">**</bpt>ItemProperty<ept id="p1">**</ept> listing for <bpt id="p2">**</bpt>HKLM:\\SOFTWARE\\Microsoft\\Windows\\Help<ept id="p2">**</ept> by using <bpt id="p3">**</bpt>Get\-ItemProperty \-Path ..\\Help<ept id="p3">**</ept>.</source>
+          <target state="translated">パスの展開は、ファイル システム内と同様に機能するので、この場所からは、<bpt id="p3">**</bpt>Get-ItemProperty -Path ..\Help<ept id="p3">**</ept> を使用して <bpt id="p2">**</bpt>HKLM:\SOFTWARE\Microsoft\Windows\Help<ept id="p2">**</ept> の <bpt id="p1">**</bpt>ItemProperty<ept id="p1">**</ept> の一覧を取得できます。</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Getting a Single Registry Entry</source>
+          <target state="translated">1 つのレジストリ エントリの取得</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If you want to retrieve a specific entry in a registry key, you can use one of several possible approaches.</source>
+          <target state="translated">レジストリ キーの特定のエントリを取得する場合は、いくつかの可能なアプローチのいずれかを使用できます。</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This example finds the value of <bpt id="p1">**</bpt>DevicePath<ept id="p1">**</ept> in <bpt id="p2">**</bpt>HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion<ept id="p2">**</ept>.</source>
+          <target state="translated">この例では、<bpt id="p2">**</bpt>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion<ept id="p2">**</ept> の <bpt id="p1">**</bpt>DevicePath<ept id="p1">**</ept> の値を検索します。</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Using <bpt id="p1">**</bpt>Get\-ItemProperty<ept id="p1">**</ept>, use the <bpt id="p2">**</bpt>Path<ept id="p2">**</ept> parameter to specify the name of the key, and the <bpt id="p3">**</bpt>Name<ept id="p3">**</ept> parameter to specify the name of the <bpt id="p4">**</bpt>DevicePath<ept id="p4">**</ept> entry.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get-ItemProperty<ept id="p1">**</ept> を使用する場合に、<bpt id="p2">**</bpt>Path<ept id="p2">**</ept> パラメーターを使用してキーの名前を指定し、<bpt id="p3">**</bpt>Name<ept id="p3">**</ept> パラメーターを使用して <bpt id="p4">**</bpt>DevicePath<ept id="p4">**</ept> のエントリの名前を指定します。</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This command returns the standard Windows PowerShell properties as well as the <bpt id="p1">**</bpt>DevicePath<ept id="p1">**</ept> property.</source>
+          <target state="translated">このコマンドは、標準の Windows PowerShell のプロパティと <bpt id="p1">**</bpt>DevicePath<ept id="p1">**</ept> プロパティを返します。</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Although <bpt id="p1">**</bpt>Get\-ItemProperty<ept id="p1">**</ept> has <bpt id="p2">**</bpt>Filter<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Include<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Exclude<ept id="p4">**</ept> parameters, they cannot be used to filter by property name.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get-ItemProperty<ept id="p1">**</ept> に <bpt id="p2">**</bpt>Filter<ept id="p2">**</ept>、<bpt id="p3">**</bpt>Include<ept id="p3">**</ept>、<bpt id="p4">**</bpt>Exclude<ept id="p4">**</ept> の各パラメーターがあっても、プロパティ名によるフィルター処理に使用することはできません。</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>These parameters refer to registry keys—which are item paths—and not registry entries—which are item properties.</source>
+          <target state="translated">これらのパラメーターはレジストリ キー (項目のパス) を参照し、レジストリ エントリ (項目のプロパティ) を参照するのではありません。</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Another option is to use the Reg.exe command line tool.</source>
+          <target state="translated">別のオプションとして、Reg.exe コマンド ライン ツールを使用することもできます。</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For help with reg.exe, type <bpt id="p1">**</bpt>reg.exe \/?<ept id="p1">**</ept></source>
+          <target state="translated">reg.exe のヘルプを表示するには、コマンド プロンプトで <bpt id="p1">**</bpt>reg.exe /?<ept id="p1">**</ept> と入力します。</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>at a command prompt.</source>
+          <target state="translated">at a command prompt.</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To find the DevicePath entry, use reg.exe as shown in the following command:</source>
+          <target state="translated">DevicePath エントリを検索するには、次のコマンドに示すように reg.exe を使用します。</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You can also use the <bpt id="p1">**</bpt>WshShell COM<ept id="p1">**</ept> object as well to find some registry entries, although this method does not work with large binary data or with registry entry names that include characters such as "\\").</source>
+          <target state="translated">また、<bpt id="p1">**</bpt>WshShell COM<ept id="p1">**</ept> オブジェクトを使用していくつかのレジストリ エントリを検索することもできますが、この方法は、大きなバイナリ データや、名前に"\" を含むレジストリ エントリでは利用できません。</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Append the property name to the item path with a \\ separator:</source>
+          <target state="translated">プロパティ名を区切り記号 \ と共に項目のパスに追加します。</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Creating New Registry Entries</source>
+          <target state="translated">新しいレジストリ エントリの作成</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To add a new entry named "PowerShellPath" to the <bpt id="p1">**</bpt>CurrentVersion<ept id="p1">**</ept> key, use <bpt id="p2">**</bpt>New\-ItemProperty<ept id="p2">**</ept> with the path to the key, the entry name, and the value of the entry.</source>
+          <target state="translated">"PowerShellPath" という名前の新しいエントリを <bpt id="p1">**</bpt>CurrentVersion<ept id="p1">**</ept> キーに追加するには、キーのパス、エントリ名、エントリの値を指定して <bpt id="p2">**</bpt>New-ItemProperty<ept id="p2">**</ept> を使用します。</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For this example, we will take the value of the Windows PowerShell variable <bpt id="p1">**</bpt>$PSHome<ept id="p1">**</ept>, which stores the path to the installation directory for Windows PowerShell.</source>
+          <target state="translated">この例では、Windows PowerShell の変数 <bpt id="p1">**</bpt>$PSHome<ept id="p1">**</ept> の値を取得します。これは、Windows PowerShell のインストール ディレクトリへのパスを保存します。</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You can add the new entry to the key by using the following command, and the command also returns information about the new entry:</source>
+          <target state="translated">キーに新しいエントリを追加するには、次のコマンドを使用します。このコマンドは、新しいエントリに関する情報も返します。</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>PropertyType<ept id="p1">**</ept> must be the name of a <bpt id="p2">**</bpt>Microsoft.Win32.RegistryValueKind<ept id="p2">**</ept> enumeration member from the following table:</source>
+          <target state="translated"><bpt id="p1">**</bpt>PropertyType<ept id="p1">**</ept> は、次の表の <bpt id="p2">**</bpt>Microsoft.Win32.RegistryValueKind<ept id="p2">**</ept> 列挙体のメンバーの名前にする必要があります。</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>PropertyType Value</source>
+          <target state="translated">PropertyType の値</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Meaning</source>
+          <target state="translated">意味</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Binary</source>
+          <target state="translated">Binary</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Binary data</source>
+          <target state="translated">バイナリ データ</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>DWord</source>
+          <target state="translated">DWord</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A number that is a valid UInt32</source>
+          <target state="translated">有効な UInt32 である数字</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>ExpandString</source>
+          <target state="translated">ExpandString</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A string that can contain environment variables that are dynamically expanded</source>
+          <target state="translated">動的に展開される環境変数を含むことができる文字列</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>MultiString</source>
+          <target state="translated">MultiString</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>A multiline string</source>
+          <target state="translated">複数行文字列</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>String</source>
+          <target state="translated">String</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Any string value</source>
+          <target state="translated">任意の文字列値</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>QWord</source>
+          <target state="translated">QWord</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>8 bytes of binary data</source>
+          <target state="translated">8 バイトのバイナリ データ</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!NOTE]</ph> You can add a registry entry to multiple locations by specifying an array of values for the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter:</source>
+          <target state="translated"><ph id="ph1">[!NOTE]</ph>次のように <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> パラメーターに値の配列を指定して、レジストリ エントリを複数の場所に追加できます。</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>You can also overwrite a pre\-existing registry entry value by adding the <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> parameter to any <bpt id="p2">**</bpt>New\-ItemProperty<ept id="p2">**</ept> command.</source>
+          <target state="translated">また、<bpt id="p1">**</bpt>Force<ept id="p1">**</ept> パラメーターを <bpt id="p2">**</bpt>New-ItemProperty<ept id="p2">**</ept> コマンドに追加して、既存のレジストリ エントリの値を上書きすることもできます。</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Renaming Registry Entries</source>
+          <target state="translated">レジストリ エントリの名前変更</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To rename the <bpt id="p1">**</bpt>PowerShellPath<ept id="p1">**</ept> entry to "PSHome," use <bpt id="p2">**</bpt>Rename\-ItemProperty<ept id="p2">**</ept>:</source>
+          <target state="translated"><bpt id="p1">**</bpt>PowerShellPath<ept id="p1">**</ept> エントリの名前を "PSHome" に変更するには、<bpt id="p2">**</bpt>Rename-ItemProperty<ept id="p2">**</ept> を使用します。</target>         
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>To display the renamed value, add the <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter to the command.</source>
+          <target state="translated">名前が変更された値を表示するには、<bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> パラメーターをコマンドに追加します。</target>         
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Deleting Registry Entries</source>
+          <target state="translated">レジストリ エントリの削除</target>         
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>To delete both the PSHome and PowerShellPath registry entries, use <bpt id="p1">**</bpt>Remove\-ItemProperty<ept id="p1">**</ept>:</source>
+          <target state="translated">PSHome と PowerShellPath の両方のレジストリ エントリを削除するには、<bpt id="p1">**</bpt>Remove-ItemProperty<ept id="p1">**</ept> を使用します。</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
