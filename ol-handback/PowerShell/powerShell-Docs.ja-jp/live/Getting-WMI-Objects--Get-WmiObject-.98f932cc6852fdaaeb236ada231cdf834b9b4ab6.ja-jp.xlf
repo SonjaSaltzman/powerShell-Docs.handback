@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Getting-WMI-Objects--Get-WmiObject-.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2e6f58860c7aebcf60d8df562f009fce0db3c955</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-39517ae" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Getting WMI Objects  Get WmiObject</source>
+          <target state="translated">WMI オブジェクトの取得 (Get-WmiObject)</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Getting WMI Objects (Get-WmiObject)</source>
+          <target state="translated">WMI オブジェクトの取得 (Get-WmiObject)</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Getting WMI Objects (Get\-WmiObject)</source>
+          <target state="translated">WMI オブジェクトの取得 (Get-WmiObject)</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Windows Management Instrumentation (WMI) is a core technology for Windows system administration because it exposes a wide range of information in a uniform manner.</source>
+          <target state="translated">Windows Management Instrumentation (WMI) は、Windows システム管理のための中核となるテクノロジであり、幅広い種類の情報を一貫した方法で公開します。</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Because of how much WMI makes possible, the Windows PowerShell cmdlet for accessing WMI objects, <bpt id="p1">**</bpt>Get\-WmiObject<ept id="p1">**</ept>, is one of the most useful for doing real work.</source>
+          <target state="translated">WMI によって可能になるタスクが非常に多いことから、WMI オブジェクトにアクセスするための Windows PowerShell コマンドレットである <bpt id="p1">**</bpt>Get-WmiObject<ept id="p1">**</ept> は、実際の作業を行うための最も便利なコマンドレットの 1 つと言えます。</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>We are going to discuss how to use Get\-WmiObject to access WMI objects and then how to use WMI objects to do specific things.</source>
+          <target state="translated">ここでは、Get-WmiObject を使って WMI オブジェクトにアクセスする方法と、WMI オブジェクトを使って特定の作業を行う方法について説明します。</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Listing WMI Classes</source>
+          <target state="translated">WMI クラスの一覧を取得する</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The first problem most WMI users encounter is trying to find out what can be done with WMI.</source>
+          <target state="translated">WMI のほとんどのユーザーが直面する最初の問題は、WMI で何ができるかを調べることです。</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>WMI classes describe the resources that can be managed.</source>
+          <target state="translated">WMI クラスは、管理できるリソースを記述しています。</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>There are hundreds of WMI classes, some of which contain dozens of properties.</source>
+          <target state="translated">何百もの WMI クラスがあり、その中には数十個のプロパティを持つクラスもあります。</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get\-WmiObject<ept id="p1">**</ept> addresses this problem by making WMI discoverable.</source>
+          <target state="translated">この問題に対処するため、<bpt id="p1">**</bpt>Get-WmiObject<ept id="p1">**</ept> では WMI を探索可能にしました。</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can get a list of the WMI classes available on the local computer by typing:</source>
+          <target state="translated">ローカル コンピューター上で使える WMI クラスの一覧を取得するには、次のように入力します。</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can retrieve the same information from a remote computer by using the ComputerName parameter, specifying a computer name or IP address:</source>
+          <target state="translated">同じ情報をリモート コンピューターから取得するには、次のように、ComputerName パラメーターにコンピューター名や IP アドレスを指定します。</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The class listing returned by remote computers may vary due to the specific operating system the computer is running and the particular WMI extensions added by installed applications.</source>
+          <target state="translated">リモート コンピューターから返されるクラスの一覧は、そのコンピューターで実行されている特定のオペレーティング システムや、インストールされているアプリケーションによって追加された特定の WMI 拡張機能に応じて異なることがあります。</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When using Get\-WmiObject to connect to a remote computer, the remote computer must be running WMI and, under the default configuration, the account you are using must be in the local administrators group on the remote computer.</source>
+          <target state="translated">Get-WmiObject を使ってリモート コンピューターに接続するときは、リモート コンピューターで WMI が実行されている必要があり、既定の構成の場合、接続に使うアカウントがリモート コンピューターのローカル管理者グループに属している必要があります。</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The remote system does not need to have Windows PowerShell installed.</source>
+          <target state="translated">リモート システムに Windows PowerShell をインストールする必要はありません。</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This allows you to administer operating systems that are not running Windows PowerShell, but do have WMI available.</source>
+          <target state="translated">そのため、WMI が利用可能であれば、Windows PowerShell を実行していないオペレーティング システムであっても管理できます。</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can even include the ComputerName when connecting to the local system.</source>
+          <target state="translated">また、ローカル システムに接続するときに、コンピューター名を含めることもできます。</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can use the local computer's name, its IP address (or the loopback address 127.0.0.1), or the WMI\-style '.' as the computer name.</source>
+          <target state="translated">ローカル コンピューターの名前、IP アドレス (またはループバック アドレス 127.0.0.1)、WMI スタイル '.' をコンピューター名として使うことができます。</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If you are running Windows PowerShell on a computer named Admin01 with IP address 192.168.1.90, the following commands will all return the WMI class listing for that computer:</source>
+          <target state="translated">IP アドレスが 192.168.1.90 で、Admin01 という名前のコンピューターで Windows PowerShell を実行している場合、次のコマンドはそのコンピューターのすべての WMI クラスの一覧を返します。</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Get\-WmiObject uses the root\/cimv2 namespace by default.</source>
+          <target state="translated">Get-WmiObject は、既定では root/cimv2 名前空間を使います。</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If you want to specify another WMI namespace, use the <bpt id="p1">**</bpt>Namespace<ept id="p1">**</ept> parameter and specify the corresponding namespace path:</source>
+          <target state="translated">別の WMI 名前空間を指定する場合は、<bpt id="p1">**</bpt>Namespace<ept id="p1">**</ept> パラメーターを使って、対応する名前空間のパスを指定します。</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Displaying WMI Class Details</source>
+          <target state="translated">WMI クラスの詳細を表示する</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>If you already know the name of a WMI class, you can use it to get information immediately.</source>
+          <target state="translated">WMI クラスの名前がわかっている場合は、その名前を使って情報をすぐに取得できます。</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For example, one of the WMI classes commonly used for retrieving information about a computer is <bpt id="p1">**</bpt>Win32\_OperatingSystem<ept id="p1">**</ept>.</source>
+          <target state="translated">たとえば、コンピューターに関する情報を取得するためによく使われる WMI クラスの 1 つに、<bpt id="p1">**</bpt>Win32_OperatingSystem<ept id="p1">**</ept> があります。</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Although we are showing all of the parameters, the command can be expressed in a more succinct way.</source>
+          <target state="translated">ここでは、すべてのパラメーターを示しましたが、このコマンドはもっと簡潔に表現できます。</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> parameter is not necessary when connecting to the local system.</source>
+          <target state="translated"><bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> パラメーターは、ローカル システムに接続するときには必要ありません。</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>We show it to demonstrate the most general case and remind you about the parameter.</source>
+          <target state="translated">最も一般的なケースを示し、このパラメーターを思い出してもらうために使いました。</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Namespace<ept id="p1">**</ept> defaults to root\/cimv2, and can be omitted as well.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Namespace<ept id="p1">**</ept> の既定値は root/cimv2 であるため、これも省略できます。</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Finally, most cmdlets allow you to omit the name of common parameters.</source>
+          <target state="translated">最後に、ほとんどのコマンドレットでは、共通のパラメーターの名前を省略できます。</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>With Get\-WmiObject, if no name is specified for the first parameter, Windows PowerShell treats it as the <bpt id="p1">**</bpt>Class<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Get-WmiObject の場合、最初のパラメーターに名前が指定されていないときには、Windows PowerShell はそれを <bpt id="p1">**</bpt>Class<ept id="p1">**</ept> パラメーターとして扱います。</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This means the last command could have been issued by typing:</source>
+          <target state="translated">したがって、先ほどのコマンドは、次のように入力することもできました。</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Win32\_OperatingSystem<ept id="p1">**</ept> class has many more properties than those displayed here.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Win32_OperatingSystem<ept id="p1">**</ept> クラスには、ここで紹介した以外にも多数のプロパティがあります。</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You can use Get\-Member to see all the properties.</source>
+          <target state="translated">Get-Member を使うと、すべてのプロパティを参照できます。</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The properties of a WMI class are automatically available like other object properties:</source>
+          <target state="translated">WMI クラスのプロパティは、他のオブジェクト プロパティと同じように自動的に取得できます。</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Displaying Non\-Default Properties with Format Cmdlets</source>
+          <target state="translated">既定以外のプロパティを Format コマンドレットで表示する</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If you want information contained in the <bpt id="p1">**</bpt>Win32\_OperatingSystem<ept id="p1">**</ept> class that is not displayed by default, you can display it by using the <bpt id="p2">**</bpt>Format<ept id="p2">**</ept> cmdlets.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Win32_OperatingSystem<ept id="p1">**</ept> クラスに含まれている情報のうち、既定では表示されない情報を表示するには、<bpt id="p2">**</bpt>Format<ept id="p2">**</ept> コマンドレットを使います。</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For example, if you want to display available memory data, type:</source>
+          <target state="translated">たとえば、利用可能なメモリのデータを表示するには、次のように入力します。</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!NOTE]</ph> Wildcards work with property names in <bpt id="p1">**</bpt>Format\-Table<ept id="p1">**</ept>, so the final pipeline element can be reduced to <bpt id="p2">**</bpt>Format\-Table \-Property TotalV\&amp;#42;,Free\&amp;#42;<ept id="p2">**</ept></source>
+          <target state="translated"><ph id="ph1">[!NOTE]</ph><bpt id="p1">**</bpt>Format\-Table<ept id="p1">**</ept> のプロパティ名にはワイルドカードを指定できるので、最後のパイプライン要素は <bpt id="p2">**</bpt>Format\-Table \-Property TotalV\&amp;#42;,Free\&amp;#42;<ept id="p2">**</ept> のように省略できます。</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The memory data might be more readable if you format it as a list by typing:</source>
+          <target state="translated">メモリのデータは、次のように入力して一覧の形式にすると、さらに読みやすくなります。</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
