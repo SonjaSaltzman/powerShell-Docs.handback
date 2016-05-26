@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\pullServerSMB.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">35ac9b38086b12fb48844c56a488854f63529e21</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-8d96cd8" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Setting up a DSC SMB pull server</source>
+          <target state="translated">設定 DSC SMB 提取伺服器</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Setting up a DSC SMB pull server</source>
+          <target state="translated">設定 DSC SMB 提取伺服器</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</source>
+          <target state="translated">適用於：Windows PowerShell 4.0、Windows PowerShell 5.0</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>A DSC <bpt id="p1">[</bpt>SMB<ept id="p1">](https://technet.microsoft.com/en-us/library/hh831795.aspx)</ept> pull server is an SMB file share that makes DSC configuration files and/or DSC resources available to target nodes when those nodes ask for them.</source>
+          <target state="translated">DSC <bpt id="p1">[</bpt>SMB<ept id="p1">](https://technet.microsoft.com/en-us/library/hh831795.aspx)</ept> 提取伺服器是 SMB 檔案共用，可在目標節點要求時，將 DSC 設定檔及 (或) DSC 資源提供給這些節點使用。</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To use an SMB pull server for DSC, you have to:</source>
+          <target state="translated">若要針對 DSC 使用 SMB 提取伺服器，您必須︰</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Set up an SMB file share on a server running PowerShell 4.0 or higher</source>
+          <target state="translated">在執行 PowerShell 4.0 或更新版本的伺服器上設定 SMB 檔案共用</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Configure a client running PowerShell 4.0 or higher to pull from that SMB share</source>
+          <target state="translated">設定執行 PowerShell 4.0 或更新版本的用戶端從該 SMB 共用提取</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Using the xSmbShare resource to create an SMB file share</source>
+          <target state="translated">使用 xSmbShare 資源建立 SMB 檔案共用</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>There are a number of ways to set up an SMB file share, but let's look at how you can do this by using DSC.</source>
+          <target state="translated">設定 SMB 檔案共用的方式有幾種，讓我們看看如何使用 DSC 來執行這項作業。</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Install the xSmbShare resource</source>
+          <target state="translated">安裝 xSmbShare 資源</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Call the <bpt id="p1">[</bpt>Install-Module<ept id="p1">](https://technet.microsoft.com/en-us/library/dn807162.aspx)</ept> cmdlet to install the <bpt id="p2">**</bpt>xSmbShare<ept id="p2">**</ept> module.</source>
+          <target state="translated">呼叫 <bpt id="p1">[</bpt>Install-Module<ept id="p1">](https://technet.microsoft.com/en-us/library/dn807162.aspx)</ept> Cmdlet 安裝 <bpt id="p2">**</bpt>xSmbShare<ept id="p2">**</ept> 模組。</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: <bpt id="p2">**</bpt>Install-Module<ept id="p2">**</ept> is included in the <bpt id="p3">**</bpt>PowerShellGet<ept id="p3">**</ept> module, which is included in PowerShell 5.0.</source>
+          <target state="translated"><bpt id="p1">**</bpt>注意<ept id="p1">**</ept>：<bpt id="p2">**</bpt>Install-Module<ept id="p2">**</ept> 已納入 <bpt id="p3">**</bpt>PowerShellGet<ept id="p3">**</ept> 模組，其隨附於 PowerShell 5.0。</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can download the <bpt id="p1">**</bpt>PowerShellGet<ept id="p1">**</ept> module for PowerShell 3.0 and 4.0 at <bpt id="p2">[</bpt>PackageManagement PowerShell Modules Preview<ept id="p2">](https://www.microsoft.com/en-us/download/details.aspx?id=49186)</ept>.</source>
+          <target state="translated">您可以在 <bpt id="p2">[</bpt>PackageManagement PowerShell 模組預覽<ept id="p2">](https://www.microsoft.com/en-us/download/details.aspx?id=49186)</ept>下載 PowerShell 3.0 和 4.0 的 <bpt id="p1">**</bpt>PowerShellGet<ept id="p1">**</ept> 模組。</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>xSmbShare<ept id="p1">**</ept> contains the DSC resource <bpt id="p2">**</bpt>xSmbShare<ept id="p2">**</ept>, which can be used to create an SMB file share.</source>
+          <target state="translated"><bpt id="p1">**</bpt>XSmbShare<ept id="p1">**</ept> 包含 DSC 資源 <bpt id="p2">**</bpt>xSmbShare<ept id="p2">**</ept>，可用來建立 SMB 檔案共用。</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Create the directory and file share</source>
+          <target state="translated">建立目錄和檔案共用</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The following configuration uses the <bpt id="p1">[</bpt>File<ept id="p1">](fileResource.md)</ept> resource to create the directory for the share, and the <bpt id="p2">**</bpt>xSmbShare<ept id="p2">**</ept> resource to set up the SMB share:</source>
+          <target state="translated">下列設定使用 <bpt id="p1">[</bpt>File<ept id="p1">](fileResource.md)</ept> 資源為共用建立目錄，並使用 <bpt id="p2">**</bpt>xSmbShare<ept id="p2">**</ept> 設定 SMB 共用︰</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The configuration creates the directory <ph id="ph1">`C:\DscSmbShare`</ph> if it doesn't already exists, and then uses that directory as an SMB file share.</source>
+          <target state="translated">此設定會建立目錄 <ph id="ph1">`C:\DscSmbShare`</ph> (如果尚未存在)，然後使用該目錄作為 SMB 檔案共用。</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>FullAccess<ept id="p1">**</ept> should be given to any account that needs to write to or delete from the file share, and <bpt id="p2">**</bpt>ReadAccess<ept id="p2">**</ept> must be given to any client nodes that will get configurations and/or DSC resources from the share ( this is because DSC runs as the system account by default, so the computer itself has to have access to the share).</source>
+          <target state="translated"><bpt id="p1">**</bpt>FullAccess<ept id="p1">**</ept> 應該授予需要寫入檔案共用或從中刪除的任何帳戶，而 <bpt id="p2">**</bpt>ReadAccess<ept id="p2">**</ept> 必須授予會從共用取得設定且 (或) DSC 資源的任何用戶端節點 (這是因為 DSC 預設會以系統帳戶執行，因此電腦本身必須具有共用的存取權)。</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Give file system access to the pull client</source>
+          <target state="translated">將檔案系統存取權授與提取用戶端</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Giving <bpt id="p1">**</bpt>ReadAccess<ept id="p1">**</ept> to a client node allows that node to access the SMB share, but not to files or folders within that share.</source>
+          <target state="translated">將 <bpt id="p1">**</bpt>ReadAccess<ept id="p1">**</ept> 授與用戶端節點可讓該節點存取 SMB 共用，但無法存取該共用內的檔案或資料夾。</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You have to explicitly grant client nodes access to the SMB share folder and sub-folders.</source>
+          <target state="translated">您必須明確授與 SMB 共用資料夾和子資料夾的用戶端節點存取權。</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>We can do this with DSC by adding using the <bpt id="p1">**</bpt>cNtfsPermissionEntry<ept id="p1">**</ept> resource, which is contained in the <bpt id="p2">[</bpt>CNtfsAccessControl<ept id="p2">](https://www.powershellgallery.com/packages/cNtfsAccessControl/1.2.0)</ept> module.</source>
+          <target state="translated">我們可以透過 DSC 來達成，方法是使用 <bpt id="p2">[</bpt>CNtfsAccessControl<ept id="p2">](https://www.powershellgallery.com/packages/cNtfsAccessControl/1.2.0)</ept> 模組中所包含的 <bpt id="p1">**</bpt>cNtfsPermissionEntry<ept id="p1">**</ept> 資源來新增。</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The following configuration adds a <bpt id="p1">**</bpt>cNtfsPermissionEntry<ept id="p1">**</ept> block that grants ReadAndExecute access to the pull client:</source>
+          <target state="translated">下列設定會新增 <bpt id="p1">**</bpt>cNtfsPermissionEntry<ept id="p1">**</ept> 區塊，將 ReadAndExecute 存取權授與提取用戶端︰</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Placing configurations and resources</source>
+          <target state="translated">放置設定和資源</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Save any configuration MOF files and/or DSC resources that you want client nodes to pull in the SMB share folder.</source>
+          <target state="translated">儲存您想要用戶端節點提取到 SMB 共用資料夾的任何設定 MOF 檔案及 (或) DSC 資源。</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Any configuration MOF file must be named <bpt id="p1">_</bpt>ConfigurationID<ept id="p1">_</ept>.mof, where <bpt id="p2">_</bpt>ConfigurationID<ept id="p2">_</ept> is the value of the <bpt id="p3">**</bpt>ConfigurationID<ept id="p3">**</ept> property of the target node's LCM.</source>
+          <target state="translated">任何設定 MOF 檔案必須命名為 <bpt id="p1">_</bpt>ConfigurationID<ept id="p1">_</ept>.mof，其中 <bpt id="p2">_</bpt>ConfigurationID<ept id="p2">_</ept> 是目標節點 LCM 的 <bpt id="p3">**</bpt>ConfigurationID<ept id="p3">**</ept> 屬性值。</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For more information about setting up pull clients, see <bpt id="p1">[</bpt>Setting up a pull client using configuration ID<ept id="p1">](pullClientConfigID.md)</ept>.</source>
+          <target state="translated">如需有關設定提取用戶端的詳細資訊，請參閱<bpt id="p1">[</bpt>使用設定識別碼設定提取用戶端<ept id="p1">](pullClientConfigID.md)</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> You must use configuration IDs if you are using an SMB pull server.</source>
+          <target state="translated"><bpt id="p1">**</bpt>注意<ept id="p1">**</ept>︰如果您使用 SMB 提取伺服器，就必須使用設定識別碼。</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Configuration names are not supported for SMB.</source>
+          <target state="translated">SMB 不支援設定名稱。</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Any resources needed by the client must be placed in the SMB share folder as archived <ph id="ph1">`.zip`</ph> files.</source>
+          <target state="translated">用戶端所需的任何資源都必須以封存的 <ph id="ph1">`.zip`</ph> 檔案形式，放置在 SMB 共用資料夾中。</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Creating the MOF checksum</source>
+          <target state="translated">建立 MOF 總和檢查碼</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A configuration MOF file needs to be paired with a checksum file so that an LCM on a target node can validate the configuration.</source>
+          <target state="translated">設定 MOF 檔案需要與總和檢查碼檔案配對，以便目標節點上的 LCM 可驗證設定。</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To create a checksum, call the <bpt id="p1">[</bpt>New-DSCCheckSum<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521622.aspx)</ept> cmdlet.</source>
+          <target state="translated">若要建立總和檢查碼，請呼叫 <bpt id="p1">[</bpt>New-DSCCheckSum<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521622.aspx)</ept> Cmdlet。</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The cmdlet takes a <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter that specifies the folder where the configuration MOF is located.</source>
+          <target state="translated">此 Cmdlet 會使用 <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> 參數，指定設定 MOF 所在的資料夾。</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The cmdlet creates a checksum file named <ph id="ph1">`ConfigurationMOFName.mof.checksum`</ph>, where <ph id="ph2">`ConfigurationMOFName`</ph> is the name of the configuration mof file.</source>
+          <target state="translated">此 Cmdlet 會建立名為 <ph id="ph1">`ConfigurationMOFName.mof.checksum`</ph> 的總和檢查碼檔案，其中 <ph id="ph2">`ConfigurationMOFName`</ph> 是設定 MOF 檔案的名稱。</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>If there are more than one configuration MOF files in the specified folder, a checksum is created for each configuration in the folder.</source>
+          <target state="translated">如果在指定的資料夾中有多個設定 MOF 檔案，就會在每個設定資料夾中各建立一個總和檢查碼。</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The checksum file must be present in the same directory as the configuration MOF file (<ph id="ph1">`$env:PROGRAMFILES\WindowsPowerShell\DscService\Configuration`</ph> by default), and have the same name with the <ph id="ph2">`.checksum`</ph> extension appended.</source>
+          <target state="translated">總和檢查碼檔案必須存在於和設定 MOF 檔案相同的目錄中 (預設為 <ph id="ph1">`$env:PROGRAMFILES\WindowsPowerShell\DscService\Configuration`</ph>)，而且具有相同名稱，附加副檔名為 <ph id="ph2">`.checksum`</ph>。</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: If you change the configuration MOF file in any way, you must also recreate the checksum file.</source>
+          <target state="translated"><bpt id="p1">**</bpt>注意<ept id="p1">**</ept>：如果您以任何方式變更設定 MOF 檔案，也必須重新建立總和檢查碼檔案。</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Acknowledgements</source>
+          <target state="translated">致謝</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Special thanks to the following:</source>
+          <target state="translated">特別感謝下列人士：</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Mike F. Robbins, whose posts on using SMB for DSC helped inform the content in this topic.</source>
+          <target state="translated">Mike F. Robbins，本主題中的內容參考了他所撰寫有關針對 DSC 使用 SMB 的文章。</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>His blog is at <bpt id="p1">[</bpt>Mike F Robbins<ept id="p1">](http://mikefrobbins.com/)</ept>.</source>
+          <target state="translated">他的部落格位於 <bpt id="p1">[</bpt>Mike F Robbins<ept id="p1">](http://mikefrobbins.com/)</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Serge Nikalaichyk, who authored the <bpt id="p1">**</bpt>cNtfsAccessControl<ept id="p1">**</ept> module.</source>
+          <target state="translated">Serge Nikalaichyk，負責撰寫 <bpt id="p1">**</bpt>cNtfsAccessControl<ept id="p1">**</ept> 模組。</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The source for this module is at https://github.com/SNikalaichyk/cNtfsAccessControl.</source>
+          <target state="translated">此模組的原始檔位於 https://github.com/SNikalaichyk/cNtfsAccessControl。</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="translated">另請參閱</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Desired State Configuration Overview</source>
+          <target state="translated">Windows PowerShell 預期狀態設定概觀</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Enacting configurations</source>
+          <target state="translated">施行設定</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Setting up a pull client using configuration ID</source>
+          <target state="translated">使用設定識別碼設定提取用戶端</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
