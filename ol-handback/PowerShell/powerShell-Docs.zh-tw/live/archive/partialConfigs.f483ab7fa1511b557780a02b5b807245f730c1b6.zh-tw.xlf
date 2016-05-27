@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" original="md" source-language="en-US" target-language="zh-tw">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
     <header>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">826fa37544f408a817e0cdea1557c2b00f3a6e51</xliffext:olfilehash>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-708c90d" tool-company="Microsoft" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\partialConfigs.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">85d81ef4f82ef10c0f838601a9adb79d2fba65e7</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-3d52e17" tool-company="Microsoft" />
     </header>
     <body>
       <group id="content" extype="content">
@@ -13,224 +14,232 @@
           <target state="translated">PowerShell 預期狀態設定部分設定</target>         
         </trans-unit>
         <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>PowerShell Desired State Configuration partial configurations</source>
+          <target state="translated">PowerShell 預期狀態設定部分設定</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
           <source>Applies To: Windows PowerShell 5.0</source>
           <target state="translated">適用於：Windows PowerShell 5.0</target>         
         </trans-unit>
-        <trans-unit id="103" translate="yes" xml:space="preserve">
+        <trans-unit id="104" translate="yes" xml:space="preserve">
           <source>In PowerShell 5.0, Desired State Configuration (DSC) allows configurations to be delivered in fragments and from multiple sources.</source>
           <target state="translated">在 PowerShell 5.0 中，預期狀態設定 (DSC) 可讓設定以片段形式和從多個來源傳送。</target>         
         </trans-unit>
-        <trans-unit id="104" translate="yes" xml:space="preserve">
+        <trans-unit id="105" translate="yes" xml:space="preserve">
           <source>The Local Configuration Manager (LCM) on the target node puts the fragments together before applying them as a single configuration.</source>
           <target state="translated">目標節點上本機設定管理員 (LCM) 先將片段放在一起，再當成單一設定套用。</target>         
         </trans-unit>
-        <trans-unit id="105" translate="yes" xml:space="preserve">
+        <trans-unit id="106" translate="yes" xml:space="preserve">
           <source>This capability allows sharing control of configuration between teams or individuals.</source>
           <target state="translated">這項功能可讓團隊或個人之間共用設定控制權。</target>         
         </trans-unit>
-        <trans-unit id="106" translate="yes" xml:space="preserve">
+        <trans-unit id="107" translate="yes" xml:space="preserve">
           <source>For example, if two or more teams of developers are collaborating on a service, they might each want to create configurations to manage their part of the service.</source>
           <target state="translated">例如，如果兩個或多個開發人員小組在一項服務共同作業，便有可能每個人都想要建立設定來管理服務的一部分。</target>         
         </trans-unit>
-        <trans-unit id="107" translate="yes" xml:space="preserve">
+        <trans-unit id="108" translate="yes" xml:space="preserve">
           <source>Each of these configurations could be pulled from different pull servers, and they could be added at different stages of development.</source>
           <target state="translated">每一種設定可能提取自不同提取伺服器，因此無法將它們加入開發的不同階段。</target>         
         </trans-unit>
-        <trans-unit id="108" translate="yes" xml:space="preserve">
+        <trans-unit id="109" translate="yes" xml:space="preserve">
           <source>Partial configurations also allow different individuals or teams to control different aspects of configuring nodes without having to coordinate the editing of a single configuration document.</source>
           <target state="translated">部分設定也可讓不同的個人或小組控制設定節點的不同層面，而不需要協調單一設定文件的編輯。</target>         
         </trans-unit>
-        <trans-unit id="109" translate="yes" xml:space="preserve">
+        <trans-unit id="110" translate="yes" xml:space="preserve">
           <source>For example, one team might be responsible for deploying a VM and operating system, while another team might deploy other applications and services on that VM.</source>
           <target state="translated">例如，一個小組可能會負責部署 VM 和作業系統，而另一個小組負責在該 VM 上部署其他應用程式和服務。</target>         
         </trans-unit>
-        <trans-unit id="110" translate="yes" xml:space="preserve">
+        <trans-unit id="111" translate="yes" xml:space="preserve">
           <source>With partial configurations, each team can create its own configuration, without either of them being unnecessarily complicated.</source>
           <target state="translated">藉由部分設定，每個小組都可以建立自己的設定，而不會讓任一組的設定不必要地複雜。</target>         
         </trans-unit>
-        <trans-unit id="111" translate="yes" xml:space="preserve">
+        <trans-unit id="112" translate="yes" xml:space="preserve">
           <source>You can use partial configurations in push mode, pull mode, or a combination of the two.</source>
           <target state="translated">您可以藉由推送模式、提取模式或兩者組合來使用部分設定。</target>         
         </trans-unit>
-        <trans-unit id="112" translate="yes" xml:space="preserve">
+        <trans-unit id="113" translate="yes" xml:space="preserve">
           <source>Partial configurations in push mode</source>
           <target state="translated">推送模式中的部分設定</target>         
         </trans-unit>
-        <trans-unit id="113" translate="yes" xml:space="preserve">
+        <trans-unit id="114" translate="yes" xml:space="preserve">
           <source>To use partial configurations in push mode, you configure the LCM on the target node to receive the partial configurations.</source>
           <target state="translated">若要在推送模式下使用部分設定，您可以設定目標節點上的 LCM 接收部分設定。</target>         
         </trans-unit>
-        <trans-unit id="114" translate="yes" xml:space="preserve">
+        <trans-unit id="115" translate="yes" xml:space="preserve">
           <source>Each partial configuration must be pushed to the target by using the Publish-DSCConfiguration cmdlet.</source>
           <target state="translated">每個部分設定都必須使用 Publish-DSCConfiguration Cmdlet 推送至目標。</target>         
         </trans-unit>
-        <trans-unit id="115" translate="yes" xml:space="preserve">
+        <trans-unit id="116" translate="yes" xml:space="preserve">
           <source>The target node then combines the partial configuration into a single configuration, and you can apply the configuration by calling the <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> cmdlet.</source>
           <target state="translated">目標節點接著會將部分設定結合至單一設定中，您也可以呼叫 <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> Cmdlet 來套用設定。</target>         
         </trans-unit>
-        <trans-unit id="116" translate="yes" xml:space="preserve">
+        <trans-unit id="117" translate="yes" xml:space="preserve">
           <source>Configuring the LCM for push-mode partial configurations</source>
           <target state="translated">設定推送模式部分設定的 LCM</target>         
         </trans-unit>
-        <trans-unit id="117" translate="yes" xml:space="preserve">
+        <trans-unit id="118" translate="yes" xml:space="preserve">
           <source>To configure the LCM for partial configurations in push mode, you create a <bpt id="p1">**</bpt>DSCLocalConfigurationManager<ept id="p1">**</ept> configuration with one <bpt id="p2">**</bpt>PartialConfiguration<ept id="p2">**</ept> block for each partial configuration.</source>
           <target state="translated">若要設定推送模式中部分設定的 LCM，請對每個部分設定建立 <bpt id="p1">**</bpt>DSCLocalConfigurationManager<ept id="p1">**</ept> 設定與一個 <bpt id="p2">**</bpt>PartialConfiguration<ept id="p2">**</ept> 區塊。</target>         
         </trans-unit>
-        <trans-unit id="118" translate="yes" xml:space="preserve">
+        <trans-unit id="119" translate="yes" xml:space="preserve">
           <source>For more information about configuring the LCM, see <bpt id="p1">[</bpt>Windows Configuring the Local Configuration Manager<ept id="p1">](https://technet.microsoft.com/en-us/library/mt421188.aspx)</ept>.</source>
           <target state="translated">如需設定 LCM 的詳細資訊，請參閱 <bpt id="p1">[</bpt>Windows Configuring the Local Configuration Manager (Windows 設定本機設定管理員)<ept id="p1">](https://technet.microsoft.com/en-us/library/mt421188.aspx)</ept>。</target>         
         </trans-unit>
-        <trans-unit id="119" translate="yes" xml:space="preserve">
+        <trans-unit id="120" translate="yes" xml:space="preserve">
           <source>The following example shows an LCM configuration that expects two partial configurations—one that deploys the OS, and one that deploys and configures SharePoint.</source>
           <target state="translated">下列範例顯示預期會有兩個部分設定的 LCM 設定，其中一個部署作業系統，另一個部署及設定 SharePoint。</target>         
         </trans-unit>
-        <trans-unit id="120" translate="yes" xml:space="preserve">
+        <trans-unit id="121" translate="yes" xml:space="preserve">
           <source>The <bpt id="p1">**</bpt>RefreshMode<ept id="p1">**</ept> for each partial configuration is set to "Push".</source>
           <target state="translated">每個部分設定的 <bpt id="p1">**</bpt>RefreshMode<ept id="p1">**</ept> 設為 "Push"。</target>         
         </trans-unit>
-        <trans-unit id="121" translate="yes" xml:space="preserve">
+        <trans-unit id="122" translate="yes" xml:space="preserve">
           <source>The names of the <bpt id="p1">**</bpt>PartialConfiguration<ept id="p1">**</ept> blocks (in this case, "OSInstall" and "SharePointConfig") must match exactly the names of the configurations that are pushed to the target node.</source>
           <target state="translated"><bpt id="p1">**</bpt>PartialConfiguration<ept id="p1">**</ept> 區塊的名稱 (在此情況下為 "OSInstall" 和 "SharePointConfig") 必須完全符合推送至目標節點的設定名稱。</target>         
         </trans-unit>
-        <trans-unit id="122" translate="yes" xml:space="preserve">
+        <trans-unit id="123" translate="yes" xml:space="preserve">
           <source>Publishing and starting push-mode partial configurations</source>
           <target state="translated">發佈和啟動推送模式部分設定</target>         
         </trans-unit>
-        <trans-unit id="123" translate="yes" xml:space="preserve">
+        <trans-unit id="124" translate="yes" xml:space="preserve">
           <source>PartialConfig folder structure</source>
           <target state="translated">PartialConfig 資料夾結構</target>         
         </trans-unit>
-        <trans-unit id="124" translate="yes" xml:space="preserve">
+        <trans-unit id="125" translate="yes" xml:space="preserve">
           <source>You then call <bpt id="p1">**</bpt>Publish-DSCConfiguration<ept id="p1">**</ept> for each configuration, passing the folders that contain the configuration documents as the Path parameters.</source>
           <target state="translated">然後您可對每個設定呼叫 <bpt id="p1">**</bpt>Publish-DSCConfiguration<ept id="p1">**</ept>，傳遞包含設定文件的資料夾作為 Path 參數。</target>         
         </trans-unit>
-        <trans-unit id="125" translate="yes" xml:space="preserve">
+        <trans-unit id="126" translate="yes" xml:space="preserve">
           <source>After publishing both configurations, you can call <ph id="ph1">`Start-DSCConfiguration –UseExisting`</ph> on the target node.</source>
           <target state="translated">發佈這兩種設定之後，您可以在目標節點上呼叫 <ph id="ph1">`Start-DSCConfiguration –UseExisting`</ph>。</target>         
         </trans-unit>
-        <trans-unit id="126" translate="yes" xml:space="preserve">
+        <trans-unit id="127" translate="yes" xml:space="preserve">
           <source>Partial configurations in pull mode</source>
           <target state="translated">提取模式中的部分設定</target>         
         </trans-unit>
-        <trans-unit id="127" translate="yes" xml:space="preserve">
+        <trans-unit id="128" translate="yes" xml:space="preserve">
           <source>Partial configurations can be pulled from one or more pull servers (for more information about pull servers, see <bpt id="p1">[</bpt>Windows PowerShell Desired State Configuration Pull Servers<ept id="p1">](pullServer.md)</ept>.</source>
           <target state="translated">部分設定可從一或多個提取伺服器提取 (如需提取伺服器的詳細資訊，請參閱 <bpt id="p1">[</bpt>Windows PowerShell 期望狀態設定提取伺服器<ept id="p1">](pullServer.md)</ept>。</target>         
         </trans-unit>
-        <trans-unit id="128" translate="yes" xml:space="preserve">
+        <trans-unit id="129" translate="yes" xml:space="preserve">
           <source>To do this, you have to configure the LCM on the target node to pull the partial configurations, and name and locate the configuration documents properly on the pull servers.</source>
           <target state="translated">若要這樣做，您必須在目標節點上設定 LCM，以提取部分設定，並在提取伺服器上適當地命名和放置設定文件。</target>         
         </trans-unit>
-        <trans-unit id="129" translate="yes" xml:space="preserve">
+        <trans-unit id="130" translate="yes" xml:space="preserve">
           <source>Configuring the LCM for pull node configurations</source>
           <target state="translated">設定提取節點設定 LCM</target>         
         </trans-unit>
-        <trans-unit id="130" translate="yes" xml:space="preserve">
+        <trans-unit id="131" translate="yes" xml:space="preserve">
           <source>To configure the LCM to pull partial configurations from a pull server, you define the pull server in either a <bpt id="p1">**</bpt>ConfigurationRepositoryWeb<ept id="p1">**</ept> (for an HTTP pull server) or <bpt id="p2">**</bpt>ConfigurationRepositoryShare<ept id="p2">**</ept> (for an SMB pull server) block.</source>
           <target state="translated">若要設定 LCM 從提取伺服器提取部分設定，您必須在 <bpt id="p1">**</bpt>ConfigurationRepositoryWeb<ept id="p1">**</ept> (適用於 HTTP 提取伺服器) 或 <bpt id="p2">**</bpt>ConfigurationRepositoryShare<ept id="p2">**</ept> (適用於 SMB 提取伺服器) 區塊定義提取伺服器。</target>         
         </trans-unit>
-        <trans-unit id="131" translate="yes" xml:space="preserve">
+        <trans-unit id="132" translate="yes" xml:space="preserve">
           <source>You then create <bpt id="p1">**</bpt>PartialConfiguration<ept id="p1">**</ept> blocks that refer to the pull server by using the <bpt id="p2">**</bpt>ConfigurationSource<ept id="p2">**</ept> property.</source>
           <target state="translated">接著建立 <bpt id="p1">**</bpt>PartialConfiguration<ept id="p1">**</ept> 區塊，該區塊可使用 <bpt id="p2">**</bpt>ConfigurationSource<ept id="p2">**</ept> 屬性參考提取伺服器。</target>         
         </trans-unit>
-        <trans-unit id="132" translate="yes" xml:space="preserve">
+        <trans-unit id="133" translate="yes" xml:space="preserve">
           <source>You also need to create a Settings block to specify that the LCM uses pull mode, and to specify the ConfigurationID that the pull server and target node use to identify the configurations.</source>
           <target state="translated">您也需要建立 Settings 區塊以指定 LCM 使用提取模式，並指定提取伺服器與目標節點用來識別設定的 ConfigurationID。</target>         
         </trans-unit>
-        <trans-unit id="133" translate="yes" xml:space="preserve">
+        <trans-unit id="134" translate="yes" xml:space="preserve">
           <source>The following meta-configuration defines an HTTP pull server named CONTOSO-PullSrv and two partial configurations that use that pull server.</source>
           <target state="translated">下列中繼設定會定義名為 CONTOSO-PullSrv 的 HTTP 提取伺服器，和使用該提取伺服器的兩個部分設定。</target>         
         </trans-unit>
-        <trans-unit id="134" translate="yes" xml:space="preserve">
+        <trans-unit id="135" translate="yes" xml:space="preserve">
           <source>You can pull partial configurations from more than one pull server—you would just need to define each pull server, and then refer to the appropriate pull server in each PartialConfiguration block.</source>
           <target state="translated">您可以從一部以上的提取伺服器提取部分設定，您只需要定義每部提取伺服器，並在每個 PartialConfiguration 區塊中參考適當的提取伺服器。</target>         
         </trans-unit>
-        <trans-unit id="135" translate="yes" xml:space="preserve">
+        <trans-unit id="136" translate="yes" xml:space="preserve">
           <source>After creating the meta-configuration, you must run it to create a configuration document (a MOF file), and then call <bpt id="p1">[</bpt>Set-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521621(v=wps.630).aspx)</ept> to configure the LCM.</source>
           <target state="translated">建立中繼設定之後，您必須執行此設定來建立設定文件 (MOF 檔案)，然後呼叫 <bpt id="p1">[</bpt>Set-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521621(v=wps.630).aspx)</ept> 以設定 LCM。</target>         
         </trans-unit>
-        <trans-unit id="136" translate="yes" xml:space="preserve">
+        <trans-unit id="137" translate="yes" xml:space="preserve">
           <source>Naming and placing the configuration documents on the pull server</source>
           <target state="translated">在提取伺服器上命名和放置設定文件</target>         
         </trans-unit>
-        <trans-unit id="137" translate="yes" xml:space="preserve">
+        <trans-unit id="138" translate="yes" xml:space="preserve">
           <source>The partial configuration documents must be placed in the folder specified as the <bpt id="p1">**</bpt>ConfigurationPath<ept id="p1">**</ept> in the <ph id="ph1">`web.config`</ph> file for the pull server (typically <ph id="ph2">`C:\Program Files\WindowsPowerShell\DscService\Configuration`</ph>).</source>
           <target state="translated">部分設定文件必須位於提取伺服器的 <ph id="ph1">`web.config`</ph> 檔案 (通常為 <ph id="ph2">`C:\Program Files\WindowsPowerShell\DscService\Configuration`</ph>) 內指定為 <bpt id="p1">**</bpt>ConfigurationPath<ept id="p1">**</ept> 的資料夾中。</target>         
         </trans-unit>
-        <trans-unit id="138" translate="yes" xml:space="preserve">
+        <trans-unit id="139" translate="yes" xml:space="preserve">
           <source>The configuration documents must be named as follows: <bpt id="p1">_</bpt>ConfigurationName<ept id="p1">_</ept>.</source>
           <target state="translated">設定文件名稱必須如下命名：<bpt id="p1">_</bpt>ConfigurationName<ept id="p1">_</ept>。</target>         
         </trans-unit>
-        <trans-unit id="139" translate="yes" xml:space="preserve">
+        <trans-unit id="140" translate="yes" xml:space="preserve">
           <source><bpt id="p1">_</bpt>ConfigurationID<ept id="p1">_</ept><ph id="ph1">`.mof`</ph>, where <bpt id="p2">_</bpt>ConfigurationName<ept id="p2">_</ept> is the name of the partial configuration and <bpt id="p3">_</bpt>ConfigurationID<ept id="p3">_</ept> is the configuration ID defined in the LCM on the target node.</source>
           <target state="translated"><bpt id="p1">_</bpt>ConfigurationID<ept id="p1">_</ept><ph id="ph1">`.mof`</ph>，其中 <bpt id="p2">_</bpt>ConfigurationName<ept id="p2">_</ept> 是部分設定的名稱，而 <bpt id="p3">_</bpt>ConfigurationID<ept id="p3">_</ept> 是目標節點上 LCM 中所定義的設定識別碼。</target>         
         </trans-unit>
-        <trans-unit id="140" translate="yes" xml:space="preserve">
+        <trans-unit id="141" translate="yes" xml:space="preserve">
           <source>For our example, the configuration documents should be names as follows.</source>
           <target state="translated">在此範例中，設定文件名稱應該如下。</target>         
         </trans-unit>
-        <trans-unit id="141" translate="yes" xml:space="preserve">
-          <source><ph id="ph1">![</ph>PartialConfig names on pull server<ph id="ph2">](images/PartialConfigPullServer.jpg)</ph></source>
-          <target state="translated"><ph id="ph1">![</ph>在提取伺服器上的 PartialConfig 名稱<ph id="ph2">](images/PartialConfigPullServer.jpg)</ph></target>         
-        </trans-unit>
         <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>PartialConfig names on pull server</source>
+          <target state="translated">在提取伺服器上的 PartialConfig 名稱</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
           <source>Running partial configurations from a pull server</source>
           <target state="translated">從提取伺服器中執行部分設定</target>         
         </trans-unit>
-        <trans-unit id="143" translate="yes" xml:space="preserve">
+        <trans-unit id="144" translate="yes" xml:space="preserve">
           <source>After the LCM on the target node has been configured, and the configuration documents have been created and properly named on the pull server, the target node will pull the partial configurations, combine them, and apply the resulting configuration at regular intervals as specified by the <bpt id="p1">**</bpt>RefreshFrequencyMins<ept id="p1">**</ept> property of the LCM.</source>
           <target state="translated">已在目標節點上設定 LCM 之後，且已在提取伺服器上建立並正確將設定文件命名之後，目標節點將會提取部分設定、結合部分設定，並依據 LCM 屬性 <bpt id="p1">**</bpt>RefreshFrequencyMins<ept id="p1">**</ept> 所指定的固定間隔套用所產生的設定。</target>         
         </trans-unit>
-        <trans-unit id="144" translate="yes" xml:space="preserve">
+        <trans-unit id="145" translate="yes" xml:space="preserve">
           <source>If you want to force a refresh, you can call the Update-DscConfiguration cmdlet, to pull the configurations, and then <ph id="ph1">`Start-DSCConfiguration –UseExisting`</ph> to apply them.</source>
           <target state="translated">如果您想要強制重新整理，您可以呼叫 Update-DscConfiguration Cmdlet 以提取設定，然後呼叫 <ph id="ph1">`Start-DSCConfiguration –UseExisting`</ph> 以套用設定。</target>         
         </trans-unit>
-        <trans-unit id="145" translate="yes" xml:space="preserve">
+        <trans-unit id="146" translate="yes" xml:space="preserve">
           <source>Partial configurations in mixed push and pull modes</source>
           <target state="translated">混合推送和提取模式中的部分設定</target>         
         </trans-unit>
-        <trans-unit id="146" translate="yes" xml:space="preserve">
+        <trans-unit id="147" translate="yes" xml:space="preserve">
           <source>You can also mix push and pull modes for partial configurations.</source>
           <target state="translated">您也可以混和部分設定的推送和提取模式。</target>         
         </trans-unit>
-        <trans-unit id="147" translate="yes" xml:space="preserve">
+        <trans-unit id="148" translate="yes" xml:space="preserve">
           <source>That is, you could have one partial configuration that is pulled from a pull server, while another partial configuration is pushed.</source>
           <target state="translated">也就是說，推送另一個部分設定時，您可能會有一個從提取伺服器提取的部分設定。</target>         
         </trans-unit>
-        <trans-unit id="148" translate="yes" xml:space="preserve">
+        <trans-unit id="149" translate="yes" xml:space="preserve">
           <source>Treat each partial configuration as you would, depending on its refresh mode as described in the previous sections.</source>
           <target state="translated">請根據前一節所述的重新整理模式，像平常一樣處理每個部分設定。</target>         
         </trans-unit>
-        <trans-unit id="149" translate="yes" xml:space="preserve">
+        <trans-unit id="150" translate="yes" xml:space="preserve">
           <source>For example, the following meta-configuration describes the same example, with the operating system partial configuration in pull mode and the SharePoint partial configuration in push mode.</source>
           <target state="translated">例如，下列中繼設定描述相同的範例，其中作業系統部分設定位在提取模式下，而 SharePoint 部分設定位在推送模式下。</target>         
         </trans-unit>
-        <trans-unit id="150" translate="yes" xml:space="preserve">
+        <trans-unit id="151" translate="yes" xml:space="preserve">
           <source>Note that the <bpt id="p1">**</bpt>RefreshMode<ept id="p1">**</ept> specified in the Settings block is "Pull", but the <bpt id="p2">**</bpt>RefreshMode<ept id="p2">**</ept> for the OSInstall partial configuration is "Push".</source>
           <target state="translated">請注意，在 Settings 區塊中指定的 <bpt id="p1">**</bpt>RefreshMode<ept id="p1">**</ept> 為 "Pull"，但 OSInstall 部分設定的 <bpt id="p2">**</bpt>RefreshMode<ept id="p2">**</ept> 會是 "Push"。</target>         
         </trans-unit>
-        <trans-unit id="151" translate="yes" xml:space="preserve">
-          <source>You would name and locate the configuration documents as described above for their respective refresh modes.</source>
-          <target state="translated">您可如上面所述，對其各自的重新整理模式命名和放置設定文件。</target>         
-        </trans-unit>
         <trans-unit id="152" translate="yes" xml:space="preserve">
-          <source>You would call <bpt id="p1">**</bpt>Publish-DSCConfiguration<ept id="p1">**</ept> to publish the SharePointInstall partial configuration, and either wait for the OSInstall configuration to be pulled from the pull server, or force a refresh by calling <bpt id="p2">[</bpt>Update-DscConfiguration<ept id="p2">](https://technet.microsoft.com/en-us/library/mt143541(v=wps.630).aspx)</ept>.</source>
-          <target state="translated">您可以呼叫 <bpt id="p1">**</bpt>Publish-DSCConfiguration<ept id="p1">**</ept> 來發佈 SharePointInstall 部分設定，然後等待 OSInstall 設定從提取伺服器上提取，或藉由呼叫 <bpt id="p2">[</bpt>Update-DscConfiguration<ept id="p2">](https://technet.microsoft.com/en-us/library/mt143541(v=wps.630).aspx)</ept> 強制重新整理。</target>         
+          <source>Name and locate the configuration MOF files as described above for their respective refresh modes.</source>
+          <target state="translated">如上面所述，對其各自的重新整理模式命名和放置設定 MOF 檔案。</target>         
         </trans-unit>
         <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Call <bpt id="p1">**</bpt>Publish-DSCConfiguration<ept id="p1">**</ept> to publish the <ph id="ph1">`SharePointInstall`</ph> partial configuration, and either wait for the <ph id="ph2">`OSInstall`</ph> configuration to be pulled from the pull server, or force a refresh by calling <bpt id="p2">[</bpt>Update-DscConfiguration<ept id="p2">](https://technet.microsoft.com/en-us/library/mt143541(v=wps.630).aspx)</ept>.</source>
+          <target state="translated">呼叫 <bpt id="p1">**</bpt>Publish-DSCConfiguration<ept id="p1">**</ept> 來發佈 <ph id="ph1">`SharePointInstall`</ph> 部分設定，然後等待 <ph id="ph2">`OSInstall`</ph> 設定從提取伺服器上提取，或藉由呼叫 <bpt id="p2">[</bpt>Update-DscConfiguration<ept id="p2">](https://technet.microsoft.com/en-us/library/mt143541(v=wps.630).aspx)</ept> 強制重新整理。</target>         
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Example OSInstall Partial Configuration</source>
+          <target state="translated">OSInstall 部分設定範例</target>         
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Example SharePointConfig Partial Configuration</source>
+          <target state="translated">SharePointConfig 部分設定範例</target>         
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
           <source>See Also</source>
           <target state="translated">另請參閱</target>         
         </trans-unit>
-        <trans-unit id="154" translate="yes" xml:space="preserve">
-          <source>Concepts</source>
-          <target state="translated">概念</target>         
-        </trans-unit>
-        <trans-unit id="155" translate="yes" xml:space="preserve">
-          <source>Windows PowerShell Desired State Configuration Pull Servers</source>
-          <target state="translated">Windows PowerShell 預期狀態設定提取伺服器</target>         
-        </trans-unit>
-        <trans-unit id="156" translate="yes" xml:space="preserve">
-          <source>Windows Configuring the Local Configuration Manager</source>
-          <target state="translated">Windows 設定本機設定管理員</target>         
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Concepts<ept id="p1">**</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Windows PowerShell Desired State Configuration Pull Servers<ept id="p2">](pullServer.md)</ept><ph id="ph2"> 
+</ph><bpt id="p3">[</bpt>Windows Configuring the Local Configuration Manager<ept id="p3">](https://technet.microsoft.com/en-us/library/mt421188.aspx)</ept></source>
+          <target state="translated"><bpt id="p1">**</bpt>概念<ept id="p1">**</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Windows PowerShell 預期狀態設定提取伺服器<ept id="p2">](pullServer.md)</ept><ph id="ph2"> 
+</ph><bpt id="p3">[</bpt>Windows 設定本機設定管理員<ept id="p3">](https://technet.microsoft.com/en-us/library/mt421188.aspx)</ept></target>         
         </trans-unit>
       </group>
     </body>
