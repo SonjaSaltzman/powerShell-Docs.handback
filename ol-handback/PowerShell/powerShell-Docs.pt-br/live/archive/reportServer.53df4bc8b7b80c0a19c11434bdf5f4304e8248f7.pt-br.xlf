@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" original="md" source-language="en-US" target-language="pt-br">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
     <header>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e8e890b02530d6abf3e6fecf18f6779e81c84eec</xliffext:olfilehash>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-04046aa" tool-company="Microsoft" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\reportServer.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">086626b02afed0288472bdec4b95e409b47d35d5</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-8d96cd8" tool-company="Microsoft" />
     </header>
     <body>
       <group id="content" extype="content">
@@ -13,202 +14,154 @@
           <target state="translated">Usando um servidor de relatório de DSC</target>         
         </trans-unit>
         <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Using a DSC report server</source>
+          <target state="translated">Usando um servidor de relatório de DSC</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
           <source>Applies To: Windows PowerShell 5.0</source>
           <target state="translated">Aplica-se a: Windows PowerShell 5.0</target>         
         </trans-unit>
-        <trans-unit id="103" translate="yes" xml:space="preserve">
+        <trans-unit id="104" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> The report server described in this topic is not available in PowerShell 4.0.</source>
           <target state="translated"><bpt id="p1">**</bpt>Observação<ept id="p1">**</ept>: o servidor de relatório descrito neste tópico não está disponível no PowerShell 4.0.</target>         
         </trans-unit>
-        <trans-unit id="104" translate="yes" xml:space="preserve">
+        <trans-unit id="105" translate="yes" xml:space="preserve">
           <source>The Local Configuration Manager (LCM) of a node can be configured to send reports about its configuration status to a pull server, which can then be queried to retrieve that data.</source>
           <target state="translated">O Gerenciador de Configurações Local (LCM) de um nó pode ser configurado para enviar relatórios sobre o status de configuração para um servidor de pull, que, por sua vez, pode ser consultado para recuperar dados.</target>         
         </trans-unit>
-        <trans-unit id="105" translate="yes" xml:space="preserve">
-          <source>Each time the node checks and applies</source>
-          <target state="translated">Cada vez que o nó verifica e aplica</target>         
-        </trans-unit>
         <trans-unit id="106" translate="yes" xml:space="preserve">
-          <source>a configuration, it sends a report to the report server.</source>
-          <target state="translated">uma configuração, envia um relatório para o servidor de relatório.</target>         
+          <source>Each time the node checks and applies a configuration, it sends a report to the report server.</source>
+          <target state="translated">Cada vez que o nó verifica e aplica uma configuração, ele envia um relatório para o servidor de relatório.</target>         
         </trans-unit>
         <trans-unit id="107" translate="yes" xml:space="preserve">
           <source>These reports are stored in a database on the server, and can be retrieved by calling the reporting web service.</source>
           <target state="translated">Esses relatórios são armazenados em um banco de dados no servidor e podem ser recuperados chamando o serviço Web de relatórios.</target>         
         </trans-unit>
         <trans-unit id="108" translate="yes" xml:space="preserve">
-          <source>Each report contains</source>
-          <target state="translated">Cada relatório contém</target>         
+          <source>Each report contains information such as what configurations were applied and whether they succeeded, the resources used, any errors that were thrown, and start and finish times.</source>
+          <target state="translated">Cada relatório contém informações como quais configurações foram aplicadas e se tiveram êxito, os recursos usados, os erros que foram lançados e os horários de início e término.</target>         
         </trans-unit>
         <trans-unit id="109" translate="yes" xml:space="preserve">
-          <source>information such as what configurations were applied and whether they succeeded, the resources used, any errors that were thrown, and start and finish times.</source>
-          <target state="translated">informações como quais configurações foram aplicadas e se tiveram êxito, os recursos usados, os erros que foram lançados e os horários de início e término.</target>         
-        </trans-unit>
-        <trans-unit id="110" translate="yes" xml:space="preserve">
           <source>Configuring a node to send reports</source>
           <target state="translated">Configurando um nó para enviar relatórios</target>         
         </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You tell a node to send reports to a server by using a <bpt id="p1">**</bpt>ReportServerWeb<ept id="p1">**</ept> block in the node's LCM configuration (for information about configuring the LCM, see <bpt id="p2">[</bpt>Configuring the Local Configuration Manager<ept id="p2">](metaConfig.md)</ept>).</source>
+          <target state="translated">Um nó é instruído a enviar relatórios para um servidor usando um bloco <bpt id="p1">**</bpt>ReportServerWeb<ept id="p1">**</ept> na configuração do LCM do nó (para obter informações sobre como configurar o LCM, confira <bpt id="p2">[</bpt>Configurando o Gerenciador de Configurações Local<ept id="p2">](metaConfig.md)</ept>).</target>         
+        </trans-unit>
         <trans-unit id="111" translate="yes" xml:space="preserve">
-          <source>You tell a node to send reports to a server by using a <bpt id="p1">**</bpt>ReportServerWeb<ept id="p1">**</ept> block in the node's LCM configuration (for information about configuring the LCM,</source>
-          <target state="translated">Um nó é instruído a enviar relatórios para um servidor usando um bloco <bpt id="p1">**</bpt>ReportServerWeb<ept id="p1">**</ept> na configuração do LCM do nó (para obter informações sobre como configurar o LCM,</target>         
+          <source>The server to which the node sends reports must be set up as a web pull server (you cannot send reports to an SMB share).</source>
+          <target state="translated">O servidor ao qual o nó envia relatórios deve ser configurado como servidor de pull da Web (não é possível enviar relatórios para um compartilhamento SMB).</target>         
         </trans-unit>
         <trans-unit id="112" translate="yes" xml:space="preserve">
-          <source>see <bpt id="p1">[</bpt>Configuring the Local Configuration Manager<ept id="p1">](metaConfig.md)</ept>).</source>
-          <target state="translated">consulte <bpt id="p1">[</bpt>Configurando o Gerenciador de Configurações Local<ept id="p1">](metaConfig.md)</ept>).</target>         
-        </trans-unit>
-        <trans-unit id="113" translate="yes" xml:space="preserve">
-          <source>The server to which the node sends reports must be set up as a web pull server (you cannot send reports</source>
-          <target state="translated">O servidor ao qual o nó envia relatórios deve ser configurado como servidor de pull da Web (não é possível enviar relatórios</target>         
-        </trans-unit>
-        <trans-unit id="114" translate="yes" xml:space="preserve">
-          <source>to an SMB share).</source>
-          <target state="translated">para um compartilhamento SMB).</target>         
-        </trans-unit>
-        <trans-unit id="115" translate="yes" xml:space="preserve">
           <source>For information about setting up a pull server, see <bpt id="p1">[</bpt>Setting up a DSC web pull server<ept id="p1">](pullServer.md)</ept>.</source>
           <target state="translated">Para obter informações sobre a configuração de um servidor de pull, consulte <bpt id="p1">[</bpt>Configurando um servidor de pull da Web de DSC<ept id="p1">](pullServer.md)</ept>.</target>         
         </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The report server can be the same service from which the node pulls configurations and gets resources, or it can be a different service.</source>
+          <target state="translated">O servidor de relatório pode ser o mesmo serviço do qual o nó efetua pull de configurações e obtém recursos ou pode ser um serviço diferente.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>ReportServerWeb<ept id="p1">**</ept> block, you specify the URL of the pull service and a registration key that is known to the server.</source>
+          <target state="translated">No bloco <bpt id="p1">**</bpt>ReportServerWeb<ept id="p1">**</ept>, especifique a URL do serviço de pull e uma chave de Registro que seja conhecida pelo servidor.</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The following configuration configures a node to pull configurations from one service, and send reports to a service on a different server.</source>
+          <target state="translated">A configuração a seguir define um nó para efetuar pull de configurações por meio de um serviço e enviar relatórios para um serviço em um servidor diferente.</target>         
+        </trans-unit>
         <trans-unit id="116" translate="yes" xml:space="preserve">
-          <source>The report server can be the same service from which</source>
-          <target state="translated">O servidor de relatório pode ser o mesmo serviço do qual</target>         
-        </trans-unit>
-        <trans-unit id="117" translate="yes" xml:space="preserve">
-          <source>the node pulls configurations and gets resources, or it can be a different service.</source>
-          <target state="translated">o nó efetua pull de configurações e obtém recursos ou pode ser um serviço diferente.</target>         
-        </trans-unit>
-        <trans-unit id="118" translate="yes" xml:space="preserve">
-          <source>In the <bpt id="p1">**</bpt>ReportServerWeb<ept id="p1">**</ept> block, you specify the URL of the pull service</source>
-          <target state="translated">No bloco <bpt id="p1">**</bpt>ReportServerWeb<ept id="p1">**</ept>, especifique a URL do serviço de pull</target>         
-        </trans-unit>
-        <trans-unit id="119" translate="yes" xml:space="preserve">
-          <source>and a registration key that is known to the server.</source>
-          <target state="translated">e uma chave de registro que seja conhecida pelo servidor.</target>         
-        </trans-unit>
-        <trans-unit id="120" translate="yes" xml:space="preserve">
-          <source>The following configuration configures a node to pull configurations from one service, and send reports</source>
-          <target state="translated">A configuração a seguir define um nó para efetuar pull de configurações por meio de um serviço e enviar relatórios</target>         
-        </trans-unit>
-        <trans-unit id="121" translate="yes" xml:space="preserve">
-          <source>to a service on a different server.</source>
-          <target state="translated">para um serviço em um servidor diferente.</target>         
-        </trans-unit>
-        <trans-unit id="122" translate="yes" xml:space="preserve">
           <source>The following configuration configures a node to use a single server for configurations, resources, and reporting.</source>
           <target state="translated">A configuração a seguir configura um nó para usar um único servidor de relatórios, recursos e configurações.</target>         
         </trans-unit>
-        <trans-unit id="123" translate="yes" xml:space="preserve">
+        <trans-unit id="117" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> You can name the web service whatever you want when you set up a pull server, but the <bpt id="p2">**</bpt>ServerURL<ept id="p2">**</ept> property must match the service name.</source>
           <target state="translated"><bpt id="p1">**</bpt>Observação:<ept id="p1">**</ept> você pode nomear o serviço Web que desejar ao configurar um servidor de pull, mas a propriedade <bpt id="p2">**</bpt>ServerURL<ept id="p2">**</ept> deve corresponder ao nome do serviço.</target>         
         </trans-unit>
-        <trans-unit id="124" translate="yes" xml:space="preserve">
+        <trans-unit id="118" translate="yes" xml:space="preserve">
           <source>Getting report data</source>
           <target state="translated">Obtendo dados de relatório</target>         
         </trans-unit>
-        <trans-unit id="125" translate="yes" xml:space="preserve">
+        <trans-unit id="119" translate="yes" xml:space="preserve">
           <source>Reports sent to the pull server are entered into a database on the server.</source>
           <target state="translated">Relatórios enviados para o servidor de pull são inseridos em um banco de dados no servidor.</target>         
         </trans-unit>
-        <trans-unit id="126" translate="yes" xml:space="preserve">
+        <trans-unit id="120" translate="yes" xml:space="preserve">
           <source>The reports are available through calls to the web service.</source>
           <target state="translated">Os relatórios estão disponíveis por meio de chamadas para o serviço Web.</target>         
         </trans-unit>
-        <trans-unit id="127" translate="yes" xml:space="preserve">
-          <source>To retrieve reports for a specific node,</source>
-          <target state="translated">Para recuperar os relatórios de um nó específico,</target>         
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To retrieve reports for a specific node, send an HTTP request to the report web service in the following form: <ph id="ph1">`http://CONTOSO-REPORT:8080/PSDSCReportServer.svc/Nodes(AgentID = MyNodeAgentId)/Reports`</ph> where <ph id="ph2">`MyNodeAgentId`</ph> is the AgentId of the node for which you want to get reports.</source>
+          <target state="translated">Para recuperar os relatórios de um nó específico, envie uma solicitação HTTP para o serviço Web no relatório a seguir: <ph id="ph1">`http://CONTOSO-REPORT:8080/PSDSCReportServer.svc/Nodes(AgentID = MyNodeAgentId)/Reports`</ph> em que <ph id="ph2">`MyNodeAgentId`</ph> é a AgentId do nó para o qual você deseja obter relatórios.</target>         
         </trans-unit>
-        <trans-unit id="128" translate="yes" xml:space="preserve">
-          <source>send an HTTP request to the report web service in the following form:</source>
-          <target state="translated">envie uma solicitação HTTP para o serviço Web no relatório a seguir:</target>         
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You can get the AgentID for a node by calling <bpt id="p1">[</bpt>Get-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept> on that node.</source>
+          <target state="translated">É possível obter a AgentID para um nó chamando <bpt id="p1">[</bpt>Get-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept> no nó em questão.</target>         
         </trans-unit>
-        <trans-unit id="129" translate="yes" xml:space="preserve">
-          <source>where <ph id="ph1">`MyNodeAgentId`</ph> is the AgentId of the node for which you want to get reports.</source>
-          <target state="translated">em que <ph id="ph1">`MyNodeAgentId`</ph> é a AgentId do nó para o qual você deseja obter relatórios.</target>         
-        </trans-unit>
-        <trans-unit id="130" translate="yes" xml:space="preserve">
-          <source>You can get the AgentID for a node by calling <bpt id="p1">[</bpt>Get-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept></source>
-          <target state="translated">Pode-se obter a AgentID para um nó chamando <bpt id="p1">[</bpt>Get-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept></target>         
-        </trans-unit>
-        <trans-unit id="131" translate="yes" xml:space="preserve">
-          <source>on that node.</source>
-          <target state="translated">nesse nó.</target>         
-        </trans-unit>
-        <trans-unit id="132" translate="yes" xml:space="preserve">
+        <trans-unit id="123" translate="yes" xml:space="preserve">
           <source>The reports are returned as an array of JSON objects.</source>
           <target state="translated">Os relatórios são gerados como uma matriz de objetos JSON.</target>         
         </trans-unit>
-        <trans-unit id="133" translate="yes" xml:space="preserve">
+        <trans-unit id="124" translate="yes" xml:space="preserve">
           <source>The following script returns the reports for the node on which it is run:</source>
           <target state="translated">O script a seguir gera os relatórios para o nó no qual é executado:</target>         
         </trans-unit>
-        <trans-unit id="134" translate="yes" xml:space="preserve">
+        <trans-unit id="125" translate="yes" xml:space="preserve">
           <source>Viewing report data</source>
           <target state="translated">Exibindo dados de relatório</target>         
         </trans-unit>
-        <trans-unit id="135" translate="yes" xml:space="preserve">
+        <trans-unit id="126" translate="yes" xml:space="preserve">
           <source>If you set a variable to the result of the <bpt id="p1">**</bpt>GetReport<ept id="p1">**</ept> function, you can view the individual fields in an element of the array that is returned:</source>
           <target state="translated">Se você definir uma variável como o resultado da função <bpt id="p1">**</bpt>GetReport<ept id="p1">**</ept>, poderá exibir os campos individuais em um elemento da matriz que é gerada:</target>         
         </trans-unit>
-        <trans-unit id="136" translate="yes" xml:space="preserve">
+        <trans-unit id="127" translate="yes" xml:space="preserve">
           <source>By default, the reports are sorted by <bpt id="p1">**</bpt>JobID<ept id="p1">**</ept>.</source>
           <target state="translated">Por padrão, os relatórios são classificados por <bpt id="p1">**</bpt>JobID<ept id="p1">**</ept>.</target>         
         </trans-unit>
-        <trans-unit id="137" translate="yes" xml:space="preserve">
+        <trans-unit id="128" translate="yes" xml:space="preserve">
           <source>To get the most recent report, you can sort the reports by descending <bpt id="p1">**</bpt>StartTime<ept id="p1">**</ept> property, and then get the first element of the array:</source>
           <target state="translated">Para obter o relatório mais recente, você pode classificar os relatórios pela propriedade <bpt id="p1">**</bpt>StartTime<ept id="p1">**</ept> decrescente e obter o primeiro elemento da matriz:</target>         
         </trans-unit>
-        <trans-unit id="138" translate="yes" xml:space="preserve">
+        <trans-unit id="129" translate="yes" xml:space="preserve">
           <source>Notice that the <bpt id="p1">**</bpt>StatusData<ept id="p1">**</ept> property is an object with a number of properties.</source>
           <target state="translated">Observe que a propriedade <bpt id="p1">**</bpt>StatusData<ept id="p1">**</ept> é um objeto com diversas propriedades.</target>         
         </trans-unit>
-        <trans-unit id="139" translate="yes" xml:space="preserve">
+        <trans-unit id="130" translate="yes" xml:space="preserve">
           <source>This is where much of the reporting data is.</source>
           <target state="translated">É aqui que se encontra grande parte dos dados de relatório.</target>         
         </trans-unit>
-        <trans-unit id="140" translate="yes" xml:space="preserve">
-          <source>Let's look at the individual fields of the</source>
-          <target state="translated">Vamos examinar os campos individuais da</target>         
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Let's look at the individual fields of the <bpt id="p1">**</bpt>StatusData<ept id="p1">**</ept> property for the most recent report:</source>
+          <target state="translated">Vamos observar os campos individuais da propriedade <bpt id="p1">**</bpt>StatusData<ept id="p1">**</ept> do relatório mais recente:</target>         
         </trans-unit>
-        <trans-unit id="141" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>StatusData<ept id="p1">**</ept> property for the most recent report:</source>
-          <target state="translated">propriedade <bpt id="p1">**</bpt>StatusData<ept id="p1">**</ept> do relatório mais recente:</target>         
-        </trans-unit>
-        <trans-unit id="142" translate="yes" xml:space="preserve">
+        <trans-unit id="132" translate="yes" xml:space="preserve">
           <source>Among other things, this shows that the most recent configuration called two resources, and that one of them was in the desired state, and one of them was not.</source>
           <target state="translated">Entre outras coisas, isso mostra que a configuração mais recente chamou dois recursos e que um deles estava no estado desejado e outro não estava.</target>         
         </trans-unit>
-        <trans-unit id="143" translate="yes" xml:space="preserve">
-          <source>You can get</source>
-          <target state="translated">É possível obter</target>         
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You can get a more readable output of just the <bpt id="p1">**</bpt>ResourcesNotInDesiredState<ept id="p1">**</ept> property:</source>
+          <target state="translated">Você pode obter uma saída mais legível apenas da propriedade <bpt id="p1">**</bpt>ResourcesNotInDesiredState<ept id="p1">**</ept>:</target>         
         </trans-unit>
-        <trans-unit id="144" translate="yes" xml:space="preserve">
-          <source>a more readable output of just the <bpt id="p1">**</bpt>ResourcesNotInDesiredState<ept id="p1">**</ept> property:</source>
-          <target state="translated">uma saída mais legível apenas da propriedade <bpt id="p1">**</bpt>ResourcesNotInDesiredState<ept id="p1">**</ept>:</target>         
-        </trans-unit>
-        <trans-unit id="145" translate="yes" xml:space="preserve">
+        <trans-unit id="134" translate="yes" xml:space="preserve">
           <source>Note that these examples are meant to give you an idea of what you can do with report data.</source>
           <target state="translated">Observe que esses exemplos destinam-se a dar uma ideia do que você pode fazer com os dados de relatório.</target>         
         </trans-unit>
-        <trans-unit id="146" translate="yes" xml:space="preserve">
-          <source>For an introduction on working with JSON in PowerShell, see</source>
-          <target state="translated">Para obter uma introdução sobre como trabalhar com JSON no PowerShell, consulte</target>         
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For an introduction on working with JSON in PowerShell, see <bpt id="p1">[</bpt>Playing with JSON and PowerShell<ept id="p1">](https://blogs.technet.microsoft.com/heyscriptingguy/2015/10/08/playing-with-json-and-powershell/)</ept>.</source>
+          <target state="translated">Para obter uma introdução sobre como trabalhar com JSON no PowerShell, consulte <bpt id="p1">[</bpt>Playing with JSON and PowerShell (Brincando com JSON e PowerShell)<ept id="p1">](https://blogs.technet.microsoft.com/heyscriptingguy/2015/10/08/playing-with-json-and-powershell/)</ept>.</target>         
         </trans-unit>
-        <trans-unit id="147" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">[</bpt>Playing with JSON and PowerShell<ept id="p1">](https://blogs.technet.microsoft.com/heyscriptingguy/2015/10/08/playing-with-json-and-powershell/)</ept>.</source>
-          <target state="translated"><bpt id="p1">[</bpt>Brincando com JSON e PowerShell<ept id="p1">](https://blogs.technet.microsoft.com/heyscriptingguy/2015/10/08/playing-with-json-and-powershell/)</ept>.</target>         
-        </trans-unit>
-        <trans-unit id="148" translate="yes" xml:space="preserve">
+        <trans-unit id="136" translate="yes" xml:space="preserve">
           <source>See Also</source>
           <target state="translated">Consulte Também</target>         
         </trans-unit>
-        <trans-unit id="149" translate="yes" xml:space="preserve">
+        <trans-unit id="137" translate="yes" xml:space="preserve">
           <source>Configuring the Local Configuration Manager</source>
           <target state="translated">Configurando o Gerenciador de Configurações Local</target>         
         </trans-unit>
-        <trans-unit id="150" translate="yes" xml:space="preserve">
+        <trans-unit id="138" translate="yes" xml:space="preserve">
           <source>Setting up a DSC web pull server</source>
           <target state="translated">Configurando um servidor de pull da Web de DSC</target>         
         </trans-unit>
-        <trans-unit id="151" translate="yes" xml:space="preserve">
+        <trans-unit id="139" translate="yes" xml:space="preserve">
           <source>Setting up a pull client using configuration names</source>
           <target state="translated">Configurando um cliente de pull usando nomes de configuração</target>         
         </trans-unit>
