@@ -1,124 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" target-language="ja-jp">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\enactingConfigurations.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4c802002c6a03a27d02221dd713677911a77c30b</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-8d96cd8" tool-company="Microsoft" />
+    </header>
     <body>
-      <group id="main" extype="content">
+      <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
           <source>Enacting configurations</source>
           <target state="translated">構成の適用</target>         
         </trans-unit>
         <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Enacting configurations</source>
+          <target state="translated">構成の適用</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
           <source>Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</source>
           <target state="translated">適用先: Windows PowerShell 4.0、Windows PowerShell 5.0</target>         
         </trans-unit>
-        <trans-unit id="103" translate="yes" xml:space="preserve">
+        <trans-unit id="104" translate="yes" xml:space="preserve">
           <source>There are two ways to enact PowerShell Desired State Configuration (DSC) configurations: push mode and pull mode.</source>
           <target state="translated">PowerShell Desired State Configuration (DSC) 構成を適用するには、プッシュ モードとプル モードの 2 つの方法があります。</target>         
         </trans-unit>
-        <trans-unit id="104" translate="yes" xml:space="preserve">
+        <trans-unit id="105" translate="yes" xml:space="preserve">
           <source>Push mode</source>
           <target state="translated">プッシュ モード</target>         
         </trans-unit>
-        <trans-unit id="105" translate="yes" xml:space="preserve">
-          <source><ph id="ph1">![</ph>Push mode<ph id="ph2">](images/Push.png "How push mode works")</ph></source>
-          <target state="translated"><ph id="ph1">![</ph>プッシュ モード<ph id="ph2">](images/Push.png "How push mode works")</ph></target>         
-        </trans-unit>
         <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Push mode</source>
+          <target state="translated">プッシュ モード</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
           <source>Push mode refers to a user actively applying a configuration to a target node by calling the <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> cmdlet.</source>
           <target state="translated">プッシュ モードは、<bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> コマンドレットを呼び出してターゲット ノードに構成を適用するユーザー アクティビティを示します。</target>         
         </trans-unit>
-        <trans-unit id="107" translate="yes" xml:space="preserve">
-          <source>After creating and compiling a configuration, you can enact it in push mode by calling the <bpt id="p2">[</bpt>Start-DscConfiguration<ept id="p2">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> cmdlet, setting the -Path parameter of the cmdlet to the path where the configuration MOF is located.</source>
-          <target state="translated">構成を作成し、コンパイルした後、プッシュ モードで適用するには、<bpt id="p2">[</bpt>Start-DscConfiguration<ept id="p2">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> コマンドレットを呼び出し、コマンドレットの -Path パラメーターを構成 MOF が配置されているパスに設定します。</target>         
-        </trans-unit>
         <trans-unit id="108" translate="yes" xml:space="preserve">
-          <source>For example, if the configuration MOF is locted at <ph id="ph3">`C:\DSC\Configurations\localhost.mof`</ph>, you would apply it to the local machine with the following command:
-<ph id="ph4">`Start-DscConfiguration -Path 'C:\DSC\Configurations'`</ph></source>
-          <target state="translated">たとえば、構成 MOF が <ph id="ph3">`C:\DSC\Configurations\localhost.mof`</ph> にある場合は、次のコマンドを使用してローカル コンピューターに適用します。
-<ph id="ph4">`Start-DscConfiguration -Path 'C:\DSC\Configurations'`</ph></target>         
+          <source>After creating and compiling a configuration, you can enact it in push mode by calling the <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> cmdlet, setting the -Path parameter of the cmdlet to the path where the configuration MOF is located.</source>
+          <target state="translated">構成を作成し、コンパイルした後、プッシュ モードで適用するには、<bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> コマンドレットを呼び出し、コマンドレットの -Path パラメーターを構成 MOF が配置されているパスに設定します。</target>         
         </trans-unit>
         <trans-unit id="109" translate="yes" xml:space="preserve">
-          <source><bpt id="p3">__</bpt>Note<ept id="p3">__</ept>: By default, DSC runs a configuration as a background job.</source>
-          <target state="translated"><bpt id="p3">__</bpt>注<ept id="p3">__</ept>: 既定では、DSC はバックグラウンド ジョブとして構成を実行します。</target>         
+          <source>For example, if the configuration MOF is located at <ph id="ph1">`C:\DSC\Configurations\localhost.mof`</ph>, you would apply it to the local machine with the following command:</source>
+          <target state="translated">たとえば、構成 MOF が <ph id="ph1">`C:\DSC\Configurations\localhost.mof`</ph> にある場合は、次のコマンドを使用してローカル コンピューターに適用します。</target>         
         </trans-unit>
         <trans-unit id="110" translate="yes" xml:space="preserve">
-          <source>To run the configuration interactively, call the <bpt id="p4">[</bpt>Start-DscConfiguration<ept id="p4">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> with the <bpt id="p5">__</bpt>-Wait<ept id="p5">__</ept> parameter.</source>
-          <target state="translated">構成を対話的に実行するには、<bpt id="p5">__</bpt>-Wait<ept id="p5">__</ept> パラメーターを指定して <bpt id="p4">[</bpt>Start-DscConfiguration<ept id="p4">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> を呼び出します。</target>         
+          <source><bpt id="p1">__</bpt>Note<ept id="p1">__</ept>: By default, DSC runs a configuration as a background job.</source>
+          <target state="translated"><bpt id="p1">__</bpt>注<ept id="p1">__</ept>: 既定では、DSC はバックグラウンド ジョブとして構成を実行します。</target>         
         </trans-unit>
         <trans-unit id="111" translate="yes" xml:space="preserve">
-          <source>Cloud deployment engines typically leverage Pull Mode inside of a broader deployment solution.</source>
-          <target state="translated">クラウド展開エンジンは、通常、より広範な展開ソリューション内でプル モードを活用します。</target>         
+          <source>To run the configuration interactively, call the <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> with the <bpt id="p2">__</bpt>-Wait<ept id="p2">__</ept> parameter.</source>
+          <target state="translated">構成を対話的に実行するには、<bpt id="p2">__</bpt>-Wait<ept id="p2">__</ept> パラメーターを指定して <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> を呼び出します。</target>         
         </trans-unit>
         <trans-unit id="112" translate="yes" xml:space="preserve">
-          <source>For example, Microsoft Azure provides a <bpt id="p6">[</bpt>DSC Extension<ept id="p6">](https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-extensions-features/)</ept> for virtual machines.</source>
-          <target state="translated">たとえば、Microsoft Azure は、仮想マシンの <bpt id="p6">[</bpt>DSC 拡張<ept id="p6">](https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-extensions-features/)</ept>を提供します。</target>         
-        </trans-unit>
-        <trans-unit id="113" translate="yes" xml:space="preserve">
-          <source>This provides an option to include a configuration script and all required DSC modules in an archive file that is extracted and executed within a virtual machine as part of a deployment.</source>
-          <target state="translated">これにより、展開の一部として仮想マシン内で抽出され、実行されるアーカイブ ファイルに構成スクリプトと必要なすべての DSC モジュールを含めるためのオプションが提供されます。</target>         
-        </trans-unit>
-        <trans-unit id="114" translate="yes" xml:space="preserve">
           <source>Pull mode</source>
           <target state="translated">プル モード</target>         
         </trans-unit>
-        <trans-unit id="115" translate="yes" xml:space="preserve">
-          <source><ph id="ph5">![</ph>Pull Mode<ph id="ph6">](images/Pull.png "How pull mode works")</ph>
-In pull mode, pull clients are configured to get their desired state configurations from a remote pull server.</source>
-          <target state="translated"><ph id="ph5">![</ph>プル モード<ph id="ph6">](images/Pull.png "How pull mode works")</ph>
-プル モードでは、プル クライアントはリモート プル サーバーから Desired State Configuration を取得するように構成されます。</target>         
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Pull Mode</source>
+          <target state="translated">プル モード</target>         
         </trans-unit>
-        <trans-unit id="116" translate="yes" xml:space="preserve">
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In pull mode, pull clients are configured to get their desired state configurations from a remote pull server.</source>
+          <target state="translated">プル モードでは、プル クライアントはリモート プル サーバーから Desired State Configuration を取得するように構成されます。</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
           <source>Likewise, the pull server has been set up to host the DSC service, and has been provisioned with the configurations and resources that are required by the pull clients.</source>
           <target state="translated">同様に、プル サーバーは、DSC サービスをホストするようにセットアップされ、プル クライアントに必要な構成とリソースを使用してプロビジョニングされています。</target>         
         </trans-unit>
-        <trans-unit id="117" translate="yes" xml:space="preserve">
+        <trans-unit id="116" translate="yes" xml:space="preserve">
           <source>Each one of the pull clients has a scheduled task that performs a periodic compliance check on the configuration of the node.</source>
           <target state="translated">それぞれのプル クライアントには、ノードの構成に対して定期的なコンプライアンス チェックを実行するタスクがスケジュールされています。</target>         
         </trans-unit>
-        <trans-unit id="118" translate="yes" xml:space="preserve">
+        <trans-unit id="117" translate="yes" xml:space="preserve">
           <source>When the event is triggered the first time, it causes the Local Configuration Manager (LCM) on the pull client to validate the configuration.</source>
           <target state="translated">イベントが最初にトリガーされたとき、プル クライアント上のローカル構成マネージャー (LCM) によって構成の検証が行われます。</target>         
         </trans-unit>
-        <trans-unit id="119" translate="yes" xml:space="preserve">
+        <trans-unit id="118" translate="yes" xml:space="preserve">
           <source>If the pull client is configured as desired, nothing happens.</source>
           <target state="translated">プル クライアントが期待どおりに構成されている場合は、何も起こりません。</target>         
         </trans-unit>
-        <trans-unit id="120" translate="yes" xml:space="preserve">
+        <trans-unit id="119" translate="yes" xml:space="preserve">
           <source>Otherwise, the LCM makes a request to the pull server to get a given configuration.</source>
           <target state="translated">期待どおりに構成されていない場合、LCM は指定された構成を取得するようプル サーバーに要求します。</target>         
         </trans-unit>
-        <trans-unit id="121" translate="yes" xml:space="preserve">
+        <trans-unit id="120" translate="yes" xml:space="preserve">
           <source>If that configuration exists on the pull server, and it passes initial validation checks, the configuration is transmitted to the pull client, where it is then executed by the LCM.</source>
           <target state="translated">プル サーバーにその構成が存在し、最初の検証チェックに合格した場合、構成はプル クライアントに送信され、LCM によって実行されます。</target>         
         </trans-unit>
-        <trans-unit id="122" translate="yes" xml:space="preserve">
+        <trans-unit id="121" translate="yes" xml:space="preserve">
           <source>For more information on deploying a DSC Pull Server on premises, see the DSC Pull Server Configuration and Planning Guide.</source>
           <target state="translated">DSC プル サーバーをオンプレミスで展開する方法の詳細については、『DSC Pull Server Configuration and Planning Guide (DSC プル サーバー構成および計画ガイド)』を参照してください。</target>         
         </trans-unit>
-        <trans-unit id="123" translate="yes" xml:space="preserve">
-          <source>If you would prefer to take advantage of an online service to host Pull Server functionality, see the <bpt id="p7">[</bpt>Azure Automation DSC<ept id="p7">](https://azure.microsoft.com/en-us/documentation/articles/automation-dsc-overview/)</ept> service.</source>
-          <target state="translated">オンライン サービスを利用してプル サーバー機能をホストする場合は、「<bpt id="p7">[</bpt>Azure Automation DSC の概要<ept id="p7">](https://azure.microsoft.com/en-us/documentation/articles/automation-dsc-overview/)</ept>」を参照してください。</target>         
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If you would prefer to take advantage of an online service to host Pull Server functionality, see the <bpt id="p1">[</bpt>Azure Automation DSC<ept id="p1">](https://azure.microsoft.com/en-us/documentation/articles/automation-dsc-overview/)</ept> service.</source>
+          <target state="translated">オンライン サービスを利用してプル サーバー機能をホストする場合は、「<bpt id="p1">[</bpt>Azure Automation DSC の概要<ept id="p1">](https://azure.microsoft.com/en-us/documentation/articles/automation-dsc-overview/)</ept>」を参照してください。</target>         
         </trans-unit>
-        <trans-unit id="124" translate="yes" xml:space="preserve">
+        <trans-unit id="123" translate="yes" xml:space="preserve">
           <source>The following topics explain how to set up pull servers and clients:</source>
           <target state="translated">次のトピックでは、プル サーバーとクライアントをセットアップする方法について説明します。</target>         
         </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Setting up a web pull server</source>
+          <target state="translated">Web プル サーバーのセットアップ</target>         
+        </trans-unit>
         <trans-unit id="125" translate="yes" xml:space="preserve">
-          <source><ph id="ph7">[</ph>Setting up a web pull server<ph id="ph8">](pullServer.md)</ph></source>
-          <target state="translated"><ph id="ph7">[</ph>Setting up a web pull server (Web プル サーバーのセットアップ)<ph id="ph8">](pullServer.md)</ph></target>         
+          <source>Setting up an SMB pull server</source>
+          <target state="translated">SMB プル サーバーのセットアップ</target>         
         </trans-unit>
         <trans-unit id="126" translate="yes" xml:space="preserve">
-          <source><ph id="ph9">[</ph>Setting up an SMB pull server<ph id="ph10">](pullServerSMB.md)</ph></source>
-          <target state="translated"><ph id="ph9">[</ph>Setting up an SMB pull server (SMB プル サーバーのセットアップ)<ph id="ph10">](pullServerSMB.md)</ph></target>         
-        </trans-unit>
-        <trans-unit id="127" translate="yes" xml:space="preserve">
-          <source><ph id="ph11">[</ph>Configuring a pull client<ph id="ph12">](pullClientConfigID.md)</ph></source>
-          <target state="translated"><ph id="ph11">[</ph>Configuring a pull client (プル クライアントの構成)<ph id="ph12">](pullClientConfigID.md)</ph></target>         
+          <source>Configuring a pull client</source>
+          <target state="translated">プル クライアントの構成</target>         
         </trans-unit>
       </group>
     </body>
   </file>
-  <header xmlns="">
-    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aac18f752e981409c8c432dcb06b7bb862149cdd</xliffext:olfilehash>
-  </header>
 </xliff>

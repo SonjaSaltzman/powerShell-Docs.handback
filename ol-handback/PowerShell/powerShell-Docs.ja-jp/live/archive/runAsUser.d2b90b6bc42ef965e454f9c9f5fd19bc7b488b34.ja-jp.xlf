@@ -3,8 +3,9 @@
   <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
     <header>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0560274d9f9c8efaddf790dd784ddd936fe90e5d</xliffext:olfilehash>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-2072b6e" tool-company="Microsoft" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\runAsUser.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dbe2c1ca2fb7dd65b49876f3bee6752ec9a24d6b</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-8d96cd8" tool-company="Microsoft" />
     </header>
     <body>
       <group id="content" extype="content">
@@ -13,32 +14,32 @@
           <target state="translated">ユーザーの資格情報を指定して DSC を実行する</target>         
         </trans-unit>
         <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Running DSC with user credentials</source>
+          <target state="translated">ユーザーの資格情報を指定して DSC を実行する</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
           <source>Applies To: Windows PowerShell 5.0</source>
           <target state="translated">適用先: Windows PowerShell 5.0</target>         
         </trans-unit>
-        <trans-unit id="103" translate="yes" xml:space="preserve">
+        <trans-unit id="104" translate="yes" xml:space="preserve">
           <source>You can run a DSC resource under a specified set of credentials by using the automatic <bpt id="p1">**</bpt>PsDscRunAsCredential<ept id="p1">**</ept> property in the configuration.</source>
           <target state="translated">資格情報のセットを指定して DSC リソースを実行するには、構成の中で自動 <bpt id="p1">**</bpt>PsDscRunAsCredential<ept id="p1">**</ept> プロパティを使います。</target>         
         </trans-unit>
-        <trans-unit id="104" translate="yes" xml:space="preserve">
+        <trans-unit id="105" translate="yes" xml:space="preserve">
           <source>By default, DSC runs each resource as the system account.</source>
           <target state="translated">既定では、DSC はシステム アカウントとして各リソースを実行します。</target>         
         </trans-unit>
-        <trans-unit id="105" translate="yes" xml:space="preserve">
+        <trans-unit id="106" translate="yes" xml:space="preserve">
           <source>There are times when running as a user is necessary, such as installing MSI packages in a specific user context, setting a user's registry keys, accessing a user's specific local directory, or accessing a network share.</source>
           <target state="translated">時には、ユーザーとして実行することが必要な場合があります。たとえば、特定のユーザー コンテキストで MSI パッケージをインストールする場合や、ユーザーのレジストリ キーを設定する場合、ユーザーの特定のローカル ディレクトリにアクセスする場合、ネットワーク共有にアクセスする場合などです。</target>         
         </trans-unit>
-        <trans-unit id="106" translate="yes" xml:space="preserve">
+        <trans-unit id="107" translate="yes" xml:space="preserve">
           <source>Every DSC resource has a <bpt id="p1">**</bpt>PsDscRunAsCredential<ept id="p1">**</ept> property that can be set to any user credentials (a <bpt id="p2">[</bpt>PSCredential<ept id="p2">](https://msdn.microsoft.com/en-us/library/ms572524(v=VS.85).aspx)</ept> object).</source>
           <target state="translated">すべての DSC リソースには、任意のユーザー資格情報に設定できる <bpt id="p1">**</bpt>PsDscRunAsCredential<ept id="p1">**</ept> プロパティがあります (<bpt id="p2">[</bpt>PSCredential<ept id="p2">](https://msdn.microsoft.com/en-us/library/ms572524(v=VS.85).aspx)</ept> オブジェクト)。</target>         
         </trans-unit>
-        <trans-unit id="107" translate="yes" xml:space="preserve">
-          <source>The credential can be hard-coded as the value of the property in the configuration, or you can set the value to <bpt id="p1">[</bpt>Get-Credential<ept id="p1">](https://technet.microsoft.com/en-us/library/hh849815.aspx)</ept>,</source>
-          <target state="translated">資格情報は、構成内でプロパティの値としてハードコーディングするか、<bpt id="p1">[</bpt>Get-Credential<ept id="p1">](https://technet.microsoft.com/en-us/library/hh849815.aspx)</ept> に対して値を設定することができます。</target>         
-        </trans-unit>
         <trans-unit id="108" translate="yes" xml:space="preserve">
-          <source>which will prompt the user for a credential when the configuration is compiled (for information about compiling configurations, see <bpt id="p1">[</bpt>Configurations<ept id="p1">](configurations.md)</ept></source>
-          <target state="translated">後者の場合は、構成のコンパイル時に資格情報を入力するようにユーザーにプロンプトが出ます (構成のコンパイルについて詳しくは、<bpt id="p1">[</bpt>構成<ept id="p1">](configurations.md)</ept>に関する記事をご覧ください)。</target>         
+          <source>The credential can be hard-coded as the value of the property in the configuration, or you can set the value to <bpt id="p1">[</bpt>Get-Credential<ept id="p1">](https://technet.microsoft.com/en-us/library/hh849815.aspx)</ept>, which will prompt the user for a credential when the configuration is compiled (for information about compiling configurations, see <bpt id="p2">[</bpt>Configurations<ept id="p2">](configurations.md)</ept>.</source>
+          <target state="translated">資格情報は、構成内でプロパティの値としてハードコーディングするか、<bpt id="p1">[</bpt>Get-Credential<ept id="p1">](https://technet.microsoft.com/en-us/library/hh849815.aspx)</ept> に対して値を設定することができます。後者の場合は、構成のコンパイル時に資格情報を入力するように求めるプロンプトが表示されます (構成のコンパイルの詳細については、<bpt id="p2">[</bpt>構成<ept id="p2">](configurations.md)</ept>に関する記事を参照してください)。</target>         
         </trans-unit>
         <trans-unit id="109" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> The <bpt id="p2">**</bpt>PsDscRunAsCredential<ept id="p2">**</ept> property is not available in PowerShell 4.0.</source>
@@ -49,20 +50,16 @@
           <target state="translated">次の例では、<bpt id="p1">**</bpt>Get-Credential<ept id="p1">**</ept> を使って、ユーザーに資格情報を入力するようにプロンプトが出ます。</target>         
         </trans-unit>
         <trans-unit id="111" translate="yes" xml:space="preserve">
-          <source>The <bpt id="p1">[</bpt>Registry<ept id="p1">](registryResource.md)</ept> resource is used to change the registry key that specifies the background color</source>
+          <source>The <bpt id="p1">[</bpt>Registry<ept id="p1">](registryResource.md)</ept> resource is used to change the registry key that specifies the background color for the Windows command prompt window.</source>
           <target state="translated">また、<bpt id="p1">[</bpt>Registry<ept id="p1">](registryResource.md)</ept> リソースを使って、Windows のコマンド プロンプト ウィンドウの背景色を指定するレジストリ キーを変更します。</target>         
         </trans-unit>
         <trans-unit id="112" translate="yes" xml:space="preserve">
-          <source>for the Windows command prompt window.</source>
-          <target state="translated"></target>         
-        </trans-unit>
-        <trans-unit id="113" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> This example assumes that you have a valid certificate at <ph id="ph1">`C:\publicKeys\targetNode.cer`</ph>, and that the thumbprint of that certificate is the value shown.</source>
           <target state="translated"><bpt id="p1">**</bpt>注:<ept id="p1">**</ept> この例では、有効な証明書が <ph id="ph1">`C:\publicKeys\targetNode.cer`</ph> に存在することと、示されている値がその証明書の拇印であることを想定しています。</target>         
         </trans-unit>
-        <trans-unit id="114" translate="yes" xml:space="preserve">
-          <source>For information about encrypting credentials in DSC configuration MOF files, see <bpt id="p1">[</bpt>Securing the MOF file<ept id="p1">](secureMOF.md)</ept></source>
-          <target state="translated">DSC 構成 MOF ファイル内の資格情報を暗号化する方法については、「<bpt id="p1">[</bpt>MOF ファイルのセキュリティ保護<ept id="p1">](secureMOF.md)</ept>」をご覧ください。</target>         
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For information about encrypting credentials in DSC configuration MOF files, see <bpt id="p1">[</bpt>Securing the MOF file<ept id="p1">](secureMOF.md)</ept>.</source>
+          <target state="translated">DSC 構成 MOF ファイル内の資格情報を暗号化する方法の詳細については、「<bpt id="p1">[</bpt>MOF ファイルのセキュリティ保護<ept id="p1">](secureMOF.md)</ept>」を参照してください。</target>         
         </trans-unit>
       </group>
     </body>
