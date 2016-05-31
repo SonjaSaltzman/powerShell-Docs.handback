@@ -4,8 +4,8 @@
     <header>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\partialConfigs.md</xliffext:olfilepath>
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">77448cde004f357cfd64dd84337205197d904615</xliffext:olfilehash>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-8d96cd8" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">85d81ef4f82ef10c0f838601a9adb79d2fba65e7</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-3d52e17" tool-company="Microsoft" />
     </header>
     <body>
       <group id="content" extype="content">
@@ -214,24 +214,32 @@
           <target state="translated">Обратите внимание, что режим <bpt id="p1">**</bpt>RefreshMode<ept id="p1">**</ept>, указанный в блоке "Настройки", — это "Режим запросов", а режим <bpt id="p2">**</bpt>RefreshMode<ept id="p2">**</ept> для частичной конфигурации OSInstall — "Принудительная отправка".</target>         
         </trans-unit>
         <trans-unit id="152" translate="yes" xml:space="preserve">
-          <source>You would name and locate the configuration documents as described above for their respective refresh modes.</source>
-          <target state="translated">Документы конфигурации следует именовать и располагать в соответствии с их режимами обновления.</target>         
+          <source>Name and locate the configuration MOF files as described above for their respective refresh modes.</source>
+          <target state="translated">MOF-файлы конфигурации следует именовать и располагать в соответствии с их режимами обновления, как описано выше.</target>         
         </trans-unit>
         <trans-unit id="153" translate="yes" xml:space="preserve">
-          <source>You would call <bpt id="p1">**</bpt>Publish-DSCConfiguration<ept id="p1">**</ept> to publish the SharePointInstall partial configuration, and either wait for the OSInstall configuration to be pulled from the pull server, or force a refresh by calling <bpt id="p2">[</bpt>Update-DscConfiguration<ept id="p2">](https://technet.microsoft.com/en-us/library/mt143541(v=wps.630).aspx)</ept>.</source>
-          <target state="translated">Вызовите <bpt id="p1">**</bpt>Publish-DSCConfiguration<ept id="p1">**</ept>, чтобы опубликовать частичную конфигурацию, и дождитесь извлечения конфигурации OSInstall из опрашивающего сервера или выполните принудительное обновление, вызвав <bpt id="p2">[</bpt>Update-DscConfiguration<ept id="p2">](https://technet.microsoft.com/en-us/library/mt143541(v=wps.630).aspx)</ept>.</target>         
+          <source>Call <bpt id="p1">**</bpt>Publish-DSCConfiguration<ept id="p1">**</ept> to publish the <ph id="ph1">`SharePointInstall`</ph> partial configuration, and either wait for the <ph id="ph2">`OSInstall`</ph> configuration to be pulled from the pull server, or force a refresh by calling <bpt id="p2">[</bpt>Update-DscConfiguration<ept id="p2">](https://technet.microsoft.com/en-us/library/mt143541(v=wps.630).aspx)</ept>.</source>
+          <target state="translated">Вызовите <bpt id="p1">**</bpt>Publish-DSCConfiguration<ept id="p1">**</ept>, чтобы опубликовать частичную конфигурацию<ph id="ph1">`SharePointInstall`</ph>, и дождитесь извлечения конфигурации <ph id="ph2">`OSInstall`</ph> из опрашивающего сервера или выполните принудительное обновление, вызвав <bpt id="p2">[</bpt>Update-DscConfiguration<ept id="p2">](https://technet.microsoft.com/en-us/library/mt143541(v=wps.630).aspx)</ept>.</target>         
         </trans-unit>
         <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Example OSInstall Partial Configuration</source>
+          <target state="translated">Пример конфигурации частичного OSInstall</target>         
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Example SharePointConfig Partial Configuration</source>
+          <target state="translated">Пример конфигурации частичного SharePointConfig</target>         
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
           <source>See Also</source>
           <target state="translated">См. также</target>         
         </trans-unit>
-        <trans-unit id="155" translate="yes" xml:space="preserve">
+        <trans-unit id="157" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Concepts<ept id="p1">**</ept><ph id="ph1">
 </ph><bpt id="p2">[</bpt>Windows PowerShell Desired State Configuration Pull Servers<ept id="p2">](pullServer.md)</ept><ph id="ph2"> 
 </ph><bpt id="p3">[</bpt>Windows Configuring the Local Configuration Manager<ept id="p3">](https://technet.microsoft.com/en-us/library/mt421188.aspx)</ept></source>
           <target state="translated"><bpt id="p1">**</bpt>Концепции<ept id="p1">**</ept><ph id="ph1">
-</ph><bpt id="p2">[</bpt>Опрашивающие серверы службы настройки требуемого состояния Windows PowerShell<ept id="p2">](pullServer.md)</ept><ph id="ph2"> 
-</ph><bpt id="p3">[</bpt>Настройка локального диспетчера конфигураций Windows<ept id="p3">](https://technet.microsoft.com/en-us/library/mt421188.aspx)</ept></target>         
+</ph><bpt id="p2">[</bpt>Опрашивающие серверы настройки требуемого состояния Windows PowerShell<ept id="p2">](pullServer.md)</ept><ph id="ph2"> 
+</ph><bpt id="p3">[</bpt>Настройка ОС Windows локального диспетчера конфигураций<ept id="p3">](https://technet.microsoft.com/en-us/library/mt421188.aspx)</ept></target>         
         </trans-unit>
       </group>
     </body>
