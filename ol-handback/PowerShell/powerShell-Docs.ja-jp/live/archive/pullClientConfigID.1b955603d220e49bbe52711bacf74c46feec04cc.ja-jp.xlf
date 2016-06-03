@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" original="md" source-language="en-US" target-language="ja-jp">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
     <header>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c113ad890c30be1c801fca78ec6781b2fd8e6ef8</xliffext:olfilehash>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-02a95cf" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f53571fddcce612b5e12398766b82e5ede98e046</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-ac20adc" tool-company="Microsoft" />
     </header>
     <body>
       <group id="content" extype="content">
@@ -29,8 +29,8 @@
           <target state="translated">LCM を構成するには、<bpt id="p1">**</bpt>DSCLocalConfigurationManager<ept id="p1">**</ept> 属性で修飾された特別な種類の構成を作成します。</target>         
         </trans-unit>
         <trans-unit id="106" translate="yes" xml:space="preserve">
-          <source>For more information about configuring the LCM, see <bpt id="p1">[</bpt>Configuring the Local Configuration Manager<ept id="p1">](metaConfig.md)</ept>.</source>
-          <target state="translated">LCM の構成の詳細については、「<bpt id="p1">[</bpt>ローカル構成マネージャーの構成<ept id="p1">](metaConfig.md)</ept>」をご覧ください。</target>         
+          <source>For more information about configuring the LCM, see <bpt id="p1">[</bpt>Configuring the Local Configuration Manager<ept id="p1">](metaConfig.md)</ept></source>
+          <target state="translated">LCM の構成の詳細については、「<bpt id="p1">[</bpt>ローカル構成マネージャーの構成<ept id="p1">](metaConfig.md)</ept>」を参照してください。</target>         
         </trans-unit>
         <trans-unit id="107" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: This topic applies to PowerShell 5.0.</source>
@@ -38,7 +38,7 @@
         </trans-unit>
         <trans-unit id="108" translate="yes" xml:space="preserve">
           <source>For information on setting up a pull client in PowerShell 4.0, see <bpt id="p1">[</bpt>Setting up a pull client using configuration ID in PowerShell 4.0<ept id="p1">](pullClientConfigID4.md)</ept></source>
-          <target state="translated">PowerShell 4.0 でのプル クライアントのセットアップについては、「<bpt id="p1">[</bpt>PowerShell 4.0 での構成 ID を使用したプル クライアントのセットアップ<ept id="p1">](pullClientConfigID4.md)</ept>」をご覧ください。</target>         
+          <target state="translated">PowerShell 4.0 でのプル クライアントのセットアップについては、「<bpt id="p1">[</bpt>PowerShell 4.0 での構成 ID を使用したプル クライアントのセットアップ<ept id="p1">](pullClientConfigID4.md)</ept>」を参照してください。</target>         
         </trans-unit>
         <trans-unit id="109" translate="yes" xml:space="preserve">
           <source>The following script configures the LCM to pull configurations from a server named "CONTOSO-PullSrv".</source>
@@ -46,7 +46,7 @@
         </trans-unit>
         <trans-unit id="110" translate="yes" xml:space="preserve">
           <source>In the script, the <bpt id="p1">**</bpt>ConfigurationRepositoryWeb<ept id="p1">**</ept> block defines the pull server.</source>
-          <target state="translated">このスクリプトでは、<bpt id="p1">**</bpt>ConfigurationRepositoryWeb<ept id="p1">**</ept> ブロックでプル サーバーを定義しています。</target>         
+          <target state="translated">このスクリプトでは、<bpt id="p1">**</bpt>ConfigurationRepositoryWeb<ept id="p1">**</ept> ブロックにプル サーバーを定義しています。</target>         
         </trans-unit>
         <trans-unit id="111" translate="yes" xml:space="preserve">
           <source>The <bpt id="p1">**</bpt>ServerURL<ept id="p1">**</ept></source>
@@ -57,16 +57,16 @@
           <target state="translated">このスクリプトを実行すると、<bpt id="p1">**</bpt>PullClientConfigID<ept id="p1">**</ept> という名前の新しい出力フォルダーが作成され、そこにメタ構成 MOF ファイルが格納されます。</target>         
         </trans-unit>
         <trans-unit id="113" translate="yes" xml:space="preserve">
-          <source>In this case, the metaconfiguration MOF file will be named <ph id="ph1">`localhost.meta.mof`</ph>.</source>
-          <target state="translated">この場合、メタ構成 MOF ファイルの名前は <ph id="ph1">`localhost.meta.mof`</ph> になります。</target>         
+          <source>In this case, the metaconfiguration MOF file will be named</source>
+          <target state="translated">この場合、メタ構成 MOF ファイルの名前は次のようになります。</target>         
         </trans-unit>
         <trans-unit id="114" translate="yes" xml:space="preserve">
           <source>To apply the configuration, call the <bpt id="p1">**</bpt>Set-DscLocalConfigurationManager<ept id="p1">**</ept> cmdlet, with the <bpt id="p2">**</bpt>Path<ept id="p2">**</ept> set to the location of the metaconfiguration MOF file.</source>
           <target state="translated">構成を適用するには、<bpt id="p2">**</bpt>Path<ept id="p2">**</ept> をメタ構成 MOF ファイルの場所に設定して <bpt id="p1">**</bpt>Set-DscLocalConfigurationManager<ept id="p1">**</ept> コマンドレットを呼び出します。</target>         
         </trans-unit>
         <trans-unit id="115" translate="yes" xml:space="preserve">
-          <source>For example: <ph id="ph1">`Set-DSCLocalConfigurationManager localhost –Path .\PullClientConfigID –Verbose.`</ph></source>
-          <target state="translated">たとえば次のようになります。<ph id="ph1">`Set-DSCLocalConfigurationManager localhost –Path .\PullClientConfigID –Verbose.`</ph></target>         
+          <source>For example:</source>
+          <target state="translated">たとえば、次のように入力します。</target>         
         </trans-unit>
         <trans-unit id="116" translate="yes" xml:space="preserve">
           <source>Configuration ID</source>
@@ -97,7 +97,7 @@
           <target state="translated"><bpt id="p1">**</bpt>ConfigurationRepositoryShare<ept id="p1">**</ept> ブロックでは、<bpt id="p2">**</bpt>SourcePath<ept id="p2">**</ept> プロパティを設定して、サーバーへのパスを指定します。</target>         
         </trans-unit>
         <trans-unit id="123" translate="yes" xml:space="preserve">
-          <source>The following metaconfiguration configures the target node to pull from an SMB pull server named <bpt id="p1">**</bpt>SMBPullServer<ept id="p1">**</ept>.</source>
+          <source>The following metaconfiguration configures the target node to pull from an SMB pull server named <bpt id="p1">**</bpt>SMBPullServer<ept id="p1">**</ept></source>
           <target state="translated">次のメタ構成は、<bpt id="p1">**</bpt>SMBPullServer<ept id="p1">**</ept> という名前の SMB プル サーバーからプルするようにターゲット ノードを構成します。</target>         
         </trans-unit>
         <trans-unit id="124" translate="yes" xml:space="preserve">
@@ -106,23 +106,23 @@
         </trans-unit>
         <trans-unit id="125" translate="yes" xml:space="preserve">
           <source>If you specify only a <bpt id="p1">**</bpt>ConfigurationRepositoryWeb<ept id="p1">**</ept> or <bpt id="p2">**</bpt>ConfigurationRepositoryShare<ept id="p2">**</ept> block in your LCM configuration (as in the previous example), the pull client will pull</source>
-          <target state="translated">LCM 構成で <bpt id="p1">**</bpt>ConfigurationRepositoryWeb<ept id="p1">**</ept> ブロックまたは <bpt id="p2">**</bpt>ConfigurationRepositoryShare<ept id="p2">**</ept> ブロックのみを指定した場合 (前の例はこれに当たります)、プル クライアントは</target>         
+          <target state="translated">LCM 構成で <bpt id="p1">**</bpt>ConfigurationRepositoryWeb<ept id="p1">**</ept> ブロックまたは <bpt id="p2">**</bpt>ConfigurationRepositoryShare<ept id="p2">**</ept> ブロックのみを指定した場合 (前の例はこれに当たります)、プル クライアントは、指定されたサーバーからリソースをプルしますが、そのサーバーに対してレポートは送信しません。</target>         
         </trans-unit>
         <trans-unit id="126" translate="yes" xml:space="preserve">
           <source>resources from the specified server, but it will not send reports to it.</source>
-          <target state="translated">指定されたサーバーからリソースをプルしますが、そのサーバーに対してレポートは送信しません。</target>         
+          <target state="translated"></target>         
         </trans-unit>
         <trans-unit id="127" translate="yes" xml:space="preserve">
           <source>You can use a single pull server for configurations, resources, and reporting, but you have to create a</source>
-          <target state="translated">構成、リソース、およびレポートについて単一のプル サーバーを使うことができますが、</target>         
+          <target state="translated">構成、リソース、およびレポートについて単一のプル サーバーを使うことができますが、レポートをセットアップするために </target>         
         </trans-unit>
         <trans-unit id="128" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>ReportRepositoryWeb<ept id="p1">**</ept> block to set up reporting.</source>
-          <target state="translated">レポートをセットアップするために ReportRepositoryWeb ブロックを作成する必要があります。</target>         
+          <target state="translated">ReportRepositoryWeb ブロックを作成する必要があります。</target>         
         </trans-unit>
         <trans-unit id="129" translate="yes" xml:space="preserve">
           <source>The following example shows a metaconfiguration that sets up a client to pull configurations and resources, and send reporting data, to a single</source>
-          <target state="translated">次の例は、構成とリソースをプルし、レポート データを送信する、単一のプル サーバーをクライアントに設定するメタ構成を示しています。</target>         
+          <target state="translated">次の例は、単一のプル サーバーに対して構成とリソースをプルし、レポート データを送信するようにクライアントを設定するメタ構成を示しています。</target>         
         </trans-unit>
         <trans-unit id="130" translate="yes" xml:space="preserve">
           <source>pull server.</source>
@@ -134,11 +134,11 @@
         </trans-unit>
         <trans-unit id="132" translate="yes" xml:space="preserve">
           <source>To specify a resource server, you use either a <bpt id="p1">**</bpt>ResourceRepositoryWeb<ept id="p1">**</ept> (for a web pull server) or a</source>
-          <target state="translated"></target>         
+          <target state="translated">リソース サーバーを指定するには、<bpt id="p1">**</bpt>ResourceRepositoryWeb<ept id="p1">**</ept> ブロック (Web プル サーバーの場合) または </target>         
         </trans-unit>
         <trans-unit id="133" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>ResourceRepositoryShare<ept id="p1">**</ept> block (for an SMB pull server).</source>
-          <target state="translated">リソース サーバーを指定するには、<bpt id="p1">**</bpt>ResourceRepositoryWeb<ept id="p1">**</ept> (Web プル サーバーの場合) ブロックまたは <bpt id="p1">**</bpt>ResourceRepositoryShare<ept id="p1">**</ept> ブロック (SMB プル サーバーの場合) を使用します。</target>         
+          <target state="translated"><bpt id="p1">**</bpt>ResourceRepositoryShare<ept id="p1">**</ept> ブロック (SMB プル サーバーの場合) を使用します。</target>         
         </trans-unit>
         <trans-unit id="134" translate="yes" xml:space="preserve">
           <source>To specify a report server, you use a <bpt id="p1">**</bpt>ReportRepositoryWeb<ept id="p1">**</ept> block.</source>
