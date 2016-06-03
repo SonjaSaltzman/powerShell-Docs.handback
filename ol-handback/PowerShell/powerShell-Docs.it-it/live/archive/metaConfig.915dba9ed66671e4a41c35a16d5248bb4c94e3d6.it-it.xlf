@@ -4,8 +4,8 @@
     <header>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\metaConfig.md</xliffext:olfilepath>
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b699b737e0be2bc485a36644c40b4087dac28414</xliffext:olfilehash>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-8d96cd8" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1ecef855e4bfc0ee0e5109fd0ecfb9ca395854d5</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4f63239" tool-company="Microsoft" />
     </header>
     <body>
       <group id="content" extype="content">
@@ -62,8 +62,8 @@
           <target state="translated"><bpt id="p1">**</bpt>Nota<ept id="p1">**</ept>: questo argomento si applica alla versione di Gestione configurazione locale introdotta in Windows PowerShell 5.0.</target>         
         </trans-unit>
         <trans-unit id="114" translate="yes" xml:space="preserve">
-          <source>For information about configuring the LCM in Windows PowerShell 4.0, see Windows PowerShell 4.0 Desired State Configuration Local Configuration Manager.</source>
-          <target state="translated">Per informazioni sulla configurazione di Gestione configurazione locale in Windows PowerShell 4.0, vedere Gestione configurazione locale di Windows PowerShell 4.0 DSC (Desired State Configuration).</target>         
+          <source>For information about configuring the LCM in Windows PowerShell 4.0, see <bpt id="p1">[</bpt>Windows PowerShell 4.0 Desired State Configuration Local Configuration Manager<ept id="p1">](metaconfig4.md)</ept>.</source>
+          <target state="translated">Per informazioni sulla configurazione di Gestione configurazione locale in Windows PowerShell 4.0, vedere <bpt id="p1">[</bpt>Gestione configurazione locale di Windows PowerShell 4.0 DSC (Desired State Configuration)<ept id="p1">](metaconfig4.md)</ept>.</target>         
         </trans-unit>
         <trans-unit id="115" translate="yes" xml:space="preserve">
           <source>Writing and enacting an LCM configuration</source>
@@ -82,16 +82,16 @@
           <target state="translated">Di seguito viene mostrata una semplice configurazione che imposta Gestione configurazione locale in modalità push.</target>         
         </trans-unit>
         <trans-unit id="119" translate="yes" xml:space="preserve">
-          <source>You call and run the configuration to create the configuration MOF, just as you would a normal configuration (for information on creating the configuration MOF, see Get Started with Windows PowerShell Desired State Configuration).</source>
-          <target state="translated">È necessario chiamare ed eseguire la configurazione per creare il file MOF di configurazione, proprio come per una configurazione normale. Per informazioni sulla creazione del file MOF di configurazione, vedere Introduzione a Windows PowerShell DSC (Desired State Configuration).</target>         
+          <source>You call and run the configuration to create the configuration MOF, just as you would a normal configuration (for information on creating the configuration MOF, see <bpt id="p1">[</bpt>Compiling the configuration<ept id="p1">](configurations#compiling-the-configuration)</ept>).</source>
+          <target state="translated">È necessario chiamare ed eseguire la configurazione per creare il file MOF di configurazione, proprio come per una configurazione normale. Per informazioni sulla creazione del file MOF di configurazione, vedere <bpt id="p1">[</bpt>Compilazione della configurazione<ept id="p1">](configurations#compiling-the-configuration)</ept>.</target>         
         </trans-unit>
         <trans-unit id="120" translate="yes" xml:space="preserve">
           <source>Unlike normal configurations, you do not enact an LCM configuration by calling the <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> cmdlet.</source>
           <target state="translated">Diversamente dalle configurazioni normali, evitare di applicare una configurazione di Gestione configurazione locale chiamando il cmdlet <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept>.</target>         
         </trans-unit>
         <trans-unit id="121" translate="yes" xml:space="preserve">
-          <source>Instead, you call the Set-DscLocalConfigurationManager cmdlet, supplying the path to the configuration MOF as a parameter.</source>
-          <target state="translated">Chiamare invece il cmdlet Set-DscLocalConfigurationManager, specificando il percorso del file MOF di configurazione come parametro.</target>         
+          <source>Instead, you call the <bpt id="p1">[</bpt>Set-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521621.aspx)</ept> cmdlet, supplying the path to the configuration MOF as a parameter.</source>
+          <target state="translated">Chiamare invece il cmdlet <bpt id="p1">[</bpt>Set-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521621.aspx)</ept>, specificando il percorso del file MOF di configurazione come parametro.</target>         
         </trans-unit>
         <trans-unit id="122" translate="yes" xml:space="preserve">
           <source>After you enact the configuration, you can see the properties of the LCM by calling the <bpt id="p1">[</bpt>Get-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept> cmdlet.</source>
@@ -127,7 +127,7 @@
         </trans-unit>
         <trans-unit id="130" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>ReportServerWeb<ept id="p1">**</ept>: specifies an HTTP pull server to which reports are sent.</source>
-          <target state="translated"><bpt id="p1">**</bpt>ReportServerWeb<ept id="p1">**</ept>: specifica un server di pull HTTP a cui inviare i report.</target>         
+          <target state="translated"><bpt id="p1">**</bpt>ReportServerWeb<ept id="p1">**</ept>: specifica un server di pull HTTP cui vengono inviati report.</target>         
         </trans-unit>
         <trans-unit id="131" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>PartialConfiguration<ept id="p1">**</ept>: specifies partial configurations.</source>
@@ -283,7 +283,7 @@
         </trans-unit>
         <trans-unit id="169" translate="yes" xml:space="preserve">
           <source><bpt id="p1">__</bpt>Pull:<ept id="p1">__</ept> The node is configured to regularly check for configurations from a pull server.</source>
-          <target state="translated"><bpt id="p1">__</bpt>Pull<ept id="p1">__</ept>: il nodo è configurato per controllare regolarmente le configurazioni da un server di pull.</target>         
+          <target state="translated"><bpt id="p1">__</bpt>Pull:<ept id="p1">__</ept> il nodo è configurato per controllare regolarmente le configurazioni da un server di pull.</target>         
         </trans-unit>
         <trans-unit id="170" translate="yes" xml:space="preserve">
           <source>If this property is set to Pull, you must specify a pull server in a <bpt id="p1">__</bpt>ConfigurationRepositoryWeb<ept id="p1">__</ept> or <bpt id="p2">__</bpt>ConfigurationRepositoryShare<ept id="p2">__</ept> block.</source>
@@ -327,7 +327,7 @@
         </trans-unit>
         <trans-unit id="180" translate="yes" xml:space="preserve">
           <source><bpt id="p1">__</bpt>Note:<ept id="p1">__</ept> If you set this property, registering the node with a pull server by using <bpt id="p2">__</bpt>RegistryKeys<ept id="p2">__</ept> and does not work.</source>
-          <target state="translated"><bpt id="p1">__</bpt>Nota:<ept id="p1">__</ept> se si imposta questa proprietà, la registrazione del nodo in un server di pull con <bpt id="p2">__</bpt>RegistryKeys<ept id="p2">__</ept> non funziona.</target>         
+          <target state="translated"><bpt id="p1">__</bpt>Nota:<ept id="p1">__</ept> se si imposta questa proprietà, la registrazione del nodo con un server di pull usando <bpt id="p2">__</bpt>RegistryKeys<ept id="p2">__</ept> non funziona.</target>         
         </trans-unit>
         <trans-unit id="181" translate="yes" xml:space="preserve">
           <source>For more information, see <bpt id="p1">[</bpt>Setting up a pull client with configuration names<ept id="p1">](pullClientConfigNames.md)</ept>.</source>
@@ -355,7 +355,7 @@
         </trans-unit>
         <trans-unit id="187" translate="yes" xml:space="preserve">
           <source><bpt id="p1">__</bpt>Note:<ept id="p1">__</ept>  Either the value of this property must be a multiple of the value of the <bpt id="p2">__</bpt>ConfigurationModeFrequencyMins<ept id="p2">__</ept> property, or the value of the <bpt id="p3">__</bpt>ConfigurationModeFrequencyMins<ept id="p3">__</ept> property must be a multiple of the value of this property.</source>
-          <target state="translated"><bpt id="p1">__</bpt>Nota<ept id="p1">__</ept>: il valore di questa proprietà deve essere un multiplo del valore della proprietà <bpt id="p2">__</bpt>ConfigurationModeFrequencyMins<ept id="p2">__</ept> oppure il valore della proprietà <bpt id="p3">__</bpt>ConfigurationModeFrequencyMins<ept id="p3">__</ept> deve essere un multiplo di questa proprietà.</target>         
+          <target state="translated"><bpt id="p1">__</bpt>Nota:<ept id="p1">__</ept> il valore di questa proprietà deve essere un multiplo del valore della proprietà <bpt id="p2">__</bpt>ConfigurationModeFrequencyMins<ept id="p2">__</ept> oppure il valore della proprietà <bpt id="p3">__</bpt>ConfigurationModeFrequencyMins<ept id="p3">__</ept> deve essere un multiplo di questa proprietà.</target>         
         </trans-unit>
         <trans-unit id="188" translate="yes" xml:space="preserve">
           <source>AllowModuleOverwrite</source>
@@ -379,11 +379,11 @@
         </trans-unit>
         <trans-unit id="193" translate="yes" xml:space="preserve">
           <source>string</source>
-          <target state="translated">stringa</target>         
+          <target state="translated">string</target>         
         </trans-unit>
         <trans-unit id="194" translate="yes" xml:space="preserve">
           <source>Possible values are <bpt id="p1">__</bpt>None(Default)<ept id="p1">__</ept>, <bpt id="p2">__</bpt>ForceModuleImport<ept id="p2">__</ept>, and <bpt id="p3">__</bpt>All<ept id="p3">__</ept>.</source>
-          <target state="translated">I possibili valori sono <bpt id="p1">__</bpt>None<ept id="p1">__</ept> (predefinito), <bpt id="p2">__</bpt>ForceModuleImport<ept id="p2">__</ept> e <bpt id="p3">__</bpt>All<ept id="p3">__</ept>.</target>         
+          <target state="translated">I possibili valori sono <bpt id="p1">__</bpt>None(Default)<ept id="p1">__</ept>, <bpt id="p2">__</bpt>ForceModuleImport<ept id="p2">__</ept> e <bpt id="p3">__</bpt>All<ept id="p3">__</ept>.</target>         
         </trans-unit>
         <trans-unit id="195" translate="yes" xml:space="preserve">
           <source>Set to <bpt id="p1">__</bpt>None<ept id="p1">__</ept> to use cached resources.</source>
@@ -419,7 +419,7 @@
         </trans-unit>
         <trans-unit id="203" translate="yes" xml:space="preserve">
           <source>Obsolete.</source>
-          <target state="translated">Obsoleto.</target>         
+          <target state="translated">Obsoleta.</target>         
         </trans-unit>
         <trans-unit id="204" translate="yes" xml:space="preserve">
           <source>Use <bpt id="p1">__</bpt>ConfigurationRepositoryWeb<ept id="p1">__</ept> and <bpt id="p2">__</bpt>ConfigurationRepositoryShare<ept id="p2">__</ept> blocks to define configuration pull servers.</source>
@@ -435,11 +435,11 @@
         </trans-unit>
         <trans-unit id="207" translate="yes" xml:space="preserve">
           <source>Obsolete.</source>
-          <target state="translated">Obsoleto.</target>         
+          <target state="translated">Obsoleta.</target>         
         </trans-unit>
         <trans-unit id="208" translate="yes" xml:space="preserve">
           <source>Use <bpt id="p1">__</bpt>ResourceRepositoryWeb<ept id="p1">__</ept> and <bpt id="p2">__</bpt>ResourceRepositoryShare<ept id="p2">__</ept> blocks to define resource pull servers.</source>
-          <target state="translated">Usare blocchi <bpt id="p1">__</bpt>ResourceRepositoryWeb<ept id="p1">__</ept> e <bpt id="p2">__</bpt>ResourceRepositoryShare<ept id="p2">__</ept> per definire i server di pull di risorse.</target>         
+          <target state="translated">Usare blocchi <bpt id="p1">__</bpt>ConfigurationRepositoryWeb<ept id="p1">__</ept> e <bpt id="p2">__</bpt>ConfigurationRepositoryShare<ept id="p2">__</ept> per definire i server di pull di risorse.</target>         
         </trans-unit>
         <trans-unit id="209" translate="yes" xml:space="preserve">
           <source>ReportManagers</source>
@@ -451,7 +451,7 @@
         </trans-unit>
         <trans-unit id="211" translate="yes" xml:space="preserve">
           <source>Obsolete.</source>
-          <target state="translated">Obsoleto.</target>         
+          <target state="translated">Obsoleta.</target>         
         </trans-unit>
         <trans-unit id="212" translate="yes" xml:space="preserve">
           <source>Use <bpt id="p1">__</bpt>ReportServerWeb<ept id="p1">__</ept> blocks to define report pull servers.</source>
@@ -499,7 +499,7 @@
         </trans-unit>
         <trans-unit id="223" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Configuration server<ept id="p1">**</ept>: A repository for DSC configurations.</source>
-          <target state="translated"><bpt id="p1">**</bpt>Server di configurazione<ept id="p1">**</ept>: repository per le configurazioni DSC.</target>         
+          <target state="translated"><bpt id="p1">**</bpt>Server di configurazione<ept id="p1">**</ept>: repository per configurazioni DSC.</target>         
         </trans-unit>
         <trans-unit id="224" translate="yes" xml:space="preserve">
           <source>Define configuration severs by using <bpt id="p1">**</bpt>ConfigurationRepositoryWeb<ept id="p1">**</ept> (for web-based servers) and <bpt id="p2">**</bpt>ConfigurationRepositoryShare<ept id="p2">**</ept> (for SMB-based servers) blocks.</source>
@@ -891,7 +891,7 @@
         </trans-unit>
         <trans-unit id="321" translate="yes" xml:space="preserve">
           <source>For more information about partial configurations, see <bpt id="p1">[</bpt>DSC Partial configurations<ept id="p1">](partialConfigs.md)</ept>.</source>
-          <target state="translated">Per altre informazioni sulle configurazioni parziali, vedere <bpt id="p1">[</bpt>Configurazioni parziali DSC<ept id="p1">](partialConfigs.md)</ept>.</target>         
+          <target state="translated">Per altre informazioni sulle configurazioni parziali, vedere la pagina sulle <bpt id="p1">[</bpt>configurazioni parziali DSC<ept id="p1">](partialConfigs.md)</ept>.</target>         
         </trans-unit>
         <trans-unit id="322" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>PartialConfiguration<ept id="p1">**</ept> defines the following properties.</source>
@@ -1011,7 +1011,7 @@
         </trans-unit>
         <trans-unit id="351" translate="yes" xml:space="preserve">
           <source>These names must refer to resource servers previously defined in <bpt id="p1">**</bpt>ResourceRepositoryWeb<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ResourceRepositoryShare<ept id="p2">**</ept> blocks.</source>
-          <target state="translated">Questi nomi devono fare riferimento ai server di risorse definiti in precedenza in blocchi <bpt id="p1">**</bpt>ResourceRepositoryWeb<ept id="p1">**</ept> e <bpt id="p2">**</bpt>ResourceRepositoryShare<ept id="p2">**</ept>.</target>         
+          <target state="translated">Questi nomi devono fare riferimento ai server di risorse definiti in precedenza in blocchi <bpt id="p1">**</bpt>ResourceRepositoryWeb<ept id="p1">**</ept> e <bpt id="p2">**</bpt>ResourceRepositoryShare<ept id="p2">**</ept></target>         
         </trans-unit>
         <trans-unit id="352" translate="yes" xml:space="preserve">
           <source>See Also</source>
@@ -1022,20 +1022,28 @@
           <target state="translated">Concetti</target>         
         </trans-unit>
         <trans-unit id="354" translate="yes" xml:space="preserve">
-          <source>Get Started with Windows PowerShell Desired State Configuration <bpt id="p1">[</bpt>Setting up a DSC pull server<ept id="p1">](pullServer.md)</ept><ph id="ph1"> 
-</ph><bpt id="p2">[</bpt>Windows PowerShell 4.0 Desired State Configuration Local Configuration Manager<ept id="p2">](metaConfig4.md)</ept></source>
-          <target state="translated">Introduzione a Windows PowerShell DSC <bpt id="p1">[</bpt>Configurazione di un server di pull DSC<ept id="p1">](pullServer.md)</ept><ph id="ph1"> 
-</ph><bpt id="p2">[</bpt> Gestione configurazione locale di Windows PowerShell 4.0 DSC<ept id="p2">](metaConfig4.md)</ept></target>         
+          <source>Windows PowerShell Desired State Configuration Overview</source>
+          <target state="translated">Panoramica di Windows PowerShell DSC (Desired State Configuration)</target>         
         </trans-unit>
         <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>Setting up a DSC pull server</source>
+          <target state="translated">Configurazione di un server di pull DSC</target>         
+        </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell 4.0 Desired State Configuration Local Configuration Manager</source>
+          <target state="translated">Gestione configurazione locale di Windows PowerShell 4.0 DSC (Desired State Configuration)</target>         
+        </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
           <source>Other Resources</source>
           <target state="translated">Risorse aggiuntive</target>         
         </trans-unit>
-        <trans-unit id="356" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">[</bpt>Set-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521621.aspx)</ept><ph id="ph1"> 
-</ph><bpt id="p2">[</bpt>Setting up a pull client with configuration names<ept id="p2">](pullClientConfigNames.md)</ept></source>
-          <target state="translated"><bpt id="p1">[</bpt>Set-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521621.aspx)</ept><ph id="ph1"> 
-</ph><bpt id="p2">[</bpt>Configurazione di un client di pull usando nomi di configurazione<ept id="p2">](pullClientConfigNames.md)</ept></target>         
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>Set-DscLocalConfigurationManager</source>
+          <target state="translated">Set-DscLocalConfigurationManager</target>         
+        </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>Setting up a pull client with configuration names</source>
+          <target state="translated">Configurazione di un client di pull con nomi di configurazione</target>         
         </trans-unit>
       </group>
     </body>
