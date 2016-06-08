@@ -4,7 +4,7 @@
     <header>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\partialConfigs.md</xliffext:olfilepath>
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">85d81ef4f82ef10c0f838601a9adb79d2fba65e7</xliffext:olfilehash>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9e3052353dd54568eb2dfaf5af5efde7faafd03a</xliffext:olfilehash>
       <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-3d52e17" tool-company="Microsoft" />
     </header>
     <body>
@@ -138,102 +138,138 @@
           <target state="translated">그런 다음 <bpt id="p2">**</bpt>ConfigurationSource<ept id="p2">**</ept> 속성을 사용하여 끌어오기 서버를 참조하는 <bpt id="p1">**</bpt>PartialConfiguration<ept id="p1">**</ept> 블록을 만듭니다.</target>         
         </trans-unit>
         <trans-unit id="133" translate="yes" xml:space="preserve">
-          <source>You also need to create a Settings block to specify that the LCM uses pull mode, and to specify the ConfigurationID that the pull server and target node use to identify the configurations.</source>
-          <target state="translated">또한 LCM이 끌어오기 모드를 사용한다고 지정하고, 끌어오기 서버 및 대상 노드가 구성을 식별하는 데 사용하는 ConfigurationID를 지정해야 합니다.</target>         
+          <source>You also need to create a <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> block to specify that the LCM uses pull mode, and to specify the <bpt id="p2">**</bpt>ConfigurationNames<ept id="p2">**</ept> or <bpt id="p3">**</bpt>ConfigurationID<ept id="p3">**</ept> that the pull server and target node use to identify the configurations.</source>
+          <target state="translated">또한 LCM이 끌어오기 모드를 사용한다고 지정하고, 끌어오기 서버 및 대상 노드가 구성을 식별하는 데 사용하는 <bpt id="p2">**</bpt>ConfigurationNames<ept id="p2">**</ept> 또는 <bpt id="p3">**</bpt>ConfigurationID<ept id="p3">**</ept>를 지정하기 위한 <bpt id="p1">**</bpt>설정<ept id="p1">**</ept> 블록을 만들어야 합니다.</target>         
         </trans-unit>
         <trans-unit id="134" translate="yes" xml:space="preserve">
           <source>The following meta-configuration defines an HTTP pull server named CONTOSO-PullSrv and two partial configurations that use that pull server.</source>
           <target state="translated">다음의 메타 구성은 CONTOSO PullSrv라는 HTTP 끌어오기 서버와, 해당 끌어오기 서버를 사용하는 두 개의 부분 구성을 정의합니다.</target>         
         </trans-unit>
         <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For more information about configuring the LCM using <bpt id="p1">**</bpt>ConfigurationNames<ept id="p1">**</ept>, see <bpt id="p2">[</bpt>Setting up a pull client using configuration names<ept id="p2">](pullClientConfigNames.md)</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>ConfigurationNames<ept id="p1">**</ept>를 사용하여 LCM을 구성하는 방법에 대해서는 <bpt id="p2">[</bpt>구성 이름을 사용하여 끌어오기 클라이언트 설정<ept id="p2">](pullClientConfigNames.md)</ept>을 참조하세요.</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For information about configuring the LCM using <bpt id="p1">**</bpt>ConfigurationID<ept id="p1">**</ept>, see <bpt id="p2">[</bpt>Setting up a pull client using configuration ID<ept id="p2">](pullClientConfigID.md)</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>ConfigurationID<ept id="p1">**</ept>를 사용하여 LCM을 구성하는 방법에 대해서는 <bpt id="p2">[</bpt>구성 ID를 사용하여 끌어오기 클라이언트 설정<ept id="p2">](pullClientConfigID.md)</ept>을 참조하세요.</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Configuring the LCM for pull mode configurations using configuration names</source>
+          <target state="translated">구성 이름을 사용하여 끌어오기 모드 구성에 대해 LCM 구성</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Configuring the LCM for pull mode configurations using ConfigurationID</source>
+          <target state="translated">ConfigurationID를 사용하여 끌어오기 모드 구성에 대해 LCM 구성</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
           <source>You can pull partial configurations from more than one pull server—you would just need to define each pull server, and then refer to the appropriate pull server in each PartialConfiguration block.</source>
           <target state="translated">둘 이상의 끌어오기 서버에서 부분 구성을 끌어올 수 있습니다. 각 끌어오기 서버를 정의한 다음, 각 PartialConfiguration 블록에서 적절한 끌어오기 서버를 참조하기만 하면 됩니다.</target>         
         </trans-unit>
-        <trans-unit id="136" translate="yes" xml:space="preserve">
+        <trans-unit id="140" translate="yes" xml:space="preserve">
           <source>After creating the meta-configuration, you must run it to create a configuration document (a MOF file), and then call <bpt id="p1">[</bpt>Set-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521621(v=wps.630).aspx)</ept> to configure the LCM.</source>
           <target state="translated">메타 구성을 만든 후 실행하여 구성 문서(MOF 파일)를 만들고 <bpt id="p1">[</bpt>Set-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521621(v=wps.630).aspx)</ept>를 호출하여 LCM을 구성해야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="137" translate="yes" xml:space="preserve">
-          <source>Naming and placing the configuration documents on the pull server</source>
-          <target state="translated">끌어오기 서버에서 구성 문서 이름 지정 및 배치</target>         
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Naming and placing the configuration documents on the pull server (ConfigurationNames)</source>
+          <target state="translated">끌어오기 서버에서 구성 문서 이름 지정 및 배치(ConfigurationNames)</target>         
         </trans-unit>
-        <trans-unit id="138" translate="yes" xml:space="preserve">
+        <trans-unit id="142" translate="yes" xml:space="preserve">
           <source>The partial configuration documents must be placed in the folder specified as the <bpt id="p1">**</bpt>ConfigurationPath<ept id="p1">**</ept> in the <ph id="ph1">`web.config`</ph> file for the pull server (typically <ph id="ph2">`C:\Program Files\WindowsPowerShell\DscService\Configuration`</ph>).</source>
           <target state="translated">부분 구성 문서는 끌어오기 서버용의 <ph id="ph1">`web.config`</ph> 파일에서 <bpt id="p1">**</bpt>ConfigurationPath<ept id="p1">**</ept>로 지정된 폴더에 배치해야 합니다(일반적으로 <ph id="ph2">`C:\Program Files\WindowsPowerShell\DscService\Configuration`</ph>).</target>         
         </trans-unit>
-        <trans-unit id="139" translate="yes" xml:space="preserve">
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The configuration documents must be named as follows: <ph id="ph1">`ConfigurationName.mof`</ph>, where <bpt id="p1">_</bpt>ConfigurationName<ept id="p1">_</ept> is the name of the partial configuration.</source>
+          <target state="translated">구성 문서의 이름은 <ph id="ph1">`ConfigurationName.mof`</ph>와 같이 지정해야 합니다. 여기서 <bpt id="p1">_</bpt>ConfigurationName<ept id="p1">_</ept>은 부분 구성의 이름입니다.</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For our example, the configuration documents should be named as follows:</source>
+          <target state="translated">이 예에서 구성 문서의 이름은 다음과 같아야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Naming and placing the configuration documents on the pull server (ConfigurationID)</source>
+          <target state="translated">끌어오기 서버에서 구성 문서 이름 지정 및 배치(ConfigurationID)</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The partial configuration documents must be placed in the folder specified as the <bpt id="p1">**</bpt>ConfigurationPath<ept id="p1">**</ept> in the <ph id="ph1">`web.config`</ph> file for the pull server (typically <ph id="ph2">`C:\Program Files\WindowsPowerShell\DscService\Configuration`</ph>).</source>
+          <target state="translated">부분 구성 문서는 끌어오기 서버용의 <ph id="ph1">`web.config`</ph> 파일에서 <bpt id="p1">**</bpt>ConfigurationPath<ept id="p1">**</ept>로 지정된 폴더에 배치해야 합니다(일반적으로 <ph id="ph2">`C:\Program Files\WindowsPowerShell\DscService\Configuration`</ph>).</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
           <source>The configuration documents must be named as follows: <bpt id="p1">_</bpt>ConfigurationName<ept id="p1">_</ept>.</source>
           <target state="translated">구성 문서의 이름은 <bpt id="p1">_</bpt>ConfigurationName<ept id="p1">_</ept>.</target>         
         </trans-unit>
-        <trans-unit id="140" translate="yes" xml:space="preserve">
+        <trans-unit id="148" translate="yes" xml:space="preserve">
           <source><bpt id="p1">_</bpt>ConfigurationID<ept id="p1">_</ept><ph id="ph1">`.mof`</ph>, where <bpt id="p2">_</bpt>ConfigurationName<ept id="p2">_</ept> is the name of the partial configuration and <bpt id="p3">_</bpt>ConfigurationID<ept id="p3">_</ept> is the configuration ID defined in the LCM on the target node.</source>
           <target state="translated"><bpt id="p1">_</bpt>ConfigurationID<ept id="p1">_</ept><ph id="ph1">`.mof`</ph>와 같이 지정해야 합니다. 여기서 <bpt id="p2">_</bpt>ConfigurationName<ept id="p2">_</ept>은 부분 구성의 이름이고, <bpt id="p3">_</bpt>ConfigurationID<ept id="p3">_</ept>는 대상 노드의 LCM에 정의된 구성 ID입니다.</target>         
         </trans-unit>
-        <trans-unit id="141" translate="yes" xml:space="preserve">
-          <source>For our example, the configuration documents should be names as follows.</source>
-          <target state="translated">예제에서 구성 문서의 이름은 다음과 같아야 합니다.</target>         
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>For our example, the configuration documents should be named as follows:</source>
+          <target state="translated">이 예에서 구성 문서의 이름은 다음과 같아야 합니다.</target>         
         </trans-unit>
-        <trans-unit id="142" translate="yes" xml:space="preserve">
-          <source>PartialConfig names on pull server</source>
-          <target state="translated">끌어오기 서버의 PartialConfig 이름</target>         
-        </trans-unit>
-        <trans-unit id="143" translate="yes" xml:space="preserve">
+        <trans-unit id="150" translate="yes" xml:space="preserve">
           <source>Running partial configurations from a pull server</source>
           <target state="translated">끌어오기 서버에서 부분 구성 실행</target>         
         </trans-unit>
-        <trans-unit id="144" translate="yes" xml:space="preserve">
+        <trans-unit id="151" translate="yes" xml:space="preserve">
           <source>After the LCM on the target node has been configured, and the configuration documents have been created and properly named on the pull server, the target node will pull the partial configurations, combine them, and apply the resulting configuration at regular intervals as specified by the <bpt id="p1">**</bpt>RefreshFrequencyMins<ept id="p1">**</ept> property of the LCM.</source>
           <target state="translated">대상 노드의 LCM이 구성되고, 구성 문서가 만들어져서 끌어오기 서버에서 적절히 이름이 지정되면, 대상 노드는 부분 구성들을 끌어와서, 결합하고, 그에 따른 결과 구성을 LCM의 <bpt id="p1">**</bpt>RefreshFrequencyMins<ept id="p1">**</ept> 속성으로 지정한 일정한 간격으로 적용하게 됩니다.</target>         
         </trans-unit>
-        <trans-unit id="145" translate="yes" xml:space="preserve">
-          <source>If you want to force a refresh, you can call the Update-DscConfiguration cmdlet, to pull the configurations, and then <ph id="ph1">`Start-DSCConfiguration –UseExisting`</ph> to apply them.</source>
-          <target state="translated">새로 고침을 강제 적용하려는 경우 Update-DscConfiguration cmdlet을 호출하여 구성을 끌어온 다음, <ph id="ph1">`Start-DSCConfiguration –UseExisting`</ph>을 사용하여 적용합니다.</target>         
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>If you want to force a refresh, you can call the <bpt id="p1">[</bpt>Update-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/mt143541.aspx)</ept> cmdlet, to pull the configurations, and then <ph id="ph1">`Start-DSCConfiguration –UseExisting`</ph> to apply them.</source>
+          <target state="translated">새로 고침을 강제 적용하려는 경우 <bpt id="p1">[</bpt>Update-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/mt143541.aspx)</ept> cmdlet을 호출하여 구성을 끌어온 다음, <ph id="ph1">`Start-DSCConfiguration –UseExisting`</ph>을 사용하여 적용합니다.</target>         
         </trans-unit>
-        <trans-unit id="146" translate="yes" xml:space="preserve">
+        <trans-unit id="153" translate="yes" xml:space="preserve">
           <source>Partial configurations in mixed push and pull modes</source>
           <target state="translated">밀어넣기 및 끌어오기 혼합 모드의 부분 구성</target>         
         </trans-unit>
-        <trans-unit id="147" translate="yes" xml:space="preserve">
+        <trans-unit id="154" translate="yes" xml:space="preserve">
           <source>You can also mix push and pull modes for partial configurations.</source>
           <target state="translated">부분 구성을 위해 밀어넣기 모드와 끌어오기 모드를 혼합할 수도 있습니다.</target>         
         </trans-unit>
-        <trans-unit id="148" translate="yes" xml:space="preserve">
+        <trans-unit id="155" translate="yes" xml:space="preserve">
           <source>That is, you could have one partial configuration that is pulled from a pull server, while another partial configuration is pushed.</source>
           <target state="translated">즉, 끌어오기 서버에서 끌어온 부분 구성 하나와 밀어넣은 또 다른 부분 구성이 있을 수 있습니다.</target>         
         </trans-unit>
-        <trans-unit id="149" translate="yes" xml:space="preserve">
+        <trans-unit id="156" translate="yes" xml:space="preserve">
           <source>Treat each partial configuration as you would, depending on its refresh mode as described in the previous sections.</source>
           <target state="translated">이전 섹션에 설명된 대로 해당 새로 고침 모드에 따라 적절하게 각각의 구성 부분을 처리합니다.</target>         
         </trans-unit>
-        <trans-unit id="150" translate="yes" xml:space="preserve">
+        <trans-unit id="157" translate="yes" xml:space="preserve">
           <source>For example, the following meta-configuration describes the same example, with the operating system partial configuration in pull mode and the SharePoint partial configuration in push mode.</source>
           <target state="translated">예를 들어, 다음의 메타 구성은 끌어오기 모드의 운영 체제 부분 구성과 밀어넣기 모드의 SharePoint 부분 구성으로 동일한 예를 설명합니다.</target>         
         </trans-unit>
-        <trans-unit id="151" translate="yes" xml:space="preserve">
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Mixed push and pull modes using ConfigurationNames</source>
+          <target state="translated">ConfigurationNames를 사용한 혼합된 밀어넣기 및 끌어오기 모드</target>         
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Mixed push and pull modes using ConfigurationID</source>
+          <target state="translated">ConfigurationID를 사용한 혼합된 밀어넣기 및 끌어오기 모드</target>         
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
           <source>Note that the <bpt id="p1">**</bpt>RefreshMode<ept id="p1">**</ept> specified in the Settings block is "Pull", but the <bpt id="p2">**</bpt>RefreshMode<ept id="p2">**</ept> for the OSInstall partial configuration is "Push".</source>
           <target state="translated">Settings 블록에 지정된 <bpt id="p1">**</bpt>RefreshMode<ept id="p1">**</ept>는 "Pull"이지만, OSInstall 부분 구성에 대한 <bpt id="p2">**</bpt>RefreshMode<ept id="p2">**</ept>는 "Push"입니다.</target>         
         </trans-unit>
-        <trans-unit id="152" translate="yes" xml:space="preserve">
+        <trans-unit id="161" translate="yes" xml:space="preserve">
           <source>Name and locate the configuration MOF files as described above for their respective refresh modes.</source>
           <target state="translated">각각의 새로 고침 모드에 대해 위에서 설명한 대로 구성 MOF 파일에 이름을 지정하고 배치합니다.</target>         
         </trans-unit>
-        <trans-unit id="153" translate="yes" xml:space="preserve">
+        <trans-unit id="162" translate="yes" xml:space="preserve">
           <source>Call <bpt id="p1">**</bpt>Publish-DSCConfiguration<ept id="p1">**</ept> to publish the <ph id="ph1">`SharePointInstall`</ph> partial configuration, and either wait for the <ph id="ph2">`OSInstall`</ph> configuration to be pulled from the pull server, or force a refresh by calling <bpt id="p2">[</bpt>Update-DscConfiguration<ept id="p2">](https://technet.microsoft.com/en-us/library/mt143541(v=wps.630).aspx)</ept>.</source>
           <target state="translated"><bpt id="p1">**</bpt>Publish-DSCConfiguration<ept id="p1">**</ept>을 호출하여 <ph id="ph1">`SharePointInstall`</ph> 부분 구성을 게시하고, 끌어오기 서버에서 <ph id="ph2">`OSInstall`</ph> 구성을 끌어오기를 기다리거나 <bpt id="p2">[</bpt>Update-DscConfiguration<ept id="p2">](https://technet.microsoft.com/en-us/library/mt143541(v=wps.630).aspx)</ept>을 호출하여 새로 고침을 적용합니다.</target>         
         </trans-unit>
-        <trans-unit id="154" translate="yes" xml:space="preserve">
+        <trans-unit id="163" translate="yes" xml:space="preserve">
           <source>Example OSInstall Partial Configuration</source>
           <target state="translated">OSInstall 부분 구성 예제</target>         
         </trans-unit>
-        <trans-unit id="155" translate="yes" xml:space="preserve">
+        <trans-unit id="164" translate="yes" xml:space="preserve">
           <source>Example SharePointConfig Partial Configuration</source>
           <target state="translated">SharePointConfig 부분 구성 예제</target>         
         </trans-unit>
-        <trans-unit id="156" translate="yes" xml:space="preserve">
+        <trans-unit id="165" translate="yes" xml:space="preserve">
           <source>See Also</source>
           <target state="translated">참고 항목</target>         
         </trans-unit>
-        <trans-unit id="157" translate="yes" xml:space="preserve">
+        <trans-unit id="166" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Concepts<ept id="p1">**</ept><ph id="ph1">
 </ph><bpt id="p2">[</bpt>Windows PowerShell Desired State Configuration Pull Servers<ept id="p2">](pullServer.md)</ept><ph id="ph2"> 
 </ph><bpt id="p3">[</bpt>Windows Configuring the Local Configuration Manager<ept id="p3">](https://technet.microsoft.com/en-us/library/mt421188.aspx)</ept></source>
