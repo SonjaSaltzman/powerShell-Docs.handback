@@ -1,0 +1,1887 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">jea\JEA Guide.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b1bf871729b206fa95349c60a27787452f26e220</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1b2f027" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Just Enough Administration (JEA): An Introduction</source>
+          <target state="translated">Just Enough Administration (JEA): eine Einführung</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Table of Contents</source>
+          <target state="translated">Inhalt</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>After reading this document, you should be able to author, deploy, use, maintain, and audit a Just Enough Administration (JEA) deployment.</source>
+          <target state="translated">Nach der Lektüre dieses Dokuments werden Sie in der Lage sein, eine JEA-Bereitstellung (Just Enough Administration) zu erstellen, bereitzustellen, zu verwenden, zu verwalten und zu überwachen.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Here are the topics covered in this introductory guide:</source>
+          <target state="translated">Folgende Themen werden in diesem Einführungsleitfaden behandelt:</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Introduction<ept id="p1">](#introduction)</ept>: Briefly review why you should care about JEA</source>
+          <target state="translated"><bpt id="p1">[</bpt>Einführung<ept id="p1">](#introduction)</ept>: Kurze Übersicht über die Gründe, aus denen JEA für Sie interessant sein könnte</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Prerequisites<ept id="p1">](#prerequisites)</ept>: Set up your environment</source>
+          <target state="translated"><bpt id="p1">[</bpt>Voraussetzungen<ept id="p1">](#prerequisites)</ept>: Einrichten der Umgebung</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Using JEA<ept id="p1">](#using-jea)</ept>: Start by understanding the operator experience of using JEA</source>
+          <target state="translated"><bpt id="p1">[</bpt>Verwenden von JEA<ept id="p1">](#using-jea)</ept>: Grundlegendes zur Verwendung von JEA durch Operatoren</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Remake the Demo<ept id="p1">](#remake-the-demo-endpoint)</ept>: Create a JEA Session Configuration from scratch</source>
+          <target state="translated"><bpt id="p1">[</bpt>Neuerstellen der Demo<ept id="p1">](#remake-the-demo-endpoint)</ept>: Erstellen einer JEA-Sitzungskonfiguration von Grund auf</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Role Capabilities<ept id="p1">](#role-capabilities)</ept>: Learn about how to customize JEA capabilities with Role Capability Files</source>
+          <target state="translated"><bpt id="p1">[</bpt>Rollenfunktionen<ept id="p1">](#role-capabilities)</ept>: Informationen zum Anpassen von JEA-Funktionen mit JEA-Rollenfunktionsdateien</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>End to End - Active Directory<ept id="p1">](#end-to-end---active-directory)</ept>: Make a whole new endpoint for managing Active Directory</source>
+          <target state="translated"><bpt id="p1">[</bpt>End-to-End – Active Directory<ept id="p1">](#end-to-end---active-directory)</ept>: Erstellen eines vollständig neuen Endpunkts zur Verwaltung von Active Directory</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Multi-machine Deployment and Maintenance<ept id="p1">](#multi-machine-deployment-and-maintenance)</ept>: Discover how deployment and authoring changes with scale</source>
+          <target state="translated"><bpt id="p1">[</bpt>Bereitstellung und Wartung mehrerer Computer<ept id="p1">](#multi-machine-deployment-and-maintenance)</ept>: Änderungen bei Erstellung und Bereitstellung in größerem Umfang</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Reporting on JEA<ept id="p1">](#reporting-on-jea)</ept>: Discover how to audit and report on all JEA actions and infrastructure</source>
+          <target state="translated"><bpt id="p1">[</bpt>Berichte zu JEA<ept id="p1">](#reporting-on-jea)</ept>: Überwachung und Berichterstellung für alle JEA-Aktionen und die gesamte Infrastruktur</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Appendix<ept id="p1">](#appendix)</ept>: Important skills and discussion points</source>
+          <target state="translated"><bpt id="p1">[</bpt>Anhang<ept id="p1">](#appendix)</ept> Wichtige Fähigkeiten und relevante Aspekte</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Introduction</source>
+          <target state="translated">Einführung</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Motivation</source>
+          <target state="translated">Beweggründe</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When you grant someone privileged access to your systems, you extend your trust boundary to that person.</source>
+          <target state="translated">Wenn Sie einer Person privilegierten Zugriff auf Ihre Systeme gewähren, erweitern Sie Ihre Vertrauensstellungsgrenze auf diese Person.</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This is a risk -- administrators are an attack surface.</source>
+          <target state="translated">Dies birgt Risiken – Administratoren sind eine Angriffsfläche.</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Insider attacks and stolen credentials are both real and common.</source>
+          <target state="translated">Sowohl Angriffe als auch gestohlene Anmeldeinformationen sind reale und nicht seltene Gefahren.</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This is not a new problem.</source>
+          <target state="translated">Das ist kein neues Problem.</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You are probably very familiar with the principle of least privilege, and you might use some form of role based access control (RBAC) with applications that provide it.</source>
+          <target state="translated">Sie sind sicher mit der Regel der geringsten Rechte vertraut, und Sie verwenden bestimmt eine Form der rollenbasierten Zugriffssteuerung (Role-Based Access Control, RBAC) bei Anwendungen, die diese bereitstellen.</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>However, the effectiveness and manageability of these solutions are often limited by their broad scope and imprecision.</source>
+          <target state="translated">Effektivität und Verwaltungsfreundlichkeit solcher Lösungen sind jedoch häufig durch ihren Funktionsumfang und ihre Ungenauigkeit begrenzt.</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Furthermore, there are gaps in RBAC coverage.</source>
+          <target state="translated">Darüber hinaus weist die rollenbasierte Zugriffssteuerung Lücken auf.</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For example, in Windows, privileged access is largely a binary switch, forcing you to give unnecessary permissions when adding users to the Administrators group.</source>
+          <target state="translated">In Windows beispielsweise ist der privilegierte Zugriff im Großen und Ganzen ein binärer Schalter, sodass Sie unnötige Berechtigungen erteilen müssen, wenn Sie Benutzer zur Administratorengruppe hinzufügen.</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Just Enough Administration (JEA) provides a RBAC platform through PowerShell Remoting.</source>
+          <target state="translated">Just Enough Administration (JEA) bietet eine RBAC-Plattform über PowerShell-Remoting.</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>It allows specific users to perform specific administrative tasks on servers without giving them administrator rights.</source>
+          <target state="translated">Damit können bestimmte Benutzer bestimmte administrative Aufgaben auf Servern ausführen, ohne dass ihnen Administratorrechte gewährt werden müssen.</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This allows you to fill in the gaps between your existing RBAC solutions, and simplifies management of those settings.</source>
+          <target state="translated">So können Sie die Lücken zwischen Ihren vorhandenen RBAC-Lösungen schließen, und die Verwaltung dieser Einstellungen wird vereinfacht.</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+          <target state="translated">Voraussetzungen</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Initial State</source>
+          <target state="translated">Anfangszustand</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Before starting this section, please ensure the following:</source>
+          <target state="translated">Bevor Sie mit diesem Abschnitt beginnen, stellen Sie Folgendes sicher:</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>JEA is available on your system.</source>
+          <target state="translated">JEA ist auf Ihrem System verfügbar.</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Check out the <bpt id="p1">[</bpt>README<ept id="p1">](./README.md)</ept> for the current supported operating systems and required downloads.</source>
+          <target state="translated">Lesen Sie die <bpt id="p1">[</bpt>Infodatei<ept id="p1">](./README.md)</ept>, um Informationen zu den derzeit unterstützten Betriebssystemen und erforderlichen Downloads zu erhalten.</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You have administrative rights on the computer where you are trying out JEA.</source>
+          <target state="translated">Sie verfügen über Administratorrechte auf dem Computer, auf dem Sie JEA ausprobieren.</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The computer is domain joined.</source>
+          <target state="translated">Der Computer ist in die Domäne eingebunden.</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>See the <bpt id="p1">[</bpt>Creating a Domain Controller<ept id="p1">](#creating-a-domain-controller)</ept> section to quickly set up a new domain on a server if you don't already have one.</source>
+          <target state="translated">Falls Sie noch nicht über eine Domäne verfügen, finden Sie im Abschnitt <bpt id="p1">[</bpt>Erstellen eines Domänencontrollers<ept id="p1">](#creating-a-domain-controller)</ept> Informationen zum schnellen Erstellen einer neuen Domäne auf einem Server.</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Enable PowerShell Remoting</source>
+          <target state="translated">Aktivieren von PowerShell-Remoting</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Management with JEA occurs through PowerShell Remoting.</source>
+          <target state="translated">Die Verwaltung mit JEA erfolgt über PowerShell-Remoting.</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Run the following in an Administrator PowerShell window to ensure that this is enabled and configured properly:</source>
+          <target state="translated">Führen Sie Folgendes in einem PowerShell-Administratorfenster aus, um sicherzustellen, dass PowerShell-Remoting aktiviert und ordnungsgemäß konfiguriert ist:</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>If you are unfamiliar with PowerShell remoting, it would be a good idea to run <ph id="ph1">`Get-Help about_Remote`</ph> to learn about this important foundational concept.</source>
+          <target state="translated">Wenn Sie mit PowerShell-Remoting noch nicht vertraut sind, empfiehlt es sich, <ph id="ph1">`Get-Help about_Remote`</ph> auszuführen, um Informationen zu diesem wichtigen und grundlegenden Konzept zu erhalten.</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Identify Your Users or Groups</source>
+          <target state="translated">Identifizieren der Benutzer und Gruppen</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To show JEA in action, you need to identify the non-administrator users and groups you are going to use throughout this guide.</source>
+          <target state="translated">Um JEA in Aktion zu erleben, müssen Sie die Benutzer und Gruppen ohne Administratorrechte identifizieren, die Sie in diesem Leitfaden verwenden werden.</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If you're using an existing domain, please identify or create some unprivileged users and groups.</source>
+          <target state="translated">Wenn Sie eine vorhandene Domäne verwenden, identifizieren oder erstellen Sie einige Benutzer und Gruppen ohne solche Rechte.</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You will give these non-administrators access to JEA.</source>
+          <target state="translated">Sie werden diesen Benutzern ohne Administratorrechte Zugriff auf JEA gewähren.</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Anytime you see the <ph id="ph1">`$NonAdministrator`</ph> variable in a top of a script, assign it to your selected non-administrator users or groups.</source>
+          <target state="translated">Immer, wenn Sie die <ph id="ph1">`$NonAdministrator`</ph>-Variable oben in einem Skript sehen, weisen Sie diese Ihren ausgewählten Benutzern oder Gruppen ohne Administratorrechte zu.</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If you created a new domain from scratch, it's much easier.</source>
+          <target state="translated">Wenn Sie eine neue Domäne erstellt haben, ist die Aufgabe wesentlich leichter.</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Please use the <bpt id="p1">[</bpt>Set Up Users and Groups<ept id="p1">](#set-up-users-and-groups)</ept> section in the appendix to create a non-administrator users and groups.</source>
+          <target state="translated">Verwenden Sie den Abschnitt <bpt id="p1">[</bpt>Benutzer und Gruppen einrichten<ept id="p1">](#set-up-users-and-groups)</ept> im Anhang, um Benutzer und Gruppen ohne Administratorrechte zu erstellen.</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The default values of <ph id="ph1">`$NonAdministrator`</ph> will be the groups created in that section.</source>
+          <target state="translated">Die in diesem Abschnitt erstellten Gruppen weisen standardmäßig den Wert <ph id="ph1">`$NonAdministrator`</ph> auf.</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Set Up Maintenance Role Capability File</source>
+          <target state="translated">Einrichten der Rollenfunktionsdatei für die Wartungsrolle</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Run the following commands in PowerShell to create the demo Role Capability file we will be using for the next section.</source>
+          <target state="translated">Führen Sie die folgenden Befehle in PowerShell aus, um die Rollenfunktionsdatei für die Demo zu erstellen, die Sie im nächsten Abschnitt benötigen.</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Later in this guide, you will learn about what this file does.</source>
+          <target state="translated">Im späteren Verlauf dieses Leitfadens werden Sie erfahren, wozu diese Datei dient.</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Create and Register Demo Session Configuration File</source>
+          <target state="translated">Erstellen und Registrieren der Sitzungskonfigurationsdatei für die Demo</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Run the following commands to create and register the demo Session Configuration file we will be using for the next section.</source>
+          <target state="translated">Führen Sie die folgenden Befehle aus, um die Sitzungskonfigurationsdatei für die Demo zu erstellen und zu registrieren, die Sie im nächsten Abschnitt benötigen.</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Later in this guide, you will learn about what this file does.</source>
+          <target state="translated">Im späteren Verlauf dieses Leitfadens werden Sie erfahren, wozu diese Datei dient.</target>         
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Enable PowerShell Module Logging (Optional)</source>
+          <target state="translated">Aktivieren der PowerShell-Modulprotokollierung (optional)</target>         
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The following steps enable logging for all PowerShell actions on your system.</source>
+          <target state="translated">Die folgenden Schritte aktivieren die Protokollierung für alle PowerShell-Aktionen in Ihrem System.</target>         
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>You don't need to enable this for JEA to work, but it will be useful in the <bpt id="p1">[</bpt>Reporting on JEA<ept id="p1">](#reporting-on-jea)</ept> section.</source>
+          <target state="translated">Sie müssen die Protokollierung nicht aktivieren, damit JEA funktioniert, sie ist jedoch sehr nützlich für den Abschnitt <bpt id="p1">[</bpt>Berichterstellung in JEA<ept id="p1">](#reporting-on-jea)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Open the Local Group Policy Editor</source>
+          <target state="translated">Öffnen Sie den Editor für lokale Gruppenrichtlinien.</target>         
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Navigate to "Computer Configuration\Administrative Templates\Windows Components\Windows PowerShell"</source>
+          <target state="translated">Navigieren Sie zu „Computerkonfiguration\Administrative Vorlagen\Windows-Komponenten\Windows-PowerShell“.</target>         
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Double Click on "Turn on Module Logging"</source>
+          <target state="translated">Doppelklicken Sie auf „Modulprotokollierung aktivieren“.</target>         
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Click "Enabled"</source>
+          <target state="translated">Klicken Sie auf „Aktiviert“.</target>         
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>In the Options section, click on "Show" next to Module Names</source>
+          <target state="translated">Klicken Sie im Abschnitt „Optionen“ neben den Modulnamen auf „Anzeigen“.</target>         
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Type "*" in the pop up window.</source>
+          <target state="translated">Geben Sie „*“ in das Popupfenster ein.</target>         
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This means PowerShell will log commands from all modules.</source>
+          <target state="translated">Dies bedeutet, dass PowerShell Befehle aus allen Modulen protokolliert.</target>         
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Click OK and apply the policy</source>
+          <target state="translated">Klicken Sie auf „OK“, und wenden Sie die Richtlinie an.</target>         
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Note: you can also enable system-wide PowerShell transcription through Group Policy.</source>
+          <target state="translated">Hinweis: Sie können über eine Gruppenrichtlinie auch die systemweite PowerShell-Aufzeichnung aktivieren.</target>         
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Congratulations, you have now configured your computer with the demo endpoint and are ready to get started with JEA!</source>
+          <target state="translated">Herzlichen Glückwunsch! Sie haben einen Demoendpunkt für Ihren Computer konfiguriert und sind jetzt bereit für den Einstieg in JEA.</target>         
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Using JEA</source>
+          <target state="translated">Verwenden von JEA</target>         
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>This section focuses on understanding the end user experience of <bpt id="p1">*</bpt>using JEA<ept id="p1">*</ept>.</source>
+          <target state="translated">In diesem Abschnitt geht es um das Endbenutzererlebnis beim <bpt id="p1">*</bpt>Verwenden von JEA<ept id="p1">*</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>In the prerequisites section, you created a demo JEA endpoint.</source>
+          <target state="translated">Im Abschnitt „Voraussetzungen“ haben Sie einen JEA-Demoendpunkt erstellt.</target>         
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>We will use this demo to show JEA in action.</source>
+          <target state="translated">Wir verwenden diesen Demoendpunkt jetzt, um JEA in Aktion zu zeigen.</target>         
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>In later sections, the guide will work backwards -- introducing the actions and files that made that end-user experience possible.</source>
+          <target state="translated">In späteren Abschnitten arbeiten wir uns sozusagen rückwärts an das Thema heran und stellen die Aktionen und Dateien vor, die dieses Endbenutzererlebnis ermöglichen.</target>         
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Using JEA as a Non-Administrator</source>
+          <target state="translated">Verwenden von JEA als Benutzer ohne Administratorrechte</target>         
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>To show JEA in action, you will need to use PowerShell remoting as though you were a non-administrator user.</source>
+          <target state="translated">Um JEA in Aktion zu erleben, müssen Sie PowerShell-Remoting so verwenden, als wären Sie ein Benutzer ohne Administratorrechte.</target>         
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Run the following command in a new PowerShell window:</source>
+          <target state="translated">Führen Sie folgenden Befehl in einem neuen PowerShell-Fenster aus:</target>         
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Enter the credentials for your non-administrator account when prompted.</source>
+          <target state="translated">Wenn Sie dazu aufgefordert werden, geben Sie die Anmeldeinformationen für Ihr Benutzerkonto ohne Administratorrechte ein.</target>         
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>If you followed the <bpt id="p1">[</bpt>Set Up Users and Groups<ept id="p1">](#set-up-users-and-groups)</ept> section, they will be:</source>
+          <target state="translated">Wenn Sie den Abschnitt <bpt id="p1">[</bpt>Einrichten von Benutzern und Gruppen<ept id="p1">](#set-up-users-and-groups)</ept> absolviert haben, lauten die Informationen wie folgt:</target>         
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Username = "OperatorUser"</source>
+          <target state="translated">Benutzername = OperatorUser</target>         
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Password = "pa$$w0rd"</source>
+          <target state="translated">Kennwort = pa$$w0rd</target>         
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Next, run the following command to connect to the demo endpoint using the credentials you provided:</source>
+          <target state="translated">Führen Sie als Nächstes den folgenden Befehl aus, um unter Verwendung der bereitgestellten Anmeldeinformationen eine Verbindung mit dem Demoendpunkt herzustellen:</target>         
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>You have now entered an interactive remote PowerShell session on the local machine.</source>
+          <target state="translated">Sie haben jetzt eine interaktive PowerShell-Remotesitzung auf dem lokalen Computer gestartet.</target>         
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>By using the "Credential" parameter, you have connected <bpt id="p1">*</bpt>as though you were<ept id="p1">*</ept> OperatorUser (or whichever account you used).</source>
+          <target state="translated">Durch Verwendung des Credential-Parameters haben Sie die Verbindung so hergestellt, <bpt id="p1">*</bpt>als wären Sie<ept id="p1">*</ept> der Benutzer „OperatorUser“ (bzw. der Benutzer, dessen Kontoinformationen Sie verwendet haben).</target>         
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The change in the prompt to <ph id="ph1">`[localhost]: PS&gt;`</ph> indicates that you are operating against a remote session.</source>
+          <target state="translated">Die Eingabeaufforderung ändert sich zu <ph id="ph1">`[localhost]: PS&gt;`</ph>, was darauf hinweist, dass Sie in einer Remotesitzung arbeiten.</target>         
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Run the following in your remote command prompt to show the commands available to you:</source>
+          <target state="translated">Führen Sie folgenden Befehl an der Remoteeingabeaufforderung aus, um die Befehle anzuzeigen, die Ihnen zur Verfügung stehen:</target>         
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>As you can tell, this is a very limited subset of the commands available in a normal PowerShell window (which can often include several thousand commands).</source>
+          <target state="translated">Wie Sie sehen, steht Ihnen nur eine sehr eingeschränkte Teilmenge der Befehle eines normalen PowerShell-Fensters zur Verfügung (bei denen es sich durchaus um mehrere Tausend handeln kann).</target>         
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Specifically, it only shows the 7 default JEA cmdlets (Clear-Host, Exit-PSSession, Get-Command, Get-FormatData, Get-Help, Measure-Object, Out-Default, Select-Object) and the two commands explicitly included in the maintenance Role Capability file.</source>
+          <target state="translated">Genau gesagt: Das Fenster zeigt nur die sieben JEA-Standardcmdlets (Clear-Host, Exit-PSSession, Get-Command, Get-FormatData, Get-Help, Measure-Object, Out-Default, Select-Object) sowie die beiden Befehle an, die explizit in der Rollenfunktionsdatei für die Wartungsrolle enthalten sind.</target>         
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Next, let's take a look at the user context this session is operating under by invoking the custom function included in the maintenance Role Capability file:</source>
+          <target state="translated">Sehen Sie sich jetzt den Benutzerkontext an, in dem diese Sitzung ausgeführt wird, indem Sie die benutzerdefinierte Funktion aufrufen, die in der Rollenfunktionsdatei für die Wartungsrolle enthalten ist.</target>         
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The output of this function shows the "ConnectedUser" as well as the "RunAsUser."</source>
+          <target state="translated">Die Ausgabe dieser Funktion zeigt „ConnectedUser“ sowie „RunAsUser“.</target>         
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The connected user is the account that connected to the remote session (e.g. your account).</source>
+          <target state="translated">Der verbundene Benutzer ist das Konto, über das die Verbindung mit der Remotesitzung hergestellt wurde (also z. B. Ihr Konto).</target>         
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The connected user does not need to have administrator privileges.</source>
+          <target state="translated">Der verbundene Benutzer benötigt keine Administratorrechte.</target>         
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The "Run As" account is the account actually performing the privileged actions.</source>
+          <target state="translated">Das ausführende Konto ist das Konto, das tatsächlich die Aktionen ausführt, für die Berechtigungen erforderlich sind.</target>         
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>By connecting as one user, and running as a privileged user, we allow non-privileged users to preform specific administrative tasks without giving them administrative rights.</source>
+          <target state="translated">Durch Herstellen einer Verbindung als ein Benutzer und anschließendes Nutzen des Kontos eines anderen Benutzers, der über Administratorrechte verfügt, können Sie nicht privilegierten Benutzern erlauben, bestimmte Verwaltungsaufgaben auszuführen, ohne ihnen Administratorrechte zu erteilen.</target>         
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>To demonstrate this in action, run the following command:</source>
+          <target state="translated">Führen Sie den folgenden Befehl aus, um dieses Konzept in Aktion zu erleben:</target>         
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Normally, Restart-Service requires administrator privileges to be run.</source>
+          <target state="translated">Normalerweise sind für die Ausführung von Restart-Service Administratorrechte erforderlich.</target>         
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>With the JEA virtual account, however, we're able to run it using non-privileged credentials.</source>
+          <target state="translated">Über das virtuelle JEA-Konto können Sie diesen Befehl jedoch auch mit den Anmeldeinformationen eines Benutzers ausführen, der diese Berechtigungen nicht besitzt.</target>         
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>So, JEA lets you get your job done using the commands you already use.</source>
+          <target state="translated">Mit JEA können Sie Ihre Arbeit also mit den Befehlen erledigen, die Sie bereits verwenden.</target>         
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>But what about commands you <bpt id="p1">*</bpt>shouldn't<ept id="p1">*</ept> be allowed to use?</source>
+          <target state="translated">Was aber ist mit Befehlen, deren Ausführung <bpt id="p1">*</bpt>nicht<ept id="p1">*</ept> erlaubt sein sollte?</target>         
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Try running a different command in the JEA session, like <ph id="ph1">`Restart-Computer`</ph>, and notice that JEA prevents such commands from being executed.</source>
+          <target state="translated">Versuchen Sie, einen anderen Befehl in der JEA-Sitzung auszuführen – z. B. <ph id="ph1">`Restart-Computer`</ph> –, und sehen Sie selbst, wie JEA die Ausführung solcher Befehle verhindert.</target>         
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Finally, to leave the constrained JEA endpoint, run the following command:</source>
+          <target state="translated">Um den eingeschränkten JEA-Endpunkt zu verlassen, führen Sie folgenden Befehl aus:</target>         
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>This disconnects you from the remote PowerShell session.</source>
+          <target state="translated">Dadurch wird die Verbindung mit der PowerShell-Remotesitzung getrennt.</target>         
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Remake the Demo Endpoint</source>
+          <target state="translated">Neuerstellen der Demoendpunkts</target>         
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>In this section, you will learn how to generate an exact replica of the demo endpoint you used in the above section.</source>
+          <target state="translated">In diesem Abschnitt erfahren Sie, wie Sie ein exaktes Replikat des Demoendpunkts erstellen, das Sie im vorherigen Abschnitt verwendet haben.</target>         
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>This will introduce core concepts that are necessary to understand JEA, including PowerShell Session Configurations and Role Capabilities.</source>
+          <target state="translated">Hierbei werden wichtige Konzepte vorgestellt, die für ein genaues Verständnis von JEA notwendig sind, einschließlich der PowerShell-Sitzungskonfigurationen und -Rollenfunktionen.</target>         
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>PowerShell Session Configurations</source>
+          <target state="translated">PowerShell-Sitzungskonfigurationen</target>         
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>When you used JEA in the above section, you started by running the following command:</source>
+          <target state="translated">Bei der Verwendung von JEA im vorherigen Abschnitt bestand der erste Schritt darin, den folgenden Befehl auszuführen:</target>         
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>While most of the parameters are self-explanatory, the <bpt id="p1">*</bpt>ConfigurationName<ept id="p1">*</ept> parameter may seem confusing at first.</source>
+          <target state="translated">Die meisten Parameter sind selbsterklärend, der Parameter <bpt id="p1">*</bpt>ConfigurationName<ept id="p1">*</ept> kann jedoch auf den ersten Blick verwirrend sein.</target>         
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>That parameter specified the PowerShell Session Configuration to which you were connecting.</source>
+          <target state="translated">Dieser Parameter gab die PowerShell-Sitzungskonfiguration an, mit der Sie eine Verbindung hergestellt haben.</target>         
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>PowerShell Session Configuration<ept id="p1">*</ept> is a fancy term for a PowerShell endpoint.</source>
+          <target state="translated"><bpt id="p1">*</bpt>PowerShell-Sitzungskonfiguration<ept id="p1">*</ept> ist im Grunde nur eine andere, schickere Bezeichnung für einen PowerShell-Endpunkt.</target>         
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>It is the figurative "place" where users connect and get access to PowerShell functionality.</source>
+          <target state="translated">Es ist im übertragenen Sinn der „Ort“, an dem Benutzer eine Verbindung herstellen und Zugriff auf PowerShell-Funktionen erhalten.</target>         
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Based on how you set up a Session Configuration, it can provide different functionality to connecting users.</source>
+          <target state="translated">Je nachdem, wie Sie eine Sitzungskonfiguration einrichten, können Sie unterschiedliche Funktionen für die Benutzer bereitstellen, die eine Verbindung herstellen.</target>         
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>For JEA, we use Session Configurations to restrict PowerShell to a limited set of functionality and to run as a privileged virtual account.</source>
+          <target state="translated">Bei JEA werden Sitzungskonfigurationen verwendet, um die in PowerShell verfügbaren Funktionen einzuschränken und eine Ausführung als privilegiertes virtuelles Konto zu ermöglichen.</target>         
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>You already have several registered PowerShell Session Configurations on your machine, each set up slightly differently.</source>
+          <target state="translated">Sie verfügen bereits über einige registrierte PowerShell-Sitzungskonfigurationen auf Ihrem Computer, die jeweils leicht unterschiedlich eingerichtet sind.</target>         
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Most of them come with Windows, but the "JEA_Demo" Session Configuration was set up in the <bpt id="p1">[</bpt>prerequisites<ept id="p1">](#prerequisites)</ept> section.</source>
+          <target state="translated">Die meisten Konfigurationen sind im Lieferumfang von Windows enthalten, die Sitzungskonfiguration „JEA_Demo“ wurde jedoch im Abschnitt <bpt id="p1">[</bpt>Voraussetzungen<ept id="p1">](#prerequisites)</ept> eingerichtet.</target>         
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>You can see all registered Session Configurations by running the following command in an Administrator PowerShell prompt:</source>
+          <target state="translated">Sie können alle registrierten Sitzungskonfigurationen anzeigen, indem Sie folgenden Befehl an einer PowerShell-Administratoreingabeaufforderung ausführen:</target>         
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>PowerShell Session Configuration Files</source>
+          <target state="translated">PowerShell-Sitzungskonfigurationsdateien</target>         
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>You can make new Session Configurations by registering new <bpt id="p1">*</bpt>PowerShell Session Configuration Files<ept id="p1">*</ept>.</source>
+          <target state="translated">Sie können neuen Sitzungskonfigurationen erstellen, indem Sie neue <bpt id="p1">*</bpt>PowerShell-Sitzungskonfigurationsdateien<ept id="p1">*</ept> registrieren.</target>         
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Session Configuration Files have ".pssc" file extensions.</source>
+          <target state="translated">Sitzungskonfigurationsdateien weisen die Dateierweiterung PSSC auf.</target>         
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>You can generate Session Configuration Files with the New-PSSessionConfigurationFile cmdlet.</source>
+          <target state="translated">Sie können Sitzungskonfigurationsdateien mit dem Cmdlet New-PSSessionConfigurationFile generieren.</target>         
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Next, you are going to create and register a new Session Configuration for JEA.</source>
+          <target state="translated">Als Nächstes werden Sie eine neue Sitzungskonfiguration für JEA erstellen und registrieren.</target>         
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Generate and Modify your PowerShell Session Configuration</source>
+          <target state="translated">Generieren und Ändern der PowerShell-Sitzungskonfiguration</target>         
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Run the following command to generate a PowerShell Session Configuration "skeleton" file.</source>
+          <target state="translated">Führen Sie folgenden Befehl aus, um eine Gerüstdatei („Skeleton“) für eine PowerShell-Sitzungskonfiguration zu generieren.</target>         
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>TIP:<ept id="p1">**</ept> Only the most common configuration settings are included in the skeleton file by default.</source>
+          <target state="translated"><bpt id="p1">**</bpt>TIPP<ept id="p1">**</ept>: Standardmäßig sind nur die häufigsten Konfigurationseinstellungen in der Gerüstdatei vorhanden.</target>         
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`-Full`</ph> parameter to include all applicable settings in the generated PSSC.</source>
+          <target state="translated">Verwenden Sie den <ph id="ph1">`-Full`</ph>-Parameter, um alle anwendbaren Einstellungen in die generierte PSSC-Datei einzuschließen.</target>         
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Open the file in PowerShell ISE, or your favorite text editor.</source>
+          <target state="translated">Öffnen Sie die Datei in der PowerShell ISE oder einem Text-Editor Ihrer Wahl.</target>         
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Update the following fields in the file with the values below (remember to substitue in your own non-administrator security group):</source>
+          <target state="translated">Aktualisieren Sie die folgenden Felder mit den unten stehenden Werten (denken Sie daran, Ihre eigene Sicherheitsgruppe ohne Administratorrechte einzusetzen):</target>         
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Here is what each of those entries mean:</source>
+          <target state="translated">Die Einträge haben folgende Bedeutung:</target>         
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>SessionType<ept id="p1">*</ept> field defines preset default settings to use with this endpoint.</source>
+          <target state="translated">Das Feld <bpt id="p1">*</bpt>SessionType<ept id="p1">*</ept> definiert vorab eingerichtete Standardeinstellungen, die für diesen Endpunkt verwendet werden sollen.</target>         
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>RestrictedRemoteServer<ept id="p1">*</ept> defines the minimal settings necessary for remote management.</source>
+          <target state="translated"><bpt id="p1">*</bpt>RestrictedRemoteServer<ept id="p1">*</ept> definiert die Mindesteinstellungen, die für die Remoteverwaltung erforderlich sind.</target>         
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>By default, a <bpt id="p1">*</bpt>RestrictedRemoteServer<ept id="p1">*</ept> endpoint will expose Get-Command, Get-FormatData, Select-Object, Get-Help, Measure-Object, Exit-PSSession, Clear-Host, and Out-Default.</source>
+          <target state="translated">Standardmäßig macht ein <bpt id="p1">*</bpt>RestrictedRemoteServer<ept id="p1">*</ept>-Endpunkt die Befehle Get-Command, Get-FormatData, Select-Object, Get-Help, Measure-Object, Exit-PSSession, Clea-Host, und Out-Default verfügbar.</target>         
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>It will set the <bpt id="p1">*</bpt>ExecutionPolicy<ept id="p1">*</ept> to <bpt id="p2">*</bpt>RemoteSigned<ept id="p2">*</ept>, and the <bpt id="p3">*</bpt>LanguageMode<ept id="p3">*</ept> to <bpt id="p4">*</bpt>NoLanguage<ept id="p4">*</ept>.</source>
+          <target state="translated">Die Einstellung <bpt id="p1">*</bpt>ExecutionPolicy<ept id="p1">*</ept> wird auf <bpt id="p2">*</bpt>RemoteSigned<ept id="p2">*</ept> und die Einstellung <bpt id="p3">*</bpt>LanguageMode<ept id="p3">*</ept> auf <bpt id="p4">*</bpt>NoLanguage<ept id="p4">*</ept> festgelegt.</target>         
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The net effect of these settings is a secure and minimal starting point for configuring your endpoint.</source>
+          <target state="translated">Das Ergebnis dieser Einstellungen ist ein sicherer und einfacher Startpunkt zum Konfigurieren des Endpunkts.</target>         
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>RoleDefinitions<ept id="p1">*</ept> field assigns Role Capabilities to specific groups.</source>
+          <target state="translated">Das Feld <bpt id="p1">*</bpt>RoleDefinitions<ept id="p1">*</ept> weist bestimmten Gruppen Rollenfunktionen zu.</target>         
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>It defines who can do what as a privileged account.</source>
+          <target state="translated">Es definiert, welcher Benutzer mit einem privilegierten Konto welche Aufgaben ausführen darf.</target>         
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>With this field, you can specify the functionality available to any connecting user based on group membership.</source>
+          <target state="translated">Mit diesem Feld können Sie basierend auf der Gruppenmitgliedschaft die Funktionen angeben, die für einen verbundenen Benutzer zur Verfügung stehen.</target>         
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>This is the core of JEA's RBAC functionality.</source>
+          <target state="translated">Dies ist das Kernstück der RBAC-Funktionalität von JEA.</target>         
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>In this example, you are exposing the pre-made "Demo" RoleCapability to members of the "Contoso\JEA_NonAdmin_Operator" group.</source>
+          <target state="translated">In diesem Beispiel machen Sie die vorab erstellte Rollenfunktion „Demo“ für Mitglieder der Gruppe „Contoso\JEA_NonAdmin_Operator“ verfügbar.</target>         
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>RunAsVirtualAccount<ept id="p1">*</ept> field indicates that PowerShell should "run as" a Virtual Account at this endpoint.</source>
+          <target state="translated">Das Feld <bpt id="p1">*</bpt>RunAsVirtualAccount<ept id="p1">*</ept> gibt an, dass PowerShell auf diesem Endpunkt mit einem ausführenden virtuellen Konto ausgeführt werden soll.</target>         
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>By default, the Virtual Account is a member of the built in Administrators group.</source>
+          <target state="translated">Standardmäßig ist das virtuelle Konto Mitglied der integrierten Administratorengruppe.</target>         
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>On a domain controller, it is also a member of the Domain Administrators group by default.</source>
+          <target state="translated">Auf einem Domänencontroller ist es standardmäßig auch Mitglied der Domänenadministratorengruppe.</target>         
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Later in this guide, you will learn how to customize the privileges of the Virtual Account.</source>
+          <target state="translated">Im weiteren Verlauf dieses Leitfadens erfahren Sie, wie Sie die Berechtigungen des virtuellen Kontos anpassen.</target>         
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>TranscriptDirectory<ept id="p1">*</ept> field defines where "over-the-shoulder" PowerShell transcripts are saved after each remote session.</source>
+          <target state="translated">Das Feld <bpt id="p1">*</bpt>TranscriptDirectory<ept id="p1">*</ept> definiert, wo mitgeschnittene PowerShell-Aufzeichnungen nach jeder Remotesitzung gespeichert werden.</target>         
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>These transcripts allow you to inspect the actions taken in each session in a readable way.</source>
+          <target state="translated">Diese Aufzeichnungen bieten eine gut lesbare Möglichkeit, die Aktionen zu überprüfen, die in jeder Sitzung ausgeführt wurden.</target>         
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>For more information about PowerShell transcripts, check out this <bpt id="p1">[</bpt>blog post<ept id="p1">](http://blogs.msdn.com/b/powershell/archive/2015/06/09/powershell-the-blue-team.aspx)</ept>.</source>
+          <target state="translated">Weitere Informationen über PowerShell-Aufzeichnungen finden Sie in diesem <bpt id="p1">[</bpt>Blogbeitrag<ept id="p1">](http://blogs.msdn.com/b/powershell/archive/2015/06/09/powershell-the-blue-team.aspx)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Note: regular Windows Eventing also captures information about what each user ran with PowerShell.</source>
+          <target state="translated">Hinweis: Die reguläre Windows-Ereignisverwaltung erfasst ebenfalls Informationen darüber, welche Befehle von den einzelnen Benutzern mit PowerShell ausgeführt wurden.</target>         
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Transcripts are just a bit more readable.</source>
+          <target state="translated">PowerShell-Aufzeichnungen sind allerdings besser lesbar.</target>         
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Finally, save your changes to <bpt id="p1">*</bpt>JEADemo2.pssc<ept id="p1">*</ept>.</source>
+          <target state="translated">Speichern Sie Ihre Änderungen abschließend in <bpt id="p1">*</bpt>JEADemo2.pssc<ept id="p1">*</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Apply the PowerShell Session Configuration</source>
+          <target state="translated">Anwenden der PowerShell-Sitzungskonfiguration</target>         
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>To create an endpoint from a Session Configuration file, you need to register the file.</source>
+          <target state="translated">Um aus einer Sitzungskonfigurationsdatei einen Endpunkt zu erstellen, müssen Sie die Datei registrieren.</target>         
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>This requires a few pieces of information:</source>
+          <target state="translated">Dafür sind einige Informationen erforderlich:</target>         
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The path to the Session Configuration file.</source>
+          <target state="translated">Der Pfad zur Sitzungskonfigurationsdatei.</target>         
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The name of your registered Session Configuration.</source>
+          <target state="translated">Der Name Ihrer registrierten Sitzungskonfiguration.</target>         
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>This is the same name users provide to the "ConfigurationName" parameter when they connect to your endpoint with <ph id="ph1">`Enter-PSSession`</ph> or <ph id="ph2">`New-PSSession`</ph>.</source>
+          <target state="translated">Dies ist der gleiche Name, den Benutzer im ConfigurationName-Parameter angeben, wenn sie mithilfe von <ph id="ph1">`Enter-PSSession`</ph> oder <ph id="ph2">`New-PSSession`</ph> eine Verbindung mit Ihrem Endpunkt herstellen.</target>         
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>To register the Session Configuration on your local machine, run the following command:</source>
+          <target state="translated">Um die Sitzungskonfiguration auf Ihrem lokalen Computer zu registrieren, führen Sie folgenden Befehl aus:</target>         
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Congratulations!</source>
+          <target state="translated">Herzlichen Glückwunsch!</target>         
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>You have set up your JEA endpoint.</source>
+          <target state="translated">Sie haben Ihren JEA-Endpunkt eingerichtet.</target>         
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Test Out Your Endpoint</source>
+          <target state="translated">Testen Ihres Endpunkts</target>         
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Re-run the steps listed in the <bpt id="p1">[</bpt>Using JEA<ept id="p1">](#using-jea)</ept> section against your new endpoint to confirm it is operating as intended.</source>
+          <target state="translated">Führen Sie die Schritte im Abschnitt <bpt id="p1">[</bpt>Verwenden von JEA<ept id="p1">](#using-jea)</ept> erneut für Ihren neuen Endpunkt aus, um zu überprüfen, ob er erwartungsgemäß ausgeführt wird.</target>         
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Be sure to use the new endpoint name (JEADemo2) when providing the configuration name to Enter-PSSession.</source>
+          <target state="translated">Stellen Sie sicher, dass Sie einen neuen Endpunktnamen verwenden (JEADemo2), wenn Sie den Konfigurationsnamen in Enter-PSSession bereitstellen.</target>         
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Key Concepts</source>
+          <target state="translated">Wichtige Konzepte</target>         
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>PowerShell Session Configuration<ept id="p1">**</ept>: Sometimes referred to as <bpt id="p2">*</bpt>PowerShell Endpoint<ept id="p2">*</ept>, this is the figurative "place" where users connect and get access to PowerShell functionality.</source>
+          <target state="translated"><bpt id="p1">**</bpt>PowerShell Session-Sitzungskonfiguration<ept id="p1">**</ept>: Wird auch als <bpt id="p2">*</bpt>PowerShell-Endpunkt<ept id="p2">*</ept> bezeichnet und ist im übertragenen Sinn der „Ort“, an dem Benutzer eine Verbindung herstellen und Zugriff auf PowerShell-Funktionen erhalten.</target>         
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>You can list the registered Session Configurations on your system by running <ph id="ph1">`Get-PSSessionConfiguration`</ph>.</source>
+          <target state="translated">Sie können die in Ihrem System registrierten Sitzungskonfigurationen durch Ausführen von <ph id="ph1">`Get-PSSessionConfiguration`</ph> auflisten.</target>         
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>When configured in a specific way, a PowerShell Session Configuration can be called a <bpt id="p1">*</bpt>JEA Endpoint<ept id="p1">*</ept>.</source>
+          <target state="translated">Wenn eine PowerShell-Sitzungskonfiguration auf bestimmte Weise konfiguriert ist, kann sie auch als <bpt id="p1">*</bpt>JEA-Endpunkt<ept id="p1">*</ept> bezeichnet werden.</target>         
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>PowerShell Session Configuration File (.pssc)<ept id="p1">**</ept>: A file that, when registered, defines settings for a PowerShell Session Configuration.</source>
+          <target state="translated"><bpt id="p1">**</bpt>PowerShell-Sitzungskonfigurationsdatei (PSSC)<ept id="p1">**</ept>: Eine Datei, die nach der Registrierung Einstellungen für eine PowerShell-Sitzungskonfiguration definiert.</target>         
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>It contains specifications for user roles that can connect to the endpoint, the "run as" Virtual Account, and more.</source>
+          <target state="translated">Sie enthält Spezifikationen für Benutzerrollen, die eine Verbindung mit dem Endpunkt herstellen können, das ausführende virtuelle Konto sowie weitere Details.</target>         
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Role Definitions<ept id="p1">**</ept>: The field in a Session Configuration File that defines the Role Capabilities granted to connecting users.</source>
+          <target state="translated"><bpt id="p1">**</bpt>RoleDefinitions<ept id="p1">**</ept>: Das Feld in einer Sitzungskonfigurationsdatei, das die Rollenfunktionen definiert, die verbundene Benutzer ausführen können.</target>         
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>It defines <bpt id="p1">*</bpt>who<ept id="p1">*</ept> can do <bpt id="p2">*</bpt>what<ept id="p2">*</ept> as a privileged account.</source>
+          <target state="translated">Es definiert, <bpt id="p1">*</bpt>welcher Benutzer<ept id="p1">*</ept> mit einem privilegierten Konto <bpt id="p2">*</bpt>welche Aufgaben<ept id="p2">*</ept> ausführen darf.</target>         
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>This is the core of JEA's RBAC capabilities.</source>
+          <target state="translated">Dies ist das Kernstück der RBAC-Funktionalität von JEA.</target>         
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>SessionType<ept id="p1">**</ept>: A field in a Session Configuration File that represents default settings for a Session Configuration.</source>
+          <target state="translated"><bpt id="p1">**</bpt>SessionType<ept id="p1">**</ept>: Ein Feld in einer Sitzungskonfigurationsdatei, das Standardeinstellungen für eine Sitzungskonfiguration darstellt.</target>         
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>For JEA endpoints, this must be set to RestrictedRemoteServer.</source>
+          <target state="translated">Bei JEA-Endpunkten muss dieses Feld auf RestrictedRemoteServer festgelegt sein.</target>         
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>PowerShell Transcript<ept id="p1">**</ept>: A file containing an "over-the-shoulder" view of a PowerShell session.</source>
+          <target state="translated"><bpt id="p1">**</bpt>PowerShell-Aufzeichnung<ept id="p1">**</ept>: Eine Datei mit einem Mitschnitt einer PowerShell-Sitzung.</target>         
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>You can set PowerShell to generate transcripts for JEA sessions using the TranscriptDirectory field.</source>
+          <target state="translated">Sie können PowerShell mithilfe des Felds TranscriptDirectory so einrichten, dass Aufzeichnungen von JEA-Sitzungen generiert werden.</target>         
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>For more information on transcripts, check out this <bpt id="p1">[</bpt>blog post<ept id="p1">](https://technet.microsoft.com/en-us/magazine/ff687007.aspx)</ept>.</source>
+          <target state="translated">Weitere Informationen über Aufzeichnungen finden Sie in diesem <bpt id="p1">[</bpt>Blogbeitrag<ept id="p1">](https://technet.microsoft.com/en-us/magazine/ff687007.aspx)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Role Capabilities</source>
+          <target state="translated">Rollenfunktionen</target>         
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Overview</source>
+          <target state="translated">Übersicht</target>         
+        </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>In the above section, you learned that the "RoleDefinitions" field defined which groups had access to which Role Capabilities.</source>
+          <target state="translated">Im vorherigen Abschnitt haben Sie erfahren, dass das Feld RoleDefinitions definiert, welche Gruppen Zugriff auf bestimmte Rollenfunktionen haben.</target>         
+        </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>You may have wondered, "What are Role Capabilities?"</source>
+          <target state="translated">Möglicherweise haben Sie sich gefragt, was denn Rollenfunktionen sind.</target>         
+        </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>This section will answer that question.</source>
+          <target state="translated">Diese Frage wird im vorliegenden Abschnitt beantwortet.</target>         
+        </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Introducing PowerShell Role Capabilities</source>
+          <target state="translated">Einführung in PowerShell-Rollenfunktionen</target>         
+        </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>PowerShell Role Capabilities define "what" a user can do at a JEA endpoint.</source>
+          <target state="translated">PowerShell-Rollenfunktionen definieren die Aufgaben, die ein Benutzer auf einem JEA-Endpunkt ausführen darf.</target>         
+        </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>They detail a whitelist of things like visible commands, visible applications, and more.</source>
+          <target state="translated">Sie stellen eine Whitelist mit sichtbaren Befehlen und Anwendungen sowie weiteren nutzbaren Elementen bereit.</target>         
+        </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Role Capabilities are defined by files with a ".psrc" extension.</source>
+          <target state="translated">Rollenfunktionen werden durch Dateien mit der Erweiterung PSRC definiert.</target>         
+        </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Role Capability Contents</source>
+          <target state="translated">Inhalte von Rollenfunktionen</target>         
+        </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>We will start by examining and modifying the demo Role Capability file you used before.</source>
+          <target state="translated">Zunächst untersuchen und bearbeiten wir die Datei mit den Demorollenfunktionen, die Sie bereits verwendet haben.</target>         
+        </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Imagine you have deployed your Session Configuration across your environment, but you have gotten feedback that you need to change the capabilities exposed to users.</source>
+          <target state="translated">Stellen Sie sich folgende Situation vor: Sie haben Ihre Sitzungskonfiguration in der gesamten Umgebung bereitgestellt und erhalten jetzt Feedback, dass Sie die Funktionen ändern müssen, die Benutzern verfügbar gemacht werden.</target>         
+        </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Operators need the ability to restart machines, and they also want to be able to get information about network settings.</source>
+          <target state="translated">Operatoren müssen Computer neu starten können und sie möchten auch in der Lage sein, Informationen zu Netzwerkeinstellungen abzurufen.</target>         
+        </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>In addition, the security team has told you that allowing users to run "Restart-Service" without any restrictions is not acceptable.</source>
+          <target state="translated">Darüber hinaus hat das Sicherheitsteam Sie darüber informiert, dass es nicht akzeptabel ist, Benutzern die uneingeschränkte Ausführung von Restart-Service zu ermöglichen.</target>         
+        </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>You need to restrict the services that operators can restart.</source>
+          <target state="translated">Sie müssen die Dienste einschränken, die von Operatoren neu gestartet werden dürfen.</target>         
+        </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>To make these changes, start by running PowerShell ISE as an Administrator and open the following file:</source>
+          <target state="translated">Um diese Änderungen durchzuführen, führen Sie die PowerShell ISE als Administrator aus, und öffnen Sie die folgende Datei:</target>         
+        </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Now find and update the following lines in the file:</source>
+          <target state="translated">Suchen Sie die folgenden Zeilen in der Datei, und aktualisieren Sie sie:</target>         
+        </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>This contains a few interesting examples:</source>
+          <target state="translated">Dies enthält einige interessante Beispiele:</target>         
+        </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>You have restricted Restart-Service such that operators will only be able to use Restart-Service with the -Name parameter, and they will only be allowed to provide "Spooler" as an argument to that parameter.</source>
+          <target state="translated">Sie haben Restart-Service eingeschränkt, sodass Operatoren Restart-Service nur mit dem Parameter „-Name“ verwenden und als Argument für diesen Parameter nur „Spooler“ bereitstellen dürfen.</target>         
+        </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>If you wanted to, you could also restrict the arguments using a regular expression using "ValidatePattern" instead of "ValidateSet".</source>
+          <target state="translated">Wenn gewünscht, können Sie mithilfe eines regulären Ausdrucks unter Verwendung von ValidatePattern anstelle von ValidateSet auch die Argumente einschränken.</target>         
+        </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>You have exposed all commands with the "Get" verb from the NetTCPIP module.</source>
+          <target state="translated">Sie haben alle Befehle mit dem Verb „Get“ aus dem NetTCPIP-Modul verfügbar gemacht.</target>         
+        </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Because "Get" commands typically don't change system state, this is a relatively safe action.</source>
+          <target state="translated">Da Get-Befehle üblicherweise den Systemstatus nicht ändern, ist dies ein relativ sicheres Vorgehen.</target>         
+        </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>That being said, it is strongly encouraged to closely examinine every command you expose through JEA.</source>
+          <target state="translated">Nichtsdestoweniger sollten Sie jeden Befehl, den Sie über JEA verfügbar machen, sehr sorgfältig überprüfen.</target>         
+        </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>You have expose an executable (ipconfig) using VisibleExternalCommands.</source>
+          <target state="translated">Sie haben mithilfe von VisibleExternalCommands eine ausführbare Datei (IPCONFIG) verfügbar gemacht.</target>         
+        </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>You can also expose full PowerShell scripts with this field.</source>
+          <target state="translated">Mit diesem Feld können Sie auch vollständige PowerShell-Skripts verfügbar machen.</target>         
+        </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>It is important to always provide the full path to external commands to ensure a similarly named (and potentially malicous) program placed in the user's path does not get executed instead.</source>
+          <target state="translated">Es ist wichtig, immer den vollständigen Pfad zu externen Pfaden bereitzustellen, um sicherzustellen, dass nicht versehentlich ein (möglicherweise schädliches) Programm mit ähnlichem Namen ausgeführt wird, das sich im Benutzerpfad befindet.</target>         
+        </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Save the file, then connect to the demo endpoint again to confirm the changes worked.</source>
+          <target state="translated">Speichern Sie die Datei, und stellen Sie dann erneut eine Verbindung mit dem Demoendpunkt her, um zu bestätigen, dass die Änderungen funktioniert haben.</target>         
+        </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Because you only modified the Role Capability file, you do not need to re-register the Session Configuration.</source>
+          <target state="translated">Da Sie nur die Rollenfunktionsdatei geändert haben, müssen Sie die Sitzungskonfiguration nicht erneut registrieren.</target>         
+        </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>PowerShell will automatically find your updated Role Capability when a user connects.</source>
+          <target state="translated">PowerShell findet automatisch die aktualisierten Rollenfunktionen, wenn ein Benutzer eine Verbindung herstellt.</target>         
+        </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Since Role Capabilities are loaded when the session starts, existing sessions are not affected by updates to Role Capability files.</source>
+          <target state="translated">Da Rollenfunktionen beim Start der Sitzung geladen werden, sind vorhandene Sitzungen von Aktualisierungen der Rollenfunktionsdateien nicht betroffen.</target>         
+        </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Now, confirm that you can restart the computer by running Restart-Computer with the -WhatIf parameter (unless you actually want to restart the computer).</source>
+          <target state="translated">Bestätigen Sie jetzt, dass Sie den Computer neu starten können, indem Sie Restart-Computer mit dem Parameter „-WhatIf“ ausführen (es sei denn, Sie möchten den Computer tatsächlich neu starten).</target>         
+        </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Confirm that you can run "ipconfig"</source>
+          <target state="translated">Bestätigen, dass Sie „ipconfig“ ausführen können.</target>         
+        </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>And finally, confirm that Restart-Service only works for the Spooler service.</source>
+          <target state="translated">Zum Schluss bestätigen Sie, dass Restart-Service nur für den Spoolerdienst funktioniert.</target>         
+        </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>Exit the session when you are finished.</source>
+          <target state="translated">Beenden Sie die Sitzung, wenn Sie fertig sind.</target>         
+        </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Role Capability Creation</source>
+          <target state="translated">Erstellen von Rollenfunktionen</target>         
+        </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>In the next section, you will create a JEA endpoint for AD help desk users.</source>
+          <target state="translated">Im nächsten Abschnitt erstellen Sie einen JEA-Endpunkt für AD-Helpdeskbenutzer.</target>         
+        </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>To prepare, we will create a blank Role Capability file to fill in for that section.</source>
+          <target state="translated">Zur Vorbereitung erstellen Sie zunächst eine leere Rollenfunktionsdatei, die in diesem Abschnitt ausgefüllt werden soll.</target>         
+        </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>Role Capabilities must be created inside a "RoleCapabilities" folder inside a valid PowerShell module in order to be resolved when a session starts.</source>
+          <target state="translated">Rollenfunktionen müssen in einem gültigen PowerShell-Modul innerhalb eines Ordners namens „RoleCapabilities“ erstellt werden, damit sie beim Start einer Sitzung aufgelöst werden können.</target>         
+        </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>PowerShell Modules are essentially packages of PowerShell functionality.</source>
+          <target state="translated">Bei PowerShell-Modulen handelt es sich im Wesentlichen um Pakete mit PowerShell-Funktionalitäten.</target>         
+        </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>They can contain PowerShell functions, cmdlets, DSC Resources, Role Capabilities, and more.</source>
+          <target state="translated">Sie können PowerShell-Funktionen, -Cmdlets, -DSC-Ressourcen, -Rollenfunktionen und vieles mehr enthalten.</target>         
+        </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>You can find information about modules by running <ph id="ph1">`Get-Help about_Modules`</ph> in a PowerShell console.</source>
+          <target state="translated">Sie können Informationen zu Modulen erhalten, indem Sie <ph id="ph1">`Get-Help about_Modules`</ph> in einer PowerShell-Konsole ausführen.</target>         
+        </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>To create a new PowerShell module with a blank Role Capability file, run the following commands:</source>
+          <target state="translated">Um ein neues PowerShell-Modul mit einer leeren Rollenfunktionsdatei zu erstellen, führen Sie folgende Befehle aus:</target>         
+        </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Congratulations, you have created a blank Role Capability File.</source>
+          <target state="translated">Herzlichen Glückwunsch! Sie haben eine leere Rollenfunktionsdatei erstellt.</target>         
+        </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>It will be used in the next section.</source>
+          <target state="translated">Diese Datei wird im nächsten Abschnitt verwendet.</target>         
+        </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>Key Concepts</source>
+          <target state="translated">Wichtige Konzepte</target>         
+        </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Role Capability (.psrc)<ept id="p1">**</ept>: A file that define "what" a user can do at a JEA endpoint.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Rollenfunktionen (PSRC)<ept id="p1">**</ept>: Eine Datei, die die Aufgaben definiert, die ein Benutzer auf einem JEA-Endpunkt ausführen darf.</target>         
+        </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>It details a whitelist of things like visible commands, visible console applications, and more.</source>
+          <target state="translated">Sie stellt eine Whitelist mit sichtbaren Befehlen und Konsolenanwendungen sowie weiteren nutzbaren Elementen bereit.</target>         
+        </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>In order for PowerShell to detect Role Capabilities, you must put them in a "RoleCapabilities" folder in a valid PowerShell module.</source>
+          <target state="translated">Damit PowerShell die Rollenfunktionen erkennen kann, müssen Sie diese in einem gültigen PowerShell-Modul im Ordner „RoleCapabilities“ speichern.</target>         
+        </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>PowerShell Module<ept id="p1">**</ept>: A package of PowerShell functionality.</source>
+          <target state="translated"><bpt id="p1">**</bpt>PowerShell-Modul<ept id="p1">**</ept>: Ein Paket mit PowerShell-Funktionalität.</target>         
+        </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>It can contain PowerShell functions, cmdlets, DSC Resources, Role Capabilities, and more.</source>
+          <target state="translated">Es kann PowerShell-Funktionen, -Cmdlets, -DSC-Ressourcen, -Rollenfunktionen und vieles mehr enthalten.</target>         
+        </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>In order to be automatically loaded, PowerShell modules must be located under a path in <ph id="ph1">`$env:PSModulePath`</ph>.</source>
+          <target state="translated">PowerShell-Module müssen in einem Pfad in <ph id="ph1">`$env:PSModulePath`</ph> gespeichert werden, damit sie automatisch geladen werden können.</target>         
+        </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>End to End - Active Directory</source>
+          <target state="translated">End-to-End – Active Directory</target>         
+        </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>Imagine the scope of your program has increased.</source>
+          <target state="translated">Angenommen, der Umfang Ihres Programms hat sich erhöht.</target>         
+        </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>You are now responsible for adding JEA to Domain Controllers to perform Active Directory actions.</source>
+          <target state="translated">Sie sollen jetzt JEA zu Domänencontrollern hinzufügen, damit Active Directory-Aktionen ausgeführt werden können.</target>         
+        </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>The help desk people are going to use JEA to unlock accounts, reset passwords, and do other similar actions.</source>
+          <target state="translated">Die Helpdeskmitarbeiter werden JEA verwenden, um Konten zu entsperren, Kennwörter zurückzusetzen und ähnliche Aktionen auszuführen.</target>         
+        </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>You need to expose a completely new set of commands to a different group of people.</source>
+          <target state="translated">Sie müssen einer anderen Gruppe von Benutzern einen vollkommen neuen Satz an Befehlen verfügbar machen.</target>         
+        </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>On top of that, you have a bunch of existing Active Directory scripts you need to expose.</source>
+          <target state="translated">Außerdem müssen Sie eine Vielzahl von vorhandenen Active Directory-Skripts verfügbar machen.</target>         
+        </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>This section will walk through authoring a Session Configuration and Role Capability for this task.</source>
+          <target state="translated">Dieser Abschnitt leitet Sie durch die Erstellung einer Sitzungskonfiguration sowie einer Rollenfunktion für diese Aufgabe.</target>         
+        </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+          <target state="translated">Voraussetzungen</target>         
+        </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>To follow this section step-by-step, you'll need to be operating on a domain controller.</source>
+          <target state="translated">Um diesen Abschnitt schrittweise durchzugehen, müssen Sie auf einem Domänencontroller arbeiten.</target>         
+        </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>If you don't have access to your domain controller, don't worry.</source>
+          <target state="translated">Machen Sie sich keine Sorgen, wenn Sie keinen Zugriff auf Ihren Domänencontroller haben.</target>         
+        </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Try to follow along with by working against some other scenario or role with which you are familiar.</source>
+          <target state="translated">Folgen Sie den Anweisungen einfach mit einem anderen Szenario oder einer anderen Rolle, mit der Sie vertraut sind.</target>         
+        </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>If you want to quickly set up a new domain controller, check out the <bpt id="p1">[</bpt>Creating a Domain Controller appendix<ept id="p1">](#creating-a-domain-controller)</ept>.</source>
+          <target state="translated">Wenn Sie schnell einen neuen Domänencontroller einrichten möchten, finden Sie die notwendigen Informationen im Anhang unter <bpt id="p1">[</bpt>Erstellen eines Domänencontrollers<ept id="p1">](#creating-a-domain-controller)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Steps to Make a new Role Capability and Session Configuration</source>
+          <target state="translated">Schritte zum Erstellen einer neuen Rollenfunktion und Sitzungskonfiguration</target>         
+        </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>Making a new role capability can seem daunting at first, but it can be broken into fairly simple steps:</source>
+          <target state="translated">Das Erstellen einer neuen Rollenfunktion kann auf den ersten Blick eine große Herausforderung sein. Die Aufgabe lässt sich jedoch in relativ einfache Schritte unterteilen:</target>         
+        </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>Identify the tasks you need to enable</source>
+          <target state="translated">Ermitteln Sie die Aufgaben, die Sie aktivieren müssen.</target>         
+        </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>Restrict those tasks as necessary</source>
+          <target state="translated">Schränken Sie diese Aufgaben nach Bedarf ein.</target>         
+        </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>Confirm they work with JEA</source>
+          <target state="translated">Stellen Sie sicher, dass die Aufgaben mit JEA funktionieren.</target>         
+        </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>Put them in a Role Capability file</source>
+          <target state="translated">Speichern Sie sie in einer Rollenfunktionsdatei.</target>         
+        </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>Register a Session Configuration that exposes that Role Capability</source>
+          <target state="translated">Registrieren Sie eine Sitzungskonfiguration, die diese Rollenfunktion verfügbar macht.</target>         
+        </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>Step 1: Identify What Needs to Be Exposed</source>
+          <target state="translated">Schritt 1: Ermitteln Sie die Aktionen und Aufgaben, die verfügbar gemacht werden müssen.</target>         
+        </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>Before you make a new Role Capability or Session Configuration, you need to identify all of the things users will need to do through the JEA endpoint, as well as how to do them through PowerShell.</source>
+          <target state="translated">Bevor Sie eine neue Rollenfunktion oder Sitzungskonfiguration erstellen können, müssen Sie alle Aktionen und Aufgaben identifizieren, die Benutzer über den JEA-Endpunkt ausführen können müssen. Sie müssen ebenfalls ermitteln, wie diese Aktionen und Aufgaben in PowerShell ausgeführt werden.</target>         
+        </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>This will involve a fair amount of requirement gathering and research.</source>
+          <target state="translated">Dieser Schritt erfordert sehr viel Recherche und die Erfassung von Anforderungen.</target>         
+        </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>How you go about this process will depend on your organization and goals.</source>
+          <target state="translated">Die Art und Weise, wie Sie diesen Prozess durchführen, richtet sich nach Ihrer Organisation und Ihren Zielen.</target>         
+        </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>It is important to call out requirement gathering and research as a critical part of the real world process.</source>
+          <target state="translated">Die Erfassung von Anforderungen und die Recherche sind in der Praxis ein entscheidender Bestandteil des Prozesses.</target>         
+        </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>This may be the most difficult step in the process of adopting JEA.</source>
+          <target state="translated">Dies ist möglicherweise der schwierigste Schritt im gesamten Prozess der Einrichtung von JEA.</target>         
+        </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>Find Resources</source>
+          <target state="translated">Suchen nach Ressourcen</target>         
+        </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>Here is a set of online resources that might have come up in your research on creating an Active Directory management endpoint:</source>
+          <target state="translated">Folgende Onlineressourcen bieten nützliche Informationen zum Erstellen eines Active Directory-Verwaltungsendpunkts:</target>         
+        </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>Active Directory PowerShell Overview</source>
+          <target state="translated">Active Directory PowerShell Overview</target>         
+        </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>CMD to PowerShell Guide for Active Directory</source>
+          <target state="translated">CMD to PowerShell Guide for Active Directory</target>         
+        </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>Make a List</source>
+          <target state="translated">Erstellen einer Liste</target>         
+        </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>Here is a set of ten actions that you will be working from in the remainder of this section.</source>
+          <target state="translated">Mit den zehn folgenden Aktionen werden Sie im Rest dieses Abschnitts arbeiten.</target>         
+        </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>Keep in mind this is simply an example, your organizations requirements may be different:</source>
+          <target state="translated">Denken Sie daran, dass es sich hier nur um ein Beispiel handelt und Ihre Organisation höchstwahrscheinlich andere Anforderungen stellt:</target>         
+        </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>Action</source>
+          <target state="translated">Aktion</target>         
+        </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>PowerShell Command</source>
+          <target state="translated">PowerShell-Befehl</target>         
+        </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>Account Unlock</source>
+          <target state="translated">Konto entsperren</target>         
+        </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>Password Reset</source>
+          <target state="translated">Kennwort zurücksetzen</target>         
+        </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>and</source>
+          <target state="translated">und</target>         
+        </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>Change a User's Title</source>
+          <target state="translated">Position eines Benutzers ändern</target>         
+        </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>Find AD Accounts that are locked out, disabled, inactive, etc.</source>
+          <target state="translated">AD-Konten finden, die gesperrt oder deaktiviert wurden oder inaktiv sind usw.</target>         
+        </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>Add User to Group</source>
+          <target state="translated">Benutzer zu Gruppe hinzufügen</target>         
+        </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>Remove User from Group</source>
+          <target state="translated">Benutzer aus Gruppe entfernen</target>         
+        </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>Enable a user account</source>
+          <target state="translated">Benutzerkonto aktivieren</target>         
+        </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>Disable a user account</source>
+          <target state="translated">Benutzerkonto deaktivieren</target>         
+        </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>Step 2: Restrict Tasks as Necessary</source>
+          <target state="translated">Schritt 2: Schränken Sie die Aufgaben nach Bedarf ein.</target>         
+        </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>Now that you have your list of actions, you need to think through the capabilities of each command.</source>
+          <target state="translated">Nachdem Sie jetzt über die Liste der notwendigen Aktionen verfügen, müssen Sie die Funktion jedes einzelnen Befehls gründlich durchdenken.</target>         
+        </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>There are two important reasons to do this:</source>
+          <target state="translated">Dafür gibt es zwei wichtige Gründe:</target>         
+        </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>It is easy to expose give users more capabilities than you intend.</source>
+          <target state="translated">Es kann leicht passieren, dass Sie Benutzern mehr Funktionen verfügbar machen als Sie wollten.</target>         
+        </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>For example, <ph id="ph1">`Set-ADUser`</ph> is an incredibly powerful and flexible command.</source>
+          <target state="translated"><ph id="ph1">`Set-ADUser`</ph> z. B. ist ein unglaublich leistungsfähiger und flexibler Befehl.</target>         
+        </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>You may not want to expose everything it can do to help desk users.</source>
+          <target state="translated">Sie möchten sicher nicht die gesamte Funktionalität dieses Befehls für Helpdeskbenutzer verfügbar machen.</target>         
+        </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>Even worse, it's possible to expose commands that allow users to escape JEA's restrictions.</source>
+          <target state="translated">Schlimmer noch: Es kann passieren, dass Sie Befehle verfügbar machen, die es Benutzern ermöglichen, die Beschränkungen von JEA zu umgehen.</target>         
+        </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>If this happens, JEA ceases to function as a security boundary.</source>
+          <target state="translated">In diesem Fall kann JEA nicht mehr als Sicherheitsmechanismus fungieren.</target>         
+        </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>Please be careful when selecting commands.</source>
+          <target state="translated">Gehen Sie daher beim Auswählen von Befehlen mit größter Umsicht vor.</target>         
+        </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>For example, Invoke-Expression will allow users to run unrestricted code.</source>
+          <target state="translated">Invoke-Expression ermöglicht Benutzern beispielsweise die Ausführung von uneingeschränktem Code.</target>         
+        </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>For more discussion on this topic, check out the Considerations When Restricting Commands section.</source>
+          <target state="translated">Weitere Informationen zu diesem Thema finden Sie im Abschnitt „Überlegungen zum Einschränken von Befehlen“.</target>         
+        </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source>After reviewing each command, you decide to restrict the following:</source>
+          <target state="translated">Nachdem Sie jeden Befehl sorgfältig geprüft haben, entscheiden Sie sich für folgende Einschränkungen:</target>         
+        </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>should only be allowed to run with the "-Title" parameter</source>
+          <target state="translated">soll nur mit dem Parameter „-Title“ ausgeführt werden dürfen.</target>         
+        </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source>and <ph id="ph1">`Remove-ADGroupMember`</ph> should only work with certain groups</source>
+          <target state="translated">und <ph id="ph1">`Remove-ADGroupMember`</ph> sollen nur für bestimmte Gruppen funktionieren</target>         
+        </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>Step 3: Confirm the Tasks Work with JEA</source>
+          <target state="translated">Schritt 3: Bestätigen Sie, dass die Aufgaben mit JEA funktionieren.</target>         
+        </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source>Actually using those cmdlets may not be straightforward in the restricted JEA environment.</source>
+          <target state="translated">Die Verwendung dieser Cmdlets ist in der eingeschränkten JEA-Umgebung möglicherweise nicht ganz einfach.</target>         
+        </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>JEA runs in <bpt id="p1">*</bpt>No Language<ept id="p1">*</ept> mode which, among other things, prevents users from using variables.</source>
+          <target state="translated">JEA wird im Modus <bpt id="p1">*</bpt>NoLanguage<ept id="p1">*</ept> ausgeführt, der unter anderem verhindert, dass Benutzer Variablen verwenden dürfen.</target>         
+        </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve">
+          <source>In order to ensure that end users have a smooth experience, it's important to check for a few things.</source>
+          <target state="translated">Um die Benutzerfreundlichkeit sicherzustellen, müssen Sie einige Dinge prüfen.</target>         
+        </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve">
+          <source>As an example, consider <ph id="ph1">`Set-ADAccountPassword`</ph>.</source>
+          <target state="translated">Sehen Sie sich z. B. <ph id="ph1">`Set-ADAccountPassword`</ph> an.</target>         
+        </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve">
+          <source>The "-NewPassword" parameter requires a secure string.</source>
+          <target state="translated">Der Parameter „-NewPassword“ erfordert eine sichere Zeichenfolge.</target>         
+        </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve">
+          <source>Often, users create a secure string and pass it in as a variable (as below):</source>
+          <target state="translated">Benutzer erstellen häufig eine sichere Zeichenfolge und übergeben sie als Variable, wie hier zu sehen:</target>         
+        </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source>However, No Language mode prevents the usage of variables.</source>
+          <target state="translated">Der Modus „NoLanguage“ verhindert jedoch die Verwendung von Variablen.</target>         
+        </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve">
+          <source>You can get around this restriction in two ways:</source>
+          <target state="translated">Es gibt zwei Möglichkeiten, diese Einschränkung zu umgehen:</target>         
+        </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve">
+          <source>You can require users run the command without assigning variables.</source>
+          <target state="translated">Sie können festlegen, dass Benutzer den Befehl ohne Variablenzuweisung ausführen.</target>         
+        </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve">
+          <source>This is easy to configure, but can be painful for the operators using the endpoint.</source>
+          <target state="translated">Dies lässt sich einfach konfigurieren, kann jedoch für die Operatoren, die den Endpunkt verwenden, äußerst mühsam sein.</target>         
+        </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve">
+          <source>Who wants to type this out every time you reset a password?</source>
+          <target state="translated">Wer möchte denn beim Zurücksetzen eines Kennworts jedes Mal die sichere Zeichenfolge eingeben?</target>         
+        </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve">
+          <source>You can wrap the complexity in a script or a function that you expose to end users.</source>
+          <target state="translated">Sie können die Komplexität in einem Skript oder einer Funktion verpacken, das bzw. die Sie für die Endbenutzer verfügbar machen.</target>         
+        </trans-unit>
+        <trans-unit id="392" translate="yes" xml:space="preserve">
+          <source>Scripts and functions that you expose run in an unrestricted context; you can write functions that use variables and call other commands without any issue.</source>
+          <target state="translated">Skripts und Funktionen, die Sie verfügbar machen, werden in einem uneingeschränkten Kontext ausgeführt. Sie können völlig problemlos Funktionen schreiben, die Variablen verwenden und andere Befehle aufrufen.</target>         
+        </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve">
+          <source>This approach simplifies the end user experience, prevents errors, reduces required PowerShell knowledge, and reduces unintentionally exposing excess functionality.</source>
+          <target state="translated">Diese Vorgehensweise verbessert die Benutzerfreundlichkeit, verhindert Fehler, erfordert weniger PowerShell-Kenntnisse und senkt das Risiko, dass versehentlich zu viel Funktionalität verfügbar gemacht wird.</target>         
+        </trans-unit>
+        <trans-unit id="394" translate="yes" xml:space="preserve">
+          <source>The only downside is the cost of authoring and maintaining the function.</source>
+          <target state="translated">Der einzige Nachteil ist der Aufwand für die Erstellung und Verwaltung der Funktion.</target>         
+        </trans-unit>
+        <trans-unit id="395" translate="yes" xml:space="preserve">
+          <source>Aside: Adding a Function to your Module</source>
+          <target state="translated">Exkurs: Hinzufügen einer Funktion zu Ihrem Modul</target>         
+        </trans-unit>
+        <trans-unit id="396" translate="yes" xml:space="preserve">
+          <source>Taking approach #2, you are going to write a PowerShell function called <ph id="ph1">`Reset-ContosoUserPassword`</ph>.</source>
+          <target state="translated">Mithilfe von Vorgehensweise Nr. 2 werden Sie eine PowerShell-Funktion namens <ph id="ph1">`Reset-ContosoUserPassword`</ph> schreiben.</target>         
+        </trans-unit>
+        <trans-unit id="397" translate="yes" xml:space="preserve">
+          <source>This function is going to do everything that needs to happen when you reset a user's password.</source>
+          <target state="translated">Diese Funktion führt alle Aktionen aus, die erforderlich sind, wenn Sie das Kennwort eines Benutzers zurücksetzen.</target>         
+        </trans-unit>
+        <trans-unit id="398" translate="yes" xml:space="preserve">
+          <source>In your organization, this may involve doing fancy and complicated things.</source>
+          <target state="translated">In Ihrer Organisation gehören dazu möglicherweise hochkomplexe Prozesse.</target>         
+        </trans-unit>
+        <trans-unit id="399" translate="yes" xml:space="preserve">
+          <source>Because this is just an example, your command will just reset the password and require the user change the password at logon.</source>
+          <target state="translated">Da es sich hier nur um ein Beispiel handelt, setzt Ihr Befehl einfach nur das Kennwort zurück und fordert den Benutzer bei der Anmeldung zur Änderung des Kennworts auf.</target>         
+        </trans-unit>
+        <trans-unit id="400" translate="yes" xml:space="preserve">
+          <source>We will put it in the Contoso_AD_Module module you made in the last section.</source>
+          <target state="translated">Wir speichern den Befehl in dem Modul „Contoso_AD_Module“, das Sie im letzten Abschnitt erstellt haben.</target>         
+        </trans-unit>
+        <trans-unit id="401" translate="yes" xml:space="preserve">
+          <source>In PowerShell ISE, open "Contoso_AD_Module.psm1"</source>
+          <target state="translated">Öffnen Sie in der PowerShell ISE die Datei „Contoso_AD_Module.psm1“.</target>         
+        </trans-unit>
+        <trans-unit id="402" translate="yes" xml:space="preserve">
+          <source>Press Crtl+J to open the snippets menu.</source>
+          <target state="translated">Drücken Sie STRG+J, um das Menü für Codeausschnitte zu öffnen.</target>         
+        </trans-unit>
+        <trans-unit id="403" translate="yes" xml:space="preserve">
+          <source>Key down until you find "function" and press enter.</source>
+          <target state="translated">Suchen Sie nach „function“, und drücken Sie die EINGABETASTE.</target>         
+        </trans-unit>
+        <trans-unit id="404" translate="yes" xml:space="preserve">
+          <source>This puts up a super basic skeleton of a function.</source>
+          <target state="translated">Dadurch erhalten Sie ein simples Grundgerüst einer Funktion.</target>         
+        </trans-unit>
+        <trans-unit id="405" translate="yes" xml:space="preserve">
+          <source>Rename the function "Reset-ContosoUserPassword".</source>
+          <target state="translated">Benennen Sie die Funktion in „Reset-ContosoUserPassword“ um.</target>         
+        </trans-unit>
+        <trans-unit id="406" translate="yes" xml:space="preserve">
+          <source>Rename one of the parameters "Identity" and delete the second.</source>
+          <target state="translated">Benennen Sie den einen Parameter in „Identity“ um, und löschen Sie den zweiten.</target>         
+        </trans-unit>
+        <trans-unit id="407" translate="yes" xml:space="preserve">
+          <source>Copy the following into the body of the function.</source>
+          <target state="translated">Kopieren Sie Folgendes in den Hauptteil der Funktion.</target>         
+        </trans-unit>
+        <trans-unit id="408" translate="yes" xml:space="preserve">
+          <source>Save the file.</source>
+          <target state="translated">Speichern Sie die Datei.</target>         
+        </trans-unit>
+        <trans-unit id="409" translate="yes" xml:space="preserve">
+          <source>You should end up with something that looks like this:</source>
+          <target state="translated">Das Resultat sollte in etwa folgendermaßen aussehen:</target>         
+        </trans-unit>
+        <trans-unit id="410" translate="yes" xml:space="preserve">
+          <source>Now, your users can simply call <ph id="ph1">`Reset-ContosoUserPassword`</ph> and not have to remember the syntax to create a secure string inline.</source>
+          <target state="translated">Jetzt können Ihre Benutzer einfach <ph id="ph1">`Reset-ContosoUserPassword`</ph> aufrufen und müssen sich nicht die Syntax merken, um inline eine sichere Zeichenfolge zu erstellen.</target>         
+        </trans-unit>
+        <trans-unit id="411" translate="yes" xml:space="preserve">
+          <source>Step 4: Edit the Role Capability File</source>
+          <target state="translated">Schritt 4: Bearbeiten Sie die Rollenfunktionsdatei.</target>         
+        </trans-unit>
+        <trans-unit id="412" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Role Capability Creation<ept id="p1">](#role-capability-creation)</ept> section, you created a blank Role Capability file.</source>
+          <target state="translated">Im Abschnitt <bpt id="p1">[</bpt>Erstellen einer Rollenfunktion<ept id="p1">](#role-capability-creation)</ept> haben Sie eine leere Rollenfunktionsdatei erstellt.</target>         
+        </trans-unit>
+        <trans-unit id="413" translate="yes" xml:space="preserve">
+          <source>In this section, you will fill in the values in that file.</source>
+          <target state="translated">In diesem Abschnitt werden Sie diese Datei mit Werten füllen.</target>         
+        </trans-unit>
+        <trans-unit id="414" translate="yes" xml:space="preserve">
+          <source>Start by opening the role capability file in ISE.</source>
+          <target state="translated">Öffnen Sie zunächst die Rollenfunktionsdatei in der ISE.</target>         
+        </trans-unit>
+        <trans-unit id="415" translate="yes" xml:space="preserve">
+          <source>Update the file with the following changes:</source>
+          <target state="translated">Aktualisieren Sie die Datei mit folgenden Änderungen:</target>         
+        </trans-unit>
+        <trans-unit id="416" translate="yes" xml:space="preserve">
+          <source>There are a few things to note about the above:</source>
+          <target state="translated">In obigem Beispiel gilt es einiges zu beachten:</target>         
+        </trans-unit>
+        <trans-unit id="417" translate="yes" xml:space="preserve">
+          <source>PowerShell will attempt to auto-load the modules needed for your Role Capability.</source>
+          <target state="translated">PowerShell versucht, die Module automatisch zu laden, die für Ihre Rollenfunktion benötigt werden.</target>         
+        </trans-unit>
+        <trans-unit id="418" translate="yes" xml:space="preserve">
+          <source>You may need to explicitly list module names in the "ModulesToImport" field if you notice problems with a module not being autoloaded.</source>
+          <target state="translated">Möglicherweise müssen Sie Modulnamen explizit im Feld „ModulesToImport“ auflisten, wenn Sie feststellen, dass ein Modul nicht automatisch geladen wird.</target>         
+        </trans-unit>
+        <trans-unit id="419" translate="yes" xml:space="preserve">
+          <source>If you aren't sure if a command is a cmdlet or a function, run <ph id="ph1">`Get-Command`</ph> and look at the "CommandType"</source>
+          <target state="translated">Wenn Sie nicht sicher sind, ob es sich bei einem Befehl um ein Cmdlet oder eine Funktion handelt, führen Sie <ph id="ph1">`Get-Command`</ph> aus, und sehen Sie sich den Wert für „CommandType“ an.</target>         
+        </trans-unit>
+        <trans-unit id="420" translate="yes" xml:space="preserve">
+          <source>The ValidatePattern allows you to use a regular expression to restrict parameter arguments if it is not easy to define a set of allowable values.</source>
+          <target state="translated">Das ValidatePattern-Element ermöglicht die Verwendung eines regulären Ausdrucks, um Parameterargumente einzuschränken, falls zulässige Werte nicht einfach zu definieren sind.</target>         
+        </trans-unit>
+        <trans-unit id="421" translate="yes" xml:space="preserve">
+          <source>You cannot define both a ValidatePattern and ValidateSet for a single parameter.</source>
+          <target state="translated">Sie können für einen einzigen Parameter nicht sowohl ValidatePattern als auch ValidateSet definieren.</target>         
+        </trans-unit>
+        <trans-unit id="422" translate="yes" xml:space="preserve">
+          <source>Step 5: Register a new Session Configuration</source>
+          <target state="translated">Schritt 5: Erstellen und registrieren Sie eine neue Sitzungskonfiguration.</target>         
+        </trans-unit>
+        <trans-unit id="423" translate="yes" xml:space="preserve">
+          <source>Next, you will create a new session configuration file that will expose your Role Capability to members of the "JEA_NonAdmin_HelpDesk" AD group.</source>
+          <target state="translated">Als Nächstes erstellen Sie eine neue Sitzungskonfigurationsdatei, die Ihre Rollenfunktion für Mitglieder der AD-Gruppe „JEA_NonAdmin_HelpDesk“ verfügbar macht.</target>         
+        </trans-unit>
+        <trans-unit id="424" translate="yes" xml:space="preserve">
+          <source>Start by creating and opening a new blank Session Configuration file in PowerShell ISE.</source>
+          <target state="translated">Erstellen und öffnen Sie zunächst eine neue leere Sitzungskonfigurationsdatei in der PowerShell ISE.</target>         
+        </trans-unit>
+        <trans-unit id="425" translate="yes" xml:space="preserve">
+          <source>Modify the following fields in the PSSC file.</source>
+          <target state="translated">Ändern Sie die folgenden Felder in der PSSC-Datei.</target>         
+        </trans-unit>
+        <trans-unit id="426" translate="yes" xml:space="preserve">
+          <source>If you are working in your own environment, you should replace "CONTOSO\JEA_NonAdmins_Helpdesk" with your own non-administrator user or group.</source>
+          <target state="translated">Wenn Sie in Ihrer eigenen Umgebung arbeiten, sollten Sie „CONTOSO\JEA_NonAdmins_Helpdesk“ durch Ihre eigene Gruppe ohne Administratorrechte ersetzen.</target>         
+        </trans-unit>
+        <trans-unit id="427" translate="yes" xml:space="preserve">
+          <source>Save and register the Session Configuration</source>
+          <target state="translated">Speichern und registrieren Sie die Sitzungskonfiguration.</target>         
+        </trans-unit>
+        <trans-unit id="428" translate="yes" xml:space="preserve">
+          <source>Test It Out!</source>
+          <target state="translated">Probieren Sie es aus!</target>         
+        </trans-unit>
+        <trans-unit id="429" translate="yes" xml:space="preserve">
+          <source>Get your non-administrator user credentials:</source>
+          <target state="translated">Rufen Sie Ihre Benutzeranmeldeinformationen ohne Administratorrechte ab:</target>         
+        </trans-unit>
+        <trans-unit id="430" translate="yes" xml:space="preserve">
+          <source>If you followed the Set Up Users and Groups section, the credentials will be:</source>
+          <target state="translated">Wenn Sie den Abschnitt „Einrichten von Benutzern und Gruppen“ absolviert haben, lauten die Informationen wie folgt:</target>         
+        </trans-unit>
+        <trans-unit id="431" translate="yes" xml:space="preserve">
+          <source>Username = "HelpDeskUser"</source>
+          <target state="translated">Benutzername = HelpDeskUser</target>         
+        </trans-unit>
+        <trans-unit id="432" translate="yes" xml:space="preserve">
+          <source>Password = "pa$$w0rd"</source>
+          <target state="translated">Kennwort = pa$$w0rd</target>         
+        </trans-unit>
+        <trans-unit id="433" translate="yes" xml:space="preserve">
+          <source>Remote into the AD Helpdesk endpoint using the non-admin credential:</source>
+          <target state="translated">Stellen Sie eine Remoteverbindung mit dem AD-Helpdeskendpunkt her, und verwenden Sie dabei diese Anmeldeinformationen ohne Administratorrechte:</target>         
+        </trans-unit>
+        <trans-unit id="434" translate="yes" xml:space="preserve">
+          <source>Use Set-ADUser to reset a user's title.</source>
+          <target state="translated">Verwenden Sie Set-ADUser, um die Position eines Benutzers zurückzusetzen.</target>         
+        </trans-unit>
+        <trans-unit id="435" translate="yes" xml:space="preserve">
+          <source>Verify that the title has changed.</source>
+          <target state="translated">Überprüfen Sie, ob die Position geändert wurde.</target>         
+        </trans-unit>
+        <trans-unit id="436" translate="yes" xml:space="preserve">
+          <source>Now, use Add-ADGroupMember to add a user to the TestGroup.</source>
+          <target state="translated">Verwenden Sie jetzt Add-ADGroupMember, um einen Benutzer zur Gruppe TestGroup hinzuzufügen.</target>         
+        </trans-unit>
+        <trans-unit id="437" translate="yes" xml:space="preserve">
+          <source>Note: make sure you've created the TestGroup beforehand.</source>
+          <target state="translated">Hinweis: Stellen Sie sicher, dass Sie die Gruppe TestGroup zuvor erstellt haben.</target>         
+        </trans-unit>
+        <trans-unit id="438" translate="yes" xml:space="preserve">
+          <source>Exit the session:</source>
+          <target state="translated">Beenden Sie die Sitzung:</target>         
+        </trans-unit>
+        <trans-unit id="439" translate="yes" xml:space="preserve">
+          <source>Key Concepts</source>
+          <target state="translated">Wichtige Konzepte</target>         
+        </trans-unit>
+        <trans-unit id="440" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>NoLanguage Mode<ept id="p1">**</ept>: When PowerShell is in "NoLanguage" mode, users may only run commands; they cannot use any language elements.</source>
+          <target state="translated"><bpt id="p1">**</bpt>NoLanguage-Modus<ept id="p1">**</ept>: Wenn PowerShell sich im Modus „NoLanguage“ befindet, dürfen Benutzer nur Befehle ausführen und keine Sprachelemente verwenden.</target>         
+        </trans-unit>
+        <trans-unit id="441" translate="yes" xml:space="preserve">
+          <source>For more information, run <ph id="ph1">`Get-Help about_Language_Modes`</ph>.</source>
+          <target state="translated">Wenn Sie hierzu weitere Informationen benötigen, führen Sie <ph id="ph1">`Get-Help about_Language_Modes`</ph> aus.</target>         
+        </trans-unit>
+        <trans-unit id="442" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>PowerShell Functions<ept id="p1">**</ept>: PowerShell functions are bits of PowerShell code that you can call by name.</source>
+          <target state="translated"><bpt id="p1">**</bpt>PowerShell-Funktionen<ept id="p1">**</ept>: Bei PowerShell-Funktionen handelt es sich um PowerShell-Codeabschnitte, denen Sie einen Namen zuweisen können.</target>         
+        </trans-unit>
+        <trans-unit id="443" translate="yes" xml:space="preserve">
+          <source>For more information, run <ph id="ph1">`Get-Help about_Functions`</ph>.</source>
+          <target state="translated">Wenn Sie hierzu weitere Informationen benötigen, führen Sie <ph id="ph1">`Get-Help about_Functions`</ph> aus.</target>         
+        </trans-unit>
+        <trans-unit id="444" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>ValidateSet/ValidatePattern<ept id="p1">**</ept>: When exposing a command, you can restrict valid arguments for specific parameters.</source>
+          <target state="translated"><bpt id="p1">**</bpt>ValidateSet/ValidatePattern<ept id="p1">**</ept>: Wenn Sie einen Befehl verfügbar machen, können Sie die gültigen Argumente für bestimmte Parameter einschränken.</target>         
+        </trans-unit>
+        <trans-unit id="445" translate="yes" xml:space="preserve">
+          <source>A ValidateSet is a specific list of valid commands.</source>
+          <target state="translated">Ein ValidateSet-Element ist eine spezifische Liste gültiger Befehle.</target>         
+        </trans-unit>
+        <trans-unit id="446" translate="yes" xml:space="preserve">
+          <source>A ValidatePattern is a regular expression that the arguments for that parameter must match.</source>
+          <target state="translated">Ein ValidatePattern-Element ist ein regulärer Ausdruck, mit dem die Argumente für diesen Parameter übereinstimmen müssen.</target>         
+        </trans-unit>
+        <trans-unit id="447" translate="yes" xml:space="preserve">
+          <source>Multi-machine Deployment and Maintenance</source>
+          <target state="translated">Bereitstellung und Wartung mehrerer Computer</target>         
+        </trans-unit>
+        <trans-unit id="448" translate="yes" xml:space="preserve">
+          <source>At this point, you have deployed JEA to local systems several times.</source>
+          <target state="translated">Bisher haben Sie JEA mehrmals auf lokalen Systemen bereitgestellt.</target>         
+        </trans-unit>
+        <trans-unit id="449" translate="yes" xml:space="preserve">
+          <source>Because your production environment probably consists of more than one machine, it's important to walk through the critical steps in the deployment process that must be repeated on each machine.</source>
+          <target state="translated">Da Ihre Produktionsumgebung aller Wahrscheinlichkeit nach aus mehr als einen Computer besteht, müssen Sie die wichtigen Schritte im Bereitstellungsprozesses kennen, die auf jedem Computer ausgeführt werden müssen.</target>         
+        </trans-unit>
+        <trans-unit id="450" translate="yes" xml:space="preserve">
+          <source>High Level Steps:</source>
+          <target state="translated">Allgemeine Schritte:</target>         
+        </trans-unit>
+        <trans-unit id="451" translate="yes" xml:space="preserve">
+          <source>Copy your modules (with Role Capabilities) to each node.</source>
+          <target state="translated">Kopieren Sie Ihre Module (mit Rollenfunktionen) auf jeden Knoten.</target>         
+        </trans-unit>
+        <trans-unit id="452" translate="yes" xml:space="preserve">
+          <source>Copy your session configuration files to each node.</source>
+          <target state="translated">Kopieren Sie Ihre Sitzungskonfigurationsdateien auf jeden Knoten.</target>         
+        </trans-unit>
+        <trans-unit id="453" translate="yes" xml:space="preserve">
+          <source>Run <ph id="ph1">`Register-PSSessionConfiguration`</ph> with your session configuration.</source>
+          <target state="translated">Führen Sie <ph id="ph1">`Register-PSSessionConfiguration`</ph> mit Ihrer Sitzungskonfiguration aus.</target>         
+        </trans-unit>
+        <trans-unit id="454" translate="yes" xml:space="preserve">
+          <source>Keep a copy of your session configuration and toolkits in a secure location.</source>
+          <target state="translated">Speichern Sie eine Kopie Ihrer Sitzungskonfiguration und Toolkits an einem sicheren Ort.</target>         
+        </trans-unit>
+        <trans-unit id="455" translate="yes" xml:space="preserve">
+          <source>As you make modifications, it's good to have a "single source of truth."</source>
+          <target state="translated">Wenn Sie Änderungen vornehmen, ist es gut, über eine „sichere Informationsquelle“ zu verfügen.</target>         
+        </trans-unit>
+        <trans-unit id="456" translate="yes" xml:space="preserve">
+          <source>Example Script</source>
+          <target state="translated">Beispielskript</target>         
+        </trans-unit>
+        <trans-unit id="457" translate="yes" xml:space="preserve">
+          <source>Here's an example script for deployment.</source>
+          <target state="translated">Hier sehen Sie ein Beispielskript für die Bereitstellung.</target>         
+        </trans-unit>
+        <trans-unit id="458" translate="yes" xml:space="preserve">
+          <source>To use it in your environment, you'll have to use the names/paths of real file shares and modules.</source>
+          <target state="translated">Um dieses Skript in Ihrer Umgebung zu verwenden, müssen Sie die Namen/Pfade echter Dateifreigaben und Module angeben.</target>         
+        </trans-unit>
+        <trans-unit id="459" translate="yes" xml:space="preserve">
+          <source>Modifying Capabilities</source>
+          <target state="translated">Ändern von Funktionen</target>         
+        </trans-unit>
+        <trans-unit id="460" translate="yes" xml:space="preserve">
+          <source>When dealing with many machines, it's important that modifications are rolled out in a consistent manner.</source>
+          <target state="translated">Beim Arbeiten mit vielen Computern ist es wichtig, dass Änderungen auf konsistente Weise eingeführt werden.</target>         
+        </trans-unit>
+        <trans-unit id="461" translate="yes" xml:space="preserve">
+          <source>Once JEA has a DSC Resource, this will help ensure your environment is in sync.</source>
+          <target state="translated">Sobald JEA über eine DSC-Ressource verfügt, wird sichergestellt, dass Ihre Umgebung synchronisiert ist.</target>         
+        </trans-unit>
+        <trans-unit id="462" translate="yes" xml:space="preserve">
+          <source>Until that time, we highly recommend you keep a master copy of your session configurations and re-deploy each time you make a modification.</source>
+          <target state="translated">Bis dahin empfiehlt es sich dringend, eine Masterkopie Ihrer Sitzungskonfigurationen zu speichern und diese nach jeder Änderung erneut bereitzustellen.</target>         
+        </trans-unit>
+        <trans-unit id="463" translate="yes" xml:space="preserve">
+          <source>Removing Capabilities</source>
+          <target state="translated">Entfernen von Funktionen:</target>         
+        </trans-unit>
+        <trans-unit id="464" translate="yes" xml:space="preserve">
+          <source>To remove your JEA configuration from your systems, use the following command on each machine:</source>
+          <target state="translated">Um Ihre JEA-Konfiguration von Ihren Systemen zu entfernen, verwenden Sie den folgenden Befehl auf jedem Computer:</target>         
+        </trans-unit>
+        <trans-unit id="465" translate="yes" xml:space="preserve">
+          <source>Reporting on JEA</source>
+          <target state="translated">Berichterstellung zu JEA</target>         
+        </trans-unit>
+        <trans-unit id="466" translate="yes" xml:space="preserve">
+          <source>Because JEA allows non-privileged users to run in a privileged context, logging and auditing are extremely important.</source>
+          <target state="translated">Da JEA es nicht privilegierten Benutzern erlaubt, in einem privilegierten Kontext zu arbeiten, sind Protokollierung und Überprüfung extrem wichtig.</target>         
+        </trans-unit>
+        <trans-unit id="467" translate="yes" xml:space="preserve">
+          <source>In this section, we'll run through the tools you can use to help you with logging and reporting.</source>
+          <target state="translated">In diesem Abschnitt geht es um die Tools, die Sie für die Protokollierung und Berichterstellung verwenden können.</target>         
+        </trans-unit>
+        <trans-unit id="468" translate="yes" xml:space="preserve">
+          <source>Reporting on JEA Actions</source>
+          <target state="translated">Berichterstellung zu JEA-Aktionen</target>         
+        </trans-unit>
+        <trans-unit id="469" translate="yes" xml:space="preserve">
+          <source>Over-the-Shoulder Transcription</source>
+          <target state="translated">Mitschnitt einer Aufzeichnung</target>         
+        </trans-unit>
+        <trans-unit id="470" translate="yes" xml:space="preserve">
+          <source>One of the quickest ways to get a summary of what's happening in a PowerShell session is to look over the shoulder of the person typing.</source>
+          <target state="translated">Eine der schnellsten Möglichkeiten, sich einen Überblick über die Aktivitäten in einer PowerShell-Sitzung zu verschaffen, ist es, der Person, die Daten eingibt, über die Schulter zu schauen.</target>         
+        </trans-unit>
+        <trans-unit id="471" translate="yes" xml:space="preserve">
+          <source>You see their commands, the output of those commands, and all is well.</source>
+          <target state="translated">So sehen Sie die eingegebenen Befehle, die Ausgabe dieser Befehle, und alles ist gut.</target>         
+        </trans-unit>
+        <trans-unit id="472" translate="yes" xml:space="preserve">
+          <source>Or it's not, but at least you'll know.</source>
+          <target state="translated">Vielleicht ist auch nicht alles gut, aber zumindest wissen Sie dann Bescheid.</target>         
+        </trans-unit>
+        <trans-unit id="473" translate="yes" xml:space="preserve">
+          <source>PowerShell transcription is designed to give you a similar view after the fact.</source>
+          <target state="translated">PowerShell-Aufzeichnungen bieten eine ähnliche Ansicht nach Abschluss der Aktivitäten.</target>         
+        </trans-unit>
+        <trans-unit id="474" translate="yes" xml:space="preserve">
+          <source>When using the "TranscriptDirectory" field in your Session Configuration, PowerShell will automatically record a transcript of all actions taken in a given session.</source>
+          <target state="translated">Wenn Sie das Feld „TranscriptDirectory“ in Ihrer Sitzungskonfiguration verwenden, zeichnet PowerShell automatisch alle Aktionen in einer bestimmten Sitzung auf.</target>         
+        </trans-unit>
+        <trans-unit id="475" translate="yes" xml:space="preserve">
+          <source>You can find transcripts from your sessions in this document here: "$env:ProgramData\JEAConfiguration\Transcripts"</source>
+          <target state="translated">Sie finden die Aufzeichnungen Ihrer Sitzungen in diesem Dokument: $env:ProgramData\JEAConfiguration\Transcripts.</target>         
+        </trans-unit>
+        <trans-unit id="476" translate="yes" xml:space="preserve">
+          <source>As you can tell, the transcript records information about the "Connected" user, the "Run As" user, the commands run in the session, and more.</source>
+          <target state="translated">Wie Sie sehen, werden Informationen über den verbundenen Benutzer, den ausführenden Benutzer, die in dieser Sitzung ausgeführten Befehle und vieles mehr aufgezeichnet.</target>         
+        </trans-unit>
+        <trans-unit id="477" translate="yes" xml:space="preserve">
+          <source>For more information about PowerShell transcription, check out <bpt id="p1">[</bpt>this blog post<ept id="p1">](http://blogs.msdn.com/b/powershell/archive/2015/06/09/powershell-the-blue-team.aspx)</ept>.</source>
+          <target state="translated">Weitere Informationen über PowerShell-Aufzeichnungen finden Sie in diesem <bpt id="p1">[</bpt>Blogbeitrag<ept id="p1">](http://blogs.msdn.com/b/powershell/archive/2015/06/09/powershell-the-blue-team.aspx)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="478" translate="yes" xml:space="preserve">
+          <source>PowerShell Event Logs</source>
+          <target state="translated">PowerShell-Ereignisprotokolle</target>         
+        </trans-unit>
+        <trans-unit id="479" translate="yes" xml:space="preserve">
+          <source>When you have module logging turned on, all PowerShell actions are also recorded in regular Windows Event logs.</source>
+          <target state="translated">Wenn die Modulprotokollierung aktiviert ist, werden alle PowerShell-Aktionen auch in regulären Windows-Ereignisprotokollen aufgezeichnet.</target>         
+        </trans-unit>
+        <trans-unit id="480" translate="yes" xml:space="preserve">
+          <source>This is slightly messier to deal with when compared to transcripts, but the level of detail it gives you can be useful.</source>
+          <target state="translated">Diese sind im Vergleich zu Aufzeichnungen etwas schwieriger zu lesen, aber die Detailgenauigkeit kann sehr hilfreich sein.</target>         
+        </trans-unit>
+        <trans-unit id="481" translate="yes" xml:space="preserve">
+          <source>In the "PowerShell" operational log, Event ID 4104 will record each command invoked if you have enabled module logging.</source>
+          <target state="translated">Im Betriebsprotokoll „PowerShell“ wird unter der Ereignis-ID 4104 jeder aufgerufene Befehl aufgezeichnet, wenn die Modulprotokollierung aktiviert ist.</target>         
+        </trans-unit>
+        <trans-unit id="482" translate="yes" xml:space="preserve">
+          <source>Other Event Logs</source>
+          <target state="translated">Weitere Ereignisprotokolle</target>         
+        </trans-unit>
+        <trans-unit id="483" translate="yes" xml:space="preserve">
+          <source>Unlike PowerShell logs and transcripts, other logging mechanisms will not capture the "Connected User".</source>
+          <target state="translated">Im Gegensatz zu PowerShell-Protokollen und -Aufzeichnungen erfassen andere Protokollierungsmechanismen nicht den „verbundenen Benutzer“.</target>         
+        </trans-unit>
+        <trans-unit id="484" translate="yes" xml:space="preserve">
+          <source>You will need to do some correlation between other logs and PowerShell logs to match up actions taken.</source>
+          <target state="translated">Sie müssen PowerShell-Protokolle und andere Protokolle korrelieren, um durchgeführte Aktionen zu vergleichen.</target>         
+        </trans-unit>
+        <trans-unit id="485" translate="yes" xml:space="preserve">
+          <source>In the "Windows Remote Management" operational log, Event ID 193 will record the Connecting User's SID and Name, as well as the RunAs Virtual Account's SID to assist with this correlation.</source>
+          <target state="translated">Im Betriebsprotokoll „Windows Remote Management“ werden unter der Ereignis-ID 193 die SID und der Name des Benutzers aufgezeichnet, der die Verbindung herstellt. Zur Unterstützung der Korrelation wird auch die SID des virtuellen ausführenden Kontos aufgezeichnet.</target>         
+        </trans-unit>
+        <trans-unit id="486" translate="yes" xml:space="preserve">
+          <source>You may have also noticed that the name of the RunAs Virtual Account includes the connecting user's domain and username at the end.</source>
+          <target state="translated">Sie haben sicherlich auch bemerkt, dass der Name des virtuellen ausführenden Kontos am Ende die Domäne und den Benutzernamen des Benutzers enthält, der die Verbindung herstellt.</target>         
+        </trans-unit>
+        <trans-unit id="487" translate="yes" xml:space="preserve">
+          <source>Reporting on JEA Configuration</source>
+          <target state="translated">Berichterstellung für die JEA-Konfiguration</target>         
+        </trans-unit>
+        <trans-unit id="488" translate="yes" xml:space="preserve">
+          <source>Get-PSSessionConfiguration</source>
+          <target state="translated">Get-PSSessionConfiguration</target>         
+        </trans-unit>
+        <trans-unit id="489" translate="yes" xml:space="preserve">
+          <source>In order to accurately report on the state of your environment, it's important to know how many JEA endpoints you have set up on your machine.</source>
+          <target state="translated">Um einen exakten Bericht über den Status Ihrer Umgebung zu erhalten, müssen Sie wissen, wie viele JEA-Endpunkte Sie auf Ihrem Computer eingerichtet haben.</target>         
+        </trans-unit>
+        <trans-unit id="490" translate="yes" xml:space="preserve">
+          <source>does just that.</source>
+          <target state="translated">ruft diese Informationen ab.</target>         
+        </trans-unit>
+        <trans-unit id="491" translate="yes" xml:space="preserve">
+          <source>Get-PSSessionCapability</source>
+          <target state="translated">Get-PSSessionCapability</target>         
+        </trans-unit>
+        <trans-unit id="492" translate="yes" xml:space="preserve">
+          <source>Manually reporting on the capabilities of any given user through a JEA endpoint can be quite complex.</source>
+          <target state="translated">Die manuelle Berichterstellung zu den Funktionen eines bestimmten Benutzers über einen JEA-Endpunkt kann ziemlich komplex sein.</target>         
+        </trans-unit>
+        <trans-unit id="493" translate="yes" xml:space="preserve">
+          <source>You would potentially need to inspect several role capabilities.</source>
+          <target state="translated">Sie müssen wahrscheinlich mehrere verschiedene Rollenfunktionen überprüfen.</target>         
+        </trans-unit>
+        <trans-unit id="494" translate="yes" xml:space="preserve">
+          <source>Fortunately, the "Get-PSSessionCapability" cmdlet does this.</source>
+          <target state="translated">Glücklicherweise macht das Cmdlet „Get-PSSessionCapability“ genau das.</target>         
+        </trans-unit>
+        <trans-unit id="495" translate="yes" xml:space="preserve">
+          <source>To test this out, run the following command from an administrator PowerShell prompt:</source>
+          <target state="translated">Führen Sie zum Testen den folgenden Befehl von einer PowerShell-Administratoreingabeaufforderung aus:</target>         
+        </trans-unit>
+        <trans-unit id="496" translate="yes" xml:space="preserve">
+          <source>Conclusion</source>
+          <target state="translated">Abschluss</target>         
+        </trans-unit>
+        <trans-unit id="497" translate="yes" xml:space="preserve">
+          <source>After completing this guide, you should have the tools and vocabulary to create your own JEA endpoint.</source>
+          <target state="translated">Nach Abschluss dieses Leitfadens verfügen Sie über die notwendigen Tools und das Vokabular, sodass Sie selbst einen JEA-Endpunkt erstellen können.</target>         
+        </trans-unit>
+        <trans-unit id="498" translate="yes" xml:space="preserve">
+          <source>Thanks for reading!</source>
+          <target state="translated">Vielen Dank!</target>         
+        </trans-unit>
+        <trans-unit id="499" translate="yes" xml:space="preserve">
+          <source>Appendix</source>
+          <target state="translated">Anhang</target>         
+        </trans-unit>
+        <trans-unit id="500" translate="yes" xml:space="preserve">
+          <source>Key Concepts Used Throughout This Guide</source>
+          <target state="translated">Wichtige Konzepte in diesem Leitfaden</target>         
+        </trans-unit>
+        <trans-unit id="501" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>PowerShell Remoting<ept id="p1">**</ept>: PowerShell remoting allows you to run PowerShell commands against remote machines.</source>
+          <target state="translated"><bpt id="p1">**</bpt>PowerShell-Remoting<ept id="p1">**</ept>: Mithilfe von PowerShell-Remoting können Sie PowerShell-Befehle auf Remotecomputern ausführen.</target>         
+        </trans-unit>
+        <trans-unit id="502" translate="yes" xml:space="preserve">
+          <source>You can operate against one or many computers, and use either temporary or persistent connections.</source>
+          <target state="translated">Sie können einen oder mehrere Computer sowie temporäre oder dauerhafte Verbindungen verwenden.</target>         
+        </trans-unit>
+        <trans-unit id="503" translate="yes" xml:space="preserve">
+          <source>In this demo, you remoted into your local machine with an interactive session.</source>
+          <target state="translated">In dieser Demo haben Sie in einer interaktiven Sitzung eine Remoteverbindung mit Ihrem lokalen Computer hergestellt.</target>         
+        </trans-unit>
+        <trans-unit id="504" translate="yes" xml:space="preserve">
+          <source>JEA restricts the functionality available through PowerShell remoting.</source>
+          <target state="translated">JEA schränkt die Funktionalität ein, die über PowerShell-Remoting verfügbar ist.</target>         
+        </trans-unit>
+        <trans-unit id="505" translate="yes" xml:space="preserve">
+          <source>For more information about PowerShell remoting, run <ph id="ph1">`Get-Help about_Remote`</ph>.</source>
+          <target state="translated">Um weitere Informationen zu PowerShell zu erhalten, führen Sie <ph id="ph1">`Get-Help about_Remote`</ph> aus.</target>         
+        </trans-unit>
+        <trans-unit id="506" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>"RunAs" User<ept id="p1">**</ept>: When using JEA, a non-administrator "runs as" a privileged "Virtual Account."</source>
+          <target state="translated"><bpt id="p1">**</bpt>Ausführender Benutzer (RunAs)<ept id="p1">**</ept>: Bei der Verwendung von JEA führt ein Benutzer ohne Administratorrechte ein privilegiertes virtuelles Konto im Modus „Ausführen als“ aus.</target>         
+        </trans-unit>
+        <trans-unit id="507" translate="yes" xml:space="preserve">
+          <source>The Virtual Account only lasts the duration of the remote session.</source>
+          <target state="translated">Das virtuelle Konto besteht nur für die Dauer der Remotesitzung.</target>         
+        </trans-unit>
+        <trans-unit id="508" translate="yes" xml:space="preserve">
+          <source>That is to say, it is created when a user connects to the endpoint, and destroyed when the user ends the session.</source>
+          <target state="translated">Das heißt: Das Konto wird erstellt, wenn ein Benutzer eine Verbindung mit dem Endpunkt herstellt, und wieder gelöscht, wenn der Benutzer die Sitzung beendet.</target>         
+        </trans-unit>
+        <trans-unit id="509" translate="yes" xml:space="preserve">
+          <source>By default, the Virtual Account is a member of the local Administrators group.</source>
+          <target state="translated">Standardmäßig ist das virtuelle Konto Mitglied der lokalen Administratorengruppe.</target>         
+        </trans-unit>
+        <trans-unit id="510" translate="yes" xml:space="preserve">
+          <source>On a domain controller, it is a member of Domain Admins.</source>
+          <target state="translated">Auf einem Domänencontroller ist es Mitglied der Gruppe „Domänen-Admins“.</target>         
+        </trans-unit>
+        <trans-unit id="511" translate="yes" xml:space="preserve">
+          <source>Virtual Accounts are local to the machine on which they are created, and do not have permissions outside of that machine.</source>
+          <target state="translated">Virtuelle Konten bestehen nur lokal auf dem Computer, auf dem sie erstellt wurden, und verfügen über keine Berechtigungen außerhalb dieses Computers.</target>         
+        </trans-unit>
+        <trans-unit id="512" translate="yes" xml:space="preserve">
+          <source>This means that they are not registered in Active Directory (no RID is assigned).</source>
+          <target state="translated">Dies bedeutet, dass sie nicht in Active Directory registriert sind (ihnen ist keine RID zugewiesen).</target>         
+        </trans-unit>
+        <trans-unit id="513" translate="yes" xml:space="preserve">
+          <source>Additionally, if an allowed command/script tries to access resources outside of the local machine, it will be accessing those resources under the machine's identity, not the Virtual Account identity.</source>
+          <target state="translated">Außerdem gilt: Wenn ein zulässiger Befehl bzw. ein zulässiges Skript versucht, auf Ressourcen außerhalb des lokalen Computers zuzugreifen, erfolgt der Zugriff auf diese Ressourcen unter der Identität des Computers, nicht der Identität des virtuellen Kontos.</target>         
+        </trans-unit>
+        <trans-unit id="514" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>"Connected" User<ept id="p1">**</ept>: The non-administrator user who connects to the JEA endpoint and to whom roles are assigned.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Verbundener Benutzer (Connected)<ept id="p1">**</ept>: Der Benutzer ohne Administratorrechte, der eine Verbindung mit dem JEA-Endpunkt herstellt und dem Rollen zugewiesen sind.</target>         
+        </trans-unit>
+        <trans-unit id="515" translate="yes" xml:space="preserve">
+          <source>Any commands this user runs are run under the context of the RunAs User or virtual account.</source>
+          <target state="translated">Alle Befehle, die dieser Benutzer ausführt, werden im Kontext des ausführenden Benutzers oder des virtuellen ausführenden Kontos ausgeführt.</target>         
+        </trans-unit>
+        <trans-unit id="516" translate="yes" xml:space="preserve">
+          <source>Creating a Domain Controller</source>
+          <target state="translated">Erstellen eines Domänencontrollers</target>         
+        </trans-unit>
+        <trans-unit id="517" translate="yes" xml:space="preserve">
+          <source>This document assumes that your machine is domain joined.</source>
+          <target state="translated">Im vorliegenden Dokument wird davon ausgegangen, dass Ihr Computer in eine Domäne eingebunden ist.</target>         
+        </trans-unit>
+        <trans-unit id="518" translate="yes" xml:space="preserve">
+          <source>If you currently don't have a domain to join, this section can help you quickly stand up a domain controller using DSC.</source>
+          <target state="translated">Wenn Sie derzeit nicht über eine Domäne verfügen, in die der Computer eingebunden werden kann, hilft Ihnen dieser Abschnitt dabei, mithilfe von DSC schnell einen Domänencontroller einzurichten.</target>         
+        </trans-unit>
+        <trans-unit id="519" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+          <target state="translated">Voraussetzungen</target>         
+        </trans-unit>
+        <trans-unit id="520" translate="yes" xml:space="preserve">
+          <source>The machine is on an internal network</source>
+          <target state="translated">Der Computer befindet sich in einem internen Netzwerk.</target>         
+        </trans-unit>
+        <trans-unit id="521" translate="yes" xml:space="preserve">
+          <source>The machine is not joined to an existing domain</source>
+          <target state="translated">Der Computer ist nicht in eine vorhandene Domäne eingebunden.</target>         
+        </trans-unit>
+        <trans-unit id="522" translate="yes" xml:space="preserve">
+          <source>The machine is running Windows Server 2016 or has WMF 5.0 installed</source>
+          <target state="translated">Auf dem Computer wird Windows Server 2016 ausgeführt, oder es ist WMF 5.0 installiert.</target>         
+        </trans-unit>
+        <trans-unit id="523" translate="yes" xml:space="preserve">
+          <source>Install xActiveDirectory</source>
+          <target state="translated">Installieren von xActiveDirectory</target>         
+        </trans-unit>
+        <trans-unit id="524" translate="yes" xml:space="preserve">
+          <source>If your machine has an active internet connection, run the following command in an elevated PowerShell window:</source>
+          <target state="translated">Wenn Ihr Computer über eine aktive Internetverbindung verfügt, führen Sie folgenden Befehl in einem PowerShell-Fenster mit erhöhten Rechten aus:</target>         
+        </trans-unit>
+        <trans-unit id="525" translate="yes" xml:space="preserve">
+          <source>If you do not have an internet connection, install xActiveDirectory to another machine and then copy the xActiveDirectory folder to the "C:\Program Files\WindowsPowerShell\Modules" folder on your machine.</source>
+          <target state="translated">Wenn Sie nicht über eine Internetverbindung verfügen, installieren Sie xActiveDirectory auf einem anderen Computer, und kopieren Sie den xActiveDirectory-Ordner in das Verzeichnis „C:\Programme\WindowsPowerShell\Modules“ auf Ihrem Computer.</target>         
+        </trans-unit>
+        <trans-unit id="526" translate="yes" xml:space="preserve">
+          <source>To confirm the installation succeeded, run the following command:</source>
+          <target state="translated">Um zu überprüfen, ob die Installation erfolgreich war, führen Sie folgenden Befehl aus:</target>         
+        </trans-unit>
+        <trans-unit id="527" translate="yes" xml:space="preserve">
+          <source>Set up a domain with DSC</source>
+          <target state="translated">Einrichten einer Domäne mit DSC</target>         
+        </trans-unit>
+        <trans-unit id="528" translate="yes" xml:space="preserve">
+          <source>Copy the following script in PowerShell to make your machine a Domain Controller in a new domain.</source>
+          <target state="translated">Kopieren Sie das folgende Skript in PowerShell, um Ihren Computer als Domänencontroller in einer neuen Domäne einzurichten.</target>         
+        </trans-unit>
+        <trans-unit id="529" translate="yes" xml:space="preserve">
+          <source>AUTHOR'S NOTE: THERE IS A KNOWN ISSUE WITH THE CREDENTIALS PROVIDED NOT BEING USED.</source>
+          <target state="translated">HINWEIS DES AUTORS: ES GIBT EIN BEKANNTES PROBLEM, DASS DIE BEREITGESTELLTEN ANMELDEINFORMATIONEN NICHT VERWENDET WERDEN.</target>         
+        </trans-unit>
+        <trans-unit id="530" translate="yes" xml:space="preserve">
+          <source>TO BE SAFE, DON'T FORGET YOUR LOCAL ADMIN PASSWORD.</source>
+          <target state="translated">MERKEN SIE SICH DAHER UNBEDINGT IHR LOKALES ADMINISTRATORKENNWORT.</target>         
+        </trans-unit>
+        <trans-unit id="531" translate="yes" xml:space="preserve">
+          <source>Your machine will restart a few times.</source>
+          <target state="translated">Ihr Computer wird mehrmals neu gestartet.</target>         
+        </trans-unit>
+        <trans-unit id="532" translate="yes" xml:space="preserve">
+          <source>You will know the process is complete once you see a file called "C:\temp.txt" containing "Domain has been created."</source>
+          <target state="translated">Sobald Sie eine Datei namens „C:\temp.txt“ mit dem Inhalt „Domain has been created.“ sehen, wissen Sie, dass der Vorgang abgeschlossen ist.</target>         
+        </trans-unit>
+        <trans-unit id="533" translate="yes" xml:space="preserve">
+          <source>Set up Users and Groups</source>
+          <target state="translated">Einrichten von Benutzern und Gruppen</target>         
+        </trans-unit>
+        <trans-unit id="534" translate="yes" xml:space="preserve">
+          <source>The following commands will set up an Operator and Helpdesk group in your domain and a corresponding non-administrator user who is a member of that group.</source>
+          <target state="translated">Mit den folgenden Befehlen richten Sie eine Gruppe „Helpdesk“ und eine Gruppe „Operator“ sowie jeweils einen entsprechenden Benutzer ohne Administratorrechte in Ihrer Domäne ein, der Mitglied der jeweiligen Gruppe ist.</target>         
+        </trans-unit>
+        <trans-unit id="535" translate="yes" xml:space="preserve">
+          <source>On Blacklisting</source>
+          <target state="translated">Blacklists</target>         
+        </trans-unit>
+        <trans-unit id="536" translate="yes" xml:space="preserve">
+          <source>After playing around with JEA, you may be wondering if it is possible to blacklist commands.</source>
+          <target state="translated">Nachdem Sie erste Erfahrungen mit JEA gesammelt haben, fragen Sie sich vielleicht, ob es möglich ist, Befehle auf eine „Blacklist“ zu setzen.</target>         
+        </trans-unit>
+        <trans-unit id="537" translate="yes" xml:space="preserve">
+          <source>This is an understandable request, but it is not currently planned for JEA for the following reasons:</source>
+          <target state="translated">Das ist eine verständliche Anforderung, derzeit jedoch aus folgenden Gründen für JEA nicht geplant:</target>         
+        </trans-unit>
+        <trans-unit id="538" translate="yes" xml:space="preserve">
+          <source>We designed JEA to limit operators to only the actions they need to do.</source>
+          <target state="translated">Wir haben JEA dafür konzipiert, Operatoren nur die Aktionen zu erlauben, die sie ausführen müssen.</target>         
+        </trans-unit>
+        <trans-unit id="539" translate="yes" xml:space="preserve">
+          <source>A blacklist is the opposite.</source>
+          <target state="translated">Eine Blacklist ist das Gegenteil dieses Konzepts.</target>         
+        </trans-unit>
+        <trans-unit id="540" translate="yes" xml:space="preserve">
+          <source>PowerShell command authors did not design PowerShell commands with the JEA in mind.</source>
+          <target state="translated">Die Autoren der PowerShell-Befehle haben diese Befehle nicht mit Blick auf JEA geschrieben.</target>         
+        </trans-unit>
+        <trans-unit id="541" translate="yes" xml:space="preserve">
+          <source>On a fresh install of Windows Server 2016, there are about 1520 commands immediately available.</source>
+          <target state="translated">Bei einer Neuinstallation von Windows Server 2016 sind etwa 1520 Befehle sofort verfügbar.</target>         
+        </trans-unit>
+        <trans-unit id="542" translate="yes" xml:space="preserve">
+          <source>The threat models for these commands did not include the possibility that a user would be running commands as a more privileged account.</source>
+          <target state="translated">Bei den Gefahrenmodellen für diese Befehle ist die Möglichkeit, dass ein Benutzer Befehle mit einem Konto mit höheren Berechtigungen ausführt, nicht berücksichtigt.</target>         
+        </trans-unit>
+        <trans-unit id="543" translate="yes" xml:space="preserve">
+          <source>For example, certain commands allow for code injection by design (e.g. Add-Type and Invoke-Command in the core PowerShell module).</source>
+          <target state="translated">Einige Befehle lassen per Design Codeeinfügungen zu (z. B. Add-Type und Invoke-Command im PowerShell-Kernmodul).</target>         
+        </trans-unit>
+        <trans-unit id="544" translate="yes" xml:space="preserve">
+          <source>JEA can warn you when you expose the specific commands we know about, but we have not re-assessed every other command in Windows based on the new threat model.</source>
+          <target state="translated">JEA kann Sie warnen, wenn Sie bestimmte, uns bekannte Befehle verfügbar machen, wir haben jedoch nicht jeden einzelnen Befehl in Windows basierend auf dem neuen Gefahrenmodell neu bewertet.</target>         
+        </trans-unit>
+        <trans-unit id="545" translate="yes" xml:space="preserve">
+          <source>You must understand the capabilities of the commands you exposing through JEA.</source>
+          <target state="translated">Sie müssen die Funktionen der Befehle verstehen, die Sie über JEA verfügbar machen.</target>         
+        </trans-unit>
+        <trans-unit id="546" translate="yes" xml:space="preserve">
+          <source>Furthermore, even if JEA blocked all commands with code-injection vulnerabilities, there is no guarantee that a malicious user would not be able to carry out a blacklisted action with another related command.</source>
+          <target state="translated">Darüber hinaus: Selbst wenn JEA alle Befehle mit möglichen Schwachstellen durch Codeeinfügung blockieren würde, gäbe es keine Garantie, dass ein böswilliger Benutzer nicht in der Lage wäre, eine auf der Blacklist stehende Aktion über einen anderen Befehl auszuführen.</target>         
+        </trans-unit>
+        <trans-unit id="547" translate="yes" xml:space="preserve">
+          <source>Unless you understand all of the commands that you are exposing, it is impossible for you to guarantee that a certain action is not possible.</source>
+          <target state="translated">Wenn Sie die Befehle, die Sie verfügbar machen, nicht genau kennen, können Sie nicht garantieren, dass eine bestimmte Aktion nicht möglich ist.</target>         
+        </trans-unit>
+        <trans-unit id="548" translate="yes" xml:space="preserve">
+          <source>The burden is on you to understand what commands you are exposing, whether they are using a whitelist or a blacklist.</source>
+          <target state="translated">Die Verantwortung dafür, die Befehle zu verstehen, die Sie verfügbar machen, liegt vollständig bei Ihnen – unabhängig davon, ob eine Whitelist oder eine Blacklist verwendet wird.</target>         
+        </trans-unit>
+        <trans-unit id="549" translate="yes" xml:space="preserve">
+          <source>The number of commands a blacklist would expose is unmanageable, so JEA is implemented using whitelists instead.</source>
+          <target state="translated">Die Anzahl von Befehlen, die auf einer Blacklist aufgeführt werden müssten, wäre unüberschaubar. Daher wird JEA stattdessen mit Whitelists implementiert.</target>         
+        </trans-unit>
+        <trans-unit id="550" translate="yes" xml:space="preserve">
+          <source>Considerations When Limiting Commands</source>
+          <target state="translated">Überlegungen zum Einschränken von Befehlen</target>         
+        </trans-unit>
+        <trans-unit id="551" translate="yes" xml:space="preserve">
+          <source>There is one important point to make about this step.</source>
+          <target state="translated">Ein wichtiger Hinweis zu diesem Schritt:</target>         
+        </trans-unit>
+        <trans-unit id="552" translate="yes" xml:space="preserve">
+          <source>It is critical that all capabilities exposed through JEA are located in administrator-restricted areas.</source>
+          <target state="translated">Es ist von entscheidender Bedeutung, dass alle über JEA verfügbar gemachten Funktionen sich in Bereichen befinden, auf die nur Administratoren zugreifen können.</target>         
+        </trans-unit>
+        <trans-unit id="553" translate="yes" xml:space="preserve">
+          <source>Non-administrator users should not have the capability to modify the scripts used through JEA endpoints.</source>
+          <target state="translated">Benutzer ohne Administratorrechte dürfen nicht die Möglichkeit haben, die verwendeten Skripts über JEA-Endpunkte zu ändern.</target>         
+        </trans-unit>
+        <trans-unit id="554" translate="yes" xml:space="preserve">
+          <source>On a related note, it is critical that you do not give JEA users the ability to overwrite JEA configurations and whitelisted scripts within their JEA sessions.</source>
+          <target state="translated">In diesem Zusammenhang ist es ebenso wichtig, dass Sie JEA-Benutzern nicht die Möglichkeit bieten, JEA-Konfigurationen und Skripts auf der Whitelist in ihren JEA-Sitzungen zu überschreiben.</target>         
+        </trans-unit>
+        <trans-unit id="555" translate="yes" xml:space="preserve">
+          <source>Be extremely careful when exposing commands like <ph id="ph1">`Copy-Item`</ph>!</source>
+          <target state="translated">Gehen Sie mit größter Umsicht vor, wenn Sie Befehle wie <ph id="ph1">`Copy-Item`</ph> verfügbar machen!</target>         
+        </trans-unit>
+        <trans-unit id="556" translate="yes" xml:space="preserve">
+          <source>Common Role Capability Pitfalls</source>
+          <target state="translated">Häufige Fehler bei Rollenfunktionen</target>         
+        </trans-unit>
+        <trans-unit id="557" translate="yes" xml:space="preserve">
+          <source>You may run into a few common pitfalls into you go through this process yourself.</source>
+          <target state="translated">Wenn Sie diesen Prozess alleine absolvieren, könnten Ihnen einige häufig auftretende Fehler unterlaufen.</target>         
+        </trans-unit>
+        <trans-unit id="558" translate="yes" xml:space="preserve">
+          <source>Here is a quick guide explaining how to identify and remediate these issues when modifying or creating a new endpoint:</source>
+          <target state="translated">Hier finden Sie einige wichtige Informationen dazu, wie Sie solche Fehler identifizieren und beheben, wenn Sie einen neuen Endpunkt erstellen oder ändern:</target>         
+        </trans-unit>
+        <trans-unit id="559" translate="yes" xml:space="preserve">
+          <source>Functions vs. Cmdlets</source>
+          <target state="translated">Funktionen im Vergleich zu Cmdlets</target>         
+        </trans-unit>
+        <trans-unit id="560" translate="yes" xml:space="preserve">
+          <source>PowerShell commands written in PowerShell are PowerShell Functions.</source>
+          <target state="translated">In PowerShell geschriebene PowerShell-Befehle sind PowerShell-Funktionen.</target>         
+        </trans-unit>
+        <trans-unit id="561" translate="yes" xml:space="preserve">
+          <source>PowerShell commands written as specialized .NET classes are PowerShell Cmdlets.</source>
+          <target state="translated">Als spezielle .NET-Klassen geschriebene PowerShell-Befehle sind PowerShell-Cmdlets.</target>         
+        </trans-unit>
+        <trans-unit id="562" translate="yes" xml:space="preserve">
+          <source>You can check the command type by running <ph id="ph1">`Get-Command`</ph>.</source>
+          <target state="translated">Sie können den Befehlstyp prüfen, indem Sie <ph id="ph1">`Get-Command`</ph> ausführen.</target>         
+        </trans-unit>
+        <trans-unit id="563" translate="yes" xml:space="preserve">
+          <source>VisibleProviders</source>
+          <target state="translated">VisibleProviders</target>         
+        </trans-unit>
+        <trans-unit id="564" translate="yes" xml:space="preserve">
+          <source>You will need to expose any providers your commands need.</source>
+          <target state="translated">Sie müssen alle Anbieter verfügbar machen, die von Ihren Befehlen benötigt werden.</target>         
+        </trans-unit>
+        <trans-unit id="565" translate="yes" xml:space="preserve">
+          <source>The most common is the FileSystem provider, but you may also need to expose others, like the Registry provider.</source>
+          <target state="translated">Am häufigsten wird der Dateisystemanbieter verwendet, Sie werden jedoch möglicherweise auch weitere Anbieter verfügbar machen müssen, beispielsweise den Registrierungsanbieter.</target>         
+        </trans-unit>
+        <trans-unit id="566" translate="yes" xml:space="preserve">
+          <source>For an introduction to providers, check out this <bpt id="p1">[</bpt>Hey, Scripting Guy blog post<ept id="p1">](http://blogs.technet.com/b/heyscriptingguy/archive/2015/04/20/find-and-use-windows-powershell-providers.aspx)</ept>.</source>
+          <target state="translated">Eine Einführung in das Thema Anbieter finden Sie in diesem Blogbeitrag von <bpt id="p1">[</bpt>Hey, Scripting Guy!<ept id="p1">](http://blogs.technet.com/b/heyscriptingguy/archive/2015/04/20/find-and-use-windows-powershell-providers.aspx)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="567" translate="yes" xml:space="preserve">
+          <source>Be careful when exposing providers -- often, it is better to define your own function that works with the underlying providers than to directly expose the provider in a JEA session.</source>
+          <target state="translated">Gehen Sie vorsichtig vor, wenn Sie Anbieter verfügbar machen – häufig ist es besser, selbst eine Funktion zu definieren, die mit den zugrunde liegenden Anbietern arbeitet, als den Anbieter in einer JEA-Sitzung direkt verfügbar zu machen.</target>         
+        </trans-unit>
+        <trans-unit id="568" translate="yes" xml:space="preserve">
+          <source>This way, you can still allow users to work with files, registry keys, etc. but retain control over *<bpt id="p1">*</bpt>which<ept id="p1">*</ept> files and registry keys they can work with using custom validation logic.</source>
+          <target state="translated">Auf diese Weise können Sie Benutzern weiterhin ermöglichen, mit Dateien, Registrierungsschlüsseln usw. zu arbeiten, behalten aber dank einer benutzerdefinierten Validierungslogik die Kontrolle darüber, mit <bpt id="p1">*</bpt>welchen<ept id="p1">*</ept> Dateien und Registrierungsschlüsseln die Benutzer arbeiten.</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
