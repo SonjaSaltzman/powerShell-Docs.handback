@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\core-powershell\web-access\uninstall-windows-powershell-web-access.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ee5e88ece27add955fcef3a9df0a441a08251e77</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-39517ae" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>uninstall windows powershell web access</source>
+          <target state="translated">Deinstallieren von Windows PowerShell Web Access</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Uninstall Windows PowerShell Web Access</source>
+          <target state="translated">Deinstallieren von Windows PowerShell Web Access</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Updated: June 24, 2013</source>
+          <target state="translated">Aktualisiert: 24. Juni 2013</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows Server 2012 R2, Windows Server 2012</source>
+          <target state="translated">Gilt für: Windows Server 2012 R2, Windows Server 2012</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Follow steps in this topic to delete the Windows PowerShell Web Access website and application from the gateway server that is running either Windows Server 2012 R2 or Windows Server 2012.</source>
+          <target state="translated">Führen Sie die Schritte in diesem Thema aus, um die Windows PowerShell Web Access-Website und die Anwendung vom Gatewayserver zu löschen, auf dem entweder Windows Server 2012 R2 oder Windows Server 2012 ausgeführt wird.</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Before you begin, notify users of the web-based console that you are removing the website.</source>
+          <target state="translated">Benachrichtigen Sie zuvor die Benutzer der webbasierten Konsole, die Sie von der Website entfernen möchten.</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Before you uninstall Windows PowerShell Web Access from the gateway server, either run the <ph id="ph1">&lt;span class="code"&gt;</ph>Uninstall-PswaWebApplication<ph id="ph2">&lt;/span&gt;</ph> cmdlet to remove the website and Windows PowerShell Web Access web applications, or use the IIS Manager procedure, <bpt id="p1">[</bpt>To delete the Windows PowerShell Web Access website and web applications by using IIS Manager<ept id="p1">](#BKMK_delsite)</ept>.</source>
+          <target state="translated">Führen Sie vor dem Deinstallieren von Windows PowerShell Web Access vom Gatewayserver entweder das Cmdlet <ph id="ph1">&lt;span class="code"&gt;</ph>Uninstall-PswaWebApplication<ph id="ph2">&lt;/span&gt;</ph> aus, um die Website und die Windows PowerShell Web Access-Webanwendungen zu entfernen, oder verwenden Sie das IIS-Manager-Verfahren unter <bpt id="p1">[</bpt>So löschen Sie die Windows PowerShell Web Access-Website und -Webanwendungen mit IIS Manager<ept id="p1">](#BKMK_delsite)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Uninstalling Windows PowerShell Web Access does not uninstall IIS or any other features that were installed automatically because Windows PowerShell Web Access requires them to run.</source>
+          <target state="translated">Bei der Deinstallation von Windows PowerShell Web Access werden IIS oder andere Features, die automatisch installiert wurden, nicht deinstalliert, weil diese von Windows PowerShell Web Access zur Ausführung benötigt werden.</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The uninstallation process leaves features installed upon which Windows PowerShell Web Access was dependent; you can uninstall those features separately if needed.</source>
+          <target state="translated">Beim Deinstallationsvorgang bleiben die Features unangetastet, mit denen für Windows PowerShell Web Access eine Abhängigkeit besteht. Sie können diese Features bei Bedarf separat deinstallieren.</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Recommended (quick) uninstallation</source>
+          <target state="translated">Empfohlene (schnelle) Deinstallation</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Procedures in this section help you uninstall both the Windows PowerShell Web Access web application and the Windows PowerShell Web Access feature by using Windows PowerShell cmdlets.</source>
+          <target state="translated">Mit den in diesem Abschnitt beschriebenen Verfahren können Sie die Windows PowerShell Web Access-Webanwendung und die Windows PowerShell Web Access-Funktion mit Windows PowerShell-Cmdlets deinstallieren.</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Step 1: Delete the web application</source>
+          <target state="translated">Schritt 1: Löschen der Webanwendung</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If you have specified your own, custom website name, add the <ph id="ph1">&lt;span class="code"&gt;</ph>WebsiteName<ph id="ph2">&lt;/span&gt;</ph> parameter to your command, and specify the website name.</source>
+          <target state="translated">Wenn Sie Ihre eigenen, benutzerdefinierten Websitenamen angegeben haben, fügen Sie dem Befehl den <ph id="ph1">&lt;span class="code"&gt;</ph>WebsiteName<ph id="ph2">&lt;/span&gt;</ph>-Parameter hinzu, und geben Sie den Namen der Website an.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If you have used a custom web application (not the default application, <bpt id="p1">**</bpt>pswa<ept id="p1">**</ept>, add the <ph id="ph1">&lt;span class="code"&gt;</ph>WebApplicationName<ph id="ph2">&lt;/span&gt;</ph> parameter to your command, and specify the name of the web application.</source>
+          <target state="translated">Wenn Sie eine benutzerdefinierte Webanwendung (und nicht die Standardanwendung <bpt id="p1">**</bpt>pswa<ept id="p1">**</ept>) verwendet haben, fügen Sie dem Befehl den <ph id="ph1">&lt;span class="code"&gt;</ph>WebApplicationName<ph id="ph2">&lt;/span&gt;</ph>-Parameter hinzu, und geben Sie den Namen der Webanwendung an.</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To delete the website and web applications by using the Uninstall-PswaWebApplication cmdlet</source>
+          <target state="translated">So löschen Sie die Website und Webanwendungen mithilfe des Uninstall-PswaWebApplication-Cmdlets</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Do one of the following to open a Windows PowerShell session.</source>
+          <target state="translated">Öffnen Sie eine Windows PowerShell-Sitzung, indem Sie einen der folgenden Schritte durchführen.</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>On the Windows desktop, right-click <bpt id="p1">**</bpt>Windows PowerShell<ept id="p1">**</ept> on the taskbar.</source>
+          <target state="translated">Klicken Sie auf dem Windows-Desktop mit der rechten Maustaste auf der Taskleiste auf <bpt id="p1">**</bpt>Windows PowerShell<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>On the Windows <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> screen, click <bpt id="p2">**</bpt>Windows PowerShell<ept id="p2">**</ept>.</source>
+          <target state="translated">Klicken Sie auf der Windows-Startseite<bpt id="p1">**</bpt> <ept id="p1">**</ept>auf <bpt id="p2">**</bpt>Windows PowerShell<ept id="p2">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Type <bpt id="p1">**</bpt>Uninstall-PswaWebApplication<ept id="p1">**</ept>, and then press <bpt id="p2">**</bpt>Enter<ept id="p2">**</ept>.</source>
+          <target state="translated">Geben Sie <bpt id="p1">**</bpt>Uninstall-PswaWebApplication<ept id="p1">**</ept> ein, und drücken Sie dann die <bpt id="p2">**</bpt>EINGABETASTE<ept id="p2">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If you are using a test certificate, add the <ph id="ph1">&lt;span class="code"&gt;</ph>DeleteTestCertificate<ph id="ph2">&lt;/span&gt;</ph> parameter to the cmdlet, as shown in the following example.</source>
+          <target state="translated">Fügen Sie dem Cmdlet den <ph id="ph1">&lt;span class="code"&gt;</ph>DeleteTestCertificate<ph id="ph2">&lt;/span&gt;</ph>-Parameter hinzu, falls Sie ein Testzertifikat verwenden. Dies ist im folgenden Beispiel dargestellt.</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_28147344-ab2f-49e7-b1c2-6dbe649d4366'); "Copy to clipboard.")</source>
+          <target state="translated">[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_28147344-ab2f-49e7-b1c2-6dbe649d4366'); "Copy to clipboard.")</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Step 2: Uninstall Windows PowerShell Web Access</source>
+          <target state="translated">Schritt 2: Deinstallieren von Windows PowerShell Web Access</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To uninstall Windows PowerShell Web Access by using Windows PowerShell cmdlets</source>
+          <target state="translated">So deinstallieren Sie Windows PowerShell Web Access mithilfe von Windows PowerShell-Cmdlets</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Do one of the following to open a Windows PowerShell session with elevated user rights.</source>
+          <target state="translated">Öffnen Sie eine Windows PowerShell-Sitzung mit erhöhten Benutzerrechten, indem Sie einen der folgenden Schritte durchführen.</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If a session is already open, go on to the next step.</source>
+          <target state="translated">Wenn bereits eine Sitzung geöffnet ist, fahren Sie mit dem nächsten Schritt fort.</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>On the Windows desktop, right-click <bpt id="p1">**</bpt>Windows PowerShell<ept id="p1">**</ept> on the taskbar, and then click <bpt id="p2">**</bpt>Run as Administrator<ept id="p2">**</ept>.</source>
+          <target state="translated">Klicken Sie auf dem Windows-Desktop mit der rechten Maustaste in der Taskleiste auf <bpt id="p1">**</bpt>Windows PowerShell<ept id="p1">**</ept> und anschließend auf <bpt id="p2">**</bpt>Als Administrator ausführen<ept id="p2">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>On the Windows <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> screen, right-click <bpt id="p2">**</bpt>Windows PowerShell<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>Run as Administrator<ept id="p3">**</ept>.</source>
+          <target state="translated">Klicken Sie auf dem Windows-<bpt id="p1">**</bpt>Startbildschirm<ept id="p1">**</ept> mit der rechten Maustaste auf <bpt id="p2">**</bpt>Windows PowerShell<ept id="p2">**</ept>, und klicken Sie anschließend auf <bpt id="p3">**</bpt>Als Administrator ausführen<ept id="p3">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Type the following, and then press <bpt id="p1">**</bpt>Enter<ept id="p1">**</ept>, where <bpt id="p2">*</bpt>computer\_name<ept id="p2">*</ept> represents a remote server from which you want to remove Windows PowerShell Web Access.</source>
+          <target state="translated">Geben Sie Folgendes ein, und drücken Sie dann die <bpt id="p1">**</bpt>EINGABETASTE<ept id="p1">**</ept>, wobei <bpt id="p2">*</bpt>computer_name<ept id="p2">*</ept> für einen Remoteserver steht, von dem Sie Windows PowerShell Web Access entfernen möchten.</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">&lt;span class="code"&gt;</ph>–Restart<ph id="ph2">&lt;/span&gt;</ph> parameter automatically restarts destination servers if required by the removal.</source>
+          <target state="translated">Mit dem Parameter <ph id="ph1">&lt;span class="code"&gt;</ph>–Restart<ph id="ph2">&lt;/span&gt;</ph> werden Zielserver automatisch neu gestartet, falls dies für die Entfernung erforderlich ist.</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_7b534520-f292-471f-89e3-a1079c03e369'); "Copy to clipboard.")</source>
+          <target state="translated">[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_7b534520-f292-471f-89e3-a1079c03e369'); "Copy to clipboard.")</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To remove roles and features from an offline VHD, you must add both the <ph id="ph1">&lt;span class="code"&gt;</ph>-ComputerName<ph id="ph2">&lt;/span&gt;</ph> parameter and the <ph id="ph3">&lt;span class="code"&gt;</ph>-VHD<ph id="ph4">&lt;/span&gt;</ph> parameter.</source>
+          <target state="translated">Zum Entfernen von Rollen oder Features von einer Offline-VHD müssen Sie sowohl den <ph id="ph1">&lt;span class="code"&gt;</ph>ComputerName<ph id="ph2">&lt;/span&gt;</ph>-Parameter als auch den <ph id="ph3">&lt;span class="code"&gt;</ph>VHD<ph id="ph4">&lt;/span&gt;</ph>-Parameter hinzufügen.</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">&lt;span class="code"&gt;</ph>-ComputerName<ph id="ph2">&lt;/span&gt;</ph> parameter contains the name of the server on which to mount the VHD, and the <ph id="ph3">&lt;span class="code"&gt;</ph>-VHD<ph id="ph4">&lt;/span&gt;</ph> parameter contains the path to the VHD file on the specified server.</source>
+          <target state="translated">Der <ph id="ph1">&lt;span class="code"&gt;</ph>ComputerName<ph id="ph2">&lt;/span&gt;</ph>-Parameter enthält den Namen des Servers, auf dem die VHD eingebunden werden soll. Der <ph id="ph3">&lt;span class="code"&gt;</ph>VHD<ph id="ph4">&lt;/span&gt;</ph>-Parameter enthält den Pfad zur VHD-Datei auf dem angegebenen Server.</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_5d8f91ee-b91a-4653-b7df-e745187fd72d'); "Copy to clipboard.")</source>
+          <target state="translated">[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_5d8f91ee-b91a-4653-b7df-e745187fd72d'); "Copy to clipboard.")</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>When removal is finished, verify that you removed Windows PowerShell Web Access by opening the <bpt id="p1">**</bpt>All Servers<ept id="p1">**</ept> page in Server Manager, selecting a server from which you removed the feature, and viewing the <bpt id="p2">**</bpt>Roles and Features<ept id="p2">**</ept> tile on the page for the selected server.</source>
+          <target state="translated">Vergewissern Sie sich nach Abschluss der Entfernung, ob Windows PowerShell Web Access wirklich entfernt wurde. Öffnen Sie dazu im Server-Manager die Seite <bpt id="p1">**</bpt>Alle Server<ept id="p1">**</ept>, wählen Sie einen Server aus, von dem Sie das Feature entfernt haben, und zeigen Sie auf der Seite für den ausgewählten Server die Kachel <bpt id="p2">**</bpt>Rollen und Features<ept id="p2">**</ept> an.</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>You can also run the <ph id="ph1">&lt;span class="code"&gt;</ph>Get-WindowsFeature<ph id="ph2">&lt;/span&gt;</ph> cmdlet targeted at the selected server (Get-WindowsFeature -ComputerName <ph id="ph3">&amp;lt;</ph><bpt id="p1">*</bpt>computer\_name<ept id="p1">*</ept><ph id="ph4">&amp;gt;</ph>) to view a list of roles and features that are installed on the server.</source>
+          <target state="translated">Sie können auch das Cmdlet <ph id="ph1">&lt;span class="code"&gt;</ph>Get-WindowsFeature<ph id="ph2">&lt;/span&gt;</ph> für den ausgewählten Server (Get-WindowsFeature -ComputerName <ph id="ph3">&amp;lt;</ph><bpt id="p1">*</bpt>Computername<ept id="p1">*</ept><ph id="ph4">&amp;gt;</ph>) ausführen, um eine Liste der Rollen und Features anzuzeigen, die auf dem Server installiert sind.</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Custom uninstallation</source>
+          <target state="translated">Benutzerdefinierte Deinstallation</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Procedures in this section help you uninstall both the Windows PowerShell Web Access web application and the Windows PowerShell Web Access feature by using the Remove Roles and Features Wizard in Server Manager, and the IIS Manager console.</source>
+          <target state="translated">Mit den in diesem Abschnitt beschriebenen Verfahren können Sie die Windows PowerShell Web Access-Webanwendung und die Windows PowerShell Web Access-Funktion mit dem Assistenten zum Entfernen von Rollen und Features im Server-Manager und der IIS Manager-Konsole deinstallieren.</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Step 1: Delete the web application</source>
+          <target state="translated">Schritt 1: Löschen der Webanwendung</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To delete the Windows PowerShell Web Access website and web applications by using IIS Manager</source>
+          <target state="translated">So löschen Sie die Windows PowerShell Web Access-Website und -Webanwendungen mithilfe des IIS-Managers</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Open the IIS Manager console by doing one of the following.</source>
+          <target state="translated">Öffnen Sie die IIS-Manager-Konsole, indem Sie eine der folgenden Aktionen ausführen:</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If it is already open, go on to the next step.</source>
+          <target state="translated">Wenn die Konsole bereits geöffnet ist, fahren Sie mit dem nächsten Schritt fort.</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>On the Windows desktop, start Server Manager by clicking <bpt id="p1">**</bpt>Server Manager<ept id="p1">**</ept> in the Windows taskbar.</source>
+          <target state="translated">Starten Sie auf dem Windows-Desktop den Server-Manager, indem Sie in der Windows-Taskleiste auf <bpt id="p1">**</bpt>Server-Manager<ept id="p1">**</ept> klicken.</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Tools<ept id="p1">**</ept> menu in Server Manager, click <bpt id="p2">**</bpt>Internet Information Services (IIS) Manager<ept id="p2">**</ept>.</source>
+          <target state="translated">Klicken Sie im Menü <bpt id="p1">**</bpt>Tools<ept id="p1">**</ept> im Server-Manager auf <bpt id="p2">**</bpt>Internetinformationsdienste-Manager (IIS)<ept id="p2">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>On the Windows <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> screen, type any part of the name <bpt id="p2">**</bpt>Internet Information Services (IIS) Manager<ept id="p2">**</ept>.</source>
+          <target state="translated">Geben Sie auf dem Windows-<bpt id="p1">**</bpt>Startbildschirm<ept id="p1">**</ept> einen beliebigen Teil des Namens <bpt id="p2">**</bpt>Internetinformationsdienste-Manager (IIS)<ept id="p2">**</ept> ein.</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Click the shortcut when it is displayed in the <bpt id="p1">**</bpt>Apps<ept id="p1">**</ept> results.</source>
+          <target state="translated">Klicken Sie auf die Verknüpfung, wenn diese in den Ergebnissen unter <bpt id="p1">**</bpt>Apps<ept id="p1">**</ept> angezeigt wird.</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>In the IIS Manager tree pane, select the website that is running the Windows PowerShell Web Access web application.</source>
+          <target state="translated">Wählen Sie im IIS-Manager-Strukturbereich die Website aus, auf der die Windows PowerShell Web Access-Webanwendung ausgeführt wird.</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Actions<ept id="p1">**</ept> pane, under <bpt id="p2">**</bpt>Manage Website<ept id="p2">**</ept>, click <bpt id="p3">**</bpt>Stop<ept id="p3">**</ept>.</source>
+          <target state="translated">Klicken Sie im <bpt id="p1">**</bpt>Aktionsbereich<ept id="p1">**</ept> unter <bpt id="p2">**</bpt>Website verwalten<ept id="p2">**</ept> auf <bpt id="p3">**</bpt>Beenden<ept id="p3">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>In the tree pane, right-click the web application in the website that is running the Windows PowerShell Web Access web application, and then click <bpt id="p1">**</bpt>Remove<ept id="p1">**</ept>.</source>
+          <target state="translated">Klicken Sie im Strukturbereich mit der rechten Maustaste auf die Webanwendung der Website, von der die Windows PowerShell Web Access-Webanwendung ausgeführt wird, und klicken Sie dann auf <bpt id="p1">**</bpt>Entfernen<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>In the tree pane, select <bpt id="p1">**</bpt>Application Pools<ept id="p1">**</ept>, select the Windows PowerShell Web Access application pool folder, click <bpt id="p2">**</bpt>Stop<ept id="p2">**</ept> in the <bpt id="p3">**</bpt>Actions<ept id="p3">**</ept> pane, and then click <bpt id="p4">**</bpt>Remove<ept id="p4">**</ept> in the content pane.</source>
+          <target state="translated">Wählen Sie im Strukturbereich die Option <bpt id="p1">**</bpt>Anwendungspools<ept id="p1">**</ept> und dann den Windows PowerShell Web Access-Anwendungsordner aus, klicken Sie im <bpt id="p2">**</bpt>Aktionsbereich<ept id="p2">**</ept> auf <bpt id="p3">**</bpt>Beenden<ept id="p3">**</ept>, und klicken Sie im Inhaltsbereich dann auf <bpt id="p4">**</bpt>Entfernen<ept id="p4">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Close IIS Manager.</source>
+          <target state="translated">Schließen Sie den IIS-Manager.</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Note</source>
+          <target state="translated">Hinweis</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The certificate is not deleted during uninstallation.</source>
+          <target state="translated">Das Zertifikat wird während der Deinstallation nicht gelöscht.</target>         
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If you created a self-signed certificate or used a test certificate and want to remove it, delete the certificate in IIS Manager.</source>
+          <target state="translated">Wenn Sie ein selbstsigniertes Zertifikat erstellt oder ein Testzertifikat verwendet haben und dieses Zertifikat nun entfernen möchten, müssen Sie es im IIS-Manager löschen.</target>         
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Step 2: Uninstall Windows PowerShell Web Access</source>
+          <target state="translated">Schritt 2: Deinstallieren von Windows PowerShell Web Access</target>         
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>To uninstall Windows PowerShell Web Access by using the Remove Roles and Features Wizard</source>
+          <target state="translated">So deinstallieren Sie Windows PowerShell Web Access mithilfe des Assistenten zum Entfernen von Rollen und Features</target>         
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If Server Manager is already open, go on to the next step.</source>
+          <target state="translated">Wenn der Server-Manager bereits geöffnet ist, fahren Sie mit dem nächsten Schritt fort.</target>         
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>If Server Manager is not already open, open it by doing one of the following.</source>
+          <target state="translated">Ist der Server-Manager noch nicht geöffnet, öffnen Sie ihn mit einer der folgenden Aktionen.</target>         
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>On the Windows desktop, start Server Manager by clicking <bpt id="p1">**</bpt>Server Manager<ept id="p1">**</ept> in the Windows taskbar.</source>
+          <target state="translated">Starten Sie auf dem Windows-Desktop den Server-Manager, indem Sie in der Windows-Taskleiste auf <bpt id="p1">**</bpt>Server-Manager<ept id="p1">**</ept> klicken.</target>         
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>On the Windows <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> screen, click <bpt id="p2">**</bpt>Server Manager<ept id="p2">**</ept>.</source>
+          <target state="translated">Klicken Sie auf der Windows-Startseite<bpt id="p1">**</bpt> <ept id="p1">**</ept>auf <bpt id="p2">**</bpt>Server-Manager<ept id="p2">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Manage<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>Remove Roles and Features<ept id="p2">**</ept>.</source>
+          <target state="translated">Klicken Sie im Menü <bpt id="p1">**</bpt>Verwalten<ept id="p1">**</ept> auf <bpt id="p2">**</bpt>Rollen und Funktionen entfernen<ept id="p2">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Select destination server<ept id="p1">**</ept> page, select the server or offline VHD from which you want to remove the feature.</source>
+          <target state="translated">Wählen Sie auf der Seite <bpt id="p1">**</bpt>Zielserver auswählen<ept id="p1">**</ept> den Server oder die Offline-VHD aus, von dem bzw. der Sie das Feature entfernen möchten.</target>         
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>To select an offline VHD, first select the server on which to mount the VHD, and then select the VHD file.</source>
+          <target state="translated">Um eine Offline-VHD auszuwählen, müssen Sie zuerst den Server auswählen, auf dem die VHD eingebunden werden soll. Wählen Sie anschließend die VHD-Datei aus.</target>         
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>After you have selected the destination server, click <bpt id="p1">**</bpt>Next<ept id="p1">**</ept>.</source>
+          <target state="translated">Klicken Sie nach dem Auswählen des Zielservers auf <bpt id="p1">**</bpt>Weiter<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Next<ept id="p1">**</ept> again to skip to the <bpt id="p2">**</bpt>Remove features<ept id="p2">**</ept> page.</source>
+          <target state="translated">Klicken Sie erneut auf <bpt id="p1">**</bpt>Weiter<ept id="p1">**</ept>, um auf die Seite <bpt id="p2">**</bpt>Features entfernen<ept id="p2">**</ept> zu wechseln.</target>         
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Clear the check box for <bpt id="p1">**</bpt>Windows PowerShell Web Access<ept id="p1">**</ept>, and then click <bpt id="p2">**</bpt>Next<ept id="p2">**</ept>.</source>
+          <target state="translated">Deaktivieren Sie das Kontrollkästchen unter <bpt id="p1">**</bpt>Windows PowerShell Web Access<ept id="p1">**</ept>, und klicken Sie auf <bpt id="p2">**</bpt>Weiter<ept id="p2">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Confirm removal selections<ept id="p1">**</ept> page, click <bpt id="p2">**</bpt>Remove<ept id="p2">**</ept>.</source>
+          <target state="translated">Klicken Sie auf der Seite <bpt id="p1">**</bpt>Entfernungsauswahl bestätigen<ept id="p1">**</ept> auf <bpt id="p2">**</bpt>Entfernen<ept id="p2">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">Weitere Informationen</target>         
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Install and Use Windows PowerShell Web Access<ept id="p1">](https://technet.microsoft.com/en-us/library/hh831611(v=ws.11).aspx)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>IIS Manager 7.0 Help<ept id="p2">](https://technet.microsoft.com/library/cc732664.aspx)</ept></source>
+          <target state="translated"><bpt id="p1">[</bpt>Installieren und Verwenden von Windows PowerShell Web Access<ept id="p1">](https://technet.microsoft.com/en-us/library/hh831611(v=ws.11).aspx)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Hilfe zum IIS-Manager 7.0<ept id="p2">](https://technet.microsoft.com/library/cc732664.aspx)</ept></target>         
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Show:<ph id="ph1">&lt;/span&gt;</ph> Inherited Protected</source>
+          <target state="translated">Show:<ph id="ph1">&lt;/span&gt;</ph> Inherited Protected</target>         
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Was this page helpful?</source>
+          <target state="translated">War diese Seite hilfreich?</target>         
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Yes No</source>
+          <target state="translated">Ja Nein</target>         
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Additional feedback?</source>
+          <target state="translated">Zusätzliches Feedback?</target>         
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>1500<ph id="ph1">&lt;/span&gt;</ph> characters remaining<ph id="ph2">&lt;/span&gt;</ph> Submit Skip this</source>
+          <target state="translated">1500<ph id="ph1">&lt;/span&gt;</ph> verbleibende Zeichen<ph id="ph2">&lt;/span&gt;</ph> Senden Diesen Schritt überspringen</target>         
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Thank you!</source>
+          <target state="translated">Vielen Dank!</target>         
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>We appreciate your feedback.</source>
+          <target state="translated">Wir schätzen Ihr Feedback.</target>         
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Manage Your Profile</source>
+          <target state="translated">Profil verwalten</target>         
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Site Feedback<ph id="ph1">&lt;/a&gt;</ph> Site Feedback</source>
+          <target state="translated">Feedback zur Website<ph id="ph1">&lt;/a&gt;</ph> Feedback zur Website</target>         
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>x</source>
+          <target state="translated">x</target>         
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Tell us about your experience...</source>
+          <target state="translated">Teilen Sie uns Ihre Erfahrungen mit.</target>         
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Did the page load quickly?</source>
+          <target state="translated">Wurde die Seite schnell geladen?</target>         
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Yes<ph id="ph1">&lt;span&gt;</ph> <ph id="ph2">&lt;/span&gt;&lt;/span&gt;</ph> <ph id="ph3">&lt;span&gt;</ph> No</source>
+          <target state="translated">Ja<ph id="ph1">&lt;span&gt;</ph> <ph id="ph2">&lt;/span&gt;&lt;/span&gt;</ph> <ph id="ph3">&lt;span&gt;</ph> Nein</target>         
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Do you like the page design?</source>
+          <target state="translated">Gefällt Ihnen das Design der Seite?</target>         
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Yes<ph id="ph1">&lt;span&gt;</ph> <ph id="ph2">&lt;/span&gt;&lt;/span&gt;</ph> <ph id="ph3">&lt;span&gt;</ph> No</source>
+          <target state="translated">Ja<ph id="ph1">&lt;span&gt;</ph> <ph id="ph2">&lt;/span&gt;&lt;/span&gt;</ph> <ph id="ph3">&lt;span&gt;</ph> Nein</target>         
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Tell us more</source>
+          <target state="translated">Erzählen Sie uns mehr</target>         
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Flash Newsletter</source>
+          <target state="translated">Flash-Newsletter</target>         
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Contact Us</source>
+          <target state="translated">So erreichen Sie uns:</target>         
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Privacy Statement</source>
+          <target state="translated">Datenschutzbestimmungen</target>         
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Terms of Use</source>
+          <target state="translated">Nutzungsbedingungen</target>         
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Trademarks</source>
+          <target state="translated">Warenzeichen</target>         
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>© 2016 Microsoft</source>
+          <target state="translated">© 2016 Microsoft</target>         
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>© 2016 Microsoft</source>
+          <target state="translated">© 2016 Microsoft</target>         
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Third party scripts and code linked to or referenced from this website are licensed to you by the parties that own such code, not by Microsoft.</source>
+          <target state="translated">Die Lizenz für Drittanbieterskripts oder Code, die mit dieser Website verlinkt oder über Verweise verbunden sind, wird Ihnen von den Codeeigentümern erteilt, nicht von Microsoft.</target>         
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>See ASP.NET Ajax CDN Terms of Use – http://www.asp.net/ajaxlibrary/CDN.ashx.</source>
+          <target state="translated">Die ASP.NET Ajax CDN-Nutzungsbedingungen finden Sie unter http://www.asp.net/ajaxlibrary/CDN.ashx.</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
