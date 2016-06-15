@@ -3,1440 +3,1427 @@
   <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
     <header>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">188b557f523ce9ce37c6ae3a7f544ec10c3bc885</xliffext:olfilehash>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-ac20adc" tool-company="Microsoft" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\core-powershell\web-access\install-and-use-windows-powershell-web-access.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d2f78148402f06992f5f58cd40e8c4f624b5e4b5</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-39517ae" tool-company="Microsoft" />
     </header>
     <body>
       <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
-          <source>Install and Use Windows PowerShell Web Access</source>
+          <source>install and use windows powershell web access</source>
           <target state="translated">安裝和使用 Windows PowerShell Web 存取</target>         
         </trans-unit>
         <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Install and Use Windows PowerShell Web Access</source>
+          <target state="translated">安裝和使用 Windows PowerShell Web 存取</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
           <source>Updated: November 5, 2013</source>
           <target state="translated">更新日期︰2013 年 11 月 5 日</target>         
         </trans-unit>
-        <trans-unit id="103" translate="yes" xml:space="preserve">
+        <trans-unit id="104" translate="yes" xml:space="preserve">
           <source>Applies To: Windows Server 2012 R2, Windows Server 2012</source>
           <target state="translated">適用目標︰Windows Server 2012 R2、Windows Server 2012</target>         
         </trans-unit>
-        <trans-unit id="104" translate="yes" xml:space="preserve">
+        <trans-unit id="105" translate="yes" xml:space="preserve">
           <source>Windows PowerShell® Web Access, first introduced in Windows Server® 2012, acts as a Windows PowerShell gateway, providing a web-based Windows PowerShell console that is targeted at a remote computer.</source>
           <target state="translated">Windows PowerShell® Web 存取是在 Windows Server® 2012 中首度引進來做為 Windows PowerShell 閘道，可提供以遠端電腦為目標的網頁型 Windows PowerShell 主控台。</target>         
         </trans-unit>
-        <trans-unit id="105" translate="yes" xml:space="preserve">
+        <trans-unit id="106" translate="yes" xml:space="preserve">
           <source>It enables IT Pros to run Windows PowerShell commands and scripts from a Windows PowerShell console in a web browser, with no Windows PowerShell, remote management software, or browser plug-in installation necessary on the client device.</source>
           <target state="translated">它可讓 IT 專業人員在網頁瀏覽器中，從 Windows PowerShell 主控台執行 Windows PowerShell 命令和指令碼，而不需要 Windows PowerShell、遠端管理軟體，或者在用戶端裝置上安裝瀏覽器外掛程式。</target>         
         </trans-unit>
-        <trans-unit id="106" translate="yes" xml:space="preserve">
+        <trans-unit id="107" translate="yes" xml:space="preserve">
           <source>All that is required to run the web-based Windows PowerShell console is a properly-configured Windows PowerShell Web Access gateway, and a client device browser that supports JavaScript® and accepts cookies.</source>
           <target state="translated">執行網頁型 Windows PowerShell 主控台只需要正確設定的 Windows PowerShell Web 存取閘道，以及支援 JavaScript® 且接受 Cookie 的用戶端裝置瀏覽器。</target>         
         </trans-unit>
-        <trans-unit id="107" translate="yes" xml:space="preserve">
+        <trans-unit id="108" translate="yes" xml:space="preserve">
           <source>Examples of client devices include laptops, non-work personal computers, borrowed computers, tablet computers, web kiosks, computers that are not running a Windows-based operating system, and cell phone browsers.</source>
           <target state="translated">用戶端裝置的範例包含膝上型電腦、非工作用個人電腦、租借電腦、平板電腦、網路工作站、執行非 Windows 作業系統的電腦以及行動電話瀏覽器。</target>         
         </trans-unit>
-        <trans-unit id="108" translate="yes" xml:space="preserve">
+        <trans-unit id="109" translate="yes" xml:space="preserve">
           <source>IT Pros can perform critical management tasks on remote Windows-based servers from devices that have access to an Internet connection and a web browser.</source>
           <target state="translated">IT 專業人員能夠從可以存取網際網路連線的裝置及網頁瀏覽器，執行遠端 Windows 伺服器的重要管理工作。</target>         
         </trans-unit>
-        <trans-unit id="109" translate="yes" xml:space="preserve">
+        <trans-unit id="110" translate="yes" xml:space="preserve">
           <source>After successful gateway setup and configuration, users can access a Windows PowerShell console by using a web browser.</source>
           <target state="translated">成功安裝和設定閘道之後，使用者就可以使用網頁瀏覽器來存取 Windows PowerShell 主控台。</target>         
         </trans-unit>
-        <trans-unit id="110" translate="yes" xml:space="preserve">
+        <trans-unit id="111" translate="yes" xml:space="preserve">
           <source>When users open the secured Windows PowerShell Web Access website, they can run a web-based Windows PowerShell console after successful authentication.</source>
           <target state="translated">當使用者開啟受保護的 Windows PowerShell Web 存取網站時，就可以在成功驗證之後執行網頁型 Windows PowerShell 主控台。</target>         
         </trans-unit>
-        <trans-unit id="111" translate="yes" xml:space="preserve">
+        <trans-unit id="112" translate="yes" xml:space="preserve">
           <source>Windows PowerShell Web Access setup and configuration is a three-step process:</source>
           <target state="translated">安裝和設定 Windows PowerShell Web 存取時需要執行三個步驟：</target>         
         </trans-unit>
-        <trans-unit id="112" translate="yes" xml:space="preserve">
+        <trans-unit id="113" translate="yes" xml:space="preserve">
           <source>Installing Windows PowerShell Web Access</source>
           <target state="translated">安裝 Windows PowerShell Web 存取</target>         
         </trans-unit>
-        <trans-unit id="113" translate="yes" xml:space="preserve">
+        <trans-unit id="114" translate="yes" xml:space="preserve">
           <source>Configuring the gateway</source>
           <target state="translated">設定閘道</target>         
         </trans-unit>
-        <trans-unit id="114" translate="yes" xml:space="preserve">
+        <trans-unit id="115" translate="yes" xml:space="preserve">
           <source>Configuring authorization rules that allow users access to the web-based Windows PowerShell console</source>
           <target state="translated">設定授權規則，以允許使用者存取網頁型 Windows PowerShell 主控台</target>         
         </trans-unit>
-        <trans-unit id="115" translate="yes" xml:space="preserve">
+        <trans-unit id="116" translate="yes" xml:space="preserve">
           <source>Before you install and configure Windows PowerShell Web Access, we recommend that you read this entire guide, which includes instructions about how to install, secure, and uninstall Windows PowerShell Web Access.</source>
           <target state="translated">安裝和設定 Windows PowerShell Web 存取之前，建議您完整閱讀本指南，其中包含如何安裝、保護和解除安裝 Windows PowerShell Web 存取的相關指示。</target>         
         </trans-unit>
-        <trans-unit id="116" translate="yes" xml:space="preserve">
+        <trans-unit id="117" translate="yes" xml:space="preserve">
           <source>The <bpt id="p1">[</bpt>Use the Web-based Windows PowerShell Console<ept id="p1">](https://technet.microsoft.com/en-us/library/hh831417(v=ws.11).aspx)</ept> topic describes how users sign in to the web-based console, and covers limitations and differences between the web-based Windows PowerShell console and the <bpt id="p2">**</bpt>powershell.exe<ept id="p2">**</ept> console.</source>
           <target state="translated"><bpt id="p1">[</bpt>使用網頁型 Windows PowerShell 主控台<ept id="p1">](https://technet.microsoft.com/en-us/library/hh831417(v=ws.11).aspx)</ept>主題說明使用者如何登入網頁型主控台，並涵蓋了網頁型 Windows PowerShell 主控台和 <bpt id="p2">**</bpt>powershell.exe<ept id="p2">**</ept> 主控台之間的限制及差異。</target>         
         </trans-unit>
-        <trans-unit id="117" translate="yes" xml:space="preserve">
+        <trans-unit id="118" translate="yes" xml:space="preserve">
           <source>End users of the web-based console should read <bpt id="p1">[</bpt>Use the Web-based Windows PowerShell Console<ept id="p1">](https://technet.microsoft.com/en-us/library/hh831417(v=ws.11).aspx)</ept>, but do not need to read the rest of this guide.</source>
           <target state="translated">網頁型主控台的使用者應該閱讀<bpt id="p1">[</bpt>使用網頁型 Windows PowerShell 主控台<ept id="p1">](https://technet.microsoft.com/en-us/library/hh831417(v=ws.11).aspx)</ept>，但不需要閱讀本指南的其他章節。</target>         
         </trans-unit>
-        <trans-unit id="118" translate="yes" xml:space="preserve">
+        <trans-unit id="119" translate="yes" xml:space="preserve">
           <source>This topic does not provide in-depth Web Server (IIS) operations guidance; only those steps required to configure the Windows PowerShell Web Access gateway are described in this topic.</source>
           <target state="translated">本主題不提供深入的網頁伺服器 (IIS) 操作指導方針；只會說明設定 Windows PowerShell Web 存取閘道所需的步驟。</target>         
         </trans-unit>
-        <trans-unit id="119" translate="yes" xml:space="preserve">
+        <trans-unit id="120" translate="yes" xml:space="preserve">
           <source>For more information about configuring and securing websites in IIS, see the IIS documentation resources in the See Also section.</source>
           <target state="translated">如需設定和保護 IIS 網站安全的詳細資訊，請參閱＜另請參閱＞一節中的 IIS 文件資源。</target>         
         </trans-unit>
-        <trans-unit id="120" translate="yes" xml:space="preserve">
+        <trans-unit id="121" translate="yes" xml:space="preserve">
           <source>The following diagram shows how Windows PowerShell Web Access works.</source>
           <target state="translated">下圖顯示 Windows PowerShell Web 存取的運作方式。</target>         
         </trans-unit>
-        <trans-unit id="121" translate="yes" xml:space="preserve">
+        <trans-unit id="122" translate="yes" xml:space="preserve">
           <source>In this topic:</source>
           <target state="translated">本主題內容：</target>         
         </trans-unit>
-        <trans-unit id="122" translate="yes" xml:space="preserve">
+        <trans-unit id="123" translate="yes" xml:space="preserve">
           <source>Requirements for running Windows PowerShell Web Access</source>
           <target state="translated">執行 Windows PowerShell Web 存取的需求</target>         
         </trans-unit>
-        <trans-unit id="123" translate="yes" xml:space="preserve">
+        <trans-unit id="124" translate="yes" xml:space="preserve">
           <source>Browser and client device support</source>
           <target state="translated">瀏覽器及用戶端裝置支援</target>         
         </trans-unit>
-        <trans-unit id="124" translate="yes" xml:space="preserve">
+        <trans-unit id="125" translate="yes" xml:space="preserve">
           <source>Recommended (quick) deployment</source>
           <target state="translated">建議 (快速) 部署</target>         
         </trans-unit>
-        <trans-unit id="125" translate="yes" xml:space="preserve">
+        <trans-unit id="126" translate="yes" xml:space="preserve">
           <source>Custom deployment</source>
           <target state="translated">自訂部署</target>         
         </trans-unit>
-        <trans-unit id="126" translate="yes" xml:space="preserve">
+        <trans-unit id="127" translate="yes" xml:space="preserve">
           <source>Configure a genuine certificate</source>
           <target state="translated">設定正版憑證</target>         
         </trans-unit>
-        <trans-unit id="127" translate="yes" xml:space="preserve">
+        <trans-unit id="128" translate="yes" xml:space="preserve">
           <source>Requirements for running Windows PowerShell Web Access</source>
           <target state="translated">執行 Windows PowerShell Web 存取的需求</target>         
         </trans-unit>
-        <trans-unit id="128" translate="yes" xml:space="preserve">
+        <trans-unit id="129" translate="yes" xml:space="preserve">
           <source>Windows PowerShell Web Access requires Web Server (IIS), .NET Framework 4.5, and Windows PowerShell 3.0 or Windows PowerShell 4.0 to be running on the server on which you want to run the gateway.</source>
           <target state="translated">Windows PowerShell Web 存取需要網頁伺服器 (IIS)、.NET Framework 4.5，以及 Windows PowerShell 3.0 或 Windows PowerShell 4.0，才能在您要執行閘道的伺服器上執行。</target>         
         </trans-unit>
-        <trans-unit id="129" translate="yes" xml:space="preserve">
+        <trans-unit id="130" translate="yes" xml:space="preserve">
           <source>You can install Windows PowerShell Web Access on a server that is running Windows Server 2012 R2 or Windows Server 2012 by using either the Add Roles and Features Wizard in Server Manager, or Windows PowerShell deployment cmdlets for Server Manager.</source>
           <target state="translated">您可以使用伺服器管理員中的 [新增角色及功能精靈] 或伺服器管理員的 Windows PowerShell 部署 Cmdlet，在執行 Windows Server 2012 R2 或 Windows Server 2012 的伺服器上安裝 Windows PowerShell Web 存取。</target>         
         </trans-unit>
-        <trans-unit id="130" translate="yes" xml:space="preserve">
+        <trans-unit id="131" translate="yes" xml:space="preserve">
           <source>When you install Windows PowerShell Web Access by using Server Manager or its deployment cmdlets, required roles and features are automatically added as part of the installation process.</source>
           <target state="translated">使用伺服器管理員或其部署 Cmdlet 安裝 Windows PowerShell Web 存取時，會在安裝處理程序期間自動新增必要的角色和功能。</target>         
         </trans-unit>
-        <trans-unit id="131" translate="yes" xml:space="preserve">
+        <trans-unit id="132" translate="yes" xml:space="preserve">
           <source>Windows PowerShell Web Access allows remote users to access computers in your organization by using Windows PowerShell in a web browser.</source>
           <target state="translated">Windows PowerShell Web 存取允許遠端使用者，在網頁瀏覽器中使用 Windows PowerShell 來存取組織中的電腦。</target>         
         </trans-unit>
-        <trans-unit id="132" translate="yes" xml:space="preserve">
+        <trans-unit id="133" translate="yes" xml:space="preserve">
           <source>Although Windows PowerShell Web Access is a convenient and powerful management tool, the web-based access poses security risks, and should be configured as securely as possible.</source>
           <target state="translated">雖然 Windows PowerShell Web 存取是一個方便且功能強大的管理工具，但網頁型存取有安全性風險，應該儘可能安全地設定。</target>         
         </trans-unit>
-        <trans-unit id="133" translate="yes" xml:space="preserve">
+        <trans-unit id="134" translate="yes" xml:space="preserve">
           <source>We recommend that administrators who configure the Windows PowerShell Web Access gateway use available security layers, both the cmdlet-based authorization rules included with Windows PowerShell Web Access, and security layers that are available in Web Server (IIS) and third-party applications.</source>
           <target state="translated">建議設定 Windows PowerShell Web 存取閘道的系統管理員使用可用的安全性階層，包含 Windows PowerShell Web 存取隨附之以 Cmdlet為基礎的授權規則，以及網頁伺服器 (IIS) 與協力廠商應用程式中可用的安全性階層。</target>         
         </trans-unit>
-        <trans-unit id="134" translate="yes" xml:space="preserve">
+        <trans-unit id="135" translate="yes" xml:space="preserve">
           <source>This documentation includes both unsecure examples that are only recommended for test environments, as well as examples that are recommended for secure deployments.</source>
           <target state="translated">這份文件含有只建議用於測試環境的不安全範例，以及建議用於安全部署的範例。</target>         
         </trans-unit>
-        <trans-unit id="135" translate="yes" xml:space="preserve">
+        <trans-unit id="136" translate="yes" xml:space="preserve">
           <source>Browser and client device support</source>
           <target state="translated">瀏覽器及用戶端裝置支援</target>         
         </trans-unit>
-        <trans-unit id="136" translate="yes" xml:space="preserve">
+        <trans-unit id="137" translate="yes" xml:space="preserve">
           <source>Windows PowerShell Web Access supports the following Internet browsers.</source>
           <target state="translated">Windows PowerShell Web 存取支援下列網際網路瀏覽器。</target>         
         </trans-unit>
-        <trans-unit id="137" translate="yes" xml:space="preserve">
+        <trans-unit id="138" translate="yes" xml:space="preserve">
           <source>Although mobile browsers are not officially supported, many may be able to run the web-based Windows PowerShell console.</source>
           <target state="translated">雖然並未正式支援行動瀏覽器，但很多行動瀏覽器應該都可以執行網頁型 Windows PowerShell 主控台。</target>         
         </trans-unit>
-        <trans-unit id="138" translate="yes" xml:space="preserve">
+        <trans-unit id="139" translate="yes" xml:space="preserve">
           <source>Other browsers that accept cookies, run JavaScript, and run HTTPS websites are expected to work, but are not officially tested.</source>
           <target state="translated">其他接受 Cookie、執行 JavaScript 以及執行 HTTPS 網站的瀏覽器預期也可以運作，但尚未經過正式測試。</target>         
         </trans-unit>
-        <trans-unit id="139" translate="yes" xml:space="preserve">
+        <trans-unit id="140" translate="yes" xml:space="preserve">
           <source>Supported desktop computer browsers</source>
           <target state="translated">支援的桌上型電腦瀏覽器</target>         
         </trans-unit>
-        <trans-unit id="140" translate="yes" xml:space="preserve">
+        <trans-unit id="141" translate="yes" xml:space="preserve">
           <source>Windows® Internet Explorer® for Microsoft Windows® 8.0, 9.0, 10.0, and 11.0</source>
           <target state="translated">適用於 Microsoft Windows® 8.0、9.0、10.0 以及 11.0 的 Windows® Internet Explorer®</target>         
         </trans-unit>
-        <trans-unit id="141" translate="yes" xml:space="preserve">
+        <trans-unit id="142" translate="yes" xml:space="preserve">
           <source>Mozilla Firefox® 10.0.2</source>
           <target state="translated">Mozilla Firefox® 10.0.2</target>         
         </trans-unit>
-        <trans-unit id="142" translate="yes" xml:space="preserve">
+        <trans-unit id="143" translate="yes" xml:space="preserve">
           <source>Google Chrome™ 17.0.963.56m for Windows</source>
           <target state="translated">適用於 Windows 的 Google Chrome™ 17.0.963.56m</target>         
         </trans-unit>
-        <trans-unit id="143" translate="yes" xml:space="preserve">
+        <trans-unit id="144" translate="yes" xml:space="preserve">
           <source>Apple Safari® 5.1.2 for Windows</source>
           <target state="translated">適用於 Windows 的 Apple Safari® 5.1.2</target>         
         </trans-unit>
-        <trans-unit id="144" translate="yes" xml:space="preserve">
+        <trans-unit id="145" translate="yes" xml:space="preserve">
           <source>Apple Safari 5.1.2 for Mac OS®</source>
           <target state="translated">適用於 Mac OS® 的 Apple Safari 5.1.2</target>         
         </trans-unit>
-        <trans-unit id="145" translate="yes" xml:space="preserve">
+        <trans-unit id="146" translate="yes" xml:space="preserve">
           <source>Minimally-tested mobile devices or browsers</source>
           <target state="translated">通過基本測試的行動裝置或瀏覽器</target>         
         </trans-unit>
-        <trans-unit id="146" translate="yes" xml:space="preserve">
+        <trans-unit id="147" translate="yes" xml:space="preserve">
           <source>Windows Phone 7 and 7.5</source>
           <target state="translated">Windows Phone 7 和 7.5</target>         
         </trans-unit>
-        <trans-unit id="147" translate="yes" xml:space="preserve">
+        <trans-unit id="148" translate="yes" xml:space="preserve">
           <source>Google Android WebKit 3.1 Browser Android 2.2.1 (Kernel 2.6)</source>
           <target state="translated">Google Android WebKit 3.1 Browser Android 2.2.1 (Kernel 2.6)</target>         
         </trans-unit>
-        <trans-unit id="148" translate="yes" xml:space="preserve">
+        <trans-unit id="149" translate="yes" xml:space="preserve">
           <source>Apple Safari for iPhone operating system 5.0.1</source>
           <target state="translated">適用於 iPhone 作業系統 5.0.1 的 Apple Safari</target>         
         </trans-unit>
-        <trans-unit id="149" translate="yes" xml:space="preserve">
+        <trans-unit id="150" translate="yes" xml:space="preserve">
           <source>Apple Safari for iPad 2 operating system 5.0.1</source>
           <target state="translated">適用於 iPad 2 作業系統 5.0.1 的 Apple Safari</target>         
         </trans-unit>
-        <trans-unit id="150" translate="yes" xml:space="preserve">
+        <trans-unit id="151" translate="yes" xml:space="preserve">
           <source>Browser requirements</source>
           <target state="translated">瀏覽器需求</target>         
         </trans-unit>
-        <trans-unit id="151" translate="yes" xml:space="preserve">
+        <trans-unit id="152" translate="yes" xml:space="preserve">
           <source>To use the Windows PowerShell Web Access web-based console, browsers must do the following.</source>
           <target state="translated">若要使用 Windows PowerShell Web 存取網頁型主控台，瀏覽器必須執行下列作業。</target>         
         </trans-unit>
-        <trans-unit id="152" translate="yes" xml:space="preserve">
+        <trans-unit id="153" translate="yes" xml:space="preserve">
           <source>Allow cookies from the Windows PowerShell Web Access gateway website.</source>
           <target state="translated">允許來自 Windows PowerShell Web 存取閘道網站的 Cookie。</target>         
         </trans-unit>
-        <trans-unit id="153" translate="yes" xml:space="preserve">
+        <trans-unit id="154" translate="yes" xml:space="preserve">
           <source>Be able to open and read HTTPS pages.</source>
           <target state="translated">可以開啟和讀取 HTTPS 頁面。</target>         
         </trans-unit>
-        <trans-unit id="154" translate="yes" xml:space="preserve">
+        <trans-unit id="155" translate="yes" xml:space="preserve">
           <source>Open and run websites that use JavaScript.</source>
           <target state="translated">開啟和執行使用 JavaScript 的網站。</target>         
         </trans-unit>
-        <trans-unit id="155" translate="yes" xml:space="preserve">
+        <trans-unit id="156" translate="yes" xml:space="preserve">
           <source>Recommended (quick) deployment</source>
           <target state="translated">建議 (快速) 部署</target>         
         </trans-unit>
-        <trans-unit id="156" translate="yes" xml:space="preserve">
+        <trans-unit id="157" translate="yes" xml:space="preserve">
           <source>You can install the Windows PowerShell Web Access gateway on a server that is running Windows Server 2012 R2 or Windows Server 2012 by using either Windows PowerShell cmdlets, or by using the Add Roles and Features Wizard that is opened from within Server Manager.</source>
           <target state="translated">您可以使用 Windows PowerShell 部署 Cmdlet 或從伺服器管理員中開啟的 [新增角色及功能精靈]，在執行 Windows Server 2012 R2 或 Windows Server 2012 的伺服器上安裝 Windows PowerShell Web 存取閘道。</target>         
         </trans-unit>
-        <trans-unit id="157" translate="yes" xml:space="preserve">
+        <trans-unit id="158" translate="yes" xml:space="preserve">
           <source>For quick installation and configuration, use Windows PowerShell cmdlets, as described in this section.</source>
           <target state="translated">若要快速安裝和設定，請使用 Windows PowerShell Cmdlet，如本節所述。</target>         
         </trans-unit>
-        <trans-unit id="158" translate="yes" xml:space="preserve">
+        <trans-unit id="159" translate="yes" xml:space="preserve">
           <source>Step 1: Install Windows PowerShell Web Access</source>
           <target state="translated">步驟 1：安裝 Windows PowerShell Web 存取</target>         
         </trans-unit>
-        <trans-unit id="159" translate="yes" xml:space="preserve">
+        <trans-unit id="160" translate="yes" xml:space="preserve">
           <source>Step 2: Configure the gateway</source>
           <target state="translated">步驟 2：設定閘道</target>         
         </trans-unit>
-        <trans-unit id="160" translate="yes" xml:space="preserve">
+        <trans-unit id="161" translate="yes" xml:space="preserve">
           <source>Step 3: Configure a restrictive authorization rule</source>
           <target state="translated">步驟 3：設定限制性授權規則</target>         
         </trans-unit>
-        <trans-unit id="161" translate="yes" xml:space="preserve">
+        <trans-unit id="162" translate="yes" xml:space="preserve">
           <source>Step 1: Install Windows PowerShell Web Access</source>
           <target state="translated">步驟 1：安裝 Windows PowerShell Web 存取</target>         
         </trans-unit>
-        <trans-unit id="162" translate="yes" xml:space="preserve">
+        <trans-unit id="163" translate="yes" xml:space="preserve">
           <source>To install Windows PowerShell Web Access by using Windows PowerShell cmdlets</source>
           <target state="translated">使用 Windows PowerShell Cmdlet 安裝 Windows PowerShell Web 存取</target>         
         </trans-unit>
-        <trans-unit id="163" translate="yes" xml:space="preserve">
+        <trans-unit id="164" translate="yes" xml:space="preserve">
           <source>Do one of the following to open a Windows PowerShell session with elevated user rights.</source>
           <target state="translated">執行下列其中一個動作，使用提高的使用者權限開啟 Windows PowerShell 工作階段。</target>         
         </trans-unit>
-        <trans-unit id="164" translate="yes" xml:space="preserve">
-          <source>On the Windows desktop, right-click <bpt id="p1">**</bpt>Windows PowerShell<ept id="p1">**</ept> on the taskbar, and then click <bpt id="p2">**</bpt>Run as Administrator<ept id="p2">**</ept></source>
-          <target state="translated">在 Windows 桌面上，以滑鼠右鍵按一下工作列上的 [Windows PowerShell]，然後按一下 [以系統管理員身分執行]</target>         
-        </trans-unit>
         <trans-unit id="165" translate="yes" xml:space="preserve">
-          <source>On the Windows <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> screen, right-click <bpt id="p2">**</bpt>Windows PowerShell<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>Run as Administrator<ept id="p3">**</ept></source>
-          <target state="translated">在 Windows [開始] 畫面上，以滑鼠右鍵按一下 [Windows PowerShell]，然後按一下 [以系統管理員身分執行]</target>         
+          <source>On the Windows desktop, right-click <bpt id="p1">**</bpt>Windows PowerShell<ept id="p1">**</ept> on the taskbar, and then click <bpt id="p2">**</bpt>Run as Administrator<ept id="p2">**</ept>.</source>
+          <target state="translated">在 Windows 桌面上，以滑鼠右鍵按一下工作列上的 <bpt id="p1">**</bpt>[Windows PowerShell]<ept id="p1">**</ept>，然後按一下 <bpt id="p2">**</bpt>[以系統管理員身分執行]<ept id="p2">**</ept>。</target>         
         </trans-unit>
         <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>On the Windows <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> screen, right-click <bpt id="p2">**</bpt>Windows PowerShell<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>Run as Administrator<ept id="p3">**</ept>.</source>
+          <target state="translated">在 Windows <bpt id="p1">**</bpt>[開始]<ept id="p1">**</ept> 畫面上，以滑鼠右鍵按一下 <bpt id="p2">**</bpt>[Windows PowerShell]<ept id="p2">**</ept>，然後按一下 <bpt id="p3">**</bpt>[以系統管理員身分執行]<ept id="p3">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
           <source>Note</source>
           <target state="translated">注意</target>         
         </trans-unit>
-        <trans-unit id="167" translate="yes" xml:space="preserve">
+        <trans-unit id="168" translate="yes" xml:space="preserve">
           <source>In Windows PowerShell 3.0 and 4.0, there is no need to import the Server Manager cmdlet module into the Windows PowerShell session before running cmdlets that are part of the module.</source>
           <target state="translated">在 Windows PowerShell 3.0 和 4.0 中，執行屬於模組的 Cmdlet 之前，不需要將伺服器管理員 Cmdlet 模組匯入 Windows PowerShell 工作階段。</target>         
         </trans-unit>
-        <trans-unit id="168" translate="yes" xml:space="preserve">
+        <trans-unit id="169" translate="yes" xml:space="preserve">
           <source>A module is automatically imported the first time you run a cmdlet that is part of the module.</source>
           <target state="translated">當您首次執行屬於模組的 Cmdlet 時，會自動匯入模組。</target>         
         </trans-unit>
-        <trans-unit id="169" translate="yes" xml:space="preserve">
+        <trans-unit id="170" translate="yes" xml:space="preserve">
           <source>Also, Windows PowerShell cmdlets are not case-sensitive.</source>
           <target state="translated">此外，Windows PowerShell Cmdlet 不會區分大小寫。</target>         
         </trans-unit>
-        <trans-unit id="170" translate="yes" xml:space="preserve">
+        <trans-unit id="171" translate="yes" xml:space="preserve">
           <source>Type the following, and then press <bpt id="p1">**</bpt>Enter<ept id="p1">**</ept>, where <bpt id="p2">*</bpt>computer\_name<ept id="p2">*</ept> represents a remote computer on which you want to install Windows PowerShell Web Access, if applicable.</source>
           <target state="translated">輸入下列內容，然後按 <bpt id="p1">**</bpt>Enter<ept id="p1">**</ept>，其中 <bpt id="p2">*</bpt>computer_name<ept id="p2">*</ept> 代表要安裝 Windows PowerShell Web 存取的遠端電腦 (如果適用)。</target>         
         </trans-unit>
-        <trans-unit id="171" translate="yes" xml:space="preserve">
+        <trans-unit id="172" translate="yes" xml:space="preserve">
           <source>The <ph id="ph1">&lt;span class="code"&gt;</ph>Restart<ph id="ph2">&lt;/span&gt;</ph> parameter automatically restarts destination servers if required.</source>
           <target state="translated">如有需要，<ph id="ph1">&lt;span class="code"&gt;</ph>Restart<ph id="ph2">&lt;/span&gt;</ph> 參數會自動重新啟動目的地伺服器。</target>         
         </trans-unit>
-        <trans-unit id="172" translate="yes" xml:space="preserve">
+        <trans-unit id="173" translate="yes" xml:space="preserve">
           <source>[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_374a9c21-4f6e-471e-b957-bb190a594533'); "Copy to clipboard.")</source>
           <target state="translated">[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_374a9c21-4f6e-471e-b957-bb190a594533'); "複製到剪貼簿。")</target>         
         </trans-unit>
-        <trans-unit id="173" translate="yes" xml:space="preserve">
+        <trans-unit id="174" translate="yes" xml:space="preserve">
           <source>Note</source>
           <target state="translated">注意</target>         
         </trans-unit>
-        <trans-unit id="174" translate="yes" xml:space="preserve">
+        <trans-unit id="175" translate="yes" xml:space="preserve">
           <source>Installing Windows PowerShell Web Access by using Windows PowerShell cmdlets does not add Web Server (IIS) management tools by default.</source>
           <target state="translated">使用 Windows PowerShell Cmdlet 安裝 Windows PowerShell Web 存取，預設不會新增網頁伺服器 (IIS) 管理工具。</target>         
         </trans-unit>
-        <trans-unit id="175" translate="yes" xml:space="preserve">
+        <trans-unit id="176" translate="yes" xml:space="preserve">
           <source>If you want to install the management tools on the same server as the Windows PowerShell Web Access gateway, add the <ph id="ph1">&lt;span class="code"&gt;</ph>IncludeManagementTools<ph id="ph2">&lt;/span&gt;</ph> parameter to the installation command (as provided in this step).</source>
           <target state="translated">如果您想要在與 Windows PowerShell Web 存取閘道相同的伺服器上安裝管理工具，可將 <ph id="ph1">&lt;span class="code"&gt;</ph>IncludeManagementTools<ph id="ph2">&lt;/span&gt;</ph> 參數新增到安裝命令 (如本步驟所提供)。</target>         
         </trans-unit>
-        <trans-unit id="176" translate="yes" xml:space="preserve">
+        <trans-unit id="177" translate="yes" xml:space="preserve">
           <source>If you are managing the Windows PowerShell Web Access website from a remote computer, install the IIS Manager snap-in by installing <ph id="ph1">&lt;a href="http://go.microsoft.com/fwlink/?LinkID=304145"&gt;</ph>Remote Server Administration Tools for Windows 8.1<ph id="ph2">&lt;/a&gt;</ph> or <ph id="ph3">&lt;a href="http://go.microsoft.com/fwlink/p/?LinkID=238560"&gt;</ph>Remote Server Administration Tools for Windows 8<ph id="ph4">&lt;/a&gt;</ph> on the computer from which you want to manage the gateway.</source>
           <target state="translated">如果您從遠端電腦管理 Windows PowerShell Web 存取網站，在您要用來管理閘道的電腦上，透過安裝 <ph id="ph1">&lt;a href="http://go.microsoft.com/fwlink/?LinkID=304145"&gt;</ph>Windows 8.1 的遠端伺服器管理工具<ph id="ph2">&lt;/a&gt;</ph>或 <ph id="ph3">&lt;a href="http://go.microsoft.com/fwlink/p/?LinkID=238560"&gt;</ph>Windows 8 的遠端伺服器管理工具<ph id="ph4">&lt;/a&gt;</ph>來安裝 [IIS 管理員] 嵌入式管理單元。</target>         
         </trans-unit>
-        <trans-unit id="177" translate="yes" xml:space="preserve">
+        <trans-unit id="178" translate="yes" xml:space="preserve">
           <source>To install roles and features on an offline VHD, you must add both the <ph id="ph1">&lt;span class="code"&gt;</ph>ComputerName<ph id="ph2">&lt;/span&gt;</ph> parameter and the <ph id="ph3">&lt;span class="code"&gt;</ph>VHD<ph id="ph4">&lt;/span&gt;</ph> parameter.</source>
           <target state="translated">若要在離線 VHD 上安裝角色和功能，您必須新增 <ph id="ph1">&lt;span class="code"&gt;</ph>ComputerName<ph id="ph2">&lt;/span&gt;</ph> 參數及 <ph id="ph3">&lt;span class="code"&gt;</ph>VHD<ph id="ph4">&lt;/span&gt;</ph> 參數。</target>         
         </trans-unit>
-        <trans-unit id="178" translate="yes" xml:space="preserve">
+        <trans-unit id="179" translate="yes" xml:space="preserve">
           <source>The <ph id="ph1">&lt;span class="code"&gt;</ph>ComputerName<ph id="ph2">&lt;/span&gt;</ph> parameter contains the name of the server on which to mount the VHD, and the <ph id="ph3">&lt;span class="code"&gt;</ph>VHD<ph id="ph4">&lt;/span&gt;</ph> parameter contains the path to the VHD file on the specified server.</source>
           <target state="translated"><ph id="ph1">&lt;span class="code"&gt;</ph>ComputerName<ph id="ph2">&lt;/span&gt;</ph> 參數包含要掛接 VHD 的伺服器名稱，<ph id="ph3">&lt;span class="code"&gt;</ph>VHD<ph id="ph4">&lt;/span&gt;</ph> 參數則包含指定伺服器上的 VHD 檔案路徑。</target>         
         </trans-unit>
-        <trans-unit id="179" translate="yes" xml:space="preserve">
+        <trans-unit id="180" translate="yes" xml:space="preserve">
           <source>[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_d841d509-347e-49d0-bf54-8d1f306bece6'); "Copy to clipboard.")</source>
           <target state="translated">[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_d841d509-347e-49d0-bf54-8d1f306bece6'); "複製到剪貼簿。")</target>         
         </trans-unit>
-        <trans-unit id="180" translate="yes" xml:space="preserve">
+        <trans-unit id="181" translate="yes" xml:space="preserve">
           <source>When installation is complete, verify that Windows PowerShell Web Access was installed on destination servers by running the <bpt id="p1">**</bpt>Get-WindowsFeature<ept id="p1">**</ept> cmdlet on a destination server, in a Windows PowerShell console that has been opened with elevated user rights.</source>
           <target state="translated">完成安裝後，在使用提高的使用者權限開啟的 Windows PowerShell 主控台中，藉由在目的地伺服器上執行 <bpt id="p1">**</bpt>Get-WindowsFeature<ept id="p1">**</ept> Cmdlet，來確認 Windows PowerShell Web 存取已安裝於目的地伺服器上。</target>         
         </trans-unit>
-        <trans-unit id="181" translate="yes" xml:space="preserve">
+        <trans-unit id="182" translate="yes" xml:space="preserve">
           <source>You can also verify that Windows PowerShell Web Access was installed in the Server Manager console, by selecting a destination server on the <bpt id="p1">**</bpt>All Servers<ept id="p1">**</ept> page, and then viewing the <bpt id="p2">**</bpt>Roles and Features<ept id="p2">**</ept> tile for the selected server.</source>
           <target state="translated">您也可以在 [所有伺服器] 頁面上選取目的地伺服器，然後檢視所選伺服器的 [角色和功能] 磚，藉以確認 Windows PowerShell Web 存取已安裝於伺服器管理員主控台中。</target>         
         </trans-unit>
-        <trans-unit id="182" translate="yes" xml:space="preserve">
+        <trans-unit id="183" translate="yes" xml:space="preserve">
           <source>You can also view the readme file for Windows PowerShell Web Access.</source>
           <target state="translated">您也可以檢視 Windows PowerShell Web 存取的讀我檔案。</target>         
         </trans-unit>
-        <trans-unit id="183" translate="yes" xml:space="preserve">
+        <trans-unit id="184" translate="yes" xml:space="preserve">
           <source>After Windows PowerShell Web Access is installed, you are prompted to review the readme file, which contains basic, required setup instructions for the gateway.</source>
           <target state="translated">安裝 Windows PowerShell Web 存取之後，系統會提示您檢閱讀我檔案，其中包含適用於閘道的必要且基本的安裝指示。</target>         
         </trans-unit>
-        <trans-unit id="184" translate="yes" xml:space="preserve">
+        <trans-unit id="185" translate="yes" xml:space="preserve">
           <source>These setup instructions are also in the following section, <bpt id="p1">[</bpt>Step 2: Configure the gateway<ept id="p1">](#BKMK_step2)</ept>.</source>
           <target state="translated"><bpt id="p1">[</bpt>步驟 2：設定閘道<ept id="p1">](#BKMK_step2)</ept>一節中也會有這些安裝指示。</target>         
         </trans-unit>
-        <trans-unit id="185" translate="yes" xml:space="preserve">
-          <source>The path to the readme file is <ph id="ph1">&lt;span class="computerOutputInline"&gt;</ph>C:\\Windows\\Web\\PowerShellWebAccess\\wwwroot\\README.txt</source>
-          <target state="translated">讀我檔案的路徑是 <ph id="ph1">&lt;span class="computerOutputInline"&gt;</ph>C:\Windows\Web\PowerShellWebAccess\wwwroot\README.txt</target>         
-        </trans-unit>
         <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The path to the readme file is <ph id="ph1">&lt;span class="computerOutputInline"&gt;</ph>C:\\Windows\\Web\\PowerShellWebAccess\\wwwroot\\README.txt<ph id="ph2">&lt;/span&gt;</ph>.</source>
+          <target state="translated">讀我檔案的路徑是 <ph id="ph1">&lt;span class="computerOutputInline"&gt;</ph>C:\Windows\Web\PowerShellWebAccess\wwwroot\README.txt<ph id="ph2">&lt;/span&gt;</ph>。</target>         
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
           <source>Step 2: Configure the gateway</source>
           <target state="translated">步驟 2：設定閘道</target>         
         </trans-unit>
-        <trans-unit id="187" translate="yes" xml:space="preserve">
+        <trans-unit id="188" translate="yes" xml:space="preserve">
           <source>The <bpt id="p1">**</bpt>Install-PswaWebApplication<ept id="p1">**</ept> cmdlet is a quick way to get Windows PowerShell Web Access configured.</source>
           <target state="translated"><bpt id="p1">**</bpt>Install-PswaWebApplication<ept id="p1">**</ept> Cmdlet 是快速設定 Windows PowerShell Web 存取的方法。</target>         
         </trans-unit>
-        <trans-unit id="188" translate="yes" xml:space="preserve">
+        <trans-unit id="189" translate="yes" xml:space="preserve">
           <source>Although you can add the <ph id="ph1">&lt;span class="code"&gt;</ph>UseTestCertificate<ph id="ph2">&lt;/span&gt;</ph> parameter to the <ph id="ph3">&lt;span class="code"&gt;</ph>Install-PswaWebApplication<ph id="ph4">&lt;/span&gt;</ph> cmdlet to install a self-signed SSL certificate for test purposes, this is not secure; for a secure production environment, always use a valid SSL certificate that has been signed by a certification authority (CA).</source>
           <target state="translated">雖然您可以基於測試目的將 <ph id="ph1">&lt;span class="code"&gt;</ph>UseTestCertificate<ph id="ph2">&lt;/span&gt;</ph> 參數新增到 <ph id="ph3">&lt;span class="code"&gt;</ph>Install-PswaWebApplication<ph id="ph4">&lt;/span&gt;</ph> Cmdlet 來安裝自我簽署的 SSL 憑證，但這並不安全；為了擁有安全的生產環境，一定要使用由憑證授權單位 (CA) 簽署的有效 SSL 憑證。</target>         
         </trans-unit>
-        <trans-unit id="189" translate="yes" xml:space="preserve">
+        <trans-unit id="190" translate="yes" xml:space="preserve">
           <source>Administrators can replace the test certificate with a signed certificate of their choice by using the IIS Manager console.</source>
           <target state="translated">系統管理員可以使用 IIS 管理員主控台以選擇的簽署憑證來取代測試憑證。</target>         
         </trans-unit>
-        <trans-unit id="190" translate="yes" xml:space="preserve">
+        <trans-unit id="191" translate="yes" xml:space="preserve">
           <source>You can complete Windows PowerShell Web Access web application configuration either by running the <ph id="ph1">&lt;span class="code"&gt;</ph>Install-PswaWebApplication<ph id="ph2">&lt;/span&gt;</ph> cmdlet or by performing GUI-based configuration steps in IIS Manager.</source>
           <target state="translated">您可以執行 <ph id="ph1">&lt;span class="code"&gt;</ph>Install-PswaWebApplication<ph id="ph2">&lt;/span&gt;</ph> Cmdlet 或在 IIS 管理員中執行 GUI 設定步驟，來完成 Windows PowerShell Web 存取 Web 應用程式設定。</target>         
         </trans-unit>
-        <trans-unit id="191" translate="yes" xml:space="preserve">
+        <trans-unit id="192" translate="yes" xml:space="preserve">
           <source>By default, the cmdlet installs the web application, <bpt id="p1">**</bpt>pswa<ept id="p1">**</ept> (and an application pool for it, <bpt id="p2">**</bpt>pswa\_pool<ept id="p2">**</ept>), in the <bpt id="p3">**</bpt>Default Web Site<ept id="p3">**</ept> container, as shown in IIS Manager; if desired, you can instruct the cmdlet to change the default site container of the web application.</source>
           <target state="translated">根據預設，Cmdlet 會在 [IIS 管理員] 上顯示的 [預設的網站] 容器中，安裝 Web 應用程式 <bpt id="p1">**</bpt>pswa<ept id="p1">**</ept> (以及應用程式集區 <bpt id="p2">**</bpt>pswa_pool<ept id="p2">**</ept>)；如有需要，可以指示 Cmdlet 變更 Web 應用程式的預設網站容器。</target>         
         </trans-unit>
-        <trans-unit id="192" translate="yes" xml:space="preserve">
+        <trans-unit id="193" translate="yes" xml:space="preserve">
           <source>IIS Manager offers configuration options that are available for web applications, such as changing the port number or the Secure Sockets Layer (SSL) certificate.</source>
           <target state="translated">IIS 管理員提供 Web 應用程式可用的設定選項，例如變更連接埠號碼或安全通訊端層 (SSL) 憑證。</target>         
         </trans-unit>
-        <trans-unit id="193" translate="yes" xml:space="preserve">
+        <trans-unit id="194" translate="yes" xml:space="preserve">
           <source>Security Note</source>
           <target state="translated">安全性注意事項</target>         
         </trans-unit>
-        <trans-unit id="194" translate="yes" xml:space="preserve">
+        <trans-unit id="195" translate="yes" xml:space="preserve">
           <source>We strongly recommend that administrators configure the gateway to use a valid certificate that has been signed by a CA.</source>
           <target state="translated">強烈建議系統管理員將閘道設定為使用 CA 簽署的有效憑證。</target>         
         </trans-unit>
-        <trans-unit id="195" translate="yes" xml:space="preserve">
+        <trans-unit id="196" translate="yes" xml:space="preserve">
           <source>To configure the Windows PowerShell Web Access gateway with a test certificate by using Install-PswaWebApplication</source>
           <target state="translated">使用 Install-PswaWebApplication 以測試憑證設定 Windows PowerShell Web 存取閘道</target>         
         </trans-unit>
-        <trans-unit id="196" translate="yes" xml:space="preserve">
+        <trans-unit id="197" translate="yes" xml:space="preserve">
           <source>To configure the Windows PowerShell Web Access gateway with a genuine certificate by using Install-PswaWebApplication and IIS Manager</source>
           <target state="translated">使用 Install-PswaWebApplication 和 IIS 管理員以正版憑證設定 Windows PowerShell Web 存取閘道</target>         
         </trans-unit>
-        <trans-unit id="197" translate="yes" xml:space="preserve">
+        <trans-unit id="198" translate="yes" xml:space="preserve">
           <source>To configure the Windows PowerShell Web Access gateway with a test certificate by using Install-PswaWebApplication</source>
           <target state="translated">使用 Install-PswaWebApplication 以測試憑證設定 Windows PowerShell Web 存取閘道</target>         
         </trans-unit>
-        <trans-unit id="198" translate="yes" xml:space="preserve">
+        <trans-unit id="199" translate="yes" xml:space="preserve">
           <source>Do one of the following to open a Windows PowerShell session.</source>
           <target state="translated">執行下列其中一個動作來開啟 Windows PowerShell 工作階段。</target>         
         </trans-unit>
-        <trans-unit id="199" translate="yes" xml:space="preserve">
+        <trans-unit id="200" translate="yes" xml:space="preserve">
           <source>On the Windows desktop, right-click <bpt id="p1">**</bpt>Windows PowerShell<ept id="p1">**</ept> on the taskbar.</source>
           <target state="translated">在 Windows 桌面上，以滑鼠右鍵按一下工作列上的 [Windows PowerShell]。</target>         
         </trans-unit>
-        <trans-unit id="200" translate="yes" xml:space="preserve">
-          <source>On the Windows <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> screen, click <bpt id="p2">**</bpt>Windows PowerShell<ept id="p2">**</ept></source>
-          <target state="translated">在 Windows [開始] 畫面上，按一下 [Windows PowerShell]</target>         
-        </trans-unit>
         <trans-unit id="201" translate="yes" xml:space="preserve">
-          <source>Type the following, and then press <bpt id="p1">**</bpt>Enter<ept id="p1">**</ept></source>
-          <target state="translated">輸入下列程式碼，然後按 <bpt id="p1">**</bpt>Enter<ept id="p1">**</ept></target>         
+          <source>On the Windows <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> screen, click <bpt id="p2">**</bpt>Windows PowerShell<ept id="p2">**</ept>.</source>
+          <target state="translated">在 Windows <bpt id="p1">**</bpt>[開始]<ept id="p1">**</ept> 畫面上，按一下 <bpt id="p2">**</bpt>[Windows PowerShell]<ept id="p2">**</ept>。</target>         
         </trans-unit>
         <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Type the following, and then press <bpt id="p1">**</bpt>Enter<ept id="p1">**</ept>.</source>
+          <target state="translated">輸入下列程式碼，然後按 <bpt id="p1">**</bpt>Enter<ept id="p1">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
           <source>Install-PswaWebApplication -UseTestCertificate</source>
           <target state="translated">Install-PswaWebApplication -UseTestCertificate</target>         
         </trans-unit>
-        <trans-unit id="203" translate="yes" xml:space="preserve">
+        <trans-unit id="204" translate="yes" xml:space="preserve">
           <source>Security Note</source>
           <target state="translated">安全性注意事項</target>         
         </trans-unit>
-        <trans-unit id="204" translate="yes" xml:space="preserve">
+        <trans-unit id="205" translate="yes" xml:space="preserve">
           <source>The <ph id="ph1">&lt;span class="code"&gt;</ph>UseTestCertificate<ph id="ph2">&lt;/span&gt;</ph> parameter should only be used in a private test environment.</source>
           <target state="translated"><ph id="ph1">&lt;span class="code"&gt;</ph>UseTestCertificate<ph id="ph2">&lt;/span&gt;</ph> 參數只能用於私人測試環境中。</target>         
         </trans-unit>
-        <trans-unit id="205" translate="yes" xml:space="preserve">
+        <trans-unit id="206" translate="yes" xml:space="preserve">
           <source>For a secure production environment, we recommend using a valid certificate that has been signed by a CA.</source>
           <target state="translated">若要安全的生產環境，建議使用 CA 簽署的有效憑證。</target>         
         </trans-unit>
-        <trans-unit id="206" translate="yes" xml:space="preserve">
+        <trans-unit id="207" translate="yes" xml:space="preserve">
           <source>Running the cmdlet installs the Windows PowerShell Web Access web application within the IIS Default Web Site container.</source>
           <target state="translated">執行這個 Cmdlet 會在 IIS [預設的網站] 容器中安裝 Windows PowerShell Web 存取 Web 應用程式。</target>         
         </trans-unit>
-        <trans-unit id="207" translate="yes" xml:space="preserve">
+        <trans-unit id="208" translate="yes" xml:space="preserve">
           <source>The cmdlet creates the infrastructure required to run Windows PowerShell Web Access on the default website, https://<ph id="ph1">&amp;lt;</ph>server\_name<ph id="ph2">&amp;gt;</ph>/pswa.</source>
           <target state="translated">這個 Cmdlet 會建立在預設網站 (https://<ph id="ph1">&amp;lt;</ph>server_name<ph id="ph2">&amp;gt;</ph>/pswa) 上執行 Windows PowerShell Web 存取所需的基礎結構。</target>         
         </trans-unit>
-        <trans-unit id="208" translate="yes" xml:space="preserve">
+        <trans-unit id="209" translate="yes" xml:space="preserve">
           <source>To install the web application in a different website, provide the website name by adding the <ph id="ph1">&lt;span class="code"&gt;</ph>WebSiteName<ph id="ph2">&lt;/span&gt;</ph> parameter.</source>
           <target state="translated">若要在不同的網站上安裝 Web 應用程式，新增 <ph id="ph1">&lt;span class="code"&gt;</ph>WebSiteName<ph id="ph2">&lt;/span&gt;</ph> 參數來提供網站名稱。</target>         
         </trans-unit>
-        <trans-unit id="209" translate="yes" xml:space="preserve">
+        <trans-unit id="210" translate="yes" xml:space="preserve">
           <source>To change the name of the web application (the default is <ph id="ph1">&lt;span class="code"&gt;</ph>pswa<ph id="ph2">&lt;/span&gt;</ph>), add the <ph id="ph3">&lt;span class="code"&gt;</ph>WebApplicationName<ph id="ph4">&lt;/span&gt;</ph> parameter.</source>
           <target state="translated">若要變更 Web 應用程式的名稱 (預設是 <ph id="ph1">&lt;span class="code"&gt;</ph>pswa<ph id="ph2">&lt;/span&gt;</ph>)，新增 <ph id="ph3">&lt;span class="code"&gt;</ph>WebApplicationName<ph id="ph4">&lt;/span&gt;</ph> 參數。</target>         
         </trans-unit>
-        <trans-unit id="210" translate="yes" xml:space="preserve">
+        <trans-unit id="211" translate="yes" xml:space="preserve">
           <source>The following settings are configured by running the cmdlet.</source>
           <target state="translated">執行 Cmdlet 可以設定下列設定。</target>         
         </trans-unit>
-        <trans-unit id="211" translate="yes" xml:space="preserve">
+        <trans-unit id="212" translate="yes" xml:space="preserve">
           <source>You can change these manually in the IIS Manager console, if desired.</source>
           <target state="translated">如有需要，可以在 IIS 管理員主控台手動變更這些設定。</target>         
         </trans-unit>
-        <trans-unit id="212" translate="yes" xml:space="preserve">
+        <trans-unit id="213" translate="yes" xml:space="preserve">
           <source>Path: /pswa</source>
           <target state="translated">Path：/pswa</target>         
         </trans-unit>
-        <trans-unit id="213" translate="yes" xml:space="preserve">
+        <trans-unit id="214" translate="yes" xml:space="preserve">
           <source>ApplicationPool: pswa\_pool</source>
           <target state="translated">ApplicationPool：pswa_pool</target>         
         </trans-unit>
-        <trans-unit id="214" translate="yes" xml:space="preserve">
+        <trans-unit id="215" translate="yes" xml:space="preserve">
           <source>EnabledProtocols: http</source>
           <target state="translated">EnabledProtocols：http</target>         
         </trans-unit>
-        <trans-unit id="215" translate="yes" xml:space="preserve">
+        <trans-unit id="216" translate="yes" xml:space="preserve">
           <source>PhysicalPath: %<bpt id="p1">*</bpt>windir<ept id="p1">*</ept>%/Web/PowerShellWebAccess/wwwroot</source>
           <target state="translated">PhysicalPath：%<bpt id="p1">*</bpt>windir<ept id="p1">*</ept>%/Web/PowerShellWebAccess/wwwroot</target>         
         </trans-unit>
-        <trans-unit id="216" translate="yes" xml:space="preserve">
-          <source>Example:<ph id="ph1">&lt;/span&gt; &lt;span class="code"&gt;</ph>Install-PswaWebApplication –webApplicationName myWebApp –useTestCertificate</source>
-          <target state="translated">範例︰<ph id="ph1">&lt;/span&gt; &lt;span class="code"&gt;</ph>Install-PswaWebApplication –webApplicationName myWebApp –useTestCertificate</target>         
-        </trans-unit>
         <trans-unit id="217" translate="yes" xml:space="preserve">
-          <source>In this example, the resulting website for Windows PowerShell Web Access is https://<ph id="ph1">&amp;lt; </ph><bpt id="p1">*</bpt>server\_name<ept id="p1">*</ept><ph id="ph2">&amp;gt;</ph>/myWebApp.</source>
-          <target state="translated">在這個範例中，針對 Windows PowerShell Web 存取產生的網站是 https://<ph id="ph1">&amp;lt; </ph><bpt id="p1">*</bpt>server_name<ept id="p1">*</ept><ph id="ph2">&amp;gt;</ph>/myWebApp。</target>         
+          <source>Example:<ph id="ph1">&lt;/span&gt;</ph> <ph id="ph2">&lt;span class="code"&gt;</ph>Install-PswaWebApplication –webApplicationName myWebApp –useTestCertificate</source>
+          <target state="translated">範例︰<ph id="ph1">&lt;/span&gt;</ph><ph id="ph2">&lt;span class="code"&gt;</ph>Install-PswaWebApplication –webApplicationName myWebApp –useTestCertificate</target>         
         </trans-unit>
         <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>In this example, the resulting website for Windows PowerShell Web Access is https://<ph id="ph1">&amp;lt;</ph> <bpt id="p1">*</bpt>server\_name<ept id="p1">*</ept><ph id="ph2">&amp;gt;</ph>/myWebApp.</source>
+          <target state="translated">在這個範例中，針對 Windows PowerShell Web 存取產生的網站是 https://<ph id="ph1">&amp;lt;</ph> <bpt id="p1">*</bpt>伺服器名稱<ept id="p1">*</ept><ph id="ph2">&amp;gt;</ph>/myWebApp。</target>         
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
           <source>Note</source>
           <target state="translated">注意</target>         
         </trans-unit>
-        <trans-unit id="219" translate="yes" xml:space="preserve">
+        <trans-unit id="220" translate="yes" xml:space="preserve">
           <source>You cannot sign in until users have been granted access to the website by adding authorization rules.</source>
           <target state="translated">必須透過新增授權規則，讓使用者獲得網站存取權，才能進行登入。</target>         
         </trans-unit>
-        <trans-unit id="220" translate="yes" xml:space="preserve">
-          <source>For more information, see <ph id="ph1">&lt;a href="#BKMK_step3"&gt;</ph>Step 3: Configure a restrictive authorization rule<ph id="ph2">&lt;/a&gt;</ph> and <ph id="ph3">&lt;a href="https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx"&gt;</ph>Authorization Rules and Security Features of Windows PowerShell Web Access</source>
-          <target state="translated">如需詳細資訊，請參閱<ph id="ph1">&lt;a href="#BKMK_step3"&gt;</ph>步驟 3：設定限制性授權規則<ph id="ph2">&lt;/a&gt;</ph>和 <ph id="ph3">&lt;a href="https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx"&gt;</ph>Windows PowerShell Web 存取的授權規則與安全性功能。</target>         
-        </trans-unit>
         <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>For more information, see <ph id="ph1">&lt;a href="#BKMK_step3"&gt;</ph>Step 3: Configure a restrictive authorization rule<ph id="ph2">&lt;/a&gt;</ph> and <ph id="ph3">&lt;a href="https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx"&gt;</ph>Authorization Rules and Security Features of Windows PowerShell Web Access<ph id="ph4">&lt;/a&gt;</ph>.</source>
+          <target state="translated">如需詳細資訊，請參閱<ph id="ph1">&lt;a href="#BKMK_step3"&gt;</ph>步驟 3：設定限制性授權規則<ph id="ph2">&lt;/a&gt;</ph>和 <ph id="ph3">&lt;a href="https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx"&gt;</ph>Windows PowerShell Web 存取的授權規則與安全性功能<ph id="ph4">&lt;/a&gt;</ph>。</target>         
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
           <source>To configure the Windows PowerShell Web Access gateway with a genuine certificate by using Install-PswaWebApplication and IIS Manager</source>
           <target state="translated">使用 Install-PswaWebApplication 和 IIS 管理員以正版憑證設定 Windows PowerShell Web 存取閘道</target>         
         </trans-unit>
-        <trans-unit id="222" translate="yes" xml:space="preserve">
+        <trans-unit id="223" translate="yes" xml:space="preserve">
           <source>Do one of the following to open a Windows PowerShell session.</source>
           <target state="translated">執行下列其中一個動作來開啟 Windows PowerShell 工作階段。</target>         
         </trans-unit>
-        <trans-unit id="223" translate="yes" xml:space="preserve">
+        <trans-unit id="224" translate="yes" xml:space="preserve">
           <source>On the Windows desktop, right-click <bpt id="p1">**</bpt>Windows PowerShell<ept id="p1">**</ept> on the taskbar.</source>
           <target state="translated">在 Windows 桌面上，以滑鼠右鍵按一下工作列上的 [Windows PowerShell]。</target>         
         </trans-unit>
-        <trans-unit id="224" translate="yes" xml:space="preserve">
-          <source>On the Windows <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> screen, click <bpt id="p2">**</bpt>Windows PowerShell<ept id="p2">**</ept></source>
-          <target state="translated">在 Windows [開始] 畫面上，按一下 [Windows PowerShell]</target>         
-        </trans-unit>
         <trans-unit id="225" translate="yes" xml:space="preserve">
-          <source>Type the following, and then press <bpt id="p1">**</bpt>Enter<ept id="p1">**</ept></source>
-          <target state="translated">輸入下列程式碼，然後按 <bpt id="p1">**</bpt>Enter<ept id="p1">**</ept></target>         
+          <source>On the Windows <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> screen, click <bpt id="p2">**</bpt>Windows PowerShell<ept id="p2">**</ept>.</source>
+          <target state="translated">在 Windows <bpt id="p1">**</bpt>[開始]<ept id="p1">**</ept> 畫面上，按一下 <bpt id="p2">**</bpt>[Windows PowerShell]<ept id="p2">**</ept>。</target>         
         </trans-unit>
         <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Type the following, and then press <bpt id="p1">**</bpt>Enter<ept id="p1">**</ept>.</source>
+          <target state="translated">輸入下列程式碼，然後按 <bpt id="p1">**</bpt>Enter<ept id="p1">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
           <source>Install-PswaWebApplication</source>
           <target state="translated">Install-PswaWebApplication</target>         
         </trans-unit>
-        <trans-unit id="227" translate="yes" xml:space="preserve">
+        <trans-unit id="228" translate="yes" xml:space="preserve">
           <source>The following gateway settings are configured by running the cmdlet.</source>
           <target state="translated">執行 Cmdlet 可以設定下列閘道設定。</target>         
         </trans-unit>
-        <trans-unit id="228" translate="yes" xml:space="preserve">
+        <trans-unit id="229" translate="yes" xml:space="preserve">
           <source>You can change these manually in the IIS Manager console, if desired.</source>
           <target state="translated">如有需要，可以在 IIS 管理員主控台手動變更這些設定。</target>         
         </trans-unit>
-        <trans-unit id="229" translate="yes" xml:space="preserve">
+        <trans-unit id="230" translate="yes" xml:space="preserve">
           <source>You can also specify values for the <ph id="ph1">&lt;span class="code"&gt;</ph>WebsiteName<ph id="ph2">&lt;/span&gt;</ph> and <ph id="ph3">&lt;span class="code"&gt;</ph>WebApplicationName<ph id="ph4">&lt;/span&gt;</ph> parameters of the <ph id="ph5">&lt;span class="code"&gt;</ph>Install-PswaWebApplication<ph id="ph6">&lt;/span&gt;</ph> cmdlet.</source>
           <target state="translated">您也可以針對 <ph id="ph5">&lt;span class="code"&gt;</ph>Install-PswaWebApplication<ph id="ph6">&lt;/span&gt;</ph> Cmdlet 的 <ph id="ph1">&lt;span class="code"&gt;</ph>WebsiteName<ph id="ph2">&lt;/span&gt;</ph> 和 <ph id="ph3">&lt;span class="code"&gt;</ph>WebApplicationName<ph id="ph4">&lt;/span&gt;</ph> 參數指定值。</target>         
         </trans-unit>
-        <trans-unit id="230" translate="yes" xml:space="preserve">
+        <trans-unit id="231" translate="yes" xml:space="preserve">
           <source>Path: /pswa</source>
           <target state="translated">Path：/pswa</target>         
         </trans-unit>
-        <trans-unit id="231" translate="yes" xml:space="preserve">
+        <trans-unit id="232" translate="yes" xml:space="preserve">
           <source>ApplicationPool: pswa\_pool</source>
           <target state="translated">ApplicationPool：pswa_pool</target>         
         </trans-unit>
-        <trans-unit id="232" translate="yes" xml:space="preserve">
+        <trans-unit id="233" translate="yes" xml:space="preserve">
           <source>EnabledProtocols: http</source>
           <target state="translated">EnabledProtocols：http</target>         
         </trans-unit>
-        <trans-unit id="233" translate="yes" xml:space="preserve">
+        <trans-unit id="234" translate="yes" xml:space="preserve">
           <source>PhysicalPath: %<bpt id="p1">*</bpt>windir<ept id="p1">*</ept>%/Web/PowerShellWebAccess/wwwroot</source>
           <target state="translated">PhysicalPath：%<bpt id="p1">*</bpt>windir<ept id="p1">*</ept>%/Web/PowerShellWebAccess/wwwroot</target>         
         </trans-unit>
-        <trans-unit id="234" translate="yes" xml:space="preserve">
+        <trans-unit id="235" translate="yes" xml:space="preserve">
           <source>Open the IIS Manager console by doing one of the following.</source>
           <target state="translated">執行下列其中一項動作以開啟 IIS 管理員主控台。</target>         
         </trans-unit>
-        <trans-unit id="235" translate="yes" xml:space="preserve">
+        <trans-unit id="236" translate="yes" xml:space="preserve">
           <source>On the Windows desktop, start Server Manager by clicking <bpt id="p1">**</bpt>Server Manager<ept id="p1">**</ept> in the Windows taskbar.</source>
           <target state="translated">在 Windows 桌面上，按一下 Windows 工作列中的 [伺服器管理員] 來啟動 [伺服器管理員]。</target>         
         </trans-unit>
-        <trans-unit id="236" translate="yes" xml:space="preserve">
-          <source>On the <bpt id="p1">**</bpt>Tools<ept id="p1">**</ept> menu in Server Manager, click <bpt id="p2">**</bpt>Internet Information Services (IIS) Manager<ept id="p2">**</ept></source>
-          <target state="translated">在 [伺服器管理員] 的 [工具] 功能表上，按一下 [Internet Information Services (IIS) 管理員]</target>         
-        </trans-unit>
         <trans-unit id="237" translate="yes" xml:space="preserve">
-          <source>On the Windows <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> screen, click <bpt id="p2">**</bpt>Server Manager<ept id="p2">**</ept></source>
-          <target state="translated">在 Windows [開始] 畫面上，按一下 [伺服器管理員]</target>         
+          <source>On the <bpt id="p1">**</bpt>Tools<ept id="p1">**</ept> menu in Server Manager, click <bpt id="p2">**</bpt>Internet Information Services (IIS) Manager<ept id="p2">**</ept>.</source>
+          <target state="translated">在 [伺服器管理員] 的 <bpt id="p1">**</bpt>[工具]<ept id="p1">**</ept> 功能表上，按一下 <bpt id="p2">**</bpt>[Internet Information Services (IIS) 管理員]<ept id="p2">**</ept>。</target>         
         </trans-unit>
         <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>On the Windows <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> screen, click <bpt id="p2">**</bpt>Server Manager<ept id="p2">**</ept>.</source>
+          <target state="translated">在 Windows <bpt id="p1">**</bpt>[開始]<ept id="p1">**</ept> 畫面上，按一下 <bpt id="p2">**</bpt>[伺服器管理員]<ept id="p2">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
           <source>In the IIS Manager tree pane, expand the node for the server on which Windows PowerShell Web Access is installed until the <bpt id="p1">**</bpt>Sites<ept id="p1">**</ept> folder is visible.</source>
           <target state="translated">在 [IIS 管理員] 樹狀目錄窗格中，展開安裝 Windows PowerShell Web 存取的伺服器節點，直到可以看到 [站台] 資料夾為止。</target>         
         </trans-unit>
-        <trans-unit id="239" translate="yes" xml:space="preserve">
+        <trans-unit id="240" translate="yes" xml:space="preserve">
           <source>Expand the <bpt id="p1">**</bpt>Sites<ept id="p1">**</ept> folder.</source>
           <target state="translated">展開 [站台] 資料夾。</target>         
         </trans-unit>
-        <trans-unit id="240" translate="yes" xml:space="preserve">
+        <trans-unit id="241" translate="yes" xml:space="preserve">
           <source>Select the website in which you have installed the Windows PowerShell Web Access web application.</source>
           <target state="translated">選取您已安裝 Windows PowerShell Web 存取 Web 應用程式的網站。</target>         
         </trans-unit>
-        <trans-unit id="241" translate="yes" xml:space="preserve">
-          <source>In the <bpt id="p1">**</bpt>Actions<ept id="p1">**</ept> pane, click <bpt id="p2">**</bpt>Bindings<ept id="p2">**</ept></source>
-          <target state="translated">在 [動作] 窗格中，按一下 [繫結]</target>         
-        </trans-unit>
         <trans-unit id="242" translate="yes" xml:space="preserve">
-          <source>In the <bpt id="p1">**</bpt>Site Binding<ept id="p1">**</ept> dialog box, click <bpt id="p2">**</bpt>Add<ept id="p2">**</ept></source>
-          <target state="translated">在 [站台繫結] 對話方塊中，按一下 [新增]</target>         
+          <source>In the <bpt id="p1">**</bpt>Actions<ept id="p1">**</ept> pane, click <bpt id="p2">**</bpt>Bindings<ept id="p2">**</ept>.</source>
+          <target state="translated">在 <bpt id="p1">**</bpt>[動作]<ept id="p1">**</ept> 窗格中，按一下 <bpt id="p2">**</bpt>[繫結]<ept id="p2">**</ept>。</target>         
         </trans-unit>
         <trans-unit id="243" translate="yes" xml:space="preserve">
-          <source>In the <bpt id="p1">**</bpt>Add Site Binding<ept id="p1">**</ept> dialog box, in the <bpt id="p2">**</bpt>Type<ept id="p2">**</ept> field, select <bpt id="p3">**</bpt>https<ept id="p3">**</ept></source>
-          <target state="translated">在 [新增站台繫結] 對話方塊中，在 [類型] 欄位中選取 [https]</target>         
+          <source>In the <bpt id="p1">**</bpt>Site Binding<ept id="p1">**</ept> dialog box, click <bpt id="p2">**</bpt>Add<ept id="p2">**</ept>.</source>
+          <target state="translated">在 <bpt id="p1">**</bpt>[站台繫結]<ept id="p1">**</ept> 對話方塊中，按一下 <bpt id="p2">**</bpt>[新增]<ept id="p2">**</ept>。</target>         
         </trans-unit>
         <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Add Site Binding<ept id="p1">**</ept> dialog box, in the <bpt id="p2">**</bpt>Type<ept id="p2">**</ept> field, select <bpt id="p3">**</bpt>https<ept id="p3">**</ept>.</source>
+          <target state="translated">在 <bpt id="p1">**</bpt>[新增站台繫結]<ept id="p1">**</ept> 對話方塊的 <bpt id="p2">**</bpt>[類型]<ept id="p2">**</ept> 欄位中選取 <bpt id="p3">**</bpt>[https]<ept id="p3">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
           <source>In the <bpt id="p1">**</bpt>SSL certificate<ept id="p1">**</ept> field, select your signed certificate from the drop-down menu.</source>
           <target state="translated">在 [SSL 憑證] 欄位中，從下拉式功能表中選取您已簽署的憑證。</target>         
         </trans-unit>
-        <trans-unit id="245" translate="yes" xml:space="preserve">
+        <trans-unit id="246" translate="yes" xml:space="preserve">
           <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
           <target state="translated">按一下 <bpt id="p1">**</bpt>[確定]<ept id="p1">**</ept>。</target>         
         </trans-unit>
-        <trans-unit id="246" translate="yes" xml:space="preserve">
+        <trans-unit id="247" translate="yes" xml:space="preserve">
           <source>See <bpt id="p1">[</bpt>To configure an SSL certificate in IIS Manager<ept id="p1">](#BKMK_cert)</ept> in this topic for more information about how to obtain a certificate.</source>
           <target state="translated">如需如何取得憑證的詳細資訊，請參閱本主題中的<bpt id="p1">[</bpt>在 IIS 管理員設定 SSL 憑證<ept id="p1">](#BKMK_cert)</ept>。</target>         
         </trans-unit>
-        <trans-unit id="247" translate="yes" xml:space="preserve">
+        <trans-unit id="248" translate="yes" xml:space="preserve">
           <source>The Windows PowerShell Web Access web application is now configured to use your signed SSL certificate.</source>
           <target state="translated">現在 Windows PowerShell Web 存取 Web 應用程式已設定為使用您已簽署的 SSL 憑證。</target>         
         </trans-unit>
-        <trans-unit id="248" translate="yes" xml:space="preserve">
+        <trans-unit id="249" translate="yes" xml:space="preserve">
           <source>You can access Windows PowerShell Web Access by opening https://<ph id="ph1">&amp;lt;</ph>server\_name<ph id="ph2">&amp;gt;</ph>/pswa in a browser window.</source>
           <target state="translated">您可以在瀏覽器視窗中開啟 https://<ph id="ph1">&amp;lt;</ph>server_name<ph id="ph2">&amp;gt;</ph>/pswa，來存取 Windows PowerShell Web 存取。</target>         
         </trans-unit>
-        <trans-unit id="249" translate="yes" xml:space="preserve">
+        <trans-unit id="250" translate="yes" xml:space="preserve">
           <source>Note</source>
           <target state="translated">注意</target>         
         </trans-unit>
-        <trans-unit id="250" translate="yes" xml:space="preserve">
+        <trans-unit id="251" translate="yes" xml:space="preserve">
           <source>You cannot sign in until users have been granted access to the website by adding authorization rules.</source>
           <target state="translated">必須透過新增授權規則，讓使用者獲得網站存取權，才能進行登入。</target>         
         </trans-unit>
-        <trans-unit id="251" translate="yes" xml:space="preserve">
-          <source>For more information, see <ph id="ph1">&lt;a href="#BKMK_step3"&gt;</ph>Step 3: Configure a restrictive authorization rule<ph id="ph2">&lt;/a&gt;</ph> and <ph id="ph3">&lt;a href="https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx"&gt;</ph>Authorization Rules and Security Features of Windows PowerShell Web Access</source>
-          <target state="translated">如需詳細資訊，請參閱<ph id="ph1">&lt;a href="#BKMK_step3"&gt;</ph>步驟 3：設定限制性授權規則<ph id="ph2">&lt;/a&gt;</ph>和 <ph id="ph3">&lt;a href="https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx"&gt;</ph>Windows PowerShell Web 存取的授權規則與安全性功能。</target>         
-        </trans-unit>
         <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>For more information, see <ph id="ph1">&lt;a href="#BKMK_step3"&gt;</ph>Step 3: Configure a restrictive authorization rule<ph id="ph2">&lt;/a&gt;</ph> and <ph id="ph3">&lt;a href="https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx"&gt;</ph>Authorization Rules and Security Features of Windows PowerShell Web Access<ph id="ph4">&lt;/a&gt;</ph>.</source>
+          <target state="translated">如需詳細資訊，請參閱<ph id="ph1">&lt;a href="#BKMK_step3"&gt;</ph>步驟 3：設定限制性授權規則<ph id="ph2">&lt;/a&gt;</ph>和 <ph id="ph3">&lt;a href="https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx"&gt;</ph>Windows PowerShell Web 存取的授權規則與安全性功能<ph id="ph4">&lt;/a&gt;</ph>。</target>         
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
           <source>Step 3: Configure a restrictive authorization rule</source>
           <target state="translated">步驟 3：設定限制性授權規則</target>         
         </trans-unit>
-        <trans-unit id="253" translate="yes" xml:space="preserve">
+        <trans-unit id="254" translate="yes" xml:space="preserve">
           <source>After Windows PowerShell Web Access is installed and the gateway is configured, users can open the sign-in page in a browser, but they cannot sign in until the Windows PowerShell Web Access administrator grants users access explicitly.</source>
           <target state="translated">安裝 Windows PowerShell Web 存取並設定閘道之後，使用者就可以在瀏覽器中開啟登入頁面，但是必須等到 Windows PowerShell Web 存取系統管理員明確授與使用者存取權之後，才能登入。</target>         
         </trans-unit>
-        <trans-unit id="254" translate="yes" xml:space="preserve">
+        <trans-unit id="255" translate="yes" xml:space="preserve">
           <source>Windows PowerShell Web Access access control is managed by using the set of Windows PowerShell cmdlets described in the following table.</source>
           <target state="translated">您可以使用下表所述的 Windows PowerShell Cmdlet，來管理 Windows PowerShell Web 存取存取控制。</target>         
         </trans-unit>
-        <trans-unit id="255" translate="yes" xml:space="preserve">
+        <trans-unit id="256" translate="yes" xml:space="preserve">
           <source>There is no comparable GUI for adding or managing authorization rules.</source>
           <target state="translated">沒有適用於新增或管理授權規則的 GUI。</target>         
         </trans-unit>
-        <trans-unit id="256" translate="yes" xml:space="preserve">
-          <source>For more detailed information about Windows PowerShell Web Access cmdlets, see the cmdlet reference topics, <bpt id="p1">[</bpt>Windows PowerShell Web Access Cmdlets<ept id="p1">](https://technet.microsoft.com/library/hh918342.aspx)</ept></source>
-          <target state="translated">如需 Windows PowerShell Web 存取 Cmdlet 的詳細資訊，請參閱 Cmdlet 參考主題 <bpt id="p1">[</bpt>Windows PowerShell Web 存取 Cmdlet<ept id="p1">](https://technet.microsoft.com/library/hh918342.aspx)</ept></target>         
-        </trans-unit>
         <trans-unit id="257" translate="yes" xml:space="preserve">
-          <source>For more detail about Windows PowerShell Web Access authorization rules and security, see <bpt id="p1">[</bpt>Authorization Rules and Security Features of Windows PowerShell Web Access<ept id="p1">](https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx)</ept></source>
-          <target state="translated">如需 Windows PowerShell Web 存取授權規則和安全性的詳細資訊，請參閱 <bpt id="p1">[</bpt>Windows PowerShell Web 存取的授權規則與安全性功能<ept id="p1">](https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx)</ept></target>         
+          <source>For more detailed information about Windows PowerShell Web Access cmdlets, see the cmdlet reference topics, <bpt id="p1">[</bpt>Windows PowerShell Web Access Cmdlets<ept id="p1">](https://technet.microsoft.com/library/hh918342.aspx)</ept>.</source>
+          <target state="translated">如需 Windows PowerShell Web 存取 Cmdlet 的詳細資訊，請參閱 Cmdlet 參考主題：<bpt id="p1">[</bpt>Windows PowerShell Web Access Cmdlets<ept id="p1">](https://technet.microsoft.com/library/hh918342.aspx)</ept> (Windows PowerShell Web 存取 Cmdlet)。</target>         
         </trans-unit>
         <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>For more detail about Windows PowerShell Web Access authorization rules and security, see <bpt id="p1">[</bpt>Authorization Rules and Security Features of Windows PowerShell Web Access<ept id="p1">](https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx)</ept>.</source>
+          <target state="translated">如需 Windows PowerShell Web 存取授權規則和安全性的詳細資訊，請參閱 <bpt id="p1">[</bpt>Windows PowerShell Web 存取的授權規則與安全性功能<ept id="p1">](https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx)</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
           <source>To add a restrictive authorization rule</source>
           <target state="translated">新增限制性授權規則</target>         
         </trans-unit>
-        <trans-unit id="259" translate="yes" xml:space="preserve">
+        <trans-unit id="260" translate="yes" xml:space="preserve">
           <source>Do one of the following to open a Windows PowerShell session with elevated user rights.</source>
           <target state="translated">執行下列其中一個動作，使用提高的使用者權限開啟 Windows PowerShell 工作階段。</target>         
         </trans-unit>
-        <trans-unit id="260" translate="yes" xml:space="preserve">
-          <source>On the Windows desktop, right-click <bpt id="p1">**</bpt>Windows PowerShell<ept id="p1">**</ept> on the taskbar, and then click <bpt id="p2">**</bpt>Run as Administrator<ept id="p2">**</ept></source>
-          <target state="translated">在 Windows 桌面上，以滑鼠右鍵按一下工作列上的 [Windows PowerShell]，然後按一下 [以系統管理員身分執行]</target>         
-        </trans-unit>
         <trans-unit id="261" translate="yes" xml:space="preserve">
-          <source>On the Windows <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> screen, right-click <bpt id="p2">**</bpt>Windows PowerShell<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>Run as Administrator<ept id="p3">**</ept></source>
-          <target state="translated">在 Windows [開始] 畫面上，以滑鼠右鍵按一下 [Windows PowerShell]，然後按一下 [以系統管理員身分執行]</target>         
+          <source>On the Windows desktop, right-click <bpt id="p1">**</bpt>Windows PowerShell<ept id="p1">**</ept> on the taskbar, and then click <bpt id="p2">**</bpt>Run as Administrator<ept id="p2">**</ept>.</source>
+          <target state="translated">在 Windows 桌面上，以滑鼠右鍵按一下工作列上的 <bpt id="p1">**</bpt>[Windows PowerShell]<ept id="p1">**</ept>，然後按一下 <bpt id="p2">**</bpt>[以系統管理員身分執行]<ept id="p2">**</ept>。</target>         
         </trans-unit>
         <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>On the Windows <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> screen, right-click <bpt id="p2">**</bpt>Windows PowerShell<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>Run as Administrator<ept id="p3">**</ept>.</source>
+          <target state="translated">在 Windows <bpt id="p1">**</bpt>[開始]<ept id="p1">**</ept> 畫面上，以滑鼠右鍵按一下 <bpt id="p2">**</bpt>[Windows PowerShell]<ept id="p2">**</ept>，然後按一下 <bpt id="p3">**</bpt>[以系統管理員身分執行]<ept id="p3">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
           <source>Optional step for restricting user access by using session configurations:<ph id="ph1">&lt;/span&gt;</ph> Verify that session configurations that you want to use in your rules already exist.</source>
           <target state="translated">使用工作階段設定來限制使用者存取的選擇性步驟：<ph id="ph1">&lt;/span&gt;</ph>確定您要在規則中使用的工作階段設定已經存在。</target>         
         </trans-unit>
-        <trans-unit id="263" translate="yes" xml:space="preserve">
+        <trans-unit id="264" translate="yes" xml:space="preserve">
           <source>If they have not yet been created, use instructions for creating session configurations in <bpt id="p1">[</bpt>about\_Session\_Configuration\_Files<ept id="p1">](https://msdn.microsoft.com/library/windows/desktop/hh847838.aspx)</ept> on MSDN.</source>
           <target state="translated">如果尚未建立這些設定，請使用 MSDN 上 <bpt id="p1">[</bpt>about_Session_Configuration_Files<ept id="p1">](https://msdn.microsoft.com/library/windows/desktop/hh847838.aspx)</ept> 中建立工作階段設定的指示。</target>         
         </trans-unit>
-        <trans-unit id="264" translate="yes" xml:space="preserve">
-          <source>Type the following, and then press <bpt id="p1">**</bpt>Enter<ept id="p1">**</ept></source>
-          <target state="translated">輸入下列程式碼，然後按 <bpt id="p1">**</bpt>Enter<ept id="p1">**</ept></target>         
-        </trans-unit>
         <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Type the following, and then press <bpt id="p1">**</bpt>Enter<ept id="p1">**</ept>.</source>
+          <target state="translated">輸入下列程式碼，然後按 <bpt id="p1">**</bpt>Enter<ept id="p1">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
           <source>[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_f9e7959b-75d0-4d63-8f8e-02334a8dd09d'); "Copy to clipboard.")</source>
           <target state="translated">[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_f9e7959b-75d0-4d63-8f8e-02334a8dd09d'); "複製到剪貼簿。")</target>         
         </trans-unit>
-        <trans-unit id="266" translate="yes" xml:space="preserve">
+        <trans-unit id="267" translate="yes" xml:space="preserve">
           <source>This authorization rule allows a specific user access to one computer on the network to which they typically have access, with access to a specific session configuration that is scoped to the user’s typical scripting and cmdlet needs.</source>
           <target state="translated">這個授權規則允許特定使用者存取網路上他們通常有權存取的一部電腦，以及該使用者在一般編寫指令碼及 Cmdlet 範圍內的特定工作階段設定存取權。</target>         
         </trans-unit>
-        <trans-unit id="267" translate="yes" xml:space="preserve">
-          <source>In the following example, a user named <ph id="ph1">&lt;span class="code"&gt;</ph>JSmith<ph id="ph2">&lt;/span&gt;</ph> in the <ph id="ph3">&lt;span class="code"&gt;</ph>Contoso<ph id="ph4">&lt;/span&gt;</ph> domain is granted access to manage the computer <ph id="ph5">&lt;span class="code"&gt;</ph>Contoso\_214<ph id="ph6">&lt;/span&gt;</ph>, and use a session configuration named <ph id="ph7">&lt;span class="code"&gt;</ph>NewAdminsOnly</source>
-          <target state="translated">在下列範例中，<ph id="ph3">&lt;span class="code"&gt;</ph>Contoso<ph id="ph4">&lt;/span&gt;</ph> 網域中名為 <ph id="ph1">&lt;span class="code"&gt;</ph>JSmith<ph id="ph2">&lt;/span&gt;</ph> 的使用者會被授與管理電腦 <ph id="ph5">&lt;span class="code"&gt;</ph>Contoso_214<ph id="ph6">&lt;/span&gt;</ph> 的存取權，並使用名為 <ph id="ph7">&lt;span class="code"&gt;</ph>NewAdminsOnly 的工作階段設定</target>         
-        </trans-unit>
         <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>In the following example, a user named <ph id="ph1">&lt;span class="code"&gt;</ph>JSmith<ph id="ph2">&lt;/span&gt;</ph> in the <ph id="ph3">&lt;span class="code"&gt;</ph>Contoso<ph id="ph4">&lt;/span&gt;</ph> domain is granted access to manage the computer <ph id="ph5">&lt;span class="code"&gt;</ph>Contoso\_214<ph id="ph6">&lt;/span&gt;</ph>, and use a session configuration named <ph id="ph7">&lt;span class="code"&gt;</ph>NewAdminsOnly<ph id="ph8">&lt;/span&gt;</ph>.</source>
+          <target state="translated">在下列範例中，<ph id="ph3">&lt;span class="code"&gt;</ph>Contoso<ph id="ph4">&lt;/span&gt;</ph> 網域中名為 <ph id="ph1">&lt;span class="code"&gt;</ph>JSmith<ph id="ph2">&lt;/span&gt;</ph> 的使用者會被授與管理電腦 <ph id="ph5">&lt;span class="code"&gt;</ph>Contoso_214<ph id="ph6">&lt;/span&gt;</ph> 的存取權，並使用名為 <ph id="ph7">&lt;span class="code"&gt;</ph>NewAdminsOnly<ph id="ph8">&lt;/span&gt;</ph> 的工作階段設定。</target>         
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
           <source>[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_ebd5bc5e-ec5d-4955-a86a-63843e480e37'); "Copy to clipboard.")</source>
           <target state="translated">[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_ebd5bc5e-ec5d-4955-a86a-63843e480e37'); "複製到剪貼簿。")</target>         
         </trans-unit>
-        <trans-unit id="269" translate="yes" xml:space="preserve">
-          <source>Verify that the rule has been created by running either the <bpt id="p1">**</bpt>Get-PswaAuthorizationRule<ept id="p1">**</ept> cmdlet, or <bpt id="p2">**</bpt>Test-PswaAuthorizationRule -UserName <ph id="ph1">&amp;lt;</ph>domain\\user | computer\\user<ph id="ph2">&amp;gt;</ph> -ComputerName<ept id="p2">**</ept><ph id="ph3"> &amp;lt;</ph>computer\_name<ph id="ph4">&amp;gt;</ph>.</source>
-          <target state="translated">確認已執行 <bpt id="p1">**</bpt>Get-PswaAuthorizationRule<ept id="p1">**</ept> Cmdlet 或 <bpt id="p2">**</bpt>Test-PswaAuthorizationRule -UserName <ph id="ph1">&amp;lt;</ph>domain\user | computer\user<ph id="ph2">&amp;gt;</ph> -ComputerName<ept id="p2">**</ept><ph id="ph3"> &amp;lt;</ph>computer_name<ph id="ph4">&amp;gt;</ph> 來建立規則。</target>         
-        </trans-unit>
         <trans-unit id="270" translate="yes" xml:space="preserve">
-          <source>For example, <bpt id="p1">**</bpt>Test-PswaAuthorizationRule –UserName Contoso\\JSmith –ComputerName Contoso\_214<ept id="p1">**</ept></source>
-          <target state="translated">例如，<bpt id="p1">**</bpt>Test-PswaAuthorizationRule –UserName Contoso\JSmith –ComputerName Contoso_214<ept id="p1">**</ept></target>         
+          <source>Verify that the rule has been created by running either the <bpt id="p1">**</bpt>Get-PswaAuthorizationRule<ept id="p1">**</ept> cmdlet, or <bpt id="p2">**</bpt>Test-PswaAuthorizationRule -UserName <ph id="ph1">&amp;lt;</ph>domain\\user | computer\\user<ph id="ph2">&amp;gt;</ph> -ComputerName<ept id="p2">**</ept> <ph id="ph3">&amp;lt;</ph>computer\_name<ph id="ph4">&amp;gt;</ph>.</source>
+          <target state="translated">確認已執行 <bpt id="p1">**</bpt>Get-PswaAuthorizationRule<ept id="p1">**</ept> Cmdlet 或 <bpt id="p2">**</bpt>Test-PswaAuthorizationRule -UserName <ph id="ph1">&amp;lt;</ph>網域使用者 | 電腦使用者<ph id="ph2">&amp;gt;</ph> -ComputerName<ept id="p2">**</ept> <ph id="ph3">&amp;lt;</ph>電腦名稱<ph id="ph4">&amp;gt;</ph> 建立規則。</target>         
         </trans-unit>
         <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>For example, <bpt id="p1">**</bpt>Test-PswaAuthorizationRule –UserName Contoso\\JSmith –ComputerName Contoso\_214<ept id="p1">**</ept>.</source>
+          <target state="translated">例如，<bpt id="p1">**</bpt>Test-PswaAuthorizationRule –UserName Contoso\JSmith –ComputerName Contoso_214<ept id="p1">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
           <source>After you have configured an authorization rule, you are ready for authorized users to sign in to the web-based console and begin using Windows PowerShell Web Access.</source>
           <target state="translated">設定授權規則之後，授權使用者就可以開始登入網頁型主控台，並開始使用 Windows PowerShell Web 存取。</target>         
         </trans-unit>
-        <trans-unit id="272" translate="yes" xml:space="preserve">
+        <trans-unit id="273" translate="yes" xml:space="preserve">
           <source>Custom deployment</source>
           <target state="translated">自訂部署</target>         
         </trans-unit>
-        <trans-unit id="273" translate="yes" xml:space="preserve">
+        <trans-unit id="274" translate="yes" xml:space="preserve">
           <source>You can install the Windows PowerShell Web Access gateway on a server that is running Windows Server 2012 R2 or Windows Server 2012 by using the Add Roles and Features Wizard in Server Manager.</source>
           <target state="translated">您可以使用伺服器管理員中的 [新增角色及功能精靈]，在執行 Windows Server 2012 R2 或 Windows Server 2012 的伺服器上安裝 Windows PowerShell Web 存取閘道。</target>         
         </trans-unit>
-        <trans-unit id="274" translate="yes" xml:space="preserve">
+        <trans-unit id="275" translate="yes" xml:space="preserve">
           <source>After Windows PowerShell Web Access is installed, you can customize the configuration of the gateway in IIS Manager.</source>
           <target state="translated">安裝 Windows PowerShell Web 存取之後，您可以在 IIS 管理員中自訂閘道的設定。</target>         
         </trans-unit>
-        <trans-unit id="275" translate="yes" xml:space="preserve">
+        <trans-unit id="276" translate="yes" xml:space="preserve">
           <source>Step 1: Install Windows PowerShell Web Access</source>
           <target state="translated">步驟 1：安裝 Windows PowerShell Web 存取</target>         
         </trans-unit>
-        <trans-unit id="276" translate="yes" xml:space="preserve">
+        <trans-unit id="277" translate="yes" xml:space="preserve">
           <source>To install Windows PowerShell Web Access by using the Add Roles and Features Wizard</source>
           <target state="translated">使用新增角色及功能精靈安裝 Windows PowerShell Web 存取</target>         
         </trans-unit>
-        <trans-unit id="277" translate="yes" xml:space="preserve">
+        <trans-unit id="278" translate="yes" xml:space="preserve">
           <source>If Server Manager is already open, go on to the next step.</source>
           <target state="translated">如果已經開啟伺服器管理員，請移至下一個步驟。</target>         
         </trans-unit>
-        <trans-unit id="278" translate="yes" xml:space="preserve">
+        <trans-unit id="279" translate="yes" xml:space="preserve">
           <source>If Server Manager is not already open, open it by doing one of the following.</source>
           <target state="translated">如果尚未開啟伺服器管理員，請執行下列其中一項動作來將它開啟。</target>         
         </trans-unit>
-        <trans-unit id="279" translate="yes" xml:space="preserve">
+        <trans-unit id="280" translate="yes" xml:space="preserve">
           <source>On the Windows desktop, start Server Manager by clicking <bpt id="p1">**</bpt>Server Manager<ept id="p1">**</ept> in the Windows taskbar.</source>
           <target state="translated">在 Windows 桌面上，按一下 Windows 工作列中的 [伺服器管理員] 來啟動 [伺服器管理員]。</target>         
         </trans-unit>
-        <trans-unit id="280" translate="yes" xml:space="preserve">
-          <source>On the Windows <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> screen, click <bpt id="p2">**</bpt>Server Manager<ept id="p2">**</ept></source>
-          <target state="translated">在 Windows [開始] 畫面上，按一下 [伺服器管理員]</target>         
-        </trans-unit>
         <trans-unit id="281" translate="yes" xml:space="preserve">
-          <source>On the <bpt id="p1">**</bpt>Manage<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>Add Roles and Features<ept id="p2">**</ept></source>
-          <target state="translated">在 [管理] 功能表上，按一下 [新增角色及功能]</target>         
+          <source>On the Windows <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> screen, click <bpt id="p2">**</bpt>Server Manager<ept id="p2">**</ept>.</source>
+          <target state="translated">在 Windows <bpt id="p1">**</bpt>[開始]<ept id="p1">**</ept> 畫面上，按一下 <bpt id="p2">**</bpt>[伺服器管理員]<ept id="p2">**</ept>。</target>         
         </trans-unit>
         <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Manage<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>Add Roles and Features<ept id="p2">**</ept>.</source>
+          <target state="translated">在 <bpt id="p1">**</bpt>[管理]<ept id="p1">**</ept> 功能表上，按一下 <bpt id="p2">**</bpt>[新增角色及功能]<ept id="p2">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
           <source>On the <bpt id="p1">**</bpt>Select installation type<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>Role-based or feature-based installation<ept id="p2">**</ept>.</source>
           <target state="translated">在 [選取安裝類型] 頁面上，選取 [角色型或功能型安裝]。</target>         
         </trans-unit>
-        <trans-unit id="283" translate="yes" xml:space="preserve">
-          <source>Click <bpt id="p1">**</bpt>Next<ept id="p1">**</ept></source>
-          <target state="translated">按 [下一步]</target>         
-        </trans-unit>
         <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Next<ept id="p1">**</ept>.</source>
+          <target state="translated">按 <bpt id="p1">**</bpt>[下一步]<ept id="p1">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
           <source>On the <bpt id="p1">**</bpt>Select destination server<ept id="p1">**</ept> page, select a server from the server pool, or select an offline VHD.</source>
           <target state="translated">在 [選取目的地伺服器] 頁面上，從伺服器集區選取伺服器，或選取離線 VHD。</target>         
         </trans-unit>
-        <trans-unit id="285" translate="yes" xml:space="preserve">
+        <trans-unit id="286" translate="yes" xml:space="preserve">
           <source>To select an offline VHD as your destination server, first select the server on which to mount the VHD, and then select the VHD file.</source>
           <target state="translated">若要選取離線 VHD 做為目的地伺服器，請先選取要掛接 VHD 的伺服器，然後選取 VHD 檔案。</target>         
         </trans-unit>
-        <trans-unit id="286" translate="yes" xml:space="preserve">
+        <trans-unit id="287" translate="yes" xml:space="preserve">
           <source>For information about how to add servers to your server pool, see the Server Manager Help.</source>
           <target state="translated">如需如何將伺服器新增到伺服器集區的相關資訊，請參閱伺服器管理員說明。</target>         
         </trans-unit>
-        <trans-unit id="287" translate="yes" xml:space="preserve">
-          <source>After you have selected the destination server, click <bpt id="p1">**</bpt>Next<ept id="p1">**</ept></source>
-          <target state="translated">選取目的地伺服器之後，按一下 [下一步]</target>         
-        </trans-unit>
         <trans-unit id="288" translate="yes" xml:space="preserve">
-          <source>On the <bpt id="p1">**</bpt>Select features<ept id="p1">**</ept> page of the wizard, expand <bpt id="p2">**</bpt>Windows PowerShell<ept id="p2">**</ept>, and then select <bpt id="p3">**</bpt>Windows PowerShell Web Access<ept id="p3">**</ept></source>
-          <target state="translated">在精靈的 [選取功能] 頁面上，展開 [Windows PowerShell]，然後選取 [Windows PowerShell Web 存取]</target>         
+          <source>After you have selected the destination server, click <bpt id="p1">**</bpt>Next<ept id="p1">**</ept>.</source>
+          <target state="translated">選取目的地伺服器之後，按一下 <bpt id="p1">**</bpt>[下一步]<ept id="p1">**</ept>。</target>         
         </trans-unit>
         <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Select features<ept id="p1">**</ept> page of the wizard, expand <bpt id="p2">**</bpt>Windows PowerShell<ept id="p2">**</ept>, and then select <bpt id="p3">**</bpt>Windows PowerShell Web Access<ept id="p3">**</ept>.</source>
+          <target state="translated">在精靈的 <bpt id="p1">**</bpt>[選取功能]<ept id="p1">**</ept> 頁面上，展開 <bpt id="p2">**</bpt>[Windows PowerShell]<ept id="p2">**</ept>，然後選取 <bpt id="p3">**</bpt>[Windows PowerShell Web 存取]<ept id="p3">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
           <source>Note that you are prompted to add required features, such as .NET Framework 4.5, and role services of Web Server (IIS).</source>
           <target state="translated">請注意，系統會提示您新增必要的功能，例如 .NET Framework 4.5 以及網頁伺服器 (IIS) 的角色服務。</target>         
         </trans-unit>
-        <trans-unit id="290" translate="yes" xml:space="preserve">
+        <trans-unit id="291" translate="yes" xml:space="preserve">
           <source>Add required features and continue.</source>
           <target state="translated">新增必要的功能，然後繼續。</target>         
         </trans-unit>
-        <trans-unit id="291" translate="yes" xml:space="preserve">
+        <trans-unit id="292" translate="yes" xml:space="preserve">
           <source>Note</source>
           <target state="translated">注意</target>         
         </trans-unit>
-        <trans-unit id="292" translate="yes" xml:space="preserve">
+        <trans-unit id="293" translate="yes" xml:space="preserve">
           <source>Installing Windows PowerShell Web Access by using the Add Roles and Features Wizard also installs Web Server (IIS), including the IIS Manager snap-in.</source>
           <target state="translated">使用 [新增角色及功能精靈] 安裝 Windows PowerShell Web 存取，也會安裝網頁伺服器 (IIS)，包括 [IIS 管理員] 嵌入式管理單元。</target>         
         </trans-unit>
-        <trans-unit id="293" translate="yes" xml:space="preserve">
+        <trans-unit id="294" translate="yes" xml:space="preserve">
           <source>The snap-in and other IIS management tools are installed by default if you use Add Roles and Features Wizard.</source>
           <target state="translated">如果您使用 [新增角色及功能精靈]，預設會安裝嵌入式管理單元及其他 IIS 管理工具。</target>         
         </trans-unit>
-        <trans-unit id="294" translate="yes" xml:space="preserve">
+        <trans-unit id="295" translate="yes" xml:space="preserve">
           <source>If you install Windows PowerShell Web Access by using Windows PowerShell cmdlets as described in the following procedure, management tools are not added by default.</source>
           <target state="translated">如果您依下列程序中所述方式使用 Windows PowerShell Cmdlet 安裝 Windows PowerShell Web 存取，預設不會新增管理工具。</target>         
         </trans-unit>
-        <trans-unit id="295" translate="yes" xml:space="preserve">
+        <trans-unit id="296" translate="yes" xml:space="preserve">
           <source>On the <bpt id="p1">**</bpt>Confirm installation selections<ept id="p1">**</ept> page, if the feature files for Windows PowerShell Web Access are not stored on the destination server that you selected in step 4, click <bpt id="p2">**</bpt>Specify an alternate source path<ept id="p2">**</ept>, and provide the path to the feature files.</source>
           <target state="translated">如果 Windows PowerShell Web 存取的功能檔案未儲存於您在步驟 4 選取的目的地伺服器上，可在 [確認安裝選項] 頁面上按一下 [指定替代來源路徑]，然後提供功能檔案的路徑。</target>         
         </trans-unit>
-        <trans-unit id="296" translate="yes" xml:space="preserve">
-          <source>Otherwise, click <bpt id="p1">**</bpt>Install<ept id="p1">**</ept></source>
-          <target state="translated">否則，按一下 [安裝]</target>         
-        </trans-unit>
         <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Otherwise, click <bpt id="p1">**</bpt>Install<ept id="p1">**</ept>.</source>
+          <target state="translated">否則，按一下 <bpt id="p1">**</bpt>[安裝]<ept id="p1">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
           <source>After you click <bpt id="p1">**</bpt>Install<ept id="p1">**</ept>, the <bpt id="p2">**</bpt>Installation progress<ept id="p2">**</ept> page displays installation progress, results, and messages such as warnings, failures, or post-installation configuration steps that are required for Windows PowerShell Web Access.</source>
           <target state="translated">按一下 [安裝] 之後，[安裝進度] 頁面就會顯示安裝進度、結果及訊息，例如警告、失敗或 Windows PowerShell Web 存取所需的後續安裝設定步驟。</target>         
         </trans-unit>
-        <trans-unit id="298" translate="yes" xml:space="preserve">
+        <trans-unit id="299" translate="yes" xml:space="preserve">
           <source>After Windows PowerShell Web Access is installed, you are prompted to review the readme file, which contains basic, required setup instructions for the gateway.</source>
           <target state="translated">安裝 Windows PowerShell Web 存取之後，系統會提示您檢閱讀我檔案，其中包含適用於閘道的必要且基本的安裝指示。</target>         
         </trans-unit>
-        <trans-unit id="299" translate="yes" xml:space="preserve">
+        <trans-unit id="300" translate="yes" xml:space="preserve">
           <source>These instructions are also included in this topic.</source>
           <target state="translated">本主題中也包含這些指示。</target>         
         </trans-unit>
-        <trans-unit id="300" translate="yes" xml:space="preserve">
-          <source>The path to the readme file is <ph id="ph1">&lt;span class="computerOutputInline"&gt;</ph>C:\\Windows\\Web\\PowerShellWebAccess\\wwwroot\\README.txt</source>
-          <target state="translated">讀我檔案的路徑是 <ph id="ph1">&lt;span class="computerOutputInline"&gt;</ph>C:\Windows\Web\PowerShellWebAccess\wwwroot\README.txt</target>         
-        </trans-unit>
         <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>The path to the readme file is <ph id="ph1">&lt;span class="computerOutputInline"&gt;</ph>C:\\Windows\\Web\\PowerShellWebAccess\\wwwroot\\README.txt<ph id="ph2">&lt;/span&gt;</ph>.</source>
+          <target state="translated">讀我檔案的路徑是 <ph id="ph1">&lt;span class="computerOutputInline"&gt;</ph>C:\Windows\Web\PowerShellWebAccess\wwwroot\README.txt<ph id="ph2">&lt;/span&gt;</ph>。</target>         
+        </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
           <source>Step 2: Configure the gateway</source>
           <target state="translated">步驟 2：設定閘道</target>         
         </trans-unit>
-        <trans-unit id="302" translate="yes" xml:space="preserve">
+        <trans-unit id="303" translate="yes" xml:space="preserve">
           <source>Instructions in this section are for installing the Windows PowerShell Web Access web application in a subdirectory—and not in the root directory—of your website.</source>
           <target state="translated">本節的指示適用於在網站的子目錄 (不是根目錄) 中安裝 Windows PowerShell Web 存取 Web 應用程式。</target>         
         </trans-unit>
-        <trans-unit id="303" translate="yes" xml:space="preserve">
+        <trans-unit id="304" translate="yes" xml:space="preserve">
           <source>This procedure is the GUI-based equivalent of the actions performed by the <ph id="ph1">&lt;span class="code"&gt;</ph>Install-PswaWebApplication<ph id="ph2">&lt;/span&gt;</ph> cmdlet.</source>
           <target state="translated">這個程序是等同於 <ph id="ph1">&lt;span class="code"&gt;</ph>Install-PswaWebApplication<ph id="ph2">&lt;/span&gt;</ph> Cmdlet 所執行之動作的 GUI 動作。</target>         
         </trans-unit>
-        <trans-unit id="304" translate="yes" xml:space="preserve">
+        <trans-unit id="305" translate="yes" xml:space="preserve">
           <source>This section also includes instructions for how to use IIS Manager to configure the Windows PowerShell Web Access gateway as a root website.</source>
           <target state="translated">本節還包含如何使用 IIS 管理員，將 Windows PowerShell Web 存取閘道設定為根網站的指示。</target>         
         </trans-unit>
-        <trans-unit id="305" translate="yes" xml:space="preserve">
+        <trans-unit id="306" translate="yes" xml:space="preserve">
           <source>To use IIS Manager to configure the gateway in an existing website</source>
           <target state="translated">使用 IIS 管理員在現有的網站中設定閘道</target>         
         </trans-unit>
-        <trans-unit id="306" translate="yes" xml:space="preserve">
+        <trans-unit id="307" translate="yes" xml:space="preserve">
           <source>To use IIS Manager to configure the gateway as a root website with a test certificate</source>
           <target state="translated">使用 IIS 管理員以測試憑證將閘道設定為根網站</target>         
         </trans-unit>
-        <trans-unit id="307" translate="yes" xml:space="preserve">
+        <trans-unit id="308" translate="yes" xml:space="preserve">
           <source>To use IIS Manager to configure the gateway in an existing website</source>
           <target state="translated">使用 IIS 管理員在現有的網站中設定閘道</target>         
         </trans-unit>
-        <trans-unit id="308" translate="yes" xml:space="preserve">
+        <trans-unit id="309" translate="yes" xml:space="preserve">
           <source>Open the IIS Manager console by doing one of the following.</source>
           <target state="translated">執行下列其中一項動作以開啟 IIS 管理員主控台。</target>         
         </trans-unit>
-        <trans-unit id="309" translate="yes" xml:space="preserve">
+        <trans-unit id="310" translate="yes" xml:space="preserve">
           <source>On the Windows desktop, start Server Manager by clicking <bpt id="p1">**</bpt>Server Manager<ept id="p1">**</ept> in the Windows taskbar.</source>
           <target state="translated">在 Windows 桌面上，按一下 Windows 工作列中的 [伺服器管理員] 來啟動 [伺服器管理員]。</target>         
         </trans-unit>
-        <trans-unit id="310" translate="yes" xml:space="preserve">
-          <source>On the <bpt id="p1">**</bpt>Tools<ept id="p1">**</ept> menu in Server Manager, click <bpt id="p2">**</bpt>Internet Information Services (IIS) Manager<ept id="p2">**</ept></source>
-          <target state="translated">在 [伺服器管理員] 的 [工具] 功能表上，按一下 [Internet Information Services (IIS) 管理員]</target>         
-        </trans-unit>
         <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Tools<ept id="p1">**</ept> menu in Server Manager, click <bpt id="p2">**</bpt>Internet Information Services (IIS) Manager<ept id="p2">**</ept>.</source>
+          <target state="translated">在 [伺服器管理員] 的 <bpt id="p1">**</bpt>[工具]<ept id="p1">**</ept> 功能表上，按一下 <bpt id="p2">**</bpt>[Internet Information Services (IIS) 管理員]<ept id="p2">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
           <source>On the Windows <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> screen, type any part of the name <bpt id="p2">**</bpt>Internet Information Services (IIS) Manager<ept id="p2">**</ept>.</source>
           <target state="translated">在 Windows [開始] 畫面中，輸入 <bpt id="p2">**</bpt>Internet Information Services (IIS) 管理員<ept id="p2">**</ept>名稱的任何部分。</target>         
         </trans-unit>
-        <trans-unit id="312" translate="yes" xml:space="preserve">
+        <trans-unit id="313" translate="yes" xml:space="preserve">
           <source>Click the shortcut when it is displayed in the <bpt id="p1">**</bpt>Apps<ept id="p1">**</ept> results.</source>
           <target state="translated">當捷徑出現在 [應用程式] 結果時，按一下該捷徑。</target>         
         </trans-unit>
-        <trans-unit id="313" translate="yes" xml:space="preserve">
+        <trans-unit id="314" translate="yes" xml:space="preserve">
           <source>Create a new application pool for Windows PowerShell Web Access.</source>
           <target state="translated">為 Windows PowerShell Web 存取建立新的應用程式集區。</target>         
         </trans-unit>
-        <trans-unit id="314" translate="yes" xml:space="preserve">
+        <trans-unit id="315" translate="yes" xml:space="preserve">
           <source>Expand the node of the gateway server in the IIS Manager tree pane, select <bpt id="p1">**</bpt>Application Pools<ept id="p1">**</ept>, and click <bpt id="p2">**</bpt>Add Application Pool<ept id="p2">**</ept> in the <bpt id="p3">**</bpt>Actions<ept id="p3">**</ept> pane.</source>
           <target state="translated">在 [IIS 管理員] 樹狀目錄窗格中展開閘道伺服器的節點，選取 [應用程式集區]，然後在 [動作] 窗格中按一下 [新增應用程式集區]。</target>         
         </trans-unit>
-        <trans-unit id="315" translate="yes" xml:space="preserve">
+        <trans-unit id="316" translate="yes" xml:space="preserve">
           <source>Add a new application pool with the name <bpt id="p1">**</bpt>pswa\_pool<ept id="p1">**</ept>, or provide another name.</source>
           <target state="translated">新增名為 <bpt id="p1">**</bpt>pswa_pool<ept id="p1">**</ept> (或提供另一個名稱) 的新應用程式集區。</target>         
         </trans-unit>
-        <trans-unit id="316" translate="yes" xml:space="preserve">
-          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept></source>
-          <target state="translated">按一下 [確定]</target>         
-        </trans-unit>
         <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+          <target state="translated">按一下 <bpt id="p1">**</bpt>[確定]<ept id="p1">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
           <source>In the IIS Manager tree pane, expand the node for the server on which Windows PowerShell Web Access is installed until the <bpt id="p1">**</bpt>Sites<ept id="p1">**</ept> folder is visible.</source>
           <target state="translated">在 [IIS 管理員] 樹狀目錄窗格中，展開安裝 Windows PowerShell Web 存取的伺服器節點，直到可以看到 [站台] 資料夾為止。</target>         
         </trans-unit>
-        <trans-unit id="318" translate="yes" xml:space="preserve">
+        <trans-unit id="319" translate="yes" xml:space="preserve">
           <source>Select the <bpt id="p1">**</bpt>Sites<ept id="p1">**</ept> folder.</source>
           <target state="translated">選取 [站台] 資料夾。</target>         
         </trans-unit>
-        <trans-unit id="319" translate="yes" xml:space="preserve">
-          <source>Right-click the website (for example, <bpt id="p1">**</bpt>Default Web Site<ept id="p1">**</ept>) to which you would like to add the Windows PowerShell Web Access website, and then click <bpt id="p2">**</bpt>Add Application<ept id="p2">**</ept></source>
-          <target state="translated">以滑鼠右鍵按一下您想要新增 Windows PowerShell Web 存取網站的網站 (例如 [預設的網站])，然後按一下 [新增應用程式]</target>         
-        </trans-unit>
         <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>Right-click the website (for example, <bpt id="p1">**</bpt>Default Web Site<ept id="p1">**</ept>) to which you would like to add the Windows PowerShell Web Access website, and then click <bpt id="p2">**</bpt>Add Application<ept id="p2">**</ept>.</source>
+          <target state="translated">以滑鼠右鍵按一下您想要新增 Windows PowerShell Web 存取網站的網站 (例如 <bpt id="p1">**</bpt>[預設的網站]<ept id="p1">**</ept>)，然後按一下 <bpt id="p2">**</bpt>[新增應用程式]<ept id="p2">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
           <source>In the <bpt id="p1">**</bpt>Alias<ept id="p1">**</ept> field, type pswa, or provide another alias.</source>
           <target state="translated">在 [別名] 欄位中輸入 pswa，或者提供另一個別名。</target>         
         </trans-unit>
-        <trans-unit id="321" translate="yes" xml:space="preserve">
+        <trans-unit id="322" translate="yes" xml:space="preserve">
           <source>The alias becomes the virtual directory name.</source>
           <target state="translated">別名會成為虛擬目錄名稱。</target>         
         </trans-unit>
-        <trans-unit id="322" translate="yes" xml:space="preserve">
+        <trans-unit id="323" translate="yes" xml:space="preserve">
           <source>For example, <bpt id="p1">**</bpt>pswa<ept id="p1">**</ept> in the following URL represents the alias specified in this step: https://<ph id="ph1">&amp;lt;</ph>server\_name<ph id="ph2">&amp;gt;</ph>/pswa.</source>
           <target state="translated">例如，下列 URL 中的 <bpt id="p1">**</bpt>pswa<ept id="p1">**</ept> 代表在這個步驟中指定的別名：https://<ph id="ph1">&amp;lt;</ph>server_name<ph id="ph2">&amp;gt;</ph>/pswa。</target>         
         </trans-unit>
-        <trans-unit id="323" translate="yes" xml:space="preserve">
+        <trans-unit id="324" translate="yes" xml:space="preserve">
           <source>In the <bpt id="p1">**</bpt>Application pool<ept id="p1">**</ept> field, select the application pool that you created in step 3.</source>
           <target state="translated">在 [應用程式集區] 欄位中，選取您在步驟 3 建立的應用程式集區。</target>         
         </trans-unit>
-        <trans-unit id="324" translate="yes" xml:space="preserve">
+        <trans-unit id="325" translate="yes" xml:space="preserve">
           <source>In the <bpt id="p1">**</bpt>Physical path<ept id="p1">**</ept> field, browse for the location of the application.</source>
           <target state="translated">在 [實體路徑] 欄位中，瀏覽應用程式的位置。</target>         
         </trans-unit>
-        <trans-unit id="325" translate="yes" xml:space="preserve">
+        <trans-unit id="326" translate="yes" xml:space="preserve">
           <source>You can use the default location, %windir%/Web/PowerShellWebAccess/wwwroot.</source>
           <target state="translated">您可以使用預設位置 %windir%/Web/PowerShellWebAccess/wwwroot。</target>         
         </trans-unit>
-        <trans-unit id="326" translate="yes" xml:space="preserve">
-          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept></source>
-          <target state="translated">按一下 [確定]</target>         
-        </trans-unit>
         <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+          <target state="translated">按一下 <bpt id="p1">**</bpt>[確定]<ept id="p1">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
           <source>Follow the steps in the procedure <bpt id="p1">[</bpt>To configure an SSL certificate in IIS Manager<ept id="p1">](#BKMK_cert)</ept> in this topic.</source>
           <target state="translated">依照本主題的<bpt id="p1">[</bpt>在 IIS 管理員中設定 SSL 憑證<ept id="p1">](#BKMK_cert)</ept>程序中的步驟進行。</target>         
         </trans-unit>
-        <trans-unit id="328" translate="yes" xml:space="preserve">
+        <trans-unit id="329" translate="yes" xml:space="preserve">
           <source>Optional security step:<ph id="ph1">&lt;/span&gt;</ph> With the website selected in the tree pane, double-click <bpt id="p1">**</bpt>SSL Settings<ept id="p1">**</ept> in the content pane.</source>
           <target state="translated">選擇性安全性步驟：<ph id="ph1">&lt;/span&gt;</ph>在樹狀目錄窗格中選取網站後，按兩下內容窗格中的 [SSL 設定]。</target>         
         </trans-unit>
-        <trans-unit id="329" translate="yes" xml:space="preserve">
+        <trans-unit id="330" translate="yes" xml:space="preserve">
           <source>Select <bpt id="p1">**</bpt>Require SSL<ept id="p1">**</ept>, and then in the <bpt id="p2">**</bpt>Actions<ept id="p2">**</ept> pane, click <bpt id="p3">**</bpt>Apply<ept id="p3">**</ept>.</source>
           <target state="translated">選取 [需要 SSL]，然後在 [動作] 窗格中，按一下 [套用]。</target>         
         </trans-unit>
-        <trans-unit id="330" translate="yes" xml:space="preserve">
+        <trans-unit id="331" translate="yes" xml:space="preserve">
           <source>Optionally, in the <bpt id="p1">**</bpt>SSL Settings<ept id="p1">**</ept> pane, you can require that users connecting to the Windows PowerShell Web Access website have client certificates.</source>
           <target state="translated">您也可以選擇性地在 [SSL 設定] 窗格中，要求連線到 Windows PowerShell Web 存取網站的使用者必須擁有用戶端憑證。</target>         
         </trans-unit>
-        <trans-unit id="331" translate="yes" xml:space="preserve">
+        <trans-unit id="332" translate="yes" xml:space="preserve">
           <source>Client certificates help to verify the identity of a client device user.</source>
           <target state="translated">用戶端憑證可協助確認用戶端裝置使用者的身份。</target>         
         </trans-unit>
-        <trans-unit id="332" translate="yes" xml:space="preserve">
+        <trans-unit id="333" translate="yes" xml:space="preserve">
           <source>For more information about how requiring client certificates can increase the security of Windows PowerShell Web Access, see <bpt id="p1">[</bpt>Authorization Rules and Security Features of Windows PowerShell Web Access<ept id="p1">](https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx)</ept> in this guide.</source>
           <target state="translated">如需要求用戶端憑證如何增加 Windows PowerShell Web 存取安全性的詳細資訊，請參閱本指南中的 <bpt id="p1">[</bpt>Windows PowerShell Web 存取的授權規則與安全性功能<ept id="p1">](https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx)</ept>。</target>         
         </trans-unit>
-        <trans-unit id="333" translate="yes" xml:space="preserve">
+        <trans-unit id="334" translate="yes" xml:space="preserve">
           <source>Open a browser session on a client device.</source>
           <target state="translated">開啟用戶端裝置的瀏覽器工作階段。</target>         
         </trans-unit>
-        <trans-unit id="334" translate="yes" xml:space="preserve">
+        <trans-unit id="335" translate="yes" xml:space="preserve">
           <source>For more information about supported browsers and devices, see <bpt id="p1">[</bpt>Browser and client device support<ept id="p1">](#BKMK_browser)</ept> in this topic.</source>
           <target state="translated">如需支援的瀏覽器及裝置的詳細資訊，請參閱本主題的<bpt id="p1">[</bpt>瀏覽器及用戶端裝置支援<ept id="p1">](#BKMK_browser)</ept>。</target>         
         </trans-unit>
-        <trans-unit id="335" translate="yes" xml:space="preserve">
-          <source>Open the new Windows PowerShell Web Access website, https://<ph id="ph1">&amp;lt; </ph><bpt id="p1">*</bpt>gateway\_server\_name<ept id="p1">*</ept><ph id="ph2">&amp;gt;</ph>/pswa.</source>
-          <target state="translated">開啟新的 Windows PowerShell Web 存取網站 https://<ph id="ph1">&amp;lt; </ph><bpt id="p1">*</bpt>gateway_server_name<ept id="p1">*</ept><ph id="ph2">&amp;gt;</ph>/pswa。</target>         
-        </trans-unit>
         <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>Open the new Windows PowerShell Web Access website, https://<ph id="ph1">&amp;lt;</ph> <bpt id="p1">*</bpt>gateway\_server\_name<ept id="p1">*</ept><ph id="ph2">&amp;gt;</ph>/pswa.</source>
+          <target state="translated">開啟新的 Windows PowerShell Web 存取網站 https://<ph id="ph1">&amp;lt;</ph> <bpt id="p1">*</bpt>閘道伺服器名稱 <ept id="p1">*</ept><ph id="ph2">&amp;gt;</ph>/pswa。</target>         
+        </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
           <source>The browser should display the Windows PowerShell Web Access console sign-in page.</source>
           <target state="translated">瀏覽器應該會顯示 Windows PowerShell Web 存取主控台登入頁面。</target>         
         </trans-unit>
-        <trans-unit id="337" translate="yes" xml:space="preserve">
+        <trans-unit id="338" translate="yes" xml:space="preserve">
           <source>Note</source>
           <target state="translated">注意</target>         
         </trans-unit>
-        <trans-unit id="338" translate="yes" xml:space="preserve">
+        <trans-unit id="339" translate="yes" xml:space="preserve">
           <source>You cannot sign in until users have been granted access to the website by adding authorization rules.</source>
           <target state="translated">必須透過新增授權規則，讓使用者獲得網站存取權，才能進行登入。</target>         
         </trans-unit>
-        <trans-unit id="339" translate="yes" xml:space="preserve">
+        <trans-unit id="340" translate="yes" xml:space="preserve">
           <source>In a Windows PowerShell session that has been opened with elevated user rights (Run as Administrator), run the following script, in which <bpt id="p1">*</bpt>application\_pool\_name<ept id="p1">*</ept> represents the name of the application pool that you created in step 3, to give the application pool access rights to the authorization file.</source>
           <target state="translated">在使用提高的使用者權限 (以系統管理員身分執行) 開啟的 Windows PowerShell 工作階段中，執行下列指令碼，其中 <bpt id="p1">*</bpt>application_pool_name<ept id="p1">*</ept> 代表您在步驟 3 建立的應用程式集區名稱，以便授與該應用程式集區授權檔案的存取權。</target>         
         </trans-unit>
-        <trans-unit id="340" translate="yes" xml:space="preserve">
+        <trans-unit id="341" translate="yes" xml:space="preserve">
           <source>[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_c1a80a93-8fcf-4beb-a025-5f81bfb8bdae'); "Copy to clipboard.")</source>
           <target state="translated">[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_c1a80a93-8fcf-4beb-a025-5f81bfb8bdae'); "複製到剪貼簿。")</target>         
         </trans-unit>
-        <trans-unit id="341" translate="yes" xml:space="preserve">
+        <trans-unit id="342" translate="yes" xml:space="preserve">
           <source>To view existing access rights on the authorization file, run the following command:</source>
           <target state="translated">若要檢視授權檔案的現有存取權，請執行下列命令：</target>         
         </trans-unit>
-        <trans-unit id="342" translate="yes" xml:space="preserve">
+        <trans-unit id="343" translate="yes" xml:space="preserve">
           <source>[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_ac2179c2-9548-4a17-8663-267fdd105380'); "Copy to clipboard.")</source>
           <target state="translated">[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_ac2179c2-9548-4a17-8663-267fdd105380'); "複製到剪貼簿。")</target>         
         </trans-unit>
-        <trans-unit id="343" translate="yes" xml:space="preserve">
+        <trans-unit id="344" translate="yes" xml:space="preserve">
           <source>To use IIS Manager to configure the gateway as a root website with a test certificate</source>
           <target state="translated">使用 IIS 管理員以測試憑證將閘道設定為根網站</target>         
         </trans-unit>
-        <trans-unit id="344" translate="yes" xml:space="preserve">
+        <trans-unit id="345" translate="yes" xml:space="preserve">
           <source>Open the IIS Manager console by doing one of the following.</source>
           <target state="translated">執行下列其中一項動作以開啟 IIS 管理員主控台。</target>         
         </trans-unit>
-        <trans-unit id="345" translate="yes" xml:space="preserve">
+        <trans-unit id="346" translate="yes" xml:space="preserve">
           <source>On the Windows desktop, start Server Manager by clicking <bpt id="p1">**</bpt>Server Manager<ept id="p1">**</ept> in the Windows taskbar.</source>
           <target state="translated">在 Windows 桌面上，按一下 Windows 工作列中的 [伺服器管理員] 來啟動 [伺服器管理員]。</target>         
         </trans-unit>
-        <trans-unit id="346" translate="yes" xml:space="preserve">
-          <source>On the <bpt id="p1">**</bpt>Tools<ept id="p1">**</ept> menu in Server Manager, click <bpt id="p2">**</bpt>Internet Information Services (IIS) Manager<ept id="p2">**</ept></source>
-          <target state="translated">在 [伺服器管理員] 的 [工具] 功能表上，按一下 [Internet Information Services (IIS) 管理員]</target>         
-        </trans-unit>
         <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Tools<ept id="p1">**</ept> menu in Server Manager, click <bpt id="p2">**</bpt>Internet Information Services (IIS) Manager<ept id="p2">**</ept>.</source>
+          <target state="translated">在 [伺服器管理員] 的 <bpt id="p1">**</bpt>[工具]<ept id="p1">**</ept> 功能表上，按一下 <bpt id="p2">**</bpt>[Internet Information Services (IIS) 管理員]<ept id="p2">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
           <source>On the Windows <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> screen, type any part of the name <bpt id="p2">**</bpt>Internet Information Services (IIS) Manager<ept id="p2">**</ept>.</source>
           <target state="translated">在 Windows [開始] 畫面中，輸入 <bpt id="p2">**</bpt>Internet Information Services (IIS) 管理員<ept id="p2">**</ept>名稱的任何部分。</target>         
         </trans-unit>
-        <trans-unit id="348" translate="yes" xml:space="preserve">
+        <trans-unit id="349" translate="yes" xml:space="preserve">
           <source>Click the shortcut when it is displayed in the <bpt id="p1">**</bpt>Apps<ept id="p1">**</ept> results.</source>
           <target state="translated">當捷徑出現在 [應用程式] 結果時，按一下該捷徑。</target>         
         </trans-unit>
-        <trans-unit id="349" translate="yes" xml:space="preserve">
+        <trans-unit id="350" translate="yes" xml:space="preserve">
           <source>In the IIS Manager tree pane, expand the node for the server on which Windows PowerShell Web Access is installed until the <bpt id="p1">**</bpt>Sites<ept id="p1">**</ept> folder is visible.</source>
           <target state="translated">在 [IIS 管理員] 樹狀目錄窗格中，展開安裝 Windows PowerShell Web 存取的伺服器節點，直到可以看到 [站台] 資料夾為止。</target>         
         </trans-unit>
-        <trans-unit id="350" translate="yes" xml:space="preserve">
+        <trans-unit id="351" translate="yes" xml:space="preserve">
           <source>Select the <bpt id="p1">**</bpt>Sites<ept id="p1">**</ept> folder.</source>
           <target state="translated">選取 [站台] 資料夾。</target>         
         </trans-unit>
-        <trans-unit id="351" translate="yes" xml:space="preserve">
-          <source>In the <bpt id="p1">**</bpt>Actions<ept id="p1">**</ept> pane, click <bpt id="p2">**</bpt>Add Website<ept id="p2">**</ept></source>
-          <target state="translated">在 [動作] 窗格中，按一下 [新增站台]。</target>         
-        </trans-unit>
         <trans-unit id="352" translate="yes" xml:space="preserve">
-          <source>Type a name for the website, such as <bpt id="p1">**</bpt>Windows PowerShell Web Access<ept id="p1">**</ept></source>
-          <target state="translated">輸入網站的名稱，例如 <bpt id="p1">**</bpt>Windows PowerShell Web Access<ept id="p1">**</ept></target>         
+          <source>In the <bpt id="p1">**</bpt>Actions<ept id="p1">**</ept> pane, click <bpt id="p2">**</bpt>Add Website<ept id="p2">**</ept>.</source>
+          <target state="translated">在 <bpt id="p1">**</bpt>[動作]<ept id="p1">**</ept> 窗格中，按一下 <bpt id="p2">**</bpt>[Add Website] (新增網站)<ept id="p2">**</ept>。</target>         
         </trans-unit>
         <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>Type a name for the website, such as <bpt id="p1">**</bpt>Windows PowerShell Web Access<ept id="p1">**</ept>.</source>
+          <target state="translated">輸入網站的名稱，例如 <bpt id="p1">**</bpt>Windows PowerShell Web Access<ept id="p1">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
           <source>An application pool is automatically created for the new website.</source>
           <target state="translated">此時會自動為新網站建立應用程式集區。</target>         
         </trans-unit>
-        <trans-unit id="354" translate="yes" xml:space="preserve">
+        <trans-unit id="355" translate="yes" xml:space="preserve">
           <source>To use a different application pool, click <bpt id="p1">**</bpt>Select<ept id="p1">**</ept> to select an application pool to associate with the new website.</source>
           <target state="translated">若要使用不同的應用程式集區，按一下 [選取]，以選取要與新網站相關聯的應用程式集區。</target>         
         </trans-unit>
-        <trans-unit id="355" translate="yes" xml:space="preserve">
-          <source>Select the alternate application pool in the <bpt id="p1">**</bpt>Select Application Pool<ept id="p1">**</ept> dialog box, and then click <bpt id="p2">**</bpt>OK<ept id="p2">**</ept></source>
-          <target state="translated">在 [選取應用程式集區] 對話方塊中選取替代的應用程式集區，然後按一下 [確定]。</target>         
-        </trans-unit>
         <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>Select the alternate application pool in the <bpt id="p1">**</bpt>Select Application Pool<ept id="p1">**</ept> dialog box, and then click <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</source>
+          <target state="translated">在 <bpt id="p1">**</bpt>[選取應用程式集區]<ept id="p1">**</ept> 對話方塊中選取替代的應用程式集區，然後按一下 <bpt id="p2">**</bpt>[確定]<ept id="p2">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
           <source>In the <bpt id="p1">**</bpt>Physical path<ept id="p1">**</ept> text box, navigate to %<bpt id="p2">*</bpt>windir<ept id="p2">*</ept>%/Web/PowerShellWebAccess/wwwroot.</source>
           <target state="translated">在 [實體路徑] 文字方塊中，瀏覽到 %<bpt id="p2">*</bpt>windir<ept id="p2">*</ept>%/Web/PowerShellWebAccess/wwwroot。</target>         
         </trans-unit>
-        <trans-unit id="357" translate="yes" xml:space="preserve">
-          <source>In the <bpt id="p1">**</bpt>Type<ept id="p1">**</ept> field of the <bpt id="p2">**</bpt>Binding<ept id="p2">**</ept> area, select <bpt id="p3">**</bpt>https<ept id="p3">**</ept></source>
-          <target state="translated">在 [繫結] 區域的 [類型] 欄位中，選取 [https]</target>         
-        </trans-unit>
         <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Type<ept id="p1">**</ept> field of the <bpt id="p2">**</bpt>Binding<ept id="p2">**</ept> area, select <bpt id="p3">**</bpt>https<ept id="p3">**</ept>.</source>
+          <target state="translated">在 <bpt id="p2">**</bpt>[繫結]<ept id="p2">**</ept> 區域的 <bpt id="p1">**</bpt>[類型]<ept id="p1">**</ept> 欄位中，選取 <bpt id="p3">**</bpt>[https]<ept id="p3">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
           <source>Assign a port number to the website that is not already in use by another site or application.</source>
           <target state="translated">為其他站台或應用程式尚未使用的網站指派連接埠號碼。</target>         
         </trans-unit>
-        <trans-unit id="359" translate="yes" xml:space="preserve">
+        <trans-unit id="360" translate="yes" xml:space="preserve">
           <source>To locate open ports, you can run the <bpt id="p1">**</bpt>netstat<ept id="p1">**</ept> command in a Command Prompt window.</source>
           <target state="translated">若要尋找開放的連接埠，可以在命令提示字元視窗中執行 <bpt id="p1">**</bpt>netstat<ept id="p1">**</ept> 命令。</target>         
         </trans-unit>
-        <trans-unit id="360" translate="yes" xml:space="preserve">
+        <trans-unit id="361" translate="yes" xml:space="preserve">
           <source>The default port number is 443.</source>
           <target state="translated">預設連接埠號碼為 443。</target>         
         </trans-unit>
-        <trans-unit id="361" translate="yes" xml:space="preserve">
+        <trans-unit id="362" translate="yes" xml:space="preserve">
           <source>Change the default port if another website is already using 443, or if you have other security reasons for changing the port number.</source>
           <target state="translated">如果另一個網站已經使用 443，或者有其他需要變更連接埠號碼的安全性原因，請變更預設連接埠。</target>         
         </trans-unit>
-        <trans-unit id="362" translate="yes" xml:space="preserve">
+        <trans-unit id="363" translate="yes" xml:space="preserve">
           <source>If another website that is running on your gateway server is using your selected port, a warning is displayed when you click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>Add Website<ept id="p2">**</ept> dialog box.</source>
           <target state="translated">如果在閘道伺服器上執行的另一個網站正在使用您選取的連接埠，當您在 [新增網站] 對話方塊中按一下 [確定] 時，就會顯示警告。</target>         
         </trans-unit>
-        <trans-unit id="363" translate="yes" xml:space="preserve">
+        <trans-unit id="364" translate="yes" xml:space="preserve">
           <source>You must use an unused port to run Windows PowerShell Web Access.</source>
           <target state="translated">您必須使用未使用的連接埠來執行 Windows PowerShell Web 存取。</target>         
         </trans-unit>
-        <trans-unit id="364" translate="yes" xml:space="preserve">
+        <trans-unit id="365" translate="yes" xml:space="preserve">
           <source>Optionally, if needed for your organization, specify a host name that makes sense to your organization and users, such as <bpt id="p1">**</bpt>www.contoso.com<ept id="p1">**</ept>.</source>
           <target state="translated">或者，如果組織有需要，可以指定對組織及使用者有意義的主機名稱，例如 <bpt id="p1">**</bpt>www.contoso.com<ept id="p1">**</ept>。</target>         
         </trans-unit>
-        <trans-unit id="365" translate="yes" xml:space="preserve">
-          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept></source>
-          <target state="translated">按一下 [確定]</target>         
-        </trans-unit>
         <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+          <target state="translated">按一下 <bpt id="p1">**</bpt>[確定]<ept id="p1">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
           <source>For a more secure production environment, we strongly recommend providing a valid certificate that has been signed by a CA.</source>
           <target state="translated">如需更安全的生產環境，強烈建議您提供 CA 簽署的有效憑證。</target>         
         </trans-unit>
-        <trans-unit id="367" translate="yes" xml:space="preserve">
+        <trans-unit id="368" translate="yes" xml:space="preserve">
           <source>You must provide an SSL certificate, because users can only connect to Windows PowerShell Web Access through an HTTPS website.</source>
           <target state="translated">您必須提供 SSL 憑證，因為使用者只能透過 HTTPS 網站連線到 Windows PowerShell Web 存取。</target>         
         </trans-unit>
-        <trans-unit id="368" translate="yes" xml:space="preserve">
+        <trans-unit id="369" translate="yes" xml:space="preserve">
           <source>See <bpt id="p1">[</bpt>To configure an SSL certificate in IIS Manager<ept id="p1">](#BKMK_cert)</ept> in this topic for more information about how to obtain a certificate.</source>
           <target state="translated">如需如何取得憑證的詳細資訊，請參閱本主題中的<bpt id="p1">[</bpt>在 IIS 管理員設定 SSL 憑證<ept id="p1">](#BKMK_cert)</ept>。</target>         
         </trans-unit>
-        <trans-unit id="369" translate="yes" xml:space="preserve">
+        <trans-unit id="370" translate="yes" xml:space="preserve">
           <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> to close the <bpt id="p2">**</bpt>Add Website<ept id="p2">**</ept> dialog box.</source>
           <target state="translated">按一下 [確定]，以關閉 [新增網站] 對話方塊。</target>         
         </trans-unit>
-        <trans-unit id="370" translate="yes" xml:space="preserve">
+        <trans-unit id="371" translate="yes" xml:space="preserve">
           <source>In a Windows PowerShell session that has been opened with elevated user rights (Run as Administrator), run the following script, in which <bpt id="p1">*</bpt>application\_pool\_name<ept id="p1">*</ept> represents the name of the application pool that you created in step 4, to give the application pool access rights to the authorization file.</source>
           <target state="translated">在使用提高的使用者權限 (以系統管理員身分執行) 開啟的 Windows PowerShell 工作階段中，執行下列指令碼，其中 <bpt id="p1">*</bpt>application_pool_name<ept id="p1">*</ept> 代表您在步驟 4 建立的應用程式集區名稱，以便授與該應用程式集區授權檔案的存取權。</target>         
         </trans-unit>
-        <trans-unit id="371" translate="yes" xml:space="preserve">
+        <trans-unit id="372" translate="yes" xml:space="preserve">
           <source>[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_35ae9944-ca44-4af7-9c96-616083b3e3db'); "Copy to clipboard.")</source>
           <target state="translated">[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_35ae9944-ca44-4af7-9c96-616083b3e3db'); "複製到剪貼簿。")</target>         
         </trans-unit>
-        <trans-unit id="372" translate="yes" xml:space="preserve">
+        <trans-unit id="373" translate="yes" xml:space="preserve">
           <source>To view existing access rights on the authorization file, run the following command:</source>
           <target state="translated">若要檢視授權檔案的現有存取權，請執行下列命令：</target>         
         </trans-unit>
-        <trans-unit id="373" translate="yes" xml:space="preserve">
+        <trans-unit id="374" translate="yes" xml:space="preserve">
           <source>[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_0eb6d70a-2807-498b-b088-fa5233ed68d5'); "Copy to clipboard.")</source>
           <target state="translated">[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_0eb6d70a-2807-498b-b088-fa5233ed68d5'); "複製到剪貼簿。")</target>         
         </trans-unit>
-        <trans-unit id="374" translate="yes" xml:space="preserve">
+        <trans-unit id="375" translate="yes" xml:space="preserve">
           <source>With the new website selected in the IIS Manager tree pane, click <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>Actions<ept id="p2">**</ept> pane to start the website.</source>
           <target state="translated">在 [IIS 管理員] 樹狀目錄窗格中選取新網站後，在 [動作] 窗格中按一下 [啟動] 以啟動網站。</target>         
         </trans-unit>
-        <trans-unit id="375" translate="yes" xml:space="preserve">
+        <trans-unit id="376" translate="yes" xml:space="preserve">
           <source>Open a browser session on a client device.</source>
           <target state="translated">開啟用戶端裝置的瀏覽器工作階段。</target>         
         </trans-unit>
-        <trans-unit id="376" translate="yes" xml:space="preserve">
+        <trans-unit id="377" translate="yes" xml:space="preserve">
           <source>For more information about supported browsers and devices, see <bpt id="p1">[</bpt>Browser and client device support<ept id="p1">](#BKMK_browser)</ept> in this document.</source>
           <target state="translated">如需支援的瀏覽器及裝置的詳細資訊，請參閱本文件的<bpt id="p1">[</bpt>瀏覽器及用戶端裝置支援<ept id="p1">](#BKMK_browser)</ept>。</target>         
         </trans-unit>
-        <trans-unit id="377" translate="yes" xml:space="preserve">
+        <trans-unit id="378" translate="yes" xml:space="preserve">
           <source>Open the new Windows PowerShell Web Access website.</source>
           <target state="translated">開啟新的 Windows PowerShell Web 存取網站。</target>         
         </trans-unit>
-        <trans-unit id="378" translate="yes" xml:space="preserve">
-          <source>Because the root website points to the Windows PowerShell Web Access folder, the browser should display the Windows PowerShell Web Access sign-in page when you open https://<ph id="ph1">&amp;lt; </ph><bpt id="p1">*</bpt>gateway\_server\_name<ept id="p1">*</ept><ph id="ph2">&amp;gt;</ph>.</source>
-          <target state="translated">由於根網站會指向 Windows PowerShell Web 存取資料夾，因此，當您開啟 https://<ph id="ph1">&amp;lt; </ph><bpt id="p1">*</bpt>gateway_server_name<ept id="p1">*</ept><ph id="ph2">&amp;gt;</ph> 時，瀏覽器應該會顯示 Windows PowerShell Web 存取登入頁面。</target>         
-        </trans-unit>
         <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>Because the root website points to the Windows PowerShell Web Access folder, the browser should display the Windows PowerShell Web Access sign-in page when you open https://<ph id="ph1">&amp;lt;</ph> <bpt id="p1">*</bpt>gateway\_server\_name<ept id="p1">*</ept><ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">由於根網站會指向 Windows PowerShell Web 存取資料夾，因此，當您開啟 https://<ph id="ph1">&amp;lt;</ph> <bpt id="p1">*</bpt>匣道伺服器名稱<ept id="p1">*</ept><ph id="ph2">&amp;gt;</ph> 時，瀏覽器應該會顯示 Windows PowerShell Web 存取登入頁面。</target>         
+        </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
           <source>You should not need to add <bpt id="p1">**</bpt>/pswa<ept id="p1">**</ept> to the URL.</source>
           <target state="translated">您應該不需要在 URL 中新增 <bpt id="p1">**</bpt>/pswa<ept id="p1">**</ept>。</target>         
         </trans-unit>
-        <trans-unit id="380" translate="yes" xml:space="preserve">
+        <trans-unit id="381" translate="yes" xml:space="preserve">
           <source>Note</source>
           <target state="translated">注意</target>         
         </trans-unit>
-        <trans-unit id="381" translate="yes" xml:space="preserve">
+        <trans-unit id="382" translate="yes" xml:space="preserve">
           <source>You cannot sign in until users have been granted access to the website by adding authorization rules.</source>
           <target state="translated">必須透過新增授權規則，讓使用者獲得網站存取權，才能進行登入。</target>         
         </trans-unit>
-        <trans-unit id="382" translate="yes" xml:space="preserve">
+        <trans-unit id="383" translate="yes" xml:space="preserve">
           <source>Step 3: Configure a restrictive authorization rule</source>
           <target state="translated">步驟 3：設定限制性授權規則</target>         
         </trans-unit>
-        <trans-unit id="383" translate="yes" xml:space="preserve">
+        <trans-unit id="384" translate="yes" xml:space="preserve">
           <source>After Windows PowerShell Web Access is installed and the gateway is configured, users can open the sign-in page in a browser, but they cannot sign in until the Windows PowerShell Web Access administrator grants users access explicitly.</source>
           <target state="translated">安裝 Windows PowerShell Web 存取並設定閘道之後，使用者就可以在瀏覽器中開啟登入頁面，但是必須等到 Windows PowerShell Web 存取系統管理員明確授與使用者存取權之後，才能登入。</target>         
         </trans-unit>
-        <trans-unit id="384" translate="yes" xml:space="preserve">
+        <trans-unit id="385" translate="yes" xml:space="preserve">
           <source>Windows PowerShell Web Access access control is managed by using the set of Windows PowerShell cmdlets described in the following table.</source>
           <target state="translated">您可以使用下表所述的 Windows PowerShell Cmdlet，來管理 Windows PowerShell Web 存取存取控制。</target>         
         </trans-unit>
-        <trans-unit id="385" translate="yes" xml:space="preserve">
+        <trans-unit id="386" translate="yes" xml:space="preserve">
           <source>There is no comparable GUI for adding or managing authorization rules.</source>
           <target state="translated">沒有適用於新增或管理授權規則的 GUI。</target>         
         </trans-unit>
-        <trans-unit id="386" translate="yes" xml:space="preserve">
-          <source>For more detailed information about Windows PowerShell Web Access cmdlets, see the cmdlet reference topics, <bpt id="p1">[</bpt>Windows PowerShell Web Access Cmdlets<ept id="p1">](https://technet.microsoft.com/library/hh918342.aspx)</ept></source>
-          <target state="translated">如需 Windows PowerShell Web 存取 Cmdlet 的詳細資訊，請參閱 Cmdlet 參考主題 <bpt id="p1">[</bpt>Windows PowerShell Web 存取 Cmdlet<ept id="p1">](https://technet.microsoft.com/library/hh918342.aspx)</ept></target>         
-        </trans-unit>
         <trans-unit id="387" translate="yes" xml:space="preserve">
-          <source>For more detail about Windows PowerShell Web Access authorization rules and security, see <bpt id="p1">[</bpt>Authorization Rules and Security Features of Windows PowerShell Web Access<ept id="p1">](https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx)</ept></source>
-          <target state="translated">如需 Windows PowerShell Web 存取授權規則和安全性的詳細資訊，請參閱 <bpt id="p1">[</bpt>Windows PowerShell Web 存取的授權規則與安全性功能<ept id="p1">](https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx)</ept></target>         
+          <source>For more detailed information about Windows PowerShell Web Access cmdlets, see the cmdlet reference topics, <bpt id="p1">[</bpt>Windows PowerShell Web Access Cmdlets<ept id="p1">](https://technet.microsoft.com/library/hh918342.aspx)</ept>.</source>
+          <target state="translated">如需 Windows PowerShell Web 存取 Cmdlet 的詳細資訊，請參閱 Cmdlet 參考主題：<bpt id="p1">[</bpt>Windows PowerShell Web Access Cmdlets<ept id="p1">](https://technet.microsoft.com/library/hh918342.aspx)</ept> (Windows PowerShell Web 存取 Cmdlet)。</target>         
         </trans-unit>
         <trans-unit id="388" translate="yes" xml:space="preserve">
+          <source>For more detail about Windows PowerShell Web Access authorization rules and security, see <bpt id="p1">[</bpt>Authorization Rules and Security Features of Windows PowerShell Web Access<ept id="p1">](https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx)</ept>.</source>
+          <target state="translated">如需 Windows PowerShell Web 存取授權規則和安全性的詳細資訊，請參閱 <bpt id="p1">[</bpt>Windows PowerShell Web 存取的授權規則與安全性功能<ept id="p1">](https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx)</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve">
           <source>To add a restrictive authorization rule</source>
           <target state="translated">新增限制性授權規則</target>         
         </trans-unit>
-        <trans-unit id="389" translate="yes" xml:space="preserve">
+        <trans-unit id="390" translate="yes" xml:space="preserve">
           <source>Do one of the following to open a Windows PowerShell session with elevated user rights.</source>
           <target state="translated">執行下列其中一個動作，使用提高的使用者權限開啟 Windows PowerShell 工作階段。</target>         
         </trans-unit>
-        <trans-unit id="390" translate="yes" xml:space="preserve">
-          <source>On the Windows desktop, right-click <bpt id="p1">**</bpt>Windows PowerShell<ept id="p1">**</ept> on the taskbar, and then click <bpt id="p2">**</bpt>Run as Administrator<ept id="p2">**</ept></source>
-          <target state="translated">在 Windows 桌面上，以滑鼠右鍵按一下工作列上的 [Windows PowerShell]，然後按一下 [以系統管理員身分執行]</target>         
-        </trans-unit>
         <trans-unit id="391" translate="yes" xml:space="preserve">
-          <source>On the Windows <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> screen, right-click <bpt id="p2">**</bpt>Windows PowerShell<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>Run as Administrator<ept id="p3">**</ept></source>
-          <target state="translated">在 Windows [開始] 畫面上，以滑鼠右鍵按一下 [Windows PowerShell]，然後按一下 [以系統管理員身分執行]</target>         
+          <source>On the Windows desktop, right-click <bpt id="p1">**</bpt>Windows PowerShell<ept id="p1">**</ept> on the taskbar, and then click <bpt id="p2">**</bpt>Run as Administrator<ept id="p2">**</ept>.</source>
+          <target state="translated">在 Windows 桌面上，以滑鼠右鍵按一下工作列上的 <bpt id="p1">**</bpt>[Windows PowerShell]<ept id="p1">**</ept>，然後按一下 <bpt id="p2">**</bpt>[以系統管理員身分執行]<ept id="p2">**</ept>。</target>         
         </trans-unit>
         <trans-unit id="392" translate="yes" xml:space="preserve">
+          <source>On the Windows <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> screen, right-click <bpt id="p2">**</bpt>Windows PowerShell<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>Run as Administrator<ept id="p3">**</ept>.</source>
+          <target state="translated">在 Windows <bpt id="p1">**</bpt>[開始]<ept id="p1">**</ept> 畫面上，以滑鼠右鍵按一下 <bpt id="p2">**</bpt>[Windows PowerShell]<ept id="p2">**</ept>，然後按一下 <bpt id="p3">**</bpt>[以系統管理員身分執行]<ept id="p3">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve">
           <source>Optional step for restricting user access by using session configurations:<ph id="ph1">&lt;/span&gt;</ph> Verify that session configurations that you want to use in your rules already exist.</source>
           <target state="translated">使用工作階段設定來限制使用者存取的選擇性步驟：<ph id="ph1">&lt;/span&gt;</ph>確定您要在規則中使用的工作階段設定已經存在。</target>         
         </trans-unit>
-        <trans-unit id="393" translate="yes" xml:space="preserve">
+        <trans-unit id="394" translate="yes" xml:space="preserve">
           <source>If they have not yet been created, use instructions for creating session configurations in <bpt id="p1">[</bpt>about\_Session\_Configuration\_Files<ept id="p1">](https://msdn.microsoft.com/library/windows/desktop/hh847838.aspx)</ept> on MSDN.</source>
           <target state="translated">如果尚未建立這些設定，請使用 MSDN 上 <bpt id="p1">[</bpt>about_Session_Configuration_Files<ept id="p1">](https://msdn.microsoft.com/library/windows/desktop/hh847838.aspx)</ept> 中建立工作階段設定的指示。</target>         
         </trans-unit>
-        <trans-unit id="394" translate="yes" xml:space="preserve">
-          <source>Type the following, and then press <bpt id="p1">**</bpt>Enter<ept id="p1">**</ept></source>
-          <target state="translated">輸入下列程式碼，然後按 <bpt id="p1">**</bpt>Enter<ept id="p1">**</ept></target>         
-        </trans-unit>
         <trans-unit id="395" translate="yes" xml:space="preserve">
+          <source>Type the following, and then press <bpt id="p1">**</bpt>Enter<ept id="p1">**</ept>.</source>
+          <target state="translated">輸入下列程式碼，然後按 <bpt id="p1">**</bpt>Enter<ept id="p1">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="396" translate="yes" xml:space="preserve">
           <source>[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_4df22c91-f56f-4bb5-91e7-99f9b365ed5d'); "Copy to clipboard.")</source>
           <target state="translated">[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_4df22c91-f56f-4bb5-91e7-99f9b365ed5d'); "複製到剪貼簿。")</target>         
         </trans-unit>
-        <trans-unit id="396" translate="yes" xml:space="preserve">
+        <trans-unit id="397" translate="yes" xml:space="preserve">
           <source>This authorization rule allows a specific user access to one computer on the network to which they typically have access, with access to a specific session configuration that is scoped to the user’s typical scripting and cmdlet needs.</source>
           <target state="translated">這個授權規則允許特定使用者存取網路上他們通常有權存取的一部電腦，以及該使用者在一般編寫指令碼及 Cmdlet 範圍內的特定工作階段設定存取權。</target>         
         </trans-unit>
-        <trans-unit id="397" translate="yes" xml:space="preserve">
-          <source>In the following example, a user named <ph id="ph1">&lt;span class="code"&gt;</ph>JSmith<ph id="ph2">&lt;/span&gt;</ph> in the <ph id="ph3">&lt;span class="code"&gt;</ph>Contoso<ph id="ph4">&lt;/span&gt;</ph> domain is granted access to manage the computer <ph id="ph5">&lt;span class="code"&gt;</ph>Contoso\_214<ph id="ph6">&lt;/span&gt;</ph>, and use a session configuration named <ph id="ph7">&lt;span class="code"&gt;</ph>NewAdminsOnly</source>
-          <target state="translated">在下列範例中，<ph id="ph3">&lt;span class="code"&gt;</ph>Contoso<ph id="ph4">&lt;/span&gt;</ph> 網域中名為 <ph id="ph1">&lt;span class="code"&gt;</ph>JSmith<ph id="ph2">&lt;/span&gt;</ph> 的使用者會被授與管理電腦 <ph id="ph5">&lt;span class="code"&gt;</ph>Contoso_214<ph id="ph6">&lt;/span&gt;</ph> 的存取權，並使用名為 <ph id="ph7">&lt;span class="code"&gt;</ph>NewAdminsOnly 的工作階段設定</target>         
-        </trans-unit>
         <trans-unit id="398" translate="yes" xml:space="preserve">
+          <source>In the following example, a user named <ph id="ph1">&lt;span class="code"&gt;</ph>JSmith<ph id="ph2">&lt;/span&gt;</ph> in the <ph id="ph3">&lt;span class="code"&gt;</ph>Contoso<ph id="ph4">&lt;/span&gt;</ph> domain is granted access to manage the computer <ph id="ph5">&lt;span class="code"&gt;</ph>Contoso\_214<ph id="ph6">&lt;/span&gt;</ph>, and use a session configuration named <ph id="ph7">&lt;span class="code"&gt;</ph>NewAdminsOnly<ph id="ph8">&lt;/span&gt;</ph>.</source>
+          <target state="translated">在下列範例中，<ph id="ph3">&lt;span class="code"&gt;</ph>Contoso<ph id="ph4">&lt;/span&gt;</ph> 網域中名為 <ph id="ph1">&lt;span class="code"&gt;</ph>JSmith<ph id="ph2">&lt;/span&gt;</ph> 的使用者會被授與管理電腦 <ph id="ph5">&lt;span class="code"&gt;</ph>Contoso_214<ph id="ph6">&lt;/span&gt;</ph> 的存取權，並使用名為 <ph id="ph7">&lt;span class="code"&gt;</ph>NewAdminsOnly<ph id="ph8">&lt;/span&gt;</ph> 的工作階段設定。</target>         
+        </trans-unit>
+        <trans-unit id="399" translate="yes" xml:space="preserve">
           <source>[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_efc3999a-2905-453f-86cd-014b41658ffc'); "Copy to clipboard.")</source>
           <target state="translated">[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_efc3999a-2905-453f-86cd-014b41658ffc'); "複製到剪貼簿。")</target>         
         </trans-unit>
-        <trans-unit id="399" translate="yes" xml:space="preserve">
-          <source>Verify that the rule has been created by running either the <bpt id="p1">**</bpt>Get-PswaAuthorizationRule<ept id="p1">**</ept> cmdlet, or <bpt id="p2">**</bpt>Test-PswaAuthorizationRule -UserName <ph id="ph1">&amp;lt;</ph>domain\\user | computer\\user<ph id="ph2">&amp;gt;</ph> -ComputerName<ept id="p2">**</ept><ph id="ph3"> &amp;lt;</ph>computer\_name<ph id="ph4">&amp;gt;</ph>.</source>
-          <target state="translated">確認已執行 <bpt id="p1">**</bpt>Get-PswaAuthorizationRule<ept id="p1">**</ept> Cmdlet 或 <bpt id="p2">**</bpt>Test-PswaAuthorizationRule -UserName <ph id="ph1">&amp;lt;</ph>domain\user | computer\user<ph id="ph2">&amp;gt;</ph> -ComputerName<ept id="p2">**</ept><ph id="ph3"> &amp;lt;</ph>computer_name<ph id="ph4">&amp;gt;</ph> 來建立規則。</target>         
-        </trans-unit>
         <trans-unit id="400" translate="yes" xml:space="preserve">
-          <source>For example, <bpt id="p1">**</bpt>Test-PswaAuthorizationRule –UserName Contoso\\JSmith –ComputerName Contoso\_214<ept id="p1">**</ept></source>
-          <target state="translated">例如，<bpt id="p1">**</bpt>Test-PswaAuthorizationRule –UserName Contoso\JSmith –ComputerName Contoso_214<ept id="p1">**</ept></target>         
+          <source>Verify that the rule has been created by running either the <bpt id="p1">**</bpt>Get-PswaAuthorizationRule<ept id="p1">**</ept> cmdlet, or <bpt id="p2">**</bpt>Test-PswaAuthorizationRule -UserName <ph id="ph1">&amp;lt;</ph>domain\\user | computer\\user<ph id="ph2">&amp;gt;</ph> -ComputerName<ept id="p2">**</ept> <ph id="ph3">&amp;lt;</ph>computer\_name<ph id="ph4">&amp;gt;</ph>.</source>
+          <target state="translated">確認已執行 <bpt id="p1">**</bpt>Get-PswaAuthorizationRule<ept id="p1">**</ept> Cmdlet 或 <bpt id="p2">**</bpt>Test-PswaAuthorizationRule -UserName <ph id="ph1">&amp;lt;</ph>網域使用者 | 電腦使用者<ph id="ph2">&amp;gt;</ph> -ComputerName<ept id="p2">**</ept> <ph id="ph3">&amp;lt;</ph>電腦名稱<ph id="ph4">&amp;gt;</ph> 建立規則。</target>         
         </trans-unit>
         <trans-unit id="401" translate="yes" xml:space="preserve">
+          <source>For example, <bpt id="p1">**</bpt>Test-PswaAuthorizationRule –UserName Contoso\\JSmith –ComputerName Contoso\_214<ept id="p1">**</ept>.</source>
+          <target state="translated">例如，<bpt id="p1">**</bpt>Test-PswaAuthorizationRule –UserName Contoso\JSmith –ComputerName Contoso_214<ept id="p1">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="402" translate="yes" xml:space="preserve">
           <source>After you have configured an authorization rule, you are ready for authorized users to sign in to the web-based console and begin using Windows PowerShell Web Access.</source>
           <target state="translated">設定授權規則之後，授權使用者就可以開始登入網頁型主控台，並開始使用 Windows PowerShell Web 存取。</target>         
         </trans-unit>
-        <trans-unit id="402" translate="yes" xml:space="preserve">
+        <trans-unit id="403" translate="yes" xml:space="preserve">
           <source>Configure a genuine certificate</source>
           <target state="translated">設定正版憑證</target>         
         </trans-unit>
-        <trans-unit id="403" translate="yes" xml:space="preserve">
+        <trans-unit id="404" translate="yes" xml:space="preserve">
           <source>For a secure production environment, always use a valid SSL certificate that has been signed by a certification authority (CA).</source>
           <target state="translated">若要安全的生產環境，請一律使用由憑證授權單位 (CA) 簽署的有效 SSL 憑證。</target>         
         </trans-unit>
-        <trans-unit id="404" translate="yes" xml:space="preserve">
+        <trans-unit id="405" translate="yes" xml:space="preserve">
           <source>The procedure in this section describes how to obtain and apply a valid SSL certificate from a CA.</source>
           <target state="translated">本節中的程序說明如何從 CA 取得有效的 SSL 憑證並加以套用。</target>         
         </trans-unit>
-        <trans-unit id="405" translate="yes" xml:space="preserve">
+        <trans-unit id="406" translate="yes" xml:space="preserve">
           <source>To configure an SSL certificate in IIS Manager</source>
           <target state="translated">在 IIS 管理員中設定 SSL 憑證</target>         
         </trans-unit>
-        <trans-unit id="406" translate="yes" xml:space="preserve">
+        <trans-unit id="407" translate="yes" xml:space="preserve">
           <source>In the IIS Manager tree pane, select the server on which Windows PowerShell Web Access is installed.</source>
           <target state="translated">在 [IIS 管理員] 樹狀目錄窗格中，選取安裝 Windows PowerShell Web 存取的伺服器。</target>         
         </trans-unit>
-        <trans-unit id="407" translate="yes" xml:space="preserve">
-          <source>In the content pane, double click <bpt id="p1">**</bpt>Server Certificates<ept id="p1">**</ept></source>
-          <target state="translated">在內容窗格中，按兩下 [伺服器憑證]</target>         
-        </trans-unit>
         <trans-unit id="408" translate="yes" xml:space="preserve">
+          <source>In the content pane, double click <bpt id="p1">**</bpt>Server Certificates<ept id="p1">**</ept>.</source>
+          <target state="translated">在內容窗格中，按兩下 <bpt id="p1">**</bpt>[伺服器憑證]<ept id="p1">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="409" translate="yes" xml:space="preserve">
           <source>In the <bpt id="p1">**</bpt>Actions<ept id="p1">**</ept> pane, do one of the following.</source>
           <target state="translated">在 [動作] 窗格中，執行下列其中一項。</target>         
         </trans-unit>
-        <trans-unit id="409" translate="yes" xml:space="preserve">
-          <source>For more information about configuring server certificates in IIS, see <bpt id="p1">[</bpt>Configuring Server Certificates in IIS 7<ept id="p1">](https://technet.microsoft.com/library/cc732230.aspx)</ept></source>
-          <target state="translated">如需在 IIS 中設定伺服器憑證的詳細資訊，請參閱<bpt id="p1">[</bpt>在 IIS 7 中設定伺服器憑證<ept id="p1">](https://technet.microsoft.com/library/cc732230.aspx)</ept></target>         
-        </trans-unit>
         <trans-unit id="410" translate="yes" xml:space="preserve">
+          <source>For more information about configuring server certificates in IIS, see <bpt id="p1">[</bpt>Configuring Server Certificates in IIS 7<ept id="p1">](https://technet.microsoft.com/library/cc732230.aspx)</ept>.</source>
+          <target state="translated">如需在 IIS 中設定伺服器憑證的詳細資訊，請參閱<bpt id="p1">[</bpt>在 IIS 7 中設定伺服器憑證<ept id="p1">](https://technet.microsoft.com/library/cc732230.aspx)</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="411" translate="yes" xml:space="preserve">
           <source>Click <bpt id="p1">**</bpt>Import<ept id="p1">**</ept> to import an existing, valid certificate from a location on your network.</source>
           <target state="translated">按一下 [匯入]，從網路上的位置匯入現有的有效憑證。</target>         
         </trans-unit>
-        <trans-unit id="411" translate="yes" xml:space="preserve">
+        <trans-unit id="412" translate="yes" xml:space="preserve">
           <source>Click <bpt id="p1">**</bpt>Create Certificate Request<ept id="p1">**</ept> to request a certificate from a CA such as VeriSign™, Thawte, or GeoTrust®.</source>
           <target state="translated">按一下 [建立憑證要求]，向 CA (例如 VeriSign™、Thawte 或 GeoTrust®) 要求憑證。</target>         
         </trans-unit>
-        <trans-unit id="412" translate="yes" xml:space="preserve">
+        <trans-unit id="413" translate="yes" xml:space="preserve">
           <source>The certificate's common name must match the host header in the request.</source>
           <target state="translated">憑證的一般名稱必須符合要求中的主機標頭。</target>         
         </trans-unit>
-        <trans-unit id="413" translate="yes" xml:space="preserve">
+        <trans-unit id="414" translate="yes" xml:space="preserve">
           <source>For example, if the client browser requests http://www.contoso.com/, then the common name must also be http://www.contoso.com/.</source>
           <target state="translated">例如，如果用戶端瀏覽器要求 http://www.contoso.com/，則一般名稱也必須為 http://www.contoso.com/。</target>         
         </trans-unit>
-        <trans-unit id="414" translate="yes" xml:space="preserve">
+        <trans-unit id="415" translate="yes" xml:space="preserve">
           <source>This is the most secure and recommended option for providing the Windows PowerShell Web Access gateway with a certificate.</source>
           <target state="translated">這是提供憑證給 Windows PowerShell Web 存取閘道最安全且最建議的選項。</target>         
         </trans-unit>
-        <trans-unit id="415" translate="yes" xml:space="preserve">
+        <trans-unit id="416" translate="yes" xml:space="preserve">
           <source>Click <bpt id="p1">**</bpt>Create a Self-Signed Certificate<ept id="p1">**</ept> to create a certificate that you can use immediately, and have signed later by a CA if desired.</source>
           <target state="translated">按一下 [建立自我簽署憑證]，建立您可以立即使用的憑證，稍後視需要交由 CA 簽署。</target>         
         </trans-unit>
-        <trans-unit id="416" translate="yes" xml:space="preserve">
+        <trans-unit id="417" translate="yes" xml:space="preserve">
           <source>Specify a friendly name for the self-signed certificate, such as <bpt id="p1">**</bpt>Windows PowerShell Web Access<ept id="p1">**</ept>.</source>
           <target state="translated">為自我簽署的憑證指定易記名稱，例如 <bpt id="p1">**</bpt>Windows PowerShell Web 存取<ept id="p1">**</ept>。</target>         
         </trans-unit>
-        <trans-unit id="417" translate="yes" xml:space="preserve">
+        <trans-unit id="418" translate="yes" xml:space="preserve">
           <source>This option is not considered secure, and is recommended only for a private test environment.</source>
           <target state="translated">這個選項並不安全，建議只用於私人測試環境。</target>         
         </trans-unit>
-        <trans-unit id="418" translate="yes" xml:space="preserve">
+        <trans-unit id="419" translate="yes" xml:space="preserve">
           <source>After creating or obtaining a certificate, select the website to which the certificate is applied (for example, <bpt id="p1">**</bpt>Default Web Site<ept id="p1">**</ept>) in the IIS Manager tree pane, and then click <bpt id="p2">**</bpt>Bindings<ept id="p2">**</ept> in the <bpt id="p3">**</bpt>Actions<ept id="p3">**</ept> pane.</source>
           <target state="translated">建立或取得憑證之後，在 [IIS 管理員] 樹狀目錄窗格中選取要套用此憑證的網站 (例如 [預設的網站])，然後在 [動作] 窗格中按一下 [繫結]。</target>         
         </trans-unit>
-        <trans-unit id="419" translate="yes" xml:space="preserve">
+        <trans-unit id="420" translate="yes" xml:space="preserve">
           <source>In the <bpt id="p1">**</bpt>Add Site Binding<ept id="p1">**</ept> dialog box, add an <bpt id="p2">**</bpt>https<ept id="p2">**</ept> binding for the site, if one is not already displayed.</source>
           <target state="translated">如果尚未顯示繫結，請在 [新增站台繫結] 對話方塊中，新增站台的 [https] 繫結。</target>         
         </trans-unit>
-        <trans-unit id="420" translate="yes" xml:space="preserve">
+        <trans-unit id="421" translate="yes" xml:space="preserve">
           <source>If you are not using a self-signed certificate, specify the host name from step 3 of this procedure.</source>
           <target state="translated">如果您不是使用自我簽署的憑證，請指定這個程序步驟 3 所指定的主機名稱。</target>         
         </trans-unit>
-        <trans-unit id="421" translate="yes" xml:space="preserve">
+        <trans-unit id="422" translate="yes" xml:space="preserve">
           <source>If you are using a self-signed certificate, this step is not required.</source>
           <target state="translated">如果您使用的是自我簽署的憑證，就不需要這個步驟。</target>         
         </trans-unit>
-        <trans-unit id="422" translate="yes" xml:space="preserve">
-          <source>Select the certificate that you obtained or created in step 3 of this procedure, and then click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept></source>
-          <target state="translated">選取您在這個程序的步驟 3 取得或建立的憑證，然後按一下 [確定]</target>         
-        </trans-unit>
         <trans-unit id="423" translate="yes" xml:space="preserve">
+          <source>Select the certificate that you obtained or created in step 3 of this procedure, and then click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+          <target state="translated">選取您在這個程序的步驟 3 取得或建立的憑證，然後按一下 <bpt id="p1">**</bpt>[確定]<ept id="p1">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="424" translate="yes" xml:space="preserve">
           <source>Using the web-based Windows PowerShell console</source>
           <target state="translated">使用網頁型 Windows PowerShell 主控台</target>         
         </trans-unit>
-        <trans-unit id="424" translate="yes" xml:space="preserve">
+        <trans-unit id="425" translate="yes" xml:space="preserve">
           <source>After Windows PowerShell Web Access is installed and the gateway configuration is finished as described in this topic, the Windows PowerShell web-based console is ready to use.</source>
           <target state="translated">依本主題所述方式安裝 Windows PowerShell Web 存取並完成閘道設定之後，就可以使用 Windows PowerShell 網頁型主控台。</target>         
         </trans-unit>
-        <trans-unit id="425" translate="yes" xml:space="preserve">
-          <source>For more information about getting started in the web-based console, see <bpt id="p1">[</bpt>Use the Web-based Windows PowerShell Console<ept id="p1">](https://technet.microsoft.com/en-us/library/hh831417(v=ws.11).aspx)</ept></source>
-          <target state="translated">如需開始使用網頁型主控台的詳細資訊，請參閱<bpt id="p1">[</bpt>使用網頁型 Windows PowerShell 主控台<ept id="p1">](https://technet.microsoft.com/en-us/library/hh831417(v=ws.11).aspx)</ept></target>         
-        </trans-unit>
         <trans-unit id="426" translate="yes" xml:space="preserve">
+          <source>For more information about getting started in the web-based console, see <bpt id="p1">[</bpt>Use the Web-based Windows PowerShell Console<ept id="p1">](https://technet.microsoft.com/en-us/library/hh831417(v=ws.11).aspx)</ept>.</source>
+          <target state="translated">如需開始使用網頁型主控台的詳細資訊，請參閱<bpt id="p1">[</bpt>使用網頁型 Windows PowerShell 主控台<ept id="p1">](https://technet.microsoft.com/en-us/library/hh831417(v=ws.11).aspx)</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="427" translate="yes" xml:space="preserve">
           <source>See Also</source>
           <target state="translated">另請參閱</target>         
         </trans-unit>
-        <trans-unit id="427" translate="yes" xml:space="preserve">
-          <source>Internet Information Services (IIS) 7.0 Documentation</source>
-          <target state="translated">Internet Information Services (IIS) 7.0 文件</target>         
-        </trans-unit>
         <trans-unit id="428" translate="yes" xml:space="preserve">
-          <source>IIS Manager 7.0 Help</source>
-          <target state="translated">IIS 管理員 7.0 說明</target>         
+          <source><bpt id="p1">[</bpt>Internet Information Services (IIS) 7.0 Documentation<ept id="p1">](https://technet.microsoft.com/library/cc753433.aspx)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>IIS Manager 7.0 Help<ept id="p2">](https://technet.microsoft.com/library/cc732664.aspx)</ept><ph id="ph2">
+</ph><bpt id="p3">[</bpt>Configure Web Server Security (IIS 7)<ept id="p3">](https://technet.microsoft.com/library/cc731278.aspx)</ept><ph id="ph3">
+</ph><bpt id="p4">[</bpt>IPsec Deployment Resources<ept id="p4">](https://technet.microsoft.com/network/bb531150)</ept></source>
+          <target state="translated"><bpt id="p1">[</bpt>Internet Information Services (IIS) 7.0 文件<ept id="p1">](https://technet.microsoft.com/library/cc753433.aspx)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>IIS 管理員 7.0 說明<ept id="p2">](https://technet.microsoft.com/library/cc732664.aspx)</ept><ph id="ph2">
+</ph><bpt id="p3">[</bpt>設定網頁伺服器安全性 (IIS 7)<ept id="p3">](https://technet.microsoft.com/library/cc731278.aspx)</ept><ph id="ph3">
+</ph><bpt id="p4">[</bpt>IPsec 部屬資源<ept id="p4">](https://technet.microsoft.com/network/bb531150)</ept></target>         
         </trans-unit>
         <trans-unit id="429" translate="yes" xml:space="preserve">
-          <source>Configure Web Server Security (IIS 7)</source>
-          <target state="translated">設定網頁伺服器安全性 (IIS 7)</target>         
-        </trans-unit>
-        <trans-unit id="430" translate="yes" xml:space="preserve">
-          <source>IPsec Deployment Resources</source>
-          <target state="translated">IPsec 部署資源</target>         
-        </trans-unit>
-        <trans-unit id="431" translate="yes" xml:space="preserve">
           <source>Show:<ph id="ph1">&lt;/span&gt;</ph> Inherited Protected</source>
           <target state="translated">顯示︰<ph id="ph1">&lt;/span&gt;</ph> 繼承受保護的</target>         
         </trans-unit>
-        <trans-unit id="432" translate="yes" xml:space="preserve">
+        <trans-unit id="430" translate="yes" xml:space="preserve">
           <source>Was this page helpful?</source>
           <target state="translated">此頁面是否有幫助？</target>         
         </trans-unit>
-        <trans-unit id="433" translate="yes" xml:space="preserve">
-          <source>Yes</source>
-          <target state="translated">是</target>         
+        <trans-unit id="431" translate="yes" xml:space="preserve">
+          <source>Yes No</source>
+          <target state="translated">是 否</target>         
         </trans-unit>
-        <trans-unit id="434" translate="yes" xml:space="preserve">
-          <source>No</source>
-          <target state="translated">否</target>         
-        </trans-unit>
-        <trans-unit id="435" translate="yes" xml:space="preserve">
+        <trans-unit id="432" translate="yes" xml:space="preserve">
           <source>Additional feedback?</source>
           <target state="translated">其他意見反應？</target>         
         </trans-unit>
+        <trans-unit id="433" translate="yes" xml:space="preserve">
+          <source>1500<ph id="ph1">&lt;/span&gt;</ph> characters remaining<ph id="ph2">&lt;/span&gt;</ph> Submit Skip this</source>
+          <target state="translated">剩下 1500<ph id="ph1">&lt;/span&gt;</ph> 個字元<ph id="ph2">&lt;/span&gt;</ph> 提交略過此步驟</target>         
+        </trans-unit>
+        <trans-unit id="434" translate="yes" xml:space="preserve">
+          <source>Thank you!</source>
+          <target state="translated">謝謝您！</target>         
+        </trans-unit>
+        <trans-unit id="435" translate="yes" xml:space="preserve">
+          <source>We appreciate your feedback.</source>
+          <target state="translated">我們非常感謝您的意見反應。</target>         
+        </trans-unit>
         <trans-unit id="436" translate="yes" xml:space="preserve">
-          <source>1500<ph id="ph1">&lt;/span&gt;</ph> characters remaining</source>
-          <target state="translated">剩餘 1500<ph id="ph1">&lt;/span&gt;</ph> 個字元</target>         
-        </trans-unit>
-        <trans-unit id="437" translate="yes" xml:space="preserve">
-          <source>Submit</source>
-          <target state="translated">提交</target>         
-        </trans-unit>
-        <trans-unit id="438" translate="yes" xml:space="preserve">
-          <source>Skip this</source>
-          <target state="translated">請跳過此項</target>         
-        </trans-unit>
-        <trans-unit id="439" translate="yes" xml:space="preserve">
-          <source>Thank you!<ph id="ph1">&lt;/span&gt; &lt;span class="stdr-appreciate"&gt;</ph>We appreciate your feedback.</source>
-          <target state="translated">感謝您！<ph id="ph1">&lt;/span&gt; &lt;span class="stdr-appreciate"&gt;</ph>我們非常感謝您的意見反應。</target>         
-        </trans-unit>
-        <trans-unit id="440" translate="yes" xml:space="preserve">
           <source>Manage Your Profile</source>
           <target state="translated">管理您的設定檔</target>         
         </trans-unit>
-        <trans-unit id="441" translate="yes" xml:space="preserve">
-          <source>Site Feedback</source>
-          <target state="translated">網站意見反應</target>         
+        <trans-unit id="437" translate="yes" xml:space="preserve">
+          <source>Site Feedback<ph id="ph1">&lt;/a&gt;</ph> Site Feedback</source>
+          <target state="translated">站台意見反應<ph id="ph1">&lt;/a&gt;</ph> 站台意見反應</target>         
         </trans-unit>
-        <trans-unit id="442" translate="yes" xml:space="preserve">
-          <source>Site Feedback</source>
-          <target state="translated">網站意見反應</target>         
-        </trans-unit>
-        <trans-unit id="443" translate="yes" xml:space="preserve">
+        <trans-unit id="438" translate="yes" xml:space="preserve">
           <source>x</source>
           <target state="translated">x</target>         
         </trans-unit>
-        <trans-unit id="444" translate="yes" xml:space="preserve">
+        <trans-unit id="439" translate="yes" xml:space="preserve">
           <source>Tell us about your experience...</source>
           <target state="translated">請與我們分享您的體驗...</target>         
         </trans-unit>
-        <trans-unit id="445" translate="yes" xml:space="preserve">
+        <trans-unit id="440" translate="yes" xml:space="preserve">
           <source>Did the page load quickly?</source>
           <target state="translated">頁面是否快速載入？</target>         
         </trans-unit>
-        <trans-unit id="446" translate="yes" xml:space="preserve">
-          <source>Yes<ph id="ph1">&lt;span&gt; &lt;/span&gt;&lt;/span&gt; &lt;span&gt;</ph> No</source>
-          <target state="translated">是<ph id="ph1">&lt;span&gt; &lt;/span&gt;&lt;/span&gt; &lt;span&gt;</ph> 否</target>         
+        <trans-unit id="441" translate="yes" xml:space="preserve">
+          <source>Yes<ph id="ph1">&lt;span&gt;</ph> <ph id="ph2">&lt;/span&gt;&lt;/span&gt;</ph> <ph id="ph3">&lt;span&gt;</ph> No</source>
+          <target state="translated">是<ph id="ph1">&lt;span&gt;</ph> <ph id="ph2">&lt;/span&gt;&lt;/span&gt;</ph> <ph id="ph3">&lt;span&gt;</ph> 否</target>         
         </trans-unit>
-        <trans-unit id="447" translate="yes" xml:space="preserve">
+        <trans-unit id="442" translate="yes" xml:space="preserve">
           <source>Do you like the page design?</source>
           <target state="translated">您喜歡頁面設計嗎？</target>         
         </trans-unit>
-        <trans-unit id="448" translate="yes" xml:space="preserve">
-          <source>Yes<ph id="ph1">&lt;span&gt; &lt;/span&gt;&lt;/span&gt; &lt;span&gt;</ph> No</source>
-          <target state="translated">是<ph id="ph1">&lt;span&gt; &lt;/span&gt;&lt;/span&gt; &lt;span&gt;</ph> 否</target>         
+        <trans-unit id="443" translate="yes" xml:space="preserve">
+          <source>Yes<ph id="ph1">&lt;span&gt;</ph> <ph id="ph2">&lt;/span&gt;&lt;/span&gt;</ph> <ph id="ph3">&lt;span&gt;</ph> No</source>
+          <target state="translated">是<ph id="ph1">&lt;span&gt;</ph> <ph id="ph2">&lt;/span&gt;&lt;/span&gt;</ph> <ph id="ph3">&lt;span&gt;</ph> 否</target>         
         </trans-unit>
-        <trans-unit id="449" translate="yes" xml:space="preserve">
+        <trans-unit id="444" translate="yes" xml:space="preserve">
           <source>Tell us more</source>
           <target state="translated">請告訴我們更多資訊</target>         
         </trans-unit>
-        <trans-unit id="450" translate="yes" xml:space="preserve">
+        <trans-unit id="445" translate="yes" xml:space="preserve">
           <source>Flash Newsletter</source>
           <target state="translated">Flash Newsletter</target>         
         </trans-unit>
-        <trans-unit id="451" translate="yes" xml:space="preserve">
+        <trans-unit id="446" translate="yes" xml:space="preserve">
           <source>Contact Us</source>
           <target state="translated">與我們連絡</target>         
         </trans-unit>
-        <trans-unit id="452" translate="yes" xml:space="preserve">
+        <trans-unit id="447" translate="yes" xml:space="preserve">
           <source>Privacy Statement</source>
           <target state="translated">隱私權聲明</target>         
         </trans-unit>
-        <trans-unit id="453" translate="yes" xml:space="preserve">
+        <trans-unit id="448" translate="yes" xml:space="preserve">
           <source>Terms of Use</source>
           <target state="translated">使用條款</target>         
         </trans-unit>
-        <trans-unit id="454" translate="yes" xml:space="preserve">
+        <trans-unit id="449" translate="yes" xml:space="preserve">
           <source>Trademarks</source>
           <target state="translated">商標</target>         
         </trans-unit>
-        <trans-unit id="455" translate="yes" xml:space="preserve">
+        <trans-unit id="450" translate="yes" xml:space="preserve">
           <source>© 2016 Microsoft</source>
           <target state="translated">© 2016 Microsoft</target>         
         </trans-unit>
-        <trans-unit id="456" translate="yes" xml:space="preserve">
+        <trans-unit id="451" translate="yes" xml:space="preserve">
           <source>© 2016 Microsoft</source>
           <target state="translated">© 2016 Microsoft</target>         
         </trans-unit>
-        <trans-unit id="457" translate="yes" xml:space="preserve">
+        <trans-unit id="452" translate="yes" xml:space="preserve">
           <source>Third party scripts and code linked to or referenced from this website are licensed to you by the parties that own such code, not by Microsoft.</source>
           <target state="translated">連結至此網站或由此網站參照之第三方指令碼和程式碼，係由擁有此類程式碼之第三方授權予　貴用戶，而非 Microsoft 所授予。</target>         
         </trans-unit>
-        <trans-unit id="458" translate="yes" xml:space="preserve">
+        <trans-unit id="453" translate="yes" xml:space="preserve">
           <source>See ASP.NET Ajax CDN Terms of Use – http://www.asp.net/ajaxlibrary/CDN.ashx.</source>
           <target state="translated">請參閱 ASP.NET Ajax CDN 使用條款 – http://www.asp.net/ajaxlibrary/CDN.ashx。</target>         
         </trans-unit>
