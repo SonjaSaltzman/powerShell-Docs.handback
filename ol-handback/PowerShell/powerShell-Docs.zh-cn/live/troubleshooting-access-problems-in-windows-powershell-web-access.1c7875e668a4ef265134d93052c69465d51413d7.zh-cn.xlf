@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\core-powershell\web-access\troubleshooting-access-problems-in-windows-powershell-web-access.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6366ec9c49f721b758b6a520f68cf2b3c5ee0caf</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-39517ae" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>troubleshooting access problems in windows powershell web access</source>
+          <target state="translated">Windows PowerShell Web 访问中的访问问题疑难解答</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Troubleshooting Access Problems in Windows PowerShell Web Access</source>
+          <target state="translated">Windows PowerShell Web 访问中的访问问题疑难解答</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Updated: June 24, 2013</source>
+          <target state="translated">更新时间： 2013年 6 月 24日</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows Server 2012 R2, Windows Server 2012</source>
+          <target state="translated">适用于：Windows Server 2012 R2、Windows Server 2012</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The following table identifies some common problems that users might experience when they are attempting to connect to a remote computer by using Windows PowerShell Web Access, and includes suggestions for resolving the problems.</source>
+          <target state="translated">下表识别了一些用户使用 Windows PowerShell Web 访问尝试连接到远程计算机时可能遇到的常见问题，其中包括解决这些问题的建议。</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Problem</source>
+          <target state="translated">问题</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Possible cause and solution</source>
+          <target state="translated">可能原因和解决方案</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Sign-in failure</source>
+          <target state="translated">登录失败</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Failure could occur because of any of the following.</source>
+          <target state="translated">失败可能是由于下列某个原因所至：</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>An authorization rule that allows the user access to the computer, or a specific session configuration on the remote computer, does not exist.</source>
+          <target state="translated">允许用户访问计算机的授权规则或远程计算机上的特定会话配置并不存在。</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Web Access security is restrictive; users must be granted explicit access to remote computers by using authorization rules.</source>
+          <target state="translated">Windows PowerShell Web 访问安全是严谨的；必须使用授权规则明确赋予用户访问远程计算机的权限。</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For more information about creating authorization rules, see <ph id="ph1">&lt;a href="https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx"&gt;</ph>Authorization Rules and Security Features of Windows PowerShell Web Access<ph id="ph2">&lt;/a&gt;</ph> in this guide.</source>
+          <target state="translated">有关创建授权规则的详细信息，请参阅本指南中的 <ph id="ph1">&lt;a href="https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx"&gt;</ph>Windows PowerShell Web 访问的授权规则和安全功能<ph id="ph2">&lt;/a&gt;</ph>。</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The user does not have authorized access to the destination computer.</source>
+          <target state="translated">用户未获得访问目标计算机的权限。</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This is determined by access control lists (ACLs).</source>
+          <target state="translated">这是由访问控制列表 (ACL) 来确定的。</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For more information, see “Signing in to Windows PowerShell Web Access” in <ph id="ph1">&lt;a href="https://technet.microsoft.com/en-us/library/hh831417(v=ws.11).aspx"&gt;</ph>Use the Web-based Windows PowerShell Console<ph id="ph2">&lt;/a&gt;</ph>, or the <ph id="ph3">&lt;a href="https://msdn.microsoft.com/library/windows/desktop/ee706585.aspx"&gt;</ph>Windows PowerShell Team Blog<ph id="ph4">&lt;/a&gt;</ph>.</source>
+          <target state="translated">有关详细信息，请参阅<ph id="ph1">&lt;a href="https://technet.microsoft.com/en-us/library/hh831417(v=ws.11).aspx"&gt;</ph>使用基于 Web 的 Windows PowerShell 控制台<ph id="ph2">&lt;/a&gt;</ph>中的“登录到 Windows PowerShell Web 访问”或 <ph id="ph3">&lt;a href="https://msdn.microsoft.com/library/windows/desktop/ee706585.aspx"&gt;</ph>Windows PowerShell Team Blog<ph id="ph4">&lt;/a&gt;</ph>（Windows PowerShell 团队博客）。</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell remote management might not be enabled on the destination computer.</source>
+          <target state="translated">可能无法在目标计算机上启用 Windows PowerShell 远程管理。</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Verify that it is enabled on the computer to which the user is trying to connect.</source>
+          <target state="translated">验证它是否已在用户尝试连接的计算机上启用。</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For more information, see “How to Configure Your Computer for Remoting” in <ph id="ph1">&lt;a href="https://technet.microsoft.com/library/dd315349.aspx"&gt;</ph>about_Remote_Requirements<ph id="ph2">&lt;/a&gt;</ph> in the Windows PowerShell About Help Topics.</source>
+          <target state="translated">有关详细信息，请参阅 Windows PowerShell 相关帮助主题中 <ph id="ph1">&lt;a href="https://technet.microsoft.com/library/dd315349.aspx"&gt;</ph>about_Remote_Requirements<ph id="ph2">&lt;/a&gt;</ph> 的“如何为进行远程处理而配置计算机”。</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>When users try to sign in to Windows PowerShell Web Access in an Internet Explorer window, they are shown an <ph id="ph1">&lt;strong&gt;</ph>Internal Server Error<ph id="ph2">&lt;/strong&gt;</ph> page, or Internet Explorer stops responding.</source>
+          <target state="translated">当用户尝试在 Internet Explorer 窗口中登录到 Windows PowerShell Web 访问时，会向他们显示“内部服务器错误”<ph id="ph1">&lt;strong&gt;</ph><ph id="ph2">&lt;/strong&gt;</ph>页面或 Internet Explorer 停止响应。</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This issue is specific to Internet Explorer.</source>
+          <target state="translated">此问题特定于 Internet Explorer。</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This can occur for users who have signed in with a domain name that contains Chinese characters, or if one or more Chinese characters are part of the gateway server name.</source>
+          <target state="translated">对于已使用包含中文字符的域名登录的用户或网关服务器名称中包含一个或多个中文字符时会出现此问题。</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To work around this issue, the user should <ph id="ph1">&lt;a href="http://ie.microsoft.com/testdrive/info/downloads/Default.html"&gt;</ph>install and run Internet Explorer 10<ph id="ph2">&lt;/a&gt;</ph>, and then perform the following steps.</source>
+          <target state="translated">若要解决此问题，用户应<ph id="ph1">&lt;a href="http://ie.microsoft.com/testdrive/info/downloads/Default.html"&gt;</ph>安装并运行 Internet Explorer 10<ph id="ph2">&lt;/a&gt;</ph>，然后执行以下步骤。</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Change the Internet Explorer <ph id="ph1">&lt;strong&gt;</ph>Document Mode<ph id="ph2">&lt;/strong&gt;</ph> setting to <ph id="ph3">&lt;strong&gt;</ph>IE10 standards<ph id="ph4">&lt;/strong&gt;</ph>.</source>
+          <target state="translated">将 Internet Explorer“文档模式”<ph id="ph1">&lt;strong&gt;</ph><ph id="ph2">&lt;/strong&gt;</ph>设置更改为“IE10 标准”<ph id="ph3">&lt;strong&gt;</ph><ph id="ph4">&lt;/strong&gt;</ph>。</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Press <ph id="ph1">&lt;strong&gt;</ph>F12<ph id="ph2">&lt;/strong&gt;</ph> to open the Developer Tools console.</source>
+          <target state="translated">按 <ph id="ph1">&lt;strong&gt;</ph>F12<ph id="ph2">&lt;/strong&gt;</ph> 可打开“开发人员工具”控制台。</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>In Internet Explorer 10, click <ph id="ph1">&lt;strong&gt;</ph>Browser Mode<ph id="ph2">&lt;/strong&gt;</ph>, and then select <ph id="ph3">&lt;strong&gt;</ph>Internet Explorer 10<ph id="ph4">&lt;/strong&gt;</ph>.</source>
+          <target state="translated">在 Internet Explorer 10 中，单击“浏览器模式”<ph id="ph1">&lt;strong&gt;</ph><ph id="ph2">&lt;/strong&gt;</ph>，然后选择“Internet Explorer 10”<ph id="ph3">&lt;strong&gt;</ph><ph id="ph4">&lt;/strong&gt;</ph>。</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Click <ph id="ph1">&lt;strong&gt;</ph>Document Mode<ph id="ph2">&lt;/strong&gt;</ph>, and then click <ph id="ph3">&lt;strong&gt;</ph>IE10 standards<ph id="ph4">&lt;/strong&gt;</ph>.</source>
+          <target state="translated">单击“文档模式”<ph id="ph1">&lt;strong&gt;</ph><ph id="ph2">&lt;/strong&gt;</ph>，然后单击“IE10 标准”<ph id="ph3">&lt;strong&gt;</ph><ph id="ph4">&lt;/strong&gt;</ph>。</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Press <ph id="ph1">&lt;strong&gt;</ph>F12<ph id="ph2">&lt;/strong&gt;</ph> again to close the Developer Tools console.</source>
+          <target state="translated">再次按 <ph id="ph1">&lt;strong&gt;</ph>F12<ph id="ph2">&lt;/strong&gt;</ph> 可关闭“开发人员工具”控制台。</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Disable automatic proxy configuration.</source>
+          <target state="translated">禁用自动代理配置。</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>In Internet Explorer 10, click <ph id="ph1">&lt;strong&gt;</ph>Tools<ph id="ph2">&lt;/strong&gt;</ph>, and then click <ph id="ph3">&lt;strong&gt;</ph>Internet Options<ph id="ph4">&lt;/strong&gt;</ph>.</source>
+          <target state="translated">在 Internet Explorer 10 中，单击“工具”<ph id="ph1">&lt;strong&gt;</ph><ph id="ph2">&lt;/strong&gt;</ph>，然后单击“Internet 选项”<ph id="ph3">&lt;strong&gt;</ph><ph id="ph4">&lt;/strong&gt;</ph>。</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In the <ph id="ph1">&lt;strong&gt;</ph>Internet Options<ph id="ph2">&lt;/strong&gt;</ph> dialog box, on the <ph id="ph3">&lt;strong&gt;</ph>Connections<ph id="ph4">&lt;/strong&gt;</ph> tab, click <ph id="ph5">&lt;strong&gt;</ph>LAN settings<ph id="ph6">&lt;/strong&gt;</ph>.</source>
+          <target state="translated">在“Internet 选项”<ph id="ph1">&lt;strong&gt;</ph><ph id="ph2">&lt;/strong&gt;</ph>对话框中的“连接”<ph id="ph3">&lt;strong&gt;</ph><ph id="ph4">&lt;/strong&gt;</ph>选项卡上，单击“LAN 设置”<ph id="ph5">&lt;strong&gt;</ph><ph id="ph6">&lt;/strong&gt;</ph>。</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Clear the <ph id="ph1">&lt;strong&gt;</ph>Automatically detect settings<ph id="ph2">&lt;/strong&gt;</ph> check box.</source>
+          <target state="translated">清除“自动检测设置”<ph id="ph1">&lt;strong&gt;</ph><ph id="ph2">&lt;/strong&gt;</ph>复选框。</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Click <ph id="ph1">&lt;strong&gt;</ph>OK<ph id="ph2">&lt;/strong&gt;</ph>, and then click <ph id="ph3">&lt;strong&gt;</ph>OK<ph id="ph4">&lt;/strong&gt;</ph> again to close the <ph id="ph5">&lt;strong&gt;</ph>Internet Options<ph id="ph6">&lt;/strong&gt;</ph> dialog box.</source>
+          <target state="translated">单击“确定”<ph id="ph1">&lt;strong&gt;</ph><ph id="ph2">&lt;/strong&gt;</ph>，然后再次单击“确定”<ph id="ph3">&lt;strong&gt;</ph><ph id="ph4">&lt;/strong&gt;</ph>可关闭“Internet 选项”<ph id="ph5">&lt;strong&gt;</ph><ph id="ph6">&lt;/strong&gt;</ph>对话框。</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Cannot connect to a remote workgroup computer</source>
+          <target state="translated">无法连接到远程工作组计算机</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If the destination computer is a member of a workgroup, use the following syntax to provide your user name and sign in to the computer: <ph id="ph1">&amp;lt;&lt;em&gt;</ph>workgroup_name<ph id="ph2">&lt;/em&gt;&amp;gt;\&amp;lt;&lt;em&gt;</ph>user_name</source>
+          <target state="translated">如果目标计算机在工作组中，则使用以下语法，提供你的用户名，并且登录到计算机：<ph id="ph1">&amp;lt;&lt;em&gt;</ph>workgroup_name<ph id="ph2">&lt;/em&gt;&amp;gt;\&amp;lt;&lt;em&gt;</ph>user_name</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Cannot find Web Server (IIS) management tools, even though the role was installed</source>
+          <target state="translated">找不到 Web 服务器 (IIS) 管理工具，即使已安装了角色</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>If you installed Windows PowerShell Web Access by using the <ph id="ph1">&lt;span class="code"&gt;</ph>Install-WindowsFeature<ph id="ph2">&lt;/span&gt;</ph> cmdlet, management tools are not installed unless the <ph id="ph3">&lt;span class="code"&gt;</ph>IncludeManagementTools<ph id="ph4">&lt;/span&gt;</ph> parameter is added to the cmdlet.</source>
+          <target state="translated">如果你通过使用 <ph id="ph1">&lt;span class="code"&gt;</ph>Install-WindowsFeature<ph id="ph2">&lt;/span&gt;</ph> cmdlet 安装了 Windows PowerShell Web 访问，则不会安装管理工具，除非将 <ph id="ph3">&lt;span class="code"&gt;</ph>IncludeManagementTools<ph id="ph4">&lt;/span&gt;</ph> 参数添加到该 cmdlet。</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>For an example, see “To install Windows PowerShell Web Access by using Windows PowerShell cmdlets” in <ph id="ph1">&lt;a href="https://technet.microsoft.com/en-us/library/hh831611(v=ws.11).aspx"&gt;</ph>Install and Use Windows PowerShell Web Access<ph id="ph2">&lt;/a&gt;</ph>.</source>
+          <target state="translated">例如，参阅<ph id="ph1">&lt;a href="https://technet.microsoft.com/en-us/library/hh831611(v=ws.11).aspx"&gt;</ph>安装和使用 Windows PowerShell Web 访问<ph id="ph2">&lt;/a&gt;</ph>中的“使用 Windows PowerShell cmdlet 安装 Windows PowerShell Web 访问”。</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You can add the IIS Manager console and other IIS management tools that you need by selecting the tools in an Add Roles and Features Wizard session that is targeted at the gateway server.</source>
+          <target state="translated">你可选择在以网关服务器为目标的“添加角色和功能向导”会话中的工具，添加 IIS 管理器控制台及其他你需要的 IIS 管理工具。</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The Add Roles and Features Wizard is opened from within Server Manager.</source>
+          <target state="translated">“添加角色和功能向导”可从服务器管理器中打开。</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell Web Access website is not accessible</source>
+          <target state="translated">无法访问 Windows PowerShell Web 访问网站</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If Enhanced Security Configuration is enabled in Internet Explorer (IE ESC), you can add the Windows PowerShell Web Access website to the list of trusted sites, or disable IE ESC.</source>
+          <target state="translated">如果已在 Internet Explorer 中启用了增强的安全配置 (IE ESC)，你可以将 Windows PowerShell Web 访问网站添加到受信任的站点列表，或禁用 IE ESC。</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You can disable IE ESC in the <ph id="ph1">&lt;strong&gt;</ph>Properties<ph id="ph2">&lt;/strong&gt;</ph> tile on the <ph id="ph3">&lt;strong&gt;</ph>Local Server<ph id="ph4">&lt;/strong&gt;</ph> page in Server Manager.</source>
+          <target state="translated">你可以在服务器管理器中的“本地服务器”<ph id="ph3">&lt;strong&gt;</ph><ph id="ph4">&lt;/strong&gt;</ph>页面上的“属性”<ph id="ph1">&lt;strong&gt;</ph><ph id="ph2">&lt;/strong&gt;</ph>磁贴中禁用 IE ESC。</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The following error message is displayed while trying to connect when the gateway server is the destination computer, and is also in a workgroup: <ph id="ph1">&lt;strong&gt;</ph>An authorization failure occurred.</source>
+          <target state="translated">尝试当网关服务器为目标计算机且又位于工作组中时连接，会显示以下错误消息：“出现授权失败。”<ph id="ph1">&lt;strong&gt;</ph></target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Verify that you are authorized to connect to the destination computer.</source>
+          <target state="translated">请验证你是否被授权连接到目标计算机。</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>When the gateway server is also the destination server, and it is in a workgroup, specify the user name, computer name, and user group name as shown in the following table.</source>
+          <target state="translated">当网关服务器也是目标服务器且位于工作组中时，指定下表所示的用户名、计算机名称以及用户组名。</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Do not use a dot (.) by itself to represent the computer name.</source>
+          <target state="translated">不要使用点 (.) 自行表示计算机名称。</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Scenario</source>
+          <target state="translated">方案</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>UserName Parameter</source>
+          <target state="translated">UserName 参数</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>UserGroup Parameter</source>
+          <target state="translated">UserGroup 参数</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>ComputerName Parameter</source>
+          <target state="translated">ComputerName 参数</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>ComputerGroup Parameter</source>
+          <target state="translated">ComputerGroup 参数</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gateway server is in a domain</source>
+          <target state="translated">网关服务器位于域中</target>         
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Server_name<ph id="ph1">&lt;/em&gt;\&lt;em&gt;</ph>user_name<ph id="ph2">&lt;/em&gt;</ph>, Localhost\<ph id="ph3">&lt;em&gt;</ph>user_name<ph id="ph4">&lt;/em&gt;</ph>, or .\<ph id="ph5">&lt;em&gt;</ph>user_name</source>
+          <target state="translated">Server_name<ph id="ph1">&lt;/em&gt;\&lt;em&gt;</ph>user_name<ph id="ph2">&lt;/em&gt;</ph>、Localhost\<ph id="ph3">&lt;em&gt;</ph>user_name<ph id="ph4">&lt;/em&gt;</ph> 或 .\<ph id="ph5">&lt;em&gt;</ph>user_name</target>         
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Server_name<ph id="ph1">&lt;/em&gt;\&lt;em&gt;</ph>user_group<ph id="ph2">&lt;/em&gt;</ph>, Localhost\<ph id="ph3">&lt;em&gt;</ph>user_group<ph id="ph4">&lt;/em&gt;</ph>, or .\<ph id="ph5">&lt;em&gt;</ph>user_group</source>
+          <target state="translated">Server_name<ph id="ph1">&lt;/em&gt;\&lt;em&gt;</ph>user_group<ph id="ph2">&lt;/em&gt;</ph>、Localhost\<ph id="ph3">&lt;em&gt;</ph>user_group<ph id="ph4">&lt;/em&gt;</ph> 或 .\<ph id="ph5">&lt;em&gt;</ph>user_group</target>         
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Fully qualified name of gateway server, or Localhost</source>
+          <target state="translated">网关服务器的完全限定名称或 Localhost</target>         
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Server_name<ph id="ph1">&lt;/em&gt;\&lt;em&gt;</ph>computer_group<ph id="ph2">&lt;/em&gt;</ph>, Localhost\<ph id="ph3">&lt;em&gt;</ph>computer_group<ph id="ph4">&lt;/em&gt;</ph>, or .\<ph id="ph5">&lt;em&gt;</ph>computer_group</source>
+          <target state="translated">Server_name<ph id="ph1">&lt;/em&gt;\&lt;em&gt;</ph>computer_group<ph id="ph2">&lt;/em&gt;</ph>、Localhost\<ph id="ph3">&lt;em&gt;</ph>computer_group<ph id="ph4">&lt;/em&gt;</ph> 或 .\<ph id="ph5">&lt;em&gt;</ph>computer_group</target>         
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Gateway server is in a workgroup</source>
+          <target state="translated">网关服务器位于工作组中</target>         
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Server_name<ph id="ph1">&lt;/em&gt;\&lt;em&gt;</ph>user_name<ph id="ph2">&lt;/em&gt;</ph>, Localhost\<ph id="ph3">&lt;em&gt;</ph>user_name<ph id="ph4">&lt;/em&gt;</ph>, or .\<ph id="ph5">&lt;em&gt;</ph>user_name</source>
+          <target state="translated">Server_name<ph id="ph1">&lt;/em&gt;\&lt;em&gt;</ph>user_name<ph id="ph2">&lt;/em&gt;</ph>、Localhost\<ph id="ph3">&lt;em&gt;</ph>user_name<ph id="ph4">&lt;/em&gt;</ph> 或 .\<ph id="ph5">&lt;em&gt;</ph>user_name</target>         
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Server_name<ph id="ph1">&lt;/em&gt;\&lt;em&gt;</ph>user_group<ph id="ph2">&lt;/em&gt;</ph>, Localhost\<ph id="ph3">&lt;em&gt;</ph>user_group<ph id="ph4">&lt;/em&gt;</ph> or .\<ph id="ph5">&lt;em&gt;</ph>user_group</source>
+          <target state="translated">Server_name<ph id="ph1">&lt;/em&gt;\&lt;em&gt;</ph>user_group<ph id="ph2">&lt;/em&gt;</ph>、Localhost\<ph id="ph3">&lt;em&gt;</ph>user_group<ph id="ph4">&lt;/em&gt;</ph> 或 .\<ph id="ph5">&lt;em&gt;</ph>user_group</target>         
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Server name</source>
+          <target state="translated">服务器名称</target>         
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Server_name<ph id="ph1">&lt;/em&gt;\&lt;em&gt;</ph>computer_group<ph id="ph2">&lt;/em&gt;</ph>, Localhost\<ph id="ph3">&lt;em&gt;</ph>computer_group<ph id="ph4">&lt;/em&gt;</ph> or .\<ph id="ph5">&lt;em&gt;</ph>computer_group</source>
+          <target state="translated">Server_name<ph id="ph1">&lt;/em&gt;\&lt;em&gt;</ph>computer_group<ph id="ph2">&lt;/em&gt;</ph>、Localhost\<ph id="ph3">&lt;em&gt;</ph>computer_group<ph id="ph4">&lt;/em&gt;</ph> 或 .\<ph id="ph5">&lt;em&gt;</ph>computer_group</target>         
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Sign in to a gateway server as target computer by using credentials formatted as one of the following.</source>
+          <target state="translated">以目标计算机身份登录到网关服务器，方法是使用以下格式之一的凭据。</target>         
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Server_name<ph id="ph1">&lt;/em&gt;\&lt;em&gt;</ph>user_name</source>
+          <target state="translated">Server_name<ph id="ph1">&lt;/em&gt;\&lt;em&gt;</ph>user_name</target>         
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Localhost\<ph id="ph1">&lt;em&gt;</ph>user_name</source>
+          <target state="translated">Localhost\<ph id="ph1">&lt;em&gt;</ph>user_name</target>         
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>.\<ph id="ph1">&lt;em&gt;</ph>user_name</source>
+          <target state="translated">.\<ph id="ph1">&lt;em&gt;</ph>user_name</target>         
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>A security identifier (SID) is displayed in an authorization rule instead of the syntax <ph id="ph1">&lt;em&gt;</ph>user_name<ph id="ph2">&lt;/em&gt;/&lt;em&gt;</ph>computer_name</source>
+          <target state="translated">在授权规则中显示安全标识符 (SID) 而不是语法 <ph id="ph1">&lt;em&gt;</ph>user_name<ph id="ph2">&lt;/em&gt;/&lt;em&gt;</ph>computer_name</target>         
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Either the rule is no longer valid, or the Active Directory Domain Services query failed.</source>
+          <target state="translated">规则不再有效或 Active Directory 域服务查询失败。</target>         
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>An authorization rule is usually not valid in scenarios where the gateway server was at one time in a workgroup, but was later joined to a domain.</source>
+          <target state="translated">如果网关服务器曾一时位于工作组中，但后来加入域中，则这种情形下通常授权规则无效。</target>         
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Cannot sign in to a target computer that has been specified in authorization rules as an IPv6 address with a domain.</source>
+          <target state="translated">无法登录到已在授权规则中指定为带有域的 IPv6 地址的目标计算机。</target>         
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Authorization rules do not support an IPv6 address in form of a domain name.</source>
+          <target state="translated">授权规则不支持域名形式的 IPv6 地址。</target>         
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>To specify a destination computer by using an IPv6 address, use the original IPv6 address (that contains colons) in the authorization rule.</source>
+          <target state="translated">若要使用 IPv6 地址指定目标计算机，请在授权规则中使用原始 IPv6 地址（包含冒号）。</target>         
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Both domain and numerical (with colons) IPv6 addresses are supported as the target computer name on the Windows PowerShell Web Access sign-in page, but not in authorization rules.</source>
+          <target state="translated">支持域和数值（带有冒号）IPv6 地址作为 Windows PowerShell Web 访问登录页面而非授权规则中的目标计算机名称。</target>         
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>For more information about IPv6 addresses, see <ph id="ph1">&lt;a href="https://technet.microsoft.com/library/cc781672.aspx"&gt;</ph>How IPv6 Works<ph id="ph2">&lt;/a&gt;</ph>.</source>
+          <target state="translated">有关 IPv6 地址的详细信息，请参阅 <ph id="ph1">&lt;a href="https://technet.microsoft.com/library/cc781672.aspx"&gt;</ph>How IPv6 Works<ph id="ph2">&lt;/a&gt;</ph>（IPv6 的工作原理）。</target>         
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">另请参阅</target>         
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Authorization Rules and Security Features of Windows PowerShell Web Access<ept id="p1">](https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Use the Web-based Windows PowerShell Console<ept id="p2">](https://technet.microsoft.com/en-us/library/hh831417(v=ws.11).aspx)</ept><ph id="ph2">
+</ph><bpt id="p3">[</bpt>about\_Remote\_Requirements<ept id="p3">](https://technet.microsoft.com/library/dd315349.aspx)</ept></source>
+          <target state="translated"><bpt id="p1">[</bpt>Windows PowerShell Web 访问的授权规则和安全功能<ept id="p1">](https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>使用基于 Web 的 Windows PowerShell 控制台<ept id="p2">](https://technet.microsoft.com/en-us/library/hh831417(v=ws.11).aspx)</ept><ph id="ph2">
+</ph><bpt id="p3">[</bpt>about\_Remote\_Requirements<ept id="p3">](https://technet.microsoft.com/library/dd315349.aspx)</ept></target>         
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Show:<ph id="ph1">&lt;/span&gt;</ph> Inherited Protected</source>
+          <target state="translated">显示：<ph id="ph1">&lt;/span&gt;</ph>继承内容受保护</target>         
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Was this page helpful?</source>
+          <target state="translated">此页面是否有所帮助？</target>         
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Yes No</source>
+          <target state="translated">是 否</target>         
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Additional feedback?</source>
+          <target state="translated">更多反馈？</target>         
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>1500<ph id="ph1">&lt;/span&gt;</ph> characters remaining<ph id="ph2">&lt;/span&gt;</ph> Submit Skip this</source>
+          <target state="translated">剩余 1500<ph id="ph1">&lt;/span&gt;</ph> 个字符<ph id="ph2">&lt;/span&gt;</ph> 提交 跳过此部分</target>         
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Thank you!</source>
+          <target state="translated">谢谢！</target>         
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>We appreciate your feedback.</source>
+          <target state="translated">我们非常感谢你的反馈意见。</target>         
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Manage Your Profile</source>
+          <target state="translated">管理你的个人资料</target>         
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Site Feedback<ph id="ph1">&lt;/a&gt;</ph> Site Feedback</source>
+          <target state="translated">站点反馈<ph id="ph1">&lt;/a&gt;</ph>站点反馈</target>         
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>x</source>
+          <target state="translated">x</target>         
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Tell us about your experience...</source>
+          <target state="translated">告诉我们你的体验...</target>         
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Did the page load quickly?</source>
+          <target state="translated">页面加载速度快吗？</target>         
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Yes<ph id="ph1">&lt;span&gt;</ph> <ph id="ph2">&lt;/span&gt;&lt;/span&gt;</ph> <ph id="ph3">&lt;span&gt;</ph> No</source>
+          <target state="translated">是<ph id="ph1">&lt;span&gt;</ph> <ph id="ph2">&lt;/span&gt;&lt;/span&gt;</ph> <ph id="ph3">&lt;span&gt;</ph> 否</target>         
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Do you like the page design?</source>
+          <target state="translated">你喜欢页面设计吗？</target>         
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Yes<ph id="ph1">&lt;span&gt;</ph> <ph id="ph2">&lt;/span&gt;&lt;/span&gt;</ph> <ph id="ph3">&lt;span&gt;</ph> No</source>
+          <target state="translated">是<ph id="ph1">&lt;span&gt;</ph> <ph id="ph2">&lt;/span&gt;&lt;/span&gt;</ph> <ph id="ph3">&lt;span&gt;</ph> 否</target>         
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Tell us more</source>
+          <target state="translated">告诉我们更多内容</target>         
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Flash Newsletter</source>
+          <target state="translated">快讯</target>         
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Contact Us</source>
+          <target state="translated">联系我们</target>         
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Privacy Statement</source>
+          <target state="translated">隐私声明</target>         
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Terms of Use</source>
+          <target state="translated">使用条款</target>         
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Trademarks</source>
+          <target state="translated">商标</target>         
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>© 2016 Microsoft</source>
+          <target state="translated">© 2016 Microsoft</target>         
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>© 2016 Microsoft</source>
+          <target state="translated">© 2016 Microsoft</target>         
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Third party scripts and code linked to or referenced from this website are licensed to you by the parties that own such code, not by Microsoft.</source>
+          <target state="translated">链接到此站点或从中引用的第三方脚本或代码由拥有此类代码的第三方（而非 Microsoft）授权给你。</target>         
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>See ASP.NET Ajax CDN Terms of Use – http://www.asp.net/ajaxlibrary/CDN.ashx.</source>
+          <target state="translated">请参阅 ASP.NET Ajax CDN 使用条款 – http://www.asp.net/ajaxlibrary/CDN.ashx。</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
