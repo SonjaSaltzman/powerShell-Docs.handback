@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="es-es">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\limitation_dsc.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ad262a8f38b79f748757c1503a5e7173a1010923</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4c0f30d" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Desired State Configuration (DSC) Known Issues and Limitations</source>
+          <target state="translated">Problemas y limitaciones conocidos de la configuración de estado deseado (DSC)</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Breaking Change: Certificates used to encrypt/decrypt passwords in DSC configurations may not work after installing WMF 5.0 RTM</source>
+          <target state="translated">Cambio de última hora: los certificados usados para cifrar o descifrar contraseñas en configuraciones de DSC no funcionen después de instalar WMF 5.0 RTM</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In WMF 4.0 and WMF 5.0 Preview releases, DSC would not allow passwords in the configuration to be of length more than 121 characters.</source>
+          <target state="translated">En las versiones WMF 4.0 y WMF 5.0 Preview, DSC no permitía que las contraseñas de la configuración tuvieran más de 121 caracteres de longitud.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>DSC was forcing to use short passwords even if lengthy and strong password was desired.</source>
+          <target state="translated">DSC obligaba a usar contraseñas cortas, aunque se deseasen contraseñas largas y seguras.</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This breaking change allows passwords to be of arbitrary length in the DSC configuration.</source>
+          <target state="translated">Este cambio de última hora permite que las contraseñas tengan una longitud arbitraria en la configuración de DSC.</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> Re-create the certificate with Data Encipherment or Key Encipherment Key usage, and Document Encryption Enhanced Key usage (1.3.6.1.4.1.311.80.1).</source>
+          <target state="translated"><bpt id="p1">**</bpt>Resolución:<ept id="p1">**</ept> vuelva a crear el certificado mediante el cifrado de datos o el cifrado de clave, así como con el uso mejorado de claves de cifrado de documentos (1.3.6.1.4.1.311.80.1).</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Technet article <bpt id="p1">&lt;</bpt>https://technet.microsoft.com/en-us/library/dn807171.aspx<ept id="p1">&gt;</ept> has more information.</source>
+          <target state="translated">En el artículo de TechNet <bpt id="p1">&lt;</bpt>https://technet.microsoft.com/es-es/library/dn807171.aspx<ept id="p1">&gt;</ept> puede encontrar más información.</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>DSC cmdlets may fail after installing WMF 5.0 RTM</source>
+          <target state="translated">Los cmdlets de DSC puede producir un error después de instalar WMF 5.0 RTM</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Start-DscConfiguration and other DSC cmdlets may fail after installing WMF 5.0 RTM with the following error:</source>
+          <target state="translated">Start-DscConfiguration y otros cmdlets de DSC pueden generar el siguiente error después de instalar WMF 5.0 RTM:</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> Delete DSCEngineCache.mof by running the following command in an elevated PowerShell session (Run as Administrator):</source>
+          <target state="translated"><bpt id="p1">**</bpt>Resolución:<ept id="p1">**</ept> elimine DSCEngineCache.mof. Para ello, ejecute el siguiente comando en una sesión de PowerShell con privilegios elevados (Ejecutar como administrador).</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>DSC cmdlets may not work if WMF 5.0 RTM is installed on top of WMF 5.0 Production Preview</source>
+          <target state="translated">Es posible que los Cmdlets de DSC no funcionen si WMF 5.0 RTM se instala encima de WMF 5.0 Production Preview</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> Run the following command in an elevated PowerShell session (run as administrator):</source>
+          <target state="translated"><bpt id="p1">**</bpt>Resolución:<ept id="p1">**</ept> elimine DSCEngineCache.mof. Para ello, ejecute el siguiente comando en una sesión de PowerShell con privilegios elevados (Ejecutar como administrador).</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>LCM can go into an unstable state while using Get-DscConfiguration in DebugMode</source>
+          <target state="translated">LCM puede entrar en un estado inestable al usar Get-DscConfiguration en DebugMode</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If LCM is in DebugMode, pressing CTRL+C to stop the processing of Get-DscConfiguration can cause LCM to go into an unstable state such that majority of DSC cmdlets won’t work.</source>
+          <target state="translated">Si LCM está en DebugMode, al presionar CTRL+C para detener el procesamiento de Get-DscConfiguration puede causar que LCM entre en un estado inestable que impida funcionar a la mayoría de los cmdlets de DSC.</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> Don’t press CTRL+C while debugging Get-DscConfiguration cmdlet.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Resolución:<ept id="p1">**</ept> no presione CTRL+C mientras se depura el cmdlet Get-DscConfiguration.</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Stop-DscConfiguration may hang in DebugMode</source>
+          <target state="translated">Stop-DscConfiguration puede colgarse en DebugMode</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If LCM is in DebugMode, Stop-DscConfiguration may hang while trying to stop an operation started by Get-DscConfiguration</source>
+          <target state="translated">Si LCM está en DebugMode, Stop-DscConfiguration puede colgarse cuando intenta detener una operación iniciada por Get-DscConfiguration</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> Finish the debugging of the operation started by Get-DscConfiguration as outlined in section ‘<bpt id="p2">[</bpt>DSC RESOURCE SCRIPT DEBUGGING<ept id="p2">](#dsc-resource-script-debugging)</ept>’.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Resolución:<ept id="p1">**</ept> finalice la depuración de la operación iniciada por Get-DscConfiguration, como se describe en la sección '<bpt id="p2">[</bpt>Depuración de scripts de recursos de DSC<ept id="p2">](#dsc-resource-script-debugging)</ept>'.</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>No Verbose Error Messages are shown in DebugMode</source>
+          <target state="translated">No se muestran mensajes de error detallados en DebugMode</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If LCM is in DebugMode, no verbose error messages are displayed from DSC Resources.</source>
+          <target state="translated">Si LCM está en DebugMode, no se muestra ningún mensaje de error detallado de recursos de DSC.</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> Disable <bpt id="p2">*</bpt>DebugMode<ept id="p2">*</ept> to see verbose messages from the resource</source>
+          <target state="translated"><bpt id="p1">**</bpt>Resolución:<ept id="p1">**</ept> deshabilite <bpt id="p2">*</bpt>DebugMode<ept id="p2">*</ept> para ver mensajes detallados del recurso</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Invoke-DscResource operations cannot be retrieved by Get-DscConfigurationStatus cmdlet</source>
+          <target state="translated">Las operaciones Invoke-DscResource no se pueden recuperar mediante el cmdlet Get-DscConfigurationStatus</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>After using Invoke-DscResource cmdlet to directly invoke any resource’s methods, the records of such operation cannot be retrieved through Get-DscConfigurationStatus at a later time.</source>
+          <target state="translated">Después de usar el cmdlet Invoke-DscResource para invocar directamente los métodos de cualquier recurso, los registros de esta operación no se pueden recuperar a través de Get-DscConfigurationStatus posteriormente.</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> None.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Resolución:<ept id="p1">**</ept> ninguna.</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Get-DscConfigurationStatus returns pull cycle operations as type <bpt id="p1">*</bpt>Consistency<ept id="p1">*</ept></source>
+          <target state="translated">Get-DscConfigurationStatus devuelve operaciones de ciclo de extracción como de tipo <bpt id="p1">*</bpt>Consistency<ept id="p1">*</ept></target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>When a node is set to PULL refresh mode, for each pull operation performed, Get-DscConfigurationStatus cmdlet reports the operation type as <bpt id="p1">*</bpt>Consistency<ept id="p1">*</ept> instead of <bpt id="p2">*</bpt>Initial<ept id="p2">*</ept></source>
+          <target state="translated">Cuando un nodo se establece en modo de actualización de extracción, para cada operación de extracción realizada, el cmdlet Get-DscConfigurationStatus indica el tipo de operación como <bpt id="p1">*</bpt>Consistency<ept id="p1">*</ept> en lugar de <bpt id="p2">*</bpt>Initial<ept id="p2">*</ept></target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> None.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Resolución:<ept id="p1">**</ept> ninguna.</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Invoke-DscResource cmdlet does not return message in the order they were produced</source>
+          <target state="translated">El cmdlet Invoke-DscResource no devuelve los mensajes en el orden en que se producen</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The Invoke-DscResource cmdlet does not return verbose, warning, and error messages in the order they were produced by LCM or the DSC resource.</source>
+          <target state="translated">El cmdlet Invoke-DscResource no devuelve los mensajes detallados, de advertencia ni de error en el orden en que los producen LCM o el recurso de DSC.</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> None.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Resolución:<ept id="p1">**</ept> ninguna.</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>DSC Resources cannot be debugged easily when used with Invoke-DscResource</source>
+          <target state="translated">Los recursos de DSC no se pueden depurar fácilmente cuando se usan con Invoke-DscResource</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>When LCM is running in debug mode (see <bpt id="p1">[</bpt>DSC RESOURCE SCRIPT DEBUGGING<ept id="p1">](#dsc-resource-script-debugging)</ept> for more details), Invoke-DscResource cmdlet does not give information about runspace to connect to for debugging.</source>
+          <target state="translated">Cuando se ejecuta LCM en modo de depuración (consulte <bpt id="p1">[</bpt>Depuración de scripts de recursos de DSC<ept id="p1">](#dsc-resource-script-debugging)</ept> para obtener más detalles), el cmdlet Invoke-DscResource no ofrece información sobre el espacio de ejecución al que debe conectarse para la depuración.</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> Discover and attach to the runspace using cmdlets <bpt id="p2">**</bpt>Get-PSHostProcessInfo<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Enter-PSHostProcess<ept id="p3">**</ept> , <bpt id="p4">**</bpt>Get-Runspace<ept id="p4">**</ept> and <bpt id="p5">**</bpt>Debug-Runspace<ept id="p5">**</ept> to debug the DSC resource.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Resolución:<ept id="p1">**</ept> detecte el espacio de ejecución y conéctese a este mediante los cmdlets <bpt id="p2">**</bpt>Get-PSHostProcessInfo<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Enter-PSHostProcess<ept id="p3">**</ept> , <bpt id="p4">**</bpt>Get-Runspace<ept id="p4">**</ept> y <bpt id="p5">**</bpt>Debug-Runspace<ept id="p5">**</ept> para depurar el recurso de DSC.</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Various Partial Configuration documents for same node cannot have identical resource names</source>
+          <target state="translated">Varios documentos de configuración parcial para el mismo nodo no pueden tener nombres de recurso idénticos</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For several partial configurations that are deployed onto a single node, identical names of resources cause run time error.</source>
+          <target state="translated">Para varias configuraciones parciales implementadas en un mismo nodo, los nombres idénticos de recursos causan un error en tiempo de ejecución.</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> Use different names for even same resources in different partial configurations.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Resolución:<ept id="p1">**</ept> use nombres diferentes para la mismos recursos en distintas configuraciones parciales.</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Start-DscConfiguration –UseExisting does not work with -Credential</source>
+          <target state="translated">Start-DscConfiguration –UseExisting no funciona con -Credential</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>When using Start-DscConfiguration with –UseExisting parameter, the –Credential parameter is ignored.</source>
+          <target state="translated">Si se usa Start-DscConfiguration con el parámetro –UseExisting, el parámetro –Credential se ignora.</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>DSC uses default process identity to proceed the operation.</source>
+          <target state="translated">DSC usa la identidad de proceso predeterminada para continuar la operación.</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This causes error when a different credential is needed to proceed on remote node.</source>
+          <target state="translated">Esto provoca un error cuando se necesita una credencial distinta para continuar en el nodo remoto.</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> Use CIM session for remote DSC operations:</source>
+          <target state="translated"><bpt id="p1">**</bpt>Resolución:<ept id="p1">**</ept> use una sesión CIM para las operaciones remotas de DSC:</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>IPv6 Addresses as Node Names in DSC configurations</source>
+          <target state="translated">Direcciones IPv6 como nombres de nodo en configuraciones de DSC</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>IPv6 addresses as node names in DSC configuration scripts are not supported in this release.</source>
+          <target state="translated">No se admiten direcciones IPv6 como nombres de nodo en los scripts de configuración de DSC en esta versión.</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> None.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Resolución:<ept id="p1">**</ept> ninguna.</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Debugging of Class-Based DSC Resources</source>
+          <target state="translated">Depuración de los recursos de DSC basados en clases</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Debugging of class-based DSC Resources is not supported in this release.</source>
+          <target state="translated">En esta versión no se admite la depuración de los recursos de DSC basado en clases.</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> None.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Resolución:<ept id="p1">**</ept> ninguna.</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Variables &amp; Functions defined in $script scope in DSC Class-Based Resource are not preserved across multiple calls to a DSC Resource</source>
+          <target state="translated">Las variables y las funciones que se definen en el ámbito de $script en el recurso basado en clases de DSC no se conservan en varias llamadas a un recurso de DSC</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Multiple consecutive calls to Start-DSCConfiguration will fail if configuration is using any class-based resource which has variables or functions defined in $script scope.</source>
+          <target state="translated">Varias llamadas consecutivas a Start-DSCConfiguration producirán un error si la configuración usa cualquier recurso basado en clases que tenga variables o funciones definidas en el ámbito de $script.</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> Define all variables and functions in DSC Resource class itself.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Resolución:<ept id="p1">**</ept> defina todas las variables y funciones de la propia clase de recurso de DSC.</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>No $script scope variables/functions.</source>
+          <target state="translated">No usar funciones o variables de ámbito $script.</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>DSC Resource Debugging when a resource is using PSDscRunAsCredential</source>
+          <target state="translated">Depuración de recursos de DSC cuando un recurso usa PSDscRunAsCredential</target>         
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>DSC Resource debugging when a resource is using the <bpt id="p1">*</bpt>PSDscRunAsCredential<ept id="p1">*</ept> property in the configuration is not suported in this release.</source>
+          <target state="translated">La depuración de recursos de DSC cuando un recurso usa la propiedad <bpt id="p1">*</bpt>PSDscRunAsCredential<ept id="p1">*</ept> en la configuración no se admite en esta versión.</target>         
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> None.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Resolución:<ept id="p1">**</ept> ninguna.</target>         
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>PsDscRunAsCredential is not supported for DSC Composite Resources</source>
+          <target state="translated">PsDscRunAsCredential no se admite para los recursos compuestos de DSC</target>         
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> Use Credential property if available.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Resolución:<ept id="p1">**</ept> usar la propiedad Credential si está disponible.</target>         
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Example ServiceSet and WindowsFeatureSet</source>
+          <target state="translated">ServiceSet y WindowsFeatureSet de ejemplo</target>         
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Get-DscResource -Syntax<ept id="p1">*</ept> does not reflect PsDscRunAsCredential correctly</source>
+          <target state="translated"><bpt id="p1">*</bpt>Get-DscResource -Syntax<ept id="p1">*</ept> no refleja PsDscRunAsCredential correctamente</target>         
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Get-DscResource -Syntax does not reflect PsDscRunAsCredential correctly when resource marks it as mandatory or does not support it.</source>
+          <target state="translated">Get-DscResource -Syntax no refleja correctamente la propiedad PsDscRunAsCredential cuando el recurso la marca como obligatoria o no la admite.</target>         
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> None.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Resolución:<ept id="p1">**</ept> ninguna.</target>         
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>However, authoring configuration in ISE reflects correct metadata about PsDscRunAsCredential property when using IntelliSense.</source>
+          <target state="translated">Sin embargo, la configuración de creación en ISE refleja los metadatos correctos acerca de la propiedad PsDscRunAsCredential al usar IntelliSense.</target>         
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>WindowsOptionalFeature is not available in Windows 7</source>
+          <target state="translated">WindowsOptionalFeature no está disponible en Windows 7</target>         
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The WindowsOptionalFeature DSC resource is not available in Windows 7.</source>
+          <target state="translated">El recurso de DSC WindowsOptionalFeature no está disponible en Windows 7.</target>         
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>This resource requires the DISM module, and DISM cmdlets that are available starting in Windows 8 and newer releases of the Windows operating system.</source>
+          <target state="translated">Este recurso requiere el módulo DISM, así como los cmdlets DISM que están disponibles a partir de Windows 8 y versiones más recientes del sistema operativo Windows.</target>         
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>For Class-based DSC resources, Import-DscResource -ModuleVersion may not work as expected</source>
+          <target state="translated">En el caso de los recursos de DSC basados en clases, puede que Import-DscResource -ModuleVersion no funcione según lo previsto</target>         
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>If the compilation node has multiple version of a class-based DSC resource module, <ph id="ph1">`Import-DscResource -ModuleVersion`</ph> does not pick the specified version and results in following compilation error.</source>
+          <target state="translated">Si el nodo de compilación tiene varias versiones de un módulo de recursos de DSC basados en clases, <ph id="ph1">`Import-DscResource -ModuleVersion`</ph> no podrá seleccionar la versión especificada y genera el siguiente error de compilación.</target>         
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> Import the required version by defining the <bpt id="p2">*</bpt>ModuleSpecification<ept id="p2">*</ept> object to the <ph id="ph1">`-ModuleName`</ph> with <ph id="ph2">`RequiredVersion`</ph> key specified as follows:</source>
+          <target state="translated"><bpt id="p1">**</bpt>Resolución:<ept id="p1">**</ept> importe la versión necesaria mediante la definición del objeto <bpt id="p2">*</bpt>ModuleSpecification<ept id="p2">*</ept> en <ph id="ph1">`-ModuleName`</ph> con la clave <ph id="ph2">`RequiredVersion`</ph> especificada como sigue:</target>         
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Some DSC resources like registry resource may start to take a long time to process the request.</source>
+          <target state="translated">Algunos recursos de DSC, como el recurso de registro, pueden comenzar a tardar mucho tiempo en procesar la solicitud.</target>         
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resolution1:<ept id="p1">**</ept> Create a schedule task that cleans up the following folder periodically.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Resolución1:<ept id="p1">**</ept> cree una tarea de programación que limpie periódicamente la siguiente carpeta.</target>         
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resolution2:<ept id="p1">**</ept> Change the DSC configuration to clean up the <bpt id="p2">*</bpt>CommandAnalysis<ept id="p2">*</ept> folder at the end of the configuration.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Resolución2:<ept id="p1">**</ept> cambie la configuración de DSC para limpiar la carpeta <bpt id="p2">*</bpt>CommandAnalysis<ept id="p2">*</ept> al final de la configuración.</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
