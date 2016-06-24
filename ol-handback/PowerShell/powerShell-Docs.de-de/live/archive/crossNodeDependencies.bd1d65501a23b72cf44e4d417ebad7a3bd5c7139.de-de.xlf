@@ -3,8 +3,9 @@
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f6b6006e9d1ad8aef62523accf73e5f2dba36898</xliffext:olfilehash>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-9794c66" tool-company="Microsoft" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\crossNodeDependencies.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f4c64d3603fd01f29a63f8b180057714bf3d1197</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4c0f30d" tool-company="Microsoft" />
     </header>
     <body>
       <group id="content" extype="content">
@@ -13,20 +14,20 @@
           <target state="translated">Angeben knotenübergreifender Abhängigkeiten</target>         
         </trans-unit>
         <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Specifying cross-node dependencies</source>
+          <target state="translated">Angeben knotenübergreifender Abhängigkeiten</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
           <source>Applies To: Windows PowerShell 5.0</source>
           <target state="translated">Gilt für: Windows PowerShell 5.0</target>         
         </trans-unit>
-        <trans-unit id="103" translate="yes" xml:space="preserve">
+        <trans-unit id="104" translate="yes" xml:space="preserve">
           <source>DSC provides special resources, <bpt id="p1">**</bpt>WaitForAll<ept id="p1">**</ept>, <bpt id="p2">**</bpt>WaitForAny<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>WaitForSome<ept id="p3">**</ept> that can be used in configurations to specify dependencies on configurations on other nodes.</source>
           <target state="translated">DSC bietet spezielle Ressourcen <bpt id="p1">**</bpt>WaitForAll<ept id="p1">**</ept>, <bpt id="p2">**</bpt>WaitForAny<ept id="p2">**</ept> und <bpt id="p3">**</bpt>WaitForSome<ept id="p3">**</ept>, die in Konfigurationen zum Angeben von Abhängigkeiten von Konfigurationen auf anderen Knoten verwendet werden können.</target>         
         </trans-unit>
-        <trans-unit id="104" translate="yes" xml:space="preserve">
-          <source>The</source>
-          <target state="translated">Die</target>         
-        </trans-unit>
         <trans-unit id="105" translate="yes" xml:space="preserve">
-          <source>behavior of these resources is as follows:</source>
-          <target state="translated">Ressourcen verhalten sich wie folgt:</target>         
+          <source>The behavior of these resources is as follows:</source>
+          <target state="translated">Die Ressourcen verhalten sich wie folgt:</target>         
         </trans-unit>
         <trans-unit id="106" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>WaitForAll<ept id="p1">**</ept>: Succeeds if the specified resource is in the desired state on all target nodes defined in the <bpt id="p2">**</bpt>NodeName<ept id="p2">**</ept> property.</source>
@@ -41,58 +42,46 @@
           <target state="translated"><bpt id="p1">**</bpt>WaitForSome<ept id="p1">**</ept>: Gibt zusätzlich zu einer <bpt id="p3">**</bpt>NodeName<ept id="p3">**</ept>-Eigenschaft eine <bpt id="p2">**</bpt>NodeCount<ept id="p2">**</ept>-Eigenschaft an.</target>         
         </trans-unit>
         <trans-unit id="109" translate="yes" xml:space="preserve">
-          <source>The resource succeeds if the resource is in the desired state on a minimum number of nodes</source>
-          <target state="translated">Die Ressource ist erfolgreich, wenn sich die Ressource auf einer Mindestanzahl von Knoten</target>         
+          <source>The resource succeeds if the resource is in the desired state on a minimum number of nodes (specified by <bpt id="p1">**</bpt>NodeCount<ept id="p1">**</ept>) defined by the <bpt id="p2">**</bpt>NodeName<ept id="p2">**</ept> property.</source>
+          <target state="translated">Die Ressource ist erfolgreich, wenn sich die Ressource auf einer Mindestanzahl von Knoten (angegeben durch <bpt id="p1">**</bpt>NodeCount<ept id="p1">**</ept>), die von der <bpt id="p2">**</bpt>NodeName<ept id="p2">**</ept>-Eigenschaft definiert sind, im gewünschten Zustand befindet.</target>         
         </trans-unit>
         <trans-unit id="110" translate="yes" xml:space="preserve">
-          <source>(specified by <bpt id="p1">**</bpt>NodeCount<ept id="p1">**</ept>) defined by the <bpt id="p2">**</bpt>NodeName<ept id="p2">**</ept> property.</source>
-          <target state="translated">(angegeben durch <bpt id="p1">**</bpt>NodeCount<ept id="p1">**</ept>), die von der <bpt id="p2">**</bpt>NodeName<ept id="p2">**</ept>-Eigenschaft definiert sind, im gewünschten Zustand befindet.</target>         
-        </trans-unit>
-        <trans-unit id="111" translate="yes" xml:space="preserve">
           <source>Using WaitForXXXX resources</source>
           <target state="translated">Verwenden von WaitForXXXX-Ressourcen</target>         
         </trans-unit>
-        <trans-unit id="112" translate="yes" xml:space="preserve">
+        <trans-unit id="111" translate="yes" xml:space="preserve">
           <source>To use the <bpt id="p1">**</bpt>WaitForXXXX<ept id="p1">**</ept> resources, you create a resource block of that resource type that specifies the DSC resource and node(s) to wait for.</source>
           <target state="translated">Um die <bpt id="p1">**</bpt>WaitForXXXX<ept id="p1">**</ept>-Ressourcen zu verwenden, erstellen Sie einen Ressourcenblock des Ressourcentyps, der die DSC-Ressource und Knoten angibt, auf die gewartet werden soll.</target>         
         </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You then use the <bpt id="p1">**</bpt>DependsOn<ept id="p1">**</ept> property in any other resource blocks in your configuration to wait for the conditions specified in the <bpt id="p2">**</bpt>WaitForXXXX<ept id="p2">**</ept> node to succeed.</source>
+          <target state="translated">Dann verwenden Sie die <bpt id="p1">**</bpt>DependsOn<ept id="p1">**</ept>-Eigenschaft in allen anderen Ressourcenblöcken Ihrer Konfiguration und warten darauf, dass die im <bpt id="p2">**</bpt>WaitForXXXX<ept id="p2">**</ept>-Knoten angegebenen Bedingungen erfolgreich erfüllt werden.</target>         
+        </trans-unit>
         <trans-unit id="113" translate="yes" xml:space="preserve">
-          <source>You then use the <bpt id="p1">**</bpt>DependsOn<ept id="p1">**</ept> property</source>
-          <target state="translated">Dann verwenden Sie die <bpt id="p1">**</bpt>DependsOn<ept id="p1">**</ept>-Eigenschaft</target>         
+          <source>For example, in the following configuration, the target node is waiting for the <bpt id="p1">**</bpt>xADDomain<ept id="p1">**</ept> resource to finish on the <bpt id="p2">**</bpt>MyDC<ept id="p2">**</ept> node with maximum number of 30 retries, at 15-second intervals, before the target node can join the domain.</source>
+          <target state="translated">Bei der folgenden Konfiguration wartet der Zielknoten beispielsweise, bis die Ressource <bpt id="p1">**</bpt>xADDomain<ept id="p1">**</ept> auf dem Knoten <bpt id="p2">**</bpt>MyDC<ept id="p2">**</ept> (bei einer maximalen Anzahl von 30 Wiederholungen in 15-Sekunden-Intervallen) abgeschlossen ist, ehe der Zielknoten der Domäne beitreten kann.</target>         
         </trans-unit>
         <trans-unit id="114" translate="yes" xml:space="preserve">
-          <source>in any other resource blocks in your configuration to wait for the conditions specified in the <bpt id="p1">**</bpt>WaitForXXXX<ept id="p1">**</ept> node to succeed.</source>
-          <target state="translated">in allen anderen Ressourcenblöcken in Ihre Konfiguration, um darauf zu warten, dass die im <bpt id="p1">**</bpt>WaitForXXXX<ept id="p1">**</ept>-Knoten angegebenen Bedingungen erfolgreich erfüllt werden.</target>         
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> By default the WaitForXXX resources try one time and then fail.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Hinweis:<ept id="p1">**</ept> Standardmäßig führen die „WaitForXXXX“-Ressourcen einen Versuch durch und verursachen dann einen Fehler.</target>         
         </trans-unit>
         <trans-unit id="115" translate="yes" xml:space="preserve">
-          <source>For example, in the following configuration, the target node is waiting for the <bpt id="p1">**</bpt>xADDomain<ept id="p1">**</ept> resource to finish on the <bpt id="p2">**</bpt>MyDC<ept id="p2">**</ept> node with 30, at 15-second intervals, before the target node</source>
-          <target state="translated">Bei der folgenden Konfiguration wartet der Zielknoten beispielsweise, bis die Ressource <bpt id="p1">**</bpt>xADDomain<ept id="p1">**</ept> auf dem Knoten <bpt id="p2">**</bpt>MyDC<ept id="p2">**</ept> mit 30 Wiederholungen, bei 15-Sekunden-Intervallen, abgeschlossen ist,</target>         
-        </trans-unit>
-        <trans-unit id="116" translate="yes" xml:space="preserve">
-          <source>can join the domain.</source>
-          <target state="translated">ehe der Zielknoten der Domäne beitreten kann.</target>         
-        </trans-unit>
-        <trans-unit id="117" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>NOte:<ept id="p1">**</ept> By default the WaitForXXX resources try one time and then fail.</source>
-          <target state="translated"><bpt id="p1">**</bpt>Hinweis:<ept id="p1">**</ept> Standardmäßig führen die WaitForXXXX-Ressourcen einen Versuch durch, und schlagen dann fehl.</target>         
-        </trans-unit>
-        <trans-unit id="118" translate="yes" xml:space="preserve">
           <source>Although it is not required, you will typically want to specify a retry interval and count.</source>
           <target state="translated">Auch wenn dies nicht erforderlich ist, sollten Sie doch in der Regel ein Wiederholungsintervall sowie eine Anzahl von Wiederholungen angeben.</target>         
         </trans-unit>
-        <trans-unit id="119" translate="yes" xml:space="preserve">
+        <trans-unit id="116" translate="yes" xml:space="preserve">
           <source>See Also</source>
           <target state="translated">Weitere Informationen</target>         
         </trans-unit>
-        <trans-unit id="120" translate="yes" xml:space="preserve">
+        <trans-unit id="117" translate="yes" xml:space="preserve">
           <source>DSC Configurations</source>
           <target state="translated">DSC-Konfigurationen</target>         
         </trans-unit>
-        <trans-unit id="121" translate="yes" xml:space="preserve">
+        <trans-unit id="118" translate="yes" xml:space="preserve">
           <source>DSC Resources</source>
           <target state="translated">DSC-Ressourcen</target>         
         </trans-unit>
-        <trans-unit id="122" translate="yes" xml:space="preserve">
+        <trans-unit id="119" translate="yes" xml:space="preserve">
           <source>Configuring The Local Configuration Manager</source>
           <target state="translated">Konfigurieren des lokalen Konfigurations-Managers</target>         
         </trans-unit>
