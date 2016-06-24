@@ -4,8 +4,8 @@
     <header>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\crossNodeDependencies.md</xliffext:olfilepath>
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">12ec3c770e592b1c1f43a9150eaaa1964f427363</xliffext:olfilehash>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-8d96cd8" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f4c64d3603fd01f29a63f8b180057714bf3d1197</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4c0f30d" tool-company="Microsoft" />
     </header>
     <body>
       <group id="content" extype="content">
@@ -58,11 +58,11 @@
           <target state="translated">その後、構成の他のリソース ブロックで <bpt id="p1">**</bpt>DependsOn<ept id="p1">**</ept> プロパティを使用して、<bpt id="p2">**</bpt>WaitForXXXX<ept id="p2">**</ept> ノードで指定されている条件が成功するのを待ちます。</target>         
         </trans-unit>
         <trans-unit id="113" translate="yes" xml:space="preserve">
-          <source>For example, in the following configuration, the target node is waiting for the <bpt id="p1">**</bpt>xADDomain<ept id="p1">**</ept> resource to finish on the <bpt id="p2">**</bpt>MyDC<ept id="p2">**</ept> node with 30, at 15-second intervals, before the target node can join the domain.</source>
-          <target state="translated">たとえば、次の構成では、ターゲット ノードは <bpt id="p2">**</bpt>MyDC<ept id="p2">**</ept> ノード上の <bpt id="p1">**</bpt>xADDomain<ept id="p1">**</ept> リソースが完了するまで 15 秒間隔で 30 回試行しながら待機した後、ドメインに参加できるようになります。</target>         
+          <source>For example, in the following configuration, the target node is waiting for the <bpt id="p1">**</bpt>xADDomain<ept id="p1">**</ept> resource to finish on the <bpt id="p2">**</bpt>MyDC<ept id="p2">**</ept> node with maximum number of 30 retries, at 15-second intervals, before the target node can join the domain.</source>
+          <target state="translated">たとえば、次の構成では、ターゲット ノードは <bpt id="p2">**</bpt>MyDC<ept id="p2">**</ept> ノード上の <bpt id="p1">**</bpt>xADDomain<ept id="p1">**</ept> リソースが完了するまで 15 秒間隔で最大 30 回試行しながら待機した後、ドメインに参加できるようになります。</target>         
         </trans-unit>
         <trans-unit id="114" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>NOte:<ept id="p1">**</ept> By default the WaitForXXX resources try one time and then fail.</source>
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> By default the WaitForXXX resources try one time and then fail.</source>
           <target state="translated"><bpt id="p1">**</bpt>注:<ept id="p1">**</ept> 既定では、WaitForXXX リソースは 1 回試行してから失敗します。</target>         
         </trans-unit>
         <trans-unit id="115" translate="yes" xml:space="preserve">
