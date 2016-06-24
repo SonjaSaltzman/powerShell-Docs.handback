@@ -4,8 +4,8 @@
     <header>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\crossNodeDependencies.md</xliffext:olfilepath>
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">12ec3c770e592b1c1f43a9150eaaa1964f427363</xliffext:olfilehash>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-8d96cd8" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f4c64d3603fd01f29a63f8b180057714bf3d1197</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4c0f30d" tool-company="Microsoft" />
     </header>
     <body>
       <group id="content" extype="content">
@@ -58,12 +58,12 @@
           <target state="translated">然後使用 <bpt id="p1">**</bpt>DependsOn<ept id="p1">**</ept> 屬性 (在設定中的任一其他資源區塊中)，等候 <bpt id="p2">**</bpt>WaitForXXXX<ept id="p2">**</ept> 節點內指定的條件成功。</target>         
         </trans-unit>
         <trans-unit id="113" translate="yes" xml:space="preserve">
-          <source>For example, in the following configuration, the target node is waiting for the <bpt id="p1">**</bpt>xADDomain<ept id="p1">**</ept> resource to finish on the <bpt id="p2">**</bpt>MyDC<ept id="p2">**</ept> node with 30, at 15-second intervals, before the target node can join the domain.</source>
-          <target state="translated">例如，在下列設定中，目標節點正在等候 <bpt id="p1">**</bpt>xADDomain<ept id="p1">**</ept> 資源以 30 在 <bpt id="p2">**</bpt>MyDC<ept id="p2">**</ept> 節點上用 15 秒的間隔完成，之後目標節點才能加入網域。</target>         
+          <source>For example, in the following configuration, the target node is waiting for the <bpt id="p1">**</bpt>xADDomain<ept id="p1">**</ept> resource to finish on the <bpt id="p2">**</bpt>MyDC<ept id="p2">**</ept> node with maximum number of 30 retries, at 15-second intervals, before the target node can join the domain.</source>
+          <target state="translated">例如，在下列設定中，目標節點正在等候 <bpt id="p1">**</bpt>xADDomain<ept id="p1">**</ept> 資源在 <bpt id="p2">**</bpt>MyDC<ept id="p2">**</ept> 節點上在 15 秒的間隔內最多重試 30 次完成，之後目標節點才能加入網域。</target>         
         </trans-unit>
         <trans-unit id="114" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>NOte:<ept id="p1">**</ept> By default the WaitForXXX resources try one time and then fail.</source>
-          <target state="translated"><bpt id="p1">**</bpt>注意︰<ept id="p1">**</ept>WaitForXXX 資源預設會嘗試一次，然後才會失敗。</target>         
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> By default the WaitForXXX resources try one time and then fail.</source>
+          <target state="translated"><bpt id="p1">**</bpt>注意︰<ept id="p1">**</ept>根據預設，WaitForXXX 資源會嘗試一次，然後才失敗。</target>         
         </trans-unit>
         <trans-unit id="115" translate="yes" xml:space="preserve">
           <source>Although it is not required, you will typically want to specify a retry interval and count.</source>
