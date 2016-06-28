@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="es-es">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f4c64d3603fd01f29a63f8b180057714bf3d1197</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\crossNodeDependencies.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifying cross-node dependencies</source>
+          <target state="translated">Especificación de dependencias entre nodos</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Specifying cross-node dependencies</source>
+          <target state="translated">Especificación de dependencias entre nodos</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 5.0</source>
+          <target state="translated">Se aplica a: Windows PowerShell 5.0</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>DSC provides special resources, <bpt id="p1">**</bpt>WaitForAll<ept id="p1">**</ept>, <bpt id="p2">**</bpt>WaitForAny<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>WaitForSome<ept id="p3">**</ept> that can be used in configurations to specify dependencies on configurations on other nodes.</source>
+          <target state="translated">DSC proporciona recursos especiales, <bpt id="p1">**</bpt>WaitForAll<ept id="p1">**</ept>, <bpt id="p2">**</bpt>WaitForAny<ept id="p2">**</ept> y <bpt id="p3">**</bpt>WaitForSome<ept id="p3">**</ept>, que se pueden usar en configuraciones para especificar las dependencias en configuraciones de otros nodos.</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The behavior of these resources is as follows:</source>
+          <target state="translated">El comportamiento de estos recursos es el siguiente:</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>WaitForAll<ept id="p1">**</ept>: Succeeds if the specified resource is in the desired state on all target nodes defined in the <bpt id="p2">**</bpt>NodeName<ept id="p2">**</ept> property.</source>
+          <target state="translated"><bpt id="p1">**</bpt>WaitForAll<ept id="p1">**</ept>: se ejecuta si el recurso especificado está en el estado deseado en todos los nodos de destino definidos en la propiedad <bpt id="p2">**</bpt>NodeName<ept id="p2">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>WaitForAny<ept id="p1">**</ept>: Succeeds if the specified resource is in the desired state on at least one of the target nodes defined in the <bpt id="p2">**</bpt>NodeName<ept id="p2">**</ept> property.</source>
+          <target state="translated"><bpt id="p1">**</bpt>WaitForAny<ept id="p1">**</ept>: se ejecuta si el recurso especificado está en el estado deseado en al menos uno de los nodos de destino definidos en la propiedad <bpt id="p2">**</bpt>NodeName<ept id="p2">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>WaitForSome<ept id="p1">**</ept>: Specifies a <bpt id="p2">**</bpt>NodeCount<ept id="p2">**</ept> property in addition to a <bpt id="p3">**</bpt>NodeName<ept id="p3">**</ept> property.</source>
+          <target state="translated"><bpt id="p1">**</bpt>WaitForSome<ept id="p1">**</ept>: especifica una propiedad <bpt id="p2">**</bpt>NodeCount<ept id="p2">**</ept> además de <bpt id="p3">**</bpt>NodeName<ept id="p3">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The resource succeeds if the resource is in the desired state on a minimum number of nodes (specified by <bpt id="p1">**</bpt>NodeCount<ept id="p1">**</ept>) defined by the <bpt id="p2">**</bpt>NodeName<ept id="p2">**</ept> property.</source>
+          <target state="translated">El recurso se ejecuta si está en el estado deseado en un número mínimo de nodos (especificado por <bpt id="p1">**</bpt>NodeCount<ept id="p1">**</ept>) definido por la propiedad <bpt id="p2">**</bpt>NodeName<ept id="p2">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Using WaitForXXXX resources</source>
+          <target state="translated">Uso de recursos WaitForXXXX</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To use the <bpt id="p1">**</bpt>WaitForXXXX<ept id="p1">**</ept> resources, you create a resource block of that resource type that specifies the DSC resource and node(s) to wait for.</source>
+          <target state="translated">Para usar los recursos <bpt id="p1">**</bpt>WaitForXXXX<ept id="p1">**</ept>, cree un bloque de recursos de ese tipo de recurso que especifique los nodos y el recurso de DSC que se esperará.</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You then use the <bpt id="p1">**</bpt>DependsOn<ept id="p1">**</ept> property in any other resource blocks in your configuration to wait for the conditions specified in the <bpt id="p2">**</bpt>WaitForXXXX<ept id="p2">**</ept> node to succeed.</source>
+          <target state="translated">Después, use la propiedad <bpt id="p1">**</bpt>DependsOn<ept id="p1">**</ept> en otros bloques de recursos de la configuración para esperar que las condiciones especificadas del nodo <bpt id="p2">**</bpt>WaitForXXXX<ept id="p2">**</ept> sean correctas.</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For example, in the following configuration, the target node is waiting for the <bpt id="p1">**</bpt>xADDomain<ept id="p1">**</ept> resource to finish on the <bpt id="p2">**</bpt>MyDC<ept id="p2">**</ept> node with maximum number of 30 retries, at 15-second intervals, before the target node can join the domain.</source>
+          <target state="translated">Por ejemplo, en la configuración siguiente, el nodo de destino está esperando que el recurso <bpt id="p1">**</bpt>xADDomain<ept id="p1">**</ept> finalice en el nodo <bpt id="p2">**</bpt>MyDC<ept id="p2">**</ept> con un número máximo de 30 reintentos, a intervalos de 15 segundos, antes de que el nodo de destino pueda unirse al dominio.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> By default the WaitForXXX resources try one time and then fail.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Nota:<ept id="p1">**</ept> De manera predeterminada, los recursos de WaitForXXX lo intentan una vez y después se produce un error.</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Although it is not required, you will typically want to specify a retry interval and count.</source>
+          <target state="translated">Aunque no es necesario, normalmente la intención será especificar un recuento y un intervalo de reintentos.</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">Consulte también</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>DSC Configurations</source>
+          <target state="translated">Configuraciones DSC</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>DSC Resources</source>
+          <target state="translated">Recursos de DSC</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Configuring The Local Configuration Manager</source>
+          <target state="translated">Configuración del administrador de configuración local</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
