@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e3643fd339a0662d87f9532d9c38fd56c7f72333</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\dsc_updateconfig.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>On-demand PULL of DSC Configurations</source>
+          <target state="translated">DSC 配置的按需请求</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The new Update-DscConfiguration cmdlet triggers a pull from the pull server(s) defined in the meta-configuration.</source>
+          <target state="translated">新的 Update-DscConfiguration cmdlet 将触发对元配置中所定义请求服务器的请求。</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The behavior is often referred to as 'Pull Now'.</source>
+          <target state="translated">该行为通常称为“立即请求”。</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Once triggered, the pull behaves exactly the same as it would have when triggered during the regular frequency:</source>
+          <target state="translated">一旦触发，请求的行为将与以正常频率触发的行为完全相同：</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The checksum for current configuration is compared to the checksum for the configuration on the pull server.</source>
+          <target state="translated">将当前配置的校验和与请求服务器上配置的校验和相比较。</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If they are the same, it completes successfully without applying the configuration.</source>
+          <target state="translated">如果它们相同，则不应用配置而成功完成操作。</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>If they are different, the configuration is pulled down from the pull server and applied.</source>
+          <target state="translated">如果它们不同，则从请求服务器请求并应用配置。</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> If the Meta-Configuration RefreshMode = 'Push' an error is returned by this cmdlet so this cmdlet will always do nothing when a target node is in 'Push' Mode.</source>
+          <target state="translated"><bpt id="p1">**</bpt>注意：<ept id="p1">**</ept>如果元配置 RefreshMode = 'Push'，则此 cmdlet 将返回错误，从而当目标节点为“请求”模式时，此 cmdlet 将始终不执行任何操作。</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
