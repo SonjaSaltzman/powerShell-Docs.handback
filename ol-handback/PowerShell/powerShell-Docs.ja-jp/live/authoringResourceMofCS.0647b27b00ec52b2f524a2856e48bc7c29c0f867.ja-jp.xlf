@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">991a324945289b2eff0b706d093b2d345352fb15</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\authoringResourceMofCS.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Authoring a DSC resource in C`</source>
+          <target state="translated">C# での DSC リソースの作成</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Authoring a DSC resource in C</source>
+          <target state="translated">C での DSC リソースの作成</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</source>
+          <target state="translated">適用先: Windows PowerShell 4.0、Windows PowerShell 5.0</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Typically, a Windows PowerShell Desired State Configuration (DSC) custom resource is implemented in a PowerShell script.</source>
+          <target state="translated">通常、Windows PowerShell Desired State Configuration (DSC) カスタム リソースは、PowerShell スクリプトで実装されます。</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>However, you can also implement the functionality of a DSC custom resource by writing cmdlets in C#.</source>
+          <target state="translated">ただし、C# でコマンドレットを記述して、DSC カスタム リソースの機能を実装することもできます。</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For an introduction on writing cmdlets in C#, see <bpt id="p1">[</bpt>Writing a Windows PowerShell Cmdlet<ept id="p1">](https://technet.microsoft.com/en-us/library/dd878294.aspx)</ept>.</source>
+          <target state="translated">C# でのコマンドレットの記述の概要については、「<bpt id="p1">[</bpt>Writing a Windows PowerShell Cmdlet (Windows PowerShell コマンドレットの記述)<ept id="p1">](https://technet.microsoft.com/en-us/library/dd878294.aspx)</ept>」を参照してください。</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Aside from implementing the resource in C# as cmdlets, the process of creating the MOF schema, creating the folder structure, importing and using your custom DSC resource are the same as described in <bpt id="p1">[</bpt>Writing a custom DSC resource with MOF<ept id="p1">](authoringResourceMOF.md)</ept>.</source>
+          <target state="translated">C# でコマンドレットとしてリソースを実装すること以外に、MOF スキーマの作成、フォルダー構造の作成、およびカスタム DSC リソースのインポートと使用のプロセスは、「<bpt id="p1">[</bpt>MOF を使用したカスタム DSC リソースの記述<ept id="p1">](authoringResourceMOF.md)</ept>」で説明されていることと同じです。</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Writing a cmdlet-based resource</source>
+          <target state="translated">コマンドレットベースのリソースの記述</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For this example, we will implement a simple resource that manages a text file and its contents.</source>
+          <target state="translated">この例では、テキスト ファイルとその内容を管理する単純なリソースを実装します。</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Writing the MOF schema</source>
+          <target state="translated">MOF スキーマの記述</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The following is the MOF resource definition.</source>
+          <target state="translated">MOF リソースの定義を次に示します。</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Setting up the Visual Studio project</source>
+          <target state="translated">Visual Studio プロジェクトの設定</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Setting up a cmdlet project</source>
+          <target state="translated">コマンドレット プロジェクトの設定</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Open Visual Studio.</source>
+          <target state="translated">Visual Studio を開きます。</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Create a C# project and provide the name.</source>
+          <target state="translated">C# プロジェクトを作成し、名前を指定します。</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Class Library<ept id="p1">**</ept> from the available project templates.</source>
+          <target state="translated">使用可能なプロジェクト テンプレートから <bpt id="p1">**</bpt>[クラス ライブラリ]<ept id="p1">**</ept> を選択します。</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Ok<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>[OK]<ept id="p1">**</ept> をクリックします。</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Add an assembly reference to System.Automation.Management.dll to your project.</source>
+          <target state="translated">System.Automation.Management.dll へのアセンブリ参照をプロジェクトに追加します。</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Change the assembly name to match the resource name.</source>
+          <target state="translated">リソース名と一致するようにアセンブリ名を変更します。</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>In this case, the assembly should be named <bpt id="p1">**</bpt>MSFT_XDemoFile<ept id="p1">**</ept>.</source>
+          <target state="translated">この例では、アセンブリは <bpt id="p1">**</bpt>MSFT_XDemoFile<ept id="p1">**</ept> という名前にする必要があります。</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Writing the cmdlet code</source>
+          <target state="translated">コマンドレット コードの記述</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The following C# code implements the <bpt id="p1">**</bpt>Get-TargetResource<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Set-TargetResource<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Test-TargetResource<ept id="p3">**</ept> cmdlets.</source>
+          <target state="translated">次の C# コードでは、<bpt id="p1">**</bpt>Get-TargetResource<ept id="p1">**</ept>、<bpt id="p2">**</bpt>Set-TargetResource<ept id="p2">**</ept>、および <bpt id="p3">**</bpt>Test-TargetResource<ept id="p3">**</ept> コマンドレットを実装します。</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Deploying the resource</source>
+          <target state="translated">リソースの展開</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The compiled dll file should be saved in a file structure similar to a script-based resource.</source>
+          <target state="translated">コンパイル済み dll ファイルは、スクリプトベースのリソースと同様のファイル構造で保存する必要があります。</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The following is the folder structure for this resource.</source>
+          <target state="translated">このリソースのフォルダー構造を次に示します。</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">参照</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Concepts</source>
+          <target state="translated">概念</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Writing a custom DSC resource with MOF</source>
+          <target state="translated">MOF を使用したカスタム DSC リソースの記述</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Other Resources</source>
+          <target state="translated">その他のリソース</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Writing a Windows PowerShell Cmdlet</source>
+          <target state="translated">Writing a Windows PowerShell Cmdlet (Windows PowerShell コマンドレットの記述)</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
