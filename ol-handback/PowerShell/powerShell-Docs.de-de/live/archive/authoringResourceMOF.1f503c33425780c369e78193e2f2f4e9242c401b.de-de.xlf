@@ -2,10 +2,11 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
-      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\authoringResourceMOF.md</xliffext:olfilepath>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4d685e518acd3a18f4872417b645dbe66f758421</xliffext:olfilehash>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-8d96cd8" tool-company="Microsoft" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\authoringResourceMOF.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
     </header>
     <body>
       <group id="content" extype="content">
@@ -142,110 +143,102 @@
           <target state="translated">In diesem Dokument wird dieser Eigenschaftensatz als die „Ressourceneigenschaften“ bezeichnet.</target>         
         </trans-unit>
         <trans-unit id="134" translate="yes" xml:space="preserve">
-          <source>Store these three functions in a file called</source>
-          <target state="translated">Speichern Sie die drei Funktionen in einer Datei des Formats</target>         
+          <source>Store these three functions in a file called <ph id="ph1">&lt;ResourceName&gt;</ph>.psm1.</source>
+          <target state="translated">Speichern Sie die drei Funktionen in einer Datei namens „<ph id="ph1">&lt;ResourceName&gt;</ph>.psm1“.</target>         
         </trans-unit>
         <trans-unit id="135" translate="yes" xml:space="preserve">
-          <source>.psm1.</source>
-          <target state="translated">.psm1.</target>         
-        </trans-unit>
-        <trans-unit id="136" translate="yes" xml:space="preserve">
           <source>In the following example, the functions are stored in a file called Demo_IISWebsite.psm1.</source>
           <target state="translated">Im folgenden Beispiel werden die Funktionen in einer Datei namens „Demo_IISWebsite.psm1“ gespeichert.</target>         
         </trans-unit>
-        <trans-unit id="137" translate="yes" xml:space="preserve">
+        <trans-unit id="136" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: When you run the same configuration script on your resource more than once, you should receive no errors and the resource should remain in the same state as running the script once.</source>
           <target state="translated"><bpt id="p1">**</bpt>Hinweis<ept id="p1">**</ept>: Wenn Sie das gleiche Konfigurationsskript mehrfach für Ihre Ressource ausführen, sollten keine Fehler ausgegeben werden, und die Ressource sollte sich im gleichen Zustand wie nach der einmaligen Ausführung des Skripts befinden.</target>         
         </trans-unit>
-        <trans-unit id="138" translate="yes" xml:space="preserve">
+        <trans-unit id="137" translate="yes" xml:space="preserve">
           <source>To accomplish this, ensure that your <bpt id="p1">**</bpt>Get-TargetResource<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Test-TargetResource<ept id="p2">**</ept> functions leave the resource unchanged, and that invoking the <bpt id="p3">**</bpt>Set-TargetResource<ept id="p3">**</ept> function more than once in a sequence with the same parameter values is always equivalent to invoking it once.</source>
           <target state="translated">Stellen Sie dazu sicher, dass Ihre Funktionen <bpt id="p1">**</bpt>Get-TargetResource<ept id="p1">**</ept> und <bpt id="p2">**</bpt>Test-TargetResource<ept id="p2">**</ept> die Ressource unverändert verlassen, und dass das Ergebnis der Funktion <bpt id="p3">**</bpt>Set-TargetResource<ept id="p3">**</ept> mit denselben Parameterwerten immer identisch ist, egal, ob Sie die Funktion einmal oder mehrfach aufrufen.</target>         
         </trans-unit>
-        <trans-unit id="139" translate="yes" xml:space="preserve">
+        <trans-unit id="138" translate="yes" xml:space="preserve">
           <source>In the <bpt id="p1">**</bpt>Get-TargetResource<ept id="p1">**</ept> function implementation, use the key resource property values that are provided as parameters to check the status of the specified resource instance.</source>
           <target state="translated">Verwenden Sie in der Implementierung der Funktion <bpt id="p1">**</bpt>Get-TargetResource<ept id="p1">**</ept> die Schlüsselressourcen-Eigenschaftswerte, die als Parameter bereitgestellt werden, um den Status der angegebenen Ressourceninstanz zu überprüfen.</target>         
         </trans-unit>
-        <trans-unit id="140" translate="yes" xml:space="preserve">
+        <trans-unit id="139" translate="yes" xml:space="preserve">
           <source>This function must return a hash table that lists all the resource properties as keys and the actual values of these properties as the corresponding values.</source>
           <target state="translated">Diese Funktion muss eine Hashtabelle zurückgeben, in der alle Ressourceneigenschaften als Schlüssel und die tatsächlichen Werte dieser Eigenschaften als die entsprechende Werte aufgeführt sind.</target>         
         </trans-unit>
-        <trans-unit id="141" translate="yes" xml:space="preserve">
+        <trans-unit id="140" translate="yes" xml:space="preserve">
           <source>The following code provides an example.</source>
           <target state="translated">Der folgende Code gibt ein Beispiel.</target>         
         </trans-unit>
-        <trans-unit id="142" translate="yes" xml:space="preserve">
+        <trans-unit id="141" translate="yes" xml:space="preserve">
           <source>Depending on the values that are specified for the resource properties in the configuration script, the <bpt id="p1">**</bpt>Set-TargetResource<ept id="p1">**</ept> must do one of the following:</source>
           <target state="translated">Abhängig von den Werten, die für die Ressourceneigenschaften im Konfigurationsskript angegeben sind, muss die Funktion <bpt id="p1">**</bpt>Set-TargetResource<ept id="p1">**</ept> eine der folgenden Aktionen ausführen:</target>         
         </trans-unit>
-        <trans-unit id="143" translate="yes" xml:space="preserve">
+        <trans-unit id="142" translate="yes" xml:space="preserve">
           <source>Create a new website</source>
           <target state="translated">Erstellen einer neuen Website</target>         
         </trans-unit>
-        <trans-unit id="144" translate="yes" xml:space="preserve">
+        <trans-unit id="143" translate="yes" xml:space="preserve">
           <source>Update an existing website</source>
           <target state="translated">Aktualisieren einer vorhandenen Website</target>         
         </trans-unit>
-        <trans-unit id="145" translate="yes" xml:space="preserve">
+        <trans-unit id="144" translate="yes" xml:space="preserve">
           <source>Delete an existing website</source>
           <target state="translated">Löschen einer vorhandenen Website</target>         
         </trans-unit>
-        <trans-unit id="146" translate="yes" xml:space="preserve">
+        <trans-unit id="145" translate="yes" xml:space="preserve">
           <source>The following example illustrates this.</source>
           <target state="translated">Das folgende Beispiel veranschaulicht dies.</target>         
         </trans-unit>
-        <trans-unit id="147" translate="yes" xml:space="preserve">
+        <trans-unit id="146" translate="yes" xml:space="preserve">
           <source>Finally, the <bpt id="p1">**</bpt>Test-TargetResource<ept id="p1">**</ept> function must take the same parameter set as <bpt id="p2">**</bpt>Get-TargetResource<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Set-TargetResource<ept id="p3">**</ept>.</source>
           <target state="translated">Schließlich muss die Funktion <bpt id="p1">**</bpt>Test-TargetResource<ept id="p1">**</ept> den gleichen Parametersatz verwenden wie <bpt id="p2">**</bpt>Get-TargetResource<ept id="p2">**</ept> und <bpt id="p3">**</bpt>Set-TargetResource<ept id="p3">**</ept>.</target>         
         </trans-unit>
-        <trans-unit id="148" translate="yes" xml:space="preserve">
+        <trans-unit id="147" translate="yes" xml:space="preserve">
           <source>In your implementation of <bpt id="p1">**</bpt>Test-TargetResource<ept id="p1">**</ept>, check the status of the resource instance that is specified in the key parameters.</source>
           <target state="translated">Überprüfen Sie in der Implementierung von <bpt id="p1">**</bpt>Test-TargetResource<ept id="p1">**</ept> den Status der in den Schlüsselparametern angegebenen Ressourceninstanz.</target>         
         </trans-unit>
-        <trans-unit id="149" translate="yes" xml:space="preserve">
+        <trans-unit id="148" translate="yes" xml:space="preserve">
           <source>If the actual status of the resource instance does not match the values specified in the parameter set, return <bpt id="p1">**</bpt>$false<ept id="p1">**</ept>.</source>
           <target state="translated">Wenn der aktuelle Status der Ressourceninstanz nicht mit den im Parametersatz angegebenen Werten übereinstimmt, wird <bpt id="p1">**</bpt>$false<ept id="p1">**</ept> zurückgegeben.</target>         
         </trans-unit>
-        <trans-unit id="150" translate="yes" xml:space="preserve">
+        <trans-unit id="149" translate="yes" xml:space="preserve">
           <source>Otherwise, return <bpt id="p1">**</bpt>$true<ept id="p1">**</ept>.</source>
           <target state="translated">Andernfalls wird <bpt id="p1">**</bpt>$true<ept id="p1">**</ept> zurückgegeben.</target>         
         </trans-unit>
-        <trans-unit id="151" translate="yes" xml:space="preserve">
+        <trans-unit id="150" translate="yes" xml:space="preserve">
           <source>The following code implements the <bpt id="p1">**</bpt>Test-TargetResource<ept id="p1">**</ept> function.</source>
           <target state="translated">Der folgende Code implementiert die Funktion <bpt id="p1">**</bpt>Test-TargetResource<ept id="p1">**</ept>.</target>         
         </trans-unit>
-        <trans-unit id="152" translate="yes" xml:space="preserve">
+        <trans-unit id="151" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: For easier debugging, use the <bpt id="p2">**</bpt>Write-Verbose<ept id="p2">**</ept> cmdlet in your implementation of the previous three functions.</source>
           <target state="translated"><bpt id="p1">**</bpt>Hinweis<ept id="p1">**</ept>: Zum einfacheren Debuggen verwenden Sie in Ihrer Implementierung der vorherigen drei Funktionen das Cmdlet <bpt id="p2">**</bpt>Write-Verbose<ept id="p2">**</ept>.</target>         
         </trans-unit>
-        <trans-unit id="153" translate="yes" xml:space="preserve">
+        <trans-unit id="152" translate="yes" xml:space="preserve">
           <source>This cmdlet writes text to the verbose message stream.</source>
           <target state="translated">Dieses Cmdlet schreibt Text in den Stream für ausführliche Meldungen.</target>         
         </trans-unit>
-        <trans-unit id="154" translate="yes" xml:space="preserve">
+        <trans-unit id="153" translate="yes" xml:space="preserve">
           <source>By default, the verbose message stream is not displayed, but you can display it by changing the value of the <bpt id="p1">**</bpt>$VerbosePreference<ept id="p1">**</ept> variable or by using the <bpt id="p2">**</bpt>Verbose<ept id="p2">**</ept> parameter in the DSC cmdlets = new.</source>
           <target state="translated">Standardmäßig wird der Stream für ausführliche Meldungen nicht angezeigt. Sie können ihn jedoch anzeigen, indem Sie den Wert der Variablen <bpt id="p1">**</bpt>$VerbosePreference<ept id="p1">**</ept> ändern den Parameter <bpt id="p2">**</bpt>Verbose<ept id="p2">**</ept> in „DSC cmdlets = new“ verwenden.</target>         
         </trans-unit>
-        <trans-unit id="155" translate="yes" xml:space="preserve">
+        <trans-unit id="154" translate="yes" xml:space="preserve">
           <source>Creating the module manifest</source>
           <target state="translated">Erstellen das Modulmanifest</target>         
         </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Finally, use the <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> cmdlet to define a <ph id="ph1">&lt;ResourceName&gt;</ph>.psd1 file for your custom resource module.</source>
+          <target state="translated">Verwenden Sie abschließend das Cmdlet <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept>, um eine „<ph id="ph1">&lt;ResourceName&gt;</ph>psd1“-Datei für das benutzerdefinierte Ressourcenmodul zu definieren.</target>         
+        </trans-unit>
         <trans-unit id="156" translate="yes" xml:space="preserve">
-          <source>Finally, use the <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> cmdlet to define a</source>
-          <target state="translated">Verwenden Sie schließlich das Cmdlet <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> zum Definieren einer</target>         
-        </trans-unit>
-        <trans-unit id="157" translate="yes" xml:space="preserve">
-          <source>.psd1 file for your custom resource module.</source>
-          <target state="translated">.psd1-Datei für Ihr benutzerdefiniertes Ressourcenmodul.</target>         
-        </trans-unit>
-        <trans-unit id="158" translate="yes" xml:space="preserve">
           <source>When you invoke this cmdlet, reference the script module (.psm1) file described in the previous section.</source>
           <target state="translated">Wenn Sie dieses Cmdlet aufrufen, verweisen Sie auf die im vorherigen Abschnitt beschriebene Skriptmoduldatei (.psm1).</target>         
         </trans-unit>
-        <trans-unit id="159" translate="yes" xml:space="preserve">
+        <trans-unit id="157" translate="yes" xml:space="preserve">
           <source>Include <bpt id="p1">**</bpt>Get-TargetResource<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Set-TargetResource<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Test-TargetResource<ept id="p3">**</ept> in the list of functions to export.</source>
           <target state="translated">Fügen Sie <bpt id="p1">**</bpt>Get-TargetResource<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Set-TargetResource<ept id="p2">**</ept> und <bpt id="p3">**</bpt>Test-TargetResource<ept id="p3">**</ept> zur Liste der zu exportierenden Funktionen hinzu.</target>         
         </trans-unit>
-        <trans-unit id="160" translate="yes" xml:space="preserve">
+        <trans-unit id="158" translate="yes" xml:space="preserve">
           <source>Following is an example manifest file.</source>
           <target state="translated">Im Folgenden finden Sie eine Beispielmanifestdatei.</target>         
         </trans-unit>
