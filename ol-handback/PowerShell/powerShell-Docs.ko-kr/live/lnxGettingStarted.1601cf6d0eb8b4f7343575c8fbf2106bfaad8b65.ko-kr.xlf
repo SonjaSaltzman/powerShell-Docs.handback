@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c05b48d2c903e59f8b65c4c8c289d2dd5c23c3f9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\lnxGettingStarted.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Get started with Desired State Configuration (DSC) for Linux</source>
+          <target state="translated">Linux용 DSC(필요한 상태 구성) 시작</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Get started with Desired State Configuration (DSC) for Linux</source>
+          <target state="translated">Linux용 DSC(필요한 상태 구성) 시작</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This topic explains how to get started using PowerShell Desired State Configuration (DSC) for Linux.</source>
+          <target state="translated">이 항목에서는 Linux용 PowerShell DSC(필요한 상태 구성) 사용 방법에 대해 설명합니다.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>For general information about DSC, see <bpt id="p1">[</bpt>Get Started with Windows PowerShell Desired State Configuration<ept id="p1">](overview.md)</ept>.</source>
+          <target state="translated">DSC에 대한 일반적인 내용은 <bpt id="p1">[</bpt>Windows PowerShell 필요한 상태 구성 시작<ept id="p1">](overview.md)</ept>을 참조하세요.</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Supported Linux operation system versions</source>
+          <target state="translated">지원되는 Linux 운영 체제 버전</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The following Linux operating system versions are supported for DSC for Linux.</source>
+          <target state="translated">다음의 Linux 운영 체제 버전이 Linux용 DSC에 대해 지원됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>CentOS 5, 6, and 7 (x86/x64)</source>
+          <target state="translated">CentOS 5, 6 및 7(x86/x64)</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Debian GNU/Linux 6 and 7 (x86/x64)</source>
+          <target state="translated">Debian GNU/Linux 6 및 7(x86/x64)</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Oracle Linux 5, 6 and 7 (x86/x64)</source>
+          <target state="translated">Oracle Linux 5, 6 및 7(x86/x64)</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Red Hat Enterprise Linux Server 5, 6 and 7 (x86/x64)</source>
+          <target state="translated">Red Hat Enterprise Linux 서버 5, 6 및 7(x86/x64)</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>SUSE Linux Enterprise Server 10, 11 and 12 (x86/x64)</source>
+          <target state="translated">SUSE Linux Enterprise Server 10, 11 및 12(x86/x64)</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Ubuntu Server 12.04 LTS and 14.04 LTS (x86/x64)</source>
+          <target state="translated">Ubuntu Server 12.04 LTS 및 14.04 LTS(x86/x64)</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The following table describes the required package dependencies for DSC for Linux.</source>
+          <target state="translated">다음 표에서는 Linux용 DSC에 대한 필수 패키지 종속성에 대해 설명합니다.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Required package</source>
+          <target state="translated">필수 패키지</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">설명</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Minimum version</source>
+          <target state="translated">최소 버전</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>glibc</source>
+          <target state="translated">glibc</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>GNU Library</source>
+          <target state="translated">GNU 라이브러리</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>2…4 – 31.30</source>
+          <target state="translated">2…4 – 31.30</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>python</source>
+          <target state="translated">python</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Python</source>
+          <target state="translated">Python</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>2.4 – 3.4</source>
+          <target state="translated">2.4 – 3.4</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>omiserver</source>
+          <target state="translated">omiserver</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Open Management Infrastructure</source>
+          <target state="translated">개방형 관리 인프라</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>1.0.8.1</source>
+          <target state="translated">1.0.8.1</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>openssl</source>
+          <target state="translated">openssl</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>OpenSSL Libraries</source>
+          <target state="translated">OpenSSL 라이브러리</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>0.9.8 or 1.0</source>
+          <target state="translated">0.9.8 또는 1.0</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>ctypes</source>
+          <target state="translated">ctypes</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Python CTypes library</source>
+          <target state="translated">Python CTypes 라이브러리</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Must match Python version</source>
+          <target state="translated">Python 버전과 일치해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>libcurl</source>
+          <target state="translated">libcurl</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>cURL http client library</source>
+          <target state="translated">cURL http 클라이언트 라이브러리</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>7.15.1</source>
+          <target state="translated">7.15.1</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Installing DSC for Linux</source>
+          <target state="translated">Linux용 DSC 설치</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You must install the <bpt id="p1">[</bpt>Open Management Infrastructure (OMI)<ept id="p1">](https://collaboration.opengroup.org/omi/)</ept> before installing DSC for Linux.</source>
+          <target state="translated">Linux용 DSC를 설치하려면 먼저 <bpt id="p1">[</bpt>OMI(개방형 관리 인프라)<ept id="p1">](https://collaboration.opengroup.org/omi/)</ept>를 설치해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Installing OMI</source>
+          <target state="translated">OMI 설치</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Desired State Configuration for Linux requires the Open Management Infrastructure (OMI) CIM server, version 1.0.8.1.</source>
+          <target state="translated">Linux용 필요한 상태 구성을 사용하려면 OMI(개방형 관리 인프라) CIM 서버 버전 1.0.8.1이 있어야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>OMI can be downloaded from The Open Group: <bpt id="p1">[</bpt>Open Management Infrastructure (OMI)<ept id="p1">](https://collaboration.opengroup.org/omi/)</ept>.</source>
+          <target state="translated">OMI는 Open Group: <bpt id="p1">[</bpt>Open Management Infrastructure(OMI)<ept id="p1">](https://collaboration.opengroup.org/omi/)</ept>(개방형 관리 인프라)에서 다운로드할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To install OMI, install the package that is appropriate for your Linux system (.rpm or .deb) and OpenSSL version (ssl_098 or ssl_100), and architecture (x64/x86).</source>
+          <target state="translated">OMI를 설치하려면 Linux 시스템(.rpm 또는.deb)과 OpenSSL 버전(ssl_098 또는 ssl_100) 및 아키텍처(x64/x86)에 적절한 패키지를 설치합니다.</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>RPM packages are appropriate for CentOS, Red Hat Enterprise Linux, SUSE Linux Enterprise Server, and Oracle Linux.</source>
+          <target state="translated">RPM 패키지는 CentOS, Red Hat Enterprise Linux, SUSE Linux Enterprise Server 및 Oracle Linux에 적합합니다.</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>DEB packages are appropriate for Debian GNU/Linux and Ubuntu Server.</source>
+          <target state="translated">DEB 패키지는 Debian GNU/Linux 및 Ubuntu 서버에 적합합니다.</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The ssl_098 packages are appropriate for computers with OpenSSL 0.9.8 installed while the ssl_100 packages are appropriate for computers with OpenSSL 1.0 installed.</source>
+          <target state="translated">ssl_098 패키지는 OpenSSL 0.9.8이 설치된 컴퓨터에 적합하고, ssl_100 패키지는 OpenSSL 1.0이 설치된 컴퓨터에 적합합니다.</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: To determine the installed OpenSSL version, run the command <ph id="ph1">`openssl version`</ph>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>참고<ept id="p1">**</ept>: 설치된 OpenSSL 버전을 확인하려면 <ph id="ph1">`openssl version`</ph> 명령을 실행합니다.</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Run the following command to install OMI on a CentOS 7 x64 system.</source>
+          <target state="translated">CentOS 7 x64 시스템에 OMI를 설치하려면 다음 명령을 실행합니다.</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Installing DSC</source>
+          <target state="translated">DSC 설치</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>DSC for Linux is available for download <bpt id="p1">[</bpt>here<ept id="p1">](https://github.com/Microsoft/PowerShell-DSC-for-Linux/releases/latest)</ept>.</source>
+          <target state="translated">Linux용 DSC는 <bpt id="p1">[</bpt>여기<ept id="p1">](https://github.com/Microsoft/PowerShell-DSC-for-Linux/releases/latest)</ept>에서 다운로드할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>To install DSC, install the package that is appropriate for your Linux system (.rpm or .deb) and OpenSSL version (ssl_098 or ssl_100), and architecture (x64/x86).</source>
+          <target state="translated">DSC를 설치하려면 Linux 시스템(.rpm 또는.deb)과 OpenSSL 버전(ssl_098 또는 ssl_100) 및 아키텍처(x64/x86)에 적절한 패키지를 설치합니다.</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>RPM packages are appropriate for CentOS, Red Hat Enterprise Linux, SUSE Linux Enterprise Server, and Oracle Linux.</source>
+          <target state="translated">RPM 패키지는 CentOS, Red Hat Enterprise Linux, SUSE Linux Enterprise Server 및 Oracle Linux에 적합합니다.</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>DEB packages are appropriate for Debian GNU/Linux and Ubuntu Server.</source>
+          <target state="translated">DEB 패키지는 Debian GNU/Linux 및 Ubuntu 서버에 적합합니다.</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The ssl_098 packages are appropriate for computers with OpenSSL 0.9.8 installed while the ssl_100 packages are appropriate for computers with OpenSSL 1.0 installed.</source>
+          <target state="translated">ssl_098 패키지는 OpenSSL 0.9.8이 설치된 컴퓨터에 적합하고, ssl_100 패키지는 OpenSSL 1.0이 설치된 컴퓨터에 적합합니다.</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: To determine the installed OpenSSL version, run the command openssl version.</source>
+          <target state="translated"><bpt id="p1">**</bpt>참고<ept id="p1">**</ept>: 설치된 OpenSSL 버전을 확인하려면 openssl version 명령을 실행합니다.</target>         
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Run the following command to install DSC on a CentOS 7 x64 system.</source>
+          <target state="translated">CentOS 7 x64 시스템에 DSC를 설치하려면 다음 명령을 실행합니다.</target>         
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Using DSC for Linux</source>
+          <target state="translated">Linux용 DSC 사용</target>         
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The following sections explain how to create and run DSC configurations on Linux computers.</source>
+          <target state="translated">다음 섹션에서는 Linux 컴퓨터에서 DSC 구성을 만들고 실행하는 방법을 설명합니다.</target>         
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Creating a configuration MOF document</source>
+          <target state="translated">구성 MOF 문서 만들기</target>         
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell Configuration keyword is used to create a configuration for Linux computers, just like for Windows computers.</source>
+          <target state="translated">Windows PowerShell 구성 키워드는 Windows 컴퓨터와 마찬가지로 Linux 컴퓨터용 구성을 만드는 데 사용됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The following steps describe the creation of a configuration document for a Linux computer using Windows PowerShell.</source>
+          <target state="translated">다음 단계에서는 Windows PowerShell을 사용한 Linux 컴퓨터용 구성 문서 작성에 대해 설명합니다.</target>         
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Import the nx module.</source>
+          <target state="translated">nx 모듈을 가져옵니다.</target>         
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The nx Windows PowerShell module contains the schema for Built-In resources for DSC for Linux, and must be installed to your local computer and imported in the configuration.</source>
+          <target state="translated">nx Windows PowerShell 모듈은 Linux용 DSC를 위한 기본 제공 리소스에 대한 스키마를 포함하며, 로컬 컴퓨터에 설치되어 구성에 가져와야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>-To install the nx module, copy the nx module directory to either <ph id="ph1">`$env:USERPROFILE\Documents\WindowsPowerShell\Modules\`</ph> or <ph id="ph2">`$PSHOME\Modules`</ph>.</source>
+          <target state="translated">-nx 모듈을 설치하려면 nx 모듈 디렉터리를 <ph id="ph1">`$env:USERPROFILE\Documents\WindowsPowerShell\Modules\`</ph> 또는 <ph id="ph2">`$PSHOME\Modules`</ph>에 복사합니다.</target>         
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The nx module is included in the DSC for Linux installation package (MSI).</source>
+          <target state="translated">nx 모듈은 Linux용 DSC 설치 패키지(MSI)에 포함되어 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>To import the nx module in your configuration, use the <bpt id="p1">__</bpt>Import-DSCResource<ept id="p1">__</ept> command:</source>
+          <target state="translated">구성에서 nx 모듈을 가져오려면 <bpt id="p1">__</bpt>Import-DSCResource<ept id="p1">__</ept> 명령을 사용합니다.</target>         
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Define a configuration and generate the configuration document:</source>
+          <target state="translated">구성을 정의하고 구성 문서를 생성합니다.</target>         
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Push the configuration to the Linux computer</source>
+          <target state="translated">구성을 Linux 컴퓨터에 밀어넣기</target>         
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Configuration documents (MOF files) can be pushed to the Linux computer using the <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> cmdlet.</source>
+          <target state="translated">구성 문서(MOF 파일)을 <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> cmdlet을 사용하여 Linux 컴퓨터에 밀어넣을 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>In order to use this cmdlet, along with the <bpt id="p1">[</bpt>Get-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn407379)</ept>.aspx, or <bpt id="p2">[</bpt>Test-DscConfiguration<ept id="p2">](https://technet.microsoft.com/en-us/library/dn407382.aspx)</ept> cmdlets, remotely to a Linux computer, you must use a CIMSession.</source>
+          <target state="translated">원격으로 Linux 컴퓨터에, <bpt id="p1">[</bpt>Get-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn407379)</ept>.aspx와 함께 이 cmdlet을 사용하거나, <bpt id="p2">[</bpt>Test-DscConfiguration<ept id="p2">](https://technet.microsoft.com/en-us/library/dn407382.aspx)</ept> cmdlet을 사용하려면 CIMSession을 사용해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">[</bpt>New-CimSession<ept id="p1">](https://technet.microsoft.com/en-us/library/jj590760.aspx)</ept> cmdlet is used to create a CIMSession to the Linux computer.</source>
+          <target state="translated">CIMSession를 Linux 컴퓨터에 만드는 데에는 <bpt id="p1">[</bpt>New-CimSession<ept id="p1">](https://technet.microsoft.com/en-us/library/jj590760.aspx)</ept> cmdlet이 사용됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The following code shows how to create a CIMSession for DSC for Linux.</source>
+          <target state="translated">다음 코드는 Linux용 DSC를 위한 CIMSession을 만드는 방법을 보여 줍니다.</target>         
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>:</source>
+          <target state="translated"><bpt id="p1">**</bpt>참고<ept id="p1">**</ept>:</target>         
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>For “Push” mode, the user credential must be the root user on the Linux computer.</source>
+          <target state="translated">"밀어넣기" 모드의 경우, 사용자 자격 증명은 Linux 컴퓨터 상의 루트 사용자여야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Only SSL/TLS connections are supported for DSC for Linux, the New-CimSession must be used with the –UseSSL parameter set to $true.</source>
+          <target state="translated">Linux용 DSC에는 SSL/TLS 연결만 지원되며, New-CimSession은 $true로 설정된 –UseSSL 매개 변수와 함께 사용해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The SSL certificate used by OMI (for DSC) is specified in the file: <ph id="ph1">`/opt/omi/etc/omiserver.conf`</ph> with the properties: pemfile and keyfile.</source>
+          <target state="translated">OMI(DSC용)에서 사용하는 SSL 인증서는 속성이 pemfile 및 keyfile인 <ph id="ph1">`/opt/omi/etc/omiserver.conf`</ph> 파일에 지정되어 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>If this certificate is not trusted by the Windows computer that you are running the <bpt id="p1">[</bpt>New-CimSession<ept id="p1">](https://technet.microsoft.com/en-us/library/jj590760.aspx)</ept> cmdlet on, you can choose to ignore certificate validation with the CIMSession Options:</source>
+          <target state="translated">이 인증서를 <bpt id="p1">[</bpt>New-CimSession<ept id="p1">](https://technet.microsoft.com/en-us/library/jj590760.aspx)</ept> cmdlet을 실행 중인 Windows 컴퓨터에서 신뢰하지 않는 경우에는 CIMSession 옵션을 사용하여 인증서 유효성 검사를 무시하도록 선택할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Run the following command to push the DSC configuration to the Linux node.</source>
+          <target state="translated">Linux 노드에 DSC 구성을 밀어 넣으려면 다음 명령을 실행합니다.</target>         
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Distribute the configuration with a pull server</source>
+          <target state="translated">끌어오기 서버로 구성 배포</target>         
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Configurations can be distributed to a Linux computer with a pull server, just like for Windows computers.</source>
+          <target state="translated">구성은 Windows 컴퓨터와 마찬가지로 끌어오기 서버로 Linux 컴퓨터에 배포할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>For guidance on using a pull server, see <bpt id="p1">[</bpt>Windows PowerShell Desired State Configuration Pull Servers<ept id="p1">](pullServer.md)</ept>.</source>
+          <target state="translated">끌어오기 서버 사용에 대한 지침이 필요하면 <bpt id="p1">[</bpt>Windows PowerShell Desired State Configuration Pull Servers(Windows PowerShell 필요한 상태 구성 끌어오기 서버)<ept id="p1">](pullServer.md)</ept>를 참조하세요.</target>         
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>For additional information and limitations related to using Linux computers with a pull server, see the Release Notes for Desired State Configuration for Linux.</source>
+          <target state="translated">추가 정보 및 끌어오기 서버와 함께 Linux 컴퓨터를 사용하는 것과 관련된 제한 사항에 대해서는 Linux용 필요한 상태 구성에 대한 릴리스 정보를 참조하세요.</target>         
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Working with configurations locally</source>
+          <target state="translated">로컬에서 구성 사용</target>         
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>DSC for Linux includes scripts to work with configuration from the local Linux computer.</source>
+          <target state="translated">Linux용 DSC는 로컬 Linux 컴퓨터의 구성으로 작업하는 스크립트를 포함합니다.</target>         
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>These scripts are locate in <ph id="ph1">`/opt/microsoft/dsc/Scripts`</ph> and include the following:</source>
+          <target state="translated">이 스크립트는 <ph id="ph1">`/opt/microsoft/dsc/Scripts`</ph>에 있으며 다음 내용을 포함합니다.</target>         
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>GetDscConfiguration.py</source>
+          <target state="translated">GetDscConfiguration.py</target>         
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Returns the current configuration applied to the computer.</source>
+          <target state="translated">컴퓨터에 적용된 현재 구성을 반환합니다.</target>         
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Similar to the Windows PowerShell cmdlet Get-DscConfiguration cmdlet.</source>
+          <target state="translated">Windows PowerShell cmdlet Get-DscConfiguration cmdlet과 유사합니다.</target>         
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>GetDscLocalConfigurationManager.py</source>
+          <target state="translated">GetDscLocalConfigurationManager.py</target>         
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Returns the current meta-configuration applied to the computer.</source>
+          <target state="translated">컴퓨터에 적용된 현재 메타 구성을 반환합니다.</target>         
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Similar to the cmdlet <bpt id="p1">[</bpt>Get-DSCLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept> cmdlet.</source>
+          <target state="translated">cmdlet <bpt id="p1">[</bpt>Get-DSCLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept> cmdlet과 유사합니다.</target>         
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>InstallModule.py</source>
+          <target state="translated">InstallModule.py</target>         
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Installs a custom DSC resource module.</source>
+          <target state="translated">사용자 지정 DSC 리소스 모듈을 설치합니다.</target>         
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Requires the path to a .zip file containing the module shared object library and schema MOF files.</source>
+          <target state="translated">모듈 공유 개체 라이브러리 및 스키마 MOF 파일을 포함하는 .zip 파일의 경로가 필요합니다.</target>         
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>RemoveModule.py</source>
+          <target state="translated">RemoveModule.py</target>         
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Removes a custom DSC resource module.</source>
+          <target state="translated">사용자 지정 DSC 리소스 모듈을 제거합니다.</target>         
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Requires the name of the module to remove.</source>
+          <target state="translated">제거할 모듈의 이름이 필요합니다.</target>         
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>StartDscLocalConfigurationManager.py</source>
+          <target state="translated">StartDscLocalConfigurationManager.py</target>         
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Applies a configuration MOF file to the computer.</source>
+          <target state="translated">구성 MOF 파일을 컴퓨터에 적용합니다.</target>         
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Similar to the <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> cmdlet.</source>
+          <target state="translated"><bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> cmdlet과 유사합니다.</target>         
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Requires the path to the configuration MOF to apply.</source>
+          <target state="translated">적용할 구성 MOF의 경로가 필요합니다.</target>         
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>SetDscLocalConfigurationManager.py</source>
+          <target state="translated">SetDscLocalConfigurationManager.py</target>         
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Applies a Meta Configuration MOF file to the computer.</source>
+          <target state="translated">메타 구성 MOF 파일을 컴퓨터에 적용합니다.</target>         
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Similar to the <bpt id="p1">[</bpt>Set-DSCLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521621.aspx)</ept> cmdlet.</source>
+          <target state="translated"><bpt id="p1">[</bpt>Set-DSCLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521621.aspx)</ept> cmdlet과 유사합니다.</target>         
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Requires the path to the Meta Configuration MOF to apply.</source>
+          <target state="translated">적용할 메타 구성 MOF의 경로가 필요합니다.</target>         
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>PowerShell Desired State Configuration for Linux Log Files</source>
+          <target state="translated">Linux용 PowerShell 필요한 상태 구성 로그 파일</target>         
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The following log files are generated for DSC for Linux messages.</source>
+          <target state="translated">Linux용 DSC 메시지용으로 다음 로그 파일이 생성됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Log file</source>
+          <target state="translated">로그 파일</target>         
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Directory</source>
+          <target state="translated">디렉터리</target>         
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">설명</target>         
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>omiserver.log</source>
+          <target state="translated">omiserver.log</target>         
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>/opt/omi/var/log/</source>
+          <target state="translated">/opt/omi/var/log/</target>         
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Messages relating to the operation of the OMI CIM server.</source>
+          <target state="translated">OMI CIM 서버의 작업에 관한 메시지입니다.</target>         
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>dsc.log</source>
+          <target state="translated">dsc.log</target>         
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>/opt/omi/var/log/</source>
+          <target state="translated">/opt/omi/var/log/</target>         
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Messages relating to the operation of the Local Configuration Manager (LCM) and DSC resource operations.</source>
+          <target state="translated">LCM(로컬 구성 관리자)의 작업 및 DSC 리소스 작업에 대한 메시지입니다.</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
