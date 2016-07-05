@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" original="md" source-language="en-US" target-language="pt-br">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1c0bad4dab64c9fbd09be23df3d7b19913fa9511</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\dsc_runas.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
     <body>
       <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
@@ -8,81 +15,14 @@
           <target state="translated">Suporte automático de RunAs para recursos DSC</target>         
         </trans-unit>
         <trans-unit id="102" translate="yes" xml:space="preserve">
-          <source>Support for DSC RunAs credential</source>
-          <target state="translated">Suporte para credencial de RunAs do DSC</target>         
+          <source>WMF 5.0 includes support for running <bpt id="p1">**</bpt>any<ept id="p1">**</ept> DSC resource under a specified set of credentials by using the property <ph id="ph1">`PsDscRunAsCredential`</ph>.</source>
+          <target state="translated">O WMF 5.0 inclui suporte para a execução de <bpt id="p1">**</bpt>qualquer<ept id="p1">**</ept> recurso de DSC em um conjunto de credenciais especificado usando a propriedade <ph id="ph1">`PsDscRunAsCredential`</ph>.</target>         
         </trans-unit>
         <trans-unit id="103" translate="yes" xml:space="preserve">
-          <source>WMF 5.0 Preview April 2015 includes support for running <bpt id="p1">**</bpt>any<ept id="p1">**</ept> DSC resource under a specified set of credentials by using the property PsDscRunAsCredential.</source>
-          <target state="translated">A Preview do WMF 5.0 de abril de 2015 inclui suporte para a execução de <bpt id="p1">**</bpt>qualquer<ept id="p1">**</ept> recurso DSC sob um conjunto de credenciais especificado usando a propriedade PsDscRunAsCredential.</target>         
-        </trans-unit>
-        <trans-unit id="104" translate="yes" xml:space="preserve">
-          <source>It enables scenarios like installing MSI packages in a specific user context, accessing a user’s registry hive, accessing a user’s specific local directory, accessing a network share, etc.</source>
-          <target state="translated">Ele permite cenários como instalar pacotes MSI em um contexto de usuário específico, acessar o hive do Registro de um usuário, acessar um diretório de local específico de um usuário, acessar um compartilhamento de rede, etc.</target>         
-        </trans-unit>
-        <trans-unit id="105" translate="yes" xml:space="preserve">
-          <source>The following shows an example of using the PsDscRunAsCredential property in DSC to change the background color of the command prompt of a user.</source>
-          <target state="translated">O código a seguir mostra um exemplo de como usar a propriedade PsDscRunAsCredential no DSC para alterar a cor da tela de fundo do prompt de comando de um usuário.</target>         
-        </trans-unit>
-        <trans-unit id="106" translate="yes" xml:space="preserve">
-          <source>Configuration ChangeCmdBackGroundColor</source>
-          <target state="translated">Configuração ChangeCmdBackGroundColor</target>         
-        </trans-unit>
-        <trans-unit id="107" translate="yes" xml:space="preserve">
-          <source>{</source>
-          <target state="translated">{</target>         
-        </trans-unit>
-        <trans-unit id="108" translate="yes" xml:space="preserve">
-          <source>}</source>
-          <target state="translated">}</target>         
-        </trans-unit>
-        <trans-unit id="109" translate="yes" xml:space="preserve">
-          <source>$configData = @{</source>
-          <target state="translated">$configData = @{</target>         
-        </trans-unit>
-        <trans-unit id="110" translate="yes" xml:space="preserve">
-          <source>AllNodes = @(</source>
-          <target state="translated">AllNodes = @(</target>         
-        </trans-unit>
-        <trans-unit id="111" translate="yes" xml:space="preserve">
-          <source>@{</source>
-          <target state="translated">@{</target>         
-        </trans-unit>
-        <trans-unit id="112" translate="yes" xml:space="preserve">
-          <source>NodeName="localhost";</source>
-          <target state="translated">NodeName="localhost";</target>         
-        </trans-unit>
-        <trans-unit id="113" translate="yes" xml:space="preserve">
-          <source>CertificateFile = "C:\\publicKeys\\targetNode.cer"</source>
-          <target state="translated">CertificateFile = "C:\\publicKeys\\targetNode.cer"</target>         
-        </trans-unit>
-        <trans-unit id="114" translate="yes" xml:space="preserve">
-          <source>}</source>
-          <target state="translated">}</target>         
-        </trans-unit>
-        <trans-unit id="116" translate="yes" xml:space="preserve">
-          <source>}</source>
-          <target state="translated">}</target>         
-        </trans-unit>
-        <trans-unit id="117" translate="yes" xml:space="preserve">
-          <source>ChangeCmdBackGroundColor -ConfigurationData $configData</source>
-          <target state="translated">ChangeCmdBackGroundColor -ConfigurationData $configData</target>         
-        </trans-unit>
-        <trans-unit id="118" translate="yes" xml:space="preserve">
-          <source>Known issues</source>
-          <target state="translated">Problemas conhecidos</target>         
-        </trans-unit>
-        <trans-unit id="119" translate="yes" xml:space="preserve">
-          <source>In this release, the following are known issues of the DSC RunAs credential feature:</source>
-          <target state="translated">Nesta versão, os seguintes problemas são problemas conhecidos do recurso de credencial de RunAs do DSC:</target>         
-        </trans-unit>
-        <trans-unit id="120" translate="yes" xml:space="preserve">
-          <source>The WindowsProcess resource doesn’t support RunAs credential.</source>
-          <target state="translated">O recurso WindowsProcess não dá suporte à credencial de RunAs.</target>         
+          <source>For more information, see <bpt id="p1">[</bpt>Running DSC with user credentials<ept id="p1">](../dsc/runAsUser.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, veja <bpt id="p1">[</bpt>Executando o DSC com as credenciais do usuário<ept id="p1">](../dsc/runAsUser.md)</ept>.</target>         
         </trans-unit>
       </group>
     </body>
   </file>
-  <header xmlns="">
-    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d4919d80c1b1f8509b4e581768dd6f74e9d01f0d</xliffext:olfilehash>
-  </header>
 </xliff>
