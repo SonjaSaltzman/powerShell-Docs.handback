@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="es-es">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">jea\README.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1cecf1b6bf5a55ed785c8ff43bdd4a0a41e96cd0</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-48076a9" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>README</source>
+          <target state="translated">ARCHIVO LÉAME</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Just Enough Administration</source>
+          <target state="translated">Just Enough Administration</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Just Enough Administration (JEA) is a security technology that enables delegated administration for anything that can be managed with PowerShell.</source>
+          <target state="translated">Just Enough Administration (JEA) es una tecnología de seguridad que permite la administración delegada de todo lo que se puede administrar con PowerShell.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>With JEA, you can:</source>
+          <target state="translated">Con JEA, se puede hacer lo siguiente:</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Reduce the number of administrators on your machines<ept id="p1">**</ept> by leveraging virtual accounts that perform privileged actions on behalf of regular users.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Reducir el número de administradores de las máquinas<ept id="p1">**</ept> aprovechando las cuentas virtuales que realizan acciones con privilegios en nombre de usuarios normales.</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Limit what users can do<ept id="p1">**</ept> by specifying which cmdlets, functions, and external commands they can run.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Limitar lo que pueden hacer los usuarios<ept id="p1">**</ept> especificando qué cmdlets, funciones y comandos externos pueden ejecutar.</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Better understand what your users are doing<ept id="p1">**</ept> with "over the shoulder" transcriptions that show you exactly what commands a user executed during a session.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Entender mejor lo que hacen los usuarios<ept id="p1">**</ept> con transcripciones "con consentimiento temporal" que muestran exactamente qué comandos ejecutó un usuario durante una sesión.</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Why is this important?</source>
+          <target state="translated">¿Por qué es importante?</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Consider the common scenario where your DNS servers are co-located with your Active Directory Domain Controllers.</source>
+          <target state="translated">Considere el escenario común en el que los servidores DNS coexisten con los controladores de dominio de Active Directory.</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Your DNS administrators need to have local administrator privileges to fix issues with the DNS server, but in order to do so you have to make them members of the highly privileged "Domain Admins" security group.</source>
+          <target state="translated">Los administradores DNS necesitan tener privilegios de administrador local para solucionar problemas con el servidor DNS, pero para ello tiene que hacerlos miembros del grupo de seguridad "Administradores de dominio" con privilegios elevados.</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This approach effectively gives DNS Administrators control over your whole domain and access to all resources on that machine.</source>
+          <target state="translated">Este enfoque proporciona a los administradores de DNS el control sobre todo el dominio y les permite acceder a todos los recursos de la máquina.</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>With JEA in place, you can configure a role for your DNS administrators that gives them access to all the commands they need to get their job done, but nothing more.</source>
+          <target state="translated">Con JEA, puede configurar un rol para los administradores DNS que les proporcione acceso a todos los comandos que necesitan para realizar su trabajo, pero a nada más.</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This means you can provide the appropriate access to repair a poisoned DNS cache without unintentionally giving them rights to Active Directory, or to browse the file system, or run potentially dangerous scripts.</source>
+          <target state="translated">Esto significa que puede proporcionar el acceso adecuado para reparar una caché DNS dudosa sin concederles involuntariamente derechos en Active Directory, para examinar el sistema de archivos o para ejecutar scripts potencialmente peligrosos.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Better yet, when the JEA session is configured to use one-time privileged virtual accounts, your DNS adminstrators can connect to the server using <bpt id="p1">*</bpt>unprivileged<ept id="p1">*</ept> credentials and still be able to run privileged commands.</source>
+          <target state="translated">Y lo que es mejor, cuando la sesión de JEA está configurada para usar cuentas virtuales con privilegios de un solo uso, los administradores de DNS pueden conectarse al servidor mediante credenciales <bpt id="p1">*</bpt>sin privilegios<ept id="p1">*</ept> y seguir siendo capaces de ejecutar comandos con privilegios.</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Availability</source>
+          <target state="translated">Disponibilidad</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>JEA is being developed in parallel to Windows Server 2016, and is available on older versions of Windows through Windows Management Framework updates.</source>
+          <target state="translated">JEA se está desarrollando en paralelo a Windows Server 2016, y está disponible en versiones anteriores de Windows mediante actualizaciones de Windows Management Framework.</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The current release of JEA is available on the following platforms:</source>
+          <target state="translated">La versión actual de JEA está disponible en las siguientes plataformas:</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Windows Server</source>
+          <target state="translated">Windows Server</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Windows Server 2016 Technical Preview 4 and higher</source>
+          <target state="translated">Windows Server 2016 Technical Preview 4 y versiones posteriores</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Windows Server 2012 R2, 2012, and 2008 R2<ph id="ph1">\*</ph> with <bpt id="p1">[</bpt>Windows Management Framework 5.0<ept id="p1">](https://www.microsoft.com/en-us/download/details.aspx?id=50395)</ept> installed</source>
+          <target state="translated">Windows Server 2012 R2, 2012 y 2008 R2<ph id="ph1">\*</ph> con <bpt id="p1">[</bpt>Windows Management Framework 5.0<ept id="p1">](https://www.microsoft.com/en-us/download/details.aspx?id=50395)</ept> instalado</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Windows Client</source>
+          <target state="translated">Cliente de Windows</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Windows 10 with the November Update (1511) installed</source>
+          <target state="translated">Windows 10 con la actualización de noviembre (1511) instalada</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Windows 8.1, 8, and 7<ph id="ph1">\*</ph> with <bpt id="p1">[</bpt>Windows Management Framework 5.0<ept id="p1">](https://www.microsoft.com/en-us/download/details.aspx?id=50395)</ept> installed</source>
+          <target state="translated">Windows 8.1, 8 y 7<ph id="ph1">\*</ph> con <bpt id="p1">[</bpt>Windows Management Framework 5.0<ept id="p1">](https://www.microsoft.com/en-us/download/details.aspx?id=50395)</ept> instalado</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Support for virtual accounts in JEA sessions is currently not available on Windows Server 2008 R2 or Windows 7.</source>
+          <target state="translated">La compatibilidad con cuentas virtuales en sesiones de JEA no está disponible en Windows Server 2008 R2 o Windows 7.</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Explore the experience guide</source>
+          <target state="translated">Explorar la guía de la experiencia</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Ready to learn how to author, deploy, and use your own JEA endpoint?</source>
+          <target state="translated">¿Listo para aprender a crear, implementar y utilizar su propio punto de conexión JEA?</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This guide gets you started quickly with a pre-built JEA endpoint to get an idea of what the end-user experience is like, then walks you through recreating an endpoint from scratch to help demonstrate concepts like session configurations and Role Capabilities.</source>
+          <target state="translated">Esta guía incluye una rápida introducción con un punto de conexión de JEA predefinido para que se haga una idea de cómo es la experiencia del usuario final y, después, describe el proceso de crear un punto de conexión desde cero para demostrar conceptos como las configuraciones de sesión y las funcionalidades de rol.</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Introduction</source>
+          <target state="translated">Introducción</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Briefly review why you should care about JEA</source>
+          <target state="translated">Revise brevemente por qué debería interesarle JEA.</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+          <target state="translated">Requisitos previos</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Explains how to Set up your environment</source>
+          <target state="translated">Explica cómo configurar su entorno.</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Using JEA</source>
+          <target state="translated">Uso de JEA</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Helps you start by understanding the operator experience of using JEA</source>
+          <target state="translated">Ayuda a entender la experiencia de usuario de JEA.</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Remake the Demo</source>
+          <target state="translated">Recreación de la demostración</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Create a JEA Session Configuration from scratch</source>
+          <target state="translated">Cree una configuración de sesión de JEA desde cero.</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Role Capabilities</source>
+          <target state="translated">Funcionalidades de rol</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Learn about how to customize JEA capabilities with Role Capability Files</source>
+          <target state="translated">Aprenda cómo personalizar las funcionalidades JEA con archivos de funcionalidad de rol.</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>End to End - Active Directory</source>
+          <target state="translated">De un extremo a otro: Active Directory</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Make a whole new endpoint for managing Active Directory</source>
+          <target state="translated">Cree un punto de conexión completamente nuevo para administrar Active Directory.</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Multi-machine Deployment and Maintenance</source>
+          <target state="translated">Implementación y mantenimiento de varias máquinas</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Discover how deployment and authoring changes with scale</source>
+          <target state="translated">Descubra cómo cambia la implementación y la creación según la escala.</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Reporting on JEA</source>
+          <target state="translated">Generación de informes en JEA</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Discover how to audit and report on all JEA actions and infrastructure</source>
+          <target state="translated">Descubra cómo auditar e informar sobre todas las acciones y la infraestructura de JEA.</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Appendixes</source>
+          <target state="translated">Apéndices</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Key Concepts Used Throughout This Guide</source>
+          <target state="translated">Conceptos clave usados a lo largo de esta guía</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Creating a Domain Controller</source>
+          <target state="translated">Creación de un controlador de dominio</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>On Blacklisting</source>
+          <target state="translated">Acerca de la lista negra</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Considerations When Limiting Commands</source>
+          <target state="translated">Consideraciones al limitar comandos</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Common Role Capability Pitfalls</source>
+          <target state="translated">Dificultades comunes de las funcionalidades de rol</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Start authoring your own JEA endpoints</source>
+          <target state="translated">Empiece a crear sus propios puntos de conexión de JEA</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>It's easy to author a JEA endpoint -- all you need is a JEA-enabled system and a text editor (like PowerShell ISE).</source>
+          <target state="translated">Es fácil crear un punto de conexión de JEA: lo único que necesita es un sistema habilitado para JEA y un editor de texto (como PowerShell ISE).</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>One helpful tip to get started is to create skeleton files using <ph id="ph1">`New-PSRoleCapabilityFile -Path &lt;path&gt;`</ph> and <ph id="ph2">`New-PSSessionCapabilityFile -Path &lt;Path&gt;`</ph> without any other arguments.</source>
+          <target state="translated">Se recomienda que, para empezar, cree archivos esqueleto mediante <ph id="ph1">`New-PSRoleCapabilityFile -Path &lt;path&gt;`</ph> y <ph id="ph2">`New-PSSessionCapabilityFile -Path &lt;Path&gt;`</ph> sin ningún otro argumento.</target>         
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>These skeleton files contain all of the applicable configuration fields along with helpful comments to explain what each field can be used for.</source>
+          <target state="translated">Estos archivos esqueleto contienen todos los campos de configuración aplicables, junto con comentarios útiles que explican para qué puede usarse cada campo.</target>         
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To make authoring JEA endpoints even easier, check out the <bpt id="p1">[</bpt>JEA Toolkit Helper<ept id="p1">](http://blogs.technet.com/b/privatecloud/archive/2015/12/20/introducing-the-updated-jea-helper-tool.aspx)</ept> which provides a GUI with which you can author Session Configuration and Role Capability files.</source>
+          <target state="translated">Para facilitar la creación de puntos de conexión de JEA, consulte el <bpt id="p1">[</bpt>JEA Toolkit Helper<ept id="p1">](http://blogs.technet.com/b/privatecloud/archive/2015/12/20/introducing-the-updated-jea-helper-tool.aspx)</ept> (Asistente para el kit de herramientas de JEA), que proporciona una GUI con la que puede crear archivos de configuración de sesión y funcionalidad de rol.</target>         
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>It even supports generating Role Capabilities based on PowerShell logs to start you off with the commands your users regularly run to get their jobs done.</source>
+          <target state="translated">Incluso permite generar funcionalidades de rol basadas en los registros de PowerShell para que tome como punto de partida los comandos que los usuarios ejecutan habitualmente para realizar su trabajo.</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
