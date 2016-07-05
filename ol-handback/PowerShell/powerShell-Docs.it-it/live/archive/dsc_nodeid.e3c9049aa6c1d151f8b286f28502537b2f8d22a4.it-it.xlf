@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" original="md" source-language="en-US" target-language="it-it">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">81b391b6c1bc334cb88f9af00f31a99d95df8270</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\dsc_nodeid.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
     <body>
       <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
@@ -48,161 +55,10 @@
           <target state="translated">È possibile usare queste nuove funzionalità o quelle meno recenti con il nuovo server di pull incluso in questa versione.</target>         
         </trans-unit>
         <trans-unit id="112" translate="yes" xml:space="preserve">
-          <source>Agent ID</source>
-          <target state="translated">ID dell'agente</target>         
-        </trans-unit>
-        <trans-unit id="113" translate="yes" xml:space="preserve">
-          <source>This feature is for users who do not want to setup and manage unique identifiers for each target node.</source>
-          <target state="translated">Questa funzionalità è destinata agli utenti che non vogliono configurare e gestire identificatori univoci per ogni nodo di destinazione.</target>         
-        </trans-unit>
-        <trans-unit id="114" translate="yes" xml:space="preserve">
-          <source>Now, there is no more bookkeeping of GUIDs required.</source>
-          <target state="translated">Ora non è più necessario tenere traccia dei GUID.</target>         
-        </trans-unit>
-        <trans-unit id="115" translate="yes" xml:space="preserve">
-          <source>DSC automatically generates an agent ID that it uses when communicating with the pull server.</source>
-          <target state="translated">DSC genera automaticamente un ID di agente che viene usato durante la comunicazione con il server di pull.</target>         
-        </trans-unit>
-        <trans-unit id="116" translate="yes" xml:space="preserve">
-          <source>This ID is used by the pull server to uniquely identify all information with a given node.</source>
-          <target state="translated">Questo ID viene usato dal server di pull per identificare in modo univoco tutte le informazioni con un determinato nodo.</target>         
-        </trans-unit>
-        <trans-unit id="117" translate="yes" xml:space="preserve">
-          <source>It also means that you do not need to set up each target node with a unique meta-configuation containing a unique ID so a single meta-configuation can be used by many target nodes while still retaining each node's unique identity.</source>
-          <target state="translated">Significa anche che non è necessario configurare ogni nodo di destinazione con una metaconfigurazione univoca contenente un ID univoco, pertanto una singola metaconfigurazione può essere usata da molti nodi di destinazione, pur mantenendo l'identità univoca di ogni nodo.</target>         
-        </trans-unit>
-        <trans-unit id="118" translate="yes" xml:space="preserve">
-          <source>Configuration name</source>
-          <target state="translated">Nome della configurazione</target>         
-        </trans-unit>
-        <trans-unit id="119" translate="yes" xml:space="preserve">
-          <source>The configuration name is a friendly name that defines that name of the configuration that a target node will apply.</source>
-          <target state="translated">Il nome della configurazione è un nome descrittivo che definisce il nome della configurazione che verrà applicata da un nodo di destinazione.</target>         
-        </trans-unit>
-        <trans-unit id="120" translate="yes" xml:space="preserve">
-          <source>The changes associated to this are as follows:</source>
-          <target state="translated">Le modifiche associate a questo aspetto sono le seguenti:</target>         
-        </trans-unit>
-        <trans-unit id="121" translate="yes" xml:space="preserve">
-          <source>Friendly naming</source>
-          <target state="translated">Uso di nomi descrittivi</target>         
-        </trans-unit>
-        <trans-unit id="122" translate="yes" xml:space="preserve">
-          <source>This can be any string!</source>
-          <target state="translated">Si può usare qualsiasi stringa.</target>         
-        </trans-unit>
-        <trans-unit id="123" translate="yes" xml:space="preserve">
-          <source>It does not need to be in the format of a GUID so a configuration that sets up SQL server can simply be named 'SQL_Server'.</source>
-          <target state="translated">Non è necessario che abbia il formato di un GUID, quindi una configurazione usata per SQL Server può essere semplicemente denominata 'SQL_Server'.</target>         
-        </trans-unit>
-        <trans-unit id="124" translate="yes" xml:space="preserve">
-          <source>This makes it much easier to identify what a given configuration does.</source>
-          <target state="translated">In questo modo è molto più semplice identificare gli scopi di una determinata configurazione.</target>         
-        </trans-unit>
-        <trans-unit id="125" translate="yes" xml:space="preserve">
-          <source>Assignment</source>
-          <target state="translated">Assegnazione</target>         
-        </trans-unit>
-        <trans-unit id="126" translate="yes" xml:space="preserve">
-          <source>The configuration that a target node is assigned is centrally managed on the pull server.</source>
-          <target state="translated">La configurazione assegnata a un nodo di destinazione viene gestita in modo centralizzato nel server di pull.</target>         
-        </trans-unit>
-        <trans-unit id="127" translate="yes" xml:space="preserve">
-          <source>This can be bootstrapped by defining the ConfigrationName property in the meta-configuration but this is only used during registration.</source>
-          <target state="translated">L'avvio può essere gestito definendo la proprietà ConfigurationName nella metaconfigurazione, ma queste informazioni vengono usate solo durante la registrazione.</target>         
-        </trans-unit>
-        <trans-unit id="128" translate="yes" xml:space="preserve">
-          <source>After registration, the server tells the target node what configuration it will get.</source>
-          <target state="translated">Dopo la registrazione, il server indica al nodo di destinazione quale configurazione riceverà.</target>         
-        </trans-unit>
-        <trans-unit id="129" translate="yes" xml:space="preserve">
-          <source>For the on-premises pull server this mapping between configurations and target nodes can only be done during registration, but in Azure Automation these changes can be made easily in the UI or through their cmdlets.</source>
-          <target state="translated">Per il server di pull locale, questo mapping tra le configurazioni e i nodi di destinazione può essere eseguito solo durante la registrazione, ma in Automazione di Azure queste modifiche possono essere facilmente eseguite nell'interfaccia utente o tramite i cmdlet.</target>         
-        </trans-unit>
-        <trans-unit id="130" translate="yes" xml:space="preserve">
-          <source>To change the configuration assigned to a target node for the on-premises pull server you can re-run registration.</source>
-          <target state="translated">Per modificare la configurazione assegnata a un nodo di destinazione per il server di pull locale, è possibile eseguire nuovamente la registrazione.</target>         
-        </trans-unit>
-        <trans-unit id="131" translate="yes" xml:space="preserve">
-          <source>Multiple/Partial configurations</source>
-          <target state="translated">Configurazioni multiple/parziali</target>         
-        </trans-unit>
-        <trans-unit id="132" translate="yes" xml:space="preserve">
-          <source>If multiple configuration names are assigned to a target node, they will be treated like partial configurations.</source>
-          <target state="translated">Se a un nodo di destinazione vengono assegnati più nomi di configurazione, essi verranno gestiti come configurazioni parziali.</target>         
-        </trans-unit>
-        <trans-unit id="133" translate="yes" xml:space="preserve">
-          <source>In order for this to work, the meta-configuration on the target node must be configured to accept the partial configurations.</source>
-          <target state="translated">Perché tutto ciò funzioni, la metaconfigurazione nel nodo di destinazione deve essere configurata per accettare configurazioni parziali.</target>         
-        </trans-unit>
-        <trans-unit id="134" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> This is only supported on the on-premises pull server.</source>
-          <target state="translated"><bpt id="p1">**</bpt>Nota:<ept id="p1">**</ept> questa funzionalità è supportata solo nel server di pull locale.</target>         
-        </trans-unit>
-        <trans-unit id="135" translate="yes" xml:space="preserve">
-          <source>Azure Automation does not support partial configurations.</source>
-          <target state="translated">Automazione di Azure non supporta le configurazioni parziali.</target>         
-        </trans-unit>
-        <trans-unit id="136" translate="yes" xml:space="preserve">
-          <source>Registration</source>
-          <target state="translated">Registrazione</target>         
-        </trans-unit>
-        <trans-unit id="137" translate="yes" xml:space="preserve">
-          <source>Because configuration names are no longer GUIDs (they are now friendly names), anyone can guess them.</source>
-          <target state="translated">Poiché i nomi di configurazione non sono più GUID, ma nomi descrittivi, chiunque può indovinarli.</target>         
-        </trans-unit>
-        <trans-unit id="138" translate="yes" xml:space="preserve">
-          <source>To mitigate the inherent security issue with this, we added a registration step before a node can start requesting configurations from a server.</source>
-          <target state="translated">Per limitare i problemi di sicurezza intrinseci, è stato aggiunto un passaggio di registrazione prima che un nodo possa iniziare a richiedere configurazioni da un server.</target>         
-        </trans-unit>
-        <trans-unit id="139" translate="yes" xml:space="preserve">
-          <source>A node registers itself with the pull server with a shared secret (which the node and the server both know already), and, optionally, the name of the configuration it will request.</source>
-          <target state="translated">Un nodo si registra nel server di pull con un segreto condiviso (già noto sia per il nodo che per il server) e, facoltativamente, con il nome della configurazione che richiederà.</target>         
-        </trans-unit>
-        <trans-unit id="140" translate="yes" xml:space="preserve">
-          <source>This shared secret doesn't have to be unique for each computer.</source>
-          <target state="translated">Il segreto condiviso non deve essere univoco per ogni computer.</target>         
-        </trans-unit>
-        <trans-unit id="141" translate="yes" xml:space="preserve">
-          <source>Assumption: the shared secret is a hard-to-guess identifier, like a GUID.</source>
-          <target state="translated">Presupposto: il segreto condiviso è un identificatore difficile da indovinare, come un GUID.</target>         
-        </trans-unit>
-        <trans-unit id="142" translate="yes" xml:space="preserve">
-          <source>This shared secret is defined by the <bpt id="p1">**</bpt>RegistrationKey<ept id="p1">**</ept> property in the target node's meta-configuration.</source>
-          <target state="translated">Il segreto condiviso viene definito dalla proprietà <bpt id="p1">**</bpt>RegistrationKey<ept id="p1">**</ept> nella metaconfigurazione del nodo di destinazione.</target>         
-        </trans-unit>
-        <trans-unit id="143" translate="yes" xml:space="preserve">
-          <source>Example meta-configuration</source>
-          <target state="translated">Metaconfigurazione di esempio</target>         
-        </trans-unit>
-        <trans-unit id="144" translate="yes" xml:space="preserve">
-          <source>The RegistrationKey value must be defined by on the pull server.</source>
-          <target state="translated">Il valore di RegistrationKey deve essere definito nel server di pull.</target>         
-        </trans-unit>
-        <trans-unit id="145" translate="yes" xml:space="preserve">
-          <source>In order to do this while setting up the pull server, create a text file with the name <bpt id="p1">**</bpt>RegistrationKeys.txt<ept id="p1">**</ept> in a specific location, and then set this location in the web.config of the pull server, as shown below.</source>
-          <target state="translated">A questo scopo, durante la configurazione del server di pull creare un file di testo con il nome <bpt id="p1">**</bpt>RegistrationKeys.txt<ept id="p1">**</ept> in una posizione specifica e quindi impostare questo percorso nel file web.config del server di pull, come illustrato di seguito.</target>         
-        </trans-unit>
-        <trans-unit id="146" translate="yes" xml:space="preserve">
-          <source>Use the latest version of the xDSCWebService DSC resource to fully deploy an on-premises pull server for use with this.</source>
-          <target state="translated">Usare l'ultima versione della risorsa DSC xDSCWebService per la distribuzione completa di un server di pull locale da usare con questa funzionalità.</target>         
-        </trans-unit>
-        <trans-unit id="147" translate="yes" xml:space="preserve">
-          <source>See <bpt id="p1">[</bpt>Example Configuration<ept id="p1">](https://github.com/grayzu/PSSummitEU2015/blob/master/PullServer/02%20-%20PullServer%20Config.ps1)</ept> for a complete configuration.</source>
-          <target state="translated">Vedere <bpt id="p1">[</bpt>Configurazione di esempio<ept id="p1">](https://github.com/grayzu/PSSummitEU2015/blob/master/PullServer/02%20-%20PullServer%20Config.ps1)</ept> per una configurazione completa.</target>         
-        </trans-unit>
-        <trans-unit id="148" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> This feature is not supported when the pull server is set up to be a file share.</source>
-          <target state="translated"><bpt id="p1">**</bpt>Nota:<ept id="p1">**</ept> questa funzionalità non è supportata quando il server di pull è configurato per essere una condivisione file.</target>         
-        </trans-unit>
-        <trans-unit id="149" translate="yes" xml:space="preserve">
-          <source>It is only supported for the web-based pull server.</source>
-          <target state="translated">È supportata solo per il server di pull basato sul Web.</target>         
+          <source>For more information, see <bpt id="p1">[</bpt>Setting up a pull client using configuration names<ept id="p1">](../dsc/pullClientConfigNames.md)</ept></source>
+          <target state="translated">Per altre informazioni, vedere <bpt id="p1">[</bpt>Configurazione di un client di pull con nomi di configurazione<ept id="p1">](../dsc/pullClientConfigNames.md)</ept></target>         
         </trans-unit>
       </group>
     </body>
   </file>
-  <header xmlns="">
-    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">517c1d3654cd87b2356abadabf474c76580767f4</xliffext:olfilehash>
-  </header>
 </xliff>

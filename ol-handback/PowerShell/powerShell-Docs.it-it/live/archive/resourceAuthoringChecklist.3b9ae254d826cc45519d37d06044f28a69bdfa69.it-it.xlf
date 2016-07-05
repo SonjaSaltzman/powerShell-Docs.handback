@@ -2,10 +2,11 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
     <header>
-      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
-      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\resourceAuthoringChecklist.md</xliffext:olfilepath>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bd6af2cbf746e71aa59f509eae14664e647a1b05</xliffext:olfilehash>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-8d96cd8" tool-company="Microsoft" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\resourceAuthoringChecklist.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
     </header>
     <body>
       <group id="content" extype="content">
@@ -554,58 +555,50 @@
           <target state="translated"><bpt id="p1">**</bpt>Procedura consigliata: la cartella delle risorse contiene lo script di progettazione delle risorse per la generazione dello schema<ept id="p1">**</ept> Ogni risorsa deve contenere uno script di progettazione delle risorse per la generazione di uno schema MOF della risorsa.</target>         
         </trans-unit>
         <trans-unit id="237" translate="yes" xml:space="preserve">
-          <source>This file should be placed in</source>
-          <target state="translated">Questo file deve essere inserito in</target>         
+          <source>This file should be placed in <ph id="ph1">&lt;ResourceName&gt;</ph>\ResourceDesignerScripts and be named Generate<ph id="ph2">&lt;ResourceName&gt;</ph>Schema.ps1 For xRemoteFile resource this file would be called GenerateXRemoteFileSchema.ps1 and contain:</source>
+          <target state="translated">Questo file deve essere inserito in <ph id="ph1">&lt;ResourceName&gt;</ph>\ResourceDesignerScripts e denominato Generate<ph id="ph2">&lt;ResourceName&gt;</ph>Schema.ps1 Per la risorsa xRemoteFile il file è denominato GenerateXRemoteFileSchema.ps1 e contiene:</target>         
         </trans-unit>
         <trans-unit id="238" translate="yes" xml:space="preserve">
-          <source>\ResourceDesignerScripts and be named Generate</source>
-          <target state="translated">\ResourceDesignerScripts e denominato Generate</target>         
-        </trans-unit>
-        <trans-unit id="239" translate="yes" xml:space="preserve">
-          <source>Schema.ps1 For xRemoteFile resource this file would be called GenerateXRemoteFileSchema.ps1 and contain:</source>
-          <target state="translated">Schema.ps1. Per la risorsa xRemoteFile questo file deve essere chiamato GenerateXRemoteFileSchema.ps1 e deve contenere:</target>         
-        </trans-unit>
-        <trans-unit id="240" translate="yes" xml:space="preserve">
           <source>22  Best practice: Resource supports -whatif If your resource is performing “dangerous” operations, it’s a good practice to implement -whatif functionality.</source>
           <target state="translated">22  Procedura consigliata: la risorsa supporta -whatif. Se la risorsa esegue operazioni "pericolose", è consigliabile implementare la funzionalità -whatif.</target>         
         </trans-unit>
-        <trans-unit id="241" translate="yes" xml:space="preserve">
+        <trans-unit id="239" translate="yes" xml:space="preserve">
           <source>After it’s done, make sure that whatif output correctly describes operations which would happen if command was executed without whatif switch.</source>
           <target state="translated">Verificare poi che l'output di whatif descriva correttamente le operazioni che verrebbero eseguite se il comando venisse eseguito senza l'opzione whatif.</target>         
         </trans-unit>
-        <trans-unit id="242" translate="yes" xml:space="preserve">
+        <trans-unit id="240" translate="yes" xml:space="preserve">
           <source>Also, verify that operations does not execute (no changes to the node’s state are made) when –whatif switch is present.</source>
           <target state="translated">Verificare anche che le operazioni non vengono eseguite, ovvero non vengano apportate modifiche allo stato del nodo, quando è presente l'opzione -whatif.</target>         
         </trans-unit>
-        <trans-unit id="243" translate="yes" xml:space="preserve">
+        <trans-unit id="241" translate="yes" xml:space="preserve">
           <source>For example, let’s assume we are testing File resource.</source>
           <target state="translated">Si supponga, ad esempio, di dover eseguire il test della risorsa File.</target>         
         </trans-unit>
-        <trans-unit id="244" translate="yes" xml:space="preserve">
+        <trans-unit id="242" translate="yes" xml:space="preserve">
           <source>Below is simple configuration which creates file “test.txt” with contents “test”:</source>
           <target state="translated">Quella che segue è una configurazione semplice che crea il file "test.txt" con il contenuto "test":</target>         
         </trans-unit>
-        <trans-unit id="245" translate="yes" xml:space="preserve">
+        <trans-unit id="243" translate="yes" xml:space="preserve">
           <source>If we compile and then execute the configuration with the –whatif switch, the output is telling us exactly what would happen when we run the configuration.</source>
           <target state="translated">Se si compila e poi si esegue la configurazione con l'opzione -whatif, l'output indica le esatte conseguenze dell'esecuzione della configurazione.</target>         
         </trans-unit>
-        <trans-unit id="246" translate="yes" xml:space="preserve">
+        <trans-unit id="244" translate="yes" xml:space="preserve">
           <source>The configuration itself however was not executed (test.txt file was not created).</source>
           <target state="translated">La configurazione stessa non viene però eseguita e il file test.txt non viene creato.</target>         
         </trans-unit>
-        <trans-unit id="247" translate="yes" xml:space="preserve">
+        <trans-unit id="245" translate="yes" xml:space="preserve">
           <source>This wraps up our checklist.</source>
           <target state="translated">Questo conclude l'elenco di controllo.</target>         
         </trans-unit>
-        <trans-unit id="248" translate="yes" xml:space="preserve">
+        <trans-unit id="246" translate="yes" xml:space="preserve">
           <source>Please keep in mind that this list is not exhaustive, but it covers many important issues which we encountered while designing, developing and testing DSC resources.</source>
           <target state="translated">Tenere presente che questo elenco non è esaustivo, ma tiene conto di molti importanti problemi riscontrati durante la progettazione, lo sviluppo e il test di risorse DSC.</target>         
         </trans-unit>
-        <trans-unit id="249" translate="yes" xml:space="preserve">
+        <trans-unit id="247" translate="yes" xml:space="preserve">
           <source>Having a checklist helps to ensure we didn’t forget about any of those aspects and in fact, we use it at Microsoft when developing DSC resources ourselves.</source>
           <target state="translated">L'elenco di controllo è utile per assicurarsi di non dimenticare questi aspetti e viene effettivamente usato da Microsoft durante lo sviluppo di risorse DSC.</target>         
         </trans-unit>
-        <trans-unit id="250" translate="yes" xml:space="preserve">
+        <trans-unit id="248" translate="yes" xml:space="preserve">
           <source>If you developed guidelines and best practices which you use for writing and testing DSC resources, please share them!</source>
           <target state="translated">Gli sviluppatori che hanno elaborato linee guida e procedure consigliate per la scrittura e il test di risorse DSC sono invitati a condividerle.</target>         
         </trans-unit>
