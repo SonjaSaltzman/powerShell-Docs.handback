@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">jea\using-jea.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3bac5932c3ed57713bdb08e3a9ed435b228518bc</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-48076a9" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>using jea</source>
+          <target state="translated">使用 jea</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Using JEA</source>
+          <target state="translated">使用 JEA</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This section focuses on understanding the end user experience of <bpt id="p1">*</bpt>using JEA<ept id="p1">*</ept>.</source>
+          <target state="translated">本部分的重点在于了解<bpt id="p1">*</bpt>使用 JEA<ept id="p1">*</ept> 的最终用户体验。</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In the prerequisites section, you created a demo JEA endpoint.</source>
+          <target state="translated">在必备条件部分中，你创建了一个演示 JEA 终结点。</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>We will use this demo to show JEA in action.</source>
+          <target state="translated">我们将使用此演示在操作中展示 JEA。</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In later sections, the guide will work backwards -- introducing the actions and files that made that end-user experience possible.</source>
+          <target state="translated">在稍后的部分中，本指南将逆向操作 -- 介绍赖以实现这种最终用户体验的操作和文件。</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Using JEA as a Non-Administrator</source>
+          <target state="translated">以非管理员身份使用 JEA</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To show JEA in action, you will need to use PowerShell remoting as though you were a non-administrator user.</source>
+          <target state="translated">要在操作中展示 JEA，需以非管理员用户身份使用 PowerShell 远程处理。</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Run the following command in a new PowerShell window:</source>
+          <target state="translated">在新 PowerShell 窗口中运行以下命令：</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Enter the credentials for your non-administrator account when prompted.</source>
+          <target state="translated">根据提示输入非管理员帐户的凭据。</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If you followed the <bpt id="p1">[</bpt>Set Up Users and Groups<ept id="p1">](creating-a-domain-controller.md#set-up-users-and-groups)</ept> section, they will be:</source>
+          <target state="translated">如果你按照<bpt id="p1">[</bpt>设置用户和组<ept id="p1">](creating-a-domain-controller.md#set-up-users-and-groups)</ept>部分进行操作，则凭据如下：</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Username = "OperatorUser"</source>
+          <target state="translated">用户名 =“OperatorUser”</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Password = "pa$$w0rd"</source>
+          <target state="translated">密码 =“pa$ $w0rd”</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Next, run the following command to connect to the demo endpoint using the credentials you provided:</source>
+          <target state="translated">接下来，运行以下命令以使用你提供的凭据连接到演示终结点：</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You have now entered an interactive remote PowerShell session on the local machine.</source>
+          <target state="translated">你现已在本地计算机上进入交互式远程 PowerShell 会话。</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>By using the "Credential" parameter, you have connected <bpt id="p1">*</bpt>as though you were<ept id="p1">*</ept> OperatorUser (or whichever account you used).</source>
+          <target state="translated">使用“Credential”参数，你以 OperatorUser（或你所使用的任何帐户）<bpt id="p1">*</bpt>身份<ept id="p1">*</ept>进行了连接。</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The change in the prompt to <ph id="ph1">`[localhost]: PS&gt;`</ph> indicates that you are operating against a remote session.</source>
+          <target state="translated">提示中对 <ph id="ph1">`[localhost]: PS&gt;`</ph> 的更改指示你正在针对远程会话进行操作。</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Run the following in your remote command prompt to show the commands available to you:</source>
+          <target state="translated">在远程命令提示符中运行以下命令，以显示可用的命令：</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>As you can tell, this is a very limited subset of the commands available in a normal PowerShell window (which can often include several thousand commands).</source>
+          <target state="translated">显而易见，这是正常 PowerShell 窗口中可用命令的一个及其有限的子集（正常窗口中通常可以包括数千条命令）。</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Specifically, it only shows the 7 default JEA cmdlets (Clear-Host, Exit-PSSession, Get-Command, Get-FormatData, Get-Help, Measure-Object, Out-Default, Select-Object) and the two commands explicitly included in the maintenance Role Capability file.</source>
+          <target state="translated">具体而言，它仅显示了 7 个默认 JEA cmdlet（Clear-Host、Exit-PSSession、Get-Command、Get-FormatData、Get-Help、Measure-Object、Out-Default、Select-Object）和维护角色功能文件中显式包含的 2 个命令。</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Next, let's take a look at the user context this session is operating under by invoking the custom function included in the maintenance Role Capability file:</source>
+          <target state="translated">接下来，让我们通过调用维护角色功能文件中包含的自定义函数，查看此会话运行于的用户上下文：</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The output of this function shows the "ConnectedUser" as well as the "RunAsUser."</source>
+          <target state="translated">此函数的输出显示“ConnectedUser”和“RunAsUser”。</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The connected user is the account that connected to the remote session (e.g. your account).</source>
+          <target state="translated">连接的用户即连接到远程会话的帐户（例如你的帐户）。</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The connected user does not need to have administrator privileges.</source>
+          <target state="translated">连接的用户不必具有管理员特权。</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The "Run As" account is the account actually performing the privileged actions.</source>
+          <target state="translated">“运行方式”帐户是实际执行特权操作的帐户。</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>By connecting as one user, and running as a privileged user, we allow non-privileged users to preform specific administrative tasks without giving them administrative rights.</source>
+          <target state="translated">通过以某一用户身份连接并以某一特权的用户身份运行，我们使非特权用户能够执行特定的管理任务，而无需授予其管理权限。</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To demonstrate this in action, run the following command:</source>
+          <target state="translated">若要在操作中对此进行演示，请运行以下命令：</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Normally, Restart-Service requires administrator privileges to be run.</source>
+          <target state="translated">正常情况下，需要管理员特权才能运行 Restart-Service。</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>With the JEA virtual account, however, we're able to run it using non-privileged credentials.</source>
+          <target state="translated">但是凭借 JEA 虚拟帐户，我们能够使用非特权凭据运行它。</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>So, JEA lets you get your job done using the commands you already use.</source>
+          <target state="translated">因此，JEA 使你能够使用你所使用的命令来完成作业。</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>But what about commands you <bpt id="p1">*</bpt>shouldn't<ept id="p1">*</ept> be allowed to use?</source>
+          <target state="translated">但是，<bpt id="p1">*</bpt>不应<ept id="p1">*</ept>允许你使用的命令呢？</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Try running a different command in the JEA session, like <ph id="ph1">`Restart-Computer`</ph>, and notice that JEA prevents such commands from being executed.</source>
+          <target state="translated">尝试在 JEA 会话中运行其他命令（如 <ph id="ph1">`Restart-Computer`</ph>），注意 JEA 将阻止执行此类命令。</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Finally, to leave the constrained JEA endpoint, run the following command:</source>
+          <target state="translated">最后，为离开受约束的 JEA 终结点，请运行以下命令：</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This disconnects you from the remote PowerShell session.</source>
+          <target state="translated">这会使你从远程 PowerShell 会话断开连接。</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

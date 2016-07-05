@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e986e85a5d7416d8deaec06c0784263ee09fc9ff</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Creating-.NET-and-COM-Objects--New-Object-.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Creating .NET and COM Objects  New Object</source>
+          <target state="translated">建立 .NET 和 COM 物件 New Object</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Creating .NET and COM Objects (New-Object)</source>
+          <target state="translated">建立 .NET 和 COM 物件 (New-Object)</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>There are software components with .NET Framework and COM interfaces that enable you to perform many system administration tasks.</source>
+          <target state="translated">您可以透過具有 .NET Framework 和 COM 介面的軟體元件，來執行許多系統管理工作。</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell lets you use these components, so you are not limited to the tasks that can be performed by using cmdlets.</source>
+          <target state="translated">Windows PowerShell 可讓您使用這些元件，因此您不再僅限於使用 Cmdlet 執行工作。</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Many of the cmdlets in the initial release of Windows PowerShell do not work against remote computers.</source>
+          <target state="translated">Windows PowerShell 的初始版本中有許多 Cmdlet 無法對遠端電腦執行。</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>We will demonstrate how to get around this limitation when managing event logs by using the .NET Framework <bpt id="p1">**</bpt>System.Diagnostics.EventLog<ept id="p1">**</ept> class directly from Windows PowerShell.</source>
+          <target state="translated">我們將示範如何從 Windows PowerShell 直接使用 .NET Framework <bpt id="p1">**</bpt>System.Diagnostics.EventLog<ept id="p1">**</ept> 類別，以克服管理事件記錄檔時的這項限制。</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Using New<ph id="ph1">\-</ph>Object for Event Log Access</source>
+          <target state="translated">使用 New<ph id="ph1">\-</ph>Object 存取事件記錄檔</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The .NET Framework Class Library includes a class named <bpt id="p1">**</bpt>System.Diagnostics.EventLog<ept id="p1">**</ept> that can be used to manage event logs.</source>
+          <target state="translated">.NET Framework 類別庫包含名為 <bpt id="p1">**</bpt>System.Diagnostics.EventLog<ept id="p1">**</ept> 的類別，可用來管理事件記錄檔。</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can create a new instance of a .NET Framework class by using the <bpt id="p1">**</bpt>New<ph id="ph1">\-</ph>Object<ept id="p1">**</ept> cmdlet with the <bpt id="p2">**</bpt>TypeName<ept id="p2">**</ept> parameter.</source>
+          <target state="translated">您可以使用 <bpt id="p1">**</bpt>New<ph id="ph1">\-</ph>Object<ept id="p1">**</ept> Cmdlet 搭配 <bpt id="p2">**</bpt>TypeName<ept id="p2">**</ept> 參數，建立 .NET Framework 類別的新執行個體。</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For example, the following command creates an event log reference:</source>
+          <target state="translated">例如，下列命令會建立事件記錄檔參考：</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Although the command has created an instance of the EventLog class, the instance does not include any data.</source>
+          <target state="translated">雖然此命令已建立 EventLog 類別的執行個體，但是該執行個體不會包含任何資料。</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>That is because we did not specify a particular event log.</source>
+          <target state="translated">這是因為我們並未指定特定事件記錄檔。</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>How do you get a real event log?</source>
+          <target state="translated">如何取得實際事件記錄檔？</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Using Constructors with New<ph id="ph1">\-</ph>Object</source>
+          <target state="translated">搭配使用建構函式和 New<ph id="ph1">\-</ph>Object</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To refer to a specific event log, you need to specify the name of the log.</source>
+          <target state="translated">若要參考特定事件記錄檔，您需要指定記錄檔的名稱。</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>New<ph id="ph1">\-</ph>Object<ept id="p1">**</ept> has an <bpt id="p2">**</bpt>ArgumentList<ept id="p2">**</ept> parameter.</source>
+          <target state="translated"><bpt id="p1">**</bpt>New<ph id="ph1">\-</ph>Object<ept id="p1">**</ept> 具有 <bpt id="p2">**</bpt>ArgumentList<ept id="p2">**</ept> 參數。</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The arguments you pass as values to this parameter are used by a special startup method of the object.</source>
+          <target state="translated">物件的特殊啟動方法會使用您以值傳遞給這個參數的引數。</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The method is called a <bpt id="p1">*</bpt>constructor<ept id="p1">*</ept> because it is used to construct the object.</source>
+          <target state="translated">該方法稱為<bpt id="p1">*</bpt>建構函式<ept id="p1">*</ept>，因為它可用來建構物件。</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For example, to get a reference to the Application log, you specify the string 'Application' as an argument:</source>
+          <target state="translated">例如，若要取得應用程式記錄檔參考，您會將字串 'Application' 指定為引數︰</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Since most of the .NET Framework core classes are contained in the System namespace, Windows PowerShell will automatically attempt to find classes you specify in the System namespace if it cannot find a match for the typename you specify.</source>
+          <target state="translated">由於大部分的 .NET Framework 核心類別都包含在 System 命名空間中，因此如果 Windows PowerShell 找不到您指定之 typename 的相符項目，就會自動嘗試尋找您在 System 命名空間中指定的類別。</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This means that you can specify Diagnostics.EventLog instead of System.Diagnostics.EventLog.</source>
+          <target state="translated">這表示您可以指定 Diagnostics.EventLog，而不是 System.Diagnostics.EventLog。</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Storing Objects in Variables</source>
+          <target state="translated">將物件儲存在變數中</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You might want to store a reference to an object, so you can use it in the current shell.</source>
+          <target state="translated">您可能想要儲存物件參考，以便在目前的殼層中使用。</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Although Windows PowerShell lets you do a lot of work with pipelines, lessening the need for variables, sometimes storing references to objects in variables makes it more convenient to manipulate those objects.</source>
+          <target state="translated">雖然 Windows PowerShell 可讓您執行許多管線工作，因而降低變數的需要，但是有時將物件參考儲存在變數中，可以更方便管理這些物件。</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell lets you create variables that are essentially named objects.</source>
+          <target state="translated">Windows PowerShell 可讓您建立基本上為具名物件的變數。</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The output from any valid Windows PowerShell command can be stored in a variable.</source>
+          <target state="translated">任何有效的 Windows PowerShell 命令輸出都能儲存在變數中。</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Variable names always begin with $.</source>
+          <target state="translated">變數名稱一律會以 $ 開頭。</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>If you want to store the Application log reference in a variable named $AppLog, type the name of the variable, followed by an equal sign and then type the command used to create the Application log object:</source>
+          <target state="translated">如果您想要將應用程式記錄檔參考儲存在名為 $AppLog 的變數中，請輸入變數的名稱，後面接著等號，然後輸入用來建立應用程式記錄檔物件的命令︰</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>If you then type $AppLog, you can see that it contains the Application log:</source>
+          <target state="translated">如果您接著輸入 $AppLog，您可以看到它包含了應用程式記錄檔︰</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Accessing a Remote Event Log with New<ph id="ph1">\-</ph>Object</source>
+          <target state="translated">使用 New<ph id="ph1">\-</ph>Object 存取遠端事件記錄檔</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The commands used in the preceding section target the local computer; the <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>EventLog<ept id="p1">**</ept> cmdlet can do that.</source>
+          <target state="translated">上一節所使用的命令是以本機電腦為目標，<bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>EventLog<ept id="p1">**</ept> Cmdlet 可以執行該作業。</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To access the Application log on a remote computer, you must supply both the log name and a computer name (or IP address) as arguments.</source>
+          <target state="translated">若要存取遠端電腦上的應用程式記錄檔，您必須同時提供記錄檔名稱和電腦名稱 (或 IP 位址) 作為引數。</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Now that we have a reference to an event log stored in the $RemoteAppLog variable, what tasks can we perform on it?</source>
+          <target state="translated">將事件記錄檔參考儲存在 $RemoteAppLog 變數之後，可對其執行哪些工作？</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Clearing an Event Log with Object Methods</source>
+          <target state="translated">使用物件方法清除事件記錄檔</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Objects often have methods that can be called to perform tasks.</source>
+          <target state="translated">物件通常具有可呼叫以執行工作的方法。</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You can use <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Member<ept id="p1">**</ept> to display the methods associated with an object.</source>
+          <target state="translated">您可以使用 <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Member<ept id="p1">**</ept>，顯示與物件相關聯的方法。</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The following command and selected output show some the methods of the EventLog class:</source>
+          <target state="translated">下列命令和選取的輸出顯示 EventLog 類別的一些方法︰</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Clear()<ept id="p1">**</ept> method can be used to clear the event log.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Clear()<ept id="p1">**</ept> 方法可用來清除事件記錄檔。</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>When calling a method, you must always follow the method name by parentheses, even if the method does not require arguments.</source>
+          <target state="translated">呼叫方法時，您必須一律在方法名稱後面加上括弧，即使方法不需要引數亦然。</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This lets Windows PowerShell distinguish between the method and a potential property with the same name.</source>
+          <target state="translated">這可讓 Windows PowerShell 在此方法與具有相同名稱的潛在屬性之間進行區別。</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Type the following to call the <bpt id="p1">**</bpt>Clear<ept id="p1">**</ept> method:</source>
+          <target state="translated">輸入下列命令呼叫 <bpt id="p1">**</bpt>Clear<ept id="p1">**</ept> 方法︰</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Type the following to display the log.</source>
+          <target state="translated">輸入下列命令顯示記錄檔。</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>You will see that the event log was cleared, and now has 0 entries instead of 262:</source>
+          <target state="translated">您會看到事件記錄檔已清除，現在有 0 個而不是 262 個項目：</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Creating COM Objects with New<ph id="ph1">\-</ph>Object</source>
+          <target state="translated">使用 New<ph id="ph1">\-</ph>Object 建立 COM 物件</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You can use <bpt id="p1">**</bpt>New<ph id="ph1">\-</ph>Object<ept id="p1">**</ept> to work with Component Object Model (COM) components.</source>
+          <target state="translated">您可以使用 <bpt id="p1">**</bpt>New<ph id="ph1">\-</ph>Object<ept id="p1">**</ept> 來處理元件物件模型 (COM) 元件。</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Components range from the various libraries included with Windows Script Host (WSH) to ActiveX applications such as Internet Explorer that are installed on most systems.</source>
+          <target state="translated">元件範圍從 Windows Script Host (WSH) 隨附的各種程式庫，到安裝在大多數系統上的 ActiveX 應用程式 (例如 Internet Explorer)。</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>New<ph id="ph1">\-</ph>Object<ept id="p1">**</ept> uses .NET Framework Runtime<ph id="ph2">\-</ph>Callable Wrappers to create COM objects, so it has the same limitations that .NET Framework does when calling COM objects.</source>
+          <target state="translated"><bpt id="p1">**</bpt>New<ph id="ph1">\-</ph>Object<ept id="p1">**</ept> 使用 .NET Framework 執行階段可呼叫包裝函式來建立 COM 物件，因此與呼叫 COM 物件時具有相同的 .NET Framework 限制。</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>To create a COM object, you need to specify the <bpt id="p1">**</bpt>ComObject<ept id="p1">**</ept> parameter with the Programmatic Identifier or <bpt id="p2">*</bpt>ProgId<ept id="p2">*</ept> of the COM class you want to use.</source>
+          <target state="translated">若要建立 COM 物件，您需要指定 <bpt id="p1">**</bpt>ComObject<ept id="p1">**</ept> 參數，並提供所要使用之 COM 類別的程式設計識別碼 (或 <bpt id="p2">*</bpt>ProgID<ept id="p2">*</ept>)。</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>A complete discussion of the limitations of COM use and determining what ProgIds are available on a system is beyond the scope of this user's guide, but most well<ph id="ph1">\-</ph>known objects from environments such as WSH can be used within Windows PowerShell.</source>
+          <target state="translated">COM 使用限制及判斷系統上可用 ProgID 的完整探討不在本使用者指南的討論範圍內，但 WSH 等環境中的大部分已知物件都可以在 Windows PowerShell 中使用。</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>You can create the WSH objects by specifying these progids: <bpt id="p1">**</bpt>WScript.Shell<ept id="p1">**</ept>, <bpt id="p2">**</bpt>WScript.Network<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Scripting.Dictionary<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Scripting.FileSystemObject<ept id="p4">**</ept>.</source>
+          <target state="translated">您可以透過指定下列 ProgID 來建立 WSH 物件︰<bpt id="p1">**</bpt>WScript.Shell<ept id="p1">**</ept>、<bpt id="p2">**</bpt>WScript.Network<ept id="p2">**</ept>、<bpt id="p3">**</bpt>Scripting.Dictionary<ept id="p3">**</ept> 和 <bpt id="p4">**</bpt>Scripting.FileSystemObject<ept id="p4">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The following commands create these objects:</source>
+          <target state="translated">下列命令會建立這些物件：</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Although most of the functionality of these classes is made available in other ways in Windows PowerShell, a few tasks such as shortcut creation are still easier to do using the WSH classes.</source>
+          <target state="translated">雖然這些類別的大部分功能都可以利用 Windows PowerShell 的其他方式提供，但針對建立捷徑等一些工作，使用 WSH 類別還是比較容易進行。</target>         
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Creating a Desktop Shortcut with WScript.Shell</source>
+          <target state="translated">使用 WScript.Shell 建立桌面捷徑</target>         
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>One task that can be performed quickly with a COM object is creating a shortcut.</source>
+          <target state="translated">您可以透過 COM 物件快速執行的一項工作就是建立捷徑。</target>         
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Suppose you want to create a shortcut on your desktop that links to the home folder for Windows PowerShell.</source>
+          <target state="translated">假設您想要在桌面上建立捷徑，以連結到 Windows PowerShell 的主資料夾。</target>         
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>You first need to create a reference to <bpt id="p1">**</bpt>WScript.Shell<ept id="p1">**</ept>, which we will store in a variable named <bpt id="p2">**</bpt>$WshShell<ept id="p2">**</ept>:</source>
+          <target state="translated">您必須先建立 <bpt id="p1">**</bpt>WScript.Shell<ept id="p1">**</ept> 的參考，我們將儲存在名為 <bpt id="p2">**</bpt>$WshShell<ept id="p2">**</ept> 的變數中：</target>         
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>Member works with COM objects, so you can explore the members of the object by typing:</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>Member 可以搭配 COM 物件，因此輸入下列命令可以瀏覽物件成員︰</target>         
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Member<ept id="p1">**</ept> has an optional <bpt id="p2">**</bpt>InputObject<ept id="p2">**</ept> parameter you can use instead of piping to provide input to <bpt id="p3">**</bpt>Get<ph id="ph2">\-</ph>Member<ept id="p3">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Member<ept id="p1">**</ept> 具有選擇性 <bpt id="p2">**</bpt>InputObject<ept id="p2">**</ept> 參數，您可以改用此參數而不是管道來提供輸入至 <bpt id="p3">**</bpt>Get<ph id="ph2">\-</ph>Member<ept id="p3">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>You would get the same output as shown above if you instead used the command <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Member <ph id="ph2">\-</ph>InputObject $WshShell<ept id="p1">**</ept>.</source>
+          <target state="translated">如果您改用命令 <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Member <ph id="ph2">\-</ph>InputObject $WshShell<ept id="p1">**</ept>，會得到如上所示的相同輸出。</target>         
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If you use <bpt id="p1">**</bpt>InputObject<ept id="p1">**</ept>, it treats its argument as a single item.</source>
+          <target state="translated">如果您使用 <bpt id="p1">**</bpt>InputObject<ept id="p1">**</ept>，它會將其引數視為單一項目。</target>         
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>This means that if you have several objects in a variable, <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Member<ept id="p1">**</ept> treats them as an array of objects.</source>
+          <target state="translated">這表示如果您在變數中有數個物件，<bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Member<ept id="p1">**</ept> 會將其視為物件的陣列。</target>         
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">例如：</target>         
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>WScript.Shell CreateShortcut<ept id="p1">**</ept> method accepts a single argument, the path to the shortcut file to create.</source>
+          <target state="translated"><bpt id="p1">**</bpt>WScript.Shell CreateShortcut<ept id="p1">**</ept> 方法接受單一引數，也就是要建立的捷徑檔案路徑。</target>         
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>We could type in the full path to the desktop, but there is an easier way.</source>
+          <target state="translated">我們可以輸入桌面的完整路徑，但還有更簡單的方法。</target>         
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The desktop is normally represented by a folder named Desktop inside the home folder of the current user.</source>
+          <target state="translated">桌面通常會以目前使用者的主資料夾內名為 [桌面] 的資料夾來表示。</target>         
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell has a variable <bpt id="p1">**</bpt>$Home<ept id="p1">**</ept> that contains the path to this folder.</source>
+          <target state="translated">Windows PowerShell 有一個包含此資料夾路徑的變數 <bpt id="p1">**</bpt>$Home<ept id="p1">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>We can specify the path to the home folder by using this variable, and then add the name of the Desktop folder and the name for the shortcut to create by typing:</source>
+          <target state="translated">我們可以使用此變數指定主資料夾的路徑，然後加入 [桌面] 資料夾的名稱及要建立的捷徑名稱，請輸入︰</target>         
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>When you use something that looks like a variable name inside double<ph id="ph1">\-</ph>quotes, Windows PowerShell tries to substitute a matching value.</source>
+          <target state="translated">當您使用類似雙引號內的變數名稱時，Windows PowerShell 會嘗試取代為相符的值。</target>         
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>If you use single<ph id="ph1">\-</ph>quotes, Windows PowerShell does not try to substitute the variable value.</source>
+          <target state="translated">如果您使用單引號，Windows PowerShell 不會嘗試取代變數值。</target>         
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>For example, try typing the following commands:</source>
+          <target state="translated">例如，嘗試輸入下列命令：</target>         
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>We now have a variable named <bpt id="p1">**</bpt>$lnk<ept id="p1">**</ept> that contains a new shortcut reference.</source>
+          <target state="translated">我們現在有一個名為 <bpt id="p1">**</bpt>$lnk<ept id="p1">**</ept> 的變數，其中包含新的捷徑參考。</target>         
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>If you want to see its members, you can pipe it to <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Member<ept id="p1">**</ept>.</source>
+          <target state="translated">如果您想要查看其成員，您可以將其傳送到 <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Member<ept id="p1">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The output below shows the members we need to use to finish creating our shortcut:</source>
+          <target state="translated">以下的輸出顯示完成建立捷徑所需使用的成員︰</target>         
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>PS&gt; $lnk | Get-Member TypeName: System.__ComObject#{f935dc23-1cf0-11d0-adb9-00c04fd58a0b} Name             MemberType   Definition ----             ----------   ---------- ... Save             Method       void Save () ... TargetPath       Property     string TargetPath () {get} {set} ...</source>
+          <target state="translated">PS&gt; $lnk | Get-Member TypeName: System.__ComObject#{f935dc23-1cf0-11d0-adb9-00c04fd58a0b} Name             MemberType   Definition ----             ----------   ---------- ...Save             Method       void Save () ...TargetPath       Property     string TargetPath () {get} {set} ...</target>         
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>We need to specify the <bpt id="p1">**</bpt>TargetPath<ept id="p1">**</ept>, which is the application folder for Windows PowerShell, and then save the shortcut <bpt id="p2">**</bpt>$lnk<ept id="p2">**</ept> by calling the <bpt id="p3">**</bpt>Save<ept id="p3">**</ept> method.</source>
+          <target state="translated">我們需要指定 Windows PowerShell 的應用程式資料夾 <bpt id="p1">**</bpt>TargetPath<ept id="p1">**</ept>，然後再呼叫 <bpt id="p3">**</bpt>Save<ept id="p3">**</ept> 方法來儲存捷徑 <bpt id="p2">**</bpt>$lnk<ept id="p2">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell application folder path is stored in the variable <bpt id="p1">**</bpt>$PSHome<ept id="p1">**</ept>, so we can do this by typing:</source>
+          <target state="translated">Windows PowerShell 應用程式資料夾路徑儲存在變數 <bpt id="p1">**</bpt>$PSHome<ept id="p1">**</ept> 中，因此我們可以輸入下列命令來執行此作業︰</target>         
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>$lnk.TargetPath = $PSHome $lnk.Save()</source>
+          <target state="translated">$lnk.TargetPath = $PSHome $lnk.Save()</target>         
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Using Internet Explorer from Windows PowerShell</source>
+          <target state="translated">從 Windows PowerShell 使用 Internet Explorer</target>         
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Many applications (including the Microsoft Office family of applications and Internet Explorer) can be automated by using COM.</source>
+          <target state="translated">許多應用程式 (包括 Microsoft Office 系列應用程式和 Internet Explorer) 都可以透過 COM 自動化。</target>         
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Internet Explorer illustrates some of the typical techniques and issues involved in working with COM<ph id="ph1">\-</ph>based applications.</source>
+          <target state="translated">Internet Explorer 說明一些與使用 COM 應用程式相關的典型技術和問題。</target>         
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>You create an Internet Explorer instance by specifying the Internet Explorer ProgId, <bpt id="p1">**</bpt>InternetExplorer.Application<ept id="p1">**</ept>:</source>
+          <target state="translated">您可以指定 Internet Explorer ProgID <bpt id="p1">**</bpt>InternetExplorer.Application<ept id="p1">**</ept> 來建立 Internet Explorer 執行個體：</target>         
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>This command starts Internet Explorer, but does not make it visible.</source>
+          <target state="translated">此命令會啟動但不會顯示 Internet Explorer。</target>         
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>If you type Get<ph id="ph1">\-</ph>Process, you can see that a process named iexplore is running.</source>
+          <target state="translated">如果您輸入 Get<ph id="ph1">\-</ph>Process，您可以看到名為 iexplore 的處理序正在執行。</target>         
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>In fact, if you exit Windows PowerShell, the process will continue to run.</source>
+          <target state="translated">事實上，如果您結束 Windows PowerShell，該處理序會繼續執行。</target>         
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>You must reboot the computer or use a tool like Task Manager to end the iexplore process.</source>
+          <target state="translated">您必須重新啟動電腦或使用工作管理員等工具，才能結束 iexplore 處理序。</target>         
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>COM objects that start as separate processes, commonly called <bpt id="p1">*</bpt>ActiveX executables<ept id="p1">*</ept>, may or may not display a user interface window when they start up.</source>
+          <target state="translated">以個別處理序啟動的 COM 物件通常稱為<bpt id="p1">*</bpt>ActiveX 可執行檔<ept id="p1">*</ept>，啟動時不一定會顯示使用者介面視窗。</target>         
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>If they create a window but do not make it visible, like Internet Explorer, the focus will generally move to the Windows desktop and you must make the window visible to interact with it.</source>
+          <target state="translated">像是 Internet Explorer，如果建立但未顯示視窗，通常會將焦點移至 Windows 桌面，而您必須顯示視窗才能與其互動。</target>         
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>By typing <bpt id="p1">**</bpt>$ie | Get<ph id="ph1">\-</ph>Member<ept id="p1">**</ept>, you can view properties and methods for Internet Explorer.</source>
+          <target state="translated">您可以輸入 <bpt id="p1">**</bpt>$ie | Get<ph id="ph1">\-</ph>Member<ept id="p1">**</ept>，檢視 Internet Explorer 的內容和方法。</target>         
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>To see the Internet Explorer window, set the Visible property to $true by typing:</source>
+          <target state="translated">若要看到 Internet Explorer 視窗，請輸入下列命令將 Visible 屬性設定為 $true︰</target>         
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>You can then navigate to a specific Web address by using the Navigate method:</source>
+          <target state="translated">您接著可以使用 Navigate 方法巡覽至特定網址︰</target>         
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Using other members of the Internet Explorer object model, it is possible to retrieve text content from the Web page.</source>
+          <target state="translated">透過 Internet Explorer 物件模型的其他成員，您可以從網頁擷取文字內容。</target>         
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The following command will display the HTML text in the body of the current Web page:</source>
+          <target state="translated">下列命令會顯示目前網頁內文中的 HTML 文字 ︰</target>         
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>To close Internet Explorer from within PowerShell, call its Quit() method:</source>
+          <target state="translated">若要從 PowerShell 關閉 Internet Explorer，請呼叫其 Quit() 方法︰</target>         
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>This will force it to close.</source>
+          <target state="translated">這會強制關閉。</target>         
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The $ie variable no longer contains a valid reference even though it still appears to be a COM object.</source>
+          <target state="translated">$Ie 變數雖然仍會顯示為 COM 物件，但已不再包含有效的參考。</target>         
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>If you attempt to use it, you will get an automation error:</source>
+          <target state="translated">如果您嘗試使用，您會收到自動化錯誤︰</target>         
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>You can either remove the remaining reference with a command like $ie <ph id="ph1">\=</ph> $null, or completely remove the variable by typing:</source>
+          <target state="translated">您可以使用 $ie <ph id="ph1">\=</ph> $null 等命令移除其餘參考，或輸入下列命令完全移除變數︰</target>         
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>There is no common standard for whether ActiveX executables exit or continue to run when you remove a reference to one.</source>
+          <target state="translated">當您移除 ActiveX 可執行檔參考時，ActiveX 可執行檔會結束或繼續執行，並沒有通用標準。</target>         
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Depending on circumstances such as whether the application is visible, whether an edited document is running in it, and even whether Windows PowerShell is still running, the application may or may not exit.</source>
+          <target state="translated">根據應用程式是否顯示、其中是否正在執行編輯的文件，甚至是根據 Windows PowerShell 是否仍在執行等情況，應用程式可能結束，也可能不會結束。</target>         
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>For this reason, you should test termination behavior for each ActiveX executable you want to use in Windows PowerShell.</source>
+          <target state="translated">因此，您應該針對要在 Windows PowerShell 中使用的每個 ActiveX 可執行檔，測試其終止行為。</target>         
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Getting Warnings About .NET Framework<ph id="ph1">\-</ph>Wrapped COM Objects</source>
+          <target state="translated">取得 .NET Framework 包裝之 COM 物件的相關警告</target>         
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>In some cases, a COM object might have an associated .NET Framework <bpt id="p1">*</bpt>Runtime<ph id="ph1">\-</ph>Callable Wrapper<ept id="p1">*</ept> or RCW, and this will be used by <bpt id="p2">**</bpt>New<ph id="ph2">\-</ph>Object<ept id="p2">**</ept>.</source>
+          <target state="translated">在某些情況下，COM 物件可能會有相關聯的 .NET Framework 執行階段可呼叫包裝函式<bpt id="p1">*</bpt><ept id="p1">*</ept> (RCW)，<bpt id="p2">**</bpt>New<ph id="ph2">\-</ph>Object<ept id="p2">**</ept> 會使用此包裝函式。</target>         
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Since the behavior of the RCW may be different from the behavior of the normal COM object, <bpt id="p1">**</bpt>New<ph id="ph1">\-</ph>Object<ept id="p1">**</ept> has a <bpt id="p2">**</bpt>Strict<ept id="p2">**</ept> parameter to warn you about RCW access.</source>
+          <target state="translated">因為 RCW 的行為可能與一般 COM 物件的行為不同，所以 <bpt id="p1">**</bpt>New<ph id="ph1">\-</ph>Object<ept id="p1">**</ept> 提供了 <bpt id="p2">**</bpt>Strict<ept id="p2">**</ept> 參數，以警告您 RCW 的存取。</target>         
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>If you specify the <bpt id="p1">**</bpt>Strict<ept id="p1">**</ept> parameter and then create a COM object that uses an RCW, you get a warning message:</source>
+          <target state="translated">如果您指定 <bpt id="p1">**</bpt>Strict<ept id="p1">**</ept> 參數，然後建立使用 RCW 的 COM 物件，您會收到警告訊息︰</target>         
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Although the object is still created, you are warned that it is not a standard COM object.</source>
+          <target state="translated">雖然物件仍會建立，但您會收到警告，指出該物件不是標準 COM 物件。</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
