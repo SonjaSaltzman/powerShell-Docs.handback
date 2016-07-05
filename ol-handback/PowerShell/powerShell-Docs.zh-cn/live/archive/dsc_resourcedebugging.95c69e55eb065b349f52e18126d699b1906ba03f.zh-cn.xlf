@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" original="md" source-language="en-US" target-language="zh-cn">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fa0f232c7ed02cb6358b1c181a40bab8a1e2e640</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\dsc_resourcedebugging.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
     <body>
       <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
@@ -12,133 +19,10 @@
           <target state="translated">WMF 5.0 生产预览版支持当 DSC 资源脚本在目标节点上运行时对其进行调试。</target>         
         </trans-unit>
         <trans-unit id="103" translate="yes" xml:space="preserve">
-          <source>In older WMF 5.0 releases, we added advanced script debugging features with the ability to attach to local processes (Get-PSHostProcessInfo, Enter-PSHostProcessInfo, Exit-PSHostProcessInfo), enumerate all runspaces in a process, and debug an arbitrary runspace in a process (Get-Runspace, Debug-Runspace).</source>
-          <target state="translated">在早期 WMF 5.0 版本中，我们在高级脚本调试功能中添加了附加到本地进程（Get-PSHostProcessInfo、Enter-PSHostProcessInfo、Exit-PSHostProcessInfo）、枚举进程中所有运行空间和调试进程中任意运行空间（Get-Runspace、Debug-Runspace）的功能。</target>         
-        </trans-unit>
-        <trans-unit id="104" translate="yes" xml:space="preserve">
-          <source>DSC resource script debugging builds on this work by adding two new cmdlets.</source>
-          <target state="translated">通过添加两个新的 cmdlet，在这一工作的基础上实现 DSC 资源脚本调试。</target>         
-        </trans-unit>
-        <trans-unit id="105" translate="yes" xml:space="preserve">
-          <source>Syntax</source>
-          <target state="translated">语法</target>         
-        </trans-unit>
-        <trans-unit id="106" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Enable-DscDebug<ept id="p1">**</ept></source>
-          <target state="translated"><bpt id="p1">**</bpt>Enable-DscDebug<ept id="p1">**</ept></target>         
-        </trans-unit>
-        <trans-unit id="107" translate="yes" xml:space="preserve">
-          <source>Enable-DscDebug \[-BreakAll\] \[-CimSession &amp;lt;CimSession\[\]&amp;gt;\] \[-ThrottleLimit &amp;lt;int&amp;gt;\] \[-AsJob\] \[-WhatIf\] \[-Confirm\] \[&amp;lt;CommonParameters&amp;gt;\]</source>
-          <target state="translated">Enable-DscDebug \[-BreakAll\] \[-CimSession &amp;lt;CimSession\[\]&amp;gt;\] \[-ThrottleLimit &amp;lt;int&amp;gt;\] \[-AsJob\] \[-WhatIf\] \[-Confirm\] \[&amp;lt;CommonParameters&amp;gt;\]</target>         
-        </trans-unit>
-        <trans-unit id="108" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Disable-DscDebug<ept id="p1">**</ept></source>
-          <target state="translated"><bpt id="p1">**</bpt>Disable-DscDebug<ept id="p1">**</ept></target>         
-        </trans-unit>
-        <trans-unit id="109" translate="yes" xml:space="preserve">
-          <source>Disable-DscDebug \[-CimSession &amp;lt;CimSession\[\]&amp;gt;\] \[-ThrottleLimit &amp;lt;int&amp;gt;\] \[-AsJob\] \[-WhatIf\] \[-Confirm\] \[&amp;lt;CommonParameters&amp;gt;\]</source>
-          <target state="translated">Disable-DscDebug \[-CimSession &amp;lt;CimSession\[\]&amp;gt;\] \[-ThrottleLimit &amp;lt;int&amp;gt;\] \[-AsJob\] \[-WhatIf\] \[-Confirm\] \[&amp;lt;CommonParameters&amp;gt;\]</target>         
-        </trans-unit>
-        <trans-unit id="110" translate="yes" xml:space="preserve">
-          <source>Typical WorkFlow</source>
-          <target state="translated">典型工作流</target>         
-        </trans-unit>
-        <trans-unit id="111" translate="yes" xml:space="preserve">
-          <source>Now lets take a look at each of these commands and what they do:</source>
-          <target state="translated">现在让我们看一看每个命令及其作用：</target>         
-        </trans-unit>
-        <trans-unit id="112" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Enable-DscDebug –BreakAll<ept id="p1">**</ept></source>
-          <target state="translated"><bpt id="p1">**</bpt>Enable-DscDebug –BreakAll<ept id="p1">**</ept></target>         
-        </trans-unit>
-        <trans-unit id="113" translate="yes" xml:space="preserve">
-          <source>Enable-DscDebug cmdlet with BreakAll configures the DSC LCM to run Get-TargetResource, Set-TargetResource, and Test-TargetResource scripts in Break All mode.</source>
-          <target state="translated">带有 BreakAll 的 Enable-DscDebug cmdlet 可将 DSC LCM 配置为以“全部中断”模式运行 Get-TargetResource、Set-TargetResource 和 Test-TargetResource 脚本。</target>         
-        </trans-unit>
-        <trans-unit id="114" translate="yes" xml:space="preserve">
-          <source>This means that the script stops at the first script statement and waits for a debugger to be attached.</source>
-          <target state="translated">这意味着脚本将在第一个脚本语句处停止，并等待附加调试器。</target>         
-        </trans-unit>
-        <trans-unit id="115" translate="yes" xml:space="preserve">
-          <source>You can then connect to the target computer by using Windows PowerShell remoting, and attach the Windows PowerShell debugger to the LCM process and runspace to debug the script.</source>
-          <target state="translated">你可以随后使用 Windows PowerShell 远程处理连接到目标计算机，并将 Windows PowerShell 调试器附加到 LCM 进程和运行空间以调试脚本。</target>         
-        </trans-unit>
-        <trans-unit id="116" translate="yes" xml:space="preserve">
-          <source>After you do this, you can set breakpoints and debug the script in the normal Windows PowerShell way.</source>
-          <target state="translated">执行此操作之后，可以设置断点并以常规 Windows PowerShell 方式调试脚本。</target>         
-        </trans-unit>
-        <trans-unit id="117" translate="yes" xml:space="preserve">
-          <source>Start-DscConfiguration -path .\TestConfig2 -Wait -Verbose</source>
-          <target state="translated">Start-DscConfiguration -path .\TestConfig2 -Wait -Verbose</target>         
-        </trans-unit>
-        <trans-unit id="118" translate="yes" xml:space="preserve">
-          <source>This kicks off DSC but as noted above, since the target node has debug mode enabled it will stop at the first DSC resource that the LCM executes.</source>
-          <target state="translated">这将启动 DSC，但如上所述，由于目标节点启用了调试模式，它将在 LCM 执行的第一个 DSC 资源处停止。</target>         
-        </trans-unit>
-        <trans-unit id="119" translate="yes" xml:space="preserve">
-          <source>In order to begin the debugging session run the commands shown in the warning message after running Start-DscConfiguration, you attach your client Windows PowerShell script debugger to the appropriate computer, process, application domain, and runspace.</source>
-          <target state="translated">为了开始调试在运行 Start-DscConfiguration 后运行警告消息中所示命令的会话，请将客户端 Windows PowerShell 脚本调试器附加到相应的计算机、进程、应用程序域和运行空间。</target>         
-        </trans-unit>
-        <trans-unit id="120" translate="yes" xml:space="preserve">
-          <source>Run this command to optionally use Windows PowerShell remoting to connect to the target computer.</source>
-          <target state="translated">运行此命令以选择使用 Windows PowerShell 远程处理连接到目标计算机。</target>         
-        </trans-unit>
-        <trans-unit id="121" translate="yes" xml:space="preserve">
-          <source>Skip this if you already have a remote desktop connection.</source>
-          <target state="translated">如果已经建立远程桌面连接，请跳过此操作。</target>         
-        </trans-unit>
-        <trans-unit id="122" translate="yes" xml:space="preserve">
-          <source>This command attaches to the DSC LCM host process and app domain where the resource script is running.</source>
-          <target state="translated">此命令可附加到资源脚本运行于的 DSC LCM 主机进程和应用程序域。</target>         
-        </trans-unit>
-        <trans-unit id="123" translate="yes" xml:space="preserve">
-          <source>This last command lets you debug the DSC runspace running the script.</source>
-          <target state="translated">上个命令可用于调试运行脚本的 DSC 运行空间。</target>         
-        </trans-unit>
-        <trans-unit id="124" translate="yes" xml:space="preserve">
-          <source>After you have the debugger attached, set line breakpoints where you want to investigate script execution and run the <bpt id="p1">**</bpt>continue<ept id="p1">**</ept> debugger command to let the script run in the debugger.</source>
-          <target state="translated">附加调试程序后，在要调查脚本执行处设置行断点并运行 <bpt id="p1">**</bpt>continue<ept id="p1">**</ept> 调试器命令，以使脚本在调试器中运行。</target>         
-        </trans-unit>
-        <trans-unit id="125" translate="yes" xml:space="preserve">
-          <source>When you are done debugging, you can stop the script from running by typing the <bpt id="p1">**</bpt>quit<ept id="p1">**</ept> debugger command, or let the script continue to run without the debugger by running the <bpt id="p2">**</bpt>detach<ept id="p2">**</ept> debugger command.</source>
-          <target state="translated">完成调试后，可通过键入 <bpt id="p1">**</bpt>quit<ept id="p1">**</ept> 调试器命令使脚本终止运行，或运行 <bpt id="p2">**</bpt>detach<ept id="p2">**</ept> 调试器命令使脚本在不使用调试器的情况下继续运行。</target>         
-        </trans-unit>
-        <trans-unit id="126" translate="yes" xml:space="preserve">
-          <source>Notice that <bpt id="p1">***</bpt>all<ept id="p1">***</ept> resource scripts are stopped in the debugger.</source>
-          <target state="translated">请注意，<bpt id="p1">***</bpt>所有<ept id="p1">***</ept>资源脚本都将在调试器中终止。</target>         
-        </trans-unit>
-        <trans-unit id="127" translate="yes" xml:space="preserve">
-          <source>This means that Test-TargetResoruce, Set-TargetResource, and Get-TargetResource scripts each in turn stop in the debugger.</source>
-          <target state="translated">这意味着 Test-TargetResoruce、Set-TargetResource 和 Get-TargetResource 脚本都将在调试器中终止。</target>         
-        </trans-unit>
-        <trans-unit id="128" translate="yes" xml:space="preserve">
-          <source>If you don't want to debug a resource script, you can exit debug mode in the runspace by running this command.</source>
-          <target state="translated">如果你不想调试资源脚本，可以通过运行此命令在运行空间中退出调试模式。</target>         
-        </trans-unit>
-        <trans-unit id="129" translate="yes" xml:space="preserve">
-          <source>Disable-RunspaceDebug -RunspaceId 3</source>
-          <target state="translated">Disable-RunspaceDebug -RunspaceId 3</target>         
-        </trans-unit>
-        <trans-unit id="130" translate="yes" xml:space="preserve">
-          <source>Or you can attach the debugger by running Debug-Runspace, and then immediately run the <bpt id="p1">**</bpt>detach<ept id="p1">**</ept> command.</source>
-          <target state="translated">也可以通过运行 Debug-Runspace 来附加调试器，然后立即运行 <bpt id="p1">**</bpt>detach<ept id="p1">**</ept> 命令。</target>         
-        </trans-unit>
-        <trans-unit id="131" translate="yes" xml:space="preserve">
-          <source>After you are done debugging your resource script, you should stop the DSC configuration by running the following command.</source>
-          <target state="translated">调试完资源脚本后，应通过运行以下命令来停止 DSC 配置。</target>         
-        </trans-unit>
-        <trans-unit id="132" translate="yes" xml:space="preserve">
-          <source>Stop-DscConfiguration –Force</source>
-          <target state="translated">Stop-DscConfiguration –Force</target>         
-        </trans-unit>
-        <trans-unit id="133" translate="yes" xml:space="preserve">
-          <source>Finally, you must reconfigure the target computer LCM to disable debug mode using Disable-DscDebug cmdlet..</source>
-          <target state="translated">最后，你必须使用 Disable-DscDebug cmdlet 将目标计算机 LCM 重新配置为禁用调试模式。</target>         
+          <source>For more information, see <bpt id="p1">[</bpt>Debugging DSC resources<ept id="p1">](../dsc/debugResource.md)</ept>.</source>
+          <target state="translated">有关详情，请参阅 <bpt id="p1">[</bpt>调试 DSC 资源<ept id="p1">](../dsc/debugResource.md)</ept>。</target>         
         </trans-unit>
       </group>
     </body>
   </file>
-  <header xmlns="">
-    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">68949a10a4e8b6cac5a2d596567e7c0e680db8a2</xliffext:olfilehash>
-  </header>
 </xliff>
