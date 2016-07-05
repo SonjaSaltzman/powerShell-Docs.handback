@@ -2,10 +2,11 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
     <header>
-      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
-      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Working-with-Software-Installations.md</xliffext:olfilepath>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9f60be9bebe9dfaa98f495c8e9a9c0d8c2fa5cc2</xliffext:olfilehash>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-39517ae" tool-company="Microsoft" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Working-with-Software-Installations.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
     </header>
     <body>
       <group id="content" extype="content">
@@ -18,8 +19,8 @@
           <target state="translated">使用软件安装</target>         
         </trans-unit>
         <trans-unit id="103" translate="yes" xml:space="preserve">
-          <source>Applications that are designed to use Windows Installer can be accessed through WMI's <bpt id="p1">**</bpt>Win32\_Product<ept id="p1">**</ept> class, but not all applications in use today use the Windows Installer.</source>
-          <target state="translated">可以通过 WMI 的 <bpt id="p1">**</bpt>Win32_Product<ept id="p1">**</ept> 类访问旨在使用 Windows Installer 的应用程序，但当今使用的所有应用程序并非都使用 Windows Installer。</target>         
+          <source>Applications that are designed to use Windows Installer can be accessed through WMI's <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>Product<ept id="p1">**</ept> class, but not all applications in use today use the Windows Installer.</source>
+          <target state="translated">可以通过 WMI 的 <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>Product<ept id="p1">**</ept> 类访问旨在使用 Windows Installer 的应用程序，但当今使用的所有应用程序并非都使用 Windows Installer。</target>         
         </trans-unit>
         <trans-unit id="104" translate="yes" xml:space="preserve">
           <source>Because the Windows Installer provides the widest range of standard techniques for working with installable applications, we will focus primarily on those applications.</source>
@@ -50,12 +51,12 @@
           <target state="translated">若要列出随 Windows Installer 一起在本地或远程系统上安装的应用程序，请使用以下简单的 WMI 查询：</target>         
         </trans-unit>
         <trans-unit id="111" translate="yes" xml:space="preserve">
-          <source>To display all of the properties of the Win32\_Product object to the display, use the Properties parameter of the formatting cmdlets, such as the Format\-List cmdlet, with a value of \* (all).</source>
-          <target state="translated">若要将 Win32_Product 对象的所有属性显示到显示屏中，请使用格式设置 cmdlet（例如 Format-List cmdlet）的“Property”参数，值为 *（全部）。</target>         
+          <source>To display all of the properties of the Win32<ph id="ph1">\_</ph>Product object to the display, use the Properties parameter of the formatting cmdlets, such as the Format<ph id="ph2">\-</ph>List cmdlet, with a value of <ph id="ph3">\*</ph> (all).</source>
+          <target state="translated">若要将 Win32<ph id="ph1">\_</ph>Product 对象的所有属性显示到显示屏中，请使用格式设置 cmdlet（例如 Format<ph id="ph2">\-</ph>List cmdlet）的“Property”参数，值为 <ph id="ph3">\*</ph>（全部）。</target>         
         </trans-unit>
         <trans-unit id="112" translate="yes" xml:space="preserve">
-          <source>Or, you could use the <bpt id="p1">**</bpt>Get\-WmiObject Filter<ept id="p1">**</ept> parameter to select only Microsoft .NET Framework 2.0.</source>
-          <target state="translated">或者，可以使用 <bpt id="p1">**</bpt>Get-WmiObject Filter<ept id="p1">**</ept> 参数仅选择 Microsoft .NET Framework 2.0。</target>         
+          <source>Or, you could use the <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>WmiObject Filter<ept id="p1">**</ept> parameter to select only Microsoft .NET Framework 2.0.</source>
+          <target state="translated">或者，可以使用 <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>WmiObject Filter<ept id="p1">**</ept> 参数仅选择 Microsoft .NET Framework 2.0。</target>         
         </trans-unit>
         <trans-unit id="113" translate="yes" xml:space="preserve">
           <source>Because the filter used in this command is a WMI filter, it uses WMI Query Language (WQL) syntax, not Windows PowerShell syntax.</source>
@@ -74,8 +75,8 @@
           <target state="translated">为此，比较明智的做法是始终将“Filter”参数的值用引号括起来。</target>         
         </trans-unit>
         <trans-unit id="117" translate="yes" xml:space="preserve">
-          <source>You can also use the Windows PowerShell escape character, a backtick (\`), although it may not improve readability.</source>
-          <target state="translated">还可以使用 Windows PowerShell 转义符（反引号 (`)），尽管它可能无法提高可读性。</target>         
+          <source>You can also use the Windows PowerShell escape character, a backtick (<ph id="ph1">\`</ph>), although it may not improve readability.</source>
+          <target state="translated">还可以使用 Windows PowerShell 转义符（反引号 (<ph id="ph1">\`</ph>)），尽管它可能无法提高可读性。</target>         
         </trans-unit>
         <trans-unit id="118" translate="yes" xml:space="preserve">
           <source>The following command is equivalent to the previous command and returns the same results, but uses the backtick to escape special characters, instead of quoting the entire filter string.</source>
@@ -86,8 +87,8 @@
           <target state="translated">若要仅列出你感兴趣的属性，请使用格式设置 cmdlet 的“Property”参数列出所需的属性。</target>         
         </trans-unit>
         <trans-unit id="120" translate="yes" xml:space="preserve">
-          <source>Finally, to find only the names of installed applications, a simple <bpt id="p1">**</bpt>Format\-Wide<ept id="p1">**</ept> statement simplifies the output:</source>
-          <target state="translated">最后，若要仅查找已安装应用程序的名称，一个简单的 <bpt id="p1">**</bpt>Format-Wide<ept id="p1">**</ept> 语句便可简化输出：</target>         
+          <source>Finally, to find only the names of installed applications, a simple <bpt id="p1">**</bpt>Format<ph id="ph1">\-</ph>Wide<ept id="p1">**</ept> statement simplifies the output:</source>
+          <target state="translated">最后，若要仅查找已安装应用程序的名称，一个简单的 <bpt id="p1">**</bpt>Format<ph id="ph1">\-</ph>Wide<ept id="p1">**</ept> 语句便可简化输出：</target>         
         </trans-unit>
         <trans-unit id="121" translate="yes" xml:space="preserve">
           <source>Although we now have several ways to look at applications that used the Windows Installer for installation, we have not considered other applications.</source>
@@ -110,8 +111,8 @@
           <target state="translated">“添加或删除程序”在以下注册表项中查找这些应用程序：</target>         
         </trans-unit>
         <trans-unit id="126" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall<ept id="p1">**</ept>.</source>
-          <target state="translated"><bpt id="p1">**</bpt>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall<ept id="p1">**</ept>。</target>         
+          <source><bpt id="p1">**</bpt>HKEY<ph id="ph1">\_</ph>LOCAL<ph id="ph2">\_</ph>MACHINE<ph id="ph3">\\</ph>Software<ph id="ph4">\\</ph>Microsoft<ph id="ph5">\\</ph>Windows<ph id="ph6">\\</ph>CurrentVersion<ph id="ph7">\\</ph>Uninstall<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>HKEY<ph id="ph1">\_</ph>LOCAL<ph id="ph2">\_</ph>MACHINE<ph id="ph3">\\</ph>Software<ph id="ph4">\\</ph>Microsoft<ph id="ph5">\\</ph>Windows<ph id="ph6">\\</ph>CurrentVersion<ph id="ph7">\\</ph>Uninstall<ept id="p1">**</ept>。</target>         
         </trans-unit>
         <trans-unit id="127" translate="yes" xml:space="preserve">
           <source>We can also examine this key to find applications.</source>
@@ -122,16 +123,16 @@
           <target state="translated">若要更加轻松地查看 Uninstall 项，我们可以将 Windows PowerShell 驱动器映射到此注册表位置：</target>         
         </trans-unit>
         <trans-unit id="129" translate="yes" xml:space="preserve">
-          <source>The <bpt id="p1">**</bpt>HKLM:<ept id="p1">**</ept> drive is mapped to the root of <bpt id="p2">**</bpt>HKEY\_LOCAL\_MACHINE<ept id="p2">**</ept>, so we used that drive in the path to the Uninstall key.</source>
-          <target state="translated"><bpt id="p1">**</bpt>HKLM:<ept id="p1">**</ept> 驱动器将映射到 <bpt id="p2">**</bpt>HKEY_LOCAL_MACHINE<ept id="p2">**</ept> 的根，因此我们在 Uninstall 项的路径中使用了该驱动器。</target>         
+          <source>The <bpt id="p1">**</bpt>HKLM:<ept id="p1">**</ept> drive is mapped to the root of <bpt id="p2">**</bpt>HKEY<ph id="ph1">\_</ph>LOCAL<ph id="ph2">\_</ph>MACHINE<ept id="p2">**</ept>, so we used that drive in the path to the Uninstall key.</source>
+          <target state="translated"><bpt id="p1">**</bpt>HKLM:<ept id="p1">**</ept> 驱动器将映射到 <bpt id="p2">**</bpt>HKEY<ph id="ph1">\_</ph>LOCAL<ph id="ph2">\_</ph>MACHINE<ept id="p2">**</ept> 的根，因此我们在 Uninstall 项的路径中使用了该驱动器。</target>         
         </trans-unit>
         <trans-unit id="130" translate="yes" xml:space="preserve">
-          <source>Instead of <bpt id="p1">**</bpt>HKLM:<ept id="p1">**</ept> we could have specified the registry path by using either <bpt id="p2">**</bpt>HKLM<ept id="p2">**</ept> or <bpt id="p3">**</bpt>HKEY\_LOCAL\_MACHINE<ept id="p3">**</ept>.</source>
-          <target state="translated">我们可以使用 <bpt id="p2">**</bpt>HKLM<ept id="p2">**</ept> 或 <bpt id="p3">**</bpt>HKEY_LOCAL_MACHINE<ept id="p3">**</ept>（而不是 <bpt id="p1">**</bpt>HKLM：<ept id="p1">**</ept>）指定注册表路径。</target>         
+          <source>Instead of <bpt id="p1">**</bpt>HKLM:<ept id="p1">**</ept> we could have specified the registry path by using either <bpt id="p2">**</bpt>HKLM<ept id="p2">**</ept> or <bpt id="p3">**</bpt>HKEY<ph id="ph1">\_</ph>LOCAL<ph id="ph2">\_</ph>MACHINE<ept id="p3">**</ept>.</source>
+          <target state="translated">我们可以使用 <bpt id="p2">**</bpt>HKLM<ept id="p2">**</ept> 或 <bpt id="p3">**</bpt>HKEY<ph id="ph1">\_</ph>LOCAL<ph id="ph2">\_</ph>MACHINE<ept id="p3">**</ept>（而不是 <bpt id="p1">**</bpt>HKLM：<ept id="p1">**</ept>）指定注册表路径。</target>         
         </trans-unit>
         <trans-unit id="131" translate="yes" xml:space="preserve">
-          <source>The advantage of using an existing registry drive is that we can use tab\-completion to fill in the keys names, so we do not need to type them.</source>
-          <target state="translated">使用现有注册表驱动器的优点是我们可以使用 Tab 自动补全来填充项名称，因此我们不需要键入它们。</target>         
+          <source>The advantage of using an existing registry drive is that we can use tab<ph id="ph1">\-</ph>completion to fill in the keys names, so we do not need to type them.</source>
+          <target state="translated">使用现有注册表驱动器的优点是我们可以使用 tab 自动补全来填充项名称，因此我们不需要键入它们。</target>         
         </trans-unit>
         <trans-unit id="132" translate="yes" xml:space="preserve">
           <source>We now have a drive named "Uninstall" that can be used to quickly and conveniently look for application installations.</source>
@@ -142,8 +143,8 @@
           <target state="translated">我们可以查找已安装应用程序的数量，方法是计算 Uninstall 中的注册表项数：Windows PowerShell 驱动器：</target>         
         </trans-unit>
         <trans-unit id="134" translate="yes" xml:space="preserve">
-          <source>We can search this list of applications further by using a variety of techniques, beginning with <bpt id="p1">**</bpt>Get\-ChildItem<ept id="p1">**</ept>.</source>
-          <target state="translated">我们可以使用各种以 <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept> 开头的技术进一步在此列表中搜索应用程序。</target>         
+          <source>We can search this list of applications further by using a variety of techniques, beginning with <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>ChildItem<ept id="p1">**</ept>.</source>
+          <target state="translated">我们可以使用各种以 <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>ChildItem<ept id="p1">**</ept> 开头的技术进一步在此列表中搜索应用程序。</target>         
         </trans-unit>
         <trans-unit id="135" translate="yes" xml:space="preserve">
           <source>To get a list of applications and save them in the <bpt id="p1">**</bpt>$UninstallableApplications<ept id="p1">**</ept> variable, use the following command:</source>
@@ -158,8 +159,8 @@
           <target state="translated">在实际应用中，没有必要使用长名称。</target>         
         </trans-unit>
         <trans-unit id="138" translate="yes" xml:space="preserve">
-          <source>Although you can use tab\-completion for variable names, you can also use 1–2 character names for speed.</source>
-          <target state="translated">尽管可以使用 Tab 自动补全输入变量名称，但也可以使用 1–2 个字符的名称提高速度。</target>         
+          <source>Although you can use tab<ph id="ph1">\-</ph>completion for variable names, you can also use 1–2 character names for speed.</source>
+          <target state="translated">尽管可以使用 tab 自动补全输入变量名称，但也可以使用 1–2 个字符的名称提高速度。</target>         
         </trans-unit>
         <trans-unit id="139" translate="yes" xml:space="preserve">
           <source>Longer, descriptive names are most useful when you are developing code for reuse.</source>
@@ -190,23 +191,23 @@
           <target state="translated">安装应用程序</target>         
         </trans-unit>
         <trans-unit id="146" translate="yes" xml:space="preserve">
-          <source>You can use the <bpt id="p1">**</bpt>Win32\_Product<ept id="p1">**</ept> class to install Windows Installer packages, remotely or locally.</source>
-          <target state="translated">可以使用 <bpt id="p1">**</bpt>Win32_Product<ept id="p1">**</ept> 类远程或本地安装 Windows Installer 程序包。</target>         
+          <source>You can use the <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>Product<ept id="p1">**</ept> class to install Windows Installer packages, remotely or locally.</source>
+          <target state="translated">可以使用 <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>Product<ept id="p1">**</ept> 类远程或本地安装 Windows Installer 程序包。</target>         
         </trans-unit>
         <trans-unit id="147" translate="yes" xml:space="preserve">
-          <source><ph id="ph1">[!NOTE]</ph> On Windows Vista, Windows Server 2008, and later versions of Windows, to install an application, you must start Windows PowerShell with the "Run as administrator" option.</source>
-          <target state="translated"><ph id="ph1">[!NOTE]</ph> 若要在 Windows Vista、Windows Server 2008 以及更高版本的 Windows 上安装应用程序，你必须使用“以管理员身份运行”选项启动 Windows PowerShell。</target>         
+          <source>On Windows Vista, Windows Server 2008, and later versions of Windows, to install an application, you must start Windows PowerShell with the "Run as administrator" option.</source>
+          <target state="translated">若要在 Windows Vista、Windows Server 2008 以及更高版本的 Windows 上安装应用程序，你必须使用“以管理员身份运行”选项启动 Windows PowerShell。</target>         
         </trans-unit>
         <trans-unit id="148" translate="yes" xml:space="preserve">
           <source>When installing remotely, use a Universal Naming Convention (UNC) network path to specify the path to the .msi package, because the WMI subsystem does not understand Windows PowerShell paths.</source>
           <target state="translated">在远程安装时，请使用通用命名约定 (UNC) 网络路径指定 .msi 程序包的路径，因为 WMI 子系统并不了解 Windows PowerShell 路径。</target>         
         </trans-unit>
         <trans-unit id="149" translate="yes" xml:space="preserve">
-          <source>For example, to install the NewPackage.msi package located in the network share \\\\AppServ\\dsp on the remote computer PC01, type the following command at the Windows PowerShell prompt:</source>
-          <target state="translated">例如，若要在远程计算机 PC01 上安装位于网络共享 \AppServ\dsp 中的 NewPackage.msi 程序包，请在 Windows PowerShell 提示符下键入以下命令：</target>         
+          <source>For example, to install the NewPackage.msi package located in the network share <ph id="ph1">\\\\</ph>AppServ<ph id="ph2">\\</ph>dsp on the remote computer PC01, type the following command at the Windows PowerShell prompt:</source>
+          <target state="translated">例如，若要在远程计算机 PC01 上安装位于网络共享 <ph id="ph1">\\\\</ph>AppServ<ph id="ph2">\\</ph>dsp 中的 NewPackage.msi 程序包，请在 Windows PowerShell 提示符下键入以下命令：</target>         
         </trans-unit>
         <trans-unit id="150" translate="yes" xml:space="preserve">
-          <source>Applications that do not use Windows Installer technology may have application\-specific methods available for automated deployment.</source>
+          <source>Applications that do not use Windows Installer technology may have application<ph id="ph1">\-</ph>specific methods available for automated deployment.</source>
           <target state="translated">不使用 Windows Installer 技术的应用程序可能具有可用于自动部署的特定于应用程序的方法。</target>         
         </trans-unit>
         <trans-unit id="151" translate="yes" xml:space="preserve">

@@ -2,10 +2,11 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
     <header>
-      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
-      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\fundamental\Learning-Windows-PowerShell-Names.md</xliffext:olfilepath>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bc504fbde14d0ba743accf644ee5114810afb609</xliffext:olfilehash>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-39517ae" tool-company="Microsoft" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\fundamental\Learning-Windows-PowerShell-Names.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
     </header>
     <body>
       <group id="content" extype="content">
@@ -18,7 +19,7 @@
           <target state="translated">学习 Windows PowerShell 名称</target>         
         </trans-unit>
         <trans-unit id="103" translate="yes" xml:space="preserve">
-          <source>Learning names of commands and command parameters is a significant time investment with most command\-line interfaces.</source>
+          <source>Learning names of commands and command parameters is a significant time investment with most command<ph id="ph1">\-</ph>line interfaces.</source>
           <target state="translated">学习命令和命令参数的名称是使用大多数命令行接口时重要的时间投入。</target>         
         </trans-unit>
         <trans-unit id="104" translate="yes" xml:space="preserve">
@@ -70,15 +71,15 @@
           <target state="translated"><bpt id="p1">**</bpt>sc<ept id="p1">**</ept> 命令将在远程计算机上启动服务，但若要指定远程计算机，必须在其名称前使用双反斜杠作为前缀。</target>         
         </trans-unit>
         <trans-unit id="116" translate="yes" xml:space="preserve">
-          <source>For example, to start the spooler service on a remote computer named DC01, you would type <bpt id="p1">**</bpt>sc \\\\DC01 start spooler<ept id="p1">**</ept>.</source>
-          <target state="translated">例如，若要在名为 DC01 的远程计算机上启动后台处理程序服务，应键入 <bpt id="p1">**</bpt>sc \DC01 start spooler<ept id="p1">**</ept>。</target>         
+          <source>For example, to start the spooler service on a remote computer named DC01, you would type <bpt id="p1">**</bpt>sc <ph id="ph1">\\\\</ph>DC01 start spooler<ept id="p1">**</ept>.</source>
+          <target state="translated">例如，若要在名为 DC01 的远程计算机上启动后台处理程序服务，应键入 <bpt id="p1">**</bpt>sc <ph id="ph1">\\\\</ph>DC01 start spooler<ept id="p1">**</ept>。</target>         
         </trans-unit>
         <trans-unit id="117" translate="yes" xml:space="preserve">
-          <source>To list tasks running on DC01, you need to use the <bpt id="p1">**</bpt>\/S<ept id="p1">**</ept> (for "system") parameter and supply the name DC01 without backslashes, like this: <bpt id="p2">**</bpt>tasklist \/S DC01<ept id="p2">**</ept>.</source>
-          <target state="translated">若要列出在 DC01 上运行的任务，你需要使用 <bpt id="p1">**</bpt>/S<ept id="p1">**</ept>（代指“系统”）参数并提供没有反斜杠的名称 DC01，如：<bpt id="p2">**</bpt>tasklist /S DC01<ept id="p2">**</ept>。</target>         
+          <source>To list tasks running on DC01, you need to use the <bpt id="p1">**</bpt><ph id="ph1">\/</ph>S<ept id="p1">**</ept> (for "system") parameter and supply the name DC01 without backslashes, like this: <bpt id="p2">**</bpt>tasklist <ph id="ph2">\/</ph>S DC01<ept id="p2">**</ept>.</source>
+          <target state="translated">若要列出在 DC01 上运行的任务，需要使用 <bpt id="p1">**</bpt><ph id="ph1">\/</ph>S<ept id="p1">**</ept>（代指“系统”）参数并提供没有反斜杠的名称 DC01，如：<bpt id="p2">**</bpt>tasklist <ph id="ph2">\/</ph>S DC01<ept id="p2">**</ept>。</target>         
         </trans-unit>
         <trans-unit id="118" translate="yes" xml:space="preserve">
-          <source>Although there are important technical distinctions between a service and a process, they are both examples of manageable elements on a computer that have a well\-defined life cycle.</source>
+          <source>Although there are important technical distinctions between a service and a process, they are both examples of manageable elements on a computer that have a well<ph id="ph1">\-</ph>defined life cycle.</source>
           <target state="translated">尽管服务和进程之间具有重要的技术区别，但它们都是计算机上的可管理元素的示例，具有定义完善的生命周期。</target>         
         </trans-unit>
         <trans-unit id="119" translate="yes" xml:space="preserve">
@@ -98,12 +99,12 @@
           <target state="translated">Windows PowerShell 利用这些相似之处减少了解和使用 cmdlet 时需要知道的不同名称的数量。</target>         
         </trans-unit>
         <trans-unit id="123" translate="yes" xml:space="preserve">
-          <source>Cmdlets Use Verb\-Noun Names to Reduce Command Memorization</source>
-          <target state="translated">Cmdlet 使用谓词-名词的名称来减少命令记忆</target>         
+          <source>Cmdlets Use Verb<ph id="ph1">\-</ph>Noun Names to Reduce Command Memorization</source>
+          <target state="translated">Cmdlet 使用谓词<ph id="ph1">\-</ph>名词的名称来减少命令记忆</target>         
         </trans-unit>
         <trans-unit id="124" translate="yes" xml:space="preserve">
-          <source>Windows PowerShell uses a "verb\-noun" naming system, where each cmdlet name consists of a standard verb hyphenated with a specific noun.</source>
-          <target state="translated">Windows PowerShell 使用“谓词-名词”命名系统，其中每个 cmdlet 名称由标准谓词、连字符、特定名词组成。</target>         
+          <source>Windows PowerShell uses a "verb<ph id="ph1">\-</ph>noun" naming system, where each cmdlet name consists of a standard verb hyphenated with a specific noun.</source>
+          <target state="translated">Windows PowerShell 使用“谓词<ph id="ph1">\-</ph>名词”命名系统，其中每个 cmdlet 名称由标准谓词、连字符、特定名词组成。</target>         
         </trans-unit>
         <trans-unit id="125" translate="yes" xml:space="preserve">
           <source>Windows PowerShell verbs are not always English verbs, but they express specific actions in Windows PowerShell.</source>
@@ -114,7 +115,7 @@
           <target state="translated">名词非常类似于任何语言中的名词，它们描述在系统管理中十分重要的特定类型的对象。</target>         
         </trans-unit>
         <trans-unit id="127" translate="yes" xml:space="preserve">
-          <source>It is easy to demonstrate how these two\-part names reduce learning effort by looking at a few examples of verbs and nouns.</source>
+          <source>It is easy to demonstrate how these two<ph id="ph1">\-</ph>part names reduce learning effort by looking at a few examples of verbs and nouns.</source>
           <target state="translated">通过查看一些谓词和名词的示例，可以很容易地演示这些包含两个部分的名称如何减少学习的负担。</target>         
         </trans-unit>
         <trans-unit id="128" translate="yes" xml:space="preserve">
@@ -122,8 +123,8 @@
           <target state="translated">名词所受限制更少，但它们应始终描述命令作用的对象。</target>         
         </trans-unit>
         <trans-unit id="129" translate="yes" xml:space="preserve">
-          <source>Windows PowerShell has commands such as <bpt id="p1">**</bpt>Get\-Process<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Stop\-Process<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Get\-Service<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Stop\-Service<ept id="p4">**</ept>.</source>
-          <target state="translated">Windows PowerShell 很多命令，例如 <bpt id="p1">**</bpt>Get-Process<ept id="p1">**</ept>、<bpt id="p2">**</bpt>Stop-Process<ept id="p2">**</ept>、<bpt id="p3">**</bpt>Get-Service<ept id="p3">**</ept> 和 <bpt id="p4">**</bpt>Stop-Service<ept id="p4">**</ept>。</target>         
+          <source>Windows PowerShell has commands such as <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Process<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Stop<ph id="ph2">\-</ph>Process<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Get<ph id="ph3">\-</ph>Service<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Stop<ph id="ph4">\-</ph>Service<ept id="p4">**</ept>.</source>
+          <target state="translated">Windows PowerShell 有很多命令，例如 <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Process<ept id="p1">**</ept>、<bpt id="p2">**</bpt>Stop<ph id="ph2">\-</ph>Process<ept id="p2">**</ept>、<bpt id="p3">**</bpt>Get<ph id="ph3">\-</ph>Service<ept id="p3">**</ept> 和 <bpt id="p4">**</bpt>Stop<ph id="ph4">\-</ph>Service<ept id="p4">**</ept>。</target>         
         </trans-unit>
         <trans-unit id="130" translate="yes" xml:space="preserve">
           <source>In the case of two nouns and two verbs, consistency does not simplify learning that much.</source>
@@ -138,51 +139,51 @@
           <target state="translated">通常情况下，你通过阅读命令的名称就可以识别命令，对新的命令该使用什么名称通常是显而易见的。</target>         
         </trans-unit>
         <trans-unit id="133" translate="yes" xml:space="preserve">
-          <source>For example, a computer shutdown command might be <bpt id="p1">**</bpt>Stop\-Computer<ept id="p1">**</ept>.</source>
-          <target state="translated">例如，计算机关机命令可能是 <bpt id="p1">**</bpt>Stop-Computer<ept id="p1">**</ept>。</target>         
+          <source>For example, a computer shutdown command might be <bpt id="p1">**</bpt>Stop<ph id="ph1">\-</ph>Computer<ept id="p1">**</ept>.</source>
+          <target state="translated">例如，计算机关机命令可能是 <bpt id="p1">**</bpt>Stop<ph id="ph1">\-</ph>Computer<ept id="p1">**</ept>。</target>         
         </trans-unit>
         <trans-unit id="134" translate="yes" xml:space="preserve">
-          <source>A command that lists all computers on a network might be <bpt id="p1">**</bpt>Get\-Computer<ept id="p1">**</ept>.</source>
-          <target state="translated">列出网络上的所有计算机的命令可能是 <bpt id="p1">**</bpt>Get-Computer<ept id="p1">**</ept>。</target>         
+          <source>A command that lists all computers on a network might be <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Computer<ept id="p1">**</ept>.</source>
+          <target state="translated">列出网络上的所有计算机的命令可能是 <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Computer<ept id="p1">**</ept>。</target>         
         </trans-unit>
         <trans-unit id="135" translate="yes" xml:space="preserve">
-          <source>The command that gets the system date is <bpt id="p1">**</bpt>Get\-Date<ept id="p1">**</ept>.</source>
-          <target state="translated">获取系统日期的命令是 <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept>。</target>         
+          <source>The command that gets the system date is <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Date<ept id="p1">**</ept>.</source>
+          <target state="translated">获取系统日期的命令是 <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Date<ept id="p1">**</ept>。</target>         
         </trans-unit>
         <trans-unit id="136" translate="yes" xml:space="preserve">
-          <source>You can list all commands that include a particular verb with the <bpt id="p1">**</bpt>\-Verb<ept id="p1">**</ept> parameter for <bpt id="p2">**</bpt>Get\-Command<ept id="p2">**</ept> (We will discuss <bpt id="p3">**</bpt>Get\-Command<ept id="p3">**</ept> in detail in the next section).</source>
-          <target state="translated">你可以使用 <bpt id="p2">**</bpt>Get-Command<ept id="p2">**</ept> 的 <bpt id="p1">**</bpt>-Verb<ept id="p1">**</ept> 参数列出包含特定谓词的所有命令（我们将在下一节中详细介绍 <bpt id="p3">**</bpt>Get-Command<ept id="p3">**</ept>）。</target>         
+          <source>You can list all commands that include a particular verb with the <bpt id="p1">**</bpt><ph id="ph1">\-</ph>Verb<ept id="p1">**</ept> parameter for <bpt id="p2">**</bpt>Get<ph id="ph2">\-</ph>Command<ept id="p2">**</ept> (We will discuss <bpt id="p3">**</bpt>Get<ph id="ph3">\-</ph>Command<ept id="p3">**</ept> in detail in the next section).</source>
+          <target state="translated">可以使用 <bpt id="p2">**</bpt>Get<ph id="ph2">\-</ph>Command<ept id="p2">**</ept> 的 <bpt id="p1">**</bpt><ph id="ph1">\-</ph>Verb<ept id="p1">**</ept> 参数列出包含特定谓词的所有命令（我们将在下一节中详细介绍 <bpt id="p3">**</bpt>Get<ph id="ph3">\-</ph>Command<ept id="p3">**</ept>）。</target>         
         </trans-unit>
         <trans-unit id="137" translate="yes" xml:space="preserve">
           <source>For example, to see all cmdlets that use the verb <bpt id="p1">**</bpt>Get<ept id="p1">**</ept>, type:</source>
           <target state="translated">例如，若要查看使用谓词 <bpt id="p1">**</bpt>Get<ept id="p1">**</ept> 的所有 cmdlet，键入：</target>         
         </trans-unit>
         <trans-unit id="138" translate="yes" xml:space="preserve">
-          <source>The <bpt id="p1">**</bpt>\-Noun<ept id="p1">**</ept> parameter is even more useful because it allows you to see a family of commands that affect the same type of object.</source>
-          <target state="translated"><bpt id="p1">**</bpt>-Noun<ept id="p1">**</ept> 参数更有用，因为它可让你查看将对同一类型的对象产生影响的命令系列。</target>         
+          <source>The <bpt id="p1">**</bpt><ph id="ph1">\-</ph>Noun<ept id="p1">**</ept> parameter is even more useful because it allows you to see a family of commands that affect the same type of object.</source>
+          <target state="translated"><bpt id="p1">**</bpt><ph id="ph1">\-</ph>Noun<ept id="p1">**</ept> 参数更有用，因为它可让你查看将对同一类型的对象产生影响的命令系列。</target>         
         </trans-unit>
         <trans-unit id="139" translate="yes" xml:space="preserve">
           <source>For example, if you want to see which commands are available for managing services, type following command:</source>
           <target state="translated">例如，如果你想要查看哪些命令可用于管理服务，请键入以下命令：</target>         
         </trans-unit>
         <trans-unit id="140" translate="yes" xml:space="preserve">
-          <source>A command is not necessarily a cmdlet, just because it has a verb\-noun naming scheme.</source>
-          <target state="translated">命令不一定是 cmdlet，只是因为命令具有谓词-名词的命名结构。</target>         
+          <source>A command is not necessarily a cmdlet, just because it has a verb<ph id="ph1">\-</ph>noun naming scheme.</source>
+          <target state="translated">命令不一定是 cmdlet，只是因为命令具有谓词<ph id="ph1">\-</ph>名词的命名结构。</target>         
         </trans-unit>
         <trans-unit id="141" translate="yes" xml:space="preserve">
-          <source>One example of a native Windows PowerShell command that is not a cmdlet but has a verb\-noun name, is the command for clearing a console window, Clear\-Host.</source>
-          <target state="translated">并非 cmdlet 但具有谓词-名词名称的本地 Windows PowerShell 命令的一个例子为，用于清除控制台窗口的命令：Clear-Host。</target>         
+          <source>One example of a native Windows PowerShell command that is not a cmdlet but has a verb<ph id="ph1">\-</ph>noun name, is the command for clearing a console window, Clear<ph id="ph2">\-</ph>Host.</source>
+          <target state="translated">并非 cmdlet 但具有谓词<ph id="ph1">\-</ph>名词名称的本机 Windows PowerShell 命令的一个例子为，用于清除控制台窗口的命令：Clear<ph id="ph2">\-</ph>Host。</target>         
         </trans-unit>
         <trans-unit id="142" translate="yes" xml:space="preserve">
-          <source>The Clear\-Host command is actually an internal function, as you can see if you run Get\-Command against it:</source>
-          <target state="translated">Clear-Host 命令实际上是内部函数，如果你对其运行 Get-Command 便可知道：</target>         
+          <source>The Clear<ph id="ph1">\-</ph>Host command is actually an internal function, as you can see if you run Get<ph id="ph2">\-</ph>Command against it:</source>
+          <target state="translated">Clear<ph id="ph1">\-</ph>Host 命令实际上是内部函数，如果对其运行 Get<ph id="ph2">\-</ph>Command 便可知道：</target>         
         </trans-unit>
         <trans-unit id="143" translate="yes" xml:space="preserve">
           <source>Cmdlets Use Standard Parameters</source>
           <target state="translated">Cmdlet 使用标准参数</target>         
         </trans-unit>
         <trans-unit id="144" translate="yes" xml:space="preserve">
-          <source>As noted earlier, commands used in traditional command\-line interfaces do not generally have consistent parameter names.</source>
+          <source>As noted earlier, commands used in traditional command<ph id="ph1">\-</ph>line interfaces do not generally have consistent parameter names.</source>
           <target state="translated">如前文所述，在传统命令行接口中使用的命令通常没有一致的参数名称。</target>         
         </trans-unit>
         <trans-unit id="145" translate="yes" xml:space="preserve">
@@ -190,11 +191,11 @@
           <target state="translated">有时参数根本没有名称。</target>         
         </trans-unit>
         <trans-unit id="146" translate="yes" xml:space="preserve">
-          <source>When they do, they are often single\-character or abbreviated words that can be typed rapidly but are not easily understood by new users.</source>
-          <target state="translated">若有名称，通常是可以快速输入但对新用户来说不能轻松理解的单个字符或缩写词。</target>         
+          <source>When they do, they are often single<ph id="ph1">\-</ph>character or abbreviated words that can be typed rapidly but are not easily understood by new users.</source>
+          <target state="translated">若有名称，通常是可以快速输入但对新用户来说不易于理解的单个字符或缩写词。</target>         
         </trans-unit>
         <trans-unit id="147" translate="yes" xml:space="preserve">
-          <source>Unlike most other traditional command\-line interfaces, Windows PowerShell processes parameters directly, and it uses this direct access to the parameters along with developer guidance to standardize parameter names.</source>
+          <source>Unlike most other traditional command<ph id="ph1">\-</ph>line interfaces, Windows PowerShell processes parameters directly, and it uses this direct access to the parameters along with developer guidance to standardize parameter names.</source>
           <target state="translated">不同于大多数其他传统的命令行接口，Windows PowerShell 直接处理参数，并使用参数的这种直接访问权限以及开发人员指南标准化参数名称。</target>         
         </trans-unit>
         <trans-unit id="148" translate="yes" xml:space="preserve">
@@ -202,12 +203,12 @@
           <target state="translated">尽管这样并不保证每个 cmdlet 将始终符合标准，但还是备受鼓舞。</target>         
         </trans-unit>
         <trans-unit id="149" translate="yes" xml:space="preserve">
-          <source>Parameter names always have a '\-' prepended to them when you use them, to allow Windows PowerShell to clearly identify them as parameters.</source>
-          <target state="translated">使用时，参数名始终具有一个预置的“-”，以允许 Windows PowerShell 清楚地将它们标识为参数。</target>         
+          <source>Parameter names always have a '<ph id="ph1">\-</ph>' prepended to them when you use them, to allow Windows PowerShell to clearly identify them as parameters.</source>
+          <target state="translated">使用时，参数名始终具有一个预置的“<ph id="ph1">\-</ph>”，以允许 Windows PowerShell 清楚地将它们标识为参数。</target>         
         </trans-unit>
         <trans-unit id="150" translate="yes" xml:space="preserve">
-          <source>In the <bpt id="p1">**</bpt>Get\-Command \-Name Clear\-Host<ept id="p1">**</ept> example, the parameter's name is <bpt id="p2">**</bpt>Name<ept id="p2">**</ept>, but it is entered as \-<bpt id="p3">**</bpt>Name<ept id="p3">**</ept>.</source>
-          <target state="translated">在 <bpt id="p1">**</bpt>Get-Command -Name Clear-Host<ept id="p1">**</ept> 示例中，参数的名称为 <bpt id="p2">**</bpt>Name<ept id="p2">**</ept>，但输入时为 -<bpt id="p3">**</bpt>Name<ept id="p3">**</ept></target>         
+          <source>In the <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Command <ph id="ph2">\-</ph>Name Clear<ph id="ph3">\-</ph>Host<ept id="p1">**</ept> example, the parameter's name is <bpt id="p2">**</bpt>Name<ept id="p2">**</ept>, but it is entered as <ph id="ph4">\-</ph><bpt id="p3">**</bpt>Name<ept id="p3">**</ept>.</source>
+          <target state="translated">在 <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Command <ph id="ph2">\-</ph>Name Clear<ph id="ph3">\-</ph>Host<ept id="p1">**</ept> 示例中，参数的名称为 <bpt id="p2">**</bpt>Name<ept id="p2">**</ept>，但输入时为 <ph id="ph4">\-</ph><bpt id="p3">**</bpt>Name<ept id="p3">**</ept>。</target>         
         </trans-unit>
         <trans-unit id="151" translate="yes" xml:space="preserve">
           <source>Here are some of the general characteristics of the standard parameter names and usages.</source>
@@ -218,8 +219,8 @@
           <target state="translated">帮助参数 (?)</target>         
         </trans-unit>
         <trans-unit id="153" translate="yes" xml:space="preserve">
-          <source>When you specify the <bpt id="p1">**</bpt>\-?<ept id="p1">**</ept></source>
-          <target state="translated">当你指定 <bpt id="p1">**</bpt>-?<ept id="p1">**</ept></target>         
+          <source>When you specify the <bpt id="p1">**</bpt><ph id="ph1">\-</ph>?<ept id="p1">**</ept></source>
+          <target state="translated">指定 <bpt id="p1">**</bpt><ph id="ph1">\-</ph>?<ept id="p1">**</ept></target>         
         </trans-unit>
         <trans-unit id="154" translate="yes" xml:space="preserve">
           <source>parameter to any cmdlet, the cmdlet is not executed.</source>
@@ -235,7 +236,7 @@
         </trans-unit>
         <trans-unit id="157" translate="yes" xml:space="preserve">
           <source>Windows PowerShell has several parameters known as <bpt id="p1">*</bpt>common parameters<ept id="p1">*</ept>.</source>
-          <target state="translated">Windows PowerShell 具有一些名为“通用参数”的参数。</target>         
+          <target state="translated">Windows PowerShell 具有一些名为“通用参数”的参数。<bpt id="p1">*</bpt><ept id="p1">*</ept></target>         
         </trans-unit>
         <trans-unit id="158" translate="yes" xml:space="preserve">
           <source>Because these parameters are controlled by the Windows PowerShell engine, whenever they are implemented by a cmdlet, they will always behave the same way.</source>
