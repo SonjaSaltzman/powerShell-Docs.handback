@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">98a8a8f27661042bef27d0edceccf9a67c9153d1</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\dsc_statestatus.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Unified and Consistent State and Status Representation</source>
+          <target state="translated">統一された一貫性のある状態とステータスの表現</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A series of enhancements have been made in this release for automations built LCM state and DSC status.</source>
+          <target state="translated">今回のリリースでは、LCM 状態と DSC ステータスのビルドの自動化に対して、一連の拡張機能が加えられました。</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>These include unified and consistent state and status representations, manageable datetime property of status objects returned by Get-DscConfigurationStatus cmdlet and enhanced LCM state details property returned by Get-DscLocalConfigurationManager cmdlet.</source>
+          <target state="translated">これには、統一された一貫性のある状態とステータスの表現、Get-DscConfigurationStatus コマンドレットから返されるステータス オブジェクトの管理しやすい日時プロパティ、Get-DscLocalConfigurationManager コマンドレットから返される拡張された LCM 状態の詳細プロパティが含まれます。</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The representation of LCM state and DSC operation status are revisited and unified according to following rules:</source>
+          <target state="translated">LCM 状態と DSC 操作ステータスの形式を再検討し、次の規則に従って統合されました。</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Notprocessed resource does not impact LCM state and DSC status.</source>
+          <target state="translated">未処理のリソースは、LCM 状態と DSC ステータスに影響を与えません。</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>LCM stop processing further resources once it encounters a resource that requests reboot.</source>
+          <target state="translated">LCM は、再起動を要求するリソースに到達すると、リソースの処理を停止します。</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>A resource that requests reboot is not in desired state until reboot actually happens.</source>
+          <target state="translated">再起動を要求するリソースは、再起動が実際に発生するまで、必要な状態になりません。</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>After encountering a resource that fails, LCM keeps processing further resources as long as they are not dependent on the failure one.</source>
+          <target state="translated">失敗したリソースを検出した場合は、そのリソースに依存していない限り、LCM は他のリソースの処理を続けます。</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The overall status returned by Get-DscConfigurationStatus cmdlet is the super set of all resources’ status.</source>
+          <target state="translated">Get-DscConfigurationStatus コマンドレットによって返される状態の全体は、すべてのリソースのステータスのスーパー セットです。</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The PendingReboot state is a superset of PendingConfiguration state.</source>
+          <target state="translated">PendingReboot 状態は、PendingConfiguration 状態のスーパーセットです。</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The table below illustrates the resultant state and status related properties under a few typical scenarios.</source>
+          <target state="translated">次の表は、いくつかの一般的なシナリオでのプロパティに関連した状態とステータスの結果を示しています。</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Scenario</source>
+          <target state="translated">シナリオ</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>LCMState</source>
+          <target state="translated">LCMState</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <target state="translated">状態</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Reboot Requested</source>
+          <target state="translated">Reboot Requested</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>ResourcesInDesiredState</source>
+          <target state="translated">ResourcesInDesiredState</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>ResourcesNotInDesiredState</source>
+          <target state="translated">ResourcesNotInDesiredState</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>S<bpt id="p1">**</bpt><ph id="ph1">^</ph><ept id="p1">**</ept></source>
+          <target state="translated">S<bpt id="p1">**</bpt><ph id="ph1">^</ph><ept id="p1">**</ept></target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Idle</source>
+          <target state="translated">アイドル</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Success</source>
+          <target state="translated">成功</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>$false</source>
+          <target state="translated">$false</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>S</source>
+          <target state="translated">S</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>$null</source>
+          <target state="translated">$null</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>F<bpt id="p1">**</bpt><ph id="ph1">^</ph><ept id="p1">**</ept></source>
+          <target state="translated">F<bpt id="p1">**</bpt><ph id="ph1">^</ph><ept id="p1">**</ept></target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>PendingConfiguration</source>
+          <target state="translated">PendingConfiguration</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Failure</source>
+          <target state="translated">障害</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>$false</source>
+          <target state="translated">$false</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>$null</source>
+          <target state="translated">$null</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>F</source>
+          <target state="translated">F</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>S,F</source>
+          <target state="translated">S、F</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>PendingConfiguration</source>
+          <target state="translated">PendingConfiguration</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Failure</source>
+          <target state="translated">障害</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>$false</source>
+          <target state="translated">$false</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>S</source>
+          <target state="translated">S</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>F</source>
+          <target state="translated">F</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>F,S</source>
+          <target state="translated">F、S</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>PendingConfiguration</source>
+          <target state="translated">PendingConfiguration</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Failure</source>
+          <target state="translated">障害</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>$false</source>
+          <target state="translated">$false</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>S</source>
+          <target state="translated">S</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>F</source>
+          <target state="translated">F</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>S<ph id="ph1">&lt;sub&gt;</ph>1<ph id="ph2">&lt;/sub&gt;</ph>, F, S<ph id="ph3">&lt;sub&gt;</ph>2</source>
+          <target state="translated">S<ph id="ph1">&lt;sub&gt;</ph>1<ph id="ph2">&lt;/sub&gt;</ph>、F、S<ph id="ph3">&lt;sub&gt;</ph>2</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>PendingConfiguration</source>
+          <target state="translated">PendingConfiguration</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Failure</source>
+          <target state="translated">障害</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>$false</source>
+          <target state="translated">$false</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>S<ph id="ph1">&lt;sub&gt;</ph>1<ph id="ph2">&lt;/sub&gt;</ph>, S<ph id="ph3">&lt;sub&gt;</ph>2</source>
+          <target state="translated">S<ph id="ph1">&lt;sub&gt;</ph>1<ph id="ph2">&lt;/sub&gt;</ph>、S<ph id="ph3">&lt;sub&gt;</ph>2</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>F</source>
+          <target state="translated">F</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>F<ph id="ph1">&lt;sub&gt;</ph>1<ph id="ph2">&lt;/sub&gt;</ph>, S, F<ph id="ph3">&lt;sub&gt;</ph>2</source>
+          <target state="translated">F<ph id="ph1">&lt;sub&gt;</ph>1<ph id="ph2">&lt;/sub&gt;</ph>、S、F<ph id="ph3">&lt;sub&gt;</ph>2</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>PendingConfiguration</source>
+          <target state="translated">PendingConfiguration</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Failure</source>
+          <target state="translated">障害</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>$false</source>
+          <target state="translated">$false</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>S</source>
+          <target state="translated">S</target>         
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>F<ph id="ph1">&lt;sub&gt;</ph>1<ph id="ph2">&lt;/sub&gt;</ph>, F<ph id="ph3">&lt;sub&gt;</ph>2</source>
+          <target state="translated">F<ph id="ph1">&lt;sub&gt;</ph>1<ph id="ph2">&lt;/sub&gt;</ph>、F<ph id="ph3">&lt;sub&gt;</ph>2</target>         
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>S, r</source>
+          <target state="translated">S、r</target>         
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>PendingReboot</source>
+          <target state="translated">PendingReboot</target>         
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Success</source>
+          <target state="translated">成功</target>         
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>$true</source>
+          <target state="translated">$true</target>         
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>S</source>
+          <target state="translated">S</target>         
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>r</source>
+          <target state="translated">r</target>         
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>F, r</source>
+          <target state="translated">F、r</target>         
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>PendingReboot</source>
+          <target state="translated">PendingReboot</target>         
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Failure</source>
+          <target state="translated">障害</target>         
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>$true</source>
+          <target state="translated">$true</target>         
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>$null</source>
+          <target state="translated">$null</target>         
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>F, r</source>
+          <target state="translated">F、r</target>         
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>r, S</source>
+          <target state="translated">r、S</target>         
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>PendingReboot</source>
+          <target state="translated">PendingReboot</target>         
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Success</source>
+          <target state="translated">成功</target>         
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>$true</source>
+          <target state="translated">$true</target>         
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>$null</source>
+          <target state="translated">$null</target>         
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>r</source>
+          <target state="translated">r</target>         
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>r, F</source>
+          <target state="translated">r、F</target>         
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>PendingReboot</source>
+          <target state="translated">PendingReboot</target>         
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Success</source>
+          <target state="translated">成功</target>         
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>$true</source>
+          <target state="translated">$true</target>         
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>$null</source>
+          <target state="translated">$null</target>         
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>r</source>
+          <target state="translated">r</target>         
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>S<ph id="ph1">&lt;sub&gt;</ph>i<ph id="ph2">&lt;/sub&gt;</ph>: A series of resources that applied successfully F<ph id="ph3">&lt;sub&gt;</ph>i<ph id="ph4">&lt;/sub&gt;</ph>: A series of resources that applied unsuccessfully r: A resource that requires reboot</source>
+          <target state="translated">S<ph id="ph1">&lt;sub&gt;</ph>i<ph id="ph2">&lt;/sub&gt;</ph>: 一連のリソースが正常に適用された F<ph id="ph3">&lt;sub&gt;</ph>i<ph id="ph4">&lt;/sub&gt;</ph>: 一連のリソースの適用に失敗した r: 再起動が必要なリソース</target>         
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Enhancement in Get-DscConfigurationStatus cmdlet</source>
+          <target state="translated">Get-DscConfigurationStatus コマンドレットの機能拡張</target>         
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>A few enhancements have been made to Get-DscConfigurationStatus cmdlet in this release.</source>
+          <target state="translated">このリリースでは、Get-DscConfigurationStatus コマンドレットのいくつかの機能が拡張されました。</target>         
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Previously, the StartDate property of objects returned by the cmdlet is of String type.</source>
+          <target state="translated">以前は、コマンドレットによって返されるオブジェクトの StartDate プロパティは文字列型でした。</target>         
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Now, it is of Datetime type, which enables complex selecting and filtering easier based on the intrinsic properties of a Datetime object.</source>
+          <target state="translated">今では、Datetime 型になったため、Datetime オブジェクトに備わっているプロパティに基づいて複雑な選択やフィルター処理を実行できるようになりました。</target>         
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Following is an example that returns all DSC operation records happened on the same day of week as today.</source>
+          <target state="translated">今日と同じ曜日に発生したすべての DSC 操作レコードを返す例を次に示します。</target>         
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Records of operations that do not make changes to node’s configuration (i.e. read only operations) are eliminated.</source>
+          <target state="translated">ノードの構成を変更しない操作 (つまり、読み取り専用の操作) のレコードは除外されます。</target>         
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Therefore, Test-DscConfiguration, Get-DscConfiguration operations are no longer adulterated in returned objects from Get-DscConfigurationStatus cmdlet.</source>
+          <target state="translated">そのため、Get-DscConfigurationStatus コマンドレットから返されるオブジェクトに Test-DscConfiguration 操作と Get-DscConfiguration 操作が混入されなくなりました。</target>         
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Records of meta configuration setting operation is added to the return of Get-DscConfigurationStatus cmdlet.</source>
+          <target state="translated">メタ構成の設定操作のレコードが Get-DscConfigurationStatus コマンドレットの戻り値に追加されます。</target>         
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Following is an example of result returned from Get-DscConfigurationStatus –All cmdlet.</source>
+          <target state="translated">次の例は、Get-DscConfigurationStatus –All コマンドレットから返される結果を示しています。</target>         
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Enhancement in Get-DscLocalConfigurationManager cmdlet</source>
+          <target state="translated">Get-DscLocalConfigurationManager コマンドレットの機能拡張</target>         
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>A new field of LCMStateDetail is added to the object returned from Get-DscLocalConfigurationManager cmdlet.</source>
+          <target state="translated">Get-DscLocalConfigurationManager コマンドレットから返されるオブジェクトに、新しい LCMStateDetail フィールドが追加されました。</target>         
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>This field is populated when LCMState is “Busy”.</source>
+          <target state="translated">このフィールドは、LCMState が "ビジー" の時にデータが設定されます。</target>         
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>It can be retrieved by following cmdlet:</source>
+          <target state="translated">これは、次のコマンドレットで取得できます。</target>         
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Following is an example output of a continuous monitoring on a configuration that requires two reboots on a remote node.</source>
+          <target state="translated">リモート ノードで 2 回のリブートを必要とする構成を継続的に監視した場合の出力の例を次に示します。</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

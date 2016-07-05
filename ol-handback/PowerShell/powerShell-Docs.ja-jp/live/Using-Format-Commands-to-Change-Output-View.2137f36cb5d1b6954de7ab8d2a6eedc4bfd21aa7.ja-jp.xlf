@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">411923bac650f0f4a11808a86acaca1de7e1c076</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Using-Format-Commands-to-Change-Output-View.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Using Format Commands to Change Output View</source>
+          <target state="translated">Format コマンドを使用した出力ビューの変更</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Using Format Commands to Change Output View</source>
+          <target state="translated">Format コマンドを使用した出力ビューの変更</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell has a set of cmdlets that allow you to control which properties are displayed for particular objects.</source>
+          <target state="translated">Windows PowerShell には、特定のオブジェクトのプロパティの表示を制御するためのコマンドレットのセットがあります。</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The names of all the cmdlets begin with the verb <bpt id="p1">**</bpt>Format<ept id="p1">**</ept>.</source>
+          <target state="translated">すべてのコマンドレットの名前は、動詞 <bpt id="p1">**</bpt>Format<ept id="p1">**</ept> から始まります。</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>They let you select one or more properties to show.</source>
+          <target state="translated">表示するプロパティを 1 つ以上選択できます。</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Format<ept id="p1">**</ept> cmdlets are <bpt id="p2">**</bpt>Format<ph id="ph1">\-</ph>Wide<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Format<ph id="ph2">\-</ph>List<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Format<ph id="ph3">\-</ph>Table<ept id="p4">**</ept>, and <bpt id="p5">**</bpt>Format<ph id="ph4">\-</ph>Custom<ept id="p5">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Format<ept id="p1">**</ept> コマンドレットとしては、<bpt id="p2">**</bpt>Format<ph id="ph1">\-</ph>Wide<ept id="p2">**</ept>、<bpt id="p3">**</bpt>Format<ph id="ph2">\-</ph>List<ept id="p3">**</ept>、<bpt id="p4">**</bpt>Format<ph id="ph3">\-</ph>Table<ept id="p4">**</ept>、<bpt id="p5">**</bpt>Format<ph id="ph4">\-</ph>Custom<ept id="p5">**</ept> があります。</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>We will only describe the <bpt id="p1">**</bpt>Format<ph id="ph1">\-</ph>Wide<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Format<ph id="ph2">\-</ph>List<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Format<ph id="ph3">\-</ph>Table<ept id="p3">**</ept> cmdlets in this user's guide.</source>
+          <target state="translated">このユーザー ガイドでは、<bpt id="p1">**</bpt>Format<ph id="ph1">\-</ph>Wide<ept id="p1">**</ept>、<bpt id="p2">**</bpt>Format<ph id="ph2">\-</ph>List<ept id="p2">**</ept>、<bpt id="p3">**</bpt>Format<ph id="ph3">\-</ph>Table<ept id="p3">**</ept> コマンドレットについてのみ説明します。</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Each format cmdlet has default properties that will be used if you do not specify specific properties to display.</source>
+          <target state="translated">各 Format コマンドレットには、表示する特定のプロパティを指定しない場合に使用される既定のプロパティがあります。</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Each cmdlet also uses the same parameter name, <bpt id="p1">**</bpt>Property<ept id="p1">**</ept>, to specify which properties you want to display.</source>
+          <target state="translated">どのコマンドレットでも、同じパラメーター名 <bpt id="p1">**</bpt>Property<ept id="p1">**</ept> を使用して、表示するプロパティを指定します。</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Because <bpt id="p1">**</bpt>Format<ph id="ph1">\-</ph>Wide<ept id="p1">**</ept> only shows a single property, its <bpt id="p2">**</bpt>Property<ept id="p2">**</ept> parameter only takes a single value, but the property parameters of <bpt id="p3">**</bpt>Format<ph id="ph2">\-</ph>List<ept id="p3">**</ept> and <bpt id="p4">**</bpt>Format<ph id="ph3">\-</ph>Table<ept id="p4">**</ept> will accept a list of property names.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Format<ph id="ph1">\-</ph>Wide<ept id="p1">**</ept> はプロパティを 1 つだけ表示するため、その <bpt id="p2">**</bpt>Property<ept id="p2">**</ept> パラメーターには値を 1 つだけ設定します。ただし、<bpt id="p3">**</bpt>Format<ph id="ph2">\-</ph>List<ept id="p3">**</ept> と <bpt id="p4">**</bpt>Format<ph id="ph3">\-</ph>Table<ept id="p4">**</ept> の Property パラメーターには、プロパティ名のリストを使用できます。</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If you use the command <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Process <ph id="ph2">\-</ph>Name powershell<ept id="p1">**</ept> with two instances of Windows PowerShell running, you get output that looks like this:</source>
+          <target state="translated">Windows PowerShell のインスタンスを 2 つ実行してコマンド <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Process<ph id="ph2">\-</ph>Name powershell<ept id="p1">**</ept> を使用すると、次のような出力が得られます。</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In the rest of this section, we will explore how to use <bpt id="p1">**</bpt>Format<ept id="p1">**</ept> cmdlets to change the way the output of this command is displayed.</source>
+          <target state="translated">このセクションの残りの部分で、このコマンドの出力の表示の仕方を <bpt id="p1">**</bpt>Format<ept id="p1">**</ept> コマンドレットを使用して変更する方法について解説します。</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Using Format<ph id="ph1">\-</ph>Wide for Single<ph id="ph2">\-</ph>Item Output</source>
+          <target state="translated">単一項目出力のための Format<ph id="ph1">\-</ph>Wide の使用<ph id="ph2">\-</ph></target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Format<ph id="ph1">\-</ph>Wide<ept id="p1">**</ept> cmdlet, by default, displays only the default property of an object.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Format<ph id="ph1">\-</ph>Wide<ept id="p1">**</ept> コマンドレットは、既定では、オブジェクトの既定プロパティのみ表示します。</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The information associated with each object is displayed in a single column:</source>
+          <target state="translated">各オブジェクトに関連付けられている情報が、1 つの列に表示されます。</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can also specify a non<ph id="ph1">\-</ph>default property:</source>
+          <target state="translated">既定以外のプロパティを指定することもできます。<ph id="ph1">\-</ph></target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Controlling Format<ph id="ph1">\-</ph>Wide Display with Column</source>
+          <target state="translated">列による Format<ph id="ph1">\-</ph>Wide 表示の制御</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>With the <bpt id="p1">**</bpt>Format<ph id="ph1">\-</ph>Wide<ept id="p1">**</ept> cmdlet, you can only display a single property at a time.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Format<ph id="ph1">\-</ph>Wide<ept id="p1">**</ept> コマンドレットでは、一度に表示できるプロパティは 1 つだけです。</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This makes it useful for displaying simple lists that show only one element per line.</source>
+          <target state="translated">これは、1 行に要素が 1 つだけ示される単純なリストを表示する場合に便利です。</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To get a simple listing, set the value of the <bpt id="p1">**</bpt>Column<ept id="p1">**</ept> parameter to 1 by typing:</source>
+          <target state="translated">単純なリスト表示にするには、<bpt id="p1">**</bpt>Column<ept id="p1">**</ept> パラメーターの値を 1 に設定します。次のように入力します。</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Using Format<ph id="ph1">\-</ph>List for a List View</source>
+          <target state="translated">リスト ビューのための Format-List の使用<ph id="ph1">\-</ph></target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Format<ph id="ph1">\-</ph>List<ept id="p1">**</ept> cmdlet displays an object in the form of a listing, with each property labeled and displayed on a separate line:</source>
+          <target state="translated"><bpt id="p1">**</bpt>Format<ph id="ph1">\-</ph>List<ept id="p1">**</ept> コマンドレットは、リストの形式でオブジェクトを表示します。各プロパティはラベル付けされ、別々の行に表示されます。</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You can specify as many properties as you want:</source>
+          <target state="translated">必要な数だけプロパティを指定できます。</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Getting Detailed Information by Using Format<ph id="ph1">\-</ph>List with Wildcards</source>
+          <target state="translated">Format<ph id="ph1">\-</ph>List でワイルドカードを使用して詳細情報を取得する</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Format<ph id="ph1">\-</ph>List<ept id="p1">**</ept> cmdlet lets you use a wildcard as the value of its <bpt id="p2">**</bpt>Property<ept id="p2">**</ept> parameter.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Format<ph id="ph1">\-</ph>List<ept id="p1">**</ept> コマンドレットでは、その <bpt id="p2">**</bpt>Property<ept id="p2">**</ept> パラメーターの値としてワイルドカードを使用できます。</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This lets you display detailed information.</source>
+          <target state="translated">こうすることで、詳細情報を表示できます。</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Often, objects include more information than you need, which is why Windows PowerShell does not show all property values by default.</source>
+          <target state="translated">多くの場合、オブジェクトには必要以上の情報が含まれています。既定では Windows PowerShell がすべてのプロパティ値は表示しないのはそのためです。</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To show all of properties of an object, use the <bpt id="p1">**</bpt>Format<ph id="ph1">\-</ph>List <ph id="ph2">\-</ph>Property <ph id="ph3">\&amp;</ph>#42;<ept id="p1">**</ept> command.</source>
+          <target state="translated">オブジェクトのプロパティをすべて表示するには、<bpt id="p1">**</bpt>Format<ph id="ph1">\-</ph>List <ph id="ph2">\-</ph>Property <ph id="ph3">\&amp;</ph>#42;<ept id="p1">**</ept> コマンドを使用します。</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The following command generates over 60 lines of output for a single process:</source>
+          <target state="translated">次のコマンドは、1 つのプロセスについて 60 行を超える出力を生成します。</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Although the <bpt id="p1">**</bpt>Format<ph id="ph1">\-</ph>List<ept id="p1">**</ept> command is useful for showing detail, if you want an overview of output that includes many items, a simpler tabular view is often more useful.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Format<ph id="ph1">\-</ph>List<ept id="p1">**</ept> コマンドは詳細の表示に役立ちますが、項目が多数含まれる出力の概要が必要な場合は、より単純な表形式ビューの方がしばしば好都合です。</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Using Format<ph id="ph1">\-</ph>Table for Tabular Output</source>
+          <target state="translated">表形式出力のための Format<ph id="ph1">\-</ph>Table の使用</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">**</bpt>Format<ph id="ph1">\-</ph>Table<ept id="p1">**</ept> cmdlet with no property names specified to format the output of the <bpt id="p2">**</bpt>Get<ph id="ph2">\-</ph>Process<ept id="p2">**</ept> command, you get exactly the same output as you do without performing any formatting.</source>
+          <target state="translated">プロパティ名を指定せずに <bpt id="p1">**</bpt>Format<ph id="ph1">\-</ph>Table<ept id="p1">**</ept> コマンドレットを使用して <bpt id="p2">**</bpt>Get<ph id="ph2">\-</ph>Process<ept id="p2">**</ept> コマンドの出力を書式設定した場合は、書式設定を行わない場合とまったく同じ出力になります。</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The reason is that processes are usually displayed in a tabular format, as are most Windows PowerShell objects.</source>
+          <target state="translated">その理由は、ほとんどの Windows PowerShell オブジェクトがそうであるように、プロセスは通常、表形式で表示されるからです。</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Improving Format<ph id="ph1">\-</ph>Table Output (AutoSize)</source>
+          <target state="translated">Format<ph id="ph1">\-</ph>Table 出力の改善 (AutoSize)</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Although a tabular view is useful for displaying a lot of comparable information, it may be difficult to interpret if the display is too narrow for the data.</source>
+          <target state="translated">表形式ビューは比較情報を大量に表示するには便利ですが、データの表示幅が狭すぎる場合は解釈しにくいことがあります。</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For example, if you try to display process path, ID, name, and company, you get truncated output for the process path and the company column:</source>
+          <target state="translated">たとえば、プロセス パス、ID、名前、および会社を表示しようとすると、プロセス パスと会社の列の出力が切り捨てられます。</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If you specify the <bpt id="p1">**</bpt>AutoSize<ept id="p1">**</ept> parameter when you run the <bpt id="p2">**</bpt>Format<ph id="ph1">\-</ph>Table<ept id="p2">**</ept> command, Windows PowerShell will calculate column widths based on the actual data you are going to display.</source>
+          <target state="translated"><bpt id="p2">**</bpt>Format<ph id="ph1">\-</ph>Table<ept id="p2">**</ept> コマンドを実行するときに <bpt id="p1">**</bpt>AutoSize<ept id="p1">**</ept> パラメーターを指定すると、Windows PowerShell は、表示される実際のデータに基づいて、列の幅を計算します。</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This makes the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> column readable, but the company column remains truncated:</source>
+          <target state="translated">これによって <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> 列は読み取れるようになりますが、会社列は切り捨てられたままです。</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Format<ph id="ph1">\-</ph>Table<ept id="p1">**</ept> cmdlet might still truncate data, but it will only do so at the end of the screen.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Format<ph id="ph1">\-</ph>Table<ept id="p1">**</ept> コマンドレットはデータを切り捨てることもありますが、それが行われるのは画面の端だけです。</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Properties, other than the last one displayed, are given as much size as they need for their longest data element to display correctly.</source>
+          <target state="translated">最後に表示されるもの以外のプロパティには、最長データ要素が正しく表示されるために必要なだけのサイズが与えられます。</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>You can see that company name is visible but path is truncated if you swap the locations of <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Company<ept id="p2">**</ept> in the <bpt id="p3">**</bpt>Property<ept id="p3">**</ept> value list:</source>
+          <target state="translated"><bpt id="p3">**</bpt>Property<ept id="p3">**</ept> 値リストで <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> と <bpt id="p2">**</bpt>Company<ept id="p2">**</ept> の場所を入れ替えると、その会社名が表示されるようになりますが、パスは切り捨てられます。</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Format<ph id="ph1">\-</ph>Table<ept id="p1">**</ept> command assumes that the nearer a property is to the beginning of the property list, the more important it is.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Format<ph id="ph1">\-</ph>Table<ept id="p1">**</ept> コマンドは、プロパティ リストの先頭に近いプロパティほど重要であると見なします。</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>So it attempts to display the properties nearest the beginning completely.</source>
+          <target state="translated">したがって、先頭に最も近いプロパティを完全に表示しようとします。</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">**</bpt>Format<ph id="ph1">\-</ph>Table<ept id="p1">**</ept> command cannot display all the properties, it will remove some columns from the display and provide a warning.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Format<ph id="ph1">\-</ph>Table<ept id="p1">**</ept> コマンドがすべてのプロパティを表示できない場合は、表示から一部の列が削除され、警告が出されます。</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You can see this behavior if you make <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> the last property in the list:</source>
+          <target state="translated">この動作は、<bpt id="p1">**</bpt>Name<ept id="p1">**</ept> をリストの最後のプロパティにすれば、確認できます。</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>In the output above, the ID column is truncated to make it fit into the listing, and the column headings are stacked up.</source>
+          <target state="translated">上記の出力では、リストに収まるように ID 列が切り捨てられ、列見出しが重なっています。</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Automatically resizing the columns does not always do what you want.</source>
+          <target state="translated">列の自動サイズ変更は、常に目的どおりになるとは限りません。</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Wrapping Format<ph id="ph1">\-</ph>Table Output in Columns (Wrap)</source>
+          <target state="translated">Format<ph id="ph1">\-</ph>Table 出力の列内の折り返し (Wrap)</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>You can force lengthy <bpt id="p1">**</bpt>Format<ph id="ph1">\-</ph>Table<ept id="p1">**</ept> data to wrap within its display column by using the <bpt id="p2">**</bpt>Wrap<ept id="p2">**</ept> parameter.</source>
+          <target state="translated"><bpt id="p2">**</bpt>Wrap<ept id="p2">**</ept> パラメーターを使用して、長い <bpt id="p1">**</bpt>Format<ph id="ph1">\-</ph>Table<ept id="p1">**</ept> データをその表示列内で強制的に折り返すことができます。</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Using the <bpt id="p1">**</bpt>Wrap<ept id="p1">**</ept> parameter alone will not necessarily do what you expect, since it uses default settings if you do not also specify <bpt id="p2">**</bpt>AutoSize<ept id="p2">**</ept>:</source>
+          <target state="translated"><bpt id="p1">**</bpt>Wrap<ept id="p1">**</ept> パラメーターだけを使用した場合、必ずしも期待どおりにはなりません。同時に <bpt id="p2">**</bpt>AutoSize<ept id="p2">**</ept> も指定しなければ、既定の設定が使用されるためです。</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>An advantage of using the <bpt id="p1">**</bpt>Wrap<ept id="p1">**</ept> parameter by itself is that it does not slow down processing very much.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Wrap<ept id="p1">**</ept> パラメーターを単独で使用することの利点は、処理があまり遅くならないことです。</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>If you perform a recursive file listing of a large directory system, it might take a very long time and use a lot of memory before displaying the first output items if you use <bpt id="p1">**</bpt>AutoSize<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>AutoSize<ept id="p1">**</ept> を使用した場合、大規模なディレクトリ システムの再帰的ファイル リスト表示を実行すると、最初の出力項目が表示されるまで非常に長い時間がかかり、大量のメモリが使用されることがあります。</target>         
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If you are not concerned about system load, then <bpt id="p1">**</bpt>AutoSize<ept id="p1">**</ept> works well with the <bpt id="p2">**</bpt>Wrap<ept id="p2">**</ept> parameter.</source>
+          <target state="translated">システム負荷が気にならなければ、<bpt id="p1">**</bpt>AutoSize<ept id="p1">**</ept> は <bpt id="p2">**</bpt>Wrap<ept id="p2">**</ept> パラメーターと同時に使用した場合に効果を発揮します。</target>         
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The initial columns are always allotted as much width as they need to display items on one line, just as when you specify <bpt id="p1">**</bpt>AutoSize<ept id="p1">**</ept> without the <bpt id="p2">**</bpt>Wrap<ept id="p2">**</ept> parameter.</source>
+          <target state="translated"><bpt id="p2">**</bpt>Wrap<ept id="p2">**</ept> パラメーターなしで <bpt id="p1">**</bpt>AutoSize<ept id="p1">**</ept> を指定した場合と同様に、最初の各列には常に、各項目を 1 行に表示するために必要なだけの幅が割り当てられます。</target>         
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The only difference is that the final column will be wrapped if necessary:</source>
+          <target state="translated">唯一の違いは、必要に応じて最終的な列が折り返されることです。</target>         
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Some columns might not be displayed if you specify the widest columns first, so it is safest to specify the smallest data elements first.</source>
+          <target state="translated">最大幅の列を最初に指定すると、一部の列が表示されない場合があります。したがって、最小のデータ要素を最初に指定することが最も安全です。</target>         
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>In the following example, we specify the extremely wide path element first, and even with wrapping, we still lose the final <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> column:</source>
+          <target state="translated">次の例では、極端に幅をとるパス要素を最初に指定しています。折り返しも使用していますが、最後の <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> 列が失われています。</target>         
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Organizing Table Output (<ph id="ph1">\-</ph>GroupBy)</source>
+          <target state="translated">表出力の整理 (<ph id="ph1">\-</ph>GroupBy)</target>         
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Another useful parameter for tabular output control is <bpt id="p1">**</bpt>GroupBy<ept id="p1">**</ept>.</source>
+          <target state="translated">表形式出力制御のためのもう一つの便利なパラメーターは、<bpt id="p1">**</bpt>GroupBy<ept id="p1">**</ept> です。</target>         
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Longer tabular listings in particular may be hard to compare.</source>
+          <target state="translated">長い表形式リストは特に、比較しにくい場合があります。</target>         
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>GroupBy<ept id="p1">**</ept> parameter groups output based on a property value.</source>
+          <target state="translated"><bpt id="p1">**</bpt>GroupBy<ept id="p1">**</ept> パラメーターは、プロパティ値に基づいて出力をグループ化します。</target>         
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>For example, we can group processes by company for easier inspection, omitting the company value from the property listing:</source>
+          <target state="translated">たとえば、検査しやすくするために、プロセスを会社別にグループ化できます。この場合、会社の値をプロパティ リストに入れません。</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
