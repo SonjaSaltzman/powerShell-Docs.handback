@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">jea\multi-machine-deployment-and-maintenance.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">784806197a64eb30af1ecea4af55575434ce7b87</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-48076a9" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>multi machine deployment and maintenance</source>
+          <target state="translated">複数のコンピューターの展開と保守</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Multi-machine Deployment and Maintenance</source>
+          <target state="translated">複数のコンピューターの展開と保守</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>At this point, you have deployed JEA to local systems several times.</source>
+          <target state="translated">この時点で、JEA をローカル システムに何回か展開しています。</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Because your production environment probably consists of more than one machine, it's important to walk through the critical steps in the deployment process that must be repeated on each machine.</source>
+          <target state="translated">運用環境はおそらく複数のコンピューターで構成されているため、展開プロセスの重要な手順に従って、各コンピューターでこれらを繰り返すことが重要です。</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>High Level Steps:</source>
+          <target state="translated">大まかな手順:</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Copy your modules (with Role Capabilities) to each node.</source>
+          <target state="translated">モジュールを (ロール機能により) 各ノードにコピーします。</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Copy your session configuration files to each node.</source>
+          <target state="translated">セッション構成ファイルを各ノードにコピーします。</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Run <ph id="ph1">`Register-PSSessionConfiguration`</ph> with your session configuration.</source>
+          <target state="translated">セッション構成を使用して <ph id="ph1">`Register-PSSessionConfiguration`</ph> を実行します。</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Keep a copy of your session configuration and toolkits in a secure location.</source>
+          <target state="translated">セッション構成とツールキットのコピーを安全な場所に保管します。</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>As you make modifications, it's good to have a "single source of truth."</source>
+          <target state="translated">変更を行う際は、"信頼できる唯一の情報源" を採用することをお勧めします。</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Example Script</source>
+          <target state="translated">スクリプトの例</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Here's an example script for deployment.</source>
+          <target state="translated">配置のスクリプトの例を次に示します。</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To use it in your environment, you'll have to use the names/paths of real file shares and modules.</source>
+          <target state="translated">これを自身の環境で使用する場合、実際のファイル共有とモジュールの名前とパスを使用する必要があります。</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Modifying Capabilities</source>
+          <target state="translated">機能の変更</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When dealing with many machines, it's important that modifications are rolled out in a consistent manner.</source>
+          <target state="translated">多くのコンピューターを扱う際、一貫した方法で変更を反映させることが重要です。</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Once JEA has a DSC Resource, this will help ensure your environment is in sync.</source>
+          <target state="translated">JEA に DSC リソースがあれば、環境を同期することができます。</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Until that time, we highly recommend you keep a master copy of your session configurations and re-deploy each time you make a modification.</source>
+          <target state="translated">それまでは、セッション構成のマスター コピーを保持し、変更を加えるたびに再展開することを強くお勧めします。</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Removing Capabilities</source>
+          <target state="translated">機能の削除</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To remove your JEA configuration from your systems, use the following command on each machine:</source>
+          <target state="translated">JEA 構成をシステムから削除するには、各コンピューターで次のコマンドを使用します。</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
