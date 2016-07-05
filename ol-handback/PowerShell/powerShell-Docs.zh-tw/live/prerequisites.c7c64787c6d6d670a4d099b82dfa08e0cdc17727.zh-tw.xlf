@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">jea\prerequisites.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ac9231a475ba84e9051bbd06a65f3f20c9e49846</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-48076a9" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>prerequisites</source>
+          <target state="translated">先決條件</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+          <target state="translated">必要條件</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Initial State</source>
+          <target state="translated">初始狀態</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Before starting this section, please ensure the following:</source>
+          <target state="translated">開始本節之前，請確認下列事項︰</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>JEA is available on your system.</source>
+          <target state="translated">系統上有 JEA 可用。</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Check out the <bpt id="p1">[</bpt>README<ept id="p1">](./README.md)</ept> for the current supported operating systems and required downloads.</source>
+          <target state="translated">如需目前支援的作業系統和所需的下載項目，請參閱<bpt id="p1">[</bpt>讀我檔案<ept id="p1">](./README.md)</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You have administrative rights on the computer where you are trying out JEA.</source>
+          <target state="translated">您在要試用 JEA 的電腦上具有系統管理權限。</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The computer is domain joined.</source>
+          <target state="translated">電腦已加入網域。</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>See the <bpt id="p1">[</bpt>Creating a Domain Controller<ept id="p1">](#creating-a-domain-controller)</ept> section to quickly set up a new domain on a server if you don't already have one.</source>
+          <target state="translated">請參閱<bpt id="p1">[</bpt>建立網域控制站<ept id="p1">](#creating-a-domain-controller)</ept>一節，以快速在伺服器上設定新的網域 (如果還沒有)。</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Enable PowerShell Remoting</source>
+          <target state="translated">啟用 PowerShell 遠端</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Management with JEA occurs through PowerShell Remoting.</source>
+          <target state="translated">JEA 管理是透過 PowerShell 遠端進行。</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Run the following in an Administrator PowerShell window to ensure that this is enabled and configured properly:</source>
+          <target state="translated">在系統管理員的 PowerShell 視窗中執行下列命令，以確保這項功能已啟用且正確設定︰</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If you are unfamiliar with PowerShell remoting, it would be a good idea to run <ph id="ph1">`Get-Help about_Remote`</ph> to learn about this important foundational concept.</source>
+          <target state="translated">如果您不熟悉 PowerShell 遠端，建議執行 <ph id="ph1">`Get-Help about_Remote`</ph> 來了解此重要的基本概念。</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Identify Your Users or Groups</source>
+          <target state="translated">識別您的使用者或群組</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To show JEA in action, you need to identify the non-administrator users and groups you are going to use throughout this guide.</source>
+          <target state="translated">為了示範 JEA 的操作方式，您必須識別要在本指南中使用的非系統管理員使用者和群組。</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If you're using an existing domain, please identify or create some unprivileged users and groups.</source>
+          <target state="translated">如果您使用現有的網域，請識別或建立一些非特殊權限使用者和群組。</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You will give these non-administrators access to JEA.</source>
+          <target state="translated">您將授與 JEA 的非系統管理員存取權。</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Anytime you see the <ph id="ph1">`$NonAdministrator`</ph> variable in a top of a script, assign it to your selected non-administrator users or groups.</source>
+          <target state="translated">每當您看到 <ph id="ph1">`$NonAdministrator`</ph> 變數出現在指令碼頂端，請將它指派給您選取的非系統管理員使用者或群組。</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If you created a new domain from scratch, it's much easier.</source>
+          <target state="translated">如果您從頭開始建立新的網域，會比較容易。</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Please use the <bpt id="p1">[</bpt>Set Up Users and Groups<ept id="p1">](creating-a-domain-controller.md#set-up-users-and-groups)</ept> section in the appendix to create a non-administrator users and groups.</source>
+          <target state="translated">請使用附錄中的<bpt id="p1">[</bpt>設定使用者和群組<ept id="p1">](creating-a-domain-controller.md#set-up-users-and-groups)</ept>一節，來建立非系統管理員使用者和群組。</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The default values of <ph id="ph1">`$NonAdministrator`</ph> will be the groups created in that section.</source>
+          <target state="translated"><ph id="ph1">`$NonAdministrator`</ph> 的預設值會是在該節中建立的群組。</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Set Up Maintenance Role Capability File</source>
+          <target state="translated">設定維護角色功能檔案</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Run the following commands in PowerShell to create the demo Role Capability file we will be using for the next section.</source>
+          <target state="translated">在 PowerShell 中執行下列命令，建立我們將在下一節中使用的示範角色功能檔案。</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Later in this guide, you will learn about what this file does.</source>
+          <target state="translated">稍後在本指南中，您將了解此檔案的用途。</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Create and Register Demo Session Configuration File</source>
+          <target state="translated">建立及登錄示範工作階段設定檔</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Run the following commands to create and register the demo Session Configuration file we will be using for the next section.</source>
+          <target state="translated">執行下列命令，建立及登錄我們將在下一節中使用的示範工作階段設定檔。</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Later in this guide, you will learn about what this file does.</source>
+          <target state="translated">稍後在本指南中，您將了解此檔案的用途。</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Enable PowerShell Module Logging (Optional)</source>
+          <target state="translated">啟用 PowerShell 模組記錄 (選擇性)</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The following steps enable logging for all PowerShell actions on your system.</source>
+          <target state="translated">下列步驟可啟用系統上所有 PowerShell 動作的記錄。</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You don't need to enable this for JEA to work, but it will be useful in the <bpt id="p1">[</bpt>Reporting on JEA<ept id="p1">](reporting-on-jea.md)</ept> section.</source>
+          <target state="translated">您不需要啟用此設定就能執行 JEA，但此設定在 <bpt id="p1">[</bpt>JEA 上的報告<ept id="p1">](reporting-on-jea.md)</ept>一節中會很有用。</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Open the Local Group Policy Editor</source>
+          <target state="translated">開啟本機群組原則編輯器</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Navigate to "Computer Configuration\Administrative Templates\Windows Components\Windows PowerShell"</source>
+          <target state="translated">巡覽至 [電腦設定]\[系統管理範本]\[windows 元件]\[Windows PowerShell]</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Double Click on "Turn on Module Logging"</source>
+          <target state="translated">按兩下 [開啟模組記錄]</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Click "Enabled"</source>
+          <target state="translated">按一下 [啟用]</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>In the Options section, click on "Show" next to Module Names</source>
+          <target state="translated">在 [選項] 區段中，按一下模組名稱旁邊的 [顯示]</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Type "<ph id="ph1">\*</ph>" in the pop up window.</source>
+          <target state="translated">在快顯視窗中輸入 "<ph id="ph1">\*</ph>"。</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This means PowerShell will log commands from all modules.</source>
+          <target state="translated">這表示 PowerShell 將會記錄來自所有模組的命令。</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Click OK and apply the policy</source>
+          <target state="translated">按一下 [確定] 並套用原則</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Note: you can also enable system-wide PowerShell transcription through Group Policy.</source>
+          <target state="translated">注意︰您也可以透過 [群組原則] 啟用全系統 PowerShell 文字記錄。</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Congratulations, you have now configured your computer with the demo endpoint and are ready to get started with JEA!</source>
+          <target state="translated">恭喜，您現在已設定電腦和示範端點，並準備好開始使用 JEA！</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">654c0d5e83b9832524298b5c96eae094f371330f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\audit_script.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Script Tracing and Logging</source>
+          <target state="translated">指令碼追蹤和記錄</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>While Windows PowerShell already has the <bpt id="p1">**</bpt>LogPipelineExecutionDetails<ept id="p1">**</ept> Group Policy setting to log the invocation of cmdlets, PowerShell’s scripting language has plenty of features that you might want to log and/or audit.</source>
+          <target state="translated">雖然 Windows PowerShell 已有 <bpt id="p1">**</bpt>LogPipelineExecutionDetails<ept id="p1">**</ept> 群組原則設定會記錄 Cmdlet 的引動過程，但 PowerShell 的指令碼語言仍有許多功能，您可能想要記錄和/或稽核。</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The new Detailed Script Tracing feature lets you enable detailed tracking and analysis of Windows PowerShell scripting use on a system.</source>
+          <target state="translated">新的詳細指令碼追蹤功能可讓您啟用在系統上使用的 Windows PowerShell 指令碼詳細追蹤和分析。</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>After you enable detailed script tracing, Windows PowerShell logs all script blocks to the ETW event log, <bpt id="p1">**</bpt>Microsoft-Windows-PowerShell/Operational<ept id="p1">**</ept>.</source>
+          <target state="translated">啟用詳細指令碼追蹤後，Windows PowerShell 會將所有指令碼區塊記錄在 ETW 事件記錄檔中：<bpt id="p1">**</bpt>Microsoft-Windows-PowerShell/Operational<ept id="p1">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If a script block creates another script block (for example, a script that calls the Invoke-Expression cmdlet on a string), that resulting script block is logged as well.</source>
+          <target state="translated">如果某個指令碼區塊建立了另一個指令碼區塊 (例如，字串上稱之為 Invoke-Expression Cmdlet 的指令碼)，也會記錄產生的指令碼區塊。</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Logging of these events can be enabled through the <bpt id="p1">**</bpt>Turn on PowerShell Script Block Logging<ept id="p1">**</ept> Group Policy setting (in Administrative Templates -&gt; Windows Components -&gt; Windows PowerShell).</source>
+          <target state="translated">您可以透過 <bpt id="p1">**</bpt>[打開 PowerShell 指令碼區塊記錄]<ept id="p1">**</ept> 群組原則設定 (位於 [系統管理範本] -&gt; Windows Components -&gt; Windows PowerShell)，啟用這些事件的記錄作業。</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The events are:</source>
+          <target state="translated">這些事件為︰</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Channel</source>
+          <target state="translated">頻道</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Operational</source>
+          <target state="translated">操作</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Level</source>
+          <target state="translated">層級</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Verbose</source>
+          <target state="translated">Verbose</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Opcode</source>
+          <target state="translated">OpCode</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Create</source>
+          <target state="translated">建立</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Task</source>
+          <target state="translated">工作</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>CommandStart</source>
+          <target state="translated">CommandStart</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Keyword</source>
+          <target state="translated">關鍵字</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Runspace</source>
+          <target state="translated">Runspace</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>EventId</source>
+          <target state="translated">事件識別碼</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Engine_ScriptBlockCompiled (0x1008 = 4104)</source>
+          <target state="translated">Engine_ScriptBlockCompiled (0x1008 = 4104)</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Message</source>
+          <target state="translated">訊息</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Creating Scriptblock text (%1 of %2):</source>
+          <target state="translated">建立指令碼區塊文字 (%2 之 %1)：</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>%3</source>
+          <target state="translated">%3</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>ScriptBlock ID: %4</source>
+          <target state="translated">ScriptBlock 識別碼：%4</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The text embedded in the message is the extent of the script block compiled.</source>
+          <target state="translated">訊息中的內嵌文字是編譯的指令碼區塊範圍。</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The ID is a GUID that is retained for the life of the script block.</source>
+          <target state="translated">識別碼是保留給指令碼區塊存留期的 GUID。</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>When you enable verbose logging, the feature writes begin and end markers:</source>
+          <target state="translated">當您啟用詳細資訊記錄時，此功能會寫入開始和結束標記︰</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Channel</source>
+          <target state="translated">頻道</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Operational</source>
+          <target state="translated">操作</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Level</source>
+          <target state="translated">層級</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Verbose</source>
+          <target state="translated">Verbose</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Opcode</source>
+          <target state="translated">OpCode</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Open (/ Close)</source>
+          <target state="translated">開啟 (/ 關閉)</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Task</source>
+          <target state="translated">工作</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>CommandStart (/ CommandStop)</source>
+          <target state="translated">CommandStart (/ CommandStop)</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Keyword</source>
+          <target state="translated">關鍵字</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Runspace</source>
+          <target state="translated">Runspace</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>EventId</source>
+          <target state="translated">事件識別碼</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>ScriptBlock<ph id="ph1">\_</ph>Invoke<ph id="ph2">\_</ph>Start<ph id="ph3">\_</ph>Detail (0x1009 = 4105) /</source>
+          <target state="translated">ScriptBlock<ph id="ph1">\_</ph>Invoke<ph id="ph2">\_</ph>Start<ph id="ph3">\_</ph>Detail (0x1009 = 4105) /</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>ScriptBlock<ph id="ph1">\_</ph>Invoke<ph id="ph2">\_</ph>Complete<ph id="ph3">\_</ph>Detail (0x100A = 4106)</source>
+          <target state="translated">ScriptBlock<ph id="ph1">\_</ph>Invoke<ph id="ph2">\_</ph>Complete<ph id="ph3">\_</ph>Detail (0x100A = 4106)</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Message</source>
+          <target state="translated">訊息</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Started (/ Completed) invocation of ScriptBlock ID: %1</source>
+          <target state="translated">已啟動 (/ 已完成) ScriptBlock 識別碼的引動過程：%1</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Runspace ID: %2</source>
+          <target state="translated">Runspace 識別碼：%2</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The ID is the GUID representing the script block (that can be correlated with event ID 0x1008), and the Runspace ID represents the runspace in which this script block was run.</source>
+          <target state="translated">識別碼是代表指令碼區塊的 GUID (可與事件識別碼 0x1008 相互關聯)，Runspace 識別碼則代表之前執行這個指令碼區塊的 Runspace。</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Percent signs in the invocation message represent structured ETW properties.</source>
+          <target state="translated">引動過程訊息中的百分比符號代表結構化的 ETW 屬性。</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>While they are replaced with the actual values in the message text, a more robust way to access them is to retrieve the message with the Get-WinEvent cmdlet, and then use the <bpt id="p1">**</bpt>Properties<ept id="p1">**</ept> array of the message.</source>
+          <target state="translated">雖以訊息文字中的實際值取代了它們，但更健全的存取方式是以 Get-WinEvent Cmdlet 擷取訊息，然後使用訊息的<bpt id="p1">**</bpt>屬性<ept id="p1">**</ept>陣列。</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Here's an example of how this functionality can help unwrap a malicious attempt to encrypt and obfuscate a script:</source>
+          <target state="translated">下例說明這項功能如何協助解除包裝加密和模糊化指令碼的惡意嘗試：</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Running this generates the following log entries:</source>
+          <target state="translated">執行這項功能會產生下列記錄項目︰</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If the script block length exceeds what ETW is capable of holding in a single event, Windows PowerShell breaks the script into multiple parts.</source>
+          <target state="translated">如果指令碼區塊的長度超過 ETW 能保存在單一事件中的長度，Windows PowerShell 就會將指令碼切分成多個部分。</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Here is sample code to recombine a script from its log messages:</source>
+          <target state="translated">以下是從其記錄檔訊息重新合併指令碼的範例程式碼：</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>As with all logging systems that have a limited retention buffer (i.e. ETW logs), one attack against this infrastructure is to flood the log with spurious events to hide earlier evidence.</source>
+          <target state="translated">如同具有有限保留緩衝區 (亦即 ETW 記錄檔) 的所有記錄系統，針對這個基礎結構的一種攻擊是濫發假性的事件記錄檔以隱藏較早的辨識項。</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To protect yourself from this attack, ensure that you have some form of event log collection set up (i.e., Windows Event Forwarding, <bpt id="p1">[</bpt>Spotting the Adversary with Windows Event Log Monitoring<ept id="p1">](http://www.nsa.gov/ia/_files/app/Spotting_the_Adversary_with_Windows_Event_Log_Monitoring.pdf)</ept>) to move event logs off of the computer as soon as possible.</source>
+          <target state="translated">若要防範這種攻擊，請確定您已設定某種形式的事件記錄檔集合 (亦即 Windows 事件轉送，<bpt id="p1">[</bpt>利用 Windows 事件記錄檔監視找出敵人<ept id="p1">](http://www.nsa.gov/ia/_files/app/Spotting_the_Adversary_with_Windows_Event_Log_Monitoring.pdf)</ept>)，儘快將事件記錄檔移出電腦。</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

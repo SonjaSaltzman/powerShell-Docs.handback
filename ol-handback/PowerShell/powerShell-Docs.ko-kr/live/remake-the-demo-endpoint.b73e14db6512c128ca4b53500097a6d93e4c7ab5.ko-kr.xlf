@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">jea\remake-the-demo-endpoint.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dabb5023012e90ace3fbc5f347c17821abd92595</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-48076a9" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>remake the demo endpoint</source>
+          <target state="translated">데모 끝점 다시 만들기</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Remake the Demo Endpoint</source>
+          <target state="translated">데모 끝점 다시 만들기</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In this section, you will learn how to generate an exact replica of the demo endpoint you used in the above section.</source>
+          <target state="translated">이 섹션에서는 위의 섹션에서 사용한 데모 끝점의 정확한 복제본을 생성하는 방법을 살펴봅니다.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This will introduce core concepts that are necessary to understand JEA, including PowerShell Session Configurations and Role Capabilities.</source>
+          <target state="translated">여기에서는 PowerShell 세션 구성 및 역할 기능을 비롯하여 JEA를 이해하는 데 필요한 핵심 개념을 소개합니다.</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>PowerShell Session Configurations</source>
+          <target state="translated">PowerShell 세션 구성</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When you used JEA in the above section, you started by running the following command:</source>
+          <target state="translated">위의 섹션에서 JEA를 사용할 때 다음 명령을 실행하여 시작했습니다.</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>While most of the parameters are self-explanatory, the <bpt id="p1">*</bpt>ConfigurationName<ept id="p1">*</ept> parameter may seem confusing at first.</source>
+          <target state="translated">대부분의 매개 변수가 쉽게 이해되지만 <bpt id="p1">*</bpt>ConfigurationName<ept id="p1">*</ept> 매개 변수는 처음에 혼동을 줄 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>That parameter specified the PowerShell Session Configuration to which you were connecting.</source>
+          <target state="translated">이 매개 변수는 연결되어 있는 PowerShell 세션 구성을 지정합니다.</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>PowerShell Session Configuration<ept id="p1">*</ept> is a fancy term for a PowerShell endpoint.</source>
+          <target state="translated"><bpt id="p1">*</bpt>PowerShell 세션 구성<ept id="p1">*</ept>은 PowerShell 끝점을 멋지게 표현한 용어입니다.</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>It is the figurative "place" where users connect and get access to PowerShell functionality.</source>
+          <target state="translated">이 용어는 사용자가 연결하고 PowerShell 기능에 액세스하는 "장소"를 비유적으로 나타낸 것입니다.</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Based on how you set up a Session Configuration, it can provide different functionality to connecting users.</source>
+          <target state="translated">세션 구성을 설정하는 방법에 따라 세션 구성은 연결하는 사용자에게 서로 다른 기능을 제공할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For JEA, we use Session Configurations to restrict PowerShell to a limited set of functionality and to run as a privileged virtual account.</source>
+          <target state="translated">JEA의 경우 PowerShell을 제한된 기능 집합으로 제한하고 권한 있는 가상 계정으로 실행하는 데 세션 구성을 사용합니다.</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You already have several registered PowerShell Session Configurations on your machine, each set up slightly differently.</source>
+          <target state="translated">컴퓨터에서 각각 약간 다르게 설정된 PowerShell 세션 구성을 이미 여러 개 등록했습니다.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Most of them come with Windows, but the "JEA_Demo" Session Configuration was set up in the <bpt id="p1">[</bpt>prerequisites<ept id="p1">](prerequisites.md)</ept> section.</source>
+          <target state="translated">대부분의 세션 구성은 Windows와 함께 제공되지만 "JEA_Demo" 세션 구성은 <bpt id="p1">[</bpt>필수 조건<ept id="p1">](prerequisites.md)</ept> 섹션에서 설정되었습니다.</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can see all registered Session Configurations by running the following command in an Administrator PowerShell prompt:</source>
+          <target state="translated">관리자 PowerShell 프롬프트에서 다음 명령을 실행하여 등록된 모든 세션 구성을 확인할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>PowerShell Session Configuration Files</source>
+          <target state="translated">PowerShell 세션 구성 파일</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can make new Session Configurations by registering new <bpt id="p1">*</bpt>PowerShell Session Configuration Files<ept id="p1">*</ept>.</source>
+          <target state="translated">새로운 <bpt id="p1">*</bpt>PowerShell 세션 구성 파일<ept id="p1">*</ept>을 등록하여 세션 구성을 새로 만들 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Session Configuration Files have ".pssc" file extensions.</source>
+          <target state="translated">세션 구성 파일의 확장명은 ".pssc"입니다.</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can generate Session Configuration Files with the New-PSSessionConfigurationFile cmdlet.</source>
+          <target state="translated">New-PSSessionConfigurationFile cmdlet을 사용하여 세션 구성 파일을 생성할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Next, you are going to create and register a new Session Configuration for JEA.</source>
+          <target state="translated">다음으로, JEA에 대한 새 세션 구성을 만들고 등록하겠습니다.</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Generate and Modify your PowerShell Session Configuration</source>
+          <target state="translated">PowerShell 세션 구성 생성 및 수정</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Run the following command to generate a PowerShell Session Configuration "skeleton" file.</source>
+          <target state="translated">다음 명령을 실행하여 PowerShell 세션 구성 "기본" 파일을 생성합니다.</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>TIP:<ept id="p1">**</ept> Only the most common configuration settings are included in the skeleton file by default.</source>
+          <target state="translated"><bpt id="p1">**</bpt>팁:<ept id="p1">**</ept> 가장 일반적인 구성 설정만 기본 파일에 기본적으로 포함됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`-Full`</ph> parameter to include all applicable settings in the generated PSSC.</source>
+          <target state="translated">생성된 PSSC에 적용 가능한 모든 설정을 포함하려면 <ph id="ph1">`-Full`</ph> 매개 변수를 사용합니다.</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Open the file in PowerShell ISE, or your favorite text editor.</source>
+          <target state="translated">PowerShell ISE 또는 원하는 텍스트 편집기에서 파일을 엽니다.</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Update the following fields in the file with the values below (remember to substitue in your own non-administrator security group):</source>
+          <target state="translated">파일의 다음 필드를 아래의 값으로 업데이트합니다(자신의 비관리자 보안 그룹에서 대체해야 함).</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Here is what each of those entries mean:</source>
+          <target state="translated">해당하는 각 항목의 의미는 다음과 같습니다.</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>SessionType<ept id="p1">*</ept> field defines preset default settings to use with this endpoint.</source>
+          <target state="translated"><bpt id="p1">*</bpt>SessionType<ept id="p1">*</ept> 필드는 이 끝점과 함께 사용할 미리 설정된 기본 설정을 정의합니다.</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>RestrictedRemoteServer<ept id="p1">*</ept> defines the minimal settings necessary for remote management.</source>
+          <target state="translated"><bpt id="p1">*</bpt>RestrictedRemoteServer<ept id="p1">*</ept>는 원격 관리에 필요한 최소 설정을 정의합니다.</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>By default, a <bpt id="p1">*</bpt>RestrictedRemoteServer<ept id="p1">*</ept> endpoint will expose Get-Command, Get-FormatData, Select-Object, Get-Help, Measure-Object, Exit-PSSession, Clear-Host, and Out-Default.</source>
+          <target state="translated">기본적으로 <bpt id="p1">*</bpt>RestrictedRemoteServer<ept id="p1">*</ept> 끝점은 Get-Command, Get-FormatData, Select-Object, Get-Help, Measure-Object, Exit-PSSession, Clear-Host 및 Out-Default를 노출합니다.</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>It will set the <bpt id="p1">*</bpt>ExecutionPolicy<ept id="p1">*</ept> to <bpt id="p2">*</bpt>RemoteSigned<ept id="p2">*</ept>, and the <bpt id="p3">*</bpt>LanguageMode<ept id="p3">*</ept> to <bpt id="p4">*</bpt>NoLanguage<ept id="p4">*</ept>.</source>
+          <target state="translated">이 끝점은 <bpt id="p1">*</bpt>ExecutionPolicy<ept id="p1">*</ept>를 <bpt id="p2">*</bpt>RemoteSigned<ept id="p2">*</ept>로 설정하고, <bpt id="p3">*</bpt>LanguageMode<ept id="p3">*</ept>를 <bpt id="p4">*</bpt>NoLanguage<ept id="p4">*</ept>로 설정합니다.</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The net effect of these settings is a secure and minimal starting point for configuring your endpoint.</source>
+          <target state="translated">이러한 설정을 통해 끝점을 구성하기 위한 최소한의 안전한 시작점을 얻을 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>RoleDefinitions<ept id="p1">*</ept> field assigns Role Capabilities to specific groups.</source>
+          <target state="translated"><bpt id="p1">*</bpt>RoleDefinitions<ept id="p1">*</ept> 필드는 역할 기능을 특정 그룹에 할당합니다.</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>It defines who can do what as a privileged account.</source>
+          <target state="translated">이 필드는 누가 권한 있는 계정으로 무엇을 수행할 수 있는지를 정의합니다.</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>With this field, you can specify the functionality available to any connecting user based on group membership.</source>
+          <target state="translated">이 필드를 통해 그룹 구성원 자격에 따라 연결하는 사용자가 사용할 수 있는 기능을 지정할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This is the core of JEA's RBAC functionality.</source>
+          <target state="translated">이는 JEA의 RBAC 기능의 핵심입니다.</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>In this example, you are exposing the pre-made "Demo" RoleCapability to members of the "Contoso\JEA_NonAdmin_Operator" group.</source>
+          <target state="translated">이 예에서는 미리 만든 "데모" RoleCapability를 "Contoso\JEA_NonAdmin_Operator" 그룹의 구성원에게 노출합니다.</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>RunAsVirtualAccount<ept id="p1">*</ept> field indicates that PowerShell should "run as" a Virtual Account at this endpoint.</source>
+          <target state="translated"><bpt id="p1">*</bpt>RunAsVirtualAccount<ept id="p1">*</ept> 필드는 PowerShell이 이 끝점에서 가상 계정"으로 실행"되어야 함을 나타냅니다.</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>By default, the Virtual Account is a member of the built in Administrators group.</source>
+          <target state="translated">기본적으로 가상 계정은 기본 제공 Administrators 그룹의 구성원입니다.</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>On a domain controller, it is also a member of the Domain Administrators group by default.</source>
+          <target state="translated">도메인 컨트롤러에서는 기본적으로 Domain Administrators 그룹의 구성원이기도 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Later in this guide, you will learn how to customize the privileges of the Virtual Account.</source>
+          <target state="translated">이 가이드의 뒷부분에서는 가상 계정의 권한을 사용자 지정하는 방법을 살펴봅니다.</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>TranscriptDirectory<ept id="p1">*</ept> field defines where "over-the-shoulder" PowerShell transcripts are saved after each remote session.</source>
+          <target state="translated"><bpt id="p1">*</bpt>TranscriptDirectory<ept id="p1">*</ept> 필드는 "Over-the-Shoulder" PowerShell 기록이 각 원격 세션 후 저장되는 위치를 정의합니다.</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>These transcripts allow you to inspect the actions taken in each session in a readable way.</source>
+          <target state="translated">이러한 기록을 통해 각 세션에서 수행된 작업을 읽으며 검사할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For more information about PowerShell transcripts, check out this <bpt id="p1">[</bpt>blog post<ept id="p1">](http://blogs.msdn.com/b/powershell/archive/2015/06/09/powershell-the-blue-team.aspx)</ept>.</source>
+          <target state="translated">PowerShell 기록에 대한 자세한 내용은 이 <bpt id="p1">[</bpt>블로그 게시물<ept id="p1">](http://blogs.msdn.com/b/powershell/archive/2015/06/09/powershell-the-blue-team.aspx)</ept>을 참조하세요.</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Note: regular Windows Eventing also captures information about what each user ran with PowerShell.</source>
+          <target state="translated">참고: 일반 Windows Eventing에서도 각 사용자가 PowerShell로 실행한 작업에 대한 정보를 캡처합니다.</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Transcripts are just a bit more readable.</source>
+          <target state="translated">기록은 좀 더 읽기 쉬울 뿐입니다.</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Finally, save your changes to <bpt id="p1">*</bpt>JEADemo2.pssc<ept id="p1">*</ept>.</source>
+          <target state="translated">마지막으로, 변경 내용을 <bpt id="p1">*</bpt>JEADemo2.pssc<ept id="p1">*</ept>에 저장합니다.</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Apply the PowerShell Session Configuration</source>
+          <target state="translated">PowerShell 세션 구성 적용</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To create an endpoint from a Session Configuration file, you need to register the file.</source>
+          <target state="translated">세션 구성 파일에서 끝점을 만들려면 파일을 등록해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This requires a few pieces of information:</source>
+          <target state="translated">이렇게 하려면 다음과 같은 몇 가지 정보가 필요합니다.</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The path to the Session Configuration file.</source>
+          <target state="translated">세션 구성 파일의 경로.</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The name of your registered Session Configuration.</source>
+          <target state="translated">등록된 세션 구성의 이름.</target>         
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This is the same name users provide to the "ConfigurationName" parameter when they connect to your endpoint with <ph id="ph1">`Enter-PSSession`</ph> or <ph id="ph2">`New-PSSession`</ph>.</source>
+          <target state="translated">이 이름은 사용자가 <ph id="ph1">`Enter-PSSession`</ph> 또는 <ph id="ph2">`New-PSSession`</ph>을 사용하여 끝점에 연결할 때 "ConfigurationName" 매개 변수에 제공하는 이름과 동일합니다.</target>         
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To register the Session Configuration on your local machine, run the following command:</source>
+          <target state="translated">로컬 컴퓨터에서 세션 구성을 등록하려면 다음 명령을 실행합니다.</target>         
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Congratulations!</source>
+          <target state="translated">축하합니다!</target>         
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>You have set up your JEA endpoint.</source>
+          <target state="translated">JEA 끝점을 설정했습니다.</target>         
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Test Out Your Endpoint</source>
+          <target state="translated">끝점 테스트</target>         
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Re-run the steps listed in the <bpt id="p1">[</bpt>Using JEA<ept id="p1">](using-jea.md)</ept> section against your new endpoint to confirm it is operating as intended.</source>
+          <target state="translated"><bpt id="p1">[</bpt>JEA 사용<ept id="p1">](using-jea.md)</ept> 섹션에 나열된 단계를 새 끝점에 대해 다시 실행하여 의도한 대로 작동하는지 확인합니다.</target>         
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Be sure to use the new endpoint name (JEADemo2) when providing the configuration name to Enter-PSSession.</source>
+          <target state="translated">Enter-PSSession에 구성 이름을 제공할 때 새 끝점의 이름(JEADemo2)을 사용해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Key Concepts</source>
+          <target state="translated">주요 개념</target>         
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>PowerShell Session Configuration<ept id="p1">**</ept>: Sometimes referred to as <bpt id="p2">*</bpt>PowerShell Endpoint<ept id="p2">*</ept>, this is the figurative "place" where users connect and get access to PowerShell functionality.</source>
+          <target state="translated"><bpt id="p1">**</bpt>PowerShell 세션 구성<ept id="p1">**</ept>: <bpt id="p2">*</bpt>PowerShell 끝점<ept id="p2">*</ept>이라고도 하며 사용자가 연결하고 PowerShell 기능에 액세스하는 "장소"를 비유적으로 나타낸 것입니다.</target>         
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You can list the registered Session Configurations on your system by running <ph id="ph1">`Get-PSSessionConfiguration`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Get-PSSessionConfiguration`</ph>을 실행하여 시스템에 등록된 세션 구성을 나열할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>When configured in a specific way, a PowerShell Session Configuration can be called a <bpt id="p1">*</bpt>JEA Endpoint<ept id="p1">*</ept>.</source>
+          <target state="translated">특정한 방식으로 구성된 PowerShell 세션 구성을 <bpt id="p1">*</bpt>JEA 끝점<ept id="p1">*</ept>이라고 할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>PowerShell Session Configuration File (.pssc)<ept id="p1">**</ept>: A file that, when registered, defines settings for a PowerShell Session Configuration.</source>
+          <target state="translated"><bpt id="p1">**</bpt>PowerShell 세션 구성 파일(.pssc)<ept id="p1">**</ept>: 등록된 경우 PowerShell 세션 구성에 대한 설정을 정의하는 파일입니다.</target>         
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>It contains specifications for user roles that can connect to the endpoint, the "run as" Virtual Account, and more.</source>
+          <target state="translated">이 파일에는 끝점에 연결할 수 있는 사용자 역할, "실행" 가상 계정 등에 대한 지정이 포함되어 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Role Definitions<ept id="p1">**</ept>: The field in a Session Configuration File that defines the Role Capabilities granted to connecting users.</source>
+          <target state="translated"><bpt id="p1">**</bpt>역할 정의<ept id="p1">**</ept>: 연결하는 사용자에게 부여된 역할 기능을 정의하는 세션 구성 파일의 필드입니다.</target>         
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>It defines <bpt id="p1">*</bpt>who<ept id="p1">*</ept> can do <bpt id="p2">*</bpt>what<ept id="p2">*</ept> as a privileged account.</source>
+          <target state="translated">이 필드는 <bpt id="p1">*</bpt>누가<ept id="p1">*</ept> 권한 있는 계정으로 <bpt id="p2">*</bpt>무엇<ept id="p2">*</ept>을 수행할 수 있는지를 정의합니다.</target>         
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>This is the core of JEA's RBAC capabilities.</source>
+          <target state="translated">이는 JEA의 RBAC 기능의 핵심입니다.</target>         
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>SessionType<ept id="p1">**</ept>: A field in a Session Configuration File that represents default settings for a Session Configuration.</source>
+          <target state="translated"><bpt id="p1">**</bpt>SessionType<ept id="p1">**</ept>: 세션 구성에 대한 기본 설정을 나타내는 세션 구성 파일의 필드입니다.</target>         
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>For JEA endpoints, this must be set to RestrictedRemoteServer.</source>
+          <target state="translated">JEA 끝점의 경우 이 필드를 RestrictedRemoteServer로 설정해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>PowerShell Transcript<ept id="p1">**</ept>: A file containing an "over-the-shoulder" view of a PowerShell session.</source>
+          <target state="translated"><bpt id="p1">**</bpt>PowerShell 기록<ept id="p1">**</ept>: PowerShell 세션의 "Over-the-Shoulder" 뷰가 포함된 파일입니다.</target>         
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>You can set PowerShell to generate transcripts for JEA sessions using the TranscriptDirectory field.</source>
+          <target state="translated">TranscriptDirectory 필드를 사용하여 JEA 세션에 대한 기록을 생성하도록 PowerShell을 설정할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>For more information on transcripts, check out this <bpt id="p1">[</bpt>blog post<ept id="p1">](https://technet.microsoft.com/en-us/magazine/ff687007.aspx)</ept>.</source>
+          <target state="translated">기록에 대한 자세한 내용은 이 <bpt id="p1">[</bpt>블로그 게시물<ept id="p1">](https://technet.microsoft.com/en-us/magazine/ff687007.aspx)</ept>을 참조하세요.</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

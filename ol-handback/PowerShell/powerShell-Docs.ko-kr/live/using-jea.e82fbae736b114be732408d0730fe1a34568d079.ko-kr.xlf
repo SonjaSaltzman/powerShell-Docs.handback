@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">jea\using-jea.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3bac5932c3ed57713bdb08e3a9ed435b228518bc</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-48076a9" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>using jea</source>
+          <target state="translated">JEA 사용</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Using JEA</source>
+          <target state="translated">JEA 사용</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This section focuses on understanding the end user experience of <bpt id="p1">*</bpt>using JEA<ept id="p1">*</ept>.</source>
+          <target state="translated">이 섹션에서는 최종 사용자의 <bpt id="p1">*</bpt>JEA 사용<ept id="p1">*</ept> 경험을 이해하는 데 중점을 둡니다.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In the prerequisites section, you created a demo JEA endpoint.</source>
+          <target state="translated">필수 조건 섹션에서 데모 JEA 끝점을 만들었습니다.</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>We will use this demo to show JEA in action.</source>
+          <target state="translated">여기에서는 이 데모를 사용하여 JEA의 작동을 보여 줄 것입니다.</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In later sections, the guide will work backwards -- introducing the actions and files that made that end-user experience possible.</source>
+          <target state="translated">이후 섹션에서는 이 과정을 거꾸로 살펴보면서 최종 사용자 경험을 가능하게 한 작업과 파일을 소개합니다.</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Using JEA as a Non-Administrator</source>
+          <target state="translated">관리자가 아닌 사용자로 JEA 사용</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To show JEA in action, you will need to use PowerShell remoting as though you were a non-administrator user.</source>
+          <target state="translated">JEA의 작동을 보여 주기 위해 관리자가 아닌 사용자인 것처럼 PowerShell 원격을 사용해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Run the following command in a new PowerShell window:</source>
+          <target state="translated">새 PowerShell 창에서 다음 명령을 실행합니다.</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Enter the credentials for your non-administrator account when prompted.</source>
+          <target state="translated">메시지가 표시되면 관리자가 아닌 계정에 대한 자격 증명을 입력합니다.</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If you followed the <bpt id="p1">[</bpt>Set Up Users and Groups<ept id="p1">](creating-a-domain-controller.md#set-up-users-and-groups)</ept> section, they will be:</source>
+          <target state="translated"><bpt id="p1">[</bpt>사용자 및 그룹 설정<ept id="p1">](creating-a-domain-controller.md#set-up-users-and-groups)</ept> 섹션을 따른 경우 자격 증명은 다음과 같습니다.</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Username = "OperatorUser"</source>
+          <target state="translated">사용자 이름 = "OperatorUser"</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Password = "pa$$w0rd"</source>
+          <target state="translated">암호 = "pa$$w0rd"</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Next, run the following command to connect to the demo endpoint using the credentials you provided:</source>
+          <target state="translated">다음 명령을 실행하여 제공한 자격 증명을 사용해 데모 끝점에 연결합니다.</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You have now entered an interactive remote PowerShell session on the local machine.</source>
+          <target state="translated">이제 로컬 컴퓨터에서 대화형 원격 PowerShell 세션에 들어갔습니다.</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>By using the "Credential" parameter, you have connected <bpt id="p1">*</bpt>as though you were<ept id="p1">*</ept> OperatorUser (or whichever account you used).</source>
+          <target state="translated">"Credential" 매개 변수를 사용하여 OperatorUser(또는 사용한 계정)<bpt id="p1">*</bpt>인 것처럼<ept id="p1">*</ept> 연결했습니다.</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The change in the prompt to <ph id="ph1">`[localhost]: PS&gt;`</ph> indicates that you are operating against a remote session.</source>
+          <target state="translated">프롬프트에서 <ph id="ph1">`[localhost]: PS&gt;`</ph>로 변경된 것은 원격 세션을 대상으로 작업하고 있음을 나타냅니다.</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Run the following in your remote command prompt to show the commands available to you:</source>
+          <target state="translated">원격 명령 프롬프트에서 다음을 실행하여 사용할 수 있는 명령을 표시합니다.</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>As you can tell, this is a very limited subset of the commands available in a normal PowerShell window (which can often include several thousand commands).</source>
+          <target state="translated">표시되는 명령은 일반적인 PowerShell 창에서 사용할 수 있는 명령(흔히 몇천 개의 명령이 포함될 수 있음)의 매우 제한된 하위 집합입니다.</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Specifically, it only shows the 7 default JEA cmdlets (Clear-Host, Exit-PSSession, Get-Command, Get-FormatData, Get-Help, Measure-Object, Out-Default, Select-Object) and the two commands explicitly included in the maintenance Role Capability file.</source>
+          <target state="translated">특히 7가지 기본 JEA cmdlet(Clear-Host, Exit-PSSession, Get-Command, Get-FormatData, Get-Help, Measure-Object, Out-Default, Select-Object)과 유지 관리 역할 기능 파일에 명시적으로 포함된 두 명령만 표시됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Next, let's take a look at the user context this session is operating under by invoking the custom function included in the maintenance Role Capability file:</source>
+          <target state="translated">다음으로, 유지 관리 역할 기능 파일에 포함된 사용자 지정 함수를 호출하여 이 세션이 작동하고 있는 사용자 컨텍스트를 살펴보겠습니다.</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The output of this function shows the "ConnectedUser" as well as the "RunAsUser."</source>
+          <target state="translated">이 함수의 출력에서는 "ConnectedUser"뿐만 아니라 "RunAsUser"가 표시됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The connected user is the account that connected to the remote session (e.g. your account).</source>
+          <target state="translated">연결된 사용자는 원격 세션에 연결한 계정(예: 사용자의 계정)입니다.</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The connected user does not need to have administrator privileges.</source>
+          <target state="translated">연결된 사용자에게는 관리자 권한이 없어도 됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The "Run As" account is the account actually performing the privileged actions.</source>
+          <target state="translated">"실행" 계정은 권한 있는 작업을 실제로 수행하는 계정입니다.</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>By connecting as one user, and running as a privileged user, we allow non-privileged users to preform specific administrative tasks without giving them administrative rights.</source>
+          <target state="translated">한 사용자로 연결하고 다른 권한 있는 사용자로 실행하면 관리 권한을 제공하지 않고도 권한 없는 사용자가 특정 관리 작업을 수행하도록 허용할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To demonstrate this in action, run the following command:</source>
+          <target state="translated">이를 보여 주기 위해 다음 명령을 실행합니다.</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Normally, Restart-Service requires administrator privileges to be run.</source>
+          <target state="translated">일반적으로 Restart-Service를 실행하려면 관리자 권한이 필요합니다.</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>With the JEA virtual account, however, we're able to run it using non-privileged credentials.</source>
+          <target state="translated">그러나 JEA 가상 계정이 있으면 권한 없는 자격 증명을 사용하여 실행할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>So, JEA lets you get your job done using the commands you already use.</source>
+          <target state="translated">따라서 JEA는 이미 사용하는 명령을 이용하여 작업을 수행할 수 있도록 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>But what about commands you <bpt id="p1">*</bpt>shouldn't<ept id="p1">*</ept> be allowed to use?</source>
+          <target state="translated">하지만 사용하도록 허용되지 <bpt id="p1">*</bpt>않아야 하는<ept id="p1">*</ept> 명령의 경우는 어떨까요?</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Try running a different command in the JEA session, like <ph id="ph1">`Restart-Computer`</ph>, and notice that JEA prevents such commands from being executed.</source>
+          <target state="translated">JEA 세션에서 <ph id="ph1">`Restart-Computer`</ph> 등의 다른 명령을 실행해 보면 JEA에서 그러한 명령이 실행되지 못하게 하는 것을 확인할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Finally, to leave the constrained JEA endpoint, run the following command:</source>
+          <target state="translated">마지막으로, 제한된 JEA 끝점에서 나오려면 다음 명령을 실행합니다.</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This disconnects you from the remote PowerShell session.</source>
+          <target state="translated">이렇게 하면 원격 PowerShell 세션에서 연결이 끊어집니다.</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
