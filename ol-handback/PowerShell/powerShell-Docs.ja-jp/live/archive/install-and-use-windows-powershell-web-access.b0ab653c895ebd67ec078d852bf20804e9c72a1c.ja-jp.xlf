@@ -2,10 +2,11 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
     <header>
-      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
-      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\core-powershell\web-access\install-and-use-windows-powershell-web-access.md</xliffext:olfilepath>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d2f78148402f06992f5f58cd40e8c4f624b5e4b5</xliffext:olfilehash>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-39517ae" tool-company="Microsoft" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\core-powershell\web-access\install-and-use-windows-powershell-web-access.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
     </header>
     <body>
       <group id="content" extype="content">
@@ -290,8 +291,8 @@
           <target state="translated">また、Windows PowerShell のコマンドレットでは、大文字と小文字は区別されません。</target>         
         </trans-unit>
         <trans-unit id="171" translate="yes" xml:space="preserve">
-          <source>Type the following, and then press <bpt id="p1">**</bpt>Enter<ept id="p1">**</ept>, where <bpt id="p2">*</bpt>computer\_name<ept id="p2">*</ept> represents a remote computer on which you want to install Windows PowerShell Web Access, if applicable.</source>
-          <target state="translated">次のように入力して <bpt id="p1">**</bpt>Enter<ept id="p1">**</ept> キーを押します。<bpt id="p2">*</bpt>computer\_name<ept id="p2">*</ept> は、Windows PowerShell Web Access をインストールするリモート コンピューターの名前です (必要な場合)。</target>         
+          <source>Type the following, and then press <bpt id="p1">**</bpt>Enter<ept id="p1">**</ept>, where <bpt id="p2">*</bpt>computer<ph id="ph1">\_</ph>name<ept id="p2">*</ept> represents a remote computer on which you want to install Windows PowerShell Web Access, if applicable.</source>
+          <target state="translated">次のように入力して <bpt id="p1">**</bpt>Enter<ept id="p1">**</ept> キーを押します。<bpt id="p2">*</bpt>computer<ph id="ph1">\_</ph>name<ept id="p2">*</ept> は、Windows PowerShell Web Access をインストールするリモート コンピューターの名前です (必要な場合)。</target>         
         </trans-unit>
         <trans-unit id="172" translate="yes" xml:space="preserve">
           <source>The <ph id="ph1">&lt;span class="code"&gt;</ph>Restart<ph id="ph2">&lt;/span&gt;</ph> parameter automatically restarts destination servers if required.</source>
@@ -350,8 +351,8 @@
           <target state="translated">これらのセットアップ手順は、次の「<bpt id="p1">[</bpt>手順 2. ゲートウェイを構成する<ept id="p1">](#BKMK_step2)</ept>」セクションでも説明します。</target>         
         </trans-unit>
         <trans-unit id="186" translate="yes" xml:space="preserve">
-          <source>The path to the readme file is <ph id="ph1">&lt;span class="computerOutputInline"&gt;</ph>C:\\Windows\\Web\\PowerShellWebAccess\\wwwroot\\README.txt<ph id="ph2">&lt;/span&gt;</ph>.</source>
-          <target state="translated">Readme ファイルのパスは <ph id="ph1">&lt;span class="computerOutputInline"&gt;</ph>C:\\Windows\\Web\\PowerShellWebAccess\\wwwroot\\README.txt<ph id="ph2">&lt;/span&gt;</ph> です。</target>         
+          <source>The path to the readme file is <ph id="ph1">&lt;span class="computerOutputInline"&gt;</ph>C:<ph id="ph2">\\</ph>Windows<ph id="ph3">\\</ph>Web<ph id="ph4">\\</ph>PowerShellWebAccess<ph id="ph5">\\</ph>wwwroot<ph id="ph6">\\</ph>README.txt<ph id="ph7">&lt;/span&gt;</ph>.</source>
+          <target state="translated">Readme ファイルのパスは <ph id="ph1">&lt;span class="computerOutputInline"&gt;</ph>C:<ph id="ph2">\\</ph>Windows<ph id="ph3">\\</ph>Web<ph id="ph4">\\</ph>PowerShellWebAccess<ph id="ph5">\\</ph>wwwroot<ph id="ph6">\\</ph>README.txt<ph id="ph7">&lt;/span&gt;</ph> です。</target>         
         </trans-unit>
         <trans-unit id="187" translate="yes" xml:space="preserve">
           <source>Step 2: Configure the gateway</source>
@@ -374,8 +375,8 @@
           <target state="translated">Windows PowerShell Web Access の Web アプリケーションの構成を完了するには、<ph id="ph1">&lt;span class="code"&gt;</ph>Install-PswaWebApplication<ph id="ph2">&lt;/span&gt;</ph> コマンドレットを実行するか、IIS マネージャーの GUI ベースの構成手順を実行します。</target>         
         </trans-unit>
         <trans-unit id="192" translate="yes" xml:space="preserve">
-          <source>By default, the cmdlet installs the web application, <bpt id="p1">**</bpt>pswa<ept id="p1">**</ept> (and an application pool for it, <bpt id="p2">**</bpt>pswa\_pool<ept id="p2">**</ept>), in the <bpt id="p3">**</bpt>Default Web Site<ept id="p3">**</ept> container, as shown in IIS Manager; if desired, you can instruct the cmdlet to change the default site container of the web application.</source>
-          <target state="translated">既定では、コマンドレットによって <bpt id="p1">**</bpt>pswa<ept id="p1">**</ept> Web アプリケーション (および専用の <bpt id="p2">**</bpt>pswa\_pool<ept id="p2">**</ept> というアプリケーション プール) が <bpt id="p3">**</bpt>[既定の Web サイト]<ept id="p3">**</ept> コンテナーにインストールされ、IIS マネージャーで確認できます。必要な場合、コマンドレットに指定して Web アプリケーションの既定のサイト コンテナーを変更できます。</target>         
+          <source>By default, the cmdlet installs the web application, <bpt id="p1">**</bpt>pswa<ept id="p1">**</ept> (and an application pool for it, <bpt id="p2">**</bpt>pswa<ph id="ph1">\_</ph>pool<ept id="p2">**</ept>), in the <bpt id="p3">**</bpt>Default Web Site<ept id="p3">**</ept> container, as shown in IIS Manager; if desired, you can instruct the cmdlet to change the default site container of the web application.</source>
+          <target state="translated">既定では、コマンドレットによって <bpt id="p1">**</bpt>pswa<ept id="p1">**</ept> Web アプリケーション (および専用の <bpt id="p2">**</bpt>pswa<ph id="ph1">\_</ph>pool<ept id="p2">**</ept> というアプリケーション プール) が <bpt id="p3">**</bpt>[既定の Web サイト]<ept id="p3">**</ept> コンテナーにインストールされ、IIS マネージャーで確認できます。必要な場合、コマンドレットに指定して Web アプリケーションの既定のサイト コンテナーを変更できます。</target>         
         </trans-unit>
         <trans-unit id="193" translate="yes" xml:space="preserve">
           <source>IIS Manager offers configuration options that are available for web applications, such as changing the port number or the Secure Sockets Layer (SSL) certificate.</source>
@@ -438,8 +439,8 @@
           <target state="translated">コマンドレットを実行すると、IIS の [既定の Web サイト] コンテナーに Windows PowerShell Web Access の Web アプリケーションがインストールされます。</target>         
         </trans-unit>
         <trans-unit id="208" translate="yes" xml:space="preserve">
-          <source>The cmdlet creates the infrastructure required to run Windows PowerShell Web Access on the default website, https://<ph id="ph1">&amp;lt;</ph>server\_name<ph id="ph2">&amp;gt;</ph>/pswa.</source>
-          <target state="translated">このコマンドレットにより、既定の Web サイト (https://<ph id="ph1">&amp;lt;</ph>server\_name<ph id="ph2">&amp;gt;</ph>/pswa) で Windows PowerShell Web Access を実行するために必要なインフラストラクチャが作成されます。</target>         
+          <source>The cmdlet creates the infrastructure required to run Windows PowerShell Web Access on the default website, https://<ph id="ph1">&amp;lt;</ph>server<ph id="ph2">\_</ph>name<ph id="ph3">&amp;gt;</ph>/pswa.</source>
+          <target state="translated">このコマンドレットにより、既定の Web サイト (https://<ph id="ph1">&amp;lt;</ph>server<ph id="ph2">\_</ph>name<ph id="ph3">&amp;gt;</ph>/pswa) で Windows PowerShell Web Access を実行するために必要なインフラストラクチャが作成されます。</target>         
         </trans-unit>
         <trans-unit id="209" translate="yes" xml:space="preserve">
           <source>To install the web application in a different website, provide the website name by adding the <ph id="ph1">&lt;span class="code"&gt;</ph>WebSiteName<ph id="ph2">&lt;/span&gt;</ph> parameter.</source>
@@ -462,8 +463,8 @@
           <target state="translated">Path: /pswa</target>         
         </trans-unit>
         <trans-unit id="214" translate="yes" xml:space="preserve">
-          <source>ApplicationPool: pswa\_pool</source>
-          <target state="translated">ApplicationPool: pswa\_pool</target>         
+          <source>ApplicationPool: pswa<ph id="ph1">\_</ph>pool</source>
+          <target state="translated">ApplicationPool: pswa<ph id="ph1">\_</ph>pool</target>         
         </trans-unit>
         <trans-unit id="215" translate="yes" xml:space="preserve">
           <source>EnabledProtocols: http</source>
@@ -478,8 +479,8 @@
           <target state="translated">例:<ph id="ph1">&lt;/span&gt;</ph> <ph id="ph2">&lt;span class="code"&gt;</ph>Install-PswaWebApplication –webApplicationName myWebApp –useTestCertificate</target>         
         </trans-unit>
         <trans-unit id="218" translate="yes" xml:space="preserve">
-          <source>In this example, the resulting website for Windows PowerShell Web Access is https://<ph id="ph1">&amp;lt;</ph> <bpt id="p1">*</bpt>server\_name<ept id="p1">*</ept><ph id="ph2">&amp;gt;</ph>/myWebApp.</source>
-          <target state="translated">この例では、Windows PowerShell Web Access の最終的な Web サイトは https://<ph id="ph1">&amp;lt;</ph><bpt id="p1">*</bpt>server\_name<ept id="p1">*</ept><ph id="ph2">&amp;gt;</ph>/myWebApp になります。</target>         
+          <source>In this example, the resulting website for Windows PowerShell Web Access is https://<ph id="ph1">&amp;lt;</ph> <bpt id="p1">*</bpt>server<ph id="ph2">\_</ph>name<ept id="p1">*</ept><ph id="ph3">&amp;gt;</ph>/myWebApp.</source>
+          <target state="translated">この例では、Windows PowerShell Web Access の最終的な Web サイトは https://<ph id="ph1">&amp;lt;</ph> <bpt id="p1">*</bpt>server<ph id="ph2">\_</ph>name<ept id="p1">*</ept><ph id="ph3">&amp;gt;</ph>/myWebApp になります。</target>         
         </trans-unit>
         <trans-unit id="219" translate="yes" xml:space="preserve">
           <source>Note</source>
@@ -534,8 +535,8 @@
           <target state="translated">Path: /pswa</target>         
         </trans-unit>
         <trans-unit id="232" translate="yes" xml:space="preserve">
-          <source>ApplicationPool: pswa\_pool</source>
-          <target state="translated">ApplicationPool: pswa\_pool</target>         
+          <source>ApplicationPool: pswa<ph id="ph1">\_</ph>pool</source>
+          <target state="translated">ApplicationPool: pswa<ph id="ph1">\_</ph>pool</target>         
         </trans-unit>
         <trans-unit id="233" translate="yes" xml:space="preserve">
           <source>EnabledProtocols: http</source>
@@ -602,8 +603,8 @@
           <target state="translated">これで、Windows PowerShell Web Access の Web アプリケーションが署名済み SSL 証明書を使うよう構成されました。</target>         
         </trans-unit>
         <trans-unit id="249" translate="yes" xml:space="preserve">
-          <source>You can access Windows PowerShell Web Access by opening https://<ph id="ph1">&amp;lt;</ph>server\_name<ph id="ph2">&amp;gt;</ph>/pswa in a browser window.</source>
-          <target state="translated">ブラウザー ウィンドウで https://<ph id="ph1">&amp;lt;</ph>server\_name<ph id="ph2">&amp;gt;</ph>/pswa を開くと Windows PowerShell Web Access にアクセスできます。</target>         
+          <source>You can access Windows PowerShell Web Access by opening https://<ph id="ph1">&amp;lt;</ph>server<ph id="ph2">\_</ph>name<ph id="ph3">&amp;gt;</ph>/pswa in a browser window.</source>
+          <target state="translated">ブラウザー ウィンドウで https://<ph id="ph1">&amp;lt;</ph>server<ph id="ph2">\_</ph>name<ph id="ph3">&amp;gt;</ph>/pswa を開くと Windows PowerShell Web Access にアクセスできます。</target>         
         </trans-unit>
         <trans-unit id="250" translate="yes" xml:space="preserve">
           <source>Note</source>
@@ -662,8 +663,8 @@
           <target state="translated">セッション構成を使用してユーザー アクセスを制限するためのオプション手順:<ph id="ph1">&lt;/span&gt;</ph>規則内で使用するセッション構成が既に存在することを確認します。</target>         
         </trans-unit>
         <trans-unit id="264" translate="yes" xml:space="preserve">
-          <source>If they have not yet been created, use instructions for creating session configurations in <bpt id="p1">[</bpt>about\_Session\_Configuration\_Files<ept id="p1">](https://msdn.microsoft.com/library/windows/desktop/hh847838.aspx)</ept> on MSDN.</source>
-          <target state="translated">まだ作成されていない場合は、MSDN の「<bpt id="p1">[</bpt>about\_Session\_Configuration\_Files<ept id="p1">](https://msdn.microsoft.com/library/windows/desktop/hh847838.aspx)</ept>」に記載されているセッション構成の作成手順を使用してください。</target>         
+          <source>If they have not yet been created, use instructions for creating session configurations in <bpt id="p1">[</bpt>about<ph id="ph1">\_</ph>Session<ph id="ph2">\_</ph>Configuration<ph id="ph3">\_</ph>Files<ept id="p1">](https://msdn.microsoft.com/library/windows/desktop/hh847838.aspx)</ept> on MSDN.</source>
+          <target state="translated">まだ作成されていない場合は、MSDN の「<bpt id="p1">[</bpt>about<ph id="ph1">\_</ph>Session<ph id="ph2">\_</ph>Configuration<ph id="ph3">\_</ph>Files<ept id="p1">](https://msdn.microsoft.com/library/windows/desktop/hh847838.aspx)</ept>」に記載されているセッション構成の作成手順を使用してください。</target>         
         </trans-unit>
         <trans-unit id="265" translate="yes" xml:space="preserve">
           <source>Type the following, and then press <bpt id="p1">**</bpt>Enter<ept id="p1">**</ept>.</source>
@@ -678,20 +679,20 @@
           <target state="translated">この承認規則により、特定のユーザー 1 人が、通常アクセスが許可されているネットワーク上の 1 つのコンピューターにアクセスして、このユーザーが通常必要とするスクリプトとコマンドレットに制限された特定の 1 つのセッション構成にアクセスできるようになります。</target>         
         </trans-unit>
         <trans-unit id="268" translate="yes" xml:space="preserve">
-          <source>In the following example, a user named <ph id="ph1">&lt;span class="code"&gt;</ph>JSmith<ph id="ph2">&lt;/span&gt;</ph> in the <ph id="ph3">&lt;span class="code"&gt;</ph>Contoso<ph id="ph4">&lt;/span&gt;</ph> domain is granted access to manage the computer <ph id="ph5">&lt;span class="code"&gt;</ph>Contoso\_214<ph id="ph6">&lt;/span&gt;</ph>, and use a session configuration named <ph id="ph7">&lt;span class="code"&gt;</ph>NewAdminsOnly<ph id="ph8">&lt;/span&gt;</ph>.</source>
-          <target state="translated">次の例では、<ph id="ph3">&lt;span class="code"&gt;</ph>Contoso<ph id="ph4">&lt;/span&gt;</ph> ドメインの <ph id="ph1">&lt;span class="code"&gt;</ph>JSmith<ph id="ph2">&lt;/span&gt;</ph> というユーザーに、<ph id="ph5">&lt;span class="code"&gt;</ph>Contoso\_214<ph id="ph6">&lt;/span&gt;</ph> というコンピューターを管理し、<ph id="ph7">&lt;span class="code"&gt;</ph>NewAdminsOnly<ph id="ph8">&lt;/span&gt;</ph> というセッション構成を使うためのアクセス権が付与されます。</target>         
+          <source>In the following example, a user named <ph id="ph1">&lt;span class="code"&gt;</ph>JSmith<ph id="ph2">&lt;/span&gt;</ph> in the <ph id="ph3">&lt;span class="code"&gt;</ph>Contoso<ph id="ph4">&lt;/span&gt;</ph> domain is granted access to manage the computer <ph id="ph5">&lt;span class="code"&gt;</ph>Contoso<ph id="ph6">\_</ph>214<ph id="ph7">&lt;/span&gt;</ph>, and use a session configuration named <ph id="ph8">&lt;span class="code"&gt;</ph>NewAdminsOnly<ph id="ph9">&lt;/span&gt;</ph>.</source>
+          <target state="translated">次の例では、<ph id="ph3">&lt;span class="code"&gt;</ph>Contoso<ph id="ph4">&lt;/span&gt;</ph> ドメインの <ph id="ph1">&lt;span class="code"&gt;</ph>JSmith<ph id="ph2">&lt;/span&gt;</ph> というユーザーに、<ph id="ph5">&lt;span class="code"&gt;</ph>Contoso<ph id="ph6">\_</ph>214<ph id="ph7">&lt;/span&gt;</ph> というコンピューターを管理し、<ph id="ph8">&lt;span class="code"&gt;</ph>NewAdminsOnly<ph id="ph9">&lt;/span&gt;</ph> というセッション構成を使うためのアクセス権が付与されます。</target>         
         </trans-unit>
         <trans-unit id="269" translate="yes" xml:space="preserve">
           <source>[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_ebd5bc5e-ec5d-4955-a86a-63843e480e37'); "Copy to clipboard.")</source>
           <target state="translated">[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_ebd5bc5e-ec5d-4955-a86a-63843e480e37'); "Copy to clipboard.")</target>         
         </trans-unit>
         <trans-unit id="270" translate="yes" xml:space="preserve">
-          <source>Verify that the rule has been created by running either the <bpt id="p1">**</bpt>Get-PswaAuthorizationRule<ept id="p1">**</ept> cmdlet, or <bpt id="p2">**</bpt>Test-PswaAuthorizationRule -UserName <ph id="ph1">&amp;lt;</ph>domain\\user | computer\\user<ph id="ph2">&amp;gt;</ph> -ComputerName<ept id="p2">**</ept> <ph id="ph3">&amp;lt;</ph>computer\_name<ph id="ph4">&amp;gt;</ph>.</source>
-          <target state="translated"><bpt id="p1">**</bpt>Get-PswaAuthorizationRule<ept id="p1">**</ept> コマンドレットまたは <bpt id="p2">**</bpt>Test-PswaAuthorizationRule -UserName <ph id="ph1">&amp;lt;</ph>domain\\user | computer\\user<ph id="ph2">&amp;gt;</ph> -ComputerName<ept id="p2">**</ept> <ph id="ph3">&amp;lt;</ph>computer\_name<ph id="ph4">&amp;gt;</ph> を実行して、規則が作成されていることを確認します。</target>         
+          <source>Verify that the rule has been created by running either the <bpt id="p1">**</bpt>Get-PswaAuthorizationRule<ept id="p1">**</ept> cmdlet, or <bpt id="p2">**</bpt>Test-PswaAuthorizationRule -UserName <ph id="ph1">&amp;lt;</ph>domain<ph id="ph2">\\</ph>user | computer<ph id="ph3">\\</ph>user<ph id="ph4">&amp;gt;</ph> -ComputerName<ept id="p2">**</ept> <ph id="ph5">&amp;lt;</ph>computer<ph id="ph6">\_</ph>name<ph id="ph7">&amp;gt;</ph>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get-PswaAuthorizationRule<ept id="p1">**</ept> コマンドレットまたは <bpt id="p2">**</bpt>Test-PswaAuthorizationRule -UserName <ph id="ph1">&amp;lt;</ph>domain<ph id="ph2">\\</ph>user | computer<ph id="ph3">\\</ph>user<ph id="ph4">&amp;gt;</ph> -ComputerName<ept id="p2">**</ept> <ph id="ph5">&amp;lt;</ph>computer<ph id="ph6">\_</ph>name<ph id="ph7">&amp;gt;</ph> を実行して、規則が作成されていることを確認します。</target>         
         </trans-unit>
         <trans-unit id="271" translate="yes" xml:space="preserve">
-          <source>For example, <bpt id="p1">**</bpt>Test-PswaAuthorizationRule –UserName Contoso\\JSmith –ComputerName Contoso\_214<ept id="p1">**</ept>.</source>
-          <target state="translated">例: <bpt id="p1">**</bpt>Test-PswaAuthorizationRule –UserName Contoso\\JSmith –ComputerName Contoso\_214<ept id="p1">**</ept>。</target>         
+          <source>For example, <bpt id="p1">**</bpt>Test-PswaAuthorizationRule –UserName Contoso<ph id="ph1">\\</ph>JSmith –ComputerName Contoso<ph id="ph2">\_</ph>214<ept id="p1">**</ept>.</source>
+          <target state="translated">例: <bpt id="p1">**</bpt>Test-PswaAuthorizationRule –UserName Contoso<ph id="ph1">\\</ph>JSmith –ComputerName Contoso<ph id="ph2">\_</ph>214<ept id="p1">**</ept>。</target>         
         </trans-unit>
         <trans-unit id="272" translate="yes" xml:space="preserve">
           <source>After you have configured an authorization rule, you are ready for authorized users to sign in to the web-based console and begin using Windows PowerShell Web Access.</source>
@@ -810,8 +811,8 @@
           <target state="translated">これらの手順も、このドキュメントで説明しています。</target>         
         </trans-unit>
         <trans-unit id="301" translate="yes" xml:space="preserve">
-          <source>The path to the readme file is <ph id="ph1">&lt;span class="computerOutputInline"&gt;</ph>C:\\Windows\\Web\\PowerShellWebAccess\\wwwroot\\README.txt<ph id="ph2">&lt;/span&gt;</ph>.</source>
-          <target state="translated">Readme ファイルのパスは <ph id="ph1">&lt;span class="computerOutputInline"&gt;</ph>C:\\Windows\\Web\\PowerShellWebAccess\\wwwroot\\README.txt<ph id="ph2">&lt;/span&gt;</ph> です。</target>         
+          <source>The path to the readme file is <ph id="ph1">&lt;span class="computerOutputInline"&gt;</ph>C:<ph id="ph2">\\</ph>Windows<ph id="ph3">\\</ph>Web<ph id="ph4">\\</ph>PowerShellWebAccess<ph id="ph5">\\</ph>wwwroot<ph id="ph6">\\</ph>README.txt<ph id="ph7">&lt;/span&gt;</ph>.</source>
+          <target state="translated">Readme ファイルのパスは <ph id="ph1">&lt;span class="computerOutputInline"&gt;</ph>C:<ph id="ph2">\\</ph>Windows<ph id="ph3">\\</ph>Web<ph id="ph4">\\</ph>PowerShellWebAccess<ph id="ph5">\\</ph>wwwroot<ph id="ph6">\\</ph>README.txt<ph id="ph7">&lt;/span&gt;</ph> です。</target>         
         </trans-unit>
         <trans-unit id="302" translate="yes" xml:space="preserve">
           <source>Step 2: Configure the gateway</source>
@@ -870,8 +871,8 @@
           <target state="translated">IIS マネージャーのツリー ウィンドウでゲートウェイ サーバーのノードを展開して、<bpt id="p1">**</bpt>[アプリケーション プール]<ept id="p1">**</ept> を選択し、<bpt id="p3">**</bpt>[操作]<ept id="p3">**</ept> ウィンドウの <bpt id="p2">**</bpt>[アプリケーション プールの追加]<ept id="p2">**</ept> をクリックします。</target>         
         </trans-unit>
         <trans-unit id="316" translate="yes" xml:space="preserve">
-          <source>Add a new application pool with the name <bpt id="p1">**</bpt>pswa\_pool<ept id="p1">**</ept>, or provide another name.</source>
-          <target state="translated">新しいアプリケーション プールを <bpt id="p1">**</bpt>pswa\_pool<ept id="p1">**</ept> という名前で追加するか、別の名前を指定して追加します。</target>         
+          <source>Add a new application pool with the name <bpt id="p1">**</bpt>pswa<ph id="ph1">\_</ph>pool<ept id="p1">**</ept>, or provide another name.</source>
+          <target state="translated">新しいアプリケーション プールを <bpt id="p1">**</bpt>pswa<ph id="ph1">\_</ph>pool<ept id="p1">**</ept> という名前で追加するか、別の名前を指定して追加します。</target>         
         </trans-unit>
         <trans-unit id="317" translate="yes" xml:space="preserve">
           <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
@@ -898,8 +899,8 @@
           <target state="translated">このエイリアスが仮想ディレクトリ名となります。</target>         
         </trans-unit>
         <trans-unit id="323" translate="yes" xml:space="preserve">
-          <source>For example, <bpt id="p1">**</bpt>pswa<ept id="p1">**</ept> in the following URL represents the alias specified in this step: https://<ph id="ph1">&amp;lt;</ph>server\_name<ph id="ph2">&amp;gt;</ph>/pswa.</source>
-          <target state="translated">たとえば、次の URL の <bpt id="p1">**</bpt>pswa<ept id="p1">**</ept> は、この手順で指定されたエイリアスを表します。https://<ph id="ph1">&amp;lt;</ph>server\_name<ph id="ph2">&amp;gt;</ph>/pswa</target>         
+          <source>For example, <bpt id="p1">**</bpt>pswa<ept id="p1">**</ept> in the following URL represents the alias specified in this step: https://<ph id="ph1">&amp;lt;</ph>server<ph id="ph2">\_</ph>name<ph id="ph3">&amp;gt;</ph>/pswa.</source>
+          <target state="translated">たとえば、次の URL の <bpt id="p1">**</bpt>pswa<ept id="p1">**</ept> は、この手順で指定されたエイリアスを表します (https://<ph id="ph1">&amp;lt;</ph>server<ph id="ph2">\_</ph>name<ph id="ph3">&amp;gt;</ph>/pswa)。</target>         
         </trans-unit>
         <trans-unit id="324" translate="yes" xml:space="preserve">
           <source>In the <bpt id="p1">**</bpt>Application pool<ept id="p1">**</ept> field, select the application pool that you created in step 3.</source>
@@ -950,8 +951,8 @@
           <target state="translated">サポートされるブラウザーとデバイスの詳細については、このトピックの「<bpt id="p1">[</bpt>ブラウザーとクライアント デバイスのサポート<ept id="p1">](#BKMK_browser)</ept>」を参照してください。</target>         
         </trans-unit>
         <trans-unit id="336" translate="yes" xml:space="preserve">
-          <source>Open the new Windows PowerShell Web Access website, https://<ph id="ph1">&amp;lt;</ph> <bpt id="p1">*</bpt>gateway\_server\_name<ept id="p1">*</ept><ph id="ph2">&amp;gt;</ph>/pswa.</source>
-          <target state="translated">新しい Windows PowerShell Web Access Web サイト https://<ph id="ph1">&amp;lt;</ph><bpt id="p1">*</bpt>gateway\_server\_name<ept id="p1">*</ept><ph id="ph2">&amp;gt;</ph>/pswa を開きます。</target>         
+          <source>Open the new Windows PowerShell Web Access website, https://<ph id="ph1">&amp;lt;</ph> <bpt id="p1">*</bpt>gateway<ph id="ph2">\_</ph>server<ph id="ph3">\_</ph>name<ept id="p1">*</ept><ph id="ph4">&amp;gt;</ph>/pswa.</source>
+          <target state="translated">新しい Windows PowerShell Web Access Web サイト https://<ph id="ph1">&amp;lt;</ph> <bpt id="p1">*</bpt>gateway<ph id="ph2">\_</ph>server<ph id="ph3">\_</ph>name<ept id="p1">*</ept><ph id="ph4">&amp;gt;</ph>/pswa を開きます。</target>         
         </trans-unit>
         <trans-unit id="337" translate="yes" xml:space="preserve">
           <source>The browser should display the Windows PowerShell Web Access console sign-in page.</source>
@@ -966,8 +967,8 @@
           <target state="translated">サインインできるのは、承認規則の追加によって Web サイトへのアクセスが許可されたユーザーだけです。</target>         
         </trans-unit>
         <trans-unit id="340" translate="yes" xml:space="preserve">
-          <source>In a Windows PowerShell session that has been opened with elevated user rights (Run as Administrator), run the following script, in which <bpt id="p1">*</bpt>application\_pool\_name<ept id="p1">*</ept> represents the name of the application pool that you created in step 3, to give the application pool access rights to the authorization file.</source>
-          <target state="translated">管理者特権で開かれた ([管理者として実行]) Windows PowerShell セッションで、次のスクリプトを実行します。<bpt id="p1">*</bpt>application\_pool\_name<ept id="p1">*</ept> は、手順 3. で作成したアプリケーション プールの名前です。これによって承認ファイルへのアクセス権がアプリケーション プールに付与されます。</target>         
+          <source>In a Windows PowerShell session that has been opened with elevated user rights (Run as Administrator), run the following script, in which <bpt id="p1">*</bpt>application<ph id="ph1">\_</ph>pool<ph id="ph2">\_</ph>name<ept id="p1">*</ept> represents the name of the application pool that you created in step 3, to give the application pool access rights to the authorization file.</source>
+          <target state="translated">管理者特権で開かれた ([管理者として実行]) Windows PowerShell セッションで、次のスクリプトを実行します。<bpt id="p1">*</bpt>application<ph id="ph1">\_</ph>pool<ph id="ph2">\_</ph>name<ept id="p1">*</ept> は、手順 3. で作成したアプリケーション プールの名前です。これによって承認ファイルへのアクセス権がアプリケーション プールに付与されます。</target>         
         </trans-unit>
         <trans-unit id="341" translate="yes" xml:space="preserve">
           <source>[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_c1a80a93-8fcf-4beb-a025-5f81bfb8bdae'); "Copy to clipboard.")</source>
@@ -1090,8 +1091,8 @@
           <target state="translated"><bpt id="p1">**</bpt>[OK]<ept id="p1">**</ept> をクリックして <bpt id="p2">**</bpt>[Web サイトの追加]<ept id="p2">**</ept> ダイアログ ボックスを閉じます。</target>         
         </trans-unit>
         <trans-unit id="371" translate="yes" xml:space="preserve">
-          <source>In a Windows PowerShell session that has been opened with elevated user rights (Run as Administrator), run the following script, in which <bpt id="p1">*</bpt>application\_pool\_name<ept id="p1">*</ept> represents the name of the application pool that you created in step 4, to give the application pool access rights to the authorization file.</source>
-          <target state="translated">管理者特権で開かれた ([管理者として実行]) Windows PowerShell セッションで、次のスクリプトを実行します。<bpt id="p1">*</bpt>application\_pool\_name<ept id="p1">*</ept> は、手順 4. で作成したアプリケーション プールの名前です。これによって承認ファイルへのアクセス権がアプリケーション プールに付与されます。</target>         
+          <source>In a Windows PowerShell session that has been opened with elevated user rights (Run as Administrator), run the following script, in which <bpt id="p1">*</bpt>application<ph id="ph1">\_</ph>pool<ph id="ph2">\_</ph>name<ept id="p1">*</ept> represents the name of the application pool that you created in step 4, to give the application pool access rights to the authorization file.</source>
+          <target state="translated">管理者特権で開かれた ([管理者として実行]) Windows PowerShell セッションで、次のスクリプトを実行します。<bpt id="p1">*</bpt>application<ph id="ph1">\_</ph>pool<ph id="ph2">\_</ph>name<ept id="p1">*</ept> は、手順 4. で作成したアプリケーション プールの名前です。これによって承認ファイルへのアクセス権がアプリケーション プールに付与されます。</target>         
         </trans-unit>
         <trans-unit id="372" translate="yes" xml:space="preserve">
           <source>[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_35ae9944-ca44-4af7-9c96-616083b3e3db'); "Copy to clipboard.")</source>
@@ -1122,8 +1123,8 @@
           <target state="translated">新しい Windows PowerShell Web Access の Web サイトを開きます。</target>         
         </trans-unit>
         <trans-unit id="379" translate="yes" xml:space="preserve">
-          <source>Because the root website points to the Windows PowerShell Web Access folder, the browser should display the Windows PowerShell Web Access sign-in page when you open https://<ph id="ph1">&amp;lt;</ph> <bpt id="p1">*</bpt>gateway\_server\_name<ept id="p1">*</ept><ph id="ph2">&amp;gt;</ph>.</source>
-          <target state="translated">ルート Web サイトは Windows PowerShell Web Access フォルダーを参照しているため、https://<ph id="ph1">&amp;lt;</ph><bpt id="p1">*</bpt>gateway\_server\_name<ept id="p1">*</ept><ph id="ph2">&amp;gt;</ph> を開くと、ブラウザーには Windows PowerShell Web Access のサインイン ページが表示されます。</target>         
+          <source>Because the root website points to the Windows PowerShell Web Access folder, the browser should display the Windows PowerShell Web Access sign-in page when you open https://<ph id="ph1">&amp;lt;</ph> <bpt id="p1">*</bpt>gateway<ph id="ph2">\_</ph>server<ph id="ph3">\_</ph>name<ept id="p1">*</ept><ph id="ph4">&amp;gt;</ph>.</source>
+          <target state="translated">ルート Web サイトは Windows PowerShell Web Access フォルダーを参照しているため、https://<ph id="ph1">&amp;lt;</ph> <bpt id="p1">*</bpt>gateway<ph id="ph2">\_</ph>server<ph id="ph3">\_</ph>name<ept id="p1">*</ept><ph id="ph4">&amp;gt;</ph> を開くと、ブラウザーには Windows PowerShell Web Access のサインイン ページが表示されます。</target>         
         </trans-unit>
         <trans-unit id="380" translate="yes" xml:space="preserve">
           <source>You should not need to add <bpt id="p1">**</bpt>/pswa<ept id="p1">**</ept> to the URL.</source>
@@ -1182,8 +1183,8 @@
           <target state="translated">セッション構成を使用してユーザー アクセスを制限するためのオプション手順:<ph id="ph1">&lt;/span&gt;</ph>規則内で使用するセッション構成が既に存在することを確認します。</target>         
         </trans-unit>
         <trans-unit id="394" translate="yes" xml:space="preserve">
-          <source>If they have not yet been created, use instructions for creating session configurations in <bpt id="p1">[</bpt>about\_Session\_Configuration\_Files<ept id="p1">](https://msdn.microsoft.com/library/windows/desktop/hh847838.aspx)</ept> on MSDN.</source>
-          <target state="translated">まだ作成されていない場合は、MSDN の「<bpt id="p1">[</bpt>about\_Session\_Configuration\_Files<ept id="p1">](https://msdn.microsoft.com/library/windows/desktop/hh847838.aspx)</ept>」に記載されているセッション構成の作成手順を使用してください。</target>         
+          <source>If they have not yet been created, use instructions for creating session configurations in <bpt id="p1">[</bpt>about<ph id="ph1">\_</ph>Session<ph id="ph2">\_</ph>Configuration<ph id="ph3">\_</ph>Files<ept id="p1">](https://msdn.microsoft.com/library/windows/desktop/hh847838.aspx)</ept> on MSDN.</source>
+          <target state="translated">まだ作成されていない場合は、MSDN の「<bpt id="p1">[</bpt>about<ph id="ph1">\_</ph>Session<ph id="ph2">\_</ph>Configuration<ph id="ph3">\_</ph>Files<ept id="p1">](https://msdn.microsoft.com/library/windows/desktop/hh847838.aspx)</ept>」に記載されているセッション構成の作成手順を使用してください。</target>         
         </trans-unit>
         <trans-unit id="395" translate="yes" xml:space="preserve">
           <source>Type the following, and then press <bpt id="p1">**</bpt>Enter<ept id="p1">**</ept>.</source>
@@ -1198,20 +1199,20 @@
           <target state="translated">この承認規則により、特定のユーザー 1 人が、通常アクセスが許可されているネットワーク上の 1 つのコンピューターにアクセスして、このユーザーが通常必要とするスクリプトとコマンドレットに制限された特定の 1 つのセッション構成にアクセスできるようになります。</target>         
         </trans-unit>
         <trans-unit id="398" translate="yes" xml:space="preserve">
-          <source>In the following example, a user named <ph id="ph1">&lt;span class="code"&gt;</ph>JSmith<ph id="ph2">&lt;/span&gt;</ph> in the <ph id="ph3">&lt;span class="code"&gt;</ph>Contoso<ph id="ph4">&lt;/span&gt;</ph> domain is granted access to manage the computer <ph id="ph5">&lt;span class="code"&gt;</ph>Contoso\_214<ph id="ph6">&lt;/span&gt;</ph>, and use a session configuration named <ph id="ph7">&lt;span class="code"&gt;</ph>NewAdminsOnly<ph id="ph8">&lt;/span&gt;</ph>.</source>
-          <target state="translated">次の例では、<ph id="ph3">&lt;span class="code"&gt;</ph>Contoso<ph id="ph4">&lt;/span&gt;</ph> ドメインの <ph id="ph1">&lt;span class="code"&gt;</ph>JSmith<ph id="ph2">&lt;/span&gt;</ph> というユーザーに、<ph id="ph5">&lt;span class="code"&gt;</ph>Contoso\_214<ph id="ph6">&lt;/span&gt;</ph> というコンピューターを管理し、<ph id="ph7">&lt;span class="code"&gt;</ph>NewAdminsOnly<ph id="ph8">&lt;/span&gt;</ph> というセッション構成を使うためのアクセス権が付与されます。</target>         
+          <source>In the following example, a user named <ph id="ph1">&lt;span class="code"&gt;</ph>JSmith<ph id="ph2">&lt;/span&gt;</ph> in the <ph id="ph3">&lt;span class="code"&gt;</ph>Contoso<ph id="ph4">&lt;/span&gt;</ph> domain is granted access to manage the computer <ph id="ph5">&lt;span class="code"&gt;</ph>Contoso<ph id="ph6">\_</ph>214<ph id="ph7">&lt;/span&gt;</ph>, and use a session configuration named <ph id="ph8">&lt;span class="code"&gt;</ph>NewAdminsOnly<ph id="ph9">&lt;/span&gt;</ph>.</source>
+          <target state="translated">次の例では、<ph id="ph3">&lt;span class="code"&gt;</ph>Contoso<ph id="ph4">&lt;/span&gt;</ph> ドメインの <ph id="ph1">&lt;span class="code"&gt;</ph>JSmith<ph id="ph2">&lt;/span&gt;</ph> というユーザーに、<ph id="ph5">&lt;span class="code"&gt;</ph>Contoso<ph id="ph6">\_</ph>214<ph id="ph7">&lt;/span&gt;</ph> というコンピューターを管理し、<ph id="ph8">&lt;span class="code"&gt;</ph>NewAdminsOnly<ph id="ph9">&lt;/span&gt;</ph> というセッション構成を使うためのアクセス権が付与されます。</target>         
         </trans-unit>
         <trans-unit id="399" translate="yes" xml:space="preserve">
           <source>[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_efc3999a-2905-453f-86cd-014b41658ffc'); "Copy to clipboard.")</source>
           <target state="translated">[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_efc3999a-2905-453f-86cd-014b41658ffc'); "Copy to clipboard.")</target>         
         </trans-unit>
         <trans-unit id="400" translate="yes" xml:space="preserve">
-          <source>Verify that the rule has been created by running either the <bpt id="p1">**</bpt>Get-PswaAuthorizationRule<ept id="p1">**</ept> cmdlet, or <bpt id="p2">**</bpt>Test-PswaAuthorizationRule -UserName <ph id="ph1">&amp;lt;</ph>domain\\user | computer\\user<ph id="ph2">&amp;gt;</ph> -ComputerName<ept id="p2">**</ept> <ph id="ph3">&amp;lt;</ph>computer\_name<ph id="ph4">&amp;gt;</ph>.</source>
-          <target state="translated"><bpt id="p1">**</bpt>Get-PswaAuthorizationRule<ept id="p1">**</ept> コマンドレットまたは <bpt id="p2">**</bpt>Test-PswaAuthorizationRule -UserName <ph id="ph1">&amp;lt;</ph>domain\\user | computer\\user<ph id="ph2">&amp;gt;</ph> -ComputerName<ept id="p2">**</ept> <ph id="ph3">&amp;lt;</ph>computer\_name<ph id="ph4">&amp;gt;</ph> を実行して、規則が作成されていることを確認します。</target>         
+          <source>Verify that the rule has been created by running either the <bpt id="p1">**</bpt>Get-PswaAuthorizationRule<ept id="p1">**</ept> cmdlet, or <bpt id="p2">**</bpt>Test-PswaAuthorizationRule -UserName <ph id="ph1">&amp;lt;</ph>domain<ph id="ph2">\\</ph>user | computer<ph id="ph3">\\</ph>user<ph id="ph4">&amp;gt;</ph> -ComputerName<ept id="p2">**</ept> <ph id="ph5">&amp;lt;</ph>computer<ph id="ph6">\_</ph>name<ph id="ph7">&amp;gt;</ph>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get-PswaAuthorizationRule<ept id="p1">**</ept> コマンドレットまたは <bpt id="p2">**</bpt>Test-PswaAuthorizationRule -UserName <ph id="ph1">&amp;lt;</ph>domain<ph id="ph2">\\</ph>user | computer<ph id="ph3">\\</ph>user<ph id="ph4">&amp;gt;</ph> -ComputerName<ept id="p2">**</ept> <ph id="ph5">&amp;lt;</ph>computer<ph id="ph6">\_</ph>name<ph id="ph7">&amp;gt;</ph> を実行して、規則が作成されていることを確認します。</target>         
         </trans-unit>
         <trans-unit id="401" translate="yes" xml:space="preserve">
-          <source>For example, <bpt id="p1">**</bpt>Test-PswaAuthorizationRule –UserName Contoso\\JSmith –ComputerName Contoso\_214<ept id="p1">**</ept>.</source>
-          <target state="translated">例: <bpt id="p1">**</bpt>Test-PswaAuthorizationRule –UserName Contoso\\JSmith –ComputerName Contoso\_214<ept id="p1">**</ept>。</target>         
+          <source>For example, <bpt id="p1">**</bpt>Test-PswaAuthorizationRule –UserName Contoso<ph id="ph1">\\</ph>JSmith –ComputerName Contoso<ph id="ph2">\_</ph>214<ept id="p1">**</ept>.</source>
+          <target state="translated">例: <bpt id="p1">**</bpt>Test-PswaAuthorizationRule –UserName Contoso<ph id="ph1">\\</ph>JSmith –ComputerName Contoso<ph id="ph2">\_</ph>214<ept id="p1">**</ept>。</target>         
         </trans-unit>
         <trans-unit id="402" translate="yes" xml:space="preserve">
           <source>After you have configured an authorization rule, you are ready for authorized users to sign in to the web-based console and begin using Windows PowerShell Web Access.</source>

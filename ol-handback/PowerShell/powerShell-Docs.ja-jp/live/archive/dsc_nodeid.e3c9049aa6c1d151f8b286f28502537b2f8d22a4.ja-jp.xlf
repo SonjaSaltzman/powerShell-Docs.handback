@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" original="md" source-language="en-US" target-language="ja-jp">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">81b391b6c1bc334cb88f9af00f31a99d95df8270</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\dsc_nodeid.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
     <body>
       <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
@@ -48,161 +55,10 @@
           <target state="translated">このリリースで出荷された新しいプル サーバーでは、これらの新機能または以前の機能を使うことができます。</target>         
         </trans-unit>
         <trans-unit id="112" translate="yes" xml:space="preserve">
-          <source>Agent ID</source>
-          <target state="translated">エージェント ID</target>         
-        </trans-unit>
-        <trans-unit id="113" translate="yes" xml:space="preserve">
-          <source>This feature is for users who do not want to setup and manage unique identifiers for each target node.</source>
-          <target state="translated">この機能は、ターゲット ノードごとに一意の識別子をセットアップして管理する手間を省くために最適です。</target>         
-        </trans-unit>
-        <trans-unit id="114" translate="yes" xml:space="preserve">
-          <source>Now, there is no more bookkeeping of GUIDs required.</source>
-          <target state="translated">これで、GUID のブックキーピングが必要なくなります。</target>         
-        </trans-unit>
-        <trans-unit id="115" translate="yes" xml:space="preserve">
-          <source>DSC automatically generates an agent ID that it uses when communicating with the pull server.</source>
-          <target state="translated">DSC では、プル サーバーと通信するときに使うエージェント ID が自動的に生成されます。</target>         
-        </trans-unit>
-        <trans-unit id="116" translate="yes" xml:space="preserve">
-          <source>This ID is used by the pull server to uniquely identify all information with a given node.</source>
-          <target state="translated">プルサーバーでは、この ID を使って特定のノードのすべての情報を一意に識別できます。</target>         
-        </trans-unit>
-        <trans-unit id="117" translate="yes" xml:space="preserve">
-          <source>It also means that you do not need to set up each target node with a unique meta-configuation containing a unique ID so a single meta-configuation can be used by many target nodes while still retaining each node's unique identity.</source>
-          <target state="translated">また、一意の ID を含む一意のメタ構成を指定して各ターゲット ノードをセットアップする必要がなくなるため、1 つのメタ構成を多数のターゲット ノードで使いながらも、各ノードに一意の ID を保持できます。</target>         
-        </trans-unit>
-        <trans-unit id="118" translate="yes" xml:space="preserve">
-          <source>Configuration name</source>
-          <target state="translated">構成名</target>         
-        </trans-unit>
-        <trans-unit id="119" translate="yes" xml:space="preserve">
-          <source>The configuration name is a friendly name that defines that name of the configuration that a target node will apply.</source>
-          <target state="translated">構成名は、ターゲット ノードが適用する構成の名前を定義するフレンドリ名です。</target>         
-        </trans-unit>
-        <trans-unit id="120" translate="yes" xml:space="preserve">
-          <source>The changes associated to this are as follows:</source>
-          <target state="translated">これに関連した変更点は次のとおりです。</target>         
-        </trans-unit>
-        <trans-unit id="121" translate="yes" xml:space="preserve">
-          <source>Friendly naming</source>
-          <target state="translated">フレンドリ名</target>         
-        </trans-unit>
-        <trans-unit id="122" translate="yes" xml:space="preserve">
-          <source>This can be any string!</source>
-          <target state="translated">任意の文字列を指定できます。</target>         
-        </trans-unit>
-        <trans-unit id="123" translate="yes" xml:space="preserve">
-          <source>It does not need to be in the format of a GUID so a configuration that sets up SQL server can simply be named 'SQL_Server'.</source>
-          <target state="translated">GUID の形式にする必要はないため、SQL Server をセットアップする構成に 'SQL_Server' といったシンプルな名前を付けることができます。</target>         
-        </trans-unit>
-        <trans-unit id="124" translate="yes" xml:space="preserve">
-          <source>This makes it much easier to identify what a given configuration does.</source>
-          <target state="translated">これにより、特定の構成の用途を簡単に識別できるようになります。</target>         
-        </trans-unit>
-        <trans-unit id="125" translate="yes" xml:space="preserve">
-          <source>Assignment</source>
-          <target state="translated">割り当て</target>         
-        </trans-unit>
-        <trans-unit id="126" translate="yes" xml:space="preserve">
-          <source>The configuration that a target node is assigned is centrally managed on the pull server.</source>
-          <target state="translated">ターゲット ノードに割り当てる構成は、プル サーバーで集中管理されます。</target>         
-        </trans-unit>
-        <trans-unit id="127" translate="yes" xml:space="preserve">
-          <source>This can be bootstrapped by defining the ConfigrationName property in the meta-configuration but this is only used during registration.</source>
-          <target state="translated">この構成は、メタ構成の ConfigrationName プロパティを定義することによってブートストラップで使うことができますが、これが使われるのは登録時のみです。</target>         
-        </trans-unit>
-        <trans-unit id="128" translate="yes" xml:space="preserve">
-          <source>After registration, the server tells the target node what configuration it will get.</source>
-          <target state="translated">登録後は、ターゲット ノードが取得する構成はサーバーから指示されます。</target>         
-        </trans-unit>
-        <trans-unit id="129" translate="yes" xml:space="preserve">
-          <source>For the on-premises pull server this mapping between configurations and target nodes can only be done during registration, but in Azure Automation these changes can be made easily in the UI or through their cmdlets.</source>
-          <target state="translated">オンプレミスのプル サーバーでは、構成とターゲット ノード間のこのマッピングは登録中にしか実行できません。しかし、Azure Automation では、UI を使うかコマンドレットを通してこのマッピングを容易に変更できます。</target>         
-        </trans-unit>
-        <trans-unit id="130" translate="yes" xml:space="preserve">
-          <source>To change the configuration assigned to a target node for the on-premises pull server you can re-run registration.</source>
-          <target state="translated">オンプレミスのプル サーバーのターゲット ノードに割り当てられている構成を変更するには、登録を再実行します。</target>         
-        </trans-unit>
-        <trans-unit id="131" translate="yes" xml:space="preserve">
-          <source>Multiple/Partial configurations</source>
-          <target state="translated">複数の構成と部分的な構成</target>         
-        </trans-unit>
-        <trans-unit id="132" translate="yes" xml:space="preserve">
-          <source>If multiple configuration names are assigned to a target node, they will be treated like partial configurations.</source>
-          <target state="translated">ターゲット ノードに複数の構成名を割り当てると、それらの構成は部分的な構成のように処理されます。</target>         
-        </trans-unit>
-        <trans-unit id="133" translate="yes" xml:space="preserve">
-          <source>In order for this to work, the meta-configuration on the target node must be configured to accept the partial configurations.</source>
-          <target state="translated">これが機能するためには、ターゲット ノード上のメタ構成が部分的な構成を受け入れるように構成する必要があります。</target>         
-        </trans-unit>
-        <trans-unit id="134" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> This is only supported on the on-premises pull server.</source>
-          <target state="translated"><bpt id="p1">**</bpt>注:<ept id="p1">**</ept> これはオンプレミスのプル サーバーでのみサポートされます。</target>         
-        </trans-unit>
-        <trans-unit id="135" translate="yes" xml:space="preserve">
-          <source>Azure Automation does not support partial configurations.</source>
-          <target state="translated">Azure Automation では、部分的な構成はサポートされません。</target>         
-        </trans-unit>
-        <trans-unit id="136" translate="yes" xml:space="preserve">
-          <source>Registration</source>
-          <target state="translated">登録</target>         
-        </trans-unit>
-        <trans-unit id="137" translate="yes" xml:space="preserve">
-          <source>Because configuration names are no longer GUIDs (they are now friendly names), anyone can guess them.</source>
-          <target state="translated">構成名は GUID ではなくなった (今はフレンドリ名になった) ため、だれでも推測できてしまいます。</target>         
-        </trans-unit>
-        <trans-unit id="138" translate="yes" xml:space="preserve">
-          <source>To mitigate the inherent security issue with this, we added a registration step before a node can start requesting configurations from a server.</source>
-          <target state="translated">これに伴う本質的なセキュリティ問題を軽減するために、ノードがサーバーから構成を要求できるようになる前に、登録ステップが追加されました。</target>         
-        </trans-unit>
-        <trans-unit id="139" translate="yes" xml:space="preserve">
-          <source>A node registers itself with the pull server with a shared secret (which the node and the server both know already), and, optionally, the name of the configuration it will request.</source>
-          <target state="translated">ノードは自身を共有シークレット (ノードとサーバーの両方に既知のもの) を指定してプル サーバーに登録し、必要に応じて、要求する構成の名前も指定します。</target>         
-        </trans-unit>
-        <trans-unit id="140" translate="yes" xml:space="preserve">
-          <source>This shared secret doesn't have to be unique for each computer.</source>
-          <target state="translated">この共有シークレットは、各コンピューターに対して一意である必要はありません。</target>         
-        </trans-unit>
-        <trans-unit id="141" translate="yes" xml:space="preserve">
-          <source>Assumption: the shared secret is a hard-to-guess identifier, like a GUID.</source>
-          <target state="translated">ただし、共有シークレットは、GUID のように推測しにくい識別子であることを想定しています。</target>         
-        </trans-unit>
-        <trans-unit id="142" translate="yes" xml:space="preserve">
-          <source>This shared secret is defined by the <bpt id="p1">**</bpt>RegistrationKey<ept id="p1">**</ept> property in the target node's meta-configuration.</source>
-          <target state="translated">この共有シークレットは、ターゲット ノードのメタ構成に含まれる <bpt id="p1">**</bpt>RegistrationKey<ept id="p1">**</ept> プロパティで定義されます。</target>         
-        </trans-unit>
-        <trans-unit id="143" translate="yes" xml:space="preserve">
-          <source>Example meta-configuration</source>
-          <target state="translated">メタ構成の例</target>         
-        </trans-unit>
-        <trans-unit id="144" translate="yes" xml:space="preserve">
-          <source>The RegistrationKey value must be defined by on the pull server.</source>
-          <target state="translated">RegistrationKey 値は、プル サーバー上で定義する必要があります。</target>         
-        </trans-unit>
-        <trans-unit id="145" translate="yes" xml:space="preserve">
-          <source>In order to do this while setting up the pull server, create a text file with the name <bpt id="p1">**</bpt>RegistrationKeys.txt<ept id="p1">**</ept> in a specific location, and then set this location in the web.config of the pull server, as shown below.</source>
-          <target state="translated">プル サーバーのセットアップ中に定義するには、<bpt id="p1">**</bpt>RegistrationKeys.txt<ept id="p1">**</ept> という名前のテキスト ファイルを特定の場所に作成し、次のようにしてプル サーバーの web.config にその場所を設定します。</target>         
-        </trans-unit>
-        <trans-unit id="146" translate="yes" xml:space="preserve">
-          <source>Use the latest version of the xDSCWebService DSC resource to fully deploy an on-premises pull server for use with this.</source>
-          <target state="translated">これを使用するオンプレミスのプル サーバーを完全に展開するには、最新バージョンの xDSCWebService DSC リソースを使用します。</target>         
-        </trans-unit>
-        <trans-unit id="147" translate="yes" xml:space="preserve">
-          <source>See <bpt id="p1">[</bpt>Example Configuration<ept id="p1">](https://github.com/grayzu/PSSummitEU2015/blob/master/PullServer/02%20-%20PullServer%20Config.ps1)</ept> for a complete configuration.</source>
-          <target state="translated">完全な構成は、<bpt id="p1">[</bpt>構成の例<ept id="p1">](https://github.com/grayzu/PSSummitEU2015/blob/master/PullServer/02%20-%20PullServer%20Config.ps1)</ept>を参照してください。</target>         
-        </trans-unit>
-        <trans-unit id="148" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> This feature is not supported when the pull server is set up to be a file share.</source>
-          <target state="translated"><bpt id="p1">**</bpt>注:<ept id="p1">**</ept> ファイル共有用にプル サーバーがセットアップされている場合、この機能はサポートされません。</target>         
-        </trans-unit>
-        <trans-unit id="149" translate="yes" xml:space="preserve">
-          <source>It is only supported for the web-based pull server.</source>
-          <target state="translated">Web ベースのプル サーバーの場合にのみサポートされます。</target>         
+          <source>For more information, see <bpt id="p1">[</bpt>Setting up a pull client using configuration names<ept id="p1">](../dsc/pullClientConfigNames.md)</ept></source>
+          <target state="translated">詳細については、「<bpt id="p1">[</bpt>構成名を使用したプル クライアントのセットアップ<ept id="p1">](../dsc/pullClientConfigNames.md)</ept>」をご覧ください。</target>         
         </trans-unit>
       </group>
     </body>
   </file>
-  <header xmlns="">
-    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">517c1d3654cd87b2356abadabf474c76580767f4</xliffext:olfilehash>
-  </header>
 </xliff>
