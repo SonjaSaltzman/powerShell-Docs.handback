@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" original="md" source-language="en-US" target-language="fr-fr">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="fr-fr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1c0bad4dab64c9fbd09be23df3d7b19913fa9511</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\dsc_runas.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
     <body>
       <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
@@ -8,81 +15,14 @@
           <target state="translated">Prise en charge automatique de RunAs pour les ressources DSC</target>         
         </trans-unit>
         <trans-unit id="102" translate="yes" xml:space="preserve">
-          <source>Support for DSC RunAs credential</source>
-          <target state="translated">Prise en charge des informations d’identification DSC RunAs</target>         
+          <source>WMF 5.0 includes support for running <bpt id="p1">**</bpt>any<ept id="p1">**</ept> DSC resource under a specified set of credentials by using the property <ph id="ph1">`PsDscRunAsCredential`</ph>.</source>
+          <target state="translated">WMF 5.0 inclut la prise en charge de l’exécution de <bpt id="p1">**</bpt>n’importe quelle<ept id="p1">**</ept> ressource DSC sous un jeu d’informations d’identification spécifié à l’aide de la propriété <ph id="ph1">`PsDscRunAsCredential`</ph>.</target>         
         </trans-unit>
         <trans-unit id="103" translate="yes" xml:space="preserve">
-          <source>WMF 5.0 Preview April 2015 includes support for running <bpt id="p1">**</bpt>any<ept id="p1">**</ept> DSC resource under a specified set of credentials by using the property PsDscRunAsCredential.</source>
-          <target state="translated">La version WMF 5.0 Preview d’avril 2015 inclut la prise en charge de l’exécution de <bpt id="p1">**</bpt>n’importe quelle<ept id="p1">**</ept> ressource DSC sous un jeu d’informations d’identification spécifié à l’aide de la propriété PsDscRunAsCredential.</target>         
-        </trans-unit>
-        <trans-unit id="104" translate="yes" xml:space="preserve">
-          <source>It enables scenarios like installing MSI packages in a specific user context, accessing a user’s registry hive, accessing a user’s specific local directory, accessing a network share, etc.</source>
-          <target state="translated">Cela autorise des scénarios tels que l’installation de packages MSI dans un contexte utilisateur spécifique, l’accès à la ruche du Registre d’un utilisateur, l’accès au répertoire local spécifique d’un utilisateur, l’accès à un partage réseau, et ainsi de suite.</target>         
-        </trans-unit>
-        <trans-unit id="105" translate="yes" xml:space="preserve">
-          <source>The following shows an example of using the PsDscRunAsCredential property in DSC to change the background color of the command prompt of a user.</source>
-          <target state="translated">Voici un exemple d’utilisation de la propriété PsDscRunAsCredential dans DSC pour modifier la couleur d’arrière-plan de l’invite de commandes d’un utilisateur.</target>         
-        </trans-unit>
-        <trans-unit id="106" translate="yes" xml:space="preserve">
-          <source>Configuration ChangeCmdBackGroundColor</source>
-          <target state="translated">Configuration ChangeCmdBackGroundColor</target>         
-        </trans-unit>
-        <trans-unit id="107" translate="yes" xml:space="preserve">
-          <source>{</source>
-          <target state="translated">{</target>         
-        </trans-unit>
-        <trans-unit id="108" translate="yes" xml:space="preserve">
-          <source>}</source>
-          <target state="translated">}</target>         
-        </trans-unit>
-        <trans-unit id="109" translate="yes" xml:space="preserve">
-          <source>$configData = @{</source>
-          <target state="translated">$configData = @{</target>         
-        </trans-unit>
-        <trans-unit id="110" translate="yes" xml:space="preserve">
-          <source>AllNodes = @(</source>
-          <target state="translated">AllNodes = @(</target>         
-        </trans-unit>
-        <trans-unit id="111" translate="yes" xml:space="preserve">
-          <source>@{</source>
-          <target state="translated">@{</target>         
-        </trans-unit>
-        <trans-unit id="112" translate="yes" xml:space="preserve">
-          <source>NodeName="localhost";</source>
-          <target state="translated">NodeName="localhost";</target>         
-        </trans-unit>
-        <trans-unit id="113" translate="yes" xml:space="preserve">
-          <source>CertificateFile = "C:\\publicKeys\\targetNode.cer"</source>
-          <target state="translated">CertificateFile = "C:\\publicKeys\\targetNode.cer"</target>         
-        </trans-unit>
-        <trans-unit id="114" translate="yes" xml:space="preserve">
-          <source>}</source>
-          <target state="translated">}</target>         
-        </trans-unit>
-        <trans-unit id="116" translate="yes" xml:space="preserve">
-          <source>}</source>
-          <target state="translated">}</target>         
-        </trans-unit>
-        <trans-unit id="117" translate="yes" xml:space="preserve">
-          <source>ChangeCmdBackGroundColor -ConfigurationData $configData</source>
-          <target state="translated">ChangeCmdBackGroundColor -ConfigurationData $configData</target>         
-        </trans-unit>
-        <trans-unit id="118" translate="yes" xml:space="preserve">
-          <source>Known issues</source>
-          <target state="translated">Problèmes connus</target>         
-        </trans-unit>
-        <trans-unit id="119" translate="yes" xml:space="preserve">
-          <source>In this release, the following are known issues of the DSC RunAs credential feature:</source>
-          <target state="translated">Voici une liste des problèmes connus avec la fonctionnalité d’informations d’identification DSC RunAs dans cette version :</target>         
-        </trans-unit>
-        <trans-unit id="120" translate="yes" xml:space="preserve">
-          <source>The WindowsProcess resource doesn’t support RunAs credential.</source>
-          <target state="translated">La ressource WindowsProcess ne prend pas en charge les informations d’identification RunAs.</target>         
+          <source>For more information, see <bpt id="p1">[</bpt>Running DSC with user credentials<ept id="p1">](../dsc/runAsUser.md)</ept>.</source>
+          <target state="translated">Pour plus d’informations, consultez <bpt id="p1">[</bpt>Exécution de DSC avec les informations d’identification de l’utilisateur<ept id="p1">](../dsc/runAsUser.md)</ept>.</target>         
         </trans-unit>
       </group>
     </body>
   </file>
-  <header xmlns="">
-    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d4919d80c1b1f8509b4e581768dd6f74e9d01f0d</xliffext:olfilehash>
-  </header>
 </xliff>
