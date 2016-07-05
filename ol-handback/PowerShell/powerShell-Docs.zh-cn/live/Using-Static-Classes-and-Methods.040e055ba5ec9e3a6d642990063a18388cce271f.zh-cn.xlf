@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">50ebc8a737b50aba5a5af49716b59905da74669a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Using-Static-Classes-and-Methods.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Using Static Classes and Methods</source>
+          <target state="translated">使用静态类和方法</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Using Static Classes and Methods</source>
+          <target state="translated">使用静态类和方法</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Not all .NET Framework classes can be created by using <bpt id="p1">**</bpt>New<ph id="ph1">\-</ph>Object<ept id="p1">**</ept>.</source>
+          <target state="translated">不是所有 .NET Framework 类都可使用 <bpt id="p1">**</bpt>New<ph id="ph1">\-</ph>Object<ept id="p1">**</ept> 来创建。</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>For example, if you try to create a <bpt id="p1">**</bpt>System.Environment<ept id="p1">**</ept> or a <bpt id="p2">**</bpt>System.Math<ept id="p2">**</ept> object with <bpt id="p3">**</bpt>New<ph id="ph1">\-</ph>Object<ept id="p3">**</ept>, you will get the following error messages:</source>
+          <target state="translated">例如，如果你尝试使用 <bpt id="p3">**</bpt>New<ph id="ph1">\-</ph>Object<ept id="p3">**</ept> 创建 <bpt id="p1">**</bpt>System.Environment<ept id="p1">**</ept> 或 <bpt id="p2">**</bpt>System.Math<ept id="p2">**</ept> 对象，你将收到以下错误消息：</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>These errors occur because there is no way to create a new object from these classes.</source>
+          <target state="translated">之所以发生这些错误，是因为无法从这些类创建新的对象。</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>These classes are reference libraries of methods and properties that do not change state.</source>
+          <target state="translated">这些类是不更改状态的方法和属性的引用库。</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You don't need to create them, you simply use them.</source>
+          <target state="translated">你无需创建这些类，只需要使用它们。</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Classes and methods such as these are called <bpt id="p1">*</bpt>static classes<ept id="p1">*</ept> because they are not created, destroyed, or changed.</source>
+          <target state="translated">这样的类和方法称为<bpt id="p1">*</bpt>静态类<ept id="p1">*</ept>，因为它们不会被创建、销毁或更改。</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To make this clear we will provide examples that use static classes.</source>
+          <target state="translated">为了明确这一点，我们将提供静态类的使用示例。</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Getting Environment Data with System.Environment</source>
+          <target state="translated">使用 System.Environment 获取环境数据</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Usually, the first step in working with an object in Windows PowerShell is to use Get<ph id="ph1">\-</ph>Member to find out what members it contains.</source>
+          <target state="translated">通常，在 Windows PowerShell 中使用对象的第一步是使用 Get<ph id="ph1">\-</ph>Member 找出其所包含的成员。</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>With static classes, the process is a little different because the actual class is not an object.</source>
+          <target state="translated">使用静态类，进程会稍有不同，因为实际类不是对象。</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Referring to the Static System.Environment Class</source>
+          <target state="translated">引用静态的 System.Environment 类</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can refer to a static class by surrounding the class name with square brackets.</source>
+          <target state="translated">可以通过使用方括号将类名称括起来以引用静态类。</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For example, you can refer to <bpt id="p1">**</bpt>System.Environment<ept id="p1">**</ept> by typing the name within brackets.</source>
+          <target state="translated">例如，可以通过在括号内键入名称来引用 <bpt id="p1">**</bpt>System.Environment<ept id="p1">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Doing so displays some generic type information:</source>
+          <target state="translated">执行此操作会显示某些泛型类型的信息：</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>As we mentioned previously, Windows PowerShell automatically prepends '<bpt id="p1">**</bpt>System.<ept id="p1">**</ept>'</source>
+          <target state="translated">正如我们之前提到的，当你使用 <bpt id="p1">**</bpt>New-Object<ept id="p1">**</ept> 时，Windows PowerShell 会</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>to type names when you use <bpt id="p1">**</bpt>New<ph id="ph1">\-</ph>Object<ept id="p1">**</ept>.</source>
+          <target state="translated">自动追加“<bpt id="p1">**</bpt>System.<ept id="p1">**</ept>”以键入名称。</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The same thing happens when using a bracketed type name, so you can specify <bpt id="p1">**</bpt><ph id="ph1">\[</ph>System.Environment]<ept id="p1">**</ept> as <bpt id="p2">**</bpt><ph id="ph2">\[</ph>Environment]<ept id="p2">**</ept>.</source>
+          <target state="translated">使用被括号括起来的类型名称时也会发生同样的情况，因此可以将 <bpt id="p1">**</bpt><ph id="ph1">\[</ph>System.Environment]<ept id="p1">**</ept> 指定为 <bpt id="p2">**</bpt><ph id="ph2">\[</ph>Environment]<ept id="p2">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>System.Environment<ept id="p1">**</ept> class contains general information about the working environment for the current process, which is powershell.exe when working within Windows PowerShell.</source>
+          <target state="translated"><bpt id="p1">**</bpt>System.Environment<ept id="p1">**</ept> 类包含关于当前进程工作环境的一般信息，如果是在 Windows PowerShell 内工作，该进程为 powershell.exe。</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If you try to view details of this class by typing <bpt id="p1">**</bpt><ph id="ph1">\[</ph>System.Environment] | Get<ph id="ph2">\-</ph>Member<ept id="p1">**</ept>, the object type is reported as being <bpt id="p2">**</bpt>System.RuntimeType<ept id="p2">**</ept> , not <bpt id="p3">**</bpt>System.Environment<ept id="p3">**</ept>:</source>
+          <target state="translated">如果尝试通过键入 <bpt id="p1">**</bpt><ph id="ph1">\[</ph>System.Environment] | Get<ph id="ph2">\-</ph>Member<ept id="p1">**</ept> 来查看此类的详细信息，对象类型将报告为 <bpt id="p2">**</bpt>System.RuntimeType<ept id="p2">**</ept>，而不是 <bpt id="p3">**</bpt>System.Environment<ept id="p3">**</ept>：</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To view static members with Get<ph id="ph1">\-</ph>Member, specify the <bpt id="p1">**</bpt>Static<ept id="p1">**</ept> parameter:</source>
+          <target state="translated">若要使用 Get<ph id="ph1">\-</ph>Member 查看静态成员，请指定 <bpt id="p1">**</bpt>Static<ept id="p1">**</ept> 参数：</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>We can now select properties to view from System.Environment.</source>
+          <target state="translated">现在我们可以从 System.Environment 选择要查看的属性。</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Displaying Static Properties of System.Environment</source>
+          <target state="translated">显示 System.Environment 的静态属性</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The properties of System.Environment are also static, and must be specified in a different way than normal properties.</source>
+          <target state="translated">System.Environment 的属性也是静态的，并且必须使用与常规属性不同的方式进行指定。</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>We use <bpt id="p1">**</bpt>::<ept id="p1">**</ept> to indicate to Windows PowerShell that we want to work with a static method or property.</source>
+          <target state="translated">我们使用 <bpt id="p1">**</bpt>::<ept id="p1">**</ept> 向 Windows PowerShell 指示我们要使用静态方法或属性。</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To see the command that was used to launch Windows PowerShell, we check the <bpt id="p1">**</bpt>CommandLine<ept id="p1">**</ept> property by typing:</source>
+          <target state="translated">若要查看用于启动 Windows PowerShell 的命令，我们通过键入以下内容来检查 <bpt id="p1">**</bpt>CommandLine<ept id="p1">**</ept> 属性：</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To check the operating system version, display the OSVersion property by typing:</source>
+          <target state="translated">若要检查操作系统版本，通过键入以下内容显示 OSVersion 属性：</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>We can check whether the computer is in the process of shutting down by displaying the <bpt id="p1">**</bpt>HasShutdownStarted<ept id="p1">**</ept> property:</source>
+          <target state="translated">我们可以通过显示 <bpt id="p1">**</bpt>HasShutdownStarted<ept id="p1">**</ept> 属性来检查计算机是否处于关机进程中：</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Doing Math with System.Math</source>
+          <target state="translated">使用 System.Math 做数学</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The System.Math static class is useful for performing some mathematical operations.</source>
+          <target state="translated">System.Math 静态类可用于执行某些数学运算。</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The important members of <bpt id="p1">**</bpt>System.Math<ept id="p1">**</ept> are mostly methods, which we can display by using <bpt id="p2">**</bpt>Get<ph id="ph1">\-</ph>Member<ept id="p2">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>System.Math<ept id="p1">**</ept> 的重要成员大多数是方法，我们可以使用 <bpt id="p2">**</bpt>Get<ph id="ph1">\-</ph>Member<ept id="p2">**</ept> 来显示它们。</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>System.Math has several methods with the same name, but they are distinguished by the type of their parameters.</source>
+          <target state="translated">System.Math 的一些方法具有相同的名称，但可以按其参数的类型对其进行区分。</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Type the following command to list the methods of the <bpt id="p1">**</bpt>System.Math<ept id="p1">**</ept> class.</source>
+          <target state="translated">键入以下内容来列出 <bpt id="p1">**</bpt>System.Math<ept id="p1">**</ept> 类的方法。</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This displays several mathematical methods.</source>
+          <target state="translated">这会显示多种数学方法。</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Here is a list of commands that demonstrate how some of the common methods work:</source>
+          <target state="translated">以下是一个命令列表，展示了某些常用方法的工作原理：</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

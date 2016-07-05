@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6d878b89a4cd49948cb465525e74e92db819c192</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Performing-Networking-Tasks.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Performing Networking Tasks</source>
+          <target state="translated">执行网络任务</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Performing Networking Tasks</source>
+          <target state="translated">执行网络任务</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Because TCP<ph id="ph1">\/</ph>IP is the most commonly used network protocol, most low<ph id="ph2">\-</ph>level network protocol administration tasks involve TCP<ph id="ph3">\/</ph>IP.</source>
+          <target state="translated">由于 TCP<ph id="ph1">\/</ph>IP 是最常用的网络协议，因此大多数低级别网络协议管理任务都涉及 TCP<ph id="ph3">\/</ph>IP。</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In this section, we use Windows PowerShell and WMI to do these tasks.</source>
+          <target state="translated">在本部分中，我们使用 Windows PowerShell 和 WMI 来执行这些任务。</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Listing IP Addresses for a Computer</source>
+          <target state="translated">列出计算机的 IP 地址</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To get all IP addresses in use on the local computer, use the following command:</source>
+          <target state="translated">若要获取本地计算机上使用的所有 IP 地址，请使用以下命令：</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The output of this command differs from most property lists, because values are enclosed in braces:</source>
+          <target state="translated">此命令的输出与大多数属性列表不同，因为值括在大括号中：</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>IPAddress</source>
+          <target state="translated">IPAddress</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>{192.168.1.80} {192.168.148.1} {192.168.171.1} {0.0.0.0}</source>
+          <target state="translated">{192.168.1.80} {192.168.148.1} {192.168.171.1} {0.0.0.0}</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To understand why the braces appear, use the Get<ph id="ph1">\-</ph>Member cmdlet to examine the <bpt id="p1">**</bpt>IPAddress<ept id="p1">**</ept> property:</source>
+          <target state="translated">若要了解大括号出现的原因，请使用 Get<ph id="ph1">\-</ph>Member cmdlet 检查 <bpt id="p1">**</bpt>IPAddress<ept id="p1">**</ept> 属性：</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>PS&gt; Get-WmiObject -Class Win32_NetworkAdapterConfiguration -Filter IPEnabled=TRUE -ComputerName .</source>
+          <target state="translated">PS&gt; Get-WmiObject -Class Win32_NetworkAdapterConfiguration -Filter IPEnabled=TRUE -ComputerName。</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>| Get-Member -Name IPAddress TypeName: System.Management.ManagementObject#root\cimv2\Win32_NetworkAdapter Configuration Name      MemberType Definition ----      ---------- ---------- IPAddress Property   System.String[] IPAddress {get;}</source>
+          <target state="translated">| Get-Member -Name IPAddress TypeName: System.Management.ManagementObject#root\cimv2\Win32_NetworkAdapter Configuration Name      MemberType Definition ----      ---------- ---------- IPAddress Property   System.String[] IPAddress {get;}</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The IPAddress property for each network adapter is actually an array.</source>
+          <target state="translated">每个网络适配器的 IPAddress 属性实际上是一个数组。</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The braces in the definition indicate that <bpt id="p1">**</bpt>IPAddress<ept id="p1">**</ept> is not a <bpt id="p2">**</bpt>System.String<ept id="p2">**</ept> value, but an array of <bpt id="p3">**</bpt>System.String<ept id="p3">**</ept> values.</source>
+          <target state="translated">定义中的大括号指示 <bpt id="p1">**</bpt>IPAddress<ept id="p1">**</ept> 不是 <bpt id="p2">**</bpt>System.String<ept id="p2">**</ept> 值，而是由 <bpt id="p3">**</bpt>System.String<ept id="p3">**</ept> 值组成的数组。</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Listing IP Configuration Data</source>
+          <target state="translated">列出 IP 配置数据</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To display detailed IP configuration data for each network adapter, use the following command:</source>
+          <target state="translated">若要显示每个网络适配器的详细 IP 配置数据，请使用以下命令：</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The default display for the network adapter configuration object is a very reduced set of the available information.</source>
+          <target state="translated">网络适配器配置对象的默认显示为一组非常精简的可用信息。</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For in<ph id="ph1">\-</ph>depth inspection and troubleshooting, use Select<ph id="ph2">\-</ph>Object or a formatting cmdlet, such as Format<ph id="ph3">\-</ph>List, to specify the properties to be displayed.</source>
+          <target state="translated">对于深入检查和疑难解答，请使用 Select<ph id="ph2">\-</ph>Object 或格式设置 cmdlet（例如 Format<ph id="ph3">\-</ph>List）来指定要显示的属性。</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If you are not interested in IPX or WINS properties—probably the case in a modern TCP<ph id="ph1">\/</ph>IP network—you can use the ExcludeProperty parameter of Select<ph id="ph2">\-</ph>Object to hide properties with names that begin with "WINS" or "IPX:"</source>
+          <target state="translated">如果你对 IPX 或 WINS 属性不感兴趣（可能是在使用现代 TCP<ph id="ph1">\/</ph>IP 网络的情况下），则可以使用 Select<ph id="ph2">\-</ph>Object 的 ExcludeProperty 参数来隐藏名称以“WINS”或“IPX:”开头的属性</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This command returns detailed information about DHCP, DNS, routing, and other minor IP configuration properties.</source>
+          <target state="translated">此命令返回有关 DHCP、DNS、路由以及其他次要 IP 配置属性的详细信息。</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Pinging Computers</source>
+          <target state="translated">Ping 计算机</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You can perform a simple ping against a computer using by <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>PingStatus<ept id="p1">**</ept>.</source>
+          <target state="translated">你可以使用 <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>PingStatus<ept id="p1">**</ept> 对计算机执行简单的 Ping 操作。</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The following command performs the ping, but returns lengthy output:</source>
+          <target state="translated">下面的命令执行 Ping 操作，但返回冗长的输出：</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A more useful form for summary information a display of the Address, ResponseTime, and StatusCode properties, as generated by the following command.</source>
+          <target state="translated">摘要信息是更为有用的形式，它显示下面的命令生成的 Address、ResponseTime 以及 StatusCode 属性。</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The Autosize parameter of Format<ph id="ph1">\-</ph>Table resizes the table columns so that they display properly in Windows PowerShell.</source>
+          <target state="translated">Format<ph id="ph1">\-</ph>Table 的 Autosize 参数调整表列的大小，以使其正确显示在 Windows PowerShell 中。</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You can use an array to ping multiple computers with a single command.</source>
+          <target state="translated">你可以使用数组借助单个命令对计算机执行 Ping 操作。</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Because there is more than one address, use the <bpt id="p1">**</bpt>ForEach<ph id="ph1">\-</ph>Object<ept id="p1">**</ept> to ping each address separately:</source>
+          <target state="translated">由于存在多个地址，因此请使用 <bpt id="p1">**</bpt>ForEach<ph id="ph1">\-</ph>Object<ept id="p1">**</ept> 单独对每个地址执行 Ping 操作：</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You can use the same command format to ping all of the computers on a subnet, such as a private network that uses network number 192.168.1.0 and a standard Class C subnet mask (255.255.255.0)., Only addresses in the range of 192.168.1.1 through 192.168.1.254 are legitimate local addresses (0 is always reserved for the network number and 255 is a subnet broadcast address).</source>
+          <target state="translated">可以使用相同的命令格式对一个子网（例如使用网络号码 (192.168.1.0) 和标准 C 类子网掩码 (255.255.255.0) 的专用网）上的所有计算机执行 Ping 操作。仅在 192.168.1.1 到 192.168.1.254 范围内的地址为合法本地地址（0 始终为网络号码保留，255 是子网广播地址）。</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To represent an array of the numbers from 1 through 254 in Windows PowerShell, use the statement <bpt id="p1">**</bpt>1..254.<ept id="p1">**</ept></source>
+          <target state="translated">若要在 Windows PowerShell 中表示从 1 到 254 范围内的数字数组，请使用语句 <bpt id="p1">**</bpt>1..254<ept id="p1">**</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>A complete subnet ping can be performed by generating the array and then adding the values onto a partial address in the ping statement:</source>
+          <target state="translated">可以通过生成数组，然后将值添加到 ping 语句中的部分地址上，执行完整的子网 Ping 操作：</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Note that this technique for generating a range of addresses can be used elsewhere as well.</source>
+          <target state="translated">请注意，这一用于生成一系列地址的方法也可用于其他地方。</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You can generate a complete set of addresses in this way:</source>
+          <target state="translated">你可以使用以下方式生成完整的地址集：</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Retrieving Network Adapter Properties</source>
+          <target state="translated">检索网络适配器属性</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Earlier in this user's guide, we mentioned that you could retrieve general configuration properties by using <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>NetworkAdapterConfiguration<ept id="p1">**</ept>.</source>
+          <target state="translated">在本用户指南的前面部分中，我们提到过你可以使用 <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>NetworkAdapterConfiguration<ept id="p1">**</ept> 来检索常规配置属性。</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Although not strictly TCP<ph id="ph1">\/</ph>IP information, network adapter information such as MAC addresses and adapter types can be useful for understanding what is going on with a computer.</source>
+          <target state="translated">尽管不是严格的 TCP<ph id="ph1">\/</ph>IP 信息，但网络适配器信息（例如 MAC 地址和适配器类型）也可用于了解计算机的运行情况。</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>To get a summary of this information, use the following command:</source>
+          <target state="translated">若要获取此信息的摘要，请使用下面的命令：</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Assigning the DNS Domain for a Network Adapter</source>
+          <target state="translated">为网络适配器分配 DNS 域</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To assign the DNS domain for automatic name resolution, use the <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>NetworkAdapterConfiguration SetDNSDomain<ept id="p1">**</ept> method.</source>
+          <target state="translated">若要分配 DNS 域以便进行自动名称解析，请使用 <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>NetworkAdapterConfiguration SetDNSDomain<ept id="p1">**</ept> 方法。</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Because you assign the DNS domain for each network adapter configuration independently, you need to use a <bpt id="p1">**</bpt>ForEach<ph id="ph1">\-</ph>Object<ept id="p1">**</ept> statement to assign the domain to each adapter:</source>
+          <target state="translated">由于你单独为每个网络适配器配置分配 DNS 域，因此需要使用 <bpt id="p1">**</bpt>ForEach<ph id="ph1">\-</ph>Object<ept id="p1">**</ept> 语句将域分配给每个适配器：</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The filtering statement "IPEnabled<ph id="ph1">\=</ph>true" is necessary, because even on a network that uses only TCP<ph id="ph2">\/</ph>IP, several of the network adapter configurations on a computer are not true TCP<ph id="ph3">\/</ph>IP adapters; they are general software elements supporting RAS, PPTP, QoS, and other services for all adapters and thus do not have an address of their own.</source>
+          <target state="translated">筛选语句“IPEnabled<ph id="ph1">\=</ph>true”是必需的，因为即使是在仅使用 TCP<ph id="ph2">\/</ph>IP 的网络上，计算机上的多个网络适配器配置也不是真正的 TCP<ph id="ph3">\/</ph>IP 适配器；它们是支持 RAS、PPTP、QoS，以及用于所有适配器的其他服务的常规软件元素，因此没有其自己的地址。</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>You can filter the command by using the <bpt id="p1">**</bpt>Where<ph id="ph1">\-</ph>Object<ept id="p1">**</ept> cmdlet, instead of using the <bpt id="p2">**</bpt>Get<ph id="ph2">\-</ph>WmiObject<ept id="p2">**</ept> filter.</source>
+          <target state="translated">可以使用 <bpt id="p1">**</bpt>Where<ph id="ph1">\-</ph>Object<ept id="p1">**</ept> cmdlet，而不是使用 <bpt id="p2">**</bpt>Get<ph id="ph2">\-</ph>WmiObject<ept id="p2">**</ept> 筛选器筛选命令。</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Performing DHCP Configuration Tasks</source>
+          <target state="translated">执行 DHCP 配置任务</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Modifying DHCP details involves working with a set of network adapters, just as the DNS configuration does.</source>
+          <target state="translated">修改 DHCP 详细信息需处理一组网络适配器，与 DNS 配置的操作相同。</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>There are several distinct actions you can perform by using WMI, and we will step through a few of the common ones.</source>
+          <target state="translated">你可通过使用 WMI 执行多种不同的操作，我们将逐步介绍一些常见操作。</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Determining DHCP<ph id="ph1">\-</ph>Enabled Adapters</source>
+          <target state="translated">确定启用 DHCP 的适配器</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To find the DHCP<ph id="ph1">\-</ph>enabled adapters on a computer, use the following command:</source>
+          <target state="translated">若要查找计算机上启用了 DHCP 的适配器，请使用下面的命令：</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To exclude adapters with IP configuration problems, you can retrieve only IP<ph id="ph1">\-</ph>enabled adapters:</source>
+          <target state="translated">若要排除有IP 配置问题的适配器，可以仅检索已启用 IP 的适配器：</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Retrieving DHCP Properties</source>
+          <target state="translated">检索 DHCP 属性</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Because DHCP<ph id="ph1">\-</ph>related properties for an adapter generally begin with "DHCP," you can use the Property parameter of Format<ph id="ph2">\-</ph>Table to display only those properties:</source>
+          <target state="translated">因为适配器的 DHCP 相关属性通常以“DHCP”开头，所以你可使用 Format<ph id="ph2">\-</ph>Table 的 Property 参数来仅显示那些属性：</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Enabling DHCP on Each Adapter</source>
+          <target state="translated">在每个适配器上启用 DHCP</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To enable DHCP on all adapters, use the following command:</source>
+          <target state="translated">若要在所有适配器上启用 DHCP，请使用下面的命令：</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">**</bpt>Filter<ept id="p1">**</ept> statement "IPEnabled<ph id="ph1">\=</ph>true and DHCPEnabled<ph id="ph2">\=</ph>false" to avoid enabling DHCP where it is already enabled, but omitting this step will not cause errors.</source>
+          <target state="translated">可以使用 <bpt id="p1">**</bpt>Filter<ept id="p1">**</ept> 语句“IPEnabled<ph id="ph1">\=</ph>true and DHCPEnabled<ph id="ph2">\=</ph>false”来避免在已启用 DHCP 的适配器上再次启用，但忽略此步骤不会导致出现错误。</target>         
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Releasing and Renewing DHCP Leases on Specific Adapters</source>
+          <target state="translated">释放和续订特定适配器上的 DHCP 租约</target>         
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>NetworkAdapterConfiguration<ept id="p1">**</ept> class has <bpt id="p2">**</bpt>ReleaseDHCPLease<ept id="p2">**</ept> and <bpt id="p3">**</bpt>RenewDHCPLease<ept id="p3">**</ept> methods.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>NetworkAdapterConfiguration<ept id="p1">**</ept> 类具有 <bpt id="p2">**</bpt>ReleaseDHCPLease<ept id="p2">**</ept> 和 <bpt id="p3">**</bpt>RenewDHCPLease<ept id="p3">**</ept> 方法。</target>         
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Both are used in the same way.</source>
+          <target state="translated">这两种方法的使用方式相同。</target>         
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>In general, use these methods if you only need to release or renew addresses for an adapter on a specific subnet.</source>
+          <target state="translated">一般情况下，在仅需释放或续订特定子网上的适配器地址时使用这些方法。</target>         
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The easiest way to filter adapters on a subnet is to choose only the adapter configurations that use the gateway for that subnet.</source>
+          <target state="translated">在子网上筛选器适配器的最简单方法是仅选择使用该子网的网关的适配器配置。</target>         
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>For example, the following command releases all DHCP leases on adapters on the local computer that are obtaining DHCP leases from 192.168.1.254:</source>
+          <target state="translated">例如，下面的命令释放本地计算机上适配器上的所有 DHCP 租约，这些适配器正在从 192.168.1.254 获得 DHCP 租约：</target>         
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The only change for renewing a DHCP lease is to use the <bpt id="p1">**</bpt>RenewDHCPLease<ept id="p1">**</ept> method instead of the <bpt id="p2">**</bpt>ReleaseDHCPLease<ept id="p2">**</ept> method:</source>
+          <target state="translated">续订 DHCP 租约的唯一更改是使用 <bpt id="p1">**</bpt>RenewDHCPLease<ept id="p1">**</ept> 方法，而不是 <bpt id="p2">**</bpt>ReleaseDHCPLease<ept id="p2">**</ept> 方法：</target>         
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>When using these methods on a remote computer, be aware that you can lose access to the remote system if you are connected to it through the adapter with the released or renewed lease.</source>
+          <target state="translated">在远程计算机上使用这些方法时，请注意，如果你通过已释放或已续订租约的适配器连接到远程系统，则可能会失去对该系统的访问权限。</target>         
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Releasing and Renewing DHCP Leases on All Adapters</source>
+          <target state="translated">释放和续订所有适配器上的 DHCP 租约</target>         
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You can perform global DHCP address releases or renewals on all adapters by using the <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>NetworkAdapterConfiguration<ept id="p1">**</ept> methods, <bpt id="p2">**</bpt>ReleaseDHCPLeaseAll<ept id="p2">**</ept> and <bpt id="p3">**</bpt>RenewDHCPLeaseAll<ept id="p3">**</ept>.</source>
+          <target state="translated">可以通过使用 <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>NetworkAdapterConfiguration<ept id="p1">**</ept> 方法、<bpt id="p2">**</bpt>ReleaseDHCPLeaseAll<ept id="p2">**</ept> 和 <bpt id="p3">**</bpt>RenewDHCPLeaseAll<ept id="p3">**</ept> 对所有适配器指定全局 DHCP 地址释放或续订。</target>         
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>However, the command must apply to the WMI class, rather than a particular adapter, because releasing and renewing leases globally is performed on the class, not on a specific adapter.</source>
+          <target state="translated">但是，该命令必须适用于 WMI 类，而不是特定的适配器，因为全局释放和续订租约是对该类执行的，而不是对特定适配器执行的。</target>         
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>You can get a reference to a WMI class, instead of class instances, by listing all WMI classes and then selecting only the desired class by name.</source>
+          <target state="translated">可以通过列出所有 WMI 类，然后按名称仅选择所需类来获取对 WMI 类而不是类实例的引用。</target>         
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>For example, the following command returns the Win32<ph id="ph1">\_</ph>NetworkAdapterConfiguration class:</source>
+          <target state="translated">例如，下面的命令将返回 Win32<ph id="ph1">\_</ph>NetworkAdapterConfiguration 类：</target>         
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>You can treat the entire command as the class and then invoke the <bpt id="p1">**</bpt>ReleaseDHCPAdapterLease<ept id="p1">**</ept> method on it.</source>
+          <target state="translated">可以将整个命令视为类，并在其上调用<bpt id="p1">**</bpt>ReleaseDHCPAdapterLease<ept id="p1">**</ept> 方法。</target>         
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>In the following command, the parentheses surrounding the <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>WmiObject<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Where<ph id="ph2">\-</ph>Object<ept id="p2">**</ept> pipeline elements direct Windows PowerShell to evaluate them first:</source>
+          <target state="translated">在下面的命令中，<bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>WmiObject<ept id="p1">**</ept> 和 <bpt id="p2">**</bpt>Where<ph id="ph2">\-</ph>Object<ept id="p2">**</ept> 管道元素两边的括号指示 Windows PowerShell 先对其进行评估：</target>         
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>You can use the same command format to invoke the <bpt id="p1">**</bpt>RenewDHCPLeaseAll<ept id="p1">**</ept> method:</source>
+          <target state="translated">可以使用相同的命令格式来调用 <bpt id="p1">**</bpt>RenewDHCPLeaseAll<ept id="p1">**</ept> 方法：</target>         
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Creating a Network Share</source>
+          <target state="translated">创建网络共享</target>         
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>To create a network share, use the <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>Share Create<ept id="p1">**</ept> method:</source>
+          <target state="translated">若要创建网络共享，请使用 <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>Share Create<ept id="p1">**</ept> 方法：</target>         
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>You can also create the share by using <bpt id="p1">**</bpt>net share<ept id="p1">**</ept> in Windows PowerShell:</source>
+          <target state="translated">还可以在 Windows PowerShell 中使用 <bpt id="p1">**</bpt>net share<ept id="p1">**</ept> 来创建共享：</target>         
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Removing a Network Share</source>
+          <target state="translated">删除网络共享</target>         
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>You can remove a network share with <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>Share<ept id="p1">**</ept>, but the process is slightly different from creating a share, because you need to retrieve the specific share to be removed, rather than the <bpt id="p2">**</bpt>Win32<ph id="ph2">\_</ph>Share<ept id="p2">**</ept> class.</source>
+          <target state="translated">可以使用 <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>Share<ept id="p1">**</ept> 删除网络共享，但是该过程与创建共享略有不同，因为需要检索要删除的特定共享，而不是 <bpt id="p2">**</bpt>Win32<ph id="ph2">\_</ph>Share<ept id="p2">**</ept> 类。</target>         
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The following statement deletes the share "TempShare":</source>
+          <target state="translated">下面的语句删除共享“TempShare”：</target>         
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Net share<ept id="p1">**</ept> works as well:</source>
+          <target state="translated"><bpt id="p1">**</bpt>Net share<ept id="p1">**</ept> 也可实现此操作：</target>         
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Connecting a Windows Accessible Network Drive</source>
+          <target state="translated">连接 Windows 可访问网络驱动器</target>         
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New<ph id="ph1">\-</ph>PSDrive<ept id="p1">**</ept> cmdlets creates a Windows PowerShell drive, but drives created this way are available only to Windows PowerShell.</source>
+          <target state="translated"><bpt id="p1">**</bpt>New<ph id="ph1">\-</ph>PSDrive<ept id="p1">**</ept> cmdlet 可创建 Windows PowerShell 驱动器，但使用这种方法创建的驱动器仅适用于 Windows PowerShell。</target>         
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>To create a new networked drive, you can use the <bpt id="p1">**</bpt>WScript.Network<ept id="p1">**</ept> COM object.</source>
+          <target state="translated">若要创建新的联网驱动器，可以使用 <bpt id="p1">**</bpt>WScript.Network<ept id="p1">**</ept> COM 对象。</target>         
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The following command maps the share <ph id="ph1">\\\\</ph>FPS01<ph id="ph2">\\</ph>users to local drive B:</source>
+          <target state="translated">下面的命令将共享 <ph id="ph1">\\\\</ph>FPS01<ph id="ph2">\\</ph>users 映射到本地驱动器 B：</target>         
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>net use<ept id="p1">**</ept> command works as well:</source>
+          <target state="translated"><bpt id="p1">**</bpt>net use<ept id="p1">**</ept> 命令也可实现此操作：</target>         
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Drives mapped with either <bpt id="p1">**</bpt>WScript.Network<ept id="p1">**</ept> or net use are immediately available to Windows PowerShell.</source>
+          <target state="translated">使用 <bpt id="p1">**</bpt>WScript.Network<ept id="p1">**</ept> 或 net use 映射的驱动器可立即用于 Windows PowerShell。</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
