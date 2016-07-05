@@ -2,10 +2,11 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
     <header>
-      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
-      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\resourceAuthoringChecklist.md</xliffext:olfilepath>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bd6af2cbf746e71aa59f509eae14664e647a1b05</xliffext:olfilehash>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-8d96cd8" tool-company="Microsoft" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\resourceAuthoringChecklist.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
     </header>
     <body>
       <group id="content" extype="content">
@@ -554,58 +555,50 @@
           <target state="translated"><bpt id="p1">**</bpt>最佳做法：资源文件夹包含用于生成架构的资源设计器脚本<ept id="p1">**</ept> 每个资源应包含用于生成资源的 mof 架构的资源设计器脚本。</target>         
         </trans-unit>
         <trans-unit id="237" translate="yes" xml:space="preserve">
-          <source>This file should be placed in</source>
-          <target state="translated">应将此文件放在</target>         
+          <source>This file should be placed in <ph id="ph1">&lt;ResourceName&gt;</ph>\ResourceDesignerScripts and be named Generate<ph id="ph2">&lt;ResourceName&gt;</ph>Schema.ps1 For xRemoteFile resource this file would be called GenerateXRemoteFileSchema.ps1 and contain:</source>
+          <target state="translated">该文件应位于 <ph id="ph1">&lt;ResourceName&gt;</ph>\ResourceDesignerScripts 并命名为 Generate<ph id="ph2">&lt;ResourceName&gt;</ph>Schema.ps1 对于 xRemoteFile 资源，该文件应命名为 GenerateXRemoteFileSchema.ps1 并包含:</target>         
         </trans-unit>
         <trans-unit id="238" translate="yes" xml:space="preserve">
-          <source>\ResourceDesignerScripts and be named Generate</source>
-          <target state="translated">\ResourceDesignerScripts 并将其命名为 Generate</target>         
-        </trans-unit>
-        <trans-unit id="239" translate="yes" xml:space="preserve">
-          <source>Schema.ps1 For xRemoteFile resource this file would be called GenerateXRemoteFileSchema.ps1 and contain:</source>
-          <target state="translated">Schema.ps1 对于 xRemoteFile 资源，此文件的命名为 GenerateXRemoteFileSchema.ps1，其中包含：</target>         
-        </trans-unit>
-        <trans-unit id="240" translate="yes" xml:space="preserve">
           <source>22  Best practice: Resource supports -whatif If your resource is performing “dangerous” operations, it’s a good practice to implement -whatif functionality.</source>
           <target state="translated">22 最佳做法：资源支持 -whatif 如果资源正在执行“危险”操作，最佳做法是实现 -whatif 功能。</target>         
         </trans-unit>
-        <trans-unit id="241" translate="yes" xml:space="preserve">
+        <trans-unit id="239" translate="yes" xml:space="preserve">
           <source>After it’s done, make sure that whatif output correctly describes operations which would happen if command was executed without whatif switch.</source>
           <target state="translated">完成后，请确保 whatif 输出正确地描述了在无 whatif 开关情况下执行命令时可能发生的操作。</target>         
         </trans-unit>
-        <trans-unit id="242" translate="yes" xml:space="preserve">
+        <trans-unit id="240" translate="yes" xml:space="preserve">
           <source>Also, verify that operations does not execute (no changes to the node’s state are made) when –whatif switch is present.</source>
           <target state="translated">此外，验证当 –whatif 开关存在时操作未执行（未对节点的状态进行更改）。</target>         
         </trans-unit>
-        <trans-unit id="243" translate="yes" xml:space="preserve">
+        <trans-unit id="241" translate="yes" xml:space="preserve">
           <source>For example, let’s assume we are testing File resource.</source>
           <target state="translated">例如，假设我们正在测试 File 资源。</target>         
         </trans-unit>
-        <trans-unit id="244" translate="yes" xml:space="preserve">
+        <trans-unit id="242" translate="yes" xml:space="preserve">
           <source>Below is simple configuration which creates file “test.txt” with contents “test”:</source>
           <target state="translated">下面是创建“test.txt”文件及其“test”内容的简单配置：</target>         
         </trans-unit>
-        <trans-unit id="245" translate="yes" xml:space="preserve">
+        <trans-unit id="243" translate="yes" xml:space="preserve">
           <source>If we compile and then execute the configuration with the –whatif switch, the output is telling us exactly what would happen when we run the configuration.</source>
           <target state="translated">如果我们使用 –whatif 开关进行编译，然后执行配置，则输出将告诉我们当运行该配置时具体会发生的事。</target>         
         </trans-unit>
-        <trans-unit id="246" translate="yes" xml:space="preserve">
+        <trans-unit id="244" translate="yes" xml:space="preserve">
           <source>The configuration itself however was not executed (test.txt file was not created).</source>
           <target state="translated">但是配置本身并没有被执行（没有创建 test.txt 文件）。</target>         
         </trans-unit>
-        <trans-unit id="247" translate="yes" xml:space="preserve">
+        <trans-unit id="245" translate="yes" xml:space="preserve">
           <source>This wraps up our checklist.</source>
           <target state="translated">以上就是清单的基础知识。</target>         
         </trans-unit>
-        <trans-unit id="248" translate="yes" xml:space="preserve">
+        <trans-unit id="246" translate="yes" xml:space="preserve">
           <source>Please keep in mind that this list is not exhaustive, but it covers many important issues which we encountered while designing, developing and testing DSC resources.</source>
           <target state="translated">请记住，此列表并不详尽，但它涵盖了我们在设计、开发和测试 DSC 资源时会遇到的许多重要问题。</target>         
         </trans-unit>
-        <trans-unit id="249" translate="yes" xml:space="preserve">
+        <trans-unit id="247" translate="yes" xml:space="preserve">
           <source>Having a checklist helps to ensure we didn’t forget about any of those aspects and in fact, we use it at Microsoft when developing DSC resources ourselves.</source>
           <target state="translated">列出清单有助于我们确保不会忘记任何这些方面的问题，事实上，我们自己在开发 DSC 资源时就会在 Microsoft 中用到它。</target>         
         </trans-unit>
-        <trans-unit id="250" translate="yes" xml:space="preserve">
+        <trans-unit id="248" translate="yes" xml:space="preserve">
           <source>If you developed guidelines and best practices which you use for writing and testing DSC resources, please share them!</source>
           <target state="translated">如果你开发了用于编写和测试 DSC 资源的指导和最佳做法，请和我们分享吧！</target>         
         </trans-unit>

@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" original="md" source-language="en-US" target-language="zh-cn">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cd879af041642e96074706ff553af57d17b06802</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\dsc_metaconfiguration.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
     <body>
       <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
@@ -12,97 +19,10 @@
           <target state="translated"><ph id="ph1">`DscLocalConfigurationManager`</ph> 特性将配置块指定为元配置，用于配置 DSC 本地配置管理器。</target>         
         </trans-unit>
         <trans-unit id="103" translate="yes" xml:space="preserve">
-          <source>This attribute restricts a configuration to containing only items which configure the DSC Local Configuration Manager.</source>
-          <target state="translated">此特性将配置限制为仅包含配置 DSC 本地配置管理器的项。</target>         
-        </trans-unit>
-        <trans-unit id="104" translate="yes" xml:space="preserve">
-          <source>During processing, this configuration generates a <ph id="ph1">`*.meta.mof`</ph> file that is then sent to the appropriate target nodes by using the <ph id="ph2">`Set-DscLocalConfigurationManager`</ph> cmdlet.</source>
-          <target state="translated">在处理期间，此配置生成 <ph id="ph1">`*.meta.mof`</ph> 文件，然后通过使用 <ph id="ph2">`Set-DscLocalConfigurationManager`</ph> cmdlet 将其发送到相应的目标节点。</target>         
-        </trans-unit>
-        <trans-unit id="105" translate="yes" xml:space="preserve">
-          <source>The above example configures the refresh mode for LCM to use pull mode, changes the configuration mode to ApplyAndAutocorrect, and defines the type and location of the pull server.</source>
-          <target state="translated">以上示例将 LCM 的刷新模式配置为使用请求模式，将配置模式更改为 ApplyAndAutocorrect，并定义请求服务器的类型和位置。</target>         
-        </trans-unit>
-        <trans-unit id="106" translate="yes" xml:space="preserve">
-          <source>This new configuration attribute replaces and extends the functionality of the LocalConfigurationManager resource from PowerShell 4.0.</source>
-          <target state="translated">这一新配置特性取代并扩展了 PowerShell 4.0 中 LocalConfigurationManager 资源的功能。</target>         
-        </trans-unit>
-        <trans-unit id="107" translate="yes" xml:space="preserve">
-          <source>This LocalConfigurationManager is still supported in configurations without this attribute for backwards compatibility.</source>
-          <target state="translated">不含此特性的配置中仍支持此 LocalConfigurationManager，以便向后兼容。</target>         
-        </trans-unit>
-        <trans-unit id="108" translate="yes" xml:space="preserve">
-          <source>Meta-resources:</source>
-          <target state="translated">元资源：</target>         
-        </trans-unit>
-        <trans-unit id="109" translate="yes" xml:space="preserve">
-          <source>Resource Name</source>
-          <target state="translated">资源名称</target>         
-        </trans-unit>
-        <trans-unit id="110" translate="yes" xml:space="preserve">
-          <source>Description</source>
-          <target state="translated">说明</target>         
-        </trans-unit>
-        <trans-unit id="111" translate="yes" xml:space="preserve">
-          <source>LocalConfigurationManager</source>
-          <target state="translated">LocalConfigurationManager</target>         
-        </trans-unit>
-        <trans-unit id="112" translate="yes" xml:space="preserve">
-          <source>Various settings for DSC engine execution</source>
-          <target state="translated">用于 DSC 引擎执行的各种设置</target>         
-        </trans-unit>
-        <trans-unit id="113" translate="yes" xml:space="preserve">
-          <source>PartialConfiguration</source>
-          <target state="translated">PartialConfiguration</target>         
-        </trans-unit>
-        <trans-unit id="114" translate="yes" xml:space="preserve">
-          <source>Partial configuration settings</source>
-          <target state="translated">部分配置设置</target>         
-        </trans-unit>
-        <trans-unit id="115" translate="yes" xml:space="preserve">
-          <source>ConfigurationRepositoryWeb</source>
-          <target state="translated">ConfigurationRepositoryWeb</target>         
-        </trans-unit>
-        <trans-unit id="116" translate="yes" xml:space="preserve">
-          <source>Web-based configuration repository</source>
-          <target state="translated">基于 Web 的配置存储库</target>         
-        </trans-unit>
-        <trans-unit id="117" translate="yes" xml:space="preserve">
-          <source>ConfigurationRepositoryShare</source>
-          <target state="translated">ConfigurationRepositoryShare</target>         
-        </trans-unit>
-        <trans-unit id="118" translate="yes" xml:space="preserve">
-          <source>File share-based configuration repository</source>
-          <target state="translated">基于文件共享的配置存储库</target>         
-        </trans-unit>
-        <trans-unit id="119" translate="yes" xml:space="preserve">
-          <source>ResourceRepositoryWeb</source>
-          <target state="translated">ResourceRepositoryWeb</target>         
-        </trans-unit>
-        <trans-unit id="120" translate="yes" xml:space="preserve">
-          <source>Web-based resource repository</source>
-          <target state="translated">基于 Web 的资源存储库</target>         
-        </trans-unit>
-        <trans-unit id="121" translate="yes" xml:space="preserve">
-          <source>ResourceRepositoryShare</source>
-          <target state="translated">ResourceRepositoryShare</target>         
-        </trans-unit>
-        <trans-unit id="122" translate="yes" xml:space="preserve">
-          <source>File-based resource repository</source>
-          <target state="translated">基于文件的资源存储库</target>         
-        </trans-unit>
-        <trans-unit id="123" translate="yes" xml:space="preserve">
-          <source>ReportServerWeb</source>
-          <target state="translated">ReportServerWeb</target>         
-        </trans-unit>
-        <trans-unit id="124" translate="yes" xml:space="preserve">
-          <source>Web-based reporting endpoint for pull scenario</source>
-          <target state="translated">基于 Web 的请求方案报告端点</target>         
+          <source>For more information, see <bpt id="p1">[</bpt>Configuring the Local Configuration Manager<ept id="p1">](../dsc/metaConfig.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅 <bpt id="p1">[</bpt>配置本地配置管理器<ept id="p1">](../dsc/metaConfig.md)</ept>。</target>         
         </trans-unit>
       </group>
     </body>
   </file>
-  <header xmlns="">
-    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5e3adc41e37f7089d8393789464c4b1b70da7148</xliffext:olfilehash>
-  </header>
 </xliff>
