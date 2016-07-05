@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">jea\end-to-end---active-directory.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0a262e2c83174db7041d3cf35d97542b1cac4386</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-48076a9" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>end to end   active directory</source>
+          <target state="translated">종단 간 - Active Directory</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>End to End - Active Directory</source>
+          <target state="translated">종단 간 - Active Directory</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Imagine the scope of your program has increased.</source>
+          <target state="translated">프로그램의 범위가 증가했다고 가정해 보겠습니다.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You are now responsible for adding JEA to Domain Controllers to perform Active Directory actions.</source>
+          <target state="translated">이제 Active Directory 작업을 수행하기 위해 JEA를 도메인 컨트롤러에 추가해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The help desk people are going to use JEA to unlock accounts, reset passwords, and do other similar actions.</source>
+          <target state="translated">지원 센터 직원들이 JEA를 사용하여 계정의 잠금을 해제하고, 암호를 다시 설정하고, 다른 유사한 작업을 수행하려고 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You need to expose a completely new set of commands to a different group of people.</source>
+          <target state="translated">다른 사용자 그룹에 완전히 새로운 명령 집합을 노출해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>On top of that, you have a bunch of existing Active Directory scripts you need to expose.</source>
+          <target state="translated">뿐만 아니라 노출해야 하는 기존 Active Directory 스크립트 집합이 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This section will walk through authoring a Session Configuration and Role Capability for this task.</source>
+          <target state="translated">이 섹션에서는 이 작업에 대한 세션 구성과 역할 기능을 작성하는 단계를 안내합니다.</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+          <target state="translated">필수 구성 요소</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To follow this section step-by-step, you'll need to be operating on a domain controller.</source>
+          <target state="translated">이 섹션을 단계별로 수행하려면 도메인 컨트롤러에서 작업해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If you don't have access to your domain controller, don't worry.</source>
+          <target state="translated">도메인 컨트롤러에 액세스할 수 없는 경우 걱정하지 마세요.</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Try to follow along with by working against some other scenario or role with which you are familiar.</source>
+          <target state="translated">익숙한 다른 시나리오나 역할을 대상으로 작업하여 이 섹션의 내용을 파악해 보세요.</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If you want to quickly set up a new domain controller, check out the <bpt id="p1">[</bpt>Creating a Domain Controller appendix<ept id="p1">](#creating-a-domain-controller)</ept>.</source>
+          <target state="translated">새 도메인 컨트롤러를 신속하게 설정하려면 <bpt id="p1">[</bpt>도메인 컨트롤러 만들기 부록<ept id="p1">](#creating-a-domain-controller)</ept>을 참조하세요.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Steps to Make a new Role Capability and Session Configuration</source>
+          <target state="translated">새로운 역할 기능 및 세션 구성을 만드는 단계</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Making a new role capability can seem daunting at first, but it can be broken into fairly simple steps:</source>
+          <target state="translated">새로운 역할 기능을 만드는 작업은 처음에는 어렵게 느껴질 수 있지만 매우 간단한 단계로 분할할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Identify the tasks you need to enable</source>
+          <target state="translated">사용하도록 설정해야 하는 작업 식별</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Restrict those tasks as necessary</source>
+          <target state="translated">필요에 따라 해당 작업 제한</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Confirm they work with JEA</source>
+          <target state="translated">해당 작업이 JEA와 작동하는지 확인</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Put them in a Role Capability file</source>
+          <target state="translated">해당 작업을 역할 기능 파일에 배치</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Register a Session Configuration that exposes that Role Capability</source>
+          <target state="translated">해당 역할 기능을 노출하는 세션 구성 등록</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Step 1: Identify What Needs to Be Exposed</source>
+          <target state="translated">1단계: 노출해야 하는 작업 식별</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Before you make a new Role Capability or Session Configuration, you need to identify all of the things users will need to do through the JEA endpoint, as well as how to do them through PowerShell.</source>
+          <target state="translated">새로운 역할 기능이나 세션 구성을 만들기 전에 사용자가 JEA 끝점을 통해 수행해야 하는 모든 작업과 PowerShell을 통해 해당 작업을 수행하는 방법을 식별해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This will involve a fair amount of requirement gathering and research.</source>
+          <target state="translated">여기에는 상당한 양의 요구 사항 수집과 연구가 포함됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>How you go about this process will depend on your organization and goals.</source>
+          <target state="translated">이 프로세스에 착수하는 방법은 조직과 목표에 따라 달라집니다.</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>It is important to call out requirement gathering and research as a critical part of the real world process.</source>
+          <target state="translated">요구 사항 수집과 연구를 실제 프로세스의 중요한 부분으로 요구해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This may be the most difficult step in the process of adopting JEA.</source>
+          <target state="translated">이는 JEA 채택 프로세스의 가장 어려운 단계일 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Find Resources</source>
+          <target state="translated">리소스 찾기</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Here is a set of online resources that might have come up in your research on creating an Active Directory management endpoint:</source>
+          <target state="translated">Active Directory 관리 끝점을 만드는 방법에 대한 연구에서 발견했을 수도 있는 온라인 리소스 집합은 다음과 같습니다.</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Active Directory PowerShell Overview</source>
+          <target state="translated">Active Directory PowerShell 개요</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>CMD to PowerShell Guide for Active Directory</source>
+          <target state="translated">Active Directory에 대한 PowerShell CMD 가이드</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Make a List</source>
+          <target state="translated">목록 만들기</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Here is a set of ten actions that you will be working from in the remainder of this section.</source>
+          <target state="translated">다음은 이 섹션의 나머지 부분에서 수행할 10가지 작업 집합입니다.</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Keep in mind this is simply an example, your organizations requirements may be different:</source>
+          <target state="translated">이는 예일 뿐이라는 점을 명심하세요. 조직 요구 사항은 다를 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Action</source>
+          <target state="translated">작업</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>PowerShell Command</source>
+          <target state="translated">PowerShell 명령</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Account Unlock</source>
+          <target state="translated">계정 잠금 해제</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Password Reset</source>
+          <target state="translated">암호 다시 설정</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>and</source>
+          <target state="translated">및</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Change a User's Title</source>
+          <target state="translated">사용자의 직함 변경</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Find AD Accounts that are locked out, disabled, inactive, etc.</source>
+          <target state="translated">잠겨 있거나, 사용하지 않도록 설정되거나, 비활성 상태 등인 AD 계정 찾기</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Add User to Group</source>
+          <target state="translated">그룹에 사용자 추가</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Remove User from Group</source>
+          <target state="translated">그룹에서 사용자 제거</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Enable a user account</source>
+          <target state="translated">사용자 계정 사용</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Disable a user account</source>
+          <target state="translated">사용자 계정 사용 안 함</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Step 2: Restrict Tasks as Necessary</source>
+          <target state="translated">2단계: 필요에 따라 작업 제한</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Now that you have your list of actions, you need to think through the capabilities of each command.</source>
+          <target state="translated">이제 작업 목록이 있으므로 각 명령의 기능에 대해 자세히 알아봐야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>There are two important reasons to do this:</source>
+          <target state="translated">이렇게 하는 데는 두 가지 중요한 이유가 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>It is easy to expose give users more capabilities than you intend.</source>
+          <target state="translated">의도한 것보다 많은 기능을 사용자에게 노출하기가 쉽습니다.</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>For example, <ph id="ph1">`Set-ADUser`</ph> is an incredibly powerful and flexible command.</source>
+          <target state="translated">예를 들어 <ph id="ph1">`Set-ADUser`</ph>는 매우 강력하고 유연한 명령입니다.</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>You may not want to expose everything it can do to help desk users.</source>
+          <target state="translated">이 명령으로 수행할 수 있는 모든 작업을 지원 센터 사용자에게 노출하는 것을 원하지 않을 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Even worse, it's possible to expose commands that allow users to escape JEA's restrictions.</source>
+          <target state="translated">훨씬 나쁜 경우로, JEA의 제한을 빠져나가도록 사용자에게 허용하는 명령을 노출할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>If this happens, JEA ceases to function as a security boundary.</source>
+          <target state="translated">이 경우 JEA는 보안 경계로 기능하지 않습니다.</target>         
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Please be careful when selecting commands.</source>
+          <target state="translated">명령을 선택할 때 주의하세요.</target>         
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>For example, Invoke-Expression will allow users to run unrestricted code.</source>
+          <target state="translated">예를 들어 Invoke-Expression은 사용자가 제한 없는 코드를 실행하도록 허용합니다.</target>         
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>For more discussion on this topic, check out the Considerations When Restricting Commands section.</source>
+          <target state="translated">이 주제에 대한 자세한 내용은 명령을 제한하는 경우의 고려 사항 섹션을 참조하세요.</target>         
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>After reviewing each command, you decide to restrict the following:</source>
+          <target state="translated">각 명령을 검토한 후 다음을 제한하도록 결정합니다.</target>         
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>should only be allowed to run with the "-Title" parameter</source>
+          <target state="translated">는 "-Title" 매개 변수를 사용하는 경우에만 실행되도록 허용되어야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>and <ph id="ph1">`Remove-ADGroupMember`</ph> should only work with certain groups</source>
+          <target state="translated">및 <ph id="ph1">`Remove-ADGroupMember`</ph>는 특정 그룹에만 사용해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Step 3: Confirm the Tasks Work with JEA</source>
+          <target state="translated">3단계: 작업이 JEA와 작동하는지 확인</target>         
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Actually using those cmdlets may not be straightforward in the restricted JEA environment.</source>
+          <target state="translated">이러한 cmdlet을 실제로 사용하는 것은 제한된 JEA 환경에서 간단하지 않을 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>JEA runs in <bpt id="p1">*</bpt>No Language<ept id="p1">*</ept> mode which, among other things, prevents users from using variables.</source>
+          <target state="translated">JEA는 특히 사용자가 변수를 사용하지 못하게 하는 <bpt id="p1">*</bpt>언어 없음<ept id="p1">*</ept> 모드에서 실행됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>In order to ensure that end users have a smooth experience, it's important to check for a few things.</source>
+          <target state="translated">최종 사용자에게 원활한 환경을 보장하기 위해 몇 가지 사항을 확인해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>As an example, consider <ph id="ph1">`Set-ADAccountPassword`</ph>.</source>
+          <target state="translated">예를 들어 <ph id="ph1">`Set-ADAccountPassword`</ph>를 고려합니다.</target>         
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The "-NewPassword" parameter requires a secure string.</source>
+          <target state="translated">"-NewPassword" 매개 변수에는 보안 문자열이 필요합니다.</target>         
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Often, users create a secure string and pass it in as a variable (as below):</source>
+          <target state="translated">흔히 사용자는 보안 문자열을 만들어 변수로 전달합니다(아래 참조).</target>         
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>However, No Language mode prevents the usage of variables.</source>
+          <target state="translated">그러나 언어 없음 모드에서는 변수의 사용을 금지합니다.</target>         
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>You can get around this restriction in two ways:</source>
+          <target state="translated">두 가지 방법으로 이 제한을 해결할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>You can require users run the command without assigning variables.</source>
+          <target state="translated">사용자가 변수를 할당하지 않고 명령을 실행하도록 요구할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>This is easy to configure, but can be painful for the operators using the endpoint.</source>
+          <target state="translated">이렇게 구성하기는 쉽지만 끝점을 사용하는 운영자에게 어려움을 줄 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Who wants to type this out every time you reset a password?</source>
+          <target state="translated">암호를 다시 설정할 때마다 다음과 같이 입력하고 싶은 사람이 누가 있을까요?</target>         
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>You can wrap the complexity in a script or a function that you expose to end users.</source>
+          <target state="translated">최종 사용자에게 노출하는 스크립트나 함수에 복잡한 사항을 포함할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Scripts and functions that you expose run in an unrestricted context; you can write functions that use variables and call other commands without any issue.</source>
+          <target state="translated">노출하는 스크립트와 함수는 제한 없는 컨텍스트에서 실행됩니다. 어떠한 문제도 없이 변수를 사용하고 다른 명령을 호출하는 함수를 작성할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>This approach simplifies the end user experience, prevents errors, reduces required PowerShell knowledge, and reduces unintentionally exposing excess functionality.</source>
+          <target state="translated">이 방법은 최종 사용자 환경을 간소화하고, 오류를 방지하고, 필요한 PowerShell 지식을 줄이고, 실수로 노출하는 초과 기능을 줄입니다.</target>         
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The only downside is the cost of authoring and maintaining the function.</source>
+          <target state="translated">유일한 단점은 함수 작성 및 유지 관리의 비용입니다.</target>         
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Aside: Adding a Function to your Module</source>
+          <target state="translated">참고: 모듈에 함수 추가</target>         
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Taking approach #2, you are going to write a PowerShell function called <ph id="ph1">`Reset-ContosoUserPassword`</ph>.</source>
+          <target state="translated">두 번째 방법을 사용하는 경우 <ph id="ph1">`Reset-ContosoUserPassword`</ph>라는 PowerShell 함수를 작성합니다.</target>         
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>This function is going to do everything that needs to happen when you reset a user's password.</source>
+          <target state="translated">이 함수는 사용자의 암호를 다시 설정할 때 발생해야 하는 모든 작업을 수행합니다.</target>         
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>In your organization, this may involve doing fancy and complicated things.</source>
+          <target state="translated">조직에서는 여기에 복잡한 고급 작업의 수행이 포함될 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Because this is just an example, your command will just reset the password and require the user change the password at logon.</source>
+          <target state="translated">여기에서는 예를 보여 줄 뿐이므로 이 함수는 암호를 다시 설정하고 사용자가 로그온할 때 암호를 변경하도록 요구합니다.</target>         
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>We will put it in the Contoso_AD_Module module you made in the last section.</source>
+          <target state="translated">이 함수는 지난 섹션에서 만든 Contoso_AD_Module 모듈에 포함될 것입니다.</target>         
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>In PowerShell ISE, open "Contoso_AD_Module.psm1"</source>
+          <target state="translated">PowerShell ISE에서 "Contoso_AD_Module.psm1"을 엽니다.</target>         
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Press Crtl+J to open the snippets menu.</source>
+          <target state="translated">Crtl+J를 눌러 코드 조각 메뉴를 엽니다.</target>         
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Key down until you find "function" and press enter.</source>
+          <target state="translated">"function"을 찾을 때까지 아래로 이동하고 Enter 키를 누릅니다.</target>         
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>This puts up a super basic skeleton of a function.</source>
+          <target state="translated">함수의 가장 기본적인 뼈대가 생성됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Rename the function "Reset-ContosoUserPassword".</source>
+          <target state="translated">함수의 이름을 "Reset-ContosoUserPassword"로 바꿉니다.</target>         
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Rename one of the parameters "Identity" and delete the second.</source>
+          <target state="translated">매개 변수 중 하나의 이름을 "Identity"로 변경하고 두 번째 매개 변수를 삭제합니다.</target>         
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Copy the following into the body of the function.</source>
+          <target state="translated">다음을 함수 본문에 복사합니다.</target>         
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Save the file.</source>
+          <target state="translated">파일을 저장합니다.</target>         
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>You should end up with something that looks like this:</source>
+          <target state="translated">최종적인 결과는 다음과 같아야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Now, your users can simply call <ph id="ph1">`Reset-ContosoUserPassword`</ph> and not have to remember the syntax to create a secure string inline.</source>
+          <target state="translated">이제 사용자가 <ph id="ph1">`Reset-ContosoUserPassword`</ph>를 호출하기만 하면 되고 보안 문자열을 인라인으로 만드는 구문을 기억할 필요가 없습니다.</target>         
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Step 4: Edit the Role Capability File</source>
+          <target state="translated">4단계: 역할 기능 파일 편집</target>         
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Role Capability Creation<ept id="p1">](#role-capability-creation)</ept> section, you created a blank Role Capability file.</source>
+          <target state="translated"><bpt id="p1">[</bpt>역할 기능 만들기<ept id="p1">](#role-capability-creation)</ept> 섹션에서 비어 있는 역할 기능 파일을 만들었습니다.</target>         
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>In this section, you will fill in the values in that file.</source>
+          <target state="translated">이 섹션에서는 해당 파일에 값을 입력합니다.</target>         
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Start by opening the role capability file in ISE.</source>
+          <target state="translated">ISE에서 역할 기능 파일을 열어 시작합니다.</target>         
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Update the file with the following changes:</source>
+          <target state="translated">다음과 같이 변경하여 파일을 업데이트합니다.</target>         
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>There are a few things to note about the above:</source>
+          <target state="translated">위에서 몇 가지 사항에 유의해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>PowerShell will attempt to auto-load the modules needed for your Role Capability.</source>
+          <target state="translated">PowerShell에서 역할 기능에 필요한 모듈을 자동으로 로드하려고 시도합니다.</target>         
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>You may need to explicitly list module names in the "ModulesToImport" field if you notice problems with a module not being autoloaded.</source>
+          <target state="translated">모듈이 자동으로 로드되지 않는 문제가 발생하는 경우 "ModulesToImport" 필드에서 모듈 이름을 명시적으로 나열해야 할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>If you aren't sure if a command is a cmdlet or a function, run <ph id="ph1">`Get-Command`</ph> and look at the "CommandType"</source>
+          <target state="translated">명령이 cmdlet인지, 아니면 함수인지 모르겠는 경우 <ph id="ph1">`Get-Command`</ph>를 실행하고 "CommandType"을 확인합니다.</target>         
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The ValidatePattern allows you to use a regular expression to restrict parameter arguments if it is not easy to define a set of allowable values.</source>
+          <target state="translated">ValidatePattern은 허용 가능한 값 집합을 정의하기가 쉽지 않은 경우 정규식을 사용하여 매개 변수 인수를 제한할 수 있도록 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>You cannot define both a ValidatePattern and ValidateSet for a single parameter.</source>
+          <target state="translated">단일 매개 변수에 대해 ValidatePattern과 ValidateSet을 둘 다 정의할 수는 없습니다.</target>         
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Step 5: Register a new Session Configuration</source>
+          <target state="translated">5단계: 새 세션 구성 등록</target>         
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Next, you will create a new session configuration file that will expose your Role Capability to members of the "JEA_NonAdmin_HelpDesk" AD group.</source>
+          <target state="translated">다음으로, "JEA_NonAdmin_HelpDesk" AD 그룹의 구성원에게 역할 기능을 노출할 새로운 세션 구성 파일을 만듭니다.</target>         
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Start by creating and opening a new blank Session Configuration file in PowerShell ISE.</source>
+          <target state="translated">PowerShell ISE에서 비어 있는 새 세션 구성 파일을 만들고 열어서 시작합니다.</target>         
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Modify the following fields in the PSSC file.</source>
+          <target state="translated">PSSC 파일에서 다음 필드를 수정합니다.</target>         
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>If you are working in your own environment, you should replace "CONTOSO\JEA_NonAdmins_Helpdesk" with your own non-administrator user or group.</source>
+          <target state="translated">자신의 환경에서 작업하는 경우 "CONTOSO\JEA_NonAdmins_Helpdesk"를 관리자가 아닌 자신의 사용자 또는 그룹으로 대체해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Save and register the Session Configuration</source>
+          <target state="translated">세션 구성을 저장하고 등록합니다.</target>         
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Test It Out!</source>
+          <target state="translated">테스트</target>         
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Get your non-administrator user credentials:</source>
+          <target state="translated">관리자가 아닌 사용자의 자격 증명을 가져옵니다.</target>         
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>If you followed the <bpt id="p1">[</bpt>Set Up Users and Groups<ept id="p1">](creating-a-domain-controller.md#set-up-users-and-groups)</ept> section, the credentials will be:</source>
+          <target state="translated"><bpt id="p1">[</bpt>사용자 및 그룹 설정<ept id="p1">](creating-a-domain-controller.md#set-up-users-and-groups)</ept> 섹션을 따른 경우 자격 증명은 다음과 같습니다.</target>         
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Username = "HelpDeskUser"</source>
+          <target state="translated">사용자 이름 = "HelpDeskUser"</target>         
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Password = "pa$$w0rd"</source>
+          <target state="translated">암호 = "pa$$w0rd"</target>         
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Remote into the AD Helpdesk endpoint using the non-admin credential:</source>
+          <target state="translated">비관리자 자격 증명을 사용하여 AD 지원 센터 끝점에 원격으로 연결합니다.</target>         
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Use Set-ADUser to reset a user's title.</source>
+          <target state="translated">Set-ADUser를 사용하여 사용자의 직함을 다시 설정합니다.</target>         
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Verify that the title has changed.</source>
+          <target state="translated">직함이 변경되었는지 확인합니다.</target>         
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Now, use Add-ADGroupMember to add a user to the TestGroup.</source>
+          <target state="translated">이제 Add-ADGroupMember를 사용하여 TestGroup에 사용자를 추가합니다.</target>         
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Note: make sure you've created the TestGroup beforehand.</source>
+          <target state="translated">참고: TestGroup을 미리 만들어 놓아야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Exit the session:</source>
+          <target state="translated">세션을 종료합니다.</target>         
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Key Concepts</source>
+          <target state="translated">주요 개념</target>         
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>NoLanguage Mode<ept id="p1">**</ept>: When PowerShell is in "NoLanguage" mode, users may only run commands; they cannot use any language elements.</source>
+          <target state="translated"><bpt id="p1">**</bpt>NoLanguage 모드<ept id="p1">**</ept>: PowerShell이 "NoLanguage" 모드에 있는 경우 사용자는 명령을 실행할 수만 있고 언어 요소를 사용할 수 없습니다.</target>         
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>For more information, run <ph id="ph1">`Get-Help about_Language_Modes`</ph>.</source>
+          <target state="translated">자세한 내용은 <ph id="ph1">`Get-Help about_Language_Modes`</ph>를 실행하십시오.</target>         
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>PowerShell Functions<ept id="p1">**</ept>: PowerShell functions are bits of PowerShell code that you can call by name.</source>
+          <target state="translated"><bpt id="p1">**</bpt>PowerShell 함수<ept id="p1">**</ept>: PowerShell 함수는 이름으로 호출할 수 있는 PowerShell 코드 조각입니다.</target>         
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>For more information, run <ph id="ph1">`Get-Help about_Functions`</ph>.</source>
+          <target state="translated">자세한 내용은 <ph id="ph1">`Get-Help about_Functions`</ph>를 실행하십시오.</target>         
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>ValidateSet/ValidatePattern<ept id="p1">**</ept>: When exposing a command, you can restrict valid arguments for specific parameters.</source>
+          <target state="translated"><bpt id="p1">**</bpt>ValidateSet/ValidatePattern<ept id="p1">**</ept>: 명령을 노출할 때 특정 매개 변수에 대한 유효한 인수를 제한할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>A ValidateSet is a specific list of valid commands.</source>
+          <target state="translated">ValidateSet은 유효한 명령의 특정 목록입니다.</target>         
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>A ValidatePattern is a regular expression that the arguments for that parameter must match.</source>
+          <target state="translated">ValidatePattern은 해당 매개 변수에 대한 인수가 일치해야 하는 정규식입니다.</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
