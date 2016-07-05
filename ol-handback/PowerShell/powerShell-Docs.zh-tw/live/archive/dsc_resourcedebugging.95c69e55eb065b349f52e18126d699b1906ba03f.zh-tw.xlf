@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" original="md" source-language="en-US" target-language="zh-tw">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fa0f232c7ed02cb6358b1c181a40bab8a1e2e640</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\dsc_resourcedebugging.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
     <body>
       <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
@@ -12,133 +19,10 @@
           <target state="translated">WMF 5.0 Production Preview 支援在目標節點上執行時，偵錯 DSC 資源指令碼。</target>         
         </trans-unit>
         <trans-unit id="103" translate="yes" xml:space="preserve">
-          <source>In older WMF 5.0 releases, we added advanced script debugging features with the ability to attach to local processes (Get-PSHostProcessInfo, Enter-PSHostProcessInfo, Exit-PSHostProcessInfo), enumerate all runspaces in a process, and debug an arbitrary runspace in a process (Get-Runspace, Debug-Runspace).</source>
-          <target state="translated">在較舊的 WMF 5.0 版本中，我們加入了進階指令碼偵錯功能，能夠連線至本機處理序 (Get-PSHostProcessInfo、Enter-PSHostProcessInfo、Exit-PSHostProcessInfo)、列舉處理序中的所有 runspace，以及在處理序中為隨意自定 runspace 進行偵錯 (Get-Runspace, Debug-Runspace)。</target>         
-        </trans-unit>
-        <trans-unit id="104" translate="yes" xml:space="preserve">
-          <source>DSC resource script debugging builds on this work by adding two new cmdlets.</source>
-          <target state="translated">DSC 資源指令碼偵錯是藉由加上兩個新的 Cmdlet 來組建這項工作。</target>         
-        </trans-unit>
-        <trans-unit id="105" translate="yes" xml:space="preserve">
-          <source>Syntax</source>
-          <target state="translated">語法</target>         
-        </trans-unit>
-        <trans-unit id="106" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Enable-DscDebug<ept id="p1">**</ept></source>
-          <target state="translated"><bpt id="p1">**</bpt>啟用-DscDebug<ept id="p1">**</ept></target>         
-        </trans-unit>
-        <trans-unit id="107" translate="yes" xml:space="preserve">
-          <source>Enable-DscDebug \[-BreakAll\] \[-CimSession &amp;lt;CimSession\[\]&amp;gt;\] \[-ThrottleLimit &amp;lt;int&amp;gt;\] \[-AsJob\] \[-WhatIf\] \[-Confirm\] \[&amp;lt;CommonParameters&amp;gt;\]</source>
-          <target state="translated">Enable-DscDebug \[-BreakAll\] \[-CimSession &lt;CIM 工作階段\[\]&gt;\] \[-ThrottleLimit &lt;int&gt;\] \[-AsJob\] \[-WhatIf\] \[-Confirm\] \[&lt;一般參數&gt;\]</target>         
-        </trans-unit>
-        <trans-unit id="108" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Disable-DscDebug<ept id="p1">**</ept></source>
-          <target state="translated"><bpt id="p1">**</bpt>Disable-DscDebug<ept id="p1">**</ept></target>         
-        </trans-unit>
-        <trans-unit id="109" translate="yes" xml:space="preserve">
-          <source>Disable-DscDebug \[-CimSession &amp;lt;CimSession\[\]&amp;gt;\] \[-ThrottleLimit &amp;lt;int&amp;gt;\] \[-AsJob\] \[-WhatIf\] \[-Confirm\] \[&amp;lt;CommonParameters&amp;gt;\]</source>
-          <target state="translated">Disable-DscDebug \[-CimSession &lt;CIM 工作階段\[\]&gt;\] \[-ThrottleLimit &lt;int&gt;\] \[-AsJob\] \[-WhatIf\] \[-Confirm\] \[&lt;一般參數&gt;\]</target>         
-        </trans-unit>
-        <trans-unit id="110" translate="yes" xml:space="preserve">
-          <source>Typical WorkFlow</source>
-          <target state="translated">一般工作流程</target>         
-        </trans-unit>
-        <trans-unit id="111" translate="yes" xml:space="preserve">
-          <source>Now lets take a look at each of these commands and what they do:</source>
-          <target state="translated">現在讓我們看看這些命令，以及它們的功能︰</target>         
-        </trans-unit>
-        <trans-unit id="112" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Enable-DscDebug –BreakAll<ept id="p1">**</ept></source>
-          <target state="translated"><bpt id="p1">**</bpt>啟用-DscDebug –BreakAll<ept id="p1">**</ept></target>         
-        </trans-unit>
-        <trans-unit id="113" translate="yes" xml:space="preserve">
-          <source>Enable-DscDebug cmdlet with BreakAll configures the DSC LCM to run Get-TargetResource, Set-TargetResource, and Test-TargetResource scripts in Break All mode.</source>
-          <target state="translated">搭配 BreakAll 的 Enable-DscDebug Cmdlet 將 DSC LCM 設定為在 Break All 模式下執行 Get-TargetResource、Set-TargetResource 及 Test-TargetResource 指令碼。</target>         
-        </trans-unit>
-        <trans-unit id="114" translate="yes" xml:space="preserve">
-          <source>This means that the script stops at the first script statement and waits for a debugger to be attached.</source>
-          <target state="translated">這代表此指令碼會在第一個指令碼陳述式上停止，並等候附加偵錯工具。</target>         
-        </trans-unit>
-        <trans-unit id="115" translate="yes" xml:space="preserve">
-          <source>You can then connect to the target computer by using Windows PowerShell remoting, and attach the Windows PowerShell debugger to the LCM process and runspace to debug the script.</source>
-          <target state="translated">您可以使用 Windows PowerShell 遠端連線到目標電腦，並將 Windows PowerShell 偵錯工具附加至 LCM 處理序和 Runspace 以偵錯指令碼。</target>         
-        </trans-unit>
-        <trans-unit id="116" translate="yes" xml:space="preserve">
-          <source>After you do this, you can set breakpoints and debug the script in the normal Windows PowerShell way.</source>
-          <target state="translated">執行這項操作之後，您可以用一般的 Windows PowerShell 方式設定中斷點及偵錯指令碼。</target>         
-        </trans-unit>
-        <trans-unit id="117" translate="yes" xml:space="preserve">
-          <source>Start-DscConfiguration -path .\TestConfig2 -Wait -Verbose</source>
-          <target state="translated">Start-DscConfiguration -path .\TestConfig2 -Wait -Verbose</target>         
-        </trans-unit>
-        <trans-unit id="118" translate="yes" xml:space="preserve">
-          <source>This kicks off DSC but as noted above, since the target node has debug mode enabled it will stop at the first DSC resource that the LCM executes.</source>
-          <target state="translated">這樣就能啟動 DSC，但如先前所述，因為目標節點啟用了偵錯模式，它會在 LCM 執行第一個 DSC 資源時停止。</target>         
-        </trans-unit>
-        <trans-unit id="119" translate="yes" xml:space="preserve">
-          <source>In order to begin the debugging session run the commands shown in the warning message after running Start-DscConfiguration, you attach your client Windows PowerShell script debugger to the appropriate computer, process, application domain, and runspace.</source>
-          <target state="translated">為了啟動偵錯工作階段，先執行 Start-DscConfiguration，之後再執行警告訊息中所示的命令，接著將用戶端 Windows PowerShell 指令碼偵錯工具附加至適當的電腦、處理、應用程式定義域和 Runspace。</target>         
-        </trans-unit>
-        <trans-unit id="120" translate="yes" xml:space="preserve">
-          <source>Run this command to optionally use Windows PowerShell remoting to connect to the target computer.</source>
-          <target state="translated">執行此命令可選擇性地使用 Windows PowerShell 遠端以連線到目標電腦。</target>         
-        </trans-unit>
-        <trans-unit id="121" translate="yes" xml:space="preserve">
-          <source>Skip this if you already have a remote desktop connection.</source>
-          <target state="translated">如果您已經有遠端桌面連線的話，請略過此步驟。</target>         
-        </trans-unit>
-        <trans-unit id="122" translate="yes" xml:space="preserve">
-          <source>This command attaches to the DSC LCM host process and app domain where the resource script is running.</source>
-          <target state="translated">此命令將附加到 DSC LCM 主機處理序和正在執行資源指令碼的應用程式網域。</target>         
-        </trans-unit>
-        <trans-unit id="123" translate="yes" xml:space="preserve">
-          <source>This last command lets you debug the DSC runspace running the script.</source>
-          <target state="translated">最後一項命令可讓您為執行指令碼的 DSC Runspace 偵錯。</target>         
-        </trans-unit>
-        <trans-unit id="124" translate="yes" xml:space="preserve">
-          <source>After you have the debugger attached, set line breakpoints where you want to investigate script execution and run the <bpt id="p1">**</bpt>continue<ept id="p1">**</ept> debugger command to let the script run in the debugger.</source>
-          <target state="translated">附加偵錯工具後，將行中斷點設定到您要調查指令碼執行的地方，接著執行 <bpt id="p1">**</bpt>continue<ept id="p1">**</ept> 偵錯工具命令，讓指令碼在偵錯工具中執行。</target>         
-        </trans-unit>
-        <trans-unit id="125" translate="yes" xml:space="preserve">
-          <source>When you are done debugging, you can stop the script from running by typing the <bpt id="p1">**</bpt>quit<ept id="p1">**</ept> debugger command, or let the script continue to run without the debugger by running the <bpt id="p2">**</bpt>detach<ept id="p2">**</ept> debugger command.</source>
-          <target state="translated">當您完成偵錯，您可以藉由鍵入 <bpt id="p1">**</bpt>quit<ept id="p1">**</ept> 偵錯工具命令停止正在執行的指令碼，或者執行 <bpt id="p2">**</bpt>detach<ept id="p2">**</ept> 偵錯工具命令讓指令碼在沒有偵錯工具的情形下繼續執行。</target>         
-        </trans-unit>
-        <trans-unit id="126" translate="yes" xml:space="preserve">
-          <source>Notice that <bpt id="p1">***</bpt>all<ept id="p1">***</ept> resource scripts are stopped in the debugger.</source>
-          <target state="translated">請注意 <bpt id="p1">***</bpt>all<ept id="p1">***</ept> 資源指令碼在偵錯工具中停止了。</target>         
-        </trans-unit>
-        <trans-unit id="127" translate="yes" xml:space="preserve">
-          <source>This means that Test-TargetResoruce, Set-TargetResource, and Get-TargetResource scripts each in turn stop in the debugger.</source>
-          <target state="translated">這代表 Test-TargetResoruce、Set-TargetResource 和 Get-TargetResource 指令碼會依序在偵錯工具中停止。</target>         
-        </trans-unit>
-        <trans-unit id="128" translate="yes" xml:space="preserve">
-          <source>If you don't want to debug a resource script, you can exit debug mode in the runspace by running this command.</source>
-          <target state="translated">如果您不想偵錯資源指令碼，您可以執行此命令來結束 Runspace 中的偵錯模式。</target>         
-        </trans-unit>
-        <trans-unit id="129" translate="yes" xml:space="preserve">
-          <source>Disable-RunspaceDebug -RunspaceId 3</source>
-          <target state="translated">Disable-RunspaceDebug -RunspaceId 3</target>         
-        </trans-unit>
-        <trans-unit id="130" translate="yes" xml:space="preserve">
-          <source>Or you can attach the debugger by running Debug-Runspace, and then immediately run the <bpt id="p1">**</bpt>detach<ept id="p1">**</ept> command.</source>
-          <target state="translated">您也可以藉由執行 Debug-Runspace，然後立即執行 <bpt id="p1">**</bpt>detach<ept id="p1">**</ept> 命令以附加偵錯工具。</target>         
-        </trans-unit>
-        <trans-unit id="131" translate="yes" xml:space="preserve">
-          <source>After you are done debugging your resource script, you should stop the DSC configuration by running the following command.</source>
-          <target state="translated">完成偵錯資源指令碼後，您應該藉由執行下列命令停止 DSC 設定。</target>         
-        </trans-unit>
-        <trans-unit id="132" translate="yes" xml:space="preserve">
-          <source>Stop-DscConfiguration –Force</source>
-          <target state="translated">Stop-DscConfiguration –Force</target>         
-        </trans-unit>
-        <trans-unit id="133" translate="yes" xml:space="preserve">
-          <source>Finally, you must reconfigure the target computer LCM to disable debug mode using Disable-DscDebug cmdlet..</source>
-          <target state="translated">最後，您必須重新設定目標電腦 LCM 以停用偵錯模式，方法為使用 Disable-DscDebug Cmdlet。</target>         
+          <source>For more information, see <bpt id="p1">[</bpt>Debugging DSC resources<ept id="p1">](../dsc/debugResource.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>偵錯 DSC 資源<ept id="p1">](../dsc/debugResource.md)</ept>。</target>         
         </trans-unit>
       </group>
     </body>
   </file>
-  <header xmlns="">
-    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">68949a10a4e8b6cac5a2d596567e7c0e680db8a2</xliffext:olfilehash>
-  </header>
 </xliff>

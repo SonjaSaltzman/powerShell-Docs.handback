@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" original="md" source-language="en-US" target-language="zh-tw">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">81b391b6c1bc334cb88f9af00f31a99d95df8270</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\dsc_nodeid.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
     <body>
       <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
@@ -48,161 +55,10 @@
           <target state="translated">您可以使用這些新功能或具有此版本中發送之新提取伺服器的舊功能。</target>         
         </trans-unit>
         <trans-unit id="112" translate="yes" xml:space="preserve">
-          <source>Agent ID</source>
-          <target state="translated">代理程式識別碼</target>         
-        </trans-unit>
-        <trans-unit id="113" translate="yes" xml:space="preserve">
-          <source>This feature is for users who do not want to setup and manage unique identifiers for each target node.</source>
-          <target state="translated">這項功能是提供給不想設定及管理每個目標節點唯一識別碼的使用者使用。</target>         
-        </trans-unit>
-        <trans-unit id="114" translate="yes" xml:space="preserve">
-          <source>Now, there is no more bookkeeping of GUIDs required.</source>
-          <target state="translated">現在，再也不需要對所需的 GUID 進行記錄。</target>         
-        </trans-unit>
-        <trans-unit id="115" translate="yes" xml:space="preserve">
-          <source>DSC automatically generates an agent ID that it uses when communicating with the pull server.</source>
-          <target state="translated">DSC 會自動產生與提取伺服器通訊時，會使用代理程式識別碼。</target>         
-        </trans-unit>
-        <trans-unit id="116" translate="yes" xml:space="preserve">
-          <source>This ID is used by the pull server to uniquely identify all information with a given node.</source>
-          <target state="translated">此識別碼由提取伺服器使用，用於唯一識別指定節點的所有資訊。</target>         
-        </trans-unit>
-        <trans-unit id="117" translate="yes" xml:space="preserve">
-          <source>It also means that you do not need to set up each target node with a unique meta-configuation containing a unique ID so a single meta-configuation can be used by many target nodes while still retaining each node's unique identity.</source>
-          <target state="translated">這也代表您不需要使用包含唯一識別碼的唯一中繼設定來設定每個目標節點，因此單一中繼設定可供許多目標節點使用，同時仍然保留每個節點的唯一識別。</target>         
-        </trans-unit>
-        <trans-unit id="118" translate="yes" xml:space="preserve">
-          <source>Configuration name</source>
-          <target state="translated">設定名稱</target>         
-        </trans-unit>
-        <trans-unit id="119" translate="yes" xml:space="preserve">
-          <source>The configuration name is a friendly name that defines that name of the configuration that a target node will apply.</source>
-          <target state="translated">設定名稱是易記的名稱，用來定義目標節點會套用的設定名稱。</target>         
-        </trans-unit>
-        <trans-unit id="120" translate="yes" xml:space="preserve">
-          <source>The changes associated to this are as follows:</source>
-          <target state="translated">與此相關聯的變更如下︰</target>         
-        </trans-unit>
-        <trans-unit id="121" translate="yes" xml:space="preserve">
-          <source>Friendly naming</source>
-          <target state="translated">易記的命名</target>         
-        </trans-unit>
-        <trans-unit id="122" translate="yes" xml:space="preserve">
-          <source>This can be any string!</source>
-          <target state="translated">可以使用任何字串！</target>         
-        </trans-unit>
-        <trans-unit id="123" translate="yes" xml:space="preserve">
-          <source>It does not need to be in the format of a GUID so a configuration that sets up SQL server can simply be named 'SQL_Server'.</source>
-          <target state="translated">不需要是 GUID 的格式，所以設定 SQL server 的設定可簡單的命名為 'SQL_Server'。</target>         
-        </trans-unit>
-        <trans-unit id="124" translate="yes" xml:space="preserve">
-          <source>This makes it much easier to identify what a given configuration does.</source>
-          <target state="translated">這可讓您更容易識別指定設定的用途。</target>         
-        </trans-unit>
-        <trans-unit id="125" translate="yes" xml:space="preserve">
-          <source>Assignment</source>
-          <target state="translated">工作分派</target>         
-        </trans-unit>
-        <trans-unit id="126" translate="yes" xml:space="preserve">
-          <source>The configuration that a target node is assigned is centrally managed on the pull server.</source>
-          <target state="translated">在提取伺服器上集中管理有指派目標節點的設定。</target>         
-        </trans-unit>
-        <trans-unit id="127" translate="yes" xml:space="preserve">
-          <source>This can be bootstrapped by defining the ConfigrationName property in the meta-configuration but this is only used during registration.</source>
-          <target state="translated">這可以藉由定義中繼設定中的 ConfigrationName 屬性來啟動，但這只適用於登錄期間。</target>         
-        </trans-unit>
-        <trans-unit id="128" translate="yes" xml:space="preserve">
-          <source>After registration, the server tells the target node what configuration it will get.</source>
-          <target state="translated">登錄後，伺服器會告訴目標節點它會取得的設定。</target>         
-        </trans-unit>
-        <trans-unit id="129" translate="yes" xml:space="preserve">
-          <source>For the on-premises pull server this mapping between configurations and target nodes can only be done during registration, but in Azure Automation these changes can be made easily in the UI or through their cmdlets.</source>
-          <target state="translated">對內部部署提取伺服器來說，設定和目標節點之間的對應只能夠在登錄期間執行，但在 Azure 自動化中，這些變更可輕鬆地在 UI 內或透過其 Cmdlet 執行。</target>         
-        </trans-unit>
-        <trans-unit id="130" translate="yes" xml:space="preserve">
-          <source>To change the configuration assigned to a target node for the on-premises pull server you can re-run registration.</source>
-          <target state="translated">若要變更指派給目標節點的內部提取伺服器設定，您可以重新執行登錄。</target>         
-        </trans-unit>
-        <trans-unit id="131" translate="yes" xml:space="preserve">
-          <source>Multiple/Partial configurations</source>
-          <target state="translated">多個/部分設定</target>         
-        </trans-unit>
-        <trans-unit id="132" translate="yes" xml:space="preserve">
-          <source>If multiple configuration names are assigned to a target node, they will be treated like partial configurations.</source>
-          <target state="translated">如果多個設定名稱指派給目標節點時，它們會被視為部分設定。</target>         
-        </trans-unit>
-        <trans-unit id="133" translate="yes" xml:space="preserve">
-          <source>In order for this to work, the meta-configuration on the target node must be configured to accept the partial configurations.</source>
-          <target state="translated">為了讓此步驟能正常運作，目標節點上的中繼設定必須設定為接受部分設定。</target>         
-        </trans-unit>
-        <trans-unit id="134" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> This is only supported on the on-premises pull server.</source>
-          <target state="translated"><bpt id="p1">**</bpt>注意︰<ept id="p1">**</ept>這僅在內部部署提取伺服器上支援。</target>         
-        </trans-unit>
-        <trans-unit id="135" translate="yes" xml:space="preserve">
-          <source>Azure Automation does not support partial configurations.</source>
-          <target state="translated">Azure 自動化不支援部分設定。</target>         
-        </trans-unit>
-        <trans-unit id="136" translate="yes" xml:space="preserve">
-          <source>Registration</source>
-          <target state="translated">註冊</target>         
-        </trans-unit>
-        <trans-unit id="137" translate="yes" xml:space="preserve">
-          <source>Because configuration names are no longer GUIDs (they are now friendly names), anyone can guess them.</source>
-          <target state="translated">因為設定名稱不再是 GUID (它們現在是易記的名稱)，任何人都可以猜出它們。</target>         
-        </trans-unit>
-        <trans-unit id="138" translate="yes" xml:space="preserve">
-          <source>To mitigate the inherent security issue with this, we added a registration step before a node can start requesting configurations from a server.</source>
-          <target state="translated">為了減輕這固有的安全性問題，我們在節點可以從伺服器要求設定之前，加入了註冊的步驟。</target>         
-        </trans-unit>
-        <trans-unit id="139" translate="yes" xml:space="preserve">
-          <source>A node registers itself with the pull server with a shared secret (which the node and the server both know already), and, optionally, the name of the configuration it will request.</source>
-          <target state="translated">節點使用共用密碼 (節點和伺服器皆知道密碼) 向提取伺服器進行註冊，而且 (選擇性的) 註冊將要求的設定名稱。</target>         
-        </trans-unit>
-        <trans-unit id="140" translate="yes" xml:space="preserve">
-          <source>This shared secret doesn't have to be unique for each computer.</source>
-          <target state="translated">此共用密碼在每一部電腦上不需要是唯一的。</target>         
-        </trans-unit>
-        <trans-unit id="141" translate="yes" xml:space="preserve">
-          <source>Assumption: the shared secret is a hard-to-guess identifier, like a GUID.</source>
-          <target state="translated">假設︰共用密碼是難以猜測的識別碼，就像 GUID。</target>         
-        </trans-unit>
-        <trans-unit id="142" translate="yes" xml:space="preserve">
-          <source>This shared secret is defined by the <bpt id="p1">**</bpt>RegistrationKey<ept id="p1">**</ept> property in the target node's meta-configuration.</source>
-          <target state="translated">此共用的密碼由目標節點中繼設定中的 <bpt id="p1">**</bpt>RegistrationKey<ept id="p1">**</ept> 屬性所定義。</target>         
-        </trans-unit>
-        <trans-unit id="143" translate="yes" xml:space="preserve">
-          <source>Example meta-configuration</source>
-          <target state="translated">中繼設定範例</target>         
-        </trans-unit>
-        <trans-unit id="144" translate="yes" xml:space="preserve">
-          <source>The RegistrationKey value must be defined by on the pull server.</source>
-          <target state="translated">RegistrationKey 值必須在提取伺服器上定義。</target>         
-        </trans-unit>
-        <trans-unit id="145" translate="yes" xml:space="preserve">
-          <source>In order to do this while setting up the pull server, create a text file with the name <bpt id="p1">**</bpt>RegistrationKeys.txt<ept id="p1">**</ept> in a specific location, and then set this location in the web.config of the pull server, as shown below.</source>
-          <target state="translated">為了設定提取伺服器時執行此步驟，請在特定位置建立一個名稱為 <bpt id="p1">**</bpt>RegistrationKeys.txt<ept id="p1">**</ept> 的文字檔案，然後在提取伺服器的 web.config 中設定此位置，如下所示。</target>         
-        </trans-unit>
-        <trans-unit id="146" translate="yes" xml:space="preserve">
-          <source>Use the latest version of the xDSCWebService DSC resource to fully deploy an on-premises pull server for use with this.</source>
-          <target state="translated">使用 xDSCWebService DSC 資源的最新版本，完全部署內部部署提取伺服器，以與此搭配使用。</target>         
-        </trans-unit>
-        <trans-unit id="147" translate="yes" xml:space="preserve">
-          <source>See <bpt id="p1">[</bpt>Example Configuration<ept id="p1">](https://github.com/grayzu/PSSummitEU2015/blob/master/PullServer/02%20-%20PullServer%20Config.ps1)</ept> for a complete configuration.</source>
-          <target state="translated">如須完成設定的相關資訊，請參閱 <bpt id="p1">[</bpt>Example Configuration<ept id="p1">](https://github.com/grayzu/PSSummitEU2015/blob/master/PullServer/02%20-%20PullServer%20Config.ps1)</ept>。</target>         
-        </trans-unit>
-        <trans-unit id="148" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> This feature is not supported when the pull server is set up to be a file share.</source>
-          <target state="translated"><bpt id="p1">**</bpt>注意︰<ept id="p1">**</ept>提取伺服器設定為檔案共用時，不支援此功能。</target>         
-        </trans-unit>
-        <trans-unit id="149" translate="yes" xml:space="preserve">
-          <source>It is only supported for the web-based pull server.</source>
-          <target state="translated">只支援網頁導向提取伺服器。</target>         
+          <source>For more information, see <bpt id="p1">[</bpt>Setting up a pull client using configuration names<ept id="p1">](../dsc/pullClientConfigNames.md)</ept></source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>使用設定名稱設定提取用戶端<ept id="p1">](../dsc/pullClientConfigNames.md)</ept>。</target>         
         </trans-unit>
       </group>
     </body>
   </file>
-  <header xmlns="">
-    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">517c1d3654cd87b2356abadabf474c76580767f4</xliffext:olfilehash>
-  </header>
 </xliff>
