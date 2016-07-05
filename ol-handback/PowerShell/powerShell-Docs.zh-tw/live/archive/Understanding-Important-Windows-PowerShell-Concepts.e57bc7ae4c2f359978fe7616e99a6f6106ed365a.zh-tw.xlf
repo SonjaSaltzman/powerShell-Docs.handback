@@ -2,10 +2,11 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
     <header>
-      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
-      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\fundamental\Understanding-Important-Windows-PowerShell-Concepts.md</xliffext:olfilepath>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">db5f410c8f84949c969f21ed59ac48a4e31e91fd</xliffext:olfilehash>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-39517ae" tool-company="Microsoft" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\fundamental\Understanding-Important-Windows-PowerShell-Concepts.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
     </header>
     <body>
       <group id="content" extype="content">
@@ -30,12 +31,12 @@
           <target state="translated">查看其中一些概念，可提供有用的殼層概觀。</target>         
         </trans-unit>
         <trans-unit id="106" translate="yes" xml:space="preserve">
-          <source>Commands Are Not Text\-Based</source>
+          <source>Commands Are Not Text<ph id="ph1">\-</ph>Based</source>
           <target state="translated">命令不是以文字為基礎</target>         
         </trans-unit>
         <trans-unit id="107" translate="yes" xml:space="preserve">
-          <source>Unlike traditional command\-line interface commands, Windows PowerShell cmdlets are designed to deal with objects \- structured information that is more than just a string of characters appearing on the screen.</source>
-          <target state="translated">與傳統命令列介面命令不同，Windows PowerShell Cmdlet 設計成處理不只是畫面上所出現字串的物件結構化資訊。</target>         
+          <source>Unlike traditional command<ph id="ph1">\-</ph>line interface commands, Windows PowerShell cmdlets are designed to deal with objects <ph id="ph2">\-</ph> structured information that is more than just a string of characters appearing on the screen.</source>
+          <target state="translated">與傳統命令列介面命令不同，Windows PowerShell Cmdlet 能夠處理的物件結構化資訊，不只是在畫面上顯示字串而已。</target>         
         </trans-unit>
         <trans-unit id="108" translate="yes" xml:space="preserve">
           <source>Command output always carries along extra information that you can use if you need it.</source>
@@ -46,12 +47,12 @@
           <target state="translated">我們將在本文件中深入討論此主題。</target>         
         </trans-unit>
         <trans-unit id="110" translate="yes" xml:space="preserve">
-          <source>If you have used text\-processing tools to process command\-line data in the past, you will find that they behave differently if you try to use them in Windows PowerShell.</source>
+          <source>If you have used text<ph id="ph1">\-</ph>processing tools to process command<ph id="ph2">\-</ph>line data in the past, you will find that they behave differently if you try to use them in Windows PowerShell.</source>
           <target state="translated">如果您過去已經使用文字處理工具來處理命令列資料，則嘗試在 Windows PowerShell 中使用它們時會發現它們的行為不同。</target>         
         </trans-unit>
         <trans-unit id="111" translate="yes" xml:space="preserve">
-          <source>In most cases, you do not need text\-processing tools to extract specific information.</source>
-          <target state="translated">在大部分情況下，您不需要文字處理工具擷取特定資訊。</target>         
+          <source>In most cases, you do not need text<ph id="ph1">\-</ph>processing tools to extract specific information.</source>
+          <target state="translated">在大部分情況下，您不需要用文字處理工具來擷取特定資訊。</target>         
         </trans-unit>
         <trans-unit id="112" translate="yes" xml:space="preserve">
           <source>You can access portions of the data directly by using standard Windows PowerShell object manipulation commands.</source>
@@ -62,20 +63,20 @@
           <target state="translated">命令系列可進行擴充</target>         
         </trans-unit>
         <trans-unit id="114" translate="yes" xml:space="preserve">
-          <source>Interfaces such as Cmd.exe do not provide a way for you to directly extend the built\-in command set.</source>
+          <source>Interfaces such as Cmd.exe do not provide a way for you to directly extend the built<ph id="ph1">\-</ph>in command set.</source>
           <target state="translated">Cmd.exe 這類介面未提供可讓您直接擴充內建命令集的方法。</target>         
         </trans-unit>
         <trans-unit id="115" translate="yes" xml:space="preserve">
-          <source>You can create external command\-line tools that run in Cmd.exe, but these external tools do not have services, such as Help integration, and Cmd.exe does not automatically know that they are valid commands.</source>
+          <source>You can create external command<ph id="ph1">\-</ph>line tools that run in Cmd.exe, but these external tools do not have services, such as Help integration, and Cmd.exe does not automatically know that they are valid commands.</source>
           <target state="translated">您可以建立在 Cmd.exe 中執行的外部命令列工具，但這些外部工具沒有服務 (例如說明整合)，而且 Cmd.exe 不會自動得知它們是否為有效命令。</target>         
         </trans-unit>
         <trans-unit id="116" translate="yes" xml:space="preserve">
-          <source>The native binary commands in Windows PowerShell, known as <bpt id="p1">*</bpt>cmdlets<ept id="p1">*</ept> (pronounced command\-lets), can be augmented by cmdlets that you create and that you add to Windows PowerShell by using snap\-ins.</source>
-          <target state="translated">您所建立的 Cmdlet 以及使用嵌入式管理單元新增至 Windows PowerShell 的 Cmdlet，可以增強 Windows PowerShell 中的原生二進位命令 (稱為 <bpt id="p1">*</bpt>Cmdlet<ept id="p1">*</ept>，唸成 command-let)。</target>         
+          <source>The native binary commands in Windows PowerShell, known as <bpt id="p1">*</bpt>cmdlets<ept id="p1">*</ept> (pronounced command<ph id="ph1">\-</ph>lets), can be augmented by cmdlets that you create and that you add to Windows PowerShell by using snap<ph id="ph2">\-</ph>ins.</source>
+          <target state="translated">您所建立的 Cmdlet 以及使用嵌入式管理單元新增至 Windows PowerShell 的 Cmdlet，可以增強 Windows PowerShell 中的原生二進位命令 (稱為 <bpt id="p1">*</bpt>Cmdlet<ept id="p1">*</ept>，唸成 command<ph id="ph1">\-</ph>let)。</target>         
         </trans-unit>
         <trans-unit id="117" translate="yes" xml:space="preserve">
-          <source>Windows PowerShell <bpt id="p1">*</bpt>snap\-ins<ept id="p1">*</ept> are compiled, just like binary tools in any other interface.</source>
-          <target state="translated">Windows PowerShell <bpt id="p1">*</bpt>嵌入式管理單元<ept id="p1">*</ept>會進行編譯，就像任何其他介面中的二進位工具一樣。</target>         
+          <source>Windows PowerShell <bpt id="p1">*</bpt>snap<ph id="ph1">\-</ph>ins<ept id="p1">*</ept> are compiled, just like binary tools in any other interface.</source>
+          <target state="translated">Windows PowerShell <bpt id="p1">*</bpt>嵌入式管理單元<ept id="p1">*</ept> 會進行編譯，就像任何其他介面中的二進位工具一樣。</target>         
         </trans-unit>
         <trans-unit id="118" translate="yes" xml:space="preserve">
           <source>You can use them to add Windows PowerShell providers to the shell, as well as new cmdlets.</source>
@@ -106,7 +107,7 @@
           <target state="translated">Windows PowerShell 處理主控台輸入和顯示</target>         
         </trans-unit>
         <trans-unit id="125" translate="yes" xml:space="preserve">
-          <source>When you type a command, Windows PowerShell always processes the command\-line input directly.</source>
+          <source>When you type a command, Windows PowerShell always processes the command<ph id="ph1">\-</ph>line input directly.</source>
           <target state="translated">當您輸入命令時，Windows PowerShell 一律會直接處理命令列輸入。</target>         
         </trans-unit>
         <trans-unit id="126" translate="yes" xml:space="preserve">
@@ -118,20 +119,20 @@
           <target state="translated">這十分重要，因為它會減少每個 Cmdlet 所需的工作，並確保您一律可以使用相同的方式來執行動作，而不管使用的 Cmdlet 為何。</target>         
         </trans-unit>
         <trans-unit id="128" translate="yes" xml:space="preserve">
-          <source>One example of how this simplifies life for both tool developers and users is command\-line Help.</source>
+          <source>One example of how this simplifies life for both tool developers and users is command<ph id="ph1">\-</ph>line Help.</source>
           <target state="translated">如何簡化工具開發人員和使用者作業的其中一個範例是命令列說明。</target>         
         </trans-unit>
         <trans-unit id="129" translate="yes" xml:space="preserve">
-          <source>Traditional command\-line tools have their own schemes for requesting and displaying Help.</source>
+          <source>Traditional command<ph id="ph1">\-</ph>line tools have their own schemes for requesting and displaying Help.</source>
           <target state="translated">傳統命令列工具有其專屬方法來要求和顯示說明。</target>         
         </trans-unit>
         <trans-unit id="130" translate="yes" xml:space="preserve">
-          <source>Some command\-line tools use <bpt id="p1">**</bpt>\/?<ept id="p1">**</ept></source>
-          <target state="translated">部分命令列工具使用 <bpt id="p1">**</bpt>\/?<ept id="p1">**</ept></target>         
+          <source>Some command<ph id="ph1">\-</ph>line tools use <bpt id="p1">**</bpt><ph id="ph2">\/</ph>?<ept id="p1">**</ept></source>
+          <target state="translated">部分命令列工具使用 <bpt id="p1">**</bpt><ph id="ph2">\/</ph>?<ept id="p1">**</ept></target>         
         </trans-unit>
         <trans-unit id="131" translate="yes" xml:space="preserve">
-          <source>to trigger the Help display; others use <bpt id="p1">**</bpt>\-?<ept id="p1">**</ept>, <bpt id="p2">**</bpt>\/H<ept id="p2">**</ept>, or even <bpt id="p3">**</bpt><ph id="ph1">\/\/</ph><ept id="p3">**</ept>.</source>
-          <target state="translated">來觸發說明顯示；其他則使用 <bpt id="p1">**</bpt>\-?<ept id="p1">**</ept>、<bpt id="p2">**</bpt>\/H<ept id="p2">**</ept> 甚至 <bpt id="p3">**</bpt><ph id="ph1">\/\/</ph><ept id="p3">**</ept>。</target>         
+          <source>to trigger the Help display; others use <bpt id="p1">**</bpt><ph id="ph1">\-</ph>?<ept id="p1">**</ept>, <bpt id="p2">**</bpt><ph id="ph2">\/</ph>H<ept id="p2">**</ept>, or even <bpt id="p3">**</bpt><ph id="ph3">\/\/</ph><ept id="p3">**</ept>.</source>
+          <target state="translated">來觸發說明顯示，其他則使用 <bpt id="p1">**</bpt><ph id="ph1">\-</ph>?<ept id="p1">**</ept>、<bpt id="p2">**</bpt><ph id="ph2">\/</ph>H<ept id="p2">**</ept> 或甚至 <bpt id="p3">**</bpt><ph id="ph3">\/\/</ph><ept id="p3">**</ept>。</target>         
         </trans-unit>
         <trans-unit id="132" translate="yes" xml:space="preserve">
           <source>Some will display Help in a GUI window, rather than in the console display.</source>
@@ -146,12 +147,12 @@
           <target state="translated">如果您使用錯誤的參數，則工具可能會忽略您輸入的內容，並開始自動執行工作。</target>         
         </trans-unit>
         <trans-unit id="135" translate="yes" xml:space="preserve">
-          <source>When you enter a command in Windows PowerShell, everything you enter is automatically parsed and pre\-processed by Windows PowerShell.</source>
+          <source>When you enter a command in Windows PowerShell, everything you enter is automatically parsed and pre<ph id="ph1">\-</ph>processed by Windows PowerShell.</source>
           <target state="translated">當您在 Windows PowerShell 中輸入命令時，Windows PowerShell 會自動剖析並預先處理輸入的所有內容。</target>         
         </trans-unit>
         <trans-unit id="136" translate="yes" xml:space="preserve">
-          <source>If you use the <bpt id="p1">**</bpt>\-?<ept id="p1">**</ept></source>
-          <target state="translated">如果您使用 <bpt id="p1">**</bpt>-?<ept id="p1">**</ept></target>         
+          <source>If you use the <bpt id="p1">**</bpt><ph id="ph1">\-</ph>?<ept id="p1">**</ept></source>
+          <target state="translated">如果您使用 <bpt id="p1">**</bpt><ph id="ph1">\-</ph>?<ept id="p1">**</ept></target>         
         </trans-unit>
         <trans-unit id="137" translate="yes" xml:space="preserve">
           <source>parameter with a Windows PowerShell cmdlet, it always means "show me Help for this command".</source>
@@ -162,7 +163,7 @@
           <target state="translated">Cmdlet 開發人員不需要剖析命令，只需要提供說明文字。</target>         
         </trans-unit>
         <trans-unit id="139" translate="yes" xml:space="preserve">
-          <source>It is important to understand that the Help features of Windows PowerShell are available even when you run traditional command\-line tools in Windows PowerShell.</source>
+          <source>It is important to understand that the Help features of Windows PowerShell are available even when you run traditional command<ph id="ph1">\-</ph>line tools in Windows PowerShell.</source>
           <target state="translated">請務必了解，即使在 Windows PowerShell 中執行傳統命令列工具，還是會提供 Windows PowerShell 的說明功能。</target>         
         </trans-unit>
         <trans-unit id="140" translate="yes" xml:space="preserve">
@@ -174,28 +175,28 @@
           <target state="translated">如果您在 Windows PowerShell 中執行圖形應用程式，則會開啟應用程式的視窗。</target>         
         </trans-unit>
         <trans-unit id="142" translate="yes" xml:space="preserve">
-          <source>Windows PowerShell intervenes only when processing the command\-line input you supply or the application output returned to the console window; it does not affect how the application works internally.</source>
-          <target state="translated">只有在處理您提供的命令列輸入或傳回給主控台視窗的應用程式輸出時，Windows PowerShell 才會干擾，否則不會影響應用程式的內部運作方式。</target>         
+          <source>Windows PowerShell intervenes only when processing the command<ph id="ph1">\-</ph>line input you supply or the application output returned to the console window; it does not affect how the application works internally.</source>
+          <target state="translated">只有在處理您提供的命令列輸入或傳回給主控台視窗的應用程式輸出時，Windows PowerShell 才會介入，否則不會影響應用程式的內部運作方式。</target>         
         </trans-unit>
         <trans-unit id="143" translate="yes" xml:space="preserve">
-          <source>Windows PowerShell Uses Some C\# Syntax</source>
-          <target state="translated">Windows PowerShell 使用某個 C# 語法</target>         
+          <source>Windows PowerShell Uses Some C<ph id="ph1">\#</ph> Syntax</source>
+          <target state="translated">Windows PowerShell 使用某個 C<ph id="ph1">\#</ph> 語法</target>         
         </trans-unit>
         <trans-unit id="144" translate="yes" xml:space="preserve">
-          <source>Windows PowerShell has syntax features and keywords that are very similar to those used in the C\# programming language, because Windows PowerShell is based on the .NET Framework.</source>
-          <target state="translated">Windows PowerShell 的語法功能和關鍵字與 C# 程式設計語言中所使用的語法功能和關鍵字十分類似，因為 Windows PowerShell 是以 .NET Framework 為基礎。</target>         
+          <source>Windows PowerShell has syntax features and keywords that are very similar to those used in the C<ph id="ph1">\#</ph> programming language, because Windows PowerShell is based on the .NET Framework.</source>
+          <target state="translated">Windows PowerShell 的語法功能和關鍵字與 C<ph id="ph1">\#</ph> 程式設計語言中所使用的語法功能和關鍵字十分類似，因為 Windows PowerShell 是以 .NET Framework 為基礎。</target>         
         </trans-unit>
         <trans-unit id="145" translate="yes" xml:space="preserve">
-          <source>Learning Windows PowerShell will make it much easier to learn C\#, if you are interested in the language.</source>
-          <target state="translated">如果您對 C# 語言感興趣，則學習 Windows PowerShell 更容易了解該語言。</target>         
+          <source>Learning Windows PowerShell will make it much easier to learn C<ph id="ph1">\#</ph>, if you are interested in the language.</source>
+          <target state="translated">如果您對 C<ph id="ph1">\#</ph> 語言感興趣，則學習 Windows PowerShell 更容易了解該語言。</target>         
         </trans-unit>
         <trans-unit id="146" translate="yes" xml:space="preserve">
-          <source>If you are not a C\# programmer, this similarity is not important.</source>
-          <target state="translated">如果您不是 C# 程式設計人員，則這項相似性不重要。</target>         
+          <source>If you are not a C<ph id="ph1">\#</ph> programmer, this similarity is not important.</source>
+          <target state="translated">如果您不是 C<ph id="ph1">\#</ph> 程式設計人員，則這項相似性不重要。</target>         
         </trans-unit>
         <trans-unit id="147" translate="yes" xml:space="preserve">
-          <source>However, if you are already familiar with C\#, the similarities can make learning Windows PowerShell much easier.</source>
-          <target state="translated">不過，如果您已經熟悉 C#，則相似性可讓學習 Windows PowerShell 更為簡單。</target>         
+          <source>However, if you are already familiar with C<ph id="ph1">\#</ph>, the similarities can make learning Windows PowerShell much easier.</source>
+          <target state="translated">不過，如果您已經熟悉 C<ph id="ph1">\#</ph>，則相似性可讓學習 Windows PowerShell 更為簡單。</target>         
         </trans-unit>
       </group>
     </body>
