@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">jea\role-capabilities.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5b6dcb205d2c3cbb1a98c6465cb1002b9ed61459</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-48076a9" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>role capabilities</source>
+          <target state="translated">capacidades de função</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Role Capabilities</source>
+          <target state="translated">Capacidades de Função</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Overview</source>
+          <target state="translated">Visão geral</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In the above section, you learned that the "RoleDefinitions" field defined which groups had access to which Role Capabilities.</source>
+          <target state="translated">Na seção acima, você aprendeu que o campo “RoleDefinitions” definiu quais grupos tinham acesso a quais Capacidades de Função.</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You may have wondered, "What are Role Capabilities?"</source>
+          <target state="translated">Você pode se perguntar: “o que são as Capacidades de Função?"</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This section will answer that question.</source>
+          <target state="translated">Esta seção responderá essa pergunta.</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Introducing PowerShell Role Capabilities</source>
+          <target state="translated">Apresentando as Capacidades de Função do PowerShell</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>PowerShell Role Capabilities define "what" a user can do at a JEA endpoint.</source>
+          <target state="translated">Capacidades de Função do PowerShell definem "o que" um usuário pode fazer em um ponto de extremidade JEA.</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>They detail a whitelist of things like visible commands, visible applications, and more.</source>
+          <target state="translated">Eles fornecem detalhes sobre uma lista branca de coisas como comandos visíveis, aplicativos visíveis e muito mais.</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Role Capabilities are defined by files with a ".psrc" extension.</source>
+          <target state="translated">Capacidades de Função são definidas por arquivos com uma extensão ".psrc".</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Role Capability Contents</source>
+          <target state="translated">Conteúdo do Capacidade de Função</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>We will start by examining and modifying the demo Role Capability file you used before.</source>
+          <target state="translated">Começamos examinando e modificando o arquivo de Capacidade de Função usado anteriormente.</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Imagine you have deployed your Session Configuration across your environment, but you have gotten feedback that you need to change the capabilities exposed to users.</source>
+          <target state="translated">Imagine que você implantou sua Configuração de Sessão no seu ambiente, mas recebeu comentários de que precisa alterar os recursos expostos aos usuários.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Operators need the ability to restart machines, and they also want to be able to get information about network settings.</source>
+          <target state="translated">Operadores precisam ser capazes de reinicializar os computadores e também desejam poder obter informações sobre as configurações de rede.</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>In addition, the security team has told you that allowing users to run "Restart-Service" without any restrictions is not acceptable.</source>
+          <target state="translated">Além disso, a equipe de segurança lhe disse que permitir que usuários executem "Restart-Service" sem qualquer restrição não é aceitável.</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You need to restrict the services that operators can restart.</source>
+          <target state="translated">É necessário restringir os serviços que os operadores podem reiniciar.</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To make these changes, start by running PowerShell ISE as an Administrator and open the following file:</source>
+          <target state="translated">Para fazer essas alterações, comece executando o ISE do PowerShell como Administrador e abra o seguinte arquivo:</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Now find and update the following lines in the file:</source>
+          <target state="translated">Agora, encontre e atualize as seguintes linhas no arquivo:</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This contains a few interesting examples:</source>
+          <target state="translated">Elas contém alguns exemplos interessantes:</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You have restricted Restart-Service such that operators will only be able to use Restart-Service with the -Name parameter, and they will only be allowed to provide "Spooler" as an argument to that parameter.</source>
+          <target state="translated">Você restringiu Restart-Service de modo que os operadores só poderá usar a Restart-Service com o parâmetro -Name e eles só terão permissão para fornecer "Spooler" como um argumento para esse parâmetro.</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If you wanted to, you could also restrict the arguments using a regular expression using "ValidatePattern" instead of "ValidateSet".</source>
+          <target state="translated">Se desejar, você também poderá restringir os argumentos usando uma expressão regular usando "ValidatePattern" em vez de "ValidateSet".</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You have exposed all commands with the "Get" verb from the NetTCPIP module.</source>
+          <target state="translated">Você expôs todos os comandos com o verbo "Get" do módulo NetTCPIP.</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Because "Get" commands typically don't change system state, this is a relatively safe action.</source>
+          <target state="translated">Como comandos "Get" normalmente não alteram o estado do sistema, esta é uma ação relativamente segura.</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>That being said, it is strongly encouraged to closely examinine every command you expose through JEA.</source>
+          <target state="translated">Dito isso, é altamente recomendável examinar atentamente cada comando exposto por meio do JEA.</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You have expose an executable (ipconfig) using VisibleExternalCommands.</source>
+          <target state="translated">Você expôs um executável (ipconfig) usando VisibleExternalCommands.</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You can also expose full PowerShell scripts with this field.</source>
+          <target state="translated">Você também pode expor scripts do PowerShell completos com este campo.</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>It is important to always provide the full path to external commands to ensure a similarly named (and potentially malicous) program placed in the user's path does not get executed instead.</source>
+          <target state="translated">É importante sempre fornecer o caminho completo para comandos externos para garantir que um programa com o mesmo nome (e potencialmente mal-intencionado) colocado no caminho do usuário não seja executado em vez dele.</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Save the file, then connect to the demo endpoint again to confirm the changes worked.</source>
+          <target state="translated">Salve o arquivo e conecte-se ao ponto de extremidade de demonstração novamente para confirmar se as alterações funcionaram.</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Because you only modified the Role Capability file, you do not need to re-register the Session Configuration.</source>
+          <target state="translated">Como somente você modificou o arquivo de Capacidade de função, não é necessário registrar novamente a Configuração de Sessão.</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>PowerShell will automatically find your updated Role Capability when a user connects.</source>
+          <target state="translated">O PowerShell localiza automaticamente suas Capacidades de Função atualizadas quando um usuário se conecta.</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Since Role Capabilities are loaded when the session starts, existing sessions are not affected by updates to Role Capability files.</source>
+          <target state="translated">Como as Capacidades de Função são carregadas quando a sessão é iniciada, as sessões existentes não são afetadas por atualizações para os arquivos de Capacidade de Função.</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Now, confirm that you can restart the computer by running Restart-Computer with the -WhatIf parameter (unless you actually want to restart the computer).</source>
+          <target state="translated">Agora, confirme se você pode reiniciar o computador executando Restart-Computer com o parâmetro -WhatIf (a menos que você realmente deseje reiniciar o computador).</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Confirm that you can run "ipconfig"</source>
+          <target state="translated">Confirme se você pode executar "ipconfig"</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>And finally, confirm that Restart-Service only works for the Spooler service.</source>
+          <target state="translated">Por fim, confirme se Restart-Service funciona apenas para o serviço de Spooler.</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Exit the session when you are finished.</source>
+          <target state="translated">Saia da sessão quando tiver terminado.</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Role Capability Creation</source>
+          <target state="translated">Criação de Capacidade de Função</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>In the next section, you will create a JEA endpoint for AD help desk users.</source>
+          <target state="translated">Na próxima seção, você criará um ponto de extremidade JEA para os usuários do suporte técnico do AD.</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To prepare, we will create a blank Role Capability file to fill in for that section.</source>
+          <target state="translated">Para preparar isso, criaremos um arquivo de Capacidade de Função em branco para preencher essa seção.</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Role Capabilities must be created inside a "RoleCapabilities" folder inside a valid PowerShell module in order to be resolved when a session starts.</source>
+          <target state="translated">As Capacidades de Função devem ser criadas dentro de uma pasta "RoleCapabilities" dentro de um módulo do PowerShell válido para ser resolvido quando uma sessão é iniciada.</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>PowerShell Modules are essentially packages of PowerShell functionality.</source>
+          <target state="translated">Módulos do PowerShell são essencialmente pacotes da funcionalidade do PowerShell.</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>They can contain PowerShell functions, cmdlets, DSC Resources, Role Capabilities, and more.</source>
+          <target state="translated">Eles podem conter funções, cmdlets, recursos da DSC, Capacidades de Função do PowerShell e muito mais.</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You can find information about modules by running <ph id="ph1">`Get-Help about_Modules`</ph> in a PowerShell console.</source>
+          <target state="translated">Você pode encontrar informações sobre os módulos que executam <ph id="ph1">`Get-Help about_Modules`</ph> em um console do PowerShell.</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To create a new PowerShell module with a blank Role Capability file, run the following commands:</source>
+          <target state="translated">Para criar um novo módulo do PowerShell com um arquivo de Capacidade de Função em branco, execute os seguintes comandos:</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Congratulations, you have created a blank Role Capability File.</source>
+          <target state="translated">Parabéns, você criou um arquivo de Capacidade de Função em branco.</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>It will be used in the next section.</source>
+          <target state="translated">Ele será usado na próxima seção.</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Key Concepts</source>
+          <target state="translated">Conceitos Principais</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Role Capability (.psrc)<ept id="p1">**</ept>: A file that define "what" a user can do at a JEA endpoint.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Capacidade de Função (.psrc)<ept id="p1">**</ept>: um arquivo que define "o que" um usuário pode fazer em um ponto de extremidade JEA.</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>It details a whitelist of things like visible commands, visible console applications, and more.</source>
+          <target state="translated">Ele fornece detalhes sobre uma lista branca de coisas como comandos visíveis, aplicativos de console visíveis e muito mais.</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>In order for PowerShell to detect Role Capabilities, you must put them in a "RoleCapabilities" folder in a valid PowerShell module.</source>
+          <target state="translated">Para que o PowerShell detecte as Capacidades de Função, você deve colocá-los em uma pasta "RoleCapabilities" em um módulo do PowerShell válido.</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>PowerShell Module<ept id="p1">**</ept>: A package of PowerShell functionality.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Módulo do PowerShell<ept id="p1">**</ept>: um pacote da funcionalidade do PowerShell.</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>It can contain PowerShell functions, cmdlets, DSC Resources, Role Capabilities, and more.</source>
+          <target state="translated">Ele podem conter funções, cmdlets, recursos da DSC, Capacidades de Função do PowerShell e muito mais.</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>In order to be automatically loaded, PowerShell modules must be located under a path in <ph id="ph1">`$env:PSModulePath`</ph>.</source>
+          <target state="translated">Para ser carregado automaticamente, módulos do PowerShell devem estar localizados em um caminho em <ph id="ph1">`$env:PSModulePath`</ph>.</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
