@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" original="md" source-language="en-US" target-language="fr-fr">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="fr-fr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fa0f232c7ed02cb6358b1c181a40bab8a1e2e640</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\dsc_resourcedebugging.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
     <body>
       <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
@@ -12,133 +19,10 @@
           <target state="translated">WMF 5.0 Production Preview inclut la prise en charge du débogage des scripts de ressources DSC pendant qu’ils s’exécutent sur des nœuds cibles.</target>         
         </trans-unit>
         <trans-unit id="103" translate="yes" xml:space="preserve">
-          <source>In older WMF 5.0 releases, we added advanced script debugging features with the ability to attach to local processes (Get-PSHostProcessInfo, Enter-PSHostProcessInfo, Exit-PSHostProcessInfo), enumerate all runspaces in a process, and debug an arbitrary runspace in a process (Get-Runspace, Debug-Runspace).</source>
-          <target state="translated">Dans les versions antérieures de WMF 5.0, nous avons ajouté des fonctionnalités de débogage de script avancées permettant d’établir une jonction à des processus locaux (Get-PSHostProcessInfo, Enter-PSHostProcessInfo, Exit-PSHostProcessInfo), d’énumérer toutes les instances d’exécution dans un processus et de déboguer une instance d’exécution arbitraire dans un processus (Get-Runspace, Debug-Runspace).</target>         
-        </trans-unit>
-        <trans-unit id="104" translate="yes" xml:space="preserve">
-          <source>DSC resource script debugging builds on this work by adding two new cmdlets.</source>
-          <target state="translated">Le débogage de script de ressources DSC s’appuie sur ce travail en ajoutant deux nouvelles applets de commande.</target>         
-        </trans-unit>
-        <trans-unit id="105" translate="yes" xml:space="preserve">
-          <source>Syntax</source>
-          <target state="translated">Syntaxe</target>         
-        </trans-unit>
-        <trans-unit id="106" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Enable-DscDebug<ept id="p1">**</ept></source>
-          <target state="translated"><bpt id="p1">**</bpt>Enable-DscDebug<ept id="p1">**</ept></target>         
-        </trans-unit>
-        <trans-unit id="107" translate="yes" xml:space="preserve">
-          <source>Enable-DscDebug \[-BreakAll\] \[-CimSession &amp;lt;CimSession\[\]&amp;gt;\] \[-ThrottleLimit &amp;lt;int&amp;gt;\] \[-AsJob\] \[-WhatIf\] \[-Confirm\] \[&amp;lt;CommonParameters&amp;gt;\]</source>
-          <target state="translated">Enable-DscDebug \[-BreakAll\] \[-CimSession &amp;lt;CimSession\[\]&amp;gt;\] \[-ThrottleLimit &amp;lt;int&amp;gt;\] \[-AsJob\] \[-WhatIf\] \[-Confirm\] \[&amp;lt;paramètres_courants&amp;gt;\]</target>         
-        </trans-unit>
-        <trans-unit id="108" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Disable-DscDebug<ept id="p1">**</ept></source>
-          <target state="translated"><bpt id="p1">**</bpt>Disable-DscDebug<ept id="p1">**</ept></target>         
-        </trans-unit>
-        <trans-unit id="109" translate="yes" xml:space="preserve">
-          <source>Disable-DscDebug \[-CimSession &amp;lt;CimSession\[\]&amp;gt;\] \[-ThrottleLimit &amp;lt;int&amp;gt;\] \[-AsJob\] \[-WhatIf\] \[-Confirm\] \[&amp;lt;CommonParameters&amp;gt;\]</source>
-          <target state="translated">Disable-DscDebug \[-CimSession &amp;lt;CimSession\[\]&amp;gt;\] \[-ThrottleLimit &amp;lt;int&amp;gt;\] \[-AsJob\] \[-WhatIf\] \[-Confirm\] \[&amp;lt;paramètres_courants&amp;gt;\]</target>         
-        </trans-unit>
-        <trans-unit id="110" translate="yes" xml:space="preserve">
-          <source>Typical WorkFlow</source>
-          <target state="translated">Flux de travail ordinaire</target>         
-        </trans-unit>
-        <trans-unit id="111" translate="yes" xml:space="preserve">
-          <source>Now lets take a look at each of these commands and what they do:</source>
-          <target state="translated">Examinons chacune de ces commandes et ce qu’elles font :</target>         
-        </trans-unit>
-        <trans-unit id="112" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Enable-DscDebug –BreakAll<ept id="p1">**</ept></source>
-          <target state="translated"><bpt id="p1">**</bpt>Enable-DscDebug –BreakAll<ept id="p1">**</ept></target>         
-        </trans-unit>
-        <trans-unit id="113" translate="yes" xml:space="preserve">
-          <source>Enable-DscDebug cmdlet with BreakAll configures the DSC LCM to run Get-TargetResource, Set-TargetResource, and Test-TargetResource scripts in Break All mode.</source>
-          <target state="translated">L’applet de commande Enable-DscDebug avec BreakAll configure le gestionnaire de configuration local DSC pour exécuter des scripts Get-TargetResource, Set-TargetResource, et Test-TargetResource en mode Interrompre tout.</target>         
-        </trans-unit>
-        <trans-unit id="114" translate="yes" xml:space="preserve">
-          <source>This means that the script stops at the first script statement and waits for a debugger to be attached.</source>
-          <target state="translated">Cela signifie que le script s’arrête à la première instruction de script et qu’il attend qu’un débogueur soit attaché.</target>         
-        </trans-unit>
-        <trans-unit id="115" translate="yes" xml:space="preserve">
-          <source>You can then connect to the target computer by using Windows PowerShell remoting, and attach the Windows PowerShell debugger to the LCM process and runspace to debug the script.</source>
-          <target state="translated">Vous pouvez ensuite vous connecter à l’ordinateur cible à l’aide de l’accès distant Windows PowerShell et attacher le débogueur Windows PowerShell au processus et à l’instance d’exécution du gestionnaire de configuration local pour déboguer le script.</target>         
-        </trans-unit>
-        <trans-unit id="116" translate="yes" xml:space="preserve">
-          <source>After you do this, you can set breakpoints and debug the script in the normal Windows PowerShell way.</source>
-          <target state="translated">Après cela, vous pouvez définir des points d’arrêt et déboguer le script normalement dans Windows PowerShell.</target>         
-        </trans-unit>
-        <trans-unit id="117" translate="yes" xml:space="preserve">
-          <source>Start-DscConfiguration -path .\TestConfig2 -Wait -Verbose</source>
-          <target state="translated">Start-DscConfiguration -path .\TestConfig2 -Wait -Verbose</target>         
-        </trans-unit>
-        <trans-unit id="118" translate="yes" xml:space="preserve">
-          <source>This kicks off DSC but as noted above, since the target node has debug mode enabled it will stop at the first DSC resource that the LCM executes.</source>
-          <target state="translated">Ceci lance DSC, mais comme indiqué précédemment, étant donné que le nœud cible est en mode débogage, il s’arrêtera à la première ressource DSC exécutée par le gestionnaire de configuration local.</target>         
-        </trans-unit>
-        <trans-unit id="119" translate="yes" xml:space="preserve">
-          <source>In order to begin the debugging session run the commands shown in the warning message after running Start-DscConfiguration, you attach your client Windows PowerShell script debugger to the appropriate computer, process, application domain, and runspace.</source>
-          <target state="translated">Pour commencer la session de débogage, exécutez les commandes affichées dans le message d’avertissement après avoir exécuté Start-DscConfiguration, puis attachez votre débogueur de script Windows PowerShell client à l’ordinateur, au processus, au domaine d’application et à l’instance d’exécution appropriés.</target>         
-        </trans-unit>
-        <trans-unit id="120" translate="yes" xml:space="preserve">
-          <source>Run this command to optionally use Windows PowerShell remoting to connect to the target computer.</source>
-          <target state="translated">Exécutez cette commande pour utiliser éventuellement l’accès distant Windows PowerShell pour vous connecter à l’ordinateur cible.</target>         
-        </trans-unit>
-        <trans-unit id="121" translate="yes" xml:space="preserve">
-          <source>Skip this if you already have a remote desktop connection.</source>
-          <target state="translated">Ignorez cette étape si vous disposez déjà d’une connexion Bureau à distance.</target>         
-        </trans-unit>
-        <trans-unit id="122" translate="yes" xml:space="preserve">
-          <source>This command attaches to the DSC LCM host process and app domain where the resource script is running.</source>
-          <target state="translated">Cette commande établit une jonction au domaine d’application et au processus hôte DSC du gestionnaire de configuration local où s’exécute le script de ressources.</target>         
-        </trans-unit>
-        <trans-unit id="123" translate="yes" xml:space="preserve">
-          <source>This last command lets you debug the DSC runspace running the script.</source>
-          <target state="translated">Cette dernière commande vous permet de déboguer l’instance d’exécution DSC qui exécute le script.</target>         
-        </trans-unit>
-        <trans-unit id="124" translate="yes" xml:space="preserve">
-          <source>After you have the debugger attached, set line breakpoints where you want to investigate script execution and run the <bpt id="p1">**</bpt>continue<ept id="p1">**</ept> debugger command to let the script run in the debugger.</source>
-          <target state="translated">Une fois le débogueur attaché, définissez des points d’arrêt de ligne où vous souhaitez examiner l’exécution du script, et exécutez la commande du débogueur <bpt id="p1">**</bpt>continue<ept id="p1">**</ept> pour exécuter le script dans le débogueur.</target>         
-        </trans-unit>
-        <trans-unit id="125" translate="yes" xml:space="preserve">
-          <source>When you are done debugging, you can stop the script from running by typing the <bpt id="p1">**</bpt>quit<ept id="p1">**</ept> debugger command, or let the script continue to run without the debugger by running the <bpt id="p2">**</bpt>detach<ept id="p2">**</ept> debugger command.</source>
-          <target state="translated">Une fois le débogage terminé, vous pouvez arrêter l’exécution du script en tapant la commande du débogueur <bpt id="p1">**</bpt>quit<ept id="p1">**</ept>, ou laisser le script continuer à s’exécuter sans le débogueur en exécutant la commande du débogueur <bpt id="p2">**</bpt>detach<ept id="p2">**</ept>.</target>         
-        </trans-unit>
-        <trans-unit id="126" translate="yes" xml:space="preserve">
-          <source>Notice that <bpt id="p1">***</bpt>all<ept id="p1">***</ept> resource scripts are stopped in the debugger.</source>
-          <target state="translated">Notez que <bpt id="p1">***</bpt>tous<ept id="p1">***</ept> les scripts de ressources sont arrêtés dans le débogueur.</target>         
-        </trans-unit>
-        <trans-unit id="127" translate="yes" xml:space="preserve">
-          <source>This means that Test-TargetResoruce, Set-TargetResource, and Get-TargetResource scripts each in turn stop in the debugger.</source>
-          <target state="translated">Cela signifie que les scripts Test-TargetResoruce, Set-TargetResource et Get-TargetResource s’arrêtent chacun leur tour dans le débogueur.</target>         
-        </trans-unit>
-        <trans-unit id="128" translate="yes" xml:space="preserve">
-          <source>If you don't want to debug a resource script, you can exit debug mode in the runspace by running this command.</source>
-          <target state="translated">Si vous ne souhaitez pas déboguer un script de ressources, vous pouvez quitter le mode débogage dans l’instance d’exécution en exécutant cette commande :</target>         
-        </trans-unit>
-        <trans-unit id="129" translate="yes" xml:space="preserve">
-          <source>Disable-RunspaceDebug -RunspaceId 3</source>
-          <target state="translated">Disable-RunspaceDebug -RunspaceId 3</target>         
-        </trans-unit>
-        <trans-unit id="130" translate="yes" xml:space="preserve">
-          <source>Or you can attach the debugger by running Debug-Runspace, and then immediately run the <bpt id="p1">**</bpt>detach<ept id="p1">**</ept> command.</source>
-          <target state="translated">Ou vous pouvez attacher le débogueur en exécutant Debug-Runspace, puis exécuter immédiatement la commande <bpt id="p1">**</bpt>detach<ept id="p1">**</ept>.</target>         
-        </trans-unit>
-        <trans-unit id="131" translate="yes" xml:space="preserve">
-          <source>After you are done debugging your resource script, you should stop the DSC configuration by running the following command.</source>
-          <target state="translated">Une fois que vous avez terminé de déboguer votre script de ressources, vous devez arrêter la configuration DSC en exécutant la commande suivante :</target>         
-        </trans-unit>
-        <trans-unit id="132" translate="yes" xml:space="preserve">
-          <source>Stop-DscConfiguration –Force</source>
-          <target state="translated">Stop-DscConfiguration –Force</target>         
-        </trans-unit>
-        <trans-unit id="133" translate="yes" xml:space="preserve">
-          <source>Finally, you must reconfigure the target computer LCM to disable debug mode using Disable-DscDebug cmdlet..</source>
-          <target state="translated">Pour finir, vous devez reconfigurer le gestionnaire de configuration local de l’ordinateur cible pour désactiver le mode débogage à l’aide de l’applet de commande Disable-DscDebug.</target>         
+          <source>For more information, see <bpt id="p1">[</bpt>Debugging DSC resources<ept id="p1">](../dsc/debugResource.md)</ept>.</source>
+          <target state="translated">Pour plus d’informations, consultez <bpt id="p1">[</bpt>Débogage des ressources DSC<ept id="p1">](../dsc/debugResource.md)</ept>.</target>         
         </trans-unit>
       </group>
     </body>
   </file>
-  <header xmlns="">
-    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">68949a10a4e8b6cac5a2d596567e7c0e680db8a2</xliffext:olfilehash>
-  </header>
 </xliff>
