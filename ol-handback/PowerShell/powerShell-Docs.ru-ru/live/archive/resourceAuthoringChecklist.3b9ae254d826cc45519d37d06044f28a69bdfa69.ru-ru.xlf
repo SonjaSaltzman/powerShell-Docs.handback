@@ -2,10 +2,11 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
     <header>
-      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
-      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\resourceAuthoringChecklist.md</xliffext:olfilepath>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bd6af2cbf746e71aa59f509eae14664e647a1b05</xliffext:olfilehash>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-8d96cd8" tool-company="Microsoft" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\resourceAuthoringChecklist.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
     </header>
     <body>
       <group id="content" extype="content">
@@ -554,58 +555,50 @@
           <target state="translated"><bpt id="p1">**</bpt>Рекомендация: папка Resource содержит сценарий конструктора ресурсов для создания схемы.<ept id="p1">**</ept> Каждый ресурс должен содержать сценарий конструктора ресурсов, создающий схему MOF для данного ресурса.</target>         
         </trans-unit>
         <trans-unit id="237" translate="yes" xml:space="preserve">
-          <source>This file should be placed in</source>
-          <target state="translated">Этот следует поместить в каталог</target>         
+          <source>This file should be placed in <ph id="ph1">&lt;ResourceName&gt;</ph>\ResourceDesignerScripts and be named Generate<ph id="ph2">&lt;ResourceName&gt;</ph>Schema.ps1 For xRemoteFile resource this file would be called GenerateXRemoteFileSchema.ps1 and contain:</source>
+          <target state="translated">Этот файл следует поместить в каталог <ph id="ph1">&lt;ResourceName&gt;</ph>\ResourceDesignerScripts and be named Generate<ph id="ph2">&lt;ResourceName&gt;</ph>Schema.ps1. Для ресурса xRemoteFile этот файл будет называться GenerateXRemoteFileSchema.ps1 и содержать следующее.</target>         
         </trans-unit>
         <trans-unit id="238" translate="yes" xml:space="preserve">
-          <source>\ResourceDesignerScripts and be named Generate</source>
-          <target state="translated">\ResourceDesignerScripts и назвать Generate</target>         
-        </trans-unit>
-        <trans-unit id="239" translate="yes" xml:space="preserve">
-          <source>Schema.ps1 For xRemoteFile resource this file would be called GenerateXRemoteFileSchema.ps1 and contain:</source>
-          <target state="translated">Schema.ps1. Для ресурса xRemoteFile этот файл будет называться GenerateXRemoteFileSchema.ps1 и содержать следующее.</target>         
-        </trans-unit>
-        <trans-unit id="240" translate="yes" xml:space="preserve">
           <source>22  Best practice: Resource supports -whatif If your resource is performing “dangerous” operations, it’s a good practice to implement -whatif functionality.</source>
           <target state="translated">Рекомендация: ресурс поддерживает -whatif. Если ресурс выполняет "небезопасные" операции, рекомендуется реализовать функциональность -whatif.</target>         
         </trans-unit>
-        <trans-unit id="241" translate="yes" xml:space="preserve">
+        <trans-unit id="239" translate="yes" xml:space="preserve">
           <source>After it’s done, make sure that whatif output correctly describes operations which would happen if command was executed without whatif switch.</source>
           <target state="translated">После этого убедитесь в том, что выходные данные whatif правильно описывают операции, которые могут быть выполнены при запуске команды без параметра whatif.</target>         
         </trans-unit>
-        <trans-unit id="242" translate="yes" xml:space="preserve">
+        <trans-unit id="240" translate="yes" xml:space="preserve">
           <source>Also, verify that operations does not execute (no changes to the node’s state are made) when –whatif switch is present.</source>
           <target state="translated">Кроме того, убедитесь, что при наличии параметра -whatif операции не выполняются (не изменяется состояние узла).</target>         
         </trans-unit>
-        <trans-unit id="243" translate="yes" xml:space="preserve">
+        <trans-unit id="241" translate="yes" xml:space="preserve">
           <source>For example, let’s assume we are testing File resource.</source>
           <target state="translated">Например, предположим, что мы тестируем ресурс File.</target>         
         </trans-unit>
-        <trans-unit id="244" translate="yes" xml:space="preserve">
+        <trans-unit id="242" translate="yes" xml:space="preserve">
           <source>Below is simple configuration which creates file “test.txt” with contents “test”:</source>
           <target state="translated">Ниже приведена простая конфигурации, которая создает файл test.txt с содержимым test:</target>         
         </trans-unit>
-        <trans-unit id="245" translate="yes" xml:space="preserve">
+        <trans-unit id="243" translate="yes" xml:space="preserve">
           <source>If we compile and then execute the configuration with the –whatif switch, the output is telling us exactly what would happen when we run the configuration.</source>
           <target state="translated">Если скомпилировать и выполнить эту конфигурацию с параметром –whatif, выходные данные сообщают, что именно произойдет при запуске конфигурации.</target>         
         </trans-unit>
-        <trans-unit id="246" translate="yes" xml:space="preserve">
+        <trans-unit id="244" translate="yes" xml:space="preserve">
           <source>The configuration itself however was not executed (test.txt file was not created).</source>
           <target state="translated">При этом сама конфигурация не выполняется (файл test.txt не создается).</target>         
         </trans-unit>
-        <trans-unit id="247" translate="yes" xml:space="preserve">
+        <trans-unit id="245" translate="yes" xml:space="preserve">
           <source>This wraps up our checklist.</source>
           <target state="translated">Вот мы и добрались до конца нашего контрольного списка.</target>         
         </trans-unit>
-        <trans-unit id="248" translate="yes" xml:space="preserve">
+        <trans-unit id="246" translate="yes" xml:space="preserve">
           <source>Please keep in mind that this list is not exhaustive, but it covers many important issues which we encountered while designing, developing and testing DSC resources.</source>
           <target state="translated">Помните о том, что этот список не является исчерпывающим, однако он охватывает множество важных проблем, с которыми мы столкнулись при проектировании, разработке и тестировании ресурсов DSC.</target>         
         </trans-unit>
-        <trans-unit id="249" translate="yes" xml:space="preserve">
+        <trans-unit id="247" translate="yes" xml:space="preserve">
           <source>Having a checklist helps to ensure we didn’t forget about any of those aspects and in fact, we use it at Microsoft when developing DSC resources ourselves.</source>
           <target state="translated">Наличие контрольного списка помогает не забыть что-то важное, мы сами активно используем его при разработке ресурсов DSC.</target>         
         </trans-unit>
-        <trans-unit id="250" translate="yes" xml:space="preserve">
+        <trans-unit id="248" translate="yes" xml:space="preserve">
           <source>If you developed guidelines and best practices which you use for writing and testing DSC resources, please share them!</source>
           <target state="translated">Если вы разработали рекомендации и лучшие методики для создания и тестирования ресурсов DSC, поделитесь ими!</target>         
         </trans-unit>
