@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="fr-fr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">955d00f61a8222ff83797fbc923357c6d85cad7a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Redirecting-Data-with-Out---Cmdlets.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Redirecting Data with Out   Cmdlets</source>
+          <target state="translated">Redirection de données à l’aide d’applets de commande Out</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Redirecting Data with Out-* Cmdlets</source>
+          <target state="translated">Redirection de données à l’aide d’applets de commande Out-*</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell provides several cmdlets that let you control data output directly.</source>
+          <target state="translated">Windows PowerShell fournit plusieurs applets de commande qui vous permettent de contrôler directement la sortie de données.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>These cmdlets share two important characteristics.</source>
+          <target state="translated">Ces applets de commande partagent deux caractéristiques importantes.</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>First, they generally transform data to some form of text.</source>
+          <target state="translated">Tout d’abord, elles transforment généralement les données en une forme de texte.</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>They do this because they output the data to system components that require text input.</source>
+          <target state="translated">Elles opèrent de la sorte, car elles envoient les données à des composants système qui requièrent une entrée de texte.</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This means they need to represent the objects as text.</source>
+          <target state="translated">Cela signifie qu’elles doivent représenter les objets sous forme de texte.</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Therefore, the text is formatted as you see it in the Windows PowerShell console window.</source>
+          <target state="translated">C’est pourquoi le texte est mis en forme tel qu’il apparaît dans la fenêtre de la console Windows PowerShell.</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Second, these cmdlets use the Windows PowerShell verb <bpt id="p1">**</bpt>Out<ept id="p1">**</ept> because they send information out from Windows PowerShell to somewhere else.</source>
+          <target state="translated">Ensuite, ces applets de commande utilisent le verbe Windows PowerShell <bpt id="p1">**</bpt>Out<ept id="p1">**</ept>, car elles envoient des informations de Windows PowerShell vers un autre emplacement.</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Host<ept id="p1">**</ept> cmdlet is no exception: the host window display is outside of Windows PowerShell.</source>
+          <target state="translated">L’applet de commande <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Host<ept id="p1">**</ept> ne fait pas exception : l’affichage de la fenêtre hôte se trouve en dehors de Windows PowerShell.</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This is important because when data is sent out of Windows PowerShell, it is actually removed.</source>
+          <target state="translated">Ceci est important car, lorsque des données sont envoyées hors de Windows PowerShell, elles sont réellement supprimées.</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can see this if you try to create a pipeline that pages data to the host window, and then attempt to format it as a list, as shown here:</source>
+          <target state="translated">Vous pouvez le constater si vous tentez de créer un pipeline qui pagine les données vers la fenêtre hôte, puis tentez d’appliquer une mise en forme de liste, comme illustré ici :</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You might expect the command to display pages of process information in list format.</source>
+          <target state="translated">Vous pouvez vous attendre à ce que la commande affiche des pages d’informations sur le processus sous forme de liste.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Instead, it displays the default tabular list:</source>
+          <target state="translated">Au lieu de cela, elle affiche la liste tabulaire par défaut :</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Host<ept id="p1">**</ept> cmdlet sends the data directly to the console, so the <bpt id="p2">**</bpt>Format<ph id="ph2">\-</ph>List<ept id="p2">**</ept> command never receives anything to format.</source>
+          <target state="translated">L’applet de commande <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Host<ept id="p1">**</ept> envoyant les données directement à la console, la commande <bpt id="p2">**</bpt>Format<ph id="ph2">\-</ph>List<ept id="p2">**</ept> ne reçoit jamais rien à mettre en forme.</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The correct way to structure this command is to put the <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Host<ept id="p1">**</ept> cmdlet at the end of the pipeline as shown below.</source>
+          <target state="translated">La façon correcte de structurer cette commande consiste à placer l’applet de commande <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Host<ept id="p1">**</ept> à la fin du pipeline, comme illustré ci-dessous.</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This causes the process data to be formatted in a list before being paged and displayed.</source>
+          <target state="translated">Ainsi, les données du processus sont mises en forme de liste avant d’être paginées et affichées.</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This applies to all of the <bpt id="p1">**</bpt>Out<ept id="p1">**</ept> cmdlets.</source>
+          <target state="translated">Cela s’applique à toutes les applets de commande <bpt id="p1">**</bpt>Out<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">**</bpt>Out<ept id="p1">**</ept> cmdlet should always appear at the end of the pipeline.</source>
+          <target state="translated">Une applet de commande <bpt id="p1">**</bpt>Out<ept id="p1">**</ept> doit toujours apparaître à la fin du pipeline.</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>All the <bpt id="p1">**</bpt>Out<ept id="p1">**</ept> cmdlets render output as text, using the formatting in effect for the console window, including line length limits.</source>
+          <target state="translated">Toutes les applets de commande <bpt id="p1">**</bpt>Out<ept id="p1">**</ept> restituent la sortie en tant que texte, en utilisant la mise en forme applicable à la fenêtre de console, y compris les limites de longueur de ligne.</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Paging Console Output (Out<ph id="ph1">\-</ph>Host)</source>
+          <target state="translated">Pagination de la sortie de la console (Out<ph id="ph1">\-</ph>Host)</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>By default, Windows PowerShell sends data to the host window, which is exactly what the Out<ph id="ph1">\-</ph>Host cmdlet does.</source>
+          <target state="translated">Par défaut, Windows PowerShell envoie les données à la fenêtre hôte, ce qui est exactement ce que fait l’applet de commande Out<ph id="ph1">\-</ph>Host.</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The primary use for the Out<ph id="ph1">\-</ph>Host cmdlet is paging data as we discussed earlier.</source>
+          <target state="translated">La principale utilisation de l’applet de commande Out<ph id="ph1">\-</ph>Host est la pagination des données, que nous avons abordée précédemment.</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For example, the following command uses Out<ph id="ph1">\-</ph>Host to page the output of the Get<ph id="ph2">\-</ph>Command cmdlet:</source>
+          <target state="translated">Par exemple, la commande suivante utilise l’applet de commande Out<ph id="ph1">\-</ph>Host pour paginer la sortie de l’applet de commande Get<ph id="ph2">\-</ph>Command :</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You can also use the <bpt id="p1">**</bpt>more<ept id="p1">**</ept> function to page data.</source>
+          <target state="translated">Vous pouvez également utiliser la fonction <bpt id="p1">**</bpt>more<ept id="p1">**</ept> pour paginer les données.</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell, <bpt id="p1">**</bpt>more<ept id="p1">**</ept> is a function that calls <bpt id="p2">**</bpt>Out<ph id="ph1">\-</ph>Host <ph id="ph2">\-</ph>Paging<ept id="p2">**</ept>.</source>
+          <target state="translated">Dans Windows PowerShell, la fonction <bpt id="p1">**</bpt>more<ept id="p1">**</ept> appelle l’applet de commande <bpt id="p2">**</bpt>Out<ph id="ph1">\-</ph>Host <ph id="ph2">\-</ph>Paging<ept id="p2">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The following command demonstrates using the <bpt id="p1">**</bpt>more<ept id="p1">**</ept> function to page the output of Get<ph id="ph1">\-</ph>Command:</source>
+          <target state="translated">La commande suivante illustre l’utilisation de la fonction <bpt id="p1">**</bpt>more<ept id="p1">**</ept> pour paginer la sortie de l’applet de commande Get<ph id="ph1">\-</ph>Command :</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>If you include one or more filenames as arguments to the more function, the function will read the specified files and page their contents to the host:</source>
+          <target state="translated">Si vous incluez un ou plusieurs noms de fichiers en tant qu’arguments pour la fonction more, celle-ci lit les fichiers spécifiés et pagine leur contenu vers l’hôte :</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Discarding Output (Out<ph id="ph1">\-</ph>Null)</source>
+          <target state="translated">Ignorance de la sortie (Out<ph id="ph1">\-</ph>Null)</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Null<ept id="p1">**</ept> cmdlet is designed to immediately discard any input it receives.</source>
+          <target state="translated">L’applet de commande <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Null<ept id="p1">**</ept> est conçue pour ignorer toute entrée qu’elle reçoit.</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This is useful for discarding unnecessary data that you get as a side<ph id="ph1">\-</ph>effect of running a command.</source>
+          <target state="translated">Cela est utile pour ignorer des données superflues que vous recevez suite à l’exécution d’une commande.</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>When type the following command, you do not get anything back from the command:</source>
+          <target state="translated">Lorsque vous tapez la commande suivante, celle-ci ne retourne rien :</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Null<ept id="p1">**</ept> cmdlet does not discard error output.</source>
+          <target state="translated">L’applet de commande <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Null<ept id="p1">**</ept> n’ignore pas la sortie d’erreur.</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For example, if you enter the following command, a message is displayed informing you that Windows PowerShell does not recognize 'Is<ph id="ph1">\-</ph>NotACommand':</source>
+          <target state="translated">Par exemple, si vous entrez la commande suivante, un message s’affiche vous informant que Windows PowerShell ne reconnaît pas « Is<ph id="ph1">\-</ph>NotACommand » :</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Printing Data (Out<ph id="ph1">\-</ph>Printer)</source>
+          <target state="translated">Impression de données (Out<ph id="ph1">\-</ph>Printer)</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You can print data by using the <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Printer<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">L’applet de commande <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Printer<ept id="p1">**</ept> permet d’imprimer des données.</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Printer<ept id="p1">**</ept> cmdlet will use your default printer if you do not provide a printer name.</source>
+          <target state="translated">Si vous ne fournissez pas de nom d’imprimante, l’applet de commande <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Printer<ept id="p1">**</ept> utilise votre imprimante par défaut.</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You can use any Windows<ph id="ph1">\-</ph>based printer by specifying its display name.</source>
+          <target state="translated">Vous pouvez utiliser n’importe quelle imprimante Windows en spécifiant son nom d’affichage.</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>There is no need for any kind of printer port mapping or even a real physical printer.</source>
+          <target state="translated">Vous n’avez pas besoin de mappage de port d’imprimante ou même d’une imprimante physique réelle.</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For example, if you have the Microsoft Office document imaging tools installed, you can send the data to an image file by typing:</source>
+          <target state="translated">Par exemple, si les outils de Microsoft Office Document Imaging sont installés, vous pouvez envoyer les données vers un fichier image en tapant ce qui suit :</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Saving Data (Out<ph id="ph1">\-</ph>File)</source>
+          <target state="translated">Enregistrement de données (Out<ph id="ph1">\-</ph>File)</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You can send output to a file instead of the console window by using the <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>File<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">Vous pouvez envoyer une sortie vers un fichier plutôt que vers la fenêtre de console en utilisant l’applet de commande <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>File<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The following command line sends a list of processes to the file <bpt id="p1">**</bpt>C:<ph id="ph1">\\</ph>temp<ph id="ph2">\\</ph>processlist.txt<ept id="p1">**</ept>:</source>
+          <target state="translated">La ligne de commande suivante envoie une liste de processus au fichier <bpt id="p1">**</bpt>C:<ph id="ph1">\\</ph>temp<ph id="ph2">\\</ph>processlist.txt<ept id="p1">**</ept> :</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The results of using the <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>File<ept id="p1">**</ept> cmdlet may not be what you expect if you are used to traditional output redirection.</source>
+          <target state="translated">Les résultats de l’utilisation de l’applet de commande <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>File<ept id="p1">**</ept> peuvent différer de ce que vous attendez si vous êtes habitué à la redirection de sortie traditionnelle.</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>To understand its behavior, you must be aware of the context in which the <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>File<ept id="p1">**</ept> cmdlet operates.</source>
+          <target state="translated">Pour comprendre le comportement de l’applet de commande <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>File<ept id="p1">**</ept>, vous devez connaître le contexte dans lequel elle opère.</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>By default, the <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>File<ept id="p1">**</ept> cmdlet creates a Unicode file.</source>
+          <target state="translated">Par défaut, l’applet de commande <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>File<ept id="p1">**</ept> crée un fichier Unicode.</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This is the best default in the long run, but it means that tools that expect ASCII files will not work correctly with the default output format.</source>
+          <target state="translated">Il s’agit de la meilleure option par défaut sur le long terme, mais elle signifie que les outils qui attendent des fichiers ASCII ne fonctionnent pas correctement avec le format de sortie par défaut.</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>You can change the default output format to ASCII by using the <bpt id="p1">**</bpt>Encoding<ept id="p1">**</ept> parameter:</source>
+          <target state="translated">Vous pouvez modifier le format de sortie par défaut en ASCII à l’aide du paramètre <bpt id="p1">**</bpt>Encoding<ept id="p1">**</ept>:</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>file<ept id="p1">**</ept> formats file contents to look like console output.</source>
+          <target state="translated">L’applet de commande <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>File<ept id="p1">**</ept> met en forme le contenu du fichier pour qu’il ressemble à une sortie de la console.</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This causes the output to be truncated just as it is in a console window in most circumstances.</source>
+          <target state="translated">Cela a pour effet que, dans la plupart des cas, la sortie est tronquée comme dans une fenêtre de console.</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>For example, if you run the following command:</source>
+          <target state="translated">Par exemple, si vous exécutez la commande suivante :</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The output will look like this:</source>
+          <target state="translated">La sortie doit ressembler à ceci :</target>         
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>To get output that does not force line wraps to match the screen width, you can use the <bpt id="p1">**</bpt>Width<ept id="p1">**</ept> parameter to specify line width.</source>
+          <target state="translated">Pour obtenir une sortie qui ne force pas de retour automatique à la ligne pour correspondre à la largeur de l’écran, vous pouvez utiliser le paramètre <bpt id="p1">**</bpt>Width<ept id="p1">**</ept> pour spécifier une largeur de ligne.</target>         
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Because <bpt id="p1">**</bpt>Width<ept id="p1">**</ept> is a 32<ph id="ph1">\-</ph>bit integer parameter, the maximum value it can have is 2147483647.</source>
+          <target state="translated">Étant donné que le paramètre <bpt id="p1">**</bpt>Width<ept id="p1">**</ept> est un entier 32 bits, il peut atteindre la valeur de 2 147 483 647.</target>         
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Type the following to set the line width to this maximum value:</source>
+          <target state="translated">Pour définir la largeur de ligne sur cette valeur maximale, tapez la commande suivante :</target>         
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>File<ept id="p1">**</ept> cmdlet is most useful when you want to save output as it would have displayed on the console.</source>
+          <target state="translated">L’applet de commande <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>File<ept id="p1">**</ept> est particulièrement utile si vous souhaitez enregistrer la sortie telle qu’elle s’afficherait sur la console.</target>         
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>For finer control over output format, you need more advanced tools.</source>
+          <target state="translated">Afin de mieux contrôler le format de sortie, vous avez besoin d’outils plus avancés.</target>         
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>We will look at those in the next chapter, along with some details about object manipulation.</source>
+          <target state="translated">Nous allons les examiner dans le chapitre suivant, en même temps que certains détails sur la manipulation des objets.</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
