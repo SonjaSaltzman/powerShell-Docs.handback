@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" original="md" source-language="en-US" target-language="ko-kr">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fa0f232c7ed02cb6358b1c181a40bab8a1e2e640</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\dsc_resourcedebugging.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
     <body>
       <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
@@ -12,133 +19,10 @@
           <target state="translated">WMF 5.0 Production Preview에서는 대상 노드에서 실행되는 DSC 리소스 스크립트 디버깅을 지원합니다.</target>         
         </trans-unit>
         <trans-unit id="103" translate="yes" xml:space="preserve">
-          <source>In older WMF 5.0 releases, we added advanced script debugging features with the ability to attach to local processes (Get-PSHostProcessInfo, Enter-PSHostProcessInfo, Exit-PSHostProcessInfo), enumerate all runspaces in a process, and debug an arbitrary runspace in a process (Get-Runspace, Debug-Runspace).</source>
-          <target state="translated">이전 WMF 5.0 릴리스에서는 로컬 프로세스에 연결(Get-PSHostProcessInfo, Enter-PSHostProcessInfo, Exit-PSHostProcessInfo)하고 프로세스의 모든 runspace를 열거하며 프로세스의 임의 runspace를 디버그(Get-Runspace, Debug-Runspace)하는 기능과 함께 고급 스크립트 디버깅 기능을 추가했습니다.</target>         
-        </trans-unit>
-        <trans-unit id="104" translate="yes" xml:space="preserve">
-          <source>DSC resource script debugging builds on this work by adding two new cmdlets.</source>
-          <target state="translated">DSC 리소스 스크립트 디버깅은 두 개의 새 cmdlet을 추가하여 이 작업을 빌드합니다.</target>         
-        </trans-unit>
-        <trans-unit id="105" translate="yes" xml:space="preserve">
-          <source>Syntax</source>
-          <target state="translated">구문</target>         
-        </trans-unit>
-        <trans-unit id="106" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Enable-DscDebug<ept id="p1">**</ept></source>
-          <target state="translated"><bpt id="p1">**</bpt>Enable-DscDebug<ept id="p1">**</ept></target>         
-        </trans-unit>
-        <trans-unit id="107" translate="yes" xml:space="preserve">
-          <source>Enable-DscDebug \[-BreakAll\] \[-CimSession &amp;lt;CimSession\[\]&amp;gt;\] \[-ThrottleLimit &amp;lt;int&amp;gt;\] \[-AsJob\] \[-WhatIf\] \[-Confirm\] \[&amp;lt;CommonParameters&amp;gt;\]</source>
-          <target state="translated">Enable-DscDebug \[-BreakAll\] \[-CimSession &amp;lt;CimSession\[\]&amp;gt;\] \[-ThrottleLimit &amp;lt;int&amp;gt;\] \[-AsJob\] \[-WhatIf\] \[-Confirm\] \[&amp;lt;CommonParameters&amp;gt;\]</target>         
-        </trans-unit>
-        <trans-unit id="108" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Disable-DscDebug<ept id="p1">**</ept></source>
-          <target state="translated"><bpt id="p1">**</bpt>Disable-DscDebug<ept id="p1">**</ept></target>         
-        </trans-unit>
-        <trans-unit id="109" translate="yes" xml:space="preserve">
-          <source>Disable-DscDebug \[-CimSession &amp;lt;CimSession\[\]&amp;gt;\] \[-ThrottleLimit &amp;lt;int&amp;gt;\] \[-AsJob\] \[-WhatIf\] \[-Confirm\] \[&amp;lt;CommonParameters&amp;gt;\]</source>
-          <target state="translated">Disable-DscDebug \[-CimSession &amp;lt;CimSession\[\]&amp;gt;\] \[-ThrottleLimit &amp;lt;int&amp;gt;\] \[-AsJob\] \[-WhatIf\] \[-Confirm\] \[&amp;lt;CommonParameters&amp;gt;\]</target>         
-        </trans-unit>
-        <trans-unit id="110" translate="yes" xml:space="preserve">
-          <source>Typical WorkFlow</source>
-          <target state="translated">일반적인 워크플로</target>         
-        </trans-unit>
-        <trans-unit id="111" translate="yes" xml:space="preserve">
-          <source>Now lets take a look at each of these commands and what they do:</source>
-          <target state="translated">이제 이러한 각 명령 및 용도에 대해 살펴보겠습니다.</target>         
-        </trans-unit>
-        <trans-unit id="112" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Enable-DscDebug –BreakAll<ept id="p1">**</ept></source>
-          <target state="translated"><bpt id="p1">**</bpt>Enable-DscDebug –BreakAll<ept id="p1">**</ept></target>         
-        </trans-unit>
-        <trans-unit id="113" translate="yes" xml:space="preserve">
-          <source>Enable-DscDebug cmdlet with BreakAll configures the DSC LCM to run Get-TargetResource, Set-TargetResource, and Test-TargetResource scripts in Break All mode.</source>
-          <target state="translated">BreakAll을 사용하는 Enable-DscDebug cmdlet은 모두 중단 모드에서 Get-TargetResource, Set-TargetResource 및 Test-TargetResource 스크립트를 실행하도록 DSC LCM을 구성합니다.</target>         
-        </trans-unit>
-        <trans-unit id="114" translate="yes" xml:space="preserve">
-          <source>This means that the script stops at the first script statement and waits for a debugger to be attached.</source>
-          <target state="translated">즉, 스크립트가 첫 번째 스크립트 문에서 중지하고 디버거가 연결될 때까지 대기합니다.</target>         
-        </trans-unit>
-        <trans-unit id="115" translate="yes" xml:space="preserve">
-          <source>You can then connect to the target computer by using Windows PowerShell remoting, and attach the Windows PowerShell debugger to the LCM process and runspace to debug the script.</source>
-          <target state="translated">그런 다음 Windows PowerShell 원격을 사용하여 대상 컴퓨터에 연결하고 Windows PowerShell 디버거를 LCM 프로세스 및 runspace에 연결하여 스크립트를 디버그할 수 있습니다.</target>         
-        </trans-unit>
-        <trans-unit id="116" translate="yes" xml:space="preserve">
-          <source>After you do this, you can set breakpoints and debug the script in the normal Windows PowerShell way.</source>
-          <target state="translated">이 작업을 수행한 후 중단점을 설정하고 일반적인 Windows PowerShell 방식으로 스크립트를 디버그할 수 있습니다.</target>         
-        </trans-unit>
-        <trans-unit id="117" translate="yes" xml:space="preserve">
-          <source>Start-DscConfiguration -path .\TestConfig2 -Wait -Verbose</source>
-          <target state="translated">Start-DscConfiguration -path .\TestConfig2 -Wait -Verbose</target>         
-        </trans-unit>
-        <trans-unit id="118" translate="yes" xml:space="preserve">
-          <source>This kicks off DSC but as noted above, since the target node has debug mode enabled it will stop at the first DSC resource that the LCM executes.</source>
-          <target state="translated">이 명령은 DSC를 시작하지만 위에 설명된 대로 대상 노드에서 디버그 모드가 활성화되어 있으므로 LCM이 실행되는 첫 번째 DSC 리소스에서 중지합니다.</target>         
-        </trans-unit>
-        <trans-unit id="119" translate="yes" xml:space="preserve">
-          <source>In order to begin the debugging session run the commands shown in the warning message after running Start-DscConfiguration, you attach your client Windows PowerShell script debugger to the appropriate computer, process, application domain, and runspace.</source>
-          <target state="translated">디버깅 세션을 시작하여 Start-DscConfiguration 실행 후 경고 메시지에 표시된 명령을 실행하려면 클라이언트 Windows PowerShell 스크립트 디버거를 적절한 컴퓨터, 프로세스, 응용 프로그램, 도메인 및 runspace에 연결합니다.</target>         
-        </trans-unit>
-        <trans-unit id="120" translate="yes" xml:space="preserve">
-          <source>Run this command to optionally use Windows PowerShell remoting to connect to the target computer.</source>
-          <target state="translated">필요에 따라 Windows PowerShell 원격을 사용하여 대상 컴퓨터에 연결하려면 다음 명령을 실행합니다.</target>         
-        </trans-unit>
-        <trans-unit id="121" translate="yes" xml:space="preserve">
-          <source>Skip this if you already have a remote desktop connection.</source>
-          <target state="translated">원격 데스크톱 연결이 이미 있는 경우 이 명령을 건너뜁니다.</target>         
-        </trans-unit>
-        <trans-unit id="122" translate="yes" xml:space="preserve">
-          <source>This command attaches to the DSC LCM host process and app domain where the resource script is running.</source>
-          <target state="translated">다음 명령은 리소스 스크립트가 실행되고 있는 DSC LCM 호스트 프로세스 및 앱 도메인에 연결합니다.</target>         
-        </trans-unit>
-        <trans-unit id="123" translate="yes" xml:space="preserve">
-          <source>This last command lets you debug the DSC runspace running the script.</source>
-          <target state="translated">마지막으로 다음 명령을 사용하면 스크립트를 실행하는 DSC runspace를 디버그할 수 있습니다.</target>         
-        </trans-unit>
-        <trans-unit id="124" translate="yes" xml:space="preserve">
-          <source>After you have the debugger attached, set line breakpoints where you want to investigate script execution and run the <bpt id="p1">**</bpt>continue<ept id="p1">**</ept> debugger command to let the script run in the debugger.</source>
-          <target state="translated">디버거를 연결했으면 스크립트 실행을 조사하려는 줄 중단점을 설정하고 <bpt id="p1">**</bpt>continue<ept id="p1">**</ept> 디버거 명령을 실행하여 스크립트가 디버거에서 실행되도록 합니다.</target>         
-        </trans-unit>
-        <trans-unit id="125" translate="yes" xml:space="preserve">
-          <source>When you are done debugging, you can stop the script from running by typing the <bpt id="p1">**</bpt>quit<ept id="p1">**</ept> debugger command, or let the script continue to run without the debugger by running the <bpt id="p2">**</bpt>detach<ept id="p2">**</ept> debugger command.</source>
-          <target state="translated">디버깅이 완료되면 <bpt id="p1">**</bpt>quit<ept id="p1">**</ept> 디버거 명령을 입력하여 스크립트 실행을 중지하거나 <bpt id="p2">**</bpt>detach<ept id="p2">**</ept> 디버거 명령을 실행하여 스크립트가 디버거 없이 계속 실행되도록 할 수 있습니다.</target>         
-        </trans-unit>
-        <trans-unit id="126" translate="yes" xml:space="preserve">
-          <source>Notice that <bpt id="p1">***</bpt>all<ept id="p1">***</ept> resource scripts are stopped in the debugger.</source>
-          <target state="translated"><bpt id="p1">***</bpt>모든<ept id="p1">***</ept> 리소스 스크립트는 디버거에서 중지됩니다.</target>         
-        </trans-unit>
-        <trans-unit id="127" translate="yes" xml:space="preserve">
-          <source>This means that Test-TargetResoruce, Set-TargetResource, and Get-TargetResource scripts each in turn stop in the debugger.</source>
-          <target state="translated">즉, Test-TargetResoruce, Set-TargetResource 및 Get-TargetResource 스크립트가 각각 차례로 디버거에서 중지된다는 의미입니다.</target>         
-        </trans-unit>
-        <trans-unit id="128" translate="yes" xml:space="preserve">
-          <source>If you don't want to debug a resource script, you can exit debug mode in the runspace by running this command.</source>
-          <target state="translated">리소스 스크립트를 디버그하지 않으려면 runspace에서 다음 명령을 실행하여 디버그 모드를 종료할 수 있습니다.</target>         
-        </trans-unit>
-        <trans-unit id="129" translate="yes" xml:space="preserve">
-          <source>Disable-RunspaceDebug -RunspaceId 3</source>
-          <target state="translated">Disable-RunspaceDebug -RunspaceId 3</target>         
-        </trans-unit>
-        <trans-unit id="130" translate="yes" xml:space="preserve">
-          <source>Or you can attach the debugger by running Debug-Runspace, and then immediately run the <bpt id="p1">**</bpt>detach<ept id="p1">**</ept> command.</source>
-          <target state="translated">또는 Debug-Runspace를 실행하여 디버거를 연결한 다음 바로 <bpt id="p1">**</bpt>detach<ept id="p1">**</ept> 명령을 실행할 수 있습니다.</target>         
-        </trans-unit>
-        <trans-unit id="131" translate="yes" xml:space="preserve">
-          <source>After you are done debugging your resource script, you should stop the DSC configuration by running the following command.</source>
-          <target state="translated">리소스 스크립트 디버깅을 완료한 후에는 다음 명령을 실행하여 DSC 구성을 중지해야 합니다.</target>         
-        </trans-unit>
-        <trans-unit id="132" translate="yes" xml:space="preserve">
-          <source>Stop-DscConfiguration –Force</source>
-          <target state="translated">Stop-DscConfiguration –Force</target>         
-        </trans-unit>
-        <trans-unit id="133" translate="yes" xml:space="preserve">
-          <source>Finally, you must reconfigure the target computer LCM to disable debug mode using Disable-DscDebug cmdlet..</source>
-          <target state="translated">마지막으로 Disable-DscDebug cmdlet을 사용하여 디버그 모드를 사용하지 않도록 대상 컴퓨터 LCM을 다시 구성해야 합니다.</target>         
+          <source>For more information, see <bpt id="p1">[</bpt>Debugging DSC resources<ept id="p1">](../dsc/debugResource.md)</ept>.</source>
+          <target state="translated">자세한 내용은 <bpt id="p1">[</bpt>DSC 리소스 디버그<ept id="p1">](../dsc/debugResource.md)</ept>를 참조하세요.</target>         
         </trans-unit>
       </group>
     </body>
   </file>
-  <header xmlns="">
-    <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">68949a10a4e8b6cac5a2d596567e7c0e680db8a2</xliffext:olfilehash>
-  </header>
 </xliff>
