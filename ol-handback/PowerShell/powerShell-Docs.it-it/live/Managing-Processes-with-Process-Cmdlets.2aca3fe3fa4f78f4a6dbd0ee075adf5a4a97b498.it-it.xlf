@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6857cf5e73252f646e563fa12a8252b4bdc2e1e5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Managing-Processes-with-Process-Cmdlets.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Managing Processes with Process Cmdlets</source>
+          <target state="translated">Gestione dei processi con i cmdlet Process</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Managing Processes with Process Cmdlets</source>
+          <target state="translated">Gestione dei processi con i cmdlet Process</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You can use the Process cmdlets in Windows PowerShell to manage local and remote processes in Windows PowerShell.</source>
+          <target state="translated">È possibile usare i cmdlet Process in Windows PowerShell per gestire i processi locali e remoti in Windows PowerShell.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Getting Processes (Get<ph id="ph1">\-</ph>Process)</source>
+          <target state="translated">Recupero di processi (Get<ph id="ph1">\-</ph>Process)</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To get the processes running on the local computer, run a <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Process<ept id="p1">**</ept> with no parameters.</source>
+          <target state="translated">Per ottenere i processi in esecuzione nel computer locale, eseguire il comando <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Process<ept id="p1">**</ept> senza parametri.</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You can get particular processes by specifying their process names or process IDs.</source>
+          <target state="translated">È possibile recuperare processi specifici specificandone il nome o l'ID.</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The following command gets the Idle process:</source>
+          <target state="translated">Il comando seguente consente di recuperare il processo Idle:</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Although it is normal for cmdlets to return no data in some situations, when you specify a process by its ProcessId, <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Process<ept id="p1">**</ept> generates an error if it finds no matches, because the usual intent is to retrieve a known running process.</source>
+          <target state="translated">Anche se è normale per i cmdlet non restituire dati in alcune situazioni, quando si specifica un processo mediante il relativo ProcessId <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Process<ept id="p1">**</ept> genera un errore se vengono rilevate corrispondenze, poiché l'uso abituale è quello di recuperare un processo in esecuzione noto.</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If there is no process with that Id, it is likely that the Id is incorrect or that the process of interest has already exited:</source>
+          <target state="translated">Se non è presente alcun processo con tale ID, è probabile che l'ID non sia corretto o che il processo in questione sia già terminato:</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can use the Name parameter of the Get<ph id="ph1">\-</ph>Process cmdlet to specify a subset of processes based on the process name.</source>
+          <target state="translated">È possibile usare il parametro Name del cmdlet Get<ph id="ph1">\-</ph>Process per specificare un subset di processi in base al nome di processo.</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The Name parameter can take multiple names in a comma<ph id="ph1">\-</ph>separated list and it supports the use of wildcards, so you can type name patterns.</source>
+          <target state="translated">Il parametro Name può ottenere più nomi in un elenco con valori delimitati da virgole e supporta l'uso dei caratteri jolly. È quindi possibile digitare modelli di nome.</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For example, the following command gets process whose names begin with "ex."</source>
+          <target state="translated">Il comando seguente recupera ad esempio i processi i cui nomi iniziano con "ex".</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Because the .NET System.Diagnostics.Process class is the foundation for Windows PowerShell processes, it follows some of the conventions used by System.Diagnostics.Process.</source>
+          <target state="translated">Poiché la classe .NET System.Diagnostics.Process è alla base dei processi di Windows PowerShell, vengono seguite alcune convenzioni usate da System.Diagnostics.Process.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>One of those conventions is that the process name for an executable never includes the ".exe" at the end of the executable name.</source>
+          <target state="translated">Una di queste è che il nome di processo per un eseguibile non include mai l'estensione "exe" alla fine del nome del file eseguibile.</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Process<ept id="p1">**</ept> also accepts multiple values for the Name parameter.</source>
+          <target state="translated">Per il parametro Name <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Process<ept id="p1">**</ept> accetta anche più valori.</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can use the ComputerName parameter of Get<ph id="ph1">\-</ph>Process to get processes on remote computers.</source>
+          <target state="translated">È possibile usare il parametro ComputerName di Get<ph id="ph1">\-</ph>Process per ottenere processi nei computer remoti.</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For example, the following command gets the PowerShell processes on the local computer (represented by "localhost") and on two remote computers.</source>
+          <target state="translated">Il comando seguente recupera ad esempio i processi di PowerShell nel computer locale (rappresentato da "localhost") e in due computer remoti.</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The computer names are not evident in this display, but they are stored in the MachineName property of the process objects that Get<ph id="ph1">\-</ph>Process returns.</source>
+          <target state="translated">I nomi dei computer non sono evidenti in questa visualizzazione, ma sono archiviati nella proprietà MachineName degli oggetti processo restituiti da Get<ph id="ph1">\-</ph>Process.</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The following command uses the Format<ph id="ph1">\-</ph>Table cmdlet to display the process ID, ProcessName and MachineName (ComputerName) properties of the process objects.</source>
+          <target state="translated">Il comando seguente usa il cmdlet Format<ph id="ph1">\-</ph>Table per visualizzare l'ID di processo e le proprietà ProcessName e MachineName (ComputerName) degli oggetti processo.</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This more complex command adds the MachineName property to the standard Get<ph id="ph1">\-</ph>Process display.</source>
+          <target state="translated">Questo comando più complesso aggiunge la proprietà MachineName alla visualizzazione standard di Get<ph id="ph1">\-</ph>Process.</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The backtick (<ph id="ph1">\`</ph>)(ASCII 96) is the Windows PowerShell continuation character.</source>
+          <target state="translated">L'apice inverso (<ph id="ph1">\`</ph>) (ASCII 96) rappresenta il carattere di continuazione di Windows PowerShell.</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Stopping Processes (Stop<ph id="ph1">\-</ph>Process)</source>
+          <target state="translated">Arresto dei processi (Stop<ph id="ph1">\-</ph>Process)</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell gives you flexibility for listing processes, but what about stopping a process?</source>
+          <target state="translated">Windows PowerShell offre la massima flessibilità per elencare i processi, ma cosa succede con l'arresto di un processo?</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Stop<ph id="ph1">\-</ph>Process<ept id="p1">**</ept> cmdlet takes a Name or Id to specify a process you want to stop.</source>
+          <target state="translated">Il cmdlet <bpt id="p1">**</bpt>Stop<ph id="ph1">\-</ph>Process<ept id="p1">**</ept> accetta un nome o un ID come riferimento al processo da arrestare.</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Your ability to stop processes depends on your permissions.</source>
+          <target state="translated">La possibilità di arrestare i processi dipende dalle autorizzazioni di cui si dispone.</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Some processes cannot be stopped.</source>
+          <target state="translated">Alcuni processi non possono essere arrestati.</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For example, if you try to stop the idle process, you get an error:</source>
+          <target state="translated">Se ad esempio si prova ad arrestare il processo inattivo, viene visualizzato un errore:</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You can also force prompting with the <bpt id="p1">**</bpt>Confirm<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">È anche possibile forzare la richiesta di conferma con il parametro <bpt id="p1">**</bpt>Confirm<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This parameter is particularly useful if you use a wildcard when specifying the process name, because you may accidentally match some processes you do not want to stop:</source>
+          <target state="translated">Questo parametro è particolarmente utile se si usa un carattere jolly quando si specifica il nome del processo, poiché si potrebbero trovare accidentalmente corrispondenze con alcuni processi che non si vuole arrestare:</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Complex process manipulation is possible by using some of the object filtering cmdlets.</source>
+          <target state="translated">La manipolazione di un processo complesso è possibile con alcuni cmdlet per i filtri degli oggetti.</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Because a Process object has a Responding property that is true when it is no longer responding, you can stop all nonresponsive applications with the following command:</source>
+          <target state="translated">Dal momento che un oggetto Process ha una proprietà Responding che restituisce true se non risponde, è possibile arrestare tutte le applicazioni che non rispondono con il comando seguente:</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You can use the same approach in other situations.</source>
+          <target state="translated">Lo stesso approccio è applicabile anche ad altre situazioni.</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>For example, suppose a secondary notification area application automatically runs when users start another application.</source>
+          <target state="translated">Si supponga ad esempio che un'applicazione dell'area di notifica secondaria venga eseguita automaticamente quando gli utenti avviano un'altra applicazione.</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You may find that this does not work correctly in Terminal Services sessions, but you still want to keep it in sessions that run on the physical computer console.</source>
+          <target state="translated">È possibile che non funzioni correttamente nelle sessioni di Servizi Terminal, ma si vuole comunque mantenerla nelle sessioni in esecuzione nella console del computer fisico.</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Sessions connected to the physical computer desktop always have a session ID of 0, so you can stop all instances of the process that are in other sessions by using <bpt id="p1">**</bpt>Where<ph id="ph1">\-</ph>Object<ept id="p1">**</ept> and the process, <bpt id="p2">**</bpt>SessionId<ept id="p2">**</ept>:</source>
+          <target state="translated">Le sessioni connesse al desktop del computer fisico hanno sempre un ID di sessione uguale a 0. È quindi possibile arrestare tutte le istanze del processo che si trovano in altre sessioni usando <bpt id="p1">**</bpt>Where<ph id="ph1">\-</ph>Object<ept id="p1">**</ept> e il processo, <bpt id="p2">**</bpt>SessionId<ept id="p2">**</ept>:</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The Stop<ph id="ph1">\-</ph>Process cmdlet does not have a ComputerName parameter.</source>
+          <target state="translated">Il cmdlet Stop<ph id="ph1">\-</ph>Process non dispone di un parametro ComputerName.</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Therefore, to run a stop process command on a remote computer, you need to use the Invoke<ph id="ph1">\-</ph>Command cmdlet.</source>
+          <target state="translated">Per eseguire un comando di arresto di un processo in un computer remoto, quindi, è necessario usare il cmdlet Invoke<ph id="ph1">\-</ph>Command.</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For example, to stop the PowerShell process on the Server01 remote computer, type:</source>
+          <target state="translated">Per arrestare ad esempio arrestare il processo PowerShell nel computer remoto Server01, digitare:</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Stopping All Other Windows PowerShell Sessions</source>
+          <target state="translated">Arresto di tutte le altre sessioni di Windows PowerShell</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>It may occasionally be useful to be able to stop all running Windows PowerShell sessions other than the current session.</source>
+          <target state="translated">In alcuni casi può essere utile interrompere tutte le sessioni di Windows PowerShell in esecuzione, fatta eccezione per quella corrente.</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If a session is using too many resources or is inaccessible (it may be running remotely or in another desktop session), you may not be able to directly stop it.</source>
+          <target state="translated">Se una sessione usa troppe risorse o non è accessibile (perché in esecuzione in modalità remota o in un'altra sessione desktop), potrebbe risultare impossibile arrestarla direttamente.</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>If you try to stop all running sessions, however, the current session may be terminated instead.</source>
+          <target state="translated">Se si prova ad arrestare tutte le sessioni in esecuzione, invece, la sessione corrente può essere arrestata.</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Each Windows PowerShell session has an environment variable PID that contains the Id of the Windows PowerShell process.</source>
+          <target state="translated">Ogni sessione di Windows PowerShell ha un identificatore di processo (PID) per la variabile di ambiente che contiene l'ID del processo di Windows PowerShell.</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You can check the $PID against the Id of each session and terminate only Windows PowerShell sessions that have a different Id.</source>
+          <target state="translated">È possibile controllare la variabile $PID sulla base dell'ID di ogni sessione e terminare solo le sessioni di Windows PowerShell che hanno un ID diverso.</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The following pipeline command does this and returns the list of terminated sessions (because of the use of the <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter):</source>
+          <target state="translated">Il seguente comando della pipeline esegue questa operazione e restituisce l'elenco delle sessioni terminate (grazie all'uso del parametro <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept>):</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Starting, Debugging, and Waiting for Processes</source>
+          <target state="translated">Avvio, debug e attesa di processi</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell also comes with cmdlets to start (or restart), debug a process, and wait for a process to complete before running a command.</source>
+          <target state="translated">Windows PowerShell include anche cmdlet per avviare (o riavviare) un processo, eseguirne il debug e attenderne il completamento prima di eseguire un comando.</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For information about these cmdlets, see the cmdlet help topic for each cmdlet.</source>
+          <target state="translated">Per informazioni su questi cmdlet, vedere l'argomento della Guida corrispondente per ciascun cmdlet.</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">Vedere anche</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Get-Process [m2]<ept id="p1">](https://technet.microsoft.com/en-us/library/27a05dbd-4b69-48a3-8d55-b295f6225f15)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Stop-Process [m2]<ept id="p2">](https://technet.microsoft.com/en-us/library/12454238-9881-457a-bde4-fb6cd124deec)</ept><ph id="ph2">
+</ph><bpt id="p3">[</bpt>Start-Process<ept id="p3">](https://technet.microsoft.com/en-us/library/41a7e43c-9bb3-4dc2-8b0c-f6c32962e72c)</ept><ph id="ph3">
+</ph><bpt id="p4">[</bpt>Wait-Process<ept id="p4">](https://technet.microsoft.com/en-us/library/9222af7a-789d-4a09-aa90-09d7c256c799)</ept><ph id="ph4">
+</ph><bpt id="p5">[</bpt>Debug-Process<ept id="p5">](https://technet.microsoft.com/en-us/library/eea1dace-3913-4dbd-b659-5a94a610eee1)</ept><ph id="ph5">
+</ph><bpt id="p6">[</bpt>Invoke-Command<ept id="p6">](https://technet.microsoft.com/en-us/library/22fd98ba-1874-492e-95a5-c069467b8462)</ept></source>
+          <target state="translated"><bpt id="p1">[</bpt>Get-Process [m2]<ept id="p1">](https://technet.microsoft.com/en-us/library/27a05dbd-4b69-48a3-8d55-b295f6225f15)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Stop-Process [m2]<ept id="p2">](https://technet.microsoft.com/en-us/library/12454238-9881-457a-bde4-fb6cd124deec)</ept><ph id="ph2">
+</ph><bpt id="p3">[</bpt>Start-Process<ept id="p3">](https://technet.microsoft.com/en-us/library/41a7e43c-9bb3-4dc2-8b0c-f6c32962e72c)</ept><ph id="ph3">
+</ph><bpt id="p4">[</bpt>Wait-Process<ept id="p4">](https://technet.microsoft.com/en-us/library/9222af7a-789d-4a09-aa90-09d7c256c799)</ept><ph id="ph4">
+</ph><bpt id="p5">[</bpt>Debug-Process<ept id="p5">](https://technet.microsoft.com/en-us/library/eea1dace-3913-4dbd-b659-5a94a610eee1)</ept><ph id="ph5">
+</ph><bpt id="p6">[</bpt>Invoke-Command<ept id="p6">](https://technet.microsoft.com/en-us/library/22fd98ba-1874-492e-95a5-c069467b8462)</ept></target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
