@@ -2,10 +2,11 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="es-es">
     <header>
-      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
-      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Getting-WMI-Objects--Get-WmiObject-.md</xliffext:olfilepath>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2e6f58860c7aebcf60d8df562f009fce0db3c955</xliffext:olfilehash>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-39517ae" tool-company="Microsoft" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Getting-WMI-Objects--Get-WmiObject-.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
     </header>
     <body>
       <group id="content" extype="content">
@@ -18,20 +19,20 @@
           <target state="translated">Obtener objetos de WMI (Get-WmiObject)</target>         
         </trans-unit>
         <trans-unit id="103" translate="yes" xml:space="preserve">
-          <source>Getting WMI Objects (Get\-WmiObject)</source>
-          <target state="translated">Obtener objetos de WMI (Get-WmiObject)</target>         
+          <source>Getting WMI Objects (Get<ph id="ph1">\-</ph>WmiObject)</source>
+          <target state="translated">Obtención de objetos de WMI (Get<ph id="ph1">\-</ph>WmiObject)</target>         
         </trans-unit>
         <trans-unit id="104" translate="yes" xml:space="preserve">
           <source>Windows Management Instrumentation (WMI) is a core technology for Windows system administration because it exposes a wide range of information in a uniform manner.</source>
           <target state="translated">Windows Management Instrumentation (WMI) es una tecnología principal para la administración del sistema de Windows porque expone una amplia gama de información de manera uniforme.</target>         
         </trans-unit>
         <trans-unit id="105" translate="yes" xml:space="preserve">
-          <source>Because of how much WMI makes possible, the Windows PowerShell cmdlet for accessing WMI objects, <bpt id="p1">**</bpt>Get\-WmiObject<ept id="p1">**</ept>, is one of the most useful for doing real work.</source>
-          <target state="translated">Debido a la medida en que WMI lo hace posible, el cmdlet de Windows PowerShell para acceder a objetos WMI, <bpt id="p1">**</bpt>Get-WmiObject<ept id="p1">**</ept>, es uno de los más útiles para realizar el trabajo real.</target>         
+          <source>Because of how much WMI makes possible, the Windows PowerShell cmdlet for accessing WMI objects, <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>WmiObject<ept id="p1">**</ept>, is one of the most useful for doing real work.</source>
+          <target state="translated">Debido a la medida en que WMI lo hace posible, el cmdlet de Windows PowerShell para acceder a objetos WMI, <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>WmiObject<ept id="p1">**</ept>, es uno de los más útiles para realizar el trabajo real.</target>         
         </trans-unit>
         <trans-unit id="106" translate="yes" xml:space="preserve">
-          <source>We are going to discuss how to use Get\-WmiObject to access WMI objects and then how to use WMI objects to do specific things.</source>
-          <target state="translated">Vamos a explicar cómo usar Get-WmiObject para acceder a objetos WMI y, a continuación, cómo usar objetos WMI para realizar acciones específicas.</target>         
+          <source>We are going to discuss how to use Get<ph id="ph1">\-</ph>WmiObject to access WMI objects and then how to use WMI objects to do specific things.</source>
+          <target state="translated">Vamos a explicar cómo usar Get<ph id="ph1">\-</ph>WmiObject para acceder a objetos WMI y cómo usarlos para realizar acciones específicas.</target>         
         </trans-unit>
         <trans-unit id="107" translate="yes" xml:space="preserve">
           <source>Listing WMI Classes</source>
@@ -50,8 +51,8 @@
           <target state="translated">Existen cientos de clases WMI, algunas de los cuales contienen decenas de propiedades.</target>         
         </trans-unit>
         <trans-unit id="111" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Get\-WmiObject<ept id="p1">**</ept> addresses this problem by making WMI discoverable.</source>
-          <target state="translated"><bpt id="p1">**</bpt>Get-WmiObject<ept id="p1">**</ept> hace que WMI se pueda detectar para abordar este problema.</target>         
+          <source><bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>WmiObject<ept id="p1">**</ept> addresses this problem by making WMI discoverable.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>WmiObject<ept id="p1">**</ept> hace que WMI se pueda detectar para abordar este problema.</target>         
         </trans-unit>
         <trans-unit id="112" translate="yes" xml:space="preserve">
           <source>You can get a list of the WMI classes available on the local computer by typing:</source>
@@ -66,8 +67,8 @@
           <target state="translated">La lista de clases que devuelven los equipos remotos puede variar según el sistema operativo específico que el equipo está ejecutando y las extensiones WMI determinadas agregadas por las aplicaciones instaladas.</target>         
         </trans-unit>
         <trans-unit id="115" translate="yes" xml:space="preserve">
-          <source>When using Get\-WmiObject to connect to a remote computer, the remote computer must be running WMI and, under the default configuration, the account you are using must be in the local administrators group on the remote computer.</source>
-          <target state="translated">Al usar Get-WmiObject para conectarse a un equipo remoto, el equipo remoto debe ejecutar WMI y, en la configuración predeterminada, la cuenta que está usando debe estar en el grupo de administradores local en el equipo remoto.</target>         
+          <source>When using Get<ph id="ph1">\-</ph>WmiObject to connect to a remote computer, the remote computer must be running WMI and, under the default configuration, the account you are using must be in the local administrators group on the remote computer.</source>
+          <target state="translated">Al usar Get<ph id="ph1">\-</ph>WmiObject para conectarse a un equipo remoto, este debe ejecutar WMI y, en la configuración predeterminada, la cuenta que está usando debe estar en el grupo de administradores local en el equipo remoto.</target>         
         </trans-unit>
         <trans-unit id="116" translate="yes" xml:space="preserve">
           <source>The remote system does not need to have Windows PowerShell installed.</source>
@@ -82,7 +83,7 @@
           <target state="translated">También puede incluir el parámetro ComputerName al conectarse al sistema local.</target>         
         </trans-unit>
         <trans-unit id="119" translate="yes" xml:space="preserve">
-          <source>You can use the local computer's name, its IP address (or the loopback address 127.0.0.1), or the WMI\-style '.' as the computer name.</source>
+          <source>You can use the local computer's name, its IP address (or the loopback address 127.0.0.1), or the WMI<ph id="ph1">\-</ph>style '.' as the computer name.</source>
           <target state="translated">Puede usar el nombre del equipo local, su dirección IP (o la dirección de bucle invertido 127.0.0.1) o el estilo de WMI '.' como nombre del equipo.</target>         
         </trans-unit>
         <trans-unit id="120" translate="yes" xml:space="preserve">
@@ -90,8 +91,8 @@
           <target state="translated">Si está ejecutando Windows PowerShell en un equipo denominado Admin01 con la dirección IP 192.168.1.90, los siguientes comandos devolverán la lista de clases WMI de ese equipo:</target>         
         </trans-unit>
         <trans-unit id="121" translate="yes" xml:space="preserve">
-          <source>Get\-WmiObject uses the root\/cimv2 namespace by default.</source>
-          <target state="translated">Get-WmiObject usa el espacio de nombres root/cimv2 de forma predeterminada.</target>         
+          <source>Get<ph id="ph1">\-</ph>WmiObject uses the root<ph id="ph2">\/</ph>cimv2 namespace by default.</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>WmiObject usa el espacio de nombres root<ph id="ph2">\/</ph>cimv2 de forma predeterminada.</target>         
         </trans-unit>
         <trans-unit id="122" translate="yes" xml:space="preserve">
           <source>If you want to specify another WMI namespace, use the <bpt id="p1">**</bpt>Namespace<ept id="p1">**</ept> parameter and specify the corresponding namespace path:</source>
@@ -106,8 +107,8 @@
           <target state="translated">Si conoce el nombre de una clase WMI, puede usarlo para obtener información inmediatamente.</target>         
         </trans-unit>
         <trans-unit id="125" translate="yes" xml:space="preserve">
-          <source>For example, one of the WMI classes commonly used for retrieving information about a computer is <bpt id="p1">**</bpt>Win32\_OperatingSystem<ept id="p1">**</ept>.</source>
-          <target state="translated">Por ejemplo, una de las clases WMI que se usa habitualmente para recuperar información sobre un equipo es <bpt id="p1">**</bpt>Win32_OperatingSystem<ept id="p1">**</ept>.</target>         
+          <source>For example, one of the WMI classes commonly used for retrieving information about a computer is <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>OperatingSystem<ept id="p1">**</ept>.</source>
+          <target state="translated">Por ejemplo, una de las clases WMI que se usa habitualmente para recuperar información sobre un equipo es <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>OperatingSystem<ept id="p1">**</ept>.</target>         
         </trans-unit>
         <trans-unit id="126" translate="yes" xml:space="preserve">
           <source>Although we are showing all of the parameters, the command can be expressed in a more succinct way.</source>
@@ -122,48 +123,48 @@
           <target state="translated">Los presentamos para demostrar el caso más general y recordarle el parámetro.</target>         
         </trans-unit>
         <trans-unit id="129" translate="yes" xml:space="preserve">
-          <source>The <bpt id="p1">**</bpt>Namespace<ept id="p1">**</ept> defaults to root\/cimv2, and can be omitted as well.</source>
-          <target state="translated"><bpt id="p1">**</bpt>Namespace<ept id="p1">**</ept> se establece de manera predeterminada en root/cimv2 y también se puede omitir.</target>         
+          <source>The <bpt id="p1">**</bpt>Namespace<ept id="p1">**</ept> defaults to root<ph id="ph1">\/</ph>cimv2, and can be omitted as well.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Namespace<ept id="p1">**</ept> se establece de manera predeterminada en root<ph id="ph1">\/</ph>cimv2 y también se puede omitir.</target>         
         </trans-unit>
         <trans-unit id="130" translate="yes" xml:space="preserve">
           <source>Finally, most cmdlets allow you to omit the name of common parameters.</source>
           <target state="translated">Por último, la mayoría de los cmdlets permite omitir el nombre de los parámetros comunes.</target>         
         </trans-unit>
         <trans-unit id="131" translate="yes" xml:space="preserve">
-          <source>With Get\-WmiObject, if no name is specified for the first parameter, Windows PowerShell treats it as the <bpt id="p1">**</bpt>Class<ept id="p1">**</ept> parameter.</source>
-          <target state="translated">Con Get-WmiObject, si no se especifica ningún nombre para el primer parámetro, Windows PowerShell lo trata como el parámetro <bpt id="p1">**</bpt>Class<ept id="p1">**</ept>.</target>         
+          <source>With Get<ph id="ph1">\-</ph>WmiObject, if no name is specified for the first parameter, Windows PowerShell treats it as the <bpt id="p1">**</bpt>Class<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Con Get<ph id="ph1">\-</ph>WmiObject, si no se especifica ningún nombre para el primer parámetro, Windows PowerShell lo trata como el parámetro <bpt id="p1">**</bpt>Class<ept id="p1">**</ept>.</target>         
         </trans-unit>
         <trans-unit id="132" translate="yes" xml:space="preserve">
           <source>This means the last command could have been issued by typing:</source>
           <target state="translated">Esto significa que el último comando se podría haber emitido escribiendo:</target>         
         </trans-unit>
         <trans-unit id="133" translate="yes" xml:space="preserve">
-          <source>The <bpt id="p1">**</bpt>Win32\_OperatingSystem<ept id="p1">**</ept> class has many more properties than those displayed here.</source>
-          <target state="translated">La clase <bpt id="p1">**</bpt>Win32_OperatingSystem<ept id="p1">**</ept> tiene muchas más propiedades de las que se muestran aquí.</target>         
+          <source>The <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>OperatingSystem<ept id="p1">**</ept> class has many more properties than those displayed here.</source>
+          <target state="translated">La clase <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>OperatingSystem<ept id="p1">**</ept> tiene muchas más propiedades de las que se muestran aquí.</target>         
         </trans-unit>
         <trans-unit id="134" translate="yes" xml:space="preserve">
-          <source>You can use Get\-Member to see all the properties.</source>
-          <target state="translated">Puede usar Get-Member para ver todas las propiedades.</target>         
+          <source>You can use Get<ph id="ph1">\-</ph>Member to see all the properties.</source>
+          <target state="translated">Puede usar Get<ph id="ph1">\-</ph>Member para ver todas las propiedades.</target>         
         </trans-unit>
         <trans-unit id="135" translate="yes" xml:space="preserve">
           <source>The properties of a WMI class are automatically available like other object properties:</source>
           <target state="translated">Las propiedades de una clase WMI están disponibles automáticamente como otras propiedades de objeto:</target>         
         </trans-unit>
         <trans-unit id="136" translate="yes" xml:space="preserve">
-          <source>Displaying Non\-Default Properties with Format Cmdlets</source>
-          <target state="translated">Visualizar propiedades no predeterminadas con cmdlets de formato</target>         
+          <source>Displaying Non<ph id="ph1">\-</ph>Default Properties with Format Cmdlets</source>
+          <target state="translated">Visualización de propiedades no predeterminadas con cmdlets de formato</target>         
         </trans-unit>
         <trans-unit id="137" translate="yes" xml:space="preserve">
-          <source>If you want information contained in the <bpt id="p1">**</bpt>Win32\_OperatingSystem<ept id="p1">**</ept> class that is not displayed by default, you can display it by using the <bpt id="p2">**</bpt>Format<ept id="p2">**</ept> cmdlets.</source>
-          <target state="translated">Si quiere ver la información incluida en la clase <bpt id="p1">**</bpt>Win32_OperatingSystem<ept id="p1">**</ept> que no aparece de forma predeterminada, puede mostrarla mediante los cmdlets <bpt id="p2">**</bpt>Format<ept id="p2">**</ept>.</target>         
+          <source>If you want information contained in the <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>OperatingSystem<ept id="p1">**</ept> class that is not displayed by default, you can display it by using the <bpt id="p2">**</bpt>Format<ept id="p2">**</ept> cmdlets.</source>
+          <target state="translated">Si quiere ver la información incluida en la clase <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>OperatingSystem<ept id="p1">**</ept> que no aparece de forma predeterminada, puede mostrarla mediante los cmdlets <bpt id="p2">**</bpt>Format<ept id="p2">**</ept>.</target>         
         </trans-unit>
         <trans-unit id="138" translate="yes" xml:space="preserve">
           <source>For example, if you want to display available memory data, type:</source>
           <target state="translated">Por ejemplo, si desea mostrar los datos de memoria disponible, escriba:</target>         
         </trans-unit>
         <trans-unit id="139" translate="yes" xml:space="preserve">
-          <source><ph id="ph1">[!NOTE]</ph> Wildcards work with property names in <bpt id="p1">**</bpt>Format\-Table<ept id="p1">**</ept>, so the final pipeline element can be reduced to <bpt id="p2">**</bpt>Format\-Table \-Property TotalV\&amp;#42;,Free\&amp;#42;<ept id="p2">**</ept></source>
-          <target state="translated"><ph id="ph1">[!NOTE]</ph> Los caracteres comodín funcionan con los nombres de propiedad de <bpt id="p1">**</bpt>Format\-Table<ept id="p1">**</ept>, por lo que el elemento final de la canalización se puede reducir a <bpt id="p2">**</bpt>Format\-Table \-Property TotalV\&amp;#42;,Free\&amp;#42;<ept id="p2">**</ept></target>         
+          <source>Wildcards work with property names in <bpt id="p1">**</bpt>Format<ph id="ph1">\-</ph>Table<ept id="p1">**</ept>, so the final pipeline element can be reduced to <bpt id="p2">**</bpt>Format<ph id="ph2">\-</ph>Table <ph id="ph3">\-</ph>Property TotalV<ph id="ph4">\&amp;</ph>#42;,Free<ph id="ph5">\&amp;</ph>#42;<ept id="p2">**</ept></source>
+          <target state="translated">Los caracteres comodín funcionan con los nombres de propiedad de <bpt id="p1">**</bpt>Format<ph id="ph1">\-</ph>Table<ept id="p1">**</ept>, por lo que el elemento final de la canalización se puede reducir a <bpt id="p2">**</bpt>Format<ph id="ph2">\-</ph>Table <ph id="ph3">\-</ph>Property TotalV<ph id="ph4">\&amp;</ph>#42;,Free<ph id="ph5">\&amp;</ph>#42;<ept id="p2">**</ept></target>         
         </trans-unit>
         <trans-unit id="140" translate="yes" xml:space="preserve">
           <source>The memory data might be more readable if you format it as a list by typing:</source>

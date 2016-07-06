@@ -2,10 +2,11 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="es-es">
     <header>
-      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
-      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Working-with-Registry-Keys.md</xliffext:olfilepath>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b979750580ea5c7171569f8982d6aeca883c33ab</xliffext:olfilehash>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-39517ae" tool-company="Microsoft" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Working-with-Registry-Keys.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
     </header>
     <body>
       <group id="content" extype="content">
@@ -22,8 +23,8 @@
           <target state="translated">Dado que las claves del Registro son elementos en unidades de Windows PowerShell, trabajar con ellas es muy similar a trabajar con archivos y carpetas.</target>         
         </trans-unit>
         <trans-unit id="104" translate="yes" xml:space="preserve">
-          <source>One critical difference is that every item on a registry\-based Windows PowerShell drive is a container, just like a folder on a file system drive.</source>
-          <target state="translated">Una diferencia fundamental es que todos los elementos en una unidad de Windows PowerShell basada en el Registro es un contenedor, como una carpeta en una unidad del sistema de archivos.</target>         
+          <source>One critical difference is that every item on a registry<ph id="ph1">\-</ph>based Windows PowerShell drive is a container, just like a folder on a file system drive.</source>
+          <target state="translated">Una diferencia crítica es que todos los elementos de una unidad de Windows PowerShell basada en el Registro son un contenedor, como una carpeta en una unidad del sistema de archivos.</target>         
         </trans-unit>
         <trans-unit id="105" translate="yes" xml:space="preserve">
           <source>However, registry entries and their associated values are properties of the items, not distinct items.</source>
@@ -34,28 +35,28 @@
           <target state="translated">Enumerar a todas las subclaves de una clave del Registro</target>         
         </trans-unit>
         <trans-unit id="107" translate="yes" xml:space="preserve">
-          <source>You can show all items directly within a registry key by using <bpt id="p1">**</bpt>Get\-ChildItem<ept id="p1">**</ept>.</source>
-          <target state="translated">Puede mostrar todos los elementos directamente dentro de una clave del Registro mediante <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept>.</target>         
+          <source>You can show all items directly within a registry key by using <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>ChildItem<ept id="p1">**</ept>.</source>
+          <target state="translated">Puede mostrar todos los elementos directamente dentro de una clave del Registro, para lo que debe usar <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>ChildItem<ept id="p1">**</ept>.</target>         
         </trans-unit>
         <trans-unit id="108" translate="yes" xml:space="preserve">
           <source>Add the optional <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> parameter to display hidden or system items.</source>
           <target state="translated">Agregue el parámetro <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> opcional para mostrar elementos ocultos o del sistema.</target>         
         </trans-unit>
         <trans-unit id="109" translate="yes" xml:space="preserve">
-          <source>For example, this command displays the items directly within Windows PowerShell drive HKCU:, which corresponds to the HKEY\_CURRENT\_USER registry hive:</source>
-          <target state="translated">Por ejemplo, este comando muestra los elementos directamente en la unidad HKCU: de Windows PowerShell, que se corresponde con el subárbol del Registro HKEY_CURRENT_USER:</target>         
+          <source>For example, this command displays the items directly within Windows PowerShell drive HKCU:, which corresponds to the HKEY<ph id="ph1">\_</ph>CURRENT<ph id="ph2">\_</ph>USER registry hive:</source>
+          <target state="translated">Por ejemplo, este comando muestra los elementos directamente en la unidad HKCU: de Windows PowerShell, que se corresponde con el subárbol HKEY_CURRENT_USER del Registro:</target>         
         </trans-unit>
         <trans-unit id="110" translate="yes" xml:space="preserve">
-          <source>These are the top\-level keys visible under HKEY\_CURRENT\_USER in the Registry Editor (Regedit.exe).</source>
-          <target state="translated">Estas son las claves de nivel superior visibles en HKEY_CURRENT_USER en el Editor del Registro (Regedit.exe).</target>         
+          <source>These are the top<ph id="ph1">\-</ph>level keys visible under HKEY<ph id="ph2">\_</ph>CURRENT<ph id="ph3">\_</ph>USER in the Registry Editor (Regedit.exe).</source>
+          <target state="translated">Estas son las claves de nivel superior visibles en HKEY<ph id="ph1">\-</ph>CURRENT<ph id="ph2">\_</ph>USER en el Editor del Registro (Regedit.exe).</target>         
         </trans-unit>
         <trans-unit id="111" translate="yes" xml:space="preserve">
           <source>You can also specify this registry path by specifying the registry provider's name, followed by "<bpt id="p1">**</bpt>::<ept id="p1">**</ept>".</source>
           <target state="translated">Para especificar esta ruta de acceso del Registro también puede especificar el nombre del proveedor del Registro, seguido de "<bpt id="p1">**</bpt>::<ept id="p1">**</ept>".</target>         
         </trans-unit>
         <trans-unit id="112" translate="yes" xml:space="preserve">
-          <source>The registry provider's full name is <bpt id="p1">**</bpt>Microsoft.PowerShell.Core\\Registry<ept id="p1">**</ept>, but this can be shortened to just <bpt id="p2">**</bpt>Registry<ept id="p2">**</ept>.</source>
-          <target state="translated">El nombre completo del proveedor del Registro es <bpt id="p1">**</bpt>Microsoft.PowerShell.Core\Registry<ept id="p1">**</ept>, pero esto se puede abreviar simplemente a <bpt id="p2">**</bpt>Registry<ept id="p2">**</ept>.</target>         
+          <source>The registry provider's full name is <bpt id="p1">**</bpt>Microsoft.PowerShell.Core<ph id="ph1">\\</ph>Registry<ept id="p1">**</ept>, but this can be shortened to just <bpt id="p2">**</bpt>Registry<ept id="p2">**</ept>.</source>
+          <target state="translated">El nombre completo del proveedor del Registro es <bpt id="p1">**</bpt>Microsoft.PowerShell.Core<ph id="ph1">\\</ph>Registry<ept id="p1">**</ept>, pero se puede abreviar a <bpt id="p2">**</bpt>Registry<ept id="p2">**</ept>.</target>         
         </trans-unit>
         <trans-unit id="113" translate="yes" xml:space="preserve">
           <source>Any of the following commands will list the contents directly under HKCU:</source>
@@ -74,32 +75,32 @@
           <target state="translated">Para enumerar todas las claves del Registro en HKCU, use el comando siguiente (esta operación puede tardar una gran cantidad de tiempo):</target>         
         </trans-unit>
         <trans-unit id="117" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Get\-ChildItem<ept id="p1">**</ept> can perform complex filtering capabilities through its <bpt id="p2">**</bpt>Path<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Filter<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Include<ept id="p4">**</ept>, and <bpt id="p5">**</bpt>Exclude<ept id="p5">**</ept> parameters, but those parameters are typically based only on name.</source>
-          <target state="translated"><bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept> puede realizar funciones complejas de filtrado a través de sus parámetros <bpt id="p2">**</bpt>Path<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Filter<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Include<ept id="p4">**</ept> y <bpt id="p5">**</bpt>Exclude<ept id="p5">**</ept>, pero estos parámetros suelen basarse solo en el nombre.</target>         
+          <source><bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>ChildItem<ept id="p1">**</ept> can perform complex filtering capabilities through its <bpt id="p2">**</bpt>Path<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Filter<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Include<ept id="p4">**</ept>, and <bpt id="p5">**</bpt>Exclude<ept id="p5">**</ept> parameters, but those parameters are typically based only on name.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>ChildItem<ept id="p1">**</ept> puede realizar funcionalidades de filtrado complejas a través de sus parámetros <bpt id="p2">**</bpt>Path<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Filter<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Include<ept id="p4">**</ept> y <bpt id="p5">**</bpt>Exclude<ept id="p5">**</ept>, pero dichos parámetros suelen basarse solo en el nombre.</target>         
         </trans-unit>
         <trans-unit id="118" translate="yes" xml:space="preserve">
-          <source>You can perform complex filtering based on other properties of items by using the <bpt id="p1">**</bpt>Where\-Object<ept id="p1">**</ept>cmdlet.</source>
-          <target state="translated">Puede realizar un filtrado complejo basado en otras propiedades de elementos mediante el cmdlet <bpt id="p1">**</bpt>Where-Object<ept id="p1">**</ept>.</target>         
+          <source>You can perform complex filtering based on other properties of items by using the <bpt id="p1">**</bpt>Where<ph id="ph1">\-</ph>Object<ept id="p1">**</ept>cmdlet.</source>
+          <target state="translated">Puede realizar un filtrado complejo basado en otras propiedades de los elementos, para lo que debe usar el cmdlet <bpt id="p1">**</bpt>Where<ph id="ph1">\-</ph>Object<ept id="p1">**</ept>.</target>         
         </trans-unit>
         <trans-unit id="119" translate="yes" xml:space="preserve">
-          <source>The following command finds all keys within HKCU:\\Software that have no more than one subkey and also have exactly four values:</source>
-          <target state="translated">El siguiente comando busca todas las claves de HKCU:\Software que no tienen más de una subclave y que tienen exactamente cuatro valores:</target>         
+          <source>The following command finds all keys within HKCU:<ph id="ph1">\\</ph>Software that have no more than one subkey and also have exactly four values:</source>
+          <target state="translated">El siguiente comando busca en HKCU:<ph id="ph1">\\</ph>Software todas las claves que no tengan más de una subclave y que tengan exactamente cuatro valores:</target>         
         </trans-unit>
         <trans-unit id="120" translate="yes" xml:space="preserve">
           <source>Copying Keys</source>
           <target state="translated">Copiar claves</target>         
         </trans-unit>
         <trans-unit id="121" translate="yes" xml:space="preserve">
-          <source>Copying is done with <bpt id="p1">**</bpt>Copy\-Item<ept id="p1">**</ept>.</source>
-          <target state="translated">La copia se realiza con <bpt id="p1">**</bpt>Copy-Item<ept id="p1">**</ept>.</target>         
+          <source>Copying is done with <bpt id="p1">**</bpt>Copy<ph id="ph1">\-</ph>Item<ept id="p1">**</ept>.</source>
+          <target state="translated">La copia se realiza con <bpt id="p1">**</bpt>Copy<ph id="ph1">\-</ph>Item<ept id="p1">**</ept>.</target>         
         </trans-unit>
         <trans-unit id="122" translate="yes" xml:space="preserve">
-          <source>The following command copies HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion and all of its properties to HKCU:\\, creating a new key named "CurrentVersion":</source>
-          <target state="translated">El siguiente comando copia HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion y todas sus propiedades en HKCU:\, y crea una nueva clave denominada "CurrentVersion":</target>         
+          <source>The following command copies HKLM:<ph id="ph1">\\</ph>SOFTWARE<ph id="ph2">\\</ph>Microsoft<ph id="ph3">\\</ph>Windows<ph id="ph4">\\</ph>CurrentVersion and all of its properties to HKCU:<ph id="ph5">\\</ph>, creating a new key named "CurrentVersion":</source>
+          <target state="translated">El siguiente comando copia HKLM:<ph id="ph1">\\</ph>SOFTWARE<ph id="ph2">\\</ph>Microsoft<ph id="ph3">\\</ph>Windows<ph id="ph4">\\</ph>CurrentVersion y todas sus propiedades en HKCU:<ph id="ph5">\\</ph>, y crea una nueva clave denominada "CurrentVersion":</target>         
         </trans-unit>
         <trans-unit id="123" translate="yes" xml:space="preserve">
-          <source>If you examine this new key in the registry editor or by using <bpt id="p1">**</bpt>Get\-ChildItem<ept id="p1">**</ept>, you will notice that you do not have copies of the contained subkeys in the new location.</source>
-          <target state="translated">Si examina esta nueva clave en el Editor del Registro o mediante <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept>, observará que no tiene copias de las subclaves contenidas en la nueva ubicación.</target>         
+          <source>If you examine this new key in the registry editor or by using <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>ChildItem<ept id="p1">**</ept>, you will notice that you do not have copies of the contained subkeys in the new location.</source>
+          <target state="translated">Si examina esta nueva clave en el Editor del Registro o mediante <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>ChildItem<ept id="p1">**</ept>, observará que no tiene copias de las subclaves contenidas en la nueva ubicación.</target>         
         </trans-unit>
         <trans-unit id="124" translate="yes" xml:space="preserve">
           <source>In order to copy all of the contents of a container, you need to specify the <bpt id="p1">**</bpt>Recurse<ept id="p1">**</ept> parameter.</source>
@@ -130,7 +131,7 @@
           <target state="translated">Dado que todas las claves del Registro son contenedores, no es necesario especificar el tipo de elemento; solo tiene que proporcionar una ruta de acceso explícita, como:</target>         
         </trans-unit>
         <trans-unit id="131" translate="yes" xml:space="preserve">
-          <source>You can also use a provider\-based path to specify a key:</source>
+          <source>You can also use a provider<ph id="ph1">\-</ph>based path to specify a key:</source>
           <target state="translated">También puede usar una ruta de acceso basada en el proveedor para especificar una clave:</target>         
         </trans-unit>
         <trans-unit id="132" translate="yes" xml:space="preserve">
@@ -150,20 +151,20 @@
           <target state="translated">Quitar todas las claves bajo una clave específica</target>         
         </trans-unit>
         <trans-unit id="136" translate="yes" xml:space="preserve">
-          <source>You can remove contained items by using <bpt id="p1">**</bpt>Remove\-Item<ept id="p1">**</ept>, but you will be prompted to confirm the removal if the item contains anything else.</source>
-          <target state="translated">Puede quitar los elementos contenidos mediante <bpt id="p1">**</bpt>Remove-Item<ept id="p1">**</ept>, pero se le pedirá que confirme la eliminación si el elemento contiene algo más.</target>         
+          <source>You can remove contained items by using <bpt id="p1">**</bpt>Remove<ph id="ph1">\-</ph>Item<ept id="p1">**</ept>, but you will be prompted to confirm the removal if the item contains anything else.</source>
+          <target state="translated">Los elementos contenidos se pueden quitar mediante <bpt id="p1">**</bpt>Remove<ph id="ph1">\-</ph>Item<ept id="p1">**</ept>, pero se pedirá que se confirme la eliminación si el elemento contiene algo más.</target>         
         </trans-unit>
         <trans-unit id="137" translate="yes" xml:space="preserve">
-          <source>For example, if we attempt to delete the HKCU:\\CurrentVersion subkey we created, we see this:</source>
-          <target state="translated">Por ejemplo, si se intenta eliminar la subclave HKCU:\CurrentVersion creada, se muestra lo siguiente:</target>         
+          <source>For example, if we attempt to delete the HKCU:<ph id="ph1">\\</ph>CurrentVersion subkey we created, we see this:</source>
+          <target state="translated">Por ejemplo, si se intenta eliminar la subclave HKCU:<ph id="ph1">\\</ph>CurrentVersion creada, se muestra lo siguiente:</target>         
         </trans-unit>
         <trans-unit id="138" translate="yes" xml:space="preserve">
-          <source>To delete contained items without prompting, specify the <bpt id="p1">**</bpt>\-Recurse<ept id="p1">**</ept> parameter:</source>
-          <target state="translated">Para eliminar los elementos contenidos sin preguntar, especifique el parámetro <bpt id="p1">**</bpt>-Recurse<ept id="p1">**</ept>:</target>         
+          <source>To delete contained items without prompting, specify the <bpt id="p1">**</bpt><ph id="ph1">\-</ph>Recurse<ept id="p1">**</ept> parameter:</source>
+          <target state="translated">Para eliminar los elementos contenidos sin preguntar, especifique el parámetro <bpt id="p1">**</bpt><ph id="ph1">\-</ph>Recurse<ept id="p1">**</ept>:</target>         
         </trans-unit>
         <trans-unit id="139" translate="yes" xml:space="preserve">
-          <source>If you wanted to remove all items within HKCU:\\CurrentVersion but not HKCU:\\CurrentVersion itself, you could instead use:</source>
-          <target state="translated">Para quitar todos los elementos de HKCU:\CurrentVersion pero no de HKCU:\CurrentVersion, podría usar en su lugar:</target>         
+          <source>If you wanted to remove all items within HKCU:<ph id="ph1">\\</ph>CurrentVersion but not HKCU:<ph id="ph2">\\</ph>CurrentVersion itself, you could instead use:</source>
+          <target state="translated">Si deseara quitar todos los elementos de HKCU:<ph id="ph1">\\</ph>CurrentVersion, pero no el propio HKCU:<ph id="ph2">\\</ph>CurrentVersion, podría usar:</target>         
         </trans-unit>
       </group>
     </body>
