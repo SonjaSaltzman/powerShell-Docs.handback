@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d45fbf8a7ddaf7c1176dc09386f96b4f0c0da8f6</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Collecting-Information-About-Computers.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Collecting Information About Computers</source>
+          <target state="translated">Сбор информации о компьютерах</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Collecting Information About Computers</source>
+          <target state="translated">Сбор информации о компьютерах</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>WmiObject<ept id="p1">**</ept> is the most important cmdlet for general system management tasks.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>WmiObject<ept id="p1">**</ept> — самый важный командлет для общих задач управления системой.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>All critical subsystem settings are exposed through WMI.</source>
+          <target state="translated">Все ключевые параметры подсистемы доступны через инструментарий WMI.</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Furthermore, WMI treats data as objects that are in collections of one or more items.</source>
+          <target state="translated">Более того, инструментарий WMI обрабатывает данные как объекты, сгруппированные в коллекции из одного или нескольких элементов.</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Because Windows PowerShell also works with objects and has a pipeline that allows you to treat single or multiple objects in the same way, generic WMI access allows you to perform some advanced tasks with very little work.</source>
+          <target state="translated">Поскольку Windows PowerShell также работает с объектами и имеет конвейер, позволяющий одинаково обрабатывать отдельный объект или несколько объектов, общий доступ к инструментарию WMI предоставляет возможность выполнять некоторые сложные задачи с небольшими затратами усилий.</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The following examples demonstrate how to collect specific information by using <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>WmiObject<ept id="p1">**</ept> against an arbitrary computer.</source>
+          <target state="translated">В следующих примерах показано, как собрать определенные сведения, применяя командлет <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>WmiObject<ept id="p1">**</ept> к произвольному компьютеру.</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>We specify the <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> parameter with the dot value (<bpt id="p2">**</bpt>.<ept id="p2">**</ept>), which represents the local computer.</source>
+          <target state="translated">Значение параметра <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> задается точкой <bpt id="p2">**</bpt>.<ept id="p2">**</ept>, представляющей локальный компьютер.</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can specify a name or IP address associated with any computer you can reach through WMI.</source>
+          <target state="translated">Здесь можно указать имя или IP-адрес, связанные с любым компьютером, к которому требуется получить доступ через инструментарий WMI.</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To retrieve information about the local computer, you could omit the <bpt id="p1">**</bpt><ph id="ph1">\-</ph>ComputerName.<ept id="p1">**</ept></source>
+          <target state="translated">Чтобы получить сведения о локальном компьютере, параметр <bpt id="p1">**</bpt><ph id="ph1">\-</ph>ComputerName<ept id="p1">**</ept> можно опустить.</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Listing Desktop Settings</source>
+          <target state="translated">Вывод параметров рабочего стола</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>We'll begin with a command that collects information about the desktops on the local computer.</source>
+          <target state="translated">Для начала рассмотрим команду, собирающую сведения о рабочих столах локального компьютера.</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This returns information for all desktops, whether they are in use or not.</source>
+          <target state="translated">Эта команда возвращает сведения обо всех рабочих столах, вне зависимости от их использования.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Information returned by some WMI classes can be very detailed, and often include metadata about the WMI class.</source>
+          <target state="translated">Сведения, возвращаемые некоторыми классами WMI, могут быть очень подробными и часто содержат метаданные о классе WMI.</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Because most of these metadata properties have names that begin with a double<ph id="ph1">\-</ph>underscore, you can filter the properties using Select<ph id="ph2">\-</ph>Object.</source>
+          <target state="translated">Поскольку имена большинства этих свойств метаданных начинаются двойным знаком подчеркивания, эти свойства можно отфильтровать с помощью командлета Select<ph id="ph2">\-</ph>Object.</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Specify only properties that begin with alphabetic characters by using <bpt id="p1">**</bpt><ph id="ph1">\[</ph>a<ph id="ph2">\-</ph>z]<ph id="ph3">\&amp;</ph>#42;<ept id="p1">**</ept> as the Property value.</source>
+          <target state="translated">Чтобы выбрать свойства, начинающиеся с буквы, для параметра Property следует указать <bpt id="p1">**</bpt><ph id="ph1">\[</ph>a<ph id="ph2">\-</ph>z]<ph id="ph3">\&amp;</ph>#42;<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">Например:</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To filter out the metadata, use a pipeline operator (|) to send the results of the Get<ph id="ph1">\-</ph>WmiObject command to <bpt id="p1">**</bpt>Select<ph id="ph2">\-</ph>Object <ph id="ph3">\-</ph>Property <ph id="ph4">\[</ph>a<ph id="ph5">\-</ph>z]<ph id="ph6">\&amp;</ph>#42;<ept id="p1">**</ept>.</source>
+          <target state="translated">Чтобы отфильтровать метаданные, направьте результаты команды Get<ph id="ph1">\-</ph>WmiObject в <bpt id="p1">**</bpt>Select<ph id="ph2">\-</ph>Object <ph id="ph3">\-</ph>Property <ph id="ph4">\[</ph>a<ph id="ph5">\-</ph>z]<ph id="ph6">\&amp;</ph>#42;<ept id="p1">**</ept> с помощью оператора конвейера (|).</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Listing BIOS Information</source>
+          <target state="translated">Вывод сведений о BIOS</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The WMI Win32<ph id="ph1">\_</ph>BIOS class returns fairly compact and complete information about the system BIOS on the local computer:</source>
+          <target state="translated">Класс WMI Win32<ph id="ph1">\_</ph>BIOS возвращает довольно компактные и полные сведения о системной BIOS локального компьютера:</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Listing Processor Information</source>
+          <target state="translated">Вывод сведений о процессоре</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You can retrieve general processor information by using WMI's <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>Processor<ept id="p1">**</ept> class, although you will likely want to filter the information:</source>
+          <target state="translated">Общие сведения о процессоре можно получить с помощью класса <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>Processor<ept id="p1">**</ept> инструментария WMI, однако пользователю наверняка потребуется отфильтровать полученные данные:</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For a generic description string of the processor family, you can just return the <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>ComputerSystemSystemType<ept id="p1">**</ept> property:</source>
+          <target state="translated">Чтобы получить общую строку описания семейства процессора, достаточно вернуть свойство <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>ComputerSystemSystemType<ept id="p1">**</ept>:</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Listing Computer Manufacturer and Model</source>
+          <target state="translated">Вывод производителя и модели компьютера</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Computer model information is also available from <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>ComputerSystem<ept id="p1">**</ept>.</source>
+          <target state="translated">Сведения о модели компьютера также доступны в <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>ComputerSystem<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The standard displayed output will not need any filtering to provide OEM data:</source>
+          <target state="translated">Чтобы получить данные поставщика вычислительной техники (OEM), стандартные отображаемые выходные данные фильтровать не нужно:</target>         
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Your output from commands such as this, which return information directly from some hardware, is only as good as the data you have.</source>
+          <target state="translated">Выходные данные из команд, подобных показанной выше и возвращающих сведения напрямую от аппаратного обеспечения, не могут быть дополнены.</target>         
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Some information is not correctly configured by hardware manufacturers and may therefore be unavailable.</source>
+          <target state="translated">Иногда сведения неверно сконфигурированы производителем оборудования и недоступны для запроса.</target>         
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Listing Installed Hotfixes</source>
+          <target state="translated">Вывод установленных исправлений</target>         
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You can list all installed hotfixes by using <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>QuickFixEngineering<ept id="p1">**</ept>:</source>
+          <target state="translated">Список всех установленных исправлений можно получить с помощью <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>QuickFixEngineering<ept id="p1">**</ept>:</target>         
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This class returns a list of hotfixes that looks like this:</source>
+          <target state="translated">Этот класс возвращает список исправлений в следующем виде:</target>         
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For more succinct output, you may want to exclude some properties.</source>
+          <target state="translated">Для получения более кратких сведений нужно исключить некоторые свойства.</target>         
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Although you can use the <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>WmiObject Property<ept id="p1">**</ept> parameter to choose only the <bpt id="p2">**</bpt>HotFixID<ept id="p2">**</ept>, doing so will actually return more information, because all the metadata is displayed by default:</source>
+          <target state="translated">Параметр <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>WmiObject Property<ept id="p1">**</ept> позволяет выбрать только идентификаторы <bpt id="p2">**</bpt>HotFixID<ept id="p2">**</ept>, однако на самом деле возвращается больше данных, поскольку по умолчанию отображаются все метаданные:</target>         
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The additional data is returned, because the Property parameter in <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>WmiObject<ept id="p1">**</ept> restricts the properties returned from WMI class instances, not the object returned to Windows PowerShell.</source>
+          <target state="translated">Дополнительные данные выводятся, поскольку параметр Property командлета <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>WmiObject<ept id="p1">**</ept> ограничивает свойства, возвращаемые из экземпляров класса, но не объекты, возвращаемые оболочке Windows PowerShell.</target>         
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To reduce the output, use <bpt id="p1">**</bpt>Select<ph id="ph1">\-</ph>Object<ept id="p1">**</ept>:</source>
+          <target state="translated">Командлет <bpt id="p1">**</bpt>Select<ph id="ph1">\-</ph>Object<ept id="p1">**</ept> позволяет сократить возвращаемые выходные данные:</target>         
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Listing Operating System Version Information</source>
+          <target state="translated">Вывод сведений о версии операционной среды</target>         
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>OperatingSystem<ept id="p1">**</ept> class properties include version and service pack information.</source>
+          <target state="translated">Свойства класса <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>OperatingSystem<ept id="p1">**</ept> включают сведения о версии операционной среды и пакета обновлений.</target>         
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You can explicitly select only these properties to get a version information summary from <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>OperatingSystem<ept id="p1">**</ept>:</source>
+          <target state="translated">Эти свойства можно выбрать явным образом, чтобы получить сводные данные о версиях из <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>OperatingSystem<ept id="p1">**</ept>:</target>         
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You can also use wildcards with the <bpt id="p1">**</bpt>Select<ph id="ph1">\-</ph>Object Property<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">С параметром <bpt id="p1">**</bpt>Select<ph id="ph1">\-</ph>Object Property<ept id="p1">**</ept> можно использовать подстановочные символы.</target>         
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Because all the properties beginning with either <bpt id="p1">**</bpt>Build<ept id="p1">**</ept> or <bpt id="p2">**</bpt>ServicePack<ept id="p2">**</ept> are important to use here, we can shorten this to the following form:</source>
+          <target state="translated">Поскольку в рассматриваемом случае важны все свойства, имена которых начинаются с <bpt id="p1">**</bpt>Build<ept id="p1">**</ept> либо с <bpt id="p2">**</bpt>ServicePack<ept id="p2">**</ept>, указанную строку можно сократить:</target>         
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Listing Local Users and Owner</source>
+          <target state="translated">Вывод локальных пользователей и владельца</target>         
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Local general user information—number of licensed users, current number of users, and owner name—can be found with a selection of <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>OperatingSystem<ept id="p1">**</ept> properties.</source>
+          <target state="translated">Общие сведения о локальных пользователях — количество лицензированных пользователей, текущее число пользователей и имя владельца — можно получить, выбрав соответствующие свойства <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>OperatingSystem<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>You can explicitly select the properties to display like this:</source>
+          <target state="translated">Отображаемые свойства можно указать явным образом:</target>         
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>A more succinct version using wildcards is:</source>
+          <target state="translated">В более сжатом варианте используются подстановочные символы:</target>         
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Getting Available Disk Space</source>
+          <target state="translated">Получение сведений о доступном месте на диске</target>         
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To see the disk space and free space for local drives, you can use the WMI Win32<ph id="ph1">\_</ph>LogicalDisk class.</source>
+          <target state="translated">Чтобы получить сведения о дисковом пространстве и свободном месте на всех локальных дисках, можно воспользоваться классом Win32<ph id="ph1">\_</ph>LogicalDisk инструментария WMI.</target>         
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>You need to see only instances with a DriveType of 3—the value WMI uses for fixed hard disks.</source>
+          <target state="translated">Для просмотра следует выбрать только те экземпляры, у которых свойство DriveType принимает значение 3, — именно оно используется инструментарием WMI для постоянных жестких дисков.</target>         
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Getting Logon Session Information</source>
+          <target state="translated">Получение сведений о сеансах входа в систему</target>         
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>You can get general information about logon sessions associated with users through the WMI Win32<ph id="ph1">\_</ph>LogonSession class:</source>
+          <target state="translated">Общие сведения о сеансах входа в систему, связанных с пользователями, можно получить через класс Win32<ph id="ph1">\_</ph>LogonSession инструментария WMI:</target>         
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Getting the User Logged on to a Computer</source>
+          <target state="translated">Получение сведений о пользователе, выполнившем вход на компьютер</target>         
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>You can display the user logged on to a particular computer system using Win32<ph id="ph1">\_</ph>ComputerSystem.</source>
+          <target state="translated">Имя пользователя, выполнившего вход на определенный компьютер, можно отобразить с помощью Win32<ph id="ph1">\_</ph>ComputerSystem.</target>         
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This command returns only the user logged on to the system desktop:</source>
+          <target state="translated">Приведенная ниже команда возвращает только пользователей, выполнивших вход на рабочий стол системы:</target>         
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Getting Local Time from a Computer</source>
+          <target state="translated">Получение сведений о местном времени компьютера</target>         
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>You can retrieve the current local time on a specific computer by using the WMI Win32<ph id="ph1">\_</ph>LocalTime class.</source>
+          <target state="translated">Данные о текущем местном времени определенного компьютера можно получить с помощью класса Win32<ph id="ph1">\_</ph>LocalTime инструментария WMI.</target>         
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Because this class by default displays all metadata, you may want to filter it using <bpt id="p1">**</bpt>Select<ph id="ph1">\-</ph>Object<ept id="p1">**</ept>:</source>
+          <target state="translated">Поскольку этот класс по умолчанию отображает все метаданные, пользователю может потребоваться фильтрация с помощью командлета <bpt id="p1">**</bpt>Select<ph id="ph1">\-</ph>Object<ept id="p1">**</ept>:</target>         
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Displaying Service Status</source>
+          <target state="translated">Отображение состояния службы</target>         
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>To view the status of all services on a specific computer, you can locally use the <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Service<ept id="p1">**</ept> cmdlet as mentioned earlier.</source>
+          <target state="translated">Для просмотра состояния всех служб на определенном компьютере можно локально воспользоваться командлетом <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Service<ept id="p1">**</ept>, как было показано ранее.</target>         
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>For remote systems, you can use the WMI Win32<ph id="ph1">\_</ph>Service class.</source>
+          <target state="translated">Для удаленных систем можно использовать класс Win32<ph id="ph1">\_</ph>Service инструментария WMI.</target>         
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If you also use <bpt id="p1">**</bpt>Select<ph id="ph1">\-</ph>Object<ept id="p1">**</ept> to filter the results to <bpt id="p2">**</bpt>Status<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Name<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>DisplayName<ept id="p4">**</ept>, the output format will be almost identical to that from <bpt id="p5">**</bpt>Get<ph id="ph2">\-</ph>Service<ept id="p5">**</ept>:</source>
+          <target state="translated">Если использовать <bpt id="p1">**</bpt>Select-<ph id="ph1">\-</ph>Object<ept id="p1">**</ept> для получения результатов <bpt id="p2">**</bpt>Status<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Name<ept id="p3">**</ept> и <bpt id="p4">**</bpt>DisplayName<ept id="p4">**</ept>, формат вывода будет идентичен формату вывода командлета <bpt id="p5">**</bpt>Get<ph id="ph2">\-</ph>Service<ept id="p5">**</ept>:</target>         
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>To allow the complete display of names for the occasional services with extremely long names, you may want to use <bpt id="p1">**</bpt>Format<ph id="ph1">\-</ph>Table<ept id="p1">**</ept> with the <bpt id="p2">**</bpt>AutoSize<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Wrap<ept id="p3">**</ept> parameters, to optimize column width and allow long names to wrap instead of being truncated:</source>
+          <target state="translated">Чтобы полностью отобразить службы с очень длинными именами, может потребоваться использование командлета <bpt id="p1">**</bpt>Format<ph id="ph1">\-</ph>Table<ept id="p1">**</ept> с параметрами <bpt id="p2">**</bpt>AutoSize<ept id="p2">**</ept> и <bpt id="p3">**</bpt>Wrap<ept id="p3">**</ept>, позволяющими оптимизировать ширину столбцов и переносить длинные имена на следующие строки вместо их усечения:</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

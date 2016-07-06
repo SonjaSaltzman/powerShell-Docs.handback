@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8cd074bc4314aeb8d50fa31d74d9a1b2d2a37469</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Viewing-Object-Structure--Get-Member-.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Viewing Object Structure  Get Member</source>
+          <target state="translated">Просмотр структуры объектов с помощью Get-Member</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Viewing Object Structure (Get-Member)</source>
+          <target state="translated">Просмотр структуры объектов (Get-Member)</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Because objects play such a central role in Windows PowerShell, there are several native commands designed to work with arbitrary object types.</source>
+          <target state="translated">Поскольку объекты играют ключевую роль в Windows PowerShell, существует несколько собственных команд для работы с произвольными типами объектов.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The most important one is the <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Member<ept id="p1">**</ept> command.</source>
+          <target state="translated">Наиболее важной является команда <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Member<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The simplest technique for analyzing the objects that a command returns is to pipe the output of that command to the <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Member<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">Объекты, возвращаемые командой, проще всего проанализировать, передав ее выходные данные в командлет <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Member<ept id="p1">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Member<ept id="p1">**</ept> cmdlet shows you the formal name of the object type and a complete listing of its members.</source>
+          <target state="translated">Командлет <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Member<ept id="p1">**</ept> показывает формальное имя типа объекта и полный список его элементов.</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The number of elements that are returned can sometimes be overwhelming.</source>
+          <target state="translated">Количество возвращаемых элементов иногда может быть просто огромным.</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For example, a process object can have over 100 members.</source>
+          <target state="translated">Например, объект процесса может иметь более ста элементов.</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To see all the members of a Process object and page the output so you can view all of it, type:</source>
+          <target state="translated">Чтобы просмотреть все элементы объекта процесса и вывести все выходные данные, введите:</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The output from this command will look something like this:</source>
+          <target state="translated">Выходные данные этой команды выглядят следующим образом:</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>We can make this long list of information more usable by filtering for elements we want to see.</source>
+          <target state="translated">Этот длинный перечень сведений можно сделать гораздо удобнее, отфильтровав нужные элементы.</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Member<ept id="p1">**</ept> command lets you list only members that are properties.</source>
+          <target state="translated">Команда <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Member<ept id="p1">**</ept> позволяет вывести только те элементы, которые являются свойствами.</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>There are several forms of properties.</source>
+          <target state="translated">Существует несколько форм свойств.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The cmdlet displays properties of any type if we set the <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>MemberMemberType<ept id="p1">**</ept> parameter to the value <bpt id="p2">**</bpt>Properties<ept id="p2">**</ept>.</source>
+          <target state="translated">Командлет отображает свойства любого типа, если для параметра <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>MemberMemberType<ept id="p1">**</ept> задано значение <bpt id="p2">**</bpt>Properties<ept id="p2">**</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The resulting list is still very long, but a bit more manageable:</source>
+          <target state="translated">Полученный список по-прежнему очень длинный, но работать с ним немного удобнее:</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The allowed values of MemberType are AliasProperty, CodeProperty, Property, NoteProperty, ScriptProperty, Properties, PropertySet, Method, CodeMethod, ScriptMethod, Methods, ParameterizedProperty, MemberSet, and All.</source>
+          <target state="translated">Для MemberType разрешены следующие значения: AliasProperty, CodeProperty, Property, NoteProperty, ScriptProperty, Properties, PropertySet, Method, CodeMethod, ScriptMethod, Methods, ParameterizedProperty, MemberSet и All.</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>There are over 60 properties for a process.</source>
+          <target state="translated">Для процесса существует более шестидесяти свойств.</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The reason Windows PowerShell often shows only a handful of properties for any well<ph id="ph1">\-</ph>known object is that showing all of them would produce an unmanageable amount of information.</source>
+          <target state="translated">Windows PowerShell часто показывает лишь небольшое число свойств для известного объекта, так как в противном случае выдается не поддающийся управлению объем информации.</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell determines how to display an object type by using information stored in XML files that have names ending in .format.ps1xml.</source>
+          <target state="translated">Windows PowerShell определяет способ отображения типа объекта с помощью сведений, хранящихся в XML-файлах, имена которых заканчиваются на .format.ps1xml.</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The formatting data for process objects, which are .NET System.Diagnostics.Process objects, is stored in PowerShellCore.format.ps1xml.</source>
+          <target state="translated">Данные форматирования для объектов процессов, которые являются объектами System.Diagnostics.Process .NET, хранятся в PowerShellCore.format.ps1xml.</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If you need to look at properties other than those that Windows PowerShell displays by default, you will need to format the output data yourself.</source>
+          <target state="translated">Если требуется просмотреть свойства, отличные от отображаемых Windows PowerShell по умолчанию, необходимо самостоятельно отформатировать выходные данные.</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This can be done by using the format cmdlets.</source>
+          <target state="translated">Это можно сделать с помощью командлетов форматирования.</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
