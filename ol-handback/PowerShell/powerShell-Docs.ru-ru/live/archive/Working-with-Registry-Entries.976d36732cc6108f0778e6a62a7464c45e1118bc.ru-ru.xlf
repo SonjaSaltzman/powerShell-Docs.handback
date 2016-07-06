@@ -2,10 +2,11 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
     <header>
-      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
-      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Working-with-Registry-Entries.md</xliffext:olfilepath>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d7fb731bc2527e324271bc75f00112a67a1147e3</xliffext:olfilehash>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-39517ae" tool-company="Microsoft" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Working-with-Registry-Entries.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
     </header>
     <body>
       <group id="content" extype="content">
@@ -34,8 +35,8 @@
           <target state="translated">Самый простой — получить имена свойств, связанные с разделом.</target>         
         </trans-unit>
         <trans-unit id="107" translate="yes" xml:space="preserve">
-          <source>For example, to see the names of the entries in the registry key <bpt id="p1">**</bpt>HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion<ept id="p1">**</ept>, use <bpt id="p2">**</bpt>Get\-Item<ept id="p2">**</ept>.</source>
-          <target state="translated">Например, чтобы увидеть имена записей в разделе реестра <bpt id="p1">**</bpt>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion<ept id="p1">**</ept>, используйте <bpt id="p2">**</bpt>Get-Item<ept id="p2">**</ept>.</target>         
+          <source>For example, to see the names of the entries in the registry key <bpt id="p1">**</bpt>HKEY<ph id="ph1">\_</ph>LOCAL<ph id="ph2">\_</ph>MACHINE<ph id="ph3">\\</ph>Software<ph id="ph4">\\</ph>Microsoft<ph id="ph5">\\</ph>Windows<ph id="ph6">\\</ph>CurrentVersion<ept id="p1">**</ept>, use <bpt id="p2">**</bpt>Get<ph id="ph7">\-</ph>Item<ept id="p2">**</ept>.</source>
+          <target state="translated">Например, чтобы увидеть имена записей в разделе реестра <bpt id="p1">**</bpt>HKEY<ph id="ph1">\_</ph>LOCAL<ph id="ph2">\_</ph>MACHINE<ph id="ph3">\\</ph>Software<ph id="ph4">\\</ph>Microsoft<ph id="ph5">\\</ph>Windows<ph id="ph6">\\</ph>CurrentVersion<ept id="p1">**</ept>, используйте <bpt id="p2">**</bpt>Get<ph id="ph7">\-</ph>Item<ept id="p2">**</ept>.</target>         
         </trans-unit>
         <trans-unit id="108" translate="yes" xml:space="preserve">
           <source>Registry keys have a property with the generic name of "Property" that is a list of registry entries in the key.</source>
@@ -46,32 +47,32 @@
           <target state="translated">Следующая команда выбирает свойство Property и расширяет элементы так, чтобы они отображались в списке:</target>         
         </trans-unit>
         <trans-unit id="110" translate="yes" xml:space="preserve">
-          <source>To view the registry entries in a more readable form, use <bpt id="p1">**</bpt>Get\-ItemProperty<ept id="p1">**</ept>:</source>
-          <target state="translated">Чтобы просмотреть записи реестра в более удобочитаемой форме, используйте <bpt id="p1">**</bpt>Get-ItemProperty<ept id="p1">**</ept>:</target>         
+          <source>To view the registry entries in a more readable form, use <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>ItemProperty<ept id="p1">**</ept>:</source>
+          <target state="translated">Чтобы просмотреть записи реестра в более удобочитаемой форме, используйте <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>ItemProperty<ept id="p1">**</ept>:</target>         
         </trans-unit>
         <trans-unit id="111" translate="yes" xml:space="preserve">
-          <source>The Windows PowerShell\-related properties for the key are all prefixed with "PS", such as <bpt id="p1">**</bpt>PSPath<ept id="p1">**</ept>, <bpt id="p2">**</bpt>PSParentPath<ept id="p2">**</ept>, <bpt id="p3">**</bpt>PSChildName<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>PSProvider<ept id="p4">**</ept>.</source>
-          <target state="translated">Все свойства Windows PowerShell раздела имеют префиксы PS, например <bpt id="p1">**</bpt>PSPath<ept id="p1">**</ept>, <bpt id="p2">**</bpt>PSParentPath<ept id="p2">**</ept>, <bpt id="p3">**</bpt>PSChildName<ept id="p3">**</ept> и <bpt id="p4">**</bpt>PSProvider<ept id="p4">**</ept>.</target>         
+          <source>The Windows PowerShell<ph id="ph1">\-</ph>related properties for the key are all prefixed with "PS", such as <bpt id="p1">**</bpt>PSPath<ept id="p1">**</ept>, <bpt id="p2">**</bpt>PSParentPath<ept id="p2">**</ept>, <bpt id="p3">**</bpt>PSChildName<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>PSProvider<ept id="p4">**</ept>.</source>
+          <target state="translated">Все свойства Windows PowerShell<ph id="ph1">\-</ph>раздела имеют префиксы PS, например <bpt id="p1">**</bpt>PSPath<ept id="p1">**</ept>, <bpt id="p2">**</bpt>PSParentPath<ept id="p2">**</ept>, <bpt id="p3">**</bpt>PSChildName<ept id="p3">**</ept> и <bpt id="p4">**</bpt>PSProvider<ept id="p4">**</ept>.</target>         
         </trans-unit>
         <trans-unit id="112" translate="yes" xml:space="preserve">
           <source>You can use the "<bpt id="p1">**</bpt>.<ept id="p1">**</ept>" notation for referring to the current location.</source>
           <target state="translated">Для ссылки на текущее расположение можно использовать нотацию "<bpt id="p1">**</bpt>.<ept id="p1">**</ept>".</target>         
         </trans-unit>
         <trans-unit id="113" translate="yes" xml:space="preserve">
-          <source>You can use <bpt id="p1">**</bpt>Set\-Location<ept id="p1">**</ept> to change to the <bpt id="p2">**</bpt>CurrentVersion<ept id="p2">**</ept> registry container first:</source>
-          <target state="translated"><bpt id="p1">**</bpt>Set-Location<ept id="p1">**</ept> можно использовать для первоначального изменения значения на контейнер реестра <bpt id="p2">**</bpt>CurrentVersion<ept id="p2">**</ept>:</target>         
+          <source>You can use <bpt id="p1">**</bpt>Set<ph id="ph1">\-</ph>Location<ept id="p1">**</ept> to change to the <bpt id="p2">**</bpt>CurrentVersion<ept id="p2">**</ept> registry container first:</source>
+          <target state="translated"><bpt id="p1">**</bpt>Set<ph id="ph1">\-</ph>Location<ept id="p1">**</ept> можно использовать для первоначального изменения значения на контейнер реестра <bpt id="p2">**</bpt>CurrentVersion<ept id="p2">**</ept>:</target>         
         </trans-unit>
         <trans-unit id="114" translate="yes" xml:space="preserve">
-          <source>Alternatively, you can use the built\-in HKLM PSDrive with <bpt id="p1">**</bpt>Set\-Location<ept id="p1">**</ept>:</source>
-          <target state="translated">Кроме того, можно использовать встроенный диск HKLM PSDrive с <bpt id="p1">**</bpt>Set-Location<ept id="p1">**</ept>:</target>         
+          <source>Alternatively, you can use the built<ph id="ph1">\-</ph>in HKLM PSDrive with <bpt id="p1">**</bpt>Set<ph id="ph2">\-</ph>Location<ept id="p1">**</ept>:</source>
+          <target state="translated">Кроме того, можно использовать встроенный диск HKLM PSDrive с <bpt id="p1">**</bpt>Set<ph id="ph2">\-</ph>Location<ept id="p1">**</ept>:</target>         
         </trans-unit>
         <trans-unit id="115" translate="yes" xml:space="preserve">
           <source>You can then use the "<bpt id="p1">**</bpt>.<ept id="p1">**</ept>" notation for the current location to list the properties without specifying a full path:</source>
           <target state="translated">Затем можно использовать нотацию "<bpt id="p1">**</bpt>.<ept id="p1">**</ept>" для текущего расположения, чтобы перечислить свойства без указания полного пути:</target>         
         </trans-unit>
         <trans-unit id="116" translate="yes" xml:space="preserve">
-          <source>Path expansion works the same as it does within the file system, so from this location you can get the <bpt id="p1">**</bpt>ItemProperty<ept id="p1">**</ept> listing for <bpt id="p2">**</bpt>HKLM:\\SOFTWARE\\Microsoft\\Windows\\Help<ept id="p2">**</ept> by using <bpt id="p3">**</bpt>Get\-ItemProperty \-Path ..\\Help<ept id="p3">**</ept>.</source>
-          <target state="translated">Расширение пути работает так же, как и в файловой системе, поэтому в этом расположении можно получить перечисление <bpt id="p1">**</bpt>ItemProperty<ept id="p1">**</ept> для <bpt id="p2">**</bpt>HKLM:\SOFTWARE\Microsoft\Windows\Help<ept id="p2">**</ept> с помощью <bpt id="p3">**</bpt>Get-ItemProperty -Path ..\Help<ept id="p3">**</ept>.</target>         
+          <source>Path expansion works the same as it does within the file system, so from this location you can get the <bpt id="p1">**</bpt>ItemProperty<ept id="p1">**</ept> listing for <bpt id="p2">**</bpt>HKLM:<ph id="ph1">\\</ph>SOFTWARE<ph id="ph2">\\</ph>Microsoft<ph id="ph3">\\</ph>Windows<ph id="ph4">\\</ph>Help<ept id="p2">**</ept> by using <bpt id="p3">**</bpt>Get<ph id="ph5">\-</ph>ItemProperty <ph id="ph6">\-</ph>Path ..<ph id="ph7">\\</ph>Help<ept id="p3">**</ept>.</source>
+          <target state="translated">Расширение пути работает так же, как и в файловой системе, поэтому в этом расположении можно получить перечисление <bpt id="p1">**</bpt>ItemProperty<ept id="p1">**</ept> для <bpt id="p2">**</bpt>HKLM:<ph id="ph1">\\</ph>SOFTWARE<ph id="ph2">\\</ph>Microsoft<ph id="ph3">\\</ph>Windows<ph id="ph4">\\</ph>Help<ept id="p2">**</ept> с помощью <bpt id="p3">**</bpt>Get<ph id="ph5">\-</ph>ItemProperty <ph id="ph6">\-</ph>Path ..<ph id="ph7">\\</ph>Help<ept id="p3">**</ept>.</target>         
         </trans-unit>
         <trans-unit id="117" translate="yes" xml:space="preserve">
           <source>Getting a Single Registry Entry</source>
@@ -82,20 +83,20 @@
           <target state="translated">Если необходимо получить конкретную запись в разделе реестра, можно использовать один из нескольких возможных подходов.</target>         
         </trans-unit>
         <trans-unit id="119" translate="yes" xml:space="preserve">
-          <source>This example finds the value of <bpt id="p1">**</bpt>DevicePath<ept id="p1">**</ept> in <bpt id="p2">**</bpt>HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion<ept id="p2">**</ept>.</source>
-          <target state="translated">В этом примере выполняется поиск значения <bpt id="p1">**</bpt>DevicePath<ept id="p1">**</ept> в <bpt id="p2">**</bpt>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion<ept id="p2">**</ept>.</target>         
+          <source>This example finds the value of <bpt id="p1">**</bpt>DevicePath<ept id="p1">**</ept> in <bpt id="p2">**</bpt>HKEY<ph id="ph1">\_</ph>LOCAL<ph id="ph2">\_</ph>MACHINE<ph id="ph3">\\</ph>SOFTWARE<ph id="ph4">\\</ph>Microsoft<ph id="ph5">\\</ph>Windows<ph id="ph6">\\</ph>CurrentVersion<ept id="p2">**</ept>.</source>
+          <target state="translated">В этом примере выполняется поиск значения <bpt id="p1">**</bpt>DevicePath<ept id="p1">**</ept> в <bpt id="p2">**</bpt>HKEY<ph id="ph1">\_</ph>LOCAL<ph id="ph2">\_</ph>MACHINE<ph id="ph3">\\</ph>SOFTWARE<ph id="ph4">\\</ph>Microsoft<ph id="ph5">\\</ph>Windows<ph id="ph6">\\</ph>CurrentVersion<ept id="p2">**</ept>.</target>         
         </trans-unit>
         <trans-unit id="120" translate="yes" xml:space="preserve">
-          <source>Using <bpt id="p1">**</bpt>Get\-ItemProperty<ept id="p1">**</ept>, use the <bpt id="p2">**</bpt>Path<ept id="p2">**</ept> parameter to specify the name of the key, and the <bpt id="p3">**</bpt>Name<ept id="p3">**</ept> parameter to specify the name of the <bpt id="p4">**</bpt>DevicePath<ept id="p4">**</ept> entry.</source>
-          <target state="translated">Используйте вместе с <bpt id="p1">**</bpt>Get-ItemProperty<ept id="p1">**</ept> параметр <bpt id="p2">**</bpt>Path<ept id="p2">**</ept>, чтобы указать имя раздела, и параметр <bpt id="p3">**</bpt>Name<ept id="p3">**</ept>, чтобы указать имя записи <bpt id="p4">**</bpt>DevicePath<ept id="p4">**</ept>.</target>         
+          <source>Using <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>ItemProperty<ept id="p1">**</ept>, use the <bpt id="p2">**</bpt>Path<ept id="p2">**</ept> parameter to specify the name of the key, and the <bpt id="p3">**</bpt>Name<ept id="p3">**</ept> parameter to specify the name of the <bpt id="p4">**</bpt>DevicePath<ept id="p4">**</ept> entry.</source>
+          <target state="translated">Используйте вместе с <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>ItemProperty<ept id="p1">**</ept> параметр <bpt id="p2">**</bpt>Path<ept id="p2">**</ept>, чтобы указать имя раздела, и параметр <bpt id="p3">**</bpt>Name<ept id="p3">**</ept>, чтобы указать имя записи <bpt id="p4">**</bpt>DevicePath<ept id="p4">**</ept>.</target>         
         </trans-unit>
         <trans-unit id="121" translate="yes" xml:space="preserve">
           <source>This command returns the standard Windows PowerShell properties as well as the <bpt id="p1">**</bpt>DevicePath<ept id="p1">**</ept> property.</source>
           <target state="translated">Эта команда возвращает стандартные свойства Windows PowerShell, а также свойство <bpt id="p1">**</bpt>DevicePath<ept id="p1">**</ept>.</target>         
         </trans-unit>
         <trans-unit id="122" translate="yes" xml:space="preserve">
-          <source>Although <bpt id="p1">**</bpt>Get\-ItemProperty<ept id="p1">**</ept> has <bpt id="p2">**</bpt>Filter<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Include<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Exclude<ept id="p4">**</ept> parameters, they cannot be used to filter by property name.</source>
-          <target state="translated">Хотя <bpt id="p1">**</bpt>Get-ItemProperty<ept id="p1">**</ept> содержит параметры <bpt id="p2">**</bpt>Filter<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Include<ept id="p3">**</ept> и <bpt id="p4">**</bpt>Exclude<ept id="p4">**</ept>, их невозможно использовать для фильтрации по имени свойства.</target>         
+          <source>Although <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>ItemProperty<ept id="p1">**</ept> has <bpt id="p2">**</bpt>Filter<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Include<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Exclude<ept id="p4">**</ept> parameters, they cannot be used to filter by property name.</source>
+          <target state="translated">Хотя <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>ItemProperty<ept id="p1">**</ept> содержит параметры <bpt id="p2">**</bpt>Filter<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Include<ept id="p3">**</ept> и <bpt id="p4">**</bpt>Exclude<ept id="p4">**</ept>, их невозможно использовать для фильтрации по имени свойства.</target>         
         </trans-unit>
         <trans-unit id="123" translate="yes" xml:space="preserve">
           <source>These parameters refer to registry keys—which are item paths—and not registry entries—which are item properties.</source>
@@ -106,8 +107,8 @@
           <target state="translated">Другой вариант — использовать средство командной строки Reg.exe.</target>         
         </trans-unit>
         <trans-unit id="125" translate="yes" xml:space="preserve">
-          <source>For help with reg.exe, type <bpt id="p1">**</bpt>reg.exe \/?<ept id="p1">**</ept></source>
-          <target state="translated">Для получения справки по reg.exe введите <bpt id="p1">**</bpt>reg.exe /?<ept id="p1">**</ept></target>         
+          <source>For help with reg.exe, type <bpt id="p1">**</bpt>reg.exe <ph id="ph1">\/</ph>?<ept id="p1">**</ept></source>
+          <target state="translated">Для получения справки по reg.exe введите <bpt id="p1">**</bpt>reg.exe <ph id="ph1">\/</ph>?<ept id="p1">**</ept></target>         
         </trans-unit>
         <trans-unit id="126" translate="yes" xml:space="preserve">
           <source>at a command prompt.</source>
@@ -118,20 +119,20 @@
           <target state="translated">Чтобы найти запись DevicePath, используйте reg.exe, как показано в следующей команде:</target>         
         </trans-unit>
         <trans-unit id="128" translate="yes" xml:space="preserve">
-          <source>You can also use the <bpt id="p1">**</bpt>WshShell COM<ept id="p1">**</ept> object as well to find some registry entries, although this method does not work with large binary data or with registry entry names that include characters such as "\\").</source>
-          <target state="translated">Также можно использовать объект <bpt id="p1">**</bpt>WshShell COM<ept id="p1">**</ept>, чтобы найти некоторые записи реестра, хотя этот метод не работает с большими двоичными данными или именами записей реестра, включающими такие символы, как "\".</target>         
+          <source>You can also use the <bpt id="p1">**</bpt>WshShell COM<ept id="p1">**</ept> object as well to find some registry entries, although this method does not work with large binary data or with registry entry names that include characters such as "<ph id="ph1">\\</ph>").</source>
+          <target state="translated">Также можно использовать объект <bpt id="p1">**</bpt>WshShell COM<ept id="p1">**</ept>, чтобы найти некоторые записи реестра, хотя этот метод не работает с большими двоичными данными или именами записей реестра, включающими такие символы, как "<ph id="ph1">\\</ph>".</target>         
         </trans-unit>
         <trans-unit id="129" translate="yes" xml:space="preserve">
-          <source>Append the property name to the item path with a \\ separator:</source>
-          <target state="translated">Добавьте имя свойства с разделителем "\" в путь элемента:</target>         
+          <source>Append the property name to the item path with a <ph id="ph1">\\</ph> separator:</source>
+          <target state="translated">Добавьте имя свойства с разделителем "<ph id="ph1">\\</ph>" в путь элемента:</target>         
         </trans-unit>
         <trans-unit id="130" translate="yes" xml:space="preserve">
           <source>Creating New Registry Entries</source>
           <target state="translated">Создание новых записей реестра</target>         
         </trans-unit>
         <trans-unit id="131" translate="yes" xml:space="preserve">
-          <source>To add a new entry named "PowerShellPath" to the <bpt id="p1">**</bpt>CurrentVersion<ept id="p1">**</ept> key, use <bpt id="p2">**</bpt>New\-ItemProperty<ept id="p2">**</ept> with the path to the key, the entry name, and the value of the entry.</source>
-          <target state="translated">Чтобы добавить новую запись реестра с именем "PowerShellPath" в раздел <bpt id="p1">**</bpt>CurrentVersion<ept id="p1">**</ept>, используйте <bpt id="p2">**</bpt>New-ItemProperty<ept id="p2">**</ept> с путем к разделу, именем записи и значением записи.</target>         
+          <source>To add a new entry named "PowerShellPath" to the <bpt id="p1">**</bpt>CurrentVersion<ept id="p1">**</ept> key, use <bpt id="p2">**</bpt>New<ph id="ph1">\-</ph>ItemProperty<ept id="p2">**</ept> with the path to the key, the entry name, and the value of the entry.</source>
+          <target state="translated">Чтобы добавить новую запись реестра с именем "PowerShellPath" в раздел <bpt id="p1">**</bpt>CurrentVersion<ept id="p1">**</ept>, используйте <bpt id="p2">**</bpt>New<ph id="ph1">\-</ph>ItemProperty<ept id="p2">**</ept> с путем к разделу, именем записи и значением записи.</target>         
         </trans-unit>
         <trans-unit id="132" translate="yes" xml:space="preserve">
           <source>For this example, we will take the value of the Windows PowerShell variable <bpt id="p1">**</bpt>$PSHome<ept id="p1">**</ept>, which stores the path to the installation directory for Windows PowerShell.</source>
@@ -202,20 +203,20 @@
           <target state="translated">8 байтов двоичных данных</target>         
         </trans-unit>
         <trans-unit id="149" translate="yes" xml:space="preserve">
-          <source><ph id="ph1">[!NOTE]</ph> You can add a registry entry to multiple locations by specifying an array of values for the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter:</source>
-          <target state="translated"><ph id="ph1">[!NOTE]</ph> Запись реестра можно добавить в несколько расположений, указав массив значений для параметра <bpt id="p1">**</bpt>Path<ept id="p1">**</ept>.</target>         
+          <source>You can add a registry entry to multiple locations by specifying an array of values for the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter:</source>
+          <target state="translated">Запись реестра можно добавить в несколько расположений, указав массив значений для параметра <bpt id="p1">**</bpt>Path<ept id="p1">**</ept>:</target>         
         </trans-unit>
         <trans-unit id="150" translate="yes" xml:space="preserve">
-          <source>You can also overwrite a pre\-existing registry entry value by adding the <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> parameter to any <bpt id="p2">**</bpt>New\-ItemProperty<ept id="p2">**</ept> command.</source>
-          <target state="translated">Кроме того, можно перезаписать существующее значение записи реестра, добавив параметр <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> в любую команду <bpt id="p2">**</bpt>New-ItemProperty<ept id="p2">**</ept>.</target>         
+          <source>You can also overwrite a pre<ph id="ph1">\-</ph>existing registry entry value by adding the <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> parameter to any <bpt id="p2">**</bpt>New<ph id="ph2">\-</ph>ItemProperty<ept id="p2">**</ept> command.</source>
+          <target state="translated">Кроме того, можно перезаписать существующее значение записи реестра, добавив параметр <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> в любую команду <bpt id="p2">**</bpt>New<ph id="ph2">\-</ph>ItemProperty<ept id="p2">**</ept>.</target>         
         </trans-unit>
         <trans-unit id="151" translate="yes" xml:space="preserve">
           <source>Renaming Registry Entries</source>
           <target state="translated">Переименование записей реестра</target>         
         </trans-unit>
         <trans-unit id="152" translate="yes" xml:space="preserve">
-          <source>To rename the <bpt id="p1">**</bpt>PowerShellPath<ept id="p1">**</ept> entry to "PSHome," use <bpt id="p2">**</bpt>Rename\-ItemProperty<ept id="p2">**</ept>:</source>
-          <target state="translated">Чтобы переименовать запись <bpt id="p1">**</bpt>PowerShellPath<ept id="p1">**</ept> в PSHome, используйте <bpt id="p2">**</bpt>Rename-ItemProperty<ept id="p2">**</ept>:</target>         
+          <source>To rename the <bpt id="p1">**</bpt>PowerShellPath<ept id="p1">**</ept> entry to "PSHome," use <bpt id="p2">**</bpt>Rename<ph id="ph1">\-</ph>ItemProperty<ept id="p2">**</ept>:</source>
+          <target state="translated">Чтобы переименовать запись <bpt id="p1">**</bpt>PowerShellPath<ept id="p1">**</ept> в "PSHome", используйте <bpt id="p2">**</bpt>Rename<ph id="ph1">\-</ph>ItemProperty<ept id="p2">**</ept>:</target>         
         </trans-unit>
         <trans-unit id="153" translate="yes" xml:space="preserve">
           <source>To display the renamed value, add the <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter to the command.</source>
@@ -226,8 +227,8 @@
           <target state="translated">Удаление записей реестра</target>         
         </trans-unit>
         <trans-unit id="155" translate="yes" xml:space="preserve">
-          <source>To delete both the PSHome and PowerShellPath registry entries, use <bpt id="p1">**</bpt>Remove\-ItemProperty<ept id="p1">**</ept>:</source>
-          <target state="translated">Чтобы удалить записи реестра PSHome и PowerShellPath, используйте <bpt id="p1">**</bpt>Remove-ItemProperty<ept id="p1">**</ept>:</target>         
+          <source>To delete both the PSHome and PowerShellPath registry entries, use <bpt id="p1">**</bpt>Remove<ph id="ph1">\-</ph>ItemProperty<ept id="p1">**</ept>:</source>
+          <target state="translated">Чтобы удалить записи реестра PSHome и PowerShellPath, используйте <bpt id="p1">**</bpt>Remove<ph id="ph1">\-</ph>ItemProperty<ept id="p1">**</ept>:</target>         
         </trans-unit>
       </group>
     </body>
