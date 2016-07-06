@@ -2,10 +2,11 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
     <header>
-      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
-      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Performing-Networking-Tasks.md</xliffext:olfilepath>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6d878b89a4cd49948cb465525e74e92db819c192</xliffext:olfilehash>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-39517ae" tool-company="Microsoft" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Performing-Networking-Tasks.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
     </header>
     <body>
       <group id="content" extype="content">
@@ -18,8 +19,8 @@
           <target state="translated">Executando tarefas de rede</target>         
         </trans-unit>
         <trans-unit id="103" translate="yes" xml:space="preserve">
-          <source>Because TCP\/IP is the most commonly used network protocol, most low\-level network protocol administration tasks involve TCP\/IP.</source>
-          <target state="translated">Como TCP/IP é o protocolo de rede mais comumente usado, a maioria das tarefas de administração de protocolo de rede de baixo nível envolvem TCP/IP.</target>         
+          <source>Because TCP<ph id="ph1">\/</ph>IP is the most commonly used network protocol, most low<ph id="ph2">\-</ph>level network protocol administration tasks involve TCP<ph id="ph3">\/</ph>IP.</source>
+          <target state="translated">Como TCP<ph id="ph1">\/</ph>IP é o protocolo de rede mais usado em geral, a maioria das tarefas de administração de protocolo de rede de baixo nível envolvem TCP<ph id="ph3">\/</ph>IP.</target>         
         </trans-unit>
         <trans-unit id="104" translate="yes" xml:space="preserve">
           <source>In this section, we use Windows PowerShell and WMI to do these tasks.</source>
@@ -46,8 +47,8 @@
           <target state="translated">{192.168.1.80} {192.168.148.1} {192.168.171.1} {0.0.0.0}</target>         
         </trans-unit>
         <trans-unit id="110" translate="yes" xml:space="preserve">
-          <source>To understand why the braces appear, use the Get\-Member cmdlet to examine the <bpt id="p1">**</bpt>IPAddress<ept id="p1">**</ept> property:</source>
-          <target state="translated">Para entender por que as chaves são exibidas, use o cmdlet Get-Member para examinar a propriedade <bpt id="p1">**</bpt>IPAddress<ept id="p1">**</ept>:</target>         
+          <source>To understand why the braces appear, use the Get<ph id="ph1">\-</ph>Member cmdlet to examine the <bpt id="p1">**</bpt>IPAddress<ept id="p1">**</ept> property:</source>
+          <target state="translated">Para entender por que as chaves são exibidas, use o cmdlet Get<ph id="ph1">\-</ph>Member para examinar a propriedade <bpt id="p1">**</bpt>IPAddress<ept id="p1">**</ept>:</target>         
         </trans-unit>
         <trans-unit id="111" translate="yes" xml:space="preserve">
           <source>PS&gt; Get-WmiObject -Class Win32_NetworkAdapterConfiguration -Filter IPEnabled=TRUE -ComputerName .</source>
@@ -78,12 +79,12 @@
           <target state="translated">A exibição padrão para o objeto de configuração do adaptador de rede é um conjunto muito reduzido das informações disponíveis.</target>         
         </trans-unit>
         <trans-unit id="118" translate="yes" xml:space="preserve">
-          <source>For in\-depth inspection and troubleshooting, use Select\-Object or a formatting cmdlet, such as Format\-List, to specify the properties to be displayed.</source>
-          <target state="translated">Para inspeção profunda e solução de problemas, use Select-Object ou um cmdlet de formatação, como Format-List, para especificar as propriedades a serem exibidas.</target>         
+          <source>For in<ph id="ph1">\-</ph>depth inspection and troubleshooting, use Select<ph id="ph2">\-</ph>Object or a formatting cmdlet, such as Format<ph id="ph3">\-</ph>List, to specify the properties to be displayed.</source>
+          <target state="translated">Para obter uma inspeção e solução de problemas profundas, use Select<ph id="ph2">\-</ph>Object ou um cmdlet de formatação, como Format<ph id="ph3">\-</ph>List, para especificar as propriedades a serem exibidas.</target>         
         </trans-unit>
         <trans-unit id="119" translate="yes" xml:space="preserve">
-          <source>If you are not interested in IPX or WINS properties—probably the case in a modern TCP\/IP network—you can use the ExcludeProperty parameter of Select\-Object to hide properties with names that begin with "WINS" or "IPX:"</source>
-          <target state="translated">Se você não estiver interessado nas propriedades IPX ou WINS ( que provavelmente será o caso em uma rede TCP/IP moderna), poderá usar o parâmetro ExcludeProperty do Select-Object para ocultar propriedades com nomes que começam com "WINS" ou "IPX":</target>         
+          <source>If you are not interested in IPX or WINS properties—probably the case in a modern TCP<ph id="ph1">\/</ph>IP network—you can use the ExcludeProperty parameter of Select<ph id="ph2">\-</ph>Object to hide properties with names that begin with "WINS" or "IPX:"</source>
+          <target state="translated">Se você não estiver interessado nas propriedades IPX ou WINS – que provavelmente será o caso em uma rede TCP<ph id="ph1">\/</ph>IP moderna –, poderá usar o parâmetro ExcludeProperty de Select<ph id="ph2">\-</ph>Object para ocultar propriedades com nomes que começam com “WINS” ou “IPX”:</target>         
         </trans-unit>
         <trans-unit id="120" translate="yes" xml:space="preserve">
           <source>This command returns detailed information about DHCP, DNS, routing, and other minor IP configuration properties.</source>
@@ -94,8 +95,8 @@
           <target state="translated">Executando ping em computadores</target>         
         </trans-unit>
         <trans-unit id="122" translate="yes" xml:space="preserve">
-          <source>You can perform a simple ping against a computer using by <bpt id="p1">**</bpt>Win32\_PingStatus<ept id="p1">**</ept>.</source>
-          <target state="translated">Você pode executar um ping simples em um computador usando <bpt id="p1">**</bpt>Win32_PingStatus<ept id="p1">**</ept>.</target>         
+          <source>You can perform a simple ping against a computer using by <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>PingStatus<ept id="p1">**</ept>.</source>
+          <target state="translated">Você pode executar um ping simples em um computador usando <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>PingStatus<ept id="p1">**</ept>.</target>         
         </trans-unit>
         <trans-unit id="123" translate="yes" xml:space="preserve">
           <source>The following command performs the ping, but returns lengthy output:</source>
@@ -106,16 +107,16 @@
           <target state="translated">Uma forma mais útil de resumir as informações é exibir as propriedades Address, ResponseTime e StatusCode geradas pelo comando a seguir.</target>         
         </trans-unit>
         <trans-unit id="125" translate="yes" xml:space="preserve">
-          <source>The Autosize parameter of Format\-Table resizes the table columns so that they display properly in Windows PowerShell.</source>
-          <target state="translated">O parâmetro Autosize de Format-Table redimensiona as colunas da tabela para que elas sejam exibidas corretamente no Windows PowerShell.</target>         
+          <source>The Autosize parameter of Format<ph id="ph1">\-</ph>Table resizes the table columns so that they display properly in Windows PowerShell.</source>
+          <target state="translated">O parâmetro Autosize de Format<ph id="ph1">\-</ph>Table redimensiona as colunas da tabela para que elas sejam exibidas corretamente no Windows PowerShell.</target>         
         </trans-unit>
         <trans-unit id="126" translate="yes" xml:space="preserve">
           <source>You can use an array to ping multiple computers with a single command.</source>
           <target state="translated">Você pode usar uma matriz para executar o ping de vários computadores com um único comando.</target>         
         </trans-unit>
         <trans-unit id="127" translate="yes" xml:space="preserve">
-          <source>Because there is more than one address, use the <bpt id="p1">**</bpt>ForEach\-Object<ept id="p1">**</ept> to ping each address separately:</source>
-          <target state="translated">Como há mais de um endereço, use o <bpt id="p1">**</bpt>ForEach-Object<ept id="p1">**</ept> para executar o ping em cada endereço separadamente:</target>         
+          <source>Because there is more than one address, use the <bpt id="p1">**</bpt>ForEach<ph id="ph1">\-</ph>Object<ept id="p1">**</ept> to ping each address separately:</source>
+          <target state="translated">Como há mais de um endereço, use <bpt id="p1">**</bpt>ForEach<ph id="ph1">\-</ph>Object<ept id="p1">**</ept> para executar ping em cada endereço separadamente:</target>         
         </trans-unit>
         <trans-unit id="128" translate="yes" xml:space="preserve">
           <source>You can use the same command format to ping all of the computers on a subnet, such as a private network that uses network number 192.168.1.0 and a standard Class C subnet mask (255.255.255.0)., Only addresses in the range of 192.168.1.1 through 192.168.1.254 are legitimate local addresses (0 is always reserved for the network number and 255 is a subnet broadcast address).</source>
@@ -142,12 +143,12 @@
           <target state="translated">Recuperando propriedades do adaptador de rede</target>         
         </trans-unit>
         <trans-unit id="134" translate="yes" xml:space="preserve">
-          <source>Earlier in this user's guide, we mentioned that you could retrieve general configuration properties by using <bpt id="p1">**</bpt>Win32\_NetworkAdapterConfiguration<ept id="p1">**</ept>.</source>
-          <target state="translated">Mencionamos anteriormente neste guia do usuário que você pode recuperar propriedades de configuração geral usando <bpt id="p1">**</bpt>Win32_NetworkAdapterConfiguration<ept id="p1">**</ept>.</target>         
+          <source>Earlier in this user's guide, we mentioned that you could retrieve general configuration properties by using <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>NetworkAdapterConfiguration<ept id="p1">**</ept>.</source>
+          <target state="translated">Mencionamos anteriormente neste guia do usuário que é possível recuperar propriedades de configuração geral usando <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>NetworkAdapterConfiguration<ept id="p1">**</ept>.</target>         
         </trans-unit>
         <trans-unit id="135" translate="yes" xml:space="preserve">
-          <source>Although not strictly TCP\/IP information, network adapter information such as MAC addresses and adapter types can be useful for understanding what is going on with a computer.</source>
-          <target state="translated">Embora não seja estritamente informações TCP/IP, endereços de informações do adaptador de rede, como endereços MAC e tipos de adaptador podem ser úteis para entender o que está acontecendo com um computador.</target>         
+          <source>Although not strictly TCP<ph id="ph1">\/</ph>IP information, network adapter information such as MAC addresses and adapter types can be useful for understanding what is going on with a computer.</source>
+          <target state="translated">Embora não sejam estritamente informações de TCP/<ph id="ph1">\/</ph>IP, informações do adaptador de rede, como endereços MAC e tipos de adaptador, podem ser úteis para entender o que está acontecendo com um computador.</target>         
         </trans-unit>
         <trans-unit id="136" translate="yes" xml:space="preserve">
           <source>To get a summary of this information, use the following command:</source>
@@ -158,20 +159,20 @@
           <target state="translated">Atribuindo o domínio DNS a um adaptador de rede</target>         
         </trans-unit>
         <trans-unit id="138" translate="yes" xml:space="preserve">
-          <source>To assign the DNS domain for automatic name resolution, use the <bpt id="p1">**</bpt>Win32\_NetworkAdapterConfiguration SetDNSDomain<ept id="p1">**</ept> method.</source>
-          <target state="translated">Para atribuir o domínio DNS à resolução de nome automática, use o método <bpt id="p1">**</bpt>Win32_NetworkAdapterConfiguration SetDNSDomain<ept id="p1">**</ept>.</target>         
+          <source>To assign the DNS domain for automatic name resolution, use the <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>NetworkAdapterConfiguration SetDNSDomain<ept id="p1">**</ept> method.</source>
+          <target state="translated">Para atribuir o domínio DNS à resolução de nomes automática, use o método <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>NetworkAdapterConfiguration SetDNSDomain<ept id="p1">**</ept>.</target>         
         </trans-unit>
         <trans-unit id="139" translate="yes" xml:space="preserve">
-          <source>Because you assign the DNS domain for each network adapter configuration independently, you need to use a <bpt id="p1">**</bpt>ForEach\-Object<ept id="p1">**</ept> statement to assign the domain to each adapter:</source>
-          <target state="translated">Como você atribui o domínio DNS para cada configuração de adaptador de rede independentemente, é necessário usar uma instrução <bpt id="p1">**</bpt>ForEach-Object<ept id="p1">**</ept> para atribuir o domínio a cada adaptador:</target>         
+          <source>Because you assign the DNS domain for each network adapter configuration independently, you need to use a <bpt id="p1">**</bpt>ForEach<ph id="ph1">\-</ph>Object<ept id="p1">**</ept> statement to assign the domain to each adapter:</source>
+          <target state="translated">Como você atribui o domínio DNS a cada configuração de adaptador de rede de modo independente, é necessário usar uma instrução <bpt id="p1">**</bpt>ForEach<ph id="ph1">\-</ph>Object<ept id="p1">**</ept> para atribuir o domínio a cada adaptador:</target>         
         </trans-unit>
         <trans-unit id="140" translate="yes" xml:space="preserve">
-          <source>The filtering statement "IPEnabled\=true" is necessary, because even on a network that uses only TCP\/IP, several of the network adapter configurations on a computer are not true TCP\/IP adapters; they are general software elements supporting RAS, PPTP, QoS, and other services for all adapters and thus do not have an address of their own.</source>
-          <target state="translated">A instrução de filtragem "IPEnabled=true" é necessária porque, mesmo em uma rede que usa apenas TCP/IP, várias das configurações de adaptador de rede em um computador não são adaptadores verdadeiros de TCP/IP. Eles são elementos de software geral com suporte a RAS, PPTP, QoS e outros serviços para todos os adaptadores, não tendo assim um endereço próprio.</target>         
+          <source>The filtering statement "IPEnabled<ph id="ph1">\=</ph>true" is necessary, because even on a network that uses only TCP<ph id="ph2">\/</ph>IP, several of the network adapter configurations on a computer are not true TCP<ph id="ph3">\/</ph>IP adapters; they are general software elements supporting RAS, PPTP, QoS, and other services for all adapters and thus do not have an address of their own.</source>
+          <target state="translated">A instrução de filtragem “IPEnabled<ph id="ph1">\=</ph>true” é necessária porque, mesmo em uma rede que usa apenas TCP/<ph id="ph2">\/</ph>IP, várias das configurações de adaptador de rede em um computador não são adaptadores reais de TCP/<ph id="ph3">\/</ph>IP; eles são elementos de software geral com suporte a RAS, PPTP, QoS e outros serviços para todos os adaptadores, não tendo assim um endereço próprio.</target>         
         </trans-unit>
         <trans-unit id="141" translate="yes" xml:space="preserve">
-          <source>You can filter the command by using the <bpt id="p1">**</bpt>Where\-Object<ept id="p1">**</ept> cmdlet, instead of using the <bpt id="p2">**</bpt>Get\-WmiObject<ept id="p2">**</ept> filter.</source>
-          <target state="translated">Você pode filtrar o comando usando o cmdlet <bpt id="p1">**</bpt>Where-Object<ept id="p1">**</ept> em vez de usar o filtro <bpt id="p2">**</bpt>Get-WmiObject<ept id="p2">**</ept>.</target>         
+          <source>You can filter the command by using the <bpt id="p1">**</bpt>Where<ph id="ph1">\-</ph>Object<ept id="p1">**</ept> cmdlet, instead of using the <bpt id="p2">**</bpt>Get<ph id="ph2">\-</ph>WmiObject<ept id="p2">**</ept> filter.</source>
+          <target state="translated">É possível filtrar o comando usando o cmdlet <bpt id="p1">**</bpt>Where<ph id="ph1">\-</ph>Object<ept id="p1">**</ept> em vez de usar o filtro <bpt id="p2">**</bpt>Get<ph id="ph2">\-</ph>WmiObject<ept id="p2">**</ept>.</target>         
         </trans-unit>
         <trans-unit id="142" translate="yes" xml:space="preserve">
           <source>Performing DHCP Configuration Tasks</source>
@@ -186,24 +187,24 @@
           <target state="translated">Existem várias ações diferentes que você pode executar usando o WMI, e abordaremos algumas delas.</target>         
         </trans-unit>
         <trans-unit id="145" translate="yes" xml:space="preserve">
-          <source>Determining DHCP\-Enabled Adapters</source>
+          <source>Determining DHCP<ph id="ph1">\-</ph>Enabled Adapters</source>
           <target state="translated">Determinando os adaptadores habilitados para DHCP</target>         
         </trans-unit>
         <trans-unit id="146" translate="yes" xml:space="preserve">
-          <source>To find the DHCP\-enabled adapters on a computer, use the following command:</source>
-          <target state="translated">Para localizar os adaptadores habilitados para DHCP em um computador, use o seguinte comando:</target>         
+          <source>To find the DHCP<ph id="ph1">\-</ph>enabled adapters on a computer, use the following command:</source>
+          <target state="translated">Para encontrar os adaptadores habilitados para DHCP em um computador, use o seguinte comando:</target>         
         </trans-unit>
         <trans-unit id="147" translate="yes" xml:space="preserve">
-          <source>To exclude adapters with IP configuration problems, you can retrieve only IP\-enabled adapters:</source>
-          <target state="translated">Para excluir adaptadores com problemas de configuração de IP, você pode recuperar apenas adaptadores habilitados para IP:</target>         
+          <source>To exclude adapters with IP configuration problems, you can retrieve only IP<ph id="ph1">\-</ph>enabled adapters:</source>
+          <target state="translated">Para excluir adaptadores com problemas de configuração de IP, é possível recuperar apenas adaptadores habilitados para IP:</target>         
         </trans-unit>
         <trans-unit id="148" translate="yes" xml:space="preserve">
           <source>Retrieving DHCP Properties</source>
           <target state="translated">Recuperando propriedades de DHCP</target>         
         </trans-unit>
         <trans-unit id="149" translate="yes" xml:space="preserve">
-          <source>Because DHCP\-related properties for an adapter generally begin with "DHCP," you can use the Property parameter of Format\-Table to display only those properties:</source>
-          <target state="translated">Como as propriedades relacionadas a DHCP para um adaptador geralmente começam com "DHCP", você pode usar o parâmetro de propriedade de Format-Table para exibir somente as propriedades:</target>         
+          <source>Because DHCP<ph id="ph1">\-</ph>related properties for an adapter generally begin with "DHCP," you can use the Property parameter of Format<ph id="ph2">\-</ph>Table to display only those properties:</source>
+          <target state="translated">Como as propriedades relacionadas a DHCP de um adaptador geralmente começam com “DHCP”, é possível usar o parâmetro Property de Format<ph id="ph2">\-</ph>Table para exibir somente essas propriedades:</target>         
         </trans-unit>
         <trans-unit id="150" translate="yes" xml:space="preserve">
           <source>Enabling DHCP on Each Adapter</source>
@@ -214,16 +215,16 @@
           <target state="translated">Para habilitar o DHCP em todos os adaptadores, use o seguinte comando:</target>         
         </trans-unit>
         <trans-unit id="152" translate="yes" xml:space="preserve">
-          <source>You can use the <bpt id="p1">**</bpt>Filter<ept id="p1">**</ept> statement "IPEnabled\=true and DHCPEnabled\=false" to avoid enabling DHCP where it is already enabled, but omitting this step will not cause errors.</source>
-          <target state="translated">Você pode usar a instrução de <bpt id="p1">**</bpt>Filter<ept id="p1">**</ept> "IPEnabled=true e DHCPEnabled=false" para evitar habilitar o DHCP onde ele já estiver habilitado, porém omitir essa etapa não causará erros.</target>         
+          <source>You can use the <bpt id="p1">**</bpt>Filter<ept id="p1">**</ept> statement "IPEnabled<ph id="ph1">\=</ph>true and DHCPEnabled<ph id="ph2">\=</ph>false" to avoid enabling DHCP where it is already enabled, but omitting this step will not cause errors.</source>
+          <target state="translated">É possível usar a instrução <bpt id="p1">**</bpt>Filter<ept id="p1">**</ept> “IPEnabled<ph id="ph1">\=</ph>true” e “DHCPEnabled<ph id="ph2">\=</ph>false” para evitar habilitar o DHCP nos locais em que ele já estiver habilitado, porém, omitir essa etapa não causará erros.</target>         
         </trans-unit>
         <trans-unit id="153" translate="yes" xml:space="preserve">
           <source>Releasing and Renewing DHCP Leases on Specific Adapters</source>
           <target state="translated">Liberar e renovar concessões de DHCP nos adaptadores específicos</target>         
         </trans-unit>
         <trans-unit id="154" translate="yes" xml:space="preserve">
-          <source>The <bpt id="p1">**</bpt>Win32\_NetworkAdapterConfiguration<ept id="p1">**</ept> class has <bpt id="p2">**</bpt>ReleaseDHCPLease<ept id="p2">**</ept> and <bpt id="p3">**</bpt>RenewDHCPLease<ept id="p3">**</ept> methods.</source>
-          <target state="translated">A classe <bpt id="p1">**</bpt>Win32_NetworkAdapterConfiguration<ept id="p1">**</ept> tem os métodos <bpt id="p2">**</bpt>ReleaseDHCPLease<ept id="p2">**</ept> e <bpt id="p3">**</bpt>RenewDHCPLease<ept id="p3">**</ept>.</target>         
+          <source>The <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>NetworkAdapterConfiguration<ept id="p1">**</ept> class has <bpt id="p2">**</bpt>ReleaseDHCPLease<ept id="p2">**</ept> and <bpt id="p3">**</bpt>RenewDHCPLease<ept id="p3">**</ept> methods.</source>
+          <target state="translated">A classe <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>NetworkAdapterConfiguration<ept id="p1">**</ept> tem os métodos <bpt id="p2">**</bpt>ReleaseDHCPLease<ept id="p2">**</ept> e <bpt id="p3">**</bpt>RenewDHCPLease<ept id="p3">**</ept>.</target>         
         </trans-unit>
         <trans-unit id="155" translate="yes" xml:space="preserve">
           <source>Both are used in the same way.</source>
@@ -246,16 +247,16 @@
           <target state="translated">A única alteração para renovar uma concessão de DHCP é usar o método <bpt id="p1">**</bpt>RenewDHCPLease<ept id="p1">**</ept> em vez do <bpt id="p2">**</bpt>ReleaseDHCPLease<ept id="p2">**</ept>:</target>         
         </trans-unit>
         <trans-unit id="160" translate="yes" xml:space="preserve">
-          <source><ph id="ph1">[!NOTE]</ph> When using these methods on a remote computer, be aware that you can lose access to the remote system if you are connected to it through the adapter with the released or renewed lease.</source>
-          <target state="translated"><ph id="ph1">[!NOTE]</ph> Ao usar esses métodos em um computador remoto, lembre-se de que você poderá perder o acesso ao sistema remoto se estiver conectado a ele por meio do adaptador com a concessão liberada ou renovada.</target>         
+          <source>When using these methods on a remote computer, be aware that you can lose access to the remote system if you are connected to it through the adapter with the released or renewed lease.</source>
+          <target state="translated">Ao usar esses métodos em um computador remoto, lembre-se de que você poderá perder o acesso ao sistema remoto se estiver conectado a ele por meio do adaptador com a concessão liberada ou renovada.</target>         
         </trans-unit>
         <trans-unit id="161" translate="yes" xml:space="preserve">
           <source>Releasing and Renewing DHCP Leases on All Adapters</source>
           <target state="translated">Liberar e renovar concessões de DHCP em todos os adaptadores</target>         
         </trans-unit>
         <trans-unit id="162" translate="yes" xml:space="preserve">
-          <source>You can perform global DHCP address releases or renewals on all adapters by using the <bpt id="p1">**</bpt>Win32\_NetworkAdapterConfiguration<ept id="p1">**</ept> methods, <bpt id="p2">**</bpt>ReleaseDHCPLeaseAll<ept id="p2">**</ept> and <bpt id="p3">**</bpt>RenewDHCPLeaseAll<ept id="p3">**</ept>.</source>
-          <target state="translated">Você pode executar liberações ou renovações de endereço DHCP globais em todos os adaptadores usando os métodos <bpt id="p1">**</bpt>Win32_NetworkAdapterConfiguration<ept id="p1">**</ept>, <bpt id="p2">**</bpt>ReleaseDHCPLeaseAll<ept id="p2">**</ept> e <bpt id="p3">**</bpt>RenewDHCPLeaseAll<ept id="p3">**</ept>.</target>         
+          <source>You can perform global DHCP address releases or renewals on all adapters by using the <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>NetworkAdapterConfiguration<ept id="p1">**</ept> methods, <bpt id="p2">**</bpt>ReleaseDHCPLeaseAll<ept id="p2">**</ept> and <bpt id="p3">**</bpt>RenewDHCPLeaseAll<ept id="p3">**</ept>.</source>
+          <target state="translated">É possível executar liberações ou renovações de endereço DHCP globais em todos os adaptadores usando os métodos <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>NetworkAdapterConfiguration<ept id="p1">**</ept>, <bpt id="p2">**</bpt>ReleaseDHCPLeaseAll<ept id="p2">**</ept> e <bpt id="p3">**</bpt>RenewDHCPLeaseAll<ept id="p3">**</ept>.</target>         
         </trans-unit>
         <trans-unit id="163" translate="yes" xml:space="preserve">
           <source>However, the command must apply to the WMI class, rather than a particular adapter, because releasing and renewing leases globally is performed on the class, not on a specific adapter.</source>
@@ -266,16 +267,16 @@
           <target state="translated">Você pode obter uma referência a uma classe WMI, em vez de instâncias de classe, listando todas as classes WMI e selecionando somente a classe desejada por nome.</target>         
         </trans-unit>
         <trans-unit id="165" translate="yes" xml:space="preserve">
-          <source>For example, the following command returns the Win32\_NetworkAdapterConfiguration class:</source>
-          <target state="translated">Por exemplo, o comando a seguir retorna a classe Win32_NetworkAdapterConfiguration:</target>         
+          <source>For example, the following command returns the Win32<ph id="ph1">\_</ph>NetworkAdapterConfiguration class:</source>
+          <target state="translated">Por exemplo, o comando a seguir retorna a classe Win32<ph id="ph1">\_</ph>NetworkAdapterConfiguration:</target>         
         </trans-unit>
         <trans-unit id="166" translate="yes" xml:space="preserve">
           <source>You can treat the entire command as the class and then invoke the <bpt id="p1">**</bpt>ReleaseDHCPAdapterLease<ept id="p1">**</ept> method on it.</source>
           <target state="translated">Você pode tratar o comando inteiro como a classe e, em seguida, invocar o método <bpt id="p1">**</bpt>ReleaseDHCPAdapterLease<ept id="p1">**</ept>.</target>         
         </trans-unit>
         <trans-unit id="167" translate="yes" xml:space="preserve">
-          <source>In the following command, the parentheses surrounding the <bpt id="p1">**</bpt>Get\-WmiObject<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Where\-Object<ept id="p2">**</ept> pipeline elements direct Windows PowerShell to evaluate them first:</source>
-          <target state="translated">No comando a seguir, os parênteses que cercam os elementos de pipeline <bpt id="p1">**</bpt>Get-WmiObject<ept id="p1">**</ept> e <bpt id="p2">**</bpt>Where-Object<ept id="p2">**</ept> direcionam o Windows PowerShell para avaliá-los primeiro:</target>         
+          <source>In the following command, the parentheses surrounding the <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>WmiObject<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Where<ph id="ph2">\-</ph>Object<ept id="p2">**</ept> pipeline elements direct Windows PowerShell to evaluate them first:</source>
+          <target state="translated">No comando a seguir, os parênteses em torno dos elementos de pipeline <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>WmiObject<ept id="p1">**</ept> e <bpt id="p2">**</bpt>Where<ph id="ph2">\-</ph>Object<ept id="p2">**</ept> direcionam o Windows PowerShell para avaliá-los primeiro:</target>         
         </trans-unit>
         <trans-unit id="168" translate="yes" xml:space="preserve">
           <source>You can use the same command format to invoke the <bpt id="p1">**</bpt>RenewDHCPLeaseAll<ept id="p1">**</ept> method:</source>
@@ -286,8 +287,8 @@
           <target state="translated">Criando um compartilhamento de rede</target>         
         </trans-unit>
         <trans-unit id="170" translate="yes" xml:space="preserve">
-          <source>To create a network share, use the <bpt id="p1">**</bpt>Win32\_Share Create<ept id="p1">**</ept> method:</source>
-          <target state="translated">Para criar um compartilhamento de rede, use o método <bpt id="p1">**</bpt>Win32_Share Create<ept id="p1">**</ept>:</target>         
+          <source>To create a network share, use the <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>Share Create<ept id="p1">**</ept> method:</source>
+          <target state="translated">Para criar um compartilhamento de rede, use o método <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>Share Create<ept id="p1">**</ept>:</target>         
         </trans-unit>
         <trans-unit id="171" translate="yes" xml:space="preserve">
           <source>You can also create the share by using <bpt id="p1">**</bpt>net share<ept id="p1">**</ept> in Windows PowerShell:</source>
@@ -298,8 +299,8 @@
           <target state="translated">Removendo um compartilhamento de rede</target>         
         </trans-unit>
         <trans-unit id="173" translate="yes" xml:space="preserve">
-          <source>You can remove a network share with <bpt id="p1">**</bpt>Win32\_Share<ept id="p1">**</ept>, but the process is slightly different from creating a share, because you need to retrieve the specific share to be removed, rather than the <bpt id="p2">**</bpt>Win32\_Share<ept id="p2">**</ept> class.</source>
-          <target state="translated">Você pode remover um compartilhamento de rede com o <bpt id="p1">**</bpt>Win32_Share<ept id="p1">**</ept>, mas o processo é ligeiramente diferente da criação de um compartilhamento, pois você precisa recuperar o compartilhamento específico a ser removido em vez da classe <bpt id="p2">**</bpt>Win32_Share<ept id="p2">**</ept>.</target>         
+          <source>You can remove a network share with <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>Share<ept id="p1">**</ept>, but the process is slightly different from creating a share, because you need to retrieve the specific share to be removed, rather than the <bpt id="p2">**</bpt>Win32<ph id="ph2">\_</ph>Share<ept id="p2">**</ept> class.</source>
+          <target state="translated">É possível remover um compartilhamento de rede com <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>Share<ept id="p1">**</ept>, mas o processo é ligeiramente diferente da criação de um compartilhamento, pois você precisa recuperar o compartilhamento específico a ser removido em vez da classe <bpt id="p2">**</bpt>Win32<ph id="ph2">\_</ph>Share<ept id="p2">**</ept>.</target>         
         </trans-unit>
         <trans-unit id="174" translate="yes" xml:space="preserve">
           <source>The following statement deletes the share "TempShare":</source>
@@ -314,16 +315,16 @@
           <target state="translated">Conectando-se a uma unidade de rede acessível do Windows</target>         
         </trans-unit>
         <trans-unit id="177" translate="yes" xml:space="preserve">
-          <source>The <bpt id="p1">**</bpt>New\-PSDrive<ept id="p1">**</ept> cmdlets creates a Windows PowerShell drive, but drives created this way are available only to Windows PowerShell.</source>
-          <target state="translated">Os novos cmdlets <bpt id="p1">**</bpt>New-PSDrive<ept id="p1">**</ept> criam uma unidade do Windows PowerShell, porém unidades criadas dessa forma estão disponíveis somente para o Windows PowerShell.</target>         
+          <source>The <bpt id="p1">**</bpt>New<ph id="ph1">\-</ph>PSDrive<ept id="p1">**</ept> cmdlets creates a Windows PowerShell drive, but drives created this way are available only to Windows PowerShell.</source>
+          <target state="translated">Os novos cmdlets <bpt id="p1">**</bpt>New<ph id="ph1">\-</ph>PSDrive<ept id="p1">**</ept> criam uma unidade do Windows PowerShell, porém, as unidades criadas dessa forma estão disponíveis somente para o Windows PowerShell.</target>         
         </trans-unit>
         <trans-unit id="178" translate="yes" xml:space="preserve">
           <source>To create a new networked drive, you can use the <bpt id="p1">**</bpt>WScript.Network<ept id="p1">**</ept> COM object.</source>
           <target state="translated">Para criar uma nova unidade em rede, você pode usar o objeto COM <bpt id="p1">**</bpt>WScript.Network<ept id="p1">**</ept>.</target>         
         </trans-unit>
         <trans-unit id="179" translate="yes" xml:space="preserve">
-          <source>The following command maps the share \\\\FPS01\\users to local drive B:</source>
-          <target state="translated">O comando a seguir mapeia os o compartilhamento \FPS01\users para a unidade local B:</target>         
+          <source>The following command maps the share <ph id="ph1">\\\\</ph>FPS01<ph id="ph2">\\</ph>users to local drive B:</source>
+          <target state="translated">O comando a seguir mapeia o compartilhamento <ph id="ph1">\\\\</ph>FPS01<ph id="ph2">\\</ph>users para a unidade B local:</target>         
         </trans-unit>
         <trans-unit id="180" translate="yes" xml:space="preserve">
           <source>The <bpt id="p1">**</bpt>net use<ept id="p1">**</ept> command works as well:</source>

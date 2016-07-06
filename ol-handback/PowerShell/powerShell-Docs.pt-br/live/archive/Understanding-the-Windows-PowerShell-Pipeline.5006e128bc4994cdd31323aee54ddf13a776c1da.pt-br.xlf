@@ -2,10 +2,11 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
     <header>
-      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
-      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\fundamental\Understanding-the-Windows-PowerShell-Pipeline.md</xliffext:olfilepath>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">233ec6fafbf1e770190601750be3bdcef2337b7f</xliffext:olfilehash>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-39517ae" tool-company="Microsoft" />
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\fundamental\Understanding-the-Windows-PowerShell-Pipeline.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
     </header>
     <body>
       <group id="content" extype="content">
@@ -34,32 +35,32 @@
           <target state="translated">A notação usada para as pipelines é semelhante àquela usada em outros shells, então à primeira vista, pode não ser aparente que o Windows PowerShell apresenta algo novo.</target>         
         </trans-unit>
         <trans-unit id="107" translate="yes" xml:space="preserve">
-          <source>For example, if you use the <bpt id="p1">**</bpt>Out\-Host<ept id="p1">**</ept> cmdlet to force a page\-by\-page display of output from another command, the output looks just like the normal text displayed on the screen, broken up into pages:</source>
-          <target state="translated">Por exemplo, se você usar o cmdlet <bpt id="p1">**</bpt>Out-Host<ept id="p1">**</ept> para forçar uma exibição de página a página da saída de outro comando, a saída parecerá ser apenas o texto normal exibido na tela, dividida em páginas, como:</target>         
+          <source>For example, if you use the <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Host<ept id="p1">**</ept> cmdlet to force a page<ph id="ph2">\-</ph>by<ph id="ph3">\-</ph>page display of output from another command, the output looks just like the normal text displayed on the screen, broken up into pages:</source>
+          <target state="translated">Por exemplo, se você usar o cmdlet <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Host<ept id="p1">**</ept> para forçar uma exibição de página a página da saída de outro comando, a saída parecerá ser apenas o texto normal exibido na tela, dividida em páginas, como:</target>         
         </trans-unit>
         <trans-unit id="108" translate="yes" xml:space="preserve">
-          <source>The Out\-Host \-Paging command is a useful pipeline element whenever you have lengthy output that you would like to display slowly.</source>
-          <target state="translated">O comando Out-Host -Paging é um elemento de pipeline útil sempre que houver uma saída longa que você gostaria de exibir lentamente.</target>         
+          <source>The Out<ph id="ph1">\-</ph>Host <ph id="ph2">\-</ph>Paging command is a useful pipeline element whenever you have lengthy output that you would like to display slowly.</source>
+          <target state="translated">O comando Out<ph id="ph1">\-</ph>Host <ph id="ph2">\-</ph>Paging será um elemento de pipeline útil sempre que houver uma saída longa que você gostaria de exibir lentamente.</target>         
         </trans-unit>
         <trans-unit id="109" translate="yes" xml:space="preserve">
-          <source>It is especially useful if the operation is very CPU\-intensive.</source>
-          <target state="translated">Ele será especialmente útil se a operação for utilizar muito da CPU.</target>         
+          <source>It is especially useful if the operation is very CPU<ph id="ph1">\-</ph>intensive.</source>
+          <target state="translated">Ele será especialmente útil se a operação for do tipo uso intensivo da CPU.</target>         
         </trans-unit>
         <trans-unit id="110" translate="yes" xml:space="preserve">
-          <source>Because processing is transferred to the Out\-Host cmdlet when it has a complete page ready to display, cmdlets that precede it in the pipeline halt operation until the next page of output is available.</source>
-          <target state="translated">Como o processamento é transferido para o cmdlet Out-Host, quando ele tem uma página completa pronta para ser exibida, os cmdlets que o precedem no pipeline interrompem a operação até que a próxima página de saída esteja disponível.</target>         
+          <source>Because processing is transferred to the Out<ph id="ph1">\-</ph>Host cmdlet when it has a complete page ready to display, cmdlets that precede it in the pipeline halt operation until the next page of output is available.</source>
+          <target state="translated">Como o processamento é transferido para o cmdlet Out<ph id="ph1">\-</ph>Host, quando ele tem uma página completa pronta para ser exibida, os cmdlets que o precedem no pipeline interrompem a operação até que a próxima página de saída esteja disponível.</target>         
         </trans-unit>
         <trans-unit id="111" translate="yes" xml:space="preserve">
           <source>You can see this if you use the Windows Task Manager to monitor CPU and memory use by Windows PowerShell.</source>
           <target state="translated">Você poderá ver isso se usar o Gerenciador de Tarefas do Windows para monitorar o uso de CPU e memória do Windows PowerShell.</target>         
         </trans-unit>
         <trans-unit id="112" translate="yes" xml:space="preserve">
-          <source>Run the following command: <bpt id="p1">**</bpt>Get\-ChildItem C:\\Windows \-Recurse<ept id="p1">**</ept>.</source>
-          <target state="translated">Execute o seguinte comando: <bpt id="p1">**</bpt>Get-ChildItem C:\Windows -Recurse<ept id="p1">**</ept>.</target>         
+          <source>Run the following command: <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>ChildItem C:<ph id="ph2">\\</ph>Windows <ph id="ph3">\-</ph>Recurse<ept id="p1">**</ept>.</source>
+          <target state="translated">Execute o seguinte comando: <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>ChildItem C:<ph id="ph2">\\</ph>Windows <ph id="ph3">\-</ph>Recurse<ept id="p1">**</ept>.</target>         
         </trans-unit>
         <trans-unit id="113" translate="yes" xml:space="preserve">
-          <source>Compare the CPU and memory usage to this command: <bpt id="p1">**</bpt>Get\-ChildItem C:\\Windows \-Recurse | Out\-Host \-Paging<ept id="p1">**</ept>.</source>
-          <target state="translated">Compare o uso de CPU e de memória ao deste comando: <bpt id="p1">**</bpt>Get-ChildItem C:\Windows -Recurse | Out-Host -Paging<ept id="p1">**</ept>.</target>         
+          <source>Compare the CPU and memory usage to this command: <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>ChildItem C:<ph id="ph2">\\</ph>Windows <ph id="ph3">\-</ph>Recurse | Out<ph id="ph4">\-</ph>Host <ph id="ph5">\-</ph>Paging<ept id="p1">**</ept>.</source>
+          <target state="translated">Compare o uso da CPU e de memória ao deste comando: <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>ChildItem C:<ph id="ph2">\\</ph>Windows <ph id="ph3">\-</ph>Recurse | Out<ph id="ph4">\-</ph>Host <ph id="ph5">\-</ph>Paging<ept id="p1">**</ept>.</target>         
         </trans-unit>
         <trans-unit id="114" translate="yes" xml:space="preserve">
           <source>What you see on the screen is text, but that is because it is necessary to represent objects as text in a console window.</source>
@@ -70,24 +71,24 @@
           <target state="translated">Isso é apenas uma representação do que é realmente ocorre dentro do Windows PowerShell.</target>         
         </trans-unit>
         <trans-unit id="116" translate="yes" xml:space="preserve">
-          <source>For example, consider the Get\-Location cmdlet.</source>
-          <target state="translated">Por exemplo, considere o cmdlet Get-Location.</target>         
+          <source>For example, consider the Get<ph id="ph1">\-</ph>Location cmdlet.</source>
+          <target state="translated">Por exemplo, considere o cmdlet Get<ph id="ph1">\-</ph>Location.</target>         
         </trans-unit>
         <trans-unit id="117" translate="yes" xml:space="preserve">
-          <source>If you type <bpt id="p1">**</bpt>Get\-Location<ept id="p1">**</ept> while your current location is the root of the C drive, you would see the following output:</source>
-          <target state="translated">Se você digitar <bpt id="p1">**</bpt>Get-Location<ept id="p1">**</ept> enquanto seu local atual é a raiz da unidade C, você verá a seguinte saída:</target>         
+          <source>If you type <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Location<ept id="p1">**</ept> while your current location is the root of the C drive, you would see the following output:</source>
+          <target state="translated">Se você digitar <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Location<ept id="p1">**</ept> enquanto seu local atual for a raiz da unidade C, você verá a seguinte saída:</target>         
         </trans-unit>
         <trans-unit id="118" translate="yes" xml:space="preserve">
-          <source>If Windows PowerShell pipelined text, issuing a command such as <bpt id="p1">**</bpt>Get\-Location | Out\-Host<ept id="p1">**</ept>, would pass from <bpt id="p2">**</bpt>Get\-Location<ept id="p2">**</ept> to <bpt id="p3">**</bpt>Out\-Host<ept id="p3">**</ept> a set of characters in the order they are displayed onscreen.</source>
-          <target state="translated">Se o Windows PowerShell redirecionasse o texto, emitir um comando como <bpt id="p1">**</bpt>Get-Location | Out-Host<ept id="p1">**</ept> passaria de <bpt id="p2">**</bpt>Get-Location<ept id="p2">**</ept> para <bpt id="p3">**</bpt>Out-Host<ept id="p3">**</ept> um conjunto de caracteres na ordem em que eles são exibidos na tela.</target>         
+          <source>If Windows PowerShell pipelined text, issuing a command such as <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Location | Out<ph id="ph2">\-</ph>Host<ept id="p1">**</ept>, would pass from <bpt id="p2">**</bpt>Get<ph id="ph3">\-</ph>Location<ept id="p2">**</ept> to <bpt id="p3">**</bpt>Out<ph id="ph4">\-</ph>Host<ept id="p3">**</ept> a set of characters in the order they are displayed onscreen.</source>
+          <target state="translated">Se o Windows PowerShell redirecionasse o texto, a emissão de um comando como <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Location | Out<ph id="ph2">\-</ph>Host<ept id="p1">**</ept> passaria de <bpt id="p2">**</bpt>Get<ph id="ph3">\-</ph>Location<ept id="p2">**</ept> para <bpt id="p3">**</bpt>Out<ph id="ph4">\-</ph>Host<ept id="p3">**</ept> um conjunto de caracteres na ordem em que são exibidos na tela.</target>         
         </trans-unit>
         <trans-unit id="119" translate="yes" xml:space="preserve">
-          <source>In other words, if you were to ignore the heading information, <bpt id="p1">**</bpt>Out\-Host<ept id="p1">**</ept> would first receive the character '<bpt id="p2">**</bpt>C'<ept id="p2">**</ept>, then the character '<bpt id="p3">**</bpt>:'<ept id="p3">**</ept>, then the character '<bpt id="p4">**</bpt>\\'<ept id="p4">**</ept>.</source>
-          <target state="translated">Em outras palavras, se você ignorar as informações de cabeçalho, <bpt id="p1">**</bpt>Out-Host<ept id="p1">**</ept> receberá primeiro o caractere “<bpt id="p2">**</bpt>C”<ept id="p2">**</ept>, em seguida, o caractere “<bpt id="p3">**</bpt>:”<ept id="p3">**</ept> e depois o caractere “<bpt id="p4">**</bpt>\”<ept id="p4">**</ept>.</target>         
+          <source>In other words, if you were to ignore the heading information, <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Host<ept id="p1">**</ept> would first receive the character '<bpt id="p2">**</bpt>C'<ept id="p2">**</ept>, then the character '<bpt id="p3">**</bpt>:'<ept id="p3">**</ept>, then the character '<bpt id="p4">**</bpt><ph id="ph2">\\</ph>'<ept id="p4">**</ept>.</source>
+          <target state="translated">Em outras palavras, se você ignorar as informações de cabeçalho, <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Host<ept id="p1">**</ept> receberá primeiro o caractere '<bpt id="p2">**</bpt>C'<ept id="p2">**</ept>, em seguida, o caractere '<bpt id="p3">**</bpt>:'<ept id="p3">**</ept> e depois o caractere '<bpt id="p4">**</bpt><ph id="ph2">\\</ph>'<ept id="p4">**</ept>.</target>         
         </trans-unit>
         <trans-unit id="120" translate="yes" xml:space="preserve">
-          <source>The <bpt id="p1">**</bpt>Out\-Host<ept id="p1">**</ept> cmdlet could not determine what meaning to associate with the characters output by the <bpt id="p2">**</bpt>Get\-Location<ept id="p2">**</ept> cmdlet.</source>
-          <target state="translated">O cmdlet <bpt id="p1">**</bpt>Out-Host<ept id="p1">**</ept> não pôde determinar qual significado associar aos caracteres de saída do cmdlet <bpt id="p2">**</bpt>Get-Location<ept id="p2">**</ept>.</target>         
+          <source>The <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Host<ept id="p1">**</ept> cmdlet could not determine what meaning to associate with the characters output by the <bpt id="p2">**</bpt>Get<ph id="ph2">\-</ph>Location<ept id="p2">**</ept> cmdlet.</source>
+          <target state="translated">O cmdlet <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Host<ept id="p1">**</ept> não pôde determinar qual significado deverá ser associado à saída dos caracteres do cmdlet <bpt id="p2">**</bpt>Get<ph id="ph2">\-</ph>Location<ept id="p2">**</ept>.</target>         
         </trans-unit>
         <trans-unit id="121" translate="yes" xml:space="preserve">
           <source>Instead of using text to let commands in a pipeline communicate, Windows PowerShell uses objects.</source>
@@ -98,27 +99,27 @@
           <target state="translated">Do ponto de vista de um usuário, os objetos empacotam informações relacionadas em um formulário que torna mais fácil manipular as informações como uma unidade e extrair itens específicos que você precisa.</target>         
         </trans-unit>
         <trans-unit id="123" translate="yes" xml:space="preserve">
-          <source>The <bpt id="p1">**</bpt>Get\-Location<ept id="p1">**</ept> command does not return text that contains the current path.</source>
-          <target state="translated">O comando <bpt id="p1">**</bpt>Get-Location<ept id="p1">**</ept> não retornar o texto que contém o caminho atual.</target>         
+          <source>The <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Location<ept id="p1">**</ept> command does not return text that contains the current path.</source>
+          <target state="translated">O comando <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Location<ept id="p1">**</ept> não retorna o texto que contém o caminho atual.</target>         
         </trans-unit>
         <trans-unit id="124" translate="yes" xml:space="preserve">
           <source>It returns a package of information called a <bpt id="p1">**</bpt>PathInfo<ept id="p1">**</ept> object that contains the current path along with some other information.</source>
           <target state="translated">Ele retorna um pacote de informações chamado de um objeto <bpt id="p1">**</bpt>PathInfo<ept id="p1">**</ept> que contém o caminho atual juntamente com outras informações.</target>         
         </trans-unit>
         <trans-unit id="125" translate="yes" xml:space="preserve">
-          <source>The <bpt id="p1">**</bpt>Out\-Host<ept id="p1">**</ept> cmdlet then sends this <bpt id="p2">**</bpt>PathInfo<ept id="p2">**</ept> object to the screen, and Windows PowerShell decides what information to display and how to display it based on its formatting rules.</source>
-          <target state="translated">O cmdlet <bpt id="p1">**</bpt>Out-Host<ept id="p1">**</ept> envia então esse objeto <bpt id="p2">**</bpt>PathInfo<ept id="p2">**</ept> para a tela e o Windows PowerShell decide quais informações exibir e como exibi-las com base em suas regras de formatação.</target>         
+          <source>The <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Host<ept id="p1">**</ept> cmdlet then sends this <bpt id="p2">**</bpt>PathInfo<ept id="p2">**</ept> object to the screen, and Windows PowerShell decides what information to display and how to display it based on its formatting rules.</source>
+          <target state="translated">O cmdlet <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Host<ept id="p1">**</ept> envia então esse objeto <bpt id="p2">**</bpt>PathInfo<ept id="p2">**</ept> para a tela e o Windows PowerShell decide quais informações serão exibidas e como exibi-las com base em suas regras de formatação.</target>         
         </trans-unit>
         <trans-unit id="126" translate="yes" xml:space="preserve">
-          <source>In fact, the heading information output by the <bpt id="p1">**</bpt>Get\-Location<ept id="p1">**</ept> cmdlet is added only at the end of the process, as part of the process of formatting the data for onscreen display.</source>
-          <target state="translated">Na verdade, a saída das informações de cabeçalho do cmdlet <bpt id="p1">**</bpt>Get-Location<ept id="p1">**</ept> é adicionada somente no final do processo, como parte do processo de formatação de dados para exibição na tela.</target>         
+          <source>In fact, the heading information output by the <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Location<ept id="p1">**</ept> cmdlet is added only at the end of the process, as part of the process of formatting the data for onscreen display.</source>
+          <target state="translated">Na verdade, a saída das informações de cabeçalho do cmdlet <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Location<ept id="p1">**</ept> é adicionada somente no final do processo, como parte do processo de formatação dos dados para exibição na tela.</target>         
         </trans-unit>
         <trans-unit id="127" translate="yes" xml:space="preserve">
           <source>What you see onscreen is a summary of information, and not a complete representation of the output object.</source>
           <target state="translated">O que você vê na tela é um resumo das informações e não uma representação completa do objeto de saída.</target>         
         </trans-unit>
         <trans-unit id="128" translate="yes" xml:space="preserve">
-          <source>Given that there may be more information output from a Windows PowerShell command than what we see displayed in the console window, how can you retrieve the non\-visible elements?</source>
+          <source>Given that there may be more information output from a Windows PowerShell command than what we see displayed in the console window, how can you retrieve the non<ph id="ph1">\-</ph>visible elements?</source>
           <target state="translated">Considerando que pode haver mais saída de informações de um comando do Windows PowerShell do que é exibido na janela do console, como podemos recuperar os elementos não visíveis?</target>         
         </trans-unit>
         <trans-unit id="129" translate="yes" xml:space="preserve">
