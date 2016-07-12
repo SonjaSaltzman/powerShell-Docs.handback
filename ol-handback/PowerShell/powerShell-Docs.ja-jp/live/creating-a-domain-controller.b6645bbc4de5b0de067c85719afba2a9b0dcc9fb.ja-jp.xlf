@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-22243b3" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8473eb668e4da5bab01c2f2b7647cbced413bd22</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">jea\creating-a-domain-controller.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>creating a domain controller</source>
+          <target state="translated">ドメイン コントローラーの作成</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Creating a Domain Controller</source>
+          <target state="translated">ドメイン コントローラーの作成</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This document assumes that your machine is domain joined.</source>
+          <target state="translated">このドキュメントでは、お使いのコンピューターがドメインに参加していることを前提としています。</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If you currently don't have a domain to join, this section can help you quickly stand up a domain controller using DSC.</source>
+          <target state="translated">現在ドメインに参加していない場合は、このセクションを利用して、DSC を使ってドメイン コントローラーを簡単に立ち上げることができます。</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+          <target state="translated">前提条件</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The machine is on an internal network</source>
+          <target state="translated">コンピューターが内部ネットワークにあること</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The machine is not joined to an existing domain</source>
+          <target state="translated">コンピューターが、既存のドメインに参加していないこと</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The machine is running Windows Server 2016 or has WMF 5.0 installed</source>
+          <target state="translated">コンピューターが Windows Server 2016 を実行しているか、WMF 5.0 がインストールされていること</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Install xActiveDirectory</source>
+          <target state="translated">xActiveDirectory のインストール</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If your machine has an active internet connection, run the following command in an elevated PowerShell window:</source>
+          <target state="translated">コンピューターにアクティブなインターネット接続がある場合は、管理者特権の PowerShell ウィンドウで次のコマンドを実行します。</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If you do not have an internet connection, install xActiveDirectory to another machine and then copy the xActiveDirectory folder to the "C:\Program Files\WindowsPowerShell\Modules" folder on your machine.</source>
+          <target state="translated">インターネット接続がない場合は、xActiveDirectory を別のコンピューターにインストールしてから、xActiveDirectory フォルダーをコンピューターの C:\Program Files\WindowsPowerShell\Modules フォルダーにコピーします。</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To confirm the installation succeeded, run the following command:</source>
+          <target state="translated">インストールに成功したか確認するには、次のコマンドを実行します。</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Set up a domain with DSC</source>
+          <target state="translated">DSC を使用したドメインのセットアップ</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Copy the following script in PowerShell to make your machine a Domain Controller in a new domain.</source>
+          <target state="translated">PowerShell で次のスクリプトをコピーして、お使いのコンピューターを新しいドメインのドメイン コントローラーにします。</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>AUTHOR'S NOTE: THERE IS A KNOWN ISSUE WITH THE CREDENTIALS PROVIDED NOT BEING USED.</source>
+          <target state="translated">著者のメモ: 指定した資格情報が使用されないという既知の問題があります。</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>TO BE SAFE, DON'T FORGET YOUR LOCAL ADMIN PASSWORD.</source>
+          <target state="translated">安全のため、ローカルの管理者パスワードを忘れないように。</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Your machine will restart a few times.</source>
+          <target state="translated">コンピューターが数回再起動します。</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You will know the process is complete once you see a file called "C:\temp.txt" containing "Domain has been created."</source>
+          <target state="translated">ドメインが作成されたことを伝える C:\temp.txt というファイルが表示されたら、プロセスは完了しています。</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Set up Users and Groups</source>
+          <target state="translated">ユーザーとグループの設定</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The following commands will set up an Operator and Helpdesk group in your domain and a corresponding non-administrator user who is a member of that group.</source>
+          <target state="translated">次のコマンドは、ドメインにオペレーターとヘルプデスクのグループ、またそのグループのメンバーである対応する管理者以外のユーザーを設定します。</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
