@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-22243b3" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8892e5e08a763fbc66d782bbc9252d1f3a7dcfcf</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">jea\on-blacklisting.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>on blacklisting</source>
+          <target state="translated">ブラックリストへの登録</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>On Blacklisting</source>
+          <target state="translated">ブラックリストへの登録</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>After playing around with JEA, you may be wondering if it is possible to blacklist commands.</source>
+          <target state="translated">JEA を一通り試したら、コマンドをブラックリストに登録できるか気になるかもしれません。</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This is an understandable request, but it is not currently planned for JEA for the following reasons:</source>
+          <target state="translated">これはもっともな要求ですが、現時点では次の理由で JEA ではその予定はありません。</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>We designed JEA to limit operators to only the actions they need to do.</source>
+          <target state="translated">JEA では、オペレーターの操作を、オペレーターが必要なアクションにのみ制限しています。</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>A blacklist is the opposite.</source>
+          <target state="translated">ブラックリストは、その対極に位置します。</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>PowerShell command authors did not design PowerShell commands with the JEA in mind.</source>
+          <target state="translated">PowerShell コマンドの設計者は、その設計時に JEA を念頭に置いていませんでした。</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>On a fresh install of Windows Server 2016, there are about 1520 commands immediately available.</source>
+          <target state="translated">Windows Server 2016 の初期インストール時には、1520 個のコマンドを直ちに使用できるようになります。</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The threat models for these commands did not include the possibility that a user would be running commands as a more privileged account.</source>
+          <target state="translated">これらのコマンドの脅威モデルには、ユーザーがより特権の高いアカウントとしてコマンドを実行するようになるという可能性は含まれていませんでした。</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For example, certain commands allow for code injection by design (e.g. Add-Type and Invoke-Command in the core PowerShell module).</source>
+          <target state="translated">たとえば、特定のコマンドでは、設計上のコード インジェクションが許可されます (コア PowerShell モジュールの Add-Type や Invoke-Command など)。</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>JEA can warn you when you expose the specific commands we know about, but we have not re-assessed every other command in Windows based on the new threat model.</source>
+          <target state="translated">マイクロソフトは、認識しているコマンドが公開されると JEA により警告を表示できますが、新しい脅威モデルに基づいて Windows の他のすべてのコマンドを再評価することはしていません。</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You must understand the capabilities of the commands you exposing through JEA.</source>
+          <target state="translated">JEA を通じて公開するコマンドの機能はご自身で把握している必要があります。</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Furthermore, even if JEA blocked all commands with code-injection vulnerabilities, there is no guarantee that a malicious user would not be able to carry out a blacklisted action with another related command.</source>
+          <target state="translated">また、JEA がコード インジェクションの脆弱性によりすべてのコマンドをブロックしていても、悪意のあるユーザーがブラックリストに掲載された操作を他の関連するコマンドで実行できなくなるという保証はありません。</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Unless you understand all of the commands that you are exposing, it is impossible for you to guarantee that a certain action is not possible.</source>
+          <target state="translated">特定の操作を確実に実行されないようにするには、公開するすべてのコマンドを理解しておくことが不可欠です。</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The burden is on you to understand what commands you are exposing, whether they are using a whitelist or a blacklist.</source>
+          <target state="translated">ホワイトリストまたはブラックリストの使用の有無にかかわらず、ご自身の判断のもと、公開するコマンドを選択してください。</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The number of commands a blacklist would expose is unmanageable, so JEA is implemented using whitelists instead.</source>
+          <target state="translated">ブラックリストで公開されるコマンドは管理することが困難なため、JEA は代わりにホワイトリストを使って実装されます。</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

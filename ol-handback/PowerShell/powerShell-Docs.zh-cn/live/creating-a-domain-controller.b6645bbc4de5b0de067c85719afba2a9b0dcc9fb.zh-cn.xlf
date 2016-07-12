@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-22243b3" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8473eb668e4da5bab01c2f2b7647cbced413bd22</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">jea\creating-a-domain-controller.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>creating a domain controller</source>
+          <target state="translated">创建域控制器</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Creating a Domain Controller</source>
+          <target state="translated">创建域控制器</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This document assumes that your machine is domain joined.</source>
+          <target state="translated">本文档假定你的计算机已加入域。</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If you currently don't have a domain to join, this section can help you quickly stand up a domain controller using DSC.</source>
+          <target state="translated">如果你当前尚未加入域，这一部分可以帮助你使用 DSC 快速建立起域控制器。</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+          <target state="translated">必备条件</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The machine is on an internal network</source>
+          <target state="translated">计算机位于内部网络上</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The machine is not joined to an existing domain</source>
+          <target state="translated">计算机未加入到现有域</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The machine is running Windows Server 2016 or has WMF 5.0 installed</source>
+          <target state="translated">计算机正在运行 Windows Server 2016 或安装了 WMF 5.0</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Install xActiveDirectory</source>
+          <target state="translated">安装 xActiveDirectory</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If your machine has an active internet connection, run the following command in an elevated PowerShell window:</source>
+          <target state="translated">如果你的计算机具有有效的 Internet 连接，请在提升的 PowerShell 窗口中输入以下命令：</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If you do not have an internet connection, install xActiveDirectory to another machine and then copy the xActiveDirectory folder to the "C:\Program Files\WindowsPowerShell\Modules" folder on your machine.</source>
+          <target state="translated">如果没有 Internet 连接，请将 xActiveDirectory 安装到另一台计算机，然后将 xActiveDirectory 文件夹复制到你的计算机上的“C:\Program Files\WindowsPowerShell\Modules”文件夹。</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To confirm the installation succeeded, run the following command:</source>
+          <target state="translated">若要确认安装成功，请运行以下命令：</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Set up a domain with DSC</source>
+          <target state="translated">使用 DSC 设置域</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Copy the following script in PowerShell to make your machine a Domain Controller in a new domain.</source>
+          <target state="translated">将以下脚本复制到 PowerShell 中，使你的计算机成为新域中的域控制器。</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>AUTHOR'S NOTE: THERE IS A KNOWN ISSUE WITH THE CREDENTIALS PROVIDED NOT BEING USED.</source>
+          <target state="translated">作者注释：不使用提供的凭据将导致已知问题。</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>TO BE SAFE, DON'T FORGET YOUR LOCAL ADMIN PASSWORD.</source>
+          <target state="translated">为了安全起见，请勿忘记你的本地管理员密码。</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Your machine will restart a few times.</source>
+          <target state="translated">你的计算机将重启数次。</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You will know the process is complete once you see a file called "C:\temp.txt" containing "Domain has been created."</source>
+          <target state="translated">看到包含“Domain has been created.”的名为“C:\temp.txt”的文件，表示过程已完成。</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Set up Users and Groups</source>
+          <target state="translated">设置用户和组</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The following commands will set up an Operator and Helpdesk group in your domain and a corresponding non-administrator user who is a member of that group.</source>
+          <target state="translated">以下命令将在你的域中设置“操作员和技术支持人员”组以及身为该组成员的相应非管理员用户。</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
