@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4c802002c6a03a27d02221dd713677911a77c30b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\enactingConfigurations.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Enacting configurations</source>
+          <target state="translated">执行配置</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Enacting configurations</source>
+          <target state="translated">执行配置</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</source>
+          <target state="translated">适用于：Windows PowerShell 4.0 和 Windows PowerShell 5.0</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>There are two ways to enact PowerShell Desired State Configuration (DSC) configurations: push mode and pull mode.</source>
+          <target state="translated">有两种执行 PowerShell Desired State Configuration (DSC) 配置的方法：推送模式和请求模式。</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Push mode</source>
+          <target state="translated">推送模式</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Push mode</source>
+          <target state="translated">推送模式</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Push mode refers to a user actively applying a configuration to a target node by calling the <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> cmdlet.</source>
+          <target state="translated">推送模式指的是用户通过调用 <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> cmdlet 主动将配置应用到目标节点。</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>After creating and compiling a configuration, you can enact it in push mode by calling the <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> cmdlet, setting the -Path parameter of the cmdlet to the path where the configuration MOF is located.</source>
+          <target state="translated">创建并编译配置后，可通过调用 <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> cmdlet，并将 cmdlet 的 -Path 参数设置为配置 MOF 所在的路径，从而在推送模式下执行该配置。</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For example, if the configuration MOF is located at <ph id="ph1">`C:\DSC\Configurations\localhost.mof`</ph>, you would apply it to the local machine with the following command:</source>
+          <target state="translated">例如，如果配置 MOF 位于 <ph id="ph1">`C:\DSC\Configurations\localhost.mof`</ph> 中，你会使用以下命令将其应用于本地计算机：</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">__</bpt>Note<ept id="p1">__</ept>: By default, DSC runs a configuration as a background job.</source>
+          <target state="translated"><bpt id="p1">__</bpt>注意<ept id="p1">__</ept>：默认情况下，DSC 运行配置作为后台作业。</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To run the configuration interactively, call the <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> with the <bpt id="p2">__</bpt>-Wait<ept id="p2">__</ept> parameter.</source>
+          <target state="translated">若要以交互方式运行此配置，请使用 <bpt id="p2">__</bpt>-Wait<ept id="p2">__</ept> 参数调用 <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept>。</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Pull mode</source>
+          <target state="translated">请求模式</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Pull Mode</source>
+          <target state="translated">请求模式</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In pull mode, pull clients are configured to get their desired state configurations from a remote pull server.</source>
+          <target state="translated">在请求模式下，配置请求客户端以从远程请求服务器中获取所需的状态配置。</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Likewise, the pull server has been set up to host the DSC service, and has been provisioned with the configurations and resources that are required by the pull clients.</source>
+          <target state="translated">同样，已将请求服务器设置为托管 DSC 服务，并提供了请求服务器所需的配置和资源。</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Each one of the pull clients has a scheduled task that performs a periodic compliance check on the configuration of the node.</source>
+          <target state="translated">每个请求客户端都有计划的任务，在节点的配置上定期执行相容性检查。</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>When the event is triggered the first time, it causes the Local Configuration Manager (LCM) on the pull client to validate the configuration.</source>
+          <target state="translated">首次触发事件时，将导致请求客户端上的本地配置管理器 (LCM) 验证此配置。</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If the pull client is configured as desired, nothing happens.</source>
+          <target state="translated">如果将请求客户端配置为所需，则不会进行验证。</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Otherwise, the LCM makes a request to the pull server to get a given configuration.</source>
+          <target state="translated">否则，LCM 将向请求服务器发出请求以获取给定的配置。</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If that configuration exists on the pull server, and it passes initial validation checks, the configuration is transmitted to the pull client, where it is then executed by the LCM.</source>
+          <target state="translated">如果请求服务器上存在该配置，并通过了初始验证检查，则配置将传送到请求客户端，然后在其上由 LCM 进行执行。</target>         
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For more information on deploying a DSC Pull Server on premises, see the DSC Pull Server Configuration and Planning Guide.</source>
+          <target state="translated">有关部署本地 DSC 请求服务器的详细信息，请参阅《DSC 请求服务器配置和计划指南》。</target>         
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If you would prefer to take advantage of an online service to host Pull Server functionality, see the <bpt id="p1">[</bpt>Azure Automation DSC<ept id="p1">](https://azure.microsoft.com/en-us/documentation/articles/automation-dsc-overview/)</ept> service.</source>
+          <target state="translated">如果想利用联机服务承载请求服务器功能，请参阅 <bpt id="p1">[</bpt>Azure 自动化 DSC<ept id="p1">](https://azure.microsoft.com/en-us/documentation/articles/automation-dsc-overview/)</ept> 服务。</target>         
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The following topics explain how to set up pull servers and clients:</source>
+          <target state="translated">以下主题说明了如何设置请求服务器和客户端：</target>         
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Setting up a web pull server</source>
+          <target state="translated">设置 Web 请求服务器</target>         
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Setting up an SMB pull server</source>
+          <target state="translated">设置 SMB 请求服务器</target>         
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Configuring a pull client</source>
+          <target state="translated">配置请求客户端</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
