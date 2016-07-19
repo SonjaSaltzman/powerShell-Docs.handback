@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="es-es">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">811596d4ad7994a12987ff172e626eac534bdf4d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\jea_overview.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Just Enough Administration (JEA)</source>
+          <target state="translated">Just Enough Administration (JEA)</target>         
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Just Enough Administration is a new feature in WMF 5.0 that enables role-based administration through PowerShell remoting.</source>
+          <target state="translated">Just Enough Administration es una nueva característica de WMF 5.0 que permite la administración basada en roles a través de la comunicación remota de PowerShell.</target>         
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>It extends the existing constrained endpoint infrastructure by allowing non-administrators to run specific commands, scripts and executables as an administrator.</source>
+          <target state="translated">Amplía la infraestructura existente de punto de conexión restringida existente. Para hacerlo, permite que usuarios no administradores ejecuten comandos específicos, scripts y ejecutables como administrador.</target>         
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This enables you to reduce the number of full administrators in your environment and improve your security.</source>
+          <target state="translated">Esto permite reducir el número de administradores totales en su entorno y mejorar su seguridad.</target>         
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>JEA works for everything you manage through PowerShell; if you can manage something with PowerShell, JEA can help you do so more securely.</source>
+          <target state="translated">JEA funciona para todo lo que se administra a través de PowerShell; si puede administrar algo con PowerShell, JEA puede ayudarle a hacerlo de forma más segura.</target>         
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For a detailed look at Just Enough Administration, check out the <bpt id="p1">[</bpt>experience guide<ept id="p1">](http://aka.ms/JEA)</ept>.</source>
+          <target state="translated">Para obtener una visión detallada de Just Enough Administration, consulte la <bpt id="p1">[</bpt>guía de experiencias<ept id="p1">](http://aka.ms/JEA)</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Unlike old constrained endpoints, JEA is both powerful and easy to configure.</source>
+          <target state="translated">A diferencia de los puntos de conexión extremos restringidos antiguos, JEA es eficaz y fácil de configurar.</target>         
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>User capabilities in JEA can be granularly controlled, down to restricting which parameter sets and values can be supplied to a specific command.</source>
+          <target state="translated">Las funcionalidades de usuario en JEA pueden controlarse de forma pormenorizada, hasta restringir los conjuntos de parámetros y los valores que se pueden proporcionar a un comando específico.</target>         
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The user’s actions are run in the context of a one-time virtual account that has the rights to perform the administrator actions.</source>
+          <target state="translated">Las acciones del usuario se ejecutan en el contexto de una cuenta virtual única que tiene derechos para realizar las acciones de administrador.</target>         
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The commands invoked by the user can be logged for security audits.</source>
+          <target state="translated">Los comandos que invoca el usuario se pueden registrar para auditorías de seguridad.</target>         
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>JEA works by allowing you to create specially-configured constrained endpoints.</source>
+          <target state="translated">Para funcionar, JEA le permite crear puntos de conexión restringidos con una configuración especial.</target>         
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>These endpoints have a few important characteristics:</source>
+          <target state="translated">Estos puntos de conexión tienen algunas características importantes:</target>         
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Users connecting to them “run as” a privileged Virtual Account that exists only for the duration of this remote session.</source>
+          <target state="translated">Los usuarios que se conectan a ellos se "ejecutan como" una cuenta virtual con privilegios que existe mientras dure esta sesión remota.</target>         
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>By default, this Virtual Account is a member of the built-in Administrators group, as well as a Domain Administrators on domain controllers (note: these permissions are configurable).</source>
+          <target state="translated">De forma predeterminada, esta cuenta virtual es miembro del grupo de administradores integrado, así como un administrador de dominio en los controladores de dominio (Nota: Estos permisos son configurables).</target>         
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>By connecting as one user and running as a different, privileged user, you can allow non-privileged users to perform specific administrative tasks without giving them administrative rights on your systems.</source>
+          <target state="translated">Al conectarse como un usuario y ejecutarse como un usuario con privilegios diferente, puede permitir que usuarios sin privilegios realicen tareas administrativas específicas sin concederles derechos administrativos en sus sistemas.</target>         
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The endpoint is locked down.</source>
+          <target state="translated">El punto de conexión está bloqueado.</target>         
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This means PowerShell runs in No Language mode.</source>
+          <target state="translated">Esto significa que PowerShell se ejecuta en modo sin lenguaje.</target>         
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Only specific commands, scripts, and executables are visible to the user.</source>
+          <target state="translated">Solo determinados comandos, scripts y ejecutables son visibles para el usuario.</target>         
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Different users connecting are presented with a different set of capabilities based on group membership.</source>
+          <target state="translated">A los distintos usuarios que se conectan se les presenta un conjunto diferente de funcionalidades según la pertenencia a grupos.</target>         
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can provide different roles different capabilities at the same endpoint.</source>
+          <target state="translated">Puede proporcionar a distintos roles distintas funcionalidades en el mismo punto de conexión.</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
