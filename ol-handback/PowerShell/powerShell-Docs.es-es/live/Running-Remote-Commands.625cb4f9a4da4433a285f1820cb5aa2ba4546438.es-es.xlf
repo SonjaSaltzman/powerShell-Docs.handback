@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="es-es">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-22243b3" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">48385de53964217b2f7d263d85bfb99b1dbf6507</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\core-powershell\Running-Remote-Commands.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Running Remote Commands</source>
+          <target state="translated">Ejecutar comandos remotos</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Running Remote Commands</source>
+          <target state="translated">Ejecutar comandos remotos</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You can run commands on one or hundreds of computers with a single Windows PowerShell command.</source>
+          <target state="translated">Puede ejecutar comandos en un equipo o en cientos de ellos usando un solo comando de Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell supports remote computing by using various technologies, including WMI, RPC, and WS<ph id="ph1">\-</ph>Management.</source>
+          <target state="translated">Windows PowerShell admite la informática remota a través de varias tecnologías, como WS<ph id="ph1">\-</ph>Management, RPC y WMI.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Remoting Without Configuration</source>
+          <target state="translated">Comunicación remota sin configuración</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Many Windows PowerShell cmdlets have the ComputerName parameter that enables you to collect data and change settings on one or more remote computers.</source>
+          <target state="translated">Muchos de los cmdlets de Windows PowerShell tienen un parámetro ComputerName que les permite recopilar datos y cambiar la configuración de uno o más equipos remotos.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>They use a variety of communication technologies and many work on all Windows operating systems that Windows PowerShell supports without any special configuration.</source>
+          <target state="translated">Usan distintas tecnologías de comunicación y muchos de ellos funcionan con todos los sistemas operativos de Windows que Windows PowerShell admite sin necesidad de ninguna configuración especial.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>These cmdlets include:</source>
+          <target state="translated">Estos cmdlets son:</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Restart-Computer</source>
+          <target state="translated">Restart-Computer</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Test-Connection</source>
+          <target state="translated">Test-Connection</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Clear-EventLog</source>
+          <target state="translated">Clear-EventLog</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Get-EventLog</source>
+          <target state="translated">Get-EventLog</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Get-HotFix</source>
+          <target state="translated">Get-HotFix</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Get-Process</source>
+          <target state="translated">Get-Process</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Get-Service</source>
+          <target state="translated">Get-Service</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Set-Service</source>
+          <target state="translated">Set-Service</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Get-WinEvent</source>
+          <target state="translated">Get-WinEvent</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Get-WmiObject</source>
+          <target state="translated">Get-WmiObject</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Typically, cmdlets that support remoting without special configuration have the ComputerName parameter and do not have the Session parameter.</source>
+          <target state="translated">Normalmente, los cmdlets que admiten la comunicación remota sin una configuración especial tienen un parámetro ComputerName y carecen de un parámetro Session.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To find these cmdlets in your session, type:</source>
+          <target state="translated">Para encontrar estos cmdlets en la sesión, escriba:</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Remoting</source>
+          <target state="translated">Comunicación remota de Windows PowerShell</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell remoting, which uses the WS<ph id="ph1">\-</ph>Management protocol, lets you run any Windows PowerShell command on one or many remote computers.</source>
+          <target state="translated">La comunicación remota de Windows PowerShell, que usa el protocolo WS<ph id="ph1">\-</ph>Management, permite ejecutar cualquier comando de Windows PowerShell en uno o varios equipos remotos.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>It lets you establish persistent connections, start 1:1 interactive sessions, and run scripts on multiple computers.</source>
+          <target state="translated">Así, permite establecer conexiones persistentes, iniciar sesiones interactivas de 1:1 y ejecutar scripts en varios equipos.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>To use Windows PowerShell remoting, the remote computer must be configured for remote management.</source>
+          <target state="translated">Para usar la comunicación remota de Windows PowerShell, el equipo remoto debe estar configurado para la administración remota.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For more information, including instructions, see <bpt id="p1">[</bpt>About Remote Requirements<ept id="p1">](https://technet.microsoft.com/en-us/library/dd315349.aspx)</ept>.</source>
+          <target state="translated">Para más información y ver instrucciones, consulte <bpt id="p1">[</bpt>About Remote Requirements<ept id="p1">](https://technet.microsoft.com/en-us/library/dd315349.aspx)</ept> (Acerca de los requisitos remotos).</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>After you have configured Windows PowerShell remoting, many remoting strategies are available to you.</source>
+          <target state="translated">Después de configurar la comunicación remota de Windows PowerShell, tendrá a su disposición un gran número de estrategias de comunicación remota.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The remainder of this document lists just a few of them.</source>
+          <target state="translated">En lo que resta de este documento se mencionan solo algunas de ellas.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>About Remote<ept id="p1">](https://technet.microsoft.com/en-us/library/dd347744.aspx)</ept> and <bpt id="p2">[</bpt>About Remote FAQ<ept id="p2">](https://technet.microsoft.com/en-us/library/dd347744.aspx)</ept>.</source>
+          <target state="translated">Para más información, vea <bpt id="p1">[</bpt>About Remote<ept id="p1">](https://technet.microsoft.com/en-us/library/dd347744.aspx)</ept> (Acerca del acceso remoto) y <bpt id="p2">[</bpt>About Remote FAQ<ept id="p2">](https://technet.microsoft.com/en-us/library/dd347744.aspx)</ept> (Preguntas más frecuentes sobre el acceso remoto).</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Start an Interactive Session</source>
+          <target state="translated">Iniciar una sesión interactiva</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To start an interactive session with a single remote computer, use the <bpt id="p1">[</bpt>Enter-PSSession<ept id="p1">](https://technet.microsoft.com/en-us/library/dd315384.aspx)</ept> cmdlet.</source>
+          <target state="translated">Para iniciar una sesión interactiva con un único equipo remoto, use el cmdlet <bpt id="p1">[</bpt>Enter-PSSession<ept id="p1">](https://technet.microsoft.com/en-us/library/dd315384.aspx)</ept>.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For example, to start an interactive session with the Server01 remote computer, type:</source>
+          <target state="translated">Por ejemplo, para iniciar una sesión interactiva con el equipo remoto Server01, escriba:</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The command prompt changes to display the name of the computer to which you are connected.</source>
+          <target state="translated">El símbolo del sistema cambia para mostrar el nombre del equipo al que está conectado.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>From then on, any commands that you type at the prompt run on the remote computer and the results are displayed on the local computer.</source>
+          <target state="translated">Desde ese momento, cualquier comando que escriba en el símbolo del sistema se ejecutará en el equipo remoto y los resultados se mostrarán en el equipo local.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To end the interactive session, type:</source>
+          <target state="translated">Para finalizar la sesión interactiva, escriba:</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For more information about the Enter<ph id="ph1">\-</ph>PSSession and Exit<ph id="ph2">\-</ph>PSSession cmdlets, see <bpt id="p1">[</bpt>Enter-PSSession<ept id="p1">](https://technet.microsoft.com/en-us/library/dd315384.aspx)</ept> and <bpt id="p2">[</bpt>Exit-PSSession<ept id="p2">](https://technet.microsoft.com/en-us/library/dd315322.aspx)</ept>.</source>
+          <target state="translated">Para obtener más información sobre los cmdlets <ph id="ph1">\-</ph>PSSession y Exit<ph id="ph2">\-</ph>PSSession, consulte <bpt id="p1">[</bpt>Enter-PSSession<ept id="p1">](https://technet.microsoft.com/en-us/library/dd315384.aspx)</ept> y <bpt id="p2">[</bpt>Exit-PSSession<ept id="p2">](https://technet.microsoft.com/en-us/library/dd315322.aspx)</ept>.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Run a Remote Command</source>
+          <target state="translated">Ejecutar un comando remoto</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To run any command on one or many remote computers, use the <bpt id="p1">[</bpt>Invoke-Command<ept id="p1">](https://technet.microsoft.com/en-us/library/dd347578.aspx)</ept> cmdlet.</source>
+          <target state="translated">Para ejecutar cualquier comando en uno o varios equipos remotos, use el cmdlet <bpt id="p1">[</bpt>Invoke-Command<ept id="p1">](https://technet.microsoft.com/en-us/library/dd347578.aspx)</ept>.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For example, to run a <bpt id="p1">[</bpt>Get-UICulture<ept id="p1">](https://technet.microsoft.com/en-us/library/dd347742.aspx)</ept> command on the Server01 and Server02 remote computers, type:</source>
+          <target state="translated">Por ejemplo, para ejecutar un comando <bpt id="p1">[</bpt>Get-UICulture<ept id="p1">](https://technet.microsoft.com/en-us/library/dd347742.aspx)</ept> en los equipos remotos Server01 y Server02, escriba:</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The output is returned to your computer.</source>
+          <target state="translated">El resultado se muestra en su equipo.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For more information about the Invoke<ph id="ph1">\-</ph>Command cmdlet, see <bpt id="p1">[</bpt>Invoke-Command<ept id="p1">](https://technet.microsoft.com/en-us/library/22fd98ba-1874-492e-95a5-c069467b8462)</ept>.</source>
+          <target state="translated">Para obtener más información sobre el cmdlet Invoke<ph id="ph1">\-</ph>Command, consulte <bpt id="p1">[</bpt>Invoke-Command<ept id="p1">](https://technet.microsoft.com/en-us/library/22fd98ba-1874-492e-95a5-c069467b8462)</ept>.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Run a Script</source>
+          <target state="translated">Ejecutar un script</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To run a script on one or many remote computers, use the FilePath parameter of the Invoke<ph id="ph1">\-</ph>Command cmdlet.</source>
+          <target state="translated">Para ejecutar un script en uno o varios equipos remotos, use el parámetro FilePath del cmdlet Invoke<ph id="ph1">\-</ph>Command.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The script must be on or accessible to your local computer.</source>
+          <target state="translated">El script debe estar en el equipo local o accesible desde este.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The results are returned to your local computer.</source>
+          <target state="translated">Los resultados se devuelven en el equipo local.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For example, the following command runs the DiskCollect.ps1 script on the Server01 and Server02 remote computers.</source>
+          <target state="translated">Por ejemplo, el siguiente comando ejecuta el script DiskCollect.ps1 en los equipos remotos Server01 y Server02.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>For more information about the Invoke<ph id="ph1">\-</ph>Command cmdlet, see <bpt id="p1">[</bpt>Invoke-Command<ept id="p1">](https://technet.microsoft.com/en-us/library/dd347578.aspx)</ept>.</source>
+          <target state="translated">Para obtener más información sobre el cmdlet Invoke<ph id="ph1">\-</ph>Command, consulte <bpt id="p1">[</bpt>Invoke-Command<ept id="p1">](https://technet.microsoft.com/en-us/library/dd347578.aspx)</ept>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Establish a Persistent Connection</source>
+          <target state="translated">Establecer una conexión persistente</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>To run a series of related commands that share data, create a session on the remote computer and then use the Invoke<ph id="ph1">\-</ph>Command cmdlet to run commands in the session that you create.</source>
+          <target state="translated">Para ejecutar una serie de comandos relacionados que comparten datos, cree una sesión en el equipo remoto y luego use el cmdlet Invoke<ph id="ph1">\-</ph>Command para ejecutar comandos en la sesión que cree.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To create a remote session, use the New<ph id="ph1">\-</ph>PSSession cmdlet.</source>
+          <target state="translated">Para crear una sesión remota, use el cmdlet New<ph id="ph1">\-</ph>PSSession.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>For example, the following command creates a remote session on the Server01 computer and another remote session on the Server02 computer.</source>
+          <target state="translated">Por ejemplo, el comando siguiente crea una sesión remota en el equipo Server01 y otra sesión remota en el equipo Server02.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>It saves the session objects in the $s variable.</source>
+          <target state="translated">Guarda los objetos de la sesión en la variable $s.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Now that the sessions are established, you can run any command in them.</source>
+          <target state="translated">Ahora que las sesiones se han establecido, puede ejecutar cualquier comando en ellas.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>And because the sessions are persistent, you can collect data in one command and use it in a subsequent command.</source>
+          <target state="translated">Y, como las sesiones son persistentes, puede recopilar datos en un solo comando y usarlos en un comando posterior.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>For example, the following command runs a Get<ph id="ph1">\-</ph>HotFix command in the sessions in the $s variable and it saves the results in the $h variable.</source>
+          <target state="translated">Por ejemplo, el siguiente comando ejecuta un comando Get<ph id="ph1">\-</ph>Hotfix en las sesiones de la variable $s y guarda los resultados en la variable $h.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The $h variable is created in each of the sessions in $s, but it does not exist in the local session.</source>
+          <target state="translated">La variable $h se crea en cada una de las sesiones en $s, pero no existe en la sesión local.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Now you can use the data in the $h variable in subsequent commands, such as the following one.</source>
+          <target state="translated">Ahora puede usar los datos de la variable $h en los siguientes comandos, como en el siguiente.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The results are displayed on the local computer.</source>
+          <target state="translated">Los resultados se muestran en el equipo local.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Advanced Remoting</source>
+          <target state="translated">Comunicación remota avanzada</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell remote management just begins here.</source>
+          <target state="translated">La administración remota de Windows PowerShell empieza aquí.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>By using the cmdlets installed with Windows PowerShell, you can establish and configure remote sessions both from the local and remote ends, create customized and restricted sessions, allow users to import commands from a remote session that actually run implicitly on the remote session, configure the security of a remote session, and much more.</source>
+          <target state="translated">Con los cmdlets que se instalan con Windows PowerShell puede, entre otras muchas cosas, establecer y configurar sesiones remotas desde extremos tanto locales como remotos, crear sesiones personalizadas y restringidas, dejar que los usuarios importen comandos desde una sesión remota que se ejecutan implícitamente en la sesión remota o configurar la seguridad de una sesión remota.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>To facilitate remote configuration, Windows PowerShell includes a WSMan provider.</source>
+          <target state="translated">Para facilitar la configuración remota, Windows PowerShell incluye un proveedor WSMan.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The WSMAN: drive that the provider creates lets you navigate through a hierarchy of configuration settings on the local computer and remote computers.</source>
+          <target state="translated">La unidad WSMAN: que este proveedor crea permite desplazarse por una jerarquía de valores de configuración en el equipo local y en los equipos remotos.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>For more information about the WSMan provider, see  <bpt id="p1">[</bpt>WSMan Provider<ept id="p1">](https://technet.microsoft.com/en-us/library/dd819476.aspx)</ept> and <bpt id="p2">  [</bpt>About WS-Management Cmdlets<ept id="p2">](https://technet.microsoft.com/en-us/library/dd819481.aspx)</ept>, or in the Windows PowerShell console, type "Get<ph id="ph1">\-</ph>Help wsman".</source>
+          <target state="translated">Para más información sobre el proveedor de WSMan, consulte <bpt id="p1">[</bpt>Proveedor de WSMan<ept id="p1">](https://technet.microsoft.com/en-us/library/dd819476.aspx)</ept> y <bpt id="p2">  [</bpt>About WS-Management Cmdlets (Acerca de los cmdlets de WS-Management)<ept id="p2">](https://technet.microsoft.com/en-us/library/dd819481.aspx)</ept>. También puede escribir "Get<ph id="ph1">\-</ph>Help wsman" en la consola de Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>For more information, see:</source>
+          <target state="translated">Para obtener más información, consulte:</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>About Remote FAQ</source>
+          <target state="translated">Acerca de las Preguntas más frecuentes sobre el acceso remoto</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Register-PSSessionConfiguration</source>
+          <target state="translated">Register-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Import-PSSession<ept id="p1">](https://technet.microsoft.com/en-us/library/dd347575.aspx)</ept>.</source>
+          <target state="translated"><bpt id="p1">[</bpt>Import-PSSession<ept id="p1">](https://technet.microsoft.com/en-us/library/dd347575.aspx)</ept>.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>For help with remoting errors, see <bpt id="p1">[</bpt>about_Remote_Troubleshooting<ept id="p1">](https://technet.microsoft.com/en-us/library/dd347642.aspx)</ept>.</source>
+          <target state="translated">Para obtener ayuda con los errores de comunicación remota, consulte <bpt id="p1">[</bpt>about_Remote_Troubleshooting<ept id="p1">](https://technet.microsoft.com/en-us/library/dd347642.aspx)</ept>.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">Consulte también</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>about_Remote</source>
+          <target state="translated">about_Remote</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>about_Remote_FAQ</source>
+          <target state="translated">about_Remote_FAQ</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>about_Remote_Requirements</source>
+          <target state="translated">about_Remote_Requirements</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>about_Remote_Troubleshooting</source>
+          <target state="translated">about_Remote_Troubleshooting</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>about_PSSessions</source>
+          <target state="translated">about_PSSessions</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>about_WS-Management_Cmdlets</source>
+          <target state="translated">about_WS-Management_Cmdlets</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Invoke-Command</source>
+          <target state="translated">Invoke-Command</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Import-PSSession</source>
+          <target state="translated">Import-PSSession</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>New-PSSession</source>
+          <target state="translated">New-PSSession</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Register-PSSessionConfiguration</source>
+          <target state="translated">Register-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>WSMan Provider</source>
+          <target state="translated">Proveedor de WSMan</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

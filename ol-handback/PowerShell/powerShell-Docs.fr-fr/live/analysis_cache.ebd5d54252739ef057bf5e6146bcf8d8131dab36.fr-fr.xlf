@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="fr-fr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-22243b3" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3e5d5e93231b772b65d1913a4dbafc86d4edb950</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\features-scenarios-cache\analysis_cache.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Module Analysis Cache</source>
+          <target state="translated">Cache d’analyse de module</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Starting with version 5.1, PowerShell provides the following control over the file that is used to cache data about a module like the commands it exports.</source>
+          <target state="translated">À compter de la version 5.1, PowerShell fournit le contrôle suivant sur le fichier utilisé pour mettre en cache les données relatives à un module, comme les commandes qu’il exporte.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>By default, this cache is stored in the file <ph id="ph1">`${env:LOCALAPPDATA}\Microsoft\Windows\PowerShell\ModuleAnalysisCache`</ph>.</source>
+          <target state="translated">Par défaut, ce cache est stocké dans le fichier <ph id="ph1">`${env:LOCALAPPDATA}\Microsoft\Windows\PowerShell\ModuleAnalysisCache`</ph>.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The cache is typically read at startup while searching for a command and is written on a background thread sometime after a module is imported.</source>
+          <target state="translated">Le cache est normalement lu au démarrage lors de la recherche d’une commande, et les données y sont écrites sur un thread d’arrière-plan après l’importation d’un module.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To change the default location of the cache, set the environment variable PSModuleAnalysisCachePath before starting PowerShell.</source>
+          <target state="translated">Pour modifier l’emplacement par défaut du cache, définissez la variable d’environnement PSModuleAnalysisCachePath avant de démarrer PowerShell.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Changes to this environment variable will only affect children processes.</source>
+          <target state="translated">Les modifications apportées à cette variable d’environnement affectent uniquement les processus enfants.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The value should name a full path (including filename) that PowerShell has permission to create and write files.</source>
+          <target state="translated">La valeur doit nommer un chemin complet (y compris le nom de fichier) où PowerShell est autorisé à créer et à écrire des fichiers.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To disable the file cache - this value can be set to an invalid location, for example</source>
+          <target state="translated">Pour désactiver le cache de fichiers, vous pouvez affecter à cette valeur un emplacement non valide, par exemple</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This sets the path to an invalid device.</source>
+          <target state="translated">Cela définit un appareil non valide comme chemin.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>No error if PowerShell can't write to the path, though you can see an error reporting via a tracer:</source>
+          <target state="translated">Aucune erreur si PowerShell ne peut pas écrire dans le chemin, mais vous pouvez observer la présence d’une erreur signalée par le biais du suivi d’erreur :</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>When writing out the cache, PowerShell will check for modules that no longer exist to avoid an unnecessarily large cache.</source>
+          <target state="translated">Lors de l’écriture du cache, PowerShell recherche les modules qui n’existent plus pour éviter que le cache ne devienne volumineux inutilement.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Sometimes these checks are not desirable, in which case you can turn them off by setting</source>
+          <target state="translated">Parfois, ces contrôles ne sont pas souhaitables, auquel cas vous pouvez les désactiver en définissant</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Setting this environment variable will take effect immediately in the current process.</source>
+          <target state="translated">Cette variable d’environnement prend effet immédiatement dans le processus actif.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-22243b3" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a3dd4a217f5b1fd80e97adf802c65073ca015bbc</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">jea\role-capabilities.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>role capabilities</source>
+          <target state="translated">角色功能</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Role Capabilities</source>
+          <target state="translated">角色功能</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Overview</source>
+          <target state="translated">概述</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In the above section, you learned that the "RoleDefinitions" field defined which groups had access to which Role Capabilities.</source>
+          <target state="translated">在上一部分中，你已了解到“RoleDefinitions”字段定义有权访问各角色功能的组。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You may have wondered, "What are Role Capabilities?"</source>
+          <target state="translated">你可能想问，“什么是角色功能？”</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This section will answer that question.</source>
+          <target state="translated">本部分将回答这个问题。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Introducing PowerShell Role Capabilities</source>
+          <target state="translated">PowerShell 角色功能简介</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>PowerShell Role Capabilities define "what" a user can do at a JEA endpoint.</source>
+          <target state="translated">PowerShell 角色功能定义用户可在 JEA 终结点执行的“操作”。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>They detail a whitelist of things like visible commands, visible applications, and more.</source>
+          <target state="translated">它们详细介绍了可见命令、可见应用程序等内容的白名单。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Role Capabilities are defined by files with a ".psrc" extension.</source>
+          <target state="translated">角色功能由扩展名为“.psrc”的文件定义。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Role Capability Contents</source>
+          <target state="translated">角色功能内容</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>We will start by examining and modifying the demo Role Capability file you used before.</source>
+          <target state="translated">我们首先将检查并修改你之前使用的演示角色功能文件。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Imagine you have deployed your Session Configuration across your environment, but you have gotten feedback that you need to change the capabilities exposed to users.</source>
+          <target state="translated">假设你在环境中部署了会话配置，但收到反馈称需要更改向用户公开的功能。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Operators need the ability to restart machines, and they also want to be able to get information about network settings.</source>
+          <target state="translated">操作员需要能够重启计算机，并且他们还希望能够获取有关网络设置的信息。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>In addition, the security team has told you that allowing users to run "Restart-Service" without any restrictions is not acceptable.</source>
+          <target state="translated">此外，安全团队告知你不加任何限制而允许用户运行“Restart-Service”是不可接受的。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You need to restrict the services that operators can restart.</source>
+          <target state="translated">你需要限制操作员能重启的服务。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To make these changes, start by running PowerShell ISE as an Administrator and open the following file:</source>
+          <target state="translated">若要进行这些更改，请首先以管理员身份运行 PowerShell ISE 并打开以下文件：</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Now find and update the following lines in the file:</source>
+          <target state="translated">现在找到并更新文件中的以下行：</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This contains a few interesting examples:</source>
+          <target state="translated">这包含几个有趣的示例：</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You have restricted Restart-Service such that operators will only be able to use Restart-Service with the -Name parameter, and they will only be allowed to provide "Spooler" as an argument to that parameter.</source>
+          <target state="translated">你已限制了 Restart-Service，使操作员仅可运行带有 -Name 参数的 Restart-Service，并且仅允许其将“Spooler”作为实参提供给形参。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If you wanted to, you could also restrict the arguments using a regular expression using "ValidatePattern" instead of "ValidateSet".</source>
+          <target state="translated">如果愿意，你还可以使用使用“ValidatePattern”而不是“ValidateSet”的正则表达式来限制参数。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You have exposed all commands with the "Get" verb from the NetTCPIP module.</source>
+          <target state="translated">你公开了 NetTCPIP 模块中带有“Get”谓词的所有命令。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Because "Get" commands typically don't change system state, this is a relatively safe action.</source>
+          <target state="translated">因为“Get”命令通常不会更改系统状态，所以此操作相对安全。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>That being said, it is strongly encouraged to closely examinine every command you expose through JEA.</source>
+          <target state="translated">也就是说，强烈推荐仔细检查通过 JEA 公开的每个命令。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You have exposed an executable (ipconfig) using VisibleExternalCommands.</source>
+          <target state="translated">你使用 VisibleExternalCommands 公开了可执行文件 (ipconfig)。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You can also expose full PowerShell scripts with this field.</source>
+          <target state="translated">也可使用此字段公开完整的 PowerShell 脚本。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>It is important to always provide the full path to external commands to ensure a similarly named (and potentially malicious) program placed in the user's path does not get executed instead.</source>
+          <target state="translated">请务必提供外部命令的完整路径，以避免执行了位于用户路径中的同名（潜在恶意）程序。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Save the file, then connect to the demo endpoint again to confirm the changes worked.</source>
+          <target state="translated">保存该文件，然后再次连接到演示终结点以确认更改生效。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Because you only modified the Role Capability file, you do not need to re-register the Session Configuration.</source>
+          <target state="translated">由于你仅修改了角色功能文件，因此无需重新注册会话配置。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>PowerShell will automatically find your updated Role Capability when a user connects.</source>
+          <target state="translated">当用户连接时，PowerShell 将自动查找更新的角色功能。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Since Role Capabilities are loaded when the session starts, existing sessions are not affected by updates to Role Capability files.</source>
+          <target state="translated">由于角色功能在会话启动时加载，因此现有会话不受角色功能文件更新的影响。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Now, confirm that you can restart the computer by running Restart-Computer with the -WhatIf parameter (unless you actually want to restart the computer).</source>
+          <target state="translated">现在，请通过运行带有 -WhatIf 参数的 Restart-Computer 确认你可以重启计算机（除非你确实想重启计算机）。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Confirm that you can run "ipconfig"</source>
+          <target state="translated">确认你可以运行“ipconfig”</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>And finally, confirm that Restart-Service only works for the Spooler service.</source>
+          <target state="translated">最后，确认 Restart-Service 仅适用于后台处理程序服务。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Exit the session when you are finished.</source>
+          <target state="translated">完成后退出会话。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Role Capability Creation</source>
+          <target state="translated">角色功能创建</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>In the next section, you will create a JEA endpoint for AD help desk users.</source>
+          <target state="translated">在下一部分中，你将为 AD 技术支持用户创建 JEA 终结点。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To prepare, we will create a blank Role Capability file to fill in for that section.</source>
+          <target state="translated">我们将首先创建空白的角色配置文件，准备在该部分中进行填充。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Role Capabilities must be created inside a "RoleCapabilities" folder inside a valid PowerShell module in order to be resolved when a session starts.</source>
+          <target state="translated">为了在会话启动时解析角色功能，必须在有效 PowerShell 模块内的“RoleCapabilities”文件夹中创建它。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>PowerShell Modules are essentially packages of PowerShell functionality.</source>
+          <target state="translated">PowerShell 模块实际上是 PowerShell 功能的包。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>They can contain PowerShell functions, cmdlets, DSC Resources, Role Capabilities, and more.</source>
+          <target state="translated">它们可以包含 PowerShell 函数、cmdlet、DSC 资源、角色功能等。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You can find information about modules by running <ph id="ph1">`Get-Help about_Modules`</ph> in a PowerShell console.</source>
+          <target state="translated">你可以通过在 PowerShell 控制台中运行 <ph id="ph1">`Get-Help about_Modules`</ph> 来查找有关模块的信息。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To create a new PowerShell module with a blank Role Capability file, run the following commands:</source>
+          <target state="translated">若要创建带有空白的角色功能文件的新 PowerShell 模块，请运行以下命令：</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Congratulations, you have created a blank Role Capability File.</source>
+          <target state="translated">祝贺你！你已创建空白角色功能文件。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>It will be used in the next section.</source>
+          <target state="translated">将在下一部分中使用它。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Key Concepts</source>
+          <target state="translated">关键概念</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Role Capability (.psrc)<ept id="p1">**</ept>: A file that defines "what" a user can do at a JEA endpoint.</source>
+          <target state="translated"><bpt id="p1">**</bpt>角色功能 (.psrc)<ept id="p1">**</ept>：定义用户可在 JEA 终结点执行的“操作”的文件。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>It details a whitelist of things like visible commands, visible console applications, and more.</source>
+          <target state="translated">它详细介绍了可见命令、可见控制台应用程序等内容的白名单。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>In order for PowerShell to detect Role Capabilities, you must put them in a "RoleCapabilities" folder in a valid PowerShell module.</source>
+          <target state="translated">为使 PowerShell 能检测角色功能，必须将其置于有效 PowerShell 模块内的“RoleCapabilities”文件夹中。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>PowerShell Module<ept id="p1">**</ept>: A package of PowerShell functionality.</source>
+          <target state="translated"><bpt id="p1">**</bpt>PowerShell 模块<ept id="p1">**</ept>：PowerShell 功能的包。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>It can contain PowerShell functions, cmdlets, DSC Resources, Role Capabilities, and more.</source>
+          <target state="translated">它可以包含 PowerShell 函数、cmdlet、DSC 资源、角色功能等。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>In order to be automatically loaded, PowerShell modules must be located under a path in <ph id="ph1">`$env:PSModulePath`</ph>.</source>
+          <target state="translated">为实现自动加载，PowerShell 模块必须位于 <ph id="ph1">`$env:PSModulePath`</ph> 中的路径下。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

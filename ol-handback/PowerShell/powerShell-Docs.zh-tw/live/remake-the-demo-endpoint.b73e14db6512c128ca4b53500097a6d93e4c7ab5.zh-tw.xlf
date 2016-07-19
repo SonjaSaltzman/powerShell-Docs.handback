@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-22243b3" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">acd2cfbd038250a26236c875d0e8b03a32cd84f9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">jea\remake-the-demo-endpoint.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>remake the demo endpoint</source>
+          <target state="translated">重現示範端點</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Remake the Demo Endpoint</source>
+          <target state="translated">重現示範端點</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In this section, you will learn how to generate an exact replica of the demo endpoint you used in the above section.</source>
+          <target state="translated">在本節中，您將了解如何產生您在上一節中所使用之示範端點的相同複本。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This will introduce core concepts that are necessary to understand JEA, including PowerShell Session Configurations and Role Capabilities.</source>
+          <target state="translated">本節將介紹了解 JEA 所需的核心概念，包括 PowerShell 工作階段設定和角色功能。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>PowerShell Session Configurations</source>
+          <target state="translated">PowerShell 工作階段設定</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When you used JEA in the above section, you started by running the following command:</source>
+          <target state="translated">當您在上一節中使用 JEA 時，首先會執行下列命令︰</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>While most of the parameters are self-explanatory, the <bpt id="p1">*</bpt>ConfigurationName<ept id="p1">*</ept> parameter may seem confusing at first.</source>
+          <target state="translated">其中大部分參數一目了然，但 <bpt id="p1">*</bpt>ConfigurationName<ept id="p1">*</ept> 參數乍看之下可能令人混淆。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>That parameter specified the PowerShell Session Configuration to which you were connecting.</source>
+          <target state="translated">該參數指定您要連線的 PowerShell 工作階段設定。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>PowerShell Session Configuration<ept id="p1">*</ept> is a fancy term for a PowerShell endpoint.</source>
+          <target state="translated"><bpt id="p1">*</bpt>PowerShell 工作階段設定<ept id="p1">*</ept>是 PowerShell 端點的複雜說法。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>It is the figurative "place" where users connect and get access to PowerShell functionality.</source>
+          <target state="translated">這是使用者連線並存取 PowerShell 功能的象徵性「位置」。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Based on how you set up a Session Configuration, it can provide different functionality to connecting users.</source>
+          <target state="translated">根據您設定工作階段設定的方式，它可提供不同的功能給連線使用者。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For JEA, we use Session Configurations to restrict PowerShell to a limited set of functionality and to run as a privileged virtual account.</source>
+          <target state="translated">針對 JEA，我們使用工作階段設定將 PowerShell 限制在一組有限的功能，並以特殊權限虛擬帳戶身分執行。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You already have several registered PowerShell Session Configurations on your machine, each set up slightly differently.</source>
+          <target state="translated">您的電腦上已經登錄數個 PowerShell 工作階段設定，每個設定的設定方式稍有不同。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Most of them come with Windows, but the "JEA_Demo" Session Configuration was set up in the <bpt id="p1">[</bpt>prerequisites<ept id="p1">](prerequisites.md)</ept> section.</source>
+          <target state="translated">這些設定大部分隨附於 Windows，但 "JEA_Demo" 工作階段設定則是在<bpt id="p1">[</bpt>必要條件<ept id="p1">](prerequisites.md)</ept>一節中所設定。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can see all registered Session Configurations by running the following command in an Administrator PowerShell prompt:</source>
+          <target state="translated">您可以在系統管理員的 PowerShell 提示字元中執行下列命令，來查看所有登錄的工作階段設定︰</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>PowerShell Session Configuration Files</source>
+          <target state="translated">PowerShell 工作階段設定檔</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can make new Session Configurations by registering new <bpt id="p1">*</bpt>PowerShell Session Configuration Files<ept id="p1">*</ept>.</source>
+          <target state="translated">您可以登錄新的 <bpt id="p1">*</bpt>PowerShell 工作階段設定檔<ept id="p1">*</ept>，來建立新的工作階段設定。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Session Configuration Files have ".pssc" file extensions.</source>
+          <target state="translated">工作階段設定檔的副檔名為 ".pssc"。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can generate Session Configuration Files with the New-PSSessionConfigurationFile cmdlet.</source>
+          <target state="translated">您可以使用 New-PSSessionConfigurationFile Cmdlet 產生工作階段設定檔。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Next, you are going to create and register a new Session Configuration for JEA.</source>
+          <target state="translated">接下來，您將為 JEA 建立並登錄新的工作階段設定。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Generate and Modify your PowerShell Session Configuration</source>
+          <target state="translated">產生及修改您的 PowerShell 工作階段設定</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Run the following command to generate a PowerShell Session Configuration "skeleton" file.</source>
+          <target state="translated">執行下列命令，產生 PowerShell 工作階段設定「基本架構」檔案。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>TIP:<ept id="p1">**</ept> Only the most common configuration settings are included in the skeleton file by default.</source>
+          <target state="translated"><bpt id="p1">**</bpt>提示<ept id="p1">**</ept>︰此基本架構檔案預設只會包含最常見的組態設定。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`-Full`</ph> parameter to include all applicable settings in the generated PSSC.</source>
+          <target state="translated">使用 <ph id="ph1">`-Full`</ph> 參數可將所有適用的設定加入產生的 PSSC。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Open the file in PowerShell ISE, or your favorite text editor.</source>
+          <target state="translated">在 PowerShell ISE 或您偏好的文字編輯器中開啟檔案。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Update the following fields in the file with the values below (remember to substitute in your own non-administrator security group):</source>
+          <target state="translated">將檔案中的下列欄位更新為底下的值 (記得在您自己的非系統管理員安全性群組中進行取代)︰</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Here is what each of those entries mean:</source>
+          <target state="translated">以下是每個項目所代表的意義︰</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>SessionType<ept id="p1">*</ept> field defines preset default settings to use with this endpoint.</source>
+          <target state="translated"><bpt id="p1">*</bpt>SessionType<ept id="p1">*</ept> 欄位定義預設要用於此端點的預設值。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>RestrictedRemoteServer<ept id="p1">*</ept> defines the minimal settings necessary for remote management.</source>
+          <target state="translated"><bpt id="p1">*</bpt>RestrictedRemoteServer<ept id="p1">*</ept> 定義遠端管理所需的最低設定。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>By default, a <bpt id="p1">*</bpt>RestrictedRemoteServer<ept id="p1">*</ept> endpoint will expose Get-Command, Get-FormatData, Select-Object, Get-Help, Measure-Object, Exit-PSSession, Clear-Host, and Out-Default.</source>
+          <target state="translated">根據預設，<bpt id="p1">*</bpt>RestrictedRemoteServer<ept id="p1">*</ept> 端點會公開 Get-Command、Get-FormatData、Select-Object、Get-Help、Measure-Object、Exit-PSSession、Clear-Host 和 Out-Default。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>It will set the <bpt id="p1">*</bpt>ExecutionPolicy<ept id="p1">*</ept> to <bpt id="p2">*</bpt>RemoteSigned<ept id="p2">*</ept>, and the <bpt id="p3">*</bpt>LanguageMode<ept id="p3">*</ept> to <bpt id="p4">*</bpt>NoLanguage<ept id="p4">*</ept>.</source>
+          <target state="translated">它會將 <bpt id="p1">*</bpt>ExecutionPolicy<ept id="p1">*</ept> 設定為 <bpt id="p2">*</bpt>RemoteSigned<ept id="p2">*</ept>，並將 <bpt id="p3">*</bpt>LanguageMode<ept id="p3">*</ept> 設定為 <bpt id="p4">*</bpt>NoLanguage<ept id="p4">*</ept>。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The net effect of these settings is a secure and minimal starting point for configuring your endpoint.</source>
+          <target state="translated">這些設定的唯一作用是提供安全且最基本的起點，以便設定您的端點。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>RoleDefinitions<ept id="p1">*</ept> field assigns Role Capabilities to specific groups.</source>
+          <target state="translated"><bpt id="p1">*</bpt>RoleDefinitions<ept id="p1">*</ept> 欄位將角色功能指派給特定群組。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>It defines who can do what as a privileged account.</source>
+          <target state="translated">它會定義誰可以特殊權限帳戶身分執行什麼工作。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>With this field, you can specify the functionality available to any connecting user based on group membership.</source>
+          <target state="translated">您可以使用此欄位，根據群組成員資格指定任何連線使用者可以使用的功能。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This is the core of JEA's RBAC functionality.</source>
+          <target state="translated">這是 JEA RBAC 功能的核心。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>In this example, you are exposing the pre-made "Maintenance" RoleCapability to members of the "Contoso\JEA_NonAdmin_Operator" group.</source>
+          <target state="translated">在此範例中，您將對 "Contoso\JEA_NonAdmin_Operator" 群組的成員公開預製的「維護」RoleCapability。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>RunAsVirtualAccount<ept id="p1">*</ept> field indicates that PowerShell should "run as" a Virtual Account at this endpoint.</source>
+          <target state="translated"><bpt id="p1">*</bpt>RunAsVirtualAccount<ept id="p1">*</ept> 欄位指出 PowerShell 應該以此端點的虛擬帳戶身分執行。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>By default, the Virtual Account is a member of the built in Administrators group.</source>
+          <target state="translated">根據預設，虛擬帳戶是內建 Administrator 群組的成員。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>On a domain controller, it is also a member of the Domain Administrators group by default.</source>
+          <target state="translated">在網域控制站上，它預設也是 Domain Administrators 群組的成員。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Later in this guide, you will learn how to customize the privileges of the Virtual Account.</source>
+          <target state="translated">稍後在本指南中，您將了解如何自訂虛擬帳戶的權限。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>TranscriptDirectory<ept id="p1">*</ept> field defines where "over-the-shoulder" PowerShell transcripts are saved after each remote session.</source>
+          <target state="translated"><bpt id="p1">*</bpt>TranscriptDirectory<ept id="p1">*</ept> 欄位定義 "Over-The-Shoulder" PowerShell 文字記錄在每個遠端工作階段之後的儲存位置。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>These transcripts allow you to inspect the actions taken in each session in a readable way.</source>
+          <target state="translated">這些文字記錄讓您能夠以容易閱讀的方式，來查看在每個工作階段中執行的動作。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For more information about PowerShell transcripts, check out this <bpt id="p1">[</bpt>blog post<ept id="p1">](http://blogs.msdn.com/b/powershell/archive/2015/06/09/powershell-the-blue-team.aspx)</ept>.</source>
+          <target state="translated">如需 PowerShell 文字記錄的詳細資訊，請參閱這篇<bpt id="p1">[</bpt>部落格文章<ept id="p1">](http://blogs.msdn.com/b/powershell/archive/2015/06/09/powershell-the-blue-team.aspx)</ept>。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Note: regular Windows Eventing also captures information about what each user ran with PowerShell.</source>
+          <target state="translated">注意︰定期的 Windows Eventing 也會擷取每位使用者使用 PowerShell 執行的相關資訊。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Transcripts are just a bit more readable.</source>
+          <target state="translated">只不過文字記錄稍微更容易閱讀。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Finally, save your changes to <bpt id="p1">*</bpt>JEADemo2.pssc<ept id="p1">*</ept>.</source>
+          <target state="translated">最後，將變更儲存至 <bpt id="p1">*</bpt>JEADemo2.pssc<ept id="p1">*</ept>。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Apply the PowerShell Session Configuration</source>
+          <target state="translated">套用 PowerShell 工作階段設定</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To create an endpoint from a Session Configuration file, you need to register the file.</source>
+          <target state="translated">若要從工作階段設定檔建立端點，您必須登錄該檔案。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This requires a few pieces of information:</source>
+          <target state="translated">這需要幾項資訊︰</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The path to the Session Configuration file.</source>
+          <target state="translated">工作階段設定檔的路徑。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The name of your registered Session Configuration.</source>
+          <target state="translated">登錄的工作階段設定名稱。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This is the same name users provide to the "ConfigurationName" parameter when they connect to your endpoint with <ph id="ph1">`Enter-PSSession`</ph> or <ph id="ph2">`New-PSSession`</ph>.</source>
+          <target state="translated">這是使用者使用 <ph id="ph1">`Enter-PSSession`</ph> 或 <ph id="ph2">`New-PSSession`</ph> 連線到您的端點時，提供給 "ConfigurationName" 參數的相同名稱。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To register the Session Configuration on your local machine, run the following command:</source>
+          <target state="translated">若要登錄本機電腦上的工作階段設定，請執行下列命令︰</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Congratulations!</source>
+          <target state="translated">恭喜您！</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>You have set up your JEA endpoint.</source>
+          <target state="translated">您已設定 JEA 端點。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Test Out Your Endpoint</source>
+          <target state="translated">測試您的端點</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Re-run the steps listed in the <bpt id="p1">[</bpt>Using JEA<ept id="p1">](using-jea.md)</ept> section against your new endpoint to confirm it is operating as intended.</source>
+          <target state="translated">對您的新端點重新執行<bpt id="p1">[</bpt>使用 JEA<ept id="p1">](using-jea.md)</ept>一節中所列的步驟，確認端點如預期般運作。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Be sure to use the new endpoint name (JEADemo2) when providing the configuration name to <ph id="ph1">`Enter-PSSession`</ph>.</source>
+          <target state="translated">將設定名稱提供給 <ph id="ph1">`Enter-PSSession`</ph> 時，請務必使用新的端點名稱 (JEADemo2)。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Key Concepts</source>
+          <target state="translated">重要概念</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>PowerShell Session Configuration<ept id="p1">**</ept>: Sometimes referred to as <bpt id="p2">*</bpt>PowerShell Endpoint<ept id="p2">*</ept>, this is the figurative "place" where users connect and get access to PowerShell functionality.</source>
+          <target state="translated"><bpt id="p1">**</bpt>PowerShell 工作階段設定<ept id="p1">**</ept>︰有時稱為 <bpt id="p2">*</bpt>PowerShell 端點<ept id="p2">*</ept>，這是使用者連線並存取 PowerShell 功能的象徵性「位置」。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You can list the registered Session Configurations on your system by running <ph id="ph1">`Get-PSSessionConfiguration`</ph>.</source>
+          <target state="translated">您可以執行 <ph id="ph1">`Get-PSSessionConfiguration`</ph>，列出系統上已登錄的工作階段設定。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>When configured in a specific way, a PowerShell Session Configuration can be called a <bpt id="p1">*</bpt>JEA Endpoint<ept id="p1">*</ept>.</source>
+          <target state="translated">以特定方式設定時，PowerShell 工作階段設定可稱為 <bpt id="p1">*</bpt>JEA 端點<ept id="p1">*</ept>。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>PowerShell Session Configuration File (.pssc)<ept id="p1">**</ept>: A file that, when registered, defines settings for a PowerShell Session Configuration.</source>
+          <target state="translated"><bpt id="p1">**</bpt>PowerShell 工作階段設定檔 (.pssc)<ept id="p1">**</ept>︰此檔案經登錄後，可定義 PowerShell 工作階段設定的設定。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>It contains specifications for user roles that can connect to the endpoint, the "run as" Virtual Account, and more.</source>
+          <target state="translated">它會包含可連線到端點的使用者角色、「執行身分」虛擬帳戶等規格。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Role Definitions<ept id="p1">**</ept>: The field in a Session Configuration File that defines the Role Capabilities granted to connecting users.</source>
+          <target state="translated"><bpt id="p1">**</bpt>角色定義<ept id="p1">**</ept>︰工作階段設定檔中的欄位，定義授與連線使用者的角色功能。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>It defines <bpt id="p1">*</bpt>who<ept id="p1">*</ept> can do <bpt id="p2">*</bpt>what<ept id="p2">*</ept> as a privileged account.</source>
+          <target state="translated">它會定義<bpt id="p1">*</bpt>誰<ept id="p1">*</ept>可以特殊權限帳戶身分執行<bpt id="p2">*</bpt>什麼<ept id="p2">*</ept>工作。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>This is the core of JEA's RBAC capabilities.</source>
+          <target state="translated">這是 JEA RBAC 功能的核心。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>SessionType<ept id="p1">**</ept>: A field in a Session Configuration File that represents default settings for a Session Configuration.</source>
+          <target state="translated"><bpt id="p1">**</bpt>SessionType<ept id="p1">**</ept>：工作階段設定檔中的欄位，表示工作階段設定的預設值。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>For JEA endpoints, this must be set to RestrictedRemoteServer.</source>
+          <target state="translated">針對 JEA 端點，這必須設定為 RestrictedRemoteServer。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>PowerShell Transcript<ept id="p1">**</ept>: A file containing an "over-the-shoulder" view of a PowerShell session.</source>
+          <target state="translated"><bpt id="p1">**</bpt>PowerShell 文字記錄<ept id="p1">**</ept>︰包含 PowerShell 工作階段之 "Over-The-Shoulder" 檢視的檔案。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>You can set PowerShell to generate transcripts for JEA sessions using the TranscriptDirectory field.</source>
+          <target state="translated">您可以將 PowerShell 設定為使用 TranscriptDirectory 欄位來產生 JEA 工作階段的文字記錄。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>For more information on transcripts, check out this <bpt id="p1">[</bpt>blog post<ept id="p1">](https://technet.microsoft.com/en-us/magazine/ff687007.aspx)</ept>.</source>
+          <target state="translated">如需文字記錄的詳細資訊，請參閱這篇<bpt id="p1">[</bpt>部落格文章<ept id="p1">](https://technet.microsoft.com/en-us/magazine/ff687007.aspx)</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

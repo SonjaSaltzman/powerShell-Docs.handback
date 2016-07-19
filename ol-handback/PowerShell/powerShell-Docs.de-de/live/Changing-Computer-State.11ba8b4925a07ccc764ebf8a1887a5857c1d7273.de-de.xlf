@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-22243b3" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d1f3c08451b385c56d0c4e084dce8fa5795c278e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Changing-Computer-State.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Changing Computer State</source>
+          <target state="translated">Ändern des Computerstatus</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Changing Computer State</source>
+          <target state="translated">Ändern des Computerstatus</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>To reset a computer in Windows PowerShell, use either a standard command<ph id="ph1">\-</ph>line tool or a WMI class.</source>
+          <target state="translated">Verwenden Sie zum Zurücksetzen eines Computers in Windows PowerShell entweder ein standardmäßiges Befehlszeilentool oder ein WMI-Klasse.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Although you are using Windows PowerShell only to run the tool, learning how to change a computer's power state in Windows PowerShell illustrates some of the important details about working with external tools in Windows PowerShell.</source>
+          <target state="translated">Sie verwenden Windows PowerShell zwar nur zum Ausführen des Tools, dennoch erfahren Sie einige wichtige Details über die Arbeit mit externen Tools in Windows PowerShell, indem Sie lernen, wie Sie den Energiezustand eines Computers in Windows PowerShell ändern.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Locking a Computer</source>
+          <target state="translated">Sperren eines Computers</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The only way to lock a computer directly with the standard available tools is to call the <bpt id="p1">**</bpt>LockWorkstation()<ept id="p1">**</ept> function in <bpt id="p2">**</bpt>user32.dll<ept id="p2">**</ept>:</source>
+          <target state="translated">Die einzige Möglichkeit, einen Computer unmittelbar mit den standardmäßig verfügbaren Tools zu sperren, besteht im Aufrufen der Funktion <bpt id="p1">**</bpt>LockWorkstation()<ept id="p1">**</ept> in <bpt id="p2">**</bpt>user32.dll<ept id="p2">**</ept>:</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This command immediately locks the workstation.</source>
+          <target state="translated">Mit diesem Befehl wird die Arbeitsstation sofort gesperrt.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>It uses <bpt id="p1">*</bpt>rundll32.exe<ept id="p1">*</ept>, which runs Windows DLLs (and saves their libraries for repeated use) to run user32.dll, a library of Windows management functions.</source>
+          <target state="translated">Hierbei wird <bpt id="p1">*</bpt>rundll32.exe<ept id="p1">*</ept> zum Ausführen von Windows-DLLs (und Speichern ihrer Bibliotheken für die wiederholte Verwendung) verwendet, um „user32.dll“, eine Bibliothek von Windows-Verwaltungsfunktionen, auszuführen.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When you lock a workstation while Fast User Switching is enabled, such as on Windows XP, the computer displays the user logon screen rather than starting the current user's screensaver.</source>
+          <target state="translated">Wenn Sie eine Arbeitsstation sperren, während die schnelle Benutzerumschaltung aktiviert ist, z. B. bei Computern unter Windows XP, wird der Benutzeranmeldebildschirm anstelle des Bildschirmschoners des aktuellen Benutzers angezeigt.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To shut down particular sessions on a Terminal Server, use the <bpt id="p1">**</bpt>tsshutdn.exe<ept id="p1">**</ept> command<ph id="ph1">\-</ph>line tool.</source>
+          <target state="translated">Um bestimmte Sitzungen auf einem Terminalserver herunterzufahren, verwenden Sie das Befehlszeilentool <bpt id="p1">**</bpt>tsshutdn.exe<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Logging Off the Current Session</source>
+          <target state="translated">Abmelden der aktuellen Sitzung</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can use several different techniques to log off of a session on the local system.</source>
+          <target state="translated">Es sind mehrere verschiedene Verfahren verfügbar, um eine Sitzung auf dem lokalen System abzumelden.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The simplest way is to use the Remote Desktop/Terminal Services command<ph id="ph1">\-</ph>line tool, <bpt id="p1">**</bpt>logoff.exe<ept id="p1">**</ept> (For details, at the Windows PowerShell prompt, type <bpt id="p2">**</bpt>logoff /?<ept id="p2">**</ept>).</source>
+          <target state="translated">Die einfachste Möglichkeit besteht in der Verwendung des Befehlszeilentools <bpt id="p1">**</bpt>logoff.exe<ept id="p1">**</ept> für Remotedesktop-/Terminaldienste. (Weitere Informationen erhalten Sie, indem Sie an der Windows PowerShell-Eingabeaufforderung <bpt id="p2">**</bpt>logoff /?<ept id="p2">**</ept> eingeben).</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To log off the current active session, type <bpt id="p1">**</bpt>logoff<ept id="p1">**</ept> with no arguments.</source>
+          <target state="translated">Zum Abmelden der aktuellen aktiven Sitzung geben Sie <bpt id="p1">**</bpt>logoff<ept id="p1">**</ept> ohne Argumente ein.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can also use the <bpt id="p1">**</bpt>shutdown.exe<ept id="p1">**</ept> tool with its logoff option:</source>
+          <target state="translated">Sie können auch das Tool <bpt id="p1">**</bpt>shutdown.exe<ept id="p1">**</ept> mit der zugehörigen Abmeldeoption verwenden:</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>A third option is to use WMI.</source>
+          <target state="translated">Eine dritte Möglichkeit ist die Verwendung von WMI.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The Win32<ph id="ph1">\_</ph>OperatingSystem class has a Win32Shutdown method.</source>
+          <target state="translated">Die „Win32<ph id="ph1">\_</ph>OperatingSystem“-Klasse bietet eine „Win32Shutdown“-Methode.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Invoking the method with the 0 flag initiates logoff:</source>
+          <target state="translated">Durch Aufrufen der Methode mit dem 0-Flag wird die Abmeldung initiiert:</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For more information, and to find other features of the Win32Shutdown method, see "Win32Shutdown Method of the Win32<ph id="ph1">\_</ph>OperatingSystem Class" in MSDN.</source>
+          <target state="translated">Weitere Informationen und andere Funktionen der „Win32Shutdown“-Methode finden Sie unter „Win32Shutdown-Methode der Win32<ph id="ph1">\_</ph>OperatingSystem-Klasse“ in MSDN.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Shutting Down or Restarting a Computer</source>
+          <target state="translated">Herunterfahren oder Neustarten eines Computers</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Shutting down and restarting computers are generally the same types of task.</source>
+          <target state="translated">Das Herunterfahren und Neustarten von Computern wird im Allgemeinen vom gleichen Tasktyp ausgeführt.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Tools that shut down a computer will generally restart it as well—and vice versa.</source>
+          <target state="translated">Mit Tools, die einen Computer herunterfahren, kann normalerweise auch ein Neustart ausgeführt werden, und umgekehrt.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>There are two straightforward options for restarting a computer from Windows PowerShell.</source>
+          <target state="translated">Es gibt zwei einfache Optionen für den Neustart eines Computers aus Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Use either Tsshutdn.exe or Shutdown.exe with appropriate arguments.</source>
+          <target state="translated">Verwenden Sie entweder „Tsshutdn.exe“ oder „Shutdown.exe“ mit den entsprechenden Argumenten.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You can get detailed usage information from <bpt id="p1">**</bpt>tsshutdn.exe /?<ept id="p1">**</ept></source>
+          <target state="translated">Ausführliche Informationen zur Verwendung erhalten Sie mit <bpt id="p1">**</bpt>tsshutdn.exe /?<ept id="p1">**</ept></target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>or <bpt id="p1">**</bpt>shutdown.exe /?<ept id="p1">**</ept>.</source>
+          <target state="translated">oder <bpt id="p1">**</bpt>shutdown.exe /?<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You can also perform shutdown and restart operations by using <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>OperatingSystem<ept id="p1">**</ept> directly from Windows PowerShell as well.</source>
+          <target state="translated">Sie können auch <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>OperatingSystem<ept id="p1">**</ept> direkt in Windows PowerShell zum Herunterfahren und Neustarten verwenden.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To shut down the computer, use the Win32Shutdown method with the <bpt id="p1">**</bpt>1<ept id="p1">**</ept> flag.</source>
+          <target state="translated">Verwenden Sie zum Herunterfahren des Computers die Win32Shutdown-Methode mit dem Flag <bpt id="p1">**</bpt>1<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To restart the operating system, use the Win32Shutdown method with the <bpt id="p1">**</bpt>2<ept id="p1">**</ept> flag.</source>
+          <target state="translated">Verwenden Sie zum Neustarten des Betriebssystems die Win32Shutdown-Methode mit dem Flag <bpt id="p1">**</bpt>2<ept id="p1">**</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
