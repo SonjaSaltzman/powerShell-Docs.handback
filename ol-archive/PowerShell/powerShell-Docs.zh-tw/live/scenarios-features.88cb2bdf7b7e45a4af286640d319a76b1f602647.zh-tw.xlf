@@ -3,7 +3,7 @@
   <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
     <header>
       <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-22243b3" tool-company="Microsoft" />
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9341b7fc3feea20cc2434065c3e512d1a8dd2b54</xliffext:olfilehash>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">01d7ac9815a8650f36150e36b4f6942f451dc368</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\scenarios-features.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
@@ -47,425 +47,137 @@
           <source>Prevent script execution unless run on a comaptible edition of PowerShell</source>
           <target state="translated">只有在相容的 PowerShell 版本上執行才會執行指令碼</target>       </trans-unit>
         <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Catalog Cmdlets</source>
+          <target state="translated">類別目錄 Cmdlet</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Two new cmdlets have been added in the <bpt id="p1">[</bpt>Microsoft.Powershell.Secuity<ept id="p1">](https://technet.microsoft.com/en-us/library/hh847877.aspx)</ept> module; these generate and validate windows catalog files.</source>
+          <target state="translated"><bpt id="p1">[</bpt>Microsoft.Powershell.Secuity<ept id="p1">](https://technet.microsoft.com/en-us/library/hh847877.aspx)</ept> 模組中新增了兩個新的 Cmdlet，它們會產生和驗證 Windows 類別目錄檔案。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>New-FileCatalog</source>
+          <target state="translated">New-FileCatalog</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>New File catalog creates a Windows catalog file for set of folders and files.</source>
+          <target state="translated">[新的檔案] 類別目錄會建立 Windows 類別目錄檔案，供資料夾和檔案集合使用。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This catalog file contains hashes for all files in specified paths.</source>
+          <target state="translated">此類別目錄檔案包含指定路徑中的所有檔案雜湊。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Users can distribute the set of folders along with corresponding catalog file representing those folders.</source>
+          <target state="translated">使用者可以散發資料夾集合以及代表這些資料夾的對應類別目錄檔案。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This information is useful to validate whether any changes have been made to the folders since catalog creation time.</source>
+          <target state="translated">這項資訊對驗證資料夾在類別目錄建立後是否有任何變更，非常有用。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Catalog versions 1 and 2 are supported.</source>
+          <target state="translated">支援類別目錄第 1 版和第 2 版。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Version 1 uses the SHA1 hashing algorithm to create file hashes; version 2 uses SHA256.</source>
+          <target state="translated">第 1 版使用 SHA1 雜湊演算法建立檔案雜湊，第 2 版使用 SHA256。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Catalog version 2 is not supported on <bpt id="p1">*</bpt>Windows Server 2008 R2<ept id="p1">*</ept> or <bpt id="p2">*</bpt>Windows 7<ept id="p2">*</ept>.</source>
+          <target state="translated"><bpt id="p1">*</bpt>Windows Server 2008 R2<ept id="p1">*</ept> 或 <bpt id="p2">*</bpt>Windows 7<ept id="p2">*</ept> 不支援第 2 版的類別目錄。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You should use catalog version 2 on <bpt id="p1">*</bpt>Windows 8<ept id="p1">*</ept>, <bpt id="p2">*</bpt>Windows Server 2012<ept id="p2">*</ept>, and later operating systems.</source>
+          <target state="translated"><bpt id="p1">*</bpt>Windows 8<ept id="p1">*</ept>、<bpt id="p2">*</bpt>Windows Server 2012<ept id="p2">*</ept> 和更新版本的作業系統，應該使用類別目錄第 2 版。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This creates the catalog file.</source>
+          <target state="translated">這會建立類別目錄檔案。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To verify the integrity of catalog file (Pester.cat in above exmaple), sign it using <bpt id="p1">[</bpt>Set-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849819.aspx)</ept> cmdlet.</source>
+          <target state="translated">若要驗證類別目錄檔案 (上例中為 Pester.cat) 的完整性，請使用 <bpt id="p1">[</bpt>Set-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849819.aspx)</ept> Cmdlet 來加以簽署。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Test-FileCatalog</source>
+          <target state="translated">Test-FileCatalog</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Test File catalog validates the catalog representing a set of folders.</source>
+          <target state="translated">[測試檔案] 類別目錄會驗證代表資料夾集合的類別目錄。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This cmdlet compares all the files hashes and their relative paths found in <bpt id="p1">*</bpt>catalog<ept id="p1">*</ept> with ones on <bpt id="p2">*</bpt>disk<ept id="p2">*</ept>.</source>
+          <target state="translated">此 Cmdlet 會比較所有的檔案雜湊及在 <bpt id="p1">*</bpt>catalog<ept id="p1">*</ept> 和 <bpt id="p2">*</bpt>disk<ept id="p2">*</ept> 中找到的相對路徑。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>If it detects any mismatch between file hashes and paths it returns the status as <bpt id="p1">*</bpt>ValidationFailed<ept id="p1">*</ept>.</source>
+          <target state="translated">如果檔案雜湊和路徑中偵測到任何不相符的項目，就會傳回 <bpt id="p1">*</bpt>ValidationFailed<ept id="p1">*</ept> 狀態。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Users can retrieve all this information by using the <bpt id="p1">*</bpt>-Detailed<ept id="p1">*</ept> flag.</source>
+          <target state="translated">使用者可以使用 <bpt id="p1">*</bpt>-Detailed<ept id="p1">*</ept> 旗標來擷取此資訊的完整內容。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>It also displays signing status of catalog in <bpt id="p1">*</bpt>Signature<ept id="p1">*</ept> filed which is equivalent to calling <bpt id="p2">[</bpt>Get-AuthenticodeSignature<ept id="p2">](https://technet.microsoft.com/en-us/library/hh849805.aspx)</ept> cmdlet on the catalog file.</source>
+          <target state="translated">它也會在歸檔的 <bpt id="p1">*</bpt>Signature<ept id="p1">*</ept> 中顯示類別目錄的簽署狀態，和呼叫 <bpt id="p2">[</bpt>Get-AuthenticodeSignature<ept id="p2">](https://technet.microsoft.com/en-us/library/hh849805.aspx)</ept> Cmdlet 一模一樣。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Users can also skip any file during validation by using the <bpt id="p1">*</bpt>-FilesToSkip<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">使用者也可以使用 <bpt id="p1">*</bpt>-FilesToSkip<ept id="p1">*</ept> 參數，在驗證期間略過任何檔案。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
           <source>Module Analysis Cache</source>
           <target state="translated">模組分析快取</target>       </trans-unit>
-        <trans-unit id="114" translate="yes" xml:space="preserve">
+        <trans-unit id="134" translate="yes" xml:space="preserve">
           <source>Starting with WMF 5.1, PowerShell provides control over the file that is used to cache data about a module, such as the commands it exports.</source>
           <target state="translated">從 WMF 5.1 開始，PowerShell 可以控制快取模組資料所用的檔案，例如匯出的命令。</target>       </trans-unit>
-        <trans-unit id="115" translate="yes" xml:space="preserve">
+        <trans-unit id="135" translate="yes" xml:space="preserve">
           <source>By default, this cache is stored in the file <ph id="ph1">`${env:LOCALAPPDATA}\Microsoft\Windows\PowerShell\ModuleAnalysisCache`</ph>.</source>
           <target state="translated">此快取預設儲存在 <ph id="ph1">`${env:LOCALAPPDATA}\Microsoft\Windows\PowerShell\ModuleAnalysisCache`</ph> 檔案中。</target>       </trans-unit>
-        <trans-unit id="116" translate="yes" xml:space="preserve">
+        <trans-unit id="136" translate="yes" xml:space="preserve">
           <source>The cache is typically read at startup while searching for a command and is written on a background thread sometime after a module is imported.</source>
           <target state="translated">快取一般在啟動同時搜尋命令時讀取，並在模組匯入一段時間後寫入背景執行緒。</target>       </trans-unit>
-        <trans-unit id="117" translate="yes" xml:space="preserve">
+        <trans-unit id="137" translate="yes" xml:space="preserve">
           <source>To change the default location of the cache, set the environment variable PSModuleAnalysisCachePath before starting PowerShell.</source>
           <target state="translated">若要變更快取的預設位置，請先設定環境變數 PSModuleAnalysisCachePath 再啟動 PowerShell。</target>       </trans-unit>
-        <trans-unit id="118" translate="yes" xml:space="preserve">
+        <trans-unit id="138" translate="yes" xml:space="preserve">
           <source>Changes to this environment variable will only affect children processes.</source>
           <target state="translated">此環境變數的變更只會影響子處理程序。</target>       </trans-unit>
-        <trans-unit id="119" translate="yes" xml:space="preserve">
+        <trans-unit id="139" translate="yes" xml:space="preserve">
           <source>The value should name a full path (including filename) that PowerShell has permission to create and write files.</source>
           <target state="translated">該值應該命名 PowerShell 有權建立和寫入檔案的完整路徑 (包括檔名)。</target>       </trans-unit>
-        <trans-unit id="120" translate="yes" xml:space="preserve">
+        <trans-unit id="140" translate="yes" xml:space="preserve">
           <source>To disable the file cache, set this value to an invalid location, for example:</source>
           <target state="translated">若要停用檔案快取，請將此值設定於無效的位置，例如︰</target>       </trans-unit>
-        <trans-unit id="121" translate="yes" xml:space="preserve">
+        <trans-unit id="141" translate="yes" xml:space="preserve">
           <source>This sets the path to an invalid device.</source>
           <target state="translated">這會將路徑設定到無效的裝置。</target>       </trans-unit>
-        <trans-unit id="122" translate="yes" xml:space="preserve">
+        <trans-unit id="142" translate="yes" xml:space="preserve">
           <source>Iff PowerShell can't write to the path, no error is returned, but you can see error reporting via a tracer:</source>
           <target state="translated">如果 PowerShell 無法寫入該路徑，就不會傳回任何錯誤，但您可以透過追蹤查看錯誤報告︰</target>       </trans-unit>
-        <trans-unit id="123" translate="yes" xml:space="preserve">
+        <trans-unit id="143" translate="yes" xml:space="preserve">
           <source>When writing out the cache, PowerShell will check for modules that no longer exist to avoid an unnecessarily large cache.</source>
           <target state="translated">寫出快取時，PowerShell 會檢查確認模組已不存在，避免不必要的大型快取。</target>       </trans-unit>
-        <trans-unit id="124" translate="yes" xml:space="preserve">
+        <trans-unit id="144" translate="yes" xml:space="preserve">
           <source>Sometimes these checks are not desirable, in which case you can turn them off by setting</source>
           <target state="translated">有時候不需要這些檢查，在此情況下，您可以透過設定下列項目關閉這些檢查：</target>       </trans-unit>
-        <trans-unit id="125" translate="yes" xml:space="preserve">
+        <trans-unit id="145" translate="yes" xml:space="preserve">
           <source>Setting this environment variable will take effect immediately in the current process.</source>
           <target state="translated">此環境變數設定會立即在目前的程序中生效。</target>       </trans-unit>
-        <trans-unit id="126" translate="yes" xml:space="preserve">
+        <trans-unit id="146" translate="yes" xml:space="preserve">
           <source>Specifying module version</source>
           <target state="translated">指定模組版本</target>       </trans-unit>
-        <trans-unit id="127" translate="yes" xml:space="preserve">
+        <trans-unit id="147" translate="yes" xml:space="preserve">
           <source>In WMF 5.1, <ph id="ph1">`using module`</ph> behaves the same way as other module-related constructions in PowerShell.</source>
           <target state="translated">在 WMF 5.1 中，<ph id="ph1">`using module`</ph> 與 PowerShell 中其他模組相關的語法結構表現一致。</target>       </trans-unit>
-        <trans-unit id="128" translate="yes" xml:space="preserve">
+        <trans-unit id="148" translate="yes" xml:space="preserve">
           <source>Previously, you had no way to specify a particular module version; if there were multiple versions present, this resulted in an error.</source>
           <target state="translated">以往，您無法指定特定的模組版本；如果有多個版本存在，這會導致錯誤。</target>       </trans-unit>
-        <trans-unit id="129" translate="yes" xml:space="preserve">
+        <trans-unit id="149" translate="yes" xml:space="preserve">
           <source>In WMF 5.1:</source>
           <target state="translated">在 WMF 5.1 中：</target>       </trans-unit>
-        <trans-unit id="130" translate="yes" xml:space="preserve">
+        <trans-unit id="150" translate="yes" xml:space="preserve">
           <source>You can use <ph id="ph1">`ModuleSpecification`</ph> <bpt id="p1">[</bpt>hashtable<ept id="p1">](https://msdn.microsoft.com/en-us/library/jj136290(v=vs.85).aspx)</ept>.</source>
           <target state="translated">您可以使用 <ph id="ph1">`ModuleSpecification`</ph> <bpt id="p1">[</bpt>雜湊表<ept id="p1">](https://msdn.microsoft.com/en-us/library/jj136290(v=vs.85).aspx)</ept>。</target>       </trans-unit>
-        <trans-unit id="131" translate="yes" xml:space="preserve">
+        <trans-unit id="151" translate="yes" xml:space="preserve">
           <source>This hashtable has the same format as <ph id="ph1">`Get-Module -FullyQualifiedName`</ph>.</source>
           <target state="translated">此雜湊表與 <ph id="ph1">`Get-Module -FullyQualifiedName`</ph> 有相同的格式。</target>       </trans-unit>
-        <trans-unit id="132" translate="yes" xml:space="preserve">
+        <trans-unit id="152" translate="yes" xml:space="preserve">
           <source>Example:</source>
           <target state="translated">範例：</target>       </trans-unit>
-        <trans-unit id="133" translate="yes" xml:space="preserve">
+        <trans-unit id="153" translate="yes" xml:space="preserve">
           <source>If there are multiple versions of the module, PowerShell uses the <bpt id="p1">**</bpt>same resolution logic<ept id="p1">**</ept> as <ph id="ph1">`Import-Module`</ph> and doesn't return an error--the same behavior as <ph id="ph2">`Import-Module`</ph> and <ph id="ph3">`Import-DscResource`</ph>.</source>
           <target state="translated">如果模組有多個版本，PowerShell 會使用與 <ph id="ph1">`Import-Module`</ph> <bpt id="p1">**</bpt>相同的解析邏輯<ept id="p1">**</ept>，不傳回錯誤，和 <ph id="ph2">`Import-Module`</ph> 及 <ph id="ph3">`Import-DscResource`</ph> 的行為一樣。</target>       </trans-unit>
-        <trans-unit id="134" translate="yes" xml:space="preserve">
-          <source>PowerShell console improvements</source>
-          <target state="translated">PowerShell 主控台改善</target>       </trans-unit>
-        <trans-unit id="135" translate="yes" xml:space="preserve">
-          <source>The following changes have been made to Powershell.exe in WMF 5.1 to improve the console experience:</source>
-          <target state="translated">WMF 5.1 的 Powershell.exe 已進行下列變更，以改善主控台體驗︰</target>       </trans-unit>
-        <trans-unit id="136" translate="yes" xml:space="preserve">
-          <source>VT100 support</source>
-          <target state="translated">VT100 支援</target>       </trans-unit>
-        <trans-unit id="137" translate="yes" xml:space="preserve">
-          <source>Windows 10 added support for <bpt id="p1">[</bpt>VT100 escape sequences<ept id="p1">](https://msdn.microsoft.com/en-us/library/windows/desktop/mt638032(v=vs.85).aspx)</ept>.</source>
-          <target state="translated">Windows 10 新增了對 <bpt id="p1">[</bpt>VT100 逸出序列<ept id="p1">](https://msdn.microsoft.com/en-us/library/windows/desktop/mt638032(v=vs.85).aspx)</ept>的支援。</target>       </trans-unit>
-        <trans-unit id="138" translate="yes" xml:space="preserve">
-          <source>PowerShell will ignore certain VT100 formatting escape sequences when calculating table widths.</source>
-          <target state="translated">PowerShell 在計算表格寬度時，會忽略某些 VT100 格式逸出序列。</target>       </trans-unit>
-        <trans-unit id="139" translate="yes" xml:space="preserve">
-          <source>PowerShell also added a new API that can be used in formatting code to determine if VT100 is supported.</source>
-          <target state="translated">PowerShell 也新增了可用於將程式碼格式化的新 API，以判斷是否支援 VT100。</target>       </trans-unit>
-        <trans-unit id="140" translate="yes" xml:space="preserve">
-          <source>For example:</source>
-          <target state="translated">例如：</target>       </trans-unit>
-        <trans-unit id="141" translate="yes" xml:space="preserve">
-          <source>Here is a complete <bpt id="p1">[</bpt>example<ept id="p1">](https://gist.github.com/lzybkr/dcb973dccd54900b67783c48083c28f7)</ept> that can be used to highlight matches from Select-String.</source>
-          <target state="translated">以下是可用來反白 Select-String 相符項目的完整<bpt id="p1">[</bpt>範例<ept id="p1">](https://gist.github.com/lzybkr/dcb973dccd54900b67783c48083c28f7)</ept>。</target>       </trans-unit>
-        <trans-unit id="142" translate="yes" xml:space="preserve">
-          <source>Save the example in a file named <ph id="ph1">`MatchInfo.format.ps1xml`</ph>, then to use it, in your profile or elsewhere, run <ph id="ph2">`Update-FormatData -Prepend MatchInfo.format.ps1xml`</ph>.</source>
-          <target state="translated">將範例儲存在名為 <ph id="ph1">`MatchInfo.format.ps1xml`</ph> 的檔案中，然後在您的設定檔或其他位置執行 <ph id="ph2">`Update-FormatData -Prepend MatchInfo.format.ps1xml`</ph> 以便加以使用。</target>       </trans-unit>
-        <trans-unit id="143" translate="yes" xml:space="preserve">
-          <source>Note that VT100 escape sequences are only supported starting with the Windows 10 Anniversary update; they are not supported on earlier systems.</source>
-          <target state="translated">請注意，從 Windows 10 年度更新版開始才支援 VT100 逸出序列，舊版系統不支援。</target>       </trans-unit>
-        <trans-unit id="144" translate="yes" xml:space="preserve">
-          <source>Vi mode support in PSReadline</source>
-          <target state="translated">PSReadline 的 Vi 模式支援</target>       </trans-unit>
-        <trans-unit id="145" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">[</bpt>PSReadline<ept id="p1">](https://github.com/lzybkr/PSReadLine)</ept> adds support for vi mode.</source>
-          <target state="translated"><bpt id="p1">[</bpt>PSReadline<ept id="p1">](https://github.com/lzybkr/PSReadLine)</ept> 加入了對 vi 模式的支援。</target>       </trans-unit>
-        <trans-unit id="146" translate="yes" xml:space="preserve">
-          <source>To use vi mode, run <ph id="ph1">`Set-PSReadline -EditMode vi`</ph>.</source>
-          <target state="translated">若要使用 vi 模式，請執行 <ph id="ph1">`Set-PSReadline -EditMode vi`</ph>。</target>       </trans-unit>
-        <trans-unit id="147" translate="yes" xml:space="preserve">
-          <source>Redirected stdin w/ interactive input</source>
-          <target state="translated">以互動輸入重新導向的 stdin</target>       </trans-unit>
-        <trans-unit id="148" translate="yes" xml:space="preserve">
-          <source>In earlier versions, starting PowerShell with <ph id="ph1">`powershell -File -`</ph> was required when stdin was redirected and you wanted to enter commands interactively.</source>
-          <target state="translated">在舊版中，重新導向 stdin 且要以互動方式輸入命令時，需要使用 <ph id="ph1">`powershell -File -`</ph> 啟動 PowerShell。</target>       </trans-unit>
-        <trans-unit id="149" translate="yes" xml:space="preserve">
-          <source>With WMF 5.1, this hard to discover option is no longer necessary, you can start powershell without any options, e.g. <ph id="ph1">`powershell`</ph>.</source>
-          <target state="translated">有了 WMF 5.1，即不再需要這個難以探索的選項，您可以不用任何選項啟動 PowerShell，例如 <ph id="ph1">`powershell`</ph>。</target>       </trans-unit>
-        <trans-unit id="150" translate="yes" xml:space="preserve">
-          <source>Note that PSReadline does not currently supported redirected stdin, and the builtin commanding line editing experience with redirected stdin is extremely limited, e.g. arrow keys don't work.</source>
-          <target state="translated">請注意，PSReadline 目前不支援重新導向的 stdin，而附重新導向的 stdin 的內建命令列編輯經驗極受限制，例如方向鍵無法運作。</target>       </trans-unit>
-        <trans-unit id="151" translate="yes" xml:space="preserve">
-          <source>A future release of PSReadline should address this issue.</source>
-          <target state="translated">新版的 PSReadline 應該會解決這個問題。</target>       </trans-unit>
-        <trans-unit id="152" translate="yes" xml:space="preserve">
-          <source>PowerShell engine improvements</source>
-          <target state="translated">PowerShell 引擎改善</target>       </trans-unit>
-        <trans-unit id="153" translate="yes" xml:space="preserve">
-          <source>The following improvements to the core PowerShell engine have been implemented in WMF 5.1:</source>
-          <target state="translated">WMF 5.1 已實作核心 PowerShell 引擎的下列改善︰</target>       </trans-unit>
         <trans-unit id="154" translate="yes" xml:space="preserve">
-          <source>Performance</source>
-          <target state="translated">效能</target>       </trans-unit>
+          <source>Improvements to Pester</source>
+          <target state="translated">Pester 的改善</target>       </trans-unit>
         <trans-unit id="155" translate="yes" xml:space="preserve">
-          <source>Performance has improved in some important areas:</source>
-          <target state="translated">某些重要區域的效能已改善︰</target>       </trans-unit>
+          <source>In WMF 5.1, the version of Pester that ships with PowerShell has been updated from 3.3.5 to 3.4.0, with the addition of commit https://github.com/pester/Pester/pull/484/commits/3854ae8a1f215b39697ac6c2607baf42257b102e, which enables better behavior for Pester on Nano.</source>
+          <target state="translated">在 WMF 5.1 中，PowerShell 隨附的 Pester 版本已從 3.3.5 更新至 3.4.0，加上認可 https://github.com/pester/Pester/pull/484/commits/3854ae8a1f215b39697ac6c2607baf42257b102e，讓 Pester 在 Nano 上有更好的表現。</target>       </trans-unit>
         <trans-unit id="156" translate="yes" xml:space="preserve">
-          <source>Startup</source>
-          <target state="translated">啟動</target>       </trans-unit>
-        <trans-unit id="157" translate="yes" xml:space="preserve">
-          <source>Pipelining to cmdlets like ForEach-Object and Where-Object is approximately 50% faster</source>
-          <target state="translated">管線到 ForEach-Object 和 Where-Object 等 Cmdlet 大約快了 50%</target>       </trans-unit>
-        <trans-unit id="158" translate="yes" xml:space="preserve">
-          <source>Some example improvements (your results may vary depending your your hardware):</source>
-          <target state="translated">一些改善範例 (結果隨硬體而有不同)：</target>       </trans-unit>
-        <trans-unit id="159" translate="yes" xml:space="preserve">
-          <source>Scenario</source>
-          <target state="translated">案例</target>       </trans-unit>
-        <trans-unit id="160" translate="yes" xml:space="preserve">
-          <source>5.0 Time (ms)</source>
-          <target state="translated">5.0 的時間 (毫秒)</target>       </trans-unit>
-        <trans-unit id="161" translate="yes" xml:space="preserve">
-          <source>5.1 Time (ms)</source>
-          <target state="translated">5.1 的時間 (毫秒)</target>       </trans-unit>
-        <trans-unit id="162" translate="yes" xml:space="preserve">
-          <source>900</source>
-          <target state="translated">900</target>       </trans-unit>
-        <trans-unit id="163" translate="yes" xml:space="preserve">
-          <source>250</source>
-          <target state="translated">250</target>       </trans-unit>
-        <trans-unit id="164" translate="yes" xml:space="preserve">
-          <source>First ever PowerShell run:</source>
-          <target state="translated">PowerShell 首次執行︰</target>       </trans-unit>
-        <trans-unit id="165" translate="yes" xml:space="preserve">
-          <source>30000</source>
-          <target state="translated">30000</target>       </trans-unit>
-        <trans-unit id="166" translate="yes" xml:space="preserve">
-          <source>13000</source>
-          <target state="translated">13000</target>       </trans-unit>
-        <trans-unit id="167" translate="yes" xml:space="preserve">
-          <source>Command analysis cache built:</source>
-          <target state="translated">命令分析快取組建︰</target>       </trans-unit>
-        <trans-unit id="168" translate="yes" xml:space="preserve">
-          <source>7000</source>
-          <target state="translated">7000</target>       </trans-unit>
-        <trans-unit id="169" translate="yes" xml:space="preserve">
-          <source>520</source>
-          <target state="translated">520</target>       </trans-unit>
-        <trans-unit id="170" translate="yes" xml:space="preserve">
-          <source>`1..1000000</source>
-          <target state="translated">`1..1000000</target>       </trans-unit>
-        <trans-unit id="171" translate="yes" xml:space="preserve">
-          <source>% { }`</source>
-          <target state="translated">% { }`</target>       </trans-unit>
-        <trans-unit id="172" translate="yes" xml:space="preserve">
-          <source>1400</source>
-          <target state="translated">1400</target>       </trans-unit>
-        <trans-unit id="173" translate="yes" xml:space="preserve">
-          <source>750</source>
-          <target state="translated">750</target>       </trans-unit>
-        <trans-unit id="174" translate="yes" xml:space="preserve">
-          <source>One change related to startup might impact some unsupported scenarios.</source>
-          <target state="translated">與啟動相關的一項變更，可能影響到某些不受支援的案例。</target>       </trans-unit>
-        <trans-unit id="175" translate="yes" xml:space="preserve">
-          <source>PowerShell no longer reads the files <ph id="ph1">`$pshome\*.ps1xml`</ph> - these files have been converted to C# to avoid some file and CPU overhead of processing the XML files.</source>
-          <target state="translated">PowerShell 不再讀取 <ph id="ph1">`$pshome\*.ps1xml`</ph> 檔案，這些檔案已轉換成 C#，以避免處理 XML 檔案的一些檔案和 CPU 負荷。</target>       </trans-unit>
-        <trans-unit id="176" translate="yes" xml:space="preserve">
-          <source>The files still exist to support V2 side-by-side, so if you change the file contents, it will not have any effect to V5, only V2.</source>
-          <target state="translated">這些檔案對 V2 的支援仍然不變，因此，若變更檔案內容，對 V5 沒有任何效果，只對 V2 有效果。</target>       </trans-unit>
-        <trans-unit id="177" translate="yes" xml:space="preserve">
-          <source>Note that changing the contents of these files was never a supported scenario.</source>
-          <target state="translated">請注意，變更這些檔案內容向來是不受支援的案例。</target>       </trans-unit>
-        <trans-unit id="178" translate="yes" xml:space="preserve">
-          <source>Another visible change is how PowerShell caches the exported commands and other information for modules that are installed on a system.</source>
-          <target state="translated">另一個明顯的變更，是 PowerShell 如何快取匯出的命令和安裝在系統上的模組其他資訊。</target>       </trans-unit>
-        <trans-unit id="179" translate="yes" xml:space="preserve">
-          <source>Previous, this cache was stored in the directory <ph id="ph1">`$env:LOCALAPPDATA\Microsoft\Windows\PowerShell\CommandAnalysis`</ph>.</source>
-          <target state="translated">以往，此快取儲存於 <ph id="ph1">`$env:LOCALAPPDATA\Microsoft\Windows\PowerShell\CommandAnalysis`</ph> 目錄。</target>       </trans-unit>
-        <trans-unit id="180" translate="yes" xml:space="preserve">
-          <source>In WMF 5.1, the cache is a single file <ph id="ph1">`$env:LOCALAPPDATA\Microsoft\Windows\PowerShell\ModuleAnalysisCache`</ph>.</source>
-          <target state="translated">在 WMF 5.1，快取是單一的 <ph id="ph1">`$env:LOCALAPPDATA\Microsoft\Windows\PowerShell\ModuleAnalysisCache`</ph> 檔案。</target>       </trans-unit>
-        <trans-unit id="181" translate="yes" xml:space="preserve">
-          <source>See <bpt id="p1">[</bpt>analysis_cache.md<ept id="p1">]()</ept> for more details.</source>
-          <target state="translated">如需詳細資訊，請參閱 <bpt id="p1">[</bpt>analysis_cache.md<ept id="p1">]()</ept>。</target>       </trans-unit>
-        <trans-unit id="182" translate="yes" xml:space="preserve">
-          <source>Bug fixes</source>
-          <target state="translated">Bug 修正</target>       </trans-unit>
-        <trans-unit id="183" translate="yes" xml:space="preserve">
-          <source>The following notable bugs were fixed:</source>
-          <target state="translated">已修正下列重大 Bug︰</target>       </trans-unit>
-        <trans-unit id="184" translate="yes" xml:space="preserve">
-          <source>Module auto-discovery fully honors</source>
-          <target state="translated">完全接受模組自動探索</target>       </trans-unit>
-        <trans-unit id="185" translate="yes" xml:space="preserve">
-          <source>Module auto-discovery (loading modules automatically without an explicit Import-Module when calling a command) was introduced in WMF 3.</source>
-          <target state="translated">WMF 3 中引進了模組自動探索 (呼叫命令時自動載入模組，不需要明確的 Import-Module)。</target>       </trans-unit>
-        <trans-unit id="186" translate="yes" xml:space="preserve">
-          <source>When introduced, PowerShell checked for commands in <ph id="ph1">`$PSHome\Modules`</ph> before using <ph id="ph2">`$env:PSModulePath`</ph>.</source>
-          <target state="translated">當初引入後，PowerShell 會先檢查 <ph id="ph1">`$PSHome\Modules`</ph> 中有沒有命令，再使用 <ph id="ph2">`$env:PSModulePath`</ph>。</target>       </trans-unit>
-        <trans-unit id="187" translate="yes" xml:space="preserve">
-          <source>WMF 5.1 changes this behavior to honor <ph id="ph1">`$env:PSModulePath`</ph> completely.</source>
-          <target state="translated">WMF 5.1 將此行為變更為完全接受 <ph id="ph1">`$env:PSModulePath`</ph>。</target>       </trans-unit>
-        <trans-unit id="188" translate="yes" xml:space="preserve">
-          <source>This allows for a user-authored module that defines commands provided by PowerShell (e.g. <ph id="ph1">`Get-ChildItem`</ph>) to be auto-loaded and correctly overriding the built-in command.</source>
-          <target state="translated">這讓使用者撰寫之定義 PowerShell 所提供命令的模組 (例如 <ph id="ph1">`Get-ChildItem`</ph>) 自動載入並正確覆寫內建的命令。</target>       </trans-unit>
-        <trans-unit id="189" translate="yes" xml:space="preserve">
-          <source>File redirection no longer hard-codes</source>
-          <target state="translated">檔案重新導向不再需要硬式編碼</target>       </trans-unit>
-        <trans-unit id="190" translate="yes" xml:space="preserve">
-          <source>In all previous versions of PowerShell, it was impossible to control the file encoding used by the file redirection operator, e.g. <ph id="ph1">`get-childitem &gt; out.txt`</ph> because PowerShell added <ph id="ph2">`-Encoding Unicode`</ph>.</source>
-          <target state="translated">所有舊版的 PowerShell 都不可能控制檔案重新導向運算子所使用的檔案編碼，例如 <ph id="ph1">`get-childitem &gt; out.txt`</ph>，因為 PowerShell 新增了 <ph id="ph2">`-Encoding Unicode`</ph>。</target>       </trans-unit>
-        <trans-unit id="191" translate="yes" xml:space="preserve">
-          <source>Starting with WMF 5.1, you can now change the file encoding of redirection by setting <ph id="ph1">`$PSDefaultParameterValues`</ph>, e.g.</source>
-          <target state="translated">但從 WMF 5.1 開始，您可以設定 <ph id="ph1">`$PSDefaultParameterValues`</ph> 來變更重新導向的檔案編碼方式，例如︰</target>       </trans-unit>
-        <trans-unit id="192" translate="yes" xml:space="preserve">
-          <source>Fixed a regression in accessing members of</source>
-          <target state="translated">修正存取下列項目成員時的迴歸問題：</target>       </trans-unit>
-        <trans-unit id="193" translate="yes" xml:space="preserve">
-          <source>A regression introduced in WMF 5.0 broke accessing members of <ph id="ph1">`System.Reflection.RuntimeType`</ph>, e.g. <ph id="ph2">`[int].ImplementedInterfaces`</ph>.</source>
-          <target state="translated">WMF 5.0 引入的迴歸會中斷存取 <ph id="ph1">`System.Reflection.RuntimeType`</ph> 成員的程序，例如 <ph id="ph2">`[int].ImplementedInterfaces`</ph>。</target>       </trans-unit>
-        <trans-unit id="194" translate="yes" xml:space="preserve">
-          <source>This bug has been fixed in WMF5.1.</source>
-          <target state="translated">WMF5.1 已修正這個 Bug。</target>       </trans-unit>
-        <trans-unit id="195" translate="yes" xml:space="preserve">
-          <source>Fixed some issues with COM objects</source>
-          <target state="translated">修正 COM 物件的一些問題</target>       </trans-unit>
-        <trans-unit id="196" translate="yes" xml:space="preserve">
-          <source>WMF 5.0 introduced a new COM binder for invoking methods on COM objects and accessing properties of COM objects.</source>
-          <target state="translated">WMF 5.0 引入新的 COM 繫結器，可對 COM 物件叫用方法以及存取 COM 物件的屬性。</target>       </trans-unit>
-        <trans-unit id="197" translate="yes" xml:space="preserve">
-          <source>This new binder improved performance significantly but also introduced some bugs which have been fixed in WMF5.1.</source>
-          <target state="translated">此新的繫結器大幅改善了效能，卻也造成了一些 Bug，WMF5.1 已加以修正。</target>       </trans-unit>
-        <trans-unit id="198" translate="yes" xml:space="preserve">
-          <source>Argument conversions were not always performed correctly</source>
-          <target state="translated">不一定會正確執行引數轉換</target>       </trans-unit>
-        <trans-unit id="199" translate="yes" xml:space="preserve">
-          <source>In the following example:</source>
-          <target state="translated">在下例中︰</target>       </trans-unit>
-        <trans-unit id="200" translate="yes" xml:space="preserve">
-          <source>The SendKeys method expects a string, but PowerShell did not convert the char to a string, deferring the conversion to IDispatch::Invoke, which uses VariantChangeType to do the conversion, which in this example resulted in sending the keys '1', '7', and '3' instead of the expected Volume.Mute key.</source>
-          <target state="translated">SendKeys 方法預期的是字串，但 PowerShell 並未將字元轉換成字串，將轉換延後至 IDispatch::Invoke，使用 VariantChangeType 進行轉換，以致本例傳送了 '1'、'7' 和 '3' 機碼，而不是預期的 Volume.Mute 機碼。</target>       </trans-unit>
-        <trans-unit id="201" translate="yes" xml:space="preserve">
-          <source>Enumerable COM objects not always handled correctly</source>
-          <target state="translated">不一定會正確處理可列舉的 COM 物件</target>       </trans-unit>
-        <trans-unit id="202" translate="yes" xml:space="preserve">
-          <source>PowerShell normally enumerates most enumerable objects, but a regression introduced in WMF 5.0 prevented the enumeration of COM objects that implement IEnumerable.</source>
-          <target state="translated">PowerShell 通常會列舉大部分可列舉的物件，但 WMF 5.0 引入的迴歸卻阻擋了列舉實作 IEnumerable 的 COM 物件。</target>       </trans-unit>
-        <trans-unit id="203" translate="yes" xml:space="preserve">
-          <source>For example:</source>
-          <target state="translated">例如：</target>       </trans-unit>
-        <trans-unit id="204" translate="yes" xml:space="preserve">
-          <source>In the above example, WMF 5.0 incorrectly wrote the Scripting.Dictionary to the pipeline instead of enumerating the key value pairs.</source>
-          <target state="translated">上例中，WMF 5.0 在管線中錯誤寫入 Scripting.Dictionary，卻未列舉機碼值組。</target>       </trans-unit>
-        <trans-unit id="205" translate="yes" xml:space="preserve">
-          <source>was not allowed inside classes</source>
-          <target state="translated">在類別中不允許</target>       </trans-unit>
-        <trans-unit id="206" translate="yes" xml:space="preserve">
-          <source>WMF5 introduced classes with validation of type literals used in classes.</source>
-          <target state="translated">WMF5 引入了類別，其具有類別所用的類型常值驗證。</target>       </trans-unit>
-        <trans-unit id="207" translate="yes" xml:space="preserve">
-          <source>looks like a type literal but is not a true .Net type.</source>
-          <target state="translated">看起來像類型常值，卻不是真正的 .Net 類型。</target>       </trans-unit>
-        <trans-unit id="208" translate="yes" xml:space="preserve">
-          <source>WMF5 incorrectly reported an error on <ph id="ph1">`[ordered]`</ph> inside a class:</source>
-          <target state="translated">WMF5 誤報類別內發生 <ph id="ph1">`[ordered]`</ph> 錯誤︰</target>       </trans-unit>
-        <trans-unit id="209" translate="yes" xml:space="preserve">
-          <source>Help on About topics with multiple versions does not work</source>
-          <target state="translated">多版本的說明主題無法運作</target>       </trans-unit>
-        <trans-unit id="210" translate="yes" xml:space="preserve">
-          <source>Before WMF 5.1, if you had multiple versions of a module installed and they all shared a help topic, for example, about_PSReadline, <ph id="ph1">`help about_PSReadline`</ph> would return multiple topics with no obvious way to view the real help.</source>
-          <target state="translated">在 WMF 5.1 以前，如果安裝了多個版本的模組，而它們都共用一個說明主題，例如，about_PSReadline，則 <ph id="ph1">`help about_PSReadline`</ph> 會傳回多個主題，但沒有明確的方法可以檢視實際的說明。</target>       </trans-unit>
-        <trans-unit id="211" translate="yes" xml:space="preserve">
-          <source>WMF 5.1 fixes this by returning the help for the latest version of the topic.</source>
-          <target state="translated">WMF 5.1 藉由傳回最新版本的說明主題，以修正此問題。</target>       </trans-unit>
-        <trans-unit id="212" translate="yes" xml:space="preserve">
-          <source>Get-Help does not provide a way to specify which version you want help for.</source>
-          <target state="translated">Get-Help 不提供指定所需說明版本的方法。</target>       </trans-unit>
-        <trans-unit id="213" translate="yes" xml:space="preserve">
-          <source>To work around this, navigate to the modules directory and view the help directly with a tool like your favorite editor.</source>
-          <target state="translated">若要解決這個問題，請瀏覽到模組目錄，直接使用您偏好的編輯器等工具檢視說明。</target>       </trans-unit>
-        <trans-unit id="214" translate="yes" xml:space="preserve">
-          <source>OneGet improvements</source>
-          <target state="translated">OneGet 改善</target>       </trans-unit>
-        <trans-unit id="215" translate="yes" xml:space="preserve">
-          <source>WMF 5.1 includes a number of fixes and improvements to address some of the user experience gaps in the WMF 5.0 release.</source>
-          <target state="translated">WMF 5.1 包含數個修正和改善，以解決 WMF 5.0 版本中的某些使用者體驗落差。</target>       </trans-unit>
-        <trans-unit id="216" translate="yes" xml:space="preserve">
-          <source>Version alias removed</source>
-          <target state="translated">已移除版本別名</target>       </trans-unit>
-        <trans-unit id="217" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Scenario<ept id="p1">**</ept>: If you have version 1.0 and 2.0 of a package, P1, installed on your system, and you want to uninstall version 1.0, you would run "uninstall-package -name P1 -version 1.0" and expect version 1.0 to be uninstalled after running the cmdlet.</source>
-          <target state="translated"><bpt id="p1">**</bpt>案例<ept id="p1">**</ept>︰如果您已在系統上安裝了 1.0 及 2.0 版的封裝 P1，而您想要將 1.0 版解除安裝，您可以執行 "uninstall-package -name P1 -version 1.0"，預期執行 Cmdlet 之後就會將 1.0 版解除安裝。</target>       </trans-unit>
-        <trans-unit id="218" translate="yes" xml:space="preserve">
-          <source>However the result is that version 2.0 gets uninstalled.</source>
-          <target state="translated">不過，結果卻是將 2.0 版解除安裝。</target>       </trans-unit>
-        <trans-unit id="219" translate="yes" xml:space="preserve">
-          <source>This occurs because the "-version" parameter is an alias of the "-minimumversion" parameter.</source>
-          <target state="translated">這是因為 "-version" 參數是 "-minimumversion" 參數的別名。</target>       </trans-unit>
-        <trans-unit id="220" translate="yes" xml:space="preserve">
-          <source>When OneGet is looking for a qualified package with the minimum version of 1.0, it returns the latest version.</source>
-          <target state="translated">當 OneGet 在尋找至少 1.0 版的完整封裝時，會傳回最新的版本。</target>       </trans-unit>
-        <trans-unit id="221" translate="yes" xml:space="preserve">
-          <source>This behavior is expected in normal cases because finding the latest version is usually the desired result.</source>
-          <target state="translated">正常情況下會發生此行為，因為尋找最新版本通常是我們想要的結果。</target>       </trans-unit>
-        <trans-unit id="222" translate="yes" xml:space="preserve">
-          <source>However, it should not apply to the uninstall-package case.</source>
-          <target state="translated">只不過，不應該套用到將封裝解除安裝的情況上。</target>       </trans-unit>
-        <trans-unit id="223" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Solution<ept id="p1">**</ept>: In WMF 5.1, the -version alias is removed entirely in OneGet and PowerShellGet.</source>
-          <target state="translated"><bpt id="p1">**</bpt>解決方案<ept id="p1">**</ept>︰WMF 5.1 完全移除 OneGet 和 PowerShellGet 中的 -version 別名。</target>       </trans-unit>
-        <trans-unit id="224" translate="yes" xml:space="preserve">
-          <source>Multiple prompts for bootstrapping the NuGet provider</source>
-          <target state="translated">多次提示啟動載入 NuGet 提供者</target>       </trans-unit>
-        <trans-unit id="225" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Scenario<ept id="p1">**</ept>: When you run Find-Module or Install-module or other OneGet cmdlets on your computer for the first time, OneGet tries to bootstrap the NuGet provider.</source>
-          <target state="translated"><bpt id="p1">**</bpt>案例<ept id="p1">**</ept>：當您第一次在電腦上執行 Find-Module 或 Install-module 或其他 OneGet Cmdlet 時，OneGet 嘗試啟動載入 NuGet 提供者。</target>       </trans-unit>
-        <trans-unit id="226" translate="yes" xml:space="preserve">
-          <source>It does this because the PowerShellGet provider also uses the NuGet provider to download PowerShell modules.</source>
-          <target state="translated">它之所以如此做，是因為 PowerShellGet 提供者也使用 NuGet 提供者下載 PowerShell 模組。</target>       </trans-unit>
-        <trans-unit id="227" translate="yes" xml:space="preserve">
-          <source>OneGet then prompts the user for permission to install the NuGet provider.</source>
-          <target state="translated">接著，OneGet 會提示使用者提供安裝 NuGet 提供者的權限。</target>       </trans-unit>
-        <trans-unit id="228" translate="yes" xml:space="preserve">
-          <source>After the user selects "yes" for the bootstrapping, the latest version of the NuGet provider will be installed.</source>
-          <target state="translated">在使用者選取 [是] 啟動載入之後，就會安裝最新版的 NuGet 提供者。</target>       </trans-unit>
-        <trans-unit id="229" translate="yes" xml:space="preserve">
-          <source>However, in some cases, when you have an old version of NuGet provider installed on your computer, the older version of NuGet sometimes gets loaded first into the PowerShell session (that's the race condition in OneGet).</source>
-          <target state="translated">不過在某些情況下，當電腦上安裝了較舊版本的 NuGet 提供者時，有時 PowerShell 工作階段會先載入舊版的 NuGet (亦即 OneGet 中的競爭條件)。</target>       </trans-unit>
-        <trans-unit id="230" translate="yes" xml:space="preserve">
-          <source>However PowerShellGet requires the later version of the NuGet provider to work, so PowerShellGet asks the OneGet for bootstrapping the NuGet provider again.</source>
-          <target state="translated">不過，PowerShellGet 需要較新版本的 NuGet 提供者工作，因此 PowerShellGet 會要求 OneGet 再次啟動載入 NuGet 提供者。</target>       </trans-unit>
-        <trans-unit id="231" translate="yes" xml:space="preserve">
-          <source>This results in multiple prompts for bootstrapping the NuGet provider.</source>
-          <target state="translated">以致多次提示啟動載入 NuGet 提供者。</target>       </trans-unit>
-        <trans-unit id="232" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Solution<ept id="p1">**</ept>: In WMF 5.1, OneGet now loads the latest version of the NuGet provider to avoid multiple prompts for bootstrapping the NuGet provider.</source>
-          <target state="translated"><bpt id="p1">**</bpt>解決方案<ept id="p1">**</ept>︰在 WMF 5.1 中，OneGet 會載入最新版的 NuGet 提供者，避免多次提示啟動載入 NuGet 提供者。</target>       </trans-unit>
-        <trans-unit id="233" translate="yes" xml:space="preserve">
-          <source>You could also work around this issue by manually deleting the old version of the NuGet provider (NuGet-Anycpu.exe) if exists from $env:ProgramFiles\PackageManagement\ProviderAssemblies $env:LOCALAPPDATA\PackageManagement\ProviderAssemblies</source>
-          <target state="translated">如果 $env: ProgramFiles\PackageManagement\ProviderAssemblies $env: LOCALAPPDATA\PackageManagement\ProviderAssemblies 有舊版的 NuGet 提供者，您也可以手動刪除舊版 (NuGet Anycpu.exe) 解決這個問題。</target>       </trans-unit>
-        <trans-unit id="234" translate="yes" xml:space="preserve">
-          <source>Support for OneGet on computers with intranet access only</source>
-          <target state="translated">只有內部網路存取權電腦的 OneGet 支援</target>       </trans-unit>
-        <trans-unit id="235" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Scenario<ept id="p1">**</ept>: In WMF 5.0, OneGet did not support computers that have only intranet (but not internet) access.</source>
-          <target state="translated"><bpt id="p1">**</bpt>案例<ept id="p1">**</ept>︰以前在 WMF 5.0 中，OneGet 不支援只能存取內部網路 (不能存取網際網路) 的電腦。</target>       </trans-unit>
-        <trans-unit id="236" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Solution<ept id="p1">**</ept>: In WMF 5.1, you can follow these steps to allow intranet computers to use OneGet:</source>
-          <target state="translated"><bpt id="p1">**</bpt>解決方案<ept id="p1">**</ept>︰在 WMF 5.1，您可以依照這些步驟允許內部網路電腦使用 OneGet：</target>       </trans-unit>
-        <trans-unit id="237" translate="yes" xml:space="preserve">
-          <source>Download the NuGet provider using another computer that has an internet connection by using Install-PackageProvider NuGet.</source>
-          <target state="translated">使用 Install-PackageProvider NuGet，用具有網際網路連線的其他電腦下載 NuGet 提供者。</target>       </trans-unit>
-        <trans-unit id="238" translate="yes" xml:space="preserve">
-          <source>Find the NuGet provider under either  $env:ProgramFiles\PackageManagement\ProviderAssemblies\nuget  or  $env:LOCALAPPDATA\PackageManagement\ProviderAssemblies\nuget.</source>
-          <target state="translated">在 $env:ProgramFiles\PackageManagement\ProviderAssemblies\nuget 或 $env:LOCALAPPDATA\PackageManagement\ProviderAssemblies\nuget 下尋找 NuGet 提供者。</target>       </trans-unit>
-        <trans-unit id="239" translate="yes" xml:space="preserve">
-          <source>Copy the binaries to a folder or network share location that the intranet computer can access, and then install the NuGet provider with "Install-PackageProvider NuGet -Source <ph id="ph1">&lt;Path to folder&gt;</ph>".</source>
-          <target state="translated">將二進位檔複製到內部網路電腦可以存取的資料夾或網路共用位置，然後以 "Install-PackageProvider NuGet -Source <ph id="ph1">&lt;Path to folder&gt;</ph>" 安裝 NuGet 提供者。</target>       </trans-unit>
-        <trans-unit id="240" translate="yes" xml:space="preserve">
-          <source>Event logging improvements</source>
-          <target state="translated">事件記錄的改善</target>       </trans-unit>
-        <trans-unit id="241" translate="yes" xml:space="preserve">
-          <source>When you install packages, you are changing the state of the computer.</source>
-          <target state="translated">安裝封裝即是變更電腦的狀態。</target>       </trans-unit>
-        <trans-unit id="242" translate="yes" xml:space="preserve">
-          <source>In WMF 5.1, OneGet now logs events to the Windows event log for install, uninstall, and save-package activities.</source>
-          <target state="translated">在 WMF 5.1 中，OneGet 會將安裝、解除安裝和儲存封裝活動等事件記錄在 Windows 事件記錄檔。</target>       </trans-unit>
-        <trans-unit id="243" translate="yes" xml:space="preserve">
-          <source>The Event channel is the same as for PowerShell, that is, Microsoft-Windows-PowerShell, Operational.</source>
-          <target state="translated">事件通道和 PowerShell 的一樣，亦即 Microsoft-Windows-PowerShell、Operational。</target>       </trans-unit>
-        <trans-unit id="244" translate="yes" xml:space="preserve">
-          <source>Support for basic authentication</source>
-          <target state="translated">支援基本驗證</target>       </trans-unit>
-        <trans-unit id="245" translate="yes" xml:space="preserve">
-          <source>In WMF 5.1, OneGet supports finding and installing packages from a repository that requires basic authentication.</source>
-          <target state="translated">在 WMF 5.1 中，OneGet 支援從需要基本驗證的儲存機制尋找和安裝封裝。</target>       </trans-unit>
-        <trans-unit id="246" translate="yes" xml:space="preserve">
-          <source>You can supply your credentials to the Find-Package and Install-Package cmdlets.</source>
-          <target state="translated">您可以向 Find-Package 和 Install-Package Cmdlet 提供您的認證。</target>       </trans-unit>
-        <trans-unit id="247" translate="yes" xml:space="preserve">
-          <source>For example:</source>
-          <target state="translated">例如：</target>       </trans-unit>
-        <trans-unit id="248" translate="yes" xml:space="preserve">
-          <source>Support for using OneGet behind a proxy</source>
-          <target state="translated">支援在 Proxy 後方使用 OneGet</target>       </trans-unit>
-        <trans-unit id="249" translate="yes" xml:space="preserve">
-          <source>In WMF 5.1, OneGet now takes new proxy parameters: -ProxyCredential and -Proxy.</source>
-          <target state="translated">在 WMF 5.1 中，OneGet 現在採用新的 Proxy 參數：-ProxyCredential 和 -Proxy。</target>       </trans-unit>
-        <trans-unit id="250" translate="yes" xml:space="preserve">
-          <source>Using these parameters, you can specify the proxy URL and credentials to OneGet cmdlets.</source>
-          <target state="translated">您可以使用這些參數，在 OneGet Cmdlet 指定 Proxy URL 和認證。</target>       </trans-unit>
-        <trans-unit id="251" translate="yes" xml:space="preserve">
-          <source>By default, system proxy settings are used.</source>
-          <target state="translated">預設使用系統 Proxy 設定。</target>       </trans-unit>
-        <trans-unit id="252" translate="yes" xml:space="preserve">
-          <source>For example:</source>
-          <target state="translated">例如：</target>       </trans-unit>
+          <source>You can review the changes in versions 3.3.5 to 3.4.0 by inspecting the ChangeLog.md file at: https://github.com/pester/Pester/blob/master/CHANGELOG.md</source>
+          <target state="translated">您可以檢查 https://github.com/pester/Pester/blob/master/CHANGELOG.md 的 ChangeLog.md 檔案，檢閱 3.3.5 版至 3.4.0 版的變更。</target>       </trans-unit>
       </group>
     </body>
   </file>
