@@ -3,7 +3,7 @@
   <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
     <header>
       <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-22243b3" tool-company="Microsoft" />
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9341b7fc3feea20cc2434065c3e512d1a8dd2b54</xliffext:olfilehash>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">01d7ac9815a8650f36150e36b4f6942f451dc368</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\scenarios-features.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
@@ -47,425 +47,137 @@
           <source>Prevent script execution unless run on a comaptible edition of PowerShell</source>
           <target state="translated">互換性のある PowerShell のエディションで実行しない場合はスクリプトを実行させない</target>       </trans-unit>
         <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Catalog Cmdlets</source>
+          <target state="translated">カタログ コマンドレット</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Two new cmdlets have been added in the <bpt id="p1">[</bpt>Microsoft.Powershell.Secuity<ept id="p1">](https://technet.microsoft.com/en-us/library/hh847877.aspx)</ept> module; these generate and validate windows catalog files.</source>
+          <target state="translated"><bpt id="p1">[</bpt>Microsoft.Powershell.Secuity<ept id="p1">](https://technet.microsoft.com/en-us/library/hh847877.aspx)</ept> モジュールに新しいコマンドレットが 2 つ追加されました。Windows カタログ ファイルを生成し、検証するコマンドレットです。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>New-FileCatalog</source>
+          <target state="translated">New-FileCatalog</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>New File catalog creates a Windows catalog file for set of folders and files.</source>
+          <target state="translated">New-FileCatalog は、一連のフォルダーやファイルに対して Windows カタログ ファイルを作成します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This catalog file contains hashes for all files in specified paths.</source>
+          <target state="translated">このカタログ ファイルには、指定されたパスのすべてのファイルのハッシュが含まれています。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Users can distribute the set of folders along with corresponding catalog file representing those folders.</source>
+          <target state="translated">ユーザーは一連のフォルダーと共に、それらのフォルダーを表すカタログ ファイルを配信できます。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This information is useful to validate whether any changes have been made to the folders since catalog creation time.</source>
+          <target state="translated">カタログ作成時刻以降、フォルダーに変更が加えられたかどうかを検証するとき、この情報が役立ちます。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Catalog versions 1 and 2 are supported.</source>
+          <target state="translated">カタログ バージョン 1 と 2 がサポートされています。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Version 1 uses the SHA1 hashing algorithm to create file hashes; version 2 uses SHA256.</source>
+          <target state="translated">バージョン 1 は SHA1 ハッシュ アルゴリズムを使用して、バージョン 2 は SHA256 ハッシュ アルゴリズムを使用してファイル ハッシュを作成します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Catalog version 2 is not supported on <bpt id="p1">*</bpt>Windows Server 2008 R2<ept id="p1">*</ept> or <bpt id="p2">*</bpt>Windows 7<ept id="p2">*</ept>.</source>
+          <target state="translated"><bpt id="p1">*</bpt>Windows Server 2008 R2<ept id="p1">*</ept> と <bpt id="p2">*</bpt>Windows 7<ept id="p2">*</ept> はカタログ バージョン 2 に対応していません。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You should use catalog version 2 on <bpt id="p1">*</bpt>Windows 8<ept id="p1">*</ept>, <bpt id="p2">*</bpt>Windows Server 2012<ept id="p2">*</ept>, and later operating systems.</source>
+          <target state="translated">カタログ バージョン 2 は <bpt id="p1">*</bpt>Windows 8<ept id="p1">*</ept>、<bpt id="p2">*</bpt>Windows Server 2012<ept id="p2">*</ept> 以降のオペレーティング システムで利用する必要があります。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This creates the catalog file.</source>
+          <target state="translated">これはカタログ ファイルを作成します。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To verify the integrity of catalog file (Pester.cat in above exmaple), sign it using <bpt id="p1">[</bpt>Set-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849819.aspx)</ept> cmdlet.</source>
+          <target state="translated">カタログ ファイルの整合性を検証するために (上記の例では Pester.cat)、<bpt id="p1">[</bpt>Set-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849819.aspx)</ept> コマンドレットで署名します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Test-FileCatalog</source>
+          <target state="translated">Test-FileCatalog</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Test File catalog validates the catalog representing a set of folders.</source>
+          <target state="translated">Test-FileCatalog は、一連のフォルダーを表すカタログを検証します。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This cmdlet compares all the files hashes and their relative paths found in <bpt id="p1">*</bpt>catalog<ept id="p1">*</ept> with ones on <bpt id="p2">*</bpt>disk<ept id="p2">*</ept>.</source>
+          <target state="translated">このコマンドレットは、<bpt id="p1">*</bpt>カタログ<ept id="p1">*</ept>で見つかったすべてのファイル ハッシュとその相対パスを<bpt id="p2">*</bpt>ディスク<ept id="p2">*</ept>のそれらと比較します。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>If it detects any mismatch between file hashes and paths it returns the status as <bpt id="p1">*</bpt>ValidationFailed<ept id="p1">*</ept>.</source>
+          <target state="translated">ファイル ハッシュとパスの間に不一致が検出された場合、<bpt id="p1">*</bpt>ValidationFailed<ept id="p1">*</ept> というステータスを返します。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Users can retrieve all this information by using the <bpt id="p1">*</bpt>-Detailed<ept id="p1">*</ept> flag.</source>
+          <target state="translated"><bpt id="p1">*</bpt>-Detailed<ept id="p1">*</ept> フラグを利用し、この情報をすべて取得できます。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>It also displays signing status of catalog in <bpt id="p1">*</bpt>Signature<ept id="p1">*</ept> filed which is equivalent to calling <bpt id="p2">[</bpt>Get-AuthenticodeSignature<ept id="p2">](https://technet.microsoft.com/en-us/library/hh849805.aspx)</ept> cmdlet on the catalog file.</source>
+          <target state="translated">提出された<bpt id="p1">*</bpt>署名<ept id="p1">*</ept>には、カタログの署名ステータスも表示されます。これは、カタログ ファイルで <bpt id="p2">[</bpt>Get-AuthenticodeSignature<ept id="p2">](https://technet.microsoft.com/en-us/library/hh849805.aspx)</ept> コマンドレットを呼び出すことと同じです。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Users can also skip any file during validation by using the <bpt id="p1">*</bpt>-FilesToSkip<ept id="p1">*</ept> parameter.</source>
+          <target state="translated"><bpt id="p1">*</bpt>-FilesToSkip<ept id="p1">*</ept> パラメーターを利用し、検証中にファイルをスキップすることもできます。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
           <source>Module Analysis Cache</source>
           <target state="translated">モジュール分析キャッシュ</target>       </trans-unit>
-        <trans-unit id="114" translate="yes" xml:space="preserve">
+        <trans-unit id="134" translate="yes" xml:space="preserve">
           <source>Starting with WMF 5.1, PowerShell provides control over the file that is used to cache data about a module, such as the commands it exports.</source>
           <target state="translated">WMF 5.1 以降の PowerShell では、エクスポートするコマンドなど、モジュールに関するデータのキャッシュに使用されるファイルを制御できます。</target>       </trans-unit>
-        <trans-unit id="115" translate="yes" xml:space="preserve">
+        <trans-unit id="135" translate="yes" xml:space="preserve">
           <source>By default, this cache is stored in the file <ph id="ph1">`${env:LOCALAPPDATA}\Microsoft\Windows\PowerShell\ModuleAnalysisCache`</ph>.</source>
           <target state="translated">既定では、このキャッシュは <ph id="ph1">`${env:LOCALAPPDATA}\Microsoft\Windows\PowerShell\ModuleAnalysisCache`</ph> ファイルに格納されます。</target>       </trans-unit>
-        <trans-unit id="116" translate="yes" xml:space="preserve">
+        <trans-unit id="136" translate="yes" xml:space="preserve">
           <source>The cache is typically read at startup while searching for a command and is written on a background thread sometime after a module is imported.</source>
           <target state="translated">キャッシュは、通常、起動時にコマンドを検索するときに読み取られ、モジュールのインポート後しばらくしてバックグラウンド スレッドで書き込まれます。</target>       </trans-unit>
-        <trans-unit id="117" translate="yes" xml:space="preserve">
+        <trans-unit id="137" translate="yes" xml:space="preserve">
           <source>To change the default location of the cache, set the environment variable PSModuleAnalysisCachePath before starting PowerShell.</source>
           <target state="translated">キャッシュの既定の場所を変更するには、PowerShell を開始する前に、環境変数 PSModuleAnalysisCachePath を設定します。</target>       </trans-unit>
-        <trans-unit id="118" translate="yes" xml:space="preserve">
+        <trans-unit id="138" translate="yes" xml:space="preserve">
           <source>Changes to this environment variable will only affect children processes.</source>
           <target state="translated">この環境変数の変更は、子プロセスのみに影響します。</target>       </trans-unit>
-        <trans-unit id="119" translate="yes" xml:space="preserve">
+        <trans-unit id="139" translate="yes" xml:space="preserve">
           <source>The value should name a full path (including filename) that PowerShell has permission to create and write files.</source>
           <target state="translated">値には、PowerShell がファイルの作成および書き込みアクセス許可を持つ完全なパス (ファイル名を含む) を指定する必要があります。</target>       </trans-unit>
-        <trans-unit id="120" translate="yes" xml:space="preserve">
+        <trans-unit id="140" translate="yes" xml:space="preserve">
           <source>To disable the file cache, set this value to an invalid location, for example:</source>
           <target state="translated">ファイル キャッシュを無効にするには、たとえば次のような無効な場所をこの値に設定します。</target>       </trans-unit>
-        <trans-unit id="121" translate="yes" xml:space="preserve">
+        <trans-unit id="141" translate="yes" xml:space="preserve">
           <source>This sets the path to an invalid device.</source>
           <target state="translated">これは、パスを無効なデバイスに設定します。</target>       </trans-unit>
-        <trans-unit id="122" translate="yes" xml:space="preserve">
+        <trans-unit id="142" translate="yes" xml:space="preserve">
           <source>Iff PowerShell can't write to the path, no error is returned, but you can see error reporting via a tracer:</source>
           <target state="translated">PowerShell がパスに書き込めない場合、エラーは返されませんが、トレーサーでエラー レポートを見ることができます。</target>       </trans-unit>
-        <trans-unit id="123" translate="yes" xml:space="preserve">
+        <trans-unit id="143" translate="yes" xml:space="preserve">
           <source>When writing out the cache, PowerShell will check for modules that no longer exist to avoid an unnecessarily large cache.</source>
           <target state="translated">キャッシュの書き込み時、PowerShell は存在しなくなったモジュールを確認することで、キャッシュが不必要に大きくなるのを防ぎます。</target>       </trans-unit>
-        <trans-unit id="124" translate="yes" xml:space="preserve">
+        <trans-unit id="144" translate="yes" xml:space="preserve">
           <source>Sometimes these checks are not desirable, in which case you can turn them off by setting</source>
           <target state="translated">このような確認が望ましくないことがあり、その場合は無効に設定できます。</target>       </trans-unit>
-        <trans-unit id="125" translate="yes" xml:space="preserve">
+        <trans-unit id="145" translate="yes" xml:space="preserve">
           <source>Setting this environment variable will take effect immediately in the current process.</source>
           <target state="translated">この環境変数の設定は、現在のプロセスで直ちに有効になります。</target>       </trans-unit>
-        <trans-unit id="126" translate="yes" xml:space="preserve">
+        <trans-unit id="146" translate="yes" xml:space="preserve">
           <source>Specifying module version</source>
           <target state="translated">モジュールのバージョンの指定</target>       </trans-unit>
-        <trans-unit id="127" translate="yes" xml:space="preserve">
+        <trans-unit id="147" translate="yes" xml:space="preserve">
           <source>In WMF 5.1, <ph id="ph1">`using module`</ph> behaves the same way as other module-related constructions in PowerShell.</source>
           <target state="translated">WMF 5.1 では、<ph id="ph1">`using module`</ph> は PowerShell の他のモジュール関連構造と同様に動作します。</target>       </trans-unit>
-        <trans-unit id="128" translate="yes" xml:space="preserve">
+        <trans-unit id="148" translate="yes" xml:space="preserve">
           <source>Previously, you had no way to specify a particular module version; if there were multiple versions present, this resulted in an error.</source>
           <target state="translated">以前は、モジュールの特定のバージョンを指定する方法はありませんでした。複数のバージョンが存在する場合、エラーが発生しました。</target>       </trans-unit>
-        <trans-unit id="129" translate="yes" xml:space="preserve">
+        <trans-unit id="149" translate="yes" xml:space="preserve">
           <source>In WMF 5.1:</source>
           <target state="translated">WMF 5.1 では次のようになります。</target>       </trans-unit>
-        <trans-unit id="130" translate="yes" xml:space="preserve">
+        <trans-unit id="150" translate="yes" xml:space="preserve">
           <source>You can use <ph id="ph1">`ModuleSpecification`</ph> <bpt id="p1">[</bpt>hashtable<ept id="p1">](https://msdn.microsoft.com/en-us/library/jj136290(v=vs.85).aspx)</ept>.</source>
           <target state="translated"><ph id="ph1">`ModuleSpecification`</ph> <bpt id="p1">[</bpt>ハッシュ テーブル<ept id="p1">](https://msdn.microsoft.com/en-us/library/jj136290(v=vs.85).aspx)</ept>を使用できます。</target>       </trans-unit>
-        <trans-unit id="131" translate="yes" xml:space="preserve">
+        <trans-unit id="151" translate="yes" xml:space="preserve">
           <source>This hashtable has the same format as <ph id="ph1">`Get-Module -FullyQualifiedName`</ph>.</source>
           <target state="translated">このハッシュテーブルの形式は <ph id="ph1">`Get-Module -FullyQualifiedName`</ph> と同じです。</target>       </trans-unit>
-        <trans-unit id="132" translate="yes" xml:space="preserve">
+        <trans-unit id="152" translate="yes" xml:space="preserve">
           <source>Example:</source>
           <target state="translated">次に例を示します。</target>       </trans-unit>
-        <trans-unit id="133" translate="yes" xml:space="preserve">
+        <trans-unit id="153" translate="yes" xml:space="preserve">
           <source>If there are multiple versions of the module, PowerShell uses the <bpt id="p1">**</bpt>same resolution logic<ept id="p1">**</ept> as <ph id="ph1">`Import-Module`</ph> and doesn't return an error--the same behavior as <ph id="ph2">`Import-Module`</ph> and <ph id="ph3">`Import-DscResource`</ph>.</source>
           <target state="translated">モジュールに複数のバージョンがある場合、PowerShell は<bpt id="p1">**</bpt>同じ解決ロジック<ept id="p1">**</ept>を <ph id="ph1">`Import-Module`</ph> として使用し、エラーを返しません。<ph id="ph2">`Import-Module`</ph> および <ph id="ph3">`Import-DscResource`</ph> と同じ動作です。</target>       </trans-unit>
-        <trans-unit id="134" translate="yes" xml:space="preserve">
-          <source>PowerShell console improvements</source>
-          <target state="translated">PowerShell コンソールの機能強化</target>       </trans-unit>
-        <trans-unit id="135" translate="yes" xml:space="preserve">
-          <source>The following changes have been made to Powershell.exe in WMF 5.1 to improve the console experience:</source>
-          <target state="translated">コンソールのエクスペリエンスを改善するため、WMF 5.1 の Powershell.exe が次のように変更されました。</target>       </trans-unit>
-        <trans-unit id="136" translate="yes" xml:space="preserve">
-          <source>VT100 support</source>
-          <target state="translated">VT100 のサポート</target>       </trans-unit>
-        <trans-unit id="137" translate="yes" xml:space="preserve">
-          <source>Windows 10 added support for <bpt id="p1">[</bpt>VT100 escape sequences<ept id="p1">](https://msdn.microsoft.com/en-us/library/windows/desktop/mt638032(v=vs.85).aspx)</ept>.</source>
-          <target state="translated">Windows 10 では、<bpt id="p1">[</bpt>VT100 エスケープ シーケンス<ept id="p1">](https://msdn.microsoft.com/en-us/library/windows/desktop/mt638032(v=vs.85).aspx)</ept>のサポートが追加されました。</target>       </trans-unit>
-        <trans-unit id="138" translate="yes" xml:space="preserve">
-          <source>PowerShell will ignore certain VT100 formatting escape sequences when calculating table widths.</source>
-          <target state="translated">PowerShell は、テーブルの幅を計算するとき、特定の VT100 書式指定エスケープ シーケンスを無視します。</target>       </trans-unit>
-        <trans-unit id="139" translate="yes" xml:space="preserve">
-          <source>PowerShell also added a new API that can be used in formatting code to determine if VT100 is supported.</source>
-          <target state="translated">また、PowerShell に追加された新しい API を書式指定コードで使用すると、VT100 がサポートされているかどうかを判定できます。</target>       </trans-unit>
-        <trans-unit id="140" translate="yes" xml:space="preserve">
-          <source>For example:</source>
-          <target state="translated">たとえば、次のように入力します。</target>       </trans-unit>
-        <trans-unit id="141" translate="yes" xml:space="preserve">
-          <source>Here is a complete <bpt id="p1">[</bpt>example<ept id="p1">](https://gist.github.com/lzybkr/dcb973dccd54900b67783c48083c28f7)</ept> that can be used to highlight matches from Select-String.</source>
-          <target state="translated">これは、Select-String からの一致を強調表示するために使用できる完全な<bpt id="p1">[</bpt>例<ept id="p1">](https://gist.github.com/lzybkr/dcb973dccd54900b67783c48083c28f7)</ept>です。</target>       </trans-unit>
-        <trans-unit id="142" translate="yes" xml:space="preserve">
-          <source>Save the example in a file named <ph id="ph1">`MatchInfo.format.ps1xml`</ph>, then to use it, in your profile or elsewhere, run <ph id="ph2">`Update-FormatData -Prepend MatchInfo.format.ps1xml`</ph>.</source>
-          <target state="translated">例を <ph id="ph1">`MatchInfo.format.ps1xml`</ph> という名前のファイルに保存した後、使用するには、プロファイルまたはその他の場所で、<ph id="ph2">`Update-FormatData -Prepend MatchInfo.format.ps1xml`</ph> を実行します。</target>       </trans-unit>
-        <trans-unit id="143" translate="yes" xml:space="preserve">
-          <source>Note that VT100 escape sequences are only supported starting with the Windows 10 Anniversary update; they are not supported on earlier systems.</source>
-          <target state="translated">VT100 エスケープ シーケンスは、Windows 10 Anniversary 更新以降でのみサポートされることに注意してください。それより前のシステムではサポートされません。</target>       </trans-unit>
-        <trans-unit id="144" translate="yes" xml:space="preserve">
-          <source>Vi mode support in PSReadline</source>
-          <target state="translated">PSReadline での vi モードのサポート</target>       </trans-unit>
-        <trans-unit id="145" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">[</bpt>PSReadline<ept id="p1">](https://github.com/lzybkr/PSReadLine)</ept> adds support for vi mode.</source>
-          <target state="translated"><bpt id="p1">[</bpt>PSReadline<ept id="p1">](https://github.com/lzybkr/PSReadLine)</ept> は、vi モードのサポートを追加します。</target>       </trans-unit>
-        <trans-unit id="146" translate="yes" xml:space="preserve">
-          <source>To use vi mode, run <ph id="ph1">`Set-PSReadline -EditMode vi`</ph>.</source>
-          <target state="translated">vi モードを使用するには、<ph id="ph1">`Set-PSReadline -EditMode vi`</ph> を実行します。</target>       </trans-unit>
-        <trans-unit id="147" translate="yes" xml:space="preserve">
-          <source>Redirected stdin w/ interactive input</source>
-          <target state="translated">対話型の入力を使用する stdin のリダイレクト</target>       </trans-unit>
-        <trans-unit id="148" translate="yes" xml:space="preserve">
-          <source>In earlier versions, starting PowerShell with <ph id="ph1">`powershell -File -`</ph> was required when stdin was redirected and you wanted to enter commands interactively.</source>
-          <target state="translated">以前のバージョンでは、stdin がリダイレクトされ、コマンドを対話的に入力するときは、PowerShell を <ph id="ph1">`powershell -File -`</ph> で起動する必要がありました。</target>       </trans-unit>
-        <trans-unit id="149" translate="yes" xml:space="preserve">
-          <source>With WMF 5.1, this hard to discover option is no longer necessary, you can start powershell without any options, e.g. <ph id="ph1">`powershell`</ph>.</source>
-          <target state="translated">WMF 5.1 では、この見つけにくいオプションは不要になり、<ph id="ph1">`powershell`</ph> といったオプションを何も使わずに PowerShell を起動できます。</target>       </trans-unit>
-        <trans-unit id="150" translate="yes" xml:space="preserve">
-          <source>Note that PSReadline does not currently supported redirected stdin, and the builtin commanding line editing experience with redirected stdin is extremely limited, e.g. arrow keys don't work.</source>
-          <target state="translated">PSReadline は現在はリダイレクトされた stdin をサポートせず、リダイレクトされた stdin での組み込みコマンド ライン編集エクスペリエンスは非常に限られたものであることに注意してください (たとえば、方向キーは機能しません)。</target>       </trans-unit>
-        <trans-unit id="151" translate="yes" xml:space="preserve">
-          <source>A future release of PSReadline should address this issue.</source>
-          <target state="translated">PSReadline の将来のリリースではこの問題が対処されるはずです。</target>       </trans-unit>
-        <trans-unit id="152" translate="yes" xml:space="preserve">
-          <source>PowerShell engine improvements</source>
-          <target state="translated">PowerShell エンジンの機能強化</target>       </trans-unit>
-        <trans-unit id="153" translate="yes" xml:space="preserve">
-          <source>The following improvements to the core PowerShell engine have been implemented in WMF 5.1:</source>
-          <target state="translated">コア PowerShell エンジンに対する以下の機能強化が WMF 5.1 に実装されました。</target>       </trans-unit>
         <trans-unit id="154" translate="yes" xml:space="preserve">
-          <source>Performance</source>
-          <target state="translated">パフォーマンス</target>       </trans-unit>
+          <source>Improvements to Pester</source>
+          <target state="translated">Pester の機能強化</target>       </trans-unit>
         <trans-unit id="155" translate="yes" xml:space="preserve">
-          <source>Performance has improved in some important areas:</source>
-          <target state="translated">いくつかの重要な部分でパフォーマンスが向上しました。</target>       </trans-unit>
+          <source>In WMF 5.1, the version of Pester that ships with PowerShell has been updated from 3.3.5 to 3.4.0, with the addition of commit https://github.com/pester/Pester/pull/484/commits/3854ae8a1f215b39697ac6c2607baf42257b102e, which enables better behavior for Pester on Nano.</source>
+          <target state="translated">WMF 5.1 では、PowerShell で出荷される Pester のバージョンが 3.3.5 から 3.4.0 に更新され、コミット https://github.com/pester/Pester/pull/484/commits/3854ae8a1f215b39697ac6c2607baf42257b102e が追加されました。Nano での Pester の動作を改善します。</target>       </trans-unit>
         <trans-unit id="156" translate="yes" xml:space="preserve">
-          <source>Startup</source>
-          <target state="translated">起動</target>       </trans-unit>
-        <trans-unit id="157" translate="yes" xml:space="preserve">
-          <source>Pipelining to cmdlets like ForEach-Object and Where-Object is approximately 50% faster</source>
-          <target state="translated">ForEach-Object や Where-Object などのコマンドレットに対するパイプライン処理が、約 50% 速くなりました</target>       </trans-unit>
-        <trans-unit id="158" translate="yes" xml:space="preserve">
-          <source>Some example improvements (your results may vary depending your your hardware):</source>
-          <target state="translated">機能強化の例をいくつか示します (結果はハードウェアによって異なる場合があります)。</target>       </trans-unit>
-        <trans-unit id="159" translate="yes" xml:space="preserve">
-          <source>Scenario</source>
-          <target state="translated">シナリオ</target>       </trans-unit>
-        <trans-unit id="160" translate="yes" xml:space="preserve">
-          <source>5.0 Time (ms)</source>
-          <target state="translated">5.0 の時間 (ミリ秒)</target>       </trans-unit>
-        <trans-unit id="161" translate="yes" xml:space="preserve">
-          <source>5.1 Time (ms)</source>
-          <target state="translated">5.1 の時間 (ミリ秒)</target>       </trans-unit>
-        <trans-unit id="162" translate="yes" xml:space="preserve">
-          <source>900</source>
-          <target state="translated">900</target>       </trans-unit>
-        <trans-unit id="163" translate="yes" xml:space="preserve">
-          <source>250</source>
-          <target state="translated">250</target>       </trans-unit>
-        <trans-unit id="164" translate="yes" xml:space="preserve">
-          <source>First ever PowerShell run:</source>
-          <target state="translated">PowerShell の初めての実行:</target>       </trans-unit>
-        <trans-unit id="165" translate="yes" xml:space="preserve">
-          <source>30000</source>
-          <target state="translated">30000</target>       </trans-unit>
-        <trans-unit id="166" translate="yes" xml:space="preserve">
-          <source>13000</source>
-          <target state="translated">13000</target>       </trans-unit>
-        <trans-unit id="167" translate="yes" xml:space="preserve">
-          <source>Command analysis cache built:</source>
-          <target state="translated">コマンド分析キャッシュの構築:</target>       </trans-unit>
-        <trans-unit id="168" translate="yes" xml:space="preserve">
-          <source>7000</source>
-          <target state="translated">7000</target>       </trans-unit>
-        <trans-unit id="169" translate="yes" xml:space="preserve">
-          <source>520</source>
-          <target state="translated">520</target>       </trans-unit>
-        <trans-unit id="170" translate="yes" xml:space="preserve">
-          <source>`1..1000000</source>
-          <target state="translated">`1..1000000</target>       </trans-unit>
-        <trans-unit id="171" translate="yes" xml:space="preserve">
-          <source>% { }`</source>
-          <target state="translated">% { }`</target>       </trans-unit>
-        <trans-unit id="172" translate="yes" xml:space="preserve">
-          <source>1400</source>
-          <target state="translated">1400</target>       </trans-unit>
-        <trans-unit id="173" translate="yes" xml:space="preserve">
-          <source>750</source>
-          <target state="translated">750</target>       </trans-unit>
-        <trans-unit id="174" translate="yes" xml:space="preserve">
-          <source>One change related to startup might impact some unsupported scenarios.</source>
-          <target state="translated">起動に関連する 1 つの変更が、一部のサポートされていないシナリオに影響を与える可能性があります。</target>       </trans-unit>
-        <trans-unit id="175" translate="yes" xml:space="preserve">
-          <source>PowerShell no longer reads the files <ph id="ph1">`$pshome\*.ps1xml`</ph> - these files have been converted to C# to avoid some file and CPU overhead of processing the XML files.</source>
-          <target state="translated">PowerShell は <ph id="ph1">`$pshome\*.ps1xml`</ph> ファイルを読み込まなくなりました。これらのファイルは、XML ファイルの処理でファイルと CPU にオーバーヘッドが発生しないよう、C# に変換されています。</target>       </trans-unit>
-        <trans-unit id="176" translate="yes" xml:space="preserve">
-          <source>The files still exist to support V2 side-by-side, so if you change the file contents, it will not have any effect to V5, only V2.</source>
-          <target state="translated">これらのファイルは V2 のサイド バイ サイド インストールをサポートするためにまだ存在するので、ファイルの内容を変更した場合、V5 には影響がなく、影響を受けるのは V2 だけです。</target>       </trans-unit>
-        <trans-unit id="177" translate="yes" xml:space="preserve">
-          <source>Note that changing the contents of these files was never a supported scenario.</source>
-          <target state="translated">これらのファイルの内容を変更するシナリオはサポートされていないことに注意してください。</target>       </trans-unit>
-        <trans-unit id="178" translate="yes" xml:space="preserve">
-          <source>Another visible change is how PowerShell caches the exported commands and other information for modules that are installed on a system.</source>
-          <target state="translated">もう 1 つの明らかな変更は、システムにインストールされているモジュールのために PowerShell がエクスポートしたコマンドと他の情報をキャッシュするしくみです。</target>       </trans-unit>
-        <trans-unit id="179" translate="yes" xml:space="preserve">
-          <source>Previous, this cache was stored in the directory <ph id="ph1">`$env:LOCALAPPDATA\Microsoft\Windows\PowerShell\CommandAnalysis`</ph>.</source>
-          <target state="translated">これまでは、このキャッシュは <ph id="ph1">`$env:LOCALAPPDATA\Microsoft\Windows\PowerShell\CommandAnalysis`</ph> ディレクトリに保存されていました。</target>       </trans-unit>
-        <trans-unit id="180" translate="yes" xml:space="preserve">
-          <source>In WMF 5.1, the cache is a single file <ph id="ph1">`$env:LOCALAPPDATA\Microsoft\Windows\PowerShell\ModuleAnalysisCache`</ph>.</source>
-          <target state="translated">WMF 5.1 では、キャッシュは <ph id="ph1">`$env:LOCALAPPDATA\Microsoft\Windows\PowerShell\ModuleAnalysisCache`</ph> ファイル 1 つだけになっています。</target>       </trans-unit>
-        <trans-unit id="181" translate="yes" xml:space="preserve">
-          <source>See <bpt id="p1">[</bpt>analysis_cache.md<ept id="p1">]()</ept> for more details.</source>
-          <target state="translated">詳細については、「<bpt id="p1">[</bpt>analysis_cache.md<ept id="p1">]()</ept>」を参照してください。</target>       </trans-unit>
-        <trans-unit id="182" translate="yes" xml:space="preserve">
-          <source>Bug fixes</source>
-          <target state="translated">バグ修正</target>       </trans-unit>
-        <trans-unit id="183" translate="yes" xml:space="preserve">
-          <source>The following notable bugs were fixed:</source>
-          <target state="translated">次の重要なバグが修正されました。</target>       </trans-unit>
-        <trans-unit id="184" translate="yes" xml:space="preserve">
-          <source>Module auto-discovery fully honors</source>
-          <target state="translated">モジュールの自動検出の完全な受け入れ</target>       </trans-unit>
-        <trans-unit id="185" translate="yes" xml:space="preserve">
-          <source>Module auto-discovery (loading modules automatically without an explicit Import-Module when calling a command) was introduced in WMF 3.</source>
-          <target state="translated">モジュールの自動検出 (コマンド呼び出し時に Import-Module を明示的に指定しないモジュールの自動的な読み込み) が、WMF 3 で導入されました。</target>       </trans-unit>
-        <trans-unit id="186" translate="yes" xml:space="preserve">
-          <source>When introduced, PowerShell checked for commands in <ph id="ph1">`$PSHome\Modules`</ph> before using <ph id="ph2">`$env:PSModulePath`</ph>.</source>
-          <target state="translated">導入時、PowerShell は <ph id="ph2">`$env:PSModulePath`</ph> を使用する前に <ph id="ph1">`$PSHome\Modules`</ph> のコマンドを確認していました。</target>       </trans-unit>
-        <trans-unit id="187" translate="yes" xml:space="preserve">
-          <source>WMF 5.1 changes this behavior to honor <ph id="ph1">`$env:PSModulePath`</ph> completely.</source>
-          <target state="translated">WMF 5.1 では、この動作が <ph id="ph1">`$env:PSModulePath`</ph> を完全に受け入れるように変更されています。</target>       </trans-unit>
-        <trans-unit id="188" translate="yes" xml:space="preserve">
-          <source>This allows for a user-authored module that defines commands provided by PowerShell (e.g. <ph id="ph1">`Get-ChildItem`</ph>) to be auto-loaded and correctly overriding the built-in command.</source>
-          <target state="translated">これにより、PowerShell によって提供されるコマンド (<ph id="ph1">`Get-ChildItem`</ph> など) を定義するユーザー作成のモジュールを、自動的に読み込み、組み込みコマンドを正しくオーバーライドできます。</target>       </trans-unit>
-        <trans-unit id="189" translate="yes" xml:space="preserve">
-          <source>File redirection no longer hard-codes</source>
-          <target state="translated">ファイルのリダイレクトの非ハードコード化</target>       </trans-unit>
-        <trans-unit id="190" translate="yes" xml:space="preserve">
-          <source>In all previous versions of PowerShell, it was impossible to control the file encoding used by the file redirection operator, e.g. <ph id="ph1">`get-childitem &gt; out.txt`</ph> because PowerShell added <ph id="ph2">`-Encoding Unicode`</ph>.</source>
-          <target state="translated">PowerShell のこれまでのすべてのバージョンでは、PowerShell が <ph id="ph2">`-Encoding Unicode`</ph> を追加していたため、ファイル リダイレクト演算子 (<ph id="ph1">`get-childitem &gt; out.txt`</ph> など) によって使用されるファイル エンコードを制御できませんでした。</target>       </trans-unit>
-        <trans-unit id="191" translate="yes" xml:space="preserve">
-          <source>Starting with WMF 5.1, you can now change the file encoding of redirection by setting <ph id="ph1">`$PSDefaultParameterValues`</ph>, e.g.</source>
-          <target state="translated">WMF 5.1 からは、<ph id="ph1">`$PSDefaultParameterValues`</ph> を設定することによってリダイレクトのファイル エンコードを変更できます。次に例を示します。</target>       </trans-unit>
-        <trans-unit id="192" translate="yes" xml:space="preserve">
-          <source>Fixed a regression in accessing members of</source>
-          <target state="translated">メンバーへのアクセスでのバグ再発の修正</target>       </trans-unit>
-        <trans-unit id="193" translate="yes" xml:space="preserve">
-          <source>A regression introduced in WMF 5.0 broke accessing members of <ph id="ph1">`System.Reflection.RuntimeType`</ph>, e.g. <ph id="ph2">`[int].ImplementedInterfaces`</ph>.</source>
-          <target state="translated">WMF 5.0 で新しく発生したバグにより、<ph id="ph1">`System.Reflection.RuntimeType`</ph> のメンバーにアクセスできませんでした (<ph id="ph2">`[int].ImplementedInterfaces`</ph> など)。</target>       </trans-unit>
-        <trans-unit id="194" translate="yes" xml:space="preserve">
-          <source>This bug has been fixed in WMF5.1.</source>
-          <target state="translated">WMF5.1 ではこのバグが修正されています。</target>       </trans-unit>
-        <trans-unit id="195" translate="yes" xml:space="preserve">
-          <source>Fixed some issues with COM objects</source>
-          <target state="translated">COM オブジェクトでのいくつかの問題の修正</target>       </trans-unit>
-        <trans-unit id="196" translate="yes" xml:space="preserve">
-          <source>WMF 5.0 introduced a new COM binder for invoking methods on COM objects and accessing properties of COM objects.</source>
-          <target state="translated">WMF 5.0 では、COM オブジェクト上のメソッドを呼び出して COM オブジェクトのプロパティにアクセスする新しい COM バインダーが導入されました。</target>       </trans-unit>
-        <trans-unit id="197" translate="yes" xml:space="preserve">
-          <source>This new binder improved performance significantly but also introduced some bugs which have been fixed in WMF5.1.</source>
-          <target state="translated">この新しいバインダーによりパフォーマンスが大幅に向上しましたが、バグもいくつか含まれていました。WMF5.1 ではそれが修正されました。</target>       </trans-unit>
-        <trans-unit id="198" translate="yes" xml:space="preserve">
-          <source>Argument conversions were not always performed correctly</source>
-          <target state="translated">引数の変換が正常に実行されないことがあった</target>       </trans-unit>
-        <trans-unit id="199" translate="yes" xml:space="preserve">
-          <source>In the following example:</source>
-          <target state="translated">次に例を示します。</target>       </trans-unit>
-        <trans-unit id="200" translate="yes" xml:space="preserve">
-          <source>The SendKeys method expects a string, but PowerShell did not convert the char to a string, deferring the conversion to IDispatch::Invoke, which uses VariantChangeType to do the conversion, which in this example resulted in sending the keys '1', '7', and '3' instead of the expected Volume.Mute key.</source>
-          <target state="translated">SendKeys メソッドは string を受け取りますが、PowerShell は char を string に変換せず、変換を IDispatch::Invoke に延期していました。このメソッドは VariantChangeType を使用して変換を行います。この例では、結果として、期待される Volume.Mute キーではなくキー "1"、"7"、"3" が送られます。</target>       </trans-unit>
-        <trans-unit id="201" translate="yes" xml:space="preserve">
-          <source>Enumerable COM objects not always handled correctly</source>
-          <target state="translated">列挙可能な COM オブジェクトが正しく処理されないことがある</target>       </trans-unit>
-        <trans-unit id="202" translate="yes" xml:space="preserve">
-          <source>PowerShell normally enumerates most enumerable objects, but a regression introduced in WMF 5.0 prevented the enumeration of COM objects that implement IEnumerable.</source>
-          <target state="translated">PowerShell は通常ほとんどの列挙可能なオブジェクトを列挙しますが、WMF 5.0 で発生したバグにより、IEnumerable を実装する COM オブジェクトの列挙が行われませんでした。</target>       </trans-unit>
-        <trans-unit id="203" translate="yes" xml:space="preserve">
-          <source>For example:</source>
-          <target state="translated">たとえば、次のように入力します。</target>       </trans-unit>
-        <trans-unit id="204" translate="yes" xml:space="preserve">
-          <source>In the above example, WMF 5.0 incorrectly wrote the Scripting.Dictionary to the pipeline instead of enumerating the key value pairs.</source>
-          <target state="translated">上の例の WMF 5.0 は、キーと値のペアを列挙するのではなく、Scripting.Dictionary をパイプラインに誤って書き込みます。</target>       </trans-unit>
-        <trans-unit id="205" translate="yes" xml:space="preserve">
-          <source>was not allowed inside classes</source>
-          <target state="translated">がクラス内で許可されなかった</target>       </trans-unit>
-        <trans-unit id="206" translate="yes" xml:space="preserve">
-          <source>WMF5 introduced classes with validation of type literals used in classes.</source>
-          <target state="translated">WMF5 では、クラスで使用されるリテラル形を検証するクラスが導入されました。</target>       </trans-unit>
-        <trans-unit id="207" translate="yes" xml:space="preserve">
-          <source>looks like a type literal but is not a true .Net type.</source>
-          <target state="translated">はリテラル形のように見えますが、真の .Net 型ではありません。</target>       </trans-unit>
-        <trans-unit id="208" translate="yes" xml:space="preserve">
-          <source>WMF5 incorrectly reported an error on <ph id="ph1">`[ordered]`</ph> inside a class:</source>
-          <target state="translated">WMF5 は、クラスの内の <ph id="ph1">`[ordered]`</ph> で誤ってエラーを報告しました。</target>       </trans-unit>
-        <trans-unit id="209" translate="yes" xml:space="preserve">
-          <source>Help on About topics with multiple versions does not work</source>
-          <target state="translated">複数のバージョンがあるトピックについてのヘルプが機能しない</target>       </trans-unit>
-        <trans-unit id="210" translate="yes" xml:space="preserve">
-          <source>Before WMF 5.1, if you had multiple versions of a module installed and they all shared a help topic, for example, about_PSReadline, <ph id="ph1">`help about_PSReadline`</ph> would return multiple topics with no obvious way to view the real help.</source>
-          <target state="translated">WMF 5.1 より前では、複数のバージョンのモジュールがインストールされていて、そのすべてがヘルプ トピック (about_PSReadline など) を共有している場合、<ph id="ph1">`help about_PSReadline`</ph> は複数のトピックを返し、実際のヘルプを表示する明確な方法はありませんでした。</target>       </trans-unit>
-        <trans-unit id="211" translate="yes" xml:space="preserve">
-          <source>WMF 5.1 fixes this by returning the help for the latest version of the topic.</source>
-          <target state="translated">WMF 5.1 では、最新バージョンのトピックのヘルプを返すことでこれが解決されています。</target>       </trans-unit>
-        <trans-unit id="212" translate="yes" xml:space="preserve">
-          <source>Get-Help does not provide a way to specify which version you want help for.</source>
-          <target state="translated">Get-Help では、必要なヘルプのバージョンを指定する方法はありません。</target>       </trans-unit>
-        <trans-unit id="213" translate="yes" xml:space="preserve">
-          <source>To work around this, navigate to the modules directory and view the help directly with a tool like your favorite editor.</source>
-          <target state="translated">これを回避するには、モジュール ディレクトリに移動し、好みのエディターなどのツールで直接ヘルプを表示します。</target>       </trans-unit>
-        <trans-unit id="214" translate="yes" xml:space="preserve">
-          <source>OneGet improvements</source>
-          <target state="translated">OneGet の機能強化</target>       </trans-unit>
-        <trans-unit id="215" translate="yes" xml:space="preserve">
-          <source>WMF 5.1 includes a number of fixes and improvements to address some of the user experience gaps in the WMF 5.0 release.</source>
-          <target state="translated">WMF 5.1 には、WMF 5.0 リリースにあったユーザー エクスペリエンスのギャップの一部に対処するための、いくつかの修正と機能強化が含まれます。</target>       </trans-unit>
-        <trans-unit id="216" translate="yes" xml:space="preserve">
-          <source>Version alias removed</source>
-          <target state="translated">バージョン エイリアスの削除</target>       </trans-unit>
-        <trans-unit id="217" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Scenario<ept id="p1">**</ept>: If you have version 1.0 and 2.0 of a package, P1, installed on your system, and you want to uninstall version 1.0, you would run "uninstall-package -name P1 -version 1.0" and expect version 1.0 to be uninstalled after running the cmdlet.</source>
-          <target state="translated"><bpt id="p1">**</bpt>シナリオ<ept id="p1">**</ept>: パッケージ P1 のバージョン 1.0 および 2.0 がシステムにインストールされていて、バージョン 1.0 をアンインストールしたい場合、"uninstall-package -name P1 -version 1.0" を実行し、このコマンドを実行するとバージョン 1.0 がアンインストールされるものと期待します。</target>       </trans-unit>
-        <trans-unit id="218" translate="yes" xml:space="preserve">
-          <source>However the result is that version 2.0 gets uninstalled.</source>
-          <target state="translated">しかし、結果はバージョン 2.0 がアンインストールされます。</target>       </trans-unit>
-        <trans-unit id="219" translate="yes" xml:space="preserve">
-          <source>This occurs because the "-version" parameter is an alias of the "-minimumversion" parameter.</source>
-          <target state="translated">このようになるのは、"-version" パラメーターが "-minimumversion" パラメーターのエイリアスであるためです。</target>       </trans-unit>
-        <trans-unit id="220" translate="yes" xml:space="preserve">
-          <source>When OneGet is looking for a qualified package with the minimum version of 1.0, it returns the latest version.</source>
-          <target state="translated">OneGet は、最小バージョンが 1.0 という条件を満たすパッケージを探して、最新のバージョンを返します。</target>       </trans-unit>
-        <trans-unit id="221" translate="yes" xml:space="preserve">
-          <source>This behavior is expected in normal cases because finding the latest version is usually the desired result.</source>
-          <target state="translated">たいていの場合は最新バージョンを探すのが目的の結果なので、この動作は通常であれば想定したものです。</target>       </trans-unit>
-        <trans-unit id="222" translate="yes" xml:space="preserve">
-          <source>However, it should not apply to the uninstall-package case.</source>
-          <target state="translated">しかし、uninstall-package の場合には当てはまりません。</target>       </trans-unit>
-        <trans-unit id="223" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Solution<ept id="p1">**</ept>: In WMF 5.1, the -version alias is removed entirely in OneGet and PowerShellGet.</source>
-          <target state="translated"><bpt id="p1">**</bpt>解決策<ept id="p1">**</ept>: WMF 5.1 では、OneGet および PowerShellGet から -version エイリアスが完全に削除されています。</target>       </trans-unit>
-        <trans-unit id="224" translate="yes" xml:space="preserve">
-          <source>Multiple prompts for bootstrapping the NuGet provider</source>
-          <target state="translated">NuGet プロバイダーのブートストラップに対する複数のプロンプト</target>       </trans-unit>
-        <trans-unit id="225" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Scenario<ept id="p1">**</ept>: When you run Find-Module or Install-module or other OneGet cmdlets on your computer for the first time, OneGet tries to bootstrap the NuGet provider.</source>
-          <target state="translated"><bpt id="p1">**</bpt>シナリオ<ept id="p1">**</ept>: Find-Module、Install-module、または他の OneGet コマンドレットをコンピューターで初めて実行すると、OneGet は NuGet プロバイダーをブートストラップしようとします。</target>       </trans-unit>
-        <trans-unit id="226" translate="yes" xml:space="preserve">
-          <source>It does this because the PowerShellGet provider also uses the NuGet provider to download PowerShell modules.</source>
-          <target state="translated">これは、PowerShellGet プロバイダーは PowerShell モジュールをダウンロードするために NuGet プロバイダーも使用するためです。</target>       </trans-unit>
-        <trans-unit id="227" translate="yes" xml:space="preserve">
-          <source>OneGet then prompts the user for permission to install the NuGet provider.</source>
-          <target state="translated">そのとき、OneGet は NuGet プロバイダーをインストールする許可をユーザーに求めます。</target>       </trans-unit>
-        <trans-unit id="228" translate="yes" xml:space="preserve">
-          <source>After the user selects "yes" for the bootstrapping, the latest version of the NuGet provider will be installed.</source>
-          <target state="translated">ユーザーがブートストラップに対して "はい" を選択すると、最新バージョンの NuGet プロバイダーがインストールされます。</target>       </trans-unit>
-        <trans-unit id="229" translate="yes" xml:space="preserve">
-          <source>However, in some cases, when you have an old version of NuGet provider installed on your computer, the older version of NuGet sometimes gets loaded first into the PowerShell session (that's the race condition in OneGet).</source>
-          <target state="translated">ただし、古いバージョンの NuGet プロバイダーがコンピューターにインストールされている場合があり、古いバージョンの NuGet が PowerShell セッションに最初に読み込まれることがあります (OneGet での競合状態)。</target>       </trans-unit>
-        <trans-unit id="230" translate="yes" xml:space="preserve">
-          <source>However PowerShellGet requires the later version of the NuGet provider to work, so PowerShellGet asks the OneGet for bootstrapping the NuGet provider again.</source>
-          <target state="translated">ただし、PowerShellGet が動作するには新しいバージョンの NuGet プロバイダーが必要なので、PowerShellGet は OneGet に NuGet プロバイダーのブートストラップを再び要求します。</target>       </trans-unit>
-        <trans-unit id="231" translate="yes" xml:space="preserve">
-          <source>This results in multiple prompts for bootstrapping the NuGet provider.</source>
-          <target state="translated">これにより、NuGet プロバイダーのブートストラップで複数のプロンプトが表示されます。</target>       </trans-unit>
-        <trans-unit id="232" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Solution<ept id="p1">**</ept>: In WMF 5.1, OneGet now loads the latest version of the NuGet provider to avoid multiple prompts for bootstrapping the NuGet provider.</source>
-          <target state="translated"><bpt id="p1">**</bpt>解決策<ept id="p1">**</ept>: WMF 5.1 では、OneGet は、NuGet プロバイダーのブートストラップに対して複数のプロンプトが表示されるのを避けるため、NuGet プロバイダーの最新バージョンを読み込むようになっています。</target>       </trans-unit>
-        <trans-unit id="233" translate="yes" xml:space="preserve">
-          <source>You could also work around this issue by manually deleting the old version of the NuGet provider (NuGet-Anycpu.exe) if exists from $env:ProgramFiles\PackageManagement\ProviderAssemblies $env:LOCALAPPDATA\PackageManagement\ProviderAssemblies</source>
-          <target state="translated">この問題を回避策することもできます。古いバージョンの NuGet プロバイダー (NuGet-Anycpu.exe) が存在する場合は、$env:ProgramFiles\PackageManagement\ProviderAssemblies または $env:LOCALAPPDATA\PackageManagement\ProviderAssemblies から手動で削除します。</target>       </trans-unit>
-        <trans-unit id="234" translate="yes" xml:space="preserve">
-          <source>Support for OneGet on computers with intranet access only</source>
-          <target state="translated">イントラネット アクセスのみのコンピューターでの OneGet のサポート</target>       </trans-unit>
-        <trans-unit id="235" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Scenario<ept id="p1">**</ept>: In WMF 5.0, OneGet did not support computers that have only intranet (but not internet) access.</source>
-          <target state="translated"><bpt id="p1">**</bpt>シナリオ<ept id="p1">**</ept>: WMF 5.0 の OneGet は、イントラネット アクセスしかない (インターネットにアクセスできない) コンピューターをサポートしませんでした。</target>       </trans-unit>
-        <trans-unit id="236" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Solution<ept id="p1">**</ept>: In WMF 5.1, you can follow these steps to allow intranet computers to use OneGet:</source>
-          <target state="translated"><bpt id="p1">**</bpt>解決策<ept id="p1">**</ept>: WMF 5.1 では、以下のようにして、イントラネット接続のみのコンピューターで OneGet を使用できます。</target>       </trans-unit>
-        <trans-unit id="237" translate="yes" xml:space="preserve">
-          <source>Download the NuGet provider using another computer that has an internet connection by using Install-PackageProvider NuGet.</source>
-          <target state="translated">インターネットに接続できる別のコンピューターで、Install-PackageProvider NuGet を使用して、NuGet プロバイダーをダウンロードします。</target>       </trans-unit>
-        <trans-unit id="238" translate="yes" xml:space="preserve">
-          <source>Find the NuGet provider under either  $env:ProgramFiles\PackageManagement\ProviderAssemblies\nuget  or  $env:LOCALAPPDATA\PackageManagement\ProviderAssemblies\nuget.</source>
-          <target state="translated">$env:ProgramFiles\PackageManagement\ProviderAssemblies\nuget または $env:LOCALAPPDATA\PackageManagement\ProviderAssemblies\nuget で NuGet プロバイダーを探します。</target>       </trans-unit>
-        <trans-unit id="239" translate="yes" xml:space="preserve">
-          <source>Copy the binaries to a folder or network share location that the intranet computer can access, and then install the NuGet provider with "Install-PackageProvider NuGet -Source <ph id="ph1">&lt;Path to folder&gt;</ph>".</source>
-          <target state="translated">イントラネット コンピューターがアクセスできるフォルダーまたはネットワーク共有の場所にバイナリをコピーし、"Install-PackageProvider NuGet -Source <ph id="ph1">&lt;Path to folder&gt;</ph>" を使用して NuGet プロバイダーをインストールします。</target>       </trans-unit>
-        <trans-unit id="240" translate="yes" xml:space="preserve">
-          <source>Event logging improvements</source>
-          <target state="translated">イベント ログの機能強化</target>       </trans-unit>
-        <trans-unit id="241" translate="yes" xml:space="preserve">
-          <source>When you install packages, you are changing the state of the computer.</source>
-          <target state="translated">パッケージをインストールすると、コンピューターの状態が変化します。</target>       </trans-unit>
-        <trans-unit id="242" translate="yes" xml:space="preserve">
-          <source>In WMF 5.1, OneGet now logs events to the Windows event log for install, uninstall, and save-package activities.</source>
-          <target state="translated">WMF 5.1 の OneGet は、install、uninstall、save-package アクティビティのイベントを Windows イベント ログに記録するようになりました。</target>       </trans-unit>
-        <trans-unit id="243" translate="yes" xml:space="preserve">
-          <source>The Event channel is the same as for PowerShell, that is, Microsoft-Windows-PowerShell, Operational.</source>
-          <target state="translated">イベント チャネルは PowerShell と同じで、Microsoft-Windows-PowerShell, Operational です。</target>       </trans-unit>
-        <trans-unit id="244" translate="yes" xml:space="preserve">
-          <source>Support for basic authentication</source>
-          <target state="translated">基本認証のサポート</target>       </trans-unit>
-        <trans-unit id="245" translate="yes" xml:space="preserve">
-          <source>In WMF 5.1, OneGet supports finding and installing packages from a repository that requires basic authentication.</source>
-          <target state="translated">WMF 5.1 の OneGet は、基本認証を必要とするリポジトリからのパッケージの検索とインストールをサポートします。</target>       </trans-unit>
-        <trans-unit id="246" translate="yes" xml:space="preserve">
-          <source>You can supply your credentials to the Find-Package and Install-Package cmdlets.</source>
-          <target state="translated">Find-Package および Install-Package コマンドレットに資格情報を渡すことができます。</target>       </trans-unit>
-        <trans-unit id="247" translate="yes" xml:space="preserve">
-          <source>For example:</source>
-          <target state="translated">たとえば、次のように入力します。</target>       </trans-unit>
-        <trans-unit id="248" translate="yes" xml:space="preserve">
-          <source>Support for using OneGet behind a proxy</source>
-          <target state="translated">プロキシの背後での OneGet の使用のサポート</target>       </trans-unit>
-        <trans-unit id="249" translate="yes" xml:space="preserve">
-          <source>In WMF 5.1, OneGet now takes new proxy parameters: -ProxyCredential and -Proxy.</source>
-          <target state="translated">WMF 5.1 の OneGet は、新しいプロキシ パラメーター -ProxyCredential と -Proxy を受け取るようになりました。</target>       </trans-unit>
-        <trans-unit id="250" translate="yes" xml:space="preserve">
-          <source>Using these parameters, you can specify the proxy URL and credentials to OneGet cmdlets.</source>
-          <target state="translated">これらのパラメーターを使用すると、プロキシの URL と資格情報を OneGet コマンドレットに対して指定できます。</target>       </trans-unit>
-        <trans-unit id="251" translate="yes" xml:space="preserve">
-          <source>By default, system proxy settings are used.</source>
-          <target state="translated">既定では、システムのプロキシ設定が使用されます。</target>       </trans-unit>
-        <trans-unit id="252" translate="yes" xml:space="preserve">
-          <source>For example:</source>
-          <target state="translated">たとえば、次のように入力します。</target>       </trans-unit>
+          <source>You can review the changes in versions 3.3.5 to 3.4.0 by inspecting the ChangeLog.md file at: https://github.com/pester/Pester/blob/master/CHANGELOG.md</source>
+          <target state="translated">https://github.com/pester/Pester/blob/master/CHANGELOG.md で ChangeLog.md ファイルを調べると、バージョン 3.3.5 から 3.4.0 への変更を確認できます。</target>       </trans-unit>
       </group>
     </body>
   </file>
