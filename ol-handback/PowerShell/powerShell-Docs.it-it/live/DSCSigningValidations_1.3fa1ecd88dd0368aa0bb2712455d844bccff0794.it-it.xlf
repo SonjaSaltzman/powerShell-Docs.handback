@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-22243b3" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2e278eeea1ea99b8a273c093b7bac5af618f8b2a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\features-scenarios-cache\DSCSigningValidations_1.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>DSC Module and Configuration Signing validations</source>
+          <target state="translated">Convalide delle firme delle configurazioni e dei moduli DSC</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>DSC Module and Configuration Signing validations</source>
+          <target state="translated">Convalide delle firme delle configurazioni e dei moduli DSC</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In DSC, configuration and modules are distributed to managed machines from the pull server.</source>
+          <target state="translated">In DSC le configurazioni e i moduli vengono distribuiti dal server di pull a computer gestiti.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If the pull server is compromised, an attacker can potentially modify the configurations and modules on the pull server and have it distributed to all managed machines.</source>
+          <target state="translated">Se il server di pull è compromesso, un utente malintenzionato potrebbe modificare le configurazioni e i moduli nel server di pull e distribuirli a tutti i computer gestiti.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Thus compromising even more machines of the customer.</source>
+          <target state="translated">In questo modo verrebbe compromesso un maggior numero di computer del cliente.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This is addressed in WMF 5.1.</source>
+          <target state="translated">Questo problema è stato risolto in WMF 5.1.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DSC supports validating the digital signatures on catalog and configuration (.MOF) files.</source>
+          <target state="translated">DSC supporta la convalida delle firme digitali su file di catalogo e configurazione (file MOF).</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This feature will prevent nodes from executing a configuration or module files which are not signed by trusted signer or which are tempered after they have been signed by trusted signer.</source>
+          <target state="translated">Questa funzionalità impedisce che i nodi eseguano configurazioni o file di modulo non firmati da un'entità attendibile o che sono stati manomessi dopo essere stati firmati da un'entità attendibile.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>How to sign configuration and module</source>
+          <target state="translated">Come firmare la configurazione e il modulo</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Configuration Files (.MOFS):- The existing PowerShell cmdlet <bpt id="p1">[</bpt>Set-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849819.aspx)</ept> is extended to support signing of MOF files.</source>
+          <target state="translated">File di configurazione (.mof): il cmdlet di PowerShell esistente <bpt id="p1">[</bpt>Set-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849819.aspx)</ept> supporta ora la firma dei file MOF.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Modules:- Signing of modules is done by signing the corresponding module catalog using the following steps:-</source>
+          <target state="translated">Moduli: la firma dei moduli viene effettuata firmando il catalogo del modulo corrispondente eseguendo i passaggi seguenti:</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Create a catalog file: A catalog file contains a collection of cryptographic hashes, or thumbprints.</source>
+          <target state="translated">Creare un file di catalogo: un file di catalogo contiene una raccolta di hash di crittografia o identificazioni personali.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Each thumbprint corresponds to a file that is included in the module.</source>
+          <target state="translated">Ogni identificazione personale corrisponde a un file incluso nel modulo.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A new cmdlet <bpt id="p1">[</bpt>New-FileCatalog<ept id="p1">](https://technet.microsoft.com/library/cc732148.aspx)</ept>, has been added to enable users create a catalog file for their module.</source>
+          <target state="translated">Il nuovo cmdlet <bpt id="p1">[</bpt>New-FileCatalog<ept id="p1">](https://technet.microsoft.com/library/cc732148.aspx)</ept> è stato aggiunto per consentire agli utenti di creare un file di catalogo per il modulo.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Sign the catalog file: using <bpt id="p1">[</bpt>Set-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849819.aspx)</ept> sign the catalog file.</source>
+          <target state="translated">Firmare il file di catalogo: usare <bpt id="p1">[</bpt>Set-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849819.aspx)</ept> per firmare il file di catalogo.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Place the catalog file inside the module folder.</source>
+          <target state="translated">Posizionare il file di catalogo all'interno della cartella del modulo.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>By convention, Module catalog file should be placed under the module folder with the same name as the module.</source>
+          <target state="translated">Per convenzione, il file di catalogo di modulo deve trovarsi nella cartella del modulo con lo stesso nome del modulo.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>LocalConfigurationManager Settings to enable signing validations.</source>
+          <target state="translated">Impostazioni LocalConfigurationManager per l'abilitazione delle convalide delle firme</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>PULL</source>
+          <target state="translated">PULL</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The LocalConfigurationManager of a node performs signing validation of modules and configurations based on its current settings.</source>
+          <target state="translated">La risorsa LocalConfigurationManager di un nodo esegue la convalida delle firme di moduli e configurazioni in base alle impostazioni correnti.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>By default, signature validation is disabled.</source>
+          <target state="translated">Per impostazione predefinita, la convalida delle firme è disabilitata.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Signature validation can enabled by adding ‘SignatureValidation’ block to the meta-configuration definition of the node as shown below:-</source>
+          <target state="translated">La convalida delle firme può essere abilitata aggiungendo il blocco 'SignatureValidation' alla definizione della metaconfigurazione del nodo come illustrato di seguito:</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Setting the above metaconfiguration on a node enables signature validation on downloaded configurations and modules.</source>
+          <target state="translated">L'impostazione della metaconfigurazione precedente in un nodo abilita la convalida delle firme nelle configurazioni e nei moduli scaricati.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The localconfigurationmanager will perform the following steps to verify the digital signatures.</source>
+          <target state="translated">La Gestione configurazione locale eseguirà i passaggi seguenti per verificare le firme digitali.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Verify the signature on a configuration file (.MOF) is valid.</source>
+          <target state="translated">Verifica che la firma in un file di configurazione (file MOF) sia valida.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>It uses the powershell cmdlet <bpt id="p1">[</bpt>Get-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849805.aspx)</ept>, which is extended in 5.1 to support MOF sigature validation.</source>
+          <target state="translated">Usa il cmdlet di PowerShell <bpt id="p1">[</bpt>Get-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849805.aspx)</ept> che è stato esteso nella versione 5.1 per il supporto della convalida delle firme dei file MOF.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Verify the certificate authority that autherized the signer is trusted.</source>
+          <target state="translated">Verifica che l'autorità di certificazione che ha autorizzato il firmatario sia attendibile.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Download module/resource dependencies of the configuration to a temp location.</source>
+          <target state="translated">Scarica le dipendenze del modulo/risorsa della configurazione in un percorso temporaneo.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Verify the signature of the catalog included inside the module.</source>
+          <target state="translated">Verifica la firma del catalogo incluso all'interno del modulo.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Find a <ph id="ph1">&lt;moduleName&gt;</ph>.cat file and verify its signature using the cmdlet  <bpt id="p1">[</bpt>Get-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849805.aspx)</ept>.</source>
+          <target state="translated">Individua un file <ph id="ph1">&lt;moduleName&gt;</ph>.cat e ne verifica la firma usando il cmdlet <bpt id="p1">[</bpt>Get-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849805.aspx)</ept>.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Verify the certification authority that authenticated the signer is trusted.</source>
+          <target state="translated">Verifica che l'autorità di certificazione che ha autenticato il firmatario sia attendibile.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Verify the content of the modules has not been tempered using the new cmdlet <bpt id="p1">[</bpt>Test-FileCatalog<ept id="p1">](https://technet.microsoft.com/library/cc732148.aspx)</ept>.</source>
+          <target state="translated">Usando il nuovo cmdlet <bpt id="p1">[</bpt>Test-FileCatalog<ept id="p1">](https://technet.microsoft.com/library/cc732148.aspx)</ept> verifica che il contenuto dei moduli non sia stato manomesso.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Install-module to $env:ProgramFiles\WindowsPowerShell\Modules\</source>
+          <target state="translated">Installa il modulo in $env:ProgramFiles\WindowsPowerShell\Modules\</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Process configuration.</source>
+          <target state="translated">Configurazione del processo.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Note: - Signature validation on module-catalog and configuration is only performed when the configuration is applied to the system for the first time or when the module is downloaded and installed.</source>
+          <target state="translated">Nota: la convalida della firma nel catalogo del modulo e nella configurazione viene eseguita solo quando la configurazione viene applicata al sistema per la prima volta o quando il modulo viene scaricato e installato.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Consistency run does not validate signature of Current.mof or its module dependencies.</source>
+          <target state="translated">I controlli di coerenza non convalidano la firma di Current.mof o le dipendenze del modulo.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If verification has failed at any stage, for instance if the configuration pulled from the pullserver is unsigned, then processing of the configuration will be terminate with the error shown below.</source>
+          <target state="translated">Se la verifica ha esito negativo in una fase, ad esempio se la configurazione di cui viene effettuato il pull dal server di pull non è firmata, l'elaborazione della configurazione verrà terminata con l'errore riportato di seguito</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>and all tempoarary files will be deleted.</source>
+          <target state="translated">e verranno eliminati tutti i file temporanei.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Sample Error Output Configuration</source>
+          <target state="translated">Configurazione di output degli errori di esempio</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Similarily, Pulling a module whose catalog is not signed will result in the following error:-</source>
+          <target state="translated">Analogamente, il pull di un modulo il cui catalogo non è firmato causerà l'errore seguente:</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Sample Error Output Module</source>
+          <target state="translated">Modulo di output degli errori di esempio</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>PUSH</source>
+          <target state="translated">PUSH</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>A configuration delivered via push might be tempered at its source before it delivered to the node.</source>
+          <target state="translated">Una configurazione inviata tramite push potrebbe essere alterata in origine prima che venga recapitata al nodo.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The Local configuration manager will perform similar signature validation steps for pushed or published configuration(s).</source>
+          <target state="translated">La Gestione configurazione locale eseguirà passaggi di convalida della firma simili per le configurazioni di cui è stato effettuato il push o pubblicate.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Below is a complete example of signature validation for push.</source>
+          <target state="translated">Di seguito è riportato un esempio completo di convalida della firma per il push.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Enable signature validation on the node.</source>
+          <target state="translated">Abilitazione della convalida delle firme nel nodo.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Create a sample configuration file.</source>
+          <target state="translated">Creazione di un file di configurazione di esempio.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Try pushing the unsigned configuration file in to the node.</source>
+          <target state="translated">Tentativo di push del file di configurazione non firmato nel nodo.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>ErrorUnsignedMofPushed</source>
+          <target state="translated">ErrorUnsignedMofPushed</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Sign the configurtion file using code-signing cert.</source>
+          <target state="translated">Firma del file di configurazione con il certificato di firma del codice.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>SignMofFile</source>
+          <target state="translated">SignMofFile</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Try pushing the signed mof file.</source>
+          <target state="translated">Tentativo di push del file MOF firmato.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>SignMofFile</source>
+          <target state="translated">SignMofFile</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
