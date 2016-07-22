@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-22243b3" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">90d57af0c8b90e709769525455ae39557b9c7176</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\bugfixes.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Bug Fixes in WMF 5.1 (Preview)</source>
+          <target state="translated">WMF 5.1（预览版）中的 Bug 修复</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Bug Fixes in WMF 5.1 (Preview)</source>
+          <target state="translated">WMF 5.1（预览版）中的 Bug 修复</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Bug fixes</source>
+          <target state="translated">Bug 修复</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The following notable bugs are fixed in WMF 5.1:</source>
+          <target state="translated">WMF 5.1 中修复了以下值得注意的 bug：</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Module auto-discovery fully honors</source>
+          <target state="translated">模块自动发现完全遵循</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Module auto-discovery (loading modules automatically without an explicit Import-Module when calling a command) was introduced in WMF 3.</source>
+          <target state="translated">WMF 3 中引入了模块自动发现（调用命令时自动加载模块而无需使用显式 Import-Module）。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>When introduced, PowerShell checked for commands in <ph id="ph1">`$PSHome\Modules`</ph> before using <ph id="ph2">`$env:PSModulePath`</ph>.</source>
+          <target state="translated">引入时，PowerShell 会在使用 <ph id="ph2">`$env:PSModulePath`</ph> 之前检查 <ph id="ph1">`$PSHome\Modules`</ph> 中的命令。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>WMF 5.1 changes this behavior to honor <ph id="ph1">`$env:PSModulePath`</ph> completely.</source>
+          <target state="translated">WMF 5.1 将此行为更改为完全遵循 <ph id="ph1">`$env:PSModulePath`</ph>。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This allows for a user-authored module that defines commands provided by PowerShell (e.g. <ph id="ph1">`Get-ChildItem`</ph>) to be auto-loaded and correctly overriding the built-in command.</source>
+          <target state="translated">这允许定义 PowerShell 提供的命令（例如 <ph id="ph1">`Get-ChildItem`</ph>）的用户创作模块自动加载并正确重写内置命令。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>File redirection no longer hard-codes</source>
+          <target state="translated">文件重定向不再硬编码</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In all previous versions of PowerShell, it was impossible to control the file encoding used by the file redirection operator, e.g. <ph id="ph1">`get-childitem &gt; out.txt`</ph> because PowerShell added <ph id="ph2">`-Encoding Unicode`</ph>.</source>
+          <target state="translated">在所有以前版本的 PowerShell 中，无法控制文件重定向运算符使用的文件编码（例如 <ph id="ph1">`get-childitem &gt; out.txt`</ph>），因为 PowerShell 添加了 <ph id="ph2">`-Encoding Unicode`</ph>。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Starting with WMF 5.1, you can now change the file encoding of redirection by setting <ph id="ph1">`$PSDefaultParameterValues`</ph>, e.g.</source>
+          <target state="translated">从 WMF 5.1 开始，现在可以通过设置 <ph id="ph1">`$PSDefaultParameterValues`</ph> 来更改重定向的文件编码，例如</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Fixed a regression in accessing members of</source>
+          <target state="translated">修复了成员访问中的回归</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A regression introduced in WMF 5.0 broke accessing members of <ph id="ph1">`System.Reflection.RuntimeType`</ph>, e.g. <ph id="ph2">`[int].ImplementedInterfaces`</ph>.</source>
+          <target state="translated">WMF 5.0 中引入的回归会破坏 <ph id="ph1">`System.Reflection.RuntimeType`</ph> 的成员访问（例如 <ph id="ph2">`[int].ImplementedInterfaces`</ph>）。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This bug has been fixed in WMF5.1.</source>
+          <target state="translated">WMF5.1 中已修复了此 bug。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Fixed some issues with COM objects</source>
+          <target state="translated">修复了与 COM 对象相关的一些问题</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>WMF 5.0 introduced a new COM binder for invoking methods on COM objects and accessing properties of COM objects.</source>
+          <target state="translated">WMF 5.0 引入了一个新 COM 绑定器，用于对 COM 对象调用方法和访问 COM 对象的属性。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This new binder improved performance significantly but also introduced some bugs which have been fixed in WMF5.1.</source>
+          <target state="translated">这一新绑定器显著提高了性能，但是同样引入了一些 bug，在 WMF5.1 中已修复了它们。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Argument conversions were not always performed correctly</source>
+          <target state="translated">参数转换并不总是正确执行</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>In the following example:</source>
+          <target state="translated">在以下示例中：</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The SendKeys method expects a string, but PowerShell did not convert the char to a string, deferring the conversion to IDispatch::Invoke, which uses VariantChangeType to do the conversion, which in this example resulted in sending the keys '1', '7', and '3' instead of the expected Volume.Mute key.</source>
+          <target state="translated">SendKeys 方法需要一个字符串，但是 PowerShell 未将字符转换为字符串，而是将转换延迟到 IDispatch::Invoke，后者使用 VariantChangeType 进行转换，在此示例中，这导致发送键“1”、“7”和“3”而不是预期的 Volume.Mute 键。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Enumerable COM objects not always handled correctly</source>
+          <target state="translated">可枚举 COM 对象并不总是正确处理</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>PowerShell normally enumerates most enumerable objects, but a regression introduced in WMF 5.0 prevented the enumeration of COM objects that implement IEnumerable.</source>
+          <target state="translated">PowerShell 通常可枚举大多数可枚举对象，但是在 WMF 5.0 中引入的回归会阻止实现 IEnumerable 的 COM 对象的枚举。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">例如：</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>In the above example, WMF 5.0 incorrectly wrote the Scripting.Dictionary to the pipeline instead of enumerating the key value pairs.</source>
+          <target state="translated">在上面的示例中，WMF 5.0 错误地将 Scripting.Dictionary 写入管道，而不是枚举键值对。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This change also addresses <bpt id="p1">[</bpt>issues 1752224 on Connect<ept id="p1">](https://connect.microsoft.com/PowerShell/feedback/details/1752224)</ept></source>
+          <target state="translated">此更改还解决了 <bpt id="p1">[</bpt>Connect 上的问题 1752224<ept id="p1">](https://connect.microsoft.com/PowerShell/feedback/details/1752224)</ept></target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>was not allowed inside classes</source>
+          <target state="translated">不允许在类中使用</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>WMF5 introduced classes with validation of type literals used in classes.</source>
+          <target state="translated">WMF5 引入了会对类中使用的类型文本进行验证的类。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>looks like a type literal but is not a true .Net type.</source>
+          <target state="translated">类似于类型文本，但不是成为真正的 .Net 类型。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>WMF5 incorrectly reported an error on <ph id="ph1">`[ordered]`</ph> inside a class:</source>
+          <target state="translated">WMF5 错误地对类中的 <ph id="ph1">`[ordered]`</ph> 报告错误：</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Help on About topics with multiple versions does not work</source>
+          <target state="translated">有关涉及多个版本的主题的帮助不起作用</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Before WMF 5.1, if you had multiple versions of a module installed and they all shared a help topic, for example, about_PSReadline, <ph id="ph1">`help about_PSReadline`</ph> would return multiple topics with no obvious way to view the real help.</source>
+          <target state="translated">在 WMF 5.1 之前，如果安装了模块的多个版本，并且它们都共享帮助主题（例如 about_PSReadline），则 <ph id="ph1">`help about_PSReadline`</ph> 会返回多个主题，没有明确的方法来查看实际帮助。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>WMF 5.1 fixes this by returning the help for the latest version of the topic.</source>
+          <target state="translated">WMF 5.1 通过返回有关最新版本主题的帮助来解决此问题。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Get-Help does not provide a way to specify which version you want help for.</source>
+          <target state="translated">Get-Help 未提供用于指定你希望获取相关帮助的版本的方法。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To work around this, navigate to the modules directory and view the help directly with a tool like your favorite editor.</source>
+          <target state="translated">若要解决此问题，请导航到模块目录，然后使用工具（如自己喜爱的编辑器）来直接查看帮助。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
