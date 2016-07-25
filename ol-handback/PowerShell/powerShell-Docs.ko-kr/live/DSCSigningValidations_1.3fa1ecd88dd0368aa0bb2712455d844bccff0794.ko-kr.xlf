@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-22243b3" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2e278eeea1ea99b8a273c093b7bac5af618f8b2a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\features-scenarios-cache\DSCSigningValidations_1.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>DSC Module and Configuration Signing validations</source>
+          <target state="translated">DSC 모듈 및 구성 서명 유효성 검사</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>DSC Module and Configuration Signing validations</source>
+          <target state="translated">DSC 모듈 및 구성 서명 유효성 검사</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In DSC, configuration and modules are distributed to managed machines from the pull server.</source>
+          <target state="translated">DSC에서는 구성 및 모듈이 끌어오기 서버에서 관리되는 컴퓨터로 배포됩니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If the pull server is compromised, an attacker can potentially modify the configurations and modules on the pull server and have it distributed to all managed machines.</source>
+          <target state="translated">끌어오기 서버가 손상되는 경우 공격자가 끌어오기 서버의 구성 및 모듈을 수정하여 모든 관리되는 컴퓨터로 배포할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Thus compromising even more machines of the customer.</source>
+          <target state="translated">따라서 더 많은 고객 컴퓨터가 손상됩니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This is addressed in WMF 5.1.</source>
+          <target state="translated">WMF 5.1에서는 이 문제를 다뤘습니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DSC supports validating the digital signatures on catalog and configuration (.MOF) files.</source>
+          <target state="translated">DSC에서는 카탈로그 및 구성(.MOF) 파일에 있는 디지털 서명의 유효성을 검사할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This feature will prevent nodes from executing a configuration or module files which are not signed by trusted signer or which are tempered after they have been signed by trusted signer.</source>
+          <target state="translated">이 기능은 노드에서 신뢰할 수 있는 서명자가 서명하지 않았거나 신뢰할 수 있는 서명자가 서명한 후 변조된 구성 또는 모듈 파일을 실행하지 못하게 합니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>How to sign configuration and module</source>
+          <target state="translated">구성 및 모듈에 서명하는 방법</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Configuration Files (.MOFS):- The existing PowerShell cmdlet <bpt id="p1">[</bpt>Set-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849819.aspx)</ept> is extended to support signing of MOF files.</source>
+          <target state="translated">구성 파일(.MOFS): 기존 PowerShell cmdlet <bpt id="p1">[</bpt>Set-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849819.aspx)</ept>가 MOF 파일 서명을 지원하도록 확장되었습니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Modules:- Signing of modules is done by signing the corresponding module catalog using the following steps:-</source>
+          <target state="translated">모듈: 다음 단계에 따라 해당 모듈 카탈로그에 서명하여 모듈 서명을 수행합니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Create a catalog file: A catalog file contains a collection of cryptographic hashes, or thumbprints.</source>
+          <target state="translated">카탈로그 파일을 만듭니다. 카탈로그 파일에는 암호화 해시 또는 지문의 컬렉션이 포함됩니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Each thumbprint corresponds to a file that is included in the module.</source>
+          <target state="translated">각 지문은 모듈에 포함된 파일에 해당합니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A new cmdlet <bpt id="p1">[</bpt>New-FileCatalog<ept id="p1">](https://technet.microsoft.com/library/cc732148.aspx)</ept>, has been added to enable users create a catalog file for their module.</source>
+          <target state="translated">사용자가 모듈의 카탈로그 파일을 만들 수 있는 새로운 <bpt id="p1">[</bpt>New-FileCatalog<ept id="p1">](https://technet.microsoft.com/library/cc732148.aspx)</ept> cmdlet이 추가되었습니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Sign the catalog file: using <bpt id="p1">[</bpt>Set-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849819.aspx)</ept> sign the catalog file.</source>
+          <target state="translated">카탈로그 파일에 서명합니다. <bpt id="p1">[</bpt>Set-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849819.aspx)</ept>를 사용하여 카탈로그 파일에 서명합니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Place the catalog file inside the module folder.</source>
+          <target state="translated">카탈로그 파일을 모듈 폴더 내에 배치합니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>By convention, Module catalog file should be placed under the module folder with the same name as the module.</source>
+          <target state="translated">규칙에 따라 모듈 카탈로그 파일은 모듈과 이름이 같은 모듈 폴더에 배치해야 합니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>LocalConfigurationManager Settings to enable signing validations.</source>
+          <target state="translated">서명 유효성 검사를 사용하도록 설정하는 LocalConfigurationManager 설정</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>PULL</source>
+          <target state="translated">끌어오기</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The LocalConfigurationManager of a node performs signing validation of modules and configurations based on its current settings.</source>
+          <target state="translated">노드의 LocalConfigurationManager는 현재 설정에 따라 모듈 및 구성의 서명 유효성 검사를 수행합니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>By default, signature validation is disabled.</source>
+          <target state="translated">기본적으로 서명 유효성 검사를 사용하지 않도록 설정되어 있습니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Signature validation can enabled by adding ‘SignatureValidation’ block to the meta-configuration definition of the node as shown below:-</source>
+          <target state="translated">서명 유효성 검사를 사용하도록 설정하려면 아래와 같이 노드의 메타 구성 정의에 'SignatureValidation' 블록을 추가합니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Setting the above metaconfiguration on a node enables signature validation on downloaded configurations and modules.</source>
+          <target state="translated">노드에서 위의 메타 구성을 설정하면 다운로드된 구성 및 모듈에서 서명 유효성을 검사할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The localconfigurationmanager will perform the following steps to verify the digital signatures.</source>
+          <target state="translated">Localconfigurationmanager는 다음 단계를 따라 디지털 서명을 확인합니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Verify the signature on a configuration file (.MOF) is valid.</source>
+          <target state="translated">구성 파일(.MOF)의 서명이 유효한지 확인합니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>It uses the powershell cmdlet <bpt id="p1">[</bpt>Get-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849805.aspx)</ept>, which is extended in 5.1 to support MOF sigature validation.</source>
+          <target state="translated">5.1에서 MOF 서명 유효성 검사를 지원하도록 확장된 powershell cmdlet <bpt id="p1">[</bpt>Get-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849805.aspx)</ept>를 사용합니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Verify the certificate authority that autherized the signer is trusted.</source>
+          <target state="translated">서명자에게 권한을 부여한 인증 기관을 신뢰할 수 있는지 확인합니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Download module/resource dependencies of the configuration to a temp location.</source>
+          <target state="translated">구성의 모듈/리소스 종속성을 임시 위치로 다운로드합니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Verify the signature of the catalog included inside the module.</source>
+          <target state="translated">모듈 내에 포함된 카탈로그의 서명을 확인합니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Find a <ph id="ph1">&lt;moduleName&gt;</ph>.cat file and verify its signature using the cmdlet  <bpt id="p1">[</bpt>Get-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849805.aspx)</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;moduleName&gt;</ph>.cat 파일을 찾고 <bpt id="p1">[</bpt>Get-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849805.aspx)</ept> cmdlet을 사용하여 해당 서명을 확인합니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Verify the certification authority that authenticated the signer is trusted.</source>
+          <target state="translated">서명자를 인증한 인증 기관을 신뢰할 수 있는지 확인합니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Verify the content of the modules has not been tempered using the new cmdlet <bpt id="p1">[</bpt>Test-FileCatalog<ept id="p1">](https://technet.microsoft.com/library/cc732148.aspx)</ept>.</source>
+          <target state="translated">새 <bpt id="p1">[</bpt>Test-FileCatalog<ept id="p1">](https://technet.microsoft.com/library/cc732148.aspx)</ept> cmdlet을 사용하여 모듈의 콘텐츠가 변조되지 않았는지 확인합니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Install-module to $env:ProgramFiles\WindowsPowerShell\Modules\</source>
+          <target state="translated">모듈을 $env:ProgramFiles\WindowsPowerShell\Modules\에 설치</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Process configuration.</source>
+          <target state="translated">구성을 처리합니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Note: - Signature validation on module-catalog and configuration is only performed when the configuration is applied to the system for the first time or when the module is downloaded and installed.</source>
+          <target state="translated">참고: - 모듈 카탈로그 및 구성의 서명 유효성 검사는 시스템에 구성을 처음으로 적용할 때나 모듈을 다운로드하여 설치할 때만 수행합니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Consistency run does not validate signature of Current.mof or its module dependencies.</source>
+          <target state="translated">일관성 실행에서는 Current.mof 또는 해당 모듈 종속성의 서명 유효성을 검사하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If verification has failed at any stage, for instance if the configuration pulled from the pullserver is unsigned, then processing of the configuration will be terminate with the error shown below.</source>
+          <target state="translated">끌어오기 서버에서 끌어온 구성에 서명이 되어 있지 않은 등 어느 단계에서든 유효성 검사가 실패하면 구성 처리가 종료되고 아래와 같은 오류가 표시되며</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>and all tempoarary files will be deleted.</source>
+          <target state="translated">모든 임시 파일이 삭제됩니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Sample Error Output Configuration</source>
+          <target state="translated">샘플 오류 출력 구성</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Similarily, Pulling a module whose catalog is not signed will result in the following error:-</source>
+          <target state="translated">마찬가지로 카탈로그에 서명이 되어 있지 않은 모듈을 끌어오면 다음 오류가 발생합니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Sample Error Output Module</source>
+          <target state="translated">샘플 오류 출력 모듈</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>PUSH</source>
+          <target state="translated">푸시</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>A configuration delivered via push might be tempered at its source before it delivered to the node.</source>
+          <target state="translated">푸시를 통해 전달된 구성은 노드로 전달되기 전에 해당 소스에서 변조될 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The Local configuration manager will perform similar signature validation steps for pushed or published configuration(s).</source>
+          <target state="translated">로컬 구성 관리자는 푸시되거나 게시된 구성에 대해 비슷한 서명 유효성 검사 단계를 수행합니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Below is a complete example of signature validation for push.</source>
+          <target state="translated">다음은 푸시에 대한 서명 유효성 검사의 완전한 예제입니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Enable signature validation on the node.</source>
+          <target state="translated">노드에서 서명 유효성 검사를 사용하도록 설정합니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Create a sample configuration file.</source>
+          <target state="translated">샘플 구성 파일을 만듭니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Try pushing the unsigned configuration file in to the node.</source>
+          <target state="translated">서명되지 않은 구성 파일을 노드로 푸시해 봅니다.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>ErrorUnsignedMofPushed</source>
+          <target state="translated">ErrorUnsignedMofPushed</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Sign the configurtion file using code-signing cert.</source>
+          <target state="translated">코드 서명 인증서를 사용하여 구성 파일에 서명합니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>SignMofFile</source>
+          <target state="translated">SignMofFile</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Try pushing the signed mof file.</source>
+          <target state="translated">서명된 mof 파일을 푸시해 봅니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>SignMofFile</source>
+          <target state="translated">SignMofFile</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
