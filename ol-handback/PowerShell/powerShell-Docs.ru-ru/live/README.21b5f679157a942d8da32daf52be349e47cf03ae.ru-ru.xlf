@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-f61a62f" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bfee5ef59a4085f0350ff454f634fc0bf5d6d837</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">jea\README.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e6bd75d55ad527ab50c6622a103382622f395da9</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet,jea</source>
+          <target state="translated">powershell,cmdlet,jea</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>README</source>
+          <target state="translated">файл README</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Just Enough Administration</source>
+          <target state="translated">Just Enough Administration (JEA)</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Just Enough Administration (JEA) is a security technology that enables delegated administration for anything that can be managed with PowerShell.</source>
+          <target state="translated">Just Enough Administration (JEA) — это технология безопасности, позволяющая делегировать администрирование в отношении всего, чем можно управлять через PowerShell.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>With JEA, you can:</source>
+          <target state="translated">JEA позволяет сделать следующее:</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Reduce the number of administrators on your machines<ept id="p1">**</ept> by leveraging virtual accounts that perform privileged actions on behalf of regular users.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Уменьшить число администраторов на компьютерах<ept id="p1">**</ept>, используя виртуальные учетные записи, которые допускают выполнение привилегированных действий от имени обычных пользователей.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Limit what users can do<ept id="p1">**</ept> by specifying which cmdlets, functions, and external commands they can run.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Ограничить доступные пользователям действия<ept id="p1">**</ept>, указав, какие командлеты, функции и внешние команды могут выполнять пользователи.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Better understand what your users are doing<ept id="p1">**</ept> with "over the shoulder" transcriptions that show you exactly what commands a user executed during a session.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Лучше понять, что делают ваши пользователи<ept id="p1">**</ept>, используя детализированные записи с "подсматриванием" для команд, выполняемых пользователем за время сеанса.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Why is this important?</source>
+          <target state="translated">Почему это важно?</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Consider the common scenario where your DNS servers are co-located with your Active Directory Domain Controllers.</source>
+          <target state="translated">Рассмотрим распространенный сценарий, когда DNS-серверы размещены совместно с контроллерами домена Active Directory.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Your DNS administrators need to have local administrator privileges to fix issues with the DNS server, but in order to do so you have to make them members of the highly privileged "Domain Admins" security group.</source>
+          <target state="translated">Администраторам DNS требуются привилегии локального администратора для устранения проблем с DNS-сервером, но для этого их необходимо включить в высокопривилегированную группу безопасности администраторов домена.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This approach effectively gives DNS Administrators control over your whole domain and access to all resources on that machine.</source>
+          <target state="translated">При этом они получат контроль над всем доменом и доступ ко всем ресурсам на соответствующем компьютере.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>With JEA in place, you can configure a role for your DNS administrators that gives them access to all the commands they need to get their job done, but nothing more.</source>
+          <target state="translated">При наличии JEA вы можете настроить для администраторов DNS роль, предоставляющую им доступ только к командам, которые нужны им для работы.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This means you can provide the appropriate access to repair a poisoned DNS cache without unintentionally giving them rights to Active Directory, or to browse the file system, or run potentially dangerous scripts.</source>
+          <target state="translated">Это означает, что вы можете предоставить соответствующие права доступа для восстановления поврежденного кэша DNS без случайного предоставления прав доступа к Active Directory или на просмотр файловой системы, или на запуск потенциально опасных сценариев.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Better yet, when the JEA session is configured to use one-time privileged virtual accounts, your DNS administrators can connect to the server using <bpt id="p1">*</bpt>unprivileged<ept id="p1">*</ept> credentials and still be able to run privileged commands.</source>
+          <target state="translated">Более того, если в сеансе JEA настроено использование одноразовых привилегированных виртуальных учетных записей, ваши администраторы DNS смогут подключаться к серверу с помощью <bpt id="p1">*</bpt>непривилегированных<ept id="p1">*</ept> учетных данных и при этом выполнять привилегированные команды.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Availability</source>
+          <target state="translated">доступность;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>JEA is being developed in parallel to Windows Server 2016, and is available on older versions of Windows through Windows Management Framework updates.</source>
+          <target state="translated">JEA разрабатывается параллельно с будущим выпуском Windows Server 2016; в предыдущих версиях Windows эта служба доступна вместе с обновлениями Windows Management Framework.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The current release of JEA is available on the following platforms:</source>
+          <target state="translated">Текущая версия JEA доступна на следующих платформах:</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Windows Server</source>
+          <target state="translated">Windows Server</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Windows Server 2016 Technical Preview 4 and higher</source>
+          <target state="translated">Windows Server 2016 Technical Preview 4 и более поздние версии</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Windows Server 2012 R2, 2012, and 2008 R2<ph id="ph1">\*</ph> with <bpt id="p1">[</bpt>Windows Management Framework 5.0<ept id="p1">](https://www.microsoft.com/en-us/download/details.aspx?id=50395)</ept> installed</source>
+          <target state="translated">Windows Server 2012 R2, 2012 и 2008 R2<ph id="ph1">\*</ph> с установленным пакетом <bpt id="p1">[</bpt>Windows Management Framework 5.0<ept id="p1">](https://www.microsoft.com/en-us/download/details.aspx?id=50395)</ept></target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Windows Client</source>
+          <target state="translated">Клиент Windows</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Windows 10 with the November Update (1511) installed</source>
+          <target state="translated">Windows 10 с установленным ноябрьским обновлением (1511)</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Windows 8.1, 8, and 7<ph id="ph1">\*</ph> with <bpt id="p1">[</bpt>Windows Management Framework 5.0<ept id="p1">](https://www.microsoft.com/en-us/download/details.aspx?id=50395)</ept> installed</source>
+          <target state="translated">Windows Server 8.1, 8 и 7<ph id="ph1">\*</ph> с установленным пакетом <bpt id="p1">[</bpt>Windows Management Framework 5.0<ept id="p1">](https://www.microsoft.com/en-us/download/details.aspx?id=50395)</ept></target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Support for virtual accounts in JEA sessions is currently not available on Windows Server 2008 R2 or Windows 7.</source>
+          <target state="translated">Поддержка виртуальных учетных записей пользователей в сеансах JEA в Windows Server 2008 R2 или Windows 7 сейчас недоступна.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Explore the experience guide</source>
+          <target state="translated">Изучите руководство по работе</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Ready to learn how to author, deploy, and use your own JEA endpoint?</source>
+          <target state="translated">Готовы узнать, как создать, развернуть и использовать собственную конечную точку JEA?</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This guide gets you started quickly with a pre-built JEA endpoint to get an idea of what the end-user experience is like, then walks you through recreating an endpoint from scratch to help demonstrate concepts like session configurations and Role Capabilities.</source>
+          <target state="translated">Это руководство поможет вам быстро начать работу с предварительно созданной конечной точкой JEA и получить представление о работе с точки зрения конечного пользователя. В нем также описано создание конечной точки с нуля, чтобы показать конфигурации сеансов и возможности ролей.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Introduction</source>
+          <target state="translated">Введение</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Briefly review why you should care about JEA</source>
+          <target state="translated">Вкратце рассмотрим, почему JEA — это важно.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+          <target state="translated">Необходимые компоненты</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Explains how to set up your environment</source>
+          <target state="translated">Настроим среду.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Using JEA</source>
+          <target state="translated">Использование JEA</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Helps you start by understanding the operator experience of using JEA</source>
+          <target state="translated">Начнем с изучения работы оператора с JEA.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Remake the Demo</source>
+          <target state="translated">Переделка демоверсии</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Create a JEA Session Configuration from scratch</source>
+          <target state="translated">Создадим конфигурацию сеанса JEA с нуля.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Role Capabilities</source>
+          <target state="translated">Возможности ролей</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Learn about how to customize JEA capabilities with Role Capability Files</source>
+          <target state="translated">Узнаем, как настраивать возможности JEA, используя файлы возможностей ролей.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>End to End - Active Directory</source>
+          <target state="translated">От начала до конца — Active Directory</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Make a whole new endpoint for managing Active Directory</source>
+          <target state="translated">Создадим новую конечную точку для управления Active Directory.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Multi-machine Deployment and Maintenance</source>
+          <target state="translated">Обслуживание и развертывание на нескольких компьютерах</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Discover how deployment and authoring changes with scale</source>
+          <target state="translated">Узнаем, как меняется процесс развертывания и создания при изменении масштаба.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Reporting on JEA</source>
+          <target state="translated">Отчеты о JEA</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Discover how to audit and report on all JEA actions and infrastructure</source>
+          <target state="translated">Узнаем, как вести аудит и формировать отчеты по всем действиям и инфраструктуре JEA.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Appendixes</source>
+          <target state="translated">Приложения</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Key Concepts Used Throughout This Guide</source>
+          <target state="translated">Основные понятия, используемые в этом руководстве</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Creating a Domain Controller</source>
+          <target state="translated">Создание контроллера домена</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>On Blacklisting</source>
+          <target state="translated">О запрещенных списках</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Considerations When Limiting Commands</source>
+          <target state="translated">Рекомендации по ограничениям команд</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Common Role Capability Pitfalls</source>
+          <target state="translated">Распространенные проблемы возможностей ролей</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Start authoring your own JEA endpoints</source>
+          <target state="translated">Начните создавать свои собственные конечные точки JEA</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>It's easy to author a JEA endpoint -- all you need is a JEA-enabled system and a text editor (like PowerShell ISE).</source>
+          <target state="translated">Создать конечную точку JEA легко — вам нужна только система с JEA и текстовый редактор (например, интегрированная среда сценариев PowerShell).</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>One helpful tip to get started is to create skeleton files using <ph id="ph1">`New-PSRoleCapabilityFile -Path &lt;path&gt;`</ph> and <ph id="ph2">`New-PSSessionCapabilityFile -Path &lt;Path&gt;`</ph> without any other arguments.</source>
+          <target state="translated">Начать лучше всего с каркасных файлов, используя <ph id="ph1">`New-PSRoleCapabilityFile -Path &lt;path&gt;`</ph> и <ph id="ph2">`New-PSSessionCapabilityFile -Path &lt;Path&gt;`</ph> без других аргументов.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>These skeleton files contain all of the applicable configuration fields along with helpful comments to explain what each field can be used for.</source>
+          <target state="translated">Эти каркасные файлы содержат все необходимые поля конфигурации, а также полезные комментарии о том, для чего можно использовать каждое поле.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>To make authoring JEA endpoints even easier, check out the <bpt id="p1">[</bpt>JEA Toolkit Helper<ept id="p1">](http://blogs.technet.com/b/privatecloud/archive/2015/12/20/introducing-the-updated-jea-helper-tool.aspx)</ept> which provides a GUI with which you can author Session Configuration and Role Capability files.</source>
+          <target state="translated">Чтобы дополнительно упростить создание конечных точек JEA, воспользуйтесь <bpt id="p1">[</bpt>вспомогательным приложением инструментария JEA<ept id="p1">](http://blogs.technet.com/b/privatecloud/archive/2015/12/20/introducing-the-updated-jea-helper-tool.aspx)</ept>, графический пользовательский интерфейс которого позволяет создавать файлы конфигурации сеансов и возможностей ролей.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>It even supports generating Role Capabilities based on PowerShell logs to start you off with the commands your users regularly run to get their jobs done.</source>
+          <target state="translated">Оно поддерживает даже создание возможностей ролей на основе журналов PowerShell, позволяя начать с команд, которыми пользователи регулярно пользуются в своей работе.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
