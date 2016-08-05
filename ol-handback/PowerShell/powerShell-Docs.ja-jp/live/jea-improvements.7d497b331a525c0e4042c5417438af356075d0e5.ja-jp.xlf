@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-f61a62f" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7d2f293f000d3d82f4a227d3b3760988d9f02be7</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\features-scenarios-cache\jea-improvements.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a5789beb07edf0fc449d37c594793987b8086b96</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>improvements to just enough administration</source>
+          <target state="translated">Just Enough Administration の強化</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Constrained file copy to/from JEA endpoints</source>
+          <target state="translated">JEA エンドポイントとの間の制約付きのファイル コピー</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You can now remotely copy files to/from a JEA endpoint and rest assured that the connecting user can't copy just <bpt id="p1">*</bpt>any<ept id="p1">*</ept> file on your system.</source>
+          <target state="translated">JEA エンドポイントとの間でファイルをリモートでコピーできるようになりました。接続ユーザーはシステム上のファイルを<bpt id="p1">*</bpt>どれでも<ept id="p1">*</ept>コピーできるわけではないので安心することができます。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This is possible by configuring your PSSC file to mount a user drive for connecting users.</source>
+          <target state="translated">これは、接続ユーザー用のユーザー ドライブをマウントするよう PSSC ファイルを構成することによって可能になります。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The user drive is a new PSDrive that is unique to each connecting user and persists across sessions.</source>
+          <target state="translated">ユーザー ドライブは、各接続ユーザーに固有の新しい PSDrive であり、複数のセッションにわたって保持されます。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When Copy-Item is used to copy files to or from a JEA session, it is constrained to only allow access to the user drive.</source>
+          <target state="translated">Copy-Item を使用して JEA セッションとの間でファイルのコピーを行うと、該当するユーザー ドライブへのアクセスしか許可しないように制約が課せられます。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Attempts to copy files to any other PSDrive will fail.</source>
+          <target state="translated">その他の PSDrive ファイルへのコピーを試みると失敗します。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To set up the user drive in your JEA session configuration file, use the following new fields:</source>
+          <target state="translated">JEA セッションの構成ファイルで、ユーザー ドライブを設定するには、次の新しいフィールドを使用します。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The folder backing the user drive will be created at</source>
+          <target state="translated">ユーザー ドライブをバッキングするフォルダーが " " に作成されます。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To utilize the user drive and copy files to/from a JEA endpoint configured to expose the User drive, use the <ph id="ph1">`-ToSession`</ph> and <ph id="ph2">`-FromSession`</ph> parameters on Copy-Item.</source>
+          <target state="translated">ユーザー ドライブを公開するように構成された JEA エンドポイントとの間で、ユーザー ドライブを使用してファイルのコピーを行うには、Copy-Item で <ph id="ph1">`-ToSession`</ph> および <ph id="ph2">`-FromSession`</ph> パラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can then write custom functions to process the data stored in the user drive and make those available to users in your Role Capability file.</source>
+          <target state="translated">ユーザー ドライブに格納されたデータを処理して、ロール機能ファイル内のユーザーがそれらを使用できるようにするためのカスタム関数を作成することができます。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Support for Group Managed Service Accounts</source>
+          <target state="translated">グループの管理されたサービス アカウントのサポート</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In some cases, a task a user needs to perform in a JEA session may need to access resources beyond the local machine.</source>
+          <target state="translated">場合によって、JEA セッションでユーザーが実行する必要があるタスクは、ローカル コンピューター以外のリソースにアクセスすることが必要な場合があります。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>When a JEA session is configured to use a virtual account, any attempt to reach such resources will appear to come from the local machine's identity, not the virtual account or connected user.</source>
+          <target state="translated">JEA セッションが仮想アカウントを使用するように構成されている場合、そのようなリソースへのアクセスの試みは、仮想アカウントまたは接続ユーザーからではなく、ローカル コンピューターの ID からのアクセスのように見えます。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>In TP5, we have enabled support for running JEA under the context of a [Group Managed Service Account](https://technet.microsoft.com/en-us/library/jj128431(v=ws.11<ph id="ph1">\)</ph>.aspx), making it much easier to access network resources by using a domain identity.</source>
+          <target state="translated">グループの管理されたサービス アカウント TP5 では、[グループの管理されたサービス アカウント](https://technet.microsoft.com/en-us/library/jj128431(v=ws.11<ph id="ph1">\)</ph>.aspx) というコンテキストの下で JEA の実行をサポートするようにしたことで、ドメイン ID を使用したネットワーク リソースへのアクセスが簡単になりました。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To configure a JEA session to run under a gMSA account, use the following new key in your PSSC file:</source>
+          <target state="translated">JEA セッションを、gMSA アカウントの下で実行されるように構成するには、PSSC ファイルで次の新しいキーを使用します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> Group Managed Service Accounts do not afford the isolation or limited scope of virtual accounts.</source>
+          <target state="translated"><bpt id="p1">**</bpt>注:<ept id="p1">**</ept> グループの管理されたサービス アカウントでは、仮想アカウントの分離または限定的な範囲を許容していません。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Every connecting user will share the same gMSA identity, which may have permissions across your entire enterprise.</source>
+          <target state="translated">接続ユーザーはすべて同じ gMSA ID を共有することになります。この ID は企業全体を対象とするアクセス許可を持つ場合もあります。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Be very careful when selecting to use a gMSA, and always prefer virtual accounts which are limited to the local machine when possible.</source>
+          <target state="translated">gMSA の使用を選択する場合は細心の注意を払ってください。可能であればローカル コンピューターに限定された仮想アカウントを常に優先してください。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Conditional access policies</source>
+          <target state="translated">条件付きのアクセス ポリシー</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>JEA is great at limiting what someone can do when they've connected to a system to manage it, but what if you also want to limit <bpt id="p1">*</bpt>when<ept id="p1">*</ept> someone can use JEA?</source>
+          <target state="translated">あるユーザーがシステムの管理を目的としてシステムに接続したときにその人が実行できる操作を制限する場合に JEA は便利です。しかし、だれかが JEA を使用できる<bpt id="p1">*</bpt>タイミング<ept id="p1">*</ept>を制限したい場合はどうするのですか?</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>We have added configuration options into the session configuration files (.pssc) to let you specify security groups to which a user must belong in order to establish a JEA session.</source>
+          <target state="translated">ユーザーが JEA セッションを確立するときに属する必要があるセキュリティ グループを指定できるように、セッション構成ファイル (.pssc) に構成オプションを追加しました。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This can be particularly helpful if you have a Just In Time (JIT) system in your environment, and want to make your users elevate their privileges before accessing a highly-privileged JEA endpoint.</source>
+          <target state="translated">環境内にジャスト イン タイム (JIT) システムが搭載されていて、高い権限を持つ JEA エンドポイントにアクセスする前にユーザーに自分の権限を昇格させる必要があるとき、このオプションは特に有用です。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The new <bpt id="p1">*</bpt>RequiredGroups<ept id="p1">*</ept> field in the PSSC file allows you to specify the logic to determine if a user can connect to JEA.</source>
+          <target state="translated">PSSC ファイル内の新しい <bpt id="p1">*</bpt>RequiredGroups<ept id="p1">*</ept> フィールドを使用すると、ユーザーが JEA に接続できるかどうかを判断するロジックを指定することができます。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>It consists of specifying a hashtable (optionally nested) that uses the 'And' and 'Or' keys to construct your rules.</source>
+          <target state="translated">このロジックでは、ルールを構築するために "And" キーと "Or" キーを使用するハッシュ テーブル (必要に応じて入れ子になっている) を指定します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Here are some examples of how to leverage this field:</source>
+          <target state="translated">このフィールドの活用方法について、次に例を示します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Fixed: Virtual accounts are now supported on Windows Server 2008 R2</source>
+          <target state="translated">固定: Windows Server 2008 R2 で仮想アカウントがサポートされるようになりました。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>In WMF 5.1, you are now able to use virtual accounts on Windows Server 2008 R2, enabling consistent configurations and feature parity across Windows Server 2008 R2 - 2016.</source>
+          <target state="translated">WMF 5.1 では、Windows Server 2008 R2 で仮想アカウントを使用できるようになりました。これにより、Windows Server 2008 R2 - 2016 にわたり一貫した構成と機能の類似性が提供されます。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Virtual accounts remain unsupported when using JEA on Windows 7.</source>
+          <target state="translated">Windows 7 で JEA を使用する場合、仮想アカウントはまだサポートされていません。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
