@@ -5,9 +5,9 @@
  -------- | ----- 
  Total Files | 454
 [ Handoff Failed Files ](#handoff-failed-list)| 0
-[ Handoff Success Files ](#handoff-success-list)| 414
+[ Handoff Success Files ](#handoff-success-list)| 413
 [ Archive Failed Files ](#archive-failed-list)| 0
-[ Archive Success Files ](#archive-success-list)| 0
+[ Archive Success Files ](#archive-success-list)| 1
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 0
@@ -184,7 +184,6 @@
  [jea\remake-the-demo-endpoint.md](https://github.com/PowerShell/powerShell-Docs/blob/d20ea8418cb7389d756de94ea752cf604b8d07af/jea/remake-the-demo-endpoint.md) | HandedOffSuccess | [Details](#acd2cfbd038250a26236c875d0e8b03a32cd84f9182)
  [jea\reporting-on-jea.md](https://github.com/PowerShell/powerShell-Docs/blob/7504fe496a8913718847e45115d126caf4049bef/jea/reporting-on-jea.md) | HandedOffSuccess | [Details](#d867a6462e9fa8b6e16c8c2103899c72b380116c183)
  [jea\role-capabilities.md](https://github.com/PowerShell/powerShell-Docs/blob/81fd386d58576a8930093b4f18ce36a4ff6cecd0/jea/role-capabilities.md) | HandedOffSuccess | [Details](#a3dd4a217f5b1fd80e97adf802c65073ca015bbc184)
- [jea\TOC.MD](https://github.com/PowerShell/powerShell-Docs/blob/5b1f56380032b0661563552e167eb135059ebf85/jea/TOC.MD) | HandedOffSuccess | [Details](#fc3b6d859bf3842a857d9519516ea4e275fa1876185)
  [jea\using-jea.md](https://github.com/PowerShell/powerShell-Docs/blob/88ce340c09efdbb3d81a72fe6113c1187a9152f2/jea/using-jea.md) | HandedOffSuccess | [Details](#9db7a5a91d25d459313117da34af63016f03c241186)
  [scripting\core-powershell\console\PowerShell.exe-Command-Line-Help.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/console/PowerShell.exe-Command-Line-Help.md) | HandedOffSuccess | [Details](#a53a9457712973b4ff43c226b247214d24406592189)
  [scripting\core-powershell\console\Using-Tab-Expansion.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/console/Using-Tab-Expansion.md) | HandedOffSuccess | [Details](#644dbbb51e98efda9735f0ff23489e936f6b28a2190)
@@ -436,6 +435,9 @@
 ## <a name='archive-failed-list'></a> Archive Failed File List
 
 ## <a name='archive-success-list'></a> Archive Success File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [jea\TOC.MD](https://github.com/PowerShell/powerShell-Docs/blob/5b1f56380032b0661563552e167eb135059ebf85/jea/TOC.MD) | ArchivedSuccess | [Details](#fc3b6d859bf3842a857d9519516ea4e275fa1876185)
 
 ## <a name='handback-failed-list'></a> Handback Failed File List
 
@@ -2709,13 +2711,13 @@
 * [Back to Top](#report-top)
 
 ##### <a name='fc3b6d859bf3842a857d9519516ea4e275fa1876185'></a> Source: [jea\TOC.MD](https://github.com/PowerShell/powerShell-Docs/blob/5b1f56380032b0661563552e167eb135059ebf85/jea/TOC.MD)
-* Status: HandedOffSuccess
+* Status: ArchivedSuccess
 * Target File: 
 * Handoff File: [TOC.728fa1d71de264a8b3f5c4d3db2895c29df6ac9f.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/bb8a05a14c14c924684962ce491595719d92354c/ol-handoff/PowerShell/powerShell-Docs.it-it/live/TOC.728fa1d71de264a8b3f5c4d3db2895c29df6ac9f.it-it.xlf)
 * Handoff Datetime: 2016-08-19 08:15:25
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [TOC.728fa1d71de264a8b3f5c4d3db2895c29df6ac9f.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/6de7a1147f91a25d48368d44335806d8af47ffc6/ol-archive/PowerShell/powerShell-Docs.it-it/live/TOC.728fa1d71de264a8b3f5c4d3db2895c29df6ac9f.it-it.xlf)
+* Archive Datetime: 2016-08-19 08:23:34
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
