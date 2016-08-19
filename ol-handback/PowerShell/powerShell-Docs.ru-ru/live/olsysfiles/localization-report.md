@@ -2711,8 +2711,8 @@
 ##### <a name='fc3b6d859bf3842a857d9519516ea4e275fa1876185'></a> Source: [jea\TOC.MD](https://github.com/PowerShell/powerShell-Docs/blob/5b1f56380032b0661563552e167eb135059ebf85/jea/TOC.MD)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [TOC.728fa1d71de264a8b3f5c4d3db2895c29df6ac9f.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/5a684a0d7d10dfbf2eb87bcdfac35d48aebab527/ol-handoff/PowerShell/powerShell-Docs.ru-ru/live/TOC.728fa1d71de264a8b3f5c4d3db2895c29df6ac9f.ru-ru.xlf)
-* Handoff Datetime: 2016-08-18 01:37:52
+* Handoff File: [TOC.728fa1d71de264a8b3f5c4d3db2895c29df6ac9f.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/bb8a05a14c14c924684962ce491595719d92354c/ol-handoff/PowerShell/powerShell-Docs.ru-ru/live/TOC.728fa1d71de264a8b3f5c4d3db2895c29df6ac9f.ru-ru.xlf)
+* Handoff Datetime: 2016-08-19 08:16:20
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
