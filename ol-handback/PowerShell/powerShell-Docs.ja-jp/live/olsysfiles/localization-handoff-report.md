@@ -1,19 +1,45 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 1
+ Total Files | 3
 
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [jea\TOC.MD](https://github.com/PowerShell/powerShell-Docs/blob/5b1f56380032b0661563552e167eb135059ebf85/jea/TOC.MD) | HandedOffSuccess | [Details](#fc3b6d859bf3842a857d9519516ea4e275fa1876185)
+ [dsc\lnxGettingStarted.md](https://github.com/PowerShell/powerShell-Docs/blob/e4385f0ed482b97e8794cde968de549902cc358e/dsc/lnxGettingStarted.md) | HandedOffSuccess | [Details](#2283e797275f426b624119bd1191e58080780c0939)
+ [scripting\getting-started\fundamental\Using-Windows-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/f23b32acb8e96225cd97f0257a4034a87ed48142/scripting/getting-started/fundamental/Using-Windows-PowerShell.md) | HandedOffSuccess | [Details](#5f836de4f975e0490ee21aac369fd26b6b83c022296)
+ [scripting\PowerShell-Scripting.md](https://github.com/PowerShell/powerShell-Docs/blob/b38cfd053cc2356fa7ca99605dbd84190d342327/scripting/PowerShell-Scripting.md) | HandedOffSuccess | [Details](#fc6307be4dafb378350b6d9667b2b6aca0e2e6d4305)
 
 ## Item Details
-##### <a name='fc3b6d859bf3842a857d9519516ea4e275fa1876185'></a> Source: [jea\TOC.MD](https://github.com/PowerShell/powerShell-Docs/blob/5b1f56380032b0661563552e167eb135059ebf85/jea/TOC.MD)
+##### <a name='2283e797275f426b624119bd1191e58080780c0939'></a> Source: [dsc\lnxGettingStarted.md](https://github.com/PowerShell/powerShell-Docs/blob/e4385f0ed482b97e8794cde968de549902cc358e/dsc/lnxGettingStarted.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [TOC.728fa1d71de264a8b3f5c4d3db2895c29df6ac9f.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/bb8a05a14c14c924684962ce491595719d92354c/ol-handoff/PowerShell/powerShell-Docs.ja-jp/live/TOC.728fa1d71de264a8b3f5c4d3db2895c29df6ac9f.ja-jp.xlf)
-* Handoff Datetime: 2016-08-19 08:15:39
+* Handoff File: [lnxGettingStarted.1601cf6d0eb8b4f7343575c8fbf2106bfaad8b65.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/b52d0ee5b4ee4a6b405ac3d3315c2df94ec9edb1/ol-handoff/PowerShell/powerShell-Docs.ja-jp/live/lnxGettingStarted.1601cf6d0eb8b4f7343575c8fbf2106bfaad8b65.ja-jp.xlf)
+* Handoff Datetime: 2016-08-22 22:20:03
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* [Back to Top](#report-top)
+
+##### <a name='5f836de4f975e0490ee21aac369fd26b6b83c022296'></a> Source: [scripting\getting-started\fundamental\Using-Windows-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/f23b32acb8e96225cd97f0257a4034a87ed48142/scripting/getting-started/fundamental/Using-Windows-PowerShell.md)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [Using-Windows-PowerShell.d23924c5ab8baff992c4dcc78d5d8a95c48ac773.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/b52d0ee5b4ee4a6b405ac3d3315c2df94ec9edb1/ol-handoff/PowerShell/powerShell-Docs.ja-jp/live/Using-Windows-PowerShell.d23924c5ab8baff992c4dcc78d5d8a95c48ac773.ja-jp.xlf)
+* Handoff Datetime: 2016-08-22 22:20:03
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* [Back to Top](#report-top)
+
+##### <a name='fc6307be4dafb378350b6d9667b2b6aca0e2e6d4305'></a> Source: [scripting\PowerShell-Scripting.md](https://github.com/PowerShell/powerShell-Docs/blob/b38cfd053cc2356fa7ca99605dbd84190d342327/scripting/PowerShell-Scripting.md)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [PowerShell-Scripting.8f5d79e74e333fb9812de946411a1b4ef2060582.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/b52d0ee5b4ee4a6b405ac3d3315c2df94ec9edb1/ol-handoff/PowerShell/powerShell-Docs.ja-jp/live/PowerShell-Scripting.8f5d79e74e333fb9812de946411a1b4ef2060582.ja-jp.xlf)
+* Handoff Datetime: 2016-08-22 22:20:03
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
