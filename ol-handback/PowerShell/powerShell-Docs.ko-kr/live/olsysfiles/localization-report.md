@@ -7,10 +7,10 @@
 [ Handoff Failed Files ](#handoff-failed-list)| 0
 [ Handoff Success Files ](#handoff-success-list)| 413
 [ Archive Failed Files ](#archive-failed-list)| 0
-[ Archive Success Files ](#archive-success-list)| 1
+[ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
-[ In Sync Handback Files ](#insync-handback-success-list)| 0
+[ In Sync Handback Files ](#insync-handback-success-list)| 1
 [ Ignored Files ](#ignored-list)| 40
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
@@ -435,15 +435,15 @@
 ## <a name='archive-failed-list'></a> Archive Failed File List
 
 ## <a name='archive-success-list'></a> Archive Success File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [jea\TOC.MD](https://github.com/PowerShell/powerShell-Docs/blob/5b1f56380032b0661563552e167eb135059ebf85/jea/TOC.MD) | ArchivedSuccess | [Details](#fc3b6d859bf3842a857d9519516ea4e275fa1876185)
 
 ## <a name='handback-failed-list'></a> Handback Failed File List
 
 ## <a name='outofsync-handback-success-list'></a> Out Of Sync Handback Success File List
 
 ## <a name='insync-handback-success-list'></a> In Sync Handback File Success List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [jea\TOC.MD](https://github.com/PowerShell/powerShell-Docs/blob/5b1f56380032b0661563552e167eb135059ebf85/jea/TOC.MD) | InSyncHandedBackSuccess | [Details](#fc3b6d859bf3842a857d9519516ea4e275fa1876185)
 
 ## <a name='ignored-list'></a> Ignored File List
  Source File | Status | Details 
@@ -2711,15 +2711,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='fc3b6d859bf3842a857d9519516ea4e275fa1876185'></a> Source: [jea\TOC.MD](https://github.com/PowerShell/powerShell-Docs/blob/5b1f56380032b0661563552e167eb135059ebf85/jea/TOC.MD)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [jea\TOC.MD](https://github.com/PowerShell/powerShell-Docs.ko-kr/blob/50121d92bd4857be617c6cb6a74e75c4b8308572/jea/TOC.MD)
 * Handoff File: [TOC.728fa1d71de264a8b3f5c4d3db2895c29df6ac9f.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/bb8a05a14c14c924684962ce491595719d92354c/ol-handoff/PowerShell/powerShell-Docs.ko-kr/live/TOC.728fa1d71de264a8b3f5c4d3db2895c29df6ac9f.ko-kr.xlf)
 * Handoff Datetime: 2016-08-19 08:15:52
 * Handoff Reason: Include
 * Archive File: [TOC.728fa1d71de264a8b3f5c4d3db2895c29df6ac9f.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/1105f7fcdede26f4beff4db9a451fdec12be8984/ol-archive/PowerShell/powerShell-Docs.ko-kr/live/TOC.728fa1d71de264a8b3f5c4d3db2895c29df6ac9f.ko-kr.xlf)
 * Archive Datetime: 2016-08-19 08:22:46
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
+* Handback File: [TOC.728fa1d71de264a8b3f5c4d3db2895c29df6ac9f.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/12057449e5cb75ae5a000868929c61e9df755d89/ol-handback/PowerShell/powerShell-Docs.ko-kr/live/TOC.728fa1d71de264a8b3f5c4d3db2895c29df6ac9f.ko-kr.xlf)
+* Handback Datetime: 2016-08-22 16:20:47
 * [Back to Top](#report-top)
 
 ##### <a name='9db7a5a91d25d459313117da34af63016f03c241186'></a> Source: [jea\using-jea.md](https://github.com/PowerShell/powerShell-Docs/blob/88ce340c09efdbb3d81a72fe6113c1187a9152f2/jea/using-jea.md)
