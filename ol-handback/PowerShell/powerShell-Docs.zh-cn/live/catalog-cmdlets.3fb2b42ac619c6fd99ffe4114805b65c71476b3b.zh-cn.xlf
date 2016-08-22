@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-22243b3" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7ca0f3b5a6655a8b7fd5371ad8d6a91be3d5e9a1</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\features-scenarios-cache\catalog-cmdlets.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>title: Catalog Cmdlets author:  jaimeo contributor: ?</source>
+          <target state="translated">标题：目录 Cmdlet 作者：jaimeo 参与者：？</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Catalog Cmdlets</source>
+          <target state="translated">目录 Cmdlet</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>We have added two new cmdlets in <bpt id="p1">[</bpt>Microsoft.Powershell.Secuity<ept id="p1">](https://technet.microsoft.com/en-us/library/hh847877.aspx)</ept> module to generate and validate windows catalog files.</source>
+          <target state="translated">我们在 <bpt id="p1">[</bpt>Microsoft.Powershell.Secuity<ept id="p1">](https://technet.microsoft.com/en-us/library/hh847877.aspx)</ept> 模块中新增了两个新 cmdlet 来生成和验证 windows 目录文件。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>New-FileCatalog</source>
+          <target state="translated">New-FileCatalog</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>New File catalog creates a windows catalog file for set of folders and files.</source>
+          <target state="translated">New File 目录用于为文件夹和文件集合创建 windows 目录文件。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Catalog file contains hashes for all files in specified paths.</source>
+          <target state="translated">目录文件包含指定路径中的所有文件的哈希值。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>User can distribute the set of folders along with corresponding catalog file representing those folders.</source>
+          <target state="translated">用户可以分发文件夹集合以及代表这些文件夹的对应的目录文件。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>It can be used by receiver of content to validate if any changes are made to the folders since catalog creation time.</source>
+          <target state="translated">内容接收方可通过这些来验证自目录创建以来是否对文件夹进行了任何更改。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>We support creating catalog version 1 and 2.</source>
+          <target state="translated">我们支持创建目录版本 1 和 2。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Version 1 uses SHA1 hashing algorithm to create file hashes and version 2 uses SHA256.</source>
+          <target state="translated">版本 1 使用 SHA1 哈希算法来创建文件哈希值，版本 2 则使用 SHA256。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Catalog version 2 is not supported on <bpt id="p1">*</bpt>Windows Server 2008 R2<ept id="p1">*</ept> and <bpt id="p2">*</bpt>Windows 7<ept id="p2">*</ept>.</source>
+          <target state="translated">Windows Server 2008 R2 和 Windows 7 不支持目录版本 2。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>It is recommended to use catalog version 2 if using platforms <bpt id="p1">*</bpt>Windows 8<ept id="p1">*</ept>, <bpt id="p2">*</bpt>Windows Server 2012<ept id="p2">*</ept> and above.</source>
+          <target state="translated">如果使用的平台为 Windows 8、Windows Server 2012 及更高版本，则建议使用目录版本 2。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This creates the catalog file.</source>
+          <target state="translated">这将创建目录文件。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To verify the integrity of catalog file (Pester.cat in above exmaple) it should be signed using <bpt id="p1">[</bpt>Set-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849819.aspx)</ept> cmdlet.</source>
+          <target state="translated">若要验证目录文件（上面示例中的 Pester.cat 文件）的完整性，应使用 <bpt id="p1">[</bpt>Set-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849819.aspx)</ept> cmdlet 对其进行签名。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Test-FileCatalog</source>
+          <target state="translated">Test-FileCatalog</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Test File catalog validates the catalog representing a set of folders.</source>
+          <target state="translated">Test File 目录用于验证代表一组文件夹的目录。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This cmdlet compares all the files hashes and their relative paths found in <bpt id="p1">*</bpt>catalog<ept id="p1">*</ept> with ones on <bpt id="p2">*</bpt>disk<ept id="p2">*</ept>.</source>
+          <target state="translated">此 cmdlet 将目录中找到的所有文件的哈希值及其相对路径与磁盘中的进行比较。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If it detects any mismatch between file hashes and paths it gives status as <bpt id="p1">*</bpt>ValidationFailed<ept id="p1">*</ept>.</source>
+          <target state="translated">如果它检测到文件哈希值和路径之间存在任何不匹配，将给出状态 ValidationFailed。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>User can retrieve all this information using <bpt id="p1">*</bpt>-Detailed<ept id="p1">*</ept> flag.</source>
+          <target state="translated">用户可以使用 <bpt id="p1">*</bpt>-Detailed<ept id="p1">*</ept> 标志检索所有该信息。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>It also displays signing status of catalog in <bpt id="p1">*</bpt>Signature<ept id="p1">*</ept> filed which is same as calling <bpt id="p2">[</bpt>Get-AuthenticodeSignature<ept id="p2">](https://technet.microsoft.com/en-us/library/hh849805.aspx)</ept> cmdlet on catalog file.</source>
+          <target state="translated">它还在“签名”字段中显示目录的签名状态，该结果与针对目录文件调用 <bpt id="p2">[</bpt>Get-AuthenticodeSignature<ept id="p2">](https://technet.microsoft.com/en-us/library/hh849805.aspx)</ept> cmdlet 的结果相同。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>User can also skip any file during validation by using <bpt id="p1">*</bpt>-FilesToSkip<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">用户也可以使用 -FilesToSkip 参数在验证过程中跳过任何文件。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
