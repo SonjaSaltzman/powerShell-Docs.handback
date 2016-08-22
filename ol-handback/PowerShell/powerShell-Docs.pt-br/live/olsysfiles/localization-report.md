@@ -2720,6 +2720,8 @@
 * Archive Datetime: 2016-08-19 08:24:27
 * Handback File: [TOC.728fa1d71de264a8b3f5c4d3db2895c29df6ac9f.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/7014244f4cf526005c729803f408d990f402dfb3/ol-handback/PowerShell/powerShell-Docs.pt-br/live/TOC.728fa1d71de264a8b3f5c4d3db2895c29df6ac9f.pt-br.xlf)
 * Handback Datetime: 2016-08-22 16:21:17
+* Bilingual File: [TOC.728fa1d71de264a8b3f5c4d3db2895c29df6ac9f.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/7014244f4cf526005c729803f408d990f402dfb3/ol-handback/PowerShell/powerShell-Docs.pt-br/live/TOC.728fa1d71de264a8b3f5c4d3db2895c29df6ac9f.pt-br.xlf)
+* Bilingual Datetime: 2016-08-22 16:27:30
 * [Back to Top](#report-top)
 
 ##### <a name='9db7a5a91d25d459313117da34af63016f03c241186'></a> Source: [jea\using-jea.md](https://github.com/PowerShell/powerShell-Docs/blob/88ce340c09efdbb3d81a72fe6113c1187a9152f2/jea/using-jea.md)
