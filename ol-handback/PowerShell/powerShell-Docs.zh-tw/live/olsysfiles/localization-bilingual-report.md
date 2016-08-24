@@ -1,28 +1,11 @@
 # <a name='report-top'></a> Localization Bilingual Report
 
 ## Summary
- Total Files | 1
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [jea\TOC.MD](https://github.com/PowerShell/powerShell-Docs/blob/5b1f56380032b0661563552e167eb135059ebf85/jea/TOC.MD) | InSyncHandedBackSuccess | [Details](#fc3b6d859bf3842a857d9519516ea4e275fa1876185)
 
 ## Item Details
-##### <a name='fc3b6d859bf3842a857d9519516ea4e275fa1876185'></a> Source: [jea\TOC.MD](https://github.com/PowerShell/powerShell-Docs/blob/5b1f56380032b0661563552e167eb135059ebf85/jea/TOC.MD)
-* Status: InSyncHandedBackSuccess
-* Target File: [jea\TOC.MD](https://github.com/PowerShell/powerShell-Docs.zh-tw/blob/5fbb83dd65e3946deb792ad5cc09d6ace9d15916/jea/TOC.MD)
-* Handoff File: [TOC.728fa1d71de264a8b3f5c4d3db2895c29df6ac9f.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/bb8a05a14c14c924684962ce491595719d92354c/ol-handoff/PowerShell/powerShell-Docs.zh-tw/live/TOC.728fa1d71de264a8b3f5c4d3db2895c29df6ac9f.zh-tw.xlf)
-* Handoff Datetime: 2016-08-19 08:16:47
-* Handoff Reason: Include
-* Archive File: [TOC.728fa1d71de264a8b3f5c4d3db2895c29df6ac9f.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/446a815c430f9523483287ae422141ed37ea8199/ol-archive/PowerShell/powerShell-Docs.zh-tw/live/TOC.728fa1d71de264a8b3f5c4d3db2895c29df6ac9f.zh-tw.xlf)
-* Archive Datetime: 2016-08-19 08:22:21
-* Handback File: [TOC.728fa1d71de264a8b3f5c4d3db2895c29df6ac9f.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/1cd51665c7e49d33cb500f90728958b4afd22f02/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/TOC.728fa1d71de264a8b3f5c4d3db2895c29df6ac9f.zh-tw.xlf)
-* Handback Datetime: 2016-08-22 16:22:46
-* Bilingual File: [TOC.728fa1d71de264a8b3f5c4d3db2895c29df6ac9f.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/1cd51665c7e49d33cb500f90728958b4afd22f02/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/TOC.728fa1d71de264a8b3f5c4d3db2895c29df6ac9f.zh-tw.xlf)
-* Bilingual Datetime: 2016-08-22 16:27:09
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
