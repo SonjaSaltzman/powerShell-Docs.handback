@@ -5556,6 +5556,8 @@
 * Archive Datetime: 2016-08-23 13:37:55
 * Handback File: [oneget-improvement.5f280305f3daa37cb51ab01097cd9282a4fef551.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/44654a7ffc4fe7dc7fec2361228950a2d26b835e/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/oneget-improvement.5f280305f3daa37cb51ab01097cd9282a4fef551.ru-ru.xlf)
 * Handback Datetime: 2016-09-03 00:58:44
+* Bilingual File: [oneget-improvement.5f280305f3daa37cb51ab01097cd9282a4fef551.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/44654a7ffc4fe7dc7fec2361228950a2d26b835e/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/oneget-improvement.5f280305f3daa37cb51ab01097cd9282a4fef551.ru-ru.xlf)
+* Bilingual Datetime: 2016-09-03 01:00:01
 * [Back to Top](#report-top)
 
 ##### <a name='dd7905bfd221201919d028ec158cd5ef349335e2422'></a> Source: [wmf\5.1\features-scenarios-cache\PesterUpdates.md](https://github.com/PowerShell/powerShell-Docs/blob/e39aa2e5cbda0c83e24e21c4459d957d8baaff25/wmf/5.1/features-scenarios-cache/PesterUpdates.md)
