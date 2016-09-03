@@ -1,11 +1,26 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [scripting\getting-started\cookbooks\Multiple-selection-List-Boxes.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Multiple-selection-List-Boxes.md) | InSyncHandedBackSuccess | [Details](#1adae567893fb5dfcf5b5f675ca587a1d437d39a264)
 
 ## Item Details
+##### <a name='1adae567893fb5dfcf5b5f675ca587a1d437d39a264'></a> Source: [scripting\getting-started\cookbooks\Multiple-selection-List-Boxes.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Multiple-selection-List-Boxes.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\getting-started\cookbooks\Multiple-selection-List-Boxes.md](https://github.com/PowerShell/powerShell-Docs.zh-cn/blob/c973fe0544d75cc9cd667ddae04d517a6aa18607/scripting/getting-started/cookbooks/Multiple-selection-List-Boxes.md)
+* Handoff File: [Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/f2c241ec8c0950913e711bf1eebb457d80308a22/ol-handoff/PowerShell/powerShell-Docs.zh-cn/live/Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.zh-cn.xlf)
+* Handoff Datetime: 2016-08-23 21:23:54
+* Handoff Reason: Include
+* Archive File: [Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a7ac11ece605a487d00629d956f764ecd37b5191/ol-archive/PowerShell/powerShell-Docs.zh-cn/live/Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.zh-cn.xlf)
+* Archive Datetime: 2016-08-30 13:07:17
+* Handback File: [Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/0598cafdf8e27bde80422b8b7ad5eb5832583d9b/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.zh-cn.xlf)
+* Handback Datetime: 2016-09-03 15:14:46
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
