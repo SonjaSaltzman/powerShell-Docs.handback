@@ -5616,6 +5616,8 @@
 * Archive Datetime: 2016-08-23 13:36:22
 * Handback File: [using-module.dfdedb618ec7d188918f7f3f705c8c39bbb26521.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/7b03bbcb15f06891f060f636dc2e1c86b1e732c0/ol-handback/PowerShell/powerShell-Docs.es-es/live/using-module.dfdedb618ec7d188918f7f3f705c8c39bbb26521.es-es.xlf)
 * Handback Datetime: 2016-09-03 00:57:51
+* Bilingual File: [using-module.dfdedb618ec7d188918f7f3f705c8c39bbb26521.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/7b03bbcb15f06891f060f636dc2e1c86b1e732c0/ol-handback/PowerShell/powerShell-Docs.es-es/live/using-module.dfdedb618ec7d188918f7f3f705c8c39bbb26521.es-es.xlf)
+* Bilingual Datetime: 2016-09-03 00:59:53
 * [Back to Top](#report-top)
 
 ##### <a name='26a325dc7a18ba167ddc56ca226fce3eded79f52427'></a> Source: [wmf\5.1\install-configure.md](https://github.com/PowerShell/powerShell-Docs/blob/c88163b5a7d8805d0dea82d321796d8f41d17bb8/wmf/5.1/install-configure.md)
