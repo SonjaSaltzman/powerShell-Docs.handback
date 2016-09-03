@@ -1,11 +1,26 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [wmf\5.1\features-scenarios-cache\oneget-improvement.md](https://github.com/PowerShell/powerShell-Docs/blob/3b5a3bb0ef9cf123c0cee4a36890ac61431c85ff/wmf/5.1/features-scenarios-cache/oneget-improvement.md) | InSyncHandedBackSuccess | [Details](#bb1129e6aa20b64e94ddb6d7b7cf7b51b1df9ca3421)
 
 ## Item Details
+##### <a name='bb1129e6aa20b64e94ddb6d7b7cf7b51b1df9ca3421'></a> Source: [wmf\5.1\features-scenarios-cache\oneget-improvement.md](https://github.com/PowerShell/powerShell-Docs/blob/3b5a3bb0ef9cf123c0cee4a36890ac61431c85ff/wmf/5.1/features-scenarios-cache/oneget-improvement.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [wmf\5.1\features-scenarios-cache\oneget-improvement.md](https://github.com/PowerShell/powerShell-Docs.ru-ru/blob/933c7e88733ed2a3871c4e59a86dbb941dda1cf3/wmf/5.1/features-scenarios-cache/oneget-improvement.md)
+* Handoff File: [oneget-improvement.5f280305f3daa37cb51ab01097cd9282a4fef551.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/5a684a0d7d10dfbf2eb87bcdfac35d48aebab527/ol-handoff/PowerShell/powerShell-Docs.ru-ru/live/oneget-improvement.5f280305f3daa37cb51ab01097cd9282a4fef551.ru-ru.xlf)
+* Handoff Datetime: 2016-08-18 01:37:52
+* Handoff Reason: Include
+* Archive File: [oneget-improvement.5f280305f3daa37cb51ab01097cd9282a4fef551.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/b4725f9dbdd6581843e0380da9efc0dbfb3524e7/ol-archive/PowerShell/powerShell-Docs.ru-ru/live/oneget-improvement.5f280305f3daa37cb51ab01097cd9282a4fef551.ru-ru.xlf)
+* Archive Datetime: 2016-08-23 13:37:55
+* Handback File: [oneget-improvement.5f280305f3daa37cb51ab01097cd9282a4fef551.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/44654a7ffc4fe7dc7fec2361228950a2d26b835e/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/oneget-improvement.5f280305f3daa37cb51ab01097cd9282a4fef551.ru-ru.xlf)
+* Handback Datetime: 2016-09-03 00:58:44
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
