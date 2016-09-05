@@ -7,10 +7,10 @@
 [ Handoff Failed Files ](#handoff-failed-list)| 0
 [ Handoff Success Files ](#handoff-success-list)| 6
 [ Archive Failed Files ](#archive-failed-list)| 0
-[ Archive Success Files ](#archive-success-list)| 406
+[ Archive Success Files ](#archive-success-list)| 404
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
-[ In Sync Handback Files ](#insync-handback-success-list)| 2
+[ In Sync Handback Files ](#insync-handback-success-list)| 4
 [ Ignored Files ](#ignored-list)| 40
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
@@ -259,8 +259,6 @@
  [scripting\getting-started\cookbooks\Changing-Computer-State.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Changing-Computer-State.md) | ArchivedSuccess | [Details](#1779b9de13a30a43236e24793e5196261a7db77f253)
  [scripting\getting-started\cookbooks\Collecting-Information-About-Computers.md](https://github.com/PowerShell/powerShell-Docs/blob/d698cdd29bfe165b87494696ca2dc3486be4ab0e/scripting/getting-started/cookbooks/Collecting-Information-About-Computers.md) | ArchivedSuccess | [Details](#96204a0ce674cacd5b830f9f8b820ce3e1cbbc20254)
  [scripting\getting-started\cookbooks\Creating-.NET-and-COM-Objects--New-Object-.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Creating-.NET-and-COM-Objects--New-Object-.md) | ArchivedSuccess | [Details](#4c0f405a46e16935211b3886a40c9f7d1afc7260255)
- [scripting\getting-started\cookbooks\Creating-a-Custom-Input-Box.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Creating-a-Custom-Input-Box.md) | ArchivedSuccess | [Details](#6c0c1d42dae602a83bbad7a0abe8df1b6435489a256)
- [scripting\getting-started\cookbooks\Creating-a-Graphical-Date-Picker.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Creating-a-Graphical-Date-Picker.md) | ArchivedSuccess | [Details](#9c232f47eba22790dfc98e4948c71e181616d2ae257)
  [scripting\getting-started\cookbooks\Getting-WMI-Objects--Get-WmiObject-.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Getting-WMI-Objects--Get-WmiObject-.md) | ArchivedSuccess | [Details](#de9e8af7908ac6a72a100fd2c86b52c30c390c39258)
  [scripting\getting-started\cookbooks\Managing-Current-Location.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Managing-Current-Location.md) | ArchivedSuccess | [Details](#97bdd8ed6278fc5d45b34adf50ef8a194966ef0c259)
  [scripting\getting-started\cookbooks\Managing-Processes-with-Process-Cmdlets.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Managing-Processes-with-Process-Cmdlets.md) | ArchivedSuccess | [Details](#5a635485387bb367f4e43982085f9d36765a95e5260)
@@ -445,6 +443,8 @@
  Source File | Status | Details 
  ----------- | ------ | ------- 
  [jea\TOC.MD](https://github.com/PowerShell/powerShell-Docs/blob/5b1f56380032b0661563552e167eb135059ebf85/jea/TOC.MD) | InSyncHandedBackSuccess | [Details](#fc3b6d859bf3842a857d9519516ea4e275fa1876186)
+ [scripting\getting-started\cookbooks\Creating-a-Custom-Input-Box.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Creating-a-Custom-Input-Box.md) | InSyncHandedBackSuccess | [Details](#6c0c1d42dae602a83bbad7a0abe8df1b6435489a256)
+ [scripting\getting-started\cookbooks\Creating-a-Graphical-Date-Picker.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Creating-a-Graphical-Date-Picker.md) | InSyncHandedBackSuccess | [Details](#9c232f47eba22790dfc98e4948c71e181616d2ae257)
  [scripting\getting-started\cookbooks\Multiple-selection-List-Boxes.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Multiple-selection-List-Boxes.md) | InSyncHandedBackSuccess | [Details](#1adae567893fb5dfcf5b5f675ca587a1d437d39a264)
 
 ## <a name='ignored-list'></a> Ignored File List
@@ -3567,27 +3567,27 @@
 * [Back to Top](#report-top)
 
 ##### <a name='6c0c1d42dae602a83bbad7a0abe8df1b6435489a256'></a> Source: [scripting\getting-started\cookbooks\Creating-a-Custom-Input-Box.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Creating-a-Custom-Input-Box.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\getting-started\cookbooks\Creating-a-Custom-Input-Box.md](https://github.com/PowerShell/powerShell-Docs.zh-cn/blob/bc7b34afc075335a2a8ede1069f7aac10289f067/scripting/getting-started/cookbooks/Creating-a-Custom-Input-Box.md)
 * Handoff File: [Creating-a-Custom-Input-Box.d0b0f28391ca707134d516718eec44a874382d2a.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/f2c241ec8c0950913e711bf1eebb457d80308a22/ol-handoff/PowerShell/powerShell-Docs.zh-cn/live/Creating-a-Custom-Input-Box.d0b0f28391ca707134d516718eec44a874382d2a.zh-cn.xlf)
 * Handoff Datetime: 2016-08-23 21:23:54
 * Handoff Reason: Include
 * Archive File: [Creating-a-Custom-Input-Box.d0b0f28391ca707134d516718eec44a874382d2a.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a7ac11ece605a487d00629d956f764ecd37b5191/ol-archive/PowerShell/powerShell-Docs.zh-cn/live/Creating-a-Custom-Input-Box.d0b0f28391ca707134d516718eec44a874382d2a.zh-cn.xlf)
 * Archive Datetime: 2016-08-30 13:07:17
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
+* Handback File: [Creating-a-Custom-Input-Box.d0b0f28391ca707134d516718eec44a874382d2a.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/553d91541d0409b8415a935e7c6cf05b2a9d722f/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/Creating-a-Custom-Input-Box.d0b0f28391ca707134d516718eec44a874382d2a.zh-cn.xlf)
+* Handback Datetime: 2016-09-05 23:10:02
 * [Back to Top](#report-top)
 
 ##### <a name='9c232f47eba22790dfc98e4948c71e181616d2ae257'></a> Source: [scripting\getting-started\cookbooks\Creating-a-Graphical-Date-Picker.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Creating-a-Graphical-Date-Picker.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\getting-started\cookbooks\Creating-a-Graphical-Date-Picker.md](https://github.com/PowerShell/powerShell-Docs.zh-cn/blob/bc7b34afc075335a2a8ede1069f7aac10289f067/scripting/getting-started/cookbooks/Creating-a-Graphical-Date-Picker.md)
 * Handoff File: [Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/f2c241ec8c0950913e711bf1eebb457d80308a22/ol-handoff/PowerShell/powerShell-Docs.zh-cn/live/Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.zh-cn.xlf)
 * Handoff Datetime: 2016-08-23 21:23:54
 * Handoff Reason: Include
 * Archive File: [Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a7ac11ece605a487d00629d956f764ecd37b5191/ol-archive/PowerShell/powerShell-Docs.zh-cn/live/Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.zh-cn.xlf)
 * Archive Datetime: 2016-08-30 13:07:17
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
+* Handback File: [Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/553d91541d0409b8415a935e7c6cf05b2a9d722f/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.zh-cn.xlf)
+* Handback Datetime: 2016-09-05 23:10:02
 * [Back to Top](#report-top)
 
 ##### <a name='de9e8af7908ac6a72a100fd2c86b52c30c390c39258'></a> Source: [scripting\getting-started\cookbooks\Getting-WMI-Objects--Get-WmiObject-.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Getting-WMI-Objects--Get-WmiObject-.md)
