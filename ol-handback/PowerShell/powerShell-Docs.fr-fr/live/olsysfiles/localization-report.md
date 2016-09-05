@@ -3588,6 +3588,8 @@
 * Archive Datetime: 2016-08-30 13:06:58
 * Handback File: [Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/d83cc5fdf4de33f7e020bd3602460a42b2b27419/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.fr-fr.xlf)
 * Handback Datetime: 2016-09-05 20:46:12
+* Bilingual File: [Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/d83cc5fdf4de33f7e020bd3602460a42b2b27419/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.fr-fr.xlf)
+* Bilingual Datetime: 2016-09-05 20:46:49
 * [Back to Top](#report-top)
 
 ##### <a name='de9e8af7908ac6a72a100fd2c86b52c30c390c39258'></a> Source: [scripting\getting-started\cookbooks\Getting-WMI-Objects--Get-WmiObject-.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Getting-WMI-Objects--Get-WmiObject-.md)
@@ -3672,6 +3674,8 @@
 * Archive Datetime: 2016-08-30 13:06:58
 * Handback File: [Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/d83cc5fdf4de33f7e020bd3602460a42b2b27419/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.fr-fr.xlf)
 * Handback Datetime: 2016-09-05 20:46:12
+* Bilingual File: [Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/d83cc5fdf4de33f7e020bd3602460a42b2b27419/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.fr-fr.xlf)
+* Bilingual Datetime: 2016-09-05 20:46:49
 * [Back to Top](#report-top)
 
 ##### <a name='83aa2ceb63497c7a12ec80d4b1472327284acf5b265'></a> Source: [scripting\getting-started\cookbooks\Other-Useful-Scripting-Objects.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Other-Useful-Scripting-Objects.md)

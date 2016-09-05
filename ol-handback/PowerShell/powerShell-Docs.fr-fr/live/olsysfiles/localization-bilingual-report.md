@@ -1,11 +1,43 @@
 # <a name='report-top'></a> Localization Bilingual Report
 
 ## Summary
- Total Files | 0
+ Total Files | 2
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [scripting\getting-started\cookbooks\Creating-a-Graphical-Date-Picker.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Creating-a-Graphical-Date-Picker.md) | InSyncHandedBackSuccess | [Details](#9c232f47eba22790dfc98e4948c71e181616d2ae257)
+ [scripting\getting-started\cookbooks\Multiple-selection-List-Boxes.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Multiple-selection-List-Boxes.md) | InSyncHandedBackSuccess | [Details](#1adae567893fb5dfcf5b5f675ca587a1d437d39a264)
 
 ## Item Details
+##### <a name='9c232f47eba22790dfc98e4948c71e181616d2ae257'></a> Source: [scripting\getting-started\cookbooks\Creating-a-Graphical-Date-Picker.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Creating-a-Graphical-Date-Picker.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\getting-started\cookbooks\Creating-a-Graphical-Date-Picker.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/bfc351223ac11c930dbd28e6029edfb7053b1108/scripting/getting-started/cookbooks/Creating-a-Graphical-Date-Picker.md)
+* Handoff File: [Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/03276d5c2aad67b299e07d88507338142387f815/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.fr-fr.xlf)
+* Handoff Datetime: 2016-08-23 21:22:54
+* Handoff Reason: Include
+* Archive File: [Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/c07a413284e921b64170b13de90aab43e952caef/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.fr-fr.xlf)
+* Archive Datetime: 2016-08-30 13:06:58
+* Handback File: [Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/d83cc5fdf4de33f7e020bd3602460a42b2b27419/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.fr-fr.xlf)
+* Handback Datetime: 2016-09-05 20:46:12
+* Bilingual File: [Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/d83cc5fdf4de33f7e020bd3602460a42b2b27419/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.fr-fr.xlf)
+* Bilingual Datetime: 2016-09-05 20:46:49
+* [Back to Top](#report-top)
+
+##### <a name='1adae567893fb5dfcf5b5f675ca587a1d437d39a264'></a> Source: [scripting\getting-started\cookbooks\Multiple-selection-List-Boxes.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Multiple-selection-List-Boxes.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\getting-started\cookbooks\Multiple-selection-List-Boxes.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/bfc351223ac11c930dbd28e6029edfb7053b1108/scripting/getting-started/cookbooks/Multiple-selection-List-Boxes.md)
+* Handoff File: [Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/03276d5c2aad67b299e07d88507338142387f815/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.fr-fr.xlf)
+* Handoff Datetime: 2016-08-23 21:22:54
+* Handoff Reason: Include
+* Archive File: [Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/c07a413284e921b64170b13de90aab43e952caef/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.fr-fr.xlf)
+* Archive Datetime: 2016-08-30 13:06:58
+* Handback File: [Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/d83cc5fdf4de33f7e020bd3602460a42b2b27419/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.fr-fr.xlf)
+* Handback Datetime: 2016-09-05 20:46:12
+* Bilingual File: [Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/d83cc5fdf4de33f7e020bd3602460a42b2b27419/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.fr-fr.xlf)
+* Bilingual Datetime: 2016-09-05 20:46:49
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
