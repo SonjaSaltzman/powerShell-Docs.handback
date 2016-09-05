@@ -3588,6 +3588,8 @@
 * Archive Datetime: 2016-08-30 13:07:51
 * Handback File: [Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/786718f782141178664400f95a917fa5a2877e8e/ol-handback/PowerShell/powerShell-Docs.es-es/live/Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.es-es.xlf)
 * Handback Datetime: 2016-09-05 23:45:35
+* Bilingual File: [Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/786718f782141178664400f95a917fa5a2877e8e/ol-handback/PowerShell/powerShell-Docs.es-es/live/Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.es-es.xlf)
+* Bilingual Datetime: 2016-09-05 23:46:43
 * [Back to Top](#report-top)
 
 ##### <a name='de9e8af7908ac6a72a100fd2c86b52c30c390c39258'></a> Source: [scripting\getting-started\cookbooks\Getting-WMI-Objects--Get-WmiObject-.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Getting-WMI-Objects--Get-WmiObject-.md)

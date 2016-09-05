@@ -1,11 +1,28 @@
 # <a name='report-top'></a> Localization Bilingual Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [scripting\getting-started\cookbooks\Creating-a-Graphical-Date-Picker.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Creating-a-Graphical-Date-Picker.md) | InSyncHandedBackSuccess | [Details](#9c232f47eba22790dfc98e4948c71e181616d2ae257)
 
 ## Item Details
+##### <a name='9c232f47eba22790dfc98e4948c71e181616d2ae257'></a> Source: [scripting\getting-started\cookbooks\Creating-a-Graphical-Date-Picker.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Creating-a-Graphical-Date-Picker.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\getting-started\cookbooks\Creating-a-Graphical-Date-Picker.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/eff29c6e177cd08ec9094d697aa644b67a2fdc48/scripting/getting-started/cookbooks/Creating-a-Graphical-Date-Picker.md)
+* Handoff File: [Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/f848140a85cd182a793089f8522a2d24cd800ace/ol-handoff/PowerShell/powerShell-Docs.es-es/live/Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.es-es.xlf)
+* Handoff Datetime: 2016-08-23 21:26:50
+* Handoff Reason: Include
+* Archive File: [Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/21fceb0ec4a443807cd417478baf63fdefc87987/ol-archive/PowerShell/powerShell-Docs.es-es/live/Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.es-es.xlf)
+* Archive Datetime: 2016-08-30 13:07:51
+* Handback File: [Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/786718f782141178664400f95a917fa5a2877e8e/ol-handback/PowerShell/powerShell-Docs.es-es/live/Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.es-es.xlf)
+* Handback Datetime: 2016-09-05 23:45:35
+* Bilingual File: [Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/786718f782141178664400f95a917fa5a2877e8e/ol-handback/PowerShell/powerShell-Docs.es-es/live/Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.es-es.xlf)
+* Bilingual Datetime: 2016-09-05 23:46:43
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
