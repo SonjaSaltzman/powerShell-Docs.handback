@@ -3576,6 +3576,8 @@
 * Archive Datetime: 2016-08-30 13:07:17
 * Handback File: [Creating-a-Custom-Input-Box.d0b0f28391ca707134d516718eec44a874382d2a.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/553d91541d0409b8415a935e7c6cf05b2a9d722f/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/Creating-a-Custom-Input-Box.d0b0f28391ca707134d516718eec44a874382d2a.zh-cn.xlf)
 * Handback Datetime: 2016-09-05 23:10:02
+* Bilingual File: [Creating-a-Custom-Input-Box.d0b0f28391ca707134d516718eec44a874382d2a.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/553d91541d0409b8415a935e7c6cf05b2a9d722f/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/Creating-a-Custom-Input-Box.d0b0f28391ca707134d516718eec44a874382d2a.zh-cn.xlf)
+* Bilingual Datetime: 2016-09-05 23:10:45
 * [Back to Top](#report-top)
 
 ##### <a name='9c232f47eba22790dfc98e4948c71e181616d2ae257'></a> Source: [scripting\getting-started\cookbooks\Creating-a-Graphical-Date-Picker.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Creating-a-Graphical-Date-Picker.md)
@@ -3588,6 +3590,8 @@
 * Archive Datetime: 2016-08-30 13:07:17
 * Handback File: [Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/553d91541d0409b8415a935e7c6cf05b2a9d722f/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.zh-cn.xlf)
 * Handback Datetime: 2016-09-05 23:10:02
+* Bilingual File: [Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/553d91541d0409b8415a935e7c6cf05b2a9d722f/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.zh-cn.xlf)
+* Bilingual Datetime: 2016-09-05 23:10:45
 * [Back to Top](#report-top)
 
 ##### <a name='de9e8af7908ac6a72a100fd2c86b52c30c390c39258'></a> Source: [scripting\getting-started\cookbooks\Getting-WMI-Objects--Get-WmiObject-.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Getting-WMI-Objects--Get-WmiObject-.md)
