@@ -7,10 +7,10 @@
 [ Handoff Failed Files ](#handoff-failed-list)| 0
 [ Handoff Success Files ](#handoff-success-list)| 6
 [ Archive Failed Files ](#archive-failed-list)| 0
-[ Archive Success Files ](#archive-success-list)| 407
+[ Archive Success Files ](#archive-success-list)| 406
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
-[ In Sync Handback Files ](#insync-handback-success-list)| 1
+[ In Sync Handback Files ](#insync-handback-success-list)| 2
 [ Ignored Files ](#ignored-list)| 40
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
@@ -267,7 +267,6 @@
  [scripting\getting-started\cookbooks\Managing-Services.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Managing-Services.md) | ArchivedSuccess | [Details](#66c2a8c8afab49f16e8ef7d0b5ba3a2a65c92490261)
  [scripting\getting-started\cookbooks\Managing-Windows-PowerShell-Drives.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Managing-Windows-PowerShell-Drives.md) | ArchivedSuccess | [Details](#d266a109b1acd97c03594f988ce2fab3c697b80c262)
  [scripting\getting-started\cookbooks\Manipulating-Items-Directly.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Manipulating-Items-Directly.md) | ArchivedSuccess | [Details](#b21af4711cc5a846517c3e286c9e90f858612ccb263)
- [scripting\getting-started\cookbooks\Multiple-selection-List-Boxes.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Multiple-selection-List-Boxes.md) | ArchivedSuccess | [Details](#1adae567893fb5dfcf5b5f675ca587a1d437d39a264)
  [scripting\getting-started\cookbooks\Other-Useful-Scripting-Objects.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Other-Useful-Scripting-Objects.md) | ArchivedSuccess | [Details](#83aa2ceb63497c7a12ec80d4b1472327284acf5b265)
  [scripting\getting-started\cookbooks\Performing-Networking-Tasks.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Performing-Networking-Tasks.md) | ArchivedSuccess | [Details](#39266e1e4ae2101de26277c20a98596f62cf223d266)
  [scripting\getting-started\cookbooks\PowerShellGet-Module.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/getting-started/cookbooks/PowerShellGet-Module.md) | ArchivedSuccess | [Details](#3093c4c307ff61151946c417d18cde8fe56278bc267)
@@ -446,6 +445,7 @@
  Source File | Status | Details 
  ----------- | ------ | ------- 
  [jea\TOC.MD](https://github.com/PowerShell/powerShell-Docs/blob/5b1f56380032b0661563552e167eb135059ebf85/jea/TOC.MD) | InSyncHandedBackSuccess | [Details](#fc3b6d859bf3842a857d9519516ea4e275fa1876186)
+ [scripting\getting-started\cookbooks\Multiple-selection-List-Boxes.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Multiple-selection-List-Boxes.md) | InSyncHandedBackSuccess | [Details](#1adae567893fb5dfcf5b5f675ca587a1d437d39a264)
 
 ## <a name='ignored-list'></a> Ignored File List
  Source File | Status | Details 
@@ -3663,15 +3663,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='1adae567893fb5dfcf5b5f675ca587a1d437d39a264'></a> Source: [scripting\getting-started\cookbooks\Multiple-selection-List-Boxes.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Multiple-selection-List-Boxes.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\getting-started\cookbooks\Multiple-selection-List-Boxes.md](https://github.com/PowerShell/powerShell-Docs.pt-br/blob/c166d787a5456b0df7087117dcc6d23c02b8aa45/scripting/getting-started/cookbooks/Multiple-selection-List-Boxes.md)
 * Handoff File: [Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/24114424721887da74569d78335d1300a315660c/ol-handoff/PowerShell/powerShell-Docs.pt-br/live/Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.pt-br.xlf)
 * Handoff Datetime: 2016-08-23 21:29:18
 * Handoff Reason: Include
 * Archive File: [Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/c9f9141d0a88d0f4a68709402dc9cd5f881a0d2b/ol-archive/PowerShell/powerShell-Docs.pt-br/live/Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.pt-br.xlf)
 * Archive Datetime: 2016-08-30 13:08:33
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
+* Handback File: [Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/b22447f97e38910dbd83fb3803f59b1a52b18671/ol-handback/PowerShell/powerShell-Docs.pt-br/live/Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.pt-br.xlf)
+* Handback Datetime: 2016-09-05 21:18:36
 * [Back to Top](#report-top)
 
 ##### <a name='83aa2ceb63497c7a12ec80d4b1472327284acf5b265'></a> Source: [scripting\getting-started\cookbooks\Other-Useful-Scripting-Objects.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Other-Useful-Scripting-Objects.md)
