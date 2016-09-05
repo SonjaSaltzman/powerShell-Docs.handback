@@ -3672,6 +3672,8 @@
 * Archive Datetime: 2016-08-30 13:08:33
 * Handback File: [Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/b22447f97e38910dbd83fb3803f59b1a52b18671/ol-handback/PowerShell/powerShell-Docs.pt-br/live/Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.pt-br.xlf)
 * Handback Datetime: 2016-09-05 21:18:36
+* Bilingual File: [Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/b22447f97e38910dbd83fb3803f59b1a52b18671/ol-handback/PowerShell/powerShell-Docs.pt-br/live/Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.pt-br.xlf)
+* Bilingual Datetime: 2016-09-05 21:19:50
 * [Back to Top](#report-top)
 
 ##### <a name='83aa2ceb63497c7a12ec80d4b1472327284acf5b265'></a> Source: [scripting\getting-started\cookbooks\Other-Useful-Scripting-Objects.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Other-Useful-Scripting-Objects.md)
