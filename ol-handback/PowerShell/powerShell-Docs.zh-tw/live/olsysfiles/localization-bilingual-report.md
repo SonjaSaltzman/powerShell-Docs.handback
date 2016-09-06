@@ -6,21 +6,21 @@
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [scripting\getting-started\cookbooks\Creating-a-Graphical-Date-Picker.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Creating-a-Graphical-Date-Picker.md) | InSyncHandedBackSuccess | [Details](#9c232f47eba22790dfc98e4948c71e181616d2ae257)
+ [scripting\getting-started\cookbooks\Creating-a-Custom-Input-Box.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Creating-a-Custom-Input-Box.md) | InSyncHandedBackSuccess | [Details](#6c0c1d42dae602a83bbad7a0abe8df1b6435489a256)
 
 ## Item Details
-##### <a name='9c232f47eba22790dfc98e4948c71e181616d2ae257'></a> Source: [scripting\getting-started\cookbooks\Creating-a-Graphical-Date-Picker.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Creating-a-Graphical-Date-Picker.md)
+##### <a name='6c0c1d42dae602a83bbad7a0abe8df1b6435489a256'></a> Source: [scripting\getting-started\cookbooks\Creating-a-Custom-Input-Box.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Creating-a-Custom-Input-Box.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [scripting\getting-started\cookbooks\Creating-a-Graphical-Date-Picker.md](https://github.com/PowerShell/powerShell-Docs.zh-tw/blob/54fde2959c5c3bf436c123293cdc30064dd6453e/scripting/getting-started/cookbooks/Creating-a-Graphical-Date-Picker.md)
-* Handoff File: [Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/164192401a23a41027032a6970e04dce94888c4f/ol-handoff/PowerShell/powerShell-Docs.zh-tw/live/Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.zh-tw.xlf)
+* Target File: [scripting\getting-started\cookbooks\Creating-a-Custom-Input-Box.md](https://github.com/PowerShell/powerShell-Docs.zh-tw/blob/8dbea548db0698e7781f4ed1cedcc0d914f1bf8b/scripting/getting-started/cookbooks/Creating-a-Custom-Input-Box.md)
+* Handoff File: [Creating-a-Custom-Input-Box.d0b0f28391ca707134d516718eec44a874382d2a.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/164192401a23a41027032a6970e04dce94888c4f/ol-handoff/PowerShell/powerShell-Docs.zh-tw/live/Creating-a-Custom-Input-Box.d0b0f28391ca707134d516718eec44a874382d2a.zh-tw.xlf)
 * Handoff Datetime: 2016-08-23 21:25:00
 * Handoff Reason: Include
-* Archive File: [Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/27bb460ab7cac16c1a4753bf7b32086f8e62227c/ol-archive/PowerShell/powerShell-Docs.zh-tw/live/Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.zh-tw.xlf)
+* Archive File: [Creating-a-Custom-Input-Box.d0b0f28391ca707134d516718eec44a874382d2a.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/27bb460ab7cac16c1a4753bf7b32086f8e62227c/ol-archive/PowerShell/powerShell-Docs.zh-tw/live/Creating-a-Custom-Input-Box.d0b0f28391ca707134d516718eec44a874382d2a.zh-tw.xlf)
 * Archive Datetime: 2016-08-30 13:07:29
-* Handback File: [Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/aef38c05321ec718461d4cd058c684bd71ec2aa9/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.zh-tw.xlf)
-* Handback Datetime: 2016-09-06 01:33:55
-* Bilingual File: [Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/aef38c05321ec718461d4cd058c684bd71ec2aa9/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/Creating-a-Graphical-Date-Picker.a933c5ebd581abc094dabf7086ffddce8ea5c63e.zh-tw.xlf)
-* Bilingual Datetime: 2016-09-06 01:34:44
+* Handback File: [Creating-a-Custom-Input-Box.d0b0f28391ca707134d516718eec44a874382d2a.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/2f2bf4a837b084a35b0e77a980b09ddad1844121/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/Creating-a-Custom-Input-Box.d0b0f28391ca707134d516718eec44a874382d2a.zh-tw.xlf)
+* Handback Datetime: 2016-09-06 10:44:46
+* Bilingual File: [Creating-a-Custom-Input-Box.d0b0f28391ca707134d516718eec44a874382d2a.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/2f2bf4a837b084a35b0e77a980b09ddad1844121/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/Creating-a-Custom-Input-Box.d0b0f28391ca707134d516718eec44a874382d2a.zh-tw.xlf)
+* Bilingual Datetime: 2016-09-06 10:45:37
 * [Back to Top](#report-top)
 
 

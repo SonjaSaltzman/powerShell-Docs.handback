@@ -3576,6 +3576,8 @@
 * Archive Datetime: 2016-08-30 13:07:29
 * Handback File: [Creating-a-Custom-Input-Box.d0b0f28391ca707134d516718eec44a874382d2a.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/2f2bf4a837b084a35b0e77a980b09ddad1844121/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/Creating-a-Custom-Input-Box.d0b0f28391ca707134d516718eec44a874382d2a.zh-tw.xlf)
 * Handback Datetime: 2016-09-06 10:44:46
+* Bilingual File: [Creating-a-Custom-Input-Box.d0b0f28391ca707134d516718eec44a874382d2a.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/2f2bf4a837b084a35b0e77a980b09ddad1844121/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/Creating-a-Custom-Input-Box.d0b0f28391ca707134d516718eec44a874382d2a.zh-tw.xlf)
+* Bilingual Datetime: 2016-09-06 10:45:37
 * [Back to Top](#report-top)
 
 ##### <a name='9c232f47eba22790dfc98e4948c71e181616d2ae257'></a> Source: [scripting\getting-started\cookbooks\Creating-a-Graphical-Date-Picker.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Creating-a-Graphical-Date-Picker.md)
