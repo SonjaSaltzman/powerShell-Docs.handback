@@ -1,26 +1,11 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 1
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [scripting\getting-started\cookbooks\Creating-a-Custom-Input-Box.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Creating-a-Custom-Input-Box.md) | InSyncHandedBackSuccess | [Details](#6c0c1d42dae602a83bbad7a0abe8df1b6435489a256)
 
 ## Item Details
-##### <a name='6c0c1d42dae602a83bbad7a0abe8df1b6435489a256'></a> Source: [scripting\getting-started\cookbooks\Creating-a-Custom-Input-Box.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Creating-a-Custom-Input-Box.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [scripting\getting-started\cookbooks\Creating-a-Custom-Input-Box.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/bf70ffb61bbb2e342f40366e44df79e44dd4e931/scripting/getting-started/cookbooks/Creating-a-Custom-Input-Box.md)
-* Handoff File: [Creating-a-Custom-Input-Box.d0b0f28391ca707134d516718eec44a874382d2a.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/03276d5c2aad67b299e07d88507338142387f815/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/Creating-a-Custom-Input-Box.d0b0f28391ca707134d516718eec44a874382d2a.fr-fr.xlf)
-* Handoff Datetime: 2016-08-23 21:22:54
-* Handoff Reason: Include
-* Archive File: [Creating-a-Custom-Input-Box.d0b0f28391ca707134d516718eec44a874382d2a.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/c07a413284e921b64170b13de90aab43e952caef/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/Creating-a-Custom-Input-Box.d0b0f28391ca707134d516718eec44a874382d2a.fr-fr.xlf)
-* Archive Datetime: 2016-08-30 13:06:58
-* Handback File: [Creating-a-Custom-Input-Box.d0b0f28391ca707134d516718eec44a874382d2a.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/c99377bea9b70341fd1159ddfb8e6dfb232594df/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Creating-a-Custom-Input-Box.d0b0f28391ca707134d516718eec44a874382d2a.fr-fr.xlf)
-* Handback Datetime: 2016-09-05 23:45:51
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
