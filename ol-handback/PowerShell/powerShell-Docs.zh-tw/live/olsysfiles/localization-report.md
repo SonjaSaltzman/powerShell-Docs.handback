@@ -5,9 +5,9 @@
  -------- | ----- 
  Total Files | 454
 [ Handoff Failed Files ](#handoff-failed-list)| 0
-[ Handoff Success Files ](#handoff-success-list)| 6
+[ Handoff Success Files ](#handoff-success-list)| 0
 [ Archive Failed Files ](#archive-failed-list)| 0
-[ Archive Success Files ](#archive-success-list)| 404
+[ Archive Success Files ](#archive-success-list)| 410
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 4
@@ -16,14 +16,6 @@
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
 
 ## <a name='handoff-success-list'></a> Handoff Success File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [dsc\configurations.md](https://github.com/PowerShell/powerShell-Docs/blob/6c5f3d3321b7e50215cf58267e1864b7da827764/dsc/configurations.md) | HandedOffSuccess | [Details](#d84bb35ada3588367436e6f5e3c6696b90c3661b16)
- [gallery\psgallery\psgallery_scriptanalyzer_rule_profile.md](https://github.com/PowerShell/powerShell-Docs/blob/d37068e04a3544e823484e30d313624dbedd8ac9/gallery/psgallery/psgallery_scriptanalyzer_rule_profile.md) | HandedOffSuccess | [Details](#125d3c7fc9a4035f3b6788bd373a4816fcfde671126)
- [gallery\psget\module\modulewithpseditionsupport.md](https://github.com/PowerShell/powerShell-Docs/blob/99e3810d7ad5f6f4e06d9a26d2a8bd457981c80a/gallery/psget/module/modulewithpseditionsupport.md) | HandedOffSuccess | [Details](#6b6c748800a60c0f6df2508fcaffd16c6a04a2fc133)
- [jea\end-to-end---active-directory.md](https://github.com/PowerShell/powerShell-Docs/blob/33e92c7fd6039a1e3f5f784470c7bd0e43a7f030/jea/end-to-end---active-directory.md) | HandedOffSuccess | [Details](#e7ea3957ce3bbd3ce0fc072a82cd108606f05614175)
- [jea\README.md](https://github.com/PowerShell/powerShell-Docs/blob/8149f656f0aacbb23cacc8a1a9b45ed59866b92f/jea/README.md) | HandedOffSuccess | [Details](#7bb5635832e912b39ec387e8ac93ada24a434ff8182)
- [wmf\5.1\features-scenarios-cache\catalog-cmdlets.md](https://github.com/PowerShell/powerShell-Docs/blob/185f24df4d3fc163cb05e99bdd1bc5914a10ef48/wmf/5.1/features-scenarios-cache/catalog-cmdlets.md) | HandedOffSuccess | [Details](#1e422b30ab2471e73123badedf1f10631f9730ed409)
 
 ## <a name='archive-failed-list'></a> Archive Failed File List
 
@@ -41,6 +33,7 @@
  [dsc\configData.md](https://github.com/PowerShell/powerShell-Docs/blob/ebd74549e2671a332ef6abf131ab984a4d0865a6/dsc/configData.md) | ArchivedSuccess | [Details](#8a3ae5fdf5d70de999ca6b992efb14533408c30513)
  [dsc\configDataCredentials.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/configDataCredentials.md) | ArchivedSuccess | [Details](#a750fb208e73ce2ebffb2fa86a55c825169d8ad814)
  [dsc\configHelp.md](https://github.com/PowerShell/powerShell-Docs/blob/f4dc0265246195cc2320bcaf9d7f9abf7b1405a3/dsc/configHelp.md) | ArchivedSuccess | [Details](#becacd2dcbc6fd0edd9154a45342edc5c536935b15)
+ [dsc\configurations.md](https://github.com/PowerShell/powerShell-Docs/blob/6c5f3d3321b7e50215cf58267e1864b7da827764/dsc/configurations.md) | ArchivedSuccess | [Details](#d84bb35ada3588367436e6f5e3c6696b90c3661b16)
  [dsc\crossNodeDependencies.md](https://github.com/PowerShell/powerShell-Docs/blob/04aa6292dee991060669e1ac770cf98cbba41bfc/dsc/crossNodeDependencies.md) | ArchivedSuccess | [Details](#f4c64d3603fd01f29a63f8b180057714bf3d119717)
  [dsc\debugResource.md](https://github.com/PowerShell/powerShell-Docs/blob/83ca45d507e39b77751ac7feb6a7b65ae2834280/dsc/debugResource.md) | ArchivedSuccess | [Details](#e1922008a92f00c9ddab28598735839c25219d2418)
  [dsc\decisionMaker.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/decisionMaker.md) | ArchivedSuccess | [Details](#2d2b142dc862f7655f28aa34e1fd91f63bd6286e19)
@@ -137,12 +130,14 @@
  [gallery\psgallery\psgallery_items_tab.md](https://github.com/PowerShell/powerShell-Docs/blob/316caf861c7aff7e7a587fe2a8065933c0b67404/gallery/psgallery/psgallery_items_tab.md) | ArchivedSuccess | [Details](#5dfe29ae2e7d78e014f19b77f65c998bf51ff7eb123)
  [gallery\psgallery\psgallery_pseditions.md](https://github.com/PowerShell/powerShell-Docs/blob/30c768cca998dbe456a37458ee7f0beb4e5f5621/gallery/psgallery/psgallery_pseditions.md) | ArchivedSuccess | [Details](#b0e587f6951e31a17fc6c6b32cf935471cd1ebf1124)
  [gallery\psgallery\psgallery_report_abuse.md](https://github.com/PowerShell/powerShell-Docs/blob/316caf861c7aff7e7a587fe2a8065933c0b67404/gallery/psgallery/psgallery_report_abuse.md) | ArchivedSuccess | [Details](#f8d750bc1cbb14385a72863b4f9755f202be7e19125)
+ [gallery\psgallery\psgallery_scriptanalyzer_rule_profile.md](https://github.com/PowerShell/powerShell-Docs/blob/d37068e04a3544e823484e30d313624dbedd8ac9/gallery/psgallery/psgallery_scriptanalyzer_rule_profile.md) | ArchivedSuccess | [Details](#125d3c7fc9a4035f3b6788bd373a4816fcfde671126)
  [gallery\psgallery\psgallery_search_syntax.md](https://github.com/PowerShell/powerShell-Docs/blob/316caf861c7aff7e7a587fe2a8065933c0b67404/gallery/psgallery/psgallery_search_syntax.md) | ArchivedSuccess | [Details](#9a858cfc303cac6f9f2f23c01c1d8a753a69dc7c127)
  [gallery\psgallery\psgallery_unlist_items.md](https://github.com/PowerShell/powerShell-Docs/blob/b64932fd7630ef620b689410f3b2cefb43eb0e50/gallery/psgallery/psgallery_unlist_items.md) | ArchivedSuccess | [Details](#fb5220e909dfc76583ab4834f4297b34cf990736128)
  [gallery\psgallery\Setting-Up-Local-Gallery.md](https://github.com/PowerShell/powerShell-Docs/blob/225ceabb0458310a45e8065f751d4eead8d4ccce/gallery/psgallery/Setting-Up-Local-Gallery.md) | ArchivedSuccess | [Details](#57218c316b6921e2cd61027a2387edc31a2d9471129)
  [gallery\psget\module\Dependency_Versioning.md](https://github.com/PowerShell/powerShell-Docs/blob/225ceabb0458310a45e8065f751d4eead8d4ccce/gallery/psget/module/Dependency_Versioning.md) | ArchivedSuccess | [Details](#57218c316b6921e2cd61027a2387edc31a2d9471130)
  [gallery\psget\module\Module_Versioning.md](https://github.com/PowerShell/powerShell-Docs/blob/225ceabb0458310a45e8065f751d4eead8d4ccce/gallery/psget/module/Module_Versioning.md) | ArchivedSuccess | [Details](#57218c316b6921e2cd61027a2387edc31a2d9471131)
  [gallery\psget\module\ModuleManifest-Reference.md](https://github.com/PowerShell/powerShell-Docs/blob/225ceabb0458310a45e8065f751d4eead8d4ccce/gallery/psget/module/ModuleManifest-Reference.md) | ArchivedSuccess | [Details](#57218c316b6921e2cd61027a2387edc31a2d9471132)
+ [gallery\psget\module\modulewithpseditionsupport.md](https://github.com/PowerShell/powerShell-Docs/blob/99e3810d7ad5f6f4e06d9a26d2a8bd457981c80a/gallery/psget/module/modulewithpseditionsupport.md) | ArchivedSuccess | [Details](#6b6c748800a60c0f6df2508fcaffd16c6a04a2fc133)
  [gallery\psget\module\psget_find-command.md](https://github.com/PowerShell/powerShell-Docs/blob/316caf861c7aff7e7a587fe2a8065933c0b67404/gallery/psget/module/psget_find-command.md) | ArchivedSuccess | [Details](#b28bce839403217ece4edd67d984a282b60d164d134)
  [gallery\psget\module\psget_find-dscresource.md](https://github.com/PowerShell/powerShell-Docs/blob/316caf861c7aff7e7a587fe2a8065933c0b67404/gallery/psget/module/psget_find-dscresource.md) | ArchivedSuccess | [Details](#37a68f593be6b7b6b97656f84ff7dac034b12a32135)
  [gallery\psget\module\psget_find-module.md](https://github.com/PowerShell/powerShell-Docs/blob/316caf861c7aff7e7a587fe2a8065933c0b67404/gallery/psget/module/psget_find-module.md) | ArchivedSuccess | [Details](#169c83a1b2af2131b8c52e36d03563b8ed2bc8fb136)
@@ -183,12 +178,14 @@
  [jea\common-role-capability-pitfalls.md](https://github.com/PowerShell/powerShell-Docs/blob/7504fe496a8913718847e45115d126caf4049bef/jea/common-role-capability-pitfalls.md) | ArchivedSuccess | [Details](#0e221c840f083ce0b8ecbcbb34c184bcdbc0c73e171)
  [jea\considerations-when-limiting-commands.md](https://github.com/PowerShell/powerShell-Docs/blob/7504fe496a8913718847e45115d126caf4049bef/jea/considerations-when-limiting-commands.md) | ArchivedSuccess | [Details](#9f3f79a29e0fb7ec5a5111284bb7985548e17749172)
  [jea\creating-a-domain-controller.md](https://github.com/PowerShell/powerShell-Docs/blob/d4a72a7c5883b1d3ba8de3dbc9cfe016a6fb3498/jea/creating-a-domain-controller.md) | ArchivedSuccess | [Details](#8473eb668e4da5bab01c2f2b7647cbced413bd22173)
+ [jea\end-to-end---active-directory.md](https://github.com/PowerShell/powerShell-Docs/blob/33e92c7fd6039a1e3f5f784470c7bd0e43a7f030/jea/end-to-end---active-directory.md) | ArchivedSuccess | [Details](#e7ea3957ce3bbd3ce0fc072a82cd108606f05614175)
  [jea\index.md](https://github.com/PowerShell/powerShell-Docs/blob/225ceabb0458310a45e8065f751d4eead8d4ccce/jea/index.md) | ArchivedSuccess | [Details](#865258c0b403d4e7979d7ee32d3f87b63a349f08176)
  [jea\introduction.md](https://github.com/PowerShell/powerShell-Docs/blob/e6b5107b7222708dcceff14bc26f0e12ef98d728/jea/introduction.md) | ArchivedSuccess | [Details](#00d568234b1453b9161b60d20117374ee4111ab3177)
  [jea\key-concepts-used-throughout-this-guide.md](https://github.com/PowerShell/powerShell-Docs/blob/7504fe496a8913718847e45115d126caf4049bef/jea/key-concepts-used-throughout-this-guide.md) | ArchivedSuccess | [Details](#178fea44987b0c457b8e5d23fbe851ee12f03b31178)
  [jea\multi-machine-deployment-and-maintenance.md](https://github.com/PowerShell/powerShell-Docs/blob/7504fe496a8913718847e45115d126caf4049bef/jea/multi-machine-deployment-and-maintenance.md) | ArchivedSuccess | [Details](#784806197a64eb30af1ecea4af55575434ce7b87179)
  [jea\on-blacklisting.md](https://github.com/PowerShell/powerShell-Docs/blob/7504fe496a8913718847e45115d126caf4049bef/jea/on-blacklisting.md) | ArchivedSuccess | [Details](#8892e5e08a763fbc66d782bbc9252d1f3a7dcfcf180)
  [jea\prerequisites.md](https://github.com/PowerShell/powerShell-Docs/blob/7504fe496a8913718847e45115d126caf4049bef/jea/prerequisites.md) | ArchivedSuccess | [Details](#ac9231a475ba84e9051bbd06a65f3f20c9e49846181)
+ [jea\README.md](https://github.com/PowerShell/powerShell-Docs/blob/8149f656f0aacbb23cacc8a1a9b45ed59866b92f/jea/README.md) | ArchivedSuccess | [Details](#7bb5635832e912b39ec387e8ac93ada24a434ff8182)
  [jea\remake-the-demo-endpoint.md](https://github.com/PowerShell/powerShell-Docs/blob/d20ea8418cb7389d756de94ea752cf604b8d07af/jea/remake-the-demo-endpoint.md) | ArchivedSuccess | [Details](#acd2cfbd038250a26236c875d0e8b03a32cd84f9183)
  [jea\reporting-on-jea.md](https://github.com/PowerShell/powerShell-Docs/blob/7504fe496a8913718847e45115d126caf4049bef/jea/reporting-on-jea.md) | ArchivedSuccess | [Details](#d867a6462e9fa8b6e16c8c2103899c72b380116c184)
  [jea\role-capabilities.md](https://github.com/PowerShell/powerShell-Docs/blob/81fd386d58576a8930093b4f18ce36a4ff6cecd0/jea/role-capabilities.md) | ArchivedSuccess | [Details](#a3dd4a217f5b1fd80e97adf802c65073ca015bbc185)
@@ -408,6 +405,7 @@
  [wmf\5.1\DSC-improvements.md](https://github.com/PowerShell/powerShell-Docs/blob/dc03d33dc5972cea1111702eae63c54894d6b34a/wmf/5.1/DSC-improvements.md) | ArchivedSuccess | [Details](#a76c9ae7117e71833955a67ad8ec06fa7d0ed419406)
  [wmf\5.1\engine-improvements.md](https://github.com/PowerShell/powerShell-Docs/blob/45182af45b2d1510b7ad8e9f2ac35fa5346ddb66/wmf/5.1/engine-improvements.md) | ArchivedSuccess | [Details](#bb7efc55b1c948c349aa778b700e5cb1277b9762407)
  [wmf\5.1\features-scenarios-cache\analysis_cache.md](https://github.com/PowerShell/powerShell-Docs/blob/9ce218a2807dd7b1c69f81efdbd6132321e6a815/wmf/5.1/features-scenarios-cache/analysis_cache.md) | ArchivedSuccess | [Details](#3e5d5e93231b772b65d1913a4dbafc86d4edb950408)
+ [wmf\5.1\features-scenarios-cache\catalog-cmdlets.md](https://github.com/PowerShell/powerShell-Docs/blob/185f24df4d3fc163cb05e99bdd1bc5914a10ef48/wmf/5.1/features-scenarios-cache/catalog-cmdlets.md) | ArchivedSuccess | [Details](#1e422b30ab2471e73123badedf1f10631f9730ed409)
  [wmf\5.1\features-scenarios-cache\console-enhancements.md](https://github.com/PowerShell/powerShell-Docs/blob/9ce218a2807dd7b1c69f81efdbd6132321e6a815/wmf/5.1/features-scenarios-cache/console-enhancements.md) | ArchivedSuccess | [Details](#e6653a02421e3aec3910a70c64f7cf7cecd696ab410)
  [wmf\5.1\features-scenarios-cache\DSCPartialConfigNaming.md](https://github.com/PowerShell/powerShell-Docs/blob/dfa487a11528e26faf5b0e8637b75983abe0b1c8/wmf/5.1/features-scenarios-cache/DSCPartialConfigNaming.md) | ArchivedSuccess | [Details](#368c26766961e760fd2de8c99057121bea076158412)
  [wmf\5.1\features-scenarios-cache\DSCRunAsCredentialCompositeResources.md](https://github.com/PowerShell/powerShell-Docs/blob/e39aa2e5cbda0c83e24e21c4459d957d8baaff25/wmf/5.1/features-scenarios-cache/DSCRunAsCredentialCompositeResources.md) | ArchivedSuccess | [Details](#7505e063fad84999af786f2af0602d204ed973b7413)
@@ -685,13 +683,13 @@
 * [Back to Top](#report-top)
 
 ##### <a name='d84bb35ada3588367436e6f5e3c6696b90c3661b16'></a> Source: [dsc\configurations.md](https://github.com/PowerShell/powerShell-Docs/blob/6c5f3d3321b7e50215cf58267e1864b7da827764/dsc/configurations.md)
-* Status: HandedOffSuccess
+* Status: ArchivedSuccess
 * Target File: 
 * Handoff File: [configurations.02626ddbf3a00f8ede56fdfd2e46a027800e75b6.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/9298c604c7d3ec3cace692b7b6fee75710dc0700/ol-handoff/PowerShell/powerShell-Docs.zh-tw/live/configurations.02626ddbf3a00f8ede56fdfd2e46a027800e75b6.zh-tw.xlf)
 * Handoff Datetime: 2016-08-31 17:37:52
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [configurations.02626ddbf3a00f8ede56fdfd2e46a027800e75b6.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/7b097d8fade27807b1f0b41a7eac1fb339840e1d/ol-archive/PowerShell/powerShell-Docs.zh-tw/live/configurations.02626ddbf3a00f8ede56fdfd2e46a027800e75b6.zh-tw.xlf)
+* Archive Datetime: 2016-09-06 13:07:48
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
@@ -2005,13 +2003,13 @@
 * [Back to Top](#report-top)
 
 ##### <a name='125d3c7fc9a4035f3b6788bd373a4816fcfde671126'></a> Source: [gallery\psgallery\psgallery_scriptanalyzer_rule_profile.md](https://github.com/PowerShell/powerShell-Docs/blob/d37068e04a3544e823484e30d313624dbedd8ac9/gallery/psgallery/psgallery_scriptanalyzer_rule_profile.md)
-* Status: HandedOffSuccess
+* Status: ArchivedSuccess
 * Target File: 
 * Handoff File: [psgallery_scriptanalyzer_rule_profile.98c3a6dcf8fe89c995556d884ceab6f6c6b3248b.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/9298c604c7d3ec3cace692b7b6fee75710dc0700/ol-handoff/PowerShell/powerShell-Docs.zh-tw/live/psgallery_scriptanalyzer_rule_profile.98c3a6dcf8fe89c995556d884ceab6f6c6b3248b.zh-tw.xlf)
 * Handoff Datetime: 2016-08-31 17:37:52
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [psgallery_scriptanalyzer_rule_profile.98c3a6dcf8fe89c995556d884ceab6f6c6b3248b.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/7b097d8fade27807b1f0b41a7eac1fb339840e1d/ol-archive/PowerShell/powerShell-Docs.zh-tw/live/psgallery_scriptanalyzer_rule_profile.98c3a6dcf8fe89c995556d884ceab6f6c6b3248b.zh-tw.xlf)
+* Archive Datetime: 2016-09-06 13:07:48
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
@@ -2089,13 +2087,13 @@
 * [Back to Top](#report-top)
 
 ##### <a name='6b6c748800a60c0f6df2508fcaffd16c6a04a2fc133'></a> Source: [gallery\psget\module\modulewithpseditionsupport.md](https://github.com/PowerShell/powerShell-Docs/blob/99e3810d7ad5f6f4e06d9a26d2a8bd457981c80a/gallery/psget/module/modulewithpseditionsupport.md)
-* Status: HandedOffSuccess
+* Status: ArchivedSuccess
 * Target File: 
 * Handoff File: [modulewithpseditionsupport.b09e891ddd53c39875bb5f6330848761bf1388ea.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/9298c604c7d3ec3cace692b7b6fee75710dc0700/ol-handoff/PowerShell/powerShell-Docs.zh-tw/live/modulewithpseditionsupport.b09e891ddd53c39875bb5f6330848761bf1388ea.zh-tw.xlf)
 * Handoff Datetime: 2016-08-31 17:37:52
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [modulewithpseditionsupport.b09e891ddd53c39875bb5f6330848761bf1388ea.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/7b097d8fade27807b1f0b41a7eac1fb339840e1d/ol-archive/PowerShell/powerShell-Docs.zh-tw/live/modulewithpseditionsupport.b09e891ddd53c39875bb5f6330848761bf1388ea.zh-tw.xlf)
+* Archive Datetime: 2016-09-06 13:07:48
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
@@ -2593,13 +2591,13 @@
 * [Back to Top](#report-top)
 
 ##### <a name='e7ea3957ce3bbd3ce0fc072a82cd108606f05614175'></a> Source: [jea\end-to-end---active-directory.md](https://github.com/PowerShell/powerShell-Docs/blob/33e92c7fd6039a1e3f5f784470c7bd0e43a7f030/jea/end-to-end---active-directory.md)
-* Status: HandedOffSuccess
+* Status: ArchivedSuccess
 * Target File: 
 * Handoff File: [end-to-end---active-directory.3ad98916a8ab304f831ad3b5b15c64e1b086b1f5.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/9298c604c7d3ec3cace692b7b6fee75710dc0700/ol-handoff/PowerShell/powerShell-Docs.zh-tw/live/end-to-end---active-directory.3ad98916a8ab304f831ad3b5b15c64e1b086b1f5.zh-tw.xlf)
 * Handoff Datetime: 2016-08-31 17:37:52
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [end-to-end---active-directory.3ad98916a8ab304f831ad3b5b15c64e1b086b1f5.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/7b097d8fade27807b1f0b41a7eac1fb339840e1d/ol-archive/PowerShell/powerShell-Docs.zh-tw/live/end-to-end---active-directory.3ad98916a8ab304f831ad3b5b15c64e1b086b1f5.zh-tw.xlf)
+* Archive Datetime: 2016-09-06 13:07:48
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
@@ -2677,13 +2675,13 @@
 * [Back to Top](#report-top)
 
 ##### <a name='7bb5635832e912b39ec387e8ac93ada24a434ff8182'></a> Source: [jea\README.md](https://github.com/PowerShell/powerShell-Docs/blob/8149f656f0aacbb23cacc8a1a9b45ed59866b92f/jea/README.md)
-* Status: HandedOffSuccess
+* Status: ArchivedSuccess
 * Target File: 
 * Handoff File: [README.21b5f679157a942d8da32daf52be349e47cf03ae.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/9298c604c7d3ec3cace692b7b6fee75710dc0700/ol-handoff/PowerShell/powerShell-Docs.zh-tw/live/README.21b5f679157a942d8da32daf52be349e47cf03ae.zh-tw.xlf)
 * Handoff Datetime: 2016-08-31 17:37:52
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [README.21b5f679157a942d8da32daf52be349e47cf03ae.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/7b097d8fade27807b1f0b41a7eac1fb339840e1d/ol-archive/PowerShell/powerShell-Docs.zh-tw/live/README.21b5f679157a942d8da32daf52be349e47cf03ae.zh-tw.xlf)
+* Archive Datetime: 2016-09-06 13:07:48
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
@@ -5409,13 +5407,13 @@
 * [Back to Top](#report-top)
 
 ##### <a name='1e422b30ab2471e73123badedf1f10631f9730ed409'></a> Source: [wmf\5.1\features-scenarios-cache\catalog-cmdlets.md](https://github.com/PowerShell/powerShell-Docs/blob/185f24df4d3fc163cb05e99bdd1bc5914a10ef48/wmf/5.1/features-scenarios-cache/catalog-cmdlets.md)
-* Status: HandedOffSuccess
+* Status: ArchivedSuccess
 * Target File: 
 * Handoff File: [catalog-cmdlets.3fb2b42ac619c6fd99ffe4114805b65c71476b3b.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/9298c604c7d3ec3cace692b7b6fee75710dc0700/ol-handoff/PowerShell/powerShell-Docs.zh-tw/live/catalog-cmdlets.3fb2b42ac619c6fd99ffe4114805b65c71476b3b.zh-tw.xlf)
 * Handoff Datetime: 2016-08-31 17:37:52
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [catalog-cmdlets.3fb2b42ac619c6fd99ffe4114805b65c71476b3b.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/7b097d8fade27807b1f0b41a7eac1fb339840e1d/ol-archive/PowerShell/powerShell-Docs.zh-tw/live/catalog-cmdlets.3fb2b42ac619c6fd99ffe4114805b65c71476b3b.zh-tw.xlf)
+* Archive Datetime: 2016-09-06 13:07:48
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
