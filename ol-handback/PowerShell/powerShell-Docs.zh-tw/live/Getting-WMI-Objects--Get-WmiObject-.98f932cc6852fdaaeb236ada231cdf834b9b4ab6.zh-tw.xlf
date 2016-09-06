@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4fb33c9" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">de9e8af7908ac6a72a100fd2c86b52c30c390c39</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Getting-WMI-Objects--Get-WmiObject-.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">98182417949e6cac600aa8f7fd809010155876de</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Getting WMI Objects  Get WmiObject</source>
+          <target state="translated">取得 WMI 物件 Get WmiObject</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="translated">powershell,cmdlet</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Getting WMI Objects (Get-WmiObject)</source>
+          <target state="translated">取得 WMI 物件 (Get-WmiObject)</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Getting WMI Objects (Get-WmiObject)</source>
+          <target state="translated">取得 WMI 物件 (Get-WmiObject)</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Windows Management Instrumentation (WMI) is a core technology for Windows system administration because it exposes a wide range of information in a uniform manner.</source>
+          <target state="translated">Windows Management Instrumentation (WMI) 可以一致地公開各種不同的資訊，因此成為 Windows 系統管理的核心技術。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Because of how much WMI makes possible, the Windows PowerShell cmdlet for accessing WMI objects, <bpt id="p1">**</bpt>Get-WmiObject<ept id="p1">**</ept>, is one of the most useful for doing real work.</source>
+          <target state="translated">由於 WMI 的強大功能，用於存取 WMI 物件的 Windows PowerShell Cmdlet <bpt id="p1">**</bpt>Get-WmiObject<ept id="p1">**</ept> 是執行實際工作的最實用工具之一。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>We are going to discuss how to use Get-WmiObject to access WMI objects and then how to use WMI objects to do specific things.</source>
+          <target state="translated">我們將討論如何使用 Get-WmiObject 存取 WMI 物件，並接著討論如何使用 WMI 物件執行特定動作。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Listing WMI Classes</source>
+          <target state="translated">列出 WMI 類別</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The first problem most WMI users encounter is trying to find out what can be done with WMI.</source>
+          <target state="translated">大多數 WMI 使用者遇到的第一個問題，就是嘗試了解使用 WMI 可執行的動作。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>WMI classes describe the resources that can be managed.</source>
+          <target state="translated">WMI 類別描述可管理的資源。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>There are hundreds of WMI classes, some of which contain dozens of properties.</source>
+          <target state="translated">有數百個 WMI 類別，其中一些類別包含數十個屬性。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get-WmiObject<ept id="p1">**</ept> addresses this problem by making WMI discoverable.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get-WmiObject<ept id="p1">**</ept> 讓 WMI 變成可搜尋，以解決此問題。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can get a list of the WMI classes available on the local computer by typing:</source>
+          <target state="translated">您可以輸入下列命令，取得本機電腦上可用的 WMI 類別清單：</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can retrieve the same information from a remote computer by using the ComputerName parameter, specifying a computer name or IP address:</source>
+          <target state="translated">您可以使用 ComputerName 參數指定電腦名稱或 IP 位址，從遠端電腦擷取相同的資訊︰</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The class listing returned by remote computers may vary due to the specific operating system the computer is running and the particular WMI extensions added by installed applications.</source>
+          <target state="translated">遠端電腦所傳回的類別清單可能會因電腦執行的特定作業系統，以及已安裝應用程式新增的特定 WMI 擴充功能 而異。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When using Get-WmiObject to connect to a remote computer, the remote computer must be running WMI and, under the default configuration, the account you are using must be in the local administrators group on the remote computer.</source>
+          <target state="translated">使用 Get-WmiObject 連線到遠端電腦時，遠端電腦必須執行 WMI，而且根據預設設定，您使用的帳戶必須在遠端電腦上的本機 Administrators 群組中。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The remote system does not need to have Windows PowerShell installed.</source>
+          <target state="translated">遠端系統不需要安裝 Windows PowerShell。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This allows you to administer operating systems that are not running Windows PowerShell, but do have WMI available.</source>
+          <target state="translated">這可讓您管理未執行 Windows PowerShell 但有可用 WMI 的作業系統。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can even include the ComputerName when connecting to the local system.</source>
+          <target state="translated">您甚至可以在連線到本機系統時包含 ComputerName。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can use the local computer's name, its IP address (or the loopback address 127.0.0.1), or the WMI-style '.' as the computer name.</source>
+          <target state="translated">您可以使用本機電腦的名稱、其 IP 位址 (或迴路位址 127.0.0.1) 或 WMI 樣式 '.' 作為電腦名稱。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If you are running Windows PowerShell on a computer named Admin01 with IP address 192.168.1.90, the following commands will all return the WMI class listing for that computer:</source>
+          <target state="translated">如果您在名為 Admin01 且 IP 位址為 192.168.1.90 的電腦上執行 Windows PowerShell，下列命令全部會傳回該電腦的 WMI 類別清單︰</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Get-WmiObject uses the root/cimv2 namespace by default.</source>
+          <target state="translated">Get-WmiObject 預設使用 root/cimv2 命名空間。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If you want to specify another WMI namespace, use the <bpt id="p1">**</bpt>Namespace<ept id="p1">**</ept> parameter and specify the corresponding namespace path:</source>
+          <target state="translated">如果您想要指定其他 WMI 命名空間，請使用 <bpt id="p1">**</bpt>Namespace<ept id="p1">**</ept> 參數並指定對應的命名空間路徑︰</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Displaying WMI Class Details</source>
+          <target state="translated">顯示 WMI 類別詳細資料</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If you already know the name of a WMI class, you can use it to get information immediately.</source>
+          <target state="translated">如果您已經知道 WMI 類別的名稱，您可以使用它來立即取得資訊。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For example, one of the WMI classes commonly used for retrieving information about a computer is <bpt id="p1">**</bpt>Win32_OperatingSystem<ept id="p1">**</ept>.</source>
+          <target state="translated">例如，常用於擷取電腦相關資訊的其中一個 WMI 類別是 <bpt id="p1">**</bpt>Win32_OperatingSystem<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Although we are showing all of the parameters, the command can be expressed in a more succinct way.</source>
+          <target state="translated">雖然我們會顯示所有參數，但命令可以更簡潔的方式來表示。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> parameter is not necessary when connecting to the local system.</source>
+          <target state="translated">連線到本機系統時，不需要 <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> 參數。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>We show it to demonstrate the most general case and remind you about the parameter.</source>
+          <target state="translated">顯示此參數是為了示範最常見的案例，並提醒您有此參數。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Namespace<ept id="p1">**</ept> defaults to root/cimv2, and can be omitted as well.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Namespace<ept id="p1">**</ept> 預設為 root/cimv2，您也可以加以省略。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Finally, most cmdlets allow you to omit the name of common parameters.</source>
+          <target state="translated">最後，大多數 Cmdlet 允許您省略一般參數的名稱。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>With Get-WmiObject, if no name is specified for the first parameter, Windows PowerShell treats it as the <bpt id="p1">**</bpt>Class<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">使用 Get-WmiObject，如果未指定第一個參數的名稱，Windows PowerShell 會將它視為 <bpt id="p1">**</bpt>Class<ept id="p1">**</ept> 參數。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This means the last command could have been issued by typing:</source>
+          <target state="translated">這表示最後一個命令可能已藉由輸入下列命令發出︰</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Win32_OperatingSystem<ept id="p1">**</ept> class has many more properties than those displayed here.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Win32_OperatingSystem<ept id="p1">**</ept> 類別具有比此處顯示更多的屬性。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>You can use Get-Member to see all the properties.</source>
+          <target state="translated">您可以使用 Get-Member 查看所有屬性。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The properties of a WMI class are automatically available like other object properties:</source>
+          <target state="translated">WMI 類別的屬性與其他物件屬性一樣會自動提供使用︰</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Displaying Non-Default Properties with Format Cmdlets</source>
+          <target state="translated">使用 Format Cmdlet 顯示非預設屬性</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>If you want information contained in the <bpt id="p1">**</bpt>Win32_OperatingSystem<ept id="p1">**</ept> class that is not displayed by default, you can display it by using the <bpt id="p2">**</bpt>Format<ept id="p2">**</ept> cmdlets.</source>
+          <target state="translated">如果您需要預設未顯示之 <bpt id="p1">**</bpt>Win32_OperatingSystem<ept id="p1">**</ept> 類別中所包含的資訊，您可以使用 <bpt id="p2">**</bpt>Format<ept id="p2">**</ept> Cmdlet 顯示此類別。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For example, if you want to display available memory data, type:</source>
+          <target state="translated">例如，如果您想要顯示可用記憶體資料，請輸入︰</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Wildcards work with property names in <bpt id="p1">**</bpt>Format-Table<ept id="p1">**</ept>, so the final pipeline element can be reduced to <bpt id="p2">**</bpt>Format-Table -Property TotalV<ph id="ph1">\&amp;</ph>#42;,Free<ph id="ph2">\&amp;</ph>#42;<ept id="p2">**</ept></source>
+          <target state="translated"><bpt id="p1">**</bpt>Format-Table<ept id="p1">**</ept> 中的屬性名稱可以使用萬用字元，因此最後的管線項目可縮減為 <bpt id="p2">**</bpt>Format-Table -Property TotalV<ph id="ph1">\&amp;</ph>#42;,Free<ph id="ph2">\&amp;</ph>#42;<ept id="p2">**</ept></target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The memory data might be more readable if you format it as a list by typing:</source>
+          <target state="translated">如果您輸入下列命令，將記憶體資料格式化為清單，可能更容易閱讀︰</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
