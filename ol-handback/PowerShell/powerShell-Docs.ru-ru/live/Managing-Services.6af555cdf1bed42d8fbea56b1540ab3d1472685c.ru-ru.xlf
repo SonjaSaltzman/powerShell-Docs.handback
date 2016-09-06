@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4fb33c9" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">66c2a8c8afab49f16e8ef7d0b5ba3a2a65c92490</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Managing-Services.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b4260303bd418427ff5b5059f791ccd17122f626</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Managing Services</source>
+          <target state="translated">Управление службами</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="translated">powershell,командлет</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Managing Services</source>
+          <target state="translated">Управление службами</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>There are eight core Service cmdlets, designed for a wide range of service tasks .</source>
+          <target state="translated">Существует восемь основных командлетов Service, предназначенных для широкого спектра задач обслуживания.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>We will look only at listing and changing running state for services, but you can get a list Service cmdlets by using <bpt id="p1">**</bpt>Get-Help <ph id="ph1">\&amp;</ph>#42;-Service<ept id="p1">**</ept>, and you can find information about each Service cmdlet by using <bpt id="p2">**</bpt>Get-Help&lt;Cmdlet-Name&gt;<ept id="p2">**</ept>, such as <bpt id="p3">**</bpt>Get-Help New-Service<ept id="p3">**</ept>.</source>
+          <target state="translated">Мы рассмотрим только вывод и изменение состояния выполнения для служб, но список командлетов Service можно получить с помощью <bpt id="p1">**</bpt>Get-Help <ph id="ph1">\&amp;</ph>#42;-Service<ept id="p1">**</ept>, а сведения о каждом из них можно найти с помощью <bpt id="p2">**</bpt>Get-Help&lt;имя_командлета&gt;<ept id="p2">**</ept>, например <bpt id="p3">**</bpt>Get-Help New-Service<ept id="p3">**</ept>.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Getting Services</source>
+          <target state="translated">Получение служб</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can get the services on a local or remote computer by using the <bpt id="p1">**</bpt>Get-Service<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">Получить службы на локальном или удаленном компьютере можно с помощью командлета <bpt id="p1">**</bpt>Get-Service<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>As with <bpt id="p1">**</bpt>Get-Process<ept id="p1">**</ept>, using the <bpt id="p2">**</bpt>Get-Service<ept id="p2">**</ept> command without parameters returns all services.</source>
+          <target state="translated">Как и в случае с <bpt id="p1">**</bpt>Get-Process<ept id="p1">**</ept>, использование команды <bpt id="p2">**</bpt>Get-Service<ept id="p2">**</ept> без параметров возвращает все службы.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can filter by name, even using an asterisk as a wildcard:</source>
+          <target state="translated">Можно фильтровать по имени, даже используя звездочку как подстановочный знак:</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Because it is not always obvious what the real name for the service is, you may find you need to find services by display name.</source>
+          <target state="translated">Так как реальное имя службы не всегда очевидно, может потребоваться найти службы по отображаемому имени.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can do this by specific name, using wildcards, or using a list of display names:</source>
+          <target state="translated">Это можно сделать с использованием определенного имени, подстановочных знаков или списка отображаемых имен:</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can use the ComputerName parameter of the Get-Service cmdlet to get the services on remote computers.</source>
+          <target state="translated">Параметр ComputerName командлета Get-Service можно использовать для получения служб на удаленных компьютерах.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The ComputerName parameter accepts multiple values and wildcard characters, so you can get the services on multiple computers with a single command.</source>
+          <target state="translated">Параметр ComputerName принимает несколько значений и подстановочные знаки, что позволяет получить службы на нескольких компьютерах с помощью одной команды.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For example, the following command gets the services on the Server01 remote computer.</source>
+          <target state="translated">Например, приведенная ниже команда получает службы на удаленном компьютере Server01.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Getting Required and Dependent Services</source>
+          <target state="translated">Получение необходимых и зависимых служб</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The Get-Service cmdlet has two parameters that are very useful in service administration.</source>
+          <target state="translated">Командлет Get-Service имеет два параметра, которые удобно использовать при администрировании служб.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The DependentServices parameter gets services that depend on the service.</source>
+          <target state="translated">Параметр DependentServices получает службы, которые зависят от данной службы.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The RequiredServices parameter gets services upon which this service depends.</source>
+          <target state="translated">Параметр RequiredServices получает службы, от которых зависит данная служба.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>These parameters just display the values of the DependentServices and ServicesDependedOn (alias=RequiredServices) properties of the System.ServiceProcess.ServiceController object that Get-Service returns, but they simplify commands and make getting this information much simpler.</source>
+          <target state="translated">Эти параметры просто отображают значения свойств DependentServices и ServicesDependedOn (псевдоним RequiredServices) объекта System.ServiceProcess.ServiceController, возвращаемого Get-Service, но они упрощают работу с командами и получение этой информации.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The following command gets the services that the LanmanWorkstation service requires.</source>
+          <target state="translated">Приведенная ниже команда получает службы, необходимые службе LanmanWorkstation.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The following command gets the services that require the LanmanWorkstation service.</source>
+          <target state="translated">Приведенная ниже команда получает службы, которым требуется служба LanmanWorkstation.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You can even get all services that have dependencies.</source>
+          <target state="translated">Вы даже можете получить все службы, имеющие зависимости.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The following command does just that, and then it uses the Format-Table cmdlet to display the Status, Name, RequiredServices and DependentServices properties of the services on the computer.</source>
+          <target state="translated">Следующая команда делает именно это, а затем она использует командлет Format-Table для отображения свойств Status, Name, RequiredServices и DependentServices для служб на компьютере.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Stopping, Starting, Suspending, and Restarting Services</source>
+          <target state="translated">Остановка, запуск, приостановка и перезапуск служб</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The Service cmdlets all have the same general form.</source>
+          <target state="translated">Все командлеты Service имеют схожую общую форму.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Services can be specified by common name or display name, and take lists and wildcards as values.</source>
+          <target state="translated">Службы можно указать по общему имени или отображаемому имени, они также принимают списки и подстановочные знаки в качестве значений.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To stop the print spooler, use:</source>
+          <target state="translated">Для остановки очереди печати принтера используйте:</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To start the print spooler after it is stopped, use:</source>
+          <target state="translated">Для запуска очереди печати принтера после ее остановки используйте:</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To suspend the print spooler, use:</source>
+          <target state="translated">Для приостановки очереди печати принтера используйте:</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Restart-Service<ept id="p1">**</ept> cmdlet works in the same manner as the other Service cmdlets, but we will show some more complex examples for it.</source>
+          <target state="translated">Командлет <bpt id="p1">**</bpt>Restart-Service<ept id="p1">**</ept> работает так же, как другие командлеты Service, но для него будет приведено несколько более сложных примеров.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>In the simplest use, you specify the name of the service:</source>
+          <target state="translated">В самом простом случае указывается имя службы:</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You will notice that you get a repeated warning message about the Print Spooler starting up.</source>
+          <target state="translated">Вы получите повторяющееся предупреждение о запуске очереди печати принтера.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>When you perform a service operation that takes some time, Windows PowerShell will notify you that it is still attempting to perform the task.</source>
+          <target state="translated">При выполнении операции службы, занимающей некоторое время, Windows PowerShell сообщит, что по-прежнему пытается выполнить задачу.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If you want to restart multiple services, you can get a list of services, filter them, and then perform the restart:</source>
+          <target state="translated">Если требуется перезапустить несколько служб, можно получить список служб, отфильтровать его и выполнить перезапуск:</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>These Service cmdlets do not have a ComputerName parameter, but you can run them on a remote computer by using the Invoke-Command cmdlet.</source>
+          <target state="translated">У этих командлетов Service нет параметра ComputerName, но их можно выполнить на удаленном компьютере с помощью командлета Invoke-Command.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For example, the following command restarts the Spooler service on the Server01 remote computer.</source>
+          <target state="translated">Например, приведенная ниже команда перезапускает службу очередь печати принтера на удаленном компьютере Server01.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Setting Service Properties</source>
+          <target state="translated">Задание свойств служб</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The Set-Service cmdlet changes the properties of a service on a local or remote computer.</source>
+          <target state="translated">Командлет Set-Service изменяет свойства службы на локальном или удаленном компьютере.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Because the service status is a property, you can use this cmdlet to start, stop, and suspend a service.</source>
+          <target state="translated">Так как состояние службы является свойством, этот командлет можно использовать для запуска, остановки и приостановки службы.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The Set-Service cmdlet also has a StartupType parameter that lets you change the service startup type.</source>
+          <target state="translated">Командлет Set-Service также имеет параметр StartupType, позволяющий изменять тип запуска службы.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>To use Set-Service on Windows Vista and later versions of Windows, open Windows PowerShell with the "Run as administrator" option.</source>
+          <target state="translated">Чтобы использовать командлет Set-Service в Windows Vista и более поздних версиях Windows, откройте среду Windows PowerShell, используя параметр "Запуск от имени администратора".</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set-Service [m2]<ept id="p1">](https://technet.microsoft.com/en-us/library/b71e29ed-372b-4e32-a4b7-5eb6216e56c3)</ept></source>
+          <target state="translated">Дополнительные сведения см. в статье <bpt id="p1">[</bpt>Set-Service [m2]<ept id="p1">](https://technet.microsoft.com/en-us/library/b71e29ed-372b-4e32-a4b7-5eb6216e56c3)</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">См. также</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Get-Service [m2]<ept id="p1">](https://technet.microsoft.com/en-us/library/0a09cb22-0a1c-4a79-9851-4e53075f9cf6)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Set-Service [m2]<ept id="p2">](https://technet.microsoft.com/en-us/library/b71e29ed-372b-4e32-a4b7-5eb6216e56c3)</ept><ph id="ph2">
+</ph><bpt id="p3">[</bpt>Restart-Service [m2]<ept id="p3">](https://technet.microsoft.com/en-us/library/45acf50d-2277-4523-baf7-ce7ced977d0f)</ept><ph id="ph3">
+</ph><bpt id="p4">[</bpt>Suspend-Service [m2]<ept id="p4">](https://technet.microsoft.com/en-us/library/c8492b87-0e21-4faf-8054-3c83c2ec2826)</ept></source>
+          <target state="translated"><bpt id="p1">[</bpt>Get-Service [m2]<ept id="p1">](https://technet.microsoft.com/en-us/library/0a09cb22-0a1c-4a79-9851-4e53075f9cf6)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Set-Service [m2]<ept id="p2">](https://technet.microsoft.com/en-us/library/b71e29ed-372b-4e32-a4b7-5eb6216e56c3)</ept><ph id="ph2">
+</ph><bpt id="p3">[</bpt>Restart-Service [m2]<ept id="p3">](https://technet.microsoft.com/en-us/library/45acf50d-2277-4523-baf7-ce7ced977d0f)</ept><ph id="ph3">
+</ph><bpt id="p4">[</bpt>Suspend-Service [m2]<ept id="p4">](https://technet.microsoft.com/en-us/library/c8492b87-0e21-4faf-8054-3c83c2ec2826)</ept></target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
