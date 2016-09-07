@@ -3138,7 +3138,8 @@
 * Archive Datetime: 2016-08-30 13:07:51
 * Handback File: [Keyboard-Shortcuts-for-the-Windows-PowerShell-ISE.fafa427058ad68f27ad38041d5743b74ff894bd6.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/8098772c567ccd0e4e5941c1219c7cb9824f142e/ol-handback/PowerShell/powerShell-Docs.es-es/live/Keyboard-Shortcuts-for-the-Windows-PowerShell-ISE.fafa427058ad68f27ad38041d5743b74ff894bd6.es-es.xlf)
 * Handback Datetime: 2016-09-07 01:58:05
-* Bilingual Error:[bilingual_uploading_failed](#596bbd2a5c272918171833310fc8c8aa5353adb1219bilingual_uploading_failed)
+* Bilingual File: [Keyboard-Shortcuts-for-the-Windows-PowerShell-ISE.fafa427058ad68f27ad38041d5743b74ff894bd6.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/8098772c567ccd0e4e5941c1219c7cb9824f142e/ol-handback/PowerShell/powerShell-Docs.es-es/live/Keyboard-Shortcuts-for-the-Windows-PowerShell-ISE.fafa427058ad68f27ad38041d5743b74ff894bd6.es-es.xlf)
+* Bilingual Datetime: 2016-09-07 02:09:27
 * [Back to Top](#report-top)
 
 ##### <a name='16bd9de4e5636431a192dc3d49e3310c816b997f220'></a> Source: [scripting\core-powershell\ise\Purpose-of-the-Windows-PowerShell-ISE-Scripting-Object-Model.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/core-powershell/ise/Purpose-of-the-Windows-PowerShell-ISE-Scripting-Object-Model.md)
