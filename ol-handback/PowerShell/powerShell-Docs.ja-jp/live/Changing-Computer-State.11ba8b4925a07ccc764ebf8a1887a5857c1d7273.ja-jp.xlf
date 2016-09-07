@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4fb33c9" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1779b9de13a30a43236e24793e5196261a7db77f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Changing-Computer-State.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bc4bb5a1a48d944bfd5e692cc521d0b5cd44ff13</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Changing Computer State</source>
+          <target state="translated">コンピューターの状態を変更する</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="translated">PowerShell, コマンドレット</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Changing Computer State</source>
+          <target state="translated">コンピューターの状態を変更する</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>To reset a computer in Windows PowerShell, use either a standard command-line tool or a WMI class.</source>
+          <target state="translated">Windows PowerShell でコンピューターをリセットするには、標準のコマンド ライン ツールまたは WMI クラスを使用します。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Although you are using Windows PowerShell only to run the tool, learning how to change a computer's power state in Windows PowerShell illustrates some of the important details about working with external tools in Windows PowerShell.</source>
+          <target state="translated">Windows PowerShell は単にツールを実行するために使用するだけですが、Windows PowerShell でコンピューターの電力状態を変更する手順には、Windows PowerShell での外部ツールの使用方法に関する重要な詳細も含まれています。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Locking a Computer</source>
+          <target state="translated">コンピューターをロックする</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The only way to lock a computer directly with the standard available tools is to call the <bpt id="p1">**</bpt>LockWorkstation()<ept id="p1">**</ept> function in <bpt id="p2">**</bpt>user32.dll<ept id="p2">**</ept>:</source>
+          <target state="translated">一般的に入手可能なツールを使ってコンピューターを直接ロックする唯一の方法は、<bpt id="p2">**</bpt>user32.dll<ept id="p2">**</ept> の <bpt id="p1">**</bpt>LockWorkstation()<ept id="p1">**</ept> 関数を呼び出すことです。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This command immediately locks the workstation.</source>
+          <target state="translated">このコマンドを実行すると、ワークステーションが直ちにロックされます。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>It uses <bpt id="p1">*</bpt>rundll32.exe<ept id="p1">*</ept>, which runs Windows DLLs (and saves their libraries for repeated use) to run user32.dll, a library of Windows management functions.</source>
+          <target state="translated">このコマンドでは、<bpt id="p1">*</bpt>rundll32.exe<ept id="p1">*</ept> を使用して Windows DLL を実行 (および、繰り返し使用できるようにそれらのライブラリを保存) することにより、Windows の管理関数のライブラリである user32.dll を実行します。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>When you lock a workstation while Fast User Switching is enabled, such as on Windows XP, the computer displays the user logon screen rather than starting the current user's screensaver.</source>
+          <target state="translated">Windows XP の場合など、ユーザーの簡易切り替えが有効なときにワークステーションをロックすると、コンピューターでは、現在のユーザーのスクリーン セーバーが起動するのではなく、ユーザーのログオン画面が表示されます。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To shut down particular sessions on a Terminal Server, use the <bpt id="p1">**</bpt>tsshutdn.exe<ept id="p1">**</ept> command-line tool.</source>
+          <target state="translated">ターミナル サーバーで特定のセッションをシャットダウンするには、<bpt id="p1">**</bpt>tsshutdn.exe<ept id="p1">**</ept> コマンド ライン ツールを使用します。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Logging Off the Current Session</source>
+          <target state="translated">現在のセッションからログオフする</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can use several different techniques to log off of a session on the local system.</source>
+          <target state="translated">ローカル システム上でセッションからログオフする場合、いくつかの方法が考えられます。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The simplest way is to use the Remote Desktop/Terminal Services command-line tool, <bpt id="p1">**</bpt>logoff.exe<ept id="p1">**</ept> (For details, at the Windows PowerShell prompt, type <bpt id="p2">**</bpt>logoff /?<ept id="p2">**</ept>).</source>
+          <target state="translated">最も簡単な方法は、リモート デスクトップ/ターミナル サービスのコマンドライン ツールである <bpt id="p1">**</bpt>logoff.exe<ept id="p1">**</ept> を使用することです (詳細については、Windows PowerShell プロンプトで <bpt id="p2">**</bpt>logoff /?<ept id="p2">**</ept> と入力してください)。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To log off the current active session, type <bpt id="p1">**</bpt>logoff<ept id="p1">**</ept> with no arguments.</source>
+          <target state="translated">現在アクティブなセッションからログオフするには、引数を付けずに <bpt id="p1">**</bpt>logoff<ept id="p1">**</ept> と入力します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can also use the <bpt id="p1">**</bpt>shutdown.exe<ept id="p1">**</ept> tool with its logoff option:</source>
+          <target state="translated">また、<bpt id="p1">**</bpt>shutdown.exe<ept id="p1">**</ept> ツールにログオフのオプションを指定することもできます。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A third option is to use WMI.</source>
+          <target state="translated">3 つ目は、WMI を使用する方法です。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The Win32_OperatingSystem class has a Win32Shutdown method.</source>
+          <target state="translated">Win32_OperatingSystem クラスには、Win32Shutdown メソッドがあります。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Invoking the method with the 0 flag initiates logoff:</source>
+          <target state="translated">このメソッドに 0 フラグを指定して呼び出すと、ログオフが開始されます。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For more information, and to find other features of the Win32Shutdown method, see "Win32Shutdown Method of the Win32_OperatingSystem Class" in MSDN.</source>
+          <target state="translated">詳細について、および Win32Shutdown メソッドの他の機能については、MSDN の「Win32_OperatingSystem クラスの Win32Shutdown メソッド」をご覧ください。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Shutting Down or Restarting a Computer</source>
+          <target state="translated">コンピューターをシャットダウンまたは再起動する</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Shutting down and restarting computers are generally the same types of task.</source>
+          <target state="translated">通常、コンピューターのシャットダウンと再起動は同じ種類に属するタスクです。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Tools that shut down a computer will generally restart it as well—and vice versa.</source>
+          <target state="translated">コンピューターをシャットダウンできるツールであれば、コンピューターを再起動することもできます。逆にコンピューターを再起動できるツールであれば、コンピューターをシャットダウンすることもできます。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>There are two straightforward options for restarting a computer from Windows PowerShell.</source>
+          <target state="translated">Windows PowerShell からコンピューターを簡単に再起動する方法としては、2 とおりの方法があります。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Use either Tsshutdn.exe or Shutdown.exe with appropriate arguments.</source>
+          <target state="translated">Tsshutdn.exe または Shutdown.exe に適切な引数を指定して実行することです。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You can get detailed usage information from <bpt id="p1">**</bpt>tsshutdn.exe /?<ept id="p1">**</ept></source>
+          <target state="translated">詳しい使用方法は、<bpt id="p1">**</bpt>tsshutdn.exe ?<ept id="p1">**</ept></target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>or <bpt id="p1">**</bpt>shutdown.exe /?<ept id="p1">**</ept>.</source>
+          <target state="translated">または <bpt id="p1">**</bpt>shutdown.exe ?<ept id="p1">**</ept> を実行すると参照できます。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You can also perform shutdown and restart operations by using <bpt id="p1">**</bpt>Win32_OperatingSystem<ept id="p1">**</ept> directly from Windows PowerShell as well.</source>
+          <target state="translated">シャットダウン操作と再起動操作は、Windows PowerShell から直接 <bpt id="p1">**</bpt>Win32_OperatingSystem<ept id="p1">**</ept> を使用して実行することもできます。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To shut down the computer, use the Win32Shutdown method with the <bpt id="p1">**</bpt>1<ept id="p1">**</ept> flag.</source>
+          <target state="translated">コンピューターをシャットダウンするには、<bpt id="p1">**</bpt>1<ept id="p1">**</ept> フラグを指定して Win32Shutdown メソッドを使用します。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To restart the operating system, use the Win32Shutdown method with the <bpt id="p1">**</bpt>2<ept id="p1">**</ept> flag.</source>
+          <target state="translated">オペレーティング システムを再起動するには、<bpt id="p1">**</bpt>2<ept id="p1">**</ept> フラグを指定して Win32Shutdown メソッドを使用します。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

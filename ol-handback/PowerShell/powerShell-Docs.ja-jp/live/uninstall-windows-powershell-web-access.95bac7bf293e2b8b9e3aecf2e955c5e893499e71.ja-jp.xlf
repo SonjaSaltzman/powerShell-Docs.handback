@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4fb33c9" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d54139714552943901f565a8525bb478ed308f09</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\core-powershell\web-access\uninstall-windows-powershell-web-access.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0a57c9b07e314938acd13288798c566e93641e31</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>uninstall windows powershell web access</source>
+          <target state="translated">Windows PowerShell Web Access のアンインストール</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="translated">PowerShell, コマンドレット</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Uninstall Windows PowerShell Web Access</source>
+          <target state="translated">Windows PowerShell Web Access をアンインストールする</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Updated: June 24, 2013</source>
+          <target state="translated">最終更新日 : 2013 年 6 月 24 日</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows Server 2012 R2, Windows Server 2012</source>
+          <target state="translated">適用対象: Windows Server 2012 R2、Windows Server 2012</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Follow steps in this topic to delete the Windows PowerShell Web Access website and application from the gateway server that is running either Windows Server 2012 R2 or Windows Server 2012.</source>
+          <target state="translated">Windows Server 2012 R2 または Windows Server 2012 のいずれかを実行しているゲートウェイ サーバーから Windows PowerShell Web Access Web サイトおよびアプリケーションを削除するには、このトピックの手順に従います。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Before you begin, notify users of the web-based console that you are removing the website.</source>
+          <target state="translated">開始する前に、Web サイトを削除することを Web ベース コンソールのユーザーに通知してください。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Before you uninstall Windows PowerShell Web Access from the gateway server, either run the <ph id="ph1">&lt;span class="code"&gt;</ph>Uninstall-PswaWebApplication<ph id="ph2">&lt;/span&gt;</ph> cmdlet to remove the website and Windows PowerShell Web Access web applications, or use the IIS Manager procedure, <bpt id="p1">[</bpt>To delete the Windows PowerShell Web Access website and web applications by using IIS Manager<ept id="p1">](#BKMK_delsite)</ept>.</source>
+          <target state="translated">ゲートウェイ サーバーから Windows PowerShell Web Access をアンインストールする前に、<ph id="ph1">&lt;span class="code"&gt;</ph>Uninstall-PswaWebApplication<ph id="ph2">&lt;/span&gt;</ph> コマンドレットを実行して Web サイトおよび Windows PowerShell Web Access Web アプリケーションを削除するか、IIS マネージャーの手順「<bpt id="p1">[</bpt>IIS マネージャーを使って Windows PowerShell Web Access Web サイトおよびアプリケーションを削除するには<ept id="p1">](#BKMK_delsite)</ept>」を実行します。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Uninstalling Windows PowerShell Web Access does not uninstall IIS or any other features that were installed automatically because Windows PowerShell Web Access requires them to run.</source>
+          <target state="translated">Windows PowerShell Web Access の実行に必要なため、Windows PowerShell Web Access をアンインストールしても、自動インストールされた IIS その他の機能はアンインストールされません。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The uninstallation process leaves features installed upon which Windows PowerShell Web Access was dependent; you can uninstall those features separately if needed.</source>
+          <target state="translated">アンインストール プロセスでは、Windows PowerShell Web Access が依存する機能はそのまま残されるため、必要に応じて手動でアンインストールしてください。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Recommended (quick) uninstallation</source>
+          <target state="translated">推奨の (クイック) アンインストール</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Procedures in this section help you uninstall both the Windows PowerShell Web Access web application and the Windows PowerShell Web Access feature by using Windows PowerShell cmdlets.</source>
+          <target state="translated">このセクションの手順では、Windows PowerShell コマンドレットを使用して Windows PowerShell Web Access Web アプリケーションと Windows PowerShell Web Access 機能の両方をアンインストールできます。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Step 1: Delete the web application</source>
+          <target state="translated">手順 1: Web アプリケーションを削除する</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If you have specified your own, custom website name, add the <ph id="ph1">&lt;span class="code"&gt;</ph>WebsiteName<ph id="ph2">&lt;/span&gt;</ph> parameter to your command, and specify the website name.</source>
+          <target state="translated">独自のカスタム Web サイト名を指定した場合は、コマンドに <ph id="ph1">&lt;span class="code"&gt;</ph>WebsiteName<ph id="ph2">&lt;/span&gt;</ph> パラメーターを追加し、Web サイト名を指定します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If you have used a custom web application (not the default application, <bpt id="p1">**</bpt>pswa<ept id="p1">**</ept>, add the <ph id="ph1">&lt;span class="code"&gt;</ph>WebApplicationName<ph id="ph2">&lt;/span&gt;</ph> parameter to your command, and specify the name of the web application.</source>
+          <target state="translated">(既定のアプリケーション <bpt id="p1">**</bpt>pswa<ept id="p1">**</ept> ではなく) カスタム Web アプリケーションを使用している場合は、コマンドに <ph id="ph1">&lt;span class="code"&gt;</ph>WebApplicationName<ph id="ph2">&lt;/span&gt;</ph> パラメーターを追加し、Web アプリケーションの名前を指定します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To delete the website and web applications by using the Uninstall-PswaWebApplication cmdlet</source>
+          <target state="translated">Uninstall-PswaWebApplication コマンドレットを使って Web サイトおよびアプリケーションを削除するには</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Do one of the following to open a Windows PowerShell session.</source>
+          <target state="translated">次のいずれかを実行して Windows PowerShell セッションを開きます。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>On the Windows desktop, right-click <bpt id="p1">**</bpt>Windows PowerShell<ept id="p1">**</ept> on the taskbar.</source>
+          <target state="translated">Windows デスクトップで、タスク バーの <bpt id="p1">**</bpt>[Windows PowerShell]<ept id="p1">**</ept> を右クリックします。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>On the Windows <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> screen, click <bpt id="p2">**</bpt>Windows PowerShell<ept id="p2">**</ept>.</source>
+          <target state="translated">Windows の<bpt id="p1">**</bpt>スタート<ept id="p1">**</ept>画面で、<bpt id="p2">**</bpt>[Windows PowerShell]<ept id="p2">**</ept> をクリックします。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Type <bpt id="p1">**</bpt>Uninstall-PswaWebApplication<ept id="p1">**</ept>, and then press <bpt id="p2">**</bpt>Enter<ept id="p2">**</ept>.</source>
+          <target state="translated">「<bpt id="p1">**</bpt>Uninstall-PswaWebApplication<ept id="p1">**</ept>」と入力して <bpt id="p2">**</bpt>Enter<ept id="p2">**</ept> キーを押します。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If you are using a test certificate, add the <ph id="ph1">&lt;span class="code"&gt;</ph>DeleteTestCertificate<ph id="ph2">&lt;/span&gt;</ph> parameter to the cmdlet, as shown in the following example.</source>
+          <target state="translated">テスト証明書使用している場合、次の例のように <ph id="ph1">&lt;span class="code"&gt;</ph>DeleteTestCertificate<ph id="ph2">&lt;/span&gt;</ph> パラメーターをコマンドレットに追加します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_28147344-ab2f-49e7-b1c2-6dbe649d4366'); "Copy to clipboard.")</source>
+          <target state="translated">[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_28147344-ab2f-49e7-b1c2-6dbe649d4366'); "Copy to clipboard.")</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Step 2: Uninstall Windows PowerShell Web Access</source>
+          <target state="translated">手順 2: Windows PowerShell Web Access をアンインストールする</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>To uninstall Windows PowerShell Web Access by using Windows PowerShell cmdlets</source>
+          <target state="translated">Windows PowerShell コマンドレットを使って Windows PowerShell Web Access をアンインストールするには</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Do one of the following to open a Windows PowerShell session with elevated user rights.</source>
+          <target state="translated">次のいずれかを実行して、管理者特権を使って Windows PowerShell セッションを開きます。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>If a session is already open, go on to the next step.</source>
+          <target state="translated">セッションを既に開いている場合は、次の手順に進んでください。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>On the Windows desktop, right-click <bpt id="p1">**</bpt>Windows PowerShell<ept id="p1">**</ept> on the taskbar, and then click <bpt id="p2">**</bpt>Run as Administrator<ept id="p2">**</ept>.</source>
+          <target state="translated">Windows デスクトップで、タスク バーの <bpt id="p1">**</bpt>[Windows PowerShell]<ept id="p1">**</ept> を右クリックし、<bpt id="p2">**</bpt>[管理者として実行]<ept id="p2">**</ept> をクリックします。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>On the Windows <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> screen, right-click <bpt id="p2">**</bpt>Windows PowerShell<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>Run as Administrator<ept id="p3">**</ept>.</source>
+          <target state="translated">Windows の<bpt id="p1">**</bpt>スタート<ept id="p1">**</ept>画面で、<bpt id="p2">**</bpt>[Windows PowerShell]<ept id="p2">**</ept> を右クリックし、<bpt id="p3">**</bpt>[管理者として実行]<ept id="p3">**</ept> をクリックします。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Type the following, and then press <bpt id="p1">**</bpt>Enter<ept id="p1">**</ept>, where <bpt id="p2">*</bpt>computer_name<ept id="p2">*</ept> represents a remote server from which you want to remove Windows PowerShell Web Access.</source>
+          <target state="translated">次のように入力して <bpt id="p1">**</bpt>Enter<ept id="p1">**</ept> キーを押します。<bpt id="p2">*</bpt>computer_name<ept id="p2">*</ept> は、Windows PowerShell Web Access を削除するリモート サーバーです。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">&lt;span class="code"&gt;</ph>–Restart<ph id="ph2">&lt;/span&gt;</ph> parameter automatically restarts destination servers if required by the removal.</source>
+          <target state="translated"><ph id="ph1">&lt;span class="code"&gt;</ph>–Restart<ph id="ph2">&lt;/span&gt;</ph> パラメーターによって、対象サーバーが自動的に再起動されます (削除で必要な場合)。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_7b534520-f292-471f-89e3-a1079c03e369'); "Copy to clipboard.")</source>
+          <target state="translated">[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_7b534520-f292-471f-89e3-a1079c03e369'); "Copy to clipboard.")</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To remove roles and features from an offline VHD, you must add both the <ph id="ph1">&lt;span class="code"&gt;</ph>-ComputerName<ph id="ph2">&lt;/span&gt;</ph> parameter and the <ph id="ph3">&lt;span class="code"&gt;</ph>-VHD<ph id="ph4">&lt;/span&gt;</ph> parameter.</source>
+          <target state="translated">オフライン VHD に役割や機能を削除するには、<ph id="ph1">&lt;span class="code"&gt;</ph>-ComputerName<ph id="ph2">&lt;/span&gt;</ph> パラメーターと <ph id="ph3">&lt;span class="code"&gt;</ph>-VHD<ph id="ph4">&lt;/span&gt;</ph> パラメーターの両方を追加する必要があります。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">&lt;span class="code"&gt;</ph>-ComputerName<ph id="ph2">&lt;/span&gt;</ph> parameter contains the name of the server on which to mount the VHD, and the <ph id="ph3">&lt;span class="code"&gt;</ph>-VHD<ph id="ph4">&lt;/span&gt;</ph> parameter contains the path to the VHD file on the specified server.</source>
+          <target state="translated"><ph id="ph1">&lt;span class="code"&gt;</ph>-ComputerName<ph id="ph2">&lt;/span&gt;</ph> パラメーターには VHD のマウント先のサーバー名が格納され、<ph id="ph3">&lt;span class="code"&gt;</ph>-VHD<ph id="ph4">&lt;/span&gt;</ph> パラメーターには指定したサーバー上の VHD ファイルへのパスが格納されます。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_5d8f91ee-b91a-4653-b7df-e745187fd72d'); "Copy to clipboard.")</source>
+          <target state="translated">[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_5d8f91ee-b91a-4653-b7df-e745187fd72d'); "Copy to clipboard.")</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>When removal is finished, verify that you removed Windows PowerShell Web Access by opening the <bpt id="p1">**</bpt>All Servers<ept id="p1">**</ept> page in Server Manager, selecting a server from which you removed the feature, and viewing the <bpt id="p2">**</bpt>Roles and Features<ept id="p2">**</ept> tile on the page for the selected server.</source>
+          <target state="translated">削除が完了したら、Windows PowerShell Web Access が削除されていることを確認します。これには、サーバー マネージャーの <bpt id="p1">**</bpt>[すべてのサーバー]<ept id="p1">**</ept> ページを開き、機能を削除したサーバーを選択して、選択したサーバーのページで <bpt id="p2">**</bpt>[役割と機能]<ept id="p2">**</ept> タイルを表示します。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You can also run the <ph id="ph1">&lt;span class="code"&gt;</ph>Get-WindowsFeature<ph id="ph2">&lt;/span&gt;</ph> cmdlet targeted at the selected server (Get-WindowsFeature -ComputerName <ph id="ph3">&amp;lt;</ph><bpt id="p1">*</bpt>computer_name<ept id="p1">*</ept><ph id="ph4">&amp;gt;</ph>) to view a list of roles and features that are installed on the server.</source>
+          <target state="translated">また、選択したサーバーを対象として <ph id="ph1">&lt;span class="code"&gt;</ph>Get-WindowsFeature<ph id="ph2">&lt;/span&gt;</ph> コマンドレット (Get-WindowsFeature -ComputerName <ph id="ph3">&amp;lt;</ph><bpt id="p1">*</bpt>computer_name<ept id="p1">*</ept><ph id="ph4">&amp;gt;</ph>) を実行し、サーバーにインストールされている役割と機能の一覧を表示することもできます。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Custom uninstallation</source>
+          <target state="translated">カスタム アンインストール</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Procedures in this section help you uninstall both the Windows PowerShell Web Access web application and the Windows PowerShell Web Access feature by using the Remove Roles and Features Wizard in Server Manager, and the IIS Manager console.</source>
+          <target state="translated">このセクションの手順では、サーバー マネージャーの役割と機能の削除ウィザード 、および IIS マネージャー コンソールを使用して Windows PowerShell Web Access の Web アプリケーションと Windows PowerShell Web Access 機能の両方をアンインストールできます。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Step 1: Delete the web application</source>
+          <target state="translated">手順 1: Web アプリケーションを削除する</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To delete the Windows PowerShell Web Access website and web applications by using IIS Manager</source>
+          <target state="translated">IIS マネージャーを使って Windows PowerShell Web Access Web サイトおよびアプリケーションを削除するには</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Open the IIS Manager console by doing one of the following.</source>
+          <target state="translated">次のいずれかの方法で IIS マネージャー コンソールを開きます。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>If it is already open, go on to the next step.</source>
+          <target state="translated">既に開いている場合は、次の手順に進んでください。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>On the Windows desktop, start Server Manager by clicking <bpt id="p1">**</bpt>Server Manager<ept id="p1">**</ept> in the Windows taskbar.</source>
+          <target state="translated">Windows デスクトップで、Windows タスク バーの <bpt id="p1">**</bpt>[サーバー マネージャー]<ept id="p1">**</ept> をクリックし、サーバー マネージャーを開始します。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Tools<ept id="p1">**</ept> menu in Server Manager, click <bpt id="p2">**</bpt>Internet Information Services (IIS) Manager<ept id="p2">**</ept>.</source>
+          <target state="translated">[サーバー マネージャー] の <bpt id="p1">**</bpt>[ツール]<ept id="p1">**</ept> メニューで <bpt id="p2">**</bpt>[インターネット インフォメーション サービス (IIS) マネージャー]<ept id="p2">**</ept> をクリックします。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>On the Windows <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> screen, type any part of the name <bpt id="p2">**</bpt>Internet Information Services (IIS) Manager<ept id="p2">**</ept>.</source>
+          <target state="translated">Windows の<bpt id="p1">**</bpt>スタート<ept id="p1">**</ept>画面で、<bpt id="p2">**</bpt>インターネット インフォメーション サービス (IIS) マネージャー<ept id="p2">**</ept>という名前の任意の一部を入力します。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Click the shortcut when it is displayed in the <bpt id="p1">**</bpt>Apps<ept id="p1">**</ept> results.</source>
+          <target state="translated"><bpt id="p1">**</bpt>[アプリ]<ept id="p1">**</ept> の結果に表示されたショートカットをクリックします。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>In the IIS Manager tree pane, select the website that is running the Windows PowerShell Web Access web application.</source>
+          <target state="translated">IIS マネージャーのツリー ウィンドウで、Windows PowerShell Web Access Web アプリケーションを実行している Web サイトを選択します。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Actions<ept id="p1">**</ept> pane, under <bpt id="p2">**</bpt>Manage Website<ept id="p2">**</ept>, click <bpt id="p3">**</bpt>Stop<ept id="p3">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>[操作]<ept id="p1">**</ept> ウィンドウの <bpt id="p2">**</bpt>[Web サイトの管理]<ept id="p2">**</ept> で <bpt id="p3">**</bpt>[停止]<ept id="p3">**</ept> をクリックします。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>In the tree pane, right-click the web application in the website that is running the Windows PowerShell Web Access web application, and then click <bpt id="p1">**</bpt>Remove<ept id="p1">**</ept>.</source>
+          <target state="translated">ツリー ウィンドウで、Windows PowerShell Web Access Web アプリケーションを実行している Web サイトの Web アプリケーションを右クリックして、<bpt id="p1">**</bpt>[削除]<ept id="p1">**</ept> をクリックします。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>In the tree pane, select <bpt id="p1">**</bpt>Application Pools<ept id="p1">**</ept>, select the Windows PowerShell Web Access application pool folder, click <bpt id="p2">**</bpt>Stop<ept id="p2">**</ept> in the <bpt id="p3">**</bpt>Actions<ept id="p3">**</ept> pane, and then click <bpt id="p4">**</bpt>Remove<ept id="p4">**</ept> in the content pane.</source>
+          <target state="translated">ツリー ウィンドウで <bpt id="p1">**</bpt>[アプリケーション プール]<ept id="p1">**</ept> を選択し、Windows PowerShell Web Access アプリケーション プールのフォルダーを選択して、<bpt id="p3">**</bpt>[操作]<ept id="p3">**</ept> ウィンドウの <bpt id="p2">**</bpt>[停止]<ept id="p2">**</ept> をクリックし、コンテンツ ウィンドウの <bpt id="p4">**</bpt>[削除]<ept id="p4">**</ept> をクリックします。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Close IIS Manager.</source>
+          <target state="translated">IIS マネージャーを閉じます。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Note</source>
+          <target state="translated">注意</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The certificate is not deleted during uninstallation.</source>
+          <target state="translated">アンインストールでは証明書は削除されません。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If you created a self-signed certificate or used a test certificate and want to remove it, delete the certificate in IIS Manager.</source>
+          <target state="translated">自己署名証明書を作成している場合、または使用したテスト証明書を削除する場合は、IIS マネージャーで証明書を削除できます。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Step 2: Uninstall Windows PowerShell Web Access</source>
+          <target state="translated">手順 2: Windows PowerShell Web Access をアンインストールする</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>To uninstall Windows PowerShell Web Access by using the Remove Roles and Features Wizard</source>
+          <target state="translated">役割と機能の削除ウィザードを使って Windows PowerShell Web Access をアンインストールするには</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>If Server Manager is already open, go on to the next step.</source>
+          <target state="translated">サーバー マネージャーを既に開いている場合は、次の手順に進んでください。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>If Server Manager is not already open, open it by doing one of the following.</source>
+          <target state="translated">サーバー マネージャーをまだ開いていない場合は、次のいずれかの方法で開きます。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>On the Windows desktop, start Server Manager by clicking <bpt id="p1">**</bpt>Server Manager<ept id="p1">**</ept> in the Windows taskbar.</source>
+          <target state="translated">Windows デスクトップで、Windows タスク バーの <bpt id="p1">**</bpt>[サーバー マネージャー]<ept id="p1">**</ept> をクリックし、サーバー マネージャーを開始します。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>On the Windows <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> screen, click <bpt id="p2">**</bpt>Server Manager<ept id="p2">**</ept>.</source>
+          <target state="translated">Windows の<bpt id="p1">**</bpt>スタート<ept id="p1">**</ept>画面で、<bpt id="p2">**</bpt>[サーバー マネージャー]<ept id="p2">**</ept> をクリックします。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Manage<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>Remove Roles and Features<ept id="p2">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>[管理]<ept id="p1">**</ept> メニューの <bpt id="p2">**</bpt>[役割と機能の削除]<ept id="p2">**</ept> をクリックします。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Select destination server<ept id="p1">**</ept> page, select the server or offline VHD from which you want to remove the feature.</source>
+          <target state="translated"><bpt id="p1">**</bpt>[対象サーバーの選択]<ept id="p1">**</ept> ページで、削除対象の機能を備えているサーバーまたはオフライン VHD を選択します。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>To select an offline VHD, first select the server on which to mount the VHD, and then select the VHD file.</source>
+          <target state="translated">オフライン VHD を選択するには、最初に VHD マウント先のサーバーを選択してから、VHD ファイルを選択します。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>After you have selected the destination server, click <bpt id="p1">**</bpt>Next<ept id="p1">**</ept>.</source>
+          <target state="translated">対象サーバーを選択したら、<bpt id="p1">**</bpt>[次へ]<ept id="p1">**</ept> をクリックします。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Next<ept id="p1">**</ept> again to skip to the <bpt id="p2">**</bpt>Remove features<ept id="p2">**</ept> page.</source>
+          <target state="translated">もう一度 <bpt id="p1">**</bpt>[次へ]<ept id="p1">**</ept> をクリックして <bpt id="p2">**</bpt>[機能の削除]<ept id="p2">**</ept> ページにスキップします。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Clear the check box for <bpt id="p1">**</bpt>Windows PowerShell Web Access<ept id="p1">**</ept>, and then click <bpt id="p2">**</bpt>Next<ept id="p2">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>[Windows PowerShell Web Access]<ept id="p1">**</ept> のチェック ボックスをすべてオフにして、<bpt id="p2">**</bpt>[次へ]<ept id="p2">**</ept> をクリックします。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Confirm removal selections<ept id="p1">**</ept> page, click <bpt id="p2">**</bpt>Remove<ept id="p2">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>[削除オプションの確認]<ept id="p1">**</ept> ページで、<bpt id="p2">**</bpt>[削除]<ept id="p2">**</ept> をクリックします。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">参照</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Install and Use Windows PowerShell Web Access<ept id="p1">](https://technet.microsoft.com/en-us/library/hh831611(v=ws.11).aspx)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>IIS Manager 7.0 Help<ept id="p2">](https://technet.microsoft.com/library/cc732664.aspx)</ept></source>
+          <target state="translated"><bpt id="p1">[</bpt>Windows PowerShell Web Access のインストールと使用<ept id="p1">](https://technet.microsoft.com/en-us/library/hh831611(v=ws.11).aspx)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>IIS マネージャー ヘルプ<ept id="p2">](https://technet.microsoft.com/library/cc732664.aspx)</ept></target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Show:<ph id="ph1">&lt;/span&gt;</ph> Inherited Protected</source>
+          <target state="translated">表示:<ph id="ph1">&lt;/span&gt;</ph> 保護されている継承</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Was this page helpful?</source>
+          <target state="translated">このページは役に立ちましたか。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Yes No</source>
+          <target state="translated">はい いいえ</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Additional feedback?</source>
+          <target state="translated">その他にご意見はありますか。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>1500<ph id="ph1">&lt;/span&gt;</ph> characters remaining<ph id="ph2">&lt;/span&gt;</ph> Submit Skip this</source>
+          <target state="translated">残り 1500<ph id="ph1">&lt;/span&gt;</ph> 文字<ph id="ph2">&lt;/span&gt;</ph> 送信 スキップする</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Thank you!</source>
+          <target state="translated">ありがとうございました。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>We appreciate your feedback.</source>
+          <target state="translated">ご意見をお送りいただきありがとうございます。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Manage Your Profile</source>
+          <target state="translated">プロファイル (個人情報) の管理</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Site Feedback<ph id="ph1">&lt;/a&gt;</ph> Site Feedback</source>
+          <target state="translated">サイトのフィードバック<ph id="ph1">&lt;/a&gt;</ph> サイトのフィードバック</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>x</source>
+          <target state="translated">x</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Tell us about your experience...</source>
+          <target state="translated">お客様のご体験をお聞かせください。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Did the page load quickly?</source>
+          <target state="translated">ページはすばやく表示されましたか?</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Yes<ph id="ph1">&lt;span&gt;</ph> <ph id="ph2">&lt;/span&gt;&lt;/span&gt;</ph> <ph id="ph3">&lt;span&gt;</ph> No</source>
+          <target state="translated">はい<ph id="ph1">&lt;span&gt;</ph> <ph id="ph2">&lt;/span&gt;&lt;/span&gt;</ph> <ph id="ph3">&lt;span&gt;</ph> いいえ</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Do you like the page design?</source>
+          <target state="translated">ページのデザインは気に入りましたか?</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Yes<ph id="ph1">&lt;span&gt;</ph> <ph id="ph2">&lt;/span&gt;&lt;/span&gt;</ph> <ph id="ph3">&lt;span&gt;</ph> No</source>
+          <target state="translated">はい<ph id="ph1">&lt;span&gt;</ph> <ph id="ph2">&lt;/span&gt;&lt;/span&gt;</ph> <ph id="ph3">&lt;span&gt;</ph> いいえ</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Tell us more</source>
+          <target state="translated">詳しくお聞かせください。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Flash Newsletter</source>
+          <target state="translated">Flash ニュースレター</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Contact Us</source>
+          <target state="translated">お問い合わせ先</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Privacy Statement</source>
+          <target state="translated">プライバシーに関する声明</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Terms of Use</source>
+          <target state="translated">使用条件</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Trademarks</source>
+          <target state="translated">商標</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>© 2016 Microsoft</source>
+          <target state="translated">© 2016 Microsoft</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>© 2016 Microsoft</source>
+          <target state="translated">© 2016 Microsoft</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Third party scripts and code linked to or referenced from this website are licensed to you by the parties that own such code, not by Microsoft.</source>
+          <target state="translated">サードパーティのスクリプトやコード、サードパーティから本 Web サイトへのリンク、あるいは本サイトからサードパーティへのリンクは、マイクロソフトではなく、そのようなコードの所有者によってお客様にライセンス供与されています。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>See ASP.NET Ajax CDN Terms of Use – http://www.asp.net/ajaxlibrary/CDN.ashx.</source>
+          <target state="translated">ASP.NET Ajax CDN の使用条件 - http://www.asp.net/ajaxlibrary/CDN.ashx</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

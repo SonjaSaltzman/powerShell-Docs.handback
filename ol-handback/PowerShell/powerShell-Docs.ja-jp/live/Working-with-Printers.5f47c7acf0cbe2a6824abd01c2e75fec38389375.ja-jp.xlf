@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4fb33c9" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c013124d12a551245152c1703e5f1d8a3f8f5f70</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Working-with-Printers.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9276bf7f66566289e4139ad93654dbb2dd889996</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Working with Printers</source>
+          <target state="translated">プリンターの操作</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="translated">PowerShell, コマンドレット</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Working with Printers</source>
+          <target state="translated">プリンターの操作</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can use Windows PowerShell to manage printers by using WMI and the WScript.Network COM object from WSH.</source>
+          <target state="translated">Windows PowerShell を使用してプリンターを管理するには、WMI を使用する方法と WSH から WScript.Network COM オブジェクトを使用する方法があります。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>We will use a mix of both tools to demonstrate specific tasks.</source>
+          <target state="translated">ここでは、両方のツールを組み合わせて使用して、特定のタスクの実行方法を紹介します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Listing Printer Connections</source>
+          <target state="translated">プリンター接続の一覧表示</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The simplest way to list the printers installed on a computer is to use the WMI <bpt id="p1">**</bpt>Win32_Printer<ept id="p1">**</ept> class:</source>
+          <target state="translated">コンピューターにインストールされているプリンターを一覧表示する最も簡単な方法は、WMI の <bpt id="p1">**</bpt>Win32_Printer<ept id="p1">**</ept> クラスを使用することです。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can also list the printers by using the <bpt id="p1">**</bpt>WScript.Network<ept id="p1">**</ept> COM object that is typically used in WSH scripts:</source>
+          <target state="translated"><bpt id="p1">**</bpt>WScript.Network<ept id="p1">**</ept> という COM オブジェクト (通常、WSH スクリプトで使用されます) を使用してプリンターを一覧表示することもできます。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Because this command returns a simple string collection of port names and printer device names without any distinguishing labels, it is not easy to interpret.</source>
+          <target state="translated">このコマンドは、ポート名とプリンター デバイス名の単純な文字列コレクションを返し、識別に役立つラベルがないため、分かりにくい場合があります。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Adding a Network Printer</source>
+          <target state="translated">ネットワーク プリンターの追加</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To add a new network printer, use <bpt id="p1">**</bpt>WScript.Network<ept id="p1">**</ept>:</source>
+          <target state="translated">新しいネットワーク プリンターを追加するには、<bpt id="p1">**</bpt>WScript.Network<ept id="p1">**</ept> を使用します。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Setting a Default Printer</source>
+          <target state="translated">通常使うプリンターの設定</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To use WMI to set the default printer, find the printer in the <bpt id="p1">**</bpt>Win32_Printer<ept id="p1">**</ept> collection and then invoke the <bpt id="p2">**</bpt>SetDefaultPrinter<ept id="p2">**</ept> method:</source>
+          <target state="translated">通常使うプリンターを WMI を使用して設定するには、<bpt id="p1">**</bpt>Win32_Printer<ept id="p1">**</ept> コレクションでプリンターを検索し、<bpt id="p2">**</bpt>SetDefaultPrinter<ept id="p2">**</ept> メソッドを呼び出します。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>WScript.Network<ept id="p1">**</ept> is a little simpler to use, because it has a <bpt id="p2">**</bpt>SetDefaultPrinter<ept id="p2">**</ept> method that takes only the printer name as an argument:</source>
+          <target state="translated"><bpt id="p1">**</bpt>WScript.Network<ept id="p1">**</ept> の方が多少簡単に使用できます。これは、プリンター名のみを引数として取る <bpt id="p2">**</bpt>SetDefaultPrinter<ept id="p2">**</ept> メソッドを備えているためです。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Removing a Printer Connection</source>
+          <target state="translated">プリンター接続の削除</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To remove a printer connection, use the <bpt id="p1">**</bpt>WScript.Network RemovePrinterConnection<ept id="p1">**</ept> method:</source>
+          <target state="translated">プリンター接続を削除するには、<bpt id="p1">**</bpt>WScript.Network RemovePrinterConnection<ept id="p1">**</ept> メソッドを使用します。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
