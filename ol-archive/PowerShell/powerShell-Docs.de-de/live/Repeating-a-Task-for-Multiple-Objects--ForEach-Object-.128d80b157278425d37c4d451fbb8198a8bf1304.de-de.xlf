@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4fb33c9" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8dd7904611fb697f9b398161e12765454b4f3441</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Repeating-a-Task-for-Multiple-Objects--ForEach-Object-.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1665e5fcb1fb8795eec57eb410532d1698675656</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Repeating a Task for Multiple Objects  ForEach Object</source>
+          <target state="translated">Wiederholen einer Aufgabe für mehrere Objekte  ForEach-Object</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="translated">powershell,cmdlet</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Repeating a Task for Multiple Objects (ForEach-Object)</source>
+          <target state="translated">Wiederholen einer Aufgabe für mehrere Objekte (ForEach-Object)</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ForEach-Object<ept id="p1">**</ept> cmdlet uses script blocks and the $_ descriptor for the current pipeline object to let you run a command on each object in the pipeline.</source>
+          <target state="translated">Das Cmdlet <bpt id="p1">**</bpt>ForEach-Object<ept id="p1">**</ept> verwendet Skriptblöcke und den Deskriptor „$_“ für das aktuelle Pipelineobjekt, um Ihnen das Ausführen eines Befehls für jedes Objekt in der Pipeline zu ermöglichen.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This can be used to perform some complicated tasks.</source>
+          <target state="translated">Damit können Sie einige komplizierte Aufgaben ausführen.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>One situation where this can be useful is manipulating data to make it more useful.</source>
+          <target state="translated">Besonders nützlich kann dies sein, wenn Sie Daten bearbeiten möchten, um sie besser nutzen zu können.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For example, the Win32_LogicalDisk class from WMI can be used to return free space information for each local disk.</source>
+          <target state="translated">Beispielsweise kann die Klasse „Win32_LogicalDisk“ aus WMI verwendet werden, um für jeden lokalen Datenträger Informationen zum freien Speicherplatz zurückzugeben.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The data is returned in terms of bytes, however, which makes it difficult to read:</source>
+          <target state="translated">Die Daten werden als Bytes zurückgegeben, sind daher schwierig zu lesen:</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>We can convert the FreeSpace value to megabytes by dividing each value by 1024 twice; after the first division, the data is in kilobytes, and after the second division it is megabytes.</source>
+          <target state="translated">Sie können den Wert von „FreeSpace in MB konvertieren, indem Sie jeden Wert zweimal durch 1024 dividieren. Mit der ersten Division werden die Daten in KB umgerechnet, bei der zweiten in MB.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can do that in a ForEach-Object script block by typing:</source>
+          <target state="translated">Sie können dazu einen ForEach-Object-Skriptblock verwenden, indem Sie Folgendes eingeben:</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Unfortunately, the output is now data with no associated label.</source>
+          <target state="translated">Leider erhalten Sie als Ausgabe nun Daten ohne zugeordnete Bezeichnung.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Because WMI properties such as this are read-only, you cannot directly convert FreeSpace.</source>
+          <target state="translated">Da WMI-Eigenschaften wie diese schreibgeschützt sind, kann FreeSpace nicht direkt konvertiert werden.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If you type this:</source>
+          <target state="translated">Wenn Sie Folgendes eingeben:</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You get an error message:</source>
+          <target state="translated">Erhalten Sie eine Fehlermeldung:</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You could reorganize the data by using some advanced techniques, but a simpler approach is to create a new object, by using <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept>.</source>
+          <target state="translated">Sie könnten die Daten mithilfe bestimmter erweiterter Techniken neu anordnen, ein einfacherer Ansatz ist jedoch die Erstellung ein neues Objekts mit <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
