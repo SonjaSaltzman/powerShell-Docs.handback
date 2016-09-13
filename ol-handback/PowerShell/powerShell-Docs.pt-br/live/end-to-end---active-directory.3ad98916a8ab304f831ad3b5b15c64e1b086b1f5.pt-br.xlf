@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4fb33c9" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e7ea3957ce3bbd3ce0fc072a82cd108606f05614</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">jea\end-to-end---active-directory.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">da88d9846dfa3917b2e6587b66e0e82a66b6bd72</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet,jea</source>
+          <target state="translated">powershell,cmdlet,jea</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>end to end   active directory</source>
+          <target state="translated">ponta a ponta Active Directory</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>End to End - Active Directory</source>
+          <target state="translated">Ponta a Ponta - Active Directory</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Imagine the scope of your program has increased.</source>
+          <target state="translated">Imagine que o escopo do seu programa aumentou.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You are now responsible for adding JEA to Domain Controllers to perform Active Directory actions.</source>
+          <target state="translated">Agora você é responsável por adicionar JEA a Controladores de Domínio para executar ações do Active Directory.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The help desk people are going to use JEA to unlock accounts, reset passwords, and do other similar actions.</source>
+          <target state="translated">As pessoas do suporte técnico pretendem usar JEA para desbloquear contas, redefinir senhas e executar outras ações semelhantes.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You need to expose a completely new set of commands to a different group of people.</source>
+          <target state="translated">Você precisa expor um conjunto totalmente novo de comandos para um grupo diferente de pessoas.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>On top of that, you have a bunch of existing Active Directory scripts you need to expose.</source>
+          <target state="translated">Além disso, você tem um monte de scripts do Active Directory existentes que precisa expor.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This section will walk through authoring a Session Configuration and Role Capability for this task.</source>
+          <target state="translated">Esta seção guiará você pela criação de uma Configuração de Sessão e a Capacidade de Função para esta tarefa.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+          <target state="translated">Pré-requisitos</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To follow this section step-by-step, you'll need to be operating on a domain controller.</source>
+          <target state="translated">Para seguir esta seção passo a passo, você precisará estar operando em um controlador de domínio.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If you don't have access to your domain controller, don't worry.</source>
+          <target state="translated">Se não tiver acesso ao controlador de domínio, não se preocupe.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Try to follow along with by working against some other scenario or role with which you are familiar.</source>
+          <target state="translated">Tente acompanhar trabalhando em outro cenário ou função com a qual você está familiarizado.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If you want to quickly set up a new domain controller, check out the <bpt id="p1">[</bpt>Creating a Domain Controller appendix<ept id="p1">](.\creating-a-domain-controller.md)</ept>.</source>
+          <target state="translated">Se você quiser configurar rapidamente um novo controlador de domínio, confira o apêndice <bpt id="p1">[</bpt>Criar um Controlador de Domínio<ept id="p1">](.\creating-a-domain-controller.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Steps to Make a new Role Capability and Session Configuration</source>
+          <target state="translated">Etapas para criar uma nova Capacidade de Função e Configuração de Sessão</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Making a new role capability can seem daunting at first, but it can be broken into fairly simple steps:</source>
+          <target state="translated">Criar uma nova capacidade de função pode parecer intimidador num primeiro momento, mas pode ser dividido em etapas bem simples:</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Identify the tasks you need to enable</source>
+          <target state="translated">Identificar as tarefas que você precisa habilitar</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Restrict those tasks as necessary</source>
+          <target state="translated">Restringir as tarefas conforme necessário</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Confirm they work with JEA</source>
+          <target state="translated">Confirmar se elas funcionam com JEA</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Put them in a Role Capability file</source>
+          <target state="translated">Colocá-las em um arquivo de Capacidade de Função</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Register a Session Configuration that exposes that Role Capability</source>
+          <target state="translated">Registrar uma Configuração de Sessão que expõe essa Capacidade de Função</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Step 1: Identify What Needs to Be Exposed</source>
+          <target state="translated">Etapa 1: Identificar o que precisa ser exposto</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Before you make a new Role Capability or Session Configuration, you need to identify all of the things users will need to do through the JEA endpoint, as well as how to do them through PowerShell.</source>
+          <target state="translated">Antes de criar uma nova Capacidade de Função ou Configuração de Sessão, você precisará identificar todas as coisas que os usuários precisarão fazer por meio do ponto de extremidade JEA, bem como realizá-las por meio do PowerShell.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This will involve a fair amount of requirement gathering and research.</source>
+          <target state="translated">Isso envolverá uma quantidade razoável de requisito de coleta e pesquisa.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>How you go about this process will depend on your organization and goals.</source>
+          <target state="translated">Como você efetuará esse processo dependerá das suas metas e da organização.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>It is important to call out requirement gathering and research as a critical part of the real world process.</source>
+          <target state="translated">É importante destacar o requisito de coleta e de pesquisa como uma parte essencial do processo do mundo real.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This may be the most difficult step in the process of adopting JEA.</source>
+          <target state="translated">Essa pode ser a etapa mais difícil no processo de adoção de JEA.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Find Resources</source>
+          <target state="translated">Encontrar Recursos</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Here is a set of online resources that might have come up in your research on creating an Active Directory management endpoint:</source>
+          <target state="translated">Veja este conjunto de recursos online que podem surgir na sua pesquisa sobre a criação de um ponto de extremidade de gerenciamento do Active Directory:</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Active Directory PowerShell Overview</source>
+          <target state="translated">Visão geral do Active Directory PowerShell</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>CMD to PowerShell Guide for Active Directory</source>
+          <target state="translated">CMD para Guia do PowerShell para Active Directory</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Make a List</source>
+          <target state="translated">Faça uma lista</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Here is a set of ten actions that you will be working from in the remainder of this section.</source>
+          <target state="translated">Veja este conjunto das dez ações das quais você estará trabalhando pelo restante desta seção.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Keep in mind this is simply an example, your organizations requirements may be different:</source>
+          <target state="translated">Tenha em mente que este é apenas um exemplo, os requisitos das suas organizações podem ser diferentes:</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Action</source>
+          <target state="translated">Ação</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>PowerShell Command</source>
+          <target state="translated">Comando do PowerShell</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Account Unlock</source>
+          <target state="translated">Desbloquear Conta</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Password Reset</source>
+          <target state="translated">Redefinir Senha</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>and</source>
+          <target state="translated">e</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Change a User's Title</source>
+          <target state="translated">Alterar o título do usuário</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Find AD Accounts that are locked out, disabled, inactive, etc.</source>
+          <target state="translated">Localizar contas do AD que estão bloqueadas, desabilitadas, inativa, etc.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Add User to Group</source>
+          <target state="translated">Adicionar o usuário ao grupo</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Remove User from Group</source>
+          <target state="translated">Remover usuário de grupo</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Enable a user account</source>
+          <target state="translated">Habilitar uma conta de usuário</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Disable a user account</source>
+          <target state="translated">Desabilitar uma conta de usuário</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Step 2: Restrict Tasks as Necessary</source>
+          <target state="translated">Etapa 2: Restringir as tarefas conforme necessário</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Now that you have your list of actions, you need to think through the capabilities of each command.</source>
+          <target state="translated">Agora que você tem sua lista de ações, precisará considerar os recursos de cada comando.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>There are two important reasons to do this:</source>
+          <target state="translated">Há dois motivos importantes para fazer isso:</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>It is easy to give users more capabilities than you intend.</source>
+          <target state="translated">É fácil dar aos usuários mais recursos do que você pretendia.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>For example, <ph id="ph1">`Set-ADUser`</ph> is an incredibly powerful and flexible command.</source>
+          <target state="translated">Por exemplo, <ph id="ph1">`Set-ADUser`</ph> é um comando incrivelmente poderoso e flexível.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>You may not want to expose everything it can do to help desk users.</source>
+          <target state="translated">É recomendável não expor tudo o que ele pode fazer para ajudar os usuários do suporte técnico.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Even worse, it's possible to expose commands that allow users to escape JEA's restrictions.</source>
+          <target state="translated">Pior ainda, é possível expor comandos que permitem aos usuários fugir das restrições do JEA.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If this happens, JEA ceases to function as a security boundary.</source>
+          <target state="translated">Se isso acontecer, o JEA deixará de funcionar como um limite de segurança.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Please be careful when selecting commands.</source>
+          <target state="translated">Tenha cuidado ao selecionar comandos.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>For example, Invoke-Expression will allow users to run unrestricted code.</source>
+          <target state="translated">Por exemplo, Invoke-Expression permitirá que os usuários executem código irrestrito.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>For more discussion on this topic, check out the Considerations When Restricting Commands section.</source>
+          <target state="translated">Para ver mais discussões sobre esse tópico, consulte a seção Considerações ao restringir comandos.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>After reviewing each command, you decide to restrict the following:</source>
+          <target state="translated">Depois de revisar cada comando, você decide restringir o seguinte:</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>should only be allowed to run with the -Title parameter</source>
+          <target state="translated">só deve ter permissão para executar o parâmetro "-Title"</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>and <ph id="ph1">`Remove-ADGroupMember`</ph> should only work with certain groups</source>
+          <target state="translated">e <ph id="ph1">`Remove-ADGroupMember`</ph> devem funcionar apenas com determinados grupos</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Step 3: Confirm the Tasks Work with JEA</source>
+          <target state="translated">Etapa 3: Confirmar o trabalho de tarefas com JEA</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Actually using those cmdlets may not be straightforward in the restricted JEA environment.</source>
+          <target state="translated">De fato suar esses cmdlets pode não ser simples no ambiente JEA restrito.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>JEA runs in <bpt id="p1">*</bpt>NoLanguage<ept id="p1">*</ept> mode which, among other things, prevents users from using variables.</source>
+          <target state="translated">O JEA é executado no modo <bpt id="p1">*</bpt>NoLanguage<ept id="p1">*</ept> que, entre outras coisas, impede os usuários de usar variáveis.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>In order to ensure that end users have a smooth experience, it's important to check for a few things.</source>
+          <target state="translated">Para garantir que os usuários finais tenham uma experiência positiva, é importante verificar algumas coisas.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>As an example, consider <ph id="ph1">`Set-ADAccountPassword`</ph>.</source>
+          <target state="translated">Por exemplo, considere <ph id="ph1">`Set-ADAccountPassword`</ph>.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The -NewPassword parameter requires a secure string.</source>
+          <target state="translated">O parâmetro -NewPassword requer uma cadeia de caracteres segura.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Often, users create a secure string and pass it in as a variable (as below):</source>
+          <target state="translated">Muitas vezes, os usuários criam uma cadeia de caracteres e passam-na como uma variável (como abaixo):</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>However, <bpt id="p1">*</bpt>NoLanguage<ept id="p1">*</ept> mode prevents the usage of variables.</source>
+          <target state="translated">No entanto, o modo <bpt id="p1">*</bpt>NoLanguage<ept id="p1">*</ept> impede o uso de variáveis.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>You can get around this restriction in two ways:</source>
+          <target state="translated">Você pode contornar essa restrição de duas maneiras:</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>You can require users run the command without assigning variables.</source>
+          <target state="translated">Você pode exigir que os usuários executem o comando sem atribuir variáveis.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This is easy to configure, but can be painful for the operators using the endpoint.</source>
+          <target state="translated">Ele é fácil de configurar, mas pode ser penoso para os operadores usando o ponto de extremidade.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Who wants to type this out every time you reset a password?</source>
+          <target state="translated">Quem deseja digitar essa saída sempre que você redefinir uma senha?</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>You can wrap the complexity in a script or a function that you expose to end users.</source>
+          <target state="translated">Você pode encapsular a complexidade em um script ou uma função que você expõe para os usuários finais.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Scripts and functions that you expose run in an unrestricted context; you can write functions that use variables and call other commands without any issue.</source>
+          <target state="translated">Scripts e funções que você expõe são executados em um contexto irrestrito; você pode escrever funções que usam variáveis e chamar outros comandos sem nenhum problema.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>This approach simplifies the end user experience, prevents errors, reduces required PowerShell knowledge, and reduces unintentionally exposing excess functionality.</source>
+          <target state="translated">Essa abordagem simplifica a experiência do usuário final, evita erros, reduz o conhecimento necessário do PowerShell e reduz a exposição de funcionalidade em excesso.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The only downside is the cost of authoring and maintaining the function.</source>
+          <target state="translated">A única desvantagem é o custo de criação e manutenção da função.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Aside: Adding a Function to your Module</source>
+          <target state="translated">Ao lado: adicionar uma função ao seu Módulo</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Taking approach #2, you are going to write a PowerShell function called <ph id="ph1">`Reset-ContosoUserPassword`</ph>.</source>
+          <target state="translated">Adotando a abordagem nº 2, você vai escrever uma função do PowerShell chamada <ph id="ph1">`Reset-ContosoUserPassword`</ph>.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>This function is going to do everything that needs to happen when you reset a user's password.</source>
+          <target state="translated">Essa função está prestes a fazer tudo o que deve acontecer quando você redefinir a senha do usuário.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>In your organization, this may involve doing fancy and complicated things.</source>
+          <target state="translated">Na sua organização, isso pode envolver fazer coisas sofisticadas e complicadas.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Because this is just an example, your command will just reset the password and require the user change the password at logon.</source>
+          <target state="translated">Como esse é apenas um exemplo, o comando apenas redefinirá a senha e exigirá a alteração da senha pelo usuário no momento de logon.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>We will put it in the Contoso_AD_Module module you made in the last section.</source>
+          <target state="translated">Nós o colocaremos no módulo Contoso_AD_Module criado na última seção.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>In PowerShell ISE, open "Contoso_AD_Module.psm1"</source>
+          <target state="translated">No ISE do PowerShell, abra "Contoso_AD_Module.psm1"</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Press Crtl+J to open the snippets menu.</source>
+          <target state="translated">Pressione CTRL + J para abrir o menu de trechos de código.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Key down until you find "function" and press enter.</source>
+          <target state="translated">Pressione a seta para baixo até localizar "função" e pressione enter.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>This puts up a super basic skeleton of a function.</source>
+          <target state="translated">Isso prepara um esqueleto muito básico de uma função.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Rename the function "Reset-ContosoUserPassword".</source>
+          <target state="translated">Renomeie a função "Reset-ContosoUserPassword".</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Rename one of the parameters "Identity" and delete the second.</source>
+          <target state="translated">Renomeie um dos parâmetros "Identity" e exclua o segundo.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Copy the following into the body of the function.</source>
+          <target state="translated">Copie o seguinte no corpo da função.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Save the file.</source>
+          <target state="translated">Salve o arquivo.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>You should end up with something that looks like this:</source>
+          <target state="translated">Você deve terminar com algo parecido com isso:</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Now, your users can simply call <ph id="ph1">`Reset-ContosoUserPassword`</ph> and not have to remember the syntax to create a secure string inline.</source>
+          <target state="translated">Agora, os usuários podem simplesmente chamar <ph id="ph1">`Reset-ContosoUserPassword`</ph> e não precisam se lembrar a sintaxe para criar um cadeia de caracteres segura embutida.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Step 4: Edit the Role Capability File</source>
+          <target state="translated">Etapa 4: Editar o arquivo de Capacidade de Função</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Role Capability Creation<ept id="p1">](./role-capabilities.md#role-capability-creation)</ept> section, you created a blank Role Capability file.</source>
+          <target state="translated">Na seção <bpt id="p1">[</bpt>Criação de Capacidade de Função<ept id="p1">](./role-capabilities.md#role-capability-creation)</ept>, você criou um arquivo de Capacidade de Função em branco.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>In this section, you will fill in the values in that file.</source>
+          <target state="translated">Nesta seção, você preencherá os valores nesse arquivo.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Start by opening the role capability file in PowerShell ISE.</source>
+          <target state="translated">Comece abrindo o arquivo de capacidade de função no ISE do PowerShell.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Update the file with the following changes:</source>
+          <target state="translated">Atualize o arquivo com as seguintes alterações:</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>There are a few things to note about the above:</source>
+          <target state="translated">Há algumas coisas a observar sobre o que foi indicado acima:</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>PowerShell will attempt to auto-load the modules needed for your Role Capability.</source>
+          <target state="translated">O PowerShell tentará carregar automaticamente os módulos necessários para a sua Capacidade de Função.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>You may need to explicitly list module names in the "ModulesToImport" field if you notice problems with a module not being autoloaded.</source>
+          <target state="translated">Você precisará listar explicitamente nomes de módulo no campo "ModulesToImport" se você encontrar problemas com um módulo que não está sendo carregado automaticamente.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>If you aren't sure if a command is a cmdlet or a function, run <ph id="ph1">`Get-Command`</ph> and look at the "CommandType" property</source>
+          <target state="translated">Se você não tiver certeza se um comando é uma função ou um cmdlet, execute <ph id="ph1">`Get-Command`</ph> e examine a propriedade "CommandType"</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The ValidatePattern allows you to use a regular expression to restrict parameter arguments if it is not easy to define a set of allowable values.</source>
+          <target state="translated">O ValidatePattern permite que você use uma expressão regular para restringir os argumentos do parâmetro se não for fácil de definir um conjunto de valores permitidos.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>You cannot define both a ValidatePattern and ValidateSet for a single parameter.</source>
+          <target state="translated">Você não pode definir um ValidatePattern e ValidateSet para um único parâmetro.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Step 5: Register a new Session Configuration</source>
+          <target state="translated">Etapa 5: Registrar uma nova Configuração de Sessão</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Next, you will create a new session configuration file that will expose your Role Capability to members of the "JEA_NonAdmin_HelpDesk" AD group.</source>
+          <target state="translated">Em seguida, você criará um novo arquivo de configuração de sessão que irá expor sua Capacidade de Função para os membros do grupo de AD "JEA_NonAdmin_HelpDesk".</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Start by creating and opening a new blank Session Configuration file in PowerShell ISE.</source>
+          <target state="translated">Comece criando e abrindo um novo arquivo de Configuração de Sessão em branco no ISE do PowerShell.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Modify the following fields in the PSSC file.</source>
+          <target state="translated">Modifique os campos a seguir no arquivo PSSC.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>If you are working in your own environment, you should replace "CONTOSO\JEA_NonAdmins_Helpdesk" with your own non-administrator user or group.</source>
+          <target state="translated">Se você estiver trabalhando em seu próprio ambiente, substitua "CONTOSO\JEA_NonAdmins_Helpdesk" por seu próprio usuário ou grupo não administrador.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Save and register the Session Configuration</source>
+          <target state="translated">Salve e registrar a Configuração de Sessão</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Test It Out!</source>
+          <target state="translated">Experimente!</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Get your non-administrator user credentials:</source>
+          <target state="translated">Obtenha suas credenciais de usuário não administrador:</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>If you followed the <bpt id="p1">[</bpt>Set Up Users and Groups<ept id="p1">](creating-a-domain-controller.md#set-up-users-and-groups)</ept> section, the credentials will be:</source>
+          <target state="translated">Se você acompanhou a seção <bpt id="p1">[</bpt>Configurar usuários e grupos<ept id="p1">](creating-a-domain-controller.md#set-up-users-and-groups)</ept>, as credenciais serão:</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Username = "HelpDeskUser"</source>
+          <target state="translated">Nome de usuário = "HelpDeskUser"</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Password = "pa$$w0rd"</source>
+          <target state="translated">Senha = "pa$$w0rd"</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Remote into the ADHelpdesk endpoint using the non-admin credential:</source>
+          <target state="translated">Conexão remota para o ponto de extremidade do Suporte Técnico de AD usando a credencial não administrativa:</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Use Set-ADUser to reset a user's title.</source>
+          <target state="translated">Use Set-ADUser para redefinir o título do usuário.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Verify that the title has changed.</source>
+          <target state="translated">Verifique se que o título foi alterado.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Now, use Add-ADGroupMember to add a user to the TestGroup.</source>
+          <target state="translated">Agora, use Add-ADGroupMember para adicionar um usuário ao TestGroup.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Note: make sure you've created the TestGroup beforehand.</source>
+          <target state="translated">Observação: verifique se você criou o TestGroup com antecedência.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Exit the session:</source>
+          <target state="translated">Sair da sessão:</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Key Concepts</source>
+          <target state="translated">Conceitos Principais</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>NoLanguage Mode<ept id="p1">**</ept>: When PowerShell is in "NoLanguage" mode, users may only run commands; they cannot use any language elements.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Modo NoLanguage<ept id="p1">**</ept>: quando o PowerShell está no modo "NoLanguage", os usuários somente podem executar comandos, mas não podem usar elementos de linguagem.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>For more information, run <ph id="ph1">`Get-Help about_Language_Modes`</ph>.</source>
+          <target state="translated">Para obter mais informações, execute <ph id="ph1">`Get-Help about_Language_Modes`</ph>.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>PowerShell Functions<ept id="p1">**</ept>: PowerShell functions are bits of PowerShell code that you can call by name.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Funções do PowerShell<ept id="p1">**</ept>: funções do PowerShell são partes do código do PowerShell que podem ser chamados por nome.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>For more information, run <ph id="ph1">`Get-Help about_Functions`</ph>.</source>
+          <target state="translated">Para obter mais informações, execute <ph id="ph1">`Get-Help about_Functions`</ph>.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>ValidateSet/ValidatePattern<ept id="p1">**</ept>: When exposing a command, you can restrict valid arguments for specific parameters.</source>
+          <target state="translated"><bpt id="p1">**</bpt>ValidateSet/ValidatePattern<ept id="p1">**</ept>: ao expor um comando, você pode restringir os argumentos válidos para os parâmetros específicos.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>A ValidateSet is a specific list of valid arguments.</source>
+          <target state="translated">Um ValidateSet é uma lista específica de argumentos válidos.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>A ValidatePattern is a regular expression that the arguments for that parameter must match.</source>
+          <target state="translated">Um ValidatePattern é uma expressão regular à qual os argumentos para esse parâmetro devem corresponder.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
