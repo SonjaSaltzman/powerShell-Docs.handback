@@ -1,24 +1,22 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 6
+ Total Files | 4
 
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [dsc\configurations.md](https://github.com/PowerShell/powerShell-Docs/blob/6c5f3d3321b7e50215cf58267e1864b7da827764/dsc/configurations.md) | HandedOffSuccess | [Details](#d84bb35ada3588367436e6f5e3c6696b90c3661b16)
- [gallery\psgallery\psgallery_scriptanalyzer_rule_profile.md](https://github.com/PowerShell/powerShell-Docs/blob/d37068e04a3544e823484e30d313624dbedd8ac9/gallery/psgallery/psgallery_scriptanalyzer_rule_profile.md) | HandedOffSuccess | [Details](#125d3c7fc9a4035f3b6788bd373a4816fcfde671126)
- [gallery\psget\module\modulewithpseditionsupport.md](https://github.com/PowerShell/powerShell-Docs/blob/99e3810d7ad5f6f4e06d9a26d2a8bd457981c80a/gallery/psget/module/modulewithpseditionsupport.md) | HandedOffSuccess | [Details](#6b6c748800a60c0f6df2508fcaffd16c6a04a2fc133)
- [jea\end-to-end---active-directory.md](https://github.com/PowerShell/powerShell-Docs/blob/33e92c7fd6039a1e3f5f784470c7bd0e43a7f030/jea/end-to-end---active-directory.md) | HandedOffSuccess | [Details](#e7ea3957ce3bbd3ce0fc072a82cd108606f05614175)
- [jea\README.md](https://github.com/PowerShell/powerShell-Docs/blob/8149f656f0aacbb23cacc8a1a9b45ed59866b92f/jea/README.md) | HandedOffSuccess | [Details](#7bb5635832e912b39ec387e8ac93ada24a434ff8182)
- [wmf\5.1\features-scenarios-cache\catalog-cmdlets.md](https://github.com/PowerShell/powerShell-Docs/blob/185f24df4d3fc163cb05e99bdd1bc5914a10ef48/wmf/5.1/features-scenarios-cache/catalog-cmdlets.md) | HandedOffSuccess | [Details](#1e422b30ab2471e73123badedf1f10631f9730ed409)
+ [gallery\psgallery\psgallery_status.md](https://github.com/PowerShell/powerShell-Docs/blob/4c5569985b009a34018e8329767f3ebed00140b0/gallery/psgallery/psgallery_status.md) | HandedOffSuccess | [Details](#a2c0b6a6ec4f10808734b38e9806cf3d0a730fbf128)
+ [gallery\psgallery\psgalleryint_status.md](https://github.com/PowerShell/powerShell-Docs/blob/4c5569985b009a34018e8329767f3ebed00140b0/gallery/psgallery/psgalleryint_status.md) | HandedOffSuccess | [Details](#41905ee6ef4c6b0afc41b1c68c84db27e19df2fd130)
+ [gallery\psget\module\modulewithpseditionsupport.md](https://github.com/PowerShell/powerShell-Docs/blob/93eb1276b5b9632d43ed4c4cc00f67d19c862bbe/gallery/psget/module/modulewithpseditionsupport.md) | HandedOffSuccess | [Details](#7b8d135889378be56d0d6d5b9dc89c55f2b1e68f135)
+ [gallery\TOC.md](https://github.com/PowerShell/powerShell-Docs/blob/737816b04d8bd53b003ac8060a6d2d55c8e57560/gallery/TOC.md) | HandedOffSuccess | [Details](#6b33f2d05724ff888f48219135f8d8b88ccb4bc7172)
 
 ## Item Details
-##### <a name='d84bb35ada3588367436e6f5e3c6696b90c3661b16'></a> Source: [dsc\configurations.md](https://github.com/PowerShell/powerShell-Docs/blob/6c5f3d3321b7e50215cf58267e1864b7da827764/dsc/configurations.md)
+##### <a name='a2c0b6a6ec4f10808734b38e9806cf3d0a730fbf128'></a> Source: [gallery\psgallery\psgallery_status.md](https://github.com/PowerShell/powerShell-Docs/blob/4c5569985b009a34018e8329767f3ebed00140b0/gallery/psgallery/psgallery_status.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [configurations.02626ddbf3a00f8ede56fdfd2e46a027800e75b6.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/c033ecdd2dcdcc8118f806394114a559dfb6fc77/ol-handoff/PowerShell/powerShell-Docs.de-de/live/configurations.02626ddbf3a00f8ede56fdfd2e46a027800e75b6.de-de.xlf)
-* Handoff Datetime: 2016-08-31 17:37:20
+* Handoff File: [psgallery_status.43e5d34bc9b2d2226db15076a08fe9fe163295bb.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/8605b67f61999b4e90125994c9098a2656c2471d/ol-handoff/PowerShell/powerShell-Docs.de-de/live/psgallery_status.43e5d34bc9b2d2226db15076a08fe9fe163295bb.de-de.xlf)
+* Handoff Datetime: 2016-09-13 19:07:30
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
@@ -26,11 +24,11 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='125d3c7fc9a4035f3b6788bd373a4816fcfde671126'></a> Source: [gallery\psgallery\psgallery_scriptanalyzer_rule_profile.md](https://github.com/PowerShell/powerShell-Docs/blob/d37068e04a3544e823484e30d313624dbedd8ac9/gallery/psgallery/psgallery_scriptanalyzer_rule_profile.md)
+##### <a name='41905ee6ef4c6b0afc41b1c68c84db27e19df2fd130'></a> Source: [gallery\psgallery\psgalleryint_status.md](https://github.com/PowerShell/powerShell-Docs/blob/4c5569985b009a34018e8329767f3ebed00140b0/gallery/psgallery/psgalleryint_status.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [psgallery_scriptanalyzer_rule_profile.98c3a6dcf8fe89c995556d884ceab6f6c6b3248b.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/c033ecdd2dcdcc8118f806394114a559dfb6fc77/ol-handoff/PowerShell/powerShell-Docs.de-de/live/psgallery_scriptanalyzer_rule_profile.98c3a6dcf8fe89c995556d884ceab6f6c6b3248b.de-de.xlf)
-* Handoff Datetime: 2016-08-31 17:37:20
+* Handoff File: [psgalleryint_status.9eaa96ce82dbb222fe7efca3f89ae756378ba02c.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/8605b67f61999b4e90125994c9098a2656c2471d/ol-handoff/PowerShell/powerShell-Docs.de-de/live/psgalleryint_status.9eaa96ce82dbb222fe7efca3f89ae756378ba02c.de-de.xlf)
+* Handoff Datetime: 2016-09-13 19:07:30
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
@@ -38,11 +36,11 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='6b6c748800a60c0f6df2508fcaffd16c6a04a2fc133'></a> Source: [gallery\psget\module\modulewithpseditionsupport.md](https://github.com/PowerShell/powerShell-Docs/blob/99e3810d7ad5f6f4e06d9a26d2a8bd457981c80a/gallery/psget/module/modulewithpseditionsupport.md)
+##### <a name='7b8d135889378be56d0d6d5b9dc89c55f2b1e68f135'></a> Source: [gallery\psget\module\modulewithpseditionsupport.md](https://github.com/PowerShell/powerShell-Docs/blob/93eb1276b5b9632d43ed4c4cc00f67d19c862bbe/gallery/psget/module/modulewithpseditionsupport.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [modulewithpseditionsupport.b09e891ddd53c39875bb5f6330848761bf1388ea.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/c033ecdd2dcdcc8118f806394114a559dfb6fc77/ol-handoff/PowerShell/powerShell-Docs.de-de/live/modulewithpseditionsupport.b09e891ddd53c39875bb5f6330848761bf1388ea.de-de.xlf)
-* Handoff Datetime: 2016-08-31 17:37:20
+* Handoff File: [modulewithpseditionsupport.b09e891ddd53c39875bb5f6330848761bf1388ea.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/8605b67f61999b4e90125994c9098a2656c2471d/ol-handoff/PowerShell/powerShell-Docs.de-de/live/modulewithpseditionsupport.b09e891ddd53c39875bb5f6330848761bf1388ea.de-de.xlf)
+* Handoff Datetime: 2016-09-13 19:07:30
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
@@ -50,35 +48,11 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='e7ea3957ce3bbd3ce0fc072a82cd108606f05614175'></a> Source: [jea\end-to-end---active-directory.md](https://github.com/PowerShell/powerShell-Docs/blob/33e92c7fd6039a1e3f5f784470c7bd0e43a7f030/jea/end-to-end---active-directory.md)
+##### <a name='6b33f2d05724ff888f48219135f8d8b88ccb4bc7172'></a> Source: [gallery\TOC.md](https://github.com/PowerShell/powerShell-Docs/blob/737816b04d8bd53b003ac8060a6d2d55c8e57560/gallery/TOC.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [end-to-end---active-directory.3ad98916a8ab304f831ad3b5b15c64e1b086b1f5.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/c033ecdd2dcdcc8118f806394114a559dfb6fc77/ol-handoff/PowerShell/powerShell-Docs.de-de/live/end-to-end---active-directory.3ad98916a8ab304f831ad3b5b15c64e1b086b1f5.de-de.xlf)
-* Handoff Datetime: 2016-08-31 17:37:20
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
-##### <a name='7bb5635832e912b39ec387e8ac93ada24a434ff8182'></a> Source: [jea\README.md](https://github.com/PowerShell/powerShell-Docs/blob/8149f656f0aacbb23cacc8a1a9b45ed59866b92f/jea/README.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [README.21b5f679157a942d8da32daf52be349e47cf03ae.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/c033ecdd2dcdcc8118f806394114a559dfb6fc77/ol-handoff/PowerShell/powerShell-Docs.de-de/live/README.21b5f679157a942d8da32daf52be349e47cf03ae.de-de.xlf)
-* Handoff Datetime: 2016-08-31 17:37:20
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
-##### <a name='1e422b30ab2471e73123badedf1f10631f9730ed409'></a> Source: [wmf\5.1\features-scenarios-cache\catalog-cmdlets.md](https://github.com/PowerShell/powerShell-Docs/blob/185f24df4d3fc163cb05e99bdd1bc5914a10ef48/wmf/5.1/features-scenarios-cache/catalog-cmdlets.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [catalog-cmdlets.3fb2b42ac619c6fd99ffe4114805b65c71476b3b.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/c033ecdd2dcdcc8118f806394114a559dfb6fc77/ol-handoff/PowerShell/powerShell-Docs.de-de/live/catalog-cmdlets.3fb2b42ac619c6fd99ffe4114805b65c71476b3b.de-de.xlf)
-* Handoff Datetime: 2016-08-31 17:37:20
+* Handoff File: [TOC.8c64df72d95d4bd53637941319526dd80056a223.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/8605b67f61999b4e90125994c9098a2656c2471d/ol-handoff/PowerShell/powerShell-Docs.de-de/live/TOC.8c64df72d95d4bd53637941319526dd80056a223.de-de.xlf)
+* Handoff Datetime: 2016-09-13 19:07:30
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
