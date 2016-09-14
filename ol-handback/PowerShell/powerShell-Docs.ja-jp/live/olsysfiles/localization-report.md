@@ -698,6 +698,8 @@
 * Archive Datetime: 2016-09-06 13:07:00
 * Handback File: [configurations.02626ddbf3a00f8ede56fdfd2e46a027800e75b6.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/fd0ea660630326024c7d42454c6fb77ec310281d/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/configurations.02626ddbf3a00f8ede56fdfd2e46a027800e75b6.ja-jp.xlf)
 * Handback Datetime: 2016-09-14 18:01:26
+* Bilingual File: [configurations.02626ddbf3a00f8ede56fdfd2e46a027800e75b6.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/fd0ea660630326024c7d42454c6fb77ec310281d/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/configurations.02626ddbf3a00f8ede56fdfd2e46a027800e75b6.ja-jp.xlf)
+* Bilingual Datetime: 2016-09-14 18:02:24
 * [Back to Top](#report-top)
 
 ##### <a name='f4c64d3603fd01f29a63f8b180057714bf3d119717'></a> Source: [dsc\crossNodeDependencies.md](https://github.com/PowerShell/powerShell-Docs/blob/04aa6292dee991060669e1ac770cf98cbba41bfc/dsc/crossNodeDependencies.md)
@@ -2018,6 +2020,8 @@
 * Archive Datetime: 2016-09-06 13:07:00
 * Handback File: [psgallery_scriptanalyzer_rule_profile.98c3a6dcf8fe89c995556d884ceab6f6c6b3248b.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/fd0ea660630326024c7d42454c6fb77ec310281d/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/psgallery_scriptanalyzer_rule_profile.98c3a6dcf8fe89c995556d884ceab6f6c6b3248b.ja-jp.xlf)
 * Handback Datetime: 2016-09-14 18:01:26
+* Bilingual File: [psgallery_scriptanalyzer_rule_profile.98c3a6dcf8fe89c995556d884ceab6f6c6b3248b.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/fd0ea660630326024c7d42454c6fb77ec310281d/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/psgallery_scriptanalyzer_rule_profile.98c3a6dcf8fe89c995556d884ceab6f6c6b3248b.ja-jp.xlf)
+* Bilingual Datetime: 2016-09-14 18:02:24
 * [Back to Top](#report-top)
 
 ##### <a name='9a858cfc303cac6f9f2f23c01c1d8a753a69dc7c127'></a> Source: [gallery\psgallery\psgallery_search_syntax.md](https://github.com/PowerShell/powerShell-Docs/blob/316caf861c7aff7e7a587fe2a8065933c0b67404/gallery/psgallery/psgallery_search_syntax.md)
@@ -2129,6 +2133,8 @@
 * Current Target File: [gallery\psget\module\modulewithpseditionsupport.md](https://github.com/PowerShell/powerShell-Docs.ja-jp/blob/457b7f3d2252941943e69ae31e1f22049a397376/gallery/psget/module/modulewithpseditionsupport.md)
 * Current Handback File: [modulewithpseditionsupport.b09e891ddd53c39875bb5f6330848761bf1388ea.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/fd0ea660630326024c7d42454c6fb77ec310281d/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/modulewithpseditionsupport.b09e891ddd53c39875bb5f6330848761bf1388ea.ja-jp.xlf)
 * Current Handback Datetime: 2016-09-14 18:01:26
+* Bilingual File: [modulewithpseditionsupport.b09e891ddd53c39875bb5f6330848761bf1388ea.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/fd0ea660630326024c7d42454c6fb77ec310281d/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/modulewithpseditionsupport.b09e891ddd53c39875bb5f6330848761bf1388ea.ja-jp.xlf)
+* Bilingual Datetime: 2016-09-14 18:02:24
 * [Back to Top](#report-top)
 
 ##### <a name='b28bce839403217ece4edd67d984a282b60d164d136'></a> Source: [gallery\psget\module\psget_find-command.md](https://github.com/PowerShell/powerShell-Docs/blob/316caf861c7aff7e7a587fe2a8065933c0b67404/gallery/psget/module/psget_find-command.md)
@@ -2633,6 +2639,8 @@
 * Archive Datetime: 2016-09-06 13:07:00
 * Handback File: [end-to-end---active-directory.3ad98916a8ab304f831ad3b5b15c64e1b086b1f5.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/fd0ea660630326024c7d42454c6fb77ec310281d/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/end-to-end---active-directory.3ad98916a8ab304f831ad3b5b15c64e1b086b1f5.ja-jp.xlf)
 * Handback Datetime: 2016-09-14 18:01:26
+* Bilingual File: [end-to-end---active-directory.3ad98916a8ab304f831ad3b5b15c64e1b086b1f5.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/fd0ea660630326024c7d42454c6fb77ec310281d/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/end-to-end---active-directory.3ad98916a8ab304f831ad3b5b15c64e1b086b1f5.ja-jp.xlf)
+* Bilingual Datetime: 2016-09-14 18:02:24
 * [Back to Top](#report-top)
 
 ##### <a name='865258c0b403d4e7979d7ee32d3f87b63a349f08178'></a> Source: [jea\index.md](https://github.com/PowerShell/powerShell-Docs/blob/ebad81c5a513c0a0a43f1706a214a4f015f786b3/jea/index.md)
@@ -2717,6 +2725,8 @@
 * Archive Datetime: 2016-09-06 13:07:00
 * Handback File: [README.21b5f679157a942d8da32daf52be349e47cf03ae.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/fd0ea660630326024c7d42454c6fb77ec310281d/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/README.21b5f679157a942d8da32daf52be349e47cf03ae.ja-jp.xlf)
 * Handback Datetime: 2016-09-14 18:01:26
+* Bilingual File: [README.21b5f679157a942d8da32daf52be349e47cf03ae.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/fd0ea660630326024c7d42454c6fb77ec310281d/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/README.21b5f679157a942d8da32daf52be349e47cf03ae.ja-jp.xlf)
+* Bilingual Datetime: 2016-09-14 18:02:24
 * [Back to Top](#report-top)
 
 ##### <a name='acd2cfbd038250a26236c875d0e8b03a32cd84f9185'></a> Source: [jea\remake-the-demo-endpoint.md](https://github.com/PowerShell/powerShell-Docs/blob/d20ea8418cb7389d756de94ea752cf604b8d07af/jea/remake-the-demo-endpoint.md)
