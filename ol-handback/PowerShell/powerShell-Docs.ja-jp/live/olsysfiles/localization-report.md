@@ -7,8 +7,8 @@
 [ Handoff Failed Files ](#handoff-failed-list)| 0
 [ Handoff Success Files ](#handoff-success-list)| 4
 [ Archive Failed Files ](#archive-failed-list)| 0
-[ Archive Success Files ](#archive-success-list)| 325
-[ Handback Failed Files ](#handback-failed-list)| 0
+[ Archive Success Files ](#archive-success-list)| 324
+[ Handback Failed Files ](#handback-failed-list)| 1
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 87
 [ Ignored Files ](#ignored-list)| 40
@@ -326,7 +326,6 @@
  [wmf\5.1\DSC-improvements.md](https://github.com/PowerShell/powerShell-Docs/blob/dc03d33dc5972cea1111702eae63c54894d6b34a/wmf/5.1/DSC-improvements.md) | ArchivedSuccess | [Details](#a76c9ae7117e71833955a67ad8ec06fa7d0ed419408)
  [wmf\5.1\engine-improvements.md](https://github.com/PowerShell/powerShell-Docs/blob/45182af45b2d1510b7ad8e9f2ac35fa5346ddb66/wmf/5.1/engine-improvements.md) | ArchivedSuccess | [Details](#bb7efc55b1c948c349aa778b700e5cb1277b9762409)
  [wmf\5.1\features-scenarios-cache\analysis_cache.md](https://github.com/PowerShell/powerShell-Docs/blob/9ce218a2807dd7b1c69f81efdbd6132321e6a815/wmf/5.1/features-scenarios-cache/analysis_cache.md) | ArchivedSuccess | [Details](#3e5d5e93231b772b65d1913a4dbafc86d4edb950410)
- [wmf\5.1\features-scenarios-cache\catalog-cmdlets.md](https://github.com/PowerShell/powerShell-Docs/blob/185f24df4d3fc163cb05e99bdd1bc5914a10ef48/wmf/5.1/features-scenarios-cache/catalog-cmdlets.md) | ArchivedSuccess | [Details](#1e422b30ab2471e73123badedf1f10631f9730ed411)
  [wmf\5.1\features-scenarios-cache\console-enhancements.md](https://github.com/PowerShell/powerShell-Docs/blob/9ce218a2807dd7b1c69f81efdbd6132321e6a815/wmf/5.1/features-scenarios-cache/console-enhancements.md) | ArchivedSuccess | [Details](#e6653a02421e3aec3910a70c64f7cf7cecd696ab412)
  [wmf\5.1\features-scenarios-cache\DSCPartialConfigNaming.md](https://github.com/PowerShell/powerShell-Docs/blob/dfa487a11528e26faf5b0e8637b75983abe0b1c8/wmf/5.1/features-scenarios-cache/DSCPartialConfigNaming.md) | ArchivedSuccess | [Details](#368c26766961e760fd2de8c99057121bea076158414)
  [wmf\5.1\features-scenarios-cache\DSCRunAsCredentialCompositeResources.md](https://github.com/PowerShell/powerShell-Docs/blob/e39aa2e5cbda0c83e24e21c4459d957d8baaff25/wmf/5.1/features-scenarios-cache/DSCRunAsCredentialCompositeResources.md) | ArchivedSuccess | [Details](#7505e063fad84999af786f2af0602d204ed973b7415)
@@ -355,6 +354,9 @@
  [wmf\TOC.md](https://github.com/PowerShell/powerShell-Docs/blob/9e62889b5928839444dbea345e318a8bf75a1694/wmf/TOC.md) | ArchivedSuccess | [Details](#274c6dcc36b3baa64d01b5518444c7de3dcc00ee455)
 
 ## <a name='handback-failed-list'></a> Handback Failed File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [wmf\5.1\features-scenarios-cache\catalog-cmdlets.md](https://github.com/PowerShell/powerShell-Docs/blob/185f24df4d3fc163cb05e99bdd1bc5914a10ef48/wmf/5.1/features-scenarios-cache/catalog-cmdlets.md) | HandedBackFailed | [Details](#1e422b30ab2471e73123badedf1f10631f9730ed411)
 
 ## <a name='outofsync-handback-success-list'></a> Out Of Sync Handback Success File List
 
@@ -5601,7 +5603,7 @@
 * [Back to Top](#report-top)
 
 ##### <a name='1e422b30ab2471e73123badedf1f10631f9730ed411'></a> Source: [wmf\5.1\features-scenarios-cache\catalog-cmdlets.md](https://github.com/PowerShell/powerShell-Docs/blob/185f24df4d3fc163cb05e99bdd1bc5914a10ef48/wmf/5.1/features-scenarios-cache/catalog-cmdlets.md)
-* Status: ArchivedSuccess
+* Status: HandedBackFailed
 * Target File: 
 * Handoff File: [catalog-cmdlets.3fb2b42ac619c6fd99ffe4114805b65c71476b3b.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/85080e68ad9b3b19d414d59cd9eed7fe00743831/ol-handoff/PowerShell/powerShell-Docs.ja-jp/live/catalog-cmdlets.3fb2b42ac619c6fd99ffe4114805b65c71476b3b.ja-jp.xlf)
 * Handoff Datetime: 2016-08-31 17:37:09
@@ -5609,7 +5611,8 @@
 * Archive File: [catalog-cmdlets.3fb2b42ac619c6fd99ffe4114805b65c71476b3b.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/66cc8964c9244d02d371268b205685c0724d95a4/ol-archive/PowerShell/powerShell-Docs.ja-jp/live/catalog-cmdlets.3fb2b42ac619c6fd99ffe4114805b65c71476b3b.ja-jp.xlf)
 * Archive Datetime: 2016-09-06 13:07:00
 * Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
+* Handback Datetime: 2016-09-14 17:31:31
+* Handback Error: [handback_transform_failed](#1e422b30ab2471e73123badedf1f10631f9730ed411handback_transform_failed)
 * [Back to Top](#report-top)
 
 ##### <a name='e6653a02421e3aec3910a70c64f7cf7cecd696ab412'></a> Source: [wmf\5.1\features-scenarios-cache\console-enhancements.md](https://github.com/PowerShell/powerShell-Docs/blob/9ce218a2807dd7b1c69f81efdbd6132321e6a815/wmf/5.1/features-scenarios-cache/console-enhancements.md)
@@ -6142,5 +6145,11 @@
 
 
 ## Error Details
+##### <a name='1e422b30ab2471e73123badedf1f10631f9730ed411handback_transform_failed'></a> Source: [wmf\5.1\features-scenarios-cache\catalog-cmdlets.md](#1e422b30ab2471e73123badedf1f10631f9730ed411)
+* Error Code: handback_transform_failed
+* Error Message: Handback file: C:\ol\master\PSD.handback\7f42c4\ol-handback\PowerShell\powerShell-Docs.ja-jp\live\catalog-cmdlets.3fb2b42ac619c6fd99ffe4114805b65c71476b3b.ja-jp.xlf failed.
+* Retriable: False
+* Error Details: {"internal_error_code":"handback_transform_failed","internal_error_message":"Handback file: C:\\ol\\master\\PSD.handback\\7f42c4\\ol-handback\\PowerShell\\powerShell-Docs.ja-jp\\live\\catalog-cmdlets.3fb2b42ac619c6fd99ffe4114805b65c71476b3b.ja-jp.xlf failed.","internal_error_retriable":false,"exception_message":"Fail to transform from xliff to markdown with invalid metadata: Invalid yaml header when parsing:\nタイトル: カタログ コマンドレット作成者: jaimeo 共同作成者: ?\nError message: (Line: 1, Col: 22, Idx: 21) - (Line: 1, Col: 22, Idx: 21): Mapping values are not allowed in this context.","exception_type":"System.IO.InvalidDataException","stack_trace":"   at Microsoft.OpenLocalization.Transformer.TransformerClient.XliffToMarkdown(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\TransformerClient.cs:line 119\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 92\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass7_0.<GetHandbackFiles>b__1(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 420","extended_information":null}
+
 
 Generated by OpenLocalization.
