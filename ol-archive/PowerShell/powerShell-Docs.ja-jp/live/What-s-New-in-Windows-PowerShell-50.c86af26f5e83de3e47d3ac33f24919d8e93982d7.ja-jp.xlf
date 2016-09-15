@@ -598,10 +598,10 @@
           <target state="translated">構成ドキュメントの複数のフラグメントをノードが受け取るには、想定されるフラグメントを指定するように、そのノードのローカル構成マネージャーをまず設定する必要があります</target>       </trans-unit>
         <trans-unit id="296" translate="yes" xml:space="preserve">
           <source>Cross-computer synchronization is new in DSC in Windows PowerShell 5.0.</source>
-          <target state="translated">クロス コンピューターの同期は、Windows PowerShell 5.0 の DSC での新機能です。</target>       </trans-unit>
+          <target state="translated">コンピューター間の同期は、Windows PowerShell 5.0 の DSC での新機能です。</target>       </trans-unit>
         <trans-unit id="297" translate="yes" xml:space="preserve">
           <source>By using the built-in WaitFor<ph id="ph1">\*</ph> resources (<bpt id="p1">**</bpt>WaitForAll<ept id="p1">**</ept>, <bpt id="p2">**</bpt>WaitForAny<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>WaitForSome<ept id="p3">**</ept>), you can now specify dependencies across computers during configuration runs, without external orchestrations.</source>
-          <target state="translated">組み込みの WaitFor<ph id="ph1">\*</ph> リソース (<bpt id="p1">**</bpt>WaitForAll<ept id="p1">**</ept>、<bpt id="p2">**</bpt>WaitForAny<ept id="p2">**</ept>、および <bpt id="p3">**</bpt>WaitForSome<ept id="p3">**</ept>) を使用すると、コンピューター間の依存関係を外部の指揮なしで構成の実行中に指定できます。</target>       </trans-unit>
+          <target state="translated">組み込みの WaitFor<ph id="ph1">\*</ph> リソース (<bpt id="p1">**</bpt>WaitForAll<ept id="p1">**</ept>、<bpt id="p2">**</bpt>WaitForAny<ept id="p2">**</ept>、および <bpt id="p3">**</bpt>WaitForSome<ept id="p3">**</ept>) を使用すると、コンピューター間の依存関係を外部のオーケストレーションなしで構成の実行中に指定できます。</target>       </trans-unit>
         <trans-unit id="298" translate="yes" xml:space="preserve">
           <source>These resources provide node-to-node synchronization by using CIM connections over the WS-Man protocol.</source>
           <target state="translated">これらのリソースは、WS-Man プロトコルで CIM 接続を使用して、ノード間の同期を提供します。</target>       </trans-unit>
@@ -628,10 +628,10 @@
           <target state="translated">新しい Compare-DscConfiguration コマンドレットは、指定した構成を 1 つ以上のターゲット ノードの実際の状態と比較します。</target>       </trans-unit>
         <trans-unit id="306" translate="yes" xml:space="preserve">
           <source>A new Publish-DscConfiguration cmdlet copies a configuration MOF file to a target node, but does not apply the configuration.</source>
-          <target state="translated">新しい Publish-DscConfiguration コマンドレットでは、構成の MOF ファイルをターゲット ノードにコピーしますが、その構成は適用されません。</target>       </trans-unit>
+          <target state="translated">新しい Publish-DscConfiguration コマンドレットでは、構成の MOF ファイルをターゲット ノードにコピーしますが、その構成は適用しません。</target>       </trans-unit>
         <trans-unit id="307" translate="yes" xml:space="preserve">
           <source>The configuration is applied during the next consistency pass, or when you run the Update-DscConfiguration cmdlet.</source>
-          <target state="translated">この構成が適用されるのは、次の一貫性パス中、または Update-DscConfiguration コマンドレットの実行時です。</target>       </trans-unit>
+          <target state="translated">この構成が適用されるのは、次の整合性パス中、または Update-DscConfiguration コマンドレットの実行時です。</target>       </trans-unit>
         <trans-unit id="308" translate="yes" xml:space="preserve">
           <source>A new Test-DscConfiguration cmdlet lets you verify that a resulting configuration matches the desired configuration, returning either True if the configuration matches the desired configuration, or False if the actual configuration does not match the desired configuration.</source>
           <target state="translated">新しい Test-DscConfiguration コマンドレットを使用すると、結果の構成が必要な構成と一致することを確認して、構成が必要な構成と一致する場合は True を、実際の構成が必要な構成と一致しない場合は False を返すようにできます。</target>       </trans-unit>
@@ -658,7 +658,7 @@
           <target state="translated">Windows PowerShell ISE でリモート スクリプトをデバッグできるようになりました。</target>       </trans-unit>
         <trans-unit id="316" translate="yes" xml:space="preserve">
           <source>A new menu command, <bpt id="p1">**</bpt>Break All<ept id="p1">**</ept> (Ctrl+B), breaks into the debugger for both local and remotely-running scripts.</source>
-          <target state="translated">新しいメニュー コマンド、<bpt id="p1">**</bpt>Break All<ept id="p1">**</ept> (Ctrl+B) は、ローカルとリモートの実行中の両方のスクリプトに対してデバッガーを中断します。</target>       </trans-unit>
+          <target state="translated">新しいメニュー コマンド、<bpt id="p1">**</bpt>Break All<ept id="p1">**</ept> (Ctrl+B) は、ローカルとリモートで実行中の両方のスクリプトを中断し、デバッガーに移ります。</target>       </trans-unit>
         <trans-unit id="317" translate="yes" xml:space="preserve">
           <source>New features in Windows PowerShell Web Services (Management OData IIS Extension)</source>
           <target state="translated">Windows PowerShell Web サービス (Management OData IIS 拡張機能) の新機能</target>       </trans-unit>
@@ -685,7 +685,7 @@
           <target state="translated">Windows PowerShell 4.0 には下位互換性があります。</target>       </trans-unit>
         <trans-unit id="325" translate="yes" xml:space="preserve">
           <source>Cmdlets, providers, modules, snap-ins, scripts, functions, and profiles that were designed for Windows PowerShell 3.0 and Windows PowerShell 2.0 work in Windows PowerShell 4.0 without changes.</source>
-          <target state="translated">Windows PowerShell 3.0 および Windows PowerShell 2.0 用に設計されたコマンドレット、プロバイダー、モジュール、スナップイン、スクリプト、関数、およびプロファイルは、全般的に変更なしで Windows PowerShell 4.0 でも動作します。</target>       </trans-unit>
+          <target state="translated">Windows PowerShell 3.0 および Windows PowerShell 2.0 用に設計されたコマンドレット、プロバイダー、モジュール、スナップイン、スクリプト、関数、およびプロファイルは、変更なしで Windows PowerShell 4.0 でも動作します。</target>       </trans-unit>
         <trans-unit id="326" translate="yes" xml:space="preserve">
           <source>Windows PowerShell 4.0 is installed by default on WindowsÂ® 8.1 and Windows Server 2012 R2.</source>
           <target state="translated">Windows PowerShell 4.0 は、既定で WindowsÂ® 8.1 と Windows Server 2012 R2 にインストールされています。</target>       </trans-unit>
@@ -787,7 +787,7 @@
           <target state="translated">Passthru パラメーターを使用すると、実行するコマンドによって作成または変更されるすべてのオブジェクトが表示されます。</target>       </trans-unit>
         <trans-unit id="359" translate="yes" xml:space="preserve">
           <source>The parameter names for specifying a workgroup in the <bpt id="p1">**</bpt>Add-Computer<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Remove-Computer<ept id="p2">**</ept> cmdlets are now consistent.</source>
-          <target state="translated"><bpt id="p1">**</bpt>Add-Computer<ept id="p1">**</ept> および <bpt id="p2">**</bpt>Remove-Computer<ept id="p2">**</ept> コマンドレットにワークグループを指定するパラメーターの名前が一貫性のあるものになりました。</target>       </trans-unit>
+          <target state="translated"><bpt id="p1">**</bpt>Add-Computer<ept id="p1">**</ept> および <bpt id="p2">**</bpt>Remove-Computer<ept id="p2">**</ept> コマンドレットにワークグループを指定するパラメーターの名前が整合性のあるものになりました。</target>       </trans-unit>
         <trans-unit id="360" translate="yes" xml:space="preserve">
           <source>Both cmdlets now use the parameter <bpt id="p1">**</bpt>WorkgroupName<ept id="p1">**</ept>.</source>
           <target state="translated">どちらのコマンドレットでも、パラメーター <bpt id="p1">**</bpt>WorkgroupName<ept id="p1">**</ept> を使用します。</target>       </trans-unit>
@@ -844,22 +844,22 @@
           <target state="translated">Windows PowerShell ワークフローの新機能</target>       </trans-unit>
         <trans-unit id="378" translate="yes" xml:space="preserve">
           <source>Support has been added for a new <bpt id="p1">**</bpt>PipelineVariable<ept id="p1">**</ept> common parameter in the context of iterative pipelines, such as those used by System Center Orchestrator; that is, pipelines that run commands simply left-to-right, as opposed to interspersed running by using streaming.</source>
-          <target state="translated">反復パイプラインのコンテキストで、新しい <bpt id="p1">**</bpt>PipelineVariable<ept id="p1">**</ept> 共通パラメーターのサポートが追加されました。これは、System Center Orchestrator などの、ストリーミングを使用することによって散発的に実行するのではなく、コマンドを単純に左から右へと実行するパイプラインで使用します。</target>       </trans-unit>
+          <target state="translated">System Center Orchestrator などで使用されている反復パイプラインのコンテキストで、新しい <bpt id="p1">**</bpt>PipelineVariable<ept id="p1">**</ept> 共通パラメーターのサポートが追加されました。反復パイプラインとは、ストリーミングを使用することによって散発的に実行するのではなく、コマンドを単純に左から右へと実行するパイプラインです。</target>       </trans-unit>
         <trans-unit id="379" translate="yes" xml:space="preserve">
           <source>Parameter binding has been significantly enhanced to work outside of tab completion scenarios, such as with commands that do not exist in the current runspace.</source>
           <target state="translated">パラメーターのバインドが大幅に拡張され、Tab 補完のシナリオを越えて、たとえば、現在の実行空間に存在しないコマンドでも機能するようになりました。</target>       </trans-unit>
         <trans-unit id="380" translate="yes" xml:space="preserve">
           <source>Support for custom container activities has been added to Windows PowerShell Workflow.</source>
-          <target state="translated">Windows PowerShell ワークフローにカスタム コンテナー活動のサポートが追加されました。</target>       </trans-unit>
+          <target state="translated">Windows PowerShell ワークフローにカスタム コンテナー アクティビティのサポートが追加されました。</target>       </trans-unit>
         <trans-unit id="381" translate="yes" xml:space="preserve">
           <source>If an activity parameter is of the types <bpt id="p1">**</bpt>Activity<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Activity<ph id="ph1">\[</ph>]<ept id="p2">**</ept>—or is a generic collection of activities—and the user has supplied a script block as an argument, then Windows PowerShell Workflow converts the script block to XAML, as with normal Windows PowerShell script-to-workflow compilation.</source>
-          <target state="translated">活動のパラメーターの型が <bpt id="p1">**</bpt>Activity<ept id="p1">**</ept> または <bpt id="p2">**</bpt>Activity<ph id="ph1">\[</ph>]<ept id="p2">**</ept> であるか、活動のジェネリック コレクションである場合に、ユーザーが引数としてスクリプト ブロックを提供すると、Windows PowerShell ワークフローはそのスクリプト ブロックを通常の Windows PowerShell によるスクリプトからワークフローへのコンパイルと同様に XAML に変換します。</target>       </trans-unit>
+          <target state="translated">アクティビティのパラメーターの型が <bpt id="p1">**</bpt>Activity<ept id="p1">**</ept> または <bpt id="p2">**</bpt>Activity<ph id="ph1">\[</ph>]<ept id="p2">**</ept> であるか、アクティビティのジェネリック コレクションである場合に、ユーザーが引数としてスクリプト ブロックを提供すると、Windows PowerShell ワークフローはそのスクリプト ブロックを通常の Windows PowerShell によるスクリプトからワークフローへのコンパイルと同様に XAML に変換します。</target>       </trans-unit>
         <trans-unit id="382" translate="yes" xml:space="preserve">
           <source>After a crash, Windows PowerShell Workflow automatically reconnects to managed nodes.</source>
           <target state="translated">クラッシュの後、Windows PowerShell ワークフローは自動的に管理対象ノードに再接続します。</target>       </trans-unit>
         <trans-unit id="383" translate="yes" xml:space="preserve">
           <source>You can now throttle <bpt id="p1">**</bpt>Foreach -Parallel<ept id="p1">**</ept> activity statements by using the <bpt id="p2">**</bpt>ThrottleLimit<ept id="p2">**</ept> property.</source>
-          <target state="translated"><bpt id="p1">**</bpt>Foreach-Parallel<ept id="p1">**</ept> 活動ステートメントのスロットルを、<bpt id="p2">**</bpt>ThrottleLimit<ept id="p2">**</ept> プロパティを使用して調整できるようになりました。</target>       </trans-unit>
+          <target state="translated"><bpt id="p1">**</bpt>Foreach-Parallel<ept id="p1">**</ept> アクティビティ ステートメントのスロットルを、<bpt id="p2">**</bpt>ThrottleLimit<ept id="p2">**</ept> プロパティを使用して調整できるようになりました。</target>       </trans-unit>
         <trans-unit id="384" translate="yes" xml:space="preserve">
           <source>The <bpt id="p1">**</bpt>ErrorAction<ept id="p1">**</ept> common parameter has a new valid value, <bpt id="p2">**</bpt>Suspend<ept id="p2">**</ept>, that is exclusively for workflows.</source>
           <target state="translated"><bpt id="p1">**</bpt>ErrorAction<ept id="p1">**</ept> 共通パラメーターに新しい有効値 <bpt id="p2">**</bpt>Suspend<ept id="p2">**</ept> が追加されました。これはワークフロー専用です。</target>       </trans-unit>
@@ -1123,7 +1123,7 @@
           <target state="translated"><bpt id="p1">[</bpt>Get-Command<ept id="p1">](https://technet.microsoft.com/en-us/library/59c6d302-6e8c-48b7-a6f6-f0172df936ad)</ept> コマンドレットはワークフロー コマンドを取得し、<bpt id="p2">[</bpt>Get-help<ept id="p2">](https://technet.microsoft.com/en-us/library/1f46eeb4-49d7-4bec-bb29-395d9b42f54a)</ept> コマンドレットは、ワークフローのヘルプを取得します。</target>       </trans-unit>
         <trans-unit id="471" translate="yes" xml:space="preserve">
           <source>Workflows are sequences of multicomputer management activities that are long-running, repeatable, frequent, parallelizable, interruptible, suspendable, and restartable.</source>
-          <target state="translated">ワークフローは、複数のコンピューターを管理する活動のシーケンスです。これは、実行時間が長く、反復可能な、頻繁に実行できるシーケンスで、並列実行、割り込み、中断、および再起動が可能です。</target>       </trans-unit>
+          <target state="translated">ワークフローは、複数のコンピューターを管理するアクティビティのシーケンスです。これは、実行時間が長く、反復可能な、頻繁に実行できるシーケンスで、並列実行、割り込み、中断、および再起動が可能です。</target>       </trans-unit>
         <trans-unit id="472" translate="yes" xml:space="preserve">
           <source>Workflows can be resumed from an intentional or accidental interruption, such as a network outage, a Windows restart, or a power failure.</source>
           <target state="translated">ワークフローは、ネットワークの停止、Windows の再起動、電源障害などの意図的または偶発的な割り込みから再開できます。</target>       </trans-unit>
@@ -1132,7 +1132,7 @@
           <target state="translated">また、ワークフローは移植可能で、XAML ファイルとしてエクスポートしたり、XAML ファイルからインポートしたりできます。</target>       </trans-unit>
         <trans-unit id="474" translate="yes" xml:space="preserve">
           <source>You can write custom session configurations that allow workflow or activities in a workflow to be run by delegated or subordinate users.</source>
-          <target state="translated">カスタム セッション構成を記述することにより、委任されたユーザーまたは下位ユーザーがワークフローまたはワークフロー内の活動を実行可能にすることができます。</target>       </trans-unit>
+          <target state="translated">カスタム セッション構成を記述することにより、委任されたユーザーまたは下位ユーザーがワークフローまたはワークフロー内のアクティビティを実行可能にすることができます。</target>       </trans-unit>
         <trans-unit id="475" translate="yes" xml:space="preserve">
           <source>The following are the benefits of Windows PowerShell Workflow</source>
           <target state="translated">Windows PowerShell ワークフローの利点を次に示します。</target>       </trans-unit>
@@ -1144,7 +1144,7 @@
           <target state="translated"><bpt id="p1">**</bpt>実行時間の長いタスクをリモート監視します<ept id="p1">**</ept>。</target>       </trans-unit>
         <trans-unit id="478" translate="yes" xml:space="preserve">
           <source>Status and progress of activities are visible at any time.</source>
-          <target state="translated">活動の状態と進行状況をいつでも表示できます。</target>       </trans-unit>
+          <target state="translated">アクティビティの状態と進行状況をいつでも表示できます。</target>       </trans-unit>
         <trans-unit id="479" translate="yes" xml:space="preserve">
           <source>Multicomputer management.</source>
           <target state="translated">複数コンピューターの管理。</target>       </trans-unit>
@@ -1177,7 +1177,7 @@
           <target state="translated">ワークフローの実行を中断した後、最後の永続化ポイントからワークフローを再開できます。</target>       </trans-unit>
         <trans-unit id="489" translate="yes" xml:space="preserve">
           <source>Workflow authors can designate specific activities to be re-run in case of failure on one or more managed nodes.</source>
-          <target state="translated">ワークフローの作成者は、1 つまたは複数の管理対象ノードで障害が発生した時に再実行する特定の活動を指定できます。</target>       </trans-unit>
+          <target state="translated">ワークフローの作成者は、1 つまたは複数の管理対象ノードで障害が発生した時に再実行する特定のアクティビティを指定できます。</target>       </trans-unit>
         <trans-unit id="490" translate="yes" xml:space="preserve">
           <source>Ability to disconnect, reconnect, and run in disconnected sessions.</source>
           <target state="translated">切断、再接続、切断されたセッションでの実行が可能。</target>       </trans-unit>
