@@ -1,89 +1,26 @@
 # <a name='report-top'></a> Localization Bilingual Report
 
 ## Summary
- Total Files | 5
+ Total Files | 1
 
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [dsc\configurations.md](https://github.com/PowerShell/powerShell-Docs/blob/6c5f3d3321b7e50215cf58267e1864b7da827764/dsc/configurations.md) | InSyncHandedBackSuccess | [Details](#d84bb35ada3588367436e6f5e3c6696b90c3661b16)
- [gallery\psgallery\psgallery_scriptanalyzer_rule_profile.md](https://github.com/PowerShell/powerShell-Docs/blob/d37068e04a3544e823484e30d313624dbedd8ac9/gallery/psgallery/psgallery_scriptanalyzer_rule_profile.md) | InSyncHandedBackSuccess | [Details](#125d3c7fc9a4035f3b6788bd373a4816fcfde671126)
- [gallery\psget\module\modulewithpseditionsupport.md](https://github.com/PowerShell/powerShell-Docs/blob/93eb1276b5b9632d43ed4c4cc00f67d19c862bbe/gallery/psget/module/modulewithpseditionsupport.md) | HandedOffSuccess | [Details](#7b8d135889378be56d0d6d5b9dc89c55f2b1e68f135)
- [jea\end-to-end---active-directory.md](https://github.com/PowerShell/powerShell-Docs/blob/33e92c7fd6039a1e3f5f784470c7bd0e43a7f030/jea/end-to-end---active-directory.md) | InSyncHandedBackSuccess | [Details](#e7ea3957ce3bbd3ce0fc072a82cd108606f05614177)
- [jea\README.md](https://github.com/PowerShell/powerShell-Docs/blob/8149f656f0aacbb23cacc8a1a9b45ed59866b92f/jea/README.md) | InSyncHandedBackSuccess | [Details](#7bb5635832e912b39ec387e8ac93ada24a434ff8184)
+ [scripting\whats-new\What-s-New-in-Windows-PowerShell-50.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/whats-new/What-s-New-in-Windows-PowerShell-50.md) | InSyncHandedBackSuccess | [Details](#666590df32157a7477d385961dd5665094275868323)
 
 ## Item Details
-##### <a name='d84bb35ada3588367436e6f5e3c6696b90c3661b16'></a> Source: [dsc\configurations.md](https://github.com/PowerShell/powerShell-Docs/blob/6c5f3d3321b7e50215cf58267e1864b7da827764/dsc/configurations.md)
+##### <a name='666590df32157a7477d385961dd5665094275868323'></a> Source: [scripting\whats-new\What-s-New-in-Windows-PowerShell-50.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/whats-new/What-s-New-in-Windows-PowerShell-50.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [dsc\configurations.md](https://github.com/PowerShell/powerShell-Docs.ja-jp/blob/457b7f3d2252941943e69ae31e1f22049a397376/dsc/configurations.md)
-* Handoff File: [configurations.02626ddbf3a00f8ede56fdfd2e46a027800e75b6.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/85080e68ad9b3b19d414d59cd9eed7fe00743831/ol-handoff/PowerShell/powerShell-Docs.ja-jp/live/configurations.02626ddbf3a00f8ede56fdfd2e46a027800e75b6.ja-jp.xlf)
-* Handoff Datetime: 2016-08-31 17:37:09
+* Target File: [scripting\whats-new\What-s-New-in-Windows-PowerShell-50.md](https://github.com/PowerShell/powerShell-Docs.ja-jp/blob/e68debe18bca60c5033862d088ff3f3c833dde7c/scripting/whats-new/What-s-New-in-Windows-PowerShell-50.md)
+* Handoff File: [What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/9595d93b0be6b15205e52a527382d527316bb459/ol-handoff/PowerShell/powerShell-Docs.ja-jp/live/What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ja-jp.xlf)
+* Handoff Datetime: 2016-08-23 21:21:15
 * Handoff Reason: Include
-* Archive File: [configurations.02626ddbf3a00f8ede56fdfd2e46a027800e75b6.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/66cc8964c9244d02d371268b205685c0724d95a4/ol-archive/PowerShell/powerShell-Docs.ja-jp/live/configurations.02626ddbf3a00f8ede56fdfd2e46a027800e75b6.ja-jp.xlf)
-* Archive Datetime: 2016-09-06 13:07:00
-* Handback File: [configurations.02626ddbf3a00f8ede56fdfd2e46a027800e75b6.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/fd0ea660630326024c7d42454c6fb77ec310281d/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/configurations.02626ddbf3a00f8ede56fdfd2e46a027800e75b6.ja-jp.xlf)
-* Handback Datetime: 2016-09-14 18:01:26
-* Bilingual File: [configurations.02626ddbf3a00f8ede56fdfd2e46a027800e75b6.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/fd0ea660630326024c7d42454c6fb77ec310281d/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/configurations.02626ddbf3a00f8ede56fdfd2e46a027800e75b6.ja-jp.xlf)
-* Bilingual Datetime: 2016-09-14 18:02:24
-* [Back to Top](#report-top)
-
-##### <a name='125d3c7fc9a4035f3b6788bd373a4816fcfde671126'></a> Source: [gallery\psgallery\psgallery_scriptanalyzer_rule_profile.md](https://github.com/PowerShell/powerShell-Docs/blob/d37068e04a3544e823484e30d313624dbedd8ac9/gallery/psgallery/psgallery_scriptanalyzer_rule_profile.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [gallery\psgallery\psgallery_scriptanalyzer_rule_profile.md](https://github.com/PowerShell/powerShell-Docs.ja-jp/blob/457b7f3d2252941943e69ae31e1f22049a397376/gallery/psgallery/psgallery_scriptanalyzer_rule_profile.md)
-* Handoff File: [psgallery_scriptanalyzer_rule_profile.98c3a6dcf8fe89c995556d884ceab6f6c6b3248b.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/85080e68ad9b3b19d414d59cd9eed7fe00743831/ol-handoff/PowerShell/powerShell-Docs.ja-jp/live/psgallery_scriptanalyzer_rule_profile.98c3a6dcf8fe89c995556d884ceab6f6c6b3248b.ja-jp.xlf)
-* Handoff Datetime: 2016-08-31 17:37:09
-* Handoff Reason: Include
-* Archive File: [psgallery_scriptanalyzer_rule_profile.98c3a6dcf8fe89c995556d884ceab6f6c6b3248b.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/66cc8964c9244d02d371268b205685c0724d95a4/ol-archive/PowerShell/powerShell-Docs.ja-jp/live/psgallery_scriptanalyzer_rule_profile.98c3a6dcf8fe89c995556d884ceab6f6c6b3248b.ja-jp.xlf)
-* Archive Datetime: 2016-09-06 13:07:00
-* Handback File: [psgallery_scriptanalyzer_rule_profile.98c3a6dcf8fe89c995556d884ceab6f6c6b3248b.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/fd0ea660630326024c7d42454c6fb77ec310281d/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/psgallery_scriptanalyzer_rule_profile.98c3a6dcf8fe89c995556d884ceab6f6c6b3248b.ja-jp.xlf)
-* Handback Datetime: 2016-09-14 18:01:26
-* Bilingual File: [psgallery_scriptanalyzer_rule_profile.98c3a6dcf8fe89c995556d884ceab6f6c6b3248b.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/fd0ea660630326024c7d42454c6fb77ec310281d/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/psgallery_scriptanalyzer_rule_profile.98c3a6dcf8fe89c995556d884ceab6f6c6b3248b.ja-jp.xlf)
-* Bilingual Datetime: 2016-09-14 18:02:24
-* [Back to Top](#report-top)
-
-##### <a name='7b8d135889378be56d0d6d5b9dc89c55f2b1e68f135'></a> Source: [gallery\psget\module\modulewithpseditionsupport.md](https://github.com/PowerShell/powerShell-Docs/blob/93eb1276b5b9632d43ed4c4cc00f67d19c862bbe/gallery/psget/module/modulewithpseditionsupport.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [modulewithpseditionsupport.b09e891ddd53c39875bb5f6330848761bf1388ea.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/9be2605e6927a3e1c9b281ddd1478f052a216336/ol-handoff/PowerShell/powerShell-Docs.ja-jp/live/modulewithpseditionsupport.b09e891ddd53c39875bb5f6330848761bf1388ea.ja-jp.xlf)
-* Handoff Datetime: 2016-09-13 19:07:14
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psget\module\modulewithpseditionsupport.md](https://github.com/PowerShell/powerShell-Docs.ja-jp/blob/457b7f3d2252941943e69ae31e1f22049a397376/gallery/psget/module/modulewithpseditionsupport.md)
-* Current Handback File: [modulewithpseditionsupport.b09e891ddd53c39875bb5f6330848761bf1388ea.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/fd0ea660630326024c7d42454c6fb77ec310281d/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/modulewithpseditionsupport.b09e891ddd53c39875bb5f6330848761bf1388ea.ja-jp.xlf)
-* Current Handback Datetime: 2016-09-14 18:01:26
-* Bilingual File: [modulewithpseditionsupport.b09e891ddd53c39875bb5f6330848761bf1388ea.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/fd0ea660630326024c7d42454c6fb77ec310281d/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/modulewithpseditionsupport.b09e891ddd53c39875bb5f6330848761bf1388ea.ja-jp.xlf)
-* Bilingual Datetime: 2016-09-14 18:02:24
-* [Back to Top](#report-top)
-
-##### <a name='e7ea3957ce3bbd3ce0fc072a82cd108606f05614177'></a> Source: [jea\end-to-end---active-directory.md](https://github.com/PowerShell/powerShell-Docs/blob/33e92c7fd6039a1e3f5f784470c7bd0e43a7f030/jea/end-to-end---active-directory.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [jea\end-to-end---active-directory.md](https://github.com/PowerShell/powerShell-Docs.ja-jp/blob/457b7f3d2252941943e69ae31e1f22049a397376/jea/end-to-end---active-directory.md)
-* Handoff File: [end-to-end---active-directory.3ad98916a8ab304f831ad3b5b15c64e1b086b1f5.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/85080e68ad9b3b19d414d59cd9eed7fe00743831/ol-handoff/PowerShell/powerShell-Docs.ja-jp/live/end-to-end---active-directory.3ad98916a8ab304f831ad3b5b15c64e1b086b1f5.ja-jp.xlf)
-* Handoff Datetime: 2016-08-31 17:37:09
-* Handoff Reason: Include
-* Archive File: [end-to-end---active-directory.3ad98916a8ab304f831ad3b5b15c64e1b086b1f5.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/66cc8964c9244d02d371268b205685c0724d95a4/ol-archive/PowerShell/powerShell-Docs.ja-jp/live/end-to-end---active-directory.3ad98916a8ab304f831ad3b5b15c64e1b086b1f5.ja-jp.xlf)
-* Archive Datetime: 2016-09-06 13:07:00
-* Handback File: [end-to-end---active-directory.3ad98916a8ab304f831ad3b5b15c64e1b086b1f5.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/fd0ea660630326024c7d42454c6fb77ec310281d/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/end-to-end---active-directory.3ad98916a8ab304f831ad3b5b15c64e1b086b1f5.ja-jp.xlf)
-* Handback Datetime: 2016-09-14 18:01:26
-* Bilingual File: [end-to-end---active-directory.3ad98916a8ab304f831ad3b5b15c64e1b086b1f5.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/fd0ea660630326024c7d42454c6fb77ec310281d/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/end-to-end---active-directory.3ad98916a8ab304f831ad3b5b15c64e1b086b1f5.ja-jp.xlf)
-* Bilingual Datetime: 2016-09-14 18:02:24
-* [Back to Top](#report-top)
-
-##### <a name='7bb5635832e912b39ec387e8ac93ada24a434ff8184'></a> Source: [jea\README.md](https://github.com/PowerShell/powerShell-Docs/blob/8149f656f0aacbb23cacc8a1a9b45ed59866b92f/jea/README.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [jea\README.md](https://github.com/PowerShell/powerShell-Docs.ja-jp/blob/457b7f3d2252941943e69ae31e1f22049a397376/jea/README.md)
-* Handoff File: [README.21b5f679157a942d8da32daf52be349e47cf03ae.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/85080e68ad9b3b19d414d59cd9eed7fe00743831/ol-handoff/PowerShell/powerShell-Docs.ja-jp/live/README.21b5f679157a942d8da32daf52be349e47cf03ae.ja-jp.xlf)
-* Handoff Datetime: 2016-08-31 17:37:09
-* Handoff Reason: Include
-* Archive File: [README.21b5f679157a942d8da32daf52be349e47cf03ae.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/66cc8964c9244d02d371268b205685c0724d95a4/ol-archive/PowerShell/powerShell-Docs.ja-jp/live/README.21b5f679157a942d8da32daf52be349e47cf03ae.ja-jp.xlf)
-* Archive Datetime: 2016-09-06 13:07:00
-* Handback File: [README.21b5f679157a942d8da32daf52be349e47cf03ae.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/fd0ea660630326024c7d42454c6fb77ec310281d/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/README.21b5f679157a942d8da32daf52be349e47cf03ae.ja-jp.xlf)
-* Handback Datetime: 2016-09-14 18:01:26
-* Bilingual File: [README.21b5f679157a942d8da32daf52be349e47cf03ae.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/fd0ea660630326024c7d42454c6fb77ec310281d/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/README.21b5f679157a942d8da32daf52be349e47cf03ae.ja-jp.xlf)
-* Bilingual Datetime: 2016-09-14 18:02:24
+* Archive File: [What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/5f1ebb4ca6a371bec4260fdf1a40cab0cee6161c/ol-archive/PowerShell/powerShell-Docs.ja-jp/live/What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ja-jp.xlf)
+* Archive Datetime: 2016-08-30 13:06:35
+* Handback File: [What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/2a8ae6cf18979256d2802a47b2697736d6681e9e/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ja-jp.xlf)
+* Handback Datetime: 2016-09-15 05:43:55
+* Bilingual File: [What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/2a8ae6cf18979256d2802a47b2697736d6681e9e/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ja-jp.xlf)
+* Bilingual Datetime: 2016-09-15 05:44:34
 * [Back to Top](#report-top)
 
 
