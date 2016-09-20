@@ -1717,6 +1717,8 @@
 * Archive Datetime: 2016-09-20 13:07:42
 * Handback File: [troubleshooting.bcb1039de4ec46bfb0ab2d224be50829d0891e7d.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/46ba523f7c46ed797607343697d1064da5ffb6d5/ol-handback/PowerShell/powerShell-Docs.de-de/live/troubleshooting.bcb1039de4ec46bfb0ab2d224be50829d0891e7d.de-de.xlf)
 * Handback Datetime: 2016-09-20 14:45:34
+* Bilingual File: [troubleshooting.bcb1039de4ec46bfb0ab2d224be50829d0891e7d.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/46ba523f7c46ed797607343697d1064da5ffb6d5/ol-handback/PowerShell/powerShell-Docs.de-de/live/troubleshooting.bcb1039de4ec46bfb0ab2d224be50829d0891e7d.de-de.xlf)
+* Bilingual Datetime: 2016-09-20 14:46:04
 * [Back to Top](#report-top)
 
 ##### <a name='5c7878bdfc8a3f118b569a9e43be6c7e4333ad2c96'></a> Source: [dsc\userResource.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/userResource.md)
