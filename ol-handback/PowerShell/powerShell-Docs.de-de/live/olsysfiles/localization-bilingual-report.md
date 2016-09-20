@@ -1,11 +1,28 @@
 # <a name='report-top'></a> Localization Bilingual Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [dsc\logResource.md](https://github.com/PowerShell/powerShell-Docs/blob/62f993e3d3e6ef744fb07920d332d476dfd24fc6/dsc/logResource.md) | InSyncHandedBackSuccess | [Details](#60085295fa7df6179a81cd98859cd33e6923150f46)
 
 ## Item Details
+##### <a name='60085295fa7df6179a81cd98859cd33e6923150f46'></a> Source: [dsc\logResource.md](https://github.com/PowerShell/powerShell-Docs/blob/62f993e3d3e6ef744fb07920d332d476dfd24fc6/dsc/logResource.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [dsc\logResource.md](https://github.com/PowerShell/powerShell-Docs.de-de/blob/808f73fb7f79684261abef39b0ac0063522425f4/dsc/logResource.md)
+* Handoff File: [logResource.07af9dfcf6076ef19059178c3b404762677920f0.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/0a6002c3050025d8b871bd22f79ce7e4b3636a17/ol-handoff/PowerShell/powerShell-Docs.de-de/live/logResource.07af9dfcf6076ef19059178c3b404762677920f0.de-de.xlf)
+* Handoff Datetime: 2016-09-15 21:38:18
+* Handoff Reason: Include
+* Archive File: [logResource.07af9dfcf6076ef19059178c3b404762677920f0.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/b0c1b9154084a11d5e8cdfb3bc9909654283277c/ol-archive/PowerShell/powerShell-Docs.de-de/live/logResource.07af9dfcf6076ef19059178c3b404762677920f0.de-de.xlf)
+* Archive Datetime: 2016-09-20 13:07:42
+* Handback File: [logResource.07af9dfcf6076ef19059178c3b404762677920f0.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/40af901ac43b0dbe63d4c5c7de0a44c99c62cfa8/ol-handback/PowerShell/powerShell-Docs.de-de/live/logResource.07af9dfcf6076ef19059178c3b404762677920f0.de-de.xlf)
+* Handback Datetime: 2016-09-20 14:15:26
+* Bilingual File: [logResource.07af9dfcf6076ef19059178c3b404762677920f0.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/40af901ac43b0dbe63d4c5c7de0a44c99c62cfa8/ol-handback/PowerShell/powerShell-Docs.de-de/live/logResource.07af9dfcf6076ef19059178c3b404762677920f0.de-de.xlf)
+* Bilingual Datetime: 2016-09-20 14:17:59
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
