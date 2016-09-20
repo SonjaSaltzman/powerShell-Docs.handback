@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">02721f0f6f68cc78ae0430205d06f079e3e7465a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\pullClientConfigNames.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c412396a00a659e16dcde6b21fcb2a1e528d8030</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">654cb18aa6e686eab3d4e79ca6ee1528dcb4f63d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Setting up a pull client using configuration names</source>
+          <target state="translated">Настройка опрашивающего клиента с помощью имен конфигураций</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,DSC</source>
+          <target state="translated">powershell,DSC</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Setting up a pull client using configuration names</source>
+          <target state="translated">Настройка опрашивающего клиента с помощью имен конфигураций</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 5.0</source>
+          <target state="translated">Область применения: Windows PowerShell 5.0</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Each target node has to be told to use pull mode and given the URL where it can contact the pull server to get configurations.</source>
+          <target state="translated">Для каждого целевого узла нужно задать использование опрашивающего режима и URL-адреса, по которому можно подключиться к опрашивающему серверу для получения конфигураций.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To do this, you have to configure the Local Configuration Manager (LCM) with the necessary information.To configure the LCM, you create a special type of configuration, decorated with the <bpt id="p1">**</bpt>DSCLocalConfigurationManager<ept id="p1">**</ept> attribute.</source>
+          <target state="translated">Для этого необходимо настроить локальный диспетчер конфигураций (LCM), указав нужную информацию. Чтобы настроить LCM, создайте специальный тип конфигурации, назначив атрибут <bpt id="p1">**</bpt>DSCLocalConfigurationManager<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For more information about configuring the LCM, see <bpt id="p1">[</bpt>Configuring the Local Configuration Manager<ept id="p1">](metaConfig.md)</ept>.</source>
+          <target state="translated">Дополнительные сведения о настройке LCM см. в разделе <bpt id="p1">[</bpt>Настройка локального диспетчера конфигураций<ept id="p1">](metaConfig.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: This topic applies to PowerShell 5.0.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Примечание<ept id="p1">**</ept>. Этот раздел относится к PowerShell 5.0.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For information on setting up a pull client in PowerShell 4.0, see <bpt id="p1">[</bpt>Setting up a pull client using configuration ID in PowerShell 4.0<ept id="p1">](pullClientConfigID4.md)</ept></source>
+          <target state="translated">Сведения о настройке опрашивающего клиента в PowerShell 4.0 см. в разделе <bpt id="p1">[</bpt>Настройка опрашивающего клиента с помощью идентификатора конфигурации в PowerShell 4.0<ept id="p1">](pullClientConfigID4.md)</ept></target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The following script configures the LCM to pull configurations from a server named "CONTOSO-PullSrv":</source>
+          <target state="translated">Следующий сценарий настраивает LCM для получения конфигураций с сервера CONTOSO-PullSrv:</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In the script, the <bpt id="p1">**</bpt>ConfigurationRepositoryWeb<ept id="p1">**</ept> block defines the pull server.</source>
+          <target state="translated">В сценарии блок <bpt id="p1">**</bpt>ConfigurationRepositoryWeb<ept id="p1">**</ept> задает опрашивающий сервер.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ServerURL<ept id="p1">**</ept> property specifies the endpoint for the pull server.</source>
+          <target state="translated">Свойство <bpt id="p1">**</bpt>ServerURL<ept id="p1">**</ept> указывает конечную точку для опрашивающего сервера.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>RegistrationKey<ept id="p1">**</ept> property is a shared key between all client nodes for a pull server and that pull server.</source>
+          <target state="translated">Свойство <bpt id="p1">**</bpt>RegistrationKey<ept id="p1">**</ept> является общим ключом между всеми узлами клиента для опрашивающего сервера и их опрашивающего сервера.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The same value is stored in a file on the pull server.</source>
+          <target state="translated">Те же значения хранятся в файле на опрашивающем сервере.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ConfigurationNames<ept id="p1">**</ept> property is an array that specifies the names of the configurations intended for the client node.</source>
+          <target state="translated">Свойство <bpt id="p1">**</bpt>ConfigurationNames<ept id="p1">**</ept> представляет собой массив, указывающий имена конфигураций, предназначенных для узла клиента.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>On the pull server, the configuration MOF file for this client node must be named <bpt id="p1">*</bpt>ConfigurationNames<ept id="p1">*</ept>.mof, where <bpt id="p2">*</bpt>ConfigurationNames<ept id="p2">*</ept> matches the value of the <bpt id="p3">**</bpt>ConfigurationNames<ept id="p3">**</ept> property you set in this metaconfiguration.</source>
+          <target state="translated">На опрашивающем сервере необходимо назвать MOF-файл конфигурации для этого узла клиента <bpt id="p1">*</bpt>ConfigurationNames<ept id="p1">*</ept>.mof, где <bpt id="p2">*</bpt>ConfigurationNames<ept id="p2">*</ept> соответствует значению свойства <bpt id="p3">**</bpt>ConfigurationNames<ept id="p3">**</ept>, заданному в этой метаконфигурации.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> If you specify more than one value in the <bpt id="p2">**</bpt>ConfigurationNames<ept id="p2">**</ept>, you must also specify <bpt id="p3">**</bpt>PartialConfiguration<ept id="p3">**</ept> blocks in your configuration.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Примечание.<ept id="p1">**</ept> Если для параметра <bpt id="p2">**</bpt>ConfigurationNames<ept id="p2">**</ept> указано больше одного значения, в конфигурации необходимо также указать блоки <bpt id="p3">**</bpt>PartialConfiguration<ept id="p3">**</ept>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For information about partial configurations, see <bpt id="p1">[</bpt>PowerShell Desired State Configuration partial configurations<ept id="p1">](partialConfigs.md)</ept>.</source>
+          <target state="translated">Сведения о частичных конфигурациях см. в статье <bpt id="p1">[</bpt>Частичные конфигурации службы настройки требуемого состояния PowerShell<ept id="p1">](partialConfigs.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>After this script runs, it creates a new output folder named <bpt id="p1">**</bpt>PullClientConfigNames<ept id="p1">**</ept> and puts a metaconfiguration MOF file there.</source>
+          <target state="translated">После запуска этого скрипта будет создана новая выходная папка <bpt id="p1">**</bpt>PullClientConfigNames<ept id="p1">**</ept>, в которую будет помещен MOF-файл метаконфигурации.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>In this case, the metaconfiguration MOF file will be named <ph id="ph1">`localhost.meta.mof`</ph>.</source>
+          <target state="translated">В этом случае MOF-файл метаконфигурации будет называться <ph id="ph1">`localhost.meta.mof`</ph>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To apply the configuration, call the <bpt id="p1">**</bpt>Set-DscLocalConfigurationManager<ept id="p1">**</ept> cmdlet, with the <bpt id="p2">**</bpt>Path<ept id="p2">**</ept> set to the location of the metaconfiguration MOF file.</source>
+          <target state="translated">Чтобы применить конфигурацию, вызовите командлет <bpt id="p1">**</bpt>Set-DscLocalConfigurationManager<ept id="p1">**</ept>, в параметре <bpt id="p2">**</bpt>Path<ept id="p2">**</ept> которого задано расположение MOF-файла метаконфигурации.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">Например:</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: Registration keys work only with web pull servers.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Примечание<ept id="p1">**</ept>. Ключи регистрации работают только с опрашивающими веб-серверами.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You must still use <bpt id="p1">**</bpt>ConfigurationID<ept id="p1">**</ept> with an SMB pull server.</source>
+          <target state="translated">Вам по-прежнему следует использовать <bpt id="p1">**</bpt>ConfigurationID<ept id="p1">**</ept> с опрашивающим SMB-сервером.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For information about configuring a pull server by using <bpt id="p1">**</bpt>ConfigurationID<ept id="p1">**</ept>, see <bpt id="p2">[</bpt>Setting up a pull client using configuration ID<ept id="p2">](PullClientConfigNames.md)</ept></source>
+          <target state="translated">Сведения о настройке опрашивающего сервера с использованием <bpt id="p1">**</bpt>ConfigurationID<ept id="p1">**</ept> см. в разделе <bpt id="p2">[</bpt>Настройка опрашивающего клиента с помощью идентификатора конфигурации<ept id="p2">](PullClientConfigNames.md)</ept></target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Resource and report servers</source>
+          <target state="translated">Серверы ресурсов и отчетов</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If you specify only a <bpt id="p1">**</bpt>ConfigurationRepositoryWeb<ept id="p1">**</ept> or <bpt id="p2">**</bpt>ConfigurationRepositoryShare<ept id="p2">**</ept> block in your LCM configuration (as in the previous example), the pull client will pull resources from the specified server, but it will not send reports to it.</source>
+          <target state="translated">Если указать только блок <bpt id="p1">**</bpt>ConfigurationRepositoryWeb<ept id="p1">**</ept> или <bpt id="p2">**</bpt>ConfigurationRepositoryShare<ept id="p2">**</ept> в конфигурации LCM (как в предыдущем примере), опрашивающий клиент будет получать ресурсы с указанного сервера, но не будет отправлять отчеты на этот сервер.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You can use a single pull server for configurations, resources, and reporting, but you have to create a <bpt id="p1">**</bpt>ReportRepositoryWeb<ept id="p1">**</ept> block to set up reporting.</source>
+          <target state="translated">Можно использовать один и тот же опрашивающий сервер для конфигураций, ресурсов и создания отчетов, но необходимо создать блок <bpt id="p1">**</bpt>ReportRepositoryWeb<ept id="p1">**</ept> для настройки отчетов.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The following example shows a metaconfiguration that sets up a client to pull configurations and resources, and send reporting data, to a single pull server.</source>
+          <target state="translated">В следующем примере показана метаконфигурация, которая настраивает клиент для опроса конфигураций и ресурсов и отправки данных отчетов на одном опрашивающем сервере.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You can also specify different pull servers for resources and reporting.</source>
+          <target state="translated">При этом можно указать различные опрашивающие серверы для ресурсов и отчетов.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To specify a resource server, you use either a <bpt id="p1">**</bpt>ResourceRepositoryWeb<ept id="p1">**</ept> (for a web pull server) or a <bpt id="p2">**</bpt>ResourceRepositoryShare<ept id="p2">**</ept> block (for an SMB pull server).</source>
+          <target state="translated">Чтобы указать сервер ресурсов, используйте <bpt id="p1">**</bpt>ResourceRepositoryWeb<ept id="p1">**</ept> (для опрашивающего веб-сервера) или блок <bpt id="p2">**</bpt>ResourceRepositoryShare<ept id="p2">**</ept> (для опрашивающего SMB-сервера).</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To specify a report server, you use a <bpt id="p1">**</bpt>ReportRepositoryWeb<ept id="p1">**</ept> block.</source>
+          <target state="translated">Чтобы указать сервер отчетов, используйте блок <bpt id="p1">**</bpt>ReportRepositoryWeb<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A report server cannot be an SMB server.</source>
+          <target state="translated">Сервер отчетов не может быть SMB-сервером.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The following metaconfiguration configures a pull client to get its configurations from <bpt id="p1">**</bpt>CONTOSO-PullSrv<ept id="p1">**</ept> and its resources from <bpt id="p2">**</bpt>CONTOSO-ResourceSrv<ept id="p2">**</ept>, and to send status reports to <bpt id="p3">**</bpt>CONTOSO-ReportSrv<ept id="p3">**</ept>:</source>
+          <target state="translated">Следующая метаконфигурация настраивает опрашивающий клиент для получения конфигураций из <bpt id="p1">**</bpt>CONTOSO-PullSrv<ept id="p1">**</ept> и ресурсов из <bpt id="p2">**</bpt>CONTOSO-ResourceSrv<ept id="p2">**</ept>, а также для отправки отчетов о состоянии на <bpt id="p3">**</bpt>CONTOSO-ReportSrv<ept id="p3">**</ept>:</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">См. также</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Setting up a pull client with configuration ID</source>
+          <target state="translated">Настройка опрашивающего клиента с идентификатором конфигурации</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Setting up a DSC web pull server</source>
+          <target state="translated">Настройка опрашивающего веб-сервера DSC</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
