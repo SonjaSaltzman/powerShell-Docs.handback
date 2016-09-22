@@ -2,11 +2,13 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-22243b3" tool-company="Microsoft" />
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f864850128f118704d7545b09110835ab1d51b8e</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1b35a25312b44d14ec8771be9e17aaa43e270b61</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\features-scenarios-cache\ps-engine-enhancements.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">053dd0510b5394003df383d6b0689e0f158b3898</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">597120c728c2652f0003fa53ca65d3c20b8078e5</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -32,8 +34,8 @@
           <source>Pipelining to cmdlets like ForEach-Object and Where-Object is approximately 50% faster</source>
           <target state="translated">管線到 ForEach-Object 和 Where-Object 等 Cmdlet 大約快了 50%</target>       </trans-unit>
         <trans-unit id="108" translate="yes" xml:space="preserve">
-          <source>Some example improvements (resuls may vary depending your your hardware):</source>
-          <target state="translated">一些改善範例 (結果隨硬體而有不同)：</target>       </trans-unit>
+          <source>Some example improvements (results may vary depending on your hardware):</source>
+          <target state="translated">一些改進項目的的範例 (結果會取決於您的硬體)：</target>       </trans-unit>
         <trans-unit id="109" translate="yes" xml:space="preserve">
           <source>Scenario</source>
           <target state="translated">案例</target>       </trans-unit>
@@ -77,7 +79,7 @@
           <source>One change related to startup may impact some (unsupported) scenarios.</source>
           <target state="translated">與啟動相關的一項變更，可能影響到某些 (不受支援) 的案例。</target>       </trans-unit>
         <trans-unit id="123" translate="yes" xml:space="preserve">
-          <source>PowerShell no longer reads the files <ph id="ph1">`$pshome\*.ps1xml`</ph> - these files have been converted to C# to avoid some file and cpu overhead of processing the xml files.</source>
+          <source>PowerShell no longer reads the files <ph id="ph1">`$pshome\*.ps1xml`</ph> - these files have been converted to C# to avoid some file and CPU overhead of processing the XML files.</source>
           <target state="translated">PowerShell 不再讀取 <ph id="ph1">`$pshome\*.ps1xml`</ph> 檔案，這些檔案已轉換成 C#，以避免處理 XML 檔案的一些檔案和 CPU 負荷。</target>       </trans-unit>
         <trans-unit id="124" translate="yes" xml:space="preserve">
           <source>The files still exist to support V2 side-by-side, so if you change the file contents, it will not have any effect to V5, only V2.</source>
@@ -125,8 +127,8 @@
           <source>File redirection no longer hard-codes</source>
           <target state="translated">檔案重新導向不再需要硬式編碼</target>       </trans-unit>
         <trans-unit id="139" translate="yes" xml:space="preserve">
-          <source>In all previous versions of PowerShell, it was impossible to control the file encoding used by the file redirection operator, e.g. <ph id="ph1">`get-childitem &gt; out.txt`</ph> because PowerShell added <ph id="ph2">`-Encoding Unicode`</ph>.</source>
-          <target state="translated">所有舊版的 PowerShell 都不可能控制檔案重新導向運算子所使用的檔案編碼，例如 <ph id="ph1">`get-childitem &gt; out.txt`</ph>，因為 PowerShell 新增了 <ph id="ph2">`-Encoding Unicode`</ph>。</target>       </trans-unit>
+          <source>In all previous versions of PowerShell, it was impossible to control the file encoding used by the file redirection operator, e.g. <ph id="ph1">`Get-ChildItem &gt; out.txt`</ph> because PowerShell added <ph id="ph2">`-Encoding Unicode`</ph>.</source>
+          <target state="translated">所有舊版的 PowerShell 都不可能控制檔案重新導向運算子所使用的檔案編碼，例如 <ph id="ph1">`Get-ChildItem &gt; out.txt`</ph>，因為 PowerShell 新增了 <ph id="ph2">`-Encoding Unicode`</ph>。</target>       </trans-unit>
         <trans-unit id="140" translate="yes" xml:space="preserve">
           <source>Starting with WMF 5.1, you can now change the file encoding of redirection by setting <ph id="ph1">`$PSDefaultParameterValues`</ph>, e.g.</source>
           <target state="translated">但從 WMF 5.1 開始，您可以設定 <ph id="ph1">`$PSDefaultParameterValues`</ph> 來變更重新導向的檔案編碼方式，例如︰</target>       </trans-unit>
@@ -137,8 +139,8 @@
           <source>A regression introduced in WMF5 broke accessing members of <ph id="ph1">`System.Reflection.RuntimeType`</ph>, e.g. <ph id="ph2">`[int].ImplementedInterfaces`</ph>.</source>
           <target state="translated">WMF5 引入的迴歸會中斷存取 <ph id="ph1">`System.Reflection.RuntimeType`</ph> 成員的程序，例如 <ph id="ph2">`[int].ImplementedInterfaces`</ph>。</target>       </trans-unit>
         <trans-unit id="143" translate="yes" xml:space="preserve">
-          <source>This bug has been fixed in WMF5.1.</source>
-          <target state="translated">WMF5.1 已修正這個 Bug。</target>       </trans-unit>
+          <source>This bug has been fixed in WMF 5.1.</source>
+          <target state="translated">WMF 5.1 已修正這個 Bug。</target>       </trans-unit>
         <trans-unit id="144" translate="yes" xml:space="preserve">
           <source>Fixed some issues with COM objects</source>
           <target state="translated">修正 COM 物件的一些問題</target>       </trans-unit>
@@ -146,7 +148,7 @@
           <source>WMF5 introduced a new COM binder for invoking methods on COM objects and accessing properties of COM objects.</source>
           <target state="translated">WMF5 引入新的 COM 繫結器，可對 COM 物件叫用方法以及存取 COM 物件的屬性。</target>       </trans-unit>
         <trans-unit id="146" translate="yes" xml:space="preserve">
-          <source>This new binder improved performance significantly but also introduced some bugs which have been fixed in WMF5.1.</source>
+          <source>This new binder improved performance significantly but also introduced some bugs which have been fixed in WMF 5.1.</source>
           <target state="translated">此新的繫結器大幅改善了效能，卻也造成了一些 Bug，WMF5.1 已加以修正。</target>       </trans-unit>
         <trans-unit id="147" translate="yes" xml:space="preserve">
           <source>Argument conversions were not always performed correctly</source>
@@ -176,8 +178,8 @@
           <source>WMF5 introduced classes with validation of type literals used in classes.</source>
           <target state="translated">WMF5 引入了類別，其具有類別所用的類型常值驗證。</target>       </trans-unit>
         <trans-unit id="156" translate="yes" xml:space="preserve">
-          <source>looks like a type literal but is not a true .Net type.</source>
-          <target state="translated">看起來像類型常值，卻不是真正的 .Net 類型。</target>       </trans-unit>
+          <source>looks like a type literal but is not a true .NET type.</source>
+          <target state="translated">看起來像類型常值，卻不是真正的 .NET 類型。</target>       </trans-unit>
         <trans-unit id="157" translate="yes" xml:space="preserve">
           <source>WMF5 incorrectly reported an error on <ph id="ph1">`[ordered]`</ph> inside a class:</source>
           <target state="translated">WMF5 誤報類別內發生 <ph id="ph1">`[ordered]`</ph> 錯誤︰</target>       </trans-unit>
