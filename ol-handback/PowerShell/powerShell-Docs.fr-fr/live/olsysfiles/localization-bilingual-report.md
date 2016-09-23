@@ -1,11 +1,28 @@
 # <a name='report-top'></a> Localization Bilingual Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [scripting\setup\Installing-the-Windows-PowerShell-SDK.md](https://github.com/PowerShell/powerShell-Docs/blob/7caac42751c580d588fcf19db7253c8b75d6c865/scripting/setup/Installing-the-Windows-PowerShell-SDK.md) | InSyncHandedBackSuccess | [Details](#7af27dc9bd8e93d1df5258b0d8df8af12726f568310)
 
 ## Item Details
+##### <a name='7af27dc9bd8e93d1df5258b0d8df8af12726f568310'></a> Source: [scripting\setup\Installing-the-Windows-PowerShell-SDK.md](https://github.com/PowerShell/powerShell-Docs/blob/7caac42751c580d588fcf19db7253c8b75d6c865/scripting/setup/Installing-the-Windows-PowerShell-SDK.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\setup\Installing-the-Windows-PowerShell-SDK.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/4981da8b920469bbb93e537a9006d8bdcd783cd1/scripting/setup/Installing-the-Windows-PowerShell-SDK.md)
+* Handoff File: [Installing-the-Windows-PowerShell-SDK.bfd31a5fc654dd34236aff66cf62844476672b64.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/eecaaa36a208a8f01010283dc386cc683e0a72ea/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/Installing-the-Windows-PowerShell-SDK.bfd31a5fc654dd34236aff66cf62844476672b64.fr-fr.xlf)
+* Handoff Datetime: 2016-08-18 01:25:33
+* Handoff Reason: Include
+* Archive File: [Installing-the-Windows-PowerShell-SDK.bfd31a5fc654dd34236aff66cf62844476672b64.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/c5c869fb7547a510643f280a125ef4cbbd8e7ee6/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/Installing-the-Windows-PowerShell-SDK.bfd31a5fc654dd34236aff66cf62844476672b64.fr-fr.xlf)
+* Archive Datetime: 2016-08-23 13:32:54
+* Handback File: [Installing-the-Windows-PowerShell-SDK.bfd31a5fc654dd34236aff66cf62844476672b64.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/5bab0d87ac221039b0bf2d381572e58a62bd97a8/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Installing-the-Windows-PowerShell-SDK.bfd31a5fc654dd34236aff66cf62844476672b64.fr-fr.xlf)
+* Handback Datetime: 2016-09-23 15:08:26
+* Bilingual File: [Installing-the-Windows-PowerShell-SDK.bfd31a5fc654dd34236aff66cf62844476672b64.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/5bab0d87ac221039b0bf2d381572e58a62bd97a8/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Installing-the-Windows-PowerShell-SDK.bfd31a5fc654dd34236aff66cf62844476672b64.fr-fr.xlf)
+* Bilingual Datetime: 2016-09-23 15:09:00
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
