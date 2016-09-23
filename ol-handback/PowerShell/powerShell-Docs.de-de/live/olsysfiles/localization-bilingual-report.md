@@ -1,11 +1,43 @@
 # <a name='report-top'></a> Localization Bilingual Report
 
 ## Summary
- Total Files | 0
+ Total Files | 2
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [scripting\setup\Installing-the-Windows-PowerShell-SDK.md](https://github.com/PowerShell/powerShell-Docs/blob/7caac42751c580d588fcf19db7253c8b75d6c865/scripting/setup/Installing-the-Windows-PowerShell-SDK.md) | InSyncHandedBackSuccess | [Details](#7af27dc9bd8e93d1df5258b0d8df8af12726f568310)
+ [scripting\whats-new\What-s-New-in-Windows-PowerShell-50.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/whats-new/What-s-New-in-Windows-PowerShell-50.md) | InSyncHandedBackSuccess | [Details](#666590df32157a7477d385961dd5665094275868323)
 
 ## Item Details
+##### <a name='7af27dc9bd8e93d1df5258b0d8df8af12726f568310'></a> Source: [scripting\setup\Installing-the-Windows-PowerShell-SDK.md](https://github.com/PowerShell/powerShell-Docs/blob/7caac42751c580d588fcf19db7253c8b75d6c865/scripting/setup/Installing-the-Windows-PowerShell-SDK.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\setup\Installing-the-Windows-PowerShell-SDK.md](https://github.com/PowerShell/powerShell-Docs.de-de/blob/01d6b170de1d48692ebc181b8d15911b6b93f29f/scripting/setup/Installing-the-Windows-PowerShell-SDK.md)
+* Handoff File: [Installing-the-Windows-PowerShell-SDK.bfd31a5fc654dd34236aff66cf62844476672b64.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/33825405d24010abda65e56163602016abba4e62/ol-handoff/PowerShell/powerShell-Docs.de-de/live/Installing-the-Windows-PowerShell-SDK.bfd31a5fc654dd34236aff66cf62844476672b64.de-de.xlf)
+* Handoff Datetime: 2016-08-18 01:23:34
+* Handoff Reason: Include
+* Archive File: [Installing-the-Windows-PowerShell-SDK.bfd31a5fc654dd34236aff66cf62844476672b64.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a7982d24647baf614ccfe202ca95069805d5d1e7/ol-archive/PowerShell/powerShell-Docs.de-de/live/Installing-the-Windows-PowerShell-SDK.bfd31a5fc654dd34236aff66cf62844476672b64.de-de.xlf)
+* Archive Datetime: 2016-08-23 13:32:01
+* Handback File: [Installing-the-Windows-PowerShell-SDK.bfd31a5fc654dd34236aff66cf62844476672b64.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/d6ccb1cfe9beafc90eb2536f6a76582d5e8b6cf6/ol-handback/PowerShell/powerShell-Docs.de-de/live/Installing-the-Windows-PowerShell-SDK.bfd31a5fc654dd34236aff66cf62844476672b64.de-de.xlf)
+* Handback Datetime: 2016-09-23 10:42:20
+* Bilingual File: [Installing-the-Windows-PowerShell-SDK.bfd31a5fc654dd34236aff66cf62844476672b64.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/d6ccb1cfe9beafc90eb2536f6a76582d5e8b6cf6/ol-handback/PowerShell/powerShell-Docs.de-de/live/Installing-the-Windows-PowerShell-SDK.bfd31a5fc654dd34236aff66cf62844476672b64.de-de.xlf)
+* Bilingual Datetime: 2016-09-23 10:43:26
+* [Back to Top](#report-top)
+
+##### <a name='666590df32157a7477d385961dd5665094275868323'></a> Source: [scripting\whats-new\What-s-New-in-Windows-PowerShell-50.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/whats-new/What-s-New-in-Windows-PowerShell-50.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\whats-new\What-s-New-in-Windows-PowerShell-50.md](https://github.com/PowerShell/powerShell-Docs.de-de/blob/01d6b170de1d48692ebc181b8d15911b6b93f29f/scripting/whats-new/What-s-New-in-Windows-PowerShell-50.md)
+* Handoff File: [What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/112766a3348dbdee16b9c19bf90aa7b76d3224b9/ol-handoff/PowerShell/powerShell-Docs.de-de/live/What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.de-de.xlf)
+* Handoff Datetime: 2016-08-23 21:22:04
+* Handoff Reason: Include
+* Archive File: [What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/975337cba254b516866699e54a9586dbfd41cf2d/ol-archive/PowerShell/powerShell-Docs.de-de/live/What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.de-de.xlf)
+* Archive Datetime: 2016-08-30 13:06:47
+* Handback File: [What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/d6ccb1cfe9beafc90eb2536f6a76582d5e8b6cf6/ol-handback/PowerShell/powerShell-Docs.de-de/live/What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.de-de.xlf)
+* Handback Datetime: 2016-09-23 10:42:20
+* Bilingual File: [What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/d6ccb1cfe9beafc90eb2536f6a76582d5e8b6cf6/ol-handback/PowerShell/powerShell-Docs.de-de/live/What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.de-de.xlf)
+* Bilingual Datetime: 2016-09-23 10:43:26
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
