@@ -4419,6 +4419,8 @@
 * Archive Datetime: 2016-08-23 13:36:22
 * Handback File: [Installing-the-Windows-PowerShell-SDK.bfd31a5fc654dd34236aff66cf62844476672b64.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/304e9ca8fbf1686cd5fb6f23efddd504781c54fb/ol-handback/PowerShell/powerShell-Docs.es-es/live/Installing-the-Windows-PowerShell-SDK.bfd31a5fc654dd34236aff66cf62844476672b64.es-es.xlf)
 * Handback Datetime: 2016-09-23 14:32:46
+* Bilingual File: [Installing-the-Windows-PowerShell-SDK.bfd31a5fc654dd34236aff66cf62844476672b64.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/304e9ca8fbf1686cd5fb6f23efddd504781c54fb/ol-handback/PowerShell/powerShell-Docs.es-es/live/Installing-the-Windows-PowerShell-SDK.bfd31a5fc654dd34236aff66cf62844476672b64.es-es.xlf)
+* Bilingual Datetime: 2016-09-23 14:33:33
 * [Back to Top](#report-top)
 
 ##### <a name='00249ec98e1624a949fe11fee8be9e93018578a9311'></a> Source: [scripting\setup\Installing-Windows-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/setup/Installing-Windows-PowerShell.md)
