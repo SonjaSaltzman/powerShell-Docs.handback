@@ -7,10 +7,10 @@
 [ Handoff Failed Files ](#handoff-failed-list)| 0
 [ Handoff Success Files ](#handoff-success-list)| 0
 [ Archive Failed Files ](#archive-failed-list)| 0
-[ Archive Success Files ](#archive-success-list)| 321
+[ Archive Success Files ](#archive-success-list)| 320
 [ Handback Failed Files ](#handback-failed-list)| 1
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
-[ In Sync Handback Files ](#insync-handback-success-list)| 94
+[ In Sync Handback Files ](#insync-handback-success-list)| 95
 [ Ignored Files ](#ignored-list)| 40
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
@@ -225,7 +225,6 @@
  [scripting\getting-started\more-powershell-learning.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/getting-started/more-powershell-learning.md) | ArchivedSuccess | [Details](#05205ff8fcf0a3b23e66a6ac756be0d9a5055bd2304)
  [scripting\getting-started\understanding-concepts-reference.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/getting-started/understanding-concepts-reference.md) | ArchivedSuccess | [Details](#0888b7db506881c4f97d9398b838a617e62c7c4a305)
  [scripting\PowerShell-Scripting.md](https://github.com/PowerShell/powerShell-Docs/blob/b38cfd053cc2356fa7ca99605dbd84190d342327/scripting/PowerShell-Scripting.md) | ArchivedSuccess | [Details](#fc6307be4dafb378350b6d9667b2b6aca0e2e6d4307)
- [scripting\setup\Installing-the-Windows-PowerShell-SDK.md](https://github.com/PowerShell/powerShell-Docs/blob/7caac42751c580d588fcf19db7253c8b75d6c865/scripting/setup/Installing-the-Windows-PowerShell-SDK.md) | ArchivedSuccess | [Details](#7af27dc9bd8e93d1df5258b0d8df8af12726f568310)
  [scripting\setup\security.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/setup/security.md) | ArchivedSuccess | [Details](#6bdf3f658ed75b48be6df217b6a0b4ad5951c935312)
  [scripting\setup\setup-reference.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/setup/setup-reference.md) | ArchivedSuccess | [Details](#63f7597ba91fb839252de451c6c9380b5b19c0ec313)
  [scripting\setup\Starting-Windows-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/setup/Starting-Windows-PowerShell.md) | ArchivedSuccess | [Details](#f8406a2066ef54ea0fdaaff6e612bb0d43b12ab6317)
@@ -439,6 +438,7 @@
  [scripting\getting-started\Getting-Started-with-Windows-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/Getting-Started-with-Windows-PowerShell.md) | InSyncHandedBackSuccess | [Details](#a031bad99e8aca1d7598f99e157723bf4360cf56303)
  [scripting\setup\Accessibility-in-Windows-PowerShell-ISE.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/setup/Accessibility-in-Windows-PowerShell-ISE.md) | InSyncHandedBackSuccess | [Details](#b4d97b1c96a99bcfc43fb20ce9a4ecfa528ea024308)
  [scripting\setup\Installing-the-Windows-PowerShell-2.0-Engine.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/setup/Installing-the-Windows-PowerShell-2.0-Engine.md) | InSyncHandedBackSuccess | [Details](#b6189e43fc9579a29d598deb705bb8e4e32e4a4f309)
+ [scripting\setup\Installing-the-Windows-PowerShell-SDK.md](https://github.com/PowerShell/powerShell-Docs/blob/7caac42751c580d588fcf19db7253c8b75d6c865/scripting/setup/Installing-the-Windows-PowerShell-SDK.md) | InSyncHandedBackSuccess | [Details](#7af27dc9bd8e93d1df5258b0d8df8af12726f568310)
  [scripting\setup\Installing-Windows-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/setup/Installing-Windows-PowerShell.md) | InSyncHandedBackSuccess | [Details](#00249ec98e1624a949fe11fee8be9e93018578a9311)
  [scripting\setup\Starting-the-32-Bit-Version-of-Windows-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/setup/Starting-the-32-Bit-Version-of-Windows-PowerShell.md) | InSyncHandedBackSuccess | [Details](#310f898a471ca60da4d9ebe5234ee86a636e44b5314)
  [scripting\setup\Starting-the-Windows-PowerShell-2.0-Engine.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/setup/Starting-the-Windows-PowerShell-2.0-Engine.md) | InSyncHandedBackSuccess | [Details](#094c3c9f240457fc884031e7d82dcdc1e81e582d315)
@@ -4410,15 +4410,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='7af27dc9bd8e93d1df5258b0d8df8af12726f568310'></a> Source: [scripting\setup\Installing-the-Windows-PowerShell-SDK.md](https://github.com/PowerShell/powerShell-Docs/blob/7caac42751c580d588fcf19db7253c8b75d6c865/scripting/setup/Installing-the-Windows-PowerShell-SDK.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\setup\Installing-the-Windows-PowerShell-SDK.md](https://github.com/PowerShell/powerShell-Docs.ja-jp/blob/d71bb7a7d689bd83e0b5f1059a8229aaedb6a429/scripting/setup/Installing-the-Windows-PowerShell-SDK.md)
 * Handoff File: [Installing-the-Windows-PowerShell-SDK.bfd31a5fc654dd34236aff66cf62844476672b64.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/5052f790ddd5c10a3ed03b6a56ce4adce27dbd42/ol-handoff/PowerShell/powerShell-Docs.ja-jp/live/Installing-the-Windows-PowerShell-SDK.bfd31a5fc654dd34236aff66cf62844476672b64.ja-jp.xlf)
 * Handoff Datetime: 2016-08-18 01:21:33
 * Handoff Reason: Include
 * Archive File: [Installing-the-Windows-PowerShell-SDK.bfd31a5fc654dd34236aff66cf62844476672b64.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/7335cf8b2afedab734cc61f060b2bc425c50d491/ol-archive/PowerShell/powerShell-Docs.ja-jp/live/Installing-the-Windows-PowerShell-SDK.bfd31a5fc654dd34236aff66cf62844476672b64.ja-jp.xlf)
 * Archive Datetime: 2016-08-23 13:31:14
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
+* Handback File: [Installing-the-Windows-PowerShell-SDK.bfd31a5fc654dd34236aff66cf62844476672b64.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/7c32e768071ff304664f236edcb7a689253aa75a/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/Installing-the-Windows-PowerShell-SDK.bfd31a5fc654dd34236aff66cf62844476672b64.ja-jp.xlf)
+* Handback Datetime: 2016-09-23 13:28:34
 * [Back to Top](#report-top)
 
 ##### <a name='00249ec98e1624a949fe11fee8be9e93018578a9311'></a> Source: [scripting\setup\Installing-Windows-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/setup/Installing-Windows-PowerShell.md)
