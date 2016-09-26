@@ -2,11 +2,13 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-22243b3" tool-company="Microsoft" />
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f864850128f118704d7545b09110835ab1d51b8e</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1b35a25312b44d14ec8771be9e17aaa43e270b61</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\features-scenarios-cache\ps-engine-enhancements.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">053dd0510b5394003df383d6b0689e0f158b3898</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">597120c728c2652f0003fa53ca65d3c20b8078e5</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -32,7 +34,7 @@
           <source>Pipelining to cmdlets like ForEach-Object and Where-Object is approximately 50% faster</source>
           <target state="translated">Pipelining ai cmdlet quali ForEach-Object e Where-Object più veloce del 50% circa</target>       </trans-unit>
         <trans-unit id="108" translate="yes" xml:space="preserve">
-          <source>Some example improvements (resuls may vary depending your your hardware):</source>
+          <source>Some example improvements (results may vary depending on your hardware):</source>
           <target state="translated">Alcuni miglioramenti di esempio (i risultati possono variare in base all'hardware):</target>       </trans-unit>
         <trans-unit id="109" translate="yes" xml:space="preserve">
           <source>Scenario</source>
@@ -77,7 +79,7 @@
           <source>One change related to startup may impact some (unsupported) scenarios.</source>
           <target state="translated">Una modifica correlata all'avvio può avere impatto su alcuni scenari non supportati.</target>       </trans-unit>
         <trans-unit id="123" translate="yes" xml:space="preserve">
-          <source>PowerShell no longer reads the files <ph id="ph1">`$pshome\*.ps1xml`</ph> - these files have been converted to C# to avoid some file and cpu overhead of processing the xml files.</source>
+          <source>PowerShell no longer reads the files <ph id="ph1">`$pshome\*.ps1xml`</ph> - these files have been converted to C# to avoid some file and CPU overhead of processing the XML files.</source>
           <target state="translated">PowerShell non legge i file <ph id="ph1">`$pshome\*.ps1xml`</ph>: questi file sono stati convertiti in C# per evitare il sovraccarico dell'elaborazione di file XML da parte di alcuni file e della CPU.</target>       </trans-unit>
         <trans-unit id="124" translate="yes" xml:space="preserve">
           <source>The files still exist to support V2 side-by-side, so if you change the file contents, it will not have any effect to V5, only V2.</source>
@@ -125,8 +127,8 @@
           <source>File redirection no longer hard-codes</source>
           <target state="translated">Reindirizzamento del file non più come hardcoded</target>       </trans-unit>
         <trans-unit id="139" translate="yes" xml:space="preserve">
-          <source>In all previous versions of PowerShell, it was impossible to control the file encoding used by the file redirection operator, e.g. <ph id="ph1">`get-childitem &gt; out.txt`</ph> because PowerShell added <ph id="ph2">`-Encoding Unicode`</ph>.</source>
-          <target state="translated">In tutte le versioni precedenti di PowerShell, non era possibile controllare la codifica del file usato dall'operatore di reindirizzamento di file, ad esempio <ph id="ph1">`get-childitem &gt; out.txt`</ph> perché PowerShell aveva aggiunto <ph id="ph2">`-Encoding Unicode`</ph>.</target>       </trans-unit>
+          <source>In all previous versions of PowerShell, it was impossible to control the file encoding used by the file redirection operator, e.g. <ph id="ph1">`Get-ChildItem &gt; out.txt`</ph> because PowerShell added <ph id="ph2">`-Encoding Unicode`</ph>.</source>
+          <target state="translated">In tutte le versioni precedenti di PowerShell, non era possibile controllare la codifica del file usato dall'operatore di reindirizzamento di file, ad esempio <ph id="ph1">`Get-ChildItem &gt; out.txt`</ph>, perché PowerShell aveva aggiunto <ph id="ph2">`-Encoding Unicode`</ph>.</target>       </trans-unit>
         <trans-unit id="140" translate="yes" xml:space="preserve">
           <source>Starting with WMF 5.1, you can now change the file encoding of redirection by setting <ph id="ph1">`$PSDefaultParameterValues`</ph>, e.g.</source>
           <target state="translated">A partire da WMF 5.1, è ora possibile modificare la codifica del file di reindirizzamento impostando <ph id="ph1">`$PSDefaultParameterValues`</ph>, ad esempio</target>       </trans-unit>
@@ -137,8 +139,8 @@
           <source>A regression introduced in WMF5 broke accessing members of <ph id="ph1">`System.Reflection.RuntimeType`</ph>, e.g. <ph id="ph2">`[int].ImplementedInterfaces`</ph>.</source>
           <target state="translated">Una regressione introdotta in WMF 5.0 interrompeva l'accesso ai membri di <ph id="ph1">`System.Reflection.RuntimeType`</ph>, ad esempio <ph id="ph2">`[int].ImplementedInterfaces`</ph>.</target>       </trans-unit>
         <trans-unit id="143" translate="yes" xml:space="preserve">
-          <source>This bug has been fixed in WMF5.1.</source>
-          <target state="translated">Questo bug è stato risolto in WMF 5.1.</target>       </trans-unit>
+          <source>This bug has been fixed in WMF 5.1.</source>
+          <target state="translated">Questo bug è stato corretto in WMF 5.1.</target>       </trans-unit>
         <trans-unit id="144" translate="yes" xml:space="preserve">
           <source>Fixed some issues with COM objects</source>
           <target state="translated">Risolti alcuni problemi con gli oggetti COM</target>       </trans-unit>
@@ -146,7 +148,7 @@
           <source>WMF5 introduced a new COM binder for invoking methods on COM objects and accessing properties of COM objects.</source>
           <target state="translated">In WMF 5.0 è stato introdotto un nuovo strumento di associazione COM per richiamare metodi su oggetti COM e accedere alle proprietà degli oggetti COM.</target>       </trans-unit>
         <trans-unit id="146" translate="yes" xml:space="preserve">
-          <source>This new binder improved performance significantly but also introduced some bugs which have been fixed in WMF5.1.</source>
+          <source>This new binder improved performance significantly but also introduced some bugs which have been fixed in WMF 5.1.</source>
           <target state="translated">Questo nuovo strumento di associazione ha migliorato in modo significativo le prestazioni e ha inoltre introdotto alcuni bug che sono stati corretti in WMF 5.1.</target>       </trans-unit>
         <trans-unit id="147" translate="yes" xml:space="preserve">
           <source>Argument conversions were not always performed correctly</source>
@@ -176,8 +178,8 @@
           <source>WMF5 introduced classes with validation of type literals used in classes.</source>
           <target state="translated">In WMF 5 sono state introdotte classi con la convalida dei valori letterali di tipo per le classi.</target>       </trans-unit>
         <trans-unit id="156" translate="yes" xml:space="preserve">
-          <source>looks like a type literal but is not a true .Net type.</source>
-          <target state="translated">è simile a un valore letterale di tipo ma non è un tipo .Net.</target>       </trans-unit>
+          <source>looks like a type literal but is not a true .NET type.</source>
+          <target state="translated">è simile a un valore letterale di tipo, ma non è un tipo .NET.</target>       </trans-unit>
         <trans-unit id="157" translate="yes" xml:space="preserve">
           <source>WMF5 incorrectly reported an error on <ph id="ph1">`[ordered]`</ph> inside a class:</source>
           <target state="translated">WMF 5 restituiva erroneamente un errore relativo a <ph id="ph1">`[ordered]`</ph> in una classe:</target>       </trans-unit>
