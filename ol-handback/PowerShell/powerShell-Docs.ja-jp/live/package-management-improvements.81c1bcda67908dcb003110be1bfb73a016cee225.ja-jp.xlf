@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">615bdf1a82dc5078ee2f37eec70a64e25b42bda2</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\package-management-improvements.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">95ffcb1b44800d5f96e670b3bbb48609f8ccb98a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">33124b42cdf3e3e365ae2377bbf355562553421f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Improvements to Package Management in WMF 5.1 (Preview)</source>
+          <target state="translated">WMF 5.1 のパッケージ管理の機能強化 (プレビュー)</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>PowerShell, DSC, WMF</source>
+          <target state="translated">PowerShell, DSC, WMF</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Improvements to Package Management in WMF 5.1 (Preview)</source>
+          <target state="translated">WMF 5.1 のパッケージ管理の機能強化 (プレビュー)</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Improvements in PackageManagement</source>
+          <target state="translated">パッケージ管理の機能強化</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The following are the fixes made in the WMF 5.1:</source>
+          <target state="translated">WMF 5.1 で行われた修正:</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Version Alias</source>
+          <target state="translated">バージョン エイリアス</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Scenario<ept id="p1">**</ept>: If you have version 1.0 and 2.0 of a package, P1, installed on your system, and you want to uninstall version 1.0, you would run <ph id="ph1">`Uninstall-Package -Name P1 -Version 1.0`</ph> and expect version 1.0 to be uninstalled after running the cmdlet.</source>
+          <target state="translated"><bpt id="p1">**</bpt>シナリオ<ept id="p1">**</ept>: パッケージ P1 のバージョン 1.0 および 2.0 がシステムにインストールされていて、バージョン 1.0 をアンインストールしたい場合、<ph id="ph1">`Uninstall-Package -Name P1 -Version 1.0`</ph> を実行し、このコマンドレットを実行するとバージョン 1.0 がアンインストールされるものと期待します。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>However the result is that version 2.0 gets uninstalled.</source>
+          <target state="translated">しかし、結果はバージョン 2.0 がアンインストールされます。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This occurs because the <ph id="ph1">`-Version`</ph> parameter is an alias of the <ph id="ph2">`-MinimumVersion`</ph> parameter.</source>
+          <target state="translated">このようになるのは、<ph id="ph1">`-Version`</ph> パラメーターが <ph id="ph2">`-MinimumVersion`</ph> パラメーターのエイリアスであるためです。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>When PackageManagement is looking for a qualified package with the minimum version of 1.0, it returns the latest version.</source>
+          <target state="translated">PackageManagement は、最小バージョンが 1.0 という条件を満たすパッケージを探して、最新のバージョンを返します。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This behavior is expected in normal cases because finding the latest version is usually the desired result.</source>
+          <target state="translated">たいていの場合は最新バージョンを探すのが目的の結果なので、この動作は通常であれば想定したものです。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>However, it should not apply to the <ph id="ph1">`Uninstall-Package`</ph> case.</source>
+          <target state="translated">ただし、<ph id="ph1">`Uninstall-Package`</ph> の場合には当てはまりません。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Solution<ept id="p1">**</ept>:removed <ph id="ph1">`-Version`</ph> alias entirely in PackageManagement (a.k.a.</source>
+          <target state="translated"><bpt id="p1">**</bpt>解決策<ept id="p1">**</ept>: PackageManagement (別名 OneGet) および PowerShellGet で <ph id="ph1">`-Version`</ph> エイリアス全体を削除しました</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>OneGet) and PowerShellGet.</source>
+          <target state="translated">。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Multiple prompts for bootstrapping the NuGet provider</source>
+          <target state="translated">NuGet プロバイダーのブートストラップに対する複数のプロンプト</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Scenario<ept id="p1">**</ept>: When you run <ph id="ph1">`Find-Module`</ph> or <ph id="ph2">`Install-Module`</ph> or other PackageManagement cmdlets on your computer for the first time, PackageManagement tries to bootstrap the NuGet provider.</source>
+          <target state="translated"><bpt id="p1">**</bpt>シナリオ<ept id="p1">**</ept>: <ph id="ph1">`Find-Module`</ph>、<ph id="ph2">`Install-Module`</ph> または他の PackageManagement コマンドレットをコンピューターで初めて実行すると、PackageManagement は NuGet プロバイダーをブートストラップしようとします。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>It does this because the PowerShellGet provider also uses the NuGet provider to download PowerShell modules.</source>
+          <target state="translated">これは、PowerShellGet プロバイダーは PowerShell モジュールをダウンロードするために NuGet プロバイダーも使用するためです。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>PackageManagement then prompts the user for permission to install the NuGet provider.</source>
+          <target state="translated">そのとき、PackageManagement は NuGet プロバイダーをインストールする許可をユーザーに求めます。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>After the user selects "yes" for the bootstrapping, the latest version of the NuGet provider will be installed.</source>
+          <target state="translated">ユーザーがブートストラップに対して "はい" を選択すると、最新バージョンの NuGet プロバイダーがインストールされます。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>However, in some cases, when you have an old version of NuGet provider installed on your computer, the older version of NuGet sometimes gets loaded first into the PowerShell session (that's the race condition in PackageManagement).</source>
+          <target state="translated">ただし、古いバージョンの NuGet プロバイダーがコンピューターにインストールされている場合があり、古いバージョンの NuGet が PowerShell セッションに最初に読み込まれることがあります (PackageManagement での競合状態)。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>However PowerShellGet requires the later version of the NuGet provider to work, so PowerShellGet asks PackageManagement to bootstrap the NuGet provider again.</source>
+          <target state="translated">ただし、PowerShellGet が動作するには新しいバージョンの NuGet プロバイダーが必要なので、PowerShellGet は PackageManagement に NuGet プロバイダーのブートストラップを再び要求します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This results in multiple prompts for bootstrapping the NuGet provider.</source>
+          <target state="translated">これにより、NuGet プロバイダーのブートストラップで複数のプロンプトが表示されます。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Solution<ept id="p1">**</ept>: In WMF5.1, PackageManagement loads the latest version of the NuGet provider to avoid multiple prompts for bootstrapping the NuGet provider.</source>
+          <target state="translated"><bpt id="p1">**</bpt>解決策<ept id="p1">**</ept>: WMF 5.1 では、PackageManagement は、NuGet プロバイダーのブートストラップに対して複数のプロンプトが表示されるのを避けるため、NuGet プロバイダーの最新バージョンを読み込むようになっています。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You could also work around this issue by manually deleting the old version of the NuGet provider (NuGet-Anycpu.exe) if exists from $env:ProgramFiles\PackageManagement\ProviderAssemblies $env:LOCALAPPDATA\PackageManagement\ProviderAssemblies</source>
+          <target state="translated">この問題を回避策することもできます。古いバージョンの NuGet プロバイダー (NuGet-Anycpu.exe) が存在する場合は、$env:ProgramFiles\PackageManagement\ProviderAssemblies または $env:LOCALAPPDATA\PackageManagement\ProviderAssemblies から手動で削除します。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Support for PackageManagement on computers with Intranet access only</source>
+          <target state="translated">イントラネット アクセスのみのコンピューターでの PackageManagement のサポート</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Scenario<ept id="p1">**</ept>: For the enterprise scenario, people are working under an environment where there is no Internet access but Intranet only.</source>
+          <target state="translated"><bpt id="p1">**</bpt>シナリオ<ept id="p1">**</ept>: エンタープライズのシナリオで、ユーザーはイントラネットのみでインターネット アクセスのない環境で作業しています。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>PackageManagement did not support this case in WMF 5.0.</source>
+          <target state="translated">PackageManagement は WMF 5.0 でこのケースをサポートしていませんでした。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Scenario<ept id="p1">**</ept>: In WMF 5.0, PackageManagement did not support computers that have only Intranet (but not Internet) access.</source>
+          <target state="translated"><bpt id="p1">**</bpt>シナリオ<ept id="p1">**</ept>: WMF 5.0 の PackageManagement は、イントラネット アクセスしかない (インターネットにアクセスできない) コンピューターをサポートしませんでした。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Solution<ept id="p1">**</ept>: In WMF 5.1, you can follow these steps to allow Intranet computers to use PackageManagement:</source>
+          <target state="translated"><bpt id="p1">**</bpt>解決策<ept id="p1">**</ept>: WMF 5.1 では、以下のようにして、イントラネット接続のみのコンピューターで PackageManagement を使用できます。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Download the NuGet provider using another computer that has an Internet connection by using <ph id="ph1">`Install-PackageProvider -Name NuGet`</ph>.</source>
+          <target state="translated">インターネットに接続できる別のコンピューターで、<ph id="ph1">`Install-PackageProvider -Name NuGet`</ph> を使用して、NuGet プロバイダーをダウンロードします。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Find the NuGet provider under either <ph id="ph1">`$env:ProgramFiles\PackageManagement\ProviderAssemblies\nuget`</ph>  or  <ph id="ph2">`$env:LOCALAPPDATA\PackageManagement\ProviderAssemblies\nuget`</ph>.</source>
+          <target state="translated"><ph id="ph1">`$env:ProgramFiles\PackageManagement\ProviderAssemblies\nuget`</ph> または <ph id="ph2">`$env:LOCALAPPDATA\PackageManagement\ProviderAssemblies\nuget`</ph> のいずれかで NuGet プロバイダーを見つけます。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Copy the binaries to a folder or network share location that the Intranet computer can access, and then install the NuGet provider with <ph id="ph1">`Install-PackageProvider -Name NuGet -Source &lt;Path to folder&gt;`</ph>.</source>
+          <target state="translated">イントラネット コンピューターがアクセスできるフォルダーまたはネットワーク共有の場所にバイナリをコピーし、<ph id="ph1">`Install-PackageProvider -Name NuGet -Source &lt;Path to folder&gt;`</ph> を使用して NuGet プロバイダーをインストールします。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Event logging improvements</source>
+          <target state="translated">イベント ログの機能強化</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>When you install packages, you are changing the state of the computer.</source>
+          <target state="translated">パッケージをインストールすると、コンピューターの状態が変化します。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>In WMF 5.1, PackageManagement now logs events to the Windows event log for <ph id="ph1">`Install-Package`</ph>, <ph id="ph2">`Uninstall-Package`</ph>, and <ph id="ph3">`Save-Package`</ph> activities.</source>
+          <target state="translated">WMF 5.1 の PackageManagement は、<ph id="ph1">`Install-Package`</ph>、<ph id="ph2">`Uninstall-Package`</ph>、<ph id="ph3">`Save-Package`</ph> アクティビティのイベントを Windows イベント ログに記録するようになりました。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The Event log  is the same as for PowerShell, that is, <ph id="ph1">`Microsoft-Windows-PowerShell, Operational`</ph>.</source>
+          <target state="translated">イベント ログは PowerShell の場合と同じで、<ph id="ph1">`Microsoft-Windows-PowerShell, Operational`</ph> です。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Support for basic authentication</source>
+          <target state="translated">基本認証のサポート</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>In WMF 5.1, PackageManagement supports finding and installing packages from a repository that requires basic authentication.</source>
+          <target state="translated">WMF 5.1 の PackageManagement は、基本認証を必要とするリポジトリからのパッケージの検索とインストールをサポートします。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You can supply your credentials to the <ph id="ph1">`Find-Package`</ph> and <ph id="ph2">`Install-Package`</ph> cmdlets.</source>
+          <target state="translated"><ph id="ph1">`Find-Package`</ph> および <ph id="ph2">`Install-Package`</ph> コマンドレットに資格情報を渡すことができます。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">たとえば、次のように入力します。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Support for using PackageManagement behind a proxy</source>
+          <target state="translated">プロキシの背後での PackageManagement の使用のサポート</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>In WMF 5.1, PackageManagement now takes new proxy parameters <ph id="ph1">`-ProxyCredential`</ph> and <ph id="ph2">`-Proxy`</ph>.</source>
+          <target state="translated">WMF 5.1 の PackageManagement は、新しいプロキシ パラメーター <ph id="ph1">`-ProxyCredential`</ph> と <ph id="ph2">`-Proxy`</ph> を受け取るようになりました。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Using these parameters, you can specify the proxy URL and credentials to PackageManagement cmdlets.</source>
+          <target state="translated">これらのパラメーターを使用すると、プロキシの URL と資格情報を PackageManagement コマンドレットに対して指定できます。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>By default, system proxy settings are used.</source>
+          <target state="translated">既定では、システムのプロキシ設定が使用されます。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">たとえば、次のように入力します。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

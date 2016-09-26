@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">615bdf1a82dc5078ee2f37eec70a64e25b42bda2</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\package-management-improvements.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">95ffcb1b44800d5f96e670b3bbb48609f8ccb98a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">33124b42cdf3e3e365ae2377bbf355562553421f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Improvements to Package Management in WMF 5.1 (Preview)</source>
+          <target state="translated">Усовершенствования в управлении пакетами в WMF 5.1 (предварительная версия)</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>PowerShell, DSC, WMF</source>
+          <target state="translated">PowerShell, DSC, WMF</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Improvements to Package Management in WMF 5.1 (Preview)</source>
+          <target state="translated">Усовершенствования в управлении пакетами в WMF 5.1 (предварительная версия)</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Improvements in PackageManagement</source>
+          <target state="translated">Усовершенствования в управлении пакетами</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The following are the fixes made in the WMF 5.1:</source>
+          <target state="translated">Ниже перечислены исправления, внесенные в WMF 5.1.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Version Alias</source>
+          <target state="translated">Псевдоним версии</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Scenario<ept id="p1">**</ept>: If you have version 1.0 and 2.0 of a package, P1, installed on your system, and you want to uninstall version 1.0, you would run <ph id="ph1">`Uninstall-Package -Name P1 -Version 1.0`</ph> and expect version 1.0 to be uninstalled after running the cmdlet.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Ситуация<ept id="p1">**</ept>. Если в системе установлены версии 1.0 и 2.0 пакета P1 и вы хотите удалить версию 1.0, вы выполняете команду <ph id="ph1">`Uninstall-Package -Name P1 -Version 1.0`</ph>. При этом вы ожидаете, что после выполнения командлета будет удалена версия 1.0.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>However the result is that version 2.0 gets uninstalled.</source>
+          <target state="translated">Но в результате удаляется версия 2.0.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This occurs because the <ph id="ph1">`-Version`</ph> parameter is an alias of the <ph id="ph2">`-MinimumVersion`</ph> parameter.</source>
+          <target state="translated">Это происходит потому, что параметр <ph id="ph1">`-Version`</ph> является псевдонимом параметра <ph id="ph2">`-MinimumVersion`</ph>.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>When PackageManagement is looking for a qualified package with the minimum version of 1.0, it returns the latest version.</source>
+          <target state="translated">Когда модуль PackageManagement ищет подходящий пакет с минимальной версией 1.0, он возвращает последнюю версию.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This behavior is expected in normal cases because finding the latest version is usually the desired result.</source>
+          <target state="translated">Такое поведение является нормальным в большинстве случаев, так как обычно требуется найти именно последнюю версию.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>However, it should not apply to the <ph id="ph1">`Uninstall-Package`</ph> case.</source>
+          <target state="translated">Но в случае с <ph id="ph1">`Uninstall-Package`</ph> ситуация иная.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Solution<ept id="p1">**</ept>:removed <ph id="ph1">`-Version`</ph> alias entirely in PackageManagement (a.k.a.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Решение<ept id="p1">**</ept>. Полностью удалить псевдоним <ph id="ph1">`-Version`</ph> в PackageManagement (так называемом</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>OneGet) and PowerShellGet.</source>
+          <target state="translated">OneGet) и PowerShellGet.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Multiple prompts for bootstrapping the NuGet provider</source>
+          <target state="translated">Несколько запросов на начальную загрузку поставщика NuGet</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Scenario<ept id="p1">**</ept>: When you run <ph id="ph1">`Find-Module`</ph> or <ph id="ph2">`Install-Module`</ph> or other PackageManagement cmdlets on your computer for the first time, PackageManagement tries to bootstrap the NuGet provider.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Ситуация<ept id="p1">**</ept>. При первом выполнении командлета <ph id="ph1">`Find-Module`</ph>, <ph id="ph2">`Install-Module`</ph> или других командлетов PackageManagement на компьютере модуль PackageManagement пытается выполнить начальную загрузку поставщика NuGet.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>It does this because the PowerShellGet provider also uses the NuGet provider to download PowerShell modules.</source>
+          <target state="translated">Связано это с тем, что поставщик PowershellGet также использует поставщик NuGet для скачивания модулей PowerShell.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>PackageManagement then prompts the user for permission to install the NuGet provider.</source>
+          <target state="translated">Затем модуль PackageManagement запрашивает у пользователя разрешение на установку поставщика NuGet.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>After the user selects "yes" for the bootstrapping, the latest version of the NuGet provider will be installed.</source>
+          <target state="translated">После того как пользователь разрешает начальную загрузку, устанавливается последняя версия поставщика NuGet.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>However, in some cases, when you have an old version of NuGet provider installed on your computer, the older version of NuGet sometimes gets loaded first into the PowerShell session (that's the race condition in PackageManagement).</source>
+          <target state="translated">Но если на компьютере установлена старая версия поставщика NuGet, она иногда может загружаться первой в сеанс PowerShell (и в PackageManagement возникает состояние гонки).</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>However PowerShellGet requires the later version of the NuGet provider to work, so PowerShellGet asks PackageManagement to bootstrap the NuGet provider again.</source>
+          <target state="translated">Но модуль PowerShellGet требует, чтобы работала последняя версия поставщика NuGet, поэтому он еще раз запрашивает начальную загрузку поставщика NuGet у модуля PackageManagement.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This results in multiple prompts for bootstrapping the NuGet provider.</source>
+          <target state="translated">Это приводит к выводу нескольких запросов на начальную загрузку поставщика NuGet.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Solution<ept id="p1">**</ept>: In WMF5.1, PackageManagement loads the latest version of the NuGet provider to avoid multiple prompts for bootstrapping the NuGet provider.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Решение<ept id="p1">**</ept>. В WMF 5.1 модуль PackageManagement теперь загружает последнюю версию поставщика NuGet во избежание вывода нескольких запросов на начальную загрузку поставщика NuGet.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You could also work around this issue by manually deleting the old version of the NuGet provider (NuGet-Anycpu.exe) if exists from $env:ProgramFiles\PackageManagement\ProviderAssemblies $env:LOCALAPPDATA\PackageManagement\ProviderAssemblies</source>
+          <target state="translated">Также имеется обходной путь: вы можете вручную удалить старую версию поставщика NuGet (NuGet-Anycpu.exe), если она существует, из папок $env:ProgramFiles\PackageManagement\ProviderAssemblies и $env:LOCALAPPDATA\PackageManagement\ProviderAssemblies</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Support for PackageManagement on computers with Intranet access only</source>
+          <target state="translated">Поддержка PackageManagement на компьютерах с доступом только к интрасети</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Scenario<ept id="p1">**</ept>: For the enterprise scenario, people are working under an environment where there is no Internet access but Intranet only.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Ситуация<ept id="p1">**</ept>. В средах предприятий у пользователей может быть доступ только к интрасети, но не к Интернету.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>PackageManagement did not support this case in WMF 5.0.</source>
+          <target state="translated">Модуль PackageManagement не поддерживал такую ситуацию в WMF 5.0.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Scenario<ept id="p1">**</ept>: In WMF 5.0, PackageManagement did not support computers that have only Intranet (but not Internet) access.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Ситуация<ept id="p1">**</ept>. В WMF 5.0 модуль PackageManagement не поддерживался на компьютерах с доступом только к интрасети (но не к Интернету).</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Solution<ept id="p1">**</ept>: In WMF 5.1, you can follow these steps to allow Intranet computers to use PackageManagement:</source>
+          <target state="translated"><bpt id="p1">**</bpt>Решение<ept id="p1">**</ept>. Чтобы обеспечить использование PackageManagement на компьютерах в интрасети, в WMF 5.1 можно выполнить указанные ниже действия.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Download the NuGet provider using another computer that has an Internet connection by using <ph id="ph1">`Install-PackageProvider -Name NuGet`</ph>.</source>
+          <target state="translated">Скачайте поставщик NuGet с другого компьютера, имеющего подключение к Интернету, выполнив команду <ph id="ph1">`Install-PackageProvider -Name NuGet`</ph>.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Find the NuGet provider under either <ph id="ph1">`$env:ProgramFiles\PackageManagement\ProviderAssemblies\nuget`</ph>  or  <ph id="ph2">`$env:LOCALAPPDATA\PackageManagement\ProviderAssemblies\nuget`</ph>.</source>
+          <target state="translated">Поставщик NuGet находится в <ph id="ph1">`$env:ProgramFiles\PackageManagement\ProviderAssemblies\nuget`</ph> или <ph id="ph2">`$env:LOCALAPPDATA\PackageManagement\ProviderAssemblies\nuget`</ph>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Copy the binaries to a folder or network share location that the Intranet computer can access, and then install the NuGet provider with <ph id="ph1">`Install-PackageProvider -Name NuGet -Source &lt;Path to folder&gt;`</ph>.</source>
+          <target state="translated">Скопируйте двоичные файлы в папку или сетевую папку, к которой есть доступ у компьютера в интрасети, и установите поставщик NuGet, выполнив команду <ph id="ph1">`Install-PackageProvider -Name NuGet -Source &lt;Path to folder&gt;`</ph>.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Event logging improvements</source>
+          <target state="translated">Усовершенствования, касающиеся ведения журнала событий</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>When you install packages, you are changing the state of the computer.</source>
+          <target state="translated">При установке пакетов состояние компьютера меняется.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>In WMF 5.1, PackageManagement now logs events to the Windows event log for <ph id="ph1">`Install-Package`</ph>, <ph id="ph2">`Uninstall-Package`</ph>, and <ph id="ph3">`Save-Package`</ph> activities.</source>
+          <target state="translated">В WMF 5.1 модуль PackageManagement записывает события в журнал событий Windows для действий <ph id="ph1">`Install-Package`</ph>, <ph id="ph2">`Uninstall-Package`</ph> и <ph id="ph3">`Save-Package`</ph>.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The Event log  is the same as for PowerShell, that is, <ph id="ph1">`Microsoft-Windows-PowerShell, Operational`</ph>.</source>
+          <target state="translated">Журнал событий совпадает с журналом событий для PowerShell, т. е. <ph id="ph1">`Microsoft-Windows-PowerShell, Operational`</ph>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Support for basic authentication</source>
+          <target state="translated">Поддержка обычной проверки подлинности</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>In WMF 5.1, PackageManagement supports finding and installing packages from a repository that requires basic authentication.</source>
+          <target state="translated">В WMF 5.1 модуль PackageManagement поддерживает поиск и установку пакетов из репозитория, требующего обычной проверки подлинности.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You can supply your credentials to the <ph id="ph1">`Find-Package`</ph> and <ph id="ph2">`Install-Package`</ph> cmdlets.</source>
+          <target state="translated">Можно указать учетные данные в командлетах <ph id="ph1">`Find-Package`</ph> и <ph id="ph2">`Install-Package`</ph>.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">Например:</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Support for using PackageManagement behind a proxy</source>
+          <target state="translated">Поддержка использования PackageManagement через прокси-сервер</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>In WMF 5.1, PackageManagement now takes new proxy parameters <ph id="ph1">`-ProxyCredential`</ph> and <ph id="ph2">`-Proxy`</ph>.</source>
+          <target state="translated">В WMF 5.1 модуль PackageManagement принимает новые параметры прокси-сервера, <ph id="ph1">`-ProxyCredential`</ph> и <ph id="ph2">`-Proxy`</ph>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Using these parameters, you can specify the proxy URL and credentials to PackageManagement cmdlets.</source>
+          <target state="translated">В этих параметрах можно указать URL-адрес и учетные данные прокси-сервера для командлетов PackageManagement.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>By default, system proxy settings are used.</source>
+          <target state="translated">По умолчанию используются системные настройки прокси-сервера.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">Например:</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
