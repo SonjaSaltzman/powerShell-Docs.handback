@@ -7,10 +7,10 @@
 [ Handoff Failed Files ](#handoff-failed-list)| 0
 [ Handoff Success Files ](#handoff-success-list)| 7
 [ Archive Failed Files ](#archive-failed-list)| 0
-[ Archive Success Files ](#archive-success-list)| 301
+[ Archive Success Files ](#archive-success-list)| 300
 [ Handback Failed Files ](#handback-failed-list)| 1
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
-[ In Sync Handback Files ](#insync-handback-success-list)| 107
+[ In Sync Handback Files ](#insync-handback-success-list)| 108
 [ Ignored Files ](#ignored-list)| 40
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
@@ -35,7 +35,6 @@
  [dsc\authoringResource.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/authoringResource.md) | ArchivedSuccess | [Details](#5b43723f7b14eb4bca06d0430b5981c3663c58016)
  [dsc\authoringResourceClass.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/authoringResourceClass.md) | ArchivedSuccess | [Details](#553ef07e42a4c41e5f0dc9e80c54f828d9c625c37)
  [dsc\authoringResourceComposite.md](https://github.com/PowerShell/powerShell-Docs/blob/48cfed9e0c31e24c441eafb388a799bd7fc7415f/dsc/authoringResourceComposite.md) | ArchivedSuccess | [Details](#6631d60d7d82e71c315c26a0196aa3e4c1b60b158)
- [dsc\authoringResourceMOF.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/authoringResourceMOF.md) | ArchivedSuccess | [Details](#4d685e518acd3a18f4872417b645dbe66f7584219)
  [dsc\authoringResourceMofCS.md](https://github.com/PowerShell/powerShell-Docs/blob/644d08a69a8bb70f49e12c1504aa46c4b57a51fc/dsc/authoringResourceMofCS.md) | ArchivedSuccess | [Details](#991a324945289b2eff0b706d093b2d345352fb1510)
  [dsc\authoringResourceMofDesigner.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/authoringResourceMofDesigner.md) | ArchivedSuccess | [Details](#be2141330dda803a22fdce6d65a1e379adf14fed11)
  [dsc\builtInResource.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/builtInResource.md) | ArchivedSuccess | [Details](#ea312b4e773cd8b0eceeca123e616957728eb1c612)
@@ -343,6 +342,7 @@
 ## <a name='insync-handback-success-list'></a> In Sync Handback File Success List
  Source File | Status | Details 
  ----------- | ------ | ------- 
+ [dsc\authoringResourceMOF.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/authoringResourceMOF.md) | InSyncHandedBackSuccess | [Details](#4d685e518acd3a18f4872417b645dbe66f7584219)
  [dsc\configurations.md](https://github.com/PowerShell/powerShell-Docs/blob/6c5f3d3321b7e50215cf58267e1864b7da827764/dsc/configurations.md) | InSyncHandedBackSuccess | [Details](#d84bb35ada3588367436e6f5e3c6696b90c3661b16)
  [dsc\logResource.md](https://github.com/PowerShell/powerShell-Docs/blob/62f993e3d3e6ef744fb07920d332d476dfd24fc6/dsc/logResource.md) | InSyncHandedBackSuccess | [Details](#60085295fa7df6179a81cd98859cd33e6923150f46)
  [dsc\metaConfig.md](https://github.com/PowerShell/powerShell-Docs/blob/140f60bf7344eae57e2b5d364464bc0b7c1a2220/dsc/metaConfig.md) | InSyncHandedBackSuccess | [Details](#5d37938869a71bea0d8a6349e680411b7d0200d948)
@@ -605,15 +605,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='4d685e518acd3a18f4872417b645dbe66f7584219'></a> Source: [dsc\authoringResourceMOF.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/authoringResourceMOF.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [dsc\authoringResourceMOF.md](https://github.com/PowerShell/powerShell-Docs.it-it/blob/4e6bd8510d2fd6aa4a1342df1d8468930bfba872/dsc/authoringResourceMOF.md)
 * Handoff File: [authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/df31581b5f234fffdffaba59452e0a54f7370afd/ol-handoff/PowerShell/powerShell-Docs.it-it/live/authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.it-it.xlf)
 * Handoff Datetime: 2016-08-18 01:35:47
 * Handoff Reason: Include
 * Archive File: [authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/e0bd158f805fd2211dc3f6dbfcb0f53160a0c6f6/ol-archive/PowerShell/powerShell-Docs.it-it/live/authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.it-it.xlf)
 * Archive Datetime: 2016-08-23 13:37:08
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
+* Handback File: [authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/10ed7d3ec2babe9dc2405121cff783e06cfa4caa/ol-handback/PowerShell/powerShell-Docs.it-it/live/authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.it-it.xlf)
+* Handback Datetime: 2016-09-27 04:47:21
 * [Back to Top](#report-top)
 
 ##### <a name='991a324945289b2eff0b706d093b2d345352fb1510'></a> Source: [dsc\authoringResourceMofCS.md](https://github.com/PowerShell/powerShell-Docs/blob/644d08a69a8bb70f49e12c1504aa46c4b57a51fc/dsc/authoringResourceMofCS.md)
