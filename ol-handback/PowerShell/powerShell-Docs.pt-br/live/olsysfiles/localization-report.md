@@ -3260,8 +3260,8 @@
 * Archive Datetime: 2016-09-27 13:11:54
 * Handback File: [The-ISEEditor-Object.723c3ba4fe972736507c0e35656406bb8dd96b01.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/d49d99ec2c2a2a452c2bfa1a45a75e5d9f6fe2a7/ol-handback/PowerShell/powerShell-Docs.pt-br/live/The-ISEEditor-Object.723c3ba4fe972736507c0e35656406bb8dd96b01.pt-br.xlf)
 * Handback Datetime: 2016-09-27 14:54:57
-* Bilingual File: [The-ISEEditor-Object.723c3ba4fe972736507c0e35656406bb8dd96b01.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/4f946a84fdb75dd414ceae03a50b12ff7064acb7/ol-handback/PowerShell/powerShell-Docs.pt-br/live/The-ISEEditor-Object.723c3ba4fe972736507c0e35656406bb8dd96b01.pt-br.xlf)
-* Bilingual Datetime: 2016-09-07 02:38:38
+* Bilingual File: [The-ISEEditor-Object.723c3ba4fe972736507c0e35656406bb8dd96b01.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/d49d99ec2c2a2a452c2bfa1a45a75e5d9f6fe2a7/ol-handback/PowerShell/powerShell-Docs.pt-br/live/The-ISEEditor-Object.723c3ba4fe972736507c0e35656406bb8dd96b01.pt-br.xlf)
+* Bilingual Datetime: 2016-09-27 14:56:10
 * [Back to Top](#report-top)
 
 ##### <a name='c334a38d6686be45101f4569f38411e9703c8fea228'></a> Source: [scripting\core-powershell\ise\The-ISEFileCollection-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/ise/The-ISEFileCollection-Object.md)
