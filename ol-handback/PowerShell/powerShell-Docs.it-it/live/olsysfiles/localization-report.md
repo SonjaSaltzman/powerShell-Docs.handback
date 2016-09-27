@@ -2832,8 +2832,8 @@
 * Archive Datetime: 2016-09-27 13:11:38
 * Handback File: [PowerShell.exe-Command-Line-Help.40e957a31e9460d52f195b5f1ce8890c354d85ca.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/5146123cdacb739b8e21cb4f7a8e379c20bb2ca3/ol-handback/PowerShell/powerShell-Docs.it-it/live/PowerShell.exe-Command-Line-Help.40e957a31e9460d52f195b5f1ce8890c354d85ca.it-it.xlf)
 * Handback Datetime: 2016-09-27 14:27:09
-* Bilingual File: [PowerShell.exe-Command-Line-Help.40e957a31e9460d52f195b5f1ce8890c354d85ca.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/6dbfe1e9244ad879334249a2156f2c4579204c2b/ol-handback/PowerShell/powerShell-Docs.it-it/live/PowerShell.exe-Command-Line-Help.40e957a31e9460d52f195b5f1ce8890c354d85ca.it-it.xlf)
-* Bilingual Datetime: 2016-09-07 01:32:25
+* Bilingual File: [PowerShell.exe-Command-Line-Help.40e957a31e9460d52f195b5f1ce8890c354d85ca.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/5146123cdacb739b8e21cb4f7a8e379c20bb2ca3/ol-handback/PowerShell/powerShell-Docs.it-it/live/PowerShell.exe-Command-Line-Help.40e957a31e9460d52f195b5f1ce8890c354d85ca.it-it.xlf)
+* Bilingual Datetime: 2016-09-27 14:29:27
 * [Back to Top](#report-top)
 
 ##### <a name='fd950429d80972b6025e67ea727aa49ef195e882193'></a> Source: [scripting\core-powershell\console\Using-Tab-Expansion.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/core-powershell/console/Using-Tab-Expansion.md)
@@ -3234,8 +3234,8 @@
 * Archive Datetime: 2016-09-27 13:11:38
 * Handback File: [The-ISEAddOnToolCollection-Object.a3f1b3c62b9fdabc22f8b0eecd511c74b8556c6d.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/5146123cdacb739b8e21cb4f7a8e379c20bb2ca3/ol-handback/PowerShell/powerShell-Docs.it-it/live/The-ISEAddOnToolCollection-Object.a3f1b3c62b9fdabc22f8b0eecd511c74b8556c6d.it-it.xlf)
 * Handback Datetime: 2016-09-27 14:27:09
-* Bilingual File: [The-ISEAddOnToolCollection-Object.a3f1b3c62b9fdabc22f8b0eecd511c74b8556c6d.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/6dbfe1e9244ad879334249a2156f2c4579204c2b/ol-handback/PowerShell/powerShell-Docs.it-it/live/The-ISEAddOnToolCollection-Object.a3f1b3c62b9fdabc22f8b0eecd511c74b8556c6d.it-it.xlf)
-* Bilingual Datetime: 2016-09-07 01:32:25
+* Bilingual File: [The-ISEAddOnToolCollection-Object.a3f1b3c62b9fdabc22f8b0eecd511c74b8556c6d.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/5146123cdacb739b8e21cb4f7a8e379c20bb2ca3/ol-handback/PowerShell/powerShell-Docs.it-it/live/The-ISEAddOnToolCollection-Object.a3f1b3c62b9fdabc22f8b0eecd511c74b8556c6d.it-it.xlf)
+* Bilingual Datetime: 2016-09-27 14:29:27
 * [Back to Top](#report-top)
 
 ##### <a name='e63809763808836af9f468c2ac55ede42836d6b2224'></a> Source: [scripting\core-powershell\ise\The-ISEAddOnTool-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/26d8bc85b78248e15558dbfef72d32cca7de9627/scripting/core-powershell/ise/The-ISEAddOnTool-Object.md)
@@ -3248,8 +3248,8 @@
 * Archive Datetime: 2016-09-27 13:11:38
 * Handback File: [The-ISEAddOnTool-Object.9b326bc85b97fb7333173a891c0c321072fb7f28.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/5146123cdacb739b8e21cb4f7a8e379c20bb2ca3/ol-handback/PowerShell/powerShell-Docs.it-it/live/The-ISEAddOnTool-Object.9b326bc85b97fb7333173a891c0c321072fb7f28.it-it.xlf)
 * Handback Datetime: 2016-09-27 14:27:09
-* Bilingual File: [The-ISEAddOnTool-Object.9b326bc85b97fb7333173a891c0c321072fb7f28.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/6dbfe1e9244ad879334249a2156f2c4579204c2b/ol-handback/PowerShell/powerShell-Docs.it-it/live/The-ISEAddOnTool-Object.9b326bc85b97fb7333173a891c0c321072fb7f28.it-it.xlf)
-* Bilingual Datetime: 2016-09-07 01:32:25
+* Bilingual File: [The-ISEAddOnTool-Object.9b326bc85b97fb7333173a891c0c321072fb7f28.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/5146123cdacb739b8e21cb4f7a8e379c20bb2ca3/ol-handback/PowerShell/powerShell-Docs.it-it/live/The-ISEAddOnTool-Object.9b326bc85b97fb7333173a891c0c321072fb7f28.it-it.xlf)
+* Bilingual Datetime: 2016-09-27 14:29:27
 * [Back to Top](#report-top)
 
 ##### <a name='020c94511ab5c0b4a19611967071e071242fadad226'></a> Source: [scripting\core-powershell\ise\The-ISEEditor-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/0f045cbeaa8116b15ba6e24210e66348b82e063a/scripting/core-powershell/ise/The-ISEEditor-Object.md)
@@ -3262,8 +3262,8 @@
 * Archive Datetime: 2016-09-27 13:11:38
 * Handback File: [The-ISEEditor-Object.723c3ba4fe972736507c0e35656406bb8dd96b01.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/5146123cdacb739b8e21cb4f7a8e379c20bb2ca3/ol-handback/PowerShell/powerShell-Docs.it-it/live/The-ISEEditor-Object.723c3ba4fe972736507c0e35656406bb8dd96b01.it-it.xlf)
 * Handback Datetime: 2016-09-27 14:27:09
-* Bilingual File: [The-ISEEditor-Object.723c3ba4fe972736507c0e35656406bb8dd96b01.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/6dbfe1e9244ad879334249a2156f2c4579204c2b/ol-handback/PowerShell/powerShell-Docs.it-it/live/The-ISEEditor-Object.723c3ba4fe972736507c0e35656406bb8dd96b01.it-it.xlf)
-* Bilingual Datetime: 2016-09-07 01:32:25
+* Bilingual File: [The-ISEEditor-Object.723c3ba4fe972736507c0e35656406bb8dd96b01.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/5146123cdacb739b8e21cb4f7a8e379c20bb2ca3/ol-handback/PowerShell/powerShell-Docs.it-it/live/The-ISEEditor-Object.723c3ba4fe972736507c0e35656406bb8dd96b01.it-it.xlf)
+* Bilingual Datetime: 2016-09-27 14:29:27
 * [Back to Top](#report-top)
 
 ##### <a name='c334a38d6686be45101f4569f38411e9703c8fea228'></a> Source: [scripting\core-powershell\ise\The-ISEFileCollection-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/ise/The-ISEFileCollection-Object.md)
@@ -3330,8 +3330,8 @@
 * Archive Datetime: 2016-09-27 13:11:38
 * Handback File: [The-ISE-Object-Model-Hierarchy.f74241c9b9e43821335ec834d39bcd25105102a5.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/5146123cdacb739b8e21cb4f7a8e379c20bb2ca3/ol-handback/PowerShell/powerShell-Docs.it-it/live/The-ISE-Object-Model-Hierarchy.f74241c9b9e43821335ec834d39bcd25105102a5.it-it.xlf)
 * Handback Datetime: 2016-09-27 14:27:09
-* Bilingual File: [The-ISE-Object-Model-Hierarchy.f74241c9b9e43821335ec834d39bcd25105102a5.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/6dbfe1e9244ad879334249a2156f2c4579204c2b/ol-handback/PowerShell/powerShell-Docs.it-it/live/The-ISE-Object-Model-Hierarchy.f74241c9b9e43821335ec834d39bcd25105102a5.it-it.xlf)
-* Bilingual Datetime: 2016-09-07 01:32:25
+* Bilingual File: [The-ISE-Object-Model-Hierarchy.f74241c9b9e43821335ec834d39bcd25105102a5.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/5146123cdacb739b8e21cb4f7a8e379c20bb2ca3/ol-handback/PowerShell/powerShell-Docs.it-it/live/The-ISE-Object-Model-Hierarchy.f74241c9b9e43821335ec834d39bcd25105102a5.it-it.xlf)
+* Bilingual Datetime: 2016-09-27 14:29:27
 * [Back to Top](#report-top)
 
 ##### <a name='1aee849dd8b89492a641560ed4ef163c3cb96da4231'></a> Source: [scripting\core-powershell\ise\The-ISEOptions-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/core-powershell/ise/The-ISEOptions-Object.md)
