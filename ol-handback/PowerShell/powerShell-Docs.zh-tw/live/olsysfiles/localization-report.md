@@ -2326,6 +2326,8 @@
 * Archive Datetime: 2016-09-27 13:11:14
 * Handback File: [overview.a9e55060e0d4875447746863a472c8b87caaccf3.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/24076a036d5862fe8305f190bbd718cb78dedc23/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/overview.a9e55060e0d4875447746863a472c8b87caaccf3.zh-tw.xlf)
 * Handback Datetime: 2016-09-28 20:16:38
+* Bilingual File: [overview.a9e55060e0d4875447746863a472c8b87caaccf3.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/24076a036d5862fe8305f190bbd718cb78dedc23/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/overview.a9e55060e0d4875447746863a472c8b87caaccf3.zh-tw.xlf)
+* Bilingual Datetime: 2016-09-28 20:17:49
 * [Back to Top](#report-top)
 
 ##### <a name='7c86beac71d47aa2da11691f8c325c3c80d9923d151'></a> Source: [gallery\psget\psget_cmdlets_reference.md](https://github.com/PowerShell/powerShell-Docs/blob/316caf861c7aff7e7a587fe2a8065933c0b67404/gallery/psget/psget_cmdlets_reference.md)
@@ -5886,8 +5888,8 @@
 * Archive Datetime: 2016-09-27 13:11:14
 * Handback File: [known-issues.7fc7aa932b574dc3cc428850a7fbc702d58225ff.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/24076a036d5862fe8305f190bbd718cb78dedc23/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/known-issues.7fc7aa932b574dc3cc428850a7fbc702d58225ff.zh-tw.xlf)
 * Handback Datetime: 2016-09-28 20:16:38
-* Bilingual File: [known-issues.7fc7aa932b574dc3cc428850a7fbc702d58225ff.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/f4f53afec82c8b5f433654172c684e84f0c0e894/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/known-issues.7fc7aa932b574dc3cc428850a7fbc702d58225ff.zh-tw.xlf)
-* Bilingual Datetime: 2016-09-22 04:46:18
+* Bilingual File: [known-issues.7fc7aa932b574dc3cc428850a7fbc702d58225ff.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/24076a036d5862fe8305f190bbd718cb78dedc23/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/known-issues.7fc7aa932b574dc3cc428850a7fbc702d58225ff.zh-tw.xlf)
+* Bilingual Datetime: 2016-09-28 20:17:49
 * [Back to Top](#report-top)
 
 ##### <a name='180158033e0c960f73dba66a3d77b15765e3e382430'></a> Source: [wmf\5.1\known-issues-cache\NetworkingSwitchCmdletInput.md](https://github.com/PowerShell/powerShell-Docs/blob/34337749a77f4379b841a8478d4e6e3bc97e7ada/wmf/5.1/known-issues-cache/NetworkingSwitchCmdletInput.md)
