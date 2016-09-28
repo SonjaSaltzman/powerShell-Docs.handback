@@ -1,28 +1,11 @@
 # <a name='report-top'></a> Localization Bilingual Report
 
 ## Summary
- Total Files | 1
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [scripting\core-powershell\ise\The-ISEEditor-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/0f045cbeaa8116b15ba6e24210e66348b82e063a/scripting/core-powershell/ise/The-ISEEditor-Object.md) | InSyncHandedBackSuccess | [Details](#020c94511ab5c0b4a19611967071e071242fadad226)
 
 ## Item Details
-##### <a name='020c94511ab5c0b4a19611967071e071242fadad226'></a> Source: [scripting\core-powershell\ise\The-ISEEditor-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/0f045cbeaa8116b15ba6e24210e66348b82e063a/scripting/core-powershell/ise/The-ISEEditor-Object.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [scripting\core-powershell\ise\The-ISEEditor-Object.md](https://github.com/PowerShell/powerShell-Docs.pt-br/blob/a16fb403d5604d4973638dc6e827d4dc3484edc7/scripting/core-powershell/ise/The-ISEEditor-Object.md)
-* Handoff File: [The-ISEEditor-Object.723c3ba4fe972736507c0e35656406bb8dd96b01.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a93260e8f5c1b926ef601f3d27149bf62bdf0b11/ol-handoff/PowerShell/powerShell-Docs.pt-br/live/The-ISEEditor-Object.723c3ba4fe972736507c0e35656406bb8dd96b01.pt-br.xlf)
-* Handoff Datetime: 2016-09-26 17:36:21
-* Handoff Reason: Include
-* Archive File: [The-ISEEditor-Object.723c3ba4fe972736507c0e35656406bb8dd96b01.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/2a0d43ff3b281792f90a3c1c119bfb1d358b00d8/ol-archive/PowerShell/powerShell-Docs.pt-br/live/The-ISEEditor-Object.723c3ba4fe972736507c0e35656406bb8dd96b01.pt-br.xlf)
-* Archive Datetime: 2016-09-27 13:11:54
-* Handback File: [The-ISEEditor-Object.723c3ba4fe972736507c0e35656406bb8dd96b01.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/d49d99ec2c2a2a452c2bfa1a45a75e5d9f6fe2a7/ol-handback/PowerShell/powerShell-Docs.pt-br/live/The-ISEEditor-Object.723c3ba4fe972736507c0e35656406bb8dd96b01.pt-br.xlf)
-* Handback Datetime: 2016-09-27 14:54:57
-* Bilingual File: [The-ISEEditor-Object.723c3ba4fe972736507c0e35656406bb8dd96b01.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/d49d99ec2c2a2a452c2bfa1a45a75e5d9f6fe2a7/ol-handback/PowerShell/powerShell-Docs.pt-br/live/The-ISEEditor-Object.723c3ba4fe972736507c0e35656406bb8dd96b01.pt-br.xlf)
-* Bilingual Datetime: 2016-09-27 14:56:10
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
