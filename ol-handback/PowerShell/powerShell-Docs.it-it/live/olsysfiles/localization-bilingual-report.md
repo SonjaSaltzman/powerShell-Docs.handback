@@ -1,11 +1,43 @@
 # <a name='report-top'></a> Localization Bilingual Report
 
 ## Summary
- Total Files | 0
+ Total Files | 2
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [gallery\psget\overview.md](https://github.com/PowerShell/powerShell-Docs/blob/64e4a2639bec139b494bbaffb31b4613b4615b5c/gallery/psget/overview.md) | InSyncHandedBackSuccess | [Details](#924dbaea9725bed776c7802a78968aafe21b33b8150)
+ [wmf\5.1\known-issues.md](https://github.com/PowerShell/powerShell-Docs/blob/3dde62efa7ba595ed5160cc81b4e2b17a54e52a2/wmf/5.1/known-issues.md) | InSyncHandedBackSuccess | [Details](#d4c9e88ddd6cfaec611527d19d00cbd4db9f5d1d432)
 
 ## Item Details
+##### <a name='924dbaea9725bed776c7802a78968aafe21b33b8150'></a> Source: [gallery\psget\overview.md](https://github.com/PowerShell/powerShell-Docs/blob/64e4a2639bec139b494bbaffb31b4613b4615b5c/gallery/psget/overview.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psget\overview.md](https://github.com/PowerShell/powerShell-Docs.it-it/blob/430a2b4a8bb14e20d29a3fe8a46c50952039f1c3/gallery/psget/overview.md)
+* Handoff File: [overview.a9e55060e0d4875447746863a472c8b87caaccf3.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/09647a5e13a33c59bd7a1d79d78c4b0773234d12/ol-handoff/PowerShell/powerShell-Docs.it-it/live/overview.a9e55060e0d4875447746863a472c8b87caaccf3.it-it.xlf)
+* Handoff Datetime: 2016-09-26 17:35:59
+* Handoff Reason: Include
+* Archive File: [overview.a9e55060e0d4875447746863a472c8b87caaccf3.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/af15274cce546ba388f1ddb5e3850c2564fc7f63/ol-archive/PowerShell/powerShell-Docs.it-it/live/overview.a9e55060e0d4875447746863a472c8b87caaccf3.it-it.xlf)
+* Archive Datetime: 2016-09-27 13:11:38
+* Handback File: [overview.a9e55060e0d4875447746863a472c8b87caaccf3.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9fe609eda5bbd868ddee99a444042ad48eda822c/ol-handback/PowerShell/powerShell-Docs.it-it/live/overview.a9e55060e0d4875447746863a472c8b87caaccf3.it-it.xlf)
+* Handback Datetime: 2016-09-28 09:39:29
+* Bilingual File: [overview.a9e55060e0d4875447746863a472c8b87caaccf3.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9fe609eda5bbd868ddee99a444042ad48eda822c/ol-handback/PowerShell/powerShell-Docs.it-it/live/overview.a9e55060e0d4875447746863a472c8b87caaccf3.it-it.xlf)
+* Bilingual Datetime: 2016-09-28 09:40:18
+* [Back to Top](#report-top)
+
+##### <a name='d4c9e88ddd6cfaec611527d19d00cbd4db9f5d1d432'></a> Source: [wmf\5.1\known-issues.md](https://github.com/PowerShell/powerShell-Docs/blob/3dde62efa7ba595ed5160cc81b4e2b17a54e52a2/wmf/5.1/known-issues.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [wmf\5.1\known-issues.md](https://github.com/PowerShell/powerShell-Docs.it-it/blob/430a2b4a8bb14e20d29a3fe8a46c50952039f1c3/wmf/5.1/known-issues.md)
+* Handoff File: [known-issues.7fc7aa932b574dc3cc428850a7fbc702d58225ff.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/09647a5e13a33c59bd7a1d79d78c4b0773234d12/ol-handoff/PowerShell/powerShell-Docs.it-it/live/known-issues.7fc7aa932b574dc3cc428850a7fbc702d58225ff.it-it.xlf)
+* Handoff Datetime: 2016-09-26 17:35:59
+* Handoff Reason: Include
+* Archive File: [known-issues.7fc7aa932b574dc3cc428850a7fbc702d58225ff.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/af15274cce546ba388f1ddb5e3850c2564fc7f63/ol-archive/PowerShell/powerShell-Docs.it-it/live/known-issues.7fc7aa932b574dc3cc428850a7fbc702d58225ff.it-it.xlf)
+* Archive Datetime: 2016-09-27 13:11:38
+* Handback File: [known-issues.7fc7aa932b574dc3cc428850a7fbc702d58225ff.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9fe609eda5bbd868ddee99a444042ad48eda822c/ol-handback/PowerShell/powerShell-Docs.it-it/live/known-issues.7fc7aa932b574dc3cc428850a7fbc702d58225ff.it-it.xlf)
+* Handback Datetime: 2016-09-28 09:39:29
+* Bilingual File: [known-issues.7fc7aa932b574dc3cc428850a7fbc702d58225ff.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9fe609eda5bbd868ddee99a444042ad48eda822c/ol-handback/PowerShell/powerShell-Docs.it-it/live/known-issues.7fc7aa932b574dc3cc428850a7fbc702d58225ff.it-it.xlf)
+* Bilingual Datetime: 2016-09-28 09:40:18
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
