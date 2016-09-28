@@ -7,10 +7,10 @@
 [ Handoff Failed Files ](#handoff-failed-list)| 0
 [ Handoff Success Files ](#handoff-success-list)| 0
 [ Archive Failed Files ](#archive-failed-list)| 0
-[ Archive Success Files ](#archive-success-list)| 303
+[ Archive Success Files ](#archive-success-list)| 301
 [ Handback Failed Files ](#handback-failed-list)| 1
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
-[ In Sync Handback Files ](#insync-handback-success-list)| 112
+[ In Sync Handback Files ](#insync-handback-success-list)| 114
 [ Ignored Files ](#ignored-list)| 40
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
@@ -142,7 +142,6 @@
  [gallery\psget\module\psget_update-module.md](https://github.com/PowerShell/powerShell-Docs/blob/316caf861c7aff7e7a587fe2a8065933c0b67404/gallery/psget/module/psget_update-module.md) | ArchivedSuccess | [Details](#e626a05a595a39936fa328ad0ddc750c6626e385147)
  [gallery\psget\module\psget_update-modulemanifest.md](https://github.com/PowerShell/powerShell-Docs/blob/316caf861c7aff7e7a587fe2a8065933c0b67404/gallery/psget/module/psget_update-modulemanifest.md) | ArchivedSuccess | [Details](#967d85a99256f5f4347aeec1b5f9dad3eca7a939148)
  [gallery\psget\oneget\PackageManagement_cmdlets.md](https://github.com/PowerShell/powerShell-Docs/blob/316caf861c7aff7e7a587fe2a8065933c0b67404/gallery/psget/oneget/PackageManagement_cmdlets.md) | ArchivedSuccess | [Details](#fa82b0da9834e0e9b4f75a1c92cbcbe831a392e3149)
- [gallery\psget\overview.md](https://github.com/PowerShell/powerShell-Docs/blob/64e4a2639bec139b494bbaffb31b4613b4615b5c/gallery/psget/overview.md) | ArchivedSuccess | [Details](#924dbaea9725bed776c7802a78968aafe21b33b8150)
  [gallery\psget\psget_cmdlets_reference.md](https://github.com/PowerShell/powerShell-Docs/blob/316caf861c7aff7e7a587fe2a8065933c0b67404/gallery/psget/psget_cmdlets_reference.md) | ArchivedSuccess | [Details](#7c86beac71d47aa2da11691f8c325c3c80d9923d151)
  [gallery\psget\psget_cmdlets_troubleshooting.md](https://github.com/PowerShell/powerShell-Docs/blob/966d93fe539547a1ddf4c36a64c0d1523adb62e5/gallery/psget/psget_cmdlets_troubleshooting.md) | ArchivedSuccess | [Details](#6c4cdfdb05233d407d273562eaa751563458a9f8152)
  [gallery\psget\psget_oneget_integration.md](https://github.com/PowerShell/powerShell-Docs/blob/316caf861c7aff7e7a587fe2a8065933c0b67404/gallery/psget/psget_oneget_integration.md) | ArchivedSuccess | [Details](#7e2566a7874904e90f6cab47d03d5817a4653ee2153)
@@ -317,7 +316,6 @@
  [wmf\5.1\features-scenarios-cache\template.md](https://github.com/PowerShell/powerShell-Docs/blob/a952a27ec1695ce9951c352446194cf72d18f50a/wmf/5.1/features-scenarios-cache/template.md) | ArchivedSuccess | [Details](#dfba55f1eae5468df95309e14b3ee256511badf4427)
  [wmf\5.1\features-scenarios-cache\using-module.md](https://github.com/PowerShell/powerShell-Docs/blob/e39aa2e5cbda0c83e24e21c4459d957d8baaff25/wmf/5.1/features-scenarios-cache/using-module.md) | ArchivedSuccess | [Details](#e09cfe0994ac523fd10658955731a93b6c176c88428)
  [wmf\5.1\install-configure.md](https://github.com/PowerShell/powerShell-Docs/blob/c88163b5a7d8805d0dea82d321796d8f41d17bb8/wmf/5.1/install-configure.md) | ArchivedSuccess | [Details](#26a325dc7a18ba167ddc56ca226fce3eded79f52429)
- [wmf\5.1\known-issues.md](https://github.com/PowerShell/powerShell-Docs/blob/3dde62efa7ba595ed5160cc81b4e2b17a54e52a2/wmf/5.1/known-issues.md) | ArchivedSuccess | [Details](#d4c9e88ddd6cfaec611527d19d00cbd4db9f5d1d432)
  [wmf\5.1\known-issues-cache\NetworkingSwitchCmdletInput.md](https://github.com/PowerShell/powerShell-Docs/blob/34337749a77f4379b841a8478d4e6e3bc97e7ada/wmf/5.1/known-issues-cache/NetworkingSwitchCmdletInput.md) | ArchivedSuccess | [Details](#180158033e0c960f73dba66a3d77b15765e3e382430)
  [wmf\5.1\known-issues-cache\template.md](https://github.com/PowerShell/powerShell-Docs/blob/a952a27ec1695ce9951c352446194cf72d18f50a/wmf/5.1/known-issues-cache/template.md) | ArchivedSuccess | [Details](#cfe0a6562743f1df81acb81e33c120cb67f9042c431)
  [wmf\5.1\release-notes.md](https://github.com/PowerShell/powerShell-Docs/blob/ebbd7d4d39cd335d994dd6cd3a06dd644df6d919/wmf/5.1/release-notes.md) | ArchivedSuccess | [Details](#83061e651b190bab3e5914bb6270a5857f7aa7a5434)
@@ -348,6 +346,7 @@
  [gallery\psgallery\psgallery_status.md](https://github.com/PowerShell/powerShell-Docs/blob/4c5569985b009a34018e8329767f3ebed00140b0/gallery/psgallery/psgallery_status.md) | InSyncHandedBackSuccess | [Details](#a2c0b6a6ec4f10808734b38e9806cf3d0a730fbf128)
  [gallery\psgallery\psgalleryint_status.md](https://github.com/PowerShell/powerShell-Docs/blob/4c5569985b009a34018e8329767f3ebed00140b0/gallery/psgallery/psgalleryint_status.md) | InSyncHandedBackSuccess | [Details](#41905ee6ef4c6b0afc41b1c68c84db27e19df2fd130)
  [gallery\psget\module\modulewithpseditionsupport.md](https://github.com/PowerShell/powerShell-Docs/blob/93eb1276b5b9632d43ed4c4cc00f67d19c862bbe/gallery/psget/module/modulewithpseditionsupport.md) | InSyncHandedBackSuccess | [Details](#7b8d135889378be56d0d6d5b9dc89c55f2b1e68f135)
+ [gallery\psget\overview.md](https://github.com/PowerShell/powerShell-Docs/blob/64e4a2639bec139b494bbaffb31b4613b4615b5c/gallery/psget/overview.md) | InSyncHandedBackSuccess | [Details](#924dbaea9725bed776c7802a78968aafe21b33b8150)
  [gallery\TOC.md](https://github.com/PowerShell/powerShell-Docs/blob/737816b04d8bd53b003ac8060a6d2d55c8e57560/gallery/TOC.md) | InSyncHandedBackSuccess | [Details](#6b33f2d05724ff888f48219135f8d8b88ccb4bc7172)
  [jea\common-role-capability-pitfalls.md](https://github.com/PowerShell/powerShell-Docs/blob/2c42f8d6eaadee43a3baff1811aafb6b5c1a9be3/jea/common-role-capability-pitfalls.md) | InSyncHandedBackSuccess | [Details](#2b2dfd9c39fe5d7bf4a52032653108729715e6bf173)
  [jea\end-to-end---active-directory.md](https://github.com/PowerShell/powerShell-Docs/blob/33e92c7fd6039a1e3f5f784470c7bd0e43a7f030/jea/end-to-end---active-directory.md) | InSyncHandedBackSuccess | [Details](#e7ea3957ce3bbd3ce0fc072a82cd108606f05614177)
@@ -447,6 +446,7 @@
  [wmf\5.0\audit_overview.md](https://github.com/PowerShell/powerShell-Docs/blob/a5eb166c5badca2d7d926766ffa480b082355e86/wmf/5.0/audit_overview.md) | InSyncHandedBackSuccess | [Details](#20e6c97ad5dc845bc0ead973ed8a62b34af3e824327)
  [wmf\5.1\DSC-improvements.md](https://github.com/PowerShell/powerShell-Docs/blob/270f2a458a40f005f462d3de5236defbb91a7362/wmf/5.1/DSC-improvements.md) | InSyncHandedBackSuccess | [Details](#c88c145c3585befcee194499f7e21aaeac67c0f3408)
  [wmf\5.1\features-scenarios-cache\ps-engine-enhancements.md](https://github.com/PowerShell/powerShell-Docs/blob/47c963343c541d0f2ace194f365de5fcd809ccc5/wmf/5.1/features-scenarios-cache/ps-engine-enhancements.md) | InSyncHandedBackSuccess | [Details](#1b35a25312b44d14ec8771be9e17aaa43e270b61426)
+ [wmf\5.1\known-issues.md](https://github.com/PowerShell/powerShell-Docs/blob/3dde62efa7ba595ed5160cc81b4e2b17a54e52a2/wmf/5.1/known-issues.md) | InSyncHandedBackSuccess | [Details](#d4c9e88ddd6cfaec611527d19d00cbd4db9f5d1d432)
  [wmf\5.1\package-management-improvements.md](https://github.com/PowerShell/powerShell-Docs/blob/0a5dcec1089bd07b968c61b18ca4e6d59d0afd3b/wmf/5.1/package-management-improvements.md) | InSyncHandedBackSuccess | [Details](#615bdf1a82dc5078ee2f37eec70a64e25b42bda2433)
 
 ## <a name='ignored-list'></a> Ignored File List
@@ -2319,15 +2319,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='924dbaea9725bed776c7802a78968aafe21b33b8150'></a> Source: [gallery\psget\overview.md](https://github.com/PowerShell/powerShell-Docs/blob/64e4a2639bec139b494bbaffb31b4613b4615b5c/gallery/psget/overview.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psget\overview.md](https://github.com/PowerShell/powerShell-Docs.pt-br/blob/c54f517ca4e8cf94d4193e6d31717f6d12a6a302/gallery/psget/overview.md)
 * Handoff File: [overview.a9e55060e0d4875447746863a472c8b87caaccf3.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a93260e8f5c1b926ef601f3d27149bf62bdf0b11/ol-handoff/PowerShell/powerShell-Docs.pt-br/live/overview.a9e55060e0d4875447746863a472c8b87caaccf3.pt-br.xlf)
 * Handoff Datetime: 2016-09-26 17:36:21
 * Handoff Reason: Include
 * Archive File: [overview.a9e55060e0d4875447746863a472c8b87caaccf3.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/2a0d43ff3b281792f90a3c1c119bfb1d358b00d8/ol-archive/PowerShell/powerShell-Docs.pt-br/live/overview.a9e55060e0d4875447746863a472c8b87caaccf3.pt-br.xlf)
 * Archive Datetime: 2016-09-27 13:11:54
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
+* Handback File: [overview.a9e55060e0d4875447746863a472c8b87caaccf3.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/64d3984c6b91d0471275dad8418dfb6eafbfa48e/ol-handback/PowerShell/powerShell-Docs.pt-br/live/overview.a9e55060e0d4875447746863a472c8b87caaccf3.pt-br.xlf)
+* Handback Datetime: 2016-09-28 13:32:54
 * [Back to Top](#report-top)
 
 ##### <a name='7c86beac71d47aa2da11691f8c325c3c80d9923d151'></a> Source: [gallery\psget\psget_cmdlets_reference.md](https://github.com/PowerShell/powerShell-Docs/blob/316caf861c7aff7e7a587fe2a8065933c0b67404/gallery/psget/psget_cmdlets_reference.md)
@@ -5878,18 +5878,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='d4c9e88ddd6cfaec611527d19d00cbd4db9f5d1d432'></a> Source: [wmf\5.1\known-issues.md](https://github.com/PowerShell/powerShell-Docs/blob/3dde62efa7ba595ed5160cc81b4e2b17a54e52a2/wmf/5.1/known-issues.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [wmf\5.1\known-issues.md](https://github.com/PowerShell/powerShell-Docs.pt-br/blob/c54f517ca4e8cf94d4193e6d31717f6d12a6a302/wmf/5.1/known-issues.md)
 * Handoff File: [known-issues.7fc7aa932b574dc3cc428850a7fbc702d58225ff.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a93260e8f5c1b926ef601f3d27149bf62bdf0b11/ol-handoff/PowerShell/powerShell-Docs.pt-br/live/known-issues.7fc7aa932b574dc3cc428850a7fbc702d58225ff.pt-br.xlf)
 * Handoff Datetime: 2016-09-26 17:36:21
 * Handoff Reason: Include
 * Archive File: [known-issues.7fc7aa932b574dc3cc428850a7fbc702d58225ff.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/2a0d43ff3b281792f90a3c1c119bfb1d358b00d8/ol-archive/PowerShell/powerShell-Docs.pt-br/live/known-issues.7fc7aa932b574dc3cc428850a7fbc702d58225ff.pt-br.xlf)
 * Archive Datetime: 2016-09-27 13:11:54
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [wmf\5.1\known-issues.md](https://github.com/PowerShell/powerShell-Docs.pt-br/blob/b9f6ae1b422056b7748ba5fa8d8ab66554338022/wmf/5.1/known-issues.md)
-* Current Handback File: [known-issues.7fc7aa932b574dc3cc428850a7fbc702d58225ff.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/928a96121e52c555388d8bdb6ac60ac5471b9ebe/ol-handback/PowerShell/powerShell-Docs.pt-br/live/known-issues.7fc7aa932b574dc3cc428850a7fbc702d58225ff.pt-br.xlf)
-* Current Handback Datetime: 2016-09-23 18:31:52
+* Handback File: [known-issues.7fc7aa932b574dc3cc428850a7fbc702d58225ff.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/64d3984c6b91d0471275dad8418dfb6eafbfa48e/ol-handback/PowerShell/powerShell-Docs.pt-br/live/known-issues.7fc7aa932b574dc3cc428850a7fbc702d58225ff.pt-br.xlf)
+* Handback Datetime: 2016-09-28 13:32:54
 * Bilingual File: [known-issues.7fc7aa932b574dc3cc428850a7fbc702d58225ff.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/928a96121e52c555388d8bdb6ac60ac5471b9ebe/ol-handback/PowerShell/powerShell-Docs.pt-br/live/known-issues.7fc7aa932b574dc3cc428850a7fbc702d58225ff.pt-br.xlf)
 * Bilingual Datetime: 2016-09-23 18:32:47
 * [Back to Top](#report-top)
