@@ -4592,8 +4592,8 @@
 * Archive Datetime: 2016-08-30 13:07:40
 * Handback File: [What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/85bb254629055c2656cb07e797405be8a4ed4f14/ol-handback/PowerShell/powerShell-Docs.ko-kr/live/What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ko-kr.xlf)
 * Handback Datetime: 2016-09-29 09:25:17
-* Bilingual File: [What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/5770d788cbbbc60430e3e2a98698506395d089b1/ol-handback/PowerShell/powerShell-Docs.ko-kr/live/What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ko-kr.xlf)
-* Bilingual Datetime: 2016-09-07 03:09:06
+* Bilingual File: [What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/85bb254629055c2656cb07e797405be8a4ed4f14/ol-handback/PowerShell/powerShell-Docs.ko-kr/live/What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ko-kr.xlf)
+* Bilingual Datetime: 2016-09-29 09:25:57
 * [Back to Top](#report-top)
 
 ##### <a name='edb3be980d23cafb8c9b9923a7153308481e6c67324'></a> Source: [scripting\whats-new\What-s-New-With-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/whats-new/What-s-New-With-PowerShell.md)
