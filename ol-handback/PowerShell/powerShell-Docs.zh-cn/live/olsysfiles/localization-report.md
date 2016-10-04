@@ -5,9 +5,9 @@
  -------- | ----- 
  Total Files | 456
 [ Handoff Failed Files ](#handoff-failed-list)| 0
-[ Handoff Success Files ](#handoff-success-list)| 2
+[ Handoff Success Files ](#handoff-success-list)| 0
 [ Archive Failed Files ](#archive-failed-list)| 0
-[ Archive Success Files ](#archive-success-list)| 299
+[ Archive Success Files ](#archive-success-list)| 301
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 115
@@ -16,10 +16,6 @@
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
 
 ## <a name='handoff-success-list'></a> Handoff Success File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [dsc\authoringResourceClass.md](https://github.com/PowerShell/powerShell-Docs/blob/c243385d2cf2cae2f7e7d52dcd529878cd1e4f5b/dsc/authoringResourceClass.md) | HandedOffSuccess | [Details](#05683faf5ef0baf823cb365a17c82af57fc4942e7)
- [scripting\getting-started\understanding-concepts-reference.md](https://github.com/PowerShell/powerShell-Docs/blob/119b4d50423498e08383f02e56ae76653d06e555/scripting/getting-started/understanding-concepts-reference.md) | HandedOffSuccess | [Details](#e3cac149d549400b6a180b4a4fd6ff1a13a8130b305)
 
 ## <a name='archive-failed-list'></a> Archive Failed File List
 
@@ -28,6 +24,7 @@
  ----------- | ------ | ------- 
  [dsc\archiveResource.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/archiveResource.md) | ArchivedSuccess | [Details](#1d4d2d9106ef76d6628f93cf86234807dbb121ed5)
  [dsc\authoringResource.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/authoringResource.md) | ArchivedSuccess | [Details](#5b43723f7b14eb4bca06d0430b5981c3663c58016)
+ [dsc\authoringResourceClass.md](https://github.com/PowerShell/powerShell-Docs/blob/c243385d2cf2cae2f7e7d52dcd529878cd1e4f5b/dsc/authoringResourceClass.md) | ArchivedSuccess | [Details](#05683faf5ef0baf823cb365a17c82af57fc4942e7)
  [dsc\authoringResourceComposite.md](https://github.com/PowerShell/powerShell-Docs/blob/48cfed9e0c31e24c441eafb388a799bd7fc7415f/dsc/authoringResourceComposite.md) | ArchivedSuccess | [Details](#6631d60d7d82e71c315c26a0196aa3e4c1b60b158)
  [dsc\authoringResourceMOF.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/authoringResourceMOF.md) | ArchivedSuccess | [Details](#4d685e518acd3a18f4872417b645dbe66f7584219)
  [dsc\authoringResourceMofCS.md](https://github.com/PowerShell/powerShell-Docs/blob/644d08a69a8bb70f49e12c1504aa46c4b57a51fc/dsc/authoringResourceMofCS.md) | ArchivedSuccess | [Details](#991a324945289b2eff0b706d093b2d345352fb1510)
@@ -212,6 +209,7 @@
  [scripting\getting-started\fundamental\Scripting-with-Windows-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/getting-started/fundamental/Scripting-with-Windows-PowerShell.md) | ArchivedSuccess | [Details](#0148f4631e34e65a4336c5d1d50e313fb6639748293)
  [scripting\getting-started\fundamental-concepts.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/getting-started/fundamental-concepts.md) | ArchivedSuccess | [Details](#b3b97b9dcf01094fe1fadbac355c92df35feaee2286)
  [scripting\getting-started\more-powershell-learning.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/getting-started/more-powershell-learning.md) | ArchivedSuccess | [Details](#05205ff8fcf0a3b23e66a6ac756be0d9a5055bd2304)
+ [scripting\getting-started\understanding-concepts-reference.md](https://github.com/PowerShell/powerShell-Docs/blob/119b4d50423498e08383f02e56ae76653d06e555/scripting/getting-started/understanding-concepts-reference.md) | ArchivedSuccess | [Details](#e3cac149d549400b6a180b4a4fd6ff1a13a8130b305)
  [scripting\PowerShell-Scripting.md](https://github.com/PowerShell/powerShell-Docs/blob/b38cfd053cc2356fa7ca99605dbd84190d342327/scripting/PowerShell-Scripting.md) | ArchivedSuccess | [Details](#fc6307be4dafb378350b6d9667b2b6aca0e2e6d4307)
  [scripting\setup\security.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/setup/security.md) | ArchivedSuccess | [Details](#6bdf3f658ed75b48be6df217b6a0b4ad5951c935312)
  [scripting\setup\setup-reference.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/setup/setup-reference.md) | ArchivedSuccess | [Details](#63f7597ba91fb839252de451c6c9380b5b19c0ec313)
@@ -579,13 +577,13 @@
 * [Back to Top](#report-top)
 
 ##### <a name='05683faf5ef0baf823cb365a17c82af57fc4942e7'></a> Source: [dsc\authoringResourceClass.md](https://github.com/PowerShell/powerShell-Docs/blob/c243385d2cf2cae2f7e7d52dcd529878cd1e4f5b/dsc/authoringResourceClass.md)
-* Status: HandedOffSuccess
+* Status: ArchivedSuccess
 * Target File: 
 * Handoff File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/5d5dcf2806013e4847898e44b2bf2b810cfaa7e4/ol-handoff/PowerShell/powerShell-Docs.zh-cn/live/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.zh-cn.xlf)
 * Handoff Datetime: 2016-09-30 18:16:28
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/3999287650ca400b9c0664ed7b5f679c8962ffa3/ol-archive/PowerShell/powerShell-Docs.zh-cn/live/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.zh-cn.xlf)
+* Archive Datetime: 2016-10-04 13:19:28
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
@@ -4349,13 +4347,13 @@
 * [Back to Top](#report-top)
 
 ##### <a name='e3cac149d549400b6a180b4a4fd6ff1a13a8130b305'></a> Source: [scripting\getting-started\understanding-concepts-reference.md](https://github.com/PowerShell/powerShell-Docs/blob/119b4d50423498e08383f02e56ae76653d06e555/scripting/getting-started/understanding-concepts-reference.md)
-* Status: HandedOffSuccess
+* Status: ArchivedSuccess
 * Target File: 
 * Handoff File: [understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/5d5dcf2806013e4847898e44b2bf2b810cfaa7e4/ol-handoff/PowerShell/powerShell-Docs.zh-cn/live/understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.zh-cn.xlf)
 * Handoff Datetime: 2016-09-30 18:16:28
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/3999287650ca400b9c0664ed7b5f679c8962ffa3/ol-archive/PowerShell/powerShell-Docs.zh-cn/live/understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.zh-cn.xlf)
+* Archive Datetime: 2016-10-04 13:19:28
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
