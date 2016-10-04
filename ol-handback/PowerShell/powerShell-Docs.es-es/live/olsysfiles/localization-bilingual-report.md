@@ -6,21 +6,21 @@
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [scripting\whats-new\What-s-New-in-Windows-PowerShell-50.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/whats-new/What-s-New-in-Windows-PowerShell-50.md) | InSyncHandedBackSuccess | [Details](#666590df32157a7477d385961dd5665094275868323)
+ [dsc\authoringResourceClass.md](https://github.com/PowerShell/powerShell-Docs/blob/c243385d2cf2cae2f7e7d52dcd529878cd1e4f5b/dsc/authoringResourceClass.md) | InSyncHandedBackSuccess | [Details](#05683faf5ef0baf823cb365a17c82af57fc4942e7)
 
 ## Item Details
-##### <a name='666590df32157a7477d385961dd5665094275868323'></a> Source: [scripting\whats-new\What-s-New-in-Windows-PowerShell-50.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/whats-new/What-s-New-in-Windows-PowerShell-50.md)
+##### <a name='05683faf5ef0baf823cb365a17c82af57fc4942e7'></a> Source: [dsc\authoringResourceClass.md](https://github.com/PowerShell/powerShell-Docs/blob/c243385d2cf2cae2f7e7d52dcd529878cd1e4f5b/dsc/authoringResourceClass.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [scripting\whats-new\What-s-New-in-Windows-PowerShell-50.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/b9a4d5f7ff7da38de7096efb0d10d7b672fb7a0b/scripting/whats-new/What-s-New-in-Windows-PowerShell-50.md)
-* Handoff File: [What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/f848140a85cd182a793089f8522a2d24cd800ace/ol-handoff/PowerShell/powerShell-Docs.es-es/live/What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.es-es.xlf)
-* Handoff Datetime: 2016-08-23 21:26:50
+* Target File: [dsc\authoringResourceClass.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/c6a95449e5549c53e12756fb9be4f5e869bf2cbb/dsc/authoringResourceClass.md)
+* Handoff File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/4fee2b6a7ecf4ca0c884b3ad442045c7ece20f23/ol-handoff/PowerShell/powerShell-Docs.es-es/live/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.es-es.xlf)
+* Handoff Datetime: 2016-09-30 18:16:55
 * Handoff Reason: Include
-* Archive File: [What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/21fceb0ec4a443807cd417478baf63fdefc87987/ol-archive/PowerShell/powerShell-Docs.es-es/live/What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.es-es.xlf)
-* Archive Datetime: 2016-08-30 13:07:51
-* Handback File: [What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/6310b2c6bb98d8501b60f2ec22eb1c9defe6ed64/ol-handback/PowerShell/powerShell-Docs.es-es/live/What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.es-es.xlf)
-* Handback Datetime: 2016-09-30 10:35:02
-* Bilingual File: [What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/6310b2c6bb98d8501b60f2ec22eb1c9defe6ed64/ol-handback/PowerShell/powerShell-Docs.es-es/live/What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.es-es.xlf)
-* Bilingual Datetime: 2016-09-30 10:35:54
+* Archive File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/eb126367999db6218d211f2ef52f4f54f39ab6f7/ol-archive/PowerShell/powerShell-Docs.es-es/live/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.es-es.xlf)
+* Archive Datetime: 2016-10-04 13:19:53
+* Handback File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9ce677c2995e7f298580e37fa3efc3fefa4bdbbc/ol-handback/PowerShell/powerShell-Docs.es-es/live/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.es-es.xlf)
+* Handback Datetime: 2016-10-04 21:22:50
+* Bilingual File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9ce677c2995e7f298580e37fa3efc3fefa4bdbbc/ol-handback/PowerShell/powerShell-Docs.es-es/live/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.es-es.xlf)
+* Bilingual Datetime: 2016-10-04 21:25:19
 * [Back to Top](#report-top)
 
 
