@@ -1,11 +1,26 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [dsc\authoringResourceClass.md](https://github.com/PowerShell/powerShell-Docs/blob/c243385d2cf2cae2f7e7d52dcd529878cd1e4f5b/dsc/authoringResourceClass.md) | InSyncHandedBackSuccess | [Details](#05683faf5ef0baf823cb365a17c82af57fc4942e7)
 
 ## Item Details
+##### <a name='05683faf5ef0baf823cb365a17c82af57fc4942e7'></a> Source: [dsc\authoringResourceClass.md](https://github.com/PowerShell/powerShell-Docs/blob/c243385d2cf2cae2f7e7d52dcd529878cd1e4f5b/dsc/authoringResourceClass.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [dsc\authoringResourceClass.md](https://github.com/PowerShell/powerShell-Docs.ru-ru/blob/e8f6b0f790941648152cb81b12115a200257f0ac/dsc/authoringResourceClass.md)
+* Handoff File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/fecf373813f6d17eb190c2d36f73f4e0e7d667a6/ol-handoff/PowerShell/powerShell-Docs.ru-ru/live/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.ru-ru.xlf)
+* Handoff Datetime: 2016-09-30 18:17:15
+* Handoff Reason: Include
+* Archive File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/3135671af1175ddf9b49c5acc54999cc93116b6d/ol-archive/PowerShell/powerShell-Docs.ru-ru/live/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.ru-ru.xlf)
+* Archive Datetime: 2016-10-04 13:20:10
+* Handback File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ac6c61df0200805abd4e1225026acd7c343f283f/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.ru-ru.xlf)
+* Handback Datetime: 2016-10-04 21:24:04
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
