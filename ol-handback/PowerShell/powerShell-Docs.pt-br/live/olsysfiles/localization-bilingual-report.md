@@ -1,11 +1,28 @@
 # <a name='report-top'></a> Localization Bilingual Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [dsc\authoringResourceClass.md](https://github.com/PowerShell/powerShell-Docs/blob/c243385d2cf2cae2f7e7d52dcd529878cd1e4f5b/dsc/authoringResourceClass.md) | InSyncHandedBackSuccess | [Details](#05683faf5ef0baf823cb365a17c82af57fc4942e7)
 
 ## Item Details
+##### <a name='05683faf5ef0baf823cb365a17c82af57fc4942e7'></a> Source: [dsc\authoringResourceClass.md](https://github.com/PowerShell/powerShell-Docs/blob/c243385d2cf2cae2f7e7d52dcd529878cd1e4f5b/dsc/authoringResourceClass.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [dsc\authoringResourceClass.md](https://github.com/PowerShell/powerShell-Docs.pt-br/blob/5c65a72da7f83b53a52502be2b9234fd4d5bdaa5/dsc/authoringResourceClass.md)
+* Handoff File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/fedce66ef428fa810570bc8c58b63734b0340ecd/ol-handoff/PowerShell/powerShell-Docs.pt-br/live/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.pt-br.xlf)
+* Handoff Datetime: 2016-09-30 18:17:25
+* Handoff Reason: Include
+* Archive File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d3c4d68b2b1e5a2b45d5e266e3ddd00e92cc455c/ol-archive/PowerShell/powerShell-Docs.pt-br/live/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.pt-br.xlf)
+* Archive Datetime: 2016-10-04 13:20:18
+* Handback File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/921c45a69cdd3e2ac24a366a61db7336903a0a98/ol-handback/PowerShell/powerShell-Docs.pt-br/live/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.pt-br.xlf)
+* Handback Datetime: 2016-10-04 21:23:52
+* Bilingual File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/921c45a69cdd3e2ac24a366a61db7336903a0a98/ol-handback/PowerShell/powerShell-Docs.pt-br/live/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.pt-br.xlf)
+* Bilingual Datetime: 2016-10-04 21:25:30
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
