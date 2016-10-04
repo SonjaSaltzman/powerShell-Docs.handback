@@ -588,6 +588,8 @@
 * Archive Datetime: 2016-10-04 13:19:02
 * Handback File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/f79b59ec25290966435b4f6fdb069c9046a69a62/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.ja-jp.xlf)
 * Handback Datetime: 2016-10-04 21:23:28
+* Bilingual File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/f79b59ec25290966435b4f6fdb069c9046a69a62/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.ja-jp.xlf)
+* Bilingual Datetime: 2016-10-04 21:24:52
 * [Back to Top](#report-top)
 
 ##### <a name='6631d60d7d82e71c315c26a0196aa3e4c1b60b158'></a> Source: [dsc\authoringResourceComposite.md](https://github.com/PowerShell/powerShell-Docs/blob/48cfed9e0c31e24c441eafb388a799bd7fc7415f/dsc/authoringResourceComposite.md)
