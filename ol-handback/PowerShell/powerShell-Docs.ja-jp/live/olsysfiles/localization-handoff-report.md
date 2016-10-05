@@ -1,37 +1,29 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 2
+ Total Files | 1
 
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [dsc\authoringResourceClass.md](https://github.com/PowerShell/powerShell-Docs/blob/c243385d2cf2cae2f7e7d52dcd529878cd1e4f5b/dsc/authoringResourceClass.md) | HandedOffSuccess | [Details](#05683faf5ef0baf823cb365a17c82af57fc4942e7)
- [scripting\getting-started\understanding-concepts-reference.md](https://github.com/PowerShell/powerShell-Docs/blob/119b4d50423498e08383f02e56ae76653d06e555/scripting/getting-started/understanding-concepts-reference.md) | HandedOffSuccess | [Details](#e3cac149d549400b6a180b4a4fd6ff1a13a8130b305)
+ [dsc\troubleshooting.md](https://github.com/PowerShell/powerShell-Docs/blob/c7b198d6206c57ef663ea5f4c8cef5ab5678a823/dsc/troubleshooting.md) | HandedOffSuccess | [Details](#d06b330e3a64705e2f86230e8a9e344e85b8d4be95)
 
 ## Item Details
-##### <a name='05683faf5ef0baf823cb365a17c82af57fc4942e7'></a> Source: [dsc\authoringResourceClass.md](https://github.com/PowerShell/powerShell-Docs/blob/c243385d2cf2cae2f7e7d52dcd529878cd1e4f5b/dsc/authoringResourceClass.md)
+##### <a name='d06b330e3a64705e2f86230e8a9e344e85b8d4be95'></a> Source: [dsc\troubleshooting.md](https://github.com/PowerShell/powerShell-Docs/blob/c7b198d6206c57ef663ea5f4c8cef5ab5678a823/dsc/troubleshooting.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/ba917991983aa2f785bc1b06c55d3670df336c94/ol-handoff/PowerShell/powerShell-Docs.ja-jp/live/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.ja-jp.xlf)
-* Handoff Datetime: 2016-09-30 18:15:57
+* Handoff File: [troubleshooting.bcb1039de4ec46bfb0ab2d224be50829d0891e7d.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/6665306d7357e9a81f31cfc399df2ac7cbc8c442/ol-handoff/PowerShell/powerShell-Docs.ja-jp/live/troubleshooting.bcb1039de4ec46bfb0ab2d224be50829d0891e7d.ja-jp.xlf)
+* Handoff Datetime: 2016-10-05 17:45:35
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
-##### <a name='e3cac149d549400b6a180b4a4fd6ff1a13a8130b305'></a> Source: [scripting\getting-started\understanding-concepts-reference.md](https://github.com/PowerShell/powerShell-Docs/blob/119b4d50423498e08383f02e56ae76653d06e555/scripting/getting-started/understanding-concepts-reference.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/ba917991983aa2f785bc1b06c55d3670df336c94/ol-handoff/PowerShell/powerShell-Docs.ja-jp/live/understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.ja-jp.xlf)
-* Handoff Datetime: 2016-09-30 18:15:57
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [dsc\troubleshooting.md](https://github.com/PowerShell/powerShell-Docs.ja-jp/blob/4e47974e40f8d29c11eca19f5eddde7ad2c6b6e6/dsc/troubleshooting.md)
+* Current Handback File: [troubleshooting.bcb1039de4ec46bfb0ab2d224be50829d0891e7d.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/a6373a0df0a9fc7c6f4c8fb1d40d0498af099f86/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/troubleshooting.bcb1039de4ec46bfb0ab2d224be50829d0891e7d.ja-jp.xlf)
+* Current Handback Datetime: 2016-09-20 14:16:22
+* Bilingual File: [troubleshooting.bcb1039de4ec46bfb0ab2d224be50829d0891e7d.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/a6373a0df0a9fc7c6f4c8fb1d40d0498af099f86/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/troubleshooting.bcb1039de4ec46bfb0ab2d224be50829d0891e7d.ja-jp.xlf)
+* Bilingual Datetime: 2016-09-20 14:17:54
 * [Back to Top](#report-top)
 
 
