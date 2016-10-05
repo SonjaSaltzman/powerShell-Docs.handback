@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f83066393a966ee1cd054ea528ed0590bc494643</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\package-management-improvements.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8699d11fdfbea987fb6d7af8df01826f9909e6ae</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Improvements to Package Management in WMF 5.1 (Preview)</source>
+          <target state="translated">WMF 5.1 (預覽) 中封裝管理的改善</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>PowerShell, DSC, WMF</source>
+          <target state="translated">PowerShell、DSC、WMF</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Improvements to Package Management in WMF 5.1 (Preview)</source>
+          <target state="translated">WMF 5.1 (預覽) 中封裝管理的改善</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Improvements in PackageManagement</source>
+          <target state="translated">封裝管理的改善</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The following are the fixes made in the WMF 5.1:</source>
+          <target state="translated">以下是 WMF 5.1 中所做的修正︰</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Version Alias</source>
+          <target state="translated">版本別名</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Scenario<ept id="p1">**</ept>: If you have version 1.0 and 2.0 of a package, P1, installed on your system, and you want to uninstall version 1.0, you would run "uninstall-package -name P1 -version 1.0" and expect version 1.0 to be uninstalled after running the cmdlet.</source>
+          <target state="translated"><bpt id="p1">**</bpt>案例<ept id="p1">**</ept>︰如果您已在系統上安裝了 1.0 及 2.0 版的封裝 P1，而您想要將 1.0 版解除安裝，您可以執行 "uninstall-package -name P1 -version 1.0"，預期執行 Cmdlet 之後就會將 1.0 版解除安裝。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>However the result is that version 2.0 gets uninstalled.</source>
+          <target state="translated">不過，結果卻是將 2.0 版解除安裝。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This occurs because the "-version" parameter is an alias of the "-minimumversion" parameter.</source>
+          <target state="translated">這是因為 "-version" 參數是 "-minimumversion" 參數的別名。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>When OneGet is looking for a qualified package with the minimum version of 1.0, it returns the latest version.</source>
+          <target state="translated">當 OneGet 在尋找至少 1.0 版的完整封裝時，會傳回最新的版本。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This behavior is expected in normal cases because finding the latest version is usually the desired result.</source>
+          <target state="translated">正常情況下會發生此行為，因為尋找最新版本通常是我們想要的結果。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>However, it should not apply to the uninstall-package case..</source>
+          <target state="translated">只不過，不應該套用到將封裝解除安裝的情況上。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Solution<ept id="p1">**</ept>:removed -version alias entirely in OneGet and PowerShellGet.</source>
+          <target state="translated"><bpt id="p1">**</bpt>解決方案<ept id="p1">**</ept>︰完全移除 OneGet 和 PowerShellGet 中的 -version 別名。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Multiple prompts for bootstrapping the NuGet provider</source>
+          <target state="translated">多次提示啟動載入 NuGet 提供者</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Scenario<ept id="p1">**</ept>: When you run Find-Module or Install-module or other OneGet cmdlets on your computer for the first time, OneGet tries to bootstrap the NuGet provider.</source>
+          <target state="translated"><bpt id="p1">**</bpt>案例<ept id="p1">**</ept>：當您第一次在電腦上執行 Find-Module 或 Install-module 或其他 OneGet Cmdlet 時，OneGet 嘗試啟動載入 NuGet 提供者。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>It does this because the PowerShellGet provider also uses the NuGet provider to download PowerShell modules.</source>
+          <target state="translated">它之所以如此做，是因為 PowerShellGet 提供者也使用 NuGet 提供者下載 PowerShell 模組。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>OneGet then prompts the user for permission to install the NuGet provider.</source>
+          <target state="translated">接著，OneGet 會提示使用者提供安裝 NuGet 提供者的權限。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>After the user selects "yes" for the bootstrapping, the latest version of the NuGet provider will be installed.</source>
+          <target state="translated">在使用者選取 [是] 啟動載入之後，就會安裝最新版的 NuGet 提供者。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>However, in some cases, when you have an old version of NuGet provider installed on your computer, the older version of NuGet sometimes gets loaded first into the PowerShell session (that's the race condition in OneGet).</source>
+          <target state="translated">不過在某些情況下，當電腦上安裝了較舊版本的 NuGet 提供者時，有時 PowerShell 工作階段會先載入舊版的 NuGet (亦即 OneGet 中的競爭條件)。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>However PowerShellGet requires the later version of the NuGet provider to work, so PowerShellGet asks the OneGet for bootstrapping the NuGet provider again.</source>
+          <target state="translated">不過，PowerShellGet 需要較新版本的 NuGet 提供者工作，因此 PowerShellGet 會要求 OneGet 再次啟動載入 NuGet 提供者。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This results in multiple prompts for bootstrapping the NuGet provider.</source>
+          <target state="translated">以致多次提示啟動載入 NuGet 提供者。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Solution<ept id="p1">**</ept>: In WMF5.1, OneGet loads the latest version of the NuGet provider to avoid multiple prompts for bootstrapping the NuGet provider.</source>
+          <target state="translated"><bpt id="p1">**</bpt>解決方案<ept id="p1">**</ept>︰在 WMF 5.1 中，OneGet 會載入最新版的 NuGet 提供者，避免多次提示啟動載入 NuGet 提供者。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You could also work around this issue by manually deleting the old version of the NuGet provider (NuGet-Anycpu.exe) if exists from $env:ProgramFiles\PackageManagement\ProviderAssemblies $env:LOCALAPPDATA\PackageManagement\ProviderAssemblies</source>
+          <target state="translated">如果 $env: ProgramFiles\PackageManagement\ProviderAssemblies $env: LOCALAPPDATA\PackageManagement\ProviderAssemblies 有舊版的 NuGet 提供者，您也可以手動刪除舊版 (NuGet Anycpu.exe) 解決這個問題。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Support for OneGet on computers with intranet access only</source>
+          <target state="translated">只有內部網路存取權電腦的 OneGet 支援</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Scenario<ept id="p1">**</ept>: For the enterprise scenario, people are working under an environment where there is no internet access but Intranet only.</source>
+          <target state="translated"><bpt id="p1">**</bpt>案例<ept id="p1">**</ept>︰企業案例中，員工的工作環境只能存取內部網路，不能存取網際網路。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>OneGet did not support this case in WMF 5.0.</source>
+          <target state="translated">在 WMF 5.0 中，OneGet 不支援此種案例。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Scenario<ept id="p1">**</ept>: In WMF 5.0, OneGet did not support computers that have only intranet (but not internet) access.</source>
+          <target state="translated"><bpt id="p1">**</bpt>案例<ept id="p1">**</ept>︰以前在 WMF 5.0 中，OneGet 不支援只能存取內部網路 (不能存取網際網路) 的電腦。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Solution<ept id="p1">**</ept>: In WMF 5.1, you can follow these steps to allow intranet computers to use OneGet:</source>
+          <target state="translated"><bpt id="p1">**</bpt>解決方案<ept id="p1">**</ept>︰在 WMF 5.1，您可以依照這些步驟允許內部網路電腦使用 OneGet：</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Download the NuGet provider using another computer that has an internet connection by using Install-PackageProvider NuGet.</source>
+          <target state="translated">使用 Install-PackageProvider NuGet，用具有網際網路連線的其他電腦下載 NuGet 提供者。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Find the NuGet provider under either  $env:ProgramFiles\PackageManagement\ProviderAssemblies\nuget  or  $env:LOCALAPPDATA\PackageManagement\ProviderAssemblies\nuget.</source>
+          <target state="translated">在 $env:ProgramFiles\PackageManagement\ProviderAssemblies\nuget 或 $env:LOCALAPPDATA\PackageManagement\ProviderAssemblies\nuget 下尋找 NuGet 提供者。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Copy the binaries to a folder or network share location that the intranet computer can access, and then install the NuGet provider with "Install-PackageProvider NuGet -Source <ph id="ph1">&lt;Path to folder&gt;</ph>".</source>
+          <target state="translated">將二進位檔複製到內部網路電腦可以存取的資料夾或網路共用位置，然後以 "Install-PackageProvider NuGet -Source <ph id="ph1">&lt;Path to folder&gt;</ph>" 安裝 NuGet 提供者。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Event logging improvements</source>
+          <target state="translated">事件記錄的改善</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>When you install packages, you are changing the state of the computer.</source>
+          <target state="translated">安裝封裝即是變更電腦的狀態。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>In WMF 5.1, OneGet now logs events to the Windows event log for install, uninstall, and save-package activities.</source>
+          <target state="translated">在 WMF 5.1 中，OneGet 會將安裝、解除安裝和儲存封裝活動等事件記錄在 Windows 事件記錄檔。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The Event channel is the same as for PowerShell, that is, Microsoft-Windows-PowerShell, Operational.</source>
+          <target state="translated">事件通道和 PowerShell 的一樣，亦即 Microsoft-Windows-PowerShell、Operational。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Support for basic authentication</source>
+          <target state="translated">支援基本驗證</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>In WMF 5.1, OneGet supports finding and installing packages from a repository that requires basic authentication.</source>
+          <target state="translated">在 WMF 5.1 中，OneGet 支援從需要基本驗證的儲存機制尋找和安裝封裝。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You can supply your credentials to the Find-Package and Install-Package cmdlets.</source>
+          <target state="translated">您可以向 Find-Package 和 Install-Package Cmdlet 提供您的認證。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">例如：</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Support for using OneGet behind a proxy</source>
+          <target state="translated">支援在 Proxy 後方使用 OneGet</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>In WMF 5.1, OneGet now takes new proxy parameters: -ProxyCredential and -Proxy.</source>
+          <target state="translated">在 WMF 5.1 中，OneGet 現在採用新的 Proxy 參數：-ProxyCredential 和 -Proxy。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Using these parameters, you can specify the proxy URL and credentials to OneGet cmdlets.</source>
+          <target state="translated">您可以使用這些參數，在 OneGet Cmdlet 指定 Proxy URL 和認證。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>By default, system proxy settings are used.</source>
+          <target state="translated">預設使用系統 Proxy 設定。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">例如：</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

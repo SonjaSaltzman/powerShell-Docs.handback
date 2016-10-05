@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">654c0d5e83b9832524298b5c96eae094f371330f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.0\audit_script.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5f9cbbbdda24b7d9debd50c29612fbd48e3b629b</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Script Tracing and Logging</source>
+          <target state="translated">スクリプトのトレースとログ</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>While Windows PowerShell already has the <bpt id="p1">**</bpt>LogPipelineExecutionDetails<ept id="p1">**</ept> Group Policy setting to log the invocation of cmdlets, PowerShell’s scripting language has plenty of features that you might want to log and/or audit.</source>
+          <target state="translated">Windows PowerShell には、コマンドレットの呼び出しをログに記録する <bpt id="p1">**</bpt>LogPipelineExecutionDetails<ept id="p1">**</ept> グループ ポリシー設定が既に備えられていますが、PowerShell のスクリプト言語には、ログへの記録や監査の対象とする可能性がある機能が数多く含まれています。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The new Detailed Script Tracing feature lets you enable detailed tracking and analysis of Windows PowerShell scripting use on a system.</source>
+          <target state="translated">新しい詳細スクリプト トレース機能では、システムで使用される Windows PowerShell スクリプトの詳細な追跡や分析を有効にすることができます。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>After you enable detailed script tracing, Windows PowerShell logs all script blocks to the ETW event log, <bpt id="p1">**</bpt>Microsoft-Windows-PowerShell/Operational<ept id="p1">**</ept>.</source>
+          <target state="translated">詳細なスクリプト トレースを有効にすると、Windows PowerShell はすべてのスクリプト ブロックを ETW イベント ログ <bpt id="p1">**</bpt>Microsoft-Windows-PowerShell/Operational<ept id="p1">**</ept> に記録します。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If a script block creates another script block (for example, a script that calls the Invoke-Expression cmdlet on a string), that resulting script block is logged as well.</source>
+          <target state="translated">スクリプト ブロックによって別のスクリプト ブロックが作成される場合 (たとえば、文字列で Invoke-Expression コマンドレットを呼び出すスクリプト)、その結果として得られるスクリプト ブロックも記録されます。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Logging of these events can be enabled through the <bpt id="p1">**</bpt>Turn on PowerShell Script Block Logging<ept id="p1">**</ept> Group Policy setting (in Administrative Templates -&gt; Windows Components -&gt; Windows PowerShell).</source>
+          <target state="translated">これらのイベントのログ記録は、<bpt id="p1">**</bpt>[PowerShell スクリプト ブロックのログ記録を有効にする]<ept id="p1">**</ept> グループ ポリシー設定 ([管理用テンプレート] -&gt; [Windows コンポーネント] -&gt; [Windows PowerShell]) で有効にすることができます。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The events are:</source>
+          <target state="translated">イベントは次のとおりです。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Channel</source>
+          <target state="translated">［チャネル］</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Operational</source>
+          <target state="translated">Operational</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Level</source>
+          <target state="translated">レベル</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Verbose</source>
+          <target state="translated">Verbose</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Opcode</source>
+          <target state="translated">オペコード</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Create</source>
+          <target state="translated">作成</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Task</source>
+          <target state="translated">タスク</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>CommandStart</source>
+          <target state="translated">CommandStart</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Keyword</source>
+          <target state="translated">キーワード</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Runspace</source>
+          <target state="translated">Runspace</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>EventId</source>
+          <target state="translated">イベント ID</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Engine_ScriptBlockCompiled (0x1008 = 4104)</source>
+          <target state="translated">Engine_ScriptBlockCompiled (0x1008 = 4104)</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Message</source>
+          <target state="translated">メッセージ</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Creating Scriptblock text (%1 of %2):</source>
+          <target state="translated">Creating Scriptblock text (%1 of %2):</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>%3</source>
+          <target state="translated">%3</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>ScriptBlock ID: %4</source>
+          <target state="translated">ScriptBlock ID: %4</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The text embedded in the message is the extent of the script block compiled.</source>
+          <target state="translated">メッセージに埋め込まれたテキストは、コンパイルされたスクリプト ブロックの範囲です。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The ID is a GUID that is retained for the life of the script block.</source>
+          <target state="translated">ID は、スクリプト ブロックの有効期間に保持される GUID です。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>When you enable verbose logging, the feature writes begin and end markers:</source>
+          <target state="translated">詳細ログ記録の機能を有効にすると、次のように開始マーカーと終了マーカーが書き込まれます。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Channel</source>
+          <target state="translated">［チャネル］</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Operational</source>
+          <target state="translated">Operational</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Level</source>
+          <target state="translated">レベル</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Verbose</source>
+          <target state="translated">Verbose</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Opcode</source>
+          <target state="translated">オペコード</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Open (/ Close)</source>
+          <target state="translated">Open (/ Close)</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Task</source>
+          <target state="translated">タスク</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>CommandStart (/ CommandStop)</source>
+          <target state="translated">CommandStart (/ CommandStop)</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Keyword</source>
+          <target state="translated">キーワード</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Runspace</source>
+          <target state="translated">Runspace</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>EventId</source>
+          <target state="translated">イベント ID</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>ScriptBlock<ph id="ph1">\_</ph>Invoke<ph id="ph2">\_</ph>Start<ph id="ph3">\_</ph>Detail (0x1009 = 4105) /</source>
+          <target state="translated">ScriptBlock<ph id="ph1">\_</ph>Invoke<ph id="ph2">\_</ph>Start<ph id="ph3">\_</ph>Detail (0x1009 = 4105) /</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>ScriptBlock<ph id="ph1">\_</ph>Invoke<ph id="ph2">\_</ph>Complete<ph id="ph3">\_</ph>Detail (0x100A = 4106)</source>
+          <target state="translated">ScriptBlock<ph id="ph1">\_</ph>Invoke<ph id="ph2">\_</ph>Complete<ph id="ph3">\_</ph>Detail (0x100A = 4106)</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Message</source>
+          <target state="translated">メッセージ</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Started (/ Completed) invocation of ScriptBlock ID: %1</source>
+          <target state="translated">Started (/ Completed) invocation of ScriptBlock ID: %1</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Runspace ID: %2</source>
+          <target state="translated">Runspace ID: %2</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The ID is the GUID representing the script block (that can be correlated with event ID 0x1008), and the Runspace ID represents the runspace in which this script block was run.</source>
+          <target state="translated">ID は (イベント ID 0x1008 に関連付けることができる) スクリプト ブロックを表す GUIDで、Runspace ID はこのスクリプト ブロックが実行された実行空間を表します。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Percent signs in the invocation message represent structured ETW properties.</source>
+          <target state="translated">呼び出しメッセージ内のパーセント記号は、構造化 ETW プロパティを表します。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>While they are replaced with the actual values in the message text, a more robust way to access them is to retrieve the message with the Get-WinEvent cmdlet, and then use the <bpt id="p1">**</bpt>Properties<ept id="p1">**</ept> array of the message.</source>
+          <target state="translated">これらはメッセージ テキストで実際の値に置き換えられますが、Get-WinEvent コマンドレットを使用してメッセージを取得し、メッセージの <bpt id="p1">**</bpt>Properties<ept id="p1">**</ept> 配列を使用すると、より信頼性の高い方法でそれらにアクセスできます。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Here's an example of how this functionality can help unwrap a malicious attempt to encrypt and obfuscate a script:</source>
+          <target state="translated">この機能を利用して、スクリプトを暗号化および難読化する悪意のある試みをラップ解除する方法の例を次に示します。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Running this generates the following log entries:</source>
+          <target state="translated">このことを実行すると、次のログ エントリが生成されます。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If the script block length exceeds what ETW is capable of holding in a single event, Windows PowerShell breaks the script into multiple parts.</source>
+          <target state="translated">スクリプト ブロックの長さが、ETW で単一のイベントに格納できる長さを超えた場合、Windows PowerShell はスクリプトを複数の部分に分割します。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Here is sample code to recombine a script from its log messages:</source>
+          <target state="translated">ログ メッセージからスクリプトを再結合するサンプル コードを次に示します。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>As with all logging systems that have a limited retention buffer (i.e. ETW logs), one attack against this infrastructure is to flood the log with spurious events to hide earlier evidence.</source>
+          <target state="translated">保持するバッファーが限られているすべてのログ システム (ETW ログなど) の場合と同様、このインフラストラクチャに対して、正しくないイベントでログを溢れさせて以前の証拠を隠す攻撃が行われる場合があります。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To protect yourself from this attack, ensure that you have some form of event log collection set up (i.e., Windows Event Forwarding, <bpt id="p1">[</bpt>Spotting the Adversary with Windows Event Log Monitoring<ept id="p1">](http://www.nsa.gov/ia/_files/app/Spotting_the_Adversary_with_Windows_Event_Log_Monitoring.pdf)</ept>) to move event logs off of the computer as soon as possible.</source>
+          <target state="translated">この攻撃から保護するには、何らかの形式のイベント ログ収集が設定されていることを確認し (つまり、Windows イベント転送、「<bpt id="p1">[</bpt>Spotting the Adversary with Windows Event Log Monitoring (Windows イベント ログ監視による敵対者の偵察)<ept id="p1">](http://www.nsa.gov/ia/_files/app/Spotting_the_Adversary_with_Windows_Event_Log_Monitoring.pdf)</ept>」)、できるだけ早くコンピューターからイベント ログを移動します。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
