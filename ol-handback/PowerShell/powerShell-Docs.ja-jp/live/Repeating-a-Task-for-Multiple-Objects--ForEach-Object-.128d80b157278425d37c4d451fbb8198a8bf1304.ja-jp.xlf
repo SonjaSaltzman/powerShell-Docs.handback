@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8a8ebbaecde15efa15aa7a23a4c31db5e808d454</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Repeating-a-Task-for-Multiple-Objects--ForEach-Object-.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ce5090c6565b170fa230b4c9318a1700cbeb16bd</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Repeating a Task for Multiple Objects  ForEach Object</source>
+          <target state="translated">複数のオブジェクトのタスクを繰り返す (ForEach-Object)</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="translated">PowerShell, コマンドレット</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Repeating a Task for Multiple Objects (ForEach-Object)</source>
+          <target state="translated">複数のオブジェクトのタスクを繰り返す (ForEach-Object)</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ForEach<ph id="ph1">\-</ph>Object<ept id="p1">**</ept> cmdlet uses script blocks and the $<ph id="ph2">\_</ph> descriptor for the current pipeline object to let you run a command on each object in the pipeline.</source>
+          <target state="translated"><bpt id="p1">**</bpt>ForEach<ph id="ph1">\-</ph>Object<ept id="p1">**</ept> コマンドレットは、現在のパイプライン オブジェクトのスクリプト ブロックと $<ph id="ph2">\_</ph> 記述子を使用して、パイプライン内の各オブジェクトのコマンドを実行できるようにします。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This can be used to perform some complicated tasks.</source>
+          <target state="translated">これは、いくつかの複雑なタスクを実行するために使用できます。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>One situation where this can be useful is manipulating data to make it more useful.</source>
+          <target state="translated">これが有用な状況の一つは、データをさらに有効活用するよう操作する場合です。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For example, the Win32<ph id="ph1">\_</ph>LogicalDisk class from WMI can be used to return free space information for each local disk.</source>
+          <target state="translated">たとえば、WMI からの Win32<ph id="ph1">\_</ph>LogicalDisk クラスは、各ローカル ディスクの空き領域の情報を返すのに使用できます。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The data is returned in terms of bytes, however, which makes it difficult to read:</source>
+          <target state="translated">データはバイト単位で返されますが、次のように、読み取るのは困難です。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>We can convert the FreeSpace value to megabytes by dividing each value by 1024 twice; after the first division, the data is in kilobytes, and after the second division it is megabytes.</source>
+          <target state="translated">FreeSpace の値を 1024 で 2 回割ると、メガバイト単位に変換できます。最初の除算の後、データはキロバイト単位になり、2 回目の除算の後、メガバイト単位になります。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can do that in a ForEach<ph id="ph1">\-</ph>Object script block by typing:</source>
+          <target state="translated">ForEach<ph id="ph1">\-</ph>Object のスクリプト ブロックでこのことを実行できます。次のように入力します。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Unfortunately, the output is now data with no associated label.</source>
+          <target state="translated">残念ながら、出力はラベルとは関連付けられていないデータになります。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Because WMI properties such as this are read<ph id="ph1">\-</ph>only, you cannot directly convert FreeSpace.</source>
+          <target state="translated">この例のように、WMI プロパティは読み取り専用なので、FreeSpace を直接変換することはできません。<ph id="ph1">\-</ph></target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If you type this:</source>
+          <target state="translated">次のように入力するとします。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You get an error message:</source>
+          <target state="translated">次のようなエラー メッセージが表示されます。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You could reorganize the data by using some advanced techniques, but a simpler approach is to create a new object, by using <bpt id="p1">**</bpt>Select<ph id="ph1">\-</ph>Object<ept id="p1">**</ept>.</source>
+          <target state="translated">高度な技法をいくつか使用してデータを再編成できますが、よりシンプルな方法は、<bpt id="p1">**</bpt>Select<ph id="ph1">\-</ph>Object<ept id="p1">**</ept> を使用して新しいオブジェクトを作成することです。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

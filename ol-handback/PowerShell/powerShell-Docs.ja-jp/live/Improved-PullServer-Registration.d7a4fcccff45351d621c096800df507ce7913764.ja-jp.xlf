@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d9f7dea63e6541b673ac6be5ccad59368b301440</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\features-scenarios-cache\Improved-PullServer-Registration.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">46cc211b18e56b20e362f6bf95cb3acf4c5acc2a</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Improved Pull Server Registrations</source>
+          <target state="translated">プル サーバー登録の機能強化</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Improved Pull Server Registration</source>
+          <target state="translated">プル サーバー登録の機能強化</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In the earlier versions of WMF, simulataneous registrations/reporting requests to DSC Pull Server while using the ESENT database would lead to LCM failing to register and/or report as the case may be.</source>
+          <target state="translated">以前のバージョンの WMF では、ESENT データベースを使用しながら同時に DSC プル サーバーに登録/レポートを要求すると、LCM が登録またはレポートに失敗することがありました。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In such cases, the event logs on the Pull Server will have the error "Instance Name already in use."</source>
+          <target state="translated">そのような場合、プル サーバーのイベント ログに "既に使用されているインスタンス名" というエラーが記録されました。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This was due to an incorrect pattern being used to access the ESENT database in a multi threaded scenario.</source>
+          <target state="translated">これは、マルチスレッド シナリオで ESENT データベースにアクセスするとき、間違ったパターンが使用されることに起因していました。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In WMF 5.1, this issue has been fixed.</source>
+          <target state="translated">WMF 5.1 では、この問題は修正されました。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Concurrent registrations or reporting (involving ESENT database) will work fine in WMF 5.1.</source>
+          <target state="translated">同時登録または同時レポート (ESENT データベースを含む) が WMF 5.1 では正常に機能します。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This issue is applicable only to the ESENT database and does not apply to the OLEDB database.</source>
+          <target state="translated">この問題は ESENT データベースにのみ関連し、OLEDB データベースには関連しません。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
