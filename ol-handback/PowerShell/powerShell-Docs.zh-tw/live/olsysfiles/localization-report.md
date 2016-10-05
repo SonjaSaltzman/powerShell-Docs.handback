@@ -1773,6 +1773,8 @@
 * Archive Datetime: 2016-08-23 13:34:46
 * Handback File: [index.fb851c60ffb7fc30c83dbadbcac26716f6e1f16d.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/c5ba1a6bc8f534a8324bba7d324dd3c93600473c/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/index.fb851c60ffb7fc30c83dbadbcac26716f6e1f16d.zh-tw.xlf)
 * Handback Datetime: 2016-10-05 20:46:39
+* Bilingual File: [index.fb851c60ffb7fc30c83dbadbcac26716f6e1f16d.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/c5ba1a6bc8f534a8324bba7d324dd3c93600473c/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/index.fb851c60ffb7fc30c83dbadbcac26716f6e1f16d.zh-tw.xlf)
+* Bilingual Datetime: 2016-10-05 20:47:50
 * [Back to Top](#report-top)
 
 ##### <a name='443d343d6f5c79c562e36ba59cd822d990de8715105'></a> Source: [gallery\psgallery\contributing_to_psgallery_documentation.md](https://github.com/PowerShell/powerShell-Docs/blob/316caf861c7aff7e7a587fe2a8065933c0b67404/gallery/psgallery/contributing_to_psgallery_documentation.md)
@@ -1881,6 +1883,8 @@
 * Archive Datetime: 2016-08-23 13:34:46
 * Handback File: [Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/c5ba1a6bc8f534a8324bba7d324dd3c93600473c/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.zh-tw.xlf)
 * Handback Datetime: 2016-10-05 20:46:39
+* Bilingual File: [Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/c5ba1a6bc8f534a8324bba7d324dd3c93600473c/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.zh-tw.xlf)
+* Bilingual Datetime: 2016-10-05 20:47:50
 * [Back to Top](#report-top)
 
 ##### <a name='07164bab5e12283899be2453e644bba1b2d3b40f114'></a> Source: [gallery\psgallery\Managing-Item-Owners.md](https://github.com/PowerShell/powerShell-Docs/blob/1da38304fc37eb206bbeb55ff7d65802819551d0/gallery/psgallery/Managing-Item-Owners.md)
@@ -2103,6 +2107,8 @@
 * Archive Datetime: 2016-08-23 13:34:46
 * Handback File: [Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/c5ba1a6bc8f534a8324bba7d324dd3c93600473c/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.zh-tw.xlf)
 * Handback Datetime: 2016-10-05 20:46:39
+* Bilingual File: [Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/c5ba1a6bc8f534a8324bba7d324dd3c93600473c/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.zh-tw.xlf)
+* Bilingual Datetime: 2016-10-05 20:47:50
 * [Back to Top](#report-top)
 
 ##### <a name='57218c316b6921e2cd61027a2387edc31a2d9471132'></a> Source: [gallery\psget\module\Dependency_Versioning.md](https://github.com/PowerShell/powerShell-Docs/blob/d7edea9dbffd53138eb5a710a77d0211aa2854f2/gallery/psget/module/Dependency_Versioning.md)
@@ -2115,6 +2121,8 @@
 * Archive Datetime: 2016-08-23 13:34:46
 * Handback File: [Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/c5ba1a6bc8f534a8324bba7d324dd3c93600473c/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.zh-tw.xlf)
 * Handback Datetime: 2016-10-05 20:46:39
+* Bilingual File: [Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/c5ba1a6bc8f534a8324bba7d324dd3c93600473c/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.zh-tw.xlf)
+* Bilingual Datetime: 2016-10-05 20:47:50
 * [Back to Top](#report-top)
 
 ##### <a name='57218c316b6921e2cd61027a2387edc31a2d9471133'></a> Source: [gallery\psget\module\Module_Versioning.md](https://github.com/PowerShell/powerShell-Docs/blob/d7edea9dbffd53138eb5a710a77d0211aa2854f2/gallery/psget/module/Module_Versioning.md)
@@ -2127,6 +2135,8 @@
 * Archive Datetime: 2016-08-23 13:34:46
 * Handback File: [Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/c5ba1a6bc8f534a8324bba7d324dd3c93600473c/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.zh-tw.xlf)
 * Handback Datetime: 2016-10-05 20:46:39
+* Bilingual File: [Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/c5ba1a6bc8f534a8324bba7d324dd3c93600473c/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.zh-tw.xlf)
+* Bilingual Datetime: 2016-10-05 20:47:50
 * [Back to Top](#report-top)
 
 ##### <a name='57218c316b6921e2cd61027a2387edc31a2d9471134'></a> Source: [gallery\psget\module\ModuleManifest-Reference.md](https://github.com/PowerShell/powerShell-Docs/blob/d7edea9dbffd53138eb5a710a77d0211aa2854f2/gallery/psget/module/ModuleManifest-Reference.md)
@@ -2139,6 +2149,8 @@
 * Archive Datetime: 2016-08-23 13:34:46
 * Handback File: [Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/c5ba1a6bc8f534a8324bba7d324dd3c93600473c/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.zh-tw.xlf)
 * Handback Datetime: 2016-10-05 20:46:39
+* Bilingual File: [Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/c5ba1a6bc8f534a8324bba7d324dd3c93600473c/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.zh-tw.xlf)
+* Bilingual Datetime: 2016-10-05 20:47:50
 * [Back to Top](#report-top)
 
 ##### <a name='7b8d135889378be56d0d6d5b9dc89c55f2b1e68f135'></a> Source: [gallery\psget\module\modulewithpseditionsupport.md](https://github.com/PowerShell/powerShell-Docs/blob/93eb1276b5b9632d43ed4c4cc00f67d19c862bbe/gallery/psget/module/modulewithpseditionsupport.md)
@@ -2563,6 +2575,8 @@
 * Archive Datetime: 2016-08-23 13:34:46
 * Handback File: [Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/c5ba1a6bc8f534a8324bba7d324dd3c93600473c/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.zh-tw.xlf)
 * Handback Datetime: 2016-10-05 20:46:39
+* Bilingual File: [Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/c5ba1a6bc8f534a8324bba7d324dd3c93600473c/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.zh-tw.xlf)
+* Bilingual Datetime: 2016-10-05 20:47:50
 * [Back to Top](#report-top)
 
 ##### <a name='8c47b455227ebdc4b955cd0c83c0283781339192170'></a> Source: [gallery\psget\script\scriptwithpseditionsupport.md](https://github.com/PowerShell/powerShell-Docs/blob/30c768cca998dbe456a37458ee7f0beb4e5f5621/gallery/psget/script/scriptwithpseditionsupport.md)
