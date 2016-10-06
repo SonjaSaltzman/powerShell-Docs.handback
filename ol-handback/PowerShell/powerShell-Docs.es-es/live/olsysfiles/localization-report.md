@@ -4618,6 +4618,8 @@
 * Archive Datetime: 2016-10-04 13:19:53
 * Handback File: [understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/5fc48068034bc981caa2ac7788a933025ed070b0/ol-handback/PowerShell/powerShell-Docs.es-es/live/understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.es-es.xlf)
 * Handback Datetime: 2016-10-06 09:37:55
+* Bilingual File: [understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/5fc48068034bc981caa2ac7788a933025ed070b0/ol-handback/PowerShell/powerShell-Docs.es-es/live/understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.es-es.xlf)
+* Bilingual Datetime: 2016-10-06 09:38:51
 * [Back to Top](#report-top)
 
 ##### <a name='755db60abb7859af5065e2c5ddfbfc6cfb7aeeda306'></a> Source: [scripting\md.style](https://github.com/PowerShell/powerShell-Docs/blob/d7edea9dbffd53138eb5a710a77d0211aa2854f2/scripting/md.style)
