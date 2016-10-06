@@ -1,39 +1,11 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 2
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [dsc\msft-dsclocalconfigurationmanager.md](https://github.com/PowerShell/powerShell-Docs/blob/26db4a48af3aa3d6a9a2054fb85da8779626f284/dsc/msft-dsclocalconfigurationmanager.md) | InSyncHandedBackSuccess | [Details](#b9cb89bb120151df69e3cb26b50c3a0d15c2371169)
- [wmf\5.1\compatibility.md](https://github.com/PowerShell/powerShell-Docs/blob/1f6f18e46537d4b9f5e64c9e808e46e82b2d3050/wmf/5.1/compatibility.md) | InSyncHandedBackSuccess | [Details](#8e7dd69fc5ba29e719aec353afcac2471ecb2352406)
 
 ## Item Details
-##### <a name='b9cb89bb120151df69e3cb26b50c3a0d15c2371169'></a> Source: [dsc\msft-dsclocalconfigurationmanager.md](https://github.com/PowerShell/powerShell-Docs/blob/26db4a48af3aa3d6a9a2054fb85da8779626f284/dsc/msft-dsclocalconfigurationmanager.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [dsc\msft-dsclocalconfigurationmanager.md](https://github.com/PowerShell/powerShell-Docs.zh-cn/blob/699fce2f7b3fc0f27d0f44a0ee807c3c57571b90/dsc/msft-dsclocalconfigurationmanager.md)
-* Handoff File: [msft-dsclocalconfigurationmanager.a79fe5e4edd04227feb5da9e41daad2c0b306f84.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/cffecbed63e1325064509382de2fa2b1b0ce7db5/ol-handoff/PowerShell/powerShell-Docs.zh-cn/live/msft-dsclocalconfigurationmanager.a79fe5e4edd04227feb5da9e41daad2c0b306f84.zh-cn.xlf)
-* Handoff Datetime: 2016-08-18 01:27:30
-* Handoff Reason: Include
-* Archive File: [msft-dsclocalconfigurationmanager.a79fe5e4edd04227feb5da9e41daad2c0b306f84.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/2f728bf480449c9d91973b9ed030e148fa146c7d/ol-archive/PowerShell/powerShell-Docs.zh-cn/live/msft-dsclocalconfigurationmanager.a79fe5e4edd04227feb5da9e41daad2c0b306f84.zh-cn.xlf)
-* Archive Datetime: 2016-08-23 13:33:51
-* Handback File: [msft-dsclocalconfigurationmanager.a79fe5e4edd04227feb5da9e41daad2c0b306f84.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/fd3d2dda70f71d87a52b3961c6c0b314f3ed7078/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/msft-dsclocalconfigurationmanager.a79fe5e4edd04227feb5da9e41daad2c0b306f84.zh-cn.xlf)
-* Handback Datetime: 2016-10-06 07:52:56
-* [Back to Top](#report-top)
-
-##### <a name='8e7dd69fc5ba29e719aec353afcac2471ecb2352406'></a> Source: [wmf\5.1\compatibility.md](https://github.com/PowerShell/powerShell-Docs/blob/1f6f18e46537d4b9f5e64c9e808e46e82b2d3050/wmf/5.1/compatibility.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [wmf\5.1\compatibility.md](https://github.com/PowerShell/powerShell-Docs.zh-cn/blob/699fce2f7b3fc0f27d0f44a0ee807c3c57571b90/wmf/5.1/compatibility.md)
-* Handoff File: [compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/cffecbed63e1325064509382de2fa2b1b0ce7db5/ol-handoff/PowerShell/powerShell-Docs.zh-cn/live/compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.zh-cn.xlf)
-* Handoff Datetime: 2016-08-18 01:27:30
-* Handoff Reason: Include
-* Archive File: [compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/2f728bf480449c9d91973b9ed030e148fa146c7d/ol-archive/PowerShell/powerShell-Docs.zh-cn/live/compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.zh-cn.xlf)
-* Archive Datetime: 2016-08-23 13:33:51
-* Handback File: [compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/fd3d2dda70f71d87a52b3961c6c0b314f3ed7078/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.zh-cn.xlf)
-* Handback Datetime: 2016-10-06 07:52:56
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
