@@ -2,11 +2,12 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-db30baf" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4d685e518acd3a18f4872417b645dbe66f758421</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\authoringResourceMOF.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">393c83f0d6e5491021ffcdaa6eb9e0fad51b44a6</xliffext:olskeletonhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -14,174 +15,177 @@
           <source>Writing a custom DSC resource with MOF</source>
           <target state="translated">Scrittura di una risorsa DSC personalizzata con MOF</target>       </trans-unit>
         <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,DSC</source>
+          <target state="translated">powershell,DSC</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
           <source>Writing a custom DSC resource with MOF</source>
           <target state="translated">Scrittura di una risorsa DSC personalizzata con MOF</target>       </trans-unit>
-        <trans-unit id="103" translate="yes" xml:space="preserve">
+        <trans-unit id="104" translate="yes" xml:space="preserve">
           <source>Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</source>
           <target state="translated">Si applica a: Windows PowerShell 4.0, Windows PowerShell 5.0</target>       </trans-unit>
-        <trans-unit id="104" translate="yes" xml:space="preserve">
+        <trans-unit id="105" translate="yes" xml:space="preserve">
           <source>In this topic, we will define the schema for a Windows PowerShell Desired State Configuration (DSC) custom resource in a MOF file, and implement the resource in a Windows PowerShell script file.</source>
           <target state="translated">In questo argomento verrà definito lo schema per una risorsa personalizzata di Windows PowerShell DSC (Desired State Configuration) in un file MOF e la risorsa verrà implementata in un file di script di Windows PowerShell.</target>       </trans-unit>
-        <trans-unit id="105" translate="yes" xml:space="preserve">
+        <trans-unit id="106" translate="yes" xml:space="preserve">
           <source>This custom resource is for creating and maintaining a web site.</source>
           <target state="translated">Questa risorsa personalizzata consente di creare e gestire un sito Web.</target>       </trans-unit>
-        <trans-unit id="106" translate="yes" xml:space="preserve">
+        <trans-unit id="107" translate="yes" xml:space="preserve">
           <source>Creating the MOF schema</source>
           <target state="translated">Creazione dello schema MOF</target>       </trans-unit>
-        <trans-unit id="107" translate="yes" xml:space="preserve">
+        <trans-unit id="108" translate="yes" xml:space="preserve">
           <source>The schema defines the properties of your resource that can be configured by a DSC configuration script.</source>
           <target state="translated">Lo schema definisce le proprietà della risorsa che possono essere configurate da uno script di configurazione DSC.</target>       </trans-unit>
-        <trans-unit id="108" translate="yes" xml:space="preserve">
+        <trans-unit id="109" translate="yes" xml:space="preserve">
           <source>Folder structure for a MOF resource</source>
           <target state="translated">Struttura di cartelle per una risorsa MOF</target>       </trans-unit>
-        <trans-unit id="109" translate="yes" xml:space="preserve">
+        <trans-unit id="110" translate="yes" xml:space="preserve">
           <source>To implement a DSC custom resource with a MOF schema, create the following folder structure.</source>
           <target state="translated">Per implementare una risorsa DSC personalizzata con uno schema MOF, creare la struttura di cartelle seguente.</target>       </trans-unit>
-        <trans-unit id="110" translate="yes" xml:space="preserve">
+        <trans-unit id="111" translate="yes" xml:space="preserve">
           <source>The MOF schema is defined in the file Demo_IISWebsite.schema.mof, and the resource script is defined in Demo_IISWebsite.psm1.</source>
           <target state="translated">Lo schema MOF è definito nel file Demo_IISWebsite.schema.mof e lo script di risorsa è definito in Demo_IISWebsite.psm1.</target>       </trans-unit>
-        <trans-unit id="111" translate="yes" xml:space="preserve">
+        <trans-unit id="112" translate="yes" xml:space="preserve">
           <source>Optionally, you can create a module manifest (psd1) file.</source>
           <target state="translated">Facoltativamente, è possibile creare un file manifesto del modulo (con estensione psd1).</target>       </trans-unit>
-        <trans-unit id="112" translate="yes" xml:space="preserve">
+        <trans-unit id="113" translate="yes" xml:space="preserve">
           <source>Note that it is necessary to create a folder named DSCResources under the top-level folder, and that the folder for each resource must have the same name as the resource.</source>
           <target state="translated">Si noti che è necessario creare una cartella denominata DSCResources nella cartella di primo livello e che la cartella per ogni risorsa deve avere lo stesso nome della risorsa.</target>       </trans-unit>
-        <trans-unit id="113" translate="yes" xml:space="preserve">
+        <trans-unit id="114" translate="yes" xml:space="preserve">
           <source>The contents of the MOF file</source>
           <target state="translated">Contenuto del file MOF</target>       </trans-unit>
-        <trans-unit id="114" translate="yes" xml:space="preserve">
+        <trans-unit id="115" translate="yes" xml:space="preserve">
           <source>Following is an example MOF file that can be used for a custom website resource.</source>
           <target state="translated">Di seguito è illustrato un esempio di file MOF che è possibile usare per una risorsa di sito Web personalizzata.</target>       </trans-unit>
-        <trans-unit id="115" translate="yes" xml:space="preserve">
+        <trans-unit id="116" translate="yes" xml:space="preserve">
           <source>To follow this example, save this schema to a file, and call the file <bpt id="p1">*</bpt>Demo_IISWebsite.schema.mof<ept id="p1">*</ept>.</source>
           <target state="translated">Per seguire questo esempio, salvare lo schema in un file e denominare il file <bpt id="p1">*</bpt>Demo_IISWebsite.schema.mof<ept id="p1">*</ept>.</target>       </trans-unit>
-        <trans-unit id="116" translate="yes" xml:space="preserve">
+        <trans-unit id="117" translate="yes" xml:space="preserve">
           <source>Note the following about the previous code:</source>
           <target state="translated">Si noti quanto segue in relazione al codice precedente:</target>       </trans-unit>
-        <trans-unit id="117" translate="yes" xml:space="preserve">
+        <trans-unit id="118" translate="yes" xml:space="preserve">
           <source>defines the name you can use to refer to this custom resource in DSC configuration scripts.</source>
           <target state="translated">definisce il nome che è possibile usare per fare riferimento a questa risorsa personalizzata negli script di configurazione DSC.</target>       </trans-unit>
-        <trans-unit id="118" translate="yes" xml:space="preserve">
+        <trans-unit id="119" translate="yes" xml:space="preserve">
           <source>In this example, <ph id="ph1">`Website`</ph> is equivalent to the friendly name <ph id="ph2">`Archive`</ph> for the built-in Archive resource.</source>
           <target state="translated">In questo esempio <ph id="ph1">`Website`</ph> equivale al nome descrittivo <ph id="ph2">`Archive`</ph> per la risorsa Archive predefinita.</target>       </trans-unit>
-        <trans-unit id="119" translate="yes" xml:space="preserve">
+        <trans-unit id="120" translate="yes" xml:space="preserve">
           <source>The class you define for your custom resource must derive from <ph id="ph1">`OMI_BaseResource`</ph>.</source>
           <target state="translated">La classe definita per la risorsa personalizzata deve derivare da <ph id="ph1">`OMI_BaseResource`</ph>.</target>       </trans-unit>
-        <trans-unit id="120" translate="yes" xml:space="preserve">
+        <trans-unit id="121" translate="yes" xml:space="preserve">
           <source>The type qualifier, <ph id="ph1">`[Key]`</ph>, on a property indicates that this property will uniquely identify the resource instance.</source>
           <target state="translated">Il qualificatore di tipo, <ph id="ph1">`[Key]`</ph>, in una proprietà indica che questa proprietà identificherà in modo univoco l'istanza di risorsa.</target>       </trans-unit>
-        <trans-unit id="121" translate="yes" xml:space="preserve">
+        <trans-unit id="122" translate="yes" xml:space="preserve">
           <source>At least one <ph id="ph1">`[Key]`</ph> property is required.</source>
           <target state="translated">È obbligatoria almeno una proprietà <ph id="ph1">`[Key]`</ph>.</target>       </trans-unit>
-        <trans-unit id="122" translate="yes" xml:space="preserve">
+        <trans-unit id="123" translate="yes" xml:space="preserve">
           <source>The <ph id="ph1">`[Required]`</ph> qualifier indicates that the property is required (a value must be specified in any configuration script that uses this resource).</source>
           <target state="translated">Il qualificatore <ph id="ph1">`[Required]`</ph> indica che la proprietà è obbligatoria (è necessario specificare un valore in ogni script di configurazione che usa questa risorsa).</target>       </trans-unit>
-        <trans-unit id="123" translate="yes" xml:space="preserve">
+        <trans-unit id="124" translate="yes" xml:space="preserve">
           <source>The <ph id="ph1">`[write]`</ph> qualifier indicates that this property is optional when using the custom resource in a configuration script.</source>
           <target state="translated">Il qualificatore <ph id="ph1">`[write]`</ph> indica che questa proprietà è facoltativa quando si usa la risorsa personalizzata in uno script di configurazione.</target>       </trans-unit>
-        <trans-unit id="124" translate="yes" xml:space="preserve">
+        <trans-unit id="125" translate="yes" xml:space="preserve">
           <source>The <ph id="ph1">`[read]`</ph> qualifier indicates that a property cannot be set by a configuration, and is for reporting purposes only.</source>
           <target state="translated">Il qualificatore <ph id="ph1">`[read]`</ph> indica che una proprietà non può essere impostata da una configurazione e serve solo a scopo di creazione di report.</target>       </trans-unit>
-        <trans-unit id="125" translate="yes" xml:space="preserve">
+        <trans-unit id="126" translate="yes" xml:space="preserve">
           <source>restricts the values that can be assigned to the property to the list of values defined in <ph id="ph1">`ValueMap`</ph>.</source>
           <target state="translated">limita i valori che possono essere assegnati alla proprietà nell'elenco di valori definiti in <ph id="ph1">`ValueMap`</ph>.</target>       </trans-unit>
-        <trans-unit id="126" translate="yes" xml:space="preserve">
+        <trans-unit id="127" translate="yes" xml:space="preserve">
           <source>For more information, see <bpt id="p1">[</bpt>ValueMap and Value Qualifiers<ept id="p1">](https://msdn.microsoft.com/library/windows/desktop/aa393965.aspx)</ept>.</source>
           <target state="translated">Per altre informazioni, vedere l'articolo relativo ai <bpt id="p1">[</bpt>qualificatori ValueMap e Value<ept id="p1">](https://msdn.microsoft.com/library/windows/desktop/aa393965.aspx)</ept>.</target>       </trans-unit>
-        <trans-unit id="127" translate="yes" xml:space="preserve">
+        <trans-unit id="128" translate="yes" xml:space="preserve">
           <source>Including a property called <ph id="ph1">`Ensure`</ph> with values <ph id="ph2">`Present`</ph> and <ph id="ph3">`Absent`</ph> in your resource is recommended as a way to maintain a consistent style with built-in DSC resources.</source>
           <target state="translated">È consigliabile includere una proprietà denominata <ph id="ph1">`Ensure`</ph> con i valori <ph id="ph2">`Present`</ph> e <ph id="ph3">`Absent`</ph> nella risorsa per mantenere uno stile coerente con le risorse DSC predefinite.</target>       </trans-unit>
-        <trans-unit id="128" translate="yes" xml:space="preserve">
+        <trans-unit id="129" translate="yes" xml:space="preserve">
           <source>Name the schema file for your custom resource as follows: <ph id="ph1">`classname.schema.mof`</ph>, where <ph id="ph2">`classname`</ph> is the identifier that follows the <ph id="ph3">`class`</ph> keyword in your schema definition.</source>
           <target state="translated">Assegnare un nome al file di schema per la risorsa personalizzata in base al formato seguente: <ph id="ph1">`classname.schema.mof`</ph>, dove <ph id="ph2">`classname`</ph> è l'identificatore che segue la parola chiave <ph id="ph3">`class`</ph> nella definizione di schema.</target>       </trans-unit>
-        <trans-unit id="129" translate="yes" xml:space="preserve">
+        <trans-unit id="130" translate="yes" xml:space="preserve">
           <source>Writing the resource script</source>
           <target state="translated">Scrittura dello script di risorsa</target>       </trans-unit>
-        <trans-unit id="130" translate="yes" xml:space="preserve">
+        <trans-unit id="131" translate="yes" xml:space="preserve">
           <source>The resource script implements the logic of the resource.</source>
           <target state="translated">Lo script di risorsa implementa la logica della risorsa.</target>       </trans-unit>
-        <trans-unit id="131" translate="yes" xml:space="preserve">
+        <trans-unit id="132" translate="yes" xml:space="preserve">
           <source>In this module, you must include three functions called <bpt id="p1">**</bpt>Get-TargetResource<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Set-TargetResource<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Test-TargetResource<ept id="p3">**</ept>.</source>
           <target state="translated">In questo modulo è necessario includere tre funzioni denominate <bpt id="p1">**</bpt>Get-TargetResource<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Set-TargetResource<ept id="p2">**</ept> e <bpt id="p3">**</bpt>Test-TargetResource<ept id="p3">**</ept>.</target>       </trans-unit>
-        <trans-unit id="132" translate="yes" xml:space="preserve">
+        <trans-unit id="133" translate="yes" xml:space="preserve">
           <source>All three functions must take a parameter set that is identical to the set of properties defined in the MOF schema that you created for your resource.</source>
           <target state="translated">Tutte e tre le funzioni devono accettare un set di parametri identico al set di proprietà definito nello schema MOF creato per la risorsa.</target>       </trans-unit>
-        <trans-unit id="133" translate="yes" xml:space="preserve">
+        <trans-unit id="134" translate="yes" xml:space="preserve">
           <source>In this document, this set of properties is referred to as the “resource properties.”</source>
           <target state="translated">In questo documento il set di proprietà è detto "proprietà della risorsa".</target>       </trans-unit>
-        <trans-unit id="134" translate="yes" xml:space="preserve">
+        <trans-unit id="135" translate="yes" xml:space="preserve">
           <source>Store these three functions in a file called <ph id="ph1">&lt;ResourceName&gt;</ph>.psm1.</source>
           <target state="translated">Archiviare queste tre funzioni in un file denominato <ph id="ph1">&lt;ResourceName&gt;</ph>.psm1.</target>       </trans-unit>
-        <trans-unit id="135" translate="yes" xml:space="preserve">
+        <trans-unit id="136" translate="yes" xml:space="preserve">
           <source>In the following example, the functions are stored in a file called Demo_IISWebsite.psm1.</source>
           <target state="translated">Nell'esempio seguente le funzioni vengono archiviate in un file denominato Demo_IISWebsite.psm1.</target>       </trans-unit>
-        <trans-unit id="136" translate="yes" xml:space="preserve">
+        <trans-unit id="137" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: When you run the same configuration script on your resource more than once, you should receive no errors and the resource should remain in the same state as running the script once.</source>
           <target state="translated"><bpt id="p1">**</bpt>Nota<ept id="p1">**</ept>: quando si esegue lo stesso script di configurazione nella risorsa più volte, non devono venire generati errori e la risorsa deve rimanere nello stesso stato impostato quando si esegue lo script una sola volta.</target>       </trans-unit>
-        <trans-unit id="137" translate="yes" xml:space="preserve">
+        <trans-unit id="138" translate="yes" xml:space="preserve">
           <source>To accomplish this, ensure that your <bpt id="p1">**</bpt>Get-TargetResource<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Test-TargetResource<ept id="p2">**</ept> functions leave the resource unchanged, and that invoking the <bpt id="p3">**</bpt>Set-TargetResource<ept id="p3">**</ept> function more than once in a sequence with the same parameter values is always equivalent to invoking it once.</source>
           <target state="translated">A tale scopo, verificare che le funzioni <bpt id="p1">**</bpt>Get-TargetResource<ept id="p1">**</ept> e <bpt id="p2">**</bpt>Test-TargetResource<ept id="p2">**</ept> non modifichino la risorsa e che richiamando la funzione <bpt id="p3">**</bpt>Set-TargetResource<ept id="p3">**</ept> più di una volta in una sequenza con gli stessi valori dei parametri si ottenga lo stesso risultato che si ottiene richiamandola una sola volta.</target>       </trans-unit>
-        <trans-unit id="138" translate="yes" xml:space="preserve">
+        <trans-unit id="139" translate="yes" xml:space="preserve">
           <source>In the <bpt id="p1">**</bpt>Get-TargetResource<ept id="p1">**</ept> function implementation, use the key resource property values that are provided as parameters to check the status of the specified resource instance.</source>
           <target state="translated">Nell'implementazione della funzione <bpt id="p1">**</bpt>Get-TargetResource<ept id="p1">**</ept> usare i valori delle proprietà chiave della risorsa forniti come parametri per controllare lo stato dell'istanza di risorsa specificata.</target>       </trans-unit>
-        <trans-unit id="139" translate="yes" xml:space="preserve">
+        <trans-unit id="140" translate="yes" xml:space="preserve">
           <source>This function must return a hash table that lists all the resource properties as keys and the actual values of these properties as the corresponding values.</source>
           <target state="translated">Questa funzione deve restituire una tabella hash che elenca tutte le proprietà della risorsa come chiavi e i valori effettivi di queste proprietà come valori corrispondenti.</target>       </trans-unit>
-        <trans-unit id="140" translate="yes" xml:space="preserve">
+        <trans-unit id="141" translate="yes" xml:space="preserve">
           <source>The following code provides an example.</source>
           <target state="translated">Il codice seguente fornisce un esempio.</target>       </trans-unit>
-        <trans-unit id="141" translate="yes" xml:space="preserve">
+        <trans-unit id="142" translate="yes" xml:space="preserve">
           <source>Depending on the values that are specified for the resource properties in the configuration script, the <bpt id="p1">**</bpt>Set-TargetResource<ept id="p1">**</ept> must do one of the following:</source>
           <target state="translated">A seconda dei valori specificati per le proprietà della risorsa nello script di configurazione, <bpt id="p1">**</bpt>Set-TargetResource<ept id="p1">**</ept> deve eseguire una delle operazioni seguenti:</target>       </trans-unit>
-        <trans-unit id="142" translate="yes" xml:space="preserve">
+        <trans-unit id="143" translate="yes" xml:space="preserve">
           <source>Create a new website</source>
           <target state="translated">Creare un nuovo sito Web</target>       </trans-unit>
-        <trans-unit id="143" translate="yes" xml:space="preserve">
+        <trans-unit id="144" translate="yes" xml:space="preserve">
           <source>Update an existing website</source>
           <target state="translated">Aggiornare un sito Web esistente</target>       </trans-unit>
-        <trans-unit id="144" translate="yes" xml:space="preserve">
+        <trans-unit id="145" translate="yes" xml:space="preserve">
           <source>Delete an existing website</source>
           <target state="translated">Eliminare un sito Web esistente</target>       </trans-unit>
-        <trans-unit id="145" translate="yes" xml:space="preserve">
+        <trans-unit id="146" translate="yes" xml:space="preserve">
           <source>The following example illustrates this.</source>
           <target state="translated">Ciò è illustrato nell'esempio seguente.</target>       </trans-unit>
-        <trans-unit id="146" translate="yes" xml:space="preserve">
+        <trans-unit id="147" translate="yes" xml:space="preserve">
           <source>Finally, the <bpt id="p1">**</bpt>Test-TargetResource<ept id="p1">**</ept> function must take the same parameter set as <bpt id="p2">**</bpt>Get-TargetResource<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Set-TargetResource<ept id="p3">**</ept>.</source>
           <target state="translated">Infine, la funzione <bpt id="p1">**</bpt>Test-TargetResource<ept id="p1">**</ept> deve accettare lo stesso set di parametri di <bpt id="p2">**</bpt>Get-TargetResource<ept id="p2">**</ept> e <bpt id="p3">**</bpt>Set-TargetResource<ept id="p3">**</ept>.</target>       </trans-unit>
-        <trans-unit id="147" translate="yes" xml:space="preserve">
+        <trans-unit id="148" translate="yes" xml:space="preserve">
           <source>In your implementation of <bpt id="p1">**</bpt>Test-TargetResource<ept id="p1">**</ept>, check the status of the resource instance that is specified in the key parameters.</source>
           <target state="translated">Nell'implementazione di <bpt id="p1">**</bpt>Test-TargetResource<ept id="p1">**</ept> controllare lo stato dell'istanza di risorsa specificato nei parametri chiave.</target>       </trans-unit>
-        <trans-unit id="148" translate="yes" xml:space="preserve">
+        <trans-unit id="149" translate="yes" xml:space="preserve">
           <source>If the actual status of the resource instance does not match the values specified in the parameter set, return <bpt id="p1">**</bpt>$false<ept id="p1">**</ept>.</source>
           <target state="translated">Se lo stato effettivo dell'istanza di risorsa non corrisponde ai valori specificati nel set di parametri, restituire <bpt id="p1">**</bpt>$false<ept id="p1">**</ept>.</target>       </trans-unit>
-        <trans-unit id="149" translate="yes" xml:space="preserve">
+        <trans-unit id="150" translate="yes" xml:space="preserve">
           <source>Otherwise, return <bpt id="p1">**</bpt>$true<ept id="p1">**</ept>.</source>
           <target state="translated">In caso contrario, restituire <bpt id="p1">**</bpt>$true<ept id="p1">**</ept>.</target>       </trans-unit>
-        <trans-unit id="150" translate="yes" xml:space="preserve">
+        <trans-unit id="151" translate="yes" xml:space="preserve">
           <source>The following code implements the <bpt id="p1">**</bpt>Test-TargetResource<ept id="p1">**</ept> function.</source>
           <target state="translated">Il codice seguente implementa la funzione <bpt id="p1">**</bpt>Test-TargetResource<ept id="p1">**</ept>.</target>       </trans-unit>
-        <trans-unit id="151" translate="yes" xml:space="preserve">
+        <trans-unit id="152" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: For easier debugging, use the <bpt id="p2">**</bpt>Write-Verbose<ept id="p2">**</ept> cmdlet in your implementation of the previous three functions.</source>
           <target state="translated"><bpt id="p1">**</bpt>Nota<ept id="p1">**</ept>: per semplificare il debug, usare il cmdlet <bpt id="p2">**</bpt>Write-Verbose<ept id="p2">**</ept> nell'implementazione delle tre funzioni precedenti.</target>       </trans-unit>
-        <trans-unit id="152" translate="yes" xml:space="preserve">
+        <trans-unit id="153" translate="yes" xml:space="preserve">
           <source>This cmdlet writes text to the verbose message stream.</source>
           <target state="translated">Questo cmdlet scrive il testo nel flusso di messaggi dettagliati.</target>       </trans-unit>
-        <trans-unit id="153" translate="yes" xml:space="preserve">
+        <trans-unit id="154" translate="yes" xml:space="preserve">
           <source>By default, the verbose message stream is not displayed, but you can display it by changing the value of the <bpt id="p1">**</bpt>$VerbosePreference<ept id="p1">**</ept> variable or by using the <bpt id="p2">**</bpt>Verbose<ept id="p2">**</ept> parameter in the DSC cmdlets = new.</source>
           <target state="translated">Per impostazione predefinita, il flusso di messaggi dettagliati non viene visualizzato, ma è possibile visualizzarlo modificando il valore della variabile <bpt id="p1">**</bpt>$VerbosePreference<ept id="p1">**</ept> o usando il parametro <bpt id="p2">**</bpt>Verbose<ept id="p2">**</ept> nei cmdlet DSC = new.</target>       </trans-unit>
-        <trans-unit id="154" translate="yes" xml:space="preserve">
+        <trans-unit id="155" translate="yes" xml:space="preserve">
           <source>Creating the module manifest</source>
           <target state="translated">Creazione del manifesto del modulo</target>       </trans-unit>
-        <trans-unit id="155" translate="yes" xml:space="preserve">
+        <trans-unit id="156" translate="yes" xml:space="preserve">
           <source>Finally, use the <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> cmdlet to define a <ph id="ph1">&lt;ResourceName&gt;</ph>.psd1 file for your custom resource module.</source>
           <target state="translated">Usare infine il cmdlet <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> per definire un file <ph id="ph1">&lt;ResourceName&gt;</ph>.psd1 per il modulo della risorsa personalizzata.</target>       </trans-unit>
-        <trans-unit id="156" translate="yes" xml:space="preserve">
+        <trans-unit id="157" translate="yes" xml:space="preserve">
           <source>When you invoke this cmdlet, reference the script module (.psm1) file described in the previous section.</source>
           <target state="translated">Quando si richiama questo cmdlet, fare riferimento al file di modulo di script (con estensione psm1) descritto nella sezione precedente.</target>       </trans-unit>
-        <trans-unit id="157" translate="yes" xml:space="preserve">
+        <trans-unit id="158" translate="yes" xml:space="preserve">
           <source>Include <bpt id="p1">**</bpt>Get-TargetResource<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Set-TargetResource<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Test-TargetResource<ept id="p3">**</ept> in the list of functions to export.</source>
           <target state="translated">Includere <bpt id="p1">**</bpt>Get-TargetResource<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Set-TargetResource<ept id="p2">**</ept> e <bpt id="p3">**</bpt>Test-TargetResource<ept id="p3">**</ept> nell'elenco delle funzioni da esportare.</target>       </trans-unit>
-        <trans-unit id="158" translate="yes" xml:space="preserve">
+        <trans-unit id="159" translate="yes" xml:space="preserve">
           <source>Following is an example manifest file.</source>
           <target state="translated">Di seguito è riportato un file manifesto di esempio.</target>       </trans-unit>
       </group>
