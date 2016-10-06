@@ -1,11 +1,43 @@
 # <a name='report-top'></a> Localization Bilingual Report
 
 ## Summary
- Total Files | 0
+ Total Files | 2
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [dsc\runAsUser.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/runAsUser.md) | InSyncHandedBackSuccess | [Details](#dbe2c1ca2fb7dd65b49876f3bee6752ec9a24d6b86)
+ [jea\role-capabilities.md](https://github.com/PowerShell/powerShell-Docs/blob/81fd386d58576a8930093b4f18ce36a4ff6cecd0/jea/role-capabilities.md) | InSyncHandedBackSuccess | [Details](#a3dd4a217f5b1fd80e97adf802c65073ca015bbc187)
 
 ## Item Details
+##### <a name='dbe2c1ca2fb7dd65b49876f3bee6752ec9a24d6b86'></a> Source: [dsc\runAsUser.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/runAsUser.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [dsc\runAsUser.md](https://github.com/PowerShell/powerShell-Docs.ja-jp/blob/933ed8c9147e4e7af245afa969843ae93fa176a1/dsc/runAsUser.md)
+* Handoff File: [runAsUser.d2b90b6bc42ef965e454f9c9f5fd19bc7b488b34.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/5052f790ddd5c10a3ed03b6a56ce4adce27dbd42/ol-handoff/PowerShell/powerShell-Docs.ja-jp/live/runAsUser.d2b90b6bc42ef965e454f9c9f5fd19bc7b488b34.ja-jp.xlf)
+* Handoff Datetime: 2016-08-18 01:21:33
+* Handoff Reason: Include
+* Archive File: [runAsUser.d2b90b6bc42ef965e454f9c9f5fd19bc7b488b34.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/7335cf8b2afedab734cc61f060b2bc425c50d491/ol-archive/PowerShell/powerShell-Docs.ja-jp/live/runAsUser.d2b90b6bc42ef965e454f9c9f5fd19bc7b488b34.ja-jp.xlf)
+* Archive Datetime: 2016-08-23 13:31:14
+* Handback File: [runAsUser.d2b90b6bc42ef965e454f9c9f5fd19bc7b488b34.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/df5333b349ed973ee574104a9ae599b9c41d2409/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/runAsUser.d2b90b6bc42ef965e454f9c9f5fd19bc7b488b34.ja-jp.xlf)
+* Handback Datetime: 2016-10-06 07:52:42
+* Bilingual File: [runAsUser.d2b90b6bc42ef965e454f9c9f5fd19bc7b488b34.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/df5333b349ed973ee574104a9ae599b9c41d2409/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/runAsUser.d2b90b6bc42ef965e454f9c9f5fd19bc7b488b34.ja-jp.xlf)
+* Bilingual Datetime: 2016-10-06 07:53:46
+* [Back to Top](#report-top)
+
+##### <a name='a3dd4a217f5b1fd80e97adf802c65073ca015bbc187'></a> Source: [jea\role-capabilities.md](https://github.com/PowerShell/powerShell-Docs/blob/81fd386d58576a8930093b4f18ce36a4ff6cecd0/jea/role-capabilities.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [jea\role-capabilities.md](https://github.com/PowerShell/powerShell-Docs.ja-jp/blob/933ed8c9147e4e7af245afa969843ae93fa176a1/jea/role-capabilities.md)
+* Handoff File: [role-capabilities.f5d3ffdf33f9043c1ffa50f8a35842c90ffd6c71.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/5052f790ddd5c10a3ed03b6a56ce4adce27dbd42/ol-handoff/PowerShell/powerShell-Docs.ja-jp/live/role-capabilities.f5d3ffdf33f9043c1ffa50f8a35842c90ffd6c71.ja-jp.xlf)
+* Handoff Datetime: 2016-08-18 01:21:33
+* Handoff Reason: Include
+* Archive File: [role-capabilities.f5d3ffdf33f9043c1ffa50f8a35842c90ffd6c71.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/7335cf8b2afedab734cc61f060b2bc425c50d491/ol-archive/PowerShell/powerShell-Docs.ja-jp/live/role-capabilities.f5d3ffdf33f9043c1ffa50f8a35842c90ffd6c71.ja-jp.xlf)
+* Archive Datetime: 2016-08-23 13:31:14
+* Handback File: [role-capabilities.f5d3ffdf33f9043c1ffa50f8a35842c90ffd6c71.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/df5333b349ed973ee574104a9ae599b9c41d2409/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/role-capabilities.f5d3ffdf33f9043c1ffa50f8a35842c90ffd6c71.ja-jp.xlf)
+* Handback Datetime: 2016-10-06 07:52:42
+* Bilingual File: [role-capabilities.f5d3ffdf33f9043c1ffa50f8a35842c90ffd6c71.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/df5333b349ed973ee574104a9ae599b9c41d2409/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/role-capabilities.f5d3ffdf33f9043c1ffa50f8a35842c90ffd6c71.ja-jp.xlf)
+* Bilingual Datetime: 2016-10-06 07:53:46
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
