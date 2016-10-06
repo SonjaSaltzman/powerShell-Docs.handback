@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bbd8e4a487226e259b86fb5a53bec70c2e4dbf63</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">gallery\psget\module\modulewithpseditionsupport.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c423706115999dab0c58f2a8b301c026b53bb712</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Modules with compatible PowerShell Editions</source>
+          <target state="translated">Module mit kompatiblen PowerShell-Editionen</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Starting with version 5.1, PowerShell is available in different editions which denote varying feature sets and platform compatibility.</source>
+          <target state="translated">Ab Version 5.1 steht PowerShell in verschiedenen Editionen zur Verfügung, die unterschiedliche Featuregruppen und Plattformkompatibilität bieten.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Desktop Edition:<ept id="p1">**</ept> Built on .NET Framework and provides compatibility with scripts and modules targeting versions of PowerShell running on full footprint editions of Windows such as Server Core and Windows Desktop.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Desktop-Edition:<ept id="p1">**</ept> Diese Edition basiert auf .NET Framework und bietet Kompatibilität mit Skripts und Modulen für Versionen von PowerShell, die unter Vollversionen von Windows wie Server Core und Windows Desktop ausgeführt werden.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Core Edition:<ept id="p1">**</ept> Built on .NET Core and provides compatibility with scripts and modules targeting versions of PowerShell running on reduced footprint editions of Windows such as Nano Server and Windows IoT.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Core-Edition:<ept id="p1">**</ept> Diese Edition basiert auf .NET Core und bietet Kompatibilität mit Skripts und Modulen für Versionen von PowerShell, die unter funktionsreduzierten Versionen von Windows wie Nano Server und Windows IoT ausgeführt werden.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The running edition of PowerShell is shown in the PSEdition property of $PSVersionTable.</source>
+          <target state="translated">Die ausgeführte Edition von PowerShell wird in der PSEdition-Eigenschaft von $PSVersionTable angezeigt.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Module authors can declare their modules to be compatible with one or more PowerShell editions using the CompatiblePSEditions module manifest key.</source>
+          <target state="translated">Modulautoren können ihre Module als kompatibel mit einer oder mehreren PowerShell-Editionen deklarieren, indem Sie den Modulmanifestschlüssel CompatiblePSEditions verwenden.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This key is only supported on PowerShell 5.1 or later.</source>
+          <target state="translated">Dieser Schlüssel wird nur auf PowerShell 5.1 oder höher unterstützt.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>NOTE<ept id="p1">*</ept> Once a module manifest is specified with the CompatiblePSEditions key, it can not be imported on lower versions of PowerShell.</source>
+          <target state="translated"><bpt id="p1">*</bpt>HINWEIS<ept id="p1">*</ept>: Sobald mit dem Schlüssel CompatiblePSEditions ein Modulmanifest angegeben wurde, kann es nicht in ältere Versionen von PowerShell importiert werden.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When getting a list of available modules, you can filter the list by PowerShell edition.</source>
+          <target state="translated">Beim Abrufen einer Liste der verfügbaren Module können Sie sie nach PowerShell-Editionen filtern.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Module authors can publish a single module targeting to either or both PowerShell editions (Desktop and Core)</source>
+          <target state="translated">Modulautoren können ein einzelnes Modul veröffentlichen und auf eine oder beide PowerShell-Editionen ausrichten (Desktop und Core)</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>A single module can work on both Desktop and Core editions, in that module author has to add required logic in either RootModule or in the module manifest using $PSEdition variable.</source>
+          <target state="translated">Ein einzelnes Modul kann sowohl in der Desktop- als auch in der Core-Edition funktionieren, wenn der Modulautor die dafür benötigte Logik mithilfe der Variable $PSEdition zu RootModule oder dem Modulmanifest hinzufügt.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Modules can have two sets of compiled dlls targeting both CoreCLR and FullCLR.</source>
+          <target state="translated">Module können über zwei Sätze kompilierter DLLs verfügen, die jeweils auf CoreCLR und FullCLR ausgerichtet sind.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Here are the couple of options to package your module with logic for loading proper dlls.</source>
+          <target state="translated">Nachstehend finden Sie die verschiedenen Optionen, mit denen Sie Ihren Modulen Logik hinzufügen können, damit die jeweils korrekten DLLs geladen werden können.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Option 1: Packaging a module for targeting multiple versions and multiple editions of PowerShell</source>
+          <target state="translated">Option 1: Packen eines Moduls für die Adressierung mehrerer Versionen und Editionen von PowerShell</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Module folder contents</source>
+          <target state="translated">Inhalt des Modulordners</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Microsoft.Windows.PowerShell.ScriptAnalyzer.BuiltinRules.dll Microsoft.Windows.PowerShell.ScriptAnalyzer.dll PSScriptAnalyzer.psd1 PSScriptAnalyzer.psm1 ScriptAnalyzer.format.ps1xml ScriptAnalyzer.types.ps1xml coreclr\Microsoft.Windows.PowerShell.ScriptAnalyzer.BuiltinRules.dll coreclr\Microsoft.Windows.PowerShell.ScriptAnalyzer.dll en-US\about_PSScriptAnalyzer.help.txt en-US\Microsoft.Windows.PowerShell.ScriptAnalyzer.dll-Help.xml PSv3\Microsoft.Windows.PowerShell.ScriptAnalyzer.BuiltinRules.dll PSv3\Microsoft.Windows.PowerShell.ScriptAnalyzer.dll Settings\CmdletDesign.psd1 Settings\DSC.psd1 Settings\ScriptFunctions.psd1 Settings\ScriptingStyle.psd1 Settings\ScriptSecurity.psd1</source>
+          <target state="translated">Microsoft.Windows.PowerShell.ScriptAnalyzer.BuiltinRules.dll Microsoft.Windows.PowerShell.ScriptAnalyzer.dll PSScriptAnalyzer.psd1 PSScriptAnalyzer.psm1 ScriptAnalyzer.format.ps1xml ScriptAnalyzer.types.ps1xml coreclr\Microsoft.Windows.PowerShell.ScriptAnalyzer.BuiltinRules.dll coreclr\Microsoft.Windows.PowerShell.ScriptAnalyzer.dll en-US\about_PSScriptAnalyzer.help.txt en-US\Microsoft.Windows.PowerShell.ScriptAnalyzer.dll-Help.xml PSv3\Microsoft.Windows.PowerShell.ScriptAnalyzer.BuiltinRules.dll PSv3\Microsoft.Windows.PowerShell.ScriptAnalyzer.dll Settings\CmdletDesign.psd1 Settings\DSC.psd1 Settings\ScriptFunctions.psd1 Settings\ScriptingStyle.psd1 Settings\ScriptSecurity.psd1</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Contents of PSScriptAnalyzer.psd1 file</source>
+          <target state="translated">Inhalt der Datei PSScriptAnalyzer.psd1</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Contents of PSScriptAnalyzer.psm1 file</source>
+          <target state="translated">Inhalt der Datei PSScriptAnalyzer.psm1</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Below logic loads the required assemblies depending on the current edition or version.</source>
+          <target state="translated">Die nachstehende Logik lädt die erforderlichen Assemblys abhängig von der aktuellen Edition oder Version.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Option 2: Use $PSEdition variable in the PSD1 file to load the proper DLLs and Nested/Required modules</source>
+          <target state="translated">Option 2: Verwenden der Variable $PSEdition in der PSD1-Datei, um die korrekten DLLs und die geschachtelten/erforderlichen Module zu laden</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In PS 5.1 or newer, $PSEdition global variable is allowed in the module manifest file.</source>
+          <target state="translated">In PS 5.1 oder höher ist die Variable „$PSEdition global“ in der Modulmanifestdatei zulässig.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Using this variable, module author can specify the conditional values in the module manifest file.</source>
+          <target state="translated">Durch die Verwendung dieser Variable kann der Modulautor die bedingten Werte in der Modulmanifestdatei angeben.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>$PSEdition variable can be referenced in restricted language mode or a Data section.</source>
+          <target state="translated">Auf die Variable $PSEdition kann im eingeschränkten Sprachmodus oder in einem „Data“-Abschnitt verwiesen werden.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>NOTE<ept id="p1">*</ept> Once a module manifest is specified with the CompatiblePSEditions key or uses $PSEdition variable, it can not be imported on lower versions of PowerShell.</source>
+          <target state="translated"><bpt id="p1">*</bpt>HINWEIS<ept id="p1">*</ept>: Sobald mit dem Schlüssel CompatiblePSEditions ein Modulmanifest angegeben wurde oder dieses die Variable $PSEdition verwendet, kann es nicht in ältere Versionen von PowerShell importiert werden.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Sample module manifest file with CompatiblePSEditions key</source>
+          <target state="translated">Beispiel einer Modulmanifestdatei mit dem Schlüssel CompatiblePSEditions</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Module contents</source>
+          <target state="translated">Modulinhalte</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>PowerShell Gallery users can find the list of modules supported on a specific PowerShell Edition using tags PSEdition_Desktop and PSEditon_Core.</source>
+          <target state="translated">Benutzer des PowerShell-Katalogs finden mithilfe der Tags PSEdition_Desktop und PSEdition_Core eine Liste der unterstützten Module in einer bestimmten PowerShell-Edition</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Modules without PSEdition_Desktop and PSEditon_Core tags are considered to work fine on PowerShell Desktop editions.</source>
+          <target state="translated">Module ohne die Tags PSEdition_Desktop und PSEditon_Core sollten in PowerShell Desktop keine Probleme bereiten.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>More details</source>
+          <target state="translated">Weitere Details</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Scripts with PSEditions</source>
+          <target state="translated">Skripts in PowerShell-Editionen</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>PSEditions support on PowerShellGallery</source>
+          <target state="translated">Unterstützung von PowerShell-Editionen im PowerShell-Katalog</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

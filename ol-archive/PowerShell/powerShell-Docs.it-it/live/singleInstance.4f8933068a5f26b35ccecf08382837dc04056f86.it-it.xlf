@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4b1e8a6d3fb4feca426a9d7861c40d194e612c22</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\singleInstance.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba660721099f2d3ec0893aaccd56f3d2b2aee0c2</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Writing a single-instance DSC resource (best practice)</source>
+          <target state="translated">Scrittura di una risorsa DSC a istanza singola (procedura consigliata)</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,DSC</source>
+          <target state="translated">powershell,DSC</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Writing a single-instance DSC resource (best practice)</source>
+          <target state="translated">Scrittura di una risorsa DSC a istanza singola (procedura consigliata)</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> This topic describes a best practice for defining a DSC resource that allows only a single instance in a configuration.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Nota:<ept id="p1">**</ept> questo argomento illustra una procedura consigliata per la definizione di una risorsa DSC che consenta solo una singola istanza in una configurazione.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Currently, there is no built-in DSC feature to do this.</source>
+          <target state="translated">Attualmente, non esiste una funzionalità DSC predefinita per eseguire questa operazione.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>That might change in the future.</source>
+          <target state="translated">La situazione potrebbe cambiare in futuro.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>There are situations where you don't want to allow a resource to be used multiple times in a configuration.</source>
+          <target state="translated">In alcuni casi non si vuole consentire di usare più volte una risorsa in una configurazione.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For example, in a previous implementation of the <bpt id="p1">[</bpt>xTimeZone<ept id="p1">](https://github.com/PowerShell/xTimeZone)</ept> resource, a configuration could call the resource multiple times, setting the time zone to a different setting in each resource block:</source>
+          <target state="translated">Ad esempio, in un'implementazione precedente della risorsa <bpt id="p1">[</bpt>xTimeZone<ept id="p1">](https://github.com/PowerShell/xTimeZone)</ept> una configurazione può chiamare la risorsa più volte, impostando il fuso orario su un'impostazione diversa in ogni blocco di risorse:</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This is because of the way DSC resource keys work.</source>
+          <target state="translated">Questo dipende dal funzionamento delle chiavi della risorsa DSC.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A resource must have at least one key property.</source>
+          <target state="translated">Una risorsa deve avere almeno una proprietà chiave.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>A resource instance is considered unique if the combination of the values of all of its key properties is unique.</source>
+          <target state="translated">L'istanza di una risorsa viene considerata univoca se la combinazione dei valori di tutte le relative proprietà chiave è univoca.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In its previous implementation, the <bpt id="p1">[</bpt>xTimeZone<ept id="p1">](https://github.com/PowerShell/xTimeZone)</ept> resource had only one property--<bpt id="p2">**</bpt>TimeZone<ept id="p2">**</ept>, which was required to be a key.</source>
+          <target state="translated">Nell'implementazione precedente la risorsa <bpt id="p1">[</bpt>xTimeZone<ept id="p1">](https://github.com/PowerShell/xTimeZone)</ept> ha una sola proprietà, <bpt id="p2">**</bpt>TimeZone<ept id="p2">**</ept>, che deve essere necessariamente una chiave.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Because of this, a configuration such as the one above would compile and run without warning.</source>
+          <target state="translated">Per questo motivo, una configurazione come quella illustrata sopra poteva essere compilata ed eseguita senza alcun avviso.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Each of the <bpt id="p1">**</bpt>xTimeZone<ept id="p1">**</ept> resource blocks is considered unique.</source>
+          <target state="translated">Ogni blocco di risorse <bpt id="p1">**</bpt>xTimeZone<ept id="p1">**</ept> viene considerato univoco.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This would cause the configuration to be repeatedly applied to the node, cycling the timezone back and forth.</source>
+          <target state="translated">Di conseguenza, la configurazione viene applicata ripetutamente al nodo, determinando lo spostamento del fuso orario.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To ensure that a configuration could set the time zone for a target node only once, the resource was updated to add a second property, <bpt id="p1">**</bpt>IsSingleInstance<ept id="p1">**</ept>, that became the key property.</source>
+          <target state="translated">Per fare in modo che una configurazione potesse impostare il fuso orario per un nodo di destinazione solo una volta, la risorsa è stata aggiornata per aggiungere una seconda proprietà, <bpt id="p1">**</bpt>IsSingleInstance<ept id="p1">**</ept>, che è diventata la proprietà chiave.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>IsSingleInstance<ept id="p1">**</ept> was limited to a single value, "Yes" by using a <bpt id="p2">**</bpt>ValueMap<ept id="p2">**</ept>.</source>
+          <target state="translated">La proprietà <bpt id="p1">**</bpt>IsSingleInstance<ept id="p1">**</ept> è limitata a un singolo valore, "Yes", tramite <bpt id="p2">**</bpt>ValueMap<ept id="p2">**</ept>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The old MOF schema for the resource was:</source>
+          <target state="translated">Lo schema MOF precedente per la risorsa era:</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The updated MOF schema for the resource is:</source>
+          <target state="translated">Lo schema MOF aggiornato per la risorsa è:</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The resource script was also updated to use the new parameter.</source>
+          <target state="translated">Anche lo script di risorsa è stato aggiornato per usare il nuovo parametro.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Here is the old resource script:</source>
+          <target state="translated">Ecco lo script di risorsa precedente:</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Notice that the <bpt id="p1">**</bpt>TimeZone<ept id="p1">**</ept> property is no longer a key.</source>
+          <target state="translated">Si noti che la proprietà <bpt id="p1">**</bpt>TimeZone<ept id="p1">**</ept> non è più una chiave.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Now, if a configuration attempts to set the time zone twice (by using two different <bpt id="p1">**</bpt>xTimeZone<ept id="p1">**</ept> blocks with different <bpt id="p2">**</bpt>TimeZone<ept id="p2">**</ept> values), attempting to compile the configuration will cause an error:</source>
+          <target state="translated">Se una configurazione tenta di impostare due volte il fuso orario, usando due blocchi <bpt id="p1">**</bpt>xTimeZone<ept id="p1">**</ept> diversi con valori <bpt id="p2">**</bpt>TimeZone<ept id="p2">**</ept> diversi, il tentativo di compilazione della configurazione genererà un errore:</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

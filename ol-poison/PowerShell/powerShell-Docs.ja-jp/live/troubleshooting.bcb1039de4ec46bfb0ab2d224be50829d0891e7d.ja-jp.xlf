@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">369b6379c3ddc4b7ccd1000aec9b0b002e1934b3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\troubleshooting.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">12d49ab4b26101a2eada15e123dcf96d32878ccd</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Troubleshooting DSC</source>
+          <target state="translated">DSC のトラブルシューティング</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,DSC</source>
+          <target state="translated">PowerShell, DSC</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Troubleshooting DSC</source>
+          <target state="translated">DSC のトラブルシューティング</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</source>
+          <target state="translated">適用先: Windows PowerShell 4.0、Windows PowerShell 5.0</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This topic describes ways to troubleshoot DSC when problems arise.</source>
+          <target state="translated">このトピックでは、問題が発生した場合の DSC のトラブルシューティング方法について説明します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Using Get-DscConfigurationStatus</source>
+          <target state="translated">Get-DscConfigurationStatus の使用</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">[</bpt>Get-DscConfigurationStatus<ept id="p1">](https://technet.microsoft.com/en-us/library/mt517868.aspx)</ept> cmdlet gets information about configuration status from a target node.</source>
+          <target state="translated"><bpt id="p1">[</bpt>Get-DscConfigurationStatus<ept id="p1">](https://technet.microsoft.com/en-us/library/mt517868.aspx)</ept> コマンドレットは、ターゲット ノードから構成状態に関する情報を取得します。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>A rich object is returned that includes high-level information about whether or not the configuration run was successful or not.</source>
+          <target state="translated">構成の実行が成功したかどうかについての基本情報を含む、リッチ オブジェクトが返されます。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can dig into the object to discover details about the configuration run such as:</source>
+          <target state="translated">オブジェクトを調べ、次に挙げるような構成の実行に関する詳細を知ることができます:</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>All of the resources that failed</source>
+          <target state="translated">失敗したすべてのリソース</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Any resource that requested a reboot</source>
+          <target state="translated">再起動を要求したすべてのリソース</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Meta-Configuration settings at time of configuration run</source>
+          <target state="translated">構成の実行時のメタ構成の設定</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Etc.</source>
+          <target state="translated">など</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The following parameter set returns the status information for the last configuration run:</source>
+          <target state="translated">次のパラメーター セットは、最後の構成の実行状況に関する情報を返します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The following parameter set returns the status information for all previous configuration runs:</source>
+          <target state="translated">次のパラメーター セットは、以前のすべての構成の実行状況に関する情報を返します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Example</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>My script won’t run: Using DSC logs to diagnose script errors</source>
+          <target state="translated">スクリプトが実行されない: DSC ログを使用したスクリプト エラーの診断</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Like all Windows software, DSC records errors and events in <bpt id="p1">[</bpt>logs<ept id="p1">](https://msdn.microsoft.com/library/windows/desktop/aa363632.aspx)</ept> that can be viewed from the <bpt id="p2">[</bpt>Event Viewer<ept id="p2">](http://windows.microsoft.com/windows/what-information-event-logs-event-viewer)</ept>.</source>
+          <target state="translated">すべての Windows ソフトウェアと同じく、DSC は<bpt id="p2">[</bpt>イベント ビューアー<ept id="p2">](http://windows.microsoft.com/windows/what-information-event-logs-event-viewer)</ept>から参照可能な<bpt id="p1">[</bpt>ログ<ept id="p1">](https://msdn.microsoft.com/library/windows/desktop/aa363632.aspx)</ept>にエラーとイベントを記録します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Examining these logs can help you understand why a particular operation failed, and how to prevent failure in the future.</source>
+          <target state="translated">これらのログを調べることは、特定の操作が失敗した理由や、今後エラーを防止する方法を理解するために役立ちます。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Writing configuration scripts can be tricky, so to make tracking errors easier as you author, use the DSC Log resource to track the progress of your configuration in the DSC Analytic event log.</source>
+          <target state="translated">構成スクリプトの記述は複雑になることがあります。そのため、作成しながらエラーをより簡単に追跡できるように、DSC ログ リソースを使用して DSC 分析イベント ログで構成の進行状況を追跡してください。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Where are DSC event logs?</source>
+          <target state="translated">DSC イベント ログの場所</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>In Event Viewer, DSC events are in: <bpt id="p1">**</bpt>Applications and Services Logs/Microsoft/Windows/Desired State Configuration<ept id="p1">**</ept></source>
+          <target state="translated">イベント ビューアーでは、DSC イベントは <bpt id="p1">**</bpt>Applications and Services Logs/Microsoft/Windows/Desired State Configuration<ept id="p1">**</ept> にあります。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The corresponding PowerShell cmdlet, <bpt id="p1">[</bpt>Get-WinEvent<ept id="p1">](https://technet.microsoft.com/library/hh849682.aspx)</ept>, can also be run to view the event logs:</source>
+          <target state="translated">対応する PowerShell コマンドレット <bpt id="p1">[</bpt>Get-WinEvent<ept id="p1">](https://technet.microsoft.com/library/hh849682.aspx)</ept> を次のように実行して、イベント ログを表示することもできます。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>As shown above, DSC’s primary log name is <bpt id="p1">**</bpt>Microsoft-&gt;Windows-&gt;DSC<ept id="p1">**</ept> (other log names under Windows are not shown here for brevity).</source>
+          <target state="translated">上に示すように、DSC のプライマリ ログ名は <bpt id="p1">**</bpt>Microsoft-&gt;Windows-&gt;DSC<ept id="p1">**</ept> です (簡略化のため、Windows の下にあるその他のログ名は表示していません)。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The primary name is appended to the channel name to create the complete log name.</source>
+          <target state="translated">完全なログ名を作成するには、プライマリ名にチャネル名を追加します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The DSC engine writes mainly into three types of logs: <bpt id="p1">[</bpt>Operational, Analytic, and Debug logs<ept id="p1">](https://technet.microsoft.com/library/cc722404.aspx)</ept>.</source>
+          <target state="translated">DSC エンジンは、主に 3 種類のログに書き込みます。<bpt id="p1">[</bpt>操作ログ、分析ログ、およびデバッグ ログ<ept id="p1">](https://technet.microsoft.com/library/cc722404.aspx)</ept>です。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Since the analytic and debug logs are turned off by default, you should enable them in Event Viewer.</source>
+          <target state="translated">分析ログとデバッグ ログは既定でオフになっているため、それらをイベント ビューアーで有効にする必要があります。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To do this, open Event Viewer by typing Show-EventLog in Windows PowerShell; or, click the <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> button, click <bpt id="p2">**</bpt>Control Panel<ept id="p2">**</ept>, click <bpt id="p3">**</bpt>Administrative Tools<ept id="p3">**</ept>, and then click <bpt id="p4">**</bpt>Event Viewer<ept id="p4">**</ept>.</source>
+          <target state="translated">これを行うには、Windows PowerShell で「Show-EventLog」と入力するか、または、<bpt id="p1">**</bpt>[スタート]<ept id="p1">**</ept> ボタンをクリックし、<bpt id="p2">**</bpt>[コントロール パネル]<ept id="p2">**</ept>、<bpt id="p3">**</bpt>[管理ツール]<ept id="p3">**</ept>、<bpt id="p4">**</bpt>[イベント ビューアー]<ept id="p4">**</ept> の順にクリックして、イベント ビューアーを開きます。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>View<ept id="p1">**</ept> menu in Event viewer, click <bpt id="p2">**</bpt>Show Analytic and Debug Logs<ept id="p2">**</ept>.</source>
+          <target state="translated">イベント ビューアーの <bpt id="p1">**</bpt>[表示]<ept id="p1">**</ept> メニューで、<bpt id="p2">**</bpt>[分析およびデバッグ ログの表示]<ept id="p2">**</ept> をクリックします。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The log name for the analytic channel is <bpt id="p1">**</bpt>Microsoft-Windows-Dsc/Analytic<ept id="p1">**</ept>, and the debug channel is <bpt id="p2">**</bpt>Microsoft-Windows-Dsc/Debug<ept id="p2">**</ept>.</source>
+          <target state="translated">分析チャネルのログ名は <bpt id="p1">**</bpt>Microsoft-Windows-Dsc/Analytic<ept id="p1">**</ept> で、デバッグ チャネルのログ名は <bpt id="p2">**</bpt>Microsoft-Windows-Dsc/Debug<ept id="p2">**</ept> です。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>You could also use the <bpt id="p1">[</bpt>wevtutil<ept id="p1">](https://technet.microsoft.com/library/cc732848.aspx)</ept> utility to enable the logs, as shown in the following example.</source>
+          <target state="translated">次の例に示すように、<bpt id="p1">[</bpt>wevtutil<ept id="p1">](https://technet.microsoft.com/library/cc732848.aspx)</ept> ユーティリティを使用してログを有効にすることもできます。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>What do DSC logs contain?</source>
+          <target state="translated">DSC ログに含まれる内容</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>DSC logs are split over the three log channels based on the importance of the message.</source>
+          <target state="translated">DSC ログは、メッセージの重要度に基づいて 3 つのログ チャネルに分割されています。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The operational log in DSC contains all error messages, and can be used to identify a problem.</source>
+          <target state="translated">DSC の操作ログにはすべてのエラー メッセージが含まれ、問題の識別に使用できます。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The analytic log has a higher volume of events, and can identify where error(s) occurred.</source>
+          <target state="translated">分析ログには、より大量のイベントが含まれ、エラーがどこで発生したかを識別できます。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This channel also contains verbose messages (if any).</source>
+          <target state="translated">このチャネルには、詳細メッセージも含まれます (ある場合)。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The debug log contains logs that can help you understand how the errors occurred.</source>
+          <target state="translated">デバッグ ログには、エラーがどのように発生したかを理解するのに役立つログが含まれています。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>DSC event messages are structured such that every event message begins with a job ID that uniquely represents a DSC operation.</source>
+          <target state="translated">DSC イベント メッセージは、すべてのイベント メッセージの先頭が、DSC 操作を一意に表すジョブ ID になるように構成されています。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The example below attempts to obtain the message from the first event logged into the operational DSC log.</source>
+          <target state="translated">次の例では、DSC 操作ログに記録された最初のイベントからメッセージを取得しようとしています。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>DSC events are logged in a particular structure that enables the user to aggregate events from one DSC job.</source>
+          <target state="translated">DSC イベントは、ユーザーが 1 つの DSC ジョブからイベントを集計できるように特定の構造に記録されます。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The structure is as follows:</source>
+          <target state="translated">その構造は次のとおりです。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Job ID : <ph id="ph1">&lt;Guid&gt;</ph><ept id="p1">**</ept><ph id="ph2">
+</ph><bpt id="p2">**</bpt><ph id="ph3">&lt;Event Message&gt;</ph><ept id="p2">**</ept></source>
+          <target state="translated"><bpt id="p1">**</bpt>ジョブ ID: <ph id="ph1">&lt;Guid&gt;</ph><ept id="p1">**</ept><ph id="ph2">
+</ph><bpt id="p2">**</bpt><ph id="ph3">&lt;Event Message&gt;</ph><ept id="p2">**</ept></target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Gathering events from a single DSC operation</source>
+          <target state="translated">1 つの DSC 操作からのイベントの収集</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>DSC event logs contain events generated by various DSC operations.</source>
+          <target state="translated">DSC イベント ログには、各種の DSC 操作によって生成されたイベントが含まれています。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>However, you’ll usually be concerned with the detail about just one particular operation.</source>
+          <target state="translated">ただし、通常、関心があるのはある特定の操作の詳細のみです。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>All DSC logs can be grouped by the job ID property that is unique for every DSC operation.</source>
+          <target state="translated">すべての DSC ログは、それぞれの DSC 操作に対して一意であるジョブ ID プロパティによってグループ化できます。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The job ID is displayed as the first property value in all DSC events.</source>
+          <target state="translated">ジョブ ID は、すべての DSC イベントの最初のプロパティ値として表示されます。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The following steps explain how to accumulate all events in a grouped array structure.</source>
+          <target state="translated">次の手順では、グループ化された配列構造にすべてのイベントを蓄積する方法について説明します。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Here, the variable <ph id="ph1">`$SeparateDscOperations`</ph> contains logs grouped by the job IDs.</source>
+          <target state="translated">ここでは、変数 <ph id="ph1">`$SeparateDscOperations`</ph> にジョブ ID でグループ化されたログが含まれています。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Each array element of this variable represents a group of events logged by a different DSC operation, allowing access to more information about the logs.</source>
+          <target state="translated">この変数の各配列要素は、さまざまな DSC 操作によって記録されたイベントのグループを表しており、ログの詳細にアクセスできるようになっています。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>You can extract the data in the variable <ph id="ph1">`$SeparateDscOperations`</ph> using <bpt id="p1">[</bpt>Where-Object<ept id="p1">](https://technet.microsoft.com/library/ee177028.aspx)</ept>.</source>
+          <target state="translated"><bpt id="p1">[</bpt>Where-Object<ept id="p1">](https://technet.microsoft.com/library/ee177028.aspx)</ept> を使用して変数 <ph id="ph1">`$SeparateDscOperations`</ph> 内のデータを抽出できます。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Following are five scenarios in which you might want to extract data for troubleshooting DSC:</source>
+          <target state="translated">次に、DSC のトラブルシューティングに役立つデータを抽出する 5 つのシナリオを示します。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>1: Operations failures</source>
+          <target state="translated">1: 操作エラー</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>All events have <bpt id="p1">[</bpt>severity levels<ept id="p1">](https://msdn.microsoft.com/library/dd996917(v=vs.85))</ept>.</source>
+          <target state="translated">すべてのイベントには<bpt id="p1">[</bpt>重大度レベル<ept id="p1">](https://msdn.microsoft.com/library/dd996917(v=vs.85))</ept>があります。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This information can be used to identify the error events:</source>
+          <target state="translated">この情報を使用して、エラー イベントを識別できます。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>2: Details of operations run in the last half hour</source>
+          <target state="translated">2: 過去 30 分間に実行された操作の詳細</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>, a property of every Windows event, states the time the event was created.</source>
+          <target state="translated"> はそれぞれの Windows イベントのプロパティであり、イベントが作成された時刻を示します。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Comparing this property with a particular date/time object can be used to filter all events:</source>
+          <target state="translated">このプロパティを特定の日付/時刻オブジェクトと比較すると、すべてのイベントをフィルター処理できます。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>3: Messages from the latest operation</source>
+          <target state="translated">3: 最後の操作からのメッセージ</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The latest operation is stored in the first index of the array group <ph id="ph1">`$SeparateDscOperations`</ph>.</source>
+          <target state="translated">最後の操作は、配列グループ <ph id="ph1">`$SeparateDscOperations`</ph> の最初のインデックスに格納されています。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Querying the group’s messages for index 0 returns all messages for the latest operation:</source>
+          <target state="translated">グループのメッセージに対してインデックス 0 のクエリを実行すると、最後の操作に関するすべてのメッセージが返されます。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>4: Error messages logged for recent failed operations</source>
+          <target state="translated">4: 最近失敗した操作について記録されたエラー メッセージ</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>contains a set of events for the latest operation.</source>
+          <target state="translated"> には、最後の操作に関する一連のイベントが含まれています。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Run the <ph id="ph1">`Where-Object`</ph> cmdlet to filter the events based on their level display name.</source>
+          <target state="translated">レベル表示名に基づいてイベントをフィルター処理するには、<ph id="ph1">`Where-Object`</ph> コマンドレットを実行します。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Results are stored in the <ph id="ph1">`$myFailedEvent`</ph> variable, which can be further dissected to get the event message:</source>
+          <target state="translated">結果は <ph id="ph1">`$myFailedEvent`</ph> 変数に格納され、これをより細かく分析してイベント メッセージを取得できます。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>5: All events generated for a particular job ID.</source>
+          <target state="translated">5: 特定のジョブ ID 用に生成されたすべてのイベント</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>is an array of groups, each of which has the name as the unique job ID.</source>
+          <target state="translated"> はグループの配列で、グループのそれぞれに固有のジョブ ID として名前が付けられています。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>By running the <ph id="ph1">`Where-Object`</ph> cmdlet, you can extract those groups of events that have a particular job ID:</source>
+          <target state="translated"><ph id="ph1">`Where-Object`</ph> コマンドレットを実行すると、特定のジョブ ID を持つイベントのグループを抽出できます。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Using xDscDiagnostics to analyze DSC logs</source>
+          <target state="translated">xDscDiagnostics を使用した DSC ログの分析</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>xDscDiagnostics<ept id="p1">**</ept> is a PowerShell module that consists of several functions that can help analyze DSC failures on your machine.</source>
+          <target state="translated"><bpt id="p1">**</bpt>xDscDiagnostics<ept id="p1">**</ept> は、コンピューター上の DSC 障害の分析に役立つ複数の関数で構成される PowerShell モジュールです。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>These functions can help you identify all local events from past DSC operations, or DSC events on remote computers (with valid credentials).</source>
+          <target state="translated">これらの関数は、過去の DSC 操作からのすべてのローカル イベント、またはリモート コンピューター上の DSC イベントの識別に役立ちます (有効な資格情報を使用)。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Here, the term DSC operation is used to define a single unique DSC execution from its start to its end.</source>
+          <target state="translated">ここでは、開始から終了まで 1 回の一意の DSC 実行を定義するために、DSC 操作という用語を使用します。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>For example, <ph id="ph1">`Test-DscConfiguration`</ph> would be a separate DSC operation.</source>
+          <target state="translated">たとえば、<ph id="ph1">`Test-DscConfiguration`</ph> は独立した DSC 操作です。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Similarly, every other cmdlet in DSC (such as <ph id="ph1">`Get-DscConfiguration`</ph>, <ph id="ph2">`Start-DscConfiguration`</ph>, etc.) could each be identified as separate DSC operations.</source>
+          <target state="translated">同様に、DSC の他のすべてのコマンドレット (<ph id="ph1">`Get-DscConfiguration`</ph> や <ph id="ph2">`Start-DscConfiguration`</ph> など) をそれぞれ別の DSC 操作として識別できます。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The functions are explained at <bpt id="p1">[</bpt>xDscDiagnostics<ept id="p1">](https://github.com/PowerShell/xDscDiagnostics)</ept>.</source>
+          <target state="translated">この関数は、<bpt id="p1">[</bpt>xDscDiagnostics<ept id="p1">](https://github.com/PowerShell/xDscDiagnostics)</ept> で説明されています。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Help is available by running <ph id="ph1">`Get-Help &lt;cmdlet name&gt;`</ph>.</source>
+          <target state="translated">ヘルプを参照するには、<ph id="ph1">`Get-Help &lt;cmdlet name&gt;`</ph> を実行します。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Getting details of DSC operations</source>
+          <target state="translated">DSC 操作の詳細の取得</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Get-xDscOperation`</ph> function lets you find the results of the DSC operations that run on one or multiple computers, and returns an object that contains the collection of events produced by each DSC operation.</source>
+          <target state="translated"><ph id="ph1">`Get-xDscOperation`</ph> 関数は、1 台以上のコンピューターで実行される DSC 操作の結果を検索し、それぞれの DSC 操作で生成されたイベントのコレクションが含まれているオブジェクトを返すことができます。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>For example, in the following output, three commands were run.</source>
+          <target state="translated">たとえば、次の出力では、3 つのコマンドが実行されました。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The first one passed, and the other two failed.</source>
+          <target state="translated">1 つ目のコマンドは成功し、他の 2 つのコマンドは失敗しました。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>These results are summarized in the output of <ph id="ph1">`Get-xDscOperation`</ph>.</source>
+          <target state="translated">これらの結果が <ph id="ph1">`Get-xDscOperation`</ph> の出力にまとめられています。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>You can also specify that you want only results for the most recent operations by using the <ph id="ph1">`Newest`</ph> parameter:</source>
+          <target state="translated">また、<ph id="ph1">`Newest`</ph> パラメーターを使用して最近の操作の結果のみを表示するように指定することもできます。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Getting details of DSC events</source>
+          <target state="translated">DSC イベントの詳細の取得</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Trace-xDscOperation1 cmdlet returns an object containing a collection of events, their event types, and the message output generated from a particular DSC operation. Typically, when you find a failure in any of the operations using `</ph>Get-xDscOperation`, you would trace that operation to find out which of the events caused a failure.</source>
+          <target state="translated"><ph id="ph1">`Trace-xDscOperation1 cmdlet returns an object containing a collection of events, their event types, and the message output generated from a particular DSC operation. Typically, when you find a failure in any of the operations using `</ph>Get-xdscoperation` では、その操作をトレースすると、どのイベントによってエラーが発生したかがわかります。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Use the  <ph id="ph1">`SequenceID`</ph> parameter to get the events for a specific operation for a specific computer.</source>
+          <target state="translated"><ph id="ph1">`SequenceID`</ph> パラメーターを使用して特定のコンピューターの特定の操作に対するイベントを取得します。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>For example, if you specify a <ph id="ph1">`SequenceID`</ph> of 9, <ph id="ph2">`Trace-xDscOperaion`</ph> get the trace for the DSC operation that was 9th from the last operation:</source>
+          <target state="translated">たとえば、<ph id="ph1">`SequenceID`</ph> に 9 を指定すると、<ph id="ph2">`Trace-xDscOperaion`</ph> は最後の操作から 9 番目の DSC 操作のトレースを取得します。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Pass the <bpt id="p1">**</bpt>GUID<ept id="p1">**</ept> assigned to a specific DSC operation (as returned by the <ph id="ph1">`Get-xDscOperation`</ph> cmldet) to get the event details for that DSC operation:</source>
+          <target state="translated">割り当てられた <bpt id="p1">**</bpt>GUID<ept id="p1">**</ept> を特定の DSC 操作に渡すと (<ph id="ph1">`Get-xDscOperation`</ph> コマンドレットが返したときに)、その DSC 操作のイベントの詳細を取得できます。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Note that, since <ph id="ph1">`Trace-xDscOperation`</ph> aggregates events from the Analytic, Debug, and Operational logs, it will prompt you to enable these logs as described above.</source>
+          <target state="translated"><ph id="ph1">`Trace-xDscOperation`</ph> では、分析ログ、デバッグ ログ、および操作ログからイベントを集計するため、上記のようにこれらのログを有効にするように、プロンプトで要求されます。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Alternately, you can gather information on the events by saving the output of <ph id="ph1">`Trace-xDscOperation`</ph> into a variable.</source>
+          <target state="translated">また、<ph id="ph1">`Trace-xDscOperation`</ph> の出力を変数に保存して、イベントに関する情報を収集することもできます。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>You can use the following commands to display all the events for a particular DSC operation.</source>
+          <target state="translated">次のコマンドを使用すると、特定の DSC 操作のすべてのイベントを表示できます。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>This will display the same results as the <ph id="ph1">`Get-WinEvent`</ph> cmdlet, such as in the output below:</source>
+          <target state="translated">次の出力のように、<ph id="ph1">`Get-WinEvent`</ph> コマンドレットと同じ結果が表示されます。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Ideally, you would first use <ph id="ph1">`Get-xDscOperation`</ph> to list out the last few DSC configuration runs on your machines.</source>
+          <target state="translated">まず、<ph id="ph1">`Get-xDscOperation`</ph> を使用して、コンピューターでの DSC 構成実行のうち、最新のいくつかを一覧表示すると理想的です。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Following this, you can examine any single operation (using its SequenceID or JobID) with <ph id="ph1">`Trace-xDscOperation`</ph> to discover what it did behind the scenes.</source>
+          <target state="translated">次に、<ph id="ph1">`Trace-xDscOperation`</ph> でいずれかの単一の操作を (その SequenceID または JobID を使用して) 調べると、バックグラウンドで何が行われたかがわかります。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Getting events for a remote computer</source>
+          <target state="translated">リモート コンピューターのイベントの取得</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`ComputerName`</ph> parameter of the <ph id="ph2">`Trace-xDscOperation`</ph> cmdlet to get the event details on a remote computer.</source>
+          <target state="translated"><ph id="ph2">`Trace-xDscOperation`</ph> コマンドレットの <ph id="ph1">`ComputerName`</ph> パラメーターを使用して、リモート コンピューターのイベントの詳細を取得します。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Before you can do this, you have to create a firewall rule to allow remote administration on the remote computer:</source>
+          <target state="translated">これを行う前に、ファイアウォール ルールを作成してリモート コンピューターでのリモート管理を許可する必要があります。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Now you can specify that computer in your call to <ph id="ph1">`Trace-xDscOperation`</ph>:</source>
+          <target state="translated">これで、<ph id="ph1">`Trace-xDscOperation`</ph> への呼び出しでそのコンピューターを指定できます。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Using DebugMode</source>
+          <target state="translated">DebugMode の使用</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>You can configure the DSC Local Configuration Manager (LCM) to use <ph id="ph1">`DebugMode`</ph> to always clear the cache when the host process is restarted.</source>
+          <target state="translated">ホスト プロセスの再起動時に <ph id="ph1">`DebugMode`</ph> を使用して常にキャッシュをクリアするように、DSC ローカル構成マネージャー (LCM) を構成できます。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>When set to <bpt id="p1">**</bpt>TRUE<ept id="p1">**</ept>, it causes the engine to always reload the PowerShell DSC resource.</source>
+          <target state="translated"><bpt id="p1">**</bpt>TRUE<ept id="p1">**</ept> に設定すると、エンジンは常に PowerShell DSC リソースを再読み込みします。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Once you are done writing your resource, you can set it back to <bpt id="p1">**</bpt>FALSE<ept id="p1">**</ept> and the engine will revert to its behavior of caching the modules.</source>
+          <target state="translated">リソースの書き込みが完了した後、<bpt id="p1">**</bpt>FALSE<ept id="p1">**</ept> に設定し直して、モジュールをキャッシュするようにエンジンの動作を戻すことができます。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Following is a demonstration to show how <ph id="ph1">`DebugMode`</ph> can automatically refresh the cache.</source>
+          <target state="translated">次は、<ph id="ph1">`DebugMode`</ph> がどのようにキャッシュを自動的に更新できるかを示すデモです。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>First, let’s look at the default configuration:</source>
+          <target state="translated">まず、既定の構成を見てみましょう。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>You can see that <ph id="ph1">`DebugMode`</ph> is set to <bpt id="p1">**</bpt>FALSE<ept id="p1">**</ept>.</source>
+          <target state="translated"><ph id="ph1">`DebugMode`</ph> が <bpt id="p1">**</bpt>FALSE<ept id="p1">**</ept> に設定されています。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>To set up the <ph id="ph1">`DebugMode`</ph> demonstration, use the following PowerShell resource:</source>
+          <target state="translated"><ph id="ph1">`DebugMode`</ph> のデモを設定するには、次の PowerShell リソースを使用します。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Now, author a configuration using the above resource called <ph id="ph1">`TestProviderDebugMode`</ph>:</source>
+          <target state="translated">ここで、上記のリソースを使用して <ph id="ph1">`TestProviderDebugMode`</ph> という名前で構成を作成します。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>You will see that the contents of file: “<bpt id="p1">**</bpt>$env:SystemDrive\OutputFromTestProviderDebugMode.txt<ept id="p1">**</ept>” is <bpt id="p2">**</bpt>1<ept id="p2">**</ept>.</source>
+          <target state="translated">ファイル "<bpt id="p1">**</bpt>$env:SystemDrive\OutputFromTestProviderDebugMode.txt<ept id="p1">**</ept>" の内容は <bpt id="p2">**</bpt>1<ept id="p2">**</ept> になっています。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Now, update the provider code using the following script:</source>
+          <target state="translated">ここで、次のスクリプトを使用してプロバイダー コードを更新します。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>This script generates a random number and updates the provider code accordingly.</source>
+          <target state="translated">このスクリプトは、乱数を生成し、それに合わせてプロバイダー コードを更新します。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>With <ph id="ph1">`DebugMode`</ph> set to false, the contents of the file “<bpt id="p1">**</bpt>$env:SystemDrive\OutputFromTestProviderDebugMode.txt<ept id="p1">**</ept>” are never changed.</source>
+          <target state="translated"><ph id="ph1">`DebugMode`</ph> を false に設定しても、ファイル "<bpt id="p1">**</bpt>$env:SystemDrive\OutputFromTestProviderDebugMode.txt<ept id="p1">**</ept>" の内容は変わりません。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Now, set <ph id="ph1">`DebugMode`</ph> to <bpt id="p1">**</bpt>TRUE<ept id="p1">**</ept> in your configuration script:</source>
+          <target state="translated">ここで、構成スクリプトで <ph id="ph1">`DebugMode`</ph> を <bpt id="p1">**</bpt>TRUE<ept id="p1">**</ept> に設定します。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>When you run the above script again, you will see that the content of the file is different every time.</source>
+          <target state="translated">上記のスクリプトを再度実行すると、ファイルの内容が毎回異なるものになります。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>(You can run <ph id="ph1">`Get-DscConfiguration`</ph> to check it).</source>
+          <target state="translated">(<ph id="ph1">`Get-DscConfiguration`</ph> を実行して確認できます)。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Below is the result of two additional runs (your results may be different when you run the script):</source>
+          <target state="translated">次に、さらに 2 つの実行の結果を示します (実際にスクリプトを実行した結果は異なる場合があります)。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">参照</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Reference</source>
+          <target state="translated">参照先</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>DSC Log Resource</source>
+          <target state="translated">DSC Log リソース</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Concepts</source>
+          <target state="translated">概念</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Build Custom Windows PowerShell Desired State Configuration Resources</source>
+          <target state="translated">カスタム Windows PowerShell Desired State Configuration のビルド</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Other Resources</source>
+          <target state="translated">その他のリソース</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Desired State Configuration Cmdlets</source>
+          <target state="translated">Windows PowerShell Desired State Configuration Cmdlets (Windows PowerShell Desired State Configuration のコマンドレット)</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

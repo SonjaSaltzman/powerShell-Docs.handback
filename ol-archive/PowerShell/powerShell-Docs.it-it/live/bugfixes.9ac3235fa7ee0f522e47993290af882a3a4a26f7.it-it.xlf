@@ -2,11 +2,12 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-22243b3" tool-company="Microsoft" />
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">90d57af0c8b90e709769525455ae39557b9c7176</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8a7774b36f15ff790c31d4c1a8bc69be257b8508</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\bugfixes.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">76cc07634f022d0c09b90fcbf62eb7c80fa5279c</xliffext:olskeletonhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -14,105 +15,108 @@
           <source>Bug Fixes in WMF 5.1 (Preview)</source>
           <target state="translated">Bug risolti in WMF 5.1 (anteprima)</target>       </trans-unit>
         <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>PowerShell, DSC, WMF</source>
+          <target state="translated">PowerShell, DSC, WMF</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
           <source>Bug Fixes in WMF 5.1 (Preview)</source>
           <target state="translated">Bug risolti in WMF 5.1 (anteprima)</target>       </trans-unit>
-        <trans-unit id="103" translate="yes" xml:space="preserve">
+        <trans-unit id="104" translate="yes" xml:space="preserve">
           <source>Bug fixes</source>
           <target state="translated">Correzioni di bug</target>       </trans-unit>
-        <trans-unit id="104" translate="yes" xml:space="preserve">
+        <trans-unit id="105" translate="yes" xml:space="preserve">
           <source>The following notable bugs are fixed in WMF 5.1:</source>
           <target state="translated">In WMF 5.1 sono stati corretti i bug importanti seguenti:</target>       </trans-unit>
-        <trans-unit id="105" translate="yes" xml:space="preserve">
+        <trans-unit id="106" translate="yes" xml:space="preserve">
           <source>Module auto-discovery fully honors</source>
           <target state="translated">Rispetto completo del modulo auto-discovery</target>       </trans-unit>
-        <trans-unit id="106" translate="yes" xml:space="preserve">
+        <trans-unit id="107" translate="yes" xml:space="preserve">
           <source>Module auto-discovery (loading modules automatically without an explicit Import-Module when calling a command) was introduced in WMF 3.</source>
           <target state="translated">In WMF 3 è stato introdotto il modulo auto-discovery (caricamento automatico di moduli senza un'istanza esplicita di Import-Module quando si chiama un comando).</target>       </trans-unit>
-        <trans-unit id="107" translate="yes" xml:space="preserve">
+        <trans-unit id="108" translate="yes" xml:space="preserve">
           <source>When introduced, PowerShell checked for commands in <ph id="ph1">`$PSHome\Modules`</ph> before using <ph id="ph2">`$env:PSModulePath`</ph>.</source>
           <target state="translated">Quando è stata introdotta tale versione, PowerShell cercava i comandi in <ph id="ph1">`$PSHome\Modules`</ph> prima di usare <ph id="ph2">`$env:PSModulePath`</ph>.</target>       </trans-unit>
-        <trans-unit id="108" translate="yes" xml:space="preserve">
+        <trans-unit id="109" translate="yes" xml:space="preserve">
           <source>WMF 5.1 changes this behavior to honor <ph id="ph1">`$env:PSModulePath`</ph> completely.</source>
           <target state="translated">WMF 5.1 modifica questo comportamento per rispettare <ph id="ph1">`$env:PSModulePath`</ph> completamente.</target>       </trans-unit>
-        <trans-unit id="109" translate="yes" xml:space="preserve">
+        <trans-unit id="110" translate="yes" xml:space="preserve">
           <source>This allows for a user-authored module that defines commands provided by PowerShell (e.g. <ph id="ph1">`Get-ChildItem`</ph>) to be auto-loaded and correctly overriding the built-in command.</source>
           <target state="translated">In questo modo, un modulo creato dall'utente che definisce i comandi di PowerShell (ad esempio <ph id="ph1">`Get-ChildItem`</ph>) può essere caricato automaticamente e può sostituire correttamente il comando integrato.</target>       </trans-unit>
-        <trans-unit id="110" translate="yes" xml:space="preserve">
+        <trans-unit id="111" translate="yes" xml:space="preserve">
           <source>File redirection no longer hard-codes</source>
           <target state="translated">Reindirizzamento del file non più come hardcoded</target>       </trans-unit>
-        <trans-unit id="111" translate="yes" xml:space="preserve">
-          <source>In all previous versions of PowerShell, it was impossible to control the file encoding used by the file redirection operator, e.g. <ph id="ph1">`get-childitem &gt; out.txt`</ph> because PowerShell added <ph id="ph2">`-Encoding Unicode`</ph>.</source>
-          <target state="translated">In tutte le versioni precedenti di PowerShell, non era possibile controllare la codifica del file usato dall'operatore di reindirizzamento di file, ad esempio <ph id="ph1">`get-childitem &gt; out.txt`</ph> perché PowerShell aveva aggiunto <ph id="ph2">`-Encoding Unicode`</ph>.</target>       </trans-unit>
         <trans-unit id="112" translate="yes" xml:space="preserve">
-          <source>Starting with WMF 5.1, you can now change the file encoding of redirection by setting <ph id="ph1">`$PSDefaultParameterValues`</ph>, e.g.</source>
-          <target state="translated">A partire da WMF 5.1, è ora possibile modificare la codifica del file di reindirizzamento impostando <ph id="ph1">`$PSDefaultParameterValues`</ph>, ad esempio</target>       </trans-unit>
+          <source>In all previous versions of PowerShell, it was impossible to control the file encoding used by the file redirection operator, e.g. <ph id="ph1">`Get-ChildItem &gt; out.txt`</ph> because PowerShell added <ph id="ph2">`-Encoding Unicode`</ph>.</source>
+          <target state="translated">In tutte le versioni precedenti di PowerShell, non era possibile controllare la codifica del file usato dall'operatore di reindirizzamento di file, ad esempio <ph id="ph1">`Get-ChildItem &gt; out.txt`</ph>, perché PowerShell aveva aggiunto <ph id="ph2">`-Encoding Unicode`</ph>.</target>       </trans-unit>
         <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Starting with WMF 5.1, you can now change the file encoding of redirection by setting <ph id="ph1">`$PSDefaultParameterValues`</ph>:</source>
+          <target state="translated">A partire da WMF 5.1, è ora possibile modificare la codifica del file di reindirizzamento impostando <ph id="ph1">`$PSDefaultParameterValues`</ph>:</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
           <source>Fixed a regression in accessing members of</source>
           <target state="translated">Correzione di una regressione nell'accesso dei membri di</target>       </trans-unit>
-        <trans-unit id="114" translate="yes" xml:space="preserve">
+        <trans-unit id="115" translate="yes" xml:space="preserve">
           <source>A regression introduced in WMF 5.0 broke accessing members of <ph id="ph1">`System.Reflection.RuntimeType`</ph>, e.g. <ph id="ph2">`[int].ImplementedInterfaces`</ph>.</source>
           <target state="translated">Una regressione introdotta in WMF 5.0 interrompeva l'accesso ai membri di <ph id="ph1">`System.Reflection.RuntimeType`</ph>, ad esempio <ph id="ph2">`[int].ImplementedInterfaces`</ph>.</target>       </trans-unit>
-        <trans-unit id="115" translate="yes" xml:space="preserve">
-          <source>This bug has been fixed in WMF5.1.</source>
-          <target state="translated">Questo bug è stato risolto in WMF 5.1.</target>       </trans-unit>
         <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This bug has been fixed in WMF 5.1.</source>
+          <target state="translated">Questo bug è stato corretto in WMF 5.1.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
           <source>Fixed some issues with COM objects</source>
           <target state="translated">Risolti alcuni problemi con gli oggetti COM</target>       </trans-unit>
-        <trans-unit id="117" translate="yes" xml:space="preserve">
+        <trans-unit id="118" translate="yes" xml:space="preserve">
           <source>WMF 5.0 introduced a new COM binder for invoking methods on COM objects and accessing properties of COM objects.</source>
           <target state="translated">In WMF 5.0 è stato introdotto un nuovo strumento di associazione COM per richiamare metodi su oggetti COM e accedere alle proprietà degli oggetti COM.</target>       </trans-unit>
-        <trans-unit id="118" translate="yes" xml:space="preserve">
-          <source>This new binder improved performance significantly but also introduced some bugs which have been fixed in WMF5.1.</source>
-          <target state="translated">Questo nuovo strumento di associazione ha migliorato in modo significativo le prestazioni e ha inoltre introdotto alcuni bug che sono stati corretti in WMF 5.1.</target>       </trans-unit>
         <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This new binder improved performance significantly but also introduced some bugs which have been fixed in WMF 5.1.</source>
+          <target state="translated">Questo nuovo strumento di associazione ha migliorato in modo significativo le prestazioni e ha inoltre introdotto alcuni bug che sono stati corretti in WMF 5.1.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
           <source>Argument conversions were not always performed correctly</source>
           <target state="translated">Le conversioni di argomenti non venivano sempre eseguite correttamente</target>       </trans-unit>
-        <trans-unit id="120" translate="yes" xml:space="preserve">
+        <trans-unit id="121" translate="yes" xml:space="preserve">
           <source>In the following example:</source>
           <target state="translated">Nell'esempio seguente:</target>       </trans-unit>
-        <trans-unit id="121" translate="yes" xml:space="preserve">
+        <trans-unit id="122" translate="yes" xml:space="preserve">
           <source>The SendKeys method expects a string, but PowerShell did not convert the char to a string, deferring the conversion to IDispatch::Invoke, which uses VariantChangeType to do the conversion, which in this example resulted in sending the keys '1', '7', and '3' instead of the expected Volume.Mute key.</source>
           <target state="translated">Il metodo SendKeys prevede una stringa, ma PowerShell non converte il carattere in una stringa, rinviando la conversione a IDispatch::Invoke che usa VariantChangeType per eseguire la conversione. In questo esempio, ciò ha comportato l'invio di chiavi '1', '7' e '3' anziché la chiave Volume.Mute prevista.</target>       </trans-unit>
-        <trans-unit id="122" translate="yes" xml:space="preserve">
+        <trans-unit id="123" translate="yes" xml:space="preserve">
           <source>Enumerable COM objects not always handled correctly</source>
           <target state="translated">Gli oggetti COM enumerabili non venivano sempre gestiti correttamente</target>       </trans-unit>
-        <trans-unit id="123" translate="yes" xml:space="preserve">
+        <trans-unit id="124" translate="yes" xml:space="preserve">
           <source>PowerShell normally enumerates most enumerable objects, but a regression introduced in WMF 5.0 prevented the enumeration of COM objects that implement IEnumerable.</source>
           <target state="translated">PowerShell in genere enumera la maggior parte degli oggetti enumerabili, ma una regressione introdotta in WMF 5.0 impediva l'enumerazione di oggetti COM che implementano IEnumerable.</target>       </trans-unit>
-        <trans-unit id="124" translate="yes" xml:space="preserve">
+        <trans-unit id="125" translate="yes" xml:space="preserve">
           <source>For example:</source>
           <target state="translated">Ad esempio:</target>       </trans-unit>
-        <trans-unit id="125" translate="yes" xml:space="preserve">
-          <source>In the above example, WMF 5.0 incorrectly wrote the Scripting.Dictionary to the pipeline instead of enumerating the key value pairs.</source>
-          <target state="translated">Nell'esempio precedente, WMF 5.0 ha scritto in modo errato Scripting.Dictionary nella pipeline anziché enumerare le coppie chiave-valore.</target>       </trans-unit>
         <trans-unit id="126" translate="yes" xml:space="preserve">
-          <source>This change also addresses <bpt id="p1">[</bpt>issues 1752224 on Connect<ept id="p1">](https://connect.microsoft.com/PowerShell/feedback/details/1752224)</ept></source>
-          <target state="translated">Questa modifica concerne anche i <bpt id="p1">[</bpt>problemi 1752224 su Connect<ept id="p1">](https://connect.microsoft.com/PowerShell/feedback/details/1752224)</ept></target>       </trans-unit>
+          <source>In the above example, WMF 5.0 incorrectly wrote the Scripting.Dictionary to the pipeline instead of enumerating the key/value pairs.</source>
+          <target state="translated">Nell'esempio precedente, WMF 5.0 ha scritto in modo errato Scripting.Dictionary nella pipeline anziché enumerare le coppie chiave-valore.</target>       </trans-unit>
         <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This change also addresses <bpt id="p1">[</bpt>issue 1752224 on Connect<ept id="p1">](https://connect.microsoft.com/PowerShell/feedback/details/1752224)</ept></source>
+          <target state="translated">Questa modifica riguarda anche i <bpt id="p1">[</bpt>problemi 1752224 su Connect<ept id="p1">](https://connect.microsoft.com/PowerShell/feedback/details/1752224)</ept></target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
           <source>was not allowed inside classes</source>
           <target state="translated">non è consentito all'interno delle classi</target>       </trans-unit>
-        <trans-unit id="128" translate="yes" xml:space="preserve">
-          <source>WMF5 introduced classes with validation of type literals used in classes.</source>
-          <target state="translated">In WMF 5 sono state introdotte classi con la convalida dei valori letterali di tipo per le classi.</target>       </trans-unit>
         <trans-unit id="129" translate="yes" xml:space="preserve">
-          <source>looks like a type literal but is not a true .Net type.</source>
-          <target state="translated">è simile a un valore letterale di tipo ma non è un tipo .Net.</target>       </trans-unit>
+          <source>WMF 5.0 introduced classes with validation of type literals used in classes.</source>
+          <target state="translated">In WMF 5.0 sono state introdotte classi con la convalida dei valori letterali di tipo per le classi.</target>       </trans-unit>
         <trans-unit id="130" translate="yes" xml:space="preserve">
-          <source>WMF5 incorrectly reported an error on <ph id="ph1">`[ordered]`</ph> inside a class:</source>
-          <target state="translated">WMF 5 restituiva erroneamente un errore relativo a <ph id="ph1">`[ordered]`</ph> in una classe:</target>       </trans-unit>
+          <source>looks like a type literal but is not a true .NET type.</source>
+          <target state="translated">è simile a un valore letterale di tipo, ma non è un tipo .NET.</target>       </trans-unit>
         <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>WMF 5.0 incorrectly reported an error on <ph id="ph1">`[ordered]`</ph> inside a class:</source>
+          <target state="translated">WMF 5.0 restituiva erroneamente un errore relativo a <ph id="ph1">`[ordered]`</ph> in una classe:</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
           <source>Help on About topics with multiple versions does not work</source>
           <target state="translated">Supporto non funzionante sugli argomenti della Guida con più versioni</target>       </trans-unit>
-        <trans-unit id="132" translate="yes" xml:space="preserve">
+        <trans-unit id="133" translate="yes" xml:space="preserve">
           <source>Before WMF 5.1, if you had multiple versions of a module installed and they all shared a help topic, for example, about_PSReadline, <ph id="ph1">`help about_PSReadline`</ph> would return multiple topics with no obvious way to view the real help.</source>
           <target state="translated">Prima di WMF 5.1, se erano installate più versioni di un modulo e tutte condividevano un argomento della Guida, ad esempio about_PSReadline, <ph id="ph1">`help about_PSReadline`</ph> restituiva più argomenti e non era possibile visualizzare la Guida vera e propria.</target>       </trans-unit>
-        <trans-unit id="133" translate="yes" xml:space="preserve">
+        <trans-unit id="134" translate="yes" xml:space="preserve">
           <source>WMF 5.1 fixes this by returning the help for the latest version of the topic.</source>
           <target state="translated">In WMF 5.1 il problema è stato risolto restituendo la Guida per la versione più recente dell'argomento.</target>       </trans-unit>
-        <trans-unit id="134" translate="yes" xml:space="preserve">
-          <source>Get-Help does not provide a way to specify which version you want help for.</source>
-          <target state="translated">Get-Help non fornisce un modo per specificare la versione per la quale si vuole visualizzare la Guida.</target>       </trans-unit>
         <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>does not provide a way to specify which version you want help for.</source>
+          <target state="translated">non fornisce un modo per specificare la versione per la quale si vuole visualizzare la Guida.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
           <source>To work around this, navigate to the modules directory and view the help directly with a tool like your favorite editor.</source>
           <target state="translated">Per risolvere il problema, passare alla directory dei moduli e visualizzare la Guida direttamente con uno strumento come il proprio editor preferito.</target>       </trans-unit>
       </group>
