@@ -7,10 +7,10 @@
 [ Handoff Failed Files ](#handoff-failed-list)| 0
 [ Handoff Success Files ](#handoff-success-list)| 1
 [ Archive Failed Files ](#archive-failed-list)| 0
-[ Archive Success Files ](#archive-success-list)| 68
+[ Archive Success Files ](#archive-success-list)| 66
 [ Handback Failed Files ](#handback-failed-list)| 6
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
-[ In Sync Handback Files ](#insync-handback-success-list)| 341
+[ In Sync Handback Files ](#insync-handback-success-list)| 343
 [ Ignored Files ](#ignored-list)| 40
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
@@ -27,7 +27,6 @@
  ----------- | ------ | ------- 
  [dsc\groupSetResource.md](https://github.com/PowerShell/powerShell-Docs/blob/bf36abde6a3bfff4c2e49868465e089cc886d031/dsc/groupSetResource.md) | ArchivedSuccess | [Details](#45fe96c43a834566d398820e3d94e3be923bb38527)
  [dsc\lnxGettingStarted.md](https://github.com/PowerShell/powerShell-Docs/blob/e4385f0ed482b97e8794cde968de549902cc358e/dsc/lnxGettingStarted.md) | ArchivedSuccess | [Details](#2283e797275f426b624119bd1191e58080780c0939)
- [dsc\lnxPackageResource.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/lnxPackageResource.md) | ArchivedSuccess | [Details](#31867cc7af96a3d8d527f5906d77bed5206940b441)
  [dsc\nanoDsc.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/nanoDsc.md) | ArchivedSuccess | [Details](#962941ba946a67256baf141bd195361c94a68f9070)
  [dsc\processSetResource.md](https://github.com/PowerShell/powerShell-Docs/blob/97714d3fa9a1c00fb3d2e79cc873280ca945a840/dsc/processSetResource.md) | ArchivedSuccess | [Details](#012a0e5c4f2a1f60ecea869d588b9c54e0567ced74)
  [gallery\psgallery\contributing_to_psgallery_documentation.md](https://github.com/PowerShell/powerShell-Docs/blob/316caf861c7aff7e7a587fe2a8065933c0b67404/gallery/psgallery/contributing_to_psgallery_documentation.md) | ArchivedSuccess | [Details](#443d343d6f5c79c562e36ba59cd822d990de8715105)
@@ -85,7 +84,6 @@
  [scripting\getting-started\cookbooks\Selecting-Items-from-a-List-Box.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/getting-started/cookbooks/Selecting-Items-from-a-List-Box.md) | ArchivedSuccess | [Details](#7e8fd05cfedd500c51f2d7e4f6adbb7d1f27cb00273)
  [scripting\getting-started\fundamental-concepts.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/getting-started/fundamental-concepts.md) | ArchivedSuccess | [Details](#b3b97b9dcf01094fe1fadbac355c92df35feaee2286)
  [scripting\getting-started\more-powershell-learning.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/getting-started/more-powershell-learning.md) | ArchivedSuccess | [Details](#05205ff8fcf0a3b23e66a6ac756be0d9a5055bd2304)
- [scripting\getting-started\understanding-concepts-reference.md](https://github.com/PowerShell/powerShell-Docs/blob/119b4d50423498e08383f02e56ae76653d06e555/scripting/getting-started/understanding-concepts-reference.md) | ArchivedSuccess | [Details](#e3cac149d549400b6a180b4a4fd6ff1a13a8130b305)
  [scripting\PowerShell-Scripting.md](https://github.com/PowerShell/powerShell-Docs/blob/b38cfd053cc2356fa7ca99605dbd84190d342327/scripting/PowerShell-Scripting.md) | ArchivedSuccess | [Details](#fc6307be4dafb378350b6d9667b2b6aca0e2e6d4307)
  [scripting\setup\Starting-Windows-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/setup/Starting-Windows-PowerShell.md) | ArchivedSuccess | [Details](#f8406a2066ef54ea0fdaaff6e612bb0d43b12ab6317)
  [wmf\5.1\compatibility.md](https://github.com/PowerShell/powerShell-Docs/blob/1f6f18e46537d4b9f5e64c9e808e46e82b2d3050/wmf/5.1/compatibility.md) | ArchivedSuccess | [Details](#8e7dd69fc5ba29e719aec353afcac2471ecb2352406)
@@ -136,6 +134,7 @@
  [dsc\lnxFileLineResource.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/lnxFileLineResource.md) | InSyncHandedBackSuccess | [Details](#9196129e79272d8bee717ef8a5d42fb590760a0f37)
  [dsc\lnxFileResource.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/lnxFileResource.md) | InSyncHandedBackSuccess | [Details](#2ba44df5dd6c91371cbbfe95d48184a4ff4a773838)
  [dsc\lnxGroupResource.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/lnxGroupResource.md) | InSyncHandedBackSuccess | [Details](#2139e4462c0568c30b118ef6cb3ceef1717b52e640)
+ [dsc\lnxPackageResource.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/lnxPackageResource.md) | InSyncHandedBackSuccess | [Details](#31867cc7af96a3d8d527f5906d77bed5206940b441)
  [dsc\lnxScriptResource.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/lnxScriptResource.md) | InSyncHandedBackSuccess | [Details](#4c575bbf0e0553e19e56bcc6edd605e36586cb9442)
  [dsc\lnxServiceResource.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/lnxServiceResource.md) | InSyncHandedBackSuccess | [Details](#3835495705297616a41329bcfdaad42b464115d843)
  [dsc\lnxSshAuthorizedKeysResource.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/lnxSshAuthorizedKeysResource.md) | InSyncHandedBackSuccess | [Details](#edc906b4e9c925320c4ed00c5ab295189066ccb944)
@@ -331,6 +330,7 @@
  [scripting\getting-started\fundamental\Windows-PowerShell-Integrated-Scripting-Environment--ISE-.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/fundamental/Windows-PowerShell-Integrated-Scripting-Environment--ISE-.md) | InSyncHandedBackSuccess | [Details](#061e22c26853664c89adc023d43802628859b9a6301)
  [scripting\getting-started\Getting-Ready-to-Use-Windows-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/Getting-Ready-to-Use-Windows-PowerShell.md) | InSyncHandedBackSuccess | [Details](#52d55ff10a9118bea2a34a53452fd252d1e17580302)
  [scripting\getting-started\Getting-Started-with-Windows-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/Getting-Started-with-Windows-PowerShell.md) | InSyncHandedBackSuccess | [Details](#a031bad99e8aca1d7598f99e157723bf4360cf56303)
+ [scripting\getting-started\understanding-concepts-reference.md](https://github.com/PowerShell/powerShell-Docs/blob/119b4d50423498e08383f02e56ae76653d06e555/scripting/getting-started/understanding-concepts-reference.md) | InSyncHandedBackSuccess | [Details](#e3cac149d549400b6a180b4a4fd6ff1a13a8130b305)
  [scripting\setup\Accessibility-in-Windows-PowerShell-ISE.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/setup/Accessibility-in-Windows-PowerShell-ISE.md) | InSyncHandedBackSuccess | [Details](#b4d97b1c96a99bcfc43fb20ce9a4ecfa528ea024308)
  [scripting\setup\Installing-the-Windows-PowerShell-2.0-Engine.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/setup/Installing-the-Windows-PowerShell-2.0-Engine.md) | InSyncHandedBackSuccess | [Details](#b6189e43fc9579a29d598deb705bb8e4e32e4a4f309)
  [scripting\setup\Installing-the-Windows-PowerShell-SDK.md](https://github.com/PowerShell/powerShell-Docs/blob/7caac42751c580d588fcf19db7253c8b75d6c865/scripting/setup/Installing-the-Windows-PowerShell-SDK.md) | InSyncHandedBackSuccess | [Details](#7af27dc9bd8e93d1df5258b0d8df8af12726f568310)
@@ -991,14 +991,14 @@
 
 ##### <a name='9196129e79272d8bee717ef8a5d42fb590760a0f37'></a> Source: [dsc\lnxFileLineResource.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/lnxFileLineResource.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [dsc\lnxFileLineResource.md](https://github.com/PowerShell/powerShell-Docs.de-de/blob/29201e029ad7bcfedfcc81ee452069c6511d005c/dsc/lnxFileLineResource.md)
+* Target File: [dsc\lnxFileLineResource.md](https://github.com/PowerShell/powerShell-Docs.de-de/blob/603cffda3026bb96e85813dc085b36e19472ff39/dsc/lnxFileLineResource.md)
 * Handoff File: [lnxFileLineResource.d91fc802a4c6cdbff5a2e35f92b34c36c6dbf5eb.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/33825405d24010abda65e56163602016abba4e62/ol-handoff/PowerShell/powerShell-Docs.de-de/live/lnxFileLineResource.d91fc802a4c6cdbff5a2e35f92b34c36c6dbf5eb.de-de.xlf)
 * Handoff Datetime: 2016-08-18 01:23:34
 * Handoff Reason: Include
 * Archive File: [lnxFileLineResource.d91fc802a4c6cdbff5a2e35f92b34c36c6dbf5eb.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a7982d24647baf614ccfe202ca95069805d5d1e7/ol-archive/PowerShell/powerShell-Docs.de-de/live/lnxFileLineResource.d91fc802a4c6cdbff5a2e35f92b34c36c6dbf5eb.de-de.xlf)
 * Archive Datetime: 2016-08-23 13:32:01
-* Handback File: [lnxFileLineResource.d91fc802a4c6cdbff5a2e35f92b34c36c6dbf5eb.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/e543a07a0fb7e208209135d604b4e93d87805555/ol-handback/PowerShell/powerShell-Docs.de-de/live/lnxFileLineResource.d91fc802a4c6cdbff5a2e35f92b34c36c6dbf5eb.de-de.xlf)
-* Handback Datetime: 2016-09-03 00:21:51
+* Handback File: [lnxFileLineResource.d91fc802a4c6cdbff5a2e35f92b34c36c6dbf5eb.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/997ecf26efa795f724e3b2cf18daade778866aa3/ol-handback/PowerShell/powerShell-Docs.de-de/live/lnxFileLineResource.d91fc802a4c6cdbff5a2e35f92b34c36c6dbf5eb.de-de.xlf)
+* Handback Datetime: 2016-10-06 07:51:40
 * Bilingual File: [lnxFileLineResource.d91fc802a4c6cdbff5a2e35f92b34c36c6dbf5eb.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/e543a07a0fb7e208209135d604b4e93d87805555/ol-handback/PowerShell/powerShell-Docs.de-de/live/lnxFileLineResource.d91fc802a4c6cdbff5a2e35f92b34c36c6dbf5eb.de-de.xlf)
 * Bilingual Datetime: 2016-09-03 00:22:54
 * [Back to Top](#report-top)
@@ -1044,27 +1044,27 @@
 * [Back to Top](#report-top)
 
 ##### <a name='31867cc7af96a3d8d527f5906d77bed5206940b441'></a> Source: [dsc\lnxPackageResource.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/lnxPackageResource.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [dsc\lnxPackageResource.md](https://github.com/PowerShell/powerShell-Docs.de-de/blob/603cffda3026bb96e85813dc085b36e19472ff39/dsc/lnxPackageResource.md)
 * Handoff File: [lnxPackageResource.db35ab938bbfbb38cae53fe9ae98fd22b5f18009.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/33825405d24010abda65e56163602016abba4e62/ol-handoff/PowerShell/powerShell-Docs.de-de/live/lnxPackageResource.db35ab938bbfbb38cae53fe9ae98fd22b5f18009.de-de.xlf)
 * Handoff Datetime: 2016-08-18 01:23:34
 * Handoff Reason: Include
 * Archive File: [lnxPackageResource.db35ab938bbfbb38cae53fe9ae98fd22b5f18009.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a7982d24647baf614ccfe202ca95069805d5d1e7/ol-archive/PowerShell/powerShell-Docs.de-de/live/lnxPackageResource.db35ab938bbfbb38cae53fe9ae98fd22b5f18009.de-de.xlf)
 * Archive Datetime: 2016-08-23 13:32:01
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
+* Handback File: [lnxPackageResource.db35ab938bbfbb38cae53fe9ae98fd22b5f18009.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/997ecf26efa795f724e3b2cf18daade778866aa3/ol-handback/PowerShell/powerShell-Docs.de-de/live/lnxPackageResource.db35ab938bbfbb38cae53fe9ae98fd22b5f18009.de-de.xlf)
+* Handback Datetime: 2016-10-06 07:51:40
 * [Back to Top](#report-top)
 
 ##### <a name='4c575bbf0e0553e19e56bcc6edd605e36586cb9442'></a> Source: [dsc\lnxScriptResource.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/lnxScriptResource.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [dsc\lnxScriptResource.md](https://github.com/PowerShell/powerShell-Docs.de-de/blob/29201e029ad7bcfedfcc81ee452069c6511d005c/dsc/lnxScriptResource.md)
+* Target File: [dsc\lnxScriptResource.md](https://github.com/PowerShell/powerShell-Docs.de-de/blob/603cffda3026bb96e85813dc085b36e19472ff39/dsc/lnxScriptResource.md)
 * Handoff File: [lnxScriptResource.1344a5d5b807ee53705e93842d9ef5e25a883359.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/33825405d24010abda65e56163602016abba4e62/ol-handoff/PowerShell/powerShell-Docs.de-de/live/lnxScriptResource.1344a5d5b807ee53705e93842d9ef5e25a883359.de-de.xlf)
 * Handoff Datetime: 2016-08-18 01:23:34
 * Handoff Reason: Include
 * Archive File: [lnxScriptResource.1344a5d5b807ee53705e93842d9ef5e25a883359.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a7982d24647baf614ccfe202ca95069805d5d1e7/ol-archive/PowerShell/powerShell-Docs.de-de/live/lnxScriptResource.1344a5d5b807ee53705e93842d9ef5e25a883359.de-de.xlf)
 * Archive Datetime: 2016-08-23 13:32:01
-* Handback File: [lnxScriptResource.1344a5d5b807ee53705e93842d9ef5e25a883359.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/e543a07a0fb7e208209135d604b4e93d87805555/ol-handback/PowerShell/powerShell-Docs.de-de/live/lnxScriptResource.1344a5d5b807ee53705e93842d9ef5e25a883359.de-de.xlf)
-* Handback Datetime: 2016-09-03 00:21:51
+* Handback File: [lnxScriptResource.1344a5d5b807ee53705e93842d9ef5e25a883359.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/997ecf26efa795f724e3b2cf18daade778866aa3/ol-handback/PowerShell/powerShell-Docs.de-de/live/lnxScriptResource.1344a5d5b807ee53705e93842d9ef5e25a883359.de-de.xlf)
+* Handback Datetime: 2016-10-06 07:51:40
 * Bilingual File: [lnxScriptResource.1344a5d5b807ee53705e93842d9ef5e25a883359.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/e543a07a0fb7e208209135d604b4e93d87805555/ol-handback/PowerShell/powerShell-Docs.de-de/live/lnxScriptResource.1344a5d5b807ee53705e93842d9ef5e25a883359.de-de.xlf)
 * Bilingual Datetime: 2016-09-03 00:22:54
 * [Back to Top](#report-top)
@@ -4607,15 +4607,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='e3cac149d549400b6a180b4a4fd6ff1a13a8130b305'></a> Source: [scripting\getting-started\understanding-concepts-reference.md](https://github.com/PowerShell/powerShell-Docs/blob/119b4d50423498e08383f02e56ae76653d06e555/scripting/getting-started/understanding-concepts-reference.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\getting-started\understanding-concepts-reference.md](https://github.com/PowerShell/powerShell-Docs.de-de/blob/603cffda3026bb96e85813dc085b36e19472ff39/scripting/getting-started/understanding-concepts-reference.md)
 * Handoff File: [understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/682c42d51a60c60c564a7e51de6ea0ca2f5a33c4/ol-handoff/PowerShell/powerShell-Docs.de-de/live/understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.de-de.xlf)
 * Handoff Datetime: 2016-09-30 18:16:08
 * Handoff Reason: Include
 * Archive File: [understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/573de328651f42b34a5bfe99558fee2cf2a8a17f/ol-archive/PowerShell/powerShell-Docs.de-de/live/understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.de-de.xlf)
 * Archive Datetime: 2016-10-04 13:19:11
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
+* Handback File: [understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/997ecf26efa795f724e3b2cf18daade778866aa3/ol-handback/PowerShell/powerShell-Docs.de-de/live/understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.de-de.xlf)
+* Handback Datetime: 2016-10-06 07:51:40
 * [Back to Top](#report-top)
 
 ##### <a name='755db60abb7859af5065e2c5ddfbfc6cfb7aeeda306'></a> Source: [scripting\md.style](https://github.com/PowerShell/powerShell-Docs/blob/d7edea9dbffd53138eb5a710a77d0211aa2854f2/scripting/md.style)
