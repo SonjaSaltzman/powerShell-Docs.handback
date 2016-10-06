@@ -1,28 +1,11 @@
 # <a name='report-top'></a> Localization Bilingual Report
 
 ## Summary
- Total Files | 1
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [scripting\getting-started\understanding-concepts-reference.md](https://github.com/PowerShell/powerShell-Docs/blob/119b4d50423498e08383f02e56ae76653d06e555/scripting/getting-started/understanding-concepts-reference.md) | InSyncHandedBackSuccess | [Details](#e3cac149d549400b6a180b4a4fd6ff1a13a8130b305)
 
 ## Item Details
-##### <a name='e3cac149d549400b6a180b4a4fd6ff1a13a8130b305'></a> Source: [scripting\getting-started\understanding-concepts-reference.md](https://github.com/PowerShell/powerShell-Docs/blob/119b4d50423498e08383f02e56ae76653d06e555/scripting/getting-started/understanding-concepts-reference.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [scripting\getting-started\understanding-concepts-reference.md](https://github.com/PowerShell/powerShell-Docs.zh-tw/blob/332cd34b05fc53e8e88c64e9c8732a30a3ae599f/scripting/getting-started/understanding-concepts-reference.md)
-* Handoff File: [understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/ea40ed0c886f1679b1ad577b81d64d64aec3513d/ol-handoff/PowerShell/powerShell-Docs.zh-tw/live/understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.zh-tw.xlf)
-* Handoff Datetime: 2016-09-30 18:16:37
-* Handoff Reason: Include
-* Archive File: [understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/c1e03e7010be3f3d261a5c6683f31bc38dd151f5/ol-archive/PowerShell/powerShell-Docs.zh-tw/live/understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.zh-tw.xlf)
-* Archive Datetime: 2016-10-04 13:19:36
-* Handback File: [understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/154743cad9ffe38c7f199b27e9321dd5d385f7ee/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.zh-tw.xlf)
-* Handback Datetime: 2016-10-06 04:34:58
-* Bilingual File: [understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/154743cad9ffe38c7f199b27e9321dd5d385f7ee/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.zh-tw.xlf)
-* Bilingual Datetime: 2016-10-06 04:36:12
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
