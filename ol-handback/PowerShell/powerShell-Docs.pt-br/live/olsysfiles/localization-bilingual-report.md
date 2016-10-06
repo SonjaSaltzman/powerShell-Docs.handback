@@ -1,28 +1,11 @@
 # <a name='report-top'></a> Localization Bilingual Report
 
 ## Summary
- Total Files | 1
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [wmf\5.1\compatibility.md](https://github.com/PowerShell/powerShell-Docs/blob/1f6f18e46537d4b9f5e64c9e808e46e82b2d3050/wmf/5.1/compatibility.md) | InSyncHandedBackSuccess | [Details](#8e7dd69fc5ba29e719aec353afcac2471ecb2352406)
 
 ## Item Details
-##### <a name='8e7dd69fc5ba29e719aec353afcac2471ecb2352406'></a> Source: [wmf\5.1\compatibility.md](https://github.com/PowerShell/powerShell-Docs/blob/1f6f18e46537d4b9f5e64c9e808e46e82b2d3050/wmf/5.1/compatibility.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [wmf\5.1\compatibility.md](https://github.com/PowerShell/powerShell-Docs.pt-br/blob/b3bbe6743772ed8ead9ed7b33d7068321f413062/wmf/5.1/compatibility.md)
-* Handoff File: [compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/657cdcaf7879dcbb228603d1dfe7e6203f180a1e/ol-handoff/PowerShell/powerShell-Docs.pt-br/live/compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.pt-br.xlf)
-* Handoff Datetime: 2016-08-18 01:39:58
-* Handoff Reason: Include
-* Archive File: [compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/e14cfc126f32ca6fa458a35387805878c796f2c4/ol-archive/PowerShell/powerShell-Docs.pt-br/live/compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.pt-br.xlf)
-* Archive Datetime: 2016-08-23 13:38:51
-* Handback File: [compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/c04cf4d2714a340228c7012d5e6e2b247e481dee/ol-handback/PowerShell/powerShell-Docs.pt-br/live/compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.pt-br.xlf)
-* Handback Datetime: 2016-10-06 08:08:29
-* Bilingual File: [compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/c04cf4d2714a340228c7012d5e6e2b247e481dee/ol-handback/PowerShell/powerShell-Docs.pt-br/live/compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.pt-br.xlf)
-* Bilingual Datetime: 2016-10-06 08:09:55
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
