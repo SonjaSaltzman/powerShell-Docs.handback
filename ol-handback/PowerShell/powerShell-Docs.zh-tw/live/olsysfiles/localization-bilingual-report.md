@@ -6,21 +6,21 @@
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [dsc\msft-dsclocalconfigurationmanager-sendconfiguration.md](https://github.com/PowerShell/powerShell-Docs/blob/c915ebd021ed20209bc491505d45cff2ac89f21d/dsc/msft-dsclocalconfigurationmanager-sendconfiguration.md) | InSyncHandedBackSuccess | [Details](#95b141472d9428cee71b6970fc1f496704211c0b63)
+ [scripting\getting-started\understanding-concepts-reference.md](https://github.com/PowerShell/powerShell-Docs/blob/119b4d50423498e08383f02e56ae76653d06e555/scripting/getting-started/understanding-concepts-reference.md) | InSyncHandedBackSuccess | [Details](#e3cac149d549400b6a180b4a4fd6ff1a13a8130b305)
 
 ## Item Details
-##### <a name='95b141472d9428cee71b6970fc1f496704211c0b63'></a> Source: [dsc\msft-dsclocalconfigurationmanager-sendconfiguration.md](https://github.com/PowerShell/powerShell-Docs/blob/c915ebd021ed20209bc491505d45cff2ac89f21d/dsc/msft-dsclocalconfigurationmanager-sendconfiguration.md)
+##### <a name='e3cac149d549400b6a180b4a4fd6ff1a13a8130b305'></a> Source: [scripting\getting-started\understanding-concepts-reference.md](https://github.com/PowerShell/powerShell-Docs/blob/119b4d50423498e08383f02e56ae76653d06e555/scripting/getting-started/understanding-concepts-reference.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [dsc\msft-dsclocalconfigurationmanager-sendconfiguration.md](https://github.com/PowerShell/powerShell-Docs.zh-tw/blob/0cee3227978bc9dbbb6e5ee17eac8782f82fb312/dsc/msft-dsclocalconfigurationmanager-sendconfiguration.md)
-* Handoff File: [msft-dsclocalconfigurationmanager-sendconfiguration.ef2224874728677cee639c7ea223742feeb969fe.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/5aa04dcf0392d663d2b26f5afdda0ea3a0a24dac/ol-handoff/PowerShell/powerShell-Docs.zh-tw/live/msft-dsclocalconfigurationmanager-sendconfiguration.ef2224874728677cee639c7ea223742feeb969fe.zh-tw.xlf)
-* Handoff Datetime: 2016-08-18 01:29:34
+* Target File: [scripting\getting-started\understanding-concepts-reference.md](https://github.com/PowerShell/powerShell-Docs.zh-tw/blob/332cd34b05fc53e8e88c64e9c8732a30a3ae599f/scripting/getting-started/understanding-concepts-reference.md)
+* Handoff File: [understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/ea40ed0c886f1679b1ad577b81d64d64aec3513d/ol-handoff/PowerShell/powerShell-Docs.zh-tw/live/understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.zh-tw.xlf)
+* Handoff Datetime: 2016-09-30 18:16:37
 * Handoff Reason: Include
-* Archive File: [msft-dsclocalconfigurationmanager-sendconfiguration.ef2224874728677cee639c7ea223742feeb969fe.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/8f3d5368c90d85316a2d1e4eab2fc6b96c3fcd23/ol-archive/PowerShell/powerShell-Docs.zh-tw/live/msft-dsclocalconfigurationmanager-sendconfiguration.ef2224874728677cee639c7ea223742feeb969fe.zh-tw.xlf)
-* Archive Datetime: 2016-08-23 13:34:46
-* Handback File: [msft-dsclocalconfigurationmanager-sendconfiguration.ef2224874728677cee639c7ea223742feeb969fe.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/09a4787764ac844d5a2af585ae059fc69590f8c2/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/msft-dsclocalconfigurationmanager-sendconfiguration.ef2224874728677cee639c7ea223742feeb969fe.zh-tw.xlf)
-* Handback Datetime: 2016-10-06 00:41:18
-* Bilingual File: [msft-dsclocalconfigurationmanager-sendconfiguration.ef2224874728677cee639c7ea223742feeb969fe.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/09a4787764ac844d5a2af585ae059fc69590f8c2/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/msft-dsclocalconfigurationmanager-sendconfiguration.ef2224874728677cee639c7ea223742feeb969fe.zh-tw.xlf)
-* Bilingual Datetime: 2016-10-06 00:42:09
+* Archive File: [understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/c1e03e7010be3f3d261a5c6683f31bc38dd151f5/ol-archive/PowerShell/powerShell-Docs.zh-tw/live/understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.zh-tw.xlf)
+* Archive Datetime: 2016-10-04 13:19:36
+* Handback File: [understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/154743cad9ffe38c7f199b27e9321dd5d385f7ee/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.zh-tw.xlf)
+* Handback Datetime: 2016-10-06 04:34:58
+* Bilingual File: [understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/154743cad9ffe38c7f199b27e9321dd5d385f7ee/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.zh-tw.xlf)
+* Bilingual Datetime: 2016-10-06 04:36:12
 * [Back to Top](#report-top)
 
 
