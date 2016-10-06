@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c9bc3460e25063347de3c594ef5ce437b0f8961d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Working-with-Files-and-Folders.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d5039c366166efb683e36c82aec4a9451c6ef704</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Working with Files and Folders</source>
+          <target state="translated">使用文件和文件夹</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="translated">powershell,cmdlet</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Working with Files and Folders</source>
+          <target state="translated">使用文件和文件夹</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Navigating through Windows PowerShell drives and manipulating the items on them is similar to manipulating files and folders on Windows physical disk drives.</source>
+          <target state="translated">在 Windows PowerShell 驱动器中导航和操作其上面的项类似于操作 Windows 物理磁盘驱动器上的文件和文件夹。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>We will discuss how to deal with specific file and folder manipulation tasks in this section.</source>
+          <target state="translated">本节我们将讨论如何处理特定文件和文件夹操作任务。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Listing All the Files and Folders Within a Folder</source>
+          <target state="translated">列出某个文件夹内的所有文件和文件夹</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can get all items directly within a folder by using <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>ChildItem<ept id="p1">**</ept>.</source>
+          <target state="translated">可以通过使用 <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>ChildItem<ept id="p1">**</ept> 直接获取某个文件夹中的所有项目。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Add the optional <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> parameter to display hidden or system items.</source>
+          <target state="translated">添加可选的 <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> 参数以显示隐藏项或系统项。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For example, this command displays the direct contents of Windows PowerShell Drive C (which is the same as the Windows physical drive C):</source>
+          <target state="translated">例如，此命令将显示 Windows PowerShell 驱动器 C（它与 Windows 物理驱动器 C 相同）的直观内容：</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The command lists only the directly contained items, much like using Cmd.exe's <bpt id="p1">**</bpt>DIR<ept id="p1">**</ept> command or <bpt id="p2">**</bpt>ls<ept id="p2">**</ept> in a UNIX shell.</source>
+          <target state="translated">该命令将仅列出直接包含的项，类似于使用 Cmd.exe 的 <bpt id="p1">**</bpt>DIR<ept id="p1">**</ept> 命令或 UNIX shell 中的 <bpt id="p2">**</bpt>ls<ept id="p2">**</ept>。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In order to show contained items, you need to specify the <bpt id="p1">**</bpt><ph id="ph1">\-</ph>Recurse<ept id="p1">**</ept> parameter as well.</source>
+          <target state="translated">为了显示包含的项，你还需要指定 <bpt id="p1">**</bpt><ph id="ph1">\-</ph>Recurse<ept id="p1">**</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>(This can take an extremely long time to complete.) To list everything on the C drive:</source>
+          <target state="translated">（这可能需要相当长的时间才能完成。）列出 C 驱动器上的所有内容：</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>ChildItem<ept id="p1">**</ept> can filter items with its <bpt id="p2">**</bpt>Path<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Filter<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Include<ept id="p4">**</ept>, and <bpt id="p5">**</bpt>Exclude<ept id="p5">**</ept> parameters, but those are typically based only on name.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>ChildItem<ept id="p1">**</ept> 可以使用其 <bpt id="p2">**</bpt>Path<ept id="p2">**</ept>、<bpt id="p3">**</bpt>Filter<ept id="p3">**</ept>、<bpt id="p4">**</bpt>Include<ept id="p4">**</ept> 和 <bpt id="p5">**</bpt>Exclude<ept id="p5">**</ept> 参数筛选项，但那些通常只基于名称。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can perform complex filtering based on other properties of items by using <bpt id="p1">**</bpt>Where<ph id="ph1">\-</ph>Object<ept id="p1">**</ept>.</source>
+          <target state="translated">还可以通过使用 <bpt id="p1">**</bpt>Where<ph id="ph1">\-</ph>Object<ept id="p1">**</ept> 基于项的其他属性执行复杂的筛选。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The following command finds all executables within the Program Files folder that were last modified after October 1, 2005 and which are neither smaller than 1 megabyte nor larger than 10 megabytes:</source>
+          <target state="translated">下面的命令用于查找上次于 2005 年 10 月 1 日之后修改，并且不小于 1 兆字节，也不大于 10 兆字节的 Program Files 文件夹中的所有可执行文件：</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Copying Files and Folders</source>
+          <target state="translated">复制文件和文件夹</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Copying is done with <bpt id="p1">**</bpt>Copy<ph id="ph1">\-</ph>Item<ept id="p1">**</ept>.</source>
+          <target state="translated">复制通过 <bpt id="p1">**</bpt>Copy<ph id="ph1">\-</ph>Item<ept id="p1">**</ept> 完成。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The following command backs up C:<ph id="ph1">\\</ph>boot.ini to C:<ph id="ph2">\\</ph>boot.bak:</source>
+          <target state="translated">以下命令用于将 C:<ph id="ph1">\\</ph>boot.ini 备份到 C:<ph id="ph2">\\</ph>boot.bak：</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If the destination file already exists, the copy attempt fails.</source>
+          <target state="translated">如果目标文件已存在，则复制尝试失败。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To overwrite a pre<ph id="ph1">\-</ph>existing destination, use the Force parameter:</source>
+          <target state="translated">若要覆盖预先存在的目标，请使用 Force 参数：</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This command works even when the destination is read<ph id="ph1">\-</ph>only.</source>
+          <target state="translated">即使当目标为只读时，该命令也有效。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Folder copying works the same way.</source>
+          <target state="translated">复制文件夹的操作方式与此相同。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This command copies the folder C:<ph id="ph1">\\</ph>temp<ph id="ph2">\\</ph>test1 to the new folder c:<ph id="ph3">\\</ph>temp<ph id="ph4">\\</ph>DeleteMe recursively:</source>
+          <target state="translated">此命令用于以递归方式将文件夹 C:<ph id="ph1">\\</ph>temp<ph id="ph2">\\</ph>test1 复制到新文件夹 c:<ph id="ph3">\\</ph>temp<ph id="ph4">\\</ph>DeleteMe：</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You can also copy a selection of items.</source>
+          <target state="translated">还可以复制选定的项。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The following command copies all .txt files contained anywhere in c:<ph id="ph1">\\</ph>data to c:<ph id="ph2">\\</ph>temp<ph id="ph3">\\</ph>text:</source>
+          <target state="translated">以下命令用于将 c:<ph id="ph1">\\</ph>data 中任意位置包含的所有 .txt 文件复制到 c:<ph id="ph2">\\</ph>temp<ph id="ph3">\\</ph>text：</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You can still use other tools to perform file system copies.</source>
+          <target state="translated">你仍然可以使用其他工具执行文件系统复制。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>XCOPY, ROBOCOPY, and COM objects, such as the <bpt id="p1">**</bpt>Scripting.FileSystemObject,<ept id="p1">**</ept> all work in Windows PowerShell.</source>
+          <target state="translated">XCOPY、ROBOCOPY 和 COM 对象（如 <bpt id="p1">**</bpt>Scripting.FileSystemObject<ept id="p1">**</ept>）都适用于 Windows PowerShell。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For example, you can use the Windows Script Host <bpt id="p1">**</bpt>Scripting.FileSystem COM<ept id="p1">**</ept> class to back up C:<ph id="ph1">\\</ph>boot.ini to C:<ph id="ph2">\\</ph>boot.bak:</source>
+          <target state="translated">例如，可以使用 Windows Script Host <bpt id="p1">**</bpt>Scripting.FileSystem COM<ept id="p1">**</ept> 类将 C:<ph id="ph1">\\</ph>boot.ini 备份到 C:<ph id="ph2">\\</ph>boot.bak：</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Creating Files and Folders</source>
+          <target state="translated">创建文件和文件夹</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Creating new items works the same on all Windows PowerShell providers.</source>
+          <target state="translated">创建新项的操作方式在所有 Windows PowerShell 提供程序上都相同。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>If a Windows PowerShell provider has more than one type of item—for example, the FileSystem Windows PowerShell provider distinguishes between directories and files—you need to specify the item type.</source>
+          <target state="translated">如果某个 Windows PowerShell 提供程序具有多个类型的项（例如，用于区分目录和文件的 FileSystem Windows PowerShell 提供程序），则需要指定项类型。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This command creates a new folder C:<ph id="ph1">\\</ph>temp<ph id="ph2">\\</ph>New Folder:</source>
+          <target state="translated">以下命令可创建一个新文件夹 C:<ph id="ph1">\\</ph>temp<ph id="ph2">\\</ph>New Folder：</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This command creates a new empty file C:<ph id="ph1">\\</ph>temp<ph id="ph2">\\</ph>New Folder<ph id="ph3">\\</ph>file.txt</source>
+          <target state="translated">以下命令可创建新的空文件 C:<ph id="ph1">\\</ph>temp<ph id="ph2">\\</ph>New Folder<ph id="ph3">\\</ph>file.txt</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Removing All Files and Folders Within a Folder</source>
+          <target state="translated">删除某个文件夹内的所有文件和文件夹</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>You can remove contained items using <bpt id="p1">**</bpt>Remove<ph id="ph1">\-</ph>Item<ept id="p1">**</ept>, but you will be prompted to confirm the removal if the item contains anything else.</source>
+          <target state="translated">你可以使用 <bpt id="p1">**</bpt>Remove<ph id="ph1">\-</ph>Item<ept id="p1">**</ept> 删除包含的项，但如果项包含任何其他内容，系统将提示你确认该删除。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For example, if you attempt to delete the folder C:<ph id="ph1">\\</ph>temp<ph id="ph2">\\</ph>DeleteMe that contains other items, Windows PowerShell prompts you for confirmation before deleting the folder:</source>
+          <target state="translated">例如，如果尝试删除包含其他项的文件夹 C:<ph id="ph1">\\</ph>temp<ph id="ph2">\\</ph>DeleteMe，则在删除该文件夹之前 Windows PowerShell 会提示你确认：</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If you do not want to be prompted for each contained item, specify the <bpt id="p1">**</bpt>Recurse<ept id="p1">**</ept> parameter:</source>
+          <target state="translated">如果不希望系统针对每个包含的项都提示你，则指定 <bpt id="p1">**</bpt>Recurse<ept id="p1">**</ept> 参数：</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Mapping a Local Folder as a Windows Accessible Drive</source>
+          <target state="translated">将本地文件夹映射为 Windows 可访问驱动器</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You can also map a local folder, using the <bpt id="p1">**</bpt>subst<ept id="p1">**</ept> command.</source>
+          <target state="translated">你还可以使用 <bpt id="p1">**</bpt>subst<ept id="p1">**</ept> 命令映射本地文件夹。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The following command creates a local drive P: rooted in the local Program Files directory:</source>
+          <target state="translated">以下命令可在根路径为本地 Program Files 的目录中创建本地驱动器 P:：</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Just as with network drives, drives mapped within Windows PowerShell using <bpt id="p1">**</bpt>subst<ept id="p1">**</ept> are immediately visible to the Windows PowerShell shell.</source>
+          <target state="translated">正如网络驱动器一样，使用 <bpt id="p1">**</bpt>subst<ept id="p1">**</ept> 在 Windows PowerShell 内映射的驱动器将对 Windows PowerShell shell 立即可见。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Reading a Text File into an Array</source>
+          <target state="translated">将文本文件数据读取到数组中</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>One of the more common storage formats for text data is in a file with separate lines treated as distinct data elements.</source>
+          <target state="translated">文本数据更常见的存储格式之一是采用文件形式，其中单独的行被视为不同的数据元素。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Content<ept id="p1">**</ept> cmdlet can be used to read an entire file in one step, as shown here:</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Content<ept id="p1">**</ept> cmdlet 可用于一步读取整个文件，如下所示：</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Content<ept id="p1">**</ept> already treats the data read from the file as an array, with one element per line of file content.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Content<ept id="p1">**</ept> 已将从文件读取的数据视为数组，其中每行文件内容视为一个元素。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>You can confirm this by checking the <bpt id="p1">**</bpt>Length<ept id="p1">**</ept> of the returned content:</source>
+          <target state="translated">可以通过检查返回的内容的<bpt id="p1">**</bpt>长度<ept id="p1">**</ept>来确认此点：</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This command is most useful for getting lists of information into Windows PowerShell directly.</source>
+          <target state="translated">此命令对于直接从 Windows PowerShell 获取列表信息最为有用。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For example, you might store a list of computer names or IP addresses in a file C:<ph id="ph1">\\</ph>temp<ph id="ph2">\\</ph>domainMembers.txt, with one name on each line of the file.</source>
+          <target state="translated">例如，你可能会在文件 C:<ph id="ph1">\\</ph>temp<ph id="ph2">\\</ph>domainMembers.txt 中存储计算机名称或 IP 地址的列表，其中文件的每一行上一个名称。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>You can use <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Content<ept id="p1">**</ept> to retrieve the file contents and put them in the variable <bpt id="p2">**</bpt>$Computers<ept id="p2">**</ept>:</source>
+          <target state="translated">你可以使用 <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Content<ept id="p1">**</ept> 来检索文件内容并将它们放在变量 <bpt id="p2">**</bpt>$Computers<ept id="p2">**</ept> 中：</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>$Computers<ept id="p1">**</ept> is now an array containing a computer name in each element.</source>
+          <target state="translated"><bpt id="p1">**</bpt>$Computers<ept id="p1">**</ept> 现在是一个数组，其中每个元素包含一个计算机名。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

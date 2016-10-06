@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d541f37723d77cf0b52012bae143dc7d64efd65d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\reportServer.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">98e9144427dec52eca1fe85868a641f92c2f1923</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Using a DSC report server</source>
+          <target state="translated">Использование сервера отчетов DSC</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,DSC</source>
+          <target state="translated">powershell,DSC</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Using a DSC report server</source>
+          <target state="translated">Использование сервера отчетов DSC</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 5.0</source>
+          <target state="translated">Область применения: Windows PowerShell 5.0</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> The report server described in this topic is not available in PowerShell 4.0.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Примечание<ept id="p1">**</ept>. Сервер отчетов, описанный в этой статье, недоступен в PowerShell 4.0.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The Local Configuration Manager (LCM) of a node can be configured to send reports about its configuration status to a pull server, which can then be queried to retrieve that data.</source>
+          <target state="translated">В локальном диспетчере конфигураций (LCM) узла можно настроить отправку отчетов о состоянии конфигурации на опрашивающий сервер, которые затем можно запросить для извлечения содержащихся в них данных.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Each time the node checks and applies a configuration, it sends a report to the report server.</source>
+          <target state="translated">Каждый раз при проверке и применении конфигурации узел отправляет отчет на сервер отчетов.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>These reports are stored in a database on the server, and can be retrieved by calling the reporting web service.</source>
+          <target state="translated">Эти отчеты хранятся в базе данных на сервере, и их можно извлечь, вызвав веб-службу отчетов.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Each report contains information such as what configurations were applied and whether they succeeded, the resources used, any errors that were thrown, and start and finish times.</source>
+          <target state="translated">Каждый отчет содержит сведения, например перечень примененных конфигураций и данные о том, успешно ли они были выполнены, использованные ресурсы, любые произошедшие ошибки, а также время начала и окончания.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Configuring a node to send reports</source>
+          <target state="translated">Настройка узла для отправки отчетов</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You tell a node to send reports to a server by using a <bpt id="p1">**</bpt>ReportServerWeb<ept id="p1">**</ept> block in the node's LCM configuration (for information about configuring the LCM, see <bpt id="p2">[</bpt>Configuring the Local Configuration Manager<ept id="p2">](metaConfig.md)</ept>).</source>
+          <target state="translated">Запросить на узле отправку отчетов на сервер можно с помощью блока <bpt id="p1">**</bpt>ReportServerWeb<ept id="p1">**</ept> в конфигурации LCM узла (сведения о настройке LCM см. в разделе <bpt id="p2">[</bpt>Настройка локального диспетчера конфигураций<ept id="p2">](metaConfig.md)</ept>).</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The server to which the node sends reports must be set up as a web pull server (you cannot send reports to an SMB share).</source>
+          <target state="translated">Сервер, на который узел отправляет отчеты, необходимо настроить как опрашивающий веб-сервер (отправлять отчеты в общий ресурс SMB невозможно).</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For information about setting up a pull server, see <bpt id="p1">[</bpt>Setting up a DSC web pull server<ept id="p1">](pullServer.md)</ept>.</source>
+          <target state="translated">Сведения о настройке опрашивающего сервера см. в разделе <bpt id="p1">[</bpt>Настройка опрашивающего веб-сервера DSC<ept id="p1">](pullServer.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The report server can be the same service from which the node pulls configurations and gets resources, or it can be a different service.</source>
+          <target state="translated">Сервер отчетов может быть той же службой, в которой узел извлекает конфигурации и получает ресурсы, или другой службой.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>ReportServerWeb<ept id="p1">**</ept> block, you specify the URL of the pull service and a registration key that is known to the server.</source>
+          <target state="translated">В блоке <bpt id="p1">**</bpt>ReportServerWeb<ept id="p1">**</ept> укажите URL-адрес опрашивающей службы и ключ регистрации, известный серверу.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The following configuration configures a node to pull configurations from one service, and send reports to a service on a different server.</source>
+          <target state="translated">Следующая конфигурация настраивает на узле извлечение конфигураций из службы и отправку отчетов в службу на другом сервере.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The following configuration configures a node to use a single server for configurations, resources, and reporting.</source>
+          <target state="translated">Следующая конфигурация настраивает узел для использования одного и того же сервера для конфигурации, ресурсов и отчетов.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> You can name the web service whatever you want when you set up a pull server, but the <bpt id="p2">**</bpt>ServerURL<ept id="p2">**</ept> property must match the service name.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Примечание<ept id="p1">**</ept>. При настройке опрашивающего сервера можно указать любое имя веб-службы, но свойство <bpt id="p2">**</bpt>ServerURL<ept id="p2">**</ept> должно соответствовать имени службы.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Getting report data</source>
+          <target state="translated">Получение данных из отчетов</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Reports sent to the pull server are entered into a database on the server.</source>
+          <target state="translated">Отчеты, отправляемые на опрашивающий сервер, добавляются в базу данных на сервере.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The reports are available through calls to the web service.</source>
+          <target state="translated">Отчеты доступны путем вызовов веб-службы.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To retrieve reports for a specific node, send an HTTP request to the report web service in the following form: <ph id="ph1">`http://CONTOSO-REPORT:8080/PSDSCReportServer.svc/Nodes(AgentID = MyNodeAgentId)/Reports`</ph> where <ph id="ph2">`MyNodeAgentId`</ph> is the AgentId of the node for which you want to get reports.</source>
+          <target state="translated">Чтобы извлечь отчеты с указанного узла, отправьте HTTP-запрос в веб-службу отчетов в следующем формате: <ph id="ph1">`http://CONTOSO-REPORT:8080/PSDSCReportServer.svc/Nodes(AgentID = MyNodeAgentId)/Reports`</ph> где <ph id="ph2">`MyNodeAgentId`</ph> — это AgentId узла, с которого вы хотите получать отчеты.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You can get the AgentID for a node by calling <bpt id="p1">[</bpt>Get-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept> on that node.</source>
+          <target state="translated">Вы можете получить AgentID узла, вызвав <bpt id="p1">[</bpt>Get-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept> на этом узле.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The reports are returned as an array of JSON objects.</source>
+          <target state="translated">Отчеты возвращаются в виде массива объектов JSON.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The following script returns the reports for the node on which it is run:</source>
+          <target state="translated">Следующий сценарий возвращает отчеты для узла, на котором он выполняется:</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Viewing report data</source>
+          <target state="translated">Просмотр данных из отчетов</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If you set a variable to the result of the <bpt id="p1">**</bpt>GetReport<ept id="p1">**</ept> function, you can view the individual fields in an element of the array that is returned:</source>
+          <target state="translated">Если задать для переменной результат функции <bpt id="p1">**</bpt>GetReport<ept id="p1">**</ept>, можно просмотреть отдельные поля в элементе возвращаемого массива:</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>By default, the reports are sorted by <bpt id="p1">**</bpt>JobID<ept id="p1">**</ept>.</source>
+          <target state="translated">По умолчанию отчеты сортируются по <bpt id="p1">**</bpt>JobID<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To get the most recent report, you can sort the reports by descending <bpt id="p1">**</bpt>StartTime<ept id="p1">**</ept> property, and then get the first element of the array:</source>
+          <target state="translated">Чтобы получить последний отчет, отчеты можно отсортировать по убыванию значения свойства <bpt id="p1">**</bpt>StartTime<ept id="p1">**</ept>, а затем возвратить первый элемент массива:</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Notice that the <bpt id="p1">**</bpt>StatusData<ept id="p1">**</ept> property is an object with a number of properties.</source>
+          <target state="translated">Обратите внимание, что свойство <bpt id="p1">**</bpt>StatusData<ept id="p1">**</ept> является объектом с несколькими свойствами.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This is where much of the reporting data is.</source>
+          <target state="translated">Именно здесь находится значительная часть данных отчетов.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Let's look at the individual fields of the <bpt id="p1">**</bpt>StatusData<ept id="p1">**</ept> property for the most recent report:</source>
+          <target state="translated">Давайте рассмотрим отдельные поля свойства <bpt id="p1">**</bpt>StatusData<ept id="p1">**</ept> для последнего отчета.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Among other things, this shows that the most recent configuration called two resources, and that one of them was in the desired state, and one of them was not.</source>
+          <target state="translated">Помимо прочего видно, что последняя конфигурация вызывала два ресурса и один из них был в нужном состоянии, а другой — нет.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You can get a more readable output of just the <bpt id="p1">**</bpt>ResourcesNotInDesiredState<ept id="p1">**</ept> property:</source>
+          <target state="translated">Вы можете получить более понятные выходные данные только для свойства <bpt id="p1">**</bpt>ResourcesNotInDesiredState<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Note that these examples are meant to give you an idea of what you can do with report data.</source>
+          <target state="translated">Обратите внимание, что эти примеры призваны дать представление о том, что вы можете сделать с данными из отчетов.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For an introduction on working with JSON in PowerShell, see <bpt id="p1">[</bpt>Playing with JSON and PowerShell<ept id="p1">](https://blogs.technet.microsoft.com/heyscriptingguy/2015/10/08/playing-with-json-and-powershell/)</ept>.</source>
+          <target state="translated">Общие сведения о работе с JSON в PowerShell см. в разделе <bpt id="p1">[</bpt>Работа с JSON и PowerShell<ept id="p1">](https://blogs.technet.microsoft.com/heyscriptingguy/2015/10/08/playing-with-json-and-powershell/)</ept>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">См. также</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Configuring the Local Configuration Manager</source>
+          <target state="translated">Настройка локального диспетчера конфигураций</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Setting up a DSC web pull server</source>
+          <target state="translated">Настройка опрашивающего веб-сервера DSC</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Setting up a pull client using configuration names</source>
+          <target state="translated">Настройка опрашивающего клиента с помощью имен конфигураций</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">204909c16d5e3e2099f6ba4247929d61445cd654</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">jea\end-to-end---active-directory.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f0b38fcc79af01c5e59ca2779c088209054e4a3a</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet,jea</source>
+          <target state="translated">powershell,cmdlet,jea</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>end to end   active directory</source>
+          <target state="translated">端到端 - Active Directory</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>End to End - Active Directory</source>
+          <target state="translated">端到端 - Active Directory</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Imagine the scope of your program has increased.</source>
+          <target state="translated">假设你的程序作用域扩大了。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You are now responsible for adding JEA to Domain Controllers to perform Active Directory actions.</source>
+          <target state="translated">你现在有责任将 JEA 添加到域控制器以执行 Active Directory 操作。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The help desk people are going to use JEA to unlock accounts, reset passwords, and do other similar actions.</source>
+          <target state="translated">技术支持人员将使用 JEA 解锁帐户、重置密码以及执行其他类似操作。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You need to expose a completely new set of commands to a different group of people.</source>
+          <target state="translated">你需要向另一组人员公开全新的一组命令。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>On top of that, you have a bunch of existing Active Directory scripts you need to expose.</source>
+          <target state="translated">在此基础上，你还需公开一组现有 Active Directory 脚本。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This section will walk through authoring a Session Configuration and Role Capability for this task.</source>
+          <target state="translated">本部分将演练为此任务创作会话配置和角色功能。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+          <target state="translated">必备条件</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To follow this section step-by-step, you'll need to be operating on a domain controller.</source>
+          <target state="translated">若要按照此部分进行逐步操作，需在域控制器上进行操作。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If you don't have access to your domain controller, don't worry.</source>
+          <target state="translated">如果你无权访问你的域控制器，请不要担心。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Try to follow along with by working against some other scenario or role with which you are familiar.</source>
+          <target state="translated">请尝试对你熟悉的其他方案或角色进行操作以便跟进。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If you want to quickly set up a new domain controller, check out the <bpt id="p1">[</bpt>Creating a Domain Controller appendix<ept id="p1">](#creating-a-domain-controller)</ept>.</source>
+          <target state="translated">如要快速设置新的域控制器，请参阅<bpt id="p1">[</bpt>“创建域控制器”附录<ept id="p1">](#creating-a-domain-controller)</ept>。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Steps to Make a new Role Capability and Session Configuration</source>
+          <target state="translated">创建新角色功能和会话配置的步骤</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Making a new role capability can seem daunting at first, but it can be broken into fairly simple steps:</source>
+          <target state="translated">创建新角色功能乍看令人生畏，但可将其分为相当简单的几个步骤：</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Identify the tasks you need to enable</source>
+          <target state="translated">确定需要启用的任务</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Restrict those tasks as necessary</source>
+          <target state="translated">根据需要限制这些任务</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Confirm they work with JEA</source>
+          <target state="translated">确认它们适用于 JEA</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Put them in a Role Capability file</source>
+          <target state="translated">将其置于角色功能文件中</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Register a Session Configuration that exposes that Role Capability</source>
+          <target state="translated">注册用于公开该角色功能的会话配置</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Step 1: Identify What Needs to Be Exposed</source>
+          <target state="translated">步骤 1：确定需要公开的内容</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Before you make a new Role Capability or Session Configuration, you need to identify all of the things users will need to do through the JEA endpoint, as well as how to do them through PowerShell.</source>
+          <target state="translated">在创建新角色功能或会话配置之前，需要确定用户需通过 JEA 终结点执行的所有操作，以及如何通过 PowerShell 来执行这些操作。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This will involve a fair amount of requirement gathering and research.</source>
+          <target state="translated">这将涉及大量的需求收集和研究。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>How you go about this process will depend on your organization and goals.</source>
+          <target state="translated">你进行此过程的方式将取决于你的组织和目标。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>It is important to call out requirement gathering and research as a critical part of the real world process.</source>
+          <target state="translated">请务必将需求收集和研究作为实际过程的一个关键部分。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This may be the most difficult step in the process of adopting JEA.</source>
+          <target state="translated">这可能是采用 JEA 的过程中最艰难的步骤。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Find Resources</source>
+          <target state="translated">查找资源</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Here is a set of online resources that might have come up in your research on creating an Active Directory management endpoint:</source>
+          <target state="translated">针对创建 Active Directory 管理终结点进行研究时，你可能找到了以下一组在线资源：</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Active Directory PowerShell Overview</source>
+          <target state="translated">Active Directory PowerShell 概述</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>CMD to PowerShell Guide for Active Directory</source>
+          <target state="translated">适用于 Active Directory 的 CMD 到 PowerShell 指南</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Make a List</source>
+          <target state="translated">制作列表</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Here is a set of ten actions that you will be working from in the remainder of this section.</source>
+          <target state="translated">在本节剩余部分中，你将进行以下十个操作。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Keep in mind this is simply an example, your organizations requirements may be different:</source>
+          <target state="translated">请注意这只是一个示例，你组织的需求可能会有所不同：</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Action</source>
+          <target state="translated">操作</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>PowerShell Command</source>
+          <target state="translated">PowerShell 命令</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Account Unlock</source>
+          <target state="translated">帐户解锁</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Password Reset</source>
+          <target state="translated">密码重置</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>and</source>
+          <target state="translated">和</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Change a User's Title</source>
+          <target state="translated">更改用户的职务</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Find AD Accounts that are locked out, disabled, inactive, etc.</source>
+          <target state="translated">查找处于已锁定、已禁用、已停用等状态的 AD 帐户</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Add User to Group</source>
+          <target state="translated">将用户添加到组</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Remove User from Group</source>
+          <target state="translated">从组中删除用户</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Enable a user account</source>
+          <target state="translated">启用用户帐户</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Disable a user account</source>
+          <target state="translated">禁用用户帐户</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Step 2: Restrict Tasks as Necessary</source>
+          <target state="translated">步骤 2：根据需要限制任务</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Now that you have your list of actions, you need to think through the capabilities of each command.</source>
+          <target state="translated">现在你拥有了操作的列表，需仔细思考每个命令的功能。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>There are two important reasons to do this:</source>
+          <target state="translated">这样做有两个重要的原因：</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>It is easy to give users more capabilities than you intend.</source>
+          <target state="translated">首先，容易为用户提供比你预期更多的功能。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>For example, <ph id="ph1">`Set-ADUser`</ph> is an incredibly powerful and flexible command.</source>
+          <target state="translated">例如，<ph id="ph1">`Set-ADUser`</ph> 是一个极其强大和灵活的命令。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>You may not want to expose everything it can do to help desk users.</source>
+          <target state="translated">你可能不希望向技术支持用户公开其全部功能。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Even worse, it's possible to expose commands that allow users to escape JEA's restrictions.</source>
+          <target state="translated">更糟糕的是，它可能会公开允许用户脱离 JEA 限制的命令。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If this happens, JEA ceases to function as a security boundary.</source>
+          <target state="translated">如果发生这种情况，JEA 将不再起到安全边界的作用。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Please be careful when selecting commands.</source>
+          <target state="translated">请谨慎选择命令。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>For example, Invoke-Expression will allow users to run unrestricted code.</source>
+          <target state="translated">例如，Invoke-Expression 将允许用户运行不受限制的代码。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>For more discussion on this topic, check out the Considerations When Restricting Commands section.</source>
+          <target state="translated">有关这一主题的详细讨论，请参阅“限制命令时的注意事项”部分。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>After reviewing each command, you decide to restrict the following:</source>
+          <target state="translated">检查每个命令后，请决定限制以下内容：</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>should only be allowed to run with the -Title parameter</source>
+          <target state="translated">应仅允许在使用 -Title 参数时运行</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>and <ph id="ph1">`Remove-ADGroupMember`</ph> should only work with certain groups</source>
+          <target state="translated"><ph id="ph1">`Remove-ADGroupMember`</ph> 应仅适用于特定组</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Step 3: Confirm the Tasks Work with JEA</source>
+          <target state="translated">步骤 3：确认任务适用 JEA</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Actually using those cmdlets may not be straightforward in the restricted JEA environment.</source>
+          <target state="translated">在受限的 JEA 环境中，实际使用这些 cmdlet 可能并不直接。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>JEA runs in <bpt id="p1">*</bpt>NoLanguage<ept id="p1">*</ept> mode which, among other things, prevents users from using variables.</source>
+          <target state="translated">JEA 在<bpt id="p1">*</bpt>无语言<ept id="p1">*</ept>模式下运行，该模式（以及其他一些模式）将阻止用户使用变量。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>In order to ensure that end users have a smooth experience, it's important to check for a few things.</source>
+          <target state="translated">为确保最终用户具有流畅的体验，请务必检查某些内容。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>As an example, consider <ph id="ph1">`Set-ADAccountPassword`</ph>.</source>
+          <target state="translated">例如，请考虑 <ph id="ph1">`Set-ADAccountPassword`</ph>。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The -NewPassword parameter requires a secure string.</source>
+          <target state="translated">-NewPassword 参数需要安全字符串。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Often, users create a secure string and pass it in as a variable (as below):</source>
+          <target state="translated">用户常创建安全字符串并将其作为变量进行传递（如下所示）：</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>However, <bpt id="p1">*</bpt>NoLanguage<ept id="p1">*</ept> mode prevents the usage of variables.</source>
+          <target state="translated">但是，<bpt id="p1">*</bpt>无语言<ept id="p1">*</ept>模式阻止使用变量。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>You can get around this restriction in two ways:</source>
+          <target state="translated">你可以通过两种方式避开此限制：</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>You can require users run the command without assigning variables.</source>
+          <target state="translated">你可以要求用户运行命令而不分配变量。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This is easy to configure, but can be painful for the operators using the endpoint.</source>
+          <target state="translated">这很容易配置，但可能令操作员苦于使用终结点。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Who wants to type this out every time you reset a password?</source>
+          <target state="translated">谁愿意每次重置密码时都键入安全字符串？</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>You can wrap the complexity in a script or a function that you expose to end users.</source>
+          <target state="translated">你可以在向最终用户公开的脚本或函数中包装复杂性。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Scripts and functions that you expose run in an unrestricted context; you can write functions that use variables and call other commands without any issue.</source>
+          <target state="translated">你公开的脚本和函数在不受限制的上下文中运行；你可以编写使用变量的函数并调用其他命令而不会引发任何问题。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>This approach simplifies the end user experience, prevents errors, reduces required PowerShell knowledge, and reduces unintentionally exposing excess functionality.</source>
+          <target state="translated">这种方法可简化最终用户体验、避免错误、减少所需 PowerShell 知识，并减少过多功能的无意公开。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The only downside is the cost of authoring and maintaining the function.</source>
+          <target state="translated">唯一的缺点是创作和维护函数的成本。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Aside: Adding a Function to your Module</source>
+          <target state="translated">保留：将函数添加到模块</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Taking approach #2, you are going to write a PowerShell function called <ph id="ph1">`Reset-ContosoUserPassword`</ph>.</source>
+          <target state="translated">采用方法 2，你将编写名为 <ph id="ph1">`Reset-ContosoUserPassword`</ph> 的 PowerShell 函数。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>This function is going to do everything that needs to happen when you reset a user's password.</source>
+          <target state="translated">当你重置用户密码时，此函数将执行所需的一切操作。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>In your organization, this may involve doing fancy and complicated things.</source>
+          <target state="translated">在你的组织中，这可能涉及到特别而复杂的操作。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Because this is just an example, your command will just reset the password and require the user change the password at logon.</source>
+          <target state="translated">因为这只是一个示例，因此你的命令将仅重置密码并要求用户在登录时更改密码。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>We will put it in the Contoso_AD_Module module you made in the last section.</source>
+          <target state="translated">我们会将它放在你在最后一部分中创建的 Contoso_AD_Module 模块中。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>In PowerShell ISE, open "Contoso_AD_Module.psm1"</source>
+          <target state="translated">在 PowerShell ISE 中，打开“Contoso_AD_Module.psm1”</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Press Crtl+J to open the snippets menu.</source>
+          <target state="translated">按 Crtl+J 以打开代码片段菜单。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Key down until you find "function" and press enter.</source>
+          <target state="translated">按着下箭头键直到你找到“function”，然后按 Enter。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>This puts up a super basic skeleton of a function.</source>
+          <target state="translated">这将显示函数最基本的主干。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Rename the function "Reset-ContosoUserPassword".</source>
+          <target state="translated">将函数重命名为“Reset-ContosoUserPassword”。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Rename one of the parameters "Identity" and delete the second.</source>
+          <target state="translated">将参数之一重命名为“Identity”，并删除另一参数。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Copy the following into the body of the function.</source>
+          <target state="translated">将以下内容复制到该函数的正文。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Save the file.</source>
+          <target state="translated">保存该文件。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>You should end up with something that looks like this:</source>
+          <target state="translated">最后，你应该得到如下所示的内容：</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Now, your users can simply call <ph id="ph1">`Reset-ContosoUserPassword`</ph> and not have to remember the syntax to create a secure string inline.</source>
+          <target state="translated">现在，你的用户可以轻松调用 <ph id="ph1">`Reset-ContosoUserPassword`</ph> 而无需记忆创建安全字符串内联的语法。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Step 4: Edit the Role Capability File</source>
+          <target state="translated">步骤 4：编辑角色功能文件</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Role Capability Creation<ept id="p1">](#role-capability-creation)</ept> section, you created a blank Role Capability file.</source>
+          <target state="translated">在<bpt id="p1">[</bpt>角色功能创建<ept id="p1">](#role-capability-creation)</ept>部分，已创建一个空白的角色功能文件。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>In this section, you will fill in the values in that file.</source>
+          <target state="translated">在本部分中，你将在该文件中填充值。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Start by opening the role capability file in PowerShell ISE.</source>
+          <target state="translated">首先在 PowerShell ISE 中打开该角色功能文件。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Update the file with the following changes:</source>
+          <target state="translated">使用以下更改更新文件：</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>There are a few things to note about the above:</source>
+          <target state="translated">有关上述部分，需要注意以下几点：</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>PowerShell will attempt to auto-load the modules needed for your Role Capability.</source>
+          <target state="translated">PowerShell 将尝试自动加载你的角色功能所需的模块。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>You may need to explicitly list module names in the "ModulesToImport" field if you notice problems with a module not being autoloaded.</source>
+          <target state="translated">如果你注意到未自动加载模块的问题，可能需要在“ModulesToImport”字段中显式列出模块名称。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>If you aren't sure if a command is a cmdlet or a function, run <ph id="ph1">`Get-Command`</ph> and look at the "CommandType" property</source>
+          <target state="translated">如果你不确定某命令是 cmdlet 还是函数，请运行 <ph id="ph1">`Get-Command`</ph> 并查看“CommandType”属性</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The ValidatePattern allows you to use a regular expression to restrict parameter arguments if it is not easy to define a set of allowable values.</source>
+          <target state="translated">如果不易定义一组允许的值，可通过 ValidatePattern 使用正则表达式来限制形参实参。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>You cannot define both a ValidatePattern and ValidateSet for a single parameter.</source>
+          <target state="translated">不能为单个参数同时定义 ValidatePattern 和 ValidateSet。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Step 5: Register a new Session Configuration</source>
+          <target state="translated">步骤 5：注册新会话配置</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Next, you will create a new session configuration file that will expose your Role Capability to members of the "JEA_NonAdmin_HelpDesk" AD group.</source>
+          <target state="translated">接下来，你将创建新的会话配置文件，该文件将向“JEA_NonAdmin_HelpDesk”AD 组的成员公开你的角色功能。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Start by creating and opening a new blank Session Configuration file in PowerShell ISE.</source>
+          <target state="translated">首先在 PowerShell ISE 中创建并打开新的空白会话配置文件。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Modify the following fields in the PSSC file.</source>
+          <target state="translated">修改 PSSC 文件中的以下字段。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>If you are working in your own environment, you should replace "CONTOSO\JEA_NonAdmins_Helpdesk" with your own non-administrator user or group.</source>
+          <target state="translated">如果你正在自己的环境中工作，应将“CONTOSO\JEA_NonAdmins_Helpdesk”替换为你自己的非管理员用户或组。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Save and register the Session Configuration</source>
+          <target state="translated">保存并注册会话配置</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Test It Out!</source>
+          <target state="translated">动手检验吧！</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Get your non-administrator user credentials:</source>
+          <target state="translated">获取你的非管理员用户凭据：</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>If you followed the <bpt id="p1">[</bpt>Set Up Users and Groups<ept id="p1">](creating-a-domain-controller.md#set-up-users-and-groups)</ept> section, the credentials will be:</source>
+          <target state="translated">如果按照 <bpt id="p1">[</bpt>设置用户和组<ept id="p1">](creating-a-domain-controller.md#set-up-users-and-groups)</ept> 部分进行操作，则凭据如下：</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Username = "HelpDeskUser"</source>
+          <target state="translated">用户名 =“HelpDeskUser”</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Password = "pa$$w0rd"</source>
+          <target state="translated">密码 =“pa$ $w0rd”</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Remote into the ADHelpdesk endpoint using the non-admin credential:</source>
+          <target state="translated">使用非管理员凭据远程登录到 AD 支持人员终结点：</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Use Set-ADUser to reset a user's title.</source>
+          <target state="translated">使用 Set-ADUser 重置用户的职务。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Verify that the title has changed.</source>
+          <target state="translated">验证职务是否已更改。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Now, use Add-ADGroupMember to add a user to the TestGroup.</source>
+          <target state="translated">现在，使用 Add-ADGroupMember 将用户添加到 TestGroup。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Note: make sure you've created the TestGroup beforehand.</source>
+          <target state="translated">注意：请确保事先创建了 TestGroup。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Exit the session:</source>
+          <target state="translated">退出会话：</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Key Concepts</source>
+          <target state="translated">关键概念</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>NoLanguage Mode<ept id="p1">**</ept>: When PowerShell is in "NoLanguage" mode, users may only run commands; they cannot use any language elements.</source>
+          <target state="translated"><bpt id="p1">**</bpt>NoLanguage 模式<ept id="p1">**</ept>：当 PowerShell 处于“NoLanguage”模式时，用户仅能运行命令，而不能使用任何语言元素。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>For more information, run <ph id="ph1">`Get-Help about_Language_Modes`</ph>.</source>
+          <target state="translated">有关详细信息，请运行 <ph id="ph1">`Get-Help about_Language_Modes`</ph>。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>PowerShell Functions<ept id="p1">**</ept>: PowerShell functions are bits of PowerShell code that you can call by name.</source>
+          <target state="translated"><bpt id="p1">**</bpt>PowerShell 函数<ept id="p1">**</ept>：PowerShell 函数是可以按名称调用的小型 PowerShell 代码。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>For more information, run <ph id="ph1">`Get-Help about_Functions`</ph>.</source>
+          <target state="translated">有关详细信息，请运行 <ph id="ph1">`Get-Help about_Functions`</ph>。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>ValidateSet/ValidatePattern<ept id="p1">**</ept>: When exposing a command, you can restrict valid arguments for specific parameters.</source>
+          <target state="translated"><bpt id="p1">**</bpt>ValidateSet/ValidatePattern<ept id="p1">**</ept>：公开命令时，你可以限制特定形参的有效实参。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>A ValidateSet is a specific list of valid arguments.</source>
+          <target state="translated">ValidateSet 是有效实参的特定列表。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>A ValidatePattern is a regular expression that the arguments for that parameter must match.</source>
+          <target state="translated">ValidatePattern 是该形参的实参必须匹配的正则表达式。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

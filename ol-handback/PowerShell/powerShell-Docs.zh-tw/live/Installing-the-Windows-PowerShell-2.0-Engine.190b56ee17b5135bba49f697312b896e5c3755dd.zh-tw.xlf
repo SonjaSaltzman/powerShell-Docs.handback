@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8a61e974e7f7ea479ecc447c2db91c677cd8931f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\setup\Installing-the-Windows-PowerShell-2.0-Engine.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3b89679c289c7dfd3d1dae24cbba24587833f6be</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Installing the Windows PowerShell 2.0 Engine</source>
+          <target state="translated">安裝 Windows PowerShell 2.0 引擎</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="translated">powershell,cmdlet</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Installing the Windows PowerShell 2.0 Engine</source>
+          <target state="translated">安裝 Windows PowerShell 2.0 引擎</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This topic explains how to install the Windows PowerShell 2.0 Engine.</source>
+          <target state="translated">本主題說明如何安裝 Windows PowerShell 2.0 引擎。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell 3.0 is designed to be backwards compatible with Windows PowerShell 2.0.</source>
+          <target state="translated">Windows PowerShell 3.0 已設計為可回溯相容至 Windows PowerShell 2.0。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Cmdlets, providers, snap<ph id="ph1">\-</ph>ins, modules, and scripts written for Windows PowerShell 2.0 run unchanged in Windows PowerShell 3.0 and Windows PowerShell 4.0.</source>
+          <target state="translated">針對 Windows PowerShell 2.0 撰寫的 Cmdlet、提供者、嵌入式管理單元、模組及指令碼，在 Windows PowerShell 3.0 和 Windows PowerShell 4.0 中仍以同樣方式執行。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>However, due to a change in the runtime activation policy in Microsoft .NET Framework 4, Windows PowerShell host programs that were written for Windows PowerShell 2.0 and compiled with Common Language Runtime (CLR) 2.0 cannot run without modification in later releases of Windows PowerShell, which is compiled with CLR 4.0.</source>
+          <target state="translated">不過，因為 Microsoft .NET Framework 4 中執行階段啟用原則的變更，所以在較新版的 Windows PowerShell (使用 CLR 4.0 編譯) 中，必須修改才能執行針對 Windows PowerShell 2.0 所撰寫並使用通用語言執行平台 (CLR) 2.0 編譯的 Windows PowerShell 主機程式。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To maintain backward compatibility with commands and host programs that are affected by these changes, the Windows PowerShell 2.0, Windows PowerShell 3.0, and Windows PowerShell 4.0 engines are designed to run side<ph id="ph1">\-</ph>by<ph id="ph2">\-</ph>side.</source>
+          <target state="translated">為了維持與受到這些變更影響之主機程式的回溯相容性，已將 Windows PowerShell 2.0、Windows PowerShell 3.0 及 Windows PowerShell 4.0 引擎設計為並存執行。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Also, the Windows PowerShell 2.0 Engine is included in Windows Server 2012 R2, Windows 8.1, Windows 8, Windows Server 2012, and Windows Management Framework 3.0.</source>
+          <target state="translated">此外，Windows PowerShell 2.0 引擎隨附於 Windows Server 2012 R2、Windows 8.1、Windows 8、Windows Server 2012 及 Windows Management Framework 3.0 中。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell 2.0 Engine is intended to be used only when an existing script or host program cannot run because it is incompatible with Windows PowerShell 3.0, Windows PowerShell 4.0, or Microsoft .NET Framework 4.</source>
+          <target state="translated">只有在現有指令碼或主機程式無法執行時才會使用 Windows PowerShell 2.0 引擎，因為它與 Windows PowerShell 3.0、Windows PowerShell 4.0 或 Microsoft .NET Framework 4 不相容。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Such cases are expected to be rare.</source>
+          <target state="translated">這種情況應該很少見。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell 2.0 Engine is an optional feature of Windows Server 2012 R2, Windows 8.1, WindowsÂ® 8 and Windows ServerÂ® 2012.</source>
+          <target state="translated">Windows PowerShell 2.0 引擎是 Windows Server 2012 R2、Windows 8.1、Windows® 8 及 Windows Server® 2012 的選用功能。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>On earlier versions of Windows, when you install Windows Management Framework 3.0, the Windows PowerShell 3.0 installation completely replaces the Windows PowerShell 2.0 installation in the Windows PowerShell installation directory.</source>
+          <target state="translated">在舊版 Windows 中，當您安裝 Windows Management Framework 3.0 時，Windows PowerShell 3.0 安裝會完全取代 Windows PowerShell 安裝目錄中的 Windows PowerShell 2.0 安裝。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>However, the Windows PowerShell 2.0 Engine is retained.</source>
+          <target state="translated">不過，會保留 Windows PowerShell 2.0 引擎。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For information about starting the Windows PowerShell 2.0 Engine, see <bpt id="p1">[</bpt>Starting the Windows PowerShell 2.0 Engine<ept id="p1">](Starting-the-Windows-PowerShell-2.0-Engine.md)</ept>.</source>
+          <target state="translated">如需啟動 Windows PowerShell 2.0 引擎的相關資訊，請參閱<bpt id="p1">[</bpt>啟動 Windows PowerShell 2.0 引擎<ept id="p1">](Starting-the-Windows-PowerShell-2.0-Engine.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>On Windows 8.1 and Windows 8</source>
+          <target state="translated">在 Windows 8.1 和 Windows 8 上</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>On Windows 8.1 and Windows 8, the Windows PowerShell 2.0 Engine feature is turned on by default.</source>
+          <target state="translated">在 Windows 8.1 和 Windows 8 上，預設會開啟 Windows PowerShell 2.0 引擎功能。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>However, to use it, you need to turn on the option for Microsoft .NET Framework 3.5, which it requires.</source>
+          <target state="translated">不過若要使用，則必須開啟所需的 Microsoft .NET Framework 3.5 選項。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This section also explains how to turn the Windows PowerShell 2.0 Engine feature on and off.</source>
+          <target state="translated">本節也會說明如何開啟及關閉 Windows PowerShell 2.0 引擎功能。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To turn on .NET Framework 3.5</source>
+          <target state="translated">開啟 .NET Framework 3.5</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> screen, type <bpt id="p2">**</bpt>Windows Features<ept id="p2">**</ept>.</source>
+          <target state="translated">在 <bpt id="p1">**</bpt>[開始]<ept id="p1">**</ept> 畫面上，輸入 <bpt id="p2">**</bpt>Windows 功能<ept id="p2">**</ept>。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Apps<ept id="p1">**</ept> bar, click <bpt id="p2">**</bpt>Settings<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>Turn Windows features on or off<ept id="p3">**</ept>.</source>
+          <target state="translated">在 <bpt id="p1">**</bpt>[應用程式]<ept id="p1">**</ept> 列中按一下 <bpt id="p2">**</bpt>[設定]<ept id="p2">**</ept>，然後按一下 <bpt id="p3">**</bpt>[開啟或關閉 Windows 功能]<ept id="p3">**</ept>。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Windows Features<ept id="p1">**</ept> box, click <bpt id="p2">**</bpt>.NET Framework 3.5 (includes .NET 2.0 and 3.0<ept id="p2">**</ept> to select it.</source>
+          <target state="translated">在 <bpt id="p1">**</bpt>[Windows 功能]<ept id="p1">**</ept> 方塊中，按一下 <bpt id="p2">**</bpt>[.NET Framework 3.5 (包括 .NET 2.0 和 3.0)]<ept id="p2">**</ept> 加以選取。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>When you select <bpt id="p1">**</bpt>.NET Framework 3.5 (includes .NET 2.0 and 3.0<ept id="p1">**</ept>, the box fills to indicate that only part of the feature is selected.</source>
+          <target state="translated">當您選取 <bpt id="p1">**</bpt>[.NET Framework 3.5 (包括 .NET 2.0 和 3.0)]<ept id="p1">**</ept> 時，會填入方塊中以指出僅選取部分功能。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>However, this is sufficient for the Windows PowerShell 2.0 Engine.</source>
+          <target state="translated">不過，這樣已足以應付 Windows PowerShell 2.0 引擎。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To turn the Windows PowerShell 2.0 Engine on and off</source>
+          <target state="translated">啟動和關閉 Windows PowerShell 2.0 引擎</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> screen, type <bpt id="p2">**</bpt>Windows Features<ept id="p2">**</ept>.</source>
+          <target state="translated">在 <bpt id="p1">**</bpt>[開始]<ept id="p1">**</ept> 畫面上，輸入 <bpt id="p2">**</bpt>Windows 功能<ept id="p2">**</ept>。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Apps<ept id="p1">**</ept> bar, click <bpt id="p2">**</bpt>Settings<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>Turn Windows features on or off<ept id="p3">**</ept>.</source>
+          <target state="translated">在 <bpt id="p1">**</bpt>[應用程式]<ept id="p1">**</ept> 列中按一下 <bpt id="p2">**</bpt>[設定]<ept id="p2">**</ept>，然後按一下 <bpt id="p3">**</bpt>[開啟或關閉 Windows 功能]<ept id="p3">**</ept>。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Windows Features<ept id="p1">**</ept> box, expand the <bpt id="p2">**</bpt>Windows PowerShell 2.0<ept id="p2">**</ept> node, and click the <bpt id="p3">**</bpt>Windows PowerShell 2.0 Engine<ept id="p3">**</ept> box to select or clear it.</source>
+          <target state="translated">在 [Windows 功能] 方塊中，展開 [Windows PowerShell 2.0] 節點，然後按一下 [Windows PowerShell 2.0 引擎] 方塊加以選取或清除。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>On Windows Server 2012 R2 and Windows Server 2012</source>
+          <target state="translated">在 Windows Server 2012 R2 和 Windows Server 2012 上</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Use the following procedures to add the Windows PowerShell 2.0 Engine and Microsoft .NET Framework 3.5 features.</source>
+          <target state="translated">使用下列程序來新增 Windows PowerShell 2.0 引擎和 Microsoft .NET Framework 3.5 功能。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell 2.0 Engine requires Microsoft .NET Framework 2.0.50727 at a minimum.</source>
+          <target state="translated">Windows PowerShell 2.0 引擎至少需要 Microsoft .NET Framework 2.0.50727。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This requirement is fulfilled by Microsoft .NET Framework 3.5.</source>
+          <target state="translated">Microsoft .NET Framework 3.5 可完成這項需求。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To add the .NET Framework 3.5 feature</source>
+          <target state="translated">新增 .NET Framework 3.5 功能</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>In <bpt id="p1">**</bpt>Server Manager<ept id="p1">**</ept>, from the <bpt id="p2">**</bpt>Manage<ept id="p2">**</ept> menu, select <bpt id="p3">**</bpt>Add Roles and Features<ept id="p3">**</ept>.</source>
+          <target state="translated">在 <bpt id="p1">**</bpt>[伺服器管理員]<ept id="p1">**</ept> 中，從 <bpt id="p2">**</bpt>[管理]<ept id="p2">**</ept> 功能表選取 <bpt id="p3">**</bpt>[新增角色及功能]<ept id="p3">**</ept>。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Or in <bpt id="p1">**</bpt>Server Manager<ept id="p1">**</ept>, click <bpt id="p2">**</bpt>All Servers<ept id="p2">**</ept>, right<ph id="ph1">\-</ph>click a server name, and then select <bpt id="p3">**</bpt>Add Roles and Features<ept id="p3">**</ept>.</source>
+          <target state="translated">在 <bpt id="p1">**</bpt>[伺服器管理員]<ept id="p1">**</ept> 中，按一下 <bpt id="p2">**</bpt>[所有伺服器]<ept id="p2">**</ept>，以滑鼠右鍵按一下伺服器名稱，然後選取 <bpt id="p3">**</bpt>[新增角色及功能]<ept id="p3">**</ept>。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Installation Type<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>Role<ph id="ph1">\-</ph>based or feature<ph id="ph2">\-</ph>based installation<ept id="p2">**</ept>.</source>
+          <target state="translated">在 <bpt id="p1">**</bpt>[安裝類型]<ept id="p1">**</ept> 頁面上，選取 <bpt id="p2">**</bpt>[角色型或功能型安裝]<ept id="p2">**</ept>。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Features<ept id="p1">**</ept> page, expand the <bpt id="p2">**</bpt>.NET 3.5 Framework Features<ept id="p2">**</ept> node and select <bpt id="p3">**</bpt>.NET Framework 3.5 (includes .NET 2.0 and 3.0)<ept id="p3">**</ept>.</source>
+          <target state="translated">在 <bpt id="p1">**</bpt>[功能]<ept id="p1">**</ept> 頁面上，展開 <bpt id="p2">**</bpt>[.NET 3.5 Framework 功能]<ept id="p2">**</ept> 節點，然後選取 <bpt id="p3">**</bpt>[.NET Framework 3.5 (包括 .NET 2.0 和 3.0)]<ept id="p3">**</ept>。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The other options under that node are not required for the Windows PowerShell 2.0 Engine.</source>
+          <target state="translated">Windows PowerShell 2.0 引擎不需要該節點下方的其他選項。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To add the Windows PowerShell 2.0 Engine feature</source>
+          <target state="translated">新增 Windows PowerShell 2.0 引擎功能</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>In <bpt id="p1">**</bpt>Server Manager<ept id="p1">**</ept>, from the <bpt id="p2">**</bpt>Manage<ept id="p2">**</ept> menu, select <bpt id="p3">**</bpt>Add Roles and Features<ept id="p3">**</ept>.</source>
+          <target state="translated">在 <bpt id="p1">**</bpt>[伺服器管理員]<ept id="p1">**</ept> 中，從 <bpt id="p2">**</bpt>[管理]<ept id="p2">**</ept> 功能表選取 <bpt id="p3">**</bpt>[新增角色及功能]<ept id="p3">**</ept>。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Or <bpt id="p1">**</bpt>Server Manager<ept id="p1">**</ept>, click <bpt id="p2">**</bpt>All Servers<ept id="p2">**</ept>, right<ph id="ph1">\-</ph>click a server name, and then select <bpt id="p3">**</bpt>Add Roles and Features<ept id="p3">**</ept>.</source>
+          <target state="translated">在 <bpt id="p1">**</bpt>[伺服器管理員]<ept id="p1">**</ept> 中，按一下 <bpt id="p2">**</bpt>[所有伺服器]<ept id="p2">**</ept>，以滑鼠右鍵按一下伺服器名稱，然後選取 <bpt id="p3">**</bpt>[新增角色及功能]<ept id="p3">**</ept>。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Installation Type<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>Role<ph id="ph1">\-</ph>based or feature<ph id="ph2">\-</ph>based installation<ept id="p2">**</ept>.</source>
+          <target state="translated">在 <bpt id="p1">**</bpt>[安裝類型]<ept id="p1">**</ept> 頁面上，選取 <bpt id="p2">**</bpt>[角色型或功能型安裝]<ept id="p2">**</ept>。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Features<ept id="p1">**</ept> page, expand the <bpt id="p2">**</bpt>Windows PowerShell (Installed)<ept id="p2">**</ept> node and select <bpt id="p3">**</bpt>Windows PowerShell 2.0 Engine<ept id="p3">**</ept>.</source>
+          <target state="translated">在 <bpt id="p1">**</bpt>[功能]<ept id="p1">**</ept> 頁面上，展開 <bpt id="p2">**</bpt>[Windows PowerShell (Installed) (Windows PowerShell (已安裝))]<ept id="p2">**</ept> 節點，然後選取 <bpt id="p3">**</bpt>[Windows PowerShell 2.0 引擎]<ept id="p3">**</ept>。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For information about starting the Windows PowerShell 2.0 Engine, see <bpt id="p1">[</bpt>Starting the Windows PowerShell 2.0 Engine<ept id="p1">](Starting-the-Windows-PowerShell-2.0-Engine.md)</ept>.</source>
+          <target state="translated">如需啟動 Windows PowerShell 2.0 引擎的相關資訊，請參閱<bpt id="p1">[</bpt>啟動 Windows PowerShell 2.0 引擎<ept id="p1">](Starting-the-Windows-PowerShell-2.0-Engine.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>On Earlier Systems</source>
+          <target state="translated">在舊版系統上</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">[</bpt>Windows Management Framework 4.0<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=293881)</ept> package that installs Windows PowerShell 4.0 on Windows 7, Windows Server 2008 R2, and Windows Server 2012, includes the Windows PowerShell 2.0 Engine.</source>
+          <target state="translated">在 Windows 7、Windows Server 2008 R2 和 Windows Server 2012 上安裝 Windows PowerShell 4.0 的 <bpt id="p1">[</bpt>Windows Management Framework 4.0<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=293881)</ept> 套件會包含 Windows PowerShell 2.0 引擎。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell 2.0 Engine is enabled and ready to use, if necessary, without additional installation, setup, or configuration.</source>
+          <target state="translated">Windows PowerShell 2.0 引擎可視需要啟用並開始使用，而不需要額外的安裝、設定或組態。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The Windows Management Framework 3.0 package that installs Windows PowerShell 3.0 on Windows 7, Windows Server 2008 R2, and Windows Server 2008, includes the Windows PowerShell 2.0 Engine.</source>
+          <target state="translated">在 Windows 7、Windows Server 2008 R2 和 Windows Server 2008 上安裝 Windows PowerShell 3.0 的 Windows Management Framework 3.0 套件會包含 Windows PowerShell 2.0 引擎。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell 2.0 Engine is enabled and ready to use, if necessary, without additional installation, setup, or configuration.</source>
+          <target state="translated">Windows PowerShell 2.0 引擎可視需要啟用並開始使用，而不需要額外的安裝、設定或組態。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">另請參閱</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Windows PowerShell System Requirements<ept id="p1">](Windows-PowerShell-System-Requirements.md)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Installing Windows PowerShell<ept id="p2">](Installing-Windows-PowerShell.md)</ept><ph id="ph2">
+</ph><bpt id="p3">[</bpt>Starting Windows PowerShell [ps]<ept id="p3">](https://technet.microsoft.com/en-us/library/8ec8c2d7-8e7c-4722-a3d2-498fe5739a8e)</ept><ph id="ph3">
+</ph><bpt id="p4">[</bpt>Starting the Windows PowerShell 2.0 Engine<ept id="p4">](Starting-the-Windows-PowerShell-2.0-Engine.md)</ept></source>
+          <target state="translated"><bpt id="p1">[</bpt>Windows PowerShell 系統需求<ept id="p1">](Windows-PowerShell-System-Requirements.md)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>安裝 Windows PowerShell<ept id="p2">](Installing-Windows-PowerShell.md)</ept><ph id="ph2">
+</ph><bpt id="p3">[</bpt>啟動 Windows PowerShell [ps]<ept id="p3">](https://technet.microsoft.com/en-us/library/8ec8c2d7-8e7c-4722-a3d2-498fe5739a8e)</ept><ph id="ph3">
+</ph><bpt id="p4">[</bpt>啟動 Windows PowerShell 2.0 引擎<ept id="p4">](Starting-the-Windows-PowerShell-2.0-Engine.md)</ept></target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
