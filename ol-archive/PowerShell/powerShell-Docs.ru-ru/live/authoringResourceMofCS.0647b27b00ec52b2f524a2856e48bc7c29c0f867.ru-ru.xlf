@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">991a324945289b2eff0b706d093b2d345352fb15</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\authoringResourceMofCS.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">79476d1d24e53292ef18c84074442fd4a46d7e59</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Authoring a DSC resource in C`</source>
+          <target state="translated">Создание ресурса DSC на языке C`</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,DSC</source>
+          <target state="translated">powershell,DSC</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Authoring a DSC resource in C</source>
+          <target state="translated">Создание ресурса DSC на языке C</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</source>
+          <target state="translated">Область применения: Windows PowerShell 4.0, Windows PowerShell 5.0</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Typically, a Windows PowerShell Desired State Configuration (DSC) custom resource is implemented in a PowerShell script.</source>
+          <target state="translated">Как правило, настраиваемый ресурс настройки требуемого состояния (DSC) Windows PowerShell реализуется в сценарии PowerShell.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>However, you can also implement the functionality of a DSC custom resource by writing cmdlets in C#.</source>
+          <target state="translated">Кроме того, для реализации настраиваемого ресурса DSC можно писать командлеты на языке C#.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For an introduction on writing cmdlets in C#, see <bpt id="p1">[</bpt>Writing a Windows PowerShell Cmdlet<ept id="p1">](https://technet.microsoft.com/en-us/library/dd878294.aspx)</ept>.</source>
+          <target state="translated">Вводные сведения о написании командлетов на языке C# см. в статье <bpt id="p1">[</bpt>Написание командлетов Windows PowerShell<ept id="p1">](https://technet.microsoft.com/en-us/library/dd878294.aspx)</ept>.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Aside from implementing the resource in C# as cmdlets, the process of creating the MOF schema, creating the folder structure, importing and using your custom DSC resource are the same as described in <bpt id="p1">[</bpt>Writing a custom DSC resource with MOF<ept id="p1">](authoringResourceMOF.md)</ept>.</source>
+          <target state="translated">Процесс создания схемы MOF и структуры папок, импорт и применения настраиваемого ресурса DSC (кроме реализации ресурса на языке C# в форме командлетов) соответствует описанию в статье <bpt id="p1">[</bpt>Написание пользовательских ресурсов DSC с использованием MOF<ept id="p1">](authoringResourceMOF.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Writing a cmdlet-based resource</source>
+          <target state="translated">Создание ресурса на основе командлетов</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For this example, we will implement a simple resource that manages a text file and its contents.</source>
+          <target state="translated">В этом примере мы реализуем простой ресурс, управляющий текстовым файлом и его содержимым.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Writing the MOF schema</source>
+          <target state="translated">Создание схемы MOF</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The following is the MOF resource definition.</source>
+          <target state="translated">Ниже дано определение ресурса MOF.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Setting up the Visual Studio project</source>
+          <target state="translated">Настройка проекта Visual Studio</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Setting up a cmdlet project</source>
+          <target state="translated">Настройка проекта командлета</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Open Visual Studio.</source>
+          <target state="translated">Откройте Visual Studio.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Create a C# project and provide the name.</source>
+          <target state="translated">Создайте проект C# и укажите имя.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Class Library<ept id="p1">**</ept> from the available project templates.</source>
+          <target state="translated">Выберите в списке доступных шаблонов проектов <bpt id="p1">**</bpt>библиотеку классов<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Ok<ept id="p1">**</ept>.</source>
+          <target state="translated">Нажмите кнопку <bpt id="p1">**</bpt>ОК<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Add an assembly reference to System.Automation.Management.dll to your project.</source>
+          <target state="translated">Добавьте в проект ссылку на сборку System.Automation.Management.dll.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Change the assembly name to match the resource name.</source>
+          <target state="translated">Измените имя сборки в соответствии с именем ресурса.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In this case, the assembly should be named <bpt id="p1">**</bpt>MSFT_XDemoFile<ept id="p1">**</ept>.</source>
+          <target state="translated">В данном случае сборка должна называться <bpt id="p1">**</bpt>MSFT_XDemoFile<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Writing the cmdlet code</source>
+          <target state="translated">Написание кода командлета</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The following C# code implements the <bpt id="p1">**</bpt>Get-TargetResource<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Set-TargetResource<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Test-TargetResource<ept id="p3">**</ept> cmdlets.</source>
+          <target state="translated">Следующий код на языке C# реализует командлеты <bpt id="p1">**</bpt>Get-TargetResource<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Set-TargetResource<ept id="p2">**</ept> и <bpt id="p3">**</bpt>Test-TargetResource<ept id="p3">**</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Deploying the resource</source>
+          <target state="translated">Развертывание ресурса</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The compiled dll file should be saved in a file structure similar to a script-based resource.</source>
+          <target state="translated">Скомпилированный DLL-файл необходимо сохранить в структуре файлов аналогично ресурсу на основе сценария.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The following is the folder structure for this resource.</source>
+          <target state="translated">Ниже показана структура папок для этого ресурса.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">См. также</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Concepts</source>
+          <target state="translated">Концепции</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Writing a custom DSC resource with MOF</source>
+          <target state="translated">Написание пользовательских ресурсов DSC с использованием MOF</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Other Resources</source>
+          <target state="translated">Прочие ресурсы</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Writing a Windows PowerShell Cmdlet</source>
+          <target state="translated">Запись командлета Windows PowerShell</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

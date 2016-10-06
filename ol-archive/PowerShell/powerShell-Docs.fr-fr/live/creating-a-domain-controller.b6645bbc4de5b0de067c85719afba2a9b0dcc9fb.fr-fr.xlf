@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="fr-fr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8473eb668e4da5bab01c2f2b7647cbced413bd22</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">jea\creating-a-domain-controller.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8238f96118c02124e24d399136d3bdaa90ea2d71</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet,jea</source>
+          <target state="translated">powershell,applet de commande,jea</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>creating a domain controller</source>
+          <target state="translated">création d’un contrôleur de domaine</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Creating a Domain Controller</source>
+          <target state="translated">Création d’un contrôleur de domaine</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This document assumes that your machine is domain joined.</source>
+          <target state="translated">Ce document part du principe que votre ordinateur est joint à un domaine.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If you currently don't have a domain to join, this section can help you quickly stand up a domain controller using DSC.</source>
+          <target state="translated">Si vous n’avez pas de domaine à rejoindre, cette section peut vous aider à rapidement mettre en place un contrôleur de domaine à l’aide de DSC.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+          <target state="translated">Conditions préalables</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The machine is on an internal network</source>
+          <target state="translated">L’ordinateur se trouve sur un réseau interne.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The machine is not joined to an existing domain</source>
+          <target state="translated">L’ordinateur n’est pas joint à un domaine existant.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The machine is running Windows Server 2016 or has WMF 5.0 installed</source>
+          <target state="translated">L’ordinateur exécute Windows Server 2016 ou WMF 5.0 y est installé.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Install xActiveDirectory</source>
+          <target state="translated">Installer xActiveDirectory</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If your machine has an active internet connection, run the following command in an elevated PowerShell window:</source>
+          <target state="translated">Si votre ordinateur a une connexion Internet active, exécutez la commande suivante dans une fenêtre PowerShell avec élévation de privilèges :</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If you do not have an internet connection, install xActiveDirectory to another machine and then copy the xActiveDirectory folder to the "C:\Program Files\WindowsPowerShell\Modules" folder on your machine.</source>
+          <target state="translated">Si vous n’avez pas de connexion Internet, installez xActiveDirectory sur un autre ordinateur, puis copiez le dossier xActiveDirectory dans le dossier « C:\Program Files\WindowsPowerShell\Modules » sur votre ordinateur.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To confirm the installation succeeded, run the following command:</source>
+          <target state="translated">Pour confirmer la réussite de l’installation, exécutez la commande suivante :</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Set up a domain with DSC</source>
+          <target state="translated">Configurer un domaine avec DSC</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Copy the following script in PowerShell to make your machine a Domain Controller in a new domain.</source>
+          <target state="translated">Copiez le script suivant dans PowerShell pour que votre ordinateur devienne un contrôleur de domaine dans un nouveau domaine.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>AUTHOR'S NOTE: THERE IS A KNOWN ISSUE WITH THE CREDENTIALS PROVIDED NOT BEING USED.</source>
+          <target state="translated">NOTE DE L’AUTEUR : IL EXISTE UN PROBLÈME CONNU LIÉ AUX INFORMATIONS D’IDENTIFICATION FOURNIES QUI NE SONT PAS UTILISÉES.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>TO BE SAFE, DON'T FORGET YOUR LOCAL ADMIN PASSWORD.</source>
+          <target state="translated">POUR PLUS DE SÉCURITÉ, N’OUBLIEZ PAS VOTRE MOT DE PASSE D’ADMINISTRATEUR LOCAL.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Your machine will restart a few times.</source>
+          <target state="translated">Votre ordinateur va redémarrer plusieurs fois.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You will know the process is complete once you see a file called "C:\temp.txt" containing "Domain has been created."</source>
+          <target state="translated">Vous savez que le processus est terminé une fois que vous voyez un fichier appelé « C:\temp.txt » indiquant que le domaine a été créé.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Set up Users and Groups</source>
+          <target state="translated">Configurer des utilisateurs et groupes</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The following commands will set up an Operator and Helpdesk group in your domain and a corresponding non-administrator user who is a member of that group.</source>
+          <target state="translated">Les commandes suivantes configurent un groupe Opérateur et support technique dans votre domaine et un utilisateur non-administrateur correspondant qui est membre de ce groupe.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

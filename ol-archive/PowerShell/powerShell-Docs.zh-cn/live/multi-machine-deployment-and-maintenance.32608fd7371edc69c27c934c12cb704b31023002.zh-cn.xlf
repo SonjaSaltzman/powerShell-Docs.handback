@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">784806197a64eb30af1ecea4af55575434ce7b87</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">jea\multi-machine-deployment-and-maintenance.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">93265ab50248e37b80c8e047beb3822d73bb114c</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet,jea</source>
+          <target state="translated">powershell,cmdlet,jea</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>multi machine deployment and maintenance</source>
+          <target state="translated">多计算机部署和维护</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Multi-machine Deployment and Maintenance</source>
+          <target state="translated">多计算机部署和维护</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>At this point, you have deployed JEA to local systems several times.</source>
+          <target state="translated">此时，你已多次将 JEA 部署到本地系统。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Because your production environment probably consists of more than one machine, it's important to walk through the critical steps in the deployment process that must be repeated on each machine.</source>
+          <target state="translated">因为你的生产环境可能由多台计算机组成，因此请务必演练部署过程中必须在每台计算机上重复的关键步骤。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>High Level Steps:</source>
+          <target state="translated">大致步骤：</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Copy your modules (with Role Capabilities) to each node.</source>
+          <target state="translated">将你的模块（及角色功能）复制到每个节点。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Copy your session configuration files to each node.</source>
+          <target state="translated">将你的会话配置文件复制到每个节点。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Run <ph id="ph1">`Register-PSSessionConfiguration`</ph> with your session configuration.</source>
+          <target state="translated">使用你的会话配置运行 <ph id="ph1">`Register-PSSessionConfiguration`</ph>。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Keep a copy of your session configuration and toolkits in a secure location.</source>
+          <target state="translated">在安全的位置保留会话配置和工具包的一份副本。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>As you make modifications, it's good to have a "single source of truth."</source>
+          <target state="translated">进行修改时，最好拥有“单一事实来源”。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Example Script</source>
+          <target state="translated">示例脚本</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Here's an example script for deployment.</source>
+          <target state="translated">以下是部署的一个示例脚本。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To use it in your environment, you'll have to use the names/paths of real file shares and modules.</source>
+          <target state="translated">若要在你的环境中使用它，需使用实际文件共享和模块的名称/路径。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Modifying Capabilities</source>
+          <target state="translated">修改功能</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When dealing with many machines, it's important that modifications are rolled out in a consistent manner.</source>
+          <target state="translated">当处理多台计算机时，请务必以一致的方式推行修改。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Once JEA has a DSC Resource, this will help ensure your environment is in sync.</source>
+          <target state="translated">JEA 拥有 DSC 资源时，这将帮助确保你的环境保持同步。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Until that time, we highly recommend you keep a master copy of your session configurations and re-deploy each time you make a modification.</source>
+          <target state="translated">在此之前，我们强烈建议你保留会话配置的主副本，并在每次修改后进行重新部署。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Removing Capabilities</source>
+          <target state="translated">删除功能</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To remove your JEA configuration from your systems, use the following command on each machine:</source>
+          <target state="translated">若要从系统中删除 JEA 配置，请在每台计算机上使用以下命令：</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

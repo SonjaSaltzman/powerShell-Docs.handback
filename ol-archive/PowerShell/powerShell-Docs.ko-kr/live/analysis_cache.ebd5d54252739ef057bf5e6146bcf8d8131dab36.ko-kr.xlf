@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3e5d5e93231b772b65d1913a4dbafc86d4edb950</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\features-scenarios-cache\analysis_cache.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a88e7ab5b9fc84378df1dce46c2b3fdadf5e9fba</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Module Analysis Cache</source>
+          <target state="translated">모듈 분석 캐시</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Starting with version 5.1, PowerShell provides the following control over the file that is used to cache data about a module like the commands it exports.</source>
+          <target state="translated">버전 5.1부터 PowerShell에서는 내보내는 명령과 같은 모듈에 대한 데이터를 캐시하는 데 사용되는 파일을 다음과 같이 제어할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>By default, this cache is stored in the file <ph id="ph1">`${env:LOCALAPPDATA}\Microsoft\Windows\PowerShell\ModuleAnalysisCache`</ph>.</source>
+          <target state="translated">기본적으로 이 캐시 파일은 <ph id="ph1">`${env:LOCALAPPDATA}\Microsoft\Windows\PowerShell\ModuleAnalysisCache`</ph> 파일에 저장됩니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The cache is typically read at startup while searching for a command and is written on a background thread sometime after a module is imported.</source>
+          <target state="translated">일반적으로 이 캐시는 시작 시 명령을 검색할 때 읽으며 모듈을 가져오고 잠시 후에 백그라운드 스레드에서 기록됩니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To change the default location of the cache, set the environment variable PSModuleAnalysisCachePath before starting PowerShell.</source>
+          <target state="translated">캐시의 기본 위치를 변경하려면 PowerShell을 시작하기 전에 PSModuleAnalysisCachePath 환경 변수를 설정합니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Changes to this environment variable will only affect children processes.</source>
+          <target state="translated">이 환경 변수의 변경 내용은 자식 프로세스에만 적용됩니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The value should name a full path (including filename) that PowerShell has permission to create and write files.</source>
+          <target state="translated">PowerShell이 파일을 만들고 쓸 수 있는 전체 경로(파일 이름 포함)를 값으로 지정해야 합니다.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To disable the file cache - this value can be set to an invalid location, for example</source>
+          <target state="translated">파일 캐시를 사용하지 않도록 설정하려면 이 값을 다음과 같은 잘못된 위치로 설정할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This sets the path to an invalid device.</source>
+          <target state="translated">이렇게 하면 잘못된 장치에 대한 경로가 설정됩니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>No error if PowerShell can't write to the path, though you can see an error reporting via a tracer:</source>
+          <target state="translated">PowerShell에서 경로에 쓸 수 없는 경우 오류가 발생하지 않지만 추적 프로그램을 오류 보고가 표시될 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>When writing out the cache, PowerShell will check for modules that no longer exist to avoid an unnecessarily large cache.</source>
+          <target state="translated">캐시를 쓸 때 PowerShell에서는 캐시가 불필요하게 커지지 않도록 더 이상 없는 모듈을 확인합니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Sometimes these checks are not desirable, in which case you can turn them off by setting</source>
+          <target state="translated">때론 이러한 확인이 필요하지 않을 수도 있으며, 이 경우 다음을 설정하여 확인을 끌 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Setting this environment variable will take effect immediately in the current process.</source>
+          <target state="translated">이 환경 변수를 설정하면 현재 프로세스에 즉시 적용됩니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
