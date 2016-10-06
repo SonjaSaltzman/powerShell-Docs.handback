@@ -6,21 +6,21 @@
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [wmf\5.1\compatibility.md](https://github.com/PowerShell/powerShell-Docs/blob/1f6f18e46537d4b9f5e64c9e808e46e82b2d3050/wmf/5.1/compatibility.md) | InSyncHandedBackSuccess | [Details](#8e7dd69fc5ba29e719aec353afcac2471ecb2352406)
+ [scripting\getting-started\understanding-concepts-reference.md](https://github.com/PowerShell/powerShell-Docs/blob/119b4d50423498e08383f02e56ae76653d06e555/scripting/getting-started/understanding-concepts-reference.md) | InSyncHandedBackSuccess | [Details](#e3cac149d549400b6a180b4a4fd6ff1a13a8130b305)
 
 ## Item Details
-##### <a name='8e7dd69fc5ba29e719aec353afcac2471ecb2352406'></a> Source: [wmf\5.1\compatibility.md](https://github.com/PowerShell/powerShell-Docs/blob/1f6f18e46537d4b9f5e64c9e808e46e82b2d3050/wmf/5.1/compatibility.md)
+##### <a name='e3cac149d549400b6a180b4a4fd6ff1a13a8130b305'></a> Source: [scripting\getting-started\understanding-concepts-reference.md](https://github.com/PowerShell/powerShell-Docs/blob/119b4d50423498e08383f02e56ae76653d06e555/scripting/getting-started/understanding-concepts-reference.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [wmf\5.1\compatibility.md](https://github.com/PowerShell/powerShell-Docs.ru-ru/blob/cd060a1baf844323037d7249c2d88cdab496284d/wmf/5.1/compatibility.md)
-* Handoff File: [compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/5a684a0d7d10dfbf2eb87bcdfac35d48aebab527/ol-handoff/PowerShell/powerShell-Docs.ru-ru/live/compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.ru-ru.xlf)
-* Handoff Datetime: 2016-08-18 01:37:52
+* Target File: [scripting\getting-started\understanding-concepts-reference.md](https://github.com/PowerShell/powerShell-Docs.ru-ru/blob/162e5ddd7c324b4993f6bc08316a2b15dd6a58fc/scripting/getting-started/understanding-concepts-reference.md)
+* Handoff File: [understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/fecf373813f6d17eb190c2d36f73f4e0e7d667a6/ol-handoff/PowerShell/powerShell-Docs.ru-ru/live/understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.ru-ru.xlf)
+* Handoff Datetime: 2016-09-30 18:17:15
 * Handoff Reason: Include
-* Archive File: [compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/b4725f9dbdd6581843e0380da9efc0dbfb3524e7/ol-archive/PowerShell/powerShell-Docs.ru-ru/live/compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.ru-ru.xlf)
-* Archive Datetime: 2016-08-23 13:37:55
-* Handback File: [compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ba87062f45119382df897391c6bc17d8c8ab442a/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.ru-ru.xlf)
-* Handback Datetime: 2016-10-06 08:08:45
-* Bilingual File: [compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ba87062f45119382df897391c6bc17d8c8ab442a/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.ru-ru.xlf)
-* Bilingual Datetime: 2016-10-06 08:09:50
+* Archive File: [understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/3135671af1175ddf9b49c5acc54999cc93116b6d/ol-archive/PowerShell/powerShell-Docs.ru-ru/live/understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.ru-ru.xlf)
+* Archive Datetime: 2016-10-04 13:20:10
+* Handback File: [understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ab6205da42a28966909d5e8ce668550a72ad54a1/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.ru-ru.xlf)
+* Handback Datetime: 2016-10-06 08:20:37
+* Bilingual File: [understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ab6205da42a28966909d5e8ce668550a72ad54a1/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.ru-ru.xlf)
+* Bilingual Datetime: 2016-10-06 08:22:23
 * [Back to Top](#report-top)
 
 
