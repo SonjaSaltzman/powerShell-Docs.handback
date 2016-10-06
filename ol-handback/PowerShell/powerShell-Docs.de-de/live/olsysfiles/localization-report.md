@@ -6025,6 +6025,8 @@
 * Archive Datetime: 2016-08-23 13:32:01
 * Handback File: [compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/68212acce283e19b73957c40ca3147c17e37e607/ol-handback/PowerShell/powerShell-Docs.de-de/live/compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.de-de.xlf)
 * Handback Datetime: 2016-10-06 08:21:16
+* Bilingual File: [compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/68212acce283e19b73957c40ca3147c17e37e607/ol-handback/PowerShell/powerShell-Docs.de-de/live/compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.de-de.xlf)
+* Bilingual Datetime: 2016-10-06 08:21:54
 * [Back to Top](#report-top)
 
 ##### <a name='2a17fdd4092adf734398f38bec915d53c1b3e566407'></a> Source: [wmf\5.1\console-improvements.md](https://github.com/PowerShell/powerShell-Docs/blob/749c1ca8bc617014dffacecce7d14a55adc38036/wmf/5.1/console-improvements.md)
