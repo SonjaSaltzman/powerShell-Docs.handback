@@ -7,10 +7,10 @@
 [ Handoff Failed Files ](#handoff-failed-list)| 0
 [ Handoff Success Files ](#handoff-success-list)| 1
 [ Archive Failed Files ](#archive-failed-list)| 0
-[ Archive Success Files ](#archive-success-list)| 52
+[ Archive Success Files ](#archive-success-list)| 51
 [ Handback Failed Files ](#handback-failed-list)| 5
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
-[ In Sync Handback Files ](#insync-handback-success-list)| 358
+[ In Sync Handback Files ](#insync-handback-success-list)| 359
 [ Ignored Files ](#ignored-list)| 40
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
@@ -71,7 +71,6 @@
  [gallery\psget\script\scriptwithpseditionsupport.md](https://github.com/PowerShell/powerShell-Docs/blob/30c768cca998dbe456a37458ee7f0beb4e5f5621/gallery/psget/script/scriptwithpseditionsupport.md) | ArchivedSuccess | [Details](#8c47b455227ebdc4b955cd0c83c0283781339192170)
  [scripting\core-powershell\core-modules.md](https://github.com/PowerShell/powerShell-Docs/blob/ab536969fac8ded0e540da3eb138448b4f444f67/scripting/core-powershell/core-modules.md) | ArchivedSuccess | [Details](#3bee547fc53d1164d3cbf17f033083d4f1099ae7194)
  [scripting\core-powershell\core-powershell.md](https://github.com/PowerShell/powerShell-Docs/blob/ab536969fac8ded0e540da3eb138448b4f444f67/scripting/core-powershell/core-powershell.md) | ArchivedSuccess | [Details](#c8f97c3b565e0718b38a8e62a2b9cb9558451fc5211)
- [scripting\getting-started\understanding-concepts-reference.md](https://github.com/PowerShell/powerShell-Docs/blob/119b4d50423498e08383f02e56ae76653d06e555/scripting/getting-started/understanding-concepts-reference.md) | ArchivedSuccess | [Details](#e3cac149d549400b6a180b4a4fd6ff1a13a8130b305)
  [scripting\PowerShell-Scripting.md](https://github.com/PowerShell/powerShell-Docs/blob/b38cfd053cc2356fa7ca99605dbd84190d342327/scripting/PowerShell-Scripting.md) | ArchivedSuccess | [Details](#fc6307be4dafb378350b6d9667b2b6aca0e2e6d4307)
  [wmf\5.1\features-scenarios-cache\DSCPartialConfigNaming.md](https://github.com/PowerShell/powerShell-Docs/blob/dfa487a11528e26faf5b0e8637b75983abe0b1c8/wmf/5.1/features-scenarios-cache/DSCPartialConfigNaming.md) | ArchivedSuccess | [Details](#368c26766961e760fd2de8c99057121bea076158414)
  [wmf\5.1\features-scenarios-cache\DSCSigningValidations.md](https://github.com/PowerShell/powerShell-Docs/blob/5c97ca6e93d31aaffc7e2207facc7658ee36dfb4/wmf/5.1/features-scenarios-cache/DSCSigningValidations.md) | ArchivedSuccess | [Details](#817fadb79716e41ce8cc8f4245dedc66347ac413416)
@@ -328,6 +327,7 @@
  [scripting\getting-started\Getting-Ready-to-Use-Windows-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/Getting-Ready-to-Use-Windows-PowerShell.md) | InSyncHandedBackSuccess | [Details](#52d55ff10a9118bea2a34a53452fd252d1e17580302)
  [scripting\getting-started\Getting-Started-with-Windows-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/Getting-Started-with-Windows-PowerShell.md) | InSyncHandedBackSuccess | [Details](#a031bad99e8aca1d7598f99e157723bf4360cf56303)
  [scripting\getting-started\more-powershell-learning.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/getting-started/more-powershell-learning.md) | InSyncHandedBackSuccess | [Details](#05205ff8fcf0a3b23e66a6ac756be0d9a5055bd2304)
+ [scripting\getting-started\understanding-concepts-reference.md](https://github.com/PowerShell/powerShell-Docs/blob/119b4d50423498e08383f02e56ae76653d06e555/scripting/getting-started/understanding-concepts-reference.md) | InSyncHandedBackSuccess | [Details](#e3cac149d549400b6a180b4a4fd6ff1a13a8130b305)
  [scripting\setup\Accessibility-in-Windows-PowerShell-ISE.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/setup/Accessibility-in-Windows-PowerShell-ISE.md) | InSyncHandedBackSuccess | [Details](#b4d97b1c96a99bcfc43fb20ce9a4ecfa528ea024308)
  [scripting\setup\Installing-the-Windows-PowerShell-2.0-Engine.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/setup/Installing-the-Windows-PowerShell-2.0-Engine.md) | InSyncHandedBackSuccess | [Details](#b6189e43fc9579a29d598deb705bb8e4e32e4a4f309)
  [scripting\setup\Installing-the-Windows-PowerShell-SDK.md](https://github.com/PowerShell/powerShell-Docs/blob/7caac42751c580d588fcf19db7253c8b75d6c865/scripting/setup/Installing-the-Windows-PowerShell-SDK.md) | InSyncHandedBackSuccess | [Details](#7af27dc9bd8e93d1df5258b0d8df8af12726f568310)
@@ -4635,18 +4635,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='e3cac149d549400b6a180b4a4fd6ff1a13a8130b305'></a> Source: [scripting\getting-started\understanding-concepts-reference.md](https://github.com/PowerShell/powerShell-Docs/blob/119b4d50423498e08383f02e56ae76653d06e555/scripting/getting-started/understanding-concepts-reference.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\getting-started\understanding-concepts-reference.md](https://github.com/PowerShell/powerShell-Docs.it-it/blob/b3b82ca89036c335ad77e809738b5322933c9714/scripting/getting-started/understanding-concepts-reference.md)
 * Handoff File: [understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/66584e55ea650dfbb436e358e0f6fc87666d7ba7/ol-handoff/PowerShell/powerShell-Docs.it-it/live/understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.it-it.xlf)
 * Handoff Datetime: 2016-09-30 18:17:04
 * Handoff Reason: Include
 * Archive File: [understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d188226aaeb52d843b0d68efc5f8173a46d8a630/ol-archive/PowerShell/powerShell-Docs.it-it/live/understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.it-it.xlf)
 * Archive Datetime: 2016-10-04 13:20:01
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [scripting\getting-started\understanding-concepts-reference.md](https://github.com/PowerShell/powerShell-Docs.it-it/blob/366e19a3fc1e92c2d9309876e03090696a778949/scripting/getting-started/understanding-concepts-reference.md)
-* Current Handback File: [understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/6a59bf4ecf3649b81d21d2cb78aaeb5c5d9a8143/ol-handback/PowerShell/powerShell-Docs.it-it/live/understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.it-it.xlf)
-* Current Handback Datetime: 2016-10-06 00:32:16
+* Handback File: [understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/2f8608d8a41058a2e607f044dcfbf3c78cb030c1/ol-handback/PowerShell/powerShell-Docs.it-it/live/understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.it-it.xlf)
+* Handback Datetime: 2016-10-06 11:43:23
 * Bilingual File: [understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/6a59bf4ecf3649b81d21d2cb78aaeb5c5d9a8143/ol-handback/PowerShell/powerShell-Docs.it-it/live/understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.it-it.xlf)
 * Bilingual Datetime: 2016-10-06 00:37:38
 * [Back to Top](#report-top)
