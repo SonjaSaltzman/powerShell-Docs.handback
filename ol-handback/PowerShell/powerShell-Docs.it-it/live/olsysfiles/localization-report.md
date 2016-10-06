@@ -4644,8 +4644,8 @@
 * Archive Datetime: 2016-10-04 13:20:01
 * Handback File: [understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/2f8608d8a41058a2e607f044dcfbf3c78cb030c1/ol-handback/PowerShell/powerShell-Docs.it-it/live/understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.it-it.xlf)
 * Handback Datetime: 2016-10-06 11:43:23
-* Bilingual File: [understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/6a59bf4ecf3649b81d21d2cb78aaeb5c5d9a8143/ol-handback/PowerShell/powerShell-Docs.it-it/live/understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.it-it.xlf)
-* Bilingual Datetime: 2016-10-06 00:37:38
+* Bilingual File: [understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/2f8608d8a41058a2e607f044dcfbf3c78cb030c1/ol-handback/PowerShell/powerShell-Docs.it-it/live/understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.it-it.xlf)
+* Bilingual Datetime: 2016-10-06 11:46:00
 * [Back to Top](#report-top)
 
 ##### <a name='755db60abb7859af5065e2c5ddfbfc6cfb7aeeda306'></a> Source: [scripting\md.style](https://github.com/PowerShell/powerShell-Docs/blob/d7edea9dbffd53138eb5a710a77d0211aa2854f2/scripting/md.style)
