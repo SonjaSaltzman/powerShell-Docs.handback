@@ -1,26 +1,11 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 1
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [dsc\msft-dsclocalconfigurationmanager-sendconfiguration.md](https://github.com/PowerShell/powerShell-Docs/blob/c915ebd021ed20209bc491505d45cff2ac89f21d/dsc/msft-dsclocalconfigurationmanager-sendconfiguration.md) | InSyncHandedBackSuccess | [Details](#95b141472d9428cee71b6970fc1f496704211c0b63)
 
 ## Item Details
-##### <a name='95b141472d9428cee71b6970fc1f496704211c0b63'></a> Source: [dsc\msft-dsclocalconfigurationmanager-sendconfiguration.md](https://github.com/PowerShell/powerShell-Docs/blob/c915ebd021ed20209bc491505d45cff2ac89f21d/dsc/msft-dsclocalconfigurationmanager-sendconfiguration.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [dsc\msft-dsclocalconfigurationmanager-sendconfiguration.md](https://github.com/PowerShell/powerShell-Docs.zh-tw/blob/0cee3227978bc9dbbb6e5ee17eac8782f82fb312/dsc/msft-dsclocalconfigurationmanager-sendconfiguration.md)
-* Handoff File: [msft-dsclocalconfigurationmanager-sendconfiguration.ef2224874728677cee639c7ea223742feeb969fe.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/5aa04dcf0392d663d2b26f5afdda0ea3a0a24dac/ol-handoff/PowerShell/powerShell-Docs.zh-tw/live/msft-dsclocalconfigurationmanager-sendconfiguration.ef2224874728677cee639c7ea223742feeb969fe.zh-tw.xlf)
-* Handoff Datetime: 2016-08-18 01:29:34
-* Handoff Reason: Include
-* Archive File: [msft-dsclocalconfigurationmanager-sendconfiguration.ef2224874728677cee639c7ea223742feeb969fe.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/8f3d5368c90d85316a2d1e4eab2fc6b96c3fcd23/ol-archive/PowerShell/powerShell-Docs.zh-tw/live/msft-dsclocalconfigurationmanager-sendconfiguration.ef2224874728677cee639c7ea223742feeb969fe.zh-tw.xlf)
-* Archive Datetime: 2016-08-23 13:34:46
-* Handback File: [msft-dsclocalconfigurationmanager-sendconfiguration.ef2224874728677cee639c7ea223742feeb969fe.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/09a4787764ac844d5a2af585ae059fc69590f8c2/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/msft-dsclocalconfigurationmanager-sendconfiguration.ef2224874728677cee639c7ea223742feeb969fe.zh-tw.xlf)
-* Handback Datetime: 2016-10-06 00:41:18
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
