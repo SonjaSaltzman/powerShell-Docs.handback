@@ -7,10 +7,10 @@
 [ Handoff Failed Files ](#handoff-failed-list)| 0
 [ Handoff Success Files ](#handoff-success-list)| 1
 [ Archive Failed Files ](#archive-failed-list)| 0
-[ Archive Success Files ](#archive-success-list)| 68
+[ Archive Success Files ](#archive-success-list)| 67
 [ Handback Failed Files ](#handback-failed-list)| 3
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
-[ In Sync Handback Files ](#insync-handback-success-list)| 344
+[ In Sync Handback Files ](#insync-handback-success-list)| 345
 [ Ignored Files ](#ignored-list)| 40
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
@@ -27,7 +27,6 @@
  ----------- | ------ | ------- 
  [dsc\groupSetResource.md](https://github.com/PowerShell/powerShell-Docs/blob/bf36abde6a3bfff4c2e49868465e089cc886d031/dsc/groupSetResource.md) | ArchivedSuccess | [Details](#45fe96c43a834566d398820e3d94e3be923bb38527)
  [dsc\lnxGettingStarted.md](https://github.com/PowerShell/powerShell-Docs/blob/e4385f0ed482b97e8794cde968de549902cc358e/dsc/lnxGettingStarted.md) | ArchivedSuccess | [Details](#2283e797275f426b624119bd1191e58080780c0939)
- [dsc\msft-dsclocalconfigurationmanager-sendconfiguration.md](https://github.com/PowerShell/powerShell-Docs/blob/c915ebd021ed20209bc491505d45cff2ac89f21d/dsc/msft-dsclocalconfigurationmanager-sendconfiguration.md) | ArchivedSuccess | [Details](#95b141472d9428cee71b6970fc1f496704211c0b63)
  [dsc\processSetResource.md](https://github.com/PowerShell/powerShell-Docs/blob/97714d3fa9a1c00fb3d2e79cc873280ca945a840/dsc/processSetResource.md) | ArchivedSuccess | [Details](#012a0e5c4f2a1f60ecea869d588b9c54e0567ced74)
  [gallery\psgallery\contributing_to_psgallery_documentation.md](https://github.com/PowerShell/powerShell-Docs/blob/316caf861c7aff7e7a587fe2a8065933c0b67404/gallery/psgallery/contributing_to_psgallery_documentation.md) | ArchivedSuccess | [Details](#443d343d6f5c79c562e36ba59cd822d990de8715105)
  [gallery\psgallery\Creating-and-Publishing-an-item.md](https://github.com/PowerShell/powerShell-Docs/blob/316caf861c7aff7e7a587fe2a8065933c0b67404/gallery/psgallery/Creating-and-Publishing-an-item.md) | ArchivedSuccess | [Details](#9dab14b25815ac7c005b915df421300a1cc72033106)
@@ -155,6 +154,7 @@
  [dsc\msft-dsclocalconfigurationmanager-resourceset.md](https://github.com/PowerShell/powerShell-Docs/blob/c915ebd021ed20209bc491505d45cff2ac89f21d/dsc/msft-dsclocalconfigurationmanager-resourceset.md) | InSyncHandedBackSuccess | [Details](#cbc499f293aad941d40fcb720ef53e832c3b1ea860)
  [dsc\msft-dsclocalconfigurationmanager-resourcetest.md](https://github.com/PowerShell/powerShell-Docs/blob/c915ebd021ed20209bc491505d45cff2ac89f21d/dsc/msft-dsclocalconfigurationmanager-resourcetest.md) | InSyncHandedBackSuccess | [Details](#4129c83dd0b72159cbf1d47c037b9d462ca45f0e61)
  [dsc\msft-dsclocalconfigurationmanager-rollback.md](https://github.com/PowerShell/powerShell-Docs/blob/c915ebd021ed20209bc491505d45cff2ac89f21d/dsc/msft-dsclocalconfigurationmanager-rollback.md) | InSyncHandedBackSuccess | [Details](#771a9c7b50aba26f89dbf6b24eb3df67bafeac0a62)
+ [dsc\msft-dsclocalconfigurationmanager-sendconfiguration.md](https://github.com/PowerShell/powerShell-Docs/blob/c915ebd021ed20209bc491505d45cff2ac89f21d/dsc/msft-dsclocalconfigurationmanager-sendconfiguration.md) | InSyncHandedBackSuccess | [Details](#95b141472d9428cee71b6970fc1f496704211c0b63)
  [dsc\msft-dsclocalconfigurationmanager-sendconfigurationapply.md](https://github.com/PowerShell/powerShell-Docs/blob/c915ebd021ed20209bc491505d45cff2ac89f21d/dsc/msft-dsclocalconfigurationmanager-sendconfigurationapply.md) | InSyncHandedBackSuccess | [Details](#701063dfa37fe4ba8b014cadadd10339b7fd1bf764)
  [dsc\msft-dsclocalconfigurationmanager-sendconfigurationapplyasync.md](https://github.com/PowerShell/powerShell-Docs/blob/c915ebd021ed20209bc491505d45cff2ac89f21d/dsc/msft-dsclocalconfigurationmanager-sendconfigurationapplyasync.md) | InSyncHandedBackSuccess | [Details](#41177f2eb2bbcf2dddaf232141fb483efaaeeea565)
  [dsc\msft-dsclocalconfigurationmanager-sendmetaconfigurationapply.md](https://github.com/PowerShell/powerShell-Docs/blob/c915ebd021ed20209bc491505d45cff2ac89f21d/dsc/msft-dsclocalconfigurationmanager-sendmetaconfigurationapply.md) | InSyncHandedBackSuccess | [Details](#a81b41f66883b3cf0931905d24c8ff92ef55b6c766)
@@ -1364,15 +1364,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='95b141472d9428cee71b6970fc1f496704211c0b63'></a> Source: [dsc\msft-dsclocalconfigurationmanager-sendconfiguration.md](https://github.com/PowerShell/powerShell-Docs/blob/c915ebd021ed20209bc491505d45cff2ac89f21d/dsc/msft-dsclocalconfigurationmanager-sendconfiguration.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [dsc\msft-dsclocalconfigurationmanager-sendconfiguration.md](https://github.com/PowerShell/powerShell-Docs.zh-tw/blob/0cee3227978bc9dbbb6e5ee17eac8782f82fb312/dsc/msft-dsclocalconfigurationmanager-sendconfiguration.md)
 * Handoff File: [msft-dsclocalconfigurationmanager-sendconfiguration.ef2224874728677cee639c7ea223742feeb969fe.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/5aa04dcf0392d663d2b26f5afdda0ea3a0a24dac/ol-handoff/PowerShell/powerShell-Docs.zh-tw/live/msft-dsclocalconfigurationmanager-sendconfiguration.ef2224874728677cee639c7ea223742feeb969fe.zh-tw.xlf)
 * Handoff Datetime: 2016-08-18 01:29:34
 * Handoff Reason: Include
 * Archive File: [msft-dsclocalconfigurationmanager-sendconfiguration.ef2224874728677cee639c7ea223742feeb969fe.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/8f3d5368c90d85316a2d1e4eab2fc6b96c3fcd23/ol-archive/PowerShell/powerShell-Docs.zh-tw/live/msft-dsclocalconfigurationmanager-sendconfiguration.ef2224874728677cee639c7ea223742feeb969fe.zh-tw.xlf)
 * Archive Datetime: 2016-08-23 13:34:46
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
+* Handback File: [msft-dsclocalconfigurationmanager-sendconfiguration.ef2224874728677cee639c7ea223742feeb969fe.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/09a4787764ac844d5a2af585ae059fc69590f8c2/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/msft-dsclocalconfigurationmanager-sendconfiguration.ef2224874728677cee639c7ea223742feeb969fe.zh-tw.xlf)
+* Handback Datetime: 2016-10-06 00:41:18
 * [Back to Top](#report-top)
 
 ##### <a name='701063dfa37fe4ba8b014cadadd10339b7fd1bf764'></a> Source: [dsc\msft-dsclocalconfigurationmanager-sendconfigurationapply.md](https://github.com/PowerShell/powerShell-Docs/blob/c915ebd021ed20209bc491505d45cff2ac89f21d/dsc/msft-dsclocalconfigurationmanager-sendconfigurationapply.md)
