@@ -1178,6 +1178,8 @@
 * Archive Datetime: 2016-08-23 13:33:51
 * Handback File: [msft-dsclocalconfigurationmanager.a79fe5e4edd04227feb5da9e41daad2c0b306f84.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/fd3d2dda70f71d87a52b3961c6c0b314f3ed7078/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/msft-dsclocalconfigurationmanager.a79fe5e4edd04227feb5da9e41daad2c0b306f84.zh-cn.xlf)
 * Handback Datetime: 2016-10-06 07:52:56
+* Bilingual File: [msft-dsclocalconfigurationmanager.a79fe5e4edd04227feb5da9e41daad2c0b306f84.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/fd3d2dda70f71d87a52b3961c6c0b314f3ed7078/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/msft-dsclocalconfigurationmanager.a79fe5e4edd04227feb5da9e41daad2c0b306f84.zh-cn.xlf)
+* Bilingual Datetime: 2016-10-06 07:54:06
 * [Back to Top](#report-top)
 
 ##### <a name='6f9c6a8851732574ac72bc4f3a3db1a73fbbecf250'></a> Source: [dsc\msft-dsclocalconfigurationmanager-applyconfiguration.md](https://github.com/PowerShell/powerShell-Docs/blob/919438862ca9786447b690d2db10e905da0a7c42/dsc/msft-dsclocalconfigurationmanager-applyconfiguration.md)
@@ -6017,6 +6019,8 @@
 * Archive Datetime: 2016-08-23 13:33:51
 * Handback File: [compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/fd3d2dda70f71d87a52b3961c6c0b314f3ed7078/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.zh-cn.xlf)
 * Handback Datetime: 2016-10-06 07:52:56
+* Bilingual File: [compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/fd3d2dda70f71d87a52b3961c6c0b314f3ed7078/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.zh-cn.xlf)
+* Bilingual Datetime: 2016-10-06 07:54:06
 * [Back to Top](#report-top)
 
 ##### <a name='2a17fdd4092adf734398f38bec915d53c1b3e566407'></a> Source: [wmf\5.1\console-improvements.md](https://github.com/PowerShell/powerShell-Docs/blob/749c1ca8bc617014dffacecce7d14a55adc38036/wmf/5.1/console-improvements.md)

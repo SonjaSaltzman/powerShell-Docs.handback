@@ -1677,6 +1677,8 @@
 * Archive Datetime: 2016-08-23 13:31:14
 * Handback File: [runAsUser.d2b90b6bc42ef965e454f9c9f5fd19bc7b488b34.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/df5333b349ed973ee574104a9ae599b9c41d2409/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/runAsUser.d2b90b6bc42ef965e454f9c9f5fd19bc7b488b34.ja-jp.xlf)
 * Handback Datetime: 2016-10-06 07:52:42
+* Bilingual File: [runAsUser.d2b90b6bc42ef965e454f9c9f5fd19bc7b488b34.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/df5333b349ed973ee574104a9ae599b9c41d2409/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/runAsUser.d2b90b6bc42ef965e454f9c9f5fd19bc7b488b34.ja-jp.xlf)
+* Bilingual Datetime: 2016-10-06 07:53:46
 * [Back to Top](#report-top)
 
 ##### <a name='6b060d17fb106089528b0737ab03cc7d592d412a87'></a> Source: [dsc\scriptResource.md](https://github.com/PowerShell/powerShell-Docs/blob/62f993e3d3e6ef744fb07920d332d476dfd24fc6/dsc/scriptResource.md)
@@ -2996,6 +2998,8 @@
 * Archive Datetime: 2016-08-23 13:31:14
 * Handback File: [role-capabilities.f5d3ffdf33f9043c1ffa50f8a35842c90ffd6c71.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/df5333b349ed973ee574104a9ae599b9c41d2409/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/role-capabilities.f5d3ffdf33f9043c1ffa50f8a35842c90ffd6c71.ja-jp.xlf)
 * Handback Datetime: 2016-10-06 07:52:42
+* Bilingual File: [role-capabilities.f5d3ffdf33f9043c1ffa50f8a35842c90ffd6c71.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/df5333b349ed973ee574104a9ae599b9c41d2409/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/role-capabilities.f5d3ffdf33f9043c1ffa50f8a35842c90ffd6c71.ja-jp.xlf)
+* Bilingual Datetime: 2016-10-06 07:53:46
 * [Back to Top](#report-top)
 
 ##### <a name='fc3b6d859bf3842a857d9519516ea4e275fa1876188'></a> Source: [jea\TOC.MD](https://github.com/PowerShell/powerShell-Docs/blob/5b1f56380032b0661563552e167eb135059ebf85/jea/TOC.MD)

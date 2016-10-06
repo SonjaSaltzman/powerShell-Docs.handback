@@ -999,8 +999,8 @@
 * Archive Datetime: 2016-08-23 13:32:01
 * Handback File: [lnxFileLineResource.d91fc802a4c6cdbff5a2e35f92b34c36c6dbf5eb.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/997ecf26efa795f724e3b2cf18daade778866aa3/ol-handback/PowerShell/powerShell-Docs.de-de/live/lnxFileLineResource.d91fc802a4c6cdbff5a2e35f92b34c36c6dbf5eb.de-de.xlf)
 * Handback Datetime: 2016-10-06 07:51:40
-* Bilingual File: [lnxFileLineResource.d91fc802a4c6cdbff5a2e35f92b34c36c6dbf5eb.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/e543a07a0fb7e208209135d604b4e93d87805555/ol-handback/PowerShell/powerShell-Docs.de-de/live/lnxFileLineResource.d91fc802a4c6cdbff5a2e35f92b34c36c6dbf5eb.de-de.xlf)
-* Bilingual Datetime: 2016-09-03 00:22:54
+* Bilingual File: [lnxFileLineResource.d91fc802a4c6cdbff5a2e35f92b34c36c6dbf5eb.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/997ecf26efa795f724e3b2cf18daade778866aa3/ol-handback/PowerShell/powerShell-Docs.de-de/live/lnxFileLineResource.d91fc802a4c6cdbff5a2e35f92b34c36c6dbf5eb.de-de.xlf)
+* Bilingual Datetime: 2016-10-06 07:53:53
 * [Back to Top](#report-top)
 
 ##### <a name='2ba44df5dd6c91371cbbfe95d48184a4ff4a773838'></a> Source: [dsc\lnxFileResource.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/lnxFileResource.md)
@@ -1053,6 +1053,8 @@
 * Archive Datetime: 2016-08-23 13:32:01
 * Handback File: [lnxPackageResource.db35ab938bbfbb38cae53fe9ae98fd22b5f18009.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/997ecf26efa795f724e3b2cf18daade778866aa3/ol-handback/PowerShell/powerShell-Docs.de-de/live/lnxPackageResource.db35ab938bbfbb38cae53fe9ae98fd22b5f18009.de-de.xlf)
 * Handback Datetime: 2016-10-06 07:51:40
+* Bilingual File: [lnxPackageResource.db35ab938bbfbb38cae53fe9ae98fd22b5f18009.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/997ecf26efa795f724e3b2cf18daade778866aa3/ol-handback/PowerShell/powerShell-Docs.de-de/live/lnxPackageResource.db35ab938bbfbb38cae53fe9ae98fd22b5f18009.de-de.xlf)
+* Bilingual Datetime: 2016-10-06 07:53:53
 * [Back to Top](#report-top)
 
 ##### <a name='4c575bbf0e0553e19e56bcc6edd605e36586cb9442'></a> Source: [dsc\lnxScriptResource.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/lnxScriptResource.md)
@@ -1065,8 +1067,8 @@
 * Archive Datetime: 2016-08-23 13:32:01
 * Handback File: [lnxScriptResource.1344a5d5b807ee53705e93842d9ef5e25a883359.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/997ecf26efa795f724e3b2cf18daade778866aa3/ol-handback/PowerShell/powerShell-Docs.de-de/live/lnxScriptResource.1344a5d5b807ee53705e93842d9ef5e25a883359.de-de.xlf)
 * Handback Datetime: 2016-10-06 07:51:40
-* Bilingual File: [lnxScriptResource.1344a5d5b807ee53705e93842d9ef5e25a883359.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/e543a07a0fb7e208209135d604b4e93d87805555/ol-handback/PowerShell/powerShell-Docs.de-de/live/lnxScriptResource.1344a5d5b807ee53705e93842d9ef5e25a883359.de-de.xlf)
-* Bilingual Datetime: 2016-09-03 00:22:54
+* Bilingual File: [lnxScriptResource.1344a5d5b807ee53705e93842d9ef5e25a883359.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/997ecf26efa795f724e3b2cf18daade778866aa3/ol-handback/PowerShell/powerShell-Docs.de-de/live/lnxScriptResource.1344a5d5b807ee53705e93842d9ef5e25a883359.de-de.xlf)
+* Bilingual Datetime: 2016-10-06 07:53:53
 * [Back to Top](#report-top)
 
 ##### <a name='3835495705297616a41329bcfdaad42b464115d843'></a> Source: [dsc\lnxServiceResource.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/lnxServiceResource.md)
@@ -4616,6 +4618,8 @@
 * Archive Datetime: 2016-10-04 13:19:11
 * Handback File: [understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/997ecf26efa795f724e3b2cf18daade778866aa3/ol-handback/PowerShell/powerShell-Docs.de-de/live/understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.de-de.xlf)
 * Handback Datetime: 2016-10-06 07:51:40
+* Bilingual File: [understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/997ecf26efa795f724e3b2cf18daade778866aa3/ol-handback/PowerShell/powerShell-Docs.de-de/live/understanding-concepts-reference.afbedb7cd05f0cdbf50deb95f51ded6db98670cb.de-de.xlf)
+* Bilingual Datetime: 2016-10-06 07:53:53
 * [Back to Top](#report-top)
 
 ##### <a name='755db60abb7859af5065e2c5ddfbfc6cfb7aeeda306'></a> Source: [scripting\md.style](https://github.com/PowerShell/powerShell-Docs/blob/d7edea9dbffd53138eb5a710a77d0211aa2854f2/scripting/md.style)
