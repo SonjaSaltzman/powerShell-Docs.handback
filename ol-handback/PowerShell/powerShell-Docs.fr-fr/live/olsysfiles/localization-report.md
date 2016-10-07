@@ -663,8 +663,8 @@
 * Archive Datetime: 2016-08-23 13:32:54
 * Handback File: [builtInResource.2f855e1582347e986aa4e5e62b842b886596fdc2.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/7792a570ea3a5e2fbe4596262cf9c6ea35e598b7/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/builtInResource.2f855e1582347e986aa4e5e62b842b886596fdc2.fr-fr.xlf)
 * Handback Datetime: 2016-10-07 14:16:09
-* Bilingual File: [builtInResource.2f855e1582347e986aa4e5e62b842b886596fdc2.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9bb27450173a8dde2b6a42668679e1eff95df483/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/builtInResource.2f855e1582347e986aa4e5e62b842b886596fdc2.fr-fr.xlf)
-* Bilingual Datetime: 2016-10-05 23:28:49
+* Bilingual File: [builtInResource.2f855e1582347e986aa4e5e62b842b886596fdc2.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/7792a570ea3a5e2fbe4596262cf9c6ea35e598b7/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/builtInResource.2f855e1582347e986aa4e5e62b842b886596fdc2.fr-fr.xlf)
+* Bilingual Datetime: 2016-10-07 14:20:14
 * [Back to Top](#report-top)
 
 ##### <a name='8a3ae5fdf5d70de999ca6b992efb14533408c30513'></a> Source: [dsc\configData.md](https://github.com/PowerShell/powerShell-Docs/blob/ebd74549e2671a332ef6abf131ab984a4d0865a6/dsc/configData.md)
