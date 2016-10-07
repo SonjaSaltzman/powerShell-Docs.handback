@@ -1,28 +1,11 @@
 # <a name='report-top'></a> Localization Bilingual Report
 
 ## Summary
- Total Files | 1
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [dsc\builtInResource.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/builtInResource.md) | InSyncHandedBackSuccess | [Details](#ea312b4e773cd8b0eceeca123e616957728eb1c612)
 
 ## Item Details
-##### <a name='ea312b4e773cd8b0eceeca123e616957728eb1c612'></a> Source: [dsc\builtInResource.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/builtInResource.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [dsc\builtInResource.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/3c424f128c3a44c4023993f9a913d5538dfa4a0b/dsc/builtInResource.md)
-* Handoff File: [builtInResource.2f855e1582347e986aa4e5e62b842b886596fdc2.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/eecaaa36a208a8f01010283dc386cc683e0a72ea/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/builtInResource.2f855e1582347e986aa4e5e62b842b886596fdc2.fr-fr.xlf)
-* Handoff Datetime: 2016-08-18 01:25:33
-* Handoff Reason: Include
-* Archive File: [builtInResource.2f855e1582347e986aa4e5e62b842b886596fdc2.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/c5c869fb7547a510643f280a125ef4cbbd8e7ee6/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/builtInResource.2f855e1582347e986aa4e5e62b842b886596fdc2.fr-fr.xlf)
-* Archive Datetime: 2016-08-23 13:32:54
-* Handback File: [builtInResource.2f855e1582347e986aa4e5e62b842b886596fdc2.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/7792a570ea3a5e2fbe4596262cf9c6ea35e598b7/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/builtInResource.2f855e1582347e986aa4e5e62b842b886596fdc2.fr-fr.xlf)
-* Handback Datetime: 2016-10-07 14:16:09
-* Bilingual File: [builtInResource.2f855e1582347e986aa4e5e62b842b886596fdc2.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/7792a570ea3a5e2fbe4596262cf9c6ea35e598b7/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/builtInResource.2f855e1582347e986aa4e5e62b842b886596fdc2.fr-fr.xlf)
-* Bilingual Datetime: 2016-10-07 14:20:14
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
