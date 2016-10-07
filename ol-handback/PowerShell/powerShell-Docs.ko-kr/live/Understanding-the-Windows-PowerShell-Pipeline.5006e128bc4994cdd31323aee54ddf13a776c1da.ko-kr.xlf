@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">233ec6fafbf1e770190601750be3bdcef2337b7f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\fundamental\Understanding-the-Windows-PowerShell-Pipeline.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f5498e5f82297e1588a9414af179aad1497384f9</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Understanding the Windows PowerShell Pipeline</source>
+          <target state="translated">Windows PowerShell 파이프라인 이해</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="translated">powershell,cmdlet</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Understanding the Windows PowerShell Pipeline</source>
+          <target state="translated">Windows PowerShell 파이프라인 이해</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Piping works virtually everywhere in Windows PowerShell.</source>
+          <target state="translated">파이프는 사실상 Windows PowerShell의 모든 영역에 사용됩니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Although you see text on the screen, Windows PowerShell does not pipe text between commands.</source>
+          <target state="translated">화면에 텍스트가 표시되어 있는 경우에도 Windows PowerShell은 명령 사이에 있는 텍스트를 파이프하는 대신</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Instead, it pipes objects.</source>
+          <target state="translated">개체를 파이프합니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The notation used for pipelines is similar to that used in other shells, so at first glance, it may not be apparent that Windows PowerShell introduces something new.</source>
+          <target state="translated">파이프라인에 사용되는 표기법과 다른 셸에 사용되는 표기법이 유사하기 때문에 처음에는 Windows PowerShell에 새로 도입된 기능을 쉽게 확인하지 못할 수도 있습니다.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For example, if you use the <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Host<ept id="p1">**</ept> cmdlet to force a page<ph id="ph2">\-</ph>by<ph id="ph3">\-</ph>page display of output from another command, the output looks just like the normal text displayed on the screen, broken up into pages:</source>
+          <target state="translated">예를 들어 <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Host<ept id="p1">**</ept> cmdlet을 사용하여 다른 명령의 출력을 페이지 단위로 표시하면 다음과 같이 일반 텍스트가 페이지 단위로 나뉘어져 화면에 표시된 것처럼 보입니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The Out<ph id="ph1">\-</ph>Host <ph id="ph2">\-</ph>Paging command is a useful pipeline element whenever you have lengthy output that you would like to display slowly.</source>
+          <target state="translated">Out<ph id="ph1">\-</ph>Host <ph id="ph2">\-</ph>Paging 명령은 긴 출력을 천천히 표시하려는 경우에 유용한 파이프라인 요소로,</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>It is especially useful if the operation is very CPU<ph id="ph1">\-</ph>intensive.</source>
+          <target state="translated">특히 CPU를 많이 사용하는 작업에 유용합니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Because processing is transferred to the Out<ph id="ph1">\-</ph>Host cmdlet when it has a complete page ready to display, cmdlets that precede it in the pipeline halt operation until the next page of output is available.</source>
+          <target state="translated">Out<ph id="ph1">\-</ph>Host cmdlet이 전체 페이지를 표시할 준비가 되면 프로세스가 이 cmdlet에 전달되므로 파이프라인에서 이 cmdlet 앞에 있는 cmdlet은 다음 페이지를 출력할 수 있을 때까지 작업을 중지합니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can see this if you use the Windows Task Manager to monitor CPU and memory use by Windows PowerShell.</source>
+          <target state="translated">Windows 작업 관리자에서 Windows PowerShell이 사용하는 CPU와 메모리를 모니터링하면 이를 확인할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Run the following command: <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>ChildItem C:<ph id="ph2">\\</ph>Windows <ph id="ph3">\-</ph>Recurse<ept id="p1">**</ept>.</source>
+          <target state="translated">다음 명령을 실행합니다. <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>ChildItem C:<ph id="ph2">\\</ph>Windows <ph id="ph3">\-</ph>Recurse<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Compare the CPU and memory usage to this command: <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>ChildItem C:<ph id="ph2">\\</ph>Windows <ph id="ph3">\-</ph>Recurse | Out<ph id="ph4">\-</ph>Host <ph id="ph5">\-</ph>Paging<ept id="p1">**</ept>.</source>
+          <target state="translated">CPU 및 메모리 사용량을 다음 명령과 비교합니다. <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>ChildItem C:<ph id="ph2">\\</ph>Windows <ph id="ph3">\-</ph>Recurse | Out<ph id="ph4">\-</ph>Host <ph id="ph5">\-</ph>Paging<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>What you see on the screen is text, but that is because it is necessary to represent objects as text in a console window.</source>
+          <target state="translated">화면에 텍스트가 표시되지만 이것은 개체를 콘솔 창에 텍스트로 표시해야 하기 때문이며</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This is just a representation of what is really going on inside Windows PowerShell.</source>
+          <target state="translated">Windows PowerShell에서 실제로 진행되고 있는 작업을 보여 주기 위한 것일 뿐입니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For example, consider the Get<ph id="ph1">\-</ph>Location cmdlet.</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>Location cmdlet을 예로 들어 보겠습니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If you type <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Location<ept id="p1">**</ept> while your current location is the root of the C drive, you would see the following output:</source>
+          <target state="translated">현재 위치가 C 드라이브의 루트일 때 <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Location<ept id="p1">**</ept>을 입력하면 다음과 같은 내용이 출력됩니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If Windows PowerShell pipelined text, issuing a command such as <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Location | Out<ph id="ph2">\-</ph>Host<ept id="p1">**</ept>, would pass from <bpt id="p2">**</bpt>Get<ph id="ph3">\-</ph>Location<ept id="p2">**</ept> to <bpt id="p3">**</bpt>Out<ph id="ph4">\-</ph>Host<ept id="p3">**</ept> a set of characters in the order they are displayed onscreen.</source>
+          <target state="translated">Windows PowerShell에서 파이프라인으로 결합한 <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Location | Out<ph id="ph2">\-</ph>Host<ept id="p1">**</ept>와 같은 명령을 실행하면 일련의 문자가 화면에 표시되는 순서대로 <bpt id="p2">**</bpt>Get<ph id="ph3">\-</ph>Location<ept id="p2">**</ept>에서 <bpt id="p3">**</bpt>Out<ph id="ph4">\-</ph>Host<ept id="p3">**</ept>로 전달됩니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>In other words, if you were to ignore the heading information, <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Host<ept id="p1">**</ept> would first receive the character '<bpt id="p2">**</bpt>C'<ept id="p2">**</ept>, then the character '<bpt id="p3">**</bpt>:'<ept id="p3">**</ept>, then the character '<bpt id="p4">**</bpt><ph id="ph2">\\</ph>'<ept id="p4">**</ept>.</source>
+          <target state="translated">즉, 머리글 정보를 무시할 경우 <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Host<ept id="p1">**</ept>에 '<bpt id="p2">**</bpt>C'<ept id="p2">**</ept> 문자, '<bpt id="p3">**</bpt>:'<ept id="p3">**</ept> 문자 및 '<bpt id="p4">**</bpt><ph id="ph2">\\</ph>'<ept id="p4">**</ept> 문자가 차례로 전달됩니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Host<ept id="p1">**</ept> cmdlet could not determine what meaning to associate with the characters output by the <bpt id="p2">**</bpt>Get<ph id="ph2">\-</ph>Location<ept id="p2">**</ept> cmdlet.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Host<ept id="p1">**</ept> cmdlet으로는 <bpt id="p2">**</bpt>Get<ph id="ph2">\-</ph>Location<ept id="p2">**</ept> cmdlet이 출력하는 문자에 연결된 의미를 알 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Instead of using text to let commands in a pipeline communicate, Windows PowerShell uses objects.</source>
+          <target state="translated">Windows PowerShell은 텍스트 대신 개체를 사용하여 파이프라인에 있는 명령과 통신합니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>From the standpoint of a user, objects package related information into a form that makes it easier to manipulate the information as a unit, and extract specific items that you need.</source>
+          <target state="translated">사용자의 관점에서 볼 때 개체는 관련 정보를 하나의 단위로 쉽게 조작할 수 있는 형식으로 패키징하고 필요한 특정 항목을 추출합니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Location<ept id="p1">**</ept> command does not return text that contains the current path.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Location<ept id="p1">**</ept> 명령은 현재 경로가 포함된 텍스트를 반환하지 않고</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>It returns a package of information called a <bpt id="p1">**</bpt>PathInfo<ept id="p1">**</ept> object that contains the current path along with some other information.</source>
+          <target state="translated">현재 경로와 함께 몇 가지 다른 정보가 포함된 <bpt id="p1">**</bpt>PathInfo<ept id="p1">**</ept> 개체라는 정보 패키지를 반환합니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Host<ept id="p1">**</ept> cmdlet then sends this <bpt id="p2">**</bpt>PathInfo<ept id="p2">**</ept> object to the screen, and Windows PowerShell decides what information to display and how to display it based on its formatting rules.</source>
+          <target state="translated">그러면 <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Host<ept id="p1">**</ept> cmdlet이 이 <bpt id="p2">**</bpt>PathInfo<ept id="p2">**</ept> 개체를 화면에 보내고 Windows PowerShell은 형식 지정 규칙에 따라 표시할 정보와 이러한 정보의 표시 방법을 결정합니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In fact, the heading information output by the <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Location<ept id="p1">**</ept> cmdlet is added only at the end of the process, as part of the process of formatting the data for onscreen display.</source>
+          <target state="translated">사실 <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Location<ept id="p1">**</ept> cmdlet이 출력하는 머리글 정보는 화면에 표시할 데이터의 형식을 지정하는 프로세스의 일부로 해당 프로세스의 끝에만 추가됩니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>What you see onscreen is a summary of information, and not a complete representation of the output object.</source>
+          <target state="translated">화면에는 출력 개체에 대한 전체 정보 대신 요약 정보가 표시됩니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Given that there may be more information output from a Windows PowerShell command than what we see displayed in the console window, how can you retrieve the non<ph id="ph1">\-</ph>visible elements?</source>
+          <target state="translated">Windows PowerShell 명령이 출력하는 정보가 콘솔 창에 표시되는 정보보다 많을 경우 콘솔 창에 표시되지 않는 요소를 검색하거나</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>How do you view the extra data?</source>
+          <target state="translated">추가 데이터를 표시할 수 있으며</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>And what if you want to view the data in a format different than the one Windows PowerShell normally uses?</source>
+          <target state="translated">특정 Windows PowerShell이 일반적으로 사용하는 것과 다른 형식으로 데이터를 표시할 수도 있습니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The rest of this chapter discusses how you can discover the structure of specific Windows PowerShell objects, selecting specific items and formatting them for easier display, and how to send this information to alternative output locations such as files and printers.</source>
+          <target state="translated">이 장의 나머지 부분에서는 특정 Windows PowerShell 개체의 구조를 검색하는 방법과 이러한 정보를 파일이나 프린터와 같은 다른 출력 위치로 보내는 방법을 설명합니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

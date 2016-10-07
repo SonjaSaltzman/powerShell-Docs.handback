@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">962941ba946a67256baf141bd195361c94a68f90</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\nanoDsc.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8a8849ff8f62fcab4b8769c74e88d687e59616b4</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Using DSC on Nano Server</source>
+          <target state="translated">DSC on Nano Server 사용</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,DSC</source>
+          <target state="translated">powershell,DSC</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Using DSC on Nano Server</source>
+          <target state="translated">DSC on Nano Server 사용</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 5.0</source>
+          <target state="translated">적용 대상: Windows PowerShell 5.0</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>DSC on Nano Server<ept id="p1">**</ept> is an optional package in the <ph id="ph1">`NanoServer\Packages`</ph> folder of the Windows Server 2016 media.</source>
+          <target state="translated"><bpt id="p1">**</bpt>DSC on Nano Server<ept id="p1">**</ept>는 Windows Server 2016 미디어의 <ph id="ph1">`NanoServer\Packages`</ph> 폴더에 있는 선택적 패키지입니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The package can be installed when you create a VHD for a Nano Server by specifying <bpt id="p1">**</bpt>Microsoft-NanoServer-DSC-Package<ept id="p1">**</ept> as the value of the <bpt id="p2">**</bpt>Packages<ept id="p2">**</ept> parameter of the <bpt id="p3">**</bpt>New-NanoServerImage<ept id="p3">**</ept> function.</source>
+          <target state="translated">이 패키지는 <bpt id="p1">**</bpt>Microsoft-NanoServer-DSC-Package<ept id="p1">**</ept>를 <bpt id="p3">**</bpt>New-NanoServerImage<ept id="p3">**</ept> 함수의 <bpt id="p2">**</bpt>Packages<ept id="p2">**</ept> 매개 변수 값으로 지정하여 Nano Server에 대한 VHD를 만들 때 설치할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For example, if you are creating a VHD for a virtual machine, the command would look like the following:</source>
+          <target state="translated">예를 들어 가상 컴퓨터에 대한 VHD를 만드는 경우 다음과 같은 명령을 사용합니다.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For information about installing and using Nano Server, as well as how to manage Nano Server with PowerShell Remoting, see <bpt id="p1">[</bpt>Getting Started with Nano Server<ept id="p1">](https://technet.microsoft.com/en-us/library/mt126167.aspx)</ept>.</source>
+          <target state="translated">Nano Server 설치 및 사용과 PowerShell 원격으로 Nano Server를 관리하는 방법은 <bpt id="p1">[</bpt>Getting Started with Nano Server(Nano Server 시작)<ept id="p1">](https://technet.microsoft.com/en-us/library/mt126167.aspx)</ept>를 참조하세요.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DSC features available on Nano Server</source>
+          <target state="translated">Nano Server에서 사용할 수 있는 DSC 기능</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Because Nano Server supports only a limited set of APIs compared to a full version of Windows Server, DSC on Nano Server does not have full functional parity with DSC running on full SKUs for the time being.</source>
+          <target state="translated">Nano Server는 처음 사용자용 Windows Server에 비해 제한된 일부 API만 지원하기 때문에 당분간은 전체 SKU에서 동작하는 완전한 기능을 하는 패리티가 DSC on Nano Server에 없습니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>DSC on Nano Server is in active development and is not yet feature complete.</source>
+          <target state="translated">DSC on Nano Server는 개발 중이므로 아직 모든 기능이 완성되지 않았습니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The following DSC features are currently available on Nano Server:</source>
+          <target state="translated">다음 DSC 기능은 현재 Nano Server에서 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Both push and pull modes</source>
+          <target state="translated">밀어넣기 및 끌어오기 모드</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>All DSC cmdlets that exist on a full version of Windows Server, including the following:</source>
+          <target state="translated">다음을 포함하여 Windows Server 전체 버전에 있는 모든 DSC cmdlet:</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Get-DscLocalConfigurationManager</source>
+          <target state="translated">Get DscLocalConfigurationManager</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Set-DscLocalConfigurationManager</source>
+          <target state="translated">Set-DscLocalConfigurationManager</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Enable-DscDebug</source>
+          <target state="translated">Enable-DscDebug</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Disable-DscDebug</source>
+          <target state="translated">Disable-DscDebug</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Start-DscConfiguration</source>
+          <target state="translated">Start-DscConfiguration</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Stop-DscConfiguration</source>
+          <target state="translated">Stop-DscConfiguration</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Get-DscConfiguration</source>
+          <target state="translated">Get-DscConfiguration</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Test-DscConfiguration</source>
+          <target state="translated">Test-DscConfiguration</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Publish-DscConfiguraiton</source>
+          <target state="translated">Publish-DscConfiguraiton</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Update-DscConfiguration</source>
+          <target state="translated">Update-DscConfiguration</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Restore-DscConfiguration</source>
+          <target state="translated">Restore-DscConfiguration</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Remove-DscConfigurationDocument</source>
+          <target state="translated">Remove-DscConfigurationDocument</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Get-DscConfigurationStatus</source>
+          <target state="translated">Get-DscConfigurationStatus</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Invoke-DscResource</source>
+          <target state="translated">Invoke-DscResource</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Find-DscResource</source>
+          <target state="translated">Find-DscResource</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Get-DscResource</source>
+          <target state="translated">Get-DscResource</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>New-DscChecksum</source>
+          <target state="translated">New-DscChecksum</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Compiling configurations (see <bpt id="p1">[</bpt>DSC configurations<ept id="p1">](configurations.md)</ept>)</source>
+          <target state="translated">구성 컴파일(<bpt id="p1">[</bpt>DSC 구성<ept id="p1">](configurations.md)</ept> 참조)</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Issue:<ept id="p1">**</ept> Password encryption (see <bpt id="p2">[</bpt>Securing the MOF File<ept id="p2">](securemof.md)</ept>) during configuration compilation doesn't work.</source>
+          <target state="translated"><bpt id="p1">**</bpt>문제:<ept id="p1">**</ept> 구성 컴파일 중 암호 암호화(<bpt id="p2">[</bpt>MOF 파일 보안<ept id="p2">](securemof.md)</ept> 참조)가 작동하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Compiling metaconfigurations (see <bpt id="p1">[</bpt>Configuring the Local Configuration Manager<ept id="p1">](metaConfig.md)</ept>)</source>
+          <target state="translated">메타 구성 컴파일(<bpt id="p1">[</bpt>로컬 구성 관리자 구성<ept id="p1">](metaConfig.md)</ept> 참조)</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Running a resource under user context (see <bpt id="p1">[</bpt>Running DSC with user credentials (RunAs)<ept id="p1">](runAsUser.md)</ept>)</source>
+          <target state="translated">사용자 컨텍스트에서 리소스 실행(<bpt id="p1">[</bpt>사용자 자격 증명을 사용하여 DSC 실행(RunAs)<ept id="p1">](runAsUser.md)</ept> 참조)</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Class-based resources (see <bpt id="p1">[</bpt>Writing a custom DSC resource with PowerShell classes<ept id="p1">](authoringResourceClass.md)</ept>)</source>
+          <target state="translated">클래스 기반 리소스(<bpt id="p1">[</bpt>PowerShell 클래스를 사용하여 사용자 지정 DSC 리소스 작성<ept id="p1">](authoringResourceClass.md)</ept> 참조)</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Debugging of DSC resources (see <bpt id="p1">[</bpt>Debugging DSC resources<ept id="p1">](debugresource.md)</ept>)</source>
+          <target state="translated">DSC 리소스 디버깅(<bpt id="p1">[</bpt>DSC 리소스 디버그<ept id="p1">](debugresource.md)</ept> 참조)</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Issue:<ept id="p1">**</ept> Doesn't work if a resource is using PsDscRunAsCredential (see <bpt id="p2">[</bpt>Running DSC with user credentials<ept id="p2">](runAsUser.md)</ept>)</source>
+          <target state="translated"><bpt id="p1">**</bpt>문제:<ept id="p1">**</ept> 리소스가 PsDscRunAsCredential을 사용 중인 경우 작동하지 않습니다(<bpt id="p2">[</bpt>사용자 자격 증명을 사용하여 DSC 실행<ept id="p2">](runAsUser.md)</ept> 참조).</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Specifying cross-node dependencies</source>
+          <target state="translated">노드 간 종속성 지정</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Resource versioning</source>
+          <target state="translated">리소스 버전 관리</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Pull client (configurations &amp; resources) (see <bpt id="p1">[</bpt>Setting up a pull client using configuration names<ept id="p1">](pullClientConfigNames.md)</ept>)</source>
+          <target state="translated">끌어오기 클라이언트(구성 및 리소스)(<bpt id="p1">[</bpt>구성 이름을 사용하여 끌어오기 클라이언트 설정<ept id="p1">](pullClientConfigNames.md)</ept> 참조)</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Partial configurations (pull &amp; push)</source>
+          <target state="translated">부분 구성(끌어오기 및 밀어넣기)</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Reporting to pull server</source>
+          <target state="translated">끌어오기 서버에 보고</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>MOF encryption</source>
+          <target state="translated">MOF 암호화</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Event logging</source>
+          <target state="translated">이벤트 로깅</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Azure Automation DSC reporting</source>
+          <target state="translated">Azure 자동화 DSC 보고</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Resources that are fully functional</source>
+          <target state="translated">올바르게 작동하는 리소스</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Archive</source>
+          <target state="translated">Archive</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Environment</source>
+          <target state="translated">환경</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>File</source>
+          <target state="translated">파일</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Log</source>
+          <target state="translated">로그</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>ProcessSet</source>
+          <target state="translated">ProcessSet</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Registry</source>
+          <target state="translated">레지스트리</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Script</source>
+          <target state="translated">스크립트</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>WindowsPackageCab</source>
+          <target state="translated">WindowsPackageCab</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>WindowsProcess</source>
+          <target state="translated">WindowsProcess</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>WaitForAll (see <bpt id="p1">[</bpt>Specifying cross-node dependencies<ept id="p1">](crossNodeDependencies.md)</ept>)</source>
+          <target state="translated">WaitForAll(<bpt id="p1">[</bpt>노드 간 종속성 지정<ept id="p1">](crossNodeDependencies.md)</ept> 참조)</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>WaitForAny (see <bpt id="p1">[</bpt>Specifying cross-node dependencies<ept id="p1">](crossNodeDependencies.md)</ept>)</source>
+          <target state="translated">WaitForAny(<bpt id="p1">[</bpt>노드 간 종속성 지정<ept id="p1">](crossNodeDependencies.md)</ept> 참조)</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>WaitForSome (see <bpt id="p1">[</bpt>Specifying cross-node dependencies<ept id="p1">](crossNodeDependencies.md)</ept>)</source>
+          <target state="translated">WaitForSome(<bpt id="p1">[</bpt>노드 간 종속성 지정<ept id="p1">](crossNodeDependencies.md)</ept> 참조)</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Resources that are partially functional</source>
+          <target state="translated">부분적으로 작동하는 리소스</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Group</source>
+          <target state="translated">그룹</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>GroupSet</source>
+          <target state="translated">GroupSet</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Issue:<ept id="p1">**</ept> Above resources fail if specific instance is called twice (running the same configuration twice)</source>
+          <target state="translated"><bpt id="p1">**</bpt>문제:<ept id="p1">**</ept> 특정 인스턴스를 두 번 호출하는 경우(동일한 구성을 두 번 실행) 위 리소스가 실패합니다.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Service</source>
+          <target state="translated">서비스</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>ServiceSet</source>
+          <target state="translated">ServiceSet</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Issue:<ept id="p1">**</ept> Only works for starting/stopping (status) service.</source>
+          <target state="translated"><bpt id="p1">**</bpt>문제:<ept id="p1">**</ept> 서비스 시작/중지(상태)에 대해서만 작동합니다.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Fails, if one tries to change other service attributes like startuptype, credentials, description etc..</source>
+          <target state="translated">시작 유형, 자격 증명, 설명 등과 같은 다른 서비스 특성을 변경하려고 하면 실패합니다.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The error thrown is similar to:</source>
+          <target state="translated">발생하는 오류는 다음과 같습니다.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Cannot find type [management.managementobject]: verify that the assembly containing this type is loaded.</source>
+          <target state="translated">유형[management.managementobject]을 찾을 수 없습니다. 이 유형이 포함된 어셈블리가 로드되어 있는지 검증하세요.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Resources that are not functional</source>
+          <target state="translated">작동하지 않는 리소스</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>User</source>
+          <target state="translated">사용자</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>DSC features not available on Nano Server</source>
+          <target state="translated">Nano Server에서 사용할 수 없는 DSC 기능</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The following DSC features are not currently available on Nano Server:</source>
+          <target state="translated">다음 DSC 기능은 현재 Nano Server에서 사용할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Decrypting MOF document with encrypted password(s)</source>
+          <target state="translated">암호화된 암호를 사용한 MOF 문서 암호 해독</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Pull Server--you cannot currently set up a pull server on Nano Server</source>
+          <target state="translated">끌어오기 서버--현재는 Nano Server에서 끌어오기 서버를 설정할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Anything that is not in the list of feature works</source>
+          <target state="translated">동작 기능 목록에 없는 모든 기능</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Using custom DSC resources on Nano Server</source>
+          <target state="translated">Nano Server에서 사용자 지정 DSC 리소스 사용</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Due to a limited sets of Windows APIs and CLR libraries available on Nano Server, DSC resources that work on the full CLR version of Windows do not necessarily work on Nano Server.</source>
+          <target state="translated">Nano Server에서 사용할 수 있는 Windows API 집합과 CLR 라이브러리가 한정되어 있기 때문에 Windows 전체 CLR 버전에서 동작하는 DSC 리소스가 Nano Server에서 동작하지 않을 수도 있습니다.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Complete end-to-end testing before deploying any DSC custom resources to a production environment.</source>
+          <target state="translated">DSC 사용자 지정 리소스를 프로덕션 환경에 배포하기 전에 종단 간 테스트를 완료하세요.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">참고 항목</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Getting Started with Nano Server</source>
+          <target state="translated">“Nano Server 시작”을 참조하세요.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

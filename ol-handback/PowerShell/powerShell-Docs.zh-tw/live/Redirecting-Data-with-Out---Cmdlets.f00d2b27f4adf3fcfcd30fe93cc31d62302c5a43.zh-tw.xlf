@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">955d00f61a8222ff83797fbc923357c6d85cad7a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Redirecting-Data-with-Out---Cmdlets.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2d0ad0c4d2f32c4269705a2731e0bcae5e92d8e0</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Redirecting Data with Out   Cmdlets</source>
+          <target state="translated">使用 Out Cmdlet 重新導向資料</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="translated">powershell,cmdlet</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Redirecting Data with Out-* Cmdlets</source>
+          <target state="translated">使用 Out-* Cmdlet 重新導向資料</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell provides several cmdlets that let you control data output directly.</source>
+          <target state="translated">Windows PowerShell 提供幾個可讓您直接控制資料輸出的 Cmdlet。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>These cmdlets share two important characteristics.</source>
+          <target state="translated">這些 Cmdlet 有兩個重要特性：</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>First, they generally transform data to some form of text.</source>
+          <target state="translated">首先，它們通常會將資料轉換成某種文字格式。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>They do this because they output the data to system components that require text input.</source>
+          <target state="translated">這樣做是因為它們會將資料輸出至需要文字輸入的系統元件，</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This means they need to represent the objects as text.</source>
+          <target state="translated">所以必須以文字表示物件。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Therefore, the text is formatted as you see it in the Windows PowerShell console window.</source>
+          <target state="translated">因此，文字會格式化為您在 Windows PowerShell 主控台視窗中看到的樣子。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Second, these cmdlets use the Windows PowerShell verb <bpt id="p1">**</bpt>Out<ept id="p1">**</ept> because they send information out from Windows PowerShell to somewhere else.</source>
+          <target state="translated">其次，這些 Cmdlet 使用 Windows PowerShell 動詞 <bpt id="p1">**</bpt>Out<ept id="p1">**</ept>，因為它們會將資訊從 Windows PowerShell 送出至其他位置。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Host<ept id="p1">**</ept> cmdlet is no exception: the host window display is outside of Windows PowerShell.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Host<ept id="p1">**</ept> Cmdlet 也不例外︰主機視窗顯示會在 Windows PowerShell 之外。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This is important because when data is sent out of Windows PowerShell, it is actually removed.</source>
+          <target state="translated">這點很重要，因為當資料從 Windows PowerShell 送出時，實際上會遭到移除。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can see this if you try to create a pipeline that pages data to the host window, and then attempt to format it as a list, as shown here:</source>
+          <target state="translated">如果您嘗試建立管線將資料分頁至主機視窗，然後嘗試將其格式化為清單，就會看到這種情況，如下所示︰</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You might expect the command to display pages of process information in list format.</source>
+          <target state="translated">您可能預期命令會以清單格式分頁顯示處理程序資訊。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Instead, it displays the default tabular list:</source>
+          <target state="translated">相反地，它會顯示預設的表格式清單︰</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Host<ept id="p1">**</ept> cmdlet sends the data directly to the console, so the <bpt id="p2">**</bpt>Format<ph id="ph2">\-</ph>List<ept id="p2">**</ept> command never receives anything to format.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Host<ept id="p1">**</ept> Cmdlet 會將資料直接傳送至主控台，因此 <bpt id="p2">**</bpt>Format<ph id="ph2">\-</ph>List<ept id="p2">**</ept> 命令永遠不會收到需要格式化的項目。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The correct way to structure this command is to put the <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Host<ept id="p1">**</ept> cmdlet at the end of the pipeline as shown below.</source>
+          <target state="translated">建構此命令的正確方式是將 <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Host<ept id="p1">**</ept> Cmdlet 置於管線結尾，如下所示。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This causes the process data to be formatted in a list before being paged and displayed.</source>
+          <target state="translated">這會格式化清單中的處理程序資料，再將其分頁顯示。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This applies to all of the <bpt id="p1">**</bpt>Out<ept id="p1">**</ept> cmdlets.</source>
+          <target state="translated">這適用於所有 <bpt id="p1">**</bpt>Out<ept id="p1">**</ept> Cmdlet。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">**</bpt>Out<ept id="p1">**</ept> cmdlet should always appear at the end of the pipeline.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Out<ept id="p1">**</ept> Cmdlet 一律會出現在管線結尾處。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>All the <bpt id="p1">**</bpt>Out<ept id="p1">**</ept> cmdlets render output as text, using the formatting in effect for the console window, including line length limits.</source>
+          <target state="translated">所有 <bpt id="p1">**</bpt>Out<ept id="p1">**</ept> Cmdlet 都會使用對主控台視窗有效的格式 (包括行的長度限制)，將輸出轉譯成文字。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Paging Console Output (Out<ph id="ph1">\-</ph>Host)</source>
+          <target state="translated">分頁主控台輸出 (Out<ph id="ph1">\-</ph>Host)</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>By default, Windows PowerShell sends data to the host window, which is exactly what the Out<ph id="ph1">\-</ph>Host cmdlet does.</source>
+          <target state="translated">根據預設，Windows PowerShell 會將資料傳送至主機視窗，這與 Out<ph id="ph1">\-</ph>Host Cmdlet 的功能完全相同。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The primary use for the Out<ph id="ph1">\-</ph>Host cmdlet is paging data as we discussed earlier.</source>
+          <target state="translated">如前所述，Out<ph id="ph1">\-</ph>Host Cmdlet 主要用於將資料分頁。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For example, the following command uses Out<ph id="ph1">\-</ph>Host to page the output of the Get<ph id="ph2">\-</ph>Command cmdlet:</source>
+          <target state="translated">例如，下列命令會使用 Out<ph id="ph1">\-</ph>Host 將 Get<ph id="ph2">\-</ph>Command Cmdlet 的輸出分頁︰</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You can also use the <bpt id="p1">**</bpt>more<ept id="p1">**</ept> function to page data.</source>
+          <target state="translated">您也可以使用 <bpt id="p1">**</bpt>more<ept id="p1">**</ept> 函式將資料分頁。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell, <bpt id="p1">**</bpt>more<ept id="p1">**</ept> is a function that calls <bpt id="p2">**</bpt>Out<ph id="ph1">\-</ph>Host <ph id="ph2">\-</ph>Paging<ept id="p2">**</ept>.</source>
+          <target state="translated">在 Windows PowerShell 中，<bpt id="p1">**</bpt>more<ept id="p1">**</ept> 是呼叫 <bpt id="p2">**</bpt>Out<ph id="ph1">\-</ph>Host <ph id="ph2">\-</ph>Paging<ept id="p2">**</ept> 的函數。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The following command demonstrates using the <bpt id="p1">**</bpt>more<ept id="p1">**</ept> function to page the output of Get<ph id="ph1">\-</ph>Command:</source>
+          <target state="translated">下列命令示範如何使用 <bpt id="p1">**</bpt>more<ept id="p1">**</ept> 函數將 Get<ph id="ph1">\-</ph>Command 的輸出分頁︰</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>If you include one or more filenames as arguments to the more function, the function will read the specified files and page their contents to the host:</source>
+          <target state="translated">如果您包含一或多個檔案名稱作為 more 函式的引數，該函式會讀取指定的檔案並將其內容分頁至主機︰</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Discarding Output (Out<ph id="ph1">\-</ph>Null)</source>
+          <target state="translated">捨棄輸出 (Out<ph id="ph1">\-</ph>Null)</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Null<ept id="p1">**</ept> cmdlet is designed to immediately discard any input it receives.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Null<ept id="p1">**</ept> Cmdlet 設計成可立即捨棄任何收到的輸入。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This is useful for discarding unnecessary data that you get as a side<ph id="ph1">\-</ph>effect of running a command.</source>
+          <target state="translated">這在捨棄因執行命令的副作用所得到的不必要資料時會很有用。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>When type the following command, you do not get anything back from the command:</source>
+          <target state="translated">輸入下列命令時，命令不會傳回任何項目︰</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Null<ept id="p1">**</ept> cmdlet does not discard error output.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Null<ept id="p1">**</ept> Cmdlet 不會捨棄錯誤輸出。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For example, if you enter the following command, a message is displayed informing you that Windows PowerShell does not recognize 'Is<ph id="ph1">\-</ph>NotACommand':</source>
+          <target state="translated">例如，如果您輸入下列命令，會顯示訊息通知您 Windows PowerShell 無法辨識 'Is<ph id="ph1">\-</ph>NotACommand'：</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Printing Data (Out<ph id="ph1">\-</ph>Printer)</source>
+          <target state="translated">列印資料 (Out<ph id="ph1">\-</ph>Printer)</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You can print data by using the <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Printer<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">您可以使用 <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Printer<ept id="p1">**</ept> Cmdlet 列印資料。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Printer<ept id="p1">**</ept> cmdlet will use your default printer if you do not provide a printer name.</source>
+          <target state="translated">如果您未提供印表機名稱，<bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>Printer<ept id="p1">**</ept> Cmdlet 會使用預設印表機。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You can use any Windows<ph id="ph1">\-</ph>based printer by specifying its display name.</source>
+          <target state="translated">您可以使用任何 Windows 印表機，方法是指定其顯示名稱。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>There is no need for any kind of printer port mapping or even a real physical printer.</source>
+          <target state="translated">您不需要任何印表機連接埠對應，或甚至是真正的實體印表機。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>For example, if you have the Microsoft Office document imaging tools installed, you can send the data to an image file by typing:</source>
+          <target state="translated">例如，如果您已安裝 Microsoft Office Document Imaging 工具，您可以輸入下列命令將資料傳送至影像檔︰</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Saving Data (Out<ph id="ph1">\-</ph>File)</source>
+          <target state="translated">儲存資料 (Out<ph id="ph1">\-</ph>File)</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>You can send output to a file instead of the console window by using the <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>File<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">您可以使用 <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>File<ept id="p1">**</ept> Cmdlet 將輸出傳送至檔案，而不是主控台視窗。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The following command line sends a list of processes to the file <bpt id="p1">**</bpt>C:<ph id="ph1">\\</ph>temp<ph id="ph2">\\</ph>processlist.txt<ept id="p1">**</ept>:</source>
+          <target state="translated">下列命令列會將處理程序清單傳送至檔案 <bpt id="p1">**</bpt>C:<ph id="ph1">\\</ph>temp<ph id="ph2">\\</ph>processlist.txt<ept id="p1">**</ept>：</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The results of using the <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>File<ept id="p1">**</ept> cmdlet may not be what you expect if you are used to traditional output redirection.</source>
+          <target state="translated">如果您習慣於傳統輸出重新導向，則使用 <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>File<ept id="p1">**</ept> Cmdlet 的結果可能不如您的預期。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To understand its behavior, you must be aware of the context in which the <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>File<ept id="p1">**</ept> cmdlet operates.</source>
+          <target state="translated">若要了解其行為，您必須知道 <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>File<ept id="p1">**</ept> Cmdlet 操作所在的內容。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>By default, the <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>File<ept id="p1">**</ept> cmdlet creates a Unicode file.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>File<ept id="p1">**</ept> Cmdlet 預設會建立 Unicode 檔案。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This is the best default in the long run, but it means that tools that expect ASCII files will not work correctly with the default output format.</source>
+          <target state="translated">從長遠看來，這是最佳的預設值，但這表示預期 ASCII 檔案的工具將無法以預設輸出格式正常運作。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>You can change the default output format to ASCII by using the <bpt id="p1">**</bpt>Encoding<ept id="p1">**</ept> parameter:</source>
+          <target state="translated">您可以使用 <bpt id="p1">**</bpt>Encoding<ept id="p1">**</ept> 參數，將預設輸出格式變更為 ASCII︰</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>file<ept id="p1">**</ept> formats file contents to look like console output.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>file<ept id="p1">**</ept> 會格式化檔案內容，使其看起來像是主控台輸出。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This causes the output to be truncated just as it is in a console window in most circumstances.</source>
+          <target state="translated">這會導致輸出和在大部分情況下的主控台視窗中一樣被截斷。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>For example, if you run the following command:</source>
+          <target state="translated">例如，如果您執行下列命令：</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The output will look like this:</source>
+          <target state="translated">輸出看起來像這樣：</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To get output that does not force line wraps to match the screen width, you can use the <bpt id="p1">**</bpt>Width<ept id="p1">**</ept> parameter to specify line width.</source>
+          <target state="translated">若要取得不會強制行換行以符合螢幕寬度的輸出，您可以使用<bpt id="p1">**</bpt>Width<ept id="p1">**</ept> 參數指定行的寬度。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Because <bpt id="p1">**</bpt>Width<ept id="p1">**</ept> is a 32<ph id="ph1">\-</ph>bit integer parameter, the maximum value it can have is 2147483647.</source>
+          <target state="translated">因為 <bpt id="p1">**</bpt>Width<ept id="p1">**</ept> 是 32 位元整數參數，所有可以有最大值 2147483647。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Type the following to set the line width to this maximum value:</source>
+          <target state="translated">請輸入下列命令將行的寬度設定為此最大值︰</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>File<ept id="p1">**</ept> cmdlet is most useful when you want to save output as it would have displayed on the console.</source>
+          <target state="translated">當您想要以輸出主控台上的顯示格式來儲存輸出時，<bpt id="p1">**</bpt>Out<ph id="ph1">\-</ph>File<ept id="p1">**</ept> Cmdlet 會很有用。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>For finer control over output format, you need more advanced tools.</source>
+          <target state="translated">如需更細微地控制輸出格式，您需要更進階的工具。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>We will look at those in the next chapter, along with some details about object manipulation.</source>
+          <target state="translated">我們將在下一章探討這些工具，以及有關物件操作的一些詳細資訊。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

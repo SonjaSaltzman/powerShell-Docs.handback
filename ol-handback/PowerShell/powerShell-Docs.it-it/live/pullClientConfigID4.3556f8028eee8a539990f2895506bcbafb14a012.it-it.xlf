@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">730f2f26e2811996e79cf0073a4ef65cad390687</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\pullClientConfigID4.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2a4683f02546a48c1ad24b886e59fd83f8bfbcc7</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Setting up a pull client using configuration ID in PowerShell 4.0</source>
+          <target state="translated">Configurazione di un client di pull usando un ID configurazione in PowerShell 4.0</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,DSC</source>
+          <target state="translated">powershell,DSC</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Setting up a pull client using configuration ID in PowerShell 4.0</source>
+          <target state="translated">Configurazione di un client di pull usando un ID configurazione in PowerShell 4.0</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</source>
+          <target state="translated">Si applica a: Windows PowerShell 4.0, Windows PowerShell 5.0</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Each target node has to be told to use pull mode and given the URL where it can contact the pull server to get configurations.</source>
+          <target state="translated">Per ogni nodo di destinazione è necessario specificare che venga usata la modalità pull e fornire l'URL per contattare il server di pull da cui ottenere le configurazioni.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To do this, you have to configure the Local Configuration Manager (LCM) with the necessary information.</source>
+          <target state="translated">A tale scopo, è necessario configurare Gestione configurazione locale con le informazioni richieste.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>To configure the LCM, you create a special type of configuration known as a "metaconfiguration".</source>
+          <target state="translated">Per configurare Gestione configurazione locale, è necessario creare un tipo speciale di configurazione detto "metaconfigurazione".</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For more information about configuring the LCM, see <bpt id="p1">[</bpt>Windows PowerShell 4.0 Desired State Configuration Local Configuration Manager<ept id="p1">](metaConfig4.md)</ept></source>
+          <target state="translated">Per altre informazioni sulla configurazione di Gestione configurazione locale, vedere <bpt id="p1">[</bpt>Gestione configurazione locale di Windows PowerShell 4.0 DSC (Desired State Configuration)<ept id="p1">](metaConfig4.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The following script configures the LCM to pull configurations from a server named "PullServer":</source>
+          <target state="translated">Lo script seguente configura Gestione configurazione locale per il pull delle configurazioni da un server denominato "PullServer":</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In the script, <bpt id="p1">**</bpt>DownloadManagerCustomData<ept id="p1">**</ept> passes the URL of the pull server and (for this example) allows an unsecured connection.</source>
+          <target state="translated">Nello script, <bpt id="p1">**</bpt>DownloadManagerCustomData<ept id="p1">**</ept> passa l'URL del server di pull e (per questo esempio) consente una connessione non protetta.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>After this script runs, it creates a new output folder called <bpt id="p1">**</bpt>SimpleMetaConfigurationForPull<ept id="p1">**</ept> and puts a metaconfiguration MOF file there.</source>
+          <target state="translated">Dopo essere stato eseguito, questo script crea una nuova cartella di output denominata <bpt id="p1">**</bpt>SimpleMetaConfigurationForPull<ept id="p1">**</ept> e inserisce in questa cartella un file MOF di metaconfigurazione.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To apply the configuration, use <bpt id="p1">**</bpt>Set-DscLocalConfigurationManager<ept id="p1">**</ept> with parameters for <bpt id="p2">**</bpt>ComputerName<ept id="p2">**</ept> (use “localhost”) and <bpt id="p3">**</bpt>Path<ept id="p3">**</ept> (the path to the location of the target node’s localhost.meta.mof file).</source>
+          <target state="translated">Per applicare la configurazione, usare <bpt id="p1">**</bpt>Set-DscLocalConfigurationManager<ept id="p1">**</ept> con i parametri per <bpt id="p2">**</bpt>ComputerName<ept id="p2">**</ept> (usare "localhost") e <bpt id="p3">**</bpt>Path<ept id="p3">**</ept> (percorso del file localhost.meta.mof nel nodo di destinazione).</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">Ad esempio:</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Configuration ID</source>
+          <target state="translated">ID configurazione</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The script sets the <bpt id="p1">**</bpt>ConfigurationID<ept id="p1">**</ept> property of the LCM to a GUID that had been previously created for this purpose (you can create a GUID by using the <bpt id="p2">**</bpt>New-Guid<ept id="p2">**</ept> cmdlet).</source>
+          <target state="translated">Lo script imposta la proprietà <bpt id="p1">**</bpt>ConfigurationID<ept id="p1">**</ept> di Gestione configurazione locale su un GUID creato in precedenza per questo scopo (è possibile creare un GUID usando il cmdlet <bpt id="p2">**</bpt>New-Guid<ept id="p2">**</ept>).</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ConfigurationID<ept id="p1">**</ept> is what the LCM uses to find the appropriate configuration on the pull server.</source>
+          <target state="translated">Il valore di <bpt id="p1">**</bpt>ConfigurationID<ept id="p1">**</ept> viene usato da Gestione configurazione locale per trovare la configurazione appropriata nel server di pull.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The configuration MOF file on the pull server must be named <ph id="ph1">`ConfigurationID.mof`</ph>, where <bpt id="p1">*</bpt>ConfigurationID<ept id="p1">*</ept> is the value of the <bpt id="p2">**</bpt>ConfigurationID<ept id="p2">**</ept> property of the target node's LCM.</source>
+          <target state="translated">Il file MOF di configurazione nel server di pull deve essere denominato <ph id="ph1">`ConfigurationID.mof`</ph>, dove <bpt id="p1">*</bpt>ConfigurationID<ept id="p1">*</ept> è il valore della proprietà <bpt id="p2">**</bpt>ConfigurationID<ept id="p2">**</ept> di Gestione configurazione locale del nodo di destinazione.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Pulling from an SMB server</source>
+          <target state="translated">Pull da un server SMB</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If the pull server is set up as an SMB file share, rather than a web service, you specify the <bpt id="p1">**</bpt>DscFileDownloadManager<ept id="p1">**</ept> rather than the <bpt id="p2">**</bpt>WebDownLoadManager<ept id="p2">**</ept>.</source>
+          <target state="translated">Se il server di pull viene configurato come condivisione file SMB, piuttosto che come servizio Web, specificare <bpt id="p1">**</bpt>DscFileDownloadManager<ept id="p1">**</ept> invece di <bpt id="p2">**</bpt>WebDownLoadManager<ept id="p2">**</ept>.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>DscFileDownloadManager<ept id="p1">**</ept> takes a <bpt id="p2">**</bpt>SourcePath<ept id="p2">**</ept> property instead of <bpt id="p3">**</bpt>ServerUrl<ept id="p3">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>DscFileDownloadManager<ept id="p1">**</ept> accetta una proprietà <bpt id="p2">**</bpt>SourcePath<ept id="p2">**</ept> invece di <bpt id="p3">**</bpt>ServerUrl<ept id="p3">**</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The following script configures the LCM to pull configurations from an SMB share named "SmbDscShare" on a server named "CONTOSO-SERVER":</source>
+          <target state="translated">Lo script seguente configura Gestione configurazione locale per il pull da una condivisione SMB denominata "SmbDscShare" su un server chiamato "CONTOSO-SERVER":</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">Vedere anche</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Setting up a DSC web pull server</source>
+          <target state="translated">Configurazione di un server di pull Web DSC</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Setting up a DSC SMB pull server</source>
+          <target state="translated">Configurazione di un server di pull SMB DSC</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

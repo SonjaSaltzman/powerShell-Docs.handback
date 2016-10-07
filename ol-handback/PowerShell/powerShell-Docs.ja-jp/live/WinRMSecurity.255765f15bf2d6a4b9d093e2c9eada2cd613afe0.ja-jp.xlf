@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b1addddd50368fadcbb2581673d3ebc7cad8e32a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\setup\WinRMSecurity.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2ef81001b689ee33e243425227e32df2665ee9ab</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>WinRMSecurity</source>
+          <target state="translated">WinRMSecurity</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="translated">PowerShell, コマンドレット</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>PowerShell Remoting Security Considerations</source>
+          <target state="translated">PowerShell リモート処理のセキュリティに関する考慮事項</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>PowerShell Remoting is the recommended way to manage Windows systems.</source>
+          <target state="translated">PowerShell リモート処理は、Windows システムの管理に推奨されている方法です。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>PowerShell Remoting is enabled by default in Windows Server 2012 R2.</source>
+          <target state="translated">Windows Server 2012 R2 では、PowerShell リモート処理が既定で有効になっています。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This document covers security concerns, recommendations, and best practices when using PowerShell Remoting.</source>
+          <target state="translated">このドキュメントでは、PowerShell リモート処理を使用する場合のセキュリティ上の問題、推奨事項、およびベスト プラクティスを取り上げています。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>What is PowerShell Remoting?</source>
+          <target state="translated">PowerShell リモート処理とは</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>PowerShell Remoting uses <bpt id="p1">[</bpt>Windows Remote Management (WinRM)<ept id="p1">](https://msdn.microsoft.com/en-us/library/windows/desktop/aa384426.aspx)</ept>, which is the Microsoft implementation of the <bpt id="p2">[</bpt>Web Services for Management (WS-Management)<ept id="p2">](http://www.dmtf.org/sites/default/files/standards/documents/DSP0226_1.2.0.pdf)</ept> protocol, to allow users to run PowerShell commands on remote computers.</source>
+          <target state="translated">PowerShell リモート処理は、<bpt id="p1">[</bpt>Windows リモート管理 (WinRM)<ept id="p1">](https://msdn.microsoft.com/en-us/library/windows/desktop/aa384426.aspx)</ept> を使用しています。これは、ユーザーがリモート コンピューター上で PowerShell コマンドを実行できるように、Microsoft によって <bpt id="p2">[</bpt>Web Services for Management (WS-Management)<ept id="p2">](http://www.dmtf.org/sites/default/files/standards/documents/DSP0226_1.2.0.pdf)</ept> プロトコルが実装されたものです。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can find more information about using PowerShell Remoting at <bpt id="p1">[</bpt>Running Remote Commands<ept id="p1">](https://technet.microsoft.com/en-us/library/dd819505.aspx)</ept>.</source>
+          <target state="translated">PowerShell リモート処理の使用方法の詳細については、「<bpt id="p1">[</bpt>リモート コマンドの実行<ept id="p1">](https://technet.microsoft.com/en-us/library/dd819505.aspx)</ept>」を参照してください。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>PowerShell Remoting is not the same as using the <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> parameter of a cmdlet to run it on a remote computer, which uses Remote Procedure Call (RPC) as its underlying protocol.</source>
+          <target state="translated">PowerShell リモート処理は、コマンドレットの <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> パラメーターを使用してリモート コンピューターでコマンドを実行することとは異なります。この場合は、基盤となるプロトコルとしてリモート プロシージャ コール (RPC) が使用されています。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>PowerShell Remoting default settings</source>
+          <target state="translated">PowerShell リモート処理の既定の設定</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>PowerShell Remoting (and WinRM) listen on the following ports:</source>
+          <target state="translated">PowerShell リモート処理 (および WinRM) は、次のポートをリッスンします。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>HTTP: 5985</source>
+          <target state="translated">HTTP: 5985</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>HTTPS: 5986</source>
+          <target state="translated">HTTPS: 5986</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>By default, PowerShell Remoting only allows connections from members of the Administrators group.</source>
+          <target state="translated">既定では、PowerShell リモート処理で許可されている接続は、Administrators グループのメンバーからのもののみです。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Sessions are launched under the user's context, so all operating system access controls applied to individual users and groups continue to apply to them while connected over PowerShell Remoting.</source>
+          <target state="translated">セッションはユーザーのコンテキストで開始されるため、PowerShell リモート処理を介して接続されている間は、個々のユーザーとグループに適用されているオペレーティング システムのアクセス制御がすべて、そのセッションに引き続き適用されます。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>On private networks, the default Windows Firewall rule for PowerShell Remoting accepts all connections.</source>
+          <target state="translated">プライベート ネットワークの場合、PowerShell リモート処理の既定の Windows ファイアウォール規則はすべての接続を受け入れます。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>On public networks, the default Windows Firewall rule allows PowerShell Remoting connections only from within the same subnet.</source>
+          <target state="translated">パブリック ネットワークの場合、既定の Windows ファイアウォール規則で許可されるのは、同じサブネット内からの PowerShell リモート処理接続のみです。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You have to explicitly change that rule to open PowerShell Remoting to all connections on a public network.</source>
+          <target state="translated">パブリック ネットワーク上のすべての接続に対して PowerShell リモート処理を可能にするには、その規則を明示的に変更する必要があります。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Warning:<ept id="p1">**</ept> The firewall rule for public networks is meant to protect the computer from potentially malicious external connection attempts.</source>
+          <target state="translated"><bpt id="p1">**</bpt>警告:<ept id="p1">**</ept> パブリック ネットワークのファイアウォール規則は、悪意のある外部接続からコンピューターを保護することを目的としています。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Use caution when removing this rule.</source>
+          <target state="translated">この規則を削除する際は注意してください。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Process isolation</source>
+          <target state="translated">プロセスの分離</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>PowerShell Remoting uses <bpt id="p1">[</bpt>Windows Remote Management (WinRM)<ept id="p1">](https://msdn.microsoft.com/en-us/library/windows/desktop/aa384426)</ept> for communication between computers.</source>
+          <target state="translated">PowerShell リモート処理では、コンピューター間の通信に <bpt id="p1">[</bpt>Windows リモート管理 (WinRM)<ept id="p1">](https://msdn.microsoft.com/en-us/library/windows/desktop/aa384426)</ept> を使用します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>WinRM runs as a service under the Network Service account, and spawns isolated processes running as user accounts to host PowerShell instances.</source>
+          <target state="translated">WinRM は Network Service アカウントでサービスとして実行されており、ユーザー アカウントとして実行される分離プロセスを生成して、PowerShell インスタンスをホストします。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>An instance of PowerShell running as one user has no access to a process running an instance of PowerShell as another user.</source>
+          <target state="translated">1 ユーザーとして実行されている PowerShell のインスタンスは、別のユーザーとして PowerShell のインスタンスを実行しているプロセスにアクセスすることはできません。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Event logs generated by PowerShell Remoting</source>
+          <target state="translated">PowerShell リモート処理によって生成されたイベント ログ</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>FireEye has provided a good summary of the event logs and other security evidence generated by PowerShell Remoting sessions, available at</source>
+          <target state="translated">FireEye は、PowerShell リモート処理セッションによって生成されたイベント ログやその他のセキュリティ証拠をまとめたものを提供しています。これは、概要をまとめられています。これについては、</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Investigating PowerShell Attacks<ept id="p1">](https://www.fireeye.com/content/dam/fireeye-www/global/en/solutions/pdfs/wp-lazanciyan-investigating-powershell-attacks.pdf)</ept>.</source>
+          <target state="translated"><bpt id="p1">[</bpt>Investigating PowerShell Attacks (PowerShell 攻撃の調査)」を参照してください<ept id="p1">](https://www.fireeye.com/content/dam/fireeye-www/global/en/solutions/pdfs/wp-lazanciyan-investigating-powershell-attacks.pdf)</ept>。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Encryption and transport protocols</source>
+          <target state="translated">暗号化とトランスポート プロトコル</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>It is helpful to consider the security of a PowerShell Remoting connection from two perspectives: initial authentication, and ongoing communication.</source>
+          <target state="translated">PowerShell リモート処理の接続のセキュリティについては、初期認証と進行中の通信という 2 つの観点から考慮することをお勧めします。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Regardless of the transport protocol used (HTTP or HTTPS), PowerShell Remoting always encrypts all communication after initial authentication with a per-session AES-256 symmetric key.</source>
+          <target state="translated">使用されているトランスポート プロトコル (HTTP または HTTPS) に関係なく、PowerShell リモート処理では、常にすべての通信が、初期認証後に、セッションごとの AES 256 対称キーを使用して暗号化されます。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Initial authentication</source>
+          <target state="translated">初期認証</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Authentication confirms the identity of the client to the server - and ideally - the server to the client.</source>
+          <target state="translated">認証では、サーバーに対するクライアントの ID と、理想的にはクライアントに対するサーバーを確認します。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>When a client connects to a domain server using its computer name (i.e.: server01, or server01.contoso.com), the default authentication protocol is <bpt id="p1">[</bpt>Kerberos<ept id="p1">](https://msdn.microsoft.com/en-us/library/windows/desktop/aa378747.aspx)</ept>.</source>
+          <target state="translated">クライアントがコンピューター名 (server01 や server01.contoso.com など) を使用してドメイン サーバーに接続する場合、既定の認証プロトコルは <bpt id="p1">[</bpt>Kerberos<ept id="p1">](https://msdn.microsoft.com/en-us/library/windows/desktop/aa378747.aspx)</ept> です。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Kerberos guarantees both the user identity and server identity without sending any sort of reusable credential.</source>
+          <target state="translated">Kerberos では、再利用可能な資格情報を送信しなくても、ユーザー ID とサーバー ID の両方が保証されます。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>When a client connects to a domain server using its IP address, or connects to a workgroup server, Kerberos authentication is not possible.</source>
+          <target state="translated">クライアントが IP アドレスを使用してドメイン サーバーに接続する場合、またはワークグループ サーバーに接続する場合は、Kerberos 認証を使用できません。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>In that case, PowerShell Remoting relies on the <bpt id="p1">[</bpt>NTLM authentication protocol<ept id="p1">](https://msdn.microsoft.com/en-us/library/windows/desktop/aa378749.aspx)</ept>.</source>
+          <target state="translated">その場合は、PowerShell リモート処理は <bpt id="p1">[</bpt>NTLM 認証プロトコル<ept id="p1">](https://msdn.microsoft.com/en-us/library/windows/desktop/aa378749.aspx)</ept>を利用します。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The NTLM authentication protocol guarantees the user identity without sending any sort of delegable credential.</source>
+          <target state="translated">NTLM 認証プロトコルでは、委任可能な資格情報を送信しなくてもユーザー ID が保証されます。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To prove user identity, the NTLM protocol requires that both the client and server compute a session key from the user's password without ever exchanging the password itself.</source>
+          <target state="translated">NTLM プロトコルは、ユーザー ID を証明するために、クライアントとサーバーの両方でユーザーのパスワードからセッション キーを計算することを要求します。パスワード自体は交換しません。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The server typically does not know the user's password, so it communicates with the domain controller, which does know the user's password and calculates the session key for the server.</source>
+          <target state="translated">サーバーは、通常ユーザーのパスワードを知らないため、ドメイン コントローラーと通信します。ドメイン コントローラーがユーザーのパスワードを知っていて、サーバー用にセッション キーを計算します。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The NTLM protocol does not, however, guarantee server identity.</source>
+          <target state="translated">一方、NTLM プロトコルでは、サーバー ID が保証されません。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>As with all protocols that use NTLM for authentication, an attacker with access to a domain-joined computer's machine account could invoke the domain controller to compute an NTLM session-key and thereby impersonate the server.</source>
+          <target state="translated">ドメインに参加しているコンピューターのコンピューター アカウントにアクセスできる攻撃者は、認証に NTLM を使用するプロトコルと同様にドメイン コントローラーを呼び出して NTLM セッション キーを計算することで、サーバーになりすます場合があります。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>NTLM-based authentication is disabled by default, but may be permitted by either configuring SSL on the target server, or by configuring the WinRM TrustedHosts setting on the client.</source>
+          <target state="translated">NTLM ベースの認証は既定では無効になっていますが、ターゲット サーバーで SSL を構成するか、クライアントで WinRM TrustedHosts 設定を構成することで許可できます。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Using SSL certificates to validate server identity during NTLM-based connections</source>
+          <target state="translated">NTLM ベースの接続時に SSL 証明書を使用してサーバー ID を検証する</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Since the NTLM authentication protocol cannot ensure the identity of the target server (only that it already knows your password), you can configure target servers to use SSL for PowerShell Remoting.</source>
+          <target state="translated">NTLM 認証プロトコルではターゲット サーバーの ID を保証できないため (パスワードを認識しているだけのため)、PowerShell リモート処理に SSL を使用するようターゲット サーバーを構成できます。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Assigning a SSL certificate to the target server (if issued by a Certificate Authority that the client also trusts) enables NTLM-based authentication that guarantees both the user identity and server identity.</source>
+          <target state="translated">SSL 証明書をターゲット サーバーに割り当てると (クライアントも信頼している証明機関によって発行されている場合)、ユーザー ID とサーバー ID の両方が保証される NTLM ベースの認証が可能になります。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Ignoring NTLM-based server identity errors</source>
+          <target state="translated">NTLM ベースのサーバー ID を無視する</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If deploying a SSL certificate to a server for NTLM connections is infeasible, you may suppress the resulting identity errors by adding the server to the WinRM <bpt id="p1">**</bpt>TrustedHosts<ept id="p1">**</ept> list.</source>
+          <target state="translated">SSL 証明書を NTLM 接続用のサーバーに展開できない場合は、そのサーバーを WinRM の <bpt id="p1">**</bpt>TrustedHosts<ept id="p1">**</ept> 一覧に追加することで ID エラーの発生を抑制できます。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Please note that adding a server name to the TrustedHosts list should not be considered as any form of statement of the trustworthiness of the hosts themselves - as the NTLM authentication protocol cannot guarantee that you are in fact connecting to the host you are intending to connect to.</source>
+          <target state="translated">ホスト自体の信頼性を示すために、サーバー名を TrustedHosts の一覧に追加することは考えないでください。NTLM 認証プロトコルでは、実際に接続しているホストが、必ずしも意図して接続しているホストであるとは限りません。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Instead, you should consider the TrustedHosts setting to be the list of hosts for which you wish to suppress the error generated by being unable to verify the server's identity.</source>
+          <target state="translated">代わりに、TrustedHosts の設定を、サーバーの ID を確認できないことが原因で生成されたエラーを抑制するホストの一覧と考える必要があります。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Ongoing Communication</source>
+          <target state="translated">進行中の通信</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Once initial authentication is complete, the <bpt id="p1">[</bpt>PowerShell Remoting Protocol<ept id="p1">](https://msdn.microsoft.com/en-us/library/dd357801.aspx)</ept> encrypts all ongoing communication with a per-session AES-256 symmetric key.</source>
+          <target state="translated">初期認証が完了すると、<bpt id="p1">[</bpt>PowerShell リモート処理プロトコル<ept id="p1">](https://msdn.microsoft.com/en-us/library/dd357801.aspx)</ept>によって、進行中の通信はすべて、セッションごとの AES 256 対称キーを使用して暗号化されます。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Making the second hop</source>
+          <target state="translated">次ホップの実行</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>By default, PowerShell Remoting uses Kerberos (if available) or NTLM for authentication.</source>
+          <target state="translated">PowerShell リモート処理では、既定で、認証に Kerberos (使用可能な場合) または NTLM が使用されます。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Both of these protocols authenticate to the remote machine without sending credentials to it.</source>
+          <target state="translated">このどちらのプロトコルも、資格情報を送信することなく、リモート コンピューターに対して認証を行います。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>This is the most secure way to authenticate, but because the remote machine does not have the user's credentials, it cannot access other computers and services on the user's behalf.</source>
+          <target state="translated">これは認証方法としては最も安全ですが、リモート コンピューターにユーザーの資格情報がないため、このリモート コンピューターは、ユーザーに代わって他のコンピューターおよびサービスにアクセスすることはできません。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>This is known as the "Double-Hop" problem.</source>
+          <target state="translated">これは "ダブルホップ" 問題と呼ばれます。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>There are several ways to avoid this problem:</source>
+          <target state="translated">この問題を回避する方法はいくつかあります。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Kerberos Constrained Delegation</source>
+          <target state="translated">Kerberos の制約付き委任</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>For highly trusted servers, you can enable <bpt id="p1">[</bpt>Kerberos Constrained Delegation<ept id="p1">](https://technet.microsoft.com/en-us/library/cc995228.aspx)</ept>.</source>
+          <target state="translated">信頼性の高いサーバーの場合は、<bpt id="p1">[</bpt>Kerberos の制約付き委任<ept id="p1">](https://technet.microsoft.com/en-us/library/cc995228.aspx)</ept>を有効にすることができます。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>This allows the remote server to impersonate the authenticated user to a specified list of computers and services.</source>
+          <target state="translated">これにより、リモート サーバーが、指定したコンピューターおよびサービス一覧に対して認証済みユーザーを偽装できるようになります。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Trust between remote computers</source>
+          <target state="translated">リモート コンピューター間の信頼</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>If you trust users connected remotely to <bpt id="p1">*</bpt>Server1<ept id="p1">*</ept> to resources on <bpt id="p2">*</bpt>Server2<ept id="p2">*</ept>, you can explicitly grant <bpt id="p3">*</bpt>Server1<ept id="p3">*</ept> access to those resources.</source>
+          <target state="translated"><bpt id="p2">*</bpt>Server2<ept id="p2">*</ept> のリソースについて <bpt id="p1">*</bpt>Server1<ept id="p1">*</ept> にリモート接続されたユーザーを信頼する場合、そのリソースへのアクセスを <bpt id="p3">*</bpt>Server1<ept id="p3">*</ept> に明示的に許可できます。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Use explicit credentials when accessing remote resources</source>
+          <target state="translated">リモート リソースにアクセスする際に明示的な資格情報を使用する</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>You can explicitly pass your credentials to a remote resource by using the <bpt id="p1">**</bpt>Credential<ept id="p1">**</ept> parameter of a cmdlet.</source>
+          <target state="translated">資格情報をリモート リソースに明示的に渡すには、コマンドレットの <bpt id="p1">**</bpt>Credential<ept id="p1">**</ept> パラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">たとえば、次のように入力します。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>CredSSP</source>
+          <target state="translated">CredSSP</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">[</bpt>Credential Security Support Provider (CredSSP)<ept id="p1">](https://msdn.microsoft.com/en-us/library/windows/desktop/bb931352.aspx)</ept> for authentication (by specifying "CredSSP" as the value of the <ph id="ph1">`Authentication`</ph> parameter of a call to the <bpt id="p2">[</bpt>New-PSSession<ept id="p2">](https://technet.microsoft.com/en-us/library/hh849717.aspx)</ept> cmdlet.</source>
+          <target state="translated">認証に<bpt id="p1">[</bpt>資格情報のセキュリティ サポート プロバイダー (CredSSP)<ept id="p1">](https://msdn.microsoft.com/en-us/library/windows/desktop/bb931352.aspx)</ept> を使用するには、<bpt id="p2">[</bpt>New-PSSession<ept id="p2">](https://technet.microsoft.com/en-us/library/hh849717.aspx)</ept> コマンドレットの呼び出しの <ph id="ph1">`Authentication`</ph> パラメーター値として "CredSSP" を指定します。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>CredSSP passes credentials in plain text to the server, so using it opens you up to credential theft attacks.</source>
+          <target state="translated">CredSSP は資格情報をプレーン テキストでサーバーに渡すため、これを使用すると資格情報の盗難攻撃にさらされます。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>If the remote computer is compromised, the attacker has access to the user's credentials.</source>
+          <target state="translated">リモート コンピューターが侵害されると、攻撃者はユーザーの資格情報にアクセスできます。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>CredSSP is disabled by default on both client and server computers.</source>
+          <target state="translated">CredSSP は、既定では、クライアント コンピューターとサーバー コンピューターの両方で無効になっています。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>You should enable CredSSP only in the most trusted environments.</source>
+          <target state="translated">CredSSP は、最も信頼性の高い環境でのみ有効にしてください。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>For example, a domain administrator connecting to a domain controller because the domain controller is highly trusted.</source>
+          <target state="translated">たとえば、ドメイン コントローラーは信頼性が高いため、ドメイン コントローラーに接続しているドメイン管理者が有効にすることをお勧めします。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>For more information about security concerns when using CredSSP for PowerShell Remoting, see <bpt id="p1">[</bpt>Accidental Sabotage: Beware of CredSSP<ept id="p1">](http://www.powershellmagazine.com/2014/03/06/accidental-sabotage-beware-of-credssp)</ept>.</source>
+          <target state="translated">PowerShell リモート処理で CredSSP を使用する場合のセキュリティに関する注意事項の詳細については、「<bpt id="p1">[</bpt>Accidental Sabotage: Beware of CredSSP (予想外の妨害行為: CredSSP に関する注意事項)<ept id="p1">](http://www.powershellmagazine.com/2014/03/06/accidental-sabotage-beware-of-credssp)</ept>」を参照してください。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>For more information about credential theft attacks, see <bpt id="p1">[</bpt>Mitigating Pass-the-Hash (PtH) Attacks and Other Credential Theft<ept id="p1">](https://www.microsoft.com/en-us/download/details.aspx?id=36036)</ept>.</source>
+          <target state="translated">資格情報の盗難攻撃の詳細については、「<bpt id="p1">[</bpt>Mitigating Pass-the-Hash (PtH) Attacks and Other Credential Theft (Pass-the-Hash (PtH) 攻撃とその他の資格情報の盗難の抑制)<ept id="p1">](https://www.microsoft.com/en-us/download/details.aspx?id=36036)</ept>」を参照してください。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
