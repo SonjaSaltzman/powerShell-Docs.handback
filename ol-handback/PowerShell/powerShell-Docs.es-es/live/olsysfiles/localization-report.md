@@ -1539,8 +1539,8 @@
 * Archive Datetime: 2016-08-23 13:36:22
 * Handback File: [pullClientConfigID.1b955603d220e49bbe52711bacf74c46feec04cc.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cb8a1b32a7fae4d07e1790e0f6752bafe43a9bbd/ol-handback/PowerShell/powerShell-Docs.es-es/live/pullClientConfigID.1b955603d220e49bbe52711bacf74c46feec04cc.es-es.xlf)
 * Handback Datetime: 2016-10-07 14:16:48
-* Bilingual File: [pullClientConfigID.1b955603d220e49bbe52711bacf74c46feec04cc.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/4d1fa880d34d37b9ba0d95f4b9d7612b130b95ab/ol-handback/PowerShell/powerShell-Docs.es-es/live/pullClientConfigID.1b955603d220e49bbe52711bacf74c46feec04cc.es-es.xlf)
-* Bilingual Datetime: 2016-10-05 23:29:17
+* Bilingual File: [pullClientConfigID.1b955603d220e49bbe52711bacf74c46feec04cc.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cb8a1b32a7fae4d07e1790e0f6752bafe43a9bbd/ol-handback/PowerShell/powerShell-Docs.es-es/live/pullClientConfigID.1b955603d220e49bbe52711bacf74c46feec04cc.es-es.xlf)
+* Bilingual Datetime: 2016-10-07 14:20:42
 * [Back to Top](#report-top)
 
 ##### <a name='730f2f26e2811996e79cf0073a4ef65cad39068777'></a> Source: [dsc\pullClientConfigID4.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/pullClientConfigID4.md)
@@ -1595,8 +1595,8 @@
 * Archive Datetime: 2016-08-23 13:36:22
 * Handback File: [pullServerSMB.772aec5ae27ccb19ced78e3eb665a4e16db1c4df.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cb8a1b32a7fae4d07e1790e0f6752bafe43a9bbd/ol-handback/PowerShell/powerShell-Docs.es-es/live/pullServerSMB.772aec5ae27ccb19ced78e3eb665a4e16db1c4df.es-es.xlf)
 * Handback Datetime: 2016-10-07 14:16:48
-* Bilingual File: [pullServerSMB.772aec5ae27ccb19ced78e3eb665a4e16db1c4df.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/4d1fa880d34d37b9ba0d95f4b9d7612b130b95ab/ol-handback/PowerShell/powerShell-Docs.es-es/live/pullServerSMB.772aec5ae27ccb19ced78e3eb665a4e16db1c4df.es-es.xlf)
-* Bilingual Datetime: 2016-10-05 23:29:17
+* Bilingual File: [pullServerSMB.772aec5ae27ccb19ced78e3eb665a4e16db1c4df.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cb8a1b32a7fae4d07e1790e0f6752bafe43a9bbd/ol-handback/PowerShell/powerShell-Docs.es-es/live/pullServerSMB.772aec5ae27ccb19ced78e3eb665a4e16db1c4df.es-es.xlf)
+* Bilingual Datetime: 2016-10-07 14:20:42
 * [Back to Top](#report-top)
 
 ##### <a name='02bb8458796d60991a05a8250f3bf8f3261ffce181'></a> Source: [dsc\queryServerNodes.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/queryServerNodes.md)
@@ -3232,8 +3232,8 @@
 * Archive Datetime: 2016-08-23 13:36:22
 * Handback File: [PSLocalAccount5-Module.a7e83f58ab929ab35f35df26d85766b5d8e6846d.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cb8a1b32a7fae4d07e1790e0f6752bafe43a9bbd/ol-handback/PowerShell/powerShell-Docs.es-es/live/PSLocalAccount5-Module.a7e83f58ab929ab35f35df26d85766b5d8e6846d.es-es.xlf)
 * Handback Datetime: 2016-10-07 14:16:48
-* Bilingual File: [PSLocalAccount5-Module.a7e83f58ab929ab35f35df26d85766b5d8e6846d.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/4d1fa880d34d37b9ba0d95f4b9d7612b130b95ab/ol-handback/PowerShell/powerShell-Docs.es-es/live/PSLocalAccount5-Module.a7e83f58ab929ab35f35df26d85766b5d8e6846d.es-es.xlf)
-* Bilingual Datetime: 2016-10-05 23:29:17
+* Bilingual File: [PSLocalAccount5-Module.a7e83f58ab929ab35f35df26d85766b5d8e6846d.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cb8a1b32a7fae4d07e1790e0f6752bafe43a9bbd/ol-handback/PowerShell/powerShell-Docs.es-es/live/PSLocalAccount5-Module.a7e83f58ab929ab35f35df26d85766b5d8e6846d.es-es.xlf)
+* Bilingual Datetime: 2016-10-07 14:20:42
 * [Back to Top](#report-top)
 
 ##### <a name='483d96a5df9a1bbbbdaa0cb76657a4aba0dafe80205'></a> Source: [scripting\core-powershell\core-modules\PSReadline-Module.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/core-powershell/core-modules/PSReadline-Module.md)
@@ -5872,8 +5872,8 @@
 * Archive Datetime: 2016-08-23 13:36:22
 * Handback File: [psget_moduledependency.b230bb725b1be8352ddbb06879144284e90d1972.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cb8a1b32a7fae4d07e1790e0f6752bafe43a9bbd/ol-handback/PowerShell/powerShell-Docs.es-es/live/psget_moduledependency.b230bb725b1be8352ddbb06879144284e90d1972.es-es.xlf)
 * Handback Datetime: 2016-10-07 14:16:48
-* Bilingual File: [psget_moduledependency.b230bb725b1be8352ddbb06879144284e90d1972.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/4d1fa880d34d37b9ba0d95f4b9d7612b130b95ab/ol-handback/PowerShell/powerShell-Docs.es-es/live/psget_moduledependency.b230bb725b1be8352ddbb06879144284e90d1972.es-es.xlf)
-* Bilingual Datetime: 2016-10-05 23:29:17
+* Bilingual File: [psget_moduledependency.b230bb725b1be8352ddbb06879144284e90d1972.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cb8a1b32a7fae4d07e1790e0f6752bafe43a9bbd/ol-handback/PowerShell/powerShell-Docs.es-es/live/psget_moduledependency.b230bb725b1be8352ddbb06879144284e90d1972.es-es.xlf)
+* Bilingual Datetime: 2016-10-07 14:20:42
 * [Back to Top](#report-top)
 
 ##### <a name='644781a07bed2df5464d8090155522ae7477a11e396'></a> Source: [wmf\5.0\psget_modulesxsinstall.md](https://github.com/PowerShell/powerShell-Docs/blob/b32cb86b7a18fee929cc81360d81f479571a74c2/wmf/5.0/psget_modulesxsinstall.md)
