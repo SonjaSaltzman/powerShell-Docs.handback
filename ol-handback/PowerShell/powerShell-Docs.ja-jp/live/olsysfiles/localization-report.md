@@ -23853,8 +23853,8 @@
 * Handoff Reason: Include
 * Archive File: [compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/7335cf8b2afedab734cc61f060b2bc425c50d491/ol-archive/PowerShell/powerShell-Docs.ja-jp/live/compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.ja-jp.xlf)
 * Archive Datetime: 2016-08-23 13:31:14
-* Handback File: [compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ac7579c3a922e616011f5d17858b91a9ce25f57c/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.ja-jp.xlf)
-* Handback Datetime: 2016-10-06 08:08:00
+* Handback File: [compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/42d9a632f9b07ccafb0b89c7c61e8a8bd66e601f/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.ja-jp.xlf)
+* Handback Datetime: 2016-10-12 20:41:23
 * Bilingual File: [compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.ja-jp.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ac7579c3a922e616011f5d17858b91a9ce25f57c/ol-handback/PowerShell/powerShell-Docs.ja-jp/live/compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.ja-jp.xlf)
 * Bilingual Datetime: 2016-10-06 08:09:19
 * [Back to Top](#report-top)
