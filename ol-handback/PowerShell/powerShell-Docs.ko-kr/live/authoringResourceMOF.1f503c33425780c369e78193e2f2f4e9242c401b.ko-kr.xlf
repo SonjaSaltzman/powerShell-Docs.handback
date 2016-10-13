@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">50b99917f15d290db30da1b1b752d668d886ec50</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\authoringResourceMOF.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fdb1ab109e943175773e3ae3ce94d2cccf682e16</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5ed49f6b0d93975933f3b13652e9517a0122e978</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Writing a custom DSC resource with MOF</source>
+          <target state="translated">MOF를 사용하여 사용자 지정 DSC 리소스 작성</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,DSC</source>
+          <target state="translated">powershell,DSC</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Writing a custom DSC resource with MOF</source>
+          <target state="translated">MOF를 사용하여 사용자 지정 DSC 리소스 작성</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</source>
+          <target state="translated">적용 대상: Windows PowerShell 4.0, Windows PowerShell 5.0</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In this topic, we will define the schema for a Windows PowerShell Desired State Configuration (DSC) custom resource in a MOF file, and implement the resource in a Windows PowerShell script file.</source>
+          <target state="translated">이 항목에서는 MOF 파일에 Windows PowerShell DSC(필요한 상태 구성) 사용자 지정 리소스에 대한 스키마를 정의하고 Windows PowerShell 스크립트 파일에 리소스를 구현합니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This custom resource is for creating and maintaining a web site.</source>
+          <target state="translated">이 사용자 지정 리소스는 웹 사이트를 만들고 유지 관리하기 위한 것입니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Creating the MOF schema</source>
+          <target state="translated">MOF 스키마 만들기</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The schema defines the properties of your resource that can be configured by a DSC configuration script.</source>
+          <target state="translated">스키마는 DSC 구성 스크립트를 통해 구성할 수 있는 리소스의 속성을 정의합니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Folder structure for a MOF resource</source>
+          <target state="translated">MOF 리소스에 대한 폴더 구조</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To implement a DSC custom resource with a MOF schema, create the following folder structure.</source>
+          <target state="translated">MOF 스키마를 사용하여 DSC 사용자 지정 리소스를 구현하려면 다음 폴더 구조를 만듭니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The MOF schema is defined in the file Demo_IISWebsite.schema.mof, and the resource script is defined in Demo_IISWebsite.psm1.</source>
+          <target state="translated">MOF 스키마는 Demo_IISWebsite.schema.mof 파일에 정의되며, 리소스 스크립트는 Demo_IISWebsite.psm1에 정의됩니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Optionally, you can create a module manifest (psd1) file.</source>
+          <target state="translated">필요에 따라 모듈 매니페스트(psd1) 파일을 만들 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Note that it is necessary to create a folder named DSCResources under the top-level folder, and that the folder for each resource must have the same name as the resource.</source>
+          <target state="translated">최상위 폴더 아래에 DSCResources라는 폴더를 만들어야 하며, 각 리소스에 대한 폴더의 이름은 리소스의 이름과 동일해야 합니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The contents of the MOF file</source>
+          <target state="translated">MOF 파일의 내용</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Following is an example MOF file that can be used for a custom website resource.</source>
+          <target state="translated">다음은 사용자 지정 웹 사이트 리소스에 사용할 수 있는 MOF 파일의 예입니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To follow this example, save this schema to a file, and call the file <bpt id="p1">*</bpt>Demo_IISWebsite.schema.mof<ept id="p1">*</ept>.</source>
+          <target state="translated">이 예제를 수행하려면 이 스키마를 파일에 저장하고 <bpt id="p1">*</bpt>Demo_IISWebsite.schema.mof<ept id="p1">*</ept> 파일을 호출합니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Note the following about the previous code:</source>
+          <target state="translated">앞의 코드에 대해 다음 사항에 주목합니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>defines the name you can use to refer to this custom resource in DSC configuration scripts.</source>
+          <target state="translated">은 DSC 구성 스크립트에서 이 사용자 지정 리소스를 참조하는 데 사용할 수 있는 이름을 정의합니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In this example, <ph id="ph1">`Website`</ph> is equivalent to the friendly name <ph id="ph2">`Archive`</ph> for the built-in Archive resource.</source>
+          <target state="translated">이 예제에서 <ph id="ph1">`Website`</ph>는 기본 제공 보관 리소스에 대한 이름인 <ph id="ph2">`Archive`</ph>와 동등합니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The class you define for your custom resource must derive from <ph id="ph1">`OMI_BaseResource`</ph>.</source>
+          <target state="translated">사용자 지정 리소스에 대해 정의하는 클래스는 <ph id="ph1">`OMI_BaseResource`</ph>에서 파생해야 합니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The type qualifier, <ph id="ph1">`[Key]`</ph>, on a property indicates that this property will uniquely identify the resource instance.</source>
+          <target state="translated">속성의 형식 한정자 <ph id="ph1">`[Key]`</ph>는 이 속성이 리소스 인스턴스를 고유하게 식별할 것임을 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>At least one <ph id="ph1">`[Key]`</ph> property is required.</source>
+          <target state="translated">하나 이상의 <ph id="ph1">`[Key]`</ph> 속성이 필요합니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`[Required]`</ph> qualifier indicates that the property is required (a value must be specified in any configuration script that uses this resource).</source>
+          <target state="translated"><ph id="ph1">`[Required]`</ph> 한정자는 이 속성이 필수임을 나타냅니다(이 리소스를 사용하는 모든 구성 스크립트에서 값을 지정해야 함).</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`[write]`</ph> qualifier indicates that this property is optional when using the custom resource in a configuration script.</source>
+          <target state="translated"><ph id="ph1">`[write]`</ph> 한정자는 구성 스크립트에서 사용자 지정 리소스를 사용할 때 이 속성이 선택 사항임을 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`[read]`</ph> qualifier indicates that a property cannot be set by a configuration, and is for reporting purposes only.</source>
+          <target state="translated"><ph id="ph1">`[read]`</ph> 한정자는 속성이 구성으로 설정되지 않으며, 보고만을 위한 것임을 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>restricts the values that can be assigned to the property to the list of values defined in <ph id="ph1">`ValueMap`</ph>.</source>
+          <target state="translated">는 속성에 지정된 할당할 수 있는 값을 <ph id="ph1">`ValueMap`</ph>에 정의된 값 목록으로 제한합니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>ValueMap and Value Qualifiers<ept id="p1">](https://msdn.microsoft.com/library/windows/desktop/aa393965.aspx)</ept>.</source>
+          <target state="translated">자세한 내용은 <bpt id="p1">[</bpt>ValueMap and Value Qualifiers(ValueMap 및 값 한정자)<ept id="p1">](https://msdn.microsoft.com/library/windows/desktop/aa393965.aspx)</ept>를 참조합니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Including a property called <ph id="ph1">`Ensure`</ph> with values <ph id="ph2">`Present`</ph> and <ph id="ph3">`Absent`</ph> in your resource is recommended as a way to maintain a consistent style with built-in DSC resources.</source>
+          <target state="translated">기본 제공 DSC 리소스와 일관된 스타일을 유지하는 방법으로서, 리소스에 <ph id="ph2">`Present`</ph> 및 <ph id="ph3">`Absent`</ph> 값을 갖는 <ph id="ph1">`Ensure`</ph>라는 속성을 포함하는 것이 좋습니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Name the schema file for your custom resource as follows: <ph id="ph1">`classname.schema.mof`</ph>, where <ph id="ph2">`classname`</ph> is the identifier that follows the <ph id="ph3">`class`</ph> keyword in your schema definition.</source>
+          <target state="translated">사용자 지정 리소스에 대한 스키마 파일의 이름을 <ph id="ph1">`classname.schema.mof`</ph>와 같이 지정합니다. 여기서 <ph id="ph2">`classname`</ph>는 스키마 정의에서 <ph id="ph3">`class`</ph> 키워드의 뒤에 오는 식별자입니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Writing the resource script</source>
+          <target state="translated">리소스 스크립트 작성</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The resource script implements the logic of the resource.</source>
+          <target state="translated">리소스 스크립트는 리소스의 논리를 구현합니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>In this module, you must include three functions called <bpt id="p1">**</bpt>Get-TargetResource<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Set-TargetResource<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Test-TargetResource<ept id="p3">**</ept>.</source>
+          <target state="translated">이 모듈에서는 <bpt id="p1">**</bpt>Get-TargetResource<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Set-TargetResource<ept id="p2">**</ept> 및 <bpt id="p3">**</bpt>Test-TargetResource<ept id="p3">**</ept>라는 세 가지 함수를 포함해야 합니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>All three functions must take a parameter set that is identical to the set of properties defined in the MOF schema that you created for your resource.</source>
+          <target state="translated">세 함수는 모두 리소스용으로 만든 MOF 스키마에 정의된 속성 집합과 동일한 매개 변수 집합을 사용해야 합니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>In this document, this set of properties is referred to as the “resource properties.”</source>
+          <target state="translated">이 문서에서는 이 속성 집합을 "리소스 속성"이라고 합니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Store these three functions in a file called <ph id="ph1">&lt;ResourceName&gt;</ph>.psm1.</source>
+          <target state="translated">이 세 개의 함수를 <ph id="ph1">&lt;ResourceName&gt;</ph>.psm1이라는 파일에 저장합니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>In the following example, the functions are stored in a file called Demo_IISWebsite.psm1.</source>
+          <target state="translated">다음 예제에서는 이 함수들이 Demo_IISWebsite.psm1이라는 파일에 저장됩니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: When you run the same configuration script on your resource more than once, you should receive no errors and the resource should remain in the same state as running the script once.</source>
+          <target state="translated"><bpt id="p1">**</bpt>참고<ept id="p1">**</ept>: 리소스에 대해 동일한 구성 스크립트를 두 번 이상 실행해도 오류가 표시되지 않으며, 리소스는 스크립트를 한 번 실행하는 것과 동일한 상태로 유지되어야 합니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To accomplish this, ensure that your <bpt id="p1">**</bpt>Get-TargetResource<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Test-TargetResource<ept id="p2">**</ept> functions leave the resource unchanged, and that invoking the <bpt id="p3">**</bpt>Set-TargetResource<ept id="p3">**</ept> function more than once in a sequence with the same parameter values is always equivalent to invoking it once.</source>
+          <target state="translated">이 작업을 해내려면 <bpt id="p1">**</bpt>Get-TargetResource<ept id="p1">**</ept> 및 <bpt id="p2">**</bpt>Test-TargetResource<ept id="p2">**</ept> 함수가 리소스를 변경하지 않고 그대로 두고, <bpt id="p3">**</bpt>Set-TargetResource<ept id="p3">**</ept> 함수를 동일한 매개 변수 값으로 순서대로 두 번 이상 호출하는 것은 한 번 호출하는 것과 항상 동일한지 확인합니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Get-TargetResource<ept id="p1">**</ept> function implementation, use the key resource property values that are provided as parameters to check the status of the specified resource instance.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get-TargetResource<ept id="p1">**</ept> 함수 구현에서는 매개 변수로 제공되는 주요 리소스 속성 값을 사용하여 지정된 리소스 인스턴스 상태를 확인합니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This function must return a hash table that lists all the resource properties as keys and the actual values of these properties as the corresponding values.</source>
+          <target state="translated">이 함수는 모든 리소스 속성을 키로 나열하고, 이러한 속성의 실제 값을 그에 대한 해당 값으로 나열하는 해시 테이블을 반환해야 합니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The following code provides an example.</source>
+          <target state="translated">다음 코드에 예가 나와 있습니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Depending on the values that are specified for the resource properties in the configuration script, the <bpt id="p1">**</bpt>Set-TargetResource<ept id="p1">**</ept> must do one of the following:</source>
+          <target state="translated">구성 스크립트에 있는 리소스 속성에 대해 지정된 값에 따라 <bpt id="p1">**</bpt>Set-TargetResource<ept id="p1">**</ept>는 다음 중 하나를 수행해야 합니다.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Create a new website</source>
+          <target state="translated">새 웹 사이트 만들기</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Update an existing website</source>
+          <target state="translated">기존 웹 사이트 업데이트</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Delete an existing website</source>
+          <target state="translated">기존 웹 사이트 삭제</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The following example illustrates this.</source>
+          <target state="translated">다음 예제에서는 이것을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Finally, the <bpt id="p1">**</bpt>Test-TargetResource<ept id="p1">**</ept> function must take the same parameter set as <bpt id="p2">**</bpt>Get-TargetResource<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Set-TargetResource<ept id="p3">**</ept>.</source>
+          <target state="translated">마지막으로, <bpt id="p1">**</bpt>Test-TargetResource<ept id="p1">**</ept> 함수는 <bpt id="p2">**</bpt>Get-TargetResource<ept id="p2">**</ept> 및 <bpt id="p3">**</bpt>Set-TargetResource<ept id="p3">**</ept>와 동일한 매개 변수 집합을 사용해야 합니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>In your implementation of <bpt id="p1">**</bpt>Test-TargetResource<ept id="p1">**</ept>, check the status of the resource instance that is specified in the key parameters.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Test-TargetResource<ept id="p1">**</ept>의 구현에서, 키 매개 변수에 지정된 리소스 인스턴스의 상태를 확인하세요.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If the actual status of the resource instance does not match the values specified in the parameter set, return <bpt id="p1">**</bpt>$false<ept id="p1">**</ept>.</source>
+          <target state="translated">리소스 인스턴스의 실제 상태가 매개 변수 집합에 지정된 값과 일치하지 않는 경우 <bpt id="p1">**</bpt>$false<ept id="p1">**</ept>를 반환하세요.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Otherwise, return <bpt id="p1">**</bpt>$true<ept id="p1">**</ept>.</source>
+          <target state="translated">그렇지 않으면 <bpt id="p1">**</bpt>$true<ept id="p1">**</ept>를 반환하세요.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The following code implements the <bpt id="p1">**</bpt>Test-TargetResource<ept id="p1">**</ept> function.</source>
+          <target state="translated">다음 코드는 <bpt id="p1">**</bpt>Test-TargetResource<ept id="p1">**</ept> 함수를 구현합니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: For easier debugging, use the <bpt id="p2">**</bpt>Write-Verbose<ept id="p2">**</ept> cmdlet in your implementation of the previous three functions.</source>
+          <target state="translated"><bpt id="p1">**</bpt>참고<ept id="p1">**</ept>: 보다 쉽게 디버그하려면, 앞의 세 함수에 대한 구현에서 <bpt id="p2">**</bpt>Write-Verbose<ept id="p2">**</ept> cmdlet을 사용하세요.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This cmdlet writes text to the verbose message stream.</source>
+          <target state="translated">이 cmdlet은 자세한 정보 메시지 스트림에 텍스트를 씁니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>By default, the verbose message stream is not displayed, but you can display it by changing the value of the <bpt id="p1">**</bpt>$VerbosePreference<ept id="p1">**</ept> variable or by using the <bpt id="p2">**</bpt>Verbose<ept id="p2">**</ept> parameter in the DSC cmdlets = new.</source>
+          <target state="translated">자세한 정보 메시지 스트림은 기본적으로 표시되지 않지만 <bpt id="p1">**</bpt>$VerbosePreference<ept id="p1">**</ept> 변수 값을 변경하거나 DSC cmdlets = new에 <bpt id="p2">**</bpt>Verbose<ept id="p2">**</ept> 매개 변수를 사용하여 표시할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Creating the module manifest</source>
+          <target state="translated">모듈 매니페스트 만들기</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Finally, use the <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> cmdlet to define a <ph id="ph1">&lt;ResourceName&gt;</ph>.psd1 file for your custom resource module.</source>
+          <target state="translated">마지막으로, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> cmdlet을 사용하여 사용자 지정 리소스 모듈에 대한 <ph id="ph1">&lt;ResourceName&gt;</ph>.psd1 파일을 정의하세요.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>When you invoke this cmdlet, reference the script module (.psm1) file described in the previous section.</source>
+          <target state="translated">이 cmdlet을 호출할 때에는 이전 섹션에서 설명한 스크립트 모듈(.psm1) 파일을 참조합니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Include <bpt id="p1">**</bpt>Get-TargetResource<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Set-TargetResource<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Test-TargetResource<ept id="p3">**</ept> in the list of functions to export.</source>
+          <target state="translated">내보낼 함수 목록에 <bpt id="p1">**</bpt>Get-TargetResource<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Set-TargetResource<ept id="p2">**</ept> 및 <bpt id="p3">**</bpt>Test-TargetResource<ept id="p3">**</ept>를 포함하세요.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Following is an example manifest file.</source>
+          <target state="translated">다음은 매니페스트 파일의 예입니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
