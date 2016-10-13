@@ -597,8 +597,8 @@
 * Archive Datetime: 2016-10-12 15:28:03
 * Handback File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/21db17b387bb43ea30d70460a3c16ffb0be4f764/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.ru-ru.xlf)
 * Handback Datetime: 2016-10-13 20:09:54
-* Bilingual File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ac6c61df0200805abd4e1225026acd7c343f283f/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.ru-ru.xlf)
-* Bilingual Datetime: 2016-10-04 21:25:27
+* Bilingual File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/21db17b387bb43ea30d70460a3c16ffb0be4f764/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.ru-ru.xlf)
+* Bilingual Datetime: 2016-10-13 20:13:50
 * [Back to Top](#report-top)
 
 ##### <a name='6631d60d7d82e71c315c26a0196aa3e4c1b60b158'></a> Source: [dsc\authoringResourceComposite.md](https://github.com/PowerShell/powerShell-Docs/blob/48cfed9e0c31e24c441eafb388a799bd7fc7415f/dsc/authoringResourceComposite.md)
@@ -624,8 +624,8 @@
 * Archive Datetime: 2016-10-12 15:28:03
 * Handback File: [authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/21db17b387bb43ea30d70460a3c16ffb0be4f764/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.ru-ru.xlf)
 * Handback Datetime: 2016-10-13 20:09:54
-* Bilingual File: [authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/3dfca7aa57baaff341fda203938859b79988ff73/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.ru-ru.xlf)
-* Bilingual Datetime: 2016-10-05 23:29:30
+* Bilingual File: [authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/21db17b387bb43ea30d70460a3c16ffb0be4f764/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.ru-ru.xlf)
+* Bilingual Datetime: 2016-10-13 20:13:50
 * [Back to Top](#report-top)
 
 ##### <a name='991a324945289b2eff0b706d093b2d345352fb1510'></a> Source: [dsc\authoringResourceMofCS.md](https://github.com/PowerShell/powerShell-Docs/blob/644d08a69a8bb70f49e12c1504aa46c4b57a51fc/dsc/authoringResourceMofCS.md)
