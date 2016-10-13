@@ -24106,8 +24106,8 @@
 * Handoff Reason: Include
 * Archive File: [PesterUpdates.1e4976b79d08b1906a0f335de1892decc168f7a5.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/2f728bf480449c9d91973b9ed030e148fa146c7d/ol-archive/PowerShell/powerShell-Docs.zh-cn/live/PesterUpdates.1e4976b79d08b1906a0f335de1892decc168f7a5.zh-cn.xlf)
 * Archive Datetime: 2016-08-23 13:33:51
-* Handback File: [PesterUpdates.1e4976b79d08b1906a0f335de1892decc168f7a5.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/6ab99d85056cd81d2a7d888f7e6886cdc76117a6/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/PesterUpdates.1e4976b79d08b1906a0f335de1892decc168f7a5.zh-cn.xlf)
-* Handback Datetime: 2016-10-07 16:00:17
+* Handback File: [PesterUpdates.1e4976b79d08b1906a0f335de1892decc168f7a5.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/32d941f28eb2272b4ceee7c19a6759bef4f00d31/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/PesterUpdates.1e4976b79d08b1906a0f335de1892decc168f7a5.zh-cn.xlf)
+* Handback Datetime: 2016-10-13 01:30:46
 * Bilingual File: [PesterUpdates.1e4976b79d08b1906a0f335de1892decc168f7a5.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/6ab99d85056cd81d2a7d888f7e6886cdc76117a6/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/PesterUpdates.1e4976b79d08b1906a0f335de1892decc168f7a5.zh-cn.xlf)
 * Bilingual Datetime: 2016-10-07 16:02:47
 * [Back to Top](#report-top)
