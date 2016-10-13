@@ -7,10 +7,10 @@
 [ Handoff Failed Files ](#handoff-failed-list)| 0
 [ Handoff Success Files ](#handoff-success-list)| 34
 [ Archive Failed Files ](#archive-failed-list)| 0
-[ Archive Success Files ](#archive-success-list)| 88
+[ Archive Success Files ](#archive-success-list)| 85
 [ Handback Failed Files ](#handback-failed-list)| 3
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
-[ In Sync Handback Files ](#insync-handback-success-list)| 293
+[ In Sync Handback Files ](#insync-handback-success-list)| 296
 [ Ignored Files ](#ignored-list)| 41
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
@@ -58,8 +58,6 @@
 ## <a name='archive-success-list'></a> Archive Success File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [dsc\authoringResourceClass.md](https://github.com/PowerShell/powerShell-Docs/blob/b414a01bcd111143791a5fac77e61ce309a0a5c5/dsc/authoringResourceClass.md) | ArchivedSuccess | [Details](#b5de1100450a89796c20a5bbb2e71f7759374b027)
- [dsc\authoringResourceMOF.md](https://github.com/PowerShell/powerShell-Docs/blob/b414a01bcd111143791a5fac77e61ce309a0a5c5/dsc/authoringResourceMOF.md) | ArchivedSuccess | [Details](#50b99917f15d290db30da1b1b752d668d886ec509)
  [dsc\groupSetResource.md](https://github.com/PowerShell/powerShell-Docs/blob/bf36abde6a3bfff4c2e49868465e089cc886d031/dsc/groupSetResource.md) | ArchivedSuccess | [Details](#45fe96c43a834566d398820e3d94e3be923bb38528)
  [dsc\lnxGettingStarted.md](https://github.com/PowerShell/powerShell-Docs/blob/e4385f0ed482b97e8794cde968de549902cc358e/dsc/lnxGettingStarted.md) | ArchivedSuccess | [Details](#2283e797275f426b624119bd1191e58080780c0940)
  [dsc\processSetResource.md](https://github.com/PowerShell/powerShell-Docs/blob/97714d3fa9a1c00fb3d2e79cc873280ca945a840/dsc/processSetResource.md) | ArchivedSuccess | [Details](#012a0e5c4f2a1f60ecea869d588b9c54e0567ced75)
@@ -115,7 +113,6 @@
  [scripting\core-powershell\ise\The-ISEFileCollection-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/fe3d7885b7c031a24a737f58523c8018cfc36146/scripting/core-powershell/ise/The-ISEFileCollection-Object.md) | ArchivedSuccess | [Details](#109d93df4ebe6dbc354d333e038846ad2c3cb984231)
  [scripting\core-powershell\ise\The-ISEFile-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/fe3d7885b7c031a24a737f58523c8018cfc36146/scripting/core-powershell/ise/The-ISEFile-Object.md) | ArchivedSuccess | [Details](#9063e17928c433db8c3c9d26d41d31c2675e413c230)
  [scripting\core-powershell\ise\The-ISEMenuItemCollection-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/16608d8b97ec816d77ec7b8ac2438a4d64b55fba/scripting/core-powershell/ise/The-ISEMenuItemCollection-Object.md) | ArchivedSuccess | [Details](#f5bb35c3689350cab2c56c462914f1754e005da2233)
- [scripting\core-powershell\ise\The-ISEMenuItem-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/fe3d7885b7c031a24a737f58523c8018cfc36146/scripting/core-powershell/ise/The-ISEMenuItem-Object.md) | ArchivedSuccess | [Details](#43477d0742612f331f74833a1d70e69692b5b8e7232)
  [scripting\core-powershell\ise\The-ISESnippetCollection-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/fe3d7885b7c031a24a737f58523c8018cfc36146/scripting/core-powershell/ise/The-ISESnippetCollection-Object.md) | ArchivedSuccess | [Details](#545a6fb6d22aadfef7dc852471f0e633599ab529235)
  [scripting\core-powershell\ise\The-ObjectModelRoot-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/16608d8b97ec816d77ec7b8ac2438a4d64b55fba/scripting/core-powershell/ise/The-ObjectModelRoot-Object.md) | ArchivedSuccess | [Details](#2c403e38b0f89a2d8c1344a6abbd56151449f059237)
  [scripting\core-powershell\ise\The-PowerShellTabCollection-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/ise/The-PowerShellTabCollection-Object.md) | ArchivedSuccess | [Details](#4456b1e165130fd52249ffdbd7c22ff591061a8e239)
@@ -161,6 +158,8 @@
  ----------- | ------ | ------- 
  [dsc\archiveResource.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/archiveResource.md) | InSyncHandedBackSuccess | [Details](#1d4d2d9106ef76d6628f93cf86234807dbb121ed5)
  [dsc\authoringResource.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/authoringResource.md) | InSyncHandedBackSuccess | [Details](#5b43723f7b14eb4bca06d0430b5981c3663c58016)
+ [dsc\authoringResourceClass.md](https://github.com/PowerShell/powerShell-Docs/blob/b414a01bcd111143791a5fac77e61ce309a0a5c5/dsc/authoringResourceClass.md) | InSyncHandedBackSuccess | [Details](#b5de1100450a89796c20a5bbb2e71f7759374b027)
+ [dsc\authoringResourceMOF.md](https://github.com/PowerShell/powerShell-Docs/blob/b414a01bcd111143791a5fac77e61ce309a0a5c5/dsc/authoringResourceMOF.md) | InSyncHandedBackSuccess | [Details](#50b99917f15d290db30da1b1b752d668d886ec509)
  [dsc\authoringResourceMofCS.md](https://github.com/PowerShell/powerShell-Docs/blob/644d08a69a8bb70f49e12c1504aa46c4b57a51fc/dsc/authoringResourceMofCS.md) | InSyncHandedBackSuccess | [Details](#991a324945289b2eff0b706d093b2d345352fb1510)
  [dsc\authoringResourceMofDesigner.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/authoringResourceMofDesigner.md) | InSyncHandedBackSuccess | [Details](#be2141330dda803a22fdce6d65a1e379adf14fed11)
  [dsc\builtInResource.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/builtInResource.md) | InSyncHandedBackSuccess | [Details](#ea312b4e773cd8b0eceeca123e616957728eb1c612)
@@ -294,6 +293,7 @@
  [scripting\core-powershell\ise\Keyboard-Shortcuts-for-the-Windows-PowerShell-ISE.md](https://github.com/PowerShell/powerShell-Docs/blob/466b7169b81d773cc226adbf853b46fdb956c2f1/scripting/core-powershell/ise/Keyboard-Shortcuts-for-the-Windows-PowerShell-ISE.md) | InSyncHandedBackSuccess | [Details](#852b927ba0f5edffa5c7943b45e0e7b1bdd273f5224)
  [scripting\core-powershell\ise\Purpose-of-the-Windows-PowerShell-ISE-Scripting-Object-Model.md](https://github.com/PowerShell/powerShell-Docs/blob/641b6b2169824296b459691e67cdb771f3a07294/scripting/core-powershell/ise/Purpose-of-the-Windows-PowerShell-ISE-Scripting-Object-Model.md) | InSyncHandedBackSuccess | [Details](#63ea621ed8eb31a3be8394d99fd05dc8f663769f225)
  [scripting\core-powershell\ise\The-ISEAddOnTool-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/26d8bc85b78248e15558dbfef72d32cca7de9627/scripting/core-powershell/ise/The-ISEAddOnTool-Object.md) | InSyncHandedBackSuccess | [Details](#e63809763808836af9f468c2ac55ede42836d6b2227)
+ [scripting\core-powershell\ise\The-ISEMenuItem-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/fe3d7885b7c031a24a737f58523c8018cfc36146/scripting/core-powershell/ise/The-ISEMenuItem-Object.md) | InSyncHandedBackSuccess | [Details](#43477d0742612f331f74833a1d70e69692b5b8e7232)
  [scripting\core-powershell\ise\The-ISE-Object-Model-Hierarchy.md](https://github.com/PowerShell/powerShell-Docs/blob/53d9bf77ef39c878d3e729548181d91f01a50ea2/scripting/core-powershell/ise/The-ISE-Object-Model-Hierarchy.md) | InSyncHandedBackSuccess | [Details](#12a47e57d461f1e57cd9c7b20365627378d7e87a226)
  [scripting\core-powershell\ise\The-ISEOptions-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/core-powershell/ise/The-ISEOptions-Object.md) | InSyncHandedBackSuccess | [Details](#1aee849dd8b89492a641560ed4ef163c3cb96da4234)
  [scripting\core-powershell\ise\The-ISESnippetObject.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/core-powershell/ise/The-ISESnippetObject.md) | InSyncHandedBackSuccess | [Details](#4f244b21454c2db929688d11cdf3f46d474ce0db236)
@@ -588,18 +588,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='b5de1100450a89796c20a5bbb2e71f7759374b027'></a> Source: [dsc\authoringResourceClass.md](https://github.com/PowerShell/powerShell-Docs/blob/b414a01bcd111143791a5fac77e61ce309a0a5c5/dsc/authoringResourceClass.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [dsc\authoringResourceClass.md](https://github.com/PowerShell/powerShell-Docs.zh-tw/blob/758d989590ba765c278e0d9bfe740b0c2e605243/dsc/authoringResourceClass.md)
 * Handoff File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/660bb53405ce346b454de0b85bdc81022f5ec9e9/ol-handoff/PowerShell/powerShell-Docs.zh-tw/live/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.zh-tw.xlf)
 * Handoff Datetime: 2016-10-07 23:50:10
 * Handoff Reason: Include
 * Archive File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/3303048009fc092d1d07f4a74bd26f32f707973d/ol-archive/PowerShell/powerShell-Docs.zh-tw/live/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.zh-tw.xlf)
 * Archive Datetime: 2016-10-12 15:18:42
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [dsc\authoringResourceClass.md](https://github.com/PowerShell/powerShell-Docs.zh-tw/blob/61122919fbc8245c463ad1456142b6d4a0073040/dsc/authoringResourceClass.md)
-* Current Handback File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/2b0154afe509cc0aac8bfdccc5e41ea6a0fe047e/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.zh-tw.xlf)
-* Current Handback Datetime: 2016-10-04 21:24:28
+* Handback File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/85262653e668786b272687a261bcc474fe43b1c0/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.zh-tw.xlf)
+* Handback Datetime: 2016-10-13 20:10:27
 * Bilingual File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/2b0154afe509cc0aac8bfdccc5e41ea6a0fe047e/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.zh-tw.xlf)
 * Bilingual Datetime: 2016-10-04 21:25:10
 * [Back to Top](#report-top)
@@ -618,18 +615,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='50b99917f15d290db30da1b1b752d668d886ec509'></a> Source: [dsc\authoringResourceMOF.md](https://github.com/PowerShell/powerShell-Docs/blob/b414a01bcd111143791a5fac77e61ce309a0a5c5/dsc/authoringResourceMOF.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [dsc\authoringResourceMOF.md](https://github.com/PowerShell/powerShell-Docs.zh-tw/blob/758d989590ba765c278e0d9bfe740b0c2e605243/dsc/authoringResourceMOF.md)
 * Handoff File: [authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/660bb53405ce346b454de0b85bdc81022f5ec9e9/ol-handoff/PowerShell/powerShell-Docs.zh-tw/live/authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.zh-tw.xlf)
 * Handoff Datetime: 2016-10-07 23:50:10
 * Handoff Reason: Include
 * Archive File: [authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/3303048009fc092d1d07f4a74bd26f32f707973d/ol-archive/PowerShell/powerShell-Docs.zh-tw/live/authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.zh-tw.xlf)
 * Archive Datetime: 2016-10-12 15:18:42
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [dsc\authoringResourceMOF.md](https://github.com/PowerShell/powerShell-Docs.zh-tw/blob/2b9ed515ed88064702b23b392f8cd99872bf7405/dsc/authoringResourceMOF.md)
-* Current Handback File: [authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/6dbc3fc85b18d87481589c7dd402862f823abd90/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.zh-tw.xlf)
-* Current Handback Datetime: 2016-10-07 16:00:55
+* Handback File: [authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/85262653e668786b272687a261bcc474fe43b1c0/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.zh-tw.xlf)
+* Handback Datetime: 2016-10-13 20:10:27
 * Bilingual File: [authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/6dbc3fc85b18d87481589c7dd402862f823abd90/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.zh-tw.xlf)
 * Bilingual Datetime: 2016-10-07 16:03:04
 * [Back to Top](#report-top)
@@ -3658,18 +3652,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='43477d0742612f331f74833a1d70e69692b5b8e7232'></a> Source: [scripting\core-powershell\ise\The-ISEMenuItem-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/fe3d7885b7c031a24a737f58523c8018cfc36146/scripting/core-powershell/ise/The-ISEMenuItem-Object.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\core-powershell\ise\The-ISEMenuItem-Object.md](https://github.com/PowerShell/powerShell-Docs.zh-tw/blob/758d989590ba765c278e0d9bfe740b0c2e605243/scripting/core-powershell/ise/The-ISEMenuItem-Object.md)
 * Handoff File: [The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/660bb53405ce346b454de0b85bdc81022f5ec9e9/ol-handoff/PowerShell/powerShell-Docs.zh-tw/live/The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.zh-tw.xlf)
 * Handoff Datetime: 2016-10-07 23:50:10
 * Handoff Reason: Include
 * Archive File: [The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/3303048009fc092d1d07f4a74bd26f32f707973d/ol-archive/PowerShell/powerShell-Docs.zh-tw/live/The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.zh-tw.xlf)
 * Archive Datetime: 2016-10-12 15:18:42
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [scripting\core-powershell\ise\The-ISEMenuItem-Object.md](https://github.com/PowerShell/powerShell-Docs.zh-tw/blob/a73003a8a750305f63bd5498413c9534c645b544/scripting/core-powershell/ise/The-ISEMenuItem-Object.md)
-* Current Handback File: [The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/25564961931d373fb917541f5b866cfaeac2af85/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.zh-tw.xlf)
-* Current Handback Datetime: 2016-09-06 21:47:05
+* Handback File: [The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/85262653e668786b272687a261bcc474fe43b1c0/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.zh-tw.xlf)
+* Handback Datetime: 2016-10-13 20:10:27
 * Bilingual File: [The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/25564961931d373fb917541f5b866cfaeac2af85/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.zh-tw.xlf)
 * Bilingual Datetime: 2016-09-06 21:48:10
 * [Back to Top](#report-top)
