@@ -1,11 +1,43 @@
 # <a name='report-top'></a> Localization Bilingual Report
 
 ## Summary
- Total Files | 0
+ Total Files | 2
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [dsc\authoringResourceClass.md](https://github.com/PowerShell/powerShell-Docs/blob/b414a01bcd111143791a5fac77e61ce309a0a5c5/dsc/authoringResourceClass.md) | InSyncHandedBackSuccess | [Details](#b5de1100450a89796c20a5bbb2e71f7759374b027)
+ [dsc\authoringResourceMOF.md](https://github.com/PowerShell/powerShell-Docs/blob/b414a01bcd111143791a5fac77e61ce309a0a5c5/dsc/authoringResourceMOF.md) | InSyncHandedBackSuccess | [Details](#50b99917f15d290db30da1b1b752d668d886ec509)
 
 ## Item Details
+##### <a name='b5de1100450a89796c20a5bbb2e71f7759374b027'></a> Source: [dsc\authoringResourceClass.md](https://github.com/PowerShell/powerShell-Docs/blob/b414a01bcd111143791a5fac77e61ce309a0a5c5/dsc/authoringResourceClass.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [dsc\authoringResourceClass.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/21da9676661daebcd131e0b2d7fa965ca40655cf/dsc/authoringResourceClass.md)
+* Handoff File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/e85830b1401adb302f0ecc9fe1ca595ab8f36cca/ol-handoff/PowerShell/powerShell-Docs.es-es/live/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.es-es.xlf)
+* Handoff Datetime: 2016-10-08 00:05:37
+* Handoff Reason: Include
+* Archive File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/050286523f2de14685e41191f2ebd8220ffd54d3/ol-archive/PowerShell/powerShell-Docs.es-es/live/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.es-es.xlf)
+* Archive Datetime: 2016-10-12 15:23:25
+* Handback File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/be4a1f67803cee3beecf61a4a33be6af4bbc83de/ol-handback/PowerShell/powerShell-Docs.es-es/live/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.es-es.xlf)
+* Handback Datetime: 2016-10-13 20:08:13
+* Bilingual File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/be4a1f67803cee3beecf61a4a33be6af4bbc83de/ol-handback/PowerShell/powerShell-Docs.es-es/live/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.es-es.xlf)
+* Bilingual Datetime: 2016-10-13 20:13:38
+* [Back to Top](#report-top)
+
+##### <a name='50b99917f15d290db30da1b1b752d668d886ec509'></a> Source: [dsc\authoringResourceMOF.md](https://github.com/PowerShell/powerShell-Docs/blob/b414a01bcd111143791a5fac77e61ce309a0a5c5/dsc/authoringResourceMOF.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [dsc\authoringResourceMOF.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/21da9676661daebcd131e0b2d7fa965ca40655cf/dsc/authoringResourceMOF.md)
+* Handoff File: [authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/e85830b1401adb302f0ecc9fe1ca595ab8f36cca/ol-handoff/PowerShell/powerShell-Docs.es-es/live/authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.es-es.xlf)
+* Handoff Datetime: 2016-10-08 00:05:37
+* Handoff Reason: Include
+* Archive File: [authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/050286523f2de14685e41191f2ebd8220ffd54d3/ol-archive/PowerShell/powerShell-Docs.es-es/live/authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.es-es.xlf)
+* Archive Datetime: 2016-10-12 15:23:25
+* Handback File: [authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/be4a1f67803cee3beecf61a4a33be6af4bbc83de/ol-handback/PowerShell/powerShell-Docs.es-es/live/authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.es-es.xlf)
+* Handback Datetime: 2016-10-13 20:08:13
+* Bilingual File: [authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/be4a1f67803cee3beecf61a4a33be6af4bbc83de/ol-handback/PowerShell/powerShell-Docs.es-es/live/authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.es-es.xlf)
+* Bilingual Datetime: 2016-10-13 20:13:38
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
