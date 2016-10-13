@@ -24108,8 +24108,8 @@
 * Archive Datetime: 2016-08-23 13:33:51
 * Handback File: [PesterUpdates.1e4976b79d08b1906a0f335de1892decc168f7a5.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/32d941f28eb2272b4ceee7c19a6759bef4f00d31/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/PesterUpdates.1e4976b79d08b1906a0f335de1892decc168f7a5.zh-cn.xlf)
 * Handback Datetime: 2016-10-13 01:30:46
-* Bilingual File: [PesterUpdates.1e4976b79d08b1906a0f335de1892decc168f7a5.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/6ab99d85056cd81d2a7d888f7e6886cdc76117a6/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/PesterUpdates.1e4976b79d08b1906a0f335de1892decc168f7a5.zh-cn.xlf)
-* Bilingual Datetime: 2016-10-07 16:02:47
+* Bilingual File: [PesterUpdates.1e4976b79d08b1906a0f335de1892decc168f7a5.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/32d941f28eb2272b4ceee7c19a6759bef4f00d31/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/PesterUpdates.1e4976b79d08b1906a0f335de1892decc168f7a5.zh-cn.xlf)
+* Bilingual Datetime: 2016-10-13 01:32:03
 * [Back to Top](#report-top)
 
 ##### <a name='025565404b60cebefac27e51c70d70edb5e47bc91791'></a> Source: [wmf\5.1\features-scenarios-cache\PowerShellGet-Enhancements.md](https://github.com/PowerShell/powerShell-Docs/blob/8c55ca4b972c8d708a09b922f27eec585ddc33d0/wmf/5.1/features-scenarios-cache/PowerShellGet-Enhancements.md)
