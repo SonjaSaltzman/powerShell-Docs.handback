@@ -597,8 +597,8 @@
 * Archive Datetime: 2016-10-12 15:18:42
 * Handback File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/85262653e668786b272687a261bcc474fe43b1c0/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.zh-tw.xlf)
 * Handback Datetime: 2016-10-13 20:10:27
-* Bilingual File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/2b0154afe509cc0aac8bfdccc5e41ea6a0fe047e/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.zh-tw.xlf)
-* Bilingual Datetime: 2016-10-04 21:25:10
+* Bilingual File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/85262653e668786b272687a261bcc474fe43b1c0/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.zh-tw.xlf)
+* Bilingual Datetime: 2016-10-13 20:13:25
 * [Back to Top](#report-top)
 
 ##### <a name='6631d60d7d82e71c315c26a0196aa3e4c1b60b158'></a> Source: [dsc\authoringResourceComposite.md](https://github.com/PowerShell/powerShell-Docs/blob/48cfed9e0c31e24c441eafb388a799bd7fc7415f/dsc/authoringResourceComposite.md)
@@ -624,8 +624,8 @@
 * Archive Datetime: 2016-10-12 15:18:42
 * Handback File: [authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/85262653e668786b272687a261bcc474fe43b1c0/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.zh-tw.xlf)
 * Handback Datetime: 2016-10-13 20:10:27
-* Bilingual File: [authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/6dbc3fc85b18d87481589c7dd402862f823abd90/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.zh-tw.xlf)
-* Bilingual Datetime: 2016-10-07 16:03:04
+* Bilingual File: [authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/85262653e668786b272687a261bcc474fe43b1c0/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.zh-tw.xlf)
+* Bilingual Datetime: 2016-10-13 20:13:25
 * [Back to Top](#report-top)
 
 ##### <a name='991a324945289b2eff0b706d093b2d345352fb1510'></a> Source: [dsc\authoringResourceMofCS.md](https://github.com/PowerShell/powerShell-Docs/blob/644d08a69a8bb70f49e12c1504aa46c4b57a51fc/dsc/authoringResourceMofCS.md)
@@ -3661,8 +3661,8 @@
 * Archive Datetime: 2016-10-12 15:18:42
 * Handback File: [The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/85262653e668786b272687a261bcc474fe43b1c0/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.zh-tw.xlf)
 * Handback Datetime: 2016-10-13 20:10:27
-* Bilingual File: [The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/25564961931d373fb917541f5b866cfaeac2af85/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.zh-tw.xlf)
-* Bilingual Datetime: 2016-09-06 21:48:10
+* Bilingual File: [The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/85262653e668786b272687a261bcc474fe43b1c0/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.zh-tw.xlf)
+* Bilingual Datetime: 2016-10-13 20:13:25
 * [Back to Top](#report-top)
 
 ##### <a name='12a47e57d461f1e57cd9c7b20365627378d7e87a226'></a> Source: [scripting\core-powershell\ise\The-ISE-Object-Model-Hierarchy.md](https://github.com/PowerShell/powerShell-Docs/blob/53d9bf77ef39c878d3e729548181d91f01a50ea2/scripting/core-powershell/ise/The-ISE-Object-Model-Hierarchy.md)
