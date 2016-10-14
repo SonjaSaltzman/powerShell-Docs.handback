@@ -7,10 +7,10 @@
 [ Handoff Failed Files ](#handoff-failed-list)| 0
 [ Handoff Success Files ](#handoff-success-list)| 37
 [ Archive Failed Files ](#archive-failed-list)| 0
-[ Archive Success Files ](#archive-success-list)| 27
+[ Archive Success Files ](#archive-success-list)| 26
 [ Handback Failed Files ](#handback-failed-list)| 6
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
-[ In Sync Handback Files ](#insync-handback-success-list)| 350
+[ In Sync Handback Files ](#insync-handback-success-list)| 351
 [ Ignored Files ](#ignored-list)| 41
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
@@ -69,7 +69,6 @@
  [scripting\core-powershell\ise\The-ISEFileCollection-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/fe3d7885b7c031a24a737f58523c8018cfc36146/scripting/core-powershell/ise/The-ISEFileCollection-Object.md) | ArchivedSuccess | [Details](#109d93df4ebe6dbc354d333e038846ad2c3cb984233)
  [scripting\core-powershell\ise\The-ISEFile-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/fe3d7885b7c031a24a737f58523c8018cfc36146/scripting/core-powershell/ise/The-ISEFile-Object.md) | ArchivedSuccess | [Details](#9063e17928c433db8c3c9d26d41d31c2675e413c232)
  [scripting\core-powershell\ise\The-ISEMenuItemCollection-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/16608d8b97ec816d77ec7b8ac2438a4d64b55fba/scripting/core-powershell/ise/The-ISEMenuItemCollection-Object.md) | ArchivedSuccess | [Details](#f5bb35c3689350cab2c56c462914f1754e005da2235)
- [scripting\core-powershell\ise\The-ISEMenuItem-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/fe3d7885b7c031a24a737f58523c8018cfc36146/scripting/core-powershell/ise/The-ISEMenuItem-Object.md) | ArchivedSuccess | [Details](#43477d0742612f331f74833a1d70e69692b5b8e7234)
  [scripting\core-powershell\ise\The-ISESnippetCollection-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/fe3d7885b7c031a24a737f58523c8018cfc36146/scripting/core-powershell/ise/The-ISESnippetCollection-Object.md) | ArchivedSuccess | [Details](#545a6fb6d22aadfef7dc852471f0e633599ab529237)
  [scripting\core-powershell\ise\The-ObjectModelRoot-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/16608d8b97ec816d77ec7b8ac2438a4d64b55fba/scripting/core-powershell/ise/The-ObjectModelRoot-Object.md) | ArchivedSuccess | [Details](#2c403e38b0f89a2d8c1344a6abbd56151449f059239)
  [scripting\core-powershell\ise\The-Windows-PowerShell-ISE-Scripting-Object-Model.md](https://github.com/PowerShell/powerShell-Docs/blob/16608d8b97ec816d77ec7b8ac2438a4d64b55fba/scripting/core-powershell/ise/The-Windows-PowerShell-ISE-Scripting-Object-Model.md) | ArchivedSuccess | [Details](#3b3c7561466db47f9bbf5b3bdc41719521a8f002242)
@@ -287,6 +286,7 @@
  [scripting\core-powershell\ise\Keyboard-Shortcuts-for-the-Windows-PowerShell-ISE.md](https://github.com/PowerShell/powerShell-Docs/blob/466b7169b81d773cc226adbf853b46fdb956c2f1/scripting/core-powershell/ise/Keyboard-Shortcuts-for-the-Windows-PowerShell-ISE.md) | InSyncHandedBackSuccess | [Details](#852b927ba0f5edffa5c7943b45e0e7b1bdd273f5226)
  [scripting\core-powershell\ise\Purpose-of-the-Windows-PowerShell-ISE-Scripting-Object-Model.md](https://github.com/PowerShell/powerShell-Docs/blob/641b6b2169824296b459691e67cdb771f3a07294/scripting/core-powershell/ise/Purpose-of-the-Windows-PowerShell-ISE-Scripting-Object-Model.md) | InSyncHandedBackSuccess | [Details](#63ea621ed8eb31a3be8394d99fd05dc8f663769f227)
  [scripting\core-powershell\ise\The-ISEAddOnTool-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/26d8bc85b78248e15558dbfef72d32cca7de9627/scripting/core-powershell/ise/The-ISEAddOnTool-Object.md) | InSyncHandedBackSuccess | [Details](#e63809763808836af9f468c2ac55ede42836d6b2229)
+ [scripting\core-powershell\ise\The-ISEMenuItem-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/fe3d7885b7c031a24a737f58523c8018cfc36146/scripting/core-powershell/ise/The-ISEMenuItem-Object.md) | InSyncHandedBackSuccess | [Details](#43477d0742612f331f74833a1d70e69692b5b8e7234)
  [scripting\core-powershell\ise\The-ISE-Object-Model-Hierarchy.md](https://github.com/PowerShell/powerShell-Docs/blob/53d9bf77ef39c878d3e729548181d91f01a50ea2/scripting/core-powershell/ise/The-ISE-Object-Model-Hierarchy.md) | InSyncHandedBackSuccess | [Details](#12a47e57d461f1e57cd9c7b20365627378d7e87a228)
  [scripting\core-powershell\ise\The-ISEOptions-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/core-powershell/ise/The-ISEOptions-Object.md) | InSyncHandedBackSuccess | [Details](#1aee849dd8b89492a641560ed4ef163c3cb96da4236)
  [scripting\core-powershell\ise\The-ISESnippetObject.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/core-powershell/ise/The-ISESnippetObject.md) | InSyncHandedBackSuccess | [Details](#4f244b21454c2db929688d11cdf3f46d474ce0db238)
@@ -3781,18 +3781,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='43477d0742612f331f74833a1d70e69692b5b8e7234'></a> Source: [scripting\core-powershell\ise\The-ISEMenuItem-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/fe3d7885b7c031a24a737f58523c8018cfc36146/scripting/core-powershell/ise/The-ISEMenuItem-Object.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\core-powershell\ise\The-ISEMenuItem-Object.md](https://github.com/PowerShell/powerShell-Docs.ko-kr/blob/d01568d76ece966590e55a131d74a7f8bc909223/scripting/core-powershell/ise/The-ISEMenuItem-Object.md)
 * Handoff File: [The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/113a8990747d3ff2881e2fa52c4555cad75cd5a4/ol-handoff/PowerShell/powerShell-Docs.ko-kr/live/The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.ko-kr.xlf)
 * Handoff Datetime: 2016-10-07 23:57:49
 * Handoff Reason: Include
 * Archive File: [The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/8f108b84c555569b9e2425717b3aef560db2221a/ol-archive/PowerShell/powerShell-Docs.ko-kr/live/The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.ko-kr.xlf)
 * Archive Datetime: 2016-10-12 15:21:05
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [scripting\core-powershell\ise\The-ISEMenuItem-Object.md](https://github.com/PowerShell/powerShell-Docs.ko-kr/blob/2955b577cf747b55e744ba00d892abc27d9800b1/scripting/core-powershell/ise/The-ISEMenuItem-Object.md)
-* Current Handback File: [The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/5770d788cbbbc60430e3e2a98698506395d089b1/ol-handback/PowerShell/powerShell-Docs.ko-kr/live/The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.ko-kr.xlf)
-* Current Handback Datetime: 2016-09-07 03:06:59
+* Handback File: [The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ad62382f5a19fdabd096a4983d8879387dda71ce/ol-handback/PowerShell/powerShell-Docs.ko-kr/live/The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.ko-kr.xlf)
+* Handback Datetime: 2016-10-14 13:45:47
 * Bilingual File: [The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/5770d788cbbbc60430e3e2a98698506395d089b1/ol-handback/PowerShell/powerShell-Docs.ko-kr/live/The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.ko-kr.xlf)
 * Bilingual Datetime: 2016-09-07 03:09:06
 * [Back to Top](#report-top)
