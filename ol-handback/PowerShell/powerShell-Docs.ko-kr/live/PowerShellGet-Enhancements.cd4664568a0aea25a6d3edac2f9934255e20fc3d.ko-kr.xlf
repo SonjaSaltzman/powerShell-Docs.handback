@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">025565404b60cebefac27e51c70d70edb5e47bc9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\features-scenarios-cache\PowerShellGet-Enhancements.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">81d6bebcfe041765686eba05f505b8414f690866</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>example template of a feature or scenario writeup</source>
+          <target state="translated">기능 또는 시나리오 기록의 예제 템플릿</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Note: provide a proposed descriptive title and a brief description</source>
+          <target state="translated">참고: 제안된 설명이 포함된 제목과 간단한 설명을 제공합니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>PowerShellGet Enhancements</source>
+          <target state="translated">PowerShellGet 향상된 기능</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The cmdlets in the PowerShellGet module have been updated considerably in WMF 5.1.</source>
+          <target state="translated">WMF 5.1에서는 PowerShellGet 모듈의 cmdlet이 상당히 업데이트되었습니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The following new scenarios are now supported:</source>
+          <target state="translated">이제 다음과 같은 새 시나리오가 지원됩니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Proxy Support:<ept id="p1">**</ept> Using the PowerShellGet cmdlets with an internal proxy is now supported, with the addition of the Proxy and ProxyCredential parameters to all of the Find-, Install-, Save-, and Publish- cmdlets in the PowerShellGet module (eg: Find-Module, Install-Module, Save-Module, Publish-Module).</source>
+          <target state="translated"><bpt id="p1">**</bpt>프록시 지원:<ept id="p1">**</ept> 이제 PowerShellGet 모듈의 모든 Find-, Install-, Save- 및 Publish- cmdlet에 Proxy 및 ProxyCredential 매개 변수가 추가되어 PowerShellGet cmdlet을 내부 프록시와 함께 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Enforcing Catalog Signing:<ept id="p1">**</ept> All PowerShellGet cmdlets now check for and enforce updating of signed modules.</source>
+          <target state="translated"><bpt id="p1">**</bpt>카탈로그 서명 적용:<ept id="p1">**</ept> 이제 모든 PowerShellGet cmdlet이 서명된 모듈의 업데이트를 확인 및 적용합니다.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Modules signed using the new Catalog cmdlets will be checked by the PowerShellGet cmdlets to ensure that the module has not been modified in transit, and that updates to the module may only come from the original publisher.</source>
+          <target state="translated">PowerShellGet cmdlet은 새 카탈로그 cmdlet으로 서명된 모듈을 검사하여 전송 중에 모듈이 수정되지 않았는지 확인하며, 이러한 모듈 업데이트는 원래 게시자만 제공할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This affects Install-Module, and Update-Module cmdlets.</source>
+          <target state="translated">이 기능은 Install-Module 및 Update-Module cmdlet에 영향을 줍니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Sharing and Acquiring Role Capabilities:<ept id="p1">**</ept> Role Capabilities are the endpoint definitions used to configure Just Enough Administration to constrain, and will be shared via the PowerShell Gallery in PowerShell Modules.</source>
+          <target state="translated"><bpt id="p1">**</bpt>역할 기능 공유 및 획득:<ept id="p1">**</ept> 역할 기능은 제한할 Just Enough Administration을 구성하는 데 사용되는 끝점 정의이며 PowerShell 모듈의 PowerShell 갤러리를 통해 공유됩니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Cmdlets include Find-RoleCapability, and New-PSRoleCapabilityFile.</source>
+          <target state="translated">cmdlet에는 Find-RoleCapability 및 New-PSRoleCapabilityFile이 포함됩니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Find Command:<ept id="p1">**</ept> Find-Command allows users to locate a module in the PowerShell Gallery that contains a command they are looking for.</source>
+          <target state="translated"><bpt id="p1">**</bpt>찾기 명령:<ept id="p1">**</ept> 찾기 명령을 통해 사용자는 찾고 있는 명령이 포함된 PowerShell 갤러리의 모듈을 찾을 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Authenticated repositories:<ept id="p1">**</ept> Visual Studio Package Management feed requires authentication, something that is now supported via the PowerShellGet cmdlets.</source>
+          <target state="translated"><bpt id="p1">**</bpt>인증된 리포지토리:<ept id="p1">**</ept> Visual Studio 패키지 관리 피드에는 현재 PowerShellGet cmdlet을 통해 지원되는 인증이 필요합니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>User feedback identified additional areas for improvement that have been addressed in 5.1, including:</source>
+          <target state="translated">다음을 포함하여 5.1에서 처리된 추가 개선 영역이 사용자 피드백을 통해 확인되었습니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Install-Script changes:<ept id="p1">**</ept> The location used by Install-script is not added to the user path automatically in 5.1.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Install-Script 변경:<ept id="p1">**</ept> 5.1에서는 Install-Script에서 사용하는 위치가 사용자 경로에 자동으로 추가되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This change was made in the standalone version of PowerShellGet, and is now in WMF 5.1.</source>
+          <target state="translated">이 변경은 독립 실행형 버전의 PowerShellGet에서 도입되었으며 현재 WMF 5.1에 포함되었습니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Adding metadata fields to existing scripts:<ept id="p1">**</ept> Update-ScriptFileInfo can be used on existing scripts to add the default metadata fields needed to publish to the PowerShellGallery.</source>
+          <target state="translated"><bpt id="p1">**</bpt>기존 스크립트에 메타데이터 필드 추가:<ept id="p1">**</ept> 기존 스크립트에 Update-ScriptFileInfo를 사용하여 PowerShellGallery에 게시하는 데 필요한 기본 메타데이터 필드를 추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Previously users needed to manually merge this into an existing script.</source>
+          <target state="translated">이전에는 사용자가 이 필드를 기존 스크립트에 수동으로 병합해야 했습니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Publishing a lower-versioned module to the Gallery:<ept id="p1">**</ept> It is now possible to publish a module with a lower version number than the current previous highest version to the Gallery using Publish-Module.</source>
+          <target state="translated"><bpt id="p1">**</bpt>갤러리에 하위 버전 모듈 게시:<ept id="p1">**</ept> 이제 Publish-Module을 사용하여 현재 이전 최고 버전보다 낮은 버전 번호의 모듈을 갤러리에 게시할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If a publisher  released version 2.0.0 of their module with breaking changes from the 1.x versions, they could not easily release a fix to version 1.5.0.</source>
+          <target state="translated">게시자가 1.x 버전에서 주요 변경 내용이 있는 버전 2.0.0의 모듈을 릴리스한 경우 버전 1.5.0의 수정 프로그램을 쉽게 릴리스할 수 없었습니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Now, they can publish a 1.5.1, which will improve support for maintaining modules in the PowerShell Gallery.</source>
+          <target state="translated">이제 1.5.1을 게시할 수 있으므로 PowerShell 갤러리의 모듈 유지 관리 지원이 향상됩니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Checking for command over-write when installing scripts and modules:<ept id="p1">**</ept> Install-Module and Install-Script will now check to see if they contain commands that are already present on the system, and will by default error out if that happens.</source>
+          <target state="translated"><bpt id="p1">**</bpt>스크립트 및 모듈을 설치할 때 명령 덮어쓰기 확인:<ept id="p1">**</ept> 이제 Install-Module 및 Install-Script에서 시스템에 존재하는 명령이 포함되어 있는지 검사하며, 포함된 경우 기본적으로 오류가 발생합니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Bootstrapping Nuget in Publish- cmdlets:<ept id="p1">**</ept> Previously there was no way to automatically install the Nuget provider when using Publish-Module or Publish-Script, which made certain automation tasks very difficult.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Publish- cmdlet에서 NuGet 부트스트랩:<ept id="p1">**</ept> 이전에는 Publish-Module 또는 Publish-Script를 사용할 때 NuGet 공급자를 자동으로 설치할 방법이 없었으므로 특정 자동화 작업이 매우 어려웠습니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Users may now add -Force to Publish- commands to bypass the prompt.</source>
+          <target state="translated">이제 사용자가 명령을 추가(강제로 게시)하여 프롬프트를 무시할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Note: additional detail covering new concepts, implementation, examples, etc should be linked to the canonical technical documentation</source>
+          <target state="translated">참고: 새로운 개념, 구현, 예제 등을 다루는 추가 세부 정보가 정식 기술 문서에 연결되어 있어야 합니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Learn more about using PowerShellGet</source>
+          <target state="translated">PowerShellGet 사용 방법에 대한 자세한 정보</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>About-CatalogSigning</source>
+          <target state="translated">About-CatalogSigning</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Filter Get-Module results by CompatiblePSEditions</source>
+          <target state="translated">CompatiblePSEditions를 기준으로 Get-Module 결과 필터링</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Prevent script execution unless run on a comaptible edition of PowerShell</source>
+          <target state="translated">호환되는 PowerShell 버전에서 실행하지 않는 경우 스크립트 실행 방지</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
