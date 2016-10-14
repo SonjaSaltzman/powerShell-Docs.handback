@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">817fadb79716e41ce8cc8f4245dedc66347ac413</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\features-scenarios-cache\DSCSigningValidations.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">420e1aa08206eaa4e0dfe9b7c8aa21a26566f5f4</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>DSC Module and Configuration Signing validations</source>
+          <target state="translated">DSC 模块和配置签名验证</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>DSC Module and Configuration Signing validations</source>
+          <target state="translated">DSC 模块和配置签名验证</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In DSC, configuration documents and modules are distributed to managed machines from the pull server or pull server (in the case of Azure Automation pull service).</source>
+          <target state="translated">在 DSC 中，从请求服务器或请求服务器（就 Azure Automation 请求服务来说）将配置文档和模块分发到托管计算机。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If the pull server/service is compromised, an attacker can potentially modify the configurations and modules on the pull server and have it distributed to all managed machines, thus compromising even more machines of the customer.</source>
+          <target state="translated">如果请求服务器/服务受到攻击，攻击者可能修改请求服务器上的配置和模块，并将其分发到所有托管计算机，从而危及客户的更多计算机。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This threat is addressed in WMF 5.1.</source>
+          <target state="translated">此威胁已在 WMF 5.1 中得到解决。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>DSC supports validating the digital signatures on modules and configuration (.MOF) files.</source>
+          <target state="translated">DSC 支持验证模块和配置文件 (.MOF) 上的数字签名。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This feature will prevent nodes from executing a configuration or module files that are not signed by trusted signer or that have been tampered with after they have been signed by trusted signer.</source>
+          <target state="translated">该功能可以防止节点执行未经受信任的签名者签署的配置或模块文件，或者是经受信任的签名者签署后被篡改的配置或模块文件。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>How to sign configuration and module</source>
+          <target state="translated">如何对配置和模块进行签名</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Configuration Files (.MOFS):- The existing PowerShell cmdlet <bpt id="p1">[</bpt>Set-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849819.aspx)</ept> is extended to support signing of MOF files.</source>
+          <target state="translated">配置文件 (.MOFS)：- 已扩展现有的 PowerShell cmdlet <bpt id="p1">[</bpt>Set-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849819.aspx)</ept> 用于支持 MOF 文件签名。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Modules:- Signing of modules is done by signing the corresponding module catalog using the following steps:-</source>
+          <target state="translated">模块：- 使用以下步骤对相应的模块目录进行签名，从而完成模块签名。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Create a catalog file: A catalog file contains a collection of cryptographic hashes, or thumbprints.</source>
+          <target state="translated">创建目录文件：目录文件包含加密哈希或指纹的集合。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Each thumbprint corresponds to a file that is included in the module.</source>
+          <target state="translated">每个指纹对应于模块中包含的一个文件。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A new cmdlet <bpt id="p1">[</bpt>New-FileCatalog<ept id="p1">](https://technet.microsoft.com/library/cc732148.aspx)</ept>, has been added to enable users create a catalog file for their module.</source>
+          <target state="translated">增加了一个新的 cmdlet <bpt id="p1">[</bpt>New-FileCatalog<ept id="p1">](https://technet.microsoft.com/library/cc732148.aspx)</ept>，支持用户为其模块创建目录文件。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Please refer to the catalog cmdlets <bpt id="p1">[</bpt>a relative link<ept id="p1">](catalog-cmdlets.md)</ept> to create catalog files.</source>
+          <target state="translated">请参考目录 cmdlet <bpt id="p1">[</bpt>相对链接<ept id="p1">](catalog-cmdlets.md)</ept>创建目录文件。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Sign the catalog file: using <bpt id="p1">[</bpt>Set-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849819.aspx)</ept> sign the catalog file.</source>
+          <target state="translated">对目录文件进行签名：使用 <bpt id="p1">[</bpt>Set-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849819.aspx)</ept> 对目录文件进行签名。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Place the catalog file inside the module folder.</source>
+          <target state="translated">将目录文件放在模块文件夹中。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>By convention, Module catalog file should be placed under the module folder with the same name as the module.</source>
+          <target state="translated">按照约定，模块目录文件应放在与模块同名的模块文件夹下面。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>LocalConfigurationManager Settings to enable signing validations.</source>
+          <target state="translated">用于启用签名验证的 LocalConfigurationManager 设置。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>PULL</source>
+          <target state="translated">请求</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The LocalConfigurationManager of a node performs signing validation of modules and configurations based on its current settings.</source>
+          <target state="translated">节点的 LocalConfigurationManager 根据其当前设置执行模块和配置的签名验证。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>By default, signature validation is disabled.</source>
+          <target state="translated">默认情况下，签名验证处于禁用状态。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Signature validation can enabled by adding ‘SignatureValidation’ block to the meta-configuration definition of the node as shown below:-</source>
+          <target state="translated">你可以将 SignatureValidation 块添加到节点的元配置定义来启用签名验证，如下所示：-</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Setting the above metaconfiguration on a node enables signature validation on downloaded configurations and modules.</source>
+          <target state="translated">在节点上设置上述元配置可以对下载的配置和模块进行签名验证。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The localconfigurationmanager will perform the following steps to verify the digital signatures.</source>
+          <target state="translated">localconfigurationmanager 将执行以下步骤来验证数字签名。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Verify the signature on a configuration file (.MOF) is valid.</source>
+          <target state="translated">验证配置文件 (.MOF) 上的签名是否有效。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>It uses the powershell cmdlet <bpt id="p1">[</bpt>Get-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849805.aspx)</ept>, which is extended in 5.1 to support MOF sigature validation.</source>
+          <target state="translated">它使用在 5.1 中扩展的 powershell cmdlet <bpt id="p1">[</bpt>Get-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849805.aspx)</ept> 来支持 MOF 签名验证。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Verify the certificate authority that authorized the signer is trusted.</source>
+          <target state="translated">验证授权签名人的证书颁发机构是否可信任。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Download module/resource dependencies of the configuration to a temp location.</source>
+          <target state="translated">将配置的模块/资源依赖项下载到临时位置。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Verify the signature of the catalog included inside the module.</source>
+          <target state="translated">验证模块中是否包含目录的签名。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Find a <ph id="ph1">&lt;moduleName&gt;</ph>.cat file and verify its signature using the cmdlet  <bpt id="p1">[</bpt>Get-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849805.aspx)</ept>.</source>
+          <target state="translated">查找 <ph id="ph1">&lt;moduleName&gt;</ph>.cat 文件并使用 cmdlet <bpt id="p1">[</bpt>Get-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849805.aspx)</ept> 验证其签名。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Verify the certification authority that authenticated the signer is trusted.</source>
+          <target state="translated">验证对签名人进行身份验证的证书颁发机构是否可信任。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Verify the content of the modules has not been tampered using the new cmdlet <bpt id="p1">[</bpt>Test-FileCatalog<ept id="p1">](https://technet.microsoft.com/library/cc732148.aspx)</ept>.</source>
+          <target state="translated">验证未使用新的 cmdlet <bpt id="p1">[</bpt>Test-FileCatalog<ept id="p1">](https://technet.microsoft.com/library/cc732148.aspx)</ept> 篡改模块的内容。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Install-module to $env:ProgramFiles\WindowsPowerShell\Modules\</source>
+          <target state="translated">将模块安装到 $env: ProgramFiles\WindowsPowerShell\Modules\</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Process configuration.</source>
+          <target state="translated">进程配置。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Note: - Signature validation on module-catalog and configuration is only performed when the configuration is applied to the system for the first time or when the module is downloaded and installed.</source>
+          <target state="translated">注意：- 仅在第一次将配置应用到系统或下载并安装模块时，才执行对模块目录和配置的签名验证。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Consistency run does not validate signature of Current.mof or its module dependencies.</source>
+          <target state="translated">一致性运行不会验证 Current.mof 或其模块依赖项的签名。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If verification has failed at any stage, for instance if the configuration pulled from the pullserver is unsigned, then processing of the configuration will be terminated with the error shown below and all temporary files will be deleted.</source>
+          <target state="translated">如果在任何阶段验证失败，例如，如果从请求服务器提取的配置尚未签名，则将终止配置处理，并显示以下错误，以及删除所有临时文件。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Sample Error Output Configuration</source>
+          <target state="translated">错误输出配置示例</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Similarily, Pulling a module whose catalog is not signed will result in the following error:-</source>
+          <target state="translated">类似地，提取其目录未签名的模块将导致以下错误：-</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Sample Error Output Module</source>
+          <target state="translated">错误输出模块示例</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>PUSH</source>
+          <target state="translated">推送</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A configuration delivered via push might be tampered at its source before it is delivered to the node.</source>
+          <target state="translated">通过推送提供的配置可能会在其提供到节点之前在源处被篡改。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The Local configuration manager will perform similar signature validation steps for pushed or published configuration(s).</source>
+          <target state="translated">本地配置管理器将对推送或发布的配置执行类似的签名验证步骤。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Below is a complete example of signature validation for push.</source>
+          <target state="translated">下面是针对推送的签名验证的完整示例。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Enable signature validation on the node.</source>
+          <target state="translated">启用针对节点的签名验证。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Create a sample configuration file.</source>
+          <target state="translated">创建示例配置文件。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Try pushing the unsigned configuration file in to the node.</source>
+          <target state="translated">尝试将未签名的配置文件推送到节点。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>ErrorUnsignedMofPushed</source>
+          <target state="translated">ErrorUnsignedMofPushed</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Sign the configurtion file using code-signing cert.</source>
+          <target state="translated">使用代码签名证书对配置文件进行签名。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>SignMofFile</source>
+          <target state="translated">SignMofFile</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Try pushing the signed mof file.</source>
+          <target state="translated">请尝试推送已签名的 mof 文件。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>SignMofFile</source>
+          <target state="translated">SignMofFile</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

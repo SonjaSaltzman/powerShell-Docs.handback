@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">025565404b60cebefac27e51c70d70edb5e47bc9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\features-scenarios-cache\PowerShellGet-Enhancements.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">81d6bebcfe041765686eba05f505b8414f690866</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>example template of a feature or scenario writeup</source>
+          <target state="translated">功能或方案记录的示例模板</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Note: provide a proposed descriptive title and a brief description</source>
+          <target state="translated">注意：提供建议的描述性标题和简短说明</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>PowerShellGet Enhancements</source>
+          <target state="translated">PowerShellGet 增强功能</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The cmdlets in the PowerShellGet module have been updated considerably in WMF 5.1.</source>
+          <target state="translated">PowerShellGet 模块中的 cmdlet 已在 WMF 5.1 中得到很大程度的更新。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The following new scenarios are now supported:</source>
+          <target state="translated">现在支持以下新方案：</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Proxy Support:<ept id="p1">**</ept> Using the PowerShellGet cmdlets with an internal proxy is now supported, with the addition of the Proxy and ProxyCredential parameters to all of the Find-, Install-, Save-, and Publish- cmdlets in the PowerShellGet module (eg: Find-Module, Install-Module, Save-Module, Publish-Module).</source>
+          <target state="translated"><bpt id="p1">**</bpt>代理支持：<ept id="p1">**</ept>将 Proxy 和 ProxyCredential 参数加入 PowerShellGet 模块（例如：Find-Module、Install-Module、Save-Module、Publish-Module）中所有的 Find-、Install-、Save- 和 Publish- cmdlet，现已支持使用具有内部代理的 PowerShellGet cmdlet。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Enforcing Catalog Signing:<ept id="p1">**</ept> All PowerShellGet cmdlets now check for and enforce updating of signed modules.</source>
+          <target state="translated"><bpt id="p1">**</bpt>强制执行目录签名：<ept id="p1">**</ept>现在所有的 PowerShellGet cmdlet 都将检查并强制更新已签名模块。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Modules signed using the new Catalog cmdlets will be checked by the PowerShellGet cmdlets to ensure that the module has not been modified in transit, and that updates to the module may only come from the original publisher.</source>
+          <target state="translated">PowerShellGet cmdlet 将检查使用新的 Catalog cmdlet 签名的模块，以确保尚未在传输过程中修改该模块，且对该模块的更新可能仅来自于原始发布服务器。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This affects Install-Module, and Update-Module cmdlets.</source>
+          <target state="translated">这将影响 Install-Module 和 Update-Module cmdlet。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Sharing and Acquiring Role Capabilities:<ept id="p1">**</ept> Role Capabilities are the endpoint definitions used to configure Just Enough Administration to constrain, and will be shared via the PowerShell Gallery in PowerShell Modules.</source>
+          <target state="translated"><bpt id="p1">**</bpt>共享和获取角色功能：<ept id="p1">**</ept>角色功能是用于配置要约束的 Just Enough Administration 的终结点定义，将通过 PowerShell 模块中的 PowerShell 库共享。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Cmdlets include Find-RoleCapability, and New-PSRoleCapabilityFile.</source>
+          <target state="translated">Cmdlet 包括 Find-RoleCapability 和 New-PSRoleCapabilityFile。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Find Command:<ept id="p1">**</ept> Find-Command allows users to locate a module in the PowerShell Gallery that contains a command they are looking for.</source>
+          <target state="translated"><bpt id="p1">**</bpt>查找命令：<ept id="p1">**</ept>查找命令允许用户定位包含他们所查找的命令的 PowerShell 库中的模块。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Authenticated repositories:<ept id="p1">**</ept> Visual Studio Package Management feed requires authentication, something that is now supported via the PowerShellGet cmdlets.</source>
+          <target state="translated"><bpt id="p1">**</bpt>经过身份验证的存储库：<ept id="p1">**</ept>Visual Studio 包管理源要求身份验证，即现在通过 PowerShellGet cmdlet 支持的一些内容。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>User feedback identified additional areas for improvement that have been addressed in 5.1, including:</source>
+          <target state="translated">在 5.1 中已解决的用户反馈确定可改进的其他方面包括：</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Install-Script changes:<ept id="p1">**</ept> The location used by Install-script is not added to the user path automatically in 5.1.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Install-Script 更改：<ept id="p1">**</ept>Install-script 使用的位置未自动添加到 5.1 中的用户路径。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This change was made in the standalone version of PowerShellGet, and is now in WMF 5.1.</source>
+          <target state="translated">此更改是在 PowerShellGet 的独立版本中进行的，现已包括到 WMF 5.1 中。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Adding metadata fields to existing scripts:<ept id="p1">**</ept> Update-ScriptFileInfo can be used on existing scripts to add the default metadata fields needed to publish to the PowerShellGallery.</source>
+          <target state="translated"><bpt id="p1">**</bpt>将元数据字段添加到现有脚本：<ept id="p1">**</ept>可在现有脚本上使用 Update-ScriptFileInfo，以将需要发布的默认元数据字段添加到 PowerShellGallery。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Previously users needed to manually merge this into an existing script.</source>
+          <target state="translated">以前，用户需要手动将其合并到现有脚本。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Publishing a lower-versioned module to the Gallery:<ept id="p1">**</ept> It is now possible to publish a module with a lower version number than the current previous highest version to the Gallery using Publish-Module.</source>
+          <target state="translated"><bpt id="p1">**</bpt>将较低版本的模块发布到库：<ept id="p1">**</ept>现在可以使用 Publish-Module 将较当前上一个最高版本具有较低版本号的模块发布到库。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If a publisher  released version 2.0.0 of their module with breaking changes from the 1.x versions, they could not easily release a fix to version 1.5.0.</source>
+          <target state="translated">如果发布服务器发布其模块的 2.0.0 版本，此版本与 1.x 版本相比进行了重大更改，则它们无法轻松地将修补程序发布到版本 1.5.0。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Now, they can publish a 1.5.1, which will improve support for maintaining modules in the PowerShell Gallery.</source>
+          <target state="translated">现在，它们可以发布 1.5.1，这将改进对 PowerShell 库中模块维护的支持。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Checking for command over-write when installing scripts and modules:<ept id="p1">**</ept> Install-Module and Install-Script will now check to see if they contain commands that are already present on the system, and will by default error out if that happens.</source>
+          <target state="translated"><bpt id="p1">**</bpt>安装脚本与模块时检查命令覆盖：<ept id="p1">**</ept>Install-Module 和 Install-Script 现在将检查以查看它们是否包含已出现在系统上的命令，并在出现该情况时默认出错。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Bootstrapping Nuget in Publish- cmdlets:<ept id="p1">**</ept> Previously there was no way to automatically install the Nuget provider when using Publish-Module or Publish-Script, which made certain automation tasks very difficult.</source>
+          <target state="translated"><bpt id="p1">**</bpt>在 Publish- cmdlet 中引导 Nuget：<ept id="p1">**</ept>以前，在使用 Publish-Module 或 Publish-Script 时无法自动安装 Nuget 提供程序，这使得某些自动化任务非常困难。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Users may now add -Force to Publish- commands to bypass the prompt.</source>
+          <target state="translated">用户现在可以添加-Force to Publish- 命令以绕过提示。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Note: additional detail covering new concepts, implementation, examples, etc should be linked to the canonical technical documentation</source>
+          <target state="translated">注意：涵盖新概念、实现、示例等的其他详细信息应链接到规范技术文档</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Learn more about using PowerShellGet</source>
+          <target state="translated">了解有关使用 PowerShellGet 的详细信息</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>About-CatalogSigning</source>
+          <target state="translated">About-CatalogSigning</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Filter Get-Module results by CompatiblePSEditions</source>
+          <target state="translated">按 CompatiblePSEditions 筛选 Get-Module 结果</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Prevent script execution unless run on a comaptible edition of PowerShell</source>
+          <target state="translated">阻止脚本执行，除非在 PowerShell 的兼容版本上运行</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
