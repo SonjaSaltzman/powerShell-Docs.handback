@@ -7,10 +7,10 @@
 [ Handoff Failed Files ](#handoff-failed-list)| 0
 [ Handoff Success Files ](#handoff-success-list)| 37
 [ Archive Failed Files ](#archive-failed-list)| 0
-[ Archive Success Files ](#archive-success-list)| 28
+[ Archive Success Files ](#archive-success-list)| 27
 [ Handback Failed Files ](#handback-failed-list)| 6
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
-[ In Sync Handback Files ](#insync-handback-success-list)| 349
+[ In Sync Handback Files ](#insync-handback-success-list)| 350
 [ Ignored Files ](#ignored-list)| 41
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
@@ -88,7 +88,6 @@
  [scripting\getting-started\more-powershell-learning.md](https://github.com/PowerShell/powerShell-Docs/blob/fe3d7885b7c031a24a737f58523c8018cfc36146/scripting/getting-started/more-powershell-learning.md) | ArchivedSuccess | [Details](#ba4f79742e21e23fb3745ca8c7833679d398ccf4309)
  [scripting\setup\Starting-the-32-Bit-Version-of-Windows-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/fa0a541965b4121b8e8ac677b3c38e6f316b4553/scripting/setup/Starting-the-32-Bit-Version-of-Windows-PowerShell.md) | ArchivedSuccess | [Details](#4e6a0e7f8935b905d1cb19576541d1b532fcba21319)
  [scripting\setup\Starting-Windows-PowerShell-on-Earlier-Versions-of-Windows.md](https://github.com/PowerShell/powerShell-Docs/blob/c40ab96196531d36001e4d94a3821d20612cbfce/scripting/setup/Starting-Windows-PowerShell-on-Earlier-Versions-of-Windows.md) | ArchivedSuccess | [Details](#333469a642a4b88442a7d3ca8fa65f5755c69bcc321)
- [wmf\README.md](https://github.com/PowerShell/powerShell-Docs/blob/b32cb86b7a18fee929cc81360d81f479571a74c2/wmf/README.md) | ArchivedSuccess | [Details](#a7ef0ddf4d093a89f32f3484dfbef78fb159f0c2459)
 
 ## <a name='handback-failed-list'></a> Handback Failed File List
  Source File | Status | Details 
@@ -453,6 +452,7 @@
  [wmf\5.1\release-notes.md](https://github.com/PowerShell/powerShell-Docs/blob/ebbd7d4d39cd335d994dd6cd3a06dd644df6d919/wmf/5.1/release-notes.md) | InSyncHandedBackSuccess | [Details](#83061e651b190bab3e5914bb6270a5857f7aa7a5439)
  [wmf\5.1\scenarios-features.md](https://github.com/PowerShell/powerShell-Docs/blob/a1dde68414fd9754a15adb42642646f87adb0823/wmf/5.1/scenarios-features.md) | InSyncHandedBackSuccess | [Details](#9611a7da48a849b52821ac2890e1ea60441a75e3440)
  [wmf\index.md](https://github.com/PowerShell/powerShell-Docs/blob/f8edea353c7591c96f5c75dee3f4ad305b8e473f/wmf/index.md) | InSyncHandedBackSuccess | [Details](#865258c0b403d4e7979d7ee32d3f87b63a349f08457)
+ [wmf\README.md](https://github.com/PowerShell/powerShell-Docs/blob/b32cb86b7a18fee929cc81360d81f479571a74c2/wmf/README.md) | InSyncHandedBackSuccess | [Details](#a7ef0ddf4d093a89f32f3484dfbef78fb159f0c2459)
  [wmf\TOC.md](https://github.com/PowerShell/powerShell-Docs/blob/9e62889b5928839444dbea345e318a8bf75a1694/wmf/TOC.md) | InSyncHandedBackSuccess | [Details](#274c6dcc36b3baa64d01b5518444c7de3dcc00ee460)
 
 ## <a name='ignored-list'></a> Ignored File List
@@ -7012,15 +7012,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='a7ef0ddf4d093a89f32f3484dfbef78fb159f0c2459'></a> Source: [wmf\README.md](https://github.com/PowerShell/powerShell-Docs/blob/b32cb86b7a18fee929cc81360d81f479571a74c2/wmf/README.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [wmf\README.md](https://github.com/PowerShell/powerShell-Docs.ko-kr/blob/ae52875e54c3429836479b00e8764f31699f2df0/wmf/README.md)
 * Handoff File: [README.3f33d618813a6a11bfd02271ad6bb9c112763721.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/c7ae71b7154775da4a6e25f7ebb17d769df20e5f/ol-handoff/PowerShell/powerShell-Docs.ko-kr/live/README.3f33d618813a6a11bfd02271ad6bb9c112763721.ko-kr.xlf)
 * Handoff Datetime: 2016-08-18 01:31:41
 * Handoff Reason: Include
 * Archive File: [README.3f33d618813a6a11bfd02271ad6bb9c112763721.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/3dc5581596319da2c254fcaea93455c8ddcc69d0/ol-archive/PowerShell/powerShell-Docs.ko-kr/live/README.3f33d618813a6a11bfd02271ad6bb9c112763721.ko-kr.xlf)
 * Archive Datetime: 2016-08-23 13:35:35
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
+* Handback File: [README.3f33d618813a6a11bfd02271ad6bb9c112763721.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/6e8a72fb053d3a21edf902b513ae60f770c81e11/ol-handback/PowerShell/powerShell-Docs.ko-kr/live/README.3f33d618813a6a11bfd02271ad6bb9c112763721.ko-kr.xlf)
+* Handback Datetime: 2016-10-14 12:31:59
 * [Back to Top](#report-top)
 
 ##### <a name='274c6dcc36b3baa64d01b5518444c7de3dcc00ee460'></a> Source: [wmf\TOC.md](https://github.com/PowerShell/powerShell-Docs/blob/9e62889b5928839444dbea345e318a8bf75a1694/wmf/TOC.md)
