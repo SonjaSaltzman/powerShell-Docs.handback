@@ -2786,6 +2786,8 @@
 * Archive Datetime: 2016-08-23 13:35:35
 * Handback File: [scriptwithpseditionsupport.46e2bd8cb0285ec8da7d2aa4a47ec9340d3d509a.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ba35a1107c3453a088fa94df3ded71ee2bceba7e/ol-handback/PowerShell/powerShell-Docs.ko-kr/live/scriptwithpseditionsupport.46e2bd8cb0285ec8da7d2aa4a47ec9340d3d509a.ko-kr.xlf)
 * Handback Datetime: 2016-10-14 09:34:31
+* Bilingual File: [scriptwithpseditionsupport.46e2bd8cb0285ec8da7d2aa4a47ec9340d3d509a.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ba35a1107c3453a088fa94df3ded71ee2bceba7e/ol-handback/PowerShell/powerShell-Docs.ko-kr/live/scriptwithpseditionsupport.46e2bd8cb0285ec8da7d2aa4a47ec9340d3d509a.ko-kr.xlf)
+* Bilingual Datetime: 2016-10-14 09:35:38
 * [Back to Top](#report-top)
 
 ##### <a name='1407b4d2c8c6c246b51ef447284e729811823688172'></a> Source: [gallery\readme.md](https://github.com/PowerShell/powerShell-Docs/blob/7686acf724304da5fcaa1d74e8301794731e8013/gallery/readme.md)
@@ -3634,6 +3636,8 @@
 * Current Target File: [scripting\core-powershell\ise\The-ISEFileCollection-Object.md](https://github.com/PowerShell/powerShell-Docs.ko-kr/blob/ae2f49d659e5c30d8dff93b5ac4792edc4554d40/scripting/core-powershell/ise/The-ISEFileCollection-Object.md)
 * Current Handback File: [The-ISEFileCollection-Object.9e3c57287642456ae02b8c57dfbc4b4a98261726.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ba35a1107c3453a088fa94df3ded71ee2bceba7e/ol-handback/PowerShell/powerShell-Docs.ko-kr/live/The-ISEFileCollection-Object.9e3c57287642456ae02b8c57dfbc4b4a98261726.ko-kr.xlf)
 * Current Handback Datetime: 2016-10-14 09:34:31
+* Bilingual File: [The-ISEFileCollection-Object.9e3c57287642456ae02b8c57dfbc4b4a98261726.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ba35a1107c3453a088fa94df3ded71ee2bceba7e/ol-handback/PowerShell/powerShell-Docs.ko-kr/live/The-ISEFileCollection-Object.9e3c57287642456ae02b8c57dfbc4b4a98261726.ko-kr.xlf)
+* Bilingual Datetime: 2016-10-14 09:35:38
 * [Back to Top](#report-top)
 
 ##### <a name='9063e17928c433db8c3c9d26d41d31c2675e413c232'></a> Source: [scripting\core-powershell\ise\The-ISEFile-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/fe3d7885b7c031a24a737f58523c8018cfc36146/scripting/core-powershell/ise/The-ISEFile-Object.md)
@@ -4338,6 +4342,8 @@
 * Current Target File: [scripting\getting-started\cookbooks\Selecting-Items-from-a-List-Box.md](https://github.com/PowerShell/powerShell-Docs.ko-kr/blob/ae2f49d659e5c30d8dff93b5ac4792edc4554d40/scripting/getting-started/cookbooks/Selecting-Items-from-a-List-Box.md)
 * Current Handback File: [Selecting-Items-from-a-List-Box.afbdc6b6a2c0471cc31c7a41f3dcb7f0911919c5.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ba35a1107c3453a088fa94df3ded71ee2bceba7e/ol-handback/PowerShell/powerShell-Docs.ko-kr/live/Selecting-Items-from-a-List-Box.afbdc6b6a2c0471cc31c7a41f3dcb7f0911919c5.ko-kr.xlf)
 * Current Handback Datetime: 2016-10-14 09:34:31
+* Bilingual File: [Selecting-Items-from-a-List-Box.afbdc6b6a2c0471cc31c7a41f3dcb7f0911919c5.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ba35a1107c3453a088fa94df3ded71ee2bceba7e/ol-handback/PowerShell/powerShell-Docs.ko-kr/live/Selecting-Items-from-a-List-Box.afbdc6b6a2c0471cc31c7a41f3dcb7f0911919c5.ko-kr.xlf)
+* Bilingual Datetime: 2016-10-14 09:35:38
 * [Back to Top](#report-top)
 
 ##### <a name='463eaa5d27eeb03f232239bc6810ab00d4a1eaf4279'></a> Source: [scripting\getting-started\cookbooks\Selecting-Parts-of-Objects--Select-Object-.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Selecting-Parts-of-Objects--Select-Object-.md)
@@ -6342,6 +6348,8 @@
 * Archive Datetime: 2016-08-23 13:35:35
 * Handback File: [DSCPartialConfigNaming.0fa686a40e3e562fa831fc87a2ac2b8b81cfba33.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ba35a1107c3453a088fa94df3ded71ee2bceba7e/ol-handback/PowerShell/powerShell-Docs.ko-kr/live/DSCPartialConfigNaming.0fa686a40e3e562fa831fc87a2ac2b8b81cfba33.ko-kr.xlf)
 * Handback Datetime: 2016-10-14 09:34:31
+* Bilingual File: [DSCPartialConfigNaming.0fa686a40e3e562fa831fc87a2ac2b8b81cfba33.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ba35a1107c3453a088fa94df3ded71ee2bceba7e/ol-handback/PowerShell/powerShell-Docs.ko-kr/live/DSCPartialConfigNaming.0fa686a40e3e562fa831fc87a2ac2b8b81cfba33.ko-kr.xlf)
+* Bilingual Datetime: 2016-10-14 09:35:38
 * [Back to Top](#report-top)
 
 ##### <a name='7505e063fad84999af786f2af0602d204ed973b7420'></a> Source: [wmf\5.1\features-scenarios-cache\DSCRunAsCredentialCompositeResources.md](https://github.com/PowerShell/powerShell-Docs/blob/e39aa2e5cbda0c83e24e21c4459d957d8baaff25/wmf/5.1/features-scenarios-cache/DSCRunAsCredentialCompositeResources.md)
@@ -6367,6 +6375,8 @@
 * Archive Datetime: 2016-08-23 13:35:35
 * Handback File: [DSCSigningValidations.9fb5f7c90060737d46691c9c29429a9e500a99db.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ba35a1107c3453a088fa94df3ded71ee2bceba7e/ol-handback/PowerShell/powerShell-Docs.ko-kr/live/DSCSigningValidations.9fb5f7c90060737d46691c9c29429a9e500a99db.ko-kr.xlf)
 * Handback Datetime: 2016-10-14 09:34:31
+* Bilingual File: [DSCSigningValidations.9fb5f7c90060737d46691c9c29429a9e500a99db.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ba35a1107c3453a088fa94df3ded71ee2bceba7e/ol-handback/PowerShell/powerShell-Docs.ko-kr/live/DSCSigningValidations.9fb5f7c90060737d46691c9c29429a9e500a99db.ko-kr.xlf)
+* Bilingual Datetime: 2016-10-14 09:35:38
 * [Back to Top](#report-top)
 
 ##### <a name='b24e70c1e1aaf71487b00fbccaf6edb0f375b888422'></a> Source: [wmf\5.1\features-scenarios-cache\Improved-dsc-classresource.md](https://github.com/PowerShell/powerShell-Docs/blob/e39aa2e5cbda0c83e24e21c4459d957d8baaff25/wmf/5.1/features-scenarios-cache/Improved-dsc-classresource.md)
