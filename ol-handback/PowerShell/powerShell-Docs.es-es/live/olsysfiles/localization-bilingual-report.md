@@ -1,28 +1,11 @@
 # <a name='report-top'></a> Localization Bilingual Report
 
 ## Summary
- Total Files | 1
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [scripting\core-powershell\ise\The-ISEMenuItem-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/fe3d7885b7c031a24a737f58523c8018cfc36146/scripting/core-powershell/ise/The-ISEMenuItem-Object.md) | InSyncHandedBackSuccess | [Details](#43477d0742612f331f74833a1d70e69692b5b8e7233)
 
 ## Item Details
-##### <a name='43477d0742612f331f74833a1d70e69692b5b8e7233'></a> Source: [scripting\core-powershell\ise\The-ISEMenuItem-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/fe3d7885b7c031a24a737f58523c8018cfc36146/scripting/core-powershell/ise/The-ISEMenuItem-Object.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [scripting\core-powershell\ise\The-ISEMenuItem-Object.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/8533c6c57456b7448c3ab489adbd369dadf05250/scripting/core-powershell/ise/The-ISEMenuItem-Object.md)
-* Handoff File: [The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/e85830b1401adb302f0ecc9fe1ca595ab8f36cca/ol-handoff/PowerShell/powerShell-Docs.es-es/live/The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.es-es.xlf)
-* Handoff Datetime: 2016-10-08 00:05:37
-* Handoff Reason: Include
-* Archive File: [The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/050286523f2de14685e41191f2ebd8220ffd54d3/ol-archive/PowerShell/powerShell-Docs.es-es/live/The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.es-es.xlf)
-* Archive Datetime: 2016-10-12 15:23:25
-* Handback File: [The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/abd5ab63db7f5430cce21be85f2d2f83872c2f74/ol-handback/PowerShell/powerShell-Docs.es-es/live/The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.es-es.xlf)
-* Handback Datetime: 2016-10-17 08:11:16
-* Bilingual File: [The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/abd5ab63db7f5430cce21be85f2d2f83872c2f74/ol-handback/PowerShell/powerShell-Docs.es-es/live/The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.es-es.xlf)
-* Bilingual Datetime: 2016-10-17 08:13:11
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
