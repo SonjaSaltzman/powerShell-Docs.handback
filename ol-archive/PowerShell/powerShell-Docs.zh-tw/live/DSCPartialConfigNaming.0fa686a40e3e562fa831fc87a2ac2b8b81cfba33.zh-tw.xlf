@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">368c26766961e760fd2de8c99057121bea076158</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\features-scenarios-cache\DSCPartialConfigNaming.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e2cd2599108ddb0f1d957e968181c7ce1f9347cc</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Pull Partial Configuration Naming Convention</source>
+          <target state="translated">提取命名慣例的部分設定</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Pull Partial Configuration Naming Convention</source>
+          <target state="translated">提取命名慣例的部分設定</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In the previous releases, the naming convention for a partial configuration was the mof file name in the pull server /service should match the partial configuration name specified in the local configuration manger settings that in turn has to match the configuration name embedded in the MOF file.</source>
+          <target state="translated">在舊版中，提取伺服器/服務的部分設定命名慣例 mof 檔案名稱，應該符合本機設定管理員設定中指定的部分設定名稱，該本機設定管理員設定必須依次比對 MOF 檔案中內嵌的設定名稱。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>See the snapshots below:- •   Local configuration settings which defines a partial configuration that a node is allowed to receive.</source>
+          <target state="translated">請參閱下列快照集：•   本機組態設定，定義允許接收節點的部分設定。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Sample metaconfiguration</source>
+          <target state="translated">中繼設定範例</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>•   Sample partial configuration definition</source>
+          <target state="translated">•   部分設定定義範例</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>•   ‘ConfigurationName’ embedded in the generated MOF file.</source>
+          <target state="translated">•   內嵌在產生之 MOF 檔案中的 'ConfigurationName'。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Sample generated mof file</source>
+          <target state="translated">產生的 MOF 檔案範例</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>•   FileName in the pull configuration repository</source>
+          <target state="translated">•   提取設定存放庫中的檔案名稱</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>FileName in Configuration Repository</source>
+          <target state="translated">設定存放庫中的檔案名稱</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Azure Automation service name generated mof files as <ph id="ph1">``&lt;ConfigurationName&gt;.&lt;NodeName&gt;.mof``</ph>.</source>
+          <target state="translated">Azure 自動化服務名稱以前產生的 mof 檔案為 <ph id="ph1">``&lt;ConfigurationName&gt;.&lt;NodeName&gt;.mof``</ph>。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>So the configuration below will compile to PartialOne.Localhost.mof.</source>
+          <target state="translated">所以下面的設定會編譯為 PartialOne.Localhost.mof。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This made it impossible to pull a partial configuration from Azure automation service.</source>
+          <target state="translated">如此即不可能從 Azure 自動化服務提取部分設定。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In WMF 5.1, partial configuration in the pull server/service can be named as <ph id="ph1">``&lt;ConfigurationName&gt;.&lt;NodeName&gt;.mof``</ph>.</source>
+          <target state="translated">在 WMF 5.1 中，提取伺服器/服務中的部分設定可以命名為 <ph id="ph1">``&lt;ConfigurationName&gt;.&lt;NodeName&gt;.mof``</ph>。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Moreover, if a machine is pulling a single configuration from a pull server/service then the configuration document on the pull server configuration repository can have any name.</source>
+          <target state="translated">但若電腦從提取伺服器/服務中提取單一設定，則提取伺服器設定存放庫上的設定文件可以有任意名稱。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This naming flexibility enables managing partial configuration of a node using both onprem and Azure Automation pull service.</source>
+          <target state="translated">這項命名彈性會使用 onprem 和 Azure 自動化提取服務來管理節點的部分設定。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For example, you can have 'base' partial configuration that gets pushed locally and another partial configuration that gets pulled from Azure Automation Service.</source>
+          <target state="translated">例如，您可以有在本機提取的「基本」部分設定，以及另一個從 Azure 自動化服務提取的部分設定。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The metaconfiguration below will setup a node to be managed both locally as well as by Azure Automation Service.</source>
+          <target state="translated">下面的中繼設定會設定由本機及 Azure 自動化服務來管理節點。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
