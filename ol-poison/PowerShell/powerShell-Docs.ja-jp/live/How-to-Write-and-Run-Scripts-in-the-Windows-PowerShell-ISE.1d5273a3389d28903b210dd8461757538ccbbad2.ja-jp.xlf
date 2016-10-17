@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1c1534bc37d0a53262caffdfa60400e1ff8d98e7</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\core-powershell\ise\How-to-Write-and-Run-Scripts-in-the-Windows-PowerShell-ISE.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d490fb454ccb772a682b9534a5920c22b5856dad</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>How to Write and Run Scripts in the Windows PowerShell ISE</source>
+          <target state="translated">Windows PowerShell ISE でスクリプトを記述および実行する方法</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="translated">PowerShell, コマンドレット</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>How to Write and Run Scripts in the Windows PowerShell ISE</source>
+          <target state="translated">Windows PowerShell ISE でスクリプトを記述および実行する方法</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This topic describes how to create, edit, run, and save scripts in the Script Pane.</source>
+          <target state="translated">このトピックでは、スクリプト ウィンドウでスクリプトを作成、編集、実行、保存する方法について説明します。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>How to create and run scripts</source>
+          <target state="translated">スクリプトを作成して実行する方法</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>How to write and edit text in the Script Pane</source>
+          <target state="translated">スクリプト ウィンドウでテキストを記述して編集する方法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>How to save a script</source>
+          <target state="translated">スクリプトを保存する方法</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>How to create and run scripts</source>
+          <target state="translated">スクリプトを作成して実行する方法</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can open and edit Windows PowerShellÂ® files in the Script Pane.</source>
+          <target state="translated">Windows PowerShellÂ® ファイルは、スクリプト ウィンドウで開いたり、編集したりできます。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Specific file types of interest in Windows PowerShellÂ® are script files (.ps1), script data files (.psd1), and script module files (.psm1).</source>
+          <target state="translated">Windows PowerShellÂ® で対象となるファイルの種類は、スクリプト ファイル (.ps1)、スクリプト データ ファイル (.psd1)、スクリプト モジュール ファイル (.psm1) です。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>These file types are syntax colored in the Script Pane editor.</source>
+          <target state="translated">これらのファイルの種類は、スクリプト ウィンドウのエディターで構文が色分けされます。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Other common file types you may open in the Script Pane are configuration files (.ps1xml), XML files, and text files.</source>
+          <target state="translated">スクリプト ウィンドウで開くことのできる他の一般的なファイルの種類には、構成ファイル (.ps1xml)、XML ファイル、テキスト ファイルがあります。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell execution policy determines whether you can run scripts and load Windows PowerShell profiles and configuration files.</source>
+          <target state="translated">Windows PowerShell の実行ポリシーによって、スクリプトの実行や、Windows PowerShell のプロファイルと構成ファイルの読み込みを実行できるかどうかが決まります。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The default execution policy, Restricted, prevents all scripts from running, and prevents loading profiles.</source>
+          <target state="translated">既定の実行ポリシー Restricted では、すべてのスクリプトの実行とプロファイルの読み込みが防止されます。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To change the execution policy to allow profiles to load and be used, see <bpt id="p1">[</bpt>Set-ExecutionPolicy[PSITPro5_Security]<ept id="p1">](https://technet.microsoft.com/en-us/library/5690a0e1-495b-4e63-8280-65ead7bf01ab)</ept> and <bpt id="p2">[</bpt>about_Signing [v4]<ept id="p2">](https://technet.microsoft.com/en-us/library/fcbdd3b9-0b9f-4734-b5c7-e0dcc304fa1d)</ept>.</source>
+          <target state="translated">プロファイルの、読み込みと使用を許可するように実行ポリシーを変更する方法については、「<bpt id="p1">[</bpt>Set-ExecutionPolicy[PSITPro5_Security]<ept id="p1">](https://technet.microsoft.com/en-us/library/5690a0e1-495b-4e63-8280-65ead7bf01ab)</ept>」と「<bpt id="p2">[</bpt>about_Signing [v4]<ept id="p2">](https://technet.microsoft.com/en-us/library/fcbdd3b9-0b9f-4734-b5c7-e0dcc304fa1d)</ept>」をご覧ください。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To create a new script file</source>
+          <target state="translated">新しいスクリプト ファイルを作成するには</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>On the toolbar, click <bpt id="p1">**</bpt>New<ept id="p1">**</ept> , or on the <bpt id="p2">**</bpt>File<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>New<ept id="p3">**</ept>.</source>
+          <target state="translated">ツール バーの <bpt id="p1">**</bpt>[新規作成]<ept id="p1">**</ept>、または <bpt id="p2">**</bpt>[ファイル]<ept id="p2">**</ept> メニューの <bpt id="p3">**</bpt>[新規作成]<ept id="p3">**</ept> をクリックします。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The created file appears in a new file tab under the current PowerShell tab.</source>
+          <target state="translated">作成されたファイルは、現在の PowerShell タブの下に新しいファイル タブとして表示されます。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Remember that the PowerShell tabs are only visible when there are more than one.</source>
+          <target state="translated">PowerShell のタブは、少なくとも 1 つのタブが存在する場合にのみ表示されることにご注意ください。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>By default a file of type script (.ps1) is created, but it can be saved with a new name and extension.</source>
+          <target state="translated">既定では種類のスクリプトのファイル (.ps1) が作成されますが、そのファイルに新しい名前や拡張子を指定して保存できます。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Multiple script files can be created in the same PowerShell tab.</source>
+          <target state="translated">同じ PowerShell タブ内に複数のスクリプト ファイルを作成できます。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To open an existing script</source>
+          <target state="translated">既存のスクリプトを開くには</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>On the toolbar, click <bpt id="p1">**</bpt>Open…<ept id="p1">**</ept>, or on the <bpt id="p2">**</bpt>File<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Open<ept id="p3">**</ept>.</source>
+          <target state="translated">ツール バーの <bpt id="p1">**</bpt>[開く]<ept id="p1">**</ept>、または <bpt id="p2">**</bpt>[ファイル]<ept id="p2">**</ept> メニューの <bpt id="p3">**</bpt>[開く]<ept id="p3">**</ept> をクリックします。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Open<ept id="p1">**</ept> dialog box, select the file you want to open.</source>
+          <target state="translated"><bpt id="p1">**</bpt>[開く]<ept id="p1">**</ept> ダイアログ ボックスで、開くファイルを選びます。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The opened file appears in a new tab.</source>
+          <target state="translated">開いたファイルが新しいタブに表示されます。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To close a script tab</source>
+          <target state="translated">スクリプト タブを閉じるには</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Click the script tab of the script you want to close, then do one of the following:</source>
+          <target state="translated">閉じるスクリプトのスクリプト タブをクリックし、次のいずれかの操作を実行します。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Close<ept id="p1">**</ept> icon (X) on the script tab.</source>
+          <target state="translated">スクリプト タブの <bpt id="p1">**</bpt>[閉じる]<ept id="p1">**</ept> アイコン (X) をクリックします。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>File<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>Close<ept id="p2">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>[ファイル]<ept id="p1">**</ept> メニューの <bpt id="p2">**</bpt>[閉じる]<ept id="p2">**</ept> をクリックします。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If the file has been altered since it was last saved, you are prompted to save or discard it.</source>
+          <target state="translated">ファイルが最後に保存されてから変更された場合は、ファイルを保存するか破棄するかを選ぶメッセージが表示されます。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To display the file path</source>
+          <target state="translated">ファイル パスを表示するには</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>On the file tab, point to the file name.</source>
+          <target state="translated">ファイル タブのファイル名をポイントします。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The fully qualified path to the script file appears in a tooltip.</source>
+          <target state="translated">スクリプト ファイルへの完全修飾パスがヒントに表示されます。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To run a script</source>
+          <target state="translated">スクリプトを実行するには</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>On the toolbar, click <bpt id="p1">**</bpt>Run Script<ept id="p1">**</ept>, or on the <bpt id="p2">**</bpt>File<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Run<ept id="p3">**</ept>.</source>
+          <target state="translated">ツール バーの <bpt id="p1">**</bpt>[スクリプトを実行]<ept id="p1">**</ept>、または <bpt id="p2">**</bpt>[ファイル]<ept id="p2">**</ept> メニューの <bpt id="p3">**</bpt>[実行]<ept id="p3">**</ept> をクリックします。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>To run a portion of a script</source>
+          <target state="translated">スクリプトの一部を実行するには</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>In the Script Pane, select a portion of a script.</source>
+          <target state="translated">スクリプト ウィンドウで、スクリプトの一部を選択します。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>File<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>Run Selection<ept id="p2">**</ept>, or on the toolbar, click <bpt id="p3">**</bpt>Run Selection<ept id="p3">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>[ファイル]<ept id="p1">**</ept> メニューの <bpt id="p2">**</bpt>[選択項目を実行]<ept id="p2">**</ept>、またはツール バーの <bpt id="p3">**</bpt>[選択項目を実行]<ept id="p3">**</ept> をクリックします。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To stop a running script</source>
+          <target state="translated">スクリプトの実行を停止するには</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>On the toolbar, click <bpt id="p1">**</bpt>Stop Operation<ept id="p1">**</ept>, press CTRL<ph id="ph1">\+</ph>BREAK, or on the <bpt id="p2">**</bpt>File<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Stop Operation<ept id="p3">**</ept>.</source>
+          <target state="translated">ツール バーの <bpt id="p1">**</bpt>[実行を中止]<ept id="p1">**</ept> をクリックするか、CTRL<ph id="ph1">\+</ph>BREAK キーを押すか、または、<bpt id="p2">**</bpt>[ファイル]<ept id="p2">**</ept> メニューの <bpt id="p3">**</bpt>[実行を中止]<ept id="p3">**</ept> をクリックします。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Pressing <bpt id="p1">**</bpt>CTRL<ph id="ph1">\+</ph>C<ept id="p1">**</ept> also works unless some text is currently selected, in which case <bpt id="p2">**</bpt>CTRL<ph id="ph2">\+</ph>C<ept id="p2">**</ept> maps to the copy function for the selected text.</source>
+          <target state="translated">テキストが選択されていない場合は、<bpt id="p1">**</bpt>CTRL<ph id="ph1">\+</ph>C<ept id="p1">**</ept> キーを押すと、実行が停止します。テキストが選択されている場合は、<bpt id="p2">**</bpt>CTRL<ph id="ph2">\+</ph>C<ept id="p2">**</ept> キーは、選択したテキストのコピー機能にマップされます。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>How to write and edit text in the Script Pane</source>
+          <target state="translated">スクリプト ウィンドウでテキストを記述して編集する方法</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Use the following steps to edit text in the Script Pane.</source>
+          <target state="translated">スクリプト ウィンドウでテキストを編集するには、次の手順を実行します。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You can copy, cut, paste, find, and replace text.</source>
+          <target state="translated">テキストのコピー、切り取り、貼り付け、検索、置換を実行できます。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You can also undo and redo the last action you just performed.</source>
+          <target state="translated">最後に実行した操作を元に戻したり、再実行したりできます。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The keyboard shortcuts for performing these actions are the same as those used for all Windows applications.</source>
+          <target state="translated">これらのアクションを実行するためのキーボード ショートカットは、すべての Windows アプリケーションで使われているものと同じです。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To enter text in the Script Pane</source>
+          <target state="translated">スクリプト ウィンドウにテキストを入力するには</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Move the cursor to the Script Pane by clicking anywhere in the Script Pane, or by clicking <bpt id="p1">**</bpt>Go to Script Pane<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>View<ept id="p2">**</ept> menu.</source>
+          <target state="translated">カーソルをスクリプト ウィンドウに移すには、スクリプト ウィンドウ内の任意の場所をクリックするか、または <bpt id="p2">**</bpt>[表示]<ept id="p2">**</ept> メニューの <bpt id="p1">**</bpt>[スクリプト ウィンドウに移動]<ept id="p1">**</ept> をクリックします。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Create a script.</source>
+          <target state="translated">スクリプトを作成します。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Syntax coloring and tab completion make this a richer experience in Windows PowerShell ISE.</source>
+          <target state="translated">Windows PowerShell ISE では、入力しやすいように、構文の色分けやタブ補完の機能が提供されます。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">[</bpt>How to Use Tab Completion in the Script Pane and Console Pane<ept id="p1">](How-to-Use-Tab-Completion-in-the-Script-Pane-and-Console-Pane.md)</ept> for details about using the tab completion feature to help in typing.</source>
+          <target state="translated">入力中にタブ補完機能を使う方法について詳しくは、「<bpt id="p1">[</bpt>スクリプト ウィンドウとコンソール ウィンドウでタブ補完を使用する方法<ept id="p1">](How-to-Use-Tab-Completion-in-the-Script-Pane-and-Console-Pane.md)</ept>」をご覧ください。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To find text in the Script Pane</source>
+          <target state="translated">スクリプト ウィンドウでテキストを検索するには</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>To find text anywhere, press <bpt id="p1">**</bpt>CTRL<ph id="ph1">\+</ph>F<ept id="p1">**</ept> or, on the <bpt id="p2">**</bpt>Edit<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Find in Script<ept id="p3">**</ept>.</source>
+          <target state="translated">任意の場所にあるテキストを検索するには、<bpt id="p1">**</bpt>CTRL<ph id="ph1">\+</ph>F<ept id="p1">**</ept> キーを押すか、または <bpt id="p2">**</bpt>[編集]<ept id="p2">**</ept> メニューの <bpt id="p3">**</bpt>[スクリプト内を検索]<ept id="p3">**</ept> をクリックします。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To find text after the cursor, press <bpt id="p1">**</bpt>F3<ept id="p1">**</ept> or, on the <bpt id="p2">**</bpt>Edit<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Find Next in Script<ept id="p3">**</ept>.</source>
+          <target state="translated">カーソルより後の場所にあるテキストを検索するには、<bpt id="p1">**</bpt>F3<ept id="p1">**</ept> キーを押すか、または<bpt id="p2">**</bpt>[編集]<ept id="p2">**</ept> メニューの <bpt id="p3">**</bpt>[スクリプト内で次を検索]<ept id="p3">**</ept> をクリックします。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>To find text before the cursor, press <bpt id="p1">**</bpt>SHIFT<ph id="ph1">\+</ph>F3<ept id="p1">**</ept> or, on the <bpt id="p2">**</bpt>Edit<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Find Previous in Script<ept id="p3">**</ept>.</source>
+          <target state="translated">カーソルより前の場所にあるテキストを検索するには、<bpt id="p1">**</bpt>SHIFT<ph id="ph1">\+</ph>F3<ept id="p1">**</ept> キーを押すか、または <bpt id="p2">**</bpt>[編集]<ept id="p2">**</ept> メニューの <bpt id="p3">**</bpt>[スクリプト内で前を検索]<ept id="p3">**</ept> をクリックします。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>To find and replace text in the Script Pane</source>
+          <target state="translated">スクリプト ウィンドウでテキストを検索して置換するには</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Press <bpt id="p1">**</bpt>CRTL<ph id="ph1">\+</ph>H<ept id="p1">**</ept> or, on the <bpt id="p2">**</bpt>Edit<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Replace in Script<ept id="p3">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>CRTL<ph id="ph1">\+</ph>H<ept id="p1">**</ept> キーを押すか、または <bpt id="p2">**</bpt>[編集]<ept id="p2">**</ept> メニューの <bpt id="p3">**</bpt>[スクリプト内で置換]<ept id="p3">**</ept> をクリックします。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Enter both the text you want to find and the text with which you want to replace it, and then press <bpt id="p1">**</bpt>ENTER<ept id="p1">**</ept>.</source>
+          <target state="translated">検索するテキストと、見つかったテキストを置換するテキストの両方を入力してから、<bpt id="p1">**</bpt>Enter<ept id="p1">**</ept> キーを押します。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To go to a particular line of text in the Script Pane</source>
+          <target state="translated">スクリプト ウィンドウ内のテキストの特定の行に移動するには</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>In the Script Pane, press <bpt id="p1">**</bpt>CTRL<ph id="ph1">\+</ph>G<ept id="p1">**</ept> or, on the <bpt id="p2">**</bpt>Edit<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Go to Line<ept id="p3">**</ept>.</source>
+          <target state="translated">スクリプト ウィンドウで <bpt id="p1">**</bpt>CTRL<ph id="ph1">\+</ph>G<ept id="p1">**</ept> キーを押すか、または <bpt id="p2">**</bpt>[編集]<ept id="p2">**</ept> メニューの <bpt id="p3">**</bpt>[指定の行に移動]<ept id="p3">**</ept> をクリックします。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Enter a line number.</source>
+          <target state="translated">行番号を入力します。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>To copy text in the Script Pane</source>
+          <target state="translated">スクリプト ウィンドウでテキストをコピーするには</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>In the Script Pane, select the text that you want to copy.</source>
+          <target state="translated">スクリプト ウィンドウで、コピーするテキストを選択します。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Press <bpt id="p1">**</bpt>CTRL<ph id="ph1">\+</ph>C<ept id="p1">**</ept> or, on the toolbar, click the <bpt id="p2">**</bpt>Copy<ept id="p2">**</ept> icon, or on the <bpt id="p3">**</bpt>Edit<ept id="p3">**</ept> menu, click <bpt id="p4">**</bpt>Copy<ept id="p4">**</ept>.</source>
+          <target state="translated">Press <bpt id="p1">**</bpt>CTRL<ph id="ph1">\+</ph>C<ept id="p1">**</ept> キーを押すか、ツール バーで <bpt id="p2">**</bpt>[コピー]<ept id="p2">**</ept> アイコンをクリックするか、または <bpt id="p3">**</bpt>[編集]<ept id="p3">**</ept> メニューの <bpt id="p4">**</bpt>[コピー]<ept id="p4">**</ept> をクリックします。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>To cut text in the Script Pane</source>
+          <target state="translated">スクリプト ウィンドウでテキストを切り取るには</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>In the Script Pane, select the text that you want to cut.</source>
+          <target state="translated">スクリプト ウィンドウで、切り取るテキストを選択します。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Press <bpt id="p1">**</bpt>CTRL<ph id="ph1">\+</ph>X<ept id="p1">**</ept> or, on the toolbar, click the <bpt id="p2">**</bpt>Cut<ept id="p2">**</ept> icon, or on the <bpt id="p3">**</bpt>Edit<ept id="p3">**</ept> menu, click <bpt id="p4">**</bpt>Cut<ept id="p4">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>CTRL<ph id="ph1">\+</ph>X<ept id="p1">**</ept> キーを押すか、ツール バーで <bpt id="p2">**</bpt>[切り取り]<ept id="p2">**</ept> アイコンをクリックするか、または <bpt id="p3">**</bpt>[編集]<ept id="p3">**</ept> メニューの <bpt id="p4">**</bpt>[切り取り]<ept id="p4">**</ept> をクリックします。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>To paste text into the Script Pane</source>
+          <target state="translated">スクリプト ウィンドウにテキストを貼り付けるには</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Press <bpt id="p1">**</bpt>CTRL<ph id="ph1">\+</ph>V<ept id="p1">**</ept> or, on the toolbar, click the <bpt id="p2">**</bpt>Paste<ept id="p2">**</ept> icon, or on the <bpt id="p3">**</bpt>Edit<ept id="p3">**</ept> menu, click <bpt id="p4">**</bpt>Paste<ept id="p4">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>CTRL<ph id="ph1">\+</ph>V<ept id="p1">**</ept> キーを押すか、ツール バーで <bpt id="p2">**</bpt>[貼り付け]<ept id="p2">**</ept> アイコンをクリックするか、または <bpt id="p3">**</bpt>[編集]<ept id="p3">**</ept> メニューの <bpt id="p4">**</bpt>[貼り付け]<ept id="p4">**</ept> をクリックします。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>To undo an action in the Script Pane</source>
+          <target state="translated">スクリプト ウィンドウ内のアクションを元に戻すには</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Press <bpt id="p1">**</bpt>CTRL<ph id="ph1">\+</ph>Z<ept id="p1">**</ept> or, on the toolbar, click the <bpt id="p2">**</bpt>Undo<ept id="p2">**</ept> icon, or on the <bpt id="p3">**</bpt>Edit<ept id="p3">**</ept> menu, click <bpt id="p4">**</bpt>Undo<ept id="p4">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>CTRL<ph id="ph1">\+</ph>Z<ept id="p1">**</ept> キーを押すか、ツール バーで <bpt id="p2">**</bpt>[元に戻す]<ept id="p2">**</ept> アイコンをクリックするか、または <bpt id="p3">**</bpt>[編集]<ept id="p3">**</ept> メニューの <bpt id="p4">**</bpt>[元に戻す]<ept id="p4">**</ept> をクリックします。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>To redo an action in the Script Pane</source>
+          <target state="translated">スクリプト ウィンドウ内のアクションをやり直すには</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Press <bpt id="p1">**</bpt>CTRL<ph id="ph1">\+</ph>Y<ept id="p1">**</ept> or, on the toolbar, click the <bpt id="p2">**</bpt>Redo<ept id="p2">**</ept> icon, or on the <bpt id="p3">**</bpt>Edit<ept id="p3">**</ept> menu, click <bpt id="p4">**</bpt>Redo<ept id="p4">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>CTRL<ph id="ph1">\+</ph>Y<ept id="p1">**</ept> キーを押すか、ツール バーで <bpt id="p2">**</bpt>[元に戻す]<ept id="p2">**</ept> アイコンをクリックするか、または <bpt id="p3">**</bpt>[編集]<ept id="p3">**</ept> メニューの <bpt id="p4">**</bpt>[元に戻す]<ept id="p4">**</ept> をクリックします。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>How to save a script</source>
+          <target state="translated">スクリプトを保存する方法</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Use the following steps to save and name a script.</source>
+          <target state="translated">スクリプトに名前を付けて保存するには、次の手順を実行します。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>An asterisk appears next to the script name to mark a file that has not been saved since it was altered.</source>
+          <target state="translated">変更されてから保存されていないファイルには、スクリプト名の横にアスタリスクが表示されます。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The asterisk disappears when the file is saved.</source>
+          <target state="translated">ファイルを保存すると、アスタリスクは消えます。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>To save a script</source>
+          <target state="translated">スクリプトを保存するには</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Press <bpt id="p1">**</bpt>CTRL<ph id="ph1">\+</ph>S<ept id="p1">**</ept> or, on the toolbar, click the <bpt id="p2">**</bpt>Save<ept id="p2">**</ept> icon, or on the <bpt id="p3">**</bpt>File<ept id="p3">**</ept> menu, click <bpt id="p4">**</bpt>Save<ept id="p4">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>CTRL<ph id="ph1">\+</ph>S<ept id="p1">**</ept> キーを押すか、ツール バーで <bpt id="p2">**</bpt>[保存]<ept id="p2">**</ept> アイコンをクリックするか、または <bpt id="p3">**</bpt>[ファイル]<ept id="p3">**</ept> メニューの <bpt id="p4">**</bpt>[保存]<ept id="p4">**</ept> をクリックします。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>To save and name a script</source>
+          <target state="translated">スクリプトに名前を付けて保存するには</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>File<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>Save As<ept id="p2">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>[ファイル]<ept id="p1">**</ept> メニューの <bpt id="p2">**</bpt>[名前を付けて保存]<ept id="p2">**</ept> をクリックします。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Save As<ept id="p1">**</ept> dialog box will appear.</source>
+          <target state="translated"><bpt id="p1">**</bpt>[名前を付けて保存]<ept id="p1">**</ept> ダイアログ ボックスが表示されます。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>File name<ept id="p1">**</ept> box, enter a name for the file.</source>
+          <target state="translated"><bpt id="p1">**</bpt>[ファイル名]<ept id="p1">**</ept> ボックスに、ファイルの名前を入力します。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Save as type<ept id="p1">**</ept> box, select a file type.</source>
+          <target state="translated"><bpt id="p1">**</bpt>[ファイルの種類]<ept id="p1">**</ept> ボックスで、ファイルの種類を選びます。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>For example, in the <bpt id="p1">**</bpt>Save as type<ept id="p1">**</ept> box, select “PowerShell Scripts (<ph id="ph1">\*</ph> .ps1)”.</source>
+          <target state="translated">たとえば、<bpt id="p1">**</bpt>[ファイルの種類]<ept id="p1">**</ept> ボックスで、[PowerShell スクリプト (<ph id="ph1">\*</ph>.ps1)] を選びます。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>[保存]<ept id="p1">**</ept> をクリックします。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>To save a script in ASCII encoding</source>
+          <target state="translated">ASCII エンコードでスクリプトを保存するには</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>By default, Windows PowerShell ISE saves new script files (.ps1), script data files (.psd1), and script module files (.psm1) as Unicode (BigEndianUnicode) by default.</source>
+          <target state="translated">既定では、Windows PowerShell ISE は新しいスクリプト ファイル (.ps1)、スクリプト データ ファイル (.psd1)、スクリプト モジュール ファイル (.psm1) を Unicode (BigEndianUnicode) として保存します。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>To save a script in another encoding, such as ASCII (ANSI), use the <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> or <bpt id="p2">**</bpt>SaveAs<ept id="p2">**</ept> methods on the <bpt id="p3">[</bpt>$psISE.CurrentFile<ept id="p3">](https://technet.microsoft.com/en-us/library/bc3300e4-9c17-4f00-a621-c8867126e3b3#CurrentFile)</ept> object.</source>
+          <target state="translated">ASCII (ANSI) など、別のエンコードでスクリプトを保存するには、<bpt id="p3">[</bpt>$psISE.CurrentFile<ept id="p3">](https://technet.microsoft.com/en-us/library/bc3300e4-9c17-4f00-a621-c8867126e3b3#CurrentFile)</ept> オブジェクトの <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> または <bpt id="p2">**</bpt>SaveAs<ept id="p2">**</ept> メソッドを使います。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The following command saves a new script as MyScript.ps1 with ASCII encoding.</source>
+          <target state="translated">次のコマンドでは、新しいスクリプトを MyScript.ps1 という名前の ASCII エンコードで保存します。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The following command replaces the current script file with a file with the same name, but with ASCII encoding.</source>
+          <target state="translated">次のコマンドでは、現在のスクリプト ファイルと同じ名前の ASCII エンコードのファイルに置き換えます。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The following command gets the encoding of the current file.</source>
+          <target state="translated">次のコマンドでは、現在のファイルのエンコードを取得します。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell ISE supports the following encoding options: ASCII, BigEndianUnicode, Unicode, UTF32, UTF7, UTF8 and Default.</source>
+          <target state="translated">Windows PowerShell ISE では、次のエンコード オプションをサポートしています: ASCII、BigEndianUnicode、Unicode、UTF32、UTF7、UTF8、既定値。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The value of the Default option varies with the system.</source>
+          <target state="translated">既定値オプションの値は、システムによって異なります。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell ISE does not change the encoding of scripts that were created by in other editors, even when you use the Save or Save As commands in Windows PowerShell ISE.</source>
+          <target state="translated">Windows PowerShell ISE では、Windows PowerShell ISE の [保存] または [名前を付けて保存] コマンドを使った場合でも、他のエディターによって作成されたスクリプトのエンコードは変更しません。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">参照</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Using the Windows PowerShell ISE</source>
+          <target state="translated">Windows PowerShell ISE の使用</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
