@@ -7190,6 +7190,8 @@
 * Archive Datetime: 2016-08-23 13:32:01
 * Handback File: [README.3f33d618813a6a11bfd02271ad6bb9c112763721.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/1d64a8edd1e4989e498019897cbd683390ea54f8/ol-handback/PowerShell/powerShell-Docs.de-de/live/README.3f33d618813a6a11bfd02271ad6bb9c112763721.de-de.xlf)
 * Handback Datetime: 2016-10-17 16:09:57
+* Bilingual File: [README.3f33d618813a6a11bfd02271ad6bb9c112763721.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/1d64a8edd1e4989e498019897cbd683390ea54f8/ol-handback/PowerShell/powerShell-Docs.de-de/live/README.3f33d618813a6a11bfd02271ad6bb9c112763721.de-de.xlf)
+* Bilingual Datetime: 2016-10-17 16:13:11
 * [Back to Top](#report-top)
 
 ##### <a name='274c6dcc36b3baa64d01b5518444c7de3dcc00ee459'></a> Source: [wmf\TOC.md](https://github.com/PowerShell/powerShell-Docs/blob/9e62889b5928839444dbea345e318a8bf75a1694/wmf/TOC.md)
