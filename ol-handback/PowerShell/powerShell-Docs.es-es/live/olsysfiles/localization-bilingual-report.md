@@ -1,11 +1,28 @@
 # <a name='report-top'></a> Localization Bilingual Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [scripting\core-powershell\web-access.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/web-access.md) | InSyncHandedBackSuccess | [Details](#bdd57c989f4787e402b0334782db3ab9f5b42161245)
 
 ## Item Details
+##### <a name='bdd57c989f4787e402b0334782db3ab9f5b42161245'></a> Source: [scripting\core-powershell\web-access.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/web-access.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\core-powershell\web-access.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/f97b57bb4a8191a8b199682058fd889b527e31dc/scripting/core-powershell/web-access.md)
+* Handoff File: [web-access.cc28379acd511e9a2eb7c2bc80bfa5db0218e22d.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/abbadfb7fc48dd0c5a3b3305c1376f4f1abc2411/ol-handoff/PowerShell/powerShell-Docs.es-es/live/web-access.cc28379acd511e9a2eb7c2bc80bfa5db0218e22d.es-es.xlf)
+* Handoff Datetime: 2016-08-18 01:33:45
+* Handoff Reason: Include
+* Archive File: [web-access.cc28379acd511e9a2eb7c2bc80bfa5db0218e22d.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/e058acae1237ff0961886e9635e4497c2705b18c/ol-archive/PowerShell/powerShell-Docs.es-es/live/web-access.cc28379acd511e9a2eb7c2bc80bfa5db0218e22d.es-es.xlf)
+* Archive Datetime: 2016-08-23 13:36:22
+* Handback File: [web-access.cc28379acd511e9a2eb7c2bc80bfa5db0218e22d.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/66db69a96c51bf959a04bcad7bc65c3ce784485f/ol-handback/PowerShell/powerShell-Docs.es-es/live/web-access.cc28379acd511e9a2eb7c2bc80bfa5db0218e22d.es-es.xlf)
+* Handback Datetime: 2016-10-17 07:42:10
+* Bilingual File: [web-access.cc28379acd511e9a2eb7c2bc80bfa5db0218e22d.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/66db69a96c51bf959a04bcad7bc65c3ce784485f/ol-handback/PowerShell/powerShell-Docs.es-es/live/web-access.cc28379acd511e9a2eb7c2bc80bfa5db0218e22d.es-es.xlf)
+* Bilingual Datetime: 2016-10-17 07:43:58
+* [Back to Top](#report-top)
+
 
 ## Error Details
 

@@ -3920,6 +3920,8 @@
 * Archive Datetime: 2016-08-23 13:36:22
 * Handback File: [web-access.cc28379acd511e9a2eb7c2bc80bfa5db0218e22d.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/66db69a96c51bf959a04bcad7bc65c3ce784485f/ol-handback/PowerShell/powerShell-Docs.es-es/live/web-access.cc28379acd511e9a2eb7c2bc80bfa5db0218e22d.es-es.xlf)
 * Handback Datetime: 2016-10-17 07:42:10
+* Bilingual File: [web-access.cc28379acd511e9a2eb7c2bc80bfa5db0218e22d.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/66db69a96c51bf959a04bcad7bc65c3ce784485f/ol-handback/PowerShell/powerShell-Docs.es-es/live/web-access.cc28379acd511e9a2eb7c2bc80bfa5db0218e22d.es-es.xlf)
+* Bilingual Datetime: 2016-10-17 07:43:58
 * [Back to Top](#report-top)
 
 ##### <a name='f62b1e0ec9f26e1b2bcb364c78a2ce39467655a5246'></a> Source: [scripting\core-powershell\web-access\authorization-rules-and-security-features-of-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs/blob/fe3d7885b7c031a24a737f58523c8018cfc36146/scripting/core-powershell/web-access/authorization-rules-and-security-features-of-windows-powershell-web-access.md)
