@@ -3956,8 +3956,8 @@
 * Archive Datetime: 2016-10-12 15:28:03
 * Handback File: [The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/7ce06f1dddbd41ea56158ca3efcc84a12da7c98e/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.ru-ru.xlf)
 * Handback Datetime: 2016-10-17 07:42:35
-* Bilingual File: [The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/f6d8de964b294f6e46340961cf04fe7c1d14d82a/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.ru-ru.xlf)
-* Bilingual Datetime: 2016-09-06 23:42:38
+* Bilingual File: [The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/7ce06f1dddbd41ea56158ca3efcc84a12da7c98e/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/The-ISEMenuItem-Object.14fd39d94a609a4d0fe1a1e747bc1b5b00a2c526.ru-ru.xlf)
+* Bilingual Datetime: 2016-10-17 07:44:08
 * [Back to Top](#report-top)
 
 ##### <a name='12a47e57d461f1e57cd9c7b20365627378d7e87a227'></a> Source: [scripting\core-powershell\ise\The-ISE-Object-Model-Hierarchy.md](https://github.com/PowerShell/powerShell-Docs/blob/53d9bf77ef39c878d3e729548181d91f01a50ea2/scripting/core-powershell/ise/The-ISE-Object-Model-Hierarchy.md)
