@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="fr-fr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f1f59320d9751c1d884507c000ebc2ec755654cc</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Utility\Add-Member.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b8548cee2823ebe7f5ee0cfc63a8d9c746dcdd96</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f5668ec577fbab31e62ab1216b72336deae0d451</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">applet de commande PowerShell</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Add-Member</source>
+          <target state="translated">Add-Member</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Add-Member</source>
+          <target state="translated">Add-Member</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">SYNOPSIS</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Adds custom properties and methods to an instance of a Windows PowerShell object.</source>
+          <target state="translated">Ajoute des propriétés et des méthodes personnalisées à une instance d'objet Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SYNTAXE</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>TypeNameSet (Default)</source>
+          <target state="translated">TypeNameSet (valeur par défaut)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>NotePropertyMultiMemberSet</source>
+          <target state="translated">NotePropertyMultiMemberSet</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>NotePropertySingleMemberSet</source>
+          <target state="translated">NotePropertySingleMemberSet</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>MemberSet</source>
+          <target state="translated">Jeu de membres</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">DESCRIPTION</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Add-Member<ept id="p1">**</ept> cmdlet lets you add members (properties and methods) to an instance of a Windows PowerShell object.</source>
+          <target state="translated">Le <bpt id="p1">**</bpt>Add-Member<ept id="p1">**</ept> applet de commande vous permet d’ajouter les membres (propriétés et méthodes) à une instance d’un objet de Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For example, you can add a NoteProperty member that contains a description of the object or a ScriptMethod member that runs a script to change the object.</source>
+          <target state="translated">Par exemple, vous pouvez ajouter un membre NoteProperty qui contient une description de l'objet ou ScriptMethod qui exécute un script pour modifier l'objet.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To use <bpt id="p1">**</bpt>Add-Member<ept id="p1">**</ept>, pipe the object to <bpt id="p2">**</bpt>Add-Member<ept id="p2">**</ept>, or use the <bpt id="p3">**</bpt>InputObject<ept id="p3">**</ept> parameter to specify the object.</source>
+          <target state="translated">Pour utiliser <bpt id="p1">**</bpt>Add-Member<ept id="p1">**</ept>, dirigez l’objet à <bpt id="p2">**</bpt>Add-Member<ept id="p2">**</ept>, ou utiliser le <bpt id="p3">**</bpt>InputObject<ept id="p3">**</ept> paramètre pour spécifier l’objet.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">**</bpt>MemberType<ept id="p1">**</ept> parameter to specify the type of member that you want to add, use the <bpt id="p2">**</bpt>Name<ept id="p2">**</ept> parameter to assign a name to the new member, and use the <bpt id="p3">**</bpt>Value<ept id="p3">**</ept> parameter to set the value of the member.</source>
+          <target state="translated">Utilisez le <bpt id="p1">**</bpt>MemberType<ept id="p1">**</ept> paramètre pour spécifier le type de membre que vous souhaitez ajouter, utilisez le <bpt id="p2">**</bpt>nom<ept id="p2">**</ept> paramètre pour attribuer un nom au nouveau membre, utilisez la <bpt id="p3">**</bpt>valeur<ept id="p3">**</ept> paramètre pour définir la valeur du membre.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The properties and methods that you add are added only to the particular instance of the object that you specify.</source>
+          <target state="translated">Les propriétés et méthodes que vous ajoutez le sont uniquement à l'instance spécifique de l'objet spécifié.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Add-Member<ept id="p1">**</ept> does not change the object type.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Add-Member<ept id="p1">**</ept> ne modifie pas le type d’objet.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To create a new object type, use the Add-Type cmdlet.</source>
+          <target state="translated">Pour créer un nouveau type d’objet, utilisez l’applet de commande Add-Type.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can also use the Export-Clixml cmdlet to save the instance of the object, including the additional members, in a file.</source>
+          <target state="translated">Vous pouvez également utiliser l’applet de commande Export-Clixml pour enregistrer l’instance de l’objet, y compris les membres supplémentaires, dans un fichier.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Then you can use the Import-Clixml cmdlet to re-create the instance of the object from the information that is stored in the exported file.</source>
+          <target state="translated">Vous pouvez utiliser la cmdlet Import-Clixml pour recréer l’instance de l’objet à partir des informations stockées dans le fichier exporté.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, <bpt id="p1">**</bpt>Add-Member<ept id="p1">**</ept> has new features that make it easier to add note properties to objects.</source>
+          <target state="translated">À compter de Windows PowerShell 3.0, <bpt id="p1">**</bpt>Add-Member<ept id="p1">**</ept> comporte de nouvelles fonctionnalités qui le rendent plus facile d’ajouter des propriétés de note à des objets.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">**</bpt>NotePropertyName<ept id="p1">**</ept> and <bpt id="p2">**</bpt>NotePropertyValue<ept id="p2">**</ept> parameters to define a note property or use the <bpt id="p3">**</bpt>NotePropertyMembers<ept id="p3">**</ept> parameter, which takes a hash table of note property names and values.</source>
+          <target state="translated">Vous pouvez utiliser la <bpt id="p1">**</bpt>NotePropertyName<ept id="p1">**</ept> et <bpt id="p2">**</bpt>NotePropertyValue<ept id="p2">**</ept> paramètres à définir une propriété de note ou utiliser le <bpt id="p3">**</bpt>NotePropertyMembers<ept id="p3">**</ept> paramètre qui prend une table de hachage des noms des propriétés et valeurs.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Also, beginning in Windows PowerShell 3.0, the <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter, which generates an output object, is needed less frequently.</source>
+          <target state="translated">En outre, à compter de Windows PowerShell 3.0, le <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> paramètre, ce qui génère un objet de sortie, est moins utile.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Add-Member<ept id="p1">**</ept> now adds the new members directly to the input object of more types.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Add-Member<ept id="p1">**</ept> ajoute à présent les nouveaux membres directement à l’objet de plusieurs types d’entrée.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For more information, see the <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter description.</source>
+          <target state="translated">Pour plus d’informations, consultez la <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> description du paramètre.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">EXEMPLES</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- EXEMPLE 1 -------------------------</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>These commands add the Status note property with a value of "Done" to the FileInfo object that represents the Test.txt file.</source>
+          <target state="translated">Ces commandes ajoutent la propriété de note Status ayant la valeur « Done » à l'objet FileInfo qui représente le fichier Test.txt.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The first command uses the Get-ChildItem cmdlet (alias = "dir) to get the Test.txt file.</source>
+          <target state="translated">La première commande utilise l’applet de commande Get-ChildItem (alias = « dir) pour obtenir le fichier Test.txt.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>It saves it in the $a variable.</source>
+          <target state="translated">Elle l'enregistre dans la variable $a.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The second and third commands add the note property to the object in $a.</source>
+          <target state="translated">Les deuxième et troisième commandes ajoutent la propriété de note à l’objet dans $un.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The third command omits the optional parameter names, so the parameter values must be in the correct Name-Value order.</source>
+          <target state="translated">La troisième commande omet les noms des paramètres facultatifs, les valeurs de paramètre doivent être dans le bon ordre nom-valeur.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>These commands are equivalent and can be used interchangeably.</source>
+          <target state="translated">Ces commandes sont équivalentes et peuvent être utilisées de manière interchangeable.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The fourth command uses dot notation to get the value of the Status property of the object in $a.</source>
+          <target state="translated">La quatrième commande utilise la notation par points pour obtenir la valeur de la propriété Status de l’objet dans $un.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>As the output shows, the value is "Done".</source>
+          <target state="translated">Comme le montre la sortie, la valeur est « terminée. »</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>These commands add the FileLength alias property to the object that represents the Test.txt file.</source>
+          <target state="translated">Ces commandes ajoutent la propriété alias FileLength à l'objet qui représente le fichier Test.txt.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The new property is an alias for the Length property.</source>
+          <target state="translated">La nouvelle propriété est un alias de la propriété Length.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The first command use the Get-ChildItem cmdlet (alias = "dir") to get the Test.txt file.</source>
+          <target state="translated">La première commande utiliser l’applet de commande Get-ChildItem (alias = « dir ») pour obtenir le fichier Test.txt.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The second command adds the FileLength alias property.</source>
+          <target state="translated">La deuxième commande ajoute la propriété alias FileLength.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The third command uses dot notation to get the value of the new FileLength property.</source>
+          <target state="translated">La troisième commande utilise la notation par points pour obtenir la valeur de la nouvelle propriété FileLength.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>These commands add the <bpt id="p1">**</bpt>StringUse<ept id="p1">**</ept> note property to a string.</source>
+          <target state="translated">Ces commandes ajoutent les <bpt id="p1">**</bpt>StringUse<ept id="p1">**</ept> Notez la propriété dans une chaîne.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Because Add-Member cannot add types to String input objects, the command uses the  <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter to generate an output object.</source>
+          <target state="translated">Étant donné que Add-Member ne peut pas ajouter de types pour les objets d’entrée de chaîne, la commande utilise le  <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> paramètre pour générer un objet de sortie.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The last command in the example displays the new property.</source>
+          <target state="translated">La dernière commande de l'exemple affiche la nouvelle propriété.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>NotePropertyMembers<ept id="p1">**</ept> parameter, but omits the parameter name, which is optional.</source>
+          <target state="translated">La commande utilise le <bpt id="p1">**</bpt>NotePropertyMembers<ept id="p1">**</ept> paramètre, mais omet le nom du paramètre, qui est facultatif.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">**</bpt>NotePropertyMembers<ept id="p1">**</ept> parameter is a hash table.</source>
+          <target state="translated">La valeur de la <bpt id="p1">**</bpt>NotePropertyMembers<ept id="p1">**</ept> paramètre est une table de hachage.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The key is the note property name, StringUse, and the value is the note property value, Display.</source>
+          <target state="translated">La clé est le nom de la propriété de note, StringUse, et la valeur est celle de la propriété de note, Display.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>These commands add the PadBoth script method to a string object.</source>
+          <target state="translated">Ces commandes ajoutent la méthode de script PadBoth à un objet chaîne.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The first command creates a string and saves it in the $a variable.</source>
+          <target state="translated">La première commande crée une chaîne et l'enregistre dans la variable $a.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The second command adds the Padboth script method to the object in the $a variable.</source>
+          <target state="translated">La deuxième commande ajoute la méthode de script Padboth à l'objet dans la variable $a.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The Value parameter defines the new script method.</source>
+          <target state="translated">Le paramètre Value définit la nouvelle méthode de script.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>It uses the PadRight and PadLeft methods of a string to add one space the left and one space to the right of the string.</source>
+          <target state="translated">Il utilise les méthodes PadRight et PadLeft d'une chaîne pour ajouter un espace à gauche et un espace à droite de la chaîne.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Value<ept id="p1">**</ept> parameter also uses the $this automatic variable, which represents the current object.</source>
+          <target state="translated">Le <bpt id="p1">**</bpt>valeur<ept id="p1">**</ept> paramètre utilise également le $cette variable automatique, qui représente l’objet actuel.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The $this variable is valid only in script blocks that define new properties and methods.</source>
+          <target state="translated">La variable $this est valide uniquement dans les blocs de script qui définissent les nouvelles méthodes et propriétés.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The command includes the <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter which directs <bpt id="p2">**</bpt>Add-Member<ept id="p2">**</ept> to return an instance of the object that includes the new script property.</source>
+          <target state="translated">La commande inclut le <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> paramètre qui dirige <bpt id="p2">**</bpt>Add-Member<ept id="p2">**</ept> pour retourner une instance de l’objet qui inclut la nouvelle propriété de script.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Add-Member<ept id="p1">**</ept> adds members to PSObjects and does not generate any output.</source>
+          <target state="translated">Par défaut, <bpt id="p1">**</bpt>Add-Member<ept id="p1">**</ept> ajoute des membres à PSObjects et ne génère pas de sortie.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The third command uses dot notation to call the new PadBoth script method on the object in the $a variable.</source>
+          <target state="translated">La troisième commande utilise la notation par points pour appeler la nouvelle méthode de script PadBoth sur l'objet dans la variable $a.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>These commands add the "When" alias property to an event in the System event log.</source>
+          <target state="translated">Ces commandes ajoutent la propriété alias « When » à un événement du journal des événements système.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The event is an EventLogEntry object that is returned by the Get-EventLog cmdlet.</source>
+          <target state="translated">L’événement est un objet EventLogEntry retourné par l’applet de commande Get-EventLog.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The "When" alias property is an alias for the TimeWritten property of the object.</source>
+          <target state="translated">La propriété alias « When » est un alias de la propriété TimeWritten de l'objet.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>SecondValue<ept id="p1">**</ept> parameter is used to specify that the property value should be converted to type System.String when accessed by using the <bpt id="p2">**</bpt>AliasProperty<ept id="p2">**</ept>.</source>
+          <target state="translated">Le <bpt id="p1">**</bpt>SecondValue<ept id="p1">**</ept> paramètre est utilisé pour spécifier que la valeur de propriété doit être convertie en type System.String lors de l’accès à l’aide de la <bpt id="p2">**</bpt>AliasProperty<ept id="p2">**</ept>.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The TimeWritten property is a DateTime object.</source>
+          <target state="translated">La propriété TimeWritten est un objet DateTime.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The first command uses the Get-EventLog cmdlet to get the newest event in the System event log.</source>
+          <target state="translated">La première commande utilise l’applet de commande Get-EventLog pour obtenir le dernier événement dans le journal des événements système.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>It stores the event in the $Event variable.</source>
+          <target state="translated">Elle stocke l'événement dans la variable $Event.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>To demonstrate that the TimeWritten property is a DateTime type, the second command uses dot notation to get the TimeWritten property of that event and pipes it to the Get-Member cmdlet.</source>
+          <target state="translated">Pour démontrer que la propriété TimeWritten est de type DateTime, la deuxième commande utilise la notation par points pour obtenir la propriété TimeWritten de cet événement et l’achemine vers l’applet de commande Get-Member.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The third command uses the <bpt id="p1">**</bpt>Add-Member<ept id="p1">**</ept> cmdlet to add the When alias property to the object instance in the $Event variable.</source>
+          <target state="translated">La troisième commande utilise le <bpt id="p1">**</bpt>Add-Member<ept id="p1">**</ept> applet de commande pour ajouter le moment où l’instance d’objet dans la variable $Event propriété alias.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> parameter assigns the name, "When," and the <bpt id="p2">**</bpt>Value<ept id="p2">**</ept> parameter specifies that When is an alias for the <bpt id="p3">**</bpt>TimeWritten<ept id="p3">**</ept> property.</source>
+          <target state="translated">Le <bpt id="p1">**</bpt>nom<ept id="p1">**</ept> paramètre attribue le nom, « When » et le <bpt id="p2">**</bpt>valeur<ept id="p2">**</ept> paramètre spécifie que When est un alias pour le <bpt id="p3">**</bpt>TimeWritten<ept id="p3">**</ept> propriété.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>SecondValue<ept id="p1">**</ept> parameter indicates that the value that the When method returns should be cast to a System.String type.</source>
+          <target state="translated">Le <bpt id="p1">**</bpt>SecondValue<ept id="p1">**</ept> paramètre indique que la valeur que When (méthode) doit être castée en type System.String.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The fourth command uses dot notation to call the new When method.</source>
+          <target state="translated">La quatrième commande utilise la notation par points pour appeler la nouvelle méthode When.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The command pipes the method value to the <bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept> cmdlet to confirm that it has returned a string.</source>
+          <target state="translated">La commande dirige la valeur de la méthode à la <bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept> applet de commande pour confirmer qu’elle a retourné une chaîne.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 6 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 6 --------------------------</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>This function copies all of the properties of one object to another object.</source>
+          <target state="translated">Cette fonction copie toutes les propriétés d'un objet dans un autre objet.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The first command in the function declares the function name and lists its parameters.</source>
+          <target state="translated">La première commande de la fonction déclare le nom de la fonction et indique ses paramètres.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The Foreach loop uses the Get-Member cmdlet to get each of the properties of the From object.</source>
+          <target state="translated">La boucle Foreach utilise l’applet de commande Get-Member pour obtenir chacune des propriétés de l’objet From.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The commands within the ForEach loop are performed in series on each of the properties.</source>
+          <target state="translated">Les commandes de la boucle ForEach sont exécutées en série sur chacune des propriétés.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Add-Member<ept id="p1">**</ept> command adds the property of the From object to the To object as a NoteProperty.</source>
+          <target state="translated">Le <bpt id="p1">**</bpt>Add-Member<ept id="p1">**</ept> commande ajoute la propriété de l’objet From à l’objet To en tant que NoteProperty.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> parameter add members with the same member name.</source>
+          <target state="translated">Il utilise le <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> paramètre ajouter des membres portant le même nom de membre.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The last command in the function gives the new property the same name as the original property.</source>
+          <target state="translated">La dernière commande de la fonction donne à la nouvelle propriété le même nom que celui de la propriété d'origine.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Example 7</source>
+          <target state="translated">Exemple 7</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>This example creates the Asset custom object.</source>
+          <target state="translated">Cet exemple crée l'objet personnalisé Asset.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The first command uses the New-Object cmdlet to create a PSObject.</source>
+          <target state="translated">La première commande utilise l’applet de commande New-Object pour créer un PSObject.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The command saves the PSObject in the $Asset variable.</source>
+          <target state="translated">La commande enregistre le PSObject dans la variable $Asset.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The second command uses the <ph id="ph1">\[</ph>ordered<ph id="ph2">\]</ph> type accelerator to create an ordered dictionary of names and values.</source>
+          <target state="translated">La deuxième commande utilise le <ph id="ph1">\[</ph>classés<ph id="ph2">\]</ph> accélérateur de type pour créer un dictionnaire ordonné de noms et les valeurs.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The command saves the result in the $d variable.</source>
+          <target state="translated">La commande enregistre les résultats dans la variable $d.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The third command uses the <bpt id="p1">**</bpt>NotePropertyMembers<ept id="p1">**</ept> parameter of the Add-Member cmdlet to add the dictionary in the $d variable to the PSObject.</source>
+          <target state="translated">La troisième commande utilise le <bpt id="p1">**</bpt>NotePropertyMembers<ept id="p1">**</ept> paramètre de l’applet de commande Add-Member pour ajouter le dictionnaire de la variable $d au PSObject.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>TypeName<ept id="p1">**</ept> property to assign a new name, Asset, to the PSObject.</source>
+          <target state="translated">Il utilise le <bpt id="p1">**</bpt>TypeName<ept id="p1">**</ept> propriété à attribuer un nouveau nom, Asset, au PSObject.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The fourth command sends the new Asset object in the $Asset variable to the Get-Member cmdlet.</source>
+          <target state="translated">La quatrième commande envoie le nouvel objet Asset de la variable $Asset à l'applet de commande Get-Member.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The output shows that the object has a type name of "Asset" and the note properties that we defined in the ordered dictionary.</source>
+          <target state="translated">La sortie indique le nom de type « Asset » de l'objet et les propriétés de note définies dans le dictionnaire ordonné.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARAMÈTRES</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Adds a new member even the object has a custom member with the same name.</source>
+          <target state="translated">Ajoute un nouveau membre même si l'objet a un membre personnalisé du même nom.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>You cannot use <bpt id="p1">**</bpt>the<ept id="p1">**</ept> Force parameter to replace a standard member of a type.</source>
+          <target state="translated">Vous ne pouvez pas utiliser <bpt id="p1">**</bpt>le<ept id="p1">**</ept> paramètre Force pour remplacer un membre d’un type standard.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">Objet d’entrée :</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Specifies the object to which the new member is added.</source>
+          <target state="translated">Spécifie l'objet auquel le nouveau membre est ajouté.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the objects, or type a command or expression that gets the objects.</source>
+          <target state="translated">Entrez une variable contenant les objets, ou tapez une commande ou une expression qui obtient ces objets.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>-MemberType</source>
+          <target state="translated">-MemberType</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Specifies the type of the member to add.</source>
+          <target state="translated">Spécifie le type du membre à ajouter.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>This parameter is mandatory.</source>
+          <target state="translated">Ce paramètre est obligatoire.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The valid values for this parameter are: "NoteProperty,AliasProperty,ScriptProperty,CodeProperty,ScriptMethod,CodeMethod" <bpt id="p1">**</bpt>AliasProperty<ept id="p1">**</ept>, <bpt id="p2">**</bpt>CodeMethod<ept id="p2">**</ept>, <bpt id="p3">**</bpt>CodeProperty<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Noteproperty<ept id="p4">**</ept>, <bpt id="p5">**</bpt>ScriptMethod<ept id="p5">**</ept>, and <bpt id="p6">**</bpt>ScriptProperty<ept id="p6">**</ept>.</source>
+          <target state="translated">Les valeurs valides pour ce paramètre sont : « NoteProperty, AliasProperty, ScriptProperty, CodeProperty, ScriptMethod, CodeMethod » <bpt id="p1">**</bpt>AliasProperty<ept id="p1">**</ept>, <bpt id="p2">**</bpt>CodeMethod<ept id="p2">**</ept>, <bpt id="p3">**</bpt>CodeProperty<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Noteproperty<ept id="p4">**</ept>, <bpt id="p5">**</bpt>ScriptMethod<ept id="p5">**</ept>, et <bpt id="p6">**</bpt>ScriptProperty<ept id="p6">**</ept>.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>For information about these values, see "PSMemberTypes Enumeration" in MSDN at http://msdn.microsoft.com/library/windows/desktop/system.management.automation.psmembertypes(v=vs.85).aspxhttp://msdn.microsoft.com/library/windows/desktop/system.management.automation.psmembertypes(v=vs.85).aspx.</source>
+          <target state="translated">Pour plus d’informations sur ces valeurs, consultez « Énumération PSMemberTypes » sur MSDN à l’adresse http://msdn.microsoft.com/library/windows/desktop/system.management.automation.psmembertypes (v=vs.85).aspxhttp://msdn.microsoft.com/library/windows/desktop/system.management.automation.psmembertypes(v=vs.85).aspx.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Not all objects have every type of member.</source>
+          <target state="translated">Certains objets n'ont pas chaque type de membre.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>If you specify a member type that the object does not have, Windows PowerShell returns an error.</source>
+          <target state="translated">Si vous spécifiez un type de membre que l'objet n'a pas, Windows PowerShell retourne une erreur.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the member to be added.</source>
+          <target state="translated">Spécifie le nom du membre à ajouter.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>-PassThru</source>
+          <target state="translated">-PassThru</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Returns the newly extended object.</source>
+          <target state="translated">Retourne l'objet qui vient d'être étendu.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>By default, this cmdlet does not generate any output.</source>
+          <target state="translated">Par défaut, cette applet de commande ne génère aucun résultat.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>For most objects, <bpt id="p1">**</bpt>Add-Member<ept id="p1">**</ept> adds the new members to the input object.</source>
+          <target state="translated">Pour la plupart des objets, <bpt id="p1">**</bpt>Add-Member<ept id="p1">**</ept> ajoute de nouveaux membres à l’objet d’entrée.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>However, when the input object is a string, Add-Member cannot add the member to the input object.</source>
+          <target state="translated">Toutefois, quand l'objet d'entrée est une chaîne, Add-Member ne peut pas ajouter le membre à l'objet d'entrée.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>For these objects, use the <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter to create an output object.</source>
+          <target state="translated">Pour ces objets, utilisez le <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> paramètre pour créer un objet de sortie.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, <bpt id="p1">**</bpt>Add-Member<ept id="p1">**</ept> added members only to the PSObject wrapper of objects, not to the object.</source>
+          <target state="translated">Dans Windows PowerShell 2.0, <bpt id="p1">**</bpt>Add-Member<ept id="p1">**</ept> membres ajoutés uniquement au wrapper PSObject d’objets, pas pour l’objet.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter to create an output object for any object that has a PSObject wrapper.</source>
+          <target state="translated">Utilisez le <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> paramètre pour créer un objet de sortie pour un objet qui possède un wrapper PSObject.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>-SecondValue</source>
+          <target state="translated">SecondValue-</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Specifies optional additional information about <bpt id="p1">**</bpt>AliasProperty<ept id="p1">**</ept>, <bpt id="p2">**</bpt>ScriptProperty<ept id="p2">**</ept>, <bpt id="p3">**</bpt>CodeProperty<ept id="p3">**</ept>, or <bpt id="p4">**</bpt>CodeMethod<ept id="p4">**</ept> members.</source>
+          <target state="translated">Spécifie des informations supplémentaires facultatives sur <bpt id="p1">**</bpt>AliasProperty<ept id="p1">**</ept>, <bpt id="p2">**</bpt>ScriptProperty<ept id="p2">**</ept>, <bpt id="p3">**</bpt>CodeProperty<ept id="p3">**</ept>, ou <bpt id="p4">**</bpt>CodeMethod<ept id="p4">**</ept> membres.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>If used when adding an AliasProperty, this parameter must be a data type.</source>
+          <target state="translated">Ce paramètre, s'il est utilisé pour l'ajout d'un AliasProperty, doit être un type de données.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>A conversion (cast) to the specified data type is added to the value of the AliasProperty.</source>
+          <target state="translated">Une conversion (cast) en type de données spécifié est ajoutée à la valeur d'AliasProperty.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>For example, if you add an AliasProperty that provides an alternate name for a string property, you can also specify a SecondValue parameter of System.Int32 to indicate that the value of that string property should be converted to an integer when accessed by using the corresponding AliasProperty.</source>
+          <target state="translated">Par exemple, si vous ajoutez un AliasProperty qui fournit un autre nom pour une propriété de chaîne, vous pouvez également spécifier un paramètre SecondValue de System.Int32 pour indiquer que la valeur de cette propriété de chaîne doit être convertie en entier quand vous y accédez à l'aide de l'AliasProperty correspondant.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>You can use the SecondValue parameter to specify an additional ScriptBlock when adding a ScriptProperty member.</source>
+          <target state="translated">Vous pouvez utiliser le paramètre SecondValue pour spécifier un ScriptBlock supplémentaire pendant l'ajout d'un membre ScriptProperty.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>In that case, the first ScriptBlock, specified in the Value parameter, is used to get the value of a variable.</source>
+          <target state="translated">Dans ce cas, le premier ScriptBlock spécifié dans le paramètre Value est utilisé pour obtenir la valeur d'une variable.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The second ScriptBlock, specified in the SecondValue parameter, is used to set the value of a variable.</source>
+          <target state="translated">Le deuxième ScriptBlock spécifié dans le paramètre SecondValue est utilisé pour définir la valeur d'une variable.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>-Value</source>
+          <target state="translated">-Valeur</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Specifies the initial value of the added member.</source>
+          <target state="translated">Spécifie la valeur initiale du membre ajouté.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>If you add an <bpt id="p1">**</bpt>AliasProperty<ept id="p1">**</ept>, <bpt id="p2">**</bpt>CodeProperty<ept id="p2">**</ept>, <bpt id="p3">**</bpt>ScriptProperty<ept id="p3">**</ept> or <bpt id="p4">**</bpt>CodeMethod<ept id="p4">**</ept> member, you can supply optional, additional information by using the SecondValue parameter.</source>
+          <target state="translated">Si vous ajoutez un <bpt id="p1">**</bpt>AliasProperty<ept id="p1">**</ept>, <bpt id="p2">**</bpt>CodeProperty<ept id="p2">**</ept>, <bpt id="p3">**</bpt>ScriptProperty<ept id="p3">**</ept> ou <bpt id="p4">**</bpt>CodeMethod<ept id="p4">**</ept> membre, vous pouvez fournir des informations supplémentaires facultatives à l’aide du paramètre SecondValue.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>-NotePropertyMembers</source>
+          <target state="translated">-NotePropertyMembers</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Specifies a hash table or ordered dictionary of note property names and values.</source>
+          <target state="translated">Spécifie une table de hachage ou un dictionnaire ordonné de valeurs et de noms de la propriété de note.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Type a hash table or dictionary in which the keys are note property names and the values are note property values.</source>
+          <target state="translated">Tapez une table de hachage ou un dictionnaire dans lequel les clés sont les noms des propriétés de note et les valeurs sont celles des propriétés de note.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>For more information about hash tables and ordered dictionaries in Windows PowerShell, see about_Hash_Tables (http://go.microsoft.com/fwlink/?LinkID=135175).</source>
+          <target state="translated">Pour plus d’informations sur les tables de hachage et les dictionnaires ordonnés dans Windows PowerShell, consultez about_Hash_Tables (http://go.microsoft.com/fwlink/?LinkID=135175).</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Ce paramètre est introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>-NotePropertyName</source>
+          <target state="translated">-NotePropertyName</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Adds a note property with the specified name.</source>
+          <target state="translated">Ajoute une propriété de note ayant le nom spécifié.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Use this parameter with the <bpt id="p1">**</bpt>NotePropertyValue<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Utilisez ce paramètre avec le <bpt id="p1">**</bpt>NotePropertyValue<ept id="p1">**</ept> paramètre.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The parameter name (-NotePropertyName) is optional.</source>
+          <target state="translated">Le nom de paramètre (-NotePropertyName) est facultatif.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Ce paramètre est introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>-NotePropertyValue</source>
+          <target state="translated">-NotePropertyValue</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Adds a note property with the specified value.</source>
+          <target state="translated">Ajoute une propriété de note ayant la valeur spécifiée.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Use this parameter with the <bpt id="p1">**</bpt>NotePropertyName<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Utilisez ce paramètre avec le <bpt id="p1">**</bpt>NotePropertyName<ept id="p1">**</ept> paramètre.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The parameter name (-NotePropertyValue) is optional.</source>
+          <target state="translated">Le nom de paramètre (-NotePropertyValue) est facultatif.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Ce paramètre est introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>-TypeName</source>
+          <target state="translated">-Nom de type</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Specifies a name for the type.</source>
+          <target state="translated">Spécifie un nom pour le type.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>When the type is a class in the System namespace or a type that has a type accelerator, you can enter the short name of the type.</source>
+          <target state="translated">Quand le type est une classe de l'espace de noms système ou un type ayant un accélérateur de type, vous pouvez entrer son nom court.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Otherwise, the full type name is required.</source>
+          <target state="translated">Sinon, le nom de type complet est obligatoire.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>This parameter is effective only when the input object is a PSObject.</source>
+          <target state="translated">Ce paramètre n'a d'effet que lorsque l'objet d'entrée est un PSObject.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Ce paramètre est introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Cette applet de commande prend en charge les paramètres courants :-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction et - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Pour plus d’informations, consultez about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ENTRÉES</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSObject</source>
+          <target state="translated">System.Management.Automation.PSObject</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>You can pipe any object type to Add-Member.</source>
+          <target state="translated">Vous pouvez diriger tout type d'objet vers Add-Member.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">SORTIES</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>None or System.Object</source>
+          <target state="translated">Aucun ou System.Object</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>When you use the PassThru parameter, Add-Member returns the newly-extended object.</source>
+          <target state="translated">Quand vous utilisez le paramètre PassThru, Add-Member retourne l'objet qui vient d'être étendu.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Otherwise, this cmdlet does not generate any output.</source>
+          <target state="translated">Sinon, cette applet de commande ne génère aucune sortie.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTES DE PUBLICATION</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>You can add members only to PSObject objects.</source>
+          <target state="translated">Vous pouvez ajouter des membres uniquement aux objets PSObject.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>To determine whether an object is a PSObject object, use the "is" operator.</source>
+          <target state="translated">Pour déterminer si un objet est un objet PSObject, utilisez l'opérateur « is ».</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>For example, to test an object stored in the $obj variable, type "$obj -is <ph id="ph1">\[</ph>PSObject<ph id="ph2">\]</ph>".</source>
+          <target state="translated">Par exemple, pour tester un objet stocké dans la variable $obj, tapez « $obj-est <ph id="ph1">\[</ph>PSObject<ph id="ph2">\]</ph>».</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The names of the MemberType, Name, Value, and SecondValue parameters are optional.</source>
+          <target state="translated">Les noms des paramètres MemberType, Name, Value et SecondValue sont facultatifs.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>If you omit the parameter names, the unnamed parameter values must appear in this order: MemberType, Name, Value, SecondValue.</source>
+          <target state="translated">Si vous omettez les noms de paramètres, les valeurs de paramètre sans nom doivent apparaître dans cet ordre : SecondValue MemberType, nom, valeur.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>If you include the parameter names, the parameters can appear in any order.</source>
+          <target state="translated">Si vous incluez les noms de paramètres, les paramètres peuvent apparaître dans tout ordre.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>You can use the $this automatic variable in script blocks that define the values of new properties and methods.</source>
+          <target state="translated">Vous pouvez utiliser la variable automatique $this dans les blocs de script qui définissent les valeurs des nouvelles propriétés et méthodes.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The $this variable refers to the instance of the object to which the properties and methods are being added.</source>
+          <target state="translated">La variable $this fait référence à l'instance de l'objet auquel les propriétés et méthodes sont ajoutées.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>For more information about the $this variable, see about_Automatic_Variables (http://go.microsoft.com/fwlink/?LinkID=113212).</source>
+          <target state="translated">Pour plus d’informations sur la variable $this, consultez about_Automatic_Variables (http://go.microsoft.com/fwlink/?LinkID=113212).</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">LIENS CONNEXES</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Export-Clixml</source>
+          <target state="translated">Export-Clixml</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Get-Member</source>
+          <target state="translated">Get-Member</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Import-Clixml</source>
+          <target state="translated">Import-Clixml</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>New-Object</source>
+          <target state="translated">Nouvel objet</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>about_Automatic_Variables</source>
+          <target state="translated">about_Automatic_Variables</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

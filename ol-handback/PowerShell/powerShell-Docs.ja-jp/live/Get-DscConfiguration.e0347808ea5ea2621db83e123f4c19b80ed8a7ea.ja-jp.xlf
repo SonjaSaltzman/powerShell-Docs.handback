@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e750df6e58d9a10bda7e12811402a85600835add</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\PSDesiredStateConfiguration\Get-DscConfiguration.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f9d274f7157639704b043336868f3fab3a7101b4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">af08d0013a7e7b398a9d97ba6a6a7dc979ec724d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Get-DscConfiguration</source>
+          <target state="translated">Get-DscConfiguration</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Get-DscConfiguration</source>
+          <target state="translated">Get-DscConfiguration</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Gets the current configuration of the nodes.</source>
+          <target state="translated">ノードの現在の構成を取得します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">構文</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">説明</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-DscConfiguration<ept id="p1">**</ept> cmdlet gets the current configuration of the nodes, if the configuration exists.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Get-dscconfiguration<ept id="p1">**</ept> コマンドレットは、構成が存在する場合に、ノードの現在の構成を取得します。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Specify computers by using Common Information Model (CIM) sessions.</source>
+          <target state="translated">Common Information Model (CIM) セッションを使用してコンピューターを指定します。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If you do not specify a target computer, the cmdlet gets the configuration from the local computer.</source>
+          <target state="translated">対象のコンピューターを指定しない場合、コマンドレットではローカル コンピューターから構成を取得します。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Example 1: Get the configuration for the local computer</source>
+          <target state="translated">例 1: ローカル コンピューターの構成を取得します。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This command gets the current state for the local computer.</source>
+          <target state="translated">このコマンドは、ローカル コンピューターの現在の状態を取得します。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Example 2: Get the configuration for a specified computer</source>
+          <target state="translated">例 2: 指定したコンピューターの構成を取得します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This example gets the current state from a computer specified by a CIM session.</source>
+          <target state="translated">この例では、CIM セッションによって指定されるコンピューターから現在の状態を取得します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The example creates a CIM session for a computer named Server01 for use with the cmdlet.</source>
+          <target state="translated">例では、コマンドレットで使用するために、Server01 という名前のコンピューター用に CIM セッションを作成します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Alternatively, create an array of CIM sessions to apply the cmdlet to multiple specified computers.</source>
+          <target state="translated">または、CIM セッションの配列を作成して、指定した複数のコンピューターにコマンドレットを適用します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The first command creates a CIM session by using the <bpt id="p1">**</bpt>New-CimSession<ept id="p1">**</ept> cmdlet, and then stores the <bpt id="p2">**</bpt>CimSession<ept id="p2">**</ept> object in the <bpt id="p3">**</bpt>$Session<ept id="p3">**</ept> variable.</source>
+          <target state="translated">最初のコマンドを使用して、CIM セッションを作成する、 <bpt id="p1">**</bpt>New-cimsession<ept id="p1">**</ept> コマンドレットを格納して、 <bpt id="p2">**</bpt>CimSession<ept id="p2">**</ept> 内のオブジェクト、 <bpt id="p3">**</bpt>$Session<ept id="p3">**</ept> 変数です。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The command prompts you for a password.</source>
+          <target state="translated">コマンドはパスワードの入力をユーザーに求めます。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For more information, type <ph id="ph1">`Get-Help New-CimSession`</ph>.</source>
+          <target state="translated">詳細を表示するには「<ph id="ph1">`Get-Help New-CimSession`</ph>」を入力します。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The second command gets the current configuration for the computers identified by the <bpt id="p1">**</bpt>CimSession<ept id="p1">**</ept> objects stored in the <bpt id="p2">**</bpt>$Session<ept id="p2">**</ept> variable, in this case, the computer named Server01.</source>
+          <target state="translated">2 番目のコマンドによって識別されるコンピューターの現在の構成を取得する、 <bpt id="p1">**</bpt>CimSession<ept id="p1">**</ept> オブジェクトに格納されている、 <bpt id="p2">**</bpt>$Session<ept id="p2">**</ept> 変数、ここでは、コンピューター Server01 という名前です。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">パラメータ</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>-AsJob</source>
+          <target state="translated">-AsJob</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet runs the command as a background job.</source>
+          <target state="translated">このコマンドレットがバック グラウンド ジョブとしてコマンドを実行することを示します。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If you specify the <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept> parameter, the command returns an object that represents the job, and then displays the command prompt.</source>
+          <target state="translated">指定した場合、 <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept> パラメーター、コマンドが、ジョブを表すし、コマンド プロンプトを表示するオブジェクトを返します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You can continue to work in the session until the job finishes.</source>
+          <target state="translated">ジョブが終了するまでのセッションで作業を続行することができます。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The job is created on the local computer and the results from remote computers are automatically returned to the local computer.</source>
+          <target state="translated">ジョブは、ローカル コンピューターで作成され、リモート コンピューターでの結果は自動的にローカル コンピューターに返されます。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To manage the job, use the Job cmdlets.</source>
+          <target state="translated">ジョブを管理するには、Job コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To get the job results, use the Receive-Job cmdlet.</source>
+          <target state="translated">ジョブの結果を取得するには、Receive-Job コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To use this parameter, the local and remote computers must be configured for remoting, and on Windows Vista and later versions of the Windows operating system, you must open Windows PowerShell with the Run as administrator option.</source>
+          <target state="translated">このパラメーターを使用するには、リモート処理では、ローカルおよびリモート コンピューターを構成し、Windows Vista 以降のバージョンの Windows オペレーティング システムでは、[管理者として実行] で Windows PowerShell を開く必要があります。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Remote_Requirementshttp://go.microsoft.com/fwlink/?LinkId=623526 (http://go.microsoft.com/fwlink/?LinkId=623526).</source>
+          <target state="translated">詳細については、about_Remote_ Requirementshttp://go.microsoft.com/fwlink/?LinkId=623526 (http://go.microsoft.com/fwlink/?LinkId=623526) を参照してください。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For more information about Windows PowerShell background jobs, see about_Jobshttp://go.microsoft.com/fwlink/?LinkID=113251 (http://go.microsoft.com/fwlink/?LinkID=113251) and about_Remote_Jobshttp://go.microsoft.com/fwlink/?LinkID=135184 (http://go.microsoft.com/fwlink/?LinkID=135184).</source>
+          <target state="translated">Windows PowerShell のバック グラウンド ジョブの詳細については、about _ Jobshttp://go.microsoft.com/fwlink/?LinkID=113251 (http://go.microsoft.com/fwlink/?LinkID=113251) を参照してくださいと about_Remote_ Jobshttp://go.microsoft.com/fwlink/?LinkID=135184 (http://go.microsoft.com/fwlink/?LinkID=135184)。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>-CimSession</source>
+          <target state="translated">-CimSession</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Runs the cmdlet in a remote session or on a remote computer.</source>
+          <target state="translated">リモート セッションまたはリモート コンピューターでコマンドレットを実行します。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Enter a computer name or a session object, such as the output of a New-CimSessionhttp://go.microsoft.com/fwlink/p/?LinkId=227967 or Get-CimSessionhttp://go.microsoft.com/fwlink/p/?LinkId=227966 cmdlet.</source>
+          <target state="translated">コンピューター名や新規 CimSessionhttp://go.microsoft.com/fwlink/p/?LinkId=227967 または Get CimSessionhttp://go.microsoft.com/fwlink/p/?LinkId=227966 コマンドレットの出力などのセッション オブジェクトを入力します。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The default is the current session on the local computer.</source>
+          <target state="translated">既定値は、ローカル コンピューターで実行中の現在のセッションです。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-ThrottleLimit</source>
+          <target state="translated">-ThrottleLimit</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum number of concurrent operations that can be established to run the cmdlet.</source>
+          <target state="translated">コマンドレットを実行するために確立できる最大並行処理数を指定します。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If this parameter is omitted or a value of <ph id="ph1">`0`</ph> is entered, then Windows PowerShellÂ® calculates an optimum throttle limit for the cmdlet based on the number of CIM cmdlets that are running on the computer.</source>
+          <target state="translated">このパラメーターを省略するかの値、 <ph id="ph1">`0`</ph> Windows PowerShellÂ® がコンピューターで実行されている CIM コマンドレット数に基づいて、コマンドレット、最適なスロットル制限を計算してから、入力します。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The throttle limit applies only to the current cmdlet, not to the session or to the computer.</source>
+          <target state="translated">調整限度は、現在のコマンドレットのみに適用されます。セッションやコンピューターには適用されません。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">このコマンドレットは、共通のパラメーターをサポートしています:-デバッグ、-erroraction、-errorvariable、- InformationAction-InformationVariable、- OutVariable、-OutBuffer、- PipelineVariable、- Verbose、および - WarningVariable です。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">詳細については、about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">入力</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">出力</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ノート</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">関連リンク</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Desired State Configuration Overview</source>
+          <target state="translated">Windows PowerShell Desired State Configuration の概要</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Get-DscConfigurationStatus</source>
+          <target state="translated">Get-DscConfigurationStatus</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Restore-DscConfiguration</source>
+          <target state="translated">Restore-DscConfiguration</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Start-DscConfiguration</source>
+          <target state="translated">Start-DscConfiguration</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Test-DscConfiguration</source>
+          <target state="translated">Test-DscConfiguration</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

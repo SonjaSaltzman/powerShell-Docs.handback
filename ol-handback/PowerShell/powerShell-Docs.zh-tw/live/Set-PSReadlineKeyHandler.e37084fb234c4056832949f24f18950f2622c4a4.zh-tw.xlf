@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2ee63fca69353951e6de30c92e187603f303b51e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\PSReadline\Set-PSReadlineKeyHandler.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eda42eee523c3d668f4efaeb15212a5ea0c7f400</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c5660b185e912a8065e6c255cb3e011a005f0ab2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell 指令程式</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Set-PSReadlineKeyHandler</source>
+          <target state="translated">設定 PSReadlineKeyHandler</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Set-PSReadlineKeyHandler</source>
+          <target state="translated">設定 PSReadlineKeyHandler</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Binds keys to user-defined or PSReadline-provided key handlers.</source>
+          <target state="translated">將索引鍵繫結至使用者定義或提供 PSReadline 金鑰的處理常式。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">語法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>ScriptBlock</source>
+          <target state="translated">指令碼區塊</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Function</source>
+          <target state="translated">函式</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">描述</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Set-PSReadlineKeyHandler<ept id="p1">**</ept> cmdlet customizes the result when a particular key or sequence of keys is pressed while PSReadline is reading input.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>組 PSReadlineKeyHandler<ept id="p1">**</ept> cmdlet 可自訂的結果，當某個索引鍵，或當 PSReadline 讀取輸入，按下按鍵順序。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>By using user-defined key bindings, you can do almost anything that is possible from within a Windows PowerShell script.</source>
+          <target state="translated">藉由使用使用者定義索引鍵繫結，您可以幾乎可以從 Windows PowerShell 指令碼內。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Typically, you might modify the command line in a new way, but because the handlers are just Windows PowerShell scripts, you can do interesting things such as change directories or open applications.</source>
+          <target state="translated">一般而言，您可以修改命令列中的新方式，但因為處理常式只是 Windows PowerShell 指令碼，您可以執行例如有趣現象將目錄變更或開啟應用程式。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">範例</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Example 1: Bind the arrow key to a function</source>
+          <target state="translated">範例 1︰ 將方向鍵繫結的函式</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This command binds the up arrow key to the function HistorySearchBackward, which uses the currently-entered command line as the start of the search string when it is searching through command history.</source>
+          <target state="translated">此命令會向上鍵繫結函式 HistorySearchBackward，目前輸入的命令列搜尋字串的開頭，當使用為正在搜尋命令歷程記錄。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Example 2: Bind a key to a script block</source>
+          <target state="translated">範例 2︰ 將索引鍵繫結至指令碼區塊</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This command binds the key Ctrl+Shift+B to a script block that clears the line, inserts the word build, and then accepts the line.</source>
+          <target state="translated">此命令繫結清除線條、 插入 word 組建，然後接受 [線條的指令碼區塊的索引鍵 Ctrl + Shift + B。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The example shows how a single key can be used to run a command.</source>
+          <target state="translated">此範例顯示如何使用單一索引鍵，執行命令。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">參數</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>-BriefDescription</source>
+          <target state="translated">-BriefDescription</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A brief description of the key binding.</source>
+          <target state="translated">索引鍵繫結的簡短描述。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You can get this from the output of the Get-PSReadlineKeyHandler cmdlet.</source>
+          <target state="translated">您可以取得此從 Get PSReadlineKeyHandler 指令程式的輸出。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>-Chord</source>
+          <target state="translated">-弦</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Specifies an array of keys or sequences of keys to be bound to a function or script block.</source>
+          <target state="translated">指定陣列的索引鍵或索引鍵繫結至函式或指令碼區塊逸出字元。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Use a single string to specify a single binding.</source>
+          <target state="translated">您可以使用單一字串，指定單一繫結。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>If the binding is a sequence of keys, separate the keys by a comma, as in the following example:</source>
+          <target state="translated">如果繫結的索引鍵的順序，將索引鍵以逗號分隔，如下列範例所示︰</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>"Ctrl+X,Ctrl+L"</source>
+          <target state="translated">「 Ctrl + X、 Ctrl + L"</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This parameter accepts multiple strings.</source>
+          <target state="translated">此參數可接受多個字串。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Each string is a separate binding, not a sequence of keys for a single binding.</source>
+          <target state="translated">每個字串都是繫結不單一繫結的索引鍵順序。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-Description</source>
+          <target state="translated">-Description</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Specifies a more detailed description of the key binding that is visible in the output of the <bpt id="p1">**</bpt>Get-PSReadlineKeyHandler<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">指定的輸出中會顯示索引鍵繫結的詳細的描述 <bpt id="p1">**</bpt>Get PSReadlineKeyHandler<ept id="p1">**</ept> 指令程式。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>-Function</source>
+          <target state="translated">式函</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Specifies the name of an existing key handler provided by PSReadline.</source>
+          <target state="translated">指定現有金鑰的處理常式 PSReadline 所提供的名稱。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This parameter lets you rebind existing key bindings, or bind a handler that is provided by PSReadline and is currently unbound.</source>
+          <target state="translated">這個參數可讓您重新繫結現有的索引鍵繫結或繫結 PSReadline 所提供，而且目前未繫結的處理常式。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>By adding the <bpt id="p1">*</bpt>ScriptBlock<ept id="p1">*</ept> parameter, you can get equivalent functionality by calling the method directly from the script block.</source>
+          <target state="translated">藉由新增 <bpt id="p1">*</bpt>ScriptBlock<ept id="p1">*</ept> 參數，您可以直接從指令碼區塊中呼叫的方法來取得對等的功能。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This parameter is the preferred method, however, because the results make it easier to determine which functions are bound and unbound.</source>
+          <target state="translated">不過，因為結果讓您更輕鬆地判斷哪些函式繫結，以及未繫結時，這個參數將是一般慣用的方法。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To see a complete list of these values, type <ph id="ph1">`Get-Help Set-PSReadlineKeyHandler -Full`</ph>.</source>
+          <target state="translated">若要查看這些值的完整清單，請輸入 <ph id="ph1">`Get-Help Set-PSReadlineKeyHandler -Full`</ph>。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>-ScriptBlock</source>
+          <target state="translated">-指令碼區塊</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Specifies a script block value that is called when the chord is entered.</source>
+          <target state="translated">指定輸入弦時呼叫的指令碼區塊值。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The script block is passed one, or sometimes two, arguments.</source>
+          <target state="translated">指令碼區塊會傳遞，或有時候兩個引數。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The first argument is the key pressed, a <bpt id="p1">**</bpt>ConsoleKeyInfo<ept id="p1">**</ept> object..</source>
+          <target state="translated">第一個引數是按下按鍵， <bpt id="p1">**</bpt>ConsoleKeyInfo<ept id="p1">**</ept> 物件...</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The second argument could be any object depending on the context.</source>
+          <target state="translated">第二個引數可以是任何物件，視內容而定。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">這個 cmdlet 支援一般參數:-偵錯、-ErrorAction、-ErrorVariable、-InformationAction-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 以及-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">如需詳細資訊，請參閱 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">輸入</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>You cannot pipe objects to this cmdlet.</source>
+          <target state="translated">您無法使用管線將物件傳送至此 Cmdlet。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">輸出</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">附註</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相關的連結</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Get-PSReadlineKeyHandler</source>
+          <target state="translated">Get PSReadlineKeyHandler</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Remove-PSReadlineKeyHandler</source>
+          <target state="translated">移除 PSReadlineKeyHandler</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Get-PSReadlineOption</source>
+          <target state="translated">Get PSReadlineOption</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Set-PSReadlineOption</source>
+          <target state="translated">設定 PSReadlineOption</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

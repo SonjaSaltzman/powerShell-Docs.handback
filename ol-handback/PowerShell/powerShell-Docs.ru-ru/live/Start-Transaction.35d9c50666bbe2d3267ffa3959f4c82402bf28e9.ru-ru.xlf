@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6eba542085a3dcf901e4bae09d47a344c9784466</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Management\Start-Transaction.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ea2fae362b591d50466a66f57ac8c8ae5be43e0d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4db2f8b773319d686dc2ea5d762121317e1a882a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell, командлет</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Start-Transaction</source>
+          <target state="translated">Start-Transaction</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Start-Transaction</source>
+          <target state="translated">Start-Transaction</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">КРАТКИЙ ОБЗОР</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Starts a transaction.</source>
+          <target state="translated">Запускает транзакцию.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">СИНТАКСИС</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">ОПИСАНИЕ</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The Start-Transaction cmdlet starts a transaction, which is a series of commands that are managed as a unit.</source>
+          <target state="translated">Командлет Start-Transaction начинает транзакцию, которая представляет собой набор команд, управление которыми производится как единым целым.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>A transaction can be completed ("committed"), or it can be completely undone ("rolled back") so that any data changed by the transaction is restored to its original state.</source>
+          <target state="translated">Транзакция может быть завершена ("зафиксирована") или полностью отменена ("откат транзакции"). В последнем случае все данные, измененные транзакцией, возвращаются в исходное состояние.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Because the commands in a transaction are managed as a unit, either all commands are committed or all commands are rolled back.</source>
+          <target state="translated">Так как команды транзакции управляются как единое целое, фиксируются или откатываются все команды.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>By default, transactions are rolled back automatically if any command in the transaction generates an error, but you can use the RollbackPreference parameter to change this behavior.</source>
+          <target state="translated">По умолчанию транзакция откатывается, если какая-либо ее команда вызывает ошибку, однако с помощью параметра RollbackPreference это поведение можно изменить.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The cmdlets used in a transaction must be designed to support transactions.</source>
+          <target state="translated">Командлеты, используемые в транзакции, должны поддерживать такую возможность.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Cmdlets that support transactions have a UseTransaction parameter.</source>
+          <target state="translated">Командлеты, поддерживающие транзакции, имеют параметр UseTransaction.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To perform transactions in a provider, the provider must support transactions.</source>
+          <target state="translated">Для выполнения транзакций в поставщике поставщик должен поддерживать транзакции.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell Registry provider in Windows Vista and later versions of Windows supports transactions.</source>
+          <target state="translated">Поставщик реестра Windows PowerShell в Windows Vista и более поздних версиях Windows поддерживает транзакции.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can also use the Microsoft.PowerShell.Commands.Management.TransactedString class to include expressions in transactions on any version of Windows that supports Windows PowerShell.</source>
+          <target state="translated">Вы также можете использовать класс Microsoft.PowerShell.Commands.Management.TransactedString для включения выражений в транзакции в любой версии Windows, поддерживающей Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Other Windows PowerShell providers can also support transactions.</source>
+          <target state="translated">Другие поставщики Windows PowerShell также могут поддерживать транзакции.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Only one transaction can be active at a time.</source>
+          <target state="translated">Одновременно может быть активна только одна транзакция.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If you start a new, independent transaction while a transaction is in progress (neither completed nor undone), the new transaction becomes the active transaction, and you must commit or roll back the new transaction before making any changes to the original transaction.</source>
+          <target state="translated">При запуске новой транзакции в то время, когда выполняется другая (не завершенная и не отмененная), новая транзакция становится активной. Прежде чем вносить изменения в исходную транзакцию, новую транзакцию нужно зафиксировать или откатить.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The Start-Transaction cmdlet is one of a set of cmdlets that support the transactions feature in Windows PowerShell.</source>
+          <target state="translated">Командлет Start-Transaction — это один из набора командлетов, которые поддерживают функцию транзакций в Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Transactions.</source>
+          <target state="translated">Дополнительные сведения см. в разделе about_Transactions.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">ПРИМЕРЫ</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- ПРИМЕР 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>These commands start and then roll back a transaction.</source>
+          <target state="translated">Эти команды запускают, а затем откатывают транзакцию.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Because the transaction is rolled back, no changes are made to the registry.</source>
+          <target state="translated">Так как транзакция откатывается, изменения в реестр не вносятся.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>These commands start and then complete a transaction.</source>
+          <target state="translated">Эти команды запускают, а затем завершают транзакцию.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>No changes are made to the registry until the Complete-Transaction command is used.</source>
+          <target state="translated">Изменения не вносятся в реестр до тех пор, пока не используется команда Complete-Transaction.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This example demonstrates the effect of changing the RollbackPreference parameter value.</source>
+          <target state="translated">В этом примере демонстрируются последствия изменения значения параметра RollbackPreference.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>In the first set of commands, the Start-Transaction command does not use the RollbackPreference parameter.</source>
+          <target state="translated">В первом наборе команд в команде Start-Transaction параметр RollbackPreference не используется.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>As a result, the default value ("Error") is used.</source>
+          <target state="translated">Поэтому используется значение по умолчанию (Error).</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>When an error occurs in a transaction command (the specified path does not exist), the transaction is automatically rolled back.</source>
+          <target state="translated">Если в команде транзакции происходит ошибка (указанный путь не существует), транзакция автоматически откатывается.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>In the second set of commands, the Start-Transaction command uses the RollbackPreference parameter with a value of "Never".</source>
+          <target state="translated">Во втором наборе команд в команде Start-Transaction используется параметр RollbackPreference со значением Never.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>As a result, when an error occurs in a transaction command, the transaction is still active and can be completed successfully.</source>
+          <target state="translated">Поэтому, когда в команде транзакции происходит ошибка, транзакция остается активной и ее можно успешно завершить.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Because most transactions must be performed without error, the default value of the RollbackPreference parameter is typically preferred.</source>
+          <target state="translated">Так как большинство транзакций должно выполняться без ошибок, значение параметра RollbackPreference по умолчанию обычно является предпочтительным.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This example shows the effect of using the Start-Transaction command while a transaction is in progress.</source>
+          <target state="translated">В этом примере показан результат использования команды Start-Transaction в то время, когда выполняется транзакция.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The effect is much like joining the transaction in progress.</source>
+          <target state="translated">Он во многом похож на присоединение к выполняющейся транзакции.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Although this is a simplified command, this scenario commonly occurs when the transaction involves running a script that includes a complete transaction.</source>
+          <target state="translated">Хотя это упрощенная команда, такая ситуация часто возникает, если транзакция предусматривает выполнение сценария, включающего завершенную транзакцию.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The first Start-Transaction command starts the transaction.</source>
+          <target state="translated">Первая команда Start-Transaction запускает транзакцию.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The first New-Item command is part of the transaction.</source>
+          <target state="translated">Первая команда New-Item является частью транзакции.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The second Start-Transaction command adds a new subscriber to the transaction.</source>
+          <target state="translated">Вторая команда Start-Transaction добавляет в транзакцию нового подписчика.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The Get-Transaction command now returns a transaction with a subscriber count of 2.</source>
+          <target state="translated">Теперь команда Get-Transaction возвращает транзакцию с числом подписчиков, равным 2.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The second New-Item command is part of the same transaction.</source>
+          <target state="translated">Вторая команда New-Item является частью той же транзакции.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>No changes are made to the registry until the entire transaction is completed.</source>
+          <target state="translated">Изменения не вносятся в реестр до тех пор, пока транзакция не завершится полностью.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To complete the transaction, you must enter two Complete-Transaction commands, one for each subscriber.</source>
+          <target state="translated">Чтобы завершить транзакцию, необходимо выполнить две команды Complete-Transaction — по одной для каждого подписчика.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If you were to roll back the transaction at any point, the entire transaction would be rolled back for both subscribers.</source>
+          <target state="translated">Если бы вам потребовалось откатить транзакцию в какой-либо момент, то был бы выполнен откат всей транзакции для обоих подписчиков.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This example shows the effect of using the Independent parameter of Start-Transaction to start a transaction while another transaction is in progress.</source>
+          <target state="translated">В этом примере показан результат использования параметра Independent командлета Start-Transaction для запуска транзакции в то время, когда выполняется другая транзакция.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>In this case, the new transaction is rolled back without affecting the original transaction.</source>
+          <target state="translated">В этом случае новая транзакция откатывается, не затрагивая исходной транзакции.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Although the transactions are logically independent, because only one transaction can be active at a time, you must roll back or commit the newest transaction before resuming work on the original transaction.</source>
+          <target state="translated">Хотя транзакции логически не зависят друг от друга, одновременно может быть активна только одна транзакция, поэтому более позднюю транзакцию нужно откатить или зафиксировать, прежде чем возобновлять работу с исходной.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The first set of commands starts a transaction.</source>
+          <target state="translated">Первый набор команд запускает транзакцию.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The New-Item command is part of the first transaction.</source>
+          <target state="translated">Команда New-Item является частью первой транзакции.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>In the second set of commands, the Start-Transaction command uses the Independent parameter.</source>
+          <target state="translated">Во втором наборе команд в команде Start-Transaction используется параметр Independent.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The Get-Transaction command that follows shows the transaction object for the active transaction (the newest one).</source>
+          <target state="translated">Следующая команда Get-Transaction возвращает объект активной (самой последней) транзакции.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The subscriber count is equal to 1, showing that the transactions are unrelated.</source>
+          <target state="translated">Счетчик транзакций равен 1, что указывает на то, что транзакции не связаны друг с другом.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>When the active transaction is rolled back by using an Undo-Transaction command, the original transaction becomes active again.</source>
+          <target state="translated">Когда активная транзакция откатывается с помощью команды Undo-Transaction, исходная транзакция снова становится активной.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The New-ItemProperty command, which is part of the original transaction, completes without error, and the original transaction can be completed by using the Complete-Transaction command.</source>
+          <target state="translated">Команда New-ItemProperty, являющаяся частью исходной транзакции, выполняется без ошибок, и исходную транзакцию можно завершить с помощью команды Complete-Transaction.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>As a result, the registry is changed.</source>
+          <target state="translated">В результате реестр изменяется.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 6 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 6 --------------------------</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This example demonstrates that commands that are submitted while a transaction is in progress can be included in the transaction or not included.</source>
+          <target state="translated">Этот пример демонстрирует, что команды, переданные во время выполнения транзакции, могут включаться в транзакцию или не включаться.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Only commands that use the UseTransaction parameter are part of the transaction.</source>
+          <target state="translated">Частью транзакции являются только команды, в которых используется параметр UseTransaction.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The first and third New-Item commands use the UseTransaction parameter.</source>
+          <target state="translated">В первой и третьей командах New-Item используется параметр UseTransaction.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>These commands are part of the transaction.</source>
+          <target state="translated">Эти команды входят в транзакцию.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Because the second New-Item command does not use the UseTransaction parameter, it is not part of the transaction.</source>
+          <target state="translated">Так как во второй команде New-Item параметр UseTransaction не используется, она не входит в транзакцию.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The first "dir" command shows the effect.</source>
+          <target state="translated">Первая команда dir демонстрирует результат.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The second New-Item command is completed immediately, but the first and third New-Item commands are not effective until the transaction is committed.</source>
+          <target state="translated">Вторая команда New-Item выполняется немедленно, однако первая и третья команды New-Item не действуют, пока транзакция не будет зафиксирована.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The Complete-Transaction command commits the transaction.</source>
+          <target state="translated">Команда Complete-Transaction фиксирует транзакцию.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>As a result, the second "dir" command shows that all of the new items are added to the registry.</source>
+          <target state="translated">В результате вторая команда dir показывает, что все новые элементы добавлены в реестр.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 7 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 7 --------------------------</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>This command uses the Timeout parameter of Start-Transaction to start a transaction that must be completed within two minutes.</source>
+          <target state="translated">В этой команде используется параметр Timeout командлета Start-Transaction для запуска транзакции, которая должна быть завершена в течение двух минут.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>If the transaction is not complete when the timeout expires, it is rolled back automatically.</source>
+          <target state="translated">Если транзакция не завершена до истечения времени ожидания, она автоматически откатывается.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>When the timeout expires, you are not notified, but the Status property of the transaction object is set to RolledBack and commands that use the UseTransaction parameter fail.</source>
+          <target state="translated">Когда время ожидания истекает, вы не получаете уведомление, но свойство Status объекта транзакции принимает значение RolledBack, а команды, в которых используется параметр UseTransaction, завершаются сбоем.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">ПАРАМЕТРЫ</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>-Independent</source>
+          <target state="translated">-Независимый от</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Starts a transaction that is independent of any transactions in progress.</source>
+          <target state="translated">Запускает транзакцию, которая не зависит от уже выполняющихся транзакций.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>By default, if you use Start-Transaction while another transaction is in progress, a new subscriber is added to the transaction in progress.</source>
+          <target state="translated">При использовании командлета Start-Transaction в то время, когда выполняется другая транзакция, по умолчанию в выполняющуюся транзакцию добавляется новый подписчик.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This parameter has an effect only when a transaction is already in progress in the session.</source>
+          <target state="translated">Этот параметр действует только в том случае, если в рамках сеанса уже выполняется транзакция.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>By default, if you use Start-Transaction while a transaction is in progress, the existing transaction object is reused and the subscriber count is incremented.</source>
+          <target state="translated">По умолчанию, если вы вызываете командлет Start-Transaction в то время, когда выполняется транзакция, существующий объект транзакции используется повторно и счетчик подписчиков увеличивается на единицу.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The effect is much like joining the original transaction.</source>
+          <target state="translated">Результат во многом похож на присоединение к исходной транзакции.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>An Undo-Transaction command rolls back the entire the transaction.</source>
+          <target state="translated">Команда Undo-Transaction откатывает транзакцию полностью.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>To complete the transaction, you must enter a Complete-Transaction command for each subscriber.</source>
+          <target state="translated">Чтобы завершить транзакцию, необходимо выполнить команду Complete-Transaction для каждого подписчика.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Because most transactions that are in progress at the same time are related, the default is sufficient for most uses.</source>
+          <target state="translated">Так как обычно одновременно выполняющиеся транзакции связаны, значения по умолчанию в большинстве случаев достаточно.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>If you use the Independent parameter, a new transaction is created that can be completed or undone without affecting the original transaction.</source>
+          <target state="translated">При использовании параметра Independent создается новая транзакция, которую можно завершить или отменить, не затрагивая исходную транзакцию.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>However, because only one transaction can be active at a time, you must complete or roll back the new transaction before resuming work on the original transaction.</source>
+          <target state="translated">Однако, поскольку одновременно может быть активна только одна транзакция, новую транзакцию необходимо завершить или откатить, прежде чем возобновлять работу с исходной транзакцией.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>-RollbackPreference</source>
+          <target state="translated">-RollbackPreference</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Specifies the conditions under which a transaction is automatically rolled back.</source>
+          <target state="translated">Указывает условия, при которых транзакция автоматически откатывается.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The default value is "Error".</source>
+          <target state="translated">Значение по умолчанию — Error.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Valid values are:</source>
+          <target state="translated">Допустимые значения:</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Error:  The transaction is rolled back automatically if a terminating or non-terminating error occurs.</source>
+          <target state="translated">Ошибка: Транзакция откатывается обратно автоматически при возникновении ошибки завершающий или бесконечно.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>"Error" is the default.</source>
+          <target state="translated">Error — это значение по умолчанию.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Terminating error: The transaction is rolled back automatically if a terminating error occurs.</source>
+          <target state="translated">Завершение ошибка: транзакция откатывается, если происходит неустранимая ошибка.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Never: The transaction is never rolled back automatically.</source>
+          <target state="translated">Никогда: Транзакция никогда не откатывается автоматически.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>-Timeout</source>
+          <target state="translated">-Время ожидания</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum time, in minutes, that the transaction is active.</source>
+          <target state="translated">Указывает максимальный период времени в минутах, в течение которого транзакция может быть активна.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>When the time-out expires, the transaction is automatically rolled back.</source>
+          <target state="translated">По истечении времени ожидания транзакция откатывается автоматически.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>By default, there is no time-out for transactions that are started at the command line.</source>
+          <target state="translated">По умолчанию для транзакций, запускаемых из командной строки, время ожидания не устанавливается.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>When transactions are started by a script, the default time-out is 30 minutes.</source>
+          <target state="translated">Если транзакции запускаются с помощью сценария, время ожидания по умолчанию — 30 минут.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">Запрашивает подтверждение перед запуском командлета. Запрашивает подтверждение перед запуском командлета.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Показывает, что произойдет при запуске командлета.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Командлет не запущен. Показывает, что произойдет при запуске командлета.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">Командлет не запущен.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Этот командлет поддерживает общие параметры:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction и - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Дополнительные сведения см. в разделе about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ВХОДНЫЕ ДАННЫЕ</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">Нет</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>You cannot pipe input to this cmdlet.</source>
+          <target state="translated">В этот командлет нельзя передать входные данные.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">ВЫХОДНЫЕ ДАННЫЕ</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">Нет</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>This cmdlet does not generate any output.</source>
+          <target state="translated">Этот командлет не формирует никаких выходных данных.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ПРИМЕЧАНИЯ</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">СВЯЗАННЫЕ ССЫЛКИ</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Complete-Transaction</source>
+          <target state="translated">Complete-Transaction</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Get-Transaction</source>
+          <target state="translated">Get-Transaction</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Undo-Transaction</source>
+          <target state="translated">Undo-Transaction</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Use-Transaction</source>
+          <target state="translated">Use-Transaction</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>about_Transactions</source>
+          <target state="translated">о транзакциях</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">65e2ae1ed5b110ac2ee9dc80bd6ba9ace2448566</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Core\About\about_Functions.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1a16b1532bfd0813e901ca3395f5289314aebaf4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cde7cb1dca8bcc02b87d8648daa30265095a6c75</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>about_Functions</source>
+          <target state="translated">about_Functions</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell, командлет</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>About Functions</source>
+          <target state="translated">О функциях</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>about_Functions</source>
+          <target state="translated">about_Functions</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>about_Functions</source>
+          <target state="translated">about_Functions</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">КРАТКОЕ ОПИСАНИЕ</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Describes how to create and use functions in Windows PowerShell.</source>
+          <target state="translated">Описание способов создания и использования функций в Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>LONG DESCRIPTION</source>
+          <target state="translated">ПОДРОБНОЕ ОПИСАНИЕ</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>A function is a list of Windows PowerShell statements that has a name that you assign.</source>
+          <target state="translated">Функции является списком инструкций Windows PowerShell, который имеет имя, назначенное.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>When you run a function, you type the function name.</source>
+          <target state="translated">При выполнении функции, введите имя функции.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The statements in the list run as if you had typed them at the command prompt.</source>
+          <target state="translated">Операторы в списке выполняются, как если бы был введен их в командной строке.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Functions can be as simple as:</source>
+          <target state="translated">Функции могут быть простым:</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>function Get-PowerShellProcess {Get-Process PowerShell}</source>
+          <target state="translated">функция Get-PowerShellProcess {Get-Process PowerShell}</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>or as complex as a cmdlet or an application program.</source>
+          <target state="translated">или сложным, как командлет или прикладной программы.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Like cmdlets, functions can have parameters.</source>
+          <target state="translated">Как командлеты функции могут иметь параметров.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The parameters can be named, positional, switch, or dynamic parameters.</source>
+          <target state="translated">Параметры могут иметь именованный, позиционные, коммутатор или динамических параметров.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Function parameters can be read from the command line or from the pipeline.</source>
+          <target state="translated">Параметры функции могут быть прочитаны из командной строки или из конвейера.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Functions can return values that can be displayed, assigned to variables, or passed to other functions or cmdlets.</source>
+          <target state="translated">Функции могут возвращать значения, которые можно отобразить, присваиваются переменным или передать в другие функции или командлеты.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The function's statement list can contain different types of statement lists with the keywords Begin, Process, and End.</source>
+          <target state="translated">Список операторов функции могут содержаться различные типы списков инструкций с ключевыми словами Begin, Process и End.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>These statement lists handle input from the pipeline differently.</source>
+          <target state="translated">Эти инструкции списки обработки входных данных из конвейера по-разному.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A filter is a special kind of function that uses the Filter keyword.</source>
+          <target state="translated">Фильтр представляет собой специальные функции, которая использует ключевое слово фильтра.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Functions can also act like cmdlets.</source>
+          <target state="translated">Функции также может действовать как командлеты.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You can create a function that works just like a cmdlet without using C# programming.</source>
+          <target state="translated">Можно создать функцию, которая работает так же, как командлет без использования программирования C#.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Functions_Advanced (http://go.microsoft.com/fwlink/?LinkID=144511).</source>
+          <target state="translated">Дополнительные сведения см. в разделе about_Functions_Advanced (http://go.microsoft.com/fwlink/?LinkID=144511).</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Syntax The following is the syntax for a function:</source>
+          <target state="translated">Синтаксис, ниже приведен синтаксис для функции:</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>function [&lt;scope:&gt;]<ph id="ph1">&lt;name&gt;</ph> [([type]$parameter1[,[type]$parameter2])] { param([type]$parameter1 [,[type]$parameter2])</source>
+          <target state="translated">функции [&lt; области: &gt;]<ph id="ph1">&lt;name&gt;</ph> [([type]$parameter1[,[type]$parameter2])] {param ([type] $параметр1 [, [type] параметр2$])</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>dynamicparam {<ph id="ph1">&lt;statement list&gt;</ph>}</source>
+          <target state="translated">dynamicparam {<ph id="ph1">&lt;statement list&gt;</ph>}</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>begin {<ph id="ph1">&lt;statement list&gt;</ph>} process {<ph id="ph2">&lt;statement list&gt;</ph>} end {<ph id="ph3">&lt;statement list&gt;</ph>} }</source>
+          <target state="translated">Начать {<ph id="ph1">&lt;statement list&gt;</ph>} процесс {<ph id="ph2">&lt;statement list&gt;</ph>} end {<ph id="ph3">&lt;statement list&gt;</ph>}}</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A function includes the following items:</source>
+          <target state="translated">Функция включает в себя следующие элементы:</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>A Function keyword</source>
+          <target state="translated">Функция ключевое слово</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A scope (optional)</source>
+          <target state="translated">Область действия (необязательно)</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A name that you select</source>
+          <target state="translated">Имя выбранного</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Any number of named parameters (optional)</source>
+          <target state="translated">Любое число именованных параметров (необязательно)</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>One or more Windows PowerShell commands enclosed in braces ({})</source>
+          <target state="translated">Команды Windows PowerShell, заключенный в фигурные скобки ({})</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For more information about the Dynamicparam keyword and dynamic parameters in functions, see about_Functions_Advanced_Parameters.</source>
+          <target state="translated">Дополнительные сведения о динамических параметров в функции и ключевое слово Dynamicparam about_Functions_Advanced_Parameters см.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Simple Functions Functions do not have to be complicated to be useful.</source>
+          <target state="translated">Простой функции функции не имеют должен быть сложным быть полезным.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The simplest functions have the following format:</source>
+          <target state="translated">Простой функции имеют следующий формат:</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>function &lt;function-name&gt; {statements}</source>
+          <target state="translated">функции &lt; имя_функции &gt; {инструкций}</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For example, the following function starts Windows PowerShell with the Run as Administrator option.</source>
+          <target state="translated">Например следующая функция запускает Windows PowerShell с параметром Запуск от имени администратора.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>function Start-PSAdmin {Start-Process PowerShell -Verb RunAs}</source>
+          <target state="translated">функция Start PSAdmin {Start-Process PowerShell-Verb RunAs}</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>To use the function, type: Start-PSAdmin</source>
+          <target state="translated">Чтобы использовать эту функцию, введите: начало PSAdmin</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To add statements to the function, use a semi-colon (;) to separate the statements, or type each statement on a separate line.</source>
+          <target state="translated">Добавление инструкций в функцию, используйте точку с запятой (;) для разделения инструкций или введите каждый оператор в отдельной строке.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>For example, the following function finds all .jpg files in the current user's directories that were changed after the start date.</source>
+          <target state="translated">Например следующая функция находит все JPG-файлов в каталоги текущего пользователя, которые были изменены после даты начала.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>function Get-NewPix { $start = Get-Date -Month 1 -Day 1 -Year 2010 $allpix = Get-ChildItem -Path $env:UserProfile<ph id="ph1">\*</ph>.jpg -Recurse $allpix | where {$_.LastWriteTime -gt $Start} }</source>
+          <target state="translated">функция Get-NewPix {$start = Get-Date-месяц - день - год 2010 $allpix = Get-ChildItem-путь $env: UserProfile<ph id="ph1">\*</ph>.jpg-Recurse $allpix | где {$_. LastWriteTime - gt $Start}}</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You can create a toolbox of useful small functions.</source>
+          <target state="translated">Можно создавать панели инструментов, полезных функций, небольшой.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Add these functions to your Windows PowerShell profile, as described in about_Profiles and later in this topic.</source>
+          <target state="translated">Эти функции следует добавьте в профиль Windows PowerShell, как описано в about_Profiles и далее в этом разделе.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Function Names You can assign any name to a function, but functions that you share with others should follow the naming rules that have been established for all Windows PowerShell commands.</source>
+          <target state="translated">Функция имена можно назначить любое имя функции, но функции, используемые совместно с другими пользователями необходимо следовать правилам именования, которые были определены для всех команд Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Functions names should consist of a verb-noun pair in which the verb identifies the action that the function performs and the noun identifies the item on which the cmdlet performs its action.</source>
+          <target state="translated">Имена функций должны содержать пару существительное-команда определяет действие, которое выполняет функцию и существительное определяет элемент, на котором командлет выполняет действие.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Functions should use the standard verbs that have been approved for all Windows PowerShell commands.</source>
+          <target state="translated">Функции следует использовать стандартные команды, которые были утверждены для всех команд Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>These verbs help us to keep our command names simple, consistent, and easy for users to understand.</source>
+          <target state="translated">Эти команды помогут сохранить наш имена команд простой, согласованный и простой для понимания пользователем.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>For more information about the standard Windows PowerShell verbs, see "Cmdlet Verbs" on MSDN at http://go.microsoft.com/fwlink/?LinkID=160773.</source>
+          <target state="translated">Дополнительные сведения о стандартных команд Windows PowerShell в разделе «Глаголы командлетов» на сайте MSDN в http://go.microsoft.com/fwlink/?LinkID=160773.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Functions with Parameters You can use parameters with functions, including named parameters, positional parameters, switch parameters, and dynamic parameters.</source>
+          <target state="translated">Функции с параметрами можно использовать параметры с помощью функций, включая именованные параметры, позиционные параметры, параметры и динамических параметров.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>For more information about dynamic parameters in functions, see about_Functions_Advanced_Parameters (http://go.microsoft.com/fwlink/?LinkID=135173).</source>
+          <target state="translated">Дополнительные сведения о динамических параметров в функциях см. в разделе about_Functions_Advanced_Parameters (http://go.microsoft.com/fwlink/?LinkID=135173).</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Named Parameters You can define any number of named parameters.</source>
+          <target state="translated">Именованные параметры можно определить любое число именованных параметров.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>You can include a default value for named parameters, as described later in this topic.</source>
+          <target state="translated">Значение по умолчанию для именованных параметров можно включить, как описано далее в этом разделе.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>You can define parameters inside the braces using the Param keyword, as shown in the following sample syntax:</source>
+          <target state="translated">Можно определить параметры в фигурных скобках, используя ключевое слово Param, как показано в следующем примере синтаксиса:</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>function <ph id="ph1">&lt;name&gt;</ph> { param ([type]$parameter1[,[type]$parameter2]) <ph id="ph2">&lt;statement list&gt;</ph> }</source>
+          <target state="translated">функция <ph id="ph1">&lt;name&gt;</ph> {param ([type]$parameter1[,[type]$parameter2]) <ph id="ph2">&lt;statement list&gt;</ph> }</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>You can also define parameters outside the braces without the Param keyword, as shown in the following sample syntax:</source>
+          <target state="translated">Можно также определить параметры за пределами скобок без ключевого слова Param, как показано в следующем примере синтаксиса:</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>function <ph id="ph1">&lt;name&gt;</ph> [([type]$parameter1[,[type]$parameter2])] { <ph id="ph2">&lt;statement list&gt;</ph> }</source>
+          <target state="translated">функция <ph id="ph1">&lt;name&gt;</ph> [([type]$parameter1[,[type]$parameter2])] { <ph id="ph2">&lt;statement list&gt;</ph> }</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>There is no difference between these two methods.</source>
+          <target state="translated">Нет никакой разницы между этими двумя методами.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Use the method that you prefer.</source>
+          <target state="translated">Используйте метод, который предпочитаете.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>When you run the function, the value you supply for a parameter is assigned to a variable that contains the parameter name.</source>
+          <target state="translated">При выполнении функции значение параметра назначается переменная, содержащая имя параметра.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The value of that variable can be used in the function.</source>
+          <target state="translated">Значение этой переменной можно использовать в функции.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The following example is a function called Get-SmallFiles.</source>
+          <target state="translated">Следующий пример является функция, именуемая Get SmallFiles.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This function has a $size parameter.</source>
+          <target state="translated">Эта функция имеет параметр $size.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The function displays all the files that are smaller than the value of the $size parameter, and it excludes directories:</source>
+          <target state="translated">Эта функция отображает все файлы, которые меньше, чем значение параметра $size и исключаются каталоги:</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>function Get-SmallFiles { param ($size) Get-ChildItem c:\ | where {$.Length -lt $Size -and !$.PSIsContainer} }</source>
+          <target state="translated">функция Get-SmallFiles {Get-ChildItem c:\ param ($size) | где {$. Длина - lt $Size- и! $. PSIsContainer}}</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>In the function, you can use the $size variable, which is the name defined for the parameter.</source>
+          <target state="translated">В функции можно использовать переменную $size, которая имеет имя, заданное для параметра.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>To use this function, type the following command:</source>
+          <target state="translated">Чтобы использовать эту функцию, введите следующую команду:</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; function Get-SmallFiles –Size 50</source>
+          <target state="translated">C:\PS &gt; функции Get-SmallFiles – 50 размер</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>You can also enter a value for a named parameter without the parameter name.</source>
+          <target state="translated">Также можно ввести значение именованного параметра без указания имени параметра.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>For example, the following command gives the same result as a command that names the Size parameter:</source>
+          <target state="translated">Например следующая команда дает тот же результат, как команда, имена параметр размера:</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; function Get-SmallFiles 50</source>
+          <target state="translated">C:\PS &gt; функции Get-SmallFiles 50</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>To define a default value for a parameter, type an equal sign and the value after the parameter name, as shown in the following variation of the Get-SmallFiles example:</source>
+          <target state="translated">Чтобы задать значение по умолчанию для параметра, введите знак равенства и значение после имени параметра, как показано в следующих вариант примера Get SmallFiles:</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>function Get-SmallFiles ($size = 100) { Get-ChildItem c:\ | where {$.Length -lt $Size -and !$.PSIsContainer} }</source>
+          <target state="translated">функция Get-SmallFiles ($size = 100) {Get-ChildItem c:\ | где {$. Длина - lt $Size- и! $. PSIsContainer}}</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>If you type "Get-SmallFiles" without a value, the function assigns 100 to $size.</source>
+          <target state="translated">Если ввести «Get-SmallFiles» без значения, функция присваивает 100 $size.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>If you provide a value, the function uses that value.</source>
+          <target state="translated">Если значение указано, функция использует это значение.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Optionally, you can provide a brief help string that describes the default value of your parameter, by adding the PSDefaultValue attribute to the description of your parameter, and specifying the Help property of PSDefaultValue.</source>
+          <target state="translated">При необходимости можно ввести строку краткая справка, описывающий значение по умолчанию параметра, путем добавления атрибута PSDefaultValue в описании параметра, указав свойство справки PSDefaultValue.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>To provide a help string that describes the default value (100) of the Size parameter in the Get-SmallFiles function, add the PSDefaultValue attribute as shown in the following example.</source>
+          <target state="translated">Для предоставления строки справки, описывающий размер параметра в функции Get-SmallFiles значение по умолчанию (100), добавьте атрибут PSDefaultValue, как показано в следующем примере.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>function Get-SmallFiles { param ( [PSDefaultValue(Help = '100')] $size = 100</source>
+          <target state="translated">функция Get-SmallFiles {param ([PSDefaultValue (Help = "100")] $size = 100</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>)</source>
+          <target state="translated">)</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>For more information about the PSDefaultValue attribute class, see PSDefaultValue Attribute Members on MSDN.</source>
+          <target state="translated">Дополнительные сведения о классе атрибута PSDefaultValue см. в библиотеке MSDN PSDefaultValue элементов атрибута.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>(http://msdn.microsoft.com/library/windows/desktop/system.management.automation.psdefaultvalueattribute_members(v=vs.85).aspx</source>
+          <target state="translated">(http://msdn.microsoft.com/library/windows/desktop/system.management.automation.psdefaultvalueattribute_members (v=vs.85).aspx</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Positional Parameters A positional parameter is a parameter without a parameter name.</source>
+          <target state="translated">Позиционные параметры типа позиционного параметра — это параметр без имени параметра.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell uses the parameter value order to associate each parameter value with a parameter in the function.</source>
+          <target state="translated">Windows PowerShell использует значение порядка параметров для связывания с параметром функции значение каждого параметра.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>When you use positional parameters, type one or more values after the function name.</source>
+          <target state="translated">При использовании позиционные параметры, введите одно или несколько значений после имени функции.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Positional parameter values are assigned to the $args array variable.</source>
+          <target state="translated">Позиционного параметра значения присваиваются переменной $args массива.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The value that follows the function name is assigned to the first position in the $args array, $args[0].</source>
+          <target state="translated">Значение, которое следует за именем функции назначается первая позиция в массиве $args $args [0].</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The following Get-Extension function adds the .txt file name extension to a file name that you supply:</source>
+          <target state="translated">Следующая функция Get-расширение добавляет расширение имени файла .txt, необходимо указать имя файла:</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>function Get-Extension { $name = $args[0] + ".txt" $name }</source>
+          <target state="translated">функция Get-расширение {$name = $args [0] + «.txt» $name}</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; Get-Extension myTextFile myTextFile.txt</source>
+          <target state="translated">C:\PS &gt; myTextFile.txt myTextFile Get-расширение</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Switch Parameters A switch is a parameter that does not require a value.</source>
+          <target state="translated">Параметры типа коммутатора — это параметр, не требуют указания значения.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Instead, you type the function name followed by the name of the switch parameter.</source>
+          <target state="translated">Вместо этого ввести имя функции, за которым следует имя параметра.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>To define a switch parameter, specify the type [switch] before the parameter name, as shown in the following example:</source>
+          <target state="translated">Чтобы определить параметр переключателя, укажите тип [switch] перед именем параметра, как показано в следующем примере:</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>function Switch-Item { param ([switch]$on) if ($on) { "Switch on" } else { "Switch off" } }</source>
+          <target state="translated">функция Switch-Item {param ([switch] $) Если ($) {«включить»} else {«выключить»}}</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>When you type the On switch parameter after the function name, the function displays "Switch on".</source>
+          <target state="translated">При вводе параметр On после имени функции, функция отображает «включить».</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Without the switch parameter, it displays "Switch off".</source>
+          <target state="translated">Без параметра коммутатора отображается «Выключить».</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; Switch-Item -on Switch on</source>
+          <target state="translated">C:\PS &gt; Switch-Item-коммутатора на</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; Switch-Item Switch off</source>
+          <target state="translated">C:\PS &gt; выключить Switch-элемент</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>You can also assign a Boolean value to a switch when you run the function, as shown in the following example:</source>
+          <target state="translated">Можно также назначить логическое значение переключателя при выполнении функции, как показано в следующем примере:</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; Switch-Item -on:$true Switch on</source>
+          <target state="translated">C:\PS &gt; Switch-Item-на: $true переключитесь на представление</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; Switch-Item -on:$false Switch off</source>
+          <target state="translated">C:\PS &gt; Switch-Item-на: отключить $false</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Using Splatting to Represent Command Parameters You can use splatting to represent the parameters of a command.</source>
+          <target state="translated">С помощью сплаттинг представляют команду Параметры вам сплаттинг можно использовать для представления параметров команды.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>This feature is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Этот компонент впервые появился в Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Use this technique in functions that call commands in the session.</source>
+          <target state="translated">Этот метод можно используйте в функциях, которые вызывают команды в сеансе.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>You do not need to declare or enumerate the command parameters, or change the function when command parameters change.</source>
+          <target state="translated">Не нужно объявить или перечислить параметры команды или изменить функцию при изменении параметров команды.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The following sample function calls the Get-Command cmdlet.</source>
+          <target state="translated">Приведенный ниже образец функции вызывает командлет Get-Command.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The command uses @Args to represent the parameters of Get-Command.</source>
+          <target state="translated">Команда использует @Args для представления параметров Get-Command.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>function Get-MyCommand { Get-Command @Args }</source>
+          <target state="translated">функция Get-MyCommand {Get-Command @Args}</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>You can use all of the parameters of Get-Command when you call the Get-MyCommand function.</source>
+          <target state="translated">Все параметры Get-Command можно использовать при вызове функции Get-MyCommand.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The parameters and parameter values are passed to the command using @Args.</source>
+          <target state="translated">Параметры и значения параметров передаются команде @Args.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;Get-MyCommand -Name Get-ChildItem CommandType     Name                ModuleName</source>
+          <target state="translated">PS C: &gt; Get-MyCommand-имя ModuleName CommandType имя Get-ChildItem</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Cmdlet          Get-ChildItem       Microsoft.PowerShell.Management</source>
+          <target state="translated">Командлет Get-ChildItem Microsoft.PowerShell.Management</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The @Args feature uses the $Args automatic parameter, which represents undeclared cmdlet parameters and values from remaining arguments.</source>
+          <target state="translated">Функция @Args использует параметр автоматического $Args, который представляет командлет необъявленных параметров и значений из оставшихся аргументов.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>For more information about splatting, see about_Splatting (http://go.microsoft.com/fwlink/?LinkId=262720).</source>
+          <target state="translated">Дополнительные сведения о сплаттинг см. about_Splatting (http://go.microsoft.com/fwlink/?LinkId=262720).</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Piping Objects to Functions Any function can take input from the pipeline.</source>
+          <target state="translated">Объекты благодаря функциям, любая функция может принимать входные данные по конвейеру.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>You can control how a function processes input from the pipeline using Begin, Process, and End keywords.</source>
+          <target state="translated">Можно управлять как функция обрабатывает входные данные из конвейера, используя ключевые слова Begin, Process и End.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The following sample syntax shows the three keywords:</source>
+          <target state="translated">Синтаксис следующего примера показано три ключевых слова:</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>function <ph id="ph1">&lt;name&gt;</ph> { begin {<ph id="ph2">&lt;statement list&gt;</ph>} process {<ph id="ph3">&lt;statement list&gt;</ph>} end {<ph id="ph4">&lt;statement list&gt;</ph>} }</source>
+          <target state="translated">функция <ph id="ph1">&lt;name&gt;</ph> {begin {<ph id="ph2">&lt;statement list&gt;</ph>} процесс {<ph id="ph3">&lt;statement list&gt;</ph>} end {<ph id="ph4">&lt;statement list&gt;</ph>}}</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The Begin statement list runs one time only, at the beginning of the function.</source>
+          <target state="translated">Список операторов Begin выполняется только один раз, в начале функции.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The Process statement list runs one time for each object in the pipeline.</source>
+          <target state="translated">Список операторов процесс запускается один раз для каждого объекта конвейера.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>While the Process block is running, each pipeline object is assigned to the $_ automatic variable, one pipeline object at a time.</source>
+          <target state="translated">Блок Process, когда выполняется автоматическая переменная $_, один объект конвейера одновременно назначается каждого объекта конвейера.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>After the function receives all the objects in the pipeline, the End statement list runs one time.</source>
+          <target state="translated">После функции получает все объекты в конвейер, в конец списка операторов запускается один раз.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>If no Begin, Process, or End keywords are used, all the statements are treated like an End statement list.</source>
+          <target state="translated">Если используются ключевые слова не Begin, процесса или завершение, все операторы обрабатываются как конец списка операторов.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The following function uses the Process keyword.</source>
+          <target state="translated">Следующая функция использует ключевое слово процесса.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The function displays examples from the pipeline:</source>
+          <target state="translated">Функция отображает примеры из конвейера:</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>function Get-Pipeline { process {"The value is: $_"} }</source>
+          <target state="translated">функция Get-конвейер {процесс {» значение: $_»}}</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>To demonstrate this function, enter an list of numbers separated by commas, as shown in the following example:</source>
+          <target state="translated">Чтобы продемонстрировать эту функцию, введите список чисел, разделенных запятыми, как показано в следующем примере:</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; 1,2,4 | Get-Pipeline The value is: 1 The value is: 2 The value is: 4</source>
+          <target state="translated">C:\PS &gt; 1,2,4 | Значение — Get-конвейер: 1, значение равно: значение равно 2: 4</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>When you use a function in a pipeline, the objects piped to the function are assigned to the $input automatic variable.</source>
+          <target state="translated">При использовании функции в конвейере, объекты по конвейеру в функцию назначаются автоматической переменной $input.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The function runs statements with the Begin keyword before any objects come from the pipeline.</source>
+          <target state="translated">Функция запускает инструкции с помощью ключевого слова Begin перед все объекты взяты из конвейера.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The function runs statements with the End keyword after all the objects have been received from the pipeline.</source>
+          <target state="translated">Функция запускает инструкции с ключевым словом End после все объекты были получены из конвейера.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The following example shows the $input automatic variable with Begin and End keywords.</source>
+          <target state="translated">В следующем примере показано автоматической переменной $input с ключевыми словами Begin и End.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>function Get-PipelineBeginEnd { begin {"Begin: The input is $input"} end {"End:   The input is $input" } }</source>
+          <target state="translated">функции Get-PipelineBeginEnd {начать {» Begin: входные данные — $input»} end {«End: входные данные — $input»}}</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>If this function is run by using the pipeline, it displays the following results:</source>
+          <target state="translated">Если эта функция выполняется с помощью конвейера, на ней отображаются следующие результаты:</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; 1,2,4 | Get-PipelineBeginEnd Begin: The input is End:   The input is 1 2 4</source>
+          <target state="translated">C:\PS &gt; 1,2,4 | Начало Get PipelineBeginEnd: Входные данные — End: входные данные — 1 2 4</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>When the Begin statement runs, the function does not have the input from the pipeline.</source>
+          <target state="translated">При выполнении оператора Begin, функция не имеет входных данных из конвейера.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The End statement runs after the function has the values.</source>
+          <target state="translated">Оператор End выполняется после значения функции.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>If the function has a Process keyword, the function reads the data in $input.</source>
+          <target state="translated">Если функция имеет ключевое слово процесса, функция считывает данные в $input.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The following example has a Process statement list:</source>
+          <target state="translated">Следующий пример содержит список инструкций процесс:</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>function Get-PipelineInput { process {"Processing:  $_ " } end {"End:   The input is: $input" } }</source>
+          <target state="translated">функции Get-PipelineInput {процесс {» обработки: $_»} end {«End: входные данные —: $input»}}</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>In this example, each object that is piped to the function is sent to the Process statement list.</source>
+          <target state="translated">В этом примере каждый объект, который передается по конвейеру в функцию отправляется инструкция список процессов.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The Process statements run on each object, one object at a time.</source>
+          <target state="translated">Запуск обработки инструкций на каждый объект один объект за раз.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The $input automatic variable is empty when the function reaches the End keyword.</source>
+          <target state="translated">Автоматическую переменную $input пуст, когда функция достигает ключевое слово End.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; 1,2,4 | Get-PipelineInput Processing:  1 Processing:  2 Processing:  4 End:   The input is:</source>
+          <target state="translated">C:\PS &gt; 1,2,4 | Обработка Get PipelineInput: 1 обработка: 2 обработки: 4 окончания: входные данные:</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Filters A filter is a type of function that runs on each object in the pipeline.</source>
+          <target state="translated">Фильтры типа фильтра — это тип функции, которая выполняется для каждого объекта в конвейере.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>A filter resembles a function with all its statements in a Process block.</source>
+          <target state="translated">Фильтр напоминает функцию с ее инструкции в блок Process.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The syntax of a filter is as follows:</source>
+          <target state="translated">Синтаксис фильтра выглядит следующим образом:</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>filter [&lt;scope:&gt;]<ph id="ph1">&lt;name&gt;</ph> {<ph id="ph2">&lt;statement list&gt;</ph>}</source>
+          <target state="translated">Фильтр [&lt; области: &gt;]<ph id="ph1">&lt;name&gt;</ph> {<ph id="ph2">&lt;statement list&gt;</ph>}</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The following filter takes log entries from the pipeline and then displays either the whole entry or only the message portion of the entry:</source>
+          <target state="translated">Следующий фильтр принимает записи журнала из конвейера, а затем отображает запись целиком или только часть сообщения операции:</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>filter Get-ErrorLog ([switch]$message) { if ($message) { out-host -inputobject $<bpt id="p1">_</bpt>.Message } else { $<ept id="p1">_</ept> } }</source>
+          <target state="translated">Фильтрация Get-ErrorLog ([switch] $message) {Если ($message) {исходящей размещения - inputobject $<bpt id="p1">_</bpt>. Сообщение} else {$<ept id="p1">_</ept> }}</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Function Scope A function exists in the scope in which it was created.</source>
+          <target state="translated">Функция A области функция существует в области видимости, в которой он был создан.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>If a function is part of a script, the function is available to statements within that script.</source>
+          <target state="translated">Если функция является частью скрипта, функция доступна операторы внутри сценария.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>By default, a function in a script is not available at the command prompt.</source>
+          <target state="translated">По умолчанию функция сценария не доступны в командной строке.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>You can specify the scope of a function.</source>
+          <target state="translated">Можно указать область функции.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>For example, the function is added to the global scope in the following example:</source>
+          <target state="translated">Например функция добавляется в глобальную область, в следующем примере:</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>function global:Get-DependentSvs { Get-Service | where {$_.DependentServices} }</source>
+          <target state="translated">глобальные функции: Get-DependentSvs {Get-Service | где {$_. DependentServices}}</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>When a function is in the global scope, you can use the function in scripts, in functions, and at the command line.</source>
+          <target state="translated">Если функция находится в глобальной области, можно использовать функцию в сценарии, в функциях и из командной строки.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Functions normally create a scope.</source>
+          <target state="translated">Обычно функции создания области.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The items created in a function, such as variables, exist only in the function scope.</source>
+          <target state="translated">Элементы, созданные в функции, такие как переменные, существуют только в области видимости функции.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>For more information about scope in Windows PowerShell, see about_Scopes (http://go.microsoft.com/fwlink/?LinkID=113260).</source>
+          <target state="translated">Дополнительные сведения об области действия в Windows PowerShell см. в разделе about_Scopes (http://go.microsoft.com/fwlink/?LinkID=113260).</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Finding and Managing Functions Using the Function: Drive All the functions and filters in Windows PowerShell are automatically stored in the Function: drive.</source>
+          <target state="translated">Поиск и управление функции с помощью функции: диска все функции и фильтры в Windows PowerShell, автоматически сохраняются в функции: диск.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>This drive is exposed by the Windows PowerShell Function provider.</source>
+          <target state="translated">Этот диск предоставляется поставщиком функции Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>When referring to the Function: drive, type a colon after Function, just as you would do when referencing the C or D drive of a computer.</source>
+          <target state="translated">При ссылке на функцию: диск, введите двоеточие после функции, как это делается при ссылке на диске C и D компьютера.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The following command displays all the functions in the current session of Windows PowerShell:</source>
+          <target state="translated">Следующая команда отображает все функции в текущем сеансе Windows PowerShell:</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Get-ChildItem function:</source>
+          <target state="translated">Функция Get-ChildItem:</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>The commands in the function are stored as a script block in the definition property of the function.</source>
+          <target state="translated">Команды в функции хранятся как блок скрипта в свойстве определения функции.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>For example, to display the commands in the Help function that comes with Windows PowerShell, type:</source>
+          <target state="translated">Например чтобы отобразить команды в функции справки, которая поставляется с Windows PowerShell, введите:</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>(Get-ChildItem function:help).Definition</source>
+          <target state="translated">(Get-ChildItem функция: Справка). Определение</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>For more information about the Function: drive, see the help topic for the Function provider.</source>
+          <target state="translated">Дополнительные сведения о функции: диска, см. в разделе справки для функции поставщика.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Type "Get-Help Function" or view it in the TechNet Library at http://go.microsoft.com/fwlink/?LinkID=113436.</source>
+          <target state="translated">Введите «Get-Help Function» или просматривать его в библиотеке TechNet по адресу http://go.microsoft.com/fwlink/?LinkID=113436.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Reusing Functions in New Sessions When you type a function at the Windows PowerShell command prompt, the function becomes part of the current session.</source>
+          <target state="translated">Повторное использование функции в новых сеансов, если функция вводится в командной строке Windows PowerShell, функция становится частью текущего сеанса.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>It is available until the session ends.</source>
+          <target state="translated">Он доступен, пока не завершится сеанс.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>To use your function in all Windows PowerShell sessions, add the function to your Windows PowerShell profile.</source>
+          <target state="translated">Чтобы использовать функции во всех сеансах Windows PowerShell, добавьте функцию в профиль Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>For more information about profiles, see about_Profiles (http://go.microsoft.com/fwlink/?LinkID=113729).</source>
+          <target state="translated">Дополнительные сведения о профилях см. в разделе about_Profiles (http://go.microsoft.com/fwlink/?LinkID=113729).</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>You can also save your function in a Windows PowerShell script file.</source>
+          <target state="translated">Функции можно также сохранить в файл сценария Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Type your function in a text file, and then save the file with the .ps1 file name extension.</source>
+          <target state="translated">Введите функции в текстовый файл и сохраните файл с расширением .ps1.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Writing Help for Functions The Get-Help cmdlet gets help for functions, as well as for cmdlets, providers, and scripts.</source>
+          <target state="translated">Написание справки по командлету функции Get-Help возвращает справку для функции, а также для командлетов, поставщиков и сценариев.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>To get help for a function, type Get-Help followed by the function name.</source>
+          <target state="translated">Чтобы получить справку для функции, введите Get-Help, за которым следует имя функции.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>For example, to get help for the Get-MyDisks function, type:</source>
+          <target state="translated">Например чтобы получить справку для функции Get-MyDisks, введите:</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Get-Help Get-MyDisks</source>
+          <target state="translated">Get-Help Get-MyDisks</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>You can write help for a function by using either of the two following methods:</source>
+          <target state="translated">Справка для функции можно написать с помощью любого из двух следующих методов:</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>--  Comment-Based Help  for Functions</source>
+          <target state="translated">--Комментарий справки на основе функций</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Create a help topic by using special keywords in the comments.</source>
+          <target state="translated">Создайте раздел справки с помощью специальных ключевых слов в комментариях.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>To create comment-based help for a function, the comments must be placed at the beginning or end of the function body or on the lines preceding the function keyword.</source>
+          <target state="translated">Создание справки на основе комментариев для функции, комментарии должны размещаться в начале или конце тело функции или в строках, предшествующие ключевого слова function.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>For more information about comment-based help, see about_Comment_Based_Help.</source>
+          <target state="translated">Дополнительные сведения о справке на основе комментариев в разделе about_Comment_Based_Help.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>--  XML-Based Help  for Functions</source>
+          <target state="translated">--XML-справки для функций</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Create an XML-based help topic, such as the type that is typically created for cmdlets.</source>
+          <target state="translated">Создайте на основе XML раздела справки, такие как тип, который обычно создается для командлетов.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>XML-based help is required if you are localizing help topics into multiple languages.</source>
+          <target state="translated">Справка на основе XML является обязательным при локализации разделы справки на несколько языков.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>To associate the function with the XML-based help topic, use the .ExternalHelp comment-based help keyword.</source>
+          <target state="translated">Чтобы связать функцию с раздела справки на основе XML, используйте. Ключевое слово справки на основе комментариев ExternalHelp.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Without this keyword, Get-Help cannot find the function help topic and calls to Get-Help for the function return only auto-generated help.</source>
+          <target state="translated">Без этого ключевого слова Get-Help не удается найти раздел справки по функции и вызовы Get-Help для функции возвращают только автоматически созданную справку.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>For more information about the ExternalHelp keyword, see about_Comment_Based_Help.</source>
+          <target state="translated">Дополнительные сведения о ключевом слове ExternalHelp см. в разделе about_Comment_Based_Help.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>For more information about XML-based help, see "How to Write Cmdlet Help" in MSDN.</source>
+          <target state="translated">Дополнительные сведения о справке в формате XML в разделе «Как написание справки по командлету» в библиотеке MSDN.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>SEE ALSO</source>
+          <target state="translated">СМ. ТАКЖЕ</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>about_Automatic_Variables about_Comment_Based_Help about_Functions_Advanced about_Functions_Advanced_Methods about_Functions_Advanced_Parameters about_Functions_CmdletBindingAttribute about_Functions_OutputTypeAttribute about_Parameters about_Profiles about_Scopes about_Script_Blocks Function (provider)</source>
+          <target state="translated">about_Automatic_Variables about_Comment_Based_Help about_Functions_Advanced about_Functions_Advanced_Methods about_Functions_Advanced_Parameters about_Functions_CmdletBindingAttribute about_Functions_OutputTypeAttribute about_Parameters about_Profiles about_Scopes about_Script_Blocks функция (поставщик)</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

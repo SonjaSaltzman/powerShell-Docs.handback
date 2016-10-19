@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="fr-fr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c7fbb5622127778557f3230a1d39fc673bc9f2e7</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\About\about_Signing.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1dd3bde2e3f78181b2c01aeb93a1ef08f2eeadc2</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4e3f2a1ca6568e3429ba0c8a73ad62f95f3dd28e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>about_Signing</source>
+          <target state="translated">about_Signing</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">applet de commande PowerShell</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>About Signing</source>
+          <target state="translated">À propos de la signature</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>about_Signing</source>
+          <target state="translated">about_Signing</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>about_Signing</source>
+          <target state="translated">about_Signing</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">DESCRIPTION COURTE</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Explains how to sign scripts so that they comply with the Windows PowerShell execution policies.</source>
+          <target state="translated">Explique comment signer les scripts afin qu’ils respectent les stratégies d’exécution Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>LONG DESCRIPTION</source>
+          <target state="translated">DESCRIPTION DÉTAILLÉE</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The Restricted execution policy does not permit any scripts to run.</source>
+          <target state="translated">La stratégie d’exécution restreint n’autorise pas l’exécution des scripts.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The AllSigned and RemoteSigned execution policies prevent Windows PowerShell from running scripts that do not have a digital signature.</source>
+          <target state="translated">Les stratégies d’exécution AllSigned et RemoteSigned, empêchent l’exécution des scripts qui ne comportent pas de signature numérique Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This topic explains how to run selected scripts that are not signed, even while the execution policy is RemoteSigned, and how to sign scripts for your own use.</source>
+          <target state="translated">Cette rubrique explique comment exécuter des scripts sélectionnés ne sont pas signés, même si la stratégie d’exécution est RemoteSigned et la signature des scripts pour votre usage personnel.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For more information about Windows PowerShell execution policies, see about_Execution_Policy.</source>
+          <target state="translated">Pour plus d’informations sur les stratégies d’exécution Windows PowerShell, consultez about_Execution_Policy.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>TO PERMIT SIGNED SCRIPTS TO RUN</source>
+          <target state="translated">POUR AUTORISER DES SCRIPTS À EXÉCUTER SIGNÉS</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>When you start Windows PowerShell on a computer for the first time, the Restricted execution policy (the default) is likely to be in effect.</source>
+          <target state="translated">Lorsque vous démarrez Windows PowerShell sur un ordinateur pour la première fois, la stratégie d’exécution restreint (la valeur par défaut) est susceptible d’être en vigueur.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The Restricted policy does not permit any scripts to run.</source>
+          <target state="translated">La stratégie de restriction n’autorise pas l’exécution des scripts.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To find the effective execution policy on your computer, type:</source>
+          <target state="translated">Pour trouver la stratégie d’exécution en vigueur sur votre ordinateur, tapez :</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Get-ExecutionPolicy</source>
+          <target state="translated">Get-ExecutionPolicy</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To run unsigned scripts that you write on your local computer and signed scripts from other users, start Windows PowerShell with the Run as Administrator option and then use the following command to change the execution policy on the computer to RemoteSigned:</source>
+          <target state="translated">Pour exécuter des scripts non signés que vous écrivez sur votre ordinateur local et les scripts signés à partir d’autres utilisateurs, démarrez Windows PowerShell avec l’exécuter en tant qu’option de l’administrateur et utilisez ensuite la commande suivante pour modifier la stratégie d’exécution sur l’ordinateur sur RemoteSigned :</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Set-ExecutionPolicy RemoteSigned</source>
+          <target state="translated">Set-ExecutionPolicy RemoteSigned</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For more information, see the help topic for the Set-ExecutionPolicy cmdlet.</source>
+          <target state="translated">Pour plus d’informations, consultez la rubrique d’aide pour l’applet de commande Set-ExecutionPolicy.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>RUNNING UNSIGNED SCRIPTS (REMOTESIGNED EXECUTION POLICY)</source>
+          <target state="translated">EXÉCUTION DE SCRIPTS NON SIGNÉS (STRATÉGIE D’EXÉCUTION REMOTESIGNED)</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If your Windows PowerShell execution policy is RemoteSigned, Windows PowerShell will not run unsigned scripts that are downloaded from the Internet, including unsigned scripts you receive through e-mail and instant messaging programs.</source>
+          <target state="translated">Si votre stratégie d’exécution Windows PowerShell est RemoteSigned, Windows PowerShell n’exécutera pas les scripts non signés qui sont téléchargés à partir d’Internet, y compris les scripts non signés que vous recevez via courrier électronique et des programmes de messagerie instantanée.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If you try to run a downloaded script, Windows PowerShell displays the following error message:</source>
+          <target state="translated">Si vous essayez d’exécuter un script téléchargé, Windows PowerShell affiche le message d’erreur suivant :</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The file &lt;file-name&gt; cannot be loaded.</source>
+          <target state="translated">Impossible de charger le fichier &lt; nom_fichier &gt;.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The file &lt;file-name&gt; is not digitally signed.</source>
+          <target state="translated">Le fichier &lt; nom_fichier &gt; n’est pas signé numériquement.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The script will not execute on the system.</source>
+          <target state="translated">Le script ne s’exécute pas sur le système.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Please see "Get-Help about_Signing" for more details.</source>
+          <target state="translated">Consultez « Get-Help about_Signing » pour plus de détails.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Before you run the script, review the code to be sure that you trust it.</source>
+          <target state="translated">Avant d’exécuter le script, examinez le code pour vous assurer que vous avez des doutes.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Scripts have the same effect as any executable program.</source>
+          <target state="translated">Les scripts ont le même effet que tout programme exécutable.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To run an unsigned script, use the Unblock-File cmdlet or use the Following procedure.</source>
+          <target state="translated">Pour exécuter un script non signé, utilisez l’applet de commande Unblock-File ou utilisez la procédure suivante.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Save the script file on your computer.</source>
+          <target state="translated">Enregistrez le fichier de script sur votre ordinateur.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Click Start, click My Computer, and locate the saved script file.</source>
+          <target state="translated">Cliquez sur Démarrer, sur Poste de travail, puis recherchez le fichier de script enregistré.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Right-click the script file, and then click Properties.</source>
+          <target state="translated">Cliquez sur le fichier de script, puis cliquez sur Propriétés.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Click Unblock.</source>
+          <target state="translated">Cliquez sur Débloquer.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>If a script that was downloaded from the Internet is digitally signed, but you have not yet chosen to trust its publisher, Windows PowerShell displays the following message:</source>
+          <target state="translated">Si un script qui a été téléchargé depuis Internet est signé numériquement, mais vous n’avez pas encore choisi d’approuver son éditeur, Windows PowerShell affiche le message suivant :</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Do you want to run software from this untrusted publisher?</source>
+          <target state="translated">Vous souhaitez exécuter des logiciels de cet éditeur non approuvé ?</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The file &lt;file-name&gt; is published by CN=&lt;publisher-name&gt;.</source>
+          <target state="translated">Le fichier &lt; nom_fichier &gt; est publié par CN = &lt; nom du serveur de publication &gt;.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This publisher is not trusted on your system.</source>
+          <target state="translated">Ce serveur de publication n’est pas approuvé sur votre système.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Only run scripts from trusted publishers.</source>
+          <target state="translated">Exécuter uniquement des scripts à partir des éditeurs approuvés.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>[V] Never run  [D] Do not run  [R] Run once  [A] Always run [?] Help (default is "D"):</source>
+          <target state="translated">[V] jamais exécuter [D] ne s’exécutent pas [R] exécuter qu’une seule fois [A] toujours exécuter [ ?] Aide (valeur par défaut est « D ») :</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If you trust the publisher, select "Run once" or "Always run."</source>
+          <target state="translated">Si vous approuvez le serveur de publication, sélectionnez « À exécution unique » ou « Toujours exécuter ».</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>If you do not trust the publisher, select either "Never run" or "Do not run."</source>
+          <target state="translated">Si vous n’approuvez pas le serveur de publication, sélectionnez « Jamais exécuté » ou « Ne pas exécuter ».</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If you select "Never run" or "Always run," Windows PowerShell will not prompt you again for this publisher.</source>
+          <target state="translated">Si vous sélectionnez « Jamais exécuté » ou « Toujours exécuter », Windows PowerShell pas vous invitera à nouveau ce serveur de publication.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>METHODS OF SIGNING SCRIPTS</source>
+          <target state="translated">MÉTHODES DE SIGNATURE DES SCRIPTS</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You can sign the scripts that you write and the scripts that you obtain from other sources.</source>
+          <target state="translated">Vous pouvez signer les scripts que vous écrivez et les scripts que vous obtenez d’autres sources.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Before you sign any script, examine each command to verify that it is safe to run.</source>
+          <target state="translated">Avant de vous connecter à n’importe quel script, examinez chaque commande afin de vérifier qu’il est sûr d’exécuter.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>For best practices about code signing, see "Code-Signing Best Practices" at http://go.microsoft.com/fwlink/?LinkId=119096.</source>
+          <target state="translated">Pour des recommandations sur la signature de code, consultez « Signature du Code de meilleures pratiques » à http://go.microsoft.com/fwlink/?LinkId=119096.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For more information about how to sign a script file, see Set-AuthenticodeSignature.</source>
+          <target state="translated">Pour plus d’informations sur la signature d’un fichier de script, consultez Set-AuthenticodeSignature.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The New-SelfSignedCertificate cmdlet, introduced in the PKI module in Windows PowerShell 3.0, creates a self-signed certificate that is Appropriate for testing.</source>
+          <target state="translated">L’applet de commande New-SelfSignedCertificate, introduite dans le module de l’infrastructure à clé Publique dans Windows PowerShell 3.0, crée un certificat auto-signé qui est appropriée pour le test.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>For more information, see the help topic for the New-SelfSignedCertificate cmdlet.</source>
+          <target state="translated">Pour plus d’informations, consultez la rubrique d’aide pour l’applet de commande New-SelfSignedCertificate.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To add a digital signature to a script, you must sign it with a code signing certificate.</source>
+          <target state="translated">Pour ajouter une signature numérique à un script, vous devez le signer avec un certificat de signature de code.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Two types of certificates are suitable for signing a script file:</source>
+          <target state="translated">Deux types de certificats sont adaptés pour la signature d’un fichier de script :</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>-- Certificates that are created by a certification authority:</source>
+          <target state="translated">--Les certificats qui sont créés par une autorité de certification :</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>For a fee, a public certification authority verifies your identity and gives you a code signing certificate.</source>
+          <target state="translated">Pour un abonnement, une autorité de certification publique vérifie votre identité et vous donne un certificat de signature de code.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>When you purchase your certificate from a reputable certification authority, you are able to share your script with users on other computers that are running Windows because those other computers trust the certification authority.</source>
+          <target state="translated">Lorsque vous achetez votre certificat auprès d’une autorité de certification digne de confiance, vous pouvez partager votre script avec les utilisateurs sur d’autres ordinateurs qui exécutent Windows, car les autres ordinateurs approuvent l’autorité de certification.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>-- Certificates that you create:</source>
+          <target state="translated">--Les certificats que vous créez :</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>You can create a self-signed certificate for which your computer is the authority that creates the certificate.</source>
+          <target state="translated">Vous pouvez créer un certificat auto-signé pour laquelle votre ordinateur est l’autorité qui crée le certificat.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>This certificate is free of charge and enables you to write, sign, and run scripts on your computer.</source>
+          <target state="translated">Ce certificat est gratuit et vous permet d’écrire, signer et exécuter des scripts sur votre ordinateur.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>However, a script signed by a self-signed certificate will not run on other computers.</source>
+          <target state="translated">Toutefois, un script signé par un certificat auto-signé ne s’exécutera pas sur d’autres ordinateurs.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Typically, you would use a self-signed certificate only to sign scripts that you write for your own use and to sign scripts that you get from other sources that you have verified to be safe.</source>
+          <target state="translated">En règle générale, vous utiliseriez un certificat auto-signé uniquement pour signer des scripts que vous écrivez pour votre usage personnel et aux scripts de connexion que vous obtenez d’autres sources que vous avez vérifié pour plus de sécurité.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>It is not appropriate for scripts that will be shared, even within an enterprise.</source>
+          <target state="translated">Il n’est pas approprié pour les scripts qui seront partagées, même au sein d’une entreprise.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>If you create a self-signed certificate, be sure to enable strong private key protection on your certificate.</source>
+          <target state="translated">Si vous créez un certificat auto-signé, veillez à activer la protection renforcée par clé privée sur votre certificat.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>This prevents malicious programs from signing scripts on your behalf.</source>
+          <target state="translated">Cela empêche les programmes malveillants à partir de la signature des scripts à votre place.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The instructions are included at the end of this topic.</source>
+          <target state="translated">Les instructions sont indiquées à la fin de cette rubrique.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>CREATE A SELF-SIGNED CERTIFICATE</source>
+          <target state="translated">CRÉER UN CERTIFICAT AUTO-SIGNÉ</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>To create a self-signed certificate in use the New-SelfSignedCertificate cmdlet in the PKI module.</source>
+          <target state="translated">Pour créer un certificat auto-signé en cours d’utilisation de l’applet de commande New-SelfSignedCertificate dans le module de l’infrastructure à clé Publique.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>This module is introduced in Windows PowerShell 3.0 and is included in Windows 8 and Windows Server 2012.</source>
+          <target state="translated">Ce module a été introduit dans Windows PowerShell 3.0 et est inclus dans Windows 8 et Windows Server 2012.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>For more information, see the help topic for the New-SelfSignedCertificate cmdlet.</source>
+          <target state="translated">Pour plus d’informations, consultez la rubrique d’aide pour l’applet de commande New-SelfSignedCertificate.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>To create a self-signed certificate in earlier versions of Windows, use the Certificate Creation tool (MakeCert.exe).</source>
+          <target state="translated">Pour créer un certificat auto-signé dans les versions antérieures de Windows, utilisez l’outil Certificate Creation (MakeCert.exe).</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This  tool is included in the Microsoft .NET Framework SDK (versions 1.1 and later) and in the Microsoft Windows SDK.</source>
+          <target state="translated">Cet outil est inclus dans le SDK Microsoft .NET Framework (versions 1.1 et ultérieures) et dans le SDK Microsoft Windows.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>For more information about the syntax and the parameter descriptions of the MakeCert.exe tool, see "Certificate Creation Tool (MakeCert.exe)" in the MSDN (Microsoft Developer Network) library at http://go.microsoft.com/fwlink/?LinkId=119097.</source>
+          <target state="translated">Pour plus d’informations sur la syntaxe et les descriptions des paramètres de l’outil MakeCert.exe, consultez « Certificate Creation Tool (MakeCert.exe) » dans la bibliothèque MSDN (Microsoft Developer Network) à l’http://go.microsoft.com/fwlink/?LinkId=119097.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>To use the MakeCert.exe tool to create a certificate, run the following commands in an SDK Command Prompt window.</source>
+          <target state="translated">Pour utiliser l’outil MakeCert.exe pour créer un certificat, exécutez les commandes suivantes dans une fenêtre d’invite de commandes SDK.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Note: The first command creates a local certification authority for your computer.</source>
+          <target state="translated">Remarque : La première commande crée une autorité de certification locale pour votre ordinateur.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The second command generates a personal certificate from the certification authority.</source>
+          <target state="translated">La deuxième commande génère un certificat personnel à partir de l’autorité de certification.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Note: You can copy or type the commands exactly as they appear.</source>
+          <target state="translated">Remarque : Vous pouvez copier ou tapez les commandes telles qu’elles apparaissent.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>No substitutions are necessary, although you can change the certificate name.</source>
+          <target state="translated">Aucun remplacement n’est nécessaires, vous pouvez modifier le nom du certificat.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>makecert -n "CN=PowerShell Local Certificate Root" -a sha1 <ph id="ph1">`
+-eku 1.3.6.1.5.5.7.3.3 -r -sv root.pvk root.cer `</ph> -ss Root -sr localMachine</source>
+          <target state="translated">n - MakeCert « CN = PowerShell Local certificat racine »-sha1 <ph id="ph1">`
+-eku 1.3.6.1.5.5.7.3.3 -r -sv root.pvk root.cer `</ph> -ss racine -sr localMachine</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>makecert -pe -n "CN=PowerShell User" -ss MY -a sha1 ` -eku 1.3.6.1.5.5.7.3.3 -iv root.pvk -ic root.cer</source>
+          <target state="translated">Makecert-n - pe « CN = utilisateur PowerShell « -ss MY-sha1 ' - eku 1.3.6.1.5.5.7.3.3 iv - root.pvk -ic root.cer</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The MakeCert.exe tool will prompt you for a private key password.</source>
+          <target state="translated">L’outil MakeCert.exe vous demandera un mot de passe de clé privée.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The password ensures that no one can use or access the certificate without your consent.</source>
+          <target state="translated">Le mot de passe permet de s’assurer que personne ne peut utiliser ou accéder au certificat sans votre consentement.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Create and enter a password that you can remember.</source>
+          <target state="translated">Créez et entrez un mot de passe à mémoriser.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>You will use this password later to retrieve the certificate.</source>
+          <target state="translated">Vous utiliserez ce mot de passe ultérieurement pour récupérer le certificat.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>To verify that the certificate was generated correctly, use the following command to get the certificate in the certificate store on the computer.</source>
+          <target state="translated">Pour vérifier que le certificat a été généré correctement, utilisez la commande suivante pour obtenir le certificat dans le magasin de certificats sur l’ordinateur.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>(You will not find a certificate file in the file system directory.)</source>
+          <target state="translated">(Vous ne serez pas trouver un fichier de certificat dans le répertoire du système de fichiers).</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>At the Windows PowerShell prompt, type:</source>
+          <target state="translated">À l’invite Windows PowerShell, tapez :</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>get-childitem cert:\CurrentUser\my -codesigning</source>
+          <target state="translated">get-childitem cert : \CurrentUser\my-resynchronisée</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>This command uses the Windows PowerShell Certificate provider to view information about the certificate.</source>
+          <target state="translated">Cette commande utilise le fournisseur de certificats de Windows PowerShell pour afficher des informations sur le certificat.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>If the certificate was created, the output shows the thumbprint that identifies the certificate in a display that resembles the following:</source>
+          <target state="translated">Si le certificat a été créé, la sortie indique l’empreinte numérique qui identifie le certificat dans un affichage semblable à la suivante :</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Directory: Microsoft.PowerShell.Security\Certificate::CurrentUser\My</source>
+          <target state="translated">Répertoire : Microsoft.PowerShell.Security\Certificate::CurrentUser\My</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Thumbprint                                Subject</source>
+          <target state="translated">Objet de l’empreinte numérique</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>4D4917CB140714BA5B81B96E0B18AAF2C4564FDF  CN=PowerShell User ]</source>
+          <target state="translated">4D4917CB140714BA5B81B96E0B18AAF2C4564FDF CN = utilisateur PowerShell]</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>SIGN A SCRIPT</source>
+          <target state="translated">SIGNER UN SCRIPT</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>After you create a self-signed certificate, you can sign scripts.</source>
+          <target state="translated">Après avoir créé un certificat auto-signé, vous pouvez signer les scripts.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>If you use the AllSigned execution policy, signing a script permits you to run the script on your computer.</source>
+          <target state="translated">Si vous utilisez la stratégie d’exécution AllSigned, signer un script permet d’exécuter le script sur votre ordinateur.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The following sample script, Add-Signature.ps1, signs a script.</source>
+          <target state="translated">L’exemple de script suivant, Add-Signature.ps1, connecte à un script.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>However, if you are using the AllSigned execution policy, you must sign the Add-Signature.ps1 script before you run it.</source>
+          <target state="translated">Toutefois, si vous utilisez la stratégie d’exécution AllSigned, vous devez signer le script Add-Signature.ps1 avant de l’exécuter.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>To use this script, copy the following text into a text file, and name it Add-Signature.ps1.</source>
+          <target state="translated">Pour utiliser ce script, copiez le texte suivant dans un fichier texte et nommez-le Add-Signature.ps1.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Note: Be sure that the script file does not have a .txt file name extension.</source>
+          <target state="translated">Remarque : Assurez-vous que le fichier de script n’a pas une extension de nom de fichier .txt.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>If your text editor appends ".txt", enclose the file name in quotation marks: "add-signature.ps1".</source>
+          <target state="translated">Si votre éditeur de texte ajoute « .txt », placez le nom de fichier entre guillemets : « Ajouter-signature.ps1 ».</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>add-signature.ps1</source>
+          <target state="translated">signature.ps1 ajouter</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Signs a file</source>
+          <target state="translated">Signe un fichier</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>param([string] $file=$(throw "Please specify a filename.")) $cert = @(Get-ChildItem cert:\CurrentUser\My -codesigning)[0] Set-AuthenticodeSignature $file $cert</source>
+          <target state="translated">Param ([string] $file = $(lever «. Spécifiez un nom de fichier.")) $cert = @(Get-ChildItem cert : \CurrentUser\My-signature de codes) [0] Set-AuthenticodeSignature $file $cert</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>To sign the Add-Signature.ps1 script file, type the following commands at the Windows PowerShell command prompt:</source>
+          <target state="translated">Pour signer le fichier de script Add-Signature.ps1, tapez les commandes suivantes à l’invite de commandes Windows PowerShell :</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>$cert = @(Get-ChildItem cert:\CurrentUser\My -codesigning)[0]</source>
+          <target state="translated">$cert = @(get-ChildItem cert : \CurrentUser\My-signature de codes) [0]</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Set-AuthenticodeSignature add-signature.ps1 $cert</source>
+          <target state="translated">Set-AuthenticodeSignature Ajouter-signature.ps1 $cert</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>After the script is signed, you can run it on the local computer.</source>
+          <target state="translated">Une fois que le script s’est connecté, vous pouvez l’exécuter sur l’ordinateur local.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>However, the script will not run on computers on which the Windows PowerShell execution policy requires a digital signature from a trusted authority.</source>
+          <target state="translated">Toutefois, le script ne s’exécutera pas sur les ordinateurs sur lesquels la stratégie d’exécution Windows PowerShell nécessite une signature numérique d’une autorité approuvée.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>If you try, Windows PowerShell displays the following error message:</source>
+          <target state="translated">Si vous essayez, Windows PowerShell affiche le message d’erreur suivant :</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The file C:\remote_file.ps1 cannot be loaded.</source>
+          <target state="translated">Impossible de charger le fichier C:\remote_file.ps1.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The signature of the certificate cannot be verified.</source>
+          <target state="translated">Impossible de vérifier la signature du certificat.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>At line:1 char:15</source>
+          <target state="translated">Ligne : 1 char : 15</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>.\ remote_file.ps1 &lt;&lt;&lt;&lt;</source>
+          <target state="translated">. \ remote_file.ps1 &lt;&lt;&lt;&lt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>If Windows PowerShell displays this message when you run a script that you did not write, treat the file as you would treat any unsigned script.</source>
+          <target state="translated">Si Windows PowerShell affiche ce message lorsque vous exécutez un script que vous n’avez pas écrit, traiter le fichier comme vous traiteriez tous les scripts non signés.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Review the code to determine whether you can trust the script.</source>
+          <target state="translated">Examinez le code pour déterminer si vous pouvez faire confiance au script.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>ENABLE STRONG PRIVATE KEY PROTECTION FOR YOUR CERTIFICATE</source>
+          <target state="translated">ACTIVER LA PROTECTION DE VOTRE CERTIFICAT DE CLÉ PRIVÉE FORTE</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>If you have a private certificate on your computer, malicious programs might be able to sign scripts on your behalf, which authorizes Windows PowerShell to run them.</source>
+          <target state="translated">Si vous avez un certificat privé sur votre ordinateur, des programmes malveillants peuvent être en mesure de signer les scripts à votre place, ce qui autorise Windows PowerShell pour les exécuter.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>To prevent automated signing on your behalf, use Certificate Manager (Certmgr.exe) to export your signing certificate to a .pfx file.</source>
+          <target state="translated">Pour empêcher la signature automatique en votre nom, utilisez Certificate Manager (Certmgr.exe) pour exporter le certificat de signature dans un fichier .pfx.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Certificate Manager is included in the Microsoft .NET Framework SDK, the Microsoft Windows SDK, and in Internet Explorer 5.0 and later versions.</source>
+          <target state="translated">Le Gestionnaire de certificats est incluses dans Microsoft .NET Framework SDK, le SDK Microsoft Windows et dans Internet Explorer 5.0 et versions ultérieures.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>To export the certificate:</source>
+          <target state="translated">Pour exporter le certificat :</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Start Certificate Manager.</source>
+          <target state="translated">Démarrez le Gestionnaire de certificat.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Select the certificate issued by PowerShell Local Certificate Root.</source>
+          <target state="translated">Sélectionnez le certificat émis par PowerShell Local certificat racine.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Click Export to start the Certificate Export Wizard.</source>
+          <target state="translated">Cliquez sur Exporter pour lancer l’Assistant Exportation de certificat.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Select "Yes, export the private key", and then click Next.</source>
+          <target state="translated">Sélectionnez « Oui, exporter la clé privée », puis cliquez sur Suivant.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Select "Enable strong protection."</source>
+          <target state="translated">Sélectionnez « Activer la protection renforcée ».</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Type a password, and then type it again to confirm.</source>
+          <target state="translated">Tapez un mot de passe et tapez à nouveau pour le confirmer.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Type a file name that has the .pfx file name extension.</source>
+          <target state="translated">Tapez un nom de fichier ayant l’extension de nom de fichier .pfx.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Click Finish.</source>
+          <target state="translated">Cliquez sur Terminer.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>To re-import the certificate:</source>
+          <target state="translated">Pour importer de nouveau le certificat :</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Start Certificate Manager.</source>
+          <target state="translated">Démarrez le Gestionnaire de certificat.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Click Import to start the Certificate Import Wizard.</source>
+          <target state="translated">Cliquez sur Importer pour démarrer l’Assistant Importation de certificat.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Open to the location of the .pfx file that you created during the export process.</source>
+          <target state="translated">Ouvrir à l’emplacement du fichier .pfx que vous avez créé au cours du processus d’exportation.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>On the Password page, select "Enable strong private key protection", and then enter the password that you assigned during the export process.</source>
+          <target state="translated">Dans la page mot de passe, sélectionnez « Activer la protection renforcée par clé privée », puis entrez le mot de passe que vous avez affecté pendant le processus d’exportation.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Select the Personal certificate store.</source>
+          <target state="translated">Sélectionnez le magasin de certificats personnel.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Click Finish.</source>
+          <target state="translated">Cliquez sur Terminer.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>PREVENT THE SIGNATURE FROM EXPIRING</source>
+          <target state="translated">EMPÊCHER L’EXPIRATION DE LA SIGNATURE</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The digital signature in a script is valid until the signing certificate expires or as long as a time stamp server can verify that the script was signed while the signing certificate was valid.</source>
+          <target state="translated">La signature numérique dans un script est valide jusqu'à ce que l’expiration du certificat de signature ou si un serveur d’horodatage peut vérifier que le script a été signé lors de la signature du certificat était valide.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Because most signing certificates are valid for one year only, using a time stamp server ensures that users can use your script for many years to come.</source>
+          <target state="translated">Étant donné que la plupart des certificats de signature sont valides pour une année seulement, à l’aide d’un serveur d’horodatage garantit que les utilisateurs peuvent utiliser votre script depuis de nombreuses années à venir.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>SEE ALSO</source>
+          <target state="translated">VOIR AUSSI</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>about_Execution_Policies about_Profiles Get-ExecutionPolicy New-SelfSignedCertificate Set-ExecutionPolicy Set-AuthenticodeSignature "Introduction to Code Signing" (http://go.microsoft.com/fwlink/?LinkId=106296)</source>
+          <target state="translated">about_Execution_Policies about_Profiles Get-ExecutionPolicy New-SelfSignedCertificate Set-ExecutionPolicy Set-AuthenticodeSignature « Introduction to Code Signing » (http://go.microsoft.com/fwlink/?LinkId=106296)</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">53a4bed95418e1ca96a83be44848c160b6a2e556</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Core\Providers\Variable-Provider.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5176e6823e3e907835b07cbf27f9de872ebcbb14</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2eab9379cf9017b4154fb09d1149164d72b5f5ec</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Variable Provider</source>
+          <target state="translated">變數提供者</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Variable Provider</source>
+          <target state="translated">變數提供者</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>PROVIDER NAME</source>
+          <target state="translated">提供者名稱</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Variable</source>
+          <target state="translated">變數</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>DRIVES</source>
+          <target state="translated">磁碟機</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Variable:</source>
+          <target state="translated">Variable:</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">簡短描述</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Provides access to the Windows PowerShell variables and to their values.</source>
+          <target state="translated">提供 Windows PowerShell 變數及其值的存取。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DETAILED DESCRIPTION</source>
+          <target state="translated">詳細描述</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell Variable provider lets you get, add, change, clear, and delete Windows PowerShell variables in the current console.</source>
+          <target state="translated">Windows PowerShell 變數提供者可讓您取得、新增、變更、清除及刪除目前主控台中的 Windows PowerShell 變數。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell Variable provider supports the variables that Windows PowerShell creates, including the automatic variables, the preference variables, and the variables that you create.</source>
+          <target state="translated">Windows PowerShell 變數提供者支援 Windows PowerShell 建立的變數 (包括自動變數與喜好設定變數)，以及您所建立的變數。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The Variable provider is a flat namespace that contains only the variable objects.</source>
+          <target state="translated">變數提供者是只包含變數物件的一般命名空間。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The variables have no child items.</source>
+          <target state="translated">變數沒有任何子項目。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Most of the variables are instances of the System.Management.Automation.PSVariable class.</source>
+          <target state="translated">大部分的變數都是 System.Management.Automation.PSVariable 類別的執行個體。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>However, there are some variations.</source>
+          <target state="translated">不過，有一些變化。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For example, the "?" variable is a member of the QuestionMarkVariable class, and the "MaximumVariableCount" variable is a member of the SessionStateCapacityVariable class.</source>
+          <target state="translated">例如，"?" 變數是 QuestionMarkVariable 類別的成員，而 "MaximumVariableCount" 變數是 SessionStateCapacityVariable 類別的成員。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The Variable provider exposes its data store in the Variable: drive.</source>
+          <target state="translated">變數提供者會在 Variable: 磁碟機中公開它的資料存放區。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To work with variables, you can change your location to the Variable: drive <ph id="ph1">\(</ph>"set<ph id="ph2">\-</ph>location variable:"<ph id="ph3">\)</ph>, or you can work from any other Windows PowerShell drive.</source>
+          <target state="translated">若要使用變數，您可以將位置變更變數︰ 磁碟機 <ph id="ph1">\(</ph>」 設定<ph id="ph2">\-</ph>位置變數:"<ph id="ph3">\)</ph>, ，或者您可以從任何其他 Windows PowerShell 磁碟機。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To reference a variable from another location, use the drive name <ph id="ph1">\(</ph>Variable:<ph id="ph2">\)</ph> in the path.</source>
+          <target state="translated">若要從其他位置參照變數，使用 [磁碟機名稱 <ph id="ph1">\(</ph>變數︰<ph id="ph2">\)</ph> 路徑中。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell includes a set of cmdlets designed especially to view and to change variables:</source>
+          <target state="translated">Windows PowerShell 包含一組特別設計來檢視和變更變數的 Cmdlet：</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>Variable</source>
+          <target state="translated">取得<ph id="ph1">\-</ph>變數</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>New<ph id="ph1">\-</ph>Variable</source>
+          <target state="translated">新<ph id="ph1">\-</ph>變數</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Set<ph id="ph1">\-</ph>Variable</source>
+          <target state="translated">設定<ph id="ph1">\-</ph>變數</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Remove<ph id="ph1">\-</ph>Variable</source>
+          <target state="translated">移除<ph id="ph1">\-</ph>變數</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Clear<ph id="ph1">\-</ph>Variable</source>
+          <target state="translated">清除<ph id="ph1">\-</ph>變數</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>When you use these cmdlets, you do not need to specify the Variable: drive in the name.</source>
+          <target state="translated">當您使用這些 Cmdlet 時，不需要在名稱中指定 Variable: 磁碟機。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The Variable provider supports all of the cmdlets whose names contain the Item noun <ph id="ph1">\(</ph>the Item cmdlets<ph id="ph2">\)</ph>, except for <bpt id="p1">[</bpt>Invoke<ph id="ph3">\-</ph>Item &amp;#91;m2&amp;#93;<ept id="p1">](assetId:///38a9887b-ce1a-4bde-be4e-98012efae204)</ept>.</source>
+          <target state="translated">變數提供者支援的所有名稱包含 Item 名詞的 cmdlet <ph id="ph1">\(</ph>Item cmdlet<ph id="ph2">\)</ph>, ，除了 <bpt id="p1">[</bpt>Invoke<ph id="ph3">\-</ph>項目 #91; m2 &amp;#93;<ept id="p1">](assetId:///38a9887b-ce1a-4bde-be4e-98012efae204)</ept>。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The Variable provider supports the <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Content &amp;#91;m2&amp;#93;<ept id="p1">](assetId:///86d8b4af-af2c-4a27-9519-2c9fd420be3d)</ept> and <bpt id="p2">[</bpt>Set<ph id="ph2">\-</ph>Content &amp;#91;m2&amp;#93;<ept id="p2">](assetId:///6fff9b86-86df-4440-b7b7-8124b22088fc)</ept> cmdlets.</source>
+          <target state="translated">變數提供者支援 <bpt id="p1">[</bpt>取得<ph id="ph1">\-</ph>內容 #91; m2 &amp;#93;<ept id="p1">](assetId:///86d8b4af-af2c-4a27-9519-2c9fd420be3d)</ept> 和 <bpt id="p2">[</bpt>設定<ph id="ph2">\-</ph>內容 #91; m2 &amp;#93;<ept id="p2">](assetId:///6fff9b86-86df-4440-b7b7-8124b22088fc)</ept> 指令程式。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>However, it does not support the cmdlets whose names contain the ItemProperty noun <ph id="ph1">\(</ph>the ItemProperty cmdlets<ph id="ph2">\)</ph>, and it does not support the Filter parameter in any cmdlet.</source>
+          <target state="translated">不過，不支援名稱包含 ItemProperty 名詞的 cmdlet <ph id="ph1">\(</ph>ItemProperty cmdlet<ph id="ph2">\)</ph>, ，而且它不支援任何 cmdlet 中 Filter 參數。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You can also use the Windows PowerShell expression parser to create, view, and change the values of variables without using the cmdlets.</source>
+          <target state="translated">您也可以使用 Windows PowerShell 運算式剖析器來建立、檢視和變更變數的值，而不使用 Cmdlet。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>When working with variables directly, use a dollar sign <ph id="ph1">\($\)</ph> to identify the name as a variable and the assignment operator <ph id="ph2">\(\=\)</ph> to establish and change its value.</source>
+          <target state="translated">當直接使用變數，使用貨幣符號 <ph id="ph1">\($\)</ph> 識別名稱做為變數，並指派運算子 <ph id="ph2">\(\=\)</ph> 來建立及變更其值。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For example, "$p <ph id="ph1">\=</ph> <bpt id="p1">[</bpt>Get<ph id="ph2">\-</ph>Process &amp;#91;m2&amp;#93;<ept id="p1">](assetId:///27a05dbd-4b69-48a3-8d55-b295f6225f15)</ept>" creates the "p" variable and stores the results of a "<bpt id="p2">[</bpt>Get<ph id="ph3">\-</ph>Process &amp;#91;m2&amp;#93;<ept id="p2">](assetId:///27a05dbd-4b69-48a3-8d55-b295f6225f15)</ept>" command in it.</source>
+          <target state="translated">比方說，「 $p <ph id="ph1">\=</ph> <bpt id="p1">[</bpt>取得<ph id="ph2">\-</ph>程序 #91; m2 &amp;#93;<ept id="p1">](assetId:///27a05dbd-4b69-48a3-8d55-b295f6225f15)</ept>」 會建立"p"變數，並儲存結果的 「<bpt id="p2">[</bpt>取得<ph id="ph3">\-</ph>程序 #91; m2 &amp;#93;<ept id="p2">](assetId:///27a05dbd-4b69-48a3-8d55-b295f6225f15)</ept>」 命令中。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>All changes to the variables affect the current session only.</source>
+          <target state="translated">對變數所做的所有變更只會影響目前的工作階段。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To save the changes, add the changes to the Windows PowerShell profile, or use <bpt id="p1">[</bpt>Export<ph id="ph1">\-</ph>Console &amp;#91;m2&amp;#93;<ept id="p1">](assetId:///0858eece-ddcb-4525-89d1-4732c5f54c48)</ept> to save the current console.</source>
+          <target state="translated">若要儲存所做的變更，將變更新增至 Windows PowerShell 設定檔，或使用 <bpt id="p1">[</bpt>匯出<ph id="ph1">\-</ph>主控台 #91; m2 &amp;#93;<ept id="p1">](assetId:///0858eece-ddcb-4525-89d1-4732c5f54c48)</ept> 來儲存目前的主控台。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>CAPABILITIES</source>
+          <target state="translated">功能</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>ShouldProcess</source>
+          <target state="translated">ShouldProcess</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">範例</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Getting to the Variable: Drive</source>
+          <target state="translated">連到 Variable︰ 磁碟機</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">範例 1</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This command changes the current location to the Variable: drive.</source>
+          <target state="translated">此命令會將目前的位置變更為 Variable: 磁碟機。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>You can use this command from any drive in Windows PowerShell.</source>
+          <target state="translated">您可以從 Windows PowerShell 中的任何磁碟機使用此命令。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To return to a file system drive, type the drive name.</source>
+          <target state="translated">若要返回檔案系統磁碟機，請輸入磁碟機名稱。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>For example, type "set<ph id="ph1">\-</ph>location c:".</source>
+          <target state="translated">例如，輸入 「 設定<ph id="ph1">\-</ph>位置 c:"。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Displaying the Value of Variables</source>
+          <target state="translated">顯示變數的值</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">範例 1</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This command gets the list of all the variables and their values in the current session.</source>
+          <target state="translated">此命令會取得目前工作階段中所有變數及其值的清單。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>You can use this command from any Windows PowerShell drive.</source>
+          <target state="translated">您可以從任何 Windows PowerShell 磁碟機使用此命令。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">範例 2</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This command gets the variables with names that begin with "max".</source>
+          <target state="translated">此命令會取得名稱以 "max" 開頭的變數。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>You can use this command from any Windows PowerShell drive.</source>
+          <target state="translated">您可以從任何 Windows PowerShell 磁碟機使用此命令。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>If you are in the Variable: drive, you can omit the drive name from the path.</source>
+          <target state="translated">如果您是在 Variable: 磁碟機中，就可以省略路徑中的磁碟機名稱。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 3</source>
+          <target state="translated">範例 3</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This command gets the value of the WhatIfPreference variable by typing it at the command line.</source>
+          <target state="translated">此命令是藉由在命令列中輸入 WhatIfPreference 變數來取得它的值。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The name of the variable is preceded by a dollar sign <ph id="ph1">\($\)</ph> to indicate that it is a variable.</source>
+          <target state="translated">變數的名稱會加上錢幣符號 <ph id="ph1">\($\)</ph> 表示它是一個變數。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The Variable: drive name is not specified.</source>
+          <target state="translated">未指定 Variable: 磁碟機名稱。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 4</source>
+          <target state="translated">範例 4</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>This command uses the LiteralPath parameter of Get<ph id="ph1">\-</ph>ChildItem to get the value of the "?" variable from within the Variable: drive.</source>
+          <target state="translated">此命令會使用 Get 的 LiteralPath 參數<ph id="ph1">\-</ph>Get-childitem 以取得的值"？"變數的變數︰ 磁碟機。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>ChildItem does not attempt to resolve any wildcards in the values of the LiteralPath parameter.</source>
+          <target state="translated">取得<ph id="ph1">\-</ph>Get-childitem 不會嘗試解析 LiteralPath 參數值中的任何萬用字元。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To display the value of a variable with a special character name without a cmdlet, type a dollar sign <ph id="ph1">\($\)</ph> and the variable name.</source>
+          <target state="translated">若要顯示特殊字元的名稱，而不是 cmdlet 的變數值，請輸入貨幣符號 <ph id="ph1">\($\)</ph> 和變數的名稱。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>For example, to display the value of the "?" variable, type "$?".</source>
+          <target state="translated">例如，若要顯示 "?" 變數的值，請輸入 "$?"。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 5</source>
+          <target state="translated">範例 5</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This command gets the variables that have the values of "ReadOnly" or "Constant" for their Options property.</source>
+          <target state="translated">此命令會取得 Options 屬性值為 "ReadOnly" 或 "Constant" 的變數。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Creating a New Variable</source>
+          <target state="translated">建立新變數</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">範例 1</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This command creates the "services" variable and stores the results of a Get<ph id="ph1">\-</ph>Service command in it.</source>
+          <target state="translated">此命令會建立 「 服務 」 變數，並儲存結果的 Get<ph id="ph1">\-</ph>服務中的命令。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Because the current location is in the Variable: drive, the value of the Path parameter is a dot <ph id="ph1">\(</ph>.<ph id="ph2">\)</ph>, which represents the current location.</source>
+          <target state="translated">因為目前的位置是在變數中︰ 磁碟機，Path 參數的值是一個點 <ph id="ph1">\(</ph>。<ph id="ph2">\)</ph>, ，代表目前的位置。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The parentheses around the Get<ph id="ph1">\-</ph>Service command ensure that the command is executed before the variable is created.</source>
+          <target state="translated">Get 前後的括號<ph id="ph1">\-</ph>服務命令可讓您確保建立變數之前執行的命令。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Without the parentheses, the value of the new variable is a "Get<ph id="ph1">\-</ph>Service" string.</source>
+          <target state="translated">沒有括號，新變數的值是 「 Get<ph id="ph1">\-</ph>服務 」 字串。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>If you are not in the variable: drive, include the Variable: drive name in the path.</source>
+          <target state="translated">如果您不在 Variable: 磁碟機中，請在路徑中包含 Variable: 磁碟機名稱。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">範例 2</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This command creates a "services" variable and stores the result of a Get<ph id="ph1">\-</ph>Service command in it.</source>
+          <target state="translated">此命令會建立 「 服務 」 變數，然後儲存結果的 Get<ph id="ph1">\-</ph>服務中的命令。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The command uses a dollar sign <ph id="ph1">\($\)</ph> to indicate a variable and the assignment operator <ph id="ph2">\(\=\)</ph> to assign the result of the Get<ph id="ph3">\-</ph>Service command to the newly created variable.</source>
+          <target state="translated">此命令會使用貨幣符號 <ph id="ph1">\($\)</ph> 表示變數，並指派運算子 <ph id="ph2">\(\=\)</ph> 取得的結果指派至<ph id="ph3">\-</ph>服務命令來建立新的變數。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>To create a variable without a value, omit the assignment operator.</source>
+          <target state="translated">若要建立不含值的變數，請省略指派運算子。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Displaying the Properties and Methods of Variables</source>
+          <target state="translated">顯示變數的屬性和方法</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">範例 1</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>This command uses the Get<ph id="ph1">\-</ph>Item cmdlet to get all variables.</source>
+          <target state="translated">此命令會使用 Get<ph id="ph1">\-</ph>項目 cmdlet 來取得所有變數。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The pipeline operator <ph id="ph1">\(</ph>&amp;#124;<ph id="ph2">\)</ph> sends the results to the Get<ph id="ph3">\-</ph>Member cmdlet, which displays the methods and properties of the object.</source>
+          <target state="translated">管線運算子 <ph id="ph1">\(</ph>&amp;#124;<ph id="ph2">\)</ph> 將結果傳送至<ph id="ph3">\-</ph>成員指令程式，以顯示方法和物件的屬性。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>When you pipe a collection of objects <ph id="ph1">\(</ph>such as the collection of variables in the Variable: drive<ph id="ph2">\)</ph> to Get<ph id="ph3">\-</ph>Member, Get<ph id="ph4">\-</ph>Member evaluates each object in the collection separately and returns information about each of the object types that it finds.</source>
+          <target state="translated">當您使用管線傳送物件的集合 <ph id="ph1">\(</ph>等變數中的變數集合︰ 磁碟機<ph id="ph2">\)</ph> 取得<ph id="ph3">\-</ph>成員，取得<ph id="ph4">\-</ph>成員會個別評估集合中的每個物件並傳回每個找到的物件類型的相關資訊。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>To get information about the collection of objects in the Variable: drive, use the InputObject parameter of Get<ph id="ph1">\-</ph>Member.</source>
+          <target state="translated">在變數中取得的物件集合的相關資訊︰ 磁碟機，請使用 InputObject 參數的 Get<ph id="ph1">\-</ph>成員。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>For example, "get<ph id="ph1">\-</ph>member <ph id="ph2">\-</ph>inputobject <ph id="ph3">\(</ph>get<ph id="ph4">\-</ph>item variable:<ph id="ph5">\*\)</ph>".</source>
+          <target state="translated">例如，「 取得<ph id="ph1">\-</ph>成員 <ph id="ph2">\-</ph>inputobject <ph id="ph3">\(</ph>取得<ph id="ph4">\-</ph>項目變數︰<ph id="ph5">\*\)</ph>」。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>When you use InputObject, Get<ph id="ph1">\-</ph>Member evaluates the collection, not the objects in the collection.</source>
+          <target state="translated">當您使用 InputObject 時取得<ph id="ph1">\-</ph>成員會評估集合，集合中的物件。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">範例 2</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>This command lists the values of the properties of the "home" variable.</source>
+          <target state="translated">此命令會列出 "home" 變數的屬性值。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>It uses the Get<ph id="ph1">\-</ph>Item cmdlet to get an object that represents the "home" variable.</source>
+          <target state="translated">它會使用 Get<ph id="ph1">\-</ph>項目 cmdlet 來取得代表"home"變數的物件。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The pipeline operator <ph id="ph1">\(</ph>&amp;#124;<ph id="ph2">\)</ph> sends the results to the Format<ph id="ph3">\-</ph>List command.</source>
+          <target state="translated">管線運算子 <ph id="ph1">\(</ph>&amp;#124;<ph id="ph2">\)</ph> 將結果傳送至格式<ph id="ph3">\-</ph>List 命令。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The Format<ph id="ph1">\-</ph>List command uses the Property parameter with a wildcard character <ph id="ph2">\(\*\)</ph> to format and to display the values of all of the properties of the "home" variable.</source>
+          <target state="translated">格式<ph id="ph1">\-</ph>List 命令使用 Property 參數搭配萬用字元 <ph id="ph2">\(\*\)</ph> 來格式化和顯示所有的 「 主 」 變數的屬性值。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Changing the Properties of a Variable</source>
+          <target state="translated">變更變數的屬性</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">範例 1</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>This command uses the Rename<ph id="ph1">\-</ph>Item cmdlet to change the name of the "a" variable to "processes".</source>
+          <target state="translated">此命令會使用重新命名<ph id="ph1">\-</ph>項目指令程式可將 「 a 」 變數的名稱變更為 [處理序]。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">範例 2</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>This command uses the Set<ph id="ph1">\-</ph>Item cmdlet to change the value of the ErrorActionPreference variable to "Stop".</source>
+          <target state="translated">此命令會使用集<ph id="ph1">\-</ph>項目指令程式可將 ErrorActionPreference 變數的值變更為 「 停止 」。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 3</source>
+          <target state="translated">範例 3</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>This command changes the value of the ErrorActionPreference variable to "Stop".</source>
+          <target state="translated">此命令會將 ErrorActionPreference 變數的值變更為 "Stop"。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>It uses a dollar sign <ph id="ph1">\($\)</ph> to indicate a variable and the assignment operator <ph id="ph2">\(\=\)</ph> to assign the value.</source>
+          <target state="translated">它會使用貨幣符號 <ph id="ph1">\($\)</ph> 表示變數，並指派運算子 <ph id="ph2">\(\=\)</ph> 來指派值。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Copying a Variable</source>
+          <target state="translated">複製變數</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">範例 1</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>This command uses the Copy<ph id="ph1">\-</ph>Item cmdlet to copy the "processes" variable to "old<ph id="ph2">\_</ph>processes".</source>
+          <target state="translated">此命令會使用複製<ph id="ph1">\-</ph>項目複製到"processes"變數的指令程式"舊<ph id="ph2">\_</ph>處理程序 」。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>This creates a new variable named "old<ph id="ph1">\_</ph>processes" that has the same value as the "processes" variable.</source>
+          <target state="translated">這會建立新的變數，名為 「 舊<ph id="ph1">\_</ph>處理程序 」，具有相同的值為"processes"變數。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>If the command is issued from within the Variable: drive, you can omit the drive name from the value of the Path parameter.</source>
+          <target state="translated">如果命令是從 Variable: 磁碟機內所發出，則您可以在 Path 參數值中省略磁碟機名稱。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">範例 2</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>This command copies the "processes" variable to "old<ph id="ph1">\_</ph>processes" without using a cmdlet.</source>
+          <target state="translated">這個命令會複製到"processes"變數 「 舊<ph id="ph1">\_</ph>處理程序 」 而不需使用指令程式。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>It uses the dollar sign <ph id="ph1">\($\)</ph> to indicate variables and the assignment operator to assign the value of $processes to old<ph id="ph2">\_</ph>processes.</source>
+          <target state="translated">它會使用貨幣符號 <ph id="ph1">\($\)</ph> 來表示變數，並使用指派運算子來將 $processes 值指派給舊<ph id="ph2">\_</ph>處理程序。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Deleting a Variable</source>
+          <target state="translated">刪除變數</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">範例 1</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>This command deletes the "serv" variable from the current session.</source>
+          <target state="translated">此命令會從目前工作階段中刪除 "serv" 變數。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>You can use this command in any Windows PowerShell drive.</source>
+          <target state="translated">您可以在任何 Windows PowerShell 磁碟機中使用此命令。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">範例 2</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>This command deletes all variables from the current session except for the variables whose Options property has a value of Constant.</source>
+          <target state="translated">此命令會從目前工作階段刪除所有變數，但 Options 屬性值為 Constant 的變數除外。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Without the Force parameter, the command does not delete variables whose Options property has a value of ReadOnly.</source>
+          <target state="translated">如果沒有 Force 參數，命令就不會刪除 Options 屬性值為 ReadOnly 的變數。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Setting the Value of a Variable to NULL</source>
+          <target state="translated">將變數的值設定為 NULL</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">範例 1</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>This command uses the Clear<ph id="ph1">\-</ph>Item cmdlet to change the value of the "processes" variable to NULL.</source>
+          <target state="translated">此命令會使用純文字<ph id="ph1">\-</ph>項目指令程式可將"processes"變數的值變更為 NULL。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">範例 2</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>This command clears the value of the "processes" variable by assigning a null value to it.</source>
+          <target state="translated">此命令會藉由為 "processes" 變數指派 null 值來清除該變數的值。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>It uses the $null automatic variable to represent the NULL value.</source>
+          <target state="translated">它會使用 $null 自動變數來代表 NULL 值。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">另請參閱</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>about<ph id="ph1">\_</ph>Variables</source>
+          <target state="translated">關於<ph id="ph1">\_</ph>變數</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>about<ph id="ph1">\_</ph>Automatic<ph id="ph2">\_</ph>Variables &amp;#91;m2&amp;#93;</source>
+          <target state="translated">關於<ph id="ph1">\_</ph>自動<ph id="ph2">\_</ph>變數 &amp;#91; m2 &amp; #93。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>about<ph id="ph1">\_</ph>Providers</source>
+          <target state="translated">關於<ph id="ph1">\_</ph>提供者</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

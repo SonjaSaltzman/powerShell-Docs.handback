@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="fr-fr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e750df6e58d9a10bda7e12811402a85600835add</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\PSDesiredStateConfiguration\Get-DscConfiguration.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f9d274f7157639704b043336868f3fab3a7101b4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">af08d0013a7e7b398a9d97ba6a6a7dc979ec724d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">applet de commande PowerShell</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Get-DscConfiguration</source>
+          <target state="translated">Get-DscConfiguration</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Get-DscConfiguration</source>
+          <target state="translated">Get-DscConfiguration</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">SYNOPSIS</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Gets the current configuration of the nodes.</source>
+          <target state="translated">Obtient la configuration actuelle des nœuds.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SYNTAXE</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">DESCRIPTION</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-DscConfiguration<ept id="p1">**</ept> cmdlet gets the current configuration of the nodes, if the configuration exists.</source>
+          <target state="translated">Le <bpt id="p1">**</bpt>Get-DscConfiguration<ept id="p1">**</ept> applet de commande Obtient la configuration actuelle des nœuds, si la configuration existe.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Specify computers by using Common Information Model (CIM) sessions.</source>
+          <target state="translated">Spécifiez les ordinateurs à l'aide de sessions CIM (Common Information Model).</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If you do not specify a target computer, the cmdlet gets the configuration from the local computer.</source>
+          <target state="translated">Si vous ne spécifiez pas d'ordinateur cible, l'applet de commande obtient la configuration de l'ordinateur local.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">EXEMPLES</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Example 1: Get the configuration for the local computer</source>
+          <target state="translated">Exemple 1 : Obtenir la configuration de l’ordinateur local</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This command gets the current state for the local computer.</source>
+          <target state="translated">Cette commande Obtient l’état actuel de l’ordinateur local.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Example 2: Get the configuration for a specified computer</source>
+          <target state="translated">Exemple 2 : Obtenir la configuration d’un ordinateur spécifique</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This example gets the current state from a computer specified by a CIM session.</source>
+          <target state="translated">Cet exemple obtient l’état actuel d’un ordinateur spécifié par une session CIM.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The example creates a CIM session for a computer named Server01 for use with the cmdlet.</source>
+          <target state="translated">L'exemple crée une session CIM pour un ordinateur nommé Server01 à utiliser avec l'applet de commande.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Alternatively, create an array of CIM sessions to apply the cmdlet to multiple specified computers.</source>
+          <target state="translated">Vous pouvez aussi créer un tableau de sessions CIM pour appliquer l'applet de commande à plusieurs ordinateurs spécifiés.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The first command creates a CIM session by using the <bpt id="p1">**</bpt>New-CimSession<ept id="p1">**</ept> cmdlet, and then stores the <bpt id="p2">**</bpt>CimSession<ept id="p2">**</ept> object in the <bpt id="p3">**</bpt>$Session<ept id="p3">**</ept> variable.</source>
+          <target state="translated">La première commande crée une session CIM à l’aide de la <bpt id="p1">**</bpt>New-CimSession<ept id="p1">**</ept> applet de commande, puis stocke le <bpt id="p2">**</bpt>CimSession<ept id="p2">**</ept> dans l’objet la <bpt id="p3">**</bpt>$Session<ept id="p3">**</ept> variable.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The command prompts you for a password.</source>
+          <target state="translated">La commande vous invite à entrer un mot de passe.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For more information, type <ph id="ph1">`Get-Help New-CimSession`</ph>.</source>
+          <target state="translated">Pour plus d'informations, voir <ph id="ph1">`Get-Help New-CimSession`</ph>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The second command gets the current configuration for the computers identified by the <bpt id="p1">**</bpt>CimSession<ept id="p1">**</ept> objects stored in the <bpt id="p2">**</bpt>$Session<ept id="p2">**</ept> variable, in this case, the computer named Server01.</source>
+          <target state="translated">La deuxième commande récupère la configuration actuelle des ordinateurs identifiés par le <bpt id="p1">**</bpt>CimSession<ept id="p1">**</ept> des objets stockés dans le <bpt id="p2">**</bpt>$Session<ept id="p2">**</ept> variable, dans ce cas, l’ordinateur nommé Server01.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARAMÈTRES</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>-AsJob</source>
+          <target state="translated">-AsJob</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet runs the command as a background job.</source>
+          <target state="translated">Indique que cette applet de commande exécute la commande en tant que tâche en arrière-plan.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If you specify the <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept> parameter, the command returns an object that represents the job, and then displays the command prompt.</source>
+          <target state="translated">Si vous spécifiez le <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept> la commande retourne un objet qui représente la tâche, puis affiche l’invite de commandes.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You can continue to work in the session until the job finishes.</source>
+          <target state="translated">Vous pouvez continuer à travailler dans la session jusqu'à ce que la tâche se termine.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The job is created on the local computer and the results from remote computers are automatically returned to the local computer.</source>
+          <target state="translated">La tâche est créée sur l'ordinateur local et les résultats provenant d'ordinateurs distants sont automatiquement retournés à l'ordinateur local.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To manage the job, use the Job cmdlets.</source>
+          <target state="translated">Pour gérer la tâche, utilisez les applets de commande Job.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To get the job results, use the Receive-Job cmdlet.</source>
+          <target state="translated">Pour obtenir les résultats de la tâche, utilisez l'applet de commande Receive-Job.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To use this parameter, the local and remote computers must be configured for remoting, and on Windows Vista and later versions of the Windows operating system, you must open Windows PowerShell with the Run as administrator option.</source>
+          <target state="translated">Pour utiliser ce paramètre, les ordinateurs locaux et distants doivent être configurés pour l’accès distant et sur Windows Vista et versions ultérieures du système d’exploitation Windows, vous devez ouvrir Windows PowerShell avec l’exécuter en tant qu’option de l’administrateur.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Remote_Requirementshttp://go.microsoft.com/fwlink/?LinkId=623526 (http://go.microsoft.com/fwlink/?LinkId=623526).</source>
+          <target state="translated">Pour plus d’informations, consultez about_Remote_ Requirementshttp://go.microsoft.com/fwlink/?LinkId=623526 (http://go.microsoft.com/fwlink/?LinkId=623526).</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For more information about Windows PowerShell background jobs, see about_Jobshttp://go.microsoft.com/fwlink/?LinkID=113251 (http://go.microsoft.com/fwlink/?LinkID=113251) and about_Remote_Jobshttp://go.microsoft.com/fwlink/?LinkID=135184 (http://go.microsoft.com/fwlink/?LinkID=135184).</source>
+          <target state="translated">Pour plus d’informations sur les tâches en arrière-plan Windows PowerShell, consultez about_ Jobshttp://go.microsoft.com/fwlink/?LinkID=113251 (http://go.microsoft.com/fwlink/?LinkID=113251) et about_Remote_ Jobshttp://go.microsoft.com/fwlink/?LinkID=135184 (http://go.microsoft.com/fwlink/?LinkID=135184).</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>-CimSession</source>
+          <target state="translated">-CimSession</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Runs the cmdlet in a remote session or on a remote computer.</source>
+          <target state="translated">Exécute l’applet de commande dans une session à distance ou sur un ordinateur distant.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Enter a computer name or a session object, such as the output of a New-CimSessionhttp://go.microsoft.com/fwlink/p/?LinkId=227967 or Get-CimSessionhttp://go.microsoft.com/fwlink/p/?LinkId=227966 cmdlet.</source>
+          <target state="translated">Entrez un nom d’ordinateur ou d’un objet de session, tels que la sortie d’applet de commande New-CimSessionhttp://go.microsoft.com/fwlink/p/?LinkId=227967 ou Get-CimSessionhttp://go.microsoft.com/fwlink/p/?LinkId=227966.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The default is the current session on the local computer.</source>
+          <target state="translated">La valeur par défaut est la session active sur l’ordinateur local.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-ThrottleLimit</source>
+          <target state="translated">-ThrottleLimit</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum number of concurrent operations that can be established to run the cmdlet.</source>
+          <target state="translated">Spécifie le nombre maximal d’opérations simultanées pouvant être établi pour exécuter l’applet de commande.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If this parameter is omitted or a value of <ph id="ph1">`0`</ph> is entered, then Windows PowerShellÂ® calculates an optimum throttle limit for the cmdlet based on the number of CIM cmdlets that are running on the computer.</source>
+          <target state="translated">Si ce paramètre est omis ou a la valeur de <ph id="ph1">`0`</ph> est entrée, Windows PowerShellÂ® calcule une limitation optimal pour l’applet de commande en fonction du nombre d’applets de commande CIM qui s’exécutent sur l’ordinateur.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The throttle limit applies only to the current cmdlet, not to the session or to the computer.</source>
+          <target state="translated">Le seuil de limitation s’applique uniquement à l’applet de commande active et non à la session ou à l’ordinateur.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Cette applet de commande prend en charge les paramètres courants :-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction et - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Pour plus d’informations, consultez about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ENTRÉES</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">SORTIES</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTES DE PUBLICATION</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">LIENS CONNEXES</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Desired State Configuration Overview</source>
+          <target state="translated">Vue d’ensemble de la fonctionnalité Desired State Configuration de Windows PowerShell</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Get-DscConfigurationStatus</source>
+          <target state="translated">Get-DscConfigurationStatus</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Restore-DscConfiguration</source>
+          <target state="translated">Restore-DscConfiguration</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Start-DscConfiguration</source>
+          <target state="translated">Start-DscConfiguration</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Test-DscConfiguration</source>
+          <target state="translated">Test-DscConfiguration</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

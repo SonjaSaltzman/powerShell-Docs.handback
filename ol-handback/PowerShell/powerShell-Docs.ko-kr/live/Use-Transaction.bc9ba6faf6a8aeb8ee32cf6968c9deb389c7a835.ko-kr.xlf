@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">25d58bf327e85f968d2f827e24eae02cb7ff620f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Management\Use-Transaction.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fda12db23766b0ece41d1dbd0dac4ade44b02799</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d2cbec9c72da1b2c698f82f55b510177e80c459d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Use-Transaction</source>
+          <target state="translated">Use-Transaction</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Use-Transaction</source>
+          <target state="translated">Use-Transaction</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">요약</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Adds the script block to the active transaction.</source>
+          <target state="translated">스크립트 블록을 활성 트랜잭션에 추가합니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">구문</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">설명</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The Use-Transaction cmdlet adds a script block to an active transaction.</source>
+          <target state="translated">Use-Transaction cmdlet은 스크립트 블록을 활성 트랜잭션에 추가합니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This enables you to do transacted scripting using transaction-enabled Microsoft .NET Framework objects.</source>
+          <target state="translated">그 결과 트랜잭션이 사용 가능한 Microsoft .NET Framework 개체를 사용하는 트랜잭션 스트립팅을 수행할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The script block can contain only transaction-enabled .NET Framework objects, such as instances of the Microsoft.PowerShell.Commands.Management.TransactedString class.</source>
+          <target state="translated">이 스크립트 블록에는 Microsoft.PowerShell.Commands.Management.TransactedString 클래스 등 트랜잭션이 사용 가능한 .NET Framework 개체만 포함될 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The UseTransaction parameter, which is optional for most cmdlets, is required when using this cmdlet.</source>
+          <target state="translated">UseTransaction 매개 변수는 대부분의 cmdlet에서 선택 항목이지만 이 cmdlet을 사용할 때는 필수 항목입니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The Use-Transaction cmdlet is one of a set of cmdlets that support the transactions feature in Windows PowerShell.</source>
+          <target state="translated">Use-Transaction cmdlet은 Windows PowerShell의 트랜잭션 기능을 지원하는 cmdlet 집합 중 하나입니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Transactions.</source>
+          <target state="translated">자세한 내용은 about_Transactions를 참조하세요.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">예제</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 예제 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the Use-Transaction cmdlet to script against a transaction-enabled .NET Framework object.</source>
+          <target state="translated">이 예제에서는 Use-Transaction cmdlet을 사용하여 트랜잭션 사용 가능한 .NET Framework 개체에 대해 스크립트를 수행하는 방법을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In this case, the object is a TransactedString object.</source>
+          <target state="translated">이 경우 개체는 TransactedString 개체입니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The first command uses the Start-Transaction cmdlet to start a transaction.</source>
+          <target state="translated">첫 번째 명령은 Start-Transaction cmdlet을 사용하여 트랜잭션을 시작합니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The second command uses the New-Object command to create a TransactedString object.</source>
+          <target state="translated">두 번째 명령은 New-Object 명령을 사용하여 TransactedString 개체를 만듭니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>It stores the object in the $TransactedString variable.</source>
+          <target state="translated">개체를 $TransactedString 변수에 저장합니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The third and fourth commands both use the Append method of the TransactedString object to add text to the value of $TransactedString.</source>
+          <target state="translated">세 번째 및 네 번째 명령은 모두 TransactedString 개체의 Append 메서드를 사용하여 $TransactedString 값에 텍스트를 추가합니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>One command is part of the transaction; the other is not.</source>
+          <target state="translated">한 명령은 트랜잭션의 일부이지만 다른 명령은 아닙니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The third command uses the Append method of the transacted string to add "Hello" to the value of $TransactedString.</source>
+          <target state="translated">세 번째 명령은 트랜잭션 문자열의 Append 메서드를 사용하여 "Hello"라는 텍스트를 $TransactedString 값에 추가합니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Because the command is not part of the transaction, the change is applied immediately.</source>
+          <target state="translated">이 명령은 트랜잭션의 일부가 아니므로 변경 사항이 즉시 적용됩니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The fourth command uses the Use-Transaction cmdlet to add text to the string within the transaction.</source>
+          <target state="translated">네 번째 명령은 Use-Transaction cmdlet을 사용하여 트랜잭션 내의 문자열에 텍스트를 추가합니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The command uses the Append method to add ", World" to the value of $TransactedString.</source>
+          <target state="translated">이 명령은 Append 메서드를 사용하여 $TransactedString 값에 ", World"를 추가합니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The command is enclosed in braces ( {} ) to make it a script block.</source>
+          <target state="translated">명령을 중괄호( {} )로 묶어 스크립트 블록으로 만듭니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The UseTransaction parameter is required in this command.</source>
+          <target state="translated">이 명령에서 UseTransaction 매개 변수는 필수 항목입니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The fifth and sixth commands use the ToString method of the TransactedString object to display the value of the TransactedString as a string.</source>
+          <target state="translated">다섯 번째와 여섯 번째 명령은 TransactedString 개체의 ToString 메서드를 사용하여 TransactedString의 값을 문자열로 표시합니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Again, one command is part of the transaction; the other is not.</source>
+          <target state="translated">이 경우도 한 명령은 트랜잭션의 일부이지만 다른 명령은 아닙니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The fifth command uses the ToString method to display the current value of the $TransactedString variable.</source>
+          <target state="translated">다섯 번째 명령은 ToString 메서드를 사용하여 $TransactedString 변수의 현재 값을 표시합니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Because it is not part of the transaction, it displays only the current state of the string.</source>
+          <target state="translated">이 명령은 트랜잭션의 일부가 아니므로 문자열의 현재 상태만 표시됩니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The sixth command uses the Use-Transaction cmdlet to run the same command within the transaction.</source>
+          <target state="translated">여섯 번째 명령은 Use-Transaction cmdlet을 사용하여 트랜잭션 내의 동일한 명령을 실행합니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Because the command is part of the transaction, it displays the current value of the string within the transaction, much like a preview of the transaction changes.</source>
+          <target state="translated">이 명령은 트랜잭션의 일부여서 트랜잭션 내에 있는 문자열의 현재 값을 표시하므로 트랜잭션의 변경 사항을 미리 확인할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The seventh command uses the Complete-Transaction cmdlet to commit the transaction.</source>
+          <target state="translated">일곱 번째 명령은 Complete-Transaction cmdlet을 사용하여 트랜잭션을 커밋합니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The final command uses the ToString method to display the resulting value of the variable as a string.</source>
+          <target state="translated">마지막 명령은 ToString 메서드를 사용하여 변수의 결과 값을 문자열로 표시합니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This example shows the effect of rolling back a transaction that includes Use-Transaction commands.</source>
+          <target state="translated">이 예제에서는 Use-Transaction 명령을 포함하는 트랜잭션의 롤백 효과를 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Like all commands in a transaction, when the transaction is rolled back, the transacted changes are discarded and the data is unchanged.</source>
+          <target state="translated">트랜잭션의 다른 명령과 마찬가지로, 트랜잭션을 롤백하면 변경 사항이 취소되고 데이터가 원래대로 돌아갑니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The first command uses the Start-Transaction cmdlet to start a transaction.</source>
+          <target state="translated">첫 번째 명령은 Start-Transaction cmdlet을 사용하여 트랜잭션을 시작합니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The second command uses the New-Object command to create a TransactedString object.</source>
+          <target state="translated">두 번째 명령은 New-Object 명령을 사용하여 TransactedString 개체를 만듭니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>It stores the object in the $TransactedString variable.</source>
+          <target state="translated">개체를 $TransactedString 변수에 저장합니다.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The third command, which is not part of the transaction, uses the Append method to add "Hello" to the value of $TransactedString.</source>
+          <target state="translated">트랜잭션의 일부인 세 번째 명령은 Append 메서드를 사용하여 $TransactedString 값에 "Hello"라는 텍스트를 추가합니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The fourth command uses the Use-Transaction cmdlet to run another command that uses the Append method within the transaction.</source>
+          <target state="translated">네 번째 명령은 Use-Transaction cmdlet을 사용하여 트랜잭션 내에서 Append 메서드를 사용하는 다른 명령을 실행합니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The command uses the Append method to add ", World" to the value of $TransactedString.</source>
+          <target state="translated">이 명령은 Append 메서드를 사용하여 $TransactedString 값에 ", World"를 추가합니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The fifth command uses the Undo-Transaction cmdlet to roll back the transaction.</source>
+          <target state="translated">다섯 번째 명령은 Undo-Transaction cmdlet을 사용하여 트랜잭션을 롤백합니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>As a result, all commands performed within the transaction are reversed.</source>
+          <target state="translated">그 결과 트랜잭션 내에서 수행된 모든 명령이 번복됩니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The final command uses the ToString method to display the resulting value of $TransactedString as a string.</source>
+          <target state="translated">마지막 명령은 ToString 메서드를 사용하여 $TransactedString의 결과 값을 문자열로 표시합니다.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The results show that only the changes made outside of the transaction were applied to the object.</source>
+          <target state="translated">그 결과 트랜잭션 밖에서 수행된 변경 사항만 개체에 적용됩니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">매개 변수</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>-TransactedScript</source>
+          <target state="translated">-TransactedScript</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Specifies the script block that is run in the transaction.</source>
+          <target state="translated">트랜잭션에서 실행되는 스크립트 블록을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Enter any valid script block enclosed in braces ( { } ).</source>
+          <target state="translated">유효한 스크립트 블록을 중괄호( { } )로 묶어 입력합니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>This parameter is required.</source>
+          <target state="translated">이 매개 변수는 필수입니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>-UseTransaction</source>
+          <target state="translated">-UseTransaction</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Includes the command in the active transaction.</source>
+          <target state="translated">활성 트랜잭션에 명령을 포함합니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when a transaction is in progress.</source>
+          <target state="translated">이 매개 변수는 트랜잭션이 진행 중인 경우에만 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>For more information, see Includes the command in the active transaction.</source>
+          <target state="translated">자세한 내용은 활성 트랜잭션에 명령을 포함 합니다.를 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when a transaction is in progress.</source>
+          <target state="translated">이 매개 변수는 트랜잭션이 진행 중인 경우에만 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>For more information, see</source>
+          <target state="translated">자세한 내용은  항목을 참조하세요.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">이 cmdlet은 공통 매개 변수:-디버그,-ErrorAction,-ErrorVariable,-InformationAction,-InformationVariable,-OutVariable,-OutBuffer,-PipelineVariable,-Verbose,-WarningAction 및-warningvariable을 지원 합니다.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">자세한 내용은 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)를 참조 합니다.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">입력</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">없음</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>You cannot pipe input to this cmdlet.</source>
+          <target state="translated">이 cmdlet에 입력을 파이프할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">출력</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>PSObject</source>
+          <target state="translated">PSObject</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Use-Transaction returns the result of the transaction.</source>
+          <target state="translated">Use-Transaction은 트랜잭션 결과를 반환합니다.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">참고 사항</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The Use-Transaction parameter includes the command in the active transaction.</source>
+          <target state="translated">Use-Transaction 매개 변수는 해당 명령을 활성 트랜잭션에 포함합니다.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Because the Use-Transaction cmdlet is always used in transactions, this parameter is required to make any Use-Transaction command effective.</source>
+          <target state="translated">Use-Transaction cmdlet은 트랜잭션에서 항상 사용되므로 Use-Transaction 명령을 적용하려면 이 매개 변수가 필요합니다.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">관련된 링크</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Complete-Transaction</source>
+          <target state="translated">Complete-Transaction</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Get-Transaction</source>
+          <target state="translated">Get-Transaction</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Start-Transaction</source>
+          <target state="translated">Start-Transaction</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Undo-Transaction</source>
+          <target state="translated">Undo-Transaction</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>about_Transactions</source>
+          <target state="translated">about_Transactions</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

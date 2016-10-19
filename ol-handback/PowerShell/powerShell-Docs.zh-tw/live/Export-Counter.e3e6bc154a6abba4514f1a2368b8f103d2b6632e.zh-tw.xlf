@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b95eb6a639709509dc54df034340cf73555bba17</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Diagnostics\Export-Counter.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2a4e78e1daa61e74a4a9cbb1a3491c8aa3c0ef57</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cbaf3cb108b02c6c07224e34b80a18171059703b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell 指令程式</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Export-Counter</source>
+          <target state="translated">匯出計數器</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Export-Counter</source>
+          <target state="translated">匯出計數器</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The Export-Counter cmdlet takes PerformanceCounterSampleSet objects and exports them as counter log files.</source>
+          <target state="translated">Export-Counter Cmdlet 會取得 PerformanceCounterSampleSet 物件，並將它們匯出為計數器記錄檔。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">語法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">描述</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The Export-Counter cmdlet exports performance counter data (PerformanceCounterSampleSet objects) to log files in binary performance log (.blg), comma-separated value (.csv), or tab-separated value (.tsv) format.</source>
+          <target state="translated">Export-Counter Cmdlet 會將效能計數器資料 (PerformanceCounterSampleSet 物件) 匯出至二進位效能記錄檔 (.BLG)、逗號分隔值 (.CSV) 或定位鍵分隔值 (.TSV) 格式的記錄檔。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can use this cmdlet to log or relog performance counter data.</source>
+          <target state="translated">您可以使用此 Cmdlet 來記錄或重新記錄效能計數器資料。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Export-Counter is designed to export data that is returned by the Get-Counter and Import-Counter cmdlets.</source>
+          <target state="translated">Export-Counter 是針對匯出 Get-Counter 和 Import-Counter Cmdlet 所傳回之資料而設計。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Note: Export-Counter runs only on Windows 7, Windows Server 2008 R2, and later versions of Windows.</source>
+          <target state="translated">注意︰ 匯出計數器只會在執行 Windows 7、 Windows Server 2008 R2 和更新版本的 Windows。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">範例</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 範例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This command exports counter data to a .blg file.</source>
+          <target state="translated">此命令會將計數器資料匯出至 .blg 檔案。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The command uses the Get-Counter cmdlet to collect processor time data.</source>
+          <target state="translated">此命令會使用 Get-counter cmdlet 來收集處理器時間資料。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>It uses a pipeline operator (|) to send the data to the <bpt id="p1">**</bpt>Export-Counter<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">它使用管線運算子 (|) 將資料傳送至 <bpt id="p1">**</bpt>Export-counter<ept id="p1">**</ept> 指令程式。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Export-Counter<ept id="p1">**</ept> command uses the <bpt id="p2">**</bpt>Path<ept id="p2">**</ept> variable to specify the output file.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Export-counter<ept id="p1">**</ept> 命令會使用 <bpt id="p2">**</bpt>路徑<ept id="p2">**</ept> 變數來指定輸出檔。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Because the data set might be very large, this command sends the data to <bpt id="p1">**</bpt>Export-Counter<ept id="p1">**</ept> through the pipeline.</source>
+          <target state="translated">由於資料集很大時，此命令將資料傳送到 <bpt id="p1">**</bpt>Export-counter<ept id="p1">**</ept> 透過管線。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If the data were saved in a variable, the command might use a disproportionate amount of memory.</source>
+          <target state="translated">若資料是儲存在變數中，則命令可能使用了不相稱的記憶體量。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>These commands convert a CSV file to a counter data BLG format.</source>
+          <target state="translated">這些命令會將 CSV 檔案轉換成計數器資料 BLG 格式。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This example shows how to get performance counter data from a remote computer and save the data in a file on the remote computer.</source>
+          <target state="translated">此範例說明如何從遠端電腦取得效能計數器資料，並將資料儲存在遠端電腦上的檔案中。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the Import-Counter and <bpt id="p1">**</bpt>Export-Counter<ept id="p1">**</ept> cmdlets to re-log existing data.</source>
+          <target state="translated">這個範例示範如何使用匯入計數器和 <bpt id="p1">**</bpt>Export-counter<ept id="p1">**</ept> cmdlet 重新記錄現有的資料。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">參數</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-Circular</source>
+          <target state="translated">-循環</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Indicates that output file should be a circular log with first in, first out (FIFO) format.</source>
+          <target state="translated">指示輸出檔案應該是先進先出 (FIFO) 格式的循環記錄檔。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>When you include this parameter, the <bpt id="p1">**</bpt>MaxSize<ept id="p1">**</ept> parameter is required.</source>
+          <target state="translated">當您加入這個參數， <bpt id="p1">**</bpt>MaxSize<ept id="p1">**</ept> 是必要參數。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-FileFormat</source>
+          <target state="translated">-對於</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Specifies the output format of the output log file.</source>
+          <target state="translated">指定輸出記錄檔的輸出格式。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Valid values are CSV, TSV, and BLG.</source>
+          <target state="translated">有效值為 CSV、TSV 及 BLG。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The default value is BLG.</source>
+          <target state="translated">預設值為 BLG。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Overwrites and replaces an existing file if one exists in the location specified by the Path parameter.</source>
+          <target state="translated">若 Path 參數所指定的位置已有檔案存在，就會覆寫並取代現有檔案。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-InputObject</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Specifies the counter data to export.</source>
+          <target state="translated">指定要匯出的計數器資料。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the data or a command that gets the data, such as a Get-Counter or Import-Counter command.</source>
+          <target state="translated">輸入包含資料的變數，或輸入可取得資料的命令，例如 Get-Counter 或 Import-Counter 命令。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>-MaxSize</source>
+          <target state="translated">-MaxSize</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum size of the output file.</source>
+          <target state="translated">指定輸出檔案的大小上限。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If the Circular parameter is specified, then when the log file reaches the specified maximum size, the oldest entries are deleted as newer ones are added.</source>
+          <target state="translated">若指定 Circular 參數，就會在記錄檔達到指定的大小上限時，於較新的項目加入時刪除最舊的項目。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>If the Circular parameter is not specified, then when the log file reaches the specified maximum size, no new data is added and the cmdlet generates a non-terminating error.</source>
+          <target state="translated">若未指定 Circular 參數，就會在記錄檔達到指定的大小上限時，停止加入任何新資料，且 Cmdlet 會產生一個非終止錯誤。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>-Path</source>
+          <target state="translated">-Path</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Specifies the path and file name of the output file.</source>
+          <target state="translated">指定輸出檔案的路徑和檔案名稱。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Enter a relative or absolute path on the local computer, or a Uniform Naming Convention (UNC) path to a remote computer, such as <ph id="ph1">\\\\</ph>Computer\Share\file.blg.</source>
+          <target state="translated">輸入相對或絕對路徑在本機電腦或統一命名慣例 (UNC) 路徑上的遠端電腦，例如 <ph id="ph1">\\\\</ph>Computer\Share\file.blg。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This parameter is required.</source>
+          <target state="translated">此為必要參數。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Note: The file format is determined by the value of the FileFormat parameter, not by the file name extension in the path.</source>
+          <target state="translated">注意︰ 檔案格式取決於 FileFormat 參數的值，而不是由路徑中的副檔名。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">這個 cmdlet 支援一般參數:-偵錯、-ErrorAction、-ErrorVariable、-InformationAction-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 以及-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">如需詳細資訊，請參閱 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">輸入</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Microsoft.PowerShell.Commands.GetCounter.PerformanceCounterSampleSet</source>
+          <target state="translated">Microsoft.PowerShell.Commands.GetCounter.PerformanceCounterSampleSet</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>You can pipe performance counter data from Get-Counter or Import-Counter to Export-Counter.</source>
+          <target state="translated">您可以使用管線將效能計數器資料從 Get-Counter 或 Import-Counter 傳送至 Export-Counter。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">輸出</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">無</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">附註</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The log file generator expects that all input objects have the same counter path and that the objects are arranged in ascending time order.</source>
+          <target state="translated">記錄檔產生器會預期所有輸入物件都具有相同的計數器路徑，並且物件會依時間以遞增順序排列。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The counter type and path of the first input object determines the properties recorded in the log file.</source>
+          <target state="translated">計數器類別和第一個輸入物件的路徑會決定記錄檔中記錄的屬性。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If other input objects do not have a value for a recorded property, the property field is empty.</source>
+          <target state="translated">若其他輸入物件沒有記錄之屬性的值，屬性欄位就會是空的。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If the objects have property values that were not recorded, the extra property values are ignored.</source>
+          <target state="translated">若物件具有未記錄的屬性值，則會忽略額外的屬性值。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Performance Monitor might not be able to read all logs that Export-Counter generates.</source>
+          <target state="translated">效能監視器可能無法讀取 Export-Counter 產生的所有記錄檔。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>For example, Performance Monitor requires that all objects have the same path and that all objects are separated by the same time interval.</source>
+          <target state="translated">例如，效能監視器要求所有物件都要有相同的路徑，並且所有物件都以相同的時間間隔分隔。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The Import-Counter cmdlet does not have a ComputerName parameter.</source>
+          <target state="translated">Import-Counter Cmdlet 沒有 ComputerName 參數。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>However, if the computer is configured for Windows PowerShell remoting, you can use the Invoke-Command cmdlet to run an Import-Counter command on a remote computer.</source>
+          <target state="translated">但是，若電腦已設定 Windows PowerShell 遠端功能，您可以使用 Invoke-Command Cmdlet 在遠端電腦上執行 Import-Counter 命令。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相關的連結</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Get-Counter</source>
+          <target state="translated">取得計數器</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Import-Counter</source>
+          <target state="translated">匯入計數器</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

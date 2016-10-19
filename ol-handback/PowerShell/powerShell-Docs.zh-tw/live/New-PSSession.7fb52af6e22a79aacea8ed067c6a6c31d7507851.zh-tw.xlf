@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e17e2d692e512b126ca21bb863872523e1458d6c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\New-PSSession.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">65cbd1f86446a64b1ce20fde273d4d0c3681d91b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eabcfff8963be68271ad19c9096f349cd28e0bc1</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell 指令程式</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>New-PSSession</source>
+          <target state="translated">New-PSSession</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>New-PSSession</source>
+          <target state="translated">New-PSSession</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Creates a persistent connection to a local or remote computer.</source>
+          <target state="translated">建立連到本機或遠端電腦的持續連線。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">語法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>ComputerName (Default)</source>
+          <target state="translated">電腦名稱 （預設值）</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Uri</source>
+          <target state="translated">Uri</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Session</source>
+          <target state="translated">工作階段</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">描述</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-PSSession<ept id="p1">**</ept> cmdlet creates a Windows PowerShell session (<bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>) on a local or remote computer.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>New-pssession<ept id="p1">**</ept> 指令程式會建立 Windows PowerShell 工作階段 (<bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>) 的本機或遠端電腦上。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>When you create a <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept>, Windows PowerShell establishes a persistent connection to the remote computer.</source>
+          <target state="translated">當您建立 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept>, ，Windows PowerShell 會建立持續連線到遠端電腦。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Use a <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> to run multiple commands that share data, such as a function or the value of a variable.</source>
+          <target state="translated">使用 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 執行多個共用資料，例如函式或變數的值的命令。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To run commands in a <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept>, use the Invoke-Command cmdlet.</source>
+          <target state="translated">若要執行命令 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept>, ，使用 Invoke-command cmdlet。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To use the <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> to interact directly with a remote computer, use the Enter-PSSession cmdlet.</source>
+          <target state="translated">若要使用 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 直接與遠端電腦的互動，使用 Enter-pssession cmdlet。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For more information, see about_PSSessions (http://go.microsoft.com/fwlink/?LinkID=135181).</source>
+          <target state="translated">如需詳細資訊，請參閱 about_PSSessions (http://go.microsoft.com/fwlink/?LinkID=135181)。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can run commands on a remote computer without creating a <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> by using the <bpt id="p2">*</bpt>ComputerName<ept id="p2">*</ept> parameters of <bpt id="p3">**</bpt>Enter-PSSession<ept id="p3">**</ept> or <bpt id="p4">**</bpt>Invoke-Command<ept id="p4">**</ept>.</source>
+          <target state="translated">您可以在遠端電腦上執行命令，而不需建立 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 使用 <bpt id="p2">*</bpt>ComputerName<ept id="p2">*</ept> 參數 <bpt id="p3">**</bpt>Enter-pssession<ept id="p3">**</ept> 或 <bpt id="p4">**</bpt>Invoke-command<ept id="p4">**</ept>。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>When you use the <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> parameter, Windows PowerShell creates a temporary connection that is used for the command and is then closed.</source>
+          <target state="translated">當您使用 <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> 參數，Windows PowerShell 會建立用於命令，然後關閉的暫時連線。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">範例</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Example 1: Create a session on the local computer</source>
+          <target state="translated">範例 1︰ 在本機電腦上建立工作階段</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This command creates a new <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> on the local computer and saves the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> in the $s variable.</source>
+          <target state="translated">此命令會建立新 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 上的本機電腦和儲存 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> $s 變數中。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You can now use this <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> to run commands on the local computer.</source>
+          <target state="translated">您現在可以使用這 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 本機電腦上執行命令。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Example 2: Create a session on a remote computer</source>
+          <target state="translated">範例 2︰ 遠端電腦上建立工作階段</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This command creates a new <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> on the Server01 computer and saves it in the $Server01 variable.</source>
+          <target state="translated">此命令會建立新 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> Server01 電腦上並將它儲存在 $Server01 變數中。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>When creating multiple <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> objects, assign them to variables with useful names.</source>
+          <target state="translated">當建立多個 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 物件，將它們指派給變數使用有用的名稱。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This will help you manage the <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> objects in subsequent commands.</source>
+          <target state="translated">這可協助您管理 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 後續命令中的物件。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Example 3: Create sessions on multiple computers</source>
+          <target state="translated">範例 3︰ 建立多部電腦上的工作階段</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This command creates three <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> objects, one on each of the computers specified by the <bpt id="p2">*</bpt>ComputerName<ept id="p2">*</ept> parameter.</source>
+          <target state="translated">此命令會建立三個 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 物件，每個所指定的電腦上的一個 <bpt id="p2">*</bpt>ComputerName<ept id="p2">*</ept> 參數。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The command uses the assignment operator (=) to assign the new <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> objects to variables: $s1, $s2, $s3.</source>
+          <target state="translated">命令使用指派運算子 （=） 來指派新 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 物件給變數: $s1、 $s2、 $s3。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>It assigns the Server01 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> to $s1, the Server02 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> to $s2, and the Server03 <bpt id="p3">**</bpt>PSSession<ept id="p3">**</ept> to $s3.</source>
+          <target state="translated">指派給 Server01 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 給 $s1、 Server02 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> $s2，和 Server03 <bpt id="p3">**</bpt>PSSession<ept id="p3">**</ept> 給 $s3。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>When you assign multiple objects to a series of variables, Windows PowerShell assigns each object to a variable in the series respectively.</source>
+          <target state="translated">當您以一系列變數指派多個物件時，Windows PowerShell 指派每個物件變數數列中分別。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If there are more objects than variables, all remaining objects are assigned to the last variable.</source>
+          <target state="translated">如果物件數目多於變數數目，就會將所有剩餘的物件指派給最後一個變數。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If there are more variables than objects, the remaining variables are empty (null).</source>
+          <target state="translated">如果變數數目多於物件數目，則剩餘的變數會是空的 (null)。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Example 4: Create a session with a specified port</source>
+          <target state="translated">範例 4︰ 建立工作階段與指定的連接埠</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This command creates a new <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> on the Server01 computer that connects to server port 8081 and uses the SSL protocol.</source>
+          <target state="translated">此命令會建立新 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 連接到伺服器連接埠 8081 並使用 SSL 通訊協定的 Server01 電腦上。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The new <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> uses an alternative session configuration called E12.</source>
+          <target state="translated">新 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 會使用稱為 E12 的替代工作階段設定。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Before setting the port, you must configure the WinRM listener on the remote computer to listen on port 8081.</source>
+          <target state="translated">設定連接埠之前，您必須先將遠端電腦上的 WinRM 接聽程式設定為在連接埠 8081 進行接聽。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For more information, see the description of the <bpt id="p1">*</bpt>Port<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">如需詳細資訊，請參閱的描述 <bpt id="p1">*</bpt>連接埠<ept id="p1">*</ept> 參數。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Example 5: Create a session based on an existing session</source>
+          <target state="translated">範例 5︰ 建立現有的工作階段為基礎的工作階段</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This command creates a <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> with the same properties as an existing <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>.</source>
+          <target state="translated">此命令會建立 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 使用相同的屬性與現有 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>You can use this command format when the resources of an existing <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> are exhausted and a new <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> is needed to offload some of the demand.</source>
+          <target state="translated">您可以使用這個命令格式時針對現有的資源 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 已耗盡和新 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> 需要來卸載部分需求。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>Session<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>New-PSSession<ept id="p2">**</ept> to specify the <bpt id="p3">**</bpt>PSSession<ept id="p3">**</ept> saved in the $s variable.</source>
+          <target state="translated">此命令會使用 <bpt id="p1">*</bpt>工作階段<ept id="p1">*</ept> 參數 <bpt id="p2">**</bpt>New-pssession<ept id="p2">**</ept> 指定 <bpt id="p3">**</bpt>PSSession<ept id="p3">**</ept> $s 變數中儲存。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>It uses the credentials of the Domain1\Admin01 user to complete the command.</source>
+          <target state="translated">它使用 Domain1\Admin01 使用者的認證來完成命令。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Example 6: Create a session with a global scope in a different domain</source>
+          <target state="translated">範例 6︰ 建立工作階段中具有全域領域的不同網域</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This example shows how to create a <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> with a global scope on a computer in a different domain.</source>
+          <target state="translated">這個範例示範如何建立 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 具有全域領域在不同網域的電腦上。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> objects created at the command line are created with local scope and <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> objects created in a script have script scope.</source>
+          <target state="translated">根據預設， <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 在命令列建立的物件會建立具有本機領域和 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> 指令碼中建立的物件具有指令碼範圍。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To create a <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> with global scope, create a new <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> and then store the <bpt id="p3">**</bpt>PSSession<ept id="p3">**</ept> in a variable that is cast to a global scope.</source>
+          <target state="translated">若要建立 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 具有全域領域，建立新 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> ，然後儲存 <bpt id="p3">**</bpt>PSSession<ept id="p3">**</ept> 轉換成全域領域的變數中。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>In this case, the $s variable is cast to a global scope.</source>
+          <target state="translated">在此情況下，$s 變數會轉換成全域領域。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> parameter to specify the remote computer.</source>
+          <target state="translated">此命令會使用 <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> 參數來指定遠端電腦。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Because the computer is in a different domain than the user account, the full name of the computer is specified together with the credentials of the user.</source>
+          <target state="translated">因為電腦是在不同的網域使用者帳戶，以及使用者的認證指定完整電腦名稱。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Example 7: Create sessions for many computers</source>
+          <target state="translated">範例 7︰ 建立多部電腦的工作階段</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This command creates a <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> on each of the 200 computers listed in the Servers.txt file and it stores the resulting <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> in the $rs variable.</source>
+          <target state="translated">此命令會建立 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 每 200 部電腦列在 Servers.txt 檔案，並將儲存所產生的 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> 在 $rs 變數。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> objects have a throttle limit of 50.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 物件具有節流閥限制為 50。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>You can use this command format when the names of computers are stored in a database, spreadsheet, text file, or other text-convertible format.</source>
+          <target state="translated">當電腦的名稱是儲存在資料庫、試算表、文字檔或其他可轉換成文字的格式中時，可以使用此命令格式。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Example 8: Create a session by using a URI</source>
+          <target state="translated">範例 8︰ 建立工作階段所使用的 URI</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>This command creates a <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> on the Server01 computer and stores it in the $s variable.</source>
+          <target state="translated">此命令會建立 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> Server01 電腦上並將它儲存在 $s 變數中。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>URI<ept id="p1">*</ept> parameter to specify the transport protocol, the remote computer, the port, and an alternate session configuration.</source>
+          <target state="translated">它會使用 <bpt id="p1">*</bpt>URI<ept id="p1">*</ept> 參數來指定傳輸通訊協定、 遠端電腦、 連接埠和替代工作階段設定。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>It also uses the <bpt id="p1">*</bpt>Credential<ept id="p1">*</ept> parameter to specify a user account that has permission to create a session on the remote computer.</source>
+          <target state="translated">它也會使用 <bpt id="p1">*</bpt>認證<ept id="p1">*</ept> 參數來指定具有遠端電腦上建立工作階段的權限的使用者帳戶。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Example 9: Run a background job in a set of sessions</source>
+          <target state="translated">範例 9︰ 一組工作階段中執行背景工作</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>These commands create a set of <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> objects and then run a background job in each of the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> objects.</source>
+          <target state="translated">這些命令會建立一組 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 物件，然後再執行背景工作在每個 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> 物件。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The first command creates a new <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> on each of the computers listed in the Servers.txt file.</source>
+          <target state="translated">第一個命令會建立新 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> Servers.txt 檔案中所列每一部電腦上。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>New-PSSession<ept id="p1">**</ept> cmdlet to create the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>.</source>
+          <target state="translated">它會使用 <bpt id="p1">**</bpt>New-pssession<ept id="p1">**</ept> 指令程式可建立 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> parameter is a command that uses the Get-Content cmdlet to get the list of computer names the Servers.txt file.</source>
+          <target state="translated">值 <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> 參數是使用 Get-content cmdlet 在 Servers.txt 檔案取得電腦名稱清單的命令。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>Credential<ept id="p1">*</ept> parameter to create the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> objects that have the permission of a domain administrator, and it uses the <bpt id="p3">*</bpt>ThrottleLimit<ept id="p3">*</ept> parameter to limit the command to 16 concurrent connections.</source>
+          <target state="translated">此命令會使用 <bpt id="p1">*</bpt>認證<ept id="p1">*</ept> 參數來建立 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> 具有網域系統管理員和它的權限的物件會使用 <bpt id="p3">*</bpt>ThrottleLimit<ept id="p3">*</ept> 參數將命令限制為 16 個同時連線。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The command saves the <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> objects in the $s variable.</source>
+          <target state="translated">命令會將儲存 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> $s 變數中的物件。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept> parameter of the Invoke-Command cmdlet to start a background job that runs a <ph id="ph1">`Get-Process PowerShell`</ph> command in each of the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> objects in $s.</source>
+          <target state="translated">第二個命令會使用 <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept> Invoke-command 指令程式來啟動背景工作執行參數 <ph id="ph1">`Get-Process PowerShell`</ph> 命令在每個 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> $s 中的物件。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>For more information about background jobs, see about_Jobs (http://go.microsoft.com/fwlink/?LinkID=113251) and about_Remote_Jobs (http://go.microsoft.com/fwlink/?LinkID=135184).</source>
+          <target state="translated">如需背景工作的詳細資訊，請參閱 about_Jobs (http://go.microsoft.com/fwlink/?LinkID=113251) 和 about_Remote_Jobs (http://go.microsoft.com/fwlink/?LinkID=135184)。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Example 10: Create a session for a computer by using its URI</source>
+          <target state="translated">範例 10︰ 建立電腦的工作階段，透過使用其 URI</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>This command creates a <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> objects that connects to a computer that is specified by a URI instead of a computer name.</source>
+          <target state="translated">此命令會建立 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 連接至電腦的 URI，而非電腦名稱所指定的物件。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Example 11: Create a session option</source>
+          <target state="translated">範例 11︰ 建立工作階段選項</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This example shows how to create a session option object and use the <bpt id="p1">*</bpt>SessionOption<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">這個範例示範如何建立工作階段選項物件，並使用 <bpt id="p1">*</bpt>SessionOption<ept id="p1">*</ept> 參數。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The first command uses the New-PSSessionOption cmdlet to create a session option.</source>
+          <target state="translated">第一個命令使用 New-pssessionoption cmdlet 來建立工作階段選項。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>It saves the resulting <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> object in the $so variable.</source>
+          <target state="translated">它會將儲存所產生的 <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> $so 變數中的物件。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The second command uses the option in a new session.</source>
+          <target state="translated">第二個命令會在新的工作階段中使用該選項。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>New-PSSession<ept id="p1">**</ept> cmdlet to create a new session.</source>
+          <target state="translated">此命令會使用 <bpt id="p1">**</bpt>New-pssession<ept id="p1">**</ept> cmdlet 來建立新的工作階段。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The value of the SessionOption parameter is the <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> object in the $so variable.</source>
+          <target state="translated">SessionOption 參數的值是 <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> $so 變數中的物件。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">參數</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>-AllowRedirection</source>
+          <target state="translated">-AllowRedirection</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet allows redirection of this connection to an alternate Uniform Resource Identifier (URI).</source>
+          <target state="translated">表示此指令程式允許重新導向此連線至替代統一資源識別元 (URI)。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>When you use the <bpt id="p1">*</bpt>ConnectionURI<ept id="p1">*</ept> parameter, the remote destination can return an instruction to redirect to a different URI.</source>
+          <target state="translated">當您使用 <bpt id="p1">*</bpt>ConnectionURI<ept id="p1">*</ept> 參數，遠端目的地可傳回重新導向至不同 URI 的指示。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>By default, Windows PowerShell does not redirect connections, but you can use this parameter to enable it to redirect the connection.</source>
+          <target state="translated">根據預設，Windows PowerShell 不會重新導向連線，但您可以使用這個參數，讓它能將連線重新導向。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>You can also limit the number of times the connection is redirected by changing the <bpt id="p1">**</bpt>MaximumConnectionRedirectionCount<ept id="p1">**</ept> session option value.</source>
+          <target state="translated">您也可以限制連線重新導向的變更次數 <bpt id="p1">**</bpt>MaximumConnectionRedirectionCount<ept id="p1">**</ept> 工作階段選項值。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">*</bpt>MaximumRedirection<ept id="p1">*</ept> parameter of the New-PSSessionOption cmdlet or set the <bpt id="p2">**</bpt>MaximumConnectionRedirectionCount<ept id="p2">**</ept> property of the <bpt id="p3">**</bpt>$PSSessionOption<ept id="p3">**</ept> preference variable.</source>
+          <target state="translated">使用 <bpt id="p1">*</bpt>MaximumRedirection<ept id="p1">*</ept> New-pssessionoption cmdlet 或設定參數的 <bpt id="p2">**</bpt>MaximumConnectionRedirectionCount<ept id="p2">**</ept> 屬性 <bpt id="p3">**</bpt>$PSSessionOption<ept id="p3">**</ept> 喜好設定變數。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The default value is 5.</source>
+          <target state="translated">預設值為 5。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>-ApplicationName</source>
+          <target state="translated">-ApplicationName</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Specifies the application name segment of the connection URI.</source>
+          <target state="translated">指定連線 URI 的應用程式名稱區段。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Use this parameter to specify the application name when you are not using the <bpt id="p1">*</bpt>ConnectionURI<ept id="p1">*</ept> parameter in the command.</source>
+          <target state="translated">使用這個參數來指定應用程式名稱，當您不使用 <bpt id="p1">*</bpt>ConnectionURI<ept id="p1">*</ept> 命令中的參數。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The default value is the value of the $PSSessionApplicationName preference variable on the local computer.</source>
+          <target state="translated">預設值是本機電腦上 $PSSessionApplicationName 喜好設定變數的值。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>If this preference variable is not defined, the default value is WSMAN.</source>
+          <target state="translated">若未定義此喜好設定變數，則預設值是 WSMAN。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>This value is appropriate for most uses.</source>
+          <target state="translated">這個值適用於大部分用途。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</source>
+          <target state="translated">如需詳細資訊，請參閱 about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248)。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The WinRM service uses the application name to select a listener to service the connection request.</source>
+          <target state="translated">WinRM 服務會使用應用程式名稱來選取要用來為連線要求提供服務的接聽程式。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The value of this parameter should match the value of the <bpt id="p1">**</bpt>URLPrefix<ept id="p1">**</ept> property of a listener on the remote computer.</source>
+          <target state="translated">此參數的值應該符合的值 <bpt id="p1">**</bpt>URLPrefix<ept id="p1">**</ept> 遠端電腦上的接聽項的屬性。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>-Authentication</source>
+          <target state="translated">-驗證</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Specifies the mechanism that is used to authenticate the user's credentials.</source>
+          <target state="translated">指定用來驗證使用者認證的機制。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">此參數接受的值包括：</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Default</source>
+          <target state="translated">Default</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Basic</source>
+          <target state="translated">基本</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Credssp</source>
+          <target state="translated">Credssp</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Digest</source>
+          <target state="translated">摘要</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Kerberos</source>
+          <target state="translated">Kerberos</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Negotiate</source>
+          <target state="translated">交涉</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>NegotiateWithImplicitCredential</source>
+          <target state="translated">NegotiateWithImplicitCredential</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The default value is Default.</source>
+          <target state="translated">預設值為 Default。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>For more information about the values of this parameter, see the description of the AuthenticationMechanism Enumerationhttp://go.microsoft.com/fwlink/?LinkID=144382 (http://go.microsoft.com/fwlink/?LinkID=144382) in the Microsoft Developer Network (MSDN) library.</source>
+          <target state="translated">此參數之值的相關資訊，請參閱 Microsoft Developer Network (MSDN) 文件庫中 AuthenticationMechanism Enumerationhttp://go.microsoft.com/fwlink/?LinkID=144382 (http://go.microsoft.com/fwlink/?LinkID=144382) 的描述。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Caution: Credential Security Support Provider (CredSSP) authentication, in which the user credentials are passed to a remote computer to be authenticated, is designed for commands that require authentication on more than one resource, such as accessing a remote network share.</source>
+          <target state="translated">注意︰ 認證安全性支援提供者 (CredSSP) 驗證，在使用者的認證傳遞到遠端電腦進行驗證，被設計用於命令需要一個以上的資源，例如存取遠端網路共用上的驗證。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>This mechanism increases the security risk of the remote operation.</source>
+          <target state="translated">此機制會使得遠端作業的安全性風險變高。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>If the remote computer is compromised, the credentials that are passed to it can be used to control the network session.</source>
+          <target state="translated">若遠端電腦遭到入侵，傳遞給它的認證便可用來控制網路工作階段。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>-CertificateThumbprint</source>
+          <target state="translated">-CertificateThumbprint</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Specifies the digital public key certificate (X509) of a user account that has permission to perform this action.</source>
+          <target state="translated">對於具有執行此動作之權限的使用者帳戶，指定其數位公開金鑰憑證 (X509)。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Enter the certificate thumbprint of the certificate.</source>
+          <target state="translated">請輸入憑證的憑證指紋。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Certificates are used in client certificate-based authentication.</source>
+          <target state="translated">憑證將用於用戶端憑證式驗證。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>They can be mapped only to local user accounts; they do not work with domain accounts.</source>
+          <target state="translated">這些憑證只能對應至本機使用者帳戶，無法用於網域帳戶。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>To get a certificate, use the Get-Item or Get-ChildItem command in the Windows PowerShell Cert: drive.</source>
+          <target state="translated">若要取得憑證，請使用 Windows PowerShell Cert: 磁碟機中的 Get-Item 或 Get-ChildItem 命令。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>-ComputerName</source>
+          <target state="translated">-ComputerName</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Specifies an array of names of computers.</source>
+          <target state="translated">指定電腦名稱的陣列。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>This cmdlet creates a persistent connection (<bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept>) to the specified computer.</source>
+          <target state="translated">此 cmdlet 會建立持續連線 (<bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept>) 到指定的電腦。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>If you enter multiple computer names, <bpt id="p1">**</bpt>New-PSSession<ept id="p1">**</ept> creates multiple <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> objects, one for each computer.</source>
+          <target state="translated">如果您輸入多個電腦名稱， <bpt id="p1">**</bpt>New-pssession<ept id="p1">**</ept> 建立多個 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> 物件、 一個用於每一部電腦。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The default is the local computer.</source>
+          <target state="translated">預設是本機電腦。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Type the NetBIOS name, an IP address, or a fully qualified domain name of one or more remote computers.</source>
+          <target state="translated">輸入一或多部遠端電腦的 NetBIOS 名稱、IP 位址或完整網域名稱。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>To specify the local computer, type the computer name, localhost, or a dot (.).</source>
+          <target state="translated">若要指定本機電腦，請輸入電腦名稱、 localhost 或句點 （.）。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>When the computer is in a different domain than the user, the fully qualified domain name is required.</source>
+          <target state="translated">當電腦與使用者位於不同網域，則必須使用完整網域名稱。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>You can also pipe a computer name, in quotation marks, to <bpt id="p1">**</bpt>New-PSSession<ept id="p1">**</ept>.</source>
+          <target state="translated">您可以也透過管道傳送電腦名稱，在引號中，為 <bpt id="p1">**</bpt>New-pssession<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>To use an IP address in the value of the <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> parameter, the command must include the <bpt id="p2">*</bpt>Credential<ept id="p2">*</ept> parameter.</source>
+          <target state="translated">若要使用的 IP 位址的值中 <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> 參數，命令必須包含 <bpt id="p2">*</bpt>認證<ept id="p2">*</ept> 參數。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Also, the computer must be configured for HTTPS transport or the IP address of the remote computer must be included in the WinRM TrustedHosts list on the local computer.</source>
+          <target state="translated">此外，必須將電腦設定為使用 HTTPS 傳輸，或必須在本機電腦的 WinRM TrustedHosts 清單中包含遠端電腦的 IP 位址。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>For instructions for adding a computer name to the TrustedHosts list, see "How to Add a Computer to the Trusted Host List" in about_Remote_Troubleshooting (http://go.microsoft.com/fwlink/?LinkID=135188).</source>
+          <target state="translated">如需將電腦名稱新增到 TrustedHosts 清單的相關指示，請參閱 about_Remote_Troubleshooting (http://go.microsoft.com/fwlink/?LinkID=135188) 中的 」 方式來新增電腦至信任的主機清單 」。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>To include the local computer in the value of the <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> parameter, start Windows PowerShell by using the Run as administrator option.</source>
+          <target state="translated">要包含在本機電腦中的值 <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> 參數，啟動 Windows PowerShell 使用系統管理員身分執行。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>-ConfigurationName</source>
+          <target state="translated">-ConfigurationName</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Specifies the session configuration that is used for the new <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept>.</source>
+          <target state="translated">指定用於新的工作階段設定 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Enter a configuration name or the fully qualified resource URI for a session configuration.</source>
+          <target state="translated">輸入工作階段設定的設定名稱或完整資源 URI。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>If you specify only the configuration name, the following schema URI is prepended: http://schemas.microsoft.com/PowerShell.</source>
+          <target state="translated">如果您指定組態名稱，下列結構描述 URI 前面加上︰ http://schemas.microsoft.com/PowerShell。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The session configuration for a session is located on the remote computer.</source>
+          <target state="translated">工作階段的工作階段設定是位於遠端電腦上。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>If the specified session configuration does not exist on the remote computer, the command fails.</source>
+          <target state="translated">如果遠端電腦上沒有指定的工作階段設定，則命令會失敗。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The default value is the value of the $PSSessionConfigurationName preference variable on the local computer.</source>
+          <target state="translated">預設值是本機電腦上 $PSSessionConfigurationName 喜好設定變數的值。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>If this preference variable is not set, the default is Microsoft.PowerShell.</source>
+          <target state="translated">若未設定此喜好設定變數，則預設為 Microsoft.PowerShell。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</source>
+          <target state="translated">如需詳細資訊，請參閱 about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248)。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>-ConnectionUri</source>
+          <target state="translated">-ConnectionUri</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Specifies a URI that defines the connection endpoint for the session.</source>
+          <target state="translated">指定工作階段定義連線端點的 URI。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The URI must be fully qualified.</source>
+          <target state="translated">此 URI 必須是完整的 URI。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The format of this string is as follows:</source>
+          <target state="translated">這個字串的格式如下所示：</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Transport<ph id="ph1">\&gt;</ph>://<ph id="ph2">\&lt;</ph>ComputerName<ph id="ph3">\&gt;</ph>:<ph id="ph4">\&lt;</ph>Port<ph id="ph5">\&gt;/\&lt;</ph>ApplicationName</source>
+          <target state="translated">傳輸<ph id="ph1">\&gt;</ph>://<ph id="ph2">\&lt;</ph>ComputerName<ph id="ph3">\&gt;</ph>:<ph id="ph4">\&lt;</ph>連接埠<ph id="ph5">\&gt;/\&lt;</ph>應用程式名稱</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>The default value is as follows:</source>
+          <target state="translated">預設值如下：</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>If you do not specify a <bpt id="p1">*</bpt>ConnectionURI<ept id="p1">*</ept>, you can use the <bpt id="p2">*</bpt>UseSSL<ept id="p2">*</ept>, <bpt id="p3">*</bpt>ComputerName<ept id="p3">*</ept>, <bpt id="p4">*</bpt>Port<ept id="p4">*</ept>, and <bpt id="p5">*</bpt>ApplicationName<ept id="p5">*</ept> parameters to specify the <bpt id="p6">*</bpt>ConnectionURI<ept id="p6">*</ept> values.</source>
+          <target state="translated">如果您未指定 <bpt id="p1">*</bpt>ConnectionURI<ept id="p1">*</ept>, ，您可以使用 <bpt id="p2">*</bpt>UseSSL<ept id="p2">*</ept>, ，<bpt id="p3">*</bpt>ComputerName<ept id="p3">*</ept>, ，<bpt id="p4">*</bpt>連接埠<ept id="p4">*</ept>, ，和 <bpt id="p5">*</bpt>ApplicationName<ept id="p5">*</ept> 參數來指定 <bpt id="p6">*</bpt>ConnectionURI<ept id="p6">*</ept> 值。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Valid values for the Transport segment of the URI are HTTP and HTTPS.</source>
+          <target state="translated">URI 的 Transport 區段有效值為 HTTP 與 HTTPS。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>If you specify a connection URI with a Transport segment, but do not specify a port, the session is created with standards ports: 80 for HTTP and 443 for HTTPS.</source>
+          <target state="translated">如果您指定連線 URI 含傳輸區段，但未指定連接埠，以標準連接埠建立工作階段︰ 80 的 HTTP 和 HTTPS 為 443。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>To use the default ports for Windows PowerShell remoting, specify port 5985 for HTTP or 5986 for HTTPS.</source>
+          <target state="translated">若要使用預設連接埠於 Windows PowerShell 遠端功能，請為 HTTP 指定連接埠 5985，或是為 HTTPS 指定連接埠 5986。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>If the destination computer redirects the connection to a different URI, Windows PowerShell prevents the redirection unless you use the <bpt id="p1">*</bpt>AllowRedirection<ept id="p1">*</ept> parameter in the command.</source>
+          <target state="translated">除非您使用 Windows PowerShell 如果目的地電腦會將連線重新導向至不同的 URI，可以避免重新導向 <bpt id="p1">*</bpt>AllowRedirection<ept id="p1">*</ept> 命令中的參數。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>-Credential</source>
+          <target state="translated">-Credential</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Specifies a user account that has permission to perform this action.</source>
+          <target state="translated">指定具有執行此動作權限的使用者帳戶。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The default is the current user.</source>
+          <target state="translated">預設為目前使用者。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Type a user name, such as User01, Domain01\User01, or User@Domain.com, or enter a <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> object, such as one returned by the Get-Credential cmdlet.</source>
+          <target state="translated">輸入使用者名稱，例如 User01、 Domain01\User01 或 User@Domain.com，或輸入 <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> 物件，例如 Get-credential cmdlet 傳回的物件。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>When you type a user name, this cmdlet prompts you for a password.</source>
+          <target state="translated">當您輸入使用者名稱時，這個指令程式會提示您輸入密碼。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>-EnableNetworkAccess</source>
+          <target state="translated">-EnableNetworkAccess</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet adds an interactive security token to loopback sessions.</source>
+          <target state="translated">指出此 cmdlet 會新增到回送工作階段互動式安全性權杖。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The interactive token lets you run commands in the loopback session that get data from other computers.</source>
+          <target state="translated">互動式權杖可讓您在會從其他電腦取得資料的回送工作階段中執行命令。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>For example, you can run a command in the session that copies XML files from a remote computer to the local computer.</source>
+          <target state="translated">例如，您可以在會將 XML 檔案從遠端電腦複製到本機電腦的工作階段中執行命令。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>A loopback session is a <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> that originates and ends on the same computer.</source>
+          <target state="translated">回送工作階段是 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> ，起始並結束於同一部電腦。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>To create a loopback session, omit the <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> parameter or set its value to dot (.), localhost, or the name of the local computer.</source>
+          <target state="translated">若要建立回送工作階段，請省略 <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> 參數或將其值設定為點 （.）、 localhost 或本機電腦的名稱。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>By default, this cmdlet creates loopback sessions by using a network token, which might not provide sufficient permission to authenticate to remote computers.</source>
+          <target state="translated">根據預設，這個指令程式會使用網路權杖可能未提供足夠的權限來驗證遠端電腦建立回送工作階段。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>EnableNetworkAccess<ept id="p1">*</ept> parameter is effective only in loopback sessions.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>EnableNetworkAccess<ept id="p1">*</ept> 參數是只在回送工作階段中有效。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>If you use <bpt id="p1">*</bpt>EnableNetworkAccess<ept id="p1">*</ept> when you create a session on a remote computer, the command succeeds, but the parameter is ignored.</source>
+          <target state="translated">如果您使用 <bpt id="p1">*</bpt>EnableNetworkAccess<ept id="p1">*</ept> 當您在遠端電腦上建立工作階段時，命令執行成功，但會忽略此參數。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>You can also enable remote access in a loopback session by using the CredSSP value of the <bpt id="p1">*</bpt>Authentication<ept id="p1">*</ept> parameter, which delegates the session credentials to other computers.</source>
+          <target state="translated">您也可以啟用回送工作階段中的遠端存取，使用 CredSSP 值 <bpt id="p1">*</bpt>驗證<ept id="p1">*</ept> 參數，它會委派至其他電腦的工作階段認證。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>To protect the computer from malicious access, disconnected loopback sessions that have interactive tokens, which are those created by using the <bpt id="p1">*</bpt>EnableNetworkAccess<ept id="p1">*</ept> parameter, can be reconnected only from the computer on which the session was created.</source>
+          <target state="translated">若要保護電腦免於惡意存取，中斷連線回送工作階段，具有互動式權杖，也就是那些建立使用 <bpt id="p1">*</bpt>EnableNetworkAccess<ept id="p1">*</ept> 只能從建立工作階段所在的電腦重新連線參數。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Disconnected sessions that use CredSSP authentication can be reconnected from other computers.</source>
+          <target state="translated">使用 CredSSP 驗證且已中斷連線的工作階段可從其他電腦重新連線。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>For more information, see Disconnect-PSSession.</source>
+          <target state="translated">如需詳細資訊，請參閱 Disconnect-pssession。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此參數是在 Windows PowerShell 3.0 引進。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Specifies a friendly name for the <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept>.</source>
+          <target state="translated">指定好記名稱 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>You can use the name to refer to the <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> when you use other cmdlets, such as Get-PSSession and Enter-PSSession.</source>
+          <target state="translated">您可以使用名稱來參考 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 當您使用其他 cmdlet，例如 Get-pssession 和 Enter-pssession。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>The name is not required to be unique to the computer or the current session.</source>
+          <target state="translated">該名稱對電腦或目前工作階段而言不需要是唯一的。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>-Port</source>
+          <target state="translated">連接埠</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Specifies the network port on the remote computer that is used for this connection.</source>
+          <target state="translated">指定遠端電腦上要供此連線使用的網路連接埠。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>To connect to a remote computer, the remote computer must be listening on the port that the connection uses.</source>
+          <target state="translated">若要連線到遠端電腦，遠端電腦必須接聽連線使用的連接埠。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>The default ports are 5985, which is the WinRM port for HTTP, and 5986, which is the WinRM port for HTTPS.</source>
+          <target state="translated">預設通訊埠是 5985 是 HTTP 的 WinRM 連接埠和 5986，也就是 HTTPS 的 WinRM 連接埠。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Before using another port, you must configure the WinRM listener on the remote computer to listen at that port.</source>
+          <target state="translated">之前使用另一個連接埠，您必須在該連接埠接聽在遠端電腦上設定 WinRM 接聽程式。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Use the following commands to configure the listener:</source>
+          <target state="translated">使用下列命令來設定接聽程式：</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Do not use the <bpt id="p1">*</bpt>Port<ept id="p1">*</ept> parameter unless you must.</source>
+          <target state="translated">請勿使用 <bpt id="p1">*</bpt>連接埠<ept id="p1">*</ept> 參數除非必要，否則。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>The port setting in the command applies to all computers or sessions on which the command runs.</source>
+          <target state="translated">命令中的連接埠設定會套用到所有電腦或命令執行所在工作階段。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>An alternate port setting might prevent the command from running on all computers.</source>
+          <target state="translated">替代的連接埠設定可能使得命令無法在全部電腦上執行。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>-Session</source>
+          <target state="translated">工作階段</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Specifies an array of <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> objects that this cmdlet uses as a model for the new <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>.</source>
+          <target state="translated">指定的陣列 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 這個指令程式會使用模型做為新的物件 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>This parameter creates new <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> objects that have the same properties as the specified <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> objects.</source>
+          <target state="translated">此參數建立新 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 物件具有相同的屬性指定 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> 物件。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> objects or a command that creates or gets the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> objects, such as a New-PSSession or Get-PSSession command.</source>
+          <target state="translated">輸入變數，其中包含 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 物件或命令會建立或取得 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> 物件，例如 New-pssession 或 Get-pssession 命令。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>The resulting <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> objects have the same computer name, application name, connection URI, port, configuration name, throttle limit, and Secure Sockets Layer (SSL) value as the originals, but they have a different display name, ID, and instance ID (GUID).</source>
+          <target state="translated">所產生的 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 物件具有相同的電腦名稱、 應用程式名稱、 連線 URI、 連接埠、 組態名稱、 節流限制，以及安全通訊端層 (SSL) 的值在原始檔案中，但它們有不同的顯示名稱、 識別碼和執行個體識別碼 (GUID)。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>-SessionOption</source>
+          <target state="translated">-SessionOption</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Specifies advanced options for the session.</source>
+          <target state="translated">指定工作階段的進階的選項。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Enter a <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> object, such as one that you create by using the New-PSSessionOption cmdlet, or a hash table in which the keys are session option names and the values are session option values.</source>
+          <target state="translated">輸入 <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> 物件，例如您使用 New-pssessionoption cmdlet 建立的其中一個或雜湊表中的索引鍵是工作階段選項名稱和工作階段選項值。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The default values for the options are determined by the value of the $PSSessionOption preference variable, if it is set.</source>
+          <target state="translated">選項的預設值是由 $PSSessionOption 喜好設定變數的值所決定 (若設定了該變數)。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Otherwise, the default values are established by options set in the session configuration.</source>
+          <target state="translated">否則，將以工作階段設定中設定的選項建立預設值。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>The session option values take precedence over default values for sessions set in the $PSSessionOption preference variable and in the session configuration.</source>
+          <target state="translated">工作階段選項值優先順序高於預設值在 $PSSessionOption 喜好設定變數和工作階段設定中設定的工作階段。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>However, they do not take precedence over maximum values, quotas or limits set in the session configuration.</source>
+          <target state="translated">不過，它們的優先順序不會高於工作階段設定中設定的最大值、配額或限制。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>For a description of the session options that includes the default values, see New-PSSessionOption.</source>
+          <target state="translated">包含預設值的工作階段選項的說明，請參閱 New-pssessionoption。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>For information about the $PSSessionOption preference variable, see about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</source>
+          <target state="translated">如需 $PSSessionOption 喜好設定變數的資訊，請參閱 about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248)。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>For more information about session configurations, see about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152).</source>
+          <target state="translated">如需工作階段設定的詳細資訊，請參閱 about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152)。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>-ThrottleLimit</source>
+          <target state="translated">-ThrottleLimit</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum number of concurrent connections that can be established to run this command.</source>
+          <target state="translated">指定為執行此命令可建立的最大同時連線數。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter or enter a value of 0 (zero), the default value, 32, is used.</source>
+          <target state="translated">若省略此參數，或輸入值為 0 (零)，則會使用預設值 32。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>The throttle limit applies only to the current command, not to the session or to the computer.</source>
+          <target state="translated">節流限制僅適用於目前命令，不適用於工作階段或電腦。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>-UseSSL</source>
+          <target state="translated">-UseSSL</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet uses the SSL protocol to establish a connection to the remote computer.</source>
+          <target state="translated">指出此指令程式使用 SSL 通訊協定來連線到遠端電腦。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>By default, SSL is not used.</source>
+          <target state="translated">預設不會使用 SSL。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>WS-Management encrypts all Windows PowerShell content transmitted over the network.</source>
+          <target state="translated">WS-Management 會加密透過網路傳輸的所有 Windows PowerShell 內容。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>UseSSL<ept id="p1">*</ept> parameter offers an additional protection that sends the data across an HTTPS connection instead of an HTTP connection.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>UseSSL<ept id="p1">*</ept> 參數提供額外的保護，可透過 HTTPS 連線取代 HTTP 連線傳送資料。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>If you use this parameter, but SSL is not available on the port that is used for the command, the command fails.</source>
+          <target state="translated">如果您使用這個參數，但無法使用 SSL，使用命令的連接埠上，命令將會失敗。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">這個 cmdlet 支援一般參數:-偵錯、-ErrorAction、-ErrorVariable、-InformationAction-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 以及-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">如需詳細資訊，請參閱 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">輸入</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>System.String, System.URI, System.Management.Automation.Runspaces.PSSession</source>
+          <target state="translated">System.String，System.URI，System.Management.Automation.Runspaces.PSSession</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>You can pipe a string, URI, or session object to this cmdlet.</source>
+          <target state="translated">您可以使用管線字串、 URI、 或工作階段物件，此指令程式。</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">輸出</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.Runspaces.PSSession</source>
+          <target state="translated">System.Management.Automation.Runspaces.PSSession</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">附註</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>This cmdlet uses the Windows PowerShell remoting infrastructure.</source>
+          <target state="translated">這個 Cmdlet 會使用 Windows PowerShell 遠端執行功能基礎結構。</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>To use this cmdlet, the local computer and any remote computers must be configured for Windows PowerShell remoting.</source>
+          <target state="translated">若要使用這個 Cmdlet，本機電腦及任何遠端電腦都必須針對 Windows PowerShell 遠端執行功能做設定。</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Remote_Requirements (http://go.microsoft.com/fwlink/?LinkID=135187).</source>
+          <target state="translated">如需詳細資訊，請參閱 about_Remote_Requirements (http://go.microsoft.com/fwlink/?LinkID=135187)。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>To create a <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> on the local computer, start Windows PowerShell with the Run as administrator option.</source>
+          <target state="translated">若要建立 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 的本機電腦上，啟動 Windows PowerShell 中使用 「 系統管理員身分執行。</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>When you are finished with the <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept>, use the Remove-PSSession cmdlet to delete the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> and release its resources.</source>
+          <target state="translated">您已完成 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept>, ，使用 Remove-pssession cmdlet 刪除 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> 並釋放其資源。</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相關的連結</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>Connect-PSSession</source>
+          <target state="translated">Connect-PSSession</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Disconnect-PSSession</source>
+          <target state="translated">Disconnect-PSSession</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>Enter-PSSession</source>
+          <target state="translated">Enter-PSSession</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>Exit-PSSession</source>
+          <target state="translated">Exit-PSSession</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>Get-PSSession</source>
+          <target state="translated">Get-pssession</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>Invoke-Command</source>
+          <target state="translated">Invoke-Command</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>Receive-PSSession</source>
+          <target state="translated">Receive-PSSession</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>Remove-PSSession</source>
+          <target state="translated">Remove-PSSession</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>about_PSSessions</source>
+          <target state="translated">about_PSSessions</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>about_Remote</source>
+          <target state="translated">about_Remote</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

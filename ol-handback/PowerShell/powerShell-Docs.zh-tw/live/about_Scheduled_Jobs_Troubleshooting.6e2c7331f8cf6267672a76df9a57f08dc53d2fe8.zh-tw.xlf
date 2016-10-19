@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1ffdfac8e4bd1113b033b98a37c71d5ee07a26bc</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\PSScheduledJob\About\about_Scheduled_Jobs_Troubleshooting.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1f649ffd412ce7653746ad3b713f115cca15be2e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">17dcbb7fd096fcb76047e8bdc8ee1c9e3153a13a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>about_Scheduled_Jobs_Troubleshooting</source>
+          <target state="translated">about_Scheduled_Jobs_Troubleshooting</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell 指令程式</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>About Scheduled Jobs Troubleshooting</source>
+          <target state="translated">有關疑難排解的排程工作</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>about_Scheduled_Jobs_Troubleshooting</source>
+          <target state="translated">about_Scheduled_Jobs_Troubleshooting</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>about_Scheduled_Jobs_Troubleshooting</source>
+          <target state="translated">about_Scheduled_Jobs_Troubleshooting</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">簡短描述</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Explains how to resolve problems with scheduled jobs</source>
+          <target state="translated">說明如何解決問題的排程工作</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>LONG DESCRIPTION</source>
+          <target state="translated">詳細描述</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This section describes some of the problems that you might encounter when using the scheduled job features of Windows PowerShell and it suggests solutions to these problems.</source>
+          <target state="translated">本節描述一些使用 Windows PowerShell 的排程的工作功能時，可能會遇到的問題，並建議讓這些問題的解決方案。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Before using Windows PowerShell scheduled jobs, see about_Scheduled_Jobs and the related scheduled jobs about topics.</source>
+          <target state="translated">使用 Windows PowerShell 排程工作之前，請參閱 about_Scheduled_Jobs 和相關的排程的工作的相關主題。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This topic contains the following sections: --  CANNOT FIND JOB RESULTS --  SCHEDULED JOB DOES NOT RUN --  CANNOT GET SCHEDULED JOB : SCHEDULED JOB IS CORRUPTED --  JOB CMDLETS CANNOT CONSISTENTLY FIND SCHEDULED JOBS</source>
+          <target state="translated">本主題包含下列各節:-找不到工作結果-排定工作並不會執行-無法取得排程工作︰ 排程工作已損毀-工作 CMDLET 無法一致地尋找已排程的工作</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>CANNOT FIND JOB RESULTS</source>
+          <target state="translated">找不到工作結果</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>-- Basic method for getting job results in Windows PowerShell</source>
+          <target state="translated">-在 Windows PowerShell 中取得工作結果基本方法</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>When a scheduled job runs, it creates an "instance" of the scheduled job.</source>
+          <target state="translated">排程的工作執行時，它會建立排程工作的 「 執行個體 」。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To view, manage, and  get the results of scheduled job instances, use the Job cmdlets.</source>
+          <target state="translated">若要檢視、 管理及取得排程的工作執行個體的結果，使用 Job cmdlet。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>NOTE: To use the Job cmdlets on instances of scheduled jobs, the PSScheduledJob module must be imported into the session.</source>
+          <target state="translated">注意︰ 若要排程工作的執行個體上使用 Job cmdlet，PSScheduledJob 模組必須匯入工作階段。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To import the PSScheduledJob module, type "Import-Module PSScheduledJob" (without quotation marks) or use any Scheduled Job cmdlet, such as Get-ScheduledJob.</source>
+          <target state="translated">若要匯入 PSScheduledJob 模組，輸入 「 匯入模組 PSScheduledJob"（不含引號） 或使用任何排程工作 cmdlet，例如 Get-scheduledjob。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To get a list of all instances of a scheduled job, use the Get-Job cmdlet.</source>
+          <target state="translated">若要取得排程工作的所有執行個體的清單，請使用 Get-job cmdlet。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Import-Module PSScheduledJob PS C:&gt; Get-Job ProcessJob</source>
+          <target state="translated">PS C: &gt; 匯入模組 PSScheduledJob PS c: &gt; Get-job ProcessJob</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Id     Name         PSJobTypeName   State         HasMoreData     Location</source>
+          <target state="translated">識別碼名稱 PSJobTypeName 狀態 HasMoreData 位置</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>43     ProcessJob   PSScheduledJob  Completed     False           localhost 44     ProcessJob   PSScheduledJob  Completed     False           localhost 45     ProcessJob   PSScheduledJob  Completed     False           localhost 46     ProcessJob   PSScheduledJob  Completed     False           localhost 47     ProcessJob   PSScheduledJob  Completed     False           localhost 48     ProcessJob   PSScheduledJob  Completed     False           localhost 49     ProcessJob   PSScheduledJob  Completed     False           localhost 50     ProcessJob   PSScheduledJob  Completed     False           localhost</source>
+          <target state="translated">43 ProcessJob PSScheduledJob 完成 False localhost 44 ProcessJob PSScheduledJob 完成，則為 False localhost 45 ProcessJob PSScheduledJob 完成 False localhost 46 ProcessJob PSScheduledJob 完成，則為 False localhost 47 ProcessJob PSScheduledJob 完成，則為 False localhost 48 ProcessJob PSScheduledJob 完成，則為 False localhost 49 ProcessJob PSScheduledJob 完成，則為 False localhost 50 ProcessJob PSScheduledJob 完成 False localhost</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The following command uses the Format-Table cmdlet to display the Name, ID, and PSBeginTime properties of a scheduled job instance in a table.</source>
+          <target state="translated">下列命令使用 Format-table 指令程式來顯示資料表中的排程的工作執行個體的名稱、 識別碼和 PSBeginTime 屬性。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-Job ProcessJob | Format-Table -Property Name, ID, PSBeginTime -Auto</source>
+          <target state="translated">PS C: &gt; Get-job ProcessJob |格式化表格的屬性名稱、 識別碼、 PSBeginTime-自動</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Name       Id PSBeginTime</source>
+          <target state="translated">名稱識別碼 PSBeginTime</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>ProcessJob 43 11/2/2011 3:00:02 AM ProcessJob 44 11/3/2011 3:00:02 AM ProcessJob 45 11/4/2011 3:00:02 AM ProcessJob 46 11/5/2011 3:00:02 AM ProcessJob 47 11/6/2011 3:00:02 AM ProcessJob 48 11/7/2011 12:00:01 AM ProcessJob 49 11/7/2011 3:00:02 AM ProcessJob 50 11/8/2011 3:00:02 AM</source>
+          <target state="translated">ProcessJob 43 11/2/2011年上午 3:00:02 ProcessJob 44 11/3/2011年上午 3:00:02 ProcessJob 45 11/4/2011年上午 3:00:02 ProcessJob 46 11/5/2011年上午 3:00:02 ProcessJob 47 11/6/2011年上午 3:00:02 ProcessJob 48 11/7/2011年 12:00:01 AM ProcessJob 49 11/7/2011年上午 3:00:02 ProcessJob 50 11/8/2011年上午 3:00:02</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To get the results of an instance of a scheduled job, use the Receive-Job cmdlet.</source>
+          <target state="translated">若要取得排程工作的執行個體的結果，請使用 Receive-job cmdlet。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The following command gets the results of the newest instance of the ProcessJob (ID = 50).</source>
+          <target state="translated">下列命令會取得最新的執行個體的 ProcessJob 結果 (識別碼 = 50)。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Receive-Job -ID 50</source>
+          <target state="translated">PS C: &gt; 接收工作識別碼 50</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>--  Basic method for finding job results on disk</source>
+          <target state="translated">-尋找磁碟上的工作結果基本方法</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To manage scheduled jobs, use the Job cmdlets, such as Get-Job and Receive-Job.</source>
+          <target state="translated">若要管理排程的工作，使用各種 Job cmdlet，例如 Get-job 和 Receive-job。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>If Get-Job does not get the job instance or Receive-Job does not get the job results, you can search the execution history files for the job on disk.</source>
+          <target state="translated">如果 Get 作業不會取得工作執行個體或接收作業不會取得工作結果，您可以搜尋磁碟上工作的執行歷程記錄檔案。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The execution history contains a record of all triggered job instances.</source>
+          <target state="translated">執行歷程記錄包含所有觸發的工作執行個體的記錄。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Verify that there is a timestamp-named directory in the directory for a scheduled job in the following path:</source>
+          <target state="translated">確認在排定的工作，在下列路徑的目錄中沒有時間戳記命名的目錄︰</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>$home\AppData\Local\Microsoft\Windows\PowerShell\ScheduledJob <ph id="ph1">&lt;ScheduledJobName&gt;</ph>\Output</source>
+          <target state="translated">$home\AppData\Local\Microsoft\Windows\PowerShell\ScheduledJob <ph id="ph1">&lt;ScheduledJobName&gt;</ph>\Output</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Typically: C:\Users<ph id="ph1">&lt;UserName&gt;</ph>\AppData\Local\Microsoft\Windows\PowerShell\ScheduledJob <ph id="ph2">&lt;ScheduledJobName&gt;</ph>\Output</source>
+          <target state="translated">通常︰ C:\Users<ph id="ph1">&lt;UserName&gt;</ph>\AppData\Local\Microsoft\Windows\PowerShell\ScheduledJob <ph id="ph2">&lt;ScheduledJobName&gt;</ph>\Output</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For example, the following command gets the on-disk execution history of the ProcessJob scheduled job.</source>
+          <target state="translated">例如，下列命令會取得 ProcessJob 排定工作的磁碟上執行歷程記錄。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; dir $home\AppData\Local\Microsoft\Windows\PowerShell \ScheduledJobs\ProcessJob\Output</source>
+          <target state="translated">PS C: &gt; dir $home\AppData\Local\Microsoft\Windows\PowerShell \ScheduledJobs\ProcessJob\Output</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Directory: C:\Users\User01\AppData\Local\Microsoft\Windows\PowerShell \ScheduledJobs\ProcessJob\Output</source>
+          <target state="translated">目錄︰ C:\Users\User01\AppData\Local\Microsoft\Windows\PowerShell \ScheduledJobs\ProcessJob\Output</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Mode                LastWriteTime     Length Name</source>
+          <target state="translated">Mode                LastWriteTime     Length Name</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>d----         11/2/2011   3:00 AM            20111102-030002-260 d----         11/3/2011   3:00 AM            20111103-030002-277 d----         11/4/2011   3:00 AM            20111104-030002-209 d----         11/5/2011   3:00 AM            20111105-030002-251 d----         11/6/2011   3:00 AM            20111106-030002-174 d----         11/7/2011  12:00 AM            20111107-000001-914 d----         11/7/2011   3:00 AM            20111107-030002-376</source>
+          <target state="translated">d---11/2/2011年上午 3:00 20111102 到 030002 260 d---2011 年 11 月 3 日上午 3:00 20111103-030002-277 d---2011 年 11 月 4 日上午 3:00 20111104-030002-209 d---2011 年 11 月 5 日上午 3:00 20111105-030002-251 d---2011 年 11 月 6 日上午 3:00 20111106-030002-174 d---2011 年 11 月 7 日上午 12:00 20111107-000001-914 d---2011 年 11 月 7 日上午 3:00 20111107-030002-376</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Each timestamp-named directory represents a job instance.</source>
+          <target state="translated">每個時間戳記名為目錄表示工作執行個體。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The results of each job instance are saved in a Results.xml file in the timestamp-named directory.</source>
+          <target state="translated">每個工作執行個體的結果會儲存 Results.xml 檔案的時間戳記名為目錄中。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>For example, the following command gets the Results.xml files for every saved instance of the ProcessJob scheduled job.</source>
+          <target state="translated">例如，下列命令會取得每個已儲存的執行個體 ProcessJob 排程工作之 Results.xml 檔案。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; dir $home\AppData\Local\Microsoft\Windows\PowerShell\ScheduledJobs \ProcessJob\Output<ph id="ph1">\*</ph>\Results.xml</source>
+          <target state="translated">PS C: &gt; dir $home\AppData\Local\Microsoft\Windows\PowerShell\ScheduledJobs \ProcessJob\Output<ph id="ph1">\*</ph>\Results.xml</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Directory: C:\Users\User01\Appdata\Local\Microsoft\Windows\PowerShell \ScheduledJobs\ProcessJob\Output</source>
+          <target state="translated">目錄︰ C:\Users\User01\Appdata\Local\Microsoft\Windows\PowerShell \ScheduledJobs\ProcessJob\Output</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If the Results.xml file is missing, Windows PowerShell cannot return or display the job results.</source>
+          <target state="translated">如果 Results.xml 檔案，Windows PowerShell 無法傳回，或顯示工作的結果。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>-- The Job cmdlet might not be able to get scheduled job instances or their results because the PSScheduledJob module is not imported into the session.</source>
+          <target state="translated">--Job cmdlet 可能無法取得排程的工作執行個體或其結果，因為 PSScheduledJob 模組未匯入工作階段。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>NOTE:   Before using a Job cmdlet on scheduled job instances, verify that the PSScheduledJob module is included in the session.</source>
+          <target state="translated">附註︰ 之前使用 Job cmdlet 排程的工作執行個體上，確認工作階段中，會包含 PSScheduledJob 模組。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Without the module, the Job cmdlets cannot get scheduled job instances or their results.</source>
+          <target state="translated">如果沒有模組，排程的工作執行個體或其結果，無法取得工作 cmdlet。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>To import the PSScheduledJob module, type:</source>
+          <target state="translated">若要匯入 PSScheduledJob 模組，請輸入︰</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Import-Module PSScheduledJob</source>
+          <target state="translated">匯入模組 PSScheduledJob</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>-- The Receive-Job cmdlet might already have returned the results in the current session.</source>
+          <target state="translated">--Receive-job cmdlet 可能已經有結果中傳回目前工作階段。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If Receive-Job does not return job instance results, it might be because a Receive-Job command has been run for that job instance in the current session without the Keep parameter.</source>
+          <target state="translated">如果接收作業不會傳回工作執行個體的結果，它可能是因為沒有保留參數目前的工作階段中的接收作業命令執行該工作執行個體。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>When you use Receive-Job without the Keep parameter, Receive-Job returns the job results and sets the HasMoreData property of the job instance to False to indicate that it returned all of the results for the job instance and has no more results to return.</source>
+          <target state="translated">如果您未使用 Keep 參數使用接收作業，接收作業會傳回作業結果和工作執行個體的 HasMoreData 屬性設定為 False，表示傳回所有工作執行個體的結果，並傳回沒有其他結果。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This setting is appropriate for standard background jobs, but not for instances of scheduled jobs, which are saved to disk.</source>
+          <target state="translated">這項設定適合的標準背景工作，而不是用於儲存的排程工作的執行個體至磁碟。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>To get the job instance results again, start a new Windows PowerShell session (type "PowerShell" without quotation marks), import the PSScheduledJob module, and try the Receive-Job command again.</source>
+          <target state="translated">工作執行個體結果同樣地，啟動新的 Windows PowerShell 工作階段 （不加引號的類型"PowerShell"）、 匯入 PSScheduledJob 模組中，並再試一次接收作業命令。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Receive-Job -ID 50 PS C:&gt;                     #No results PS C:&gt; PowerShell</source>
+          <target state="translated">PS C: &gt; 接收工作識別碼 50 PS c: &gt; #No 結果 PS &gt; PowerShell</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Copyright (C) 2012 Microsoft Corporation.</source>
+          <target state="translated">Windows PowerShell 著作權 （C) 2012 Microsoft Corporation。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>All rights reserved.</source>
+          <target state="translated">著作權所有，並保留一切權利。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Import-Module PSScheduledJob PS C:&gt; Receive-Job -ID 50</source>
+          <target state="translated">PS C: &gt; 匯入模組 PSScheduledJob PS c: &gt; 接收工作識別碼 50</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Handles  NPM(K)    PM(K)      WS(K) VM(M)   CPU(s)     Id ProcessName</source>
+          <target state="translated">處理 NPM(K) PM(K) WS(K) VM(M) CPU 識別碼 ProcessName</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>1213      33    12348      21676    88    25.71   1608 CcmExec 29       4     1168       2920    43     0.02    748 conhost 46       6     2208       4612    45     0.03   1640 conhost</source>
+          <target state="translated">1213 33 12348 21676 88 25.71 1608 CcmExec 29 4 1168年 2920年 43 0.02 748 conhost 46 6 2208年 4612 45 0.03 1640 conhost</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>...</source>
+          <target state="translated">...</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>To get the result of a job instance more than one time in a session, use the Keep parameter of the Receive-Job cmdlet.</source>
+          <target state="translated">若要取得工作執行個體的結果一次以上的工作階段中，使用 Receive-job cmdlet 的保留參數。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Import-Module PSScheduledJob PS C:&gt; Receive-Job -ID 50 -Keep</source>
+          <target state="translated">PS C: &gt; 匯入模組 PSScheduledJob PS c: &gt; 接收工作識別碼 50-保留</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Handles  NPM(K)    PM(K)      WS(K) VM(M)   CPU(s)     Id ProcessName</source>
+          <target state="translated">處理 NPM(K) PM(K) WS(K) VM(M) CPU 識別碼 ProcessName</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>1213      33    12348      21676    88    25.71   1608 CcmExec 29       4     1168       2920    43     0.02    748 conhost 46       6     2208       4612    45     0.03   1640 conhost</source>
+          <target state="translated">1213 33 12348 21676 88 25.71 1608 CcmExec 29 4 1168年 2920年 43 0.02 748 conhost 46 6 2208年 4612 45 0.03 1640 conhost</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Receive-Job -ID 50 -Keep</source>
+          <target state="translated">PS C: &gt; 接收工作識別碼 50-保留</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Handles  NPM(K)    PM(K)      WS(K) VM(M)   CPU(s)     Id ProcessName</source>
+          <target state="translated">處理 NPM(K) PM(K) WS(K) VM(M) CPU 識別碼 ProcessName</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>1213      33    12348      21676    88    25.71   1608 CcmExec 29       4     1168       2920    43     0.02    748 conhost 46       6     2208       4612    45     0.03   1640 conhost</source>
+          <target state="translated">1213 33 12348 21676 88 25.71 1608 CcmExec 29 4 1168年 2920年 43 0.02 748 conhost 46 6 2208年 4612 45 0.03 1640 conhost</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>-- The scheduled job might be corrupted.</source>
+          <target state="translated">--排定的工作可能會損毀。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>If a scheduled job becomes corrupted, Windows PowerShell deletes the corrupted scheduled job and its results.</source>
+          <target state="translated">如果排定的工作已損毀，Windows PowerShell 會刪除損毀的排程的工作和它的結果。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>You cannot recover the results of a corrupted scheduled job.</source>
+          <target state="translated">您無法復原損毀的排程工作的結果。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>To determine if a scheduled job still exists, use the Get-ScheduledJob cmdlet.</source>
+          <target state="translated">若要判斷排程的工作是否仍存在，請使用 Get-scheduledjob 指令程式。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-ScheduledJob</source>
+          <target state="translated">PS C: &gt; Get-scheduledjob</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>-- The number of results might have exceeded the ExecutionHistoryLength of the scheduled job.</source>
+          <target state="translated">--結果的數目可能超過 ExecutionHistoryLength 排程工作。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The ExecutionHistoryLength property of a scheduled job determines how many job instances, and their results, are saved to disk.</source>
+          <target state="translated">排程工作的 ExecutionHistoryLength 屬性決定工作執行個體數目，以及它們的結果，會儲存到磁碟。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The default value is 32.</source>
+          <target state="translated">預設值為 32。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>When the number of instances of a scheduled job exceeds this value, Windows PowerShell deletes the oldest job instance to make room for each new job instance.</source>
+          <target state="translated">當排程工作的執行個體的數目超過此值時，Windows PowerShell 會刪除最舊的工作執行個體，以騰出空間給每個新的工作執行個體。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>To get the value of the ExecutionHistoryLength property of a scheduled job, use the following command format:</source>
+          <target state="translated">若要取得排程工作的 ExecutionHistoryLength 屬性的值，請使用下列命令格式︰</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>(Get-ScheduledJob <ph id="ph1">&lt;JobName&gt;</ph>).ExecutionHistoryLength</source>
+          <target state="translated">(Get-scheduledjob <ph id="ph1">&lt;JobName&gt;</ph>)。ExecutionHistoryLength</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>For example, the following command gets the value of the ExecutionHistoryLength property of the ProcessJob scheduled job.</source>
+          <target state="translated">例如，下列命令會取得 ProcessJob 排程工作的 ExecutionHistoryLength 屬性的值。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; (Get-ScheduledJob ProcessJob).ExecutionHistoryLength</source>
+          <target state="translated">PS C: &gt; (Get-scheduledjob ProcessJob)。ExecutionHistoryLength</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>To set or change the value of the ExecutionHistoryLength property, use the MaxResultCount parameter of the Register-ScheduledJob and Set-ScheduledJob cmdlets.</source>
+          <target state="translated">若要設定或變更 ExecutionHistoryLength 屬性的值，使用 Register-scheduledjob 和 Set-scheduledjob cmdlet 的 MaxResultCount 參數。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The following command increases the value of the ExecutionHistoryLength property to 50.</source>
+          <target state="translated">下列命令會增加到 50 ExecutionHistoryLength 屬性的值。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-ScheduledJob ProcessJob | Set-ScheduledJob -MaxResultCount 50</source>
+          <target state="translated">PS C: &gt; Get-scheduledjob ProcessJob |Set-scheduledjob MaxResultCount 50</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>-- The job instance results might have been deleted</source>
+          <target state="translated">--工作執行個體的結果可能已被刪除</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The ClearExecutionHistory parameter of the Set-ScheduledJob cmdlet deletes the execution history of a job.</source>
+          <target state="translated">Set-scheduledjob cmdlet 的 ClearExecutionHistory 參數會刪除作業的執行歷程記錄。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>You can use this feature to free up disk space or delete results that are not needed, or already used, analyzed or saved in a different location.</source>
+          <target state="translated">您可以使用這項功能，以釋放磁碟空間或刪除不需要或已使用、 分析或儲存在不同位置的結果。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>To delete the execution history of a scheduled job, use the ClearExecutionHistory parameter of the scheduled job.</source>
+          <target state="translated">若要刪除排程工作的執行歷程記錄，使用 ClearExecutionHistory 參數之排程工作。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The following command deletes the execution history of the ProcessJob scheduled job.</source>
+          <target state="translated">下列命令會刪除 ProcessJob 排定工作的執行歷程記錄。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-ScheduledJob ProcessJob | Set-ScheduledJob -ClearExecutionHistory</source>
+          <target state="translated">PS C: &gt; Get-scheduledjob ProcessJob |Set-scheduledjob ClearExecutionHistory</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Also, the Remove-Job cmdlet deletes job results.</source>
+          <target state="translated">此外，Remove-job cmdlet 會刪除工作結果。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>When you use Remove-Job to delete a scheduled job, it deletes all instances of the job on disk, including the execution history and all job results.</source>
+          <target state="translated">當您刪除排定的工作使用 Remove-job 時，它會刪除所有的執行個體上的磁碟，包括執行歷程記錄以及所有工作結果的工作。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>-- Jobs started by using the Start-Job cmdlet are not saved to disk.</source>
+          <target state="translated">-使用 Start-job cmdlet 啟動的工作不會儲存到磁碟。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>When you use Start-Job to start a scheduled job, instead of using a job trigger, Start-Job starts a standard background job.</source>
+          <target state="translated">當您使用 Start-job 啟動排定的工作，而不是使用工作的觸發程序，以標準背景工作會啟動開始工作。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The background job and its results are not stored in the execution history of the job on disk.</source>
+          <target state="translated">背景工作，而其結果不會儲存在磁碟上的作業的執行歷程記錄中。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>You can use the Get-Job cmdlet to get the job and the Receive-Job cmdlet to get the job results, but the results are available only until you receive them, unless you use the Keep parameter of the Receive-Job cmdlet.</source>
+          <target state="translated">您可以使用 Get-job cmdlet 取得工作和 Receive-job cmdlet 取得工作結果，但有可用的結果才得到它們，除非您使用 Receive-job cmdlet 的保留參數。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Also, background jobs and their results are session-specific; they exist only in the session in which they are created.</source>
+          <target state="translated">此外，背景工作和其結果是工作階段特有的。只存在於所建立的工作階段。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>If you delete the job (Remove-Job), close the session or close Windows PowerShell, the job instance and its results are deleted.</source>
+          <target state="translated">如果您刪除工作 (Job) 時，關閉工作階段，或關閉 Windows PowerShell 工作執行個體，其結果刪除。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>SCHEDULED JOB DOES NOT RUN</source>
+          <target state="translated">排程的工作不會執行</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>-- Scheduled jobs do not run automatically if the job triggers or the scheduled job are disabled.</source>
+          <target state="translated">-如果停用工作觸發程序或排程的工作排程工作自動執行。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Use the Get-ScheduledJob cmdlet to get the scheduled job.</source>
+          <target state="translated">使用 Get-scheduledjob cmdlet 來取得排程的工作。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Verify that the value of the Enabled property of the scheduled job is True ($true).</source>
+          <target state="translated">確認排程工作的 Enabled 屬性值為 True ($true)。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-ScheduledJob ProcessJob</source>
+          <target state="translated">PS C: &gt; Get-scheduledjob ProcessJob</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Id         Name            Triggers        Command         Enabled</source>
+          <target state="translated">識別碼名稱保護啟用觸發程序的命令</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>4          ProcessJob      {1, 2}          Get-Process     True</source>
+          <target state="translated">{1，2} 4 ProcessJob Get-process True</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; (Get-ScheduledJob ProcessJob).Enabled True</source>
+          <target state="translated">PS C: &gt; (Get-scheduledjob ProcessJob)。為 true，則啟用</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Use the Get-JobTrigger cmdlet to get the job triggers of the scheduled job.</source>
+          <target state="translated">您可以使用 Get-jobtrigger cmdlet 來取得排程工作的工作觸發程序。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Verify that the value of the Enabled property of the job trigger is True ($true)</source>
+          <target state="translated">確認工作觸發程序的 Enabled 屬性值為 True ($true)</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-ScheduledJob ProcessJob | Get-JobTrigger</source>
+          <target state="translated">PS C: &gt; Get-scheduledjob ProcessJob |Get-jobtrigger</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Id         Frequency       Time                   DaysOfWeek              Enabled</source>
+          <target state="translated">啟用識別碼頻率時間 DaysOfWeek</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>1          Weekly          11/7/2011 5:00:00 AM   {Monday, Thursday}      True 2          Daily           11/7/2011 3:00:00 PM                           True</source>
+          <target state="translated">1 週 2011 年 11 月 7 日上午 5:00:00 {星期一、 星期四} True 2 每日 2011 年 11 月 7 日下午 3:00:00 True</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-ScheduledJob ProcessJob | Get-JobTrigger | Format-Table ID, Enabled -Auto</source>
+          <target state="translated">PS C: &gt; Get-scheduledjob ProcessJob |Get-jobtrigger |格式資料表識別碼、 已啟用-自動</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Id Enabled</source>
+          <target state="translated">啟用的識別碼</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>1    True 2    True</source>
+          <target state="translated">1 2 為 true，則為 True</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>-- Scheduled jobs do not run automatically if the job triggers are invalid.</source>
+          <target state="translated">-如果是無效的工作觸發程序排程工作自動執行。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>For example, a job trigger might specify a date in the past or a date that does not occur, such as the 5th Monday of the month.</source>
+          <target state="translated">比方說，過去的日期或日期，不會發生，例如每月 5 日星期一，可以指定工作觸發程序。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>-- Scheduled jobs do not run automatically if the conditions of the job trigger or the job options are not satisfied.</source>
+          <target state="translated">-如果不滿足條件的工作觸發程序或工作選項，則排程工作自動執行。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>For example, a scheduled job that runs only when a particular user logs on to the computer will not run if that user does not log on or only connects remotely.</source>
+          <target state="translated">例如，如果該使用者不是登入，或只從遠端連線，將無法執行特定的使用者登入電腦時才會執行排程的工作。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Examine the options of the scheduled job and make sure that they are satisfied.</source>
+          <target state="translated">檢查排程工作選項，並確定感到滿意。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>For example, a scheduled job that requires that the computer be idle or requires a network connection, or has a long IdleDuration or a brief IdleTimeout might never run.</source>
+          <target state="translated">例如，排定的工作，必須在電腦閒置或需要網路連線，或具有長 IdleDuration 或可能永遠不會執行短暫的時間。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Use the Get-ScheduledJobOption cmdlet to examine the job options and their values.</source>
+          <target state="translated">您可以使用 Get-scheduledjoboption cmdlet 來檢查工作選項，以及它們的值。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-ScheduledJob -Name ProcessJob</source>
+          <target state="translated">PS C: &gt; Get-scheduledjob-名稱 ProcessJob</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>StartIfOnBatteries     : False StopIfGoingOnBatteries : True WakeToRun              : True StartIfNotIdle         : True StopIfGoingOffIdle     : False RestartOnIdleResume    : False IdleDuration           : 00:10:00 IdleTimeout            : 01:00:00 ShowInTaskScheduler    : True RunElevated            : False RunWithoutNetwork      : True DoNotAllowDemandStart  : False MultipleInstancePolicy : IgnoreNew JobDefinition          : Microsoft.PowerShell.ScheduledJob.ScheduledJobDefinition</source>
+          <target state="translated">StartIfOnBatteries: False StopIfGoingOnBatteries: True WakeToRun: True StartIfNotIdle: True StopIfGoingOffIdle: False RestartOnIdleResume: False IdleDuration︰ 時間 00:10:00: 01:00:00 ShowInTaskScheduler: True RunElevated: False RunWithoutNetwork: True DoNotAllowDemandStart: False MultipleInstancePolicy: IgnoreNew JobDefinition: Microsoft.PowerShell.ScheduledJob.ScheduledJobDefinition</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>For descriptions of the scheduled job options, see the help topic for the New-ScheduledJobOption cmdlet (http://go.microsoft.com/fwlink/?LinkID=223919).</source>
+          <target state="translated">排程的工作選項的說明，請參閱 [說明] 主題 New-scheduledjoboption 指令程式 (http://go.microsoft.com/fwlink/?LinkID=223919)。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>-- The scheduled job instance might have failed.</source>
+          <target state="translated">--已排程的工作執行個體可能已經失敗。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>If a scheduled job command fails, Windows PowerShell reports it immediately by generating an error message.</source>
+          <target state="translated">如果排程的工作命令失敗，Windows PowerShell 來報告它立即產生錯誤訊息。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>However, if the job fails when Task Scheduler tries to run it, the error is not available to Windows PowerShell.</source>
+          <target state="translated">不過，若當 [工作排程器] 嘗試執行工作時失敗，該錯誤不會顯示在 Windows PowerShell 中。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Use the following methods to detect and correct job failures.</source>
+          <target state="translated">使用下列方法，以偵測和修正工作失敗。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>-- Check the Task Scheduler event log for errors.</source>
+          <target state="translated">--檢查工作排程器事件記錄檔的錯誤。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>To check the log, use Event Viewer or a Windows PowerShell command such as the following:</source>
+          <target state="translated">若要檢查記錄檔，請使用事件檢視器或 Windows PowerShell 命令，如下所示︰</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Get-WinEvent -LogName Microsoft-Windows-TaskScheduler/Operational | Where {$_.Message -like "fail"}</source>
+          <target state="translated">Get-winevent-LogName Microsoft Windows-TaskScheduler/操作 |其中 {$_。像 「 失敗 」 訊息}</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>-- Check the job record in Task Scheduler.</source>
+          <target state="translated">--檢查工作記錄，工作排程器中。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell scheduled jobs are stored in the following Task Scheduled folder:</source>
+          <target state="translated">Windows PowerShell 排程工作會儲存在下列排程工作資料夾中︰</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Task Scheduler Library\Microsoft\Windows\PowerShell\ScheduledJobs</source>
+          <target state="translated">Task Scheduler Library\Microsoft\Windows\PowerShell\ScheduledJobs</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>-- The scheduled job might not run because of insuffienct permission.</source>
+          <target state="translated">--排定的工作可能無法執行，因為 insuffienct 權限。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Scheduled jobs run with the permissions of the user who created the job or the permissions of the user who is specified by the Credential parameter in the Register-ScheduledJob or Set-ScheduledJob command.</source>
+          <target state="translated">使用建立工作之使用者的權限或認證參數，Register-scheduledjob 或 Set-scheduledjob 命令中所指定之使用者的權限來執行排程的工作。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>If that user does not have permission to run the commands or scripts, the job fails.</source>
+          <target state="translated">如果該使用者沒有權限執行命令或指令碼，工作將會失敗。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>CANNOT GET SCHEDULED JOB : SCHEDULED JOB IS CORRUPTED</source>
+          <target state="translated">無法取得排程工作︰ 已損毀的排定的工作</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>On rare occasions, scheduled jobs can become corrupted or contain internal contradictions that cannot be resolved.</source>
+          <target state="translated">在少數情況下，排程的工作可能變成損毀，或包含無法解析的內部互相矛盾。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Typically, this happens when the XML files for the scheduled job are manually edited, resulting in invalid XML.</source>
+          <target state="translated">通常，這種情況時手動編輯 XML 檔案，用於排程工作，因而產生無效的 XML。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>When a scheduled job is corrupted, Windows PowerShell attempts to delete the scheduled job, its execution history, and its results from disk.</source>
+          <target state="translated">當排定的工作已損毀時，Windows PowerShell 會嘗試從磁碟刪除排程的工作、 其執行記錄，以及它的結果。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>If it cannot remove the scheduled job, you will get a corrupted job error message each time you run the Get-ScheduledJob cmdlet.</source>
+          <target state="translated">如果它不能移除排程的工作，就會損毀的作業錯誤訊息每次執行 Get-scheduledjob 指令程式。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>To remove a corrupted scheduled job, use either one of the following methods.</source>
+          <target state="translated">若要移除損毀的排程的工作，請使用下列方法之一。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>-- Delete the <ph id="ph1">&lt;ScheduledJobName&gt;</ph> directory for the scheduled job.</source>
+          <target state="translated">--刪除 <ph id="ph1">&lt;ScheduledJobName&gt;</ph> 來排定的工作目錄。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Do not delete the ScheduledJob directory.</source>
+          <target state="translated">請勿刪除 ScheduledJob 目錄。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The directory is located at $env:UserProfile\AppData\Local\Microsoft\Windows\PowerShell \ScheduledJobs</source>
+          <target state="translated">目錄是位於 $env: UserProfile\AppData\Local\Microsoft\Windows\PowerShell \ScheduledJobs</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Typically: C:\Users<ph id="ph1">&lt;UserName&gt;</ph>\AppData\Local\Microsoft\Windows\PowerShell \ScheduledJobs<ph id="ph2">&lt;ScheduledJobName&gt;</ph>.</source>
+          <target state="translated">通常︰ C:\Users<ph id="ph1">&lt;UserName&gt;</ph>\AppData\Local\Microsoft\Windows\PowerShell \ScheduledJobs<ph id="ph2">&lt;ScheduledJobName&gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>-- Use Task Scheduler to delete the scheduled job.</source>
+          <target state="translated">-若要刪除排程的工作中使用工作排程器。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell scheduled tasks appear in the following Task Scheduler path:</source>
+          <target state="translated">Windows PowerShell 排程工作會出現在下列的工作排程器路徑︰</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Task Scheduler Library\Microsoft\Windows\PowerShell\ScheduledJobs</source>
+          <target state="translated">Task Scheduler Library\Microsoft\Windows\PowerShell\ScheduledJobs</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>-- JOB CMDLETS CANNOT CONSISTENTLY FIND SCHEDULED JOBS</source>
+          <target state="translated">-JOB CMDLET 無法一致地尋找排程的工作</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>When the PSScheduledJob module is not in the current session, the Job cmdlets cannot get scheduled jobs, start them, or get their results.</source>
+          <target state="translated">PSScheduledJob 模組不是目前的工作階段中，當工作 cmdlet 無法取得排程的工作、 啟動，或取得結果。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>To import the PSScheduledJob module, type "Import-Module PSScheduledJob" or run or get any cmdlet in the module, such as the Get-ScheduledJob cmdlet.</source>
+          <target state="translated">若要匯入 PSScheduledJob 模組，請輸入 「 匯入模組 PSScheduledJob 」 或執行或取得任何 cmdlet 模組，例如 Get-scheduledjob 指令程式中。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, modules are imported automatically when you get or use any cmdlet in the module.</source>
+          <target state="translated">從 Windows PowerShell 3.0 開始，模組會自動匯入時取得，或使用模組中的任何指令程式。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>When the PSScheduledJob cmdlet is not in the current session, the following command sequence is possible.</source>
+          <target state="translated">PSScheduledJob cmdlet 未在目前工作階段中，下列命令序列可供使用。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-Job ProcessJob</source>
+          <target state="translated">PS C: &gt; Get-job ProcessJob</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Get-Job : The command cannot find the job because the job name ProcessJob was not found.</source>
+          <target state="translated">Get 作業︰ 命令找不到工作因為工作名稱 ProcessJob 找不到。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Verify the value of the Name parameter, and then try the command again.</source>
+          <target state="translated">請確認參數的值名稱，並再試一次命令。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>CategoryInfo          : ObjectNotFound: (ProcessJob:String) [Get-Job], PSArgumentException</source>
+          <target state="translated">CategoryInfo: ObjectNotFound: (ProcessJob:String) [Get-job]，PSArgumentException</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>FullyQualifiedErrorId : JobWithSpecifiedNameNotFound,Microsoft.PowerShell.</source>
+          <target state="translated">FullyQualifiedErrorId: JobWithSpecifiedNameNotFound,Microsoft.PowerShell。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Commands.GetJobCommand</source>
+          <target state="translated">Commands.GetJobCommand</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-Job PS C:&gt; Get-ScheduledJob ProcessJob</source>
+          <target state="translated">PS C: &gt; Get-job PS c: &gt; Get-scheduledjob ProcessJob</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Id         Name            Triggers        Command      Enabled</source>
+          <target state="translated">識別碼名稱保護啟用觸發程序的命令</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>4          ProcessJob      {1}             Get-Process  True</source>
+          <target state="translated">4 ProcessJob {1 \} 取得處理序 True</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-Job ProcessJob</source>
+          <target state="translated">PS C: &gt; Get-job ProcessJob</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Id     Name         PSJobTypeName   State       HasMoreData     Location</source>
+          <target state="translated">識別碼名稱 PSJobTypeName 狀態 HasMoreData 位置</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>43     ProcessJob   PSScheduledJob  Completed   True            localhost 44     ProcessJob   PSScheduledJob  Completed   True            localhost 45     ProcessJob   PSScheduledJob  Completed   True            localhost 46     ProcessJob   PSScheduledJob  Completed   True            localhost 47     ProcessJob   PSScheduledJob  Completed   True            localhost 48     ProcessJob   PSScheduledJob  Completed   True            localhost 49     ProcessJob   PSScheduledJob  Completed   True            localhost 50     ProcessJob   PSScheduledJob  Completed   True            localhost</source>
+          <target state="translated">43 ProcessJob PSScheduledJob 完成，則為 True localhost 44 ProcessJob PSScheduledJob 完成，則為 True localhost 45 ProcessJob PSScheduledJob 完成，則為 True localhost 46 ProcessJob PSScheduledJob 完成，則為 True localhost 47 ProcessJob PSScheduledJob 完成，則為 True localhost 48 ProcessJob PSScheduledJob 完成，則為 True localhost 49 ProcessJob PSScheduledJob 完成，則為 True localhost 50 ProcessJob PSScheduledJob 完成，則為 True localhost</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>This behavior occurs because the Get-ScheduledJob command automatically imports the PSScheduledJob module, and then runs the command.</source>
+          <target state="translated">Get-scheduledjob 命令會自動匯入 PSScheduledJob 模組，並執行命令，就會發生這個問題。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>SEE ALSO</source>
+          <target state="translated">另請參閱</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>about_Scheduled_Jobs about_Scheduled_Jobs_Basics about_Scheduled_Jobs_Advanced</source>
+          <target state="translated">about_Scheduled_Jobs about_Scheduled_Jobs_Basics about_Scheduled_Jobs_Advanced</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

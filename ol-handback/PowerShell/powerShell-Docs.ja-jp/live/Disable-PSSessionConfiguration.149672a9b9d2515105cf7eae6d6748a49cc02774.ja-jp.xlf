@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8f7b596cd2953c7668b1d672e9d0562773cf1bce</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Core\Disable-PSSessionConfiguration.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">543e668fd2de45ac6d981f37f4f1b4199b971828</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fb6ac7d2586d667c089af7ee84e4f61cd93dfcf5</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Disable-PSSessionConfiguration</source>
+          <target state="translated">Disable-pssessionconfiguration</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Disable-PSSessionConfiguration</source>
+          <target state="translated">Disable-pssessionconfiguration</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Disables session configurations on the local computer.</source>
+          <target state="translated">ローカル コンピューター上のセッション構成を無効にします。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">構文</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">説明</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Disable-PSSessionConfiguration<ept id="p1">**</ept> cmdlet disables session configurations on the local computer, thereby preventing all users from using the session configurations to create a user-managed sessions ("PSSessions") on the local computer.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Disable-pssessionconfiguration<ept id="p1">**</ept> コマンドレットは、すべてのユーザーからのセッション構成を使用して、ローカル コンピューターのユーザー管理セッション ("Pssession") を作成するように、ローカル コンピューター上のセッション構成を無効にします。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This is an advanced cmdlet that is designed to be used by system administrators to manage customized session configurations for their users.</source>
+          <target state="translated">これは、ユーザーに応じてカスタマイズされたセッション構成を管理するために、システム管理者向けに設計された高度なコマンドレットです。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, the <bpt id="p1">**</bpt>Disable-PSSessionConfiguration<ept id="p1">**</ept> cmdlet sets the <bpt id="p2">**</bpt>Enabled<ept id="p2">**</ept> setting of the session configuration (WSMan:\localhost\Plugins<ph id="ph1">\\\&lt;</ph>SessionConfiguration<ph id="ph2">\&gt;</ph>\Enabled) to "False".</source>
+          <target state="translated">Windows PowerShell 3.0 以降では、 <bpt id="p1">**</bpt>Disable-pssessionconfiguration<ept id="p1">**</ept> コマンドレットのセット、 <bpt id="p2">**</bpt>有効<ept id="p2">**</ept> セッション構成の設定 (WSMan:\localhost\Plugins<ph id="ph1">\\\&lt;</ph>SessionConfiguration<ph id="ph2">\&gt;</ph>\Enabled) を"False"です。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, the <bpt id="p1">**</bpt>Disable-PSSessionConfiguration<ept id="p1">**</ept> cmdlet adds a "Deny_All" entry to the security descriptor of one or more registered session configurations.</source>
+          <target state="translated">Windows PowerShell 2.0 では、 <bpt id="p1">**</bpt>Disable-pssessionconfiguration<ept id="p1">**</ept> コマンドレットは、1 つまたは複数の登録済みのセッション構成のセキュリティ記述子に、"Deny_All"エントリを追加します。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Without parameters, <bpt id="p1">**</bpt>Disable-PSSessionConfiguration<ept id="p1">**</ept> disables the Microsoft.PowerShell configuration, which is the default configuration that is used for sessions.</source>
+          <target state="translated">パラメーターを指定しない <bpt id="p1">**</bpt>Disable-pssessionconfiguration<ept id="p1">**</ept> 、セッションに使用される既定の構成である Microsoft.PowerShell 構成を無効にします。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Unless the user specifies a different configuration, both local and remote users are effectively prevented from creating any sessions that connect to the computer.</source>
+          <target state="translated">ユーザーが別の構成を指定していない限り、ローカル ユーザーとリモート ユーザーの両方がコンピューターに接続するセッションをできないように、効果的に防ぐことができます。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To disable all session configurations on the computer, use Disable-PSRemoting.</source>
+          <target state="translated">コンピューター上のすべてのセッション構成を無効にするには、Disable-PSRemoting を使用します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This command disables the Microsoft.PowerShell session configuration.</source>
+          <target state="translated">このコマンドは、Microsoft.PowerShell セッション構成を無効にします。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This command disables all registered session configurations on the computer.</source>
+          <target state="translated">このコマンドは、コンピューター上のすべての登録済みのセッション構成を無効にします。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This command disables all session configurations that have names that begin with "Microsoft".</source>
+          <target state="translated">このコマンドは "Microsoft" で始まる名前を持つすべてのセッション構成を無効にします。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> parameter to suppress all user prompts from the command.</source>
+          <target state="translated">コマンドを使用して、 <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> すべてのユーザーを抑制するパラメーターは、コマンドのメッセージが表示されます。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This command disables the MaintenanceShell and AdminShell session configurations.</source>
+          <target state="translated">このコマンドは、MaintenanceShell および AdminShell セッション構成を無効にします。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The command uses a pipeline operator (|) to send the results of a Get-PSSessionConfiguration command to Disable-PSSessionConfiguration.</source>
+          <target state="translated">コマンドは、Get-pssessionconfiguration コマンドの結果を送信するのにを Disable-pssessionconfiguration にパイプライン演算子 (|) を使用します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This example shows the effect of disabling a session configuration.</source>
+          <target state="translated">この例は、セッション構成を無効にした場合の効果を示しています。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">パラメータ</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Suppresses all user prompts.</source>
+          <target state="translated">すべてのユーザー プロンプトが表示されないようにします。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>By default, you are prompted to confirm each operation.</source>
+          <target state="translated">既定では、それぞれの操作について確認を求められます。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Specifies the names of session configurations to disable.</source>
+          <target state="translated">無効にするセッション構成の名前を指定します。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Enter one or more configuration names.</source>
+          <target state="translated">1 つまたは複数の構成名を入力します。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">ワイルドカードを使用できます。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You can also pipe a string that contains a configuration name or a session configuration object to Disable-PSSessionConfiguration.</source>
+          <target state="translated">パイプを使用して、構成名を含む文字列またはセッション構成オブジェクトを Disable-PSSessionConfiguration に渡すこともできます。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, Disable-PSSessionConfiguration disables the Microsoft.PowerShell session configuration.</source>
+          <target state="translated">このパラメーターを省略した場合、Disable-PSSessionConfiguration は Microsoft.PowerShell セッション構成を無効にします。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">コマンドレットを実行する前に確認するように求められます。コマンドレットを実行する前に確認するように求められます。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">コマンドレットを実行するとどのような結果になるかを表示します。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">コマンドレットは実行されません。コマンドレットが実行された場合の処理を示しています。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">コマンドレットは実行されません。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">このコマンドレットは、共通のパラメーターをサポートしています:-デバッグ、-erroraction、-errorvariable、- InformationAction-InformationVariable、- OutVariable、-OutBuffer、- PipelineVariable、- Verbose、および - WarningVariable です。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">詳細については、about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">入力</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Microsoft.PowerShell.Commands.PSSessionConfigurationCommands#PSSessionConfiguration, System.String</source>
+          <target state="translated">Microsoft.PowerShell.Commands.PSSessionConfigurationCommands#PSSessionConfiguration、System.String</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>You can pipe a session configuration object or a string that contains the name of a session configuration to Disable-PSSessionConfiguration.</source>
+          <target state="translated">パイプを使用して、セッション構成オブジェクトまたはセッション構成の名前を含む文字列を Disable-PSSessionConfiguration に渡すことができます。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">出力</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">None</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This cmdlet does not return any objects.</source>
+          <target state="translated">このコマンドレットはオブジェクトを返しません。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ノート</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To run this cmdlet on Windows Vista, Windows Server 2008, and later versions of Windows, you must start Windows PowerShell with the "Run as administrator" option.</source>
+          <target state="translated">Windows Vista、Windows Server 2008、およびそれ以降のバージョンの Windows でこのコマンドレットを実行するには、[管理者として実行] オプションを指定して Windows PowerShell を起動する必要があります。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">関連リンク</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Disable-PSSessionConfiguration</source>
+          <target state="translated">Disable-pssessionconfiguration</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Enable-PSSessionConfiguration</source>
+          <target state="translated">Enable-pssessionconfiguration</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Get-PSSessionConfiguration</source>
+          <target state="translated">Get-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>New-PSSessionConfigurationFile</source>
+          <target state="translated">New-PSSessionConfigurationFile</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>New-PSSessionConfigurationOption</source>
+          <target state="translated">新しい PSSessionConfigurationOption</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Register-PSSessionConfiguration</source>
+          <target state="translated">Register-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Set-PSSessionConfiguration</source>
+          <target state="translated">Set-pssessionconfiguration</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Test-PSSessionConfigurationFile</source>
+          <target state="translated">Test-PSSessionConfigurationFile</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Unregister-PSSessionConfiguration</source>
+          <target state="translated">登録を解除 PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>WSMan Provider</source>
+          <target state="translated">WSMan プロバイダー</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>about_Session_Configurations</source>
+          <target state="translated">about_Session_Configurations</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>about_Session_Configuration_Files</source>
+          <target state="translated">about_Session_Configuration_Files</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

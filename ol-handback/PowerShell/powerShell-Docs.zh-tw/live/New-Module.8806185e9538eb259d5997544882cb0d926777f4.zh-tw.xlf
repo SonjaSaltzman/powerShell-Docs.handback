@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a05e4c942ee70d02675c5dcffc9acfdb9e898df9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\New-Module.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">de57bdcd7976db6d1375067ed2ea0bdee1c8431b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">857478771e86fbb3f381f716b6d53d57e2f2bd5f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell 指令程式</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>New-Module</source>
+          <target state="translated">New-Module</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>New-Module</source>
+          <target state="translated">New-Module</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Creates a new dynamic module that exists only in memory.</source>
+          <target state="translated">建立只存在記憶體中的新動態模組。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">語法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>ScriptBlock (Default)</source>
+          <target state="translated">指令碼區塊 （預設值）</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="translated">名稱</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">描述</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-Module<ept id="p1">**</ept> cmdlet creates a dynamic module from a script block.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>New-module<ept id="p1">**</ept> cmdlet 會從指令碼區塊建立動態模組。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The members of the dynamic module, such as functions and variables, are immediately available in the session and remain available until you close the session.</source>
+          <target state="translated">動態模組的成員 (例如函式與變數) 可立即在工作階段中使用，而且在您關閉工作階段之前保持可用。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Like static modules, by default, the cmdlets and functions in a dynamic module are exported and the variables and aliases are not.</source>
+          <target state="translated">類似靜態模組，預設會匯出動態模組中的 Cmdlet 與函式，而不會匯出變數與別名。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>However, you can use the Export-ModuleMember cmdlet and the parameters of <bpt id="p1">**</bpt>New-Module<ept id="p1">**</ept> to override the defaults.</source>
+          <target state="translated">不過，您可以使用 Export-modulemember cmdlet 和參數 <bpt id="p1">**</bpt>New-module<ept id="p1">**</ept> 覆寫預設值。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can also use the <bpt id="p1">*</bpt>AsCustomObject<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>New-Module<ept id="p2">**</ept> to return the dynamic module as a custom object.</source>
+          <target state="translated">您也可以使用 <bpt id="p1">*</bpt>AsCustomObject<ept id="p1">*</ept> 參數 <bpt id="p2">**</bpt>New-module<ept id="p2">**</ept> 傳回以自訂物件的動態模組。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The members of the modules, such as functions, are implemented as script methods of the custom object instead of being imported into the session.</source>
+          <target state="translated">模組的成員 (例如函式) 會以自訂物件的指令碼方法實作，而不會匯入到工作階段。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Dynamic modules exist only in memory, not on disk.</source>
+          <target state="translated">動態模組只存在於記憶體中，不在磁碟上。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Like all modules, the members of dynamic modules run in a private module scope that is a child of the global scope.</source>
+          <target state="translated">類似所有模組，動態模組的成員會在全域範圍的子系私人模組範圍中執行。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Get-Module cannot get a dynamic module, but Get-Command can get the exported members.</source>
+          <target state="translated">Get-Module 無法取得動態模組，但是 Get-Command 可以取得匯出的成員。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To make a dynamic module available to <bpt id="p1">**</bpt>Get-Module<ept id="p1">**</ept>, pipe a <bpt id="p2">**</bpt>New-Module<ept id="p2">**</ept> command to Import-Module, or pipe the module object that <bpt id="p3">**</bpt>New-Module<ept id="p3">**</ept> returns to <bpt id="p4">**</bpt>Import-Module<ept id="p4">**</ept>.</source>
+          <target state="translated">要提供給動態模組 <bpt id="p1">**</bpt>Get-module<ept id="p1">**</ept>, ，管道 <bpt id="p2">**</bpt>New-module<ept id="p2">**</ept> 命令來匯入模組或管道模組物件 <bpt id="p3">**</bpt>New-module<ept id="p3">**</ept> 傳回 <bpt id="p4">**</bpt>匯入模組<ept id="p4">**</ept>。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This action adds the dynamic module to the <bpt id="p1">**</bpt>Get-Module<ept id="p1">**</ept> list, but it does not save the module to disk or make it persistent.</source>
+          <target state="translated">這個動作會將動態模組，以 <bpt id="p1">**</bpt>Get-module<ept id="p1">**</ept> 清單中，但是它不會儲存到磁碟或使持續性的模組。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">範例</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Example 1: Create a dynamic module</source>
+          <target state="translated">範例 1︰ 建立動態模組</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This command creates a new dynamic module with a function called Hello.</source>
+          <target state="translated">此命令會建立名為 Hello 的函式的新動態模組。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The command returns a module object that represents the new dynamic module.</source>
+          <target state="translated">此命令傳回代表新動態模組的模組物件。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Example 2: Working with dynamic modules and Get-Module and Get-Command</source>
+          <target state="translated">範例 2︰ 使用動態模組，Get-module 和 Get 命令</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This example demonstrates that dynamic modules are not returned by the <bpt id="p1">**</bpt>Get-Module<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">這個範例會示範動態模組不會傳回由 <bpt id="p1">**</bpt>Get-module<ept id="p1">**</ept> 指令程式。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The members that they export are returned by the <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">它們會匯出的成員會傳回 <bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> 指令程式。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Example 3: Export a variable into the current session</source>
+          <target state="translated">範例 3︰ 匯出到目前的工作階段變數</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">**</bpt>Export-ModuleMember<ept id="p1">**</ept> cmdlet to export a variable into the current session.</source>
+          <target state="translated">此命令會使用 <bpt id="p1">**</bpt>Export-modulemember<ept id="p1">**</ept> 指令程式匯出到目前的工作階段的變數。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Without the <bpt id="p1">**</bpt>Export-ModuleMember<ept id="p1">**</ept> command, only the function is exported.</source>
+          <target state="translated">不含 <bpt id="p1">**</bpt>Export-modulemember<ept id="p1">**</ept> 命令，匯出的函式。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The output shows that both the variable and the function were exported into the session.</source>
+          <target state="translated">輸出顯示變數與函式皆匯出到工作階段。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Example 4: Make a dynamic module available to Get-Module</source>
+          <target state="translated">範例 4︰ 將動態模組提供給 Get 模組</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This command demonstrates that you can make a dynamic module available to <bpt id="p1">**</bpt>Get-Module<ept id="p1">**</ept> by piping the dynamic module to <bpt id="p2">**</bpt>Import-Module<ept id="p2">**</ept>.</source>
+          <target state="translated">此命令示範，您可以讓動態模組可供 <bpt id="p1">**</bpt>Get-module<ept id="p1">**</ept> 經由管道動態模組，以 <bpt id="p2">**</bpt>匯入模組<ept id="p2">**</ept>。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The first command uses a pipeline operator (|) to send the module object that <bpt id="p1">**</bpt>New-Module<ept id="p1">**</ept> generates to the <bpt id="p2">**</bpt>Import-Module<ept id="p2">**</ept> cmdlet.</source>
+          <target state="translated">第一個命令使用管線運算子 (|) 將模組物件 <bpt id="p1">**</bpt>New-module<ept id="p1">**</ept> 產生的 <bpt id="p2">**</bpt>匯入模組<ept id="p2">**</ept> 指令程式。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>Name<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>New-Module<ept id="p2">**</ept> to assign a friendly name to the module.</source>
+          <target state="translated">此命令會使用 <bpt id="p1">*</bpt>名稱<ept id="p1">*</ept> 參數 <bpt id="p2">**</bpt>New-module<ept id="p2">**</ept> 要指派給模組的易記名稱。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Because <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> does not return any objects by default, there is no output from this command.</source>
+          <target state="translated">因為 <bpt id="p1">**</bpt>匯入模組<ept id="p1">**</ept> 不會傳回任何物件依預設，此命令沒有輸出。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The second command uses <bpt id="p1">**</bpt>Get-Module<ept id="p1">**</ept> to get the modules in the session.</source>
+          <target state="translated">第二個命令會使用 <bpt id="p1">**</bpt>Get-module<ept id="p1">**</ept> 取得工作階段中的模組。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The result shows that <bpt id="p1">**</bpt>Get-Module<ept id="p1">**</ept> can get the new dynamic module.</source>
+          <target state="translated">結果會顯示 <bpt id="p1">**</bpt>Get-module<ept id="p1">**</ept> 可以取得新的動態模組。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The third command uses the <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> cmdlet to get the Hello function that the dynamic module exports.</source>
+          <target state="translated">第三個命令會使用 <bpt id="p1">**</bpt>Get 命令<ept id="p1">**</ept> cmdlet 取得動態模組匯出的 Hello 函式。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Example 5: Generate a custom object that has exported functions</source>
+          <target state="translated">範例 5︰ 產生自訂物件的已匯出的函式</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the <bpt id="p1">*</bpt>AsCustomObject<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>New-Module<ept id="p2">**</ept> to generate a custom object that has script methods that represent the exported functions.</source>
+          <target state="translated">這個範例示範如何使用 <bpt id="p1">*</bpt>AsCustomObject<ept id="p1">*</ept> 參數 <bpt id="p2">**</bpt>New-module<ept id="p2">**</ept> 來產生自訂物件具有代表匯出函式的指令碼方法。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">**</bpt>New-Module<ept id="p1">**</ept> cmdlet to generate a dynamic module with two functions, Hello and Goodbye.</source>
+          <target state="translated">第一個命令使用 <bpt id="p1">**</bpt>New-module<ept id="p1">**</ept> Hello 與 Goodbye 產生兩個函式，動態模組的 cmdlet。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>AsCustomObject<ept id="p1">*</ept> parameter to generate a custom object instead of the PSModuleInfo object that <bpt id="p2">**</bpt>New-Module<ept id="p2">**</ept> generates by default.</source>
+          <target state="translated">此命令會使用 <bpt id="p1">*</bpt>AsCustomObject<ept id="p1">*</ept> 參數來產生自訂物件，而非 PSModuleInfo 物件 <bpt id="p2">**</bpt>New-module<ept id="p2">**</ept> 預設產生。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The command saves the custom object in the $m variable.</source>
+          <target state="translated">命令會將自訂物件儲存於 $m 變數。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The second command attempts to display the value of the $m variable.</source>
+          <target state="translated">第二個命令嘗試顯示 $m 變數的值。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>No content appears.</source>
+          <target state="translated">此時不會出現任何內容。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The third command uses a pipeline operator to send the custom object to the <bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept> cmdlet, which displays the properties and methods of the custom object.</source>
+          <target state="translated">第三個命令使用管線運算子將自訂物件 <bpt id="p1">**</bpt>Get-member<ept id="p1">**</ept> 指令程式，以顯示屬性和自訂物件的方法。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The output shows that the object has script methods that represent the Hello and Goodbye functions.</source>
+          <target state="translated">輸出顯示物件具有代表 Hello 與 Goodbye 函式之指令碼方法的物件。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The fourth and fifth commands use the script method format to call the Hello and Goodbye functions.</source>
+          <target state="translated">第四個和第五個命令使用指令碼方法格式來呼叫 Hello 與 Goodbye 函式。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Example 6: Get the results of the script block</source>
+          <target state="translated">範例 6︰ 取得指令碼區塊的結果</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">*</bpt>ReturnResult<ept id="p1">*</ept> parameter to request the results of running the script block instead of requesting a module object.</source>
+          <target state="translated">此命令會使用 <bpt id="p1">*</bpt>ReturnResult<ept id="p1">*</ept> 參數要求執行指令碼區塊，而不是要求模組物件的結果。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The script block in the new module defines the SayHello function and then calls the function.</source>
+          <target state="translated">新模組中的指令碼區塊會定義 SayHello 函式，然後呼叫該函式。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">參數</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>-ArgumentList</source>
+          <target state="translated">-ArgumentList</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Specifies an array of arguments which are parameter values that are passed to the script block.</source>
+          <target state="translated">指定引數傳遞至指令碼區塊的參數值的陣列。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>-AsCustomObject</source>
+          <target state="translated">-AsCustomObject</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet returns a custom object that represents the dynamic module.</source>
+          <target state="translated">指出此 cmdlet 會傳回代表動態模組的自訂物件。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The module members are implemented as script methods of the custom object, but they are not imported into the session.</source>
+          <target state="translated">模組成員會以自訂物件的指令碼方法實作，但是不會匯入到工作階段中。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>You can save the custom object in a variable and use dot notation to invoke the members.</source>
+          <target state="translated">您可以將自訂物件儲存在變數中，並使用點標記法來叫用成員。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If the module has multiple members with the same name, such as a function and a variable that are both named A, only one member with each name can be accessed from the custom object.</source>
+          <target state="translated">如果模組有多個成員具有相同的名稱，例如函式和變數，具名的每個名稱只有一個成員可以存取從自訂物件。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>-Cmdlet</source>
+          <target state="translated">Cmdlet</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Specifies an array of cmdlets that this cmdlet exports from the module into the current session.</source>
+          <target state="translated">指定此 cmdlet 會將匯出到目前的工作階段之模組的 cmdlet 的陣列。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Enter a comma-separated list of cmdlets.</source>
+          <target state="translated">輸入以逗號分隔的 Cmdlet 清單。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are permitted.</source>
+          <target state="translated">允許使用萬用字元。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>By default, all cmdlets in the module are exported.</source>
+          <target state="translated">根據預設，會匯出模組中所有的 Cmdlet。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>You cannot define cmdlets in a script block, but a dynamic module can include cmdlets if it imports the cmdlets from a binary module.</source>
+          <target state="translated">您不能定義指令碼區塊中的 Cmdlet，但是動態模組可以包含　Cmdlet (若動態模組從二進位模組匯入 Cmdlet)。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>-Function</source>
+          <target state="translated">式函</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Specifies an array of functions that this cmdlet exports from the module into the current session.</source>
+          <target state="translated">指定此 cmdlet 會將匯出到目前的工作階段之模組的函式的陣列。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Enter a comma-separated list of functions.</source>
+          <target state="translated">輸入以逗號分隔的函式清單。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are permitted.</source>
+          <target state="translated">允許使用萬用字元。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>By default, all functions defined in a module are exported.</source>
+          <target state="translated">根據預設，會匯出模組中定義的所有函式。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Specifies a name for the new module.</source>
+          <target state="translated">指定新模組的名稱。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>You can also pipe a module name to New-Module.</source>
+          <target state="translated">您也可以使用管線將模組名稱傳送至 New-Module。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The default value is an autogenerated name that starts with <ph id="ph1">`__DynamicModule_`</ph> and is followed by a GUID that specifies the path of the dynamic module.</source>
+          <target state="translated">預設值是自動產生名稱開頭 <ph id="ph1">`__DynamicModule_`</ph> ，後面跟著 GUID，指定動態模組的路徑。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>-ReturnResult</source>
+          <target state="translated">-ReturnResult</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet runs the script block and returns the script block results instead of returning a module object.</source>
+          <target state="translated">指出此 cmdlet 會執行指令碼區塊，並傳回指令碼區塊的結果，而不是傳回模組物件。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>-ScriptBlock</source>
+          <target state="translated">-指令碼區塊</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Specifies the contents of the dynamic module.</source>
+          <target state="translated">指定動態模組的內容。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Enclose the contents in braces ( { } ) to create a script block.</source>
+          <target state="translated">使用大括弧 ( { } ) 括住內容以建立指令碼區塊。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>This parameter is required.</source>
+          <target state="translated">此為必要參數。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">這個 cmdlet 支援一般參數:-偵錯、-ErrorAction、-ErrorVariable、-InformationAction-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 以及-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">如需詳細資訊，請參閱 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">輸入</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>System.String</source>
+          <target state="translated">System.String</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>You can pipe a module name to this cmdlet.</source>
+          <target state="translated">您可以透過管道傳送到此指令程式的模組名稱。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">輸出</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSModuleInfo, System.Management.Automation.PSCustomObject, or None</source>
+          <target state="translated">System.Management.Automation.PSModuleInfo、 System.Management.Automation.PSCustomObject，或 None</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>This cmdlet generates a <bpt id="p1">**</bpt>PSModuleInfo<ept id="p1">**</ept> object, by default.</source>
+          <target state="translated">此 cmdlet 會產生 <bpt id="p1">**</bpt>PSModuleInfo<ept id="p1">**</ept> 物件，預設值。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">*</bpt>AsCustomObject<ept id="p1">*</ept> parameter, it generates a <bpt id="p2">**</bpt>PSCustomObject<ept id="p2">**</ept> object.</source>
+          <target state="translated">如果您使用 <bpt id="p1">*</bpt>AsCustomObject<ept id="p1">*</ept> 參數，它會產生 <bpt id="p2">**</bpt>PSCustomObject<ept id="p2">**</ept> 物件。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">*</bpt>ReturnResult<ept id="p1">*</ept> parameter, it returns the result of evaluating the script block in the dynamic module.</source>
+          <target state="translated">如果您使用 <bpt id="p1">*</bpt>ReturnResult<ept id="p1">*</ept> 參數，它會傳回評估動態模組中的指令碼區塊的結果。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">附註</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>You can also refer to <bpt id="p1">**</bpt>New-Module<ept id="p1">**</ept> by its alias, <bpt id="p2">**</bpt>nmo<ept id="p2">**</ept>.</source>
+          <target state="translated">您也可以參考 <bpt id="p1">**</bpt>New-module<ept id="p1">**</ept> 別名 <bpt id="p2">**</bpt>nmo<ept id="p2">**</ept>。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Aliases.</source>
+          <target state="translated">如需詳細資訊，請參閱 about_Aliases。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相關的連結</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Export-ModuleMember</source>
+          <target state="translated">Export-ModuleMember</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Get-Module</source>
+          <target state="translated">Get-Module</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Import-Module</source>
+          <target state="translated">Import-Module</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Remove-Module</source>
+          <target state="translated">Remove-Module</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>about_Modules</source>
+          <target state="translated">about_Modules</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2e9dc70f0d43388db9c3eb79ec767497242afcf6</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Core\New-ModuleManifest.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0d7112b774e5c0ba80366658f1696ee78a83abcd</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">73cf2f68968f208076fd1cf7a65e9a89a2235a4c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>New-ModuleManifest</source>
+          <target state="translated">新しい ModuleManifest</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>New-ModuleManifest</source>
+          <target state="translated">新しい ModuleManifest</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Creates a new module manifest.</source>
+          <target state="translated">新しいモジュール マニフェストを作成します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">構文</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">説明</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> cmdlet creates a new module manifest (.psd1) file, populates its values, and saves the manifest file in the specified path.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>New-modulemanifest<ept id="p1">**</ept> コマンドレットは、新しいモジュール マニフェスト (.psd1) ファイルを作成、その値を設定し、指定したパスにマニフェスト ファイルを保存します。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Module authors can use this cmdlet to create a manifest for their module.</source>
+          <target state="translated">モジュールの作成者は、このコマンドレットを使用して、モジュールのマニフェストを作成します。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A module manifest is a .psd1 file that contains a hash table.</source>
+          <target state="translated">モジュール マニフェストは、ハッシュ テーブルを含む .psd1 ファイルです。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The keys and values in the hash table describe the contents and attributes of the module, define the prerequisites, and determine how the components are processed.</source>
+          <target state="translated">モジュールの内容や属性について説明するハッシュ テーブル内のキーと値が、前提条件を定義し、コンポーネントの処理方法を決定します。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Manifests are not required for a module.</source>
+          <target state="translated">マニフェストは、モジュールに必須ではありません。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> creates a manifest that includes all of the commonly used manifest keys, so you can use the default output as a manifest template.</source>
+          <target state="translated"><bpt id="p1">**</bpt>新しい ModuleManifest<ept id="p1">**</ept> を既定の出力をマニフェスト テンプレートとして使用できるように、すべての一般的に使用されるマニフェスト キーを含むマニフェストを作成します。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To add or change values, or to add module keys that this cmdlet does not add, open the resulting file in a text editor.</source>
+          <target state="translated">値を追加または変更したり、このコマンドレットでは追加されないモジュール キーを追加したりするには、テキスト エディターで結果ファイルを開きます。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Each parameter of this cmdlet (except for <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> and <bpt id="p2">**</bpt>PassThru<ept id="p2">**</ept>) creates a module manifest key and its value.</source>
+          <target state="translated">このコマンドレットの各パラメーター (を除き <bpt id="p1">**</bpt>パス<ept id="p1">**</ept> と <bpt id="p2">**</bpt>PassThru<ept id="p2">**</ept>)、モジュール マニフェスト キーとその値を作成します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In a module manifest, only the <bpt id="p1">**</bpt>ModuleVersion<ept id="p1">**</ept> key is required.</source>
+          <target state="translated">のみモジュール マニフェストで、 <bpt id="p1">**</bpt>ModuleVersion<ept id="p1">**</ept> キーが必要です。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Unless specified in the parameter description, if you omit a parameter from the command, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> creates a comment string for the associated value that has no effect.</source>
+          <target state="translated">コマンドのパラメーターを省略した場合、パラメーターの説明で指定されていない限り <bpt id="p1">**</bpt>New-modulemanifest<ept id="p1">**</ept> コメント文字列も何も起こりませんを関連付けられている値を作成します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> prompts you for the values of commonly used parameters that are not specified in the command, in addition to required parameter values.</source>
+          <target state="translated">Windows PowerShell 2.0 で <bpt id="p1">**</bpt>New-modulemanifest<ept id="p1">**</ept> メッセージで指定されていないコマンドをさらに必要なパラメーター値を一般的に使用されるパラメーターの値を表示します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, it prompts only when required parameter values are not specified.</source>
+          <target state="translated">Windows PowerShell 3.0 以降では、そのメッセージが表示されます必須のパラメーター値が指定されていない場合にのみです。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This command creates a new module manifest in the file that is specified by the Path parameter.</source>
+          <target state="translated">このコマンドは、Path パラメーターで指定されているファイルで新しいモジュール マニフェストを作成します。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter sends the output to the pipeline as well as to the file.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> パラメーターは、パイプラインと、ファイルを出力を送信します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The output shows the default values of all keys in the manifest.</source>
+          <target state="translated">出力は、マニフェスト内のすべてのキーの既定値を示しています。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This command creates a new module manifest.</source>
+          <target state="translated">このコマンドは、新しいモジュール マニフェストを作成します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>PowerShellVersion<ept id="p1">**</ept> and <bpt id="p2">**</bpt>AliasesToExport<ept id="p2">**</ept> parameters to add values to the corresponding manifest keys.</source>
+          <target state="translated">使用して、 <bpt id="p1">**</bpt>PowerShellVersion<ept id="p1">**</ept> と <bpt id="p2">**</bpt>AliasesToExport<ept id="p2">**</ept> マニフェスト キーがパラメーターに対応する値を追加します。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the string and hash table formats of the  <bpt id="p1">**</bpt>ModuleList<ept id="p1">**</ept>, <bpt id="p2">**</bpt>RequiredModules<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>NestedModules<ept id="p3">**</ept> parameter.</source>
+          <target state="translated">この例は、文字列を使用して、ハッシュ テーブル形式の  <bpt id="p1">**</bpt>ModuleList<ept id="p1">**</ept>, 、<bpt id="p2">**</bpt>RequiredModules<ept id="p2">**</ept>, 、および <bpt id="p3">**</bpt>NestedModules<ept id="p3">**</ept> パラメーター。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You can combine strings and hash tables in the same parameter value.</source>
+          <target state="translated">同じパラメーター値に、文字列とハッシュ テーブルを組み合わせることができます。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This command commands creates a module manifest for a module that requires the <bpt id="p1">**</bpt>BitsTransfer<ept id="p1">**</ept>  and <bpt id="p2">**</bpt>PSScheduledJob<ept id="p2">**</ept> modules.</source>
+          <target state="translated">このコマンドでは、必要なモジュールのモジュール マニフェストを作成、 <bpt id="p1">**</bpt>BitsTransfer<ept id="p1">**</ept>  と <bpt id="p2">**</bpt>PSScheduledJob<ept id="p2">**</ept> モジュールです。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The command uses a string format to specify the name of the <bpt id="p1">**</bpt>BitsTransfer<ept id="p1">**</ept> module and the hash table format to specify the name, a GUID, and a version of the <bpt id="p2">**</bpt>PSScheduledJob<ept id="p2">**</ept> module.</source>
+          <target state="translated">コマンドの名前を指定する文字列の形式を使用して、 <bpt id="p1">**</bpt>BitsTransfer<ept id="p1">**</ept> モジュールと名前、GUID、およびのバージョンを指定するハッシュ テーブル形式、 <bpt id="p2">**</bpt>PSScheduledJob<ept id="p2">**</ept> モジュールです。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This example shows creates a module manifest for a module that supports the Updatable Help feature.</source>
+          <target state="translated">この例は、更新可能なヘルプ機能をサポートするモジュールのモジュール マニフェストを作成する方法を示しています。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This feature allows users to use the Update-Help and Save-Help cmdlets, which download help files for the module from the Internet and install them in the module.</source>
+          <target state="translated">この機能では、インターネットから、モジュールのヘルプ ファイルをダウンロードし、モジュールでインストールする更新ヘルプと Save-help コマンドレットを使用することができます。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>HelpInfoUri<ept id="p1">**</ept> parameter to create a <bpt id="p2">**</bpt>HelpInfoUri<ept id="p2">**</ept> key in the module manifest.</source>
+          <target state="translated">コマンドを使用して、 <bpt id="p1">**</bpt>HelpInfoUri<ept id="p1">**</ept> を作成するパラメーター、 <bpt id="p2">**</bpt>HelpInfoUri<ept id="p2">**</ept> モジュール マニフェスト内のキー。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The value of the parameter and the key must begin with "http" or "https".</source>
+          <target state="translated">パラメーターの値とキーは、"http" または "https" で始まる必要があります。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This value tells the Updatable Help system where to find the HelpInfo XML updatable help information file for the module.</source>
+          <target state="translated">この値は、モジュールの HelpInfo XML 更新可能なヘルプの情報ファイルを検索するための更新可能なヘルプ システムを示しています。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For information about Updatable Help, see about_Updatable_Help (http://go.microsoft.com/fwlink/?LinkID=235801).</source>
+          <target state="translated">更新可能なヘルプについては、「about_updatable_help」(http://go.microsoft.com/fwlink/?LinkID=235801) を参照してください。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For information about the HelpInfo XML file, see "Supporting Updatable Help" in MSDN.</source>
+          <target state="translated">HelpInfo XML ファイルの詳細については、MSDN で、更新可能なヘルプのサポートに関するページを参照してください。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Example 5</source>
+          <target state="translated">例 5</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This example shows how to get the module manifest values of a module -- essentially a "Get-ModuleManifest" command.</source>
+          <target state="translated">この例は、モジュールのモジュール マニフェストの値を取得する方法、つまり、基本的には "Get-ModuleManifest" コマンドを示しています。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Because the values in the module manifest are reflected in the values of properties of the module object, you can get the module manifest values by displaying the module object properties.</source>
+          <target state="translated">モジュール マニフェスト内の値は、モジュール オブジェクトのプロパティの値に反映されるため、モジュール オブジェクトのプロパティを表示することで、モジュール マニフェストの値を取得できます。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">**</bpt>Get-Module<ept id="p1">**</ept> cmdlet to get the PSScheduledJob module.</source>
+          <target state="translated">最初のコマンドを使用して、 <bpt id="p1">**</bpt>Get-module<ept id="p1">**</ept> PSScheduledJob モジュールを取得するコマンドレットです。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The command uses the List parameter, because the module is installed, but not imported into the session.</source>
+          <target state="translated">モジュールはインストールされているものの、セッションにインポートされていないため、コマンドは List パラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The command sends the module to the Format-List cmdlet, which displays all properties and values of the module object in a list.</source>
+          <target state="translated">コマンドは、Format-list コマンドレットは、リストのすべてのプロパティと、モジュール オブジェクトの値を表示するモジュールを送信します。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The second command uses the Format-Table cmdlet to display the PowerShellVersion property of all installed modules in a table.</source>
+          <target state="translated">2 番目のコマンドでは、Format-table コマンドレットを使用して、テーブルにインストールされているすべてのモジュールの PowerShellVersion プロパティを表示します。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The PowerShellVersion property is defined in the module manifest.</source>
+          <target state="translated">PowerShellVersion プロパティは、モジュール マニフェストで定義されます。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">パラメータ</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-AliasesToExport</source>
+          <target state="translated">-AliasesToExport</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Specifies the aliases that the module exports.</source>
+          <target state="translated">モジュールがエクスポートするエイリアスを指定します。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">ワイルドカードを使用できます。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>You can use this parameter to restrict the aliases that are exported by the module.</source>
+          <target state="translated">このパラメーターを使用して、モジュールによってエクスポートされるエイリアスを制限できます。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>It can remove aliases from the list of exported aliases, but it cannot add aliases to the list.</source>
+          <target state="translated">エクスポートされたエイリアスの一覧からエイリアスを削除できますが、一覧にエイリアスを追加することはできません。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> creates an <bpt id="p2">**</bpt>AliasesToExport<ept id="p2">**</ept> key with a value of * (all), meaning that all aliases that are exported by the module are exported by the manifest.</source>
+          <target state="translated">このパラメーターを省略した場合 <bpt id="p1">**</bpt>New-modulemanifest<ept id="p1">**</ept> を作成、 <bpt id="p2">**</bpt>AliasesToExport<ept id="p2">**</ept> キーの値を * (すべて) は、モジュールによってエクスポートされるすべてのエイリアスがマニフェストによってエクスポートされたことを意味します。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>-Author</source>
+          <target state="translated">作成者</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Specifies the module author.</source>
+          <target state="translated">モジュールの作成者を指定します。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> creates an <bpt id="p2">**</bpt>Author<ept id="p2">**</ept> key with the name of the current user.</source>
+          <target state="translated">このパラメーターを省略した場合 <bpt id="p1">**</bpt>New-modulemanifest<ept id="p1">**</ept> を作成、 <bpt id="p2">**</bpt>作成者<ept id="p2">**</ept> 、現在のユーザーの名前のキー。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>-ClrVersion</source>
+          <target state="translated">-ClrVersion</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Specifies the minimum version of the Common Language Runtime (CLR) of the Microsoft .NET Framework that the module requires.</source>
+          <target state="translated">モジュールに必要な、Microsoft .NET Framework の共通言語ランタイム (CLR) の最低限のバージョンを指定します。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>-CmdletsToExport</source>
+          <target state="translated">-CmdletsToExport</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Specifies the cmdlets that the module exports.</source>
+          <target state="translated">モジュールがエクスポートするコマンドレットを指定します。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">ワイルドカードを使用できます。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>You can use this parameter to restrict the cmdlets that are exported by the module.</source>
+          <target state="translated">このパラメーターを使用して、モジュールによってエクスポートされるコマンドレットを制限できます。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>It can remove cmdlets from the list of exported cmdlets, but it cannot add cmdlets to the list.</source>
+          <target state="translated">エクスポートされたコマンドレットの一覧からコマンドレットを削除できますが、一覧にコマンドレットを追加することはできません。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> creates a <bpt id="p2">**</bpt>CmdletsToExport<ept id="p2">**</ept> key with a value of * (all), meaning that all cmdlets that are exported by the module are exported by the manifest.</source>
+          <target state="translated">このパラメーターを省略した場合 <bpt id="p1">**</bpt>New-modulemanifest<ept id="p1">**</ept> を作成、 <bpt id="p2">**</bpt>CmdletsToExport<ept id="p2">**</ept> キーの値を * (すべて) は、モジュールによってエクスポートされるすべてのコマンドレットがマニフェストによってエクスポートされたことを意味します。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>-CompanyName</source>
+          <target state="translated">-仕入先名</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Identifies the company or vendor who created the module.</source>
+          <target state="translated">モジュールを作成した企業またはベンダーを識別します。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> creates a <bpt id="p2">**</bpt>CompanyName<ept id="p2">**</ept> key with a value of "Unknown".</source>
+          <target state="translated">このパラメーターを省略した場合 <bpt id="p1">**</bpt>New-modulemanifest<ept id="p1">**</ept> を作成、 <bpt id="p2">**</bpt>CompanyName<ept id="p2">**</ept> キーに「不明」の値。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>-Copyright</source>
+          <target state="translated">著作権</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Specifies a copyright statement for the module.</source>
+          <target state="translated">モジュールの著作権表記を指定します。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> creates a <bpt id="p2">**</bpt>Copyright<ept id="p2">**</ept> key with a value of  "(c) <ph id="ph1">\&lt;</ph>year<ph id="ph2">\&gt;</ph> <ph id="ph3">\&lt;</ph>username<ph id="ph4">\&gt;</ph>.</source>
+          <target state="translated">このパラメーターを省略した場合 <bpt id="p1">**</bpt>New-modulemanifest<ept id="p1">**</ept> を作成、 <bpt id="p2">**</bpt>著作権<ept id="p2">**</ept> キーの値を"(c) <ph id="ph1">\&lt;</ph>年<ph id="ph2">\&gt;</ph> <ph id="ph3">\&lt;</ph>username<ph id="ph4">\&gt;</ph>します。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>All rights reserved."</source>
+          <target state="translated">すべて rights reserved.」</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>where <ph id="ph1">\&lt;</ph>year<ph id="ph2">\&gt;</ph> is the current year and <ph id="ph3">\&lt;</ph>username<ph id="ph4">\&gt;</ph> is the value of the <bpt id="p1">**</bpt>Author<ept id="p1">**</ept> key (if one is specified) or the name of the current user.</source>
+          <target state="translated">ここで <ph id="ph1">\&lt;</ph>年<ph id="ph2">\&gt;</ph> は現在の年と <ph id="ph3">\&lt;</ph>ユーザー名<ph id="ph4">\&gt;</ph> の値は、 <bpt id="p1">**</bpt>作成者<ept id="p1">**</ept> キー (いずれかを指定する) 場合、または現在のユーザーの名前。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>-Description</source>
+          <target state="translated">-Description</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Describes the contents of the module.</source>
+          <target state="translated">モジュールの内容について説明します。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>-DotNetFrameworkVersion</source>
+          <target state="translated">-DotNetFrameworkVersion</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Specifies the minimum version of the Microsoft .NET Framework that the module requires.</source>
+          <target state="translated">モジュールに必要な、Microsoft .NET Framework の最低限のバージョンを指定します。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>-FileList</source>
+          <target state="translated">-FileList</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Specifies all items that are included in the module.</source>
+          <target state="translated">モジュールに含まれているすべての項目を指定します。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>This key is designed to act as a module inventory.</source>
+          <target state="translated">このキーは、モジュール インベントリとしての動作を想定して設計されています。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The files listed in the key are not automatically exported with the module.</source>
+          <target state="translated">キーに一覧示されるファイルは、モジュールでは自動的にエクスポートされません。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>-FormatsToProcess</source>
+          <target state="translated">-FormatsToProcess</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Specifies the formatting files (.ps1xml) that run when the module is imported.</source>
+          <target state="translated">モジュールのインポート時に実行される書式設定ファイル (.ps1xml) を指定します。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>When you import a module, Windows PowerShell runs the Update-FormatData cmdlet with the specified files.</source>
+          <target state="translated">モジュールをインポートするときに、Windows PowerShell は、指定されたファイルに、Update-formatdata コマンドレットを実行します。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Because formatting files are not scoped, they affect all session states in the session.</source>
+          <target state="translated">書式設定ファイルは、スコープが設定されていないため、セッションにおけるすべてのセッション状態に影響します。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>-FunctionsToExport</source>
+          <target state="translated">-FunctionsToExport</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Specifies the functions that the module exports.</source>
+          <target state="translated">モジュールがエクスポートする関数を指定します。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">ワイルドカードを使用できます。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>You can use this parameter to restrict the functions that are exported by the module.</source>
+          <target state="translated">このパラメーターを使用して、モジュールによってエクスポートされる関数を制限できます。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>It can remove functions from the list of exported aliases, but it cannot add functions to the list.</source>
+          <target state="translated">エクスポートされたエイリアスの一覧から関数を削除できますが、一覧に関数を追加することはできません。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> creates an <bpt id="p2">**</bpt>FunctionsToExport<ept id="p2">**</ept> key with a value of * (all), meaning that all functions that are exported by the module are exported by the manifest.</source>
+          <target state="translated">このパラメーターを省略した場合 <bpt id="p1">**</bpt>New-modulemanifest<ept id="p1">**</ept> を作成、 <bpt id="p2">**</bpt>FunctionsToExport<ept id="p2">**</ept> キーの値を * (すべて) つまりモジュールによってエクスポートされるすべての関数は、マニフェストによってエクスポートされます。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>-Guid</source>
+          <target state="translated">Guid</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Specifies a unique identifier for the module.</source>
+          <target state="translated">モジュールの一意の識別子を指定します。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The GUID can be used to distinguish among modules with the same name.</source>
+          <target state="translated">GUID は、同じ名前のモジュールを区別するために使用できます。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> creates a <bpt id="p2">**</bpt>GUID<ept id="p2">**</ept> key in the manifest and generates a GUID for the value.</source>
+          <target state="translated">このパラメーターを省略した場合 <bpt id="p1">**</bpt>New-modulemanifest<ept id="p1">**</ept> を作成、 <bpt id="p2">**</bpt>GUID<ept id="p2">**</ept> マニフェストにキーし、値の GUID を生成します。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>To create a new GUID in Windows PowerShell, type "<ph id="ph1">\[</ph>guid<ph id="ph2">\]</ph>::NewGuid()".</source>
+          <target state="translated">Windows PowerShell で新しい GUID を作成するには入力"<ph id="ph1">\[</ph>guid<ph id="ph2">\]</ph>:::newguid()"です。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>-HelpInfoUri</source>
+          <target state="translated">-HelpInfoUri</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Specifies the Internet address of the HelpInfo XML file for the module.</source>
+          <target state="translated">モジュールの HelpInfo XML ファイルのインターネット アドレスを指定します。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Enter an Uniform Resource Identifier (URI) that begins with "http" or "https".</source>
+          <target state="translated">"http" または "https" で始まる Uniform Resource Identifier (URI) を入力します。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The   HelpInfo XML file supports the Updatable Help feature that was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">HelpInfo XML ファイルは、Windows PowerShell 3.0 で導入された、更新可能なヘルプ機能をサポートします。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>It contains information about the location of downloadable help files for the module and the version numbers of the newest help files for each supported locale.</source>
+          <target state="translated">これには、モジュールのダウンロード可能なヘルプ ファイルの場所、およびサポートされている各ロケールの最新のヘルプ ファイルのバージョン番号に関する情報が含まれます。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>For information about Updatable Help, see about_Updatable_Help (http://go.microsoft.com/fwlink/?LinkID=235801).</source>
+          <target state="translated">更新可能なヘルプについては、「about_updatable_help」(http://go.microsoft.com/fwlink/?LinkID=235801) を参照してください。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>For information about the HelpInfo XML file, see "Supporting Updatable Help" in MSDN.</source>
+          <target state="translated">HelpInfo XML ファイルの詳細については、MSDN で、更新可能なヘルプのサポートに関するページを参照してください。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>-ModuleList</source>
+          <target state="translated">-ModuleList</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Lists all modules that are included in this module.</source>
+          <target state="translated">このモジュールに含まれているすべてのモジュールを一覧表示します。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Enter each module name as a string or as a hash table with <bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ModuleVersion<ept id="p2">**</ept> keys.</source>
+          <target state="translated">文字列またはハッシュ テーブルとして、各モジュールの名前を入力 <bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept> と <bpt id="p2">**</bpt>ModuleVersion<ept id="p2">**</ept> キー。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The hash table can also have an optional <bpt id="p1">**</bpt>GUID<ept id="p1">**</ept> key.</source>
+          <target state="translated">ハッシュ テーブルは、省略可能なこともできます <bpt id="p1">**</bpt>GUID<ept id="p1">**</ept> キー。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>You can combine strings and hash tables in the parameter value.</source>
+          <target state="translated">パラメーター値として文字列とハッシュ テーブルを組み合わせることができます。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>For more information, see the examples.</source>
+          <target state="translated">詳細については、例を参照してください。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>This key is designed to act as a module inventory.</source>
+          <target state="translated">このキーは、モジュール インベントリとしての動作を想定して設計されています。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The modules that are listed in the value of this key are not automatically processed.</source>
+          <target state="translated">このキーの値に列挙されたモジュールは、自動的には処理されません。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>-ModuleVersion</source>
+          <target state="translated">-ModuleVersion</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Specifies the version of the module.</source>
+          <target state="translated">モジュールのバージョンを指定します。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>This parameter is not required by the cmdlet, but a <bpt id="p1">**</bpt>ModuleVersion<ept id="p1">**</ept> key is required in the manifest.</source>
+          <target state="translated">このパラメーターは、コマンドレットでは必要ありませんが、 <bpt id="p1">**</bpt>ModuleVersion<ept id="p1">**</ept> マニフェストにキーが必要です。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> creates a <bpt id="p2">**</bpt>ModuleVersion<ept id="p2">**</ept> key with a value of "1.0".</source>
+          <target state="translated">このパラメーターを省略した場合 <bpt id="p1">**</bpt>New-modulemanifest<ept id="p1">**</ept> を作成、 <bpt id="p2">**</bpt>ModuleVersion<ept id="p2">**</ept> 「1.0」の値を持つキー。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>-NestedModules</source>
+          <target state="translated">-NestedModules</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Specifies script modules (.psm1) and binary modules (.dll) that are imported into the module's session state.</source>
+          <target state="translated">スクリプト モジュール (.psm1) とモジュールのセッションの状態にインポートされるバイナリ モジュール (.dll) を指定します。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The files in the <bpt id="p1">**</bpt>NestedModules<ept id="p1">**</ept> key run in the order in which they are listed in the value.</source>
+          <target state="translated">内のファイル、 <bpt id="p1">**</bpt>NestedModules<ept id="p1">**</ept> キー値で示されている順序で実行します。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Enter each module name as a string or as a hash table with <bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ModuleVersion<ept id="p2">**</ept> keys.</source>
+          <target state="translated">文字列またはハッシュ テーブルとして、各モジュールの名前を入力 <bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept> と <bpt id="p2">**</bpt>ModuleVersion<ept id="p2">**</ept> キー。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The hash table can also have an optional <bpt id="p1">**</bpt>GUID<ept id="p1">**</ept> key.</source>
+          <target state="translated">ハッシュ テーブルは、省略可能なこともできます <bpt id="p1">**</bpt>GUID<ept id="p1">**</ept> キー。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>You can combine strings and hash tables in the parameter value.</source>
+          <target state="translated">パラメーター値として文字列とハッシュ テーブルを組み合わせることができます。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>For more information, see the examples.</source>
+          <target state="translated">詳細については、例を参照してください。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Typically, nested modules contain commands that the root module needs for its internal processing.</source>
+          <target state="translated">通常、入れ子になったモジュールには、ルート モジュールが内部処理のために必要とするコマンドが含まれています。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>By default, the commands in nested modules are exported from the module's session state into the caller's session state, but the root module can restrict the commands that it exports (for example, by using an Export-ModuleMembercommand).</source>
+          <target state="translated">既定では、入れ子になったモジュール内のコマンドは、呼び出し元のセッション状態にモジュールのセッション状態からエクスポートされたが、ルート モジュールは (たとえばを使用して、エクスポート ModuleMembercommand) エクスポートされるコマンドを制限することができます。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Nested modules in the module session state are available to the root module, but they are not returned by a Get-Module command in the caller's session state.</source>
+          <target state="translated">モジュールのセッション状態で入れ子になったモジュールは、ルート モジュールできますが、呼び出し元のセッション状態に、Get-module コマンドでは返されません。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Scripts (.ps1) that are listed in the <bpt id="p1">**</bpt>NestedModules<ept id="p1">**</ept> key are run in the module's session state, not in the caller's session state.</source>
+          <target state="translated">スクリプト (.ps1) に記載されている、 <bpt id="p1">**</bpt>NestedModules<ept id="p1">**</ept> キーは、呼び出し元のセッション状態ではなく、モジュールのセッション状態で実行されます。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>To run a script in the caller's session state, list the script file name in the value of the <bpt id="p1">**</bpt>ScriptsToProcess<ept id="p1">**</ept> key in the manifest.</source>
+          <target state="translated">値でスクリプト ファイル名の一覧で、呼び出し元のセッション状態をスクリプトを実行する、 <bpt id="p1">**</bpt>ScriptsToProcess<ept id="p1">**</ept> マニフェスト内のキー。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>-PassThru</source>
+          <target state="translated">-PassThru</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Writes the resulting module manifest to the console, in addition to creating a .psd1 file.</source>
+          <target state="translated">.psd1 ファイルの作成に加え、結果のモジュール マニフェストをコンソールに書き込みます。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>By default, this cmdlet does not generate any output.</source>
+          <target state="translated">既定では、このコマンドレットによる出力はありません。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>-Path</source>
+          <target state="translated">-Path</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Specifies the path and file name of the new module manifest.</source>
+          <target state="translated">新しいモジュール マニフェストのパスとファイル名を指定します。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Enter a path and file name with a .psd1 file name extension, such as "$pshome\Modules\MyModule\MyModule.psd1".</source>
+          <target state="translated">"$Pshome\Modules\MyModule\MyModule.psd1" などの、ファイル名拡張子が .psd1 のパスとファイル名を入力します。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>This parameter is required.</source>
+          <target state="translated">このパラメーターは必須です。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>If you specify the path to an existing file, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> replaces the file without warning unless the file has the read-only attribute.</source>
+          <target state="translated">既存のファイルへのパスを指定する場合は、 <bpt id="p1">**</bpt>New-modulemanifest<ept id="p1">**</ept> ファイルに読み取り専用属性がない限り、警告が表示されず、ファイルが置き換えられます。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The manifest should be located in the module's directory, and the manifest file name should be the same as the module directory name, but with a .psd1 file name extension.</source>
+          <target state="translated">マニフェストはモジュールのディレクトリに配置する必要があり、マニフェスト ファイル名はファイル名拡張子が .psd1 であることを除き、モジュールのディレクトリ名と同じである必要があります。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Note: You cannot use variables, such as $pshome or $home, in response to a prompt for a <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter value.</source>
+          <target state="translated">注: を求めるメッセージに対する応答として、$pshome または $home などの変数を使用することはできません、 <bpt id="p1">**</bpt>パス<ept id="p1">**</ept> パラメーターの値。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>To use a variable, include the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter in the command.</source>
+          <target state="translated">変数を使用するインクルード、 <bpt id="p1">**</bpt>パス<ept id="p1">**</ept> 、コマンドのパラメーターです。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>-PowerShellHostName</source>
+          <target state="translated">-PowerShellHostName</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the Windows PowerShell host program that the module requires.</source>
+          <target state="translated">モジュールに必要な Windows PowerShell ホスト プログラムの名前を指定します。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Enter the name of the host program, such as "Windows PowerShell ISE Host" or "ConsoleHost".</source>
+          <target state="translated">"Windows PowerShell ISE Host" または "ConsoleHost" などのホスト プログラムの名前を入力します。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Wildcards are not permitted.</source>
+          <target state="translated">ワイルドカードは使用できません。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>To find the name of a host program, in the program, type "$host.name".</source>
+          <target state="translated">ホスト プログラムの名前を検索するには、プログラムで「"$host.name」と入力します。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>-PowerShellHostVersion</source>
+          <target state="translated">-PowerShellHostVersion</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Specifies the minimum version of the Windows PowerShell host program that works with the module.</source>
+          <target state="translated">モジュールに対応している Windows PowerShell ホスト プログラムの最低限のバージョンを指定します。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Enter a version number, such as 1.1.</source>
+          <target state="translated">1.1 などのバージョン番号を入力します。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>-PowerShellVersion</source>
+          <target state="translated">-PowerShellVersion</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Specifies the minimum version of Windows PowerShell that will work with this module.</source>
+          <target state="translated">このモジュールで動作する Windows PowerShell の最低限のバージョンを指定します。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>For example, you can enter 1.0, 2.0, or 3.0 as the value of this parameter.</source>
+          <target state="translated">たとえば、このパラメーターの値として、1.0、2.0 または 3.0 を入力できます。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>-PrivateData</source>
+          <target state="translated">-PrivateData</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Specifies data that is passed to the module when it is imported.</source>
+          <target state="translated">インポート時に、モジュールに渡されるデータを指定します。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>-ProcessorArchitecture</source>
+          <target state="translated">-ProcessorArchitecture</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Specifies the processor architecture that the module requires.</source>
+          <target state="translated">モジュールに必要なプロセッサ アーキテクチャを指定します。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Valid values are x86, AMD64, IA64, and None (unknown or unspecified).</source>
+          <target state="translated">有効な値は x86、AMD64、IA64、および None (不明または未指定) です。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>-RequiredAssemblies</source>
+          <target state="translated">-RequiredAssemblies</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Specifies the assembly (.dll) files that the module requires.</source>
+          <target state="translated">モジュールに必要なアセンブリ (.dll) ファイルを指定します。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Enter the assembly file names.</source>
+          <target state="translated">アセンブリ ファイル名を入力します。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell loads the specified assemblies before updating types or formats, importing nested modules, or importing the module file that is specified in the value of the <bpt id="p1">**</bpt>RootModule<ept id="p1">**</ept> key.</source>
+          <target state="translated">Windows PowerShell の種類または形式を更新、入れ子になったモジュールをインポートまたはの値で指定されているモジュールのファイルをインポートする前に指定したアセンブリが読み込まれて、 <bpt id="p1">**</bpt>RootModule<ept id="p1">**</ept> キー。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Use this parameter to list all the assemblies that the module requires, including assemblies that must be loaded to update any formatting or type files that are listed in the <bpt id="p1">**</bpt>FormatsToProcess<ept id="p1">**</ept> or <bpt id="p2">**</bpt>TypesToProcess<ept id="p2">**</ept> keys, even if those assemblies are also listed as binary modules in the <bpt id="p3">**</bpt>NestedModules<ept id="p3">**</ept> key.</source>
+          <target state="translated">このパラメーターを使用して書式設定の設定を更新または型に記載されているファイルを読み込む必要があるアセンブリも含め、モジュールに必要なすべてのアセンブリを一覧表示、 <bpt id="p1">**</bpt>FormatsToProcess<ept id="p1">**</ept> または <bpt id="p2">**</bpt>TypesToProcess<ept id="p2">**</ept> キーをそれらのアセンブリがでバイナリ モジュールとしても表示されている場合でも、 <bpt id="p3">**</bpt>NestedModules<ept id="p3">**</ept> キー。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>-RequiredModules</source>
+          <target state="translated">-RequiredModules</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Specifies modules that must be in the global session state.</source>
+          <target state="translated">グローバル セッション状態にする必要があるモジュールを指定します。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>If the required modules are not in the global session state, Windows PowerShell imports them.</source>
+          <target state="translated">必要なモジュールがグローバル セッション状態でない場合に、Windows PowerShell はそれらをインポートします。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>If the required modules are not available, the Import-Module command fails.</source>
+          <target state="translated">必要なモジュールが使用可能でない場合、Import-Module コマンドは失敗します。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Enter each module name as a string or as a hash table with <bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ModuleVersion<ept id="p2">**</ept> keys.</source>
+          <target state="translated">文字列またはハッシュ テーブルとして、各モジュールの名前を入力 <bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept> と <bpt id="p2">**</bpt>ModuleVersion<ept id="p2">**</ept> キー。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>The hash table can also have an optional <bpt id="p1">**</bpt>GUID<ept id="p1">**</ept> key.</source>
+          <target state="translated">ハッシュ テーブルは、省略可能なこともできます <bpt id="p1">**</bpt>GUID<ept id="p1">**</ept> キー。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>You can combine strings and hash tables in the parameter value.</source>
+          <target state="translated">パラメーター値として文字列とハッシュ テーブルを組み合わせることができます。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>For more information, see the examples.</source>
+          <target state="translated">詳細については、例を参照してください。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> does not import required modules automatically.</source>
+          <target state="translated">Windows PowerShell 2.0 で <bpt id="p1">**</bpt>Import-module<ept id="p1">**</ept> 自動的に必要なモジュールをインポートしません。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>It just verifies that the required modules are in the global session state.</source>
+          <target state="translated">必要なモジュールがグローバル セッション状態であることを確認するだけです。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>-ScriptsToProcess</source>
+          <target state="translated">-ScriptsToProcess</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Specifies script (.ps1) files that run in the caller's session state when the module is imported.</source>
+          <target state="translated">モジュールのインポート時に、呼び出し元のセッション状態で実行されるスクリプト (.ps1) ファイルを指定します。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>You can use these scripts to prepare an environment, just as you might use a login script.</source>
+          <target state="translated">ログイン スクリプトを使用する場合と同様に、これらのスクリプトを使用して、環境を準備できます。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>To specify scripts that run in the module's session state, use the <bpt id="p1">**</bpt>NestedModules<ept id="p1">**</ept> key.</source>
+          <target state="translated">モジュールのセッション状態で実行するスクリプトを指定するには、使用、 <bpt id="p1">**</bpt>NestedModules<ept id="p1">**</ept> キー。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>-TypesToProcess</source>
+          <target state="translated">-TypesToProcess</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Specifies the type files (.ps1xml) that run when the module is imported.</source>
+          <target state="translated">モジュールのインポート時に実行される型ファイル (.ps1xml) を指定します。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>When you import the module, Windows PowerShell runs the Update-TypeData cmdlet with the specified files.</source>
+          <target state="translated">モジュールをインポートするときに、Windows PowerShell は、指定されたファイルに Update-typedata コマンドレットを実行します。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Because type files are not scoped, they affect all session states in the session.</source>
+          <target state="translated">型ファイルは、スコープが設定されていないため、セッションにおけるすべてのセッション状態に影響します。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>-VariablesToExport</source>
+          <target state="translated">-VariablesToExport</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Specifies the variables that the module exports.</source>
+          <target state="translated">モジュールがエクスポートする変数を指定します。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">ワイルドカードを使用できます。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>You can use this parameter to restrict the variables that are exported by the module.</source>
+          <target state="translated">このパラメーターを使用して、モジュールによってエクスポートされる変数を制限できます。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>It can remove variables from the list of exported variables, but it cannot add variables to the list.</source>
+          <target state="translated">エクスポートされた変数の一覧から変数を削除できますが、一覧に変数を追加することはできません。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> creates a <bpt id="p2">**</bpt>VariablesToExport<ept id="p2">**</ept> key with a value of * (all), meaning that all variables that are exported by the module are exported by the manifest.</source>
+          <target state="translated">このパラメーターを省略した場合 <bpt id="p1">**</bpt>New-modulemanifest<ept id="p1">**</ept> を作成、 <bpt id="p2">**</bpt>VariablesToExport<ept id="p2">**</ept> キーの値を * (すべて) は、モジュールによってエクスポートされるすべての変数がマニフェストによってエクスポートされたことを意味します。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>-DefaultCommandPrefix</source>
+          <target state="translated">-DefaultCommandPrefix</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Specifies a prefix that is prepended to the nouns of all commands in the module when they are imported into a session.</source>
+          <target state="translated">セッションへのインポート時に、モジュール内のすべてのコマンドの名詞の前に付加されるプレフィックスを指定します。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Enter a prefix string.</source>
+          <target state="translated">プレフィックス文字列を入力します。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Prefixes prevent command name conflicts in a user's session.</source>
+          <target state="translated">プレフィックスは、ユーザーのセッションでのコマンド名の競合を防ぎます。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Module users can override this prefix by specifying the <bpt id="p1">**</bpt>Prefix<ept id="p1">**</ept> parameter of the Import-Module cmdlet.</source>
+          <target state="translated">モジュールのユーザーが指定することでこのプレフィックスを無視できます、 <bpt id="p1">**</bpt>プレフィックス<ept id="p1">**</ept> 、Import-module コマンドレットのパラメーターです。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>-RootModule</source>
+          <target state="translated">-RootModule</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Specifies the primary or "root" file of the module.</source>
+          <target state="translated">モジュールのプライマリ ファイルまたは "root" ファイルを指定します。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Enter the file name of a script (.ps1), a script module (.psm1), a module manifest(.psd1), an assembly (.dll), a cmdlet definition XML file (.cdxml), or a workflow (.xaml).</source>
+          <target state="translated">スクリプト (.ps1)、スクリプト モジュール (.psm1)、モジュール マニフェスト (.psd1)、アセンブリ (.dll)、コマンドレット定義 XML ファイル (.cdxml)、またはワークフロー (.xaml) のファイル名を入力します。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>When the module is imported, the members that are exported from the root module file are imported into the caller's session state.</source>
+          <target state="translated">モジュールのインポート時に、ルート モジュール ファイルからエクスポートされるメンバーは、呼び出し元のセッション状態にインポートされます。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>If a module has a manifest file and no root file has been designated in the <bpt id="p1">**</bpt>RootModule<ept id="p1">**</ept> key, the manifest becomes the primary file for the module, and the module becomes a "manifest module" (ModuleType = Manifest).</source>
+          <target state="translated">モジュールがマニフェスト ファイルでルート ファイルが指定されていない場合、 <bpt id="p1">**</bpt>RootModule<ept id="p1">**</ept> キー、マニフェスト モジュールのプライマリ ファイルになり、モジュール「マニフェスト モジュール」(ModuleType = マニフェスト)。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>To export members from .psm1 or .dll files in a module that has a manifest, the names of those files must be specified in the values of the <bpt id="p1">**</bpt>RootModule<ept id="p1">**</ept> or <bpt id="p2">**</bpt>NestedModules<ept id="p2">**</ept> keys in the manifest.</source>
+          <target state="translated">マニフェストを持つモジュール内の .psm1 または .dll ファイルからメンバーをエクスポートするには、値でそれらのファイルの名前を指定、 <bpt id="p1">**</bpt>RootModule<ept id="p1">**</ept> または <bpt id="p2">**</bpt>NestedModules<ept id="p2">**</ept> マニフェスト内のキー。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Otherwise, their members are not exported.</source>
+          <target state="translated">それ以外の場合、そのメンバーはエクスポートされません。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Note: In Windows PowerShell 2.0, this key was called "ModuleToProcess."</source>
+          <target state="translated">注: Windows PowerShell 2.0 でこのキーが呼び出された"ModuleToProcess"</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>You can use the "RootModule" parameter name or its "ModuleToProcess" alias.</source>
+          <target state="translated">"RootModule" パラメーター名またはその　"ModuleToProcess"　エイリアスを使用することができます。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">コマンドレットを実行する前に確認するように求められます。コマンドレットを実行する前に確認するように求められます。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">コマンドレットを実行するとどのような結果になるかを表示します。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">コマンドレットは実行されません。コマンドレットが実行された場合の処理を示しています。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">コマンドレットは実行されません。</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">このコマンドレットは、共通のパラメーターをサポートしています:-デバッグ、-erroraction、-errorvariable、- InformationAction-InformationVariable、- OutVariable、-OutBuffer、- PipelineVariable、- Verbose、および - WarningVariable です。</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">詳細については、about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">入力</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">None</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>You cannot pipe input to this cmdlet.</source>
+          <target state="translated">パイプを使用してこのコマンドレットに入力を渡すことはできません。</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">出力</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>None or System.String</source>
+          <target state="translated">None または System.String</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>By default, New-ModuleManifest does not generate any output.</source>
+          <target state="translated">既定では、New-ModuleManifest は出力を生成しません。</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>However, if you use the PassThru parameter, it generates a System.String object representing the module manifest..</source>
+          <target state="translated">ただし、PassThru パラメーターを使用した場合は、モジュール マニフェストを表す System.String オブジェクトを生成します。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ノート</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>Module manifests are usually optional.</source>
+          <target state="translated">モジュール マニフェストは、通常、オプションです。</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>However, a module manifest is required to export an assembly that is installed in the global assembly cache.</source>
+          <target state="translated">ただし、モジュール マニフェストは、グローバル アセンブリ キャッシュにインストールされているアセンブリをエクスポートするために必要です。</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>To add or change files in the $pshome\Modules directory (%Windir%\System32\WindowsPowerShell\v1.0\Modules), start Windows PowerShell with the "Run as administrator" option.</source>
+          <target state="translated">$pshome\Modules ディレクトリ (%Windir%\System32\WindowsPowerShell\v1.0\Modules) 内のファイルを追加または変更するには、[管理者として実行] オプションを使用して Windows PowerShell を起動します。</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, many parameters of <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> are mandatory, even though they are not required in a module manifest.</source>
+          <target state="translated">Windows PowerShell 2.0 の多くのパラメーターで <bpt id="p1">**</bpt>New-modulemanifest<ept id="p1">**</ept> が必須ですが、モジュール マニフェストでは必要ありません。</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 3.0, only the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter is  mandatory.</source>
+          <target state="translated">Windows PowerShell 3.0 でのみ、 <bpt id="p1">**</bpt>パス<ept id="p1">**</ept> パラメーターは必須です。</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>A "session" is an instance of the Windows PowerShell execution environment.</source>
+          <target state="translated">"セッション" は、Windows PowerShell 実行環境のインスタンスです。</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>A session can have one or more session states.</source>
+          <target state="translated">セッションは、1 つまたは複数のセッション状態の場合があります。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>By default, a session has only a global session state, but each imported module has its own session state.</source>
+          <target state="translated">既定では、セッションはグローバルなセッション状態のみですが、インポートされた各モジュールは独自のセッション状態があります。</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>Session states allow the commands in a module to run without affecting the global session state.</source>
+          <target state="translated">セッション状態によって、モジュール内のコマンドは、グローバルなセッション状態に影響を与えずに実行できます。</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>The "caller's session state" is the session state into which a module is imported.</source>
+          <target state="translated">"呼び出し元のセッション状態" は、モジュールのインポート先のセッション状態です。</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Typically, it refers to the global session state, but when a module imports nested modules, the "caller" is the module and the "caller's session state" is the module's session state.</source>
+          <target state="translated">通常、これはグローバルなセッション状態を指しますが、モジュールが入れ子になったモジュールをインポートする場合は、"呼び出し元" がモジュールで、"呼び出し元のセッション状態" がモジュールのセッション状態になります。</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">関連リンク</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>Export-ModuleMember</source>
+          <target state="translated">Export-ModuleMember</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>Get-Module</source>
+          <target state="translated">Get-Module</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Import-Module</source>
+          <target state="translated">Import-Module</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>New-Module</source>
+          <target state="translated">New-Module</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Remove-Module</source>
+          <target state="translated">Remove-Module</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>Test-ModuleManifest</source>
+          <target state="translated">Test-modulemanifest</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>about_Modules</source>
+          <target state="translated">about_Modules</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

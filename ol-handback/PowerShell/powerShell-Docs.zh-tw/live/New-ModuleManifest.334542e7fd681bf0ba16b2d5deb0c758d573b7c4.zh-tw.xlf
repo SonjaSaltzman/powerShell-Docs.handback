@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">587c7bc53fc9eb32d95a2eadc37cd40529d663c4</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Core\New-ModuleManifest.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a6299910aa2b00fb4f9bbfd10907a7944e857352</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b5686203bcfc9d046d6d45db6be13c1c6cc2ea8d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell 指令程式</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>New-ModuleManifest</source>
+          <target state="translated">新 ModuleManifest</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>New-ModuleManifest</source>
+          <target state="translated">新 ModuleManifest</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Creates a new module manifest.</source>
+          <target state="translated">建立新的模組資訊清單。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">語法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">描述</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> cmdlet creates a new module manifest (.psd1) file, populates its values, and saves the manifest file in the specified path.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>New-modulemanifest<ept id="p1">**</ept> 指令程式會建立新的模組資訊清單 (.psd1) 檔案、 填入其值，並將資訊清單檔案儲存在指定的路徑。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Module authors can use this cmdlet to create a manifest for their module.</source>
+          <target state="translated">模組作者可以使用這個 Cmdlet 建立其模組資訊清單。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A module manifest is a .psd1 file that contains a hash table.</source>
+          <target state="translated">模組資訊清單是包含雜湊表的.psd1 檔案。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The keys and values in the hash table describe the contents and attributes of the module, define the prerequisites, and determine how the components are processed.</source>
+          <target state="translated">雜湊表中的索引鍵和值描述模組的內容和屬性、定義先決條件，和決定元件的處理方式。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Manifests are not required for a module.</source>
+          <target state="translated">資訊清單對於模組並非必要。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> creates a manifest that includes all of the commonly used manifest keys, so you can use the default output as a manifest template.</source>
+          <target state="translated"><bpt id="p1">**</bpt>新 ModuleManifest<ept id="p1">**</ept> 建立資訊清單，其中包含所有常用的資訊清單索引鍵，因此您可以使用預設輸出做為資訊清單的範本。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To add or change values, or to add module keys that this cmdlet does not add, open the resulting file in a text editor.</source>
+          <target state="translated">如果要新增或變更值，或新增此 Cmdet 沒有新增的模組索引鍵，請在文字編輯器中開啟產生的檔案。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Each parameter of this cmdlet (except for <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> and <bpt id="p2">**</bpt>PassThru<ept id="p2">**</ept>) creates a module manifest key and its value.</source>
+          <target state="translated">這個指令程式的每個參數 (除了 <bpt id="p1">**</bpt>路徑<ept id="p1">**</ept> 和 <bpt id="p2">**</bpt>PassThru<ept id="p2">**</ept>) 會建立模組資訊清單索引鍵和其值。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In a module manifest, only the <bpt id="p1">**</bpt>ModuleVersion<ept id="p1">**</ept> key is required.</source>
+          <target state="translated">模組資訊清單中，只有 <bpt id="p1">**</bpt>ModuleVersion<ept id="p1">**</ept> 索引鍵為必要。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Unless specified in the parameter description, if you omit a parameter from the command, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> creates a comment string for the associated value that has no effect.</source>
+          <target state="translated">除非另有指定在參數描述中，如果您省略參數，命令，從 <bpt id="p1">**</bpt>New-modulemanifest<ept id="p1">**</ept> 建立註解字串相關聯的值沒有任何作用。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> prompts you for the values of commonly used parameters that are not specified in the command, in addition to required parameter values.</source>
+          <target state="translated">在 Windows PowerShell 2.0， <bpt id="p1">**</bpt>New-modulemanifest<ept id="p1">**</ept> 提示您提供的常用中未指定命令，除了必要的參數值的參數值。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, it prompts only when required parameter values are not specified.</source>
+          <target state="translated">從 Windows PowerShell 3.0 開始，它會提示只時未指定必要的參數值。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">範例</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 範例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This command creates a new module manifest in the file that is specified by the Path parameter.</source>
+          <target state="translated">此命令會在 Path 參數所指定的檔案中建立新的模組資訊清單。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter sends the output to the pipeline as well as to the file.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> 參數將輸出傳送至管線以及檔案。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The output shows the default values of all keys in the manifest.</source>
+          <target state="translated">輸出顯示資訊清單中所有索引鍵的預設值。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This command creates a new module manifest.</source>
+          <target state="translated">此命令建立新的模組資訊清單。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>PowerShellVersion<ept id="p1">**</ept> and <bpt id="p2">**</bpt>AliasesToExport<ept id="p2">**</ept> parameters to add values to the corresponding manifest keys.</source>
+          <target state="translated">它會使用 <bpt id="p1">**</bpt>PowerShellVersion<ept id="p1">**</ept> 和 <bpt id="p2">**</bpt>AliasesToExport<ept id="p2">**</ept> 參數將值加入至對應的資訊清單索引鍵。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the string and hash table formats of the  <bpt id="p1">**</bpt>ModuleList<ept id="p1">**</ept>, <bpt id="p2">**</bpt>RequiredModules<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>NestedModules<ept id="p3">**</ept> parameter.</source>
+          <target state="translated">這個範例示範如何使用字串和雜湊資料表格式的  <bpt id="p1">**</bpt>ModuleList<ept id="p1">**</ept>, ，<bpt id="p2">**</bpt>RequiredModules<ept id="p2">**</ept>, ，和 <bpt id="p3">**</bpt>NestedModules<ept id="p3">**</ept> 參數。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You can combine strings and hash tables in the same parameter value.</source>
+          <target state="translated">您可以在相同的參數值中結合字串和雜湊表。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This command commands creates a module manifest for a module that requires the <bpt id="p1">**</bpt>BitsTransfer<ept id="p1">**</ept>  and <bpt id="p2">**</bpt>PSScheduledJob<ept id="p2">**</ept> modules.</source>
+          <target state="translated">此命令建立模組資訊清單模組需要 <bpt id="p1">**</bpt>BitsTransfer<ept id="p1">**</ept>  和 <bpt id="p2">**</bpt>PSScheduledJob<ept id="p2">**</ept> 模組。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The command uses a string format to specify the name of the <bpt id="p1">**</bpt>BitsTransfer<ept id="p1">**</ept> module and the hash table format to specify the name, a GUID, and a version of the <bpt id="p2">**</bpt>PSScheduledJob<ept id="p2">**</ept> module.</source>
+          <target state="translated">此命令會使用字串格式指定名稱 <bpt id="p1">**</bpt>BitsTransfer<ept id="p1">**</ept> 模組和雜湊資料表格式來指定名稱、 GUID 和版本 <bpt id="p2">**</bpt>PSScheduledJob<ept id="p2">**</ept> 模組。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This example shows creates a module manifest for a module that supports the Updatable Help feature.</source>
+          <target state="translated">此範例示範建立支援̌「可更新的說明」功能之模組的模組資訊清單。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This feature allows users to use the Update-Help and Save-Help cmdlets, which download help files for the module from the Internet and install them in the module.</source>
+          <target state="translated">這項功能可讓使用者使用 Update-help 和 Save-help 指令程式，讓從網際網路下載模組的說明檔並安裝這些模組中。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>HelpInfoUri<ept id="p1">**</ept> parameter to create a <bpt id="p2">**</bpt>HelpInfoUri<ept id="p2">**</ept> key in the module manifest.</source>
+          <target state="translated">此命令會使用 <bpt id="p1">**</bpt>HelpInfoUri<ept id="p1">**</ept> 參數來建立 <bpt id="p2">**</bpt>HelpInfoUri<ept id="p2">**</ept> 模組資訊清單中的索引鍵。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The value of the parameter and the key must begin with "http" or "https".</source>
+          <target state="translated">參數和索引鍵的值必須以 "http" 或 "https" 開頭。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This value tells the Updatable Help system where to find the HelpInfo XML updatable help information file for the module.</source>
+          <target state="translated">此值指示「可更新的說明」系統尋找模組 HelpInfo XML 可更新的說明資訊檔案的位置。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For information about Updatable Help, see about_Updatable_Help (http://go.microsoft.com/fwlink/?LinkID=235801).</source>
+          <target state="translated">如需可更新的說明資訊，請參閱 about_Updatable_Help (http://go.microsoft.com/fwlink/?LinkID=235801)。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For information about the HelpInfo XML file, see "Supporting Updatable Help" in MSDN.</source>
+          <target state="translated">如需 HelpInfo XML 檔案的資訊，請參閱 MSDN 中的＜支援可更新的說明＞。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Example 5</source>
+          <target state="translated">範例 5</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This example shows how to get the module manifest values of a module -- essentially a "Get-ModuleManifest" command.</source>
+          <target state="translated">這個範例示範如何取得模組的模組資訊清單值 -- 基本上是 "Get-ModuleManifest" 命令。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Because the values in the module manifest are reflected in the values of properties of the module object, you can get the module manifest values by displaying the module object properties.</source>
+          <target state="translated">因為模組資訊清單中的值會反映在模組物件的屬性值，您可以藉由顯示模組物件屬性來取得模組資訊清單值。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">**</bpt>Get-Module<ept id="p1">**</ept> cmdlet to get the PSScheduledJob module.</source>
+          <target state="translated">第一個命令使用 <bpt id="p1">**</bpt>Get-module<ept id="p1">**</ept> cmdlet 取得 PSScheduledJob 模組。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The command uses the List parameter, because the module is installed, but not imported into the session.</source>
+          <target state="translated">命令使用 List 參數，因為模組已安裝，但未匯入工作階段。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The command sends the module to the Format-List cmdlet, which displays all properties and values of the module object in a list.</source>
+          <target state="translated">此命令會將模組傳送 Format-list 指令程式，以顯示清單中的所有屬性和模組物件的值。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The second command uses the Format-Table cmdlet to display the PowerShellVersion property of all installed modules in a table.</source>
+          <target state="translated">第二個命令使用 Format-table 指令程式來顯示資料表中的所有已安裝模組的 PowerShellVersion 屬性。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The PowerShellVersion property is defined in the module manifest.</source>
+          <target state="translated">PowerShellVersion 屬性定義在模組資訊清單中。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">參數</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-AliasesToExport</source>
+          <target state="translated">-AliasesToExport</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Specifies the aliases that the module exports.</source>
+          <target state="translated">指定模組匯出的別名。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">允許使用萬用字元。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>You can use this parameter to restrict the aliases that are exported by the module.</source>
+          <target state="translated">您可以使用此參數來限制模組匯出的別名。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>It can remove aliases from the list of exported aliases, but it cannot add aliases to the list.</source>
+          <target state="translated">它可以從匯出的別名清單中移除別名，但它不能將別名新增到清單。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> creates an <bpt id="p2">**</bpt>AliasesToExport<ept id="p2">**</ept> key with a value of * (all), meaning that all aliases that are exported by the module are exported by the manifest.</source>
+          <target state="translated">如果您省略這個參數， <bpt id="p1">**</bpt>New-modulemanifest<ept id="p1">**</ept> 建立 <bpt id="p2">**</bpt>AliasesToExport<ept id="p2">**</ept> 索引鍵的值為 * （全部），這表示模組匯出的所有別名會都匯出由資訊清單。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>-Author</source>
+          <target state="translated">製作者</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Specifies the module author.</source>
+          <target state="translated">指定模組作者。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> creates an <bpt id="p2">**</bpt>Author<ept id="p2">**</ept> key with the name of the current user.</source>
+          <target state="translated">如果您省略這個參數， <bpt id="p1">**</bpt>New-modulemanifest<ept id="p1">**</ept> 建立 <bpt id="p2">**</bpt>作者<ept id="p2">**</ept> 金鑰與目前使用者的名稱。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>-ClrVersion</source>
+          <target state="translated">-ClrVersion</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Specifies the minimum version of the Common Language Runtime (CLR) of the Microsoft .NET Framework that the module requires.</source>
+          <target state="translated">指定模組所需要的 Microsoft .NET Framework Common Language Runtime (CLR) 最低版本。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>-CmdletsToExport</source>
+          <target state="translated">-CmdletsToExport</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Specifies the cmdlets that the module exports.</source>
+          <target state="translated">指定模組匯出的 Cmdlet。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">允許使用萬用字元。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>You can use this parameter to restrict the cmdlets that are exported by the module.</source>
+          <target state="translated">您可以使用此參數來限制模組匯出的 Cmdlet。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>It can remove cmdlets from the list of exported cmdlets, but it cannot add cmdlets to the list.</source>
+          <target state="translated">它可以從匯出的 Cmdlet 清單中移除 Cmdlet，但是不能將 Cmdlet 新增到清單。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> creates a <bpt id="p2">**</bpt>CmdletsToExport<ept id="p2">**</ept> key with a value of * (all), meaning that all cmdlets that are exported by the module are exported by the manifest.</source>
+          <target state="translated">如果您省略這個參數， <bpt id="p1">**</bpt>New-modulemanifest<ept id="p1">**</ept> 建立 <bpt id="p2">**</bpt>CmdletsToExport<ept id="p2">**</ept> 索引鍵的值為 * （全部），這表示模組匯出的所有 cmdlet 都會由資訊清單都匯出。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>-CompanyName</source>
+          <target state="translated">-[供應商</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Identifies the company or vendor who created the module.</source>
+          <target state="translated">識別建立模組的公司或廠商。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> creates a <bpt id="p2">**</bpt>CompanyName<ept id="p2">**</ept> key with a value of "Unknown".</source>
+          <target state="translated">如果您省略這個參數， <bpt id="p1">**</bpt>New-modulemanifest<ept id="p1">**</ept> 建立 <bpt id="p2">**</bpt>CompanyName<ept id="p2">**</ept> 值為 「 不明 」 的索引鍵。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">會提示您進行確認，然後再執行此指令程式。會提示您進行確認，然後再執行此指令程式。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-Copyright</source>
+          <target state="translated">-著作權</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Specifies a copyright statement for the module.</source>
+          <target state="translated">指定模組的著作權聲明。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> creates a <bpt id="p2">**</bpt>Copyright<ept id="p2">**</ept> key with a value of  "(c) <ph id="ph1">\&lt;</ph>year<ph id="ph2">\&gt;</ph> <ph id="ph3">\&lt;</ph>username<ph id="ph4">\&gt;</ph>.</source>
+          <target state="translated">如果您省略這個參數， <bpt id="p1">**</bpt>New-modulemanifest<ept id="p1">**</ept> 建立 <bpt id="p2">**</bpt>著作權<ept id="p2">**</ept> 索引鍵的值 」 (c) <ph id="ph1">\&lt;</ph>年<ph id="ph2">\&gt;</ph> <ph id="ph3">\&lt;</ph>username<ph id="ph4">\&gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>All rights reserved."</source>
+          <target state="translated">所有，並保留一切權利。 」</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>where <ph id="ph1">\&lt;</ph>year<ph id="ph2">\&gt;</ph> is the current year and <ph id="ph3">\&lt;</ph>username<ph id="ph4">\&gt;</ph> is the value of the <bpt id="p1">**</bpt>Author<ept id="p1">**</ept> key (if one is specified) or the name of the current user.</source>
+          <target state="translated">其中 <ph id="ph1">\&lt;</ph>年份<ph id="ph2">\&gt;</ph> 是目前的年份和 <ph id="ph3">\&lt;</ph>username<ph id="ph4">\&gt;</ph> 值 <bpt id="p1">**</bpt>作者<ept id="p1">**</ept> 索引鍵 （如果已指定） 或目前使用者的名稱。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>-DefaultCommandPrefix</source>
+          <target state="translated">-DefaultCommandPrefix</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Specifies a prefix that is prepended to the nouns of all commands in the module when they are imported into a session.</source>
+          <target state="translated">指定匯入工作階段時，會附加至模組中所有命令之名詞的前置詞。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Enter a prefix string.</source>
+          <target state="translated">輸入前置詞字串。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Prefixes prevent command name conflicts in a user's session.</source>
+          <target state="translated">前置詞可避免使用者工作階段中的命令名稱衝突。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Module users can override this prefix by specifying the <bpt id="p1">**</bpt>Prefix<ept id="p1">**</ept> parameter of the Import-Module cmdlet.</source>
+          <target state="translated">模組的使用者可以指定覆寫此前置詞 <bpt id="p1">**</bpt>前置詞<ept id="p1">**</ept> 匯入模組 cmdlet 的參數。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此參數是在 Windows PowerShell 3.0 引進。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>-Description</source>
+          <target state="translated">-Description</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Describes the contents of the module.</source>
+          <target state="translated">說明模組的內容。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>-DotNetFrameworkVersion</source>
+          <target state="translated">-DotNetFrameworkVersion</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Specifies the minimum version of the Microsoft .NET Framework that the module requires.</source>
+          <target state="translated">指定模組所需要的 Microsoft .NET Framework 最低版本。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>-FileList</source>
+          <target state="translated">-檔案清單</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Specifies all items that are included in the module.</source>
+          <target state="translated">指定模組中所包含的所有項目。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>This key is designed to act as a module inventory.</source>
+          <target state="translated">這個索引鍵被設計來做為模組詳細目錄。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The files listed in the key are not automatically exported with the module.</source>
+          <target state="translated">索引鍵中列出的檔案不會隨模組自動匯出。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>-FormatsToProcess</source>
+          <target state="translated">-FormatsToProcess</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Specifies the formatting files (.ps1xml) that run when the module is imported.</source>
+          <target state="translated">指定模組匯入時執行的格式檔案 (.ps1xml)。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>When you import a module, Windows PowerShell runs the Update-FormatData cmdlet with the specified files.</source>
+          <target state="translated">當您匯入模組時，Windows PowerShell 會執行 Update-formatdata cmdlet 與指定的檔案。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Because formatting files are not scoped, they affect all session states in the session.</source>
+          <target state="translated">因為格式檔案未設定範圍，所以它們會影響工作階段中所有的工作階段狀態。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>-FunctionsToExport</source>
+          <target state="translated">-FunctionsToExport</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Specifies the functions that the module exports.</source>
+          <target state="translated">指定模組匯出的函式。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">允許使用萬用字元。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>You can use this parameter to restrict the functions that are exported by the module.</source>
+          <target state="translated">您可以使用此參數來限制模組匯出的函式。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>It can remove functions from the list of exported aliases, but it cannot add functions to the list.</source>
+          <target state="translated">它可以從匯出的別名清單中移除函式，但它無法將函式新增到清單。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> creates an <bpt id="p2">**</bpt>FunctionsToExport<ept id="p2">**</ept> key with a value of * (all), meaning that all functions that are exported by the module are exported by the manifest.</source>
+          <target state="translated">如果您省略這個參數， <bpt id="p1">**</bpt>New-modulemanifest<ept id="p1">**</ept> 建立 <bpt id="p2">**</bpt>FunctionsToExport<ept id="p2">**</ept> 索引鍵的值為 * （全部），這表示模組匯出的所有函式由資訊清單匯出。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>-Guid</source>
+          <target state="translated">-Guid</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Specifies a unique identifier for the module.</source>
+          <target state="translated">指定模組的唯一識別碼。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The GUID can be used to distinguish among modules with the same name.</source>
+          <target state="translated">GUID 可用來區別具有相同名稱的模組。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> creates a <bpt id="p2">**</bpt>GUID<ept id="p2">**</ept> key in the manifest and generates a GUID for the value.</source>
+          <target state="translated">如果您省略這個參數， <bpt id="p1">**</bpt>New-modulemanifest<ept id="p1">**</ept> 建立 <bpt id="p2">**</bpt>GUID<ept id="p2">**</ept> 金鑰資訊清單中，而且會產生一個 GUID 值。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>To create a new GUID in Windows PowerShell, type "<ph id="ph1">\[</ph>guid<ph id="ph2">\]</ph>::NewGuid()".</source>
+          <target state="translated">若要在 Windows PowerShell 中建立新的 GUID，請輸入"<ph id="ph1">\[</ph>guid<ph id="ph2">\]</ph>:: newguid （) 」。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>-HelpInfoUri</source>
+          <target state="translated">-HelpInfoUri</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Specifies the Internet address of the HelpInfo XML file for the module.</source>
+          <target state="translated">指定模組 HelpInfo XML 檔案的網際網路位址。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Enter an Uniform Resource Identifier (URI) that begins with "http" or "https".</source>
+          <target state="translated">輸入開頭為 "http" 或 "https" 的「統一資源識別項 (URI)」。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The   HelpInfo XML file supports the Updatable Help feature that was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">HelpInfo XML 檔案支援在 Windows PowerShell 3.0 中引進的「可更新的說明」功能。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>It contains information about the location of downloadable help files for the module and the version numbers of the newest help files for each supported locale.</source>
+          <target state="translated">它包含模組可下載說明檔案的位置，以及每個支援的地區設定最新說明檔案版本號碼。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>For information about Updatable Help, see about_Updatable_Help (http://go.microsoft.com/fwlink/?LinkID=235801).</source>
+          <target state="translated">如需可更新的說明資訊，請參閱 about_Updatable_Help (http://go.microsoft.com/fwlink/?LinkID=235801)。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>For information about the HelpInfo XML file, see "Supporting Updatable Help" in MSDN.</source>
+          <target state="translated">如需 HelpInfo XML 檔案的資訊，請參閱 MSDN 中的＜支援可更新的說明＞。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此參數是在 Windows PowerShell 3.0 引進。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>-ModuleList</source>
+          <target state="translated">-ModuleList</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Lists all modules that are included in this module.</source>
+          <target state="translated">列出此模組中所包含的所有模組。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Enter each module name as a string or as a hash table with <bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ModuleVersion<ept id="p2">**</ept> keys.</source>
+          <target state="translated">輸入每個模組名稱，做為字串或雜湊資料表與 <bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept> 和 <bpt id="p2">**</bpt>ModuleVersion<ept id="p2">**</ept> 索引鍵。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The hash table can also have an optional <bpt id="p1">**</bpt>GUID<ept id="p1">**</ept> key.</source>
+          <target state="translated">雜湊表也可以有選擇性 <bpt id="p1">**</bpt>GUID<ept id="p1">**</ept> 索引鍵。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>You can combine strings and hash tables in the parameter value.</source>
+          <target state="translated">您可以在參數值中結合字串和雜湊表。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>For more information, see the examples.</source>
+          <target state="translated">如需詳細資訊，請參閱範例。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>This key is designed to act as a module inventory.</source>
+          <target state="translated">這個索引鍵被設計來做為模組詳細目錄。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The modules that are listed in the value of this key are not automatically processed.</source>
+          <target state="translated">此索引鍵值中所列的模組不會自動處理。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>-ModuleVersion</source>
+          <target state="translated">-ModuleVersion</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Specifies the version of the module.</source>
+          <target state="translated">指定模組的版本。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>This parameter is not required by the cmdlet, but a <bpt id="p1">**</bpt>ModuleVersion<ept id="p1">**</ept> key is required in the manifest.</source>
+          <target state="translated">此指令程式，不需要此參數但 <bpt id="p1">**</bpt>ModuleVersion<ept id="p1">**</ept> 需要資訊清單中的金鑰。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> creates a <bpt id="p2">**</bpt>ModuleVersion<ept id="p2">**</ept> key with a value of "1.0".</source>
+          <target state="translated">如果您省略這個參數， <bpt id="p1">**</bpt>New-modulemanifest<ept id="p1">**</ept> 建立 <bpt id="p2">**</bpt>ModuleVersion<ept id="p2">**</ept> 金鑰值是 「 1.0 」。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>-NestedModules</source>
+          <target state="translated">-NestedModules</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Specifies script modules (.psm1) and binary modules (.dll) that are imported into the module's session state.</source>
+          <target state="translated">指定匯入模組工作階段狀態的指令碼模組 (.psm1) 和二進位模組 (.dll)。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The files in the <bpt id="p1">**</bpt>NestedModules<ept id="p1">**</ept> key run in the order in which they are listed in the value.</source>
+          <target state="translated">中的檔案 <bpt id="p1">**</bpt>NestedModules<ept id="p1">**</ept> 機碼值中所列出的順序執行。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Enter each module name as a string or as a hash table with <bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ModuleVersion<ept id="p2">**</ept> keys.</source>
+          <target state="translated">輸入每個模組名稱，做為字串或雜湊資料表與 <bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept> 和 <bpt id="p2">**</bpt>ModuleVersion<ept id="p2">**</ept> 索引鍵。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The hash table can also have an optional <bpt id="p1">**</bpt>GUID<ept id="p1">**</ept> key.</source>
+          <target state="translated">雜湊表也可以有選擇性 <bpt id="p1">**</bpt>GUID<ept id="p1">**</ept> 索引鍵。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>You can combine strings and hash tables in the parameter value.</source>
+          <target state="translated">您可以在參數值中結合字串和雜湊表。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>For more information, see the examples.</source>
+          <target state="translated">如需詳細資訊，請參閱範例。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Typically, nested modules contain commands that the root module needs for its internal processing.</source>
+          <target state="translated">一般而言，巢狀模組包含根模組內部處理所需要的命令。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>By default, the commands in nested modules are exported from the module's session state into the caller's session state, but the root module can restrict the commands that it exports (for example, by using an Export-ModuleMembercommand).</source>
+          <target state="translated">根據預設，巢狀模組中的命令會從模組的工作階段狀態匯出到呼叫者的工作階段狀態，但根模組可以限制 （例如，藉由使用匯出 ModuleMembercommand） 在匯出的命令。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Nested modules in the module session state are available to the root module, but they are not returned by a Get-Module command in the caller's session state.</source>
+          <target state="translated">在模組工作階段狀態中的巢狀的模組可用於根模組使用，但它們不會傳回取得模組中的命令呼叫者的工作階段狀態。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Scripts (.ps1) that are listed in the <bpt id="p1">**</bpt>NestedModules<ept id="p1">**</ept> key are run in the module's session state, not in the caller's session state.</source>
+          <target state="translated">指令碼 (.ps1) 中所列的 <bpt id="p1">**</bpt>NestedModules<ept id="p1">**</ept> 金鑰在模組工作階段狀態，不是在呼叫者的工作階段狀態中執行。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>To run a script in the caller's session state, list the script file name in the value of the <bpt id="p1">**</bpt>ScriptsToProcess<ept id="p1">**</ept> key in the manifest.</source>
+          <target state="translated">若要執行指令碼中呼叫的工作階段狀態，清單值的指令碼檔案名稱 <bpt id="p1">**</bpt>ScriptsToProcess<ept id="p1">**</ept> 資訊清單中的索引鍵。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>-PassThru</source>
+          <target state="translated">-PassThru</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Writes the resulting module manifest to the console, in addition to creating a .psd1 file.</source>
+          <target state="translated">除了建立.psd1 檔案之外，請將產生的模組資訊清單寫入主控台中。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>By default, this cmdlet does not generate any output.</source>
+          <target state="translated">根據預設，此 Cmdlet 不會產生任何輸出。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>-Path</source>
+          <target state="translated">-Path</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Specifies the path and file name of the new module manifest.</source>
+          <target state="translated">指定新模組資訊清單的路徑和檔案名稱。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Enter a path and file name with a .psd1 file name extension, such as "$pshome\Modules\MyModule\MyModule.psd1".</source>
+          <target state="translated">輸入副檔名為 .psd1 的路徑與檔案名稱，例如 "$pshome\Modules\MyModule\MyModule.psd1"。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>This parameter is required.</source>
+          <target state="translated">此為必要參數。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>If you specify the path to an existing file, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> replaces the file without warning unless the file has the read-only attribute.</source>
+          <target state="translated">如果您指定現有檔案的路徑 <bpt id="p1">**</bpt>New-modulemanifest<ept id="p1">**</ept> 不顯示警告，除非檔案具有唯讀屬性會取代檔案。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The manifest should be located in the module's directory, and the manifest file name should be the same as the module directory name, but with a .psd1 file name extension.</source>
+          <target state="translated">資訊清單應該位於模組的目錄，且資訊清單檔案名稱應該與模組目錄名稱相同，但是副檔名為 .psd1。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Note: You cannot use variables, such as $pshome or $home, in response to a prompt for a <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter value.</source>
+          <target state="translated">注意︰ 您無法使用變數，例如 $pshome 或 $home，以回應提示 <bpt id="p1">**</bpt>路徑<ept id="p1">**</ept> 參數值。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>To use a variable, include the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter in the command.</source>
+          <target state="translated">若要使用變數，包含 <bpt id="p1">**</bpt>路徑<ept id="p1">**</ept> 命令中的參數。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>-PowerShellHostName</source>
+          <target state="translated">-PowerShellHostName</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the Windows PowerShell host program that the module requires.</source>
+          <target state="translated">指定模組所需要的 Windows PowerShell 主機程式的名稱。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Enter the name of the host program, such as "Windows PowerShell ISE Host" or "ConsoleHost".</source>
+          <target state="translated">輸入主機程式的名稱，例如 "Windows PowerShell ISE Host" 或 "ConsoleHost"。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Wildcards are not permitted.</source>
+          <target state="translated">不允許使用萬用字元。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>To find the name of a host program, in the program, type "$host.name".</source>
+          <target state="translated">如果要尋找主機程式名稱，請在程式中輸入 "$host.name"。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>-PowerShellHostVersion</source>
+          <target state="translated">-PowerShellHostVersion</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Specifies the minimum version of the Windows PowerShell host program that works with the module.</source>
+          <target state="translated">指定模組適用的 Windows PowerShell 主機程式最低版本。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Enter a version number, such as 1.1.</source>
+          <target state="translated">輸入版本號碼，例如 1.1。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>-PowerShellVersion</source>
+          <target state="translated">-PowerShellVersion</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Specifies the minimum version of Windows PowerShell that will work with this module.</source>
+          <target state="translated">指定此模組適用的 Windows PowerShell 最低版本。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>For example, you can enter 2.0, 3.0, or 4.0 as the value of this parameter.</source>
+          <target state="translated">例如，您可以輸入 2.0、 3.0 或 4.0，做為此參數的值。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>-PrivateData</source>
+          <target state="translated">-PrivateData</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Specifies data that is passed to the module when it is imported.</source>
+          <target state="translated">指定匯入時傳遞給模組的資料。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>-ProcessorArchitecture</source>
+          <target state="translated">-ProcessorArchitecture</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Specifies the processor architecture that the module requires.</source>
+          <target state="translated">指定模組需要的處理器架構。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Valid values are x86, AMD64, IA64, and None (unknown or unspecified).</source>
+          <target state="translated">有效值為 x86、AMD64、IA64 和 None (未知或未指定)。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>-RequiredAssemblies</source>
+          <target state="translated">-RequiredAssemblies</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Specifies the assembly (.dll) files that the module requires.</source>
+          <target state="translated">指定模組需要的組件 (.dll) 檔案。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Enter the assembly file names.</source>
+          <target state="translated">輸入組件檔案名稱。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell loads the specified assemblies before updating types or formats, importing nested modules, or importing the module file that is specified in the value of the <bpt id="p1">**</bpt>RootModule<ept id="p1">**</ept> key.</source>
+          <target state="translated">Windows PowerShell 載入指定的組件之前更新類型或格式、 巢狀的模組匯入或匯入模組檔案中的值指定 <bpt id="p1">**</bpt>RootModule<ept id="p1">**</ept> 索引鍵。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Use this parameter to list all the assemblies that the module requires, including assemblies that must be loaded to update any formatting or type files that are listed in the <bpt id="p1">**</bpt>FormatsToProcess<ept id="p1">**</ept> or <bpt id="p2">**</bpt>TypesToProcess<ept id="p2">**</ept> keys, even if those assemblies are also listed as binary modules in the <bpt id="p3">**</bpt>NestedModules<ept id="p3">**</ept> key.</source>
+          <target state="translated">使用此參數來列出模組需要，包括必須更新任何格式或類型中所列的檔案載入的組件的所有組件 <bpt id="p1">**</bpt>FormatsToProcess<ept id="p1">**</ept> 或 <bpt id="p2">**</bpt>TypesToProcess<ept id="p2">**</ept> 金鑰，即使這些組件也會列為二進位模組中 <bpt id="p3">**</bpt>NestedModules<ept id="p3">**</ept> 索引鍵。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>-RequiredModules</source>
+          <target state="translated">-RequiredModules</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Specifies modules that must be in the global session state.</source>
+          <target state="translated">指定必須在全域工作階段狀態的模組。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>If the required modules are not in the global session state, Windows PowerShell imports them.</source>
+          <target state="translated">如果必要的模組不在全域工作階段狀態中，Windows PowerShell 會匯入它們。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>If the required modules are not available, the Import-Module command fails.</source>
+          <target state="translated">如果無法使用必要的模組，Import-Module 命令會失敗。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Enter each module name as a string or as a hash table with <bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ModuleVersion<ept id="p2">**</ept> keys.</source>
+          <target state="translated">輸入每個模組名稱，做為字串或雜湊資料表與 <bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept> 和 <bpt id="p2">**</bpt>ModuleVersion<ept id="p2">**</ept> 索引鍵。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The hash table can also have an optional <bpt id="p1">**</bpt>GUID<ept id="p1">**</ept> key.</source>
+          <target state="translated">雜湊表也可以有選擇性 <bpt id="p1">**</bpt>GUID<ept id="p1">**</ept> 索引鍵。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>You can combine strings and hash tables in the parameter value.</source>
+          <target state="translated">您可以在參數值中結合字串和雜湊表。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>For more information, see the examples.</source>
+          <target state="translated">如需詳細資訊，請參閱範例。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> does not import required modules automatically.</source>
+          <target state="translated">在 Windows PowerShell 2.0， <bpt id="p1">**</bpt>匯入模組<ept id="p1">**</ept> 不會不必要的模組會自動匯入。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>It just verifies that the required modules are in the global session state.</source>
+          <target state="translated">它只會驗證必要的模組會在全域工作階段狀態。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>-RootModule</source>
+          <target state="translated">-RootModule</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Specifies the primary or "root" file of the module.</source>
+          <target state="translated">指定模組的主要或「根」檔案。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Enter the file name of a script (.ps1), a script module (.psm1), a module manifest(.psd1), an assembly (.dll), a cmdlet definition XML file (.cdxml), or a workflow (.xaml).</source>
+          <target state="translated">輸入指令碼的檔案名稱 (.ps1)、指令碼模組 (.psm1)、模組資訊清單 (.psd1)、組件 (.dll)、Cmdlet 定義 XML 檔案 (.cdxml) 或工作流程 (.xaml)。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>When the module is imported, the members that are exported from the root module file are imported into the caller's session state.</source>
+          <target state="translated">匯入模組時，從根模組檔案匯出的成員會匯入呼叫者工作階段狀態。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>If a module has a manifest file and no root file has been designated in the <bpt id="p1">**</bpt>RootModule<ept id="p1">**</ept> key, the manifest becomes the primary file for the module, and the module becomes a "manifest module" (ModuleType = Manifest).</source>
+          <target state="translated">如果模組有資訊清單檔案，而且沒有根檔案中已指定 <bpt id="p1">**</bpt>RootModule<ept id="p1">**</ept> 會變成的索引鍵，資訊清單模組的主要檔案，而該模組會變成 「 資訊清單模組 」 (ModuleType = Manifest)。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>To export members from .psm1 or .dll files in a module that has a manifest, the names of those files must be specified in the values of the <bpt id="p1">**</bpt>RootModule<ept id="p1">**</ept> or <bpt id="p2">**</bpt>NestedModules<ept id="p2">**</ept> keys in the manifest.</source>
+          <target state="translated">若要從中有資訊清單模組的.psm1 或.dll 檔案匯出成員，這些檔案的名稱必須指定的值中 <bpt id="p1">**</bpt>RootModule<ept id="p1">**</ept> 或 <bpt id="p2">**</bpt>NestedModules<ept id="p2">**</ept> 資訊清單中的索引鍵。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Otherwise, their members are not exported.</source>
+          <target state="translated">否則，不會匯出其成員。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Note: In Windows PowerShell 2.0, this key was called "ModuleToProcess."</source>
+          <target state="translated">注意︰ 在 Windows PowerShell 2.0 中，這個索引鍵稱為"ModuleToProcess"。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>You can use the "RootModule" parameter name or its "ModuleToProcess" alias.</source>
+          <target state="translated">您可以使用 "RootModule" 參數名稱或其 "ModuleToProcess" 別名。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>-ScriptsToProcess</source>
+          <target state="translated">-ScriptsToProcess</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Specifies script (.ps1) files that run in the caller's session state when the module is imported.</source>
+          <target state="translated">指定匯入模組時，在呼叫者工作階段狀態中執行的指令碼 (.ps1) 檔案。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>You can use these scripts to prepare an environment, just as you might use a login script.</source>
+          <target state="translated">您可以使用這些指令碼來準備環境，就像您使用登入指令碼一般。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>To specify scripts that run in the module's session state, use the <bpt id="p1">**</bpt>NestedModules<ept id="p1">**</ept> key.</source>
+          <target state="translated">若要指定在模組工作階段狀態中執行的指令碼，使用 <bpt id="p1">**</bpt>NestedModules<ept id="p1">**</ept> 索引鍵。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>-TypesToProcess</source>
+          <target state="translated">-TypesToProcess</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Specifies the type files (.ps1xml) that run when the module is imported.</source>
+          <target state="translated">指定模組匯入時執行的類型檔案 (.ps1xml)。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>When you import the module, Windows PowerShell runs the Update-TypeData cmdlet with the specified files.</source>
+          <target state="translated">當您匯入模組時，Windows PowerShell 會執行 Update-typedata cmdlet 與指定的檔案。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Because type files are not scoped, they affect all session states in the session.</source>
+          <target state="translated">因為類型檔案未設定範圍，所以它們會影響工作階段中所有的工作階段狀態。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>-VariablesToExport</source>
+          <target state="translated">-VariablesToExport</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Specifies the variables that the module exports.</source>
+          <target state="translated">指定模組匯出的變數。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">允許使用萬用字元。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>You can use this parameter to restrict the variables that are exported by the module.</source>
+          <target state="translated">您可以使用此參數來限制模組匯出的變數。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>It can remove variables from the list of exported variables, but it cannot add variables to the list.</source>
+          <target state="translated">它可以從匯出的變數清單中移除變數，但它無法將變數新增到清單。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> creates a <bpt id="p2">**</bpt>VariablesToExport<ept id="p2">**</ept> key with a value of * (all), meaning that all variables that are exported by the module are exported by the manifest.</source>
+          <target state="translated">如果您省略這個參數， <bpt id="p1">**</bpt>New-modulemanifest<ept id="p1">**</ept> 建立 <bpt id="p2">**</bpt>VariablesToExport<ept id="p2">**</ept> 索引鍵的值為 * （全部），這表示模組匯出的所有變數都會由資訊清單都匯出。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">顯示執行 Cmdlet 後會發生的情況。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">無法執行此指令程式。顯示執行此指令程式會發生什麼事。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">未執行 Cmdlet。</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">這個 cmdlet 支援一般參數:-偵錯、-ErrorAction、-ErrorVariable、-InformationAction-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 以及-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">如需詳細資訊，請參閱 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">輸入</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">無</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>You cannot pipe input to this cmdlet.</source>
+          <target state="translated">您無法使用管線傳送輸入至此 Cmdlet。</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">輸出</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>None or System.String</source>
+          <target state="translated">無或 System.String</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>By default, New-ModuleManifest does not generate any output.</source>
+          <target state="translated">根據預設，New-ModuleManifest 不會產生任何輸出。</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>However, if you use the PassThru parameter, it generates a System.String object representing the module manifest..</source>
+          <target state="translated">不過，如果您使用 PassThru 參數，它會產生代表模組資訊清單的 System.String 物件。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">附註</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>Module manifests are usually optional.</source>
+          <target state="translated">模組資訊清單通常為選擇性。</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>However, a module manifest is required to export an assembly that is installed in the global assembly cache.</source>
+          <target state="translated">不過，需要模組資訊清單才能匯出安裝在全域組件快取中的組件。</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>To add or change files in the $pshome\Modules directory (%Windir%\System32\WindowsPowerShell\v1.0\Modules), start Windows PowerShell with the "Run as administrator" option.</source>
+          <target state="translated">如果要新增或變更 $pshome\Modules 目錄 (%Windir%\System32\WindowsPowerShell\v1.0\Modules) 中的檔案，請使用 [以系統管理員身分執行] 選項來啟動 Windows PowerShell。</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, many parameters of <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> are mandatory, even though they are not required in a module manifest.</source>
+          <target state="translated">在 Windows PowerShell 2.0 中，許多參數 <bpt id="p1">**</bpt>New-modulemanifest<ept id="p1">**</ept> 為強制性，即使它們不需要模組資訊清單中。</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 3.0, only the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter is  mandatory.</source>
+          <target state="translated">在 Windows PowerShell 3.0 中，只有 <bpt id="p1">**</bpt>路徑<ept id="p1">**</ept> 為必要參數。</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>A "session" is an instance of the Windows PowerShell execution environment.</source>
+          <target state="translated">「工作階段」是 Windows PowerShell 執行環境的執行個體。</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>A session can have one or more session states.</source>
+          <target state="translated">工作階段可以有一或多個工作階段狀態。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>By default, a session has only a global session state, but each imported module has its own session state.</source>
+          <target state="translated">依預設，工作階段只有全域工作階段狀態，但每個匯入的模組有自己的工作階段狀態。</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>Session states allow the commands in a module to run without affecting the global session state.</source>
+          <target state="translated">工作階段狀態允許執行模組中的命令，而不會影響全域工作階段狀態。</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>The "caller's session state" is the session state into which a module is imported.</source>
+          <target state="translated">「呼叫者工作階段狀態」是模組匯入的工作階段狀態。</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Typically, it refers to the global session state, but when a module imports nested modules, the "caller" is the module and the "caller's session state" is the module's session state.</source>
+          <target state="translated">一般而言，它是指全域工作階段狀態，但當模組匯入巢狀模組時，「呼叫者」是模組，而「呼叫者工作階段狀態」是模組的工作階段狀態。</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相關的連結</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>Export-ModuleMember</source>
+          <target state="translated">Export-ModuleMember</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>Get-Module</source>
+          <target state="translated">Get-Module</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Import-Module</source>
+          <target state="translated">Import-Module</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>New-Module</source>
+          <target state="translated">New-Module</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Remove-Module</source>
+          <target state="translated">Remove-Module</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>Test-ModuleManifest</source>
+          <target state="translated">Test-modulemanifest</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>about_Modules</source>
+          <target state="translated">about_Modules</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
