@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a4ddc71ef9f8e4b71bb49b52f92764322b2ad1a0</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\Get-Job.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">73dfe18f965ad4f3c44747e091f12c8f50cecd34</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5abd8c4500c7aa11df4aee1df2ac32fc8dc89abd</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell-Cmdlets</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Get-Job</source>
+          <target state="translated">Get-Job</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Get-Job</source>
+          <target state="translated">Get-Job</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">ZUSAMMENFASSUNG</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Gets Windows PowerShell background jobs that are running in the current session.</source>
+          <target state="translated">Ruft Windows PowerShell-Hintergrundaufträge ab, die in der aktuellen Sitzung ausgeführt werden.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SYNTAX</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>SessionIdParameterSet (Default)</source>
+          <target state="translated">SessionIdParameterSet (Standard)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>StateParameterSet</source>
+          <target state="translated">StateParameterSet</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>CommandParameterSet</source>
+          <target state="translated">CommandParameterSet</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>InstanceIdParameterSet</source>
+          <target state="translated">InstanceIdParameterSet</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>NameParameterSet</source>
+          <target state="translated">NameParameterSet</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>FilterParameterSet</source>
+          <target state="translated">FilterParameterSet</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">BESCHREIBUNG</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> cmdlet gets objects that represent the background jobs that were started in the current session.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> Cmdlet ruft Objekte, die die Hintergrundaufträge darstellen, die in der aktuellen Sitzung gestartet wurden.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can use <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> to get jobs that were started by using the Start-Job cmdlet, or by using the <bpt id="p2">*</bpt>AsJob<ept id="p2">*</ept> parameter of any cmdlet.</source>
+          <target state="translated">Sie können <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> Aufträge ab, die mithilfe des Start-Job-Cmdlets oder mit gestartet wurden die <bpt id="p2">*</bpt>AsJob<ept id="p2">*</ept> -Parameter eines beliebigen Cmdlets.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Without parameters, a <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> command gets all jobs in the current session.</source>
+          <target state="translated">Ohne Parameter ein <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> Befehl ruft alle Aufträge in der aktuellen Sitzung ab.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can use the parameters of <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> to get particular jobs.</source>
+          <target state="translated">Sie können die Parameter des <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> bestimmte Aufträge abrufen.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The job object that <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> returns contains useful information about the job, but it does not contain the job results.</source>
+          <target state="translated">Das Auftragsobjekt <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> gibt enthält nützliche Informationen zum Auftrag, aber enthält nicht die Ergebnisse des Auftrags.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To get the results, use the Receive-Job cmdlet.</source>
+          <target state="translated">Verwenden Sie das Receive-Job-Cmdlet, um Ergebnisse zu erhalten.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A Windows PowerShell background job is a command that runs in the background without interacting with the current session.</source>
+          <target state="translated">Windows PowerShell-Hintergrundauftrag ist ein Befehl, der im Hintergrund ausgeführt wird, ohne Interaktion mit der aktuellen Sitzung.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Typically, you use a background job to run a complex command that takes a long time to finish.</source>
+          <target state="translated">Normalerweise verwenden Sie einen Hintergrundauftrag zum Ausführen eines komplexen Befehls, das eine lange Zeit in Anspruch nimmt.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For more information about background jobs in Windows PowerShell, see about_Jobs.</source>
+          <target state="translated">Weitere Informationen zu Hintergrundaufträgen in Windows PowerShell finden Sie unter "about_jobs".</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, the <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> cmdlet also gets custom job types, such as workflow jobs and instances of scheduled jobs.</source>
+          <target state="translated">Ab Windows PowerShell 3.0, die <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> Cmdlet ruft auch benutzerdefinierte Auftragstypen, z. B. Workflowaufträge und Instanzen von geplanten Aufträgen.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>To find the job type of a job, use the <bpt id="p1">**</bpt>PSJobTypeName<ept id="p1">**</ept> property of the job.</source>
+          <target state="translated">Den Auftragstyp des Auftrags verwenden, um die <bpt id="p1">**</bpt>PSJobTypeName<ept id="p1">**</ept> -Eigenschaft des Auftrags.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To enable <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> to get a custom job type, import the module that supports the custom job type into the session before you run a <bpt id="p2">**</bpt>Get-Job<ept id="p2">**</ept> command, either by using the Import-Module cmdlet or by using or getting a cmdlet in the module.</source>
+          <target state="translated">So aktivieren Sie <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> um einen benutzerdefinierten Auftragstyp zu erhalten, importieren Sie das Modul, in der Sitzung vor dem Ausführen der benutzerdefinierten Auftragstyp unterstützt, eine <bpt id="p2">**</bpt>Get-Job<ept id="p2">**</ept> Befehl mithilfe des Import-Module-Cmdlets oder mit oder Abrufen eines Cmdlets im Modul.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For information about a particular custom job type, see the documentation of the custom job type feature.</source>
+          <target state="translated">Informationen zu einem bestimmten benutzerdefinierten Auftragstyp finden Sie in der Dokumentation der Funktion „Benutzerdefinierte Auftragstypen“.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">BEISPIELE</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Example 1: Get all background jobs started in the current session</source>
+          <target state="translated">Beispiel 1: Abrufen Sie alle Hintergrundaufträge Schritte in der aktuellen Sitzung</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This command gets all background jobs started in the current session.</source>
+          <target state="translated">Dieser Befehl ruft alle Hintergrundaufträge ab, die in der aktuellen Sitzung gestartet wurden.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>It does not include jobs created in other sessions, even if the jobs run on the local computer.</source>
+          <target state="translated">In anderen Sitzungen erstellte Aufträge sind nicht enthalten, auch wenn die Aufträge auf dem lokalen Computer ausgeführt werden.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Example 2: Stop a job by using an instance ID</source>
+          <target state="translated">Beispiel 2: Beenden eines Auftrags mit einer Instanceid</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>These commands show how to get the instance ID of a job and then use it to stop a job.</source>
+          <target state="translated">Diese Befehle zeigen, wie die Instanz-ID eines Auftrags abgerufen und dann zum Beenden eines Auftrags verwendet wird.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Unlike the name of a job, which is not unique, the instance ID is unique.</source>
+          <target state="translated">Im Gegensatz zum Namen eines Auftrags, der nicht eindeutig ist, ist die Instanz-ID eindeutig.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Example 3: Get jobs that include a specific command</source>
+          <target state="translated">Beispiel 3: Abrufen von Aufträgen, die einen bestimmten Befehl einschließen</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This command gets the jobs on the system that include a Get-Process command.</source>
+          <target state="translated">Dieser Befehl ruft die Aufträge auf dem System, die einen Get-Process-Befehl enthalten.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>Command<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>Get-Job<ept id="p2">**</ept> to limit the jobs retrieved.</source>
+          <target state="translated">Der Befehl verwendet den <bpt id="p1">*</bpt>Befehl<ept id="p1">*</ept> Parameter <bpt id="p2">**</bpt>Get-Job<ept id="p2">**</ept> auf die abgerufenen Aufträge einzuschränken.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The command uses wildcard characters (<bpt id="p1">*</bpt>) to get jobs that include a <ept id="p1">*</ept><bpt id="p2">*</bpt>Get-Process<ept id="p2">*</ept>* command anywhere in the command string.</source>
+          <target state="translated">Der Befehl verwendet die Platzhalterzeichen (<bpt id="p1">*</bpt>) zum Abrufen der Aufträge, die enthalten eine <ept id="p1">*</ept><bpt id="p2">*</bpt>Get-Process<ept id="p2">*</ept>* Befehl an einer beliebigen Stelle in der Befehlszeichenfolge.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Example 4: Get jobs that include a specific command by using the pipeline</source>
+          <target state="translated">Beispiel 4: Abrufen von Aufträgen, die einen bestimmten Befehl mithilfe der Pipeline enthalten</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Like the command in the previous example, this command gets the jobs on the system that include a <bpt id="p1">**</bpt>Get-Process<ept id="p1">**</ept> command.</source>
+          <target state="translated">Wie der Befehl im vorherigen Beispiel, ruft dieser Befehl die Aufträge auf dem System mit einem <bpt id="p1">**</bpt>Get-Process<ept id="p1">**</ept> Befehl.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The command uses a pipeline operator (|) to send a string, in quotation marks, to the <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">Der Befehl verwendet einen Pipelineoperator (|), senden eine Zeichenfolge in Anführungszeichen ein, zu der <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> Cmdlet.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>It is the equivalent of the previous command.</source>
+          <target state="translated">Dies entspricht dem vorherigen Befehl.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Example 5: Get jobs that have not been started</source>
+          <target state="translated">Beispiel 5: Abrufen von Aufträgen, die nicht gestartet wurden</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This command gets only those jobs that have been created but have not yet been started.</source>
+          <target state="translated">Mit diesem Befehl werden nur die Aufträge abgerufen, die erstellt, aber noch nicht gestartet wurden.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This includes jobs that are scheduled to run in the future and those not yet scheduled.</source>
+          <target state="translated">Dazu gehören Aufträge, deren Ausführung für einen Zeitpunkt in der Zukunft geplant ist, und solche, die noch nicht geplant wurden.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Example 6: Get jobs that have not been assigned a name</source>
+          <target state="translated">Beispiel 6: Abrufen der Aufträge, die keinen Namen zugewiesen wurden</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This command gets all jobs that have job names that begin with job.</source>
+          <target state="translated">Dieser Befehl ruft alle Aufträge, deren Auftragsnamen mit Auftrag beginnen.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Because job<ph id="ph1">\&lt;</ph>number<ph id="ph2">\&gt;</ph> is the default name for a job, this command gets all jobs that do not have an explicitly assigned name.</source>
+          <target state="translated">Da Auftrag<ph id="ph1">\&lt;</ph>Anzahl<ph id="ph2">\&gt;</ph> lautet der Standardname für einen Auftrag mit diesem Befehl ruft alle Aufträge, die nicht über einen explizit zugewiesenen Namen verfügen.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Example 7: Use a job object to represent the job in a command</source>
+          <target state="translated">Beispiel 7: Verwenden Sie ein Auftragsobjekt den Auftrag in einem Befehl darstellen</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This example shows how to use <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> to get a job object, and then it shows how to use the job object to represent the job in a command.</source>
+          <target state="translated">Dieses Beispiel zeigt, wie Sie <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> eines Auftrags abzurufen Objekt, und klicken Sie dann veranschaulicht, wie das Auftragsobjekt den Auftrag in einem Befehl darstellen.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Example 8: Get all jobs including jobs started by a different method</source>
+          <target state="translated">Beispiel 8: Abrufen Sie aller Aufträge, einschließlich der Aufträge, die von einer anderen Methode gestartet</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This example demonstrates that the <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> cmdlet can get all of the jobs that were started in the current session, even if they were started by using different methods.</source>
+          <target state="translated">In diesem Beispiel wird veranschaulicht, dass die <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> Cmdlet alle Aufträge, die in der aktuellen Sitzung gestartet wurden abrufen kann, selbst wenn sie mit verschiedenen Methoden gestartet wurden.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Example 9: Investigate a failed job</source>
+          <target state="translated">Beispiel 9: Überprüfen eines fehlerhaften Auftrags</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This command shows how to use the job object that <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> returns to investigate why a job failed.</source>
+          <target state="translated">Dieser Befehl zeigt, wie Sie das Job-Objekt, das <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> gibt untersuchen, warum ein Auftrag ist fehlgeschlagen.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>It also shows how to get the child jobs of each job.</source>
+          <target state="translated">Weiterhin wird gezeigt, wie die untergeordneten Aufträge der einzelnen Aufträge abgerufen werden.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Example 10: Get filtered results</source>
+          <target state="translated">Beispiel 10: Erhalten Sie gefilterte Ergebnisse.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the <bpt id="p1">*</bpt>Filter<ept id="p1">*</ept> parameter to get a workflow job.</source>
+          <target state="translated">Dieses Beispiel zeigt, wie Sie die <bpt id="p1">*</bpt>Filter<ept id="p1">*</ept> Parameter, um einen Workflow-Job abzurufen.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>Filter<ept id="p1">*</ept> parameter, introduced in Windows PowerShell 3.0 is valid only on custom job types, such as workflow jobs and scheduled jobs.</source>
+          <target state="translated">Der <bpt id="p1">*</bpt>Filter<ept id="p1">*</ept> in Windows PowerShell 3.0 eingeführte-Parameter gilt nur für benutzerdefinierte Auftragstypen, z. B. Workflowaufträge und geplante Aufträge.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Example 11: Get information about child jobs</source>
+          <target state="translated">Beispiel 11: Abrufen von Informationen zu untergeordneten Aufträge</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>This example shows the effect of using the <bpt id="p1">*</bpt>IncludeChildJob<ept id="p1">*</ept> and <bpt id="p2">*</bpt>ChildJobState<ept id="p2">*</ept> parameters of the <bpt id="p3">**</bpt>Get-Job<ept id="p3">**</ept> cmdlet.</source>
+          <target state="translated">Dieses Beispiel zeigt die Auswirkung der Verwendung der <bpt id="p1">*</bpt>IncludeChildJob<ept id="p1">*</ept> und <bpt id="p2">*</bpt>ChildJobState<ept id="p2">*</ept> Parameter der <bpt id="p3">**</bpt>Get-Job<ept id="p3">**</ept> Cmdlet.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARAMETER</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>-After</source>
+          <target state="translated">– Nach</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Gets completed jobs that ended after the specified date and time.</source>
+          <target state="translated">Ruft abgeschlossene Aufträge ab, die nach dem angegebenen Datum und der angegebenen Uhrzeit beendet wurden.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Enter a <bpt id="p1">**</bpt>DateTime<ept id="p1">**</ept> object, such as one returned by the Get-Date cmdlet or a string that can be converted to a <bpt id="p2">**</bpt>DateTime<ept id="p2">**</ept> object, such as <ph id="ph1">`Dec 1, 2012 2:00 AM`</ph> or <ph id="ph2">`11/06`</ph>.</source>
+          <target state="translated">Geben Sie einen <bpt id="p1">**</bpt>DateTime<ept id="p1">**</ept> -Objekt, z. B. ein durch das Cmdlet "Get-Date" oder eine Zeichenfolge, die in konvertiert werden kann ein <bpt id="p2">**</bpt>DateTime<ept id="p2">**</ept> Objekt, z. B. <ph id="ph1">`Dec 1, 2012 2:00 AM`</ph> oder <ph id="ph2">`11/06`</ph>.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>This parameter works only on custom job types, such as workflow jobs and scheduled jobs, that have an <bpt id="p1">**</bpt>EndTime<ept id="p1">**</ept> property.</source>
+          <target state="translated">Dieser Parameter kann nur für benutzerdefinierte Auftragstypen, z. B. Workflowaufträge und geplante Aufträge, bei denen ein <bpt id="p1">**</bpt>EndTime<ept id="p1">**</ept> Eigenschaft.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>It does not work on standard background jobs, such as those created by using the <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">Es funktioniert nicht auf standard-Hintergrundaufträgen, z. B. erstellt mithilfe der <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> Cmdlet.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>For information about support for this parameter, see the help topic for the job type.</source>
+          <target state="translated">Weitere Informationen zur Unterstützung für diesen Parameter finden Sie unter dem Hilfethema für den Auftragstyp.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Dieser Parameter wurde in Windows PowerShell 3.0 eingeführt.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>-Before</source>
+          <target state="translated">-Vor</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Gets completed jobs that ended before the specified date and time.</source>
+          <target state="translated">Ruft abgeschlossene Aufträge ab, die vor dem angegebenen Datum und der angegebenen Uhrzeit beendet wurden.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Enter a <bpt id="p1">**</bpt>DateTime<ept id="p1">**</ept> object.</source>
+          <target state="translated">Geben Sie einen <bpt id="p1">**</bpt>DateTime<ept id="p1">**</ept> Objekt.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This parameter works only on custom job types, such as workflow jobs and scheduled jobs, that have an <bpt id="p1">**</bpt>EndTime<ept id="p1">**</ept> property.</source>
+          <target state="translated">Dieser Parameter kann nur für benutzerdefinierte Auftragstypen, z. B. Workflowaufträge und geplante Aufträge, bei denen ein <bpt id="p1">**</bpt>EndTime<ept id="p1">**</ept> Eigenschaft.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>It does not work on standard background jobs, such as those created by using the <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">Es funktioniert nicht auf standard-Hintergrundaufträgen, z. B. erstellt mithilfe der <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> Cmdlet.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>For information about support for this parameter, see the help topic for the job type.</source>
+          <target state="translated">Weitere Informationen zur Unterstützung für diesen Parameter finden Sie unter dem Hilfethema für den Auftragstyp.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Dieser Parameter wurde in Windows PowerShell 3.0 eingeführt.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>-ChildJobState</source>
+          <target state="translated">-ChildJobState</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Gets only the child jobs that have the specified state.</source>
+          <target state="translated">Ruft nur die untergeordneten Aufträge ab, die den angegebenen Status aufweisen.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">Die folgenden Werte für diesen Parameter sind zulässig:</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>NotStarted</source>
+          <target state="translated">Nicht gestartet</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Running</source>
+          <target state="translated">Aktiv</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Completed</source>
+          <target state="translated">Abgeschlossen</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Failed</source>
+          <target state="translated">Failed</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Stopped</source>
+          <target state="translated">Beendet</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Blocked</source>
+          <target state="translated">Gesperrt</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Suspended</source>
+          <target state="translated">Suspended</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Disconnected</source>
+          <target state="translated">Disconnected</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Suspending</source>
+          <target state="translated">Anhalten</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Stopping</source>
+          <target state="translated">Stopping,</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> does not get child jobs.</source>
+          <target state="translated">In der Standardeinstellung <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> keine untergeordneten Aufträge ab.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>By using the <bpt id="p1">*</bpt>IncludeChildJob<ept id="p1">*</ept> parameter, <bpt id="p2">**</bpt>Get-Job<ept id="p2">**</ept> gets all child jobs.</source>
+          <target state="translated">Mithilfe der <bpt id="p1">*</bpt>IncludeChildJob<ept id="p1">*</ept> Parameter <bpt id="p2">**</bpt>Get-Job<ept id="p2">**</ept> Ruft alle untergeordneten Aufträge ab.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">*</bpt>ChildJobState<ept id="p1">*</ept> parameter, the <bpt id="p2">*</bpt>IncludeChildJob<ept id="p2">*</ept> parameter has no effect.</source>
+          <target state="translated">Bei Verwendung der <bpt id="p1">*</bpt>ChildJobState<ept id="p1">*</ept> -Parameter, der <bpt id="p2">*</bpt>IncludeChildJob<ept id="p2">*</ept> Parameter hat keine Auswirkung.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Dieser Parameter wurde in Windows PowerShell 3.0 eingeführt.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>-Command</source>
+          <target state="translated">-Command</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Specifies an array of commands as strings.</source>
+          <target state="translated">Gibt ein Array von Befehlen als Zeichenfolgen an.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>This cmdlet gets the jobs that include the specified commands.</source>
+          <target state="translated">Dieses Cmdlet Ruft die Aufträge, die die angegebenen Befehle enthalten.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The default is all jobs.</source>
+          <target state="translated">Standardmäßig werden alle Aufträge fortgesetzt.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>You can use wildcard characters to specify a command pattern.</source>
+          <target state="translated">Platzhalterzeichen können verwendet werden, um ein Befehlsmuster anzugeben.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>-Filter</source>
+          <target state="translated">-Filter</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Specifies a hash table of conditions.</source>
+          <target state="translated">Gibt eine Hashtabelle der Bedingung an.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>This cmdlet gets jobs that satisfy all of the conditions.</source>
+          <target state="translated">Dieses Cmdlet Ruft die Aufträge, die alle Bedingungen erfüllen.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Enter a hash table where the keys are job properties and the values are job property values.</source>
+          <target state="translated">Geben Sie eine Hashtabelle ein, in der die Schlüssel Auftragseigenschaften und die Werte Werte der Auftragseigenschaften sind.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>This parameter works only on custom job types, such as workflow jobs and scheduled jobs.</source>
+          <target state="translated">Dieser Parameter funktioniert nur mit benutzerdefinierten Auftragstypen, z. B. Workflowaufträgen und geplanten Aufträgen.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>It does not work on standard background jobs, such as those created by using the <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">Es funktioniert nicht auf standard-Hintergrundaufträgen, z. B. erstellt mithilfe der <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> Cmdlet.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>For information about support for this parameter, see the help topic for the job type.</source>
+          <target state="translated">Weitere Informationen zur Unterstützung für diesen Parameter finden Sie unter dem Hilfethema für den Auftragstyp.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Dieser Parameter wurde in Windows PowerShell 3.0 eingeführt.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>-HasMoreData</source>
+          <target state="translated">-HasMoreData</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Indicates whether this cmdlet gets only jobs that have the specified <bpt id="p1">**</bpt>HasMoreData<ept id="p1">**</ept> property value.</source>
+          <target state="translated">Gibt an, ob dieses Cmdlet ruft nur Aufträge ab, die dem angegebenen <bpt id="p1">**</bpt>HasMoreData<ept id="p1">**</ept> Eigenschaftswert.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>HasMoreData<ept id="p1">**</ept> property indicates whether all job results have been received in the current session.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>HasMoreData<ept id="p1">**</ept> -Eigenschaft gibt an, ob alle Auftragsergebnisse in der aktuellen Sitzung empfangen wurden.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>To get jobs that have more results, specify a value of $True.</source>
+          <target state="translated">Um Aufträge abzurufen, die mehr Ergebnisse haben, geben Sie den Wert $True.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>To get jobs that do not have more results, specify a value of $False.</source>
+          <target state="translated">Um Aufträge abzurufen, die nicht mehr Ergebnisse zurückgegeben werden, geben Sie den Wert $False.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>To get the results of a job, use the Receive-Job cmdlet.</source>
+          <target state="translated">Verwenden Sie die Receive-Job-Cmdlet zum Abrufen der Ergebnisse eines Auftrags.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>When you use the <bpt id="p1">**</bpt>Receive-Job<ept id="p1">**</ept> cmdlet, it deletes from its in-memory, session-specific storage the results that it returned.</source>
+          <target state="translated">Bei Verwendung der <bpt id="p1">**</bpt>Receive-Job<ept id="p1">**</ept> Cmdlet löscht die in den Speicher im Arbeitsspeicher, sitzungsspezifische die von ihm zurückgegebenen Ergebnisse.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>When it has returned all results of the job in the current session, it sets the value of the <bpt id="p1">**</bpt>HasMoreData<ept id="p1">**</ept> property of the job to $False) to indicate that it has no more results for the job in the current session.</source>
+          <target state="translated">Wenn er alle Ergebnisse des Auftrags in der aktuellen Sitzung zurückgegeben hat, legt er den Wert der <bpt id="p1">**</bpt>HasMoreData<ept id="p1">**</ept> -Eigenschaft des Auftrags auf $False), um anzugeben, dass es keine weiteren Ergebnisse für den Auftrag in der aktuellen Sitzung.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">*</bpt>Keep<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>Receive-Job<ept id="p2">**</ept> to prevent <bpt id="p3">**</bpt>Receive-Job<ept id="p3">**</ept> from deleting results and changing the value of the <bpt id="p4">**</bpt>HasMoreData<ept id="p4">**</ept> property.</source>
+          <target state="translated">Verwenden der <bpt id="p1">*</bpt>behalten<ept id="p1">*</ept> Parameter <bpt id="p2">**</bpt>Receive-Job<ept id="p2">**</ept> zu verhindern, dass <bpt id="p3">**</bpt>Receive-Job<ept id="p3">**</ept> Ergebnisse löscht und Ändern des Werts der <bpt id="p4">**</bpt>HasMoreData<ept id="p4">**</ept> Eigenschaft.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>For more information, type <ph id="ph1">`Get-Help Receive-Job`</ph>.</source>
+          <target state="translated">Geben Sie Folgendes ein, um weitere Informationen zu erhalten: <ph id="ph1">`Get-Help Receive-Job`</ph>.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>HasMoreData<ept id="p1">**</ept> property is specific to the current session.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>HasMoreData<ept id="p1">**</ept> Eigenschaft ist spezifisch für die aktuelle Sitzung.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>If results for a custom job type are saved outside of the session, such as the scheduled job type, which saves job results on disk, you can use the <bpt id="p1">**</bpt>Receive-Job<ept id="p1">**</ept> cmdlet in a different session to get the job results again, even if the value of <bpt id="p2">**</bpt>HasMoreData<ept id="p2">**</ept> is $False.</source>
+          <target state="translated">Ergebnisse für einen benutzerdefinierten Auftragstyp außerhalb der Sitzung, z. B. der Typ geplanten Auftrag gespeichert werden, die Ergebnisse des Auftrags auf dem Datenträger speichert, können Sie die <bpt id="p1">**</bpt>Receive-Job<ept id="p1">**</ept> Cmdlet in einer anderen Sitzung zum Abrufen der Auftragsergebnisse erneut, auch wenn der Wert der <bpt id="p2">**</bpt>HasMoreData<ept id="p2">**</ept> $False ist.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>For more information, see the help topics for the custom job type.</source>
+          <target state="translated">Weitere Informationen finden Sie in den Hilfethemen für den benutzerdefinierten Auftragstyp.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Dieser Parameter wurde in Windows PowerShell 3.0 eingeführt.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>-Id</source>
+          <target state="translated">-Id</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Specifies an array of IDs of jobs that this cmdlet gets.</source>
+          <target state="translated">Gibt ein Array der IDs von Aufträgen, die dieses Cmdlet Ruft ab.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The ID is an integer that uniquely identifies the job in the current session.</source>
+          <target state="translated">Die ID ist eine ganze Zahl, die den Auftrag in der aktuellen Sitzung eindeutig identifiziert.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>It is easier to remember and to type than the instance ID, but it is unique only in the current session.</source>
+          <target state="translated">Es ist einfacher zu merken und geben Sie als die Instanz-ID, aber es ist nur in der aktuellen Sitzung eindeutig ist.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>You can type one or more IDs separated by commas.</source>
+          <target state="translated">Sie können eine oder mehrere IDs durch Kommas getrennt eingeben.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>To find the ID of a job, type <ph id="ph1">`Get-Job`</ph> without parameters.</source>
+          <target state="translated">Um die ID eines Auftrags zu ermitteln, geben Sie <ph id="ph1">`Get-Job`</ph> ohne Parameter.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>-IncludeChildJob</source>
+          <target state="translated">-IncludeChildJob</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet returns child jobs, in addition to parent jobs.</source>
+          <target state="translated">Gibt an, dass dieses Cmdlet gibt untergeordnete Aufträge zusätzlich zu übergeordneten Aufträgen zurück.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>This parameter is especially useful for investigating workflow jobs, for which <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> returns a container parent job, and job failures, because the reason for the failure is saved in a property of the child job.</source>
+          <target state="translated">Dieser Parameter ist besonders hilfreich beim Untersuchen von Workflowaufträgen, für die <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> Gibt einen übergeordneten Auftrag und Auftragsfehlern, da die Ursache des Fehlers in einer Eigenschaft des untergeordneten Auftrags gespeichert wird.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Dieser Parameter wurde in Windows PowerShell 3.0 eingeführt.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>-InstanceId</source>
+          <target state="translated">-InstanceId</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Specifies an array of instance IDs of jobs that this cmdlet gets.</source>
+          <target state="translated">Gibt ein Array von Instanz-IDs der Aufträge, die dieses Cmdlet Ruft ab.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The default is all jobs.</source>
+          <target state="translated">Standardmäßig werden alle Aufträge fortgesetzt.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>An instance ID is a GUID that uniquely identifies the job on the computer.</source>
+          <target state="translated">Eine Instanz-ID ist eine GUID, die den Auftrag auf dem Computer eindeutig identifiziert.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>To find the instance ID of a job, use <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept>.</source>
+          <target state="translated">Die Instanz-ID eines Auftrags verwenden, um <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Specifies an array of instance friendly names of jobs that this cmdlet gets.</source>
+          <target state="translated">Gibt ein Array von Anzeigenamen der Instanz von Aufträgen, die dieses Cmdlet ruft.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Enter a job name, or use wildcard characters to enter a job name pattern.</source>
+          <target state="translated">Geben Sie einen Auftragsnamen ein, oder verwenden Sie Platzhalterzeichen, um ein Auftragsnamensmuster einzugeben.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> gets all jobs in the current session.</source>
+          <target state="translated">In der Standardeinstellung <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> Ruft alle Aufträge in der aktuellen Sitzung ab.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>-Newest</source>
+          <target state="translated">– Neu</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Specifies a number of jobs to get.</source>
+          <target state="translated">Gibt die Anzahl der Aufträge abrufen.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>This cmdlet gets the jobs that ended most recently.</source>
+          <target state="translated">Dieses Cmdlet Ruft die Aufträge, die zuletzt beendet wurde.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>Newest<ept id="p1">*</ept> parameter does not sort or return the newest jobs in end-time order.</source>
+          <target state="translated">Die <bpt id="p1">*</bpt>neuester<ept id="p1">*</ept> Parameter nicht sortieren oder die neuesten Aufträge in der Reihenfolge ihrer Endezeit zurück.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>To sort the output, use the Sort-Object cmdlet.</source>
+          <target state="translated">Verwenden Sie zum Sortieren der Ausgabe das Sort-Object-Cmdlet.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Dieser Parameter wurde in Windows PowerShell 3.0 eingeführt.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>-State</source>
+          <target state="translated">-Status</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Specifies a job state.</source>
+          <target state="translated">Gibt den Auftragsstatus.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>This cmdlet gets only jobs in the specified state.</source>
+          <target state="translated">Dieses Cmdlet ruft nur Aufträge im angegebenen Zustand.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">Die folgenden Werte für diesen Parameter sind zulässig:</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>NotStarted</source>
+          <target state="translated">Nicht gestartet</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Running</source>
+          <target state="translated">Aktiv</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Completed</source>
+          <target state="translated">Abgeschlossen</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Failed</source>
+          <target state="translated">Failed</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Stopped</source>
+          <target state="translated">Beendet</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Blocked</source>
+          <target state="translated">Gesperrt</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Suspended</source>
+          <target state="translated">Suspended</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Disconnected</source>
+          <target state="translated">Disconnected</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Suspending</source>
+          <target state="translated">Anhalten</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Stopping</source>
+          <target state="translated">Stopping,</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> gets all the jobs in the current session.</source>
+          <target state="translated">In der Standardeinstellung <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> Ruft alle Aufträge in der aktuellen Sitzung ab.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>For more information about job states, see JobState Enumerationhttp://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.jobstate(v=vs.85).aspx (http://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.jobstate(v=vs.85).aspx) in the Microsoft Developer Network (MSDN).</source>
+          <target state="translated">Weitere Informationen zum Auftragsstatus finden Sie unter JobState Enumerationhttp://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.jobstate (v=vs.85).aspx (http://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.jobstate (v=vs.85).aspx) im Microsoft Developer Network (MSDN).</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Dieses Cmdlet unterstützt die allgemeinen Parameter:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, -InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction und -WarningVariable.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Weitere Informationen finden Sie unter "about_commonparameters" (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">EINGABEN</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">Keine</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>You cannot pipe input to this cmdlet.</source>
+          <target state="translated">Eingaben können nicht an dieses Cmdlet weitergereicht werden.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">AUSGABEN</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.RemotingJob</source>
+          <target state="translated">System.Management.Automation.RemotingJob</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>This cmldet returns objects that represent the jobs in the session.</source>
+          <target state="translated">Dieses Cmdlet gibt Objekte, die Aufträge in der Sitzung darstellen.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTIZEN</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>PSJobTypeName<ept id="p1">**</ept> property of jobs indicates the job type of the job.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>PSJobTypeName<ept id="p1">**</ept> -Eigenschaft von Aufträgen gibt den Auftragstyp des Auftrags.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>The property value is determined by the job type author.</source>
+          <target state="translated">Der Eigenschaftswert wird vom Autor des Auftragstyps bestimmt.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The following list shows common job types.</source>
+          <target state="translated">Die folgende Liste enthält allgemeine Auftragstypen.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>BackgroundJob<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>BackgroundJob<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Local job started by using <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept>.</source>
+          <target state="translated">Lokaler Auftrag mithilfe von <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>RemoteJob<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>RemoteJob<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Job started in a <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> by using the <bpt id="p2">*</bpt>AsJob<ept id="p2">*</ept> parameter of the Invoke-Command cmdlet.</source>
+          <target state="translated">Auftrag einem <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> mithilfe der <bpt id="p2">*</bpt>AsJob<ept id="p2">*</ept> Parameter des Invoke-Command-Cmdlet.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>PSWorkflowJob<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>PSWorkflowJob<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Job started by using the <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept> common parameter of workflows.</source>
+          <target state="translated">Auftrag gestartet wird, mithilfe der <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept> allgemeinen Parameter des Workflows.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">VERWANDTE LINKS</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Invoke-Command</source>
+          <target state="translated">Invoke-Command</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Receive-Job</source>
+          <target state="translated">Empfangen-Job</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Remove-Job</source>
+          <target state="translated">Remove-Job</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Resume-Job</source>
+          <target state="translated">Resume-Job</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Start-Job</source>
+          <target state="translated">Start-Job</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Stop-Job</source>
+          <target state="translated">Stop-Job</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Suspend-Job</source>
+          <target state="translated">Suspend-Job</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Wait-Job</source>
+          <target state="translated">Wait-Job</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>about_Jobs</source>
+          <target state="translated">about_Jobs</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>about_Job_Details</source>
+          <target state="translated">about_Job_Details</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>about_Remote_Jobs</source>
+          <target state="translated">about_Remote_Jobs</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>about_Scheduled_Jobs</source>
+          <target state="translated">about_Scheduled_Jobs</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

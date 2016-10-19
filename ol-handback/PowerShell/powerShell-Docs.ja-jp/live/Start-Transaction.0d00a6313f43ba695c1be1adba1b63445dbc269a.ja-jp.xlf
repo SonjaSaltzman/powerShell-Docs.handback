@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5d5a54092fee0107e4660f9852f585714b852907</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Management\Start-Transaction.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1c3978f68110688e768814057107145c6ea772d0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">61a6b48e1b3a7adcf774ff7ce6fe3a5919d45e9f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Start-Transaction</source>
+          <target state="translated">Start-Transaction</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Start-Transaction</source>
+          <target state="translated">Start-Transaction</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Starts a transaction.</source>
+          <target state="translated">トランザクションを開始します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">構文</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">説明</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Start-Transaction<ept id="p1">**</ept> cmdlet starts a transaction, which is a series of commands that are managed as a unit.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Start-transaction<ept id="p1">**</ept> コマンドレットは、一連の単位として管理されているコマンドは、トランザクションを開始します。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>A transaction can be completed, or committed.</source>
+          <target state="translated">トランザクションの完了、またはコミットされることができます。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Alternatively, it can be completely undone, or rolled back, so that any data changed by the transaction is restored to its original state.</source>
+          <target state="translated">トランザクションによって変更データが元の状態に復元できるようには、完全に元に戻すか、ロールバックをすることできます。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Because the commands in a transaction are managed as a unit, either all commands are committed or all commands are rolled back.</source>
+          <target state="translated">1 つのトランザクション内の一連のコマンドは 1 つの単位として管理されるので、コマンドはすべてコミットされるか、すべてロールバックされるかのいずれかとなります。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>By default, if any command in the transaction generates an error, transactions are rolled back automatically.</source>
+          <target state="translated">既定では、コマンドを実行するトランザクションが、エラーを生成する場合のトランザクションは自動的にロールバックします。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">*</bpt>RollbackPreference<ept id="p1">*</ept> parameter to change this behavior.</source>
+          <target state="translated">使用することができます、 <bpt id="p1">*</bpt>RollbackPreference<ept id="p1">*</ept> にこの動作を変更するパラメーターです。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The cmdlets used in a transaction must be designed to support transactions.</source>
+          <target state="translated">トランザクションで使用するコマンドレットは、トランザクションをサポートするように設計されている必要があります。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Cmdlets that support transactions have a <bpt id="p1">*</bpt>UseTransaction<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">トランザクションをサポートするコマンドレットが、 <bpt id="p1">*</bpt>UseTransaction<ept id="p1">*</ept> パラメーター。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To perform transactions in a provider, the provider must support transactions.</source>
+          <target state="translated">1 つのプロバイダーで複数のトランザクションを実行するには、プロバイダーがトランザクションをサポートする必要があります。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell Registry provider in Windows Vista and later versions of the Windows operating system supports transactions.</source>
+          <target state="translated">Windows Vista および Windows オペレーティング システムの以降のバージョンの Windows PowerShell レジストリ プロバイダーでは、トランザクションをサポートします。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can also use the <bpt id="p1">**</bpt>Microsoft.PowerShell.Commands.Management.TransactedString<ept id="p1">**</ept> class to include expressions in transactions on any version of the Windows system that supports Windows PowerShell.</source>
+          <target state="translated">使用することも、 <bpt id="p1">**</bpt>Microsoft.PowerShell.Commands.Management.TransactedString<ept id="p1">**</ept> 式に含まれる任意のバージョンの Windows PowerShell をサポートする Windows システム上でトランザクションにするクラス。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Other Windows PowerShell providers can also support transactions.</source>
+          <target state="translated">他の Windows PowerShell プロバイダーもトランザクションをサポートできます。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Only one transaction can be active at a time.</source>
+          <target state="translated">一度に複数のトランザクションを有効にすることはできません。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If you start a new, independent transaction while a transaction is in progress, the new transaction becomes the active transaction, and you must commit or roll back the new transaction before you make any changes to the original transaction.</source>
+          <target state="translated">トランザクションが進行中は新しい、個別のトランザクションを開始する場合、新しいトランザクションがアクティブなトランザクションとコミットまたは変更を元のトランザクションにする前に、新しいトランザクションをロールバックする必要があります。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Start-Transaction<ept id="p1">**</ept> cmdlet is one of a set of cmdlets that support the transactions feature in Windows PowerShell.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Start-transaction<ept id="p1">**</ept> コマンドレットは、Windows PowerShell のトランザクション機能をサポートするコマンドレットのセットの 1 つです。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Transactions.</source>
+          <target state="translated">詳細については、「about_Transactions」を参照してください。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Example 1: Start and roll back a transaction</source>
+          <target state="translated">例 1: を起動し、トランザクションをロールバックします。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>These commands start and then roll back a transaction.</source>
+          <target state="translated">これらのコマンドは、トランザクションを開始してからロールバックします。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Because the transaction is rolled back, no changes are made to the registry.</source>
+          <target state="translated">トランザクションはロールバックされるので、レジストリは変更されません。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Example 2: Start and complete a transaction</source>
+          <target state="translated">例 2: を起動し、トランザクションの完了</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>These commands start and then complete a transaction.</source>
+          <target state="translated">これらのコマンドは、トランザクションを開始して完了します。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>No changes are made to the registry until the <bpt id="p1">**</bpt>Complete-Transaction<ept id="p1">**</ept> command is used.</source>
+          <target state="translated">までレジストリは変更されません、 <bpt id="p1">**</bpt>Complete-transaction<ept id="p1">**</ept> コマンドを使用します。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Example 3: Use different rollback preferences</source>
+          <target state="translated">例 3: さまざまなロールバックの基本設定を使用します。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This example demonstrates the effect of changing the <bpt id="p1">*</bpt>RollbackPreference<ept id="p1">*</ept> parameter value.</source>
+          <target state="translated">この例は、変更した効果、 <bpt id="p1">*</bpt>RollbackPreference<ept id="p1">*</ept> パラメーターの値。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>In the first set of commands, <bpt id="p1">**</bpt>Start-Transaction<ept id="p1">**</ept> does not use <bpt id="p2">*</bpt>RollbackPreference<ept id="p2">*</ept>.</source>
+          <target state="translated">コマンドの最初のセットで <bpt id="p1">**</bpt>Start-transaction<ept id="p1">**</ept> を使わない <bpt id="p2">*</bpt>RollbackPreference<ept id="p2">*</ept>します。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>As a result, the default value (Error) is used.</source>
+          <target state="translated">その結果、既定値 (エラー) が使用されます。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>When an error occurs in a transaction command, that is, the specified path does not exist, the transaction is automatically rolled back.</source>
+          <target state="translated">トランザクション コマンドでは、エラーが発生する場合は、指定されたパスが存在しない、トランザクションは自動的にロールバックします。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>In the second set of commands, <bpt id="p1">**</bpt>Start-Transaction<ept id="p1">**</ept> uses <bpt id="p2">*</bpt>RollbackPreference<ept id="p2">*</ept> with a value of Never.</source>
+          <target state="translated">コマンドの 2 番目のセットで <bpt id="p1">**</bpt>Start-transaction<ept id="p1">**</ept> を使用して <bpt id="p2">*</bpt>RollbackPreference<ept id="p2">*</ept> なしの値を使用します。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>As a result, when an error occurs in a transaction command, the transaction is still active and can be completed successfully.</source>
+          <target state="translated">その結果、トランザクション コマンドでエラーが発生しても、トランザクションは有効のままであり、正常に完了できます。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Because most transactions must be performed without error, the default value of <bpt id="p1">*</bpt>RollbackPreference<ept id="p1">*</ept> is typically preferred.</source>
+          <target state="translated">既定値、エラーが発生せず、大半のトランザクションを実行する必要があるため <bpt id="p1">*</bpt>RollbackPreference<ept id="p1">*</ept> 通常お勧めします。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Example 4: Use this cmdlet while a transaction is in progress</source>
+          <target state="translated">例 4: が進行中のトランザクションは、このコマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This example shows the effect of using <bpt id="p1">**</bpt>Start-Transaction<ept id="p1">**</ept> while a transaction is in progress.</source>
+          <target state="translated">この例を使用する効果を示しています。 <bpt id="p1">**</bpt>Start-transaction<ept id="p1">**</ept> トランザクションが進行中です。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The effect is much like joining the transaction in progress.</source>
+          <target state="translated">結果は、進行中のトランザクションを追加した場合とほぼ同じです。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Although this is a simplified command, this scenario frequently occurs when the transaction involves running a script that includes a complete transaction.</source>
+          <target state="translated">簡略化されたコマンドですが、このシナリオは、完全なトランザクションを含むスクリプトを実行しているトランザクションが含まれている場合に頻繁に発生します。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The first <bpt id="p1">**</bpt>Start-Transaction<ept id="p1">**</ept> command starts the transaction.</source>
+          <target state="translated">最初の <bpt id="p1">**</bpt>Start-transaction<ept id="p1">**</ept> コマンドは、トランザクションを開始します。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The first <bpt id="p1">**</bpt>New-Item<ept id="p1">**</ept> command is part of the transaction.</source>
+          <target state="translated">最初の <bpt id="p1">**</bpt>New-item<ept id="p1">**</ept> コマンドは、トランザクションの一部です。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The second <bpt id="p1">**</bpt>Start-Transaction<ept id="p1">**</ept> command adds a new subscriber to the transaction.</source>
+          <target state="translated">2 番目 <bpt id="p1">**</bpt>Start-transaction<ept id="p1">**</ept> コマンドがトランザクションに新しいサブスクライバーを追加します。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-Transaction<ept id="p1">**</ept> command now returns a transaction with a subscriber count of 2.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Get-transaction<ept id="p1">**</ept> コマンドは 2 のサブスクライバーの数を持つトランザクションを返します。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The second <bpt id="p1">**</bpt>New-Item<ept id="p1">**</ept> command is part of the same transaction.</source>
+          <target state="translated">2 番目 <bpt id="p1">**</bpt>New-item<ept id="p1">**</ept> コマンドは、同じトランザクションの一部です。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>No changes are made to the registry until the whole transaction is completed.</source>
+          <target state="translated">トランザクション全体が完了するまで、レジストリは変更されません。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To complete the transaction, you must enter two <bpt id="p1">**</bpt>Complete-Transaction<ept id="p1">**</ept> commands, one for each subscriber.</source>
+          <target state="translated">トランザクションを完了する、2 つを入力する必要があります <bpt id="p1">**</bpt>Complete-transaction<ept id="p1">**</ept> サブスクライバーごとに 1 つのコマンドです。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>If you were to roll back the transaction at any point, all the transaction would be rolled back for both subscribers.</source>
+          <target state="translated">任意の時点でトランザクションをロールバックする場合は、すべてのトランザクションはロールバック両方のサブスクライバーに対してです。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Example 5: Start an independent transaction while one is in progress</source>
+          <target state="translated">例 5: は、進行中は 1 つに、独立したトランザクションを開始します。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This example shows the effect of using the <bpt id="p1">*</bpt>Independent<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>Start-Transaction<ept id="p2">**</ept> to start a transaction while another transaction is in progress.</source>
+          <target state="translated">この例を使用する効果を示しています、 <bpt id="p1">*</bpt>独立した<ept id="p1">*</ept> のパラメーター <bpt id="p2">**</bpt>Start-transaction<ept id="p2">**</ept> 別のトランザクションが進行中は、トランザクションを開始します。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>In this case, the new transaction is rolled back without affecting the original transaction.</source>
+          <target state="translated">この場合、新しいトランザクションは、元のトランザクションに影響を及ぼすことなくロールバックされます。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Although the transactions are logically independent, because only one transaction can be active at a time, you must roll back or commit the newest transaction before resuming work on the original transaction.</source>
+          <target state="translated">これらのトランザクションは論理的に独立していますが、一度に複数のトランザクションを有効にすることはできないので、元のトランザクションに対する作業を再開するには、その前に新しいトランザクションをロールバックするかコミットする必要があります。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The first set of commands starts a transaction.</source>
+          <target state="translated">最初のコマンド セットを実行すると、トランザクションが開始されます。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-Item<ept id="p1">**</ept> command is part of the first transaction.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>New-item<ept id="p1">**</ept> コマンドは、最初のトランザクションの一部です。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>In the second set of commands, the <bpt id="p1">**</bpt>Start-Transaction<ept id="p1">**</ept> command uses the <bpt id="p2">*</bpt>Independent<ept id="p2">*</ept> parameter.</source>
+          <target state="translated">コマンドの 2 番目のセットで、 <bpt id="p1">**</bpt>Start-transaction<ept id="p1">**</ept> コマンドでは、 <bpt id="p2">*</bpt>独立した<ept id="p2">*</ept> パラメーター。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-Transaction<ept id="p1">**</ept> command that follows shows the transaction object for the active transaction, which is the newest one.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Get-transaction<ept id="p1">**</ept> に依存しているコマンドは、最新のものであるアクティブなトランザクションのトランザクション オブジェクトを表示します。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The subscriber count is equal to 1, that shows that the transactions are unrelated.</source>
+          <target state="translated">サブスクライバーの数は、トランザクションは無関係であることを示す 1 です。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>When the active transaction is rolled back by using an <bpt id="p1">**</bpt>Undo-Transaction<ept id="p1">**</ept> command, the original transaction becomes active again.</source>
+          <target state="translated">ときに、アクティブなトランザクションはロールバックを使用して、 <bpt id="p1">**</bpt>Undo-transaction<ept id="p1">**</ept> コマンドを元のトランザクションが再びアクティブになった。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-ItemProperty<ept id="p1">**</ept> command, which is part of the original transaction, finishes without error, and the original transaction can be completed by using the <bpt id="p2">**</bpt>Complete-Transaction<ept id="p2">**</ept> command.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>New-itemproperty<ept id="p1">**</ept> が、元のトランザクションの一部のコマンドがエラーなしで完了しを使用して、元のトランザクションを完了する、 <bpt id="p2">**</bpt>Complete-transaction<ept id="p2">**</ept> コマンドです。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>As a result, the registry is changed.</source>
+          <target state="translated">その結果、レジストリが変更されます。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Example 6: Run commands that are not part of a transaction</source>
+          <target state="translated">例 6: トランザクションの一部ではないコマンドを実行します。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>This example demonstrates that commands that are submitted while a transaction is in progress can be included in the transaction or not included.</source>
+          <target state="translated">この例は、トランザクションの進行中に実行されたコマンドをトランザクションに含めることができるかどうかを示します。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Only commands that use the <bpt id="p1">*</bpt>UseTransaction<ept id="p1">*</ept> parameter are part of the transaction.</source>
+          <target state="translated">のみを使用するをコマンド、 <bpt id="p1">*</bpt>UseTransaction<ept id="p1">*</ept> パラメーターは、トランザクションの一部です。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The first and third <bpt id="p1">**</bpt>New-Item<ept id="p1">**</ept> commands use the <bpt id="p2">*</bpt>UseTransaction<ept id="p2">*</ept> parameter.</source>
+          <target state="translated">最初と 3 番目 <bpt id="p1">**</bpt>New-item<ept id="p1">**</ept> 使用するコマンド、 <bpt id="p2">*</bpt>UseTransaction<ept id="p2">*</ept> パラメーター。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>These commands are part of the transaction.</source>
+          <target state="translated">これらのコマンドはトランザクションの一部です。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Because the second <bpt id="p1">**</bpt>New-Item<ept id="p1">**</ept> command does not use the <bpt id="p2">*</bpt>UseTransaction<ept id="p2">*</ept> parameter, it is not part of the transaction.</source>
+          <target state="translated">2 つ目 <bpt id="p1">**</bpt>New-item<ept id="p1">**</ept> コマンドが使用しない、 <bpt id="p2">*</bpt>UseTransaction<ept id="p2">*</ept> パラメーター、トランザクションの一部ではありません。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The first dir command shows the effect.</source>
+          <target state="translated">最初の dir コマンドは、効果を示しています。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The second <bpt id="p1">**</bpt>New-Item<ept id="p1">**</ept> command is completed immediately, but the first and third <bpt id="p2">**</bpt>New-Item<ept id="p2">**</ept> commands are not effective until the transaction is committed.</source>
+          <target state="translated">2 番目 <bpt id="p1">**</bpt>New-item<ept id="p1">**</ept> コマンドは、1 つ目は、すぐに完了したと 3 番目 <bpt id="p2">**</bpt>New-item<ept id="p2">**</ept> コマンドは、トランザクションがコミットされるまで反映されません。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Complete-Transaction<ept id="p1">**</ept> command commits the transaction.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Complete-transaction<ept id="p1">**</ept> コマンドがトランザクションをコミットします。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>As a result, the second dir command shows that all of the new items are added to the registry.</source>
+          <target state="translated">その結果、2 番目の dir コマンドでは、すべての新しい項目がレジストリに追加されたことを示しています。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Example 7: Roll back a transaction that does not finish in a specified time</source>
+          <target state="translated">例 7: 指定された時間内に完了しないトランザクションをロールバックします。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">*</bpt>Timeout<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>Start-Transaction<ept id="p2">**</ept> to start a transaction that must be completed within two minutes.</source>
+          <target state="translated">このコマンドを使用して、 <bpt id="p1">*</bpt>タイムアウト<ept id="p1">*</ept> のパラメーター <bpt id="p2">**</bpt>Start-transaction<ept id="p2">**</ept> 2 分以内で完了する必要があるトランザクションを開始します。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>If the transaction is not finished when the time-out expires, it is rolled back automatically.</source>
+          <target state="translated">タイムアウトの期限が切れると、トランザクションが完了していない場合に自動的にロールバックします。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>When the time-out expires, you are not notified, but the <bpt id="p1">**</bpt>Status<ept id="p1">**</ept> property of the transaction object is set to RolledBack and commands that use the <bpt id="p2">*</bpt>UseTransaction<ept id="p2">*</ept> parameter fail.</source>
+          <target state="translated">タイムアウトが経過するも通知されずが、 <bpt id="p1">**</bpt>ステータス<ept id="p1">**</ept> トランザクション オブジェクトのプロパティは RolledBack に設定されているしを使用するコマンド、 <bpt id="p2">*</bpt>UseTransaction<ept id="p2">*</ept> パラメーターは失敗します。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">パラメータ</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">コマンドレットを実行する前に確認するように求められます。コマンドレットを実行する前に確認するように求められます。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>-Independent</source>
+          <target state="translated">依存しません。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet starts a transaction that is independent of any transactions in progress.</source>
+          <target state="translated">このコマンドレットが進行中のトランザクションから独立したトランザクションを開始することを示します。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>By default, if you use <bpt id="p1">**</bpt>Start-Transaction<ept id="p1">**</ept> while another transaction is in progress, a new subscriber is added to the transaction in progress.</source>
+          <target state="translated">既定で使用する場合、 <bpt id="p1">**</bpt>Start-transaction<ept id="p1">**</ept> 進行中のトランザクションに新しいサブスクライバーを追加する別のトランザクションは、進行中は、です。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>This parameter has an effect only when a transaction is already in progress in the session.</source>
+          <target state="translated">このパラメーターが影響を及ぼすのは、トランザクションがセッション内で既に進行中の場合のみです。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>By default, if you use <bpt id="p1">**</bpt>Start-Transaction<ept id="p1">**</ept> while a transaction is in progress, the existing transaction object is reused and the subscriber count is incremented.</source>
+          <target state="translated">既定で使用する場合、 <bpt id="p1">**</bpt>Start-transaction<ept id="p1">**</ept> トランザクションは、進行中は、既存のトランザクション オブジェクトを再利用され、サブスクライバーの数がインクリメントされます。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The effect is much like joining the original transaction.</source>
+          <target state="translated">結果は、元のトランザクションの追加とほぼ同じです。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>An Undo-Transaction command rolls back the whole the transaction.</source>
+          <target state="translated">Undo-transaction コマンド全体がロールバック トランザクションです。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>To complete the transaction, you must enter a Complete-Transaction command for each subscriber.</source>
+          <target state="translated">トランザクションを完了するには、各サブスクライバーに対して Complete-Transaction コマンドを入力する必要があります。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Because most transactions that are in progress at the same time are related, the default is sufficient for most uses.</source>
+          <target state="translated">同時に進行している大半のトランザクションは互いに関連しているので、ほとんどの場合、既定の設定で十分です。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>If you specify the <bpt id="p1">*</bpt>Independent<ept id="p1">*</ept> parameter, this cmdlet creates a new transaction that can be completed or undone without affecting the original transaction.</source>
+          <target state="translated">指定した場合、 <bpt id="p1">*</bpt>独立した<ept id="p1">*</ept> パラメーターでは、このコマンドレットで作成、新しいトランザクションを完了したか、元のトランザクションの影響を与えずに元に戻すことができます。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>However, because only one transaction can be active at a time, you must complete or roll back the new transaction before resuming work on the original transaction.</source>
+          <target state="translated">ただし、一度に複数のトランザクションを有効にすることはできないので、元のトランザクションに対する作業を再開するには、その前に新しいトランザクションを完了するか、ロールバックする必要があります。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>-RollbackPreference</source>
+          <target state="translated">-RollbackPreference</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Specifies the conditions under which a transaction is automatically rolled back.</source>
+          <target state="translated">トランザクションが自動的にロールバックされる条件を指定します。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">このパラメーターに対して使用できる値:</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Error.</source>
+          <target state="translated">エラーがあります。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The transaction is rolled back automatically if a terminating or non-terminating error occurs.</source>
+          <target state="translated">終了エラーまたは未終了エラーが発生すると、トランザクションが自動的にロールバックされます。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>TerminatingError.</source>
+          <target state="translated">Terminatingerror とします。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The transaction is rolled back automatically if a terminating error occurs.</source>
+          <target state="translated">終了エラーが発生すると、トランザクションが自動的にロールバックされます。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Never.</source>
+          <target state="translated">このことはありません。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The transaction is never rolled back automatically.</source>
+          <target state="translated">トランザクションは自動的にロールバックされません。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The default value is Error.</source>
+          <target state="translated">既定値はエラーです。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>-Timeout</source>
+          <target state="translated">タイムアウト</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum time, in minutes, that the transaction is active.</source>
+          <target state="translated">トランザクションが有効である最大時間を分単位で指定します。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>When the time-out expires, the transaction is automatically rolled back.</source>
+          <target state="translated">タイムアウトを過ぎると、トランザクションは自動的にロールバックされます。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>By default, there is no time-out for transactions that are started at the command line.</source>
+          <target state="translated">既定では、コマンド ラインで開始されたトランザクションにタイムアウトはありません。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>When transactions are started by a script, the default time-out is 30 minutes.</source>
+          <target state="translated">トランザクションがスクリプトによって開始された場合、既定のタイムアウトは 30 分です。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">コマンドレットを実行するとどのような結果になるかを表示します。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">コマンドレットは実行されません。コマンドレットが実行された場合の処理を示しています。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">コマンドレットは実行されません。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">このコマンドレットは、共通のパラメーターをサポートしています:-デバッグ、-erroraction、-errorvariable、- InformationAction-InformationVariable、- OutVariable、-OutBuffer、- PipelineVariable、- Verbose、および - WarningVariable です。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">詳細については、about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">入力</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">None</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>You cannot pipe input to this cmdlet.</source>
+          <target state="translated">パイプを使用してこのコマンドレットに入力を渡すことはできません。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">出力</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">None</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>This cmdlet does not generate any output.</source>
+          <target state="translated">このコマンドレットは出力を生成しません。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ノート</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">関連リンク</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Complete-Transaction</source>
+          <target state="translated">Complete-Transaction</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Get-Transaction</source>
+          <target state="translated">Get-Transaction</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Undo-Transaction</source>
+          <target state="translated">Undo-Transaction</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Use-Transaction</source>
+          <target state="translated">Use-Transaction</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
