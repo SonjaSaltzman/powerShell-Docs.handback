@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2c8137c71a750c64c8ae405fa5c39cb4eef6ede3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Management\Add-Computer.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">be67f87c13ffbc9bafc154c59f06c055f3df2cfe</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">76219355610e6d32a0b6faa7c9e56a24154d419e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Add-Computer</source>
+          <target state="translated">Add-Computer</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Add-Computer</source>
+          <target state="translated">Add-Computer</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">简述</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Add the local computer to a domain or workgroup.</source>
+          <target state="translated">将本地计算机添加到域或工作组中。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">语法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Domain (Default)</source>
+          <target state="translated">域 （默认值）</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Workgroup</source>
+          <target state="translated">工作组</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Add-Computer<ept id="p1">**</ept> cmdlet adds the local computer or remote computers to a domain or workgroup, or moves them from one domain to another.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Add-computer<ept id="p1">**</ept> cmdlet 将本地计算机或远程计算机添加到域或工作组，或将它们从一个域移到另一个。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>It also creates a domain account if the computer is added to the domain without an account.</source>
+          <target state="translated">它还为添加到域中的无帐户计算机创建域帐户。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can use the parameters of this cmdlet to specify an organizational unit (OU) and domain controller or to perform an unsecure join.</source>
+          <target state="translated">可以使用此 cmdlet 的参数来指定组织单位 (OU) 和域控制器，或执行不安全的加入。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To get the results of the command, use the <bpt id="p1">*</bpt>Verbose<ept id="p1">*</ept> and <bpt id="p2">*</bpt>PassThru<ept id="p2">*</ept> parameters.</source>
+          <target state="translated">若要获取命令的结果，请使用 <bpt id="p1">*</bpt>Verbose<ept id="p1">*</ept> 和 <bpt id="p2">*</bpt>PassThru<ept id="p2">*</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">示例</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Example 1: Add a local computer to a domain then restart the computer</source>
+          <target state="translated">示例 1︰ 本地计算机添加到域，然后重新启动计算机</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This command adds the local computer to the Domain01 domain and then restarts the computer to make the change effective.</source>
+          <target state="translated">此命令将本地计算机添加到 Domain01 域，然后重新启动计算机以使更改生效。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Example 2: Add a local computer to a workgroup</source>
+          <target state="translated">示例 2︰ 将本地计算机添加到工作组</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This command adds the local computer to the Workgroup-A workgroup.</source>
+          <target state="translated">此命令将本地计算机添加到 Workgroup-A 工作组中。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Example 3: Add a local computer to a domain</source>
+          <target state="translated">示例 3︰ 将本地计算机添加到域</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This command adds the local computer to the Domain01 domain by using the Domain01\DC01 domain controller.</source>
+          <target state="translated">此命令使用 Domain01\DC01 域控制器将本地计算机添加到 Domain01 域中。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>PassThru<ept id="p1">*</ept> and <bpt id="p2">*</bpt>Verbose<ept id="p2">*</ept> parameters to get detailed information about the results of the command.</source>
+          <target state="translated">该命令使用 <bpt id="p1">*</bpt>PassThru<ept id="p1">*</ept> 和 <bpt id="p2">*</bpt>Verbose<ept id="p2">*</ept> 参数来获取有关命令的结果的详细的信息。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Example 4: Add a local computer to a domain using the OUPath parameter</source>
+          <target state="translated">示例 4︰ 将本地计算机添加到域使用 OUPath 参数</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This command adds the local computer to the Domain02 domain.</source>
+          <target state="translated">此命令将本地计算机添加到 Domain02 域中。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>It uses the OUPath parameter to specify the organizational unit for the new accounts.</source>
+          <target state="translated">它使用 OUPath 参数为新帐户指定组织单位。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Example 5: Add a local computer to a domain using credentials</source>
+          <target state="translated">示例 5︰ 将本地计算机添加到使用凭据的域</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This command adds the Server01 computer to the Domain02 domain.</source>
+          <target state="translated">此命令将 Server01 计算机添加到 Domain02 域中。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>LocalCredential<ept id="p1">*</ept> parameter to specify a user account that has permission to connect to the Server01 computer.</source>
+          <target state="translated">它使用 <bpt id="p1">*</bpt>LocalCredential<ept id="p1">*</ept> 参数来指定有权连接到 Server01 计算机的用户帐户。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>Credential<ept id="p1">*</ept> parameter to specify a user account that has permission to join computers to the domain.</source>
+          <target state="translated">它使用 <bpt id="p1">*</bpt>凭据<ept id="p1">*</ept> 参数来指定有权将计算机加入到域的用户帐户。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>Restart<ept id="p1">*</ept> parameter to restart the computer after the join operation completes and the <bpt id="p2">*</bpt>Force<ept id="p2">*</ept> parameter to suppress user confirmation messages.</source>
+          <target state="translated">它使用 <bpt id="p1">*</bpt>重新启动<ept id="p1">*</ept> 参数加入操作完成后重新启动计算机和 <bpt id="p2">*</bpt>强制<ept id="p2">*</ept> 参数取消用户确认消息。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Example 6: Move a group of computers to a new domain</source>
+          <target state="translated">示例 6︰ 将一组计算机移到新域</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This command moves the Server01 and Server02 computers, and the local computer, from Domain01 to Domain02.</source>
+          <target state="translated">此命令将 Server01 和 Server02 计算机以及本地计算机从 Domain01 移至 Domain02。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>LocalCredential<ept id="p1">*</ept> parameter to specify a user account that has permission to connect to the three affected computers.</source>
+          <target state="translated">它使用 <bpt id="p1">*</bpt>LocalCredential<ept id="p1">*</ept> 参数来指定有权连接到三个受影响的计算机的用户帐户。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>UnjoinDomainCredential<ept id="p1">*</ept> parameter to specify a user account that has permission to unjoin the computers from the Domain01 domain and the <bpt id="p2">*</bpt>Credential<ept id="p2">*</ept> parameter to specify a user account that has permission to join the computers to the Domain02 domain.</source>
+          <target state="translated">它使用 <bpt id="p1">*</bpt>UnjoinDomainCredential<ept id="p1">*</ept> 参数来指定有权计算机退出 Domain01 域的用户帐户和 <bpt id="p2">*</bpt>凭据<ept id="p2">*</ept> 参数来指定有权将计算机加入到 Domain02 域的用户帐户。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>Restart<ept id="p1">*</ept> parameter to restart all three computers after the move is complete.</source>
+          <target state="translated">它使用 <bpt id="p1">*</bpt>重新启动<ept id="p1">*</ept> 参数在移动操作完成后重新启动所有三台计算机。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Example 7: Move a computer to a new domain and change the name of the computer</source>
+          <target state="translated">示例 7︰ 将计算机移到新域，并将该计算机的名称更改</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This command moves the Server01 computer to the Domain02 and changes the machine name to Server044.</source>
+          <target state="translated">此命令将 Server01 计算机移至 Domain02 并将计算机名称更改为 Server044。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The command uses the credential of the current user to connect to the Server01 computer and unjoin it from its current domain.</source>
+          <target state="translated">该命令使用当前用户的凭据连接到 Server01 计算机并将其从其当前域中退出。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>Credential<ept id="p1">*</ept> parameter to specify a user account that has permission to join the computer to the Domain02 domain.</source>
+          <target state="translated">它使用 <bpt id="p1">*</bpt>凭据<ept id="p1">*</ept> 参数来指定有权将计算机加入到 Domain02 域的用户帐户。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Example 8: Add computers listed in a file to a new domain</source>
+          <target state="translated">示例 8︰ 添加到新的域文件中列出的计算机</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This command adds the computers that are listed in the Servers.txt file to the Domain02 domain.</source>
+          <target state="translated">此命令将 Servers.txt 文件中列出的计算机添加到 Domain02 域。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>Options<ept id="p1">*</ept> parameter to specify the <bpt id="p2">**</bpt>Win9xUpgrade<ept id="p2">**</ept> option.</source>
+          <target state="translated">它使用 <bpt id="p1">*</bpt>选项<ept id="p1">*</ept> 参数来指定 <bpt id="p2">**</bpt>Win9xUpgrade<ept id="p2">**</ept> 选项。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>Restart<ept id="p1">*</ept> parameter restarts all of the newly added computers after the join operation completes.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>重新启动<ept id="p1">*</ept> 参数重新启动所有新添加的计算机加入操作完成后。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">参数</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-ComputerName</source>
+          <target state="translated">-ComputerName</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Specifies the computers to add to a domain or workgroup.</source>
+          <target state="translated">指定要添加到域或工作组中的计算机。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The default is the local computer.</source>
+          <target state="translated">默认值为本地计算机。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Type the NetBIOS name, an Internet Protocol (IP) address, or a fully qualified domain name of each of the remote computers.</source>
+          <target state="translated">键入 NetBIOS 名称、 Internet 协议 (IP) 地址或完全限定的域名的每台远程计算机。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>To specify the local computer, type the computer name, a dot (.), or "localhost".</source>
+          <target state="translated">若要指定本地计算机，请键入该计算机名称、句点 (.) 或“localhost”。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This parameter does not rely on Windows PowerShell remoting.</source>
+          <target state="translated">此参数不依赖于 Windows PowerShell 远程处理。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>Add-Computer<ept id="p2">**</ept> even if your computer is not configured to run remote commands.</source>
+          <target state="translated">您可以使用 <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> 参数 <bpt id="p2">**</bpt>Add-computer<ept id="p2">**</ept> 即使您的计算机未配置为运行远程命令。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">已在 Windows PowerShell 3.0 中引入了此参数。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">将提示您在运行 cmdlet 前进行确认。将提示您在运行 cmdlet 前进行确认。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>-Credential</source>
+          <target state="translated">-Credential</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Specifies a user account that has permission to join the computers to a new domain.</source>
+          <target state="translated">指定有权将计算机加入新域的用户帐户。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The default is the current user.</source>
+          <target state="translated">默认为当前用户。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Type a user name, such as "User01" or "Domain01\User01", or enter a <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> object, such as one generated by the Get-Credential cmdlet.</source>
+          <target state="translated">键入用户名，例如"User01"或"Domain01\User01"; 或输入 <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> 对象，例如由 Get-credential cmdlet 生成。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>If you type a user name, you will be prompted for a password.</source>
+          <target state="translated">如果键入用户名，则将提示你输入密码。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To specify a user account that has permission to remove the computer from its current domain, use the <bpt id="p1">*</bpt>UnjoinDomainCredential<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">若要指定有权从其当前域中删除该计算机的用户帐户，请使用 <bpt id="p1">*</bpt>UnjoinDomainCredential<ept id="p1">*</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>To specify a user account that has permission to connect to a remote computer, use the <bpt id="p1">*</bpt>LocalCredential<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">若要指定有权连接到远程计算机的用户帐户，请使用 <bpt id="p1">*</bpt>LocalCredential<ept id="p1">*</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>-DomainName</source>
+          <target state="translated">-DomainName</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Specifies the domain to which the computers are added.</source>
+          <target state="translated">指定要向其中添加计算机的域。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>This parameter is required when adding the computers to a domain.</source>
+          <target state="translated">在将计算机添加到域时需要使用此参数。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Forces the command to run without asking for user confirmation.</source>
+          <target state="translated">强制运行命令而不要求用户确认。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Without this parameter, <bpt id="p1">**</bpt>Add-Computer<ept id="p1">**</ept> requires you to confirm the addition of each computer.</source>
+          <target state="translated">如果没有此参数， <bpt id="p1">**</bpt>Add-computer<ept id="p1">**</ept> 要求您以确认添加的每台计算机。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">已在 Windows PowerShell 3.0 中引入了此参数。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>-LocalCredential</source>
+          <target state="translated">-LocalCredential</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Specifies a user account that has permission to connect to the computers that are specified by the <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">指定有权连接到由指定的计算机的用户帐户 <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The default is the current user.</source>
+          <target state="translated">默认为当前用户。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Type a user name, such as "User01" or "Domain01\User01", or enter a <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> object, such as one generated by the Get-Credential cmdlet.</source>
+          <target state="translated">键入用户名，例如"User01"或"Domain01\User01"; 或输入 <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> 对象，例如由 Get-credential cmdlet 生成。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>If you type a user name, you will be prompted for a password.</source>
+          <target state="translated">如果键入用户名，则将提示你输入密码。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>To specify a user account that has permission to add the computers to a new domain, use the <bpt id="p1">*</bpt>Credential<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">若要指定有权将计算机添加到新域的用户帐户，请使用 <bpt id="p1">*</bpt>凭据<ept id="p1">*</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>To specify a user account that has permission to remove the computers from their current domain, use the <bpt id="p1">*</bpt>UnjoinDomainCredential<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">若要指定有权从其当前域中删除计算机的用户帐户，请使用 <bpt id="p1">*</bpt>UnjoinDomainCredential<ept id="p1">*</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">已在 Windows PowerShell 3.0 中引入了此参数。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>-NewName</source>
+          <target state="translated">的新名称</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Specifies a new name for the computer in the new domain.</source>
+          <target state="translated">在新域中指定计算机的新名称。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when one computer is being added or moved.</source>
+          <target state="translated">此参数仅在一台计算机被添加或移动时有效。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">已在 Windows PowerShell 3.0 中引入了此参数。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>-OUPath</source>
+          <target state="translated">-OUPath</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Specifies an organizational unit (OU) for the domain account.</source>
+          <target state="translated">为域帐户指定组织单位 (OU)。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Enter the full distinguished name of the OU in quotation marks.</source>
+          <target state="translated">在引号中输入 OU 的完全可分辨名称。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The default value is the default OU for machine objects in the domain.</source>
+          <target state="translated">默认值为域中计算机对象的默认 OU。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>-Options</source>
+          <target state="translated">-选项</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Specifies advanced options for the <bpt id="p1">**</bpt>Add-Computer<ept id="p1">**</ept> join operation.</source>
+          <target state="translated">指定高级的选项 <bpt id="p1">**</bpt>Add-computer<ept id="p1">**</ept> 联接操作。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Enter one or more values in a comma-separated string.</source>
+          <target state="translated">在逗号分隔的字符串中输入一个或多个值。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">此参数的可接受的值是：</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>AccountCreate<ept id="p1">**</ept>: Creates a domain account.</source>
+          <target state="translated"><bpt id="p1">**</bpt>帐户创建<ept id="p1">**</ept>︰ 创建域帐户。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Add-Computer<ept id="p1">**</ept> cmdlet automatically creates a domain account when it adds a computer to a domain.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Add-computer<ept id="p1">**</ept> 时将计算机添加到域后，cmdlet 将会自动创建的域帐户。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>This option is included for completeness.</source>
+          <target state="translated">此选项将包括出于完整性的考虑。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Win9XUpgrade<ept id="p1">**</ept>: Indicates that the join operation is part of a Windows operating system upgrade.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Win9XUpgrade<ept id="p1">**</ept>︰ 指示加入操作是 Windows 操作系统升级的一部分。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>UnsecuredJoin<ept id="p1">**</ept>: Performs an unsecured join.</source>
+          <target state="translated"><bpt id="p1">**</bpt>UnsecuredJoin<ept id="p1">**</ept>︰ 执行不安全的加入。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>To request an unsecured join, use the <bpt id="p1">*</bpt>Unsecure<ept id="p1">*</ept> parameter or this option.</source>
+          <target state="translated">若要请求不安全的加入，请使用 <bpt id="p1">*</bpt>Unsecure<ept id="p1">*</ept> 参数或此选项。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>PasswordPass<ept id="p1">**</ept>: Sets the machine password to the value of the <bpt id="p2">*</bpt>Credential<ept id="p2">*</ept>(DomainCredential) parameter after performing an unsecured join.</source>
+          <target state="translated"><bpt id="p1">**</bpt>PasswordPass<ept id="p1">**</ept>︰ 将计算机密码设置的值 <bpt id="p2">*</bpt>凭据<ept id="p2">*</ept>执行不安全的加入操作后 (DomainCredential) 参数。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>This option also indicates that the value of the <bpt id="p1">*</bpt>Credential<ept id="p1">*</ept> (DomainCredential) parameter is a machine password, not a user password.</source>
+          <target state="translated">此选项还指示的值 <bpt id="p1">*</bpt>凭据<ept id="p1">*</ept> (DomainCredential) 参数是计算机密码，而不是用户密码。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>This option is valid only when the UnsecuredJoin option is specified.</source>
+          <target state="translated">此选项仅在指定 UnsecuredJoin 选项时才有效。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>JoinWithNewName<ept id="p1">**</ept>: Renames the computer name in the new domain to the name specified by the <bpt id="p2">*</bpt>NewName<ept id="p2">*</ept> parameter.</source>
+          <target state="translated"><bpt id="p1">**</bpt>JoinWithNewName<ept id="p1">**</ept>︰ 将新域中的计算机名称重命名指定的名称为 <bpt id="p2">*</bpt>NewName<ept id="p2">*</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>When you use the <bpt id="p1">*</bpt>NewName<ept id="p1">*</ept> parameter, this option is set automatically.</source>
+          <target state="translated">当您使用 <bpt id="p1">*</bpt>NewName<ept id="p1">*</ept> 参数，因此此选项自动设置。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>This option is designed to be used with the Rename-Computer cmdlet.</source>
+          <target state="translated">此选项专门用于重命名计算机 cmdlet。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">**</bpt>Rename-Computer<ept id="p1">**</ept> cmdlet to rename the computer, but do not restart the computer to make the change effective, you can use this parameter to join the computer to a domain with its new name.</source>
+          <target state="translated">如果您使用 <bpt id="p1">**</bpt>重命名计算机<ept id="p1">**</ept> cmdlet 重命名计算机，但不是重新启动计算机以使更改生效，则可以使用此参数将计算机加入的域具有其新名称。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>JoinReadOnly<ept id="p1">**</ept>: Uses an existing machine account to join the computer to a read-only domain controller.</source>
+          <target state="translated"><bpt id="p1">**</bpt>JoinReadOnly<ept id="p1">**</ept>︰ 使用现有计算机帐户将计算机加入到只读域控制器。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The machine account must be added to the allowed list for password replication policy and the account password must be replicated to the read-only domain controller prior to the join operation.</source>
+          <target state="translated">必须将计算机帐户添加到密码复制策略的允许列表，并且帐户密码必须复制到联接运算之前的只读域控制器。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>InstallInvoke<ept id="p1">**</ept>: Sets the create (0x2) and delete (0x4) flags of the <bpt id="p2">*</bpt>FJoinOptions<ept id="p2">*</ept> parameter of the <bpt id="p3">**</bpt>JoinDomainOrWorkgroup<ept id="p3">**</ept> method.</source>
+          <target state="translated"><bpt id="p1">**</bpt>InstallInvoke<ept id="p1">**</ept>︰ 设置创建 (0x2) 和删除 (0x4) 标志 <bpt id="p2">*</bpt>FJoinOptions<ept id="p2">*</ept> 参数 <bpt id="p3">**</bpt>JoinDomainOrWorkgroup<ept id="p3">**</ept> 方法。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>For more information about the <bpt id="p1">**</bpt>JoinDomainOrWorkgroup<ept id="p1">**</ept> method, see "JoinDomainOrWorkgroup Method of the Win32_ComputerSystem Class" on MSDNhttp://msdn.microsoft.com/library/aa392154(VS.85).aspx at http://msdn.microsoft.com/library/aa392154(VS.85).aspx.</source>
+          <target state="translated">有关详细信息 <bpt id="p1">**</bpt>JoinDomainOrWorkgroup<ept id="p1">**</ept> 方法中，在 MSDNhttp://msdn.microsoft.com/library/aa392154 (vs.85).aspx 在 http://msdn.microsoft.com/library/aa392154(VS.85).aspx.上看到"Win32_ComputerSystem 类的 JoinDomainOrWorkgroup 方法"</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>For more information about these options, see "NetJoinDomain" on MSDNhttp://msdn.microsoft.com/library/aa370433(VS.85).aspx at http://msdn.microsoft.com/library/aa370433(VS.85).aspx.</source>
+          <target state="translated">有关这些选项的详细信息，请参阅"NetJoinDomain"上 MSDNhttp://msdn.microsoft.com/library/aa370433 (vs.85).aspx 在 http://msdn.microsoft.com/library/aa370433(VS.85).aspx.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">已在 Windows PowerShell 3.0 中引入了此参数。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>-PassThru</source>
+          <target state="translated">-PassThru</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Returns an object representing the item with which you are working.</source>
+          <target state="translated">返回一个代表你所处理的项目的对象。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>By default, this cmdlet does not generate any output.</source>
+          <target state="translated">默认情况下，此 cmdlet 将不产生任何输出。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>-Restart</source>
+          <target state="translated">-Restart</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet restarts the computers that were added to the domain or workgroup.</source>
+          <target state="translated">指示此 cmdlet 重新启动已添加到域或工作组的计算机。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>A restart is often required to make the change effective.</source>
+          <target state="translated">若要更改生效，通常需要重新启动。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">已在 Windows PowerShell 3.0 中引入了此参数。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>-Server</source>
+          <target state="translated">服务器</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Specifies the name of a domain controller that adds the computer to the domain.</source>
+          <target state="translated">指定向域中添加计算机的域控制器的名称。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Enter the name in DomainName\ComputerName format.</source>
+          <target state="translated">以 DomainName\ComputerName 格式输入该名称。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>By default, no domain controller is specified.</source>
+          <target state="translated">默认情况下，将不指定域控制器。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>-UnjoinDomainCredential</source>
+          <target state="translated">-UnjoinDomainCredential</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Specifies a user account that has permission to remove the computers from their current domains.</source>
+          <target state="translated">指定有权将计算机从其当前域中删除的用户帐户。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The default is the current user.</source>
+          <target state="translated">默认为当前用户。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Type a user name, such as "User01" or "Domain01\User01", or enter a <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> object, such as one generated by the Get-Credential cmdlet.</source>
+          <target state="translated">键入用户名，例如"User01"或"Domain01\User01"; 或输入 <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> 对象，例如由 Get-credential cmdlet 生成。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>If you type a user name, you will be prompted for a password.</source>
+          <target state="translated">如果键入用户名，则将提示你输入密码。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Use this parameter when you are moving computers to a different domain.</source>
+          <target state="translated">在将计算机移动到不同的域中时使用此参数。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>To specify a user account that has permission to join the new domain, use the <bpt id="p1">*</bpt>Credential<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">若要指定有权加入新域的用户帐户，请使用 <bpt id="p1">*</bpt>凭据<ept id="p1">*</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>To specify a user account that has permission to connect to a remote computer, use the <bpt id="p1">*</bpt>LocalCredential<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">若要指定有权连接到远程计算机的用户帐户，请使用 <bpt id="p1">*</bpt>LocalCredential<ept id="p1">*</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">已在 Windows PowerShell 3.0 中引入了此参数。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>-Unsecure</source>
+          <target state="translated">-取消的安全保护</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet performs an unsecured join to the specified domain.</source>
+          <target state="translated">指示此 cmdlet 执行不安全的加入到指定的域。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">显示如果运行 cmdlet 则会发生什么情况。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">该 cmdlet 不会运行。显示在 cmdlet 运行时，会发生什么情况。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">cmdlet 未运行。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>-WorkgroupName</source>
+          <target state="translated">-WorkgroupName</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Specifies the name of a workgroup to which the computers are added.</source>
+          <target state="translated">指定要将计算机添加到的工作组的名称。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The default value is "WORKGROUP".</source>
+          <target state="translated">默认值为“WORKGROUP”。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">此 cmdlet 支持以下常见参数:-调试-ErrorAction、-ErrorVariable、-InformationAction、-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 和-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">有关详细信息，请参阅 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">输入</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>System.String</source>
+          <target state="translated">System.String</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>You can pipe computer names and new names to this cmdlet.</source>
+          <target state="translated">您可以通过管道计算机名称和新名称传递给此 cmdlet。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">输出</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Microsoft.PowerShell.Commands.ComputerChangeInfo</source>
+          <target state="translated">Microsoft.PowerShell.Commands.ComputerChangeInfo</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>When you use the <bpt id="p1">*</bpt>PassThru<ept id="p1">*</ept> parameter, <bpt id="p2">**</bpt>Add-Computer<ept id="p2">**</ept> returns a <bpt id="p3">**</bpt>ComputerChangeInfo<ept id="p3">**</ept> object.</source>
+          <target state="translated">当您使用 <bpt id="p1">*</bpt>PassThru<ept id="p1">*</ept> 参数， <bpt id="p2">**</bpt>Add-computer<ept id="p2">**</ept> 返回 <bpt id="p3">**</bpt>ComputerChangeInfo<ept id="p3">**</ept> 对象。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Otherwise, this cmdlet does not generate any output.</source>
+          <target state="translated">否则，此 cmdlet 将不生成任何输出。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, the <bpt id="p1">*</bpt>Server<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>Add-Computer<ept id="p2">**</ept> fails even when the server is present.</source>
+          <target state="translated">在 Windows PowerShell 2.0 <bpt id="p1">*</bpt>服务器<ept id="p1">*</ept> 参数 <bpt id="p2">**</bpt>Add-computer<ept id="p2">**</ept> 失败即使服务器不存在。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 3.0, the implementation of the <bpt id="p1">*</bpt>Server<ept id="p1">*</ept> parameter is changed so that it works reliably.</source>
+          <target state="translated">在 Windows PowerShell 3.0 中，实现 <bpt id="p1">*</bpt>服务器<ept id="p1">*</ept> 参数更改，以便它能够可靠地工作。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相关的链接</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Checkpoint-Computer</source>
+          <target state="translated">Checkpoint-Computer</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Remove-Computer</source>
+          <target state="translated">Remove-Computer</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Restart-Computer</source>
+          <target state="translated">Restart-Computer</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Rename-Computer</source>
+          <target state="translated">Rename-Computer</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Restore-Computer</source>
+          <target state="translated">还原计算机</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Stop-Computer</source>
+          <target state="translated">停止计算机</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Test-Connection</source>
+          <target state="translated">Test-Connection</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
