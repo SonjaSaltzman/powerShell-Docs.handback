@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="fr-fr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">08f8d683c83ea18eec2bef20079275be8c3a14f4</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Utility\Debug-Runspace.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">76690ced6e90a1fb571899e21f1f062843ad36a5</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">456528dcd56f8bff340f62b99c941c806e5c0310</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">applet de commande PowerShell</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Debug-Runspace</source>
+          <target state="translated">Debug-Runspace</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Debug-Runspace</source>
+          <target state="translated">Debug-Runspace</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">SYNOPSIS</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Starts an interactive debugging session with a runspace.</source>
+          <target state="translated">Démarre une session de débogage interactive avec une instance d’exécution.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SYNTAXE</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>RunspaceParameterSet (Default)</source>
+          <target state="translated">RunspaceParameterSet (valeur par défaut)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>NameParameterSet</source>
+          <target state="translated">NameParameterSet</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>IdParameterSet</source>
+          <target state="translated">IdParameterSet</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>InstanceIdParameterSet</source>
+          <target state="translated">InstanceIdParameterSet</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">DESCRIPTION</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Debug-Runspace<ept id="p1">**</ept> cmdlet starts an interactive debugging session with a local or remote active runspace.</source>
+          <target state="translated">Le <bpt id="p1">**</bpt>Debug-Runspace<ept id="p1">**</ept> applet de commande démarre une session de débogage interactive avec une instance d’exécution actif local ou distant.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can find a runspace that you want to debug by first running Get-Process to find processes associated with Windows PowerShell, then Enter-PSHostProcess with the process ID specified in the <bpt id="p1">*</bpt>Id<ept id="p1">*</ept> parameter to attach to the process, and then Get-Runspace to list runspaces within the Windows PowerShell host process.</source>
+          <target state="translated">Vous pouvez trouver une instance d’exécution que vous souhaitez déboguer en premier en cours d’exécution Get-Process pour rechercher des processus associés à Windows PowerShell, puis entrez-PSHostProcess avec l’ID de processus spécifié dans le <bpt id="p1">*</bpt>Id<ept id="p1">*</ept> paramètre attacher au processus, puis Get-Runspace pour les instances de liste dans le processus hôte de Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>After you have selected a runspace to debug, if the runspace is currently running a command or script, or if the script has stopped at a breakpoint, Windows PowerShell opens a remote debugger session for the runspace.</source>
+          <target state="translated">Après avoir sélectionné une instance d’exécution pour déboguer, si l’instance d’exécution exécute une commande ou un script, ou si le script s’est arrêté à un point d’arrêt, Windows PowerShell ouvre une session de débogueur distant pour l’instance d’exécution.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can debug the runspace script in the same way remote session scripts are debugged.</source>
+          <target state="translated">Vous pouvez déboguer le script de l’instance d’exécution de la même façon que les scripts de session à distance sont débogués.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can only attach to a Windows PowerShell host process if you are an administrator on the computer that is running the process, or you are running the script that you want to debug.</source>
+          <target state="translated">Vous pouvez uniquement attacher à un processus hôte de Windows PowerShell si vous êtes un administrateur sur l’ordinateur qui exécute le processus, ou si vous exécutez le script que vous souhaitez déboguer.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Also, you cannot enter the host process that is running the current Windows PowerShell session; you can only enter a host process that is running a different Windows PowerShell session.</source>
+          <target state="translated">En outre, vous ne pouvez pas entrer le processus hôte qui exécute la session Windows PowerShell actuelle ; Vous ne pouvez entrer qu’un processus hôte qui exécute une autre session Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For example, if you are working in a PowerShell.exe session, you can't enter the host process for that session, but you can enter the host process of a running Windows PowerShell ISE session.</source>
+          <target state="translated">Par exemple, si vous travaillez dans une session PowerShell.exe, vous ne pouvez pas entrer le processus hôte de cette session, mais vous pouvez entrer le processus hôte d’une session Windows PowerShell ISE en cours d’exécution.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">EXEMPLES</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Example 1: Debug a remote runspace</source>
+          <target state="translated">Exemple 1 : Déboguer une instance d’exécution à distance</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In this example, you debug a runspace that is open on a remote computer, WS10TestServer.</source>
+          <target state="translated">Dans cet exemple, vous déboguez une instance d’exécution qui est ouvert sur un ordinateur distant, WS10TestServer.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The first command runs the Get-Process cmdlet on the remote computer, and then filters for Windows PowerShell host processes.</source>
+          <target state="translated">La première commande exécute l’applet de commande Get-Process sur l’ordinateur distant, puis filtre pour les processus hôte de Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The command debugs process ID 1152, the Windows PowerShell ISE host process.</source>
+          <target state="translated">La commande débogue le processus ID 1152, le processus hôte de Windows PowerShell ISE.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The second command runs Enter-PSSession to open a remote session on WS10TestServer.</source>
+          <target state="translated">La deuxième commande exécute Enter-PSSession pour ouvrir une session à distance sur WS10TestServer.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The third command attaches to the Windows PowerShell ISE host process that runs on the remote server by running Enter-PSHostProcess, and specifies the ID of the host process that you obtained in the first command, 1152.</source>
+          <target state="translated">La troisième commande attache au processus hôte Windows PowerShell ISE qui s’exécute sur le serveur distant en exécutant PSHostProcess à l’entrée et spécifie l’ID du processus hôte que vous avez obtenue dans la première commande 1152.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The fourth command lists available runspaces for process ID 1152 by using the Get-Runspace cmdlet.</source>
+          <target state="translated">La quatrième commande répertorie les instances disponibles pour le processus ID 1152 à l’aide de l’applet de commande Get-Runspace.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You note the ID number of the Busy runspace; it is running a script that you want to debug.</source>
+          <target state="translated">Vous notez le numéro d’ID de l’instance d’exécution occupé ; Il exécute un script que vous souhaitez déboguer.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The firth command debugs an opened runspace that is running a script, TestWFVar1.ps1, by using the <bpt id="p1">**</bpt>Debug-Runspace<ept id="p1">**</ept> cmdlet, and identifies the runspace by its ID, 2, that uses the <bpt id="p2">*</bpt>Id<ept id="p2">*</ept> parameter.</source>
+          <target state="translated">La commande firth débogue une instance d’exécution ouverte qui exécute un script, TestWFVar1.ps1, à l’aide de la <bpt id="p1">**</bpt>Debug-Runspace<ept id="p1">**</ept> applet de commande et identifie l’instance d’exécution par son ID, 2, qui utilise le <bpt id="p2">*</bpt>Id<ept id="p2">*</ept> paramètre.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Because there's a breakpoint in the script, the debugger opens.</source>
+          <target state="translated">Étant donné qu’un point d’arrêt dans le script, le débogueur s’ouvre.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARAMÈTRES</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">Vous demande confirmation avant d’exécuter l’applet de commande. Vous demande confirmation avant d’exécuter l’applet de commande.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>-Id</source>
+          <target state="translated">-Id</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Specifies the ID number of a runspace.</source>
+          <target state="translated">Spécifie le numéro d’identification d’une instance d’exécution.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>You can run Get-Runspace to show runspace IDs.</source>
+          <target state="translated">Vous pouvez exécuter Get-Runspace pour afficher les ID d’instance d’exécution.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>-InstanceId</source>
+          <target state="translated">-InstanceId</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Specifies a runspace by its instance ID, a GUID that you can show by running <bpt id="p1">**</bpt>Get-Runspace<ept id="p1">**</ept>.</source>
+          <target state="translated">Spécifie une instance d’exécution par son ID d’instance, un GUID que vous pouvez afficher en exécutant <bpt id="p1">**</bpt>Get-Runspace<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Specifies a runspace by its name.</source>
+          <target state="translated">Spécifie une instance d’exécution par son nom.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>You can run <bpt id="p1">**</bpt>Get-Runspace<ept id="p1">**</ept> to show the names of runspaces.</source>
+          <target state="translated">Vous pouvez exécuter <bpt id="p1">**</bpt>Get-Runspace<ept id="p1">**</ept> pour afficher les noms des instances d’exécution.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>-Runspace</source>
+          <target state="translated">-Runspace</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Specifies a runspace object.</source>
+          <target state="translated">Spécifie un objet d’instance d’exécution.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The simplest way to provide a value for this parameter is to specify a variable that contains the results of a filtered <bpt id="p1">**</bpt>Get-Runspace<ept id="p1">**</ept> command.</source>
+          <target state="translated">La façon la plus simple de fournir une valeur pour ce paramètre consiste à spécifier une variable qui contient les résultats d’une liste filtrée <bpt id="p1">**</bpt>Get-Runspace<ept id="p1">**</ept> commande.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Présente les conséquences éventuelles de l’exécution de l’applet de commande.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">L’applet de commande n’est pas exécuté. Montre ce qui se passerait si l’applet de commande s’exécute.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">L’applet de commande n’est pas exécutée.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Cette applet de commande prend en charge les paramètres courants :-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction et - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Pour plus d’informations, consultez about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ENTRÉES</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.Runspaces.Runspace</source>
+          <target state="translated">System.Management.Automation.Runspaces.Runspace</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>You can pipe the results of a <bpt id="p1">**</bpt>Get-Runspace<ept id="p1">**</ept> command to <bpt id="p2">**</bpt>Debug-Runspace.<ept id="p2">**</ept></source>
+          <target state="translated">Vous pouvez diriger les résultats d’une <bpt id="p1">**</bpt>Get-Runspace<ept id="p1">**</ept> commande <bpt id="p2">**</bpt>Debug-Runspace.<ept id="p2">**</ept></target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">SORTIES</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTES DE PUBLICATION</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Debug-Runspace<ept id="p1">**</ept> works on runspaces that are in the Opened state.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Débogage-Runspace<ept id="p1">**</ept> fonctionne sur des instances d’exécution qui sont dans l’état Opened.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>If a runspace state changes from Opened to another state, that runspace is automatically removed from the running list.</source>
+          <target state="translated">Si un état de l’instance d’exécution change d’ouvert à un autre état, cet espace d’exploitation est automatiquement supprimé de la liste en cours d’exécution.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>A runspace is added to the running list only if it meets the following criteria.</source>
+          <target state="translated">Une instance d’exécution est ajouté à la liste en cours d’exécution uniquement si elle répond aux critères suivants.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If it is coming from Invoke-Command; that is, it has an <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> GUID ID.</source>
+          <target state="translated">Si elles proviennent d’Invoke-Command. Autrement dit, elle a un <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> identificateur GUID.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If it is coming from <bpt id="p1">**</bpt>Debug-Runspace<ept id="p1">**</ept>; that is, it has a <bpt id="p2">**</bpt>Debug-Runspace<ept id="p2">**</ept> GUID ID.</source>
+          <target state="translated">Si elle provient <bpt id="p1">**</bpt>Debug-Runspace<ept id="p1">**</ept>; autrement dit, elle a un <bpt id="p2">**</bpt>Debug-Runspace<ept id="p2">**</ept> identificateur GUID.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>If it is coming from a Windows PowerShell workflow, and its workflow job ID is the same as the current active debugger workflow job ID.</source>
+          <target state="translated">Si elles proviennent d’un flux de travail Windows PowerShell, et son ID de tâche de flux de travail est le même que l’ID de tâche débogueur actif du flux de travail actuel.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">LIENS CONNEXES</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>about_Debuggers</source>
+          <target state="translated">about_Debuggers</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Debug-Job</source>
+          <target state="translated">Tâche de débogage</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Get-Runspace</source>
+          <target state="translated">Get-Runspace</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Get-Process</source>
+          <target state="translated">Get-Process</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Enter-PSHostProcess</source>
+          <target state="translated">Enter-PSHostProcess</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Enter-PSSession</source>
+          <target state="translated">Enter-PSSession</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

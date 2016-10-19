@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">382b8168166615557fddeffbf15b7621580f4d17</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\About\about_Foreach.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">25382dc3d2773f553323385b97b598b6b9325c42</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">29cff617b56a2c9d858ed6fd0fed891cd36e58fe</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell, cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>about_ForEach</source>
+          <target state="translated">about_ForEach</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>About ForEach</source>
+          <target state="translated">Sobre ForEach</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>about_ForEach</source>
+          <target state="translated">about_ForEach</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>about_Foreach</source>
+          <target state="translated">about_Foreach</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">DESCRIÇÃO BREVE</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Describes a language command you can use to traverse all the items in a collection of items.</source>
+          <target state="translated">Descreve um comando de linguagem que você pode usar para percorrer todos os itens em uma coleção de itens.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>LONG DESCRIPTION</source>
+          <target state="translated">DESCRIÇÃO LONGA</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The Foreach statement (also known as a Foreach loop) is a language construct for stepping through (iterating) a series of values in a collection of items.</source>
+          <target state="translated">A instrução Foreach (também conhecido como um loop Foreach) é uma construção de linguagem para percorrer (iteração) uma série de valores em uma coleção de itens.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The simplest and most typical type of collection to traverse is an array.</source>
+          <target state="translated">O tipo mais simples e mais comuns de coleção para atravessar é uma matriz.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Within a Foreach loop, it is common to run one or more commands against each item in an array.</source>
+          <target state="translated">Em um loop Foreach, é comum para executar um ou mais comandos em cada item em uma matriz.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Syntax The following shows the ForEach syntax:</source>
+          <target state="translated">Sintaxe a seguir mostra a sintaxe de ForEach:</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>foreach ($<ph id="ph1">&lt;item&gt;</ph> in $<ph id="ph2">&lt;collection&gt;</ph>){<ph id="ph3">&lt;statement list&gt;</ph>}</source>
+          <target state="translated">foreach ($<ph id="ph1">&lt;item&gt;</ph> $<ph id="ph2">&lt;collection&gt;</ph>) {<ph id="ph3">&lt;statement list&gt;</ph>}</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Simplified syntax Starting in Windows PowerShell 3.0, syntax with language keywords such as Where and ForEach was simplified.</source>
+          <target state="translated">Simplificado sintaxe começando no Windows PowerShell 3.0, sintaxe com palavras-chave como Where e ForEach foi simplificado.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Comparison operators that work on the members of a collection are treated as parameters.</source>
+          <target state="translated">Operadores de comparação que funcionam nos membros de uma coleção são tratados como parâmetros.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can use a method on the members of a collection without containing it in a script block or adding the automatic variable "$_.".</source>
+          <target state="translated">Você pode usar um método nos membros de uma coleção sem que a contém em um bloco de script ou adicionar a variável automática "$_".</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Consider the following two examples:</source>
+          <target state="translated">Considere os exemplos a seguir:</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>dir cert:\ -Recurse | foreach GetKeyAlgorithm dir cert:\ -Recurse | foreach {$_.GetKeyAlgorithm()}</source>
+          <target state="translated">dir cert: \-Recurse | foreach GetKeyAlgorithm dir cert: \-Recurse | foreach {$_. GetKeyAlgorithm()}</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Although both commands work, the first returns results without using a script block or the $_.</source>
+          <target state="translated">Embora ambos os comandos, o primeiro retorna resultados sem usar um bloco de script ou $_.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>automatic variable.</source>
+          <target state="translated">variável automática.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The method GetKeyAlgorithm is treated as a parameter of ForEach.</source>
+          <target state="translated">O método GetKeyAlgorithm é tratado como um parâmetro de ForEach.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The first command returns the same results, but without errors, because the simplified syntax does not attempt to return results for items for which the specified argument did not apply.</source>
+          <target state="translated">O primeiro comando retorna os mesmos resultados, mas sem erros, porque a sintaxe simplificada não tenta retornar resultados para os itens para os quais o argumento especificado não se aplicam.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In this example, the Get-Process property Description is passed as a parameter argument of the ForEach statement.</source>
+          <target state="translated">Neste exemplo, a propriedade Get-Process descrição é passada como um argumento de parâmetro da instrução ForEach.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The results are the descriptions of active processes.</source>
+          <target state="translated">Os resultados são as descrições de processos ativos.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Get-Process | ForEach Description</source>
+          <target state="translated">Get-Process | Descrição de ForEach</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The Foreach statement outside a command pipeline The part of the Foreach statement enclosed in parenthesis represents a variable and a collection to iterate.</source>
+          <target state="translated">A instrução Foreach fora de um pipeline de comando, a parte da instrução Foreach entre parênteses representa uma variável e uma coleção para iterar.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell creates the variable ($<ph id="ph1">&lt;item&gt;</ph>) automatically when the Foreach loop runs.</source>
+          <target state="translated">O Windows PowerShell cria a variável ($<ph id="ph1">&lt;item&gt;</ph>) quando o loop Foreach executa automaticamente.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Prior to each iteration through the loop, the variable is set to a value in the collection.</source>
+          <target state="translated">Antes de cada iteração pelo loop, a variável é definida como um valor na coleção.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The block following a Foreach statement {<ph id="ph1">&lt;statement list&gt;</ph>} contains a set of commands to execute against each item in a collection.</source>
+          <target state="translated">O bloco que segue uma instrução Foreach {<ph id="ph1">&lt;statement list&gt;</ph>} contém um conjunto de comandos a serem executados em cada item em uma coleção.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Examples For example, the Foreach loop in the following example displays the values in the $letterArray array.</source>
+          <target state="translated">Exemplos. por exemplo, o loop Foreach no exemplo a seguir exibe os valores na matriz $letterArray.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>$letterArray = "a","b","c","d" foreach ($letter in $letterArray) { Write-Host $letter }</source>
+          <target state="translated">$letterArray = "a", "b", "c", "d" foreach ($letter em $letterArray) {Write-Host $letter}</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>In this example, the $letterArray array is created and initialized with the string values "a", "b", "c", and "d".</source>
+          <target state="translated">Neste exemplo, a matriz $letterArray é criada e inicializada com os valores de cadeia de caracteres "a", "b", "c" e "d".</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The first time the Foreach statement runs, it sets the $letter variable equal to the first item in $letterArray ("a").</source>
+          <target state="translated">Na primeira vez em que a instrução Foreach é executado, ele define a variável $letter igual ao primeiro item no $letterArray ("a").</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Then, it uses the Write-Host cmdlet to display the letter a.</source>
+          <target state="translated">Em seguida, ele usa o cmdlet Write-Host para exibir a letra de um.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The next time through the loop, $letter is set to "b", and so on.</source>
+          <target state="translated">Na próxima vez que passarmos pelo loop, $letter é definido como "b" e assim por diante.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>After the Foreach loop displays the letter d, Windows PowerShell exits the loop.</source>
+          <target state="translated">Depois que o loop Foreach exibe a letra d, o Windows PowerShell sai do loop.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The entire Foreach statement must appear on a single line to run it as a command at the Windows PowerShell command prompt.</source>
+          <target state="translated">A instrução Foreach inteira deve aparecer em uma única linha para executá-lo como um comando no prompt de comando do Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The entire Foreach statement does not have to appear on a single line if you place the command in a .ps1 script file instead.</source>
+          <target state="translated">A instrução Foreach toda não precisa aparecer em uma única linha, se você colocar o comando em um arquivo de script. ps1 em vez disso.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Foreach statements can also be used together with cmdlets that return a collection of items.</source>
+          <target state="translated">Instruções de ForEach também podem ser usadas junto com cmdlets que retornam uma coleção de itens.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>In the following example, the Foreach statement steps through the list of items that is returned by the Get-ChildItem cmdlet.</source>
+          <target state="translated">No exemplo a seguir, as etapas de instrução Foreach na lista de itens que é retornado pelo cmdlet Get-ChildItem.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>foreach ($file in Get-ChildItem) { Write-Host $file }</source>
+          <target state="translated">foreach ($file em Get-ChildItem) {Write-Host $file}</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You can refine the example by using an If statement to limit the results that are returned.</source>
+          <target state="translated">Você pode refinar o exemplo usando um se a instrução para limitar os resultados são retornados.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>In the following example, the Foreach statement performs the same looping operation as the previous example, but it adds an If statement to limit the results to files that are greater than 100 kilobytes (KB):</source>
+          <target state="translated">No exemplo a seguir, a instrução Foreach executa a mesma operação de loop do exemplo anterior, mas adiciona um se a instrução para limitar os resultados a arquivos maiores que 100 quilobytes (KB):</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>foreach ($file in Get-ChildItem) { if ($file.length -gt 100KB) { Write-Host $file } }</source>
+          <target state="translated">foreach ($file em Get-ChildItem) {se (100 KB $file.length - gt) {Write-Host $file}}</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>In this example, the Foreach loop uses a property of the $file variable to perform a comparison operation ($file.length -gt 100KB).</source>
+          <target state="translated">Neste exemplo, o loop Foreach usa uma propriedade da variável $file para executar uma operação de comparação ($file.length - gt 100 KB).</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The $file variable contains all the properties in the object that is returned by the Get-ChildItem cmdlet.</source>
+          <target state="translated">A variável $file contém todas as propriedades no objeto que é retornado pelo cmdlet Get-ChildItem.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Therefore, you can return more than just a file name.</source>
+          <target state="translated">Portanto, você pode retornar mais do que apenas um nome de arquivo.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>In the next example, Windows PowerShell returns the length and the last access time inside the statement list:</source>
+          <target state="translated">No próximo exemplo, o Windows PowerShell retorna o comprimento e a hora do último acesso dentro da lista de instrução:</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>foreach ($file in Get-ChildItem) { if ($file.length -gt 100KB) { Write-Host $file Write-Host $file.length Write-Host $file.lastaccesstime } }</source>
+          <target state="translated">foreach ($file em Get-ChildItem) {se ($file.length - gt 100 KB) {Write-Host $file Write-Host $file.length Write-Host $file.lastaccesstime}}</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>In this example, you are not limited to running a single command in a statement list.</source>
+          <target state="translated">Neste exemplo, você não está limitado a execução de um único comando em uma lista de instruções.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>You can also use a variable outside a Foreach loop and increment the variable inside the loop.</source>
+          <target state="translated">Você também pode usar uma variável de fora de um loop Foreach e incrementar a variável dentro do loop.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The following example counts files over 100 KB in size:</source>
+          <target state="translated">O exemplo a seguir conta mais de 100 KB de tamanho de arquivos:</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>$i = 0 foreach ($file in Get-ChildItem) { if ($file.length -gt 100KB) { Write-Host $file "file size:" ($file.length / 1024).ToString("F0") KB $i = $i + 1 } }</source>
+          <target state="translated">$i = 0 foreach ($file em Get-ChildItem) {se ($file.length - gt 100 KB) {Write-Host $file "tamanho do arquivo:" ($file.length / 1024). ToString("F0") KB $i = $i + 1}}</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>if ($i -ne 0) { Write-Host Write-Host $i " file(s) over 100 KB in the current directory."}</source>
+          <target state="translated">Se ($i - ne 0) {Write-Host Write-Host $i "arquivo (s) mais de 100 KB no diretório atual."}</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>else { Write-Host "No files greater than 100 KB in the current directory."</source>
+          <target state="translated">Else {Write-Host "Nenhum arquivo maior que 100 KB no diretório atual."</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>}</source>
+          <target state="translated">}</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>In the preceding example, the $i variable is set to 0 outside the loop, and the variable is incremented inside the loop for each file that is found that is larger than 100 KB.</source>
+          <target state="translated">No exemplo anterior, a variável $i é definida como 0 fora do loop e a variável é incrementada dentro do loop para cada arquivo encontrado é maior do que 100 KB.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>When the loop exits, an If statement evaluates the value of $i to display a count of all the files over 100 KB.</source>
+          <target state="translated">Quando o loop é encerrado, um se instrução avalia o valor de $i para exibir uma contagem de todos os arquivos mais de 100 KB.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Or, it displays a message stating that no files over 100 KB were found.</source>
+          <target state="translated">Ou, ele exibe uma mensagem informando que não há mais de 100 KB de arquivos foram encontrados.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The previous example also demonstrates how to format the file length results:</source>
+          <target state="translated">O exemplo anterior também demonstra como formatar os resultados de tamanho do arquivo:</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>($file.length / 1024).ToString("F0")</source>
+          <target state="translated">($file.length / 1024). ToString("F0")</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The value is divided by 1,024 to show the results in kilobytes rather than bytes, and the resulting value is then formatted using the fixed-point format specifier to remove any decimal values from the result.</source>
+          <target state="translated">O valor é dividido por 1.024 para mostrar os resultados em quilobytes, em vez de bytes, e o valor resultante é formatado usando o especificador de formato de ponto fixo para remover todos os valores decimais do resultado.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The 0 makes the format specifier show no decimal places.</source>
+          <target state="translated">0 faz com que o especificador de formato Mostrar sem casas decimais.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The Foreach Statement Inside a Command Pipeline When Foreach appears in a command pipeline, Windows PowerShell uses the foreach alias, which calls the ForEach-Object command.</source>
+          <target state="translated">Foreach instrução dentro de um comando Pipeline ao Foreach aparece em um pipeline de comando, o Windows PowerShell usa o alias de foreach, que chama o comando ForEach-Object.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>When you use the foreach alias in a command pipeline, you do not include the ($<ph id="ph1">&lt;item&gt;</ph> in $<ph id="ph2">&lt;collection&gt;</ph>) syntax as you do with the Foreach statement.</source>
+          <target state="translated">Quando você usa o alias de foreach em um pipeline de comando, você não incluir o ($<ph id="ph1">&lt;item&gt;</ph> $<ph id="ph2">&lt;collection&gt;</ph>) sintaxe que fazer com a instrução Foreach.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>This is because the prior command in the pipeline provides this information.</source>
+          <target state="translated">Isso ocorre porque o comando anterior no pipeline fornece essas informações.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The syntax of the foreach alias when used in a command pipeline is as follows:</source>
+          <target state="translated">A sintaxe do alias de foreach quando usados em um pipeline de comando é o seguinte:</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>| foreach {&lt;command_block&gt;}</source>
+          <target state="translated">| foreach {&lt; command_block &gt;}</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>For example, the Foreach loop in the following command displays processes whose working set (memory usage) is greater than 20 megabytes (MB).</source>
+          <target state="translated">Por exemplo, o loop Foreach no comando a seguir exibe os processos cujo conjunto de trabalho (uso de memória) é maior do que 20 megabytes (MB).</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The Get-Process command gets all of the processes on the computer.</source>
+          <target state="translated">O comando Get-Process obtém todos os processos existentes no computador.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The Foreach alias performs the commands in the script block on each process in sequence.</source>
+          <target state="translated">Foreach alias executa os comandos no bloco de script em cada processo em sequência.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The IF statement selects processes with a working set (WS) greater than 20 megabytes.</source>
+          <target state="translated">A instrução IF seleciona processos com um conjunto de trabalho (WS) maior que 20 megabytes.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The Write-Host cmdlet writes the name of the process followed by a colon.</source>
+          <target state="translated">O cmdlet Write-Host grava o nome do processo seguido por dois pontos.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>It divides the working set value, which is stored in bytes by 1 megabyte to get the working set value in megabytes.</source>
+          <target state="translated">Divide o valor de conjunto de trabalho, que é armazenado em bytes por 1 megabyte para obter o valor do conjunto de trabalho em megabytes.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Then it converts the result from a double to a string.</source>
+          <target state="translated">Em seguida, converte o resultado de um double em uma cadeia de caracteres.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>It displays the value as a fixed point number with zero decimals (F0), a space separator (" "), and then "MB".</source>
+          <target state="translated">Ele exibe o valor como um número de ponto fixo com zero casas decimais (F0), um separador de espaço ("") e, em seguida, "MB".</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Write-Host "Processes with working sets greater than 20 MB."</source>
+          <target state="translated">Write-Host "Processos com mais de 20 MB de conjuntos de trabalho".</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Get-Process | foreach { if ($_.WS -gt 20MB) { Write-Host $.name ": " ($.WS/1MB).ToString("F0") MB -Separator ""} }</source>
+          <target state="translated">Get-Process | foreach {se ($_. 20 MB de WS - gt) {. Name $ de Write-Host ":" ($. WS/1MB). ToString("F0") MB-separador ""}}</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The foreach alias also supports beginning command blocks, middle command blocks, and end command blocks.</source>
+          <target state="translated">Foreach alias também oferece suporte a blocos de comandos de início, blocos de comandos intermediária e final blocos de comandos.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The beginning and end command blocks run once, and the middle command block runs every time the Foreach loop steps through a collection or array.</source>
+          <target state="translated">O início e término blocos de comandos executados uma vez e o bloco de comando intermediária é executado sempre que percorre uma coleção ou matriz de loop Foreach.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The syntax of the foreach alias when used in a command pipeline with a beginning, middle, and ending set of command blocks is as follows:</source>
+          <target state="translated">A sintaxe do alias de foreach quando usados em um pipeline de comando com um conjunto de início, meio e final blocos de comandos é da seguinte maneira:</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>| foreach {<ph id="ph1">&lt;beginning command_block&gt;</ph>}{<ph id="ph2">&lt;middle
+command_block&gt;</ph>}{<ph id="ph3">&lt;ending command_block&gt;</ph>}</source>
+          <target state="translated">| foreach {<ph id="ph1">&lt;beginning command_block&gt;</ph>} {<ph id="ph2">&lt;middle
+command_block&gt;</ph>} {<ph id="ph3">&lt;ending command_block&gt;</ph>}</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The following example demonstrates the use of the beginning, middle, and end command blocks.</source>
+          <target state="translated">O exemplo a seguir demonstra o uso do início, meio e final blocos de comandos.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Get-ChildItem | foreach { $fileCount = $directoryCount = 0}{ if ($_.PsIsContainer) {$directoryCount++} else {$fileCount++}}{ "$directoryCount directories and $fileCount files"}</source>
+          <target state="translated">Get-ChildItem | foreach {$fileCount = $directoryCount = 0} {se ($_. PsIsContainer) {$directoryCount + +} else {$fileCount + +}} {"$directoryCount arquivos e diretórios $fileCount"}</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The beginning block creates and initializes two variables to 0:</source>
+          <target state="translated">O bloco inicial cria e inicializa duas variáveis como 0:</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>{$fileCount = $directoryCount = 0}</source>
+          <target state="translated">{$fileCount = $directoryCount = 0}</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The middle block evaluates whether each item returned by Get-ChildItem is a directory or a file:</source>
+          <target state="translated">O bloco intermediário avalia se cada item retornado por Get-ChildItem é um diretório ou um arquivo:</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>{if ($_.PsIsContainer) {$directoryCount++} else {$fileCount++}}</source>
+          <target state="translated">{Se ($_. PsIsContainer) {$directoryCount + +} else {$fileCount + +}}</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>If the item that is returned is a directory, the $directoryCount variable is incremented by 1.</source>
+          <target state="translated">Se o item que é retornado é um diretório, a variável $directoryCount é incrementada em 1.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>If the item is not a directory, the $fileCount variable is incremented by 1.</source>
+          <target state="translated">Se o item não é um diretório, a variável $fileCount é incrementada em 1.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The ending block runs after the middle block completes its looping operation and then returns the results of the operation:</source>
+          <target state="translated">O bloco final é executado após o bloco intermediário conclui sua operação de loop e, em seguida, retorna os resultados da operação:</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>{"$directoryCount directories and $fileCount files"}</source>
+          <target state="translated">{"$directoryCount arquivos e diretórios $fileCount"}</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>By using the beginning, middle, and ending command block structure and the pipeline operator, you can rewrite the earlier example to find any files that are greater than 100 KB, as follows:</source>
+          <target state="translated">Usando a estrutura de bloco de comando de início, meio e final e o operador de pipeline, você pode reescrever o exemplo anterior para localizar todos os arquivos que são maiores que 100 KB, da seguinte maneira:</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Get-ChildItem | foreach{ $i = 0}{ if ($_.length -gt 100KB) { Write-Host $.name "file size:" ($.length / 1024).ToString("F0") KB $i++ } }{ if ($i -ne 0) { Write-Host Write-Host "$i file(s) over 100 KB in the current directory."</source>
+          <target state="translated">Get-ChildItem | foreach {$i = 0} {se ($_.length - gt 100 KB) {. Name $ de Write-Host "tamanho do arquivo:" (. Length $ / 1024). ToString("F0") KB $i + +}} {se ($i - ne 0) {Write-Host Write-Host "$i (s) mais de 100 KB no diretório atual."</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>} else { Write-Host "No files greater than 100 KB in the current directory."}</source>
+          <target state="translated">} else {Write-Host "Nenhum arquivo maior que 100 KB no diretório atual."}</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>}</source>
+          <target state="translated">}</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The following example, a function which returns the functions that are used in scripts and script modules, demonstrates how to use the MoveNext method (which works similarly to "skip X" on a For loop) and the Current property of the $foreach variable inside of a foreach script block, even if there are unusually- or inconsistently-spaced function definitions that span multiple lines to declare the function name.</source>
+          <target state="translated">O exemplo a seguir, uma função que retorna as funções que são usadas em scripts e módulos de script, demonstra como usar o método MoveNext (que funciona de forma semelhante a "Ignorar X" em um loop for) e a propriedade atual da variável $foreach dentro de um bloco de script foreach, mesmo se houver definições de função espaçados inconsistentemente ou incomum que abrangem várias linhas para declarar o nome da função.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The example also works if there are comments in the functions used in a script or script module.</source>
+          <target state="translated">O exemplo também funciona se houver comentários em funções usadas em um script ou módulo de script.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>function Get-FunctionPosition { [CmdletBinding()] [OutputType('FunctionPosition')] param( [Parameter(Position=0, Mandatory, ValueFromPipeline, ValueFromPipelineByPropertyName)] [ValidateNotNullOrEmpty()] [Alias('PSPath')] [System.String[]] $Path</source>
+          <target state="translated">função Get-FunctionPosition {param [CmdletBinding()] [OutputType('FunctionPosition')] ([parâmetro (posição = 0, é obrigatória, ValueFromPipeline, ValueFromPipelineByPropertyName)] [ValidateNotNullOrEmpty()] [Alias('PSPath')] [System. String []] $Path</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>)</source>
+          <target state="translated">) simples</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>process { try { $filesToProcess = if ($_ -is [System.IO.FileSystemInfo]) {</source>
+          <target state="translated">processo {try {$filesToProcess = se ($_-é [System.IO.FileSystemInfo]) {</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>$_</source>
+          <target state="translated">$_</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>} else { Get-Item -Path $Path } foreach ($item in $filesToProcess) { if ($item.PSIsContainer -or $item.Extension -notin @('.ps1','.psm1')) { continue } $tokens = $errors = $null $ast = [System.Management.Automation.Language.Parser]::ParseFile($item.FullName,([REF]$tokens),([REF]$errors)) if ($errors) { Write-Warning "File '$($item.FullName)' has $($errors.Count) parser errors."</source>
+          <target state="translated">} else {Get-Item-caminho $Path} foreach ($item em $filesToProcess) {se ($item. PSIsContainer- ou $item. Extensão - notin @('.ps1','.psm1')) {continuar} $tokens = $errors = $null $ast = [System.Management.Automation.Language.Parser]::ParseFile ($item. FullName,([REF]$tokens),([REF]$errors)) se ($errors) {Write-Warning "arquivo ' $($item. FullName)' tem $($errors. Erros de analisador de contagem)."</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>} :tokenLoop foreach ($token in $tokens) { if ($token.Kind -ne 'Function') { continue } $position = $token.Extent.StartLineNumber do { if (-not $foreach.MoveNext()) { break tokenLoop } $token = $foreach.Current } until ($token.Kind -in @('Generic','Identifier')) $functionPosition = [pscustomobject]@{ Name = $token.Text LineNumber = $position Path = $item.FullName } Add-Member -InputObject $functionPosition -TypeName FunctionPosition -PassThru } } } catch { throw } } }</source>
+          <target state="translated">}: tokenLoop foreach ($token em $tokens) {se ($token. Tipo - ne 'Function') {continuar} $position = $token. Fazer Extent.StartLineNumber {se (-não $foreach. MoveNext()) {tokenLoop quebra} $token = $foreach. Atual} até ($token. Tipo - em @('Generic','Identifier')) $functionPosition = [pscustomobject] @{nome = $token. Texto LineNumber = caminho $position = $item. FullName} Add-Member - InputObject $functionPosition - TypeName FunctionPosition - PassThru}}} catch {throw}}}</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>SEE ALSO</source>
+          <target state="translated">CONSULTE TAMBÉM</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>about_Automatic_Variables about_If Foreach-Object</source>
+          <target state="translated">about_Automatic_Variables about_If Foreach-Object</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

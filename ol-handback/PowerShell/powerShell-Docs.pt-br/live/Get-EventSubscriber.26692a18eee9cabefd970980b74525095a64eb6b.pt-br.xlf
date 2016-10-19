@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">98e5f79ebe75e96e243b2a3add350173ab09f557</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Utility\Get-EventSubscriber.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5e0750d1279442327964626c47908b91cd252928</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c2f7e9235476e2b7f445efd792448621f5a434dd</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell, cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Get-EventSubscriber</source>
+          <target state="translated">Get-EventSubscriber</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Get-EventSubscriber</source>
+          <target state="translated">Get-EventSubscriber</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">SINOPSE</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Gets the event subscribers in the current session.</source>
+          <target state="translated">Obtém os assinantes do evento na sessão atual.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SINTAXE</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>BySource (Default)</source>
+          <target state="translated">BySource (padrão)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>ById</source>
+          <target state="translated">ById</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">DESCRIÇÃO</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The Get-EventSubscriber cmdlet gets the event subscribers in the current session.</source>
+          <target state="translated">O cmdlet Get-EventSubscriber obtém os assinantes do evento na sessão atual.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>When you subscribe to an event by using a Register event cmdlet, an event subscriber is added to your Windows PowerShell session, and the events to which you subscribed are added to your event queue whenever they are raised.</source>
+          <target state="translated">Quando você assina um evento por meio de um cmdlet do registro de eventos, um assinante de evento é adicionado à sua sessão do Windows PowerShell e os eventos aos quais você se inscreveu são adicionados à sua fila de eventos sempre que são gerados.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To cancel an event subscription, delete the event subscriber by using the Unregister-Event cmdlet.</source>
+          <target state="translated">Para cancelar uma inscrição de evento, exclua o assinante de evento usando o cmdlet Unregister-Event.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">EXEMPLOS</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">------------------------- EXEMPLO 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This example uses a Get-EventSubscriber command to get the event subscriber for a timer event.</source>
+          <target state="translated">Este exemplo usa um comando Get-EventSubscriber para obter o assinante de evento para um evento de temporizador.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The first command uses the New-Object cmdlet to create an instance of a timer object.</source>
+          <target state="translated">O primeiro comando utiliza o cmdlet New-Object para criar uma instância de um objeto temporizador.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>It saves the new timer object in the $timer variable.</source>
+          <target state="translated">Ele salva o novo objeto na variável $timer.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The second command uses the Get-Member cmdlet to display the events that are available for timer objects.</source>
+          <target state="translated">O segundo comando usa o cmdlet Get-Member para exibir os eventos que estão disponíveis para objetos de temporizador.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The command uses the Type parameter of the Get-Member cmdlet with a value of Event.</source>
+          <target state="translated">O comando usa o parâmetro Type do cmdlet Get-Member com um valor de Evento.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The third command uses the Register-ObjectEvent cmdlet to register for the Elapsed event on the timer object.</source>
+          <target state="translated">O terceiro comando utiliza o cmdlet Register-ObjectEvent para registrar o evento Elapsed no objeto de temporizador.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The fourth command uses the Get-EventSubscriber cmdlet to get the event subscriber for the Elapsed event.</source>
+          <target state="translated">O quarto comando usa o cmdlet Get-EventSubscriber para obter o assinante do evento Elapsed.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the dynamic module in the PSEventJob object in the Action property of the event subscriber.</source>
+          <target state="translated">Este exemplo mostra como usar o módulo dinâmico no objeto PSEventJob na propriedade Action do assinante de evento.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The first command uses the New-Object cmdlet to create a timer object.</source>
+          <target state="translated">O primeiro comando utiliza o cmdlet New-Object para criar um objeto de timer.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The second command sets the interval of the timer to 500 (milliseconds).</source>
+          <target state="translated">O segundo comando define o intervalo do temporizador para 500 (milissegundos).</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The third command uses the Register-ObjectEvent cmdlet to register the Elapsed event of the timer object.</source>
+          <target state="translated">O terceiro comando utiliza o cmdlet ObjectEvent Register para registrar o evento decorrido do objeto de timer.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The command includes an action that handles the event.</source>
+          <target state="translated">O comando inclui uma ação que manipula o evento.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Whenever the timer interval elapses, an event is raised and the commands in the action run.</source>
+          <target state="translated">Sempre que o intervalo de timer expira, um evento é gerado e executar os comandos na ação.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>In this case, the Get-Random cmdlet generates a random number between 0 and 100 and saves it in the $random variable.</source>
+          <target state="translated">Nesse caso, o cmdlet Get-Random gera um número aleatório entre 0 e 100 e o salva na variável $random.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The source identifier of the event is Timer.Random.</source>
+          <target state="translated">O identificador de origem do evento é Timer.Random.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>When you use an Action parameter in a Register-ObjectEvent command, the command returns a PSEventJob object that represents the action.</source>
+          <target state="translated">Ao utilizar um parâmetro Action em um comando Register-ObjectEvent, o comando retorna um objeto PSEventJob que representa a ação.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The fourth command enables the timer.</source>
+          <target state="translated">O quarto comando habilita o temporizador.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The fifth command uses the Get-EventSubscriber cmdlet to get the event subscriber of the Timer.Random event.</source>
+          <target state="translated">O quinto comando usa o cmdlet Get-EventSubscriber para obter o assinante de evento de Timer.Random.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>It saves the event subscriber object in the $subscriber variable.</source>
+          <target state="translated">Ele salva o objeto de evento do assinante na variável $subscriber.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The sixth command shows that the Action property of the event subscriber object contains a PSEventJob object.</source>
+          <target state="translated">O sexto comando mostra que a propriedade Action do objeto de assinante de evento contém um objeto PSEventJob.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>In fact, it contains the same PSEventJob object that the Register-ObjectEvent command returned.</source>
+          <target state="translated">Na verdade, ele contém o mesmo objeto de PSEventJob retornado pelo comando Register-ObjectEvent.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The seventh command uses the Format-List cmdlet to display all of the properties of the PSEventJob object in the Action property in a list.</source>
+          <target state="translated">O quinto comando utiliza o cmdlet Format-List para exibir todas as propriedades do objeto PSEventJob na propriedade Action em uma lista.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The result reveal that the PSEventJob object has a Module property that contains a dynamic script module that implements the action.</source>
+          <target state="translated">O resultado revela que o objeto PSEventJob possui uma propriedade Module que contém um módulo de script dinâmico que implementa a ação.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The remaining commands use the call operator (&amp;) to invoke the command in the module and display the value of the $random variable.</source>
+          <target state="translated">Os comandos restantes usam o operador de chamada (&amp;) para invocar o comando no módulo e exibir o valor da variável $random.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>You can use the call operator to invoke any command in a module, including commands that are not exported.</source>
+          <target state="translated">É possível utilizar o operador de chamada para invocar qualquer comando em um módulo, incluindo comandos que não são exportados.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>In this case, the commands show the random number that is being generated when the Elapsed event occurs.</source>
+          <target state="translated">Nesse caso, os comandos mostram o número aleatório que está sendo gerado quando ocorre o evento Elapsed (decorrido).</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>For more information about modules, see about_Modules.</source>
+          <target state="translated">Para obter mais informações sobre os módulos, consulte about_Modules.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARÂMETROS</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Gets all event subscribers, including subscribers for events that are hidden by using the SupportEvent parameter of Register-ObjectEvent, Register-WmiEvent, and Register-EngineEvent.</source>
+          <target state="translated">Obtém todas as assinaturas de evento, incluindo as que estavam ocultas usando o parâmetro SupportEvent de Register-ObjectEvent, Register-WmiEvent e Register-EngineEvent.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>-SourceIdentifier</source>
+          <target state="translated">-SourceIdentifier</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Gets only the event subscribers with the specified SourceIdentifier property value.</source>
+          <target state="translated">Obtém somente os assinantes do evento com o valor da propriedade SourceIdentifier especificado.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>By default, Get-EventSubscriber gets all event subscribers in the session.</source>
+          <target state="translated">Por padrão, Get-EventSubscriber obtém todos os assinantes do evento na sessão.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Wildcards are not permitted.</source>
+          <target state="translated">Caracteres curinga não são permitidos.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This parameter is case-sensitive.</source>
+          <target state="translated">Este parâmetro diferencia maiúsculas e minúsculas.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>-SubscriptionId</source>
+          <target state="translated">-SubscriptionId</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets only the specified subscription identifier.</source>
+          <target state="translated">Obtém o identificador de assinatura especificado.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>By default, Get-EventSubscriber gets all event subscribers in the session.</source>
+          <target state="translated">Por padrão, Get-EventSubscriber obtém todos os assinantes do evento na sessão.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Esse cmdlet oferece suporte aos parâmetros comuns:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction e - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Para obter mais informações, consulte about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ENTRADAS</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">Não</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>You cannot pipe input to this cmdlet.</source>
+          <target state="translated">Não é possível redirecionar a entrada para este cmdlet.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">SAÍDAS</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSEventSubscriber</source>
+          <target state="translated">System.Management.Automation.PSEventSubscriber</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Get-EventSubscriber returns an object that represents each event subscriber.</source>
+          <target state="translated">Get-EventSubscriber retorna um objeto que representa cada assinante de evento.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ANOTAÇÕES</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The New-Event cmdlet, which creates a custom event, does not generate a subscriber.</source>
+          <target state="translated">O cmdlet New-Event, que cria um evento personalizado, não gera um assinante.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Therefore, the Get-EventSubscriber cmdlet will not find a subscriber object for these events.</source>
+          <target state="translated">Portanto, o cmdlet Get-EventSubscriber não localizará um objeto de assinante para esses eventos.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>However, if you use the Register-EngineEvent cmdlet to subscribe to a custom event (in order to forward the event or to specify an action), Get-EventSubscriber will find the subscriber that Register-EngineEvent generates.</source>
+          <target state="translated">No entanto, se você usar o cmdlet Register-EngineEvent para se inscrever em um evento personalizado (para encaminhar o evento ou para especificar uma ação), o Get-EventSubscriber encontrará o assinante gerado pelo Register-EngineEvent.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Events, event subscriptions, and the event queue exist only in the current session.</source>
+          <target state="translated">Eventos, assinaturas de evento e a fila de eventos existem apenas na sessão atual.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>If you close the current session, the event queue is discarded and the event subscription is canceled.</source>
+          <target state="translated">Se você fechar a sessão atual, a fila de eventos será descartada e a inscrição do evento será cancelada.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">LINKS RELACIONADOS</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Get-Event</source>
+          <target state="translated">Get-Event</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>New-Event</source>
+          <target state="translated">New-Event</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Register-EngineEvent</source>
+          <target state="translated">Register-EngineEvent</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Register-ObjectEvent</source>
+          <target state="translated">Register-ObjectEvent</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Register-WmiEvent</source>
+          <target state="translated">Register-WmiEvent</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Remove-Event</source>
+          <target state="translated">Evento de remoção</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Unregister-Event</source>
+          <target state="translated">Cancelar o registro de eventos</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Wait-Event</source>
+          <target state="translated">Evento de espera</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

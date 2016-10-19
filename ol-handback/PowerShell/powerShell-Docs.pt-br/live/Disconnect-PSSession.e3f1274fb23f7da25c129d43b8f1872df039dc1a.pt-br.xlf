@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ce0826e376ecaefa4f42827de83af0ca6e36f0ab</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Core\Disconnect-PSSession.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">09f98287bb04c18fd7e899d4c4b26761f4898302</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d87187ffb68da2da5468aaf230940d8197d8a707</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell, cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Disconnect-PSSession</source>
+          <target state="translated">Disconnect-PSSession</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Disconnect-PSSession</source>
+          <target state="translated">Disconnect-PSSession</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">SINOPSE</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Disconnects from a session.</source>
+          <target state="translated">Desconecta-se de uma sessão.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SINTAXE</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Session (Default)</source>
+          <target state="translated">Sessão (padrão)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="translated">Nome</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>InstanceId</source>
+          <target state="translated">InstanceId</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Id</source>
+          <target state="translated">Id</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">DESCRIÇÃO</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept> cmdlet disconnects a Windows PowerShell session ("PSSession"), such as one started by using the New-PSSession cmdlet, from the current session.</source>
+          <target state="translated">O <bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept> cmdlet desconecta uma sessão do Windows PowerShell ("PSSession"), tal como iniciado usando o cmdlet New-PSSession, da sessão atual.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>As a result, the PSSession is in a disconnected state.</source>
+          <target state="translated">Como resultado, a PSSession está em um estado desconectado.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can connect to the disconnected PSSession from the current session or from another session on the local computer or a different computer.</source>
+          <target state="translated">Você pode conectar-se à PSSession desconectada por meio da sessão atual ou de outra sessão no computador local ou em um computador diferente.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept> cmdlet disconnects only open PSSessions that are connected to the current session.</source>
+          <target state="translated">O <bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept> cmdlet desconecta somente PSSessions abertas conectadas à sessão atual.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept> cannot disconnect broken or closed PSSessions, or interactive PSSessions started by using the Enter-PSSession cmdlet,  and it cannot disconnect PSSessions that are connected to other sessions.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept> não desconecta PSSessions interrompidas ou encerradas ou PSSessions interativa iniciada usando o cmdlet Enter-PSSession, e ele não poderá desconectar PSSessions que estão conectadas a outras sessões.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To reconnect to a disconnected PSSession, use the Connect-PSSession or Receive-PSSession cmdlets.</source>
+          <target state="translated">Para reconectar-se a um PSSession desconectada, use os cmdlets Connect-PSSession ou Receive-PSSession.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>When a PSSession is disconnected, the commands in the PSSession continue to run until they complete, unless the PSSession times out or the commands in the PSSession are blocked by a full output buffer.</source>
+          <target state="translated">Quando uma PSSession é desconectada, os comandos na PSSession continuam em execução até que sejam concluídos, a menos que a PSSession expire ou os comandos na PSSession sejam bloqueados por um buffer de saída completo.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To change the idle timeout, use the <bpt id="p1">**</bpt>IdleTimeoutSec<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Para alterar o tempo limite de ociosidade, use o <bpt id="p1">**</bpt>IdleTimeoutSec<ept id="p1">**</ept> parâmetro.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To change the output buffering mode, use the <bpt id="p1">**</bpt>OutputBufferingMode<ept id="p1">**</ept> parameter You can also use the <bpt id="p2">**</bpt>InDisconnectedSession<ept id="p2">**</ept> parameter of the Invoke-Command cmdlet to run a command in a disconnected session.</source>
+          <target state="translated">Para alterar a modo de buffering de saída, use o <bpt id="p1">**</bpt>OutputBufferingMode<ept id="p1">**</ept> parâmetro, você também pode usar o <bpt id="p2">**</bpt>InDisconnectedSession<ept id="p2">**</ept> parâmetro do cmdlet Invoke-Command para executar um comando em uma sessão desconectada.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For more information about the Disconnected Sessions feature, see about_Remote_Disconnected_Sessions.</source>
+          <target state="translated">Para obter mais informações sobre o recurso de sessões desconectadas, consulte about_Remote_Disconnected_Sessions.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This cmdlet is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Este cmdlet é introduzido no Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">EXEMPLOS</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Example 1</source>
+          <target state="translated">Exemplo 1</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This command disconnects the UpdateSession PSSession on the Server01 computer from the current session.</source>
+          <target state="translated">Este comando desconecta UpdateSession PSSession no computador Server01 da sessão atual.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> parameter to identify the PSSession.</source>
+          <target state="translated">O comando usa o <bpt id="p1">**</bpt>nome<ept id="p1">**</ept> parâmetro para identificar a PSSession.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The output shows that the attempt to disconnect was successful.</source>
+          <target state="translated">A saída mostra que a tentativa de desconectar foi bem-sucedida.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The session state is Disconnected and the Availability is None, which indicates that the session is not busy and can be reconnected.</source>
+          <target state="translated">O estado da sessão é desconectado e a disponibilidade é nenhuma, o que indica que a sessão não está ocupada e pode ser reconectada.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Example 2</source>
+          <target state="translated">Exemplo 2</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This command disconnects the ITTask PSSession on the Server12 computer from the current session.</source>
+          <target state="translated">Este comando desconecta ITTask PSSession no computador Server12 da sessão atual.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The ITTask session was created in the current session and connects to the Server12 computer.</source>
+          <target state="translated">A sessão ITTask foi criada na sessão atual e se conecta-se ao computador Server12.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The command uses the Get-PSSession cmdlet to get the session and the <bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept> cmdlet to disconnect it.</source>
+          <target state="translated">O comando usa o cmdlet Get-PSSession para obter a sessão e o <bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept> cmdlet para desconectá-lo.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept> command uses the <bpt id="p2">**</bpt>OutputBufferingMode<ept id="p2">**</ept> parameter to set the output mode to <bpt id="p3">**</bpt>Drop<ept id="p3">**</ept>.</source>
+          <target state="translated">O <bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept> comando usa o <bpt id="p2">**</bpt>OutputBufferingMode<ept id="p2">**</ept> parâmetro para definir o modo de saída para <bpt id="p3">**</bpt>Drop<ept id="p3">**</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This setting ensures that the script that is running in the session can continue to run even if the session output buffer is full.</source>
+          <target state="translated">Essa configuração garante que o script em execução na sessão pode ser executado mesmo que o buffer de saída da sessão esteja cheio.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Because the script writes its output to a report on a file share, other output can be lost without consequence.</source>
+          <target state="translated">Como o script grava a saída de um relatório em um compartilhamento de arquivos, outras saídas podem ser perdidas sem consequências.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The command also uses the <bpt id="p1">**</bpt>IdleTimeoutSec<ept id="p1">**</ept> parameter to extend the idle timeout of the session to 24 hours.</source>
+          <target state="translated">O comando também usa o <bpt id="p1">**</bpt>IdleTimeoutSec<ept id="p1">**</ept> parâmetro para estender o tempo limite de ociosidade da sessão para 24 horas.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This setting allows time for this administrator or other administrators to reconnect to the session to verify that the script ran and troubleshoot if needed.</source>
+          <target state="translated">Essa configuração concede tempo para que esse e outros administradores reconectem-se à sessão para verificar se o script foi executado e solucionem os problemas necessários.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Example 3</source>
+          <target state="translated">Exemplo 3</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This series of commands shows how the <bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept> cmdlet might be used in an enterprise scenario.</source>
+          <target state="translated">Esta série de comandos mostra como o <bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept> cmdlet pode ser usado em um cenário empresarial.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>In this case, a new technician starts a script in a session on a remote computer and runs into a problem.</source>
+          <target state="translated">Nesse caso, um novo técnico inicia um script em uma sessão em um computador remoto e encontra um problema.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The technician disconnects from the session so that a more experienced manager can connect to the session and resolve the problem.</source>
+          <target state="translated">O técnico se desconecta da sessão para que um gerente mais experiente possa se conectar a ela e resolver o problema.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Example 4</source>
+          <target state="translated">Exemplo 4</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This example shows how to correct the value of the <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> property of a session so that it can be disconnected.</source>
+          <target state="translated">Este exemplo mostra como corrigir o valor de <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> propriedade de uma sessão para que ele possa ser desconectado.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The idle timeout property of a session is critical to disconnected sessions, because it determines how long a disconnected session is maintained before it is deleted.</source>
+          <target state="translated">A propriedade do tempo limite de inatividade de uma sessão é crítica para sessões desconectadas, pois ela determina quanto tempo uma sessão desconectada é mantida antes de ser excluída.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You can set the idle timeout option when you create a session and when you disconnect it.</source>
+          <target state="translated">Você pode definir a opção de tempo limite de inatividade ao criar uma sessão e quando desconectar-se.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The default values for the idle timeout of a session are set in the <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> preference variable on the local computer and in the session configuration on the remote computer.</source>
+          <target state="translated">Os valores padrão para o tempo limite de ociosidade de uma sessão são definidos no <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> variável de preferência no computador local e na configuração da sessão no computador remoto.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Values set for the session take precedence over values set in the session configuration, but session values cannot exceed quotas set in the session configuration, such as the <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> value.</source>
+          <target state="translated">Os valores definidos para a sessão têm precedência sobre valores definidos na configuração da sessão, mas valores de sessão não podem exceder as cotas definidas na configuração da sessão, como o <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> valor.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARÂMETROS</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>-Id</source>
+          <target state="translated">-Id</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Disconnects from sessions with the specified session ID.</source>
+          <target state="translated">Desconecta-se de sessões com a ID de sessão especificada.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Type one or more IDs (separated by commas), or use the range operator (..) to specify a range of IDs.</source>
+          <target state="translated">Digite uma ou mais IDs (separadas por vírgulas) ou use o operador de intervalo (..) para especificar um intervalo de IDs.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To get the ID of a session, use the Get-PSSession cmdlet.</source>
+          <target state="translated">Para obter a ID de uma sessão, use o cmdlet Get-PSSession.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The instance ID is stored in the <bpt id="p1">**</bpt>ID<ept id="p1">**</ept> property of the session.</source>
+          <target state="translated">ID é armazenada na instância de <bpt id="p1">**</bpt>ID<ept id="p1">**</ept> propriedade da sessão.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>-IdleTimeoutSec</source>
+          <target state="translated">-IdleTimeoutSec</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Changes the idle timeout value of the disconnected PSSession.</source>
+          <target state="translated">Altera o valor de tempo limite de inatividade do PSSession desconectado.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Enter a value in seconds.</source>
+          <target state="translated">Insira um valor em segundos.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The minimum value is 60 (1 minute).</source>
+          <target state="translated">O valor mínimo é 60 (1 minuto).</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The idle timeout determines how long the disconnected PSSession is maintained on the remote computer.</source>
+          <target state="translated">O tempo limite de inatividade determina quanto tempo a PSSession desconectada é mantida no computador remoto.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>When the timeout expires, the PSSession is deleted.</source>
+          <target state="translated">Quando o tempo limite expirar, a PSSession é excluída.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Disconnected PSSessions are considered to be idle from the moment that they are disconnected, even if commands are running in the disconnected session.</source>
+          <target state="translated">PSSessions desconectadas são consideradas inativas desde o momento em que são desconectadas, ainda que comandos estejam em execução na sessão desconectada.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The default value for the idle timeout of a session is set by the value of the <bpt id="p1">**</bpt>IdleTimeoutMs<ept id="p1">**</ept> property of the session configuration.</source>
+          <target state="translated">O valor padrão para o tempo limite de ociosidade de uma sessão é definido pelo valor da <bpt id="p1">**</bpt>IdleTimeoutMs<ept id="p1">**</ept> propriedade da configuração de sessão.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The default value is 7200000 milliseconds (2 hours).</source>
+          <target state="translated">O valor padrão é 7200000 milissegundos (2 horas).</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The value of this parameter takes precedence over the value of the <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> property of the $PSSessionOption preference variable and the default idle timeout value in the session configuration.</source>
+          <target state="translated">O valor desse parâmetro tem precedência sobre o valor de <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> propriedade da variável de preferência $PSSessionOption e o valor de tempo limite de ociosidade padrão na configuração da sessão.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>However, this value cannot exceed the value of the <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> property of the session configuration.</source>
+          <target state="translated">No entanto, esse valor não pode exceder o valor de <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> propriedade da configuração de sessão.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The default value of <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> is 12 hours (43200000 milliseconds).</source>
+          <target state="translated">O valor padrão de <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> é de 12 horas (43.200.000 milissegundos).</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>-InstanceId</source>
+          <target state="translated">-InstanceId</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Disconnects from sessions with the specified instance IDs.</source>
+          <target state="translated">Desconecta-se de sessões com os IDs de instância especificados.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The instance ID is a GUID that uniquely identifies a session on a local or remote computer.</source>
+          <target state="translated">A ID de instância é um GUID que identifica exclusivamente uma sessão em um computador local ou remoto.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The instance ID is unique, even across multiple sessions on multiple computers.</source>
+          <target state="translated">O ID de instância é exclusivo, mesmo em várias sessões em vários computadores.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>To get the instance ID of a session, use the Get-PSSession cmdlet.</source>
+          <target state="translated">Para obter a ID de instância de uma sessão, use o cmdlet Get-PSSession.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The instance ID is stored in the <bpt id="p1">**</bpt>InstanceID<ept id="p1">**</ept> property of the session.</source>
+          <target state="translated">ID é armazenada na instância de <bpt id="p1">**</bpt>InstanceID<ept id="p1">**</ept> propriedade da sessão.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Disconnects from sessions with the specified friendly names.</source>
+          <target state="translated">Desconecta de sessões com os nomes amigáveis especificados.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">Caracteres curinga são permitidos.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>To get the friendly name of a session, use the Get-PSSession cmdlet.</source>
+          <target state="translated">Para obter o nome amigável de uma sessão, use o cmdlet Get-PSSession.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The friendly name is stored in the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> property of the session.</source>
+          <target state="translated">O nome amigável é armazenado no <bpt id="p1">**</bpt>nome<ept id="p1">**</ept> propriedade da sessão.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>-Session</source>
+          <target state="translated">-Sessão</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Disconnects from the specified PSSessions.</source>
+          <target state="translated">Desconecta-se de PSSessions especificadas.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Enter PSSession objects, such as those that the New-PSSession cmdlet returns.</source>
+          <target state="translated">Insira objetos PSSession, como aquelas que o cmdlet New-PSSession retorna.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>You can also pipe a PSSession object to Disconnect-PSSession.</source>
+          <target state="translated">Você também pode redirecionar um objeto de PSSession para Disconnect-PSSession.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-PSSession<ept id="p1">**</ept> cmdlet can get all PSSessions that terminate at a remote computer, including PSSessions that are disconnected and PSSessions that are connected to other sessions on other computers.</source>
+          <target state="translated">O <bpt id="p1">**</bpt>Get-PSSession<ept id="p1">**</ept> cmdlet pode obter todas as PSSessions que terminam em um computador remoto, incluindo PSSessions desconectadas e PSSessions que estão conectadas a outras sessões em outros computadores.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept> disconnects only PSSession that are connected to the current session.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept> desconecta apenas a PSSession que estão conectadas à sessão atual.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>If you pipe other PSSessions to <bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept>, the <bpt id="p2">**</bpt>Disconnect-PSSession<ept id="p2">**</ept> command fails.</source>
+          <target state="translated">Se você direcionar outras PSSessions para <bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept>, o <bpt id="p2">**</bpt>Disconnect-PSSession<ept id="p2">**</ept> comando falhará.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>-ThrottleLimit</source>
+          <target state="translated">-ThrottleLimit</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Sets the throttle limit for the <bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept> command.</source>
+          <target state="translated">Define o limite para o <bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept> comando.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The throttle limit is the maximum number of concurrent connections that can be established to run this command.</source>
+          <target state="translated">Especifica o número máximo de conexões simultâneas que podem ser estabelecidas para executar este comando.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter or enter a value of 0, the default value, 32, is used.</source>
+          <target state="translated">Se você omite esse parâmetro ou digita um valor 0, o valor padrão, 32, é usado.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The throttle limit applies only to the current command, not to the session or to the computer.</source>
+          <target state="translated">O limite de aceleração aplica-se somente ao comando atual e não à sessão ou ao computador.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>-OutputBufferingMode</source>
+          <target state="translated">-OutputBufferingMode</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Determines how command output is managed in the disconnected session when the output buffer is full.</source>
+          <target state="translated">Determina como a saída do comando é gerenciada na sessão desconectada quando o buffer de saída está cheio.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">**</bpt>Block<ept id="p1">**</ept>.</source>
+          <target state="translated">O valor padrão é <bpt id="p1">**</bpt>bloco<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>If the command in the disconnected session is returning output and the output buffer fills, the value of this parameter effectively determines whether the command continues to run while the session is disconnected.</source>
+          <target state="translated">Se o comando na sessão desconectada estiver retornando uma saída e o buffer de saída ficar cheio, o valor desse parâmetro efetivamente determina se o comando continuará a ser executado enquanto a sessão está desconectada.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>A value of <bpt id="p1">**</bpt>Block<ept id="p1">**</ept> suspends the command until the session is reconnected.</source>
+          <target state="translated">Um valor de <bpt id="p1">**</bpt>bloco<ept id="p1">**</ept> suspende o comando até que a sessão seja reconectada.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>A value of <bpt id="p1">**</bpt>Drop<ept id="p1">**</ept> allows the command to complete, although data might be lost.</source>
+          <target state="translated">Um valor de <bpt id="p1">**</bpt>Descartar<ept id="p1">**</ept> permite que o comando ser concluído, embora os dados podem ser perdidos.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>When using the <bpt id="p1">**</bpt>Drop<ept id="p1">**</ept> value, redirect the command output to a file on disk.</source>
+          <target state="translated">Ao usar o <bpt id="p1">**</bpt>Drop<ept id="p1">**</ept> valor, redirecionar a saída do comando para um arquivo no disco.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Valid values are:</source>
+          <target state="translated">Os valores válidos são:</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Block<ept id="p1">**</ept>: When the output buffer is full, execution is suspended until the buffer is clear.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Bloco<ept id="p1">**</ept>: quando o buffer de saída está cheio, a execução é suspensa até que o buffer esteja limpo.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Drop<ept id="p1">**</ept>: When the output buffer is full, execution continues.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Descartar<ept id="p1">**</ept>: quando o buffer de saída está cheio, a execução continuará.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>As new output is saved, the oldest output is discarded.</source>
+          <target state="translated">Conforme uma nova saída é salva, a saída mais antiga é descartada.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>None<ept id="p1">**</ept>: No output buffering mode is specified.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Nenhum<ept id="p1">**</ept>: nenhum modo de buffering de saída é especificada.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">**</bpt>OutputBufferingMode<ept id="p1">**</ept> property of the session configuration is used for the disconnected session.</source>
+          <target state="translated">O valor de <bpt id="p1">**</bpt>OutputBufferingMode<ept id="p1">**</ept> propriedade da configuração de sessão é usada para a sessão desconectada.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">Solicita confirmação antes de executar o cmdlet. Solicita confirmação antes de executar o cmdlet.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Mostra o que aconteceria se o cmdlet fosse executado.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">O cmdlet não é executado. Mostra o que aconteceria se o cmdlet fosse executado.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">O cmdlet não é executado.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Esse cmdlet oferece suporte aos parâmetros comuns:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction e - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Para obter mais informações, consulte about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ENTRADAS</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.Runspaces.PSSession</source>
+          <target state="translated">System.Management.Automation.Runspaces.PSSession</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>You can pipe a session to <bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept>.</source>
+          <target state="translated">Você pode direcionar uma sessão para <bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">SAÍDAS</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.Runspaces.PSSession</source>
+          <target state="translated">System.Management.Automation.Runspaces.PSSession</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept> returns an object that represents the session that it disconnected.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept> retorna um objeto que representa a sessão desconectada.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ANOTAÇÕES</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept> cmdlet works only when the local and remote computers are running Windows PowerShell 3.0 or later versions of Windows PowerShell.</source>
+          <target state="translated">O <bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept> cmdlet funciona somente quando os computadores locais e remoto estiver executando o Windows PowerShell 3.0 ou versões posteriores do Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept> cmdlet on a disconnected session, the command has no effect on the session and it does not generate errors.</source>
+          <target state="translated">Se você usar o <bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept> cmdlet em uma sessão desconectada, o comando não tem efeito sobre a sessão e ela não gera erros.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Disconnected loopback sessions with interactive security tokens (those created with the <bpt id="p1">**</bpt>EnableNetworkAccess<ept id="p1">**</ept> parameter) can be reconnected only from the computer on which the session was created.</source>
+          <target state="translated">Sessões de loopback com tokens de segurança interativos desconectadas (aquelas criadas com o <bpt id="p1">**</bpt>EnableNetworkAccess<ept id="p1">**</ept> parâmetro) podem ser reconectadas somente do computador no qual a sessão foi criada.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>This restriction protects the computer from malicious access.</source>
+          <target state="translated">Essa restrição protege o computador contra acessos mal-intencionados.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>When you disconnect a PSSession, the session state is <bpt id="p1">**</bpt>Disconnected<ept id="p1">**</ept> and the availability is <bpt id="p2">**</bpt>None<ept id="p2">**</ept>.</source>
+          <target state="translated">Quando você desconecta uma PSSession, o estado da sessão é <bpt id="p1">**</bpt>desconectado<ept id="p1">**</ept> e a disponibilidade é <bpt id="p2">**</bpt>nenhum<ept id="p2">**</ept>.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">**</bpt>State<ept id="p1">**</ept> property is relative to the current session.</source>
+          <target state="translated">O valor de <bpt id="p1">**</bpt>estado<ept id="p1">**</ept> propriedade é relativo à sessão atual.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Therefore, a value of <bpt id="p1">**</bpt>Disconnected<ept id="p1">**</ept> means that the PSSession is not connected to the current session.</source>
+          <target state="translated">Portanto, um valor de <bpt id="p1">**</bpt>desconectado<ept id="p1">**</ept> significa que a PSSession não está conectado à sessão atual.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>However, it does not mean that the PSSession is disconnected from all sessions.</source>
+          <target state="translated">No entanto, isso não significa que a PSSession será desconectada de todas as sessões.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>It might be connected to a different session.</source>
+          <target state="translated">Ela pode ser conectada a uma sessão diferente.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>To determine whether you can connect or reconnect to the session, use the <bpt id="p1">**</bpt>Availability<ept id="p1">**</ept> property.</source>
+          <target state="translated">Para determinar se você pode conectar-se ou reconectar à sessão, use o <bpt id="p1">**</bpt>disponibilidade<ept id="p1">**</ept> propriedade.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">**</bpt>Availability<ept id="p1">**</ept> value of <bpt id="p2">**</bpt>None<ept id="p2">**</ept> indicates that you can connect to the session.</source>
+          <target state="translated">Um <bpt id="p1">**</bpt>disponibilidade<ept id="p1">**</ept> valor <bpt id="p2">**</bpt>nenhum<ept id="p2">**</ept> indica que você pode se conectar à sessão.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>A value of <bpt id="p1">**</bpt>Busy<ept id="p1">**</ept> indicates that you cannot connect to the PSSession because it is connected to another session.</source>
+          <target state="translated">Um valor de <bpt id="p1">**</bpt>ocupado<ept id="p1">**</ept> indica que você não pode se conectar à PSSession porque ele está conectado a outra sessão.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>For more information about the values of the <bpt id="p1">**</bpt>State<ept id="p1">**</ept> property of sessions, see "RunspaceState Enumeration" in MSDN at http://msdn.microsoft.com/library/windows/desktop/system.management.automation.runspaces.runspacestate(v=VS.85).aspxhttp://msdn.microsoft.com/library/windows/desktop/system.management.automation.runspaces.runspacestate(v=VS.85).aspx.</source>
+          <target state="translated">Para obter mais informações sobre os valores de <bpt id="p1">**</bpt>estado<ept id="p1">**</ept> propriedade de sessões, consulte "RunspaceState Enumeration" no MSDN em.aspxhttp://msdn.microsoft.com/library/windows/desktop/system.management.automation.runspaces.runspacestate http://msdn.microsoft.com/library/windows/desktop/system.management.automation.runspaces.runspacestate (v=VS.85) (v=VS.85).aspx.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>For more information about the values of the <bpt id="p1">**</bpt>Availability<ept id="p1">**</ept> property of sessions, see RunspaceAvailability Enumeration at http://msdn.microsoft.com/library/windows/desktop/system.management.automation.runspaces.runspaceavailability(v=vs.85).aspxhttp://msdn.microsoft.com/library/windows/desktop/system.management.automation.runspaces.runspaceavailability(v=vs.85).aspx.</source>
+          <target state="translated">Para obter mais informações sobre os valores de <bpt id="p1">**</bpt>disponibilidade<ept id="p1">**</ept> propriedade de sessões, consulte a enumeração RunspaceAvailability em.aspxhttp://msdn.microsoft.com/library/windows/desktop/system.management.automation.runspaces.runspaceavailability http://msdn.microsoft.com/library/windows/desktop/system.management.automation.runspaces.runspaceavailability (v=vs.85) (v=vs.85).aspx.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">LINKS RELACIONADOS</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Connect-PSSession</source>
+          <target state="translated">Connect-PSSession</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Enter-PSSession</source>
+          <target state="translated">Enter-PSSession</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Exit-PSSession</source>
+          <target state="translated">Exit-PSSession</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Get-PSSession</source>
+          <target state="translated">Get-PSSession</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Get-PSSessionConfiguration</source>
+          <target state="translated">Get-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>New-PSSession</source>
+          <target state="translated">New-PSSession</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>New-PSSessionOption</source>
+          <target state="translated">New-PSSessionOption</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>New-PSTransportOption</source>
+          <target state="translated">New-PSTransportOption</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Receive-PSSession</source>
+          <target state="translated">Receive-PSSession</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Register-PSSessionConfiguration</source>
+          <target state="translated">Register-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Remove-PSSession</source>
+          <target state="translated">Remove-PSSession</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>about_PSSessions</source>
+          <target state="translated">about_PSSessions</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>about_Remote</source>
+          <target state="translated">about_Remote</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>about_Remote_Disconnected_Sessions</source>
+          <target state="translated">about_Remote_Disconnected_Sessions</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

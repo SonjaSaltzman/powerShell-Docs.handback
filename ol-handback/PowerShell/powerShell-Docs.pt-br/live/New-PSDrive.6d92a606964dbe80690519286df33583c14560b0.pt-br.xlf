@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">03aaaeba761559ee85ee847c8997c73eebeed7d7</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Management\New-PSDrive.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b2d4266a056de6dd7a2be21414d6c3ccf0a3747d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e9d4d201b7607d4f3d9d30a19dd596299b3676f0</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell, cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>New-PSDrive</source>
+          <target state="translated">New-PSDrive</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>New-PSDrive</source>
+          <target state="translated">New-PSDrive</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">SINOPSE</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Creates temporary and persistent mapped network drives.</source>
+          <target state="translated">Cria unidades de rede mapeadas temporárias e persistentes.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SINTAXE</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">DESCRIÇÃO</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-PSDrive<ept id="p1">**</ept> cmdlet creates temporary and persistent drives that are "mapped" to or associated with a location in a data store, such as a network drive, a directory on the local computer, or a registry key, and persistent Windows mapped network drives that are associated with a file system location on a remote computer.</source>
+          <target state="translated">O <bpt id="p1">**</bpt>New-PSDrive<ept id="p1">**</ept> cmdlet cria unidades temporárias e persistentes que são "mapeadas para" ou associadas a um local em um repositório de dados, como uma unidade de rede, um diretório no computador local ou em uma chave do registro, e unidades de rede que estão associadas um local de sistema de arquivos em um computador remoto mapeadas do Windows.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Temporary drives exist only in the current Windows PowerShell session and in sessions that you create in the current session.</source>
+          <target state="translated">Unidades temporárias existem apenas na sessão atual do Windows PowerShell e em sessões que você cria na sessão atual.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>They can have any name that is valid in Windows PowerShell and can be mapped to any local or remote resource.</source>
+          <target state="translated">Elas podem ter qualquer nome que seja válido no Windows PowerShell e podem ser mapeadas para qualquer recurso local ou remoto.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can use temporary Windows PowerShell drives to access data in the associated data store, just like you would do with any mapped network drive.</source>
+          <target state="translated">Você pode usar unidades temporárias do Windows PowerShell para acessar dados no armazenamento de dados associado, exatamente como faria com qualquer unidade de rede mapeada.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can change locations into the drive (using "set-location", "cd", or "chdir") and access the contents of the drive (using "get-item", "get-childitem", or "dir").</source>
+          <target state="translated">Você pode alterar os locais na unidade (usando "set-location", "cd" ou "chdir") e acessar o conteúdo da unidade (usando "get-item", "get-childitem" ou "dir").</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>However, because temporary drives are known only to Windows PowerShell, you cannot access them by using File Explorer, Windows Management Instrumentation (WMI), Component Object Model (COM), or the Microsoft .NET Framework, or by using tools such as Net Use.</source>
+          <target state="translated">No entanto, como as unidades temporárias são conhecidas somente pelo o Windows PowerShell, você não poderá acessá-las usando o Explorador de Arquivos, a Instrumentação de Gerenciamento do Windows (WMI), o Component Object Model (COM) ou o Microsoft .NET Framework ou usando ferramentas como o Net Use.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>New features are added to New-PSDrive in Windows PowerShell 3.0.</source>
+          <target state="translated">Novos recursos são adicionados ao New-PSDrive no Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Mapped network drives: You can use the <bpt id="p1">**</bpt>Persist<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>New-PSDrive<ept id="p2">**</ept> to create Windows mapped network drives.</source>
+          <target state="translated">Unidades de rede mapeadas: você pode usar o <bpt id="p1">**</bpt>Persist<ept id="p1">**</ept> parâmetro <bpt id="p2">**</bpt>New-PSDrive<ept id="p2">**</ept> criar janelas de unidades de rede mapeadas.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Unlike temporary Windows PowerShell drives, Windows mapped network drives are not session-specific; they are saved in Windows and they can be managed by using standard Windows tools, such as File Explorer and Net Use.</source>
+          <target state="translated">Diferente de unidades temporárias do Windows PowerShell, unidades de rede mapeadas do Windows não são específicas com relação à sessão; elas são salvas no Windows e podem ser gerenciadas usando ferramentas padrão do Windows, como Explorador de Arquivos e Net Use.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Mapped network drives must have a drive-letter name and be connected to a remote file system location.</source>
+          <target state="translated">Unidades de rede mapeadas devem ter um nome de letra da unidade e estar conectadas a um local de sistema de arquivos remoto.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>When your command is scoped locally (no dot-sourcing), the <bpt id="p1">**</bpt>Persist<ept id="p1">**</ept> parameter doesn't persist the creation of a PSDrive beyond the scope in which the command is running.</source>
+          <target state="translated">Quando o comando tem escopo localmente (nenhum dot sourcing), o <bpt id="p1">**</bpt>Persist<ept id="p1">**</ept> parâmetro não se mantém a criação de um PSDrive além do escopo no qual o comando é executado.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If you are running New-PSDrive inside of a script, and you want the drive to persist indefinitely, you must dot-source the script.</source>
+          <target state="translated">Se você estiver executando New-PSDrive dentro de um script e você deseja que a unidade para persistir indefinidamente, você deve dot-fonte do script.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For best results, to force a new drive to persist indefinitely, add the <bpt id="p1">**</bpt>Scope<ept id="p1">**</ept> parameter to your command, and set its value to <bpt id="p2">**</bpt>Global<ept id="p2">**</ept>.</source>
+          <target state="translated">Para obter melhores resultados, para forçar uma nova unidade para persistir indefinidamente, adicione o <bpt id="p1">**</bpt>escopo<ept id="p1">**</ept> parâmetro ao seu comando e defina seu valor como <bpt id="p2">**</bpt>Global<ept id="p2">**</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>External drives: When an external drive is connected to the computer, Windows PowerShell automatically adds a PSDrive to the file system that represents the new drive.</source>
+          <target state="translated">Unidades externas: quando uma unidade externa é conectada ao computador, o Windows PowerShell adiciona automaticamente um PSDrive ao sistema de arquivos que representa a nova unidade.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You do not need to restart Windows PowerShell.</source>
+          <target state="translated">Não é necessário reiniciar o Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Similarly, when an external drive is disconnected from the computer, Windows PowerShell automatically deletes the PSDrive that represents the removed drive.</source>
+          <target state="translated">Da mesma forma, quando uma unidade externa é desconectada do computador, o Windows PowerShell exclui automaticamente o PSDrive que representa a unidade removida.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Credentials for UNC Paths: When the value of the <bpt id="p1">**</bpt>Root<ept id="p1">**</ept> parameter is a UNC path, such as <ph id="ph1">\\\\</ph>Server\Share, the credential specified in the value of the <bpt id="p2">**</bpt>Credential<ept id="p2">**</ept> parameter is used to create the PSDrive.</source>
+          <target state="translated">Credenciais para caminhos UNC: quando o valor da <bpt id="p1">**</bpt>raiz<ept id="p1">**</ept> parâmetro é um caminho UNC, como <ph id="ph1">\\\\</ph>servidor\compartilhamento, a credencial especificada no valor da <bpt id="p2">**</bpt>credencial<ept id="p2">**</ept> parâmetro é usado para criar o PSDrive.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Otherwise, the <bpt id="p1">**</bpt>Credential<ept id="p1">**</ept> parameter is not effective when creating new file system drives.</source>
+          <target state="translated">Caso contrário, o <bpt id="p1">**</bpt>credencial<ept id="p1">**</ept> parâmetro não é eficaz ao criar novas unidades de sistema de arquivos.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">EXEMPLOS</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">------------------------- EXEMPLO 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This command creates a temporary Windows PowerShell drive named P: that is mapped to the <ph id="ph1">\\\\</ph>Server01\Public network share.</source>
+          <target state="translated">Este comando cria uma unidade temporária do Windows PowerShell chamada p: que é mapeado para o <ph id="ph1">\\\\</ph>Server01\Public compartilhamento de rede.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> parameter to specify a name for the drive, the <bpt id="p2">**</bpt>PSProvider<ept id="p2">**</ept> parameter to specify the Windows PowerShell FileSystem provider, and the <bpt id="p3">**</bpt>Root<ept id="p3">**</ept> parameter to specify the network share.</source>
+          <target state="translated">Ele usa o <bpt id="p1">**</bpt>nome<ept id="p1">**</ept> para especificar um nome para a unidade, o <bpt id="p2">**</bpt>PSProvider<ept id="p2">**</ept> parâmetro para especificar o provedor FileSystem do Windows PowerShell e o <bpt id="p3">**</bpt>raiz<ept id="p3">**</ept> parâmetro para especificar o compartilhamento de rede.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>When the command completes, the contents of the <ph id="ph1">\\\\</ph>Server01\Public share appear in the P: drive.</source>
+          <target state="translated">Quando o comando for concluído, o conteúdo de <ph id="ph1">\\\\</ph>Server01\Public compartilhamento aparecem na unidade p.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To see them, type: "<ph id="ph1">`dir P:`</ph>".</source>
+          <target state="translated">Para vê-los, digite: "<ph id="ph1">`dir P:`</ph>".</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This command creates a temporary Windows PowerShell drive that provides quick access to a local directory.</source>
+          <target state="translated">Este comando cria uma unidade temporária do Windows PowerShell que fornece acesso rápido a um diretório local.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>It creates a drive named MyDocs: that is mapped to the "C:\Documents and Settings\User01\My Documents" directory on the local computer.</source>
+          <target state="translated">Ele cria uma unidade chamada MyDocs: que é mapeada para o diretório "C:\Documents e Settings\User01\My documentos" no computador local.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> parameter to specify a name for the drive, the <bpt id="p2">**</bpt>PSProvider<ept id="p2">**</ept> parameter to specify the Windows PowerShell FileSystem provider, the <bpt id="p3">**</bpt>Root<ept id="p3">**</ept> parameter to specify the path to the My Documents folder, and the <bpt id="p4">**</bpt>Description<ept id="p4">**</ept> parameter to create a description of the drive.</source>
+          <target state="translated">Ele usa o <bpt id="p1">**</bpt>nome<ept id="p1">**</ept> para especificar um nome para a unidade, o <bpt id="p2">**</bpt>PSProvider<ept id="p2">**</ept> parâmetro para especificar o provedor FileSystem do Windows PowerShell, o <bpt id="p3">**</bpt>raiz<ept id="p3">**</ept> parâmetro para especificar o caminho para a pasta Meus documentos e o <bpt id="p4">**</bpt>Descrição<ept id="p4">**</ept> parâmetro para criar uma descrição da unidade.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>When the command completes, the contents of the My Documents folder appear in the MyDocs: drive.</source>
+          <target state="translated">Quando o comando for concluído, o conteúdo da pasta Meus Documentos aparecerá na unidade MyDocs:.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To see them, type: "dir MyDocs:".</source>
+          <target state="translated">Para vê-los, digite: "dir MyDocs:".</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This command creates a temporary Windows PowerShell drive that provides quick access to a frequently checked registry key.</source>
+          <target state="translated">Este comando cria uma unidade temporária do Windows PowerShell que fornece acesso rápido a uma chave de registro utilizada frequentemente.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>It creates a drive named MyCompany that is mapped to the HKLM\Software\MyCompany registry key.</source>
+          <target state="translated">Ele cria uma unidade chamada MyCompany é mapeado para a chave de registro HKLM\Software\MyCompany.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> parameter to specify a name for the drive, the <bpt id="p2">**</bpt>PSProvider<ept id="p2">**</ept> parameter to specify the Windows PowerShell Registry provider, and the <bpt id="p3">**</bpt>Root<ept id="p3">**</ept> parameter to specify the registry key.</source>
+          <target state="translated">Ele usa o <bpt id="p1">**</bpt>nome<ept id="p1">**</ept> para especificar um nome para a unidade, o <bpt id="p2">**</bpt>PSProvider<ept id="p2">**</ept> parâmetro para especificar o provedor de registro do Windows PowerShell e o <bpt id="p3">**</bpt>raiz<ept id="p3">**</ept> para especificar a chave do registro.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>When the command completes, the contents of the MyCompany key appear in the MyCompany: drive.</source>
+          <target state="translated">Quando o comando for concluído, o conteúdo da chave MyCompany aparecerá na unidade MyCompany:.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To see them, type: "<ph id="ph1">`dir MyCompany:`</ph>".</source>
+          <target state="translated">Para vê-los, digite: "<ph id="ph1">`dir MyCompany:`</ph>".</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This command creates the "S" mapped network drive on the local computer.</source>
+          <target state="translated">Este comando cria a unidade de rede mapeada "S" no computador local.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The "S" drive is mapped to the <ph id="ph1">\\\\</ph>Server01\Scripts network share.</source>
+          <target state="translated">A unidade "S" é mapeada para o <ph id="ph1">\\\\</ph>Server01\Scripts compartilhamento de rede.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>New-PSDrive<ept id="p1">**</ept> cmdlet to create the mapped network drive.</source>
+          <target state="translated">O comando usa o <bpt id="p1">**</bpt>New-PSDrive<ept id="p1">**</ept> para criar a unidade de rede mapeada.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>Persist<ept id="p1">**</ept> parameter to create a Windows mapped network drive that is saved on the local computer.</source>
+          <target state="translated">Ele usa o <bpt id="p1">**</bpt>Persist<ept id="p1">**</ept> parâmetro para criar um Windows mapeado a unidade de rede que é salvo no computador local.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> parameter to specify a letter name that Windows accepts and the <bpt id="p2">**</bpt>Root<ept id="p2">**</ept> parameter to specify a location on a remote computer.</source>
+          <target state="translated">O comando usa o <bpt id="p1">**</bpt>nome<ept id="p1">**</ept> aceita o parâmetro para especificar um nome de letra que o Windows e o <bpt id="p2">**</bpt>raiz<ept id="p2">**</ept> para especificar um local em um computador remoto.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>PSProvider<ept id="p1">**</ept> parameter to specify the FileSystem provider.</source>
+          <target state="translated">Ele usa o <bpt id="p1">**</bpt>PSProvider<ept id="p1">**</ept> parâmetro para especificar o provedor FileSystem.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The resulting drive can be viewed in other Windows PowerShell sessions on the local computer, in Windows Explorer, and in other tools, such as Net Use.</source>
+          <target state="translated">A unidade resultante pode ser exibida em outras sessões do Windows PowerShell no computador local, no Windows Explorer e em outras ferramentas, como Net Use.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This example shows the difference between a persistent mapped network drive and a temporary Windows PowerShell drive that is mapped to the same network share.This example shows the difference between a persistent mapped network drive and a temporary Windows PowerShell drive that is mapped to the same network share.</source>
+          <target state="translated">Este exemplo mostra a diferença entre uma unidade de rede mapeadas persistentes e uma unidade temporária do Windows PowerShell que é mapeada para o mesmo compartilhamento de rede. Este exemplo mostra a diferença entre uma unidade de rede mapeadas persistentes e uma unidade temporária do Windows PowerShell que é mapeada para o mesmo compartilhamento de rede.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARÂMETROS</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>-Credential</source>
+          <target state="translated">-Credential</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Specifies a user account that has permission to perform this action.</source>
+          <target state="translated">Especifica uma conta de usuário que tem permissão para executar esta ação.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The default is the current user.</source>
+          <target state="translated">O padrão é o usuário atual.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Type a user name, such as "User01" or "Domain01\User01".</source>
+          <target state="translated">Digite um nome de usuário, como "Usuário01" ou "Domínio01\Usuário01".</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Or, enter a <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> object, such as one generated by the Get-Credential cmdlet.</source>
+          <target state="translated">Ou insira uma <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> objeto, como aquele gerado pelo cmdlet Get-Credential.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If you type a user name, you will be prompted for a password.</source>
+          <target state="translated">Se você digitar um nome de usuário, uma senha será solicitada.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, when the value of the <bpt id="p1">**</bpt>Root<ept id="p1">**</ept> parameter is a UNC path, you can use credentials to create file system drives.</source>
+          <target state="translated">Começando no Windows PowerShell 3.0, quando o valor de <bpt id="p1">**</bpt>raiz<ept id="p1">**</ept> parâmetro é um caminho UNC, você pode usar as credenciais para criar unidades de sistema de arquivos.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This parameter is not supported by all Windows PowerShell providers.</source>
+          <target state="translated">Esse parâmetro não é suportado por todos os provedores do Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>-Description</source>
+          <target state="translated">-Descrição</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Specifies a brief text description of the drive.</source>
+          <target state="translated">Especifica uma breve descrição em texto da unidade.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Type any string.</source>
+          <target state="translated">Digite qualquer cadeia de caracteres.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>To see the descriptions of all of the drives in the session, type "<ph id="ph1">`Get-PSDrive | Format-Table Name, Description`</ph>".</source>
+          <target state="translated">Para ver as descrições de todas as unidades na sessão, digite "<ph id="ph1">`Get-PSDrive | Format-Table Name, Description`</ph>".</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>To see the description of a particular drives, type "<ph id="ph1">`(Get-PSDrive \&lt;DriveName\&gt;).Description`</ph>".</source>
+          <target state="translated">Para ver a descrição de uma unidade específica, digite "<ph id="ph1">`(Get-PSDrive \&lt;DriveName\&gt;).Description`</ph>".</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Specifies a name for the new drive.</source>
+          <target state="translated">Especifica um nome para a nova unidade.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>For persistent mapped network drives, type a drive letter.</source>
+          <target state="translated">Para unidades de rede mapeadas persistentes, digite uma letra de unidade.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>For temporary Windows PowerShell drives, type any valid string; you are not limited to drive letters.</source>
+          <target state="translated">Para unidades temporárias do Windows PowerShell, digite qualquer cadeia de caracteres válida; você não fica limitado às letras de unidade.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-Persist</source>
+          <target state="translated">-Manter</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Creates a Windows mapped network drive.</source>
+          <target state="translated">Cria uma unidade de rede mapeada do Windows.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Mapped network drives are saved in Windows on the local computer.</source>
+          <target state="translated">Unidades de rede mapeadas são salvos no Windows no computador local.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>They are persistent, not session-specific, and can be viewed and managed in File Explorer and other tools.</source>
+          <target state="translated">Elas são persistentes, não específicas com relação à sessão e podem ser exibidas e gerenciadas no Explorador de Arquivos e outras ferramentas.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>When you scope the command locally (that is, without dot-sourcing), the Persist parameter won't persist the creation of a PSDrive beyond the scope in which you run the command.</source>
+          <target state="translated">Quando você define o escopo do comando localmente (ou seja, sem dot sourcing), o parâmetro de persistência não persistirão a criação de um PSDrive além do escopo em que você executar o comando.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>If you run the New-PSDrive cmdlet inside of a script, and you want the new drive to persist indefinitely, you must dot-source the script.</source>
+          <target state="translated">Se você executar o cmdlet New-PSDrive dentro de um script e você deseja que a nova unidade para persistir indefinidamente, você deve dot-fonte do script.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>For best results, to force a new drive to persist, specify Global as the value of the <bpt id="p1">**</bpt>Scope<ept id="p1">**</ept> parameter, as well as adding the Persist parameter to your command.</source>
+          <target state="translated">Para obter melhores resultados, para forçar uma nova unidade de persistência, especifique Global como o valor da <bpt id="p1">**</bpt>escopo<ept id="p1">**</ept> parâmetro, bem como adicionar o parâmetro persistir ao seu comando.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The name of the drive must be a letter, such as D or E. The value of the <bpt id="p1">**</bpt>Root<ept id="p1">**</ept> parameter must be a UNC path to a different computer.</source>
+          <target state="translated">O nome da unidade deve ser uma letra, como D ou E. O valor de <bpt id="p1">**</bpt>raiz<ept id="p1">**</ept> parâmetro deve ser um caminho UNC para um computador diferente.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">**</bpt>PSProvider<ept id="p1">**</ept> parameter must be FileSystem.</source>
+          <target state="translated">O valor de <bpt id="p1">**</bpt>PSProvider<ept id="p1">**</ept> parâmetro deve ser um sistema de arquivos.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>To disconnect a Windows mapped network drive, use the Remove-PSDrive cmdlet.</source>
+          <target state="translated">Para desconectar um Windows unidade de rede mapeada, use o cmdlet Remove-PSDrive.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>When you disconnect a Windows mapped network drive, the mapping is permanently deleted from the computer, not just deleted from the current session.</source>
+          <target state="translated">Quando você desconecta uma unidade de rede mapeada do Windows, o mapeamento é excluído permanentemente do computador, não apenas da sessão atual.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>NOTE: Mapped network drives are specific to a user account.</source>
+          <target state="translated">OBSERVAÇÃO: As unidades de rede mapeadas são específicas para uma conta de usuário.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Mapped network drives that you create in sessions that are started with the "Run as administrator" option or with the credential of another user are not visible in sessions that you started without explicit credentials, or with the credentials of the current user.</source>
+          <target state="translated">Unidades de rede mapeadas criadas em sessões iniciadas com a opção "Executar como administrador" ou com a credencial de outro usuário não são visíveis nas sessões que iniciadas sem credenciais explícitas ou com as credenciais do usuário atual.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>-PSProvider</source>
+          <target state="translated">-PSProvider</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Specifies the Windows PowerShell provider that supports drives of this type.</source>
+          <target state="translated">Especifica o provedor do Windows PowerShell que oferece suporte a unidades desse tipo.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>For example, if the drive is associated with a network share or file system directory, the Windows PowerShell provider is "FileSystem".</source>
+          <target state="translated">Por exemplo, se a unidade estiver associada um diretório de sistema de arquivos ou compartilhamento de rede, o provedor do Windows PowerShell é "FileSystem".</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>If the drive is associated with a registry key, the provider is "Registry".</source>
+          <target state="translated">Se a unidade estiver associada uma chave do registro, o provedor será "Registry".</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Temporary Windows PowerShell drives can be associated with any Windows PowerShell provider.</source>
+          <target state="translated">Unidades temporárias do Windows PowerShell podem ser associadas a qualquer provedor do Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Mapped network drives can be associated only with the FileSystem provider.</source>
+          <target state="translated">Unidades de rede mapeadas podem ser associadas apenas ao provedor FileSystem.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>To see a list of the providers in your Windows PowerShell session, use the Get-PSProvider cmdlet.</source>
+          <target state="translated">Para ver uma lista dos provedores em sua sessão do Windows PowerShell, use o cmdlet Get-PSProvider.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>-Root</source>
+          <target state="translated">-Raiz</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Specifies the data store location to which a Windows PowerShell drive is mapped.</source>
+          <target state="translated">Especifica o local de armazenamento de dados ao qual uma unidade do Windows PowerShell é mapeada.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>For example, specify a network share (such as <ph id="ph1">\\\\</ph>Server01\Public), a local directory (such as C:\Program Files), or a registry key (such as HKLM:\Software\Microsoft).</source>
+          <target state="translated">Por exemplo, especifique um compartilhamento de rede (como <ph id="ph1">\\\\</ph>Server01\Public), um diretório local (como C:\Program Files) ou uma chave do registro (como HKLM: \ software\microsoft).</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Temporary Windows PowerShell drives can be associated with a local or remote location on any supported provider drive.</source>
+          <target state="translated">Unidades temporárias do Windows PowerShell podem ser associadas um local remoto ou local em qualquer unidade de provedor com suporte.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Mapped network drives can be associated only with a file system location on a remote computer.</source>
+          <target state="translated">Unidades de rede mapeadas podem ser associadas somente a um local de sistema de arquivos em um computador remoto.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>-Scope</source>
+          <target state="translated">-Escopo</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Specifies a scope for the drive.</source>
+          <target state="translated">Especifica um escopo para a unidade.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Valid values are "<bpt id="p1">**</bpt>Global<ept id="p1">**</ept>", "<bpt id="p2">**</bpt>Local<ept id="p2">**</ept>", or "<bpt id="p3">**</bpt>Script<ept id="p3">**</ept>", or a number relative to the current scope (0 through the number of scopes, where 0 is the current scope and 1 is its parent).</source>
+          <target state="translated">Os valores válidos são "<bpt id="p1">**</bpt>Global<ept id="p1">**</ept>","<bpt id="p2">**</bpt>Local<ept id="p2">**</ept>", ou "<bpt id="p3">**</bpt>Script<ept id="p3">**</ept>", ou um número relativo ao escopo atual (de 0 até o número de escopos, onde 0 é o escopo atual e 1 é seu pai).</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>"<bpt id="p1">**</bpt>Local<ept id="p1">**</ept>" is the default.</source>
+          <target state="translated">"<bpt id="p1">**</bpt>Local<ept id="p1">**</ept>" é o padrão.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Scopes (http://go.microsoft.com/fwlink/?LinkID=113260).</source>
+          <target state="translated">Para obter mais informações, consulte about_Scopes (http://go.microsoft.com/fwlink/?LinkID=113260).</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">Solicita confirmação antes de executar o cmdlet. Solicita confirmação antes de executar o cmdlet.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Mostra o que aconteceria se o cmdlet fosse executado.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">O cmdlet não é executado. Mostra o que aconteceria se o cmdlet fosse executado.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">O cmdlet não é executado.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>-UseTransaction</source>
+          <target state="translated">-UseTransaction</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Includes the command in the active transaction.</source>
+          <target state="translated">Inclui o comando na transação ativa.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when a transaction is in progress.</source>
+          <target state="translated">Este parâmetro é válido somente quando uma transação está em andamento.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>For more information, see Includes the command in the active transaction.</source>
+          <target state="translated">Para obter mais informações, consulte inclui o comando na transação ativa.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when a transaction is in progress.</source>
+          <target state="translated">Este parâmetro é válido somente quando uma transação está em andamento.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>For more information, see</source>
+          <target state="translated">Para obter mais informações, consulte .</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Esse cmdlet oferece suporte aos parâmetros comuns:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction e - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Para obter mais informações, consulte about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ENTRADAS</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">Não</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>You cannot pipe input to this cmdlet.</source>
+          <target state="translated">Não é possível redirecionar a entrada para este cmdlet.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">SAÍDAS</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSDriveInfo</source>
+          <target state="translated">Psdriveinfo</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ANOTAÇÕES</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-PSDrive<ept id="p1">**</ept> cmdlet is designed to work with the data exposed by any provider.</source>
+          <target state="translated">O <bpt id="p1">**</bpt>New-PSDrive<ept id="p1">**</ept> cmdlet é projetado para trabalhar com os dados apresentados por qualquer provedor.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>To list the providers available in your session, use the Get-PSProvider cmdlet.</source>
+          <target state="translated">Para listar os provedores disponíveis na sua sessão, use o cmdlet Get-PSProvider.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>For more information about providers, see about_Providers (http://go.microsoft.com/fwlink/?LinkID=113250).</source>
+          <target state="translated">Para obter mais informações sobre provedores, consulte about_Providers (http://go.microsoft.com/fwlink/?LinkID=113250).</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Mapped network drives are specific to a user account.</source>
+          <target state="translated">Unidades de rede mapeadas são específicas para uma conta de usuário.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Mapped network drives that you create in sessions that are started with the "Run as administrator" option or with the credential of another user are not visible in session that started without explicit credentials or with the credentials of the current user.</source>
+          <target state="translated">Unidades de rede mapeada criadas em sessões iniciadas pela opção "Executar como administrador" ou com a credencial de outro usuário não são visíveis em uma sessão iniciada sem credenciais explícitas ou com as credenciais do usuário atual.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">LINKS RELACIONADOS</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Get-PSDrive</source>
+          <target state="translated">Get-PSDrive</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Remove-PSDrive</source>
+          <target state="translated">Remove-PSDrive</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>about_Providers</source>
+          <target state="translated">about_Providers</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

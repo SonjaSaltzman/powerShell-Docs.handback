@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bc89cef927b52956ec4bad1ad78d4cea3065fc33</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.WsMan.Management\New-WSManSessionOption.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f03cdaadc9b7622e60a379fd4534432de7aa1b07</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cc24639c45adb9ef3cfc86de075f9a38166ff6a3</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell, cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>New-WSManSessionOption</source>
+          <target state="translated">New-WSManSessionOption</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>New-WSManSessionOption</source>
+          <target state="translated">New-WSManSessionOption</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">SINOPSE</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Creates session option hash table to use as input parameters for WS-Management cmdlets.</source>
+          <target state="translated">Cria a tabela de hash de opção de sessão para usar como parâmetros de entrada para cmdlets WS-Management.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SINTAXE</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">DESCRIÇÃO</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-WSManSessionOption<ept id="p1">**</ept> cmdlet creates a WSMan Session option hash table which can be passed to WSMan cmdlets:</source>
+          <target state="translated">O <bpt id="p1">**</bpt>New-WSManSessionOption<ept id="p1">**</ept> cmdlet cria uma tabela de hash de opção de sessão WSMan que pode ser passada para cmdlets WSMan:</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Get-WSManInstance</source>
+          <target state="translated">Get-WSManInstance</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Set-WSManInstance</source>
+          <target state="translated">Set-WSManInstance</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Invoke-WSManAction</source>
+          <target state="translated">Invoke-WSManAction</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Connect-WSMan</source>
+          <target state="translated">Connect-WSMan</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">EXEMPLOS</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Example 1: Create a connection that uses connection options</source>
+          <target state="translated">Exemplo 1: Criar uma conexão que usa as opções de conexão</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This example creates a connection to the remote server01 computer by using the connection options that are defined by <bpt id="p1">**</bpt>New-WSManSessionOption<ept id="p1">**</ept>.</source>
+          <target state="translated">Este exemplo cria uma conexão com o computador remoto server01 usando as opções de conexão que são definidas pela <bpt id="p1">**</bpt>New-WSManSessionOption<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The first command uses <bpt id="p1">**</bpt>New-WSManSessionOption<ept id="p1">**</ept> to store a set of connection setting options in the $a variable.</source>
+          <target state="translated">O primeiro comando usa <bpt id="p1">**</bpt>New-WSManSessionOption<ept id="p1">**</ept> para armazenar um conjunto de conexão definindo opções na variável $a.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In this case, the session options set a connection time out of 30 seconds (30,000 milliseconds).</source>
+          <target state="translated">Nesse caso, as opções da sessão definem um tempo de conexão de 30 segundos (30.000 milissegundos).</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">*</bpt>SessionOption<ept id="p1">*</ept> parameter to pass the credentials that are stored in the $a variable to <bpt id="p2">**</bpt>Connect-WSMan<ept id="p2">**</ept>.</source>
+          <target state="translated">O segundo comando usa o <bpt id="p1">*</bpt>SessionOption<ept id="p1">*</ept> parâmetro para passar as credenciais são armazenadas em $a variável <bpt id="p2">**</bpt>Connect-WSMan<ept id="p2">**</ept>.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Then, <bpt id="p1">**</bpt>Connect-WSMan<ept id="p1">**</ept> connects to the remote server01 computer by using the specified session options.</source>
+          <target state="translated">Em seguida, <bpt id="p1">**</bpt>Connect-WSMan<ept id="p1">**</ept> conecta-se ao computador remoto server01 usando as opções de sessão especificada.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Connect-WSMan<ept id="p1">**</ept> is generally used in the context of the WSMan provider to connect to a remote computer, in this case the server01 computer.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Connect-WSMan<ept id="p1">**</ept> geralmente é usado no contexto do provedor WSMan para se conectar a um computador remoto, neste caso, o computador server01.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>However, you can use the cmdlet to establish connections to remote computers before you change to the WSMan provider.</source>
+          <target state="translated">No entanto, você pode usar o cmdlet para estabelecer conexões com computadores remotos, antes de alterar para o provedor WSMan.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Those connections appear in the <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> list.</source>
+          <target state="translated">Essas conexões aparecem no <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> lista.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARÂMETROS</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>-NoEncryption</source>
+          <target state="translated">-NoEncryption</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Indicates that the connection does not use encryption for remote operations over HTTP.</source>
+          <target state="translated">Indica que a conexão usa criptografia para operações remotas por HTTP.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>By default, unencrypted traffic is not enabled.</source>
+          <target state="translated">Por padrão, o tráfego não criptografado não está habilitado.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>It must be enabled in the local configuration.</source>
+          <target state="translated">Ele deve ser habilitado na configuração local.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>-OperationTimeout</source>
+          <target state="translated">-OperationTimeout</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Specifies the time-out, in milliseconds, for the WS-Management operation.</source>
+          <target state="translated">Especifica o tempo limite, em milissegundos, para a operação do WS-Management.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-ProxyAccessType</source>
+          <target state="translated">-ProxyAccessType</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Specifies the mechanism by which the proxy server is located.</source>
+          <target state="translated">Especifica o mecanismo pelo qual o servidor proxy é localizado.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">Os valores aceitáveis para este parâmetro são:</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>ProxyIEConfig.</source>
+          <target state="translated">ProxyIEConfig.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Use the Internet Explorer proxy configuration for the current user.</source>
+          <target state="translated">Use a configuração de proxy do Internet Explorer para o usuário atual.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>ProxyWinHttpConfig.</source>
+          <target state="translated">ProxyWinHttpConfig.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The WSMan client uses the proxy settings configured for WinHTTP, using the ProxyCfg.exe utility.</source>
+          <target state="translated">O cliente do WSMan usa as configurações de proxy do WinHTTP, usando o utilitário ProxyCfg.exe.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>ProxyAutoDetect.</source>
+          <target state="translated">ProxyAutoDetect.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Force auto-detection of a proxy server.</source>
+          <target state="translated">Força a detecção automática de um servidor proxy.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>ProxyNoProxyServer.</source>
+          <target state="translated">ProxyNoProxyServer.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Do not use a proxy server.</source>
+          <target state="translated">Não use um servidor proxy.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Resolve all host names locally.</source>
+          <target state="translated">Resolva todos os nomes de host local.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The default value is ProxyIEConfig.</source>
+          <target state="translated">O valor padrão é ProxyIEConfig.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>-ProxyAuthentication</source>
+          <target state="translated">-ProxyAuthentication</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Specifies the authentication method to use at the proxy.</source>
+          <target state="translated">Especifica o método de autenticação a ser usado no proxy.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">Os valores aceitáveis para este parâmetro são:</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Basic.</source>
+          <target state="translated">Básica.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Basic is a scheme in which the user name and password are sent in clear-text to the server or proxy.</source>
+          <target state="translated">É um esquema no qual o nome de usuário e senha são enviados em texto não criptografado para o servidor ou proxy.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Digest.</source>
+          <target state="translated">Digest.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Digest is a challenge-response scheme that uses a server-specified data string for the challenge.</source>
+          <target state="translated">É um esquema de desafio/resposta que utiliza uma cadeia de caracteres de dados do servidor especificada para o desafio.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Negotiate.</source>
+          <target state="translated">Negocie.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Negotiate is a challenge-response scheme that negotiates with the server or proxy to determine which scheme to use for authentication.</source>
+          <target state="translated">É um esquema de desafio/resposta que negocia com o servidor ou proxy para determinar o esquema a ser utilizado para autenticação.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Examples are the Kerberos protocol and NTLM.</source>
+          <target state="translated">Os exemplos são o protocolo Kerberos e NTLM.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The default value is Negotiate.</source>
+          <target state="translated">O valor padrão é negociar.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>-ProxyCredential</source>
+          <target state="translated">-ProxyCredential</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Specifies a user account that has permission to gain access through an intermediate Web proxy.</source>
+          <target state="translated">Especifica uma conta de usuário que tenha permissão para acessar por meio de um proxy da Web intermediário.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>-SPNPort</source>
+          <target state="translated">-SPNPort</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Specifies a port number to append to the connection Service Principal Name (SPN) of the remote server.</source>
+          <target state="translated">Especifica um número de porta para acrescentar à conexão de nome Principal do serviço (SPN) do servidor remoto.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>An SPN is used when the authentication mechanism is Kerberos or Negotiate.</source>
+          <target state="translated">Um SPN é usado quando o mecanismo de autenticação é Kerberos ou Negotiate.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>-SkipCACheck</source>
+          <target state="translated">-SkipCACheck</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Specifies that, when it connects over HTTPS, the client does not validate that the server certificate is signed by a trusted certification authority (CA).</source>
+          <target state="translated">Especifica que, ao se conectar via HTTPS, o cliente não valida que o certificado do servidor está assinado por uma autoridade de certificação confiável (CA).</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Use this option only when the remote computer is trusted by another method, for example, if the remote computer is part of a network that is physically secure and isolated or the remote computer is listed as a trusted host in the WS-Management configuration.</source>
+          <target state="translated">Use esta opção somente quando o computador remoto é confiável por outro método, por exemplo, se o computador remoto é parte de uma rede fisicamente segura e isolada ou o computador remoto está listado como um host confiável na configuração do WS-Management.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>-SkipCNCheck</source>
+          <target state="translated">-SkipCNCheck</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Specifies that the certificate common name (CN) of the server does not have to match the host name of the server.</source>
+          <target state="translated">Especifica que o nome comum do certificado (CN) do servidor não precisa corresponder ao nome de host do servidor.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>This is used only in remote operations using HTTPS.</source>
+          <target state="translated">É usado somente em operações remotas usando HTTPS.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This option should only be used for trusted computers.</source>
+          <target state="translated">Essa opção deve ser usada somente para computadores confiáveis.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>-SkipRevocationCheck</source>
+          <target state="translated">-SkipRevocationCheck</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Indicates that the connection does not validate the revocation status on the server certificate.</source>
+          <target state="translated">Indica que a conexão não valida o status de revogação do certificado do servidor.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>-UseUTF16</source>
+          <target state="translated">-UseUTF16</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Indicates that the connection encodes the request in UTF16 format instead of UTF8 format.</source>
+          <target state="translated">Indica se a conexão codifica a solicitação no formato UTF16 em vez do formato UTF8.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The default is UTF8 encoding.</source>
+          <target state="translated">O padrão é a codificação UTF8.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Esse cmdlet oferece suporte aos parâmetros comuns:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction e - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Para obter mais informações, consulte about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ENTRADAS</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">SAÍDAS</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>SessionOption</source>
+          <target state="translated">SessionOption</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ANOTAÇÕES</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">LINKS RELACIONADOS</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Connect-WSMan</source>
+          <target state="translated">Connect-WSMan</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Disable-WSManCredSSP</source>
+          <target state="translated">Disable-WSManCredSSP</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Disconnect-WSMan</source>
+          <target state="translated">Disconnect-WSMan</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Enable-WSManCredSSP</source>
+          <target state="translated">Enable-WSManCredSSP</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Get-WSManCredSSP</source>
+          <target state="translated">Get-WSManCredSSP</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Get-WSManInstance</source>
+          <target state="translated">Get-WSManInstance</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Invoke-WSManAction</source>
+          <target state="translated">Invoke-WSManAction</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>New-WSManInstance</source>
+          <target state="translated">Novo-WSManInstance</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Remove-WSManInstance</source>
+          <target state="translated">Remove-WSManInstance</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Set-WSManInstance</source>
+          <target state="translated">Set-WSManInstance</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Set-WSManQuickConfig</source>
+          <target state="translated">Set-WSManQuickConfig</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Test-WSMan</source>
+          <target state="translated">Test-WSMan</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

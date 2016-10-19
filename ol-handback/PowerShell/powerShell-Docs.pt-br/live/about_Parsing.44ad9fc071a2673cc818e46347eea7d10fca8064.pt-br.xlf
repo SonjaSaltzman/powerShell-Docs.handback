@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">994e06dba97c5ebab1ee959bafbfac613805cc28</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\About\about_Parsing.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">79f563c224bbd026be3d7f67492fc57615fb1550</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">755fe011c1c3563ab1fb61ad1889ea72a7ea0ed9</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>about_Parsing</source>
+          <target state="translated">about_Parsing</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell, cmdlet</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>About Parsing</source>
+          <target state="translated">Sobre a análise</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>about_Parsing</source>
+          <target state="translated">about_Parsing</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>TOPIC</source>
+          <target state="translated">TÓPICO</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>about_Parsing</source>
+          <target state="translated">about_Parsing</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">DESCRIÇÃO BREVE</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Describes how Windows PowerShell parses commands.</source>
+          <target state="translated">Descreve como o Windows PowerShell analisa os comandos.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>LONG DESCRIPTION</source>
+          <target state="translated">DESCRIÇÃO LONGA</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>When you enter a command at the command prompt, Windows PowerShell breaks the command text into a series of segments called "tokens" and then determines how to interpret each "token."</source>
+          <target state="translated">Quando você insere um comando no prompt de comando, o Windows PowerShell quebra o texto de comando em uma série de segmentos chamados "tokens" e, em seguida, determina como interpretar cada "token".</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For example, if you type:</source>
+          <target state="translated">Por exemplo, se você digitar:</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Write-Host book</source>
+          <target state="translated">Livro de Write-Host</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell breaks the following command into two tokens, "Write-Host" and "book", and interprets each token independently.</source>
+          <target state="translated">Windows PowerShell interrompe o comando a seguir em dois tokens "Write-Host" e "catálogo" e interpreta cada token de forma independente.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>When processing a command, the Windows PowerShell parser operates in expression mode or in argument mode:</source>
+          <target state="translated">Ao processar um comando, o analisador do Windows PowerShell funciona no modo de expressão ou no modo de argumento:</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>In expression mode, character string values must be contained in quotation marks.</source>
+          <target state="translated">No modo de expressão, os valores de cadeia de caracteres devem estar contidos entre aspas.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Numbers not enclosed in quotation marks are treated as numerical values (rather than as a series of characters).</source>
+          <target state="translated">Os números não são colocados entre aspas são tratados como valores numéricos (em vez de uma série de caracteres).</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In argument mode, each value is treated as an expandable string unless it begins with one of the following special characters: dollar sign ($), at sign (@), single quotation mark ('), double quotation mark ("), or an opening parenthesis (().</source>
+          <target state="translated">No modo de argumento, cada valor é tratado como uma cadeia de caracteres expansível, a menos que ele começa com um dos seguintes caracteres especiais: sinal de cifrão ($), sinal de arroba (@), aspas simples ('), double aspas (") ou um parêntese de abertura (() um único.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If preceded by one of these characters, the value is treated as a value expression.</source>
+          <target state="translated">Se precedido por um desses caracteres, o valor é tratado como uma expressão de valor.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The following table provides several examples of commands processed in expression mode and argument mode and the results produced by those commands.</source>
+          <target state="translated">A tabela a seguir fornece vários exemplos de comandos processados no modo de expressão e modo de argumento e os resultados produzidos por esses comandos.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Example            Mode         Result</source>
+          <target state="translated">Resultados do modo de exemplo</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>2+2                Expression   4 (integer) Write-Output 2+2   Argument     "2+2" (string) Write-Output (2+2) Expression   4 (integer) $a = 2+2           Expression   $a = 4 (integer) Write-Output $a    Expression   4 (integer) Write-Output $a/H  Argument     "4/H" (string)</source>
+          <target state="translated">2 + 2 expression 4 (inteiro) de Write-Output 2 + 2 argumento "2 + 2" Write-Output (string) (2 + 2) $ 4 de expressão (inteiro) um = 2 + 2 expressão $um = 4 (inteiro) de Write-Output $um expressão 4 (inteiro) de Write-Output $/ H argumento "4/H" (cadeia de caracteres)</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Every token can be interpreted as some kind of object type, such as Boolean or string.</source>
+          <target state="translated">Todos os tokens podem ser interpretados como algum tipo de tipo de objeto, como string ou booleanos.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell attempts to determine the object type from the expression.</source>
+          <target state="translated">Windows PowerShell tenta determinar o tipo de objeto da expressão.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The object type depends on the type of parameter a command expects and on whether Windows PowerShell knows how to convert the argument to the correct type.</source>
+          <target state="translated">O tipo de objeto depende do tipo de parâmetro que espera um comando e se o Windows PowerShell sabe como converter o argumento para o tipo correto.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The following table shows several examples of the types assigned to values returned by the expressions.</source>
+          <target state="translated">A tabela a seguir mostra vários exemplos dos tipos de atribuídas a valores retornados por expressões.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Example            Mode         Result</source>
+          <target state="translated">Resultados do modo de exemplo</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Write-Output !1    argument     "!1" (string) Write-Output (!1)  expression   False (Boolean) Write-Output (2)   expression   2 (integer)</source>
+          <target state="translated">Write-Output! 1 argumento "! 1" Write-Output (string) (! 1) (2) a expressão de expressão falso (Boolean) Write-Output 2 (inteiro)</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>STOP PARSING:  --% The stop-parsing symbol (--%), introduced in Windows PowerShell 3.0, directs Windows PowerShell to refrain from interpreting input as Windows PowerShell commands or expressions.</source>
+          <target state="translated">ANÁLISE de PARADA: O símbolo de análise de parada,--% (-%), introduzido no Windows PowerShell 3.0, direciona o Windows PowerShell para evitar Interpretando a entrada de comandos do Windows PowerShell ou expressões.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>When calling an executable program in Windows PowerShell, place the stop-parsing symbol before the program arguments.</source>
+          <target state="translated">Ao chamar um programa executável no Windows PowerShell, coloque o símbolo de análise de parada antes dos argumentos do programa.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This technique is much easier than using escape characters to prevent misinterpretation.</source>
+          <target state="translated">Essa técnica é muito mais fácil do que usar caracteres de escape para evitar a má interpretação.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>When it encounters a stop-parsing symbol, Windows PowerShell treats the remaining characters in the line as a literal.</source>
+          <target state="translated">Quando encontrar um símbolo de análise de parada, o Windows PowerShell trata os caracteres restantes na linha como um literal.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The only interpretation it performs is to substitute values for environment variables that use standard Windows notation, such as %USERPROFILE%.</source>
+          <target state="translated">A interpretação somente que ele executa é substituir valores de variáveis de ambiente que usam a notação padrão do Windows, como % USERPROFILE %.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The stop-parsing symbol is effective only until the next newline or pipeline character.</source>
+          <target state="translated">O símbolo de análise de parada é eficaz somente até o próximo caractere de nova linha ou pipeline.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You cannot use a continuation character (`) to extend its effect or use a command delimiter (;) to terminate its effect.</source>
+          <target state="translated">Você não pode usar um caractere de continuação (') para estender seu efeito ou use um delimitador de comando (;) para finalizar seu efeito.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For example, the following command calls the Icacls program.</source>
+          <target state="translated">Por exemplo, o comando a seguir chama o programa de Icacls.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>icacls X:\VMS /grant Dom\HVAdmin:(CI)(OI)F</source>
+          <target state="translated">icacls X:\VMS /grant Dom\HVAdmin:(CI) (OI) F</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To run this command in Windows PowerShell 2.0, you must use escape characters to prevent Windows PowerShell from misinterpreting the parentheses.</source>
+          <target state="translated">Para executar este comando no Windows PowerShell 2.0, você deve usar caracteres de escape para impedir que o Windows PowerShell má interpretação dos parênteses.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>icacls X:\VMS /grant Dom\HVAdmin:<ph id="ph1">`(CI`</ph>)<ph id="ph2">`(OI`</ph>)F</source>
+          <target state="translated">icacls X:\VMS /grant Dom\HVAdmin:<ph id="ph1">`(CI`</ph>)<ph id="ph2">`(OI`</ph>) F</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, you can use the stop-parsing symbol.</source>
+          <target state="translated">Começando no Windows PowerShell 3.0, você pode usar o símbolo de análise de parada.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>icacls X:\VMS --% /grant Dom\HVAdmin:(CI)(OI)F</source>
+          <target state="translated">icacls X:\VMS--% /grant Dom\HVAdmin:(CI) (OI) F</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell sends the following command string to the Icacls  program: X:\VMS /grant Dom\HVAdmin:(CI)(OI)F</source>
+          <target state="translated">O Windows PowerShell enviará a seguinte cadeia de caracteres de comando para o programa de Icacls: /grant X:\VMS Dom\HVAdmin:(CI) (OI) F</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>SEE ALSO</source>
+          <target state="translated">CONSULTE TAMBÉM</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>about_Command_Syntax</source>
+          <target state="translated">about_Command_Syntax</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
