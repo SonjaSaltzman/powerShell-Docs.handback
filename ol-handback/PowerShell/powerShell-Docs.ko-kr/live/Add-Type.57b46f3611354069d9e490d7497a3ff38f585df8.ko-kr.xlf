@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3477e1c213de5436e48d4a0ac4790675f11a2d5a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Utility\Add-Type.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2ffcff4b17d50fd06b8fc92524b33b41f681634a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">19a9847c5552b076d1bbec6a9620b9f687c78dc1</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Add-Type</source>
+          <target state="translated">형식 추가</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Add-Type</source>
+          <target state="translated">형식 추가</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">요약</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Adds a Microsoft .NET Framework type (a class) to a Windows PowerShell session.</source>
+          <target state="translated">Microsoft .NET Framework 유형(클래스)을 Windows PowerShell 세션에 추가합니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">구문</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>FromSource (Default)</source>
+          <target state="translated">FromSource (기본값)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>FromMember</source>
+          <target state="translated">FromMember</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>FromPath</source>
+          <target state="translated">FromPath</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>FromLiteralPath</source>
+          <target state="translated">FromLiteralPath</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>FromAssemblyName</source>
+          <target state="translated">FromAssemblyName</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">설명</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet lets you define a .NET Framework class in your Windows PowerShell session.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> cmdlet을 사용 하면 Windows PowerShell 세션에서.NET Framework 클래스를 정의할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can then instantiate objects (by using the New-Object cmdlet) and use the objects, just as you would use any .NET Framework object.</source>
+          <target state="translated">그런 다음 (New-object cmdlet을 사용 하 여) 하 여 개체를 인스턴스화할 하 고.NET Framework 개체를 사용 하는 것 처럼 개체를 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If you add an <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> command to your Windows PowerShell profile, the class is available in all Windows PowerShell sessions.</source>
+          <target state="translated">추가 하는 경우는 <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> 명령을 Windows PowerShell 프로필을 하는 클래스는 모든 Windows PowerShell 세션에서 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can specify the type by specifying an existing assembly or source code files, or you can specify the source code inline or saved in a variable.</source>
+          <target state="translated">기존 어셈블리 또는 소스 코드 파일을 지정하여 유형을 지정할 수도 있고 인라인 또는 변수에 저장된 소스 코드를 지정할 수도 있습니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can even specify only a method and <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> will define and generate the class.</source>
+          <target state="translated">메서드만 지정 해도 및 <bpt id="p1">**</bpt>형식 추가<ept id="p1">**</ept> 를 정의 하 고 클래스를 생성 합니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can use this feature to make Platform Invoke (P/Invoke) calls to unmanaged functions in Windows PowerShell.</source>
+          <target state="translated">이 기능을 사용하여 Windows PowerShell의 관리되지 않는 함수에 대한 플랫폼 호출(P/Invoke)을 수행할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If you specify source code, <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> compiles the specified source code and generates an in-memory assembly that contains the new .NET Framework types.</source>
+          <target state="translated">소스 코드를 지정 하는 경우 <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> 지정된 된 소스 코드를 컴파일하고 새.NET Framework 형식을 포함 하는 메모리에 어셈블리를 생성 합니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can use the parameters of <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> to specify an alternate language and compiler (CSharp is the default), compiler options, assembly dependencies, the class namespace, the names of the type, and the resulting assembly.</source>
+          <target state="translated">매개 변수를 사용할 수 <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> 대체 언어를 지정 하려면 및 컴파일러 (기본값은 CSharp), 컴파일러 옵션, 어셈블리 종속성, 클래스 네임 스페이스, 형식, 및 결과 어셈블리의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">예제</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 예제 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>These commands add the BasicTest class to the session by specifying source code that is stored in a variable.</source>
+          <target state="translated">이 명령은 변수에 저장된 소스 코드를 지정하여 BasicTest 클래스를 세션에 추가합니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The type has a static method called Add and a non-static method called Multiply.</source>
+          <target state="translated">해당 유형에는 Add라는 정적 메서드와 Multiply라는 비정적 메서드가 포함되어 있습니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The first command stores the source code for the class in the $source variable.</source>
+          <target state="translated">첫 번째 명령은 클래스의 소스 코드를 $source 변수에 저장합니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet to add the class to the session.</source>
+          <target state="translated">두 번째 명령은 <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> 세션에 클래스를 추가 하려면 cmdlet입니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Because it is using inline source code, the command uses the <bpt id="p1">**</bpt>TypeDefinition<ept id="p1">**</ept> parameter to specify the code in the $source variable.</source>
+          <target state="translated">명령을 사용 하 여 인라인 소스 코드를 사용 중 이므로 <bpt id="p1">**</bpt>TypeDefinition<ept id="p1">**</ept> $source 변수에 코드를 지정 하려면 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The remaining commands use the new class.</source>
+          <target state="translated">나머지 명령에서는 새 클래스를 사용합니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The third command calls the Add static method of the BasicTest class.</source>
+          <target state="translated">세 번째 명령은 BasicTest 클래스의 Add 정적 메서드를 호출합니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>It uses the double-colon characters (::) to specify a static member of the class.</source>
+          <target state="translated">이 명령은 이중 콜론 문자(::)를 사용하여 클래스의 정적 멤버를 지정합니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The fourth command uses the <bpt id="p1">**</bpt>New-Object<ept id="p1">**</ept> cmdlet to instantiate an instance of the BasicTest class.</source>
+          <target state="translated">네 번째 명령은 <bpt id="p1">**</bpt>New-object<ept id="p1">**</ept> cmdlet BasicTest 클래스의 인스턴스를 인스턴스화합니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>It saves the new object in the $basicTestObject variable.</source>
+          <target state="translated">새 개체를 $basicTestObject 변수에 저장합니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The fifth command uses the Multiply method of $basicTestObject.</source>
+          <target state="translated">다섯 번째 명령은 $basicTestObject의 Multiply 메서드를 사용합니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>These commands use the Get-Member cmdlet to examine the objects that the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> and New-Object cmdlets created in the previous example.</source>
+          <target state="translated">이 명령은 Get-member cmdlet를 사용 하 여 개체를 검사 하는 <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> 및 이전 예제에서 만든 New-object cmdlet입니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept> cmdlet to get the type and members of the BasicTest class that <bpt id="p2">**</bpt>Add-Type<ept id="p2">**</ept> added to the session.</source>
+          <target state="translated">첫 번째 명령은 <bpt id="p1">**</bpt>Get-member<ept id="p1">**</ept> cmdlet을 형식 및 멤버의 BasicTest 클래스 <bpt id="p2">**</bpt>Add-type<ept id="p2">**</ept> 세션에 추가 합니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept> command reveals that it is a <bpt id="p2">**</bpt>System.RuntimeType<ept id="p2">**</ept> object, which is derived from the System.Object class.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Get-member<ept id="p1">**</ept> 명령 임을 알는 <bpt id="p2">**</bpt>System.RuntimeType<ept id="p2">**</ept> System.Object 클래스에서 파생 된 개체입니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">**</bpt>Static<ept id="p1">**</ept> parameter of the <bpt id="p2">**</bpt>Get-Member<ept id="p2">**</ept> cmdlet to get the static properties and methods of the BasicTest class.</source>
+          <target state="translated">두 번째 명령은 <bpt id="p1">**</bpt>정적<ept id="p1">**</ept> 의 매개 변수는 <bpt id="p2">**</bpt>Get-member<ept id="p2">**</ept> cmdlet BasicTest 클래스의 메서드와 정적 속성을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The output shows that the Add method is included.</source>
+          <target state="translated">출력에는 Add 메서드가 포함되어 있음이 표시됩니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The third command uses the <bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept> cmdlet to get the members of the object stored in the $BasicTestObject variable.</source>
+          <target state="translated">세 번째 명령은 <bpt id="p1">**</bpt>Get-member<ept id="p1">**</ept> cmdlet을 사용 $BasicTestObject 변수에 저장 된 개체의 멤버를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This was the object instance that was created by using the <bpt id="p1">**</bpt>New-Object<ept id="p1">**</ept> cmdlet with the $BasicType class.</source>
+          <target state="translated">이 사용 하 여 만든 개체 인스턴스는 <bpt id="p1">**</bpt>New-object<ept id="p1">**</ept> $BasicType 클래스를 사용 하 여 cmdlet입니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The output reveals that the value of the $BasicTestObject variable is an instance of the BasicTest class and that it includes a member called Multiply.</source>
+          <target state="translated">출력에서는 $basicTestObject 변수의 값이 BasicTest 클래스의 인스턴스이고 Multiply라는 멤버를 포함하고 있음을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This command adds the classes from the Accessibility assembly to the current session.</source>
+          <target state="translated">이 명령은 Accessibility 어셈블리의 클래스를 현재 세션에 추가합니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>AssemblyName<ept id="p1">**</ept> parameter to specify the name of the assembly.</source>
+          <target state="translated">이 명령은 <bpt id="p1">**</bpt>AssemblyName<ept id="p1">**</ept> 매개 변수를 어셈블리의 이름을 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The wildcard character allows you to get the correct assembly even when you are not sure of the name or its spelling.</source>
+          <target state="translated">와일드카드 문자를 사용하면 이름이나 철자를 잘 모르는 경우에도 올바른 어셈블리를 가져올 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter to generate objects that represent the classes that are added to the session, and it saves the objects in the $accType variable.</source>
+          <target state="translated">이 명령은 <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> $accType 변수에 개체를 저장 하 고 매개 변수를 생성 하는 세션에 추가 하는 클래스를 나타내는 개체입니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This example uses the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet to add the VBFromFile class that is defined in the Hello.vb file to the current session.</source>
+          <target state="translated">사용 하 여이 예제는 <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> cmdlet은 현재 세션에 Hello.vb 파일에 정의 된 VBFromFile 클래스를 추가 합니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The text of the Hello.vb file is shown in the command output.</source>
+          <target state="translated">Hello.vb 파일의 텍스트가 명령 출력에 표시됩니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet to add the type defined in the Hello.vb file to the current session.</source>
+          <target state="translated">첫 번째 명령은 <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> cmdlet은 현재 세션에 Hello.vb 파일에 정의 된 형식을 추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter to specify the source file.</source>
+          <target state="translated">이 명령은 <bpt id="p1">**</bpt>경로<ept id="p1">**</ept> 매개 변수를 소스 파일을 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The second command calls the SayHello function as a static method of the VBFromFile class.</source>
+          <target state="translated">두 번째 명령은 VBFromFile 클래스의 정적 메서드로 SayHello 함수를 호출합니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The commands in this example demonstrate how to call native Windows APIs in Windows PowerShell.</source>
+          <target state="translated">이 예의 명령은 Windows PowerShell에서 기본 Windows API를 호출하는 방법을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> uses the Platform Invoke (P/Invoke) mechanism to call a function in User32.dll from Windows PowerShell.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> 플랫폼 호출 (P/Invoke) 메커니즘을 사용 하 여 Windows PowerShell에서 User32.dll의 함수를 호출할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The first command stores the C# signature of the <bpt id="p1">**</bpt>ShowWindowAsync<ept id="p1">**</ept> function in the $signature variable.</source>
+          <target state="translated">첫 번째 명령은의 C# 서명을 저장 된 <bpt id="p1">**</bpt>ShowWindowAsync<ept id="p1">**</ept> $signature 변수에 함수입니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>(For more information, see "ShowWindowAsync Function" in the MSDN library at http://go.microsoft.com/fwlink/?LinkId=143643.) To ensure that the resulting method will be visible in a Windows PowerShell session, the "public" keyword has been added to the standard signature.</source>
+          <target state="translated">자세한 내용은 MSDN 라이브러리(http://go.microsoft.com/fwlink/?LinkId=143643)의 "ShowWindowAsync Function(ShowWindowAsync 함수)"을 참조하세요. 결과 메서드를 Windows PowerShell 세션에서 볼 수 있도록 표준 서명에 "public" 키워드가 추가되었습니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet to add the ShowWindowAsync function to the Windows PowerShell session as a static method of a class that <bpt id="p2">**</bpt>Add-Type<ept id="p2">**</ept> creates.</source>
+          <target state="translated">두 번째 명령은 <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> ShowWindowAsync 함수는 클래스의 정적 메서드로 Windows PowerShell 세션에 추가 하는 cmdlet를 <bpt id="p2">**</bpt>Add-type<ept id="p2">**</ept> 만듭니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>MemberDefinition<ept id="p1">**</ept> parameter to specify the method definition saved in the $signature variable.</source>
+          <target state="translated">이 명령은 <bpt id="p1">**</bpt>MemberDefinition<ept id="p1">**</ept> 매개 변수를 $signature 변수에 저장 된 메서드 정의 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Namespace<ept id="p2">**</ept> parameters to specify a name and namespace for the class.</source>
+          <target state="translated">명령을 사용 하 여는 <bpt id="p1">**</bpt>이름<ept id="p1">**</ept> 및 <bpt id="p2">**</bpt>네임 스페이스<ept id="p2">**</ept> 매개 변수 이름 및 네임 스페이스의 클래스를 지정할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter to generate an object that represents the types, and it saves the object in the $showWindowAsync variable.</source>
+          <target state="translated">사용 하 여는 <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> $showWindowAsync 변수에 개체를 저장 하는 매개 변수는 형식과 것을 나타내는 개체를 생성 합니다.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The third and fourth commands use the new ShowWindowAsync static method.</source>
+          <target state="translated">세 번째 및 네 번째 명령은 새 ShowWindowAsync 정적 메서드를 사용합니다.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The method takes two parameters, the window handle, and an integer specifies how the window is to be shown.</source>
+          <target state="translated">이 메서드는 창 핸들과 창 표시 방법을 지정하는 정수를 매개 변수로 사용합니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The third command calls ShowWindowAsync.</source>
+          <target state="translated">세 번째 명령은 ShowWindowAsync를 호출합니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>It uses the Get-Process cmdlet with the $pid automatic variable to get the process that is hosting the current Windows PowerShell session.</source>
+          <target state="translated">현재 Windows PowerShell 세션을 호스팅하는 프로세스를 가져옵니다 Get-process cmdlet $pid를 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Then it uses the <bpt id="p1">**</bpt>MainWindowHandle<ept id="p1">**</ept> property of the current process and a value of "2", which represents the SW_MINIMIZE value.</source>
+          <target state="translated">사용 하 여는 <bpt id="p1">**</bpt>MainWindowHandle<ept id="p1">**</ept> SW_MINIMIZE 값을 나타내는 "2"의 값과 현재 프로세스의 속성입니다.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>To restore the window, the fourth command use a value of "4" for the window position, which represents the SW_RESTORE value.</source>
+          <target state="translated">창을 복원하기 위해 네 번째 명령은 창 위치로 SW_RESTORE 값을 나타내는 "4"를 사용합니다.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>(SW_MAXIMIZE is 3.)</source>
+          <target state="translated">SW_MAXIMIZE는 3입니다.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 6 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 6 --------------------------</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet to add a method from inline JScript code to the Windows PowerShell session.</source>
+          <target state="translated">이 명령을 사용 하 여는 <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> cmdlet을 Windows PowerShell 세션에 인라인 JScript 코드의 메서드를 추가 합니다.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>MemberDefinition<ept id="p1">**</ept> parameter to submit source code stored in the $jsMethod variable.</source>
+          <target state="translated">사용 하 여는 <bpt id="p1">**</bpt>MemberDefinition<ept id="p1">**</ept> 매개 변수 $jsMethod 변수에 저장 된 소스 코드를 제출 합니다.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> parameter to specify a name for the class that <bpt id="p2">**</bpt>Add-Type<ept id="p2">**</ept> creates for the method and the <bpt id="p3">**</bpt>Language<ept id="p3">**</ept> parameter to specify the JScript language.</source>
+          <target state="translated">사용 하 여는 <bpt id="p1">**</bpt>이름<ept id="p1">**</ept> 매개 변수를 클래스에 대 한 이름을 지정 하는 <bpt id="p2">**</bpt>Add-type<ept id="p2">**</ept> 메서드에 대해 만드는 및 <bpt id="p3">**</bpt>언어<ept id="p3">**</ept> 매개 변수를 JScript 언어를 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 7 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 7 --------------------------</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet to add an FSharp code compiler to your Windows PowerShell session.</source>
+          <target state="translated">사용 하는 방법을 보여 주는이 예제는 <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> cmdlet을 Windows PowerShell 세션에는 FSharp 코드 컴파일러를 추가 합니다.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>To run this example in Windows PowerShell, you must have the FSharp.Compiler.CodeDom.dll that is installed with the FSharp language.</source>
+          <target state="translated">Windows PowerShell에서 이 예를 실행하려면 FSharp 언어와 함께 설치되는 FSharp.Compiler.CodeDom.dll이 있어야 합니다.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The first command in the example uses the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet with the <bpt id="p2">**</bpt>Path<ept id="p2">**</ept> parameter to specify an assembly.</source>
+          <target state="translated">예제에서 첫 번째 명령은 <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> 사용 하 여 cmdlet는 <bpt id="p2">**</bpt>경로<ept id="p2">**</ept> 어셈블리를 지정 하는 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> gets the types in the assembly.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> 어셈블리의 형식을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The second command uses the New-Object cmdlet to create an instance of the FSharp code provider and saves the result in the $Provider variable.</source>
+          <target state="translated">두 번째 명령은 New-object cmdlet을 사용 하 여 FSharp 코드 공급자의 인스턴스를 만드는 및 $Provider 변수에 결과 저장 합니다.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The third command saves the FSharp code that defines the Loop method in the $FSharpCode variable.</source>
+          <target state="translated">세 번째 명령은 Loop 메서드를 정의하는 FSharp 코드를 $FSharpCode 변수에 저장합니다.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The fourth command uses the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet to save the public types defined in $fSharpCode in the $fSharpType variable.</source>
+          <target state="translated">네 번째 명령은 <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> $fSharpCode $fSharpType 변수에 정의 된 public 형식을 저장 하는 cmdlet입니다.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>TypeDefinition<ept id="p1">**</ept> parameter specifies the source code that defines the types.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>TypeDefinition<ept id="p1">**</ept> 매개 변수 형식을 정의 하는 소스 코드를 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>CodeDomProvider<ept id="p1">**</ept> parameter specifies the source code compiler.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>CodeDomProvider<ept id="p1">**</ept> 매개 변수는 소스 코드 컴파일러를 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter directs <bpt id="p2">**</bpt>Add-Type<ept id="p2">**</ept> to return a <bpt id="p3">**</bpt>Runtime<ept id="p3">**</ept> object that represents the types and a pipeline operator (|) sends the <bpt id="p4">**</bpt>Runtime<ept id="p4">**</ept> object to the Where-Object cmdlet, which returns only the public types.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> 매개 변수는 지시 <bpt id="p2">**</bpt>Add-type<ept id="p2">**</ept> 반환 하는 <bpt id="p3">**</bpt>런타임<ept id="p3">**</ept> 형식과 파이프라인 연산자 (|)를 나타내는 개체를 보냅니다는 <bpt id="p4">**</bpt>런타임<ept id="p4">**</ept> public 형식만 반환 하는 Where-object cmdlet으로 개체를 합니다.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Where-Object<ept id="p1">**</ept> cmdlet is used because the FSharp provider generates non-public types to support the resulting public type.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Where-object<ept id="p1">**</ept> cmdlet은 FSharp 공급자가 결과 public 형식을 지원 하기 위한 public이 아닌 형식을 생성 하기 때문에 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The fifth command calls the Loop method as a static method of the type stored in the $fSharpType variable.</source>
+          <target state="translated">다섯 번째 명령은 $fSharpType 변수에 저장된 유형의 정적 메서드로 Loop 메서드를 호출합니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">매개 변수</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>-AssemblyName</source>
+          <target state="translated">-AssemblyName</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Specifies the name of an assembly that includes the types.</source>
+          <target state="translated">해당 유형을 포함하는 어셈블리 이름을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> takes the types from the specified assembly.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> 지정된 된 어셈블리에서 형식을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>This parameter is required when you are creating types based on an assembly name.</source>
+          <target state="translated">어셈블리 이름을 사용하여 유형을 만드는 경우 이 매개 변수는 필수입니다.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Enter the full or simple name (also known as the "partial name") of an assembly.</source>
+          <target state="translated">어셈블리의 전체 이름 또는 간단한 이름("부분 이름"이라고도 함)을 입력합니다.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are permitted in the assembly name.</source>
+          <target state="translated">어셈블리 이름에는 와일드카드 문자를 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>If you enter a simple or partial name, <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> resolves it to the full name, and then uses the full name to load the assembly.</source>
+          <target state="translated">단순 또는 부분 이름을 입력 하면 <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> 전체 이름으로 확인 한 다음 전체 이름을 사용 하 여 어셈블리를 로드 합니다.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>This parameter does not accept a path or file name.</source>
+          <target state="translated">이 매개 변수는 경로 또는 파일 이름을 사용하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>To enter the path to the assembly dynamic-link library (DLL) file, use the Path parameter.</source>
+          <target state="translated">어셈블리 DLL(동적 연결 라이브러리) 파일에 대한 경로를 입력하려면 Path 매개 변수를 사용합니다.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>-CodeDomProvider</source>
+          <target state="translated">-CodeDomProvider</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Specifies a code generator or compiler.</source>
+          <target state="translated">코드 생성기 또는 컴파일러를 지정합니다.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> uses the specified compiler to compile the source code.</source>
+          <target state="translated"><bpt id="p1">**</bpt>형식 추가<ept id="p1">**</ept> 은 지정 된 컴파일러를 사용 하 여 소스 코드를 컴파일할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The default is the CSharp compiler.</source>
+          <target state="translated">기본값은 CSharp 컴파일러입니다.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Use this parameter if you are using a language that cannot be specified by using the Language parameter.</source>
+          <target state="translated">Language 매개 변수를 사용하여 지정할 수 없는 언어를 사용하려면 이 매개 변수를 사용합니다.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The CodeDomProvider that you specify must be able to generate assemblies from source code.</source>
+          <target state="translated">지정하는 CodeDomProvider는 소스 코드에서 어셈블리를 생성할 수 있어야 합니다.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>-CompilerParameters</source>
+          <target state="translated">-CompilerParameters</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Specifies the options for the source code compiler.</source>
+          <target state="translated">소스 코드 컴파일러에 대한 옵션을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>These options are sent to the compiler without revision.</source>
+          <target state="translated">이 옵션은 수정 없이 컴파일러로 보내집니다.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>This parameter allows you to direct the compiler to generate an executable file, embed resources, or set command-line options, such as the "/unsafe" option.</source>
+          <target state="translated">이 매개 변수를 사용하여 실행 파일을 생성하거나, 리소스를 포함하거나, "/unsafe" 옵션과 같은 명령줄 옵션을 설정하도록 컴파일러에 지시할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>This parameter implements the <bpt id="p1">**</bpt>CompilerParameters<ept id="p1">**</ept> class (System.CodeDom.Compiler.CompilerParameters).</source>
+          <target state="translated">이 매개 변수를 구현 하는 <bpt id="p1">**</bpt>CompilerParameters<ept id="p1">**</ept> 클래스 (System.CodeDom.Compiler.CompilerParameters).</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>You cannot use the <bpt id="p1">**</bpt>CompilerParameters<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ReferencedAssemblies<ept id="p2">**</ept> parameters in the same command.</source>
+          <target state="translated">사용할 수 없습니다는 <bpt id="p1">**</bpt>CompilerParameters<ept id="p1">**</ept> 및 <bpt id="p2">**</bpt>ReferencedAssemblies<ept id="p2">**</ept> 동일한 명령에 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>-IgnoreWarnings</source>
+          <target state="translated">-IgnoreWarnings</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Ignores compiler warnings.</source>
+          <target state="translated">컴파일러 경고를 무시합니다.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Use this parameter to prevent <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> from handling compiler warnings as errors.</source>
+          <target state="translated">방지 하기 위해이 매개 변수를 사용 하 여 <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> 컴파일러 경고를 오류로 처리 합니다.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>-Language</source>
+          <target state="translated">언어</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Specifies the language that is used in the source code.</source>
+          <target state="translated">소스 코드에서 사용된 언어를 지정합니다.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet uses the value of this parameter to select the appropriate CodeDomProvider.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> cmdlet이 매개이 변수 값을 사용 하 여 적절 한 CodeDomProvider를 선택 합니다.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Valid values are "CSharp", "CSharpVersion3", "VisualBasic", and "JScript".</source>
+          <target state="translated">유효한 값은 "CSharp", "CSharpVersion3", "VisualBasic" 및 "JScript"입니다.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>"CSharp" is the default value.</source>
+          <target state="translated">"CSharp"가 기본값입니다.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>-LiteralPath</source>
+          <target state="translated">-LiteralPath</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Specifies the path to source code files or assembly DLL files that contain the types.</source>
+          <target state="translated">해당 유형이 포함된 소스 코드 파일 또는 어셈블리 DLL 파일의 경로를 지정합니다.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Unlike <bpt id="p1">**</bpt>Path<ept id="p1">**</ept>, the value of the <bpt id="p2">**</bpt>LiteralPath<ept id="p2">**</ept> parameter is used exactly as it is typed.</source>
+          <target state="translated">와 달리 <bpt id="p1">**</bpt>경로<ept id="p1">**</ept>, 의 값은 <bpt id="p2">**</bpt>LiteralPath<ept id="p2">**</ept> 매개 변수는 입력 된 대로 정확 하 게 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>No characters are interpreted as wildcards.</source>
+          <target state="translated">어떠한 문자도 와일드카드로 해석되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>If the path includes escape characters, enclose it in single quotation marks.</source>
+          <target state="translated">이스케이프 문자가 포함된 경로는 작은따옴표로 묶으세요.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Single quotation marks tell Windows PowerShell not to interpret any characters as escape sequences.</source>
+          <target state="translated">작은따옴표는 Windows PowerShell이 어떤 문자도 이스케이프 시퀀스로 해석하지 않도록 지시합니다.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>-MemberDefinition</source>
+          <target state="translated">-MemberDefinition</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Specifies new properties or methods for the class.</source>
+          <target state="translated">클래스의 새 속성 또는 메서드를 지정합니다.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> generates the template code that is required to support the properties or methods.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> 메서드나 속성을 지원 해야 하는 템플릿 코드를 생성 합니다.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>You can use this feature to make Platform Invoke (P/Invoke) calls to unmanaged functions in Windows PowerShell.</source>
+          <target state="translated">이 기능을 사용하여 Windows PowerShell의 관리되지 않는 함수에 대한 플랫폼 호출(P/Invoke)을 수행할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>For more information, see the examples.</source>
+          <target state="translated">자세한 내용은 예제를 참조하세요.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the class to create.</source>
+          <target state="translated">만들 클래스의 이름을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>This parameter is required when generating a type from a member definition.</source>
+          <target state="translated">멤버 정의에서 유형을 생성하는 경우 이 매개 변수는 필수입니다.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The type name and namespace must be unique within a session.</source>
+          <target state="translated">유형 이름 및 네임스페이스는 세션 내부에서 고유해야 합니다.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>You cannot unload a type or change it.</source>
+          <target state="translated">유형을 언로드하거나 변경할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>If you need to change the code for a type, you must change the name or start a new Windows PowerShell session.</source>
+          <target state="translated">유형에 대한 코드를 변경해야 하는 경우 해당 이름을 변경하거나 새 Windows PowerShell 세션을 시작해야 합니다.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Otherwise, the command fails.</source>
+          <target state="translated">그러지 않으면 명령이 실패합니다.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>-Namespace</source>
+          <target state="translated">-네임 스페이스</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Specifies a namespace for the type.</source>
+          <target state="translated">유형의 네임스페이스를 지정합니다.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>If this parameter is not included in the command, the type is created in the <bpt id="p1">**</bpt>Microsoft.PowerShell.Commands.AddType.AutoGeneratedTypes<ept id="p1">**</ept> namespace.</source>
+          <target state="translated">이 매개 변수는 명령에 포함 되지 않은, 형식에서 만들어집니다는 <bpt id="p1">**</bpt>Microsoft.PowerShell.Commands.AddType.AutoGeneratedTypes<ept id="p1">**</ept> 네임 스페이스입니다.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>If the parameter is included in the command with an empty string value or a value of $null, the type is generated in the global namespace.</source>
+          <target state="translated">이 매개 변수가 명령에 빈 문자열 값 또는 $null 값으로 지정된 경우 유형은 전역 네임스페이스에 생성됩니다.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>-OutputAssembly</source>
+          <target state="translated">-OutputAssembly</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Generates a DLL file for the assembly with the specified name in the location.</source>
+          <target state="translated">어셈블리에 대한 DLL 파일을 해당 위치에 지정된 이름으로 생성합니다.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Enter a path (optional) and file name.</source>
+          <target state="translated">경로(선택 사항)와 파일 이름을 입력하세요.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are permitted.</source>
+          <target state="translated">와일드카드 문자를 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> generates the assembly only in memory.</source>
+          <target state="translated">기본적으로 <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> 메모리에만 어셈블리를 생성 합니다.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>-OutputType</source>
+          <target state="translated">-OutputType</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Specifies the output type of the output assembly.</source>
+          <target state="translated">출력 어셈블리의 출력 유형을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Valid values are <bpt id="p1">**</bpt>Library<ept id="p1">**</ept>, <bpt id="p2">**</bpt>ConsoleApplication<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>WindowsApplication<ept id="p3">**</ept>.</source>
+          <target state="translated">유효한 값은 <bpt id="p1">**</bpt>라이브러리<ept id="p1">**</ept>, <bpt id="p2">**</bpt>콘솔 응용 프로그램<ept id="p2">**</ept>, 및 <bpt id="p3">**</bpt>WindowsApplication<ept id="p3">**</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>For more information about the values, see "OutputAssemblyType Enumeration" in MSDN.</source>
+          <target state="translated">값에 대한 자세한 내용은 MSDN의 "OutputAssemblyType 열거형"을 참조하세요.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>By default, no output type is specified.</source>
+          <target state="translated">기본적으로 출력 유형은 지정되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when an output assembly is specified in the command.</source>
+          <target state="translated">이 매개 변수는 명령에서 출력 어셈블리를 지정한 경우에만 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>-PassThru</source>
+          <target state="translated">-PassThru</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">**</bpt>System.Runtime<ept id="p1">**</ept> object that represents the types that were added.</source>
+          <target state="translated">반환 된 <bpt id="p1">**</bpt>System.Runtime<ept id="p1">**</ept> 추가 된 형식을 나타내는 개체입니다.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>By default, this cmdlet does not generate any output.</source>
+          <target state="translated">기본적으로 이 cmdlet은 출력을 생성하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>-Path</source>
+          <target state="translated">-Path</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Specifies the path to source code files or assembly DLL files that contain the types.</source>
+          <target state="translated">해당 유형이 포함된 소스 코드 파일 또는 어셈블리 DLL 파일의 경로를 지정합니다.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>If you submit source code files, <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> compiles the code in the files and creates an in-memory assembly of the types.</source>
+          <target state="translated">소스 코드 파일을 제출 하는 경우 <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> 파일에서 코드를 컴파일하고 형식의 메모리 내 어셈블리를 만듭니다.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The file name extension specified in the value of Path determines the compiler that <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> uses.</source>
+          <target state="translated">Path 값에 지정 된 파일 이름 확장명에는 컴파일러가 결정 하는 <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>If you submit an assembly file, <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> takes the types from the assembly.</source>
+          <target state="translated">어셈블리 파일을 제출할 경우 <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> 어셈블리에서 형식을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>To specify an in-memory assembly or the global assembly cache, use the <bpt id="p1">**</bpt>AssemblyName<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">메모리 내 어셈블리 또는 전역 어셈블리 캐시를 지정 하려면는 <bpt id="p1">**</bpt>AssemblyName<ept id="p1">**</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>-ReferencedAssemblies</source>
+          <target state="translated">-ReferencedAssemblies</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Specifies the assemblies upon which the type depends.</source>
+          <target state="translated">유형이 종속된 어셈블리를 지정합니다.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> references System.dll and System.Management.Automation.dll.</source>
+          <target state="translated">기본적으로 <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> System.dll 및 System.Management.Automation.dll을 참조 합니다.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The assemblies that you specify by using this parameter are referenced in addition to the default assemblies.</source>
+          <target state="translated">이 매개 변수를 사용하여 지정하는 어셈블리는 기본 어셈블리에 추가하여 참조됩니다.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>You cannot use the <bpt id="p1">**</bpt>CompilerParameters<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ReferencedAssemblies<ept id="p2">**</ept> parameters in the same command.</source>
+          <target state="translated">사용할 수 없습니다는 <bpt id="p1">**</bpt>CompilerParameters<ept id="p1">**</ept> 및 <bpt id="p2">**</bpt>ReferencedAssemblies<ept id="p2">**</ept> 동일한 명령에 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>-TypeDefinition</source>
+          <target state="translated">-TypeDefinition</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Specifies the source code that contains the type definitions.</source>
+          <target state="translated">유형 정의가 포함된 소스 코드를 지정합니다.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Enter the source code in a string or here-string, or enter a variable that contains the source code.</source>
+          <target state="translated">소스 코드를 문자열 또는 here-string으로 입력하거나 소스 코드가 포함된 변수를 입력하세요.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>For more information about here-strings, see about_Quoting_Rules (http://go.microsoft.com/fwlink/?LinkID=113253).</source>
+          <target state="translated">Here-strings에 대 한 자세한 내용은 about_Quoting_Rules (http://go.microsoft.com/fwlink/?LinkID=113253)를 참조 하세요.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Include a namespace declaration in your type definition.</source>
+          <target state="translated">유형 정의에 네임스페이스 선언을 포함하세요.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>If you omit the namespace declaration, your type might have the same name as another type or the shortcut for another type, causing an unintentional overwrite.</source>
+          <target state="translated">네임스페이스 선언을 누락하면 유형 이름이 다른 유형 또는 다른 유형의 바로 가기 이름과 같아져서 해당 유형을 덮어쓰는 일이 발생할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>For example, if you define a type called "Exception", scripts that use "Exception" as the shortcut for <bpt id="p1">**</bpt>System.Exception<ept id="p1">**</ept> will fail.</source>
+          <target state="translated">예를 들어 "Exception" 이라는 형식을 정의 하는 경우 스크립트를 사용 하 여 "예외"를 바로 가기로 대 한 <bpt id="p1">**</bpt>System.Exception<ept id="p1">**</ept> 실패 합니다.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>-UsingNamespace</source>
+          <target state="translated">-UsingNamespace</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Specifies other namespaces that are required for the class.</source>
+          <target state="translated">클래스에 필요한 다른 네임스페이스를 지정합니다.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>This is much like the Using keyword in C#.</source>
+          <target state="translated">이 매개 변수는 C#의 Using 키워드와 매우 유사합니다.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> references the <bpt id="p2">**</bpt>System<ept id="p2">**</ept> namespace.</source>
+          <target state="translated">기본적으로 <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> 참조는 <bpt id="p2">**</bpt>시스템<ept id="p2">**</ept> 네임 스페이스입니다.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>When the <bpt id="p1">**</bpt>MemberDefinition<ept id="p1">**</ept> parameter is used, <bpt id="p2">**</bpt>Add-Type<ept id="p2">**</ept> also references the <bpt id="p3">**</bpt>System.Runtime.InteropServices<ept id="p3">**</ept> namespace by default.</source>
+          <target state="translated">때는 <bpt id="p1">**</bpt>MemberDefinition<ept id="p1">**</ept> 매개 변수는 사용 <bpt id="p2">**</bpt>Add-type<ept id="p2">**</ept> 도 참조는 <bpt id="p3">**</bpt>System.Runtime.InteropServices<ept id="p3">**</ept> 기본적으로 네임 스페이스입니다.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>The namespaces that you add by using the <bpt id="p1">**</bpt>UsingNamespace<ept id="p1">**</ept> parameter are referenced in addition to the default namespaces.</source>
+          <target state="translated">네임 스페이스를 사용 하 여 추가 된 <bpt id="p1">**</bpt>UsingNamespace<ept id="p1">**</ept> 매개 변수는 기본 네임 스페이스 외에도 참조 됩니다.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">이 cmdlet은 공통 매개 변수:-디버그,-ErrorAction,-ErrorVariable,-InformationAction,-InformationVariable,-OutVariable,-OutBuffer,-PipelineVariable,-Verbose,-WarningAction 및-warningvariable을 지원 합니다.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">자세한 내용은 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)를 참조 합니다.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">입력</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">없음</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>You cannot pipe objects to Add-Type.</source>
+          <target state="translated">Add-Type으로 개체를 파이프할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">출력</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>None or System.Type</source>
+          <target state="translated">없음 또는 System.Type</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>When you use the <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter, <bpt id="p2">**</bpt>Add-Type<ept id="p2">**</ept> returns a <bpt id="p3">**</bpt>System.Type<ept id="p3">**</ept> object that represents the new type.</source>
+          <target state="translated">사용 하는 경우는 <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> 매개 변수를 <bpt id="p2">**</bpt>Add-type<ept id="p2">**</ept> 반환는 <bpt id="p3">**</bpt>System.Type<ept id="p3">**</ept> 새 형식을 나타내는 개체입니다.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Otherwise, this cmdlet does not generate any output.</source>
+          <target state="translated">그러지 않으면 이 cmdlet에서 출력이 생성되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">참고 사항</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The types that you add exist only in the current session.</source>
+          <target state="translated">추가한 유형은 현재 세션에만 있습니다.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>To use the types in all sessions, add them to your Windows PowerShell profile.</source>
+          <target state="translated">해당 유형을 모든 세션에서 사용하려면 Windows PowerShell 프로필에 추가하세요.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>For more information about the profile, see about_Profiles (http://go.microsoft.com/fwlink/?LinkID=113729).</source>
+          <target state="translated">프로필에 대 한 자세한 내용은 about_Profiles (http://go.microsoft.com/fwlink/?LinkID=113729)를 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Type names (and namespaces) must be unique within a session.</source>
+          <target state="translated">유형 이름(및 네임스페이스)은 세션 내부에서 고유해야 합니다.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>You cannot unload a type or change it.</source>
+          <target state="translated">유형을 언로드하거나 변경할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>If you need to change the code for a type, you must change the name or start a new Windows PowerShell session.</source>
+          <target state="translated">유형에 대한 코드를 변경해야 하는 경우 해당 이름을 변경하거나 새 Windows PowerShell 세션을 시작해야 합니다.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Otherwise, the command fails.</source>
+          <target state="translated">그러지 않으면 명령이 실패합니다.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>The CodeDomProvider class for some languages, such as IronPython and JSharp, does not generate output.</source>
+          <target state="translated">IronPython 및 JSharp와 같은 일부 언어에 대한 CodeDomProvider 클래스는 출력이 생성되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>As a result, types written in these languages cannot be used with <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept>.</source>
+          <target state="translated">이러한 언어로 작성 된 형식을 함께 사용할 수 없습니다 결과적으로, <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>This cmdlet is based on the <bpt id="p1">**</bpt>CodeDomProvider<ept id="p1">**</ept> class.</source>
+          <target state="translated">이 cmdlet는 기반는 <bpt id="p1">**</bpt>CodeDomProvider<ept id="p1">**</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>For more information about this class, see the Microsoft .NET Framework SDK.</source>
+          <target state="translated">이 클래스에 대한 자세한 내용은 Microsoft .NET Framework SDK를 참조하세요.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">관련된 링크</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Add-Member</source>
+          <target state="translated">Add-Member</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>New-Object</source>
+          <target state="translated">새 개체</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0e415050084148d91ecd055e84af23bbf2ba4498</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Utility\Set-Alias.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b677b54792ecd11d73a7f0418d047ba74257be0c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">43552cf6fbab76db85abff50735bee5e2c7ddbcf</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Set-Alias</source>
+          <target state="translated">Set-Alias</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Set-Alias</source>
+          <target state="translated">Set-Alias</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">简述</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Creates or changes an alias for a cmdlet or other command element in the current Windows PowerShell session.</source>
+          <target state="translated">创建或更改当前的 Windows PowerShell 会话中的 cmdlet 或其他命令元素的别名。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">语法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Set-Alias<ept id="p1">**</ept> cmdlet creates or changes an alias (alternate name) for a cmdlet or for a command element, such as a function, a script, a file, or other executable.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>集别名<ept id="p1">**</ept> cmdlet 创建或更改别名 （替代名称），为 cmdlet 或命令元素，如函数、 脚本、 文件或其他可执行文件。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can also use <bpt id="p1">**</bpt>Set-Alias<ept id="p1">**</ept> to reassign a current alias to a new command, or to change any of the properties of an alias, such as its description.</source>
+          <target state="translated">您还可以使用 <bpt id="p1">**</bpt>集别名<ept id="p1">**</ept> 重新分配给一个新命令的当前别名或更改任何别名，例如其说明的属性。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Unless you add the alias to the Windows PowerShell profile, the changes to an alias are lost when you exit the session or close Windows PowerShell.</source>
+          <target state="translated">除非将别名添加到 Windows PowerShell 配置文件，否则在退出会话或关闭 Windows PowerShell 时，对该别名所做的更改将会丢失。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">示例</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Example 1: Create an alias for a Get-ChildItem</source>
+          <target state="translated">示例 1︰ 为的 Get-childitem 创建别名</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This command creates the alias <bpt id="p1">**</bpt>list<ept id="p1">**</ept> for the Get-ChildItem cmdlet.</source>
+          <target state="translated">此命令创建别名 <bpt id="p1">**</bpt>列表<ept id="p1">**</ept> Get-childitem cmdlet。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>After you create the alias, you can use <bpt id="p1">**</bpt>list<ept id="p1">**</ept> in place of <bpt id="p2">**</bpt>Get-ChildItem<ept id="p2">**</ept> at the command line and in scripts.</source>
+          <target state="translated">创建该别名后，可以使用 <bpt id="p1">**</bpt>列表<ept id="p1">**</ept> 代替了 <bpt id="p2">**</bpt>Get-childitem<ept id="p2">**</ept> 在命令行和脚本中。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Example 2: Create an alias and omit parameter names</source>
+          <target state="translated">示例 2︰ 创建一个别名，并省略参数名</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This command associates the alias <bpt id="p1">**</bpt>list<ept id="p1">**</ept> with the Get-Location cmdlet.</source>
+          <target state="translated">此命令将别名相关联 <bpt id="p1">**</bpt>列表<ept id="p1">**</ept> 使用 Get-location cmdlet。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">**</bpt>list<ept id="p1">**</ept> is an alias for another cmdlet, this command changes its association so that it now is the alias only for <bpt id="p2">**</bpt>Get-Location<ept id="p2">**</ept>.</source>
+          <target state="translated">如果 <bpt id="p1">**</bpt>列表<ept id="p1">**</ept> 是别名另一个 cmdlet，此命令将更改其关联，以便它现在仅为别名 <bpt id="p2">**</bpt>Get-location<ept id="p2">**</ept>。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This command uses the same format as the command in the previous example, but it omits the optional parameter names, <bpt id="p1">*</bpt>Name<ept id="p1">*</ept> and <bpt id="p2">*</bpt>Value<ept id="p2">*</ept>.</source>
+          <target state="translated">此命令为在上一示例中，该命令使用相同的格式，但它会省略了可选参数名， <bpt id="p1">*</bpt>名称<ept id="p1">*</ept> 和 <bpt id="p2">*</bpt>值<ept id="p2">*</ept>。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>When you omit parameter names, the values of those parameters must appear in the specified order in the command.</source>
+          <target state="translated">在省略参数名时，这些参数的值必须以指定的顺序出现在命令中。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>In this case, the value of <bpt id="p1">*</bpt>Name<ept id="p1">*</ept> (<bpt id="p2">**</bpt>list<ept id="p2">**</ept>) must be the first parameter and the value of <bpt id="p3">*</bpt>Value<ept id="p3">*</ept> (get-location) must be the second parameter.</source>
+          <target state="translated">在此例中的值 <bpt id="p1">*</bpt>名称<ept id="p1">*</ept> (<bpt id="p2">**</bpt>列表<ept id="p2">**</ept>) 的第一个参数和值必须是 <bpt id="p3">*</bpt>值<ept id="p3">*</ept> （get 位置） 必须是第二个参数。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Example 3: Make an alias read-only</source>
+          <target state="translated">示例 3︰ 请将别名为只读</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This command associates the alias <bpt id="p1">**</bpt>scrub<ept id="p1">**</ept> with the <bpt id="p2">**</bpt>Remove-Item<ept id="p2">**</ept> cmdlet.</source>
+          <target state="translated">此命令将别名相关联 <bpt id="p1">**</bpt>清理<ept id="p1">**</ept> 与 <bpt id="p2">**</bpt>Remove-item<ept id="p2">**</ept> cmdlet。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>It uses the ReadOnly option to prevent the alias from being deleted or assigned to another cmdlet.</source>
+          <target state="translated">它使用 ReadOnly 选项来防止被删除或分配给另一个 cmdlet 的别名。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>PassThru<ept id="p1">*</ept> parameter directs Windows PowerShell to pass an object that represents the new alias through the pipeline to the Format-List cmdlet.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>PassThru<ept id="p1">*</ept> 参数指示 Windows PowerShell 要传递给 Format-list cmdlet 表示通过管道的新别名的对象。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">*</bpt>PassThru<ept id="p1">*</ept> parameter were omitted, there would be no output from this cmdlet to display (in a list or otherwise).</source>
+          <target state="translated">如果 <bpt id="p1">*</bpt>PassThru<ept id="p1">*</ept> 已省略参数，所以，则没有此 cmdlet 可显示音频输出 (在列表中或其他)。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Example 4: Create an alias for Notepad.exe</source>
+          <target state="translated">示例 4︰ 为 Notepad.exe 创建别名</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This command associates the alias, <bpt id="p1">**</bpt>np<ept id="p1">**</ept>, with the executable file for Notepad.</source>
+          <target state="translated">此命令将别名相关联 <bpt id="p1">**</bpt>np<ept id="p1">**</ept>, ，使用记事本的可执行文件。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>After the command completes, to open Notepad from the Windows PowerShell command line, just type <ph id="ph1">`np`</ph>.</source>
+          <target state="translated">该命令完成后，若要从 Windows PowerShell 命令行中，打开记事本后只需键入 <ph id="ph1">`np`</ph>。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This example demonstrates that you can create aliases for executable files and elements other than cmdlets.</source>
+          <target state="translated">此示例演示了如何为 cmdlet 之外的可执行文件和元素创建别名。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To make the command more generic, you can use the Windir environment variable (${env:windir}) to represent the C\Windows directory.</source>
+          <target state="translated">若要使该命令更为通用，可以使用 Windir 环境变量 （${env: windir}） 来表示 C\Windows 目录。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The generic version of the command is <ph id="ph1">`Set-Alias np ${env:windir}\notepad.exe`</ph>.</source>
+          <target state="translated">该命令的泛型版本是 <ph id="ph1">`Set-Alias np ${env:windir}\notepad.exe`</ph>。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Example 5: Create an alias for a command with parameters</source>
+          <target state="translated">示例 5︰ 创建带参数的命令的别名</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>These commands show how to assign an alias to a command with parameters, or even to a pipeline of many commands.</source>
+          <target state="translated">这些命令显示了如何为带有参数的命令（甚至是包含多个命令的管道）分配别名。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You can create an alias for a cmdlet, but you cannot create an alias for a command that consists of a cmdlet and its parameters.</source>
+          <target state="translated">你可以为 cmdlet 创建别名，但不能为由 cmdlet 及其参数组成的命令创建别名。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>However, if you place the command in a function or a script, then you can create a useful function or script name and you can create one or more aliases for the function or script.</source>
+          <target state="translated">但是，如果你将该命令放在函数或脚本中，则你可以创建一个有用函数或脚本名称，并可为该函数或脚本创建一个或多个别名。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>In this example, the user wants to create an alias for the command <ph id="ph1">`Set-Location C:\windows\system32`</ph>, where <bpt id="p1">**</bpt>Set-Location<ept id="p1">**</ept> is a cmdlet and C:\Windows\System32 is the value of the <bpt id="p2">*</bpt>Path<ept id="p2">*</ept> parameter.</source>
+          <target state="translated">在此示例中，用户想要为此命令创建别名 <ph id="ph1">`Set-Location C:\windows\system32`</ph>, ，其中 <bpt id="p1">**</bpt>Set-location<ept id="p1">**</ept> 是 cmdlet，而 C:\Windows\System32 的价值是 <bpt id="p2">*</bpt>路径<ept id="p2">*</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To do this, the first command creates a function called CD32 that contains the Set-Location command.</source>
+          <target state="translated">若要执行此操作，第一个命令创建 CD32 包含 Set-location 命令时调用的函数。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The second command creates the alias <bpt id="p1">**</bpt>go<ept id="p1">**</ept> for the CD32 function.</source>
+          <target state="translated">第二个命令创建别名 <bpt id="p1">**</bpt>转<ept id="p1">**</ept> 为 CD32 函数。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Then, to run the <bpt id="p1">**</bpt>Set-Location<ept id="p1">**</ept> command, the user can type either <ph id="ph1">`CD32`</ph> or <ph id="ph2">`go`</ph>.</source>
+          <target state="translated">然后，若要运行 <bpt id="p1">**</bpt>Set-location<ept id="p1">**</ept> 命令时，用户可以键入任意 <ph id="ph1">`CD32`</ph> 或 <ph id="ph2">`go`</ph>。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">参数</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">将提示您在运行 cmdlet 前进行确认。将提示您在运行 cmdlet 前进行确认。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>-Description</source>
+          <target state="translated">-Description</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Specifies a description of the alias.</source>
+          <target state="translated">指定对别名的描述。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You can type any string.</source>
+          <target state="translated">你可以键入任意字符串。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If the description includes spaces, enclose it quotation marks.</source>
+          <target state="translated">如果描述包含空格，请将其括在引号中。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Indicates that the cmdlet will set a read-only alias.</source>
+          <target state="translated">指示该 cmdlet 将设置只读别名。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">*</bpt>Option<ept id="p1">*</ept> parameter to create a read-only alias.</source>
+          <target state="translated">使用 <bpt id="p1">*</bpt>选项<ept id="p1">*</ept> 参数来创建一个只读的别名。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>Force<ept id="p1">*</ept> parameter cannot set a constant alias.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>强制<ept id="p1">*</ept> 参数不能设置常量别名。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Specifies the new alias.</source>
+          <target state="translated">指定新的别名。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>You can use any alphanumeric characters in an alias, but the first character cannot be a number.</source>
+          <target state="translated">可以在别名中使用任何字母数字字符，但第一个字符不能为数字。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>-Option</source>
+          <target state="translated">选项</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Sets the value of the Options property of the alias.</source>
+          <target state="translated">设置别名的 Options 属性的值。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">此参数的可接受的值是：</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>None.</source>
+          <target state="translated">无。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Sets no options.</source>
+          <target state="translated">不设置任何选项。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>(None is the default.)</source>
+          <target state="translated">（无默认值。）</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>ReadOnly.</source>
+          <target state="translated">ReadOnly。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Can be deleted.</source>
+          <target state="translated">可以删除。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Cannot be not changed, except by using the Force parameter.</source>
+          <target state="translated">无法更改，除非通过使用 Force 参数。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Constant.</source>
+          <target state="translated">常量。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Cannot be deleted or changed.</source>
+          <target state="translated">无法删除或更改。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Private.</source>
+          <target state="translated">私有。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The alias is available only in the current scope.</source>
+          <target state="translated">别名仅在当前作用域中可用。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>AllScope.</source>
+          <target state="translated">AllScope。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The alias is copied to any new scopes that are created.</source>
+          <target state="translated">将别名复制到任何创建的新作用域。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Unspecified.</source>
+          <target state="translated">指定此字符集。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>To see the Options property of all aliases in the session, type <ph id="ph1">`get-alias | format-table -property name, options -autosize`</ph>.</source>
+          <target state="translated">若要查看在会话中的所有别名的 Options 属性，键入 <ph id="ph1">`get-alias | format-table -property name, options -autosize`</ph>。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>-PassThru</source>
+          <target state="translated">-PassThru</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Returns an object representing the item with which you are working.</source>
+          <target state="translated">返回一个代表你所处理的项目的对象。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>By default, this cmdlet does not generate any output.</source>
+          <target state="translated">默认情况下，此 cmdlet 将不产生任何输出。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>-Scope</source>
+          <target state="translated">作用域</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Specifies the scope in which this alias is valid.</source>
+          <target state="translated">指定此别名的有效作用域。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">此参数的可接受的值是：</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Global</source>
+          <target state="translated">全局</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Local</source>
+          <target state="translated">本地</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Script</source>
+          <target state="translated">脚本</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>A number relative to the current scope (0 through the number of scopes, where 0 is the current scope and 1 is its parent).</source>
+          <target state="translated">相对于当前作用域 (0 到作用域，其中 0 是当前作用域，1 是其父级的数) 数。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Local is the default.</source>
+          <target state="translated">默认值为本地。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Scopes.</source>
+          <target state="translated">有关详细信息，请参阅 about_Scopes。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>-Value</source>
+          <target state="translated">值</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the cmdlet or command element that is being aliased.</source>
+          <target state="translated">指定作为别名的 cmdlet 或命令元素的名称。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">显示如果运行 cmdlet 则会发生什么情况。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">该 cmdlet 不会运行。显示在 cmdlet 运行时，会发生什么情况。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">cmdlet 未运行。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">此 cmdlet 支持以下常见参数:-调试-ErrorAction、-ErrorVariable、-InformationAction、-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 和-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">有关详细信息，请参阅 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">输入</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">无</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>You cannot pipe input to this cmdlet.</source>
+          <target state="translated">不能通过管道将输入传递给此 cmdlet。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">输出</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>None or System.Management.Automation.AliasInfo</source>
+          <target state="translated">无或 System.Management.Automation.AliasInfo</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>When you use the <bpt id="p1">*</bpt>PassThru<ept id="p1">*</ept> parameter, <bpt id="p2">**</bpt>Set-Alias<ept id="p2">**</ept> generates a <bpt id="p3">**</bpt>System.Management.Automation.AliasInfo<ept id="p3">**</ept> object representing the alias.</source>
+          <target state="translated">当您使用 <bpt id="p1">*</bpt>PassThru<ept id="p1">*</ept> 参数， <bpt id="p2">**</bpt>集别名<ept id="p2">**</ept> 生成 <bpt id="p3">**</bpt>System.Management.Automation.AliasInfo<ept id="p3">**</ept> 表示别名的对象。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Otherwise, this cmdlet does not generate any output.</source>
+          <target state="translated">否则，此 cmdlet 将不生成任何输出。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>An alias is an alternate name or nickname for a cmdlet or command element.</source>
+          <target state="translated">别名是 cmdlet 或命令元素的替代名称或昵称。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>To run the cmdlet, you can use its full name or any valid alias.</source>
+          <target state="translated">若要运行此 cmdlet，你可以使用其全名或任何有效的别名。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Aliases.</source>
+          <target state="translated">有关详细信息，请参阅 about_Aliases。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>To create a new alias, use <bpt id="p1">**</bpt>Set-Alias<ept id="p1">**</ept> or New-Alias.</source>
+          <target state="translated">若要创建新的别名，请使用 <bpt id="p1">**</bpt>集别名<ept id="p1">**</ept> 或 New-alias。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>To delete an alias, use Remove-Item.</source>
+          <target state="translated">若要删除别名，请使用 Remove-Item。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>A cmdlet can have multiple aliases, but an alias can only be associated with one cmdlet at a time.</source>
+          <target state="translated">一个 cmdlet 可以具有多个别名，但一个别名一次只能与一个 cmdlet 相关联。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>If you use <bpt id="p1">**</bpt>Set-Alias<ept id="p1">**</ept> to associate the alias with a different cmdlet, it is no longer associated with the original cmdlet.</source>
+          <target state="translated">如果您使用 <bpt id="p1">**</bpt>集别名<ept id="p1">**</ept> 要将该别名关联与其他 cmdlet，它不再与原始 cmdlet 相关联。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>You can create an alias for a cmdlet, but you cannot create an alias for a command with parameters and values.</source>
+          <target state="translated">你可以为 cmdlet 创建别名，但不能为带有参数和值的命令创建别名。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>For example, you can create an alias for <bpt id="p1">**</bpt>Set-Location<ept id="p1">**</ept>, but you cannot create an alias for <ph id="ph1">`Set-Location C:\Windows\System32`</ph>.</source>
+          <target state="translated">例如，您可以创建的别名 <bpt id="p1">**</bpt>Set-location<ept id="p1">**</ept>, ，但不是能创建的别名 <ph id="ph1">`Set-Location C:\Windows\System32`</ph>。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>To create an alias for a command, create a function that includes the command, and then create an alias to the function.</source>
+          <target state="translated">若要为某个命令创建别名，请创建一个包括该命令的函数，然后为此函数创建别名。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>To save the aliases from a session and use them in a different session, add the <bpt id="p1">**</bpt>Set-Alias<ept id="p1">**</ept> command to your Windows PowerShell profile.</source>
+          <target state="translated">若要从会话中保存别名并使用不同的会话中，添加 <bpt id="p1">**</bpt>集别名<ept id="p1">**</ept> 命令到你的 Windows PowerShell 配置文件。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Profiles do not exist by default.</source>
+          <target state="translated">默认情况下，配置文件不存在。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>To create a profile in the path stored in the $profile variable, type <ph id="ph1">`New-Item -Type file -Force $profile`</ph>.</source>
+          <target state="translated">若要在 $profile 变量中存储的路径中创建一个配置文件，请键入 <ph id="ph1">`New-Item -Type file -Force $profile`</ph>。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>To see the value of the $profile variable, type <ph id="ph1">`$profile`</ph>.</source>
+          <target state="translated">若要查看 $profile 变量的值，请键入 <ph id="ph1">`$profile`</ph>。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>You can also save your aliases by using Export-Alias to copy the aliases from the session to a file, and then use Import-Alias to add them to the alias list for a new session.</source>
+          <target state="translated">也可以通过使用 Export-Alias 将会话中的别名复制到文件中来保存别名，然后可使用 Import-Alias 将这些别名添加到新会话的别名列表。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>You can also refer to <bpt id="p1">**</bpt>Set-Alias<ept id="p1">**</ept> by its built-in alias, <bpt id="p2">**</bpt>sal<ept id="p2">**</ept>.</source>
+          <target state="translated">此外可以指 <bpt id="p1">**</bpt>集别名<ept id="p1">**</ept> 别名来对其内置 <bpt id="p2">**</bpt>sal<ept id="p2">**</ept>。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Aliases.</source>
+          <target state="translated">有关详细信息，请参阅 about_Aliases。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相关的链接</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Export-Alias</source>
+          <target state="translated">Export-Alias</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Get-Alias</source>
+          <target state="translated">Get-Alias</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Import-Alias</source>
+          <target state="translated">Import-Alias</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>New-Alias</source>
+          <target state="translated">New-Alias</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

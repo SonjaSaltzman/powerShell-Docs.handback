@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d5bb275e50d96608a102a3273830289fdc9545b9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Security\Get-Acl.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">20ab6e8cf24c98adc2335b3f353a1e198e344dd7</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a5db9928ff6e8e9a182b3ae4bce63ef810101f50</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Get-Acl</source>
+          <target state="translated">Get-Acl</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Get-Acl</source>
+          <target state="translated">Get-Acl</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">简述</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Gets the security descriptor for a resource, such as a file or registry key.</source>
+          <target state="translated">获取某个资源（如文件或注册表项）的安全描述符。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">语法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>ByPath (Default)</source>
+          <target state="translated">ByPath （默认值）</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>ByInputObject</source>
+          <target state="translated">ByInputObject</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>ByLiteralPath</source>
+          <target state="translated">ByLiteralPath</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-Acl<ept id="p1">**</ept> cmdlet gets objects that represent the security descriptor of a file or resource.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Get-acl<ept id="p1">**</ept> cmdlet 获取表示文件或资源的安全描述符的对象。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The security descriptor contains the access control lists (ACLs) of the resource.</source>
+          <target state="translated">安全描述符包含资源的访问控制列表 (ACL)。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The ACL specifies the permissions that users and user groups have to access the resource.</source>
+          <target state="translated">ACL 可指定用户和用户组访问资源所需的权限。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, you can use the <bpt id="p1">**</bpt>InputObject<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Get-Acl<ept id="p2">**</ept> to get the security descriptor of objects that do not have a path.</source>
+          <target state="translated">Windows PowerShell 3.0 开始，你可以使用 <bpt id="p1">**</bpt>InputObject<ept id="p1">**</ept> 参数 <bpt id="p2">**</bpt>Get-acl<ept id="p2">**</ept> 来获取不具有路径的对象的安全描述符。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">示例</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 示例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This command gets the security descriptor of the C:Windows directory.</source>
+          <target state="translated">此命令将获取 C:Windows 目录的安全描述符。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This command gets the Windows PowerShell path and SDDL for all of the .log files in the C:\Windows directory whose names begin with "k."</source>
+          <target state="translated">此命令将获取 C:\Windows 目录中所有名称以“k”开头的 .log 文件的 Windows PowerShell 路径和 SDDL。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>Get-Acl<ept id="p1">**</ept> cmdlet to get objects representing the security descriptors of each log file.</source>
+          <target state="translated">该命令使用 <bpt id="p1">**</bpt>Get-acl<ept id="p1">**</ept> cmdlet 来获取表示每个日志文件的安全描述符的对象。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>It uses a pipeline operator (|) to send the results to the Format-List cmdlet.</source>
+          <target state="translated">它使用管道运算符 (|) 将结果发送给 Format-list cmdlet。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>Property<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Format-List<ept id="p2">**</ept> to display only the <bpt id="p3">**</bpt>PsPath<ept id="p3">**</ept> and <bpt id="p4">**</bpt>SDDL<ept id="p4">**</ept> properties of each security descriptor object.</source>
+          <target state="translated">该命令使用 <bpt id="p1">**</bpt>属性<ept id="p1">**</ept> 参数 <bpt id="p2">**</bpt>Format-list<ept id="p2">**</ept> 仅显示 <bpt id="p3">**</bpt>PsPath<ept id="p3">**</ept> 和 <bpt id="p4">**</bpt>SDDL<ept id="p4">**</ept> 每个安全描述符对象的属性。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Lists are often used in Windows PowerShell, because long values appear truncated in tables.</source>
+          <target state="translated">在 Windows PowerShell 中将经常使用列表，因为较长的值在表中可能会被截断。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>SDDL<ept id="p1">**</ept> values are valuable to system administrators, because they are simple text strings that contain all of the information in the security descriptor.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>SDDL<ept id="p1">**</ept> 值非常重要的系统管理员，因为它们是包含所有的安全描述符中的信息的简单文本字符串。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>As such, they are easy to pass and store, and they can be parsed when needed.</source>
+          <target state="translated">正因如此，它们易于传递和存储，并且可在需要时对它们进行分析。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This command gets the security descriptors of the .log files in the C:\Windows directory whose names begin with "k."</source>
+          <target state="translated">此命令将获取 C:\Windows 目录中名称以“k”开头的 .log 文件的安全描述符。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>Audit<ept id="p1">**</ept> parameter to get the audit records from the SACL in the security descriptor.</source>
+          <target state="translated">它使用 <bpt id="p1">**</bpt>审核<ept id="p1">**</ept> 参数，以从安全描述符中的 SACL 获取审核记录。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Then it uses theForEach-Object cmdlet to count the number of audit records associated with each file.</source>
+          <target state="translated">然后它使用 theForEach 对象 cmdlet 来计数与每个文件相关联的审核记录的数量。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The result is a list of numbers representing the number of audit records for each log file.</source>
+          <target state="translated">结果是一个表示每个日志文件的审核记录数的数字列表。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">**</bpt>Get-Acl<ept id="p1">**</ept> cmdlet to get the security descriptor of the Control subkey (HKLM\SYSTEM\CurrentControlSet\Control) of the registry.</source>
+          <target state="translated">此命令使用 <bpt id="p1">**</bpt>Get-acl<ept id="p1">**</ept> cmdlet 来获取注册表的 Control 子项 (HKLM\SYSTEM\CurrentControlSet\Control) 的安全描述符。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter specifies the Control subkey.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>路径<ept id="p1">**</ept> 参数指定的 Control 子项。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The pipeline operator (|) passes the security descriptor that <bpt id="p1">**</bpt>Get-Ac<ept id="p1">**</ept>l gets to the Format-List command, which formats the properties of the security descriptor as a list so that they are easy to read.</source>
+          <target state="translated">管道运算符 (|) 将其传递的安全描述符 <bpt id="p1">**</bpt>Get-ac<ept id="p1">**</ept>l 获取到 Format-list 命令，该格式的安全描述符的属性设置为列表，以便它们很容易地阅读命令。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Example 5</source>
+          <target state="translated">示例 5</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">**</bpt>InputObject<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Get-Acl<ept id="p2">**</ept> to get the security descriptor of a storage subsystem object.</source>
+          <target state="translated">此命令使用 <bpt id="p1">**</bpt>InputObject<ept id="p1">**</ept> 参数 <bpt id="p2">**</bpt>Get-acl<ept id="p2">**</ept> 来获取存储子系统对象的安全描述符。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">参数</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>-Audit</source>
+          <target state="translated">-审核</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Gets the audit data for the security descriptor from the system access control list (SACL).</source>
+          <target state="translated">从系统访问控制列表 (SACL) 获取安全描述符的审核数据。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>-Exclude</source>
+          <target state="translated">-排除</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Omits the specified items.</source>
+          <target state="translated">忽略指定项。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The value of this parameter qualifies the Path parameter.</source>
+          <target state="translated">此参数值使 Path 参数有效。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Enter a path element or pattern, such as "*.txt".</source>
+          <target state="translated">请输入路径元素或模式，例如“*.txt”。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">允许使用通配符。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>-Filter</source>
+          <target state="translated">筛选器</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Specifies a filter in the provider's format or language.</source>
+          <target state="translated">以提供程序的格式或语言指定筛选器。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The value of this parameter qualifies the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">此参数的值限定 <bpt id="p1">**</bpt>路径<ept id="p1">**</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The syntax of the filter, including the use of wildcards, depends on the provider.</source>
+          <target state="translated">筛选器的语法（包括通配符的使用）取决于提供程序。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Filters are more efficient than other parameters, because the provider applies them when gettting the objects, rather than having Windows PowerShell filter the objects after they are retrieved.</source>
+          <target state="translated">筛选器比其他参数更有效，因为提供程序是在获取对象时应用筛选器，而不是在检索对象后再由 Windows PowerShell 筛选对象。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-Include</source>
+          <target state="translated">-Include</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Gets only the specified items.</source>
+          <target state="translated">仅获取指定项。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The value of this parameter qualifies the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">此参数的值限定 <bpt id="p1">**</bpt>路径<ept id="p1">**</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Enter a path element or pattern, such as "*.txt".</source>
+          <target state="translated">请输入路径元素或模式，例如“*.txt”。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">允许使用通配符。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>-Path</source>
+          <target state="translated">-Path</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Specifies the path to a resource.</source>
+          <target state="translated">指定资源的路径。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get-Acl<ept id="p1">**</ept> gets the security descriptor of the resource indicated by the path.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get-acl<ept id="p1">**</ept> 获取路径所指示的资源的安全描述符。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">允许使用通配符。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If you omit the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter, Get-Acl gets the security descriptor of the current directory.</source>
+          <target state="translated">如果省略 <bpt id="p1">**</bpt>路径<ept id="p1">**</ept> 参数，则 Get-acl 将获取当前目录的安全描述符。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The parameter name ("Path") is optional.</source>
+          <target state="translated">参数名（“Path”）为可选项。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>-AllCentralAccessPolicies</source>
+          <target state="translated">-AllCentralAccessPolicies</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Gets information about all central access policies that are enabled on the computer.</source>
+          <target state="translated">获取有关计算机上启用的所有中心访问策略的信息。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows ServerÂ® 2012, administrators can use Active Directory and Group Policy to set central access policies for users and groups.</source>
+          <target state="translated">从 Windows ServerÂ® 2012年开始，管理员可以使用 Active Directory 和组策略来为用户和组设置中心访问策略。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>For more information, see "Central Access Policies" at http://go.microsoft.com/fwlink/?LinkId=238408http://go.microsoft.com/fwlink/?LinkId=238408.</source>
+          <target state="translated">详细信息，请参阅"中心访问策略"在 http://go.microsoft.com/fwlink/?LinkId=238408http: / / go.microsoft.com/fwlink/?LinkId=238408。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此参数是在 Windows PowerShell 3.0 中引入的。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-InputObject</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Gets the security descriptor for the specified object.</source>
+          <target state="translated">获取指定对象的安全描述符。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the object or a command that gets the object.</source>
+          <target state="translated">请输入包含对象的变量或可获取该对象的命令。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>You cannot pipe an object, other than a path, to <bpt id="p1">**</bpt>Get-Acl<ept id="p1">**</ept>.</source>
+          <target state="translated">您不能通过管道传递一个对象，之外的路径，给 <bpt id="p1">**</bpt>Get-acl<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Instead, use the <bpt id="p1">**</bpt>InputObject<ept id="p1">**</ept> parameter explicitly in the command.</source>
+          <target state="translated">请改用 <bpt id="p1">**</bpt>InputObject<ept id="p1">**</ept> 命令中显式参数。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此参数是在 Windows PowerShell 3.0 中引入的。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-LiteralPath</source>
+          <target state="translated">-LiteralPath</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Specifies the path to a resource.</source>
+          <target state="translated">指定资源的路径。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Unlike <bpt id="p1">**</bpt>Path<ept id="p1">**</ept>, the value of the <bpt id="p2">**</bpt>LiteralPath<ept id="p2">**</ept> parameter is used exactly as it is typed.</source>
+          <target state="translated">与不同 <bpt id="p1">**</bpt>路径<ept id="p1">**</ept>, ，值 <bpt id="p2">**</bpt>LiteralPath<ept id="p2">**</ept> 完全按照其键入使用参数。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>No characters are interpreted as wildcards.</source>
+          <target state="translated">不会将任何字符解释为通配符。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>If the path includes escape characters, enclose it in single quotation marks.</source>
+          <target state="translated">如果路径包括转义符，请将其括在单引号中。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Single quotation marks tell Windows PowerShell not to interpret any characters as escape sequences.</source>
+          <target state="translated">单引号会告知 Windows PowerShell 不要将所有字符都解释为转义序列。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此参数是在 Windows PowerShell 3.0 中引入的。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>-UseTransaction</source>
+          <target state="translated">-UseTransaction</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Includes the command in the active transaction.</source>
+          <target state="translated">在活动事务中使用该命令。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when a transaction is in progress.</source>
+          <target state="translated">仅当正在执行事务时，此参数才有效。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>For more information, see Includes the command in the active transaction.</source>
+          <target state="translated">有关详细信息，请参阅包括在活动事务中的命令。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when a transaction is in progress.</source>
+          <target state="translated">仅当正在执行事务时，此参数才有效。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>For more information, see</source>
+          <target state="translated">有关详细信息，请参阅本主题后面的</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">此 cmdlet 支持以下常见参数:-调试-ErrorAction、-ErrorVariable、-InformationAction、-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 和-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">有关详细信息，请参阅 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">输入</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>System.String</source>
+          <target state="translated">System.String</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>You can pipe a string that contains a path to Get-Acl.</source>
+          <target state="translated">可以通过管道将包含路径的字符串传递给 Get-Acl。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">输出</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>System.Security.AccessControl</source>
+          <target state="translated">System.Security.AccessControl</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get-Acl<ept id="p1">**</ept> returns an object that represents the ACLs that it gets.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get-acl<ept id="p1">**</ept> 返回一个对象，表示它所获取的 Acl。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The object type depends upon the ACL type.</source>
+          <target state="translated">对象类型取决于 ACL 类型。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Get-Acl<ept id="p1">**</ept> displays the Windows PowerShell path to the resource (<ph id="ph1">\&lt;</ph>provider<ph id="ph2">\&gt;</ph>::<ph id="ph3">\&lt;</ph>resource-path<ph id="ph4">\&gt;</ph>), the owner of the resource, and "Access", a list (array) of the access control entries in the discretionary access control list (DACL) for the resource.</source>
+          <target state="translated">默认情况下， <bpt id="p1">**</bpt>Get-acl<ept id="p1">**</ept> 显示资源的 Windows PowerShell 路径 (<ph id="ph1">\&lt;</ph>提供程序<ph id="ph2">\&gt;</ph>::<ph id="ph3">\&lt;</ph>资源路径<ph id="ph4">\&gt;</ph>)，资源，以及"Access"，该资源的自由访问控制列表 (DACL) 中的访问控制项的列表 （数组） 的所有者。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The DACL list is controlled by the resource owner.</source>
+          <target state="translated">DACL 列表由资源所有者控制。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>When you format the result as a list, ("<ph id="ph1">`Get-Acl | Format-List`</ph>"), in addition to the path, owner, and access list, Windows PowerShell displays the following properties and property values:</source>
+          <target state="translated">当设置为列表时，结果的格式 ("<ph id="ph1">`Get-Acl | Format-List`</ph>")，除了路径、 所有者和访问列表中，Windows PowerShell 还将显示以下属性和属性值︰</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Group<ept id="p1">**</ept>: The security group of the owner.</source>
+          <target state="translated"><bpt id="p1">**</bpt>组<ept id="p1">**</ept>︰ 所有者的安全组。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Audit<ept id="p1">**</ept>:  A list (array) of entries in the system access control list (SACL).</source>
+          <target state="translated"><bpt id="p1">**</bpt>审核<ept id="p1">**</ept>︰ 系统访问控制列表 (SACL) 中的项的列表 （数组）。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The SACL specifies the types of access attempts for which Windows generates audit records.</source>
+          <target state="translated">SACL 指定 Windows 为其生成审核记录的访问尝试的类型。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Sddl<ept id="p1">**</ept>: The security descriptor of the resource displayed in a single text string in Security Descriptor Definition Language format.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Sddl<ept id="p1">**</ept>︰ 安全描述符定义语言格式的单个文本字符串中显示的资源的安全描述符。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell uses the GetSddlForm method of security descriptors to get this data.</source>
+          <target state="translated">Windows PowerShell 使用安全描述符的 GetSddlForm 方法来获取此数据。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Because <bpt id="p1">**</bpt>Get-Acl<ept id="p1">**</ept> is supported by the file system and registry providers, you can use <bpt id="p2">**</bpt>Get-Acl<ept id="p2">**</ept> to view the ACL of file system objects, such as files and directories, and registry objects, such as registry keys and entries.</source>
+          <target state="translated">因为 <bpt id="p1">**</bpt>Get-acl<ept id="p1">**</ept> 支持由文件系统和注册表提供程序，您可以使用 <bpt id="p2">**</bpt>Get-acl<ept id="p2">**</ept> 若要查看文件系统对象，如文件和目录和注册表对象，如注册表项和条目的 ACL。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相关的链接</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Set-Acl</source>
+          <target state="translated">Set-acl</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

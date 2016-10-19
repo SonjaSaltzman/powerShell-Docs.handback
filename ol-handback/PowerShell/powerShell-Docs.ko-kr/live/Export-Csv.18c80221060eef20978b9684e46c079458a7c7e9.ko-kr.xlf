@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">363acf2b95800eefc4591fcae40136c70d463cd4</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Utility\Export-Csv.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1d7ba297879c2f83f297d034e9d3a249145f42f8</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">46e7406b68c0822ceb9eef49e68860cae3c0e1c5</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Export-Csv</source>
+          <target state="translated">Export-Csv</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Export-Csv</source>
+          <target state="translated">Export-Csv</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">요약</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Converts objects into a series of comma-separated (CSV) strings and saves the strings in a CSV file.</source>
+          <target state="translated">개체를 쉼표로 구분된 일련의 가변 길이(CSV) 문자열로 변환하여 CSV 파일에 저장합니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">구문</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Delimiter (Default)</source>
+          <target state="translated">구분 기호 (기본값)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>UseCulture</source>
+          <target state="translated">UseCulture</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">설명</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The Export-CSV cmdlet creates a CSV file of the objects that you submit.</source>
+          <target state="translated">Export-CSV cmdlet은 제출한 개체의 CSV 파일을 만듭니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Each object is represented as a line or row of the CSV.</source>
+          <target state="translated">각 개체는 CSV의 줄 또는 행으로 표시됩니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The row consists of a comma-separated list of the values of object properties.</source>
+          <target state="translated">행은 개체 속성 값을 쉼표로 구분한 목록으로 구성됩니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can use this cmdlet to create spreadsheets and share data with programs that take CSV files as input.</source>
+          <target state="translated">이 cmdlet을 사용하여 CSV 파일을 입력으로 사용하는 프로그램으로 스프레드시트를 만들고 데이터를 공유할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>NOTE: Do not format objects before sending them to the Export-CSV cmdlet.</source>
+          <target state="translated">참고: 개체를 EXPORT-CSV cmdlet으로 보내기 전에 포맷 안 함.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If you do, the format properties are represented in the CSV file, instead of the properties of the original objects.</source>
+          <target state="translated">형식을 지정하면 원래 개체의 속성이 아닌 형식 속성이 CSV 파일에 표시됩니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To export only selected properties of an object, use the Select-Object cmdlet.</source>
+          <target state="translated">선택한 개체의 속성만 내보내려면 Select-Object cmdlet을 사용합니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">예제</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 예제 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This command selects a few properties of the WmiPrvse process and exports them to a CSV file named Data.csv.</source>
+          <target state="translated">이 명령은 WmiPrvse 프로세스의 속성을 몇 가지 선택하고 이 속성을 Data.csv라는 CSV 파일로 내보냅니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This command exports objects representing the processes on the computer to the Processes.csv file in the current directory.</source>
+          <target state="translated">이 명령은 컴퓨터의 프로세스를 나타내는 개체를 현재 디렉터리의 Processes.csv 파일로 내보냅니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Because it does not specify a delimiter, a comma (,) is used to separate the fields in the file.</source>
+          <target state="translated">구분 기호가 지정되지 않았으므로 파일의 필드를 구분하는 데 쉼표(,)가 사용됩니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This command exports objects representing the processes on the computer to the Processes.csv file in the current directory.</source>
+          <target state="translated">이 명령은 컴퓨터의 프로세스를 나타내는 개체를 현재 디렉터리의 Processes.csv 파일로 내보냅니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>It uses the Delimiter parameter to specify the semicolon (;).</source>
+          <target state="translated">이 명령은 Delimiter 매개 변수를 사용하여 세미콜론(;)을 지정하므로</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>As a result, the fields in the file are separated by semicolons.</source>
+          <target state="translated">파일의 필드는 세미콜론으로 구분됩니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This command exports objects representing the processes on the computer to the Processes.csv file in the current directory.</source>
+          <target state="translated">이 명령은 컴퓨터의 프로세스를 나타내는 개체를 현재 디렉터리의 Processes.csv 파일로 내보냅니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>It uses the UseCulture parameter to direct Export-CSV to use the delimiter specified by the ListSeparator property of the current culture.</source>
+          <target state="translated">이 명령은 UseCulture 매개 변수를 사용하여 현재 culture의 ListSeparator 속성에 지정된 구분 기호를 사용하도록 Export-CSV에 지시합니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This command exports objects representing the processes on the computer to the Processes.csv file in the current directory.</source>
+          <target state="translated">이 명령은 컴퓨터의 프로세스를 나타내는 개체를 현재 디렉터리의 Processes.csv 파일로 내보냅니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>It uses the NoTypeInformation parameter to suppress the type information in the file.</source>
+          <target state="translated">이 명령은 NoTypeInformation 매개 변수를 사용하여 파일의 유형 정보를 표시하지 않도록 합니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 6 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 6 --------------------------</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>These commands add information about new Windows PowerShell scripts to a script inventory file.</source>
+          <target state="translated">이러한 명령은 새로운 Windows PowerShell 스크립트에 대한 정보를 스크립트 인벤토리 파일에 추가합니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 7 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 7 --------------------------</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This example demonstrates one of most common problems that users encounter when using the Export-CSV cmdlet.</source>
+          <target state="translated">이 예제에서는 Export-CSV cmdlet을 사용할 때 발생하는 가장 일반적인 문제 중 하나를 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>It explains how to recognize and avoid this error.</source>
+          <target state="translated">이 오류를 인식하고 방지하는 방법에 대해서도 설명합니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Because a CSV file has a table format, it might seem natural to use the Format-Table cmdlet to format the  data in a table to prepare it for export as a CSV file.</source>
+          <target state="translated">CSV 파일에는 테이블 형식 이므로를 형식에 대 한 준비를 위해 테이블의 데이터를 CSV 파일로 내보낼 Format-table cmdlet을 사용 하 여 편할 수도 있습니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Also, the Format-Table cmdlet allows you to select object properties easily.</source>
+          <target state="translated">또한 Format-Table cmdlet을 사용하면 개체 속성을 손쉽게 선택할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>However, when you format the data in a table and then export it, you are exporting a table object, not your original data object.</source>
+          <target state="translated">그러나 테이블의 데이터 형식을 지정할 때 원래 데이터 개체가 아닌 테이블 개체를 내보냅니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The resulting CSV file is not useful.</source>
+          <target state="translated">따라서 생성된 CSV 파일이 유용하지 않을 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This example shows how to select object properties by using the Select-Object cmdlet, and it shows the Export-CSV formats the data correctly in a CSV file without any preparatory formatting by another cmdlet.</source>
+          <target state="translated">EXPORT-CSV 형식 데이터 표시 올바르게 CSV 파일의 다른 cmdlet에서 준비 서식 없이 및이 예제에 Select-object cmdlet을 사용 하 여 개체 속성을 선택 하는 방법을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">매개 변수</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-Append</source>
+          <target state="translated">-추가</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Adds the CSV output to the end of the specified file.</source>
+          <target state="translated">지정된 파일의 끝에 CSV 출력을 추가합니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Without this parameter, Export-CSV replaces the file contents without warning.</source>
+          <target state="translated">이 매개 변수가 없으면 Export-CSV는 경고 없이 파일 내용을 바꿉니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">이 매개 변수는 Windows PowerShell 3.0에서 도입되었습니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>-Delimiter</source>
+          <target state="translated">구분 기호</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Specifies a delimiter to separate the property values.</source>
+          <target state="translated">속성 값을 구분하는 구분 기호를 지정합니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The default is a comma (,).</source>
+          <target state="translated">기본값은 쉼표(,)입니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Enter a character, such as a colon (:).</source>
+          <target state="translated">콜론(:)과 같은 문자를 입력합니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To specify a semicolon (;), enclose it in quotation marks.</source>
+          <target state="translated">세미콜론(;)을 지정하려면 따옴표로 묶어야 합니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>-Encoding</source>
+          <target state="translated">인코딩</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Specifies the encoding for the exported CSV file.</source>
+          <target state="translated">내보낸 CSV 파일의 인코딩을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Valid values are Unicode, UTF7, UTF8, ASCII, UTF32, BigEndianUnicode, Default, and OEM.</source>
+          <target state="translated">유효한 값은 Unicode, UTF7, UTF8, ASCII, UTF32, BigEndianUnicode, Default 및 OEM입니다.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The default is ASCII.</source>
+          <target state="translated">기본값은 ASCII입니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Overwrites the file specified in path without prompting.</source>
+          <target state="translated">확인 메시지 없이 경로에 지정된 파일을 덮어씁니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-InputObject</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Specifies the objects to export as CSV strings.</source>
+          <target state="translated">CSV 문자열로 내보낼 개체를 지정합니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the objects or type a command or expression that gets the objects.</source>
+          <target state="translated">개체를 포함하는 변수를 입력하거나 개체를 가져오는 명령 또는 식을 입력하세요.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You can also pipe objects to Export-CSV.</source>
+          <target state="translated">개체를 Export-CSV로 파이프할 수도 있습니다.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>-NoClobber</source>
+          <target state="translated">-NoClobber</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Do not overwrite (replace the contents) of an existing file.</source>
+          <target state="translated">기존 파일을 덮어쓰거나 파일 내용을 바꾸지 않습니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>By default, if a file exists in the specified path, Export-CSV overwrites the file without warning.</source>
+          <target state="translated">파일이 지정된 경로에 있는 경우 Export-CSV는 기본적으로 경고 없이 파일을 덮어씁니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>-NoTypeInformation</source>
+          <target state="translated">-않으려면 NoTypeInformation</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Omits the type information from the CSV file.</source>
+          <target state="translated">CSV 파일에서 유형 정보를 생략합니다.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>By default, the first line of the CSV file contains "#TYPE " followed by the fully-qualified name of the type of the object.</source>
+          <target state="translated">기본적으로 CSV 파일의 첫 번째 줄에는 "#TYPE"과 개체 형식의 정규화된 이름이 포함됩니다.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>-Path</source>
+          <target state="translated">-Path</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Specifies the path to the CSV output file.</source>
+          <target state="translated">CSV 출력 파일의 경로를 지정합니다.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This parameter is required.</source>
+          <target state="translated">이 매개 변수는 필수입니다.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-UseCulture</source>
+          <target state="translated">-UseCulture</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Use the list separator for the current culture as the item delimiter.</source>
+          <target state="translated">현재 문화권의 목록 구분 기호를 항목 구분 기호로 사용합니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The default is a comma (,).</source>
+          <target state="translated">기본값은 쉼표(,)입니다.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>This parameter is very useful in scripts that are being distributed to users worldwide.</source>
+          <target state="translated">이 매개 변수는 전 세계 사용자에게 배포되는 스크립트에서 매우 유용합니다.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>To find the list separator for a culture, use the following command: (Get-Culture).TextInfo.ListSeparator.</source>
+          <target state="translated">문화권에 대 한 목록 구분 기호를 찾으려면 다음 명령을 사용 합니다. (Get-culture). TextInfo.ListSeparator 합니다.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>-LiteralPath</source>
+          <target state="translated">-LiteralPath</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Specifies the path to the CSV output file.</source>
+          <target state="translated">CSV 출력 파일의 경로를 지정합니다.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Unlike <bpt id="p1">**</bpt>Path<ept id="p1">**</ept>, the value of the <bpt id="p2">**</bpt>LiteralPath<ept id="p2">**</ept> parameter is used exactly as it is typed.</source>
+          <target state="translated">와 달리 <bpt id="p1">**</bpt>경로<ept id="p1">**</ept>, 의 값은 <bpt id="p2">**</bpt>LiteralPath<ept id="p2">**</ept> 매개 변수는 입력 된 대로 정확 하 게 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>No characters are interpreted as wildcards.</source>
+          <target state="translated">어떠한 문자도 와일드카드로 해석되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>If the path includes escape characters, enclose it in single quotation marks.</source>
+          <target state="translated">이스케이프 문자가 포함된 경로는 작은따옴표로 묶으세요.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Single quotation marks tell Windows PowerShell not to interpret any characters as escape sequences.</source>
+          <target state="translated">작은따옴표는 Windows PowerShell이 어떤 문자도 이스케이프 시퀀스로 해석하지 않도록 지시합니다.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">이 cmdlet을 실행 하기 전에 확인 하면 메시지를 표시 합니다. 이 cmdlet을 실행 하기 전에 확인 하면 메시지를 표시 합니다.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">cmdlet이 실행될 경우 결과 동작을 표시합니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Cmdlet은 실행 되지 않습니다. Cmdlet이 실행 되 면 어떻게 되는지를 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">cmdlet이 실행되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">이 cmdlet은 공통 매개 변수:-디버그,-ErrorAction,-ErrorVariable,-InformationAction,-InformationVariable,-OutVariable,-OutBuffer,-PipelineVariable,-Verbose,-WarningAction 및-warningvariable을 지원 합니다.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">자세한 내용은 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)를 참조 합니다.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">입력</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSObject</source>
+          <target state="translated">System.Management.Automation.PSObject</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>You can pipe any object with an Extended Type System (ETS) adapter to Export-CSV.</source>
+          <target state="translated">ETS(확장 형식 시스템) 어댑터가 포함된 모든 개체를 Export-CSV로 파이프할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">출력</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>System.String</source>
+          <target state="translated">System.String</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The CSV list is sent to the file designated in the Path parameter.</source>
+          <target state="translated">CSV 목록이 Path 매개 변수에 지정된 파일로 보내집니다.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">참고 사항</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The Export-CSV cmdlet converts the objects that you submit into a series of CSV variable-length strings and saves them in the specified text file.</source>
+          <target state="translated">Export-CSV cmdlet은 전송한 개체를 일련의 CSV 가변 길이 문자열로 변환하여 지정된 텍스트 파일에 저장합니다.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>You can use Export-CSV to save objects in a CSV file and then use the Import-CSV cmdlet to create objects from the text in the CSV file.</source>
+          <target state="translated">Export-CSV를 사용하여 개체를 CSV 파일에 저장한 다음 Import-CSV cmdlet을 사용하여 CSV 파일의 텍스트에서 개체를 만들 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>In the CSV file, each object is represented by a comma-separated list of the property values of the object.</source>
+          <target state="translated">CSV 파일에서 각 개체는 쉼표로 구분된 개체 속성 값 목록으로 표시됩니다.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The property values are converted to strings (by using the ToString() method of the object), so they are generally represented by the name of the property value.</source>
+          <target state="translated">속성 값은 개체의 ToString() 메서드를 통해 문자열로 변환될 수도 있으므로 일반적으로 속성 값 이름으로 표시됩니다.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Export-CSV does not export the methods of the object.</source>
+          <target state="translated">Export-CSV는 개체의 메서드를 내보내지 않습니다.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The format of an exported file is as follows:</source>
+          <target state="translated">내보낸 파일의 형식은 다음과 같습니다.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The first line of the CSV file contains the string '#TYPE ' followed by the fully qualified name of the object, such as #TYPE System.Diagnostics.Process.</source>
+          <target state="translated">CSV 파일의 첫 번째 줄에는 '#TYPE' 뒤 예: #TYPE System.Diagnostics.Process 개체의 정규화 된 이름을 문자열 포함 되어 있습니다.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>To suppress this line, use the NoTypeInformation parameter.</source>
+          <target state="translated">이 줄을 표시하지 않으려면 NoTypeInformation 매개 변수를 사용합니다.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The next line of the CSV file represents the column headers.</source>
+          <target state="translated">CSV 파일의 다음 줄은 열 머리글을 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>It contains a comma-separated list of the names of all the properties of the first object.</source>
+          <target state="translated">이 문자열에는 첫 번째 개체의 모든 속성 이름의 쉼표로 구분된 목록이 포함됩니다.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Additional lines of the file consist of comma-separated lists of the property values of each object.</source>
+          <target state="translated">파일의 줄 각 개체의 속성 값의 쉼표로 구분 된 목록으로 구성 됩니다.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>When you submit multiple objects to Export-CSV, Export-CSV organizes the file based on the properties of the first object that you submit.</source>
+          <target state="translated">여러 개체를 Export-CSV로 전송하면 Export-CSV는 전송한 첫 번째 개체의 속성을 기준으로 파일을 구성합니다.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>If the remaining objects do not have one of the specified properties, the property value of that object is null, as represented by two consecutive commas.</source>
+          <target state="translated">나머지 개체에 지정된 속성 중 하나가 없는 경우 해당 개체의 속성 값은 null이며, 두 개의 연속된 쉼표로 표시됩니다.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>If the remaining objects have additional properties, those property values are not included in the file.</source>
+          <target state="translated">나머지 개체에 추가 속성이 있을 경우 이러한 속성 값은 파일에 포함되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>You can use the Import-Csv cmdlet to re-create objects from the CSV strings in the files.</source>
+          <target state="translated">Import-Csv cmdlet을 사용하여 파일에 있는 CSV 문자열에서 개체를 다시 만들 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The resulting objects are CSV versions of the original objects that consist of string representations of the property values and no methods.</source>
+          <target state="translated">결과 개체는 속성 값(메서드는 포함 안 됨)의 문자열 표시로 이루어진 원래 개체의 CSV 버전입니다.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The ConvertTo-Csv and ConvertFrom-Csv cmdlets to convert objects to CSV strings (and back).</source>
+          <target state="translated">ConvertTo-Csv 및 ConvertFrom-Csv cmdlet을 사용하여 개체를 CSV 문자열로 변환하거나 그 반대로 변환합니다.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Export-CSV is the same as ConvertTo-CSV, except that it saves the CSV strings in a file.</source>
+          <target state="translated">Export-CSV는 CSV 문자열을 파일에 저장한다는 점을 제외하면 ConvertTo-CSV와 동일합니다.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">관련된 링크</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>ConvertFrom-Csv</source>
+          <target state="translated">ConvertFrom-Csv</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>ConvertTo-Csv</source>
+          <target state="translated">ConvertTo-Csv</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Format-Table</source>
+          <target state="translated">Format-Table</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Import-Csv</source>
+          <target state="translated">Import-Csv</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Select-Object</source>
+          <target state="translated">Select-Object</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
