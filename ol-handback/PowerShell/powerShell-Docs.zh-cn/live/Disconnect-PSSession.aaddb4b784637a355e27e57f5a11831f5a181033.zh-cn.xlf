@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">765a7bcba2a71dcca7fe625f35e7791ea56b9b66</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\Disconnect-PSSession.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0b9dd660aeb048bf18524dc34aa5e0289026da9c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d48de1e79477dbb57fa22a37547c0225fc22ff24</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Disconnect-PSSession</source>
+          <target state="translated">Disconnect-PSSession</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Disconnect-PSSession</source>
+          <target state="translated">Disconnect-PSSession</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">简述</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Disconnects from a session.</source>
+          <target state="translated">断开与会话的连接。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">语法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Session (Default)</source>
+          <target state="translated">会话 （默认值）</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="translated">名称</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Id</source>
+          <target state="translated">ID</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>InstanceId</source>
+          <target state="translated">实例 Id</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept> cmdlet disconnects a Windows PowerShell session (<bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>), such as one started by using the New-PSSession cmdlet, from the current session.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Disconnect-pssession<ept id="p1">**</ept> cmdlet 将断开连接的 Windows PowerShell 会话 (<bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>)，例如通过使用 New-pssession cmdlet，当前会话中的启动。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>As a result, the <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> is in a disconnected state.</source>
+          <target state="translated">因此， <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 处于断开状态。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can connect to the disconnected <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> from the current session or from another session on the local computer or a different computer.</source>
+          <target state="translated">您可以连接到的断开连接式 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 当前会话中或从本地计算机或另一台计算机上的另一个会话。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept> cmdlet disconnects only open <bpt id="p2">**</bpt>PSSessions<ept id="p2">**</ept> that are connected to the current session.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Disconnect-pssession<ept id="p1">**</ept> cmdlet 将断开连接只能打开 <bpt id="p2">**</bpt>Pssession<ept id="p2">**</ept> ，已连接到当前会话。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept> cannot disconnect broken or closed <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> objects, or interactive <bpt id="p3">**</bpt>PSSession<ept id="p3">**</ept> objects started by using the Enter-PSSession cmdlet, and it cannot disconnect <bpt id="p4">**</bpt>PSSession<ept id="p4">**</ept> objects that are connected to other sessions.</source>
+          <target state="translated"><bpt id="p1">**</bpt>断开 PSSession<ept id="p1">**</ept> 无法断开与已损坏或关闭 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> 对象，或更具交互性 <bpt id="p3">**</bpt>PSSession<ept id="p3">**</ept> 对象通过使用 Enter-pssession cmdlet 启动和无法断开与 <bpt id="p4">**</bpt>PSSession<ept id="p4">**</ept> 连接到其他会话的对象。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To reconnect to a disconnected <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept>, use the Connect-PSSession or Receive-PSSession cmdlets.</source>
+          <target state="translated">若要重新连接到已断开连接 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept>, ，使用 Connect-pssession 或 Receive-pssession cmdlet。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>When a <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> is disconnected, the commands in the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> continue to run until they finish, unless the PSSession times out or the commands in the <bpt id="p3">**</bpt>PSSession<ept id="p3">**</ept> are blocked by a full output buffer.</source>
+          <target state="translated">当 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 断开连接时中的命令 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> 继续运行直到其完成，除非 PSSession 超时或中的命令 <bpt id="p3">**</bpt>PSSession<ept id="p3">**</ept> 完整输出缓冲区被阻止。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To change the idle time-out, use the <bpt id="p1">*</bpt>IdleTimeoutSec<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">若要更改空闲超时，请使用 <bpt id="p1">*</bpt>IdleTimeoutSec<ept id="p1">*</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To change the output buffering mode, use the <bpt id="p1">*</bpt>OutputBufferingMode<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">若要更改输出缓冲模式，请使用 <bpt id="p1">*</bpt>OutputBufferingMode<ept id="p1">*</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You can also use the <bpt id="p1">*</bpt>InDisconnectedSession<ept id="p1">*</ept> parameter of the Invoke-Command cmdlet to run a command in a disconnected session.</source>
+          <target state="translated">您还可以使用 <bpt id="p1">*</bpt>InDisconnectedSession<ept id="p1">*</ept> Invoke-command cmdlet 来断开连接的会话中运行命令的参数。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For more information about the Disconnected Sessions feature, see about_Remote_Disconnected_Sessions.</source>
+          <target state="translated">有关断开连接的会话功能的详细信息，请参阅 about_Remote_Disconnected_Sessions。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This cmdlet was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此 cmdlet 是在 Windows PowerShell 3.0 中引入的。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">示例</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Example 1: Disconnect a session</source>
+          <target state="translated">示例 1︰ 断开会话连接</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This command disconnects the UpdateSession <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> on the Server01 computer from the current session.</source>
+          <target state="translated">此命令将断开 UpdateSession <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 从当前会话将 Server01 计算机上。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>Name<ept id="p1">*</ept> parameter to identify the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>.</source>
+          <target state="translated">该命令使用 <bpt id="p1">*</bpt>名称<ept id="p1">*</ept> 参数来标识 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The output shows that the attempt to disconnect was successful.</source>
+          <target state="translated">输出显示断开连接的尝试已成功。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The session state is <bpt id="p1">**</bpt>Disconnected<ept id="p1">**</ept> and the <bpt id="p2">**</bpt>Availability<ept id="p2">**</ept> is None, which indicates that the session is not busy and can be reconnected.</source>
+          <target state="translated">会话状态是 <bpt id="p1">**</bpt>Disconnected<ept id="p1">**</ept> 和 <bpt id="p2">**</bpt>可用性<ept id="p2">**</ept> 为 None，这指示该会话不忙并且可以重新连接。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Example 2: Disconnect a session created in the current session</source>
+          <target state="translated">示例 2︰ 断开与当前会话中创建的会话</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This command disconnects the ITTask <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> on the Server12 computer from the current session.</source>
+          <target state="translated">此命令将断开 ITTask <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> Server12 计算机从当前会话上。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The ITTask session was created in the current session and connects to the Server12 computer.</source>
+          <target state="translated">在当前会话中创建 ITTask 会话并将其连接到 Server12 计算机。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The command uses the Get-PSSession cmdlet to get the session and <bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept> to disconnect it.</source>
+          <target state="translated">该命令使用 Get-pssession cmdlet 来获取会话和 <bpt id="p1">**</bpt>Disconnect-pssession<ept id="p1">**</ept> 断开与其的连接。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept> command uses the <bpt id="p2">*</bpt>OutputBufferingMode<ept id="p2">*</ept> parameter to set the output mode to Drop.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Disconnect-pssession<ept id="p1">**</ept> 命令使用 <bpt id="p2">*</bpt>OutputBufferingMode<ept id="p2">*</ept> 参数将输出模式设置为 Drop。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This setting makes sure that the script that is running in the session can continue to run even if the session output buffer is full.</source>
+          <target state="translated">此设置可确保在会话中运行该脚本可以继续运行，即使会话输出缓冲区已满。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Because the script writes its output to a report on a file share, other output can be lost without consequence.</source>
+          <target state="translated">因为该脚本将其输出写入文件共享上的报告，所以其他输出可能在不产生后果的情况下丢失。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The command also uses the <bpt id="p1">*</bpt>IdleTimeoutSec<ept id="p1">*</ept> parameter to extend the idle time-out of the session to 24 hours.</source>
+          <target state="translated">该命令还使用 <bpt id="p1">*</bpt>IdleTimeoutSec<ept id="p1">*</ept> 参数来扩展到 24 小时的会话的空闲超时。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This setting allows time for this administrator or other administrators to reconnect to the session to verify that the script ran and troubleshoot if needed.</source>
+          <target state="translated">此设置为此管理员或其他管理员重新连接到会话，以验证脚本是否已运行和解决问题（如果需要）提供了时间。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Example 3: Disconnecting sessions in an enterprise scenario</source>
+          <target state="translated">示例 3︰ 断开连接的企业级方案中的会话</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This series of commands shows how <bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept> might be used in an enterprise scenario.</source>
+          <target state="translated">这一系列的命令显示如何 <bpt id="p1">**</bpt>Disconnect-pssession<ept id="p1">**</ept> 可能企业方案中使用。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>In this case, a new technician starts a script in a session on a remote computer and runs into a problem.</source>
+          <target state="translated">在这种情况下，新的技术人员在远程计算机上的会话中启动一个脚本并遇到了问题。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The technician disconnects from the session so that a more experienced manager can connect to the session and resolve the problem.</source>
+          <target state="translated">该技术人员将断开到该会话的连接，以便更有经验的经理可以连接到该会话并解决该问题。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Example 4: Correct the value of an idle time-out so it can be disconnected</source>
+          <target state="translated">示例 4︰ 更正空闲超时的值，以便可以断开连接</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This example shows how to correct the value of the <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> property of a session so that it can be disconnected.</source>
+          <target state="translated">此示例演示如何更正的值 <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> 属性以便它可以断开连接的会话。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The idle time-out property of a session is critical to disconnected sessions, because it determines how long a disconnected session is maintained before it is deleted.</source>
+          <target state="translated">空闲会话超时属性至关重要断开连接的会话，因为它决定了多长时间断开连接的会话不再被删除之前。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>You can set the idle time-out option when you create a session and when you disconnect it.</source>
+          <target state="translated">当您创建一个会话和断开时，您可以设置空闲超时选项。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The default values for the idle time-out of a session are set in the <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> preference variable on the local computer and in the session configuration on the remote computer.</source>
+          <target state="translated">会话的空闲超时的默认值设置 <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> 首选项变量在本地计算机上以及在远程计算机上的会话配置中。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Values set for the session take precedence over values set in the session configuration, but session values cannot exceed quotas set in the session configuration, such as the <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> value.</source>
+          <target state="translated">为会话设置的值将优先于会话配置中设置的值，但会话值不能超过配额设置在会话配置中，如 <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> 值。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">参数</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">将提示您在运行 cmdlet 前进行确认。将提示您在运行 cmdlet 前进行确认。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>-Id</source>
+          <target state="translated">-Id</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Specifies an array of IDs of sessions that this cmdlet disconnects.</source>
+          <target state="translated">指定此 cmdlet 将断开连接的会话 Id 的数组。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Type one or more IDs, separated by commas, or use the range operator (..) to specify a range of IDs.</source>
+          <target state="translated">键入一个或多个 Id，用逗号分隔，或使用范围运算符 （.） 来指定 Id 的范围。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>To get the ID of a session, use the Get-PSSession cmdlet.</source>
+          <target state="translated">若要获取的会话 ID，请使用 Get-pssession cmdlet。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The instance ID is stored in the <bpt id="p1">**</bpt>ID<ept id="p1">**</ept> property of the session.</source>
+          <target state="translated">将实例 ID 存储在 <bpt id="p1">**</bpt>ID<ept id="p1">**</ept> 会话的属性。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>-IdleTimeoutSec</source>
+          <target state="translated">-IdleTimeoutSec</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Changes the idle time-out value of the disconnected <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept>.</source>
+          <target state="translated">更改断开连接的空闲超时值 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Enter a value in seconds.</source>
+          <target state="translated">输入一个值（以秒为单位）。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The minimum value is 60 (1 minute).</source>
+          <target state="translated">最小值为 60 （1 分钟）。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The idle time-out determines how long the disconnected <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> is maintained on the remote computer.</source>
+          <target state="translated">空闲超时确定多长时间的断开连接式 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 在远程计算机上维护。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>When the time-out expires, the <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> is deleted.</source>
+          <target state="translated">当超时到期时， <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 被删除。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Disconnected <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> objects are considered to be idle from the moment that they are disconnected, even if commands are running in the disconnected session.</source>
+          <target state="translated">断开连接 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 对象被视为空闲的那一刻就其断开连接，即使在断开连接的会话中运行命令。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The default value for the idle time-out of a session is set by the value of the <bpt id="p1">**</bpt>IdleTimeoutMs<ept id="p1">**</ept> property of the session configuration.</source>
+          <target state="translated">会话的空闲超时的默认值设置的值 <bpt id="p1">**</bpt>IdleTimeoutMs<ept id="p1">**</ept> 会话配置的属性。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The default value is 7200000 milliseconds (2 hours).</source>
+          <target state="translated">默认值为 7200000 毫秒（2 小时）。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The value of this parameter takes precedence over the value of the <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> property of the $PSSessionOption preference variable and the default idle time-out value in the session configuration.</source>
+          <target state="translated">此参数的值优先于的值 <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> $PSSessionOption 首选项变量和会话配置中的默认空闲超时值的属性。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>However, this value cannot exceed the value of the <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> property of the session configuration.</source>
+          <target state="translated">但是，此值不能超过的值 <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> 会话配置的属性。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The default value of <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> is 12 hours (43200000 milliseconds).</source>
+          <target state="translated">默认值为 <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> 为 12 小时 （43200000 毫秒为单位）。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>-InstanceId</source>
+          <target state="translated">的实例 Id</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Specifies an array of GUIDs of sessions that this cmdlet disconnects.</source>
+          <target state="translated">指定此 cmdlet 将断开连接的会话 Guid 的数组。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The instance ID is a GUID that uniquely identifies a session on a local or remote computer.</source>
+          <target state="translated">实例 ID 是一个 GUID，用于在本地或远程计算机上唯一标识某个会话。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The instance ID is unique, even across multiple sessions on multiple computers.</source>
+          <target state="translated">实例 ID 是唯一的，即使在多台计算机上跨多个会话也是如此。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>To get the instance ID of a session, use <bpt id="p1">**</bpt>Get-PSSession<ept id="p1">**</ept>.</source>
+          <target state="translated">若要获取会话的实例 ID，请使用 <bpt id="p1">**</bpt>Get-pssession<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The instance ID is stored in the <bpt id="p1">**</bpt>InstanceID<ept id="p1">**</ept> property of the session.</source>
+          <target state="translated">将实例 ID 存储在 <bpt id="p1">**</bpt>InstanceID<ept id="p1">**</ept> 会话的属性。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Specifies an array of friendly names of sessions that this cmdlet disconnects.</source>
+          <target state="translated">指定此 cmdlet 将断开连接的会话的友好名称数组。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are permitted.</source>
+          <target state="translated">允许使用通配符。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>To get the friendly name of a session, use <bpt id="p1">**</bpt>Get-PSSession<ept id="p1">**</ept>.</source>
+          <target state="translated">若要获取会话的友好名称，请使用 <bpt id="p1">**</bpt>Get-pssession<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The friendly name is stored in the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> property of the session.</source>
+          <target state="translated">友好名称存储在 <bpt id="p1">**</bpt>名称<ept id="p1">**</ept> 会话的属性。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>-OutputBufferingMode</source>
+          <target state="translated">-OutputBufferingMode</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Specifies how command output is managed in the disconnected session when the output buffer is full.</source>
+          <target state="translated">指定在断开连接的会话输出缓冲区已满时管理命令输出的方式。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The default value is Block.</source>
+          <target state="translated">默认值为块。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>If the command in the disconnected session is returning output and the output buffer fills, the value of this parameter effectively determines whether the command continues to run while the session is disconnected.</source>
+          <target state="translated">如果已断开连接的会话中的命令返回输出时输出缓冲区已满，则此参数的值将有效地确定当会话已断开连接时该命令是否继续运行。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>A value of Block suspends the command until the session is reconnected.</source>
+          <target state="translated">基块的值将挂起该命令，直到重新连接会话。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>A value of Drop allows the command to complete, although data might be lost.</source>
+          <target state="translated">拖放一个值允许该命令完成，但是可能会丢失数据。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>When using the Drop value, redirect the command output to a file on disk.</source>
+          <target state="translated">在使用放置值时，命令输出重定向到磁盘上的文件。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">此参数的可接受的值是：</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Block.</source>
+          <target state="translated">块。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>When the output buffer is full, execution is suspended until the buffer is clear.</source>
+          <target state="translated">当输出缓冲区已满时，将挂起执行，直到清除此缓冲区。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Drop.</source>
+          <target state="translated">删除。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>When the output buffer is full, execution continues.</source>
+          <target state="translated">当输出缓冲区已满时，执行将继续。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>As new output is saved, the oldest output is discarded.</source>
+          <target state="translated">由于已保存新的输出，因此将丢弃最早的输出。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>None.</source>
+          <target state="translated">无。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>No output buffering mode is specified.</source>
+          <target state="translated">未指定任何输出缓冲模式。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">*</bpt>OutputBufferingMode<ept id="p1">*</ept> property of the session configuration is used for the disconnected session.</source>
+          <target state="translated">值 <bpt id="p1">*</bpt>OutputBufferingMode<ept id="p1">*</ept> 断开连接的会话中使用的会话配置的属性。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>-Session</source>
+          <target state="translated">会话</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Specifies an array of sessions.</source>
+          <target state="translated">指定的会话的数组。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Enter <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> objects, such as those that the <bpt id="p2">**</bpt>New-PSSession<ept id="p2">**</ept> cmdlet returns.</source>
+          <target state="translated">输入 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 对象，例如， <bpt id="p2">**</bpt>New-pssession<ept id="p2">**</ept> cmdlet 返回。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>You can also pipe a <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> object to Disconnect-PSSession.</source>
+          <target state="translated">您还可以通过管道 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 对象传递给 Disconnect-pssession。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get-PSSession<ept id="p1">**</ept> can get all <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> objects that end at a remote computer.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get-pssession<ept id="p1">**</ept> 可以获取所有 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> 结束远程计算机上的对象。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>These include <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> objects that are disconnected and <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> objects that are connected to other sessions on other computers.</source>
+          <target state="translated">其中包括 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 断开连接的对象和 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> 连接到其他计算机上的其他会话的对象。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept> disconnects only <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> that are connected to the current session.</source>
+          <target state="translated"><bpt id="p1">**</bpt>断开 PSSession<ept id="p1">**</ept> 仅断开 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> ，已连接到当前会话。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>If you pipe other <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> objects to <bpt id="p2">**</bpt>Disconnect-PSSession<ept id="p2">**</ept>, the <bpt id="p3">**</bpt>Disconnect-PSSession<ept id="p3">**</ept> command fails.</source>
+          <target state="translated">如果你通过管道将其他 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 对象添加到 <bpt id="p2">**</bpt>Disconnect-pssession<ept id="p2">**</ept>, 、 <bpt id="p3">**</bpt>Disconnect-pssession<ept id="p3">**</ept> 命令失败。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>-ThrottleLimit</source>
+          <target state="translated">-ThrottleLimit</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Sets the throttle limit for the <bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept> command.</source>
+          <target state="translated">设置的中止值 <bpt id="p1">**</bpt>Disconnect-pssession<ept id="p1">**</ept> 命令。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The throttle limit is the maximum number of concurrent connections that can be established to run this command.</source>
+          <target state="translated">中止值为运行此命令可建立的并发连接的最大数目。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter or enter a value of 0, the default value, 32, is used.</source>
+          <target state="translated">如果省略此参数或输入 0 值，则使用默认值 32。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The throttle limit applies only to the current command, not to the session or to the computer.</source>
+          <target state="translated">节流限制仅适用于当前命令，而不适用于会话或计算机。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">显示如果运行 cmdlet 则会发生什么情况。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">该 cmdlet 不会运行。显示在 cmdlet 运行时，会发生什么情况。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">cmdlet 未运行。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">此 cmdlet 支持以下常见参数:-调试-ErrorAction、-ErrorVariable、-InformationAction、-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 和-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">有关详细信息，请参阅 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">输入</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.Runspaces.PSSession</source>
+          <target state="translated">System.Management.Automation.Runspaces.PSSession</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>You can pipe a session to this cmdlet.</source>
+          <target state="translated">您可以通过管道传递给此 cmdlet 的会话。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">输出</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.Runspaces.PSSession</source>
+          <target state="translated">System.Management.Automation.Runspaces.PSSession</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>This cmdlet returns an object that represents the session that it disconnected.</source>
+          <target state="translated">此 cmdlet 将返回一个对象，表示它所断开的会话。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept> cmdlet works only when the local and remote computers are running Windows PowerShell 3.0 or later versions of Windows PowerShell.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Disconnect-pssession<ept id="p1">**</ept> cmdlet 的工作方式仅当在本地和远程计算机运行 Windows PowerShell 3.0 或更高版本的 Windows PowerShell。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>If you use <bpt id="p1">**</bpt>Disconnect-PSSession<ept id="p1">**</ept> on a disconnected session, the command does not affect the session and it does not generate errors.</source>
+          <target state="translated">如果您使用 <bpt id="p1">**</bpt>Disconnect-pssession<ept id="p1">**</ept> 上断开连接的会话，该命令不影响会话，并且不会生成错误。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Disconnected loopback sessions with interactive security tokens, which are created by using the <bpt id="p1">*</bpt>EnableNetworkAccess<ept id="p1">*</ept> parameter, can be reconnected only from the computer on which the session was created.</source>
+          <target state="translated">断开连接的具有交互式安全令牌，通过创建环回会话 <bpt id="p1">*</bpt>EnableNetworkAccess<ept id="p1">*</ept> 参数，可以重新连接只能通过在其创建会话的计算机。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>This restriction protects the computer from malicious access.</source>
+          <target state="translated">此限制可使计算机免遭恶意访问。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>When you disconnect a <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept>, the session state is <bpt id="p2">**</bpt>Disconnected<ept id="p2">**</ept> and the availability is <bpt id="p3">**</bpt>None<ept id="p3">**</ept>.</source>
+          <target state="translated">当断开 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept>, 、 会话状态为 <bpt id="p2">**</bpt>已断开连接<ept id="p2">**</ept> 且 availability 为 <bpt id="p3">**</bpt>无<ept id="p3">**</ept>。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">**</bpt>State<ept id="p1">**</ept> property is relative to the current session.</source>
+          <target state="translated">值 <bpt id="p1">**</bpt>状态<ept id="p1">**</ept> 属性是相对于当前会话。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Therefore, a value of <bpt id="p1">**</bpt>Disconnected<ept id="p1">**</ept> means that the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> is not connected to the current session.</source>
+          <target state="translated">因此，值 <bpt id="p1">**</bpt>Disconnected<ept id="p1">**</ept> 意味着 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> 未连接到当前会话。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>However, it does not mean that the <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> is disconnected from all sessions.</source>
+          <target state="translated">但是，它并不意味着 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 从所有会话断开连接时。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>It might be connected to a different session.</source>
+          <target state="translated">它可能连接到另一个会话。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>To determine whether you can connect or reconnect to the session, use the <bpt id="p1">**</bpt>Availability<ept id="p1">**</ept> property.</source>
+          <target state="translated">若要确定是否可以连接或重新连接该会话，请使用 <bpt id="p1">**</bpt>可用性<ept id="p1">**</ept> 属性。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">**</bpt>Availability<ept id="p1">**</ept> value of <bpt id="p2">**</bpt>None<ept id="p2">**</ept> indicates that you can connect to the session.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>可用性<ept id="p1">**</ept> 值 <bpt id="p2">**</bpt>无<ept id="p2">**</ept> 指示可以连接到会话。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>A value of <bpt id="p1">**</bpt>Busy<ept id="p1">**</ept> indicates that you cannot connect to the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> because it is connected to another session.</source>
+          <target state="translated">值为 <bpt id="p1">**</bpt>忙<ept id="p1">**</ept> 表示无法连接到 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> 因为它已连接到另一个会话。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>For more information about the values of the <bpt id="p1">**</bpt>State<ept id="p1">**</ept> property of sessions, see RunspaceState Enumerationhttp://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.runspaces.runspacestate(v=VS.85).aspx (http://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.runspaces.runspacestate(v=VS.85).aspx) in the Microsoft Developer Network (MSDN) library.</source>
+          <target state="translated">有关的值的详细信息 <bpt id="p1">**</bpt>状态<ept id="p1">**</ept> 属性的会话，请参阅 RunspaceState Enumerationhttp://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.runspaces.runspacestate (v=VS.85).aspx (Microsoft Developer Network (MSDN) 库中的 http://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.runspaces.runspacestate (v=VS.85).aspx)。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>For more information about the values of the <bpt id="p1">**</bpt>Availability<ept id="p1">**</ept> property of sessions, see RunspaceAvailability Enumerationhttp://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.runspaces.runspaceavailability(v=vs.85).aspx (http://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.runspaces.runspaceavailability(v=vs.85).aspx) in the MSDN library.</source>
+          <target state="translated">有关的值的详细信息 <bpt id="p1">**</bpt>可用性<ept id="p1">**</ept> 属性的会话，请参阅 RunspaceAvailability Enumerationhttp://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.runspaces.runspaceavailability (v=vs.85).aspx (MSDN 库中的 http://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.runspaces.runspaceavailability (v=vs.85).aspx)。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相关的链接</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Connect-PSSession</source>
+          <target state="translated">Connect-PSSession</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Enter-PSSession</source>
+          <target state="translated">Enter-PSSession</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Exit-PSSession</source>
+          <target state="translated">Exit-PSSession</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Get-PSSession</source>
+          <target state="translated">Get-pssession</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Get-PSSessionConfiguration</source>
+          <target state="translated">Get-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>New-PSSession</source>
+          <target state="translated">New-PSSession</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>New-PSSessionOption</source>
+          <target state="translated">New-PSSessionOption</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>New-PSTransportOption</source>
+          <target state="translated">New-PSTransportOption</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Receive-PSSession</source>
+          <target state="translated">Receive-PSSession</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Register-PSSessionConfiguration</source>
+          <target state="translated">Register-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Remove-PSSession</source>
+          <target state="translated">Remove-PSSession</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>about_PSSessions</source>
+          <target state="translated">about_PSSessions</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>about_Remote</source>
+          <target state="translated">about_Remote</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>about_Remote_Disconnected_Sessions</source>
+          <target state="translated">about_Remote_Disconnected_Sessions</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c727cb6b522299b9b235ef2609cb4b4be8a295df</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\Connect-PSSession.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1a2b2af9374052fb6d3f966f09b81fdbaadffdde</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9c58f150020d1a0a913cfc66a0280877a2e728e9</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Connect-PSSession</source>
+          <target state="translated">Connect-PSSession</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Connect-PSSession</source>
+          <target state="translated">Connect-PSSession</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">요약</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Reconnects to disconnected sessions.</source>
+          <target state="translated">연결이 끊긴 세션에 다시 연결합니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">구문</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Name (Default)</source>
+          <target state="translated">이름 (기본값)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Session</source>
+          <target state="translated">세션</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>ComputerNameGuid</source>
+          <target state="translated">ComputerNameGuid</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>ComputerName</source>
+          <target state="translated">ComputerName</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>ConnectionUriGuid</source>
+          <target state="translated">ConnectionUriGuid</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>ConnectionUri</source>
+          <target state="translated">ConnectionUri</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>InstanceId</source>
+          <target state="translated">InstanceId</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Id</source>
+          <target state="translated">Id</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">설명</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Connect-PSSession<ept id="p1">**</ept> cmdlet reconnects to user-managed Windows PowerShell sessions (<bpt id="p2">**</bpt>PSSessions<ept id="p2">**</ept>) that were disconnected.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Connect-pssession<ept id="p1">**</ept> cmdlet 사용자 관리 Windows PowerShell 세션에 다시 연결 (<bpt id="p2">**</bpt>Pssession<ept id="p2">**</ept>) 하는 연결이 끊긴 합니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>It works on sessions that are disconnected intentionally, such as by using the Disconnect-PSSession cmdlet or the <bpt id="p1">*</bpt>InDisconnectedSession<ept id="p1">*</ept> parameter of the Invoke-Command cmdlet, and those that were disconnected unintentionally, such as by a temporary network outage.</source>
+          <target state="translated">연결이 끊어진 의도적으로 같은 Disconnect-pssession cmdlet을 사용 하 여 세션에서 작동 또는 <bpt id="p1">*</bpt>InDisconnectedSession<ept id="p1">*</ept> 된 및 Invoke-command cmdlet의 매개 변수 연결이 끊어진 의도 하지 않은 상태 같은 일시적인 네트워크 중단을 기준으로 합니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Connect-PSSession<ept id="p1">**</ept> can connect to any disconnected session that was started by the same user.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Connect-pssession<ept id="p1">**</ept> 동일한 사용자에 의해 시작 된 연결이 끊긴된 세션에 연결할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>These include those that were started by or disconnected from other sessions on other computers.</source>
+          <target state="translated">여기 시작 되었거나 다른 컴퓨터에서 다른 세션에서 분리 하는 포함 됩니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>However, <bpt id="p1">**</bpt>Connect-PSSession<ept id="p1">**</ept> cannot connect to broken or closed sessions, or interactive sessions started by using the Enter-PSSession cmdlet.</source>
+          <target state="translated">그러나 <bpt id="p1">**</bpt>Connect-pssession<ept id="p1">**</ept> 중단 되었거나 닫힌 세션 또는 Enter-pssession cmdlet을 사용 하 여 시작 하는 대화형 세션에 연결할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Also you cannot connect sessions to sessions started by other users, unless you can provide the credentials of the user who created the session.</source>
+          <target state="translated">또한 세션을 만든 사용자의 자격 증명을 제공할 수 없는 경우 다른 사용자가 시작한 세션에 세션을 연결할 수는 없습니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For more information about the Disconnected Sessions feature, see about_Remote_Disconnected_Sessions.</source>
+          <target state="translated">연결이 끊긴 세션 기능에 대 한 자세한 내용은 about_Remote_Disconnected_Sessions를 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This cmdlet was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">이 cmdlet은 Windows PowerShell 3.0에서 도입되었습니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">예제</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Example 1: Reconnect to a session</source>
+          <target state="translated">예제 1: 세션에 다시 연결</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This command reconnects to the ITTask session on the Server01 computer.</source>
+          <target state="translated">이 명령은 Server01 컴퓨터의 ITTask 세션에 다시 연결합니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The output shows that the command was successful.</source>
+          <target state="translated">출력은 명령이 성공했음을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>State<ept id="p1">**</ept> of the session is Opened and the <bpt id="p2">**</bpt>Availability<ept id="p2">**</ept> is Available, which indicates that you can run commands in the session.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>상태<ept id="p1">**</ept> 세션을 열 및 <bpt id="p2">**</bpt>가용성<ept id="p2">**</ept> 를 사용할 수 있는, 세션에서 명령을 실행할 수 있음을 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Example 2: Effect of disconnecting and reconnecting</source>
+          <target state="translated">연결을 끊고 다시 연결의 예제 2: 효과</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This example shows the effect of disconnecting and then reconnecting to a session.</source>
+          <target state="translated">이 예제에서는 세션의 연결을 끊고 세션에 다시 연결할 경우의 결과를 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The first command uses the Get-PSSession cmdlet.</source>
+          <target state="translated">첫 번째 명령은 Get-pssession cmdlet을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Without the <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> parameter, the command gets only sessions that were created in the current session.</source>
+          <target state="translated">없이 <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> 매개 변수를 명령은 현재 세션에서 만들어진 세션만 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The output shows that the command gets the Backups session on the local computer.</source>
+          <target state="translated">출력은 명령이 로컬 컴퓨터의 백업 세션을 가져옴을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>State<ept id="p1">**</ept> of the session is Opened and the <bpt id="p2">**</bpt>Availability<ept id="p2">**</ept> is Available.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>상태<ept id="p1">**</ept> 세션을 열 및 <bpt id="p2">**</bpt>가용성<ept id="p2">**</ept> 를 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">**</bpt>Get-PSSession<ept id="p1">**</ept> cmdlet to get the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> objects that were created in the current session and the <bpt id="p3">**</bpt>Disconnect-PSSession<ept id="p3">**</ept> cmdlet to disconnect the sessions.</source>
+          <target state="translated">두 번째 명령은 <bpt id="p1">**</bpt>Get-pssession<ept id="p1">**</ept> cmdlet을 사용 하는 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> 현재 세션에서 만들어진 개체 및 <bpt id="p3">**</bpt>Disconnect-pssession<ept id="p3">**</ept> cmdlet 연결을 끊을 세션입니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The output shows that the Backups session was disconnected.</source>
+          <target state="translated">출력은 백업 세션의 연결이 끊겼음을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>State<ept id="p1">**</ept> of the session is Disconnected and the <bpt id="p2">**</bpt>Availability<ept id="p2">**</ept> is None.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>상태<ept id="p1">**</ept> 세션의 연결이 끊어지면 및 <bpt id="p2">**</bpt>가용성<ept id="p2">**</ept> None입니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The third command uses the <bpt id="p1">**</bpt>Get-PSSession<ept id="p1">**</ept> cmdlet to get the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> objects that were created in the current session and the <bpt id="p3">**</bpt>Connect-PSSession<ept id="p3">**</ept> cmdlet to reconnect the sessions.</source>
+          <target state="translated">세 번째 명령은 <bpt id="p1">**</bpt>Get-pssession<ept id="p1">**</ept> cmdlet을 사용 하는 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> 현재 세션에서 만든 개체를 및 <bpt id="p3">**</bpt>Connect-pssession<ept id="p3">**</ept> cmdlet 다시 연결을 사용 하는 세션입니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The output shows that the Backups session was reconnected.</source>
+          <target state="translated">출력은 백업 세션이 다시 연결되었음을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>State<ept id="p1">**</ept> of the session is Opened and the <bpt id="p2">**</bpt>Availability<ept id="p2">**</ept> is Available.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>상태<ept id="p1">**</ept> 세션을 열 및 <bpt id="p2">**</bpt>가용성<ept id="p2">**</ept> 를 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">**</bpt>Connect-PSSession<ept id="p1">**</ept> cmdlet on a session that is not disconnected, the command does not affect the session and it does not generate any errors.</source>
+          <target state="translated">사용 하는 경우는 <bpt id="p1">**</bpt>Connect-pssession<ept id="p1">**</ept> 와 연결이 끊긴 세션에서 cmdlet을 명령이 영향을 주지 않습니다 세션 및 모든 오류를 생성 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Example 3: Series of commands in an enterprise scenario</source>
+          <target state="translated">예제 3: 일련의 명령은 엔터프라이즈 시나리오</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This series of commands shows how the <bpt id="p1">**</bpt>Connect-PSSession<ept id="p1">**</ept> cmdlet might be used in an enterprise scenario.</source>
+          <target state="translated">이 일련의 명령이 표시 방법을 <bpt id="p1">**</bpt>Connect-pssession<ept id="p1">**</ept> 엔터프라이즈 시나리오에서 cmdlet을 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>In this case, a system administrator starts a long-running job in a session on a remote computer.</source>
+          <target state="translated">여기서는 시스템 관리자가 원격 컴퓨터의 세션에서 장기 실행 작업을 시작합니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>After starting the job, the administrator disconnects from the session and goes home.</source>
+          <target state="translated">관리자가 작업을 시작한 후 세션에서 연결을 끊고 집으로 갑니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Later that evening, the administrator logs on to her home computer and verifies that the job ran until it is completed.</source>
+          <target state="translated">나중에 저녁 집 컴퓨터 관리자로 로그온 하 고 작업이 완료 될 때까지 실행 되었음을 확인 합니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">매개 변수</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>-AllowRedirection</source>
+          <target state="translated">-AllowRedirection</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet allows redirection of this connection to an alternate URI.</source>
+          <target state="translated">이 cmdlet이이 연결을 대체 URI의 리디렉션을 허용 하는지 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>When you use the <bpt id="p1">*</bpt>ConnectionURI<ept id="p1">*</ept> parameter, the remote destination can return an instruction to redirect to a different URI.</source>
+          <target state="translated">사용 하는 경우는 <bpt id="p1">*</bpt>ConnectionURI<ept id="p1">*</ept> 매개 변수를 원격 대상에는 다른 URI로 리디렉션하는 명령을 반환할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>By default, Windows PowerShell does not redirect connections, but you can use this parameter to allow it to redirect the connection.</source>
+          <target state="translated">기본적으로 Windows PowerShell에서 연결을 리디렉션하지 않지만 이 매개 변수를 사용하여 Windows PowerShell이 연결을 리디렉션하도록 허용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>You can also limit the number of times the connection is redirected by changing the <bpt id="p1">**</bpt>MaximumConnectionRedirectionCount<ept id="p1">**</ept> session option value.</source>
+          <target state="translated">연결을 변경 하 여 리디렉션되면 횟수를 제한할 수도 있습니다는 <bpt id="p1">**</bpt>MaximumConnectionRedirectionCount<ept id="p1">**</ept> 세션 옵션 값입니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">*</bpt>MaximumRedirection<ept id="p1">*</ept> parameter of the New-PSSessionOption cmdlet or set the <bpt id="p2">**</bpt>MaximumConnectionRedirectionCount<ept id="p2">**</ept> property of the <bpt id="p3">**</bpt>$PSSessionOption<ept id="p3">**</ept> preference variable.</source>
+          <target state="translated">사용 하 여는 <bpt id="p1">*</bpt>MaximumRedirection<ept id="p1">*</ept> New-pssessionoption cmdlet 또는 집합의 매개 변수는 <bpt id="p2">**</bpt>MaximumConnectionRedirectionCount<ept id="p2">**</ept> 의 속성은 <bpt id="p3">**</bpt>$PSSessionOption<ept id="p3">**</ept> 기본 설정 변수입니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The default value is 5.</source>
+          <target state="translated">기본값은 5입니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>-ApplicationName</source>
+          <target state="translated">-ApplicationName</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Specifies the name of an application.</source>
+          <target state="translated">응용 프로그램의 이름을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>This cmdlet connects only to sessions that use the specified application.</source>
+          <target state="translated">이 cmdlet는 지정된 된 응용 프로그램을 사용 하는 세션에만 연결 합니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Enter the application name segment of the connection URI.</source>
+          <target state="translated">연결 URI의 응용 프로그램 이름 세그먼트를 입력합니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>For example, in the following connection URI, the application name is WSMan: <ph id="ph1">`http://localhost:5985/WSMAN`</ph>.</source>
+          <target state="translated">예를 들어 다음 연결 URI, 응용 프로그램 이름은 WSMan: <ph id="ph1">`http://localhost:5985/WSMAN`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The application name of a session is stored in the <bpt id="p1">**</bpt>Runspace.ConnectionInfo.AppName<ept id="p1">**</ept> property of the session.</source>
+          <target state="translated">에 저장 된 세션의 응용 프로그램 이름은 <bpt id="p1">**</bpt>Runspace.ConnectionInfo.AppName<ept id="p1">**</ept> 세션의 속성입니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The value of this parameter is used to select and filter sessions.</source>
+          <target state="translated">이 매개 변수 값은 세션을 선택 및 필터링하는 데 사용됩니다.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>It does not change the application that the session uses.</source>
+          <target state="translated">세션에서 사용하는 응용 프로그램을 변경하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>-Authentication</source>
+          <target state="translated">-인증</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Specifies the mechanism that is used to authenticate user credentials in the command to reconnect to the disconnected session.</source>
+          <target state="translated">연결이 끊긴된 세션에 다시 연결할 명령에서 사용자 자격 증명을 인증 하는 데 사용 되는 메커니즘을 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">이 매개 변수에 허용되는 값은 다음과 같습니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Default</source>
+          <target state="translated">Default</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Basic</source>
+          <target state="translated">기본</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Credssp</source>
+          <target state="translated">Credssp</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Digest</source>
+          <target state="translated">다이제스트</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Kerberos</source>
+          <target state="translated">Kerberos</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Negotiate</source>
+          <target state="translated">협상</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>NegotiateWithImplicitCredential</source>
+          <target state="translated">NegotiateWithImplicitCredential</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The default value is Default.</source>
+          <target state="translated">기본값은 Default입니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>For information about the values of this parameter, see AuthenticationMechanism Enumerationhttp://go.microsoft.com/fwlink/?LinkID=144382 (http://go.microsoft.com/fwlink/?LinkID=144382) in the Microsoft Developer Network (MSDN) library.</source>
+          <target state="translated">이 매개 변수 값에 대 한 정보를 Microsoft MSDN (Developer Network) 라이브러리에 AuthenticationMechanism Enumerationhttp://go.microsoft.com/fwlink/?LinkID=144382 (http://go.microsoft.com/fwlink/?LinkID=144382)을 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Caution: Credential Security Support Provider (CredSSP) authentication, in which the user's credentials are passed to a remote computer to be authenticated, is designed for commands that require authentication on more than one resource, such as accessing a remote network share.</source>
+          <target state="translated">주의: 자격 증명 보안 지원 공급자 (CredSSP) 인증을 인증 하 고 원격 컴퓨터로 전달 되는 사용자의 자격 증명은 원격 네트워크 공유에 액세스 하는 둘 이상의 리소스에 인증을 요구 하는 명령을 위해 설계 되었습니다.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>This mechanism increases the security risk of the remote operation.</source>
+          <target state="translated">이렇게 하면 원격 작업의 보안 위험이 커집니다.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>If the remote computer is compromised, the credentials that are passed to it can be used to control the network session.</source>
+          <target state="translated">원격 컴퓨터가 손상된 경우 이 컴퓨터로 전달된 자격 증명을 사용하여 네트워크 세션을 제어할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>-CertificateThumbprint</source>
+          <target state="translated">-CertificateThumbprint</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Specifies the digital public key certificate (X509) of a user account that has permission to connect to the disconnected session.</source>
+          <target state="translated">연결이 끊긴 세션에 연결할 권한이 있는 사용자 계정의 디지털 공개 키 인증서(X509)를 지정합니다.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Enter the certificate thumbprint of the certificate.</source>
+          <target state="translated">인증서의 인증서 지문을 입력합니다.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Certificates are used in client certificate-based authentication.</source>
+          <target state="translated">인증서는 클라이언트 인증서 기반 인증에 사용됩니다.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>They can be mapped only to local user accounts.</source>
+          <target state="translated">로컬 사용자 계정에만 매핑할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>They do not work with domain accounts.</source>
+          <target state="translated">도메인 계정에는 작동 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>To get a certificate thumbprint, use a Get-Item or Get-ChildItem command in the Windows PowerShell Cert: drive.</source>
+          <target state="translated">인증서 지문을 가져오려면를 사용 하 여 Get-item 또는 Get-childitem 명령을 Windows PowerShell cert에서: 드라이브입니다.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>-ComputerName</source>
+          <target state="translated">-ComputerName</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Specifies the computers on which the disconnected sessions are stored.</source>
+          <target state="translated">연결이 끊긴 세션을 저장할 컴퓨터를 지정합니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Sessions are stored on the computer that is at the server-side or receiving end of a connection.</source>
+          <target state="translated">세션은 연결의 서버 측 또는 수신 끝에 있는 컴퓨터에 저장 됩니다.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The default is the local computer.</source>
+          <target state="translated">기본값은 로컬 컴퓨터입니다.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Type the NetBIOS name, an IP address, or a fully qualified domain name of one computer.</source>
+          <target state="translated">한 컴퓨터의 NetBIOS 이름, IP 주소 또는 정규화된 도메인 이름을 입력하세요.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are not permitted.</source>
+          <target state="translated">와일드카드 문자는 사용할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>To specify the local computer, type the computer name, localhost, or a dot (.)</source>
+          <target state="translated">로컬 컴퓨터를 지정 하려면 컴퓨터 이름, localhost 또는 점 (.)를 입력</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>-ConfigurationName</source>
+          <target state="translated">-ConfigurationName</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Connects only to sessions that use the specified session configuration.</source>
+          <target state="translated">지정한 세션 구성을 사용하는 세션에만 연결합니다.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Enter a configuration name or the fully qualified resource URI for a session configuration.</source>
+          <target state="translated">세션 구성의 구성 이름 또는 정규화된 리소스 URI를 입력합니다.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>If you specify only the configuration name, the following schema URI is prepended: http://schemas.microsoft.com/powershell.</source>
+          <target state="translated">다음 스키마 URI가 추가 구성 이름만 지정 하면: http://schemas.microsoft.com/powershell 합니다.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The configuration name of a session is stored in the <bpt id="p1">**</bpt>ConfigurationName<ept id="p1">**</ept> property of the session.</source>
+          <target state="translated">에 저장 된 세션의 구성 이름은 <bpt id="p1">**</bpt>ConfigurationName<ept id="p1">**</ept> 세션의 속성입니다.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The value of this parameter is used to select and filter sessions.</source>
+          <target state="translated">이 매개 변수 값은 세션을 선택 및 필터링하는 데 사용됩니다.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>It does not change the session configuration that the session uses.</source>
+          <target state="translated">세션에서 사용하는 세션 구성을 변경하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>For more information about session configurations, see about_Session_Configurations.</source>
+          <target state="translated">세션 구성에 대 한 자세한 내용은 about_Session_Configurations를 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">이 cmdlet을 실행 하기 전에 확인 하면 메시지를 표시 합니다. 이 cmdlet을 실행 하기 전에 확인 하면 메시지를 표시 합니다.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>-ConnectionUri</source>
+          <target state="translated">-ConnectionUri</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Specifies the URIs of the connection endpoints for the disconnected sessions.</source>
+          <target state="translated">연결이 끊긴된 세션에 대 한 연결 끝점의 Uri를 지정합니다.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The URI must be fully qualified.</source>
+          <target state="translated">URI는 정규화된 URI여야 합니다.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The format of this string is as follows:</source>
+          <target state="translated">이 문자열의 형식은 다음과 같습니다.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The default value is as follows:</source>
+          <target state="translated">기본값은 다음과 같습니다.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>If you do not specify a connection URI, you can use the <bpt id="p1">*</bpt>UseSSL<ept id="p1">*</ept> and <bpt id="p2">*</bpt>Port<ept id="p2">*</ept> parameters to specify the connection URI values.</source>
+          <target state="translated">연결 URI를 지정 하지 않으면 경우 사용할 수 있습니다는 <bpt id="p1">*</bpt>UseSSL<ept id="p1">*</ept> 및 <bpt id="p2">*</bpt>포트<ept id="p2">*</ept> 연결 URI 값을 지정 하는 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Valid values for the <bpt id="p1">**</bpt>Transport<ept id="p1">**</ept> segment of the URI are HTTP and HTTPS.</source>
+          <target state="translated">에 대 한 유효한 값은 <bpt id="p1">**</bpt>전송<ept id="p1">**</ept> URI의 세그먼트는 HTTP 및 HTTPS입니다.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>If you specify a connection URI with a Transport segment, but do not specify a port, the session is created with standards ports: 80 for HTTP and 443 for HTTPS.</source>
+          <target state="translated">표준 포트와 세션을 만들 전송 세그먼트와 연결 URI를 지정 포트를 지정 하지 않는 경우: 80에 HTTP 및 HTTPS의 경우 443입니다.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>To use the default ports for Windows PowerShell remoting, specify port 5985 for HTTP or 5986 for HTTPS.</source>
+          <target state="translated">Windows PowerShell 원격을 위한 기본 포트를 사용하려면 HTTP의 경우 포트 5985 또는 HTTPS의 경우 5986을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>If the destination computer redirects the connection to a different URI, Windows PowerShell prevents the redirection unless you use the <bpt id="p1">*</bpt>AllowRedirection<ept id="p1">*</ept> parameter in the command.</source>
+          <target state="translated">사용 하지 않는 한 Windows PowerShell에서 리디렉션을 차단 하는 경우 대상 컴퓨터를 다른 URI로 연결을 리디렉션합니다는 <bpt id="p1">*</bpt>AllowRedirection<ept id="p1">*</ept> 명령에 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>-Credential</source>
+          <target state="translated">-Credential</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Specifies a user account that has permission to connect to the disconnected session.</source>
+          <target state="translated">연결이 끊긴 세션에 연결할 권한이 있는 사용자 계정을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The default is the current user.</source>
+          <target state="translated">기본값은 현재 사용자입니다.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Type a user name, such as User01 or Domain01\User01.</source>
+          <target state="translated">User01 또는 Domain01\User01과 같은 사용자 이름을</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Or, enter a <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> object, such as one generated by the Get-Credential cmdlet.</source>
+          <target state="translated">또는 입력 한 <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> Get-credential cmdlet에서 생성 된 것과 같은 개체입니다.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>If you type a user name, this cmdlet prompts you for a password.</source>
+          <target state="translated">사용자 이름을 입력 하는 경우이 cmdlet 암호를 묻는 메시지를 표시 합니다.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>-Id</source>
+          <target state="translated">-Id</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Specifies the IDs of the disconnected sessions.</source>
+          <target state="translated">연결이 끊긴 세션의 ID를 지정합니다.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>Id<ept id="p1">*</ept> parameter works only when the disconnected session was previously connected to the current session.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>Id<ept id="p1">*</ept> 만 경우 연결이 끊긴된 세션이 이전에 연결 된 현재 세션에 작동 하는 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>This parameter is valid, but not effective, when the session is stored on the local computer, but was not connected to the current session.</source>
+          <target state="translated">이 매개 변수는 유효하지만, 세션이 로컬 컴퓨터에 저장되어 있지만 현재 세션에 연결되지 않은 경우 적용되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>-InstanceId</source>
+          <target state="translated">-InstanceId</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Specifies the instance IDs of the disconnected sessions.</source>
+          <target state="translated">연결이 끊긴 세션의 인스턴스 ID를 지정합니다.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The instance ID is a GUID that uniquely identifies a <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> on a local or remote computer.</source>
+          <target state="translated">인스턴스 ID는 고유 하 게 식별 하는 GUID는 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 로컬 또는 원격 컴퓨터에 있습니다.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The instance ID is stored in the <bpt id="p1">**</bpt>InstanceID<ept id="p1">**</ept> property of the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>.</source>
+          <target state="translated">인스턴스 ID에 저장 되는 <bpt id="p1">**</bpt>InstanceID<ept id="p1">**</ept> 속성은 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Specifies the friendly names of the disconnected sessions.</source>
+          <target state="translated">연결이 끊긴 세션의 이름을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>-Port</source>
+          <target state="translated">포트</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Specifies the network port on the remote computer that is used to reconnect to the session.</source>
+          <target state="translated">세션에 다시 연결하는 데 사용할 원격 컴퓨터의 네트워크 포트를 지정합니다.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>To connect to a remote computer, the remote computer must be listening on the port that the connection uses.</source>
+          <target state="translated">원격 컴퓨터에 연결하려면 원격 컴퓨터가 연결에서 사용하는 포트에서 수신 대기하고 있어야 합니다.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The default ports are 5985, which is the WinRM port for HTTP, and 5986, which is the WinRM port for HTTPS.</source>
+          <target state="translated">기본 포트는 HTTP 용 WinRM 포트는 5985 및 HTTPS 용 WinRM 포트 5986 합니다.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Before using an alternate port, you must configure the WinRM listener on the remote computer to listen at that port.</source>
+          <target state="translated">대체 포트를 사용하려면 먼저 원격 컴퓨터에 해당 포트에서 수신 대기할 WinRM 수신기를 구성해야 합니다.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>To configure the listener, type the following two commands at the Windows PowerShell prompt:</source>
+          <target state="translated">수신기를 구성하려면 Windows PowerShell 프롬프트에 다음 두 명령을 입력합니다.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Do not use the <bpt id="p1">*</bpt>Port<ept id="p1">*</ept> parameter unless you must.</source>
+          <target state="translated">사용 하지 않는 <bpt id="p1">*</bpt>포트<ept id="p1">*</ept> 매개 변수가 필요한 경우가 아니면 합니다.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The port that is set in the command applies to all computers or sessions on which the command runs.</source>
+          <target state="translated">이 명령에 설정된 포트는 명령이 실행되는 모든 컴퓨터나 세션에 적용됩니다.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>An alternate port setting might prevent the command from running on all computers.</source>
+          <target state="translated">대체 포트 설정을 사용하면 일부 컴퓨터에서 명령이 실행되지 않을 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>-Session</source>
+          <target state="translated">세션</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Specifies the disconnected sessions.</source>
+          <target state="translated">연결이 끊긴 세션을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> objects or a command that creates or gets the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> objects, such as a Get-PSSession command.</source>
+          <target state="translated">포함 된 변수를 입력는 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 을 만들거나 가져오는 명령 또는 개체는 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> Get-pssession 명령 등의 개체입니다.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>-SessionOption</source>
+          <target state="translated">-SessionOption</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Specifies advanced options for the session.</source>
+          <target state="translated">세션에 대 한 고급 옵션을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Enter a <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> object, such as one that you create by using the New-PSSessionOption cmdlet, or a hash table in which the keys are session option names and the values are session option values.</source>
+          <target state="translated">입력 한 <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> New-pssessionoption cmdlet을 사용 하 여 만들 또는 해시 테이블 키는 세션 옵션 이름 및 값은 세션 옵션 값 등의 개체입니다.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The default values for the options are determined by the value of the $PSSessionOption preference variable, if it is set.</source>
+          <target state="translated">옵션의 기본값은 $PSSessionOption 기본 설정 변수 값(설정되어 있는 경우)에 따라 결정됩니다.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Otherwise, the default values are established by options set in the session configuration.</source>
+          <target state="translated">그러지 않으면 기본값은 세션 구성에 설정된 옵션에 따라 설정됩니다.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The session option values take precedence over default values for sessions set in the $PSSessionOption preference variable and in the session configuration.</source>
+          <target state="translated">$PSSessionOption 기본 설정 변수 및 세션 구성에서 설정 하는 세션에 대 한 기본값 보다 우선을 적용 하는 세션 옵션 값입니다.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>However, they do not take precedence over maximum values, quotas or limits set in the session configuration.</source>
+          <target state="translated">그러나 이러한 값은 세션 구성에 설정된 최대값, 할당량 또는 제한보다 우선하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>For a description of the session options that includes the default values, see New-PSSessionOption.</source>
+          <target state="translated">기본 값이 포함 된 세션 옵션의 설명, New-pssessionoption를 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>For information about the <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> preference variable, see about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</source>
+          <target state="translated">에 대 한 내용은 <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> 기본 설정 변수 참조 about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>For more information about session configurations, see about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152).</source>
+          <target state="translated">세션 구성에 대한 자세한 내용은 about_Session_Configurations(http://go.microsoft.com/fwlink/?LinkID=145152)를 참조하세요.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>-ThrottleLimit</source>
+          <target state="translated">-ThrottleLimit</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum number of concurrent connections that can be established to run this command.</source>
+          <target state="translated">이 명령을 실행하도록 설정할 수 있는 최대 동시 연결 수를 지정합니다.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter or enter a value of 0, the default value, 32, is used.</source>
+          <target state="translated">이 매개 변수를 생략하거나 값 0을 입력하면 기본값 32가 사용됩니다.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The throttle limit applies only to the current command, not to the session or to the computer.</source>
+          <target state="translated">제한 한도는 현재 명령에만 적용되며 세션이나 컴퓨터에는 적용되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>-UseSSL</source>
+          <target state="translated">-UseSSL</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet uses the Secure Sockets Layer (SSL) protocol to connect to the disconnected session.</source>
+          <target state="translated">이 cmdlet은 연결이 끊긴된 세션에 연결 하는 Secure Sockets Layer (SSL) 프로토콜 사용 함을 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>By default, SSL is not used.</source>
+          <target state="translated">기본적으로 SSL은 사용되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>WS-Management encrypts all Windows PowerShell content transmitted over the network.</source>
+          <target state="translated">WS-Management는 네트워크를 통해 전송되는 모든 Windows PowerShell 내용을 암호화합니다.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>UseSSL<ept id="p1">*</ept> parameter is an additional protection that sends the data across an HTTPS connection instead of an HTTP connection.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>UseSSL<ept id="p1">*</ept> 매개 변수는 HTTP 연결 대신 HTTPS 연결을 통해 데이터를 보내는 추가적인 보호 합니다.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>If you use this parameter, but SSL is not available on the port that is used for the command, the command fails.</source>
+          <target state="translated">이 매개 변수를 사용 하 여 명령에 사용 되는 포트에서 SSL을 사용할 수 없는 경우 명령이 실패 합니다.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">cmdlet이 실행될 경우 결과 동작을 표시합니다.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Cmdlet은 실행 되지 않습니다. Cmdlet이 실행 되 면 어떻게 되는지를 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">cmdlet이 실행되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">이 cmdlet은 공통 매개 변수:-디버그,-ErrorAction,-ErrorVariable,-InformationAction,-InformationVariable,-OutVariable,-OutBuffer,-PipelineVariable,-Verbose,-WarningAction 및-warningvariable을 지원 합니다.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">자세한 내용은 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)를 참조 합니다.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">입력</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.Runspaces.PSSession</source>
+          <target state="translated">System.Management.Automation.Runspaces.PSSession</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>You can pipe a session (<bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept>) to this cmdlet.</source>
+          <target state="translated">세션을 파이프할 수 있습니다 (<bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept>)이이 cmdlet에 있습니다.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">출력</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.Runspaces.PSSession</source>
+          <target state="translated">System.Management.Automation.Runspaces.PSSession</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>This cmdlet returns an object that represents the session to which it reconnected.</source>
+          <target state="translated">이 cmdlet을 다시 연결한 세션을 나타내는 개체를 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">참고 사항</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Connect-PSSession<ept id="p1">**</ept> reconnects only to sessions that are disconnected, that is, sessions that have a value of Disconnected for the <bpt id="p2">**</bpt>State<ept id="p2">**</ept> property.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Connect-pssession<ept id="p1">**</ept> 세션에 대 한 연결 끊김의 값이 있는 즉, 연결이 끊긴 세션에만 다시 연결 되는 <bpt id="p2">**</bpt>상태<ept id="p2">**</ept> 속성입니다.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Only sessions that are connected to, or end at, computers that run Windows PowerShell 3.0 or later versions can be disconnected and reconnected.</source>
+          <target state="translated">세션만 하는 연결 또는 종료, Windows PowerShell 3.0을 실행 하는 컴퓨터 또는 이후 버전 연결이 끊어지고 다시 연결 될 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>If you use <bpt id="p1">**</bpt>Connect-PSSession<ept id="p1">**</ept> on a session that is not disconnected, the command does not affect the session and it does not generate errors.</source>
+          <target state="translated">사용 하는 경우 <bpt id="p1">**</bpt>Connect-pssession<ept id="p1">**</ept> 와 연결이 끊긴 세션에 명령을 영향을 주지 않습니다 세션 및 오류를 생성 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Disconnected loopback sessions with interactive tokens, which are created by using the <bpt id="p1">*</bpt>EnableNetworkAccess<ept id="p1">*</ept> parameter, can be reconnected only from the computer on which the session was created.</source>
+          <target state="translated">연결이 끊긴 루프백 세션을 사용 하 여 만들어지는 대화형 토큰은 <bpt id="p1">*</bpt>EnableNetworkAccess<ept id="p1">*</ept> 매개 변수를은 세션을 만든 컴퓨터 에서만에서 다시 연결할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>This restriction protects the computer from malicious access.</source>
+          <target state="translated">이 제한은 악의적인 액세스로부터 컴퓨터를 보호합니다.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">**</bpt>State<ept id="p1">**</ept> property of a <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> is relative to the current session.</source>
+          <target state="translated">값은 <bpt id="p1">**</bpt>상태<ept id="p1">**</ept> 의 속성을 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> 현재 세션을 기준으로 합니다.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Therefore, a value of <bpt id="p1">**</bpt>Disconnected<ept id="p1">**</ept> means that the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> is not connected to the current session.</source>
+          <target state="translated">따라서 값 <bpt id="p1">**</bpt>연결 끊김<ept id="p1">**</ept> 의미는 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> 현재 세션에 연결 되지 않은 합니다.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>However, it does not mean that the <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> is disconnected from all sessions.</source>
+          <target state="translated">그러나 그렇다고 하는 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 모든 세션에서 연결이 끊어졌습니다.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>It might be connected to a different session.</source>
+          <target state="translated">다른 세션에 연결되어 있을 수도 있습니다.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>To determine whether you can connect or reconnect to the session, use the <bpt id="p1">**</bpt>Availability<ept id="p1">**</ept> property.</source>
+          <target state="translated">연결 하거나 세션에 다시 연결할 수 있는지 여부를 확인 하려면는 <bpt id="p1">**</bpt>가용성<ept id="p1">**</ept> 속성입니다.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">**</bpt>Availability<ept id="p1">**</ept> value of None indicates that you can connect to the session.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>가용성<ept id="p1">**</ept> None 값은 세션에 연결할 수 있는지를 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>A value of Busy indicates that you cannot connect to the <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> because it is connected to another session.</source>
+          <target state="translated">사용 중 값에 연결할 수는 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 다른 세션에 연결 되어 있습니다.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>For more information about the values of the <bpt id="p1">**</bpt>State<ept id="p1">**</ept> property of sessions, see RunspaceState Enumerationhttp://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.runspaces.runspacestate(v=VS.85).aspx (http://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.runspaces.runspacestate(v=VS.85).aspx) in the MSDN library.</source>
+          <target state="translated">값에 대 한 자세한 내용은 <bpt id="p1">**</bpt>상태<ept id="p1">**</ept> 세션의 속성 참조 RunspaceState Enumerationhttp://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.runspaces.runspacestate (v=VS.85).aspx (MSDN library에서 http://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.runspaces.runspacestate (v=VS.85).aspx).</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>For more information about the values of the <bpt id="p1">**</bpt>Availability<ept id="p1">**</ept> property of sessions, see RunspaceAvailability Enumerationhttp://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.runspaces.runspaceavailability(v=vs.85).aspx (http://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.runspaces.runspaceavailability(v=vs.85).aspx) in the MSDN library.</source>
+          <target state="translated">값에 대 한 자세한 내용은 <bpt id="p1">**</bpt>가용성<ept id="p1">**</ept> 세션의 속성 참조 RunspaceAvailability Enumerationhttp://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.runspaces.runspaceavailability (v=vs.85).aspx (MSDN library에서 http://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.runspaces.runspaceavailability (v=vs.85).aspx).</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>You cannot change the idle time-out value of a <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> when you connect to the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>.</source>
+          <target state="translated">유휴 시간 제한 값을 변경할 수는 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 에 연결할 때의 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>SessionOption<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>Connect-PSSession<ept id="p2">**</ept> takes a <bpt id="p3">**</bpt>SessionOption<ept id="p3">**</ept> object that has an <bpt id="p4">**</bpt>IdleTimeout<ept id="p4">**</ept> value.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>SessionOption<ept id="p1">*</ept> 의 매개 변수 <bpt id="p2">**</bpt>Connect-pssession<ept id="p2">**</ept> 는 <bpt id="p3">**</bpt>SessionOption<ept id="p3">**</ept> 있는 개체는 <bpt id="p4">**</bpt>IdleTimeout<ept id="p4">**</ept> 값입니다.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>However, the <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> value of the <bpt id="p2">**</bpt>SessionOption<ept id="p2">**</ept> object and the <bpt id="p3">**</bpt>IdleTimeout<ept id="p3">**</ept> value of the $PSSessionOption variable are ignored when connecting to a <bpt id="p4">**</bpt>PSSession<ept id="p4">**</ept>.</source>
+          <target state="translated">그러나는 <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> 의 값은 <bpt id="p2">**</bpt>SessionOption<ept id="p2">**</ept> 개체 및 <bpt id="p3">**</bpt>IdleTimeout<ept id="p3">**</ept> 에 연결할 때 $PSSessionOption 변수의 값은 무시 됩니다는 <bpt id="p4">**</bpt>PSSession<ept id="p4">**</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>You can set and change the idle time-out of a <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> when you create the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>, by using the <bpt id="p3">**</bpt>New-PSSession<ept id="p3">**</ept> or <bpt id="p4">**</bpt>Invoke-Command<ept id="p4">**</ept> cmdlets, and when you disconnect from the <bpt id="p5">**</bpt>PSSession<ept id="p5">**</ept>.</source>
+          <target state="translated">설정 하 고 유휴 제한 시간을 변경할 수는 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 만들 때는 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>, 를 사용 하 여는 <bpt id="p3">**</bpt>New-pssession<ept id="p3">**</ept> 또는 <bpt id="p4">**</bpt>Invoke-command<ept id="p4">**</ept> cmdlet에서 연결을 끊을 때는 <bpt id="p5">**</bpt>PSSession<ept id="p5">**</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> property of a <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> is critical to disconnected sessions, because it determines how long a disconnected session is maintained on the remote computer.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> 의 속성을 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> 연결이 끊긴된 세션에 중요 한, 연결이 끊긴된 세션에 시간을 결정 하므로 원격 컴퓨터에서 유지 관리 됩니다.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Disconnected sessions are considered to be idle from the moment that they are disconnected, even if commands are running in the disconnected session.</source>
+          <target state="translated">연결이 끊긴 세션은 연결이 끊긴 세션에서 명령을 실행 중인 경우에도 연결이 끊긴 순간부터 유휴 상태로 간주됩니다.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">관련된 링크</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Disconnect-PSSession</source>
+          <target state="translated">Disconnect-PSSession</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Enter-PSSession</source>
+          <target state="translated">Enter-PSSession</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Exit-PSSession</source>
+          <target state="translated">Exit-PSSession</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Get-PSSession</source>
+          <target state="translated">Get-pssession</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Get-PSSessionConfiguration</source>
+          <target state="translated">Get-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>New-PSSession</source>
+          <target state="translated">New-PSSession</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>New-PSSessionOption</source>
+          <target state="translated">New-PSSessionOption</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>New-PSTransportOption</source>
+          <target state="translated">New-PSTransportOption</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>Receive-PSSession</source>
+          <target state="translated">Receive-PSSession</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>Register-PSSessionConfiguration</source>
+          <target state="translated">Register-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Remove-PSSession</source>
+          <target state="translated">Remove-PSSession</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>about_PSSessions</source>
+          <target state="translated">about_PSSessions</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>about_Remote</source>
+          <target state="translated">about_Remote</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>about_Remote_Disconnected_Sessions</source>
+          <target state="translated">about_Remote_Disconnected_Sessions</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>about_Session_Configurations</source>
+          <target state="translated">about_Session_Configurations</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

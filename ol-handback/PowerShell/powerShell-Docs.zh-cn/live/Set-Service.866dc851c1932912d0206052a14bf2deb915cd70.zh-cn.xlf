@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">26b4749cf8f0fd8bab327f2354807a30fad03238</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Management\Set-Service.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8109949d561b2aa6f044a3f576faf927fd4765fd</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5871a1a481b048d18c490826e5023bd02f934441</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Set-Service</source>
+          <target state="translated">Set-Service</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Set-Service</source>
+          <target state="translated">Set-Service</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">简述</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Starts, stops, and suspends a service, and changes its properties.</source>
+          <target state="translated">启动、停止和挂起服务并更改服务的属性。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">语法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Name (Default)</source>
+          <target state="translated">名称 （默认值）</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>InputObject</source>
+          <target state="translated">InputObject</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The Set-Service cmdlet changes the properties of a local or remote service, including the status, description, display name, and start mode.</source>
+          <target state="translated">Set-Service cmdlet 可更改本地或远程服务的属性，其中包括状态、说明、显示名称和启动模式。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can use this cmdlet to start, stop, or suspend (pause) a service.</source>
+          <target state="translated">可以使用此 cmdlet 启动、停止或挂起（暂停）服务。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To identify the service, enter its service name or submit a service object, or pipe a service name or service object to Set-Service.</source>
+          <target state="translated">若要标识服务，请输入其服务名称或提交服务对象，或者通过管道将服务名称或服务对象传递给 Set-Service。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">示例</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 示例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This command changes the display name of the lanmanworkstation service to "LanMan Workstation".</source>
+          <target state="translated">此命令将 lanmanworkstation 服务的显示名称更改为“LanMan Workstation”。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>(The default is "Workstation".)</source>
+          <target state="translated">（默认值为“Workstation”。）</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>These commands get the startup type of the Performance Logs and Alerts (SysmonLog) service, set the start mode to automatic, and then display the result of the change.</source>
+          <target state="translated">这些命令获取性能日志和警报 (SysmonLog) 服务的启动类型，将启动模式设置为自动，然后显示更改结果。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>These commands use the Get-WmiObject cmdlet to get the Win32_Service object for the service, because the ServiceController object that Get-Service returns does not include the start mode.</source>
+          <target state="translated">这些命令使用 Get-WmiObject cmdlet 获取表示服务的 Win32_Service 对象，因为 Get-Service 所返回的 ServiceController 对象不包含启动模式。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The first command uses the Get-WmiObject cmdlet to get the Windows Management Instrumentation (WMI) object that represents the SysmonLog service.</source>
+          <target state="translated">第一条命令使用 Get-WmiObject cmdlet 获取表示 SysmonLog 服务的 Windows Management Instrumentation (WMI) 对象。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The default output of this command displays the start mode of the service.</source>
+          <target state="translated">此命令的默认输出显示该服务的启动类型。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The second command uses Set-Service to change the start mode to automatic.</source>
+          <target state="translated">第二条命令使用 Set-Service 将启动模式更改为自动。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Then, the first command is repeated to display the change.</source>
+          <target state="translated">然后，重复第一条命令以显示更改。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The final command displays the start mode of all services on the computer.</source>
+          <target state="translated">最后一条命令显示计算机上所有服务的启动模式。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>These commands change the description of the Task Scheduler service on the S1 remote computer and then display the result.</source>
+          <target state="translated">这些命令更改远程计算机 S1 上的 Task Scheduler 服务的说明，然后显示结果。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>These commands use the Get-WmiObject cmdlet to get the Win32_Service object for the service, because the ServiceController object that Get-Service returns does not include the service description.</source>
+          <target state="translated">这些命令使用 Get-WmiObject cmdlet 获取表示服务的 Win32_Service 对象，因为 Get-Service 所返回的 ServiceController 对象不包含服务说明。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The first command  uses a Set-Service command to change the description.</source>
+          <target state="translated">第一条命令使用 Set-Service 命令来更改说明。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>It identifies the service by using the service name of the service, "Schedule".</source>
+          <target state="translated">它使用服务的服务名称“Schedule”来标识该服务。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The second command uses the Get-WmiObject cmdlet to get an instance of the WMI Win32_Service that represents the Task Scheduler service.</source>
+          <target state="translated">第二条命令使用 Get-WmiObject cmdlet 来获取表示 Task Scheduler 服务的 WMI Win32_Service 实例。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The first element in the command gets all instances of the Win32_service class.</source>
+          <target state="translated">该命令中的第一个元素获取 Win32_service 类的所有实例。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The pipeline operator (|) passes the result to the Where-Object cmdlet, which selects instances with a value of "Schedule" in the Name property.</source>
+          <target state="translated">管道运算符 (|) 将结果传递给 Where-Object cmdlet，该 cmdlet 选择 Name 属性中包含“Schedule”值的实例。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Another pipeline operator sends the result to the Format-List cmdlet, which formats the output as a list with only the Name and Description properties.</source>
+          <target state="translated">另一个管道运算符将结果发送给 Format-List cmdlet，该 cmdlet 将输出的格式设置为只包含 Name 和 Description 属性的列表。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This command starts the WinRM service on the Server02 computer.</source>
+          <target state="translated">此命令启动计算机 Server02 上的 WinRM 服务。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The command uses the Status parameter to specify the desired status ("running") and the PassThru parameter to direct Set-Service to return an object that represents the WinRM service.</source>
+          <target state="translated">此命令使用 Status 参数指定所需状态（“running”），使用 PassThru 参数指示 Set-Service 返回表示 WinRM 服务的对象。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This command suspends the Schedule service on the S1 and S2 remote computers.</source>
+          <target state="translated">此命令挂起远程计算机 S1 和 S2 上的计划服务。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>It uses the Get-Service cmdlet to get the service.</source>
+          <target state="translated">它使用 Get-Service cmdlet 来获取该服务。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A pipeline operator (|) sends the service to the Set-Service cmdlet, which changes its status to "Paused".</source>
+          <target state="translated">管道运算符 (|) 将该服务发送给 Set-Service cmdlet，后者将服务状态更改为“Paused”。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 6 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 6 --------------------------</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>These commands stop the Schedule service on the local computer.</source>
+          <target state="translated">这些命令停止本地计算机上的计划服务。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The first command uses the Get-Service cmdlet to get the Schedule service.</source>
+          <target state="translated">第一条命令使用 Get-Service cmdlet 获取计划服务。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The command saves the service in the $s variable.</source>
+          <target state="translated">此命令将该服务保存在 $s 变量中。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The second command uses the Set-Service cmdlet to change the status of the Schedule service to "Stopped".</source>
+          <target state="translated">第二条命令使用 Set-Service cmdlet 将计划服务的状态更改为“Stopped”。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>It uses the InputObject parameter to submit the service stored in the $s variable, and it uses the Status parameter to specify the desired status.</source>
+          <target state="translated">它使用 InputObject 参数提交 $s 变量中存储的服务，使用 Status 参数指定所需状态。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">参数</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>-ComputerName</source>
+          <target state="translated">-ComputerName</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Specifies one or more computers.</source>
+          <target state="translated">指定一台或多台计算机。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The default is the local computer.</source>
+          <target state="translated">默认值为本地计算机。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Type the NetBIOS name, an IP address, or a fully qualified domain name of a remote computer.</source>
+          <target state="translated">键入远程计算机的 NetBIOS 名称、IP 地址或完全限定的域名。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To specify the local computer, type the computer name, a dot (.), or "localhost".</source>
+          <target state="translated">若要指定本地计算机，请键入该计算机名称、句点 (.) 或“localhost”。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This parameter does not rely on Windows PowerShell remoting.</source>
+          <target state="translated">此参数不依赖于 Windows PowerShell 远程处理。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>You can use the ComputerName parameter of Set-Service even if your computer is not configured to run remote commands.</source>
+          <target state="translated">即使你的计算机未配置为运行远程命令，你也可以使用 Set-Service 的 ComputerName 参数。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>-Description</source>
+          <target state="translated">-Description</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Specifies a new description for the service.</source>
+          <target state="translated">指定服务的新说明。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The service description appears in Services in Computer Management.</source>
+          <target state="translated">服务说明出现在计算机管理的“服务”中。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Description is not a property of the ServiceController object that Get-Service gets.</source>
+          <target state="translated">Description 不是 Get-Service 所获取的 ServiceController 对象的属性。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To see the service description, use Get-WmiObject to get a Win32_Service object that represents the service.</source>
+          <target state="translated">若要查看服务说明，请使用 Get-WmiObject 获取表示服务的 Win32_Service 对象。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>-DisplayName</source>
+          <target state="translated">-DisplayName</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Specifies a new display name for the service.</source>
+          <target state="translated">指定服务的新显示名称。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-InputObject</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Specifies a ServiceController object that represents the service to be changed.</source>
+          <target state="translated">指定 ServiceController 对象来表示要更改的服务。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the object, or type a command or expression that gets the object, such as a Get-Service command.</source>
+          <target state="translated">请输入包含该对象的变量，或者键入获取该对象的命令或表达式（如 Get-Service 命令）。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>You can also pipe a service object to Set-Service.</source>
+          <target state="translated">也可以将服务对象通过管道传递给 Set-Service。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Specifies the service name of the service to be changed.</source>
+          <target state="translated">指定要更改的服务的服务名称。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Wildcards are not permitted.</source>
+          <target state="translated">不允许使用通配符。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>You can also pipe a service name to Set-Service.</source>
+          <target state="translated">还可以通过管道将服务名称传递给 Set-Service。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>-PassThru</source>
+          <target state="translated">-PassThru</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Returns objects that represent the services that were changed.</source>
+          <target state="translated">返回表示已更改的服务的对象。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>By default, this cmdlet does not generate any output.</source>
+          <target state="translated">默认情况下，此 cmdlet 将不产生任何输出。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>-StartupType</source>
+          <target state="translated">-StartupType</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Changes the start mode of the service.</source>
+          <target state="translated">更改服务的启动模式。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Valid values for StartupType are:</source>
+          <target state="translated">StartupType 的有效值包括：</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Automatic: Start when the system starts.</source>
+          <target state="translated">在系统启动时自动︰ 启动服务。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Manual: Starts only when started by a user or program.</source>
+          <target state="translated">Manual︰ 仅由启动时启动的用户或程序。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Disabled: Cannot be started.</source>
+          <target state="translated">已禁用︰ 无法启动。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>-Status</source>
+          <target state="translated">-状态</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Starts, stops, or suspends (pauses) the services.</source>
+          <target state="translated">启动、停止或挂起（暂停）服务。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Valid values are:</source>
+          <target state="translated">有效值包括：</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Running: Starts the service.</source>
+          <target state="translated">运行︰ 启动服务。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Stopped: Stops the service.</source>
+          <target state="translated">已停止︰ 停止服务。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Paused: Suspends the service.</source>
+          <target state="translated">已暂停︰ 挂起服务。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>{{Fill Confirm Description}}</source>
+          <target state="translated">{{填充确认描述}}</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>{{Fill WhatIf Description}}</source>
+          <target state="translated">{{填充 WhatIf 描述}}</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">此 cmdlet 支持以下常见参数:-调试-ErrorAction、-ErrorVariable、-InformationAction、-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 和-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">有关详细信息，请参阅 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">输入</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>System.ServiceProcess.ServiceController, System.String</source>
+          <target state="translated">System.ServiceProcess.ServiceController System.String</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>You can pipe a service object or a string that contains a service name to Set-Service.</source>
+          <target state="translated">可以将服务对象或包含服务名称的字符串通过管道传递给 Set-Service。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">输出</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>System.ServiceProcess.ServiceController</source>
+          <target state="translated">System.ServiceProcess.ServiceController</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>This cmdlet does not return any objects.</source>
+          <target state="translated">此 cmdlet 不返回任何对象。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>To use Set-Service on Windows Vista and later versions of Windows, start Windows PowerShell with the "Run as administrator" option.</source>
+          <target state="translated">若要在 Windows Vista 和更高版本的 Windows 上使用 Set-service，请使用"以管理员身份运行"选项启动 Windows PowerShell。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Set-Service can control services only when the current user has permission to do so.</source>
+          <target state="translated">仅当当前用户有权这样做时，Set-service 才能控制服务。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>If a command does not work correctly, you might not have the required permissions.</source>
+          <target state="translated">如果某个命令不能正常工作，则可能你不具有所需的权限。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>To find the service names and display names of the services on your system, type "get-service".</source>
+          <target state="translated">若要查找服务名称并显示你的系统中的服务名称，请键入“get-service”。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The service names appear in the Name column and the display names appear in the DisplayName column.</source>
+          <target state="translated">服务名称显示在 Name 列中，显示名称显示在 DisplayName 列中。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相关的链接</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Get-Service</source>
+          <target state="translated">Get-Service</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>New-Service</source>
+          <target state="translated">New-Service</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Restart-Service</source>
+          <target state="translated">Restart-Service</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Resume-Service</source>
+          <target state="translated">Resume-Service</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Start-Service</source>
+          <target state="translated">Start-Service</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Stop-Service</source>
+          <target state="translated">Stop-Service</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Suspend-Service</source>
+          <target state="translated">Suspend-Service</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

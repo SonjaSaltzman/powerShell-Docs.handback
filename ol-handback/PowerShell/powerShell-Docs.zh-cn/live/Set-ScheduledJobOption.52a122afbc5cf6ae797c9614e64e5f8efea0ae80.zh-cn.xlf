@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ac09742e8cc867832edaee3cb1635047bd06df41</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\PSScheduledJob\Set-ScheduledJobOption.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fef786b2a79878a35593aa54ca8876ac0b3e27f4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">df86f44c7bd909e433892adc8e9a70a3bed2db76</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Set-ScheduledJobOption</source>
+          <target state="translated">Set-ScheduledJobOption</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Set-ScheduledJobOption</source>
+          <target state="translated">Set-ScheduledJobOption</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">简述</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Changes the job options of a scheduled job.</source>
+          <target state="translated">更改计划作业的作业选项。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">语法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Set-ScheduledJobOptions<ept id="p1">**</ept> cmdlet changes the job options of scheduled jobs.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Set-scheduledjoboptions<ept id="p1">**</ept> cmdlet 更改计划作业的作业选项。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To change the options of a scheduled job, begin by using the Get-ScheduledJobOption cmdlet to get the job options of a scheduled job.</source>
+          <target state="translated">若要更改计划作业的选项，请首先使用 Get-scheduledjoboption cmdlet 来获取计划作业的作业选项。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Then, pipe the options to <bpt id="p1">**</bpt>Set-ScheduledJobOption<ept id="p1">**</ept> or save the options in a variable and use the <bpt id="p2">**</bpt>InputObject<ept id="p2">**</ept> parameter of <bpt id="p3">**</bpt>Set-ScheduledJobOption<ept id="p3">**</ept> cmdlet to identify the options.</source>
+          <target state="translated">然后，通过管道传递给选项 <bpt id="p1">**</bpt>Set-scheduledjoboption<ept id="p1">**</ept> 或将其保存在变量中，并使用 <bpt id="p2">**</bpt>InputObject<ept id="p2">**</ept> 参数 <bpt id="p3">**</bpt>Set-scheduledjoboption<ept id="p3">**</ept> cmdlet 来确定哪些选项。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Use the remaining parameters of <bpt id="p1">**</bpt>Set-ScheduledJobOption<ept id="p1">**</ept> to change the job options.</source>
+          <target state="translated">使用剩余的参数的 <bpt id="p1">**</bpt>Set-scheduledjoboption<ept id="p1">**</ept> 若要更改作业选项。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To turn on a job option, use the parameter that sets that option.</source>
+          <target state="translated">若要启用作业选项，请使用设置该选项的参数。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To turn off an option, type the parameter name, a colon (:), and <bpt id="p1">**</bpt>$false<ept id="p1">**</ept>.</source>
+          <target state="translated">若要关闭某个选项，请键入参数名、 冒号 （:） 和 <bpt id="p1">**</bpt>$false<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For example, to turn off the <bpt id="p1">**</bpt>RunElevated<ept id="p1">**</ept> option, type <ph id="ph1">`-RunElevated:$false`</ph>.</source>
+          <target state="translated">例如，若要关闭 <bpt id="p1">**</bpt>RunElevated<ept id="p1">**</ept> 选项，并键入 <ph id="ph1">`-RunElevated:$false`</ph>。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Each job options object includes a <bpt id="p1">**</bpt>JobDefinition<ept id="p1">**</ept> property that contains the scheduled job, so the association with the scheduled job is retained when the job options are changed.</source>
+          <target state="translated">每个作业选项对象都包括 <bpt id="p1">**</bpt>JobDefinition<ept id="p1">**</ept> 包含计划的作业，因此作业选项发生更改时，会保留与计划作业的关联的属性。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The scheduled job options determine how the job runs when it is started by Task Scheduler.</source>
+          <target state="translated">计划作业选项确定作业在由任务计划程序启动后的运行方式。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>These options to not apply when you use the Start-Job cmdlet to start a scheduled job.</source>
+          <target state="translated">在使用 Start-job cmdlet 来启动计划的作业时不应用这些选项。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Set-ScheduledJobOption<ept id="p1">**</ept> is one of a collection of job scheduling cmdlets in the PSScheduledJob module that is included in Windows PowerShell.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Set-scheduledjoboption<ept id="p1">**</ept> 是一系列作业计划的 PSScheduledJob 模块中包含在 Windows PowerShell cmdlet 之一。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For more information about Scheduled Jobs, see the About topics in the PSScheduledJob module.</source>
+          <target state="translated">有关计划作业的详细信息，请参阅 PSScheduledJob 模块中的“关于”主题。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Import the PSScheduledJob module and then type: <ph id="ph1">`Get-Help about_Scheduled*`</ph> or see about_Scheduled_Jobs.</source>
+          <target state="translated">导入 PSScheduledJob 模块，然后键入︰ <ph id="ph1">`Get-Help about_Scheduled*`</ph> 或请参阅 about_Scheduled_Jobs。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This cmdlet is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此 cmdlet 是在 Windows PowerShell 3.0 中引入的。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">示例</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Example 1: Change job options</source>
+          <target state="translated">示例 1︰ 更改作业选项</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This example shows how to change the options of a scheduled job on the local computer.</source>
+          <target state="translated">此示例显示了如何更改本地计算机上的计划作业选项。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Example 2: Change an option on all remote scheduled jobs</source>
+          <target state="translated">示例 2︰ 更改选项卡上所有远程计划作业</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This command changes the value of the IdleTimeout from one hour (the default value) to two hours on all scheduled jobs on the Server01 computer.</source>
+          <target state="translated">此命令将 Server01 计算机上所有计划作业的 IdleTimeout 值从一个小时（默认值）更改为两个小时。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The command uses the Invoke-Command cmdlet to run a command on the Server01 computer.</source>
+          <target state="translated">该命令使用 Invoke-command cmdlet 在 Server01 计算机上运行命令。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The remote command begins with a Get-ScheduledJob command that gets all scheduled jobs on the  computer.</source>
+          <target state="translated">远程命令以获取计算机的所有计划的作业 Get-scheduledjob 命令开头。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The scheduled jobs are piped to the Get-ScheduledJobOption cmdlet, which gets the job options of the scheduled jobs.</source>
+          <target state="translated">计划的作业是通过管道输送到 Get-scheduledjoboption cmdlet，后者将获取计划作业的作业选项。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Each job options object contains a <bpt id="p1">**</bpt>JobDefinition<ept id="p1">**</ept> property that contains the scheduled job, so the options object remains associated with the scheduled job even when it is changed.</source>
+          <target state="translated">每个作业选项对象都包含 <bpt id="p1">**</bpt>JobDefinition<ept id="p1">**</ept> 包含计划的作业，因此选项对象保持对其进行更改，即使与计划作业相关联的属性。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The job triggers are piped to the <bpt id="p1">**</bpt>Set-ScheduledJobOption<ept id="p1">**</ept> cmdlet, which changes the value of the IdleTimeout option to two hours (2:00:00).</source>
+          <target state="translated">作业触发器通过管道传递给 <bpt id="p1">**</bpt>Set-scheduledjoboption<ept id="p1">**</ept> cmdlet，后者将 IdleTimeout 选项的值更改为两个小时 (2: 00:00)。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">参数</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>-ContinueIfGoingOnBattery</source>
+          <target state="translated">-ContinueIfGoingOnBattery</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Do not stop the scheduled job if the computer switches to battery power (disconnects from AC power) while the job is running.</source>
+          <target state="translated">如果计算机在正在运行计划作业时切换到电池电源（断开交流电源），请不要停止运行该作业。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>By default, scheduled jobs stop when the computer disconnects from AC power.</source>
+          <target state="translated">默认情况下，计划作业在计算机断开交流电源时将停止运行。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ContinueIfGoingOnBattery<ept id="p1">**</ept> parameter sets the value of the <bpt id="p2">**</bpt>StopIfGoingOnBatteries<ept id="p2">**</ept> property of scheduled jobs to True.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>ContinueIfGoingOnBattery<ept id="p1">**</ept> 参数设置的值 <bpt id="p2">**</bpt>StopIfGoingOnBatteries<ept id="p2">**</ept> 属性为 True 的计划作业。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-DoNotAllowDemandStart</source>
+          <target state="translated">-DoNotAllowDemandStart</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Start the job only when it is triggered.</source>
+          <target state="translated">仅在触发作业时它才启动。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Users cannot start the job manually, such as by using the Run feature in Task Scheduler.</source>
+          <target state="translated">用户无法手动启动作业，例如通过使用任务计划程序中的 Run 功能。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This parameter only affects Task Scheduler.</source>
+          <target state="translated">此参数仅影响任务计划程序。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>It does not prevents users from using the Start-Job cmdlet to start the job.</source>
+          <target state="translated">它不会不可防止用户使用 Start-job cmdlet 来启动的作业。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>DoNotAllowDemandStart<ept id="p1">**</ept> parameter sets the value of the <bpt id="p2">**</bpt>DoNotAllowDemandStart<ept id="p2">**</ept> property of scheduled jobs to True.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>DoNotAllowDemandStart<ept id="p1">**</ept> 参数设置的值 <bpt id="p2">**</bpt>DoNotAllowDemandStart<ept id="p2">**</ept> 属性为 True 的计划作业。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>-HideInTaskScheduler</source>
+          <target state="translated">-HideInTaskScheduler</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Do not display the job in Task Scheduler.</source>
+          <target state="translated">不会在任务计划程序中显示作业。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This value affects only the computer on which the job runs.</source>
+          <target state="translated">此值仅影响运行该作业的计算机。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>By default, scheduled tasks appear in Task Scheduler.</source>
+          <target state="translated">默认情况下，计划任务将显示在任务计划程序中。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Even if a task is hidden, users can display the task by selecting the "<bpt id="p1">**</bpt>Show hidden tasks<ept id="p1">**</ept>" view option in Task Scheduler.</source>
+          <target state="translated">即使任务处于隐藏状态，用户可以通过选择显示任务"<bpt id="p1">**</bpt>显示隐藏的任务<ept id="p1">**</ept>"任务计划程序中查看选项。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>HideInTaskScheduler<ept id="p1">**</ept> parameter sets the value of the <bpt id="p2">**</bpt>ShowInTaskScheduler<ept id="p2">**</ept> property of scheduled jobs to False.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>HideInTaskScheduler<ept id="p1">**</ept> 参数设置的值 <bpt id="p2">**</bpt>ShowInTaskScheduler<ept id="p2">**</ept> 属性为 False 的计划作业。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>-IdleDuration</source>
+          <target state="translated">-IdleDuration</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Specifies how long the computer must be idle before the job starts.</source>
+          <target state="translated">指定在启动作业之前计算机必须处于空闲状态的时长。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The default value is 10 minutes.</source>
+          <target state="translated">默认值为 10 分钟。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>If the computer is not idle for the specified duration before the value of <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> expires, the scheduled job does not run until the next scheduled time, if any.</source>
+          <target state="translated">如果计算机不处于空闲状态的值早指定的持续时间 <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> 过期时，如果有计划的作业不会运行下一计划时间之前。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Enter a timespan object, such as one generated by the New-TimeSpan cmdlet, or enter a value in <ph id="ph1">\&lt;</ph>hours<ph id="ph2">\&gt;</ph>:<ph id="ph3">\&lt;</ph>minutes<ph id="ph4">\&gt;</ph>:<ph id="ph5">\&lt;</ph>seconds<ph id="ph6">\&gt;</ph> format that is automatically converted to a timespan object</source>
+          <target state="translated">输入一个 timespan 对象，如生成的 New-timespan cmdlet，或输入一个值以 <ph id="ph1">\&lt;</ph>小时<ph id="ph2">\&gt;</ph>:<ph id="ph3">\&lt;</ph>分钟<ph id="ph4">\&gt;</ph>:<ph id="ph5">\&lt;</ph>秒<ph id="ph6">\&gt;</ph> 自动转换为时间跨度对象的格式</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To enable this value, use the <bpt id="p1">**</bpt>StartIfIdle<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">若要启用此值，请使用 <bpt id="p1">**</bpt>StartIfIdle<ept id="p1">**</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>By default, the <bpt id="p1">**</bpt>StartIfNotIdle<ept id="p1">**</ept> property of scheduled jobs is set to True and Windows PowerShell ignores the <bpt id="p2">**</bpt>IdleDuration<ept id="p2">**</ept> and <bpt id="p3">**</bpt>IdleTimeout<ept id="p3">**</ept> values.</source>
+          <target state="translated">默认情况下， <bpt id="p1">**</bpt>StartIfNotIdle<ept id="p1">**</ept> 计划作业的属性设置为 True，而 Windows PowerShell 会忽略 <bpt id="p2">**</bpt>IdleDuration<ept id="p2">**</ept> 和 <bpt id="p3">**</bpt>IdleTimeout<ept id="p3">**</ept> 值。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>-IdleTimeout</source>
+          <target state="translated">-IdleTimeout</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Specifies how long the computer must be idle before the job starts.</source>
+          <target state="translated">指定在启动作业之前计算机必须处于空闲状态的时长。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The default value is 10 minutes.</source>
+          <target state="translated">默认值为 10 分钟。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If the computer is not idle for the specified duration before the value of <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> expires, the scheduled job does not run until the next scheduled time, if any.</source>
+          <target state="translated">如果计算机不处于空闲状态的值早指定的持续时间 <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> 过期时，如果有计划的作业不会运行下一计划时间之前。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Enter a timespan object, such as one generated by the New-TimeSpan cmdlet, or enter a value in <ph id="ph1">\&lt;</ph>hours<ph id="ph2">\&gt;</ph>:<ph id="ph3">\&lt;</ph>minutes<ph id="ph4">\&gt;</ph>:<ph id="ph5">\&lt;</ph>seconds<ph id="ph6">\&gt;</ph> format  that is automatically converted to a timespan object.</source>
+          <target state="translated">输入一个 timespan 对象，如生成的 New-timespan cmdlet，或输入一个值以 <ph id="ph1">\&lt;</ph>小时<ph id="ph2">\&gt;</ph>:<ph id="ph3">\&lt;</ph>分钟<ph id="ph4">\&gt;</ph>:<ph id="ph5">\&lt;</ph>秒<ph id="ph6">\&gt;</ph> 自动转换为时间跨度对象的格式。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>To enable this value, use the <bpt id="p1">**</bpt>StartIfIdle<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">若要启用此值，请使用 <bpt id="p1">**</bpt>StartIfIdle<ept id="p1">**</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>By default, the <bpt id="p1">**</bpt>StartIfNotIdle<ept id="p1">**</ept> property of scheduled jobs is set to True and Windows PowerShell ignores the <bpt id="p2">**</bpt>IdleDuration<ept id="p2">**</ept> and <bpt id="p3">**</bpt>IdleTimeout<ept id="p3">**</ept> values.</source>
+          <target state="translated">默认情况下， <bpt id="p1">**</bpt>StartIfNotIdle<ept id="p1">**</ept> 计划作业的属性设置为 True，而 Windows PowerShell 会忽略 <bpt id="p2">**</bpt>IdleDuration<ept id="p2">**</ept> 和 <bpt id="p3">**</bpt>IdleTimeout<ept id="p3">**</ept> 值。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-InputObject</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Specifies the job options.</source>
+          <target state="translated">指定作业选项。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains  <bpt id="p1">**</bpt>ScheduledJobOptions<ept id="p1">**</ept> objects or type a command or expression that gets <bpt id="p2">**</bpt>ScheduledJobOptions<ept id="p2">**</ept> objects, such as a Get-ScheduledJobOption command.</source>
+          <target state="translated">输入一个包含变量  <bpt id="p1">**</bpt>ScheduledJobOptions<ept id="p1">**</ept> 对象，或在键入的命令或表达式来获取 <bpt id="p2">**</bpt>ScheduledJobOptions<ept id="p2">**</ept> 对象，如 Get-scheduledjoboption 命令。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>You can also pipe a <bpt id="p1">**</bpt>ScheduledJobOptions<ept id="p1">**</ept> object to <bpt id="p2">**</bpt>Set-ScheduledJobOption<ept id="p2">**</ept>.</source>
+          <target state="translated">您还可以通过管道 <bpt id="p1">**</bpt>ScheduledJobOptions<ept id="p1">**</ept> 对象传递给 <bpt id="p2">**</bpt>Set-scheduledjoboption<ept id="p2">**</ept>。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>-MultipleInstancePolicy</source>
+          <target state="translated">-MultipleInstancePolicy</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Determines how the system responds to a request to start an instance of a scheduled job while another instance of the job is running.</source>
+          <target state="translated">确定系统如何在计划作业的某个实例正在运行时响应启动该作业的其他实例。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">**</bpt>IgnoreNew<ept id="p1">**</ept>.</source>
+          <target state="translated">默认值是 <bpt id="p1">**</bpt>IgnoreNew<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Valid values are:</source>
+          <target state="translated">有效值包括：</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>IgnoreNew<ept id="p1">**</ept>: The new job instance is ignored.</source>
+          <target state="translated"><bpt id="p1">**</bpt>IgnoreNew<ept id="p1">**</ept>︰ 新的作业实例将被忽略。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>This is the default value.</source>
+          <target state="translated">这是默认值。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Parallel<ept id="p1">**</ept>: The new job instance starts immediately.</source>
+          <target state="translated"><bpt id="p1">**</bpt>并行<ept id="p1">**</ept>︰ 立即启动新的作业实例。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Queue<ept id="p1">**</ept>: The new job instance starts as soon as the current instance completes.</source>
+          <target state="translated"><bpt id="p1">**</bpt>队列<ept id="p1">**</ept>︰ 当前实例完成时，就会立即启动新的作业实例。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>StopExisting<ept id="p1">**</ept>: The current instance of the job stop and the new instance starts.</source>
+          <target state="translated"><bpt id="p1">**</bpt>StopExisting<ept id="p1">**</ept>︰ 作业停止的当前实例和新的实例将会启动。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>To run the job, all conditions for the job schedule must be met.</source>
+          <target state="translated">若要运行该作业，必须满足作业计划的所有条件。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>For example, if the conditions that are set by the <bpt id="p1">**</bpt>RequireNetwork<ept id="p1">**</ept>, <bpt id="p2">**</bpt>IdleDuration<ept id="p2">**</ept> and <bpt id="p3">**</bpt>IdleTimeout<ept id="p3">**</ept> parameters are not satisfied, the job instance is not started, regardless of the value of this parameter.</source>
+          <target state="translated">例如，如果符合条件，通过设置 <bpt id="p1">**</bpt>RequireNetwork<ept id="p1">**</ept>, ，<bpt id="p2">**</bpt>IdleDuration<ept id="p2">**</ept> 和 <bpt id="p3">**</bpt>IdleTimeout<ept id="p3">**</ept> 参数不能满足、 未启动的作业实例，而不考虑此参数的值。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>-PassThru</source>
+          <target state="translated">-PassThru</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Returns the job options that changed.</source>
+          <target state="translated">返回更改的作业选项。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>By default, this cmdlet does not generate any output.</source>
+          <target state="translated">默认情况下，此 cmdlet 将不产生任何输出。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>-RequireNetwork</source>
+          <target state="translated">-RequireNetwork</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Runs the scheduled job only when network connections are available.</source>
+          <target state="translated">仅在网络连接可用时才运行计划作业。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>If you specify this parameter and the network is not available at the scheduled start time, the job does not run until the next scheduled start time, if any.</source>
+          <target state="translated">如果指定了此参数，但网络在计划开始时间不可用，则在下一个计划开始时间（如果有）之前该作业不会运行。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>RequireNetwork<ept id="p1">**</ept> parameter sets the value of the <bpt id="p2">**</bpt>RunWithoutNetwork<ept id="p2">**</ept> property of scheduled jobs to False.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>RequireNetwork<ept id="p1">**</ept> 参数设置的值 <bpt id="p2">**</bpt>RunWithoutNetwork<ept id="p2">**</ept> 属性为 False 的计划作业。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>-RestartOnIdleResume</source>
+          <target state="translated">-RestartOnIdleResume</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Restarts a scheduled job when the computer becomes idle.</source>
+          <target state="translated">在计算机处于空闲状态后重新启动计划作业。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>This parameter works with the <bpt id="p1">**</bpt>StopIfGoingOffIdle<ept id="p1">**</ept> parameter, which suspends a running scheduled job if the computer becomes active (leaves the idle state).</source>
+          <target state="translated">此参数适用于 <bpt id="p1">**</bpt>StopIfGoingOffIdle<ept id="p1">**</ept> 参数，它将挂起正在运行的计划的作业，如果计算机将变为活动状态 （退出空闲状态）。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>RestartOnIdleResume<ept id="p1">**</ept> parameter sets the value of the <bpt id="p2">**</bpt>RestartOnIdleResume<ept id="p2">**</ept> property of scheduled jobs to True.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>RestartOnIdleResume<ept id="p1">**</ept> 参数设置的值 <bpt id="p2">**</bpt>RestartOnIdleResume<ept id="p2">**</ept> 属性为 True 的计划作业。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>-RunElevated</source>
+          <target state="translated">-RunElevated</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Runs the scheduled job with the permissions of a member of the Administrators group on the computer on which the job runs.</source>
+          <target state="translated">使用运行计划作业的计算机上 Administrators 组成员权限来运行该作业。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>To enable a scheduled job to run with Administrator permissions, use the <bpt id="p1">**</bpt>Credential<ept id="p1">**</ept> parameter of Register-ScheduledJob to provide explicit credential for the job.</source>
+          <target state="translated">若要启用用于具有管理员权限运行的计划的作业，请使用 <bpt id="p1">**</bpt>凭据<ept id="p1">**</ept> Register-scheduledjob 来提供显式凭据的作业的参数。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>RunElevated<ept id="p1">**</ept> parameter sets the value of the <bpt id="p2">**</bpt>RunElevated<ept id="p2">**</ept> property of scheduled jobs to True.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>RunElevated<ept id="p1">**</ept> 参数设置的值 <bpt id="p2">**</bpt>RunElevated<ept id="p2">**</ept> 属性为 True 的计划作业。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>-StartIfIdle</source>
+          <target state="translated">-StartIfIdle</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Starts the scheduled job if the computer has been idle for the time specified by the <bpt id="p1">**</bpt>IdleDuration<ept id="p1">**</ept> parameter before the time specified by the <bpt id="p2">**</bpt>IdleTimeout<ept id="p2">**</ept> parameter expires.</source>
+          <target state="translated">如果在计算机空闲了指定的时间启动计划的作业 <bpt id="p1">**</bpt>IdleDuration<ept id="p1">**</ept> 参数所指定的时间之前 <bpt id="p2">**</bpt>IdleTimeout<ept id="p2">**</ept> 参数过期。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>By default, the <bpt id="p1">**</bpt>IdleDuration<ept id="p1">**</ept> and <bpt id="p2">**</bpt>IdleTimeout<ept id="p2">**</ept> parameters are ignored and the job starts at the scheduled start time even if the computer is busy.</source>
+          <target state="translated">默认情况下， <bpt id="p1">**</bpt>IdleDuration<ept id="p1">**</ept> 和 <bpt id="p2">**</bpt>IdleTimeout<ept id="p2">**</ept> 参数将被忽略，并且在计划的开始时启动的作业，即使计算机正在使用中。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>If you specify this parameter and the computer is busy (not idle) at the scheduled start time, the job does not run until the next scheduled start time, if any.</source>
+          <target state="translated">如果指定了此参数，但计算机在计划开始时间处于繁忙状态（不空闲），则在下一个计划开始时间（如果有）之前该作业不会运行。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>StartIfIdle<ept id="p1">**</ept> parameter sets the value of the <bpt id="p2">**</bpt>StartIfNotIdle<ept id="p2">**</ept> property of scheduled jobs to False.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>StartIfIdle<ept id="p1">**</ept> 参数设置的值 <bpt id="p2">**</bpt>StartIfNotIdle<ept id="p2">**</ept> 属性为 False 的计划作业。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>-StartIfOnBattery</source>
+          <target state="translated">-StartIfOnBattery</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Starts the scheduled job even if the computer is running on batteries at the scheduled start time.</source>
+          <target state="translated">在计划开始时间启动计划作业，即使计算机使用电池电源运行也是如此。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The default value is False.</source>
+          <target state="translated">默认值为 False。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>StartIfOnBattery<ept id="p1">**</ept> parameter sets the value of the <bpt id="p2">**</bpt>StartIfOnBatteries<ept id="p2">**</ept> property of scheduled jobs to True.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>StartIfOnBattery<ept id="p1">**</ept> 参数设置的值 <bpt id="p2">**</bpt>StartIfOnBatteries<ept id="p2">**</ept> 属性为 True 的计划作业。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>-StopIfGoingOffIdle</source>
+          <target state="translated">-StopIfGoingOffIdle</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Suspends a running scheduled job if the computer becomes active (not idle) while the job is running.</source>
+          <target state="translated">如果计算机在计划作业正在运行时处于活动状态（不空闲），则挂起运行的作业。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>By default, a scheduled job that is suspended when the computer becomes active resumes when the computer becomes idle again.</source>
+          <target state="translated">默认情况下，计划作业将在计算机处于活动状态时挂起，而在计算机再次处于空闲状态时恢复运行。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>To change this default behavior, use the <bpt id="p1">**</bpt>RestartOnIdleResume<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">若要更改此默认行为，请使用 <bpt id="p1">**</bpt>RestartOnIdleResume<ept id="p1">**</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>StopIfGoingOffIdle<ept id="p1">**</ept> parameter sets the value of the <bpt id="p2">**</bpt>StopIfGoingOffIdle<ept id="p2">**</ept> property of scheduled jobs to True.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>StopIfGoingOffIdle<ept id="p1">**</ept> 参数设置的值 <bpt id="p2">**</bpt>StopIfGoingOffIdle<ept id="p2">**</ept> 属性为 True 的计划作业。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>-WakeToRun</source>
+          <target state="translated">-WakeToRun</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Wakes the computer from a Hibernate or Sleep state at the scheduled start time so it can run the job.</source>
+          <target state="translated">在计划开始时间，将计算机从休眠或睡眠状态唤醒，以便它可以运行该作业。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>By default, if the computer is in a Hibernate or Sleep state at the scheduled start time, the job does not run.</source>
+          <target state="translated">默认情况下，如果计算机在计划开始时间处于休眠或睡眠状态，则不会运行该作业。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>WakeToRun<ept id="p1">**</ept> parameter sets the value of the <bpt id="p2">**</bpt>WakeToRun<ept id="p2">**</ept> property of scheduled jobs to True.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>WakeToRun<ept id="p1">**</ept> 参数设置的值 <bpt id="p2">**</bpt>WakeToRun<ept id="p2">**</ept> 属性为 True 的计划作业。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">此 cmdlet 支持以下常见参数:-调试-ErrorAction、-ErrorVariable、-InformationAction、-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 和-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">有关详细信息，请参阅 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">输入</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Microsoft.PowerShell.ScheduledJob.ScheduledJobOptions</source>
+          <target state="translated">Microsoft.PowerShell.ScheduledJob.ScheduledJobOptions</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>You can pipe a scheduled job options object to <bpt id="p1">**</bpt>Set-ScheduledJobOption<ept id="p1">**</ept>.</source>
+          <target state="translated">您可以通过管道将计划的作业选项对象传递给 <bpt id="p1">**</bpt>Set-scheduledjoboption<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">输出</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>None or Microsoft.PowerShell.ScheduledJob.ScheduledJobOptions</source>
+          <target state="translated">无或 Microsoft.PowerShell.ScheduledJob.ScheduledJobOptions</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>When you use the <bpt id="p1">**</bpt>Passthru<ept id="p1">**</ept> parameter, <bpt id="p2">**</bpt>Set-ScheduledJobOption<ept id="p2">**</ept> returns the job options that were changed.</source>
+          <target state="translated">当您使用 <bpt id="p1">**</bpt>Passthru<ept id="p1">**</ept> 参数， <bpt id="p2">**</bpt>Set-scheduledjoboption<ept id="p2">**</ept> 返回的作业选项所做的更改。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Otherwise, this cmdlet does not generate any output.</source>
+          <target state="translated">否则，此 cmdlet 将不生成任何输出。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相关的链接</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>about_Scheduled_Jobs</source>
+          <target state="translated">about_Scheduled_Jobs</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Add-JobTrigger</source>
+          <target state="translated">Add-JobTrigger</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Disable-JobTrigger</source>
+          <target state="translated">Disable-JobTrigger</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Disable-ScheduledJob</source>
+          <target state="translated">Disable-ScheduledJob</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Enable-JobTrigger</source>
+          <target state="translated">Enable-JobTrigger</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Enable-ScheduledJob</source>
+          <target state="translated">Enable-ScheduledJob</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Get-JobTrigger</source>
+          <target state="translated">Get-JobTrigger</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Get-ScheduledJob</source>
+          <target state="translated">Get-ScheduledJob</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Get-ScheduledJobOption</source>
+          <target state="translated">Get-ScheduledJobOption</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>New-JobTrigger</source>
+          <target state="translated">New-JobTrigger</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>New-ScheduledJobOption</source>
+          <target state="translated">New-ScheduledJobOption</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Register-ScheduledJob</source>
+          <target state="translated">Register-ScheduledJob</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Remove-JobTrigger</source>
+          <target state="translated">Remove-jobtrigger</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Set-JobTrigger</source>
+          <target state="translated">Set-JobTrigger</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Set-ScheduledJob</source>
+          <target state="translated">Set-ScheduledJob</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Set-ScheduledJobOption</source>
+          <target state="translated">Set-ScheduledJobOption</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Unregister-ScheduledJob</source>
+          <target state="translated">Unregister-ScheduledJob</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
