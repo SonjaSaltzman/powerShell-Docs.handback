@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a3e6bb8f2069bc911873cd74c321d9f8aa04de47</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Core\About\about_Remote_Output.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">081d2ad8d7507ee2da30d2e8e61bd2362a68b90a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b47b67a14bcf01e165206fd160b3e8099bce0fb6</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>about_Remote_Output</source>
+          <target state="translated">about_Remote_Output</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell, командлет</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>About Remote Output</source>
+          <target state="translated">О удаленного выходных данных</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>about_Remote_Output</source>
+          <target state="translated">about_Remote_Output</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>TOPIC</source>
+          <target state="translated">РАЗДЕЛ</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>about_Remote_Output</source>
+          <target state="translated">about_Remote_Output</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">КРАТКОЕ ОПИСАНИЕ</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Describes how to interpret and format the output of remote commands.</source>
+          <target state="translated">Описывает, как интерпретировать и форматирования выходных данных удаленных команд.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>LONG DESCRIPTION</source>
+          <target state="translated">ПОДРОБНОЕ ОПИСАНИЕ</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The output of a command that was run on a remote computer might look like output of the same command run on a local computer, but there are some significant differences.</source>
+          <target state="translated">Выходные данные команды, который был запущен на удаленном компьютере может выглядеть выходные данные одной команды выполнения на локальном компьютере, но есть некоторые существенные различия.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This topic explains how to interpret, format, and display the output of commands that are run on remote computers.</source>
+          <target state="translated">В этом разделе объясняется, как интерпретировать, форматирования и отображения выходных данных команды, которые выполняются на удаленных компьютерах.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>DISPLAYING THE COMPUTER NAME</source>
+          <target state="translated">ОТОБРАЖЕНИЕ ИМЕНИ КОМПЬЮТЕРА</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>When you use the Invoke-Command cmdlet to run a command on a remote computer, the command returns an object that includes the name of the computer that generated the data.</source>
+          <target state="translated">При использовании командлета Invoke-Command для выполнения команды на удаленном компьютере, команда возвращает объект, который содержит имя компьютера, который создает данные.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The remote computer name is stored in the PSComputerName property.</source>
+          <target state="translated">Имя удаленного компьютера хранится в свойстве PSComputerName.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For many commands, the PSComputerName is displayed by default.</source>
+          <target state="translated">Для многих команд PSComputerName отображается по умолчанию.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For example, the following command runs a Get-Culture command on two remote computers, Server01 and Server02.</source>
+          <target state="translated">Например следующая команда выполняет команду Get-Culture на двух удаленных компьютерах Server01 и Server02.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The output, which appears below, includes the names of the remote computers on which the command ran.</source>
+          <target state="translated">Результат, который отображается под содержатся имена удаленных компьютеров, на которых выполнялась команда.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; invoke-command -script {get-culture} -comp Server01, Server02</source>
+          <target state="translated">C:\PS &gt; вызова command - скрипт {get-culture} - comp Server01, Server02</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>LCID  Name    DisplayName                PSComputerName</source>
+          <target state="translated">LCID имя DisplayName PSComputerName</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>1033  en-US   English (United States)    Server01 1033  es-AR   Spanish (Argentina)        Server02</source>
+          <target state="translated">1033 en US Server02 испанский (Аргентина) es-AR Server01 1033 английский (США)</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You can use the HideComputerName parameter of Invoke-Command to hide the PSComputerName property.</source>
+          <target state="translated">Чтобы скрыть свойство PSComputerName, можно использовать параметр HideComputerName, Invoke-Command.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This parameter is designed for commands that collect data from only one remote computer.</source>
+          <target state="translated">Этот параметр предназначен для команд, сбор данных осуществляется только в одном удаленном компьютере.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The following command runs a Get-Culture command on the Server01 remote computer.</source>
+          <target state="translated">Следующая команда выполняет команду Get-Culture на удаленном компьютере Server01.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>It uses the HideComputerName parameter to hide the PSComputerName property and related properties.</source>
+          <target state="translated">Она использует параметр HideComputerName, чтобы скрыть свойство PSComputerName и связанные с ними свойства.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; invoke-command -scr {get-culture} -comp Server01 -HideComputerName</source>
+          <target state="translated">C:\PS &gt; вызова команды - scr {get-culture}-comp Server01 - HideComputerName</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>LCID             Name             DisplayName</source>
+          <target state="translated">Имя DisplayName LCID</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>1033             en-US            English (United States)</source>
+          <target state="translated">1033 en US английский (США)</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You can also display the PSComputerName property if it is not displayed by default.</source>
+          <target state="translated">Также можно отобразить свойство PSComputerName, если он не отображается по умолчанию.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For example, the following commands use the Format-Table cmdlet to add the PSComputerName property to the output of a remote Get-Date command.</source>
+          <target state="translated">Например следующие команды используйте командлет Format-Table для добавления свойства PSComputerName удаленной команды Get-Date.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; $dates = invoke-command -script {get-date} -computername Server01, Server02 C:\PS&gt; $dates | format-table DateTime, PSComputerName -auto</source>
+          <target state="translated">C:\PS &gt; $dates = вызова команды-скрипт {get-date} - computername Server01, Server02 C:\PS &gt; $dates | Формат таблицы DateTime, PSComputerName-автоматически</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>DateTime                            PSComputerName</source>
+          <target state="translated">PSComputerName даты и времени</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Monday, July 21, 2008 7:16:58 PM    Server01 Monday, July 21, 2008 7:16:58 PM    Server02</source>
+          <target state="translated">Понедельник, 21 июля 2008 г. 19:16:58: 00 Server01 понедельник, 21 июля 2008 г., 7:16:58 PM Server02</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>DISPLAYING THE MACHINENAME PROPERTY</source>
+          <target state="translated">ОТОБРАЖЕНИЕ СВОЙСТВО MACHINENAME</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Several cmdlets, including Get-Process, Get-Service, and Get-EventLog, have a ComputerName parameter that gets the objects on a remote computer.</source>
+          <target state="translated">Несколько командлетов, включая Get-Process, Get-Service и Get-EventLog, имеют параметр ComputerName, который возвращает объекты на удаленном компьютере.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>These cmdlets do not use Windows PowerShell remoting, so you can use them even on computers that are not configured for remoting in Windows PowerShell.</source>
+          <target state="translated">Эти командлеты не используют удаленного взаимодействия Windows PowerShell, поэтому можно использовать даже на компьютерах, которые не были настроены для удаленного взаимодействия Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The objects that these cmdlets return store the name of the remote computer in the MachineName property.</source>
+          <target state="translated">Объекты, которые возвращают эти командлеты хранить имя удаленного компьютера в свойство MachineName.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>(These objects do not have a PSComputerName property.)</source>
+          <target state="translated">(Эти объекты не имеют свойство PSComputerName).</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For example, this command gets the PowerShell process on the Server01 and Server02 remote computers.</source>
+          <target state="translated">Например эта команда получает процесс PowerShell на удаленных компьютерах Server01 и Server02.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The default display does not include the MachineName property.</source>
+          <target state="translated">Отображение по умолчанию не включает свойство MachineName.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; get-process PowerShell -computername server01, server02</source>
+          <target state="translated">C:\PS &gt; get-process PowerShell - computername server01, server02</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Handles  NPM(K)    PM(K)      WS(K) VM(M)   CPU(s)     Id ProcessName</source>
+          <target state="translated">Обрабатывает NPM(K) PM(K) WS(K) VM(M) идентификатор простое ProcessName</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>920      38    97524     114504   575     9.66   2648 PowerShell 194       6    24256      32384   142            3020 PowerShell 352      27    63472      63520   577     3.84   4796 PowerShell</source>
+          <target state="translated">920 38 97524 114504 575 9.66 2648 PowerShell 194 6 24256 32384 142 3020 PowerShell 352 27 63472 63520 577 3,84 4796 PowerShell</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>You can use the Format-Table cmdlet to display the MachineName property of the process objects.</source>
+          <target state="translated">Командлет Format-Table для отображения свойство MachineName объектов процесса.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For example, the following command saves the processes in the $p variable and then uses a pipeline operator (|) to send the processes in $p to the Format-Table command.</source>
+          <target state="translated">Например следующая команда сохраняет процессы в переменной $p и затем использует оператор конвейера (|) для отправки процессов в $p команде Format-Table.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The command uses the Property parameter of Format-Table to include the MachineName property in the display.</source>
+          <target state="translated">Команда использует параметр Property Format-Table для включения свойства MachineName на экране.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; $p = get-process PowerShell -comp Server01, Server02 C:\PS&gt; $P | format-table -property ID, ProcessName, MachineName -auto</source>
+          <target state="translated">C:\PS &gt; $p = get-process PowerShell-comp Server01, Server02 C:\PS &gt; $P | командлет Format-table-идентификатор свойства, ProcessName, MachineName-автоматически</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Id ProcessName MachineName</source>
+          <target state="translated">Идентификатор ProcessName MachineName</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>2648 PowerShell  Server02 3020 PowerShell  Server01 4796 PowerShell  Server02</source>
+          <target state="translated">2648 PowerShell Server02 3020 PowerShell Server01 4796 PowerShell Server02</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The following more complex command adds the MachineName property to the default process display.</source>
+          <target state="translated">Следующие более сложные команда добавляет свойство MachineName процесс отображения по умолчанию.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>It uses hash tables to specify calculated properties.</source>
+          <target state="translated">Используется для указания свойства вычисляемого хэш-таблицы.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Fortunately, you do not have to understand it to use it.</source>
+          <target state="translated">К счастью не нужно понимать его использования.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>(Note that the backtick [`] is the continuation character.)</source>
+          <target state="translated">(Обратите внимание, что обратный апостроф ['] является символом продолжения).</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; $p = get-process PowerShell -comp Server01, Server02</source>
+          <target state="translated">C:\PS &gt; $p = get-process PowerShell-comp Server01, Server02</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; $p | format-table -property Handles, <ph id="ph1">`
+@{Label="NPM(K)";Expression={int}}, `</ph> @{Label="PM(K)";Expression={int}}, <ph id="ph2">`
+@{Label="WS(K)";Expression={int}}, `</ph> @{Label="VM(M)";Expression={int}}, <ph id="ph3">`
+@{Label="CPU(s)";Expression={if ($.CPU -ne $()){ $.CPU.ToString("N")}}}, `</ph> Id, ProcessName, MachineName -auto</source>
+          <target state="translated">C:\PS &gt; $p | командлет Format-table-дескрипторы свойств <ph id="ph1">`
+@{Label="NPM(K)";Expression={int}}, `</ph> @{Label="PM(K) «; Выражение = {целое}}, <ph id="ph2">`
+@{Label="WS(K)";Expression={int}}, `</ph> @{Label="VM(M) «; Выражение = {целое}}, <ph id="ph3">`
+@{Label="CPU(s)";Expression={if ($.CPU -ne $()){ $.CPU.ToString("N")}}}, `</ph> идентификатор ProcessName, MachineName-автоматически</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Handles NPM(K) PM(K)  WS(K) VM(M) CPU(s)   Id ProcessName MachineName</source>
+          <target state="translated">Обрабатывает NPM(K) PM(K) WS(K) VM(M) идентификатор простое ProcessName MachineName</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>920     38 97560 114532   576        2648 PowerShell  Server02 192      6 24132  32028   140        3020 PowerShell  Server01 438     26 48436  59132   565        4796 PowerShell  Server02</source>
+          <target state="translated">920 38 97560 114532 576 2648 PowerShell Server02 192 6 24132 32028 140 3020 PowerShell Server01 438 26 48436 59132 565 4796 PowerShell Server02</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>DESERIALIZED OBJECTS</source>
+          <target state="translated">ДЕСЕРИАЛИЗОВАННЫЕ ОБЪЕКТЫ</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>When you run remote commands that generate output, the command output is transmitted across the network back to the local computer.</source>
+          <target state="translated">При выполнении удаленной команды, которые выводят выходные данные команды передается по сети обратно к локальному компьютеру.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Because most live Microsoft .NET Framework objects (such as the objects that Windows PowerShell cmdlets return) cannot be transmitted over the network, the live objects are "serialized".</source>
+          <target state="translated">Поскольку большинство объектов Microsoft .NET Framework (например, командлеты Windows PowerShell возвращают объекты) не передается по сети, динамических объектов «сериализуются».</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>In other words, the live objects are converted into XML representations of the object and its properties.</source>
+          <target state="translated">Другими словами динамические объекты преобразуются в XML-представления объекта и его свойств.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Then, the XML-based serialized object is transmitted across the network.</source>
+          <target state="translated">Затем объект сериализации на основе XML передается по сети.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>On the local computer, Windows PowerShell receives the XML-based serialized object and "deserializes" it by converting the XML-based object into a standard .NET Framework object.</source>
+          <target state="translated">На локальном компьютере и Windows PowerShell получает объект сериализации на основе XML «выполняет десериализацию» путем преобразования объекта на базе XML в стандартный объект .NET Framework.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>However, the deserialized object is not a live object.</source>
+          <target state="translated">Тем не менее Десериализованный объект не является активным объектом.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>It is a snapshot of the object at the time that it was serialized, and it includes properties but no methods.</source>
+          <target state="translated">Это моментальный снимок объекта, в то время, оно было сериализовано и включает свойства, но не методы.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>You can use and manage these objects in Windows PowerShell, including passing them in pipelines, displaying selected properties, and formatting them.</source>
+          <target state="translated">Можно использовать и управление этими объектами в Windows PowerShell, включая их передачи в конвейерах, отображение выбранных свойств и их форматирование.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Most deserialized objects are automatically formatted for display by entries in the Types.ps1xml or Format.ps1xml files.</source>
+          <target state="translated">Наиболее десериализованные объекты автоматически форматируются для отображения записей в файлах Types.ps1xml или Format.ps1xml.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>However, the local computer might not have formatting files for all of the deserialized objects that were generated on a remote computer.</source>
+          <target state="translated">Однако локальный компьютер может не иметь формат файлов для всех десериализованные объекты, которые были созданы на удаленном компьютере.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>When objects are not formatted, all of the properties of each object appear in the console in a streaming list.</source>
+          <target state="translated">При объекты не отформатированы, все свойства каждого объекта отображается в консоли в списка потоков.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>When objects are not formatted automatically, you can use the formatting cmdlets, such as Format-Table or Format-List, to format and display selected properties.</source>
+          <target state="translated">Если объекты не отформатированы автоматически, можно использовать командлеты форматирования, такие как Format-Table или Format-List, для форматирования и отображения выбранных свойств.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Or, you can use the Out-GridView cmdlet to display the objects in a table.</source>
+          <target state="translated">Или можно использовать командлет Out-GridView для отображения объектов в таблице.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Also, if you run a command on a remote computer that uses cmdlets that you do not have on your local computer, the objects that the command returns might not be formatted properly because you do not have the formatting files for those objects on your computer.</source>
+          <target state="translated">Кроме того при выполнении команды на удаленном компьютере, который использует командлеты, которые у вас на локальном компьютере, объекты, которые команда возвращает может имеют неправильный формат, так как у вас файлы форматирования для этих объектов на компьютере.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>To get formatting data from another computer, use the Get-FormatData and Export-FormatData cmdlets.</source>
+          <target state="translated">Для получения форматирование данных с другого компьютера, используйте командлет Get-FormatData и Export-FormatData командлетов.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Some object types, such as DirectoryInfo objects and GUIDs, are converted back into live objects when they are received.</source>
+          <target state="translated">Некоторые типы объектов, например объекты DirectoryInfo и идентификаторы GUID, преобразуются обратно в динамических объектов при их получении.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>These objects do not need any special handling or formatting.</source>
+          <target state="translated">Эти объекты также особые форматирования или обработка не требуется.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>ORDERING THE RESULTS</source>
+          <target state="translated">УПОРЯДОЧЕНИЕ РЕЗУЛЬТАТОВ</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The order of the computer names in the ComputerName parameter of cmdlets determines the order in which Windows PowerShell connects to the remote computers.</source>
+          <target state="translated">Порядок имен компьютеров в параметре ComputerName командлетов определяет порядок, в котором Windows PowerShell подключается к удаленным компьютерам.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>However, the results appear in the order in which the local computer receives them, which might be a different order.</source>
+          <target state="translated">Однако результаты отображаются в том порядке, в котором локальный компьютер получает их, который может быть в другом порядке.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>To change the order of the results, use the Sort-Object cmdlet.</source>
+          <target state="translated">Чтобы изменить порядок результатов, используйте командлет Sort-Object.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>You can sort on the PSComputerName or MachineName property.</source>
+          <target state="translated">Можно сортировать по свойству PSComputerName или MachineName.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>You can also sort on another property of the object so that the results from different computers are interspersed.</source>
+          <target state="translated">Можно также сортировать по другому свойству объекта, таким образом, чтобы смешиваются результаты с разных компьютеров.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>SEE ALSO</source>
+          <target state="translated">СМ. ТАКЖЕ</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>about_Remote about_Remote_Variables Format-Table Get-EventLog Get-Process Get-Service Get-WmiObject Invoke-Command Out-GridView Select-Object</source>
+          <target state="translated">about_Remote about_Remote_Variables Format-Table Get-EventLog Get-Process Get-Service Get-WmiObject Invoke-Command Out-GridView Select-Object</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

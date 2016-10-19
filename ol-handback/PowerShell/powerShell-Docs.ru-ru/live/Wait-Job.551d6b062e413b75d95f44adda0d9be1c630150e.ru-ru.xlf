@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ae8964d134d4e01aa9196823402e9c209f4b36a3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\Wait-Job.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">487c11cd5d8414d346808a4e184d8b9edc83ade6</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">187c388ee01e0fc9a82cb262d967b95d55517fc0</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell, командлет</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Wait-Job</source>
+          <target state="translated">Wait-Job</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Wait-Job</source>
+          <target state="translated">Wait-Job</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">КРАТКИЙ ОБЗОР</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Suppresses the command prompt until one or all of the Windows PowerShell background jobs running in the session are completed.</source>
+          <target state="translated">Отключает командную строку, пока не будут выполнены одно или все фоновые задания Windows PowerShell, запущенные в сеансе.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">СИНТАКСИС</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>SessionIdParameterSet (Default)</source>
+          <target state="translated">SessionIdParameterSet (по умолчанию)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>JobParameterSet</source>
+          <target state="translated">JobParameterSet</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>NameParameterSet</source>
+          <target state="translated">NameParameterSet</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>InstanceIdParameterSet</source>
+          <target state="translated">InstanceIdParameterSet</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>StateParameterSet</source>
+          <target state="translated">StateParameterSet</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>FilterParameterSet</source>
+          <target state="translated">FilterParameterSet</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">ОПИСАНИЕ</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> cmdlet waits for Windows PowerShell background jobs to finish before it displays the command prompt.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Ожидания задания<ept id="p1">**</ept> командлет ожидает фоновых заданий Windows PowerShell для завершения перед его отображением командной строки.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can wait until any background job is complete, or until all background jobs are complete, and you can set a maximum wait time for the job.</source>
+          <target state="translated">При этом можно командлет может ожидать завершения одного или всех фоновых заданий либо ограничиваться максимальным временем ожидания.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When the commands in the job are complete, <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> displays the command prompt and returns a job object so that you can pipe it to another command.</source>
+          <target state="translated">После выполнения команд в задании, <bpt id="p1">**</bpt>ожидания задания<ept id="p1">**</ept> отображает командную строку и возвращает объект задания, чтобы его можно было передать в другую команду.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can use <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> cmdlet to wait for background jobs, such as those that were started by using the Start-Job cmdlet or the <bpt id="p2">*</bpt>AsJob<ept id="p2">*</ept> parameter of the Invoke-Command cmdlet.</source>
+          <target state="translated">Можно использовать <bpt id="p1">**</bpt>ожидания задания<ept id="p1">**</ept> для ожидания фоновых заданий, например те, которые были запущены с помощью командлета Start-Job или <bpt id="p2">*</bpt>AsJob<ept id="p2">*</ept> командлета Invoke-Command.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For more information about Windows PowerShell background jobs, see about_Jobs.</source>
+          <target state="translated">Дополнительные сведения о фоновых заданий Windows PowerShell см. в разделе about_Jobs.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Starting in Windows PowerShell 3.0, the <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> cmdlet also waits for custom job types, such as workflow jobs and instances of scheduled jobs.</source>
+          <target state="translated">Начиная с Windows PowerShell 3.0 <bpt id="p1">**</bpt>ожидания задания<ept id="p1">**</ept> также ожидает завершения заданий настраиваемых типов, таких как задания рабочих процессов и экземпляры запланированных заданий.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To enable <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> to wait for jobs of a particular type, import the module that supports the custom job type into the session before you run the Get-Job cmdlet, either by using the Import-Module cmdlet or by using or getting a cmdlet in the module.</source>
+          <target state="translated">Чтобы включить <bpt id="p1">**</bpt>ожидания задания<ept id="p1">**</ept> ожидания для задания определенного типа, импортируйте модуль, который поддерживает пользовательский тип задания в сеанс перед запуском командлета Get-Job, используя командлет Import-Module или с помощью или получения командлета в модуле.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For information about a particular custom job type, see the documentation of the custom job type feature.</source>
+          <target state="translated">Дополнительные сведения о определенных пользовательских типах заданий см. в разделе документации о данной функции.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">ПРИМЕРЫ</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Example 1: Wait for all jobs</source>
+          <target state="translated">Пример 1: Дождаться завершения всех заданий</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This command waits for all of the background jobs running in the session to finish.</source>
+          <target state="translated">Эта команда ожидает всех фоновых заданий, запущенных в сеансе для завершения.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Example 2: Wait for jobs started on remote computers by using Start-Job</source>
+          <target state="translated">Пример 2: Дождаться завершения заданий, запущенных на удаленных компьютерах с помощью запуска задания</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> cmdlet with jobs started on remote computers by using the <bpt id="p2">**</bpt>Start-Job<ept id="p2">**</ept> cmdlet.</source>
+          <target state="translated">В этом примере показано, как использовать <bpt id="p1">**</bpt>ожидания задания<ept id="p1">**</ept> командлет с помощью заданий, запущенных на удаленных компьютерах с помощью <bpt id="p2">**</bpt>Запуск задания<ept id="p2">**</ept> командлета.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Both <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Wait-Job<ept id="p2">**</ept> commands are submitted to the remote computer by using the <bpt id="p3">**</bpt>Invoke-Command<ept id="p3">**</ept> cmdlet.</source>
+          <target state="translated">Оба <bpt id="p1">**</bpt>Запуск задания<ept id="p1">**</ept> и <bpt id="p2">**</bpt>ожидания задания<ept id="p2">**</ept> команды передаются на удаленный компьютер с помощью <bpt id="p3">**</bpt>Invoke-Command<ept id="p3">**</ept> командлета.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This example uses <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> to determine whether a Get-Date command running as a background job on three different computers is finished.</source>
+          <target state="translated">В этом примере используется <bpt id="p1">**</bpt>ожидания задания<ept id="p1">**</ept> определить, завершена ли команда Get-Date, выполняющихся на трех разных компьютерах в качестве фонового задания.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The first command creates a Windows PowerShell session (<bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept>) on each of the three remote computers and stores them in the $s variable.</source>
+          <target state="translated">Первая команда создает сеанс Windows PowerShell (<bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept>) на каждом из трех удаленных компьютерах и сохраняет их в переменной $s.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The second command uses <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> to run <bpt id="p2">**</bpt>Start-Job<ept id="p2">**</ept> in each of the three sessions in $s.</source>
+          <target state="translated">Вторая команда использует <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> для запуска <bpt id="p2">**</bpt>Запуск задания<ept id="p2">**</ept> в каждом из трех сеансов в $s.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>All of the jobs are named Date1.</source>
+          <target state="translated">Все задания имеют имя Date1.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The third command uses <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> to run <bpt id="p2">**</bpt>Wait-Job<ept id="p2">**</ept>.</source>
+          <target state="translated">Третья команда использует <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> для запуска <bpt id="p2">**</bpt>ожидания задания<ept id="p2">**</ept>.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This command waits for the Date1 jobs on each computer to finish.</source>
+          <target state="translated">Эта команда ожидает завершения заданий Date1 на каждом компьютере, чтобы завершить.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>It stores the resulting collection (array) of job objects in the $done variable.</source>
+          <target state="translated">Полученная коллекция (массив) объектов заданий сохраняется в переменную $done.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The fourth command uses the <bpt id="p1">**</bpt>Count<ept id="p1">**</ept> property of the array of job objects in the $done variable to determine how many of the jobs are finished.</source>
+          <target state="translated">Четвертая команда использует <bpt id="p1">**</bpt>число<ept id="p1">**</ept> Свойства массива объекта задания в переменной $done, чтобы определить, сколько заданий по завершении.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Example 3: Determine when the first background job finishes</source>
+          <target state="translated">Пример 3: Определение после завершения первого задания в фоновом режиме</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This example uses the <bpt id="p1">*</bpt>Any<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>Wait-Job<ept id="p2">**</ept> to determine when the first of many background jobs running in the current session are completed.</source>
+          <target state="translated">В этом примере используется <bpt id="p1">*</bpt>любой<ept id="p1">*</ept> параметр <bpt id="p2">**</bpt>ожидания задания<ept id="p2">**</ept> для определения момента, когда выполняются первой из многих фоновых заданий, запущенных в текущем сеансе.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>It also shows how to use the <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> cmdlet to wait for remote jobs to finish.</source>
+          <target state="translated">Также показано, как использовать <bpt id="p1">**</bpt>ожидания задания<ept id="p1">**</ept> для ожидания завершения удаленных заданий.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The first command creates a <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> on each of the computers listed in the Machines.txt file and stores the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> objects in the $s variable.</source>
+          <target state="translated">Первая команда создает <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> на всех компьютерах, перечисленных в файле Machines.txt и магазинов <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> объектов в переменную $s.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The command uses the Get-Content cmdlet to get the contents of the file.</source>
+          <target state="translated">Команда использует командлет Get-Content для получения содержимого файла.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-Content<ept id="p1">**</ept> command is enclosed in parentheses to make sure that that it runs before the New-PSSession command.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Get-Content<ept id="p1">**</ept> команду следует заключить в круглые скобки, чтобы убедиться в том, что он выполняется перед запуском команды New-PSSession.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The second command stores a <bpt id="p1">**</bpt>Get-EventLog<ept id="p1">**</ept> command string, in quotation marks, in the $c variable.</source>
+          <target state="translated">Вторая команда сохраняет <bpt id="p1">**</bpt>Get-EventLog<ept id="p1">**</ept> строку в кавычках, в переменной $c команды.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The third command uses Invoke-Command cmdlet to run <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> in each of the sessions in $s.</source>
+          <target state="translated">Третья команда использует командлет Invoke-Command для выполнения <bpt id="p1">**</bpt>Запуск задания<ept id="p1">**</ept> в каждом сеансе в $s.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> command starts a background job that runs the <bpt id="p2">**</bpt>Get-EventLog<ept id="p2">**</ept> command in the $c variable.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Запуск задания<ept id="p1">**</ept> команда запускает фоновое задание, которое запускает <bpt id="p2">**</bpt>Get-EventLog<ept id="p2">**</ept> команды в переменной $c.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>Using<ept id="p1">**</ept> scope modifier to indicate that the $c variable was defined on the local computer.</source>
+          <target state="translated">Команда использует <bpt id="p1">**</bpt>Использование<ept id="p1">**</ept> модификатор области, чтобы указать, что переменная $c был определен на локальном компьютере.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Using<ept id="p1">**</ept> scope modifier is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Использование<ept id="p1">**</ept> модификатор области впервые появился в Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>For more information about the <bpt id="p1">**</bpt>Using<ept id="p1">**</ept> scope modifier, see about_Remote_Variables (http://go.microsoft.com/fwlink/?LinkID=252653).</source>
+          <target state="translated">Дополнительные сведения о <bpt id="p1">**</bpt>Использование<ept id="p1">**</ept> модификатор области см. в разделе about_Remote_Variables (http://go.microsoft.com/fwlink/?LinkID=252653).</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The fourth command uses <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> to run a <bpt id="p2">**</bpt>Wait-Job<ept id="p2">**</ept> command in the sessions.</source>
+          <target state="translated">Четвертая команда использует <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> для запуска <bpt id="p2">**</bpt>ожидания задания<ept id="p2">**</ept> команды в сеансах.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>Any<ept id="p1">*</ept> parameter to wait until the first job on the remote computers is completed.</source>
+          <target state="translated">Он использует <bpt id="p1">*</bpt>любой<ept id="p1">*</ept> для ожидания завершения первого задания на удаленных компьютерах.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Example 4: Set a wait time for jobs on remote computers</source>
+          <target state="translated">Пример 4: Задайте время ожидания для заданий на удаленных компьютерах</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the <bpt id="p1">*</bpt>Timeout<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>Wait-Job<ept id="p2">**</ept> to set a maximum wait time for the jobs running on remote computers.</source>
+          <target state="translated">В этом примере показано, как использовать <bpt id="p1">*</bpt>время ожидания<ept id="p1">*</ept> параметр <bpt id="p2">**</bpt>ожидания задания<ept id="p2">**</ept> присвоить максимальное время ожидания для заданий, выполняющихся на удаленных компьютерах.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The first command creates a <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> on each of three remote computers (Server01, Server02, and Server03), and then stores the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> objects in the $s variable.</source>
+          <target state="translated">Первая команда создает <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> на каждом из трех удаленных компьютеров (Server01, Server02 и Server03), а затем хранилищ <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> объектов в переменную $s.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The second command uses <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> to run <bpt id="p2">**</bpt>Start-Job<ept id="p2">**</ept> in each of the <bpt id="p3">**</bpt>PSSession<ept id="p3">**</ept> objects in $s.</source>
+          <target state="translated">Вторая команда использует <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> для запуска <bpt id="p2">**</bpt>Запуск задания<ept id="p2">**</ept> в каждом из <bpt id="p3">**</bpt>PSSession<ept id="p3">**</ept> объектов в $s.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>It stores the resulting job objects in the $jobs variable.</source>
+          <target state="translated">Полученные объекты заданий сохраняется в переменную $jobs.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The third command uses <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> to run <bpt id="p2">**</bpt>Wait-Job<ept id="p2">**</ept> in each of the sessions in $s.</source>
+          <target state="translated">Третья команда использует <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> для запуска <bpt id="p2">**</bpt>ожидания задания<ept id="p2">**</ept> в каждом сеансе в $s.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> command determines whether all of the commands have completed within 30 seconds.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Ожидания задания<ept id="p1">**</ept> команда определяет, является ли все команды были завершены в течение 30 секунд.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>Timeout<ept id="p1">*</ept> parameter with a value of 30 to establish the maximum wait time, and then stores the results of the command in the $done variable.</source>
+          <target state="translated">Он использует <bpt id="p1">*</bpt>время ожидания<ept id="p1">*</ept> параметр со значением 30, чтобы установить максимальное время ожидания и затем сохраняет результаты выполнения команды в переменную $done.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>In this case, after 30 seconds, only the command on the Server02 computer has completed.</source>
+          <target state="translated">В данном случае по истечении 30 секунд была завершена только команда на компьютере Server02.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> ends the wait, displays the command prompt, and returns the object that represents the job that was completed.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> прекращает ожидание, отображает командную строку и возвращает объект, представляющий завершенное задание.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The $done variable contains a job object that represents the job that ran on Server02.</source>
+          <target state="translated">Переменная $done содержит объект задания, представляющий задание, которое выполнялось на компьютере Server02.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Example 5: Wait until one of several jobs finishes</source>
+          <target state="translated">Пример 5: Подождите, пока не завершится одного из нескольких заданий</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This command identifies three jobs by their IDs and waits until any one of them are completed.</source>
+          <target state="translated">Эта команда определяет три задания по их идентификаторам и дожидается завершения одного из них.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The command prompt returns when the first job finishes.</source>
+          <target state="translated">Окно командной строки после завершения первого задания.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Example 6: Wait for a period, then allow job to continue in background</source>
+          <target state="translated">Пример 6: Подождите в течение периода, а затем разрешить задания продолжают выполняться в фоновом режиме</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This command waits 120 seconds (two minutes) for the DailyLog job to finish.</source>
+          <target state="translated">Эта команда ожидает завершения задания DailyLog 120 секунд (2 минуты).</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>If the job does not finish in the next two minutes, the command prompt returns anyway, and the job continues to run in the background.</source>
+          <target state="translated">Если задание не завершается в течение двух минут, все равно возвращает командной строки и задания продолжает выполняться в фоновом режиме.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Example 7: Wait for a job by name</source>
+          <target state="translated">Пример 7: Ожидания задания по имени</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>This command uses the job name to identify the job for which to wait.</source>
+          <target state="translated">Эта команда использует имя задания для идентификации задания, для которых следует дождаться.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Example 8: Wait for jobs on local computer started with Start-Job</source>
+          <target state="translated">Пример 8: Дождитесь заданий на локальном компьютере к работе с начала задания</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> cmdlet with jobs started on the local computer by using <bpt id="p2">**</bpt>Start-Job<ept id="p2">**</ept>.</source>
+          <target state="translated">В этом примере показано, как использовать <bpt id="p1">**</bpt>ожидания задания<ept id="p1">**</ept> командлет с заданиями, запущенных на локальном компьютере с помощью <bpt id="p2">**</bpt>Запуск задания<ept id="p2">**</ept>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>These commands start a job that gets the Windows PowerShell script files that were added or updated in the last week.</source>
+          <target state="translated">Эти команды запускают задание, которое получает список файлов скриптов Windows PowerShell, добавленных или измененных в течение последней недели.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The first command uses <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> to start a background job on the local computer.</source>
+          <target state="translated">Первая команда использует <bpt id="p1">**</bpt>Запуск задания<ept id="p1">**</ept> для запуска фонового задания на локальном компьютере.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The job runs a Get-ChildItem command that gets all of the files that have a .ps1 file name extension that were added or updated in the last week.</source>
+          <target state="translated">Задание выполняет команду Get-ChildItem, которая возвращает все файлы, имеющие расширение имени файла .ps1, были добавлены или обновлены на прошлой неделе.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The third command uses <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> to wait until the job is completed.</source>
+          <target state="translated">Третья команда использует <bpt id="p1">**</bpt>ожидания задания<ept id="p1">**</ept> ожидать завершения задания.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>When the job finishes, the command displays the job object, which contains information about the job.</source>
+          <target state="translated">По завершении задания команда отображает объект задания, который содержит сведения о задании.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Example 9: Wait for jobs started on remote computers by using Invoke-Command</source>
+          <target state="translated">Пример 9: Дождитесь заданий, запущенных на удаленных компьютерах с помощью Invoke-Command</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>This example shows how to use <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> with jobs started on remote computers by using the <bpt id="p2">*</bpt>AsJob<ept id="p2">*</ept> parameter of <bpt id="p3">**</bpt>Invoke-Command<ept id="p3">**</ept>.</source>
+          <target state="translated">В этом примере показано, как использовать <bpt id="p1">**</bpt>ожидания задания<ept id="p1">**</ept> для заданий, запущенных на удаленных компьютерах с помощью <bpt id="p2">*</bpt>AsJob<ept id="p2">*</ept> параметр <bpt id="p3">**</bpt>Invoke-Command<ept id="p3">**</ept>.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>When using <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept>, the job is created on the local computer and the results are automatically returned to the local computer, even though the job runs on the remote computers.</source>
+          <target state="translated">При использовании <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept>, задание создается на локальном компьютере, и результаты автоматически возвращаются на локальный компьютер, даже если задание выполняется на удаленных компьютерах.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This example uses <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> to determine whether a <bpt id="p2">**</bpt>Get-Process<ept id="p2">**</ept> command running in the sessions on three remote computers is completed.</source>
+          <target state="translated">В этом примере используется <bpt id="p1">**</bpt>ожидания задания<ept id="p1">**</ept> для определения ли <bpt id="p2">**</bpt>Get-Process<ept id="p2">**</ept> выполнена команда, которая выполняется в сеансах на трех удаленных компьютерах.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The first command creates <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> objects on three computers and stores them in the $s variable.</source>
+          <target state="translated">Первая команда создает <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> объектов на трех компьютерах и сохраняет их в переменной $s.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The second command uses <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> to run <bpt id="p2">**</bpt>Get-Process<ept id="p2">**</ept> in each of the three sessions in $s.</source>
+          <target state="translated">Вторая команда использует <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> для запуска <bpt id="p2">**</bpt>Get-Process<ept id="p2">**</ept> в каждом из трех сеансов в $s.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept> parameter to run the command asynchronously as a background job.</source>
+          <target state="translated">Команда использует <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept> параметр, чтобы асинхронно выполнить команду как фоновое задание.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The command returns a job object, just like the jobs started by using <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept>, and the job object is stored in the $j variable.</source>
+          <target state="translated">Команда возвращает объект задания, так же, как задания, запущенные с помощью <bpt id="p1">**</bpt>Запуск задания<ept id="p1">**</ept>, и объект задания сохраняется в переменной $j.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The third command uses a pipeline operator (|) to send the job object in $j to the <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">Третья команда использует оператор конвейера (|) для отправки объекта задания в $j для <bpt id="p1">**</bpt>ожидания задания<ept id="p1">**</ept> командлета.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> command is not required in this case, because the job resides on the local computer.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> команда не является обязательной в этом случае, поскольку задание находится на локальном компьютере.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Example 10: Wait for a job that has an ID</source>
+          <target state="translated">Пример 10: Ожидания задания с идентификатором</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>This command waits for the job with an ID value of 1.</source>
+          <target state="translated">Эта команда ожидает завершения задания с идентификатором 1.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">ПАРАМЕТРЫ</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>-Any</source>
+          <target state="translated">-Все</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet displays the command prompt, and returns the job object, when any job finishes.</source>
+          <target state="translated">Указывает, что этот командлет отображает командную строку и возвращает объект задания, когда любое задание завершается.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> waits until all of the specified jobs are complete before it displays the prompt.</source>
+          <target state="translated">По умолчанию <bpt id="p1">**</bpt>ожидания задания<ept id="p1">**</ept> ожидает, пока все указанные задания завершены перед отображением командной строке.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>-Filter</source>
+          <target state="translated">-Фильтр</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Specifies a hash table of conditions.</source>
+          <target state="translated">Указывает хэш-таблицу условий.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>This cmdlet waits for jobs that satisfy all of the conditions in the hash table.</source>
+          <target state="translated">Этот командлет ожидает завершения заданий, которые отвечают всем условиям в хэш-таблице.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Enter a hash table where the keys are job properties and the values are job property values.</source>
+          <target state="translated">Введите хэш-таблицу, где ключи являются свойствами заданий, а значения — значениями этих свойств.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>This parameter works only on custom job types, such as workflow jobs and scheduled jobs.</source>
+          <target state="translated">Этот параметр работает только с пользовательскими типами заданий, такими как задания рабочих процессов и запланированные задания.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>It does not work on standard background jobs, such as those created by using the <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">Не работает со стандартными фоновыми заданиями, созданными с помощью <bpt id="p1">**</bpt>Запуск задания<ept id="p1">**</ept> командлета.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>For information about support for this parameter, see the help topic for the job type.</source>
+          <target state="translated">Дополнительные сведения о поддержке данного параметра см. в разделе справки о соответствующем типе заданий.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Этот параметр впервые появился в Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet continues to wait for jobs in the Suspended or Disconnected state.</source>
+          <target state="translated">Указывает, что этот командлет продолжает ожидать задания в состоянии Suspended или Disconnected.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> returns, or ends  the wait, when jobs are in one of the following states:</source>
+          <target state="translated">По умолчанию <bpt id="p1">**</bpt>ожидания задания<ept id="p1">**</ept> Возвращает или заканчивается время ожидания, когда задания получают одно из следующих состояний:</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Completed</source>
+          <target state="translated">Completed</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Failed</source>
+          <target state="translated">Failed</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Stopped</source>
+          <target state="translated">Остановлена</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Suspended</source>
+          <target state="translated">Suspended</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Disconnected</source>
+          <target state="translated">Disconnected (Отключено).</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Этот параметр впервые появился в Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>-Id</source>
+          <target state="translated">-Id</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Specifies an array of IDs of jobs for which this cmdlet waits.</source>
+          <target state="translated">Указывает массив идентификаторов заданий, для которых ожидает этот командлет.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The ID is an integer that uniquely identifies the job in the current session.</source>
+          <target state="translated">Идентификатор представляет собой целое число, которое однозначно определяет задание в текущем сеансе.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>It is easier to remember and type than the instance ID, but it is unique only in the current session.</source>
+          <target state="translated">Это проще запомнить и ввести, чем идентификатор экземпляра, но он уникален только в текущем сеансе.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>You can type one or more IDs, separated by commas.</source>
+          <target state="translated">Можно ввести один или несколько идентификаторов, разделенных запятыми.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>To find the ID of a job, type <ph id="ph1">`Get-Job`</ph>.</source>
+          <target state="translated">Чтобы найти идентификатор задания, введите <ph id="ph1">`Get-Job`</ph>.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>-InstanceId</source>
+          <target state="translated">-InstanceId</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Specifies an array of instance IDs of jobs for which this cmdlet waits.</source>
+          <target state="translated">Указывает массив идентификаторов экземпляров задания, для которых ожидает этот командлет.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The default is all jobs.</source>
+          <target state="translated">По умолчанию останавливаются все задания.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>An instance ID is a GUID that uniquely identifies the job on the computer.</source>
+          <target state="translated">Идентификатор экземпляра — это GUID, который однозначно определяет задание на компьютере.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>To find the instance ID of a job, use <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept>.</source>
+          <target state="translated">Чтобы узнать идентификатор экземпляра задания, используйте <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>-Job</source>
+          <target state="translated">-Задания</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Specifies the jobs for which this cmdlet waits.</source>
+          <target state="translated">Указывает задания, для которых ожидает этот командлет.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the job objects or a command that gets the job objects.</source>
+          <target state="translated">Введите переменную, содержащую объекты заданий, либо команду, которая их возвращают.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>You can also use a pipeline operator to send job objects to the <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">Можно также использовать оператор конвейера для передачи объектов заданий для <bpt id="p1">**</bpt>ожидания задания<ept id="p1">**</ept> командлета.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> waits for all jobs created in the current session.</source>
+          <target state="translated">По умолчанию <bpt id="p1">**</bpt>ожидания задания<ept id="p1">**</ept> ожидает все задания, созданные в текущем сеансе.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Specifies friendly names of jobs for which this cmdlet waits.</source>
+          <target state="translated">Указывает понятные имена заданий, для которых ожидает этот командлет.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>-State</source>
+          <target state="translated">-Состояние</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Specifies a job state.</source>
+          <target state="translated">Указывает состояние задания.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>This cmdlet waits only for jobs in the specified state.</source>
+          <target state="translated">Этот командлет ожидает завершения заданий в указанном состоянии.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">Ниже указаны допустимые значения этого параметра.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>NotStarted</source>
+          <target state="translated">NotStarted</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Running</source>
+          <target state="translated">Выполнение</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Completed</source>
+          <target state="translated">Completed</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Failed</source>
+          <target state="translated">Failed</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Stopped</source>
+          <target state="translated">Остановлена</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Blocked</source>
+          <target state="translated">Блокировано</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Suspended</source>
+          <target state="translated">Suspended</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Disconnected</source>
+          <target state="translated">Disconnected (Отключено).</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Suspending</source>
+          <target state="translated">Приостановка</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Stopping</source>
+          <target state="translated">Stopping</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>For more information about job states, see JobState Enumerationhttp://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.jobstate(v=vs.85).aspx (http://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.jobstate(v=vs.85).aspx) in the Microsoft Developer Network (MSDN).</source>
+          <target state="translated">Дополнительные сведения о состоянии заданий см. в разделе JobState Enumerationhttp://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.jobstate (v=vs.85).aspx (http://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.jobstate (v=vs.85).aspx) в Microsoft Developer Network (MSDN).</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>-Timeout</source>
+          <target state="translated">-Время ожидания</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum wait time for each background job, in seconds.</source>
+          <target state="translated">Указывает максимальное время ожидания для фонового задания в секундах.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The default value, -1, indicates that the cmdlet waits until the job finishes.</source>
+          <target state="translated">Значение по умолчанию — -1, указывает, что командлет ждет завершения задания.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The timing starts when you submit the <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> command, not the <bpt id="p2">**</bpt>Start-Job<ept id="p2">**</ept> command.</source>
+          <target state="translated">Во время начинается при отправке <bpt id="p1">**</bpt>ожидания задания<ept id="p1">**</ept> команда не <bpt id="p2">**</bpt>Запуск задания<ept id="p2">**</ept> команды.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>If this time is exceeded, the wait ends and the command prompt returns, even if the job is still running.</source>
+          <target state="translated">Если указанное время истекло, ожидание прекращается, а окно командной строки становится активным, даже если задание все еще выполняется.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The command does not display any error message.</source>
+          <target state="translated">Команда не отображает все сообщения об ошибках.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Этот командлет поддерживает общие параметры:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction и - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Дополнительные сведения см. в разделе about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ВХОДНЫЕ ДАННЫЕ</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.RemotingJob</source>
+          <target state="translated">System.Management.Automation.RemotingJob</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>You can pipe a job object to this cmdlet.</source>
+          <target state="translated">Можно передать объект задания для этого командлета.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">ВЫХОДНЫЕ ДАННЫЕ</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSRemotingJob</source>
+          <target state="translated">System.Management.Automation.PSRemotingJob</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>This cmdlet returns job objects that represent the completed jobs.</source>
+          <target state="translated">Этот командлет возвращает объекты заданий, представляющие завершенные задания.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>If the wait ends because the value of the <bpt id="p1">*</bpt>Timeout<ept id="p1">*</ept> parameter is exceeded, <bpt id="p2">**</bpt>Wait-Job<ept id="p2">**</ept> does not return any objects.</source>
+          <target state="translated">Если ожидание завершается, так как значение <bpt id="p1">*</bpt>время ожидания<ept id="p1">*</ept> превышено параметр <bpt id="p2">**</bpt>ожидания задания<ept id="p2">**</ept> не возвращает никаких объектов.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ПРИМЕЧАНИЯ</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> returns, or ends the wait, when jobs are in one of the following states:</source>
+          <target state="translated">По умолчанию <bpt id="p1">**</bpt>ожидания задания<ept id="p1">**</ept> Возвращает или заканчивается время ожидания, когда задания получают одно из следующих состояний:</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Completed</source>
+          <target state="translated">Completed</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Failed</source>
+          <target state="translated">Failed</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Stopped</source>
+          <target state="translated">Остановлена</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Suspended</source>
+          <target state="translated">Suspended</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Disconnected To direct <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> to continue to wait for Suspended and Disconnected jobs, use the <bpt id="p2">*</bpt>Force<ept id="p2">*</ept> parameter.</source>
+          <target state="translated">Отключен для прямой <bpt id="p1">**</bpt>ожидания задания<ept id="p1">**</ept> Чтобы продолжить ожидание Suspended и отключенных заданий, используйте <bpt id="p2">*</bpt>Force<ept id="p2">*</ept> параметр.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">СВЯЗАННЫЕ ССЫЛКИ</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Get-Job</source>
+          <target state="translated">Get задания</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Invoke-Command</source>
+          <target state="translated">Invoke-Command</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Receive-Job</source>
+          <target state="translated">Получение задания</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Remove-Job</source>
+          <target state="translated">Удаление задания</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Resume-Job</source>
+          <target state="translated">Resume-Job</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Start-Job</source>
+          <target state="translated">Запуск задания</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Stop-Job</source>
+          <target state="translated">Остановка задания</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Suspend-Job</source>
+          <target state="translated">Suspend-Job</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>about_Jobs</source>
+          <target state="translated">about_Jobs</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>about_Job_Details</source>
+          <target state="translated">about_Job_Details</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>about_Remote_Jobs</source>
+          <target state="translated">about_Remote_Jobs</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>about_Remote_Variables</source>
+          <target state="translated">about_Remote_Variables</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
