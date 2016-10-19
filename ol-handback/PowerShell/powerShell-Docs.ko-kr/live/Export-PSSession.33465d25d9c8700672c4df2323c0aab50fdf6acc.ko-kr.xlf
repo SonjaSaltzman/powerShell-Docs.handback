@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2de37ed4ca390008c2aa9e54842e8574e4d09e63</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Utility\Export-PSSession.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">83f33e7513c91451db096be78be16eccf01d2208</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f7c208038cf8a8851b1a9b563b31553b6d0aab9e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Export-PSSession</source>
+          <target state="translated">Export-PSSession</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Export-PSSession</source>
+          <target state="translated">Export-PSSession</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">요약</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Imports commands from another session and saves them in a Windows PowerShell module.</source>
+          <target state="translated">다른 세션에서 명령을 가져온 다음 Windows PowerShell 모듈에 저장합니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">구문</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">설명</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Export-PSSession<ept id="p1">**</ept> cmdlet gets cmdlets, functions, aliases, and other command types from another PSSession on a local or remote computer and saves them in a Windows PowerShell module.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Export-pssession<ept id="p1">**</ept> cmdlet은 cmdlet, 함수, 별칭, 가져옵니다 및 다른 로컬 또는 원격 컴퓨터에서 다른 PSSession에서 형식을 명령과 Windows PowerShell 모듈에 저장 합니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To add the commands from the module to the current session, use the Import-Module cmdlet.</source>
+          <target state="translated">모듈의 명령을 현재 세션에 추가하려면 Import-Module cmdlet을 사용합니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Unlike Import-PSSession, which imports commands from another PSSession into the current session, <bpt id="p1">**</bpt>Export-PSSession<ept id="p1">**</ept> saves the commands in a module.</source>
+          <target state="translated">현재 세션으로 다른 PSSession의 명령을 가져오는 Import-pssession과 달리 <bpt id="p1">**</bpt>Export-pssession<ept id="p1">**</ept> 의 명령을 모듈에 저장 합니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The commands are not imported into the current session.</source>
+          <target state="translated">현재 세션으로 가져오지 않습니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To export commands, first use the New-PSSession cmdlet to create a PSSession that has the commands that you want to export.</source>
+          <target state="translated">명령을 내보내려면 먼저 New-PSSession cmdlet을 사용하여 내보낼 명령이 있는 PSSession을 만듭니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Then use the <bpt id="p1">**</bpt>Export-PSSession<ept id="p1">**</ept> cmdlet to export the commands.</source>
+          <target state="translated">다음 사용 하 여는 <bpt id="p1">**</bpt>Export-pssession<ept id="p1">**</ept> cmdlet을 명령을 내보냅니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Export-PSSession<ept id="p1">**</ept> exports all commands, except for commands that exist in the current session, but you can use the <bpt id="p2">*</bpt>CommandName<ept id="p2">*</ept> parameter to specify the commands to export.</source>
+          <target state="translated">기본적으로 <bpt id="p1">**</bpt>Export-pssession<ept id="p1">**</ept> 내보내기 수 있지만 현재 세션에 있는 명령 제외한 모든 명령을 사용할 수는 <bpt id="p2">*</bpt>CommandName<ept id="p2">*</ept> 매개 변수를 내보낼 명령을 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Export-PSSession<ept id="p1">**</ept> cmdlet uses the implicit remoting feature of Windows PowerShell.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Export-pssession<ept id="p1">**</ept> cmdlet은 Windows PowerShell의 암시적 원격 기능을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When you import commands into the current session, they run implicitly in the original session or in a similar session on the originating computer.</source>
+          <target state="translated">명령을 현재 세션으로 가져오면 넘어가는 암시적으로 원래 세션에서 또는 유사한 세션에서 원래 컴퓨터에 있습니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">예제</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Example 1: Export commands from a PSSession</source>
+          <target state="translated">예제 1: 내보내기 명령을 PSSession에서</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The commands in this example export all commands from a PSSession on the Server01 computer to the Server01 module on the local computer except for commands that have the same names as commands in the current session.</source>
+          <target state="translated">이 예제의 명령은 현재 세션에 있는 명령과 이름이 같은 명령을 제외하고 Server01 컴퓨터의 PSSession에 있는 모든 명령을 로컬 컴퓨터의 Server01 모듈로 내보냅니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>It also exports the formatting data for the commands.</source>
+          <target state="translated">명령에 대한 형식 지정 데이터도 내보냅니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The first command creates a PSSession on the Server01 computer.</source>
+          <target state="translated">첫 번째 명령은 Server01 컴퓨터에 PSSession을 만듭니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The second command exports the commands and formatting data from the session into the Server01 module.</source>
+          <target state="translated">두 번째 명령은 세션의 명령과 형식 지정 데이터를 Server01 모듈로 내보냅니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Example 2: Export Get and Set commands</source>
+          <target state="translated">예제 2: 내보내기 Get 및 Set 명령</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>These commands export the Get and Set commands from a Microsoft Exchange Server snap-in on a remote computer to an Exchange module in the $pshome\Modules directory on the local computer.</source>
+          <target state="translated">이 명령은 원격 컴퓨터에 있는 Microsoft Exchange Server 스냅인의 Get 및 Set 명령을 로컬 컴퓨터의 $pshome\Modules 디렉터리에 있는 Exchange 모듈로 내보냅니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Placing the module in the $pshome\Module directory makes it accessible to all users of the computer.</source>
+          <target state="translated">$pshome\Module 디렉터리에 모듈을 저장하면 컴퓨터의 모든 사용자가 액세스할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Example 3: Export commands from a remote computer</source>
+          <target state="translated">예제 3: 원격 컴퓨터에서 명령을 내보내려면</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>These commands export cmdlets from a PSSession on a remote computer and save them in a module on the local computer.</source>
+          <target state="translated">이 명령은 원격 컴퓨터의 PSSession에서 cmdlet을 내보내 로컬 컴퓨터의 모듈에 저장합니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Then, the commands add the cmdlets from the module to the current session so that they can be used.</source>
+          <target state="translated">그런 다음 모듈의 cmdlet을 현재 세션에 추가하여 사용할 수 있게 합니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The first command creates a PSSession on the Server01 computer and saves it in the $S variable.</source>
+          <target state="translated">첫 번째 명령은 Server01 컴퓨터에 PSSession을 만든 $S 변수에 저장 합니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The second command exports the cmdlets whose names begin with Test from the PSSession in $S to the TestCmdlets module on the local computer.</source>
+          <target state="translated">두 번째 명령은 로컬 컴퓨터의 TestCmdlets 모듈에 있는 pssession의 $S 테스트와 함께 시작 하는 cmdlet을 내보냅니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The third command uses the Remove-PSSession cmdlet to delete the PSSession in $S from the current session.</source>
+          <target state="translated">세 번째 명령은 Remove-pssession cmdlet를 사용 하 여 현재 세션에서 PSSession $S에서 삭제 합니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This command shows that the PSSession need not be active to use the commands that were imported from it.</source>
+          <target state="translated">이 명령은 PSSession이 활성 상태가 아니어도 PSSession에서 가져온 명령을 사용할 수 있음을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The fourth command, which can be run in any session at any time, uses the Import-Module cmdlet to add the cmdlets in the TestCmdlets module to the current session.</source>
+          <target state="translated">언제든지 모든 세션에서 실행할 수 있는 네 번째 명령은 Import-Module cmdlet을 사용하여 TestCmdlets 모듈의 cmdlet을 현재 세션에 추가합니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The fifth command uses the Get-Help cmdlet to get help for cmdlets whose names begin with Test.</source>
+          <target state="translated">다섯 번째 명령은 이름이 Test로 시작 하는 cmdlet에 대 한 도움말을 보려면 Get-help cmdlet을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>After the commands in a module are added to the current session, you can use the Get-Help and Get-Command cmdlets to learn about the imported commands, just as you would use them for any command in the session.</source>
+          <target state="translated">모듈의 명령이 현재 세션에 추가된 후 세션의 명령과 동일한 방식으로 Get-Help 및 Get-Command cmdlet을 사용하여 가져온 명령에 대해 알아볼 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The sixth command uses the <bpt id="p1">**</bpt>Test-Files<ept id="p1">**</ept> cmdlet, which was exported from the Server01 computer and added to the session.</source>
+          <target state="translated">여섯 번째 명령은 <bpt id="p1">**</bpt>테스트 파일<ept id="p1">**</ept> cmdlet Server01 컴퓨터에서 내보낸 세션에 추가 되었습니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Although it is not evident, the <bpt id="p1">**</bpt>Test-Files<ept id="p1">**</ept> command actually runs in a remote session on the computer from which the command was imported.</source>
+          <target state="translated">분명 하지는 않지만 <bpt id="p1">**</bpt>테스트 파일<ept id="p1">**</ept> 명령은 실제로 원격 세션에서 컴퓨터에서 실행 명령을 가져온 합니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell creates a session from information that is stored in the module.</source>
+          <target state="translated">Windows PowerShell은 모듈에 저장된 정보를 통해 세션을 만듭니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Example 4: Import and clobber commands in the current session</source>
+          <target state="translated">예 4: 가져오고 현재 세션에서 명령을 연마합니다</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This command exports all commands and all formatting data from the PSSession in the $S variable into the current session.</source>
+          <target state="translated">이 명령은 현재 세션으로 $S 변수에 PSSession에서 모든 명령과 형식 지정 데이터를 내보냅니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>AllowClobber<ept id="p1">*</ept> parameter to include commands with the same names as commands in the current session.</source>
+          <target state="translated">이 명령은 <bpt id="p1">*</bpt>AllowClobber<ept id="p1">*</ept> 매개 변수를 현재 세션의 명령과 이름이 같은 명령을 포함 합니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Example 5: Export commands from a closed PSSession</source>
+          <target state="translated">예제 5: 닫힌된 PSSession에서 명령을 내보내려면</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This example shows how to run the exported commands in a session with particular options when the PSSession from which the commands were exported is closed.</source>
+          <target state="translated">이 예제에서는 명령을 내보낸 원본 PSSession이 닫혀 있을 경우 특정 옵션을 사용하여 세션에서 내보낸 명령을 실행하는 방법을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>When you use <bpt id="p1">**</bpt>Export-PSSession<ept id="p1">**</ept>, it saves information about the original PSSession in the module that it creates.</source>
+          <target state="translated">사용 하는 경우 <bpt id="p1">**</bpt>Export-pssession<ept id="p1">**</ept>, 를 생성 하는 모듈에서 원본 PSSession에 대 한 정보를 저장 합니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>When you import the module, if the original remote session is closed, the module will use any open remote session that connects to the originating computer.</source>
+          <target state="translated">원본 원격 세션이 닫혀 있으면 모듈을 가져올 때 모듈 원래 컴퓨터에 연결 된 열려 있는 원격 세션을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If the current session does not include a remote session to the originating computer, the commands in the module will re-establish a session to that computer.</source>
+          <target state="translated">현재 세션에 원본 컴퓨터에 대한 원격 세션이 없을 경우 모듈의 명령에서 해당 컴퓨터에 대한 세션을 다시 설정합니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>However, <bpt id="p1">**</bpt>Export-PSSession<ept id="p1">**</ept> does not save special options, such as those set by using the <bpt id="p2">*</bpt>SessionOption<ept id="p2">*</ept> parameter of New-PSSession, in the module.</source>
+          <target state="translated">그러나 <bpt id="p1">**</bpt>Export-pssession<ept id="p1">**</ept> 사용 하 여 설정 하는 것과 같은 특수 옵션을 저장 하지 않은 <bpt id="p2">*</bpt>SessionOption<ept id="p2">*</ept> New-pssession의 매개 변수는 모듈에 있습니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Therefore, if you want to run the exported commands in a remote session with particular options, you must create a remote session with the options that you want before you import the module.</source>
+          <target state="translated">따라서 특정 옵션으로 원격 세션에서 내보낸된 명령을 실행 하려는 경우 만들어야 원격 세션 옵션을 사용 하는 모듈을 가져오기 전에 원하는 합니다.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">**</bpt>New-PSSessionOption<ept id="p1">**</ept> cmdlet to create a <bpt id="p2">**</bpt>PSSessionOption<ept id="p2">**</ept> object, and it saves the object in the $Options variable.</source>
+          <target state="translated">첫 번째 명령은 <bpt id="p1">**</bpt>New-pssessionoption<ept id="p1">**</ept> cmdlet에는 <bpt id="p2">**</bpt>PSSessionOption<ept id="p2">**</ept> 개체는 개체 $Options 변수에 저장 합니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The second command creates a PSSession that includes the specified options.</source>
+          <target state="translated">두 번째 명령은 지정한 옵션이 포함된 PSSession을 만듭니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>New-PSSession<ept id="p1">**</ept> cmdlet to create a PSSession on the Server01 computer.</source>
+          <target state="translated">이 명령은 <bpt id="p1">**</bpt>New-pssession<ept id="p1">**</ept> cmdlet을 Server01 컴퓨터에 PSSession을 만듭니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>SessionOption<ept id="p1">*</ept> parameter to submit the option object in $Options.</source>
+          <target state="translated">사용 하 여는 <bpt id="p1">*</bpt>SessionOption<ept id="p1">*</ept> $Options의 옵션 개체를 제출 하려면 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The third command uses the <bpt id="p1">**</bpt>Export-PSSession<ept id="p1">**</ept> cmdlet to export commands from the PSSession in $S to the Server01 module.</source>
+          <target state="translated">세 번째 명령은 <bpt id="p1">**</bpt>Export-pssession<ept id="p1">**</ept> cmdlet을 $S의 PSSession에서 명령을 Server01 모듈로 내보냅니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The fourth command uses the Remove-PSSession cmdlet to delete the PSSession in the $S variable.</source>
+          <target state="translated">네 번째 명령은 Remove-pssession cmdlet를 사용 하 여 $S 변수에 PSSession을 삭제 합니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The fifth command uses the <bpt id="p1">**</bpt>New-PSSession<ept id="p1">**</ept> cmdlet to create a new PSSession that connects to the Server01 computer.</source>
+          <target state="translated">다섯 번째 명령은 <bpt id="p1">**</bpt>New-pssession<ept id="p1">**</ept> cmdlet을 Server01 컴퓨터에 연결 되는 새 PSSession을 만듭니다.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>This PSSession also uses the session options in the $Options variable.</source>
+          <target state="translated">또한이 PSSession $Options 변수에 세션 옵션을 사용합니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The sixth command uses the Import-Module cmdlet to import the commands from the Server01 module.</source>
+          <target state="translated">여섯 번째 명령은 Import-Module cmdlet을 사용하여 Server01 모듈에서 명령을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The commands in the module run in the PSSession on the Server01 computer.</source>
+          <target state="translated">모듈의 명령은 Server01 컴퓨터의 PSSession에서 실행됩니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">매개 변수</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>-AllowClobber</source>
+          <target state="translated">-AllowClobber</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet exports the specified commands, even if they have the same names as commands in the current session.</source>
+          <target state="translated">현재 세션에 있는 명령과 이름이 같은 경우에이 cmdlet에서는 지정된 된 명령을 내보냅니다을 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>If you import a command with the same name as a command in the current session, the imported command hides or replaces the original commands.</source>
+          <target state="translated">현재 세션에 있는 명령과 이름이 같은 명령을 가져오는 경우 가져온 명령이 원래 명령을 숨기거나 바꿉니다.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Command_Precedence.</source>
+          <target state="translated">자세한 내용은 about_Command_Precedence를 참조하세요.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Export-PSSession<ept id="p1">**</ept> does not import commands that have the same names as commands in the current session.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Export-pssession<ept id="p1">**</ept> 현재 세션의 명령과 이름이 같은 명령을 가져오지 않습니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The default behavior is designed to prevent command name conflicts.</source>
+          <target state="translated">기본적으로 명령 이름이 충돌하지 않도록 설계되었습니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>-ArgumentList</source>
+          <target state="translated">-ArgumentList</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Specifies an array of the variant of the command that results from using the specified arguments.</source>
+          <target state="translated">지정된 된 인수를 사용 하 여 생성 된 명령 변형의 배열을 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>For example, to export the variant of the Get-Item command in the certificate (Cert:) drive in the PSSession in $S, type <ph id="ph1">`Export-PSSession -Session $S -Command Get-Item -ArgumentList Cert:`</ph>.</source>
+          <target state="translated">예를 들어, 인증서에 Get-item 명령의 변형을 내보내려면 (Cert:) 드라이브의 pssession에서 $S, 형식 <ph id="ph1">`Export-PSSession -Session $S -Command Get-Item -ArgumentList Cert:`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>-Certificate</source>
+          <target state="translated">-인증서</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Specifies the client certificate that is used to sign the format files (<bpt id="p1">*</bpt>.Format.ps1xml) or script module files (.psm1) in the module that <ept id="p1">*</ept><bpt id="p2">*</bpt>Export-PSSession<ept id="p2">*</ept>* creates.</source>
+          <target state="translated">서식 파일에 서명 하는 데 사용 되는 클라이언트 인증서를 지정 합니다 (<bpt id="p1">*</bpt>합니다. Format.ps1xml) 또는 스크립트 모듈 파일 (.psm1) 모듈에는 <ept id="p1">*</ept><bpt id="p2">*</bpt>Export-pssession<ept id="p2">*</ept>*를 만듭니다.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains a certificate or a command or expression that gets the certificate.</source>
+          <target state="translated">인증서가 포함된 변수를 입력하거나 인증서를 가져오는 명령 또는 식을 입력합니다.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>To find a certificate, use the Get-PfxCertificate cmdlet or use the Get-ChildItem cmdlet in the Certificate (Cert:) drive.</source>
+          <target state="translated">인증서를 찾으려면 Get-pfxcertificate cmdlet을 사용 하거나 Get-childitem cmdlet을 사용 하 여 인증서에서 (Cert:) 드라이브입니다.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>If the certificate is not valid or does not have sufficient authority, the command fails.</source>
+          <target state="translated">인증서가 잘못되었거나 권한이 없을 경우 명령이 실패합니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>-CommandName</source>
+          <target state="translated">-CommandName</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Specifies an array of commands with names or name patterns.</source>
+          <target state="translated">이름 또는 이름 패턴이 있는 명령의 배열을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">와일드카드가 지원됩니다.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Use <bpt id="p1">*</bpt>CommandName<ept id="p1">*</ept> or its alias, <bpt id="p2">*</bpt>Name<ept id="p2">*</ept>.</source>
+          <target state="translated">사용 하 여 <bpt id="p1">*</bpt>CommandName<ept id="p1">*</ept> 또는 해당 별칭인 <bpt id="p2">*</bpt>이름<ept id="p2">*</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Export-PSSession<ept id="p1">**</ept> exports all commands from the PSSession except for commands that have the same names as commands in the current session.</source>
+          <target state="translated">기본적으로 <bpt id="p1">**</bpt>Export-pssession<ept id="p1">**</ept> 에서 현재 세션의 명령과 이름이 같은 명령 제외한 모든 명령을 내보냅니다.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This prevents imported commands from hiding or replacing commands in the current session.</source>
+          <target state="translated">이렇게 하면 가져온 명령이 현재 세션의 명령을 숨기거나 바꾸지 않습니다.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>To export all commands, even those that hide or replace other commands, use the <bpt id="p1">*</bpt>AllowClobber<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">사용 하 여 숨기 거 나 다른 명령을 대체 하는 모든 명령을 내보내려면는 <bpt id="p1">*</bpt>AllowClobber<ept id="p1">*</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">*</bpt>CommandName<ept id="p1">*</ept> parameter, the formatting files for the commands are not exported unless you use the <bpt id="p2">*</bpt>FormatTypeName<ept id="p2">*</ept> parameter.</source>
+          <target state="translated">사용 하는 경우는 <bpt id="p1">*</bpt>CommandName<ept id="p1">*</ept> 매개 변수를 서식 파일을 사용 하지 않으면 명령을 내보내지 않습니다는 <bpt id="p2">*</bpt>FormatTypeName<ept id="p2">*</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Similarly, if you use the <bpt id="p1">*</bpt>FormatTypeName<ept id="p1">*</ept> parameter, no commands are exported unless you use the <bpt id="p2">*</bpt>CommandName<ept id="p2">*</ept> parameter.</source>
+          <target state="translated">마찬가지로, 사용 하는 경우는 <bpt id="p1">*</bpt>FormatTypeName<ept id="p1">*</ept> 매개 변수를 사용 하지 않으면 명령을 내보내지 않습니다는 <bpt id="p2">*</bpt>CommandName<ept id="p2">*</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>-CommandType</source>
+          <target state="translated">-CommandType</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Specifies that this cmdlet exports the specified types of command objects.</source>
+          <target state="translated">이 cmdlet는 지정 된 유형의 명령 개체를 내보내도록 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Use <bpt id="p1">*</bpt>CommandType<ept id="p1">*</ept> or its alias, <bpt id="p2">*</bpt>Type<ept id="p2">*</ept>.</source>
+          <target state="translated">사용 하 여 <bpt id="p1">*</bpt>CommandType<ept id="p1">*</ept> 또는 해당 별칭인 <bpt id="p2">*</bpt>형식<ept id="p2">*</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">이 매개 변수에 허용되는 값은 다음과 같습니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Alias: All Windows PowerShell aliases in the current session.</source>
+          <target state="translated">별칭: 모든 Windows PowerShell 별칭은 현재 세션에서입니다.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>All: All command types.</source>
+          <target state="translated">All: 모든 명령 유형입니다.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>It is the equivalent of "get-command *".</source>
+          <target state="translated">"get-command *"와 같습니다.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Application.</source>
+          <target state="translated">응용 프로그램입니다.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>All files other than Windows PowerShell files in paths listed in the Path environment variable ($env:path), including .txt, .exe, and .dll files.</source>
+          <target state="translated">Path 환경 변수($env:path)에 나열된 경로에 있는 Windows PowerShell 파일 이외의 모든 파일(.txt, .exe 및 .dll 파일 포함)입니다.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Cmdlet.</source>
+          <target state="translated">Cmdlet 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The cmdlets in the current session.</source>
+          <target state="translated">현재 세션에 있는 cmdlet입니다.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>"Cmdlet" is the default.</source>
+          <target state="translated">기본값은 "Cmdlet"입니다.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>ExternalScript.</source>
+          <target state="translated">ExternalScript 합니다.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>All .ps1 files in the paths listed in the Path environment variable ($env:path).</source>
+          <target state="translated">Path 환경 변수($env:path)에 나열된 경로에 있는 모든 .ps1 파일입니다.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Filter and Function.</source>
+          <target state="translated">필터 및 함수를 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>All Windows PowerShell functions.</source>
+          <target state="translated">모든 Windows PowerShell 함수입니다.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Script.</source>
+          <target state="translated">스크립트입니다.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Script blocks in the current session.</source>
+          <target state="translated">현재 세션에 있는 스크립트 블록입니다.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>-Encoding</source>
+          <target state="translated">인코딩</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Specifies the encoding for the output files.</source>
+          <target state="translated">출력 파일의 인코딩을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">이 매개 변수에 허용되는 값은 다음과 같습니다.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Unicode</source>
+          <target state="translated">유니코드</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>UTF7</source>
+          <target state="translated">UTF7</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>UTF8</source>
+          <target state="translated">UTF8</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>ASCII</source>
+          <target state="translated">ASCII</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>UTF32</source>
+          <target state="translated">UTF32</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>BigEndianUnicode</source>
+          <target state="translated">BigEndianUnicode</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Default</source>
+          <target state="translated">Default</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>OEM</source>
+          <target state="translated">OEM</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The default value is UTF-8.</source>
+          <target state="translated">기본값은 u t F-8입니다.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Forces the command to run without asking for user confirmation.</source>
+          <target state="translated">사용자 확인을 요청하지 않고 명령을 강제 실행합니다.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>-FormatTypeName</source>
+          <target state="translated">-FormatTypeName</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Specifies formatting instructions, as an array, only for the specified Microsoft .NET Framework types.</source>
+          <target state="translated">지정 된 Microsoft.NET Framework 형식에 대해서만 배열로 서식 지정 지침을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Enter the type names.</source>
+          <target state="translated">유형 이름을 입력합니다.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Export-PSSession<ept id="p1">**</ept> exports formatting instructions for all .NET Framework types that are not in the <bpt id="p2">**</bpt>System.Management.Automation<ept id="p2">**</ept> namespace.</source>
+          <target state="translated">기본적으로 <bpt id="p1">**</bpt>Export-pssession<ept id="p1">**</ept> 형식 지정에 속하지 않은 모든.NET Framework 형식에 대 한 명령만 내보냅니다는 <bpt id="p2">**</bpt>System.Management.Automation<ept id="p2">**</ept> 네임 스페이스입니다.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The value of this parameter must be the name of a type that is returned by a Get-FormatData command in the session from which the commands are being imported.</source>
+          <target state="translated">이 매개 변수 값은 명령을 가져오는 원본 세션의 Get-FormatData 명령에서 반환된 유형의 이름이어야 합니다.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>To get all of the formatting data in the remote session, type <ph id="ph1">`*`</ph>.</source>
+          <target state="translated">원격 세션의 모든 형식 지정 데이터를 가져오려면, 입력 <ph id="ph1">`*`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">*</bpt>FormatTypeName<ept id="p1">*</ept> parameter, no commands are exported unless you use the <bpt id="p2">*</bpt>CommandName<ept id="p2">*</ept> parameter.</source>
+          <target state="translated">사용 하는 경우는 <bpt id="p1">*</bpt>FormatTypeName<ept id="p1">*</ept> 매개 변수를 사용 하지 않으면 명령을 내보내지 않습니다는 <bpt id="p2">*</bpt>CommandName<ept id="p2">*</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Similarly, if you use the <bpt id="p1">*</bpt>CommandName<ept id="p1">*</ept> parameter, the formatting files for the commands are not exported unless you use the <bpt id="p2">*</bpt>FormatTypeName<ept id="p2">*</ept> parameter.</source>
+          <target state="translated">마찬가지로, 사용 하는 경우는 <bpt id="p1">*</bpt>CommandName<ept id="p1">*</ept> 매개 변수를 서식 파일을 사용 하지 않으면 명령을 내보내지 않습니다는 <bpt id="p2">*</bpt>FormatTypeName<ept id="p2">*</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>-FullyQualifiedModule</source>
+          <target state="translated">-FullyQualifiedModule</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Specifies modules with names that are specified in the form of <bpt id="p1">**</bpt>ModuleSpecification<ept id="p1">**</ept> objects (described by the Remarks section of ModuleSpecification Constructor (Hashtable)http://msdn.microsoft.com/library/windows/desktop/jj136290(v=vs.85).aspx on MSDN).</source>
+          <target state="translated">모듈의 형태로 지정 된 이름으로 지정 <bpt id="p1">**</bpt>ModuleSpecification<ept id="p1">**</ept> 개체 (ModuleSpecification Constructor (Hashtable) http://msdn.microsoft.com/library/windows/desktop/jj136290(v=vs.85).aspx on MSDN)의 설명 섹션에서 설명 합니다.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>For example, the FullyQualifiedModule parameter accepts a module name that is specified in the format @{ModuleName = "modulename"; ModuleVersion = "version_number"} or @{ModuleName = "modulename"; ModuleVersion = "version_number"; Guid = "GUID"}.</source>
+          <target state="translated">FullyQualifiedModule 매개 변수 형식에 지정 된 모듈 이름을 허용 하는 예를 들어 @{ModuleName = "modulename"; ModuleVersion = "version_number"을 (를) 또는 @{ModuleName = "modulename"; ModuleVersion = "version_number"; Guid = "GUID"}입니다.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ModuleVersion<ept id="p2">**</ept> are required, but <bpt id="p3">**</bpt>Guid<ept id="p3">**</ept> is optional.</source>
+          <target state="translated"><bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept> 및 <bpt id="p2">**</bpt>ModuleVersion<ept id="p2">**</ept> 필요 하지만 <bpt id="p3">**</bpt>Guid<ept id="p3">**</ept> 선택 사항입니다.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>You cannot specify the <bpt id="p1">*</bpt>FullyQualifiedModule<ept id="p1">*</ept> parameter in the same command as a <bpt id="p2">*</bpt>Module<ept id="p2">*</ept> parameter; the two parameters are mutually exclusive.</source>
+          <target state="translated">지정할 수 없습니다는 <bpt id="p1">*</bpt>FullyQualifiedModule<ept id="p1">*</ept> 동일한 명령에서 매개 변수는 <bpt id="p2">*</bpt>모듈<ept id="p2">*</ept> 매개 변수; 두 매개 변수는 함께 사용할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>-Module</source>
+          <target state="translated">모듈</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Specifies as an array only the commands in the Windows PowerShell snap-ins and modules.</source>
+          <target state="translated">Windows PowerShell 스냅인 및 모듈의 명령만 배열로 지정합니다.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Enter the snap-in and module names.</source>
+          <target state="translated">스냅인 및 모듈 이름을 입력합니다.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Wildcards are not permitted.</source>
+          <target state="translated">와일드카드는 사용할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>For more information, see about_PSSnapins and Import-Module.</source>
+          <target state="translated">자세한 내용은 about_PSSnapins and Import-Module을 참조하세요.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>-OutputModule</source>
+          <target state="translated">-OutputModule</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Specifies a path (optional) and name for the module that <bpt id="p1">**</bpt>Export-PSSession<ept id="p1">**</ept> creates.</source>
+          <target state="translated">(선택 사항) 경로 지정 및 모듈 이름을 <bpt id="p1">**</bpt>Export-pssession<ept id="p1">**</ept> 만듭니다.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The default path is $home\Documents\WindowsPowerShell\Modules.</source>
+          <target state="translated">기본 경로는 $home\Documents\WindowsPowerShell\Modules입니다.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>This parameter is required.</source>
+          <target state="translated">이 매개 변수는 필수입니다.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>If the module subdirectory or any of the files that <bpt id="p1">**</bpt>Export-PSSession<ept id="p1">**</ept> creates already exist, the command fails.</source>
+          <target state="translated">경우 모듈 하위 디렉터리 또는 파일 중 하나는 <bpt id="p1">**</bpt>Export-pssession<ept id="p1">**</ept> 만듭니다 이미, 명령이 실패 합니다.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>To overwrite existing files, use the <bpt id="p1">*</bpt>Force<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">사용 하 여 기존 파일을 덮어쓰려면는 <bpt id="p1">*</bpt>Force<ept id="p1">*</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>-Session</source>
+          <target state="translated">세션</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Specifies the PSSession from which the commands are exported.</source>
+          <target state="translated">명령을 내보낼 원본 PSSession을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains a session object or a command that gets a session object, such as a Get-PSSession command.</source>
+          <target state="translated">세션 개체가 포함된 변수를 입력하거나 세션 개체를 가져오는 명령(예: Get-PSSession 명령)을 입력합니다.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>This parameter is required.</source>
+          <target state="translated">이 매개 변수는 필수입니다.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">이 cmdlet은 공통 매개 변수:-디버그,-ErrorAction,-ErrorVariable,-InformationAction,-InformationVariable,-OutVariable,-OutBuffer,-PipelineVariable,-Verbose,-WarningAction 및-warningvariable을 지원 합니다.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">자세한 내용은 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)를 참조 합니다.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">입력</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">없음</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>You cannot pipe objects to <bpt id="p1">**</bpt>Export-PSSession<ept id="p1">**</ept>.</source>
+          <target state="translated">개체를 파이프할 수 없습니다 <bpt id="p1">**</bpt>Export-pssession<ept id="p1">**</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">출력</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>System.IO.FileInfo</source>
+          <target state="translated">System.IO.FileInfo</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Export-PSSession<ept id="p1">**</ept> returns a list of files that comprise the module that it created.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Export-pssession<ept id="p1">**</ept> 생성 된 모듈을 구성 하는 파일의 목록을 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">참고 사항</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Export-PSSession<ept id="p1">**</ept> relies on the Windows PowerShell remoting infrastructure.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Export-pssession<ept id="p1">**</ept> Windows PowerShell 원격 인프라에 의존 합니다.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>To use this cmdlet, the computer must be configured for remoting.</source>
+          <target state="translated">이 cmdlet을 사용하려면 원격 기능을 사용하도록 컴퓨터를 구성해야 합니다.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Remote_Requirements.</source>
+          <target state="translated">자세한 내용은 about_Remote_Requirements를 참조하세요.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>You cannot use <bpt id="p1">**</bpt>Export-PSSession<ept id="p1">**</ept> to export a Windows PowerShell provider.</source>
+          <target state="translated">사용할 수 없는 <bpt id="p1">**</bpt>Export-pssession<ept id="p1">**</ept> 를 내보내려면 Windows PowerShell 공급자.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Exported commands run implicitly in the PSSession from which they were exported.</source>
+          <target state="translated">내보낸 명령은 명령을 내보낸 원본 PSSession에서 암시적으로 실행됩니다.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>However, the details of running the commands remotely are handled entirely by Windows PowerShell.</source>
+          <target state="translated">그러나 명령의 원격 실행은 전적으로 Windows PowerShell에서 처리됩니다.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>You can run the exported commands just as you would run local commands.</source>
+          <target state="translated">내보낸 명령은 로컬 명령과 동일한 방식으로 실행할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Export-Module<ept id="p1">**</ept> captures and saves information about the PSSession in the module that it exports.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Export-module이 모듈<ept id="p1">**</ept> 캡처하고 내보내지만 모듈에 PSSession에 대 한 정보를 저장 합니다.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>If the PSSession from which the commands were exported is closed when you import the module, and there are no active PSSessions to the same computer, the commands in the module attempt to re-create the PSSession.</source>
+          <target state="translated">모듈을 가져올 때 명령을 내보낸 원본 PSSession이 닫혀 있고 동일한 컴퓨터에 대한 활성 PSSession이 없을 경우 모듈의 명령에서 PSSession을 다시 만들려고 합니다.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>If attempts to re-create the PSSession fail, the exported commands will not run.</source>
+          <target state="translated">PSSession을 다시 만들지 못한 경우 내보낸 명령이 실행되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The session information that <bpt id="p1">**</bpt>Export-Module<ept id="p1">**</ept> captures and saves in the module does not include session options, such as those that you specify in the $PSSessionOption preference variable or by using the <bpt id="p2">*</bpt>SessionOption<ept id="p2">*</ept> parameter of the New-PSSession, Enter-PSSession, or Invoke-Command cmdlet.</source>
+          <target state="translated">세션 정보는 <bpt id="p1">**</bpt>export-module이 모듈<ept id="p1">**</ept> 에 캡처 및 저장 모듈에는 $PSSessionOption 기본 설정 변수 또는 사용 하 여 지정 하는 등의 세션 옵션은 <bpt id="p2">*</bpt>SessionOption<ept id="p2">*</ept> New-pssession, Enter-pssession 또는 Invoke-command cmdlet의 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>If the original PSSession is closed when you import the module, the module will use another PSSession to the same computer, if one is available.</source>
+          <target state="translated">모듈을 가져올 때 원본 PSSession이 닫혀 있을 경우 모듈은 동일한 컴퓨터에 대한 다른 PSSession을 사용합니다(사용 가능한 경우).</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>To enable the imported commands to run in a correctly configured session, create a PSSession with the options that you want before you import the module.</source>
+          <target state="translated">가져온 명령을 올바르게 구성된 세션에서 실행하려면 모듈을 가져오기 전에 원하는 옵션으로 PSSession을 만듭니다.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>To find the commands to export, <bpt id="p1">**</bpt>Export-PSSession<ept id="p1">**</ept> uses the <bpt id="p2">**</bpt>Invoke-Command<ept id="p2">**</ept> cmdlet to run a Get-Command command in the PSSession.</source>
+          <target state="translated">내보낼 명령을 찾기 위해 <bpt id="p1">**</bpt>Export-pssession<ept id="p1">**</ept> 사용 하는 <bpt id="p2">**</bpt>Invoke-command<ept id="p2">**</ept> PSSession에서 Get-command 명령을 실행 하는 cmdlet입니다.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>To get and save formatting data for the commands, it uses the Get-FormatData and Export-FormatData cmdlets.</source>
+          <target state="translated">또한 명령에 대한 형식 지정 데이터를 가져온 다음 저장하기 위해 Get-FormatData 및 Export-FormatData cmdlet을 사용합니다.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>You might see error messages from <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Get-Command<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Get-FormatData<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Export-FormatData<ept id="p4">**</ept> when you run an <bpt id="p5">**</bpt>Export-PSSession<ept id="p5">**</ept> command.</source>
+          <target state="translated">오류 메시지가 표시 될 수 있습니다 <bpt id="p1">**</bpt>Invoke-command<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Get-command<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Get-formatdata<ept id="p3">**</ept>, 및 <bpt id="p4">**</bpt>Export-formatdata<ept id="p4">**</ept> 실행 하는 경우는 <bpt id="p5">**</bpt>Export-pssession<ept id="p5">**</ept> 명령입니다.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Also, <bpt id="p1">**</bpt>Export-PSSession<ept id="p1">**</ept> cannot export commands from a session that does not include the <bpt id="p2">**</bpt>Get-Command<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Get-FormatData<ept id="p3">**</ept>, Select-Object, and Get-Help cmdlets.</source>
+          <target state="translated">또한 <bpt id="p1">**</bpt>Export-pssession<ept id="p1">**</ept> 포함 하지 않는 세션에서 명령을 내보낼 수 없습니다는 <bpt id="p2">**</bpt>Get-command<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Get-formatdata<ept id="p3">**</ept>, Select-object 및 Get-help cmdlet입니다.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Export-PSSession<ept id="p1">**</ept> uses the Write-Progress cmdlet to display the progress of the command.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Export-pssession<ept id="p1">**</ept> Write-progress cmdlet을 사용 하 여 명령 진행률을 표시 합니다.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>You might see the progress bar while the command is running.</source>
+          <target state="translated">명령이 실행되는 동안 진행률 표시줄을 확인할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Exported commands have the same limitations as other remote commands, including the inability to start a program with a user interface, such as Notepad.</source>
+          <target state="translated">내보낸 명령의 경우 사용자 인터페이스를 통해 메모장 등의 프로그램을 시작할 수 없다는 점을 포함하여 다른 원격 명령과 동일한 제한이 적용됩니다.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Because Windows PowerShell profiles are not run in PSSessions, the commands that a profile adds to a session are not available to <bpt id="p1">**</bpt>Export-PSSession<ept id="p1">**</ept>.</source>
+          <target state="translated">Windows PowerShell 프로필은 Pssession에서 실행 되므로 프로필을 세션에 추가 하는 명령을 사용할 수 없는 <bpt id="p1">**</bpt>Export-pssession<ept id="p1">**</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>To export commands from a profile, use an Invoke-Command command to run the profile in the PSSession manually before exporting commands.</source>
+          <target state="translated">프로필에서 명령을 내보내려면 명령을 내보내기 전에 Invoke-Command 명령을 사용하여 PSSession에서 프로필을 수동으로 실행합니다.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The module that <bpt id="p1">**</bpt>Export-PSSession<ept id="p1">**</ept> creates might include a formatting file, even if the command does not import formatting data.</source>
+          <target state="translated">모듈은 <bpt id="p1">**</bpt>Export-pssession<ept id="p1">**</ept> 수 있다 만듭니다 명령이 형식 지정 데이터를 가져오지 않는 경우에 형식 지정 파일을 포함 합니다.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>If the command does not import formatting data, any formatting files that are created will not contain formatting data.</source>
+          <target state="translated">명령이 형식 지정 데이터를 가져오지 않는 경우 만든 형식 지정 파일에 형식 지정 데이터가 포함되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">관련된 링크</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Import-Module</source>
+          <target state="translated">Import-Module</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Import-PSSession</source>
+          <target state="translated">Import-PSSession</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Invoke-Command</source>
+          <target state="translated">Invoke-Command</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>New-PSSession</source>
+          <target state="translated">New-PSSession</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

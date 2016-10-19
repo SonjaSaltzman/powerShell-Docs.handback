@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ff25842faf874c435c8b2129046fc8852fc5d94b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Utility\Set-Variable.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c98d257295087a118f1bc2e00573e05d60a7d8a1</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9d517f8a23b8921364415deef130a8c3f5400144</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Set-Variable</source>
+          <target state="translated">Set-Variable</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Set-Variable</source>
+          <target state="translated">Set-Variable</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">简述</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Sets the value of a variable.</source>
+          <target state="translated">设置变量的值。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Creates the variable if one with the requested name does not exist.</source>
+          <target state="translated">如果使用请求的名称的变量不存在，则创建该变量。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">语法</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Set-Variable<ept id="p1">**</ept> cmdlet assigns a value to a specified variable or changes the current value.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Set-variable<ept id="p1">**</ept> cmdlet 将值分配给指定的变量，或更改的当前值。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If the variable does not exist, the cmdlet creates it.</source>
+          <target state="translated">如果该变量不存在，则该 cmdlet 将创建它。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">示例</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Example 1: Set a variable and get its value</source>
+          <target state="translated">示例 1︰ 设置变量，并获取其值</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>These commands set the value of the desc variable to A description, and then gets the value of the variable.</source>
+          <target state="translated">这些命令将 desc 变量的值设置为的说明，然后获取该变量的值。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Example 2: Set a global, read-only variable</source>
+          <target state="translated">示例 2︰ 设置全局只读变量</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This command creates a global, read-only variable that contains all processes on the system, and then it displays all properties of the variable.</source>
+          <target state="translated">此命令将创建一个包含系统上所有进程的全局只读变量，然后显示该变量的所有属性。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>Set-Variable<ept id="p1">**</ept> cmdlet to create the variable.</source>
+          <target state="translated">该命令使用 <bpt id="p1">**</bpt>Set-variable<ept id="p1">**</ept> cmdlet 来创建变量。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>PassThru<ept id="p1">*</ept> parameter to create an object representing the new variable, and it uses the pipeline operator (|) to pass the object to the Format-List cmdlet.</source>
+          <target state="translated">它使用 <bpt id="p1">*</bpt>PassThru<ept id="p1">*</ept> 参数来创建一个对象，表示新变量，并使用管道运算符 (|) 将对象传递给 Format-list cmdlet。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>Property<ept id="p1">*</ept> parameter of Format-List with a value of all (*) to display all properties of the newly created variable.</source>
+          <target state="translated">它使用 <bpt id="p1">*</bpt>属性<ept id="p1">*</ept> 格式列表参数值为所有 （*） 以显示新创建的变量的所有属性。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The value, "(Get-Process)", is enclosed in parentheses to ensure that it is executed before being stored in the variable.</source>
+          <target state="translated">将值“(Get-Process)”括在括号中，以确保先执行该值，然后再将其存储在变量中。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Otherwise, the variable contains the words "Get-Process".</source>
+          <target state="translated">否则，变量将包含单词“Get-Process”。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Example 3: Understand public vs. private variables</source>
+          <target state="translated">示例 3︰ 了解公共和私有变量</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This command shows how to change the visibility of a variable to Private.</source>
+          <target state="translated">此命令显示如何将更改为私有变量的可见性。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This variable can be read and changed by scripts with the required permissions, but it is not visible to the user.</source>
+          <target state="translated">可以使用所需权限通过脚本读取和更改此变量，但它对于用户不可见。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The sample output shows the difference in the behavior of public and private variables.</source>
+          <target state="translated">示例输出显示了公共变量和私有变量的行为差异。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">参数</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">将提示您在运行 cmdlet 前进行确认。将提示您在运行 cmdlet 前进行确认。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>-Description</source>
+          <target state="translated">-Description</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the variable.</source>
+          <target state="translated">指定对变量的描述。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-Exclude</source>
+          <target state="translated">-排除</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Specifies an array of items that this cmdlet excludes from the operation.</source>
+          <target state="translated">指定此 cmdlet 将从该操作中排除的项的数组。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The value of this parameter qualifies the <bpt id="p1">*</bpt>Path<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">此参数的值限定 <bpt id="p1">*</bpt>路径<ept id="p1">*</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Enter a path element or pattern, such as <ph id="ph1">`*.txt`</ph>.</source>
+          <target state="translated">输入路径元素或模式，例如 <ph id="ph1">`*.txt`</ph>。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">允许使用通配符。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Forces the command to run without asking for user confirmation.</source>
+          <target state="translated">强制运行命令而不要求用户确认。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>By default, you can overwrite a variable, unless the variable has an option value of ReadOnly or Constant.</source>
+          <target state="translated">默认情况下，您可以覆盖某个变量中，除非该变量的选项值为 ReadOnly 或 Constant。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For more information, see the <bpt id="p1">*</bpt>Option<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">有关详细信息，请参阅 <bpt id="p1">*</bpt>选项<ept id="p1">*</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>-Include</source>
+          <target state="translated">-Include</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Specifies an array of items that this cmdlet includes in the operation.</source>
+          <target state="translated">指定此 cmdlet 将在操作中包括的项的数组。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The cmdlet changes only the specified items.</source>
+          <target state="translated">该 cmdlet 更改指定的项。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The value of this parameter qualifies the <bpt id="p1">*</bpt>Name<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">此参数的值限定 <bpt id="p1">*</bpt>名称<ept id="p1">*</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Enter a name or name pattern, such as <ph id="ph1">`c*`</ph>.</source>
+          <target state="translated">输入一个名称或名称模式，如 <ph id="ph1">`c*`</ph>。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">允许使用通配符。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Specifies the variable name.</source>
+          <target state="translated">指定变量名称。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>-Option</source>
+          <target state="translated">选项</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the <bpt id="p1">**</bpt>Options<ept id="p1">**</ept> property of the variable.</source>
+          <target state="translated">指定的值的 <bpt id="p1">**</bpt>选项<ept id="p1">**</ept> 的变量的属性。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">此参数的可接受的值是：</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>None.</source>
+          <target state="translated">无。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Sets no options.</source>
+          <target state="translated">不设置任何选项。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>("None" is the default.)</source>
+          <target state="translated">（默认值为“None”。）</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>ReadOnly.</source>
+          <target state="translated">ReadOnly。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Can be deleted.</source>
+          <target state="translated">可以删除。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Cannot be not changed, except by using the Force parameter.</source>
+          <target state="translated">无法更改，除非通过使用 Force 参数。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Constant.</source>
+          <target state="translated">常量。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Cannot be deleted or changed.</source>
+          <target state="translated">无法删除或更改。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Constant is valid only when you are creating a variable.</source>
+          <target state="translated">仅当您创建一个变量，常量是有效。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>You cannot change the options of an existing variable to Constant.</source>
+          <target state="translated">不能将现有变量的选项更改为 Constant。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Private.</source>
+          <target state="translated">私有。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The variable is available only in the current scope.</source>
+          <target state="translated">该变量仅在当前作用域中可用。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>AllScope.</source>
+          <target state="translated">AllScope。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The variable is copied to any new scopes that are created.</source>
+          <target state="translated">变量将复制到创建的所有新作用域中。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>To see the <bpt id="p1">**</bpt>Options<ept id="p1">**</ept> property of all variables in the session, type <ph id="ph1">`Get-Variable | Format-Table -Property name, options -Autosize`</ph>.</source>
+          <target state="translated">若要查看 <bpt id="p1">**</bpt>选项<ept id="p1">**</ept> 属性在会话中，类型的所有变量 <ph id="ph1">`Get-Variable | Format-Table -Property name, options -Autosize`</ph>。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>-PassThru</source>
+          <target state="translated">-PassThru</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Returns an object representing the item with which you are working.</source>
+          <target state="translated">返回一个代表你所处理的项目的对象。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>By default, this cmdlet does not generate any output.</source>
+          <target state="translated">默认情况下，此 cmdlet 将不产生任何输出。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>-Scope</source>
+          <target state="translated">作用域</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Specifies the scope of the variable.</source>
+          <target state="translated">指定变量的作用域。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">此参数的可接受的值是：</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Global</source>
+          <target state="translated">全局</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Local</source>
+          <target state="translated">本地</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Script</source>
+          <target state="translated">脚本</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>A number relative to the current scope (0 through the number of scopes, where 0 is the current scope and 1 is its parent).</source>
+          <target state="translated">相对于当前作用域 (0 到作用域，其中 0 是当前作用域，1 是其父级的数) 数。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Local is the default.</source>
+          <target state="translated">默认值为本地。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Scopes.</source>
+          <target state="translated">有关详细信息，请参阅 about_Scopes。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>-Value</source>
+          <target state="translated">值</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the variable.</source>
+          <target state="translated">指定变量的值。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>-Visibility</source>
+          <target state="translated">可见性</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Specifies whether the variable is visible outside of the session in which it was created.</source>
+          <target state="translated">指定该变量是否是在其中创建的会话之外可见。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>This parameter is designed for use in scripts and commands that will be delivered to other users.</source>
+          <target state="translated">此参数旨在供使用的脚本和将传递给其他用户的命令。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">此参数的可接受的值是：</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Public.</source>
+          <target state="translated">公共。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The variable is visible.</source>
+          <target state="translated">该变量可见。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>(Public is the default.)</source>
+          <target state="translated">（公共是默认值。）</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Private.</source>
+          <target state="translated">私有。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The variable is not visible.</source>
+          <target state="translated">该变量不可见。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>When a variable is private, it does not appear in lists of variables, such as those returned by Get-Variable, or in displays of the Variable: drive.</source>
+          <target state="translated">当变量为私有时，它不会显示在变量的列表（例如，由 Get-Variable 返回的变量）中或 Variable: 驱动器的显示内容中。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Commands to read or change the value of a private variable return an error.</source>
+          <target state="translated">用于读取或更改私有变量的值的命令将返回一个错误。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>However, the user can run commands that use a private variable if the commands were written in the session in which the variable was defined.</source>
+          <target state="translated">但是，如果已在定义变量的会话中写入可使用私有变量的命令，则用户可以运行这些命令。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">显示如果运行 cmdlet 则会发生什么情况。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">该 cmdlet 不会运行。显示在 cmdlet 运行时，会发生什么情况。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">cmdlet 未运行。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">此 cmdlet 支持以下常见参数:-调试-ErrorAction、-ErrorVariable、-InformationAction、-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 和-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">有关详细信息，请参阅 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">输入</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>System.Object</source>
+          <target state="translated">System.Object</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>You can pipe an object that represents the value of the variable to <bpt id="p1">**</bpt>Set-Variable<ept id="p1">**</ept>.</source>
+          <target state="translated">您可以通过管道传递一个对象，表示为变量的值 <bpt id="p1">**</bpt>Set-variable<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">输出</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>None or System.Management.Automation.PSVariable</source>
+          <target state="translated">无或 System.Management.Automation.PSVariable</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>When you use the <bpt id="p1">*</bpt>PassThru<ept id="p1">*</ept> parameter, <bpt id="p2">**</bpt>Set-Variable<ept id="p2">**</ept> generates a <bpt id="p3">**</bpt>System.Management.Automation.PSVariable<ept id="p3">**</ept> object representing the new or changed variable.</source>
+          <target state="translated">当您使用 <bpt id="p1">*</bpt>PassThru<ept id="p1">*</ept> 参数， <bpt id="p2">**</bpt>Set-variable<ept id="p2">**</ept> 生成 <bpt id="p3">**</bpt>System.Management.Automation.PSVariable<ept id="p3">**</ept> 表示新的或更改变量的对象。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Otherwise, this cmdlet does not generate any output.</source>
+          <target state="translated">否则，此 cmdlet 将不生成任何输出。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相关的链接</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Clear-Variable</source>
+          <target state="translated">Clear-Variable</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Get-Variable</source>
+          <target state="translated">Get-Variable</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>New-Variable</source>
+          <target state="translated">New-Variable</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Remove-Variable</source>
+          <target state="translated">Remove-Variable</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
