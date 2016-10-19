@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5f44ac3ddcb6eace329e3829ec3a76a40d3d4a4f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Utility\Set-PSBreakpoint.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f0a63734777416fb9bde986dc647b4dcde2af264</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ddec1321187f17512de531cd3642bb8d7b813c21</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Set-PSBreakpoint</source>
+          <target state="translated">Set-PSBreakpoint</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Set-PSBreakpoint</source>
+          <target state="translated">Set-PSBreakpoint</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">简述</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Sets a breakpoint on a line, command, or variable.</source>
+          <target state="translated">在行、命令或变量上设置断点。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">语法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Line (Default)</source>
+          <target state="translated">行 （默认值）</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Command</source>
+          <target state="translated">命令</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Variable</source>
+          <target state="translated">变量</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The Set-PSBreakpoint cmdlet sets a breakpoint in a script or in any command run in the current session.</source>
+          <target state="translated">Set-PSBreakpoint cmdlet 可在当前会话中运行的脚本或任何命令中设置断点。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can use Set-PSBreakpoint to set a breakpoint before executing a script or running a command, or during debugging, when stopped at another breakpoint.</source>
+          <target state="translated">你可以在执行脚本或运行命令前设置断点，或者在调试期间停在另一个断点上时设置断点。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Note: Set-PSBreakpoint cannot set a breakpoint on a remote computer.</source>
+          <target state="translated">注意︰ Set-psbreakpoint 无法在远程计算机上设置断点。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To debug a script on a remote computer, copy the script to the local computer and then debug it locally.</source>
+          <target state="translated">若要在远程计算机上调试脚本，请将该脚本复制到本地计算机，然后从本地进行调试。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Each Set-PSBreakpoint command creates one of the following three types of breakpoints:</source>
+          <target state="translated">每个 Set-PSBreakpoint 命令都将创建以下三种类型的断点之一：</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Line breakpoint:  Sets breakpoints at particular line and column coordinates.</source>
+          <target state="translated">行断点︰ 特定的行和列坐标处设置断点。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Command breakpoint:  Sets breakpoints on commands and functions.</source>
+          <target state="translated">命令断点︰ 在命令和函数上设置断点。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Variable breakpoint: Sets breakpoints on variables.</source>
+          <target state="translated">变量断点︰ 在变量上设置断点。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can set a breakpoint on multiple lines, commands, or variables in a single Set-PSBreakpoint command, but each Set-PSBreakpoint command sets only one type of breakpoint.</source>
+          <target state="translated">可以在单个 Set-PSBreakpoint 命令中的多个行上、命令或变量上设置断点，但是每个 Set-PSBreakpoint 命令仅设置一种类型的断点。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>At a breakpoint, Windows PowerShell temporarily stops executing and gives control to the debugger.</source>
+          <target state="translated">在断点处，Windows PowerShell 临时停止执行，并将控制权交给调试器。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The command prompt changes to "DBG<ph id="ph1">\&gt;</ph>", and a set of debugger commands become available for use.</source>
+          <target state="translated">命令提示符将更改为"DBG<ph id="ph1">\&gt;</ph>"，以及一组调试器命令变为可供使用。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>However, you can use the Action parameter to specify an alternate response, such as conditions for the breakpoint or instructions to perform additional tasks such as logging or diagnostics.</source>
+          <target state="translated">但是，你可以使用 Action 参数指定备用的响应，例如断点的条件或执行其他任务（例如记录或诊断）的指示。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The Set-PSBreakpoint cmdlet is one of several cmdlets designed for debugging Windows PowerShell scripts.</source>
+          <target state="translated">Set-PSBreakpoint cmdlet 是专门用于调试 Windows PowerShell 脚本的多个 cmdlet 之一。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For more information about the Windows PowerShell debugger, see about_Debuggers.</source>
+          <target state="translated">有关 Windows PowerShell 调试程序的详细信息，请参阅 about_Debuggers。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">示例</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 示例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This command sets a breakpoint at line 5 in the Sample.ps1 script.</source>
+          <target state="translated">此命令将在 Sample.ps1 脚本中的第 5 行处设置断点。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>As a result, when the script runs, execution stops immediately before line 5 would execute.</source>
+          <target state="translated">因此，当脚本运行时，执行将在第 5 行要执行之前立即停止。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>When you set a new breakpoint by line number, the Set-PSBreakpoint cmdlet generates a line breakpoint object (System.Management.Automation.LineBreakpoint) that includes the breakpoint ID and hit count, as shown in the following sample output.</source>
+          <target state="translated">当你按行号设置新断点时，Set-PSBreakpoint cmdlet 将生成一个行断点对象 (System.Management.Automation.LineBreakpoint)，此对象包含断点 ID 和命中次数，如以下示例输出中所示。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This command creates a command breakpoint on the Increment function in the Sample.ps1 cmdlet.</source>
+          <target state="translated">此命令可在 Sample.ps1 cmdlet 中的 Increment 函数上设置命令断点。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The script stops executing immediately before each call to the specified function.</source>
+          <target state="translated">该脚本在每次调用指定函数前立即停止执行。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The result is a command breakpoint object.</source>
+          <target state="translated">结果是命令断点对象。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Before the script runs, the value of the HitCount property is 0.</source>
+          <target state="translated">在脚本运行前，HitCount 属性的值是 0。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This command sets a breakpoint on the Server variable in the Sample.ps1 script.</source>
+          <target state="translated">此命令可在 Sample.ps1 脚本中的 Server 变量上设置断点。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>It uses the Mode parameter with a value of ReadWrite to stop execution when the value of the variable is read and just before the value changes.</source>
+          <target state="translated">在读取该变量的值以及即将更改该值之前，它使用值为 ReadWrite 的 Mode 参数停止执行。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This command sets a breakpoint on every command in the Sample.ps1 script that begins with "write", such as "write-host".</source>
+          <target state="translated">此命令可在 Sample.ps1 脚本中每个以“write”开头的命令上设置断点，例如“write-host”。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This command stops execution at the DiskTest function in the Test.ps1 script only when the value of the $disk variable is greater than 2.</source>
+          <target state="translated">仅当 $disk 变量的值大于 2 时，此命令才在 Test.ps1 脚本中的 DiskTest 函数处停止执行。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>It uses the Set-PSBreakpoint cmdlet to set a command breakpoint on the DiskTest function.</source>
+          <target state="translated">它使用 Set-PSBreakpoint cmdlet 在 DiskTest 函数上设置命令断点。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The value of the action is a script block that tests the value of the $disk variable in the function.</source>
+          <target state="translated">该操作的值是一个脚本块，可测试函数中的 $disk 变量的值。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The action uses the BREAK keyword to stop execution if the condition is met.</source>
+          <target state="translated">如果满足条件，则该操作使用 BREAK 关键字停止执行。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The alternative (and the default) is CONTINUE.</source>
+          <target state="translated">备用值和（默认值）为 CONTINUE。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 6 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 6 --------------------------</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This command sets a breakpoint on the CheckLog function.</source>
+          <target state="translated">此命令可在 CheckLog 函数上设置断点。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Because the command does not specify a script, the breakpoint is set on anything that runs in the current session.</source>
+          <target state="translated">由于该命令未指定脚本，因此将在当前会话中运行的任何内容上设置断点。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The debugger breaks when the function is called, not when it is declared.</source>
+          <target state="translated">当调用该函数（而不是声明它）时，调试器将中断。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 7 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 7 --------------------------</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This command sets three line breakpoints in the Sample.ps1 script.</source>
+          <target state="translated">此命令可在 Sample.ps1 脚本中设置三个行断点。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>It sets one breakpoint at column 2 on each of the lines specified in the script.</source>
+          <target state="translated">它将在脚本中每个指定行上的第 2 列处设置断点。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The action specified in the Action parameter applies to all breakpoints.</source>
+          <target state="translated">Action 参数中指定的操作适用于所有断点。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">参数</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>-Action</source>
+          <target state="translated">-操作</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Specifies commands that run at each breakpoint instead of breaking.</source>
+          <target state="translated">指定在每个断点处运行的命令，而不是中断。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Enter a script block that contains the commands.</source>
+          <target state="translated">输入包含这些命令的脚本块。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>You can use this parameter to set conditional breakpoints or to perform other tasks, such as testing or logging.</source>
+          <target state="translated">可以使用此参数设置条件断点或执行其他任务，例如测试或记录。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If this parameter is omitted, or no action is specified, execution stops at the breakpoint, and the debugger starts.</source>
+          <target state="translated">如果省略此参数，或未指定任何操作，则执行在断点处停止，并且调试器将启动。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>When the Action parameter is used, the Action script block runs at each breakpoint.</source>
+          <target state="translated">当使用 Action 参数时，Action 脚本块将在每个断点处运行。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Execution does not stop unless the script block includes the Break keyword.</source>
+          <target state="translated">除非脚本块包含 Break 关键字，否则执行不会停止。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>If you use the Continue keyword in the script block, execution resumes until the next breakpoint.</source>
+          <target state="translated">如果在脚本块中使用 Continue 关键字，则执行将继续，直到下一个断点。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Script_Blocks, about_Break, and about_Continue.</source>
+          <target state="translated">有关详细信息，请参阅 about_Script_Blocks、about_Break 和 about_Continue。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>-Column</source>
+          <target state="translated">-列</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Specifies the column number of the column in the script file on which execution stops.</source>
+          <target state="translated">指定执行停止的脚本文件中的列的列号。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Enter only one column number.</source>
+          <target state="translated">仅输入一个列号。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The default is column 1.</source>
+          <target state="translated">默认值为列 1。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The Column value is used with the value of the Line parameter to specify the breakpoint.</source>
+          <target state="translated">列值与 Line 参数的值一起用于指定断点。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>If the Line parameter specifies multiple lines, the Column parameter sets a breakpoint at the specified column on each of the specified lines.</source>
+          <target state="translated">如果 Line 参数指定了多个行，则 Column 参数将在每个指定行的指定列处设置断点。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell stops executing before the statement or expression that includes the character at the specified line and column position.</source>
+          <target state="translated">Windows PowerShell 将在包含指定行和列位置处的字符的语句或表达式前停止执行。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Columns are counted from the top left margin beginning with column number 1 (not 0).</source>
+          <target state="translated">列从左上方边沿以列号 1（而不是 0）开始计数。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>If you specify a column that does not exist in the script, an error is not declared, but the breakpoint is never executed.</source>
+          <target state="translated">如果指定了脚本中不存在的列，则不会声明错误，但是永远不会执行断点。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>-Command</source>
+          <target state="translated">-Command</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Sets a command breakpoint.</source>
+          <target state="translated">设置命令断点。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Enter cmdlet names, such as "Get-Process" or function names.</source>
+          <target state="translated">输入 cmdlet 名称，例如“Get-Process”或函数名称。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">允许使用通配符。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Execution stops just before each instance of each command is executed.</source>
+          <target state="translated">执行正好在执行每个命令的每个实例之前停止。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>If the command is a function, execution stops each time the function is called and at each BEGIN, PROCESS, and END section.</source>
+          <target state="translated">如果该命令是一个函数，则执行在每次调用该函数时以及在每个开始、过程和结束部分上停止。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>-Line</source>
+          <target state="translated">行</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Sets a line breakpoint in a script.</source>
+          <target state="translated">在脚本中设置行断点。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Enter one or more line numbers, separated by commas.</source>
+          <target state="translated">输入一个或多个行号，用逗号分隔。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell stops immediately before executing the statement that begins on each of the specified lines.</source>
+          <target state="translated">Windows PowerShell 在执行从每个指定的行上开始的语句前立即停止。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Lines are counted from the top left margin of the script file beginning with line number 1 (not 0).</source>
+          <target state="translated">行从脚本文件的左上方边沿以行号 1（而不是 0）开始计数。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>If you specify a blank line, execution stops before the next non-blank line.</source>
+          <target state="translated">如果指定空行，则执行将在下一个非空行之前停止。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>If the line is out of range, the breakpoint is never hit.</source>
+          <target state="translated">如果行不在范围内，则永远不会命中断点。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>-Mode</source>
+          <target state="translated">模式</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Determines the mode of access that triggers variable breakpoints.</source>
+          <target state="translated">确定触发变量断点的访问模式。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The default is Write.</source>
+          <target state="translated">默认值为 Write。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when the Variable parameter is used in the command.</source>
+          <target state="translated">仅当命令中使用了 Variable 参数时，此参数才有效。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The mode applies to all breakpoints set in the command.</source>
+          <target state="translated">此模式适用于命令中设置的所有断点。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Valid values are:</source>
+          <target state="translated">有效值包括：</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Write: Stops execution immediately before a new value is written to the variable.</source>
+          <target state="translated">写入︰ 一个新值写入变量前立即停止执行。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Read: Stops execution when the variable is read, that is, when its value is accessed, either to be assigned, displayed, or used.</source>
+          <target state="translated">阅读︰ 停止执行该变量中读取时，即，当访问它的值时，可以将分配，显示，或者使用。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>In read mode, execution does not stop when the value of the variable changes.</source>
+          <target state="translated">在读取模式下，当变量的值发生更改时，执行不会停止。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>ReadWrite: Stops execution when the variable is read or written.</source>
+          <target state="translated">ReadWrite︰ 读 / 写变量时停止执行。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>-Script</source>
+          <target state="translated">脚本</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Sets a breakpoint in each of the specified script files.</source>
+          <target state="translated">在每个指定的脚本文件中设置断点。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Enter the paths and file names of one or more script files.</source>
+          <target state="translated">输入一个或多个脚本文件的路径和文件名称。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>If the files are in the current directory, you can omit the path.</source>
+          <target state="translated">如果文件在当前目录中，则可以省略该路径。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">允许使用通配符。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>By default, variable breakpoints and command breakpoints are set on any command that runs in the current session.</source>
+          <target state="translated">默认情况下，将在当前会话中运行的任何命令上设置变量断点和命令断点。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>This parameter is required only when setting a line breakpoint.</source>
+          <target state="translated">仅当设置行断点时，此参数才是必需的。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>-Variable</source>
+          <target state="translated">单变量</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Sets a variable breakpoint.</source>
+          <target state="translated">设置变量断点。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Enter a comma-separated list of variables without dollar signs ($).</source>
+          <target state="translated">输入不带有美元符号 ($) 的以逗号分隔的变量列表。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Use the Mode parameters to determine the mode of access that triggers the breakpoints.</source>
+          <target state="translated">使用 Mode 参数确定触发断点的访问模式。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The default mode, Write, stops execution just before a new value is written to the variable.</source>
+          <target state="translated">默认模式 Write 会在新值写入变量前停止执行。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">此 cmdlet 支持以下常见参数:-调试-ErrorAction、-ErrorVariable、-InformationAction、-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 和-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">有关详细信息，请参阅 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">输入</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">无</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>You cannot pipe input to Set-PSBreakpoint.</source>
+          <target state="translated">不能通过管道将输入传递给 Set-PSBreakpoint。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">输出</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Breakpoint object (System.Management.Automation.LineBreakpoint, System.Management.Automation.VariableBreakpoint, System.Management.Automation.CommandBreakpoint)</source>
+          <target state="translated">断点对象 (System.Management.Automation.LineBreakpoint，System.Management.Automation.VariableBreakpoint，System.Management.Automation.CommandBreakpoint)</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Set-PSBreakpoint returns an object that represents each breakpoint that it sets.</source>
+          <target state="translated">Set-PSBreakpoint 返回表示它所设置的每个断点的对象。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Set-PSBreakpoint cannot set a breakpoint on a remote computer.</source>
+          <target state="translated">Set-PSBreakpoint 无法在远程计算机上设置断点。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>To debug a script on a remote computer, copy the script to the local computer and then debug it locally.</source>
+          <target state="translated">若要在远程计算机上调试脚本，请将该脚本复制到本地计算机，然后从本地进行调试。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>When you set a breakpoint on more than one line, command, or variable, Set-PSBreakpoint generates a breakpoint object for each entry.</source>
+          <target state="translated">当你在多个行、命令或变量上设置断点时，Set-PSBreakpoint 将为每个条目生成一个断点对象。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>When setting a breakpoint on a function or variable at the command prompt, you can set the breakpoint before or after you create the function or variable.</source>
+          <target state="translated">当在命令提示符下在函数或变量上设置断点时，你可以在创建函数或变量之前或之后设置断点。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相关的链接</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Disable-PSBreakpoint</source>
+          <target state="translated">Disable-PSBreakpoint</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Enable-PSBreakpoint</source>
+          <target state="translated">Enable-PSBreakpoint</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Get-PSBreakpoint</source>
+          <target state="translated">Get-PSBreakpoint</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Get-PSCallStack</source>
+          <target state="translated">Get-PSCallStack</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Remove-PSBreakpoint</source>
+          <target state="translated">Remove-PSBreakpoint</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>about_Debuggers</source>
+          <target state="translated">about_Debuggers</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

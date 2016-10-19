@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3154647bb6f7f37e9f428cf3f822ebcf7466f425</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\About\about_pipelines.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ade1b7a643ef9ffde1e8804e570cb62d5aeb7612</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8d8327ea469f7eb12fa1f0450258f6248348467a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>about_Pipelines</source>
+          <target state="translated">about_Pipelines</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>About Pipelines</source>
+          <target state="translated">파이프라인에 대 한</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>about_Pipelines</source>
+          <target state="translated">about_Pipelines</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>about_pipelines</source>
+          <target state="translated">about_pipelines를 참조 하세요</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">간단한 설명</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Combining commands into pipelines in the Windows PowerShell</source>
+          <target state="translated">Windows PowerShell에서 파이프라인에 명령 조합</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>LONG DESCRIPTION</source>
+          <target state="translated">자세한 설명</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>A pipeline is a series of commands connected by pipeline operators (|)(ASCII 124).</source>
+          <target state="translated">파이프라인은 일련의 명령이 파이프라인 연산자 (|)로 연결 (ASCII 124)입니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Each pipeline operator sends the results of the preceding command to the next command.</source>
+          <target state="translated">각 파이프라인 연산자는 다음 명령에 이전 명령의 결과 보냅니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can use pipelines to send the objects that are output by one command to be used as input to another command for processing.</source>
+          <target state="translated">파이프라인 처리를 위해 다른 명령에 대 한 입력으로 사용할 수 있는 하나의 명령에 의해 출력 된 개체를 전송에 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>And you can send the output of that command to yet another command.</source>
+          <target state="translated">및 다른 명령에 해당 명령의 출력을 보낼 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The result is a very powerful command chain or "pipeline" that is comprised of a series of simple commands.</source>
+          <target state="translated">결과 매우 강력한 명령 체인 또는 일련의 간단한 명령으로 구성 된 "파이프라인".</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For example,</source>
+          <target state="translated">예:</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Command-1 | Command-2 | Command-3</source>
+          <target state="translated">명령 1 | 명령 2 | 명령 3</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In this example, the objects that Command-1 emits are sent to Command-2.</source>
+          <target state="translated">이 예제에서는 개체를 내보내는 명령 1 명령-2로 전송 됩니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Command-2 processes the objects and sends them to Command-3.</source>
+          <target state="translated">명령 2는 개체를 처리 하 고 명령 3으로 보냅니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Command-3 processes the objects and send them down the pipeline.</source>
+          <target state="translated">명령 3 개체를 처리 하 고 파이프라인으로 보내야 합니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Because there are no more commands in the pipeline, the results are displayed at the console.</source>
+          <target state="translated">파이프라인에서 더 이상 명령이 있기 때문에 결과 콘솔에 표시 됩니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>In a pipeline, the commands are processed from left to right in the order that they appear.</source>
+          <target state="translated">파이프라인의 명령이 처리되는지에 왼쪽에서 오른쪽으로 표시 되는 순서에 있습니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The processing is handled as a single operation and output is displayed as it is generated.</source>
+          <target state="translated">단일 작업으로 처리 하는 및 생성 되는 출력이 표시 됩니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Here is a simple example.</source>
+          <target state="translated">다음은 간단한 예제입니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The following command gets the Notepad process and then stops it.</source>
+          <target state="translated">다음 명령은 Notepad 프로세스를 가져오고 중지 합니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>get-process notepad | stop-process</source>
+          <target state="translated">가져오기 프로세스 메모장 | 프로세스 중지</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The first command uses the Get-Process cmdlet to get an object representing the Notepad process.</source>
+          <target state="translated">첫 번째 명령은 Get-process cmdlet를 사용 하 여 메모장 프로세스를 나타내는 개체를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>It uses a pipeline operator (|) to send the process object to the Stop-Process cmdlet, which stops the Notepad process.</source>
+          <target state="translated">파이프라인 연산자 (|)를 사용 하 여 메모장 프로세스를 중지 하는 Stop-process cmdlet에 프로세스 개체를 보내려고 합니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Notice that the Stop-Process command does not have a Name or ID parameter to specify the process, because the specified process is submitted through the pipeline.</source>
+          <target state="translated">Stop-process 명령 하지 않았는지 프로세스를 지정 하는 이름 또는 ID 매개 변수는 지정된 된 프로세스는 파이프라인을 통해 전송 하기 때문에 확인 합니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Here is a practical example.</source>
+          <target state="translated">실용적인 예제는 다음과 같습니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This command pipeline gets the text files in the current directory, selects only the files that are more than 10,000 bytes long, sorts them by length, and displays the name and length of each file in a table.</source>
+          <target state="translated">이 명령은 파이프라인 현재 디렉터리에 있는 텍스트 파일을 가져옵니다, 그리고 선택 10, 000 바이트를 초과 하는 파일만 길이 기준으로 정렬 되 고, 테이블의 이름 및 각 파일의 길이 표시 합니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Get-ChildItem -path *.txt | Where-Object {$_.length -gt 10000} | Sort-Object -property Length | Format-Table -property name, length</source>
+          <target state="translated">Get-childitem-path *.txt | Where-object {$_.length-gt 10000} | Sort-object-속성 길이 | Format-table-속성 이름, 길이</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This pipeline is comprised of four commands in the specified order.</source>
+          <target state="translated">이 파이프라인에 지정된 된 순서 대로 4 개 명령으로 구성 됩니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The command is written horizontally, but we will show the process vertically in the following graphic.</source>
+          <target state="translated">이 명령은 가로로 되었지만 다음 그림에에 세로로 프로세스를 살펴보겠습니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Get-ChildItem -path *.txt</source>
+          <target state="translated">Get-childitem-path *.txt</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>|   (FileInfo objects ) |   (    .txt         )</source>
+          <target state="translated">|   (FileInfo 개체) |   (    .txt         )</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>V</source>
+          <target state="translated">V</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Where-Object {$_.length -gt 10000}</source>
+          <target state="translated">Where-object {$_.length-gt 10000}</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>|   (FileInfo objects ) |   (    .txt         ) |   ( Length &gt; 10000  )</source>
+          <target state="translated">|   (FileInfo 개체) |   (    .txt         ) |   (길이 &gt; 10000)</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>V</source>
+          <target state="translated">V</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Sort-Object -property Length</source>
+          <target state="translated">Sort-object-속성 길이</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>|   (FileInfo objects  ) |   (    .txt          ) |   ( Length &gt; 10000   ) |   ( Sorted by length )</source>
+          <target state="translated">|   (FileInfo 개체) |   (    .txt          ) |   (길이 &gt; 10000) |   (길이로 정렬)</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>V</source>
+          <target state="translated">V</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Format-Table -property name, length</source>
+          <target state="translated">Format-table-속성 이름, 길이</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>|   (FileInfo objects     ) |   (    .txt             ) |   ( Length &gt; 10000      ) |   ( Sorted by length    ) |   (Formatted in a table )</source>
+          <target state="translated">|   (FileInfo 개체) |   (    .txt             ) |   (길이 &gt; 10000) |   (길이로 정렬) |   (테이블의 형식)</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>V</source>
+          <target state="translated">V</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Name                       Length</source>
+          <target state="translated">이름 길이</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>tmp1.txt                    82920 tmp2.txt                   114000 tmp3.txt                   114000</source>
+          <target state="translated">tmp1.txt 82920 tmp2.txt 114000 tmp3.txt 114000</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>USING PIPELINES</source>
+          <target state="translated">파이프라인을 사용 하 여</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell cmdlets were designed to be used in pipelines.</source>
+          <target state="translated">Windows PowerShell cmdlet은 파이프라인에서 사용 하도록 설계 되었습니다.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>For example, you can usually pipe the results of a Get cmdlet to an action cmdlet (such as a Set, Start, Stop, or Rename cmdlet) for the same noun.</source>
+          <target state="translated">예를 들어 동일한 명사에는 작업 cmdlet (예: 설정, 시작, 중지 또는 이름 바꾸기 cmdlet) 하는 Get cmdlet의 결과 일반적으로 파이프할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>For example, you can pipe any service from the Get-Service cmdlet to the Start-Service or Stop-Service cmdlets (although disabled services cannot be restarted in this way).</source>
+          <target state="translated">예를 들어 (물론이 방법으로 사용 하지 않는 서비스를 다시 시작할 수 없습니다) Get-service cmdlet에서 서비스 하는 서비스 시작 또는 중지 서비스 cmdlet에 파이프할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This command pipeline starts the WMI service on the computer:</source>
+          <target state="translated">이 명령은 파이프라인 컴퓨터에서 WMI 서비스를 시작 합니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>get-service wmi | start-service</source>
+          <target state="translated">get 서비스 wmi | 서비스 시작</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The cmdlets that get and set objects of the Windows PowerShell providers, such as the Item and ItemProperty cmdlets, are also designed to be used in pipelines.</source>
+          <target state="translated">가져오고 Windows PowerShell 공급자에서 항목 및 ItemProperty cmdlet 등의 개체를 설정 하는 cmdlet은 파이프라인에서 사용할 수 있도록도 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>For example, you can pipe the results of a Get-Item or Get-ChildItem command in the Windows PowerShell registry provider to the New-ItemProperty cmdlet.</source>
+          <target state="translated">예를 들어 결과 Get-item 또는 Get-childitem 명령을 Windows PowerShell 레지스트리 공급자를 New-itemproperty cmdlet에 파이프할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This command adds a new registry entry, NoOfEmployees, with a value of 8124, to the MyCompany registry key.</source>
+          <target state="translated">이 명령은 MyCompany 레지스트리 키에 새 레지스트리 항목, NoOfEmployees, 8124의 값을 추가합니다.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>get-item -path HKLM:\Software\MyCompany | new-Itemproperty -name NoOfEmployees -value 8124</source>
+          <target state="translated">또한 get-item-path HKLM:\Software\MyCompany | New-itemproperty-NoOfEmployees 이름-값 8124</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Many of the utility cmdlets, such as Get-Member, Where-Object, Sort-Object, Group-Object, and Measure-Object are used almost exclusively in pipelines.</source>
+          <target state="translated">여러 파이프라인에 독점적으로 거의 그룹-개체 및 측정값 개체 같은 Get-member를 Where-object Sort-object 유틸리티 cmdlet의 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>You can pipe any objects to these cmdlets.</source>
+          <target state="translated">이러한 cmdlet에 개체를 파이프할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>For example, you can pipe all of the processes on the computer to the Sort-Object command and have them sorted by the number of handles in the process.</source>
+          <target state="translated">예를 들어 정렬 개체 명령에 대 한 컴퓨터에 파이프 하는 모든 프로세스를 프로세스에 대 한 핸들의 수로 정렬 한 합니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>get-process | sort-object -property handles</source>
+          <target state="translated">가져오기 프로세스 | 정렬 개체-속성 핸들</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Also, you can pipe any objects to the formatting cmdlets, such as Format-List and Format-Table, the Export cmdlets, such as Export-Clixml and Export-CSV, and the Out cmdlets, such as Out-Printer.</source>
+          <target state="translated">또한 모든 개체 형식 목록 및 표 서식, Export-clixml 및 EXPORT-CSV 같은 내보내기 cmdlet, Out-printer와 같은 Out cmdlet 등과 같은 형식 지정 cmdlet에 파이프할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>For example, you can pipe the Winlogon process to the Format-List cmdlet to display all of the properties of the process in a list.</source>
+          <target state="translated">예를 들어 Winlogon 프로세스의 모든 프로세스의 속성 목록에 표시 하려면 Format-list cmdlet으로 파이프할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>get-process winlogon | format-list -property *</source>
+          <target state="translated">가져오기 프로세스 winlogon | 형식 목록-속성 *</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>With a bit of practice, you'll find that combining simple commands into pipelines saves time and typing, and makes your scripting more efficient.</source>
+          <target state="translated">약간의 연습와를 파이프라인으로 간단한 명령을 결합은 시간과 입력 하 고 프로그램 스크립트를 더 효율적으로 찾을 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>HOW PIPELINES WORK</source>
+          <target state="translated">파이프라인이 작동 하는 방법</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>When you "pipe" objects, that is send the objects in the output of one command to another command, Windows PowerShell tries to associate the piped objects with one of the parameters of the receiving cmdlet.</source>
+          <target state="translated">"파이프 하면" 전송 되는 개체는 개체의 다른 명령으로 하나의 명령 출력에, Windows PowerShell 수신 cmdlet의 매개 변수 중 하나를 파이프로 연결 된 개체를 연결 하려고 시도 합니다.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>To do so, the Windows PowerShell "parameter binding" component, which associates input objects with cmdlet parameters, tries to find a parameter that meets the following criteria:</source>
+          <target state="translated">이렇게 하려면 cmdlet 매개 변수와 함께 입력된 개체를 연결 하면 "매개 변수 바인딩" Windows PowerShell 구성 요소를 찾으려고 다음 조건을 만족 하는 매개 변수:</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>-- The parameter must accept input from a pipeline (not all do) -- The parameter must accept the type of object being sent or a type that the object can be converted to.</source>
+          <target state="translated">--매개 변수 (일부 수행할) 파이프라인의 입력이 허용 해야 합니다--매개 변수는 전송 되는 개체의 형식이 나 개체를 변환할 수 있는 형식을 동의 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>-- The parameter must not already be used in the command.</source>
+          <target state="translated">--매개 변수는 명령에서 이미 사용 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>For example, the Start-Service cmdlet has many parameters, but only two of them, Name and InputObject accept pipeline input.</source>
+          <target state="translated">예를 들어 Start-service cmdlet 많은 매개 변수를 갖지만 이름과 InputObject 그 중 두 개만 파이프라인 입력을 허용 합니다.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The Name parameter takes strings and the InputObject parameter takes service objects.</source>
+          <target state="translated">Name 매개 변수 문자열을 사용 하 고 InputObject 매개 변수는 서비스 개체를 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Therefore, you can pipe strings and service objects (and objects with properties that can be converted to string and service objects) to Start-Service.</source>
+          <target state="translated">따라서 시작 서비스에 문자열 및 서비스 개체 및 (문자열 및 서비스 개체에 변환 될 수 있는 속성을 가진 개체)를 파이프할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>If the parameter binding component of Windows PowerShell cannot associate the piped objects with a parameter of the receiving cmdlet, the command fails and Windows PowerShell prompts you for the missing parameter values.</source>
+          <target state="translated">Windows PowerShell의 매개 변수 바인딩 구성 요소는 수신 cmdlet의 매개 변수와 함께 파이프 된 개체를 연결할 수 없습니다, 명령이 실패 하 고 Windows PowerShell 누락 된 매개 변수 값을 묻는 메시지를 표시 합니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>You cannot force the parameter binding component to associate the piped objects with a particular parameter -- you cannot even suggest a parameter.</source>
+          <target state="translated">특정 매개 변수와 함께 파이프 된 개체를 연결할 매개 변수 바인딩 구성 요소를 강제할 수 없고--매개 변수를도 추천해 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Instead, the logic of the component manages the piping as efficiently as possible.</source>
+          <target state="translated">구성 요소의 논리 파이핑을 관리 하는 대신, 최대한 효율적으로 합니다.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>ONE-AT-A-TIME PROCESSING</source>
+          <target state="translated">1에서-A 시간 처리</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Piping objects to a command is much like using a parameter of the command to submit the objects.</source>
+          <target state="translated">개체에는 명령에 파이프 매우 비슷합니다 개체를 제출 하는 명령의 매개 변수를 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>For example, piping objects representing the services on the computer to a Format-Table command, such as:</source>
+          <target state="translated">예를 들어, 파이핑 Format-table 명령에 같은 컴퓨터에 서비스를 나타내는 개체:</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>get-service | format-table -property name, dependentservices</source>
+          <target state="translated">get 서비스 | 표 서식-속성 이름, dependentservices</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>is much like saving the service objects in a variable and using the InputObject parameter of Format-Table to submit the service object.</source>
+          <target state="translated">매우 유사 서비스 개체를 변수에 저장 하 고 Format-table의 InputObject 매개 변수를 사용 하 여 서비스 개체를 전송할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>$services = get-service format-table -inputobject $services -property name, dependentservices</source>
+          <target state="translated">$services get 서비스 형식-테이블-inputobject $services =-속성 이름, dependentservices</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>or imbedding the command in the parameter value</source>
+          <target state="translated">또는 매개 변수 값에 포함 하는 명령</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>format-table -inputobject (get-service wmi) -property name, dependentservices</source>
+          <target state="translated">표 서식-inputobject (get 서비스 wmi)-속성 이름, dependentservices</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>However, there is an important difference.</source>
+          <target state="translated">그러나 중요 한 차이점이 있습니다.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>When you pipe multiple objects to a command, Windows PowerShell sends the objects to the command one at a time.</source>
+          <target state="translated">여러 개체에는 명령에 파이프 하면 Windows PowerShell 개체 한 번에 하나의 명령을 보냅니다.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>When you use a command parameter, the objects are sent as a single array object.</source>
+          <target state="translated">명령 매개 변수를 사용 하면 개체를 단일 배열 개체로 전송 됩니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>This seemingly technical difference can have interesting, and sometimes useful, consequences.</source>
+          <target state="translated">이 기술 겉보기 차이 흥미롭고 때로는 유용한 결과 가질 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>For example, if you pipe multiple process objects from the Get-Process cmdlet to the Get-Member cmdlet, Windows PowerShell sends each process object, one at a time, to Get-Member.</source>
+          <target state="translated">예를 들어 Get-process cmdlet에서 여러 프로세스 개체를 Get-member cmdlet으로 파이프 하면 Windows PowerShell 한 번에 하나씩 각 프로세스 개체를 Get-member로 보냅니다.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Get-Member displays the .NET class (type) of the process objects, and their properties and methods.</source>
+          <target state="translated">Get-member는.NET 클래스 (형식)의 프로세스 개체의 속성 및 메서드를 표시합니다.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>(Get-Member eliminates duplicates, so if the objects are all of the same type, it displays only one object type.)</source>
+          <target state="translated">(Get-member 중복을 제거 개체가 동일한 형식의 모든 경우 하나의 개체 유형을 표시 합니다.)</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>In this case, Get-Member displays the properties and methods of each process object, that is, a System.Diagnostics.Process object.</source>
+          <target state="translated">이 경우 Get-member는 System.Diagnostics.Process 개체, 즉, 각 프로세스 개체의 메서드와 속성을 표시합니다.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>get-process | get-member</source>
+          <target state="translated">가져오기 프로세스 | get 멤버</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>TypeName: System.Diagnostics.Process</source>
+          <target state="translated">형식 이름: System.Diagnostics.Process</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Name                           MemberType     Definition</source>
+          <target state="translated">MemberType 정의 이름</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Handles                        AliasProperty  Handles = Handlecount Name                           AliasProperty  Name = ProcessName NPM                            AliasProperty  NPM = NonpagedSystemMemorySize</source>
+          <target state="translated">AliasProperty 핸들 처리 Handlecount 이름 AliasProperty 이름 = ProcessName NPM AliasProperty NPM = NonpagedSystemMemorySize =</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>...</source>
+          <target state="translated">...</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>However, if you use the InputObject parameter of Get-Member, then Get-Member receives an array of System.Diagnostics.Process objects as a single unit, and it displays the properties of an array of objects.</source>
+          <target state="translated">그러나 Get-member의 InputObject 매개 변수를 사용 하는 경우 다음 Get-member 단일 단위로 System.Diagnostics.Process 개체의 배열을 받으며 개체의 배열의 속성이 표시 됩니다.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>(Note the array symbol ([]) after the System.Object type name.)</source>
+          <target state="translated">(() 배열 기호 note System.Object 형식 이름 뒤.)</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>get-member -inputobject (get-process)</source>
+          <target state="translated">으로, get-member-inputobject (get 프로세스)</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>TypeName: System.Object[]</source>
+          <target state="translated">유형 이름: System.Object]</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Name               MemberType    Definition</source>
+          <target state="translated">MemberType 정의 이름</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Count              AliasProperty Count = Length Address            Method        System.Object&amp; Address(Int32 ) Clone              Method        System.Object Clone()</source>
+          <target state="translated">Count AliasProperty Count 길이 주소 메서드 System.Object = &amp; (Int32) 복제 메서드 System.Object clone ()를 해결 합니다.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>...</source>
+          <target state="translated">...</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>This result might not be what you intended, but after you understand it, you can use it.</source>
+          <target state="translated">이 결과 의도 한 것 않지만 파악 한 후 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>For example, an array of process objects has a Count property that you can use to count the number of processes on the computer.</source>
+          <target state="translated">예를 들어 프로세스 개체의 배열에는 컴퓨터에서 프로세스의 수를 계산 하는 데 사용할 수 있는 Count 속성이 있습니다.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>(get-process).count</source>
+          <target state="translated">(get 프로세스).count</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>This distinction can be important, so remember that when you pipe objects to a cmdlet, they are delivered one at a time.</source>
+          <target state="translated">개체를 cmdlet으로 파이프 하면 배달 하는지 한 번에 하나씩 기억 하므로이 차이 중요할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>ACCEPTS PIPELINE INPUT</source>
+          <target state="translated">파이프라인 입력 허용</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>In order to receive objects in a pipeline, the receiving cmdlet must have a parameter that accepts pipeline input.</source>
+          <target state="translated">파이프라인에서 개체를 수신 하려면 수신 cmdlet 파이프라인 입력을 허용 하는 매개 변수가 있어야 합니다.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>You can use a Get-Help command with the Full or Parameter parameters to determine which, if any, of a cmdlet's parameters accepts pipeline input.</source>
+          <target state="translated">전체 또는 매개 변수 매개 변수를 사용, 있는 경우 cmdlet의 매개 변수 파이프라인 입력 허용을 확인 하려면 Get-help 명령을 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>In the Get-Help default display, the "Accepts pipeline input" item appears in a table of parameter attributes.</source>
+          <target state="translated">Get-help 기본 디스플레이에서 "파이프라인 입력 허용" 항목 매개 변수 특성의 테이블에 표시 됩니다.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>This table is displayed only when you use the Full or Parameter parameters of the Get-Help cmdlet.</source>
+          <target state="translated">이 테이블에는 Get-help cmdlet의 전체 또는 매개 변수 매개 변수를 사용 하는 경우에 표시 됩니다.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>For example, to determine which of the parameters of the Start-Service cmdlet accepts pipeline input, type:</source>
+          <target state="translated">예를 들어 Start-service cmdlet의 매개 변수 중 유형 파이프라인 입력을 허용 합니다.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>get-help start-service -full</source>
+          <target state="translated">도움말 얻기 서비스 시작-전체</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>get-help start-service -parameter *</source>
+          <target state="translated">도움말 얻기 서비스 시작-매개 변수 *</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>For example, the help for the Start-Service cmdlet shows that the Name and InputObject parameters accept pipeline input ("true").</source>
+          <target state="translated">예를 들어 Start-service cmdlet에 대 한 도움말 이름과 InputObject 매개 변수 ("true") 파이프라인 입력을 수락 함을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>All other parameters have a value of "false" in the "Accept pipeline input?"</source>
+          <target state="translated">"동의 함 파이프라인 입력?"에 "false"의 값이 다른 모든 매개 변수</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>row.</source>
+          <target state="translated">행입니다.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>-name &lt;string[]&gt; Specifies the service names for the service to be started.</source>
+          <target state="translated">-name &lt; string &gt; 시작 되도록 서비스에 대 한 서비스 이름을 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The parameter name is optional.</source>
+          <target state="translated">매개 변수 이름은 선택 사항입니다.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>You can use "-Name" or its alias, "-ServiceName", or you can omit the parameter name.</source>
+          <target state="translated">"-Name" 또는 해당 별칭("-ServiceName")을 사용하거나 매개 변수 이름을 생략할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Required?</source>
+          <target state="translated">필수 여부</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>true Position?</source>
+          <target state="translated">실제 위치?</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>1 Default value --&gt;  Accept pipeline input?</source>
+          <target state="translated">기본값 1-파이프라인 입력 적용-&gt;?</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>true (ByValue, ByPropertyName) Accept wildcard characters?</source>
+          <target state="translated">true (ByValue, ByPropertyName) 와일드 카드 문자 허용?</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>true</source>
+          <target state="translated">true</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>-inputObject &lt;ServiceController[]&gt; Specifies ServiceController objects representing the services to be started.</source>
+          <target state="translated">-inputObject &lt; ServiceController &gt;를 지정 하는 ServiceController 개체 서비스를 시작할 수를 나타내는입니다.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the objects or type a command or expression that gets the objects.</source>
+          <target state="translated">개체를 포함하는 변수를 입력하거나 개체를 가져오는 명령 또는 식을 입력하세요.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Required?</source>
+          <target state="translated">필수 여부</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>false Position?</source>
+          <target state="translated">false 위치?</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>named Default value --&gt;  Accept pipeline input?</source>
+          <target state="translated">명명 된 기본값-파이프라인 입력 적용-&gt;?</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>true (ByValue) Accept wildcard characters?</source>
+          <target state="translated">true (ByValue) Accept 와일드 카드 문자?</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>false</source>
+          <target state="translated">false</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>This means that you can send objects (PsObjects) through the pipeline to the Where-Object cmdlet and Windows PowerShell will associate the object with the InputObject parameter.</source>
+          <target state="translated">Where-object cmdlet으로 파이프라인을 통해 개체 (PsObjects)를 보낼 수 있음을 의미 하 고 Windows PowerShell InputObject 매개 변수에 개체를 연결 합니다.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>METHODS OF ACCEPTING PIPELINE INPUT</source>
+          <target state="translated">파이프라인 입력을 수락 하는 방법</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Cmdlets parameters can accept pipeline input in one of two different ways:</source>
+          <target state="translated">Cmdlet 매개 변수는 두 가지 방법 중 하나에 파이프라인 입력을 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>-- ByValue: Parameters that accept input "by value" can accept piped objects that have the same .NET type as their parameter value or objects that can be converted to that type.</source>
+          <target state="translated">-ByValue: 받아들일 수 "값"으로 입력을 허용 하는 매개 변수 값이 매개 변수 값으로 동일한.NET 형식을 가진 개체 또는 해당 형식으로 변환 될 수 있는 개체를 파이프 합니다.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>For example, the Name parameter of Start-Service accepts pipeline input by value.</source>
+          <target state="translated">예를 들어 시작 서비스의 Name 매개 변수 값으로 파이프라인 입력을 허용합니다.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>It can accept string objects or objects that can be converted to strings.</source>
+          <target state="translated">String 개체 또는 개체를 문자열로 변환 될 수 있는 받아들일 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>-- ByPropertyName: Parameters that accept input "by property name" can accept piped objects only when a property of the object has the same name as the parameter.</source>
+          <target state="translated">-ByPropertyName:을 수락할 수 있는 속성 이름""으로 입력을 받아들이는 매개 변수 개체의 속성에는 매개 변수 이름이 같은 경우에 개체를 파이프 합니다.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>For example, the Name parameter of Start-Service can accept objects that have a Name property.</source>
+          <target state="translated">예를 들어 시작 서비스의 Name 매개 변수 이름 속성을 가진 개체를 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>(To list the properties of an object, pipe it to Get-Member.)</source>
+          <target state="translated">(개체의 속성을 나열 파이프를 Get-member로.)</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Some parameters can accept objects by value or by property name.</source>
+          <target state="translated">일부 매개 변수 또는 속성 이름 값으로 개체를 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>These parameters are designed to take input from the pipeline easily.</source>
+          <target state="translated">이러한 매개 변수는 쉽게 파이프라인의에서 입력을 위해 설계 되었습니다.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>INVESTIGATING PIPELINE ERRORS</source>
+          <target state="translated">파이프라인 오류를 조사 하는 중</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>If a command fails because of a pipeline error, you can investigate the failure and rewrite the command.</source>
+          <target state="translated">파이프라인 오류가 발생 하는 명령이 실패 하면 실패의 원인을 조사할 수 있으며 명령을 다시 작성할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>For example, the following command tries to move a registry entry from one registry key to another by using the Get-Item cmdlet to get the destination path and then piping the path to the Move-ItemProperty cmdlet.</source>
+          <target state="translated">예를 들어 다음 명령은 Get-item cmdlet을 사용 하 여 대상 경로를 가져오는 다음 경로 Move-itemproperty cmdlet에 파이프 하 여 한 레지스트리 키에서 다른 컴퓨터로 레지스트리 항목을 이동 하려고 시도 합니다.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Specifically, the command uses the Get-Item cmdlet to get the destination path.</source>
+          <target state="translated">특히,이 명령은 대상 경로를 가져오지 Get-item cmdlet을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>It uses a pipeline operator to send the result to the Move-ItemProperty cmdlet.</source>
+          <target state="translated">파이프라인 연산자를 사용 하 여 Move-itemproperty cmdlet에 결과 보내려고 합니다.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The Move-ItemProperty command specifies the current path and name of the registry entry to be moved.</source>
+          <target state="translated">Move-itemproperty 명령을 현재 경로 이동할 레지스트리 항목의 이름을 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>get-item -path hklm:\software\mycompany\sales | move-itemproperty -path hklm:\software\mycompany\design -name product</source>
+          <target state="translated">또한 get-item-path hklm:\software\mycompany\sales | 이동 itemproperty-경로 hklm:\software\mycompany\design-제품 이름</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The command fails and Windows PowerShell displays the following error message:</source>
+          <target state="translated">명령이 실패 하 고 Windows PowerShell에는 다음과 같은 오류 메시지가 표시 됩니다.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Move-ItemProperty : The input object cannot be bound to any parameters for the command either because the command does not take pipeline input or the input and its properties do not match any of the parameters that take pipeline input.</source>
+          <target state="translated">Move-itemproperty: 입력된 개체는 명령에 대 한 매개 변수를 바인딩할 수 없습니다 명령 파이프라인 입력을 사용 하지 않는 되었거나 입력 및 속성과 일치 하지 않는 파이프라인 입력을 사용 하는 매개 변수 중 하나입니다.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>At line:1 char:23</source>
+          <target state="translated">줄: 1 문자: 23에</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>$a | move-itemproperty &lt;&lt;&lt;&lt;  -path hklm:\software\mycompany\design -name product</source>
+          <target state="translated">$는 | 이동 itemproperty &lt;&lt;&lt;&lt;-경로 hklm:\software\mycompany\design-제품 이름</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>To investigate, use the Trace-Command cmdlet to trace the Parameter Binding component of Windows PowerShell.</source>
+          <target state="translated">를 조사 하려면 Windows PowerShell의 매개 변수 바인딩 구성 요소를 통해 추적 Trace-command cmdlet을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The following command traces the Parameter Binding component while the command is processing.</source>
+          <target state="translated">다음 명령은 명령을 처리 하는 동안 매개 변수 바인딩 구성 요소를 추적 합니다.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>It uses the -pshost parameter to display the results at the console and the -filepath command to send them to the debug.txt file for later reference.</source>
+          <target state="translated">-Pshost 매개 변수를 사용 하 여 나중에 참조할 debug.txt 파일로 보내도록-filepath 명령과 콘솔에는 결과를 표시 합니다.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>trace-command -name parameterbinding -expression {get-item -path hklm:\software\mycompany\sales | move-itemproperty -path hklm:\software\mycompany\design -name product} -pshost -filepath debug.txt</source>
+          <target state="translated">추적 명령이-이름 parameterbinding-식 {get-항목-경로 hklm:\software\mycompany\sales | 이동 itemproperty-경로 hklm:\software\mycompany\design-제품 이름}-pshost-filepath debug.txt</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The results of the trace are lengthy, but they show the values being bound to the Get-Item cmdlet and then the named values being bound to the Move-ItemProperty cmdlet.</source>
+          <target state="translated">추적 결과 길지만 있더라도 Get-item cmdlet에 바인딩되는 값 및 Move-itemproperty cmdlet에 바인딩되는 명명 된 값을 보여줍니다.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>...</source>
+          <target state="translated">...</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>BIND NAMED cmd line args [Move-ItemProperty] BIND arg [hklm:\software\mycompany\design] to parameter [Path]</source>
+          <target state="translated">명명 된 바인딩 cmd 줄 [Move-itemproperty] args 바인딩 arg [hklm:\software\mycompany\design] 매개 변수 [경로]</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>...</source>
+          <target state="translated">...</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>BIND arg [product] to parameter [Name]</source>
+          <target state="translated">매개 변수 [이름] [product] arg 바인딩합니다</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>....</source>
+          <target state="translated">....</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>BIND POSITIONAL cmd line args [Move-ItemProperty]</source>
+          <target state="translated">위치 바인딩 cmd 줄 args [Move-itemproperty]</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>...</source>
+          <target state="translated">...</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Finally, it shows that the attempt to bind the path to the Destination parameter of Move-ItemProperty failed.</source>
+          <target state="translated">마지막으로, 있다고 표시 경로 Move-itemproperty 실패의 대상 매개 변수를 바인딩할 시도 합니다.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>...</source>
+          <target state="translated">...</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>BIND PIPELINE object to parameters: [Move-ItemProperty] PIPELINE object TYPE = [Microsoft.Win32.RegistryKey] RESTORING pipeline parameter's original values Parameter [Destination] PIPELINE INPUT ValueFromPipelineByPropertyName NO COERCION Parameter [Credential] PIPELINE INPUT ValueFromPipelineByPropertyName NO COERCION</source>
+          <target state="translated">매개 변수를 바인딩할 파이프라인 개체: [Move-itemproperty] 파이프라인 개체 유형 [Microsoft.Win32.RegistryKey] = RESTORING 파이프라인 매개 변수의 원래 값을 매개 변수 [대상] 파이프라인 입력 ValueFromPipelineByPropertyName NO 강제 변환 매개 변수 [자격 증명] 파이프라인 입력 ValueFromPipelineByPropertyName NO 강제 변환</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>...</source>
+          <target state="translated">...</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>To investigate the failure, use the Get-Help cmdlet to view the attributes of the Destination parameter.</source>
+          <target state="translated">오류를 조사 하려면 대상 매개 변수 속성을 보려면 Get-help cmdlet을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The following command gets detailed information about the Destination parameter.</source>
+          <target state="translated">다음 명령은 Destination 매개 변수에 대 한 자세한 정보를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>get-help move-itemproperty -parameter destination</source>
+          <target state="translated">도움말 얻기 이동 itemproperty-대상 매개 변수</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The results show that Destination takes pipeline input only "by property name".</source>
+          <target state="translated">결과 대상 속성 이름""으로 파이프라인 입력을 수행 하는지 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>That is, the piped object must have a property named Destination.</source>
+          <target state="translated">즉, 파이프 된 개체를 대상 라는 속성이 있어야 합니다.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>-destination <ph id="ph1">&lt;string&gt;</ph> Specifies the path to the destination location.</source>
+          <target state="translated">-대상 <ph id="ph1">&lt;string&gt;</ph> 경로 대상 위치를 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Required?</source>
+          <target state="translated">필수 여부</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>true Position?</source>
+          <target state="translated">실제 위치?</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>2 Default value Accept pipeline input?</source>
+          <target state="translated">2 기본 파이프라인 입력 허용 값?</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>true (ByPropertyName) Accept wildcard characters?</source>
+          <target state="translated">true (ByPropertyName) Accept 와일드 카드 문자?</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>true</source>
+          <target state="translated">true</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>To see the properties of the object being piped to the Move-ItemProperty cmdlet, pipe it to the Get-Member cmdlet.</source>
+          <target state="translated">Move-itemproperty cmdlet으로 파이프 되는 개체의 속성을 보려면 Get-member cmdlet으로 파이프 합니다.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>The following command pipes the results of the first part of the command to the Get-Member cmdlet.</source>
+          <target state="translated">다음 명령은 결과 Get-member cmdlet으로 명령의 첫 번째 부분에 연결합니다.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>get-item -path hklm:\software\mycompany\sales | get-member</source>
+          <target state="translated">또한 get-item-path hklm:\software\mycompany\sales | get 멤버</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>The output shows that the item is a Microsoft.Win32.RegistryKey that does not have a Destination property.</source>
+          <target state="translated">출력은 항목이 대상 속성이 없는 Microsoft.Win32.RegistryKey 임을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>That explains why the command failed.</source>
+          <target state="translated">명령에 실패 한 이유를 설명 하 합니다.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>To fix the command, we must specify the destination in the Move-ItemProperty cmdlet.</source>
+          <target state="translated">명령을 해결 하려면 대상 Move-itemproperty cmdlet에서 지정 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>We can use a Get-ItemProperty command to get the path, but the name and destination must be specified in the Move-ItemProperty part of the command.</source>
+          <target state="translated">경로 얻으려면 Get-itemproperty 명령을 사용할 수 있지만 명령 Move-itemproperty 부분의 이름 및 대상 지정 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>get-item -path hklm:\software\mycompany\design | move-itemproperty -dest hklm:\software\mycompany\design -name product</source>
+          <target state="translated">또한 get-item-path hklm:\software\mycompany\design | 이동 itemproperty-dest hklm:\software\mycompany\design-제품 이름</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>To verify that the command worked, use a Get-ItemProperty command:</source>
+          <target state="translated">명령을 제대로 수행 되었는지을 확인 하려면 Get-itemproperty 명령을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>get-itemproperty hklm:\software\mycompany\sales</source>
+          <target state="translated">get itemproperty hklm:\software\mycompany\sales</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>The results show that the Product registry entry was moved to the Sales key.</source>
+          <target state="translated">결과 제품 레지스트리 항목 Sales 키로 이동 된 사실을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>PSPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\software\mycompany\sales PSParentPath : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\software\mycompany PSChildName  : sales PSDrive      : HKLM PSProvider   : Microsoft.PowerShell.Core\Registry Product      : 18</source>
+          <target state="translated">PSPath: Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\software\mycompany\sales PSParentPath: Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\software\mycompany PSChildName: 판매 PSDrive: HKLM PSProvider: Microsoft.PowerShell.Core\Registry 제품: 18</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>SEE ALSO</source>
+          <target state="translated">참고 항목</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>about_objects about_parameters about_command_syntax about_foreach</source>
+          <target state="translated">about_objects about_parameters about_command_syntax about_foreach</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

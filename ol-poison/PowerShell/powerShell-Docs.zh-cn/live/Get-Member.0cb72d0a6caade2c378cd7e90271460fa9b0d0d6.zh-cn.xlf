@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d75f782f52514fe0e45c6c2d11e6b8238bf9c8e2</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Utility\Get-Member.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a73d92e7bea2161f3cf02bb9e5590f1ef12ec38d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3b96567befc087249b7e96c7ccb6567cfa39ad38</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Get-Member</source>
+          <target state="translated">Get-Member</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Get-Member</source>
+          <target state="translated">Get-Member</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">简述</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Gets the properties and methods of objects.</source>
+          <target state="translated">获取对象的属性和方法。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">语法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept> cmdlet gets the members, the properties and methods, of objects.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Get-member<ept id="p1">**</ept> cmdlet 将获取成员、 属性和对象的方法。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To specify the object, use the <bpt id="p1">*</bpt>InputObject<ept id="p1">*</ept> parameter or pipe an object to <bpt id="p2">**</bpt>Get-Member<ept id="p2">**</ept>.</source>
+          <target state="translated">若要指定的对象，使用 <bpt id="p1">*</bpt>InputObject<ept id="p1">*</ept> 参数或通过管道传递一个对象到 <bpt id="p2">**</bpt>Get-member<ept id="p2">**</ept>。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To get information about static members, the members of the class, not of the instance, use the <bpt id="p1">*</bpt>Static<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">若要获取有关静态成员的信息，请不的该实例的类的成员使用 <bpt id="p1">*</bpt>静态<ept id="p1">*</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To get only certain types of members, such as <bpt id="p1">**</bpt>NoteProperties<ept id="p1">**</ept>, use the <bpt id="p2">*</bpt>MemberType<ept id="p2">*</ept> parameter.</source>
+          <target state="translated">若要获取特定类型的成员，如 <bpt id="p1">**</bpt>NoteProperties<ept id="p1">**</ept>, ，使用 <bpt id="p2">*</bpt>MemberType<ept id="p2">*</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">示例</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Example 1: Get the members of process objects</source>
+          <target state="translated">示例 1︰ 获取进程对象的成员</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This command displays the properties and methods of the process objects (System.ServiceProcess.ServiceController) that are generated by the Get-Service cmdlet.</source>
+          <target state="translated">此命令显示 Get-Service cmdlet 生成的进程对象 (System.ServiceProcess.ServiceController) 的属性和方法。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The command uses the pipeline operator (|) to send the output of a <bpt id="p1">**</bpt>Get-Service<ept id="p1">**</ept> command to <bpt id="p2">**</bpt>Get-Member<ept id="p2">**</ept>.</source>
+          <target state="translated">该命令使用管道运算符 (|) 将输出发送 <bpt id="p1">**</bpt>Get-service<ept id="p1">**</ept> 命令 <bpt id="p2">**</bpt>Get-member<ept id="p2">**</ept>。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Because the <bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept> part of the command does not have any parameters, it uses all of the default values.</source>
+          <target state="translated">因为 <bpt id="p1">**</bpt>Get-member<ept id="p1">**</ept> 命令的一部分不具有任何参数，它使用所有默认值。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>As such, it gets all member types, but it does not get static members and does not display intrinsic members.</source>
+          <target state="translated">因此，它获取所有成员类型，但不会获取静态成员，并且不会显示内部成员。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Example 2: Get members of service objects</source>
+          <target state="translated">示例 2︰ 获取服务对象的成员</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This example gets all of the members (properties and methods) of the service objects (System.ServiceProcess.ServiceController) retrieved by the Get-Service cmdlet, including the intrinsic members, such as PSBase and PSObject, and the get_ and set_ methods.</source>
+          <target state="translated">此示例获取由 Get-Service 检索到的服务对象 (System.ServiceProcess.ServiceController) 的所有成员（属性和方法），包括内部成员，例如 PSBase 和 PSObject，以及 get_ 和 set_ methods。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">**</bpt>Get-Service<ept id="p1">**</ept> cmdlet to get objects that represent the services on the system.</source>
+          <target state="translated">第一个命令使用 <bpt id="p1">**</bpt>Get-service<ept id="p1">**</ept> cmdlet 来获取这些对象表示在系统上的服务。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>It uses a pipeline operator (|) to pass the service objects to the <bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">它使用管道运算符 (|) 将服务对象传递到 <bpt id="p1">**</bpt>Get-member<ept id="p1">**</ept> cmdlet。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept> command uses the <bpt id="p2">*</bpt>Force<ept id="p2">*</ept> parameter to add the intrinsic members and compiler-generated members of the objects to the display.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Get-member<ept id="p1">**</ept> 命令使用 <bpt id="p2">*</bpt>强制<ept id="p2">*</ept> 参数添加到显示内部成员和编译器生成的对象的成员。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept> gets these members, but it hides them by default.</source>
+          <target state="translated"><bpt id="p1">**</bpt>获取成员<ept id="p1">**</ept> 获取这些成员，但它看不到它们的默认值。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You can use these properties and methods in the same way that you would use an adapted method of the object.</source>
+          <target state="translated">你可以以与使用对象的改写方法相同的方式使用这些属性和方法。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The second command shows how to display the value of the PSBase property of the Schedule service.</source>
+          <target state="translated">第二个命令显示如何显示 Schedule 服务的 PSBase 属性的值。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Example 3: Get extended members of service objects</source>
+          <target state="translated">示例 3︰ 获取扩展的服务对象的成员</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This command gets the methods and properties of service objects that were extended by using the Types.ps1xml file or the Add-Member cmdlet.</source>
+          <target state="translated">此命令获取使用 Types.ps1xml 文件或 Add-Member cmdlet 扩展的服务对象的方法和属性。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept> command uses the <bpt id="p2">*</bpt>View<ept id="p2">*</ept> parameter to get only the extended members of the service objects.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Get-member<ept id="p1">**</ept> 命令使用 <bpt id="p2">*</bpt>视图<ept id="p2">*</ept> 参数，以获取仅服务对象的扩展的成员。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>In this case, the extended member is the Name property, which is an alias property of the ServiceName property.</source>
+          <target state="translated">在本例中，扩展成员是 Name 属性，它是 ServiceName 属性的别名属性。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Example 4: Get script properties of event log objects</source>
+          <target state="translated">示例 4︰ 获取脚本对象的属性的事件日志</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This command gets the script properties of event log objects in the System log in Event Viewer.</source>
+          <target state="translated">此命令获取事件查看器中系统日志中的事件日志对象的脚本属性。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>MemberType<ept id="p1">*</ept> parameter to get only objects with a value of ScriptProperty for their MemberType property.</source>
+          <target state="translated">该命令使用 <bpt id="p1">*</bpt>MemberType<ept id="p1">*</ept> 参数来获取其 MemberType 属性只有值为 ScriptProperty 的对象。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The command returns the EventID property of the <bpt id="p1">**</bpt>EventLog<ept id="p1">**</ept> object.</source>
+          <target state="translated">该命令将返回的 EventID 属性 <bpt id="p1">**</bpt>EventLog<ept id="p1">**</ept> 对象。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Example 5: Get objects with a specified property</source>
+          <target state="translated">示例 5︰ 获取与指定的属性的对象</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This command gets objects that have a MachineName property from a list of cmdlets.</source>
+          <target state="translated">此命令从 cmdlet 列表中获取具有 MachineName 属性的对象。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The first command stores the names of several cmdlets in the $A variable.</source>
+          <target state="translated">第一个命令在 $A 变量中存储的多个 cmdlet 的名称。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The second command uses a <bpt id="p1">**</bpt>ForEach<ept id="p1">**</ept> statement to invoke each command, send the results to <bpt id="p2">**</bpt>Get-Member<ept id="p2">**</ept>, and limit the results from <bpt id="p3">**</bpt>Get-Member<ept id="p3">**</ept> to members that have the name MachineName.</source>
+          <target state="translated">第二个命令使用 <bpt id="p1">**</bpt>ForEach<ept id="p1">**</ept> 语句以调用每个命令将结果发送到 <bpt id="p2">**</bpt>Get-member<ept id="p2">**</ept>, ，并限制返回的结果 <bpt id="p3">**</bpt>Get-member<ept id="p3">**</ept> 具有 MachineName 的名称的成员。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The results show that only process objects (<bpt id="p1">**</bpt>System.Diagnostics.Process<ept id="p1">**</ept>) and service objects (<bpt id="p2">**</bpt>System.ServiceProcess.ServiceController<ept id="p2">**</ept>) have a MachineName property.</source>
+          <target state="translated">结果显示仅进程对象 (<bpt id="p1">**</bpt>System.Diagnostics.Process<ept id="p1">**</ept>) 和服务对象 (<bpt id="p2">**</bpt>System.ServiceProcess.ServiceController<ept id="p2">**</ept>) 具有 MachineName 属性。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Example 6: Get members for an array</source>
+          <target state="translated">示例 6︰ 获取成员的数组</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This example demonstrates how to find the properties and methods of an array of objects when you have only one object of the given type.</source>
+          <target state="translated">此示例演示当你只有特定类型的一个对象时，如何查找对象数组的属性和方法。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Because the goal of the command is to find the properties of an array, the first command uses the <bpt id="p1">*</bpt>InputObject<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">由于该命令的目标是查找数组的属性，第一个命令使用 <bpt id="p1">*</bpt>InputObject<ept id="p1">*</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>It uses the at symbol (@) to indicate an array.</source>
+          <target state="translated">它使用 at 符号 (@) 指示数组。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>In this case, the array contains only one object, the integer 1.</source>
+          <target state="translated">在本例中，数组只包含一个对象，即整数 1。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The third command uses the <bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept> cmdlet to get the properties and methods of an array of integers, and the command saves them in the $A variable.</source>
+          <target state="translated">第三个命令使用 <bpt id="p1">**</bpt>Get-member<ept id="p1">**</ept> cmdlet 来获取的属性和方法的一组整数和该命令将它们保存在 $A 变量中。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The fourth command uses the Count property of the array to find the number of objects in the $A variable.</source>
+          <target state="translated">第四个命令使用数组的 Count 属性来的 $A 变量中找到的对象数。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Example 7: Determine which object properties you can set</source>
+          <target state="translated">示例 7︰ 确定用户可以设置哪个对象属性</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This example shows how to determine which properties of an object can be changed.</source>
+          <target state="translated">此示例演示如何确定对象的哪个属性可更改。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The example uses a file, but you can use this command format to find the changeable properties of any object in Windows PowerShell.</source>
+          <target state="translated">该示例使用一个文件，但是你可以使用此命令格式查找 Windows PowerShell 中的任何对象的可更改属性。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The first command uses the Get-Item cmdlet to get a text file, and then it saves the file object in the $File variable.</source>
+          <target state="translated">第一个命令使用 Get-item cmdlet 获取一个文本文件，文件，然后它将文件对象保存在 $File 变量。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The second command gets all of the changeable properties of the file object in the $File variable and displays the names of the properties in a table.</source>
+          <target state="translated">第二个命令获取所有 file 对象的可更改属性 $File 变量中，并在表中显示属性的名称。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The third command gets the changeable properties of all objects in your Windows PowerShell session.</source>
+          <target state="translated">第三个命令获取你的 Windows PowerShell 会话中所有对象的可更改属性。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Example 8: Get members of each item in a collection</source>
+          <target state="translated">示例 8︰ 集合中获取每个项的成员</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This example shows how the <bpt id="p1">*</bpt>InputObject<ept id="p1">*</ept> parameter works in the <bpt id="p2">**</bpt>Get-Member<ept id="p2">**</ept> cmdlet.</source>
+          <target state="translated">此示例演示如何 <bpt id="p1">*</bpt>InputObject<ept id="p1">*</ept> 参数适用于 <bpt id="p2">**</bpt>Get-member<ept id="p2">**</ept> cmdlet。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>When you use the <bpt id="p1">*</bpt>InputObject<ept id="p1">*</ept> parameter to get the members of a collection, <bpt id="p2">**</bpt>Get-Member<ept id="p2">**</ept> gets the members of the collection.</source>
+          <target state="translated">当您使用 <bpt id="p1">*</bpt>InputObject<ept id="p1">*</ept> 参数，以获取集合中的成员 <bpt id="p2">**</bpt>Get-member<ept id="p2">**</ept> 获取集合中的成员。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>When you pipe a collection of objects to <bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Get-Member<ept id="p2">**</ept> gets the members of each item in the collection.</source>
+          <target state="translated">当通过管道传递到的对象的集合， <bpt id="p1">**</bpt>Get-member<ept id="p1">**</ept>, ，<bpt id="p2">**</bpt>Get-member<ept id="p2">**</ept> 获取集合中的每个项的成员。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The first command gets the services on the local computer and saves the services in the $S variable.</source>
+          <target state="translated">第一个命令获取本地计算机上的服务，并将该服务保存在 $S 变量。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The second command pipes the $S variable to the <bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">第二个命令通过管道传递到 $S 变量 <bpt id="p1">**</bpt>Get-member<ept id="p1">**</ept> cmdlet。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept> gets the types of each member of $S and the members of that type.</source>
+          <target state="translated"><bpt id="p1">**</bpt>获取成员<ept id="p1">**</ept> 获取 $S 的每个成员和该类型的成员的类型。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>In this case, it gets ServiceController objects and lists the members, such as RequiredServices and Close.</source>
+          <target state="translated">在本例中，它获取 ServiceController 对象并列出成员，例如 RequiredServices 和 Close。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The third command uses the <bpt id="p1">*</bpt>InputObject<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>Get-Member<ept id="p2">**</ept> to submit the $S variable.</source>
+          <target state="translated">第三个命令使用 <bpt id="p1">*</bpt>InputObject<ept id="p1">*</ept> 参数 <bpt id="p2">**</bpt>Get-member<ept id="p2">**</ept> 提交 $S 变量。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept> gets the type (<bpt id="p2">**</bpt>System.Object<ph id="ph1">\[\]</ph><ept id="p2">**</ept>) and the members of the collection (or array) of <bpt id="p3">**</bpt>ServiceController<ept id="p3">**</ept> objects, such as Count and Clone.</source>
+          <target state="translated"><bpt id="p1">**</bpt>获取成员<ept id="p1">**</ept> 获取的类型 (<bpt id="p2">**</bpt>System.Object<ph id="ph1">\[\]</ph><ept id="p2">**</ept>) 和集合 （或数组） 的成员 <bpt id="p3">**</bpt>ServiceController<ept id="p3">**</ept> 对象，例如计数和克隆。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">参数</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Adds the intrinsic members (PSBase, PSAdapted, PSObject, PSTypeNames) and the compiler-generated get_ and set_ methods to the display.</source>
+          <target state="translated">将内部成员（PSBase、PSAdapted、PSObject 和 PSTypeNames）和编译器生成的 get_ 和 set_ 方法添加到显示中。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept> gets these properties in all views other than Base and Adapted, but it does not display them.</source>
+          <target state="translated">默认情况下， <bpt id="p1">**</bpt>Get-member<ept id="p1">**</ept> 获取基本和改写，但它的所有视图中的这些属性不显示它们。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The following list describes the properties that are added when you use the <bpt id="p1">*</bpt>Force<ept id="p1">*</ept> parameter:</source>
+          <target state="translated">以下列表介绍使用时添加的属性 <bpt id="p1">*</bpt>强制<ept id="p1">*</ept> 参数︰</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>PSBase:  The original properties of the .NET Framework object without extension or adaptation.</source>
+          <target state="translated">PSBase︰ 不带有扩展或改写的.NET Framework 对象的原始的属性。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>These are the properties defined for the object class and listed in MSDN.</source>
+          <target state="translated">这些属性是为对象类定义的属性，并且在 MSDN 中列出。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>PSAdapted.</source>
+          <target state="translated">PSAdapted。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The properties and methods defined in the Windows PowerShell extended type system.</source>
+          <target state="translated">Windows PowerShell 扩展类型系统中定义的属性和方法。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>PSExtended.</source>
+          <target state="translated">PSExtended。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The properties and methods that were added in the Types.ps1xml files or by using the Add-Member cmdlet.</source>
+          <target state="translated">在 Types.ps1xml 文件中或通过使用 Add-Member cmdlet 添加的属性和方法。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>PSObject.</source>
+          <target state="translated">PSObject。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The adapter that converts the base object to a Windows PowerShell<bpt id="p1">**</bpt>PSObject<ept id="p1">**</ept> object.</source>
+          <target state="translated">将基对象转换为 Windows PowerShell 的适配器<bpt id="p1">**</bpt>PSObject<ept id="p1">**</ept> 对象。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>PSTypeNames.</source>
+          <target state="translated">PSTypeNames。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>A list of object types that describe the object, in order of specificity.</source>
+          <target state="translated">描述该对象的对象类型列表，以特异性排序。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>When formatting the object, Windows PowerShell searches for the types in the Format.ps1xml files in the Windows PowerShell installation directory ($pshome).</source>
+          <target state="translated">当设置对象的格式时，Windows PowerShell 将在 Windows PowerShell 安装目录中 ($pshome) 中的 Format.ps1xml 文件中搜索类型。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>It uses the formatting definition for the first type that it finds.</source>
+          <target state="translated">它使用它找到的第一个类型的格式设置定义。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-InputObject</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Specifies the object whose members are retrieved.</source>
+          <target state="translated">指定要检索其成员的对象。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Using the <bpt id="p1">*</bpt>InputObject<ept id="p1">*</ept> parameter is not the same as piping an object to <bpt id="p2">**</bpt>Get-Member<ept id="p2">**</ept>.</source>
+          <target state="translated">使用 <bpt id="p1">*</bpt>InputObject<ept id="p1">*</ept> 参数不是管道对象与相同 <bpt id="p2">**</bpt>Get-member<ept id="p2">**</ept>。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The differences are as follows:</source>
+          <target state="translated">不同之处如下：</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>When you pipe a collection of objects to <bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Get-Member<ept id="p2">**</ept> gets the members of the individual objects in the collection, such as the properties of each string in an array of strings.</source>
+          <target state="translated">当通过管道传递到的对象的集合， <bpt id="p1">**</bpt>Get-member<ept id="p1">**</ept>, ，<bpt id="p2">**</bpt>Get-member<ept id="p2">**</ept> 获取单个对象的成员在集合中，例如字符串数组中的每个字符串的属性。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>When you use <bpt id="p1">*</bpt>InputObject<ept id="p1">*</ept> to submit a collection of objects, <bpt id="p2">**</bpt>Get-Member<ept id="p2">**</ept> gets the members of the collection, such as the properties of the array in an array of strings.</source>
+          <target state="translated">当您使用 <bpt id="p1">*</bpt>InputObject<ept id="p1">*</ept> 提交对象的集合， <bpt id="p2">**</bpt>Get-member<ept id="p2">**</ept> 获取该集合，例如数组中的字符串数组的属性的成员。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>-MemberType</source>
+          <target state="translated">-MemberType</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Specifies the member type that this cmdlet gets.</source>
+          <target state="translated">指定此 cmdlet 将获取的成员类型。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The default is All.</source>
+          <target state="translated">默认值为“所有”。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">此参数的可接受的值是：</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>AliasProperty</source>
+          <target state="translated">AliasProperty</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>CodeProperty</source>
+          <target state="translated">CodeProperty</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Property</source>
+          <target state="translated">属性</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>NoteProperty</source>
+          <target state="translated">NoteProperty</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>ScriptProperty</source>
+          <target state="translated">ScriptProperty</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Properties</source>
+          <target state="translated">“属性”</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>PropertySet</source>
+          <target state="translated">PropertySet</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Method</source>
+          <target state="translated">方法</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>CodeMethod</source>
+          <target state="translated">CodeMethod</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>ScriptMethod</source>
+          <target state="translated">ScriptMethod</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Methods</source>
+          <target state="translated">方法</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>ParameterizedProperty</source>
+          <target state="translated">ParameterizedProperty</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>MemberSet</source>
+          <target state="translated">成员集</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Event</source>
+          <target state="translated">事件</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Dynamic</source>
+          <target state="translated">动态</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>All</source>
+          <target state="translated">全部</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>For information about these values, see PSMemberTypes Enumeration"https://msdn.microsoft.com/en-us/library/system.management.automation.psmembertypes(v=vs.85).aspx (https://msdn.microsoft.com/en-us/library/system.management.automation.psmembertypes(v=vs.85).aspx ) in MSDN.</source>
+          <target state="translated">有关这些值的信息，请参阅 PSMemberTypes 枚举"https://msdn.microsoft.com/en-us/library/system.management.automation.psmembertypes (v=vs.85).aspx (在 MSDN 中 https://msdn.microsoft.com/en-us/library/system.management.automation.psmembertypes (v=vs.85).aspx)。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Not all objects have every type of member.</source>
+          <target state="translated">并非所有对象都具有每种类型的成员。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>If you specify a member type that the object does not have, Windows PowerShell returns a null value.</source>
+          <target state="translated">如果指定对象所不具有的成员类型，则 Windows PowerShell 将返回 null 值。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>To get related types of members, such as all extended members, use the <bpt id="p1">*</bpt>View<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">若要获取相关的类型的成员，例如所有扩展成员，请使用 <bpt id="p1">*</bpt>视图<ept id="p1">*</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">*</bpt>MemberType<ept id="p1">*</ept> parameter with the <bpt id="p2">*</bpt>Static<ept id="p2">*</ept> or <bpt id="p3">*</bpt>View<ept id="p3">*</ept> parameters, <bpt id="p4">**</bpt>Get-Member<ept id="p4">**</ept> gets the members that belong to both sets.</source>
+          <target state="translated">如果您使用 <bpt id="p1">*</bpt>MemberType<ept id="p1">*</ept> 参数与 <bpt id="p2">*</bpt>静态<ept id="p2">*</ept> 或 <bpt id="p3">*</bpt>视图<ept id="p3">*</ept> 参数， <bpt id="p4">**</bpt>Get-member<ept id="p4">**</ept> 获取属于这两个集的成员。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Specifies the names of one or more properties or methods of the object.</source>
+          <target state="translated">指定该对象的一个或多个属性或方法的名称。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept> gets only the specified properties and methods.</source>
+          <target state="translated"><bpt id="p1">**</bpt>获取成员<ept id="p1">**</ept> 仅获取指定的属性和方法。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">*</bpt>Name<ept id="p1">*</ept> parameter with the <bpt id="p2">*</bpt>MemberType<ept id="p2">*</ept>, <bpt id="p3">*</bpt>View<ept id="p3">*</ept>, or <bpt id="p4">*</bpt>Static<ept id="p4">*</ept> parameter, <bpt id="p5">**</bpt>Get-Member<ept id="p5">**</ept> gets only the members that satisfy the criteria of all parameters.</source>
+          <target state="translated">如果您使用 <bpt id="p1">*</bpt>名称<ept id="p1">*</ept> 参数与 <bpt id="p2">*</bpt>MemberType<ept id="p2">*</ept>, ，<bpt id="p3">*</bpt>视图<ept id="p3">*</ept>, ，或 <bpt id="p4">*</bpt>静态<ept id="p4">*</ept> 参数， <bpt id="p5">**</bpt>Get-member<ept id="p5">**</ept> 获取只满足条件的所有参数的成员。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>To get a static member by name, use the <bpt id="p1">*</bpt>Static<ept id="p1">*</ept> parameter with the <bpt id="p2">*</bpt>Name<ept id="p2">*</ept> parameter.</source>
+          <target state="translated">若要按名称获取静态成员，请使用 <bpt id="p1">*</bpt>静态<ept id="p1">*</ept> 参数与 <bpt id="p2">*</bpt>名称<ept id="p2">*</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>-Static</source>
+          <target state="translated">-Static</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet gets only the static properties and methods of the object.</source>
+          <target state="translated">指示此 cmdlet 将获取静态属性和对象的方法。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Static properties and methods are defined on the class of objects, not on any particular instance of the class.</source>
+          <target state="translated">在对象的类上定义的静态属性和方法，而不是在类的任何特定实例上。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">*</bpt>Static<ept id="p1">*</ept> parameter with the <bpt id="p2">*</bpt>View<ept id="p2">*</ept> parameter, the <bpt id="p3">*</bpt>View<ept id="p3">*</ept> parameter is ignored.</source>
+          <target state="translated">如果您使用 <bpt id="p1">*</bpt>静态<ept id="p1">*</ept> 参数与 <bpt id="p2">*</bpt>视图<ept id="p2">*</ept> 参数， <bpt id="p3">*</bpt>视图<ept id="p3">*</ept> 参数将被忽略。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">*</bpt>Static<ept id="p1">*</ept> parameter with the <bpt id="p2">*</bpt>MemberType<ept id="p2">*</ept> parameter, <bpt id="p3">**</bpt>Get-Member<ept id="p3">**</ept> gets only the members that belong to both sets.</source>
+          <target state="translated">如果您使用 <bpt id="p1">*</bpt>静态<ept id="p1">*</ept> 参数与 <bpt id="p2">*</bpt>MemberType<ept id="p2">*</ept> 参数， <bpt id="p3">**</bpt>Get-member<ept id="p3">**</ept> 获取仅属于这两个集的成员。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>-View</source>
+          <target state="translated">视图</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Specifies that this cmdlet gets only particular types properties and methods.</source>
+          <target state="translated">指定此 cmdlet 将获取仅特定类型的属性和方法。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Specify one or more of the values.</source>
+          <target state="translated">指定一个或多个值。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The default is Adapted, Extended.</source>
+          <target state="translated">默认值进行了改编，扩展。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Valid values are:</source>
+          <target state="translated">有效值包括：</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Base.</source>
+          <target state="translated">基数。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Gets only the original properties and methods of the .NET Framework object (without extension or adaptation).</source>
+          <target state="translated">仅获取 .NET Framework 对象的原始属性和方法（不带有扩展或改写）。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Adapted.</source>
+          <target state="translated">改写。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Gets only the properties and methods defined in the Windows PowerShell extended type system.</source>
+          <target state="translated">仅获取 Windows PowerShell 扩展类型系统中定义的属性和方法。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Extended.</source>
+          <target state="translated">扩展。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Gets only the properties and methods that were added in the Types.ps1xml files or by using the Add-Member cmdlet.</source>
+          <target state="translated">仅获取在 Types.ps1xml 文件中或通过使用 Add-Member cmdlet 添加的属性和方法。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>All.</source>
+          <target state="translated">所有。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Gets the members in the Base, Adapted, and Extended views.</source>
+          <target state="translated">在基本、改写和扩展视图中获取成员。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>View<ept id="p1">*</ept> parameter determines the members retrieved, not just the display of those members.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>视图<ept id="p1">*</ept> 参数确定检索的成员，而不仅仅是这些成员的显示。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>To get particular member types, such as script properties, use the <bpt id="p1">*</bpt>MemberType<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">若要获取特定成员类型，例如脚本属性，请使用 <bpt id="p1">*</bpt>MemberType<ept id="p1">*</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">*</bpt>MemberType<ept id="p1">*</ept> and <bpt id="p2">*</bpt>View<ept id="p2">*</ept> parameters in the same command, <bpt id="p3">**</bpt>Get-Member<ept id="p3">**</ept> gets the members that belong to both sets.</source>
+          <target state="translated">如果您使用 <bpt id="p1">*</bpt>MemberType<ept id="p1">*</ept> 和 <bpt id="p2">*</bpt>视图<ept id="p2">*</ept> 同一命令中的参数 <bpt id="p3">**</bpt>Get-member<ept id="p3">**</ept> 获取属于这两个集的成员。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">*</bpt>Static<ept id="p1">*</ept> and <bpt id="p2">*</bpt>View<ept id="p2">*</ept> parameters in the same command, the <bpt id="p3">*</bpt>View<ept id="p3">*</ept> parameter is ignored.</source>
+          <target state="translated">如果您使用 <bpt id="p1">*</bpt>静态<ept id="p1">*</ept> 和 <bpt id="p2">*</bpt>视图<ept id="p2">*</ept> 同一命令中的参数 <bpt id="p3">*</bpt>视图<ept id="p3">*</ept> 参数将被忽略。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">此 cmdlet 支持以下常见参数:-调试-ErrorAction、-ErrorVariable、-InformationAction、-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 和-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">有关详细信息，请参阅 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">输入</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSObject</source>
+          <target state="translated">System.Management.Automation.PSObject</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>You can pipe any object to <bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept>.</source>
+          <target state="translated">您可以通过管道传递任何对象传递给 <bpt id="p1">**</bpt>Get-member<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">输出</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Microsoft.PowerShell.Commands.MemberDefinition</source>
+          <target state="translated">Microsoft.PowerShell.Commands.MemberDefinition</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept> returns an object for each property or method that its gets.</source>
+          <target state="translated"><bpt id="p1">**</bpt>获取成员<ept id="p1">**</ept> 返回每个属性或方法的对象，它获取。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>You can get information about a collection object either by using the <bpt id="p1">*</bpt>InputObject<ept id="p1">*</ept> parameter or by piping the object, preceded by a comma, to <bpt id="p2">**</bpt>Get-Member<ept id="p2">**</ept>.</source>
+          <target state="translated">您可以获取有关集合对象的信息是通过 <bpt id="p1">*</bpt>InputObject<ept id="p1">*</ept> 参数或通过管道将该对象，为前面加逗号， <bpt id="p2">**</bpt>Get-member<ept id="p2">**</ept>。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>You can use the $This automatic variable in script blocks that define the values of new properties and methods.</source>
+          <target state="translated">您可以使用 $This 自动变量中定义的新属性和方法的值的脚本块。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The $This variable refers to the instance of the object to which the properties and methods are being added.</source>
+          <target state="translated">$此变量引用的属性和方法要被添加到该对象的实例。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>For more information about the $This variable, see about_Automatic_Variables.</source>
+          <target state="translated">有关 $This 变量的详细信息，请参阅 about_Automatic_Variables。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相关的链接</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Add-Member</source>
+          <target state="translated">Add-Member</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Get-Command</source>
+          <target state="translated">Get-Command</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Get-Help</source>
+          <target state="translated">Get-Help</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Get-PSDrive</source>
+          <target state="translated">Get-PSDrive</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>about_Automatic_Variables</source>
+          <target state="translated">about_Automatic_Variables</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>about_Properties</source>
+          <target state="translated">about_Properties</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>about_Methods</source>
+          <target state="translated">about_Methods</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>about_Objects</source>
+          <target state="translated">about_Objects</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
