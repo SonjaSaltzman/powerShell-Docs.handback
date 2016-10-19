@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6f7aecd6915e12b10b07462b03d3f788901f0e3e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Management\Set-Service.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ffbe9e7fe92035524084e5eae7ab72704464fbfc</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e913e2577526ddcecba473929cababe0d9e9a33d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Set-Service</source>
+          <target state="translated">Set-Service</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Set-Service</source>
+          <target state="translated">Set-Service</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Starts, stops, and suspends a service, and changes its properties.</source>
+          <target state="translated">サービスを開始、停止、および中断し、そのプロパティを変更します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">構文</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Name (Default)</source>
+          <target state="translated">名前 (既定値)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>InputObject</source>
+          <target state="translated">InputObject</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">説明</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The Set-Service cmdlet changes the properties of a local or remote service, including the status, description, display name, and start mode.</source>
+          <target state="translated">Set-Service コマンドレットは、状態、説明、表示名、開始モードなど、ローカル サービスまたはリモート サービスのプロパティを変更します。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can use this cmdlet to start, stop, or suspend (pause) a service.</source>
+          <target state="translated">このコマンドレットを使用すると、サービスを開始、停止、または中断 (一時停止) できます。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To identify the service, enter its service name or submit a service object, or pipe a service name or service object to Set-Service.</source>
+          <target state="translated">サービスを識別するには、サービス名の入力、サービス オブジェクトの送信、あるいは Set-Service に対するサービス名またはサービス オブジェクトのパイプ処理を行います。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This command changes the display name of the lanmanworkstation service to "LanMan Workstation".</source>
+          <target state="translated">このコマンドを実行すると、lanmanworkstation サービスの表示名が "LanMan Workstation" に変更されます。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>(The default is "Workstation".)</source>
+          <target state="translated">既定の表示名は "Workstation" です。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>These commands get the startup type of the Performance Logs and Alerts (SysmonLog) service, set the start mode to automatic, and then display the result of the change.</source>
+          <target state="translated">これらのコマンドを実行すると、Performance Logs and Alerts (SysmonLog) サービスのスタートアップの種類が取得され、開始モードが [自動] に設定され、変更の結果が表示されます。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>These commands use the Get-WmiObject cmdlet to get the Win32_Service object for the service, because the ServiceController object that Get-Service returns does not include the start mode.</source>
+          <target state="translated">これらのコマンドは、Get-WmiObject コマンドレットを使用してサービスの Win32_Service オブジェクトを取得します。これは、Get-Service が返す ServiceController オブジェクトに開始モードが含まれていないためです。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The first command uses the Get-WmiObject cmdlet to get the Windows Management Instrumentation (WMI) object that represents the SysmonLog service.</source>
+          <target state="translated">最初のコマンドでは、Get-WmiObject コマンドレットを使用して SysmonLog サービスを表す Windows Management Instrumentation (WMI) オブジェクトを取得します。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The default output of this command displays the start mode of the service.</source>
+          <target state="translated">このコマンドの既定の出力では、サービスの開始モードが表示されます。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The second command uses Set-Service to change the start mode to automatic.</source>
+          <target state="translated">2 番目のコマンドでは、Set-Service を使用して、開始モードを [自動] に変更します。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Then, the first command is repeated to display the change.</source>
+          <target state="translated">次に、最初のコマンドを繰り返して変更内容を表示しています。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The final command displays the start mode of all services on the computer.</source>
+          <target state="translated">最後のコマンドでは、コンピューター上のすべてのサービスの開始モードが表示されます。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>These commands change the description of the Task Scheduler service on the S1 remote computer and then display the result.</source>
+          <target state="translated">これらのコマンドを実行すると、S1 リモート コンピューター上の Task Scheduler サービスの説明が変更され、結果が表示されます。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>These commands use the Get-WmiObject cmdlet to get the Win32_Service object for the service, because the ServiceController object that Get-Service returns does not include the service description.</source>
+          <target state="translated">これらのコマンドは、Get-WmiObject コマンドレットを使用してサービスの Win32_Service オブジェクトを取得します。これは、Get-Service が返す ServiceController オブジェクトにサービスの説明が含まれていないためです。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The first command  uses a Set-Service command to change the description.</source>
+          <target state="translated">最初のコマンドでは、Set-Service コマンドを使用して説明を変更しています。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>It identifies the service by using the service name of the service, "Schedule".</source>
+          <target state="translated">サービスのサービス名 Schedule を使用してサービスを指定しています。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The second command uses the Get-WmiObject cmdlet to get an instance of the WMI Win32_Service that represents the Task Scheduler service.</source>
+          <target state="translated">2 番目のコマンドでは、Get-WmiObject コマンドレットを使用して、Task Scheduler サービスを表す WMI Win32_Service のインスタンスを取得しています。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The first element in the command gets all instances of the Win32_service class.</source>
+          <target state="translated">コマンドの最初の要素が Win32_service クラスのすべてのインスタンスを取得します。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The pipeline operator (|) passes the result to the Where-Object cmdlet, which selects instances with a value of "Schedule" in the Name property.</source>
+          <target state="translated">パイプライン演算子 (|) により、結果が Where-Object コマンドレットに渡され、Name プロパティの値が Schedule となっているインスタンスが選択されます。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Another pipeline operator sends the result to the Format-List cmdlet, which formats the output as a list with only the Name and Description properties.</source>
+          <target state="translated">もう 1 つのパイプライン演算子により結果が Format-List コマンドレットに渡され、Name プロパティと Description プロパティだけのリストとして出力が書式設定されます。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This command starts the WinRM service on the Server02 computer.</source>
+          <target state="translated">このコマンドを実行すると、Server02 コンピューターで WinRM サービスが開始されます。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The command uses the Status parameter to specify the desired status ("running") and the PassThru parameter to direct Set-Service to return an object that represents the WinRM service.</source>
+          <target state="translated">このコマンドは、Status パラメーターを使用して目的の状態 (running) を指定し、PassThru パラメーターを使用して WinRM サービスを表すオブジェクトを返すように Set-Service に指示します。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This command suspends the Schedule service on the S1 and S2 remote computers.</source>
+          <target state="translated">このコマンドは、S1 および S2 リモート コンピューターの Schedule サービスを中断します。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>It uses the Get-Service cmdlet to get the service.</source>
+          <target state="translated">Get-Service コマンドレットを使用してサービスを取得します。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A pipeline operator (|) sends the service to the Set-Service cmdlet, which changes its status to "Paused".</source>
+          <target state="translated">サービスはパイプライン演算子 (|) によって Set-Service コマンドレットに渡され、ステータスが "Paused" に変更されます。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 6 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 6 --------------------------</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>These commands stop the Schedule service on the local computer.</source>
+          <target state="translated">これらのコマンドを実行すると、ローカル コンピューターの Schedule サービスが停止されます。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The first command uses the Get-Service cmdlet to get the Schedule service.</source>
+          <target state="translated">最初のコマンドは、Get-Service コマンドレットを使用して Schedule サービスを取得します。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The command saves the service in the $s variable.</source>
+          <target state="translated">このコマンドは、サービスを $s 変数に保存します。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The second command uses the Set-Service cmdlet to change the status of the Schedule service to "Stopped".</source>
+          <target state="translated">2 番目のコマンドは、Set-Service コマンドレットを使用して、Schedule サービスの状態を "Stopped" に変更します。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>It uses the InputObject parameter to submit the service stored in the $s variable, and it uses the Status parameter to specify the desired status.</source>
+          <target state="translated">このコマンドは InputObject パラメーターを使用して $s 変数に保存されているサービスを送信し、Status パラメーターを使用して目的の状態を指定します。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">パラメータ</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>-ComputerName</source>
+          <target state="translated">-ComputerName</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Specifies one or more computers.</source>
+          <target state="translated">1 台以上のコンピューターを指定します。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The default is the local computer.</source>
+          <target state="translated">既定はローカル コンピュータです。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Type the NetBIOS name, an IP address, or a fully qualified domain name of a remote computer.</source>
+          <target state="translated">リモート コンピューターの NetBIOS 名、IP アドレス、または完全修飾ドメイン名を入力します。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To specify the local computer, type the computer name, a dot (.), or "localhost".</source>
+          <target state="translated">ローカル コンピューターを指定するには、コンピューター名、ドット (.)、または「localhost」を入力します。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This parameter does not rely on Windows PowerShell remoting.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell リモート処理に依存しません。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>You can use the ComputerName parameter of Set-Service even if your computer is not configured to run remote commands.</source>
+          <target state="translated">コンピューターがリモート コマンドを実行するように構成されていない場合でも、Set-Service の ComputerName パラメーターを使用できます。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>-Description</source>
+          <target state="translated">-Description</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Specifies a new description for the service.</source>
+          <target state="translated">サービスの新しい説明を指定します。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The service description appears in Services in Computer Management.</source>
+          <target state="translated">サービスの説明は、[コンピューターの管理] の [サービス] に表示されます。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Description is not a property of the ServiceController object that Get-Service gets.</source>
+          <target state="translated">Description は Get-Service が取得する ServiceController オブジェクトのプロパティではありません。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To see the service description, use Get-WmiObject to get a Win32_Service object that represents the service.</source>
+          <target state="translated">サービスの説明を表示するには、Get-WmiObject を使用してサービスを表す Win32_Service オブジェクトを取得します。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>-DisplayName</source>
+          <target state="translated">-DisplayName</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Specifies a new display name for the service.</source>
+          <target state="translated">サービスの新しい表示名を指定します。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-Inputobject</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Specifies a ServiceController object that represents the service to be changed.</source>
+          <target state="translated">変更するサービスを表す ServiceController オブジェクトを指定します。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the object, or type a command or expression that gets the object, such as a Get-Service command.</source>
+          <target state="translated">オブジェクトを格納する変数を入力するか、Get-Service コマンドなど、オブジェクトを取得するコマンドまたは式を入力します。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>You can also pipe a service object to Set-Service.</source>
+          <target state="translated">パイプを使用してオブジェクトを Set-Service に渡すこともできます。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Specifies the service name of the service to be changed.</source>
+          <target state="translated">変更するサービスのサービス名を指定します。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Wildcards are not permitted.</source>
+          <target state="translated">ワイルドカードは使用できません。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>You can also pipe a service name to Set-Service.</source>
+          <target state="translated">パイプを使用してサービス名を Set-Service に渡すこともできます。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>-PassThru</source>
+          <target state="translated">-PassThru</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Returns objects that represent the services that were changed.</source>
+          <target state="translated">変更されたサービスを表すオブジェクトを返します。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>By default, this cmdlet does not generate any output.</source>
+          <target state="translated">既定では、このコマンドレットによる出力はありません。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>-StartupType</source>
+          <target state="translated">-StartupType</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Changes the start mode of the service.</source>
+          <target state="translated">サービスの開始モードを変更します。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Valid values for StartupType are:</source>
+          <target state="translated">StartupType の有効な値は以下のとおりです。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Automatic: Start when the system starts.</source>
+          <target state="translated">自動: は、システムの起動時に開始します。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Manual: Starts only when started by a user or program.</source>
+          <target state="translated">[手動]: が開始されるは、ユーザーまたはプログラムによって開始時のみです。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Disabled: Cannot be started.</source>
+          <target state="translated">無効にする: を開始できません。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>-Status</source>
+          <target state="translated">-状態</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Starts, stops, or suspends (pauses) the services.</source>
+          <target state="translated">サービスを開始、停止、または中断 (一時停止) します。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Valid values are:</source>
+          <target state="translated">有効な値は、</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Running: Starts the service.</source>
+          <target state="translated">実行: は、サービスを開始します。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Stopped: Stops the service.</source>
+          <target state="translated">停止: サービスを停止します。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Paused: Suspends the service.</source>
+          <target state="translated">一時停止: サービスを中断します。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">コマンドレットを実行する前に、ユーザーに確認を求めます。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">コマンドレットを実行するとどのような結果になるかを表示します。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">コマンドレットは実行されません。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">このコマンドレットは、共通のパラメーターをサポートしています:-デバッグ、-erroraction、-errorvariable、- InformationAction-InformationVariable、- OutVariable、-OutBuffer、- PipelineVariable、- Verbose、および - WarningVariable です。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">詳細については、about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">入力</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>System.ServiceProcess.ServiceController, System.String</source>
+          <target state="translated">System.ServiceProcess.ServiceController、System.String</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>You can pipe a service object or a string that contains a service name to Set-Service.</source>
+          <target state="translated">パイプを使用して、サービス名が含まれているサービス オブジェクトまたは文字列を Set-Service に渡すことができます。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">出力</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>System.ServiceProcess.ServiceController</source>
+          <target state="translated">System.ServiceProcess.ServiceController</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>This cmdlet does not return any objects.</source>
+          <target state="translated">このコマンドレットはオブジェクトを返しません。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ノート</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>To use Set-Service on Windows Vista and later versions of Windows, start Windows PowerShell with the "Run as administrator" option.</source>
+          <target state="translated">Windows Vista およびそれ以降のバージョンの Windows で Set-service を使用するには、[管理者として実行] オプションを使用して Windows PowerShell を起動します。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Set-Service can control services only when the current user has permission to do so.</source>
+          <target state="translated">サービス アカウントを設定は、現在のユーザーにこれを行うアクセス許可がある場合にのみサービスを制御できます。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>If a command does not work correctly, you might not have the required permissions.</source>
+          <target state="translated">コマンドが正常に機能しない場合は、必要なアクセス許可が与えられていない可能性があります。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>To find the service names and display names of the services on your system, type "get-service".</source>
+          <target state="translated">システム上のサービスのサービス名と表示名を参照するには、「get-service」と入力します。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The service names appear in the Name column and the display names appear in the DisplayName column.</source>
+          <target state="translated">サービス名は [Name] 欄に表示され、表示名は [DisplayName] 欄に表示されます。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">関連リンク</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Get-Service</source>
+          <target state="translated">Get-Service</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>New-Service</source>
+          <target state="translated">New-Service</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Restart-Service</source>
+          <target state="translated">Restart-Service</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Resume-Service</source>
+          <target state="translated">Resume-Service</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Start-Service</source>
+          <target state="translated">Start-Service</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Stop-Service</source>
+          <target state="translated">Stop-Service</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Suspend-Service</source>
+          <target state="translated">Suspend-Service</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3a09a7af9f61918c51e094905ce97d9607ec64a1</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Core\New-PSSessionConfigurationFile.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bc56cdd7e5515706823933f1992adadeddf5ff34</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">57937080425164c1bf4b04879b5621ae8ad53461</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">cmdlet PowerShell</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>New-PSSessionConfigurationFile</source>
+          <target state="translated">New-PSSessionConfigurationFile</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>New-PSSessionConfigurationFile</source>
+          <target state="translated">New-PSSessionConfigurationFile</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">RIEPILOGO</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Creates a file that defines a session configuration.</source>
+          <target state="translated">Crea un file che definisce una configurazione di sessione.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SINTASSI</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">DESCRIZIONE</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-PSSessionConfigurationFile<ept id="p1">**</ept> cmdlet creates a file of settings that define a session configuration and the environment of sessions that are created by using the session configuration.</source>
+          <target state="translated">Il <bpt id="p1">**</bpt>New-PSSessionConfigurationFile<ept id="p1">**</ept> cmdlet crea un file di impostazioni che definiscono una configurazione di sessione e l'ambiente delle sessioni che vengono creati tramite la configurazione di sessione.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To use the file in a session configuration, use the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameters of the Register-PSSessionConfiguration or Set-PSSessionConfiguration cmdlets.</source>
+          <target state="translated">Per utilizzare il file in una configurazione di sessione, utilizzare il <bpt id="p1">**</bpt>percorso<ept id="p1">**</ept> parametri dei cmdlet Register-PSSessionConfiguration o Set-PSSessionConfiguration.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The session configuration file that <bpt id="p1">**</bpt>New-PSSessionConfigurationFile<ept id="p1">**</ept> creates is a human-readable text file that contains a hash table of the session configuration properties and values.</source>
+          <target state="translated">File di configurazione di sessione <bpt id="p1">**</bpt>New-PSSessionConfigurationFile<ept id="p1">**</ept> Crea un file di testo leggibile che contiene una tabella hash di valori e le proprietà di configurazione di sessione.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The file has a <bpt id="p1">**</bpt>.pssc<ept id="p1">**</ept> file name extension.</source>
+          <target state="translated">Il file ha un <bpt id="p1">**</bpt>pssc<ept id="p1">**</ept> estensione del nome file.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>All parameters of <bpt id="p1">**</bpt>New-PSSessionConfigurationFile<ept id="p1">**</ept> are optional, except for the <bpt id="p2">**</bpt>Path<ept id="p2">**</ept> parameter.</source>
+          <target state="translated">Tutti i parametri di <bpt id="p1">**</bpt>New-PSSessionConfigurationFile<ept id="p1">**</ept> sono facoltativi, ad eccezione di <bpt id="p2">**</bpt>percorso<ept id="p2">**</ept> parametro.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If you omit a parameter, the corresponding key in the session configuration file is commented-out, except where noted in the parameter description.</source>
+          <target state="translated">Se si omette un parametro, la chiave corrispondente nel file di configurazione della sessione viene impostata come commento, salvo dove diversamente indicato nella descrizione del parametro.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A "session configuration" also known as an "endpoint" is a collection of settings on the local computer that define the environment for Windows PowerShell sessions (PSSessions) that connect to (terminate at) the computer.</source>
+          <target state="translated">Una configurazione di"sessione" noto anche come "endpoint" è una raccolta di impostazioni che definiscono l'ambiente per le sessioni di Windows PowerShell (Pssession) che si connettono per (terminano) nel computer locale nel computer.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>All PSSessions use a session configuration.</source>
+          <target state="translated">Tutte le sessioni di PowerShell usano una configurazione di sessione.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To specify a particular session configuration, use the <bpt id="p1">**</bpt>ConfigurationName<ept id="p1">**</ept> parameter of cmdlets that create a session, such as the New-PSSession cmdlet.</source>
+          <target state="translated">Per specificare una configurazione di sessione specifico, utilizzare il <bpt id="p1">**</bpt>ConfigurationName<ept id="p1">**</ept> parametro di cmdlet che creano una sessione, ad esempio il cmdlet New-PSSession.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A session configuration file makes it easy to define a session configuration without complex scripts or code assemblies.</source>
+          <target state="translated">Un file di configurazione di sessione consente di definire una configurazione di sessione senza script complessi o gli assembly di codice.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The settings in the file are used in addition to the optional startup script and any assemblies in the session configuration.</source>
+          <target state="translated">Le impostazioni nel file vengono usate in aggiunta allo script di avvio facoltativo e a eventuali assembly nella configurazione di sessione.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For more information about session configurations and session configuration files, see about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152) and about_Session_Configuration_Files (http://go.microsoft.com/fwlink/?LinkID=236023).</source>
+          <target state="translated">Per ulteriori informazioni sulle configurazioni di sessione e i file di configurazione di sessione, vedere about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152) e about_Session_Configuration_Files (http://go.microsoft.com/fwlink/?LinkID=236023).</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This cmdlet is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Questo cmdlet è stato introdotto in Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">ESEMPI</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Example 1: Designing a specialized session</source>
+          <target state="translated">Esempio 1: Progettazione di una sessione specializzata</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The following command creates a session configuration file for IT technical sessions on a cloud-based document management server.</source>
+          <target state="translated">Il comando seguente crea un file di configurazione della sessione per sessioni tecniche IT in un server di gestione dei documenti basato sul cloud.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You can use the resulting file to create a customized session configuration on the server.</source>
+          <target state="translated">È possibile usare il file risultante per creare una configurazione di sessione personalizzata sul server.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The ACLs on the session configuration determine who can use the session configuration to create a session on the server.</source>
+          <target state="translated">Gli ACL (elenchi di controllo di accesso) nella configurazione di sessione determinano gli utenti autorizzati a usare la configurazione di sessione per creare una sessione nel server.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Customized sessions that include the cmdlets, functions and scripts that technical users need make it easier for those users to write scripts that automate common tasks.</source>
+          <target state="translated">Le sessioni personalizzate che includono cmdlet, funzioni e script sono necessarie agli utenti tecnici per semplificare la scrittura di script per l'automazione di attività comuni.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Example 2: Restricting Language in a Session</source>
+          <target state="translated">Esempio 2: Limitazione del linguaggio in una sessione</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The commands in this example compare a no-language session to a restricted-language session.</source>
+          <target state="translated">I comandi illustrati in questo esempio confrontano una sessione senza elementi del linguaggio e una sessione con restrizioni di linguaggio.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The example shows the effect of using the <bpt id="p1">**</bpt>LanguageMode<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>New-PSSessionConfigurationFile<ept id="p2">**</ept> to limit the types of commands and statements that users can run in a session that uses a custom session configuration.</source>
+          <target state="translated">Nell'esempio viene illustrato l'effetto dell'uso di <bpt id="p1">**</bpt>LanguageMode<ept id="p1">**</ept> parametro <bpt id="p2">**</bpt>New-PSSessionConfigurationFile<ept id="p2">**</ept> per limitare i tipi di comandi e istruzioni che gli utenti possono eseguire in una sessione che utilizza una configurazione di sessione personalizzata.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To run the commands in this example, start Windows PowerShell with the "Run as administrator" option.</source>
+          <target state="translated">Per eseguire i comandi in questo esempio, avviare Windows PowerShell con l'opzione "Esegui come amministratore".</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This option is required to run the Register-PSSessionConfiguration cmdlet.</source>
+          <target state="translated">Questa opzione è necessaria per eseguire il cmdlet Register-PSSessionConfiguration.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Example 3: Changing a Session Configuration File</source>
+          <target state="translated">Esempio 3: Modifica un File di configurazione di sessione</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This example shows how to change the session configuration file that is used in a session configuration.</source>
+          <target state="translated">Questo esempio illustra come sostituire il file di configurazione della sessione usato in una configurazione di sessione.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>In this scenario, the administrator wants to add the PSScheduledJob module to sessions created with the ITTasks session configuration.</source>
+          <target state="translated">In questo scenario, l'amministratore vuole aggiungere il modulo PSScheduledJob alle sessioni create con la configurazione di sessione ITTasks.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Previously, these sessions had only the core modules and an internal "ITTasks" module.</source>
+          <target state="translated">In precedenza, queste sessioni contenevano solo i moduli principali e un modulo "ITTasks" interno.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Example 4: Editing a Session Configuration File</source>
+          <target state="translated">Esempio 4: Modifica di un File di configurazione di sessione</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This example shows how to change a session configuration by editing the active session configuration copy of the configuration file.</source>
+          <target state="translated">Questo esempio illustra come modificare una configurazione di sessione modificando la copia della configurazione di sessione attiva del file di configurazione.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Example 5: Sample Configuration File</source>
+          <target state="translated">Esempio 5: File di configurazione di esempio</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This example displays a <bpt id="p1">**</bpt>New-PSSessionConfigurationFile<ept id="p1">**</ept> command that uses all of the cmdlet parameters.</source>
+          <target state="translated">Questo esempio viene visualizzato un <bpt id="p1">**</bpt>New-PSSessionConfigurationFile<ept id="p1">**</ept> comando che utilizza tutti i parametri del cmdlet.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>It is included to show the correct input format for each parameter.</source>
+          <target state="translated">È incluso per mostrare il formato di input corretto per ogni parametro.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The resulting SampleFile.pssc is displayed in the output.</source>
+          <target state="translated">Il file SampleFile.pssc generato è visualizzato nell'output.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>1:</source>
+          <target state="translated">1:</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARAMETRI</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-AliasDefinitions</source>
+          <target state="translated">-AliasDefinitions</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Adds the specified aliases to sessions that use the session configuration.</source>
+          <target state="translated">Aggiunge gli alias specificati alle sessioni che usano la configurazione di sessione.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Enter a hash table with the following keys:</source>
+          <target state="translated">Immettere una tabella hash con le chiavi seguenti:</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Name: Name of the alias.</source>
+          <target state="translated">Nome: Nome dell'alias.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This key is required.</source>
+          <target state="translated">Questa chiave è obbligatoria.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Value: The command that the alias represents.</source>
+          <target state="translated">Valore: Il comando che rappresenta l'alias.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This key is required.</source>
+          <target state="translated">Questa chiave è obbligatoria.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Description: A text string that describes the alias.</source>
+          <target state="translated">Descrizione: Stringa di testo che descrive l'alias.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This key is optional.</source>
+          <target state="translated">Questa chiave è facoltativa.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Options: Alias options.</source>
+          <target state="translated">Opzioni: Opzioni di Alias.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>This key is optional.</source>
+          <target state="translated">Questa chiave è facoltativa.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">**</bpt>None<ept id="p1">**</ept>.</source>
+          <target state="translated">Il valore predefinito è <bpt id="p1">**</bpt>Nessuno<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Valid values are <bpt id="p1">**</bpt>None<ept id="p1">**</ept>, <bpt id="p2">**</bpt>ReadOnly<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Constant<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Private<ept id="p4">**</ept>, or <bpt id="p5">**</bpt>AllScope<ept id="p5">**</ept>.</source>
+          <target state="translated">I valori validi sono <bpt id="p1">**</bpt>Nessuno<ept id="p1">**</ept>, <bpt id="p2">**</bpt>ReadOnly<ept id="p2">**</ept>, <bpt id="p3">**</bpt>costante<ept id="p3">**</ept>, <bpt id="p4">**</bpt>privato<ept id="p4">**</ept>, o <bpt id="p5">**</bpt>AllScope<ept id="p5">**</ept>.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">Ad esempio:</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>-AssembliesToLoad</source>
+          <target state="translated">-AssembliesToLoad</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Specifies the assemblies to load into the sessions that use the session configuration.</source>
+          <target state="translated">Specifica gli assembly da caricare nelle sessioni che usano la configurazione di sessione.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>-Author</source>
+          <target state="translated">: Autore</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Identifies the author of the session configuration or the configuration file.</source>
+          <target state="translated">Identifica l'autore della configurazione di sessione o del file di configurazione.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The default is the current user.</source>
+          <target state="translated">Il valore predefinito è l'utente corrente.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The value of this parameter is visible in the session configuration file, but it is not a property of the session configuration object.</source>
+          <target state="translated">Il valore di questo parametro è visibile nel file di configurazione della sessione ma non è una proprietà dell'oggetto di configurazione della sessione.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>-CompanyName</source>
+          <target state="translated">-CompanyName</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Identifies the company that created the session configuration or the configuration file.</source>
+          <target state="translated">Identifica la società che ha creato la configurazione di sessione o il file di configurazione.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The default value is "<bpt id="p1">**</bpt>Unknown<ept id="p1">**</ept>".</source>
+          <target state="translated">Il valore predefinito è "<bpt id="p1">**</bpt>sconosciuto<ept id="p1">**</ept>".</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The value of this parameter is visible in the session configuration file, but it is not a property of the session configuration object.</source>
+          <target state="translated">Il valore di questo parametro è visibile nel file di configurazione della sessione ma non è una proprietà dell'oggetto di configurazione della sessione.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>-Copyright</source>
+          <target state="translated">-Copyright</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Adds a copyright to the session configuration file.</source>
+          <target state="translated">Aggiunge informazioni sul copyright al file di configurazione della sessione.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The value of this parameter is visible in the session configuration file, but it is not a property of the session configuration object.</source>
+          <target state="translated">Il valore di questo parametro è visibile nel file di configurazione della sessione ma non è una proprietà dell'oggetto di configurazione della sessione.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, <bpt id="p1">**</bpt>New-PSSessionConfigurationFile<ept id="p1">**</ept> generates a copyright statement by using the value of the <bpt id="p2">**</bpt>Author<ept id="p2">**</ept> parameter.</source>
+          <target state="translated">Se si omette questo parametro, <bpt id="p1">**</bpt>New-PSSessionConfigurationFile<ept id="p1">**</ept> Genera informazioni di copyright usando il valore di <bpt id="p2">**</bpt>autore<ept id="p2">**</ept> parametro.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-Description</source>
+          <target state="translated">-Description</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Describes the session configuration or the session configuration file.</source>
+          <target state="translated">Descrive la configurazione di sessione o il file di configurazione della sessione.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The value of this parameter is visible in the session configuration file, but it is not a property of the session configuration object.</source>
+          <target state="translated">Il valore di questo parametro è visibile nel file di configurazione della sessione ma non è una proprietà dell'oggetto di configurazione della sessione.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>-EnvironmentVariables</source>
+          <target state="translated">-EnvironmentVariables</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Adds environment variables to the session.</source>
+          <target state="translated">Aggiunge le variabili di ambiente alla sessione.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Enter a hash table in which the keys are the environment variable names and the values are the environment variable values.</source>
+          <target state="translated">Immettere una tabella hash in cui le chiavi sono i nomi delle variabili di ambiente e i valori sono i valori delle variabili di ambiente.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">Ad esempio:</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>-ExecutionPolicy</source>
+          <target state="translated">-ExecutionPolicy</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Specifies the execution policy of sessions that use the session configuration.</source>
+          <target state="translated">Specifica i criteri di esecuzione delle sessioni che usano la configurazione di sessione.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, the value of the <bpt id="p1">**</bpt>ExecutionPolicy<ept id="p1">**</ept> key in the session configuration file is "Restricted".</source>
+          <target state="translated">Se si omette questo parametro, il valore di <bpt id="p1">**</bpt>ExecutionPolicy<ept id="p1">**</ept> chiave nel file di configurazione della sessione è "Restricted".</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>For information about execution policies in Windows PowerShell, see about_Execution_Policies (http://go.microsoft.com/fwlink/?LinkID=135170).</source>
+          <target state="translated">Per informazioni sui criteri di esecuzione in Windows PowerShell, vedere about_Execution_Policies (http://go.microsoft.com/fwlink/?LinkID=135170).</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>-FormatsToProcess</source>
+          <target state="translated">-FormatsToProcess</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Specifies the formatting files (.ps1xml) that run in sessions that use the session configuration.</source>
+          <target state="translated">Specifica i file di formattazione, con estensione ps1xml, che vengono eseguiti in sessioni che usano la configurazione di sessione.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The value of this parameter must be a full or absolute path to the formatting files.</source>
+          <target state="translated">Il valore di questo parametro deve essere un percorso completo o assoluto ai file di formattazione.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>-FunctionDefinitions</source>
+          <target state="translated">-FunctionDefinitions</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Adds the specified functions to sessions that use the session configuration.</source>
+          <target state="translated">Aggiunge le funzioni specificate alle sessioni che usano la configurazione di sessione.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Enter a hash table with the following keys:</source>
+          <target state="translated">Immettere una tabella hash con le chiavi seguenti:</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Name: Name of the function.</source>
+          <target state="translated">Nome: Nome della funzione.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>This key is required.</source>
+          <target state="translated">Questa chiave è obbligatoria.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>ScriptBlock: Function body.</source>
+          <target state="translated">ScriptBlock: Corpo della funzione.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Enter a script block.</source>
+          <target state="translated">Immettere un blocco di script.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>This key is required.</source>
+          <target state="translated">Questa chiave è obbligatoria.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Options: Function options.</source>
+          <target state="translated">: Funzione Opzioni.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>This key is optional.</source>
+          <target state="translated">Questa chiave è facoltativa.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The default value is None.</source>
+          <target state="translated">Il valore predefinito è None.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Valid values are <bpt id="p1">**</bpt>None<ept id="p1">**</ept>, <bpt id="p2">**</bpt>ReadOnly<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Constant<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Private<ept id="p4">**</ept>, or <bpt id="p5">**</bpt>AllScope<ept id="p5">**</ept>.</source>
+          <target state="translated">I valori validi sono <bpt id="p1">**</bpt>Nessuno<ept id="p1">**</ept>, <bpt id="p2">**</bpt>ReadOnly<ept id="p2">**</ept>, <bpt id="p3">**</bpt>costante<ept id="p3">**</ept>, <bpt id="p4">**</bpt>privato<ept id="p4">**</ept>, o <bpt id="p5">**</bpt>AllScope<ept id="p5">**</ept>.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">Ad esempio:</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>-Guid</source>
+          <target state="translated">-Guid</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Specifies a unique identifier for the session configuration file.</source>
+          <target state="translated">Specifica un identificatore univoco per il file di configurazione della sessione.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, <bpt id="p1">**</bpt>New-PSSessionConfigurationFile<ept id="p1">**</ept> generates a GUID for the file.</source>
+          <target state="translated">Se si omette questo parametro, <bpt id="p1">**</bpt>New-PSSessionConfigurationFile<ept id="p1">**</ept> Genera un GUID per il file.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>To create a new GUID in Windows PowerShell, type "<ph id="ph1">`\[guid\]::NewGuid()`</ph>".</source>
+          <target state="translated">Per creare un nuovo GUID in Windows PowerShell, digitare "<ph id="ph1">`\[guid\]::NewGuid()`</ph>".</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>-LanguageMode</source>
+          <target state="translated">-LanguageMode</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Determines which elements of the Windows PowerShell language are permitted in sessions that use this session configuration.</source>
+          <target state="translated">Determina quali sono gli elementi del linguaggio di Windows PowerShell consentiti nelle sessioni che usano questa configurazione di sessione.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>You can use this parameter to restrict the commands that particular users can run on the computer.</source>
+          <target state="translated">È possibile usare questo parametro per limitare i comandi che determinati utenti possono eseguire nel computer.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Valid values are:</source>
+          <target state="translated">I valori validi sonoi seguenti:</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>FullLanguage: All language elements are permitted.</source>
+          <target state="translated">FullLanguage: Tutti gli elementi del linguaggio sono consentiti.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>ConstrainedLanguage: Commands that contain scripts to be evaluated are not allowed.</source>
+          <target state="translated">ConstrainedLanguage: I comandi che contengono gli script da valutare non sono consentiti.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The ConstrainedLanguage mode restricts user access to Microsoft .NET Framework types, objects, or methods.</source>
+          <target state="translated">La modalità ConstrainedLanguage limita l'accesso degli utenti a tipi, oggetti o metodi di Microsoft .NET Framework.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>NoLanguage: Users may run cmdlets and functions, but are not permitted to use any language elements, such as script blocks, variables, or operators.</source>
+          <target state="translated">NoLanguage: Gli utenti possono eseguire cmdlet e funzioni, ma non sono autorizzati a utilizzare qualsiasi elemento di linguaggio, ad esempio blocchi di script, variabili o operatori.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>RestrictedLanguage: Users may run cmdlets and functions, but are not permitted to use script blocks or variables except for the following permitted variables: $PSCulture, $PSUICulture, $True, $False, and  $Null.</source>
+          <target state="translated">RestrictedLanguage: Gli utenti possono eseguire cmdlet e funzioni, ma non sono autorizzati a utilizzare blocchi di script o variabili tranne le seguenti variabili consentite: $PSCulture, $PSUICulture, $True, $False e $Null.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Users may use only the basic comparison operators (-eq, -gt, -lt).</source>
+          <target state="translated">Gli utenti possono usare solo gli operatori di confronto di base (-eq, -gt, -lt).</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Assignment statements, property references, and method calls are not permitted.</source>
+          <target state="translated">Istruzioni di assegnazione, riferimenti a proprietà e chiamate ai metodi non sono consentiti.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The default value of the <bpt id="p1">**</bpt>LanguageMode<ept id="p1">**</ept> parameter depends on the value of the <bpt id="p2">**</bpt>SessionType<ept id="p2">**</ept> parameter.</source>
+          <target state="translated">Il valore predefinito di <bpt id="p1">**</bpt>LanguageMode<ept id="p1">**</ept> parametro dipende dal valore di <bpt id="p2">**</bpt>SessionType<ept id="p2">**</ept> parametro.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Empty                            :  NoLanguage</source>
+          <target state="translated">Vuoto: NoLanguage</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>RestrictedRemoteServer  :  NoLanguage</source>
+          <target state="translated">RestrictedRemoteServer: NoLanguage</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Default                          :  FullLanguage</source>
+          <target state="translated">Predefinito: FullLanguage</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>-ModulesToImport</source>
+          <target state="translated">-ModulesToImport</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Specifies the modules and snap-ins that are automatically imported into sessions that use the session configuration.</source>
+          <target state="translated">Specifica i moduli e gli snap-in che vengono importati automaticamente nelle sessioni che usano la configurazione di sessione.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>By default, only the Microsoft.PowerShell.Core snap-in is imported into remote sessions, but unless the cmdlets are excluded, users can use the Import-Module and Add-PSSnapin cmdlets to add modules and snap-ins to the session.</source>
+          <target state="translated">Per impostazione predefinita, solo il snap-in Microsoft.PowerShell.Core viene importato nelle sessioni remote, ma a meno che non vengono esclusi i cmdlet, gli utenti possono utilizzare i cmdlet Import-Module e Add-PSSnapin per aggiungere moduli e snap-in alla sessione.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Each module or snap-in in the value of this parameter can be represented by a string or as a hash table.</source>
+          <target state="translated">Ogni modulo o snap-in nel valore di questo parametro può essere rappresentato da una stringa o come una tabella hash.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>A module string consists only of the name of the module or snap-in.</source>
+          <target state="translated">Un modulo è costituito solo il nome del modulo o snap-in.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>A module hash table can include <bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept>, <bpt id="p2">**</bpt>ModuleVersion<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>GUID<ept id="p3">**</ept> keys.</source>
+          <target state="translated">Può includere una tabella hash del modulo <bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept>, <bpt id="p2">**</bpt>ModuleVersion<ept id="p2">**</ept>, e <bpt id="p3">**</bpt>GUID<ept id="p3">**</ept> chiavi.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Only the <bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept> key is required.</source>
+          <target state="translated">Solo il <bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept> chiave è obbligatoria.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>For example, the following value consists of a string and a hash table.</source>
+          <target state="translated">Ad esempio, il valore seguente è costituito da una stringa e da una tabella hash.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Any combination of strings and hash tables, in any order, is valid.</source>
+          <target state="translated">Qualsiasi combinazione di stringhe e tabelle hash, in qualunque ordine, è valida.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">**</bpt>ModulesToImport<ept id="p1">**</ept> parameter of the Register-PSSessionConfiguration cmdlet takes precedence over the value of the <bpt id="p2">**</bpt>ModulesToImport<ept id="p2">**</ept> key in the session configuration file.</source>
+          <target state="translated">Il valore di <bpt id="p1">**</bpt>ModulesToImport<ept id="p1">**</ept> ha la precedenza sul valore del parametro del cmdlet Register-PSSessionConfiguration il <bpt id="p2">**</bpt>ModulesToImport<ept id="p2">**</ept> chiave nel file di configurazione della sessione.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>-Path</source>
+          <target state="translated">-Path</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Specifies the path and file name of the session configuration file.</source>
+          <target state="translated">Specifica il percorso e il nome file del file di configurazione della sessione.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The file must have a <bpt id="p1">**</bpt>.pssc<ept id="p1">**</ept> file name extension.</source>
+          <target state="translated">Il file deve avere un <bpt id="p1">**</bpt>pssc<ept id="p1">**</ept> estensione del nome file.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>-PowerShellVersion</source>
+          <target state="translated">-PowerShellVersion</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Specifies the version of the Windows PowerShell engine in sessions that use the session configuration.</source>
+          <target state="translated">Specifica la versione del motore di Windows PowerShell nelle sessioni che usano la configurazione di sessione.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Valid values are 2.0 and 3.0.</source>
+          <target state="translated">I valori validi sono 2.0 e 3.0.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, the PowerShellVersion key is commented-out and newest version of Windows PowerShell runs in the session.</source>
+          <target state="translated">Se si omette questo parametro la chiave PowerShellVersion viene impostata come commento e nella sessione viene eseguita la versione più recente di Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">**</bpt>PSVersion<ept id="p1">**</ept> parameter of the Register-PSSessionConfiguration cmdlet takes precedence over the value of the <bpt id="p2">**</bpt>PowerShellVersion<ept id="p2">**</ept> key in the session configuration file.</source>
+          <target state="translated">Il valore di <bpt id="p1">**</bpt>PSVersion<ept id="p1">**</ept> ha la precedenza sul valore del parametro del cmdlet Register-PSSessionConfiguration il <bpt id="p2">**</bpt>PowerShellVersion<ept id="p2">**</ept> chiave nel file di configurazione della sessione.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>-SchemaVersion</source>
+          <target state="translated">-SchemaVersion</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Specifies the version of the session configuration file schema.</source>
+          <target state="translated">Specifica la versione dello schema del file di configurazione della sessione.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The default value is "1.0.0.0".</source>
+          <target state="translated">Il valore predefinito è "1.0.0.0".</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>-ScriptsToProcess</source>
+          <target state="translated">-ScriptsToProcess</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Adds the specified scripts to sessions that use the session configuration.</source>
+          <target state="translated">Aggiunge gli script specificati alle sessioni che usano la configurazione di sessione.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Enter the path and file names of the scripts.</source>
+          <target state="translated">Immettere il percorso e i nomi file degli script.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>The value of this parameter must be a full or absolute path to script file names.</source>
+          <target state="translated">Il valore di questo parametro deve essere un percorso completo o assoluto ai nomi file di script.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>-SessionType</source>
+          <target state="translated">-SessionType</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Specifies the type of session that is created by using the session configuration.</source>
+          <target state="translated">Specifica il tipo di sessione che viene creato usando la configurazione di sessione.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">**</bpt>Default<ept id="p1">**</ept>.</source>
+          <target state="translated">Il valore predefinito è <bpt id="p1">**</bpt>predefinito<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Valid values are:</source>
+          <target state="translated">I valori validi sonoi seguenti:</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Empty: No modules or snap-ins are added to session by default.</source>
+          <target state="translated">Vuoto: Nessun modulo o snap-in vengono aggiunti alla sessione per impostazione predefinita.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Use the parameters of this cmdlet to add modules, functions, scripts, and other features to the session.</source>
+          <target state="translated">Usare i parametri di questo cmdlet per aggiungere moduli, funzioni, script o altre funzionalità alla sessione.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>This option is designed for you to create custom sessions by adding selected command.</source>
+          <target state="translated">Questa opzione è progettata per creare sessioni personalizzate aggiungendo il comando selezionato.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>If you do not add commands to an empty session, the session is limited to expressions and might not be usable.</source>
+          <target state="translated">Se non vengono aggiunti comandi a una sessione vuota, la sessione è limitata alle espressioni e potrebbe non essere utilizzabile.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Default: Adds the Microsoft.PowerShell.Core snap-in to the session.</source>
+          <target state="translated">Valore predefinito: Aggiunge lo snap-in Microsoft.PowerShell.Core alla sessione.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>This snap-in includes the Import-Module and Add-PSSnapin cmdlets that users can use to import other modules and snap-ins unless you explicitly prohibit the use of the cmdlets.</source>
+          <target state="translated">Questo snap-in include i cmdlet Add-PSSnapin e Import-Module per importare altri moduli e snap-in, a meno che non si vieti esplicitamente l'utilizzo dei cmdlet che consente agli utenti.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>RestrictedRemoteServer: Includes only the following proxy functions:  Exit-PSSession,Get-Command, Get-FormatData, Get-Help, Measure-Object, Out-Default, and Select-Object.</source>
+          <target state="translated">RestrictedRemoteServer: Include solo le funzioni proxy seguenti: Exit-PSSession, Get-Help Get-Command, Get-FormatData, Measure-Object, out-Default e Select-Object.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Use the parameters of this cmdlet to add modules, functions, scripts, and other features to the session.</source>
+          <target state="translated">Usare i parametri di questo cmdlet per aggiungere moduli, funzioni, script o altre funzionalità alla sessione.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>-TypesToProcess</source>
+          <target state="translated">-TypesToProcess</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Adds the specified type files (.ps1xml) to sessions that use the session configuration.</source>
+          <target state="translated">Aggiunge i tipi di file specificati, con estensione ps1xml, alle sessioni che usano la configurazione di sessione.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Enter the type file names.</source>
+          <target state="translated">Immettere i nomi dei tipi di file.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>The value of this parameter must be a full or absolute path to type file names.</source>
+          <target state="translated">Il valore di questo parametro deve essere un percorso completo o assoluto ai nomi dei tipi di file.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>-VariableDefinitions</source>
+          <target state="translated">-VariableDefinitions</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Adds the specified variables to sessions that use the session configuration.</source>
+          <target state="translated">Aggiunge le variabili specificate alle sessioni che usano la configurazione di sessione.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Enter a hash table with the following keys:</source>
+          <target state="translated">Immettere una tabella hash con le chiavi seguenti:</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Name: Name of the variable.</source>
+          <target state="translated">Nome: Nome della variabile.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>This key is required.</source>
+          <target state="translated">Questa chiave è obbligatoria.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Value: Variable value.</source>
+          <target state="translated">Valore: Valore della variabile.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>This key is required.</source>
+          <target state="translated">Questa chiave è obbligatoria.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Options: Variable options.</source>
+          <target state="translated">Opzioni: Opzioni della variabile.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>This key is optional.</source>
+          <target state="translated">Questa chiave è facoltativa.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>The default value is None.</source>
+          <target state="translated">Il valore predefinito è None.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Valid values are <bpt id="p1">**</bpt>None<ept id="p1">**</ept>, <bpt id="p2">**</bpt>ReadOnly<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Constant<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Private<ept id="p4">**</ept>, or <bpt id="p5">**</bpt>AllScope<ept id="p5">**</ept>.</source>
+          <target state="translated">I valori validi sono <bpt id="p1">**</bpt>Nessuno<ept id="p1">**</ept>, <bpt id="p2">**</bpt>ReadOnly<ept id="p2">**</ept>, <bpt id="p3">**</bpt>costante<ept id="p3">**</ept>, <bpt id="p4">**</bpt>privato<ept id="p4">**</ept>, o <bpt id="p5">**</bpt>AllScope<ept id="p5">**</ept>.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">Ad esempio:</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>-VisibleAliases</source>
+          <target state="translated">-VisibleAliases</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Limits the aliases in the session to those specified in the value of this parameter, plus any aliases that you define in the <bpt id="p1">**</bpt>AliasDefinition<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Limita gli alias nella sessione a quelli specificati nel valore di questo parametro, oltre agli alias definiti nel <bpt id="p1">**</bpt>AliasDefinition<ept id="p1">**</ept> parametro.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Wildcards are supported.</source>
+          <target state="translated">I caratteri jolly sono supportati.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>By default, all aliases that are defined by the Windows PowerShell engine and all aliases that modules export are visible in the session.</source>
+          <target state="translated">Per impostazione predefinita, tutti gli alias definiti dal motore di Windows PowerShell e tutti gli alias esportati dai moduli sono visibili nella sessione.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">Ad esempio:</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>When any <bpt id="p1">**</bpt>Visible<ept id="p1">**</ept> parameter is included in the session configuration file, Windows PowerShell removes the Import-Module cmdlet and its "ipmo" alias from the session.</source>
+          <target state="translated">Quando uno <bpt id="p1">**</bpt>Visible<ept id="p1">**</ept> parametro è incluso nel file di configurazione della sessione, Windows PowerShell rimuove il cmdlet Import-Module e il relativo alias "ipmo" dalla sessione.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>-VisibleCmdlets</source>
+          <target state="translated">-VisibleCmdlets</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Limits the cmdlets in the session to those specified in the value of this parameter.</source>
+          <target state="translated">Limita i cmdlet nella sessione a quelli specificati nel valore di questo parametro.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Wildcards are supported.</source>
+          <target state="translated">I caratteri jolly sono supportati.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>By default, all cmdlets that modules in the session export are visible in the session.</source>
+          <target state="translated">Per impostazione predefinita, tutti i cmdlet esportati dai moduli nella sessione sono visibili nella sessione.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">**</bpt>SessionType<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ModulesToImport<ept id="p2">**</ept> parameters to determine which modules and snap-ins are imported into the session.</source>
+          <target state="translated">Utilizzare il <bpt id="p1">**</bpt>SessionType<ept id="p1">**</ept> e <bpt id="p2">**</bpt>ModulesToImport<ept id="p2">**</ept> i parametri per determinare quali moduli e snap-in vengono importati nella sessione.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>When any <bpt id="p1">**</bpt>Visible<ept id="p1">**</ept> parameter is included in the session configuration file, Windows PowerShell removes the Import-Module cmdlet and its "ipmo" alias from the session.</source>
+          <target state="translated">Quando uno <bpt id="p1">**</bpt>Visible<ept id="p1">**</ept> parametro è incluso nel file di configurazione della sessione, Windows PowerShell rimuove il cmdlet Import-Module e il relativo alias "ipmo" dalla sessione.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>-VisibleFunctions</source>
+          <target state="translated">-VisibleFunctions</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Limits the functions in the session to those specified in the value of this parameter, plus any functions that you define in the <bpt id="p1">**</bpt>FunctionDefinition<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Limita le funzioni nella sessione a quelli specificati nel valore di questo parametro, oltre alle eventuali funzioni definite nei <bpt id="p1">**</bpt>FunctionDefinition<ept id="p1">**</ept> parametro.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Wildcards are supported.</source>
+          <target state="translated">I caratteri jolly sono supportati.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>By default, all functions that modules in the session export are visible in the session.</source>
+          <target state="translated">Per impostazione predefinita, tutte le funzioni esportate dai moduli nella sessione sono visibili nella sessione.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">**</bpt>SessionType<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ModulesToImport<ept id="p2">**</ept> parameters to determine which modules and snap-ins are imported into the session.</source>
+          <target state="translated">Utilizzare il <bpt id="p1">**</bpt>SessionType<ept id="p1">**</ept> e <bpt id="p2">**</bpt>ModulesToImport<ept id="p2">**</ept> i parametri per determinare quali moduli e snap-in vengono importati nella sessione.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>When any <bpt id="p1">**</bpt>Visible<ept id="p1">**</ept> parameter is included in the session configuration file, Windows PowerShell removes the Import-Module cmdlet and its "ipmo" alias from the session.</source>
+          <target state="translated">Quando uno <bpt id="p1">**</bpt>Visible<ept id="p1">**</ept> parametro è incluso nel file di configurazione della sessione, Windows PowerShell rimuove il cmdlet Import-Module e il relativo alias "ipmo" dalla sessione.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>-VisibleProviders</source>
+          <target state="translated">-VisibleProviders</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Limits the Windows PowerShell providers in the session to those specified in the value of this parameter.</source>
+          <target state="translated">Limita i provider di Windows PowerShell nella sessione a quelli specificati nel valore di questo parametro.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Wildcards are supported.</source>
+          <target state="translated">I caratteri jolly sono supportati.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>By default, all providers that modules in the session export are visible in the session.</source>
+          <target state="translated">Per impostazione predefinita, tutti i provider esportati dai moduli nella sessione sono visibili nella sessione.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">**</bpt>SessionType<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ModulesToImport<ept id="p2">**</ept> parameters to determine which modules and snap-ins are imported into the session.</source>
+          <target state="translated">Utilizzare il <bpt id="p1">**</bpt>SessionType<ept id="p1">**</ept> e <bpt id="p2">**</bpt>ModulesToImport<ept id="p2">**</ept> i parametri per determinare quali moduli e snap-in vengono importati nella sessione.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>When any <bpt id="p1">**</bpt>Visible<ept id="p1">**</ept> parameter is included in the session configuration file, Windows PowerShell removes the Import-Module cmdlet and its "ipmo" alias from the session.</source>
+          <target state="translated">Quando uno <bpt id="p1">**</bpt>Visible<ept id="p1">**</ept> parametro è incluso nel file di configurazione della sessione, Windows PowerShell rimuove il cmdlet Import-Module e il relativo alias "ipmo" dalla sessione.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Questo cmdlet supporta i parametri comuni:-eseguire il Debug, - ErrorAction, - ErrorVariable, - InformationAction, InformationVariable-, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction e - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Per ulteriori informazioni, vedere about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">INPUT</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">Nessuno</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>This cmdlet does not take input from the pipeline.</source>
+          <target state="translated">Questo cmdlet non accetta input dalla pipeline.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">OUTPUT</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">Nessuno</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>This cmdlet does not generate any output.</source>
+          <target state="translated">Questo cmdlet non genera alcun output.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTE</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>The Visible parameters, such as <bpt id="p1">**</bpt>VisibleCmdlets<ept id="p1">**</ept> and <bpt id="p2">**</bpt>VisibleProviders<ept id="p2">**</ept>, do not import items into the session.</source>
+          <target state="translated">I parametri visibili, ad esempio <bpt id="p1">**</bpt>VisibleCmdlets<ept id="p1">**</ept> e <bpt id="p2">**</bpt>VisibleProviders<ept id="p2">**</ept>, non importano elementi nella sessione.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>Instead, they select from among the items imported into the session.</source>
+          <target state="translated">Al contrario, effettuano una selezione tra gli elementi importati nella sessione.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>For example, if the value of the <bpt id="p1">**</bpt>VisibleProviders<ept id="p1">**</ept> parameter is the Certificate provider, but the <bpt id="p2">**</bpt>ModulesToImport<ept id="p2">**</ept> parameter doesn't specify the Microsoft.PowerShell.Security module that contains the Certificate provider, the Certificate provider is not visible in the session.</source>
+          <target state="translated">Ad esempio, se il valore di <bpt id="p1">**</bpt>VisibleProviders<ept id="p1">**</ept> parametro è il provider Certificate, ma il <bpt id="p2">**</bpt>ModulesToImport<ept id="p2">**</ept> parametro non specifica il modulo Microsoft.PowerShell.Security che contiene il provider Certificate, il provider di certificati non è visibile nella sessione.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>New-PSSessionConfigurationFile<ept id="p1">**</ept> creates a session configuration file with a .pssc file name extension in the path that you specify in the <bpt id="p2">**</bpt>Path<ept id="p2">**</ept> parameter.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Nuova PSSessionConfigurationFile<ept id="p1">**</ept> Crea un file di configurazione di sessione con un'estensione di file con estensione pssc nel percorso specificato nel <bpt id="p2">**</bpt>percorso<ept id="p2">**</ept> parametro.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>When you use the session configuration file to create a session configuration, the Register-PSSessionConfiguration cmdlet copies the configuration file and saves an active copy of the file in the <bpt id="p1">**</bpt>SessionConfig<ept id="p1">**</ept> subdirectory of the $pshome directory.</source>
+          <target state="translated">Quando si utilizza il file di configurazione di sessione per creare una configurazione di sessione, il cmdlet Register-PSSessionConfiguration copia il file di configurazione e Salva una copia attiva del file nel <bpt id="p1">**</bpt>SessionConfig<ept id="p1">**</ept> sottodirectory della directory $pshome.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ConfigFilePath<ept id="p1">**</ept> property of the session configuration contains the fully qualified path to the active session configuration file.</source>
+          <target state="translated">Il <bpt id="p1">**</bpt>ConfigFilePath<ept id="p1">**</ept> proprietà della configurazione di sessione contiene il percorso completo al file di configurazione di sessione attiva.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>You can edit the active configuration file in the $pshome directory at any time, either by using Windows PowerShell ISE or any text editor.</source>
+          <target state="translated">È possibile modificare il file di configurazione attivo nella directory $pshome in qualsiasi momento tramite Windows PowerShell ISE o qualsiasi editor di testo.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>The changes that you make affect all new sessions that use the session configuration, but not existing sessions.</source>
+          <target state="translated">Le modifiche apportate interessano tutte le nuove sessioni che usano la configurazione di sessione, ma non le sessioni esistenti.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Before using an edited session configuration file, use the Test-PSSessionConfigurationFile cmdlet to verify that the configuration file entries are valid.</source>
+          <target state="translated">Prima di utilizzare un file di configurazione di sessione modificato, utilizzare il cmdlet Test-PSSessionConfigurationFile per verificare che le voci del file di configurazione siano validi.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">COLLEGAMENTI CORRELATI</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>Disable-PSSessionConfiguration</source>
+          <target state="translated">Disable-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>Enable-PSSessionConfiguration</source>
+          <target state="translated">Enable-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Get-PSSessionConfiguration</source>
+          <target state="translated">Get-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>New-PSSessionConfigurationFile</source>
+          <target state="translated">New-PSSessionConfigurationFile</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>New-PSSessionConfigurationOption</source>
+          <target state="translated">Nuovo PSSessionConfigurationOption</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>Register-PSSessionConfiguration</source>
+          <target state="translated">Register-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Set-PSSessionConfiguration</source>
+          <target state="translated">Set-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>Test-PSSessionConfigurationFile</source>
+          <target state="translated">Test-PSSessionConfigurationFile</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>Unregister-PSSessionConfiguration</source>
+          <target state="translated">Annullare la registrazione-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>WSMan Provider</source>
+          <target state="translated">Provider WSMan</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>about_Session_Configurations</source>
+          <target state="translated">about_Session_Configurations</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>about_Session_Configuration_Files</source>
+          <target state="translated">about_Session_Configuration_Files</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

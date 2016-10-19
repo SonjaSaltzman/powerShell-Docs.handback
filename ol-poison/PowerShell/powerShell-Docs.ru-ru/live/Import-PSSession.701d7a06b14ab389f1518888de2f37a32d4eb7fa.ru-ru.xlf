@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ece0810cf303b8eb48bbc1b5ff47211bb787931a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Utility\Import-PSSession.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">06cb8ab98f448613c92c923bd9c884abbbf13cb9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">24c2c27dc79afba4adecf0a5a26fbeb8fbdbc7d2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell, командлет</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Import-PSSession</source>
+          <target state="translated">Import-PSSession</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Import-PSSession</source>
+          <target state="translated">Import-PSSession</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">КРАТКИЙ ОБЗОР</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Imports commands from another session into the current session.</source>
+          <target state="translated">Импортирует команды из другого сеанса в текущий.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">СИНТАКСИС</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">ОПИСАНИЕ</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> cmdlet imports commands (such as cmdlets, functions, and aliases) from a PSSession on a local or remote computer into the current session.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> импортирует команды (например, командлеты, функции и псевдонимы) из PSSession на локальном или удаленном компьютере в текущий сеанс.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can import any command that the Get-Command cmdlet can find in the PSSession.</source>
+          <target state="translated">Можно импортировать любые команды, командлет Get-Command можно найти в PSSession.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Use an <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> command to import commands from a customized shell, such as a Microsoft Exchange Server shell, or from a session that includes Windows PowerShell modules and snap-ins or other elements that are not in the current session.</source>
+          <target state="translated">Используйте <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> команду, чтобы импортировать команды из настроенной оболочки, например оболочки Microsoft Exchange Server, или из сеанса, который включает в себя Windows PowerShell модули и оснастки или другие элементы, которые не находятся в текущем сеансе.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To import commands, first use the New-PSSession cmdlet to create a PSSession.</source>
+          <target state="translated">Чтобы импортировать команды, используйте командлет New-PSSession для создания PSSession.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Then, use the <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> cmdlet to import the commands.</source>
+          <target state="translated">Затем с помощью <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> для импорта команд.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> imports all commands except for commands that have the same names as commands in the current session.</source>
+          <target state="translated">По умолчанию <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> импортирует все команды, за исключением команд, которые имеют одинаковые имена команд в текущем сеансе.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To import all the commands, use the <bpt id="p1">**</bpt>AllowClobber<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Чтобы импортировать все команды, используйте <bpt id="p1">**</bpt>AllowClobber<ept id="p1">**</ept> параметр.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can use imported commands just as you would use any command in the session.</source>
+          <target state="translated">Импортированные команды можно использовать точно так же, как и любую команду в сеансе.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When you use an imported command, the imported part of the command runs implicitly in the session from which it was imported.</source>
+          <target state="translated">При использовании импортированных команд импортированная часть команды выполняется неявно в сеансе, из которой она была импортирована.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>However, the remote operations are handled entirely by Windows PowerShell.</source>
+          <target state="translated">Однако удаленные операции полностью обрабатываются Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You need not even be aware of them, except that you must keep the connection to the other session (PSSession) open.</source>
+          <target state="translated">Вам даже не нужно помнить о них, за исключением того, что нужно поддерживать подключение к другому сеансу (PSSession) открытым.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If you close it, the imported commands are no longer available.</source>
+          <target state="translated">Если его закрыть, импортированные команды перестают быть недоступными.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Because imported commands might take longer to run than local commands, Import-PSSession adds an AsJob parameter to every imported command.</source>
+          <target state="translated">Поскольку импортированные команды могут выполняться дольше локальных, Import-PSSession добавляет в каждую импортированную команду параметр AsJob.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This parameter allows you to run the command as a Windows PowerShell background job.</source>
+          <target state="translated">Этот параметр позволяет выполнить команду в качестве фонового задания Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Jobs.</source>
+          <target state="translated">Дополнительные сведения см. в разделе about_Jobs.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>When you use <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept>, Windows PowerShell adds the imported commands to a temporary module that exists only in your session and returns an object that represents the module.</source>
+          <target state="translated">При использовании <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept>, Windows PowerShell добавляет импортированные команды временный модуль, который существует только в текущем сеансе и возвращает объект, представляющий модуль.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>To create a persistent module that you can use in future sessions, use the Export-PSSession cmdlet.</source>
+          <target state="translated">Чтобы создать постоянный модуль, который можно использовать в будущих сеансах, используйте командлет Export-PSSession.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> cmdlet uses the implicit remoting feature of Windows PowerShell.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> командлет использует функцию неявного удаленного взаимодействия Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>When you import commands into the current session, they run implicitly in the original session or in a  similar session on the originating computer.</source>
+          <target state="translated">При импорте команд в текущий сеанс они неявно выполняются в исходном сеансе или аналогичном сеансе на исходном компьютере.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, you can use the Import-Module cmdlet to import modules from a remote session into the current session.</source>
+          <target state="translated">Начиная с Windows PowerShell 3.0, можно использовать командлет Import-Module для импорта модулей из удаленного сеанса в текущем сеансе.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This feature uses implicit remoting.</source>
+          <target state="translated">Эта функция использует неявное удаленное взаимодействие.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>It is equivalent to using <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> to import selected modules from a remote session into the current session.</source>
+          <target state="translated">Это эквивалентно использованию <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> для импорта выбранных модулей из удаленного сеанса в текущем сеансе.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">ПРИМЕРЫ</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- ПРИМЕР 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This command imports all commands from a PSSession on the Server01 computer into the current session, except for commands that have the same names as commands in the current session.</source>
+          <target state="translated">Эта команда импортирует все команды из PSSession на компьютере Server01 в текущий сеанс, за исключением команд, которые имеют такие же имена, как и команды в текущем сеансе.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Because this command does not use the <bpt id="p1">**</bpt>CommandName<ept id="p1">**</ept> parameter, it also imports all of the formatting data required for the imported commands.</source>
+          <target state="translated">Поскольку эта команда не использует <bpt id="p1">**</bpt>CommandName<ept id="p1">**</ept> параметра, она также импортирует все необходимые для импортированных команд данные форматирования.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>These commands import the commands with names that end in "-test" from a PSSession into the local session, and then they show how to use an imported cmdlet.</source>
+          <target state="translated">Эти команды импортируют команды, имена которых заканчиваются на "-test", из PSSession в локальный сеанс, а затем показывают, как использовать импортированный командлет.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The first command uses the New-PSSession cmdlet to create a PSSession.</source>
+          <target state="translated">Первая команда использует командлет New-PSSession для создания PSSession.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>It saves the PSSession in the $s variable.</source>
+          <target state="translated">Она сохраняет PSSession в переменной $s.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> cmdlet to import commands from the PSSession in $s into the current session.</source>
+          <target state="translated">Вторая команда использует <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> Чтобы импортировать команды из PSSession в $s в текущий сеанс.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>CommandName<ept id="p1">**</ept> parameter to specify commands with the Test noun and the <bpt id="p2">**</bpt>FormatTypeName<ept id="p2">**</ept> parameter to import the formatting data for the Test commands.</source>
+          <target state="translated">Он использует <bpt id="p1">**</bpt>CommandName<ept id="p1">**</ept> для указания команды с существительным Test и <bpt id="p2">**</bpt>FormatTypeName<ept id="p2">**</ept> параметр, чтобы импортировать данные форматирования для команд Test.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The third and fourth commands use the imported commands in the current session.</source>
+          <target state="translated">Третья и четвертая команды используют импортированные команды в текущем сеансе.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Because imported commands are actually added to the current session, you use the local syntax to run them.</source>
+          <target state="translated">Поскольку импортированные команды фактически добавляются в текущий сеанс, для их выполнения используется локальный синтаксис.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You do not need to use the Invoke-Command cmdlet to run an imported command.</source>
+          <target state="translated">Необходимо использовать командлет Invoke-Command для выполнения импортированной команды.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This example shows that you can use imported cmdlets just as you would use local cmdlets.</source>
+          <target state="translated">Этот пример показывает, что импортированные командлеты можно использовать точно так же, как и локальные командлеты.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>These commands import the New-Test and Get-Test cmdlets from a PSSession on the Server01 computer and the Set-Test cmdlet from a PSSession on the Server02 computer.</source>
+          <target state="translated">Эти команды импортируют командлеты New-Test и Get-Test из PSSession на компьютере Server01 и командлет Set-Test из PSSession на компьютере Server02.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Even though the cmdlets were imported from different PSSessions, you can pipe an object from one cmdlet to another without error.</source>
+          <target state="translated">Несмотря на то, что командлеты были импортированы из разных сеансов PSSession, можно без ошибок передать объект из одного командлета в другой.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This example shows how to run an imported command as a background job.</source>
+          <target state="translated">В этом примере показано, как выполнять импортированную команду в качестве фонового задания.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Because imported commands might take longer to run than local commands, <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> adds an <bpt id="p2">**</bpt>AsJob<ept id="p2">**</ept> parameter to every imported command.</source>
+          <target state="translated">Поскольку импортированные команды могут выполняться дольше локальных команд <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> добавляет <bpt id="p2">**</bpt>AsJob<ept id="p2">**</ept> параметр в каждую импортированную команду.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>AsJob<ept id="p1">**</ept> parameter lets you run the command as a background job.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>AsJob<ept id="p1">**</ept> параметр позволяет выполнить команду как фоновое задание.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The first command creates a PSSession on the Server01 computer and saves the PSSession object in the $s variable.</source>
+          <target state="translated">Первая команда создает PSSession на компьютере Server01 и сохраняет объект PSSession в переменной $s.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The second command uses <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> to import the Test cmdlets from the PSSession in $s into the current session.</source>
+          <target state="translated">Вторая команда использует <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> для импорта командлетов Test из PSSession в $s в текущий сеанс.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The third command uses the <bpt id="p1">**</bpt>AsJob<ept id="p1">**</ept> parameter of the imported New-Test cmdlet to run a New-Test command as a background job.</source>
+          <target state="translated">Третья команда использует <bpt id="p1">**</bpt>AsJob<ept id="p1">**</ept> импортированных командлета New-Test для выполнения команды New-Test в качестве фонового задания.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The command saves the job object that New-Test returns in the $batch variable.</source>
+          <target state="translated">Команда сохраняет возвращаемый New-Test объект задания в переменной $batch.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The fourth command uses the Receive-Job cmdlet to get the results of the job in the $batch variable.</source>
+          <target state="translated">Четвертая команда использует командлет Receive-Job, чтобы получить результаты задания в переменной $batch.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>This example shows how to import the cmdlets and functions from a Windows PowerShell module on a remote computer into the current session.</source>
+          <target state="translated">В этом примере показано, как импортировать командлеты и функции из модуля Windows PowerShell на удаленном компьютере в текущий сеанс.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The first command creates a PSSession on the Server01 computer and saves it in the $s variable.</source>
+          <target state="translated">Первая команда создает PSSession на компьютере Server01 и сохраняет его в переменной $s.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> cmdlet to run an Import-Module command in the PSSession in $s.</source>
+          <target state="translated">Вторая команда использует <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> для выполнения команды Import-Module в PSSession в $s.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Typically, the module would be added to all sessions by an <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> command in a Windows PowerShell profile, but profiles are not run in PSSessions.</source>
+          <target state="translated">Как правило, модуль будет добавлен во все сеансы с <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> команду в профиль Windows PowerShell, однако профили не работают в сеансы.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The third command uses the <bpt id="p1">**</bpt>Module<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Import-PSSession<ept id="p2">**</ept> to import the cmdlets and functions in the module into the current session.</source>
+          <target state="translated">Третья команда использует <bpt id="p1">**</bpt>модуль<ept id="p1">**</ept> параметр <bpt id="p2">**</bpt>Import-PSSession<ept id="p2">**</ept> для импорта командлетов и функций в модуле в текущий сеанс.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 6 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 6 --------------------------</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>This example shows that <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> creates a module in a temporary file on disk.</source>
+          <target state="translated">В этом примере показано, что <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> создает модуль во временном файле на диске.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>It also shows that all commands are converted into functions before they are imported into the current session.</source>
+          <target state="translated">В нем также показано, что все команды преобразуются в функции перед их импортом в текущий сеанс.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> cmdlet to import a Get-Date cmdlet and a SearchHelp function into the current session.</source>
+          <target state="translated">Команда использует <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> для импорта командлета Get-Date и функция SearchHelp в текущий сеанс.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> cmdlet returns a <bpt id="p2">**</bpt>PSModuleInfo<ept id="p2">**</ept> object that represents the temporary module.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> командлет возвращает <bpt id="p2">**</bpt>PSModuleInfo<ept id="p2">**</ept> представляющий временный модуль.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> property shows that <bpt id="p2">**</bpt>Import-PSSession<ept id="p2">**</ept> created a script module (.psm1) file in a temporary location.</source>
+          <target state="translated">Значение <bpt id="p1">**</bpt>путь<ept id="p1">**</ept> показывает, что <bpt id="p2">**</bpt>Import-PSSession<ept id="p2">**</ept> создан файл скрипта модуля (.psm1) во временной папке.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ExportedFunctions<ept id="p1">**</ept> property shows that the <bpt id="p2">**</bpt>Get-Date<ept id="p2">**</ept> cmdlet and the SearchHelp function were both imported as functions.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>ExportedFunctions<ept id="p1">**</ept> показывает, что <bpt id="p2">**</bpt>Get-Date<ept id="p2">**</ept> командлета и функция SearchHelp были импортированы как функции.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 7 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 7 --------------------------</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This example shows how to run a command that is hidden by an imported command.</source>
+          <target state="translated">В этом примере показано, как выполнить команду, скрытую импортированной командой.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The first command imports a Get-Date cmdlet from the PSSession in the $s variable.</source>
+          <target state="translated">Первая команда импортирует командлет Get-Date из PSSession в переменную $s.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Because the current session includes a <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> cmdlet, the <bpt id="p2">**</bpt>AllowClobber<ept id="p2">**</ept> parameter is required in the command.</source>
+          <target state="translated">Поскольку текущий сеанс включает <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> командлета, <bpt id="p2">**</bpt>AllowClobber<ept id="p2">**</ept> параметр является обязательным в команде.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">**</bpt>All<ept id="p1">**</ept> parameter of the Get-Command cmdlet to get all <bpt id="p2">**</bpt>Get-Date<ept id="p2">**</ept> commands in the current session.</source>
+          <target state="translated">Вторая команда использует <bpt id="p1">**</bpt>все<ept id="p1">**</ept> командлета Get-Command для получения всех <bpt id="p2">**</bpt>Get-Date<ept id="p2">**</ept> команды в текущем сеансе.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The output shows that the session includes the original <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> cmdlet and a <bpt id="p2">**</bpt>Get-Date<ept id="p2">**</ept> function.</source>
+          <target state="translated">Выходные данные показывают, что сеанс включает в себя исходный <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> командлета и <bpt id="p2">**</bpt>Get-Date<ept id="p2">**</ept> функции.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> function runs the imported <bpt id="p2">**</bpt>Get-Date<ept id="p2">**</ept> cmdlet in the PSSession in $s.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> функция выполняет импортированный <bpt id="p2">**</bpt>Get-Date<ept id="p2">**</ept> командлета в PSSession в $s.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The third command runs a <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> command.</source>
+          <target state="translated">Третья команда выполняет <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> команды.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Because functions take precedence over cmdlets, Windows PowerShell runs the imported <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> function, which returns a Julian date.</source>
+          <target state="translated">Поскольку функции имеют приоритет над командлетами, Windows PowerShell выполняет импортированную <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> функции, которая возвращает дату по юлианскому календарю.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The fourth and fifth commands show how to use a qualified name to run a command that is hidden by an imported command.</source>
+          <target state="translated">Четвертая и пятая команды показывают, как использовать полное имя для выполнения команды, которая скрыта импортированной командой.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The fourth command gets the name of the Windows PowerShell snap-in that added the original <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> cmdlet to the current session.</source>
+          <target state="translated">Четвертая команда возвращает имя оснастки Windows PowerShell, добавившей исходный <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> командлета в текущий сеанс.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The fifth command uses the snap-in-qualified name of the <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> cmdlet to run a <bpt id="p2">**</bpt>Get-Date<ept id="p2">**</ept> command.</source>
+          <target state="translated">Пятая команда использует имя оснастки в указанием <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> для запуска <bpt id="p2">**</bpt>Get-Date<ept id="p2">**</ept> команды.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>For more information about command precedence and hidden commands, see about_Command_Precedence.</source>
+          <target state="translated">Дополнительные сведения о приоритете команд и скрытых командах см. в разделе about_Command_Precedence.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 8 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 8 --------------------------</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>This command imports commands whose names include "Item" from the PSSession in $s.</source>
+          <target state="translated">Эта команда импортирует команды, имена которых содержат «Item» из PSSession в $s.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Because the command includes the <bpt id="p1">**</bpt>CommandName<ept id="p1">**</ept> parameter but not the <bpt id="p2">**</bpt>FormatTypeData<ept id="p2">**</ept> parameter, only the command is imported.</source>
+          <target state="translated">Поскольку команда содержит <bpt id="p1">**</bpt>CommandName<ept id="p1">**</ept> параметра, но не <bpt id="p2">**</bpt>FormatTypeData<ept id="p2">**</ept> параметр импортируется только команда.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Use this command when you are using <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> to run a command on a remote computer and you already have the formatting data for the command in the current session.</source>
+          <target state="translated">Используйте эту команду, при использовании <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> для выполнения команды на удаленном компьютере и уже имеются данные форматирования для команды в текущем сеансе.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 9 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 9 --------------------------</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>This command shows how to use the <bpt id="p1">**</bpt>Module<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Get-Command<ept id="p2">**</ept> to find out which commands were imported into the session by an <bpt id="p3">**</bpt>Import-PSSession<ept id="p3">**</ept> command.</source>
+          <target state="translated">Эта команда демонстрирует <bpt id="p1">**</bpt>модуль<ept id="p1">**</ept> параметр <bpt id="p2">**</bpt>Get-Command<ept id="p2">**</ept> Чтобы узнать, какие команды были импортированы в сеанс, <bpt id="p3">**</bpt>Import-PSSession<ept id="p3">**</ept> команды.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> cmdlet to import commands whose names include "bits" from the PSSession in the $s variable.</source>
+          <target state="translated">Первая команда использует <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> для импорта команд, имена которых содержат службы «bits» из PSSession в переменную $s.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> command returns a temporary module, and the command saves the module in the $m variable.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> команда возвращает временный модуль и сохраняет его в переменной $m.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The second command uses the Get-Command cmdlet to get the commands that are exported by the module in the $m variable.</source>
+          <target state="translated">Вторая команда использует командлет Get-Command для получения команд, которые экспортируются модулем в переменной $m.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Module<ept id="p1">**</ept> parameter takes a string value, which is designed for the module name.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Модуль<ept id="p1">**</ept> параметр принимает строковое значение, которое предназначено для использования имени модуля.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>However, when you submit a module object, Windows PowerShell uses the <bpt id="p1">**</bpt>ToString<ept id="p1">**</ept> method on the module object, which returns the module name.</source>
+          <target state="translated">Однако при передаче объекта модуля Windows PowerShell использует <bpt id="p1">**</bpt>ToString<ept id="p1">**</ept> метод на объекте модуля, который возвращает имя модуля.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> command is the equivalent of <ph id="ph1">`Get-Command $m.Name`</ph>".</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> команда является эквивалентом <ph id="ph1">`Get-Command $m.Name`</ph>».</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">ПАРАМЕТРЫ</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>-AllowClobber</source>
+          <target state="translated">-AllowClobber</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Imports the specified commands, even if they have the same names as commands in the current session.</source>
+          <target state="translated">Импортирует указанные команды, даже если они имеют те же имена, что и команды в текущем сеансе.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>If you import a command with the same name as a command in the current session, the imported command hides or replaces the original commands.</source>
+          <target state="translated">При импорте команды с таким же именем, что и у команды в текущем сеансе, импортированная команда скрывает или заменяет собой исходную команду.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Command_Precedence.</source>
+          <target state="translated">Дополнительные сведения см. в разделе about_Command_Precedence.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> does not import commands that have the same name as commands in the current session.</source>
+          <target state="translated">По умолчанию <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> не импортирует команды, которые имеют имя, совпадающее с именем команды в текущем сеансе.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>-ArgumentList</source>
+          <target state="translated">-ArgumentList</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Imports the variant of the command that results from using the specified arguments (parameter values).</source>
+          <target state="translated">Импортирует вариант команды, полученный с помощью определенных аргументов (значения параметров).</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>For example, to import the variant of the Get-Item command in the certificate (Cert:) drive in the PSSession in $s, type "Import-PSSession -Session $s -command get-item -argumentlist cert:".</source>
+          <target state="translated">Например, чтобы импортировать вариант команды Get-Item на диск сертификатов (Cert:) в PSSession в переменной $s, введите "Import-PSSession -Session $s -command get-item -argumentlist cert:".</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>-CommandName</source>
+          <target state="translated">-CommandName</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Imports only the commands with the specified names or name patterns.</source>
+          <target state="translated">Импортирует только те команды, для которых заданы имена или шаблоны имен.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">Разрешено использовать подстановочные знаки.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Use "CommandName" or its alias, "Name".</source>
+          <target state="translated">Используйте "CommandName" или его псевдоним "Name".</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> imports all commands from the session, except for commands that have the same names as commands in the current session.</source>
+          <target state="translated">По умолчанию <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> импортирует все команды из сеанса, за исключением команд, которые имеют одинаковые имена команд в текущем сеансе.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>This prevents imported commands from hiding or replacing commands in the session.</source>
+          <target state="translated">Это предотвращает скрытие или замену команд в текущем сеансе импортированными командами.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>To import all commands, even those that hide or replace other commands, use the <bpt id="p1">**</bpt>AllowClobber<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Чтобы импортировать все команды, даже те, которые скрывают или заменяют другие команды, используйте <bpt id="p1">**</bpt>AllowClobber<ept id="p1">**</ept> параметр.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">**</bpt>CommandName<ept id="p1">**</ept> parameter, the formatting files for the commands are not imported unless you use the <bpt id="p2">**</bpt>FormatTypeName<ept id="p2">**</ept> parameter.</source>
+          <target state="translated">Если вы используете <bpt id="p1">**</bpt>CommandName<ept id="p1">**</ept> параметра файлы форматирования для команд не импортируются, если не используется <bpt id="p2">**</bpt>FormatTypeName<ept id="p2">**</ept> параметр.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Similarly, if you use the <bpt id="p1">**</bpt>FormatTypeName<ept id="p1">**</ept> parameter, no commands are imported unless you use the <bpt id="p2">**</bpt>CommandName<ept id="p2">**</ept> parameter.</source>
+          <target state="translated">Аналогично при использовании <bpt id="p1">**</bpt>FormatTypeName<ept id="p1">**</ept> параметр команды не импортируются, пока не используется <bpt id="p2">**</bpt>CommandName<ept id="p2">**</ept> параметр.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>-CommandType</source>
+          <target state="translated">-CommandType</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Imports only the specified types of command objects.</source>
+          <target state="translated">Импортирует только указанные типы объектов команд.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The default value is Cmdlet.</source>
+          <target state="translated">Значение по умолчанию — Cmdlet.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Use "CommandType" or its alias, "Type".</source>
+          <target state="translated">Используйте "CommandType" или его псевдоним "Type".</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Valid values are:</source>
+          <target state="translated">Допустимые значения:</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Alias: The Windows PowerShell aliases in the remote session.</source>
+          <target state="translated">Псевдоним: Псевдонимы Windows PowerShell в удаленном сеансе.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>All: The cmdlets and functions in the remote session.</source>
+          <target state="translated">Все: Командлеты и функции в удаленном сеансе.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Application: All the files other than Windows-PowerShell files in the paths that are listed in the Path environment variable ($env:path) in the remote session, including .txt, .exe, and .dll files.</source>
+          <target state="translated">Приложение: Все файлы, кроме файлов Windows PowerShell в путях, перечисленных в переменной среды Path ($env: путь) в удаленном сеансе, включая файлы .txt, .exe и .dll.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Cmdlet: The cmdlets in the remote session.</source>
+          <target state="translated">Командлет: Командлеты в удаленном сеансе.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>"Cmdlet" is the default.</source>
+          <target state="translated">Значение по умолчанию — "Cmdlet".</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>ExternalScript: The .ps1 files in the paths listed in the Path environment variable ($env:path) in the remote session.</source>
+          <target state="translated">ExternalScript: Ps1-файлы в путях, перечисленных в переменной среды Path ($env: путь) в удаленном сеансе.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Filter and Function: The Windows PowerShell functions in the remote session.</source>
+          <target state="translated">Фильтр и функции: функции Windows PowerShell в удаленном сеансе.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Script: The script blocks in the remote session.</source>
+          <target state="translated">Сценарий: Блоки сценариев в удаленном сеансе.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>-DisableNameChecking</source>
+          <target state="translated">-DisableNameChecking</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Suppresses the message that warns you when you import a cmdlet or function whose name includes an unapproved verb or a prohibited character.</source>
+          <target state="translated">Скрывает сообщение, предупреждающее об импорте командлета или функции, имя которых содержит недопустимую команду или запрещенный символ.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>By default,  when a module that you import exports cmdlets or functions that have unapproved verbs in their names, the Windows PowerShell displays the following warning message:</source>
+          <target state="translated">По умолчанию, когда импортируемый модуль экспортирует командлеты или функции с недопустимыми командами в именах, Windows PowerShell отображает следующее предупреждающее сообщение:</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>"WARNING: Some imported command names include unapproved verbs which might make them less discoverable.</source>
+          <target state="translated">«ПРЕДУПРЕЖДЕНИЕ: некоторые из импортированных команд, имена которых содержат неутвержденные глаголы, что может усложнить их поиск.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Use the Verbose parameter for more detail or type Get-Verb to see the list of approved verbs."</source>
+          <target state="translated">Используйте параметр Verbose, чтобы получить дополнительные сведения, или введите Get-Verb, чтобы просмотреть список утвержденных глаголов".</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>This message is only a warning.</source>
+          <target state="translated">Это сообщение является всего лишь предупреждением.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The complete module is still imported, including the non-conforming commands.</source>
+          <target state="translated">Импорт осуществляется для всего модуля, включая недопустимые команды.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Although the message is displayed to module users, the naming problem should be fixed by the module author.</source>
+          <target state="translated">Хотя это сообщение отображается для пользователей модуля, проблема с именованием должна быть устранена автором модуля.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>-FormatTypeName</source>
+          <target state="translated">-FormatTypeName</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Imports formatting instructions for the specified Microsoft .NET Framework types.</source>
+          <target state="translated">Импортирует инструкции по форматированию для указанных типов Microsoft .NET Framework.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Enter the type names.</source>
+          <target state="translated">Введите имена типов.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">Разрешено использовать подстановочные знаки.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The value of this parameter must be the name of a type that is returned by a Get-FormatData command in the session from which the commands are being imported.</source>
+          <target state="translated">Значением этого параметра должно быть имя типа, возвращаемого командой Get-FormatData в сеансе, из которого команда импортируется.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>To get all of the formatting data in the remote session, type *.</source>
+          <target state="translated">Чтобы получить все данные форматирования в удаленном сеансе, введите *.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>If the command does not include either the <bpt id="p1">**</bpt>CommandName<ept id="p1">**</ept> or <bpt id="p2">**</bpt>FormatTypeName<ept id="p2">**</ept> parameters, <bpt id="p3">**</bpt>Import-PSSession<ept id="p3">**</ept>imports formatting instructions for all .NET Framework types returned by a Get-FormatData command in the remote session.</source>
+          <target state="translated">Если команда не включают в себя <bpt id="p1">**</bpt>CommandName<ept id="p1">**</ept> или <bpt id="p2">**</bpt>FormatTypeName<ept id="p2">**</ept> параметров, <bpt id="p3">**</bpt>Import-PSSession<ept id="p3">**</ept>импортирует инструкции по форматированию для всех типов .NET Framework, возвращаемого командой Get-FormatData в удаленном сеансе.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">**</bpt>FormatTypeName<ept id="p1">**</ept> parameter, no commands are imported unless you use the <bpt id="p2">**</bpt>CommandName<ept id="p2">**</ept> parameter.</source>
+          <target state="translated">Если вы используете <bpt id="p1">**</bpt>FormatTypeName<ept id="p1">**</ept> параметр команды не импортируются, пока не используется <bpt id="p2">**</bpt>CommandName<ept id="p2">**</ept> параметр.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Similarly, if you use the <bpt id="p1">**</bpt>CommandName<ept id="p1">**</ept> parameter, the formatting files for the commands are not imported unless you use the <bpt id="p2">**</bpt>FormatTypeName<ept id="p2">**</ept> parameter.</source>
+          <target state="translated">Аналогично при использовании <bpt id="p1">**</bpt>CommandName<ept id="p1">**</ept> параметра файлы форматирования для команд не импортируются, если не используется <bpt id="p2">**</bpt>FormatTypeName<ept id="p2">**</ept> параметр.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>-Module</source>
+          <target state="translated">-Модуль</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Imports only the commands in the specified Windows PowerShell snap-ins and modules.</source>
+          <target state="translated">Импортирует только команды в указанных оснастках и модулях  Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Enter the snap-in and module names.</source>
+          <target state="translated">Введите имена оснасток и модулей.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Wildcards are not permitted.</source>
+          <target state="translated">Использовать подстановочные знаки запрещено.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> cannot import providers from a snap-in.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> не удается импортировать поставщиков из оснастки.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>For more information, see about_PSSnapins and about_Modules.</source>
+          <target state="translated">Дополнительные сведения см. в разделе about_PSSnapins и about_Modules.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>-Prefix</source>
+          <target state="translated">-Префикс</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Adds the specified prefix to the nouns in the names of imported commands.</source>
+          <target state="translated">Добавляет указанный префикс к существительным в именах импортированных команд.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Use this parameter to avoid name conflicts that might occur when different commands in the session have the same name.</source>
+          <target state="translated">Используйте этот параметр, чтобы избежать конфликтов имен, которые могут возникать, когда разные команды в сеансе имеют одинаковое имя.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>For example, if you specify the prefix "Remote" and then import a Get-Date cmdlet, the cmdlet is known in the session as "Get-RemoteDate" and it is not confused with the original <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">Например, если указать префикс «Remote», а затем импортировать командлет Get-Date, который известен в сеансе, что «Get-RemoteDate» и его нельзя будет спутать с исходным <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> командлета.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>-Session</source>
+          <target state="translated">-Сеанса</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Specifies the PSSession from which the cmdlets are imported.</source>
+          <target state="translated">Указывает сеанс PSSession, из которого импортируются командлеты.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains a session object or a command that gets a session object, such as a New-PSSession or Get-PSSession command.</source>
+          <target state="translated">Введите переменную, содержащую объект сеанса или команду, которая получает объект сеанса, например команду New-PSSession или Get-PSSession.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>You can specify only one session.</source>
+          <target state="translated">Можно указать только один сеанс.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>This parameter is required.</source>
+          <target state="translated">Это обязательный параметр.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>-Certificate</source>
+          <target state="translated">-Сертификата</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Specifies the client certificate that is used to sign the format files (<bpt id="p1">*</bpt>.Format.ps1xml) or script module files (.psm1) in the temporary module that <ept id="p1">*</ept><bpt id="p2">*</bpt>Import-PSSession<ept id="p2">*</ept>* creates.</source>
+          <target state="translated">Задает сертификат клиента, который используется для подписи файлов формата (<bpt id="p1">*</bpt>. Format.ps1xml) или файлов модуля (.psm1) во временном модуле сценариев, <ept id="p1">*</ept><bpt id="p2">*</bpt>Import-PSSession<ept id="p2">*</ept>* создает.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains a certificate or a command or expression that gets the certificate.</source>
+          <target state="translated">Введите переменную, которая содержит сертификат, или команду или выражение, которое возвращает сертификат.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>To find a certificate, use the Get-PfxCertificate cmdlet or use the Get-ChildItem cmdlet in the Certificate (Cert:) drive.</source>
+          <target state="translated">Найти сертификат, с помощью командлета Get-PfxCertificate или использовать командлет Get-ChildItem сертификата (Cert:) диска.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>If the certificate is not valid or does not have sufficient authority, the command fails.</source>
+          <target state="translated">Если сертификат недопустимый или не имеет достаточных полномочий, команда завершается ошибкой.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Этот командлет поддерживает общие параметры:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction и - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Дополнительные сведения см. в разделе about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ВХОДНЫЕ ДАННЫЕ</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">Нет</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>You cannot pipe objects to this cmdlet.</source>
+          <target state="translated">Нельзя передать объекты в этот командлет с помощью конвейера.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">ВЫХОДНЫЕ ДАННЫЕ</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSModuleInfo</source>
+          <target state="translated">System.Management.Automation.PSModuleInfo</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> returns the same module object that New-Module and Get-Module cmdlets return.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> возвращает один и тот же объект модуля, командлеты New-Module и Get-Module.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>However, the imported module is temporary and exists only in the current session.</source>
+          <target state="translated">Однако импортированный модуль является временным и существует только в текущем сеансе.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>To create a permanent module on disk, use the Export-PSSession cmdlet.</source>
+          <target state="translated">Для создания постоянного модуля на диске, используйте командлет Export-PSSession.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ПРИМЕЧАНИЯ</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> relies on the Windows PowerShell remoting infrastructure.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> зависит от инфраструктуры удаленного взаимодействия Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>To use this cmdlet, the computer must be configured for WS-Management remoting.</source>
+          <target state="translated">Для использования этого командлета компьютер должен быть настроен на удаленное взаимодействие WS-Management.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Remote and about_Remote_Requirements.</source>
+          <target state="translated">Дополнительные сведения см. в разделе about_Remote и about_Remote_Requirements.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> does not import variables or Windows PowerShell providers.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> не импортирует переменные или поставщиков Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>When you import commands that have the same names as commands in the current session, the imported commands can hide aliases, functions, and cmdlets in the session and they can replace functions and variables in the session.</source>
+          <target state="translated">При импорте команд, которые имеют те же имена, что и команды в текущем сеансе, импортированные команды в сеансе могут скрывать псевдонимы, функции и командлеты, а также заменять функции и переменные.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>To prevent name conflicts, use the <bpt id="p1">**</bpt>Prefix<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Чтобы избежать конфликтов имен, используйте <bpt id="p1">**</bpt>префикс<ept id="p1">**</ept> параметр.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Command_Precedence.</source>
+          <target state="translated">Дополнительные сведения см. в разделе about_Command_Precedence.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> converts all commands into functions before it imports them.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> преобразует все команды в функции перед их импортом.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>As a result, imported commands behave a bit differently than they would if they retained their original command type.</source>
+          <target state="translated">В результате импортированные команды работают немного иначе, чем если бы они сохранили свой исходный тип команды.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>For example, if you import a cmdlet from a PSSession and then import a cmdlet with the same name from a module or snap-in, the cmdlet that is imported from the PSSession always runs by default because functions take precedence over cmdlets.</source>
+          <target state="translated">Например, если импортировать командлет из PSSession и затем импортировать командлет с таким же именем из модуля или оснастки, импортированный из PSSession командлет всегда выполняется по умолчанию, поскольку функции имеют приоритет над командлетами.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Conversely, if you import an alias into a session that has an alias with the same name, the original alias is always used, because aliases take precedence over functions.</source>
+          <target state="translated">И наоборот, если импортировать псевдоним в сеанс, где уже есть псевдоним с таким же именем, всегда используется исходный псевдоним, поскольку псевдонимы имеют приоритет над функциями.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Command_Precedence.</source>
+          <target state="translated">Дополнительные сведения см. в разделе about_Command_Precedence.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> uses the Write-Progress cmdlet to display the progress of the command.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> использует командлет Write-Progress для отображения хода выполнения команды.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>You might see the progress bar while the command is running.</source>
+          <target state="translated">Во время выполнения команды может отображаться индикатор выполнения .</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>To find the commands to import, <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> uses the Invoke-Command cmdlet to run a Get-Command command in the PSSession.</source>
+          <target state="translated">Чтобы найти команды для импорта, <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> использует командлет Invoke-Command для выполнения команды Get-Command в PSSession.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>To get formatting data for the commands, it uses the Get-FormatData cmdlet.</source>
+          <target state="translated">Чтобы получить данные форматирования для команд, она использует командлет Get-FormatData.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>You might see error messages from these cmdlets when you run an Import-PSSession command.</source>
+          <target state="translated">При выполнении команды Import-PSSession могут появляться сообщения об ошибках из этих командлетов.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Also, <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> cannot import commands from a PSSession that does not include the Get-Command, Get-FormatData, Select-Object, and Get-Help cmdlets.</source>
+          <target state="translated">Кроме того <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> не удается импортировать команды из PSSession, который не поддерживает Get-Command, Get-FormatData, Select-Object и командлеты Get-Help.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Imported commands have the same limitations as other remote commands, including the inability to start a program with a user interface, such as Notepad.</source>
+          <target state="translated">Импортированные команды имеют те же ограничения, что и другие удаленные команды, включая невозможность запуска программы с пользовательским интерфейсом, например "Блокнот".</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Because Windows PowerShell profiles are not run in PSSessions, the commands that a profile adds to a session are not available to <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept>.</source>
+          <target state="translated">Поскольку профили Windows PowerShell не выполняются в сеансах PSSession, команды, добавленные профилем в сеанс недоступны для <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>To import commands from a profile, use an Invoke-Command command to run the profile in the PSSession manually before importing commands.</source>
+          <target state="translated">Для импорта команд из профиля используйте команду Invoke-Command, чтобы вручную запустить профиль в PSSession перед импортом команд.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>The temporary module that <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> creates might include a formatting file, even if the command does not import formatting data.</source>
+          <target state="translated">Временный модуль, <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> может содержать файл форматирования, даже если команда не импортирует данные форматирования.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>If the command does not import formatting data, any formatting files that are created will not contain formatting data.</source>
+          <target state="translated">Если команда не импортирует данные форматирования, все создаваемые файлы форматирования не будут содержать данные форматирования.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>To use <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept>, the execution policy in the current session cannot be Restricted or AllSigned, because the temporary module that <bpt id="p2">**</bpt>Import-PSSession<ept id="p2">**</ept> creates contains unsigned script files that are prohibited by these policies.</source>
+          <target state="translated">Для использования <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept>, политику выполнения в текущем сеансе не может быть Restricted и AllSigned, так как временный модуль, <bpt id="p2">**</bpt>Import-PSSession<ept id="p2">**</ept> создает содержит неподписанные файлы сценариев, запрещенных для этих политик.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>To use <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> without changing the execution policy for the local computer, use the <bpt id="p2">**</bpt>Scope<ept id="p2">**</ept> parameter of Set-ExecutionPolicy to set a less restrictive execution policy for a single process.</source>
+          <target state="translated">Для использования <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> без изменения политики выполнения на локальном компьютере, воспользуйтесь <bpt id="p2">**</bpt>область<ept id="p2">**</ept> командлета Set-ExecutionPolicy, чтобы задать менее строгой политики выполнения для одного процесса.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, help topics for commands that are imported from another session do not include the prefix that you assign by using the <bpt id="p1">**</bpt>Prefix<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">В Windows PowerShell 2.0 разделы справки для команд, которые импортируются из другого сеанса не включают префикс, который назначается с помощью <bpt id="p1">**</bpt>префикс<ept id="p1">**</ept> параметр.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>To get help for an imported command in Windows PowerShell 2.0, use the original (non-prefixed) command name.</source>
+          <target state="translated">Чтобы получить справку для импортированной команды Windows PowerShell 2.0, используйте исходное имя команды (без префикса).</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">СВЯЗАННЫЕ ССЫЛКИ</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Export-PSSession</source>
+          <target state="translated">Export-PSSession</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>New-PSSession</source>
+          <target state="translated">New-PSSession</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>about_Command_Precedence</source>
+          <target state="translated">about_Command_Precedence</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>about_PSSessions</source>
+          <target state="translated">about_PSSessions</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>about_Jobs</source>
+          <target state="translated">about_Jobs</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

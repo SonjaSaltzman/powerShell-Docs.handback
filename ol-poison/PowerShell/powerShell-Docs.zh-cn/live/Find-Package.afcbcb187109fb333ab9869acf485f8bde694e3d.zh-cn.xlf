@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fc17bca969a70181d165a054e5645ee316f92129</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\PackageManagement\Find-Package.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6983492e2dd528494bc6c76cd9671ba0c2b3cf31</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">65f3b9a13a090541534550c91bb79c6430fd6cb9</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Find-Package</source>
+          <target state="translated">Find-Package</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Find-Package</source>
+          <target state="translated">Find-Package</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">简述</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Finds software packages in available package sources.</source>
+          <target state="translated">在可用程序包源中查找软件程序包。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">语法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Find-Package<ept id="p1">**</ept> cmdlet finds matching software packages that are available in package sources.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>查找包<ept id="p1">**</ept> cmdlet 查找匹配的包源中的可用软件程序包。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">示例</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Example 1: Find all available packages from a package provider</source>
+          <target state="translated">示例 1︰ 从程序包提供程序中查找所有可用的包</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This command finds all available Windows PowerShell module packages from galleries that are registered with the PSModule provider.</source>
+          <target state="translated">此命令将查找所有可用的 Windows PowerShell 模块包从注册 PSModule 提供程序的库。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Example 2: Find a package from a provider that is not yet installed</source>
+          <target state="translated">示例 2︰ 查找包尚未安装的提供商</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This command first automatically installs the Chocolatey provider on the local computer, then searches for the Git package within that provider.</source>
+          <target state="translated">此命令首先会自动在本地计算机上安装 Chocolatey 提供程序，然后搜索该提供程序内的 Git 包。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Example 3: Find a package from a package source</source>
+          <target state="translated">示例 3︰ 查找从包源包</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This command finds a package from a specified package source.</source>
+          <target state="translated">此命令将查找从指定的包源包。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This is a useful command if you know the name of the package source that you want to search, but are unsure about the package provider to which the source is registered.</source>
+          <target state="translated">如果您知道您想要搜索，请将包的源文件，但把握该源注册程序包提供程序的名称，这是一个有用的命令。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Without specifying a package source, <bpt id="p1">**</bpt>Find-Package<ept id="p1">**</ept> searches through all installed package providers and their package sources for a specified package.</source>
+          <target state="translated">而无需指定包源， <bpt id="p1">**</bpt>查找包<ept id="p1">**</ept> 指定的包在所有已安装的软件包提供程序和它们的包源中搜索。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can run Get-PackageSource -Location to get a package source name.</source>
+          <target state="translated">您可以运行 Get PackageSource-要从中获取程序包源名称位置。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Example 4: Find a package from a file system</source>
+          <target state="translated">示例 4︰ 查找包从文件系统</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This command finds packages from all installed PackageManagement package providers that are stored in the C:\temp folder on the local computer.</source>
+          <target state="translated">此命令将从所有已安装 PackageManagement 程序包提供存储在本地计算机上的 C:\temp 文件夹中查找包。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Example 5: Find a package with a specific name and version</source>
+          <target state="translated">示例 5︰ 查找具有特定名称和版本的包</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This command finds version 2.1.2 of a package named DSCAccelerator.</source>
+          <target state="translated">此命令将查找名为 DSCAccelerator 为包的版本 2.1.2。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Although only part of the package name has been specified, <bpt id="p1">**</bpt>Find-Package<ept id="p1">**</ept> should be able to find the DSCAccelerator package if there are no other packages with a name matching that pattern.</source>
+          <target state="translated">尽管只有部分的程序包名称已指定，但是 <bpt id="p1">**</bpt>查找包<ept id="p1">**</ept> 应该能够找到 DSCAccelerator 包，如果没有其他包名称相匹配该模式。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Example 6: Find packages within a range of versions</source>
+          <target state="translated">示例 6︰ 找到的版本范围内的包</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This command finds a matching range of versions of a package named DSCAccelerator, by adding the <bpt id="p1">*</bpt>MinimumVersion<ept id="p1">*</ept> and <bpt id="p2">*</bpt>MaximumVersion<ept id="p2">*</ept> parameters to specify a range, and the <bpt id="p3">*</bpt>AllVersions<ept id="p3">*</ept> parameter to specify that all matching results within that range are returned as results.</source>
+          <target state="translated">此命令将查找名 DSCAccelerator，通过添加为包的版本匹配范围 <bpt id="p1">*</bpt>MinimumVersion<ept id="p1">*</ept> 和 <bpt id="p2">*</bpt>MaximumVersion<ept id="p2">*</ept> 参数来指定的范围和 <bpt id="p3">*</bpt>AllVersions<ept id="p3">*</ept> 参数来指定作为结果返回在该范围内的所有匹配结果。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">参数</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-AllVersions</source>
+          <target state="translated">-AllVersions</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Indicates that <bpt id="p1">**</bpt>Find-Package<ept id="p1">**</ept> returns all available versions of the package.</source>
+          <target state="translated">指示 <bpt id="p1">**</bpt>查找包<ept id="p1">**</ept> 返回包的所有可用版本。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Find-Package<ept id="p1">**</ept> only returns the newest available version.</source>
+          <target state="translated">默认情况下， <bpt id="p1">**</bpt>查找包<ept id="p1">**</ept> 只返回最新可用版本。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-Command</source>
+          <target state="translated">-Command</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Specifies an array of commands for which this cmdlet searches.</source>
+          <target state="translated">指定此 cmdlet 要搜索的命令的数组。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>-Credential</source>
+          <target state="translated">-Credential</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Specifies a user account that has permission to search for packages.</source>
+          <target state="translated">指定有权搜索程序包的用户帐户。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-DscResource</source>
+          <target state="translated">-DscResource</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Specifies an array of Desired State Configuration (DSC) resources for which this cmdlet searches.</source>
+          <target state="translated">指定此 cmdlet 搜索 Desired State Configuration (DSC) 资源的一个数组。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>-Filter</source>
+          <target state="translated">筛选器</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Specifies terms to search for within the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Description<ept id="p2">**</ept> properties.</source>
+          <target state="translated">指定要在中搜索的术语 <bpt id="p1">**</bpt>名称<ept id="p1">**</ept> 和 <bpt id="p2">**</bpt>说明<ept id="p2">**</ept> 属性。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Forces the command to run without asking for user confirmation.</source>
+          <target state="translated">强制运行命令而不要求用户确认。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>-ForceBootstrap</source>
+          <target state="translated">-ForceBootstrap</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet forces Package Management to automatically install the package provider.</source>
+          <target state="translated">指示此 cmdlet 强制包管理以自动安装程序包提供程序。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>-IncludeDependencies</source>
+          <target state="translated">-IncludeDependencies</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet includes package dependencies in the results.</source>
+          <target state="translated">指示此 cmdlet 在结果中包括包的依赖项。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-Includes</source>
+          <target state="translated">-包含</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Specifies whether <bpt id="p1">**</bpt>Find-Package<ept id="p1">**</ept> should find all packages with DSC resources, cmdlets, functions, or workflows.</source>
+          <target state="translated">指定是否 <bpt id="p1">**</bpt>查找包<ept id="p1">**</ept> 都认为与 DSC 资源、 cmdlet、 函数或工作流的所有包。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">此参数的可接受的值是：</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Cmdlet</source>
+          <target state="translated">Cmdlet</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>DscResource</source>
+          <target state="translated">DscResource</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Function</source>
+          <target state="translated">功能</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Workflow</source>
+          <target state="translated">工作流</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>-MaximumVersion</source>
+          <target state="translated">-MaximumVersion</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum allowed version of the package that you want to find.</source>
+          <target state="translated">指定最大允许您想要查找的包版本。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If you do not add this parameter, <bpt id="p1">**</bpt>Find-Package<ept id="p1">**</ept> finds the highest available version of the package.</source>
+          <target state="translated">如果您不添加此参数， <bpt id="p1">**</bpt>查找包<ept id="p1">**</ept> 找到包的最高可用版本。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>-MinimumVersion</source>
+          <target state="translated">-MinimumVersion</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Specifies the minimum allowed version of the package that you want to find.</source>
+          <target state="translated">指定允许您想要查找的包版本的最小。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If you do not add this parameter, <bpt id="p1">**</bpt>Find-Package<ept id="p1">**</ept> finds the highest available version of the package that also satisfies any maximum specified version specified by the <bpt id="p2">*</bpt>MaximumVersion<ept id="p2">*</ept> parameter.</source>
+          <target state="translated">如果您不添加此参数， <bpt id="p1">**</bpt>查找包<ept id="p1">**</ept> 找到还满足指定的任何最大指定的版本的包的最高可用版本 <bpt id="p2">*</bpt>MaximumVersion<ept id="p2">*</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Specifies one or more package names, or package names with wildcard characters.</source>
+          <target state="translated">指定一台或多个包名称或包名称包含通配符字符。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Separate multiple package names with commas.</source>
+          <target state="translated">用逗号分隔多个包名称。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>-PackageManagementProvider</source>
+          <target state="translated">-PackageManagementProvider</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the Package Management provider.</source>
+          <target state="translated">指定的包管理提供程序的名称。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>-ProviderName</source>
+          <target state="translated">-提供程序名称</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Specifies one or more package provider names.</source>
+          <target state="translated">指定一个或多个包提供程序名称。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Separate multiple package provider names with commas.</source>
+          <target state="translated">用逗号分隔多个包提供程序名称。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>-PublishLocation</source>
+          <target state="translated">-PublishLocation</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Specifies a location for publishing the package.</source>
+          <target state="translated">指定用于发布包的位置。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>-RequiredVersion</source>
+          <target state="translated">-RequiredVersion</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Specifies the exact allowed version of the package to find.</source>
+          <target state="translated">指定要查找的包的确切允许的版本。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>If you do not add this parameter, <bpt id="p1">**</bpt>Find-Package<ept id="p1">**</ept> finds the highest available version of the provider that also satisfies any maximum version specified by the <bpt id="p2">*</bpt>MaximumVersion<ept id="p2">*</ept> parameter.</source>
+          <target state="translated">如果您不添加此参数， <bpt id="p1">**</bpt>查找包<ept id="p1">**</ept> 找到还满足指定的任何最大版本的提供程序的高可用版本 <bpt id="p2">*</bpt>MaximumVersion<ept id="p2">*</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>-Scope</source>
+          <target state="translated">作用域</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>{{Fill Scope Description}}</source>
+          <target state="translated">{{填充的范围描述}}</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-Source</source>
+          <target state="translated">-Source</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Specifies one or more package sources.</source>
+          <target state="translated">指定一个或多个程序包源。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>You can get a list of available package sources by using the Get-PackageSource cmdlet.</source>
+          <target state="translated">可以使用 Get PackageSource cmdlet 来获取可用程序包源的列表。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>-Tag</source>
+          <target state="translated">标记</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Specifies one or more strings to search for in the package metadata.</source>
+          <target state="translated">指定一个或多个要在包元数据中搜索的字符串。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">此 cmdlet 支持以下常见参数:-调试-ErrorAction、-ErrorVariable、-InformationAction、-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 和-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">有关详细信息，请参阅 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">输入</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>You cannot pipe input to this cmdlet</source>
+          <target state="translated">您能通过管道传递给此 cmdlet 的输入</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">输出</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>SoftwareIdentify[]</source>
+          <target state="translated">SoftwareIdentify]</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>This cmdlet does not produce any output.</source>
+          <target state="translated">此 cmdlet 不生成任何输出。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相关的链接</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>about_PackageManagement</source>
+          <target state="translated">about_PackageManagement</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Get-Package</source>
+          <target state="translated">Get-Package</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Install-Package</source>
+          <target state="translated">Install-Package</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Save-Package</source>
+          <target state="translated">Save-Package</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Uninstall-Package</source>
+          <target state="translated">Uninstall-Package</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
