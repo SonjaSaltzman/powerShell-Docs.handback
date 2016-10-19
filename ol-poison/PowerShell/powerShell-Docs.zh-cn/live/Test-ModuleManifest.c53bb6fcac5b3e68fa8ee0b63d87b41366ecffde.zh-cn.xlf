@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3285d66695b665972fa6b0175b3a8390b0485b06</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\Test-ModuleManifest.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">74a778a42408ec63f14b80b283aa830351accaf2</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6706135bf4cf690911712ba5cac8954165dd558d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Test-ModuleManifest</source>
+          <target state="translated">Test-modulemanifest</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Test-ModuleManifest</source>
+          <target state="translated">Test-modulemanifest</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">简述</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Verifies that a module manifest file accurately describes the contents of a module.</source>
+          <target state="translated">验证模块清单文件是否准确描述了模块的内容。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">语法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Test-ModuleManifest<ept id="p1">**</ept> cmdlet verifies that the files that are listed in the module manifest (.psd1) file are actually in the specified paths.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Test-modulemanifest<ept id="p1">**</ept> cmdlet 可以验证模块清单 (.psd1) 文件中列出的文件实际位于指定的路径。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This cmdlet is designed to help module authors test their manifest files.</source>
+          <target state="translated">此 cmdlet 旨在帮助模块作者测试其清单文件。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Module users can also use this cmdlet in scripts and commands to detect errors before they run scripts that depend on the module.</source>
+          <target state="translated">模块用户还可以使用此 cmdlet 的脚本和命令来检测运行取决于该模块的脚本之前对这些错误。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Test-ModuleManifest<ept id="p1">**</ept> returns an object that represents the module.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Test-modulemanifest<ept id="p1">**</ept> 返回表示模块的对象。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This is the same type of object that Get-Module returns.</source>
+          <target state="translated">这是对象的相同的 Get-module 返回类型。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If any files are not in the locations specified in the manifest, the cmdlet also generates an error for each missing file.</source>
+          <target state="translated">如果有任何文件在清单中指定的位置上不存在，则该 cmdlet 还将针对每个缺少的文件生成一个错误。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">示例</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Example 1: Test a manifest</source>
+          <target state="translated">示例 1︰ 测试清单</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This command tests the TestModule.psd1 module manifest.</source>
+          <target state="translated">此命令将测试 TestModule.psd1 模块清单。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Example 2: Test a manifest by using the pipeline</source>
+          <target state="translated">示例 2︰ 通过使用管道测试清单</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This command uses a pipeline operator (|) to send a path string to <bpt id="p1">**</bpt>Test-ModuleManifest<ept id="p1">**</ept>.</source>
+          <target state="translated">此命令使用管道运算符 (|) 将路径字符串发送到 <bpt id="p1">**</bpt>Test-modulemanifest<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The command output shows that the test failed, because the TestTypes.ps1xml file, which was listed in the manifest, was not found.</source>
+          <target state="translated">命令输出显示测试未通过，因为找不到清单中所列出的 TestTypes.ps1xml 文件。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Example 3: Write a function to test a module manifest</source>
+          <target state="translated">示例 3︰ 编写一个函数来测试模块清单</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This function is like <bpt id="p1">**</bpt>Test-ModuleManifest<ept id="p1">**</ept>, but it returns a Boolean value.</source>
+          <target state="translated">此函数就像 <bpt id="p1">**</bpt>Test-modulemanifest<ept id="p1">**</ept>, ，但它返回一个布尔值。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The function returns $True if the manifest passed the test and $False otherwise.</source>
+          <target state="translated">如果清单通过测试和 $False 否则，该函数将返回 $True。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The function uses the Get-ChildItem cmdlet, alias = dir, to get the module manifest specified by the $path variable.</source>
+          <target state="translated">该函数使用 Get-childitem cmdlet 中，别名为 dir，若要获取由 $path 变量指定的模块清单。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The command uses a pipeline operator (|) to pass the file object to <bpt id="p1">**</bpt>Test-ModuleManifest<ept id="p1">**</ept>.</source>
+          <target state="translated">该命令使用管道运算符 (|) 将文件对象传递到 <bpt id="p1">**</bpt>Test-modulemanifest<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Test-ModuleManifest<ept id="p1">**</ept> uses the <bpt id="p2">*</bpt>ErrorAction<ept id="p2">*</ept> common parameter with a value of SilentlyContinue to suppress the display of any errors that the command generates.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Test-modulemanifest<ept id="p1">**</ept> 使用 <bpt id="p2">*</bpt>ErrorAction<ept id="p2">*</ept> 通用参数的值为 SilentlyContinue 来禁止显示该命令将生成的任何错误。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>It also saves the <bpt id="p1">**</bpt>PSModuleInfo<ept id="p1">**</ept> object that <bpt id="p2">**</bpt>Test-ModuleManifest<ept id="p2">**</ept> returns in the $a variable.</source>
+          <target state="translated">它还保存 <bpt id="p1">**</bpt>PSModuleInfo<ept id="p1">**</ept> 对象 <bpt id="p2">**</bpt>Test-modulemanifest<ept id="p2">**</ept> $a 变量中的返回。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Therefore, the object is not displayed.</source>
+          <target state="translated">因此，不显示该对象。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Then, in a separate command, the function displays the value of the $?</source>
+          <target state="translated">然后，在单独的命令，该函数将显示 $ 的值？</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>automatic variable.</source>
+          <target state="translated">自动变量。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If the previous command generates no error, the command displays $True, and $False otherwise.</source>
+          <target state="translated">如果前一个命令不生成任何错误，该命令显示 $True 和 $False 否则。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>You can use this function in conditional statements, such as those that might precede an <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> command or a command that uses the module.</source>
+          <target state="translated">您可以使用此函数在条件语句，如前面的那些 <bpt id="p1">**</bpt>导入模块<ept id="p1">**</ept> 命令或使用模块的命令。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">参数</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>-Path</source>
+          <target state="translated">-Path</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Specifies a path and file name for the manifest file.</source>
+          <target state="translated">指定清单文件路径和文件名。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Enter an optional path and name of the module manifest file that has the .psd1 file name extension.</source>
+          <target state="translated">输入可选的路径和具有文件扩展名为.psd1 的模块清单文件的名称。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The default location is the current directory.</source>
+          <target state="translated">默认位置为当前目录。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are supported, but must resolve to a single module manifest file.</source>
+          <target state="translated">通配符字符都受支持，但必须解析到单个模块清单文件。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This parameter is required.</source>
+          <target state="translated">此参数是必需的。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You can also pipe a path to <bpt id="p1">**</bpt>Test-ModuleManifest<ept id="p1">**</ept>.</source>
+          <target state="translated">您还可以通过管道的路径 <bpt id="p1">**</bpt>Test-modulemanifest<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">此 cmdlet 支持以下常见参数:-调试-ErrorAction、-ErrorVariable、-InformationAction、-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 和-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">有关详细信息，请参阅 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">输入</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>System.String</source>
+          <target state="translated">System.String</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You can pipe the path to a module manifest to this cmdlet.</source>
+          <target state="translated">您可以通过管道传递给此 cmdlet 将模块清单的路径。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">输出</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSModuleInfo</source>
+          <target state="translated">System.Management.Automation.PSModuleInfo</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This cmdlet returns a <bpt id="p1">**</bpt>PSModuleInfo<ept id="p1">**</ept> object that represents the module.</source>
+          <target state="translated">此 cmdlet 将返回 <bpt id="p1">**</bpt>PSModuleInfo<ept id="p1">**</ept> 表示模块的对象。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>It returns this object even if the manifest has errors.</source>
+          <target state="translated">即使清单有错误，它也会返回此对象。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相关的链接</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Export-ModuleMember</source>
+          <target state="translated">Export-ModuleMember</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Get-Module</source>
+          <target state="translated">Get-Module</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Import-Module</source>
+          <target state="translated">Import-Module</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>New-Module</source>
+          <target state="translated">New-Module</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>New-ModuleManifest</source>
+          <target state="translated">新 ModuleManifest</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Remove-Module</source>
+          <target state="translated">Remove-Module</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>about_Modules</source>
+          <target state="translated">about_Modules</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

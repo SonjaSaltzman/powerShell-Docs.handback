@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ae8964d134d4e01aa9196823402e9c209f4b36a3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\Wait-Job.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">487c11cd5d8414d346808a4e184d8b9edc83ade6</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">187c388ee01e0fc9a82cb262d967b95d55517fc0</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Wait-Job</source>
+          <target state="translated">Wait-job ジョブ</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Wait-Job</source>
+          <target state="translated">Wait-job ジョブ</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Suppresses the command prompt until one or all of the Windows PowerShell background jobs running in the session are completed.</source>
+          <target state="translated">1 つまたはすべてのセッションで実行されている Windows PowerShell のバック グラウンド ジョブが完了するまでは、コマンド プロンプトを表示しません。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">構文</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>SessionIdParameterSet (Default)</source>
+          <target state="translated">SessionIdParameterSet (既定値)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>JobParameterSet</source>
+          <target state="translated">JobParameterSet</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>NameParameterSet</source>
+          <target state="translated">NameParameterSet</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>InstanceIdParameterSet</source>
+          <target state="translated">InstanceIdParameterSet</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>StateParameterSet</source>
+          <target state="translated">StateParameterSet</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>FilterParameterSet</source>
+          <target state="translated">FilterParameterSet</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">説明</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> cmdlet waits for Windows PowerShell background jobs to finish before it displays the command prompt.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> コマンドレットが終了するまで、コマンド プロンプトを表示して、Windows PowerShell バック グラウンド ジョブを待ちます。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can wait until any background job is complete, or until all background jobs are complete, and you can set a maximum wait time for the job.</source>
+          <target state="translated">任意のバックグラウンド ジョブまたはすべてのバックグラウンド ジョブが完了まで待機できます。さらに、ジョブの最大待機時間を設定できます。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When the commands in the job are complete, <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> displays the command prompt and returns a job object so that you can pipe it to another command.</source>
+          <target state="translated">ジョブ内のコマンドが完了した後、 <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> コマンド プロンプトを表示し、別のコマンドにパイプするようにジョブ オブジェクトを返します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can use <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> cmdlet to wait for background jobs, such as those that were started by using the Start-Job cmdlet or the <bpt id="p2">*</bpt>AsJob<ept id="p2">*</ept> parameter of the Invoke-Command cmdlet.</source>
+          <target state="translated">使用する <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> コマンドレットでは、Start-job コマンドレットを使用して開始されたものなど、バック グラウンド ジョブの待機をまたは <bpt id="p2">*</bpt>AsJob<ept id="p2">*</ept> Invoke-command コマンドレットのパラメーターです。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For more information about Windows PowerShell background jobs, see about_Jobs.</source>
+          <target state="translated">Windows PowerShell のバック グラウンド ジョブの詳細については、「about_jobs」を参照してください。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Starting in Windows PowerShell 3.0, the <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> cmdlet also waits for custom job types, such as workflow jobs and instances of scheduled jobs.</source>
+          <target state="translated">Windows PowerShell 3.0 以降、 <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> コマンドレットは、ワークフロー ジョブやスケジュールされたジョブのインスタンスなどのカスタム ジョブの種類も待機します。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To enable <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> to wait for jobs of a particular type, import the module that supports the custom job type into the session before you run the Get-Job cmdlet, either by using the Import-Module cmdlet or by using or getting a cmdlet in the module.</source>
+          <target state="translated">有効にする <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> の特定の種類のジョブを待つ、Import-module コマンドレットを使用するかを使用するか、モジュールのコマンドレットを取得する、Get-job コマンドレットを実行する前にセッションにカスタム ジョブの種類をサポートするモジュールをインポートします。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For information about a particular custom job type, see the documentation of the custom job type feature.</source>
+          <target state="translated">特定のカスタム ジョブの種類については、カスタムのジョブの種類機能のドキュメントを参照してください。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Example 1: Wait for all jobs</source>
+          <target state="translated">例 1: は、すべてのジョブを待機します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This command waits for all of the background jobs running in the session to finish.</source>
+          <target state="translated">このコマンドは、終了するセッションで実行するバック グラウンド ジョブのすべての待機します。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Example 2: Wait for jobs started on remote computers by using Start-Job</source>
+          <target state="translated">例 2: は、Start-job を使用してリモート コンピューターで開始されたジョブの待機します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> cmdlet with jobs started on remote computers by using the <bpt id="p2">**</bpt>Start-Job<ept id="p2">**</ept> cmdlet.</source>
+          <target state="translated">この例では、使用して、 <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> を使用してリモート コンピューターでのジョブにコマンドレットを起動、 <bpt id="p2">**</bpt>Start-job<ept id="p2">**</ept> コマンドレットです。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Both <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Wait-Job<ept id="p2">**</ept> commands are submitted to the remote computer by using the <bpt id="p3">**</bpt>Invoke-Command<ept id="p3">**</ept> cmdlet.</source>
+          <target state="translated">両方 <bpt id="p1">**</bpt>Start-job<ept id="p1">**</ept> と <bpt id="p2">**</bpt>Wait-job<ept id="p2">**</ept> コマンドを使用してリモート コンピューターに送信されて、 <bpt id="p3">**</bpt>Invoke-command<ept id="p3">**</ept> コマンドレットです。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This example uses <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> to determine whether a Get-Date command running as a background job on three different computers is finished.</source>
+          <target state="translated">この例では <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> を 3 つの異なるコンピューターでバック グラウンド ジョブとして実行されている、Get-date コマンドが完了したかどうかを判断します。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The first command creates a Windows PowerShell session (<bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept>) on each of the three remote computers and stores them in the $s variable.</source>
+          <target state="translated">最初のコマンドは、Windows PowerShell セッションを作成 (<bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept>) 次の 3 つのリモート コンピューターごとにし、$s 変数に格納します。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The second command uses <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> to run <bpt id="p2">**</bpt>Start-Job<ept id="p2">**</ept> in each of the three sessions in $s.</source>
+          <target state="translated">2 番目のコマンドを使用して <bpt id="p1">**</bpt>Invoke-command<ept id="p1">**</ept> を実行する <bpt id="p2">**</bpt>Start-job<ept id="p2">**</ept> $s 内の 3 つのセッションのそれぞれにします。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>All of the jobs are named Date1.</source>
+          <target state="translated">すべてのジョブを Date1 と呼びます。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The third command uses <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> to run <bpt id="p2">**</bpt>Wait-Job<ept id="p2">**</ept>.</source>
+          <target state="translated">3 番目のコマンドを使用して <bpt id="p1">**</bpt>Invoke-command<ept id="p1">**</ept> を実行する <bpt id="p2">**</bpt>Wait-job<ept id="p2">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This command waits for the Date1 jobs on each computer to finish.</source>
+          <target state="translated">このコマンドは、完了するには、各コンピューター上の Date1 ジョブ待機します。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>It stores the resulting collection (array) of job objects in the $done variable.</source>
+          <target state="translated">このコマンドは、ジョブ オブジェクトの結果のコレクション (配列) を $done 変数に格納します。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The fourth command uses the <bpt id="p1">**</bpt>Count<ept id="p1">**</ept> property of the array of job objects in the $done variable to determine how many of the jobs are finished.</source>
+          <target state="translated">4 番目のコマンドを使用して、 <bpt id="p1">**</bpt>カウント<ept id="p1">**</ept> 終了は、ジョブの数を決定する $done 変数内のジョブ オブジェクトの配列のプロパティです。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Example 3: Determine when the first background job finishes</source>
+          <target state="translated">例 3: 最初のバック グラウンド ジョブが終了したときを決定します。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This example uses the <bpt id="p1">*</bpt>Any<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>Wait-Job<ept id="p2">**</ept> to determine when the first of many background jobs running in the current session are completed.</source>
+          <target state="translated">この例では、 <bpt id="p1">*</bpt>、<ept id="p1">*</ept> のパラメーター <bpt id="p2">**</bpt>Wait-job<ept id="p2">**</ept> 、現在のセッションで実行されている多くのバック グラウンド ジョブの最初の完了時期を決定します。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>It also shows how to use the <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> cmdlet to wait for remote jobs to finish.</source>
+          <target state="translated">使用する方法も示します、 <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> コマンドレットをリモート ジョブが終了するまで待機します。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The first command creates a <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> on each of the computers listed in the Machines.txt file and stores the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> objects in the $s variable.</source>
+          <target state="translated">最初のコマンドを作成、 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> Machines.txt ファイルとストアの一覧表示、コンピューターごとに、 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> $s 変数内のオブジェクト。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The command uses the Get-Content cmdlet to get the contents of the file.</source>
+          <target state="translated">コマンドでは、Get-content コマンドレットを使用して、ファイルの内容を取得します。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-Content<ept id="p1">**</ept> command is enclosed in parentheses to make sure that that it runs before the New-PSSession command.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Get-content<ept id="p1">**</ept> コマンドは New-pssession コマンドの前に実行していることを確認してにかっこで囲まれています。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The second command stores a <bpt id="p1">**</bpt>Get-EventLog<ept id="p1">**</ept> command string, in quotation marks, in the $c variable.</source>
+          <target state="translated">2 番目のコマンド ストア、 <bpt id="p1">**</bpt>Get-eventlog<ept id="p1">**</ept> コマンド、$c 変数には、引用符での文字列です。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The third command uses Invoke-Command cmdlet to run <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> in each of the sessions in $s.</source>
+          <target state="translated">3 番目のコマンドは Invoke-command コマンドレットを使用して実行する <bpt id="p1">**</bpt>Start-job<ept id="p1">**</ept> セッションを $s 内のそれぞれにします。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> command starts a background job that runs the <bpt id="p2">**</bpt>Get-EventLog<ept id="p2">**</ept> command in the $c variable.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Start-job<ept id="p1">**</ept> コマンドが実行されるバック グラウンド ジョブを開始、 <bpt id="p2">**</bpt>Get-eventlog<ept id="p2">**</ept> $c 変数にコマンドです。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>Using<ept id="p1">**</ept> scope modifier to indicate that the $c variable was defined on the local computer.</source>
+          <target state="translated">このコマンドは、 <bpt id="p1">**</bpt>を使用する<ept id="p1">**</ept> $c 変数がローカル コンピューターで定義されていたことを示すために、スコープ修飾子です。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Using<ept id="p1">**</ept> scope modifier is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Using<ept id="p1">**</ept> スコープ修飾子は、Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>For more information about the <bpt id="p1">**</bpt>Using<ept id="p1">**</ept> scope modifier, see about_Remote_Variables (http://go.microsoft.com/fwlink/?LinkID=252653).</source>
+          <target state="translated">詳細については、 <bpt id="p1">**</bpt>Using<ept id="p1">**</ept> スコープ修飾子 about_Remote_Variables (http://go.microsoft.com/fwlink/?LinkID=252653) を参照してください。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The fourth command uses <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> to run a <bpt id="p2">**</bpt>Wait-Job<ept id="p2">**</ept> command in the sessions.</source>
+          <target state="translated">4 番目のコマンドを使用して <bpt id="p1">**</bpt>Invoke-command<ept id="p1">**</ept> を実行する、 <bpt id="p2">**</bpt>Wait-job<ept id="p2">**</ept> コマンド、セッションを実行します。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>Any<ept id="p1">*</ept> parameter to wait until the first job on the remote computers is completed.</source>
+          <target state="translated">使用して、 <bpt id="p1">*</bpt>、<ept id="p1">*</ept> パラメーターをリモート コンピューター上の最初のジョブが完了するまで待機します。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Example 4: Set a wait time for jobs on remote computers</source>
+          <target state="translated">例 4: リモート コンピューター上のジョブの待機時間を設定します。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the <bpt id="p1">*</bpt>Timeout<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>Wait-Job<ept id="p2">**</ept> to set a maximum wait time for the jobs running on remote computers.</source>
+          <target state="translated">この例では、使用して、 <bpt id="p1">*</bpt>タイムアウト<ept id="p1">*</ept> のパラメーター <bpt id="p2">**</bpt>Wait-job<ept id="p2">**</ept> を設定するまでの待機時間をリモート コンピューターで実行中のジョブです。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The first command creates a <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> on each of three remote computers (Server01, Server02, and Server03), and then stores the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> objects in the $s variable.</source>
+          <target state="translated">最初のコマンドを作成、 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 各 3 台のリモート コンピューター (Server01、Server02、および Server03) と、ストアで、 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> $s 変数内のオブジェクト。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The second command uses <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> to run <bpt id="p2">**</bpt>Start-Job<ept id="p2">**</ept> in each of the <bpt id="p3">**</bpt>PSSession<ept id="p3">**</ept> objects in $s.</source>
+          <target state="translated">2 番目のコマンドを使用して <bpt id="p1">**</bpt>Invoke-command<ept id="p1">**</ept> を実行する <bpt id="p2">**</bpt>Start-job<ept id="p2">**</ept> のそれぞれに、 <bpt id="p3">**</bpt>PSSession<ept id="p3">**</ept> $s 内のオブジェクト。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>It stores the resulting job objects in the $jobs variable.</source>
+          <target state="translated">結果のジョブ オブジェクトを $jobs 変数に保存されます。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The third command uses <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> to run <bpt id="p2">**</bpt>Wait-Job<ept id="p2">**</ept> in each of the sessions in $s.</source>
+          <target state="translated">3 番目のコマンドを使用して <bpt id="p1">**</bpt>Invoke-command<ept id="p1">**</ept> を実行する <bpt id="p2">**</bpt>Wait-job<ept id="p2">**</ept> セッションを $s 内のそれぞれにします。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> command determines whether all of the commands have completed within 30 seconds.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> コマンドでは、30 秒以内のすべてのコマンドが完了するかどうかを判断します。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>Timeout<ept id="p1">*</ept> parameter with a value of 30 to establish the maximum wait time, and then stores the results of the command in the $done variable.</source>
+          <target state="translated">使用して、 <bpt id="p1">*</bpt>タイムアウト<ept id="p1">*</ept> パラメーターに最大値を確立するために 30 秒の値の待機時間、およびコマンドの結果を $done 変数に格納します。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>In this case, after 30 seconds, only the command on the Server02 computer has completed.</source>
+          <target state="translated">この場合に、30 秒後に Server02 コンピューター上のコマンドのみが完了しました。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> ends the wait, displays the command prompt, and returns the object that represents the job that was completed.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> 待機を終了、コマンド プロンプトを表示、および完了したジョブを表すオブジェクトを取得します。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The $done variable contains a job object that represents the job that ran on Server02.</source>
+          <target state="translated">$done 変数には、Server02 上で実行されたジョブを表すジョブ オブジェクトが含まれています。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Example 5: Wait until one of several jobs finishes</source>
+          <target state="translated">例 5: 複数のジョブのいずれかが終了するまでの待機します。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This command identifies three jobs by their IDs and waits until any one of them are completed.</source>
+          <target state="translated">このコマンドは、Id によって 3 つのジョブを識別し、いずれかのファイルが完了するまで待機します。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The command prompt returns when the first job finishes.</source>
+          <target state="translated">最初のジョブが完了すると、コマンド プロンプトを返します。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Example 6: Wait for a period, then allow job to continue in background</source>
+          <target state="translated">例 6: が、しばらく待ってから、ジョブをバック グラウンドで続行を許可します。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This command waits 120 seconds (two minutes) for the DailyLog job to finish.</source>
+          <target state="translated">このコマンドは、DailyLog ジョブの完了を 120 秒 (2 分) を待機します。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>If the job does not finish in the next two minutes, the command prompt returns anyway, and the job continues to run in the background.</source>
+          <target state="translated">かどうかは、次の 2 分以内にジョブが完了しない、コマンド プロンプトが返され、ジョブがバック グラウンドで実行し続けます。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Example 7: Wait for a job by name</source>
+          <target state="translated">例 7: が名前によってジョブの待機します。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>This command uses the job name to identify the job for which to wait.</source>
+          <target state="translated">このコマンドは、待機するのにジョブを識別するために、ジョブ名を使用します。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Example 8: Wait for jobs on local computer started with Start-Job</source>
+          <target state="translated">例 8: Start-job のローカル コンピューター上でジョブを待機します。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> cmdlet with jobs started on the local computer by using <bpt id="p2">**</bpt>Start-Job<ept id="p2">**</ept>.</source>
+          <target state="translated">この例では、使用して、 <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> を使用して、ローカル コンピューターでのジョブにコマンドレットを起動 <bpt id="p2">**</bpt>Start-job<ept id="p2">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>These commands start a job that gets the Windows PowerShell script files that were added or updated in the last week.</source>
+          <target state="translated">これらのコマンドは、過去 1 週間に追加または更新された Windows PowerShell スクリプト ファイルを取得するジョブを開始します。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The first command uses <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> to start a background job on the local computer.</source>
+          <target state="translated">最初のコマンドを使用して <bpt id="p1">**</bpt>Start-job<ept id="p1">**</ept> をローカル コンピューターでバック グラウンド ジョブを開始します。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The job runs a Get-ChildItem command that gets all of the files that have a .ps1 file name extension that were added or updated in the last week.</source>
+          <target state="translated">ジョブは、すべての .ps1 ファイル名拡張子を追加または 1 週間以内に更新されたファイルを取得する Get-childitem コマンドを実行します。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The third command uses <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> to wait until the job is completed.</source>
+          <target state="translated">3 番目のコマンドを使用して <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> ジョブが完了するまで待機します。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>When the job finishes, the command displays the job object, which contains information about the job.</source>
+          <target state="translated">ジョブが完了したら、コマンドは、ジョブに関する情報を含むジョブ オブジェクトを表示します。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Example 9: Wait for jobs started on remote computers by using Invoke-Command</source>
+          <target state="translated">Invoke-command コマンドレットを使用してリモート コンピューターで開始されたジョブの待機を 9 の使用例:</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>This example shows how to use <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> with jobs started on remote computers by using the <bpt id="p2">*</bpt>AsJob<ept id="p2">*</ept> parameter of <bpt id="p3">**</bpt>Invoke-Command<ept id="p3">**</ept>.</source>
+          <target state="translated">この例は、使用する方法を示しています。 <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> を使用してリモート コンピューターで開始されたジョブで、 <bpt id="p2">*</bpt>AsJob<ept id="p2">*</ept> のパラメーター <bpt id="p3">**</bpt>Invoke-command<ept id="p3">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>When using <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept>, the job is created on the local computer and the results are automatically returned to the local computer, even though the job runs on the remote computers.</source>
+          <target state="translated">使用する場合 <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept>, 、ジョブは、ローカル コンピューターで作成、およびローカル コンピューターには、リモート コンピューターで、ジョブの実行でも、結果が返さ自動的にします。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This example uses <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> to determine whether a <bpt id="p2">**</bpt>Get-Process<ept id="p2">**</ept> command running in the sessions on three remote computers is completed.</source>
+          <target state="translated">この例では <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> を判断するかどうか、 <bpt id="p2">**</bpt>Get-process<ept id="p2">**</ept> 3 台のリモート コンピューター上のセッションで実行中のコマンドが完了しました。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The first command creates <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> objects on three computers and stores them in the $s variable.</source>
+          <target state="translated">最初のコマンドは、作成 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 3 台のコンピューター上のオブジェクトし、$s 変数に格納します。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The second command uses <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> to run <bpt id="p2">**</bpt>Get-Process<ept id="p2">**</ept> in each of the three sessions in $s.</source>
+          <target state="translated">2 番目のコマンドを使用して <bpt id="p1">**</bpt>Invoke-command<ept id="p1">**</ept> を実行する <bpt id="p2">**</bpt>Get-process<ept id="p2">**</ept> $s 内の 3 つのセッションのそれぞれにします。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept> parameter to run the command asynchronously as a background job.</source>
+          <target state="translated">このコマンドは、 <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept> バック グラウンド ジョブとしてコマンドを非同期的に実行するパラメーターです。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The command returns a job object, just like the jobs started by using <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept>, and the job object is stored in the $j variable.</source>
+          <target state="translated">コマンドを使用して開始されたジョブと同じように、ジョブ オブジェクトを返す <bpt id="p1">**</bpt>Start-job<ept id="p1">**</ept>, 、ジョブ オブジェクトは $j 変数に保存されます。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The third command uses a pipeline operator (|) to send the job object in $j to the <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">3 番目のコマンドでは、$j 内のジョブ オブジェクトを送信する、パイプライン演算子 (|) を使用する、 <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> コマンドレットです。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> command is not required in this case, because the job resides on the local computer.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Invoke-command<ept id="p1">**</ept> コマンドは不要な場合は、ジョブがローカル コンピューター上にあるためです。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Example 10: Wait for a job that has an ID</source>
+          <target state="translated">10 の使用例: がという ID を持つジョブの待機します。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>This command waits for the job with an ID value of 1.</source>
+          <target state="translated">このコマンドは、ID 値が 1 であるジョブを待機します。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">パラメータ</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>-Any</source>
+          <target state="translated">-すべて</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet displays the command prompt, and returns the job object, when any job finishes.</source>
+          <target state="translated">このコマンドレットではコマンド プロンプトを表示、いずれかのジョブの完了時にジョブ オブジェクトを返すことを示します。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> waits until all of the specified jobs are complete before it displays the prompt.</source>
+          <target state="translated">既定では、 <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> 、プロンプトを表示する前にすべての指定したジョブが完了するまで待機します。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>-Filter</source>
+          <target state="translated">フィルター</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Specifies a hash table of conditions.</source>
+          <target state="translated">条件のハッシュ テーブルを指定します。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>This cmdlet waits for jobs that satisfy all of the conditions in the hash table.</source>
+          <target state="translated">このコマンドレットは、すべてのハッシュ テーブルで条件に適合するジョブを待機します。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Enter a hash table where the keys are job properties and the values are job property values.</source>
+          <target state="translated">ジョブのプロパティをキー、ジョブのプロパティ値を値とするハッシュ テーブルを入力します。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>This parameter works only on custom job types, such as workflow jobs and scheduled jobs.</source>
+          <target state="translated">このパラメーターは、ワークフロー ジョブ、スケジュールされたジョブなどの、カスタムのジョブの種類に対してのみ機能します。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>It does not work on standard background jobs, such as those created by using the <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">使用して作成したものなどの標準のバック グラウンド ジョブでは動作しません、 <bpt id="p1">**</bpt>Start-job<ept id="p1">**</ept> コマンドレットです。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>For information about support for this parameter, see the help topic for the job type.</source>
+          <target state="translated">このパラメーターのサポートについては、ジョブの種類のヘルプ トピックを参照してください。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet continues to wait for jobs in the Suspended or Disconnected state.</source>
+          <target state="translated">このコマンドレットが Suspended または Disconnected 状態のジョブの待機を続行することを示します。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> returns, or ends  the wait, when jobs are in one of the following states:</source>
+          <target state="translated">既定では、 <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> が返されるか、ジョブは、次の状態のいずれかでは、待機は終了します。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Completed</source>
+          <target state="translated">Completed</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Failed</source>
+          <target state="translated">Failed</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Stopped</source>
+          <target state="translated">［停止］</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Suspended</source>
+          <target state="translated">Suspended</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Disconnected</source>
+          <target state="translated">Disconnected</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>-Id</source>
+          <target state="translated">-Id</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Specifies an array of IDs of jobs for which this cmdlet waits.</source>
+          <target state="translated">このコマンドレットが待機するジョブの Id の配列を指定します。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The ID is an integer that uniquely identifies the job in the current session.</source>
+          <target state="translated">ID は、現在のセッションでジョブを一意に識別する整数です。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>It is easier to remember and type than the instance ID, but it is unique only in the current session.</source>
+          <target state="translated">記憶でき、インスタンス ID よりも入力する方が簡単ですが、現在のセッションでのみ一意であります。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>You can type one or more IDs, separated by commas.</source>
+          <target state="translated">コンマで区切られた 1 つまたは複数の Id を入力することができます。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>To find the ID of a job, type <ph id="ph1">`Get-Job`</ph>.</source>
+          <target state="translated">ジョブの ID を検索する次のように入力します。 <ph id="ph1">`Get-Job`</ph>します。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>-InstanceId</source>
+          <target state="translated">インスタンス Id</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Specifies an array of instance IDs of jobs for which this cmdlet waits.</source>
+          <target state="translated">このコマンドレットが待機するジョブのインスタンス Id の配列を指定します。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The default is all jobs.</source>
+          <target state="translated">既定値はすべてのジョブです。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>An instance ID is a GUID that uniquely identifies the job on the computer.</source>
+          <target state="translated">インスタンス ID は、コンピューター上のジョブを一意に識別する GUID です。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>To find the instance ID of a job, use <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept>.</source>
+          <target state="translated">ジョブのインスタンス ID を検索するには使用 <bpt id="p1">**</bpt>Get-job<ept id="p1">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>-Job</source>
+          <target state="translated">ジョブ</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Specifies the jobs for which this cmdlet waits.</source>
+          <target state="translated">このコマンドレットが待機するジョブを指定します。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the job objects or a command that gets the job objects.</source>
+          <target state="translated">ジョブ オブジェクトが格納されている変数、またはジョブ オブジェクトを取得するコマンドを入力します。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>You can also use a pipeline operator to send job objects to the <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">パイプライン演算子を使用してジョブ オブジェクトを送信する、 <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> コマンドレットです。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> waits for all jobs created in the current session.</source>
+          <target state="translated">既定では、 <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> の現在のセッションで作成されたすべてのジョブを待機します。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Specifies friendly names of jobs for which this cmdlet waits.</source>
+          <target state="translated">このコマンドレットが待機するジョブのフレンドリ名を指定します。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>-State</source>
+          <target state="translated">状態</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Specifies a job state.</source>
+          <target state="translated">ジョブの状態を指定します。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>This cmdlet waits only for jobs in the specified state.</source>
+          <target state="translated">このコマンドレットは、指定した状態でのジョブだけ待機します。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">このパラメーターに対して使用できる値:</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>NotStarted</source>
+          <target state="translated">未開始</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Running</source>
+          <target state="translated">実行中</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Completed</source>
+          <target state="translated">Completed</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Failed</source>
+          <target state="translated">Failed</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Stopped</source>
+          <target state="translated">［停止］</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Blocked</source>
+          <target state="translated">［ブロック済み］</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Suspended</source>
+          <target state="translated">Suspended</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Disconnected</source>
+          <target state="translated">Disconnected</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Suspending</source>
+          <target state="translated">中断します。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Stopping</source>
+          <target state="translated">Stopping</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>For more information about job states, see JobState Enumerationhttp://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.jobstate(v=vs.85).aspx (http://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.jobstate(v=vs.85).aspx) in the Microsoft Developer Network (MSDN).</source>
+          <target state="translated">ジョブの状態の詳細については、JobState Enumerationhttp://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.jobstate (v=vs.85).aspx (Microsoft Developer Network (MSDN) で http://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.jobstate (v=vs.85).aspx) を参照してください。。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>-Timeout</source>
+          <target state="translated">タイムアウト</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum wait time for each background job, in seconds.</source>
+          <target state="translated">までの最大待機時間、バック グラウンド ジョブごとに (秒) を指定します。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The default value, -1, indicates that the cmdlet waits until the job finishes.</source>
+          <target state="translated">既定値の-1 の場合は、ジョブが終了するまでに、コマンドレットが待機することを示します。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The timing starts when you submit the <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> command, not the <bpt id="p2">**</bpt>Start-Job<ept id="p2">**</ept> command.</source>
+          <target state="translated">送信するときに、タイミングを起動、 <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> コマンドは、 <bpt id="p2">**</bpt>Start-job<ept id="p2">**</ept> コマンドです。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>If this time is exceeded, the wait ends and the command prompt returns, even if the job is still running.</source>
+          <target state="translated">この時間を超えた場合、ジョブがまだ実行中でも、待機が終了し、コマンド プロンプトが返されます。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The command does not display any error message.</source>
+          <target state="translated">コマンドでは、すべてのエラー メッセージは表示されません。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">このコマンドレットは、共通のパラメーターをサポートしています:-デバッグ、-erroraction、-errorvariable、- InformationAction-InformationVariable、- OutVariable、-OutBuffer、- PipelineVariable、- Verbose、および - WarningVariable です。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">詳細については、about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">入力</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.RemotingJob</source>
+          <target state="translated">System.Management.Automation.RemotingJob</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>You can pipe a job object to this cmdlet.</source>
+          <target state="translated">このコマンドレットへのジョブ オブジェクトをパイプすることができます。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">出力</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSRemotingJob</source>
+          <target state="translated">System.Management.Automation.PSRemotingJob</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>This cmdlet returns job objects that represent the completed jobs.</source>
+          <target state="translated">このコマンドレットでは、完了したジョブを表すジョブ オブジェクトを返します。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>If the wait ends because the value of the <bpt id="p1">*</bpt>Timeout<ept id="p1">*</ept> parameter is exceeded, <bpt id="p2">**</bpt>Wait-Job<ept id="p2">**</ept> does not return any objects.</source>
+          <target state="translated">に、待機が終了した場合の値、 <bpt id="p1">*</bpt>タイムアウト<ept id="p1">*</ept> パラメーターを超過すると、 <bpt id="p2">**</bpt>Wait-job<ept id="p2">**</ept> はすべてのオブジェクトを返しません。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ノート</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> returns, or ends the wait, when jobs are in one of the following states:</source>
+          <target state="translated">既定では、 <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> が返されるか、ジョブは、次の状態のいずれかでは、待機は終了します。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Completed</source>
+          <target state="translated">Completed</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Failed</source>
+          <target state="translated">Failed</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Stopped</source>
+          <target state="translated">［停止］</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Suspended</source>
+          <target state="translated">Suspended</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Disconnected To direct <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> to continue to wait for Suspended and Disconnected jobs, use the <bpt id="p2">*</bpt>Force<ept id="p2">*</ept> parameter.</source>
+          <target state="translated">切断を直接 <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> 保留および切断されているジョブの待機するのでは引き続き使用して、 <bpt id="p2">*</bpt>Force<ept id="p2">*</ept> パラメーター。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">関連リンク</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Get-Job</source>
+          <target state="translated">Get-job</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Invoke-Command</source>
+          <target state="translated">Invoke-Command</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Receive-Job</source>
+          <target state="translated">ジョブが表示されます。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Remove-Job</source>
+          <target state="translated">ジョブの削除</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Resume-Job</source>
+          <target state="translated">Resume-Job</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Start-Job</source>
+          <target state="translated">ジョブの開始</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Stop-Job</source>
+          <target state="translated">停止ジョブ</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Suspend-Job</source>
+          <target state="translated">Suspend-Job</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>about_Jobs</source>
+          <target state="translated">about_Jobs</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>about_Job_Details</source>
+          <target state="translated">about_Job_Details</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>about_Remote_Jobs</source>
+          <target state="translated">about_Remote_Jobs</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>about_Remote_Variables</source>
+          <target state="translated">about_Remote_Variables</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
