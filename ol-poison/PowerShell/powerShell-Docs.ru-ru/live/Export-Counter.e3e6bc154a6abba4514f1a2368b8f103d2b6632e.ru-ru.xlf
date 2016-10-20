@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b95eb6a639709509dc54df034340cf73555bba17</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Diagnostics\Export-Counter.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2a4e78e1daa61e74a4a9cbb1a3491c8aa3c0ef57</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cbaf3cb108b02c6c07224e34b80a18171059703b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell, командлет</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Export-Counter</source>
+          <target state="translated">Export-Counter</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Export-Counter</source>
+          <target state="translated">Export-Counter</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">КРАТКИЙ ОБЗОР</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The Export-Counter cmdlet takes PerformanceCounterSampleSet objects and exports them as counter log files.</source>
+          <target state="translated">Командлет Export-Counter принимает объекты PerformanceCounterSampleSet и экспортирует их в виде файлов журнала счетчика.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">СИНТАКСИС</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">ОПИСАНИЕ</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The Export-Counter cmdlet exports performance counter data (PerformanceCounterSampleSet objects) to log files in binary performance log (.blg), comma-separated value (.csv), or tab-separated value (.tsv) format.</source>
+          <target state="translated">Командлет Export-Counter экспортирует данные счетчика производительности (объекты PerformanceCounterSampleSet) в файлы журналов в формате BLG, CSV или TSV.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can use this cmdlet to log or relog performance counter data.</source>
+          <target state="translated">Можно использовать этот командлет для регистрации или повторной регистрации данных счетчиков производительности.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Export-Counter is designed to export data that is returned by the Get-Counter and Import-Counter cmdlets.</source>
+          <target state="translated">Командлет Export-Counter предназначен для экспорта данных, возвращаемых командлетами Get-Counter и Import-Counter.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Note: Export-Counter runs only on Windows 7, Windows Server 2008 R2, and later versions of Windows.</source>
+          <target state="translated">Примечание: Export-Counter выполняется только на Windows 7, Windows Server 2008 R2 и более поздних версиях Windows.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">ПРИМЕРЫ</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- ПРИМЕР 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This command exports counter data to a .blg file.</source>
+          <target state="translated">Эта команда экспортирует данные счетчиков в BLG-файл.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The command uses the Get-Counter cmdlet to collect processor time data.</source>
+          <target state="translated">Команда использует командлет Get-Counter для сбора данных о времени процессора.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>It uses a pipeline operator (|) to send the data to the <bpt id="p1">**</bpt>Export-Counter<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">Использует оператор конвейера (|) для отправки данных для <bpt id="p1">**</bpt>Export-Counter<ept id="p1">**</ept> командлета.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Export-Counter<ept id="p1">**</ept> command uses the <bpt id="p2">**</bpt>Path<ept id="p2">**</ept> variable to specify the output file.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Export-Counter<ept id="p1">**</ept> команда использует <bpt id="p2">**</bpt>путь<ept id="p2">**</ept> переменную для указания выходного файла.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Because the data set might be very large, this command sends the data to <bpt id="p1">**</bpt>Export-Counter<ept id="p1">**</ept> through the pipeline.</source>
+          <target state="translated">Так как набор данных может быть очень большим, эта команда отправляет данные в <bpt id="p1">**</bpt>Export-Counter<ept id="p1">**</ept> через конвейер.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If the data were saved in a variable, the command might use a disproportionate amount of memory.</source>
+          <target state="translated">Если данные были сохранены в переменной, команда может использовать непропорциональный объем памяти.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>These commands convert a CSV file to a counter data BLG format.</source>
+          <target state="translated">Эти команды преобразуют CSV-файл в BLG-формат данных счетчика.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This example shows how to get performance counter data from a remote computer and save the data in a file on the remote computer.</source>
+          <target state="translated">В этом примере показано, как получить данные счетчиков производительности с удаленного компьютера и сохранить данные в файл на удаленном компьютере.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the Import-Counter and <bpt id="p1">**</bpt>Export-Counter<ept id="p1">**</ept> cmdlets to re-log existing data.</source>
+          <target state="translated">В этом примере показано, как использовать Import-Counter и <bpt id="p1">**</bpt>Export-Counter<ept id="p1">**</ept> для повторной регистрации существующих данных.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">ПАРАМЕТРЫ</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-Circular</source>
+          <target state="translated">-Циклическое</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Indicates that output file should be a circular log with first in, first out (FIFO) format.</source>
+          <target state="translated">Указывает, что выходной файл должен являться циклическим журналом в формате FIFO (в порядке поступления).</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>When you include this parameter, the <bpt id="p1">**</bpt>MaxSize<ept id="p1">**</ept> parameter is required.</source>
+          <target state="translated">При включении этого параметра <bpt id="p1">**</bpt>MaxSize<ept id="p1">**</ept> параметр является обязательным.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-FileFormat</source>
+          <target state="translated">-FileFormat</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Specifies the output format of the output log file.</source>
+          <target state="translated">Задает выходной формат выходного файла журнала.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Valid values are CSV, TSV, and BLG.</source>
+          <target state="translated">Допустимые значения: CSV, TSV и BLG.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The default value is BLG.</source>
+          <target state="translated">Значение по умолчанию: BLG.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Overwrites and replaces an existing file if one exists in the location specified by the Path parameter.</source>
+          <target state="translated">Перезаписывает и заменяет существующий файл, если он существует в расположении, указанном параметром Path.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-InputObject</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Specifies the counter data to export.</source>
+          <target state="translated">Указывает данные счетчиков для экспорта.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the data or a command that gets the data, such as a Get-Counter or Import-Counter command.</source>
+          <target state="translated">Введите переменную, которая содержит данные, или команду, которая получает данные, например Get-Counter или Import-Counter.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>-MaxSize</source>
+          <target state="translated">-MaxSize</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum size of the output file.</source>
+          <target state="translated">Задает максимальный размер выходного файла.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If the Circular parameter is specified, then when the log file reaches the specified maximum size, the oldest entries are deleted as newer ones are added.</source>
+          <target state="translated">Если задан параметр Circular, то при достижении файлом журнала указанного максимального размера самые старые записи удаляются по мере добавления новых.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>If the Circular parameter is not specified, then when the log file reaches the specified maximum size, no new data is added and the cmdlet generates a non-terminating error.</source>
+          <target state="translated">Если параметр Circular не указан, то при достижении файлом журнала заданного максимального размера новые данные не добавляются и командлет создает устранимую ошибку.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>-Path</source>
+          <target state="translated">-Path</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Specifies the path and file name of the output file.</source>
+          <target state="translated">Задает путь и имя выходного файла.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Enter a relative or absolute path on the local computer, or a Uniform Naming Convention (UNC) path to a remote computer, such as <ph id="ph1">\\\\</ph>Computer\Share\file.blg.</source>
+          <target state="translated">Введите относительный или абсолютный путь на локальном компьютере или пути универсального соглашения об именах (UNC) к удаленному компьютеру, например <ph id="ph1">\\\\</ph>Computer\Share\file.blg.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This parameter is required.</source>
+          <target state="translated">Это обязательный параметр.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Note: The file format is determined by the value of the FileFormat parameter, not by the file name extension in the path.</source>
+          <target state="translated">Примечание: Формат файла определяется по значению параметра FileFormat, а не по расширению имени файла в пути.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Этот командлет поддерживает общие параметры:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction и - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Дополнительные сведения см. в разделе about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ВХОДНЫЕ ДАННЫЕ</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Microsoft.PowerShell.Commands.GetCounter.PerformanceCounterSampleSet</source>
+          <target state="translated">Microsoft.PowerShell.Commands.GetCounter.PerformanceCounterSampleSet</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>You can pipe performance counter data from Get-Counter or Import-Counter to Export-Counter.</source>
+          <target state="translated">Данные производительности из командлета Get-Counter или Import-Counter можно передать в Export-Counter.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">ВЫХОДНЫЕ ДАННЫЕ</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">Нет</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ПРИМЕЧАНИЯ</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The log file generator expects that all input objects have the same counter path and that the objects are arranged in ascending time order.</source>
+          <target state="translated">Генератор файлов журнала ожидает, что все входные объекты имеют один и тот же путь счетчика и объекты располагаются в порядке возрастания по времени.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The counter type and path of the first input object determines the properties recorded in the log file.</source>
+          <target state="translated">Тип счетчика и путь первого входного объекта определяет свойства, записываемые в файл журнала.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If other input objects do not have a value for a recorded property, the property field is empty.</source>
+          <target state="translated">Если другие входные объекты не имеют значений для записанного свойства, поле свойства будет пустым.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If the objects have property values that were not recorded, the extra property values are ignored.</source>
+          <target state="translated">Если объекты имеют значения свойств, которые не были записаны, дополнительные значения свойств игнорируются.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Performance Monitor might not be able to read all logs that Export-Counter generates.</source>
+          <target state="translated">Возможно, системный монитор не сможет считывать все журналы, создаваемые командлетом Export-Counter.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>For example, Performance Monitor requires that all objects have the same path and that all objects are separated by the same time interval.</source>
+          <target state="translated">Например, монитор производительности требует, чтобы все объекты имели один и тот же путь и были разделены одинаковыми временными интервалами.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The Import-Counter cmdlet does not have a ComputerName parameter.</source>
+          <target state="translated">Командлет Import-Counter не использует параметр ComputerName.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>However, if the computer is configured for Windows PowerShell remoting, you can use the Invoke-Command cmdlet to run an Import-Counter command on a remote computer.</source>
+          <target state="translated">Однако если компьютер настроен для удаленного взаимодействия Windows PowerShell, с помощью командлета Invoke-Command можно выполнить команду Import-Counter на удаленном компьютере.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">СВЯЗАННЫЕ ССЫЛКИ</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Get-Counter</source>
+          <target state="translated">Get-Counter</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Import-Counter</source>
+          <target state="translated">Import-Counter</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

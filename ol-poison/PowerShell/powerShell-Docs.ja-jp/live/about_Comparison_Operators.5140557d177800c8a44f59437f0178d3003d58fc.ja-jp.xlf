@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">42542eb3d4982d6d7cfa811958e9a43e68e9b81b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Core\About\about_Comparison_Operators.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8816eb8f3a874a7bf1b2d259fad4e7fd7679782f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d1245e24d5c3b795f59724009c5fbd71bcda2dec</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>about_Comparison_Operators</source>
+          <target state="translated">about_Comparison_Operators</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>About Comparison Operators</source>
+          <target state="translated">比較演算子の概要</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>about_Comparison_Operators</source>
+          <target state="translated">about_Comparison_Operators</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>about_Comparison_Operators</source>
+          <target state="translated">about_Comparison_Operators</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Describes the operators that compare values in Windows PowerShell.</source>
+          <target state="translated">Windows PowerShell の値を比較する演算子について説明します。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>LONG DESCRIPTION</source>
+          <target state="translated">詳細説明</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Comparison operators let you specify conditions for comparing values and finding values that match specified patterns.</source>
+          <target state="translated">比較演算子を使用して、値を比較して、指定したパターンに一致する値を検索するための条件を指定できます。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To use a comparison operator, specify the values that you want to compare together with an operator that separates these values.</source>
+          <target state="translated">比較演算子を使用するには、これらの値を区切る演算子と比較する値を指定します。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell includes the following comparison operators:</source>
+          <target state="translated">Windows PowerShell には、次の比較演算子が含まれています。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>-eq -ne -gt -ge -lt -le -Like -NotLike -Match -NotMatch -Contains -NotContains -In -NotIn -Replace</source>
+          <target state="translated">-eq-ne-gt-ge lt-le-などの NotLike --notmatch を一致-- NotContains が含まれています-- ないでの置換</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>By default, all comparison operators are case-insensitive.</source>
+          <target state="translated">既定では、すべての比較演算子が区別されます。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To make a comparison operator case-sensitive, precede the operator name with a "c".</source>
+          <target state="translated">比較演算子の大文字小文字を区別するには、前に、"c"でオペレーター名を付けます。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For example, the case-sensitive version of "-eq" is "-ceq".</source>
+          <target state="translated">たとえば、大文字小文字を区別バージョンの"-eq"は"-ceq"です。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To make the case-insensitivity explicit, precede the operator with an "i".</source>
+          <target state="translated">"I"を持つ演算子の前に、これを明示的にします。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For example, the explicitly case-insensitive version of "-eq" is "-ieq".</source>
+          <target state="translated">明示的に小文字を区別しないバージョンのたとえば、"-eq"は"-ieq"です。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>When the input to an operator is a scalar value, comparison operators return a Boolean value.</source>
+          <target state="translated">オペレーターへの入力がスカラー値の場合は、比較演算子はブール値を返します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>When the input is a collection of values, the comparison operators return any matching values.</source>
+          <target state="translated">入力が値のコレクションの場合、比較演算子は、一致する値を返します。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If there are no matches in a collection, comparison operators do not return anything.</source>
+          <target state="translated">コレクション内の一致しない場合は、比較演算子は何も返さない。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The exceptions are the containment operators (-Contains, -NotContains), the In operators (-In, -NotIn), and the type operators (-Is, -IsNot), which always return a Boolean value.</source>
+          <target state="translated">例外は、包含構造演算子 (-- NotContains を含む)、In 演算子 (-- ないで) と型演算子 (-- IsNot は) を常にブール値を返します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell supports the following comparison operators.</source>
+          <target state="translated">Windows PowerShell には、次の比較演算子がサポートしています。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>-eq Description: Equal to.</source>
+          <target state="translated">-eq 説明: と同じです。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Includes an identical value.</source>
+          <target state="translated">同一の値が含まれます。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Example:</source>
+          <target state="translated">次に例を示します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "abc" -eq "abc" True</source>
+          <target state="translated">PS c: &gt;"abc"-eq"abc"は True。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "abc" -eq "abc", "def" False</source>
+          <target state="translated">PS c: &gt;"abc"-eq"abc","def"False</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "abc", "def" -eq "abc" abc</source>
+          <target state="translated">PS c: &gt;"abc","def"-eq"abc"abc</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>-ne Description: Not equal to.</source>
+          <target state="translated">-ne 説明します。 等しくないです。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Includes a different value.</source>
+          <target state="translated">別の値が含まれます。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Example:</source>
+          <target state="translated">次に例を示します。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "abc" -ne "def" True</source>
+          <target state="translated">PS c: &gt;"abc"-ne"def"は True</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "abc" -ne "abc" False</source>
+          <target state="translated">PS c: &gt;"abc"-ne"abc"は False</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "abc" -ne "abc", "def" True</source>
+          <target state="translated">PS c: &gt;"abc"-ne"abc","def"は True</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "abc", "def" -ne "abc" def</source>
+          <target state="translated">PS c: &gt;"abc","def"-ne"abc"の定義</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>-gt Description: Greater-than.</source>
+          <target state="translated">-gt 説明: 大きい-よりもします。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Example:</source>
+          <target state="translated">次に例を示します。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; 8 -gt 6 True</source>
+          <target state="translated">C: &gt; 8-gt 6 True PS</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; 7, 8, 9 -gt 8</source>
+          <target state="translated">PS c: &gt; 7、8、9-gt 8</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>9</source>
+          <target state="translated">9</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>-ge Description: Greater-than or equal to.</source>
+          <target state="translated">-ge 説明: 大きいの値以下にします。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Example:</source>
+          <target state="translated">次に例を示します。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; 8 -ge 8 True</source>
+          <target state="translated">C: &gt; 8-ge 8 True PS</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; 7, 8, 9 -ge 8</source>
+          <target state="translated">PS c: &gt; 7、8、9-ge 8</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>8</source>
+          <target state="translated">8</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>9</source>
+          <target state="translated">9</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>-lt Description: Less-than.</source>
+          <target state="translated">-lt 説明: 低い-よりもします。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Example:</source>
+          <target state="translated">次に例を示します。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; 8 -lt 6 False</source>
+          <target state="translated">C: &gt; 8-lt 6 False PS</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; 7, 8, 9 -lt 8</source>
+          <target state="translated">PS c: &gt; 7、8、9 - lt 8</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>7</source>
+          <target state="translated">7</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>-le Description: Less-than or equal to.</source>
+          <target state="translated">-le 説明: 未満の値以下にします。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Example:</source>
+          <target state="translated">次に例を示します。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; 6 -le 8 True</source>
+          <target state="translated">PS c: &gt; 6 - le 8 True</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; 7, 8, 9 -le 8</source>
+          <target state="translated">PS c: &gt; 7、8、9 - le 8</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>7</source>
+          <target state="translated">7</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>8</source>
+          <target state="translated">8</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>-Like Description: Match using the wildcard character (*).</source>
+          <target state="translated">Like の説明: は、ワイルドカード文字 (*) を使用すると一致します。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Example:</source>
+          <target state="translated">次に例を示します。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Windows PowerShell" -like "*shell" True</source>
+          <target state="translated">PS c: &gt;"Windows PowerShell"のように"* シェル"は True。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Windows PowerShell", "Server" -like "*shell" Windows PowerShell</source>
+          <target state="translated">PS c: &gt;"Windows PowerShell"、"Server"のように"* シェル"Windows PowerShell</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>-NotLike Description: Does not match using the wildcard character (*).</source>
+          <target state="translated">NotLike 説明: では、ワイルドカード文字 (*) を使用することはありません。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Example:</source>
+          <target state="translated">次に例を示します。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Windows PowerShell" -NotLike "*shell" False</source>
+          <target state="translated">PS c: &gt;"Windows PowerShell"の NotLike"* シェル"False</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Windows PowerShell", "Server" -NotLike "*shell" Server</source>
+          <target state="translated">PS c: &gt;"Windows PowerShell"、"Server"の NotLike"* シェル"サーバー</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>-Match Description: Matches a string using regular expressions.</source>
+          <target state="translated">一致の説明: では、正規表現を使用する文字列と一致します。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>When the input is scalar, it populates the $Matches automatic variable.</source>
+          <target state="translated">入力がスカラーでは、$Matches 自動変数を設定します。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Example:</source>
+          <target state="translated">次に例を示します。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Sunday" -Match "sun" True</source>
+          <target state="translated">PS c: &gt;"Sunday"、"sun"は True と一致</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $matches Name Value</source>
+          <target state="translated">PS c: &gt; $matches 名前の値</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>0    Sun</source>
+          <target state="translated">0 Sun</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Sunday", "Monday" -Match "sun" Sunday</source>
+          <target state="translated">PS c: &gt;"Sunday"、"Monday"、"sun"日曜日の一致</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>-NotMatch Description: Does not match a string.</source>
+          <target state="translated">-Notmatch 説明: 文字列は一致しません。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Uses regular expressions.</source>
+          <target state="translated">正規表現を使用します。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>When the input is scalar, it populates the $Matches automatic variable.</source>
+          <target state="translated">入力がスカラーでは、$Matches 自動変数を設定します。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Example:</source>
+          <target state="translated">次に例を示します。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Sunday" -NotMatch "sun" False</source>
+          <target state="translated">PS c: &gt;"Sunday"-notmatch"sun"False</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $matches Name Value</source>
+          <target state="translated">PS c: &gt; $matches 名前の値</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>0    sun</source>
+          <target state="translated">0 sun</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Sunday", "Monday" -NotMatch "sun" Monday</source>
+          <target state="translated">PS c: &gt;-notmatch が月曜日を「日」して"Sunday"、"Monday"</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>-Contains Description: Containment operator.</source>
+          <target state="translated">説明が含まれています。 包含演算子です。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Tells whether a collection of reference values includes a single test value.</source>
+          <target state="translated">参照値のコレクションが 1 つのテスト値を含めるかどうかを指示します。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Always returns a Boolean value.</source>
+          <target state="translated">常にブール値を返します。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Returns TRUE only when the test value exactly matches at least one of the reference values.</source>
+          <target state="translated">テスト値が正確に一致する参照値の少なくとも 1 つの場合にのみ、TRUE を返します。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>When the test value is a collection, the Contains operator uses reference equality.</source>
+          <target state="translated">テスト値がコレクションの場合は、Contains 演算子は参照の等価性を使用します。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>It returns TRUE only when one of the reference values is the same instance of the test value object.</source>
+          <target state="translated">テスト値オブジェクトの同じインスタンスで参照値のいずれかの場合にのみ、TRUE を返します。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Syntax: &lt;Reference-values&gt; -Contains &lt;Test-value&gt;</source>
+          <target state="translated">構文: &lt; 参照値 &gt;-&lt; テスト値 &gt; が含まれています</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Examples:</source>
+          <target state="translated">例:</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "abc", "def" -Contains "def" True</source>
+          <target state="translated">PS c: &gt;"abc","def"-"def"True が含まれています</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Windows", "PowerShell" -Contains "Shell" False  #Not an exact match</source>
+          <target state="translated">PS c: &gt;"Windows"、"PowerShell"-「シェル」False #Not と完全に一致が含まれています</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Does the list of computers in $domainServers include $thisComputer?</source>
+          <target state="translated">$DomainServers 内のコンピューターの一覧は $thisComputer を含めますか。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $domainServers -Contains $thisComputer True</source>
+          <target state="translated">PS c: &gt; $domainServers-$thisComputer、True を含む</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "abc", "def", "ghi" -Contains "abc", "def" False</source>
+          <target state="translated">PS c: &gt;"abc","def","ghi"-"def"False"abc"が含まれています</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $a = "abc", "def" PS C:&gt; "abc", "def", "ghi" -Contains $a False PS C:&gt; $a, "ghi" -Contains $a True</source>
+          <target state="translated">PS c: &gt; $a ="abc","def"PS c: &gt;"abc","def","ghi"-False PS c: $a を含む &gt;"ghi"に、$a True $a が含まれています</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>-NotContains Description: Containment operator.</source>
+          <target state="translated">NotContains 説明: 包含演算子。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Tells whether a collection of reference values includes a single test value.</source>
+          <target state="translated">参照値のコレクションが 1 つのテスト値を含めるかどうかを指示します。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Always returns a Boolean value.</source>
+          <target state="translated">常にブール値を返します。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Returns TRUE when the test value is not an exact matches for at least one of the reference values.</source>
+          <target state="translated">テスト値が参照値の少なくとも 1 つに正確に一致するものである場合は、TRUE を返します。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>When the test value is a collection, the NotContains operator uses reference equality.</source>
+          <target state="translated">テスト値がコレクションの場合は、NotContains 演算子は参照の等価性を使用します。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Syntax: &lt;Reference-values&gt; -NotContains &lt;Test-value&gt;</source>
+          <target state="translated">構文: &lt; 参照値 &gt; NotContains &lt; テスト値 &gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Examples:</source>
+          <target state="translated">例:</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Windows", "PowerShell" -NotContains "Shell" True  #Not an exact match</source>
+          <target state="translated">PS c: &gt;"Windows"、"PowerShell"NotContains「シェル」は True #Not と完全に一致。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Get cmdlet parameters, but exclude common parameters function get-parms ($cmdlet) { $Common = "Verbose", "Debug", "WarningAction", "WarningVariable", ` "ErrorAction", "ErrorVariable", "OutVariable", "OutBuffer"</source>
+          <target state="translated">コマンドレット パラメーターの取得は、一般的なパラメーター関数 get-parms ($cmdlet) を除外 {$Common ="Verbose"、"Debug"、"WarningAction"、"WarningVariable"'"ErrorAction"、"ErrorVariable"、"OutVariable"、"OutBuffer"</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>$allparms = (Get-Command $Cmdlet).parametersets | foreach {$<bpt id="p1">_</bpt>.Parameters} | ` foreach {$<ept id="p1">_</ept>.Name} | Sort-Object | Get-Unique</source>
+          <target state="translated">$allparms = (Get-command $Cmdlet) .parametersets |foreach {$<bpt id="p1">_</bpt>です。パラメーター} |' foreach {$<ept id="p1">_</ept>です。Name} |Sort-object は、|Get-unique</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>$allparms | where {$Common -NotContains $_ } }</source>
+          <target state="translated">$allparms |ここで {$Common - NotContains $_}}</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Find unapproved verbs in the functions in my module</source>
+          <target state="translated">[モジュールの関数で認められていない動詞を検索します。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $ApprovedVerbs = Get-Verb | foreach {$<bpt id="p1">_</bpt>.verb} PS C:&gt; $myVerbs = Get-Command -Module MyModule | foreach {$<ept id="p1">_</ept>.verb}</source>
+          <target state="translated">PS c: &gt; $ApprovedVerbs Get 動詞を = |foreach {$<bpt id="p1">_</bpt>.verb} PS c: &gt; $myVerbs = Get-command-モジュール MyModule | foreach {$<ept id="p1">_</ept>.verb}</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $myVerbs | where {$ApprovedVerbs -NotContains $_} ForEach Sort Tee Where</source>
+          <target state="translated">PS c: &gt; $myVerbs |{$ApprovedVerbs - NotContains $_} ForEach 並べ替えが Where を Tee</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>-In Description: In operator.</source>
+          <target state="translated">説明: In 演算子。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Tells whether a test value appears in a collection of reference values.</source>
+          <target state="translated">参照値のコレクション内にテスト値があるかどうかを指示します。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Always return as Boolean value.</source>
+          <target state="translated">常にブール値として返します。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Returns TRUE only when the test value exactly matches at least one of the reference values.</source>
+          <target state="translated">テスト値が正確に一致する参照値の少なくとも 1 つの場合にのみ、TRUE を返します。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>When the test value is a collection, the In operator uses reference equality.</source>
+          <target state="translated">テスト値がコレクションの場合は、In 演算子は参照の等価性を使用します。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>It returns TRUE only when one of the reference values is the same instance of the test value object.</source>
+          <target state="translated">テスト値オブジェクトの同じインスタンスで参照値のいずれかの場合にのみ、TRUE を返します。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The In operator was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">In 演算子は、Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Syntax: &lt;Test-value&gt; -in &lt;Reference-values&gt;</source>
+          <target state="translated">構文: &lt; テスト値 &gt;-&lt; 参照値 &gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Examples:</source>
+          <target state="translated">例:</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "def" -in "abc", "def" True</source>
+          <target state="translated">PS c: &gt;"def"-"def"True"abc"</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Shell" -in "Windows", "PowerShell" False  #Not an exact match</source>
+          <target state="translated">PS c: &gt;「シェル」-"Windows"、"PowerShell"False #Not 完全一致で</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Windows" -in "Windows", "PowerShell" True  #An exact match</source>
+          <target state="translated">PS c: &gt;"Windows"-"Windows"、"PowerShell"真に #An 完全一致</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Windows", "PowerShell" -in "Windows", "PowerShell", "ServerManager" False  #Using reference equality</source>
+          <target state="translated">PS c: &gt;"Windows"、"PowerShell"-"Windows"、"PowerShell"で"ServerManager"False #Using 参照の等価性</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $a = "Windows", "PowerShell" PS C:&gt; $a -in $a, "ServerManager" True  #Using reference equality</source>
+          <target state="translated">PS c: &gt; a ="Windows"、"PowerShell"PS c: $&gt; $-$"ServerManager", True #Using 参照の等価性</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Does the list of computers in $domainServers include $thisComputer?</source>
+          <target state="translated">$DomainServers 内のコンピューターの一覧は $thisComputer を含めますか。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $thisComputer -in  $domainServers True</source>
+          <target state="translated">PS c: &gt; $thisComputer-$domainServers で True</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>-NotIn Description: NotIn operator.</source>
+          <target state="translated">ない説明: ない演算子。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Tells whether a test value appears in a collection of reference values.</source>
+          <target state="translated">参照値のコレクション内にテスト値があるかどうかを指示します。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Always returns a Boolean value.</source>
+          <target state="translated">常にブール値を返します。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Returns TRUE when the test value is not an exact match for at least one of the reference values.</source>
+          <target state="translated">テスト値が完全に一致する参照値の少なくとも 1 つである場合は、TRUE を返します。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>When the test value is a collection, the In operator uses reference equality.</source>
+          <target state="translated">テスト値がコレクションの場合は、In 演算子は参照の等価性を使用します。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>It returns TRUE only when one of the reference values is the same instance of the test value object.</source>
+          <target state="translated">テスト値オブジェクトの同じインスタンスで参照値のいずれかの場合にのみ、TRUE を返します。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The NotIn operator was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">ない演算子は、Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Syntax: &lt;Test-value&gt; -NotIn &lt;Reference-values&gt;</source>
+          <target state="translated">構文: &lt; テスト値 &gt; ない &lt; 参照値 &gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Examples:</source>
+          <target state="translated">例:</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "def" -NotIn "abc", "def" False</source>
+          <target state="translated">PS c: &gt;"def"でない"abc","def"False</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "ghi" -NotIn "abc", "def" True</source>
+          <target state="translated">PS c: &gt;"ghi"でない"abc","def"は True</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Shell" -NotIn "Windows", "PowerShell" True  #Not an exact match</source>
+          <target state="translated">PS c: &gt;「シェル」でない"Windows"、"PowerShell"の場合は True #Not と完全に一致。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Windows" -NotIn "Windows", "PowerShell" False  #An exact match</source>
+          <target state="translated">PS c: &gt;"Windows"のない"Windows"、"PowerShell"False #An 完全一致</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Find unapproved verbs in the functions in my module</source>
+          <target state="translated">[モジュールの関数で認められていない動詞を検索します。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $ApprovedVerbs = Get-Verb | foreach {$<bpt id="p1">_</bpt>.verb} PS C:&gt; $myVerbs = Get-Command -Module MyModule | foreach {$<ept id="p1">_</ept>.verb}</source>
+          <target state="translated">PS c: &gt; $ApprovedVerbs Get 動詞を = |foreach {$<bpt id="p1">_</bpt>.verb} PS c: &gt; $myVerbs = Get-command-モジュール MyModule | foreach {$<ept id="p1">_</ept>.verb}</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $myVerbs | where {$_ -NotIn $ApprovedVerbs} ForEach Sort Tee Where</source>
+          <target state="translated">PS c: &gt; $myVerbs |{$_ のない $ApprovedVerbs} ForEach 並べ替えが Where を Tee</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>-Replace Description: Replace operator.</source>
+          <target state="translated">置換の説明: Replace 演算子。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Changes the specified elements of a value.</source>
+          <target state="translated">値の指定した要素を変更します。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Example:</source>
+          <target state="translated">次に例を示します。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Get-Process" -Replace "Get", "Stop" Stop-Process</source>
+          <target state="translated">PS c: &gt;"Get-process"-"Get"、"Stop"Stop-process を置き換える</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Change all .GIF file name extension to .JPG PS C:&gt; dir *.gif | foreach {$_ -Replace ".gif", ".jpg"}</source>
+          <target state="translated">すべてを変更します。GIF ファイル名拡張子。JPG PS c: &gt; dir *.gif |foreach {$_-置換".gif"、".jpg"}</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Equality Operators The equality operators (-eq, -ne) return a value of TRUE or the matches when one or more of the input values is identical to the specified pattern.</source>
+          <target state="translated">等値演算子は等値演算子 (-eq、ne) 1 つ以上の入力値が指定したパターンと同じ場合に TRUE またはの一致項目の値を返します。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The entire pattern must match an entire value.</source>
+          <target state="translated">パターン全体は、全体の値と一致する必要があります。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>C:PS&gt; 2 -eq 2 True</source>
+          <target state="translated">C:PS &gt; 2-eq 2 True</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>C:PS&gt; 2 -eq 3 False</source>
+          <target state="translated">C:PS &gt; 2-eq 3 False</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>C:PS&gt; 1,2,3 -eq 2</source>
+          <target state="translated">C:PS &gt; 1,2,3 eq 2</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>2</source>
+          <target state="translated">2</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>C:PS&gt; "PowerShell" -eq "Shell" False</source>
+          <target state="translated">C:PS &gt;"PowerShell"-eq「シェル」False</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>C:PS&gt; "Windows", "PowerShell" -eq "Shell"</source>
+          <target state="translated">C:PS &gt;"Windows"、"PowerShell"-eq「シェル」</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>C:PS&gt;</source>
+          <target state="translated">C:PS &gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "abc", "def", "123" -eq "def" def</source>
+          <target state="translated">PS c: &gt;"abc","def",「123」-eq"def"def</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "abc", "def", "123" -ne "def" abc</source>
+          <target state="translated">PS c: &gt;"abc","def",「123」-ne"def"abc</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>123</source>
+          <target state="translated">123</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Containment Operators The containment operators (-Contains and -NotContains) are similar to the equality operators.</source>
+          <target state="translated">コンテインメント演算子包含演算子 (-が含まれていて、- NotContains) は等値演算子と似ています。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>However, the containment operators always return a Boolean value, even when the input is a collection.</source>
+          <target state="translated">ただし、包含演算子では常にブール値を返すして、入力がコレクションである場合にもします。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Also, unlike the equality operators, the containment operators return a value as soon as they detect the first match.</source>
+          <target state="translated">また、等値演算子とは異なり、含有演算子値を返す最初の一致を検出するとすぐにします。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>The equality operators evaluate all input and then return all the matches in the collection.</source>
+          <target state="translated">等値演算子では、すべての入力を評価し、コレクションのすべての一致を返します。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The following examples show the effect of the -Contains operator:</source>
+          <target state="translated">次の例の結果を表示するは、演算子が含まれています。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>C:PS&gt; 1,2,3 -contains 2 True</source>
+          <target state="translated">C:PS &gt; 1,2,3-2、True を含む</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>C:PS&gt; "PowerShell" -contains "Shell" False</source>
+          <target state="translated">C:PS &gt;"PowerShell"-「シェル」False が含まれています</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>C:PS&gt; "Windows", "PowerShell" -contains "Shell" False</source>
+          <target state="translated">C:PS &gt;"Windows"、"PowerShell"-「シェル」False が含まれています</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "abc", "def", "123" -contains "def" True</source>
+          <target state="translated">PS c: &gt;"abc","def"、「123」-"def"True が含まれています</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "true", "blue", "six" -contains "true" True</source>
+          <target state="translated">PS c: &gt;"true"、"blue"、「6」-"true"は True が含まれています</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>The following example shows how the containment operators differ from the equal to operator.</source>
+          <target state="translated">次の例では、コンテインメント演算子の違い等値演算子を示します。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The containment operators return a value of TRUE on the first match.</source>
+          <target state="translated">コンテインメント演算子では、最初の一致の値が TRUE を返します。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; 1,2,3,4,5,4,3,2,1 -eq 2</source>
+          <target state="translated">PS c: &gt; 1,2,3,4,5,4,3,2,1-eq 2</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>2</source>
+          <target state="translated">2</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>2</source>
+          <target state="translated">2</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; 1,2,3,4,5,4,3,2,1 -contains 2 True</source>
+          <target state="translated">PS c: &gt; 1,2,3,4,5,4,3,2,1-2、True を含む</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>In a very large collection, the -Contains operator returns results quicker than the equal to operator.</source>
+          <target state="translated">非常に大きなコレクションでは、演算子を返します。 結果が等しいことを示す演算子よりも高速が含まれています。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Match Operators The match operators (-Match and -NotMatch) find elements that match or do not match a specified pattern using regular expressions.</source>
+          <target state="translated">一致演算子一致演算子 (-一致や-notmatch) 一致または正規表現を使用して、指定したパターンと一致しない要素を検索します。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>The syntax is:</source>
+          <target state="translated">構文です。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>&lt;string[]&gt; -Match &lt;regular-expression&gt; &lt;string[]&gt; -NotMatch &lt;regular-expression&gt;</source>
+          <target state="translated">&lt; String[] &gt; - &lt; 正規表現 &gt;&lt; string[] &gt;-notmatch &lt; 正規表現 &gt; に一致</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>The following examples show some uses of the -Match operator:</source>
+          <target state="translated">次の例では、Match 演算子の使用中:</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Windows", "PowerShell" -Match ".shell" PowerShell</source>
+          <target state="translated">PS c: &gt;"Windows"、"PowerShell"-".shell"PowerShell の一致</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; (Get-Command Get-Member -Syntax) -Match "-view" True</source>
+          <target state="translated">PS c: &gt; (Get コマンド、Get-member の構文)-一致"のビュー"は True。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; (Get-Command Get-Member -Syntax) -NotMatch "-path" True</source>
+          <target state="translated">PS c: &gt; (Get コマンド、Get-member の構文)-notmatch"のパス"は True。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; (Get-Content Servers.txt) -Match "^Server\d\d" Server01 Server02</source>
+          <target state="translated">PS c: &gt; (Get-content Servers.txt)-一致"^ Server\d\d"Server01 Server02</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>The match operators search only in strings.</source>
+          <target state="translated">Match 演算子は、文字列のみで検索します。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>They cannot search in arrays of integers or other objects.</source>
+          <target state="translated">整数またはその他のオブジェクトの配列で検索することはできません。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>The -Match and -NotMatch operators populate the $Matches automatic variable when the input (the left-side argument) to the operator is a single scalar object.</source>
+          <target state="translated">オペレーターへの入力 (左辺の引数) が単一のスカラー object の場合、一致および-notmatch 演算子は $Matches 自動変数を設定します。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>When the input is scalar, the -Match and -NotMatch operators return a Boolean value and set the value of the $Matches automatic variable to the matched components of the argument.</source>
+          <target state="translated">入力がスカラーである場合は、一致および-notmatch 演算子はブール値を返すし、引数の一致するコンポーネントに、$Matches 自動変数の値を設定します。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>If the input is a collection, the -Match and -NotMatch operators return the matching members of that collection, but the operator does not populate the $Matches variable.</source>
+          <target state="translated">入力が、コレクションである場合は、一致および-notmatch 演算子は、そのコレクションの一致するメンバーを返しますが、オペレーターは $Matches 変数を設定できません。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>For example, the following command submits a collection of strings to the -Match operator.</source>
+          <target state="translated">たとえば、次のコマンドが文字列のコレクションを送信する Match 演算子。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>The -Match operator returns the items in the collection that match.</source>
+          <target state="translated">-一致演算子が一致するコレクション内の項目を返します。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>It does not populate the $Matches automatic variable.</source>
+          <target state="translated">$Matches 自動変数は設定されません。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Sunday", "Monday", "Tuesday" -Match "sun" Sunday</source>
+          <target state="translated">PS c: &gt;"Sunday"、"Monday","Tuesday"、"sun"日曜日の一致</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $matches</source>
+          <target state="translated">PS c: &gt; $matches</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;</source>
+          <target state="translated">PS C: &gt;</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>In contrast, the following command submits a single string to the -Match operator.</source>
+          <target state="translated">これに対し、次のコマンドが、1 つを送信する Match 演算子に文字列です。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>The -Match operator returns a Boolean value and populates the $Matches automatic variable.</source>
+          <target state="translated">-一致ブール演算子を返します。 値し、$Matches 自動変数を設定します。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Sunday" -Match "sun" True</source>
+          <target state="translated">PS c: &gt;"Sunday"、"sun"は True と一致</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $matches</source>
+          <target state="translated">PS c: &gt; $matches</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Name                           Value</source>
+          <target state="translated">名前値</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>0                              Sun</source>
+          <target state="translated">0                              Sun</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>The -NotMatch operator populates the $Matches automatic variable when the input is scalar and the result is False, that it, when it detects a match.</source>
+          <target state="translated">-Notmatch 演算子によって入力がスカラーであり、結果は False、ときに、$Matches 自動変数を作成、it は、一致が検出されるとします。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Sunday" -NotMatch "rain" True</source>
+          <target state="translated">PS c: &gt;"Sunday"-notmatch「雨」は True</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $matches</source>
+          <target state="translated">PS c: &gt; $matches</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;</source>
+          <target state="translated">PS C: &gt;</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Sunday" -NotMatch "day" False</source>
+          <target state="translated">PS c: &gt;"Sunday"-notmatch"day"False</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $matches</source>
+          <target state="translated">PS c: &gt; $matches</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;</source>
+          <target state="translated">PS C: &gt;</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>Name                           Value</source>
+          <target state="translated">名前値</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>0                              day</source>
+          <target state="translated">0                              day</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>Replace Operator The -Replace operator replaces all or part of a value with the specified value using regular expressions.</source>
+          <target state="translated">演算子は、置換演算子が値の全部または一部を正規表現を使用して指定した値に置き換えます。</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>You can use the -Replace operator for many administrative tasks, such as renaming files.</source>
+          <target state="translated">使用するファイルの名前変更など、さまざまな管理タスクの Replace 演算子。</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>For example, the following command changes the file name extensions of all .gif files to .jpg:</source>
+          <target state="translated">たとえば、次のコマンドは、.jpg を .gif ファイルのすべてのファイル名拡張子を変更します。</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Get-ChildItem | Rename-Item -NewName { $_ -Replace '.gif$','.jpg$' }</source>
+          <target state="translated">Get-childitem |項目名の変更-NewName {$_-'.gif$、' '.jpg$ ' を置換}</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>The syntax of the -Replace operator is as follows, where the <ph id="ph1">&lt;original&gt;</ph> placeholder represents the characters to be replaced, and the <ph id="ph2">&lt;substitute&gt;</ph> placeholder represents the characters that will replace them:</source>
+          <target state="translated">構文の Replace 演算子は次のように、場所、 <ph id="ph1">&lt;original&gt;</ph> プレース ホルダーを置換する文字を表しますと <ph id="ph2">&lt;substitute&gt;</ph> プレース ホルダーは、それらの代わりに文字を表します。</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>,</source>
+          <target state="translated">、</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>By default, the -Replace operator is case-insensitive.</source>
+          <target state="translated">既定では、- Replace 演算子は大文字です。</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>To make it case sensitive, use -cReplace.</source>
+          <target state="translated">大文字小文字を区別するためにを - cReplace を使用します。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>To make it explicitly case-insensitive, use -iReplace.</source>
+          <target state="translated">これを明示的に大文字にするには、- iReplace を使用します。</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>Consider the following examples:</source>
+          <target state="translated">次の例を考慮してください。</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "book" -Replace "B", "C" Cook PS C:&gt; "book" -iReplace "B", "C" Cook PS C:&gt; "book" -cReplace "B", "C" book</source>
+          <target state="translated">PS c: &gt;"book"で置換"B","C"Cook PS c: &gt;"book"- iReplace"B","C"Cook PS c: &gt;"book"cReplace"B"、"C"の書籍</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; '&lt;command:parameter required="false" variableLength="true" globbing="false"'` | foreach {$_ -replace 'globbing="false"', 'globbing="true"'} &lt;command:parameter required="false" variableLength="true" globbing="true"</source>
+          <target state="translated">PS c: &gt; ' &lt; コマンド: パラメーターが必要"false"variableLength = ="true"グロビング ="false"' |foreach {$_-置換 ' グロビング ="false"'、' グロビング ="true"'} &lt; コマンド: パラメーターが必要"false"variableLength = ="true"グロビング ="true"</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Bitwise Operators Windows PowerShell supports the standard bitwise operators, including bitwise-AND (-bAnd), the inclusive and exclusive bitwise-OR operators (-bOr and -bXor), and bitwise-NOT (-bNot).</source>
+          <target state="translated">ビットごとの演算子の Windows PowerShell は、標準のビット処理演算子、ビット演算子を含むをサポートしています- と (-帯域外)、包括値および排他のビットごとの OR 演算子 (-bOr と - bXor)、およびビットごとの NOT (-いません ^)。</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 2.0, all bitwise operators work with 64-bit integers.</source>
+          <target state="translated">Windows PowerShell 2.0 以降では、ビットごとの演算子は、64 ビットの整数値で動作します。</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, the -shr (shift-right) and -shl (shift-left) are introduced to support bitwise arithmetic in Windows PowerShell.</source>
+          <target state="translated">Windows PowerShell 3.0 以降では、shr (右シフト) と shl (左シフト) に導入された Windows PowerShell のビットごとの演算をサポートします。</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell supports the following bitwise operators.</source>
+          <target state="translated">Windows PowerShell には、次のビットごとの演算子がサポートしています。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>Operator  Description               Example</source>
+          <target state="translated">演算子の説明の例</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>-bAnd     Bitwise AND               PS C:&gt; 10 -band 3</source>
+          <target state="translated">ビットごとの AND PS c: の帯域外 &gt; 10-3 の帯域外</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>2</source>
+          <target state="translated">2</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>-bOr      Bitwise OR (inclusive)    PS C:&gt; 10 -bor 3</source>
+          <target state="translated">-bOr ビット演算子 OR (包括) PS c: &gt; 10-bor 3</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>11</source>
+          <target state="translated">11</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>-bXor     Bitwise OR (exclusive)    PS C:&gt; 10 -bxor 3</source>
+          <target state="translated">-bXor ビット演算子 OR (排他) PS c: &gt; 10-bxor 3</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>9</source>
+          <target state="translated">9</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>-bNot     Bitwise NOT               PS C:&gt; -bNot 10</source>
+          <target state="translated">-いません ^ ビットごとの NOT PS c: &gt; - いません ^10</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>-11</source>
+          <target state="translated">-11</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>-shl      Shift-left                PS C:&gt; 100 -shl 2</source>
+          <target state="translated">-shl 左シフト PS c: &gt; 100 shl 2。</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>400</source>
+          <target state="translated">400</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>-shr      Shift-right               PS C:&gt; 100 -shr 1</source>
+          <target state="translated">-shr 右シフト PS c: &gt; 100 shr 1</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>50</source>
+          <target state="translated">50</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>Bitwise operators act on the binary format of a value.</source>
+          <target state="translated">ビットごとの演算子は、値のバイナリ形式に作用します。</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>For example, the bit structure for the number 10 is 00001010 (based on 1 byte), and the bit structure for the number 3 is 00000011.</source>
+          <target state="translated">たとえば、数値 10、構造体のビット (1 バイトに基づいて) 00001010 であり数 3、構造体のビット 00000011 します。</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>When you use a bitwise operator to compare 10 to 3, the individual bits in each byte are compared.</source>
+          <target state="translated">ビットごとの演算子を使用して 10. ~ 3. を比較するときに、バイトごとに個別のビットが比較されます。</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>In a bitwise AND operation, the resulting bit is set to 1 only when both input bits are 1.</source>
+          <target state="translated">ビットごとの AND 演算の両方の入力のビットが 1 である場合にのみ、結果のビットが 1 に設定します。</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>1010      (10)</source>
+          <target state="translated">1010      (10)</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>0011      ( 3)</source>
+          <target state="translated">0011      ( 3)</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>--------------  bAND</source>
+          <target state="translated">--------------  bAND</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>0010      ( 2)</source>
+          <target state="translated">0010      ( 2)</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>In a bitwise OR (inclusive) operation, the resulting bit is set to 1 when either or both input bits are 1.</source>
+          <target state="translated">OR (包括) の操作でいずれかまたは両方の入力のビットが 1 の場合、結果のビットが 1 に設定します。</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>The resulting bit is set to 0 only when both input bits are set to 0.</source>
+          <target state="translated">両方の入力のビットが 0 に設定されている場合にのみ、結果のビットは 0 に設定します。</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>1010      (10)</source>
+          <target state="translated">1010      (10)</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>0011      ( 3)</source>
+          <target state="translated">0011      ( 3)</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>--------------  bOR (inclusive)</source>
+          <target state="translated">---bOR (包括)</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>1011      (11)</source>
+          <target state="translated">1011      (11)</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>In a bitwise OR (exclusive) operation, the resulting bit is set to 1 only when one input bit is 1.</source>
+          <target state="translated">操作では、OR (排他)、1 つの入力ビットが 1 の場合にのみ、結果のビットが 1 に設定します。</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>1010      (10)</source>
+          <target state="translated">1010      (10)</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>0011      ( 3)</source>
+          <target state="translated">0011      ( 3)</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>--------------  bXOR (exclusive)</source>
+          <target state="translated">---bXOR (排他)</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>1001      ( 9)</source>
+          <target state="translated">1001      ( 9)</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>The bitwise NOT operator is a unary operator that produces the binary complement of the value.</source>
+          <target state="translated">ビットごとの NOT 演算子は、値のバイナリの補数を生成する単項演算子です。</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>A bit of 1 is set to 0 and a bit of 0 is set to 1.</source>
+          <target state="translated">1 のビットが 0 に設定し、0 のビットが 1 に設定します。</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>For example, the binary complement of 0 is -1, the maximum unsigned integer (0xffffffff), and the binary complement of -1 is 0.</source>
+          <target state="translated">たとえば、0 のバイナリの補数は-1、最大の符号なし整数 (0 xffffffff) およびバイナリ補数-1 の場合は 0 です。</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; -bNOT 10</source>
+          <target state="translated">PS c: &gt; - いません ^10</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>-11</source>
+          <target state="translated">-11</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>0000 0000 0000 1010  (10)</source>
+          <target state="translated">0000 0000 0000 1010  (10)</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>------------------------- bNOT 1111 1111 1111 0101  (-11, xfffffff5)</source>
+          <target state="translated">---いません ^1111 1111 1111 0101 (-11、xfffffff5)</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>In a bitwise shift-left operation, all bits are moved "n" places to the left, where "n" is the value of the right operand.</source>
+          <target state="translated">ビットごとの左シフト演算で"n"左側に配置、ここで"n"は右側のオペランドの値のすべてのビットが移動されます。</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>A zero is inserted in the ones place.</source>
+          <target state="translated">ものでは、ゼロが挿入を配置します。</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>When the left operand is an Integer (32-bit) value, the lower 5 bits of the right operand determine how many bits of the left operand are shifted.</source>
+          <target state="translated">左のオペランドが整数 (32 ビット) 値の場合は、右側のオペランドの下位 5 ビットは、左のオペランドのビット数をシフトを決定します。</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>When the left operand is a Long (64-bit) value, the lower 6 bits of the right operand determine how many bits of the left operand are shifted.</source>
+          <target state="translated">左のオペランドは、時間の長い (64 ビット) 値が、右側のオペランドの下位 6 ビットは、左側のオペランドのビット数をシフトを決定します。</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; 21 -shl 1</source>
+          <target state="translated">PS c: &gt; 21-shl 1</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>42</source>
+          <target state="translated">42</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>00010101  (21)</source>
+          <target state="translated">00010101  (21)</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>00101010  (42)</source>
+          <target state="translated">00101010  (42)</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; 21 -shl 2</source>
+          <target state="translated">PS c: &gt; 21-shl 2</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>84</source>
+          <target state="translated">84</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>00010101  (21)</source>
+          <target state="translated">00010101  (21)</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>00101010  (42)</source>
+          <target state="translated">00101010  (42)</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source>01010100  (84)</source>
+          <target state="translated">01010100  (84)</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>In a bitwise shift-right operation, all bits are moved "n" places to the right, where "n" is specified by the right operand.</source>
+          <target state="translated">ビットごとの右シフト演算で"n"右側に配置、"n"が右のオペランドで指定されているすべてのビットが移動されます。</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source>The shift-right operator (-shr) inserts a zero in the left-most place when shifting a positive or unsigned value to the right.</source>
+          <target state="translated">右シフト演算子 (-shr)、正の値または符号なしの値を右にシフトする一番左の位置にゼロを挿入します。</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>When the left operand is an Integer (32-bit) value, the lower 5 bits of the right operand determine how many bits of the left operand are shifted.</source>
+          <target state="translated">左のオペランドが整数 (32 ビット) 値の場合は、右側のオペランドの下位 5 ビットは、左のオペランドのビット数をシフトを決定します。</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source>When the left operand is a Long (64-bit) value, the lower 6 bits of the right operand determine how many bits of the left operand are shifted.</source>
+          <target state="translated">左のオペランドは、時間の長い (64 ビット) 値が、右側のオペランドの下位 6 ビットは、左側のオペランドのビット数をシフトを決定します。</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; 21 -shr 1</source>
+          <target state="translated">PS c: &gt; 21-shr 1</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve">
+          <source>10</source>
+          <target state="translated">10</target>       </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve">
+          <source>00010101  (21)</source>
+          <target state="translated">00010101  (21)</target>       </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve">
+          <source>00001010  (10)</source>
+          <target state="translated">00001010  (10)</target>       </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; 21 -shr 2</source>
+          <target state="translated">PS c: &gt; 21-shr 2</target>       </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source>5</source>
+          <target state="translated">5</target>       </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve">
+          <source>00010101  (21)</source>
+          <target state="translated">00010101  (21)</target>       </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve">
+          <source>00001010  (10)</source>
+          <target state="translated">00001010  (10)</target>       </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve">
+          <source>00000101  ( 5)</source>
+          <target state="translated">00000101  ( 5)</target>       </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve">
+          <source>SEE ALSO</source>
+          <target state="translated">関連項目</target>       </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve">
+          <source>about_Operators about_Regular_Expressions about_Wildcards Compare-Object Foreach-Object Where-Object</source>
+          <target state="translated">about_Operators about_Regular_Expressions about_wildcards」比較オブジェクト Foreach-object Where-object と入力</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

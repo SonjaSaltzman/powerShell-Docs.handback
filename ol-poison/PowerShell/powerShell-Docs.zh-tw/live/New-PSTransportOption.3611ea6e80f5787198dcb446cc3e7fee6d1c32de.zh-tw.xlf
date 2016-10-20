@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b02bdab4cdf1df1005b8eeac25a7832ea4224d7d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Core\New-PSTransportOption.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">18b7eae94a1b04c500a967270eb119cec2334203</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ec9e92321b43c0f290cd3d8e68f87fb3f158a19e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell 指令程式</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>New-PSTransportOption</source>
+          <target state="translated">New-PSTransportOption</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>New-PSTransportOption</source>
+          <target state="translated">New-PSTransportOption</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Creates an object that contains advanced options for a session configuration.</source>
+          <target state="translated">建立包含工作階段設定之進階選項的物件。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">語法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">描述</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-PSTransportOption<ept id="p1">**</ept> cmdlet creates an object that contains transport options for session configurations.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>New-pstransportoption<ept id="p1">**</ept> 指令程式會建立包含工作階段設定的傳輸選項的物件。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can use the object as the value of the <bpt id="p1">**</bpt>TransportOption<ept id="p1">**</ept> parameter of cmdlets that create or change a session configuration, such as the Register-PSSessionConfiguration and Set-PSSessionConfiguration cmdlets.</source>
+          <target state="translated">您可以使用物件的值為 <bpt id="p1">**</bpt>TransportOption<ept id="p1">**</ept> 指令程式，可建立或變更工作階段設定，例如 Register-pssessionconfiguration 和 Set-pssessionconfiguration cmdlet 的參數。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can also change the transport option settings by editing the values of the session configuration properties in the WSMan: drive.</source>
+          <target state="translated">您也可以透過編輯工作階段設定屬性的 WSMan: 磁碟機的值來變更傳輸選項設定。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For more information, see WSMan Provider.</source>
+          <target state="translated">如需詳細資訊，請參閱 WSMan 提供者。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The session configuration options represent the session values set on the "server-side," or receiving end of a remote connection.</source>
+          <target state="translated">工作階段設定選項代表在「伺服器端」(也就是遠端連線的接收端) 上設定的工作階段值。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The "client-side," or sending end of the connection, can set session option values when the session is created, or when the client disconnects from or reconnects to the session.</source>
+          <target state="translated">「用戶端」(也就是連線的傳送端) 可以在建立工作階段時，或者用戶端與工作階段中斷連線或重新連線時，設定工作階段選項值。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Unless stated otherwise, when the setting values conflict, the client-side values take precedence.</source>
+          <target state="translated">除非另有說明，否則當設定值衝突時，用戶端值的優先順序較高。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>However, the client-side values cannot violate maximum values and quotas set in the session configuration.</source>
+          <target state="translated">不過，用戶端值不能違反工作階段設定中設定的最大值與配額。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Without parameters, <bpt id="p1">**</bpt>New-PSTransportOption<ept id="p1">**</ept> generates a transport option object with null values for all of the options.</source>
+          <target state="translated">如果沒有參數， <bpt id="p1">**</bpt>New-pstransportoption<ept id="p1">**</ept> 會產生 null 值的所有選項的傳輸選項物件。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If you omit a parameter, the object has a null value for the property that the parameter represents.</source>
+          <target state="translated">如果您省略參數，該參數代表的物件屬性就會是 Null 值。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A null value has no effect on the session configuration.</source>
+          <target state="translated">Null 值對工作階段設定沒有任何作用。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For more information about session options, see New-PSSessionOption.</source>
+          <target state="translated">如需工作階段選項的詳細資訊，請參閱 New-pssessionoption。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For more information about session configurations, see about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152).</source>
+          <target state="translated">如需工作階段設定的詳細資訊，請參閱 about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152)。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This cmdlet is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此 Cmdlet 是在 Windows PowerShell 3.0 引進。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">範例</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Example 1</source>
+          <target state="translated">範例 1</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This command runs the <bpt id="p1">**</bpt>New-PSTransportOption<ept id="p1">**</ept> with no parameters.</source>
+          <target state="translated">這個命令會執行 <bpt id="p1">**</bpt>New-pstransportoption<ept id="p1">**</ept> 不含任何參數。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The output shows that the cmdlet generates a transport option object with null values for all properties.</source>
+          <target state="translated">輸出顯示此 Cmdlet 會產生所有屬性都是 Null 值的傳輸選項物件。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Example 2</source>
+          <target state="translated">範例 2</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This example shows how to use a transport options object to set session configuration options</source>
+          <target state="translated">此範例示範如何使用傳輸選項物件設定工作階段設定選項。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Example 3</source>
+          <target state="translated">範例 3</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This command shows the effect of setting a transport option in a session configuration on the sessions that use the session configuration.</source>
+          <target state="translated">此命令示範在工作階段設定中設定傳輸選項對使用工作階段設定的工作階段的效果。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">參數</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-IdleTimeoutSec</source>
+          <target state="translated">-IdleTimeoutSec</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Determines how long each session stays open if the remote computer does not receive any communication from the local computer, including the heartbeat signal.</source>
+          <target state="translated">決定當遠端電腦沒有收到來自本機電腦的任何通訊 (包括活動訊號) 時，每個工作階段維持開啟的時間。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>When the interval expires, the session closes.</source>
+          <target state="translated">當間隔時間過期時，工作階段就會關閉。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The idle timeout value is of significant importance when the user intends to disconnect and reconnect to a session.</source>
+          <target state="translated">當使用者想要與工作階段中斷連線並重新連線時，閒置逾時值就非常重要。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The user can reconnect only if the session has not timed out.</source>
+          <target state="translated">只有當工作階段尚未逾時時，使用者才可以重新連線。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>IdleTimeoutSec<ept id="p1">**</ept> parameter corresponds to the <bpt id="p2">**</bpt>IdleTimeoutMs<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>IdleTimeoutSec<ept id="p1">**</ept> 參數相當於 <bpt id="p2">**</bpt>IdleTimeoutMs<ept id="p2">**</ept> 工作階段設定的屬性。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Enter a value in seconds.</source>
+          <target state="translated">輸入以秒為單位的值。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The default value is 7200 (2 hours).</source>
+          <target state="translated">預設值為 7200 (2 小時)。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The minimum value is 60 (1 minute).</source>
+          <target state="translated">最小值為 60 （1 分鐘）。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The maximum is the value of the <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> property of Shell objects in the WSMan configuration (WSMan:<ph id="ph1">\\\&lt;</ph>ComputerName<ph id="ph2">\&gt;</ph>\Shell\IdleTimeout).</source>
+          <target state="translated">最大值是值 <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> WSMan 設定中 Shell 物件的屬性 (WSMan:<ph id="ph1">\\\&lt;</ph>ComputerName<ph id="ph2">\&gt;</ph>\Shell\IdleTimeout)。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The default value is 7200000 milliseconds (2 hours).</source>
+          <target state="translated">預設值為 7200000 毫秒 (2 小時)。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>If an idle timeout value is set in the session options and in the session configuration, value set in the session options takes precedence, but it cannot exceed the value of the <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> property of the session configuration.</source>
+          <target state="translated">如果工作階段選項中設定閒置逾時值及工作階段設定，工作階段選項中設定的值會優先，但是它不能超過的值 <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> 工作階段設定的屬性。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To set the value of the <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> property, use the <bpt id="p2">**</bpt>MaxIdleTimeoutSec<ept id="p2">**</ept> parameter.</source>
+          <target state="translated">若要設定的值 <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> 屬性，請使用 <bpt id="p2">**</bpt>MaxIdleTimeoutSec<ept id="p2">**</ept> 參數。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-MaxConcurrentCommandsPerSession</source>
+          <target state="translated">-MaxConcurrentCommandsPerSession</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Limits the number of commands that can run concurrently in each session to the specified value.</source>
+          <target state="translated">限制每個工作階段中可同時執行的命令數目為指定的值。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The default value is 1000.</source>
+          <target state="translated">預設值為 1000年。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>MaxConcurrentCommandsPerSession<ept id="p1">**</ept> parameter corresponds to the <bpt id="p2">**</bpt>MaxConcurrentCommandsPerShell<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>MaxConcurrentCommandsPerSession<ept id="p1">**</ept> 參數相當於 <bpt id="p2">**</bpt>MaxConcurrentCommandsPerShell<ept id="p2">**</ept> 工作階段設定的屬性。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>-MaxConcurrentUsers</source>
+          <target state="translated">-MaxConcurrentUsers</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Limits the number of users who can run commands concurrently in each session to the specified value.</source>
+          <target state="translated">限制每個工作階段中可同時執行命令的使用者數目為指定的值。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The default value is 5.</source>
+          <target state="translated">預設值為 5。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>-MaxIdleTimeoutSec</source>
+          <target state="translated">-MaxIdleTimeoutSec</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Limits the idle timeout set for each session to the specified value.</source>
+          <target state="translated">限制為每個工作階段設定的閒置逾時為指定的值。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The default value is <ph id="ph1">\[</ph>Int<ph id="ph2">\]</ph>::MaxValue (~25 days).</source>
+          <target state="translated">預設值是 <ph id="ph1">\[</ph>Int<ph id="ph2">\]</ph>:: MaxValue （~ 25 天）。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The idle timeout value is of significant importance when the user intends to disconnect and reconnect to a session.</source>
+          <target state="translated">當使用者想要與工作階段中斷連線並重新連線時，閒置逾時值就非常重要。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The user can reconnect only if the session has not timed out.</source>
+          <target state="translated">只有當工作階段尚未逾時時，使用者才可以重新連線。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>MaxIdleTimeoutSec<ept id="p1">**</ept> parameter corresponds to the <bpt id="p2">**</bpt>MaxIdleTimeoutMs<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>MaxIdleTimeoutSec<ept id="p1">**</ept> 參數相當於 <bpt id="p2">**</bpt>MaxIdleTimeoutMs<ept id="p2">**</ept> 工作階段設定的屬性。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>-MaxMemoryPerSessionMB</source>
+          <target state="translated">-MaxMemoryPerSessionMB</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Limits the memory used by each session to the specified value.</source>
+          <target state="translated">限制每個工作階段所使用的記憶體為指定的值。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Enter a value in megabytes.</source>
+          <target state="translated">輸入以 MB 為單位的值。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The default value is 1024 megabytes (1 GB).</source>
+          <target state="translated">預設值為 1024 MB (1 GB)。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>MaxMemoryPerSessionMB<ept id="p1">**</ept> parameter corresponds to the <bpt id="p2">**</bpt>MaxMemoryPerShellMB<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>MaxMemoryPerSessionMB<ept id="p1">**</ept> 參數相當於 <bpt id="p2">**</bpt>MaxMemoryPerShellMB<ept id="p2">**</ept> 工作階段設定的屬性。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>-MaxProcessesPerSession</source>
+          <target state="translated">-MaxProcessesPerSession</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Limits the number of processes running in each session to the specified value.</source>
+          <target state="translated">限制每個工作階段中執行的處理程序數目為指定的值。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The default value is 15.</source>
+          <target state="translated">預設值為 15。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>MaxProcessesPerSession<ept id="p1">**</ept> parameter corresponds to the <bpt id="p2">**</bpt>MaxProcessesPerShell<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>MaxProcessesPerSession<ept id="p1">**</ept> 參數相當於 <bpt id="p2">**</bpt>MaxProcessesPerShell<ept id="p2">**</ept> 工作階段設定的屬性。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>-MaxSessions</source>
+          <target state="translated">-MaxSessions</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Limits the number of sessions that use the session configuration.</source>
+          <target state="translated">限制使用工作階段設定的工作階段數目。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The default value is 25.</source>
+          <target state="translated">預設值為 25。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>MaxSessions<ept id="p1">**</ept> parameter corresponds to the <bpt id="p2">**</bpt>MaxShells<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>MaxSessions<ept id="p1">**</ept> 參數相當於 <bpt id="p2">**</bpt>MaxShells<ept id="p2">**</ept> 工作階段設定的屬性。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>-MaxSessionsPerUser</source>
+          <target state="translated">-MaxSessionsPerUser</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Limits the number of sessions that use the session configuration and run with the credentials of a given user to the specified value.</source>
+          <target state="translated">限制使用工作階段設定，並使用指定使用者的認證執行的工作階段數目為指定的值。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The default value is 25.</source>
+          <target state="translated">預設值為 25。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>When setting this value, consider that many users might be using the credentials of a "run as" user.</source>
+          <target state="translated">設定此值時，請考慮許多使用者可能使用「執行身分」使用者的認證。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>MaxSessionsPerUser<ept id="p1">**</ept> parameter corresponds to the <bpt id="p2">**</bpt>MaxShellsPerUser<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>MaxSessionsPerUser<ept id="p1">**</ept> 參數相當於 <bpt id="p2">**</bpt>MaxShellsPerUser<ept id="p2">**</ept> 工作階段設定的屬性。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>-OutputBufferingMode</source>
+          <target state="translated">-OutputBufferingMode</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Determines how command output is managed in disconnected sessions when the output buffer becomes full.</source>
+          <target state="translated">決定在輸出緩衝區已滿時，在中斷連線的工作階段中管理命令輸出的方式。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The default value of the <bpt id="p1">**</bpt>OutputBufferingMode<ept id="p1">**</ept> property of sessions is <bpt id="p2">**</bpt>Block<ept id="p2">**</ept>.</source>
+          <target state="translated">預設值的 <bpt id="p1">**</bpt>OutputBufferingMode<ept id="p1">**</ept> 的工作階段的屬性是 <bpt id="p2">**</bpt>區塊<ept id="p2">**</ept>。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Valid values are:</source>
+          <target state="translated">有效值為：</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Block<ept id="p1">**</ept>: When the output buffer is full, execution is suspended until the buffer is clear.</source>
+          <target state="translated"><bpt id="p1">**</bpt>區塊<ept id="p1">**</ept>︰ 輸出緩衝區已滿時，會暫停執行，直到清除緩衝區為止。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Drop<ept id="p1">**</ept>: When the output buffer is full, execution continues.</source>
+          <target state="translated"><bpt id="p1">**</bpt>卸除<ept id="p1">**</ept>︰ 輸出緩衝區已滿時，會繼續執行。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>As new output is saved, the oldest output is discarded.</source>
+          <target state="translated">儲存新的輸出時，會捨棄最舊的輸出。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>None<ept id="p1">**</ept>: No output buffering mode is specified.</source>
+          <target state="translated"><bpt id="p1">**</bpt>無<ept id="p1">**</ept>︰ 不指定任何輸出緩衝處理模式。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>-ProcessIdleTimeoutSec</source>
+          <target state="translated">-ProcessIdleTimeoutSec</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Limits the timeout for each host process to the specified value.</source>
+          <target state="translated">限制每個主機處理程序的逾時為指定的值。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The default value, 0, means that there is no timeout value for the process.</source>
+          <target state="translated">預設值為 0，表示處理程序沒有逾時值。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Other session configurations have per-process timeout values.</source>
+          <target state="translated">其他工作階段設定有每個處理程序的逾時值。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>For example, the Microsoft.PowerShell.Workflow session configuration has a per-process timeout value of 28800 seconds (8 hours).</source>
+          <target state="translated">例如，Microsoft.PowerShell.Workflow 工作階段設定有 28800 秒 (8 小時) 的每個處理序逾時值。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">這個 cmdlet 支援一般參數:-偵錯、-ErrorAction、-ErrorVariable、-InformationAction-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 以及-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">如需詳細資訊，請參閱 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">輸入</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>This cmdlet does not take input from the pipeline.</source>
+          <target state="translated">此 Cmdlet 不接受來自管線的輸入。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">輸出</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Microsoft.PowerShell.Commands.WSManConfigurationOption</source>
+          <target state="translated">Microsoft.PowerShell.Commands.WSManConfigurationOption</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">附註</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The properties of a session configuration object vary with the options set for the session configuration and the values of those options.</source>
+          <target state="translated">工作階段設定物件的屬性取決於工作階段設定所設定的選項，以及這些選項的值。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Also, session configurations that use a session configuration file have additional properties.</source>
+          <target state="translated">此外，使用工作階段設定檔的工作階段設定會有額外的屬性。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相關的連結</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>about_Session_Configurations</source>
+          <target state="translated">about_Session_Configurations</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>New-PSSession</source>
+          <target state="translated">New-PSSession</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>New-PSSessionOption</source>
+          <target state="translated">New-PSSessionOption</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Register-PSSessionConfiguration</source>
+          <target state="translated">Register-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Set-PSSessionConfiguration</source>
+          <target state="translated">Set-pssessionconfiguration</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

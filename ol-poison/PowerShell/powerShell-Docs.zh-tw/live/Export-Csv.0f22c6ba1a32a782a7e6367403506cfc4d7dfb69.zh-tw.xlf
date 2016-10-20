@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c06003a454ec52eb3b414f07411ad9d11b0c75de</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Utility\Export-Csv.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">72ac4c2356a04eafd3462121b07518d9a6a5e991</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3a247eeb93c4d4824a0c3fd24871938944939266</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell 指令程式</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Export-Csv</source>
+          <target state="translated">Export-Csv</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Export-Csv</source>
+          <target state="translated">Export-Csv</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Converts objects into a series of comma-separated (CSV) strings and saves the strings in a CSV file.</source>
+          <target state="translated">將物件轉換成一系列的逗號分隔 (CSV) 字串，並將字串儲存於 CSV 檔案中。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">語法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Delimiter (Default)</source>
+          <target state="translated">分隔符號 （預設值）</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>UseCulture</source>
+          <target state="translated">UseCulture</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">描述</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Export-CSV<ept id="p1">**</ept> cmdlet creates a CSV file of the objects that you submit.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>EXPORT-CSV<ept id="p1">**</ept> 指令程式會建立您送出物件的 CSV 檔案。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Each object is represented as a line or row of the CSV.</source>
+          <target state="translated">每個物件以 CSV 的行或列表示。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The row consists of a comma-separated list of the values of object properties.</source>
+          <target state="translated">列由逗號分隔的物件屬性值清單所組成。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can use this cmdlet to create spreadsheets and share data with programs that take CSV files as input.</source>
+          <target state="translated">您可以使用此 Cmdlet 建立試算表，並與接受 CSV 檔案做為輸入的程式共用資料。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Do not format objects before sending them to the <bpt id="p1">**</bpt>Export-CSV<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">不會傳送它們之前，先格式化物件 <bpt id="p1">**</bpt>EXPORT-CSV<ept id="p1">**</ept> 指令程式。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If you do, the format properties are represented in the CSV file, instead of the properties of the original objects.</source>
+          <target state="translated">若這麼做，顯示在 CSV 檔案中的屬性會是格式化屬性，而不是原始物件的屬性。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To export only selected properties of an object, use the Select-Object cmdlet.</source>
+          <target state="translated">若只要匯出所選取的物件屬性，請使用 Select-Object Cmdlet。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">範例</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Example 1: Export process properties</source>
+          <target state="translated">範例 1︰ 匯出處理序屬性</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This command selects a few properties of the WmiPrvse process and exports them to a CSV file named Data.csv.</source>
+          <target state="translated">此命令會選取幾個 WmiPrvse 處理程序的屬性，並將它們匯出到名為 Data.csv 的 CSV 檔案。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Example 2: Export processes to a comma-delimited file</source>
+          <target state="translated">範例 2︰ 匯出至以逗號分隔檔案的處理程序</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This command exports objects representing the processes on the computer to the Processes.csv file in the current directory.</source>
+          <target state="translated">此命令會將代表電腦上處理程序的物件，匯出到目前目錄中的 Processes.csv 檔案。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Because it does not specify a delimiter, a comma (,) is used to separate the fields in the file.</source>
+          <target state="translated">因為它未指定分隔符號，所以會用逗號 (,) 來分隔檔案中的欄位。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Example 3: Export processes to a semicolon-delimited file</source>
+          <target state="translated">範例 3︰ 以分號分隔的檔案來匯出處理程序</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This command exports objects representing the processes on the computer to the Processes.csv file in the current directory.</source>
+          <target state="translated">此命令會將代表電腦上處理程序的物件，匯出到目前目錄中的 Processes.csv 檔案。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>Delimiter<ept id="p1">*</ept> parameter to specify the semicolon (;).</source>
+          <target state="translated">它會使用 <bpt id="p1">*</bpt>分隔符號<ept id="p1">*</ept> 參數來指定分號 （;）。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>As a result, the fields in the file are separated by semicolons.</source>
+          <target state="translated">因此，會以分號分隔檔案中的欄位。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Example 4: Export using the list separator of the current culture</source>
+          <target state="translated">範例 4︰ 匯出使用目前文化特性的清單分隔字元</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This command exports objects representing the processes on the computer to the Processes.csv file in the current directory.</source>
+          <target state="translated">此命令會將代表電腦上處理程序的物件，匯出到目前目錄中的 Processes.csv 檔案。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>UseCulture<ept id="p1">*</ept> parameter to direct <bpt id="p2">**</bpt>Export-CSV<ept id="p2">**</ept> to use the delimiter specified by the ListSeparator property of the current culture.</source>
+          <target state="translated">它會使用 <bpt id="p1">*</bpt>UseCulture<ept id="p1">*</ept> 參數，指示 <bpt id="p2">**</bpt>EXPORT-CSV<ept id="p2">**</ept> 使用目前文化特性的 ListSeparator 屬性所指定的分隔符號。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Example 5: Export processes without type information</source>
+          <target state="translated">範例 5︰ 匯出處理程序不含類型資訊</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This command exports objects representing the processes on the computer to the Processes.csv file in the current directory.</source>
+          <target state="translated">此命令會將代表電腦上處理程序的物件，匯出到目前目錄中的 Processes.csv 檔案。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>NoTypeInformation<ept id="p1">*</ept> parameter to suppress the type information in the file.</source>
+          <target state="translated">它會使用 <bpt id="p1">*</bpt>NoTypeInformation<ept id="p1">*</ept> 參數來抑制檔案中的型別資訊。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Example 6: Export and append script properties</source>
+          <target state="translated">範例 6︰ 匯出和附加指令碼內容</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>These commands add information about new Windows PowerShell scripts to a script inventory file.</source>
+          <target state="translated">這些命令會將新的 Windows PowerShell 指令碼之相關資訊新增至指令碼詳細目錄檔案。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The first command uses the Get-ChildItem cmdlet to do a recursive search in the D: drive for files with the .ps1 file name extension.</source>
+          <target state="translated">第一個命令會使用 Get-childitem cmdlet 來執行遞迴搜尋在 d︰ 磁碟機以.ps1 副檔名的檔案。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>It uses a pipeline operator to sends the results to the Where-Object cmdlet, which gets only files that were created after January 1, 2011, and then saves them in the $ScriptFiles variable.</source>
+          <target state="translated">它會使用管線運算子將會傳送 Where-object 指令程式，以取得只有檔案結果 2011 年 1 月 1 日之後建立，然後將它們儲存在 $ScriptFiles 變數中。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Example 7: Select properties to export</source>
+          <target state="translated">範例 7︰ 選取要匯出屬性</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This example demonstrates one of most common problems that users encounter when using the <bpt id="p1">**</bpt>Export-CSV<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">此範例將示範其中一個最常見的問題，使用者在使用時所遇到的 <bpt id="p1">**</bpt>EXPORT-CSV<ept id="p1">**</ept> 指令程式。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>It explains how to recognize and avoid this error.</source>
+          <target state="translated">它說明如何辨識及避免發生此錯誤。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Because a CSV file has a table format, it might seem natural to use the Format-Table cmdlet to format the data in a table to prepare it for export as a CSV file.</source>
+          <target state="translated">CSV 檔案具有表格的格式，因為它可能不按照自然使用 Format-table cmdlet 來完成準備的資料表中的資料匯出成 CSV 檔案格式。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Also, the <bpt id="p1">**</bpt>Format-Table<ept id="p1">**</ept> cmdlet allows you to select object properties easily.</source>
+          <target state="translated">此外， <bpt id="p1">**</bpt>Format-table<ept id="p1">**</ept> 指令程式可讓您輕鬆地選取物件屬性。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>However, when you format the data in a table and then export it, you are exporting a table object, not your original data object.</source>
+          <target state="translated">不過，當您使用表格方式格式化資料並匯出時，您匯出的是表格物件，而不是您的原始資料物件。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The resulting CSV file is not useful.</source>
+          <target state="translated">這樣產生的 CSV 檔案無法使用。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This example shows how to select object properties by using the Select-Object cmdlet, and it shows the <bpt id="p1">**</bpt>Export-CSV<ept id="p1">**</ept> formats the data correctly in a CSV file without any preparatory formatting by another cmdlet.</source>
+          <target state="translated">此範例顯示如何選取物件屬性使用 Select-object 指令程式，並顯示 <bpt id="p1">**</bpt>EXPORT-CSV<ept id="p1">**</ept> 格式正確 CSV 檔案中的資料沒有任何準備格式由另一個指令程式。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">參數</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>-Append</source>
+          <target state="translated">-新增</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet adds the CSV output to the end of the specified file.</source>
+          <target state="translated">表示此指令程式將 CSV 輸出新增至指定的檔案結尾。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Without this parameter, <bpt id="p1">**</bpt>Export-CSV<ept id="p1">**</ept> replaces the file contents without warning.</source>
+          <target state="translated">如果沒有這個參數， <bpt id="p1">**</bpt>EXPORT-CSV<ept id="p1">**</ept> 取代檔案內容，而不發出警告。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此參數是在 Windows PowerShell 3.0 引進。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">會提示您進行確認，然後再執行此指令程式。會提示您進行確認，然後再執行此指令程式。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>-Delimiter</source>
+          <target state="translated">分隔符號</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Specifies a delimiter to separate the property values.</source>
+          <target state="translated">指定分隔符號以區隔屬性值。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The default is a comma (,).</source>
+          <target state="translated">預設值為逗號 (,)。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Enter a character, such as a colon (:).</source>
+          <target state="translated">輸入字元，例如冒號 (:)。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>To specify a semicolon (;), enclose it in quotation marks.</source>
+          <target state="translated">如果要指定分號 (;)，請將它括在引號內。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>-Encoding</source>
+          <target state="translated">編碼方式</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Specifies the encoding for the exported CSV file.</source>
+          <target state="translated">指定匯出之 CSV 檔案的編碼。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">此參數接受的值包括：</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Unicode</source>
+          <target state="translated">Unicode</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>UTF7</source>
+          <target state="translated">UTF7</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>UTF8</source>
+          <target state="translated">UTF8</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>ASCII</source>
+          <target state="translated">ASCII</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>UTF32</source>
+          <target state="translated">UTF32</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>BigEndianUnicode</source>
+          <target state="translated">BigEndianUnicode</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Default</source>
+          <target state="translated">Default</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>OEM</source>
+          <target state="translated">OEM</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The default value is ASCII.</source>
+          <target state="translated">預設值為 ASCII。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Forces the command to run without asking for user confirmation.</source>
+          <target state="translated">強制執行命令而不要求使用者確認。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-InputObject</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Specifies the objects to export as CSV strings.</source>
+          <target state="translated">指定要匯出為 CSV 字串的物件。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the objects or type a command or expression that gets the objects.</source>
+          <target state="translated">輸入包含物件的變數，或輸入可取得物件的命令或運算式。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>You can also pipe objects to <bpt id="p1">**</bpt>Export-CSV<ept id="p1">**</ept>.</source>
+          <target state="translated">您也可以使用管線物件 <bpt id="p1">**</bpt>EXPORT-CSV<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>-LiteralPath</source>
+          <target state="translated">-LiteralPath</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Specifies the path to the CSV output file.</source>
+          <target state="translated">指定 CSV 輸出檔案的路徑。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Unlike <bpt id="p1">*</bpt>Path<ept id="p1">*</ept>, the value of the <bpt id="p2">*</bpt>LiteralPath<ept id="p2">*</ept> parameter is used exactly as it is typed.</source>
+          <target state="translated">不同於 <bpt id="p1">*</bpt>路徑<ept id="p1">*</ept>, ，值 <bpt id="p2">*</bpt>LiteralPath<ept id="p2">*</ept> 完全依照其輸入，使用參數。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>No characters are interpreted as wildcards.</source>
+          <target state="translated">沒有字元會被視為萬用字元。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>If the path includes escape characters, enclose it in single quotation marks.</source>
+          <target state="translated">如果路徑包含逸出字元，請將它括在單引號中。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Single quotation marks tell Windows PowerShell not to interpret any characters as escape sequences.</source>
+          <target state="translated">單引號告知 Windows PowerShell 不要將任何字元視為逸出序列。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>-NoClobber</source>
+          <target state="translated">-NoClobber</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet does not overwrite an existing file.</source>
+          <target state="translated">指出此 cmdlet 不會覆寫現有的檔案。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>By default, if a file exists in the specified path, <bpt id="p1">**</bpt>Export-CSV<ept id="p1">**</ept> overwrites the file without warning.</source>
+          <target state="translated">根據預設，如果檔案存在指定的路徑中 <bpt id="p1">**</bpt>EXPORT-CSV<ept id="p1">**</ept> 覆寫檔案而不發出警告。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>-NoTypeInformation</source>
+          <target state="translated">-NoTypeInformation</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet omits the type information from the CSV file.</source>
+          <target state="translated">指出此 cmdlet 會省略 CSV 檔案中的型別資訊。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>By default, the first line of the CSV file contains #TYPE followed by the fully-qualified name of the type of the object.</source>
+          <target state="translated">根據預設，CSV 檔案的第一行會包含 #TYPE 後面接著物件類型的完整限定名稱。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>-Path</source>
+          <target state="translated">-Path</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Specifies the path to the CSV output file.</source>
+          <target state="translated">指定 CSV 輸出檔案的路徑。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>-UseCulture</source>
+          <target state="translated">-UseCulture</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet uses the list separator for the current culture as the item delimiter.</source>
+          <target state="translated">指示這個指令程式的清單分隔符號為使用目前文化特性做為項目分隔符號。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The default is a comma (,).</source>
+          <target state="translated">預設值為逗號 (,)。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>This parameter is very useful in scripts that are being distributed to users worldwide.</source>
+          <target state="translated">此參數在分配給全球使用者的指令碼中非常有用。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>To find the list separator for a culture, use the following command: <ph id="ph1">`(Get-Culture).TextInfo.ListSeparator`</ph>.</source>
+          <target state="translated">若要尋找的文化特性的清單分隔字元，使用下列命令︰ <ph id="ph1">`(Get-Culture).TextInfo.ListSeparator`</ph>。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">顯示執行 Cmdlet 後會發生的情況。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">無法執行此指令程式。顯示執行此指令程式會發生什麼事。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">未執行 Cmdlet。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">這個 cmdlet 支援一般參數:-偵錯、-ErrorAction、-ErrorVariable、-InformationAction-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 以及-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">如需詳細資訊，請參閱 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">輸入</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSObject</source>
+          <target state="translated">System.Management.Automation.PSObject</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>You can pipe any object with an Extended Type System (ETS) adapter to <bpt id="p1">**</bpt>Export-CSV<ept id="p1">**</ept>.</source>
+          <target state="translated">您可以透過管道傳送任何物件擴充類型系統 (ETS) 配接器 <bpt id="p1">**</bpt>EXPORT-CSV<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">輸出</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>System.String</source>
+          <target state="translated">System.String</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The CSV list is sent to the file designated in the Path parameter.</source>
+          <target state="translated">CSV 清單會傳送至 Path 參數中指定的檔案。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">附註</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Export-CSV<ept id="p1">**</ept> cmdlet converts the objects that you submit into a series of CSV variable-length strings and saves them in the specified text file.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>EXPORT-CSV<ept id="p1">**</ept> cmdlet 將您送出的物件轉換成一系列的 CSV 可變長度的字串，並將它們儲存在指定的文字檔案。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>You can use <bpt id="p1">**</bpt>Export-CSV<ept id="p1">**</ept> to save objects in a CSV file and then use the Import-Csv cmdlet to create objects from the text in the CSV file.</source>
+          <target state="translated">您可以使用 <bpt id="p1">**</bpt>EXPORT-CSV<ept id="p1">**</ept> 至 CSV 檔案中儲存的物件，然後使用 Import-csv cmdlet 從 CSV 檔案中的文字建立物件。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>In the CSV file, each object is represented by a comma-separated list of the property values of the object.</source>
+          <target state="translated">在 CSV 檔案中，每個物件都會利用以逗號分隔的物件屬性值清單來表示。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The property values are converted to strings (by using the ToString() method of the object), so they are generally represented by the name of the property value.</source>
+          <target state="translated">屬性值會轉換成字串 (透過使用物件的 ToString() 方法)，因此，它們通常會以屬性值的名稱表示。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Export-CSV<ept id="p1">**</ept> does not export the methods of the object.</source>
+          <target state="translated"><bpt id="p1">**</bpt>EXPORT-CSV<ept id="p1">**</ept> 並不會匯出物件的方法。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The format of an exported file is as follows:</source>
+          <target state="translated">匯出檔案的格式如下：</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The first line of the CSV file contains the string #TYPE followed by the fully qualified name of the object, such as <ph id="ph1">`#TYPE System.Diagnostics.Process`</ph>.</source>
+          <target state="translated">CSV 檔案的第一行包含字串後面的完整限定名稱的物件，例如 #TYPE <ph id="ph1">`#TYPE System.Diagnostics.Process`</ph>。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>To suppress this line, use the <bpt id="p1">*</bpt>NoTypeInformation<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">若要抑制這一行，請使用 <bpt id="p1">*</bpt>NoTypeInformation<ept id="p1">*</ept> 參數。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The next line of the CSV file represents the column headers.</source>
+          <target state="translated">CSV 檔案中的下一行代表欄標題。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>It contains a comma-separated list of the names of all the properties of the first object.</source>
+          <target state="translated">它包含第一個物件之所有屬性的逗號分隔名稱清單。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Additional lines of the file consist of comma-separated lists of the property values of each object.</source>
+          <target state="translated">檔案的其他行包含每個物件的屬性值的逗號分隔清單。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>When you submit multiple objects to <bpt id="p1">**</bpt>Export-CSV<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Export-CSV<ept id="p2">**</ept> organizes the file based on the properties of the first object that you submit.</source>
+          <target state="translated">當您送出多個物件至 <bpt id="p1">**</bpt>EXPORT-CSV<ept id="p1">**</ept>, ，<bpt id="p2">**</bpt>EXPORT-CSV<ept id="p2">**</ept> 組織依據您送出之第一個物件之屬性的檔案。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>If the remaining objects do not have one of the specified properties, the property value of that object is null, as represented by two consecutive commas.</source>
+          <target state="translated">如果其餘的物件不具有指定之屬性的其中之一，該物件的屬性值會是 null，以兩個連續的逗號表示。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>If the remaining objects have additional properties, those property values are not included in the file.</source>
+          <target state="translated">如果其餘的物件有其他屬性，那些屬性值將不會包含在檔案中。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>You can use the Import-Csv cmdlet to re-create objects from the CSV strings in the files.</source>
+          <target state="translated">您可以使用 Import-Csv Cmdlet，從檔案中的 CSV 字串重新建立物件。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The resulting objects are CSV versions of the original objects that consist of string representations of the property values and no methods.</source>
+          <target state="translated">產生的物件是 CSV 版本的原始物件，包含屬性值的字串表示，而且不含方法。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The ConvertTo-Csv and ConvertFrom-Csv cmdlets to convert objects to CSV strings (and back).</source>
+          <target state="translated">ConvertTo-Csv 和 ConvertFrom-Csv Cmdlet 將物件轉換為 CSV 字串，及將 CSV 字串轉換為物件。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Export-CSV<ept id="p1">**</ept> is the same as <bpt id="p2">**</bpt>ConvertTo-CSV<ept id="p2">**</ept>, except that it saves the CSV strings in a file.</source>
+          <target state="translated"><bpt id="p1">**</bpt>EXPORT-CSV<ept id="p1">**</ept> 相同 <bpt id="p2">**</bpt>CONVERTTO-CSV<ept id="p2">**</ept>, ，只不過它會將 CSV 字串儲存在檔案中。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相關的連結</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>ConvertFrom-Csv</source>
+          <target state="translated">ConvertFrom-Csv</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>ConvertTo-Csv</source>
+          <target state="translated">ConvertTo-Csv</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Format-Table</source>
+          <target state="translated">Format-Table</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Import-Csv</source>
+          <target state="translated">Import-Csv</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Select-Object</source>
+          <target state="translated">Select-Object</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Where-Object</source>
+          <target state="translated">Where-Object</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

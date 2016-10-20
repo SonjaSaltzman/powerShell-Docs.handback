@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f87bbeee98c78e4885a1342f6cb4d51e613dc6e0</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Utility\Select-Object.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c74ce9be0cc7bdc802ed412ef79b49eaf6693f18</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ddae2106b7934c2d58413c6bc9e489815a133a82</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell, командлет</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Select-Object</source>
+          <target state="translated">Select-Object</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Select-Object</source>
+          <target state="translated">Select-Object</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">КРАТКИЙ ОБЗОР</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Selects objects or object properties.</source>
+          <target state="translated">Выбирает объекты или свойства объектов.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">СИНТАКСИС</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DefaultParameter (Default)</source>
+          <target state="translated">DefaultParameter (по умолчанию)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>IndexParameter</source>
+          <target state="translated">IndexParameter</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">ОПИСАНИЕ</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> cmdlet selects specified properties of an object or set of objects.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> выбирает указанные свойства объекта или набора объектов.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>It can also select unique objects, a specified number of objects, or objects in a specified position in an array.</source>
+          <target state="translated">Он также может выбирать уникальные объекты, указанное число объектов или объекты в указанной позиции в массиве.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To select objects from a collection, use the <bpt id="p1">**</bpt>First<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Last<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Unique<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Skip<ept id="p4">**</ept>, and <bpt id="p5">**</bpt>Index<ept id="p5">**</ept> parameters.</source>
+          <target state="translated">Чтобы выбрать объекты из коллекции, используйте <bpt id="p1">**</bpt>первый<ept id="p1">**</ept>, <bpt id="p2">**</bpt>последний<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Unique<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Пропустить<ept id="p4">**</ept>, и <bpt id="p5">**</bpt>индекс<ept id="p5">**</ept> Параметры.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To select object properties, use the <bpt id="p1">**</bpt>Property<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Чтобы выбрать свойства объекта, используйте <bpt id="p1">**</bpt>свойство<ept id="p1">**</ept> параметр.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>When you select properties, Select-Object returns new objects that have only the specified properties.</source>
+          <target state="translated">При выборе свойств командлет Select-Object возвращает новые объекты, которые имеют только указанные свойства.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, Select-Object includes an optimization feature that prevents commands from creating and processing objects that are not used.</source>
+          <target state="translated">Начиная с выпуска Windows PowerShell 3.0 командлет Select-Object включает в себя функцию оптимизации, которая предотвращает создание и обработку командами неиспользуемых объектов.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When you include a <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> command with the <bpt id="p2">**</bpt>First<ept id="p2">**</ept> or <bpt id="p3">**</bpt>Index<ept id="p3">**</ept> parameters in a command pipeline, Windows PowerShell stops the command that generates the objects as soon as the selected number of objects is generated, even when the command that generates the objects appears before the <bpt id="p4">**</bpt>Select-Object<ept id="p4">**</ept> command in the pipeline.</source>
+          <target state="translated">При включении <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> с <bpt id="p2">**</bpt>первый<ept id="p2">**</ept> или <bpt id="p3">**</bpt>индекс<ept id="p3">**</ept> параметров в конвейер команд Windows PowerShell останавливает выполнение команды, создает объекты, как только создан выбранное число объектов, даже в том случае, если команда, создает объекты отображается перед <bpt id="p4">**</bpt>Select-Object<ept id="p4">**</ept> команда в конвейере.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To turn off this optimizing behavior, use the <bpt id="p1">**</bpt>Wait<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Чтобы отключить эту функцию оптимизации, используйте <bpt id="p1">**</bpt>ожидания<ept id="p1">**</ept> параметр.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">ПРИМЕРЫ</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- ПРИМЕР 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This command creates objects that have the Name, ID, and working set (WS) properties of process objects.</source>
+          <target state="translated">Эта команда создает объекты, которые имеют свойства имени (Name), идентификатора (ID) и рабочего набора (WS) объектов процессов.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This command gets information about the modules used by the processes on the computer.</source>
+          <target state="translated">Эта команда возвращает сведения о модулях, используемых процессами на компьютере.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>It uses Get-Process cmdlet to get the process on the computer.</source>
+          <target state="translated">Она использует командлет Get-Process для получения процесса на компьютере.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> cmdlet to create new objects with only the selected properties.</source>
+          <target state="translated">Он использует <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> для создания новых объектов с только выбранные свойства.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>Property<ept id="p1">**</ept> parameter of the <bpt id="p2">**</bpt>Select-Object<ept id="p2">**</ept> cmdlet to select the process names.</source>
+          <target state="translated">Команда использует <bpt id="p1">**</bpt>свойство<ept id="p1">**</ept> параметр <bpt id="p2">**</bpt>Select-Object<ept id="p2">**</ept> для выбора имена процессов.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Because the <bpt id="p1">**</bpt>Modules<ept id="p1">**</ept> property contains an <bpt id="p2">**</bpt>ModuleProcess<ept id="p2">**</ept> object that has many properties, the command uses the <bpt id="p3">**</bpt>ExpandProperty<ept id="p3">**</ept> parameter to get the properties of the objects in the <bpt id="p4">**</bpt>Modules<ept id="p4">**</ept> property of each process.</source>
+          <target state="translated">Поскольку <bpt id="p1">**</bpt>модулей<ept id="p1">**</ept> содержит свойство <bpt id="p2">**</bpt>ModuleProcess<ept id="p2">**</ept> объект, который имеет множество свойств, используется команда <bpt id="p3">**</bpt>ExpandProperty<ept id="p3">**</ept> для получения свойств объектов в <bpt id="p4">**</bpt>модулей<ept id="p4">**</ept> каждого процесса.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The command uses the Format-List parameter to display the name and modules in of each process in a list.</source>
+          <target state="translated">Команда использует параметр Format-List для отображения в списке имя и модули каждого процесса.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This command gets the five processes that are using the most memory.</source>
+          <target state="translated">Эта команда возвращает пять процессов, использующих наибольший объем памяти.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The Get-Process cmdlet gets the processes on the computer.</source>
+          <target state="translated">Командлет Get-Process возвращает процессы на компьютере.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The Sort-Object cmdlet sorts the processes according to memory (working set) usage, and the Select-Object cmdlet selects only the last five members of the resulting array of objects.</source>
+          <target state="translated">Командлет Sort-Object сортирует процессы в соответствии с используемой памяти (рабочий набор), и командлет Select-Object выбирает только последние пять элементов полученного массива объектов.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Wait<ept id="p1">**</ept> parameter is not required in commands that include the <bpt id="p2">**</bpt>Sort-Object<ept id="p2">**</ept> cmdlet because <bpt id="p3">**</bpt>Sort-Object<ept id="p3">**</ept> processes all objects and then returns a collection.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Ожидания<ept id="p1">**</ept> параметр не является обязательным в командах, которые включают <bpt id="p2">**</bpt>Sort-Object<ept id="p2">**</ept> командлета из-за <bpt id="p3">**</bpt>Sort-Object<ept id="p3">**</ept> обрабатывает все объекты и затем возвращает коллекцию.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> optimization is available only for commands that return objects individually as they are processed.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> Оптимизация доступна только для команд, которые возвращают объекты по отдельности, как они обрабатываются.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This command gets the name and start day of the processes running on a computer.</source>
+          <target state="translated">Эта команда возвращает имена и дни запуска процессов на компьютере.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The command uses the Get-Process cmdlet to get the processes on the computer.</source>
+          <target state="translated">Команда использует командлет Get-Process для получения процессов на компьютере.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>It passes the processes to the <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> cmdlet, which creates objects that have only the <bpt id="p2">**</bpt>ProcessName<ept id="p2">**</ept> parameter and a calculated property named "Start Day."</source>
+          <target state="translated">Он передает процессов <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> который создает объекты, имеют только <bpt id="p2">**</bpt>ProcessName<ept id="p2">**</ept> параметр и вычисляемое свойство с именем «День начала».</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The "Start Day" property is added by using a hash table with Name and Expression keys.</source>
+          <target state="translated">Свойство Start Day добавляется с помощью хэш-таблицы с ключами Name и Expression.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The value of the Expression key is a script blocks that gets the StartTime property of each process and the DayofWeek property of the StartTime.</source>
+          <target state="translated">Значение ключа Expression представляет собой блок сценария, возвращающий свойство StartTime каждого процесса и значение DayofWeek свойства StartTime.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This command uses the Unique parameter of Select-Object to get unique characters from an array of characters.</source>
+          <target state="translated">В этой команде используется параметр Unique командлета Select-Object для получения уникальных символов из массива символов.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 6 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 6 --------------------------</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>These commands gets the first (newest) and last (oldest) events in the Windows Powershell event log.</source>
+          <target state="translated">Эти команды возвращают первое (самое недавнее) и последнее (самое давнее) события из журнала событий Windows Powershell.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The command uses the Get-EventLog cmdlet to get all events in the Windows PowerShell log.</source>
+          <target state="translated">Команда использует командлет Get-EventLog для получения всех событий в журнале Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>It saves them in the $a variable.</source>
+          <target state="translated">События сохраняются в переменной $a.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The second command uses a pipeline operator (|) to send the events in $a to the <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">Вторая команда использует оператор конвейера (|) для отправки событий в $ для <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> командлета.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> command uses the <bpt id="p2">**</bpt>Index<ept id="p2">**</ept> parameter to select events from the array of events in the $a variable.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> команда использует <bpt id="p2">**</bpt>индекс<ept id="p2">**</ept> параметр для выбора событий из массива событий в переменной $a.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The index of the first event is 0.</source>
+          <target state="translated">Индекс первого события равен 0.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The index of the last event is the number of items in $a minus 1.</source>
+          <target state="translated">Индекс последнего события равен числу элементов в переменной $a минус 1.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 7 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 7 --------------------------</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This command creates a new PSSession on each of the computers listed in the Servers.txt files, except for the first one.</source>
+          <target state="translated">Эта команда создает сеанс PSSession на каждом из компьютеров, указанных в файлах Servers.txt, кроме первого.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> cmdlet to select all but the first computer in a list of computer names.</source>
+          <target state="translated">Эта команда использует <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> командлет, чтобы выделить все, но первый компьютер в список имен компьютеров.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The resulting list of computers is set as the value of the <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> parameter of the New-PSSession cmdlet.</source>
+          <target state="translated">Полученный список компьютеров задано как значение <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> командлета New-PSSession.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 8 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 8 --------------------------</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This command adds a "-ro" suffix to the base names of text files that have the read-only attribute and then displays the first five files so the user can see a sample of the effect.</source>
+          <target state="translated">Эта команда добавляет суффикс -ro к базовым именам текстовых файлов, имеющих атрибут только для чтения, а затем выводит первые пять файлов для образца.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>ReadOnly<ept id="p1">**</ept> dynamic parameter of the Get-ChildItem for FileSystem cmdlet to get read-only files.</source>
+          <target state="translated">Команда использует <bpt id="p1">**</bpt>ReadOnly<ept id="p1">**</ept> динамического параметра командлета Get-ChildItem для командлета файловой системы для получения файлов только для чтения.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>It uses a pipeline operator (|) to send the files to the Rename-Item cmdlet, which renames the file.</source>
+          <target state="translated">Она использует оператор конвейера (|) для передачи файлов в командлет Rename-Item, который переименовывает их.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>Passthru<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Rename-Item<ept id="p2">**</ept> to send the renamed files to the <bpt id="p3">**</bpt>Select-Object<ept id="p3">**</ept> cmdlet, which selects the first 5 for display.</source>
+          <target state="translated">Он использует <bpt id="p1">**</bpt>Passthru<ept id="p1">**</ept> параметр <bpt id="p2">**</bpt>переименования элемента<ept id="p2">**</ept> для отправки переименованные файлы для <bpt id="p3">**</bpt>Select-Object<ept id="p3">**</ept> командлет, который выбирает первые 5 для отображения.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Wait<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Select-Object<ept id="p2">**</ept> prevents Windows PowerShell from stopping the <bpt id="p3">**</bpt>Get-ChildItem<ept id="p3">**</ept> cmdlet after it gets the first five read-only text files.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Ожидания<ept id="p1">**</ept> параметр <bpt id="p2">**</bpt>Select-Object<ept id="p2">**</ept> Windows PowerShell предотвращает остановку <bpt id="p3">**</bpt>Get-ChildItem<ept id="p3">**</ept> командлета, после его возвращает первые пять файлов только для чтения текста.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Without this parameter, only the first five read-only files would be renamed.</source>
+          <target state="translated">Без этого параметра были бы переименованы только первые пять таких файлов.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">ПАРАМЕТРЫ</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>-ExcludeProperty</source>
+          <target state="translated">-ExcludeProperty</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Removes the specifies properties from the selection.</source>
+          <target state="translated">Удаляет указанные свойства из числа выбранных.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">Разрешено использовать подстановочные знаки.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This parameter is effective only when the command also includes the <bpt id="p1">**</bpt>Property<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Этот параметр действует только в том случае, если команда также включает <bpt id="p1">**</bpt>Свойства<ept id="p1">**</ept> параметра.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The value of the property parameter can be a calculated property, which is a hash table that specifies a name and calculates a value for the property display.</source>
+          <target state="translated">Значение параметра Property может быть вычисляемым свойством, то есть хэш-таблицей, в которой указывается имя и вычисляется значение свойства для отображения.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Valid keys are:</source>
+          <target state="translated">Допустимые разделы следующие:</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Name or Label <ph id="ph1">\&lt;</ph>string</source>
+          <target state="translated">Имя или метку <ph id="ph1">\&lt;</ph>строки</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Expression <ph id="ph1">\&lt;</ph>string<ph id="ph2">\&gt;</ph> or <ph id="ph3">\&lt;</ph>scriptblock</source>
+          <target state="translated">Выражение <ph id="ph1">\&lt;</ph>Строка<ph id="ph2">\&gt;</ph> или <ph id="ph3">\&lt;</ph>блок сценария</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>For more information, see the examples.</source>
+          <target state="translated">Дополнительные сведения см. в примерах.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>-ExpandProperty</source>
+          <target state="translated">-ExpandProperty</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Specifies a property to select, and indicates that an attempt should be made to expand that property.</source>
+          <target state="translated">Задает свойство, которое нужно выбрать, и указывает, что нужно попытаться расширить его.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted in the property name.</source>
+          <target state="translated">В имени свойства допускаются подстановочные знаки.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>For example, if the specified property is an array, each value of the array is included in the output.</source>
+          <target state="translated">Например, если указанное свойство — массив, в выходные данные включается каждое его значение.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>If the property contains an object, the properties of that object are displayed in the output.</source>
+          <target state="translated">Если свойство содержит объект, в выходных данных выводятся его свойства.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>-First</source>
+          <target state="translated">— Первый</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Specifies the number of objects to select from the beginning of an array of input objects.</source>
+          <target state="translated">Указывает число объектов, которое нужно выбрать с начала массива входных объектов.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>-Index</source>
+          <target state="translated">-Индекс</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Selects objects from an array based on their index values.</source>
+          <target state="translated">Выбирает объекты из массива в соответствии со значениями индекса.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Enter the indexes in a comma-separated list.</source>
+          <target state="translated">Введите индексы в виде разделенного запятыми списка.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Indexes in an array begin with 0, where 0 represents the first value and (n-1) represents the last value.</source>
+          <target state="translated">Индексы массива начинаются с нуля, то есть 0 представляет первое значение, а (n-1) — последнее значение.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-InputObject</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Specifies objects to send to the cmdlet through the pipeline.</source>
+          <target state="translated">Указывает объекты, которые необходимо передать в командлет по конвейеру.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>This parameter enables you to pipe objects to Select-Object.</source>
+          <target state="translated">Этот параметр позволяет передавать объекты в командлет Select-Object по конвейеру.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>When you use the InputObject parameter with Select-Object, instead of piping command results to Select-Object, the InputObject value-even if the value is a collection that is the result of a command, such as -InputObject (Get-Process)-is treated as a single object.</source>
+          <target state="translated">При использовании параметра InputObject с Select-Object вместо передачи по каналу результаты выполнения команды Select-Object InputObject значение, даже если значение является коллекцией, являющийся результатом выполнения команды, например - InputObject (Get-Process)-рассматривается как один объект.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Because InputObject cannot return individual properties from an array or collection of objects, it is recommended that if you use Select-Object to filter a collection of objects for those objects that have specific values in defined properties, you use Select-Object in the pipeline, as shown in the examples in this topic.</source>
+          <target state="translated">Так как с помощью параметра InputObject нельзя вернуть отдельные свойства из массива или коллекции объектов, то при использовании командлета Select-Object для фильтрации коллекции объектов с целью выбора объектов с определенными значениями указанных свойств рекомендуется включать командлет Select-Object в конвейер, как показано в примерах в этом разделе.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>-Last</source>
+          <target state="translated">— Последний</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Specifies the number of objects to select from the end of an array of input objects.</source>
+          <target state="translated">Указывает число объектов, которое нужно выбрать с конца массива входных объектов.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>-Property</source>
+          <target state="translated">-Свойство</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Specifies the properties to select.</source>
+          <target state="translated">Указывает свойства, которые нужно выбрать.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">Разрешено использовать подстановочные знаки.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The value of the Property parameter can be a new calculated property.</source>
+          <target state="translated">Значением параметра Property может быть новое вычисляемое свойство.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>To create a calculated, property, use a hash table.</source>
+          <target state="translated">Чтобы создать вычисляемое свойство, используйте хэш-таблицу.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Valid keys are:</source>
+          <target state="translated">Допустимые разделы следующие:</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Name (or Label) <ph id="ph1">\&lt;</ph>string</source>
+          <target state="translated">Имя (или метку) <ph id="ph1">\&lt;</ph>строки</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Expression <ph id="ph1">\&lt;</ph>string<ph id="ph2">\&gt;</ph> or <ph id="ph3">\&lt;</ph>script block</source>
+          <target state="translated">Выражение <ph id="ph1">\&lt;</ph>Строка<ph id="ph2">\&gt;</ph> или <ph id="ph3">\&lt;</ph>блок сценария</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>-Skip</source>
+          <target state="translated">-Skip</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Skips (does not select) the specified number of items.</source>
+          <target state="translated">Пропускает (не выбирает) указанное число элементов.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>By default, the Skip parameter counts from the beginning of the array or list of objects, but if the command uses the Last parameter, it counts from the end of the list or array.</source>
+          <target state="translated">По умолчанию параметр Skip отсчитывается от начала массива или списка объектов, но если в команде используется параметр Last, он отсчитывается от конца списка или массива.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Unlike the <bpt id="p1">**</bpt>Index<ept id="p1">**</ept> parameter, which starts counting at 0, the <bpt id="p2">**</bpt>Skip<ept id="p2">**</ept> parameter begins at 1.</source>
+          <target state="translated">В отличие от <bpt id="p1">**</bpt>индекс<ept id="p1">**</ept> параметр, который отсчитывается от 0, <bpt id="p2">**</bpt>Пропустить<ept id="p2">**</ept> начинается с единицы.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>-Unique</source>
+          <target state="translated">— Уникальный</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Specifies that if a subset of the input objects has identical properties and values, only a single member of the subset will be selected.</source>
+          <target state="translated">Указывает, что, если подмножество входных объектов имеет идентичные свойства и значения, выбран будет только один член подмножества.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>This parameter is case-sensitive.</source>
+          <target state="translated">Этот параметр чувствителен к регистру.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>As a result, strings that differ only in character casing are considered to be unique.</source>
+          <target state="translated">Поэтому строки, которые отличаются только регистром символов, считаются уникальными.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>-Wait</source>
+          <target state="translated">-Wait</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Turns off optimization.</source>
+          <target state="translated">Отключает оптимизацию.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell runs commands in the order that they appear in the command pipeline and lets them generate all objects.</source>
+          <target state="translated">Среда Windows PowerShell выполняет команды в том порядке, в котором они следуют в конвейере, и позволяет им создать все объекты.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>By default, if you include a <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> command with the <bpt id="p2">**</bpt>First<ept id="p2">**</ept> or <bpt id="p3">**</bpt>Index<ept id="p3">**</ept> parameters in a command pipeline, Windows PowerShell stops the command that generates the objects as soon as the selected number of objects is generated.</source>
+          <target state="translated">По умолчанию при включении <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> с <bpt id="p2">**</bpt>первый<ept id="p2">**</ept> или <bpt id="p3">**</bpt>индекс<ept id="p3">**</ept> параметров в конвейер команд Windows PowerShell останавливает выполнение команды, создает объекты, как только создается выбранное число объектов.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Этот параметр впервые появился в Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Этот командлет поддерживает общие параметры:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction и - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Дополнительные сведения см. в разделе about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ВХОДНЫЕ ДАННЫЕ</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSObject</source>
+          <target state="translated">System.Management.Automation.PSObject</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>You can pipe any object to Select-Object.</source>
+          <target state="translated">В командлет Select-Object можно передать по конвейеру любой объект.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">ВЫХОДНЫЕ ДАННЫЕ</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSObject</source>
+          <target state="translated">System.Management.Automation.PSObject</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ПРИМЕЧАНИЯ</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>You can also refer to the <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> cmdlet by its built-in alias, "select".</source>
+          <target state="translated">Можно также ссылаться на <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> командлет с помощью встроенного псевдонима «выбрать».</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Aliases.</source>
+          <target state="translated">Подробнее см. в разделе "about_Aliases".</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The optimization feature of <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> is available only for commands that write objects to the pipeline as they are processed.</source>
+          <target state="translated">Функция оптимизации <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> доступно только для команд, которые записывают объекты в конвейер, как они обрабатываются.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>It has no effect on commands that buffer processed objects and write them as a collection.</source>
+          <target state="translated">Она не действует для команд, которые буферизуют обработанные объекты и записывают их в виде коллекции.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Writing objects immediately is a cmdlet design best practice.</source>
+          <target state="translated">При разработке командлетов рекомендуется немедленно записывать объекты.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>For more information, see "Write Single Records to the Pipeline" in "Strongly Encouraged Development Guidelines" at http://go.microsoft.com/fwlink/?LinkId=223385http://go.microsoft.com/fwlink/?LinkId=223385</source>
+          <target state="translated">Дополнительные сведения см. «Написать один в конвейер» в «Настоятельно рекомендуется рекомендации по разработке» в http://go.microsoft.com/fwlink/?LinkId=223385http://go.microsoft.com/fwlink/?LinkId=223385</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">СВЯЗАННЫЕ ССЫЛКИ</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Group-Object</source>
+          <target state="translated">Group-Object</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Sort-Object</source>
+          <target state="translated">Sort-Object</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Where-Object</source>
+          <target state="translated">Where-Object</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">20713e25d90b94daa8c3d008977053f83de1f35f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Core\Enable-PSSessionConfiguration.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c213f43f876b000945805f1fccf409619de4406b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2b23037da43359ea46796e1445478c3c967ba9d6</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell 指令程式</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Enable-PSSessionConfiguration</source>
+          <target state="translated">Enable-pssessionconfiguration</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Enable-PSSessionConfiguration</source>
+          <target state="translated">Enable-pssessionconfiguration</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Enables the session configurations on the local computer.</source>
+          <target state="translated">啟用本機電腦上的工作階段設定。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">語法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">描述</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Enable-PSSessionConfiguration<ept id="p1">**</ept> cmdlet enables registered session configurations that have been disabled, such as by using the Disable-PSSessionConfiguration or Disable-PSRemoting cmdlets, or the <bpt id="p2">**</bpt>AccessMode<ept id="p2">**</ept> parameter of Register-PSSessionConfiguration.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Enable-pssessionconfiguration<ept id="p1">**</ept> 指令程式可讓已註冊的工作階段設定已停用，例如使用 Disable-pssessionconfiguration 或 Disable-psremoting 指令程式，或 <bpt id="p2">**</bpt>AccessMode<ept id="p2">**</ept> Register-pssessionconfiguration 參數。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This is an advanced cmdlet that is designed to be used by system administrators to manage customized session configurations for their users.</source>
+          <target state="translated">這是一個進階的 Cmdlet，專門設計給系統管理員用於管理其使用者的自訂工作階段設定。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Without parameters, <bpt id="p1">**</bpt>Enable-PSSessionConfiguration<ept id="p1">**</ept> enables the Microsoft.PowerShell configuration, which is the default configuration that is used for sessions.</source>
+          <target state="translated">如果沒有參數， <bpt id="p1">**</bpt>Enable-pssessionconfiguration<ept id="p1">**</ept> 啟用 Microsoft.PowerShell 設定，這是用於工作階段的預設設定。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Enable-PSSessionConfiguration<ept id="p1">**</ept> removes the "Deny_All" setting from the security descriptor of the affected session configurations, turns on the listener that accepts requests on any IP address, and restarts the WinRM service.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Enable-pssessionconfiguration<ept id="p1">**</ept> 從受影響的工作階段設定的安全性描述元移除"Deny_All"設定、 接受要求的任何 IP 位址，並重新啟動 WinRM 服務的接聽程式會開啟。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, <bpt id="p1">**</bpt>Enable-PSSessionConfiguration<ept id="p1">**</ept> also sets the value of the <bpt id="p2">**</bpt>Enabled<ept id="p2">**</ept> property of the session configuration (WSMan:<ph id="ph1">\\\&lt;</ph>computer<ph id="ph2">\&gt;</ph>\PlugIn<ph id="ph3">\\\&lt;</ph>SessionConfigurationName<ph id="ph4">\&gt;</ph>\Enabled) to "True".</source>
+          <target state="translated">在 Windows PowerShell 3.0 中，從 <bpt id="p1">**</bpt>Enable-pssessionconfiguration<ept id="p1">**</ept> 也會將設定的值 <bpt id="p2">**</bpt>啟用<ept id="p2">**</ept> 工作階段設定的屬性 (WSMan:<ph id="ph1">\\\&lt;</ph>電腦<ph id="ph2">\&gt;</ph>\PlugIn<ph id="ph3">\\\&lt;</ph>SessionConfigurationName<ph id="ph4">\&gt;</ph>\Enabled) 為"True"。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>However,  <bpt id="p1">**</bpt>Enable-PSSessionConfiguration<ept id="p1">**</ept> does not remove or change the "Network_Deny_All" (AccessMode=Local) security descriptor setting that allows only users of the local computer to use to the session configuration.</source>
+          <target state="translated">不過，  <bpt id="p1">**</bpt>Enable-pssessionconfiguration<ept id="p1">**</ept> 不會移除或變更"Network_Deny_All"(AccessMode = 本機) 設定的安全性描述元只允許使用者在本機電腦的工作階段設定使用。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Enable-PSSessionConfiguration<ept id="p1">**</ept> cmdlet calls the <bpt id="p2">**</bpt>Set-WSManQuickConfig<ept id="p2">**</ept> cmdlet.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Enable-pssessionconfiguration<ept id="p1">**</ept> cmdlet 會呼叫 <bpt id="p2">**</bpt>Set-wsmanquickconfig<ept id="p2">**</ept> 指令程式。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>However, it should not be used to enable remoting on the computer.</source>
+          <target state="translated">但是它不應該用來啟用電腦上的遠端功能。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Instead, use the more comprehensive cmdlet, Enable-PSRemoting.</source>
+          <target state="translated">請改用更全面的 cmdlet，Enable-psremoting。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">範例</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 範例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This command re-enables the Microsoft.PowerShell default session configuration on the computer.</source>
+          <target state="translated">此命令會重新啟用電腦上的 Microsoft.PowerShell 預設工作階段設定。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This command re-enables the MaintenanceShell and AdminShell session configurations on the computer.</source>
+          <target state="translated">此命令會重新啟用電腦上的 MaintenanceShell 和 AdminShell 工作階段設定。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>These commands re-enable all session configurations on the computer.</source>
+          <target state="translated">這些命令會重新啟用電腦上的所有工作階段設定。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The commands are equivalent, so you can use either one.</source>
+          <target state="translated">這些命令是相等的，所以您可以選擇兩者任何一個使用。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Enable-PSSessionConfiguration does not generate an error if you enable a session configuration that is already enabled.</source>
+          <target state="translated">如果您啟用已經啟用的工作階段設定，Enable-PSSessionConfiguration 並不會產生錯誤。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This command re-enables the MaintenanceShell session configuration and specifies a new security descriptor for the configuration.</source>
+          <target state="translated">此命令會重新啟用 MaintenanceShell 工作階段設定，並為設定指定新的安全性描述元。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">參數</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">會提示您進行確認，然後再執行此指令程式。會提示您進行確認，然後再執行此指令程式。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Suppresses all user prompts, and restarts the WinRM service without prompting.</source>
+          <target state="translated">抑制所有使用者提示，並在不顯示提示的情況下重新啟動 WinRM 服務。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Restarting the service makes the configuration change effective.</source>
+          <target state="translated">重新啟動服務可讓設定變更生效。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To prevent a restart and suppress the restart prompt, use the NoServiceRestart parameter.</source>
+          <target state="translated">若要防止重新啟動並抑制重新啟動提示，請使用 NoServiceRestart 參數。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Specifies the names of session configurations to enable.</source>
+          <target state="translated">指定要啟用之工作階段設定的名稱。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Enter one or more configuration names.</source>
+          <target state="translated">輸入一或多個設定名稱。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">允許使用萬用字元。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You can also pipe a string that contains a configuration name or a session configuration object to Enable-PSSessionConfiguration.</source>
+          <target state="translated">您也可以使用管線將包含設定名稱的字串或工作階段設定物件傳送至 Enable-PSSessionConfiguration。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, Enable-PSSessionConfiguration enables the Microsoft.PowerShell session configuration.</source>
+          <target state="translated">如果您省略此參數，Enable-PSSessionConfiguration 會啟用 Microsoft.PowerShell 工作階段設定。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>-SecurityDescriptorSddl</source>
+          <target state="translated">-SecurityDescriptorSddl</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Replaces the security descriptor on the session configuration with the specified security descriptor.</source>
+          <target state="translated">使用指定的安全性描述元取代工作階段設定上的安全性描述元。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, Enable-PSSessionConfiguration just deletes the "deny all" item from the security descriptor.</source>
+          <target state="translated">如果您省略此參數，Enable-PSSessionConfiguration 只會從安全性描述元刪除 "deny all" 項目。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-SkipNetworkProfileCheck</source>
+          <target state="translated">-SkipNetworkProfileCheck</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Enables the session configuration when the computer is on a public network.</source>
+          <target state="translated">當電腦位於公用網路上時啟用工作階段設定。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This parameter enables a firewall rule for public networks that allows remote access only from computers in the same local subnet.</source>
+          <target state="translated">此參數會針對公用網路啟用防火牆規則，以便只允許從位於相同本機子網路的電腦進行遠端存取。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Enable-PSSessionConfiguration<ept id="p1">**</ept> fails on a public network.</source>
+          <target state="translated">根據預設， <bpt id="p1">**</bpt>Enable-pssessionconfiguration<ept id="p1">**</ept> 公用網路上的失敗。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This parameter is designed for client versions of Windows.</source>
+          <target state="translated">此參數是針對用戶端版本的 Windows 所設計。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Server versions of Windows have a local subnet firewall rule for public networks by default.</source>
+          <target state="translated">伺服器版本的 Windows 預設具有用於公用網路的本機子網路防火牆規則。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>However, if the local subnet firewall rule is disabled on a server version of Windows, this parameter re-enables it.</source>
+          <target state="translated">不過，若伺服器版本的 Windows 已停用本機子網路防火牆規則，此參數會將它重新啟用。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To remove the local subnet restriction and enable remote access from all locations on public networks, use the Set-NetFirewallRule cmdlet in the NetSecurity module.</source>
+          <target state="translated">若要移除本機子網路限制並允許從公用網路上的所有位置進行遠端存取，請使用 NetSecurity 模組中的 Set-NetFirewallRule Cmdlet。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>For more information, see Enable-PSRemoting.</source>
+          <target state="translated">如需詳細資訊，請參閱 Enable-psremoting。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此參數是在 Windows PowerShell 3.0 引進。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">顯示執行 Cmdlet 後會發生的情況。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">無法執行此指令程式。顯示執行此指令程式會發生什麼事。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">未執行 Cmdlet。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">這個 cmdlet 支援一般參數:-偵錯、-ErrorAction、-ErrorVariable、-InformationAction-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 以及-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">如需詳細資訊，請參閱 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">輸入</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Microsoft.PowerShell.Commands.PSSessionConfigurationCommands#PSSessionConfiguration, System.String</source>
+          <target state="translated">Microsoft.PowerShell.Commands.PSSessionConfigurationCommands#PSSessionConfiguration、 System.String</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>You can pipe a session configuration object or a string that contains the name of a session configuration to Enable-PSSessionConfiguration.</source>
+          <target state="translated">您可以使用管線將工作階段設定物件或包含工作階段設定名稱的字串傳送至 Enable-PSSessionConfiguration。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">輸出</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">無</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>This cmdlet does not return any objects.</source>
+          <target state="translated">此 Cmdlet 不會傳回任何物件。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">附註</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>To run this cmdlet on Windows Vista, Windows Server 2008, and later versions of Windows, you must start Windows PowerShell with the "Run as administrator" option.</source>
+          <target state="translated">若要在 Windows Vista、Windows Server 2008 和更新版本的 Windows 上執行此 Cmdlet，您必須使用 [以系統管理員身分執行] 選項啟動 Windows PowerShell。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相關的連結</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Disable-PSSessionConfiguration</source>
+          <target state="translated">Disable-pssessionconfiguration</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Enable-PSSessionConfiguration</source>
+          <target state="translated">Enable-pssessionconfiguration</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Get-PSSessionConfiguration</source>
+          <target state="translated">Get-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>New-PSSessionConfigurationFile</source>
+          <target state="translated">New-PSSessionConfigurationFile</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>New-PSSessionOption</source>
+          <target state="translated">New-PSSessionOption</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Register-PSSessionConfiguration</source>
+          <target state="translated">Register-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Set-PSSessionConfiguration</source>
+          <target state="translated">Set-pssessionconfiguration</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Test-PSSessionConfigurationFile</source>
+          <target state="translated">Test-PSSessionConfigurationFile</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Unregister-PSSessionConfiguration</source>
+          <target state="translated">取消註冊 PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>WSMan Provider</source>
+          <target state="translated">WSMan 提供者</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>about_Session_Configurations</source>
+          <target state="translated">about_Session_Configurations</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>about_Session_Configuration_Files</source>
+          <target state="translated">about_Session_Configuration_Files</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

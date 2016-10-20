@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e3433e63e31b08bab75c20d10dbdbe383fa0a591</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\PowershellGet\Register-PSRepository.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">516757135c841c0f40108a94a9f5127ea2544cdb</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">830ca2685b5950a409508c38b7d0e4c9df16ae4e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Register-PSRepository</source>
+          <target state="translated">Register-PSRepository</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Register-PSRepository</source>
+          <target state="translated">Register-PSRepository</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Registers a PowerShell repository.</source>
+          <target state="translated">PowerShell のリポジトリに登録します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">構文</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">説明</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Register-PSRepository<ept id="p1">**</ept> cmdlet registers the default repository for PowerShell modules.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>登録 PSRepository<ept id="p1">**</ept> コマンドレットは、PowerShell モジュールの既定のリポジトリを登録します。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>After a repository is registered, you can reference it from the Find-Module, Install-Module, and Publish-Module cmdlets.</source>
+          <target state="translated">リポジトリを登録すると、Find-Module、Install-Module および Publish-Module の各コマンドレットから参照できます。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The registered repository becomes the default repository in <bpt id="p1">**</bpt>Find-Module<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Install-Module<ept id="p2">**</ept>.</source>
+          <target state="translated">登録されているリポジトリで、既定のリポジトリになります <bpt id="p1">**</bpt>検索モジュール<ept id="p1">**</ept> と <bpt id="p2">**</bpt>インストール モジュール<ept id="p2">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Registered repositories are user-specific.</source>
+          <target state="translated">登録されているリポジトリはユーザー固有です。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>They are not registered in a system-wide context.</source>
+          <target state="translated">システム全体のコンテキストには登録されません。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Each registered repository is associated with a OneGet package provider, which is specified with the <bpt id="p1">*</bpt>PackageManagementProvider<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">各登録済みのリポジトリがで指定される OneGet パッケージのプロバイダーに関連付けられて、 <bpt id="p1">*</bpt>PackageManagementProvider<ept id="p1">*</ept> パラメーター。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Each OneGet provider is designed to interact with a specific type of repository.</source>
+          <target state="translated">各 OneGet プロバイダーは、特定の種類のリポジトリとの対話に設計されています。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For example, the NuGet provider is designed to interact with NuGet-based repositories.</source>
+          <target state="translated">たとえば、NuGet プロバイダーは NuGet ベースのリポジトリとの対話に設計されています。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If a OneGet provider is not specified during registration, PowerShellGet attempts to find a OneGet provider that can handle the specified source location.</source>
+          <target state="translated">OneGet プロバイダーが登録時に指定されていない場合、PowerShellGet は指定したソースの場所を処理できる OneGet プロバイダーを検索しようとします。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Example 1: Register a repository</source>
+          <target state="translated">例 1: 登録リポジトリ</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The first command registers https://www.myget.org/F/powershellgetdemo/ as a repository for the current user.</source>
+          <target state="translated">最初のコマンドは、現在のユーザーのリポジトリとして https://www.myget.org/F/powershellgetdemo/ を登録します。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>After myNuGetSource is registered, you can explicitly reference it when searching for, installing, and publishing modules.</source>
+          <target state="translated">MyNuGetSource が登録されると、検索、インストール、およびモジュールを発行するときに明示的に参照できます。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Because the <bpt id="p1">*</bpt>PackageManamentProvider<ept id="p1">*</ept> parameter isn't specified, the repository is not explicitly associated with a OneGet packkage provider, so PowerShellGet polls available package providers and associates it with the NuGet provider.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>PackageManamentProvider<ept id="p1">*</ept> パラメーターが指定されていない、リポジトリは明示的にられておらず、OneGet packkage プロバイダーと共に PowerShellGet が利用可能なパッケージのプロバイダーをポーリングし、NuGet プロバイダーに関連付けます。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The second command gets registered repositories and displays the results.</source>
+          <target state="translated">2 番目のコマンドは、登録されているリポジトリを取得し、結果を表示します。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">パラメータ</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>-InstallationPolicy</source>
+          <target state="translated">-InstallationPolicy</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Specifies the installation policy.</source>
+          <target state="translated">インストール ポリシーを指定します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Valid values are: Trusted, UnTrusted.</source>
+          <target state="translated">有効な値: 信頼されている、信頼されていません。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The default value is UnTrusted.</source>
+          <target state="translated">既定値は信頼されていません。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A repository's installation policy specifies PowerShell behavior when installing from that repository.</source>
+          <target state="translated">リポジトリのインストール ポリシーは、そのリポジトリからインストールするときに、PowerShell の動作を指定します。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>When installing modules from an UnTrusted repository, the user is prompted for confirmation.</source>
+          <target state="translated">信頼されていないリポジトリからモジュールをインストールする場合は、確認を求められます。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You can set the <bpt id="p1">*</bpt>InstallationPolicy<ept id="p1">*</ept> with the Set-PSRepository cmdlet.</source>
+          <target state="translated">設定することができます、 <bpt id="p1">*</bpt>InstallationPolicy<ept id="p1">*</ept> セット PSRepository コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the repository to register.</source>
+          <target state="translated">登録するリポジトリの名前を指定します。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You can use this name to specify the repository in cmdlets such as Find-Module and Install-Module.</source>
+          <target state="translated">この名前を使用すると、検索モジュールと、インストール モジュールなどのコマンドレットで、リポジトリを指定します。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-PackageManagementProvider</source>
+          <target state="translated">-PackageManagementProvider</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Specifies a OneGet package provider.</source>
+          <target state="translated">OneGet パッケージ プロバイダーを指定します。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>If you don't specify a value for this parameter, PowerShellGet polls available package providers and associates this repository with the first package provider that indicates it can handle the repository.</source>
+          <target state="translated">このパラメーターの値を指定しない場合、PowerShellGet は使用可能なパッケージのプロバイダーをポーリングし、リポジトリを処理できることを示す最初のパッケージ プロバイダーにこのリポジトリを関連付けます。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-PublishLocation</source>
+          <target state="translated">-PublishLocation</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Specifies the URI of the publish location.</source>
+          <target state="translated">発行場所の URI を指定します。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For example, for NuGet-based repositories, the publish location is similar to http://someNuGetUrl.com/api/v2/Packages.</source>
+          <target state="translated">たとえば、NuGet ベースのリポジトリの発行場所に似ています http://someNuGetUrl.com/api/v2/Packages。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>-SourceLocation</source>
+          <target state="translated">-SourceLocation</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Specifies the URI for discovering and installing modules from this repository.</source>
+          <target state="translated">このリポジトリからモジュールのインストールの検出およびに URI を指定します。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>For example, for NuGet-based repositories, the source location is similar to http://someNuGetUrl.com/api/v2.</source>
+          <target state="translated">たとえば、NuGet ベースのリポジトリのソースの場所は http://someNuGetUrl.com/api/v2 に似ています。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">このコマンドレットは、共通のパラメーターをサポートしています:-デバッグ、-erroraction、-errorvariable、- InformationAction-InformationVariable、- OutVariable、-OutBuffer、- PipelineVariable、- Verbose、および - WarningVariable です。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">詳細については、about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">入力</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">出力</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ノート</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">関連リンク</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Get-PSRepository</source>
+          <target state="translated">Get-PSRepository</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Set-PSRepository</source>
+          <target state="translated">Set-PSRepository</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Unregister-PSRepository</source>
+          <target state="translated">Unregister-PSRepository</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

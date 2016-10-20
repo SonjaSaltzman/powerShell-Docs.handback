@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6ecdbd81dcae8a8dfd13085671043cf9586d37e8</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\About\about_WQL.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b41396f637be60f315f501319161148c8f275724</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3db30d43b3e70cf5b7eb3abff7fdb721e43fa9b9</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>about_WQL</source>
+          <target state="translated">about_WQL</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>About WQL</source>
+          <target state="translated">WQL に関する</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>about_WQL</source>
+          <target state="translated">about_WQL</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>about_WQL</source>
+          <target state="translated">about_WQL</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Describes WMI Query Language (WQL), which can be used to get WMI objects in Windows PowerShell.</source>
+          <target state="translated">WMI Query Language (WQL) について説明します。これは Windows PowerShell で WMI オブジェクトを取得するために使用できます。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>LONG DESCRIPTION</source>
+          <target state="translated">詳細説明</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>WQL is the Windows Management Instrumentation (WMI) query language, which is the language used to get information from WMI.</source>
+          <target state="translated">WQL は、WMI から情報を取得するために使用する言語である Windows Management Instrumentation (WMI) クエリ言語です。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You are not required to use WQL to perform a WMI query in Windows PowerShell.</source>
+          <target state="translated">WQL を使用して、Windows PowerShell で WMI クエリを実行する必要はありません。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Instead, you can use the parameters of the Get-WmiObject or Get-CimInstance cmdlets.</source>
+          <target state="translated">代わりに、Get-wmiobject または Get-ciminstance コマンドレットのパラメーターを使用することができます。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>WQL queries are somewhat faster than standard Get-WmiObject commands and the improved performance is evident when the commands run on hundreds of systems.</source>
+          <target state="translated">WQL クエリは、標準、Get-wmiobject コマンドよりも多少高速、パフォーマンスの向上明らかな場合に何百ものシステムでコマンドを実行します。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>However, be sure that the time you spend to write a successful WQL query doesn't outweigh the performance improvement.</source>
+          <target state="translated">ただし、正常な WQL クエリを作成する処理にかかった時間が、パフォーマンスの向上を上回るしないことを確認してください。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The basic WQL statements you need to use WQL are Select, Where, and From.</source>
+          <target state="translated">WQL を使用する必要がある基本的な WQL ステートメントでは、Select はここで、およびからです。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>WHEN TO USE WQL</source>
+          <target state="translated">WQL を使用するには、場合</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When working with WMI, and especially with WQL, do not forget that you are also using Windows PowerShell.</source>
+          <target state="translated">WMI を使用して特に WQL を操作するときに忘れず Windows PowerShell を使用することです。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Often, if a WQL query does not work as expected, it's easier to use a standard Windows PowerShell command than to debug the WQL query.</source>
+          <target state="translated">多くの場合、WQL クエリが予期したとおりに機能しない場合は、WQL クエリをデバッグするよりも標準の Windows PowerShell コマンドを使用する簡単です。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Unless you are returning massive amounts of data from across bandwidth-constrained remote systems, it is rarely productive to spend hours trying to perfect a complicated and convoluted WQL query when there is a perfectly acceptable Windows cmdlet that does the same thing, if a bit more slowly.</source>
+          <target state="translated">帯域幅が限られているリモート システム全体にわたってからのデータの膨大な量を返す限り、少し遅くする場合は同じ処理を行う、まったく問題ありません Windows コマンドレットと、複雑で、複雑な WQL クエリを完全に時間を費やすことはほとんどありません効果です。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>USING THE SELECT STATEMENT</source>
+          <target state="translated">SELECT ステートメントを使用します。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A typical WMI query begins with a Select statement that gets all properties or particular properties of a WMI class.</source>
+          <target state="translated">一般的な WMI クエリは、すべてのプロパティまたは WMI クラスの特定のプロパティを取得する Select ステートメントから始まります。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To select all properties of a WMI class, use an asterisk (*).</source>
+          <target state="translated">WMI クラスのすべてのプロパティを選択するには、アスタリスク (*) を使用します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The From keyword specifies the WMI class.</source>
+          <target state="translated">From キーワードは、WMI クラスを指定します。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>A Select statement has the following format:</source>
+          <target state="translated">Select ステートメントでは、次の形式があります。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Select <ph id="ph1">&lt;property&gt;</ph> from &lt;WMI-class&gt;</source>
+          <target state="translated">選択 <ph id="ph1">&lt;property&gt;</ph> &lt; WMI クラス &gt; から</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For example, the following Select statement selects all properties (*) from the instances of the Win32_Bios WMI class.</source>
+          <target state="translated">たとえば、次の Select ステートメントは、Win32_Bios WMI クラスのインスタンスからすべてのプロパティ (*) を選択します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Select * from Win32_Bios</source>
+          <target state="translated">選択して * Win32_Bios から</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To select a particular property of a WMI class, place the property name between the Select and From keywords.</source>
+          <target state="translated">WMI クラスの特定のプロパティを選択するには、プロパティ名選択間とキーワードからを配置します。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The following query selects only the name of the BIOS from the Win32_Bios WMI class.</source>
+          <target state="translated">次のクエリでは、Win32_Bios WMI クラスから BIOS の名前のみを選択します。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The command saves the query in the $queryName variable.</source>
+          <target state="translated">このコマンドは、$queryName 変数にクエリを保存します。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Select Name from Win32_Bios</source>
+          <target state="translated">Win32_Bios から名前を選択します。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To select more than one property, use commas to separate the property names.</source>
+          <target state="translated">1 つ以上のプロパティを選択するには、コンマを使用して、プロパティ名を区切ります。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The following WMI query selects the name and the version of the Win32_Bios WMI class.</source>
+          <target state="translated">以下の WMI クエリでは、名前とバージョンの Win32_Bios WMI クラスを選択します。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The command saves the query in the $queryNameVersion variable.</source>
+          <target state="translated">このコマンドは、$queryNameVersion 変数にクエリを保存します。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Select name, version from Win32_Bios</source>
+          <target state="translated">名前、Win32_Bios からバージョンを選択します。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>USING THE WQL QUERY</source>
+          <target state="translated">WQL クエリを使用します。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>There are two ways to use WQL query in Windows PowerShell command.</source>
+          <target state="translated">Windows PowerShell コマンドでの WQL クエリを使用する 2 つの方法があります。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-- Use the Get-WmiObject cmdlet -- Use the Get-CimInstance cmdlet -- Use the [wmisearcher] type accelerator.</source>
+          <target state="translated">-使用--を使用して、Get-ciminstance コマンドレット--、Get-wmiobject コマンドレットでは、[wmisearcher] 型アクセラレータを使用します。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>USING THE GET-WMIOBJECT CMDLET</source>
+          <target state="translated">GET-WMIOBJECT コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The most basic way to use the WQL query is to enclose it in quotation marks (as a string) and then use the query string as the value of the Query parameter of the Get-WmiObject cmdlet, as shown in the following example.</source>
+          <target state="translated">WQL クエリを使用する最も基本的な方法は、次の例に示すように、(文字列) として引用符で囲むと、Get-wmiobject コマンドレットのクエリ パラメーターの値として、クエリ文字列を使用します。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-WmiObject -Query "Select * from Win32_Bios"</source>
+          <target state="translated">PS c: &gt; Get-wmiobject-クエリ"を選択 * Win32_Bios から"</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>SMBIOSBIOSVersion : 8BET56WW (1.36 ) Manufacturer      : LENOVO Name              : Default System BIOS SerialNumber      : R9FPY3P Version           : LENOVO – 1360</source>
+          <target state="translated">SMBIOSBIOSVersion: 8BET56WW (1.36 回) 製造元: LENOVO 名: 既定のシステム BIOS シリアル番号: R9FPY3P バージョン: LENOVO – 1360</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You can also save the WQL statement in a variable and then use the variable as the value of the Query parameter, as shown in the following command.</source>
+          <target state="translated">WQL ステートメントを変数に保存することもでき、次のコマンドに示すようにクエリ パラメーターの値として変数を使用することができます。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $query = "Select * from Win32_Bios" PS C:&gt; Get-WmiObject –Query $query</source>
+          <target state="translated">PS c: &gt; $query ="選択 * から Win32_Bios"PS c: &gt; Get-wmiobject – $query の照会</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You can use either format with any WQL statement.</source>
+          <target state="translated">WQL ステートメントでは、いずれかの形式を使用できます。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The following command uses the query in the $queryName variable to get only the name and version properties of the system BIOS.</source>
+          <target state="translated">次のコマンドでは、$queryName 変数にクエリを使用して、システム BIOS の名前とバージョンのプロパティのみを取得します。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $queryNameVersion = "Select Name, Version from Win32_Bios" PS C:&gt; Get-WmiObject -Query $queryNameVersion</source>
+          <target state="translated">PS c: &gt; $queryNameVersion =「Win32_Bios からバージョンの名前を選択」PS c: &gt; Get-wmiobject-$queryNameVersion の照会</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>__GENUS          : 2</source>
+          <target state="translated">__GENUS: 2</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>__CLASS          : Win32_BIOS</source>
+          <target state="translated">_Class: Win32_BIOS</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>__SUPERCLASS     :</source>
+          <target state="translated">__SUPERCLASS:</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>__DYNASTY        :</source>
+          <target state="translated">__DYNASTY:</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>__RELPATH        :</source>
+          <target state="translated">_RELPATH:</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>__PROPERTY_COUNT : 1</source>
+          <target state="translated">__PROPERTY_COUNT: 1</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>__DERIVATION     : {}</source>
+          <target state="translated">__DERIVATION: {}</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>__SERVER         :</source>
+          <target state="translated">__SERVER:</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>__NAMESPACE      :</source>
+          <target state="translated">_ _NAMESPACE。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>__PATH           :</source>
+          <target state="translated">_ _PATH:</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Name             : Default System BIOS Version          : LENOVO - 1360</source>
+          <target state="translated">[名前]: 既定のシステム BIOS のバージョン: LENOVO - 1360</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Remember that you can use the parameters of the Get-WmiObject cmdlet to get the same result.</source>
+          <target state="translated">同じ結果を得るため、Get-wmiobject コマンドレットのパラメーターを使用するにはことに注意してください。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>For example, the following command also gets the values of the Name and Version properties of instances of the Win32_Bios WMI class.</source>
+          <target state="translated">たとえば、次のコマンドも Win32_Bios WMI クラスのインスタンスの名前とバージョンのプロパティの値を取得します。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-WmiObject –Class Win32_Bios -Property Name, Version</source>
+          <target state="translated">PS c: &gt; Get-wmiobject – Win32_Bios クラスのプロパティの名前、バージョン</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>__GENUS          : 2</source>
+          <target state="translated">__GENUS: 2</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>__CLASS          : Win32_BIOS</source>
+          <target state="translated">_Class: Win32_BIOS</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>__SUPERCLASS     :</source>
+          <target state="translated">__SUPERCLASS:</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>__DYNASTY        :</source>
+          <target state="translated">__DYNASTY:</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>__RELPATH        :</source>
+          <target state="translated">_RELPATH:</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>__PROPERTY_COUNT : 1</source>
+          <target state="translated">__PROPERTY_COUNT: 1</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>__DERIVATION     : {}</source>
+          <target state="translated">__DERIVATION: {}</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>__SERVER         :</source>
+          <target state="translated">__SERVER:</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>__NAMESPACE      :</source>
+          <target state="translated">_ _NAMESPACE。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>__PATH           :</source>
+          <target state="translated">_ _PATH:</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Name             : Default System BIOS Version          : LENOVO - 1360</source>
+          <target state="translated">[名前]: 既定のシステム BIOS のバージョン: LENOVO - 1360</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>USING THE GET-CIMINSTANCE CMDLET</source>
+          <target state="translated">GET-CIMINSTANCE コマンドレットを使用してください。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, you can use the Get-CimInstance cmdlet to run WQL queries.</source>
+          <target state="translated">Windows PowerShell 3.0 以降、Get-ciminstance コマンドレットを使用して、WQL クエリを実行します。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Get-CimInstance gets instances of CIM-compliant classes, including WMI classes.</source>
+          <target state="translated">Get-ciminstance では、WMI クラスを含む、CIM に準拠したクラスのインスタンスを取得します。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The CIM cmdlets, introduced Windows PowerShell 3.0, perform the same tasks as the WMI cmdlets.</source>
+          <target state="translated">CIM コマンドレットに導入された Windows PowerShell 3.0、WMI コマンドレットと同じタスクを実行します。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The CIM cmdlets comply with WS-Management (WSMan) standards and with the Common Information Model (CIM) standard, which enables the cmdlets to use the same techniques to manage Windows computers and computers that are running other operating systems.</source>
+          <target state="translated">CIM コマンドレットは、準拠している Ws-management (WSMan) 標準とに、Common Information Model (CIM) 標準的な同じ手法を使用して、Windows コンピューターと他のオペレーティング システムを実行しているコンピューターを管理するコマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The following command uses the Get-CimInstance cmdlet to run a WQL query.</source>
+          <target state="translated">次のコマンドでは、Get-ciminstance コマンドレットを使用して、WQL クエリを実行します。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Any WQL query that can be used with Get-WmiObject can also be used with Get-CimInstance.</source>
+          <target state="translated">Get-wmiobject で使用できる任意の WQL クエリは、Get-ciminstance でも使用できます。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-CimInstance -Query "Select * from Win32_Bios"</source>
+          <target state="translated">PS c: &gt; Get-ciminstance-クエリ"を選択 * Win32_Bios から"</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>SMBIOSBIOSVersion : 8BET56WW (1.36 ) Manufacturer      : LENOVO Name              : Default System BIOS SerialNumber      : R9FPY3P Version           : LENOVO – 1360</source>
+          <target state="translated">SMBIOSBIOSVersion: 8BET56WW (1.36 回) 製造元: LENOVO 名: 既定のシステム BIOS シリアル番号: R9FPY3P バージョン: LENOVO – 1360</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Get-CimInstance returns a CimInstance object, instead of the ManagementObject that Get-WmiObject returns, but the objects are quite similar.</source>
+          <target state="translated">Get-ciminstance CimInstance オブジェクトを取得する、ManagementObject ではなく、Get-wmiobject を返しますが、オブジェクトは、きわめて似ています。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;(Get-CimInstance -Query "Select <bpt id="p1">*</bpt> from Win32_Bios").GetType().FullName Microsoft.Management.Infrastructure.CimInstance PS C:&gt;(Get-WmiObject -Query "Select <ept id="p1">*</ept> from Win32_Bios").GetType().FullName System.Management.ManagementObject</source>
+          <target state="translated">PS c: &gt; (Get-ciminstance-クエリ"Select <bpt id="p1">*</bpt> Win32_Bios から") です。GetType() します。FullName Microsoft.Management.Infrastructure.CimInstance PS c: &gt; (Get-wmiobject-クエリ"Select <ept id="p1">*</ept> Win32_Bios から") です。GetType() します。FullName System.Management.ManagementObject</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>USING THE [wmisearcher] TYPE ACCELERATOR</source>
+          <target state="translated">[Wmisearcher] 型アクセラレータを使用します。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The [wmisearcher] type accelerator creates a ManagementObjectSearcher object from a WQL statement string.</source>
+          <target state="translated">[Wmisearcher] 型アクセラレータは、WQL ステートメント文字列から示しますオブジェクトを作成します。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The ManagementObjectSearcher object has many properties and methods, but the most basic method is the Get method, which invokes the specified WMI query and returns the resulting objects.</source>
+          <target state="translated">多くのプロパティとメソッドを示しますが付きますが、最も基本的な方法は、Get メソッドを指定した WMI クエリを呼び出し、結果のオブジェクトを返します。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>By using the [wmisearcher], you gain easy access to the ManagementObjectSearcher .NET Framework class.</source>
+          <target state="translated">[Wmisearcher] を使用すると、示します .NET Framework クラスに簡単にアクセスを取得します。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>This lets you query WMI and to configure the way the query is conducted.</source>
+          <target state="translated">これにより、WMI を照会しをクエリする方法を構成するのには、実行します。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>To use the [wmisearcher] type accelerator:</source>
+          <target state="translated">[Wmisearcher] 型アクセラレータを使用します。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Cast the  WQL string into a ManagementObjectSearcher object.</source>
+          <target state="translated">WQL 文字列を示しますオブジェクトにキャストします。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Call the Get method of the ManagementObjectSearcher object.</source>
+          <target state="translated">示しますオブジェクトの Get メソッドを呼び出します。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>For example, the following command casts the "select all" query, saves the result in the $bios variable, and then calls the Get method of the ManagementObjectSearcher object in the $bios variable.</source>
+          <target state="translated">たとえば、次のコマンドは、"すべてを select"クエリをキャスト、$bios 変数に結果が保存し、$bios 変数で示しますオブジェクトの Get メソッドを呼び出します。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $bios = [wmisearcher]"Select * from Win32_Bios" PS C:&gt; $bios.Get()</source>
+          <target state="translated">PS c: &gt; $bios [wmisearcher] ="選択 * Win32_Bios から"PS c: &gt; $bios します。Get()</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>SMBIOSBIOSVersion : 8BET56WW (1.36 ) Manufacturer      : LENOVO Name              : Default System BIOS SerialNumber      : R9FPY3P Version           : LENOVO – 1360</source>
+          <target state="translated">SMBIOSBIOSVersion: 8BET56WW (1.36 回) 製造元: LENOVO 名: 既定のシステム BIOS シリアル番号: R9FPY3P バージョン: LENOVO – 1360</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>NOTE: Only selected object properties are displayed by default.</source>
+          <target state="translated">注: 既定で選択したオブジェクトのプロパティのみが表示されます。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>These properties are defined in the Types.ps1xml file.</source>
+          <target state="translated">これらのプロパティは、Types.ps1xml ファイルで定義されます。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>You can use the [wmisearcher] type accelerator to cast the query or the variable.</source>
+          <target state="translated">[Wmisearcher] 型アクセラレータを使用して、クエリまたは変数をキャストすることができます。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>In the following example, the [wmisearcher] type accelerator is used to cast the variable.</source>
+          <target state="translated">次の例では、[wmisearcher] 型アクセラレータを使用して、変数をキャストします。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The result is the same.</source>
+          <target state="translated">結果は同じです。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; [wmisearcher]$bios = "Select * from Win32_Bios" PS C:&gt; $bios.Get()</source>
+          <target state="translated">PS c: &gt; [wmisearcher] $bios ="選択 * から Win32_Bios"PS c: &gt; $bios します。Get()</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>SMBIOSBIOSVersion : 8BET56WW (1.36 ) Manufacturer      : LENOVO Name              : Default System BIOS SerialNumber      : R9FPY3P Version           : LENOVO – 1360</source>
+          <target state="translated">SMBIOSBIOSVersion: 8BET56WW (1.36 回) 製造元: LENOVO 名: 既定のシステム BIOS シリアル番号: R9FPY3P バージョン: LENOVO – 1360</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>When you use the [wmisearcher] type accelerator, it changes the query string into a ManagementObjectSearcher object, as shown in the following commands.</source>
+          <target state="translated">[Wmisearcher] 型アクセラレータを使用すると、変更、クエリ文字列示しますオブジェクトにコマンドを次に示すようにします。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;$a = "Select * from Win32_Bios" PS C:&gt;$a.GetType().FullName System.String</source>
+          <target state="translated">PS c: &gt; =、$"を選択 * Win32_Bios から"PS c: &gt; $a.GetType() します。FullName System.String</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;$a = [wmisearcher]"Select * from Win32_Bios" PS C:&gt;$a.GetType().FullName System.Management.ManagementObjectSearcher</source>
+          <target state="translated">PS c: &gt; a = [wmisearcher] $"を選択 * Win32_Bios から"PS c: &gt; $a.GetType() します。FullName System.Management.ManagementObjectSearcher</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>This command format works on any query.</source>
+          <target state="translated">このコマンド形式は、任意のクエリに使用できます。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The following command gets the value of the Name property of the Win32_Bios WMI class.</source>
+          <target state="translated">次のコマンドは、Win32_Bios WMI クラスの Name プロパティの値を取得します。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $biosname = [wmisearcher]"Select Name from Win32_Bios" PS C:&gt; $biosname.Get()</source>
+          <target state="translated">PS c: &gt; $biosname = [wmisearcher]"Win32_Bios から Name を選択して"PS c: &gt; $biosname します。Get()</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>__GENUS          : 2</source>
+          <target state="translated">__GENUS: 2</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>__CLASS          : Win32_BIOS</source>
+          <target state="translated">_Class: Win32_BIOS</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>__SUPERCLASS     :</source>
+          <target state="translated">__SUPERCLASS:</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>__DYNASTY        :</source>
+          <target state="translated">__DYNASTY:</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>__RELPATH        :</source>
+          <target state="translated">_RELPATH:</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>__PROPERTY_COUNT : 1</source>
+          <target state="translated">__PROPERTY_COUNT: 1</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>__DERIVATION     : {}</source>
+          <target state="translated">__DERIVATION: {}</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>__SERVER         :</source>
+          <target state="translated">__SERVER:</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>__NAMESPACE      :</source>
+          <target state="translated">_ _NAMESPACE。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>__PATH           :</source>
+          <target state="translated">_ _PATH:</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Name             : Default System BIOS</source>
+          <target state="translated">[名前]: 既定のシステム BIOS</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>You can perform this operation in a single command, although the command is a bit more difficult to interpret.</source>
+          <target state="translated">コマンドは解釈が少し困難ですが、1 つのコマンドでこの操作を実行できます。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>In this format, you use the [wmisearcher] type accelerator to cast the WQL query string to a ManagementObjectSearcher, and then call the Get method on the object -- all in a single command.</source>
+          <target state="translated">この形式では、[wmisearcher] 型アクセラレータを使用して、示しますする WQL クエリ文字列をキャストして、--すべてを 1 つのコマンドでオブジェクトの Get メソッドを呼び出します。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The parentheses () that enclose the casted string direct Windows PowerShell to cast the string before calling the method.</source>
+          <target state="translated">キャストの文字列を囲むかっこ () では、メソッドを呼び出す前に、文字列にキャストする Windows PowerShell を指示します。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; ([wmisearcher]"Select name from Win32_Bios").Get()</source>
+          <target state="translated">PS c: &gt; ([wmisearcher]"Select name from Win32_Bios") です。Get()</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>__GENUS          : 2</source>
+          <target state="translated">__GENUS: 2</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>__CLASS          : Win32_BIOS</source>
+          <target state="translated">_Class: Win32_BIOS</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>__SUPERCLASS     :</source>
+          <target state="translated">__SUPERCLASS:</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>__DYNASTY        :</source>
+          <target state="translated">__DYNASTY:</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>__RELPATH        :</source>
+          <target state="translated">_RELPATH:</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>__PROPERTY_COUNT : 1</source>
+          <target state="translated">__PROPERTY_COUNT: 1</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>__DERIVATION     : {}</source>
+          <target state="translated">__DERIVATION: {}</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>__SERVER         :</source>
+          <target state="translated">__SERVER:</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>__NAMESPACE      :</source>
+          <target state="translated">_ _NAMESPACE。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>__PATH           :</source>
+          <target state="translated">_ _PATH:</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Name             : Default System BIOS</source>
+          <target state="translated">[名前]: 既定のシステム BIOS</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>USING THE BASIC WQL WHERE STATEMENT</source>
+          <target state="translated">基本的な WQL を使用しているステートメント</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>A Where statement establishes conditions for the data that a Select statement returns.</source>
+          <target state="translated">ステートメントが Select ステートメントで返されるデータの条件を確立します。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The Where statement has the following format:</source>
+          <target state="translated">Where ステートメントでは、次の形式。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>where</source>
+          <target state="translated">を割り当てます。ここで、</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">たとえば、次のように入力します。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>where Name = 'Notepad.exe'</source>
+          <target state="translated">where Name = 'Notepad.exe'</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The Where statement is used with the Select statement, as shown in the following example.</source>
+          <target state="translated">Where ステートメントを次の例で示すように Select ステートメントで使用します。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Select * from Win32_Process where Name = 'Notepad.exe'</source>
+          <target state="translated">選択 * from Win32_Process where Name = 'Notepad.exe'</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>When using the Where statement, the property name and value must be accurate.</source>
+          <target state="translated">Where を使用するときにステートメント、プロパティの名前と値が正確である必要があります。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>For example, the following command gets the Notepad processes on the local computer.</source>
+          <target state="translated">たとえば、次のコマンドは、ローカル コンピューターのメモ帳のプロセスを取得します。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-WmiObject -Query "Select * from Win32_Process where name = 'Notepad.exe'"</source>
+          <target state="translated">PS c: &gt; Get-wmiobject-クエリ"を選択 * Win32_Process から、名前 = 'Notepad.exe'"</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>However, the following command fails, because the process name includes the ".exe" file name extension.</source>
+          <target state="translated">ただし、次のコマンドが失敗する、プロセス名には、ファイル名の拡張子が".exe"が含まれているためです。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-WmiObject -Query "Select * from Win32_Process where name = 'Notepad'"</source>
+          <target state="translated">PS c: &gt; Get-wmiobject-クエリ"を選択 * Win32_Process から、名前 = 'メモ帳'"</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>WHERE STATEMENT COMPARISON OPERATORS</source>
+          <target state="translated">ここでステートメントの比較演算子</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The following operators are valid in a WQL Where statement.</source>
+          <target state="translated">次の演算子は、WQL Where ステートメントで有効です。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Operator    Description</source>
+          <target state="translated">演算子の説明</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>=           Equal !=          Not equal &lt;&gt;          Not equal &lt;           Less than</source>
+          <target state="translated">= 等しい! = 等しくない &lt;&gt; と等しくない &lt; 未満</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>&lt;=          Less than or equal =          Greater than or equal LIKE        Wildcard match IS          Evaluates null ISNOT       Evaluates not null ISA         Evaluates a member of a WMI class</source>
+          <target state="translated">&lt; = 以下 null ISNOT 評価の評価は、ワイルドカードは not null ISA 評価 WMI クラスのメンバーと同様より大きいか等しいを =</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>There are other operators, but these are the ones used for making comparisons.</source>
+          <target state="translated">その他の演算子がありますが、これらは、比較を行うために使用するものです。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>For example, the following query selects the Name and Priority properties from processes in the Win32_Process class where the process priority is greater than or equal to 11.</source>
+          <target state="translated">たとえば、次のクエリは、プロセスの優先度が 11 以上は Win32_Process クラスのプロセスから名前および優先順位のプロパティを選択します。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The Get-WmiObject cmdlet runs the query.</source>
+          <target state="translated">Get-wmiobject コマンドレットでは、クエリを実行します。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>$highPriority = "Select Name, Priority from Win32_Process where Priority &gt;= 11" Get-WmiObject -Query $highPriority</source>
+          <target state="translated">$highPriority ="Win32_Process から優先度の名前を選択、優先順位 &gt; = 11"Get-wmiobject-$highPriority のクエリ</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>USING THE WQL OPERATORS IN THE FILTER PARAMETER</source>
+          <target state="translated">フィルター パラメーターで WQL 演算子を使用します。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The WQL operators can also be used in the value of the Filter parameter of the Get-WmiObject or Get-CimInstance cmdlets, as well as in the value of the Query parameters of these cmdlets.</source>
+          <target state="translated">WQL 演算子は、Get-wmiobject または Get-ciminstance のコマンドレットのフィルター パラメーターの値をおよびこれらのコマンドレットのクエリ パラメーターの値にも使用できます。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>For example, the following command gets the Name and ProcessID properties of the last five processes that have ProcessID values greater than 1004.</source>
+          <target state="translated">たとえば、次のコマンドは、1004 より大きいプロセス Id 値を持つ最後の 5 つのプロセスの Name と ProcessID プロパティを取得します。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>The command uses the Filter parameter to specify the ProcessID condition.</source>
+          <target state="translated">コマンドでは、フィルター パラメーターを使用して、ProcessID 条件を指定します。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-WmiObject -Class Win32_Process ` -Property Name, ProcessID -Filter "ProcessID &gt;= 1004" | Sort ProcessID | Select Name, ProcessID -Last 5</source>
+          <target state="translated">PS c: &gt;、Get-wmiobject-Win32_Process のクラスのプロパティ名、ProcessID-フィルター"ProcessID &gt; 1004 ="|ProcessID を並べ替える |プロセス Id の名前を選択-最後の 5</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Name                                 ProcessID</source>
+          <target state="translated">名前のプロセス Id</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>SROSVC.exe                                4220</source>
+          <target state="translated">SROSVC.exe 4220</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>WINWORD.EXE                               4664</source>
+          <target state="translated">WINWORD します。EXE                               4664</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>TscHelp.exe                               4744 SnagIt32.exe                              4748 WmiPrvSE.exe                              5056</source>
+          <target state="translated">TscHelp.exe 4744 SnagIt32.exe 4748 WmiPrvSE.exe 5056</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>USING THE LIKE OPERATOR</source>
+          <target state="translated">LIKE 演算子を使用します。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The Like operator lets you use wildcard characters to filter the results of a WQL query.</source>
+          <target state="translated">Like 演算子では、ワイルドカード文字を使用して、WQL クエリの結果をフィルター処理することができます。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Like Operator  Description</source>
+          <target state="translated">演算子の説明のように</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>[]             Character in a range [a-f] or a set of characters [abcdef].</source>
+          <target state="translated">、範囲 [a-f] や [abcdef] 文字のセット内の文字。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>The items in a set do not need to be consecutive or listed in alphabetical order.</source>
+          <target state="translated">セット内の項目は、連続するか、アルファベット順である必要はありません。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>^              Character not in a range [^a-f] or not in a set [^abcdef].</source>
+          <target state="translated">^ 範囲にない文字 [^ a ~ f] セットではなく、または [^ abcdef] です。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>The items in a set do not need to be consecutive or listed in alphabetical order.</source>
+          <target state="translated">セット内の項目は、連続するか、アルファベット順である必要はありません。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>%              A string of zero or more characters</source>
+          <target state="translated">0 個以上の文字の文字列の %</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>              One character. (underscore)    NOTE: To use a literal underscore in a query string, enclose it in square brackets [<ept id="p1">_</ept>].</source>
+          <target state="translated"><bpt id="p1">_</bpt>              1 つの文字です。(アンダー スコア)   注: クエリ文字列にリテラルのアンダー スコアを使用する、角かっこで囲む [<ept id="p1">_</ept>] です。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>When the Like operator is used without any wildcard characters or range operators, it behaves like the equality operator (=) and returns objects only when they are an exact match for the pattern.</source>
+          <target state="translated">ワイルドカード文字や範囲演算子を使用せず、Like 演算子を使用すると、等値演算子 (=) のように動作し、パターンと完全に一致している場合にのみ、オブジェクトを返します。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>You can combine the range operation with the percent wildcard character to create simple, yet powerful filters.</source>
+          <target state="translated">シンプルでありながら強力なフィルターを作成するパーセント ワイルドカード文字の範囲の操作を組み合わせることができます。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>LIKE OPERATOR EXAMPLES</source>
+          <target state="translated">演算子の例のように</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1: [<ph id="ph1">&lt;range&gt;</ph>] The following commands start Notepad and then search for an instance of the Win32_Process class that has a name that starts with a letter between "H" and "N" (case-insensitive).</source>
+          <target state="translated">例 1: [<ph id="ph1">&lt;range&gt;</ph>]、次のコマンドは、メモ帳を起動し、"H"および"N"(大文字) 間の文字で始まる名前を持つ Win32_Process クラスのインスタンスを検索します。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The query should return any process from Hotpad.exe through Notepad.exe.</source>
+          <target state="translated">クエリでは、Notepad.exe を Hotpad.exe から任意のプロセスを返す必要があります。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Notepad   # Starts Notepad PS C:&gt; $query = "Select * from win32_Process where Name LIKE '[H-N]otepad.exe'" PS C:&gt; Get-WmiObject -Query $query | Select Name, ProcessID</source>
+          <target state="translated">PS c: &gt; メモ帳 # 開始メモ帳 PS c: &gt; $query ="選択 * from win32_Process の名前が 'H ~ N otepad.exe' をください"PS c: &gt; Get-wmiobject-$query を照会 |プロセス Id の名前を選択します。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Name                                ProcessID</source>
+          <target state="translated">名前のプロセス Id</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>notepad.exe                              1740</source>
+          <target state="translated">notepad.exe 1740</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2: [<ph id="ph1">&lt;range&gt;</ph>] and % The following commands select all process that have a name that begins with a letter between A and P (case-insensitive) followed by zero or more letters in any combination.</source>
+          <target state="translated">例 2: [<ph id="ph1">&lt;range&gt;</ph>] %、次のコマンドは、間の文字で始まる名前を持つすべてのプロセスを選択し、A と P (大文字) の後に 0 個以上の文字の任意の組み合わせ。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The Get-WmiObject cmdlet runs the query, the Select-Object cmdlet gets the Name and ProcessID properties, and the Sort-Object cmdlet sorts the results in alphabetical order by name.</source>
+          <target state="translated">Get-wmiobject コマンドレットには、クエリが実行されて、Select-object コマンドレットは、Name と ProcessID プロパティを取得および Sort-object コマンドレットは、名前でアルファベット順に結果を並べ替えます。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;$query = "Select * from win32_Process where name LIKE '[A-P]%'" PS C:&gt;Get-WmiObject -Query $query | Select-Object -Property Name, ProcessID | Sort-Object -Property Name</source>
+          <target state="translated">PS c: &gt; $query ="選択 * win32_Process から LIKE '[、P] %' という名前をここで"PS c: &gt; Get-wmiobject-$query の照会 |Select-object - プロパティ名、ProcessID |Sort-object-プロパティ名</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 3: Not in Range (^) The following command gets processes whose names do not begin with any of the following letters:</source>
+          <target state="translated">例 3: (^) の範囲ではなく、次のコマンドを取得プロセスの名前を持つが、次のいずれかで始まらない。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>A, S, W, P, R, C, U, N</source>
+          <target state="translated">A、S、W、P、R、C、U、N</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>and followed zero or more letters.</source>
+          <target state="translated">0 個以上の文字の後にしています。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;$query = "Select * from win32_Process where name LIKE '[^ASWPRCUN]%'" PS C:&gt;Get-WmiObject -Query $query | Select-Object -Property Name, ProcessID | Sort-Object -Property Name</source>
+          <target state="translated">PS c: &gt; $query ="選択 * from win32_Process のような名 ' [^ ASWPRCUN] %'"PS c: &gt; Get-wmiobject-$query を照会 |Select-object - プロパティ名、ProcessID |Sort-object-プロパティ名</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 4: Any characters -- or none (%) The following commands get processes that have names that begin with "calc".</source>
+          <target state="translated">例 4: 任意の文字または none (%)次のコマンドは、"calc"で始まる名前を持つプロセスを取得します。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>The % symbol in WQL is equivalent to the asterisk (*) symbol in regular expressions.</source>
+          <target state="translated">WQL では % 記号は、正規表現でアスタリスク (*) 記号と同じです。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $query = "Select * from win32_Process where Name LIKE 'calc%'" PS C:&gt; Get-WmiObject -Query $query | Select-Object -Property Name, ProcessID</source>
+          <target state="translated">PS c: &gt; $query ="選択 * from win32_Process where Name LIKE 'calc %'"PS c: &gt; Get-wmiobject-$query を照会 |Select-object - プロパティ名、プロセス Id</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Name                               ProcessID</source>
+          <target state="translated">名前のプロセス Id</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>calc.exe                                4424</source>
+          <target state="translated">calc.exe 4424</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 5: One character (_) The following commands get processes that have names that have the following pattern, "c_lc.exe" where the underscore character represents any one character.</source>
+          <target state="translated">例 5: 1 つの文字 (_)、次のコマンドは、次のパターンでは、"c_lc.exe"アンダー スコア文字が任意の 1 文字を表す名前を持つプロセスを取得します。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>This pattern matches any name from calc.exe through czlc.exe, or c9lc.exe, but does not match names in which the "c" and "l" are separated by more than one character.</source>
+          <target state="translated">このパターンは、czlc.exe、긲긣귏궫궼럚믦궻붛봽묆뿚밲궔귞 c9lc.exe、calc.exe から任意の名前と一致するが、"c"、"l"は文字で区切られた 1 つ以上の名前が一致しません。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $query = "Select * from Win32_Process where Name LIKE 'c_lc.exe'" PS C:&gt; Get-WmiObject -Query $query | Select-Object -Property Name, ProcessID</source>
+          <target state="translated">PS c: &gt; $query ="選択 * from Win32_Process where Name LIKE 'c_lc.exe'"PS c: &gt; Get-wmiobject-$query を照会 |Select-object - プロパティ名、プロセス Id</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Name                                 ProcessID</source>
+          <target state="translated">名前のプロセス Id</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>calc.exe                                  4424</source>
+          <target state="translated">calc.exe 4424</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 6: Exact match The following commands get processes named WLIDSVC.exe.</source>
+          <target state="translated">例 6: 名前付き WLIDSVC.exe を完全に一致する次のコマンドは、プロセスを取得します。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Even though the query uses the Like keyword, it requires an exact match, because the value does not include any wildcard characters.</source>
+          <target state="translated">クエリでは、Like キーワードを使用する場合でも、値に含まれるワイルドカード文字が含まれていないため、正確な一致が必要です。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>$query = "Select * from win32_Process where name LIKE 'WLIDSVC.exe'" Get-WmiObject -Query $query | Select-Object -Property Name, ProcessID</source>
+          <target state="translated">$query ="を選択 * from win32_Process 'WLIDSVC.exe' のような名前をここで"Get-wmiobject-$query を照会 |Select-object - プロパティ名、プロセス Id</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Name                                 ProcessID</source>
+          <target state="translated">名前のプロセス Id</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>WLIDSVC.exe                                84</source>
+          <target state="translated">WLIDSVC.exe 84</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>USING THE OR OPERATOR</source>
+          <target state="translated">OR を使用する演算子</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>To specify multiple independent conditions, use the Or keyword.</source>
+          <target state="translated">複数の独立した条件を指定するには、Or キーワードを使用します。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>The Or keyword appears in the Where clause.</source>
+          <target state="translated">Where Or キーワードが表示される句。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>It performs an inclusive OR operation on two (or more) conditions and returns items that meet any of the conditions.</source>
+          <target state="translated">2 つ (以上) の条件に対して包括 OR 演算を実行して、条件のいずれかと一致するアイテムを返します。</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>The Or operator has the following format:</source>
+          <target state="translated">Or 演算子では、次の形式があります。</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>Where <ph id="ph1">&lt;property&gt;</ph> <ph id="ph2">&lt;operator&gt;</ph> <ph id="ph3">&lt;value&gt;</ph> or <ph id="ph4">&lt;property&gt;</ph> <ph id="ph5">&lt;operator&gt;</ph> <ph id="ph6">&lt;value&gt;</ph> ...</source>
+          <target state="translated">Where <ph id="ph1">&lt;property&gt;</ph> <ph id="ph2">&lt;operator&gt;</ph> <ph id="ph3">&lt;value&gt;</ph> or <ph id="ph4">&lt;property&gt;</ph> <ph id="ph5">&lt;operator&gt;</ph> <ph id="ph6">&lt;value&gt;</ph> ...</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>For example, the following commands get all instances of the Win32_Process WMI class but returns them only if the process name is winword.exe or excel.exe.</source>
+          <target state="translated">たとえば、次のコマンドは WMI クラス Win32_Process のすべてのインスタンスを取得しますが、プロセス名が winword.exe または excel.exe である場合にのみ、それらを返します。</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;$q = "Select * from Win32_Process where Name = 'winword.exe' or Name = 'excel.exe'" PS C:&gt;Get-WmiObject -Query $q</source>
+          <target state="translated">PS c: &gt; $q ="選択 * from Win32_Process where Name = 'winword.exe' または名 = 'excel.exe'"PS c: &gt; Get-wmiobject-$q のクエリ</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>The Or statement can be used with more than two conditions.</source>
+          <target state="translated">Or ステートメントは、3 つ以上の条件で使用することができます。</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>In the following query, the Or statement gets Winword.exe, Excel.exe, or Powershell.exe.</source>
+          <target state="translated">次のクエリでは、Or ステートメントは、Winword.exe、Excel.exe または Powershell.exe を取得します。</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>$q = "Select * from Win32_Process where Name = 'winword.exe' or Name = 'excel.exe' or Name = 'powershell.exe'"</source>
+          <target state="translated">$q ="選択 * from Win32_Process where Name = 'winword.exe' または名 = 'excel.exe' または名前 = 'powershell.exe'"</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>USING THE AND OPERATOR</source>
+          <target state="translated">使用して、AND 演算子</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>To specify multiple related conditions, use the And keyword.</source>
+          <target state="translated">複数の関連する条件を指定するには、And キーワードを使用します。</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>The And keyword appears in the Where clause.</source>
+          <target state="translated">Where、And キーワードが表示される句。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>It returns items that meet all of the conditions.</source>
+          <target state="translated">すべての条件を満足する項目を返します。</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>The And operator has the following format:</source>
+          <target state="translated">And 演算子では、次の形式があります。</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>Where <ph id="ph1">&lt;property&gt;</ph> <ph id="ph2">&lt;operator&gt;</ph> <ph id="ph3">&lt;value&gt;</ph> and <ph id="ph4">&lt;property&gt;</ph> <ph id="ph5">&lt;operator&gt;</ph> <ph id="ph6">&lt;value&gt;</ph> ...</source>
+          <target state="translated">Where <ph id="ph1">&lt;property&gt;</ph> <ph id="ph2">&lt;operator&gt;</ph> <ph id="ph3">&lt;value&gt;</ph> and <ph id="ph4">&lt;property&gt;</ph> <ph id="ph5">&lt;operator&gt;</ph> <ph id="ph6">&lt;value&gt;</ph> ...</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>For example, the following commands get processes that have a name of "Winword.exe" and the process ID of 6512.</source>
+          <target state="translated">たとえば、次のコマンドは、"Winword.exe"と 6512 のプロセス ID の名前を持つプロセスを取得します。</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Note that the commands use the Get-CimInstance cmdlet.</source>
+          <target state="translated">コマンドが Get-ciminstance コマンドレットを使用することに注意してください。</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;$q = "Select * from Win32_Process where Name = 'winword.exe' and ProcessID =6512" PS C:&gt; Get-CimInstance -Query $q</source>
+          <target state="translated">PS c: &gt; $q ="選択 * from Win32_Process where Name = 'winword.exe' と ProcessID 6512 ="PS c: &gt; Get-ciminstance-$q の照会</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>ProcessId        Name             HandleCount      WorkingSetSize   VirtualSize</source>
+          <target state="translated">ProcessId 名 HandleCount WorkingSetSize VirtualSize</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>6512             WINWORD.EXE      768              117170176        633028608</source>
+          <target state="translated">6512 WINWORD します。EXE 768 117170176 633028608</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>All operators, including the Like operators are valid with the Or and And operators.</source>
+          <target state="translated">Like 演算子を含む、すべての演算子は、Or で有効ですし、および演算子。</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>And, you can combine the Or and And operators in a single query with parentheses that tell Windows PowerShell which clauses to process first.</source>
+          <target state="translated">また、Or を組み合わせることとかっこを 1 つのクエリ演算子に指示する Windows PowerShell を最初に処理される句とします。</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>This command uses the Windows PowerShell continuation character (`) divide the command into two lines.</source>
+          <target state="translated">このコマンドでは、2 つの行に Windows PowerShell 継続文字 (') 除算コマンドを使用します。</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $q = "Select * from Win32_Process ` where (Name = 'winword.exe' or Name = 'excel.exe') and HandleCount &gt; 700"</source>
+          <target state="translated">PS c: &gt; $q ="選択 * Win32_Process のどこから (名前 = 'winword.exe' または名前 = 'excel.exe') と HandleCount &gt; 700"</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-CimInstance -Query $q ProcessId        Name             HandleCount      WorkingSetSize   VirtualSize</source>
+          <target state="translated">PS c: &gt; Get-ciminstance-$q ProcessId 名 HandleCount WorkingSetSize VirtualSize の照会</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>6512             WINWORD.EXE      797              117268480        634425344</source>
+          <target state="translated">6512 WINWORD します。EXE 797 117268480 634425344</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>9610             EXCEL.EXE        727               38858752        323227648</source>
+          <target state="translated">9610 EXCEL です。EXE 727 38858752 323227648</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>SEARCHING FOR NULL VALUES</source>
+          <target state="translated">NULL 値を検索</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>Searching for null values in WMI is challenging, because it can lead to unpredictable results.</source>
+          <target state="translated">WMI で null 値の検索は困難で予期しない結果に可能性があるためです。</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Null is not zero and it is not equivalent or to an empty string.</source>
+          <target state="translated">Null はゼロと同等または空の文字列ではありません。</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>Some WMI class properties are initialized and others are not, so a search for null might not work for all properties.</source>
+          <target state="translated">WMI クラスのプロパティを初期化し、されないものも、すべてのプロパティの null の検索が機能しないようにします。</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>To search for null values, use the Is operator with a value of "null".</source>
+          <target state="translated">Null 値を検索するには、使用、演算子、値は"null"とします。</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>For example, the following commands get processes that have a null value for the IntallDate property.</source>
+          <target state="translated">たとえば、次のコマンドは、IntallDate プロパティの null 値を持つプロセスを取得します。</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>The commands return many processes.</source>
+          <target state="translated">コマンドは、プロセスの数を返します。</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;$q = "Select * from Win32_Process where InstallDate is null" PS C:&gt;Get-WmiObject -Query $q</source>
+          <target state="translated">PS c: &gt; $q ="選択 * InstallDate が null である Win32_Process から"PS c: &gt; Get-wmiobject-$q の照会</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>In contrast, the following command, gets user accounts that have a null value for the Description property.</source>
+          <target state="translated">これに対し、次のコマンドは、Description プロパティの null 値を持つユーザー アカウントを取得します。</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>This command does not return any user accounts, even though most user accounts do not have any value for the Description property.</source>
+          <target state="translated">このコマンドは、すべてのユーザー アカウントを返さない場合でも、ほとんどのユーザー アカウントには、Description プロパティの値はありません。</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;$q = "Select * from Win32_UserAccount where Description is null" PS C:&gt;Get-WmiObject -Query $q</source>
+          <target state="translated">PS c: &gt; $q ="選択 * 説明が null である Win32_UserAccount から"PS c: &gt; Get-wmiobject-$q のクエリ</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>To find the user accounts that have no value for the Description property, use the equality operator to get an empty string.</source>
+          <target state="translated">Description プロパティの値を持たないユーザー アカウントを検索するのにには、空の文字列を取得するのに等値演算子を使用します。</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>To represent the empty string, use two consecutive single quotation marks.</source>
+          <target state="translated">空の文字列を表現するには、2 つ連続する単一引用符を使用します。</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>$q = "Select * from Win32_UserAccount where Description = '' "</source>
+          <target state="translated">$q ="選択 * Win32_UserAccount から、説明 = '"</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>USING TRUE OR FALSE</source>
+          <target state="translated">TRUE または FALSE を使用します。</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>To get Boolean values in the properties of WMI objects, use True and False.</source>
+          <target state="translated">WMI オブジェクトのプロパティにブール値を取得するには、True と False を使用します。</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>They are not case sensitive.</source>
+          <target state="translated">大文字小文字を区別はありません。</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>The following WQL query returns only local user accounts from a domain joined computer.</source>
+          <target state="translated">次の WQL クエリは、ドメインに参加しているコンピューターからローカル ユーザー アカウントだけを返します。</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;$q = "Select * from Win32_UserAccount where LocalAccount = True" PS C:&gt;Get-CimInstance -Query $q</source>
+          <target state="translated">PS c: &gt; $q ="選択 * Win32_UserAccount から、LocalAccount = True"PS c: &gt; Get-ciminstance-$q の照会</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>To find domain accounts, use a value of False, as shown in the following example.</source>
+          <target state="translated">ドメイン アカウントを検索するには、次の例で示すように、False 値を使用します。</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;$q = "Select * from Win32_UserAccount where LocalAccount = False" PS C:&gt;Get-CimInstance -Query $q</source>
+          <target state="translated">PS c: &gt; $q ="選択 * Win32_UserAccount から、LocalAccount = False"PS c: &gt; Get-ciminstance-$q の照会</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>USING THE ESCAPE CHARACTER</source>
+          <target state="translated">エスケープ文字の使用</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>WQL uses the backslash () as its escape character.</source>
+          <target state="translated">WQL では、そのエスケープ文字として円記号 () を使用します。</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>This is different from Windows PowerShell, which uses the backtick character (`).</source>
+          <target state="translated">これは、アクサン グラーブ文字 (') を使用する Windows PowerShell によって異なります。</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>Quotation marks, and the characters used for quotation marks, often need to be escaped so that they are not misinterpreted.</source>
+          <target state="translated">引用符、および使用する引用符文字は、多くの場合、それらは誤って解釈されないようにエスケープする必要があります。</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>To find a user whose name includes a single quotation mark, use a backslash to escape the single quotation mark, as shown in the following command.</source>
+          <target state="translated">名前持つにはには、単一引用符が含まれています。 ユーザーを検索するには、次のコマンドに示すように単一引用符をエスケープするバック スラッシュを使用します。</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $q = "Select * from Win32_UserAccount where Name = 'Tim O<ph id="ph1">\'</ph>Brian'" PS C:&gt; Get-CimInstance -Query $q Name             Caption          AccountType      SID              Domain</source>
+          <target state="translated">PS c: &gt; $q ="選択 * Win32_UserAccount から where Name = ' Tim O<ph id="ph1">\'</ph>Brian'"PS c: &gt; Get-ciminstance-$q 名前キャプション AccountType SID ドメインを照会</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>Tim O'Brian      FABRIKAM\TimO    512              S-1-5-21-1457... FABRIKAM</source>
+          <target state="translated">Tim O'Brian FABRIKAM\TimO 512 S-1-5-21-1457.FABRIKAM</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>In some case, the backslash also needs to be escaped.</source>
+          <target state="translated">場合によっては、円記号はエスケープするも必要です。</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>For example, the following commands generate an Invalid Query error due to the backslash in the Caption value.</source>
+          <target state="translated">たとえば、次のコマンドは、キャプション値で、円記号による無効なクエリ エラーが発生を生成します。</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $q = "Select * from Win32_UserAccount where Caption = 'Fabrikam\TimO'" PS C:&gt; Get-CimInstance -Query $q Get-CimInstance : Invalid query At line:1 char:1</source>
+          <target state="translated">PS c: &gt; $q ="を選択 * Win32_UserAccount から、キャプション = 'Fabrikam\TimO'"PS c: &gt; Get-ciminstance-$q Get-ciminstance のクエリを実行します行: 1 文字: 1 で無効なクエリ。</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>Get-CimInstance -Query $q</source>
+          <target state="translated">Get-ciminstance-$q の照会</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>+!INCLUDE[]~~~~~~~~~~~</source>
+          <target state="translated">+!を含める ~ ~ ~</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>CategoryInfo          : InvalidArgument: (:) [Get-CimInstance], CimException</source>
+          <target state="translated">CategoryInfo: 無効な引数: (:)[Get-ciminstance] CimException</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>FullyQualifiedErrorId : HRESULT 0x80041017,Microsoft.Management.Infrastructure.CimCmdlets</source>
+          <target state="translated">FullyQualifiedErrorId: HRESULT 0x80041017,Microsoft.Management.Infrastructure.CimCmdlets</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>To escape the backslash, use a second backslash character, as shown in the following command.</source>
+          <target state="translated">バック スラッシュをエスケープするには、次のコマンドに示すように、2 つ目の円記号を使用します。</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $q = "Select * from Win32_UserAccount where Caption = 'Fabrikam\TimO'" PS C:&gt; Get-CimInstance -Query $q</source>
+          <target state="translated">PS c: &gt; $q ="選択 * Win32_UserAccount から、キャプション = 'Fabrikam\TimO'"PS c: &gt; Get-ciminstance-$q の照会</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>SEE ALSO</source>
+          <target state="translated">関連項目</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>about_Escape_Characters about_Quoting_Rules about_WMI about_WMI_Cmdlets</source>
+          <target state="translated">about_Escape_Characters about_Quoting_Rules about_WMI about_WMI_Cmdlets</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

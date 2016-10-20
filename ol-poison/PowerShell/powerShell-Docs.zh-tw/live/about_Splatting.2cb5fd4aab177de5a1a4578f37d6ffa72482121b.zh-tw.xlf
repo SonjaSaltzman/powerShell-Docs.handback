@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">51548e7963935b35c8796be7947fd23a4fa53440</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Core\About\about_Splatting.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9f9533fc32907f82b0f1522a1b487753fa3b067e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ae441651a33a38fb6adb54d944f2fdf31e5766d7</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>about_Splatting</source>
+          <target state="translated">about_Splatting</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell 指令程式</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>About Splatting</source>
+          <target state="translated">關於 Splatting</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>about_Splatting</source>
+          <target state="translated">about_Splatting</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>about_Splatting</source>
+          <target state="translated">about_Splatting</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">簡短描述</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Describes how to use splatting to pass parameters to commands in Windows PowerShell.</source>
+          <target state="translated">描述如何使用 splatting 將參數傳遞給 Windows PowerShell 中的命令。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>LONG DESCRIPTION</source>
+          <target state="translated">詳細描述</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>[This topic was contributed by Rohn Edwards of Gulfport, Mississippi, a system administrator and the winner of the Advanced Division of the 2012 Scripting Games.</source>
+          <target state="translated">[本主題是所 Rohn Edwards Gulfport，密西西比，系統管理員 」 和 「 進階級項目 2012年指令碼比賽的優勝者的貢獻。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Revised for Windows PowerShell 3.0.]</source>
+          <target state="translated">修訂的 Windows PowerShell 3.0]。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Splatting is a method of passing a collection of parameter values to a command as unit.</source>
+          <target state="translated">Splatting 是一種方法的參數值的集合傳遞至命令，以做為單位。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell associates each value in the collection with a command parameter.</source>
+          <target state="translated">Windows PowerShell 會將集合中的每個值關聯的命令參數。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Splatted parameter values are stored in named splatting variables, which look like standard variables, but begin with an At symbol (@) instead of a dollar sign ($).</source>
+          <target state="translated">Splatted 參數值會儲存在具名的 splatting 變數中，這看起來像標準的變數，但開頭 At 符號 (@) 而不是貨幣符號 （$）。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The At symbol tells Windows PowerShell that you are passing a collection of values, instead of a single value.</source>
+          <target state="translated">At 符號會告知 Windows PowerShell 您傳遞的值，而不是單一值的集合。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Splatting makes your commands shorter and easier to read.</source>
+          <target state="translated">Splatting 可讓您較短且易讀的命令。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can re-use the splatting values in different command calls and use splatting to pass parameter values from the $PSBoundParameters automatic variable to other scripts and functions.</source>
+          <target state="translated">您可以重新使用 splatting 中的值不同的命令呼叫，並使用 splatting 將參數值從 $PSBoundParameters 自動變數傳遞給其他指令碼和函式。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, you can also use splatting to represent all parameters of a command.</source>
+          <target state="translated">從 Windows PowerShell 3.0 開始，您也可以使用 splatting 來代表命令的所有參數。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">語法</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To provide parameter values for positional parameters, in which parameter names are not required, use the array syntax.</source>
+          <target state="translated">若要提供參數值的位置參數，在參數名稱，就不需要使用陣列語法。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To provide parameter name and value pairs, use the hash table syntax.</source>
+          <target state="translated">若要提供參數名稱 / 值組，使用的雜湊資料表的語法。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The splatted value can appear anywhere in the parameter list.</source>
+          <target state="translated">Splatted 值可以出現在參數清單中的任何位置。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>When splatting, you do not need to use a hash table or an array to pass all parameters.</source>
+          <target state="translated">當您不需要使用雜湊表或陣列來傳遞所有參數 splatting。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You may pass some parameters by using splatting and pass others by position or by parameter name.</source>
+          <target state="translated">您可能使用 splatting 將傳遞一些參數，並將其他傳遞依據位置或參數名稱。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Also, you can splat multiple objects in a single command just so you pass no more than one value for each parameter.</source>
+          <target state="translated">此外，您也可以 splat 單一命令中的多個物件只傳遞每個參數有一個以上的值。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>SPLATTING WITH HASH TABLES</source>
+          <target state="translated">SPLATTING 雜湊資料表</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Use a hash table to splat parameter name and value pairs.</source>
+          <target state="translated">使用 splat 參數名稱 / 值組的雜湊資料表。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You can use this format for all parameter types, including positional and named parameters and switch parameters.</source>
+          <target state="translated">您可以使用此格式的所有參數型別，包括位置和具名參數，並切換參數。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The following examples compare two Copy-Item commands that copy the Test.txt file to the Test2.txt file in the same directory.</source>
+          <target state="translated">下列範例將比較兩個複製項目] 命令將 Test.txt 檔案複製到 Test2.txt 中的檔案相同的目錄。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The first example uses the traditional format in which parameter names are included.</source>
+          <target state="translated">第一個範例會使用傳統的格式在哪一個參數的名稱。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Copy-Item -Path "test.txt" -Destination "test2.txt" -WhatIf</source>
+          <target state="translated">複製項目-路徑"test.txt"-"test2.txt"-WhatIf 目的地</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The second example uses hash table splatting.</source>
+          <target state="translated">第二個範例會使用雜湊資料表 splatting。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The first command creates a hash table of parameter-name and parameter-value pairs and stores it in the $HashArguments variable.</source>
+          <target state="translated">第一個命令會建立雜湊表的參數名稱和參數值組，並將它儲存在 $HashArguments 變數中。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The second command uses the $HashArguments variable in a command with splatting.</source>
+          <target state="translated">第二個命令會使用 splatting 命令中使用 $HashArguments 變數。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The At symbol (@HashArguments) replaces the dollar sign ($HashArguments) in the command.</source>
+          <target state="translated">At 符號 (@HashArguments) 取代錢幣符號 ($HashArguments) 命令中。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To provide a value for the WhatIf switch parameter, use $True or $False.</source>
+          <target state="translated">若要提供 WhatIf 切換參數的值，使用 $True 或 $False。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;$HashArguments = @{ Path = "test.txt"; Destination = "test2.txt"; WhatIf = $true } PS C:&gt;Copy-Item @HashArguments</source>
+          <target state="translated">PS C: &gt; $HashArguments = @{路徑 ="test.txt";目的地 ="test2.txt";WhatIf = $true} PS &gt; @HashArguments 複製項目</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Note: In the first command, the At symbol (@) indicates a hash table, not a splatted value.</source>
+          <target state="translated">注意︰ 在第一個命令 At 符號 (@) 表示雜湊資料表，而非 splatted 值。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The syntax for hash tables in Windows PowerShell is: @{ <ph id="ph1">&lt;name&gt;=&lt;value&gt;</ph>; <ph id="ph2">&lt;name&gt;=&lt;value&gt;</ph>; …}</source>
+          <target state="translated">在 Windows PowerShell 中的雜湊資料表的語法是: @{ <ph id="ph1">&lt;name&gt;=&lt;value&gt;</ph>; <ph id="ph2">&lt;name&gt;=&lt;value&gt;</ph>;...}</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>SPLATTING WITH ARRAYS</source>
+          <target state="translated">SPLATTING 與陣列</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Use an array to splat values for positional parameters, which do not require parameter names.</source>
+          <target state="translated">使用位置參數，不需要參數名稱為 splat 值陣列。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The values must be in position-number order in the array.</source>
+          <target state="translated">值必須是陣列中的位置編號順序。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The following examples compare two Copy-Item commands that copy the Test.txt file to the Test2.txt file in the same directory.</source>
+          <target state="translated">下列範例將比較兩個複製項目] 命令將 Test.txt 檔案複製到 Test2.txt 中的檔案相同的目錄。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The first example uses the traditional format in which parameter names are omitted.</source>
+          <target state="translated">第一個範例會使用傳統的格式中會省略參數名稱。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The parameter values appear in position order in the command.</source>
+          <target state="translated">參數值出現在命令中的位置順序。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Copy-Item "test.txt" "test2.txt" -WhatIf</source>
+          <target state="translated">複製項目"test2.txt"-WhatIf"test.txt"</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The second example uses array splatting.</source>
+          <target state="translated">第二個範例會使用陣列 splatting。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The first command creates an array of the parameter values and stores it in the $ArrayArguments variable.</source>
+          <target state="translated">第一個命令建立的參數值的陣列，並將它儲存在 $ArrayArguments 變數中。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The values are in position order in the array.</source>
+          <target state="translated">值為陣列中的位置順序。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The second command uses the $ArrayArguments variable in a command in splatting.</source>
+          <target state="translated">第二個命令會在 splatting 命令中使用 $ArrayArguments 變數。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The At symbol (@ArrayArguments) replaces the dollar sign ($ArrayArguments) in the command.</source>
+          <target state="translated">At 符號 (@ArrayArguments) 取代錢幣符號 ($ArrayArguments) 命令中。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;$ArrayArguments = "test.txt", "test2.txt" PS C:&gt;Copy-Item @ArrayArguments -WhatIf</source>
+          <target state="translated">PS C: &gt; $ArrayArguments ="test.txt"，"test2.txt"PS c: &gt; @ArrayArguments-WhatIf 複製項目</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">範例</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This example shows how to re-use splatted values in different commands.</source>
+          <target state="translated">這個範例示範如何重複使用 splatted 值在不同的命令。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The commands in this example use the Write-Host cmdlet to write messages to the host program console.</source>
+          <target state="translated">在此範例中，命令會使用 Write-host cmdlet，來將訊息寫入主機程式主控台。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>It uses splatting to specify the foreground and background colors.</source>
+          <target state="translated">它會使用 splatting 指定的前景和背景色彩。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>To change the colors of all commands, just change the value of the $Colors variable.</source>
+          <target state="translated">若要變更的所有命令的色彩，只變更 $Colors 變數的值。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The first command creates a hash table of parameter names and values and stores the hash table in the $Colors variable.</source>
+          <target state="translated">第一個命令會建立參數名稱和值的雜湊表，並將雜湊表儲存到 $Colors 變數。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>$Colors = @{ForegroundColor = "black" BackgroundColor = "white"}</source>
+          <target state="translated">$Colors = @{ForegroundColor ="black"BackgroundColor ="white"}</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The second and third commands use the $Colors variable for splatting in a Write-Host command.</source>
+          <target state="translated">第二個和第三個命令使用 Write-host 命令中 splatting $Colors 變數。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>To use the $Colors variable, replace the dollar sign ($Colors) with an At symbol (@Colors).</source>
+          <target state="translated">若要使用 $Colors 變數，請以 At 符號 (@Colors) 取代錢幣符號 ($Colors)。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Write a message with the colors in $Colors Write-Host "This is a test."</source>
+          <target state="translated">將訊息寫入與色彩在 $Colors Write-host"這是測試 」。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>@Colors</source>
+          <target state="translated">@Colors</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Write second message with same colors.</source>
+          <target state="translated">撰寫第二個訊息具有相同的色彩。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The position of splatted hash table does not matter.</source>
+          <target state="translated">Splatted 雜湊表的位置並不重要。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Write-Host @Colors "This is another test."</source>
+          <target state="translated">寫入主機 @Colors"這是另一個測試 」。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>This example shows how to forward their parameters to other commands by using splatting and the $PSBoundParameters automatic variable.</source>
+          <target state="translated">這個範例示範如何使用 splatting 和 $PSBoundParameters 自動變數轉寄它們為其他命令的參數。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The $PSBoundParameters automatic variable is a dictionary (System.Collections.Generic.Dictionary) that contains all of the parameter names and values that are used when a script or function is run.</source>
+          <target state="translated">$PSBoundParameters 自動變數是字典 (System.collections.generic.dictionary&lt;tkey)，其中包含的所有參數名稱和執行指令碼或函式時所使用的值。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>In the following example, we use the $PSBoundParameters variable to forward the parameters values passed to a script or function from Test2 function to the Test1 function.</source>
+          <target state="translated">在下列範例中，我們使用 $PSBoundParameters 轉送的參數值的變數傳遞給指令碼或函式從 Test2 Test1 函式的函式。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Both calls to the Test1 function from Test2 use splatting.</source>
+          <target state="translated">這兩個呼叫 Test1 函式從 Test2 使用 splatting。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>function Test1 { param($a, $b, $c)</source>
+          <target state="translated">函式 Test1 {param ($a $b，$c)</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>$a $b $c }</source>
+          <target state="translated">$a $b $c}</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>function Test2 { param($a, $b, $c)</source>
+          <target state="translated">函式 Test2 {param ($a $b，$c)</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Call the Test1 function with $a, $b, and $c.</source>
+          <target state="translated">呼叫 $a $b，Test1 函式和 $c。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Test1 @PsBoundParameters</source>
+          <target state="translated">Test1 @PsBoundParameters</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Call the Test1 function with $b and $c, but not with $a $LimitedParameters = $PSBoundParameters $LimitedParameters.Remove("a") | Out-Null Test1 @LimitedParameters }</source>
+          <target state="translated">呼叫 Test1 函式與 $b $c，但不是含 $a $LimitedParameters = $PSBoundParameters $LimitedParameters.Remove("a") |Out-null Test1 @LimitedParameters}</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Test2 -a 1 -b 2 -c 3</source>
+          <target state="translated">PS C: &gt; Test2-1-b 2 c 3</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>1</source>
+          <target state="translated">1</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>2</source>
+          <target state="translated">2</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>3</source>
+          <target state="translated">3</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>2</source>
+          <target state="translated">2</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>3</source>
+          <target state="translated">3</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>SPLATTING COMMAND PARAMETERS</source>
+          <target state="translated">SPLATTING 命令參數</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>You can use splatting to represent the parameters of a command.</source>
+          <target state="translated">您可以使用 splatting 來代表命令的參數。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>This technique is useful when you are creating a proxy function, that is, a function that calls another command.</source>
+          <target state="translated">當您建立的 proxy 函式，這個技術非常有用，也就是函式呼叫另一個命令。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>This feature is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">這項功能是在 Windows PowerShell 3.0 引進。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>To splat the parameters of a command, use @Args to represent the command parameters.</source>
+          <target state="translated">以 splat 的命令，參數會使用 @Args 代表命令參數。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>This technique is easier than enumerating command parameters and it works without revision even if the parameters of the called command change.</source>
+          <target state="translated">這項技術會比列舉命令參數，即使呼叫命令的參數變更就不會修訂。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The feature uses the $Args automatic variable, which contains all unassigned parameter values.</source>
+          <target state="translated">此功能會使用 $Args 自動變數，其中包含所有未指派的參數值。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>For example, the following function calls the Get-Process cmdlet.</source>
+          <target state="translated">例如，下列函式呼叫 Get-process cmdlet。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>In this function, @Args represents all of the parameters of the Get-Process cmdlet.</source>
+          <target state="translated">在這個函式，@Args 代表所有 Get-process cmdlet 的參數。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>function Get-MyProcess { Get-Process @Args }</source>
+          <target state="translated">函式取得 MyProcess {Get-process @Args}</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>When you use the Get-MyProcess function, all unassigned parameters and parameter values are passed to @Args, as shown in the following commands.</source>
+          <target state="translated">當您使用 Get MyProcess 函式時，所有未指派的參數和參數值會傳遞至 @Args，下列命令中所示。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-MyProcess -Name PowerShell</source>
+          <target state="translated">PS C: &gt; Get MyProcess-命名 PowerShell</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Handles  NPM(K)    PM(K)      WS(K) VM(M)   CPU(s)     Id ProcessName</source>
+          <target state="translated">處理 NPM(K) PM(K) WS(K) VM(M) CPU 識別碼 ProcessName</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>463      46   225484     237196   719    15.86   3228 powershell</source>
+          <target state="translated">463 46 225484 237196 719 15.86 3228 powershell</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-MyProcess -Name PowerShell_Ise -FileVersionInfo</source>
+          <target state="translated">PS C: &gt; Get MyProcess-名稱 PowerShell_Ise FileVersionInfo</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>ProductVersion   FileVersion      FileName</source>
+          <target state="translated">ProductVersion FileVersion FileName</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>6.2.9200.16384   6.2.9200.1638... C:\Windows\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe</source>
+          <target state="translated">6.2.9200.16384   6.2.9200.1638...C:\Windows\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>You can use @Args in a function that has explicitly declared parameters.</source>
+          <target state="translated">您可以使用 @Args 已明確宣告參數的函式中。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>You can use it more than once in a function, but all parameters that you enter are passed to all instances of @Args, as shown in the following example.</source>
+          <target state="translated">您可以使用它一次以上函式中，但是您輸入的所有參數都傳遞的 @Args，所有執行個體，如下列範例所示。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>function Get-MyCommand { Param ([switch]$P, [switch]$C) if ($P) { Get-Process @Args } if ($C) { Get-Command @Args } }</source>
+          <target state="translated">函式取得 MyCommand {Param （[參數] $P，[參數] $C） 如果 ($P) {Get-process @Args} 如果 ($C) {Get 命令 @Args}}</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-MyCommand -P -C -Name PowerShell</source>
+          <target state="translated">PS C: &gt; Get MyCommand-P-C-命名 PowerShell</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Handles  NPM(K)    PM(K)      WS(K) VM(M)   CPU(s)     Id ProcessName</source>
+          <target state="translated">處理 NPM(K) PM(K) WS(K) VM(M) CPU 識別碼 ProcessName</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>408      28    75568      83176   620     1.33   1692 powershell</source>
+          <target state="translated">408 28 75568 83176 620 1.33 1692 powershell</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Path               : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Extension          : .exe Definition         : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Visibility         : Public OutputType         : {System.String} Name               : powershell.exe CommandType        : Application ModuleName         : Module             : RemotingCapability : PowerShell Parameters         : ParameterSets      : HelpUri            : FileVersionInfo    : File:             C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</source>
+          <target state="translated">路徑︰ C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe 副檔名︰.exe 定義︰ C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe 可見性︰ 公用 OutputType: {System.String} 名稱︰ powershell.exe CommandType︰ 應用程式 ModuleName︰ 模組︰ RemotingCapability: PowerShell 參數︰ ParameterSets: HelpUri: FileVersionInfo︰ 檔案︰ C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>SEE ALSO</source>
+          <target state="translated">另請參閱</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>about_Arrays about_Automatic_Variables about_Hash_Tables about_Parameters</source>
+          <target state="translated">about_arrays &gt; about_Automatic_Variables about_Hash_Tables about_Parameters</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

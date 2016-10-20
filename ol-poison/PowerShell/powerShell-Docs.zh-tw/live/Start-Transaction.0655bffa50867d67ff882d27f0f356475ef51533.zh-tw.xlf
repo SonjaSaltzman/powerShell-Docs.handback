@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">08f253a02a8e831323984df8bb6a04252b14c3ba</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Management\Start-Transaction.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">94f999fb38ba0ea6b82ca88b720a7ac8a14de7ad</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4db2f8b773319d686dc2ea5d762121317e1a882a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell 指令程式</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Start-Transaction</source>
+          <target state="translated">Start-Transaction</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Start-Transaction</source>
+          <target state="translated">Start-Transaction</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Starts a transaction.</source>
+          <target state="translated">啟動交易。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">語法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">描述</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The Start-Transaction cmdlet starts a transaction, which is a series of commands that are managed as a unit.</source>
+          <target state="translated">Start-Transaction Cmdlet 會啟動交易，這是一系列被視為一個單位來管理的命令。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>A transaction can be completed ("committed"), or it can be completely undone ("rolled back") so that any data changed by the transaction is restored to its original state.</source>
+          <target state="translated">交易可以是完成 (「確認」)，或是可完全復原 (「回復」)，使得該交易所做的任何資料變更都會還原為其原始狀態。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Because the commands in a transaction are managed as a unit, either all commands are committed or all commands are rolled back.</source>
+          <target state="translated">由於交易中的命令會被視為一個單位來管理，因此，所有命令必須一起確認或一起回復。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>By default, transactions are rolled back automatically if any command in the transaction generates an error, but you can use the RollbackPreference parameter to change this behavior.</source>
+          <target state="translated">根據預設，如果交易中的任何命令產生錯誤，就會自動回復交易，但是您可以使用 RollbackPreference 參數來變更這個行為。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The cmdlets used in a transaction must be designed to support transactions.</source>
+          <target state="translated">交易中使用的 Cmdlet 必須設計為支援交易。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Cmdlets that support transactions have a UseTransaction parameter.</source>
+          <target state="translated">支援交易的 Cmdlet 具有 UseTransaction 參數。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To perform transactions in a provider, the provider must support transactions.</source>
+          <target state="translated">若要在提供者中執行交易，該提供者必須支援交易。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell Registry provider in Windows Vista and later versions of Windows supports transactions.</source>
+          <target state="translated">Windows Vista 和更新版本的 Windows 中的 Windows PowerShell 登錄提供者支援交易。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can also use the Microsoft.PowerShell.Commands.Management.TransactedString class to include expressions in transactions on any version of Windows that supports Windows PowerShell.</source>
+          <target state="translated">您也可以使用 Microsoft.PowerShell.Commands.Management.TransactedString 類別，在任何支援 Windows PowerShell 的 Windows 版本上的交易中包含運算式。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Other Windows PowerShell providers can also support transactions.</source>
+          <target state="translated">其他的 Windows PowerShell 提供者也可以支援交易。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Only one transaction can be active at a time.</source>
+          <target state="translated">一次只有一個交易可以處於使用中狀態。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If you start a new, independent transaction while a transaction is in progress (neither completed nor undone), the new transaction becomes the active transaction, and you must commit or roll back the new transaction before making any changes to the original transaction.</source>
+          <target state="translated">如果您在某個交易正在進行 (不是完成，也不是回復) 時啟動獨立的新交易，則新交易會變成使用中的交易，而您必須先確認或回復新交易之後，才能對原始交易進行任何變更。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The Start-Transaction cmdlet is one of a set of cmdlets that support the transactions feature in Windows PowerShell.</source>
+          <target state="translated">Start-Transaction Cmdlet 是 Windows PowerShell 中一組支援交易功能的 Cmdlet 其中之一。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Transactions.</source>
+          <target state="translated">如需詳細資訊，請參閱 about_Transactions。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">範例</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 範例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>These commands start and then roll back a transaction.</source>
+          <target state="translated">這些命令會啟動交易，然後回復交易。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Because the transaction is rolled back, no changes are made to the registry.</source>
+          <target state="translated">由於交易會回復，所以不會對登錄進行任何變更。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>These commands start and then complete a transaction.</source>
+          <target state="translated">這些命令會啟動交易，然後完成交易。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>No changes are made to the registry until the Complete-Transaction command is used.</source>
+          <target state="translated">在使用 Complete-Transaction 命令之前，不會對登錄進行任何變更。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This example demonstrates the effect of changing the RollbackPreference parameter value.</source>
+          <target state="translated">此範例示範變更 RollbackPreference 參數值的效果。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>In the first set of commands, the Start-Transaction command does not use the RollbackPreference parameter.</source>
+          <target state="translated">在第一組命令中，Start-Transaction 命令未使用 RollbackPreference 參數。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>As a result, the default value ("Error") is used.</source>
+          <target state="translated">因此，會使用預設值 ("Error")。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>When an error occurs in a transaction command (the specified path does not exist), the transaction is automatically rolled back.</source>
+          <target state="translated">當交易命令中發生錯誤 (指定的路徑不存在) 時，即會自動回復交易。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>In the second set of commands, the Start-Transaction command uses the RollbackPreference parameter with a value of "Never".</source>
+          <target state="translated">在第二組命令中，Start-Transaction 命令使用 RollbackPreference 參數並搭配 "Never" 的值。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>As a result, when an error occurs in a transaction command, the transaction is still active and can be completed successfully.</source>
+          <target state="translated">因此，當交易命令中發生錯誤時，交易仍為使用中狀態且可順利完成。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Because most transactions must be performed without error, the default value of the RollbackPreference parameter is typically preferred.</source>
+          <target state="translated">因為大部分的交易必須在沒有錯誤的情況下執行，所以，通常慣用 RollbackPreference 參數的預設值。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This example shows the effect of using the Start-Transaction command while a transaction is in progress.</source>
+          <target state="translated">這個範例示範當交易正在進行時使用 Start-Transaction 命令的效果。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The effect is much like joining the transaction in progress.</source>
+          <target state="translated">這個效果類似加入進行中交易。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Although this is a simplified command, this scenario commonly occurs when the transaction involves running a script that includes a complete transaction.</source>
+          <target state="translated">雖然這是簡化的命令，但這種情況通常是在交易涉及執行包括完整交易的指令碼時發生。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The first Start-Transaction command starts the transaction.</source>
+          <target state="translated">第一個 Start-Transaction 命令會啟動交易。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The first New-Item command is part of the transaction.</source>
+          <target state="translated">第一個 New-Item 命令是交易的一部分。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The second Start-Transaction command adds a new subscriber to the transaction.</source>
+          <target state="translated">第二個 Start-Transaction 命令會將新的訂閱者新增到交易。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The Get-Transaction command now returns a transaction with a subscriber count of 2.</source>
+          <target state="translated">Get-Transaction 命令現在會傳回訂閱者計數為 2 的交易。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The second New-Item command is part of the same transaction.</source>
+          <target state="translated">第二個 New-Item 命令是同一個交易的一部分。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>No changes are made to the registry until the entire transaction is completed.</source>
+          <target state="translated">在整個交易完成之前，不會對登錄進行任何變更。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To complete the transaction, you must enter two Complete-Transaction commands, one for each subscriber.</source>
+          <target state="translated">若要完成交易，您必須輸入兩個 Complete-Transaction 命令，每個訂閱者一個。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If you were to roll back the transaction at any point, the entire transaction would be rolled back for both subscribers.</source>
+          <target state="translated">如果您在任何時間點回復交易，則整個交易就會針對這兩個訂閱者進行回復。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This example shows the effect of using the Independent parameter of Start-Transaction to start a transaction while another transaction is in progress.</source>
+          <target state="translated">這個範例示範使用 Start-Transaction 的 Independent 參數，在另一個交易正在進行時啟動交易的效果。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>In this case, the new transaction is rolled back without affecting the original transaction.</source>
+          <target state="translated">在這個案例中，會回復新交易，但不會對原始交易產生任何影響。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Although the transactions are logically independent, because only one transaction can be active at a time, you must roll back or commit the newest transaction before resuming work on the original transaction.</source>
+          <target state="translated">雖然交易在邏輯上是獨立的，但由於一次只能有一個交易可處於使用中狀態，因此，您必須先回復或確認最新交易，才能繼續執行原始交易上的工作。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The first set of commands starts a transaction.</source>
+          <target state="translated">第一組命令會啟動交易。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The New-Item command is part of the first transaction.</source>
+          <target state="translated">New-Item 命令是第一個交易的一部分。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>In the second set of commands, the Start-Transaction command uses the Independent parameter.</source>
+          <target state="translated">在第二組命令中，Start-Transaction 命令使用 Independent 參數。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The Get-Transaction command that follows shows the transaction object for the active transaction (the newest one).</source>
+          <target state="translated">隨後的 Get-Transaction 命令顯示使用中交易 (最新交易) 的交易物件。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The subscriber count is equal to 1, showing that the transactions are unrelated.</source>
+          <target state="translated">訂閱者計數等於 1，顯示交易是不相關的。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>When the active transaction is rolled back by using an Undo-Transaction command, the original transaction becomes active again.</source>
+          <target state="translated">使用 Undo-Transaction 命令來回復使用中的交易時，原始交易會再次變成使用中狀態。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The New-ItemProperty command, which is part of the original transaction, completes without error, and the original transaction can be completed by using the Complete-Transaction command.</source>
+          <target state="translated">New-ItemProperty 命令 (原始交易的一部分) 會完成且沒有任何錯誤，而且可以使用 Complete-Transaction 命令來完成原始交易。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>As a result, the registry is changed.</source>
+          <target state="translated">因此，會變更登錄。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 6 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 6 --------------------------</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This example demonstrates that commands that are submitted while a transaction is in progress can be included in the transaction or not included.</source>
+          <target state="translated">這個範例示範交易正在進行時提交的命令，可以包含或不包含在交易中。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Only commands that use the UseTransaction parameter are part of the transaction.</source>
+          <target state="translated">只有使用 UseTransaction 參數的命令是交易的一部分。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The first and third New-Item commands use the UseTransaction parameter.</source>
+          <target state="translated">第一個和第三個 New-Item 命令使用 UseTransaction 參數。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>These commands are part of the transaction.</source>
+          <target state="translated">這些命令是交易的一部分。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Because the second New-Item command does not use the UseTransaction parameter, it is not part of the transaction.</source>
+          <target state="translated">由於第二個 New-Item 命令未使用 UseTransaction 參數，因此它不是交易的一部分。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The first "dir" command shows the effect.</source>
+          <target state="translated">第一個 "dir" 命令顯示效果。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The second New-Item command is completed immediately, but the first and third New-Item commands are not effective until the transaction is committed.</source>
+          <target state="translated">第二個 New-Item 命令會立即完成，但第一個和第三個 New-Item 命令要到交易確認之後才會生效。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The Complete-Transaction command commits the transaction.</source>
+          <target state="translated">Complete-Transaction 命令會確認交易。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>As a result, the second "dir" command shows that all of the new items are added to the registry.</source>
+          <target state="translated">因此，第二個 "dir" 命令顯示所有新項目已新增到登錄。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 7 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 7 --------------------------</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>This command uses the Timeout parameter of Start-Transaction to start a transaction that must be completed within two minutes.</source>
+          <target state="translated">這個命令會使用 Start-Transaction 的 Timeout 參數，啟動必須在兩分鐘內完成的交易。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>If the transaction is not complete when the timeout expires, it is rolled back automatically.</source>
+          <target state="translated">如果交易在逾時過期時尚未完成，即會自動回復。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>When the timeout expires, you are not notified, but the Status property of the transaction object is set to RolledBack and commands that use the UseTransaction parameter fail.</source>
+          <target state="translated">當逾時過期時，系統不會通知您，但會將交易物件的 Status 屬性設為 RolledBack，且使用 UseTransaction 參數的命令會失敗。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">參數</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>-Independent</source>
+          <target state="translated">獨立</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Starts a transaction that is independent of any transactions in progress.</source>
+          <target state="translated">啟動與任何進行中交易無關的交易。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>By default, if you use Start-Transaction while another transaction is in progress, a new subscriber is added to the transaction in progress.</source>
+          <target state="translated">根據預設，如果您在另一個交易正在進行時使用 Start-Transaction，即會將新的訂閱者新增到進行中的交易。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This parameter has an effect only when a transaction is already in progress in the session.</source>
+          <target state="translated">只有當工作階段中已經有進行中交易，這個參數才有作用。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>By default, if you use Start-Transaction while a transaction is in progress, the existing transaction object is reused and the subscriber count is incremented.</source>
+          <target state="translated">根據預設，如果您在某個交易正在進行時使用 Start-Transaction，就會重複使用現有的交易物件，且會遞增訂閱者計數。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The effect is much like joining the original transaction.</source>
+          <target state="translated">這個效果類似加入原始交易。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>An Undo-Transaction command rolls back the entire the transaction.</source>
+          <target state="translated">Undo-Transaction 命令可回復整個交易。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>To complete the transaction, you must enter a Complete-Transaction command for each subscriber.</source>
+          <target state="translated">若要完成交易，您必須針對每個訂閱者輸入 Complete-Transaction 命令。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Because most transactions that are in progress at the same time are related, the default is sufficient for most uses.</source>
+          <target state="translated">因為大部分同時處於進行中狀態的交易都是相關的，所以預設值就足以應付大部分的使用。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>If you use the Independent parameter, a new transaction is created that can be completed or undone without affecting the original transaction.</source>
+          <target state="translated">如果您使用 Independent 參數，則會建立可完成或回復的新交易，而不會影響原始交易。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>However, because only one transaction can be active at a time, you must complete or roll back the new transaction before resuming work on the original transaction.</source>
+          <target state="translated">不過，由於一次只能有一個交易可以處於使用中狀態，因此，您必須先完成或回復新交易，然後才能繼續執行原始交易上的工作。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>-RollbackPreference</source>
+          <target state="translated">-RollbackPreference</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Specifies the conditions under which a transaction is automatically rolled back.</source>
+          <target state="translated">指定自動回復交易的條件。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The default value is "Error".</source>
+          <target state="translated">預設值為 "Error"。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Valid values are:</source>
+          <target state="translated">有效值為：</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Error:  The transaction is rolled back automatically if a terminating or non-terminating error occurs.</source>
+          <target state="translated">錯誤︰ 交易會終止或非終止錯誤發生時自動備份。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>"Error" is the default.</source>
+          <target state="translated">"Error" 為預設值。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Terminating error: The transaction is rolled back automatically if a terminating error occurs.</source>
+          <target state="translated">終止錯誤︰ 交易會終止錯誤發生時自動備份。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Never: The transaction is never rolled back automatically.</source>
+          <target state="translated">從不︰ 交易是永遠不會自動回復。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>-Timeout</source>
+          <target state="translated">逾時</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum time, in minutes, that the transaction is active.</source>
+          <target state="translated">指定交易處於使用中狀態的最長時間 (以分鐘為單位)。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>When the time-out expires, the transaction is automatically rolled back.</source>
+          <target state="translated">當逾時過期時，即會自動回復交易。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>By default, there is no time-out for transactions that are started at the command line.</source>
+          <target state="translated">根據預設，在命令列啟動的交易不會逾時。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>When transactions are started by a script, the default time-out is 30 minutes.</source>
+          <target state="translated">如果交易是透過指令碼啟動，則預設的逾時值是 30 分鐘。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">會提示您進行確認，然後再執行此指令程式。會提示您進行確認，然後再執行此指令程式。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">顯示執行 Cmdlet 後會發生的情況。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">無法執行此指令程式。顯示執行此指令程式會發生什麼事。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">未執行 Cmdlet。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">這個 cmdlet 支援一般參數:-偵錯、-ErrorAction、-ErrorVariable、-InformationAction-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 以及-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">如需詳細資訊，請參閱 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">輸入</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">無</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>You cannot pipe input to this cmdlet.</source>
+          <target state="translated">您無法使用管線傳送輸入至此 Cmdlet。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">輸出</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">無</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>This cmdlet does not generate any output.</source>
+          <target state="translated">此 Cmdlet 不會產生任何輸出。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">附註</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相關的連結</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Complete-Transaction</source>
+          <target state="translated">Complete-Transaction</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Get-Transaction</source>
+          <target state="translated">Get-Transaction</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Undo-Transaction</source>
+          <target state="translated">Undo-Transaction</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Use-Transaction</source>
+          <target state="translated">Use-Transaction</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>about_Transactions</source>
+          <target state="translated">about_Transactions</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

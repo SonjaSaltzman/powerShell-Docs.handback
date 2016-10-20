@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">213be53b4c40dd966103d4ebe1c4901a47e0b593</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Core\Register-PSSessionConfiguration.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0567716342f0ba082678e51292d700d963a49707</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5ebced93bb2dba87e6946f8b927b9b39c82cf34a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell 指令程式</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Register-PSSessionConfiguration</source>
+          <target state="translated">Register-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Register-PSSessionConfiguration</source>
+          <target state="translated">Register-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Creates and registers a new session configuration.</source>
+          <target state="translated">建立並登錄新的工作階段設定。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">語法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>NameParameterSet (Default)</source>
+          <target state="translated">NameParameterSet （預設值）</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>AssemblyNameParameterSet</source>
+          <target state="translated">AssemblyNameParameterSet</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>SessionConfigurationFile</source>
+          <target state="translated">SessionConfigurationFile</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">描述</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Register-PSSessionConfiguration<ept id="p1">**</ept> cmdlet creates and registers a  new session configuration on the local computer.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Register-pssessionconfiguration<ept id="p1">**</ept> cmdlet 會建立並登錄新的工作階段設定本機電腦上。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This is an advanced cmdlet that is designed to be used by system administrators to create custom sessions for remote users.</source>
+          <target state="translated">這是一個進階的 Cmdlet，專門設計給系統管理員用於建立遠端使用者的自訂工作階段。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Every Windows PowerShell session (PSSession) uses a session configuration, also known as an "endpoint."</source>
+          <target state="translated">每個 Windows PowerShell 工作階段 (PSSession) 會使用工作階段設定，也稱為「端點」。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>When users create a session that connects to the computer, they can select a session configuration or use the default session configuration that is registered when you enable Windows PowerShell remoting.</source>
+          <target state="translated">當使用者建立了連線到電腦的工作階段，他們可以選取工作階段設定，或使用當您啟用 Windows PowerShell 遠端功能時所登錄的預設工作階段設定。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Users can also set the <bpt id="p1">**</bpt>$PSSessionConfigurationName<ept id="p1">**</ept> preference variable, which specifies a default configuration for remote sessions created in the current session.</source>
+          <target state="translated">使用者也可以設定 <bpt id="p1">**</bpt>$PSSessionConfigurationName<ept id="p1">**</ept> 喜好設定變數，指定目前的工作階段中建立的遠端工作階段的預設組態。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The session configuration defines the environment for the remote session.</source>
+          <target state="translated">工作階段設定定義遠端工作階段的環境。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The configuration can determine which commands and language elements are available in the session, and it can include settings that protect the computer, such as those that limit the amount of data that the session can receive remotely in a single object or command.</source>
+          <target state="translated">設定可以決定哪些命令和語言元素可用於工作階段，並且可包含用來保護電腦的設定，例如工作階段在單一物件或命令中可以遠端接收的資料量限制。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The security descriptor (ACL) of the session configuration determines which users have permission to use the session configuration.</source>
+          <target state="translated">工作階段設定的安全性描述元 (ACL) 會決定哪些使用者有權使用工作階段設定。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can define the elements of configuration by using an assembly that implements a new configuration class and by using a script that runs in the session.</source>
+          <target state="translated">您可以使用實作新設定類別的組件，以及使用在工作階段中執行的指令碼來定義設定元素。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, you can also use a session configuration file to define the session configuration.</source>
+          <target state="translated">從 Windows PowerShell 3.0 開始，您也可以使用工作階段設定檔來定義工作階段設定。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For information about session configurations, see about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152).</source>
+          <target state="translated">如需工作階段設定的詳細資訊，請參閱 about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152)。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For information about session configuration files, see about_Session_Configuration_Files (http://go.microsoft.com/fwlink/?LinkID=236023).</source>
+          <target state="translated">如需工作階段設定檔資訊，請參閱 about_Session_Configuration_Files (http://go.microsoft.com/fwlink/?LinkID=236023)。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">範例</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 範例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This command registers the NewShell session configuration.</source>
+          <target state="translated">此命令會登錄 NewShell 工作階段設定。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>AssemblyName<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ApplicationBase<ept id="p2">**</ept> parameters to specify the location of the MyShell.dll file, which specifies the cmdlets and providers in the session configuration.</source>
+          <target state="translated">它會使用 <bpt id="p1">**</bpt>AssemblyName<ept id="p1">**</ept> 和 <bpt id="p2">**</bpt>ApplicationBase<ept id="p2">**</ept> 參數來指定 MyShell.dll 檔案，其工作階段設定中指定的 cmdlet 和提供者的位置。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>It also uses the <bpt id="p1">**</bpt>ConfigurationTypeName<ept id="p1">**</ept> parameter to specify a new class that further configures the session.</source>
+          <target state="translated">它也會使用 <bpt id="p1">**</bpt>ConfigurationTypeName<ept id="p1">**</ept> 參數來指定新類別，進一步設定工作階段。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To use this configuration, type "new-pssession -configurationname newshell".</source>
+          <target state="translated">若要使用此設定，請輸入 "new-pssession -configurationname newshell"。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This command registers the MaintenanceShell configuration on the local computer.</source>
+          <target state="translated">此命令會在本機電腦上登錄 MaintenanceShell 設定。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>StartupScript<ept id="p1">**</ept> parameter to specify the Maintenance.ps1 script.</source>
+          <target state="translated">此命令會使用 <bpt id="p1">**</bpt>StartupScript<ept id="p1">**</ept> 參數指定 Maintenance.ps1 指令碼。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>When a user uses a New-PSSession command and selects the MaintenanceShell configuration, the Maintenance.ps1 script runs in the new session.</source>
+          <target state="translated">當使用者使用 New-pssession 命令，並選取 MaintenanceShell 設定時，Maintenance.ps1 指令碼會執行新的工作階段中。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The script can configure the session, including importing modules, adding Windows PowerShell snap-ins, and setting the execution policy for the session.</source>
+          <target state="translated">指令碼可以設定工作階段，包含匯入模組、新增 Windows PowerShell 嵌入式管理單元，以及設定工作階段執行原則。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If the script generates any errors, including non-terminating errors, the <bpt id="p1">**</bpt>New-PSSession<ept id="p1">**</ept> command fails.</source>
+          <target state="translated">如果指令碼會產生任何錯誤，包括非終止錯誤， <bpt id="p1">**</bpt>New-pssession<ept id="p1">**</ept> 命令失敗。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This example registers the AdminShell session configuration.</source>
+          <target state="translated">此範例會登錄 AdminShell 工作階段設定。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The first command saves a custom SDDL in the $sddl variable.</source>
+          <target state="translated">第一個命令將自訂 SDDL 儲存在 $sddl 變數中。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The second command registers the new shell.</source>
+          <target state="translated">第二個命令登錄新的殼層。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>SecurityDescritorSDDL<ept id="p1">**</ept> parameter to specify the SDDL in the value of the $sddl variable and the <bpt id="p2">**</bpt>MaximumReceivedObjectSizeMB<ept id="p2">**</ept> parameter to increase the object size limit.</source>
+          <target state="translated">此命令會使用 <bpt id="p1">**</bpt>SecurityDescritorSDDL<ept id="p1">**</ept> $sddl 變數值中指定 SDDL 參數和 <bpt id="p2">**</bpt>MaximumReceivedObjectSizeMB<ept id="p2">**</ept> 參數來增加物件大小限制。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>It also uses the <bpt id="p1">**</bpt>StartupScript<ept id="p1">**</ept> parameter to specify a script that configures the session.</source>
+          <target state="translated">它也會使用 <bpt id="p1">**</bpt>StartupScript<ept id="p1">**</ept> 參數來指定設定工作階段的指令碼。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>As an alternative to using the <bpt id="p1">**</bpt>SecurityDescriptorSDDL<ept id="p1">**</ept> parameter, you can use the <bpt id="p2">**</bpt>ShowSecurityDescriptorUI<ept id="p2">**</ept> parameter, which displays a property sheet that you can use to set permissions for the session configuration.</source>
+          <target state="translated">除了使用 <bpt id="p1">**</bpt>SecurityDescriptorSDDL<ept id="p1">**</ept> 參數，您可以使用 <bpt id="p2">**</bpt>ShowSecurityDescriptorUI<ept id="p2">**</ept> 參數，它會顯示屬性工作表可讓您設定工作階段設定的權限。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>When you click "OK" in the property sheet, the tool generates an SDDL for the session configuration.</source>
+          <target state="translated">當您按一下屬性工作表中的 [確定] 時，工具會產生工作階段設定的 SDDL。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This example shows that a Register-PSSessionConfiguration command returns a WSManConfigContainerElement.</source>
+          <target state="translated">此範例示範 Register-PSSessionConfiguration 命令傳回 WSManConfigContainerElement。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>It also shows how to find the container elements in the WSMan: drive.</source>
+          <target state="translated">它也示範如何尋找 WSMan: 磁碟機中的容器元素。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This command creates and registers the WithProfile session configuration on the local computer.</source>
+          <target state="translated">此命令在本機電腦上建立並登錄 WithProfile 工作階段設定。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>StartupScript<ept id="p1">**</ept> parameter to direct Windows PowerShell to run the specified script in any session that uses the session configuration.</source>
+          <target state="translated">此命令會使用 <bpt id="p1">**</bpt>StartupScript<ept id="p1">**</ept> 參數，指示 Windows PowerShell 會使用工作階段設定的任何工作階段中執行指定的指令碼。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The content of the specified script, Add-Profile.ps1, is also displayed.</source>
+          <target state="translated">指定的指令碼 Add-Profile.ps1 的內容也會一併顯示。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The script contains a single command that uses dot sourcing to run the user's <bpt id="p1">**</bpt>CurrentUserAllHosts<ept id="p1">**</ept> profile in the current scope of the session.</source>
+          <target state="translated">指令碼中包含的單一命令使用點執行來執行使用者 <bpt id="p1">**</bpt>CurrentUserAllHosts<ept id="p1">**</ept> 工作階段的目前範圍中的設定檔。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>For more information about profiles, see about_Profiles.</source>
+          <target state="translated">如需有關設定檔的詳細資訊，請參閱 about_Profiles。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>For more information about dot sourcing, see about_Scopes.</source>
+          <target state="translated">如需點執行的詳細資訊，請參閱 about_Scopes。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 6 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 6 --------------------------</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The commands in this example compare a no-language session to a restricted-language session.</source>
+          <target state="translated">此範例中的命令會比較無語言的工作階段與限制語言的工作階段。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The example shows the effect of using the <bpt id="p1">**</bpt>LanguageMode<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>New-PSSessionConfigurationFile<ept id="p2">**</ept> to limit the types of commands and statements that users can run in a session that uses a custom session configuration.</source>
+          <target state="translated">此範例示範使用的效果 <bpt id="p1">**</bpt>LanguageMode<ept id="p1">**</ept> 參數 <bpt id="p2">**</bpt>New-pssessionconfigurationfile<ept id="p2">**</ept> 來限制命令和使用者可以在使用自訂工作階段設定的工作階段中執行的陳述式的類型。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>To run the commands in this example, start Windows PowerShell with the "Run as administrator" option.</source>
+          <target state="translated">若要執行此範例中的命令，請使用 [以系統管理員身分執行] 選項啟動 Windows PowerShell。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>This option is required to run the Register-PSSessionConfiguration cmdlet .</source>
+          <target state="translated">若要執行 Register-pssessionconfiguration cmdlet 需要這個選項。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">參數</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>-AccessMode</source>
+          <target state="translated">-AccessMode</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Enables and disables the session configuration and determines whether it can be used for remote or local sessions on the computer.</source>
+          <target state="translated">啟用和停用工作階段設定，並判斷是否可以用於電腦上的遠端或本機工作階段。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Remote<ept id="p1">**</ept> is the default.</source>
+          <target state="translated"><bpt id="p1">**</bpt>遠端<ept id="p1">**</ept> 是預設值。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Valid values are:</source>
+          <target state="translated">有效值為：</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Disabled<ept id="p1">**</ept>: Disables the session configuration.</source>
+          <target state="translated"><bpt id="p1">**</bpt>已停用<ept id="p1">**</ept>︰ 停用工作階段設定。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>It cannot be used for remote or local access to the computer.</source>
+          <target state="translated">它不能用於電腦的遠端或本機存取。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Local<ept id="p1">**</ept>: Allows users of the local computer to use the session configuration to create a local "loopback" session on the same computer, but denies access to remote users.</source>
+          <target state="translated"><bpt id="p1">**</bpt>本機<ept id="p1">**</ept>︰ 可讓本機電腦的使用者使用工作階段設定的相同電腦上，建立本機 「 回送 」 工作階段，但拒絕遠端使用者的存取。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Remote<ept id="p1">**</ept>: Allows local and remote users to use the session configuration to create sessions and run commands on this computer.</source>
+          <target state="translated"><bpt id="p1">**</bpt>遠端<ept id="p1">**</ept>︰ 可讓本機和遠端使用者使用工作階段設定來建立工作階段與此電腦上執行命令。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The value of this parameter can be overridden at a later time by the actions of other cmdlets.</source>
+          <target state="translated">此參數的值稍後可以由其他 Cmdlet 的動作覆寫。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>For example, the Enable-PSRemoting cmdlet allows remote access to all session configurations, the Enable-PSSessionConfiguration cmdlet enables session configurations, and the Disable-PSRemoting cmdlet prevents remote access to all session configurations.</source>
+          <target state="translated">例如，Enable-psremoting 指令程式可讓所有工作階段設定的遠端存取、 Enable-pssessionconfiguration 指令程式可讓工作階段設定和 Disable-psremoting 指令程式可防止所有工作階段設定的遠端存取。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此參數是在 Windows PowerShell 3.0 引進。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>-ApplicationBase</source>
+          <target state="translated">-ApplicationBase</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Specifies the path to the assembly file (<bpt id="p1">*</bpt>.dll) that is specified in the value of the <ept id="p1">*</ept><bpt id="p2">*</bpt>AssemblyName<ept id="p2">*</ept><bpt id="p3">*</bpt> parameter. Use this parameter when the value of the <ept id="p3">*</ept><bpt id="p4">*</bpt>AssemblyName<ept id="p4">*</ept>* parameter does not include a path.</source>
+          <target state="translated">指定組件檔案的路徑 (<bpt id="p1">*</bpt>.dll) 中的值所指定 <ept id="p1">*</ept><bpt id="p2">*</bpt>AssemblyName<ept id="p2">*</ept><bpt id="p3">*</bpt> 參數。使用此參數時的值 <ept id="p3">*</ept><bpt id="p4">*</bpt>AssemblyName<ept id="p4">*</ept>* 參數不包含路徑。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The default is the current directory.</source>
+          <target state="translated">預設值是目前的目錄。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>-AssemblyName</source>
+          <target state="translated">-AssemblyName</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Specifies the name of an assembly file (<bpt id="p1">*</bpt>.dll) in which the configuration type is defined. You can specify the path to the .dll in this parameter or in the value of the <ept id="p1">*</ept><bpt id="p2">*</bpt>ApplicationBase<ept id="p2">*</ept>* parameter.</source>
+          <target state="translated">指定組件檔案的名稱 (<bpt id="p1">*</bpt>.dll) 中定義的組態類型。您可以指定此.dll 檔的路徑，此參數或值的 <ept id="p1">*</ept><bpt id="p2">*</bpt>ApplicationBase<ept id="p2">*</ept>* 參數。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>This parameter is required when the <bpt id="p1">**</bpt>ConfigurationTypeName<ept id="p1">**</ept> parameter is specified.</source>
+          <target state="translated">這個參數時，需要 <bpt id="p1">**</bpt>ConfigurationTypeName<ept id="p1">**</ept> 參數。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>-ConfigurationTypeName</source>
+          <target state="translated">-ConfigurationTypeName</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Specifies the fully qualified name of the Microsoft .NET Framework type that is used for this configuration.</source>
+          <target state="translated">指定用於此設定之 Microsoft .NET Framework 類型的完整名稱。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The type that you specify must implement the <bpt id="p1">**</bpt>System.Management.Automation.Remoting.PSSessionConfiguration<ept id="p1">**</ept> class.</source>
+          <target state="translated">您可以指定必須實作的型別 <bpt id="p1">**</bpt>System.Management.Automation.Remoting.PSSessionConfiguration<ept id="p1">**</ept> 類別。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>To specify the assembly file (.dll) that implements the configuration type, use the <bpt id="p1">**</bpt>AssemblyName<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ApplicationBase<ept id="p2">**</ept> parameters.</source>
+          <target state="translated">若要指定組件檔 (.dll) 實作的組態類型時，使用 <bpt id="p1">**</bpt>AssemblyName<ept id="p1">**</ept> 和 <bpt id="p2">**</bpt>ApplicationBase<ept id="p2">**</ept> 參數。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Creating a type allows you to control more aspects of the session configuration, such as exposing or hiding certain parameters of cmdlets, or setting data size and object size limits that users cannot override.</source>
+          <target state="translated">建立類型可讓您控制更多方面的工作階段設定，例如公開或隱藏 Cmdlet 的特定參數，或設定使用者無法覆寫的資料大小與物件大小限制。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, the <bpt id="p1">**</bpt>DefaultRemotePowerShellConfiguration<ept id="p1">**</ept> class is used for the session configuration.</source>
+          <target state="translated">如果您省略這個參數， <bpt id="p1">**</bpt>DefaultRemotePowerShellConfiguration<ept id="p1">**</ept> 類別會用於工作階段設定。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Suppresses all users prompts and restarts the WinRM service without prompting.</source>
+          <target state="translated">抑制所有使用者提示，並在不顯示提示的情況下重新啟動 WinRM 服務。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Restarting the service makes the configuration change effective.</source>
+          <target state="translated">重新啟動服務可讓設定變更生效。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>To prevent a restart and suppress the restart prompt, use the <bpt id="p1">**</bpt>NoServiceRestart<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">若要防止重新啟動，並抑制重新啟動提示，請使用 <bpt id="p1">**</bpt>NoServiceRestart<ept id="p1">**</ept> 參數。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>-MaximumReceivedDataSizePerCommandMB</source>
+          <target state="translated">-MaximumReceivedDataSizePerCommandMB</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Limits the amount of data that can be sent to this computer in any single remote command.</source>
+          <target state="translated">限制在任何單一遠端命令中可以傳送到這台電腦的資料量。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Enter the data size in megabytes (MB).</source>
+          <target state="translated">輸入資料大小 (單位為 MB)。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The default is 50 MB.</source>
+          <target state="translated">預設值為 50 MB。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>If a data size limit is defined in the configuration type that is specified in the <bpt id="p1">**</bpt>ConfigurationTypeName<ept id="p1">**</ept> parameter, the limit in the configuration type is used and the value of this parameter is ignored.</source>
+          <target state="translated">如果資料大小限制定義中指定的組態類型在 <bpt id="p1">**</bpt>ConfigurationTypeName<ept id="p1">**</ept> 參數，會使用設定類型中的限制，並會忽略此參數的值。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>-MaximumReceivedObjectSizeMB</source>
+          <target state="translated">-MaximumReceivedObjectSizeMB</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Limits the amount of data that can be sent to this computer in any single object.</source>
+          <target state="translated">限制在任何單一物件中可以傳送到這台電腦的資料量。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Enter the data size in megabytes (MB).</source>
+          <target state="translated">輸入資料大小 (單位為 MB)。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The default is 10 MB.</source>
+          <target state="translated">預設為 10 MB。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>If an object size limit is defined in the configuration type that is specified in the <bpt id="p1">**</bpt>ConfigurationTypeName<ept id="p1">**</ept> parameter, the limit in the configuration type is used and the value of this parameter is ignored.</source>
+          <target state="translated">如果物件大小限制定義中指定的組態類型在 <bpt id="p1">**</bpt>ConfigurationTypeName<ept id="p1">**</ept> 參數，會使用設定類型中的限制，並會忽略此參數的值。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Specifies a name for the session configuration.</source>
+          <target state="translated">指定工作階段設定的名稱。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>This parameter is required.</source>
+          <target state="translated">此為必要參數。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>-NoServiceRestart</source>
+          <target state="translated">-NoServiceRestart</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Does not restart the WinRM service, and suppresses the prompt to restart the service.</source>
+          <target state="translated">未重新啟動 WinRM 服務，且會抑制重新啟動服務的提示。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>By default, when you enter a <bpt id="p1">**</bpt>Register-PSSessionConfiguration<ept id="p1">**</ept> command, you are prompted to restart the WinRM service to make the new session configuration effective.</source>
+          <target state="translated">根據預設，當您輸入 <bpt id="p1">**</bpt>Register-pssessionconfiguration<ept id="p1">**</ept> 命令時，系統會提示您重新啟動 WinRM 服務，讓新的工作階段設定生效。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Until the WinRM service is restarted, the new session configuration is not effective.</source>
+          <target state="translated">在 WinRM 服務重新啟動之前，新的工作階段設定沒有作用。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>To restart the WinRM service without prompting, use the <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">若要重新啟動 WinRM 服務，而不提示，請使用 <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> 參數。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>To restart the WinRM service manually, use the Restart-Service cmdlet.</source>
+          <target state="translated">若要手動重新啟動 WinRM 服務，請使用 Restart-Service Cmdlet。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>-Path</source>
+          <target state="translated">-Path</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Specifies the path and file name of a session configuration file (.pssc), such as one created by the New-PSSessionConfigurationFile cmdlet.</source>
+          <target state="translated">指定工作階段設定檔 (.pssc)，例如 New-pssessionconfigurationfile 指令程式所建立的路徑和檔案名稱。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>If you omit the path, the default is the current directory.</source>
+          <target state="translated">若省略路徑，則預設為目前目錄。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此參數是在 Windows PowerShell 3.0 引進。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>-ProcessorArchitecture</source>
+          <target state="translated">-ProcessorArchitecture</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Determines whether a 32-bit or 64-bit version of the Windows PowerShell process is started in sessions that use this session configuration.</source>
+          <target state="translated">判斷使用此工作階段設定的工作階段中，啟動的是 32 位元或 64 位元版本 Windows PowerShell 處理程序。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Valid values are x86 (32-bit) and AMD64 (64-bit).</source>
+          <target state="translated">有效值為 x86 (32 位元) 與 AMD64 (64 位元)。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The default value is determined by the processor architecture of the computer that hosts the session configuration.</source>
+          <target state="translated">預設值是由裝載工作階段設定之電腦的處理器架構決定。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>You can use this parameter to create a 32-bit session on a 64-bit computer.</source>
+          <target state="translated">您可以使用此參數，在 64 位元電腦上建立 32 位元的工作階段。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Attempts to create a 64-bit process on a 32-bit computer fail.</source>
+          <target state="translated">嘗試在 32 位元電腦上建立 64 位元處理程序將會失敗。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>-PSVersion</source>
+          <target state="translated">-PSVersion</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Specifies the version of Windows PowerShell in sessions that use this session configuration.</source>
+          <target state="translated">指定使用此工作階段設定的工作階段中 Windows PowerShell 的版本。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The value of this parameter takes precedence over the value of the <bpt id="p1">**</bpt>PowerShellVersion<ept id="p1">**</ept> key in the session configuration file.</source>
+          <target state="translated">此參數值的優先順序高於值 <bpt id="p1">**</bpt>PowerShellVersion<ept id="p1">**</ept> 工作階段設定檔中的索引鍵。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此參數是在 Windows PowerShell 3.0 引進。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>-RunAsCredential</source>
+          <target state="translated">-RunAsCredential</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Runs commands in the session with the permissions of the specified user.</source>
+          <target state="translated">以指定使用者的權限在工作階段中執行命令。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>By default, commands run with the permissions of the current user.</source>
+          <target state="translated">根據預設，命令以目前使用者的權限執行。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此參數是在 Windows PowerShell 3.0 引進。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>-SecurityDescriptorSddl</source>
+          <target state="translated">-SecurityDescriptorSddl</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Specifies a Security Descriptor Definition Language (SDDL) string for the configuration.</source>
+          <target state="translated">指定設定的 Security Descriptor Definition Language (SDDL) 字串。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>This string determines the permissions that are required to use the new session configuration.</source>
+          <target state="translated">此字串會決定使用新工作階段設定的必要權限。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>To use a session configuration in a session, users must have at least "Execute(Invoke)" permission for the configuration.</source>
+          <target state="translated">若要使用工作階段中的工作階段設定，使用者至少必須有設定的 "Execute(Invoke)" 權限。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>If the security descriptor is complex, consider using the <bpt id="p1">**</bpt>ShowSecurityDescriptorUI<ept id="p1">**</ept> parameter instead of this parameter.</source>
+          <target state="translated">如果安全性描述元很複雜，請考慮使用 <bpt id="p1">**</bpt>ShowSecurityDescriptorUI<ept id="p1">**</ept> 而非這個參數的參數。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>You cannot use both parameters in the same command.</source>
+          <target state="translated">您無法在相同的命令中使用這兩個參數。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, the root SDDL for the WinRM service is used for this configuration.</source>
+          <target state="translated">如果您省略這個參數，WinRM 服務的根 SDDL 會用於此設定。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>To view or change the root SDDL, use the WSMan provider.</source>
+          <target state="translated">若要檢視或變更根 SDDL，請使用 WSMan 提供者。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>For example "get-item wsman:\localhost\service\rootSDDL".</source>
+          <target state="translated">例如，"get-item wsman:\localhost\service\rootSDDL"。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>For more information about the WSMan provider, type "get-help wsman".</source>
+          <target state="translated">如需 WSMan 提供者的詳細資訊，請輸入 "get-help wsman"。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>-SessionType</source>
+          <target state="translated">-SessionType</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Specifies the type of session that is created by using the session configuration.</source>
+          <target state="translated">指定使用工作階段設定建立之工作階段的類型。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">**</bpt>Default<ept id="p1">**</ept>.</source>
+          <target state="translated">預設值是 <bpt id="p1">**</bpt>預設<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Valid values are:</source>
+          <target state="translated">有效值為：</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Empty: No modules or snap-ins are added to session by default.</source>
+          <target state="translated">空白︰ 沒有模組或嵌入式管理單元加入到工作階段的預設值。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Use the parameters of this cmdlet to add modules, functions, scripts, and other features to the session.</source>
+          <target state="translated">使用此 Cmdlet 的參數將模組、函式、指令碼及其他功能新增至工作階段。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Default: Adds the Microsoft.PowerShell.Core snap-in to the session.</source>
+          <target state="translated">預設值︰ 新增 Microsoft.PowerShell.Core 嵌入式管理單元至工作階段。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>This module includes the Import-Module and Add-PSSnapin cmdlets that users can use to import other modules and snap-ins unless you explicitly prohibit the use of the cmdlets.</source>
+          <target state="translated">此模組包含匯入模組，並新增 Add-pssnapin cmdlet，使用者可以使用匯入其他模組和嵌入式管理單元除非您明確禁止使用 cmdlet。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>RestrictedRemoteServer: Includes only the following cmdlets:  Exit-PSSession,Get-Command, Get-FormatData, Get-Help, Measure-Object, Out-Default, and Select-Object.</source>
+          <target state="translated">RestrictedRemoteServer︰ 包含下列指令程式︰ Exit-pssession，Get-command、 Get-formatdata、 Get-help、 Measure-object、 Out-default，並選取物件。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Use a script or assembly, or the keys in the session configuration file, to add modules, functions, scripts, and other features to the session.</source>
+          <target state="translated">使用工作階段設定檔中的指令碼、組件或索引鍵，以新增工作階段的模組、函式、指令碼以及其他功能。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The value of this parameter takes precedence over the value of the  <bpt id="p1">**</bpt>SessionType<ept id="p1">**</ept> key in the session configuration file.</source>
+          <target state="translated">此參數值的優先順序高於值  <bpt id="p1">**</bpt>SessionType<ept id="p1">**</ept> 工作階段設定檔中的索引鍵。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此參數是在 Windows PowerShell 3.0 引進。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>-SessionTypeOption</source>
+          <target state="translated">-SessionTypeOption</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Sets type-specific options for the session configuration.</source>
+          <target state="translated">設定工作階段設定的特定類型的選項。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Enter a session type options object, such as the <bpt id="p1">**</bpt>PSWorkflowExecutionOption<ept id="p1">**</ept> object that the New-PSWorkflowExecutionOption cmdlet returns.</source>
+          <target state="translated">輸入工作階段類型選項物件，例如 <bpt id="p1">**</bpt>PSWorkflowExecutionOption<ept id="p1">**</ept> New-psworkflowexecutionoption 指令程式可傳回的物件。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The options of sessions that use the session configuration are determined by the values of session options and the session configuration options.</source>
+          <target state="translated">使用工作階段設定之工作階段的選項，取決於工作階段選項和工作階段設定選項的值。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Unless specified, options set in the session, such as by using the New-PSSessionOption cmdlet, take precedence over options set in the session configuration.</source>
+          <target state="translated">除非另有指定，設定在工作階段，例如透過使用 New-pssessionoption cmdlet 的選項優先於工作階段設定中設定的選項。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>However, session option values cannot exceed maximum values set in the session configuration.</source>
+          <target state="translated">不過，工作階段選項值不能超過工作階段設定中設定的最大值。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此參數是在 Windows PowerShell 3.0 引進。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>-ShowSecurityDescriptorUI</source>
+          <target state="translated">-ShowSecurityDescriptorUI</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Displays a property sheet that helps you to create the SDDL for the session configuration.</source>
+          <target state="translated">顯示可協助您建立工作階段設定之 SDDL 的屬性工作表。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The property sheet appears after you enter the <bpt id="p1">**</bpt>Register-PSSessionConfiguration<ept id="p1">**</ept> command and then restart the WinRM service.</source>
+          <target state="translated">您輸入之後，就會出現屬性工作表 <bpt id="p1">**</bpt>Register-pssessionconfiguration<ept id="p1">**</ept> 命令，然後重新啟動 WinRM 服務。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>When setting the permissions for the configuration, remember that users must have at least "Execute(Invoke)" permission to use the session configuration in a session.</source>
+          <target state="translated">當進行設定的權限設定時，請記住使用者至少必須有 "Execute(Invoke)" 權限才能在工作階段中使用工作階段設定。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>You cannot use the <bpt id="p1">**</bpt>SecurityDescriptorSDDL<ept id="p1">**</ept> parameter and this parameter in the same command.</source>
+          <target state="translated">您不能使用 <bpt id="p1">**</bpt>SecurityDescriptorSDDL<ept id="p1">**</ept> 參數與此參數在相同的命令。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>-StartupScript</source>
+          <target state="translated">-StartupScript</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Specifies the fully qualified path to a Windows PowerShell script.</source>
+          <target state="translated">指定 Windows PowerShell 指令碼的完整路徑。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>The specified script runs in the new session that uses the session configuration.</source>
+          <target state="translated">指定的指令碼會在使用工作階段設定的新工作階段中執行。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>You can use the script to further configure the session.</source>
+          <target state="translated">您可以使用指令碼進一步設定工作階段。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>If the script generates an error (even a non-terminating error), the session is not created and the user's New-PSSession command fails.</source>
+          <target state="translated">如果指令碼產生錯誤 (即使是非終止錯誤)，則不會建立工作階段，而且使用者的 New-PSSession 命令也會失敗。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>-ThreadApartmentState</source>
+          <target state="translated">-ThreadApartmentState</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Determines the apartment state of the threads in the session.</source>
+          <target state="translated">判斷工作階段中執行緒的 Apartment 狀態。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Valid values are <bpt id="p1">**</bpt>STA<ept id="p1">**</ept>, <bpt id="p2">**</bpt>MTA<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Unknown<ept id="p3">**</ept>.</source>
+          <target state="translated">有效值為 <bpt id="p1">**</bpt>STA<ept id="p1">**</ept>, ，<bpt id="p2">**</bpt>MTA<ept id="p2">**</ept>, ，和 <bpt id="p3">**</bpt>未知<ept id="p3">**</ept>。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Unknown<ept id="p1">**</ept> is the default.</source>
+          <target state="translated"><bpt id="p1">**</bpt>未知<ept id="p1">**</ept> 是預設值。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>-ThreadOptions</source>
+          <target state="translated">-ThreadOptions</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Defines how threads are created and used when a command is executed in the session.</source>
+          <target state="translated">定義當在工作階段中執行命令時，如何建立及使用執行緒。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Valid values are <bpt id="p1">**</bpt>Default<ept id="p1">**</ept>, <bpt id="p2">**</bpt>ReuseThread<ept id="p2">**</ept>, <bpt id="p3">**</bpt>UseCurrentThread<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>UseNewThread<ept id="p4">**</ept>.</source>
+          <target state="translated">有效值為 <bpt id="p1">**</bpt>預設<ept id="p1">**</ept>, ，<bpt id="p2">**</bpt>ReuseThread<ept id="p2">**</ept>, ，<bpt id="p3">**</bpt>UseCurrentThread<ept id="p3">**</ept>, ，和 <bpt id="p4">**</bpt>UseNewThread<ept id="p4">**</ept>。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>UseCurrentThread<ept id="p1">**</ept> is the default.</source>
+          <target state="translated"><bpt id="p1">**</bpt>UseCurrentThread<ept id="p1">**</ept> 是預設值。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>For more information, see "PSThreadOptions Enumeration" in MSDN.</source>
+          <target state="translated">如需詳細資訊，請參閱 MSDN 中的＜PSThreadOptions 列舉＞。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>-TransportOption</source>
+          <target state="translated">-TransportOption</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此參數是在 Windows PowerShell 3.0 引進。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>-UseSharedProcess</source>
+          <target state="translated">-UseSharedProcess</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Use only one process to host all sessions that are started by the same user  and use the same session configuration.</source>
+          <target state="translated">僅使用一個處理程序來裝載相同使用者所啟動的所有工作階段，並使用相同的工作階段設定。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>By default, each session is hosted in its own process.</source>
+          <target state="translated">根據預設，每個工作階段會裝載於自己的處理程序。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此參數是在 Windows PowerShell 3.0 引進。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>-ModulesToImport</source>
+          <target state="translated">-ModulesToImport</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Specifies the modules and snap-ins that are automatically imported into sessions that use the session configuration.</source>
+          <target state="translated">指定要自動匯入使用工作階段設定之工作階段的模組和嵌入式管理單元。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>By default, only the <bpt id="p1">**</bpt>Microsoft.PowerShell.Core<ept id="p1">**</ept> snap-in is imported into sessions, but unless the cmdlets are excluded, users can use the Import-Module and Add-PSSnapin cmdlets to add modules and snap-ins to the session.</source>
+          <target state="translated">根據預設，只有 <bpt id="p1">**</bpt>Microsoft.PowerShell.Core<ept id="p1">**</ept> 嵌入式管理單元會匯入工作階段，但是除非已排除 cmdlet，使用者可以使用匯入模組和 Add-pssnapin cmdlet 將模組和嵌入式管理單元新增至工作階段。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The modules specified in this parameter value are imported in additions to modules that are specified by the <bpt id="p1">**</bpt>SessionType<ept id="p1">**</ept> parameter and those listed in the <bpt id="p2">**</bpt>ModulesToImport<ept id="p2">**</ept> key in the session configuration file (New-PSSessionConfigurationFile).</source>
+          <target state="translated">此參數值中指定的模組匯入中所指定的模組之外 <bpt id="p1">**</bpt>SessionType<ept id="p1">**</ept> 參數和所列的 <bpt id="p2">**</bpt>ModulesToImport<ept id="p2">**</ept> (New-pssessionconfigurationfile) 工作階段設定檔中的索引鍵。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>However, settings in the session configuration file can hide the commands exported by modules or prevent users from using them.</source>
+          <target state="translated">不過，工作階段設定檔中的設定可以隱藏模組所匯出的命令，或是防止使用者使用它們。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此參數是在 Windows PowerShell 3.0 引進。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">會提示您進行確認，然後再執行此指令程式。會提示您進行確認，然後再執行此指令程式。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">顯示執行 Cmdlet 後會發生的情況。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">無法執行此指令程式。顯示執行此指令程式會發生什麼事。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">未執行 Cmdlet。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">這個 cmdlet 支援一般參數:-偵錯、-ErrorAction、-ErrorVariable、-InformationAction-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 以及-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">如需詳細資訊，請參閱 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">輸入</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">無</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>You cannot pipe input to this cmdlet.</source>
+          <target state="translated">您無法使用管線傳送輸入至此 Cmdlet。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">輸出</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Microsoft.WSMan.Management.WSManConfigContainerElement</source>
+          <target state="translated">Microsoft.WSMan.Management.WSManConfigContainerElement</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">附註</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>To run this cmdlet on Windows Vista, Windows Server 2008, and later versions of Windows, start Windows PowerShell with the "Run as administrator" option.</source>
+          <target state="translated">若要在 Windows Vista、Windows Server 2008 和更新版本的 Windows 上執行此 Cmdlet，請使用 [以系統管理員身分執行] 選項啟動 Windows PowerShell。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>This cmdlet generates XML that represents a Web Services for Management (WS-Management) plug-in configuration and sends the XML to WS-Management, which registers the plug-in on the local computer ("new-item wsman:\localhost\plugin").</source>
+          <target state="translated">此 Cmdlet 會產生代表 Management (WS-Management) 外掛程式設定之 Web 服務的 XML，並將該 XML 傳送到 WS-Management，然後在本機電腦上登錄該外掛程式 ("new-item wsman:\localhost\plugin")。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>The properties of a session configuration object vary with the options set for the session configuration and the values of those options.</source>
+          <target state="translated">工作階段設定物件的屬性取決於工作階段設定所設定的選項，以及這些選項的值。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Also, session configurations that use a session configuration file have additional properties.</source>
+          <target state="translated">此外，使用工作階段設定檔的工作階段設定會有額外的屬性。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相關的連結</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>Disable-PSSessionConfiguration</source>
+          <target state="translated">Disable-pssessionconfiguration</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>Enable-PSSessionConfiguration</source>
+          <target state="translated">Enable-pssessionconfiguration</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Get-PSSessionConfiguration</source>
+          <target state="translated">Get-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>New-PSSessionConfigurationFile</source>
+          <target state="translated">New-PSSessionConfigurationFile</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>New-PSSessionConfigurationOption</source>
+          <target state="translated">新 PSSessionConfigurationOption</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>Register-PSSessionConfiguration</source>
+          <target state="translated">Register-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>Set-PSSessionConfiguration</source>
+          <target state="translated">Set-pssessionconfiguration</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>Test-PSSessionConfigurationFile</source>
+          <target state="translated">Test-PSSessionConfigurationFile</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Unregister-PSSessionConfiguration</source>
+          <target state="translated">取消註冊 PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>WSMan Provider</source>
+          <target state="translated">WSMan 提供者</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>about_Session_Configurations</source>
+          <target state="translated">about_Session_Configurations</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>about_Session_Configuration_Files</source>
+          <target state="translated">about_Session_Configuration_Files</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

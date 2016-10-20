@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="fr-fr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">159cfd3c84db1d34d0d1d7894b01ce351cd78d79</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Utility\Export-PSSession.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b3463968bfc9fb495fc6c139a56c109a930b4a8e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">966321794dc3fec22efee2661c86b595ae9fa48b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">applet de commande PowerShell</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Export-PSSession</source>
+          <target state="translated">Export-PSSession</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Export-PSSession</source>
+          <target state="translated">Export-PSSession</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">SYNOPSIS</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Imports commands from another session and saves them in a Windows PowerShell module.</source>
+          <target state="translated">Importe des commandes d'une autre session et les enregistre dans un module Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SYNTAXE</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">DESCRIPTION</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The Export-PSSession cmdlet gets cmdlets, functions, aliases, and other command types from another PSSession on a local or remote computer and saves them in a Windows PowerShell module.</source>
+          <target state="translated">L'applet de commande Export-PSSession obtient les applets de commande, les fonctions, les alias et d'autres types de commandes à partir d'une autre session PSSession sur un ordinateur local ou distant, et les enregistre dans un module Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To add the commands from the module to the current session, use the Import-Module cmdlet.</source>
+          <target state="translated">Pour ajouter les commandes à partir du module dans la session active, utilisez l'applet de commande Import-Module.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Unlike Import-PSSession, which imports commands from another PSSession into the current session, Export-PSSession saves the commands in a module.</source>
+          <target state="translated">Contrairement à Import-PSSession, qui importe les commandes d'une autre session PSSession dans la session active, Export-PSSession enregistre les commandes dans un module.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The commands are not imported into the current session.</source>
+          <target state="translated">Les commandes ne sont pas importées dans la session active.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To export commands, first use the New-PSSession cmdlet to create a PSSession that has the commands that you want to export.</source>
+          <target state="translated">Pour exporter des commandes, utilisez tout d'abord l'applet de commande New-PSSession pour créer une session PSSession qui comporte les commandes que vous souhaitez exporter.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Then use the Export-PSSession cmdlet to export the commands.</source>
+          <target state="translated">Ensuite, utilisez l'applet de commande Export-PSSession pour exporter les commandes.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>By default, Export-PSSession exports all commands, except for commands that exist in the current session, but you can use the CommandName parameters to specify the commands to export.</source>
+          <target state="translated">Par défaut, Export-PSSession exporte toutes les commandes, à l'exception des commandes qui existent dans la session active, mais vous pouvez utiliser les paramètres CommandName pour spécifier les commandes à exporter.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The Export-PSSession cmdlet uses the implicit remoting feature of Windows PowerShell.</source>
+          <target state="translated">L'applet de commande Export-PSSession utilise la fonctionnalité de communication à distance implicite de Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When you import commands into the current session, they run implicitly  in the original session or in a  similar session on the originating computer.</source>
+          <target state="translated">Lorsque vous importez des commandes dans la session active, ils s’exécutent implicitement dans la session d’origine ou dans une session similaire sur l’ordinateur d’origine.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">EXEMPLES</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- EXEMPLE 1 -------------------------</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The commands in this example export all commands from a PSSession on the Server01 computer to the Server01 module on the local computer except for commands that have the same names as commands in the current session.</source>
+          <target state="translated">Les commandes de cet exemple exportent toutes les commandes d'une session PSSession sur l'ordinateur Server01 vers le module Server01 sur l'ordinateur local, à l'exception des commandes qui ont les mêmes noms que des commandes dans la session active.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>It also exports the formatting data for the commands.</source>
+          <target state="translated">Elles exportent également les données de mise en forme pour les commandes.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The first command creates a PSSession on the Server01 computer.</source>
+          <target state="translated">La première commande crée une session PSSession sur l'ordinateur Server01.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The second command exports the commands and formatting data from the session into the Server01 module.</source>
+          <target state="translated">La deuxième commande exporte les commandes et les données de mise en forme à partir de la session dans le module Server01.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>These commands export the Get and Set commands from a Microsoft Exchange Server snap-in on a remote computer to an Exchange module in the $pshome\Modules directory on the local computer.</source>
+          <target state="translated">Ces commandes exportent les commandes Get et Set à partir d'un composant logiciel enfichable Microsoft Exchange Server sur un ordinateur distant vers un module Exchange dans le répertoire $pshome\Modules sur l'ordinateur local.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Placing the module in the $pshome\Module directory makes it accessible to all users of the computer.</source>
+          <target state="translated">En plaçant le module dans le répertoire $pshome\Module, vous le rendez accessible à tous les utilisateurs de l'ordinateur.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>These commands export cmdlets from a PSSession on a remote computer and save them in a module on the local computer.</source>
+          <target state="translated">Ces commandes exportent des applets de commande à partir d'une session PSSession sur un ordinateur distant et les enregistrent dans un module sur l'ordinateur local.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Then, the commands add the cmdlets from the module to the current session so that they can be used.</source>
+          <target state="translated">Ensuite, les commandes ajoutent les applets de commande du module dans la session active afin qu'elles puissent être utilisées.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The first command creates a PSSession on the Server01 computer and saves it in the $s variable.</source>
+          <target state="translated">La première commande crée une session PSSession sur l'ordinateur Server01 et l'enregistre dans la variable $s.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The second command exports the cmdlets whose names begin with "Test" from the PSSession in $s to the TestCmdlets module on the local computer.</source>
+          <target state="translated">La deuxième commande exporte les applets de commande dont les noms commencent par « Test » à partir de la session PSSession dans $s vers le module TestCmdlets sur l'ordinateur local.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The third command uses the Remove-PSSession cmdlet to delete the PSSession in $s from the current session.</source>
+          <target state="translated">La troisième commande utilise l'applet de commande Remove-PSSession pour supprimer la session PSSession dans $s à partir de la session active.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This command shows that the PSSession need not be active to use the commands that were imported from it.</source>
+          <target state="translated">Cette commande montre que la session PSSession n'a pas besoin d'être active pour utiliser les commandes qui ont été importées à partir d'elle.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The fourth command, which can be run in any session at any time, uses the Import-Module cmdlet to add the cmdlets in the TestCmdlets module to the current session.</source>
+          <target state="translated">La quatrième commande, qui peut être exécutée dans une session quelconque, à tout moment, utilise l'applet de commande Import-Module pour ajouter les applets de commande du module TestCmdlets dans la session active.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The fifth command uses the Get-Help cmdlet to get help for cmdlets whose names begin with "Test."</source>
+          <target state="translated">La cinquième commande utilise l'applet de commande Get-Help pour obtenir de l'aide sur les applets de commande dont les noms commencent par « Test ».</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>After the commands in a module are added to the current session, you can use the Get-Help and Get-Command cmdlets to learn about the imported commands, just as you would use them for any command in the session.</source>
+          <target state="translated">Une fois que les commandes d'un module sont ajoutées dans la session active, vous pouvez utiliser les applets de commande Get-Help et Get-Command pour en savoir plus sur les commandes importées, tout comme vous les utiliseriez pour n'importe quelle commande dans la session.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The sixth command uses the Test-Files cmdlet, which was exported from the Server01 computer and added to the session.</source>
+          <target state="translated">La sixième commande utilise l'applet de commande Test-Files, qui a été exportée à partir de l'ordinateur Server01 et ajoutée à la session.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Although it is not evident, the Test-Files command actually runs in a remote session on the computer from which the command was imported.</source>
+          <target state="translated">Bien que ce ne soit pas évident, la commande Test-Files s'exécute en fait dans une session à distance sur l'ordinateur à partir duquel la commande a été importée.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell creates a session from information that is stored in the module.</source>
+          <target state="translated">Windows PowerShell crée une session à partir des informations stockées dans le module.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This command exports all commands and all formatting data from the PSSession in the $s variable into the current session.</source>
+          <target state="translated">Cette commande exporte toutes les commandes et toutes les données de mise en forme de la session PSSession dans la variable $s vers la session active.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The command uses the AllowClobber parameter to include commands with the same names as commands in the current session.</source>
+          <target state="translated">La commande utilise le paramètre AllowClobber pour inclure des commandes dotées des mêmes noms que des commandes dans la session active.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This example shows how to run the exported commands in a session with particular options when the PSSession from which the commands were exported is closed.</source>
+          <target state="translated">Cet exemple montre comment exécuter les commandes exportées dans une session avec des options particulières quand la session PSSession à partir de laquelle les commandes ont été exportées est fermée.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>When you use Export-PSSession, it saves information about the original PSSession in the module that it creates.</source>
+          <target state="translated">Quand vous utilisez l'applet de commande Export-PSSession, elle enregistre des informations sur la session PSSession d'origine dans le module qu'elle crée.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>When you import the module, if the original remote session is closed, the module will use any open remote session that connects to originating computer.</source>
+          <target state="translated">Quand vous importez le module, si la session à distance d'origine est fermée, le module utilisera toute session à distance ouverte qui se connecte à l'ordinateur d'origine.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If the current session does not include a remote session to the originating computer, the commands in the module will re-establish a session to that computer.</source>
+          <target state="translated">Si la session active n'inclut pas une session à distance sur l'ordinateur d'origine, les commandes dans le module rétabliront une session sur cet ordinateur.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>However, Export-PSSession does not save special options, such as those set by using the SessionOption parameter of New-PSSession, in the module.</source>
+          <target state="translated">Toutefois, Export-PSSession n'enregistre pas les options spéciales, telles que celles définies à l'aide du paramètre SessionOption de New-PSSession, dans le module.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Therefore, if you want to run the exported commands in a remote session with particular options, you need to create a remote session with the options that you want before you import the module.</source>
+          <target state="translated">Par conséquent, si vous souhaitez exécuter les commandes exportées dans une session à distance avec des options particulières, vous devez créer une session à distance avec les options que vous souhaitez avant d'importer le module.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The first command uses the New-PSSessionOption cmdlet to create a PSSessionOption object, and it saves the object in the $options variable.</source>
+          <target state="translated">La première commande utilise l'applet de commande New-PSSessionOption pour créer un objet PSSessionOption et elle enregistre cet objet dans la variable $options.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The second command creates a PSSession that includes the specified options.</source>
+          <target state="translated">La deuxième commande crée une session PSSession qui inclut les options spécifiées.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The command uses the New-PSSession cmdlet to create a PSSession on the Server01 computer.</source>
+          <target state="translated">La commande utilise l'applet de commande New-PSSession pour créer une session PSSession sur l'ordinateur Server01.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>It uses the SessionOption parameter to submit the option object in $options.</source>
+          <target state="translated">Elle utilise le paramètre SessionOption pour envoyer l'objet de l'option dans $options.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The third command uses the Export-PSSession cmdlet to export commands from the PSSession in $s to the Server01 module.</source>
+          <target state="translated">La troisième commande utilise l'applet de commande Export-PSSession pour exporter des commandes à partir de la session PSSession dans $s vers le module Server01.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The fourth command uses the Remove-PSSession cmdlet to delete the PSSession in the $s variable.</source>
+          <target state="translated">La quatrième commande utilise l'applet de commande Remove-PSSession pour supprimer la session PSSession dans la variable $s.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The fifth command uses the New-PSSession cmdlet to create a new PSSession that connects to the Server01 computer.</source>
+          <target state="translated">La cinquième commande utilise l'applet de commande New-PSSession pour créer une nouvelle session PSSession qui se connecte à l'ordinateur Server01.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>This PSSession also uses the session options in the $options variable.</source>
+          <target state="translated">Cette session PSSession utilise également les options de session figurant dans la variable $options.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The sixth command uses the Import-Module cmdlet to import the commands from the Server01 module.</source>
+          <target state="translated">La sixième commande utilise l'applet de commande Import-Module pour importer les commandes à partir du module Server01.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The commands in the module run in the PSSession on the Server01 computer.</source>
+          <target state="translated">Les commandes du module s'exécutent dans la session PSSession sur l'ordinateur Server01.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARAMÈTRES</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>-AllowClobber</source>
+          <target state="translated">-AllowClobber</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Exports the specified commands, even if they have the same names as commands in the current session.</source>
+          <target state="translated">Exporte les commandes spécifiées, même si elles ont les mêmes noms que les commandes dans la session active.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>If you import a command with the same name as a command in the current session, the imported command hides or replaces the original commands.</source>
+          <target state="translated">Si vous importez une commande portant le même nom qu'une commande dans la session active, la commande importée masque ou remplace les commandes d'origine.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Command_Precedence.</source>
+          <target state="translated">Pour plus d'informations, consultez about_Command_Precedence.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Export-PSSession does not import commands that have the same names as commands in the current session.</source>
+          <target state="translated">Export-PSSession n'importe pas les commandes qui ont les mêmes noms que les commandes dans la session active.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The default behavior is designed to prevent command name conflicts.</source>
+          <target state="translated">Le comportement par défaut est conçu pour éviter les conflits de noms de commandes.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>-ArgumentList</source>
+          <target state="translated">-ArgumentList</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Exports the variant of the command that results from using the specified arguments (parameter values).</source>
+          <target state="translated">Exporte la variante de la commande obtenue suite à l'utilisation des arguments spécifiés (valeurs de paramètre).</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>For example, to export the variant of the Get-Item command in the certificate (Cert:) drive in the PSSession in $s, type "export-pssession -session $s -command get-item -argumentlist cert:".</source>
+          <target state="translated">Par exemple, pour exporter la variante de la commande Get-Item dans le lecteur de certificat (Cert:) dans la session PSSession, dans $s, tapez « export-pssession -session $s -command get-item -argumentlist cert: ».</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>-CommandName</source>
+          <target state="translated">-CommandName</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Exports only the commands with the specified names or name patterns.</source>
+          <target state="translated">Exporte uniquement les commandes avec les noms ou les modèles de noms spécifiés.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">Les caractères génériques sont autorisés.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Use "CommandName" or its alias, "Name".</source>
+          <target state="translated">Utilisez « CommandName » ou son alias, « Name ».</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>By default, Export-PSSession exports all commands from the PSSession except for commands that have the same names as commands in the current session.</source>
+          <target state="translated">Par défaut, Export-PSSession exporte toutes les commandes de la session PSSession à l'exception des commandes qui ont les mêmes noms que des commandes dans la session active.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>This prevents imported commands from hiding or replacing commands in the current session.</source>
+          <target state="translated">Cela empêche les commandes importées de masquer ou de remplacer des commandes dans la session active.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>To export all commands, even those that hide or replace other commands, use the AllowClobber parameter.</source>
+          <target state="translated">Pour exporter toutes les commandes, y compris celles qui masquent ou remplacent d'autres commandes, utilisez le paramètre AllowClobber.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>If you use the CommandName parameter, the formatting files for the commands are not exported unless you use the FormatTypeName parameter.</source>
+          <target state="translated">Si vous utilisez le paramètre CommandName, les fichiers de mise en forme pour les commandes ne sont pas exportés, à moins que vous utilisiez le paramètre FormatTypeName.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Similarly, if you use the FormatTypeName parameter, no commands are exported unless you use the CommandName parameter.</source>
+          <target state="translated">De même, si vous utilisez le paramètre FormatTypeName, aucune commande n'est exportée, à moins que vous utilisiez le paramètre CommandName.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>-CommandType</source>
+          <target state="translated">CommandType-</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Exports only the specified types of command objects.</source>
+          <target state="translated">Exporte uniquement les types spécifiés d'objets de commande.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Use "CommandType" or its alias, "Type".</source>
+          <target state="translated">Utilisez « CommandType » ou son alias, « Type ».</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Valid values are:</source>
+          <target state="translated">Les valeurs valides sont :</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Alias: All Windows PowerShell aliases in the current session.</source>
+          <target state="translated">Alias : Tous les alias Windows PowerShell dans la session active.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>All: All command types.</source>
+          <target state="translated">All : Tous les types de commande.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>It is the equivalent of "get-command *".</source>
+          <target state="translated">C'est l'équivalent de « get-command * ».</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Application: All files other than Windows PowerShell files in paths listed in the Path environment variable ($env:path), including .txt, .exe, and .dll files.</source>
+          <target state="translated">Application : Tous les fichiers autres que des fichiers de Windows PowerShell dans les chemins d’accès répertoriés dans la variable d’environnement Path ($env : chemin d’accès), y compris les fichiers .dll, .exe et .txt.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Cmdlet: The cmdlets in the current session.</source>
+          <target state="translated">L’applet de commande : Les applets de commande dans la session active.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>"Cmdlet" is the default.</source>
+          <target state="translated">« Cmdlet » est la valeur par défaut.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>ExternalScript: All .ps1 files in the paths listed in the Path environment variable ($env:path).</source>
+          <target state="translated">ExternalScript : Tous les fichiers .ps1 dans les chemins d’accès répertoriés dans la variable d’environnement Path ($env : chemin d’accès).</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Filter and Function: All Windows PowerShell functions.</source>
+          <target state="translated">Filtre et fonction : toutes les fonctions de Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Script: Script blocks in the current session.</source>
+          <target state="translated">Script : Blocs de Script dans la session active.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>-Encoding</source>
+          <target state="translated">-Encoding</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Specifies the encoding for the output files.</source>
+          <target state="translated">Spécifie l'encodage pour les fichiers de sortie.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Valid values are "Unicode", "UTF7", "UTF8", "ASCII", "UTF32", "BigEndianUnicode", "Default", and "OEM".</source>
+          <target state="translated">Les valeurs valides sont « Unicode », « UTF7 », « UTF8 », « ASCII », « UTF32 », « BigEndianUnicode », « Default » et « OEM ».</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The default is "UTF-8".</source>
+          <target state="translated">La valeur par défaut est « UTF-8 ».</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Overwrites one or more existing output files, even if the file has the read-only attribute.</source>
+          <target state="translated">Remplace un ou plusieurs fichiers de sortie existants, même si le fichier possède l'attribut de lecture seule.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>-FormatTypeName</source>
+          <target state="translated">-FormatTypeName</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Exports formatting instructions only for the specified Microsoft .NET Framework types.</source>
+          <target state="translated">Exportations les instructions de mise en forme uniquement pour les types Microsoft .NET Framework spécifiés.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Enter the type names.</source>
+          <target state="translated">Entrez les noms des types.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>By default, Export-PSSession exports formatting instructions for all .NET Framework types that are not in the System.Management.Automation namespace.</source>
+          <target state="translated">Par défaut, Export-PSSession exporte des instructions de mise en forme pour tous les types .NET Framework qui ne sont pas dans l'espace de noms System.Management.Automation.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The value of this parameter must be the name of a type that is returned by a Get-FormatData command in the session from which the commands are being imported.</source>
+          <target state="translated">La valeur de ce paramètre doit être le nom d'un type qui est retourné par une commande Get-FormatData dans la session à partir de laquelle les commandes sont importées.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>To get all of the formatting data in the remote session, type *.</source>
+          <target state="translated">Pour obtenir toutes les données de mise en forme dans la session à distance, tapez *.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>If you use the FormatTypeName parameter, no commands are exported unless you use the CommandName parameter.</source>
+          <target state="translated">Si vous utilisez le paramètre FormatTypeName, aucune commande n'est exportée, à moins que vous utilisiez le paramètre CommandName.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Similarly, if you use the CommandName parameter, the formatting files for the commands are not exported unless you use the FormatTypeName parameter.</source>
+          <target state="translated">De même, si vous utilisez le paramètre CommandName, les fichiers de mise en forme pour les commandes ne sont pas exportés, à moins que vous utilisiez le paramètre FormatTypeName.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>-Module</source>
+          <target state="translated">-Module</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Exports only the commands in the specified Windows PowerShell snap-ins and modules.</source>
+          <target state="translated">Exporte uniquement les commandes dans les modules et composants logiciels enfichables Windows PowerShell spécifiés.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Enter the snap-in and module names.</source>
+          <target state="translated">Entrez les noms de composant logiciel enfichable et de module.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Wildcards are not permitted.</source>
+          <target state="translated">Les caractères génériques ne sont pas autorisés.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>For more information, see about_PSSnapins and Import-Module.</source>
+          <target state="translated">Pour plus d'informations, consultez about_PSSnapins et Import-Module.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>-OutputModule</source>
+          <target state="translated">-OutputModule</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Specifies a path (optional) and name for the module that Export-PSSession creates.</source>
+          <target state="translated">Spécifie un chemin d'accès (facultatif) et un nom pour le module que crée Export-PSSession.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The default path is $home\Documents\WindowsPowerShell\Modules.</source>
+          <target state="translated">Le chemin d'accès par défaut est $home\Documents\WindowsPowerShell\Modules.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>This parameter is required.</source>
+          <target state="translated">Ce paramètre est obligatoire.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>If the module subdirectory or any of the files that Export-PSSession creates already exist, the command fails.</source>
+          <target state="translated">Si le sous-répertoire du module ou l'un des fichiers créés par Export-PSSession existe déjà, la commande échoue.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>To overwrite existing files, use the Force parameter.</source>
+          <target state="translated">Pour remplacer les fichiers existants, utilisez le paramètre Force.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>-Session</source>
+          <target state="translated">-Session</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Specifies the PSSession from which the commands are exported.</source>
+          <target state="translated">Spécifie la session PSSession à partir de laquelle les commandes sont exportées.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains a session object or a command that gets a session object, such as a Get-PSSession command.</source>
+          <target state="translated">Entrez une variable qui contient un objet de session ou une commande qui obtient un objet de session (commande Get-PSSession, par exemple).</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>This parameter is required.</source>
+          <target state="translated">Ce paramètre est obligatoire.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>-Certificate</source>
+          <target state="translated">-Certificate</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Specifies the client certificate that is used to sign the format files (<bpt id="p1">*</bpt>.Format.ps1xml) or script module files (.psm1) in the module that <ept id="p1">*</ept><bpt id="p2">*</bpt>Export-PSSession<ept id="p2">*</ept>* creates.</source>
+          <target state="translated">Spécifie le certificat client est utilisé pour signer les fichiers de format (<bpt id="p1">*</bpt>. Format.ps1xml) ou les fichiers de script module (.psm1) dans le module qui <ept id="p1">*</ept><bpt id="p2">*</bpt>Export-PSSession<ept id="p2">*</ept>* crée.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains a certificate or a command or expression that gets the certificate.</source>
+          <target state="translated">Entrez une variable qui contient un certificat, ou bien une commande ou une expression qui obtient le certificat.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>To find a certificate, use the Get-PfxCertificate cmdlet or use the Get-ChildItem cmdlet in the Certificate (Cert:) drive.</source>
+          <target state="translated">Pour rechercher un certificat, utilisez l’applet de commande Get-PfxCertificate ou l’applet de commande Get-ChildItem dans le certificat (Cert :) lecteur.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>If the certificate is not valid or does not have sufficient authority, the command fails.</source>
+          <target state="translated">Si le certificat n'est pas valide ou n'a pas une autorité suffisante, la commande échoue..</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Cette applet de commande prend en charge les paramètres courants :-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction et - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Pour plus d’informations, consultez about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ENTRÉES</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">Aucune</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>You cannot pipe objects to Export-PSSession.</source>
+          <target state="translated">Vous ne pouvez pas diriger d'objets vers Export-PSSession.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">SORTIES</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>System.IO.FileInfo</source>
+          <target state="translated">System.IO.FileInfo</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Export-PSSession returns a list of files that comprise the module that it created.</source>
+          <target state="translated">L'applet de commande Export-PSSession retourne la liste des fichiers qui comportent le module qu'elle a créé.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTES DE PUBLICATION</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Export-PSSession relies on the Windows PowerShell remoting infrastructure.</source>
+          <target state="translated">Export-PSSession s'appuie sur l'infrastructure de communication à distance de Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>To use this cmdlet, the computer must be configured for remoting.</source>
+          <target state="translated">Pour utiliser cette applet de commande, l'ordinateur doit être configuré pour la communication à distance.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Remote_Requirements.</source>
+          <target state="translated">Pour plus d'informations, consultez about_Remote_Requirements.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>You cannot use Export-PSSession to export a Windows PowerShell provider.</source>
+          <target state="translated">Vous ne pouvez pas utiliser Export-PSSession pour exporter un fournisseur Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Exported commands run implicitly in the PSSession from which they were exported.</source>
+          <target state="translated">Les commandes exportées s'exécutent implicitement dans la session PSSession à partir de laquelle elles ont été exportées.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>However, the details of running the commands remotely are handled entirely by Windows PowerShell.</source>
+          <target state="translated">Toutefois, les détails de l'exécution des commandes à distance sont gérées entièrement par Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>You can run the exported commands just as you would run local commands.</source>
+          <target state="translated">Vous pouvez exécuter les commandes exportées tout comme vous exécuteriez des commandes locales.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Export-Module captures and saves information about the PSSession in the module that it exports.</source>
+          <target state="translated">L'applet de commande Export-Module capture et enregistre des informations sur la session PSSession dans le module qu'elle exporte.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>If the PSSession from which the commands were exported is closed when you import the module, and there are no active PSSessions to the same computer, the commands in the module attempt to re-create the PSSession.</source>
+          <target state="translated">Si la session PSSession à partir de laquelle les commandes ont été exportées est fermée quand vous importez le module, et qu'il n'y a aucune session PSSession active sur le même ordinateur, les commandes dans le module tentent de recréer la session PSSession.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>If attempts to re-create the PSSession fail, the exported commands will not run.</source>
+          <target state="translated">Si les tentatives de recréer la session PSSession échouent, les commandes exportées ne sont pas exécutées.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The session information that Export-Module captures and saves in the module does not include session options, such as those that you specify in the $PSSessionOption preference variable or by using the SessionOption parameters of  the New-PSSession, Enter-PSSession, or Invoke-Command cmdlet.</source>
+          <target state="translated">Les informations de session capturées par Export-Module et enregistrées dans le module n'incluent pas les options de session, telles que celles que vous spécifiez dans la variable de préférence $PSSessionOption ou en utilisant les paramètres SessionOption de l'applet de commande New-PSSession, Enter-PSSession ou Invoke-Command.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>If the original PSSession is closed when you import the module, the module will use another PSSession to the same computer, if one is available.</source>
+          <target state="translated">Si la session PSSession d'origine est fermée quand vous importez le module, ce dernier utilisera une autre session PSSession sur le même ordinateur, si celle-ci est disponible.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>To enable the imported commands to run in a correctly configured session, create a PSSession with the options that you want before you import the module.</source>
+          <target state="translated">Pour permettre aux commandes importées de s'exécuter dans une session correctement configurée, créez une session PSSession avec les options que vous souhaitez avant d'importer le module.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>To find the commands to export, Export-PSSession uses the Invoke-Command cmdlet to run a Get-Command command in the PSSession.</source>
+          <target state="translated">Pour rechercher les commandes à exporter, l'applet de commande Export-PSSession utilise l'applet de commande Invoke-Command pour exécuter une commande Get-Command dans la session PSSession.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>To get and save formatting data for the commands, it uses the Get-FormatData and Export-FormatData cmdlets.</source>
+          <target state="translated">Pour obtenir et enregistrer des données de mise en forme pour les commandes, elle utilise les applets de commande Get-FormatData et Export-FormatData.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>You might see error messages from Invoke-Command, Get-Command, Get-FormatData, and Export-FormatData when you run an Export-PSSession command.</source>
+          <target state="translated">Vous pouvez voir des messages d'erreur des applets de commande Invoke-Command, Get-Command, Get-FormatData et Export-FormatData quand vous exécutez une commande Export-PSSession.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Also, Export-PSSession cannot export commands from a session that does not include the Get-Command, Get-FormatData, Select-Object, and Get-Help cmdlets.</source>
+          <target state="translated">En outre, Export-PSSession ne peut pas exporter des commandes à partir d'une session qui n'inclut pas les applets de commande Get-Command, Get-FormatData, Select-Object et Get-Help.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Export-PSSession uses the Write-Progress cmdlet to display the progress of the command.</source>
+          <target state="translated">Export-PSSession utilise l'applet de commande Write-Progress pour afficher la progression de la commande.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>You might see the progress bar while the command is running.</source>
+          <target state="translated">Vous pouvez voir la barre de progression pendant l'exécution de la commande.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Exported commands have the same limitations as other remote commands, including the inability to start a program with a user interface, such as Notepad.</source>
+          <target state="translated">Les commandes exportées présentent les mêmes restrictions que les autres commandes à distance, notamment l'impossibilité de démarrer un programme avec une interface utilisateur, tel que le Bloc-notes.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Because Windows PowerShell profiles are not run in PSSessions, the commands that a profile adds to a session are not available to Export-PSSession.</source>
+          <target state="translated">Comme les profils Windows PowerShell ne sont pas exécutés dans des sessions PSSession, les commandes qu'un profil ajoute à une session ne sont pas disponibles pour Export-PSSession.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>To export commands from a profile, use an Invoke-Command command to run the profile in the PSSession manually before exporting commands.</source>
+          <target state="translated">Pour exporter des commandes à partir d'un profil, utilisez une commande Invoke-Command pour exécuter le profil dans la session PSSession manuellement avant d'exporter les commandes.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The module that Export-PSSession creates might include a formatting file, even if the command does not import formatting data.</source>
+          <target state="translated">Le module créé par Export-PSSession peut inclure un fichier de mise en forme, même si la commande n'importe pas de données de mise en forme.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>If the command does not import formatting data, any formatting files that are created will not contain formatting data.</source>
+          <target state="translated">Si la commande n'importe pas de données de mise en forme, les fichiers de mise en forme éventuellement créés ne contiennent pas de données de mise en forme.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">LIENS CONNEXES</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Import-Module</source>
+          <target state="translated">Import-Module</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Import-PSSession</source>
+          <target state="translated">Import-PSSession</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Invoke-Command</source>
+          <target state="translated">Invoke-Command</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>New-PSSession</source>
+          <target state="translated">New-PSSession</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>about_Command_Precedence</source>
+          <target state="translated">about_Command_Precedence</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>about_PSSessions</source>
+          <target state="translated">about_PSSessions</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

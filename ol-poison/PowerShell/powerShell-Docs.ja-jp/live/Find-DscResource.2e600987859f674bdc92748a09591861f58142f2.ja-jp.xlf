@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cefb03b4e5f27628fe23e592ae1472e288cf4dff</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\PSDesiredStateConfiguration\Find-DscResource.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">31224389ad33432d174ff64880c4a20d5472c569</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e2ac00190438a5c48dbbe5ff7ab4a00e7552ddb0</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Find-DscResource</source>
+          <target state="translated">Find-DscResource</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Find-DscResource</source>
+          <target state="translated">Find-DscResource</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Finds DSC resources that match the specified criteria.</source>
+          <target state="translated">指定した条件に一致する DSC リソースを検索します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">構文</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">説明</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Find-DscResource<ept id="p1">**</ept> cmdlet finds Windows PowerShell Desired State Configuration (DSC) resources, contained in modules, that match the specified criteria from registered repositories.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>検索 DscResource<ept id="p1">**</ept> コマンドレットは、登録されているリポジトリから指定した条件に一致するモジュールに含まれている、Windows PowerShell Desired State Configuration (DSC) のリソースを検索します。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For each module that this cmdlet finds, <bpt id="p1">**</bpt>Find-DscResource<ept id="p1">**</ept> returns a <bpt id="p2">**</bpt>PSGetDscResourceInfo<ept id="p2">**</ept> object which can be piped to Install-Module to install the modules containing the resources that this cmdlet returns.</source>
+          <target state="translated">このコマンドレットが検出されると、各モジュールの <bpt id="p1">**</bpt>検索 DscResource<ept id="p1">**</ept> 返します、 <bpt id="p2">**</bpt>PSGetDscResourceInfo<ept id="p2">**</ept> オブジェクトをこのコマンドレットが返すリソースを含むモジュールをインストールするインストール モジュールにパイプすることができます。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Example 1: Find all DSC resources</source>
+          <target state="translated">例 1: すべての DSC リソースを検索します。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This command runs <bpt id="p1">**</bpt>Find-DscResource<ept id="p1">**</ept> without any parameters to return all DSC resources from all registered galleries.</source>
+          <target state="translated">このコマンドは実行 <bpt id="p1">**</bpt>検索 DscResource<ept id="p1">**</ept> をすべてからすべての DSC リソースを返すパラメーターを指定せず、ギャラリーを登録します。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Example 2: Find DSC modules containing resources with a specified name</source>
+          <target state="translated">例 2: 名前を指定してリソースを含む DSC モジュールを検索します。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This command searches for all modules with the name Website01.</source>
+          <target state="translated">このコマンドは、Website01 という名前のすべてのモジュールを検索します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When searching for a specific DSC resource, the name field can be used to find only modules that contain DSC resources with that name.</source>
+          <target state="translated">特定の DSC リソースを検索する場合は、同名の DSC リソースを含むモジュールのみを検索する [名前] フィールドを使用できます。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Example 3: Install a DSC resource after finding it</source>
+          <target state="translated">例 3: それを検出した後は、DSC リソースをインストールします。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This commands installs a DSC Resource, together with its module, by piping the output of <bpt id="p1">**</bpt>Find-DscResource<ept id="p1">**</ept> to <bpt id="p2">**</bpt>Install-Module<ept id="p2">**</ept>.</source>
+          <target state="translated">これは、コマンドの出力をパイプして、モジュールと共に、DSC リソースをインストール <bpt id="p1">**</bpt>検索 DscResource<ept id="p1">**</ept> に <bpt id="p2">**</bpt>インストール モジュール<ept id="p2">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>When piping multiple resources from the same module, <bpt id="p1">**</bpt>Install-Module<ept id="p1">**</ept> only attempts to install the module one time.</source>
+          <target state="translated">同じモジュールからの複数のリソースをパイプ処理と <bpt id="p1">**</bpt>インストール モジュール<ept id="p1">**</ept> モジュールをインストールする、1 回のみを試行します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Example 4: Discover all DSC resources in a module</source>
+          <target state="translated">例 4: モジュール内のすべての DSC リソースを検出します。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This command finds all the DSC resources contained in the WebAdministration module, by using the <bpt id="p1">*</bpt>ModuleName<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">このコマンドを使用して、WebAdministration モジュールに含まれているすべての DSC リソースの検索、 <bpt id="p1">*</bpt>ModuleName<ept id="p1">*</ept> パラメーター。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Example 5: Search by tag or required version</source>
+          <target state="translated">タグまたは必要なバージョンを検索の例 5:</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This command searches for a resource based on the tag and required version.</source>
+          <target state="translated">このコマンドは、タグと必要なバージョンに基づいたリソースを検索します。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The metadata for tag, minimum version, and required version is shared between the parent module and the DSC resource.</source>
+          <target state="translated">タグ、最小バージョン、および必要なバージョンのメタデータは、親モジュールと DSC リソースの間で共有されます。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Example 6: Search by using a filter</source>
+          <target state="translated">例 6: 検索フィルターを使用します。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This command searches for a resource using the <bpt id="p1">*</bpt>Filter<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">このコマンドを使用して、リソースの検索、 <bpt id="p1">*</bpt>フィルター<ept id="p1">*</ept> パラメーター。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>In the case of NuGet-based repositories, this command searches through the name, description, and tags for the search terms specified by <bpt id="p1">*</bpt>Filter<ept id="p1">*</ept>.</source>
+          <target state="translated">NuGet ベースのリポジトリの場合このコマンドを検索の名前、説明、およびタグで指定された検索語句に対して <bpt id="p1">*</bpt>フィルター<ept id="p1">*</ept>します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">パラメータ</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>-AllVersions</source>
+          <target state="translated">-AllVersions</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet returns all the module versions that meet the specified criteria.</source>
+          <target state="translated">このコマンドレットが指定の条件を満たすすべてのモジュールのバージョンを返すことを示します。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-Filter</source>
+          <target state="translated">フィルター</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Specifies the filter that is used to search using the specific search language of the provider.</source>
+          <target state="translated">プロバイダーの特定の検索の言語を使用して検索するために使用するフィルターを指定します。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>In the case of NuGet repositories, this is the equivalent of searching using the search box on the Gallery webpage.</source>
+          <target state="translated">NuGet リポジトリの場合これは、ギャラリーの web ページで、検索ボックスを使用した検索のと同じです。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This includes searches through name, tags, and description.</source>
+          <target state="translated">これには、名前、タグ、および説明で検索が含まれます。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-MinimumVersion</source>
+          <target state="translated">-MinimumVersion</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Specifies the minimum version of the module to be searched in the repository.</source>
+          <target state="translated">リポジトリ内で検索されるモジュールの最小バージョンを指定します。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The default value is no minimum, which means that all versions are searched.</source>
+          <target state="translated">既定値には、最小値は、すべてのバージョンを検索することを意味はありません。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Specifies an array of the names of the DSC resources to find.</source>
+          <target state="translated">検索する DSC リソースの名前の配列を指定します。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>-Repository</source>
+          <target state="translated">リポジトリ</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Specifies an array of the <bpt id="p1">**</bpt>PSRepository<ept id="p1">**</ept> names that this cmdlet searches for DSC resources.</source>
+          <target state="translated">配列を指定、 <bpt id="p1">**</bpt>PSRepository<ept id="p1">**</ept> このコマンドレットは、DSC リソースを検索する名前。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>-RequiredVersion</source>
+          <target state="translated">-RequiredVersion</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Specifies the exact version of the module to be searched.</source>
+          <target state="translated">検索するのには、モジュールの正確なバージョンを指定します。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Because the module version matches the DSC resource version, this equates to the version of the target DSC resource.</source>
+          <target state="translated">モジュールのバージョンでは、DSC リソースのバージョンと一致する、これはターゲット DSC リソースのバージョンに相当します。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-Tag</source>
+          <target state="translated">タグ</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Specifies an array of tags that are searched in the repository to find modules.</source>
+          <target state="translated">モジュールを検索するリポジトリ内に検索されるタグの配列を指定します。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>-moduleName</source>
+          <target state="translated">-modulename</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the module that should be searched in the repository to find DSC resources.</source>
+          <target state="translated">DSC リソースを検索するリポジトリ内で検索するか、モジュールの名前を指定します。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If this parameter is not specified, this cmdlet searches all modules.</source>
+          <target state="translated">このパラメーターが指定されていない場合、このコマンドレットは、すべてのモジュールを検索します。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">このコマンドレットは、共通のパラメーターをサポートしています:-デバッグ、-erroraction、-errorvariable、- InformationAction-InformationVariable、- OutVariable、-OutBuffer、- PipelineVariable、- Verbose、および - WarningVariable です。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">詳細については、about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">入力</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">None</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">出力</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Microsoft.PowerShell.Commands.PSGetDscResourceInfo</source>
+          <target state="translated">Microsoft.PowerShell.Commands.PSGetDscResourceInfo</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>This cmdlet returns an object that encapsulates the resource name, module name, repository name and <bpt id="p1">**</bpt>PSGetModuleInfo<ept id="p1">**</ept> object if the resource module is found.</source>
+          <target state="translated">このコマンドレットは、リソース名、モジュール名、リポジトリ名をカプセル化するオブジェクトを取得し、 <bpt id="p1">**</bpt>PSGetModuleInfo<ept id="p1">**</ept> リソース モジュールが存在するかどうかのオブジェクトします。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ノート</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">関連リンク</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Desired State Configuration Overview</source>
+          <target state="translated">Windows PowerShell Desired State Configuration の概要</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Get-DscResource</source>
+          <target state="translated">Get-DscResource</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Get-DscConfigurationStatus</source>
+          <target state="translated">Get-DscConfigurationStatus</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Invoke-DscResource</source>
+          <target state="translated">Invoke-DscResource</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Restore-DscConfiguration</source>
+          <target state="translated">Restore-DscConfiguration</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Start-DscConfiguration</source>
+          <target state="translated">Start-DscConfiguration</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Test-DscConfiguration</source>
+          <target state="translated">Test-DscConfiguration</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

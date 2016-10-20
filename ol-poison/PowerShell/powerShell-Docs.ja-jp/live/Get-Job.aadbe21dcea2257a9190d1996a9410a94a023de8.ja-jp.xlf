@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">03ae010b09ed30b89304bf0f6540815011b3095f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Core\Get-Job.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c0a724fa7da57b54f95d088b283c673a6b0201b8</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">da3a098bdfadeb16af04a692b72256e9362dc4b3</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Get-Job</source>
+          <target state="translated">Get-job</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Get-Job</source>
+          <target state="translated">Get-job</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Gets Windows PowerShell background jobs that are running in the current session.</source>
+          <target state="translated">現在のセッションで実行されている Windows PowerShell のバックグラウンド ジョブを取得します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">構文</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>SessionIdParameterSet (Default)</source>
+          <target state="translated">SessionIdParameterSet (既定値)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>CommandParameterSet</source>
+          <target state="translated">CommandParameterSet</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>StateParameterSet</source>
+          <target state="translated">StateParameterSet</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>InstanceIdParameterSet</source>
+          <target state="translated">InstanceIdParameterSet</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>NameParameterSet</source>
+          <target state="translated">NameParameterSet</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>FilterParameterSet</source>
+          <target state="translated">FilterParameterSet</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">説明</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> cmdlet gets objects that represent the background jobs that were started in the current session.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Get-job<ept id="p1">**</ept> コマンドレットを現在のセッションで開始されたバック グラウンド ジョブを表すオブジェクトを取得します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can use <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> to get jobs that were started by using the Start-Job cmdlet, or by using the <bpt id="p2">**</bpt>AsJob<ept id="p2">**</ept> parameter of any cmdlet.</source>
+          <target state="translated">使用することができます <bpt id="p1">**</bpt>Get-job<ept id="p1">**</ept> 、Start-job コマンドレットを使用するかを使用して開始されたジョブを取得する、 <bpt id="p2">**</bpt>AsJob<ept id="p2">**</ept> 任意のコマンドレットのパラメーターです。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Without parameters, a "Get-Job" command gets all jobs in the current session.</source>
+          <target state="translated">パラメーターを指定しない場合、"Get-Job" コマンドは、現在のセッション内のすべてのジョブを取得します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can use the parameters of <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> to get particular jobs.</source>
+          <target state="translated">パラメーターを使用する <bpt id="p1">**</bpt>Get-job<ept id="p1">**</ept> 特定のジョブを取得します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The job object that <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> returns contains useful information about the job, but it does not contain the job results.</source>
+          <target state="translated">ジョブ オブジェクトを <bpt id="p1">**</bpt>Get-job<ept id="p1">**</ept> を返しますが、ジョブに関する有用な情報が含まれていますが、ジョブの結果が含まれていません。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To get the results, use the Receive-Job cmdlet.</source>
+          <target state="translated">結果を取得するには、Receive-job コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A Windows PowerShell background job is a command that runs "in the background" without interacting with the current session.</source>
+          <target state="translated">Windows PowerShell のバックグラウンド ジョブは、現在のセッションと対話することなく "バックグラウンド" で実行されるコマンドです。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Typically, you use a background job to run a complex command that takes a long time to complete.</source>
+          <target state="translated">通常、バックグラウンド ジョブは、完了するのに時間がかかる複雑なコマンドを実行する場合に使用します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For more information about background jobs in Windows PowerShell, see about_Jobs.</source>
+          <target state="translated">Windows PowerShell のバック グラウンド ジョブの詳細については、「about_jobs」を参照してください。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, the <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> cmdlet also gets custom job types, such as workflow jobs and instances of scheduled jobs.</source>
+          <target state="translated">Windows PowerShell 3.0 以降では、 <bpt id="p1">**</bpt>Get-job<ept id="p1">**</ept> コマンドレットでは、ワークフロー ジョブやスケジュールされたジョブのインスタンスなどのカスタム ジョブの種類もを取得します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>To find the job type of a job, use the <bpt id="p1">**</bpt>PSJobTypeName<ept id="p1">**</ept> property of the job.</source>
+          <target state="translated">ジョブのジョブの種類を検索するを使用して、 <bpt id="p1">**</bpt>PSJobTypeName<ept id="p1">**</ept> ジョブのプロパティです。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To enable <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> to get a custom job type, import the module that supports the custom job type into the session before running a <bpt id="p2">**</bpt>Get-Job<ept id="p2">**</ept> command, either by using the Import-Module cmdlet or by using or getting a cmdlet in the module.</source>
+          <target state="translated">有効にする <bpt id="p1">**</bpt>Get-job<ept id="p1">**</ept> カスタム ジョブの種類を取得するには、実行する前にセッションにカスタム ジョブの種類をサポートしているモジュールをインポート、 <bpt id="p2">**</bpt>Get-job<ept id="p2">**</ept> コマンドを Import-module コマンドレットを使用するかを使用するか、モジュールのコマンドレットを取得します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For information about a particular custom job type, see the documentation of the custom job type feature.</source>
+          <target state="translated">特定のカスタム ジョブの種類については、カスタムのジョブの種類機能のドキュメントを参照してください。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This command gets all background jobs started in the current session.</source>
+          <target state="translated">このコマンドは、現在のセッションで開始されたすべてのバックグラウンド ジョブを取得します。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>It does not include jobs created in other sessions, even if the jobs run on the local computer.</source>
+          <target state="translated">ローカル コンピューター上でジョブが実行される場合でも、他のセッションで作成されたジョブは含まれません。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>These commands show how to get the instance ID of a job and then use it to stop a job.</source>
+          <target state="translated">ジョブのインスタンス ID を取得し、それを使用してジョブを停止する方法を次のコマンドに示します。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Unlike the name of a job, which is not unique, the instance ID is unique.</source>
+          <target state="translated">一意ではないジョブ名とは異なり、インスタンス ID は一意です。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This command gets the jobs on the system that include a Get-Process command.</source>
+          <target state="translated">このコマンドは、Get-process コマンドを含む、システム上のジョブを取得します。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>Command<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Get-Job<ept id="p2">**</ept> to limit the jobs retrieved.</source>
+          <target state="translated">コマンドを使用して、 <bpt id="p1">**</bpt>コマンド<ept id="p1">**</ept> のパラメーター <bpt id="p2">**</bpt>Get-job<ept id="p2">**</ept> を取得するジョブを制限します。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The command uses wildcard characters (<bpt id="p1">*</bpt>) to get jobs that include a <ept id="p1">*</ept><bpt id="p2">*</bpt>Get-Process<ept id="p2">*</ept>* command anywhere within the command string.</source>
+          <target state="translated">このコマンドは、ワイルドカード文字を使用して (<bpt id="p1">*</bpt>) を含むジョブを取得する、 <ept id="p1">*</ept><bpt id="p2">*</bpt>Get-process<ept id="p2">*</ept>* コマンドをコマンド文字列内のどこか。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Like the command in the  previous example, this command gets the jobs on the system that include a Get-Process command.</source>
+          <target state="translated">前の例のコマンドのようには、このコマンドは、Get-process コマンドを含む、システム上のジョブを取得します。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The command uses a pipeline operator (|) to send a string (in quotation marks) to the <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">コマンド (引用符で囲まれた) 文字列を送信するにはパイプライン演算子 (|) を使用する、 <bpt id="p1">**</bpt>Get-job<ept id="p1">**</ept> コマンドレットです。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>It is the equivalent of the previous command.</source>
+          <target state="translated">これは、前のコマンドと同等です。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This command gets only those jobs that have been created but have not yet been started.</source>
+          <target state="translated">このコマンドは、作成されている一方でまだ開始されていないジョブのみを取得します。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This includes jobs that are scheduled to run in the future and those not yet scheduled.</source>
+          <target state="translated">これには、後で実行するようにスケジュール設定されているジョブとまだスケジュール設定されていないジョブが含まれます。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 6 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 6 --------------------------</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This command gets all jobs that have job names beginning with "job".</source>
+          <target state="translated">このコマンドは、ジョブ名が "job" で始まるすべてのジョブを取得します。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Because "job<ph id="ph1">\&lt;</ph>number<ph id="ph2">\&gt;</ph>" is the default name for a job, this command gets all jobs that do not have an explicitly assigned name.</source>
+          <target state="translated">"ジョブ<ph id="ph1">\&lt;</ph>数<ph id="ph2">\&gt;</ph>"既定の名前は、このコマンドは、ジョブを明示的に割り当てられた名前を持たないすべてのジョブを取得します。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 7 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 7 --------------------------</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This example shows how to use <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> to get a job object, and then it shows how to use the job object to represent the job in a command.</source>
+          <target state="translated">この例は、使用する方法を示しています。 <bpt id="p1">**</bpt>Get-job<ept id="p1">**</ept> ジョブを取得するオブジェクト、その後表示コマンドでジョブを表すジョブ オブジェクトを使用する方法です。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 8 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 8 --------------------------</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This example demonstrates that the Get-Job cmdlet can get all of the jobs that were started in the current session, even if they were started by using different methods.</source>
+          <target state="translated">この例では、Get-Job コマンドレットを使用して、ジョブが異なる方法で開始されている場合でも、現在のセッションで開始されたすべてのジョブを取得できることを示します。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 9 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 9 --------------------------</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This command shows how to use the job object that Get-Job returns to investigate why a job failed.</source>
+          <target state="translated">次のコマンドに、Get-Job から返されるジョブ オブジェクトを使用してジョブが失敗した原因を調査する方法を示します。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>It also shows how to get the child jobs of each job.</source>
+          <target state="translated">また、各ジョブの子ジョブを取得する方法も示します。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 10 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 10 --------------------------</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the <bpt id="p1">**</bpt>Filter<ept id="p1">**</ept> parameter to get a workflow job.</source>
+          <target state="translated">この例では、使用して、 <bpt id="p1">**</bpt>フィルター<ept id="p1">**</ept> ワークフロー ジョブを取得するパラメーターです。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Filter<ept id="p1">**</ept> parameter, introduced in Windows PowerShell 3.0 is valid only on custom job types, such as workflow jobs and scheduled jobs.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>フィルター<ept id="p1">**</ept> Windows PowerShell 3.0 で導入された、パラメーターは、ワークフロー ジョブ、スケジュールされたジョブなどのカスタムのジョブの種類に対してのみ有効です。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 11 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 11 --------------------------</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>This example shows the effect of using the <bpt id="p1">**</bpt>IncludeChildJob<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ChildJobState<ept id="p2">**</ept> parameters of the <bpt id="p3">**</bpt>Get-Job<ept id="p3">**</ept> cmdlet.</source>
+          <target state="translated">この例を使用する効果を示しています、 <bpt id="p1">**</bpt>IncludeChildJob<ept id="p1">**</ept> と <bpt id="p2">**</bpt>ChildJobState<ept id="p2">**</ept> のパラメーター、 <bpt id="p3">**</bpt>Get-job<ept id="p3">**</ept> コマンドレットです。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">パラメータ</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>-Command</source>
+          <target state="translated">-Command</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Gets the jobs that include the specified command.</source>
+          <target state="translated">指定されたコマンドが含まれているジョブを取得します。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The default is all jobs.</source>
+          <target state="translated">既定値はすべてのジョブです。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Enter a command (as a string).</source>
+          <target state="translated">(文字列として) コマンドを入力します。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>You can use wildcards to specify a command pattern.</source>
+          <target state="translated">ワイルドカードを使用して、コマンドのパターンを指定できます。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>-Filter</source>
+          <target state="translated">フィルター</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Gets jobs that satisfy all of the conditions established in the associated hash table.</source>
+          <target state="translated">関連付けられたハッシュ テーブルに設定されているすべての条件に適合するジョブを取得します。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Enter a hash table where the keys are job properties and the values are job property values.</source>
+          <target state="translated">ジョブのプロパティをキー、ジョブのプロパティ値を値とするハッシュ テーブルを入力します。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>This parameter works only on custom job types, such as workflow jobs and scheduled jobs.</source>
+          <target state="translated">このパラメーターは、ワークフロー ジョブ、スケジュールされたジョブなどの、カスタムのジョブの種類に対してのみ機能します。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>It does not work on standard background jobs, such as those created by using the Start-Job cmdlet.</source>
+          <target state="translated">Start-job コマンドレットを使用して作成したものなどの標準のバック グラウンド ジョブでは動作しません。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>For information about support for this parameter, see the help topic for the job type.</source>
+          <target state="translated">このパラメーターのサポートについては、ジョブの種類のヘルプ トピックを参照してください。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>-Id</source>
+          <target state="translated">-Id</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Gets only jobs with the specified IDs.</source>
+          <target state="translated">指定された ID を持つジョブのみを取得します。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The ID is an integer that uniquely identifies the job within the current session.</source>
+          <target state="translated">ID は、現在のセッション内のジョブを一意に識別する整数です。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>It is easier to remember and to type than the instance ID, but it is unique only within the current session.</source>
+          <target state="translated">この ID は、インスタンス ID よりも覚えやすく入力するのも簡単ですが、現在のセッション内で一意です。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>You can type one or more IDs (separated by commas).</source>
+          <target state="translated">1 つまたは複数の ID を入力することができます。複数の ID を入力する場合は ID をコンマで区切ります。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>To find the ID of a job, type "<bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept>" without parameters.</source>
+          <target state="translated">ジョブの ID を検索する次のように入力します。"<bpt id="p1">**</bpt>Get-job<ept id="p1">**</ept>"パラメーターを指定しません。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>-IncludeChildJob</source>
+          <target state="translated">-IncludeChildJob</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Returns child jobs, in addition to parent jobs.</source>
+          <target state="translated">親のジョブだけでなく、子のジョブを返します。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>This parameter is particularly useful for investigating workflow jobs, for which <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> returns a container parent job, and job failures, because the reason for the failure is saved in a property of the child job.</source>
+          <target state="translated">このパラメーターは、対象のワークフロー ジョブを調査するために特に便利です <bpt id="p1">**</bpt>Get-job<ept id="p1">**</ept> 、失敗の理由は、子ジョブのプロパティに保存されるため、ジョブとジョブのエラー、コンテナーの親を返します。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>-InstanceId</source>
+          <target state="translated">インスタンス Id</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Gets jobs with the specified instance IDs.</source>
+          <target state="translated">指定されたインスタンス ID を持つジョブを取得します。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The default is all jobs.</source>
+          <target state="translated">既定値はすべてのジョブです。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>An instance ID is a GUID that uniquely identifies the job on the computer.</source>
+          <target state="translated">インスタンス ID は、コンピューター上のジョブを一意に識別する GUID です。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>To find the instance ID of a job, use <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept>.</source>
+          <target state="translated">ジョブのインスタンス ID を検索するには使用 <bpt id="p1">**</bpt>Get-job<ept id="p1">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Gets the job with the specified friendly names.</source>
+          <target state="translated">指定されたフレンドリ名を持つジョブを取得します。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Enter a job name, or use wildcard characters to enter a job name pattern.</source>
+          <target state="translated">ジョブの名前を入力するか、またはワイルドカード文字を使用してジョブ名のパターンを入力します。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> gets all jobs in the current session.</source>
+          <target state="translated">既定では、 <bpt id="p1">**</bpt>Get-job<ept id="p1">**</ept> 、現在のセッション内のすべてのジョブを取得します。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>-State</source>
+          <target state="translated">状態</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Gets only jobs in the specified state.</source>
+          <target state="translated">指定された状態のジョブのみを取得します。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Valid values are NotStarted, Running, Completed, Failed, Stopped, Blocked, Suspended, Disconnected, Suspending, Stopping.</source>
+          <target state="translated">有効な値は NotStarted、実行、完了、失敗、停止、ブロック、Suspended、Disconnected、停止、一時停止中です。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> gets all the jobs in the current session.</source>
+          <target state="translated">既定では、 <bpt id="p1">**</bpt>Get-job<ept id="p1">**</ept> 、現在のセッション内のすべてのジョブを取得します。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>For more information about job states, see "JobState Enumeration" in MSDN at http://msdn.microsoft.com/library/windows/desktop/system.management.automation.jobstate(v=vs.85).aspxhttp://msdn.microsoft.com/library/windows/desktop/system.management.automation.jobstate(v=vs.85).aspx</source>
+          <target state="translated">ジョブの状態に関する詳細については、http://msdn.microsoft.com/library/windows/desktop/system.management.automation.jobstate (v=vs.85).aspxhttp://msdn.microsoft.com/library/windows/desktop/system.management.automation.jobstate (v=vs.85).aspx で MSDN の「JobState 列挙」を参照してください。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>-After</source>
+          <target state="translated">-後</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Gets completed jobs that ended after the specified date and time.</source>
+          <target state="translated">指定された日時以降に終了した完了済みのジョブを取得します。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Enter a <bpt id="p1">**</bpt>DateTime<ept id="p1">**</ept> object, such as one returned by the Get-Date cmdlet or a string that can be converted to a <bpt id="p2">**</bpt>DateTime<ept id="p2">**</ept> object, such as "Dec 1, 2012 2:00 AM" or "11/06".</source>
+          <target state="translated">入力、 <bpt id="p1">**</bpt>DateTime<ept id="p1">**</ept> 、Get-date コマンドレットまたはに変換できる文字列によって返されるようオブジェクトを <bpt id="p2">**</bpt>DateTime<ept id="p2">**</ept> 「Dec 1, 2012 2時 00分 AM」や「11/06」などのオブジェクト。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>This parameter works only on custom job types, such as workflow jobs and scheduled jobs, that have an <bpt id="p1">**</bpt>EndTime<ept id="p1">**</ept> property.</source>
+          <target state="translated">このパラメーターはワークフロー ジョブやスケジュールされたジョブを持つなど、カスタムのジョブの種類に対してのみ機能、 <bpt id="p1">**</bpt>EndTime<ept id="p1">**</ept> プロパティです。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>It does not work on standard background jobs, such as those created by using the Start-Job cmdlet.</source>
+          <target state="translated">Start-job コマンドレットを使用して作成したものなどの標準のバック グラウンド ジョブでは動作しません。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>For information about support for this parameter, see the help topic for the job type.</source>
+          <target state="translated">このパラメーターのサポートについては、ジョブの種類のヘルプ トピックを参照してください。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>-Before</source>
+          <target state="translated">前に</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Gets completed jobs that ended before the specified date and time.</source>
+          <target state="translated">指定された日時以前に終了した完了済みのジョブを取得します。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Enter a <bpt id="p1">**</bpt>DateTime<ept id="p1">**</ept> object, such as one returned by the Get-Date cmdlet or a string that can be converted to a <bpt id="p2">**</bpt>DateTime<ept id="p2">**</ept> object, such as "Dec 1, 2012 2:00 AM" or "11/06".</source>
+          <target state="translated">入力、 <bpt id="p1">**</bpt>DateTime<ept id="p1">**</ept> 、Get-date コマンドレットまたはに変換できる文字列によって返されるようオブジェクトを <bpt id="p2">**</bpt>DateTime<ept id="p2">**</ept> 「Dec 1, 2012 2時 00分 AM」や「11/06」などのオブジェクト。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>This parameter works only on custom job types, such as workflow jobs and scheduled jobs, that have an <bpt id="p1">**</bpt>EndTime<ept id="p1">**</ept> property.</source>
+          <target state="translated">このパラメーターはワークフロー ジョブやスケジュールされたジョブを持つなど、カスタムのジョブの種類に対してのみ機能、 <bpt id="p1">**</bpt>EndTime<ept id="p1">**</ept> プロパティです。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>It does not work on standard background jobs, such as those created by using the Start-Job cmdlet.</source>
+          <target state="translated">Start-job コマンドレットを使用して作成したものなどの標準のバック グラウンド ジョブでは動作しません。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>For information about support for this parameter, see the help topic for the job type.</source>
+          <target state="translated">このパラメーターのサポートについては、ジョブの種類のヘルプ トピックを参照してください。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>-ChildJobState</source>
+          <target state="translated">-ChildJobState</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Gets only the child jobs that have the specified state.</source>
+          <target state="translated">指定された状態を持つ子ジョブのみを取得します。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Valid values are: <bpt id="p1">**</bpt>NotStarted<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Running<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Completed<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Failed<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Stopped<ept id="p5">**</ept>, <bpt id="p6">**</bpt>Blocked<ept id="p6">**</ept>, <bpt id="p7">**</bpt>Suspended<ept id="p7">**</ept>, <bpt id="p8">**</bpt>Disconnected<ept id="p8">**</ept>, <bpt id="p9">**</bpt>Suspending<ept id="p9">**</ept>, and <bpt id="p10">**</bpt>Stopping<ept id="p10">**</ept>.</source>
+          <target state="translated">有効な値は: <bpt id="p1">**</bpt>NotStarted<ept id="p1">**</ept>, 、<bpt id="p2">**</bpt>を実行している<ept id="p2">**</ept>, 、<bpt id="p3">**</bpt>完了<ept id="p3">**</ept>, 、<bpt id="p4">**</bpt>失敗<ept id="p4">**</ept>, 、<bpt id="p5">**</bpt>停止<ept id="p5">**</ept>, 、<bpt id="p6">**</bpt>ブロック<ept id="p6">**</ept>, 、<bpt id="p7">**</bpt>保留<ept id="p7">**</ept>, 、<bpt id="p8">**</bpt>切断<ept id="p8">**</ept>, 、<bpt id="p9">**</bpt>一時停止中<ept id="p9">**</ept>, 、および <bpt id="p10">**</bpt>停止<ept id="p10">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> does not get child jobs.</source>
+          <target state="translated">既定では、 <bpt id="p1">**</bpt>Get-job<ept id="p1">**</ept> 子ジョブを取得できません。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>With the <bpt id="p1">**</bpt>IncludeChildJob<ept id="p1">**</ept> parameter, <bpt id="p2">**</bpt>Get-Job<ept id="p2">**</ept> gets all child jobs.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>IncludeChildJob<ept id="p1">**</ept> パラメーター、 <bpt id="p2">**</bpt>Get-job<ept id="p2">**</ept> すべての子ジョブを取得します。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">**</bpt>ChildJobState<ept id="p1">**</ept> parameter, the <bpt id="p2">**</bpt>IncludeChildJob<ept id="p2">**</ept> parameter has no effect.</source>
+          <target state="translated">使用する場合、 <bpt id="p1">**</bpt>ChildJobState<ept id="p1">**</ept> 、パラメーター、 <bpt id="p2">**</bpt>IncludeChildJob<ept id="p2">**</ept> パラメーターには影響を及ぼしません。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>-HasMoreData</source>
+          <target state="translated">-HasMoreData</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Gets only jobs with the specified <bpt id="p1">**</bpt>HasMoreData<ept id="p1">**</ept> property value.</source>
+          <target state="translated">指定したジョブのみを取得 <bpt id="p1">**</bpt>HasMoreData<ept id="p1">**</ept> プロパティの値。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>HasMoreData<ept id="p1">**</ept> property indicates whether all job results have been received in the current session.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>HasMoreData<ept id="p1">**</ept> プロパティは、すべてのジョブの結果が現在のセッションで受け取られたかどうかを示します。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>To get jobs that have more results, type <ph id="ph1">`-HaveMoreData:true`</ph>.</source>
+          <target state="translated">さらに結果が設定されているジョブを取得する入力 <ph id="ph1">`-HaveMoreData:true`</ph>します。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>To get jobs that do not have more results, type <ph id="ph1">`-HaveMoreData:$false`</ph>.</source>
+          <target state="translated">さらに結果がないジョブを取得する入力 <ph id="ph1">`-HaveMoreData:$false`</ph>します。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>To get the results of a job, use the Receive-Job cmdlet.</source>
+          <target state="translated">ジョブの結果を取得するには、Receive-job コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>When you use the <bpt id="p1">**</bpt>Receive-Job<ept id="p1">**</ept> cmdlet, it deletes from its in-memory (session-specific) storage the results that it returned.</source>
+          <target state="translated">使用すると、 <bpt id="p1">**</bpt>Receive-job<ept id="p1">**</ept> コマンドレット、削除、メモリ内 (セッション固有) ストレージから返された結果。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>When it has returned all results of the job in the current session, it sets the value of the <bpt id="p1">**</bpt>HasMoreData<ept id="p1">**</ept> property of the job to False ($false) to indicate that it has no more results for the job in the current session.</source>
+          <target state="translated">値を設定して、ジョブのすべての結果が返されると、現在のセッションで、 <bpt id="p1">**</bpt>HasMoreData<ept id="p1">**</ept> を False ($false) 現在のセッションでジョブの結果があることを示すためにジョブのプロパティです。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">**</bpt>Keep<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Receive-Job<ept id="p2">**</ept> to prevent <bpt id="p3">**</bpt>Receive-Job<ept id="p3">**</ept> from deleting results and changing the value of the <bpt id="p4">**</bpt>HasMoreData<ept id="p4">**</ept> property.</source>
+          <target state="translated">使用して、 <bpt id="p1">**</bpt>保持<ept id="p1">**</ept> のパラメーター <bpt id="p2">**</bpt>Receive-job<ept id="p2">**</ept> を防ぐために <bpt id="p3">**</bpt>Receive-job<ept id="p3">**</ept> を削除するの値を変更してから、 <bpt id="p4">**</bpt>HasMoreData<ept id="p4">**</ept> プロパティです。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>For more information, type "<ph id="ph1">`Get-Help Receive-Job`</ph>".</source>
+          <target state="translated">詳細については、次のように入力します。"<ph id="ph1">`Get-Help Receive-Job`</ph>"です。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>HasMoreData<ept id="p1">**</ept> property is specific to the current session.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>HasMoreData<ept id="p1">**</ept> プロパティは、現在のセッションに固有です。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>If results for a custom job type are saved outside of the session, such as the scheduled job type, which saves job results on disk, you can use the <bpt id="p1">**</bpt>Receive-Job<ept id="p1">**</ept> cmdlet in a different session to get the job results again, even if the value of <bpt id="p2">**</bpt>HasMoreData<ept id="p2">**</ept> is false.</source>
+          <target state="translated">使用することができます、セッション、ジョブの結果を保存すると、ディスク上、スケジュールされたジョブの種類などの外部でカスタム ジョブの種類の結果が保存されている場合、 <bpt id="p1">**</bpt>Receive-job<ept id="p1">**</ept> 場合でも、ジョブの結果をもう一度取得する別のセッションでコマンドレットの値 <bpt id="p2">**</bpt>HasMoreData<ept id="p2">**</ept> は false。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>For more information, see the help topics for the custom job type.</source>
+          <target state="translated">詳細については、カスタムのジョブの種類のヘルプ トピックを参照してください。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>-Newest</source>
+          <target state="translated">順</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Gets the jobs that ended most recently.</source>
+          <target state="translated">最後に終了したジョブを取得します。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Enter the number of jobs to return.</source>
+          <target state="translated">取得するオブジェクトの数を入力します。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Newest<ept id="p1">**</ept> parameter does not sort or return the newest jobs in end-time order.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Newest<ept id="p1">**</ept> パラメーターが並べ替えまたは終了時刻順で最新のジョブを返すしていません。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>To sort the output, use the Sort-Object cmdlet.</source>
+          <target state="translated">出力を並べ替えるには、Sort-object コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">このコマンドレットは、共通のパラメーターをサポートしています:-デバッグ、-erroraction、-errorvariable、- InformationAction-InformationVariable、- OutVariable、-OutBuffer、- PipelineVariable、- Verbose、および - WarningVariable です。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">詳細については、about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">入力</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">None</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>You cannot pipe input to this cmdlet.</source>
+          <target state="translated">パイプを使用してこのコマンドレットに入力を渡すことはできません。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">出力</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.RemotingJob</source>
+          <target state="translated">System.Management.Automation.RemotingJob</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept> returns objects that represent the jobs in the session.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get-job<ept id="p1">**</ept> セッションで、ジョブを表すオブジェクトを返します。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ノート</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>PSJobTypeName<ept id="p1">**</ept> property of jobs indicates the job type of the job.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>PSJobTypeName<ept id="p1">**</ept> ジョブのプロパティは、ジョブのジョブの種類を示します。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The property value is determined by the job type author.</source>
+          <target state="translated">プロパティ値は、ジョブの種類の作成者によって決定されます。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The following list shows common job types.</source>
+          <target state="translated">次の一覧に、一般的なジョブの種類を示します。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>BackgroundJob<ept id="p1">**</ept>: Local job started by using the Start-Job cmdlet.</source>
+          <target state="translated"><bpt id="p1">**</bpt>BackgroundJob<ept id="p1">**</ept>: ローカル ジョブは、Start-job コマンドレットを使用して開始します。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>RemoteJob<ept id="p1">**</ept>: Job started in a PSSession by using the <bpt id="p2">**</bpt>AsJob<ept id="p2">**</ept> parameter of the Invoke-Command cmdlet.</source>
+          <target state="translated"><bpt id="p1">**</bpt>RemoteJob<ept id="p1">**</ept>: を使用して、PSSession でジョブを開始、 <bpt id="p2">**</bpt>AsJob<ept id="p2">**</ept> Invoke-command コマンドレットのパラメーターです。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>PSWorkflowJob<ept id="p1">**</ept>: Job started by using the <bpt id="p2">**</bpt>AsJob<ept id="p2">**</ept> common parameter of workflows.</source>
+          <target state="translated"><bpt id="p1">**</bpt>PSWorkflowJob<ept id="p1">**</ept>: を使用してジョブを開始、 <bpt id="p2">**</bpt>AsJob<ept id="p2">**</ept> ワークフローの共通のパラメーターです。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">関連リンク</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Invoke-Command</source>
+          <target state="translated">Invoke-Command</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Get-Job</source>
+          <target state="translated">Get-job</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Receive-Job</source>
+          <target state="translated">ジョブが表示されます。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Remove-Job</source>
+          <target state="translated">ジョブの削除</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Resume-Job</source>
+          <target state="translated">Resume-Job</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Start-Job</source>
+          <target state="translated">ジョブの開始</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Stop-Job</source>
+          <target state="translated">停止ジョブ</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Suspend-Job</source>
+          <target state="translated">Suspend-Job</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Wait-Job</source>
+          <target state="translated">Wait-job ジョブ</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>about_Jobs</source>
+          <target state="translated">about_Jobs</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>about_Job_Details</source>
+          <target state="translated">about_Job_Details</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>about_Remote_Jobs</source>
+          <target state="translated">about_Remote_Jobs</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>about_Scheduled_Jobs</source>
+          <target state="translated">about_Scheduled_Jobs</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5b9f59cb836bbb3e48c3058edcd9dce68001ebe6</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Core\About\about_Remote_Troubleshooting.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">15ef9eb956795b80bc3c455378b00e217a29ede3</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6d97a251581706a1a51ff5683cb05f75a3e39320</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>about_Remote_Troubleshooting</source>
+          <target state="translated">about_Remote_Troubleshooting</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>About Remote Troubleshooting</source>
+          <target state="translated">リモートのトラブルシューティングについて</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>about_Remote_Troubleshooting</source>
+          <target state="translated">about_Remote_Troubleshooting</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>about_Remote_Troubleshooting</source>
+          <target state="translated">about_Remote_Troubleshooting</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Describes how to troubleshoot remote operations in Windows PowerShell.</source>
+          <target state="translated">Windows PowerShell のリモート操作のトラブルシューティングを行う方法について説明します。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>LONG DESCRIPTION</source>
+          <target state="translated">詳細説明</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This section describes some of the problems that you might encounter when using the remoting features of Windows PowerShell that are based on WS-Management technology and it suggests solutions to these problems.</source>
+          <target state="translated">このセクションでは、Ws-management テクノロジに基づく、Windows PowerShell のリモート処理機能を使用する場合に発生する可能性のある問題のいくつかを説明し、これらの問題の解決策がわかるようにします。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Before using Windows PowerShell remoting, see about_Remote and about_Remote_Requirements for guidance on configuration and basic use Also, the Help topics for each of the remoting cmdlets, particularly the parameter descriptions, have useful information that is designed to help you avoid problems.</source>
+          <target state="translated">About_remote に関するページを参照して Windows PowerShell リモート処理を使用し、また、各リモート処理コマンドレットのヘルプ トピックを使用して about_Remote_Requirements 構成および基本的なガイダンスについては、前に問題を回避するために設計されている有用な情報があるパラメーターの説明、特にです。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Updated versions of this topic, and other Windows PowerShell help topics, can be downloaded by using the Update-Help cmdlet and can be found online in the Microsoft TechNet Library at http://technet.microsoft.com/library/hh847850(v=wps.630).aspx.</source>
+          <target state="translated">このトピックでは、およびその他の Windows PowerShell のヘルプ トピックの更新版 Update-help コマンドレットを使用してダウンロードできるをご覧オンライン http://technet.microsoft.com/library/hh847850(v=wps.630).aspx. に Microsoft TechNet ライブラリ</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>NOTE: To view or change settings for the local computer in the WSMan: drive, including changes to the session configurations, trusted hosts, ports, or listeners, start Windows PowerShell with the "Run as administrator" option.</source>
+          <target state="translated">注: WSMan でローカル コンピューターの設定を表示または変更します。 セッションの構成、信頼されたホスト、ポート、またはリスナーへの変更を含む、ドライブは、[管理者として実行] オプションを使用して Windows PowerShell を起動します。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>TROUBLESHOOTING PERMISSION AND AUTHENTICATION ISSUES</source>
+          <target state="translated">トラブルシューティングのアクセス許可と認証の問題</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This section discusses remoting problems that are related to user and computer permissions and remoting requirements.</source>
+          <target state="translated">このセクションでは、ユーザーとコンピューターのアクセス許可およびリモート処理の要件に関連するリモート処理の問題について説明します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>HOW TO RUN AS ADMINISTRATOR</source>
+          <target state="translated">管理者として実行するには、方法</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>ERROR: Access is denied.</source>
+          <target state="translated">エラー: アクセスが拒否されました。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You need to run this cmdlet from an elevated process.</source>
+          <target state="translated">昇格されたプロセスから、このコマンドレットを実行する必要があります。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To start a remote session on the local computer, or to view or change settings for the local computer in the WSMan: drive, including changes to the session configurations, trusted hosts, ports, or listeners, start Windows PowerShell with the "Run as administrator" option.</source>
+          <target state="translated">ローカル コンピューターでリモート セッションを開始、または、表示または wsman ローカル コンピューターの設定を変更する: セッションの構成、信頼されたホスト、ポート、またはリスナーへの変更を含む、ドライブは、[管理者として実行] オプションを使用して Windows PowerShell を起動します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To start Windows PowerShell with the "Run as administrator option:</source>
+          <target state="translated">Windows PowerShell を起動する、"[管理者として実行します。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>-- Right-click a Windows PowerShell (or Windows PowerShell ISE) icon and then click "Run as administrator.</source>
+          <target state="translated">-Windows PowerShell (または Windows PowerShell ISE) アイコンを右クリックし、[管理者として実行します。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To start Windows PowerShell with the "Run as administrator option in Windows 7 and Windows Server 2008 R2.</source>
+          <target state="translated">Windows PowerShell Windows 7 および Windows Server 2008 R2 で [管理者として実行] を起動します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>-- In the Windows taskbar, right-click the Windows PowerShell icon, and then click "Run as Administrator."</source>
+          <target state="translated">-[Windows タスク バーで、Windows PowerShell アイコンを右クリックし、"管理者として実行] をクリックしてください</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Note: In Windows Server 2008 R2, the Windows PowerShell icon is pinned to the taskbar by default.</source>
+          <target state="translated">注: Windows Server 2008 R2、Windows PowerShell アイコンは、タスクバーに固定既定では。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>HOW TO ENABLE REMOTING</source>
+          <target state="translated">リモート処理を有効にするには、方法</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>ERROR:  ACCESS IS DENIED</source>
+          <target state="translated">エラー: アクセスが拒否されました</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>or - ERROR: The connection to the remote host was refused.</source>
+          <target state="translated">または、エラー: リモート ホストへの接続は拒否されました。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Verify that the WS-Management service is running on the remote host and configured to listen for requests on the correct port and HTTP URL.</source>
+          <target state="translated">Ws-management サービスがリモート ホスト上で実行し、適切なポートと HTTP URL の要求をリッスンするように構成を確認します。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>No configuration is required to enable a computer to send remote commands.</source>
+          <target state="translated">リモート コマンドを送信するコンピューターを有効にするのには、構成は必要ありません。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>However, to receive remote commands, Windows PowerShell remoting must be enabled on the computer.</source>
+          <target state="translated">ただし、リモート コマンドを受信するには、Windows PowerShell リモート処理をコンピューターで有効する必要があります。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Enabling includes starting the WinRM service, setting the startup type for the WinRM service to Automatic, creating listeners for HTTP and HTTPS connections, and creating default session configurations.</source>
+          <target state="translated">有効にするには、WinRM サービスを開始する、[自動] に、WinRM サービスのスタートアップの種類を設定する、HTTP および HTTPS 接続用のリスナーの作成、および既定のセッション構成の作成が含まれています。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell remoting is enabled on Windows Server 2012 and newer releases of Windows Server by default.</source>
+          <target state="translated">既定では、Windows PowerShell リモート処理は Windows Server 2012 および Windows Server の新しいリリースで有効になっています。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>On all other systems, run the Enable-PSRemoting cmdlet to enable remoting.</source>
+          <target state="translated">その他のすべてのシステムでは、リモート処理を有効にする Enable-psremoting コマンドレットを実行します。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You can also run the Enable-PSRemoting cmdlet to re-enable remoting on Windows Server 2012 and newer releases of Windows Server if remoting is disabled.</source>
+          <target state="translated">リモート処理が無効になっている場合に、Windows Server 2012 および Windows Server の新しいリリースでのリモート処理を再度有効にする Enable-psremoting コマンドレットを実行することもできます。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To configure a computer to receive remote commands, use the Enable-PSRemoting cmdlet.</source>
+          <target state="translated">リモート コマンドを受信するコンピューターを構成するには、Enable-psremoting コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The following command enables all required remote settings, enables the session configurations, and restarts the WinRM service to make the changes effective.</source>
+          <target state="translated">次のコマンドは、すべての必要なリモート設定を有効に、セッション構成を有効にし、変更を有効にする WinRM サービスを再起動します。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Enable-PSRemoting</source>
+          <target state="translated">Enable-PSRemoting</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To suppress all user prompts, type:</source>
+          <target state="translated">すべてのユーザー メッセージを抑制するには、次のように入力します。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Enable-PSRemoting -Force</source>
+          <target state="translated">Enable-psremoting の強制</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For more information, see Enable-PSRemoting.</source>
+          <target state="translated">詳細については、Enable-psremoting を参照してください。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>HOW TO ENABLE REMOTING IN AN ENTERPRISE</source>
+          <target state="translated">エンタープライズでのリモート処理を有効にするには、方法</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>ERROR:  ACCESS IS DENIED</source>
+          <target state="translated">エラー: アクセスが拒否されました</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>or - ERROR: The connection to the remote host was refused.</source>
+          <target state="translated">または、エラー: リモート ホストへの接続は拒否されました。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Verify that the WS-Management service is running on the remote host and configured to listen for requests on the correct port and HTTP URL.</source>
+          <target state="translated">Ws-management サービスがリモート ホスト上で実行し、適切なポートと HTTP URL の要求をリッスンするように構成を確認します。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>To enable a single computer to receive remote Windows PowerShell commands and accept connections, use the Enable-PSRemoting cmdlet.</source>
+          <target state="translated">リモートの Windows PowerShell コマンドを受信し、接続を受け入れる 1 台のコンピューターを有効にするには、Enable-psremoting コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>To enable remoting for multiple computers in an enterprise, you can use the following scaled options.</source>
+          <target state="translated">企業内の複数のコンピューターのリモート処理を有効にするには、次のスケーリング オプションを使用できます。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>-- To configure listeners for remoting, enable the "Allow automatic configuration of listeners" group policy.</source>
+          <target state="translated">--リモート処理用のリスナーを構成するには「リスナーの自動の構成を許可する」グループ ポリシーを有効にします。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>For instructions, see "How to Enable Listeners by Using a Group Policy" (below).</source>
+          <target state="translated">手順については、「方法を有効にするリスナーによって、グループ ポリシーを使用」(下記) を参照してください。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>-- To set the startup type of the Windows Remote Management (WinRM) to Automatic on multiple computers, use the Set-Service cmdlet.</source>
+          <target state="translated">-複数のコンピューターでを [自動] に Windows リモート管理 (WinRM) のスタートアップの種類を設定するには、Set-service コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>For instructions, see "How to Set the Startup Type of the WinrM Service" (below).</source>
+          <target state="translated">手順については、「設定 [スタートアップの種類の WinrM サービス方法」(下記) を参照してください。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-- To enable a firewall exception, use the "Windows Firewall: Allow Local Port Exceptions" group policy.</source>
+          <target state="translated">--ファイアウォールの例外を有効にするには、「Windows ファイアウォール:: ローカル ポート例外を許可」グループ ポリシーを使用します。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>For instructions, see "How to Create a Firewall Exception by Using a Group Policy" (below).</source>
+          <target state="translated">手順については、「方法に、ファイアウォール例外によってを使用して、グループ ポリシーの作成」(下記) を参照してください。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>HOW TO ENABLE LISTENERS BY USING A GROUP POLICY</source>
+          <target state="translated">グループ ポリシーを使用してリスナーを有効にするには、方法</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>ERROR:  ACCESS IS DENIED</source>
+          <target state="translated">エラー: アクセスが拒否されました</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>or - ERROR: The connection to the remote host was refused.</source>
+          <target state="translated">または、エラー: リモート ホストへの接続は拒否されました。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Verify that the WS-Management service is running on the remote host and configured to listen for requests on the correct port and HTTP URL.</source>
+          <target state="translated">Ws-management サービスがリモート ホスト上で実行し、適切なポートと HTTP URL の要求をリッスンするように構成を確認します。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>To configure the listeners for all computers in a domain, enable the "Allow automatic configuration of listeners"  policy in the following Group Policy path:</source>
+          <target state="translated">ドメイン内のすべてのコンピューターのリスナーを構成するには、次のグループ ポリシーのパスで「リスナーの自動の構成を許可する」ポリシーを有効にします。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Computer Configuration\Administrative Templates\Windows Components \Windows Remote Management (WinRM)\WinRM service</source>
+          <target state="translated">コンピューターの構成 \ 管理用用テンプレート \windows コンポーネント \Windows Remote Management (WinRM) \WinRM サービス</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Enable the policy and specify the IPv4 and IPv6 filters.</source>
+          <target state="translated">ポリシーを有効にし、IPv4 および IPv6 フィルターを指定します。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Wildcards (*) are permitted.</source>
+          <target state="translated">ワイルドカード (*) を使用します。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>HOW TO ENABLE REMOTING ON PUBLIC NETWORKS</source>
+          <target state="translated">パブリック ネットワーク上でリモート処理を有効にするには、方法</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>ERROR:  Unable to check the status of the firewall</source>
+          <target state="translated">エラー: ファイアウォールの状態を確認できません。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The Enable-PSRemoting cmdlet returns this error when the local network is public and the SkipNetworkProfileCheck parameter is not used in the command.</source>
+          <target state="translated">Enable-psremoting コマンドレットでは、ローカル ネットワークがパブリックであり、SkipNetworkProfileCheck パラメーターがコマンドで使用しないときにこのエラーが返されます。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>On server versions of Windows, Enable-PSRemoting succeeds on all network location types.</source>
+          <target state="translated">Windows のサーバー バージョンでは、Enable-psremoting は、すべてのネットワークの場所の種類に成功します。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>It creates firewall rules that allow remote access to private and domain ("Home" and "Work") networks.</source>
+          <target state="translated">リモート アクセスをプライベート ネットワークとドメイン (「ホーム」および「作業」) ネットワークを許可するファイアウォール規則を作成します。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>For public networks, it creates firewall rules that allows remote access from the same local subnet.</source>
+          <target state="translated">パブリック ネットワークの場合、同じローカル サブネットからのリモート アクセスを許可するファイアウォール規則を作成します。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>On client versions of Windows, Enable-PSRemoting succeeds on private and domain networks.</source>
+          <target state="translated">Windows のクライアント バージョンでは、Enable-psremoting は、プライベート ネットワークとドメイン ネットワークに成功します。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>By default, it fails on public networks, but if you use the SkipNetworkProfileCheck parameter, Enable-PSRemoting succeeds and creates a firewall rule that allows traffic from the same local subnet.</source>
+          <target state="translated">既定では、パブリック ネットワークで失敗したが、SkipNetworkProfileCheck パラメーターを使用する場合、Enable-psremoting が成功し、同じローカル サブネットからのトラフィックを許可するファイアウォール ルールを作成します。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>To remove the local subnet restriction on public networks and allow remote access from any location, run the following command:</source>
+          <target state="translated">パブリック ネットワーク上のローカル サブネットの制限を削除し、任意の場所からのリモート アクセスできるように、次のコマンドを実行します。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Set-NetFirewallRule –Name "WINRM-HTTP-In-TCP-PUBLIC" –RemoteAddress Any</source>
+          <target state="translated">Set-netfirewallrule –「WINRM HTTP-に-TCP-パブリック」– RemoteAddress という名前を</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The Set-NetFirewallRule cmdlet is exported by the NetSecurity module.</source>
+          <target state="translated">Set-netfirewallrule コマンドレットは NetSecurity モジュールによってエクスポートされます。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>NOTE: In Windows PowerShell 2.0, on computers running server versions of Windows, Enable-PSRemoting creates firewall rules that allow remote access on private, domain and public networks.</source>
+          <target state="translated">注: Windows PowerShell 2.0 でサーバーのバージョンの Windows を実行するコンピューターで Enable-psremoting 作成プライベート、ドメイン、およびパブリック ネットワーク上のリモート アクセスを許可するファイアウォール規則です。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>On computers running client versions of Windows, Enable-PSRemoting creates firewall rules that allow remote access only on private and domain networks.</source>
+          <target state="translated">クライアントのバージョンの Windows を実行するコンピューターでは、Enable-psremoting は、プライベートとドメイン ネットワーク上でのみリモート アクセスを許可するファイアウォール規則を作成します。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>HOW TO ENABLE A FIREWALL EXCEPTION BY USING A GROUP POLICY</source>
+          <target state="translated">グループ ポリシーを使用して、ファイアウォールの例外を有効にするには、方法</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>ERROR:  ACCESS IS DENIED</source>
+          <target state="translated">エラー: アクセスが拒否されました</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>or - ERROR: The connection to the remote host was refused.</source>
+          <target state="translated">または、エラー: リモート ホストへの接続は拒否されました。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Verify that the WS-Management service is running on the remote host and configured to listen for requests on the correct port and HTTP URL.</source>
+          <target state="translated">Ws-management サービスがリモート ホスト上で実行し、適切なポートと HTTP URL の要求をリッスンするように構成を確認します。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>To enable a firewall exception for in all computers in a domain, enable the "Windows Firewall: Allow local port exceptions" policy in the following Group Policy path:</source>
+          <target state="translated">ドメイン内のすべてのコンピューターでファイアウォールの例外を有効にするに、"Windows ファイアウォール: ローカル ポートの例外を許可する"ポリシーで次のグループ ポリシーのパス。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Computer Configuration\Administrative Templates\Network \Network Connections\Windows Firewall\Domain Profile</source>
+          <target state="translated">コンピューターの構成 \ 管理用ネットワーク \Network Connections\Windows Firewall\Domain プロファイル</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This policy allows members of the Administrators group on the computer to use Windows Firewall in Control Panel to create a firewall exception for the Windows Remote Management service.</source>
+          <target state="translated">このポリシーは、コントロール パネルの [Windows ファイアウォールを使用して、Windows リモート管理サービスに対するファイアウォールの例外を作成するコンピューターの Administrators グループのメンバーを許可します。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>HOW TO SET THE STARTUP TYPE OF THE WINRM SERVICE</source>
+          <target state="translated">WINRM サービスのスタートアップの種類を設定するには、方法</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>ERROR:  ACCESS IS DENIED</source>
+          <target state="translated">エラー: アクセスが拒否されました</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell remoting depends upon the Windows Remote Management (WinRM) service.</source>
+          <target state="translated">Windows PowerShell リモート処理は、Windows リモート管理 (WinRM) サービスに依存します。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The service must be running to support remote commands.</source>
+          <target state="translated">リモート コマンドをサポートするために、サービスが実行されている必要があります。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>On server versions of Windows, the startup type of the Windows Remote Management (WinRM) service is  Automatic.</source>
+          <target state="translated">サーバーのバージョンの Windows、Windows リモート管理 (WinRM) サービスのスタートアップの種類は自動です。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>However, on client versions of Windows, the WinRM service is disabled by default.</source>
+          <target state="translated">ただし、Windows のクライアント バージョンでは、WinRM サービスが既定では無効です。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>To set the startup type of a service on a remote computer, use the Set-Service cmdlet.</source>
+          <target state="translated">をリモート コンピューターに、サービスのスタートアップの種類を設定するには、Set-service コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>To run the command on multiple computers, you can create a text file or CSV file of the computer names.</source>
+          <target state="translated">複数のコンピューターでコマンドを実行するには、テキスト ファイルまたはコンピューター名の CSV ファイルを作成できます。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>For example, the following commands get a list of computer names from the Servers.txt file and then sets the startup type of the WinRM service on all of the computers to Automatic.</source>
+          <target state="translated">たとえば、次のコマンドは Servers.txt ファイルからコンピューター名の一覧を取得し、すべての [自動] にコンピューター上の WinRM サービスのスタートアップの種類を設定します。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; $servers = Get-Content servers.txt</source>
+          <target state="translated">C:\PS &gt; $servers Get-content servers.txt =</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; Set-Service WinRM -ComputerName $servers -startuptype Automatic</source>
+          <target state="translated">C:\PS &gt; Set-service WinRM ComputerName $servers startuptype 自動</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>To see the results use the Get-WMIObject cmdlet with the Win32_Service object.</source>
+          <target state="translated">Win32_Service オブジェクトに、Get-wmiobject コマンドレットを使用して結果を表示します。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>For more information, see Set-Service.</source>
+          <target state="translated">詳細については、Set-service を参照してください。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>HOW TO RECREATE THE DEFAULT SESSION CONFIGURATIONS</source>
+          <target state="translated">既定のセッション構成を再作成するには、方法</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>ERROR:  ACCESS IS DENIED</source>
+          <target state="translated">エラー: アクセスが拒否されました</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>To connect to the local computer and run commands remotely, the local computer must include session configurations for remote commands.</source>
+          <target state="translated">ローカル コンピューターに接続し、コマンドをリモートで実行、ローカル コンピューターがリモート コマンドのセッション構成を含める必要があります。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>When you use Enable-PSRemoting, it creates default session configurations on the local computer.</source>
+          <target state="translated">Enable-psremoting を使用すると、作成既定のセッション構成、ローカル コンピューターでされます。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Remote users use these session configurations whenever a remote command does not include the ConfigurationName parameter.</source>
+          <target state="translated">リモート ユーザーは、リモート コマンドには、ConfigurationName パラメーターが含まれていないときに、これらのセッション構成を使用します。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>If the default configurations on a computer are unregistered or deleted, use the Enable-PSRemoting cmdlet to recreate them.</source>
+          <target state="translated">コンピューター上の既定の構成は、登録解除または削除された場合、は、Enable-psremoting コマンドレットを使用して作成し直します。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>You can use this cmdlet repeatedly.</source>
+          <target state="translated">このコマンドレットを繰り返し使用することができます。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>It does not generate errors if a feature is already configured.</source>
+          <target state="translated">機能が既に構成されている場合、エラーは発生しません。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>If you change the default session configurations and want to restore the original default session configurations, use the Unregister-PSSessionConfiguration cmdlet to delete the changed session configurations and then use the Enable-PSRemoting cmdlet to restore them.</source>
+          <target state="translated">既定のセッション構成を変更して元の既定のセッション構成を復元する場合は、Unregister-pssessionconfiguration コマンドレットを使用して、変更されたセッション構成を削除して Enable-psremoting コマンドレットを使用して復元します。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Enable-PSRemoting does not change existing session configurations.</source>
+          <target state="translated">Enable-psremoting では、既存のセッション構成は変更されません。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Note: When Enable-PSRemoting restores the default session configuration, it does not create explicit security descriptors for the configurations.</source>
+          <target state="translated">注: Enable-psremoting は、既定のセッション構成を復元、ときに作成されません構成に対して明示的なセキュリティ記述子。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Instead, the configurations inherit the security descriptor of the RootSDDL, which is secure by default.</source>
+          <target state="translated">代わりに、構成では、RootSDDL のセキュリティ記述子が継承は既定でセキュリティ保護します。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>To see the RootSDDL security descriptor, type:</source>
+          <target state="translated">RootSDDL セキュリティ記述子を表示するには、次のように入力します。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Get-Item wsman:\localhost\Service\RootSDDL</source>
+          <target state="translated">Get-item Wsma n:\localhost\service\rootsddl</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>To change the RootSDDL, use the Set-Item cmdlet in the WSMan: drive.</source>
+          <target state="translated">RootSDDL を変更するには、wsman Set-item コマンドレットを使用します。 ドライブです。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>To change the security descriptor of a session configuration, use the Set-PSSessionConfiguration cmdlet with the SecurityDescriptorSDDL or ShowSecurityDescriptorUI parameters.</source>
+          <target state="translated">セッション構成のセキュリティ記述子を変更するには、SecurityDescriptorSDDL または ShowSecurityDescriptorUI パラメーターを使用して Set-pssessionconfiguration コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>For more information about the WSMan: drive, see the Help topic for the WSMan provider ("Get-Help wsman").</source>
+          <target state="translated">詳細については、WSMan: ドライブは、WSMan プロバイダー ("Get-help wsman") のヘルプ トピックを参照してください。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>HOW TO PROVIDE ADMINISTRATOR CREDENTIALS</source>
+          <target state="translated">管理者の資格情報を提供するには、方法</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>ERROR:  ACCESS IS DENIED</source>
+          <target state="translated">エラー: アクセスが拒否されました</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>To create a PSSession or run commands on a remote computer, by default, the current user must be a member of the Administrators group on the remote computer.</source>
+          <target state="translated">PSSession を作成または、既定では、リモート コンピューター上のコマンドを実行、現在のユーザーには、リモート コンピューターの Administrators グループのメンバーであります。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Credentials are sometimes required even when the current user is logged on to an account that is a member of the Administrators group.</source>
+          <target state="translated">Administrators グループのメンバーであるアカウントに、現在のユーザーがログオンしているときにも、資格情報が必要場合があります。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>If the current user is a member of the Administrators group on the remote computer, or can provide the credentials of a member of the Administrators group, use the Credential parameter of the New-PSSession, Enter-PSSession or Invoke-Command cmdlets to connect remotely.</source>
+          <target state="translated">現在のユーザー、リモート コンピューターの Administrators グループのメンバーまたは Administrators グループのメンバーの資格情報を提供は、リモートで接続する New-pssession、Enter-pssession、または Invoke-command コマンドレットの資格情報パラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>For example, the following command provides the credentials of an Administrator.</source>
+          <target state="translated">たとえば、次のコマンドは、管理者の資格情報を提供します。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Invoke-Command -ComputerName Server01 -Credential Domain01\Admin01</source>
+          <target state="translated">Invoke-command-computername Server01-domain01 \admin01 に資格情報</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>For more information about the Credential parameter, see New-PSSession, Enter-PSSession or Invoke-Command.</source>
+          <target state="translated">Credential パラメーターの詳細については、New-pssession、Enter-pssession、または Invoke-command コマンドレットを参照してください。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>HOW TO ENABLE REMOTING FOR NON-ADMINISTRATIVE USERS</source>
+          <target state="translated">管理者以外のユーザーのリモート処理を有効にするには、方法</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>ERROR:  ACCESS IS DENIED</source>
+          <target state="translated">エラー: アクセスが拒否されました</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>To establish a PSSession or run a command on a remote computer, the user must have permission to use the session configurations on the remote computer.</source>
+          <target state="translated">PSSession を確立またはリモート コンピューターでコマンドを実行、ユーザーは、リモート コンピューター上のセッション構成を使用する権限が必要です。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>By default, only members of the Administrators group on a computer have permission to use the default session configurations.</source>
+          <target state="translated">コンピューターの Administrators グループのメンバーだけを既定には、既定のセッション構成を使用する権限を持っています。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Therefore, only members of the Administrators group can connect to the computer remotely.</source>
+          <target state="translated">そのため、Administrators グループのメンバーだけをコンピューターにリモートで接続できます。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>To allow other users to connect to the local computer, give the user Execute permissions to the default session configurations on the local computer.</source>
+          <target state="translated">ローカル コンピューターに接続するには、他のユーザーを許可するようにユーザー既定のセッション構成に対する実行アクセス許可に付与、ローカル コンピューターです。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The following command opens a property sheet that lets you change the security descriptor of the default Microsoft.PowerShell session configuration on the local computer.</source>
+          <target state="translated">次のコマンドは、ローカル コンピューター上の既定の Microsoft.PowerShell セッション構成のセキュリティ記述子を変更できるようにするプロパティ シートを開きます。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Set-PSSessionConfiguration Microsoft.PowerShell -ShowSecurityDescriptorUI</source>
+          <target state="translated">Set-pssessionconfiguration Microsoft.PowerShell ShowSecurityDescriptorUI</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Session_Configurations.</source>
+          <target state="translated">詳細については、「about_Session_Configurations」を参照してください。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>HOW TO ENABLE REMOTING FOR ADMINISTRATORS IN OTHER DOMAINS</source>
+          <target state="translated">他のドメイン管理者のリモート処理を有効にするには、方法</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>ERROR:  ACCESS IS DENIED</source>
+          <target state="translated">エラー: アクセスが拒否されました</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>When a user in another domain is a member of the Administrators group on the local computer, the user cannot connect to the local computer remotely with Administrator privileges.</source>
+          <target state="translated">別のドメインのユーザーがローカル コンピューターの Administrators グループのメンバーの場合は、ユーザーが管理者特権でリモートからローカル コンピューターに接続できません。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>By default, remote connections from other domains run with only standard user privilege tokens.</source>
+          <target state="translated">既定では、他のドメインからのリモート接続は、標準ユーザー特権のトークンだけを実行します。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>However, you can use the LocalAccountTokenFilterPolicy registry entry to change the default behavior and allow remote users who are members of the Administrators group to run with Administrator privileges.</source>
+          <target state="translated">ただし、既定の動作を変更し、管理者特権で実行する管理者グループのメンバーであるリモート ユーザーを許可する LocalAccountTokenFilterPolicy レジストリ エントリを使用することができます。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Caution: The LocalAccountTokenFilterPolicy entry disables user account control (UAC) remote restrictions for all users of all affected computers.</source>
+          <target state="translated">注意: LocalAccountTokenFilterPolicy エントリには、ユーザー アカウント制御 (UAC) のリモート制限のすべてのユーザーの影響を受けるすべてのコンピューターが無効になります。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Consider the implications of this setting carefully before changing the policy.</source>
+          <target state="translated">ポリシーを変更する前に慎重にこの設定の影響を検討してください。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>To change the policy, use the following command to set the value of the LocalAccountTokenFilterPolicy registry entry to 1.</source>
+          <target state="translated">ポリシーを変更するには、LocalAccountTokenFilterPolicy レジストリ エントリの値を 1 に設定するのに次のコマンドを使用します。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; New-ItemProperty -Name LocalAccountTokenFilterPolicy -Path <ph id="ph1">`
+HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System -PropertyType `</ph> DWord -Value 1</source>
+          <target state="translated">C:\PS &gt; 新しい ItemProperty-LocalAccountTokenFilterPolicy という名前のパス <ph id="ph1">`
+HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System -PropertyType `</ph> DWord の値の 1</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>HOW TO USE AN IP ADDRESS IN A REMOTE COMMAND</source>
+          <target state="translated">リモート コマンドで IP アドレスを使用するには、方法</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>ERROR:  The WinRM client cannot process the request.</source>
+          <target state="translated">エラー: WinRM クライアントは、要求を処理することはできません。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>If the authentication scheme is different from Kerberos, or if the client computer is not joined to a domain, then HTTPS transport must be used or the destination machine must be added to the TrustedHosts configuration setting.</source>
+          <target state="translated">認証方法は、Kerberos と異なる場合、またはクライアント コンピューターがドメインに参加していない場合は、HTTPS トランスポートを使用する必要がありますし、または移行先のマシンは、TrustedHosts の構成設定に追加する必要があります。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The ComputerName parameters of the New-PSSession, Enter-PSSession and Invoke-Command cmdlets accept an IP address as a valid value.</source>
+          <target state="translated">New-pssession、Enter-pssession および Invoke-command コマンドレットの ComputerName パラメーターでは、有効な値として IP アドレスをそのまま使用します。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>However, because Kerberos authentication does not support IP addresses, NTLM authentication is used by default whenever you specify an IP address.</source>
+          <target state="translated">ただし、Kerberos 認証が IP アドレスをサポートしていないため NTLM 認証が既定で使用 IP アドレスを指定するには。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>When using NTLM authentication, the following procedure is required for remoting.</source>
+          <target state="translated">NTLM 認証を使用して、次の手順がリモート処理のために必要です。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Configure the computer for HTTPS transport or add the IP addresses of the remote computers to the TrustedHosts list on the local computer.</source>
+          <target state="translated">HTTPS トランスポートには、コンピューターを構成するか、リモート コンピューターの IP アドレスをローカル コンピューターの TrustedHosts のリストに追加します。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>For instructions, see "How to Add a Computer to the TrustedHosts List" below.</source>
+          <target state="translated">手順については、「を追加、コンピューターを一覧する方法、TrustedHosts」以下を参照してください。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Use the Credential parameter in all remote commands.</source>
+          <target state="translated">すべてのリモート コマンドに Credential パラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>This is required even when you are submitting the credentials of the current user.</source>
+          <target state="translated">これは、機能は、現在のユーザーの資格情報を送信している場合でも必要です。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>HOW TO CONNECT REMOTELY FROM A WORKGROUP-BASED COMPUTER</source>
+          <target state="translated">ワークグループ コンピューターからリモートで接続するには、方法</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>ERROR:  The WinRM client cannot process the request.</source>
+          <target state="translated">エラー: WinRM クライアントは、要求を処理することはできません。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>If the authentication scheme is different from Kerberos, or if the client computer is not joined to a domain, then HTTPS transport must be used or the destination machine must be added to the TrustedHosts configuration setting.</source>
+          <target state="translated">認証方法は、Kerberos と異なる場合、またはクライアント コンピューターがドメインに参加していない場合は、HTTPS トランスポートを使用する必要がありますし、または移行先のマシンは、TrustedHosts の構成設定に追加する必要があります。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>When the local computer is not in a domain, the following procedure is required for remoting.</source>
+          <target state="translated">ローカル コンピューターがドメイン内にできない場合は、次の手順はリモート処理に必要です。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Configure the computer for HTTPS transport or add the names of the remote computers to the TrustedHosts list on the local computer.</source>
+          <target state="translated">HTTPS トランスポートには、コンピューターを構成するか、リモート コンピューターの名前をローカル コンピューターの TrustedHosts のリストに追加します。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>For instructions, see "How to Add a Computer to the TrustedHosts List" below.</source>
+          <target state="translated">手順については、「を追加、コンピューターを一覧する方法、TrustedHosts」以下を参照してください。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Verify that a password is set on the workgroup-based computer.</source>
+          <target state="translated">ワークグループ コンピューターでパスワードを設定することを確認します。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>If a password is not set or the password value is empty, you cannot run remote commands.</source>
+          <target state="translated">パスワードが設定されていない、またはパスワードの値が空、リモート コマンドを実行することはできません。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>To set password for your user account, use User Accounts in Control Panel.</source>
+          <target state="translated">ユーザー アカウントのパスワードを設定するには、コントロール パネルの [ユーザー アカウントを使用します。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Use the Credential parameter in all remote commands.</source>
+          <target state="translated">すべてのリモート コマンドに Credential パラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>This is required even when you are submitting the credentials of the current user.</source>
+          <target state="translated">これは、機能は、現在のユーザーの資格情報を送信している場合でも必要です。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>HOW TO ADD A COMPUTER TO THE TRUSTED HOSTS LIST</source>
+          <target state="translated">コンピューターを信頼するホスト リストに追加するには、方法</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>The TrustedHosts item can contain a comma-separated list of computer names, IP addresses, and fully-qualified domain names.</source>
+          <target state="translated">TrustedHosts 項目には、コンピューター名、IP アドレス、および完全修飾ドメイン名のコンマ区切りのリストを含めることができます。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">ワイルドカードを使用できます。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>To view or change the trusted host list, use the WSMan: drive.</source>
+          <target state="translated">表示または変更する、信頼されたホストの一覧、使用、WSMan: ドライブです。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>The TrustedHost item is in the WSMan:\localhost\Client node.</source>
+          <target state="translated">TrustedHost 項目は WSMan:\localhost\Client ノードです。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Only members of the Administrators group on the computer have permission to change the list of trusted hosts on the computer.</source>
+          <target state="translated">コンピューターの Administrators グループのメンバーだけは、信頼されたホスト コンピューター上のリストを変更する権限を持っています。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Caution: The value that you set for the TrustedHosts item affects all users of the computer.</source>
+          <target state="translated">注意: TrustedHosts アイテムに設定する値は、コンピューターのすべてのユーザーに影響します。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>To view the list of trusted hosts, use the following command:</source>
+          <target state="translated">信頼されたホストの一覧を表示するには、次のコマンドを使用します。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Get-Item wsman:\localhost\Client\TrustedHosts</source>
+          <target state="translated">Get Wsma n:\localhost\client\trustedhosts</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>You can also use the Set-Location cmdlet (alias = cd) to navigate though the WSMan: drive to the location.</source>
+          <target state="translated">Set-location コマンドレットを使用することもできます (cd とエイリアス =) 内を移動、WSMan: ドライブの場所にします。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>For example: "cd WSMan:\localhost\Client; dir".</source>
+          <target state="translated">例:"cd WSMan:\localhost\Client です。dir"です。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>To add all computers to the list of trusted hosts, use the following command, which places a value of * (all) in the ComputerName</source>
+          <target state="translated">信頼されたホストの一覧に追加するには、すべてのコンピューターの値を次のコマンドを使用して * (すべて)、コンピューター名で</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Set-Item wsman:localhost\client\trustedhosts -Value *</source>
+          <target state="translated">Set-item wsman:localhost\client\trustedhosts-値 *</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>You can also use a wildcard character (*) to add all computers in a particular domain to the list of trusted hosts.</source>
+          <target state="translated">また、信頼されたホストの一覧に特定のドメイン内のすべてのコンピューターを追加するのにワイルドカード文字 (*) を使用することができます。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>For example, the following command adds all of the computers in the Fabrikam domain to the list of trusted hosts.</source>
+          <target state="translated">たとえば、次のコマンドは、Fabrikam ドメインのすべてのコンピューターの信頼されたホストの一覧に追加します。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Set-Item wsman:localhost\client\trustedhosts *.fabrikam.com</source>
+          <target state="translated">Set-item wsman:localhost\client\trustedhosts *. fabrikam.com</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>To add the names of particular computers to the list of trusted hosts, use the following command format:</source>
+          <target state="translated">信頼されたホストの一覧に特定のコンピューターの名前を追加するには、次のコマンド形式を使用します。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Set-Item wsman:\localhost\Client\TrustedHosts -Value <ph id="ph1">&lt;ComputerName&gt;</ph>[,<ph id="ph2">&lt;ComputerName&gt;</ph>]</source>
+          <target state="translated">Set-item n:\localhost\client\trustedhosts-値 <ph id="ph1">&lt;ComputerName&gt;</ph>[、<ph id="ph2">&lt;ComputerName&gt;</ph>]</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>where each value <ph id="ph1">&lt;ComputerName&gt;</ph> must have the following format:</source>
+          <target state="translated">それぞれの値 <ph id="ph1">&lt;ComputerName&gt;</ph> 、次の形式である必要があります。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>.<ph id="ph1">&lt;Domain&gt;</ph>.<ph id="ph2">&lt;Company&gt;</ph>.&lt;top-level-domain&gt;</source>
+          <target state="translated">.<ph id="ph1">&lt;Domain&gt;</ph>.<ph id="ph2">&lt;Company&gt;</ph>.&lt; top ドメイン &gt;</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">たとえば、次のように入力します。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Set-Item wsman:\localhost\Client\TrustedHosts -Value Server01.Domain01.Fabrikam.com</source>
+          <target state="translated">Set-item n:\localhost\client\trustedhosts-値 Server01.Domain01.Fabrikam.com</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>To add a computer name to an existing list of trusted hosts, first save the current value in a variable, and then set the value to a comma-separated list that includes the current and new values.</source>
+          <target state="translated">信頼されたホストの既存のリストには、コンピューター名を追加するには、まず変数に現在の値を保存して、現在と新しい値を含むコンマ区切りの一覧に値を設定します。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>For example, to add the Server01 computer to an existing list of trusted hosts, use the following command</source>
+          <target state="translated">たとえば、信頼されたホストの既存のリストに追加するには、Server01 コンピューターに次のコマンドを使用します。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>$curValue = (Get-Item wsman:\localhost\Client\TrustedHosts).value</source>
+          <target state="translated">$curValue (Get-item wsman:\localhost\Client\TrustedHosts).value =</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Set-Item wsman:\localhost\Client\TrustedHosts -Value "$curValue, Server01.Domain01.Fabrikam.com"</source>
+          <target state="translated">Set-item n:\localhost\client\trustedhosts-"$curValue Server01.Domain01.Fabrikam.com"の値</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>To add the IP addresses of particular computers to the list of trusted hosts, use the following command format:</source>
+          <target state="translated">信頼されたホストの一覧に特定のコンピューターの IP アドレスを追加するには、次のコマンド形式を使用します。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Set-Item wsman:\localhost\Client\TrustedHosts -Value</source>
+          <target state="translated">Set-item n:\localhost\client\trustedhosts-値</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">たとえば、次のように入力します。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Set-Item wsman:\localhost\Client\TrustedHosts -Value 172.16.0.0</source>
+          <target state="translated">Set-item n:\localhost\client\trustedhosts-値 172.16.0.0</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>To add a computer to the TrustedHosts list of a remote computer, use the Connect-WSMan cmdlet to add a node for the remote computer to the WSMan: drive on the local computer.</source>
+          <target state="translated">コンピューターをリモート コンピューターの TrustedHosts 一覧に追加するには、WSMan にリモート コンピューターのノードを追加する Connect-wsman コマンドレットを使用します。 ローカル コンピューター上のドライブです。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Then use a Set-Item command to add the computer.</source>
+          <target state="translated">コンピューターを追加するのに Set-item コマンドを使用します。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>For more information about the Connect-WSMan cmdlet, see Connect-WSMan.</source>
+          <target state="translated">Connect-wsman コマンドレットに関する詳細については、Connect-wsman を参照してください。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>TROUBLESHOOTING COMPUTER CONFIGURATION ISSUES</source>
+          <target state="translated">コンピューターの構成に関する問題のトラブルシューティング</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>This section discusses remoting problems that are related to particular configurations of a computer, domain, or enterprise.</source>
+          <target state="translated">このセクションでは、コンピューター、ドメイン、またはエンタープライズの特定の構成に関連付けられているリモート処理の問題について説明します。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>HOW TO CONFIGURE REMOTING ON ALTERNATE PORTS</source>
+          <target state="translated">代替ポートをリモート処理を構成するには、方法</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>ERROR:  The connection to the specified remote host was refused.</source>
+          <target state="translated">エラー: 指定したリモート ホストへの接続は拒否されました。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Verify that the WS-Management service is running on the remote host and configured to listen for requests on the correct port and HTTP URL.</source>
+          <target state="translated">Ws-management サービスがリモート ホスト上で実行し、適切なポートと HTTP URL の要求をリッスンするように構成を確認します。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell remoting uses port 80 for HTTP transport by default.</source>
+          <target state="translated">Windows PowerShell リモート処理は、既定では、ポート 80 を HTTP トランスポートに使用します。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>The default port is used whenever the user does not specify the ConnectionURI or Port parameters in a remote command.</source>
+          <target state="translated">既定のポートは、ユーザーがリモート コマンドで ConnectionURI またはポートのパラメーターを指定しないときに使用されます。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>To change the default port that Windows PowerShell uses, use Set-Item cmdlet in the WSMan: drive to change the Port value in the  listener leaf node.</source>
+          <target state="translated">Windows PowerShell を使用する既定のポートを変更するには、wsman Set-item コマンドレットを使用します。 リスナーのリーフ ノードで、ポートの値を変更するドライブです。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>For example, the following command changes the default port to 8080.</source>
+          <target state="translated">たとえば、次のコマンドは、8080 に既定のポートを変更します。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Set-Item wsman:\localhost\listener\listener*\port -Value 8080</source>
+          <target state="translated">Set-item wsman:\localhost\listener\listener*\port-値 8080</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>HOW TO CONFIGURE REMOTING WITH A PROXY SERVER</source>
+          <target state="translated">プロキシ サーバーをリモート処理を構成するには、方法</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>ERROR: The client cannot connect to the destination specified in the request.</source>
+          <target state="translated">エラー: クライアントは、要求で指定された送信先に接続できません。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Verify that the service on the destination is running and is accepting requests.</source>
+          <target state="translated">先にサービスが実行されている、要求を受け付けてことを確認します。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>Because Windows PowerShell remoting uses the HTTP protocol, it is affected by HTTP proxy settings.</source>
+          <target state="translated">Windows PowerShell リモート処理では、HTTP プロトコルを使用するための HTTP プロキシ設定による影響です。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>In enterprises that have proxy servers, users cannot access a Windows PowerShell remote computer directly.</source>
+          <target state="translated">プロキシ サーバーを持つ企業では、ユーザーが、Windows PowerShell のリモート コンピューターを直接アクセスできません。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>To resolve this problem, use proxy setting options in your remote command.</source>
+          <target state="translated">この問題を解決するには、リモート コマンドでオプションのプロキシ設定を使用します。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>The following settings are available:</source>
+          <target state="translated">次の設定を使用できます。</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>--  ProxyAccessType --  ProxyAuthentication --  ProxyCredential</source>
+          <target state="translated">-ProxyAccessType--ProxyAuthentication--ProxyCredential</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>To set these options for a particular command, use the following procedure:</source>
+          <target state="translated">特定のコマンドにこれらのオプションを設定するには、次の手順を使用します。</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>Use the ProxyAccessType, ProxyAuthentication, and ProxyCredential parameters of the New-PSSessionOption cmdlet to create a session option object with the proxy settings for your enterprise.</source>
+          <target state="translated">New-pssessionoption コマンドレットの ProxyAccessType、ProxyAuthentication、および ProxyCredential パラメーターを使用すると、プロキシ設定をエンタープライズでのセッション オプション オブジェクトを作成できます。</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>Save the option object is a variable.</source>
+          <target state="translated">[上書き保存のオプションは、オブジェクトは、変数です。</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Use the variable that contains the option object as the value of the SessionOption parameter of a New-PSSession, Enter-PSSession, or Invoke-Command command.</source>
+          <target state="translated">New-pssession、Enter-pssession、または Invoke-command コマンドの SessionOption パラメーターの値としてオプション オブジェクトを含む変数を使用します。</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>For example, the following command creates a session option object with proxy session options and then uses the object to create a remote session.</source>
+          <target state="translated">たとえば、次のコマンドは、プロキシ セッション オプションを使用して、セッション オプション オブジェクトを作成し、オブジェクトを使用して、リモート セッションを作成します。</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; $SessionOption = New-PSSessionOption -ProxyAccessType IEConfig ` -ProxyAuthentication Negotiate -ProxyCredential Domain01\User01</source>
+          <target state="translated">C:\PS &gt; $SessionOption = 新しい PSSessionOption-ProxyAccessType IEConfig ' - ProxyAuthentication-ProxyCredential domain01 \user01 をネゴシエートします。</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; New-PSSession -ConnectionURI https://www.fabrikam.com</source>
+          <target state="translated">C:\PS &gt; 新しい PSSession-ConnectionURI https://www.fabrikam.com</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>For more information about the New-PSSessionOption cmdlet, see New-PSSessionOption.</source>
+          <target state="translated">New-pssessionoption コマンドレットに関する詳細については、New-pssessionoption を参照してください。</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>To set these options for all remote commands in the current session, use the option object that New-PSSessionOption creates in the value of the $PSSessionOption preference variable.</source>
+          <target state="translated">現在のセッションですべてのリモート コマンドにこれらのオプションを設定するには、$PSSessionOption ユーザー設定変数の値に New-pssessionoption を作成するオプション オブジェクトを使用します。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>For more information about the $PSSessionOption preference variable, see about_Preference_Variables.</source>
+          <target state="translated">詳細については、$PSSessionOption 環境変数、about_Preference_Variables を参照してください。</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>To set these options for all remote commands all Windows PowerShell sessions on the local computer, add the $PSSessionOption preference variable to your Windows PowerShell profile.</source>
+          <target state="translated">ローカル コンピューター上のすべてのリモート コマンドにこれらのオプションすべての Windows PowerShell セッションを設定するには、Windows PowerShell プロファイルに $PSSessionOption ユーザー設定変数を追加します。</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>For more information about Windows PowerShell profiles, see about_Profiles.</source>
+          <target state="translated">Windows PowerShell プロファイルの詳細については、about_Profiles を参照してください。</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>HOW TO DETECT A 32-BIT SESSION ON A 64-BIT COMPUTER</source>
+          <target state="translated">64 ビット コンピューター上の 32 ビット セッションを検出するには、方法</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>ERROR: The term "&lt;tool-Name&gt;" is not recognized as the name of a cmdlet, function, script file, or operable program.</source>
+          <target state="translated">エラー: という用語は、「&lt; ツール名 &gt;」として認識されませんコマンドレット、関数、スクリプト ファイル、または操作可能なプログラムの名前。</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>Check the spelling of the name, or if a path was included, verify that the path is correct and try again.</source>
+          <target state="translated">名のスペルを確認するかパスが含まれている場合、パスが正しいことを確認し、もう一度やり直してください。</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>If the remote computer is running a 64-bit version of Windows, and the remote command is using a 32-bit session configuration, such as Microsoft.PowerShell32, Windows Remote Management (WinRM) loads a WOW64 process and Windows automatically redirects all references to the %Windir%\System32 directory to the %windir%\SysWOW64 directory.</source>
+          <target state="translated">リモート コンピューターが 64 ビット バージョンの Windows を実行するいると、リモートのコマンドは、32 ビットのセッション構成を使用して、Microsoft.PowerShell32 など Windows リモート管理 (WinRM) WOW64 プロセスを読み込んで Windows が自動的に %Windir%\System32 ディレクトリに対するすべての参照を %windir%\SysWOW64 ディレクトリにリダイレクトします。</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>As a result, if you try to use tools in the System32 directory that do not have counterparts in the SysWow64 directory, such as Defrag.exe, the tools cannot be found in the directory.</source>
+          <target state="translated">その結果、対応するが、Defrag.exe など、SysWow64 ディレクトリにないため、System32 ディレクトリにツールを使用しようとするツールで見つからない場合ディレクトリにします。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>To find the processor architecture that is being used in the session, use the value of the PROCESSOR_ARCHITECTURE environment variable.</source>
+          <target state="translated">セッションで使用されているプロセッサ アーキテクチャを確認するには、PROCESSOR_ARCHITECTURE 環境変数の値を使用します。</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>The following command finds the processor architecture of the session in the $s variable.</source>
+          <target state="translated">次のコマンドは、$s 変数内のセッションのプロセッサ アーキテクチャを検索します。</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; $s = New-PSSession -ComputerName Server01 -configurationName CustomShell</source>
+          <target state="translated">C:\PS &gt; $s = New-pssession-computername Server01 - configurationName CustomShell</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; invoke-command -session $s {$env:PROCESSOR_ARCHITECTURE} x86</source>
+          <target state="translated">C:\PS &gt; 呼び出しコマンド - session $s {$env:path: PROCESSOR_ARCHITECTURE} x86</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>For more information about session configurations, see about_session_configurations.</source>
+          <target state="translated">セッション構成の詳細については、about_session_configurations を参照してください。</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>TROUBLESHOOTING POLICY AND PREFERENCE ISSUES</source>
+          <target state="translated">トラブルシューティングのポリシーと基本設定の問題</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>This section discusses remoting problems that are related to policies and preferences set on the local and remote computers.</source>
+          <target state="translated">このセクションでは、ポリシーと設定は、ローカルおよびリモート コンピューターの設定に関連するリモート処理の問題について説明します。</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>HOW TO CHANGE THE EXECUTION POLICY FOR IMPORT-PSSESSION AND IMPORT-MODULE</source>
+          <target state="translated">実行ポリシー FOR IMPORT-PSSESSION とモジュールのインポートを変更するには、方法</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>ERROR: Import-Module: File <ph id="ph1">&lt;filename&gt;</ph> cannot be loaded because the execution of scripts is disabled on this system.</source>
+          <target state="translated">エラー: Import-module: ファイル <ph id="ph1">&lt;filename&gt;</ph> このシステムでスクリプトの実行が無効であるためにアンロードすることはできません。</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>The Import-PSSession and Export-PSSession cmdlets create modules that contains unsigned script files and formatting files.</source>
+          <target state="translated">Import-pssession と Export-pssession コマンドレットは、未署名のスクリプト ファイルと書式設定ファイルを含むモジュールを作成します。</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>To import the modules that are created by these cmdlets, either by using Import-PSSession or Import-Module, the execution policy in the current session cannot be Restricted or AllSigned.</source>
+          <target state="translated">Import-pssession またはモジュールのインポートを使用してこれらのコマンドレットによって作成されたモジュールをインポートするのには、現在のセッションで実行ポリシーは Restricted または AllSigned をすることはできません。</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>(For information about Windows PowerShell execution policies, see about_Execution_Policies.</source>
+          <target state="translated">(Windows PowerShell 実行ポリシーについては、about_Execution_Policies を参照してください。</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>To import the modules without changing the execution policy for the local computer that is set in the registry, use the Scope parameter of Set-ExecutionPolicy to set a less restrictive execution policy for a single process.</source>
+          <target state="translated">レジストリに設定されているローカル コンピューターの実行ポリシーを変更することがなく、モジュールをインポートするには、1 つのプロセスのより制限の少ない実行ポリシーを設定するのに Set-executionpolicy のスコープのパラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>For example, the following command starts a process with the RemoteSigned execution policy.</source>
+          <target state="translated">たとえば、次のコマンドは、RemoteSigned 実行ポリシーを使用して、プロセスを開始します。</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>The execution policy change affects only the current process and does not change the Windows PowerShell ExecutionPolicy registry setting.</source>
+          <target state="translated">実行ポリシーの変更は、現在のプロセスのみに影響し、Windows PowerShell 実行ポリシーのレジストリ設定が変更されません。</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>Set-ExecutionPolicy -Scope process -ExecutionPolicy RemoteSigned</source>
+          <target state="translated">Set-executionpolicy-スコープ - RemoteSigned 実行ポリシーの処理</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>You can also use the ExecutionPolicy parameter of PowerShell.exe to start a single session with a less restrictive execution policy.</source>
+          <target state="translated">制限の少ない実行ポリシーを使用して 1 つのセッションを開始するのに PowerShell.exe の ExecutionPolicy パラメーターを使用することもできます。</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>PowerShell.exe -ExecutionPolicy RemoteSigned</source>
+          <target state="translated">PowerShell.exe - ExecutionPolicy RemoteSigned</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>For more information about the cmdlets, see Import-PSSession, Export-PSSession, and Import-Module.</source>
+          <target state="translated">コマンドレットの詳細については、Import-pssession、Export-pssession、およびモジュールのインポートを参照してください。</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>For more information about execution policies, see about_Execution_Policies.</source>
+          <target state="translated">実行ポリシーの詳細については、「about_Execution_Policies を参照してください。</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>For more information about the PowerShell.exe console help options, type "PowerShell.exe -?".</source>
+          <target state="translated">PowerShell.exe コンソールのヘルプ オプションの詳細については、"PowerShell.exe のですか?"を入力します。</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>HOW TO SET AND CHANGE QUOTAS</source>
+          <target state="translated">クォータの設定および変更する方法</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>ERROR: The total data received from the remote client exceeded allowed maximum.</source>
+          <target state="translated">エラー: 超過リモート クライアントから受信したデータの合計が許容最大です。</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>You can use quotas to protect the local computer and the remote computer from excessive resource use, both accidental and malicious.</source>
+          <target state="translated">クォータを使用すると、過剰なリソースの使用、偶発的な悪意のある両方から、ローカル コンピューターとリモート コンピューターを保護します。</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>The following quotas are available in the basic configuration.</source>
+          <target state="translated">次のクォータの基本的な構成で利用できます。</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>-- The WSMan provider (WSMan:) provides several quota settings, such as the MaxEnvelopeSizeKB and MaxProviderRequests settings in the WSMan:<ph id="ph1">&lt;ComputerName&gt;</ph> node and the MaxConcurrentOperations, MaxConcurrentOperationsPerUser, and MaxConnections settings in the WSMan:<ph id="ph2">&lt;ComputerName&gt;</ph>\Service node.</source>
+          <target state="translated">--WSMan プロバイダー (WSMan:) は wsman MaxEnvelopeSizeKB や MaxProviderRequests 設定などのいくつかのクォータ設定を提供:<ph id="ph1">&lt;ComputerName&gt;</ph> ノードと wsman MaxConcurrentOperations、maxconcurrentoperationsperuser プロパティ、および MaxConnections 設定:<ph id="ph2">&lt;ComputerName&gt;</ph>\Service ノードです。</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>-- You can protect the local computer by using the MaximumReceivedDataSizePerCommand and MaximumReceivedObjectSize parameters of the New-PSSessionOption cmdlet and the $PSSessionOption preference variable.</source>
+          <target state="translated">-New-pssessionoption コマンドレットと $PSSessionOption ユーザー設定変数の MaximumReceivedDataSizePerCommand と MaximumReceivedObjectSize パラメーターを使用して、ローカル コンピューターを保護できます。</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>-- You can protect the remote computer by adding restrictions to the session configurations, such as by using the MaximumReceivedDataSizePerCommandMB and MaximumReceivedObjectSizeMB parameters of the Register-PSSessionConfiguration cmdlet.</source>
+          <target state="translated">-Register-pssessionconfiguration コマンドレットの MaximumReceivedDataSizePerCommandMB と MaximumReceivedObjectSizeMB パラメーターを使用してセッション構成への制限を追加して、リモート コンピューターを保護できます。</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>When quotas conflict with a command, Windows PowerShell generates an error.</source>
+          <target state="translated">クォータが競合するコマンドを使用して、Windows PowerShell は、エラーを生成します。</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>To resolve the error, change the remote command to comply with the quota.</source>
+          <target state="translated">エラーを解決するには、このクォータに準拠するために、リモート コマンドを変更します。</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>Or, determine the source of the quota, and then increase the quota to allow the command to complete.</source>
+          <target state="translated">またはは、クォータの原因を特定し、コマンドの完了を許可するクォータを増やします。</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>For example, the following command increases the object size quota in the Microsoft.PowerShell session configuration on the remote computer from 10 MB (the default value) to 11 MB.</source>
+          <target state="translated">たとえば、次のコマンドは、11 MB に 10 MB (既定値) からリモート コンピューター上の Microsoft.PowerShell セッション構成でオブジェクトのサイズ クォータを増加します。</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>Set-PSSessionConfiguration -Name microsoft.PowerShell ` -MaximumReceivedObjectSizeMB 11 -Force</source>
+          <target state="translated">Set-pssessionconfiguration-microsoft という名前です。PowerShell ' MaximumReceivedObjectSizeMB - 11 - Force</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>For more information about the New-PSSessionOption cmdlet, see New-PSSessionOption.</source>
+          <target state="translated">New-pssessionoption コマンドレットに関する詳細については、New-pssessionoption を参照してください。</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>For more information about the WS-Management quotas, see the Help topic for the WSMan provider (type "Get-Help WSMan").</source>
+          <target state="translated">Ws-management クォータの詳細については、WSMan プロバイダー (型"Get-help WSMan") のヘルプ トピックを参照してください。</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>HOW TO RESOLVE TIMEOUT ERRORS</source>
+          <target state="translated">タイムアウト エラーを解決するには、方法</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>ERROR: The WS-Management service cannot complete the operation within the time specified in OperationTimeout.</source>
+          <target state="translated">エラー: Ws-management サービスは、OperationTimeout で指定された時間内で操作を完了することはできません。</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>You can use timeouts to protect the local computer and the remote computer from excessive resource use, both accidental and malicious.</source>
+          <target state="translated">タイムアウトを使用して、過剰なリソースの使用、偶発的な悪意のある両方から、ローカル コンピューターとリモート コンピューターを保護できます。</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>When timeouts are set on both the local and remote computer, Windows PowerShell uses the shortest timeout settings.</source>
+          <target state="translated">ローカルおよびリモート コンピューターの両方でタイムアウトの設定には、Windows PowerShell は、最短のタイムアウト設定を使用します。</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>The following timeouts are available in the basic configuration.</source>
+          <target state="translated">タイムアウトは、次のとおり、基本的な構成で利用できます。</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>-- The WSMan provider (WSMan:) provides several client-side and service-side timeout settings, such as the MaxTimeoutms setting in the WSMan:<ph id="ph1">&lt;ComputerName&gt;</ph> node and the EnumerationTimeoutms and MaxPacketRetrievalTimeSeconds settings in the WSMan:<ph id="ph2">&lt;ComputerName&gt;</ph>\Service node.</source>
+          <target state="translated">--WSMan プロバイダー (WSMan:) wsman MaxTimeoutms 設定などのタイムアウト設定をいくつかのクライアント側とサービス側に提供します。<ph id="ph1">&lt;ComputerName&gt;</ph> ノードおよび wsman EnumerationTimeoutms と MaxPacketRetrievalTimeSeconds 設定:<ph id="ph2">&lt;ComputerName&gt;</ph>\Service ノードです。</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>-- You can protect the local computer by using the CancelTimeout, IdleTimeout, OpenTimeout, and OperationTimeout parameters of the New-PSSessionOption cmdlet and the $PSSessionOption preference variable.</source>
+          <target state="translated">-New-pssessionoption コマンドレットと $PSSessionOption ユーザー設定変数の CancelTimeout、IdleTimeout、OpenTimeout、および OperationTimeout パラメーターを使用して、ローカル コンピューターを保護できます。</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>-- You can also protect the remote computer by setting timeout values programmatically in the session configuration for the session.</source>
+          <target state="translated">--セッションのセッションの設定でプログラムを使用してタイムアウト値を設定して、リモート コンピューターを保護することもできます。</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>When a timeout value does not permit a operation to complete, Windows PowerShell terminates the operation and generates an error.</source>
+          <target state="translated">タイムアウト値に完了するための操作が許可されていない場合、Windows PowerShell は、操作を終了し、エラーが発生します。</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>To resolve the error, change the command to complete within the timeout interval or determine the source of the timeout limit and increase the timeout interval to allow the command to complete.</source>
+          <target state="translated">エラーを解決するには、タイムアウト期間内に完了またはタイムアウトの制限の原因を特定し、コマンドの完了を許可するように、タイムアウト間隔を延長するコマンドを変更します。</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>For example, the following commans use the New-PSSessionOption cmdlet to create a session option object with an OperationTimeout value of 4 minutes (in MS) and then use the session option object to create a remote session.</source>
+          <target state="translated">たとえば、次のカンマは、ミリ秒単位で 4 分の OperationTimeout 値を持つセッション オプション オブジェクトを作成し、セッション オプション オブジェクトを使用してリモート セッションを作成する New-pssessionoption コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; $pso = New-PSSessionoption -OperationTimeout 240000</source>
+          <target state="translated">C:\PS &gt; $pso New-pssessionoption OperationTimeout 240000 =</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; New-PSSession -ComputerName Server01 -sessionOption $pso</source>
+          <target state="translated">C:\PS &gt; New-pssession ComputerName Server01 sessionOption $pso</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>For more information about the WS-Management timeouts, see the Help topic for the WSMan provider (type "Get-Help WSMan").</source>
+          <target state="translated">Ws-management のタイムアウトの詳細については、WSMan プロバイダー (型"Get-help WSMan") のヘルプ トピックを参照してください。</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>For more information about the New-PSSessionOption cmdlet, see New-PSSessionOption.</source>
+          <target state="translated">New-pssessionoption コマンドレットに関する詳細については、New-pssessionoption を参照してください。</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>TROUBLESHOOTING UNRESPONSIVE BEHAVIOR</source>
+          <target state="translated">応答しない動作のトラブルシューティング</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source>This section discusses remoting problems that prevent a command from completing and prevent or delay the return of the Windows PowerShell prompt.</source>
+          <target state="translated">このセクションでは、コマンドが完了するを防止し、回避または Windows PowerShell プロンプトの戻り値の遅延をリモート処理の問題について説明します。</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>HOW TO INTERRUPT A COMMAND</source>
+          <target state="translated">コマンドを中断するには、方法</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source>Some native Windows programs, such as programs with a user interface, console applications that prompt for input, and console applications that use the Win32 console API, do not work correctly in the Windows PowerShell remote host.</source>
+          <target state="translated">ユーザー インターフェイス、コンソール アプリケーションの入力が要求を Win32 コンソール API を使用するコンソール アプリケーションとプログラムなどの一部のネイティブ Windows をプログラム正常に動作しない Windows PowerShell のリモート ホストにします。</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>When you use these programs, you might see unexpected behavior, such as no output, partial output, or a remote command that does not complete.</source>
+          <target state="translated">これらのプログラムを使用する場合は、何も出力されない、部分的な結果は、未完了のリモート コマンドなどの予期しない動作を参照してください可能性があります。</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source>To end an unresponsive program, type CTRL + C. To view any errors that might have been reported, type "$error" in the local host and the remote session.</source>
+          <target state="translated">応答しないプログラムを終了するには、「ctrl キーを押しながら C. の使用」を入力してください。報告されているエラーを表示するには、ローカル ホストとリモート セッションに"$error"を入力します。</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>HOW TO RECOVER FROM AN OPERATION FAILURE</source>
+          <target state="translated">操作のエラーから復旧するには、方法</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve">
+          <source>ERROR: The I/O operation has been aborted because of either a thread exit or an  application request.</source>
+          <target state="translated">エラー: スレッドの終了、またはアプリケーションの要求のため、I/O 操作は中止されました。</target>       </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve">
+          <source>This error is returned when an operation is terminated before it completes.</source>
+          <target state="translated">操作が完了前に終了した場合に、このエラーが返されます。</target>       </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve">
+          <source>Typically, it occurs when the WinRM service stops or restarts while other WinRM operations are in progress.</source>
+          <target state="translated">通常は、WinRM サービスが停止またはその他の WinRM 操作が進行中での再起動が発生します。</target>       </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve">
+          <source>To resolve this issue, verify that the WinRM service is running and try the command again.</source>
+          <target state="translated">この問題を解決するのには、WinRM サービスが実行されていることを確認し、コマンドをもう一度やり直してください。</target>       </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source>Start Windows PowerShell with the "Run as administrator" option.</source>
+          <target state="translated">[管理者として実行] オプションを使用して Windows PowerShell を起動します。</target>       </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve">
+          <source>Run the following command:</source>
+          <target state="translated">次に、</target>       </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve">
+          <source>Re-run the command that generated the error.</source>
+          <target state="translated">エラーが発生したコマンドを再実行します。</target>       </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve">
+          <source>SEE ALSO</source>
+          <target state="translated">関連項目</target>       </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve">
+          <source>Online version: http://technet.microsoft.com/library/hh847850(v=wps.630).aspx about_Remote about_Remote_Requirements about_Remote_Variables</source>
+          <target state="translated">オンライン版: http://technet.microsoft.com/library/hh847850(v=wps.630).aspx about_Remote about_Remote_Requirements about_Remote_Variables</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

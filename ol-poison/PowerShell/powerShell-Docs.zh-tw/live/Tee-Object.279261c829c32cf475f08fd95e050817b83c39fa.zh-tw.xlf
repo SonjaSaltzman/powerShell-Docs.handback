@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cb3c4f7eea35b03691f758aceb456c1f55e897f8</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Utility\Tee-Object.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">90ba4738722cb7656222ebf0bf183e4f8ed54ebb</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">03a028d68ffc6e7b53dc95d93ca62fc26032363a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell 指令程式</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Tee-Object</source>
+          <target state="translated">Tee-object</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Tee-Object</source>
+          <target state="translated">Tee-object</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Saves command output in a file or variable and also sends it down the pipeline.</source>
+          <target state="translated">將命令輸出儲存至檔案或變數，同時將它透過管線傳送。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">語法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>File (Default)</source>
+          <target state="translated">檔案 （預設值）</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>LiteralFile</source>
+          <target state="translated">LiteralFile</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Variable</source>
+          <target state="translated">變數</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">描述</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The Tee-Object cmdlet redirects output, that is, it sends the output of a command in two directions (like the letter "T").</source>
+          <target state="translated">Tee-Object Cmdlet 會將輸出重新導向，也就是將命令的輸出朝兩個方向傳送 (如同字母 "T")。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>It stores the output in a file or variable and also sends it down the pipeline.</source>
+          <target state="translated">它會將輸出儲存至檔案或變數，同時將它透過管線傳送。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If Tee-Object is the last command in the pipeline, the command output is displayed at the prompt.</source>
+          <target state="translated">如果 Tee-Object 是管線中的最後一個命令，命令輸出就會顯示在提示字元中。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">範例</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 範例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This command gets a list of the processes running on the computer and sends the result to a file.</source>
+          <target state="translated">此命令取得電腦上執行的處理程序清單，並將結果傳送至檔案。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Because a second path is not specified, the processes are also displayed in the console.</source>
+          <target state="translated">因為沒有指定第二個路徑，因此處理程序也會顯示在主控台中。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This command gets a list of the processes running on the computer and sends the result to a variable named "proc".</source>
+          <target state="translated">此命令取得電腦上執行的處理程序清單，並將結果傳送至名為 "proc" 的變數。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>It then pipes the resulting objects along to Select-Object, which selects the ProcessName and Handles property.</source>
+          <target state="translated">然後將產生的物件經由管線傳送至 Select-Object，此 Cmdlet 會選取 ProcessName 和 Handles 屬性。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Note that the $proc variable includes the default information returned by Get-Process.</source>
+          <target state="translated">請注意，$proc 變數包含 Get-Process 所傳回的預設資訊。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This command saves a list of system files in a two log files, a cumulative file and a current file.</source>
+          <target state="translated">此命令將系統檔案清單儲存在兩個記錄檔中：累加檔案和目前的檔案。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The command uses the Get-ChildItem cmdlet to do a recursive search for system files on the D: drive.</source>
+          <target state="translated">命令使用 Get-Childitem Cmdlet 在 D: 磁碟機執行系統檔案的遞迴搜尋。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A pipeline operator (|) sends the list to Tee-Object, which appends the list to the AllSystemFiles.txt file and passes the list down the pipeline to the Out-File cmdlet, which saves the list in the NewSystemFiles.txt file.</source>
+          <target state="translated">管線運算子 (|) 會將清單傳送到 Tee-Object，此 Cmdlet 會將清單附加到 AllSystemFiles.txt 檔案，並將清單透過管線傳送至 Out-File Cmdlet，此 Cmdlet 會將清單儲存在 NewSystemFiles.txt 檔案中。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">參數</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-Append</source>
+          <target state="translated">-新增</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Appends the output to the specified file.</source>
+          <target state="translated">將輸出附加至指定的檔案。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Without this parameter, the new content replaces any existing content in the file without warning.</source>
+          <target state="translated">如果沒有這個參數，新內容會取代檔案中的任何現有內容而不會發出警告。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此參數是在 Windows PowerShell 3.0 引進。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-FilePath</source>
+          <target state="translated">-檔案路徑</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Saves the object in the specified file.</source>
+          <target state="translated">將物件儲存在指定的檔案。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are permitted, but must resolve to a single file.</source>
+          <target state="translated">允許使用萬用字元，但它必須解析成單一檔案。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-InputObject</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Specifies the object to be saved and displayed.</source>
+          <target state="translated">指定要儲存和顯示的物件。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the objects or type a command or expression that gets the objects.</source>
+          <target state="translated">輸入包含物件的變數，或輸入可取得物件的命令或運算式。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You can also pipe an object to Tee-Object.</source>
+          <target state="translated">您也可以使用管線將物件傳送至 Tee-Object。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>When you use the InputObject parameter with Tee-Object, instead of piping command results to Tee-Object, the InputObject value-even if the value is a collection that is the result of a command, such as -InputObject (Get-Process)-is treated as a single object.</source>
+          <target state="translated">當您使用 InputObject 參數與 Tee-object，而不是管線命令結果至 Tee-object 時，InputObject 值即使值是結果的命令，例如-InputObject (Get-process) 的集合-會被視為單一物件。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Because InputObject cannot return individual properties from an array or collection of objects, it is recommended that if you use Tee-Object to perform operations on a collection of objects for those objects that have specific values in defined properties, you use Tee-Object in the pipeline, as shown in the examples in this topic.</source>
+          <target state="translated">因為 InputObject 無法從物件陣列或集合傳回個別屬性，因此建議您若在定義屬性中具有特定值之物件的物件集合上使用 Tee-Object 執行作業，則可以在管線中使用 Tee-Object，如這個主題的範例所示。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>-Variable</source>
+          <target state="translated">變數</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Saves the object in the specified variable.</source>
+          <target state="translated">將物件儲存在指定的變數。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Enter a variable name without the preceding dollar sign ($).</source>
+          <target state="translated">輸入前面沒有貨幣符號 ($) 的變數名稱。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>-LiteralPath</source>
+          <target state="translated">-LiteralPath</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Saves the object in the specified file.</source>
+          <target state="translated">將物件儲存在指定的檔案。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Unlike <bpt id="p1">**</bpt>FilePath<ept id="p1">**</ept>, the value of the <bpt id="p2">**</bpt>LiteralPath<ept id="p2">**</ept> parameter is used exactly as it is typed.</source>
+          <target state="translated">不同於 <bpt id="p1">**</bpt>FilePath<ept id="p1">**</ept>, ，值 <bpt id="p2">**</bpt>LiteralPath<ept id="p2">**</ept> 完全依照其輸入，使用參數。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>No characters are interpreted as wildcards.</source>
+          <target state="translated">沒有字元會被視為萬用字元。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>If the path includes escape characters, enclose it in single quotation marks.</source>
+          <target state="translated">如果路徑包含逸出字元，請將它括在單引號中。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Single quotation marks tell Windows PowerShell not to interpret any characters as escape sequences.</source>
+          <target state="translated">單引號告知 Windows PowerShell 不要將任何字元視為逸出序列。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">這個 cmdlet 支援一般參數:-偵錯、-ErrorAction、-ErrorVariable、-InformationAction-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 以及-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">如需詳細資訊，請參閱 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">輸入</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSObject</source>
+          <target state="translated">System.Management.Automation.PSObject</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>You can pipe objects to Tee-Object.</source>
+          <target state="translated">您可以使用管線將物件傳送至 Tee-Object。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">輸出</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSObject</source>
+          <target state="translated">System.Management.Automation.PSObject</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Tee-Object returns the object that it redirects.</source>
+          <target state="translated">Tee-Object 會傳回它重新導向的物件。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">附註</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>You can also use the Out-File cmdlet or the redirection operator, both of which save the output in a file but do not send it down the pipeline.</source>
+          <target state="translated">您也可以使用 Out-File Cmdlet 或重新導向運算子，兩種方式都會將輸出儲存在檔案中，但不會透過管線傳送。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Tee-Object uses Unicode encoding when it writes to files.</source>
+          <target state="translated">Tee-Object 在寫入檔案時會使用 Unicode 編碼方式。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>As a result, the output might not be formatted properly in files with a different encoding.</source>
+          <target state="translated">因此，輸出在不同編碼之檔案中的格式可能會不正確。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>To specify the encoding, use the Out-File cmdlet.</source>
+          <target state="translated">若要指定編碼，請使用 Out-File Cmdlet。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相關的連結</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Select-Object</source>
+          <target state="translated">Select-Object</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>about_Redirection</source>
+          <target state="translated">about_Redirection</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

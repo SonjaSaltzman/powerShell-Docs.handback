@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">55328fce9feb17f89b81ab6641f83285fae22073</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\Enter-PSHostProcess.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">41dc1ab1c23df7809c82daa3d61a93843d0675ee</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">db87ba5154e4c061372079edbb42e955bc0568c2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell 指令程式</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Enter-PSHostProcess</source>
+          <target state="translated">Enter-PSHostProcess</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Enter-PSHostProcess</source>
+          <target state="translated">Enter-PSHostProcess</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Connects to and enters into an interactive session with a local process.</source>
+          <target state="translated">連接到並在本機處理序的互動式工作階段中輸入。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">語法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>ProcessIdParameterSet (Default)</source>
+          <target state="translated">ProcessIdParameterSet （預設值）</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>ProcessParameterSet</source>
+          <target state="translated">ProcessParameterSet</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>ProcessNameParameterSet</source>
+          <target state="translated">ProcessNameParameterSet</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>PSHostProcessInfoParameterSet</source>
+          <target state="translated">PSHostProcessInfoParameterSet</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">描述</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Enter-PSHostProcess<ept id="p1">**</ept> cmdlet connects to and enters into an interactive session with a local process.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Enter PSHostProcess<ept id="p1">**</ept> 指令程式會連接到並在本機處理序的互動式工作階段中輸入。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Instead of creating a new process to host Windows PowerShell and run a remote session, the remote, interactive session is run in an existing process that is already running Windows PowerShell.</source>
+          <target state="translated">而不是建立新的處理序裝載 Windows PowerShell 並執行遠端工作階段，現有的處理序已在執行 Windows PowerShell 執行遠端、 互動式工作階段。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>When you are interacting with a remote session on a specified process, you can enumerate running runspaces, and then select a runspace to debug by running either Debug-Runspace or Enable-RunspaceDebug.</source>
+          <target state="translated">當您指定的處理序上的遠端工作階段與互動時，您可以列舉執行 runspace，，然後選取 [藉由執行偵錯 Runspace 或啟用 RunspaceDebug 偵錯的 runspace。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The process that you want to enter must be hosting Windows PowerShell (System.Management.Automation.dll).</source>
+          <target state="translated">您想要輸入的程序必須在裝載 Windows PowerShell (System.Management.Automation.dll)。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You must be either a member of the Administrators group on the computer on which the process is found, or you must be the user who is running the script that started the process.</source>
+          <target state="translated">您必須是成員找到處理程序，或使用者必須在電腦上 Administrators 群組的執行啟動處理序的指令碼。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>After you have selected a runspace to debug, a remote debug session is opened for the runspace if it is either currently running a command or is stopped in the debugger.</source>
+          <target state="translated">選取 runspace 偵錯之後，如果它是目前正在執行的命令，或已停止偵錯工具中開啟遠端偵錯工作階段的 runspace。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can then debug the runspace script in the same way you would debug other remote session scripts.</source>
+          <target state="translated">您接著可以使用相同的方式，您會在偵錯其他遠端工作階段指令碼偵錯 runspace 指令碼。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Detach from a debugging session, and then the interactive session with the process, by running exit twice, or stop script execution by running the existing debugger quit command.</source>
+          <target state="translated">中斷偵錯工作階段，並接著互動式工作階段與處理序，藉由執行結束兩次，或藉由執行現有的偵錯工具停止指令碼執行結束命令。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If you specify a process by using the <bpt id="p1">*</bpt>Name<ept id="p1">*</ept> parameter, and there is only one process found with the specified name, the process is entered.</source>
+          <target state="translated">如果您指定處理程序使用 <bpt id="p1">*</bpt>名稱<ept id="p1">*</ept> 參數，而且只有一個處理序已找到具有指定名稱，輸入處理程序。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If more than one process with the specified name is found, Windows PowerShell returns an error, and lists all processes found with the specified name.</source>
+          <target state="translated">如果找到具有指定名稱的多個處理序，則 Windows PowerShell 會傳回錯誤，並列出所有找到具有指定名稱的程序。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To support attaching to processes on remote computers, the <bpt id="p1">**</bpt>Enter-PSHostProcess<ept id="p1">**</ept> cmdlet is enabled in a specified remote computer, so that you can attach to a local process within a remote Windows PowerShell session.</source>
+          <target state="translated">若要支援附加至遠端電腦上，處理序 <bpt id="p1">**</bpt>Enter PSHostProcess<ept id="p1">**</ept> 以便在遠端 Windows PowerShell 工作階段中的本機處理序可以連接中指定的遠端電腦，啟用指令程式。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">範例</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Example 1: Start debugging a runspace within the Windows PowerShell ISE process</source>
+          <target state="translated">範例 1︰ 啟動偵錯在 Windows PowerShell ISE 程序中的 runspace</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">參數</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>-AppDomainName</source>
+          <target state="translated">-AppDomainName</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>@{Text=}</source>
+          <target state="translated">@{文字 =}</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>-HostProcessInfo</source>
+          <target state="translated">-HostProcessInfo</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>@{Text=}</source>
+          <target state="translated">@{文字 =}</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-Id</source>
+          <target state="translated">識別碼</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Specifies a process by the process ID.</source>
+          <target state="translated">指定處理序的處理序識別碼。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To get a process ID, run the Get-Process cmdlet.</source>
+          <target state="translated">若要取得的處理序識別碼，請執行 Get-process cmdlet。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Specifies a process by the process name.</source>
+          <target state="translated">指定處理程序的處理序名稱。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To get a process name, run the Get-Process cmdlet.</source>
+          <target state="translated">若要取得處理序名稱，請執行 Get-process cmdlet。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You can also get process names from the Properties dialog box of a process in Task Manager.</source>
+          <target state="translated">您也可以從 [內容] 對話方塊的 [工作管理員] 中的程序取得處理序名稱。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-Process</source>
+          <target state="translated">同處理序</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Specifies a process by the process object.</source>
+          <target state="translated">指定處理程序的處理程序物件。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The simplest way to use this parameter is to save the results of a <bpt id="p1">**</bpt>Get-Process<ept id="p1">**</ept> command that returns process that you want to enter in a variable, and then specify the variable as the value of this parameter.</source>
+          <target state="translated">最簡單的方式，使用此參數是儲存的結果 <bpt id="p1">**</bpt>Get-process<ept id="p1">**</ept> 命令您想要在變數中，輸入該傳回程序，然後將變數指定為此參數的值。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">這個 cmdlet 支援一般參數:-偵錯、-ErrorAction、-ErrorVariable、-InformationAction-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 以及-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">如需詳細資訊，請參閱 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">輸入</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>System.Diagnostics.Process</source>
+          <target state="translated">System.Diagnostics.Process</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">輸出</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">附註</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Enter-PSHostProcess<ept id="p1">**</ept> cannot enter the process of the Windows PowerShell session in which you are running the command.</source>
+          <target state="translated"><bpt id="p1">**</bpt>輸入 PSHostProcess<ept id="p1">**</ept> 無法進入您執行命令的 Windows PowerShell 工作階段的程序。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>You can, however, enter the process of another Windows PowerShell session, or a Windows PowerShell ISE session that is running at the same time as the session in which you are running <bpt id="p1">**</bpt>Enter-PSHostProcess<ept id="p1">**</ept>.</source>
+          <target state="translated">不過，您可以輸入另一個 Windows PowerShell 工作階段或同時為您執行的工作階段正在執行的 Windows PowerShell ISE 工作階段的程序 <bpt id="p1">**</bpt>Enter PSHostProcess<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Enter-PSHostProcess<ept id="p1">**</ept> can enter only those processes that are hosting Windows PowerShell.</source>
+          <target state="translated"><bpt id="p1">**</bpt>輸入 PSHostProcess<ept id="p1">**</ept> 可以輸入要裝載 Windows PowerShell 這些處理序。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>That is, they have loaded the Windows PowerShell engine.</source>
+          <target state="translated">也就是說，它們已載入 Windows PowerShell 引擎。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To exit a process from within the process, type exit, and then press Enter.</source>
+          <target state="translated">若要結束處理程序從處理序中的，輸入結束，，然後按 Enter。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相關的連結</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Get-Process</source>
+          <target state="translated">Get-Process</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Exit-PSHostProcess</source>
+          <target state="translated">Exit-PSHostProcess</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Debug-Runspace</source>
+          <target state="translated">Debug-Runspace</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Enable-RunspaceDebug</source>
+          <target state="translated">Enable-RunspaceDebug</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>about_Debuggers</source>
+          <target state="translated">about_Debuggers</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

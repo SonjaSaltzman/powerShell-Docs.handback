@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aafcc1c87e3f72355fd4ed2dfff68e11ab3e4998</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Core\Add-History.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">66dc6756afed3b307aae3b232694518be67afc60</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7c8513861ebe010475ba6de8aa37b4e9a17d7f1e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">cmdlet PowerShell</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Add-History</source>
+          <target state="translated">Add-History</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Add-History</source>
+          <target state="translated">Add-History</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">RIEPILOGO</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Appends entries to the session history.</source>
+          <target state="translated">Aggiunge voci alla cronologia della sessione.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SINTASSI</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">DESCRIZIONE</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> cmdlet adds entries to the end of the session history, that is, the list of commands entered during the current session.</source>
+          <target state="translated">Il <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> cmdlet aggiunge voci alla fine della cronologia della sessione, ovvero l'elenco di comandi immessi durante la sessione corrente.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can use the Get-History cmdlet to get the commands and pass them to <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept>, or you can export the commands to a CSV or XML file, then import the commands, and pass the imported file to <bpt id="p2">**</bpt>Add-History<ept id="p2">**</ept>.</source>
+          <target state="translated">È possibile utilizzare il cmdlet Get-History per ottenere i comandi e passarli al <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept>, oppure è possibile esportare i comandi in un file CSV o XML, quindi importare i comandi e passare il file importato ad <bpt id="p2">**</bpt>Add-History<ept id="p2">**</ept>.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can use this cmdlet to add specific commands to the history or to create a single history file that includes commands from more than one session.</source>
+          <target state="translated">È possibile usare questo cmdlet per aggiungere comandi specifici alla cronologia o per creare un singolo file di cronologia che include i comandi di più sessioni.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">ESEMPI</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- ESEMPIO 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>These commands add the commands typed in one Windows PowerShell session to the history of a different Windows PowerShell session.</source>
+          <target state="translated">Questi comandi aggiungono i comandi digitati in una sessione di Windows PowerShell alla cronologia di un'altra sessione di Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The first command gets objects representing the commands in the history and exports them to the History.csv file.</source>
+          <target state="translated">Il primo comando ottiene gli oggetti che rappresentano i comandi nella cronologia e li esporta nel file History.csv.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The second command is typed at the command line of a different session.</source>
+          <target state="translated">Il secondo comando viene digitato nella riga di comando di un'altra sessione.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>It uses the Import-Csv cmdlet to import the objects in the History.csv file.</source>
+          <target state="translated">Usa il cmdlet Import-Csv per importare gli oggetti nel file History CSV.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The pipeline operator passes the objects to the <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> cmdlet, which adds the objects representing the commands in the History.csv file to the current session history.</source>
+          <target state="translated">L'operatore pipeline passa gli oggetti per il <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> cmdlet, che aggiunge gli oggetti che rappresentano i comandi nel file History CSV alla cronologia della sessione corrente.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This command imports commands from the History.xml file, adds them to the current session history, and then executes the commands in the combined history.</source>
+          <target state="translated">Questo comando importa i comandi dal file History.xml, li aggiunge alla cronologia della sessione corrente e quindi esegue i comandi nella cronologia combinata.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The first command uses the Import-Clixml cmdlet to import a command history that was exported to the History.xml file.</source>
+          <target state="translated">Il primo comando Usa il cmdlet Import-Clixml per importare una cronologia dei comandi che è stata esportata nel file History.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The pipeline operator (|) passes the commands to the <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> parameter, which adds the commands to the current session history.</source>
+          <target state="translated">L'operatore pipeline (|) passa i comandi per la <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> parametro, che aggiunge i comandi alla cronologia della sessione corrente.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The PassThru parameter passes the objects representing the added commands down the pipeline.</source>
+          <target state="translated">Il parametro PassThru passa gli oggetti che rappresentano i comandi aggiunti alla pipeline.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The command then uses the ForEach-Object cmdlet to apply the Invoke-History command to each of the commands in the combined history.</source>
+          <target state="translated">Il comando Usa quindi il cmdlet ForEach-Object per applicare il comando Invoke-History per ciascuno dei comandi nella cronologia combinata.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Invoke-History<ept id="p1">**</ept> command is formatted as a script block (enclosed in braces) as required by the <bpt id="p2">**</bpt>Process<ept id="p2">**</ept> parameter of the <bpt id="p3">**</bpt>ForEach-Object<ept id="p3">**</ept> cmdlet.</source>
+          <target state="translated">Il <bpt id="p1">**</bpt>Invoke-History<ept id="p1">**</ept> comando è formattato come un blocco di script (racchiuso tra parentesi graffe) come richiesto dal <bpt id="p2">**</bpt>processo<ept id="p2">**</ept> parametro il <bpt id="p3">**</bpt>ForEach-Object<ept id="p3">**</ept> cmdlet.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This command adds the first five commands in the history to the end of the history list.</source>
+          <target state="translated">Questo comando aggiunge i primi cinque comandi nella cronologia alla fine dell'elenco della cronologia.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>It uses the Get-History cmdlet to get the five commands ending in command 5.</source>
+          <target state="translated">Usa il cmdlet Get-History per ottenere i cinque comandi che terminano con il comando 5.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The pipeline operator (|) passes them to the <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> cmdlet, which appends them to the current history.</source>
+          <target state="translated">L'operatore pipeline (|) li passa al <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> cmdlet, che li aggiunge alla cronologia corrente.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> command does not include any parameters, but Windows PowerShell associates the objects passed through the pipeline with the <bpt id="p2">**</bpt>InputObject<ept id="p2">**</ept> parameter of <bpt id="p3">**</bpt> Add-History<ept id="p3">**</ept>.</source>
+          <target state="translated">Il <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> comando non include parametri, ma Windows PowerShell associa gli oggetti passati attraverso la pipeline con la <bpt id="p2">**</bpt>InputObject<ept id="p2">**</ept> parametro <bpt id="p3">**</bpt> Add-History<ept id="p3">**</ept>.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>These commands add the commands in the History.csv file to the current session history.</source>
+          <target state="translated">Questi comandi aggiungono i comandi nel file History.csv alla cronologia della sessione corrente.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The first command uses the Import-Csv cmdlet to import the commands in the History.csv file and store its contents in the variable $a.</source>
+          <target state="translated">Il primo comando Usa il cmdlet Import-Csv per importare i comandi nel file History csv e archiviare il relativo contenuto nella variabile $una.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> cmdlet to add the commands from History.csv to the current session history.</source>
+          <target state="translated">Il secondo comando Usa il <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> cmdlet per aggiungere i comandi da History alla cronologia della sessione corrente.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>InputObject<ept id="p1">**</ept> parameter to specify the $a variable and the <bpt id="p2">**</bpt>PassThru<ept id="p2">**</ept> parameter to generate an object to display at the command line.</source>
+          <target state="translated">Usa il <bpt id="p1">**</bpt>InputObject<ept id="p1">**</ept> parametro per specificare la variabile $a e <bpt id="p2">**</bpt>PassThru<ept id="p2">**</ept> parametro per generare un oggetto da visualizzare nella riga di comando.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Without the <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter, the <bpt id="p2">**</bpt>Add-History<ept id="p2">**</ept> cmdlet does not generate any output.</source>
+          <target state="translated">Senza il <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parametro, il <bpt id="p2">**</bpt>Add-History<ept id="p2">**</ept> cmdlet non genera alcun output.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This command adds the commands in the History01.xml file to the current session history.</source>
+          <target state="translated">Questo comando aggiunge i comandi nel file History01.xml alla cronologia della sessione corrente.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>InputObject<ept id="p1">**</ept> parameter to pass the results of the command in parentheses to the <bpt id="p2">**</bpt>Add-History<ept id="p2">**</ept> cmdlet.</source>
+          <target state="translated">Usa il <bpt id="p1">**</bpt>InputObject<ept id="p1">**</ept> parametro da passare i risultati del comando tra parentesi per il <bpt id="p2">**</bpt>Add-History<ept id="p2">**</ept> cmdlet.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The command in parentheses, which is executed first, imports the History01.xml file into Windows PowerShell.</source>
+          <target state="translated">Il comando tra parentesi, che viene eseguito per primo, importa il file History01.xml in Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> cmdlet then adds the commands in the file to the session history.</source>
+          <target state="translated">Il <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> cmdlet aggiunge quindi i comandi nel file di cronologia della sessione.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARAMETRI</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-InputObject</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Adds the specified HistoryInfo object to the session history.</source>
+          <target state="translated">Aggiunge l'oggetto HistoryInfo specificato alla cronologia della sessione.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You can use this parameter to submit a HistoryInfo object, such as the ones that are returned by the Get-History, Import-Clixml, or Import-Csv cmdlets, to <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept>.</source>
+          <target state="translated">È possibile utilizzare questo parametro per inviare un oggetto HistoryInfo, ad esempio quelli restituiti dal cmdlet Import-Csv, Get-History o Import-Clixml a <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>-Passthru</source>
+          <target state="translated">-Passthru</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Returns a history object for each history entry.</source>
+          <target state="translated">Restituisce un oggetto cronologia per ogni voce della cronologia.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>By default, this cmdlet does not generate any output.</source>
+          <target state="translated">Per impostazione predefinita, il cmdlet non genera alcun output.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Questo cmdlet supporta i parametri comuni:-eseguire il Debug, - ErrorAction, - ErrorVariable, - InformationAction, InformationVariable-, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction e - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Per ulteriori informazioni, vedere about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">INPUT</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Microsoft.PowerShell.Commands.HistoryInfo</source>
+          <target state="translated">Microsoft.PowerShell.Commands.HistoryInfo</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>You can pipe a HistoryInfo object to <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept>.</source>
+          <target state="translated">È possibile reindirizzare un oggetto HistoryInfo <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">OUTPUT</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>None or Microsoft.PowerShell.Commands.HistoryInfo</source>
+          <target state="translated">Nessuno o Microsoft.PowerShell.Commands.HistoryInfo</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>When you use the <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter, <bpt id="p2">**</bpt>Add-History<ept id="p2">**</ept> returns a HistoryInfo object.</source>
+          <target state="translated">Quando si utilizza il <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parametro <bpt id="p2">**</bpt>Add-History<ept id="p2">**</ept> restituisce un oggetto HistoryInfo.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Otherwise, this cmdlet does not generate any output.</source>
+          <target state="translated">In caso contrario, il cmdlet non genera alcun output.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTE</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The session history is a list of the commands entered during the session along with the ID.</source>
+          <target state="translated">La cronologia della sessione è un elenco dei comandi immessi durante la sessione insieme all'ID.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The session history represents the order of execution, the status, and the start and end times of the command.</source>
+          <target state="translated">Rappresenta l'ordine di esecuzione, lo stato e le ore di inizio e di fine del comando.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>As you enter each command, Windows PowerShell adds it to the history so that you can reuse it.</source>
+          <target state="translated">Ogni comando immesso viene aggiunto da Windows PowerShell alla cronologia in modo che sia possibile riusarlo.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>For more information about the session history, see about_History.</source>
+          <target state="translated">Per altre informazioni sulla cronologia della sessione, vedere about_History.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>To specify the commands to add to the history, use the <bpt id="p1">**</bpt>InputObject<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Per specificare i comandi da aggiungere alla cronologia, utilizzare il <bpt id="p1">**</bpt>InputObject<ept id="p1">**</ept> parametro.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> command accepts only <bpt id="p2">**</bpt>HistoryInfo<ept id="p2">**</ept> objects, such as those returned for each command by the Get-History cmdlet.</source>
+          <target state="translated">Il <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> comando accetta solo <bpt id="p2">**</bpt>HistoryInfo<ept id="p2">**</ept> oggetti, ad esempio quelli restituiti per ogni comando dal cmdlet Get-History.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>You cannot pass it a path and file name or a list of commands.</source>
+          <target state="translated">Non è possibile passare un percorso e un nome file o un elenco di comandi.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">**</bpt>InputObject<ept id="p1">**</ept> parameter to pass a file of HistoryInfo objects to <bpt id="p2">**</bpt>Add-History<ept id="p2">**</ept>.</source>
+          <target state="translated">È possibile utilizzare il <bpt id="p1">**</bpt>InputObject<ept id="p1">**</ept> per gli oggetti parametro per passare un file di HistoryInfo <bpt id="p2">**</bpt>Add-History<ept id="p2">**</ept>.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>To do so, export the results of a Get-History command to a file by using the Export-Csv or Export-Clixml cmdlet and then import the file by using the Import-Csv or Import-Clixml cmdlets.</source>
+          <target state="translated">A tale scopo, esportare i risultati di un comando Get-History in un file utilizzando i cmdlet Export-Clixml Export-Csv e quindi importare il file con l'importazione Csv o i cmdlet Import-Clixml.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>You can then pass the file of imported HistoryInfo objects to <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> through a pipeline or in a variable.</source>
+          <target state="translated">È quindi possibile passare il file di oggetti HistoryInfo importati <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> tramite una pipeline o in una variabile.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>For more information, see the examples.</source>
+          <target state="translated">Per altre informazioni, vedere gli esempi.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The file of HistoryInfo objects that you pass to the <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> cmdlet must include the type information, column headings, and all of the properties of the HistoryInfo objects.</source>
+          <target state="translated">Il file di oggetti HistoryInfo che viene passato per il <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> cmdlet deve includere le informazioni sul tipo, le intestazioni di colonna e tutte le proprietà degli oggetti HistoryInfo.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>If you intend to pass the objects back to <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept>, do not use the <bpt id="p2">**</bpt>NoTypeInformation<ept id="p2">**</ept> parameter of the Export-Csv cmdlet and do not delete the type information, column headings, or any fields in the file.</source>
+          <target state="translated">Se si intende passare gli oggetti al <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept>, non utilizzare il <bpt id="p2">**</bpt>NoTypeInformation<ept id="p2">**</ept> parametro del cmdlet Export-Csv e non eliminare le informazioni sul tipo, le intestazioni di colonna o tutti i campi nel file.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>To edit the session history, export the session to a CSV or XML file, edit the file, import the file, and use <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> to append it to the current session history.</source>
+          <target state="translated">Per modificare la cronologia della sessione, esportare la sessione in un file CSV o XML, modificare il file, importare il file e utilizzare <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> per aggiungerlo alla cronologia della sessione corrente.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">COLLEGAMENTI CORRELATI</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Clear-History</source>
+          <target state="translated">Clear-History</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Get-History</source>
+          <target state="translated">Get-History</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Invoke-History</source>
+          <target state="translated">Invoke-History</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>about_History</source>
+          <target state="translated">about_History</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">489c00e652abec680ac0d53b7796ff968527bb9c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Core\Start-Job.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e7a5d0f4111abd47b6e560415f9e9814efa4a682</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">791b299ff2f1cc5b7aa61315d62c662b2c141f3f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Start-Job</source>
+          <target state="translated">시작 작업</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Start-Job</source>
+          <target state="translated">시작 작업</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">요약</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Starts a Windows PowerShell background job.</source>
+          <target state="translated">Windows PowerShell 백그라운드 작업을 시작합니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">구문</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>ComputerName (Default)</source>
+          <target state="translated">컴퓨터 이름 (기본값)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>DefinitionName</source>
+          <target state="translated">DefinitionName</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>LiteralFilePathComputerName</source>
+          <target state="translated">LiteralFilePathComputerName</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>FilePathComputerName</source>
+          <target state="translated">FilePathComputerName</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">설명</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> cmdlet starts a Windows PowerShell background job on the local computer.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Start-job<ept id="p1">**</ept> cmdlet는 로컬 컴퓨터에 Windows PowerShell 백그라운드 작업을 시작 합니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A Windows PowerShell background job runs a command "in the background" without interacting with the current session.</source>
+          <target state="translated">Windows PowerShell 백그라운드 작업은 현재 세션과 상호 작용하지 않고 "백그라운드에서" 명령을 실행합니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>When you start a background job, a job object is returned immediately, even if the job takes an extended time to complete.</source>
+          <target state="translated">백그라운드 작업을 시작하면 작업이 완료되는 데 시간이 오래 걸리는 경우에도 작업 개체가 즉시 반환됩니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can continue to work in the session without interruption while the job runs.</source>
+          <target state="translated">작업이 실행되는 동안 중단 없이 세션에서 작업을 계속할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The job object contains useful information about the job, but it does not contain the job results.</source>
+          <target state="translated">작업 개체에는 작업에 대한 유용한 정보가 포함되어 있지만 작업 결과는 포함되어 있지 않습니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>When the job completes, use the Receive-Job cmdlet to get the results of the job.</source>
+          <target state="translated">작업이 완료 되 면 Receive-job cmdlet을 사용 하 여 작업의 결과를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For more information about background jobs, see about_Jobs.</source>
+          <target state="translated">백그라운드 작업에 대한 자세한 내용은 about_Jobs를 참조하세요.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To run a background job on a remote computer, use the AsJob parameter that is available on many cmdlets, or use the Invoke-Command cmdlet to run a <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> command on the remote computer.</source>
+          <target state="translated">원격 컴퓨터에서 백그라운드 작업을 실행 하려면 많은 cmdlet에서 사용할 수 있는 AsJob 매개 변수를 사용 하거나 Invoke-command cmdlet을 사용 하 여 실행 하는 <bpt id="p1">**</bpt>Start-job<ept id="p1">**</ept> 원격 컴퓨터에서 명령입니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Remote_Jobs.</source>
+          <target state="translated">자세한 내용은 about_Remote_Jobs를 참조하세요.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> can start instances of custom job types, such as scheduled jobs.</source>
+          <target state="translated">Windows PowerShell 3.0 부터는 <bpt id="p1">**</bpt>Start-job<ept id="p1">**</ept> 예약 된 작업과 같이 사용자 지정 작업 유형의 인스턴스를 시작할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For information about using <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> to start jobs with custom types, see the help topics for the job type feature.</source>
+          <target state="translated">사용 하 여에 대 한 내용은 <bpt id="p1">**</bpt>Start-job<ept id="p1">**</ept> 사용자 지정 형식으로 작업을 시작 하려면 작업 유형 기능에 대 한 도움말 항목을 참조 합니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">예제</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 예제 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This command starts a background job that runs a Get-Process command.</source>
+          <target state="translated">이 명령은 Get-Process 명령을 실행하는 백그라운드 작업을 시작하고,</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The command returns a job object with information about the job.</source>
+          <target state="translated">작업에 대한 정보가 포함된 작업 개체를 반환합니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The command prompt returns immediately so that you can work in the session while the job runs in the background.</source>
+          <target state="translated">작업이 백그라운드에서 실행되는 동안 세션에서 작업할 수 있도록 명령 프롬프트가 즉시 반환됩니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This command uses the Invoke-Command cmdlet and its AsJob parameter to start a background job that runs a "get-service winrm" command on numerous computers.</source>
+          <target state="translated">이 명령은 Invoke-Command cmdlet과 AsJob 매개 변수를 사용하여 많은 컴퓨터에서 "get-service winrm" 명령을 실행하는 백그라운드 작업을 시작합니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Because the command is running on a server with substantial network traffic, the command uses the ThrottleLimit parameter of Invoke-Command to limit the number of concurrent commands to 16.</source>
+          <target state="translated">이 명령은 네트워크 트래픽이 많은 서버에서 실행되기 때문에 Invoke-Command의 ThrottleLimit 매개 변수를 사용하여 동시 명령 수를 16으로 제한합니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The command uses the ComputerName parameter to specify the computers on which the job runs.</source>
+          <target state="translated">이 명령은 ComputerName 매개 변수를 사용하여 작업이 실행되는 컴퓨터를 지정합니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The value of the ComputerName parameter is a Get-Content command that gets the text in the Servers.txt file, a file of computer names in a domain.</source>
+          <target state="translated">ComputerName 매개 변수 값은 도메인의 컴퓨터 이름 파일인 Servers.txt 파일에서 텍스트를 가져오는 Get-Content 명령입니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The command uses the ScriptBlock parameter to specify the command and the JobName parameter to specify a friendly name for the job.</source>
+          <target state="translated">이 명령은 ScriptBlock 매개 변수를 사용하여 명령을 지정하고 JobName 매개 변수를 사용하여 작업의 이름을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>These commands manage a background job that gets all of the events from the System log in Event Viewer.</source>
+          <target state="translated">이들 명령은 이벤트 뷰어의 시스템 로그에서 모든 이벤트를 가져오는 백그라운드 작업을 관리합니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The job runs on the local computer.</source>
+          <target state="translated">작업은 로컬 컴퓨터에서 실행됩니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> cmdlet to start the job.</source>
+          <target state="translated">첫 번째 명령은 <bpt id="p1">**</bpt>Start-job<ept id="p1">**</ept> cmdlet은 작업을 시작 합니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>It uses the Credential parameter to specify the user account of a user who has permission to run the job on the computer.</source>
+          <target state="translated">이 명령은 Credential 매개 변수를 사용하여 컴퓨터에서 작업을 실행할 수 있는 권한을 가진 사용자의 사용자 계정을 지정한 다음</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Then it saves the job object that <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> returns in the $j variable.</source>
+          <target state="translated">작업 개체를 저장 한 다음 <bpt id="p1">**</bpt>Start-job<ept id="p1">**</ept> $j 변수에 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>At this point, you can resume your other work while the job completes.</source>
+          <target state="translated">이 시점에서 작업이 완료되는 동안 다른 작업을 다시 시작할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The second command uses a pipeline operator (|) to pass the job object in $j to the Format-List cmdlet.</source>
+          <target state="translated">두 번째 명령은 파이프라인 연산자(|)를 사용하여 $j의 작업 개체를 Format-List cmdlet으로 전달합니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The Format-List command uses the Property parameter with a value of all (*) to display all of the properties of the job object in a list.</source>
+          <target state="translated">Format-List 명령은 모든 것을 나타내는 * 값과 함께 Property 매개 변수를 사용하여 작업 개체의 모든 속성을 목록으로 표시합니다.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The third command displays the value of the JobStateInfo property.</source>
+          <target state="translated">세 번째 명령은 JobStateInfo 속성의 값을 표시합니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This contains the status of the job.</source>
+          <target state="translated">이 속성에는 작업의 상태가 포함되어 있습니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The fourth command uses the Receive-Job cmdlet to get the results of the job.</source>
+          <target state="translated">네 번째 명령은 Receive-Job cmdlet을 사용하여 작업의 결과를 가져온 다음</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>It stores the results in the $results variable.</source>
+          <target state="translated">$results 변수에 저장합니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The final command displays the contents of the $results variable.</source>
+          <target state="translated">마지막 명령은 $results 변수의 내용을 표시합니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This command runs the Sample.ps1 script as a background job.</source>
+          <target state="translated">이 명령은 Sample.ps1 스크립트를 백그라운드 작업으로 실행합니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This command runs a background job that gets the WinRM process on the local computer.</source>
+          <target state="translated">이 명령은 로컬 컴퓨터에서 WinRM 프로세스를 가져오는 백그라운드 작업을 실행합니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The command uses the ScriptBlock parameter to specify the command that runs in the background job.</source>
+          <target state="translated">이 명령은 ScriptBlock 매개 변수를 사용하여 백그라운드 작업에서 실행되는 명령을 지정하고</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>It uses the Name parameter to specify a friendly name for the new job.</source>
+          <target state="translated">Name 매개 변수를 사용하여 새 작업의 이름을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 6 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 6 --------------------------</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This command starts a job that collects a large amount of data and saves it in a .tif file.</source>
+          <target state="translated">이 명령은 많은 양의 데이터를 수집하여 .tif 파일에 저장하는 작업을 시작합니다.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The command uses the InitializationScript parameter to run a script block that imports a required module.</source>
+          <target state="translated">또한 InitializationScript 매개 변수를 사용하여 필요한 모듈을 가져오는 스크립트 블록을 실행합니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>It also uses the RunAs32 parameter to run the job in a 32-bit process even if the computer has a 64-bit operating system.</source>
+          <target state="translated">이 명령은 컴퓨터에 64비트 운영 체제가 있어도 RunAs32 매개 변수를 사용하여 32비트 프로세스로 작업을 실행합니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">매개 변수</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>-ArgumentList</source>
+          <target state="translated">-ArgumentList</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Specifies the arguments (parameter values) for the script that is specified by the <bpt id="p1">**</bpt>FilePath<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">지정 된 스크립트에 대 한 인수 (매개 변수 값)을 지정 합니다.는 <bpt id="p1">**</bpt>FilePath<ept id="p1">**</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Because all of the values that follow the ArgumentList parameter name are interpreted as being values of ArgumentList, the ArgumentList parameter should be the last parameter in the command.</source>
+          <target state="translated">ArgumentList 매개 변수 이름 뒤의 모든 값이 ArgumentList의 값으로 해석되기 때문에 ArgumentList 매개 변수는 명령에서 마지막 매개 변수여야 합니다.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>-Authentication</source>
+          <target state="translated">-인증</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Specifies the mechanism that is used to authenticate the user's credentials.</source>
+          <target state="translated">사용자 자격 증명을 인증하는 데 사용되는 메커니즘을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Valid values are <bpt id="p1">**</bpt>Default<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Basic<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Credssp<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Digest<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Kerberos<ept id="p5">**</ept>, <bpt id="p6">**</bpt>Negotiate<ept id="p6">**</ept>, and <bpt id="p7">**</bpt>NegotiateWithImplicitCredential<ept id="p7">**</ept>.</source>
+          <target state="translated">유효한 값은 <bpt id="p1">**</bpt>기본<ept id="p1">**</ept>, <bpt id="p2">**</bpt>기본<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Credssp<ept id="p3">**</ept>, <bpt id="p4">**</bpt>다이제스트<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Kerberos<ept id="p5">**</ept>, <bpt id="p6">**</bpt>협상<ept id="p6">**</ept>, 및 <bpt id="p7">**</bpt>NegotiateWithImplicitCredential<ept id="p7">**</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">**</bpt>Default<ept id="p1">**</ept>.</source>
+          <target state="translated">기본값은 <bpt id="p1">**</bpt>기본<ept id="p1">**</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>CredSSP authentication is available only in Windows Vista, Windows Server 2008, and later versions of Windows.</source>
+          <target state="translated">CredSSP 인증은 Windows Vista 및 Windows Server 2008 이상에서만 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>For information about the values of this parameter, see the description of the System.Management.Automation.Runspaces.AuthenticationMechanism enumeration in MSDN.</source>
+          <target state="translated">이 매개 변수 값에 대한 자세한 내용은 MSDN의 System.Management.Automation.Runspaces.AuthenticationMechanism 열거형에 대한 설명을 참조하세요.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>CAUTION: Credential Security Support Provider (CredSSP) authentication, in which the user's credentials are passed to a remote computer to be authenticated, is designed for commands that require authentication on more than one resource, such as accessing a remote network share.</source>
+          <target state="translated">주의: 자격 증명 보안 지원 공급자 (CredSSP) 인증을 인증 하 고 원격 컴퓨터로 전달 되는 사용자의 자격 증명은 원격 네트워크 공유에 액세스 하는 둘 이상의 리소스에 인증을 요구 하는 명령을 위해 설계 되었습니다.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>This mechanism increases the security risk of the remote operation.</source>
+          <target state="translated">이렇게 하면 원격 작업의 보안 위험이 커집니다.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>If the remote computer is compromised, the credentials that are passed to it can be used to control the network session.</source>
+          <target state="translated">원격 컴퓨터가 손상된 경우 이 컴퓨터로 전달된 자격 증명을 사용하여 네트워크 세션을 제어할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>-Credential</source>
+          <target state="translated">-Credential</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Specifies a user account that has permission to perform this action.</source>
+          <target state="translated">이 작업을 수행할 권한이 있는 사용자 계정을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The default is the current user.</source>
+          <target state="translated">기본값은 현재 사용자입니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Type a user name, such as "User01" or "Domain01\User01", or enter a PSCredential object, such as one from the Get-Credential cmdlet.</source>
+          <target state="translated">"User01" 또는 "Domain01\User01"과 같은 사용자 이름을 입력하거나 Get-Credential cmdlet에 의해 생성된 것과 같은 PSCredential 개체를 입력합니다.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>-FilePath</source>
+          <target state="translated">-파일 경로</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Runs the specified local script as a background job.</source>
+          <target state="translated">지정된 로컬 스크립트를 백그라운드 작업으로 실행합니다.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Enter the path and file name of the script or pipe a script path to <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept>.</source>
+          <target state="translated">스크립트의 경로 파일 이름을 입력 하거나 스크립트 경로를 사용 하는 파이프 <bpt id="p1">**</bpt>Start-job<ept id="p1">**</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The script must reside on the local computer or in a directory that the local computer can access.</source>
+          <target state="translated">스크립트는 로컬 컴퓨터나 로컬 컴퓨터에서 액세스할 수 있는 디렉터리에 있어야 합니다.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>When you use this parameter, Windows PowerShell converts the contents of the specified script file to a script block and runs the script block as a background job.</source>
+          <target state="translated">이 매개 변수를 사용하는 경우 Windows PowerShell은 지정된 스크립트 파일의 내용을 스크립트 블록으로 변환하고 스크립트 블록을 백그라운드 작업으로 실행합니다.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>-InitializationScript</source>
+          <target state="translated">-또한 InitializationScript</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Specifies commands that run before the job starts.</source>
+          <target state="translated">작업을 시작하기 전에 실행되는 명령을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Enclose the commands in braces ( { } ) to create a script block.</source>
+          <target state="translated">명령을 중괄호( { } )로 묶어 스크립트 블록을 만드세요.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Use this parameter to prepare the session in which the job runs.</source>
+          <target state="translated">이 매개 변수를 사용하여 작업이 실행되는 세션을 준비할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>For example, you can use it to add functions, snap-ins, and modules to the session.</source>
+          <target state="translated">예를 들어 이 매개 변수를 사용하여 함수, 스냅인 및 모듈을 세션에 추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-InputObject</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Specifies input to the command.</source>
+          <target state="translated">명령에 대한 입력을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the objects, or type a command or expression that generates the objects.</source>
+          <target state="translated">개체가 포함된 변수를 입력하거나 개체를 생성하는 명령 또는 식을 입력하세요.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>In the value of the <bpt id="p1">**</bpt>ScriptBlock<ept id="p1">**</ept> parameter, use the $input automatic variable to represent the input objects.</source>
+          <target state="translated">값에는 <bpt id="p1">**</bpt>ScriptBlock<ept id="p1">**</ept> 매개 변수를 입력된 개체를 나타내는 자동 변수는 $input 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>-LiteralPath</source>
+          <target state="translated">-LiteralPath</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Runs the specified local script as a background job.</source>
+          <target state="translated">지정된 로컬 스크립트를 백그라운드 작업으로 실행합니다.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Enter the path to a script on the local computer.</source>
+          <target state="translated">로컬 컴퓨터에서 스크립트의 경로를 입력합니다.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Unlike the <bpt id="p1">**</bpt>FilePath<ept id="p1">**</ept> parameter, the value of <bpt id="p2">**</bpt>LiteralPath<ept id="p2">**</ept> is used exactly as it is typed.</source>
+          <target state="translated">와 달리는 <bpt id="p1">**</bpt>FilePath<ept id="p1">**</ept> 매개 변수 값, <bpt id="p2">**</bpt>LiteralPath<ept id="p2">**</ept> 은 입력 한 대로 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>No characters are interpreted as wildcards.</source>
+          <target state="translated">어떠한 문자도 와일드카드로 해석되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>If the path includes escape characters, enclose it in single quotation marks.</source>
+          <target state="translated">이스케이프 문자가 포함된 경로는 작은따옴표로 묶으세요.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Single quotation marks tell Windows PowerShell not to interpret any characters as escape sequences.</source>
+          <target state="translated">작은따옴표는 Windows PowerShell이 어떤 문자도 이스케이프 시퀀스로 해석하지 않도록 지시합니다.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Specifies a friendly name for the new job.</source>
+          <target state="translated">새 작업의 이름을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>You can use the name to identify the job to other job cmdlets, such as Stop-Job.</source>
+          <target state="translated">중지 작업 등의 다른 작업 cmdlet 작업 하 게 식별 이름을 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The default friendly name is Job#, where "#" is an ordinal number that is incremented for each job.</source>
+          <target state="translated">기본 이름은 Job#입니다. 여기서 "#"은 작업마다 증가하는 서수입니다.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>-PSVersion</source>
+          <target state="translated">-PSVersion</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Runs the job with the specified version of Windows PowerShell.</source>
+          <target state="translated">지정된 버전의 Windows PowerShell에서 작업을 실행합니다.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Valid values are 2.0 and 3.0.</source>
+          <target state="translated">유효한 값은 2.0 및 3.0입니다.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">이 매개 변수는 Windows PowerShell 3.0에서 도입되었습니다.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>-RunAs32</source>
+          <target state="translated">-RunAs32</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Runs the job in a 32-bit process.</source>
+          <target state="translated">32비트 프로세스로 작업을 실행합니다.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Use this parameter to force the job to run in a 32-bit process on a 64-bit operating system.</source>
+          <target state="translated">이 매개 변수를 사용하여 64비트 운영 체제에서 32비트 프로세스로 작업이 실행되도록 강제할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>NOTE: On 64-bit versions of Windows 7 and Windows Server 2008 R2, when the <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> command includes the <bpt id="p2">**</bpt>RunAs32<ept id="p2">**</ept> parameter, you cannot use the <bpt id="p3">**</bpt>Credential<ept id="p3">**</ept> parameter to specify the credentials of another user.</source>
+          <target state="translated">참고: 64 비트 버전의 Windows 7 및 Windows Server 2008 r 2에서 때는 <bpt id="p1">**</bpt>Start-job<ept id="p1">**</ept> 명령에 포함 되어는 <bpt id="p2">**</bpt>RunAs32<ept id="p2">**</ept> 사용할 수 없는 매개 변수는 <bpt id="p3">**</bpt>자격 증명<ept id="p3">**</ept> 매개 변수를 다른 사용자의 자격 증명을 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>-ScriptBlock</source>
+          <target state="translated">-ScriptBlock</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Specifies the commands to run in the background job.</source>
+          <target state="translated">백그라운드 작업에서 실행할 명령을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Enclose the commands in braces ( { } ) to create a script block.</source>
+          <target state="translated">명령을 중괄호( { } )로 묶어 스크립트 블록을 만드세요.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>This parameter is required.</source>
+          <target state="translated">이 매개 변수는 필수입니다.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>-DefinitionName</source>
+          <target state="translated">-DefinitionName</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Starts the job with the specified job definition name.</source>
+          <target state="translated">지정된 작업 정의 이름으로 작업을 시작합니다.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Use this parameter to start custom job types that have a definition name, such as scheduled jobs.</source>
+          <target state="translated">이 매개 변수를 사용하여 예약된 작업과 같이 정의 이름이 있는 사용자 지정 작업 유형을 시작합니다.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>When you use <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> to start an instance of a scheduled job, the job starts immediately, regardless of job triggers or job options.</source>
+          <target state="translated">사용 하는 경우 <bpt id="p1">**</bpt>Start-job<ept id="p1">**</ept> 예약된 된 작업의 인스턴스를 시작 하는 작업이 바로 시작 작업 트리거나 작업 옵션과 관계 없이 합니다.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The resulting job instance is a scheduled job, but it is not saved to disk like triggered scheduled jobs.</source>
+          <target state="translated">결과 작업 인스턴스는 예약된 작업이지만 트리거된 예약된 작업처럼 디스크에 저장되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Also, you cannot use the <bpt id="p1">**</bpt>ArgumentList<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Start-Job<ept id="p2">**</ept> to provide values for parameters of scripts that run in a scheduled job.</source>
+          <target state="translated">또한 사용할 수 없습니다는 <bpt id="p1">**</bpt>ArgumentList<ept id="p1">**</ept> 의 매개 변수 <bpt id="p2">**</bpt>Start-job<ept id="p2">**</ept> 에 예약된 된 작업에서 실행 되는 스크립트의 매개 변수 값을 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Scheduled_Jobs.</source>
+          <target state="translated">자세한 내용은 about_Scheduled_Jobs를 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">이 매개 변수는 Windows PowerShell 3.0에서 도입되었습니다.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>-DefinitionPath</source>
+          <target state="translated">-DefinitionPath</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Starts the job at the specified path location.</source>
+          <target state="translated">지정된 경로 위치에서 작업을 시작합니다.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Enter the definition path.</source>
+          <target state="translated">정의 경로를 입력합니다.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The concatenation of the values of the <bpt id="p1">**</bpt>DefinitionPath<ept id="p1">**</ept> and <bpt id="p2">**</bpt>DefinitionName<ept id="p2">**</ept> parameters should be the fully-qualified path to the job definition.</source>
+          <target state="translated">값을 연결한은 <bpt id="p1">**</bpt>DefinitionPath<ept id="p1">**</ept> 및 <bpt id="p2">**</bpt>DefinitionName<ept id="p2">**</ept> 매개 변수는 작업 정의 정규화 된 경로 여야 합니다.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Use this parameter to start custom job types that have a definition path, such as scheduled jobs.</source>
+          <target state="translated">이 매개 변수를 사용하여 예약된 작업과 같이 정의 경로가 있는 사용자 지정 작업 유형을 시작합니다.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>For scheduled jobs, the value of the <bpt id="p1">**</bpt>DefinitionPath<ept id="p1">**</ept> parameter is "$home\AppData\Local\Windows\PowerShell\ScheduledJob".</source>
+          <target state="translated">예약 된 작업의 값은 <bpt id="p1">**</bpt>DefinitionPath<ept id="p1">**</ept> 매개 변수는 "$home\AppData\Local\Windows\PowerShell\ScheduledJob"입니다.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">이 매개 변수는 Windows PowerShell 3.0에서 도입되었습니다.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>-Type</source>
+          <target state="translated">형식</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Starts only jobs of the specified custom type.</source>
+          <target state="translated">지정된 사용자 지정 유형의 작업만 시작합니다.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Enter a custom job type name, such as PSScheduledJob for scheduled jobs or PSWorkflowJob for workflows jobs.</source>
+          <target state="translated">사용자 지정 작업 유형 이름(예: 예약된 작업의 경우 PSScheduledJob 또는 워크플로 작업의 경우 PSWorkflowJob)을 입력합니다.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>This parameter is not valid for standard background jobs.</source>
+          <target state="translated">표준 백그라운드 작업에는 이 매개 변수가 유효하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">이 매개 변수는 Windows PowerShell 3.0에서 도입되었습니다.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">이 cmdlet은 공통 매개 변수:-디버그,-ErrorAction,-ErrorVariable,-InformationAction,-InformationVariable,-OutVariable,-OutBuffer,-PipelineVariable,-Verbose,-WarningAction 및-warningvariable을 지원 합니다.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">자세한 내용은 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)를 참조 합니다.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">입력</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>System.String</source>
+          <target state="translated">System.String</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>You can pipe an object with the Name property to the Name parameter.</source>
+          <target state="translated">Name 속성이 있는 개체를 Name 매개 변수로 파이프할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>For example, you can pipe a FileInfo object from Get-ChildItem to <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept>.</source>
+          <target state="translated">예를 들어 Get-childitem에서 FileInfo 개체를 파이프할 수 있습니다 <bpt id="p1">**</bpt>Start-job<ept id="p1">**</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">출력</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSRemotingJob</source>
+          <target state="translated">System.Management.Automation.PSRemotingJob</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> returns an object that represents the job that it started.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Start-job<ept id="p1">**</ept> 시작 된 작업을 나타내는 개체를 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">참고 사항</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>To run in the background, <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> runs in its own session within the current session.</source>
+          <target state="translated">백그라운드에서 실행 하려면 <bpt id="p1">**</bpt>Start-job<ept id="p1">**</ept> 현재 세션 내의 자체 세션에서 실행 합니다.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>When you use the Invoke-Command cmdlet to run a <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> command in a session on a remote computer, <bpt id="p2">**</bpt>Start-Job<ept id="p2">**</ept> runs in a session within the remote session.</source>
+          <target state="translated">실행 하려면 Invoke-command cmdlet을 사용 하면 한 <bpt id="p1">**</bpt>Start-job<ept id="p1">**</ept> 원격 컴퓨터에서 세션에서 명령을 <bpt id="p2">**</bpt>Start-job<ept id="p2">**</ept> 원격 세션 내에서 세션에서 실행 합니다.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">관련된 링크</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Get-Job</source>
+          <target state="translated">Get 작업</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Invoke-Command</source>
+          <target state="translated">Invoke-Command</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Receive-Job</source>
+          <target state="translated">수신 작업</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Remove-Job</source>
+          <target state="translated">제거 작업</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Resume-Job</source>
+          <target state="translated">Resume-Job</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Start-Job</source>
+          <target state="translated">시작 작업</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Stop-Job</source>
+          <target state="translated">중지 작업</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Suspend-Job</source>
+          <target state="translated">Suspend-Job</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Wait-Job</source>
+          <target state="translated">대기 작업</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>about_Job_Details</source>
+          <target state="translated">about_Job_Details</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>about_Remote_Jobs</source>
+          <target state="translated">about_Remote_Jobs</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>about_Jobs</source>
+          <target state="translated">about_Jobs</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

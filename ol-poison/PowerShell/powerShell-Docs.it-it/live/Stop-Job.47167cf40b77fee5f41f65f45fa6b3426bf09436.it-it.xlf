@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6942e6e3114265f9a01826ef5a973cf115a15045</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\Stop-Job.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">954e826f7160dd4b9a3bb22c632e00034a5c2433</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b21b9d5613bfbd675d62456be8d22faea54b9160</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">cmdlet PowerShell</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Stop-Job</source>
+          <target state="translated">Processo di interruzione</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Stop-Job</source>
+          <target state="translated">Processo di interruzione</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">RIEPILOGO</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Stops a Windows PowerShell background job.</source>
+          <target state="translated">Arresta un processo in background di Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SINTASSI</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>SessionIdParameterSet (Default)</source>
+          <target state="translated">SessionIdParameterSet (impostazione predefinita)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>JobParameterSet</source>
+          <target state="translated">JobParameterSet</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>NameParameterSet</source>
+          <target state="translated">NameParameterSet</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>InstanceIdParameterSet</source>
+          <target state="translated">InstanceIdParameterSet</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>StateParameterSet</source>
+          <target state="translated">StateParameterSet</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>FilterParameterSet</source>
+          <target state="translated">FilterParameterSet</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">DESCRIZIONE</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Stop-Job<ept id="p1">**</ept> cmdlet stops Windows PowerShell background jobs that are in progress.</source>
+          <target state="translated">Il <bpt id="p1">**</bpt>Stop-Job<ept id="p1">**</ept> cmdlet arresta i processi in background di Windows PowerShell in corso.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can use this cmdlet to stop all jobs or stop selected jobs based on their name, ID, instance ID, or state, or by passing a job object to <bpt id="p1">**</bpt>Stop-Job<ept id="p1">**</ept>.</source>
+          <target state="translated">È possibile utilizzare questo cmdlet per arrestare tutti i processi o arrestare i processi selezionati in base al loro nome, ID, ID istanza o stato oppure passando un oggetto processo a <bpt id="p1">**</bpt>Stop-Job<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can use <bpt id="p1">**</bpt>Stop-Job<ept id="p1">**</ept> to stop background jobs, such as those that were started by using the Start-Job cmdlet or the <bpt id="p2">*</bpt>AsJob<ept id="p2">*</ept> parameter of any cmdlet.</source>
+          <target state="translated">È possibile utilizzare <bpt id="p1">**</bpt>Stop-Job<ept id="p1">**</ept> per arrestare i processi in background, ad esempio quelli che sono stati avviati utilizzando il cmdlet Start-Job o <bpt id="p2">*</bpt>AsJob<ept id="p2">*</ept> parametro di qualsiasi cmdlet.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>When you stop a background job, Windows PowerShell completes all tasks that are pending in that job queue and then ends the job.</source>
+          <target state="translated">Quando si arresta un processo in background, Windows PowerShell completa tutte le attività in sospeso nella coda processi e quindi termina il processo.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>No new tasks are added to the queue after this command is submitted.</source>
+          <target state="translated">Dopo l'invio di questo comando non vengono aggiunte nuove attività alla coda.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This cmdlet does not delete background jobs.</source>
+          <target state="translated">Questo cmdlet non elimina i processi in background.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To delete a job, use the Remove-Job cmdlet.</source>
+          <target state="translated">Per eliminare un processo, utilizzare il cmdlet Remove-Job.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Starting in Windows PowerShell 3.0, <bpt id="p1">**</bpt>Stop-Job<ept id="p1">**</ept> also stops custom job types, such as workflow jobs and instances of scheduled jobs.</source>
+          <target state="translated">A partire da Windows PowerShell 3.0, <bpt id="p1">**</bpt>Stop-Job<ept id="p1">**</ept> Arresta anche i tipi di processo personalizzati, ad esempio processi del flusso di lavoro e le istanze dei processi pianificati.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To enable <bpt id="p1">**</bpt>Stop-Job<ept id="p1">**</ept> to stop a job with custom job type, import the module that supports the custom job type into the session before you run a <bpt id="p2">**</bpt>Stop-Job<ept id="p2">**</ept> command, either by using the Import-Module cmdlet or by using or getting a cmdlet in the module.</source>
+          <target state="translated">Per abilitare <bpt id="p1">**</bpt>Stop-Job<ept id="p1">**</ept> per arrestare un processo con tipo di processo personalizzato, importare il modulo che supporta il tipo di processo personalizzati nella sessione prima di eseguire un <bpt id="p2">**</bpt>Stop-Job<ept id="p2">**</ept> comando utilizzando il cmdlet Import-Module oppure usando o ottenendo un cmdlet nel modulo.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For information about a particular custom job type, see the documentation of the custom job type feature.</source>
+          <target state="translated">Per informazioni su un tipo di processo personalizzato particolare, vedere la documentazione relativa alla funzionalità del tipo di processo personalizzato.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">ESEMPI</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Example 1: Stop a job on a remote computer by using Invoke-Command</source>
+          <target state="translated">Esempio 1: Arrestare un processo in un computer remoto utilizzando Invoke-Command</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the <bpt id="p1">**</bpt>Stop-Job<ept id="p1">**</ept> cmdlet to stop a job that is running on a remote computer.</source>
+          <target state="translated">In questo esempio viene illustrato come utilizzare il <bpt id="p1">**</bpt>Stop-Job<ept id="p1">**</ept> cmdlet per arrestare un processo in esecuzione su un computer remoto.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Because the job was started by using the Invoke-Command cmdlet to run a <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> command remotely, the job object is stored on the remote computer.</source>
+          <target state="translated">Perché il processo è stato avviato utilizzando il cmdlet Invoke-Command per eseguire un <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> comando in modalità remota, l'oggetto processo viene archiviato nel computer remoto.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You must use another <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> command to run a <bpt id="p2">**</bpt>Stop-Job<ept id="p2">**</ept> command remotely.</source>
+          <target state="translated">È necessario utilizzare un altro <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> comando per eseguire un <bpt id="p2">**</bpt>Stop-Job<ept id="p2">**</ept> in remoto.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For more information about remote background jobs, see about_Remote_Jobs.</source>
+          <target state="translated">Per altre informazioni sui processi remoti in background, vedere about_Remote_Jobs.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The first command creates a Windows PowerShell session (<bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept>) on the Server01 computer, and then stores the session object in the $s variable.</source>
+          <target state="translated">Il primo comando crea una sessione di Windows PowerShell (<bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept>) nel computer Server01, quindi archiviare la sessione dell'oggetto nella variabile $s.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The command uses the credentials of a domain administrator.</source>
+          <target state="translated">Il comando usa le credenziali di un amministratore di dominio.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> cmdlet to run a <bpt id="p2">**</bpt>Start-Job<ept id="p2">**</ept> command in the session.</source>
+          <target state="translated">Il secondo comando Usa il <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> per eseguire un <bpt id="p2">**</bpt>Start-Job<ept id="p2">**</ept> comando nella sessione.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The command in the job gets all of the events in the System event log.</source>
+          <target state="translated">Il comando nel processo ottiene tutti gli eventi nel registro eventi di sistema.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The resulting job object is stored in the $j variable.</source>
+          <target state="translated">L'oggetto processo risultante viene archiviato nella variabile $j.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The third command stops the job.</source>
+          <target state="translated">Il terzo comando arresta il processo.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> cmdlet to run a <bpt id="p2">**</bpt>Stop-Job<ept id="p2">**</ept> command in the <bpt id="p3">**</bpt>PSSession<ept id="p3">**</ept> on Server01.</source>
+          <target state="translated">Usa il <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> per eseguire un <bpt id="p2">**</bpt>Stop-Job<ept id="p2">**</ept> comando il <bpt id="p3">**</bpt>PSSession<ept id="p3">**</ept> su Server01.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Because the job objects are stored in $j, which is a variable on the local computer, the command uses the Using scope modifier to identify $j as a local variable.</source>
+          <target state="translated">Dato che gli oggetti processo sono archiviati in $j, che è una variabile nel computer locale, il comando usa il modificatore di ambito Using per identificare $j come variabile locale.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For more information about the Using scope modifier, see about_Remote_Variables (http://go.microsoft.com/fwlink/?LinkID=252653).</source>
+          <target state="translated">Per ulteriori informazioni sul modificatore di ambito Using, vedere about_Remote_Variables (http://go.microsoft.com/fwlink/?LinkID=252653).</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>When the command finishes, the job is stopped and the <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> in $s is available for use.</source>
+          <target state="translated">Quando il comando termina, il processo viene arrestato e <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> in $s è disponibile per l'utilizzo.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Example 2: Stop a background job</source>
+          <target state="translated">Esempio 2: Interrompere un processo in background</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This command stops the Job1 background job.</source>
+          <target state="translated">Questo comando arresta il processo in background Job1.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Example 3: Stop several background jobs</source>
+          <target state="translated">Esempio 3: Arrestare più processi in background</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This command stops three jobs.</source>
+          <target state="translated">Questo comando arresta tre processi.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>It identifies them by their IDs.</source>
+          <target state="translated">Sono identificati mediante i relativi ID.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Example 4: Stop all background jobs</source>
+          <target state="translated">Esempio 4: Interrompere tutti i processi in background</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This command stops all of the background jobs in the current session.</source>
+          <target state="translated">Questo comando arresta tutti i processi in background nella sessione corrente.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Example 5: Stop all blocked background jobs</source>
+          <target state="translated">Esempio 5: Interrompere tutti i processi in background bloccato</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This command stops all the jobs that are blocked.</source>
+          <target state="translated">Questo comando arresta tutti i processi bloccati.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Example 6: Stop a job by using an instance ID</source>
+          <target state="translated">Esempio 6: Arrestare un processo utilizzando un ID di istanza</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>These commands show how to stop a job based on its instance ID.</source>
+          <target state="translated">Questi comandi mostrano come arrestare un processo in base al relativo ID istanza.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The first command uses the Get-Job cmdlet to get the jobs in the current session.</source>
+          <target state="translated">Il primo comando Usa il cmdlet Get-Job per ottenere i processi nella sessione corrente.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The command uses a pipeline operator (|) to send the jobs to a Format-Table command, which displays a table of the specified properties of each job.</source>
+          <target state="translated">Il comando Usa un operatore pipeline (|) per inviare i processi a un comando Format-Table, che visualizza una tabella delle proprietà specificate di ogni processo.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The table includes the Instance ID of each job.</source>
+          <target state="translated">La tabella include l'ID istanza di ogni processo.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>It uses a calculated property to display the job state.</source>
+          <target state="translated">Usa una proprietà calcolata per visualizzare lo stato del processo.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The second command uses a <bpt id="p1">**</bpt>Stop-Job<ept id="p1">**</ept> command that has the <bpt id="p2">*</bpt>InstanceID<ept id="p2">*</ept> parameter to stop a selected job.</source>
+          <target state="translated">Il secondo comando Usa un <bpt id="p1">**</bpt>Stop-Job<ept id="p1">**</ept> comando che include il <bpt id="p2">*</bpt>InstanceID<ept id="p2">*</ept> parametro per arrestare un processo selezionato.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Example 7: Stop a job on a remote computer</source>
+          <target state="translated">Esempio 7: Arrestare un processo in un computer remoto</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the <bpt id="p1">**</bpt>Stop-Job<ept id="p1">**</ept> cmdlet to stop a job that is running on a remote computer.</source>
+          <target state="translated">In questo esempio viene illustrato come utilizzare il <bpt id="p1">**</bpt>Stop-Job<ept id="p1">**</ept> cmdlet per arrestare un processo in esecuzione su un computer remoto.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Because the job was started by using the <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept> parameter of the <bpt id="p2">**</bpt>Invoke-Command<ept id="p2">**</ept> cmdlet, the job object is located on the local computer, even though the job runs on the remote computer.</source>
+          <target state="translated">Poiché il processo è stato avviato utilizzando il <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept> parametro il <bpt id="p2">**</bpt>Invoke-Command<ept id="p2">**</ept> cmdlet, l'oggetto processo si trova nel computer locale, anche se il processo viene eseguito nel computer remoto.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Therefore, you can use a local <bpt id="p1">**</bpt>Stop-Job<ept id="p1">**</ept> command to stop the job.</source>
+          <target state="translated">Pertanto, è possibile utilizzare una variabile locale <bpt id="p1">**</bpt>Stop-Job<ept id="p1">**</ept> comando per arrestare il processo.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> cmdlet to start a background job on the Server01 computer.</source>
+          <target state="translated">Il primo comando Usa il <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> per avviare un processo in background nel computer Server01.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept> parameter to run the remote command as a background job.</source>
+          <target state="translated">Il comando Usa il <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept> parametro per eseguire il comando remoto come processo in background.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This command returns a job object, which is the same job object that the <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> cmdlet returns.</source>
+          <target state="translated">Questo comando restituisce un oggetto processo, che corrisponde all'oggetto processo che la <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> cmdlet restituisce.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The command saves the job object in the $j variable.</source>
+          <target state="translated">Il comando salva l'oggetto processo nella variabile $j.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The second command uses a pipeline operator to send the job in the $j variable to Stop-Job.</source>
+          <target state="translated">Il secondo comando usa un operatore pipeline per inviare il processo nella variabile $j a Stop-Job.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>PassThru<ept id="p1">*</ept> parameter to direct <bpt id="p2">**</bpt>Stop-Job<ept id="p2">**</ept> to return a job object.</source>
+          <target state="translated">Il comando Usa il <bpt id="p1">*</bpt>PassThru<ept id="p1">*</ept> per indicare a <bpt id="p2">**</bpt>Stop-Job<ept id="p2">**</ept> per restituire un oggetto processo.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The job object display confirms that the state of the job is Stopped.</source>
+          <target state="translated">La visualizzazione dell'oggetto processo conferma che lo stato del processo è stato arrestato.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>For more information about remote background jobs, see about_Remote_Jobs.</source>
+          <target state="translated">Per altre informazioni sui processi remoti in background, vedere about_Remote_Jobs.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARAMETRI</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">Viene chiesta conferma prima dell'esecuzione del cmdlet. Viene chiesta conferma prima dell'esecuzione del cmdlet.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>-Filter</source>
+          <target state="translated">-Filtro</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Specifies a hash table of conditions.</source>
+          <target state="translated">Specifica una tabella hash delle condizioni.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>This cmdlet stops jobs that satisfy all of the conditions.</source>
+          <target state="translated">Questo cmdlet arresta i processi che soddisfano tutte le condizioni.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Enter a hash table where the keys are job properties and the values are job property values.</source>
+          <target state="translated">Immettere una tabella hash in cui le chiavi sono le proprietà del processo e i valori sono i valori di queste proprietà.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>This parameter works only on custom job types, such as workflow jobs and scheduled jobs.</source>
+          <target state="translated">Questo parametro funziona solo su tipi di processo personalizzati, ad esempio i processi del flusso di lavoro e i processi pianificati.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>It does not work on standard background jobs, such as those created by using the <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">Non funziona sui processi in background standard, ad esempio quelli creati utilizzando il <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> cmdlet.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>For information about support for this parameter, see the help topic for the job type.</source>
+          <target state="translated">Per informazioni sul supporto di questo parametro, vedere l'argomento della Guida relativo al tipo di processo.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Questo parametro è stato introdotto in Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>-Id</source>
+          <target state="translated">-Id</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Specifies the IDs of jobs that this cmdlet stops.</source>
+          <target state="translated">Specifica gli ID dei processi di questo cmdlet.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The default is all jobs in the current session.</source>
+          <target state="translated">Per impostazione predefinita, vengono considerati tutti i processi nella sessione corrente.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The ID is an integer that uniquely identifies the job in the current session.</source>
+          <target state="translated">L'ID è un intero che identifica in modo univoco il processo nella sessione corrente.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>It is easier to remember and type than the instance ID, but it is unique only in the current session.</source>
+          <target state="translated">È più facile da ricordare e digitare rispetto all'ID istanza, ma è univoco solo nella sessione corrente.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>You can type one or more IDs, separated by commas.</source>
+          <target state="translated">È possibile digitare uno o più ID, separati da virgole.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>To find the ID of a job, type <ph id="ph1">`Get-Job`</ph>.</source>
+          <target state="translated">Per trovare l'ID di un processo, digitare <ph id="ph1">`Get-Job`</ph>.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>-InstanceId</source>
+          <target state="translated">InstanceId-</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Specifies the instance IDs of jobs that this cmdlet stops.</source>
+          <target state="translated">Specifica gli ID di istanza di questo cmdlet arresta i processi.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The default is all jobs.</source>
+          <target state="translated">Il valore predefinito corrisponde a tutti i processi.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>An instance ID is a GUID that uniquely identifies the job on the computer.</source>
+          <target state="translated">Un ID istanza è un GUID che identifica in modo univoco il processo nel computer.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>To find the instance ID of a job, use Get-Job.</source>
+          <target state="translated">Per trovare l'ID istanza di un processo, usare Get-Job.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>-Job</source>
+          <target state="translated">-Processo</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Specifies the jobs that this cmdlet stops.</source>
+          <target state="translated">Specifica i processi che interrompe questo cmdlet.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the jobs or a command that gets the jobs.</source>
+          <target state="translated">Immettere una variabile che contiene i processi o un comando che li ottiene.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>You can also use a pipeline operator to submit jobs to the <bpt id="p1">**</bpt>Stop-Job<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">È anche possibile utilizzare un operatore pipeline per inviare i processi per il <bpt id="p1">**</bpt>Stop-Job<ept id="p1">**</ept> cmdlet.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Stop-Job<ept id="p1">**</ept> deletes all jobs that were started in the current session.</source>
+          <target state="translated">Per impostazione predefinita, <bpt id="p1">**</bpt>Stop-Job<ept id="p1">**</ept> Elimina tutti i processi avviati nella sessione corrente.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Specifies friendly names of jobs that this cmdlet stops.</source>
+          <target state="translated">Specifica i nomi descrittivi dei processi di questo cmdlet.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Enter the job names in a comma-separated list or use wildcard characters (<bpt id="p1">*</bpt>) to enter a job name pattern. By default, <ept id="p1">*</ept><bpt id="p2">*</bpt>Stop-Job<ept id="p2">*</ept>* stops all jobs created in the current session.</source>
+          <target state="translated">Immettere i nomi dei processi in un elenco delimitato da virgole o usare caratteri jolly (<bpt id="p1">*</bpt>) per immettere un modello di nome di processo. Per impostazione predefinita, <ept id="p1">*</ept><bpt id="p2">*</bpt>Stop-Job<ept id="p2">*</ept>* Arresta tutti i processi creati nella sessione corrente.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Because the friendly name is not guaranteed to be unique, use the <bpt id="p1">*</bpt>WhatIf<ept id="p1">*</ept> and <bpt id="p2">*</bpt>Confirm<ept id="p2">*</ept> parameters when stopping jobs by name.</source>
+          <target state="translated">Poiché il nome descrittivo non deve necessariamente essere univoco, utilizzare il <bpt id="p1">*</bpt>WhatIf<ept id="p1">*</ept> e <bpt id="p2">*</bpt>conferma<ept id="p2">*</ept> parametri durante l'arresto di processi in base al nome.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>-PassThru</source>
+          <target state="translated">-PassThru</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Returns an object representing the item with which you are working.</source>
+          <target state="translated">Restituisce un oggetto che rappresenta l'elemento in uso.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>By default, this cmdlet does not generate any output.</source>
+          <target state="translated">Per impostazione predefinita, il cmdlet non genera alcun output.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>-State</source>
+          <target state="translated">-Stato</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Specifies a job state.</source>
+          <target state="translated">Specifica uno stato del processo.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>This cmdlet stops only jobs in the specified state.</source>
+          <target state="translated">Questo cmdlet arresta solo i processi nello stato specificato.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">I valori accettabili per questo parametro sono:</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>NotStarted</source>
+          <target state="translated">Non avviato</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Running</source>
+          <target state="translated">In esecuzione</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Completed</source>
+          <target state="translated">Completed</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Failed</source>
+          <target state="translated">Failed</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Stopped</source>
+          <target state="translated">Interrotto</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Blocked</source>
+          <target state="translated">Bloccato</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Suspended</source>
+          <target state="translated">Suspended</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Disconnected</source>
+          <target state="translated">Disconnected</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Suspending</source>
+          <target state="translated">La sospensione</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Stopping</source>
+          <target state="translated">Stopping</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>For more information about job states, see JobState Enumerationhttp://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.jobstate(v=vs.85).aspx (http://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.jobstate(v=vs.85).aspx ) in the Microsoft Developer Network (MSDN).</source>
+          <target state="translated">Per ulteriori informazioni sugli stati dei processi, vedere JobState Enumerationhttp://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.jobstate (v=vs.85).aspx (http://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.jobstate (v=vs.85).aspx) in Microsoft Developer Network (MSDN).</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Mostra gli effetti dell'esecuzione del cmdlet.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Il cmdlet non viene eseguito. Viene illustrato che cosa accadrebbe se viene eseguito il cmdlet.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">Il cmdlet non viene eseguito.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Questo cmdlet supporta i parametri comuni:-eseguire il Debug, - ErrorAction, - ErrorVariable, - InformationAction, InformationVariable-, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction e - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Per ulteriori informazioni, vedere about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">INPUT</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.RemotingJob</source>
+          <target state="translated">Remotingjob</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>You can pipe a job object to this cmdlet.</source>
+          <target state="translated">È possibile reindirizzare un oggetto processo a questo cmdlet.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">OUTPUT</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>None, System.Management.Automation.PSRemotingJob</source>
+          <target state="translated">None, System.Management.Automation.PSRemotingJob</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>This cmdlet returns a job object, if you specify the <bpt id="p1">*</bpt>PassThru<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">Questo cmdlet restituisce un oggetto processo, se si specifica il <bpt id="p1">*</bpt>PassThru<ept id="p1">*</ept> parametro.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Otherwise, this cmdlet does not generate any output.</source>
+          <target state="translated">In caso contrario, il cmdlet non genera alcun output.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTE</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">COLLEGAMENTI CORRELATI</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Get-Job</source>
+          <target state="translated">Get-Job</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Invoke-Command</source>
+          <target state="translated">Invoke-Command</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Receive-Job</source>
+          <target state="translated">Processo di ricezione</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Remove-Job</source>
+          <target state="translated">Remove-Job</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Resume-Job</source>
+          <target state="translated">Resume-Job</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Start-Job</source>
+          <target state="translated">Processo di avvio</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Suspend-Job</source>
+          <target state="translated">Suspend-Job</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Wait-Job</source>
+          <target state="translated">Wait-Job</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>about_Job_Details</source>
+          <target state="translated">about_Job_Details</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>about_Remote_Jobs</source>
+          <target state="translated">about_Remote_Jobs</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>about_Remote_Variables</source>
+          <target state="translated">about_Remote_Variables</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>about_Jobs</source>
+          <target state="translated">about_Jobs</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>about_Scopes</source>
+          <target state="translated">about_Scopes</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

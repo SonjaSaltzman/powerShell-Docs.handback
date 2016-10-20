@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">177c023a473235e032bebd7f9df301a67c7fd97f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\Suspend-Job.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e7a11659cf146068d08af3ed6ef80896b8bdfa96</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">33e772f42de352be831c6a2246d3691dd9202a1f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell, cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Suspend-Job</source>
+          <target state="translated">Suspend-Job</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Suspend-Job</source>
+          <target state="translated">Suspend-Job</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">SINOPSE</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Temporarily stops workflow jobs.</source>
+          <target state="translated">Interrompe temporariamente tarefas de fluxo de trabalho.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SINTAXE</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>SessionIdParameterSet (Default)</source>
+          <target state="translated">SessionIdParameterSet (padrão)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>JobParameterSet</source>
+          <target state="translated">JobParameterSet</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>FilterParameterSet</source>
+          <target state="translated">FilterParameterSet</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>StateParameterSet</source>
+          <target state="translated">StateParameterSet</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>InstanceIdParameterSet</source>
+          <target state="translated">InstanceIdParameterSet</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>NameParameterSet</source>
+          <target state="translated">NameParameterSet</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">DESCRIÇÃO</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> cmdlet suspends workflow jobs.</source>
+          <target state="translated">O <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> cmdlet suspende o fluxo de trabalho.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Suspend means to temporarily interrupt or pause a workflow job.</source>
+          <target state="translated">Suspenda meios para interromper ou pausar um fluxo de trabalho temporariamente.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This cmdlet allows users who are running workflows to suspend the workflow.</source>
+          <target state="translated">Este cmdlet permite que os usuários que estão executando fluxos de trabalho suspendam o fluxo de trabalho.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>It complements the Suspend-Workflowhttp://go.microsoft.com/fwlink/?LinkId=267141 activity, which is a command in the workflow that suspends the workflow.</source>
+          <target state="translated">Ela complementa a atividade Suspend-Workflowhttp://go.microsoft.com/fwlink/?LinkId=267141, que é um comando no fluxo de trabalho que suspende o fluxo de trabalho.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> cmdlet works only on workflow jobs.</source>
+          <target state="translated">O <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> cmdlet funciona somente no fluxo de trabalho.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>It does not work on standard background jobs, such as those that are started by using the Start-Job cmdlet.</source>
+          <target state="translated">Ele não funciona em trabalhos em segundo plano padrão, como aqueles que são iniciados usando o cmdlet Start-Job.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To identify a workflow job, look for a value of PSWorkflowJob in the <bpt id="p1">**</bpt>PSJobTypeName<ept id="p1">**</ept> property of the job.</source>
+          <target state="translated">Para identificar um fluxo de trabalho, procure um valor de PSWorkflowJob no <bpt id="p1">**</bpt>PSJobTypeName<ept id="p1">**</ept> propriedade do trabalho.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To determine whether a particular custom job type supports the <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> cmdlet, see the help topics for the custom job type.</source>
+          <target state="translated">Para determinar se um tipo específico de trabalho personalizado oferece suporte a <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> cmdlet, consulte os tópicos da Ajuda para o tipo de trabalho personalizado.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>When you suspend a workflow job, the workflow job runs to the next checkpoint, suspends, and immediately returns a workflow job object.</source>
+          <target state="translated">Quando você suspende uma tarefa de fluxo de trabalho, essa tarefa é executada até o próximo ponto de verificação, suspendida e então retorna imediatamente como resultado um objeto de tarefa de fluxo de trabalho.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To wait for the suspension to complete before getting the job, use the <bpt id="p1">*</bpt>Wait<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>Suspend-Job<ept id="p2">**</ept> or the Wait-Job cmdlet.</source>
+          <target state="translated">Para aguardar até que a suspensão seja concluída antes de realizar o trabalho, use o <bpt id="p1">*</bpt>espera<ept id="p1">*</ept> parâmetro <bpt id="p2">**</bpt>Suspend-Job<ept id="p2">**</ept> ou o cmdlet Wait-Job.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>When the workflow job is suspended, the value of the <bpt id="p1">**</bpt>State<ept id="p1">**</ept> property of the job is Suspended.</source>
+          <target state="translated">Quando o fluxo de trabalho é suspenso, o valor da <bpt id="p1">**</bpt>estado<ept id="p1">**</ept> propriedade do trabalho é suspensa.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Suspending correctly relies on checkpoints.</source>
+          <target state="translated">Suspender corretamente o trabalho depende dos pontos de verificação.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The current job state, metadata, and output are saved in the checkpoint so the workflow job can be resumed without loss of state or data.</source>
+          <target state="translated">O estado atual do trabalho, metadados e saída são salvos no ponto de verificação para que o fluxo de trabalho possa ser retomado sem perda de dados ou de estado.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If the workflow job does not have checkpoints, it cannot be suspended correctly.</source>
+          <target state="translated">Se o fluxo de trabalho não tem pontos de verificação, ele não pode ser suspensa corretamente.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To add checkpoints to a workflow that you are running, use the <bpt id="p1">*</bpt>PSPersist<ept id="p1">*</ept> workflow common parameter.</source>
+          <target state="translated">Para adicionar pontos de verificação para um fluxo de trabalho em execução, use o <bpt id="p1">*</bpt>PSPersist<ept id="p1">*</ept> parâmetro comum de fluxo de trabalho.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">*</bpt>Force<ept id="p1">*</ept> parameter to suspend any workflow job immediately and to suspend a workflow job that does not have checkpoints, but the action could cause loss of state and data.</source>
+          <target state="translated">Você pode usar o <bpt id="p1">*</bpt>força<ept id="p1">*</ept> parâmetro para suspender qualquer fluxo de trabalho imediatamente e para suspender um fluxo de trabalho que não tem pontos de verificação, mas a ação pode causar perda de dados e estado.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Before you use a Job cmdlet on a custom job type, such as a workflow job (<bpt id="p1">**</bpt>PSWorkflowJob<ept id="p1">**</ept>) import the module that supports the custom job type, either by using the Import-Module cmdlet or using or using a cmdlet in the module.</source>
+          <target state="translated">Antes de usar um cmdlet de trabalho em um tipo de trabalho personalizados, como um fluxo de trabalho (<bpt id="p1">**</bpt>PSWorkflowJob<ept id="p1">**</ept>) importar o módulo que suporta o tipo de trabalho personalizado, usando o cmdlet Import-Module ou usando ou usando um cmdlet no módulo.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This cmdlet was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Este cmdlet foi introduzido no Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">EXEMPLOS</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Example 1: Suspend a workflow job by name</source>
+          <target state="translated">Exemplo 1: Suspender um fluxo de trabalho por nome</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This example shows how to suspend a workflow job.</source>
+          <target state="translated">Este exemplo mostra como suspender uma tarefa de fluxo de trabalho.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Example 2: Suspend and resume a workflow job</source>
+          <target state="translated">Exemplo 2: Suspender e retomar um fluxo de trabalho</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This example shows how to suspend and resume a workflow job.</source>
+          <target state="translated">Este exemplo mostra como suspender e retomar uma tarefa de fluxo de trabalho.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Example 3: Suspend a workflow job on a remote computer</source>
+          <target state="translated">Exemplo 3: Suspender um fluxo de trabalho em um computador remoto</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This command uses the Invoke-Command cmdlet to suspend a workflow job on the Srv01 remote computer.</source>
+          <target state="translated">Esse comando usa o cmdlet Invoke-Command para suspender um fluxo de trabalho no computador remoto Srv01.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">*</bpt>Filter<ept id="p1">*</ept> parameter is a hash table that specifies a CustomID value.</source>
+          <target state="translated">O valor de <bpt id="p1">*</bpt>filtro<ept id="p1">*</ept> parâmetro é uma tabela de hash que especifica um valor CustomID.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This <bpt id="p1">**</bpt>CustomID<ept id="p1">**</ept> is job metadata (<bpt id="p2">**</bpt>PSPrivateMetadata<ept id="p2">**</ept>).</source>
+          <target state="translated">Isso <bpt id="p1">**</bpt>CustomID<ept id="p1">**</ept> metadados de trabalho (<bpt id="p2">**</bpt>PSPrivateMetadata<ept id="p2">**</ept>).</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Example 4: Wait for the workflow job to suspend</source>
+          <target state="translated">Exemplo 4: Aguarde o fluxo de trabalho Suspender</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This command suspends the VersionCheck workflow job.</source>
+          <target state="translated">Este comando suspende a tarefa de fluxo de trabalho VersionCheck.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>Wait<ept id="p1">*</ept> parameter to wait until the workflow job is suspended.</source>
+          <target state="translated">O comando usa o <bpt id="p1">*</bpt>espera<ept id="p1">*</ept> parâmetro aguardar até que o fluxo de trabalho é suspensa.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>When the workflow job runs to the next checkpoint and is suspended, the command finishes and returns the job object.</source>
+          <target state="translated">Quando o fluxo de trabalho é executado para o próximo ponto de verificação e está suspenso, o comando termina e retorna o objeto de trabalho.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Example 5: Force a workflow job to suspend</source>
+          <target state="translated">Exemplo 5: Forçar um fluxo de trabalho Suspender</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This command suspends the Maintenance workflow job forcibly.</source>
+          <target state="translated">Este comando suspende à força a tarefa de fluxo de trabalho Maintenance.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The Maintenance job does not have checkpoints.</source>
+          <target state="translated">O trabalho de manutenção não tem pontos de verificação.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>It cannot be suspended correctly and might not resume correctly.</source>
+          <target state="translated">Ele não pode ser suspensa corretamente e não poderá ser retomada corretamente.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARÂMETROS</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">Solicita confirmação antes de executar o cmdlet. Solicita confirmação antes de executar o cmdlet.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>-Filter</source>
+          <target state="translated">-Filtro</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Specifies a hash table of conditions.</source>
+          <target state="translated">Especifica uma tabela de hash de condições.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>This cmdlet suspends jobs that satisfy all of the conditions.</source>
+          <target state="translated">Esse cmdlet suspende as tarefas que atendem a todas as condições.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Enter a hash table where the keys are job properties and the values are job property values.</source>
+          <target state="translated">Insira uma tabela de hash na qual as chaves são propriedades do trabalho e os valores são valores de propriedade do trabalho.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Suspends the workflow job immediately.</source>
+          <target state="translated">Suspende a tarefa de fluxo de trabalho imediatamente.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>This action could cause a loss of state and data.</source>
+          <target state="translated">Essa ação pode causar perda de dados e estado.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> lets the workflow job run until the next checkpoint and then suspends it.</source>
+          <target state="translated">Por padrão, <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> permite que o fluxo de trabalho executada até o próximo ponto de verificação e então suspendê-la.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>You can also use this parameter to suspend workflow jobs that do not have checkpoints.</source>
+          <target state="translated">Você também pode usar esse parâmetro para suspender tarefas de fluxo de trabalho que não têm pontos de verificação.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>-Id</source>
+          <target state="translated">-Id</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Specifies the IDs of jobs that this cmdlet suspends.</source>
+          <target state="translated">Especifica as IDs dos trabalhos que suspende a esse cmdlet.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The ID is an integer that uniquely identifies the job in the current session.</source>
+          <target state="translated">A ID é um inteiro que identifica exclusivamente o trabalho na sessão atual.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>It is easier to remember and to type than the instance ID, but it is unique only in the current session.</source>
+          <target state="translated">É mais fácil de lembrar e digitar a ID de instância, mas ele é exclusivo somente na sessão atual.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>You can type one or more IDs, separated by commas.</source>
+          <target state="translated">Você pode digitar uma ou mais IDs, separados por vírgulas.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>To find the ID of a job, use the Get-Job cmdlet.</source>
+          <target state="translated">Para localizar a ID de um trabalho, use o cmdlet Get-Job.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>-InstanceId</source>
+          <target state="translated">-InstanceId</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Specifies the instance IDs of jobs that this cmdlet suspends.</source>
+          <target state="translated">Especifica as IDs de instância de trabalhos que suspende a esse cmdlet.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The default is all jobs.</source>
+          <target state="translated">O padrão é obter todos os trabalhos.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>An instance ID is a GUID that uniquely identifies the job on the computer.</source>
+          <target state="translated">Uma ID de instância é um GUID que identifica exclusivamente o trabalho no computador.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>To find the instance ID of a job, use <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept>.</source>
+          <target state="translated">Para localizar a ID da instância de um trabalho, use <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-Job</source>
+          <target state="translated">-Trabalho</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Specifies the workflow jobs that this cmdlet stops.</source>
+          <target state="translated">Especifica os trabalhos de fluxo de trabalho que este cmdlet para.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the workflow jobs or a command that gets the workflow jobs.</source>
+          <target state="translated">Insira uma variável que contenha as tarefas de fluxo de trabalho ou um comando que as obtenha.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>You can also pipe workflow jobs to the <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">Você também pode redirecionar os trabalhos de fluxo de trabalho para o <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> cmdlet.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Specifies friendly names of jobs that this cmdlet suspends.</source>
+          <target state="translated">Especifica os nomes amigáveis dos trabalhos que suspende a esse cmdlet.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Enter one or more workflow job names.</source>
+          <target state="translated">Insira um ou mais nomes de tarefas de fluxo de trabalho.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are supported.</source>
+          <target state="translated">Há suporte para caracteres curinga.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>-State</source>
+          <target state="translated">-Estado</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Specifies a job state.</source>
+          <target state="translated">Especifica um estado de trabalho.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>This cmdlet stops only jobs in the specified state.</source>
+          <target state="translated">Este cmdlet interrompe somente trabalhos no estado especificado.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">Os valores aceitáveis para este parâmetro são:</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>NotStarted</source>
+          <target state="translated">NotStarted</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Running</source>
+          <target state="translated">Em execução</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Completed</source>
+          <target state="translated">Concluído</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Failed</source>
+          <target state="translated">Failed (Falha)</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Stopped</source>
+          <target state="translated">Parado com</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Blocked</source>
+          <target state="translated">Bloqueado</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Suspended</source>
+          <target state="translated">Suspenso</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Disconnected</source>
+          <target state="translated">Disconnected</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Suspending</source>
+          <target state="translated">A suspensão</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Stopping</source>
+          <target state="translated">Stopping</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> suspends only workflow jobs in the <bpt id="p2">**</bpt>Running<ept id="p2">**</ept> state.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Trabalho Suspender<ept id="p1">**</ept> suspende apenas os trabalhos no fluxo de trabalho de <bpt id="p2">**</bpt>executando<ept id="p2">**</ept> estado.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>For more information about job states, see JobState Enumerationhttp://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.jobstate(v=vs.85).aspx (http://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.jobstate(v=vs.85).aspx ) in the Microsoft Developer Network (MSDN).</source>
+          <target state="translated">Para obter mais informações sobre estados de trabalho, consulte JobState Enumerationhttp://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.jobstate (v=vs.85).aspx (http://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.jobstate (v=vs.85).aspx) no Microsoft Developer Network (MSDN).</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>-Wait</source>
+          <target state="translated">-Wait</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet suppresses the command prompt until the workflow job is in the suspended state.</source>
+          <target state="translated">Indica que esse cmdlet suprime o prompt de comando até que o fluxo de trabalho está em estado suspenso.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> returns immediately, even if the workflow job is not yet in the suspended state.</source>
+          <target state="translated">Por padrão, <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> retorna imediatamente, mesmo se o fluxo de trabalho ainda não está no estado suspenso.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>Wait<ept id="p1">*</ept> parameter is equivalent to piping a <bpt id="p2">**</bpt>Suspend-Job<ept id="p2">**</ept> command to the <bpt id="p3">**</bpt>Wait-Job<ept id="p3">**</ept> cmdlet.</source>
+          <target state="translated">O <bpt id="p1">*</bpt>espera<ept id="p1">*</ept> parâmetro é equivalente a direcionar um <bpt id="p2">**</bpt>Suspend-Job<ept id="p2">**</ept> comando o <bpt id="p3">**</bpt>Wait-Job<ept id="p3">**</ept> cmdlet.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Mostra o que aconteceria se o cmdlet fosse executado.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">O cmdlet não é executado. Mostra o que aconteceria se o cmdlet fosse executado.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">O cmdlet não é executado.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Esse cmdlet oferece suporte aos parâmetros comuns:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction e - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Para obter mais informações, consulte about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ENTRADAS</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.Job</source>
+          <target state="translated">System.Management.Automation.Job</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>You can pipe all types of jobs to this cmdlet.</source>
+          <target state="translated">É possível redirecionar todos os tipos de trabalhos para esse cmdlet.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>However, if <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> gets a job of an unsupported type, it returns a terminating error.</source>
+          <target state="translated">No entanto, se <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> obtém um trabalho de um tipo sem suporte, ele retorna um erro de encerramento.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">SAÍDAS</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.Job</source>
+          <target state="translated">System.Management.Automation.Job</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>This cmdlet returns the jobs that it suspended.</source>
+          <target state="translated">Esse cmdlet retorna os trabalhos que ele suspenso.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ANOTAÇÕES</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The mechanism and location for saving a suspended job might vary depending on the job type.</source>
+          <target state="translated">O mecanismo e o local para salvar um trabalho suspenso podem variar, dependendo do tipo do trabalho.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>For example, suspended workflow jobs are saved in a flat file store by default, but can also be saved in a database.</source>
+          <target state="translated">Por exemplo, tarefas de fluxo de trabalho suspensas são salvas em um repositório de arquivo simples por padrão, mas também podem ser salvas em um banco de dados.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>If you submit a workflow job that is not in the Running state, <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> displays a warning message.</source>
+          <target state="translated">Se você enviar um fluxo de trabalho que não está no estado em execução, <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> exibe uma mensagem de aviso.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>To suppress the warning, use the <bpt id="p1">*</bpt>WarningAction<ept id="p1">*</ept> common parameter with a value of SilentlyContinue.</source>
+          <target state="translated">Para suprimir o aviso, use o <bpt id="p1">*</bpt>WarningAction<ept id="p1">*</ept> parâmetro comum com um valor de SilentlyContinue.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>If a job is not of a type that supports suspending, <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> returns a terminating error.</source>
+          <target state="translated">Se um trabalho não é de um tipo que oferece suporte a suspensão, <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> retorna um erro de encerramento.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>To find the workflow jobs that are suspended, including those that were suspended by this cmdlet, use the <bpt id="p1">*</bpt>State<ept id="p1">*</ept> parameter of the <bpt id="p2">**</bpt>Get-Job<ept id="p2">**</ept> cmdlet to get workflow jobs in the Suspended state.</source>
+          <target state="translated">Para encontrar os trabalhos de fluxo de trabalho suspensas, incluindo aquelas que foram suspensas por este cmdlet, use o <bpt id="p1">*</bpt>estado<ept id="p1">*</ept> parâmetro o <bpt id="p2">**</bpt>Get-Job<ept id="p2">**</ept> para obter o fluxo de trabalho no estado suspenso.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Some job types have options or properties that prevent Windows PowerShell from suspending the job.</source>
+          <target state="translated">Alguns tipos de trabalho têm opções ou propriedades que impedem que o Windows PowerShell suspenda o trabalho em questão.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>If attempts to suspend the job fail, verify that the job options and properties allow for suspending.</source>
+          <target state="translated">Se tentar suspender o trabalho falhar, verifique se as propriedades e opções de trabalho permitem a suspensão.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">LINKS RELACIONADOS</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Get-Job</source>
+          <target state="translated">Get-Job</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Receive-Job</source>
+          <target state="translated">Trabalho de recebimento</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Remove-Job</source>
+          <target state="translated">Remover trabalho</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Resume-Job</source>
+          <target state="translated">Resume-Job</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Start-Job</source>
+          <target state="translated">Iniciar trabalho</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Stop-Job</source>
+          <target state="translated">Interrupção do trabalho</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Suspend-Job</source>
+          <target state="translated">Suspend-Job</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Wait-Job</source>
+          <target state="translated">Wait-Job</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

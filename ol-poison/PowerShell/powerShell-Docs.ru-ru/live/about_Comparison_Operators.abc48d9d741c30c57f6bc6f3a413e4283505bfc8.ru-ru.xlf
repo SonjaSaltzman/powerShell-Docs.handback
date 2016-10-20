@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6de799a9498e9b5ea135c0a851ead7d74744ed0d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\About\about_Comparison_Operators.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">58717d868a6ff3e040e5d984e47343081a6403ef</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d1245e24d5c3b795f59724009c5fbd71bcda2dec</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>about_Comparison_Operators</source>
+          <target state="translated">about_Comparison_Operators</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell, командлет</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>About Comparison Operators</source>
+          <target state="translated">Сведения об операторах сравнения</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>about_Comparison_Operators</source>
+          <target state="translated">about_Comparison_Operators</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>about_Comparison_Operators</source>
+          <target state="translated">about_Comparison_Operators</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">КРАТКОЕ ОПИСАНИЕ</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Describes the operators that compare values in Windows PowerShell.</source>
+          <target state="translated">Содержит описание операторов сравнения, используемых в Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>LONG DESCRIPTION</source>
+          <target state="translated">ПОДРОБНОЕ ОПИСАНИЕ</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Comparison operators let you specify conditions for comparing values and finding values that match specified patterns.</source>
+          <target state="translated">Операторы сравнения позволяют указать условия для сравнения значений и поиск значений, соответствующих указанным шаблонам.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To use a comparison operator, specify the values that you want to compare together with an operator that separates these values.</source>
+          <target state="translated">Чтобы использовать оператор сравнения, укажите значения, которые нужно сравнить вместе с оператора, который отделяет этих значений.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell includes the following comparison operators:</source>
+          <target state="translated">Windows PowerShell содержит следующие операторы сравнения:</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>-eq -ne -gt -ge -lt -le -Like -NotLike -Match -NotMatch -Contains -NotContains -In -NotIn -Replace</source>
+          <target state="translated">-gt - ne - eq, -ge - lt-le-как - NotLike - соответствует - NotMatch-содержит оператор - не содержит-в - NotIn-замените</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>By default, all comparison operators are case-insensitive.</source>
+          <target state="translated">По умолчанию все операторы сравнения регистр не учитывается.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To make a comparison operator case-sensitive, precede the operator name with a "c".</source>
+          <target state="translated">Чтобы сделать оператор сравнения с учетом регистра, перед именем оператор «c».</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For example, the case-sensitive version of "-eq" is "-ceq".</source>
+          <target state="translated">Например, с учетом регистра версии»-eq» — «-ceq».</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To make the case-insensitivity explicit, precede the operator with an "i".</source>
+          <target state="translated">Чтобы сделать явную независимости от регистра, перед оператором «i».</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For example, the explicitly case-insensitive version of "-eq" is "-ieq".</source>
+          <target state="translated">Например, явно версией без учета регистра»-eq» — «-ieq».</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>When the input to an operator is a scalar value, comparison operators return a Boolean value.</source>
+          <target state="translated">Если входные данные для оператора скалярное значение, операторы сравнения возвращают логическое значение.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>When the input is a collection of values, the comparison operators return any matching values.</source>
+          <target state="translated">Если вход — это совокупность значений, операторы сравнения возвращают все совпадающие значения.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If there are no matches in a collection, comparison operators do not return anything.</source>
+          <target state="translated">Если совпадений не найдено в коллекции, операторы сравнения ничего не возвращают.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The exceptions are the containment operators (-Contains, -NotContains), the In operators (-In, -NotIn), and the type operators (-Is, -IsNot), which always return a Boolean value.</source>
+          <target state="translated">Исключениями являются операторы вложения (-содержит оператор - не содержит), операторы в (-в - NotIn) и операторы типа (-— - IsNot), которой всегда возвращают логическое значение.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell supports the following comparison operators.</source>
+          <target state="translated">Windows PowerShell поддерживает следующие операторы сравнения.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>-eq Description: Equal to.</source>
+          <target state="translated">Описание - eq: равно.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Includes an identical value.</source>
+          <target state="translated">Включает идентичное значение.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Example:</source>
+          <target state="translated">Пример:</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "abc" -eq "abc" True</source>
+          <target state="translated">PS C: &gt; «abc» «abc» - eq True</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "abc" -eq "abc", "def" False</source>
+          <target state="translated">PS C: &gt; «abc» - eq «abc», «def» значение False</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "abc", "def" -eq "abc" abc</source>
+          <target state="translated">PS C: &gt; «abc», «def» - eq «abc» abc</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>-ne Description: Not equal to.</source>
+          <target state="translated">-ne Описание: не равно.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Includes a different value.</source>
+          <target state="translated">Включает другое значение.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Example:</source>
+          <target state="translated">Пример:</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "abc" -ne "def" True</source>
+          <target state="translated">PS C: &gt; «abc» - ne «def» значение True</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "abc" -ne "abc" False</source>
+          <target state="translated">PS C: &gt; ne «abc», «abc» — значение False</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "abc" -ne "abc", "def" True</source>
+          <target state="translated">PS C: &gt; «abc» - ne «abc», «def» значение True</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "abc", "def" -ne "abc" def</source>
+          <target state="translated">PS C: &gt; «abc», «def» - ne «abc» def</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>-gt Description: Greater-than.</source>
+          <target state="translated">Описание - gt: больше-чем.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Example:</source>
+          <target state="translated">Пример:</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; 8 -gt 6 True</source>
+          <target state="translated">PS C: &gt; 8 - gt-6 True</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; 7, 8, 9 -gt 8</source>
+          <target state="translated">PS C: &gt; 7, 8, 9 - gt-8</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>9</source>
+          <target state="translated">9</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>-ge Description: Greater-than or equal to.</source>
+          <target state="translated">-ge Описание: больше- или равно.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Example:</source>
+          <target state="translated">Пример:</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; 8 -ge 8 True</source>
+          <target state="translated">PS C: &gt; 8 -ge 8 True</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; 7, 8, 9 -ge 8</source>
+          <target state="translated">PS C: &gt; 7, 8, 9 -ge 8</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>8</source>
+          <target state="translated">8</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>9</source>
+          <target state="translated">9</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>-lt Description: Less-than.</source>
+          <target state="translated">Описание - lt: менее-чем.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Example:</source>
+          <target state="translated">Пример:</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; 8 -lt 6 False</source>
+          <target state="translated">PS C: &gt; 8 - lt 6 False</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; 7, 8, 9 -lt 8</source>
+          <target state="translated">PS C: &gt; 7, 8, 9 - lt 8</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>7</source>
+          <target state="translated">7</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>-le Description: Less-than or equal to.</source>
+          <target state="translated">— Описание le: менее- или равно.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Example:</source>
+          <target state="translated">Пример:</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; 6 -le 8 True</source>
+          <target state="translated">PS C: &gt; 6 - le 8 True</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; 7, 8, 9 -le 8</source>
+          <target state="translated">PS C: &gt; 7, 8, 9 - le 8</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>7</source>
+          <target state="translated">7</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>8</source>
+          <target state="translated">8</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>-Like Description: Match using the wildcard character (*).</source>
+          <target state="translated">-Описание like: Сопоставление с использованием подстановочного знака (*).</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Example:</source>
+          <target state="translated">Пример:</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Windows PowerShell" -like "*shell" True</source>
+          <target state="translated">PS C: &gt; «Windows PowerShell» — как «* оболочки» значение True</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Windows PowerShell", "Server" -like "*shell" Windows PowerShell</source>
+          <target state="translated">PS C: &gt; «Windows PowerShell», «Server» — как «* оболочки «Windows PowerShell</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>-NotLike Description: Does not match using the wildcard character (*).</source>
+          <target state="translated">-NotLike Описание: Не совпадает с помощью подстановочного знака (*).</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Example:</source>
+          <target state="translated">Пример:</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Windows PowerShell" -NotLike "*shell" False</source>
+          <target state="translated">PS C: &gt; «Windows PowerShell»-NotLike «* оболочки» значение False</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Windows PowerShell", "Server" -NotLike "*shell" Server</source>
+          <target state="translated">PS C: &gt; «Windows PowerShell», «Сервер»-NotLike «* оболочки» сервера</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>-Match Description: Matches a string using regular expressions.</source>
+          <target state="translated">-Описание match: Соответствует строке с помощью регулярных выражений.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>When the input is scalar, it populates the $Matches automatic variable.</source>
+          <target state="translated">Если входные данные являются скалярными, он заполняет автоматической переменной $Matches.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Example:</source>
+          <target state="translated">Пример:</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Sunday" -Match "sun" True</source>
+          <target state="translated">PS C: &gt; «Воскресенье» — соответствует «sun» значение True</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $matches Name Value</source>
+          <target state="translated">PS C: &gt; $matches имя значение</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>0    Sun</source>
+          <target state="translated">0 Sun</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Sunday", "Monday" -Match "sun" Sunday</source>
+          <target state="translated">PS C: &gt; «Воскресенье», «Понедельник» — соответствует «sun» воскресенье</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>-NotMatch Description: Does not match a string.</source>
+          <target state="translated">-NotMatch Описание: не соответствует строка.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Uses regular expressions.</source>
+          <target state="translated">Использует регулярные выражения.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>When the input is scalar, it populates the $Matches automatic variable.</source>
+          <target state="translated">Если входные данные являются скалярными, он заполняет автоматической переменной $Matches.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Example:</source>
+          <target state="translated">Пример:</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Sunday" -NotMatch "sun" False</source>
+          <target state="translated">PS C: &gt; «Воскресенье» - NotMatch «sun» значение False</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $matches Name Value</source>
+          <target state="translated">PS C: &gt; $matches имя значение</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>0    sun</source>
+          <target state="translated">0 sun</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Sunday", "Monday" -NotMatch "sun" Monday</source>
+          <target state="translated">PS C: &gt; «Воскресенье», «Понедельник» - NotMatch «sun» понедельник</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>-Contains Description: Containment operator.</source>
+          <target state="translated">— Содержит описание: Оператор вложения.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Tells whether a collection of reference values includes a single test value.</source>
+          <target state="translated">Указывает, включает ли коллекция значений ссылки значение одного теста.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Always returns a Boolean value.</source>
+          <target state="translated">Всегда возвращает значение типа Boolean.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Returns TRUE only when the test value exactly matches at least one of the reference values.</source>
+          <target state="translated">Возвращает значение TRUE только в том случае, если по крайней мере одно из значений ссылки точно соответствует значение теста.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>When the test value is a collection, the Contains operator uses reference equality.</source>
+          <target state="translated">Если значение теста является коллекцией, оператор Contains использует равенство ссылок.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>It returns TRUE only when one of the reference values is the same instance of the test value object.</source>
+          <target state="translated">Он возвращает значение TRUE только в том случае, если одно из значений ссылки является тем же экземпляром объекта значения теста.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Syntax: &lt;Reference-values&gt; -Contains &lt;Test-value&gt;</source>
+          <target state="translated">Синтаксис: &lt; значения ссылок &gt;-&lt; теста-значение &gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Examples:</source>
+          <target state="translated">Примеры</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "abc", "def" -Contains "def" True</source>
+          <target state="translated">PS C: &gt; «abc», «def» — содержит «def» значение True</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Windows", "PowerShell" -Contains "Shell" False  #Not an exact match</source>
+          <target state="translated">PS C: &gt; «Windows», «PowerShell» — содержит «Оболочка» False #Not точное совпадение</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Does the list of computers in $domainServers include $thisComputer?</source>
+          <target state="translated">Входит в список компьютеров в $domainServers $thisComputer?</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $domainServers -Contains $thisComputer True</source>
+          <target state="translated">PS C: &gt; $domainServers-содержит $thisComputer значение True</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "abc", "def", "ghi" -Contains "abc", "def" False</source>
+          <target state="translated">PS C: &gt; «abc», «def», «ghi» — содержит «abc», «def» значение False</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $a = "abc", "def" PS C:&gt; "abc", "def", "ghi" -Contains $a False PS C:&gt; $a, "ghi" -Contains $a True</source>
+          <target state="translated">PS C: &gt; $a = «abc», «def» PS C: &gt; «abc», «def», «ghi» — содержит $a False PS C: &gt; $a, «ghi» — содержит $a True</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>-NotContains Description: Containment operator.</source>
+          <target state="translated">Оператор не содержит - описание: оператор вложения.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Tells whether a collection of reference values includes a single test value.</source>
+          <target state="translated">Указывает, включает ли коллекция значений ссылки значение одного теста.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Always returns a Boolean value.</source>
+          <target state="translated">Всегда возвращает значение типа Boolean.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Returns TRUE when the test value is not an exact matches for at least one of the reference values.</source>
+          <target state="translated">Возвращает значение TRUE, если значение теста не точное соответствие для по крайней мере одно из значений ссылки.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>When the test value is a collection, the NotContains operator uses reference equality.</source>
+          <target state="translated">Если значение теста является коллекцией, оператор не содержит оператор использует равенство ссылок.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Syntax: &lt;Reference-values&gt; -NotContains &lt;Test-value&gt;</source>
+          <target state="translated">Синтаксис: &lt; значения ссылок &gt; - оператор не содержит &lt; тестовое значение &gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Examples:</source>
+          <target state="translated">Примеры</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Windows", "PowerShell" -NotContains "Shell" True  #Not an exact match</source>
+          <target state="translated">PS C: &gt; «Windows», «PowerShell» — оператор не содержит значение True, #Not «Оболочка» точное соответствие</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Get cmdlet parameters, but exclude common parameters function get-parms ($cmdlet) { $Common = "Verbose", "Debug", "WarningAction", "WarningVariable", ` "ErrorAction", "ErrorVariable", "OutVariable", "OutBuffer"</source>
+          <target state="translated">Получить параметры командлета, но исключает Общие параметры функции get-parms ($cmdlet) {$Common = «Подробный», «Отладка», «WarningAction», «WarningVariable», ««ErrorAction», «ErrorVariable», «OutVariable», «OutBuffer»</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>$allparms = (Get-Command $Cmdlet).parametersets | foreach {$<bpt id="p1">_</bpt>.Parameters} | ` foreach {$<ept id="p1">_</ept>.Name} | Sort-Object | Get-Unique</source>
+          <target state="translated">$allparms = .parametersets (get-Command $Cmdlet) | foreach {$<bpt id="p1">_</bpt>. Параметры} | "foreach {$<ept id="p1">_</ept>. Имя} | Sort-Object | Get-Unique</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>$allparms | where {$Common -NotContains $_ } }</source>
+          <target state="translated">$allparms | где {$Common - оператор не содержит $_}}</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Find unapproved verbs in the functions in my module</source>
+          <target state="translated">Найти неутвержденные глаголы в функции в Мой модуль</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $ApprovedVerbs = Get-Verb | foreach {$<bpt id="p1">_</bpt>.verb} PS C:&gt; $myVerbs = Get-Command -Module MyModule | foreach {$<ept id="p1">_</ept>.verb}</source>
+          <target state="translated">PS C: &gt; $ApprovedVerbs = Get-Verb | foreach {$<bpt id="p1">_</bpt>.verb} PS C: &gt; $myVerbs = Get-Command-Module MyModule | foreach {$<ept id="p1">_</ept>.verb}</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $myVerbs | where {$ApprovedVerbs -NotContains $_} ForEach Sort Tee Where</source>
+          <target state="translated">PS C: &gt; $myVerbs | где {$ApprovedVerbs - оператор не содержит $_} ForEach сортировки Tee Where</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>-In Description: In operator.</source>
+          <target state="translated">-В описание: В оператор.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Tells whether a test value appears in a collection of reference values.</source>
+          <target state="translated">Указывает, отображается ли тестовое значение в коллекцию контрольных значений.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Always return as Boolean value.</source>
+          <target state="translated">Всегда возвращает логическое значение.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Returns TRUE only when the test value exactly matches at least one of the reference values.</source>
+          <target state="translated">Возвращает значение TRUE только в том случае, если по крайней мере одно из значений ссылки точно соответствует значение теста.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>When the test value is a collection, the In operator uses reference equality.</source>
+          <target state="translated">Если значение теста является коллекцией, оператор использует равенство ссылок.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>It returns TRUE only when one of the reference values is the same instance of the test value object.</source>
+          <target state="translated">Он возвращает значение TRUE только в том случае, если одно из значений ссылки является тем же экземпляром объекта значения теста.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The In operator was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Оператор впервые появился в Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Syntax: &lt;Test-value&gt; -in &lt;Reference-values&gt;</source>
+          <target state="translated">Синтаксис: &lt; значение теста &gt;-&lt; ссылку значения &gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Examples:</source>
+          <target state="translated">Примеры</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "def" -in "abc", "def" True</source>
+          <target state="translated">PS C: &gt; «def» — в «abc», «def» значение True</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Shell" -in "Windows", "PowerShell" False  #Not an exact match</source>
+          <target state="translated">PS C: &gt; «Оболочки» — в «Windows», «PowerShell» False #Not точное совпадение</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Windows" -in "Windows", "PowerShell" True  #An exact match</source>
+          <target state="translated">PS C: &gt; «Windows» — в «Windows», «PowerShell» True #совпадению</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Windows", "PowerShell" -in "Windows", "PowerShell", "ServerManager" False  #Using reference equality</source>
+          <target state="translated">PS C: &gt; «Windows», «PowerShell» — в «Windows», «PowerShell», «ServerManager» False #Using равенство ссылок</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $a = "Windows", "PowerShell" PS C:&gt; $a -in $a, "ServerManager" True  #Using reference equality</source>
+          <target state="translated">PS C: &gt; $a = «Windows», «PowerShell» PS C: &gt; $$ равенство ссылок True #Using, «ServerManager»</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Does the list of computers in $domainServers include $thisComputer?</source>
+          <target state="translated">Входит в список компьютеров в $domainServers $thisComputer?</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $thisComputer -in  $domainServers True</source>
+          <target state="translated">PS C: &gt; $thisComputer-в $domainServers True.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>-NotIn Description: NotIn operator.</source>
+          <target state="translated">-NotIn Описание: оператор NotIn.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Tells whether a test value appears in a collection of reference values.</source>
+          <target state="translated">Указывает, отображается ли тестовое значение в коллекцию контрольных значений.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Always returns a Boolean value.</source>
+          <target state="translated">Всегда возвращает значение типа Boolean.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Returns TRUE when the test value is not an exact match for at least one of the reference values.</source>
+          <target state="translated">Возвращает значение TRUE, если значение теста не точное соответствие по крайней мере одно из значений ссылки.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>When the test value is a collection, the In operator uses reference equality.</source>
+          <target state="translated">Если значение теста является коллекцией, оператор использует равенство ссылок.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>It returns TRUE only when one of the reference values is the same instance of the test value object.</source>
+          <target state="translated">Он возвращает значение TRUE только в том случае, если одно из значений ссылки является тем же экземпляром объекта значения теста.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The NotIn operator was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Оператор NotIn впервые появился в Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Syntax: &lt;Test-value&gt; -NotIn &lt;Reference-values&gt;</source>
+          <target state="translated">Синтаксис: &lt; значения ссылок &gt; &lt; значение теста &gt; - NotIn</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Examples:</source>
+          <target state="translated">Примеры</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "def" -NotIn "abc", "def" False</source>
+          <target state="translated">PS C: &gt; «def» - NotIn «abc», «def» значение False</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "ghi" -NotIn "abc", "def" True</source>
+          <target state="translated">PS C: &gt; «ghi» - NotIn «abc», «def» значение True</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Shell" -NotIn "Windows", "PowerShell" True  #Not an exact match</source>
+          <target state="translated">PS C: &gt; «Оболочки» - NotIn «Windows», «PowerShell» значение True, #Not точное совпадение</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Windows" -NotIn "Windows", "PowerShell" False  #An exact match</source>
+          <target state="translated">PS C: &gt; «Windows» - NotIn «Windows», «PowerShell» False #совпадению</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Find unapproved verbs in the functions in my module</source>
+          <target state="translated">Найти неутвержденные глаголы в функции в Мой модуль</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $ApprovedVerbs = Get-Verb | foreach {$<bpt id="p1">_</bpt>.verb} PS C:&gt; $myVerbs = Get-Command -Module MyModule | foreach {$<ept id="p1">_</ept>.verb}</source>
+          <target state="translated">PS C: &gt; $ApprovedVerbs = Get-Verb | foreach {$<bpt id="p1">_</bpt>.verb} PS C: &gt; $myVerbs = Get-Command-Module MyModule | foreach {$<ept id="p1">_</ept>.verb}</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $myVerbs | where {$_ -NotIn $ApprovedVerbs} ForEach Sort Tee Where</source>
+          <target state="translated">PS C: &gt; $myVerbs | где {$_ - NotIn $ApprovedVerbs} ForEach сортировки Tee Where</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>-Replace Description: Replace operator.</source>
+          <target state="translated">-Replace Описание: Оператор Replace.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Changes the specified elements of a value.</source>
+          <target state="translated">Изменяет значения указанных элементов.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Example:</source>
+          <target state="translated">Пример:</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Get-Process" -Replace "Get", "Stop" Stop-Process</source>
+          <target state="translated">PS C: &gt; «Get-Process-» замените «Получить», «Остановка» Stop-Process</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Change all .GIF file name extension to .JPG PS C:&gt; dir *.gif | foreach {$_ -Replace ".gif", ".jpg"}</source>
+          <target state="translated">Измените все. GIF расширение имени файла. JPG PS C: &gt; dir *.gif | foreach {$_-.gif «заменить», «JPG»}</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Equality Operators The equality operators (-eq, -ne) return a value of TRUE or the matches when one or more of the input values is identical to the specified pattern.</source>
+          <target state="translated">Операторы равенства операторов равенства (-eq, - ne) возвращает значение TRUE или совпадений, если один или несколько входных значений совпадает с указанным шаблоном.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The entire pattern must match an entire value.</source>
+          <target state="translated">Весь шаблон должен соответствовать всего значения.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>C:PS&gt; 2 -eq 2 True</source>
+          <target state="translated">True - eq 2 C:PS &gt; 2</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>C:PS&gt; 2 -eq 3 False</source>
+          <target state="translated">False - eq 3 &gt; 2 C:PS</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>C:PS&gt; 1,2,3 -eq 2</source>
+          <target state="translated">C:PS &gt; 1,2,3 - eq 2</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>2</source>
+          <target state="translated">2</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>C:PS&gt; "PowerShell" -eq "Shell" False</source>
+          <target state="translated">C:PS &gt; False «Оболочка» - eq «PowerShell»</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>C:PS&gt; "Windows", "PowerShell" -eq "Shell"</source>
+          <target state="translated">C:PS &gt; «Windows», «PowerShell» - eq «Оболочка»</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>C:PS&gt;</source>
+          <target state="translated">C:PS &gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "abc", "def", "123" -eq "def" def</source>
+          <target state="translated">PS C: &gt; «abc», «def», «123» def - eq «def»</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "abc", "def", "123" -ne "def" abc</source>
+          <target state="translated">PS C: &gt; «abc», «def», «123» - ne «def» abc</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>123</source>
+          <target state="translated">123</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Containment Operators The containment operators (-Contains and -NotContains) are similar to the equality operators.</source>
+          <target state="translated">Вложения операторами вложения (-содержит и оператор - не содержит) похожи на операторы равенства.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>However, the containment operators always return a Boolean value, even when the input is a collection.</source>
+          <target state="translated">Однако операторы вложения всегда возвращают логическое значение, даже в том случае, если входные данные — это коллекция.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Also, unlike the equality operators, the containment operators return a value as soon as they detect the first match.</source>
+          <target state="translated">Кроме того в отличие от операторов равенства вложения операторы возвращают значение сразу же после обнаружения первого совпадения.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>The equality operators evaluate all input and then return all the matches in the collection.</source>
+          <target state="translated">Операторы равенства оценки всех входных данных и возвращают все совпадения в коллекции.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The following examples show the effect of the -Contains operator:</source>
+          <target state="translated">В следующих примерах показано влияние содержит оператор:</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>C:PS&gt; 1,2,3 -contains 2 True</source>
+          <target state="translated">C:PS &gt; 1,2,3 содержит 2 True</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>C:PS&gt; "PowerShell" -contains "Shell" False</source>
+          <target state="translated">C:PS &gt; «PowerShell» — содержит «Оболочка» значение False</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>C:PS&gt; "Windows", "PowerShell" -contains "Shell" False</source>
+          <target state="translated">C:PS &gt; «Windows», «PowerShell» — содержит «Оболочка» значение False</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "abc", "def", "123" -contains "def" True</source>
+          <target state="translated">PS C: &gt; «abc», «def», «123» — содержит «def» значение True</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "true", "blue", "six" -contains "true" True</source>
+          <target state="translated">PS C: &gt; «true», «синий», «шесть-» содержит значение «true» True</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>The following example shows how the containment operators differ from the equal to operator.</source>
+          <target state="translated">В следующем примере показано, как вложения операторы отличаются от равенства оператору.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The containment operators return a value of TRUE on the first match.</source>
+          <target state="translated">Вложения операторы возвращают значение TRUE при первом совпадении.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; 1,2,3,4,5,4,3,2,1 -eq 2</source>
+          <target state="translated">PS C: &gt; 1,2,3,4,5,4,3,2,1 - eq 2</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>2</source>
+          <target state="translated">2</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>2</source>
+          <target state="translated">2</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; 1,2,3,4,5,4,3,2,1 -contains 2 True</source>
+          <target state="translated">PS C: &gt; 1,2,3,4,5,4,3,2,1 — содержит 2 True</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>In a very large collection, the -Contains operator returns results quicker than the equal to operator.</source>
+          <target state="translated">В большой набор содержит оператор возвращает результаты быстрее, чем оператор "равно".</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Match Operators The match operators (-Match and -NotMatch) find elements that match or do not match a specified pattern using regular expressions.</source>
+          <target state="translated">Соответствует операторами совпадения (-Match и - NotMatch) поиска элементов, которые соответствуют или не соответствуют указанному шаблону с помощью регулярных выражений.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>The syntax is:</source>
+          <target state="translated">Используется следующий синтаксис:</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>&lt;string[]&gt; -Match &lt;regular-expression&gt; &lt;string[]&gt; -NotMatch &lt;regular-expression&gt;</source>
+          <target state="translated">&lt; String [] - &gt; соответствует &lt; регулярных выражений &gt;&lt; string [] &gt; - NotMatch &lt; регулярных выражений &gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>The following examples show some uses of the -Match operator:</source>
+          <target state="translated">Ниже приведены примеры некоторых используется оператора - Match:</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Windows", "PowerShell" -Match ".shell" PowerShell</source>
+          <target state="translated">PS C: &gt; «Windows», «PowerShell» — соответствует PowerShell «.shell»</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; (Get-Command Get-Member -Syntax) -Match "-view" True</source>
+          <target state="translated">PS C: &gt; (Get-Command Get-Member-синтаксис)-совпадения»-представление» значение True</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; (Get-Command Get-Member -Syntax) -NotMatch "-path" True</source>
+          <target state="translated">PS C: &gt; (Get-Command Get-Member-синтаксис) - NotMatch» — путь» значение True</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; (Get-Content Servers.txt) -Match "^Server\d\d" Server01 Server02</source>
+          <target state="translated">PS C: &gt; (Get-Content Servers.txt)-совпадения» ^ Server\d\d «Server01 Server02</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>The match operators search only in strings.</source>
+          <target state="translated">Операторы поиска соответствия только в строках.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>They cannot search in arrays of integers or other objects.</source>
+          <target state="translated">Они не удается выполнить поиск в массивах целые числа или других объектов.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>The -Match and -NotMatch operators populate the $Matches automatic variable when the input (the left-side argument) to the operator is a single scalar object.</source>
+          <target state="translated">Операторы соответствия и - NotMatch заполнения автоматической переменной $Matches при входных данных (левый аргумент) для оператора представляет собой один скалярный объект.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>When the input is scalar, the -Match and -NotMatch operators return a Boolean value and set the value of the $Matches automatic variable to the matched components of the argument.</source>
+          <target state="translated">Если входные данные являются скалярными, Match и - NotMatch операторы возвращают логическое значение и значение автоматической переменной $Matches к этим компонентам аргумента.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>If the input is a collection, the -Match and -NotMatch operators return the matching members of that collection, but the operator does not populate the $Matches variable.</source>
+          <target state="translated">Если входные данные — это коллекция Match и - NotMatch операторы возвращают соответствующие элементы этой коллекции, но оператор не заполняет переменная $Matches.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>For example, the following command submits a collection of strings to the -Match operator.</source>
+          <target state="translated">Например, следующая команда отправляет коллекцию строк оператора - Match.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>The -Match operator returns the items in the collection that match.</source>
+          <target state="translated">-Соответствие возвращаемых элементов в коллекции, соответствующий оператор.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>It does not populate the $Matches automatic variable.</source>
+          <target state="translated">Он не заполняет автоматической переменной $Matches.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Sunday", "Monday", "Tuesday" -Match "sun" Sunday</source>
+          <target state="translated">PS C: &gt; «Воскресенье», «Понедельник», «Вторник» — соответствует «sun» воскресенье</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $matches</source>
+          <target state="translated">PS C: &gt; $matches</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;</source>
+          <target state="translated">PS C: &gt;</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>In contrast, the following command submits a single string to the -Match operator.</source>
+          <target state="translated">Напротив, следующая команда отправляет один строка оператора - Match.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>The -Match operator returns a Boolean value and populates the $Matches automatic variable.</source>
+          <target state="translated">Match, оператор возвращает логическое значение и заполняет автоматической переменной $Matches.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Sunday" -Match "sun" True</source>
+          <target state="translated">PS C: &gt; «Воскресенье» — соответствует «sun» значение True</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $matches</source>
+          <target state="translated">PS C: &gt; $matches</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Name                           Value</source>
+          <target state="translated">Имя значение</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>0                              Sun</source>
+          <target state="translated">0                              Sun</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>The -NotMatch operator populates the $Matches automatic variable when the input is scalar and the result is False, that it, when it detects a match.</source>
+          <target state="translated">Оператор - NotMatch заполняет автоматической переменной $Matches при входные данные являются скалярными, и результат имеет значение False, чтобы он при обнаружении совпадения.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Sunday" -NotMatch "rain" True</source>
+          <target state="translated">PS C: &gt; «Воскресенье» - NotMatch «родился» значение True</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $matches</source>
+          <target state="translated">PS C: &gt; $matches</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;</source>
+          <target state="translated">PS C: &gt;</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "Sunday" -NotMatch "day" False</source>
+          <target state="translated">PS C: &gt; «Воскресенье» - NotMatch «день» значение False</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $matches</source>
+          <target state="translated">PS C: &gt; $matches</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;</source>
+          <target state="translated">PS C: &gt;</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>Name                           Value</source>
+          <target state="translated">Имя значение</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>0                              day</source>
+          <target state="translated">0                              day</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>Replace Operator The -Replace operator replaces all or part of a value with the specified value using regular expressions.</source>
+          <target state="translated">Замените оператор — оператор заменяет все или часть значения с указанным значением с помощью регулярных выражений.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>You can use the -Replace operator for many administrative tasks, such as renaming files.</source>
+          <target state="translated">Можно использовать оператор - Replace для административных задач, таких как переименование файлов.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>For example, the following command changes the file name extensions of all .gif files to .jpg:</source>
+          <target state="translated">Например следующая команда изменяет расширениями все GIF-файлы в формате JPG:</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Get-ChildItem | Rename-Item -NewName { $_ -Replace '.gif$','.jpg$' }</source>
+          <target state="translated">Get-ChildItem | Rename-Item - NewName {$_-замените «.gif$», «$.jpg»}</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>The syntax of the -Replace operator is as follows, where the <ph id="ph1">&lt;original&gt;</ph> placeholder represents the characters to be replaced, and the <ph id="ph2">&lt;substitute&gt;</ph> placeholder represents the characters that will replace them:</source>
+          <target state="translated">Синтаксис - Replace, оператор является следующим образом, где <ph id="ph1">&lt;original&gt;</ph> прототип представляет символы, которые требуется заменить и <ph id="ph2">&lt;substitute&gt;</ph> прототип представляет символы, которые заменят их:</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>,</source>
+          <target state="translated">,</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>By default, the -Replace operator is case-insensitive.</source>
+          <target state="translated">По умолчанию заменить оператор не учитывается регистр.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>To make it case sensitive, use -cReplace.</source>
+          <target state="translated">С учетом регистра, используйте - cReplace.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>To make it explicitly case-insensitive, use -iReplace.</source>
+          <target state="translated">Чтобы сделать явно без учета регистра, используйте - iReplace.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>Consider the following examples:</source>
+          <target state="translated">Рассмотрим следующие примеры.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; "book" -Replace "B", "C" Cook PS C:&gt; "book" -iReplace "B", "C" Cook PS C:&gt; "book" -cReplace "B", "C" book</source>
+          <target state="translated">PS C: &gt; «книга» - замените «B», «C» Cook PS C: &gt; «книга», - iReplace «B», «C» Cook PS C: &gt; «книга» - cReplace «B», «C» книги</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; '&lt;command:parameter required="false" variableLength="true" globbing="false"'` | foreach {$_ -replace 'globbing="false"', 'globbing="true"'} &lt;command:parameter required="false" variableLength="true" globbing="true"</source>
+          <target state="translated">PS C: &gt; ' &lt; обязательные параметры: команда = variableLength «false» = «true» глобализацию = «false» '' | foreach {$_-замените "глобализацию = «false»", "Глобализация = «true»"} &lt; обязательные параметры: команда = variableLength «false» = «true» глобализацию = «true»</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Bitwise Operators Windows PowerShell supports the standard bitwise operators, including bitwise-AND (-bAnd), the inclusive and exclusive bitwise-OR operators (-bOr and -bXor), and bitwise-NOT (-bNot).</source>
+          <target state="translated">Побитовые операторы Windows PowerShell поддерживает стандартные побитовые операторы, включая побитового- и (-внешнего), включающие и исключающие операторы побитового или (-bOr и - bXor) и побитового НЕ (-bNot).</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 2.0, all bitwise operators work with 64-bit integers.</source>
+          <target state="translated">Начиная с Windows PowerShell 2.0, все битовые операторы работы с 64-разрядных целых чисел.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, the -shr (shift-right) and -shl (shift-left) are introduced to support bitwise arithmetic in Windows PowerShell.</source>
+          <target state="translated">Начиная с Windows PowerShell 3.0, - shr (сдвиг вправо) и - shl (сдвиг влево) представлены для поддержки Побитовая арифметика в Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell supports the following bitwise operators.</source>
+          <target state="translated">Windows PowerShell поддерживает следующие битовые операторы.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>Operator  Description               Example</source>
+          <target state="translated">Пример Описание оператора</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>-bAnd     Bitwise AND               PS C:&gt; 10 -band 3</source>
+          <target state="translated">-Внешнего побитовое и PS C: &gt; 10 - внешнего 3</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>2</source>
+          <target state="translated">2</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>-bOr      Bitwise OR (inclusive)    PS C:&gt; 10 -bor 3</source>
+          <target state="translated">-bOr побитовое или (включительно) PS C: &gt; 10 - bor 3</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>11</source>
+          <target state="translated">11</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>-bXor     Bitwise OR (exclusive)    PS C:&gt; 10 -bxor 3</source>
+          <target state="translated">-bXor побитовое или (исключительно) PS C: &gt; 10 - bxor 3</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>9</source>
+          <target state="translated">9</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>-bNot     Bitwise NOT               PS C:&gt; -bNot 10</source>
+          <target state="translated">Побитовый оператор НЕ - bNot PS C: &gt; - bNot 10</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>-11</source>
+          <target state="translated">-11</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>-shl      Shift-left                PS C:&gt; 100 -shl 2</source>
+          <target state="translated">-shl сдвиг влево PS C: &gt; 100 - shl 2</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>400</source>
+          <target state="translated">400</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>-shr      Shift-right               PS C:&gt; 100 -shr 1</source>
+          <target state="translated">-shr сдвига вправо PS C: &gt; 100 - shr 1</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>50</source>
+          <target state="translated">50</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>Bitwise operators act on the binary format of a value.</source>
+          <target state="translated">Побитовые операторы действуют на двоичный формат значения.</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>For example, the bit structure for the number 10 is 00001010 (based on 1 byte), and the bit structure for the number 3 is 00000011.</source>
+          <target state="translated">Например структура бит для числа 10 00001010 (основанный на 1 байт), которое структура бит для число 3 00000011.</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>When you use a bitwise operator to compare 10 to 3, the individual bits in each byte are compared.</source>
+          <target state="translated">При использовании Побитовый оператор для сравнения 10-3 сравниваются отдельными битами каждый байт.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>In a bitwise AND operation, the resulting bit is set to 1 only when both input bits are 1.</source>
+          <target state="translated">В побитовой операции AND полученный бит равен 1 только в том случае, если оба входных бита равны 1.</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>1010      (10)</source>
+          <target state="translated">1010      (10)</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>0011      ( 3)</source>
+          <target state="translated">0011      ( 3)</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>--------------  bAND</source>
+          <target state="translated">--------------  bAND</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>0010      ( 2)</source>
+          <target state="translated">0010      ( 2)</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>In a bitwise OR (inclusive) operation, the resulting bit is set to 1 when either or both input bits are 1.</source>
+          <target state="translated">При выполнении операции побитового ИЛИ (включительно) полученный бит равен 1, если один или оба входных бита равны 1.</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>The resulting bit is set to 0 only when both input bits are set to 0.</source>
+          <target state="translated">Полученный бит равен 0, только в том случае, если оба входных бита равны 0.</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>1010      (10)</source>
+          <target state="translated">1010      (10)</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>0011      ( 3)</source>
+          <target state="translated">0011      ( 3)</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>--------------  bOR (inclusive)</source>
+          <target state="translated">---bOR (включительно)</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>1011      (11)</source>
+          <target state="translated">1011      (11)</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>In a bitwise OR (exclusive) operation, the resulting bit is set to 1 only when one input bit is 1.</source>
+          <target state="translated">При выполнении операции побитового ИЛИ (монопольная) полученный бит равен 1 только в том случае, если один входной бит равен 1.</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>1010      (10)</source>
+          <target state="translated">1010      (10)</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>0011      ( 3)</source>
+          <target state="translated">0011      ( 3)</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>--------------  bXOR (exclusive)</source>
+          <target state="translated">---bXOR (исключительно)</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>1001      ( 9)</source>
+          <target state="translated">1001      ( 9)</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>The bitwise NOT operator is a unary operator that produces the binary complement of the value.</source>
+          <target state="translated">Побитового НЕ является унарный оператор, создающий двоичные дополнение значения.</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>A bit of 1 is set to 0 and a bit of 0 is set to 1.</source>
+          <target state="translated">Бит 1 имеет значение 0, а бит 0 имеет значение 1.</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>For example, the binary complement of 0 is -1, the maximum unsigned integer (0xffffffff), and the binary complement of -1 is 0.</source>
+          <target state="translated">Например двоичные дополнение 0-1, максимальное целое число без знака (0xffffffff), и двоичные дополнением значения -1 — 0.</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; -bNOT 10</source>
+          <target state="translated">PS C: &gt; - bNOT 10</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>-11</source>
+          <target state="translated">-11</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>0000 0000 0000 1010  (10)</source>
+          <target state="translated">0000 0000 0000 1010  (10)</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>------------------------- bNOT 1111 1111 1111 0101  (-11, xfffffff5)</source>
+          <target state="translated">---bNOT 1111 1111 1111 0101-(11, xfffffff5)</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>In a bitwise shift-left operation, all bits are moved "n" places to the left, where "n" is the value of the right operand.</source>
+          <target state="translated">В операцию побитового сдвига влево все биты перемещаются, что «n» помещает слева, где «n» — это значение правого операнда.</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>A zero is inserted in the ones place.</source>
+          <target state="translated">Нулевое значение вставляется в тех размещения.</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>When the left operand is an Integer (32-bit) value, the lower 5 bits of the right operand determine how many bits of the left operand are shifted.</source>
+          <target state="translated">Если левый операнд имеет тип Integer (32-разрядная версия), 5 младших битов правый операнд определить сдвигаются количества битов левого операнда.</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>When the left operand is a Long (64-bit) value, the lower 6 bits of the right operand determine how many bits of the left operand are shifted.</source>
+          <target state="translated">Если левый операнд имеет значение Long (64-разрядная версия), 6 младших битов правый операнд определить сдвигаются количества битов левого операнда.</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; 21 -shl 1</source>
+          <target state="translated">PS C: &gt; 21 - shl 1</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>42</source>
+          <target state="translated">42</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>00010101  (21)</source>
+          <target state="translated">00010101  (21)</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>00101010  (42)</source>
+          <target state="translated">00101010  (42)</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; 21 -shl 2</source>
+          <target state="translated">PS C: &gt; 21 - shl 2</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>84</source>
+          <target state="translated">84</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>00010101  (21)</source>
+          <target state="translated">00010101  (21)</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>00101010  (42)</source>
+          <target state="translated">00101010  (42)</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source>01010100  (84)</source>
+          <target state="translated">01010100  (84)</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>In a bitwise shift-right operation, all bits are moved "n" places to the right, where "n" is specified by the right operand.</source>
+          <target state="translated">В операцию побитового сдвига вправо все биты перемещаются, что «n» помещает справа, где указано «n», правый операнд.</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source>The shift-right operator (-shr) inserts a zero in the left-most place when shifting a positive or unsigned value to the right.</source>
+          <target state="translated">Оператор сдвига вправо (-shr) добавляет в месте слева ноль при сдвиг вправо положительного или без знака значения.</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>When the left operand is an Integer (32-bit) value, the lower 5 bits of the right operand determine how many bits of the left operand are shifted.</source>
+          <target state="translated">Если левый операнд имеет тип Integer (32-разрядная версия), 5 младших битов правый операнд определить сдвигаются количества битов левого операнда.</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source>When the left operand is a Long (64-bit) value, the lower 6 bits of the right operand determine how many bits of the left operand are shifted.</source>
+          <target state="translated">Если левый операнд имеет значение Long (64-разрядная версия), 6 младших битов правый операнд определить сдвигаются количества битов левого операнда.</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; 21 -shr 1</source>
+          <target state="translated">PS C: &gt; 21 - shr 1</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve">
+          <source>10</source>
+          <target state="translated">10</target>       </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve">
+          <source>00010101  (21)</source>
+          <target state="translated">00010101  (21)</target>       </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve">
+          <source>00001010  (10)</source>
+          <target state="translated">00001010  (10)</target>       </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; 21 -shr 2</source>
+          <target state="translated">PS C: &gt; 21 - shr 2</target>       </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source>5</source>
+          <target state="translated">5</target>       </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve">
+          <source>00010101  (21)</source>
+          <target state="translated">00010101  (21)</target>       </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve">
+          <source>00001010  (10)</source>
+          <target state="translated">00001010  (10)</target>       </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve">
+          <source>00000101  ( 5)</source>
+          <target state="translated">00000101  ( 5)</target>       </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve">
+          <source>SEE ALSO</source>
+          <target state="translated">СМ. ТАКЖЕ</target>       </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve">
+          <source>about_Operators about_Regular_Expressions about_Wildcards Compare-Object Foreach-Object Where-Object</source>
+          <target state="translated">about_Wildcards about_Regular_Expressions about_Operators Compare-Object Foreach-Object Where-Object</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

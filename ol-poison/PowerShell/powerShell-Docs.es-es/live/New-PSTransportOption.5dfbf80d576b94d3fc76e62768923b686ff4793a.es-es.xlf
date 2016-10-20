@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="es-es">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">68990fb131a5c42ea897299bb0e3307d95596351</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\New-PSTransportOption.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2a18f02717bb4b782900dcca3db989a569322c23</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f0cf325ffea92ff0c0aa9e20f25d4d3a0e2d5cbb</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">cmdlet de PowerShell</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>New-PSTransportOption</source>
+          <target state="translated">New-PSTransportOption</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>New-PSTransportOption</source>
+          <target state="translated">New-PSTransportOption</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">SINOPSIS</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Creates an object that contains advanced options for a session configuration.</source>
+          <target state="translated">Crea un objeto que contiene las opciones avanzadas de una configuración de sesión.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SINTAXIS</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">DESCRIPCIÓN</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-PSTransportOption<ept id="p1">**</ept> cmdlet creates an object that contains transport options for session configurations.</source>
+          <target state="translated">El <bpt id="p1">**</bpt>New-PSTransportOption<ept id="p1">**</ept> cmdlet crea un objeto que contiene las opciones de transporte para las configuraciones de sesión.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can use the object as the value of the <bpt id="p1">*</bpt>TransportOption<ept id="p1">*</ept> parameter of cmdlets that create or change a session configuration, such as the Register-PSSessionConfiguration and Set-PSSessionConfiguration cmdlets.</source>
+          <target state="translated">Puede usar el objeto como el valor de la <bpt id="p1">*</bpt>TransportOption<ept id="p1">*</ept> parámetro de cmdlets que crean o cambiar una configuración de sesión, como los cmdlets Register-PSSessionConfiguration y Set-PSSessionConfiguration.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can also change the transport option settings by editing the values of the session configuration properties in the WSMan: drive.</source>
+          <target state="translated">También puede cambiar la configuración de opciones de transporte mediante la edición de los valores de las propiedades de configuración de sesión en la unidad WSMan:.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For more information, see WSMan Provider.</source>
+          <target state="translated">Para obtener más información, consulte proveedor WSMan.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The session configuration options represent the session values set on the server-side, or receiving end of a remote connection.</source>
+          <target state="translated">Las opciones de configuración de sesión representan los valores de sesión establecidos en el servidor o el extremo receptor de una conexión remota.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The client-side, or sending end of the connection, can set session option values when the session is created, or when the client disconnects from or reconnects to the session.</source>
+          <target state="translated">El cliente o envío final de la conexión, puede establecer sesión valores de opción cuando se crea la sesión o cuando el cliente se desconecta o vuelve a conectarse a la sesión.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Unless stated otherwise, when the setting values conflict, the client-side values take precedence.</source>
+          <target state="translated">A menos que se indique lo contrario, cuando los valores de configuración entren en conflicto, los valores del cliente tienen prioridad.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>However, the client-side values cannot violate maximum values and quotas set in the session configuration.</source>
+          <target state="translated">Sin embargo, los valores de cliente no pueden infringir las cuotas y los valores máximos establecidos en la configuración de sesión.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Without parameters, <bpt id="p1">**</bpt>New-PSTransportOption<ept id="p1">**</ept> generates a transport option object that has null values for all of the options.</source>
+          <target state="translated">Sin parámetros, <bpt id="p1">**</bpt>New-PSTransportOption<ept id="p1">**</ept> genera un objeto de opción de transporte que tenga valores null para todas las opciones.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If you omit a parameter, the object has a null value for the property that the parameter represents.</source>
+          <target state="translated">Si se omite un parámetro, el objeto tiene un valor nulo para la propiedad que representa el parámetro.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A null value does not affect the session configuration.</source>
+          <target state="translated">Un valor null no afecta a la configuración de sesión.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For more information about session options, see New-PSSessionOption.</source>
+          <target state="translated">Para obtener más información acerca de las opciones de sesión, consulte New-PSSessionOption.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For more information about session configurations, see about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152).</source>
+          <target state="translated">Para más información sobre las configuraciones de sesión, vea la página about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152).</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This cmdlet was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Este cmdlet se introdujo en Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">EJEMPLOS</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Example 1: Generate a default transport option</source>
+          <target state="translated">Ejemplo 1: Generar una opción de transporte</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This command runs the <bpt id="p1">**</bpt>New-PSTransportOption<ept id="p1">**</ept> without parameters.</source>
+          <target state="translated">Este comando ejecuta el <bpt id="p1">**</bpt>New-PSTransportOption<ept id="p1">**</ept> sin parámetros.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The output shows that the cmdlet generates a transport option object that has null values for all properties.</source>
+          <target state="translated">El resultado muestra que el cmdlet genera un objeto de opción de transporte que tenga valores null para todas las propiedades.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Example 2: Get session configuration options</source>
+          <target state="translated">Ejemplo 2: Obtener opciones de configuración de sesión</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This example shows how to use a transport options object to set session configuration options.</source>
+          <target state="translated">Este ejemplo muestra cómo utilizar un objeto de opciones de transporte para establecer opciones de configuración de sesión.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Example 3: Setting a transport option</source>
+          <target state="translated">Ejemplo 3: Establecer una opción de transporte</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This command shows the effect of setting a transport option in a session configuration on the sessions that use the session configuration.</source>
+          <target state="translated">Este comando muestra el efecto de establecer una opción de transporte en una configuración de sesión en las sesiones que usan la configuración de sesión.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARÁMETROS</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-IdleTimeoutSec</source>
+          <target state="translated">-IdleTimeoutSec</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Determines how long each session stays open if the remote computer does not receive any communication from the local computer.</source>
+          <target state="translated">Determina cuánto tiempo permanece abierta si el equipo remoto no recibe cualquier comunicación desde el equipo local cada sesión.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This includes the heartbeat signal.</source>
+          <target state="translated">Esto incluye la señal de latido.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>When the interval expires, the session closes.</source>
+          <target state="translated">Cuando expira el intervalo, se cierra la sesión.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The idle time-out value is of significant importance when the user intends to disconnect and reconnect to a session.</source>
+          <target state="translated">El valor de tiempo de espera de inactividad es muy importante cuando el usuario intenta desconectar y volver a conectarse a una sesión.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The user can reconnect only if the session has not timed out.</source>
+          <target state="translated">El usuario puede volver a conectar solo si no se ha agotado el tiempo de espera de la sesión.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>IdleTimeoutSec<ept id="p1">*</ept> parameter corresponds to the <bpt id="p2">**</bpt>IdleTimeoutMs<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated">El <bpt id="p1">*</bpt>IdleTimeoutSec<ept id="p1">*</ept> parámetro corresponde a la <bpt id="p2">**</bpt>IdleTimeoutMs<ept id="p2">**</ept> propiedad de configuración de sesión.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Enter a value in seconds.</source>
+          <target state="translated">Especifique un valor en segundos.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The default value is 7200 (2 hours).</source>
+          <target state="translated">El valor predeterminado es 7200 (2 horas).</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The minimum value is 60 (1 minute).</source>
+          <target state="translated">El valor mínimo es 60 (1 minuto).</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The maximum is the value of the <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> property of Shell objects in the WSMan configuration (<ph id="ph1">`WSMan:\\\&lt;ComputerName\&gt;\Shell\IdleTimeout`</ph>).</source>
+          <target state="translated">El máximo es el valor de la <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> propiedad de objetos de Shell en la configuración de WSMan (<ph id="ph1">`WSMan:\\\&lt;ComputerName\&gt;\Shell\IdleTimeout`</ph>).</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The default value is 7200000 milliseconds (2 hours).</source>
+          <target state="translated">El valor predeterminado es 7200000 segundos (2 horas).</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If an idle time-out value is set in the session options and in the session configuration, value set in the session options takes precedence, but it cannot exceed the value of the <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> property of the session configuration.</source>
+          <target state="translated">Si se establece un valor de tiempo de espera de inactividad en las opciones de sesión y en la configuración de sesión, valor establecido en las opciones de sesión tiene prioridad, pero no puede superar el valor de la <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> propiedad de la configuración de sesión.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>To set the value of the <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> property, use the <bpt id="p2">*</bpt>MaxIdleTimeoutSec<ept id="p2">*</ept> parameter.</source>
+          <target state="translated">Para establecer el valor de la <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> propiedad, utilice la <bpt id="p2">*</bpt>MaxIdleTimeoutSec<ept id="p2">*</ept> parámetro.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>-MaxConcurrentCommandsPerSession</source>
+          <target state="translated">-MaxConcurrentCommandsPerSession</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Limits the number of commands that can run at the same time in each session to the specified value.</source>
+          <target state="translated">Limita el número de comandos que se pueden ejecutar simultáneamente en cada sesión en el valor especificado.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The default value is 1000.</source>
+          <target state="translated">El valor predeterminado es 1000.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>MaxConcurrentCommandsPerSession<ept id="p1">*</ept> parameter corresponds to the <bpt id="p2">**</bpt>MaxConcurrentCommandsPerShell<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated">El <bpt id="p1">*</bpt>MaxConcurrentCommandsPerSession<ept id="p1">*</ept> parámetro corresponde a la <bpt id="p2">**</bpt>MaxConcurrentCommandsPerShell<ept id="p2">**</ept> propiedad de configuración de sesión.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>-MaxConcurrentUsers</source>
+          <target state="translated">-MaxConcurrentUsers</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Limits the number of users who can run commands at the same time in each session to the specified value.</source>
+          <target state="translated">Limita el número de usuarios que pueden ejecutar comandos simultáneamente en cada sesión en el valor especificado.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The default value is 5.</source>
+          <target state="translated">El valor predeterminado es 5.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>-MaxIdleTimeoutSec</source>
+          <target state="translated">-MaxIdleTimeoutSec</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Limits the idle time-out set for each session to the specified value.</source>
+          <target state="translated">Limita el tiempo de espera establecido para cada sesión en el valor especificado.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The default value is <ph id="ph1">\[</ph>Int<ph id="ph2">\]</ph>::MaxValue (~25 days).</source>
+          <target state="translated">El valor predeterminado es <ph id="ph1">\[</ph>Int<ph id="ph2">\]</ph>:: MaxValue (~ 25 días).</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The idle time-out value is of significant importance when the user intends to disconnect and reconnect to a session.</source>
+          <target state="translated">El valor de tiempo de espera de inactividad es muy importante cuando el usuario intenta desconectar y volver a conectarse a una sesión.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The user can reconnect only if the session has not timed out.</source>
+          <target state="translated">El usuario puede volver a conectar solo si no se ha agotado el tiempo de espera de la sesión.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>MaxIdleTimeoutSec<ept id="p1">*</ept> parameter corresponds to the <bpt id="p2">**</bpt>MaxIdleTimeoutMs<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated">El <bpt id="p1">*</bpt>MaxIdleTimeoutSec<ept id="p1">*</ept> parámetro corresponde a la <bpt id="p2">**</bpt>MaxIdleTimeoutMs<ept id="p2">**</ept> propiedad de configuración de sesión.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>-MaxMemoryPerSessionMB</source>
+          <target state="translated">-MaxMemoryPerSessionMB</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Limits the memory used by each session to the specified value.</source>
+          <target state="translated">Limita la memoria usada por cada sesión en el valor especificado.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Enter a value in megabytes.</source>
+          <target state="translated">Escriba un valor en megabytes.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The default value is 1024 megabytes (1 GB).</source>
+          <target state="translated">El valor predeterminado es 1024 megabytes (1 GB).</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>MaxMemoryPerSessionMB<ept id="p1">*</ept> parameter corresponds to the <bpt id="p2">**</bpt>MaxMemoryPerShellMB<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated">El <bpt id="p1">*</bpt>MaxMemoryPerSessionMB<ept id="p1">*</ept> parámetro corresponde a la <bpt id="p2">**</bpt>MaxMemoryPerShellMB<ept id="p2">**</ept> propiedad de configuración de sesión.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>-MaxProcessesPerSession</source>
+          <target state="translated">-MaxProcessesPerSession</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Limits the number of processes running in each session to the specified value.</source>
+          <target state="translated">Limita el número de procesos que se ejecutan en cada sesión en el valor especificado.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The default value is 15.</source>
+          <target state="translated">El valor predeterminado es 15.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>MaxProcessesPerSession<ept id="p1">*</ept> parameter corresponds to the <bpt id="p2">**</bpt>MaxProcessesPerShell<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated">El <bpt id="p1">*</bpt>MaxProcessesPerSession<ept id="p1">*</ept> parámetro corresponde a la <bpt id="p2">**</bpt>MaxProcessesPerShell<ept id="p2">**</ept> propiedad de configuración de sesión.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>-MaxSessions</source>
+          <target state="translated">-MaxSessions</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Limits the number of sessions that use the session configuration.</source>
+          <target state="translated">Limita el número de sesiones que usan la configuración de sesión.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The default value is 25.</source>
+          <target state="translated">El valor predeterminado es 25.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>MaxSessions<ept id="p1">*</ept> parameter corresponds to the <bpt id="p2">**</bpt>MaxShells<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated">El <bpt id="p1">*</bpt>MaxSessions<ept id="p1">*</ept> parámetro corresponde a la <bpt id="p2">**</bpt>MaxShells<ept id="p2">**</ept> propiedad de configuración de sesión.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>-MaxSessionsPerUser</source>
+          <target state="translated">-MaxSessionsPerUser</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Limits the number of sessions that use the session configuration and run with the credentials of a given user to the specified value.</source>
+          <target state="translated">Limita el número de sesiones que usan la configuración de sesión y se ejecutan con las credenciales de un usuario determinado en el valor especificado.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The default value is 25.</source>
+          <target state="translated">El valor predeterminado es 25.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>When you specify this value, consider that many users might be using the credentials of a run as user.</source>
+          <target state="translated">Cuando se especifica este valor, considere la posibilidad de que muchos usuarios utilizando las credenciales de una ejecución como usuario.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>MaxSessionsPerUser<ept id="p1">*</ept> parameter corresponds to the <bpt id="p2">**</bpt>MaxShellsPerUser<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated">El <bpt id="p1">*</bpt>MaxSessionsPerUser<ept id="p1">*</ept> parámetro corresponde a la <bpt id="p2">**</bpt>MaxShellsPerUser<ept id="p2">**</ept> propiedad de configuración de sesión.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>-OutputBufferingMode</source>
+          <target state="translated">-OutputBufferingMode</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Determines how command output is managed in disconnected sessions when the output buffer becomes full.</source>
+          <target state="translated">Determina cómo se administra el resultado del comando en las sesiones desconectadas cuando el búfer de salida se llena.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">Los valores aceptables para este parámetro son los siguientes:</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Block.</source>
+          <target state="translated">Bloque.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>When the output buffer is full, execution is suspended until the buffer is clear.</source>
+          <target state="translated">cuando el búfer de salida está lleno, la ejecución se suspende hasta que el búfer se vacíe.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Drop.</source>
+          <target state="translated">Quitar.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>When the output buffer is full, execution continues.</source>
+          <target state="translated">cuando el búfer de salida está lleno, la ejecución continúa.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>As new output is saved, the oldest output is discarded.</source>
+          <target state="translated">Conforme se guarda el nuevo resultado, se descarta el resultado más antiguo.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>None.</source>
+          <target state="translated">Ninguna.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>No output buffering mode is specified.</source>
+          <target state="translated">no se ha especificado ningún modo de almacenamiento en búfer de salida.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The default value of the <bpt id="p1">**</bpt>OutputBufferingMode<ept id="p1">**</ept> property of sessions is Block.</source>
+          <target state="translated">El valor predeterminado de la <bpt id="p1">**</bpt>OutputBufferingMode<ept id="p1">**</ept> propiedad de sesiones es el bloque.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>-ProcessIdleTimeoutSec</source>
+          <target state="translated">-ProcessIdleTimeoutSec</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Limits the time-out for each host process to the specified value.</source>
+          <target state="translated">Limita el tiempo de espera para cada proceso de host para el valor especificado.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The default value, 0, means that there is no time-out value for the process.</source>
+          <target state="translated">El valor predeterminado, 0, significa que no hay ningún valor de tiempo de espera para el proceso.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Other session configurations have per-process time-out values.</source>
+          <target state="translated">Otras configuraciones de sesión tienen valores de tiempo de espera por proceso.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>For example, the <bpt id="p1">**</bpt>Microsoft.PowerShell.Workflow<ept id="p1">**</ept> session configuration has a per-process time-out value of 28800 seconds (8 hours).</source>
+          <target state="translated">Por ejemplo, el <bpt id="p1">**</bpt>Microsoft.PowerShell.Workflow<ept id="p1">**</ept> configuración de sesión tiene un valor de tiempo de espera por proceso de 28.800 segundos (8 horas).</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Este cmdlet admite los parámetros comunes:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction y - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Para obtener más información, consulte about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ENTRADAS</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>You cannot pipe input to this cmdlet.</source>
+          <target state="translated">No se puede canalizar la entrada a este cmdlet.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">SALIDAS</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Microsoft.PowerShell.Commands.WSManConfigurationOption</source>
+          <target state="translated">Microsoft.PowerShell.Commands.WSManConfigurationOption</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTAS</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The properties of a session configuration object vary with the options set for the session configuration and the values of those options.</source>
+          <target state="translated">Las propiedades de un objeto de configuración de sesión varían según las opciones establecidas para la configuración de sesión y los valores de esas opciones.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Also, session configurations that use a session configuration file have additional properties.</source>
+          <target state="translated">Además, las configuraciones de sesión que utilizan un archivo de configuración de sesión tienen propiedades adicionales.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">VÍNCULOS RELACIONADOS</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>about_Session_Configurations</source>
+          <target state="translated">about_Session_Configurations</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>New-PSSession</source>
+          <target state="translated">New-PSSession</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>New-PSSessionOption</source>
+          <target state="translated">New-PSSessionOption</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Register-PSSessionConfiguration</source>
+          <target state="translated">Register-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Set-PSSessionConfiguration</source>
+          <target state="translated">Set-PSSessionConfiguration</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

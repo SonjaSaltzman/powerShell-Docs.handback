@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">177c023a473235e032bebd7f9df301a67c7fd97f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\Suspend-Job.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e7a11659cf146068d08af3ed6ef80896b8bdfa96</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">33e772f42de352be831c6a2246d3691dd9202a1f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell, командлет</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Suspend-Job</source>
+          <target state="translated">Suspend-Job</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Suspend-Job</source>
+          <target state="translated">Suspend-Job</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">КРАТКИЙ ОБЗОР</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Temporarily stops workflow jobs.</source>
+          <target state="translated">Временно останавливает задания рабочих процессов.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">СИНТАКСИС</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>SessionIdParameterSet (Default)</source>
+          <target state="translated">SessionIdParameterSet (по умолчанию)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>JobParameterSet</source>
+          <target state="translated">JobParameterSet</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>FilterParameterSet</source>
+          <target state="translated">FilterParameterSet</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>StateParameterSet</source>
+          <target state="translated">StateParameterSet</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>InstanceIdParameterSet</source>
+          <target state="translated">InstanceIdParameterSet</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>NameParameterSet</source>
+          <target state="translated">NameParameterSet</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">ОПИСАНИЕ</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> cmdlet suspends workflow jobs.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> командлет приостанавливает задания рабочих процессов.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Suspend means to temporarily interrupt or pause a workflow job.</source>
+          <target state="translated">Приостановить возможность временно прерывания работы или приостановки задания рабочего процесса.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This cmdlet allows users who are running workflows to suspend the workflow.</source>
+          <target state="translated">Он позволяет пользователям, выполняющим рабочие процессы, приостанавливать их.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>It complements the Suspend-Workflowhttp://go.microsoft.com/fwlink/?LinkId=267141 activity, which is a command in the workflow that suspends the workflow.</source>
+          <target state="translated">Он дополняет действие Suspend Workflowhttp://go.microsoft.com/fwlink/?LinkId=267141, которое представляет собой команду рабочего процесса, который приостанавливает рабочий процесс.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> cmdlet works only on workflow jobs.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> командлет работает только для задания рабочих процессов.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>It does not work on standard background jobs, such as those that are started by using the Start-Job cmdlet.</source>
+          <target state="translated">Не работает со стандартными фоновыми заданиями, например те, которые запускаются с помощью командлета Start-Job.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To identify a workflow job, look for a value of PSWorkflowJob in the <bpt id="p1">**</bpt>PSJobTypeName<ept id="p1">**</ept> property of the job.</source>
+          <target state="translated">Чтобы определить задание рабочего процесса, найдите значение PSWorkflowJob в <bpt id="p1">**</bpt>PSJobTypeName<ept id="p1">**</ept> Свойства задания.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To determine whether a particular custom job type supports the <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> cmdlet, see the help topics for the custom job type.</source>
+          <target state="translated">Чтобы определить, поддерживает ли определенное задание настраиваемого типа <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> командлета, см. в разделах справки для задания пользовательского типа.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>When you suspend a workflow job, the workflow job runs to the next checkpoint, suspends, and immediately returns a workflow job object.</source>
+          <target state="translated">Когда вы приостанавливаете задание рабочего процесса, оно выполняется до следующей контрольной точки, приостанавливается и немедленно возвращает объект задания рабочего процесса.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To wait for the suspension to complete before getting the job, use the <bpt id="p1">*</bpt>Wait<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>Suspend-Job<ept id="p2">**</ept> or the Wait-Job cmdlet.</source>
+          <target state="translated">Чтобы дождаться завершения приостановки перед получением задания, используйте <bpt id="p1">*</bpt>ожидания<ept id="p1">*</ept> параметр <bpt id="p2">**</bpt>Suspend-Job<ept id="p2">**</ept> или командлет Wait-Job.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>When the workflow job is suspended, the value of the <bpt id="p1">**</bpt>State<ept id="p1">**</ept> property of the job is Suspended.</source>
+          <target state="translated">При приостановке задания рабочего процесса, значение <bpt id="p1">**</bpt>состояние<ept id="p1">**</ept> приостановки задания.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Suspending correctly relies on checkpoints.</source>
+          <target state="translated">Правильность приостановки зависит от контрольных точек.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The current job state, metadata, and output are saved in the checkpoint so the workflow job can be resumed without loss of state or data.</source>
+          <target state="translated">Текущее состояние задания, метаданные и выходные данные сохраняются в контрольной точке, без потери данных или состояния можно возобновить задание рабочего процесса.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If the workflow job does not have checkpoints, it cannot be suspended correctly.</source>
+          <target state="translated">Если задание рабочего процесса нет контрольных точек, его нельзя приостановить правильно.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To add checkpoints to a workflow that you are running, use the <bpt id="p1">*</bpt>PSPersist<ept id="p1">*</ept> workflow common parameter.</source>
+          <target state="translated">Чтобы добавить рабочий процесс, который вы используете контрольные точки, используйте <bpt id="p1">*</bpt>PSPersist<ept id="p1">*</ept> общий параметр рабочего процесса.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">*</bpt>Force<ept id="p1">*</ept> parameter to suspend any workflow job immediately and to suspend a workflow job that does not have checkpoints, but the action could cause loss of state and data.</source>
+          <target state="translated">Можно использовать <bpt id="p1">*</bpt>Force<ept id="p1">*</ept> параметр немедленно приостановить любое задание рабочего процесса и приостановить задание рабочего процесса, у которых нет контрольных точек, однако это действие может привести к потере состояния и данных.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Before you use a Job cmdlet on a custom job type, such as a workflow job (<bpt id="p1">**</bpt>PSWorkflowJob<ept id="p1">**</ept>) import the module that supports the custom job type, either by using the Import-Module cmdlet or using or using a cmdlet in the module.</source>
+          <target state="translated">Перед использованием командлета Job задание настраиваемого типа, например задание рабочего процесса (<bpt id="p1">**</bpt>PSWorkflowJob<ept id="p1">**</ept>) импортируйте модуль, который поддерживает пользовательский тип задания, используя командлет Import-Module или с помощью или с помощью командлета в модуле.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This cmdlet was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Этот командлет впервые появился в Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">ПРИМЕРЫ</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Example 1: Suspend a workflow job by name</source>
+          <target state="translated">Пример 1: Приостановить задание рабочего процесса по имени</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This example shows how to suspend a workflow job.</source>
+          <target state="translated">В этом примере показано, как приостановить задание рабочего процесса.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Example 2: Suspend and resume a workflow job</source>
+          <target state="translated">Пример 2: Приостановка и возобновление задания рабочего процесса</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This example shows how to suspend and resume a workflow job.</source>
+          <target state="translated">В этом примере показано, как приостановить, а затем возобновить задание рабочего процесса.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Example 3: Suspend a workflow job on a remote computer</source>
+          <target state="translated">Пример 3: Приостановить задание рабочего процесса на удаленном компьютере</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This command uses the Invoke-Command cmdlet to suspend a workflow job on the Srv01 remote computer.</source>
+          <target state="translated">Эта команда использует командлет Invoke-Command для приостановки задания рабочего процесса на удаленном компьютере Srv01.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">*</bpt>Filter<ept id="p1">*</ept> parameter is a hash table that specifies a CustomID value.</source>
+          <target state="translated">Значение <bpt id="p1">*</bpt>фильтра<ept id="p1">*</ept> параметр является хэш-таблицу с указанием значения CustomID.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This <bpt id="p1">**</bpt>CustomID<ept id="p1">**</ept> is job metadata (<bpt id="p2">**</bpt>PSPrivateMetadata<ept id="p2">**</ept>).</source>
+          <target state="translated">Это <bpt id="p1">**</bpt>CustomID<ept id="p1">**</ept> — это метаданные задания (<bpt id="p2">**</bpt>PSPrivateMetadata<ept id="p2">**</ept>).</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Example 4: Wait for the workflow job to suspend</source>
+          <target state="translated">Пример 4: Дождитесь приостановки задания рабочего процесса</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This command suspends the VersionCheck workflow job.</source>
+          <target state="translated">Эта команда приостанавливает задание рабочего процесса VersionCheck.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>Wait<ept id="p1">*</ept> parameter to wait until the workflow job is suspended.</source>
+          <target state="translated">Команда использует <bpt id="p1">*</bpt>ожидания<ept id="p1">*</ept> параметр ожидания до приостановки задания рабочего процесса.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>When the workflow job runs to the next checkpoint and is suspended, the command finishes and returns the job object.</source>
+          <target state="translated">При задание рабочего процесса выполняется до следующей контрольной точки и приостанавливается, команда завершается и возвращает объект задания.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Example 5: Force a workflow job to suspend</source>
+          <target state="translated">Пример 5: Принудительно для приостановки задания рабочего процесса</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This command suspends the Maintenance workflow job forcibly.</source>
+          <target state="translated">Эта команда принудительно приостанавливает задание рабочего процесса Maintenance.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The Maintenance job does not have checkpoints.</source>
+          <target state="translated">Задания по обслуживанию нет контрольных точек.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>It cannot be suspended correctly and might not resume correctly.</source>
+          <target state="translated">Его нельзя правильно приостановить и возобновить правильно.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">ПАРАМЕТРЫ</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">Запрашивает подтверждение перед запуском командлета. Запрашивает подтверждение перед запуском командлета.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>-Filter</source>
+          <target state="translated">-Фильтр</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Specifies a hash table of conditions.</source>
+          <target state="translated">Указывает хэш-таблицу условий.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>This cmdlet suspends jobs that satisfy all of the conditions.</source>
+          <target state="translated">Этот командлет приостанавливает задания, которые отвечают всем условиям.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Enter a hash table where the keys are job properties and the values are job property values.</source>
+          <target state="translated">Введите хэш-таблицу, где ключи являются свойствами заданий, а значения — значениями этих свойств.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Suspends the workflow job immediately.</source>
+          <target state="translated">Мгновенно приостанавливает задание рабочего процесса.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>This action could cause a loss of state and data.</source>
+          <target state="translated">Это действие может привести к потере состояния и данных.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> lets the workflow job run until the next checkpoint and then suspends it.</source>
+          <target state="translated">По умолчанию <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> позволяет задания рабочего процесса, который выполняется до следующей контрольной точки и затем приостанавливает его.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>You can also use this parameter to suspend workflow jobs that do not have checkpoints.</source>
+          <target state="translated">С помощью этого параметра можно также приостанавливать задания рабочих процессов, у которых нет контрольных точек.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>-Id</source>
+          <target state="translated">-Id</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Specifies the IDs of jobs that this cmdlet suspends.</source>
+          <target state="translated">Указывает идентификаторы заданий, этот командлет приостанавливает.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The ID is an integer that uniquely identifies the job in the current session.</source>
+          <target state="translated">Идентификатор представляет собой целое число, которое однозначно определяет задание в текущем сеансе.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>It is easier to remember and to type than the instance ID, but it is unique only in the current session.</source>
+          <target state="translated">Проще запомнить и ввести, чем идентификатор экземпляра, но он уникален только в текущем сеансе.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>You can type one or more IDs, separated by commas.</source>
+          <target state="translated">Можно ввести один или несколько идентификаторов, разделенных запятыми.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>To find the ID of a job, use the Get-Job cmdlet.</source>
+          <target state="translated">Чтобы найти идентификатор задания, с помощью командлета Get-Job.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>-InstanceId</source>
+          <target state="translated">-InstanceId</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Specifies the instance IDs of jobs that this cmdlet suspends.</source>
+          <target state="translated">Указывает идентификатор экземпляра задания, этот командлет приостанавливает.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The default is all jobs.</source>
+          <target state="translated">По умолчанию останавливаются все задания.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>An instance ID is a GUID that uniquely identifies the job on the computer.</source>
+          <target state="translated">Идентификатор экземпляра — это GUID, который однозначно определяет задание на компьютере.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>To find the instance ID of a job, use <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept>.</source>
+          <target state="translated">Чтобы узнать идентификатор экземпляра задания, используйте <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-Job</source>
+          <target state="translated">-Задания</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Specifies the workflow jobs that this cmdlet stops.</source>
+          <target state="translated">Указывает этот командлет останавливает задания рабочих процессов.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the workflow jobs or a command that gets the workflow jobs.</source>
+          <target state="translated">Введите переменную, которая содержит задания рабочих процессов, или команду, которая получает их.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>You can also pipe workflow jobs to the <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">Можно также передать задания рабочих процессов для <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> командлета.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Specifies friendly names of jobs that this cmdlet suspends.</source>
+          <target state="translated">Указывает понятные имена заданий, этот командлет приостанавливает.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Enter one or more workflow job names.</source>
+          <target state="translated">Введите одно или несколько имен заданий рабочих процессов.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are supported.</source>
+          <target state="translated">Поддерживаются подстановочные знаки.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>-State</source>
+          <target state="translated">-Состояние</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Specifies a job state.</source>
+          <target state="translated">Указывает состояние задания.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>This cmdlet stops only jobs in the specified state.</source>
+          <target state="translated">Этот командлет останавливает только задания в указанном состоянии.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">Ниже указаны допустимые значения этого параметра.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>NotStarted</source>
+          <target state="translated">NotStarted</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Running</source>
+          <target state="translated">Выполнение</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Completed</source>
+          <target state="translated">Completed</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Failed</source>
+          <target state="translated">Failed</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Stopped</source>
+          <target state="translated">Остановлена</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Blocked</source>
+          <target state="translated">Блокировано</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Suspended</source>
+          <target state="translated">Suspended</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Disconnected</source>
+          <target state="translated">Disconnected (Отключено).</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Suspending</source>
+          <target state="translated">Приостановка</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Stopping</source>
+          <target state="translated">Stopping</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> suspends only workflow jobs in the <bpt id="p2">**</bpt>Running<ept id="p2">**</ept> state.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Приостановить задание<ept id="p1">**</ept> приостанавливает только задания рабочих процессов в <bpt id="p2">**</bpt>под управлением<ept id="p2">**</ept> состояния.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>For more information about job states, see JobState Enumerationhttp://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.jobstate(v=vs.85).aspx (http://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.jobstate(v=vs.85).aspx ) in the Microsoft Developer Network (MSDN).</source>
+          <target state="translated">Дополнительные сведения о состоянии заданий см. в разделе JobState Enumerationhttp://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.jobstate (v=vs.85).aspx (http://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.jobstate (v=vs.85).aspx) в Microsoft Developer Network (MSDN).</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>-Wait</source>
+          <target state="translated">-Wait</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet suppresses the command prompt until the workflow job is in the suspended state.</source>
+          <target state="translated">Указывает, что этот командлет отключает командую строку до задания рабочего процесса в приостановленном состоянии.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> returns immediately, even if the workflow job is not yet in the suspended state.</source>
+          <target state="translated">По умолчанию <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> возвращается немедленно, даже если задание рабочего процесса еще не находится в приостановленном состоянии.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>Wait<ept id="p1">*</ept> parameter is equivalent to piping a <bpt id="p2">**</bpt>Suspend-Job<ept id="p2">**</ept> command to the <bpt id="p3">**</bpt>Wait-Job<ept id="p3">**</ept> cmdlet.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>Ожидания<ept id="p1">*</ept> параметр эквивалентен по конвейеру <bpt id="p2">**</bpt>Suspend-Job<ept id="p2">**</ept> команды <bpt id="p3">**</bpt>ожидания задания<ept id="p3">**</ept> командлета.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Показывает, что произойдет при запуске командлета.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Командлет не запущен. Показывает, что произойдет при запуске командлета.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">Командлет не запущен.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Этот командлет поддерживает общие параметры:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction и - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Дополнительные сведения см. в разделе about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ВХОДНЫЕ ДАННЫЕ</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.Job</source>
+          <target state="translated">System.Management.Automation.Job</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>You can pipe all types of jobs to this cmdlet.</source>
+          <target state="translated">Можно передать все типы заданий для этого командлета.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>However, if <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> gets a job of an unsupported type, it returns a terminating error.</source>
+          <target state="translated">Однако если <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> получает задание неподдерживаемого типа, он возвращает неустранимую ошибку.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">ВЫХОДНЫЕ ДАННЫЕ</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.Job</source>
+          <target state="translated">System.Management.Automation.Job</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>This cmdlet returns the jobs that it suspended.</source>
+          <target state="translated">Этот командлет возвращает приостановленные задания.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ПРИМЕЧАНИЯ</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The mechanism and location for saving a suspended job might vary depending on the job type.</source>
+          <target state="translated">Механизм и место сохранения приостановленного задания могут различаться в зависимости от его типа.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>For example, suspended workflow jobs are saved in a flat file store by default, but can also be saved in a database.</source>
+          <target state="translated">Например, по умолчанию приостановленные задания рабочих процессов сохраняются в хранилище неструктурированных файлов, но также могут сохраняться в базе данных.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>If you submit a workflow job that is not in the Running state, <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> displays a warning message.</source>
+          <target state="translated">При отправке задания рабочего процесса, который не находится в состоянии выполнения <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> отображает предупреждающее сообщение.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>To suppress the warning, use the <bpt id="p1">*</bpt>WarningAction<ept id="p1">*</ept> common parameter with a value of SilentlyContinue.</source>
+          <target state="translated">Чтобы отключить предупреждения, используйте <bpt id="p1">*</bpt>WarningAction<ept id="p1">*</ept> общий параметр со значением SilentlyContinue.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>If a job is not of a type that supports suspending, <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> returns a terminating error.</source>
+          <target state="translated">Если задание не имеет тип, поддерживающий Приостановка, <bpt id="p1">**</bpt>Suspend-Job<ept id="p1">**</ept> возвращает неустранимую ошибку.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>To find the workflow jobs that are suspended, including those that were suspended by this cmdlet, use the <bpt id="p1">*</bpt>State<ept id="p1">*</ept> parameter of the <bpt id="p2">**</bpt>Get-Job<ept id="p2">**</ept> cmdlet to get workflow jobs in the Suspended state.</source>
+          <target state="translated">Чтобы найти задания рабочего процесса, которые будут приостановлены, включая те, которые были приостановлены этим командлетом, используйте <bpt id="p1">*</bpt>состояние<ept id="p1">*</ept> параметр <bpt id="p2">**</bpt>Get-Job<ept id="p2">**</ept> для получения задания рабочего процесса в состояние Suspended.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Some job types have options or properties that prevent Windows PowerShell from suspending the job.</source>
+          <target state="translated">Задания некоторых типов имеют параметры или свойства, которые не позволяют среде Windows PowerShell приостанавливать их.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>If attempts to suspend the job fail, verify that the job options and properties allow for suspending.</source>
+          <target state="translated">Если не удалось приостановить задание, убедитесь, что параметры и свойства для приостановки.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">СВЯЗАННЫЕ ССЫЛКИ</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Get-Job</source>
+          <target state="translated">Get задания</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Receive-Job</source>
+          <target state="translated">Получение задания</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Remove-Job</source>
+          <target state="translated">Удаление задания</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Resume-Job</source>
+          <target state="translated">Resume-Job</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Start-Job</source>
+          <target state="translated">Запуск задания</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Stop-Job</source>
+          <target state="translated">Остановка задания</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Suspend-Job</source>
+          <target state="translated">Suspend-Job</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Wait-Job</source>
+          <target state="translated">Wait-Job</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

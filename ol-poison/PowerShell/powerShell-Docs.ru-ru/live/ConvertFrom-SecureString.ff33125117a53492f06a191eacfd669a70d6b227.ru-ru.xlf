@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fe0f4243f7d3b73bda13a3a240ecabd78f2d87c0</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Security\ConvertFrom-SecureString.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cf3f8021cce44290013a2adf448f76828111c8cb</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">12c294a0ae2cbdb967f2c5164eb94de1aaf14956</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell, командлет</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>ConvertFrom-SecureString</source>
+          <target state="translated">ConvertFrom-SecureString.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>ConvertFrom-SecureString</source>
+          <target state="translated">ConvertFrom-SecureString.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">КРАТКИЙ ОБЗОР</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Converts a secure string into an encrypted standard string.</source>
+          <target state="translated">Преобразует защищенную строку в зашифрованную стандартную строку.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">СИНТАКСИС</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Secure (Default)</source>
+          <target state="translated">Безопасность (по умолчанию)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Open</source>
+          <target state="translated">Открыть</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">ОПИСАНИЕ</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ConvertFrom-SecureString<ept id="p1">**</ept> cmdlet converts a secure string (System.Security.SecureString) into an encrypted standard string (System.String).</source>
+          <target state="translated"> <bpt id="p1">**</bpt>ConvertFrom-SecureString<ept id="p1">**</ept> преобразует защищенную строку (System.Security.SecureString) в зашифрованную стандартную строку (System.String).</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Unlike a secure string, an encrypted standard string can be saved in a file for later use.</source>
+          <target state="translated">В отличие от безопасной строки, зашифрованную стандартную строку можно сохранить в файл и использовать позднее.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The encrypted standard string can be converted back to its secure string format by using the ConvertTo-SecureString cmdlet.</source>
+          <target state="translated">Стандартную зашифрованную строку можно преобразовать в формат безопасной строки, используя командлет ConvertTo-SecureString.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If an encryption key is specified by using the <bpt id="p1">**</bpt>Key<ept id="p1">**</ept> or <bpt id="p2">**</bpt>SecureKey<ept id="p2">**</ept> parameters, the Advanced Encryption Standard (AES) encryption algorithm is used.</source>
+          <target state="translated">Если ключ шифрования указан с помощью <bpt id="p1">**</bpt>ключ<ept id="p1">**</ept> или <bpt id="p2">**</bpt>SecureKey<ept id="p2">**</ept> Параметры расширенный стандарт шифрования (AES) используется алгоритм шифрования.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The specified key must have a length of 128, 192, or 256 bits because those are the key lengths supported by the AES encryption algorithm.</source>
+          <target state="translated">Указанный ключ должен иметь размер, равный 128, 192 или 256 бит, потому что именно такие размеры поддерживаются алгоритмом шифрования AES.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If no key is specified, the Windows Data Protection API (DPAPI) is used to encrypt the standard string representation.</source>
+          <target state="translated">Если ключ не указан, то используется API защиты данных Windows (DPAPI) для шифрования представления стандартной строки.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">ПРИМЕРЫ</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- ПРИМЕР 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This command creates a secure string from characters that you type at the command prompt.</source>
+          <target state="translated">Эта команда создает безопасную строку из символов, введенных через командную строку.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>After entering the command, type the string you want to store as a secure string.</source>
+          <target state="translated">После ввода команды введите строку, которую нужно сохранить как безопасную.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>An asterisk (*) is displayed to represent each character that you type.</source>
+          <target state="translated">Звездочка (*) означает каждый вводимый символ.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This command converts the secure string in the $SecureString variable to an encrypted standard string.</source>
+          <target state="translated">Это команда преобразует безопасную строку в переменной $SecureString в зашифрованную стандартную строку.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The resulting encrypted standard string is stored in the $StandardString variable.</source>
+          <target state="translated">Получившаяся зашифрованная стандартная строка хранится в переменной $StandardString.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>These commands use the Advanced Encryption Standard (AES) algorithm to convert the secure string stored in the $SecureString variable to an encrypted standard string with a 192-bit key.</source>
+          <target state="translated">Эти команды используют алгоритм AES для преобразования безопасной строки, хранящейся в переменной $SecureString, в зашифрованную стандартную строку при помощи 192-битного ключа.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The resulting encrypted standard string is stored in the $standardstring variable.</source>
+          <target state="translated">Получившаяся зашифрованная стандартная строка хранится в переменной $standardstring.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The first command stores a key in the $Key variable.</source>
+          <target state="translated">Первая команда хранит ключ в переменной $Key.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The key is an array of 24 digits, all of which are less than 256.</source>
+          <target state="translated">Ключ является массивом из 24 цифр, каждая из которых меньше 256.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Because each digit represents a byte (8 bits), the key has 24 digits for a total of 192 bits (8 x 24).</source>
+          <target state="translated">Так как каждая цифра представляет собой байт (8 бит), ключ имеет 24 цифры общим количество 192 бита (8 x 24).</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This is a valid key length for the AES algorithm.</source>
+          <target state="translated">Это действительный размер ключа для алгоритма AES.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Each individual value is less than 256, which is the maximum value that can be stored in an unsigned byte.</source>
+          <target state="translated">Каждое индивидуальное значение меньше числа 256 — максимального значения, которое может храниться в беззнаковом байте.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The second command uses the key in the $Key variable to convert the secure string to an encrypted standard string.</source>
+          <target state="translated">Вторая команда использует ключ в переменной $Key для преобразования безопасной строки в зашифрованную стандартную строку.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">ПАРАМЕТРЫ</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-Key</source>
+          <target state="translated">-Ключ</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Specifies the encryption key as a byte array.</source>
+          <target state="translated">Указывает ключ шифрования в виде массива байтов.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>-SecureKey</source>
+          <target state="translated">-SecureKey</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Specifies the encryption key as a secure string.</source>
+          <target state="translated">Указывает ключ шифрования в виде безопасной строки.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The secure string value is converted to a byte array before being used as the key.</source>
+          <target state="translated">Значение безопасной строки преобразуется в массив байтов перед использованием в качестве ключа.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>-SecureString</source>
+          <target state="translated">-SecureString</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Specifies the secure string to convert to an encrypted standard string.</source>
+          <target state="translated">Указывает безопасную строку, в которую нужно преобразовать зашифрованную стандартную строку.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Этот командлет поддерживает общие параметры:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction и - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Дополнительные сведения см. в разделе about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ВХОДНЫЕ ДАННЫЕ</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>System.Security.SecureString</source>
+          <target state="translated">System.Security.SecureString</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>You can pipe a SecureString object to ConvertFrom-SecureString.</source>
+          <target state="translated">Можно передать объект SecureString в ConvertFrom-SecureString.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">ВЫХОДНЫЕ ДАННЫЕ</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>System.String</source>
+          <target state="translated">System.String</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>ConvertFrom-SecureString returns a standard string object.</source>
+          <target state="translated">ConvertFrom-SecureString возвращает объект стандартной строки.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ПРИМЕЧАНИЯ</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To create a secure string from characters that are typed at the command prompt, use the AsSecureString parameter of the Read-Host cmdlet.</source>
+          <target state="translated">Чтобы создать безопасную строку из символов, вводимых в командной строке, используйте параметр AsSecureString командлет Read-Host.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>When you use the Key or SecureKey parameters to specify a key, the key length must be correct.</source>
+          <target state="translated">При использовании параметров Key или SecureKey для указания ключа убедитесь в правильном размере ключа.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>For example, a key of 128 bits can be specified as a byte array of 16 digits.</source>
+          <target state="translated">Например, 128-битный ключ можно указать как массив байтов из 16 цифр.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Similarly, 192-bit and 256-bit keys correspond to byte arrays of 24 and 32 digits, respectively.</source>
+          <target state="translated">Подобный образом 192-битные и 256-битные ключи можно представить в виде массивов байтов размером в 24 и 32 цифр соответственно.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">СВЯЗАННЫЕ ССЫЛКИ</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>ConvertTo-SecureString</source>
+          <target state="translated">Командлет ConvertTo-SecureString.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Read-Host</source>
+          <target state="translated">Read-Host</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

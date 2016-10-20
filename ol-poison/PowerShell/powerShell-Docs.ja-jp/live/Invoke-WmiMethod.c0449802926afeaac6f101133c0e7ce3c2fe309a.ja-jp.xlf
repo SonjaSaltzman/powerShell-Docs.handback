@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6711e60f1ea055392bb60a1a9d1af59ca66e89d5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Management\Invoke-WmiMethod.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a04ac8a1eb8cb1770aa2045f67d524d877ee4c1a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c2c65728dc012146adc1f8f8a440d0d3485cafc2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Invoke-WmiMethod</source>
+          <target state="translated">Invoke-wmimethod</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Invoke-WmiMethod</source>
+          <target state="translated">Invoke-wmimethod</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Calls Windows Management Instrumentation (WMI) methods.</source>
+          <target state="translated">Windows Management Instrumentation (WMI) メソッドを呼び出します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">構文</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>class (Default)</source>
+          <target state="translated">クラス (既定値)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>object</source>
+          <target state="translated">オブジェクト</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>path</source>
+          <target state="translated">パス</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>list</source>
+          <target state="translated">ボックスの一覧</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>WQLQuery</source>
+          <target state="translated">WQLQuery</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>query</source>
+          <target state="translated">クエリ</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">説明</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Invoke-WmiMethod<ept id="p1">**</ept> cmdlet calls the methods of WMI objects.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Invoke-wmimethod<ept id="p1">**</ept> コマンドレットは、WMI オブジェクトのメソッドを呼び出します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>New CIM cmdlets, introduced Windows PowerShell 3.0, perform the same tasks as the WMI cmdlets.</source>
+          <target state="translated">Windows PowerShell 3.0 で導入された新しい CIM コマンドレットは、WMI コマンドレットと同じタスクを実行します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The CIM cmdlets comply with WS-Management (WSMan) standards and with the Common Information Model (CIM) standard, which enables the cmdlets to use the same techniques to manage Windows computers and those running other operating systems.</source>
+          <target state="translated">CIM コマンドレットは、WS-Management (WSMan) 標準と Common Information Model (CIM) 標準に準拠しています。そのため、Windows コンピューターと、他のオペレーティング システムを実行しているコンピューターを同じ手法で管理できます。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Instead of using <bpt id="p1">**</bpt>Invoke-WmiMethod<ept id="p1">**</ept>, consider using Invoke-CimMethodhttp://go.microsoft.com/fwlink/?LinkId=227965.</source>
+          <target state="translated">使用せずに <bpt id="p1">**</bpt>Invoke-wmimethod<ept id="p1">**</ept>, 、Invoke CimMethodhttp://go.microsoft.com/fwlink/?LinkId=227965 の使用を検討します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To invoke WMI in PowerShell 3.0 differs from alternate methods, and requires that object values are entered in a specific order.</source>
+          <target state="translated">PowerShell 3.0 での WMI の呼び出しは他の方法とは異なり、オブジェクト値を特定の順序で入力する必要があります。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This command lists the required order of the objects.</source>
+          <target state="translated">このコマンドは、必要なオブジェクトの順序を一覧表示します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The following two commands start an instance of Notepad by calling the Create method of the Win32_Process class.</source>
+          <target state="translated">次の 2 つのコマンドは、Win32_Process クラスの Create メソッドを呼び出すことで、メモ帳のインスタンスを起動します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Note: The ReturnValue property is populated with a 0, and the ProcessId property is populated with an integer (the next process ID number) if the command is completed.</source>
+          <target state="translated">注: ReturnValue プロパティが 0、コマンドが完了した場合に、整数 (次のプロセス ID 番号) を含む、ProcessId プロパティが設定されます。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This command renames a file.</source>
+          <target state="translated">このコマンドは、ファイル名を変更します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>It uses the Path parameter to reference an instance of the CIM_DataFile class.</source>
+          <target state="translated">Path パラメーターを使用して、CIM_DataFile クラスのインスタンスを参照します。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Then, it applies the Rename method to that particular instance.</source>
+          <target state="translated">次に、その特定のインスタンスに対して Rename メソッドを適用します。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Note: The ReturnValue property is populated with a 0 if the command is completed.</source>
+          <target state="translated">注: ReturnValue プロパティが設定されます 0 で、コマンドが完了します。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">パラメータ</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-ArgumentList</source>
+          <target state="translated">-ArgumentList</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Specifies the parameters to pass to the called method.</source>
+          <target state="translated">呼び出したメソッドに渡すパラメーターを指定します。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The value of this parameter must be an array of objects, and they must appear in the order required by the called method (note that new Invoke-CimCommand does not have these limitations).</source>
+          <target state="translated">このパラメーターの値はオブジェクトの配列である必要があり、これらのオブジェクトは呼び出されたメソッドで求められる順序で配置されている必要があります (新しい Invoke-CimCommand にはこれらの制限事項はありません)。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To determine the order in which to list those objects, run the GetMethodParameters() method on the WMI class, as illustrated in Example 1, near the end of this topic.</source>
+          <target state="translated">これらのオブジェクトを配置する順序を指定するには、このトピックの最後の方の例 1 に示すように、WMI クラスの GetMethodParameters() メソッドを実行します。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Important: If the first value is an array that contains more than one element, a second value of $null is required.</source>
+          <target state="translated">重要: 最初の値が複数の要素を含む配列である場合は、2 つ目の値を $null にする必要があります。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Otherwise, the command generates an error, such as "Unable to cast object of type 'System.Byte' to type 'System.Array'.".</source>
+          <target state="translated">これを指定しないと、"型 'System.Byte' のオブジェクトを型 'System.Array' にキャストできません" などのエラーがコマンドで生成されます。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>An example using an array of objects ($binSD) followed by a null value ($null) follows:</source>
+          <target state="translated">null 値 ($null) を指定したオブジェクトの配列 ($binSD) の使用例を次に示します。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>PS C:<ph id="ph1">\\\&gt;</ph>$acl = get-acl test.txt</source>
+          <target state="translated">PS c:<ph id="ph1">\\\&gt;</ph>$acl、get-acl test.txt を =</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>PS C:<ph id="ph1">\\\&gt;</ph>$binSD = $acl.GetSecurityDescriptorBinaryForm()</source>
+          <target state="translated">PS c:<ph id="ph1">\\\&gt;</ph>$binSD = $acl です。GetSecurityDescriptorBinaryForm()</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>PS C:<ph id="ph1">\\\&gt;</ph>invoke-wmimethod -class Win32_SecurityDescriptorHelper -Name BinarySDToSDDL -argumentlist $binSD, $null</source>
+          <target state="translated">PS c:<ph id="ph1">\\\&gt;</ph>呼び出す wmimethod-Win32_SecurityDescriptorHelper をクラスの名前 BinarySDToSDDL-argumentlist $binSD、$null</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>-AsJob</source>
+          <target state="translated">-AsJob</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Runs the command as a background job.</source>
+          <target state="translated">バックグラウンド ジョブとしてコマンドを実行します。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Use this parameter to run commands that take a long time to finish.</source>
+          <target state="translated">完了に時間のかかるコマンドを実行するには、このパラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>When you use the <bpt id="p1">**</bpt>AsJob<ept id="p1">**</ept> parameter, the command returns an object that represents the background job and then displays the command prompt.</source>
+          <target state="translated">使用すると、 <bpt id="p1">**</bpt>AsJob<ept id="p1">**</ept> パラメーター、コマンドは、バック グラウンド ジョブを表し、コマンド プロンプトを表示するオブジェクトを返します。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You can continue to work in the session while the job finishes.</source>
+          <target state="translated">ジョブが完了しても、引き続きセッションで作業できます。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">**</bpt>Invoke-WmiMethod<ept id="p1">**</ept> is used against a remote computer, the job is created on the local computer, and the results from remote computers are automatically returned to the local computer.</source>
+          <target state="translated">場合 <bpt id="p1">**</bpt>Invoke-wmimethod<ept id="p1">**</ept> 使用は、リモート コンピューターに対して、ジョブはローカル コンピューターで作成され、リモート コンピューターからの結果は、ローカル コンピューターに自動的に返されます。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To manage the job, use the cmdlets that contain the Job noun (the Job cmdlets).</source>
+          <target state="translated">ジョブを管理するには、Job という名詞を含むコマンドレット (Job コマンドレット) を使用します。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>To get the job results, use the Receive-Job cmdlet.</source>
+          <target state="translated">ジョブの結果を取得するには、Receive-Job コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Note: To use this parameter with remote computers, the local and remote computers must be configured for remoting.</source>
+          <target state="translated">注: このパラメーターをリモート コンピューターで使用するには、ローカル コンピューターおよびリモート コンピューターをリモート処理用に構成する必要があります。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Additionally, you must start Windows PowerShell by using the "Run as administrator" option in Windows Vista and later versions of Windows.</source>
+          <target state="translated">さらに、Windows Vista 以降のバージョンの Windows では、[管理者として実行] を使用して Windows PowerShell を起動する必要があります。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Remote_Requirements.</source>
+          <target state="translated">詳細については、「about_Remote_Requirements」を参照してください。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>For more information about Windows PowerShell background jobs, see about_Jobs and about_Remote_Jobs.</source>
+          <target state="translated">Windows PowerShell のバック グラウンド ジョブの詳細については、about_Jobs」および「about_Remote_Jobs を参照してください。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>-Authentication</source>
+          <target state="translated">-認証</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Specifies the authentication level to be used with the WMI connection.</source>
+          <target state="translated">WMI 接続に使用する認証レベルを指定します。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Valid values are:</source>
+          <target state="translated">有効な値は、</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>-1: Unchanged</source>
+          <target state="translated">-1: Unchanged</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>0: Default</source>
+          <target state="translated">0: Default</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>1: None (No authentication in performed.)</source>
+          <target state="translated">1: None (認証は行われません)</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>2: Connect (Authentication is performed only when the client establishes a relationship with the application.)</source>
+          <target state="translated">2: Connect (認証は、クライアントとアプリケーションの関係が確立されるときのみ実行されます)</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>3: Call (Authentication is performed only at the beginning of each call when the application receives the request.)</source>
+          <target state="translated">3: Call (認証は、アプリケーションが要求を受信するときに各呼び出しの始めにだけ実行されます)</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>4: Packet (Authentication is performed on all the data that is received from the client.)</source>
+          <target state="translated">4: Packet (認証はクライアントから受信されるすべてのデータで実行されます)</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>5: PacketIntegrity (All the data that is transferred between the client  and the application is authenticated and verified.)</source>
+          <target state="translated">5: PacketIntegrity (クライアントとアプリケーション間で転送されるすべてのデータが認証され、確認されます)</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>6: PacketPrivacy (The properties of the other authentication levels are used, and all the data is encrypted.)</source>
+          <target state="translated">6: PacketPrivacy (他の認証レベルのプロパティが使用され、すべてのデータが暗号化されます)</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>-Authority</source>
+          <target state="translated">-機関</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Specifies the authority to use to authenticate the WMI connection.</source>
+          <target state="translated">WMI 接続の認証に使用する機関を指定します。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>You can specify standard NTLM or Kerberos authentication.</source>
+          <target state="translated">標準の NTLM 認証または Kerberos 認証を指定できます。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>To use NTLM, set the authority setting to ntlmdomain:<ph id="ph1">\&lt;</ph>DomainName<ph id="ph2">\&gt;</ph>, where <ph id="ph3">\&lt;</ph>DomainName<ph id="ph4">\&gt;</ph> identifies a valid NTLM domain name.</source>
+          <target state="translated">NTLM を使用するには、ntlmdomain に機関の設定を設定します。<ph id="ph1">\&lt;</ph>DomainName<ph id="ph2">\&gt;</ph>, ここで、 <ph id="ph3">\&lt;</ph>DomainName<ph id="ph4">\&gt;</ph> 有効な NTLM ドメイン名を識別します。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>To use Kerberos, specify kerberos:<ph id="ph1">\&lt;</ph>DomainName\ServerName<ph id="ph2">\&gt;</ph>.</source>
+          <target state="translated">Kerberos を使用するには、kerberos を指定します。<ph id="ph1">\&lt;</ph>DomainName\ServerName<ph id="ph2">\&gt;</ph>します。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>You cannot include the authority setting when you connect to the local computer.</source>
+          <target state="translated">ローカル コンピューターへの接続時に認証設定を指定することもできます。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>-Class</source>
+          <target state="translated">クラス</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Specifies the WMI class that contains a static method to call.</source>
+          <target state="translated">静的な呼び出しメソッドが含まれている WMI クラスを指定します。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-ComputerName</source>
+          <target state="translated">-ComputerName</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Runs the command on the specified computers.</source>
+          <target state="translated">指定されたコンピューターでコマンドを実行します。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The default is the local computer.</source>
+          <target state="translated">既定はローカル コンピュータです。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Type the NetBIOS name, an IP address, or a fully qualified domain name of one or more computers.</source>
+          <target state="translated">1 台または複数のコンピューターの NetBIOS 名、IP アドレス、または完全修飾ドメイン名を入力します。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>To specify the local computer, type the computer name, a dot (.), or "localhost".</source>
+          <target state="translated">ローカル コンピューターを指定するには、コンピューター名、ドット (.)、または「localhost」を入力します。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>This parameter does not rely on Windows PowerShell remoting.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell リモート処理に依存しません。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>You can use the ComputerName parameter even if your computer is not configured to run remote commands.</source>
+          <target state="translated">コンピューターがリモート コマンドを実行するように構成されていない場合でも、ComputerName パラメーターを使用できます。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>-Credential</source>
+          <target state="translated">-Credential</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Specifies a user account that has permission to perform this action.</source>
+          <target state="translated">この処理を実行するアクセス許可を持つユーザー アカウントを指定します。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The default is the current user.</source>
+          <target state="translated">既定値は現在のユーザーです。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Type a user name, such as "User01", "Domain01\User01", or User@Contoso.com.</source>
+          <target state="translated">「User01」、「Domain01\User01」、「User@Contoso.com」など、ユーザー名を入力します。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Or, enter a PSCredential object, such as an object that is returned by the Get-Credential cmdlet.</source>
+          <target state="translated">または、Get-Credential コマンドレットで返されるような PSCredential オブジェクトを入力します。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>When you type a user name, you will be prompted for a password.</source>
+          <target state="translated">ユーザー名を入力すると、パスワードの入力を促すメッセージが表示されます。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>-EnableAllPrivileges</source>
+          <target state="translated">-EnableAllPrivileges</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Enables all the privileges of the current user before the command makes the WMI call.</source>
+          <target state="translated">コマンドが WMI 呼び出しを実行する前に、現在のユーザーのすべての特権を有効にします。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>-Impersonation</source>
+          <target state="translated">偽装</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Specifies the impersonation level to use.</source>
+          <target state="translated">使用する偽装レベルを指定します。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Valid values are:</source>
+          <target state="translated">有効な値は、</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>0: Default (Reads the local registry for the default impersonation level, which is usually set to "3: Impersonate".)</source>
+          <target state="translated">0: Default (既定の偽装レベルのローカル レジストリを読み取ります。通常は "3: Impersonate" に設定されます)</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>1: Anonymous (Hides the credentials of the caller.)</source>
+          <target state="translated">1: Anonymous (呼び出し元の資格情報は非表示になります)</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>2: Identify (Allows objects to query the credentials of the caller.)</source>
+          <target state="translated">2: Identify (オブジェクトによる呼び出し元の資格情報のクエリが許可されます)</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>3: Impersonate (Allows objects to use the credentials of the caller.)</source>
+          <target state="translated">3: Impersonate (オブジェクトによる呼び出し元の資格情報の使用が許可されます)</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>4: Delegate (Allows objects to permit other objects to use the credentials of the caller.)</source>
+          <target state="translated">4: Delegate (オブジェクトが呼び出し元の資格情報の使用を他のオブジェクトに許可できるようにします)</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-Inputobject</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Specifies a ManagementObject object to use as input.</source>
+          <target state="translated">入力として使用する ManagementObject オブジェクトを指定します。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>When this parameter is used, all other parameters except the Flag and Argument parameters are ignored.</source>
+          <target state="translated">このパラメーターを使用する場合、Flag パラメーターと Argument パラメーターを除くすべてのパラメーターが無視されます。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>-Locale</source>
+          <target state="translated">ロケール</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Specifies the preferred locale for WMI objects.</source>
+          <target state="translated">WMI オブジェクトの優先ロケールを指定します。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Specify the value of the Locale parameter as an array in the MS_<ph id="ph1">\&lt;</ph>LCID<ph id="ph2">\&gt;</ph> format in the preferred order.</source>
+          <target state="translated">配列で、ms _ Locale パラメーターの値を指定<ph id="ph1">\&lt;</ph>LCID<ph id="ph2">\&gt;</ph> 、優先順に書式設定します。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the method to be invoked.</source>
+          <target state="translated">呼び出すメソッドの名前を指定します。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>This parameter is mandatory and cannot be null or empty.</source>
+          <target state="translated">このパラメーターは必須です。Null や空にはできません。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>-Namespace</source>
+          <target state="translated">名前空間</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>When used with the Class parameter, this parameter specifies the WMI repository namespace where the referenced WMI class or object is located.</source>
+          <target state="translated">Class パラメーターと共に使用する場合、このパラメーターは、参照先の WMI クラスまたはオブジェクトがある WMI リポジトリ名前空間を指定します。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>-Path</source>
+          <target state="translated">-Path</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Specifies the WMI object path of a WMI class, or specifies the WMI object path of an instance of a WMI class.</source>
+          <target state="translated">WMI クラスの WMI オブジェクト パス、または WMI クラスのインスタンスの WMI オブジェクト パスを指定します。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The class or the instance that you specify must contain the method that is specified in the Name parameter.</source>
+          <target state="translated">指定するクラスまたはインスタンスには、Name パラメーターで指定したメソッドが含まれている必要があります。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>-ThrottleLimit</source>
+          <target state="translated">-ThrottleLimit</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Allows the user to specify a throttling value for the number of WMI operations that can be executed simultaneously.</source>
+          <target state="translated">同時に実行できる WMI 操作の数のスロットル値をユーザーが指定できるようにします。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>This parameter is used together with the AsJob parameter.</source>
+          <target state="translated">このパラメーターは、AsJob パラメーターと共に使用します。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The throttle limit applies only to the current command, not to the session or to the computer.</source>
+          <target state="translated">スロットル制限は現在のコマンドのみに適用され、セッションまたはコンピューターには適用されません。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">コマンドレットを実行する前に確認するように求められます。コマンドレットを実行する前に確認するように求められます。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">コマンドレットを実行するとどのような結果になるかを表示します。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">コマンドレットは実行されません。コマンドレットが実行された場合の処理を示しています。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">コマンドレットは実行されません。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">このコマンドレットは、共通のパラメーターをサポートしています:-デバッグ、-erroraction、-errorvariable、- InformationAction-InformationVariable、- OutVariable、-OutBuffer、- PipelineVariable、- Verbose、および - WarningVariable です。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">詳細については、about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">入力</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">None</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>This cmdlet does not accept any input.</source>
+          <target state="translated">このコマンドレットは入力を受け取りません。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">出力</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">None</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>This cmdlet does not generate any output.</source>
+          <target state="translated">このコマンドレットは出力を生成しません。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ノート</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">関連リンク</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Get-WmiObject</source>
+          <target state="translated">Get-WmiObject</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Remove-WmiObject</source>
+          <target state="translated">Remove-wmiobject</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Set-WmiInstance</source>
+          <target state="translated">Set-wmiinstance</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Get-WSManInstance</source>
+          <target state="translated">Get-WSManInstance</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Invoke-WSManAction</source>
+          <target state="translated">Invoke-WSManAction</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>New-WSManInstance</source>
+          <target state="translated">新しい WSManInstance</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Remove-WSManInstance</source>
+          <target state="translated">削除 WSManInstance</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

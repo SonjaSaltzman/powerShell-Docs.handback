@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0a490c8612a74127caf43a010643abe467782a2c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Utility\Add-Type.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8a719c880d0655ef1007bca65d22406c5f651632</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a9dbe286b2bc6bae87cc99b7ef7d8be4683034d7</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Add-Type</source>
+          <target state="translated">種類の追加</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Add-Type</source>
+          <target state="translated">種類の追加</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Adds a Microsoft .NET Framework class in a Windows PowerShell session.</source>
+          <target state="translated">Windows PowerShell セッションで、Microsoft .NET Framework クラスを追加します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">構文</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>FromSource (Default)</source>
+          <target state="translated">FromSource (既定値)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>FromMember</source>
+          <target state="translated">FromMember</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>FromPath</source>
+          <target state="translated">FromPath</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>FromLiteralPath</source>
+          <target state="translated">FromLiteralPath</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>FromAssemblyName</source>
+          <target state="translated">FromAssemblyName</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">説明</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet adds a Microsoft .NET Framework class in your Windows PowerShell session.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> コマンドレットは、Windows PowerShell セッションで、Microsoft .NET Framework クラスを追加します。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can then use the New-Object cmdlet to instantiate objects and use those objects, just as you would use any .NET Framework object.</source>
+          <target state="translated">任意の .NET Framework オブジェクトと同じよう、オブジェクトのインスタンスを作成し、それらのオブジェクトを使用して、New-object コマンドレットを使用することができます。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If you add an <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> command to your Windows PowerShell profile, the class is available in all Windows PowerShell sessions.</source>
+          <target state="translated">追加する場合、 <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> クラスはすべての Windows PowerShell セッションで使用できる Windows PowerShell プロファイルに使用するコマンドです。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can specify the type by specifying an existing assembly or source code files, or you can specify the source code inline or saved in a variable.</source>
+          <target state="translated">既存のアセンブリまたはソース コード ファイルを指定して型を指定することも、インラインで、または変数に保存されたソース コードを指定することもできます。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can even specify only a method and this cmdlet will define and generate the class.</source>
+          <target state="translated">メソッドのみを指定することもできます。 このコマンドレットは定義を、クラスを生成します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can use this feature to make Platform Invoke (P/Invoke) calls to unmanaged functions in Windows PowerShell.</source>
+          <target state="translated">この機能を使用して、Windows PowerShell 内でアンマネージ関数に対して Platform Invoke (P/invoke) 呼び出しを実行できます。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If you specify source code, this cmdlet compiles the specified source code and generates an in-memory assembly that contains the new .NET Framework types.</source>
+          <target state="translated">ソース コードを指定する場合、このコマンドレットは指定されたソース コードをコンパイルし、新しい .NET Framework の型を格納するメモリ内アセンブリを生成します。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can use the parameters of <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> to specify an alternate language and compiler options, assembly dependencies, the class namespace, the names of the type, and the resulting assembly.</source>
+          <target state="translated">パラメーターを使用する <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> 、代替の言語およびコンパイラ オプション、アセンブリの依存関係、クラスの名前空間、型、および生成されたアセンブリの名前を指定します。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>C# is the default language.</source>
+          <target state="translated">C# の場合は、既定の言語です。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Example 1: Add a .NET type to a session</source>
+          <target state="translated">例 1: .NET 型をセッションに追加します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This example adds the <bpt id="p1">**</bpt>BasicTest<ept id="p1">**</ept> class to the session by specifying source code that is stored in a variable.</source>
+          <target state="translated">この例では追加、 <bpt id="p1">**</bpt>BasicTest<ept id="p1">**</ept> 変数に格納されているソース コードを指定することによってセッションにクラスです。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The type has a static method called Add and a non-static method called Multiply.</source>
+          <target state="translated">型には、Add と呼ばれる静的メソッドと、Multiply と呼ばれる非静的メソッドがあります。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The first command stores the source code for the class in the $Source variable.</source>
+          <target state="translated">最初のコマンドは、クラスのソース コードを $Source 変数に格納します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet to add the class to the session.</source>
+          <target state="translated">2 番目のコマンドを使用して、 <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> コマンドレットは、セッションにクラスを追加します。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Because it is using inline source code, the command uses the <bpt id="p1">*</bpt>TypeDefinition<ept id="p1">*</ept> parameter to specify the code in the $Source variable.</source>
+          <target state="translated">インラインのソース コードを使用しているため、コマンドを使用して、 <bpt id="p1">*</bpt>TypeDefinition<ept id="p1">*</ept> $Source 変数にコードを指定するパラメーターです。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The remaining commands use the new class.</source>
+          <target state="translated">その他のコマンドは、新しいクラスを使用します。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The third command calls the Add static method of the <bpt id="p1">**</bpt>BasicTest<ept id="p1">**</ept> class.</source>
+          <target state="translated">3 番目のコマンドは、の Add 静的メソッドを呼び出して、 <bpt id="p1">**</bpt>BasicTest<ept id="p1">**</ept> クラスです。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>It uses the double-colon characters (::) to specify a static member of the class.</source>
+          <target state="translated">ダブル コロン文字 (::) を使用して、クラスの静的メンバーを指定します。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The fourth command uses the <bpt id="p1">**</bpt>New-Object<ept id="p1">**</ept> cmdlet to instantiate an instance of the BasicTest class.</source>
+          <target state="translated">4 番目のコマンドを使用して、 <bpt id="p1">**</bpt>New-object<ept id="p1">**</ept> コマンドレット、BasicTest クラスのインスタンスをインスタンス化します。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>It saves the new object in the $BasicTestObject variable.</source>
+          <target state="translated">新しいオブジェクトは、$BasicTestObject 変数に保存されます。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The fifth command uses the Multiply method of $BasicTestObject.</source>
+          <target state="translated">5 番目のコマンドを使用して、$BasicTestObject の Multiply メソッドです。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Example 2: Examine an added type</source>
+          <target state="translated">例 2: 追加された型を確認します。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>These commands use the Get-Member cmdlet to examine the objects that the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> and New-Object cmdlets created in the previous example.</source>
+          <target state="translated">これらのコマンドは、オブジェクトを調べ、Get-member コマンドレットを使用する、 <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> と前の例で作成した New-object コマンドレットです。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept> cmdlet to get the type and members of the BasicTest class that <bpt id="p2">**</bpt>Add-Type<ept id="p2">**</ept> added to the session.</source>
+          <target state="translated">最初のコマンドを使用して、 <bpt id="p1">**</bpt>Get-member<ept id="p1">**</ept> クラスの型と、BasicTest のメンバーを取得するコマンドレット <bpt id="p2">**</bpt>Add-type<ept id="p2">**</ept> セッションに追加します。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept> command reveals that it is a <bpt id="p2">**</bpt>System.RuntimeType<ept id="p2">**</ept> object, which is derived from the System.Object class.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Get-member<ept id="p1">**</ept> コマンドの表示である、 <bpt id="p2">**</bpt>System.RuntimeType<ept id="p2">**</ept> System.Object クラスから派生したオブジェクト。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">*</bpt>Static<ept id="p1">*</ept> parameter of the <bpt id="p2">**</bpt>Get-Member<ept id="p2">**</ept> cmdlet to get the static properties and methods of the BasicTest class.</source>
+          <target state="translated">2 番目のコマンドを使用して、 <bpt id="p1">*</bpt>静的<ept id="p1">*</ept> のパラメーター、 <bpt id="p2">**</bpt>Get-member<ept id="p2">**</ept> 静的プロパティおよび BasicTest クラスのメソッドを取得するコマンドレットです。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The output shows that the Add method is included.</source>
+          <target state="translated">出力は、Add メソッドが含まれていることを示しています。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The third command uses the Get-Member cmdlet to get the members of the object stored in the $BasicTestObject variable.</source>
+          <target state="translated">3 番目のコマンドでは、Get-member コマンドレットを使用して、$BasicTestObject 変数に格納されているオブジェクトのメンバーを取得します。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This was the object instance that was created by using the New-Object cmdlet with the $BasicType class.</source>
+          <target state="translated">これは、$BasicType クラスで New-object コマンドレットを使用して作成されたオブジェクト インスタンスです。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The output reveals that the value of the $BasicTestObject variable is an instance of the BasicTest class and that it includes a member called Multiply.</source>
+          <target state="translated">出力から、$BasicTestObject 変数の値が BasicTest クラスのインスタンスであり、それに Multiply と呼ばれるメンバーが含まれていることがわかります。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Example 3: Add types from an assembly</source>
+          <target state="translated">例 3: アセンブリから型を追加します。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This command adds the classes from the Accessibility assembly to the current session.</source>
+          <target state="translated">このコマンドは、Accessibility アセンブリのクラスを現在のセッションに追加します。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>AssemblyName<ept id="p1">**</ept> parameter to specify the name of the assembly.</source>
+          <target state="translated">コマンドを使用して、 <bpt id="p1">**</bpt>AssemblyName<ept id="p1">**</ept> パラメーターに渡して、アセンブリの名前を指定します。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The wildcard character allows you to get the correct assembly even when you are not sure of the name or its spelling.</source>
+          <target state="translated">名前またはそのスペルが不確かな場合でも、ワイルドカード文字を使用して適切なアセンブリを取得できます。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>PassThru<ept id="p1">*</ept> parameter to generate objects that represent the classes that are added to the session, and it saves the objects in the $AccType variable.</source>
+          <target state="translated">コマンドを使用して、 <bpt id="p1">*</bpt>PassThru<ept id="p1">*</ept> 、セッションに追加されるクラスを表すオブジェクトを生成するパラメーターと $AccType 変数にオブジェクトを保存します。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Example 4: Add a type from a Visual Basic file</source>
+          <target state="translated">例 4: Visual Basic ファイルの種類を追加します。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This example uses the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet to add the VBFromFile class that is defined in the Hello.vb file to the current session.</source>
+          <target state="translated">この例では、 <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> コマンドレットは、現在のセッションに、Hello.vb ファイルで定義されている VBFromFile クラスを追加します。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The text of the Hello.vb file is shown in the command output.</source>
+          <target state="translated">コマンド出力には、Hello.vb ファイル内のテキストが示されます。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet to add the type defined in the Hello.vb file to the current session.</source>
+          <target state="translated">最初のコマンドを使用して、 <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> コマンドレットは、現在のセッションに、Hello.vb ファイルで定義されている型を追加します。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>Path<ept id="p1">*</ept> parameter to specify the source file.</source>
+          <target state="translated">このコマンドは、 <bpt id="p1">*</bpt>パス<ept id="p1">*</ept> ソース ファイルを指定するパラメーターです。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The second command calls the SayHello function as a static method of the VBFromFile class.</source>
+          <target state="translated">2 番目のコマンドは、VBFromFile クラスの静的メソッドとして SayHello 関数を呼び出します。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Example 5: Call native Windows APIs</source>
+          <target state="translated">例 5: は、ネイティブの Windows Api を呼び出す</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The commands in this example demonstrate how to call native Windows APIs in Windows PowerShell.</source>
+          <target state="translated">この例のコマンドは、Windows PowerShell でネイティブの Windows API を呼び出す方法を示しています。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> uses the Platform Invoke (P/Invoke) mechanism to call a function in User32.dll from Windows PowerShell.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> Windows PowerShell から user32.dll 関数を呼び出すには、Platform Invoke (P/invoke) メカニズムを使用します。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The first command stores the C# signature of the <bpt id="p1">**</bpt>ShowWindowAsync<ept id="p1">**</ept> function in the $Signature variable.</source>
+          <target state="translated">最初のコマンドはの c# 署名、 <bpt id="p1">**</bpt>ShowWindowAsync<ept id="p1">**</ept> $Signature 変数内の関数です。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>For more information, see ShowWindowAsync Functionhttp://go.microsoft.com/fwlink/?LinkId=143643 (http://go.microsoft.com/fwlink/?LinkId=143643) in the MSDN library.</source>
+          <target state="translated">詳細については、MSDN ライブラリの ShowWindowAsync Functionhttp://go.microsoft.com/fwlink/?LinkId=143643 (http://go.microsoft.com/fwlink/?LinkId=143643) を参照してください。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>To ensure that the resulting method will be visible in a Windows PowerShell session, the "public" keyword has been added to the standard signature.</source>
+          <target state="translated">最終的なメソッドが Windows PowerShell セッション内で表示されるようにするために、標準署名に "public" キーワードが追加されました。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet to add the ShowWindowAsync function to the Windows PowerShell session as a static method of a class that <bpt id="p2">**</bpt>Add-Type<ept id="p2">**</ept> creates.</source>
+          <target state="translated">2 番目のコマンドを使用して、 <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> コマンドレットは、ShowWindowAsync 関数をクラスの静的メソッドとして、Windows PowerShell セッションに追加する <bpt id="p2">**</bpt>Add-type<ept id="p2">**</ept> を作成します。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>MemberDefinition<ept id="p1">*</ept> parameter to specify the method definition saved in the $Signature variable.</source>
+          <target state="translated">このコマンドは、 <bpt id="p1">*</bpt>MemberDefinition<ept id="p1">*</ept> $Signature 変数に保存されているメソッドの定義を指定するパラメーターです。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>Name<ept id="p1">*</ept> and <bpt id="p2">*</bpt>Namespace<ept id="p2">*</ept> parameters to specify a name and namespace for the class.</source>
+          <target state="translated">コマンドを使用して、 <bpt id="p1">*</bpt>名前<ept id="p1">*</ept> と <bpt id="p2">*</bpt>名前空間<ept id="p2">*</ept> 、クラスの名前空間と名前を指定するパラメーターです。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>PassThru<ept id="p1">*</ept> parameter to generate an object that represents the types, and it saves the object in the $ShowWindowAsync variable.</source>
+          <target state="translated">使用して、 <bpt id="p1">*</bpt>PassThru<ept id="p1">*</ept> 型、およびそれを表すオブジェクトを生成するパラメーターは、オブジェクトを $ShowWindowAsync 変数に保存します。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The third and fourth commands use the new ShowWindowAsync static method.</source>
+          <target state="translated">3 番目と 4 番目のコマンドは、新しい ShowWindowAsync 静的メソッドを使用します。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The method takes two parameters, the window handle, and an integer specifies how the window is to be shown.</source>
+          <target state="translated">このメソッドは、ウィンドウ ハンドルと、ウィンドウを表示する方法を指定する整数という 2 つのパラメーターを受け取ります。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The third command calls ShowWindowAsync.</source>
+          <target state="translated">3 番目のコマンドは ShowWindowAsync を呼び出します。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>It uses the Get-Process cmdlet with the $Pid automatic variable to get the process that is hosting the current Windows PowerShell session.</source>
+          <target state="translated">$Pid 自動変数に現在の Windows PowerShell セッションをホストしているプロセスを取得するのに、Get-process コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Then it uses the <bpt id="p1">**</bpt>MainWindowHandle<ept id="p1">**</ept> property of the current process and a value of 2, which represents the SW_MINIMIZE value.</source>
+          <target state="translated">使用して、 <bpt id="p1">**</bpt>MainWindowHandle<ept id="p1">**</ept> プロパティの現在のプロセスと、SW_MINIMIZE 値を表す 2 を指定します。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>To restore the window, the fourth command use a value of 4 for the window position, which represents the SW_RESTORE value.</source>
+          <target state="translated">ウィンドウを復元するには、4 番目のコマンドは、SW_RESTORE 値を表すウィンドウの位置を 4 の値を使用します。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>(SW_MAXIMIZE is 3.)</source>
+          <target state="translated">(SW_MAXIMIZE は 3 です)。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Example 6: Add a method from inline JScript</source>
+          <target state="translated">例 6: インライン JScript からメソッドを追加します。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet to add a method from inline JScript code to the Windows PowerShell session.</source>
+          <target state="translated">このコマンドを使用して、 <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> コマンドレットは、Windows PowerShell セッションにインライン JScript コードからメソッドを追加します。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>MemberDefinition<ept id="p1">*</ept> parameter to submit source code stored in the $JsMethod variable.</source>
+          <target state="translated">使用して、 <bpt id="p1">*</bpt>MemberDefinition<ept id="p1">*</ept> 、$JsMethod 変数に格納されているソース コードを送信するパラメーターです。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>Name<ept id="p1">*</ept> parameter to specify a name for the class that <bpt id="p2">**</bpt>Add-Type<ept id="p2">**</ept> creates for the method and the <bpt id="p3">*</bpt>Language<ept id="p3">*</ept> parameter to specify the JScript language.</source>
+          <target state="translated">使用して、 <bpt id="p1">*</bpt>名前<ept id="p1">*</ept> クラスの名前を指定するパラメーターを <bpt id="p2">**</bpt>Add-type<ept id="p2">**</ept> メソッドの作成と <bpt id="p3">*</bpt>言語<ept id="p3">*</ept> JScript 言語を指定するパラメーターです。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Example 7: Add an F# compiler</source>
+          <target state="translated">例 7: 追加の f# コンパイラ</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet to add an F# code compiler to your Windows PowerShell session.</source>
+          <target state="translated">この例では、使用して、 <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> コマンドレットは f# コード コンパイラを使用して、Windows PowerShell セッションに追加します。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>To run this example in Windows PowerShell, you must have the FSharp.Compiler.CodeDom.dll that is installed with the F# language.</source>
+          <target state="translated">Windows PowerShell で次の例を実行するには、f# 言語でインストールされている FSharp.Compiler.CodeDom.dll が必要です。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The first command in the example uses the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet with the <bpt id="p2">*</bpt>Path<ept id="p2">*</ept> parameter to specify an assembly.</source>
+          <target state="translated">この例の最初のコマンドを使用して、 <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> コマンドレットと、 <bpt id="p2">*</bpt>パス<ept id="p2">*</ept> アセンブリを指定するパラメーターです。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> gets the types in the assembly.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> アセンブリ内の型を取得します。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The second command uses the New-Object cmdlet to create an instance of the F# code provider and saves the result in the $Provider variable.</source>
+          <target state="translated">2 番目のコマンドは、New-object コマンドレットを使用して、f# コード プロバイダーのインスタンスを作成し、結果を $Provider 変数に保存します。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The third command saves the F# code that defines the Loop method in the $FSharpCode variable.</source>
+          <target state="translated">3 番目のコマンドは、$FSharpCode 変数に Loop メソッドを定義する f# コードを保存します。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The fourth command uses the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet to save the public types defined in $FSharpCode in the $FSharpType variable.</source>
+          <target state="translated">4 番目のコマンドを使用して、 <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> コマンドレットを $FSharpType 変数に $FSharpCode で定義されているパブリック型を保存します。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>TypeDefinition<ept id="p1">*</ept> parameter specifies the source code that defines the types.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>TypeDefinition<ept id="p1">*</ept> パラメーターは、型を定義するソース コードを指定します。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>CodeDomProvider<ept id="p1">*</ept> parameter specifies the source code compiler.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>CodeDomProvider<ept id="p1">*</ept> パラメーターは、ソース コード コンパイラを指定します。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>PassThru<ept id="p1">*</ept> parameter directs <bpt id="p2">**</bpt>Add-Type<ept id="p2">**</ept> to return a <bpt id="p3">**</bpt>Runtime<ept id="p3">**</ept> object that represents the types and a pipeline operator (|) sends the <bpt id="p4">**</bpt>Runtime<ept id="p4">**</ept> object to the Where-Object cmdlet, which returns only the public types.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>PassThru<ept id="p1">*</ept> パラメーター <bpt id="p2">**</bpt>Add-type<ept id="p2">**</ept> を返す、 <bpt id="p3">**</bpt>ランタイム<ept id="p3">**</ept> 型と、パイプライン演算子 (|) を表すオブジェクトを送信、 <bpt id="p4">**</bpt>ランタイム<ept id="p4">**</ept> オブジェクトを Where-object コマンドレットは、パブリック型のみが返されます。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Where-Object<ept id="p1">**</ept> cmdlet is used because the F# provider generates non-public types to support the resulting public type.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Where-object<ept id="p1">**</ept> f# プロバイダーは、結果のパブリック型をサポートするためにパブリック以外の型を生成するためのコマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The fifth command calls the Loop method as a static method of the type stored in the $FSharpType variable.</source>
+          <target state="translated">5 番目のコマンドは、$FSharpType 変数に格納されている型の静的メソッドとして Loop メソッドを呼び出します。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">パラメータ</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>-AssemblyName</source>
+          <target state="translated">-AssemblyName</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Specifies the name of an assembly that includes the types.</source>
+          <target state="translated">型を含むアセンブリの名前を指定します。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> takes the types from the specified assembly.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> は指定したアセンブリから型を取得します。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>This parameter is required when you are creating types based on an assembly name.</source>
+          <target state="translated">アセンブリ名に基づいて型を作成する場合、このパラメーターは必須です。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Enter the full or simple name, also known as the partial name, of an assembly.</source>
+          <target state="translated">フルネームまたは簡易名、アセンブリとも呼ばれる部分名を入力します。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are permitted in the assembly name.</source>
+          <target state="translated">アセンブリ名ではワイルドカード文字を使用できます。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>If you enter a simple or partial name, this cmdlet resolves it to the full name, and then uses the full name to load the assembly.</source>
+          <target state="translated">単純なまたは部分的な名前を入力すると、このコマンドレットは完全名に解決し、アセンブリの読み込み、完全な名前を使用します。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>This parameter does not accept a path or file name.</source>
+          <target state="translated">このパラメーターは、パスまたはファイル名を受け入れません。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>To enter the path to the assembly dynamic-link library (DLL) file, use the <bpt id="p1">*</bpt>Path<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">アセンブリ ダイナミック リンク ライブラリ (DLL) ファイルへのパスを入力するには、使用、 <bpt id="p1">*</bpt>パス<ept id="p1">*</ept> パラメーター。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>-CodeDomProvider</source>
+          <target state="translated">-CodeDomProvider</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Specifies a code generator or compiler.</source>
+          <target state="translated">コード ジェネレーターまたはコンパイラを指定します。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> uses the specified compiler to compile the source code.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> 、指定されたコンパイラを使用して、ソース コードをコンパイルします。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The default is the C# compiler.</source>
+          <target state="translated">既定値は、c# コンパイラです。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Use this parameter if you are using a language that cannot be specified by using the <bpt id="p1">*</bpt>Language<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">使用して指定できない言語を使用している場合は、このパラメーターを使用して、 <bpt id="p1">*</bpt>言語<ept id="p1">*</ept> パラメーター。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>CodeDomProvider<ept id="p1">*</ept> that you specify must be able to generate assemblies from source code.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>CodeDomProvider<ept id="p1">*</ept> ソース コードからアセンブリを生成できるように指定する必要があります。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>-CompilerParameters</source>
+          <target state="translated">-CompilerParameters</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Specifies the options for the source code compiler.</source>
+          <target state="translated">ソース コード コンパイラのオプションを指定します。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>These options are sent to the compiler without revision.</source>
+          <target state="translated">これらのオプションは、リビジョンなしでコンパイラに送信されます。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>This parameter allows you to direct the compiler to generate an executable file, embed resources, or set command-line options, such as the /unsafe option.</source>
+          <target state="translated">このパラメーターでは、実行可能ファイルを生成する、リソースの埋め込み、またはコマンド ライン オプションを設定します。 コンパイラに指示することができます、/unsafe オプション。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>This parameter implements the <bpt id="p1">**</bpt>CompilerParameters<ept id="p1">**</ept> class (System.CodeDom.Compiler.CompilerParameters).</source>
+          <target state="translated">このパラメーターを実装して、 <bpt id="p1">**</bpt>CompilerParameters<ept id="p1">**</ept> クラス (System.CodeDom.Compiler.CompilerParameters)。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>You cannot use the <bpt id="p1">*</bpt>CompilerParameters<ept id="p1">*</ept> and <bpt id="p2">*</bpt>ReferencedAssemblies<ept id="p2">*</ept> parameters in the same command.</source>
+          <target state="translated">使用することはできません、 <bpt id="p1">*</bpt>CompilerParameters<ept id="p1">*</ept> と <bpt id="p2">*</bpt>ReferencedAssemblies<ept id="p2">*</ept> 同じコマンドのパラメーターです。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>-IgnoreWarnings</source>
+          <target state="translated">-IgnoreWarnings</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Ignores compiler warnings.</source>
+          <target state="translated">コンパイラの警告は無視します。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Use this parameter to prevent <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> from handling compiler warnings as errors.</source>
+          <target state="translated">パラメーターを使用しないようにして <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> コンパイラ警告をエラーとして処理します。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>-Language</source>
+          <target state="translated">言語</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Specifies the language that is used in the source code.</source>
+          <target state="translated">ソース コードで使用される言語を指定します。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet uses the value of this parameter to select the appropriate <bpt id="p2">*</bpt>CodeDomProvider<ept id="p2">*</ept>.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> コマンドレットでは、このパラメーターの値を使用して、適切な <bpt id="p2">*</bpt>CodeDomProvider<ept id="p2">*</ept>します。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">このパラメーターに対して使用できる値:</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>CSharp</source>
+          <target state="translated">CSharp</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>CSharpVersion3</source>
+          <target state="translated">CSharpVersion3</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>CSharpVersion2</source>
+          <target state="translated">CSharpVersion2</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>VisualBasic</source>
+          <target state="translated">Visual Basic</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>JScript</source>
+          <target state="translated">JScript</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>CSharp is the default value.</source>
+          <target state="translated">CSharp は、既定値です。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>-LiteralPath</source>
+          <target state="translated">– LiteralPath</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Specifies the path to source code files or assembly DLL files that contain the types.</source>
+          <target state="translated">型を含むソース コード ファイルまたはアセンブリ DLL ファイルへのパスを指定します。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Unlike the <bpt id="p1">*</bpt>Path<ept id="p1">*</ept> parameter, the value of the <bpt id="p2">*</bpt>LiteralPath<ept id="p2">*</ept> parameter is used exactly as it is typed.</source>
+          <target state="translated">異なり、 <bpt id="p1">*</bpt>パス<ept id="p1">*</ept> パラメーターには、値、 <bpt id="p2">*</bpt>LiteralPath<ept id="p2">*</ept> は入力したとおりにパラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>No characters are interpreted as wildcards.</source>
+          <target state="translated">ワイルドカードとして解釈される文字はありません。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>If the path includes escape characters, enclose it in single quotation marks.</source>
+          <target state="translated">パスにエスケープ文字が含まれている場合は、単一引用符で囲みます。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Single quotation marks tell Windows PowerShell not to interpret any characters as escape sequences.</source>
+          <target state="translated">単一引用符で囲んだ文字はエスケープ シーケンスとして解釈されません。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>-MemberDefinition</source>
+          <target state="translated">-MemberDefinition</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Specifies an array of new properties or methods for the class.</source>
+          <target state="translated">新しいプロパティまたはクラスのメソッドの配列を指定します。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> generates the template code that is required to support the properties or methods.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> プロパティまたはメソッドをサポートするために必要なテンプレート コードが生成されます。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>You can use this feature to make Platform Invoke (P/Invoke) calls to unmanaged functions in Windows PowerShell.</source>
+          <target state="translated">この機能を使用して、Windows PowerShell 内でアンマネージ関数に対して Platform Invoke (P/invoke) 呼び出しを実行できます。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>For more information, see the examples.</source>
+          <target state="translated">詳細については、例を参照してください。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the class to create.</source>
+          <target state="translated">作成するクラスの名前を指定します。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>This parameter is required when generating a type from a member definition.</source>
+          <target state="translated">メンバー定義から型を生成する場合は、このパラメーターは必須です。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The type name and namespace must be unique within a session.</source>
+          <target state="translated">型名と名前空間はセッション内で一意である必要があります。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>You cannot unload a type or change it.</source>
+          <target state="translated">型はアンロードすることも、変更することもできません。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>If you need to change the code for a type, you must change the name or start a new Windows PowerShell session.</source>
+          <target state="translated">型のコードを変更する必要がある場合は、名前を変更するか、または新しい Windows PowerShell セッションを開始する必要があります。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Otherwise, the command fails.</source>
+          <target state="translated">それ以外の場合、コマンドは失敗します。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>-Namespace</source>
+          <target state="translated">名前空間</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Specifies a namespace for the type.</source>
+          <target state="translated">型の名前空間を指定します。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>If this parameter is not included in the command, the type is created in the <bpt id="p1">**</bpt>Microsoft.PowerShell.Commands.AddType.AutoGeneratedTypes<ept id="p1">**</ept> namespace.</source>
+          <target state="translated">型が作成された場合は、コマンドでは、このパラメーターが含まれていない、 <bpt id="p1">**</bpt>Microsoft.PowerShell.Commands.AddType.AutoGeneratedTypes<ept id="p1">**</ept> 名前空間。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>If the parameter is included in the command with an empty string value or a value of $Null, the type is generated in the global namespace.</source>
+          <target state="translated">パラメーターが空の文字列値または $Null の値と共にコマンドに含まれている場合は、グローバル名前空間に型が生成されます。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>-OutputAssembly</source>
+          <target state="translated">-OutputAssembly</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Generates a DLL file for the assembly with the specified name in the location.</source>
+          <target state="translated">その場所に指定した名前のアセンブリ DLL ファイルを生成します。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Enter a path and file name.</source>
+          <target state="translated">パスとファイル名を入力します。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>This parameter is optional.</source>
+          <target state="translated">このパラメーターは省略可能です。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are permitted.</source>
+          <target state="translated">ワイルドカード文字を使用できます。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>By default, this cmdlet generates the assembly only in memory.</source>
+          <target state="translated">既定では、このコマンドレットは、メモリ内にのみ、アセンブリを生成します。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>-OutputType</source>
+          <target state="translated">-OutputType</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Specifies the output type of the output assembly.</source>
+          <target state="translated">出力アセンブリの出力の種類を指定します。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">このパラメーターに対して使用できる値:</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Library</source>
+          <target state="translated">ライブラリ</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>ConsoleApplication</source>
+          <target state="translated">コンソール アプリケーション</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>WindowsApplication</source>
+          <target state="translated">ツールボックス</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>For more information about the values, see OutputAssemblyType Enumerationhttps://msdn.microsoft.com/en-us/library/microsoft.powershell.commands.outputassemblytype(v=vs.85).aspx (https://msdn.microsoft.com/en-us/library/microsoft.powershell.commands.outputassemblytype(v=vs.85).aspx)in MSDN.</source>
+          <target state="translated">詳細については、値、OutputAssemblyType Enumerationhttps://msdn.microsoft.com/en-us/library/microsoft.powershell.commands.outputassemblytype (v=vs.85).aspx (https://msdn.microsoft.com/en-us/library/microsoft.powershell.commands.outputassemblytype(v=vs.85).aspx)in MSDN. を参照してください。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>By default, no output type is specified.</source>
+          <target state="translated">既定では、出力の種類は指定されていません。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when an output assembly is specified in the command.</source>
+          <target state="translated">このパラメーターは、コマンドで出力アセンブリが指定されている場合にのみ有効です。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>-PassThru</source>
+          <target state="translated">-PassThru</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet returns a <bpt id="p1">**</bpt>System.Runtime<ept id="p1">**</ept> object that represents the types that were added.</source>
+          <target state="translated">このコマンドレットによって返されるかを示す、 <bpt id="p1">**</bpt>System.Runtime<ept id="p1">**</ept> 追加された型を表すオブジェクト。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>By default, this cmdlet does not generate any output.</source>
+          <target state="translated">既定では、このコマンドレットによる出力はありません。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>-Path</source>
+          <target state="translated">-Path</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Specifies the path, as a string array, to source code files or assembly DLL files that contain the types.</source>
+          <target state="translated">ソース コード ファイルや型を含んでいるアセンブリ DLL ファイルへの文字列の配列として、パスを指定します。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>If you submit source code files, <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> compiles the code in the files and creates an in-memory assembly of the types.</source>
+          <target state="translated">ソース コード ファイルを提出する場合は <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> ファイルのコードをコンパイルし、型のメモリ内アセンブリを作成します。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>The file name extension specified in the value of Path determines the compiler that <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> uses.</source>
+          <target state="translated">パスの値に指定されたファイル名拡張子は、コンパイラを決定する <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> を使用します。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>If you submit an assembly file, <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> takes the types from the assembly.</source>
+          <target state="translated">アセンブリ ファイルを提出する場合は <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> は、アセンブリから型を取得します。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>To specify an in-memory assembly or the global assembly cache, use the <bpt id="p1">*</bpt>AssemblyName<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">メモリ内アセンブリまたはグローバル アセンブリ キャッシュを指定するには、使用、 <bpt id="p1">*</bpt>AssemblyName<ept id="p1">*</ept> パラメーター。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>-ReferencedAssemblies</source>
+          <target state="translated">-ReferencedAssemblies</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Specifies the assemblies, as an array, upon which the type depends.</source>
+          <target state="translated">型が依存している配列として、アセンブリを指定します。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> references System.dll and System.Management.Automation.dll.</source>
+          <target state="translated">既定では、 <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> System.dll および System.Management.Automation.dll を参照します。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The assemblies that you specify by using this parameter are referenced in addition to the default assemblies.</source>
+          <target state="translated">既定のアセンブリに加え、このパラメーターを使用して指定されたアセンブリも参照されます。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>You cannot use the <bpt id="p1">*</bpt>CompilerParameters<ept id="p1">*</ept> and <bpt id="p2">*</bpt>ReferencedAssemblies<ept id="p2">*</ept> parameters in the same command.</source>
+          <target state="translated">使用することはできません、 <bpt id="p1">*</bpt>CompilerParameters<ept id="p1">*</ept> と <bpt id="p2">*</bpt>ReferencedAssemblies<ept id="p2">*</ept> 同じコマンドのパラメーターです。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>-TypeDefinition</source>
+          <target state="translated">-TypeDefinition</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Specifies the source code that contains the type definitions.</source>
+          <target state="translated">型定義を含むソース コードを指定します。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Enter the source code in a string or here-string, or enter a variable that contains the source code.</source>
+          <target state="translated">文字列またはヒア文字列のソース コードを入力するか、ソース コードを含む変数を入力します。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>For more information about here-strings, see about_Quoting_Rules.</source>
+          <target state="translated">ここでは文字列の詳細については、about_Quoting_Rules を参照してください。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Include a namespace declaration in your type definition.</source>
+          <target state="translated">型定義に、名前空間宣言を含めます。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>If you omit the namespace declaration, your type might have the same name as another type or the shortcut for another type, causing an unintentional overwrite.</source>
+          <target state="translated">名前空間の宣言を省略すると、型が別の型または別の型のショートカットと同名となり、意図しない上書きを引き起こす場合があります。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>For instance, if you define a type called Exception, scripts that use Exception as the shortcut for <bpt id="p1">**</bpt>System.Exception<ept id="p1">**</ept> will fail.</source>
+          <target state="translated">たとえば、例外と呼ばれる型を定義する場合のスクリプトを使用する例外のショートカットとして <bpt id="p1">**</bpt>System.Exception<ept id="p1">**</ept> は失敗します。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>-UsingNamespace</source>
+          <target state="translated">-UsingNamespace</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Specifies other namespaces that are required for the class.</source>
+          <target state="translated">クラスに必要な他の名前空間を指定します。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>This is much like the Using keyword in C#.</source>
+          <target state="translated">これは C# でキーワードを使用するのとよく似ています。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> references the <bpt id="p2">**</bpt>System<ept id="p2">**</ept> namespace.</source>
+          <target state="translated">既定では、 <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> 参照、 <bpt id="p2">**</bpt>システム<ept id="p2">**</ept> 名前空間。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>When the <bpt id="p1">*</bpt>MemberDefinition<ept id="p1">*</ept> parameter is used, <bpt id="p2">**</bpt>Add-Type<ept id="p2">**</ept> also references the <bpt id="p3">**</bpt>System.Runtime.InteropServices<ept id="p3">**</ept> namespace by default.</source>
+          <target state="translated">ときに、 <bpt id="p1">*</bpt>MemberDefinition<ept id="p1">*</ept> パラメーターを使用すると、 <bpt id="p2">**</bpt>Add-type<ept id="p2">**</ept> も参照、 <bpt id="p3">**</bpt>System.Runtime.InteropServices<ept id="p3">**</ept> 既定では名前空間。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The namespaces that you add by using the <bpt id="p1">*</bpt>UsingNamespace<ept id="p1">*</ept> parameter are referenced in addition to the default namespaces.</source>
+          <target state="translated">使用して追加の名前空間、 <bpt id="p1">*</bpt>UsingNamespace<ept id="p1">*</ept> パラメーターが既定の名前空間だけでなく参照されています。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">このコマンドレットは、共通のパラメーターをサポートしています:-デバッグ、-erroraction、-errorvariable、- InformationAction-InformationVariable、- OutVariable、-OutBuffer、- PipelineVariable、- Verbose、および - WarningVariable です。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">詳細については、about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">入力</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">None</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>You cannot pipe objects to <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept>.</source>
+          <target state="translated">オブジェクトをパイプすることはできません <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">出力</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>None or System.Type</source>
+          <target state="translated">[なし] または System.Type</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>When you use the <bpt id="p1">*</bpt>PassThru<ept id="p1">*</ept> parameter, <bpt id="p2">**</bpt>Add-Type<ept id="p2">**</ept> returns a <bpt id="p3">**</bpt>System.Type<ept id="p3">**</ept> object that represents the new type.</source>
+          <target state="translated">使用する場合、 <bpt id="p1">*</bpt>PassThru<ept id="p1">*</ept> パラメーター、 <bpt id="p2">**</bpt>Add-type<ept id="p2">**</ept> 返します、 <bpt id="p3">**</bpt>System.Type<ept id="p3">**</ept> 新しい型を表すオブジェクト。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Otherwise, this cmdlet does not generate any output.</source>
+          <target state="translated">それ以外の場合、このコマンドレットによる出力はありません。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ノート</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>The types that you add exist only in the current session.</source>
+          <target state="translated">追加した型は、現在のセッションのみに存在します。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>To use the types in all sessions, add them to your Windows PowerShell profile.</source>
+          <target state="translated">すべてのセッションで型を使用するには、それらを Windows PowerShell プロファイルに追加します。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>For more information about the profile, see about_Profiles.</source>
+          <target state="translated">詳細については、プロファイル、about_Profiles を参照してください。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Type names and namespaces must be unique within a session.</source>
+          <target state="translated">型名と名前空間内になければなりません一意セッションです。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>You cannot unload a type or change it.</source>
+          <target state="translated">型はアンロードすることも、変更することもできません。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>If you need to change the code for a type, you must change the name or start a new Windows PowerShell session.</source>
+          <target state="translated">型のコードを変更する必要がある場合は、名前を変更するか、または新しい Windows PowerShell セッションを開始する必要があります。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Otherwise, the command fails.</source>
+          <target state="translated">それ以外の場合、コマンドは失敗します。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>CodeDomProvider<ept id="p1">**</ept> class for some languages, such as IronPython and J#, does not generate output.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>CodeDomProvider<ept id="p1">**</ept> IronPython や j# などの一部の言語のクラスは、出力を生成しません。</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>As a result, types written in these languages cannot be used with <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept>.</source>
+          <target state="translated">その結果、これらの言語で記述された型と共に指定できません <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>This cmdlet is based on the <bpt id="p1">**</bpt>CodeDomProvider<ept id="p1">**</ept> class.</source>
+          <target state="translated">このコマンドレットがに基づいて、 <bpt id="p1">**</bpt>CodeDomProvider<ept id="p1">**</ept> クラスです。</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>For more information about this class, see the Microsoft .NET Framework SDK.</source>
+          <target state="translated">このクラスの詳細については、Microsoft .NET Framework SDK を参照してください。</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">関連リンク</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>OutputAssemblyType Enumeration</source>
+          <target state="translated">OutputAssemblyType 列挙型</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Add-Member</source>
+          <target state="translated">Add-Member</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>New-Object</source>
+          <target state="translated">新しいオブジェクト</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Where-Object</source>
+          <target state="translated">Where-Object</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>about_Quoting_Rules</source>
+          <target state="translated">about_Quoting_Rules</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>about_Profiles</source>
+          <target state="translated">about_Profiles</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

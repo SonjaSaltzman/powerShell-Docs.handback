@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="fr-fr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2e185139bb812c94eac844a28cd3eddfe3e160de</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\PSScheduledJob\New-JobTrigger.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2d0e294a6759ca1ccaefd2ce4ee677b318d940e9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8f64c85ae8f6b9b7c88ae3d6bdf6b4019ebd2020</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">applet de commande PowerShell</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>New-JobTrigger</source>
+          <target state="translated">New-JobTrigger</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>New-JobTrigger</source>
+          <target state="translated">New-JobTrigger</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">SYNOPSIS</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Creates a job trigger for a scheduled job.</source>
+          <target state="translated">Crée un déclencheur pour une tâche planifiée.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SYNTAXE</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Once (Default)</source>
+          <target state="translated">Une fois (par défaut)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Daily</source>
+          <target state="translated">Quotidienne</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Weekly</source>
+          <target state="translated">Hebdomadaire</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>AtStartup</source>
+          <target state="translated">AtStartup</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>AtLogon</source>
+          <target state="translated">AtLogon</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">DESCRIPTION</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-JobTrigger<ept id="p1">**</ept> cmdlet creates a job trigger that starts a scheduled job on a one-time or recurring schedule, or when an event occurs.</source>
+          <target state="translated">Le <bpt id="p1">**</bpt>New-JobTrigger<ept id="p1">**</ept> applet de commande crée un déclencheur qui démarre une tâche planifiée selon une planification ponctuelle ou périodique, ou lorsqu’un événement se produit.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">**</bpt>ScheduledJobTrigger<ept id="p1">**</ept> object that <bpt id="p2">**</bpt>New-JobTrigger<ept id="p2">**</ept> returns to set a job trigger for a new or existing scheduled job.</source>
+          <target state="translated">Vous pouvez utiliser la <bpt id="p1">**</bpt>ScheduledJobTrigger<ept id="p1">**</ept> objet <bpt id="p2">**</bpt>New-JobTrigger<ept id="p2">**</ept> pour définir un déclencheur de tâche pour une tâche planifiée nouvelle ou existante.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can also create a job trigger by using the Get-JobTrigger cmdlet to get the job trigger of an existing scheduled job, or by using a hash table value to represent a job trigger.</source>
+          <target state="translated">Vous pouvez également créer un déclencheur de tâche à l’aide de l’applet de commande Get-JobTrigger pour obtenir le déclencheur de tâche d’une tâche planifiée existante ou en utilisant une valeur de table de hachage pour représenter un déclencheur de tâche.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When creating a job trigger, review the default values of the options specified by the New-ScheduledJobOption cmdlet.</source>
+          <target state="translated">Lorsque vous créez un déclencheur de tâche, examinez les valeurs par défaut des options spécifiées par l’applet de commande New-ScheduledJobOption.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>These options, which have the same valid and default values as the corresponding options in <bpt id="p1">**</bpt>Task Scheduler<ept id="p1">**</ept>, affect the scheduling and timing of scheduled jobs.</source>
+          <target state="translated">Ces options, qui ont les mêmes valides et les valeurs par défaut que les options correspondantes dans <bpt id="p1">**</bpt>le Planificateur de tâches<ept id="p1">**</ept>, affectent la planification et la durée des tâches planifiées.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>New-JobTrigger<ept id="p1">**</ept> is one of a collection of job scheduling cmdlets in the PSScheduledJob module that is included in Windows PowerShell.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Nouveau-JobTrigger<ept id="p1">**</ept> est une collection d’applets de commande dans le module PSScheduledJob inclus dans Windows PowerShell la planification des tâches.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For more information about Scheduled Jobs, see the About topics in the PSScheduledJob module.</source>
+          <target state="translated">Pour plus d'informations sur les tâches planifiées, consultez les rubriques À propos dans le module PSScheduledJob.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Import the PSScheduledJob module and then type: <ph id="ph1">`Get-Help about_Scheduled*`</ph> or see about_Scheduled_Jobs.</source>
+          <target state="translated">Importez le module PSScheduledJob, puis tapez : <ph id="ph1">`Get-Help about_Scheduled*`</ph> ou consultez about_Scheduled_Jobs.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This cmdlet was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Cette applet de commande a été introduite dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">EXEMPLES</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Example 1: Once Schedule</source>
+          <target state="translated">Exemple 1 : Planification unique</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">**</bpt>New-JobTrigger<ept id="p1">**</ept> cmdlet to create a job trigger that starts a scheduled job only one time.</source>
+          <target state="translated">Cette commande utilise le <bpt id="p1">**</bpt>New-JobTrigger<ept id="p1">**</ept> pour créer un déclencheur de tâche qui démarre une tâche planifiée qu’une seule fois.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">*</bpt>At<ept id="p1">*</ept> parameter is a string that Windows PowerShell converts into a <bpt id="p2">**</bpt>DateTime<ept id="p2">**</ept> object.</source>
+          <target state="translated">La valeur de la <bpt id="p1">*</bpt>à<ept id="p1">*</ept> paramètre est une chaîne que Windows PowerShell convertit en un <bpt id="p2">**</bpt>DateTime<ept id="p2">**</ept> objet.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>At<ept id="p1">*</ept> parameter value includes an explicit date, not just a time.</source>
+          <target state="translated">Le <bpt id="p1">*</bpt>à<ept id="p1">*</ept> la valeur du paramètre inclut une date explicite, et pas seulement une heure.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If the date were omitted, the trigger would be created with the current date and 3:00 AM time, which is likely to represent a time in the past.</source>
+          <target state="translated">Si la date a été omise, le déclencheur est créé avec la date actuelle et l'heure 3:00, qui est susceptible de représenter une heure dans le passé.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Example 2: Daily Schedule</source>
+          <target state="translated">Exemple 2 : Planification quotidienne</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This command creates a job trigger that starts a scheduled job every 3 days at 4:15 a.m.</source>
+          <target state="translated">Cette commande crée un déclencheur de tâche qui démarre une tâche planifiée tous les 3 jours à 4:15.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Because the value of the <bpt id="p1">*</bpt>At<ept id="p1">*</ept> parameter does not include a date, the current date is used as the date value in the <bpt id="p2">**</bpt>DateTime<ept id="p2">**</ept> object.</source>
+          <target state="translated">Étant donné que la valeur de la <bpt id="p1">*</bpt>à<ept id="p1">*</ept> paramètre n’inclut pas une date, la date actuelle est utilisée comme valeur de date dans le <bpt id="p2">**</bpt>DateTime<ept id="p2">**</ept> objet.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>If the date and time is in the past, the scheduled job is started at the next occurrence, which is 3 days later from the <bpt id="p1">*</bpt>At<ept id="p1">*</ept> parameter value.</source>
+          <target state="translated">Si la date et l’heure est passée, la tâche planifiée est démarrée à l’occurrence suivante, qui est de 3 jours plus tard dans le <bpt id="p1">*</bpt>à<ept id="p1">*</ept> la valeur du paramètre.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Example 3: Weekly Schedule</source>
+          <target state="translated">Exemple 3 : Une planification hebdomadaire</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This command creates a job trigger that starts a scheduled job every 4 weeks on Monday, Wednesday, and Friday at 2300 hours (11:00 PM).</source>
+          <target state="translated">Cette commande crée un déclencheur de tâche qui démarre une tâche planifiée toutes les 4 semaines les lundi, mercredi et vendredi à 23:00.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You can also enter the <bpt id="p1">*</bpt>DaysOfWeek<ept id="p1">*</ept> parameter value in integers, such as <ph id="ph1">`-DaysOfWeek 1, 5`</ph>.</source>
+          <target state="translated">Vous pouvez également entrer la <bpt id="p1">*</bpt>DaysOfWeek<ept id="p1">*</ept> valeur de paramètre en entiers, tel que <ph id="ph1">`-DaysOfWeek 1, 5`</ph>.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Example 4: Logon Schedule</source>
+          <target state="translated">L’exemple 4 : Planification d’ouverture de session</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This command creates a job trigger that starts a scheduled job whenever the domain administrator logs onto the computer.</source>
+          <target state="translated">Cette commande crée un déclencheur de tâche qui démarre une tâche planifiée chaque fois que l'administrateur de domaine ouvre une session sur l'ordinateur.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Example 5: Using a Random Delay</source>
+          <target state="translated">Exemple 5 : Utilisation d’un délai aléatoire</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This command creates a job trigger that starts a scheduled job every day at 1:00 in the morning.</source>
+          <target state="translated">Cette commande crée un déclencheur de tâche qui démarre une tâche planifiée chaque jour à 1:00.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>RandomDelay<ept id="p1">*</ept> parameter to set the maximum delay to 20 minutes.</source>
+          <target state="translated">La commande utilise le <bpt id="p1">*</bpt>RandomDelay<ept id="p1">*</ept> paramètre pour définir le délai maximal de 20 minutes.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>As a result, the job runs every day between 1:00 AM and 1:20 AM, with the interval varying pseudo-randomly.</source>
+          <target state="translated">Par conséquent, la tâche est exécutée chaque jour entre 1:00 et 1:20, avec l'intervalle qui varie de manière pseudo-aléatoire.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>You can use a random delay for sampling, load balancing, and other administrative tasks.</source>
+          <target state="translated">Vous pouvez utiliser un délai aléatoire pour l'échantillonnage, l'équilibrage de charge et d'autres tâches d'administration.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>When setting the delay value, review the effective and default values of the New-ScheduledJobOption cmdlet and coordinate the delay with the option settings.</source>
+          <target state="translated">Lorsque vous définissez la valeur du délai, examinez l’effet et par défaut des valeurs de l’applet de commande New-ScheduledJobOption et coordonner le délai avec les paramètres d’option.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Example 6: Create a Job Trigger for a New Scheduled Job</source>
+          <target state="translated">Exemple 6 : Création d’un déclencheur de tâche pour une tâche planifiée</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>These commands use a job trigger to create a new scheduled job.</source>
+          <target state="translated">Ces commandes utilisent un déclencheur de tâche pour créer une tâche planifiée.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Example 7: Add a Job Trigger to a Scheduled Job</source>
+          <target state="translated">Exemple 7 : Ajouter un déclencheur de tâche à une tâche planifiée</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This example shows how to add a job trigger to an existing scheduled job.</source>
+          <target state="translated">Cet exemple montre comment ajouter un déclencheur de tâche à une tâche planifiée existante.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>You can add multiple job triggers to any scheduled job.</source>
+          <target state="translated">Vous pouvez ajouter plusieurs déclencheurs de tâche à n'importe quelle tâche planifiée.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The command uses the Add-JobTrigger cmdlet to add the job trigger to the SynchronizeApps scheduled job.</source>
+          <target state="translated">La commande utilise l’applet de commande Add-JobTrigger pour ajouter le déclencheur de tâche à la tâche planifiée SynchronizeApps.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">*</bpt>Trigger<ept id="p1">*</ept> parameter is a <bpt id="p2">**</bpt>New-JobTrigger<ept id="p2">**</ept> command that runs the job every day at 3:10 AM.</source>
+          <target state="translated">La valeur de la <bpt id="p1">*</bpt>déclencheur<ept id="p1">*</ept> paramètre est un <bpt id="p2">**</bpt>New-JobTrigger<ept id="p2">**</ept> une commande qui exécute la tâche tous les jours à 3 h 10.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>When the command completes, SynchronizeApps is a scheduled job that runs at the times specified by the job trigger.</source>
+          <target state="translated">Quand l'exécution de la commande est terminée, SynchronizeApps est une tâche planifiée qui s'exécute aux heures spécifiées par le déclencheur de tâche.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Example 8: Create a repeating job trigger</source>
+          <target state="translated">Exemple 8 : Créer un déclencheur de tâche récurrent</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This command creates a job trigger that runs a job every 60 minutes for 48 hours beginning on September 12, 2013 at 1:00 AM.</source>
+          <target state="translated">Cette commande crée un déclencheur de tâche qui exécute une tâche toutes les 60 minutes pendant 48 heures à compter du 12 septembre 2013 à 1 h 00.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Example 9: Stop a repeating job trigger</source>
+          <target state="translated">Exemple 9 : Arrêter un déclencheur de tâche récurrent</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>This command forcibly stops the SecurityCheck job, which is triggered to run every 60 minutes until its job trigger expires.</source>
+          <target state="translated">Cette commande arrête de force la tâche SecurityCheck, dont l'exécution est déclenchée toutes les 60 minutes jusqu'à l'expiration de son déclencheur de tâche.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>To prevent the job from repeating, the command uses the Get-JobTrigger to get the job trigger of the SecurityCheck job and the Set-JobTrigger cmdlet to change the repetition interval and repetition duration of the job trigger to zero (0).</source>
+          <target state="translated">Pour empêcher la tâche de répétition, la commande utilise le Get-JobTrigger pour obtenir le déclencheur de la tâche SecurityCheck et l’applet de commande Set-JobTrigger pour modifier l’intervalle de répétition et la durée de répétition du déclencheur à zéro (0).</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Example 10: Create an hourly job trigger</source>
+          <target state="translated">Exemple 10 : Créer un déclencheur de tâche horaire</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The following command creates a job trigger that runs a scheduled job once every 12 hours for an indefinite period of time.</source>
+          <target state="translated">La commande suivante crée un déclencheur de tâche qui exécute une tâche planifiée toutes les 12 heures pendant une durée indéterminée.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The schedule begins tomorrow (9/21/2012) at midnight (0:00 AM).</source>
+          <target state="translated">La planification commence demain (21/9/2012) à minuit (0:00).</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARAMÈTRES</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>-At</source>
+          <target state="translated">-At</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Starts the job at the specified date and time.</source>
+          <target state="translated">Démarre la tâche à la date et à l'heure spécifiées.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Enter a <bpt id="p1">**</bpt>DateTime<ept id="p1">**</ept> object, such as one that the Get-Date cmdlet returns, or a string that can be converted to a date and time, such as "April 19, 2012 15:00", "12/31", or "3am".</source>
+          <target state="translated">Entrez un <bpt id="p1">**</bpt>DateTime<ept id="p1">**</ept> objet, tel qu’une requête qui renvoie l’applet de commande Get-Date, ou une chaîne qui peut être convertie en date et heure, telles que « 19 avril 2012 15:00 », « 31/12 » ou « 3 h 00 ».</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>If you don't specify an element of the date, such as the year, the date in the trigger has the corresponding element from the current date.</source>
+          <target state="translated">Si vous ne spécifiez pas un élément de la date, par exemple l'année, la date dans le déclencheur a l'élément correspondant de la date actuelle.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>When using the <bpt id="p1">*</bpt>Once<ept id="p1">*</ept> parameter, set the value of the <bpt id="p2">*</bpt>At<ept id="p2">*</ept> parameter to a future date and time.</source>
+          <target state="translated">Lorsque vous utilisez le <bpt id="p1">*</bpt>une fois<ept id="p1">*</ept> paramètre, définissez la valeur de la <bpt id="p2">*</bpt>à<ept id="p2">*</ept> paramètre à une date et heure ultérieure.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Because the default date in a <bpt id="p1">**</bpt>DateTime<ept id="p1">**</ept> object is the current date, if you specify a time before the current time without an explicit date, the job trigger is created for a time in the past.</source>
+          <target state="translated">Étant donné que la date par défaut dans un <bpt id="p1">**</bpt>DateTime<ept id="p1">**</ept> objet est la date actuelle, si vous spécifiez une heure avant l’heure actuelle sans une date explicite, le déclencheur est créé pour une heure dans le passé.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>DateTime<ept id="p1">**</ept> objects, and strings that are converted to <bpt id="p2">**</bpt>DateTime<ept id="p2">**</ept> objects, are automatically adjusted to be compatible with the date and time formats selected for the local computer in Region and Language in Control Panel.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Date/heure<ept id="p1">**</ept> objets et les chaînes sont converties en <bpt id="p2">**</bpt>DateTime<ept id="p2">**</ept> objets, sont automatiquement ajustés pour être compatible avec les formats de date et l’heure sélectionnées pour l’ordinateur local dans la région et langue dans le panneau de configuration.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>-AtLogOn</source>
+          <target state="translated">-AtLogOn</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Starts the scheduled job when the specified users log on to the computer.</source>
+          <target state="translated">Démarre la tâche planifiée quand les utilisateurs spécifiés se connectent à l'ordinateur.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>To specify a user, use the <bpt id="p1">*</bpt>User<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">Pour spécifier un utilisateur, utilisez la <bpt id="p1">*</bpt>utilisateur<ept id="p1">*</ept> paramètre.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>-AtStartup</source>
+          <target state="translated">-AtStartup</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Starts the scheduled job when Windows starts.</source>
+          <target state="translated">Démarre la tâche planifiée au démarrage de Windows.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-Daily</source>
+          <target state="translated">-Quotidien</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Specifies a recurring daily job schedule.</source>
+          <target state="translated">Spécifie une planification de tâche quotidienne périodique.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Use the other parameters in the <bpt id="p1">*</bpt>Daily<ept id="p1">*</ept> parameter set to specify the schedule details.</source>
+          <target state="translated">Utilisez les autres paramètres dans le <bpt id="p1">*</bpt>quotidienne<ept id="p1">*</ept> paramètre défini pour spécifier les détails de planification.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>-DaysInterval</source>
+          <target state="translated">-DaysInterval</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Specifies the number of days between occurrences on a daily schedule.</source>
+          <target state="translated">Spécifie le nombre de jours entre les occurrences d'une planification quotidienne.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>For example, a value of 3 starts the scheduled job on days 1, 4, 7 and so on.</source>
+          <target state="translated">Par exemple, une valeur de 3 démarre la tâche planifiée les jours 1, 4, 7 et ainsi de suite.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The default value is 1.</source>
+          <target state="translated">La valeur par défaut est 1.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>-DaysOfWeek</source>
+          <target state="translated">-JoursDeLaSemaine</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Specifies the days of the week on which a weekly scheduled job runs.</source>
+          <target state="translated">Spécifie les jours de la semaine qu'une tâche planifiée hebdomadaire s'exécute.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Enter day names, such as "Monday" or integers 0-6, where 0 represents Sunday.</source>
+          <target state="translated">Entrez les noms des jours, par exemple « Lundi », ou des entiers de 0 à 6, où 0 représente Dimanche.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>This parameter is required in the Weekly parameter set.</source>
+          <target state="translated">Ce paramètre est obligatoire dans le jeu de paramètres Weekly.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Day names are converted to their integer values in the job trigger.</source>
+          <target state="translated">Les noms de jours sont convertis dans leurs valeurs entières dans le déclencheur de tâche.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>When you enclose day names in quotation marks in a command, enclose each day name in separate quotation marks, such as "Monday", "Tuesday".</source>
+          <target state="translated">Lorsque vous placez les noms de jours entre guillemets droits dans une commande, faites-le séparément, par exemple "Lundi", "Mardi".</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>If you enclose multiple day names in a single quotation mark pair, the corresponding integer values are summed.</source>
+          <target state="translated">Si vous incluez plusieurs noms de jours dans une seule paire de guillemets droits, les valeurs entières correspondantes sont additionnées.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>For example, "Monday, Tuesday" (1, 2) results in a value of "Wednesday" (3).</source>
+          <target state="translated">Par exemple, "Lundi, Mardi" (1, 2) donne la valeur "Mercredi" (3).</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>-Once</source>
+          <target state="translated">-Une fois</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Specifies a non-recurring (one time) or custom repeating schedule.</source>
+          <target state="translated">Spécifie une planification non périodique (unique) ou récurrente personnalisée.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>To create a repeating schedule, use the <bpt id="p1">*</bpt>Once<ept id="p1">*</ept> parameter with the <bpt id="p2">*</bpt>RepetitionDuration<ept id="p2">*</ept> and <bpt id="p3">*</bpt>RepetitionInterval<ept id="p3">*</ept> parameters.</source>
+          <target state="translated">Pour créer une planification récurrente, utilisez la <bpt id="p1">*</bpt>fois<ept id="p1">*</ept> paramètre avec le <bpt id="p2">*</bpt>RepetitionDuration<ept id="p2">*</ept> et <bpt id="p3">*</bpt>RepetitionInterval<ept id="p3">*</ept> paramètres.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>-RandomDelay</source>
+          <target state="translated">-RandomDelay</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Enables a random delay that begins at the scheduled start time, and sets the maximum delay value.</source>
+          <target state="translated">Active un délai aléatoire qui commence à l'heure de début planifiée et définit la valeur maximale du délai.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The length of the delay is set pseudo-randomly for each start and varies from no delay to the time specified by the value of this parameter.</source>
+          <target state="translated">La longueur du délai est définie de manière pseudo-aléatoire pour chaque démarrage et elle varie entre aucun délai et la durée spécifiée par la valeur de ce paramètre.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The default value, zero (00:00:00), disables the random delay.</source>
+          <target state="translated">La valeur par défaut, zéro (00:00:00), désactive le délai aléatoire.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Enter a timespan object, such as one returned by the New-TimeSpan cmdlet, or enter a value in <ph id="ph1">\&lt;</ph>hours<ph id="ph2">\&gt;</ph>:<ph id="ph3">\&lt;</ph>minutes<ph id="ph4">\&gt;</ph>:<ph id="ph5">\&lt;</ph>seconds<ph id="ph6">\&gt;</ph> format, which is automatically converted to a <bpt id="p1">**</bpt>TimeSpan<ept id="p1">**</ept> object.</source>
+          <target state="translated">Entrez un objet timespan, tel que celui retourné par l’applet de commande New-TimeSpan, ou entrez une valeur dans <ph id="ph1">\&lt;</ph>heures<ph id="ph2">\&gt;</ph>:<ph id="ph3">\&lt;</ph>minutes<ph id="ph4">\&gt;</ph>:<ph id="ph5">\&lt;</ph>secondes<ph id="ph6">\&gt;</ph> format, qui est automatiquement converti en un <bpt id="p1">**</bpt>TimeSpan<ept id="p1">**</ept> objet.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>-RepeatIndefinitely</source>
+          <target state="translated">-RepeatIndefinitely</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>This parameter, available starting in Windows PowerShell 4.0, eliminates the necessity of specifying a <bpt id="p1">**</bpt>TimeSpan.MaxValue<ept id="p1">**</ept> value for the <bpt id="p2">*</bpt>RepetitionDuration<ept id="p2">*</ept> parameter to run a scheduled job repeatedly, for an indefinite period.</source>
+          <target state="translated">Ce paramètre, disponible à partir de Windows PowerShell 4.0, élimine le besoin de spécifier un <bpt id="p1">**</bpt>TimeSpan.MaxValue<ept id="p1">**</ept> la valeur pour le <bpt id="p2">*</bpt>RepetitionDuration<ept id="p2">*</ept> paramètre pour exécuter une tâche planifiée à plusieurs reprises, pour une durée indéterminée.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>-RepetitionDuration</source>
+          <target state="translated">-RepetitionDuration</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Repeats the job until the specified time expires.</source>
+          <target state="translated">Répète la tâche jusqu'à ce que le délai spécifié expire.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The repetition frequency is determined by the value of the <bpt id="p1">*</bpt>RepetitionInterval<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">La fréquence de répétition est déterminée par la valeur de la <bpt id="p1">*</bpt>RepetitionInterval<ept id="p1">*</ept> paramètre.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>For example, if the value of <bpt id="p1">**</bpt>RepetitionInterval<ept id="p1">**</ept> is 5 minutes and the value of <bpt id="p2">**</bpt>RepetitionDuration<ept id="p2">**</ept> is 2 hours, the job is triggered every five minutes for two hours.</source>
+          <target state="translated">Par exemple, si la valeur de <bpt id="p1">**</bpt>RepetitionInterval<ept id="p1">**</ept> est 5 minutes et la valeur de <bpt id="p2">**</bpt>RepetitionDuration<ept id="p2">**</ept> est de 2 heures, la tâche est déclenchée toutes les cinq minutes pendant deux heures.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Enter a timespan object, such as one that the New-TimeSpan cmdlet returns or a string that can be converted to a timespan object, such as "1:05:30".</source>
+          <target state="translated">Entrez un objet timespan, tel que celui qui retourne l’applet de commande New-TimeSpan ou une chaîne qui peut être convertie en un objet timespan, tel que « 1 : 05:30 ».</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>To run a job indefinitely, add the <bpt id="p1">*</bpt>RepeatIndefinitely<ept id="p1">*</ept> parameter instead.</source>
+          <target state="translated">Pour exécuter une tâche indéfiniment, ajoutez le <bpt id="p1">*</bpt>RepeatIndefinitely<ept id="p1">*</ept> paramètre à la place.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>To stop a job before the job trigger repetition duration expires, use the Set-JobTrigger cmdlet to set the <bpt id="p1">*</bpt>RepetitionDuration<ept id="p1">*</ept> value to zero (0).</source>
+          <target state="translated">Pour arrêter une tâche avant l’expiration de la durée de répétition de déclencheur de tâche, utilisez l’applet de commande Set-JobTrigger pour définir le <bpt id="p1">*</bpt>RepetitionDuration<ept id="p1">*</ept> valeur sur zéro (0).</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when the <bpt id="p1">*</bpt>Once<ept id="p1">*</ept>, <bpt id="p2">*</bpt>At<ept id="p2">*</ept> and <bpt id="p3">*</bpt>RepetitionInterval<ept id="p3">*</ept> parameters are used in the command.</source>
+          <target state="translated">Ce paramètre est valide uniquement lorsque le <bpt id="p1">*</bpt>une fois<ept id="p1">*</ept>, <bpt id="p2">*</bpt>à<ept id="p2">*</ept> et <bpt id="p3">*</bpt>RepetitionInterval<ept id="p3">*</ept> paramètres sont utilisés dans la commande.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>-RepetitionInterval</source>
+          <target state="translated">-RepetitionInterval</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Repeats the job at the specified time interval.</source>
+          <target state="translated">Répète la tâche à l'intervalle de temps spécifié.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>For example, if the value of this parameter is 2 hours, the job is triggered every two hours.</source>
+          <target state="translated">Par exemple, si la valeur de ce paramètre est de 2 heures, la tâche est déclenchée toutes les deux heures.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The default value, 0, does not repeat the job.</source>
+          <target state="translated">La valeur par défaut, 0, ne répète pas la tâche.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Enter a timespan object, such as one that the New-TimeSpan cmdlet returns or a string that can be converted to a timespan object, such as "1:05:30".</source>
+          <target state="translated">Entrez un objet timespan, tel que celui qui retourne l’applet de commande New-TimeSpan ou une chaîne qui peut être convertie en un objet timespan, tel que « 1 : 05:30 ».</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when the <bpt id="p1">*</bpt>Once<ept id="p1">*</ept>, <bpt id="p2">*</bpt>At<ept id="p2">*</ept>, and <bpt id="p3">*</bpt>RepetitionDuration<ept id="p3">*</ept> parameters are used in the command.</source>
+          <target state="translated">Ce paramètre est valide uniquement lorsque le <bpt id="p1">*</bpt>une fois<ept id="p1">*</ept>, <bpt id="p2">*</bpt>à<ept id="p2">*</ept>, et <bpt id="p3">*</bpt>RepetitionDuration<ept id="p3">*</ept> paramètres sont utilisés dans la commande.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>-User</source>
+          <target state="translated">-Utilisateur</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Specifies the users who trigger an <bpt id="p1">*</bpt>AtLogon<ept id="p1">*</ept> start of a scheduled job.</source>
+          <target state="translated">Spécifie les utilisateurs qui déclenchent une <bpt id="p1">*</bpt>AtLogon<ept id="p1">*</ept> Démarrer une tâche planifiée.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Enter the name of a user in <ph id="ph1">\&lt;</ph>UserName<ph id="ph2">\&gt;</ph> or <ph id="ph3">\&lt;</ph>Domain\Username<ph id="ph4">\&gt;</ph> format or enter an asterisk (*) to represent all users.</source>
+          <target state="translated">Entrez le nom d’un utilisateur dans <ph id="ph1">\&lt;</ph>nom d’utilisateur<ph id="ph2">\&gt;</ph> ou <ph id="ph3">\&lt;</ph>domaine\nom_utilisateur<ph id="ph4">\&gt;</ph> mettre en forme ou entrez un astérisque (*) pour représenter tous les utilisateurs.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The default value is all users.</source>
+          <target state="translated">La valeur par défaut est tous les utilisateurs.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>-Weekly</source>
+          <target state="translated">-Toutes les semaines</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Specifies a recurring weekly job schedule.</source>
+          <target state="translated">Spécifie une planification de tâche hebdomadaire périodique.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Use the other parameters in the Weekly parameter set to specify the schedule details.</source>
+          <target state="translated">Utilisez les autres paramètres du jeu de paramètres Weekly pour spécifier les détails de la planification.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>-WeeksInterval</source>
+          <target state="translated">-WeeksInterval</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Specifies the number of weeks between occurrences on a weekly job schedule.</source>
+          <target state="translated">Spécifie le nombre de semaines entre les occurrences d'une planification de tâche hebdomadaire.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>For example, a value of 3 starts the scheduled job on weeks 1, 4, 7 and so on.</source>
+          <target state="translated">Par exemple, une valeur de 3 démarre la tâche planifiée les semaines 1, 4, 7 et ainsi de suite.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The default value is 1.</source>
+          <target state="translated">La valeur par défaut est 1.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Cette applet de commande prend en charge les paramètres courants :-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction et - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Pour plus d’informations, consultez about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ENTRÉES</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">Aucune</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>You cannot pipe input to this cmdlet.</source>
+          <target state="translated">Vous ne pouvez pas diriger d'entrée vers cette applet de commande.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">SORTIES</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Microsoft.PowerShell.ScheduledJob.ScheduledJobTrigger</source>
+          <target state="translated">Microsoft.PowerShell.ScheduledJob.ScheduledJobTrigger</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTES DE PUBLICATION</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Job triggers are not saved to disk.</source>
+          <target state="translated">Les déclencheurs de tâche ne sont pas enregistrés sur disque.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>However, scheduled jobs are saved to disk, and you can use the Get-JobTrigger to get the job trigger of any scheduled job.</source>
+          <target state="translated">Toutefois, les tâches planifiées sont enregistrées sur le disque, et vous pouvez utiliser le Get-JobTrigger pour obtenir le déclencheur d’un travail planifié.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>New-JobTrigger<ept id="p1">**</ept> does not prevent you from creating a job trigger that will not run a scheduled job, such as one-time trigger for a date in the past.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Nouveau-JobTrigger<ept id="p1">**</ept> ne vous empêche pas de créer un déclencheur de tâche qui s’exécute pas une tâche planifiée, par exemple un déclencheur à usage unique pour une date dans le passé.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The Register-ScheduledJob cmdlet accepts a ScheduledJobTrigger object, such as one returned by the <bpt id="p1">**</bpt>New-JobTrigger<ept id="p1">**</ept> or Get-JobTrigger cmdlets, or a hash table with trigger values.</source>
+          <target state="translated">L’applet de commande Register-ScheduledJob accepte un objet ScheduledJobTrigger, tel que celui retourné par la <bpt id="p1">**</bpt>New-JobTrigger<ept id="p1">**</ept> ou des applets de commande Get-JobTrigger ou une table de hachage avec les valeurs de déclencheur.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>To submit a hash table, use the following keys.</source>
+          <target state="translated">Pour envoyer une table de hachage, utilisez les clés suivantes.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>(or any valid time string); <ph id="ph1">`DaysOfWeek="Monday", "Wednesday"`</ph> (or any combination of day names); <ph id="ph2">`Interval=2`</ph> (or any valid frequency interval); <ph id="ph3">`RandomDelay="30minutes"`</ph> (or any valid timespan string); <ph id="ph4">`User="Domain1\User01`</ph> (or any valid user; used only with the <bpt id="p1">*</bpt>AtLogon<ept id="p1">*</ept> frequency value) }</source>
+          <target state="translated">(ou n’importe quelle chaîne d’heure valide) ; <ph id="ph1">`DaysOfWeek="Monday", "Wednesday"`</ph> (ou n’importe quelle combinaison de noms de jours) ; <ph id="ph2">`Interval=2`</ph> (ou n’importe quel intervalle de fréquence valide) ; <ph id="ph3">`RandomDelay="30minutes"`</ph> (ou n’importe quelle chaîne de durée de validité) ; <ph id="ph4">`User="Domain1\User01`</ph> (ou tout utilisateur valide ; utilisé uniquement avec la <bpt id="p1">*</bpt>AtLogon<ept id="p1">*</ept> valeur de fréquence)}</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">LIENS CONNEXES</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>about_Scheduled_Jobs</source>
+          <target state="translated">about_Scheduled_Jobs</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Add-JobTrigger</source>
+          <target state="translated">Add-JobTrigger</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Disable-JobTrigger</source>
+          <target state="translated">Disable-JobTrigger</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Disable-ScheduledJob</source>
+          <target state="translated">Disable-ScheduledJob</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Enable-JobTrigger</source>
+          <target state="translated">Enable-JobTrigger</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Enable-ScheduledJob</source>
+          <target state="translated">Enable-ScheduledJob</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Get-JobTrigger</source>
+          <target state="translated">Get-JobTrigger</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Get-ScheduledJob</source>
+          <target state="translated">Get-ScheduledJob</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Get-ScheduledJobOption</source>
+          <target state="translated">Get-ScheduledJobOption</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>New-JobTrigger</source>
+          <target state="translated">New-JobTrigger</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>New-ScheduledJobOption</source>
+          <target state="translated">New-ScheduledJobOption</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Register-ScheduledJob</source>
+          <target state="translated">Register-ScheduledJob</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Remove-JobTrigger</source>
+          <target state="translated">Remove-JobTrigger</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Set-JobTrigger</source>
+          <target state="translated">Set-JobTrigger</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Set-ScheduledJob</source>
+          <target state="translated">Set-ScheduledJob</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Set-ScheduledJobOption</source>
+          <target state="translated">Set-ScheduledJobOption</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Unregister-ScheduledJob</source>
+          <target state="translated">Unregister-ScheduledJob</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
