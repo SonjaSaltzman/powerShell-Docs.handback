@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fb0962c0f81d40d7916ff2e6f61f1d2f75493051</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Security\ConvertTo-SecureString.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">49785309f4685f15d297602d1c89a87b41469b8c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0698bf15b9fe00b28f40c82b10165bba3eaee610</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell 指令程式</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>ConvertTo-SecureString</source>
+          <target state="translated">Convertto-securestring</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>ConvertTo-SecureString</source>
+          <target state="translated">Convertto-securestring</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Converts encrypted standard strings to secure strings.</source>
+          <target state="translated">將加密標準字串轉換成安全字串。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>It can also convert plain text to secure strings.</source>
+          <target state="translated">它也可以將純文字轉換成安全字串。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>It is used with ConvertFrom-SecureString and Read-Host.</source>
+          <target state="translated">它可以搭配 ConvertFrom-SecureString 與 Read-Host 使用。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">語法</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Secure (Default)</source>
+          <target state="translated">安全 （預設值）</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>PlainText</source>
+          <target state="translated">純文字</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Open</source>
+          <target state="translated">開啟</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">描述</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ConvertTo-SecureString<ept id="p1">**</ept> cmdlet converts encrypted standard strings into secure strings.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Convertto-securestring<ept id="p1">**</ept> cmdlet 會將加密的標準字串轉換成安全字串。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>It can also convert plain text to secure strings.</source>
+          <target state="translated">它也可以將純文字轉換成安全字串。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>It is used with ConvertFrom-SecureString and Read-Host.</source>
+          <target state="translated">它可以搭配 ConvertFrom-SecureString 與 Read-Host 使用。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The secure string created by the cmdlet can be used with cmdlets or functions that require a parameter of type SecureString.</source>
+          <target state="translated">Cmdlet 建立的安全字串可搭配需要 SecureString 類型之參數的 Cmdlet 或函式使用。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The secure string can be converted back to an encrypted, standard string using the ConvertFrom-SecureString cmdlet.</source>
+          <target state="translated">使用 ConvertFrom-SecureString Cmdlet 可以將安全字串轉換回加密標準字串。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This enables it to be stored in a file for later use.</source>
+          <target state="translated">這可讓它儲存在檔案中以供日後使用。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If the standard string being converted was encrypted with <bpt id="p1">**</bpt>ConvertFrom-SecureString<ept id="p1">**</ept> using a specified key, that same key must be provided as the value of the <bpt id="p2">*</bpt>Key<ept id="p2">*</ept> or <bpt id="p3">*</bpt>SecureKey<ept id="p3">*</ept> parameter of the <bpt id="p4">**</bpt>ConvertTo-SecureString<ept id="p4">**</ept> cmdlet.</source>
+          <target state="translated">如果要轉換的標準字串以加密 <bpt id="p1">**</bpt>Convertfrom-securestring<ept id="p1">**</ept> 使用指定的索引鍵，該相同的索引鍵必須提供的值為 <bpt id="p2">*</bpt>金鑰<ept id="p2">*</ept> 或 <bpt id="p3">*</bpt>SecureKey<ept id="p3">*</ept> 參數 <bpt id="p4">**</bpt>Convertto-securestring<ept id="p4">**</ept> 指令程式。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">範例</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Example 1: Convert a secure string to an encrypted string</source>
+          <target state="translated">範例 1︰ 將安全字串轉換成加密的字串</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This example shows how to create a secure string from user input, convert the secure string to an encrypted standard string, and then convert the encrypted standard string back to a secure string.</source>
+          <target state="translated">此範例顯示如何從使用者輸入建立安全字串、將安全字串轉換成加密的標準字串，然後再將加密的標準字串轉換回安全字串。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">*</bpt>AsSecureString<ept id="p1">*</ept> parameter of the Read-Host cmdlet to create a secure string.</source>
+          <target state="translated">第一個命令使用 <bpt id="p1">*</bpt>AsSecureString<ept id="p1">*</ept> Read-host cmdlet 來建立安全字串參數。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>After you enter the command, any characters that you type are converted into a secure string and then saved in the $Secure variable.</source>
+          <target state="translated">您輸入命令後，您所輸入的任何字元都轉換成安全字串，然後再儲存 $Secure 變數。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The second command displays the contents of the $Secure variable.</source>
+          <target state="translated">第二個命令會顯示 $Secure 變數的內容。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Because the $Secure variable contains a secure string, Windows PowerShell displays only the System.Security.SecureString type.</source>
+          <target state="translated">$Secure 變數包含安全字串，因為 Windows PowerShell 會顯示 System.Security.SecureString 類型。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The third command uses the ConvertFrom-SecureString cmdlet to convert the secure string in the $Secure variable into an encrypted standard string.</source>
+          <target state="translated">第三個命令使用 Convertfrom-securestring cmdlet $Secure 變數中的安全字串轉換成加密標準字串。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>It saves the result in the $Encrypted variable.</source>
+          <target state="translated">它會將結果儲存在 $Encrypted 變數中。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The fourth command displays the encrypted string in the value of the $Encrypted variable.</source>
+          <target state="translated">第四個命令會顯示加密的字串 $Encrypted 變數的值。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The fifth command uses the <bpt id="p1">**</bpt>ConvertTo-SecureString<ept id="p1">**</ept> cmdlet to convert the encrypted standard string in the $Encrypted variable back into a secure string.</source>
+          <target state="translated">第五個命令會使用 <bpt id="p1">**</bpt>Convertto-securestring<ept id="p1">**</ept> 指令程式可 $Encrypted 變數中的加密標準字串轉換回安全字串。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>It saves the result in the $Secure2 variable.</source>
+          <target state="translated">它會將結果儲存在 $Secure2 變數中。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The sixth command displays the value of the $Secure2 variable.</source>
+          <target state="translated">第六個命令顯示 $Secure2 變數的值。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The SecureString type indicates that the command was successful.</source>
+          <target state="translated">SecureString 類型表示命令已成功。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Example 2: Create a secure string from an encrypted string in a file</source>
+          <target state="translated">範例 2︰ 從檔案中的加密字串建立安全字串</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This example shows how to create a secure string from an encrypted standard string that is saved in a file.</source>
+          <target state="translated">此範例顯示如何從儲存在檔案中之加密標準字串建立安全字串。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">*</bpt>AsSecureString<ept id="p1">*</ept> parameter of the Read-Host cmdlet to create a secure string.</source>
+          <target state="translated">第一個命令使用 <bpt id="p1">*</bpt>AsSecureString<ept id="p1">*</ept> Read-host cmdlet 來建立安全字串參數。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>After you enter the command, any characters that you type are converted into a secure string and then saved in the $Secure variable.</source>
+          <target state="translated">您輸入命令後，您所輸入的任何字元都轉換成安全字串，然後再儲存 $Secure 變數。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The second command uses the ConvertFrom-SecureString cmdlet to convert the secure string in the $Secure variable into an encrypted standard string by using the specified key.</source>
+          <target state="translated">第二個命令使用 Convertfrom-securestring cmdlet，來使用指定的索引鍵，將 $Secure 變數中的安全字串轉換成加密標準字串。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The contents are saved in the $Encrypted variable.</source>
+          <target state="translated">內容會儲存在 $Encrypted 變數中。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The third command uses a pipeline operator (|) to send the value of the $Encrypted variable to the Set-Content cmdlet, which saves the value in the Encrypted.txt file.</source>
+          <target state="translated">第三個命令會使用管線運算子 (|)，$Encrypted 變數的值傳送至 Set-content cmdlet 會將值儲存在 Encrypted.txt 檔案中。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The fourth command uses the Get-Content cmdlet to get the encrypted standard string in the Encrypted.txt file.</source>
+          <target state="translated">第四個命令使用 Get-Content Cmdlet 取得 Encrypted.txt 檔案中加密的標準字串。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The command uses a pipeline operator to send the encrypted string to the <bpt id="p1">**</bpt>ConvertTo-SecureString<ept id="p1">**</ept> cmdlet, which converts it to a secure string by using the specified key.</source>
+          <target state="translated">命令使用管線運算子將加密的字串來傳送 <bpt id="p1">**</bpt>Convertto-securestring<ept id="p1">**</ept> 指令程式，以將它轉換成安全字串中，使用指定的索引鍵。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The results are saved in the $Secure2 variable.</source>
+          <target state="translated">結果會儲存在 $Secure2 變數中。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Example 3: Convert a plain text string to a secure string</source>
+          <target state="translated">範例 3︰ 將純文字字串轉換成安全字串</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This command converts the plain text string P@ssW0rD!</source>
+          <target state="translated">此命令會將轉換的純文字字串 P@ssW0rD ！</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>into a secure string and stores the result in the $Secure_String_Pwd variable.</source>
+          <target state="translated">轉換為安全字串，並將結果儲存在 $Secure_String_Pwd 變數中。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To use the <bpt id="p1">*</bpt>AsPlainText<ept id="p1">*</ept> parameter, the <bpt id="p2">*</bpt>Force<ept id="p2">*</ept> parameter must also be included in the command.</source>
+          <target state="translated">若要使用 <bpt id="p1">*</bpt>AsPlainText<ept id="p1">*</ept> 參數， <bpt id="p2">*</bpt>Force<ept id="p2">*</ept> 也必須在命令中包含參數。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">參數</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>-AsPlainText</source>
+          <target state="translated">-AsPlainText</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Specifies a plain text string to convert to a secure string.</source>
+          <target state="translated">指定要轉換成安全字串的純文字字串。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The secure string cmdlets help protect confidential text.</source>
+          <target state="translated">安全字串 Cmdlet 有助於保護機密文字。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The text is encrypted for privacy and is deleted from computer memory after it is used.</source>
+          <target state="translated">為保有隱私，文字會加密，而且在使用後會從電腦記憶體中刪除。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If you use this parameter to provide plain text as input, the system cannot protect that input in this manner.</source>
+          <target state="translated">如果您使用此參數提供純文字做為輸入，系統就無法以此種方式保護保護該輸入。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To use this parameter, you must also specify the <bpt id="p1">*</bpt>Force<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">若要使用這個參數，您也必須指定 <bpt id="p1">*</bpt>Force<ept id="p1">*</ept> 參數。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Confirms that you understand the implications of using the <bpt id="p1">*</bpt>AsPlainText<ept id="p1">*</ept> parameter and still want to use it.</source>
+          <target state="translated">確認您已了解使用的含意 <bpt id="p1">*</bpt>AsPlainText<ept id="p1">*</ept> 參數，且仍想来使用它。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>-Key</source>
+          <target state="translated">索引鍵</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Specifies the encryption key to use when converting a secure string into an encrypted standard string.</source>
+          <target state="translated">指定將安全字串轉換成加密標準字串時要使用的加密金鑰。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Valid key lengths are 16, 24, and 32 bytes.</source>
+          <target state="translated">有效的金鑰長度為 16、24 及 32 個位元組。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>-SecureKey</source>
+          <target state="translated">-SecureKey</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Specifies the encryption key to use when converting a secure string into an encrypted standard string.</source>
+          <target state="translated">指定將安全字串轉換成加密標準字串時要使用的加密金鑰。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The key must be provided in the format of a secure string.</source>
+          <target state="translated">金鑰需以安全字串的格式提供。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The secure string is converted to a byte array before being used as the key.</source>
+          <target state="translated">安全字串在被當作金鑰使用之前，會先轉換成位元組陣列。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Valid key lengths are 16, 24, and 32 bytes.</source>
+          <target state="translated">有效的金鑰長度為 16、24 及 32 個位元組。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>-String</source>
+          <target state="translated">-字串</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Specifies the string to convert to a secure string.</source>
+          <target state="translated">指定要轉換成安全字串的字串。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">這個 cmdlet 支援一般參數:-偵錯、-ErrorAction、-ErrorVariable、-InformationAction-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 以及-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">如需詳細資訊，請參閱 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">輸入</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>System.String</source>
+          <target state="translated">System.String</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>You can pipe a standard encrypted string to <bpt id="p1">**</bpt>ConvertTo-SecureString<ept id="p1">**</ept>.</source>
+          <target state="translated">您可以透過管道傳送至標準加密的字串 <bpt id="p1">**</bpt>Convertto-securestring<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">輸出</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>System.Security.SecureString</source>
+          <target state="translated">System.Security.SecureString</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>ConvertTo-SecureString returns a <bpt id="p1">**</bpt>SecureString<ept id="p1">**</ept> object.</source>
+          <target state="translated">Convertto-securestring 會傳回 <bpt id="p1">**</bpt>SecureString<ept id="p1">**</ept> 物件。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">附註</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相關的連結</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>ConvertFrom-SecureString</source>
+          <target state="translated">Convertfrom-securestring</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Read-Host</source>
+          <target state="translated">Read-Host</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

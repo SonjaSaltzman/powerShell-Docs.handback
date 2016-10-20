@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fb0331cfadc769cdd7c304dd878a184c97abc5e3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\PSScheduledJob\About\about_Scheduled_Jobs_Advanced.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d73e2bce2a64cadf2f2be53b5913383f6f8b55a4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3463b97a8c55bfa16f9c10ec8480a34acc88df8e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>about_Scheduled_Jobs_Advanced</source>
+          <target state="translated">about_Scheduled_Jobs_Advanced</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell 指令程式</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>About Scheduled Jobs Advanced</source>
+          <target state="translated">排程工作的相關進階</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>about_Scheduled_Jobs_Advanced</source>
+          <target state="translated">about_Scheduled_Jobs_Advanced</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>about_Scheduled_Jobs_Advanced</source>
+          <target state="translated">about_Scheduled_Jobs_Advanced</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">簡短描述</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Explains advanced scheduled job topics, including the file structure that underlies scheduled jobs.</source>
+          <target state="translated">說明進階排程工作主題，包括構成排程工作基礎的檔案結構。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>LONG DESCRIPTION</source>
+          <target state="translated">詳細描述</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This topic includes the following sections:</source>
+          <target state="translated">這個主題包括下列各節：</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>-- Scheduled job directories and files -- Rename a scheduled job -- Start a scheduled job immediately -- Manage execution history</source>
+          <target state="translated">-已排程的工作目錄和檔案-重新命名的排程的工作-立即啟動排程的工作-管理執行歷程記錄</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>SCHEDULED JOB DIRECTORIES AND FILES</source>
+          <target state="translated">排定的工作目錄和檔案</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell scheduled jobs are both Windows PowerShell jobs and Task Scheduler tasks.</source>
+          <target state="translated">Windows PowerShell 排程工作是 Windows PowerShell 工作和工作排程器工作。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Each scheduled job is registered in Task Scheduler and saved on disk in Microsoft .Net Framework Serialization XML format.</source>
+          <target state="translated">每個排定的工作是在工作排程器中註冊，並儲存在磁碟上的 Microsoft.Net Framework 序列化 XML 格式。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>When you create a scheduled job, Windows Powershell creates a directory for the scheduled job in the $home\AppData\Local\Microsoft\Windows\PowerShell\ScheduledJobs directory on the local computer.</source>
+          <target state="translated">當您建立排程的工作時，Windows Powershell 會在本機電腦上的 $home\AppData\Local\Microsoft\Windows\PowerShell\ScheduledJobs 目錄中建立排程工作目錄。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The directory name is the same as the job name.</source>
+          <target state="translated">工作名稱相同的目錄名稱。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The following is a sample ScheduledJobs directory.</source>
+          <target state="translated">以下是範例 ScheduledJobs 目錄。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>PS C:\ps-test&gt; dir $home\AppData\Local\Microsoft\Windows\PowerShell\ScheduledJobs</source>
+          <target state="translated">PS C:\ps-test &gt; dir $home\AppData\Local\Microsoft\Windows\PowerShell\ScheduledJobs</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Directory: C:\Users\User01\AppData\Local\Microsoft\Windows\PowerShell\ScheduledJobs</source>
+          <target state="translated">目錄︰ C:\Users\User01\AppData\Local\Microsoft\Windows\PowerShell\ScheduledJobs</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Mode                LastWriteTime     Length Name</source>
+          <target state="translated">Mode                LastWriteTime     Length Name</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>d----         9/29/2011  10:03 AM            ArchiveProjects d----         9/30/2011   1:18 PM            Inventory d----        10/20/2011   9:15 AM            Backup-Scripts d----         11/7/2011  10:40 AM            ProcessJob d----         11/2/2011  10:25 AM            SecureJob d----         9/27/2011   1:29 PM            Test-HelpFiles d----         9/26/2011   4:22 PM            DeployPackage</source>
+          <target state="translated">d---9/29/2011年上午 10:03 ArchiveProjects d---2011 年 9 月 30 日下午 1:18 清查 d---2011 年 10 月 20 日上午 9:15 備份指令碼 d---2011 年 11 月 7 日上午 10:40 ProcessJob d---2011 年 11 月 2 日上午 10:25 SecureJob d---2011 年 9 月 27 日下午 1:29 測試-HelpFiles d---2011 年 9 月 26 日下午 4:22 DeployPackage</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Each scheduled job has its own directory.</source>
+          <target state="translated">每個排定的工作都有它自己的目錄。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The directory contains the scheduled job XML file and an Output subdirectory.</source>
+          <target state="translated">目錄包含排程的工作的 XML 檔案和輸出子目錄。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; dir $home\AppData\Local\Microsoft\Windows\PowerShell\ScheduledJobs\ProcessJob</source>
+          <target state="translated">PS C: &gt; dir $home\AppData\Local\Microsoft\Windows\PowerShell\ScheduledJobs\ProcessJob</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Directory: C:\Users\User1\AppData\Local\Microsoft\Windows\PowerShell\ScheduledJobs\ProcessJob</source>
+          <target state="translated">目錄︰ C:\Users\User1\AppData\Local\Microsoft\Windows\PowerShell\ScheduledJobs\ProcessJob</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Mode                LastWriteTime     Length Name</source>
+          <target state="translated">Mode                LastWriteTime     Length Name</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>d----         11/1/2011   3:00 PM            Output -a---         11/1/2011   3:43 PM       7281 ScheduledJobDefinition.xml</source>
+          <target state="translated">d---11/1/2011年下午 3:00 輸出----2011 年 11 月 1 日下午 3:43 7281 ScheduledJobDefinition.xml</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The Output directory for a scheduled job contains its execution history.</source>
+          <target state="translated">排程工作的輸出目錄包含它的執行歷程記錄。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Each time a job trigger starts a scheduled job, Windows PowerShell creates a timestamp-named directory in the Output directory.</source>
+          <target state="translated">工作觸發程序啟動排程的工作，每次 Windows PowerShell 會在輸出目錄中，建立時間戳記名為的目錄。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The timestamp directory contains the results of the job in a Results.xml file and the job status in a Status.xml file.</source>
+          <target state="translated">時間戳記目錄包含 Results.xml 檔案中的工作和工作狀態 Status.xml 檔案中的結果。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The following command shows the execution history directories for the ProcessJob scheduled job.</source>
+          <target state="translated">下列命令會顯示執行 ProcessJob 排程工作的歷程記錄目錄。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; dir $home\AppData\Local\Microsoft\Windows\PowerShell\ScheduledJobs\ProcessJob\Output</source>
+          <target state="translated">PS C: &gt; dir $home\AppData\Local\Microsoft\Windows\PowerShell\ScheduledJobs\ProcessJob\Output</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Directory: C:\Users\User01\AppData\Local\Microsoft\Windows\PowerShell\ScheduledJobs\ProcessJob\Output</source>
+          <target state="translated">目錄︰ C:\Users\User01\AppData\Local\Microsoft\Windows\PowerShell\ScheduledJobs\ProcessJob\Output</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Mode                LastWriteTime     Length Name</source>
+          <target state="translated">Mode                LastWriteTime     Length Name</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>d----         11/2/2011   3:00 AM            20111102-030002-260 d----         11/3/2011   3:00 AM            20111103-030002-277 d----         11/4/2011   3:00 AM            20111104-030002-209 d----         11/5/2011   3:00 AM            20111105-030002-251 d----         11/6/2011   3:00 AM            20111106-030002-174 d----         11/7/2011  12:00 AM            20111107-000001-914 d----         11/7/2011   3:00 AM            20111107-030002-376</source>
+          <target state="translated">d---11/2/2011年上午 3:00 20111102 到 030002 260 d---2011 年 11 月 3 日上午 3:00 20111103-030002-277 d---2011 年 11 月 4 日上午 3:00 20111104-030002-209 d---2011 年 11 月 5 日上午 3:00 20111105-030002-251 d---2011 年 11 月 6 日上午 3:00 20111106-030002-174 d---2011 年 11 月 7 日上午 12:00 20111107-000001-914 d---2011 年 11 月 7 日上午 3:00 20111107-030002-376</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; dir $home\AppData\Local\Microsoft\Windows\PowerShell\ScheduledJobs\ProcessJob\Output\20111102-030002-260</source>
+          <target state="translated">PS C: &gt; dir $home\AppData\Local\Microsoft\Windows\PowerShell\ScheduledJobs\ProcessJob\Output\20111102 030002 260</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Directory: C:\Users\juneb\AppData\Local\Microsoft\Windows\PowerShell\ScheduledJobs\testjob\output\20111102-030002-260</source>
+          <target state="translated">目錄︰ C:\Users\juneb\AppData\Local\Microsoft\Windows\PowerShell\ScheduledJobs\testjob\output\20111102-030002-260</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Mode                LastWriteTime     Length Name</source>
+          <target state="translated">Mode                LastWriteTime     Length Name</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>-a---         11/2/2011   3:00 AM     581106 Results.xml -a---         11/2/2011   3:00 AM       9451 Status.xml</source>
+          <target state="translated">----2011 年 11 月 2 日上午 3:00 581106 Results.xml----2011 年 11 月 2 日上午 3:00 9451 Status.xml</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You can open and examine the ScheduledJobDefinition.xml, Results.xml and Status.xml files or use the Select-XML cmdlet to parse the files.</source>
+          <target state="translated">您可以開啟和檢查 ScheduledJobDefinition.xml、 Results.xml 和 Status.xml 檔案，或使用 SELECT-XML cmdlet 來剖析檔案。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>WARNING: Do not edit the XML files.</source>
+          <target state="translated">警告︰ 請勿編輯 XML 檔案。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If any XML file contains invalid XML, Windows PowerShell deletes the scheduled job and its execution history, including job results.</source>
+          <target state="translated">如果所有的 XML 檔案包含無效的 XML，Windows PowerShell 會刪除排程的工作和其執行記錄，包括工作結果。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>START A SCHEDULED JOB IMMEDIATELY</source>
+          <target state="translated">立即啟動排程的工作</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>You can start a scheduled job immediately in one of two ways:</source>
+          <target state="translated">您可以立即啟動排程的工作，在兩種方式之一︰</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-- Run the Start-Job cmdlet to start any scheduled job -- Add the RunNow parameter to your Register-ScheduledJob command to start the job as soon as the command is run</source>
+          <target state="translated">-執行 Start-job cmdlet 啟動排定的工作--RunNow 參數加入至 Register-scheduledjob 命令來啟動工作，只要在執行命令</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Jobs that are started by using the Start-Job cmdlet are standard Windows PowerShell background jobs, not instances of the scheduled job.</source>
+          <target state="translated">藉由使用 Start-job cmdlet 啟動的工作是標準的 Windows PowerShell 背景工作，不排程工作的執行個體。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Like all background jobs, these jobs start immediately -- they are not subject to job options or affected by job triggers -- and their output is not saved in the Output directory of the scheduled job directory.</source>
+          <target state="translated">如所有背景工作，這些工作會立即開始--它們不受限於工作選項，或受影響的工作觸發程序-並其輸出不會儲存在排定的工作目錄的輸出目錄。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The following command uses the DefinitionName parameter of the Start-Job cmdlet to start the ProcessJob scheduled job.</source>
+          <target state="translated">下列命令使用 Start-job cmdlet 的 DefinitionName 參數來啟動 ProcessJob 排程的工作。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Start-Job -DefinitionName ProcessJob</source>
+          <target state="translated">開始工作-DefinitionName ProcessJob</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To manage the job and get the job results, use the Job cmdlets.</source>
+          <target state="translated">若要管理工作，並取得工作結果，使用各種 Job cmdlet。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>For more information about the Job cmdlets, see about_Jobs (http://go.microsoft.com/fwlink/?LinkID=113251).</source>
+          <target state="translated">如需工作 cmdlet 的詳細資訊，請參閱 about_Jobs (http://go.microsoft.com/fwlink/?LinkID=113251)。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>NOTE: To use the Job cmdlets on instances of scheduled jobs, the PSScheduledJob module  must be imported into the session.</source>
+          <target state="translated">注意︰ 若要排程工作的執行個體上使用 Job cmdlet，PSScheduledJob 模組必須匯入工作階段。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To import the PSScheduledJob module, type "Import-Module PSScheduledJob" (without quotation marks) or use any Scheduled Job cmdlet, such as Get-ScheduledJob.</source>
+          <target state="translated">若要匯入 PSScheduledJob 模組，輸入 「 匯入模組 PSScheduledJob"（不含引號） 或使用任何排程工作 cmdlet，例如 Get-scheduledjob。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>RENAME A SCHEDULED JOB</source>
+          <target state="translated">重新命名的排程的工作</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To rename a scheduled job, use the Name parameter of the Set-ScheduledJob cmdlet.</source>
+          <target state="translated">若要重新命名的排程的工作，請使用 Set-scheduledjob cmdlet 的 Name 參數。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>When you rename  a scheduled job, Windows PowerShell changes the name of the scheduled job and the scheduled job directory.</source>
+          <target state="translated">當您重新命名的排程的工作時，Windows PowerShell 變更排程的工作和排程的工作目錄的名稱。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>However, it doesn't change the names of instances of the scheduled job that have already run.</source>
+          <target state="translated">不過，它不會變更排程工作已經執行的執行個體的名稱。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>GET START AND END TIMES</source>
+          <target state="translated">取得開始和結束時間</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>To get the dates and times that job instances started and ended, use the PSBeginTime and PSEndTime properties of the ScheduledJob object that Get-Job returns for scheduled jobs.</source>
+          <target state="translated">取得日期和時間工作執行個體已開始和結束，使用 PSBeginTime PSEndTime ScheduledJob 傳回物件的 Get 作業的排程工作的屬性。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The following example uses the Property parameter of the Format-Table cmdlet to display the PSBeginTime and PSEndTime properties of each job instance in a table.</source>
+          <target state="translated">下列範例會使用 Format-table cmdlet 的 Property 參數來顯示資料表中的每個工作執行個體的 PSBeginTime 和 PSEndTime 屬性。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The command uses a calculated property to display the elapsed time of each job instance.</source>
+          <target state="translated">命令會使用計算的屬性，顯示每個工作執行個體的已耗用時間。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-job -Name UpdateHelpJob | Format-Table -Property ID, PSBeginTime, PSEndTime, @{Label="Elapsed Time";Expression={$.PsEndTime - $.PSBeginTime}}</source>
+          <target state="translated">PS C: &gt; Get 作業-名稱 UpdateHelpJob |格式化表格的屬性識別碼、 PSBeginTime、 PSEndTime，@{標籤 = [經過時間]。運算式 = {$。PsEndTime-$。PSBeginTime}}</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Id   PSBeginTime             PSEndTime                Elapsed Time</source>
+          <target state="translated">識別碼 PSBeginTime PSEndTime 所經過時間</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>2   11/3/2011 3:00:01 AM    11/3/2011 3:00:39 AM     00:00:38.0053854</source>
+          <target state="translated">2 11/3/2011年 3:00:01 AM 2011 年 11 月 3 日上午 3:00:39 00:00:38.0053854</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>3   11/4/2011 3:00:02 AM    11/4/2011 3:01:01 AM     00:00:59.1188475</source>
+          <target state="translated">2011 年 11 3/4 日上午 3:00:02 2011 年 11 月 4 日上午 3:01:01 00:00:59.1188475</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>4   11/5/2011 3:00:02 AM    11/5/2011 3:00:50 AM     00:00:48.3692034</source>
+          <target state="translated">2011 年 11 4/5 日上午 3:00:02 2011 年 11 月 5 日上午 3:00:50 00:00:48.3692034</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>5   11/6/2011 3:00:01 AM    11/6/2011 3:00:54 AM     00:00:52.8013036</source>
+          <target state="translated">2011 年 11 5/6 月 3:00:01 AM 2011 年 11 月 6 日上午 3:00:54 00:00:52.8013036</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>6   11/7/2011 3:00:01 AM    11/7/2011 3:00:38 AM     00:00:37.1930350</source>
+          <target state="translated">6 11/7/2011年 3:00:01 AM 2011 年 11 月 7 日上午 3:00:38 00:00:37.1930350</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>7   11/8/2011 3:00:01 AM    11/8/2011 3:00:57 AM     00:00:56.2570556</source>
+          <target state="translated">2011 年 7 11/8 日上午 3:00:01 2011 年 11 月 8 日上午 3:00:57 00:00:56.2570556</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>8   11/9/2011 3:00:03 AM    11/9/2011 3:00:55 AM     00:00:51.8142222</source>
+          <target state="translated">2011 年 8 11/9 日上午 3:00:03 2011 年 11 月 9 日上午 3:00:55 00:00:51.8142222</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>9   11/10/2011 3:00:02 AM   11/10/2011 3:00:42 AM    00:00:40.7195954</source>
+          <target state="translated">9 11/10/2011年上午 3:00:02 2011 年 11 月 10 日上午 3:00:42 00:00:40.7195954</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>MANAGE EXECUTION HISTORY</source>
+          <target state="translated">管理執行歷程記錄</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>You can determine the number of job instance results that are saved for each schedule job and delete the execution history and saved job results of any scheduled job at any time.</source>
+          <target state="translated">您可以判定儲存為每個排程工作的工作執行個體結果數目，並隨時刪除執行記錄與儲存的工作任何的結果排程工作。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The ExecutionHistoryLength property of a scheduled job determines how many job instance results are saved for the scheduled job.</source>
+          <target state="translated">排程工作 ExecutionHistoryLength 屬性會決定排程工作會被儲存多少工作執行個體結果。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>When the number of saved results exceeds the value of the ExecutionHistoryLength property, Windows PowerShell deletes the results of the oldest instance to make room for the results of the newest instance.</source>
+          <target state="translated">當已儲存的結果數目超過 ExecutionHistoryLength 屬性的值時，Windows PowerShell 會刪除最舊的執行個體，以便挪出空間結果的最新的執行個體的結果。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>By default, Windows PowerShell saves the execution history and results of 32 instances of each scheduled job.</source>
+          <target state="translated">根據預設，Windows PowerShell 將儲存的執行歷程記錄和 32 的執行個體，每個排程工作的結果。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>To change that value, use the MaxResultCount parameters of the Register-ScheduledJob or Set-ScheduledJob cmdlets.</source>
+          <target state="translated">若要變更此值，使用 Register-scheduledjob 或 Set-scheduledjob cmdlet 的 MaxResultCount 參數。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>To delete the execution history and all results for a scheduled job, use the ClearExecutionHistory parameter of the Set-ScheduledJob cmdlet.</source>
+          <target state="translated">若要刪除的執行歷程記錄和所有結果來排定的工作，使用 ClearExecutionHistory Set-scheduledjob cmdlet 參數。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Deleting this execution history does not prevent Windows PowerShell from saving the results of new instances of the scheduled job.</source>
+          <target state="translated">刪除此執行歷程記錄不會防止 Windows PowerShell 儲存結果的排程工作的新執行個體。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The following command uses the Register-ScheduledJob cmdlet to creates a scheduled job.</source>
+          <target state="translated">下列命令使用 Register-scheduledjob cmdlet 來建立排程的工作。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The command uses the MaxResultCount parameter with a value of 12 to save only the 12 newest job instance results of the scheduled job.</source>
+          <target state="translated">命令會使用 MaxResultCount 參數值為 12，只有 12 最新工作執行個體將結果儲存排程的工作。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Register-ScheduledJob -Name ProcessJob -ScriptBlock {Get-Process} -MaxResultCount 12</source>
+          <target state="translated">Register-scheduledjob-名稱 ProcessJob-ScriptBlock {Get-process} MaxResultCount 12</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The following command uses the MaxResultCount parameter of the Set-ScheduledJob cmdlet to increase the number of saved instance results to 15.</source>
+          <target state="translated">下列命令會使用 MaxResultCount Set-scheduledjob cmdlet 參數來增加到 15 之間的已儲存的執行個體結果數目。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Get-ScheduledJob ProcessJob | Set-ScheduledJob -MaxResultCount 15</source>
+          <target state="translated">Get-scheduledjob ProcessJob |Set-scheduledjob MaxResultCount 15</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The following command deletes the execution history and all currently saved results of the ProcessJob scheduled job.</source>
+          <target state="translated">下列命令將刪除的執行歷程記錄和 ProcessJob 排程工作的所有目前已儲存的結果。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Get-ScheduledJob ProcessJob | Set-ScheduledJob -ClearExecutionHistory</source>
+          <target state="translated">Get-scheduledjob ProcessJob |Set-scheduledjob ClearExecutionHistory</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The following command gets the values of the name and ExecutionHistoryLength properties of all scheduled jobs on the computer and displays them in a table.</source>
+          <target state="translated">下列命令會取得名稱的值以及 ExecutionHistoryLength 屬性，所有排程工作的電腦上，並加以顯示資料表中。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Get-ScheduledJob | Format-Table -Property Name, ExecutionHistoryLength -AutoSize</source>
+          <target state="translated">Get-scheduledjob |格式化表格的屬性名稱、 ExecutionHistoryLength 自動調整</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>SEE ALSO</source>
+          <target state="translated">另請參閱</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>about_Scheduled_Jobs about_Scheduled_Jobs_Troubleshooting about_Jobs</source>
+          <target state="translated">about_Scheduled_Jobs about_Scheduled_Jobs_Troubleshooting about_Jobs</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

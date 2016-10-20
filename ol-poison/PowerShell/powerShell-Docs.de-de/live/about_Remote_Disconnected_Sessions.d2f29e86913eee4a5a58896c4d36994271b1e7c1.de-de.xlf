@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3d2965a9d70edcf1b50e33d0387a29144b959c28</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Core\About\about_Remote_Disconnected_Sessions.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">48aec77a999e20ad00aaa533841b5bcba2d48c78</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">91c57e3e54eb648bd4de436ce23b2ae89db8bd0f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>about_Remote_Disconnected_Sessions</source>
+          <target state="translated">about_Remote_Disconnected_Sessions</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell-Cmdlets</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>About Remote Disconnected Sessions</source>
+          <target state="translated">Über Remote-Sitzungen</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>about_Remote_Disconnected_Sessions</source>
+          <target state="translated">about_Remote_Disconnected_Sessions</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>about_Remote_Disconnected_Session</source>
+          <target state="translated">about_Remote_Disconnected_Session</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">KURZE BESCHREIBUNG</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Explains how to disconnect from and reconnect to a PSSession</source>
+          <target state="translated">Erläutert das Trennen und erneutes Verbinden mit einer PSSession</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>LONG DESCRIPTION</source>
+          <target state="translated">LANGE BESCHREIBUNG</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, you can disconnect from a PSSession and reconnect to the PSSession at a later time on the same computer or a different computer.</source>
+          <target state="translated">Ab Windows PowerShell 3.0 können Sie eine PSSession trennen und erneutes Verbinden mit der PSSession zu einem späteren Zeitpunkt auf demselben Computer oder einem anderen Computer.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The session state is maintained and commands in the PSSession continue to run while the session is disconnected.</source>
+          <target state="translated">Der Sitzungszustand wird beibehalten, und Befehle in der PSSession werden weiterhin ausgeführt, während die Sitzung getrennt wird.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The Disconnected Sessions feature is available only when the computer at the remote end of a connection is running Windows PowerShell 3.0 or a later version of Windows PowerShell.</source>
+          <target state="translated">Die Funktion für getrennte Sitzungen steht nur, wenn der Computer auf der Remoteseite der Verbindung mit Windows PowerShell 3.0 oder eine höhere Version von Windows PowerShell ausgeführt wird.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The Disconnected Sessions feature allows you to close the session in which a PSSession was created, and even close Windows PowerShell, and shut down the computer, without disrupting commands running in the PSSession.</source>
+          <target state="translated">Die Funktion für getrennte Sitzungen können Sie zum Schließen der Sitzungs, in dem eine PSSession erstellt wurde, auch Windows PowerShell schließen und den Computer Herunterfahren, ohne Unterbrechung der Befehle, die in der PSSession ausgeführt.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>It is especially useful for running commands that take an extended time to complete, and it provides the time and device flexibility that IT professionals require.</source>
+          <target state="translated">Dies ist besonders für die Ausführung von Befehlen, die eine längere Zeit in Anspruch nehmen und Flexibilität der Zeit und Geräte, die IT-Spezialisten erfordern.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>NOTE: You cannot disconnect from an interactive session that is started by using the Enter-PSSession cmdlet.</source>
+          <target state="translated">HINWEIS: Sie können nicht von einer interaktiven Sitzung trennen, die mit dem Enter-PSSession-Cmdlet gestartet wird.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can use Disconnected Sessions to manage PSSessions that were disconnected unintentionally as the result of a computer or network outage.</source>
+          <target state="translated">Getrennte Sitzungen können zum Verwalten von PSSessions, die als Ergebnis eines Computers oder Netzwerkausfall versehentlich entfernt wurden.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In real-world use, the Disconnected Sessions feature allows you to begin solving a problem, turn your attention to a higher priority issue, and then resume work on the solution, even on a different computer in a different location.</source>
+          <target state="translated">Verwenden Sie in der Praxis, die getrennte Sitzungen Feature zum Lösen eines Problems beginnen können, aktivieren Sie Ihre Aufmerksamkeit auf ein Problem mit der höheren Priorität und anschließend fortsetzen Sie der Arbeit an der Lösung auch auf einem anderen Computer an einem anderen Speicherort.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>DISCONNECTED SESSION CMDLETS</source>
+          <target state="translated">GETRENNTE SITZUNG-CMDLETS</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The following cmdlets support the Disconnected Sessions feature:</source>
+          <target state="translated">Die folgenden Cmdlets unterstützen die Funktion für getrennte Sitzungen:</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Disconnect-PSSession:  Disconnects a PSSession.</source>
+          <target state="translated">Disconnect-PSSession: Trennt eine PSSession.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Connect-PSSession:     Connects to a disconnected PSSession.</source>
+          <target state="translated">Connect-PSSession: Eine Verbindung mit einer getrennten PSSession.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Receive-PSSession:     Gets the results of commands that ran in disconnected sessions.</source>
+          <target state="translated">Receive-PSSession: Ruft die Ergebnisse von Befehlen, die in getrennten Sitzungen ausgeführt wurden.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Get-PSSession:         Gets PSSessions on the local computer or on remote computers.</source>
+          <target state="translated">Get-PSSession: Ruft die PSSessions ab, auf dem lokalen Computer oder auf Remotecomputern.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Invoke-Command:        InDisconnectedSession parameter creates a PSSession and disconnects immediately.</source>
+          <target state="translated">Invoke-Command: InDisconnectedSession Parameter erstellt eine PSSession und sofort getrennt.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>HOW THE DISCONNECTED SESSIONS FEATURE WORKS</source>
+          <target state="translated">WIE DIE GETRENNTEN SITZUNGEN FEATURE FUNKTIONIERT</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, PSSessions are independent of the sessions in which they are created.</source>
+          <target state="translated">Ab Windows PowerShell 3.0 werden PSSessions unabhängig von der Sitzungen, in denen sie erstellt werden.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Active PSSession are maintained on the remote computer or "server side" of the connection, even if the session in which PSSession was created is closed and the originating computer is shut down or disconnected from the network.</source>
+          <target state="translated">Active PSSession werden auf dem Remotecomputer oder "serverseitige" die Verbindung beibehalten, auch wenn die Sitzung in der PSSession erstellt wurde geschlossen und der ursprüngliche Computer heruntergefahren oder vom Netzwerk getrennt.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, the PSSession is deleted from the remote computer when it is disconnected from the originating session or the session in which it was created ends.</source>
+          <target state="translated">In Windows PowerShell 2.0 wird die PSSession auf dem Remotecomputer gelöscht, wenn sie getrennt wird, aus der ursprünglichen Sitzung oder die Sitzung, in der er enden erstellt wurde.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>When you disconnect a PSSession, the PSSession remains active and is maintained on the remote computer.</source>
+          <target state="translated">Wenn Sie eine PSSession trennen, wird die PSSession bleibt aktiv, und auf dem Remotecomputer verwaltet wird.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The session state changes from Running to Disconnected.</source>
+          <target state="translated">Der Sitzungsstatus ändert sich in Disconnected ausgeführt.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You can reconnect to a disconnected PSSession from the current session or from a different session on the same computer, or from a different computer.</source>
+          <target state="translated">Sie können die Verbindung einer getrennten PSSession aus der aktuellen Sitzung oder von einer anderen Sitzung auf demselben Computer oder auf einem anderen Computer wiederherstellen.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The remote computer that maintains the session must be running and be connected to the network.</source>
+          <target state="translated">Der remote-Computer, der die Sitzung verwaltet muss ausgeführt werden und mit dem Netzwerk verbunden werden.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Commands in a disconnected PSSession continue to run uninterrupted on the remote computer until the command completes or the output buffer fills.</source>
+          <target state="translated">Befehle in einer getrennten PSSession weiterhin auf dem Remotecomputer ununterbrochen ausgeführt, bis der Befehl abgeschlossen ist, oder der Ausgabepuffer füllt.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To prevent a full output buffer from suspending a command, use the OutputBufferingMode parameter of the Disconnect-PSSession, New-PSSessionOption, or New-PSTransportOption cmdlets.</source>
+          <target state="translated">Verwenden Sie den OutputBufferingMode-Parameter, der den Disconnect-PSSession, New-PSSessionOption oder New-PSTransportOption-Cmdlets, um zu verhindern, dass einen vollen Ausgabepuffer Anhalten eines Befehls.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Disconnected sessions are maintained in the disconnected state on the remote computer.</source>
+          <target state="translated">Sitzungen werden in den Offlinezustand auf dem Remotecomputer verwaltet.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>They are available for you to reconnect, until you delete the PSSession, such as by using the Remove-PSSession cmdlet, or until the idle timeout of the PSSession expires.</source>
+          <target state="translated">Sie sind für Sie eine Verbindung herzustellen, bis Sie die PSSession mit dem Remove-PSSession-Cmdlet wie z. B. löschen oder das Leerlaufzeitlimit der PSSession abgelaufen ist, verfügbar.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You can adjust the idle timeout of a PSSession by using the IdleTimeoutSec or IdleTimeout parameters of the Disconnect-PSSession, New-PSSessionOption, or New-PSTransportOption cmdlets.</source>
+          <target state="translated">Sie können das Leerlauftimeout einer pssession mit den Parametern IdleTimeoutSec oder IdleTimeout der Disconnect-PSSession, New-PSSessionOption oder New-PSTransportOption Cmdlets anpassen.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Another user can connect to PSSessions that you created, but only if they can supply the credentials that were used to create the session, or use the RunAs credentials of the session configuration.</source>
+          <target state="translated">Ein anderer Benutzer Verbindungen zu PSSessions, die Sie erstellt haben, aber nur wenn sie können die Anmeldeinformationen, die zum Erstellen der Sitzung verwendet wurden, oder die RunAs-Anmeldeinformationen der Sitzungskonfiguration.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>HOW TO GET PSSESSIONS</source>
+          <target state="translated">GEWUSST WIE: ABRUFEN DER PSSESSIONS</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, the Get-PSSession cmdlet gets PSSessions on the local computer and remote computers.</source>
+          <target state="translated">Ab Windows PowerShell 3.0 ruft das Cmdlet "Get-PSSession" PSSessions auf dem lokalen Computer und Remotecomputern ab.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>It can also get PSSessions that were created in the current session.</source>
+          <target state="translated">Sie können auch PSSessions abrufen, die in der aktuellen Sitzung erstellt wurden.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>To get PSsessions on the local computer or remote computers, use the ComputerName or ConnectionUri parameters.</source>
+          <target state="translated">Verwenden Sie zum Abrufen von PSsessions auf dem lokalen Computer oder Remotecomputer, der ComputerName oder ConnectionUri-Parameter.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Without parameters, Get-PSSession gets PSSession that were created in the local session, regardless of where they terminate.</source>
+          <target state="translated">Ohne Parameter ruft Get-PSSession PSSession, die erstellt wurden, in die lokale Sitzung, unabhängig davon, in dem sie beenden.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>When getting PSSessions, remember to look for them on the computer on which they are maintained, that is, the remote or "server-side" computer.</source>
+          <target state="translated">Beim Abrufen der PSSessions Beachten Sie diese auf dem Computer, auf dem sie also beibehalten, die Remote- oder "serverseitigen"-Computer.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For example, if you create a PSSession to the Server01 computer, get the session from the Server01 computer.</source>
+          <target state="translated">Wenn Sie eine PSSession auf dem Computer Server01 zu erstellen, erhalten Sie die Sitzung vom Computer Server01 fest.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>If you create a PSSession from another computer to the local computer, get the session from the local computer.</source>
+          <target state="translated">Wenn Sie eine PSSession auf dem lokalen Computer von einem anderen Computer erstellen, erhalten Sie die Sitzung auf dem lokalen Computer.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The following command sequence shows how Get-PSSession works.</source>
+          <target state="translated">Die folgende Befehlssequenz wird gezeigt, wie Get-PSSession funktioniert.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The first command creates a session to the Server01 computer.</source>
+          <target state="translated">Der erste Befehl erstellt eine Sitzung auf dem Computer Server01.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The session resides on the Server01 computer.</source>
+          <target state="translated">Die Sitzung befindet sich auf dem Computer Server01.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>PS C:\ps-test&gt; New-PSSession -ComputerName Server01</source>
+          <target state="translated">PS C:\ps-test &gt; New-PSSession – ComputerName "SERVER01"</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Id Name            ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">ID Name ComputerName Zustand ConfigurationName-Verfügbarkeit</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>2 Session2        Server01        Opened        Microsoft.PowerShell     Available</source>
+          <target state="translated">2 Session2 Server01 geöffnet Microsoft.PowerShell verfügbar</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To get the session, use the ComputerName parameter of Get-PSSession with a value of Server01.</source>
+          <target state="translated">Um die Sitzung zu erhalten, verwenden Sie den ComputerName-Parameter von Get-PSSession mit einem Wert von Server01.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>PS C:\ps-test&gt; Get-PSSession -ComputerName Server01</source>
+          <target state="translated">PS C:\ps-test &gt; Get-PSSession – ComputerName "SERVER01"</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Id Name            ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">ID Name ComputerName Zustand ConfigurationName-Verfügbarkeit</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>2 Session2        Server01        Opened        Microsoft.PowerShell     Available</source>
+          <target state="translated">2 Session2 Server01 geöffnet Microsoft.PowerShell verfügbar</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If the value of the ComputerName parameter of Get-PSSession is localhost, Get-PSSession gets PSSessions that terminate at and are maintained on the local computer.</source>
+          <target state="translated">Wenn der Wert des ComputerName-Parameters von Get-PSSession "localhost" ist, ruft Get-PSSession PSSessions, die am beenden und auf dem lokalen Computer beibehalten werden.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>It does not get PSSessions on the Server01 computer, even if they were started on the local computer.</source>
+          <target state="translated">Es ruft keine PSSessions auf dem Computer Server01 ab, selbst wenn sie auf dem lokalen Computer gestartet wurden.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>PS C:\ps-test&gt; Get-PSSession -ComputerName localhost PS C:\ps-test&gt;</source>
+          <target state="translated">PS C:\ps-test &gt; Get-PSSession – ComputerName "localhost" PS-C:\ps-test &gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To get sessions that were created in the current session, use the Get-PSSession cmdlet without parameters.</source>
+          <target state="translated">Um Sitzungen abzurufen, die in der aktuellen Sitzung erstellt wurden, verwenden Sie das Cmdlet "Get-PSSession" ohne Parameter.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>This command gets the PSSession that was created in the current session and connects to the Server01 computer.</source>
+          <target state="translated">Dieser Befehl ruft die PSSession, die in der aktuellen Sitzung erstellt wurde und eine Verbindung mit dem Computer Server01.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>PS C:\ps-test&gt; Get-PSSession</source>
+          <target state="translated">PS C:\ps-test &gt; Get-PSSession</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Id Name            ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">ID Name ComputerName Zustand ConfigurationName-Verfügbarkeit</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>2 Session2        Server01        Opened        Microsoft.PowerShell     Available</source>
+          <target state="translated">2 Session2 Server01 geöffnet Microsoft.PowerShell verfügbar</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>HOW TO DISCONNECT SESSIONS</source>
+          <target state="translated">SITZUNGEN TRENNEN DER VERBINDUNG</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>To disconnect a PSSession use the Disconnect-PSSession cmdlet.</source>
+          <target state="translated">Verwenden zum Trennen eine PSSession das Disconnect-PSSession-Cmdlet.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>To identify the PSSession, use the Session parameter, or pipe a PSSession from the New-PSSession or Get-PSSession cmdlets to Disconnect-PSSession.</source>
+          <target state="translated">Um die PSSession zu identifizieren, verwenden Sie den Parameter für die Sitzung oder übergeben Sie eine PSSession mit dem New-PSSession oder Get-PSSession-Cmdlets zum Disconnect-PSSession.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The following command disconnects the PSSession to the Server01 computer.</source>
+          <target state="translated">Der folgende Befehl trennt die Verbindung der PSSession auf dem Computer Server01.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Notice that the value of the State property is Disconnected and the Availability is None.</source>
+          <target state="translated">Beachten Sie, dass der Wert der Eigenschaft State getrennt ist und die Verfügbarkeit None ist.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-PSSession -ComputerName Server01 | Disconnect-PSSession</source>
+          <target state="translated">PS C: &gt; Get-PSSession – ComputerName Server01 | Disconnect-PSSession</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Id Name            ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">ID Name ComputerName Zustand ConfigurationName-Verfügbarkeit</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>2 Session2        Server01        Disconnected  Microsoft.PowerShell          None</source>
+          <target state="translated">2 Session2 Server01 getrennt Microsoft.PowerShell None</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>To create a disconnected session, use the InDisconnectedSession parameter of the Invoke-Command cmdlet.</source>
+          <target state="translated">Um eine getrennte Sitzung zu erstellen, verwenden Sie den InDisconnectedSession-Parameter von Invoke-Command-Cmdlet.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>It creates a session, starts the command, and disconnects immediately, before the command can return any output.</source>
+          <target state="translated">Erstellt eine Sitzung, startet der Befehl und sofort getrennt, bevor der Befehl keine Ausgabe zurückgeben kann.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The following command runs a Get-WinEvent command in a disconnected session on the Server02 remote computer.</source>
+          <target state="translated">Der folgende Befehl führt einen Get-WinEvent-Befehl in einer getrennten Sitzung auf dem Remotecomputer "server02".</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Invoke-Command -ComputerName Server02 -InDisconnectedSession ` -ScriptBlock {Get-WinEvent -LogName "Windows PowerShell"}</source>
+          <target state="translated">PS C: &gt; Invoke-Command - ComputerName "server02" - InDisconnectedSession "- ScriptBlock {Get-WinEvent - LogName"WindowsPowerShell"}</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Id Name            ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">ID Name ComputerName Zustand ConfigurationName-Verfügbarkeit</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>4 Session3        Server02        Disconnected  Microsoft.PowerShell          None</source>
+          <target state="translated">4 Session3 "server02" getrennt "Microsoft.PowerShell" keine</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>HOW TO CONNECT TO DISCONNECTED SESSIONS</source>
+          <target state="translated">HERSTELLEN EINER VERBINDUNG ZU EINER GETRENNTEN SITZUNG</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>You can connect to any available disconnected PSSession from the session in which you created the PSSession or from other sessions on the local computer or other computers.</source>
+          <target state="translated">Sie können aus der Sitzung, in dem Sie die PSSession erstellt oder aus anderen Sitzungen auf dem lokalen Computer oder anderen Computern verbinden, um alle verfügbaren getrennten PSSession.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>You can create a PSSession, run commands in the PSSession, disconnect from the PSSession, close Windows PowerShell, and shut down the computer.</source>
+          <target state="translated">Sie können eine PSSession erstellen, führen Sie Befehle in der PSSession, aus der PSSession trennen, schließen Sie Windows PowerShell und Herunterfahren des Computers.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Hours later, you can open a different computer, get the PSSession, connect to it, and get the results of commands that ran in the PSSession while it was disconnected.</source>
+          <target state="translated">Stunden später, können Sie einen anderen Computer zu öffnen, erhalten die PSSession, herstellen und rufen Sie die Ergebnisse von Befehlen, die in der PSSession ausgeführt wurde, während er vom Netzwerk getrennt wurde.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Then you can run more commands in the session.</source>
+          <target state="translated">Anschließend können Sie mehrere Befehle in der Sitzung ausführen.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>To connect a disconnected PSSession, use the Connect-PSSession cmdlet.</source>
+          <target state="translated">Informationen zum Verbinden einer getrennten PSSession verwenden Sie das Connect-PSSession-Cmdlet.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Use the ComputerName or ConnectionUri parameters to identify the PSSession, or pipe a PSSession from Get-PSSession to Connect-PSSession.</source>
+          <target state="translated">Verwenden Sie der ComputerName oder ConnectionUri-Parameter, um die PSSession zu identifizieren, oder übergeben Sie eine PSSession aus Get-PSSession auf Connect-PSSession.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The following command gets the sessions on the Server02 computer.</source>
+          <target state="translated">Der folgende Befehl ruft Sitzungen auf dem Computer Server02.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The output includes two disconnected sessions, both of which are available.</source>
+          <target state="translated">Die Ausgabe umfasst zwei Sitzungen, die verfügbar sind.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-PSSession -ComputerName Server02</source>
+          <target state="translated">PS C: &gt; Get-PSSession – ComputerName "server02"</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Id Name            ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">ID Name ComputerName Zustand ConfigurationName-Verfügbarkeit</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>2 Session2        juneb-srv8320   Disconnected  Microsoft.PowerShell          None 4 Session3        juneb-srv8320   Disconnected  Microsoft.PowerShell          None</source>
+          <target state="translated">2 Session2 Juneb srv8320 getrennt Microsoft.PowerShell keine 4 Session3 Juneb srv8320 getrennt Microsoft.PowerShell None</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The following command connects to Session2.</source>
+          <target state="translated">Der folgende Befehl eine Verbindung mit Session2.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The PSSession is now open and available.</source>
+          <target state="translated">Die PSSession ist jetzt geöffnet und kann.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Connect-PSSession -ComputerName Server02 -Name Session2</source>
+          <target state="translated">PS C: &gt; Connect-PSSession – ComputerName "server02"-Name Session2</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Id Name            ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">ID Name ComputerName Zustand ConfigurationName-Verfügbarkeit</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>2 Session2        juneb-srv8320   Opened        Microsoft.PowerShell     Available</source>
+          <target state="translated">2 Session2 Juneb srv8320 Opened Microsoft.PowerShell verfügbar</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>HOW TO GET THE RESULTS</source>
+          <target state="translated">GEWUSST WIE: ABRUFEN DER ERGEBNISSE</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>To get the results of commands that ran in a disconnected PSSession, use the Receive-PSSession cmdlet.</source>
+          <target state="translated">Verwenden Sie zum Abrufen der Ergebnisse von Befehlen, die in einer getrennten PSSession ausgeführt wurden, die Receive-PSSession-Cmdlet.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>You can use Receive-PSSession in addition to, or instead of, using the Connect-PSSession cmdlet.</source>
+          <target state="translated">Receive-PSSession können zusätzlich zu oder anstelle von mit dem Connect-PSSession-Cmdlet.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>If the session is already reconnected, Receive-PSSession gets the results of commands that ran when the session was disconnected.</source>
+          <target state="translated">Wenn die Verbindung bereits wiederhergestellt wird, ruft die Receive-PSSession die Ergebnisse von Befehlen, die ausgeführt wurden, wenn die Sitzung getrennt wurde.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>If the PSSession is still disconnected, Receive-PSSession connects to it and then gets the results of commands that ran while it was disconnected.</source>
+          <target state="translated">Wenn die PSSession weiterhin getrennt ist, wird Receive-PSSession eine Verbindung damit her und ruft anschließend die Ergebnisse von Befehlen, die ausgeführt wurden, während er vom Netzwerk getrennt wurde.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Receive-PSSession can return the results in a job (asynchronously) or to the host program (synchronously).</source>
+          <target state="translated">Receive-PSSession kann die Ergebnisse zurückgeben eines Auftrags (asynchron) oder an den Host (synchron) programmieren.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Use the OutTarget parameter to select Job or Host.</source>
+          <target state="translated">Verwenden Sie den Parameter OutTarget, Auftrag oder Host auswählen.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Host is the default value.</source>
+          <target state="translated">Host ist der Standardwert.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>However, if the command that is being received was started in the current session as a job, it is returned as a job by default.</source>
+          <target state="translated">Wenn der Befehl, der empfangen wird, die in der aktuellen Sitzung als Auftrag gestartet wurde, ist es jedoch als Auftrag standardmäßig zurückgegeben.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The following command uses the Receive-PSSession cmdlet to connect to the PSSession on the Server02 computer and get the results of the Get-WinEvent command that ran in the Session3 session.</source>
+          <target state="translated">Der folgende Befehl verwendet die Receive-PSSession-Cmdlet zum Verbinden mit der PSSession auf dem Computer "server02" und rufen Sie die Ergebnisse des Befehls Get-WinEvent, die in der Sitzung Session3 ausgeführt wurden.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The command uses the OutTarget parameter to get the results in a job.</source>
+          <target state="translated">Der Befehl verwendet den OutTarget-Parameter zum Abrufen der Ergebnisse in einem Auftrag.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Receive-PSSession  -ComputerName Server02 -Name Session3 -OutTarget Job</source>
+          <target state="translated">PS C: &gt; Receive-PSSession – ComputerName "server02"-Name Session3-Auftrag OutTarget</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Id     Name            PSJobTypeName   State         HasMoreData     Location</source>
+          <target state="translated">Speicherort-ID Name PSJobTypeName Zustand HasMoreData</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>3      Job3            RemoteJob       Running       True            Server02</source>
+          <target state="translated">3 "job3" RemoteJob True Server02 ausgeführt</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>To get the results of the job, use the Receive-Job cmdlet.</source>
+          <target state="translated">Verwenden Sie die Receive-Job-Cmdlet zum Abrufen der Ergebnisse des Auftrags.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>PS C:\ps-test&gt; Get-Job | Receive-Job -Keep</source>
+          <target state="translated">PS C:\ps-test &gt; Get-Job | Empfangen-Job-beibehalten</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>ProviderName: PowerShell</source>
+          <target state="translated">ProviderName: PowerShell</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>TimeCreated             Id LevelDisplayName Message     PSComputerName</source>
+          <target state="translated">TimeCreated Id LevelDisplayName Nachricht PSComputerName</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>5/14/2012 7:26:04 PM   400 Information      Engine stat Server02 5/14/2012 7:26:03 PM   600 Information      Provider "W Server02 5/14/2012 7:26:03 PM   600 Information      Provider "C Server02 5/14/2012 7:26:03 PM   600 Information      Provider "V Server02</source>
+          <target state="translated">5/14/2012 7:26:04 Uhr 400 Informationen Engine Stat Server02 5/14/2012 7:26:03 Uhr 600 Anbieter "W" server02 "5/14/2012 7:26:03 Uhr 600 Anbieter" C "server02" 5/14/2012 7:26:03 Uhr 600 Anbieter "V" server02 "</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>STATE AND AVAILABILITY</source>
+          <target state="translated">STATUS UND DER VERFÜGBARKEIT</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The State and Availability properties of a disconnected PSSession tell you whether the session is available for you to reconnect to it.</source>
+          <target state="translated">Die Eigenschaften einer getrennten PSSession und Verfügbarkeitsdaten erkennen Sie, ob die Sitzung zur Verbindung wiederherstellen verfügbar ist.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>When a PSSession is connected to the current session, its state is Opened and its availability is Available.</source>
+          <target state="translated">Wenn eine PSSession mit der aktuellen Sitzung verbunden ist, der Zustand wird geöffnet, und die Verfügbarkeit ist verfügbar.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>When you disconnect from the PSSession, the PSSession state is Disconnected and its Availability is none.</source>
+          <target state="translated">Wenn Sie aus der PSSession trennen, lautet PSSession getrennt und seine Verfügbarkeit ist none.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>However, the value of the State property is relative to the current session.</source>
+          <target state="translated">Allerdings ist der Wert der Eigenschaft Status bezieht sich auf die aktuelle Sitzung.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Therefore, a value of Disconnected means that the PSSession is not connected to the current session.</source>
+          <target state="translated">Daher bedeutet der Wert getrennt, dass die PSSession nicht mit der aktuellen Sitzung verbunden ist.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>However, it does not mean that the PSSession is disconnected from all sessions.</source>
+          <target state="translated">Er bedeutet jedoch nicht, dass die PSSession von allen Sitzungen getrennt ist.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>It might be connected to a different session.</source>
+          <target state="translated">Sie kann mit einer anderen Sitzung verbunden sein.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>To determine whether you can connect or reconnect to the PSSession, use the Availability property.</source>
+          <target state="translated">Um zu bestimmen, ob Sie eine Verbindung herstellen oder mit der PSSession herstellen können, verwenden Sie die Verfügbarkeit-Eigenschaft.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>An Availability value of None indicates that you can connect to the session.</source>
+          <target state="translated">Ein Verfügbarkeitswert None gibt an, die mit der Sitzung hergestellt werden kann.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>A value of Busy indicates that you cannot connect to the PSSession because it is connected to another session.</source>
+          <target state="translated">Der Wert "Busy" gibt an, dass Sie mit der PSSession herstellen können, da es mit einer anderen Sitzung verbunden ist.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The following example is run in two sessions (Windows PowerShell console windows) on the same computer.</source>
+          <target state="translated">Im folgende Beispiel wird in zwei Sitzungen (Windows PowerShell-Konsole Windows) auf demselben Computer ausgeführt.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Note the changing values of the State and Availability properties in each session as the PSSession is disconnected and reconnected.</source>
+          <target state="translated">Beachten Sie die Werte für die veränderbaren Eigenschaften und Verfügbarkeitsdaten in jeder Sitzung, wie die PSSession nicht getrennt und erneut angeschlossen wird.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Session 1:</source>
+          <target state="translated">Sitzung 1:</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; New-PSSession -ComputerName Server30 -Name Test</source>
+          <target state="translated">PS C: &gt; New-PSSession – ComputerName Server30-Test benennen</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Id Name       ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">ID Name ComputerName Zustand ConfigurationName-Verfügbarkeit</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>1  Test       Server30        Opened        Microsoft.PowerShell     Available</source>
+          <target state="translated">1 Test Server30 geöffnet Microsoft.PowerShell verfügbar</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Session 2:</source>
+          <target state="translated">Sitzung 2:</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-PSSession -ComputerName Server30 -Name Test</source>
+          <target state="translated">PS C: &gt; Get-PSSession – ComputerName Server30-Test benennen</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Id Name       ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">ID Name ComputerName Zustand ConfigurationName-Verfügbarkeit</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>1 Test        Server30        Disconnected  Microsoft.PowerShell          Busy</source>
+          <target state="translated">1 Test Server30 getrennt Microsoft.PowerShell ausgelastet</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Session 1</source>
+          <target state="translated">Sitzung 1</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-PSSession -ComputerName Server30 -Name Test | Disconnect-PSSession</source>
+          <target state="translated">PS C: &gt; Get-PSSession – ComputerName Server30-Test Name | Disconnect-PSSession</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Id Name       ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">ID Name ComputerName Zustand ConfigurationName-Verfügbarkeit</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>1 Test       Server30        Disconnected  Microsoft.PowerShell          None</source>
+          <target state="translated">1 Test Server30 getrennt Microsoft.PowerShell None</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Session 2</source>
+          <target state="translated">Sitzung 2</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-PSSession -ComputerName Server30</source>
+          <target state="translated">PS C: &gt; Get-PSSession – ComputerName Server30</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Id Name       ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">ID Name ComputerName Zustand ConfigurationName-Verfügbarkeit</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>1 Test       Server30        Disconnected  Microsoft.PowerShell          None</source>
+          <target state="translated">1 Test Server30 getrennt Microsoft.PowerShell None</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Session 2</source>
+          <target state="translated">Sitzung 2</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Connect-PSSession -ComputerName Server01 -Name Test</source>
+          <target state="translated">PS C: &gt; Connect-PSSession – ComputerName Server01-Test benennen</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Id Name       ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">ID Name ComputerName Zustand ConfigurationName-Verfügbarkeit</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>3 Test        Server30        Opened        Microsoft.PowerShell     Available</source>
+          <target state="translated">3 Test Server30 geöffnet Microsoft.PowerShell verfügbar</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Session 1</source>
+          <target state="translated">Sitzung 1</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-PSSession -ComputerName Server30</source>
+          <target state="translated">PS C: &gt; Get-PSSession – ComputerName Server30</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Id Name       ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">ID Name ComputerName Zustand ConfigurationName-Verfügbarkeit</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>1 Test       Server30        Disconnected  Microsoft.PowerShell          Busy</source>
+          <target state="translated">1 Test Server30 getrennt Microsoft.PowerShell ausgelastet</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>IDLE TIMEOUT</source>
+          <target state="translated">LEERLAUFTIMEOUT</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Disconnected sessions are maintained on the remote computer until you delete them, such as by using the Remove-PSSession cmdlet, or they time out.</source>
+          <target state="translated">Sitzungen werden auf dem Remotecomputer beibehalten, bis Sie sie, wie z. B. Löschen mit dem Remove-PSSession-Cmdlet, oder sie zu einem Timeout.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The IdleTimeout property of a PSSession determines how long a disconnected session is maintained before it is deleted.</source>
+          <target state="translated">Die IdleTimeout-Eigenschaft einer pssession bestimmt, wie lange eine getrennte Sitzung wird beibehalten, bevor er gelöscht wird.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>PSSessions are idle when the "heartbeat thread" receives no response.</source>
+          <target state="translated">PSSessions sind im Leerlauf, wenn der Thread"Takt" keine Antwort erhält.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Disconnecting a session makes it idle and starts the Idle Timeout clock, even if commands are still running in the disconnected session.</source>
+          <target state="translated">Zum Anhalten der Sitzung im Leerlauf und der die Leerlauftimeout Uhr beginnt, selbst wenn Befehle immer noch in der getrennten Sitzung ausgeführt werden.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell considers disconnected sessions to be active, but idle.</source>
+          <target state="translated">Windows PowerShell betrachtet Sitzungen aktiv ist, aber im Leerlauf sein.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>When creating and disconnecting sessions, verify that the idle timeout in the PSSession is long enough to maintain the session for your needs, but not so long that it consumes unnecessary resources on the remote computer.</source>
+          <target state="translated">Beim Erstellen und Trennen von Sitzungen überprüfen, ob das Leerlauftimeout in der PSSession ist lang genug, um die Sitzung für Ihre Bedürfnisse beibehalten, aber nicht so lange, die verbraucht es unnötiger Ressourcen auf dem Remotecomputer.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>The IdleTimeoutMs property of the session configuration determines the default idle timeout of sessions that use the session configuration.</source>
+          <target state="translated">Die IdleTimeoutMs-Eigenschaft der Sitzungskonfiguration bestimmt das Standard-Leerlauftimeout von Sitzungen, die die Sitzungskonfiguration verwenden.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>You can override the default value, but the value that you use cannot exceed the MaxIdleTimeoutMs property of the session configuration.</source>
+          <target state="translated">Sie können den Standardwert überschreiben, aber der Wert, mit denen Sie nicht die MaxIdleTimeoutMs-Eigenschaft der Sitzungskonfiguration überschreiten.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>To find the value of the IdleTimeoutMs and MaxIdleTimeoutMs values of a session configuration, use the following command format.</source>
+          <target state="translated">Um den Wert der IdleTimeoutMs und MaxIdleTimeoutMs Werte einer Sitzungskonfiguration zu ermitteln, verwenden Sie das folgende Befehlsformat.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Get-PSSessionConfiguration | Format-Table Name, IdleTimeoutMs, MaxIdleTimeoutMs</source>
+          <target state="translated">Get-PSSessionConfiguration | Format-Table Name, IdleTimeoutMs, MaxIdleTimeoutMs</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>You can override the default value in the session configuration and set the idle timeout of a PSSession when you create a PSSession and when you disconnect.</source>
+          <target state="translated">Sie können den Standardwert in der Sitzungskonfiguration überschreiben und das Leerlauftimeout einer pssession beim Erstellen einer PSSession und wenn Sie die Verbindung trennen.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>If you are a member of the Administrators group on the remote computer, you can also create and change the IdleTimeoutMs and MaxIdleTimeoutMs properties of session configurations.</source>
+          <target state="translated">Wenn Sie ein Mitglied der Administratorengruppe auf dem Remotecomputer sind, können Sie auch erstellen und Ändern der Eigenschaften IdleTimeoutMs und MaxIdleTimeoutMs Sitzungskonfigurationen.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>NOTES:</source>
+          <target state="translated">ANMERKUNGEN:</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The idle timeout value of session configurations and session options is in milliseconds.</source>
+          <target state="translated">Das Leerlauftimeout von Sitzungskonfigurationen und Sitzungsoptionen wird in Millisekunden angegeben.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The idle timeout value of sessions and session configuration options is in seconds.</source>
+          <target state="translated">Das Leerlauftimeout von Sitzungen und Optionen für die Sitzung wird in Sekunden.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>You can set the idle timeout of a PSSession when you create the PSSession (New-PSSession, Invoke-Command) and when you disconnect from it (Disconnect-PSSession).</source>
+          <target state="translated">Sie können das Leerlauftimeout einer pssession festlegen, bei der Erstellung der PSSession (New-PSSession, Invoke-Command), und wenn Sie es (Disconnect-PSSession) trennen.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>However, you cannot change the IdleTimeout value when you connect to the PSSession (Connect-PSSession) or get results (Receive-PSSession).</source>
+          <target state="translated">Sie können nicht jedoch den IdleTimeout-Wert ändern, beim Verbinden mit der PSSession (Connect-PSSession) oder Ergebnisse (Receive-PSSession) erhalten.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The Connect-PSSession and Receive-PSSession cmdlets have a SessionOption parameter that takes a SessionOption object, such as one returned by the New-PSSessionOption cmdlet.</source>
+          <target state="translated">Die Connect-PSSession und Receive-PSSession-Cmdlets haben einen SessionOption-Parameter, der ein SessionOption-Objekt, z. B. ein durch das Cmdlet "New-PSSessionOption" verwendet.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>However, the IdleTimeout value in SessionOption object and the IdleTimeout value in the $PSSessionOption preference variable do not change the value of the IdleTimeout of the PSSession in a Connect-PSSession or Receive-PSSession command.</source>
+          <target state="translated">Jedoch ändere den IdleTimeout-Wert im SessionOption-Objekt und der IdleTimeout-Wert in der $PSSessionOption Preference-Variable nicht den Wert der IdleTimeout der PSSession in einer Connect-PSSession oder Receive-PSSession-Befehl.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>-- To create a PSSession with a particular idle timeout value, create a $PSSessionOption preference variable.</source>
+          <target state="translated">– Erstellen Sie eine Einstellungsvariable $PSSessionOption zum Erstellen einer PSSession mit einem bestimmten Leerlauftimeout-Wert.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Set the value of the IdleTimeout property to the desired value (in milliseconds).</source>
+          <target state="translated">Legen Sie den Wert der IdleTimeout-Eigenschaft auf den gewünschten Wert (in Millisekunden).</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>When you create PSSessions, the values in $PSSessionOption variable take precedence over the values in the session configuration.</source>
+          <target state="translated">Bei der Erstellung von PSSessions haben die Werte in der Variablen $PSSessionOption Vorrang vor der Werte in der Sitzungskonfiguration.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>For example, this command sets an idle timeout of 48 hours.</source>
+          <target state="translated">Dieser Befehl legt z. B. eine leerlaufzeitüberschreitung von 48 Stunden.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $PSSessionOption = New-PSSessionOption -IdleTimeoutMSec 172800000</source>
+          <target state="translated">PS C: &gt; $PSSessionOption = neue PSSessionOption - IdleTimeoutMSec 172800000</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>-- To create a PSSession with a particular idle timeout value, use the IdleTimeoutMSec parameter of the New-PSSessionOption cmdlet.</source>
+          <target state="translated">– Um eine PSSession mit einem bestimmten leerlauftimeoutwert zu erstellen, verwenden Sie den IdleTimeoutMSec-Parameter, der das Cmdlet "New-PSSessionOption".</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Then, use the session option in the value of the SessionOption parameter of the New-PSSession or Invoke-Command cmdlets.</source>
+          <target state="translated">Verwenden Sie die Sitzungsoption im Wert des SessionOption-Parameters der New-PSSession "oder" Invoke-Command-Cmdlets.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>The values set when creating the session take precedence over the values set in the $PSSessionOption preference variable and the session configuration.</source>
+          <target state="translated">Beim Erstellen der Sitzung festgelegten Werte haben Vorrang vor im $PSSessionOption Preference-Variable und die Sitzungskonfiguration festgelegten Werte.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">Beispiel:</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $o = New-PSSessionOption -IdleTimeoutMSec 172800000 PS C:&gt; New-PSSession -SessionOption $o</source>
+          <target state="translated">PS C: &gt; $o = neue PSSessionOption - IdleTimeoutMSec 172800000 PS C: &gt; New-PSSession - SessionOption $o</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>-- To change a the idle timeout of a PSSession when disconnecting, use the IdleTimeoutSec parameter of the Disconnect-PSSession cmdlet.</source>
+          <target state="translated">– Zum Ändern einer das Leerlauftimeout einer pssession beim Trennen, verwenden Sie die IdleTimeoutSec-Parameter, der das Disconnect-PSSession-Cmdlet.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">Beispiel:</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Disconnect-PSSession -IdleTimeoutSec 172800</source>
+          <target state="translated">PS C: &gt; Disconnect-PSSession - IdleTimeoutSec 172800</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>-- To create a session configuration with a particular idle timeout and maximum idle timeout, use the IdleTimeoutSec and MaxIdleTimeoutSec parameters of the New-PSTransportOption cmdlet.</source>
+          <target state="translated">– Um eine Sitzungskonfiguration mit einem bestimmten Leerlauftimeout und maximale Leerlauftimeout zu erstellen, verwenden Sie die IdleTimeoutSec und MaxIdleTimeoutSec-Parameter, der das Cmdlet "New-PSTransportOption".</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Then, use the transport option in the value of the TransportOption parameter of Register-PSSessionConfiguration.</source>
+          <target state="translated">Verwenden Sie die Transportoption im Wert des Parameters TransportOption der Register-PSSessionConfiguration.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">Beispiel:</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $o = New-PSTransportOption -IdleTimeoutSec 172800 -MaxIdleTimeoutSec 259200 PS C:&gt; Register-PSSessionConfiguration -Name Test -TransportOption $o</source>
+          <target state="translated">PS C: &gt; $o = neue PSTransportOption - IdleTimeoutSec 172800 - MaxIdleTimeoutSec 259200 PS C: &gt; Register-PSSessionConfiguration-Test - TransportOption $o benennen</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>-- To change the default idle timeout and maximum idle timeout of a session configuration, use the IdleTimeoutSec and MaxIdleTimeoutSec parameters of the New-PSTransportOption cmdlet.</source>
+          <target state="translated">--Um den Standard-Leerlauftimeout und maximale Leerlauftimeout einer Sitzungskonfiguration zu ändern, verwenden Sie die IdleTimeoutSec und MaxIdleTimeoutSec-Parameter, der das Cmdlet "New-PSTransportOption".</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Then, use the transport option in the value of the TransportOption parameter of Set-PSSessionConfiguration.</source>
+          <target state="translated">Verwenden Sie die Transportoption im Wert des Parameters TransportOption des Set-PSSessionConfiguration.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">Beispiel:</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $o = New-PSTransportOption -IdleTimeoutSec 172800 -MaxIdleTimeoutSec 259200 PS C:&gt; Set-PSSessionConfiguration -Name Test -TransportOption $o</source>
+          <target state="translated">PS C: &gt; $o = neue PSTransportOption - IdleTimeoutSec 172800 - MaxIdleTimeoutSec 259200 PS C: &gt; Set-PSSessionConfiguration-Test - TransportOption $o benennen</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>OUTPUT BUFFERING MODE</source>
+          <target state="translated">AUSGABEPUFFERUNGSMODUS</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>The output buffering mode of a PSSession determines how command output is managed when the output buffer of the PSSession is full.</source>
+          <target state="translated">Der ausgabepuffermodus einer pssession bestimmt, wie die Ausgabe des Befehls verwaltet wird, wenn der PSSession der Ausgabepuffer voll ist.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>In a disconnected session, the output buffering mode effectively determines whether the command continues to run while the session is disconnected.</source>
+          <target state="translated">In einer getrennten Sitzung bestimmt der ausgabepuffermodus effektiv an, ob der Befehl weiter ausgeführt, während die Sitzung getrennt wird.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Valid values:</source>
+          <target state="translated">Gültige Werte:</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>-- Block: When the output buffer is full, execution is suspended until the buffer is clear.</source>
+          <target state="translated">--Blockieren: Wenn der Ausgabepuffer voll ist, wird die Ausführung unterbrochen, bis der Puffer leer ist.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>-- Drop:  When the output buffer is full, execution continues.</source>
+          <target state="translated">--Löschen: Wenn der Ausgabepuffer voll ist, die Ausführung wird fortgesetzt.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>As new output is generated, the oldest output is discarded.</source>
+          <target state="translated">Wenn neue Ausgabe generiert wird, wird die älteste Ausgabe verworfen.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Block, the default value, preserves data, but might interrupt the command</source>
+          <target state="translated">Block, der Standardwert, behält Daten, aber mit dem Befehl unterbrechen könnten</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>A value of Drop allows the command to complete, although data might be lost.</source>
+          <target state="translated">Wert der Dropdownliste kann den Befehl abgeschlossen ist, obwohl Daten verloren gehen können.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>When using the Drop value, redirect the command output to a file on disk.</source>
+          <target state="translated">Wenn den Wert zu verwenden, leiten Sie die Ausgabe des Befehls in eine Datei auf dem Datenträger.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>This value is recommended for disconnected sessions.</source>
+          <target state="translated">Dieser Wert wird für Sitzungen empfohlen.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>The OutputBufferingMode property of the session configuration determines the default output buffering mode of sessions that use the session configuration.</source>
+          <target state="translated">Die OutputBufferingMode-Eigenschaft der Sitzungskonfiguration bestimmt die Standardausgabe Zwischenspeicherungsmodus von Sitzungen, die die Sitzungskonfiguration verwenden.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>To find the value of the OutputBufferingMode of a session configuration, use the following command formats.</source>
+          <target state="translated">Um den Wert der OutputBufferingMode einer Sitzungskonfiguration zu suchen, verwenden Sie die folgenden Befehl-Formaten.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>(Get-PSSessionConfiguration <ph id="ph1">&lt;ConfigurationName&gt;</ph>).OutputBufferingMode</source>
+          <target state="translated">(Get-PSSessionConfiguration <ph id="ph1">&lt;ConfigurationName&gt;</ph>). OutputBufferingMode</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>-or-</source>
+          <target state="translated">– oder –</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>Get-PSSessionConfiguration | Format-Table Name, OutputBufferingMode</source>
+          <target state="translated">Get-PSSessionConfiguration | Format-Table Name, OutputBufferingMode</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>You can override the default value in the session configuration and set the output buffering mode of a PSSession when you create a PSSession, when you disconnect, and when you reconnect.</source>
+          <target state="translated">Den Standardwert in der Sitzungskonfiguration überschreiben können und den ausgabepufferungsmodus einer pssession festgelegt, wenn Sie eine PSSession erstellen, wenn Sie die Verbindung trennen und beim Wiederherstellen der Verbindung.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>If you are a member of the Administrators group on the remote computer, you can also create and change the output buffering mode of session configurations.</source>
+          <target state="translated">Wenn Sie ein Mitglied der Administratorengruppe auf dem Remotecomputer sind, können Sie auch erstellen und Ändern des ausgabepufferungsmodus von Sitzungskonfigurationen.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>-- To create a PSSession with an output buffering mode of Drop, create a $PSSessionOption preference variable in which the value of the OutputBufferingMode property is Drop.</source>
+          <target state="translated">– Um eine PSSession mit einer ausgabepufferungsmodus Ablage erstellen, erstellen Sie eine $PSSessionOption Preference-Variable in der der Wert der Eigenschaft OutputBufferingMode Drop ist.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>When you create PSSessions, the values in $PSSessionOption variable take precedence over the values in the session configuration.</source>
+          <target state="translated">Bei der Erstellung von PSSessions haben die Werte in der Variablen $PSSessionOption Vorrang vor der Werte in der Sitzungskonfiguration.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">Beispiel:</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $PSSessionOption = New-PSSessionOption -OutputBufferingMode Drop</source>
+          <target state="translated">PS C: &gt; $PSSessionOption = neue PSSessionOption - OutputBufferingMode löschen</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>-- To create a PSSession with an output buffering mode of Drop, use the OutputBufferingMode parameter of the New-PSSessionOption cmdlet to create a session option with a value of Drop.</source>
+          <target state="translated">– Um eine PSSession mit einer ausgabepufferungsmodus Ablage zu erstellen, verwenden Sie den OutputBufferingMode-Parameter, der das Cmdlet "New-PSSessionOption" zum Erstellen einer Sitzungsoption mit einem Wert von Drop.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>Then, use the session option in the value of the SessionOption parameter of the New-PSSession or Invoke-Command cmdlets.</source>
+          <target state="translated">Verwenden Sie die Sitzungsoption im Wert des SessionOption-Parameters der New-PSSession "oder" Invoke-Command-Cmdlets.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>The values set when creating the session take precedence over the values set in the $PSSessionOption preference variable and the session configuration.</source>
+          <target state="translated">Beim Erstellen der Sitzung festgelegten Werte haben Vorrang vor im $PSSessionOption Preference-Variable und die Sitzungskonfiguration festgelegten Werte.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">Beispiel:</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $o = New-PSSessionOption -OutputBufferingMode Drop PS C:&gt; New-PSSession -SessionOption $o</source>
+          <target state="translated">PS C: &gt; $o = neue PSSessionOption - OutputBufferingMode Drop PS C: &gt; New-PSSession - SessionOption $o</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>-- To change a the output buffering mode of a PSSession when disconnecting, use the OutputBufferingMode parameter of the Disconnect-PSSession cmdlet.</source>
+          <target state="translated">– Zum Ändern einer ausgabepufferungsmodus einer pssession beim Trennen der Verbindung mit dem OutputBufferingMode-Parameter des Disconnect-PSSession-Cmdlet.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">Beispiel:</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Disconnect-PSSession -OutputBufferingMode Drop</source>
+          <target state="translated">PS C: &gt; Disconnect-PSSession - OutputBufferingMode löschen</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>-- To change a the output buffering mode of a PSSession when reconnecting, use the OutputBufferingMode parameter of the New-PSSessionOption cmdlet to create a session option with a value of Drop.</source>
+          <target state="translated">– Zum Ändern einer der ausgabepufferungsmodus einer pssession beim Wiederherstellen der Verbindung mit dem OutputBufferingMode-Parameter des New-PSSessionOption-Cmdlet zum Erstellen einer Sitzungsoption mit einem Wert von Drop.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>Then, use the session option in the value of the SessionOption parameter of Connect-PSSession or Receive-PSSession.</source>
+          <target state="translated">Verwenden Sie die Sitzungsoption im Wert des SessionOption-Parameters des Connect-PSSession oder Receive-PSSession.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">Beispiel:</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $o = New-PSSessionOption -OutputBufferingMode Drop PS C:&gt; Connect-PSSession -Cn Server01 -Name Test -SessionOption $o</source>
+          <target state="translated">PS C: &gt; $o = neue PSSessionOption - OutputBufferingMode Drop PS C: &gt; Connect-PSSession - Cn-Server01-Test - SessionOption $o benennen</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>-- To create a session configuration with a default output buffering mode of Drop, use the OutputBufferingMode parameter of the New-PSTransportOption cmdlet to create a transport option object with a value of Drop.</source>
+          <target state="translated">– Um eine Sitzungskonfiguration mit einer Standard-ausgabepufferungsmodus Ablage zu erstellen, verwenden Sie den OutputBufferingMode-Parameter des Cmdlets New-PSTransportOption, um ein transportoptionsobjekt mit einem Wert von Drop zu erstellen.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>Then, use the transport option in the value of the TransportOption parameter of Register-PSSessionConfiguration.</source>
+          <target state="translated">Verwenden Sie die Transportoption im Wert des Parameters TransportOption der Register-PSSessionConfiguration.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">Beispiel:</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $o = New-PSTransportOption -OutputBufferingMode Drop PS C:&gt; Register-PSSessionConfiguration -Name Test -TransportOption $o</source>
+          <target state="translated">PS C: &gt; $o = neue PSTransportOption - OutputBufferingMode Drop PS C: &gt; Register-PSSessionConfiguration-Test - TransportOption $o benennen</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>-- To change the default output buffering mode of a session configuration, use the OutputBufferingMode parameter of the New-PSTransportOption cmdlet to create a transport option with a value of Drop.</source>
+          <target state="translated">--Um den Standard-ausgabepufferungsmodus einer Sitzungskonfiguration zu ändern, verwenden Sie den OutputBufferingMode-Parameter des Cmdlets New-PSTransportOption Transportoption mit einem Wert von Drop zu erstellen.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>Then, use the Transport option in the value of the SessionOption parameter of Set-PSSessionConfiguration.</source>
+          <target state="translated">Verwenden Sie die Option Transport im Wert des SessionOption-Parameters des Set-PSSessionConfiguration.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">Beispiel:</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $o = New-PSTransportOption -OutputBufferingMode Drop PS C:&gt; Set-PSSessionConfiguration -Name Test -TransportOption $o</source>
+          <target state="translated">PS C: &gt; $o = neue PSTransportOption - OutputBufferingMode Drop PS C: &gt; Set-PSSessionConfiguration-Test - TransportOption $o benennen</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>DISCONNECTING LOOPBACK SESSIONS</source>
+          <target state="translated">LOOPBACK-SITZUNGEN TRENNEN</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>"Loopback sessions" or "local sessions" are PSSessions that originate and terminate on the same computer.</source>
+          <target state="translated">"Loopbacksitzungen" oder "lokale Sitzungen" sind PSSessions, die ihren Ursprung und auf demselben Computer zu beenden.</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>Like other PSSessions, active loopback sessions are maintained on the computer on the remote end of the connection (the local computer), so you can disconnect from and reconnect to loopback sessions.</source>
+          <target state="translated">Wie andere PSSessions, aktive Loopback Sitzungen auf dem Computer, auf der Remoteseite der Verbindung (dem lokalen Computer) beibehalten können Sie also trennen und erneutes Verbinden mit loopbacksitzungen.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>By default, loopback sessions are created with a network security token that does not permit commands run in the session to access other computers.</source>
+          <target state="translated">Standardmäßig werden loopbacksitzungen mit einem Netzwerk-Sicherheitstoken erstellt, die nicht mit Befehlen, die in der Sitzung ausgeführt werden, den Zugriff auf andere Computer zulässt.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>You can reconnect to loopback sessions that have a network security token from any session on the local computer or a remote computer.</source>
+          <target state="translated">Sie können die Verbindung loopbacksitzungen wiederherstellen, die über ein Netzwerk-Sicherheitstoken aus jeder Sitzung auf dem lokalen Computer oder einem Remotecomputer verfügen.</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>However, if you use the EnableNetworkAccess parameter of the New-PSSession, Enter-PSSession, or Invoke-Command cmdlet, the loopback session is created with an interactive security token.</source>
+          <target state="translated">Wenn Sie den EnableNetworkAccess-Parameter der New-PSSession verwenden, wird für die Enter-PSSession oder Invoke-Command-Cmdlet die loopbacksitzung jedoch einen interaktiven Sicherheitstoken erstellt.</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>The interactive token enables commands that run in the loopback session to get data from other computers.</source>
+          <target state="translated">Mit dem interaktive Token kann Befehle, die in der loopbacksitzung zum Abrufen von Daten von anderen Computern ausgeführt.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>You can disconnect loopback sessions with interactive tokens and then reconnect to them from the same session or a different session on the same computer.</source>
+          <target state="translated">Sie können loopbacksitzungen mit interaktiven Tokens trennen und diese dann aus der gleichen Sitzung oder einer anderen Sitzung auf demselben Computer wiederherstellen.</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>However, to prevent malicious access, you can reconnect to loopback sessions with interactive tokens only from the computer on which they were created.</source>
+          <target state="translated">Allerdings können um böswilligem Zugriff zu verhindern, Sie die Verbindung loopbacksitzungen mit interaktiven Tokens nur von dem Computer wiederherstellen auf denen sie erstellt wurden.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>WAITING FOR JOBS IN DISCONNECTED SESSIONS</source>
+          <target state="translated">WARTEN VON AUFTRÄGEN IN GETRENNTEN SITZUNGEN</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>The Wait-Job cmdlet waits until a job completes and then returns to the command prompt or the next command.</source>
+          <target state="translated">Das Wait-Job-Cmdlet wartet, bis ein Auftrag abgeschlossen ist, und klicken Sie dann an der Befehlszeile oder den nächsten Befehl zurückgegeben.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>By default, Wait-Job returns if the session in which a job is running is disconnected.</source>
+          <target state="translated">Standardmäßig gibt Wait-Job, wenn die Sitzung, in der ein Auftrag ausgeführt wird, verbunden ist.</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>To direct the Wait-Job cmdlet to wait until the session is reconnected (in the Opened state), use the Force parameter.</source>
+          <target state="translated">Für die Weiterleitung der Wait-Job-Cmdlet zu warten, bis die Sitzung (im Zustand geöffnet) verbunden ist, verwenden Sie den Force-Parameter.</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>For more information, see Wait-Job.</source>
+          <target state="translated">Weitere Informationen finden Sie unter Wait-Job.</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>ROBUST SESSIONS AND UNINTENTIONAL DISCONNECTION</source>
+          <target state="translated">ZUVERLÄSSIGE SITZUNGEN UND UNBEABSICHTIGTE VERBINDUNGSABBRUCH</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>Occasionally, a PSSession might be disconnected unintentionally due to a computer failure or network outage.</source>
+          <target state="translated">Gelegentlich kann eine PSSession unbeabsichtigt aufgrund eines Fehlers oder Netzwerk Computer getrennt werden.</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell attempts to recover the PSSession, but its success depends upon the severity and duration of the cause.</source>
+          <target state="translated">Windows PowerShell versucht wird, um die PSSession wiederherzustellen, aber der Vorgang erfolgreich war, hängt von den Schweregrad und die Dauer der Ursache.</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>The state of an unintentionally disconnected PSSession might be Broken or Closed, but it might also be Disconnected.</source>
+          <target state="translated">Der Status einer unbeabsichtigt getrennten pssession möglicherweise fehlerhaft oder abgeschlossen, aber möglicherweise auch getrennt werden.</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>If the value of State is Disconnected, you can use the same techniques to manage the PSSession as you would if the session were disconnected intentionally.</source>
+          <target state="translated">Wenn der Wert des Status getrennt wird, können Sie dieselben Techniken, um die PSSession zu verwalten, als würden die Sitzung absichtlich getrennt wurden.</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>For example, you can use the Connect-PSSession cmdlet to reconnect to the session and the Receive-PSSession cmdlet to get results of commands that ran while the session was disconnected.</source>
+          <target state="translated">Das Connect-PSSession-Cmdlet können Sie z. B. die Receive-PSSession-Cmdlet, um die Ergebnisse von Befehlen abzurufen, die ausgeführt wurden, während die Sitzung getrennt wurde und der Sitzung wiederherstellen.</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>If you close (exit) the session in which a PSSession was created while commands are running in the PSSession, Windows PowerShell maintains the PSSession in the Disconnected state on the remote computer.</source>
+          <target state="translated">Wenn Sie (Beenden) die Sitzung schließen, in der eine PSSession erstellt wurde, während Befehle in der PSSession ausgeführt werden, behält Windows PowerShell die PSSession in getrenntem Zustand auf dem Remotecomputer.</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>If you close (exit) the session in which a PSSession was created, but no commands are running in the PSSession, Windows PowerShell does not attempt to maintain the PSSession.</source>
+          <target state="translated">Wenn Sie (Beenden) der Sitzung schließen in dem eine PSSession erstellt wurde, jedoch keine Befehle in der PSSession ausgeführt werden, versucht Windows PowerShell nicht, die PSSession zu verwalten.</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>KEYWORDS</source>
+          <target state="translated">SCHLÜSSELWÖRTER</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>about_Disconnected_Sessions</source>
+          <target state="translated">about_Disconnected_Sessions</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>SEE ALSO</source>
+          <target state="translated">SIEHE AUCH</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>about_Jobs about_Remote about_Remote_Variables about_PSSessions about_Session_Configurations Disconnect-PSSession Connect-PSSession Get-PSSession Receive-PSSession Invoke-Command</source>
+          <target state="translated">About_Jobs About_Remote About_Remote_Variables About_PSSessions About_Session_Configurations Disconnect-PSSession Connect-PSSession-Get-PSSession-Receive-PSSession Invoke-Command</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

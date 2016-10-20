@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a5fd341f15b9f396f4234f03cf66048e96b07a6a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Management\Register-WmiEvent.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c51272939092694d89e1f31aec0b0644bf15f002</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">01a9b5c1c0714f4ea2e0d05f59f388f67b364763</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell 指令程式</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Register-WmiEvent</source>
+          <target state="translated">Register-wmievent</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Register-WmiEvent</source>
+          <target state="translated">Register-wmievent</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Subscribes to a Windows Management Instrumentation (WMI) event.</source>
+          <target state="translated">訂閱 Windows Management Instrumentation (WMI) 事件。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">語法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>class (Default)</source>
+          <target state="translated">類別 （預設值）</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>query</source>
+          <target state="translated">查詢</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">描述</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Register-WmiEvent<ept id="p1">**</ept> cmdlet subscribes to Windows Management Instrumentation (WMI) events on the local computer or on a remote computer.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Register-wmievent<ept id="p1">**</ept> cmdlet 會訂閱本機電腦或遠端電腦上的 Windows Management Instrumentation (WMI) 事件。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>When the subscribed WMI event is raised, it is added to the event queue in your local session even if the event occurs on a remote computer.</source>
+          <target state="translated">當訂閱的 WMI 事件被引發時，即使事件是發生在遠端電腦上，也會將事件新增到您本機工作階段內的事件佇列中。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To get events in the event queue, use the Get-Eventcmdlet.</source>
+          <target state="translated">若要取得事件佇列中，使用 Get Eventcmdlet。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can use the parameters of <bpt id="p1">**</bpt>Register-WmiEvent<ept id="p1">**</ept> to subscribe to events on remote computers and to specify the property values of the events that can help you identify the event in the queue.</source>
+          <target state="translated">您可以使用的參數 <bpt id="p1">**</bpt>Register-wmievent<ept id="p1">**</ept> 訂閱遠端電腦上的事件，並指定屬性值的事件，可協助您識別在佇列中的事件。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can also use the <bpt id="p1">*</bpt>Action<ept id="p1">*</ept> parameter to specify actions to take when a subscribed event is raised.</source>
+          <target state="translated">您也可以使用 <bpt id="p1">*</bpt>動作<ept id="p1">*</ept> 參數來指定訂閱的事件引發時要採取的動作。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When you subscribe to an event, an event subscriber is added to your session.</source>
+          <target state="translated">當您訂閱某個事件時，會將事件訂閱者新增到您的工作階段中。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To get the event subscribers in the session, use the Get-EventSubscriber cmdlet.</source>
+          <target state="translated">若要取得工作階段中的事件訂閱者，請使用 Get-EventSubscriber Cmdlet。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To cancel the subscription, use the Unregister-Event cmdlet, which deletes the event subscriber from the session.</source>
+          <target state="translated">若要取消訂閱，請使用 Unregister-Event Cmdlet，這會將事件訂閱者自工作階段中刪除。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>New Common Information Model (CIM) cmdlets, introduced Windows PowerShell 3.0, perform the same tasks as the WMI cmdlets.</source>
+          <target state="translated">新的通用訊息模型 (CIM) cmdlet 導入 Windows PowerShell 3.0 中，執行與 WMI cmdlet 相同的工作。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The CIM cmdlets comply with WS-Management (WSMan) standards and with the CIM standard, which enables the cmdlets to use the same techniques to manage computers that run the Windows operating system and those that run other operating systems.</source>
+          <target state="translated">CIM cmdlet 符合 Ws-management (WSMan) 標準與 CIM 標準，可讓指令程式來使用相同的技術來管理執行 Windows 作業系統和執行其他作業系統的電腦。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Instead of using <bpt id="p1">**</bpt>Register-WmiEvent<ept id="p1">**</ept>, consider using the Register-CimIndicationEventhttp://go.microsoft.com/fwlink/?LinkId=227960 cmdlet.</source>
+          <target state="translated">而不是使用 <bpt id="p1">**</bpt>Register-wmievent<ept id="p1">**</ept>, ，請考慮使用暫存器 CimIndicationEventhttp://go.microsoft.com/fwlink/?LinkId=227960 指令程式。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">範例</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Example 1: Subscribe to events generated by a class</source>
+          <target state="translated">範例 1︰ 訂閱類別所產生的事件</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This command subscribes to the events generated by the <bpt id="p1">**</bpt>Win32_ProcessStartTrace<ept id="p1">**</ept> class.</source>
+          <target state="translated">此命令所產生的事件訂閱 <bpt id="p1">**</bpt>Win32_ProcessStartTrace<ept id="p1">**</ept> 類別。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This class raises an event whenever a process starts.</source>
+          <target state="translated">此類別會在每次處理程序啟動時引發事件。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Example 2: Subscribe to creation events for a process</source>
+          <target state="translated">範例 2︰ 處理程序建立事件訂閱</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This command uses a query to subscribe to Win32_process instance creation events.</source>
+          <target state="translated">此命令使用查詢來訂閱 Win32_process 執行個體建立事件。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Example 3: Use an action to respond to an event</source>
+          <target state="translated">範例 3︰ 使用動作來回應事件</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This example shows how to use an action to respond to an event.</source>
+          <target state="translated">此範例示範如何使用動作來回應事件。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>In this case, when a process starts, any Start-Process commands in the current session are written to an XML file.</source>
+          <target state="translated">在本例中，當處理程序啟動時，便會將目前工作階段中的任何 Start-Process 命令寫入 XML 檔案。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>When you use the <bpt id="p1">*</bpt>Action<ept id="p1">*</ept> parameter, <bpt id="p2">**</bpt>Register-WmiEvent<ept id="p2">**</ept> returns a background job that represents the event action.</source>
+          <target state="translated">當您使用 <bpt id="p1">*</bpt>動作<ept id="p1">*</ept> 參數， <bpt id="p2">**</bpt>Register-wmievent<ept id="p2">**</ept> 傳回代表事件動作的背景工作。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">**</bpt>Job<ept id="p1">**</ept> cmdlets, such as Get-Job and Receive-Job, to manage the event job.</source>
+          <target state="translated">您可以使用 <bpt id="p1">**</bpt>工作<ept id="p1">**</ept> 指令程式，例如 Get-job 和 Receive-job，管理事件工作。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Jobs.</source>
+          <target state="translated">如需詳細資訊，請參閱 about_Jobs。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Example 4: Register for events on a remote computer</source>
+          <target state="translated">範例 4︰ 註冊遠端電腦上的事件</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This example registers for events on the Server01 remote computer.</source>
+          <target state="translated">此範例會登錄以取得 Server01 遠端電腦上的事件。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>WMI returns the events to the local computer and stores them in the event queue in the current session.</source>
+          <target state="translated">WMI 會將事件傳回本機電腦，並將它們儲存在目前工作階段內的事件佇列中。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>To retrieve the events, run a local <bpt id="p1">**</bpt>Get-Event<ept id="p1">**</ept> command.</source>
+          <target state="translated">若要擷取的事件，執行本機 <bpt id="p1">**</bpt>Get-event<ept id="p1">**</ept> 命令。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">參數</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>-Action</source>
+          <target state="translated">動作</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Specifies commands that handle the events.</source>
+          <target state="translated">指定處理事件的命令。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The commands in the <bpt id="p1">*</bpt>Action<ept id="p1">*</ept> parameter run when an event is raised instead of sending the event to the event queue.</source>
+          <target state="translated">中的命令 <bpt id="p1">*</bpt>動作<ept id="p1">*</ept> 參數執行時就會引發事件，而不是將事件傳送到事件佇列。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Enclose the commands in braces ( { } ) to create a script block.</source>
+          <target state="translated">使用大括弧 ( { } ) 括住命令以建立指令碼區塊。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The value of <bpt id="p1">*</bpt>Action<ept id="p1">*</ept> can include the $Event, $EventSubscriber, $Sender, $EventArgs, and $Args automatic variables, which provide information about the event to the <bpt id="p2">*</bpt>Action<ept id="p2">*</ept> script block.</source>
+          <target state="translated">值 <bpt id="p1">*</bpt>動作<ept id="p1">*</ept> $Event、 $EventSubscriber、 $Sender、 $EventArgs 和 $Args 自動變數，可提供事件相關資訊可以包括 <bpt id="p2">*</bpt>動作<ept id="p2">*</ept> 指令碼區塊。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Automatic_Variables.</source>
+          <target state="translated">如需詳細資訊，請參閱 about_Automatic_Variables。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>When you specify an action, <bpt id="p1">**</bpt>Register-WmiEvent<ept id="p1">**</ept> returns an event job object that represents that action.</source>
+          <target state="translated">當您指定的動作， <bpt id="p1">**</bpt>Register-wmievent<ept id="p1">**</ept> 傳回代表該動作的事件工作物件。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You can use the cmdlets that contain the <bpt id="p1">**</bpt>Job<ept id="p1">**</ept> noun (the <bpt id="p2">**</bpt>Job<ept id="p2">**</ept> cmdlets) to manage the event job.</source>
+          <target state="translated">您可以使用包含的 cmdlet <bpt id="p1">**</bpt>工作<ept id="p1">**</ept> 名詞 ( <bpt id="p2">**</bpt>工作<ept id="p2">**</ept> cmdlet) 來管理事件工作。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>-Class</source>
+          <target state="translated">類別</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Specifies the event to which you are subscribing.</source>
+          <target state="translated">指定您要訂閱的事件。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Enter the WMI class that generates the events.</source>
+          <target state="translated">請輸入產生事件的 WMI 類別。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">*</bpt>Class<ept id="p1">*</ept> or <bpt id="p2">*</bpt>Query<ept id="p2">*</ept> parameter is required in every command.</source>
+          <target state="translated">A <bpt id="p1">*</bpt>類別<ept id="p1">*</ept> 或 <bpt id="p2">*</bpt>查詢<ept id="p2">*</ept> 每個命令中必要參數。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-ComputerName</source>
+          <target state="translated">-ComputerName</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the computer on which the command runs.</source>
+          <target state="translated">指定命令執行所在電腦的名稱。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The default is the local computer.</source>
+          <target state="translated">預設是本機電腦。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Type the NetBIOS name, an IP address, or a fully qualified domain name of the computer.</source>
+          <target state="translated">輸入電腦的 NetBIOS 名稱、IP 位址或完整網域名稱。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To specify the local computer, type the computer name, a dot (.), or localhost.</source>
+          <target state="translated">若要指定本機電腦，請輸入電腦名稱、 句點 （.） 或 localhost。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This parameter does not rely on Windows PowerShell remoting.</source>
+          <target state="translated">此參數不必依賴 Windows PowerShell 遠端功能。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> parameter even if your computer is not configured to run remote commands.</source>
+          <target state="translated">您可以使用 <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> 即使您的電腦未設定為執行遠端命令的參數。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>-Credential</source>
+          <target state="translated">-Credential</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Specifies a user account that has permission to perform this action.</source>
+          <target state="translated">指定具有執行此動作權限的使用者帳戶。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The default is the current user.</source>
+          <target state="translated">預設為目前使用者。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Type a user name, such as User01 or Domain01\User01, or enter a <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> object, such as one generated by the Get-Credential cmdlet.</source>
+          <target state="translated">輸入使用者名稱，例如 User01 或 Domain01\User01，或輸入 <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> 物件，例如 Get-credential cmdlet 產生的物件。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>If you type a user name, this cmdlet prompts you for a password.</source>
+          <target state="translated">如果您輸入使用者名稱，這個指令程式會提示您輸入密碼。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>-Forward</source>
+          <target state="translated">轉寄</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet sends events for this subscription to the session on the local computer.</source>
+          <target state="translated">指出此 cmdlet 會將此訂閱的事件傳送至本機電腦上的工作階段。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Use this parameter when you are registering for events on a remote computer or in a remote session.</source>
+          <target state="translated">當您要訂閱遠端電腦上或遠端工作階段中的事件時，請使用此參數。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>-MaxTriggerCount</source>
+          <target state="translated">-MaxTriggerCount</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum trigger count.</source>
+          <target state="translated">指定最大的觸發程序的計數。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>-MessageData</source>
+          <target state="translated">-MessageData</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Specifies any additional data to be associated with this event subscription.</source>
+          <target state="translated">指定要與這個事件訂閱建立關聯的任何其他資料。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The value of this parameter appears in the <bpt id="p1">**</bpt>MessageData<ept id="p1">**</ept> property of all events associated with this subscription.</source>
+          <target state="translated">這個參數的值會出現在 <bpt id="p1">**</bpt>MessageData<ept id="p1">**</ept> 與此訂閱關聯的所有事件的屬性。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>-Namespace</source>
+          <target state="translated">命名空間</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Specifies the namespace of the WMI class.</source>
+          <target state="translated">指定 WMI 類別的命名空間。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-Query</source>
+          <target state="translated">查詢</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Specifies a query in WMI Query Language (WQL) that identifies the WMI event class, such as: <ph id="ph1">`select * from __InstanceDeletionEvent`</ph>.</source>
+          <target state="translated">指定查詢的 WMI 查詢語言 (WQL) 可識別 WMI 事件類別，例如︰ <ph id="ph1">`select * from __InstanceDeletionEvent`</ph>。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>-SourceIdentifier</source>
+          <target state="translated">-SourceIdentifier</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Specifies a name that you select for the subscription.</source>
+          <target state="translated">指定您為訂閱選取的名稱。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The name that you select must be unique in the current session.</source>
+          <target state="translated">您所選取的名稱在目前的工作階段中必須是唯一的。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The default value is the GUID that Windows PowerShell assigns.</source>
+          <target state="translated">預設值是 Windows PowerShell 所指派的 GUID。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The value of this parameter appears in the value of the <bpt id="p1">**</bpt>SourceIdentifier<ept id="p1">**</ept> property of the subscriber object and of all event objects associated with this subscription.</source>
+          <target state="translated">這個參數的值會顯示值的 <bpt id="p1">**</bpt>SourceIdentifier<ept id="p1">**</ept> 訂閱者物件以及與此訂閱關聯的所有事件物件的屬性。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>-SupportEvent</source>
+          <target state="translated">-SupportEvent</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet hides the event subscription.</source>
+          <target state="translated">表示此指令程式會隱藏事件訂閱。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Use this parameter when the current subscription is part of a more complex event registration mechanism and it should not be discovered independently.</source>
+          <target state="translated">當目前的訂閱是更複雜事件註冊機制的一部分，而且不應該被獨立探索時，請使用這個參數。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>To view or cancel a subscription that was created by using the <bpt id="p1">*</bpt>SupportEvent<ept id="p1">*</ept> parameter, specify the <bpt id="p2">*</bpt>Force<ept id="p2">*</ept> parameter of the Get-EventSubscriber and Unregister-Event cmdlets.</source>
+          <target state="translated">若要檢視或取消訂閱已建立使用 <bpt id="p1">*</bpt>SupportEvent<ept id="p1">*</ept> 參數，指定 <bpt id="p2">*</bpt>Force<ept id="p2">*</ept> Get-eventsubscriber 和 Unregister-event cmdlet 的參數。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>-Timeout</source>
+          <target state="translated">逾時</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Specifies how long Windows PowerShell waits for this command to finish.</source>
+          <target state="translated">指定要完成這個命令 Windows PowerShell 要等待多久。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The default value, 0 (zero), means that there is no time-out, and it causes Windows PowerShell to wait indefinitely.</source>
+          <target state="translated">預設值為 0 (零) 表示沒有逾時，這會使 Windows PowerShell 無限期等待。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">這個 cmdlet 支援一般參數:-偵錯、-ErrorAction、-ErrorVariable、-InformationAction-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 以及-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">如需詳細資訊，請參閱 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">輸入</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">無</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>You cannot pipe objects to this cmdlet.</source>
+          <target state="translated">您無法使用管線將物件傳送至此 Cmdlet。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">輸出</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">無</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>This cmdlet does not generate any output.</source>
+          <target state="translated">此 Cmdlet 不會產生任何輸出。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">附註</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>To use this cmdlet in Windows Vista or a later version of the Windows operating system, start Windows PowerShell by using the Run as administrator option.</source>
+          <target state="translated">若要使用這個指令程式在 Windows Vista 或更新版本的 Windows 作業系統，請使用系統管理員身分執行來啟動 Windows PowerShell。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Events, event subscriptions, and the event queue exist only in the current session.</source>
+          <target state="translated">事件、事件訂閱與事件佇列僅存在目前工作階段中。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>If you close the current session, the event queue is discarded and the event subscription is canceled.</source>
+          <target state="translated">若關閉目前工作階段，便會捨棄事件佇列，並取消事件訂閱。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相關的連結</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

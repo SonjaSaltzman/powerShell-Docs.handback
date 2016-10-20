@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="fr-fr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5b8f9f116d7d5348da138ae074de9b5a8a7a6bb5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.ODataUtils\Export-ODataEndpointProxy.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7685b75c5ed71c1ec63782234730636d65b1d133</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">33cfe21b2e51000f9f19d35a287b9477ec38c5e8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">applet de commande PowerShell</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Export-ODataEndpointProxy</source>
+          <target state="translated">Export-ODataEndpointProxy</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Export-ODataEndpointProxy</source>
+          <target state="translated">Export-ODataEndpointProxy</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">SYNOPSIS</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Generates a module that contains cmdlets to manage an OData endpoint.</source>
+          <target state="translated">Génère un module qui contient des applets de commande pour gérer un point de terminaison OData.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SYNTAXE</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">DESCRIPTION</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Export-ODataEndpointProxy<ept id="p1">**</ept> cmdlet uses the metadata of an OData endpoint to generate a module that contains cmdlets you can use to manage that OData endpoint.</source>
+          <target state="translated">Le <bpt id="p1">**</bpt>Export-ODataEndpointProxy<ept id="p1">**</ept> applet de commande utilise les métadonnées du point de terminaison OData pour générer un module qui contient des applets de commande que vous pouvez utiliser pour gérer ce point de terminaison OData.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The module is based on CDXML.</source>
+          <target state="translated">Le module est basé sur CDXML.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>After this cmdlet generates the module, it saves that module to the path and file name specified by the <bpt id="p1">*</bpt>OutputModule<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">Une fois cette applet de commande génère le module, il enregistre ce module dans le chemin d’accès et le nom spécifié par le <bpt id="p1">*</bpt>OutputModule<ept id="p1">*</ept> paramètre.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Export-ODataEndpointProxy<ept id="p1">**</ept> generates cmdlets for create, read, update, and delete (CRUD) operations, non-CRUD actions, and association manipulation.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Export-ODataEndpointProxy<ept id="p1">**</ept> génère des applets de commande pour la création, lecture, mise à jour et suppression (CRUD) actions non CRUD et de manipulation de l’association.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Export-ODataEndpointProxy<ept id="p1">**</ept> generates one CDXML file per endpoint resource.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Export-ODataEndpointProxy<ept id="p1">**</ept> génère un fichier CDXML par la ressource de point de terminaison.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can edit these CDXML files after the module is generated.</source>
+          <target state="translated">Vous pouvez modifier ces fichiers CDXML une fois que le module est généré.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For example, if you want to change the noun or verb names of the cmdlets to align with Windows PowerShell cmdlet naming guidelines, you can modify the file.</source>
+          <target state="translated">Par exemple, si vous souhaitez modifier les noms de verbe ou substantif des applets de commande pour se conformer aux règles de dénomination applet de commande Windows PowerShell, vous pouvez modifier le fichier.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Every cmdlet in a generated module must include a <bpt id="p1">*</bpt>ConnectionURI<ept id="p1">*</ept> parameter in order to connect to the endpoint that the module manages.</source>
+          <target state="translated">Chaque applet de commande dans un module généré doit inclure un <bpt id="p1">*</bpt>ConnectionURI<ept id="p1">*</ept> paramètre afin de vous connecter au point de terminaison qui gère le module.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">EXEMPLES</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Example 1: Generate a module to manage a retail web service endpoint</source>
+          <target state="translated">Exemple 1 : Générer un module pour gérer un point de terminaison du service web commerciale</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This command generates a module to manage a retail service endpoint.</source>
+          <target state="translated">Cette commande génère un module pour gérer un point de terminaison de service de vente au détail.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The command specifies the URI of the endpoint and the URI of the endpoint metadata.</source>
+          <target state="translated">Cette commande spécifie l’URI du point de terminaison et l’URI des métadonnées du point de terminaison.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The command also provides an output path and script module name as the value of the <bpt id="p1">*</bpt>OutputModule<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">La commande fournit également un nom de module de chemin d’accès et le script de sortie en tant que la valeur de la <bpt id="p1">*</bpt>OutputModule<ept id="p1">*</ept> paramètre.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For the value of the <bpt id="p1">*</bpt>ResourceNameMapping<ept id="p1">*</ept> parameter, the command provides a hashtable that maps the resource collection name to the desired noun for the cmdlet set.</source>
+          <target state="translated">La valeur de la <bpt id="p1">*</bpt>ResourceNameMapping<ept id="p1">*</ept> paramètre, la commande fournit une table de hachage qui mappe le nom de collection de ressources pour le nom souhaité pour l’ensemble de l’applet de commande.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>In this example, Products is the resource collection name and <bpt id="p1">**</bpt>Merchandise<ept id="p1">**</ept> is the noun.</source>
+          <target state="translated">Dans cet exemple, les produits est le nom de collection de ressources et <bpt id="p1">**</bpt>marchandises<ept id="p1">**</ept> est le nom.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To allow connections to non-SSL sites, HTTP, as opposed to HTTPS, add the <bpt id="p1">*</bpt>AllowUnsecureConnection<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">Pour autoriser les connexions à des sites non-SSL, HTTP, au lieu de HTTPS, ajoutez la <bpt id="p1">*</bpt>AllowUnsecureConnection<ept id="p1">*</ept> paramètre.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARAMÈTRES</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>-AllowClobber</source>
+          <target state="translated">-AllowClobber</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet replaces an existing module.</source>
+          <target state="translated">Indique que cette applet de commande remplace un module existant.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-AllowUnsecureConnection</source>
+          <target state="translated">-AllowUnsecureConnection</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Indicates that this module can connect to URIs that are not SSL-secured.</source>
+          <target state="translated">Indique que ce module peut se connecter aux URI qui ne sont pas sécurisées par SSL.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The module can manage HTTP sites in addition to HTTPS sites.</source>
+          <target state="translated">Le module peut gérer les sites HTTP en plus de sites HTTPS.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-CmdletAdapter</source>
+          <target state="translated">-CmdletAdapter</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Specifies the cmdlet adapter.</source>
+          <target state="translated">Spécifie l’adaptateur de l’applet de commande.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are: ODataAdapter and NetworkControllerAdapter.</source>
+          <target state="translated">Les valeurs acceptables pour ce paramètre sont : ODataAdapter et NetworkControllerAdapter.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">Vous demande confirmation avant d’exécuter l’applet de commande. Vous demande confirmation avant d’exécuter l’applet de commande.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>-CreateRequestMethod</source>
+          <target state="translated">-CreateRequestMethod</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Specifies the request method.</source>
+          <target state="translated">Spécifie la méthode de demande.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are: PUT, POST, and PATCH.</source>
+          <target state="translated">Les valeurs acceptables pour ce paramètre sont : PATCH, POST et PUT.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>-Credential</source>
+          <target state="translated">-Credential</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Specifies a user account that has access to the OData endpoint.</source>
+          <target state="translated">Spécifie un compte d’utilisateur qui a accès au point de terminaison OData.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The default value is the current user.</source>
+          <target state="translated">La valeur par défaut est l'utilisateur actuel.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If a remote computer runs Windows Vista or a later release of the Windows operating system, the cmdlet prompts you for credentials.</source>
+          <target state="translated">Si un ordinateur distant exécute Windows Vista ou une version ultérieure du système d’exploitation Windows, l’applet de commande vous invite à entrer des informations d’identification.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>-CustomData</source>
+          <target state="translated">-CustomData</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Specifies a hash table of custom data.</source>
+          <target state="translated">Spécifie une table de hachage des données personnalisées.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet overwrites an existing generated module of the same name in an existing <ph id="ph1">`Modules`</ph> folder.</source>
+          <target state="translated">Indique que cette applet de commande remplace un module généré existant du même nom dans un <ph id="ph1">`Modules`</ph> dossier.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>-Headers</source>
+          <target state="translated">-Headers</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>{{Fill Headers Description}}</source>
+          <target state="translated">{{Description des en-têtes de remplissage}}</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>-MetadataUri</source>
+          <target state="translated">-MetadataUri</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Specifies the URI of the metadata of the endpoint.</source>
+          <target state="translated">Spécifie l’URI des métadonnées du point de terminaison.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-OutputModule</source>
+          <target state="translated">-OutputModule</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Specifies the path and module name to which this cmdlet saves the generated module of proxy commands.</source>
+          <target state="translated">Spécifie le nom de chemin d’accès et le module dans lequel cette applet de commande enregistre le module de commandes proxy généré.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This cmdlet copies a binary module, module manifest, and formatting file, if applicable, to the specified folder.</source>
+          <target state="translated">Cette applet de commande copie un module binaire, le manifeste de module et le fichier de mise en forme, le cas échéant, dans le dossier spécifié.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If you specify only the name of the module, <bpt id="p1">**</bpt>Export-ODataEndpointProxy<ept id="p1">**</ept> saves the module in the <ph id="ph1">`$home\Documents\WindowsPowerShell\Modules`</ph> folder.</source>
+          <target state="translated">Si vous spécifiez uniquement le nom du module, <bpt id="p1">**</bpt>Export-ODataEndpointProxy<ept id="p1">**</ept> enregistre le module dans le <ph id="ph1">`$home\Documents\WindowsPowerShell\Modules`</ph> dossier.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If you specify a path, the cmdlet creates the module folder in that path.</source>
+          <target state="translated">Si vous spécifiez un chemin d’accès, l’applet de commande crée le dossier de module dans ce chemin d’accès.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>-ResourceNameMapping</source>
+          <target state="translated">-ResourceNameMapping</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Specifies a hashtable that contains mappings that let you customize the generated cmdlets.</source>
+          <target state="translated">Spécifie une table de hachage qui contient des mappages qui vous permettent de personnaliser les applets de commande généré.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>In this hashtable, the resource collection name is the key.</source>
+          <target state="translated">Dans cette table de hachage, le nom de collection de ressources est la clé.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The desired cmdlet noun is the value.</source>
+          <target state="translated">Le nom de l’applet de commande de votre choix est la valeur.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>For example, in the hash table @{Products = 'Merchandise'}, <bpt id="p1">**</bpt>Products<ept id="p1">**</ept> is the resource collection name that serves as the key.</source>
+          <target state="translated">Par exemple, dans la table de hachage @{produits = 'Marchandises'}, <bpt id="p1">**</bpt>produits<ept id="p1">**</ept> est le nom de collection de ressources qui sert de clé.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Merchandise<ept id="p1">**</ept> is the resulting cmdlet noun.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Marchandises<ept id="p1">**</ept> est le nom d’applet de commande qui en résulte.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The generated cmdlet names might not align to Windows PowerShellcmdlet naming guidelines.</source>
+          <target state="translated">Les noms d’applet de commande généré peuvent aligner pas aux instructions d’affectation de noms Windows PowerShellcmdlet.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You can modify the resource CDXML file to change the cmdlet names after this cmdlet creates the module.</source>
+          <target state="translated">Vous pouvez modifier le fichier CDXML de ressources pour modifier les noms d’applet de commande une fois que cette applet de commande crée le module.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>For more information, see Strongly Encouraged Development Guidelineshttp://msdn.microsoft.com/library/dd878270(v=vs.85).aspx (http://msdn.microsoft.com/library/dd878270(v=vs.85).aspx) in the Microsoft Developer Network library.</source>
+          <target state="translated">Pour plus d’informations, consultez fortement encouragés développement Guidelineshttp://msdn.microsoft.com/library/dd878270 (v=vs.85).aspx (http://msdn.microsoft.com/library/dd878270 (v=vs.85).aspx) dans la bibliothèque Microsoft Developer Network.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>-UpdateRequestMethod</source>
+          <target state="translated">-UpdateRequestMethod</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Specifies the update request method.</source>
+          <target state="translated">Spécifie la méthode de demande de mise à jour.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are: PUT, POST, and PATCH.</source>
+          <target state="translated">Les valeurs acceptables pour ce paramètre sont : PATCH, POST et PUT.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>-Uri</source>
+          <target state="translated">-Uri</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Specifies the URI of the endpoint.</source>
+          <target state="translated">Spécifie l’URI du point de terminaison.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Présente les conséquences éventuelles de l’exécution de l’applet de commande.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">L’applet de commande n’est pas exécuté. Montre ce qui se passerait si l’applet de commande s’exécute.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">L’applet de commande n’est pas exécutée.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Cette applet de commande prend en charge les paramètres courants :-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction et - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Pour plus d’informations, consultez about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ENTRÉES</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">SORTIES</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTES DE PUBLICATION</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">LIENS CONNEXES</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>OData Library</source>
+          <target state="translated">Bibliothèque OData</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>What is the OData Protocol?</source>
+          <target state="translated">Qu’est le protocole OData ?</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Invoke-RestMethod</source>
+          <target state="translated">Invoke-RestMethod</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

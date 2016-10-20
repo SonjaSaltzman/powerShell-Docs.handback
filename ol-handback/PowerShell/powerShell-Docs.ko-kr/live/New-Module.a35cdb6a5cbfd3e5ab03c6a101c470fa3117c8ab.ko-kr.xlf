@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">63d27010ab7b47057899779056da7c3dbda062f1</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Core\New-Module.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7f865ca40a299c67bda9a9bb762c3c73ce9e35e7</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4bc9dc8bf5a8c9c6c6385ecb5cdab473559bcefe</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>New-Module</source>
+          <target state="translated">New-Module</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>New-Module</source>
+          <target state="translated">New-Module</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">요약</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Creates a new dynamic module that exists only in memory.</source>
+          <target state="translated">메모리에만 있는 새 동적 모듈을 만듭니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">구문</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>ScriptBlock (Default)</source>
+          <target state="translated">스크립트 블록 (기본값)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="translated">이름</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">설명</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The New-Module cmdlet creates a dynamic module from a script block.</source>
+          <target state="translated">New-Module cmdlet은 스크립트 블록에서 동적 모듈을 만듭니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The members of the dynamic module, such as functions and variables, are immediately available in the session and remain available until you close the session.</source>
+          <target state="translated">동적 모듈의 멤버(예: 함수 및 변수)는 세션에서 즉시 사용할 수 있어야 하며 세션을 닫을 때까지 사용할 수 있는 상태로 유지됩니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Like static modules, by default, the cmdlets and functions in a dynamic module are exported and the variables and aliases are not.</source>
+          <target state="translated">정적 모듈과 마찬가지로 동적 모듈의 cmdlet과 함수는 기본적으로 내보내고 변수와 별칭은 내보내지 않습니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>However, you can use the Export-ModuleMember cmdlet and the parameters of New-Module to override the defaults.</source>
+          <target state="translated">그러나 Export-ModuleMember cmdlet 및 New-Module의 매개 변수를 사용하여 기본값을 재정의할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can also use the AsCustomObject parameter of the New-Module cmdlet to return the dynamic module as a custom object.</source>
+          <target state="translated">New-Module cmdlet의 AsCustomObject 매개 변수를 사용하여 동적 모듈을 사용자 지정 개체로 반환할 수도 있습니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The members of the modules, such as functions, are implemented as script methods of the custom object instead of being imported into the session.</source>
+          <target state="translated">함수와 같은 모듈 멤버는 세션으로 가져오는 대신 사용자 지정 개체의 스크립트 메서드로 구현됩니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Dynamic modules  exist only in memory, not on disk.</source>
+          <target state="translated">동적 모듈은 메모리에만 있고 디스크에는 없습니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Like all modules, the members of dynamic modules run in a private module scope that is a child of the global scope.</source>
+          <target state="translated">모든 모듈과 마찬가지로 동적 모듈의 멤버는 전역 범위의 하위인 개인 모듈 범위에서 실행됩니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Get-Module cannot get a dynamic module, but Get-Command can get the exported members.</source>
+          <target state="translated">Get-Module은 동적 모듈을 가져올 수 없지만 Get-Command는 내보낸 멤버를 가져올 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To make a dynamic module available to Get-Module, pipe a New-Module command to Import-Module, or pipe the module object that New-Module returns to Import-Module.</source>
+          <target state="translated">Get-Module에서 동적 모듈을 사용할 수 있도록 설정하려면 New-Module 명령을 Import-Module로 파이프하거나 New-Module이 반환하는 모듈 개체를 Import-Module로 파이프합니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This action adds the dynamic module to the Get-Module list, but it does not save the module to disk or make it persistent.</source>
+          <target state="translated">이 작업에서는 동적 모듈을 Get-Module 목록에 추가하지만 모듈을 디스크에 저장하거나 영구적으로 만들지 않습니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">예제</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 예제 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This command creates a new dynamic module with a function called "Hello".</source>
+          <target state="translated">이 명령은 "Hello"라는 함수를 사용하여 새 동적 모듈을 만듭니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The command returns a module object that represents the new dynamic module.</source>
+          <target state="translated">이 명령은 새 동적 모듈을 나타내는 모듈 개체를 반환합니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This example demonstrates that dynamic modules are not returned by the Get-Module cmdlet, but the members that they export are returned by the Get-Command cmdlet.</source>
+          <target state="translated">이 예제에서는 Get-Module cmdlet이 동적 모듈을 반환하지 않지만 Get-Command cmdlet은 동적 모듈이 내보내는 멤버를 반환하는 것을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This command uses the Export-ModuleMember cmdlet to export a variable into the current session.</source>
+          <target state="translated">이 명령은 Export-ModuleMember cmdlet을 사용하여 변수를 현재 세션으로 내보냅니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Without the Export-ModuleMember command, only the function is exported.</source>
+          <target state="translated">Export-ModuleMember 명령을 사용하지 않는 경우 함수만 내보냅니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The output shows that both the variable and the function were exported into the session.</source>
+          <target state="translated">출력에는 변수와 함수 모두 세션으로 내보냈다고 나와 있습니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This command demonstrates that you can make a dynamic module available to the Get-Module cmdlet by piping the dynamic module to the Import-Module cmdlet.</source>
+          <target state="translated">이 명령은 동적 모듈을 Import-Module cmdlet으로 파이프하여 Get-Module cmdlet이 이 동적 모듈을 사용할 수 있도록 설정할 수 있음을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The first command uses a pipeline operator (|) to send the module object that New-Module generates to the Import-Module cmdlet.</source>
+          <target state="translated">첫 번째 명령은 파이프라인 연산자(|)를 사용하여 New-Module이 Import-Module cmdlet에 생성하는 모듈 개체를 보냅니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The command uses the Name parameter of New-Module to assign a friendly name to the module.</source>
+          <target state="translated">이 명령은 New-Module의 Name 매개 변수를 사용하여 모듈에 이름을 할당합니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Because Import-Module does not return any objects by default, there is no output from this command.</source>
+          <target state="translated">Import-Module이 기본적으로 개체를 반환하지 않으므로 이 명령의 출력은 없습니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The second command uses the Get-Module cmdlet to get the modules in the session.</source>
+          <target state="translated">두 번째 명령은 Get-Module cmdlet을 사용하여 세션의 모듈을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The result shows that Get-Module can get the new dynamic module.</source>
+          <target state="translated">결과에는 Get-Module이 새 동적 모듈을 가져올 수 있다고 표시됩니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The third command uses the Get-Command cmdlet to get the Hello function that the dynamic module exports.</source>
+          <target state="translated">세 번째 명령은 Get-Command cmdlet을 사용하여 동적 모듈이 내보내는 Hello 함수를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the AsCustomObject parameter of New-Module to generate a custom object with script methods that represent the exported functions.</source>
+          <target state="translated">이 예제에서는 New-Module의 AsCustomObject 매개 변수를 사용하여 내보낸 함수를 나타내는 스크립트 메서드를 사용하여 사용자 지정 개체를 생성하는 방법을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The first command uses the New-Module cmdlet to generate a dynamic module with two functions, Hello and Goodbye.</source>
+          <target state="translated">첫 번째 명령은 New-Module cmdlet을 사용하여 두 함수 Hello 및 Goodbye를 사용하여 동적 모듈을 생성합니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The command uses the AsCustomObject parameter to generate a custom object instead of the PSModuleInfo object that New-Module generates by default.</source>
+          <target state="translated">이 명령은 AsCustomObject 매개 변수를 사용하여 New-Module이 기본적으로 생성하는 PSModuleInfo 개체 대신 사용자 지정 개체를 생성한 다음</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The command saves the custom object in the $m variable.</source>
+          <target state="translated">$m 변수에 저장합니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The second command attempts to display the value of the $m variable.</source>
+          <target state="translated">두 번째 명령은 $m 변수의 값을 표시하려고 시도하지만</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>No content appears.</source>
+          <target state="translated">내용이 나타나지 않습니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The third command uses a pipeline operator (|) to send the custom object to the Get-Member cmdlet, which displays the properties and methods of the custom object.</source>
+          <target state="translated">세 번째 명령은 파이프라인 연산자(|)를 사용하여 사용자 지정 개체를 Get-Member cmdlet에 보냅니다. 이 cmdlet은 사용자 지정 개체의 속성과 메서드를 표시합니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The output shows that the object has script methods that represent the Hello and Goodbye functions.</source>
+          <target state="translated">출력에는 개체에 Hello 및 Goodbye 함수를 나타내는 스크립트 메서드가 있다고 나와 있습니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The fourth and fifth commands use the script method format to call the Hello and Goodbye functions.</source>
+          <target state="translated">네 번째 명령과 다섯 번째 명령은 스크립트 메서드 형식을 사용하여 Hello 및 Goodbye 함수를 호출합니다.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 6 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 6 --------------------------</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This command uses the ReturnResult parameter to request the results of running the script block instead of requesting a module object.</source>
+          <target state="translated">이 명령은 ReturnResult 매개 변수를 사용하여 모듈 개체를 요청하는 대신 스크립트 블록의 실행 결과를 요청합니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The script block in the new module defines the SayHello function and then calls the function.</source>
+          <target state="translated">새 모듈의 스크립트 블록은 SayHello 함수를 정의한 다음 함수를 호출합니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">매개 변수</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>-ArgumentList</source>
+          <target state="translated">-ArgumentList</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Specifies arguments (parameter values) that are passed to the script block.</source>
+          <target state="translated">스크립트 블록으로 전달되는 인수(매개 변수 값)를 지정합니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>-AsCustomObject</source>
+          <target state="translated">-AsCustomObject</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Returns a custom object that represents the dynamic module.</source>
+          <target state="translated">동적 모듈을 나타내는 사용자 지정 개체를 반환합니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The module members are implemented as script methods of the custom object, but they are not imported into the session.</source>
+          <target state="translated">모듈 멤버는 사용자 지정 개체의 스크립트 메서드로 구현되지만 세션으로 가져오지 않습니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>You can save the custom object in a variable and use dot notation to invoke the members.</source>
+          <target state="translated">사용자 지정 개체를 변수에 저장하고 점 표기법을 사용하여 멤버를 호출할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If the module has multiple members with the same name, such as a function and a variable that are both named "A," only one member with each name is accessible from the custom object.</source>
+          <target state="translated">모듈에 이름이 같은 여러 멤버가 있는 경우(예: 둘 다 이름이 "A"인 함수 및 변수) 사용자 지정 개체에서 각 이름을 가진 하나의 멤버에만 액세스할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>-Cmdlet</source>
+          <target state="translated">-Cmdlet</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Exports only the specified cmdlets from the module into the current session.</source>
+          <target state="translated">지정된 cmdlet만 모듈에서 현재 세션으로 내보냅니다.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Enter a comma-separated list of cmdlets.</source>
+          <target state="translated">쉼표로 구분된 cmdlet 목록을 입력합니다.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are permitted.</source>
+          <target state="translated">와일드카드 문자를 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>By default, all cmdlets in the module are exported.</source>
+          <target state="translated">기본적으로 모듈의 모든 cmdlet을 내보냅니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>You cannot define cmdlets in a script block, but a dynamic module can include cmdlets if it imports the cmdlets from a binary module.</source>
+          <target state="translated">스크립트 블록에서 cmdlet을 정의할 수는 없지만 동적 모듈이 이진 모듈에서 cmdlet을 가져오는 경우 동적 모듈에 cmdlet이 포함될 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>-Function</source>
+          <target state="translated">함수</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Exports only the specified functions from the module into the current session.</source>
+          <target state="translated">지정된 함수만 모듈에서 현재 세션으로 내보냅니다.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Enter a comma-separated list of functions.</source>
+          <target state="translated">쉼표로 구분된 함수 목록을 입력합니다.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are permitted.</source>
+          <target state="translated">와일드카드 문자를 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>By default, all functions defined in a module are exported.</source>
+          <target state="translated">기본적으로 모듈에 정의된 모든 함수를 내보냅니다.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Specifies a name for the new module.</source>
+          <target state="translated">새 모듈의 이름을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>You can also pipe a module name to New-Module.</source>
+          <target state="translated">또한 모듈 이름을 New-Module로 파이프할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The default value is an autogenerated name that begins with "_<bpt id="p1">_</bpt>DynamicModule<ept id="p1">_</ept>" and is followed by a GUID that specifies the path to the dynamic module.</source>
+          <target state="translated">기본값은 자동으로 생성 된 이름이로 시작 하는 "_<bpt id="p1">_</bpt>DynamicModule<ept id="p1">_</ept>" 뒤에 동적 모듈의 경로를 지정 하는 GUID입니다.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>-ReturnResult</source>
+          <target state="translated">-ReturnResult</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Runs the script block and returns the script block results instead of returning a module object.</source>
+          <target state="translated">스크립트 블록을 실행하고 모듈 개체를 반환하는 대신 스크립트 블록 결과를 반환합니다.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>-ScriptBlock</source>
+          <target state="translated">-ScriptBlock</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Specifies the contents of the dynamic module.</source>
+          <target state="translated">동적 모듈의 내용을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Enclose the contents in braces ( { } ) to create a script block.</source>
+          <target state="translated">내용을 중괄호( { } )로 묶어 스크립트 블록을 만듭니다.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>This parameter is required.</source>
+          <target state="translated">이 매개 변수는 필수입니다.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">이 cmdlet은 공통 매개 변수:-디버그,-ErrorAction,-ErrorVariable,-InformationAction,-InformationVariable,-OutVariable,-OutBuffer,-PipelineVariable,-Verbose,-WarningAction 및-warningvariable을 지원 합니다.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">자세한 내용은 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)를 참조 합니다.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">입력</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>System.String</source>
+          <target state="translated">System.String</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>You can pipe a module name string to New-Module.</source>
+          <target state="translated">모듈 이름 문자열을 New-Module로 파이프할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">출력</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSModuleInfo, System.Management.Automation.PSCustomObject, or None</source>
+          <target state="translated">System.Management.Automation.PSModuleInfo, System.Management.Automation.PSCustomObject, 또는 없음</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>By default, New-Module generates a PSModuleInfo object.</source>
+          <target state="translated">New-Module은 기본적으로 PSModuleInfo 개체를 생성합니다.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>If you use the AsCustomObject parameter, it generates a PSCustomObject object.</source>
+          <target state="translated">AsCustomObject 매개 변수를 사용하는 경우 PSCustomObject 개체를 생성합니다.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>If you use the ReturnResult parameter, it returns the result of evaluating the script block in the dynamic module.</source>
+          <target state="translated">ReturnResult 매개 변수를 사용하는 경우 동적 모듈의 스크립트 블록 평가 결과가 반환됩니다.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">참고 사항</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>You can also refer to New-Module by its alias, "nmo".</source>
+          <target state="translated">또한 해당 별칭("nmo")으로 New-Module을 참조할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Aliases.</source>
+          <target state="translated">자세한 내용은 about_Aliases를 참조하세요.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">관련된 링크</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Export-ModuleMember</source>
+          <target state="translated">Export-ModuleMember</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Get-Module</source>
+          <target state="translated">Get-Module</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Import-Module</source>
+          <target state="translated">Import-Module</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Remove-Module</source>
+          <target state="translated">Remove-Module</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>about_Modules</source>
+          <target state="translated">about_Modules</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

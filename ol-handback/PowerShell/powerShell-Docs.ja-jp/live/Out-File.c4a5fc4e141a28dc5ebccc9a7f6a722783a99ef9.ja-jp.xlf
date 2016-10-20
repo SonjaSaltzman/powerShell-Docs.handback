@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f4887fe6be2180f687e5d0723e033b1518f8682f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Utility\Out-File.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f36c05f89afcc24d86a83eae32c3a898a72e56a4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">db271094dcdbb3504e2197e023dad31dd8de6936</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Out-File</source>
+          <target state="translated">Out-file します。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Out-File</source>
+          <target state="translated">Out-file します。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Sends output to a file.</source>
+          <target state="translated">ファイルに出力を送信します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">構文</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>ByPath (Default)</source>
+          <target state="translated">ByPath (既定値)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>ByLiteralPath</source>
+          <target state="translated">ByLiteralPath</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">説明</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The Out-File cmdlet sends output to a file.</source>
+          <target state="translated">Out-File コマンドレットは、ファイルに出力を送信します。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can use this cmdlet instead of the redirection operator (<ph id="ph1">\&gt;</ph>) when you need to use its parameters.</source>
+          <target state="translated">このコマンドレットを使用すると、リダイレクト演算子ではなく (<ph id="ph1">\&gt;</ph>) のパラメーターを使用する必要がある場合。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This command sends a list of processes on the computer to the Process.txt file.</source>
+          <target state="translated">このコマンドは、コンピューター上のプロセスのリストを Process.txt ファイルに送信します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If the file does not exist, Out-File creates it.</source>
+          <target state="translated">ファイルが存在しない場合は、Out-File によって作成されます。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Because the name of the FilePath parameter is optional, you can omit it and submit the equivalent command "get-process | outfile C:\Test1\process.txt".</source>
+          <target state="translated">FilePath パラメーターの名前は省略可能であるため、これを省略して、"get-process | outfile C:\Test1\process.txt" と送信した場合も同じ結果が得られます。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This command also sends a list of processes to the Process.txt file, but it uses the NoClobber parameter, which prevents an existing file from being overwritten.</source>
+          <target state="translated">このコマンドも Process.txt ファイルにもにプロセスのリストを送信しますが、既存のファイルを上書きしないように NoClobber パラメーターが使用されています。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The output shows the error message that appears when NoClobber is used with an existing file.</source>
+          <target state="translated">出力には、ファイルが既に存在するときに NoClobber が使用された場合に表示されるエラー メッセージが示されています。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>These commands send a list of processes on the computer to the Process.txt file.</source>
+          <target state="translated">これらのコマンドは、コンピューター上のプロセスのリストを Process.txt ファイルに送信します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The text is encoded in ASCII format so that it can be read by search programs like Findstr and Grep.</source>
+          <target state="translated">テキストは、Findstr や Grep などの検索プログラムで読み取れるように、ASCII 形式でエンコードされます。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>By default, Out-File uses Unicode format.</source>
+          <target state="translated">Out-File では、既定で Unicode 形式が使用されます。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The first command gets the list of processes and stores them in the $a variable.</source>
+          <target state="translated">最初のコマンドは、プロセスのリストを取得して $a 変数に格納します。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The second command uses the Out-File cmdlet to send the list to the Process.txt file.</source>
+          <target state="translated">2 番目のコマンドは、Out-File コマンドレットを使用して、リストを Process.txt ファイルに送信します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The command uses the InputObject parameter to specify that the input is in the $a variable.</source>
+          <target state="translated">このコマンドでは、InputObject パラメーターを使用して、入力が $a 変数に格納されていることを指定しています。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>It uses the Encoding parameter to convert the output to ASCII format.</source>
+          <target state="translated">出力を ASCII 形式に変換するために Encoding パラメーターが使用されています。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>It uses the Width parameter to limit each line in the file to 50 characters.</source>
+          <target state="translated">また、Width パラメーターを使用して、ファイル内の各行が 50 文字に制限されています。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Because the lines of output are truncated at 50 characters, the rightmost column in the process table is omitted.</source>
+          <target state="translated">出力の各行が 50 文字で切り捨てられるため、プロセス テーブルの右端の列は省略されます。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>These commands show how to use the Out-File cmdlet when you are not in a FileSystem drive.</source>
+          <target state="translated">FileSystem ドライブ以外で Out-File コマンドレットを使用する方法を次のコマンドに示します。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The first command sets the current location to the HKLM:\Software registry key.</source>
+          <target state="translated">最初のコマンドは、現在の場所を HKLM:\Software レジストリ キーに設定します。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The second and third commands have the same effect.</source>
+          <target state="translated">2 番目と 3 番目のコマンドには、同じ効果があります。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>They use the Get-Acl cmdlet to get the security descriptor of the MyKey registry subkey (HKLM\Software\MyCompany\MyKey).</source>
+          <target state="translated">これらのコマンドは、Get-Acl コマンドレットを使用して、MyKey レジストリ サブキー (HKLM\Software\MyCompany\MyKey) のセキュリティ記述子を取得します。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>A pipeline operator passes the result to the Out-File cmdlet, which sends it to the Acl.txt file.</source>
+          <target state="translated">パイプライン演算子によって結果が Out-File コマンドレットに渡され、Acl.txt ファイルに送信されます。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Because Out-File is not supported by the Windows PowerShell Registry provider, you must specify either the file system drive name, such as "c:", or the name of the provider followed by two colons, "FileSystem::", in the value of the FilePath parameter.</source>
+          <target state="translated">Out-File は Windows PowerShell レジストリ プロバイダーによってサポートされていないため、FilePath パラメーターの値として、ファイル システム ドライブ名 (たとえば、"c:") を指定するか、またはプロバイダー名に続けて 2 つのコロン (たとえば、"FileSystem::") を指定する必要があります。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The second and third commands demonstrate these methods.</source>
+          <target state="translated">2 番目と 3 番目のコマンドでは、これらの方法を示しています。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">パラメータ</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>-Append</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Adds the output to the end of an existing file, instead of replacing the file contents.</source>
+          <target state="translated">ファイルの内容を置き換える代わりに、既存のファイルの末尾に出力を追加します。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>-Encoding</source>
+          <target state="translated">エンコード</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Specifies the type of character encoding used in the file.</source>
+          <target state="translated">ファイルで使用する文字エンコードの種類を指定します。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Valid values are "Unicode", "UTF7", "UTF8", "UTF32", "ASCII", "BigEndianUnicode", "Default", and "OEM".</source>
+          <target state="translated">有効な値は、"Unicode"、"UTF7"、"UTF8"、"UTF32"、"ASCII"、"BigEndianUnicode"、"Default"、"OEM" です。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>"Unicode" is the default.</source>
+          <target state="translated">"Unicode" が既定値です。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>"Default" uses the encoding of the system's current ANSI code page.</source>
+          <target state="translated">"Default" では、システムの現在の ANSI コード ページのエンコードが使用されます。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>"OEM" uses the current original equipment manufacturer code page identifier for the operating system.</source>
+          <target state="translated">"OEM" は、オペレーティング システムの相手先ブランド供給の現在のコード ページ識別子が使用されます。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>-FilePath</source>
+          <target state="translated">ファイルのパス</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Specifies the path to the output file.</source>
+          <target state="translated">出力ファイルのパスを指定します。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Allows the cmdlet to overwrite an existing read-only file.</source>
+          <target state="translated">コマンドレットが既存の読み取り専用のファイルを上書きすることを許可します。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Even using the Force parameter, the cmdlet cannot override security restrictions.</source>
+          <target state="translated">Force パラメーターを使用しても、コマンドレットはセキュリティ制限を上書きできません。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-Inputobject</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Specifies the objects to be written to the file.</source>
+          <target state="translated">ファイルに書き込むオブジェクトを指定します。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the objects or type a command or expression that gets the objects.</source>
+          <target state="translated">オブジェクトが格納されている変数を入力するか、オブジェクトを取得するコマンドまたは式を入力します。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>-NoClobber</source>
+          <target state="translated">-NoClobber</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Will not overwrite (replace the contents) of an existing file.</source>
+          <target state="translated">既存のファイルを上書きしません (内容を置き換えません)。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>By default, if a file exists in the specified path, Out-File overwrites the file without warning.</source>
+          <target state="translated">既定では、ファイルが指定されたパスに存在する場合、警告なしにファイルが上書きされます。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>If both Append and NoClobber are used, the output is appended to the existing file.</source>
+          <target state="translated">Append と NoClobber の両方を使用した場合、出力は既存のファイルに追加されます。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>-Width</source>
+          <target state="translated">幅</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Specifies the number of characters in each line of output.</source>
+          <target state="translated">出力の各行の文字数を指定します。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Any additional characters are truncated, not wrapped.</source>
+          <target state="translated">これを超過する文字は、折り返されることなく切り捨てられます。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, the width is determined by the characteristics of the host.</source>
+          <target state="translated">このパラメーターを省略した場合、ホストの特性によって幅が決まります。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The default for the Windows PowerShell console is 80 (characters).</source>
+          <target state="translated">Windows PowerShell コンソールの既定値は 80 (文字) です。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>-LiteralPath</source>
+          <target state="translated">– LiteralPath</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Specifies the path to the output file.</source>
+          <target state="translated">出力ファイルのパスを指定します。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Unlike <bpt id="p1">**</bpt>FilePath<ept id="p1">**</ept>, the value of the <bpt id="p2">**</bpt>LiteralPath<ept id="p2">**</ept> parameter is used exactly as it is typed.</source>
+          <target state="translated">異なり <bpt id="p1">**</bpt>FilePath<ept id="p1">**</ept>, の値、 <bpt id="p2">**</bpt>LiteralPath<ept id="p2">**</ept> は入力したとおりにパラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>No characters are interpreted as wildcards.</source>
+          <target state="translated">ワイルドカードとして解釈される文字はありません。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>If the path includes escape characters, enclose it in single quotation marks.</source>
+          <target state="translated">パスにエスケープ文字が含まれている場合は、単一引用符で囲みます。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Single quotation marks tell Windows PowerShell not to interpret any characters as escape sequences.</source>
+          <target state="translated">単一引用符で囲んだ文字はエスケープ シーケンスとして解釈されません。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">コマンドレットを実行する前に確認するように求められます。コマンドレットを実行する前に確認するように求められます。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">コマンドレットを実行するとどのような結果になるかを表示します。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">コマンドレットは実行されません。コマンドレットが実行された場合の処理を示しています。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">コマンドレットは実行されません。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">このコマンドレットは、共通のパラメーターをサポートしています:-デバッグ、-erroraction、-errorvariable、- InformationAction-InformationVariable、- OutVariable、-OutBuffer、- PipelineVariable、- Verbose、および - WarningVariable です。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">詳細については、about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">入力</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSObject</source>
+          <target state="translated">System.Management.Automation.PSObject</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>You can pipe any object to Out-File.</source>
+          <target state="translated">パイプを使用して任意のオブジェクトを Out-File に渡すことができます。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">出力</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">None</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Out-File does not generate any output.</source>
+          <target state="translated">Out-File は出力を生成しません。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ノート</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The Out cmdlets do not format objects; they just render them and send them to the specified display destination.</source>
+          <target state="translated">Out コマンドレットは、オブジェクトを書式設定しません。オブジェクトを単にレンダリングして指定された表示先に送信するのみです。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>If you send an unformatted object to an Out cmdlet, the cmdlet sends it to a formatting cmdlet before rendering it.</source>
+          <target state="translated">書式設定されていないオブジェクトを Out コマンドレットに送信した場合、Out コマンドレットはオブジェクトをレンダリングする前に書式設定コマンドレットに送信します。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The Out cmdlets do not have parameters for names or file paths.</source>
+          <target state="translated">Out コマンドレットには、名前またはファイルのパスのパラメーターはありません。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>To send data to a cmdlet that contains the Out verb (an Out cmdlet), use a pipeline operator (|) to send the output of a Windows PowerShell command to the cmdlet.</source>
+          <target state="translated">Out 動詞を持つコマンドレット (Out コマンドレット) にデータを送信するには、パイプライン演算子 (|) を使用して、Windows PowerShell コマンドの出力をコマンドレットに送信します。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>You can also store data in a variable and use the InputObject parameter to pass the data to the cmdlet.</source>
+          <target state="translated">変数にデータを格納し、InputObject パラメーターを使用してコマンドレットにデータを渡すこともできます。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>For help, see the examples.</source>
+          <target state="translated">詳細については、例を参照してください。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Out-File sends data, but it does not emit any output objects.</source>
+          <target state="translated">Out-File はデータを送信しますが、出力オブジェクトを生成しません。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>If you pipe the output of Out-File to Get-Member, Get-Member reports that no objects have been specified.</source>
+          <target state="translated">パイプを使用して Out-File の出力を Get-Member に渡すと、オブジェクトが指定されていないことが Get-Member によって報告されます。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">関連リンク</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Out-Default</source>
+          <target state="translated">Out-Default</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Out-Host</source>
+          <target state="translated">Out-Host</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Out-Null</source>
+          <target state="translated">Out-Null</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Out-Printer</source>
+          <target state="translated">Out-printer</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Out-String</source>
+          <target state="translated">Out-String</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Tee-Object</source>
+          <target state="translated">Tee オブジェクト</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

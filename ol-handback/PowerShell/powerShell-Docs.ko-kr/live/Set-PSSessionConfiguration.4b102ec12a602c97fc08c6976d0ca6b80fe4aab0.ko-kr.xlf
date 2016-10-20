@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">357685538903062c4878701f81e3b6ee2855e321</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Core\Set-PSSessionConfiguration.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">007f2fe2efca42d102bbe9761e0d5068447bc960</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">575eb73d6be67c37ce353fdc0b27989aa8d7c1cf</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Set-PSSessionConfiguration</source>
+          <target state="translated">Set-pssessionconfiguration</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Set-PSSessionConfiguration</source>
+          <target state="translated">Set-pssessionconfiguration</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">요약</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Changes the properties of a registered session configuration.</source>
+          <target state="translated">등록된 세션 구성의 속성을 변경합니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">구문</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>NameParameterSet (Default)</source>
+          <target state="translated">NameParameterSet (기본값)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>AssemblyNameParameterSet</source>
+          <target state="translated">AssemblyNameParameterSet</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>SessionConfigurationFile</source>
+          <target state="translated">SessionConfigurationFile</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">설명</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Set-PSSessionConfiguration<ept id="p1">**</ept> cmdlet changes the properties of the session configurations on the local computer.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Set-pssessionconfiguration<ept id="p1">**</ept> cmdlet는 로컬 컴퓨터에 세션 구성의 속성을 변경 합니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> parameter to identify the session configuration that you want to change.</source>
+          <target state="translated">사용 된 <bpt id="p1">**</bpt>이름<ept id="p1">**</ept> 매개 변수를 변경 하려면 세션 구성을 식별 합니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Use the other parameters to specify new values for the properties of the session configuration.</source>
+          <target state="translated">다른 매개 변수를 사용하여 세션 구성의 속성에 대해 새 값을 지정할 수도 있습니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To delete a property value from the configuration (and use the default value), enter an empty string ("") or a value of $null for the corresponding parameter.</source>
+          <target state="translated">구성에서 속성 값을 삭제하고 기본값을 사용하려면 해당 매개 변수에 대해 빈 문자열("") 또는 $null 값을 입력합니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, you can use a session configuration file to define a session configuration.</source>
+          <target state="translated">Windows PowerShell 3.0부터 세션 구성 파일을 사용하여 세션 구성을 정의할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This feature provides a simple and discoverable method for setting and changing the properties of sessions that use the session configuration.</source>
+          <target state="translated">이 기능은 세션 구성을 사용하는 세션의 속성을 설정 및 변경하는 간단하고 검색 가능한 방법을 제공합니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To specify a session configuration file, use the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Set-PSSessionConfiguration<ept id="p2">**</ept>.</source>
+          <target state="translated">사용 하 여 세션 구성 파일을 지정 하려면는 <bpt id="p1">**</bpt>경로<ept id="p1">**</ept> 의 매개 변수 <bpt id="p2">**</bpt>Set-pssessionconfiguration<ept id="p2">**</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For information about session configuration files, see about_Session_Configuration_Files (http://go.microsoft.com/fwlink/?LinkID=236023).</source>
+          <target state="translated">세션 구성 파일에 대 한 내용은 about_Session_Configuration_Files (http://go.microsoft.com/fwlink/?LinkID=236023)를 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For information about creating and editing a session configuration file, see New-PSSessionConfigurationFile.</source>
+          <target state="translated">New-pssessionconfigurationfile 만들기 및 세션 구성 파일을 편집 하는 방법에 대 한 정보를 참조 합니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Session configurations define the environment of remote sessions (PSSessions) that connect to the local computer.</source>
+          <target state="translated">세션 구성은 로컬 컴퓨터에 연결되는 원격 세션(PSSession)의 환경을 정의합니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Every PSSession uses a session configuration.</source>
+          <target state="translated">모든 PSSession은 세션 구성을 사용합니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The session configuration determines the features of the PSSession, such as the modules that are available in the session, the cmdlets that are permitted to run, the language mode, quotas, and timeouts.</source>
+          <target state="translated">세션 구성은 세션에서 사용 가능한 모듈, 실행할 수 있는 cmdlet, 언어 모드, 할당량 및 시간 제한과 같은 PSSession의 기능을 결정합니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The security descriptor (SDDL) of the session configuration determines who can use the session configuration to connect to the local computer.</source>
+          <target state="translated">세션 구성의 보안 설명자(SDDL)는 세션 구성을 사용하여 로컬 컴퓨터에 연결할 수 있는 사용자를 결정합니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For more information about session configurations, see about_Session_Configurations.</source>
+          <target state="translated">세션 구성에 대 한 자세한 내용은 about_Session_Configurations를 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To see the properties of a session configuration, use the <bpt id="p1">**</bpt>Get-PSSessionConfiguration<ept id="p1">**</ept> cmdlet or the WSMan Provider.</source>
+          <target state="translated">세션 구성의 속성을 보려면 사용 하 여는 <bpt id="p1">**</bpt>Get-pssessionconfiguration<ept id="p1">**</ept> cmdlet 또는 WSMan 공급자입니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For more information about the WSMan Provider, type "Get-Help WSMan".</source>
+          <target state="translated">WSMan 공급자에 대한 자세한 내용을 보려면 "Get-Help WSMan"을 입력합니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">예제</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 예제 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This command changes the thread apartment state in the MaintenanceShell configuration to STA.</source>
+          <target state="translated">이 명령은 MaintenanceShell 구성의 스레드 아파트 상태를 STA로 변경합니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The change is effective when you restart the WinRM service.</source>
+          <target state="translated">WinRM 서비스를 다시 시작하면 변경 내용이 적용됩니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This example shows how to create and then change a session configuration.</source>
+          <target state="translated">이 예제에서는 세션 구성을 만든 다음 변경하는 방법을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This example shows sample output from the <bpt id="p1">**</bpt>Set-PSSessionConfiguration<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">출력 샘플을 보여 주는이 예제는 <bpt id="p1">**</bpt>Set-pssessionconfiguration<ept id="p1">**</ept> cmdlet입니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Set-PSSessionConfiguration<ept id="p1">**</ept> command in this example increases the value of the <bpt id="p2">**</bpt>MaximumReceivedObjectSizeMB<ept id="p2">**</ept> property to 20.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Set-pssessionconfiguration<ept id="p1">**</ept> 이 예제의 명령은 값을 증가 <bpt id="p2">**</bpt>MaximumReceivedObjectSizeMB<ept id="p2">**</ept> 20 속성입니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Set-PSSessionConfiguration<ept id="p1">**</ept> command returns a <bpt id="p2">**</bpt>Microsoft.WSMan.Management.WSManConfigLeafElement<ept id="p2">**</ept> object that shows the parameter name and new value.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Set-pssessionconfiguration<ept id="p1">**</ept> 명령에서 반환 된 <bpt id="p2">**</bpt>Microsoft.WSMan.Management.WSManConfigLeafElement<ept id="p2">**</ept> 매개 변수 이름 및 새 값을 보여 주는 개체입니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>It also prompts you to restart the WinRM service.</source>
+          <target state="translated">또한 WinRM 서비스를 다시 시작하라는 메시지를 표시합니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Set-PSSessionConfiguration<ept id="p1">**</ept> change is not effective until the WinRM service is restarted.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Set-pssessionconfiguration<ept id="p1">**</ept> WinRM 서비스를 다시 시작 될 때까지 변경 내용이 적용 됩니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This example shows different ways of viewing the results of a <bpt id="p1">**</bpt>Set-PSSessionConfiguration<ept id="p1">**</ept> command.</source>
+          <target state="translated">다양 한 결과를 보는 방법을 보여 주는이 예제는 <bpt id="p1">**</bpt>Set-pssessionconfiguration<ept id="p1">**</ept> 명령입니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">매개 변수</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>-AccessMode</source>
+          <target state="translated">-AccessMode</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Enables and disables the session configuration and determines whether it can be used for remote or local sessions on the computer.</source>
+          <target state="translated">세션 구성을 사용하거나 사용하지 않도록 설정하고 컴퓨터에서 원격 또는 로컬 세션에 사용할 수 있는지를 결정합니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Remote<ept id="p1">**</ept> is the default.</source>
+          <target state="translated"><bpt id="p1">**</bpt>원격<ept id="p1">**</ept> 이 기본값입니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Valid values are:</source>
+          <target state="translated">유효한 값은</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Disabled<ept id="p1">**</ept>: Disables the session configuration.</source>
+          <target state="translated"><bpt id="p1">**</bpt>비활성화 된<ept id="p1">**</ept>: 세션 구성을 사용 하지 않도록 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>It cannot be used for remote or local access to the computer.</source>
+          <target state="translated">컴퓨터에 대한 원격 또는 로컬 액세스에 세션 구성을 사용할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This value sets the <bpt id="p1">**</bpt>Enabled<ept id="p1">**</ept> property of the session configuration (WSMan:<ph id="ph1">\\\&lt;</ph>ComputerName<ph id="ph2">\&gt;</ph>\PlugIn<ph id="ph3">\\\&lt;</ph>SessionConfigurationName<ph id="ph4">\&gt;</ph>\Enabled) to False.</source>
+          <target state="translated">이 값이 설정의 <bpt id="p1">**</bpt>Enabled<ept id="p1">**</ept> 세션 구성의 속성 (WSMan:<ph id="ph1">\\\&lt;</ph>ComputerName<ph id="ph2">\&gt;</ph>\PlugIn<ph id="ph3">\\\&lt;</ph>SessionConfigurationName<ph id="ph4">\&gt;</ph>\Enabled) False로 합니다.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Local<ept id="p1">**</ept>: Adds a <bpt id="p2">**</bpt>Network_Deny_All<ept id="p2">**</ept> entry to security descriptor of the session configuration.</source>
+          <target state="translated"><bpt id="p1">**</bpt>로컬<ept id="p1">**</ept>: 추가 <bpt id="p2">**</bpt>Network_Deny_All<ept id="p2">**</ept> 세션 구성의 보안 설명자에는 항목입니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Users of the local computer can use the session configuration to create a local "loopback" session on the same computer, but remote users are denied access.</source>
+          <target state="translated">로컬 컴퓨터의 사용자는 세션 구성을 사용하여 동일한 컴퓨터에 로컬 "루프백" 세션을 만들 수 있지만 원격 사용자는 액세스가 거부됩니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Remote<ept id="p1">**</ept>: Removes <bpt id="p2">**</bpt>Deny_All<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Network_Deny_All<ept id="p3">**</ept> entries from the security descriptors of the session configuration.</source>
+          <target state="translated"><bpt id="p1">**</bpt>원격<ept id="p1">**</ept>: 제거 <bpt id="p2">**</bpt>Deny_All<ept id="p2">**</ept> 및 <bpt id="p3">**</bpt>Network_Deny_All<ept id="p3">**</ept> 세션 구성의 보안 설명자의 항목입니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Users of local and remote computers can use the session configuration to create sessions and run commands on this computer.</source>
+          <target state="translated">로컬 및 원격 컴퓨터의 사용자가 세션 구성을 사용하여 이 컴퓨터에서 세션을 만들고 명령을 실행할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The value of this parameter can be overridden by the actions of other cmdlets.</source>
+          <target state="translated">이 매개 변수 값은 다른 cmdlet의 작업으로 재정의할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>For example, the Enable-PSRemoting cmdlet enables all session configurations on the computer and permits remote access to them, and the Disable-PSRemoting cmdlet permits only local access to all session configurations on the computer.</source>
+          <target state="translated">예를 들어 Enable-psremoting cmdlet는 컴퓨터에서 모든 세션 구성을 사용 하 고, 스토리에 대 한 원격 액세스를 허용 하 고 Disable-psremoting cmdlet는 컴퓨터에서 모든 세션 구성에 로컬 액세스만 허용 합니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">이 매개 변수는 Windows PowerShell 3.0에서 도입되었습니다.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>-ApplicationBase</source>
+          <target state="translated">-ApplicationBase</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Specifies the path to the assembly file (<bpt id="p1">*</bpt>.dll) that is specified in the value of the <ept id="p1">*</ept><bpt id="p2">*</bpt>AssemblyName<ept id="p2">*</ept>* parameter.</source>
+          <target state="translated">어셈블리 파일의 경로를 지정 합니다 (<bpt id="p1">*</bpt>.dll)의 값에 지정 된는 <ept id="p1">*</ept><bpt id="p2">*</bpt>AssemblyName<ept id="p2">*</ept>* 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>-AssemblyName</source>
+          <target state="translated">-AssemblyName</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Creates a session configuration based on a class that is defined in an assembly.</source>
+          <target state="translated">어셈블리에 정의된 클래스를 기반으로 하여 세션 구성을 만듭니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Enter the path (optional) and file name of an assembly (a .dll file) that defines a session configuration.</source>
+          <target state="translated">세션 구성을 정의하는 어셈블리(.dll 파일)의 경로(옵션) 및 파일 이름을 입력합니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>If you enter only the name, you can enter the path in the value of the <bpt id="p1">**</bpt>ApplicationBase<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">이름만 입력 하면 값에 경로 입력할 수는 <bpt id="p1">**</bpt>ApplicationBase<ept id="p1">**</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>-ConfigurationTypeName</source>
+          <target state="translated">-ConfigurationTypeName</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Specifies the type of the session configuration that is defined in the assembly in the <bpt id="p1">**</bpt>AssemblyName<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">에 있는 어셈블리에 정의 된 세션 구성의 유형을 지정는 <bpt id="p1">**</bpt>AssemblyName<ept id="p1">**</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The type that you specify must implement the System.Management.Automation.Remoting.PSSessionConfiguration class.</source>
+          <target state="translated">지정한 유형은 System.Management.Automation.Remoting.PSSessionConfiguration 클래스를 구현해야 합니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This parameter is required when you specify an assembly name.</source>
+          <target state="translated">이 매개 변수는 어셈블리 이름을 지정할 때 필요합니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">이 cmdlet을 실행 하기 전에 확인 하면 메시지를 표시 합니다. 이 cmdlet을 실행 하기 전에 확인 하면 메시지를 표시 합니다.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Suppresses all user prompts, and restarts the WinRM service without prompting.</source>
+          <target state="translated">모든 사용자 프롬프트를 표시하지 않으며, 사용자에게 메시지를 표시하지 않고 WinRM 서비스를 다시 시작합니다.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Restarting the service makes the configuration change effective.</source>
+          <target state="translated">서비스를 다시 시작하면 구성 변경 내용이 적용됩니다.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>To prevent a restart and suppress the restart prompt, use the NoServiceRestart parameter.</source>
+          <target state="translated">다시 시작하지 않고 다시 시작 프롬프트를 표시하지 않으려면 NoServiceRestart 매개 변수를 사용합니다.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-MaximumReceivedDataSizePerCommandMB</source>
+          <target state="translated">-MaximumReceivedDataSizePerCommandMB</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Changes the limit on the amount of data that can be sent to this computer in any single remote command.</source>
+          <target state="translated">하나의 원격 명령으로 이 컴퓨터에 보낼 수 있는 데이터 양에 대한 제한을 변경합니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Enter the data size in megabytes (MB).</source>
+          <target state="translated">데이터 크기를 MB 단위로 입력하세요.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The default is 50 MB.</source>
+          <target state="translated">기본값은 50MB입니다.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>If a data size limit is defined in the configuration type that is specified in the ConfigurationTypeName parameter, the limit in the configuration type is used and the value of this parameter is ignored.</source>
+          <target state="translated">ConfigurationTypeName 매개 변수에 지정된 구성 유형에 데이터 크기 제한이 정의되어 있으면 구성 유형의 제한이 사용되고 이 매개 변수 값은 무시됩니다.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>-MaximumReceivedObjectSizeMB</source>
+          <target state="translated">-MaximumReceivedObjectSizeMB</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Changes the limits on the amount of data that can be sent to this computer in any single object.</source>
+          <target state="translated">하나의 개체로 이 컴퓨터에 보낼 수 있는 데이터 양에 대한 제한을 변경합니다.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Enter the data size in megabytes (MB).</source>
+          <target state="translated">데이터 크기를 MB 단위로 입력하세요.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The default is 10 MB.</source>
+          <target state="translated">기본값은 10MB입니다.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>If an object size limit is defined in the configuration type that is specified in the ConfigurationTypeName parameter, the limit in the configuration type is used and the value of this parameter is ignored.</source>
+          <target state="translated">ConfigurationTypeName 매개 변수에 지정된 구성 유형에 개체 크기 제한이 정의되어 있을 경우 구성 유형의 제한이 사용되고 이 매개 변수 값은 무시됩니다.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>-ModulesToImport</source>
+          <target state="translated">-ModulesToImport</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Specifies the modules and snap-ins that are automatically imported into sessions that use the session configuration.</source>
+          <target state="translated">세션 구성을 사용하는 세션에 자동으로 가져오는 모듈 및 스냅인을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Enter the module and snap-in names.</source>
+          <target state="translated">모듈 및 스냅인 이름을 입력합니다.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>By default, only the <bpt id="p1">**</bpt>Microsoft.PowerShell.Core<ept id="p1">**</ept> snap-in is imported into sessions, but unless the cmdlets are excluded, users can use the Import-Module and Add-PSSnapin cmdlets to add modules and snap-ins to the session.</source>
+          <target state="translated">기본적으로만 <bpt id="p1">**</bpt>Microsoft.PowerShell.Core<ept id="p1">**</ept> 스냅인 세션으로 가져오지만 cmdlet이 제외 사용자 세션에 모듈 및 스냅인을 추가 하려면 Import-module 및 Add-pssnapin cmdlet를 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The modules specified in this parameter value are imported in additions to modules specified in the session configuration file (New-PSSessionConfigurationFile).</source>
+          <target state="translated">이 매개 변수 값에 지정 된 모듈은 세션 구성 파일 (New-pssessionconfigurationfile)에 지정 된 모듈에 대 한 추가 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>However, settings in the session configuration file can hide the commands exported by modules or prevent users from using them.</source>
+          <target state="translated">그러나 세션 구성 파일의 설정은 모듈에서 내보낸 명령을 숨기거나 사용자가 명령을 사용하지 못하도록 할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The modules specified in this parameter value replace the list of modules specified by using the <bpt id="p1">**</bpt>ModulesToImport<ept id="p1">**</ept> parameter of the Register-PSSessionConfiguration cmdlet.</source>
+          <target state="translated">이 매개 변수 값에 지정 된 모듈 교체를 사용 하 여 지정 된 모듈 목록에서 <bpt id="p1">**</bpt>ModulesToImport<ept id="p1">**</ept> Register-pssessionconfiguration cmdlet의 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">이 매개 변수는 Windows PowerShell 3.0에서 도입되었습니다.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the session configuration that you want to change.</source>
+          <target state="translated">변경할 세션 구성의 이름을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>You cannot use this parameter to change the name of the session configuration.</source>
+          <target state="translated">이 매개 변수를 사용하여 세션 구성의 이름을 변경할 수는 없습니다.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>-NoServiceRestart</source>
+          <target state="translated">-NoServiceRestart</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Does not restart the WinRM service, and suppresses the prompt to restart the service.</source>
+          <target state="translated">WinRM 서비스를 다시 시작하지 않고 서비스를 다시 시작하라는 메시지를 표시하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>By default, when you enter a Set-PSSessionConfiguration command, you are prompted to restart the WinRM service to make the new session configuration effective.</source>
+          <target state="translated">Set-PSSessionConfiguration 명령을 입력하면 기본적으로 WinRM 서비스를 다시 시작하여 새 세션 구성을 적용하라는 메시지가 표시됩니다.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Until the WinRM service is restarted, the new session configuration is not effective.</source>
+          <target state="translated">WinRM 서비스를 다시 시작해야 새 세션 구성이 적용됩니다.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>To restart the WinRM service without prompting, use the Force parameter.</source>
+          <target state="translated">메시지를 표시하지 않고 WinRM 서비스를 다시 시작하려면 Force 매개 변수를 사용합니다.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>To restart the WinRM service manually, use the Restart-Service cmdlet.</source>
+          <target state="translated">WinRM 서비스를 수동으로 다시 시작하려면 Restart-Service cmdlet을 사용합니다.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>-PSVersion</source>
+          <target state="translated">-PSVersion</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Specifies the version of Windows PowerShell in sessions that use this session configuration.</source>
+          <target state="translated">이 세션 구성을 사용하는 세션의 Windows PowerShell 버전을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The value of this parameter takes precedence over the value of the <bpt id="p1">**</bpt>PowerShellVersion<ept id="p1">**</ept> key in the session configuration file.</source>
+          <target state="translated">이 매개 변수 값의 값 보다 우선는 <bpt id="p1">**</bpt>PowerShellVersion<ept id="p1">**</ept> 세션 구성 파일의 키입니다.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">이 매개 변수는 Windows PowerShell 3.0에서 도입되었습니다.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>-Path</source>
+          <target state="translated">-Path</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Adds or replaces a session configuration file (.pssc), such as one created by the New-PSSessionConfigurationFile cmdlet.</source>
+          <target state="translated">추가 하거나 New-pssessionconfigurationfile cmdlet에서 만든 것과 같은 세션 구성 파일 (.pssc)을 바꿉니다.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>If you omit the path, the default is the current directory.</source>
+          <target state="translated">경로를 생략할 경우 기본값은 현재 디렉터리입니다.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>For information about editing a session configuration file, see the help topic for the <bpt id="p1">**</bpt>New-PSSessionConfigurationFile<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">세션 구성 파일을 편집 하는 방법에 대 한 정보를 도움말 항목에 대 한 참조는 <bpt id="p1">**</bpt>New-pssessionconfigurationfile<ept id="p1">**</ept> cmdlet입니다.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">이 매개 변수는 Windows PowerShell 3.0에서 도입되었습니다.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>-RunAsCredential</source>
+          <target state="translated">-RunAsCredential</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Runs commands in the session with the permissions of the specified user.</source>
+          <target state="translated">지정한 사용자의 사용 권한으로 세션에서 명령을 실행합니다.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>By default, commands run with the permissions of the current user.</source>
+          <target state="translated">기본적으로 명령은 현재 사용자의 사용 권한으로 실행됩니다.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">이 매개 변수는 Windows PowerShell 3.0에서 도입되었습니다.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>-SecurityDescriptorSddl</source>
+          <target state="translated">-SecurityDescriptorSddl</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Specifies a different Security Descriptor Definition Language (SDDL) string for the configuration.</source>
+          <target state="translated">구성에 대해 다른 SDDL(Security Descriptor Definition Language) 문자열을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>This string determines the permissions that are required to use the new session configuration.</source>
+          <target state="translated">이 문자열은 새 세션 구성을 사용하는 데 필요한 권한을 결정합니다.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>To use a session configuration in a session, users must have at least "Execute(Invoke)" permission for the configuration.</source>
+          <target state="translated">세션에서 세션 구성을 사용하려면 최소한 구성에 대한 "실행(호출)" 권한이 사용자에게 있어야 합니다.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>To use the default security descriptor for the configuration, enter an empty string ("") or a value of $null.</source>
+          <target state="translated">구성에 대한 기본 보안 설명자를 사용하려면 빈 문자열("") 또는 $null 값을 입력합니다.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The default is the root SDDL in the WSMan: drive.</source>
+          <target state="translated">기본값은 WSMan: 드라이브의 루트 SDDL입니다.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>If the security descriptor is complex, consider using the ShowSecurityDescriptorUI parameter instead of this one.</source>
+          <target state="translated">보안 설명자가 복잡한 경우 이 매개 변수 대신 ShowSecurityDescriptorUI 매개 변수를 사용하는 것이 좋습니다.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>You cannot use both parameters in the same command.</source>
+          <target state="translated">동일한 명령에 두 매개 변수를 함께 사용할 수는 없습니다.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>-SessionTypeOption</source>
+          <target state="translated">-SessionTypeOption</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Sets type-specific options for the session configuration.</source>
+          <target state="translated">세션 구성에 대한 유형별 옵션을 설정합니다.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Enter a session type options object, such as the <bpt id="p1">**</bpt>PSWorkflowExecutionOption<ept id="p1">**</ept> object that the New-PSWorkflowExecutionOption cmdlet returns.</source>
+          <target state="translated">세션 유형 옵션 개체를 같은 입력의 <bpt id="p1">**</bpt>PSWorkflowExecutionOption<ept id="p1">**</ept> New-psworkflowexecutionoption cmdlet에서 반환 하는 개체입니다.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The options of sessions that use the session configuration are determined by the values of session options and the session configuration options.</source>
+          <target state="translated">세션 구성을 사용하는 세션의 옵션은 세션 옵션 값과 세션 구성 옵션에 따라 결정됩니다.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Unless specified, options set in the session, such as by using the New-PSSessionOption cmdlet, take precedence over options set in the session configuration.</source>
+          <target state="translated">지정 되지 않으면 New-pssessionoption cmdlet을 사용 하 여 같은 세션에서 설정한 옵션은 세션 구성에서 설정 된 옵션 보다 우선 합니다.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>However, session option values cannot exceed maximum values set in the session configuration.</source>
+          <target state="translated">그러나 세션 옵션 값은 세션 구성에서 설정된 최대값을 초과할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">이 매개 변수는 Windows PowerShell 3.0에서 도입되었습니다.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>-ShowSecurityDescriptorUI</source>
+          <target state="translated">-ShowSecurityDescriptorUI</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Displays a property sheet that helps you to create a new SDDL for the session configuration.</source>
+          <target state="translated">세션 구성에 대한 새 SDDL을 만드는 데 도움이 되는 속성 시트를 표시합니다.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The property sheet appears after you enter the Set-PSSessionConfiguration command and then restart the WinRM service.</source>
+          <target state="translated">Set-PSSessionConfiguration 명령을 입력한 후 WinRM 서비스를 다시 시작하면 속성 시트가 나타납니다.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>When setting the permissions to the configuration, remember that users must have at least "Execute(Invoke)" permission to use the session configuration in a session.</source>
+          <target state="translated">구성에 대한 사용 권한을 설정하는 경우 세션에서 세션 구성을 사용하려면 최소한 "실행(호출)" 권한이 사용자에게 있어야 함을 명심하세요.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>You cannot use the SecurityDescriptorSDDL parameter and this parameter in the same command.</source>
+          <target state="translated">동일한 명령에 SecurityDescriptorSDDL 매개 변수와 이 매개 변수를 함께 사용할 수는 없습니다.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>-StartupScript</source>
+          <target state="translated">-StartupScript</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Adds or changes the startup script for the configuration.</source>
+          <target state="translated">구성에 대한 시작 스크립트를 추가하거나 변경합니다.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Enter the fully qualified path to a Windows PowerShell script.</source>
+          <target state="translated">Windows PowerShell 스크립트에 대한 정규화된 경로를 입력합니다.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The specified script runs in the new session that uses the session configuration.</source>
+          <target state="translated">지정한 스크립트는 세션 구성을 사용하는 새 세션에서 실행됩니다.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>To delete a startup script from a session configuration, enter an empty string ("") or a value of $null.</source>
+          <target state="translated">세션 구성에서 시작 스크립트를 삭제하려면 빈 문자열("") 또는 $null 값을 입력합니다.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>You can use a startup script to further configure the user's session.</source>
+          <target state="translated">시작 스크립트를 사용하여 사용자 세션을 추가로 구성할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>If the script generates an error (even a non-terminating error), the session is not created and the user's New-PSSession command fails.</source>
+          <target state="translated">스크립트에서 오류(종료되지 않는 오류 포함)가 생성되는 경우 세션이 만들어지지 않으며 사용자의 New-PSSession 명령이 실패합니다.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>-ThreadApartmentState</source>
+          <target state="translated">-ThreadApartmentState</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Changes the apartment state setting for the threads in the session.</source>
+          <target state="translated">세션의 스레드에 대한 아파트 상태 설정을 변경합니다.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Valid values are STA, MTA and Unknown.</source>
+          <target state="translated">유효한 값은 STA, MTA 및 Unknown입니다.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Unknown is the default.</source>
+          <target state="translated">Unknown이 기본값입니다.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>-ThreadOptions</source>
+          <target state="translated">-ThreadOptions</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Changes the thread options setting in the configuration.</source>
+          <target state="translated">구성의 스레드 옵션 설정을 변경합니다.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>This setting defines how threads are created and used when a command is executed in the session.</source>
+          <target state="translated">이 설정은 세션에서 명령을 실행할 때 스레드가 만들어져 사용되는 방법을 정의합니다.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Valid values are <bpt id="p1">**</bpt>Default<ept id="p1">**</ept>, <bpt id="p2">**</bpt>ReuseThread<ept id="p2">**</ept>, <bpt id="p3">**</bpt>UseCurrentThread<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>UseNewThread<ept id="p4">**</ept>.</source>
+          <target state="translated">유효한 값은 <bpt id="p1">**</bpt>기본<ept id="p1">**</ept>, <bpt id="p2">**</bpt>ReuseThread<ept id="p2">**</ept>, <bpt id="p3">**</bpt>UseCurrentThread<ept id="p3">**</ept>, 및 <bpt id="p4">**</bpt>UseNewThread<ept id="p4">**</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>UseCurrentThread<ept id="p1">**</ept> is the default.</source>
+          <target state="translated"><bpt id="p1">**</bpt>UseCurrentThread<ept id="p1">**</ept> 이 기본값입니다.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>For more information, see "PSThreadOptions Enumeration" in MSDN.</source>
+          <target state="translated">자세한 내용은 MSDN의 "PSThreadOptions 열거형"을 참조하세요.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>-TransportOption</source>
+          <target state="translated">-TransportOption</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Sets transport options for the session configuration.</source>
+          <target state="translated">세션 구성에 대한 전송 옵션을 설정합니다.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Enter a transport options object, such as the <bpt id="p1">**</bpt>WSManConfigurationOption<ept id="p1">**</ept> object that the New-PSTransportOption cmdlet returns.</source>
+          <target state="translated">전송 옵션 개체를 같은 입력의 <bpt id="p1">**</bpt>WSManConfigurationOption<ept id="p1">**</ept> New-pstransportoption cmdlet에서 반환 하는 개체입니다.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The options of sessions that use the session configuration are determined by the values of session options and the session configuration options.</source>
+          <target state="translated">세션 구성을 사용하는 세션의 옵션은 세션 옵션 값과 세션 구성 옵션에 따라 결정됩니다.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Unless specified, options set in the session, such as by using the New-PSSessionOption cmdlet, take precedence over options set in the session configuration.</source>
+          <target state="translated">지정 되지 않으면 New-pssessionoption cmdlet을 사용 하 여 같은 세션에서 설정한 옵션은 세션 구성에서 설정 된 옵션 보다 우선 합니다.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>However, session option values cannot exceed maximum values set in the session configuration.</source>
+          <target state="translated">그러나 세션 옵션 값은 세션 구성에서 설정된 최대값을 초과할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">이 매개 변수는 Windows PowerShell 3.0에서 도입되었습니다.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>-UseSharedProcess</source>
+          <target state="translated">-UseSharedProcess</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Use only one process to host all sessions that are started by the same user  and use the same session configuration.</source>
+          <target state="translated">하나의 프로세스만 사용하여 동일한 사용자에 의해 시작되고 동일한 세션 구성을 사용하는 모든 세션을 호스트합니다.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>By default, each session is hosted in its own process.</source>
+          <target state="translated">기본적으로 각 세션은 해당 프로세스에 호스트됩니다.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">이 매개 변수는 Windows PowerShell 3.0에서 도입되었습니다.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">cmdlet이 실행될 경우 결과 동작을 표시합니다.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Cmdlet은 실행 되지 않습니다. Cmdlet이 실행 되 면 어떻게 되는지를 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">cmdlet이 실행되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">이 cmdlet은 공통 매개 변수:-디버그,-ErrorAction,-ErrorVariable,-InformationAction,-InformationVariable,-OutVariable,-OutBuffer,-PipelineVariable,-Verbose,-WarningAction 및-warningvariable을 지원 합니다.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">자세한 내용은 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)를 참조 합니다.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">입력</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">없음</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>You cannot pipe input to this cmdlet.</source>
+          <target state="translated">이 cmdlet에 입력을 파이프할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">출력</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Microsoft.WSMan.Management.WSManConfigLeafElement</source>
+          <target state="translated">Microsoft.WSMan.Management.WSManConfigLeafElement</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">참고 사항</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>To run this cmdlet, start Windows PowerShell with the "Run as administrator" option.</source>
+          <target state="translated">이 cmdlet을 실행하려면 "관리자 권한으로 실행" 옵션으로 Windows PowerShell을 시작하세요.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Set-PSSessionConfiguration<ept id="p1">**</ept> cmdlet does not change the configuration name and the WSMan provider does not support the Rename-Item cmdlet.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Set-pssessionconfiguration<ept id="p1">**</ept> cmdlet은 구성 이름을 변경 하지 않으며 WSMan 공급자 Rename-item cmdlet을 지원 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>To change the name of a session configuration, use the Unregister-PSSessionConfiguration cmdlet to delete the configuration and then use the Register-PSSessionConfiguration cmdlet to create and register a new session configuration.</source>
+          <target state="translated">세션 구성의 이름을 변경 하려면 구성을 삭제 하 고 다음 Register-pssessionconfiguration cmdlet를 사용 하 여 새 세션 구성을 만들고 등록 하려면 Unregister-pssessionconfiguration cmdlet을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">**</bpt>Set-PSSessionConfiguration<ept id="p1">**</ept> cmdlet to change the default Microsoft.PowerShell and Microsoft.PowerShell32 session configurations.</source>
+          <target state="translated">사용할 수는 <bpt id="p1">**</bpt>Set-pssessionconfiguration<ept id="p1">**</ept> 기본 Microsoft.PowerShell 및 Microsoft.PowerShell32 세션 구성을 변경 하는 cmdlet입니다.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>They are not protected.</source>
+          <target state="translated">이 구성은 보호되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>To revert to the original version of a default session configuration, use the Unregister-PSSessionConfiguration cmdlet to delete the default session configuration and then use the Enable-PSRemoting cmdlet to restore it.</source>
+          <target state="translated">기본 세션 구성의 원래 버전으로 되돌리려면 기본 세션 구성을 삭제 하 고 다음 Enable-psremoting cmdlet을 사용 하 여 복원 하려면 Unregister-pssessionconfiguration cmdlet을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>The properties of a session configuration object vary with the options set for the session configuration and the values of those options.</source>
+          <target state="translated">세션 구성 개체의 속성은 세션 구성에 대해 설정된 옵션과 해당 옵션 값에 따라 달라집니다.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Also, session configurations that use a session configuration file have additional properties.</source>
+          <target state="translated">또한 세션 구성 파일을 사용하는 세션 구성에는 추가 속성이 있습니다.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>You can use commands in the WSMan: drive to change the properties of session configurations.</source>
+          <target state="translated">WSMan: 드라이브에서 명령을 사용하여 세션 구성의 속성을 변경할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>However, you cannot use the WSMan: drive in Windows PowerShell 2.0 to change session configuration properties that are introduced in Windows PowerShell 3.0, such as <bpt id="p1">**</bpt>OutputBufferingMode<ept id="p1">**</ept>.</source>
+          <target state="translated">그러나 WSMan을 사용할 수 없습니다:와 같은 Windows PowerShell 3.0에서 도입 된 세션 구성 속성을 변경 하려면 Windows PowerShell 2.0에서 드라이브 <bpt id="p1">**</bpt>OutputBufferingMode<ept id="p1">**</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell 2.0 commands do not generate an error, but they are ineffective.</source>
+          <target state="translated">Windows PowerShell 2.0 명령은 오류를 생성하지 않지만 이런 시도가 아무런 영향을 주지 않습니다.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>To change  properties introduced in Windows PowerShell 3.0, use the WSMan: drive in Windows PowerShell 3.0.</source>
+          <target state="translated">Windows PowerShell 3.0에서 도입된 속성을 변경하려면 Windows PowerShell 3.0의 WSMan: 드라이브를 사용합니다.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">관련된 링크</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Disable-PSSessionConfiguration</source>
+          <target state="translated">Disable-pssessionconfiguration</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Enable-PSSessionConfiguration</source>
+          <target state="translated">Enable-pssessionconfiguration</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Get-PSSessionConfiguration</source>
+          <target state="translated">Get-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>New-PSSessionConfigurationFile</source>
+          <target state="translated">New-PSSessionConfigurationFile</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>New-PSSessionOption</source>
+          <target state="translated">New-PSSessionOption</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>New-PSTransportOption</source>
+          <target state="translated">New-PSTransportOption</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>New-PSWorkflowExecutionOption</source>
+          <target state="translated">New-PSWorkflowExecutionOption</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Register-PSSessionConfiguration</source>
+          <target state="translated">Register-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Set-PSSessionConfiguration</source>
+          <target state="translated">Set-pssessionconfiguration</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Test-PSSessionConfigurationFile</source>
+          <target state="translated">Test-PSSessionConfigurationFile</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Unregister-PSSessionConfiguration</source>
+          <target state="translated">Unregister-pssessionconfiguration</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>WSMan Provider</source>
+          <target state="translated">WSMan 공급자</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>about_Session_Configurations</source>
+          <target state="translated">about_Session_Configurations</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>about_Session_Configuration_Files</source>
+          <target state="translated">about_Session_Configuration_Files</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

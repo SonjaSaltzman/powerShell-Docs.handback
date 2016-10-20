@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="fr-fr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">542a5b9bfd6b4574eeee1eb3276f6f5f7e80019b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Core\Providers\FileSystem-Provider.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ded73b48f24256343dc76d294b54d43c6281156c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e4d1d18b445258f32673598af3b6c87acf5ede09</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>FileSystem Provider</source>
+          <target state="translated">Fournisseur FileSystem</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>FileSystem Provider</source>
+          <target state="translated">Fournisseur FileSystem</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>PROVIDER NAME</source>
+          <target state="translated">NOM DU FOURNISSEUR</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>FileSystem</source>
+          <target state="translated">FileSystem</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>DRIVES</source>
+          <target state="translated">LECTEURS</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>C, D</source>
+          <target state="translated">C, D</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">DESCRIPTION COURTE</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Provides access to files and directories.</source>
+          <target state="translated">Fournit l'accès aux fichiers et aux répertoires.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DETAILED DESCRIPTION</source>
+          <target state="translated">DESCRIPTION DÉTAILLÉE</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell FileSystem provider lets you get, add, change, clear, and delete files and directories in Windows PowerShell.</source>
+          <target state="translated">Le fournisseur FileSystem de Windows PowerShell vous permet d'obtenir, d'ajouter, de changer, d'effacer et de supprimer des fichiers et des répertoires dans Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The FileSystem provider exposes Windows PowerShell drives that correspond to the logical drives on your computer, including drives that are mapped to network shares.</source>
+          <target state="translated">Le fournisseur FileSystem expose les lecteurs Windows PowerShell qui correspondent aux lecteurs logiques sur votre ordinateur, y compris les lecteurs mappés à des partages réseau.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This lets you reference these drives from within Windows PowerShell.</source>
+          <target state="translated">Ceci vous permet de référencer ces lecteurs à partir de Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The FileSystem provider lets you refer to files and folders in Windows PowerShell in the same way that you refer to them in Windows.</source>
+          <target state="translated">Le fournisseur FileSystem vous permet de référencer des fichiers et des dossiers dans Windows PowerShell de la même façon que vous les référencez dans Windows.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To refer to a drive, specify the drive name followed by a colon.</source>
+          <target state="translated">Pour référencer un lecteur, spécifiez le nom de lecteur suivi d'un signe deux-points.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Like most of Windows PowerShell, the FileSystem provider is not case<ph id="ph1">\-</ph>sensitive.</source>
+          <target state="translated">Comme la plupart de Windows PowerShell, le fournisseur de système de fichiers n’est pas cas<ph id="ph1">\-</ph>sensibles.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For example, to get the files and folders on the C drive, you refer to the "C:" drive or the "c:" drive.</source>
+          <target state="translated">Par exemple, pour obtenir les fichiers et les dossiers sur le lecteur C, vous faites référence au lecteur « C: » ou « c: ».</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A fully qualified name includes the drive name, followed by a colon, any directory and subdirectory names, and the file name <ph id="ph1">\(</ph>when applicable<ph id="ph2">\)</ph>.</source>
+          <target state="translated">Un nom qualifié complet inclut le nom du lecteur, suivie du signe deux-points, tous les noms de répertoire et de sous-répertoire et le nom de fichier <ph id="ph1">\(</ph>le cas échéant<ph id="ph2">\)</ph>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Each element of the fully qualified name must be separated either by a backslash <ph id="ph1">\(\\\)</ph> or a forward slash <ph id="ph2">\(\/\)</ph>.</source>
+          <target state="translated">Chaque élément du nom complet doit être séparé par une barre oblique inverse <ph id="ph1">\(\\\)</ph> ou une barre oblique <ph id="ph2">\(\/\)</ph>.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The following example shows the fully qualified name for the Shell.dll file in the System32 subdirectory of the Windows directory on the C drive:</source>
+          <target state="translated">L'exemple suivant montre le nom complet pour le fichier Shell.dll dans le sous-répertoire System32 du répertoire Windows sur le lecteur C :</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>C:<ph id="ph1">\\</ph>Windows<ph id="ph2">\\</ph>System32<ph id="ph3">\\</ph>shell.dll</source>
+          <target state="translated">C:<ph id="ph1">\\</ph>Windows<ph id="ph2">\\</ph>System32<ph id="ph3">\\</ph>shell.dll</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If any element in the fully qualified name includes spaces, you must enclose the name in quotation marks.</source>
+          <target state="translated">Si un élément du nom complet comprend des espaces, vous devez placer le nom entre des guillemets.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For example,</source>
+          <target state="translated">Par exemple,</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>"C:<ph id="ph1">\\</ph>Program Files<ph id="ph2">\\</ph>Internet Explorer<ph id="ph3">\\</ph>iexplore.exe"</source>
+          <target state="translated">« C:<ph id="ph1">\\</ph>Program Files<ph id="ph2">\\</ph>Internet Explorer<ph id="ph3">\\</ph>iexplore.exe »</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The current location in the file system is represented by a dot or period character <ph id="ph1">\(</ph>.</source>
+          <target state="translated">L’emplacement actuel dans le système de fichiers est représenté par un point virgule <ph id="ph1">\(</ph>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For example, the current location is the C:<ph id="ph1">\\</ph>Windows<ph id="ph2">\\</ph>System32 directory, then you can refer to the Shell.dll file in that directory as the following:</source>
+          <target state="translated">Par exemple, l’emplacement actuel est le lecteur C:<ph id="ph1">\\</ph>Windows<ph id="ph2">\\</ph>répertoire System32, puis vous pouvez faire référence au fichier Shell.dll dans ce répertoire comme suit :</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>.<ph id="ph1">\\</ph>Shell.dll</source>
+          <target state="translated">.<ph id="ph1">\\</ph>Shell.dll</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To use the FileSystem provider to view and manage files and folders, use the provider cmdlets, such as <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>ChildItem<ept id="p1">](assetId:///75cf79bb-4db6-4a67-8c36-3d20754e2190)</ept> <ph id="ph2">\(</ph>"dir", "ls"<ph id="ph3">\)</ph> and <bpt id="p2">[</bpt>Set<ph id="ph4">\-</ph>Location<ept id="p2">](assetId:///d7f353cd-ebd7-462a-bd57-1498dc8b88a6)</ept> <ph id="ph5">\(</ph>"cd"<ph id="ph6">\)</ph>.</source>
+          <target state="translated">Pour utiliser le fournisseur de système de fichiers pour afficher et gérer des fichiers et dossiers, utilisez les applets de commande fournisseur, tel que <bpt id="p1">[</bpt>obtenir<ph id="ph1">\-</ph>ChildItem<ept id="p1">](assetId:///75cf79bb-4db6-4a67-8c36-3d20754e2190)</ept> <ph id="ph2">\(</ph>« dir », « ls »<ph id="ph3">\)</ph> et <bpt id="p2">[</bpt>défini<ph id="ph4">\-</ph>emplacement<ept id="p2">](assetId:///d7f353cd-ebd7-462a-bd57-1498dc8b88a6)</ept> <ph id="ph5">\(</ph>« cd »<ph id="ph6">\)</ph>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell also includes a "mkdir" function <ph id="ph1">\(</ph>alias <ph id="ph2">\=</ph> "md"<ph id="ph3">\)</ph> that uses the <bpt id="p1">[</bpt>New<ph id="ph4">\-</ph>Item<ept id="p1">](assetId:///67038d02-6598-49c6-b5bd-77b59d445abe)</ept> cmdlet to create a new directory.</source>
+          <target state="translated">Windows PowerShell inclut également une fonction « mkdir » <ph id="ph1">\(</ph>alias <ph id="ph2">\=</ph> « md »<ph id="ph3">\)</ph> qui utilise le <bpt id="p1">[</bpt>New<ph id="ph4">\-</ph>élément<ept id="p1">](assetId:///67038d02-6598-49c6-b5bd-77b59d445abe)</ept> pour créer un nouveau répertoire.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, you can get customized help topics for provider cmdlets that explain how those cmdlets behave in a file system drive.</source>
+          <target state="translated">Depuis Windows PowerShell 3.0, vous pouvez obtenir des rubriques d'aide personnalisées pour les applets de commande du fournisseur, qui expliquent comment ces applets de commande se comportent dans un lecteur du système de fichiers.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To get the help topics that are customized for the file system drive, run a <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Help<ept id="p1">](assetId:///1f46eeb4-49d7-4bec-bb29-395d9b42f54a)</ept> command in a file system drive or use the Path parameter of <bpt id="p2">[</bpt>Get<ph id="ph2">\-</ph>Help<ept id="p2">](assetId:///1f46eeb4-49d7-4bec-bb29-395d9b42f54a)</ept> to specify a file system drive.</source>
+          <target state="translated">Pour obtenir les rubriques d’aide personnalisées pour le lecteur de système de fichiers, exécutez un <bpt id="p1">[</bpt>obtenir<ph id="ph1">\-</ph>aide<ept id="p1">](assetId:///1f46eeb4-49d7-4bec-bb29-395d9b42f54a)</ept> dans un lecteur de système de fichiers de commandes ou utilisez le paramètre de chemin d’accès de <bpt id="p2">[</bpt>obtenir<ph id="ph2">\-</ph>aide<ept id="p2">](assetId:///1f46eeb4-49d7-4bec-bb29-395d9b42f54a)</ept> pour spécifier un lecteur de système de fichiers.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For example,</source>
+          <target state="translated">Par exemple,</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>PS C:<ph id="ph1">\\\&gt;</ph> <bpt id="p1">[</bpt>Get<ph id="ph2">\-</ph>Help<ept id="p1">](assetId:///1f46eeb4-49d7-4bec-bb29-395d9b42f54a)</ept> get<ph id="ph3">\-</ph>childitem</source>
+          <target state="translated"><ph id="ph1">\\\&gt;</ph> C:<bpt id="p1">[</bpt>obtenir<ph id="ph2">\-</ph>aide<ept id="p1">](assetId:///1f46eeb4-49d7-4bec-bb29-395d9b42f54a)</ept> obtenir<ph id="ph3">\-</ph>childitem</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>PS HKLM:<ph id="ph1">\\\&gt;</ph> <bpt id="p1">[</bpt>Get<ph id="ph2">\-</ph>Help<ept id="p1">](assetId:///1f46eeb4-49d7-4bec-bb29-395d9b42f54a)</ept><bpt id="p2">[</bpt>Get<ph id="ph3">\-</ph>ChildItem<ept id="p2">](assetId:///75cf79bb-4db6-4a67-8c36-3d20754e2190)</ept> <ph id="ph4">\-</ph>path c:</source>
+          <target state="translated">PS HKLM :<ph id="ph1">\\\&gt;</ph> <bpt id="p1">[</bpt>obtenir<ph id="ph2">\-</ph>aide<ept id="p1">](assetId:///1f46eeb4-49d7-4bec-bb29-395d9b42f54a)</ept><bpt id="p2">[</bpt>obtenir<ph id="ph3">\-</ph>ChildItem<ept id="p2">](assetId:///75cf79bb-4db6-4a67-8c36-3d20754e2190)</ept> <ph id="ph4">\-</ph>path c:</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Also, beginning in Windows PowerShell 3.0, the FileSystem provider supports credentials for the <bpt id="p1">[</bpt>New<ph id="ph1">\-</ph>PSDrive<ept id="p1">](assetId:///a90ffe5f-a576-4c4a-b392-822bcec17ffd)</ept> cmdlet.</source>
+          <target state="translated">En outre, à compter de Windows PowerShell 3.0, le fournisseur de système de fichiers prend en charge les informations d’identification pour le <bpt id="p1">[</bpt>New<ph id="ph1">\-</ph>PSDrive<ept id="p1">](assetId:///a90ffe5f-a576-4c4a-b392-822bcec17ffd)</ept> applet de commande.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For more information, see the help topic for the <bpt id="p1">[</bpt>New<ph id="ph1">\-</ph>PSDrive<ept id="p1">](assetId:///a90ffe5f-a576-4c4a-b392-822bcec17ffd)</ept> cmdlet.</source>
+          <target state="translated">Pour plus d’informations, consultez la rubrique d’aide pour le <bpt id="p1">[</bpt>New<ph id="ph1">\-</ph>PSDrive<ept id="p1">](assetId:///a90ffe5f-a576-4c4a-b392-822bcec17ffd)</ept> applet de commande.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>CAPABILITIES</source>
+          <target state="translated">CAPACITÉS</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Filter, ShouldProcess</source>
+          <target state="translated">Filter, ShouldProcess</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">EXEMPLES</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Splitting a Large File</source>
+          <target state="translated">Fractionnement d'un fichier volumineux</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">EXEMPLE 1</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>By default, the Get<ph id="ph1">\-</ph>Content cmdlet uses the end<ph id="ph2">\-</ph>of<ph id="ph3">\-</ph>line character as its delimiter, so it gets a file as a collection of strings, with each line as one string in the file.</source>
+          <target state="translated">Par défaut, la méthode Get<ph id="ph1">\-</ph>contenu applet de commande utilise la fin<ph id="ph2">\-</ph>de<ph id="ph3">\-</ph>caractère de ligne comme délimiteur, donc il obtient un fichier sous la forme d’une collection de chaînes, chaque ligne en tant que chaîne dans le fichier.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You can use the Delimiter parameter to specify an alternate delimiter.</source>
+          <target state="translated">Vous pouvez utiliser le paramètre Delimiter pour spécifier un autre délimiteur.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If you set it to the characters that denote the end of a section or the beginning of the next section, you can split the file into logical parts.</source>
+          <target state="translated">Si vous choisissez pour ce paramètre les caractères qui indiquent la fin d'une section ou le début de la section suivante, vous pouvez fractionner le fichier en parties logiques.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The first command gets the Employees.txt file and splits it into sections, each of which ends with the words "End of Employee Record" and it saves it in the $e variable.</source>
+          <target state="translated">La première commande obtient le fichier Employees.txt et le divise en sections, chacune d'elles se terminant par les mots « End of Employee Record », et l'enregistre dans la variable $e.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The second command uses array notation to get the first item in the collection in $e.</source>
+          <target state="translated">La deuxième commande utilise la notation de tableau pour obtenir le premier élément de la collection dans $e.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>It uses an index of 0, because Windows PowerShell arrays are zero<ph id="ph1">\-</ph>based.</source>
+          <target state="translated">Il utilise un index de 0, car les tableaux de Windows PowerShell sont zéro<ph id="ph1">\-</ph>en fonction.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>For more information about arrays, see about<ph id="ph1">\_</ph>Arrays.</source>
+          <target state="translated">Pour plus d’informations sur les tableaux, consultez<ph id="ph1">\_</ph>tableaux.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Navigating the File System</source>
+          <target state="translated">Navigation dans le système de fichiers</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">EXEMPLE 1</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This command gets the current location:</source>
+          <target state="translated">Cette commande obtient l'emplacement actif :</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The Get<ph id="ph1">\-</ph>Location cmdlet includes the functionality of commands like the cd command in the Windows Command Prompt and the pwd command in UNIX.</source>
+          <target state="translated">La méthode Get<ph id="ph1">\-</ph>applet de commande Location inclut les fonctionnalités des commandes telles que la commande cd dans l’invite de commandes Windows et la commande pwd dans UNIX.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>For more information, type:</source>
+          <target state="translated">Pour plus d’informations, tapez la commande suivante :</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>get<ph id="ph1">\-</ph>help get<ph id="ph2">\-</ph>location</source>
+          <target state="translated">obtenir<ph id="ph1">\-</ph>help get<ph id="ph2">\-</ph>emplacement</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">EXEMPLE 2</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This command sets the current location:</source>
+          <target state="translated">Cette commande définit l'emplacement actif :</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Getting File and Directory Information</source>
+          <target state="translated">Obtention d'informations sur les fichiers et les répertoires</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">EXEMPLE 1</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>This command gets all the files and directories in the current directory:</source>
+          <target state="translated">Cette commande obtient tous les fichiers et répertoires du répertoire actif :</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>By default, the Get<ph id="ph1">\-</ph>ChildItem cmdlet does not recurse.</source>
+          <target state="translated">Par défaut, la méthode Get<ph id="ph1">\-</ph>ChildItem applet de commande n’est pas récursive.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If files and folders are present in the current directory when you run this command, a System.IO.FileInfo object and a System.IO.DirectoryInfo object are returned.</source>
+          <target state="translated">Si des fichiers et des dossiers sont présents dans le répertoire actif quand vous exécutez cette commande, un objet System.IO.FileInfo et un objet System.IO.DirectoryInfo sont retournés.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">EXEMPLE 2</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This command gets all the files in the current directory:</source>
+          <target state="translated">Cette commande obtient tous les fichiers du répertoire actif :</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The command uses the Get<ph id="ph1">\-</ph>ChildItem cmdlet to get all files and directories.</source>
+          <target state="translated">La commande utilise la méthode Get<ph id="ph1">\-</ph>applet de commande ChildItem pour obtenir tous les fichiers et répertoires.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>It pipes the results to the Where<ph id="ph1">\-</ph>Object cmdlet, which selects only the objects that are not <ph id="ph2">\(\!\)</ph> containers.</source>
+          <target state="translated">Elle redirige les résultats à Where<ph id="ph1">\-</ph>cmdlet Object, qui sélectionne uniquement les objets qui ne sont pas <ph id="ph2">\(\!\)</ph> conteneurs.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 3</source>
+          <target state="translated">EXEMPLE 3</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The command uses the Get<ph id="ph1">\-</ph>ChildItem cmdlet to get all files and directories.</source>
+          <target state="translated">La commande utilise la méthode Get<ph id="ph1">\-</ph>applet de commande ChildItem pour obtenir tous les fichiers et répertoires.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>It pipes the results to Where<ph id="ph1">\-</ph>Object, which select only the objects that are containers.</source>
+          <target state="translated">Elle dirige les résultats vers l’emplacement où<ph id="ph1">\-</ph>objet, que vous sélectionnez uniquement les objets qui sont des conteneurs.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 4</source>
+          <target state="translated">EXEMPLE 4</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>This command displays the properties of a directory:</source>
+          <target state="translated">Cette commande affiche les propriétés d'un répertoire :</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The command uses the Path parameter of the Get<ph id="ph1">\-</ph>Item cmdlet to get the C:<ph id="ph2">\\</ph>ps<ph id="ph3">\-</ph>test directory.</source>
+          <target state="translated">La commande utilise le paramètre de chemin d’accès de la méthode Get<ph id="ph1">\-</ph>applet de commande Item pour obtenir le lecteur C:<ph id="ph2">\\</ph>ps<ph id="ph3">\-</ph>répertoire de test.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>It pipes the directory object to the Format<ph id="ph1">\-</ph>List cmdlet, which displays all <ph id="ph2">\(\*\)</ph> the properties and values of the directory in a list.</source>
+          <target state="translated">Elle dirige l’objet d’annuaire au Format<ph id="ph1">\-</ph>cmdlet List, qui affiche toutes les <ph id="ph2">\(\*\)</ph> les propriétés et les valeurs du répertoire dans une liste.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 5</source>
+          <target state="translated">EXEMPLE 5</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>This command displays the properties of a file:</source>
+          <target state="translated">Cette commande affiche les propriétés d'un fichier :</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The command uses the Path parameter of the Get<ph id="ph1">\-</ph>Item cmdlet to get the test.txt file.</source>
+          <target state="translated">La commande utilise le paramètre de chemin d’accès de la méthode Get<ph id="ph1">\-</ph>applet de commande Item pour obtenir le fichier test.txt.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>It pipes the file object to the Format<ph id="ph1">\-</ph>List cmdlet, which displays all <ph id="ph2">\(\*\)</ph> the properties and values of the file in a list.</source>
+          <target state="translated">L’objet de fichier au Format<ph id="ph1">\-</ph>cmdlet List, qui affiche toutes les <ph id="ph2">\(\*\)</ph> les propriétés et les valeurs du fichier dans une liste.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Copying Files and Directories</source>
+          <target state="translated">Copie de fichiers et de répertoires</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">EXEMPLE 1</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>This command copies the A.txt file from the C:<ph id="ph1">\\</ph>A directory to the C:<ph id="ph2">\\</ph>A<ph id="ph3">\\</ph>Bb directory:</source>
+          <target state="translated">Cette commande copie le fichier A.txt du lecteur C:<ph id="ph1">\\</ph>un répertoire sur le lecteur C:<ph id="ph2">\\</ph>A<ph id="ph3">\\</ph>active de Bb :</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>It overwrites files in the destination directory without prompting for confirmation.</source>
+          <target state="translated">Elle remplace les fichiers du répertoire de destination sans demander confirmation.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">EXEMPLE 2</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>This command copies all the files in the C:<ph id="ph1">\\</ph>A<ph id="ph2">\\</ph>Bb directory that have the .txt file name extension to the C:<ph id="ph3">\\</ph>A<ph id="ph4">\\</ph>Cc<ph id="ph5">\\</ph>Ccc<ph id="ph6">\\</ph> directory:</source>
+          <target state="translated">Cette commande copie tous les fichiers dans le répertoire C:<ph id="ph1">\\</ph>A<ph id="ph2">\\</ph>directory Bb qui ont l’extension de nom de fichier .txt sur le lecteur C:<ph id="ph3">\\</ph>A<ph id="ph4">\\</ph>Cc<ph id="ph5">\\</ph>Ccc<ph id="ph6">\\</ph> Active :</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>It uses the original names of the files.</source>
+          <target state="translated">Elle utilise les noms d'origine des fichiers.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The command overwrites the existing files in the destination directory without prompting for confirmation.</source>
+          <target state="translated">La commande remplace les fichiers existants dans le répertoire de destination sans demander confirmation.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 3</source>
+          <target state="translated">EXEMPLE 3</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Copies all the directories and files in the C:<ph id="ph1">\\</ph>a directory to the C:<ph id="ph2">\\</ph>c directory.</source>
+          <target state="translated">Copie tous les répertoires et fichiers dans le répertoire C:<ph id="ph1">\\</ph>un répertoire sur le lecteur C:<ph id="ph2">\\</ph>répertoire c.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>If any of the directories to copy already exist in the destination directory, the command will fail unless you specify the Force parameter.</source>
+          <target state="translated">Si un ou plusieurs des répertoires à copier existent déjà dans le répertoire de destination, la commande échoue, sauf si vous spécifiez le paramètre Force.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Moving Files and Directories</source>
+          <target state="translated">Déplacement de fichiers et de répertoires</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">EXEMPLE 1</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>This command moves the C.txt file in the C:<ph id="ph1">\\</ph>A directory to the C:<ph id="ph2">\\</ph>A<ph id="ph3">\\</ph>Aa directory:</source>
+          <target state="translated">Cette commande déplace le fichier C.txt dans le répertoire C:<ph id="ph1">\\</ph>un répertoire sur le lecteur C:<ph id="ph2">\\</ph>A<ph id="ph3">\\</ph>active de Aa :</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The command will not automatically overwrite an existing file that has the same name.</source>
+          <target state="translated">La commande ne remplacera pas automatiquement un fichier existant qui porte le même nom.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>To force the cmdlet to overwrite an existing file, specify the Force parameter.</source>
+          <target state="translated">Pour forcer l'applet de commande à remplacer un fichier existant, spécifiez le paramètre Force.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">EXEMPLE 2</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>This command moves the C:<ph id="ph1">\\</ph>A directory and all its contents to the C:<ph id="ph2">\\</ph>B directory:</source>
+          <target state="translated">Cette commande déplace le lecteur C:<ph id="ph1">\\</ph>un répertoire et son contenu sur le lecteur C:<ph id="ph2">\\</ph>active de B :</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>You cannot move a directory when that directory is the current location.</source>
+          <target state="translated">Vous ne pouvez pas déplacer un répertoire quand ce répertoire est l'emplacement actif.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Managing File Content</source>
+          <target state="translated">Gestion de contenu de fichier</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">EXEMPLE 1</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>This command appends the "test content" string to the Test.txt file:</source>
+          <target state="translated">Cette commande ajoute la chaîne « test content » au fichier Test.txt :</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The existing content in the Test.txt file is not deleted.</source>
+          <target state="translated">Le contenu existant du fichier Test.txt n'est pas supprimé.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">EXEMPLE 2</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>This command gets the contents of the Test.txt file and displays them in the console:</source>
+          <target state="translated">Cette commande obtient le contenu du fichier Test.txt et l'affiche dans la console :</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>You can pipe the contents of the file to another cmdlet.</source>
+          <target state="translated">Vous pouvez diriger le contenu du fichier vers une autre applet de commande.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>For example, the following command reads the contents of the Test.txt file and then supplies them as input to the ConvertTo<ph id="ph1">\-</ph>HTML cmdlet:</source>
+          <target state="translated">Par exemple, la commande suivante lit le contenu du fichier Test.txt et puis le fournit comme entrée pour le ConvertTo<ph id="ph1">\-</ph>applet de commande HTML :</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>get<ph id="ph1">\-</ph>content <ph id="ph2">\-</ph>path test.txt &amp;#124; convertto<ph id="ph3">\-</ph>html</source>
+          <target state="translated">obtenir<ph id="ph1">\-</ph>contenu <ph id="ph2">\-</ph>path test.txt &amp;#124 ; convertto<ph id="ph3">\-</ph>html</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 3</source>
+          <target state="translated">EXEMPLE 3</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>This command replaces the contents of the Test.txt file with the "test content" string:</source>
+          <target state="translated">Cette commande remplace le contenu du fichier Test.txt par la chaîne « test content » :</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>It overwrites the contents of Test.txt.</source>
+          <target state="translated">Elle remplace le contenu de Test.txt.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>You can use the Value parameter of the New<ph id="ph1">\-</ph>Item cmdlet to add content to a file when you create it.</source>
+          <target state="translated">Vous pouvez utiliser le paramètre de valeur de la nouvelle<ph id="ph1">\-</ph>applet de commande Item pour ajouter du contenu dans un fichier lors de sa création.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Managing Security Descriptors</source>
+          <target state="translated">Gestion des descripteurs de sécurité</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">EXEMPLE 1</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>This command returns a System.Security.AccessControl.FileSecurity object:</source>
+          <target state="translated">Cette commande retourne un objet System.Security.AccessControl.FileSecurity :</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>For more information about this object, pipe the command to the Get<ph id="ph1">\-</ph>Member cmdlet.</source>
+          <target state="translated">Pour plus d’informations sur cet objet, dirigez la commande pour obtenir<ph id="ph1">\-</ph>membre applet de commande.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Or, see "FileSecurity Class" in the MSDN <ph id="ph1">\(</ph>Microsoft Developer Network<ph id="ph2">\)</ph> library at http:<ph id="ph3">\/\/</ph>go.microsoft.com<ph id="ph4">\/</ph>fwlink<ph id="ph5">\/</ph>?LinkId<ph id="ph6">\=</ph>145718.</source>
+          <target state="translated">Ou, consultez « Classe FileSecurity » dans MSDN <ph id="ph1">\(</ph>Microsoft Developer Network<ph id="ph2">\)</ph> library à l’adresse http :<ph id="ph3">\/\/</ph>go.microsoft.com<ph id="ph4">\/</ph>fwlink<ph id="ph5">\/</ph>? LinkId<ph id="ph6">\=</ph>145718.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">EXEMPLE 2</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>This command returns a System.Security.AccessControl.DirectorySecurity object:</source>
+          <target state="translated">Cette commande retourne un objet System.Security.AccessControl.DirectorySecurity :</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>For more information about this object, pipe the command to the Get<ph id="ph1">\-</ph>Member cmdlet.</source>
+          <target state="translated">Pour plus d’informations sur cet objet, dirigez la commande pour obtenir<ph id="ph1">\-</ph>membre applet de commande.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Or, see "DirectorySecurity Class" in the MSDN library at http:<ph id="ph1">\/\/</ph>go.microsoft.com<ph id="ph2">\/</ph>fwlink<ph id="ph3">\/</ph>?LinkId<ph id="ph4">\=</ph>145736.</source>
+          <target state="translated">Ou, consultez « Classe DirectorySecurity » dans MSDN library à http :<ph id="ph1">\/\/</ph>go.microsoft.com<ph id="ph2">\/</ph>fwlink<ph id="ph3">\/</ph>? LinkId<ph id="ph4">\=</ph>145736.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Creating Files and Directories</source>
+          <target state="translated">Création de fichiers et de répertoires</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">EXEMPLE 1</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>This command creates the Logfiles directory on the C drive:</source>
+          <target state="translated">Cette commande crée le répertoire Logfiles sur le lecteur C :</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">EXEMPLE 2</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>This command creates the Log2.txt file in the C:<ph id="ph1">\\</ph>Logfiles directory and then adds the "test log" string to the file:</source>
+          <target state="translated">Cette commande crée le fichier Log2.txt dans le répertoire C:<ph id="ph1">\\</ph>répertoire Logfiles, puis ajoute la chaîne « test log » dans le fichier :</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 3</source>
+          <target state="translated">EXEMPLE 3</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Creates a file called Log2.txt in the C:<ph id="ph1">\\</ph>logfiles directory and adds the string "test log" to the file.</source>
+          <target state="translated">Crée un fichier appelé Log2.txt dans le répertoire C:<ph id="ph1">\\</ph>répertoire logfiles et ajoute la chaîne « test log » dans le fichier.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Renaming Files and Directories</source>
+          <target state="translated">Changement de nom des fichiers et des répertoires</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">EXEMPLE 1</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>This command renames the A.txt file in the C:<ph id="ph1">\\</ph>A directory to B.txt:</source>
+          <target state="translated">Cette commande renomme le fichier A.txt dans le répertoire C:<ph id="ph1">\\</ph>un répertoire en B.txt :</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">EXEMPLE 2</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>This command renames the C:<ph id="ph1">\\</ph>A<ph id="ph2">\\</ph>Cc directory to C:<ph id="ph3">\\</ph>A<ph id="ph4">\\</ph>Dd:</source>
+          <target state="translated">Cette commande renomme le lecteur C:<ph id="ph1">\\</ph>A<ph id="ph2">\\</ph>répertoire Cc c:<ph id="ph3">\\</ph>A<ph id="ph4">\\</ph>jj :</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Deleting Files and Directories</source>
+          <target state="translated">Suppression de fichiers et de répertoires</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">EXEMPLE 1</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>This command deletes the Test.txt file in the current directory:</source>
+          <target state="translated">Cette commande supprime le fichier Test.txt dans le répertoire actif :</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">EXEMPLE 2</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>This command deletes all the files in the current directory that have the .xml file name extension:</source>
+          <target state="translated">Cette commande supprime tous les fichiers du répertoire actif ayant l'extension de nom de fichier .xml :</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Starting a Program by Invoking an Associated File</source>
+          <target state="translated">Démarrage d'un programme en appelant un fichier associé</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">EXEMPLE 1</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The first command uses the Get<ph id="ph1">\-</ph>Service cmdlet to get information about local services.</source>
+          <target state="translated">La première commande utilise la méthode Get<ph id="ph1">\-</ph>applet de commande de Service pour obtenir des informations sur les services locaux.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>It pipes the information to the Export<ph id="ph1">\-</ph>Csv cmdlet and then stores that information in the Services.csv file.</source>
+          <target state="translated">Elle dirige les informations à l’exportation<ph id="ph1">\-</ph>applet de commande Csv, puis stocke ces informations dans le fichier Services.csv.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The second command uses Invoke<ph id="ph1">\-</ph>Item to open the Services.csv file in the program associated with the .csv extension:</source>
+          <target state="translated">La deuxième commande utilise Invoke<ph id="ph1">\-</ph>élément pour ouvrir le fichier Services.csv dans le programme associé à l’extension .csv :</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Getting Files and Folders with Specified Attributes</source>
+          <target state="translated">Obtention de fichiers et de dossiers avec des attributs spécifiés</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">EXEMPLE 1</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>This command gets system files in the current directory and its subdirectories.</source>
+          <target state="translated">Cette commande obtient les fichiers système du répertoire actif et de ses sous-répertoires.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>It uses the File parameter to get only files <ph id="ph1">\(</ph>not directories<ph id="ph2">\)</ph> and the System parameter to get only items with the System attribute.</source>
+          <target state="translated">Elle utilise le paramètre File pour obtenir uniquement les fichiers <ph id="ph1">\(</ph>pas les répertoires<ph id="ph2">\)</ph> et le paramètre système pour obtenir uniquement les éléments avec l’attribut système.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>It uses the Recurse parameter to get the items in the current directory and all subdirectories.</source>
+          <target state="translated">Elle utilise le paramètre Recurse pour obtenir les éléments du répertoire actif et de tous ses sous-répertoires.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">EXEMPLE 2</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>This command gets all files, including hidden files, in the current directory.</source>
+          <target state="translated">Cette commande obtient tous les fichiers du répertoire actif, y compris les fichiers cachés.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>It uses the Attributes parameter with two values, <ph id="ph1">\!</ph>Directory<ph id="ph2">\+</ph>Hidden, which gets hidden files, and <ph id="ph3">\!</ph>Directory, which gets all other files.</source>
+          <target state="translated">Elle utilise le paramètre Attributes avec deux valeurs, <ph id="ph1">\!</ph>Active<ph id="ph2">\+</ph>Hidden, qui obtient les fichiers cachés, et <ph id="ph3">\!</ph>active, qui obtient tous les autres fichiers.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>"dir <ph id="ph1">\-</ph>att <ph id="ph2">\!</ph>d,<ph id="ph3">\!</ph>d<ph id="ph4">\+</ph>h" is the equivalent of this command.</source>
+          <target state="translated">« dir <ph id="ph1">\-</ph>att <ph id="ph2">\!</ph>d<ph id="ph3">\!</ph>d<ph id="ph4">\+</ph>h » est l’équivalent de cette commande.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 3</source>
+          <target state="translated">EXEMPLE 3</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>This command gets files in the current directory that are either compressed or encrypted.</source>
+          <target state="translated">Cette commande obtient les fichiers du répertoire actif qui sont compressés ou chiffrés.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>It uses the Attributes parameter with two values, Compressed and Encrypted.</source>
+          <target state="translated">Elle utilise le paramètre Attributes avec deux valeurs, Compressed et Encrypted.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The values are separated by a comma <ph id="ph1">\(</ph>,<ph id="ph2">\)</ph> which represents the OR operator.</source>
+          <target state="translated">Les valeurs sont séparées par des virgules <ph id="ph1">\(</ph>,<ph id="ph2">\)</ph> qui représente l’opérateur OR.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>DYNAMIC PARAMETERS</source>
+          <target state="translated">PARAMÈTRES DYNAMIQUES</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Dynamic parameters are cmdlet parameters that are added by a Windows PowerShell provider and are available only when the cmdlet is being used in the provider<ph id="ph1">\-</ph>enabled drive.</source>
+          <target state="translated">Les paramètres dynamiques sont des paramètres d’applet de commande qui sont ajoutés par un fournisseur Windows PowerShell et qui sont disponible uniquement lorsque l’applet de commande est utilisé dans le fournisseur<ph id="ph1">\-</ph>lecteur désactivé.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Encoding <ph id="ph1">\&lt;</ph>Microsoft.PowerShell.Commands.FileSystemCmdletProviderEncoding</source>
+          <target state="translated">Encodage <ph id="ph1">\&lt;</ph>Microsoft.PowerShell.Commands.FileSystemCmdletProviderEncoding</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Specifies the file encoding.</source>
+          <target state="translated">Spécifie l'encodage du fichier.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The default is ASCII.</source>
+          <target state="translated">La valeur par défaut est ASCII.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <target state="translated">Value</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Description</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Unknown</source>
+          <target state="translated">Unknown</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The encoding type is unknown or invalid.</source>
+          <target state="translated">le type d'encodage est inconnu ou non valide.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>The data can be treated as binary.</source>
+          <target state="translated">Les données peuvent être traitées sous forme binaire.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>String</source>
+          <target state="translated">String</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Uses the encoding type for a string.</source>
+          <target state="translated">utilise le type d'encodage pour une chaîne.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Unicode</source>
+          <target state="translated">Unicode</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Encodes in UTF<ph id="ph1">\-</ph>16 format using the little<ph id="ph2">\-</ph>endian byte order.</source>
+          <target state="translated">Encode au format UTF<ph id="ph1">\-</ph>format 16 en utilisant les petits<ph id="ph2">\-</ph>primauté des octets.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Byte</source>
+          <target state="translated">Byte</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Encodes a set of characters into a sequence of bytes.</source>
+          <target state="translated">Encode un jeu de caractères en une séquence d'octets.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>BigEndianUnicode</source>
+          <target state="translated">BigEndianUnicode</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Encodes in UTF<ph id="ph1">\-</ph>16 format using the big<ph id="ph2">\-</ph>endian byte order.</source>
+          <target state="translated">Encode au format UTF<ph id="ph1">\-</ph>format 16 à l’aide de la grande<ph id="ph2">\-</ph>primauté des octets.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>UTF8</source>
+          <target state="translated">UTF8</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Encodes in UTF<ph id="ph1">\-</ph>8 format.</source>
+          <target state="translated">Encode au format UTF<ph id="ph1">\-</ph>format 8.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>UTF7</source>
+          <target state="translated">UTF7</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Encodes in UTF<ph id="ph1">\-</ph>7 format.</source>
+          <target state="translated">Encode au format UTF<ph id="ph1">\-</ph>format 7.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>ASCII</source>
+          <target state="translated">ASCII</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Uses the encoding for the ASCII <ph id="ph1">\(</ph>7<ph id="ph2">\-</ph>bit<ph id="ph3">\)</ph> character set.</source>
+          <target state="translated">Utilise l’encodage ASCII <ph id="ph1">\(</ph>7<ph id="ph2">\-</ph>bits<ph id="ph3">\)</ph> jeu de caractères.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">Applets de commande prises en charge :</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Add<ph id="ph1">\-</ph>Content</source>
+          <target state="translated">Ajouter<ph id="ph1">\-</ph>contenu</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>Content</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>Content</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Set<ph id="ph1">\-</ph>Content</source>
+          <target state="translated">Définissez<ph id="ph1">\-</ph>contenu</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Delimiter <ph id="ph1">\&lt;</ph>System.String</source>
+          <target state="translated">Délimiteur de <ph id="ph1">\&lt;</ph>System.String</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Specifies the delimiter that <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Content<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> uses to divide the file into objects while it reads.</source>
+          <target state="translated">Spécifie le délimiteur qui <bpt id="p1">[</bpt>obtenir<ph id="ph1">\-</ph>contenu<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> utilise pour diviser le fichier en objets lors de la lecture.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The default is "<ph id="ph1">\\</ph>n", the end<ph id="ph2">\-</ph>of<ph id="ph3">\-</ph>line character.</source>
+          <target state="translated">La valeur par défaut est «<ph id="ph1">\\</ph>n », la fin<ph id="ph2">\-</ph>de<ph id="ph3">\-</ph>caractère de ligne.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Therefore, by default, when reading a text file, <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Content<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> returns a collection of string objects, each of which ends with an end<ph id="ph2">\-</ph>of<ph id="ph3">\-</ph>line character.</source>
+          <target state="translated">Par conséquent, par défaut, lors de la lecture d’un fichier texte, <bpt id="p1">[</bpt>obtenir<ph id="ph1">\-</ph>contenu<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> retourne une collection d’objets de chaînes, chacune d’elles se termine avec une extrémité<ph id="ph2">\-</ph>de<ph id="ph3">\-</ph>caractère de ligne.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>When you enter a delimiter that does not exist in the file, <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Content<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> returns the entire file as a single, undelimited object.</source>
+          <target state="translated">Lorsque vous entrez un délimiteur qui n’existe pas dans le fichier, <bpt id="p1">[</bpt>obtenir<ph id="ph1">\-</ph>contenu<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> renvoie l’intégralité du fichier en tant qu’un seul objet non délimité.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>You can use this parameter to split a large file into smaller files by specifying a file separator, such as "End of Example", as the delimiter.</source>
+          <target state="translated">Vous pouvez utiliser ce paramètre pour fractionner un fichier volumineux en fichiers plus petits, en spécifiant un séparateur de fichier comme « Fin de l'exemple » comme délimiteur.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>The delimiter is preserved <ph id="ph1">\(</ph>not discarded<ph id="ph2">\)</ph> and becomes the last item in each file section.</source>
+          <target state="translated">Le délimiteur est conservé <ph id="ph1">\(</ph>ne pas rejetés<ph id="ph2">\)</ph> et devient le dernier élément dans chaque section du fichier.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Troubleshooting Note: Currently, when the value of the Delimiter parameter is an empty string, <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Content<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> does not return anything.</source>
+          <target state="translated">Résolution des problèmes de Remarque : Actuellement, lorsque la valeur du paramètre Delimiter est une chaîne vide, <bpt id="p1">[</bpt>obtenir<ph id="ph1">\-</ph>contenu<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> ne retourne rien.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>This is a known issue.</source>
+          <target state="translated">Il s'agit d'un problème connu.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>To force <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Content<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> to return the entire file as a single, undelimited string, enter a value that does not exist in the file.</source>
+          <target state="translated">Pour forcer <bpt id="p1">[</bpt>obtenir<ph id="ph1">\-</ph>contenu<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> pour retourner l’intégralité du fichier comme une seule chaîne non délimitée, entrez une valeur qui n’existe pas dans le fichier.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">Applets de commande prises en charge :</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>Content</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>Content</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Wait <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</source>
+          <target state="translated">Attente <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Waits for content to be appended to the file.</source>
+          <target state="translated">Attend que le contenu soit ajouté au fichier.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>If content is appended, it returns the appended content.</source>
+          <target state="translated">Si le contenu est ajouté, il retourne le contenu ajouté.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>If the content has changed, it returns the entire file.</source>
+          <target state="translated">Si le contenu a changé, il retourne la totalité du fichier.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>When waiting, <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Content<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> checks the file once each second until you interrupt it, such as by pressing CTRL<ph id="ph2">\+</ph>C.</source>
+          <target state="translated">Lors de l’attente, <bpt id="p1">[</bpt>obtenir<ph id="ph1">\-</ph>contenu<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> vérifie le fichier une seule fois chaque seconde jusqu'à ce que vous interrompez, par exemple en appuyant sur CTRL<ph id="ph2">\+</ph>C.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">Applets de commande prises en charge :</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>Content</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>Content</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Attributes <ph id="ph1">\&lt;</ph>FlagsExpression<ph id="ph2">\[</ph>System.IO.FileAttributes</source>
+          <target state="translated">Attributs <ph id="ph1">\&lt;</ph>FlagsExpression<ph id="ph2">\[</ph>System.IO.FileAttributes</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Gets files and folders with the specified attributes.</source>
+          <target state="translated">Obtient les fichiers et les dossiers avec les attributs spécifiés.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>This parameter supports all attributes and lets you specify complex combinations of attributes.</source>
+          <target state="translated">Ce paramètre prend en charge tous les attributs et vous permet de spécifier des combinaisons complexes d'attributs.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>The Attributes parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Le paramètre Attributes a été introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>The Attributes parameter supports the following attributes: Archive, Compressed, Device, Directory, Encrypted, Hidden, Normal, NotContentIndexed, Offline, ReadOnly, ReparsePoint, SparseFile, System, and Temporary.</source>
+          <target state="translated">Le paramètre Attributes prend en charge les attributs suivants : Archive, compressé, périphérique, active, chiffré, Hidden, Normal, NotContentIndexed, Offline, ReadOnly, ReparsePoint, SparseFile, système et temporaire.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>For a description of these attributes, see the FileAttributes enumeration at http:<ph id="ph1">\/\/</ph>go.microsoft.com<ph id="ph2">\/</ph>fwlink<ph id="ph3">\/</ph>?LinkId<ph id="ph4">\=</ph>201508.</source>
+          <target state="translated">Pour obtenir une description de ces attributs, consultez l’énumération FileAttributes à http :<ph id="ph1">\/\/</ph>go.microsoft.com<ph id="ph2">\/</ph>fwlink<ph id="ph3">\/</ph>? LinkId<ph id="ph4">\=</ph>201508.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Use the following operators to combine attributes.</source>
+          <target state="translated">Utilisez les opérateurs suivants pour combiner des attributs.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>NOT</source>
+          <target state="translated">NOT</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>AND</source>
+          <target state="translated">ET</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>, OR</source>
+          <target state="translated">, OU</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>No spaces are permitted between an operator and its attribute.</source>
+          <target state="translated">Les espaces ne sont pas autorisés entre un opérateur et son attribut.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>However, spaces are permitted before commas.</source>
+          <target state="translated">Les espaces sont cependant autorisés devant les virgules.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">Applets de commande prises en charge :</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>ChildItem</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>ChildItem</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Directory <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</source>
+          <target state="translated">Répertoire <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Gets directories <ph id="ph1">\(</ph>folders<ph id="ph2">\)</ph>.</source>
+          <target state="translated">Obtient les répertoires <ph id="ph1">\(</ph>dossiers<ph id="ph2">\)</ph>.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>The Directory parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Le paramètre Directory a été introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>To get only directories, use the Directory parameter and omit the File parameter.</source>
+          <target state="translated">Pour obtenir seulement les répertoires, utilisez le paramètre Directory et omettez le paramètre File.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>To exclude directories, use the File parameter and omit the Directory parameter, or use the Attributes parameter.</source>
+          <target state="translated">Pour exclure les répertoires, utilisez le paramètre File et omettez le paramètre Directory, ou utilisez le paramètre Attributes.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">Applets de commande prises en charge :</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>ChildItem</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>ChildItem</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>File <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</source>
+          <target state="translated">Fichier <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Gets files.</source>
+          <target state="translated">Obtient les fichiers.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>The File parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Le paramètre File a été introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>To get only files, use the File parameter and omit the Directory parameter.</source>
+          <target state="translated">Pour obtenir seulement les fichiers, utilisez le paramètre File et omettez le paramètre Directory.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>To exclude files, use the Directory parameter and omit the File parameter, or use the Attributes parameter.</source>
+          <target state="translated">Pour exclure les fichiers, utilisez le paramètre Directory et omettez le paramètre File, ou utilisez le paramètre Attributes.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">Applets de commande prises en charge :</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>ChildItem</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>ChildItem</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>Hidden <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</source>
+          <target state="translated">Masqué <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Gets only hidden files and directories <ph id="ph1">\(</ph>folders<ph id="ph2">\)</ph>.</source>
+          <target state="translated">Obtient uniquement les fichiers masqués et les répertoires <ph id="ph1">\(</ph>dossiers<ph id="ph2">\)</ph>.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>ChildItem<ept id="p1">](assetId:///75cf79bb-4db6-4a67-8c36-3d20754e2190)</ept> gets only non<ph id="ph2">\-</ph>hidden items.</source>
+          <target state="translated">Par défaut, <bpt id="p1">[</bpt>obtenir<ph id="ph1">\-</ph>ChildItem<ept id="p1">](assetId:///75cf79bb-4db6-4a67-8c36-3d20754e2190)</ept> Obtient uniquement non<ph id="ph2">\-</ph>les éléments masqués.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>The Hidden parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Le paramètre Hidden a été introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>To get only hidden items, use the Hidden parameter, its "h" or "ah" aliases, or the Hidden value of the Attributes parameter.</source>
+          <target state="translated">Pour obtenir seulement les éléments cachés, utilisez le paramètre Hidden, ses alias « h » ou « ah », ou la valeur Hidden du paramètre Attributes.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>To exclude hidden items, omit the Hidden parameter or use the Attributes parameter.</source>
+          <target state="translated">Pour exclure les éléments cachés, omettez le paramètre Hidden ou utilisez le paramètre Attributes.</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">Applets de commande prises en charge :</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>ChildItem</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>ChildItem</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>ReadOnly <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</source>
+          <target state="translated">ReadOnly <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>Gets only read<ph id="ph1">\-</ph>only files and directories <ph id="ph2">\(</ph>folders<ph id="ph3">\)</ph>.</source>
+          <target state="translated">Obtient uniquement lire<ph id="ph1">\-</ph>uniquement les fichiers et les répertoires <ph id="ph2">\(</ph>dossiers<ph id="ph3">\)</ph>.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>The ReadOnly parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Le paramètre ReadOnly a été introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>To get only read<ph id="ph1">\-</ph>only items, use the ReadOnly parameter, its "ar" alias, or the ReadOnly value of the Attributes parameter.</source>
+          <target state="translated">Pour obtenir uniquement lire<ph id="ph1">\-</ph>uniquement les éléments, utilisez le paramètre ReadOnly, son alias « ar » ou la valeur ReadOnly du paramètre Attributes.</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>To exclude read<ph id="ph1">\-</ph>only items, use the Attributes parameter.</source>
+          <target state="translated">Pour exclure la lecture<ph id="ph1">\-</ph>uniquement les éléments, utilisez le paramètre Attributes.</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">Applets de commande prises en charge :</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>ChildItem</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>ChildItem</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>System <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</source>
+          <target state="translated">Système <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>Gets only system files and directories <ph id="ph1">\(</ph>folders<ph id="ph2">\)</ph>.</source>
+          <target state="translated">Obtient uniquement les fichiers système et les répertoires <ph id="ph1">\(</ph>dossiers<ph id="ph2">\)</ph>.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>The System parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Le paramètre System a été introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>To get only system files and folders, use the System parameter, its "as" alias, or the System value of the Attributes parameter.</source>
+          <target state="translated">Pour obtenir uniquement les fichiers et les dossiers système, utilisez le paramètre System, son alias « as » ou la valeur System du paramètre Attributes.</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>To exclude system files and folders, use the Attributes parameter.</source>
+          <target state="translated">Pour exclure les dossiers et fichiers système, utilisez le paramètre Attributes.</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">Applets de commande prises en charge :</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>ChildItem</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>ChildItem</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>NewerThan <ph id="ph1">\&lt;</ph>System.DateTime</source>
+          <target state="translated">NewerThan <ph id="ph1">\&lt;</ph>System.DateTime</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>Returns "True" <ph id="ph1">\(</ph>$True<ph id="ph2">\)</ph> when the LastWriteTime value of a file is greater than the specified date.</source>
+          <target state="translated">Retourne « True » <ph id="ph1">\(</ph>$True<ph id="ph2">\)</ph> lorsque la valeur de la propriété LastWriteTime d’un fichier est supérieure à la date spécifiée.</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>Otherwise, it returns "False" <ph id="ph1">\(</ph>$False<ph id="ph2">\)</ph>.</source>
+          <target state="translated">Sinon, elle retourne « False » <ph id="ph1">\(</ph>$False<ph id="ph2">\)</ph>.</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>Enter a DateTime object, such as one that the <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Date<ept id="p1">](assetId:///277ba77f-f2be-44d7-8f15-23069faf0a4b)</ept> cmdlet returns, or a string that can be converted to a DateTime object, such as "August 10, 2011 2:00 PM".</source>
+          <target state="translated">Entrez un objet DateTime, tel que celui qui le <bpt id="p1">[</bpt>obtenir<ph id="ph1">\-</ph>Date<ept id="p1">](assetId:///277ba77f-f2be-44d7-8f15-23069faf0a4b)</ept> applet de commande, ou une chaîne qui peut être convertie en un objet DateTime, tels que « 10 août 2011 2:00 PM ».</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">Applets de commande prises en charge :</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>Test<ph id="ph1">\-</ph>Path</source>
+          <target state="translated">Test<ph id="ph1">\-</ph>chemin d’accès</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>OlderThan <ph id="ph1">\&lt;</ph>System.DateTime</source>
+          <target state="translated">OlderThan <ph id="ph1">\&lt;</ph>System.DateTime</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>Returns "True" <ph id="ph1">\(</ph>$True<ph id="ph2">\)</ph> when the LastWriteTime value of a file is less than the specified date.</source>
+          <target state="translated">Retourne « True » <ph id="ph1">\(</ph>$True<ph id="ph2">\)</ph> lorsque la valeur de la propriété LastWriteTime d’un fichier est inférieure à la date spécifiée.</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>Otherwise, it returns "False" <ph id="ph1">\(</ph>$False<ph id="ph2">\)</ph>.</source>
+          <target state="translated">Sinon, elle retourne « False » <ph id="ph1">\(</ph>$False<ph id="ph2">\)</ph>.</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>Enter a DateTime object, such as one that the <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Date<ept id="p1">](assetId:///277ba77f-f2be-44d7-8f15-23069faf0a4b)</ept> cmdlet returns, or a string that can be converted to a DateTime object, such as "August 10, 2011 2:00 PM".</source>
+          <target state="translated">Entrez un objet DateTime, tel que celui qui le <bpt id="p1">[</bpt>obtenir<ph id="ph1">\-</ph>Date<ept id="p1">](assetId:///277ba77f-f2be-44d7-8f15-23069faf0a4b)</ept> applet de commande, ou une chaîne qui peut être convertie en un objet DateTime, tels que « 10 août 2011 2:00 PM ».</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">Applets de commande prises en charge :</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>Test<ph id="ph1">\-</ph>Path</source>
+          <target state="translated">Test<ph id="ph1">\-</ph>chemin d’accès</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>Stream <ph id="ph1">\&lt;</ph>System.String</source>
+          <target state="translated">Flux <ph id="ph1">\&lt;</ph>System.String</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>Manages alternate data streams.</source>
+          <target state="translated">Gère les flux de données alternatifs.</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>Enter the stream name.</source>
+          <target state="translated">Entrez le nom du flux.</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted only in <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Item for FileSystem<ept id="p1">](../Topic/Get-Item-for-FileSystem.md)</ept> and <bpt id="p2">[</bpt>Remove<ph id="ph2">\-</ph>Item for FileSystem<ept id="p2">](../Topic/Remove-Item-for-FileSystem.md)</ept> commands in a file system drive.</source>
+          <target state="translated">Les caractères génériques sont autorisés uniquement dans <bpt id="p1">[</bpt>obtenir<ph id="ph1">\-</ph>élément de système de fichiers<ept id="p1">](../Topic/Get-Item-for-FileSystem.md)</ept> et <bpt id="p2">[</bpt>Supprimer<ph id="ph2">\-</ph>élément de système de fichiers<ept id="p2">](../Topic/Remove-Item-for-FileSystem.md)</ept> commandes dans un lecteur de système de fichiers.</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">Applets de commande prises en charge :</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>Add<ph id="ph1">\-</ph>Content</source>
+          <target state="translated">Ajouter<ph id="ph1">\-</ph>contenu</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>Clear<ph id="ph1">\-</ph>Content</source>
+          <target state="translated">Effacer<ph id="ph1">\-</ph>contenu</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>Item</source>
+          <target state="translated">Obtenir<ph id="ph1">\-</ph>élément</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>Content</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>Content</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>Remove<ph id="ph1">\-</ph>Item</source>
+          <target state="translated">Remove<ph id="ph1">\-</ph>Item</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>Set<ph id="ph1">\-</ph>Content</source>
+          <target state="translated">Définissez<ph id="ph1">\-</ph>contenu</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>Raw <ph id="ph1">\&lt;</ph>SwitchParameter</source>
+          <target state="translated">Brutes <ph id="ph1">\&lt;</ph>Paramètre_booléen</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>Ignores newline characters.</source>
+          <target state="translated">Ignore les caractères de nouvelle ligne.</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>Returns contents as a single item.</source>
+          <target state="translated">Retourne le contenu sous la forme d'un seul élément.</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">Applets de commande prises en charge :</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>Content</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>Content</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">Voir aussi</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source>about<ph id="ph1">\_</ph>Providers</source>
+          <target state="translated">à propos<ph id="ph1">\_</ph>fournisseurs</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

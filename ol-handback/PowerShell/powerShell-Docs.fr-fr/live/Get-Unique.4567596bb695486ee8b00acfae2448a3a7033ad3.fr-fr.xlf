@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="fr-fr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bfd0ddaed5fcce2a44e3d440221dd1d08420a92c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Utility\Get-Unique.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">afd62edf3df4e10b89d0a1cf856b004e252841dd</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">12e293c26d10527746d24c4ef1f3eac09cda5907</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">applet de commande PowerShell</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Get-Unique</source>
+          <target state="translated">Get-Unique</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Get-Unique</source>
+          <target state="translated">Get-Unique</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">SYNOPSIS</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Returns unique items from a sorted list.</source>
+          <target state="translated">Retourne les éléments uniques d'une liste triée.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SYNTAXE</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>AsString (Default)</source>
+          <target state="translated">AsString (par défaut)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>UniqueByType</source>
+          <target state="translated">UniqueByType</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">DESCRIPTION</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-Unique<ept id="p1">**</ept> cmdlet compares each item in a sorted list to the next item, eliminates duplicates, and returns only one instance of each item.</source>
+          <target state="translated">Le <bpt id="p1">**</bpt>Get-Unique<ept id="p1">**</ept> applet de commande compare chaque élément dans une liste triée à l’élément suivant, élimine les doublons et retourne qu’une seule instance de chaque élément.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The list must be sorted for the cmdlet to work properly.</source>
+          <target state="translated">La liste doit être triée pour que l'applet de commande fonctionne correctement.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get-Unique<ept id="p1">**</ept> is case-sensitive.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get-Unique<ept id="p1">**</ept> respecte la casse.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>As a result, strings that differ only in character casing are considered to be unique.</source>
+          <target state="translated">Par conséquent, les chaînes qui diffèrent uniquement par la casse sont considérées comme uniques.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">EXEMPLES</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Example 1: Get unique words in a text file</source>
+          <target state="translated">Exemple 1 : Obtenir des mots uniques dans un fichier texte</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>These commands find the number of unique words in a text file.</source>
+          <target state="translated">Ces commandes recherchent le nombre de mots uniques dans un fichier texte.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The first command gets the content of the File.txt file.</source>
+          <target state="translated">La première commande obtient le contenu du fichier Fichier.txt.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>It converts each line of text to lowercase letters and then splits each word onto a separate line at the space (" ").</source>
+          <target state="translated">Elle convertit chaque ligne de texte en lettres minuscules, puis répartit chaque mot sur une ligne distincte au niveau de l'espace (« »).</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Then, it sorts the resulting list alphabetically (the default) and uses the <bpt id="p1">**</bpt>Get-Unique<ept id="p1">**</ept> cmdlet to eliminate any duplicate words.</source>
+          <target state="translated">Ensuite, il trie la liste par ordre alphabétique (par défaut) et utilise le <bpt id="p1">**</bpt>Get-Unique<ept id="p1">**</ept> applet de commande pour éliminer les mots en double.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The results are stored in the $A variable.</source>
+          <target state="translated">Les résultats sont stockés dans la variable $A.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The second command uses the Count property of the collection of strings in $A to determine how many items are in $A.</source>
+          <target state="translated">La deuxième commande utilise la propriété Count de la collection de chaînes dans $A pour déterminer le nombre d’éléments dans $A.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Example 2: Get unique integers in an array</source>
+          <target state="translated">Exemple 2 : Obtenir des entiers uniques dans un tableau</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This command finds the unique members of the set of integers.</source>
+          <target state="translated">Cette commande recherche les membres uniques de l'ensemble d'entiers.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The first command takes an array of integers typed at the command line, pipes them to the Sort-Object cmdlet to be sorted, and then pipes them to <bpt id="p1">**</bpt>Get-Unique<ept id="p1">**</ept>, which eliminates duplicate entries.</source>
+          <target state="translated">La première commande accepte un tableau d’entiers tapés sur la ligne de commande, les dirige vers l’applet de commande Sort-Object pour les trier et puis les transmet à <bpt id="p1">**</bpt>Get-Unique<ept id="p1">**</ept>, ce qui élimine les entrées en double.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Example 3: Get unique object types in a directory</source>
+          <target state="translated">Exemple 3 : Obtenir les types d’objet unique dans un répertoire</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This command uses the Get-ChildItem cmdlet to retrieve the contents of the local directory, which includes files and directories.</source>
+          <target state="translated">Cette commande utilise l'applet de commande Get-ChildItem pour récupérer le contenu du répertoire local, notamment les fichiers et les répertoires.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The pipeline operator (|) sends the results to the <bpt id="p1">**</bpt>Sort-Object<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">L’opérateur de pipeline (|) envoie les résultats de la <bpt id="p1">**</bpt>Sort-Object<ept id="p1">**</ept> applet de commande.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The "$_.GetType()" statement applies the GetType method to each file or directory.</source>
+          <target state="translated">L'instruction « $_.GetType() » applique la méthode GetType à chaque fichier ou répertoire.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Then, <bpt id="p1">**</bpt>Sort-Object<ept id="p1">**</ept> sorts the items by type.</source>
+          <target state="translated">Ensuite, <bpt id="p1">**</bpt>Sort-Object<ept id="p1">**</ept> Trie les éléments par type.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Another pipeline operator sends the results to <bpt id="p1">**</bpt>Get-Unique<ept id="p1">**</ept>.</source>
+          <target state="translated">Un autre opérateur pipeline envoie les résultats à <bpt id="p1">**</bpt>Get-Unique<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>OnType<ept id="p1">*</ept> parameter directs <bpt id="p2">**</bpt>Get-Unique<ept id="p2">**</ept> to return only one object of each type.</source>
+          <target state="translated">Le <bpt id="p1">*</bpt>OnType<ept id="p1">*</ept> paramètre dirige <bpt id="p2">**</bpt>Get-Unique<ept id="p2">**</ept> pour ne renvoyer qu’un seul objet de chaque type.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Example 4: Get unique processes</source>
+          <target state="translated">Exemple 4 : Obtenir les processus uniques</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This command gets the names of processes running on the computer with duplicates eliminated.</source>
+          <target state="translated">Cette commande obtient les noms des processus qui s'exécutent sur l'ordinateur sans doublon.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The Get-Process command gets all of the processes on the computer.</source>
+          <target state="translated">La commande Get-Process obtient tous les processus de l'ordinateur.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The pipeline operator (|) passes the result to Sort-Object, which, by default, sorts the processes alphabetically by ProcessName.</source>
+          <target state="translated">L'opérateur de pipeline (|) passe le résultat à Sort-Object, qui, par défaut, trie les processus par ordre alphabétique par ProcessName.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The results are piped to the Select-Object cmdlet, which selects only the values of the ProcessName property of each object.</source>
+          <target state="translated">Les résultats sont dirigés vers l'applet de commande Select-Object, qui sélectionne uniquement les valeurs de la propriété ProcessName de chaque objet.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The results are then piped to <bpt id="p1">**</bpt>Get-Unique<ept id="p1">**</ept> to eliminate duplicates.</source>
+          <target state="translated">Les résultats sont ensuite envoyées à <bpt id="p1">**</bpt>Get-Unique<ept id="p1">**</ept> pour éliminer les doublons.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>AsString<ept id="p1">*</ept> parameter tells <bpt id="p2">**</bpt>Get-Unique<ept id="p2">**</ept> to treat the ProcessName values as strings.</source>
+          <target state="translated">Le <bpt id="p1">*</bpt>AsString<ept id="p1">*</ept> paramètre indique à <bpt id="p2">**</bpt>Get-Unique<ept id="p2">**</ept> pour traiter les valeurs ProcessName sous forme de chaînes.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Without this parameter, <bpt id="p1">**</bpt>Get-Unique<ept id="p1">**</ept> treats the ProcessName values as objects and returns only one instance of the object, that is, the first process name in the list.</source>
+          <target state="translated">Sans ce paramètre, <bpt id="p1">**</bpt>Get-Unique<ept id="p1">**</ept> traite les valeurs ProcessName en tant qu’objets et ne retourne qu’une seule instance de l’objet, c'est-à-dire que le premier nom de processus dans la liste.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARAMÈTRES</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>-AsString</source>
+          <target state="translated">-AsString</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet uses the data as a string.</source>
+          <target state="translated">Indique que cette applet de commande utilise les données sous forme de chaîne.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Without this parameter, data is treated as an object, so when you submit a collection of objects of the same type to <bpt id="p1">**</bpt>Get-Unique<ept id="p1">**</ept>, such as a collection of files, it returns just one (the first).</source>
+          <target state="translated">Sans ce paramètre, les données sont traitées comme un objet, par conséquent, lorsque vous envoyez une collection d’objets du même type à <bpt id="p1">**</bpt>Get-Unique<ept id="p1">**</ept>, comme une collection de fichiers, elle renvoie simplement une (premier).</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You can use this parameter to find the unique values of object properties, such as the file names.</source>
+          <target state="translated">Vous pouvez utiliser ce paramètre pour rechercher les valeurs uniques des propriétés de l'objet, telles que les noms de fichier uniques.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">Objet d’entrée :</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Specifies input for <bpt id="p1">**</bpt>Get-Unique<ept id="p1">**</ept>.</source>
+          <target state="translated">Spécifie l’entrée pour <bpt id="p1">**</bpt>Get-Unique<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the objects or type a command or expression that gets the objects.</source>
+          <target state="translated">Entrez une variable contenant les objets, ou tapez une commande ou une expression qui les obtient.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This cmdlet treats the input submitted by using <bpt id="p1">*</bpt>InputObject<ept id="p1">*</ept> as a collection; it does not enumerate individual items in the collection.</source>
+          <target state="translated">Cette applet de commande traite l’entrée envoyée à l’aide de <bpt id="p1">*</bpt>InputObject<ept id="p1">*</ept> en tant que collection ; il n’énumère pas les éléments individuels dans la collection.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Because the collection is a single item, input submitted by using <bpt id="p1">*</bpt>InputObject<ept id="p1">*</ept> is always returned unchanged.</source>
+          <target state="translated">Étant donné que la collection est un élément unique, entrée envoyée à l’aide <bpt id="p1">*</bpt>InputObject<ept id="p1">*</ept> est toujours retournée inchangée.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-OnType</source>
+          <target state="translated">-OnType</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet returns only one object of each type.</source>
+          <target state="translated">Indique que cette applet de commande ne renvoie qu’un seul objet de chaque type.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Cette applet de commande prend en charge les paramètres courants :-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction et - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Pour plus d’informations, consultez about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ENTRÉES</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSObject</source>
+          <target state="translated">System.Management.Automation.PSObject</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>You can pipe any type of object to <bpt id="p1">**</bpt>Get-Unique<ept id="p1">**</ept>.</source>
+          <target state="translated">Vous pouvez diriger tout type d’objet à <bpt id="p1">**</bpt>Get-Unique<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">SORTIES</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSObject</source>
+          <target state="translated">System.Management.Automation.PSObject</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The type of object that <bpt id="p1">**</bpt>Get-Unique<ept id="p1">**</ept> returns is determined by the input.</source>
+          <target state="translated">Le type d’objet qui <bpt id="p1">**</bpt>Get-Unique<ept id="p1">**</ept> retourne est déterminé par l’entrée.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTES DE PUBLICATION</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You can also refer to <bpt id="p1">**</bpt>Get-Unique<ept id="p1">**</ept> by its built-in alias, gu.</source>
+          <target state="translated">Vous pouvez également faire référence à <bpt id="p1">**</bpt>Get-Unique<ept id="p1">**</ept> par son alias intégré, gu.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Aliases.</source>
+          <target state="translated">Pour plus d'informations, consultez about_Aliases.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>To sort a list, use Sort-Object.</source>
+          <target state="translated">Pour trier une liste, utilisez Sort-Object.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>You can also use the <bpt id="p1">*</bpt>Unique<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>Sort-Object<ept id="p2">**</ept> to find the unique items in a list.</source>
+          <target state="translated">Vous pouvez également utiliser le <bpt id="p1">*</bpt>Unique<ept id="p1">*</ept> paramètre de <bpt id="p2">**</bpt>Sort-Object<ept id="p2">**</ept> pour rechercher les éléments uniques dans une liste.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">LIENS CONNEXES</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Select-Object</source>
+          <target state="translated">Select-Object</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Sort-Object</source>
+          <target state="translated">Sort-Object</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

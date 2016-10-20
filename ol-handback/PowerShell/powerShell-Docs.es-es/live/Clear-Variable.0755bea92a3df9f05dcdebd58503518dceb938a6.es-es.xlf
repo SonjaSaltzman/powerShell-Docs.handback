@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="es-es">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">41b7062764096a8b7865c469825d5f3fcec878de</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Utility\Clear-Variable.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f162c828677146a78cf13a3025246788d8125e1a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">38a909e81d544f87e49e01f82333087c9457e1ea</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">cmdlet de PowerShell</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Clear-Variable</source>
+          <target state="translated">Clear-Variable</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Clear-Variable</source>
+          <target state="translated">Clear-Variable</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">SINOPSIS</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Deletes the value of a variable.</source>
+          <target state="translated">Elimina el valor de una variable.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SINTAXIS</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">DESCRIPCIÓN</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The Clear-Variable cmdlet deletes the data stored in a variable, but it does not delete the variable.</source>
+          <target state="translated">El cmdlet Clear-Variable elimina los datos almacenados en una variable, pero no elimina la variable.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>As a result, the value of the variable is NULL (empty).</source>
+          <target state="translated">Como resultado, el valor de la variable es NULL (vacío).</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If the variable has a specified data or object type, Clear-Variable preserves the type of the object stored in the variable.</source>
+          <target state="translated">Si la variable tiene un tipo de objeto o de datos específico, Clear-Variable conserva el tipo del objeto almacenado en la variable.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">EJEMPLOS</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- EJEMPLO 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This command deletes the value of global variables that have names that begin with "my".</source>
+          <target state="translated">Este comando elimina el valor de las variables globales que tienen nombres que comienzan por "my".</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>These commands demonstrate that clearing a variable in a child scope does not clear the value in the parent scope.</source>
+          <target state="translated">Estos comandos ponen de manifiesto que borrar una variable en un ámbito secundario no borra el valor en el ámbito principal.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The first command sets the value of the variable $a to "3".</source>
+          <target state="translated">El primer comando establece el valor de la variable $a en "3".</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The second command uses the invoke operator (&amp;) to run a Clear-Variable command in a new scope.</source>
+          <target state="translated">El segundo comando usa el operador de invocación (&amp;) para ejecutar un comando Clear-Variable en un nuevo ámbito.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The variable is cleared in the child scope (although it did not exist), but it is not cleared in the local scope.</source>
+          <target state="translated">La variable se borra en el ámbito secundario (aunque no existía), pero no en el ámbito local.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The third command, which gets the value of $a, shows that the value "3" is unaffected.</source>
+          <target state="translated">El tercer comando, que obtiene el valor de $a, muestra que el valor "3" no se ve afectado.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This command deletes the value of the $processes variable.</source>
+          <target state="translated">Este comando elimina el valor de la variable $processes.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The $processes variable still exists, but the value is null.</source>
+          <target state="translated">La variable $processes sigue existiendo, pero el valor es null.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARÁMETROS</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>-Exclude</source>
+          <target state="translated">-Excluir</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Omits the specified items.</source>
+          <target state="translated">Omite los elementos especificados.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The value of this parameter qualifies the Name parameter.</source>
+          <target state="translated">El valor de este parámetro califica al parámetro Name.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Enter a name element or pattern, such as "s*".</source>
+          <target state="translated">Escriba un elemento o patrón de nombre, como "s*".</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">Se permiten los caracteres comodín.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Allows the cmdlet to clear a variable even if it is read-only.</source>
+          <target state="translated">Permite que el cmdlet borre una variable incluso si es de solo lectura.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Even using the Force parameter, the cmdlet cannot clear constants.</source>
+          <target state="translated">El cmdlet no puede borrar constantes, ni siquiera con el parámetro Force.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>-Include</source>
+          <target state="translated">-Include</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Clears only the specified items.</source>
+          <target state="translated">Borra solo los elementos especificados.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The value of this parameter qualifies the Name parameter.</source>
+          <target state="translated">El valor de este parámetro califica al parámetro Name.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Enter a name element or pattern, such as "s*".</source>
+          <target state="translated">Escriba un elemento o patrón de nombre, como "s*".</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">Se permiten los caracteres comodín.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the variable to be cleared.</source>
+          <target state="translated">Especifica el nombre de la variable que se va a borrar.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">Se permiten los caracteres comodín.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This parameter is required, but the parameter name ("Name") is optional.</source>
+          <target state="translated">Este parámetro es obligatorio, pero el nombre de parámetro ("Name") es opcional.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>-PassThru</source>
+          <target state="translated">-PassThru</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Returns an object representing the cleared variable.</source>
+          <target state="translated">Devuelve un objeto que representa la variable borrada.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>By default, this cmdlet does not generate any output.</source>
+          <target state="translated">De forma predeterminada, este cmdlet no genera ningún resultado.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-Scope</source>
+          <target state="translated">: Ámbito</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Specifies the scope in which this alias is valid.</source>
+          <target state="translated">Especifica el ámbito en el que este alias es válido.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Valid values are "Global", "Local", or "Script", or a number relative to the current scope (0 through the number of scopes, where 0 is the current scope and 1 is its parent).</source>
+          <target state="translated">Los valores válidos son "Global", "Local" o "Script", o bien un número relativo al ámbito actual (de 0 al número de ámbitos que haya, siendo 0 el ámbito actual y 1, su elemento principal).</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>"Local" is the default.</source>
+          <target state="translated">El valor predeterminado es "Local".</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Scopes.</source>
+          <target state="translated">Para más información, consulte about_Scopes.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">Le pide confirmación antes de ejecutar el cmdlet. Le pide confirmación antes de ejecutar el cmdlet.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Muestra lo que sucedería si se ejecutara el cmdlet.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">No se ejecuta el cmdlet. Muestra lo que sucedería si se ejecuta el cmdlet.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">El cmdlet no se ejecuta.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Este cmdlet admite los parámetros comunes:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction y - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Para obtener más información, consulte about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ENTRADAS</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">Ninguno</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>You cannot pipe objects to Clear-Variable.</source>
+          <target state="translated">No se pueden canalizar objetos a Clear-Variable.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">SALIDAS</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>None or System.Management.Automation.PSVariable</source>
+          <target state="translated">Ninguno o System.Management.Automation.PSVariable</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>When you use the PassThru parameter, Clear-Variable generates a System.Management.Automation.PSVariable object representing the cleared variable.</source>
+          <target state="translated">Cuando se usa el parámetro PassThru, Clear-Variable genera un objeto System.Management.Automation.PSVariable que representa la variable borrada.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Otherwise, this cmdlet does not generate any output.</source>
+          <target state="translated">De lo contrario, este cmdlet no genera resultados.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTAS</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>To delete a variable, along with its value, use Remove-Variable or Remove-Item.</source>
+          <target state="translated">Para eliminar una variable junto con su valor, use Remove-Variable o Remove-Item.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Clear-Variable will not delete the values of variables that are set as constants or owned by the system, even if you use the -Force parameter.</source>
+          <target state="translated">Clear-Variable no eliminará los valores de las variables que estén definidas como constantes o que sean propiedad del sistema, ni siquiera con el parámetro -Force.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>If the variable that you are clearing does not exist, the cmdlet has no effect.</source>
+          <target state="translated">Si la variable que va a borrar no existe, el cmdlet no tiene ningún efecto.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>It does not create a variable with a null value.</source>
+          <target state="translated">No crea una variable con valor null.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>You can also refer to Clear-Variable by its built-in alias, "clv".</source>
+          <target state="translated">También se puede hacer referencia a Clear-Variable por su alias integrado, "clv".</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Aliases.</source>
+          <target state="translated">Para más información, vea la página about_Aliases.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">VÍNCULOS RELACIONADOS</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Get-Variable</source>
+          <target state="translated">Get-Variable</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>New-Variable</source>
+          <target state="translated">New-Variable</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Remove-Variable</source>
+          <target state="translated">Remove-Variable</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Set-Variable</source>
+          <target state="translated">Set-Variable</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

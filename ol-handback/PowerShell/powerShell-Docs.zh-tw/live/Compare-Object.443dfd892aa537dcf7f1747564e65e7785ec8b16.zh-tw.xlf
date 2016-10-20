@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ddd677d0cf825e9df32fa1070ba7cd2e5106e949</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Utility\Compare-Object.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9224cef6ff7a836277f3a6521da97cbc5c2a5a71</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">40aa9eaaf56e2335b56858b3167845bb4cec446b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell 指令程式</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Compare-Object</source>
+          <target state="translated">Compare-Object</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Compare-Object</source>
+          <target state="translated">Compare-Object</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Compares two sets of objects.</source>
+          <target state="translated">比較兩個物件集。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">語法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">描述</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The Compare-Object cmdlet compares two sets of objects.</source>
+          <target state="translated">Compare-Object Cmdlet 會比較兩個物件集。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>One set of objects is the "reference set," and the other set is the "difference set."</source>
+          <target state="translated">其中一組物件是「參照組」，另一組是「差異組」。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The result of the comparison indicates whether a property value appeared only in the object from the reference set (indicated by the <ph id="ph1">\&lt;</ph>= symbol), only in the object from the difference set (indicated by the =<ph id="ph2">\&gt;</ph> symbol) or, if the <bpt id="p1">**</bpt>IncludeEqual<ept id="p1">**</ept> parameter is specified, in both objects (indicated by the == symbol).</source>
+          <target state="translated">比較結果會指出是否屬性值只出現在物件從參考組 (由 <ph id="ph1">\&lt;</ph>= 符號)，只有在從不同的物件設定 (以 =<ph id="ph2">\&gt;</ph> 符號) 或者，如果 <bpt id="p1">**</bpt>IncludeEqual<ept id="p1">**</ept> 指定參數，在這兩個物件 （= = 符號表示）。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>NOTE:  If the reference set or the difference set is null ($null), Compare-Object generates a terminating error.</source>
+          <target state="translated">注意︰ 如果參考或差異設定為 null ($null)，Compare-object 便會產生終止錯誤。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">範例</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 範例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This command compares the contents of two text files.</source>
+          <target state="translated">此命令比較兩個文字檔的內容。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>It displays only the lines that appear in one file or in the other file, not lines that appear in both files.</source>
+          <target state="translated">它只會顯示出現在一個檔案或另一個檔案中的行，不會顯示同時出現在這兩個檔案中的行。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This command compares each line of content in two text files.</source>
+          <target state="translated">此命令比較兩個文字檔中每一行的內容。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>It displays all lines of content from both files, indicating whether each line appears in only Textfile1.txt or Textfile2.txt or whether each line appears in both files.</source>
+          <target state="translated">它會顯示來自兩個檔案的所有內容行，指出每一行是否只出現在 Textfile1.txt 或 Textfile2.txt 中，或每一行是否同時出現在這兩個檔案中。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>These commands compare two sets of process objects.</source>
+          <target state="translated">這些命令會比較兩組處理程序物件。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The first command uses the Get-Process cmdlet to get the processes on the computer.</source>
+          <target state="translated">第一個命令使用 Get-process Cmdlet 取得電腦上的處理程序。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>It stores them in the $processes_before variable.</source>
+          <target state="translated">它會將這些處理程序儲存在 $processes_before 變數中。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The second command starts Notepad.</source>
+          <target state="translated">第二個命令啟動「記事本」。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The third command uses the Get-Process cmdlet again and stores the resulting processes in the $processes_after variable.</source>
+          <target state="translated">第三個命令再次使用 Get-Process Cmdlet，並將產生的處理程序儲存在 $processes_after 變數中。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The fourth command uses the Compare-Object cmdlet to compare the two sets of process objects.</source>
+          <target state="translated">第四個命令使用 Compare-Object Cmdlet 比較兩組處理程序物件。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>It displaysthe differences between them, which include the new instance of Notepad.</source>
+          <target state="translated">它會顯示它們之間的差異，這包括「記事本」的新執行個體。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">參數</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>-CaseSensitive</source>
+          <target state="translated">-CaseSensitive</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Indicates that comparisons should be case-sensitive.</source>
+          <target state="translated">指出比較應區分大小寫。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-Culture</source>
+          <target state="translated">特性文化</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Specifies the culture to use for comparisons.</source>
+          <target state="translated">指定要用於比較的文化特性。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>-DifferenceObject</source>
+          <target state="translated">-DifferenceObject</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Specifies the objects that are compared to the reference objects.</source>
+          <target state="translated">指定要與參照物件比較的物件。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-ExcludeDifferent</source>
+          <target state="translated">-ExcludeDifferent</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Displays only the characteristics of compared objects that are equal.</source>
+          <target state="translated">只顯示所比較之物件的相等特性。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>-IncludeEqual</source>
+          <target state="translated">-IncludeEqual</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Displays characteristics of compared objects that are equal.</source>
+          <target state="translated">顯示所比較之物件的相等特性。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>By default, only characteristics that differ between the reference and difference objects are displayed.</source>
+          <target state="translated">預設只會顯示參照物件與差異物件之間不同的特性。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>-PassThru</source>
+          <target state="translated">-PassThru</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Passes the objects that differed to the pipeline.</source>
+          <target state="translated">將有差異的物件傳遞至管線。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>By default, this cmdlet does not generate any output.</source>
+          <target state="translated">根據預設，此 Cmdlet 不會產生任何輸出。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>-Property</source>
+          <target state="translated">屬性</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Specifies the properties of the reference and difference objects to compare.</source>
+          <target state="translated">指定要比較之參照物件與差異物件的屬性。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-ReferenceObject</source>
+          <target state="translated">-ReferenceObject</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Objects used as a reference for comparison.</source>
+          <target state="translated">用來做為比較參照的物件。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>-SyncWindow</source>
+          <target state="translated">-SyncWindow</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Specifies the number of adjacent objects that Compare-Object inspects while looking for an match in a collection of objects.</source>
+          <target state="translated">指定在物件集合中尋找相符項目時，Compare-Object 要檢查的相鄰物件數目。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Compare-Object examines adjacent objects when it doesn't find the object in the same position in a collection.</source>
+          <target state="translated">當 Compare-Object 在集合中的相同位置找不到物件時，就會檢查相鄰的物件。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The default value is <ph id="ph1">\[</ph>Int32<ph id="ph2">\]</ph>::MaxValue, which means that Compare-Object examines the entire object collection.</source>
+          <target state="translated">預設值是 <ph id="ph1">\[</ph>Int32<ph id="ph2">\]</ph>:: MaxValue，這表示 Compare-object 會檢查整個物件集合。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">這個 cmdlet 支援一般參數:-偵錯、-ErrorAction、-ErrorVariable、-InformationAction-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 以及-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">如需詳細資訊，請參閱 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">輸入</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSObject</source>
+          <target state="translated">System.Management.Automation.PSObject</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>You can pipe a DifferenceObject object to Compare-Object.</source>
+          <target state="translated">您可以使用管線將 DifferenceObject 物件傳送至 Compare-Object。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">輸出</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>None, or the objects that are different</source>
+          <target state="translated">無、 或不同的物件</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>When you use the PassThru parameter, Compare-Object returns the objects that differed.</source>
+          <target state="translated">使用 PassThru 參數時，Compare-Object 會傳回有差異的物件。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Otherwise, this cmdlet does not generate any output.</source>
+          <target state="translated">否則，此 Cmdlet 不會產生任何輸出。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">附註</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相關的連結</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>ForEach-Object</source>
+          <target state="translated">ForEach-Object</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Group-Object</source>
+          <target state="translated">Group-Object</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Measure-Object</source>
+          <target state="translated">Measure-Object</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>New-Object</source>
+          <target state="translated">新物件</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Select-Object</source>
+          <target state="translated">Select-Object</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Sort-Object</source>
+          <target state="translated">Sort-Object</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Tee-Object</source>
+          <target state="translated">Tee-object</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Where-Object</source>
+          <target state="translated">Where-Object</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

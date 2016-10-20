@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b1b5e5fce398014bb40db24f0f28f3297907e698</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\New-PSSessionOption.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8898dc83c68b5b39e83b6ff8a26fa78c95d9f0af</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6ff605083e78199db80cbe1721544b9ebe9c4454</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell, командлет</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>New-PSSessionOption</source>
+          <target state="translated">New-PSSessionOption</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>New-PSSessionOption</source>
+          <target state="translated">New-PSSessionOption</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">КРАТКИЙ ОБЗОР</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Creates an object that contains advanced options for a PSSession.</source>
+          <target state="translated">Создает объект, содержащий дополнительные параметры для сеанса PSSession.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">СИНТАКСИС</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">ОПИСАНИЕ</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-PSSessionOption<ept id="p1">**</ept> cmdlet creates an object that contains advanced options for a user-managed session (<bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>).</source>
+          <target state="translated"> <bpt id="p1">**</bpt>New-PSSessionOption<ept id="p1">**</ept> создает объект, содержащий дополнительные параметры для управляемого пользователем сеанса (<bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>).</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can use the object as the value of the <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> parameter of cmdlets that create a <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>, such as New-PSSession, Enter-PSSession, and Invoke-Command.</source>
+          <target state="translated">В качестве значения можно использовать объект <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> параметр командлетов, создающих <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>, например New-PSSession, Enter-PSSession и Invoke-Command.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Without parameters, <bpt id="p1">**</bpt>New-PSSessionOption<ept id="p1">**</ept> generates an object that contains the default values for all of the options.</source>
+          <target state="translated">Без параметров <bpt id="p1">**</bpt>New-PSSessionOption<ept id="p1">**</ept> создает объект, содержащий значения по умолчанию для всех параметров.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Because all of the properties can be edited, you can use the resulting object as a template, and create standard option objects for your enterprise.</source>
+          <target state="translated">Поскольку все свойства доступны для изменения, вы можете использовать итоговый объект в качестве шаблона и создавать стандартные объекты параметров для своей организации.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can also save a session option object in the <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> preference variable.</source>
+          <target state="translated">Также можно сохранить объект параметров сеанса в <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> переменной.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The values of this variable establish new default values for the session options.</source>
+          <target state="translated">Значения этой переменной устанавливают новые значения по умолчанию для параметров сеанса.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>They effective when no session options are set for the session and they take precedence over options set in the session configuration, but you can override them by specifying session options or a session option object in a cmdlet that creates a session.</source>
+          <target state="translated">Они действительны, если для сеанса не задано никаких параметров, и имеют приоритет над параметрами, заданными в конфигурации сеанса, однако их можно переопределить, указав параметры сеанса или объект параметров сеанса в командлете, создающем сеанс.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For more information about the <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> preference variable, see about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</source>
+          <target state="translated">Дополнительные сведения о <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> переменной, см. в разделе about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When you use a session option object in a cmdlet that creates a session, the session option values take precedence over default values for sessions set in the $PSSessionOption preference variable and in the session configuration.</source>
+          <target state="translated">При использовании объекта параметров сеанса в командлет, который создает сеанс, значения параметров сеанса имеют приоритет над значениями по умолчанию для сеансов в переменной $PSSessionOption и в конфигурации сеанса.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>However, they do not take precedence over maximum values, quotas or limits set in the session configuration.</source>
+          <target state="translated">Однако они не имеют приоритет над максимальными значениями, квотами и ограничениями, заданными в конфигурации сеанса.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For more information about session configurations, see about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152).</source>
+          <target state="translated">Дополнительные сведения о конфигурациях сеанса см. в описании about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152).</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">ПРИМЕРЫ</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Example 1: Create a default session option</source>
+          <target state="translated">Пример 1: Создание параметра сеанса по умолчанию</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This command creates a session option object that has all of the default values.</source>
+          <target state="translated">Эта команда создает объект параметров сеанса, все значения по умолчанию.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Example 2: Configure a session by using a session option object</source>
+          <target state="translated">Пример 2: Настройка сеанса с помощью параметра объекта сеанса</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This example shows how to use a session option object to configure a session.</source>
+          <target state="translated">В этом примере показано, как использовать объект параметров сеанса для настройки сеанса.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The first command creates a new session option object and saves it in the value of the $pso variable.</source>
+          <target state="translated">Первая команда создает новый объект параметров сеанса и сохраняет его в значении переменной $pso.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The second command uses the New-PSSession cmdlet to create a session on the Server01 remote computer.</source>
+          <target state="translated">Вторая команда использует командлет New-PSSession для создания сеанса на удаленном компьютере Server01.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The command uses the session option object in the value of the $pso variable as the value of the <bpt id="p1">*</bpt>SessionOption<ept id="p1">*</ept> parameter of the command.</source>
+          <target state="translated">Команда использует объект параметров сеанса в значении переменной $pso в качестве значения <bpt id="p1">*</bpt>SessionOption<ept id="p1">*</ept> параметра команды.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Example 3: Start an interactive session</source>
+          <target state="translated">Пример 3: Запустить интерактивный сеанс</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This command uses the Enter-PSSession cmdlet to start an interactive session with the Server01 computer.</source>
+          <target state="translated">Эта команда использует командлет Enter-PSSession, чтобы запустить интерактивный сеанс с компьютером Server01.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">*</bpt>SessionOption<ept id="p1">*</ept> parameter is a <bpt id="p2">**</bpt>New-PSSessionOption<ept id="p2">**</ept> command that has the <bpt id="p3">*</bpt>NoEncryption<ept id="p3">*</ept> and <bpt id="p4">*</bpt>NoCompression<ept id="p4">*</ept> parameters.</source>
+          <target state="translated">Значение <bpt id="p1">*</bpt>SessionOption<ept id="p1">*</ept> параметр <bpt id="p2">**</bpt>New-PSSessionOption<ept id="p2">**</ept> команда имеет <bpt id="p3">*</bpt>без шифрования<ept id="p3">*</ept> и <bpt id="p4">*</bpt>NoCompression<ept id="p4">*</ept> параметров.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-PSSessionOption<ept id="p1">**</ept> command is enclosed in parentheses to make sure that it runs before the <bpt id="p2">**</bpt>Enter-PSSession<ept id="p2">**</ept> command.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>New-PSSessionOption<ept id="p1">**</ept> команду следует заключить в круглые скобки, чтобы убедиться в том, что он выполняется перед <bpt id="p2">**</bpt>Enter-PSSession<ept id="p2">**</ept> команды.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Example 4: Modify a session option object</source>
+          <target state="translated">Пример 4: Изменить объект параметров сеанса</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This example demonstrates that you can modify the session option object.</source>
+          <target state="translated">Этот пример демонстрирует, что можно изменить объект параметров сеанса.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>All properties have read/write values.</source>
+          <target state="translated">Все свойства имеют значения для чтения и записи.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Use this method to create a standard session object for your enterprise, and then create customized versions of it for particular uses.</source>
+          <target state="translated">Используйте этот метод для создания стандартного объекта сеанса в своей организации, а затем настраивайте отдельные его версии для определенных целей.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Example 5: Create a preference variable</source>
+          <target state="translated">Пример 5: Создание переменной</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This command creates a $PSSessionOption preference variable.</source>
+          <target state="translated">Эта команда создает переменной $PSSessionOption.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>When the $PSSessionOption preference variable occurs in the session, it establishes default values for options in the sessions that are created by using the <bpt id="p1">**</bpt>New-PSSession<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Enter-PSSession<ept id="p2">**</ept>, and Invoke-Command cmdlets.</source>
+          <target state="translated">Когда переменной $PSSessionOption происходит во время сеанса, он устанавливает значения по умолчанию для параметров в сеансах, которые создаются с помощью <bpt id="p1">**</bpt>New-PSSession<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Enter-PSSession<ept id="p2">**</ept>, и командлеты Invoke-Command.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To make the $PSSessionOption variable available in all sessions, add it to your Windows PowerShell session and to your Windows PowerShell profile.</source>
+          <target state="translated">Чтобы сделать доступным во всех сеансах переменной $PSSessionOption, добавьте его в сеанс Windows PowerShell и свой профиль Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For more information about the $PSSessionOption preference variable, see about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</source>
+          <target state="translated">Дополнительные сведения о переменной $PSSessionOption см. в разделе about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For more information about profiles, see about_Profiles (http://go.microsoft.com/fwlink/?LinkID=113729).</source>
+          <target state="translated">Дополнительные сведения о профилях см. в разделе about_Profiles (http://go.microsoft.com/fwlink/?LinkID=113729).</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Example 6: Fulfill the requirements for a remote session configuration</source>
+          <target state="translated">Пример 6: Удовлетворять требованиям для конфигурации удаленного сеанса</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This example shows how to use a <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> object to fulfill the requirements for a remote session configuration.</source>
+          <target state="translated">В этом примере показано, как использовать <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> для удовлетворения требования к конфигурации удаленного сеанса.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">**</bpt>New-PSSessionOption<ept id="p1">**</ept> cmdlet to create a session option object that has the <bpt id="p2">**</bpt>SkipCNCheck<ept id="p2">**</ept> property.</source>
+          <target state="translated">Первая команда использует <bpt id="p1">**</bpt>New-PSSessionOption<ept id="p1">**</ept> командлет, чтобы создать объект параметров сеанса, который имеет <bpt id="p2">**</bpt>SkipCNCheck<ept id="p2">**</ept> свойство.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The command saves the resulting session object in the $skipCN variable.</source>
+          <target state="translated">Команда сохраняет итоговый объект сеанса в переменной $skipCN.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The second command uses the New-PSSession cmdlet to create a new session on a remote computer.</source>
+          <target state="translated">Вторая команда использует командлет New-PSSession для создания нового сеанса на удаленном компьютере.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The $skipCN check variable is used in the value of the <bpt id="p1">*</bpt>SessionOption<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">Контрольная переменная $skipCN используется в значении <bpt id="p1">*</bpt>SessionOption<ept id="p1">*</ept> параметр.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Because the computer is identified by its IP address, the value of the <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> parameter does not match any of the common names in the certificate that is used for Secure Sockets Layer (SSL).</source>
+          <target state="translated">Поскольку компьютер идентифицируется по его IP-адрес, значение <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> параметр не соответствует общие имена в сертификате, который используется для Secure Sockets Layer (SSL).</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>As a result, the <bpt id="p1">**</bpt>SkipCNCheck<ept id="p1">**</ept> option is required.</source>
+          <target state="translated">В результате <bpt id="p1">**</bpt>SkipCNCheck<ept id="p1">**</ept> параметр является обязательным.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Example 7: Make arguments available to a remote session</source>
+          <target state="translated">Пример 7: Доступность аргументы для удаленного сеанса</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the <bpt id="p1">*</bpt>ApplicationArguments<ept id="p1">*</ept> parameter of the <bpt id="p2">**</bpt>New-PSSessionOption<ept id="p2">**</ept> cmdlet to make additional data available to the remote session.</source>
+          <target state="translated">В этом примере показано, как использовать <bpt id="p1">*</bpt>ApplicationArguments<ept id="p1">*</ept> параметр <bpt id="p2">**</bpt>New-PSSessionOption<ept id="p2">**</ept> командлет, чтобы сделать доступными удаленным сеансом дополнительные данные.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The first command creates a hash table with two keys, Team and Use.</source>
+          <target state="translated">Первая команда создает хэш-таблицу с двумя ключами — Team и Use.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The command saves the hash table in the $team variable.</source>
+          <target state="translated">Команда сохраняет хэш-таблицу в переменной $team.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>For more information about hash tables, see about_Hash_Tables (http://go.microsoft.com/fwlink/?LinkID=135175).</source>
+          <target state="translated">Дополнительные сведения о хэш-таблицах см. в описании about_Hash_Tables (http://go.microsoft.com/fwlink/?LinkID=135175).</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">*</bpt>ApplicationArguments<ept id="p1">*</ept> parameter of the <bpt id="p2">**</bpt>New-PSSessionOption<ept id="p2">**</ept> cmdlet to create a session option object that contains the data in the $team variable.</source>
+          <target state="translated">Вторая команда использует <bpt id="p1">*</bpt>ApplicationArguments<ept id="p1">*</ept> параметр <bpt id="p2">**</bpt>New-PSSessionOption<ept id="p2">**</ept> командлет, чтобы создать объект параметров сеанса, который содержит данные в переменной $team.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The command saves the session option object in the $teamOption variable.</source>
+          <target state="translated">Команда сохраняет объект параметров сеанса в переменной $teamOption.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>When <bpt id="p1">**</bpt>New-PSSessionOption<ept id="p1">**</ept> creates the session option object, it automatically converts the hash table in the value of the <bpt id="p2">*</bpt>ApplicationArguments<ept id="p2">*</ept> parameter to a primitive dictionary so the data can be reliably transmitted to the remote session.</source>
+          <target state="translated">При <bpt id="p1">**</bpt>New-PSSessionOption<ept id="p1">**</ept> создает объект параметров сеанса, он автоматически преобразует хэш-таблицы в значении <bpt id="p2">*</bpt>ApplicationArguments<ept id="p2">*</ept> параметр в словарь примитивов, чтобы данные можно было безопасно передать в удаленный сеанс.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The third command uses the New-PSSession cmdlet to start a session on the Server01 computer.</source>
+          <target state="translated">Третья команда использует командлет New-PSSession для запуска сеанса на сервере server01.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>SessionOption<ept id="p1">*</ept> parameter to include the options in the $teamOption variable.</source>
+          <target state="translated">Он использует <bpt id="p1">*</bpt>SessionOption<ept id="p1">*</ept> параметр для включения параметров в переменной $teamOption.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The fourth command demonstrates that the data in the $team variable is available to commands in the remote session.</source>
+          <target state="translated">Четвертая команда демонстрирует, что данные в переменной $team доступны для команды в удаленном сеансе.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The data appears in the <bpt id="p1">**</bpt>ApplicationArguments<ept id="p1">**</ept> property of the $PSSenderInfo automatic variable.</source>
+          <target state="translated">Данные отображаются в виде <bpt id="p1">**</bpt>ApplicationArguments<ept id="p1">**</ept> свойство автоматической переменной $PSSenderInfo.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The fifth command shows how the data might be used.</source>
+          <target state="translated">Пятая команда показывает, как можно использовать эти данные.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The command uses the Invoke-Command cmdlet to run a script only when the value of the <bpt id="p1">**</bpt>Use<ept id="p1">**</ept> property is not Testing.</source>
+          <target state="translated">Команда использует командлет Invoke-Command для выполнения сценария только тогда, когда значение <bpt id="p1">**</bpt>Используйте<ept id="p1">**</ept> свойство не тестирования.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>When the value of <bpt id="p1">**</bpt>Use<ept id="p1">**</ept> is Testing, the command returns Just testing.</source>
+          <target state="translated">Если значение <bpt id="p1">**</bpt>Используйте<ept id="p1">**</ept> тестирует, команда возвращает только при тестировании.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">ПАРАМЕТРЫ</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>-ApplicationArguments</source>
+          <target state="translated">-ApplicationArguments</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Specifies a primitive dictionary that is sent to the remote session.</source>
+          <target state="translated">Указывает словарь примитивов, отправляемый в удаленный сеанс.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Commands and scripts in the remote session, including startup scripts in the session configuration, can find this dictionary in the <bpt id="p1">**</bpt>ApplicationArguments<ept id="p1">**</ept> property of the $PSSenderInfo automatic variable.</source>
+          <target state="translated">Команды и сценарии в удаленном сеансе, включая сценарии запуска в конфигурации сеанса, можно найти этот словарь в <bpt id="p1">**</bpt>ApplicationArguments<ept id="p1">**</ept> свойство автоматической переменной $PSSenderInfo.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>You can use this parameter to send data to the remote session.</source>
+          <target state="translated">Этот параметр можно использовать для отправки данных в удаленный сеанс.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A primitive dictionary is like a hash table, but it contains keys that are case-insensitive strings and values that can be serialized and deserialized during Windows PowerShell remoting handshakes.</source>
+          <target state="translated">Словарь примитивов похож на хэш-таблицу, но содержит ключи, представляющие собой строки и значения без учета регистра, которые можно сериализовать и десериализовать во время удаленных подтверждений Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>If you enter a hash table for the value of this parameter, Windows PowerShell converts it to a primitive dictionary.</source>
+          <target state="translated">В случае ввода хэш-таблицы для значения этого параметра Windows PowerShell преобразует ее в словарь примитивов.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Hash_Tables (http://go.microsoft.com/fwlink/?LinkID=135175), about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152), and about_Automatic_Variables (http://go.microsoft.com/fwlink/?LinkID=113212).</source>
+          <target state="translated">Дополнительные сведения см. в разделе about_Hash_Tables (http://go.microsoft.com/fwlink/?LinkID=135175), about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152) и about_Automatic_Variables (http://go.microsoft.com/fwlink/?LinkID=113212).</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-CancelTimeout</source>
+          <target state="translated">-CancelTimeout</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Determines how long Windows PowerShell waits for a cancel operation (CTRL + C) to finish before ending it.</source>
+          <target state="translated">Определяет, как долго Windows PowerShell ожидает операцию отмены (CTRL + C), чтобы завершить до его завершения.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Enter a value in milliseconds.</source>
+          <target state="translated">Введите значение в миллисекундах.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The default value is 60000 (one minute).</source>
+          <target state="translated">Значение по умолчанию — 60 000 (одна минута).</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>A value of 0 (zero) means no time-out; the command continues indefinitely.</source>
+          <target state="translated">Значение 0 (ноль) означает отсутствие времени ожидания; команда будет продолжать выполняться неопределенно долго.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>-Culture</source>
+          <target state="translated">-Языка и региональных параметров</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Specifies the culture to use for the session.</source>
+          <target state="translated">Указывает язык и региональные параметры, используемые для сеанса.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Enter a culture name in <ph id="ph1">\&lt;</ph>languagecode2<ph id="ph2">\&gt;-\&lt;</ph>country/regioncode2<ph id="ph3">\&gt;</ph> format, such as ja-jP, a variable that contains a <bpt id="p1">**</bpt>CultureInfo<ept id="p1">**</ept> object, or a command that gets a <bpt id="p2">**</bpt>CultureInfo<ept id="p2">**</ept> object, such as Get-Culture.</source>
+          <target state="translated">Введите имя языка и региональных параметров в <ph id="ph1">\&lt;</ph>languagecode2<ph id="ph2">\&gt;-\&lt;</ph>код_страны_или_региона2<ph id="ph3">\&gt;</ph> Формат, например ja-jP, переменную, содержащую <bpt id="p1">**</bpt>CultureInfo<ept id="p1">**</ept> объекта или команду, которая получает <bpt id="p2">**</bpt>CultureInfo<ept id="p2">**</ept> объекта, например Get-Culture.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The default value is $Null, and the culture that is set in the operating system is used in the session.</source>
+          <target state="translated">Значение по умолчанию используется $Null, и в сеансе используется язык и региональные параметры, который установлен в операционной системе.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>-IdleTimeout</source>
+          <target state="translated">-IdleTimeout</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Determines how long the session stays open if the remote computer does not receive any communication from the local computer.</source>
+          <target state="translated">Определяет, как долго сеанс остается открытым, если удаленный компьютер не получает любое взаимодействие на локальном компьютере.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>This includes the heartbeat signal.</source>
+          <target state="translated">Сюда входят сигнал пульса.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>When the interval expires, the session closes.</source>
+          <target state="translated">По истечении этого времени сеанс закрывается.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The idle time-out value is of significant importance if you intend to disconnect and reconnect to a session.</source>
+          <target state="translated">Значение времени ожидания простоя — важно, если планируется отключиться и повторно подключиться к сеансу.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>You can reconnect only if the session has not timed out.</source>
+          <target state="translated">Повторно подключиться можно только в том случае, если не истекло время ожидания сеанса.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Enter a value in milliseconds.</source>
+          <target state="translated">Введите значение в миллисекундах.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The minimum value is 60000 (1 minute).</source>
+          <target state="translated">Минимальное значение — 60 000 (1 минута).</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The maximum is the value of the <bpt id="p1">**</bpt>MaxIdleTimeoutms<ept id="p1">**</ept> property of the session configuration.</source>
+          <target state="translated">Максимальное значение <bpt id="p1">**</bpt>MaxIdleTimeoutms<ept id="p1">**</ept> Свойства конфигурации сеанса.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The default value, -1, does not set an idle time-out.</source>
+          <target state="translated">Значение по умолчанию — -1, не устанавливает времени простоя.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The session uses the idle time-out that is set in the session options, if any.</source>
+          <target state="translated">При наличии, то сеанс использует время простоя, который задается в параметрах сеанса.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>If none is set (-1), the session uses the value of the <bpt id="p1">**</bpt>IdleTimeoutMs<ept id="p1">**</ept> property of the session configuration or the WSMan shell time-out value (<ph id="ph1">`WSMan:\\\&lt;ComputerName\&gt;\Shell\IdleTimeout`</ph>), whichever is shortest.</source>
+          <target state="translated">Если значение не задано (-1), то сеанс использует значение <bpt id="p1">**</bpt>IdleTimeoutMs<ept id="p1">**</ept> Свойства конфигурации сеанса или значение времени ожидания оболочки WSMan (<ph id="ph1">`WSMan:\\\&lt;ComputerName\&gt;\Shell\IdleTimeout`</ph>), какое значение меньше.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>If the idle timeout set in the session options exceeds the value of the <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> property of the session configuration, the command to create a session fails.</source>
+          <target state="translated">Если задать в параметрах сеанса время ожидания простоя превышает значение <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> Свойства конфигурации сеанса, команду, чтобы создать сеанс завершается с ошибкой.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>IdleTimeoutMs<ept id="p1">**</ept> value of the default <bpt id="p2">**</bpt>Microsoft.PowerShell<ept id="p2">**</ept> session configuration is 7200000 milliseconds (2 hours).</source>
+          <target state="translated"> <bpt id="p1">**</bpt>IdleTimeoutMs<ept id="p1">**</ept> значение по умолчанию <bpt id="p2">**</bpt>Microsoft.PowerShell<ept id="p2">**</ept> Конфигурация сеанса — 7 200 000 миллисекунд (2 часа).</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Its <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> value is 2147483647 milliseconds (<ph id="ph1">\&gt;</ph>24 days).</source>
+          <target state="translated">Его <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> значение — 2147483647 миллисекунд (<ph id="ph1">\&gt;</ph>24 дня).</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The default value of the WSMan shell idle time-out (<ph id="ph1">`WSMan:\\\&lt;ComputerName\&gt;\Shell\IdleTimeout`</ph>) is 7200000 milliseconds (2 hours).</source>
+          <target state="translated">Значение по умолчанию для времени ожидания простоя оболочки WSMan (<ph id="ph1">`WSMan:\\\&lt;ComputerName\&gt;\Shell\IdleTimeout`</ph>) — 7 200 000 миллисекунд (2 часа).</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The idle time-out value of a session can also be changed when disconnecting from a session or reconnecting to a session.</source>
+          <target state="translated">Также можно изменить значение времени ожидания простоя сеанса, при отключении от сеанса или новом подключении к сеансу.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>For more information, see Disconnect-PSSession and Connect-PSSession.</source>
+          <target state="translated">Дополнительные сведения см. в разделе Disconnect-PSSession и Connect-PSSession.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, the default value of the <bpt id="p1">*</bpt>IdleTimeout<ept id="p1">*</ept> parameter is 240000 (4 minutes).</source>
+          <target state="translated">В Windows PowerShell 2.0 значение по умолчанию <bpt id="p1">*</bpt>IdleTimeout<ept id="p1">*</ept> равно 240 000 (4 минуты).</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>-IncludePortInSPN</source>
+          <target state="translated">-IncludePortInSPN</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Includes the port number in the Service Principal Name (SPN) used for Kerberos authentication, for example, <ph id="ph1">`HTTP/\&lt;ComputerName\&gt;:5985`</ph>.</source>
+          <target state="translated">Включает номер порта в имя участника службы (SPN) для проверки подлинности Kerberos, например, <ph id="ph1">`HTTP/\&lt;ComputerName\&gt;:5985`</ph>.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>This option allows a client that uses a non-default SPN to authenticate against a remote computer that uses Kerberos authentication.</source>
+          <target state="translated">Этот параметр позволяет клиенту, который использует имя субъекта-службы, отличное от значения по умолчанию, выполнять аутентификацию для удаленного компьютера, который использует аутентификацию Kerberos.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The option is designed for enterprises where multiple services that support Kerberos authentication are running under different user accounts.</source>
+          <target state="translated">Параметр предназначен для организаций, где несколько служб, поддерживающих аутентификацию Kerberos, выполняются с использованием разных учетных записей пользователей.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>For example, an IIS application that allows for Kerberos authentication can require the default SPN to be registered to a user account that differs from the computer account.</source>
+          <target state="translated">Например приложение IIS, которое позволяет для проверки подлинности Kerberos может потребоваться имя участника-СЛУЖБЫ для регистрации учетной записи пользователя, отличную от учетной записи компьютера по умолчанию.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>In such cases, Windows PowerShell remoting cannot use Kerberos to authenticate because it requires an SPN that is registered to the computer account.</source>
+          <target state="translated">В таких случаях удаленные процедуры Windows PowerShell не могут использовать Kerberos для аутентификации, поскольку требуется имя субъекта-службы, зарегистрированное в учетной записи компьютера.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>To resolve this problem, administrators can create different SPNs, such as by using Setspn.exe, that are registered to different user accounts and can distinguish between them by including the port number in the SPN.</source>
+          <target state="translated">Чтобы устранить эту проблему, администраторы могут создавать различные имена участников-служб, таких, как с помощью Setspn.exe, который регистрируются для различных учетных записей пользователей и различать их, включая номер порта в имя участника-СЛУЖБЫ.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>For more information about SetSPN.exe, see SetSPN Overviewhttp://go.microsoft.com/fwlink/?LinkID=189413 (http://go.microsoft.com/fwlink/?LinkID=189413).</source>
+          <target state="translated">Дополнительные сведения о SetSPN.exe см. в разделе SetSPN Overviewhttp://go.microsoft.com/fwlink/?LinkID=189413 (http://go.microsoft.com/fwlink/?LinkID=189413).</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Этот параметр впервые появился в Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>-MaxConnectionRetryCount</source>
+          <target state="translated">-MaxConnectionRetryCount</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Specifies the number of times that PowerShell attempts to make a connection to a target machine if the current attempt fails due to network issues.</source>
+          <target state="translated">Указывает количество попыток PowerShell пытается установить подключение к целевому компьютеру, если текущий завершается неудачей из-за неполадок в сети.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The default value is 5.</source>
+          <target state="translated">Значение по умолчанию — 5.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>This parameter was added for PowerShell version 5.0.</source>
+          <target state="translated">Этот параметр был добавлен для PowerShell версии 5.0.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>-MaximumReceivedDataSizePerCommand</source>
+          <target state="translated">-MaximumReceivedDataSizePerCommand</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum number of bytes that the local computer can receive from the remote computer in a single command.</source>
+          <target state="translated">Указывает максимальное число байтов, которые может получить локальный компьютер с удаленного компьютера в рамках одной команды.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Enter a value in bytes.</source>
+          <target state="translated">Введите значение в байтах.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>By default, there is no data size limit.</source>
+          <target state="translated">По умолчанию ограничения размера данных отсутствуют.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>This option is designed to protect the resources on the client computer.</source>
+          <target state="translated">Этот параметр предназначен для защиты ресурсов на клиентском компьютере.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>-MaximumReceivedObjectSize</source>
+          <target state="translated">-MaximumReceivedObjectSize</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum size of an object that the local computer can receive from the remote computer.</source>
+          <target state="translated">Указывает максимальный размер объекта, который может получить локальный компьютер с удаленного компьютера.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>This option is designed to protect the resources on the client computer.</source>
+          <target state="translated">Этот параметр предназначен для защиты ресурсов на клиентском компьютере.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Enter a value in bytes.</source>
+          <target state="translated">Введите значение в байтах.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, if you omit this parameter, there is no object size limit.</source>
+          <target state="translated">Если пропустить этот параметр в Windows PowerShell 2.0, ограничение на размер объекта не действует.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, if you omit this parameter, the default value is 200 MB.</source>
+          <target state="translated">Начиная с Windows PowerShell 3.0, при отсутствии этого параметра применяется значение по умолчанию — 200 МБ.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>-MaximumRedirection</source>
+          <target state="translated">-MaximumRedirection</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Determines how many times Windows PowerShell redirects a connection to an alternate Uniform Resource Identifier (URI) before the connection fails.</source>
+          <target state="translated">Определяет, сколько раз Windows PowerShell перенаправляет соединение на альтернативный URI перед сбоем подключения.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The default value is 5.</source>
+          <target state="translated">Значение по умолчанию — 5.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>A value of 0 (zero) prevents all redirection.</source>
+          <target state="translated">Значение 0 (ноль) запрещает любые перенаправления.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>This option is used in the session only when the <bpt id="p1">*</bpt>AllowRedirection<ept id="p1">*</ept> parameter is used in the command that creates the session.</source>
+          <target state="translated">Этот параметр используется в сеансе только если <bpt id="p1">*</bpt>AllowRedirection<ept id="p1">*</ept> параметр используется в команде, которая создает сеанс.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>-NoCompression</source>
+          <target state="translated">-NoCompression</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Turns off packet compression in the session.</source>
+          <target state="translated">Отключает сжатие пакетов в сеансе.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Compression uses more processor cycles, but it makes transmission faster.</source>
+          <target state="translated">Сжатие требует большего числа рабочих циклов процессора, но ускоряет передачу.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>-NoEncryption</source>
+          <target state="translated">-Без шифрования</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Turns off data encryption.</source>
+          <target state="translated">Отключает шифрование данных.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>-NoMachineProfile</source>
+          <target state="translated">-NoMachineProfile</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Prevents loading the user's Windows user profile.</source>
+          <target state="translated">Запрещает загрузку профиля пользователя Windows.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>As a result, the session might be created faster, but user-specific registry settings, items such as environment variables, and certificates are not available in the session.</source>
+          <target state="translated">В результате сеанс может создаваться быстрее, но в нем будут недоступны параметры реестра для конкретного пользователя, элементы, такие как переменные среды, и сертификаты.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>-OpenTimeout</source>
+          <target state="translated">-OpenTimeout</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Determines how long the client computer waits for the session connection to be established.</source>
+          <target state="translated">Определяет время ожидания клиентского компьютера при установлении соединения сеанса.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>When the interval expires, the command to establish the connection fails.</source>
+          <target state="translated">По истечении периода команда для установления соединения завершается с ошибкой.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Enter a value in milliseconds.</source>
+          <target state="translated">Введите значение в миллисекундах.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The default value is 180000 (3 minutes).</source>
+          <target state="translated">Значение по умолчанию — 180 000 (3 минуты).</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>A value of 0 (zero) means no time-out; the command continues indefinitely.</source>
+          <target state="translated">Значение 0 (ноль) означает отсутствие времени ожидания; команда будет продолжать выполняться неопределенно долго.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>-OperationTimeout</source>
+          <target state="translated">-OperationTimeout</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Determines the maximum time that any operation in the session can run.</source>
+          <target state="translated">Определяет максимальное время выполнения любой операции в сеансе.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>When the interval expires, the operation fails.</source>
+          <target state="translated">По истечении периода операция завершается с ошибкой.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Enter a value in milliseconds.</source>
+          <target state="translated">Введите значение в миллисекундах.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The default value is 180000 (3 minutes).</source>
+          <target state="translated">Значение по умолчанию — 180 000 (3 минуты).</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>A value of 0 (zero) means no time-out; the operation continues indefinitely.</source>
+          <target state="translated">Значение 0 (ноль) означает отсутствие времени ожидания; операция будет продолжать выполняться неопределенно долго.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>-OutputBufferingMode</source>
+          <target state="translated">-OutputBufferingMode</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Determines how command output is managed in disconnected sessions when the output buffer becomes full.</source>
+          <target state="translated">Определяет порядок управления выходным потоком команды в отключенных сеансах при заполнении .</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>If the output buffering mode is not set in the session or in the session configuration, the default value is <bpt id="p1">**</bpt>Block<ept id="p1">**</ept>.</source>
+          <target state="translated">Если не задан режим буферизации выходных данных в сеансе или в конфигурации сеанса, значение по умолчанию — <bpt id="p1">**</bpt>блок<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Users can also change the output buffering mode when disconnecting the session.</source>
+          <target state="translated">Пользователи также могут изменять режим буферизации выходных данных при отключении сеанса.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, the value of the <bpt id="p1">**</bpt>OutputBufferingMode<ept id="p1">**</ept> of the session option object is None.</source>
+          <target state="translated">Если опустить этот параметр, значение <bpt id="p1">**</bpt>OutputBufferingMode<ept id="p1">**</ept> параметра сеанса объект не используется.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>A value of Block or Drop overrides the output buffering mode transport option set in the session configuration.</source>
+          <target state="translated">Значение блока или Drop переопределяет задать в конфигурации сеанса параметр режим буферизации выходных данных.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">Ниже указаны допустимые значения этого параметра.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Block.</source>
+          <target state="translated">Блок.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>When the output buffer is full, execution is suspended until the buffer is clear.</source>
+          <target state="translated">при заполнении выходного буфера выполнение команды приостанавливается до тех пор, пока буфер не будет очищен.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Drop.</source>
+          <target state="translated">Удалите.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>When the output buffer is full, execution continues.</source>
+          <target state="translated">при заполнении выходного буфера выполнение команды продолжается.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>As new output is saved, the oldest output is discarded.</source>
+          <target state="translated">Новые выходные данные сохраняются вместо наиболее старых.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>None.</source>
+          <target state="translated">Нет.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>No output buffering mode is specified.</source>
+          <target state="translated">порядок действий в случае переполнения выходного буфера не установлен.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>For more information about the output buffering mode transport option, see New-PSTransportOption.</source>
+          <target state="translated">Дополнительные сведения о режима буферизации выходных данных в разделе New-PSTransportOption.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Этот параметр впервые появился в Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>-ProxyAccessType</source>
+          <target state="translated">-ProxyAccessType</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Determines which mechanism is used to resolve the host name.</source>
+          <target state="translated">Определяет, какой механизм используется для разрешения имени узла.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">Ниже указаны допустимые значения этого параметра.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>IEConfig</source>
+          <target state="translated">IEConfig</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>WinHttpConfig</source>
+          <target state="translated">WinHttpConfig</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>AutoDetect</source>
+          <target state="translated">Автоматическое определение</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>NoProxyServer</source>
+          <target state="translated">NoProxyServer</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">Нет</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The default value is None.</source>
+          <target state="translated">Значение по умолчанию: None.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>For information about the values of this parameter, see the description of the System.Management.Automation.Remoting.ProxyAccessTypehttp://go.microsoft.com/fwlink/?LinkId=144756 (http://go.microsoft.com/fwlink/?LinkId=144756) enumeration in the Microsoft Developer Network (MSDN) library.</source>
+          <target state="translated">Дополнительные сведения о значениях этого параметра см. в описании перечисления System.Management.Automation.Remoting.ProxyAccessTypehttp://go.microsoft.com/fwlink/?LinkId=144756 (http://go.microsoft.com/fwlink/?LinkId=144756) в библиотеке Microsoft Developer Network (MSDN).</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>-ProxyAuthentication</source>
+          <target state="translated">-ProxyAuthentication</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Specifies the authentication method that is used for proxy resolution.</source>
+          <target state="translated">Задает метод аутентификации, используемый для разрешения прокси-сервера.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are: Basic,  Digest, and Negotiate.</source>
+          <target state="translated">Допустимые значения для этого параметра: Basic, Digest и согласование.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>The default value is Negotiate.</source>
+          <target state="translated">Значение по умолчанию — Negotiate.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>For information about the values of this parameter, see the description of the System.Management.Automation.Runspaces.AuthenticationMechanismhttp://go.microsoft.com/fwlink/?LinkID=144382 enumeration (http://go.microsoft.com/fwlink/?LinkID=144382) in the MSDN library.</source>
+          <target state="translated">Дополнительные сведения о значениях этого параметра см. в описании перечисления System.Management.Automation.Runspaces.AuthenticationMechanismhttp://go.microsoft.com/fwlink/?LinkID=144382 (http://go.microsoft.com/fwlink/?LinkID=144382) в библиотеке MSDN.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>-ProxyCredential</source>
+          <target state="translated">-ProxyCredential</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Specifies the credentials to use for proxy authentication.</source>
+          <target state="translated">Задает учетные данные, используемые для аутентификации прокси-сервера.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains a <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> object or a command that gets a <bpt id="p2">**</bpt>PSCredential<ept id="p2">**</ept> object, such as a Get-Credential command.</source>
+          <target state="translated">Введите переменную, содержащую <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> объекта или команду, которая получает <bpt id="p2">**</bpt>PSCredential<ept id="p2">**</ept> объекта, например команда Get-Credential.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>If this option is not set, no credentials are specified.</source>
+          <target state="translated">Если этот параметр не установлен, учетные данные не заданы.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>-SkipCACheck</source>
+          <target state="translated">-SkipCACheck</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Specifies that when it connects over HTTPS, the client does not validate that the server certificate is signed by a trusted certification authority (CA).</source>
+          <target state="translated">Указывает, что при подключении по протоколу HTTPS, клиент не проверяет, подписан сертификат сервера доверенным центром сертификации (ЦС).</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Use this option only when the remote computer is trusted by using another mechanism, such as when the remote computer is part of a network that is physically secure and isolated or when the remote computer is listed as a trusted host in a WinRM configuration.</source>
+          <target state="translated">Используйте этот параметр только в том случае, если имеются другие основания считать удаленный компьютер доверенным, например, если он входит в состав физически защищенной и изолированной сети либо указан в качестве доверенного узла в конфигурации службы удаленного управления Windows.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>-SkipCNCheck</source>
+          <target state="translated">-SkipCNCheck</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Specifies that the certificate common name (CN) of the server does not have to match the host name of the server.</source>
+          <target state="translated">Указывает, что общее имя сертификата (CN) сервера не должно соответствовать имени узла сервера.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>This option is used only in remote operations that use the HTTPS protocol.</source>
+          <target state="translated">Этот параметр используется только для удаленных операций, использующих протокол HTTPS.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Use this option only for trusted computers.</source>
+          <target state="translated">Используйте этот параметр только для доверенных компьютеров.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>-SkipRevocationCheck</source>
+          <target state="translated">-SkipRevocationCheck</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Does not validate the revocation status of the server certificate.</source>
+          <target state="translated">Не проверяет состояние отзыва сертификата сервера.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>-UICulture</source>
+          <target state="translated">-UICulture</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Specifies the UI culture to use for the session.</source>
+          <target state="translated">Указывает язык и региональные параметры пользовательского интерфейса, используемые для сеанса.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Enter a culture name in <ph id="ph1">\&lt;</ph>languagecode2<ph id="ph2">\&gt;-\&lt;</ph>country/regioncode2<ph id="ph3">\&gt;</ph> format, such as ja-jP, a variable that contains a <bpt id="p1">**</bpt>CultureInfo<ept id="p1">**</ept> object, or a command that gets a <bpt id="p2">**</bpt>CultureInfo<ept id="p2">**</ept> object, such as <bpt id="p3">**</bpt>Get-Culture<ept id="p3">**</ept>.</source>
+          <target state="translated">Введите имя языка и региональных параметров в <ph id="ph1">\&lt;</ph>languagecode2<ph id="ph2">\&gt;-\&lt;</ph>код_страны_или_региона2<ph id="ph3">\&gt;</ph> Формат, например ja-jP, переменную, содержащую <bpt id="p1">**</bpt>CultureInfo<ept id="p1">**</ept> объекта или команду, которая получает <bpt id="p2">**</bpt>CultureInfo<ept id="p2">**</ept> объект, такой как <bpt id="p3">**</bpt>Get-Culture<ept id="p3">**</ept>.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>The default value is $Null, and the UI culture that is set in the operating system when the session is created is used in the session.</source>
+          <target state="translated">Значение по умолчанию используется $Null, и в сеансе используется язык и региональные параметры пользовательского Интерфейса, установленной в операционной системе при создании сеанса.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>-UseUTF16</source>
+          <target state="translated">-UseUTF16</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet encodes the request in UTF16 format instead of UTF8 format.</source>
+          <target state="translated">Указывает, что этот командлет кодирует запроса в формате UTF16 вместо UTF8 формата.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Этот командлет поддерживает общие параметры:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction и - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Дополнительные сведения см. в разделе about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ВХОДНЫЕ ДАННЫЕ</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">Нет</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>You cannot pipe input to this cmdlet.</source>
+          <target state="translated">В этот командлет нельзя передать входные данные.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">ВЫХОДНЫЕ ДАННЫЕ</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.Remoting.PSSessionOption</source>
+          <target state="translated">System.Management.Automation.Remoting.PSSessionOption</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ПРИМЕЧАНИЯ</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">*</bpt>SessionOption<ept id="p1">*</ept> parameter is not used in a command to create a <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>, the session options are determined by the property values of the $PSSessionOption preference variable, if it is set.</source>
+          <target state="translated">Если <bpt id="p1">*</bpt>SessionOption<ept id="p1">*</ept> параметр не используется в команде для создания <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>, сеанс, параметры определяются значения свойств переменной $PSSessionOption, если оно задано.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>For more information about the $PSSessionOption variable, see about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</source>
+          <target state="translated">Дополнительные сведения о переменной $PSSessionOption см. в разделе about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>The properties of a session configuration object vary with the options set for the session configuration and the values of those options.</source>
+          <target state="translated">Свойства объекта конфигурации сеанса зависят от заданных для конфигурации сеанса параметров и значений этих параметров.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Also, session configurations that use a session configuration file have additional properties.</source>
+          <target state="translated">Кроме того, конфигурации сеансов, определяющие с помощью файла конфигурации, включают дополнительные свойства.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">СВЯЗАННЫЕ ССЫЛКИ</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Enter-PSSession</source>
+          <target state="translated">Enter-PSSession</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Invoke-Command</source>
+          <target state="translated">Invoke-Command</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>New-PSSession</source>
+          <target state="translated">New-PSSession</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

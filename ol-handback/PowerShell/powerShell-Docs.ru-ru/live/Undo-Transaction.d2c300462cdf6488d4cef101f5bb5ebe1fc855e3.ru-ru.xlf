@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9d5e7c506312853e1ed5c767f5dd299a55503a42</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Management\Undo-Transaction.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">26a10b76c7734e9ec7a52c9d95936360adb250a9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7004e4f39f7f935972fbda97cdb358ab8a3453ed</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell, командлет</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Undo-Transaction</source>
+          <target state="translated">Undo-Transaction</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Undo-Transaction</source>
+          <target state="translated">Undo-Transaction</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">КРАТКИЙ ОБЗОР</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Rolls back the active transaction.</source>
+          <target state="translated">Откатывает активную транзакцию.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">СИНТАКСИС</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">ОПИСАНИЕ</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Undo-Transaction<ept id="p1">**</ept> cmdlet rolls back the active transaction.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Транзакции отмены<ept id="p1">**</ept> командлет выполняет откат активной транзакции.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When you roll back a transaction, the changes that were made by the commands in the transaction are discarded and the data is restored to its original form.</source>
+          <target state="translated">При откате транзакции изменения, выполненные с помощью команды в транзакции отменяются и данные восстанавливаются в исходном виде.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If the transaction includes multiple subscribers, an <bpt id="p1">**</bpt>Undo-Transaction<ept id="p1">**</ept> command rolls back the whole transaction for all subscribers.</source>
+          <target state="translated">Если транзакция включает несколько подписчиков <bpt id="p1">**</bpt>транзакции отмены<ept id="p1">**</ept> команда выполняет откат всей транзакции для всех подписчиков.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>By default, transactions are rolled back automatically if any command in the transaction generates an error.</source>
+          <target state="translated">По умолчанию откат транзакций выполняется автоматически в случае создания ошибки любой из команд в транзакции.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>However, transactions can be started by using a different rollback preference and you can use this cmdlet to roll back the active transaction at any time.</source>
+          <target state="translated">Однако транзакции можно запустить с помощью другой настройкой отката и с помощью этого командлета можно выполнить откат активной транзакции в любое время.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Undo-Transaction<ept id="p1">**</ept> cmdlet is one of a set of cmdlets that support the transactions feature in Windows PowerShell.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Транзакции отмены<ept id="p1">**</ept> — это один из набора командлетов, которые поддерживают функцию транзакций в Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Transactions.</source>
+          <target state="translated">Дополнительные сведения см. в разделе about_Transactions.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">ПРИМЕРЫ</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Example 1: Roll back the current transaction</source>
+          <target state="translated">Пример 1: Откат текущей транзакции</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This command rolls back the current, active, transaction.</source>
+          <target state="translated">Эта команда откат current, активным.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Example 2: Start and roll back a transaction</source>
+          <target state="translated">Пример 2: Запуск и откат транзакции</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This example starts a transaction and then rolls it back.</source>
+          <target state="translated">В этом примере запускает транзакцию и выполняет ее откат.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>As a result, no changes are made to the registry.</source>
+          <target state="translated">В результате изменения не вносятся в реестр.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Example 3: Roll back a transaction for all subscribers</source>
+          <target state="translated">Пример 3: Откат транзакции для всех подписчиков</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This example demonstrates that when any subscriber rolls back a transaction, the whole transaction is rolled back for all subscribers.</source>
+          <target state="translated">Этот пример показывает, что если любым подписчиком откат транзакции, откат всей транзакции для всех подписчиков.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The first command changes the location to the HKCU:\Software registry key.</source>
+          <target state="translated">Первая команда изменяет расположение на раздел реестра HKCU:\Software.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The second command starts a transaction.</source>
+          <target state="translated">Вторая команда запускает транзакцию.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The third command uses the New-Item cmdlet to create a new registry key.</source>
+          <target state="translated">Третья команда использует командлет New-Item для создания нового раздела реестра.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>UseTransaction<ept id="p1">*</ept> parameter to include the change in the transaction.</source>
+          <target state="translated">Команда использует <bpt id="p1">*</bpt>UseTransaction<ept id="p1">*</ept> параметр для включения изменений в транзакции.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The fourth command uses the Get-Transaction cmdlet to get the active transaction.</source>
+          <target state="translated">Четвертая команда использует командлет Get-Transaction для получения активной транзакции.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Notice that the status is Active and the subscriber count is 1.</source>
+          <target state="translated">Обратите внимание, что состояние — Active, а число подписчиков — 1.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The fifth command uses the Start-Transaction command again.</source>
+          <target state="translated">Пятая команда использует команду Start-Transaction еще раз.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Typically, starting a transaction while another transaction is in progress occurs when a script that is used by the main transaction includes its own complete transaction.</source>
+          <target state="translated">Как правило запуск транзакции во время другой транзакции возникает, когда сценарий, используемый основной транзакцией содержит собственную полную транзакцию.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This example is performed interactively so that you can examine it in stages.</source>
+          <target state="translated">В этом примере выполняется интерактивно, чтобы можно было проанализировать его этапах.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>When you run a <bpt id="p1">**</bpt>Start-Transaction<ept id="p1">**</ept> command while another transaction is in progress, the commands join the existing transaction as a new subscriber and the subscriber count is incremented.</source>
+          <target state="translated">При запуске <bpt id="p1">**</bpt>Start-Transaction<ept id="p1">**</ept> команды во время другой транзакции команды присоединяются к существующей транзакции, как новый подписчик и число подписчиков увеличивается.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The sixth command uses the <bpt id="p1">**</bpt>Get-Transaction<ept id="p1">**</ept> cmdlet to get the active transaction.</source>
+          <target state="translated">Шестая команда использует <bpt id="p1">**</bpt>Get-Transaction<ept id="p1">**</ept> для получения активной транзакции.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Notice that the subscriber count is now 2.</source>
+          <target state="translated">Обратите внимание, что число подписчиков теперь 2.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The seventh command uses <bpt id="p1">**</bpt>Undo-Transaction<ept id="p1">**</ept> to roll back the transaction.</source>
+          <target state="translated">Седьмая команда использует <bpt id="p1">**</bpt>транзакции отмены<ept id="p1">**</ept> выполнить откат транзакции.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This command does not return any objects.</source>
+          <target state="translated">Этот командлет не возвращает никакие объекты.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The final command is a <bpt id="p1">**</bpt>Get-Transaction<ept id="p1">**</ept> command that gets the active, or in this case, the most recently active, transaction.</source>
+          <target state="translated">Последняя команда <bpt id="p1">**</bpt>Get-Transaction<ept id="p1">**</ept> команду, которая получает активным, или в данном случае последнюю активную, транзакции.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The results show that the transaction is rolled back, and that the subscriber count is 0, showing that the transaction was rolled back for all subscribers.</source>
+          <target state="translated">Результаты показывают, что откат транзакции выполнен и число подписчиков равно 0, то есть, откат транзакции был выполнен для всех подписчиков.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">ПАРАМЕТРЫ</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">Запрашивает подтверждение перед запуском командлета. Запрашивает подтверждение перед запуском командлета.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Показывает, что произойдет при запуске командлета.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Командлет не запущен. Показывает, что произойдет при запуске командлета.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">Командлет не запущен.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Этот командлет поддерживает общие параметры:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction и - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Дополнительные сведения см. в разделе about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ВХОДНЫЕ ДАННЫЕ</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">Нет</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>You cannot pipe input to this cmdlet.</source>
+          <target state="translated">В этот командлет нельзя передать входные данные.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">ВЫХОДНЫЕ ДАННЫЕ</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">Нет</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>This cmdlet does not return any output.</source>
+          <target state="translated">Этот командлет не возвращает никакие выходные данные.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ПРИМЕЧАНИЯ</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>You cannot roll back a transaction that has been committed.</source>
+          <target state="translated">Нельзя выполнить откат транзакции, которая была зафиксирована.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>You cannot roll back any transaction other than the active transaction.</source>
+          <target state="translated">Нельзя выполнить откат транзакции, которая не является активной.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>To roll back a different, independent transaction, you must first commit or roll back the active transaction.</source>
+          <target state="translated">Для отката другой, независимой транзакции необходимо сначала выполнить фиксацию или откат активной транзакции.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Rolling back the transaction ends the transaction.</source>
+          <target state="translated">Откат транзакции завершает транзакцию.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>To use a transaction again, you must start a new transaction.</source>
+          <target state="translated">Чтобы использовать транзакцию снова, необходимо запустить новую транзакцию.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">СВЯЗАННЫЕ ССЫЛКИ</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Complete-Transaction</source>
+          <target state="translated">Complete-Transaction</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Get-Transaction</source>
+          <target state="translated">Get-Transaction</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Start-Transaction</source>
+          <target state="translated">Start-Transaction</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Use-Transaction</source>
+          <target state="translated">Use-Transaction</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5f0e3318a53a2683ff87796d484ca8339c42f628</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Core\Resume-Job.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">78517545b7ffe0c049574284ee9f272b1f29b255</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">717775a2bdba5b6fab4b4d9525aa71134e906b8d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell, cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Resume-Job</source>
+          <target state="translated">Resume-Job</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Resume-Job</source>
+          <target state="translated">Resume-Job</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">SINOPSE</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Restarts a suspended job</source>
+          <target state="translated">Reinicia um trabalho suspenso</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SINTAXE</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>SessionIdParameterSet (Default)</source>
+          <target state="translated">SessionIdParameterSet (padrão)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>JobParameterSet</source>
+          <target state="translated">JobParameterSet</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>NameParameterSet</source>
+          <target state="translated">NameParameterSet</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>InstanceIdParameterSet</source>
+          <target state="translated">InstanceIdParameterSet</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>StateParameterSet</source>
+          <target state="translated">StateParameterSet</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>FilterParameterSet</source>
+          <target state="translated">FilterParameterSet</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">DESCRIÇÃO</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> cmdlet resumes a workflow job that was suspended, such as by using the Suspend-Job cmdlet or the about_Suspend-Workflow activity.</source>
+          <target state="translated">O <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> cmdlet retoma um fluxo de trabalho que foi suspenso, como usando o cmdlet Suspend-Job ou a atividade de fluxo de trabalho about_Suspend.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When a workflow job is resumed, the job engine reconstructs the state, metadata, and output from saved resources, such as checkpoints, so the job is restarted without any loss of state or data.</source>
+          <target state="translated">Quando uma tarefa de fluxo de trabalho é reiniciada, o mecanismo de trabalho reconstrói o estado, os metadados e a saída por meio de recursos salvos, como pontos de verificação, para que o trabalho seja reiniciado sem nenhuma perda de dados ou de estado.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The job state is changed from <bpt id="p1">**</bpt>Suspended<ept id="p1">**</ept> to <bpt id="p2">**</bpt>Running<ept id="p2">**</ept>.</source>
+          <target state="translated">O estado do trabalho é alterado de <bpt id="p1">**</bpt>suspenso<ept id="p1">**</ept> para <bpt id="p2">**</bpt>executando<ept id="p2">**</ept>.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Use the parameters of <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> to select jobs by name, ID, instance ID or pipe a job object, such as one returned by the Get-Job cmdlet, to <bpt id="p2">**</bpt>Resume-Job<ept id="p2">**</ept>.</source>
+          <target state="translated">Use os parâmetros de <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> para selecionar os trabalhos por nome, ID, ID de instância ou redirecionar um objeto de trabalho, como retornado pelo cmdlet Get-Job, como <bpt id="p2">**</bpt>Resume-Job<ept id="p2">**</ept>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can also use a property filter to select a job to be resumed.</source>
+          <target state="translated">Você também pode usar um filtro de propriedade para selecionar um trabalho a ser retomado.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> returns immediately, even though all jobs might not yet be resumed.</source>
+          <target state="translated">Por padrão, <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> retorna imediatamente, mesmo que todos os trabalhos ainda não podem ser reiniciados.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To suppress the command prompt until all specified jobs are resumed, use the <bpt id="p1">**</bpt>Wait<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Para suprimir o prompt de comando até que todos os trabalhos especificados serem reiniciados, use o <bpt id="p1">**</bpt>espera<ept id="p1">**</ept> parâmetro.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> cmdlet works only on custom job types, such as workflow jobs.</source>
+          <target state="translated">O <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> cmdlet funciona somente em tipos de trabalho personalizados, como trabalhos do fluxo de trabalho.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>It does not work on standard background jobs, such as those that are started by using the Start-Job cmdlet.</source>
+          <target state="translated">Ele não funciona em trabalhos em segundo plano padrão, como aqueles que são iniciados usando o cmdlet Start-Job.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If you submit a job of an unsupported type, <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> generates a terminating error and stops running.</source>
+          <target state="translated">Se você enviar um trabalho de um tipo sem suporte, <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> gera um erro de terminação e deixará de ser executado.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>To identify a workflow job, look for a value of <bpt id="p1">**</bpt>PSWorkflowJob<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>PSJobTypeName<ept id="p2">**</ept> property of the job.</source>
+          <target state="translated">Para identificar um fluxo de trabalho, procure um valor de <bpt id="p1">**</bpt>PSWorkflowJob<ept id="p1">**</ept> no <bpt id="p2">**</bpt>PSJobTypeName<ept id="p2">**</ept> propriedade do trabalho.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To determine whether a particular custom job type supports the <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> cmdlet, see the help topics for the custom job type.</source>
+          <target state="translated">Para determinar se um tipo específico de trabalho personalizado oferece suporte a <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> cmdlet, consulte os tópicos da Ajuda para o tipo de trabalho personalizado.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>NOTE: Before using a Job cmdlet on a custom job type, import the module that supports the custom job type, either by using the Import-Module cmdlet or getting or using a cmdlet in the module.</source>
+          <target state="translated">OBSERVAÇÃO: Antes de usar um cmdlet de trabalho em um tipo de trabalho personalizado, importe o módulo que suporta o tipo de trabalho personalizado, usando o cmdlet Import-Module ou obtendo ou usando um cmdlet no módulo.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This cmdlet is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Este cmdlet é introduzido no Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">EXEMPLOS</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Example 1: Resume a job by ID</source>
+          <target state="translated">Exemplo 1: Retomar um trabalho por ID</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The commands in this example verify that the job is a suspended workflow job and then resume the job.</source>
+          <target state="translated">Os comandos neste exemplo confirmam que o trabalho é uma tarefa de fluxo de trabalho suspensa e, em seguida, reiniciam o trabalho.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Example 2: Resume a job by name</source>
+          <target state="translated">Exemplo 2: Retomar um trabalho por nome</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> parameter to resume several workflow jobs on the local computer.</source>
+          <target state="translated">Esse comando usa o <bpt id="p1">**</bpt>nome<ept id="p1">**</ept> parâmetro retomar vários trabalhos de fluxo de trabalho no computador local.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Example 3: Use custom property values</source>
+          <target state="translated">Exemplo 3: Usar valores de propriedade personalizada</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This command uses the value of a custom property to identify the workflow job to resume.</source>
+          <target state="translated">Este comando usa o valor de uma propriedade personalizada para identificar a tarefa de fluxo de trabalho a retomar.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>Filter<ept id="p1">**</ept> parameter to identify the workflow job by its <bpt id="p2">**</bpt>CustomID<ept id="p2">**</ept> property.</source>
+          <target state="translated">Ele usa o <bpt id="p1">**</bpt>filtro<ept id="p1">**</ept> parâmetro para identificar o fluxo de trabalho por sua <bpt id="p2">**</bpt>CustomID<ept id="p2">**</ept> propriedade.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>It also uses the <bpt id="p1">**</bpt>State<ept id="p1">**</ept> parameter to verify that the workflow job is suspended, before it tries to resume it.</source>
+          <target state="translated">Ele também usa o <bpt id="p1">**</bpt>estado<ept id="p1">**</ept> parâmetro para verificar o fluxo de trabalho for suspenso, antes de tentar retomá-lo.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Example 4: Resume all suspended jobs on a remote computer</source>
+          <target state="translated">Exemplo 4: Retomar todos os trabalhos suspensos em um computador remoto</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This command resumes all suspended jobs on the Srv01 remote computer.</source>
+          <target state="translated">Este comando retoma todos os trabalhos suspensos no computador remoto Srv01.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The command uses the Invoke-Command cmdlet to run a command on the Srv01 computer.</source>
+          <target state="translated">O comando usa o cmdlet Invoke-Command para executar um comando no computador Srv01.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The remote command uses the <bpt id="p1">**</bpt>State<ept id="p1">**</ept> parameter of the Get-Job cmdlet to get all suspended jobs on the computer.</source>
+          <target state="translated">O comando remoto usa o <bpt id="p1">**</bpt>estado<ept id="p1">**</ept> parâmetro do cmdlet Get-Job para obter todos os trabalhos suspensos no computador.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A pipeline operator (|) sends the suspended jobs to the <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> cmdlet, which resumes them.</source>
+          <target state="translated">Um operador de pipeline (|) envia os trabalhos suspensos para o <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> cmdlet, que retoma sua execução.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Example 4: Wait for jobs to resume</source>
+          <target state="translated">Exemplo 4: Aguardar trabalhos sejam retomados</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">**</bpt>Wait<ept id="p1">**</ept> parameter to direct Resume-Job to return only after all specified jobs are resumed.</source>
+          <target state="translated">Esse comando usa o <bpt id="p1">**</bpt>espera<ept id="p1">**</ept> parâmetro para direcionar o Resume-Job para retornar especificado somente após todos os trabalhos são reiniciados.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Wait<ept id="p1">**</ept> parameter is especially useful in scripts that assume that jobs are resumed before the script continues.</source>
+          <target state="translated">O <bpt id="p1">**</bpt>espera<ept id="p1">**</ept> parâmetro é especialmente útil em scripts que assumem que os trabalhos sejam retomados antes do script continuará.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Example 5: Resume a Workflow that Suspends Itself</source>
+          <target state="translated">Exemplo 5: Retomar um fluxo de trabalho que suspende a próprio</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The Resume-Job cmdlet lets you resume a workflow job that was suspend by using the <bpt id="p1">**</bpt>Suspend-Workflow<ept id="p1">**</ept> activity.</source>
+          <target state="translated">Suspenda a permite o cmdlet Resume-Job retomar um fluxo de trabalho que estava usando o <bpt id="p1">**</bpt>Suspend-Workflow<ept id="p1">**</ept> atividade.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This activity suspends a workflow from within a workflow.</source>
+          <target state="translated">Essa atividade suspende um fluxo de trabalho de dentro de um fluxo de trabalho.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>It is valid only in workflows.</source>
+          <target state="translated">Isso só é válido em fluxos de trabalho.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>For information about the Suspend-Workflow, see about_Suspend-Workflow.</source>
+          <target state="translated">Para obter informações sobre o Suspend-Workflow, consulte about_Suspend fluxo de trabalho.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARÂMETROS</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>-Filter</source>
+          <target state="translated">-Filtro</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Resumes only jobs that satisfy all of the conditions established in the associated hash table.</source>
+          <target state="translated">Retoma somente os trabalhos que atendem a todas as condições estabelecidas na tabela de hash associada.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Enter a hash table where the keys are job properties and the values are job property values.</source>
+          <target state="translated">Insira uma tabela de hash na qual as chaves são propriedades do trabalho e os valores são valores de propriedade do trabalho.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>-Id</source>
+          <target state="translated">-Id</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Resumes the jobs with the specified IDs.</source>
+          <target state="translated">Retoma os trabalhos com os identificadores especificados.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The ID is an integer that uniquely identifies the job within the current session.</source>
+          <target state="translated">O identificador é um número inteiro que identifica exclusivamente o trabalho na sessão atual.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>It is easier to remember and to type than the instance ID, but it is unique only within the current session.</source>
+          <target state="translated">Ele é mais fácil de lembrar e digitar do que o identificador de instância, mas é exclusivo somente na sessão atual.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>You can type one or more IDs (separated by commas).</source>
+          <target state="translated">Você pode digitar um ou mais identificadores (separados por vírgulas).</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To find the ID of a job, use the Get-Job cmdlet.</source>
+          <target state="translated">Para localizar a ID de um trabalho, use o cmdlet Get-Job.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>-InstanceId</source>
+          <target state="translated">-InstanceId</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Resumes jobs with the specified instance IDs.</source>
+          <target state="translated">Retoma os trabalhos com os identificadores de instância especificados.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The default is all jobs.</source>
+          <target state="translated">O padrão é obter todos os trabalhos.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>An instance ID is a GUID that uniquely identifies the job on the computer.</source>
+          <target state="translated">Uma ID de instância é um GUID que identifica exclusivamente o trabalho no computador.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>To find the instance ID of a job, use the Get-Job cmdlet.</source>
+          <target state="translated">Para localizar a ID da instância de um trabalho, use o cmdlet Get-Job.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>-Job</source>
+          <target state="translated">-Trabalho</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Specifies the jobs to be resumed.</source>
+          <target state="translated">Especifica os trabalhos a serem retomados.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the jobs or a command that gets the jobs.</source>
+          <target state="translated">Insira uma variável que contenha os trabalhos ou um comando que os obtenha.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>You can also pipe jobs to the <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">Você também pode redirecionar os trabalhos para o <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> cmdlet.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Resumes jobs with the specified friendly names.</source>
+          <target state="translated">Retoma os trabalhos com os nomes amigáveis especificados.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Enter one or more job names.</source>
+          <target state="translated">Insira um ou mais nomes de trabalho.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Wildcards are supported.</source>
+          <target state="translated">Caracteres curinga são suportados.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>-State</source>
+          <target state="translated">-Estado</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Resumes only those jobs in the specified state.</source>
+          <target state="translated">Retoma somente os trabalhos no estado especificado.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Valid values are NotStarted, Running, Completed, Failed, Stopped, Blocked, Suspended, Disconnected, Suspending, and Stopping, but <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> resumes only jobs in the <bpt id="p2">**</bpt>Suspended<ept id="p2">**</ept> state.</source>
+          <target state="translated">Os valores válidos são NotStarted, executando, concluído, falhou, parado, bloqueado, Suspended, Disconnected, suspender e parar, mas <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> retoma apenas os trabalhos no <bpt id="p2">**</bpt>suspenso<ept id="p2">**</ept> estado.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>For more information about job states, see "JobState Enumeration" in MSDN at http://msdn.microsoft.com/library/windows/desktop/system.management.automation.jobstate(v=vs.85).aspxhttp://msdn.microsoft.com/library/windows/desktop/system.management.automation.jobstate(v=vs.85).aspx</source>
+          <target state="translated">Para obter mais informações sobre estados de trabalho, consulte "Enumeração de JobState" no MSDN em.aspxhttp://msdn.microsoft.com/library/windows/desktop/system.management.automation.jobstate http://msdn.microsoft.com/library/windows/desktop/system.management.automation.jobstate (v=vs.85) (v=vs.85).aspx</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>-Wait</source>
+          <target state="translated">-Wait</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Suspends the command prompt until all specified jobs are resumed.</source>
+          <target state="translated">Suspende o prompt de comando até todos os trabalhos especificados serem reiniciados.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>By default, Resume-Job returns immediately.</source>
+          <target state="translated">Por padrão, o Resume-Job retorna resultados imediatamente.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">Solicita confirmação antes de executar o cmdlet. Solicita confirmação antes de executar o cmdlet.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Mostra o que aconteceria se o cmdlet fosse executado.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">O cmdlet não é executado. Mostra o que aconteceria se o cmdlet fosse executado.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">O cmdlet não é executado.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Esse cmdlet oferece suporte aos parâmetros comuns:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction e - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Para obter mais informações, consulte about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ENTRADAS</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.Job</source>
+          <target state="translated">System.Management.Automation.Job</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>You can pipe all types of jobs to <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept>.</source>
+          <target state="translated">É possível redirecionar todos os tipos de trabalhos para <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>However, if <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> gets a job of an unsupported type, it throws a terminating error.</source>
+          <target state="translated">No entanto, se <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> obtém um trabalho de um tipo sem suporte, ele gerará um erro de encerramento.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">SAÍDAS</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>None or System.Management.Automation.Job</source>
+          <target state="translated">Nenhum ou System.Management.Automation.Job</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter, <bpt id="p2">**</bpt>Resume-Job<ept id="p2">**</ept> returns the jobs that it tried to resume.</source>
+          <target state="translated">Se você usar o <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parâmetro <bpt id="p2">**</bpt>Resume-Job<ept id="p2">**</ept> retorna os trabalhos que tentou retomar.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Otherwise, this cmdlet does not generate any output.</source>
+          <target state="translated">Caso contrário, este cmdlet não gera nenhuma saída.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ANOTAÇÕES</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> can only resume jobs that are suspended.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> pode retomar somente os trabalhos que são suspensos.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>If you submit a job in a different state, <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> runs the resume operation on the job, but generates a warning to notify you that the job could not be resumed.</source>
+          <target state="translated">Se você enviar um trabalho em um estado diferente, <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> executa a operação de retomada no trabalho, mas gera um aviso para notificá-lo de que o trabalho não pôde ser retomado.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>To suppress the warning, use the <bpt id="p1">**</bpt>WarningAction<ept id="p1">**</ept> common parameter with a value of <bpt id="p2">**</bpt>SilentlyContinue<ept id="p2">**</ept>.</source>
+          <target state="translated">Para suprimir o aviso, use o <bpt id="p1">**</bpt>WarningAction<ept id="p1">**</ept> parâmetro comum com um valor de <bpt id="p2">**</bpt>SilentlyContinue<ept id="p2">**</ept>.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>If a job is not of a type that supports resuming, such as a workflow job (PSWorkflowJob), <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> throws a terminating error.</source>
+          <target state="translated">Se um trabalho não é de um tipo que oferece suporte a retomada, como um fluxo de trabalho (PSWorkflowJob), <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> lança um erro de encerramento.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The mechanism and location for saving a suspended job might vary depending on the job type.</source>
+          <target state="translated">O mecanismo e o local para salvar um trabalho suspenso podem variar, dependendo do tipo do trabalho.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>For example, suspended workflow jobs are saved in a flat file store by default, but can also be saved in a SQL database.</source>
+          <target state="translated">Por exemplo, tarefas de fluxo de trabalho suspensas são salvas em um repositório de arquivo simples por padrão, mas também podem ser salvas em um banco de dados SQL.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>When you resume a job, the job state changes from <bpt id="p1">**</bpt>Suspended<ept id="p1">**</ept> to <bpt id="p2">**</bpt>Running<ept id="p2">**</ept>.</source>
+          <target state="translated">Quando você retoma um trabalho, o estado do trabalho muda de <bpt id="p1">**</bpt>suspenso<ept id="p1">**</ept> para <bpt id="p2">**</bpt>executando<ept id="p2">**</ept>.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>To find the jobs that are running, including those that were resumed by this cmdlet, use the <bpt id="p1">**</bpt>State<ept id="p1">**</ept> parameter of the Get-Job cmdlet to get jobs in the <bpt id="p2">**</bpt>Running<ept id="p2">**</ept> state.</source>
+          <target state="translated">Para encontrar os trabalhos em execução, incluindo aqueles que foram retomados por este cmdlet, use o <bpt id="p1">**</bpt>estado<ept id="p1">**</ept> parâmetro do cmdlet Get-Job para obter os trabalhos no <bpt id="p2">**</bpt>executando<ept id="p2">**</ept> estado.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Some job types have options or properties that prevent Windows PowerShell from suspending the job.</source>
+          <target state="translated">Alguns tipos de trabalho têm opções ou propriedades que impedem que o Windows PowerShell suspenda o trabalho em questão.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>If attempts to suspend the job fail, verify that the job options and properties allow suspending.</source>
+          <target state="translated">Se a tentativa de suspender o trabalho falhar, verifique se as opções e propriedades do trabalho permitem a suspensão.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">LINKS RELACIONADOS</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Get-Job</source>
+          <target state="translated">Get-Job</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Receive-Job</source>
+          <target state="translated">Trabalho de recebimento</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Remove-Job</source>
+          <target state="translated">Remover trabalho</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Resume-Job</source>
+          <target state="translated">Resume-Job</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Start-Job</source>
+          <target state="translated">Iniciar trabalho</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Stop-Job</source>
+          <target state="translated">Interrupção do trabalho</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Suspend-Job</source>
+          <target state="translated">Suspend-Job</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Wait-Job</source>
+          <target state="translated">Wait-Job</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

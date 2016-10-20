@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">035cdffc6e1c33d6965d0121aa9408840d34a757</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Management\Set-WmiInstance.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5f42bba3cac38a26eca902e307f956030b3e3a26</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5c723edf60ca0659cb5762e1b12f29fcd26c2efc</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell, командлет</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Set-WmiInstance</source>
+          <target state="translated">SET-WmiInstance</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Set-WmiInstance</source>
+          <target state="translated">SET-WmiInstance</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">КРАТКИЙ ОБЗОР</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Creates or updates an instance of an existing Windows Management Instrumentation (WMI) class.</source>
+          <target state="translated">Создает или обновляет экземпляр существующего класса WMI.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">СИНТАКСИС</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>class (Default)</source>
+          <target state="translated">класс (по умолчанию)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>object</source>
+          <target state="translated">объект</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>path</source>
+          <target state="translated">путь</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>WQLQuery</source>
+          <target state="translated">WQLQuery</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>query</source>
+          <target state="translated">запрос</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>list</source>
+          <target state="translated">список</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">ОПИСАНИЕ</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Set-WmiInstance<ept id="p1">**</ept> cmdlet creates or updates an instance of an existing Windows Management Instrumentation (WMI) class.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Set-WmiInstance<ept id="p1">**</ept> создает или обновляет экземпляр существующего класса инструментария управления Windows (WMI).</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The created or updated instance is written to the WMI repository.</source>
+          <target state="translated">Созданный или обновленный экземпляр записывается в репозиторий WMI.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>New CIM cmdlets, introduced Windows PowerShell 3.0, perform the same tasks as the WMI cmdlets.</source>
+          <target state="translated">В Windows PowerShell 3.0 появились новые командлеты CIM, которые выполняют те же задачи, что и командлеты WMI.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The CIM cmdlets comply with WS-Management (WSMan) standards and with the Common Information Model (CIM) standard.</source>
+          <target state="translated">Командлеты CIM соответствуют стандартам WS-Management (WSMan) и со стандартом общей информационной модели (CIM).</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This enables cmdlets to use the same techniques to manage Windows-based computers and those running other operating systems.</source>
+          <target state="translated">Это позволяет командлеты использовать те же приемы для управления компьютерами под управлением Windows и под управлением других операционных систем.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Instead of using <bpt id="p1">**</bpt>Set-WmiInstance<ept id="p1">**</ept>, consider using the Set-CimInstancehttp://go.microsoft.com/fwlink/?LinkId=227962 or New-CimInstancehttp://go.microsoft.com/fwlink/?LinkId=227963 cmdlets.</source>
+          <target state="translated">Вместо использования <bpt id="p1">**</bpt>Set-WmiInstance<ept id="p1">**</ept>, рассмотрите возможность использования командлетов Set CimInstancehttp://go.microsoft.com/fwlink/?LinkId=227962 или New CimInstancehttp://go.microsoft.com/fwlink/?LinkId=227963.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">ПРИМЕРЫ</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Example 1: Set WMI logging level</source>
+          <target state="translated">Пример 1: Уровень ведения журнала WMI набор</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This command sets the WMI logging level to 2.</source>
+          <target state="translated">Эта команда задает 2 уровень ведения журнала WMI.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The command passes the property to be set and the value, together considered a value pair, in the argument parameter.</source>
+          <target state="translated">Команда передает задаваемое свойство и значение, совместно считаются парой значений, в качестве аргумента параметра.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The parameter takes a hash table that is defined by the @{property = value} construction.</source>
+          <target state="translated">Параметр принимает хэш-таблицу, которая определяется конструкцией @{property = value}.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The class information that is returned reflects the new value.</source>
+          <target state="translated">Возвращаемые сведения о классе отражают новое значение.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Example 2: Create an environment variable and its value</source>
+          <target state="translated">Пример 2: Создание переменной среды и ее значение</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This command creates the testvar environment variable that has the value testvalue.</source>
+          <target state="translated">Эта команда создает переменную среды testvar, имеющий значение testvalue.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>It does this by creating a new instance of the <bpt id="p1">**</bpt>Win32_Environment<ept id="p1">**</ept> WMI class.</source>
+          <target state="translated">Это достигается путем создания нового экземпляра <bpt id="p1">**</bpt>Win32_Environment<ept id="p1">**</ept> класса WMI.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This operation requires appropriate credentials and that you may have to restart Windows PowerShell to see the new environment variable.</source>
+          <target state="translated">Эта операция требует соответствующих учетных данных и может потребоваться перезапустить Windows PowerShell, чтобы увидеть новую переменную среды.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Example 3: Set WMI logging level for several remote computers</source>
+          <target state="translated">Пример 3: WMI уровню для нескольких удаленных компьютеров</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This command sets the WMI logging level to 2.</source>
+          <target state="translated">Эта команда задает 2 уровень ведения журнала WMI.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The command passes the property to be set and the value, together considered a value pair, in the argument parameter.</source>
+          <target state="translated">Команда передает задаваемое свойство и значение, совместно считаются парой значений, в качестве аргумента параметра.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The parameter takes a hash table that is defined by the @{property = value} construction.</source>
+          <target state="translated">Параметр принимает хэш-таблицу, которая определяется конструкцией @{property = value}.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The returned class information reflects the new value.</source>
+          <target state="translated">Возвращаемые сведения о классе отражают новое значение.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">ПАРАМЕТРЫ</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>-Arguments</source>
+          <target state="translated">-Аргументы</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the property to be changed and the new value for that property.</source>
+          <target state="translated">Указывает имя свойства, которое необходимо изменить, и новое значение свойства.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The name and value must be a name-value pair.</source>
+          <target state="translated">Имя и значение должны быть пара имя значение.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The name-value pair is passed on the command line as a hash table.</source>
+          <target state="translated">Пара имя значение передается в командной строке хэш-таблицы.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">Например:</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>-AsJob</source>
+          <target state="translated">-AsJob</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdket runs as a background job.</source>
+          <target state="translated">Указывает, что это cmdket выполняется как фоновое задание.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Use this parameter to run commands that take a long time to finish.</source>
+          <target state="translated">Используйте этот параметр для запуска команд, на завершение которых требуется много времени.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>When you specify the <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept> parameter, the command returns an object that represents the background job and then displays the command prompt.</source>
+          <target state="translated">При указании <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept> команда возвращает объект, который представляет фоновое задание, а затем отображает командную строку.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You can continue to work in the session while the job finishes.</source>
+          <target state="translated">Можно продолжить работу в рамках данного сеанса, пока задание завершается.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">**</bpt>Set-WmiInstance<ept id="p1">**</ept> is used for a remote computer, the job is created on the local computer, and the results from remote computers are automatically returned to the local computer.</source>
+          <target state="translated">Если <bpt id="p1">**</bpt>Set-WmiInstance<ept id="p1">**</ept> используется на удаленном компьютере, задание создается на локальном компьютере, а результаты с удаленных компьютеров автоматически возвращаются на локальный компьютер.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To manage the job, use the cmdlets that contain the <bpt id="p1">**</bpt>Job<ept id="p1">**</ept> noun (the <bpt id="p2">**</bpt>Job<ept id="p2">**</ept> cmdlets).</source>
+          <target state="translated">Чтобы управлять заданием, используйте командлеты, которые содержат <bpt id="p1">**</bpt>задания<ept id="p1">**</ept> существительное ( <bpt id="p2">**</bpt>задания<ept id="p2">**</ept> командлетов).</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>To get the job results, use the Receive-Job cmdlet.</source>
+          <target state="translated">Чтобы получить результаты задания, используйте командлет Receive-Job.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To use this parameter together with remote computers, the local and remote computers must be configured for remoting.</source>
+          <target state="translated">Чтобы использовать этот параметр вместе с удаленных компьютеров, локальный и удаленный компьютеры должны быть настроены для удаленного взаимодействия.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Additionally, you must start Windows PowerShell by using the Run as administrator option in Windows Vista and later versions of the Windows operating system.</source>
+          <target state="translated">Кроме того необходимо запустить Windows PowerShell с помощью функции запуска от имени администратора в Windows Vista и более поздних версиях операционной системы Windows.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Remote_Requirements.</source>
+          <target state="translated">Дополнительные сведения см. в разделе about_Remote_Requirements.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>For more information about Windows PowerShell background jobs, see about_Jobs and about_Remote_Jobs.</source>
+          <target state="translated">Дополнительные сведения о фоновых заданиях Windows PowerShell см. в разделах about_Jobs и about_Remote_Jobs.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>-Authentication</source>
+          <target state="translated">-Проверка подлинности</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Specifies the authentication level that must be used with the WMI connection.</source>
+          <target state="translated">Указывает уровень проверки подлинности, который должен использоваться подключения к WMI.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">Ниже указаны допустимые значения этого параметра.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>-1: Unchanged.</source>
+          <target state="translated">-1: без изменений.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>0: Default.</source>
+          <target state="translated">0: по умолчанию.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>1: None.</source>
+          <target state="translated">1: none.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>No authentication in performed.</source>
+          <target state="translated">Проверка подлинности не выполняется.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>2: Connect.</source>
+          <target state="translated">2: подключение.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Authentication is performed only when the client establishes a relationship with the application.</source>
+          <target state="translated">Проверка подлинности выполняется только в том случае, когда клиент устанавливает связь с приложением.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>3: Call.</source>
+          <target state="translated">3: вызов.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Authentication is performed only at the start of each call when the application receives the request.</source>
+          <target state="translated">Проверка подлинности выполняется только в начале каждого вызова, когда приложение получает запрос.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>4: Packet.</source>
+          <target state="translated">4: пакет.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Authentication is performed on all the data that is received from the client.</source>
+          <target state="translated">Проверка подлинности выполняется на все данные, полученные от клиента.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>5: PacketIntegrity.</source>
+          <target state="translated">5: PacketIntegrity.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>All the data that is transferred between the client and the application is authenticated and verified.</source>
+          <target state="translated">Все данные, передаваемые между клиентом и приложением с проверкой подлинности и проверки.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>6: PacketPrivacy.</source>
+          <target state="translated">6: PacketPrivacy.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The properties of the other authentication levels are used, and all the data is encrypted.</source>
+          <target state="translated">Используются свойства других уровней проверки подлинности, и все данные шифруются.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>-Authority</source>
+          <target state="translated">-Центр</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Specifies the authority to use to authenticate the WMI connection.</source>
+          <target state="translated">Указывает центр сертификации, используемый для проверки подлинности подключения к WMI.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>You can specify standard NTLM or Kerberos authentication.</source>
+          <target state="translated">Можно выбрать стандартную проверку подлинности NTLM или Kerberos.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>To use NTLM, set the authority setting to ntlmdomain:<ph id="ph1">\&lt;</ph>DomainName<ph id="ph2">\&gt;</ph>, where <ph id="ph3">\&lt;</ph>DomainName<ph id="ph4">\&gt;</ph> identifies a valid NTLM domain name.</source>
+          <target state="translated">Чтобы использовать NTLM, задайте для параметра центра значение ntlmdomain:<ph id="ph1">\&lt;</ph>DomainName<ph id="ph2">\&gt;</ph>, где <ph id="ph3">\&lt;</ph>DomainName<ph id="ph4">\&gt;</ph> указывает допустимое доменное имя NTLM.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>To use Kerberos, specify kerberos:<ph id="ph1">\&lt;</ph>DomainName<ph id="ph2">\&gt;\\\&lt;</ph>ServerName<ph id="ph3">\&gt;</ph>.</source>
+          <target state="translated">Чтобы использовать Kerberos, укажите kerberos:<ph id="ph1">\&lt;</ph>DomainName<ph id="ph2">\&gt;\\\&lt;</ph>имя_сервера<ph id="ph3">\&gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>You cannot include the authority setting when you connect to the local computer.</source>
+          <target state="translated">Параметр authority не может быть указан при подключении к локальному компьютеру.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>-Class</source>
+          <target state="translated">-Класс</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Specifies the name of a WMI class.</source>
+          <target state="translated">Задает имя класса WMI.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>-ComputerName</source>
+          <target state="translated">-ComputerName</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the computer on which this cmdlet runs.</source>
+          <target state="translated">Указывает имя компьютера, на котором выполняется этот командлет.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The default is the local computer.</source>
+          <target state="translated">По умолчанию используется локальный компьютер.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Type the NetBIOS name, an IP address, or a fully qualified domain name of one or more computers.</source>
+          <target state="translated">Введите имя NetBIOS, IP-адрес или полное доменное имя одного или нескольких компьютеров.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>To specify the local computer, type the computer name, a dot (.), or localhost.</source>
+          <target state="translated">Чтобы указать локальный компьютер, введите имя компьютера, точка (.) или localhost.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>This parameter does not rely on Windows PowerShell remoting.</source>
+          <target state="translated">Этот параметр не зависит от удаленного взаимодействия Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> parameter even if your computer is not configured to run remote commands.</source>
+          <target state="translated">Можно использовать <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> параметра даже в том случае, если компьютер не настроен для выполнения удаленных команд.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">Запрашивает подтверждение перед запуском командлета. Запрашивает подтверждение перед запуском командлета.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>-Credential</source>
+          <target state="translated">-Credential</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Specifies a user account that has permission to perform this action.</source>
+          <target state="translated">Указывает учетную запись пользователя с разрешением на выполнение этого действия.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The default is the current user.</source>
+          <target state="translated">По умолчанию используется текущий пользователь.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Type a user name, such as User01 or Domain01\User01, or enter a <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> object, such as one generated by the Get-Credential cmdlet.</source>
+          <target state="translated">Введите имя пользователя, например User01 или Domain01\User01, или <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> например объект, созданный с помощью командлета Get-Credential.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>If you type a user name, this cmdlet prompts for a password.</source>
+          <target state="translated">Если ввести имя пользователя, этот командлет запрашивает пароль.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>This parameter is not supported by any providers installed with parameter is not supported by any providers installed with Windows PowerShell.</source>
+          <target state="translated">Этот параметр не поддерживается поставщиками, установленными с помощью параметра не поддерживается поставщиками, установленными с помощью Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>-EnableAllPrivileges</source>
+          <target state="translated">-EnableAllPrivileges</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet enables all the permissions of the current user before the command it makes the WMI call.</source>
+          <target state="translated">Указывает, что этот командлет включает все разрешения текущего пользователя перед вызовом WMI команду.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>-Impersonation</source>
+          <target state="translated">-Олицетворения</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Specifies the impersonation level to use.</source>
+          <target state="translated">Задает используемый уровень олицетворения.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">Ниже указаны допустимые значения этого параметра.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>0: Default.</source>
+          <target state="translated">0: по умолчанию.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Reads the local registry for the default impersonation level, which is usually set to 3: Impersonate.</source>
+          <target state="translated">Считывает в локальный реестр для уровень олицетворения по умолчанию, который обычно имеет значение 3: олицетворение.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>1: Anonymous.</source>
+          <target state="translated">1: анонимный.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Hides the credentials of the caller.</source>
+          <target state="translated">Скрывает учетные данные вызывающей стороны.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>2: Identify.</source>
+          <target state="translated">2: идентификации.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Allows objects to query the credentials of the caller.</source>
+          <target state="translated">позволяет объектам запрашивать учетные данные вызывающей стороны.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>3: Impersonate.</source>
+          <target state="translated">3: олицетворение.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Allows objects to use the credentials of the caller.</source>
+          <target state="translated">позволяет объектам использовать учетные данные вызывающей стороны.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>4: Delegate.</source>
+          <target state="translated">4: делегат.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Allows objects to permit other objects to use the credentials of the caller.</source>
+          <target state="translated">Позволяет объектам разрешать другим объектам использовать учетные данные вызывающей стороны.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-InputObject</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Specifies a <bpt id="p1">**</bpt>ManagementObject<ept id="p1">**</ept> object to use as input.</source>
+          <target state="translated">Указывает <bpt id="p1">**</bpt>ManagementObject<ept id="p1">**</ept> объект для использования в качестве входных данных.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>When this parameter is used, all other parameters ,except the <bpt id="p1">*</bpt>Arguments<ept id="p1">*</ept> parameter, are ignored.</source>
+          <target state="translated">Если этот параметр используется, все остальные параметры, за исключением <bpt id="p1">*</bpt>аргументы<ept id="p1">*</ept> параметра, учитываются.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>-Locale</source>
+          <target state="translated">-Язык</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Specifies the preferred locale for WMI objects.</source>
+          <target state="translated">Указывает предпочтительный язык для объектов WMI.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>Locale<ept id="p1">*</ept> parameter is specified in an array in the MS_<ph id="ph1">\&lt;</ph>LCID<ph id="ph2">\&gt;</ph> format in the preferred order.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>Языкового стандарта<ept id="p1">*</ept> параметр задан в виде массива в формате MS_<ph id="ph1">\&lt;</ph>LCID<ph id="ph2">\&gt;</ph> Формат в порядке предпочтения.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>-Namespace</source>
+          <target state="translated">-Пространство имен</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Specifies the WMI repository namespace where the referenced WMI class is located when it is used with the <bpt id="p1">*</bpt>Class<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">Указывает пространство имен репозитория WMI, где указанный класс WMI находится при использовании с <bpt id="p1">*</bpt>класса<ept id="p1">*</ept> параметр.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>-Path</source>
+          <target state="translated">-Path</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Specifies a WMI object path of the instance that you want to create or update.</source>
+          <target state="translated">Указывает путь к объекту WMI экземпляра, который требуется создать или обновить.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>-PutType</source>
+          <target state="translated">-PutType</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Indicates whether to create or update the WMI instance.</source>
+          <target state="translated">Указывает, следует ли создать или обновить экземпляр WMI.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">Ниже указаны допустимые значения этого параметра.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>UpdateOnly.</source>
+          <target state="translated">UpdateOnly.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Updates an existing WMI instance.</source>
+          <target state="translated">обновляет существующий экземпляр WMI.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>CreateOnly.</source>
+          <target state="translated">CreateOnly.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Creates a new WMI instance.</source>
+          <target state="translated">создает новый экземпляр WMI.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>UpdateOrCreate.</source>
+          <target state="translated">UpdateOrCreate.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Updates the WMI instance if it exists or creates a new instance if an instance does not exist.</source>
+          <target state="translated">обновляет экземпляр WMI, если он существует, или создает новый экземпляр, если экземпляр не существует.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>-ThrottleLimit</source>
+          <target state="translated">-ThrottleLimit</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum number of concurrent connections that can be established to run this command.</source>
+          <target state="translated">Указывает максимальное число одновременных подключений, которые можно установить для запуска этой команды.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>This parameter is used together with the <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">Этот параметр используется вместе с <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept> параметр.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The throttle limit applies only to the current command, not to the session or to the computer.</source>
+          <target state="translated">Предел регулирования применяется только к текущему командлету, а не к сеансу или компьютеру.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Показывает, что произойдет при запуске командлета.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Командлет не запущен. Показывает, что произойдет при запуске командлета.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">Командлет не запущен.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Этот командлет поддерживает общие параметры:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction и - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Дополнительные сведения см. в разделе about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ВХОДНЫЕ ДАННЫЕ</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">Нет</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>This cmdlet does not accept input.</source>
+          <target state="translated">Этот командлет не принимает входные данные.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">ВЫХОДНЫЕ ДАННЫЕ</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">Нет</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>This cmdlet does not generate output.</source>
+          <target state="translated">Этот командлет не создает никакие выходные данные.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ПРИМЕЧАНИЯ</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">СВЯЗАННЫЕ ССЫЛКИ</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Get-WmiObject</source>
+          <target state="translated">Get-WmiObject</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Invoke-WmiMethod</source>
+          <target state="translated">Вызов WmiMethod</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Remove-WmiObject</source>
+          <target state="translated">Remove-WmiObject</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

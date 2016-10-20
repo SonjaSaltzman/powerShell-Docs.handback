@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">567eb14a2daba07e5fc50fb1dd8a71419b92b501</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\About\about_Command_Precedence.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">14b617eeacfbdc298c51b5e2c247b0a8d9403a3f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ff216515ee10fbdc6f1053f80852fa01f0958004</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>about_Command_Precedence</source>
+          <target state="translated">about_Command_Precedence</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>About Command Precedence</source>
+          <target state="translated">コマンドの優先順位について</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>about_Command_Precedence</source>
+          <target state="translated">about_Command_Precedence</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>about_Command_Precedence</source>
+          <target state="translated">about_Command_Precedence</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Describes how Windows PowerShell determines which command to run.</source>
+          <target state="translated">Windows PowerShell が実行するコマンドを決定する仕組みについて説明します。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>LONG DESCRIPTION</source>
+          <target state="translated">詳細説明</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This topic explains how Windows PowerShell determines which command to run, especially when a session contains more than one command with the same name.</source>
+          <target state="translated">このトピックでは、Windows PowerShell で実行するには、セッションに同じ名前の 1 つ以上のコマンドが含まれている場合に特にコマンドを決定する方法について説明します。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>It also explains how to run commands that do not run by default, and it explains how to avoid command-name conflicts in your session.</source>
+          <target state="translated">既定では、実行されているコマンドを実行する方法についても説明し、セッションでコマンド名の競合を回避する方法についても説明します。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>COMMAND PRECEDENCE</source>
+          <target state="translated">コマンドの優先順位</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>When a session includes commands that have the same name, Windows PowerShell uses the following rules to decide which command to run.</source>
+          <target state="translated">セッションには、同じ名前を持つコマンドが含まれているときに Windows PowerShell は次の規則を使用して、実行するコマンドを決定します。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>These rules become very important when you add commands to your session from modules, snap-ins, and other sessions.</source>
+          <target state="translated">これらのルールは、モジュール、スナップイン、およびその他のセッションからコマンドを使用して、セッションに追加するときに非常に重要になります。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>-- If you specify the path to a command, Windows PowerShell runs the command at the location specified by the path.</source>
+          <target state="translated">--コマンドへのパスを指定する場合、Windows PowerShell は、パスで指定された位置に、コマンドを実行します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For example, the following command runs the FindDocs.ps1 script in the C:\TechDocs directory:</source>
+          <target state="translated">たとえば、次のコマンドでは、C:\TechDocs ディレクトリで FindDocs.ps1 スクリプトが実行されます。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>C:\TechDocs\FindDocs.ps1</source>
+          <target state="translated">C:\TechDocs\FindDocs.ps1</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>As a security feature, Windows PowerShell does not run executable (native) commands, including Windows PowerShell scripts, unless the command is located in a path that is listed in the Path environment variable ($env:path) or unless you specify the path to the script file.</source>
+          <target state="translated">セキュリティ機能として Windows PowerShell はコマンドは実行実行可能ファイル (ネイティブ)、コマンドは、Path 環境変数に記載されているパスにある場合を除き、Windows PowerShell スクリプトを含む ($env:path: パス)、スクリプト ファイルへのパスを指定しない限り、またはです。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To run a script that is in the current directory, specify the full path, or type a dot (.) to represent the current directory.</source>
+          <target state="translated">現在のディレクトリ内にあるスクリプトを実行するには、完全パスを指定か、現在のディレクトリを表すドット (.) を入力します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For example, to run the FindDocs.ps1 file in the current directory, type:</source>
+          <target state="translated">たとえば、現在のディレクトリに FindDocs.ps1 ファイルを実行する次のように入力します。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>.\FindDocs.ps1</source>
+          <target state="translated">.\FindDocs.ps1</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>-- If you do not specify a path, Windows PowerShell uses the following precedence order when it runs commands:</source>
+          <target state="translated">--パスを指定しない場合、Windows PowerShell は、コマンドを実行すると、次の優先順位を使用します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Alias</source>
+          <target state="translated">エイリアス</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Function</source>
+          <target state="translated">機能</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Cmdlet</source>
+          <target state="translated">コマンドレット</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Native Windows commands</source>
+          <target state="translated">ネイティブの Windows コマンド</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Therefore, if you type "help", Windows PowerShell first looks for an alias named "help", then a function named "Help", and finally a cmdlet named "Help".</source>
+          <target state="translated">そのため、"help"を入力する場合は、Windows PowerShell はまず関数には、"Help"という名前し、最後に、コマンドレットの名前"Help"、"help"という名前のエイリアスを探します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>It runs the first "help" item that it finds.</source>
+          <target state="translated">"Help"、検出された最初の項目を実行します。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For example, if you have a Get-Map function in the session and you import a cmdlet named Get-Map.</source>
+          <target state="translated">たとえば、Get Map という名前のコマンドレットをインポートすると、セッションで Get マップ関数があります。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>By default, when you type "Get-Map", Windows PowerShell runs the Get-Map function.</source>
+          <target state="translated">既定では、"Get-Map"を入力すると、Windows PowerShell は Get マップ関数を実行します。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-- When the session contains items of the same type that have the same name, such as two cmdlets with the same name, Windows PowerShell runs the item that was added to the session most recently.</source>
+          <target state="translated">-セッションに同じ名前の 2 つのコマンドレットなど、同じ名前を持つ同じ種類の項目が含まれている場合、Windows PowerShell は、最後のセッションに追加された項目を実行します。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For example, if you have a cmdlet named Get-Date and you import another cmdlet named Get-Date, by default, Windows PowerShell runs the most-recently imported cmdlet when you type "Get-Date".</source>
+          <target state="translated">たとえば、Get-date という名前のコマンドレットがあり、既定では、Get-date、という名前の別のコマンドレットをインポートする場合は、"Get-date"を入力すると Windows PowerShell 最近インポートしたコマンドレットは実行されます。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>HIDDEN and REPLACED ITEMS As a result of these rules, items can be replaced or hidden by items with the same name.</source>
+          <target state="translated">これらのルールでは、項目の結果として非表示] および REPLACED の項目を置換または同じ名前を持つ項目によって非表示にできます。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>--  Items are "hidden" or "shadowed" if you can still access the original item, such as by qualifying the item name with a module or snap-in name.</source>
+          <target state="translated">-項目を"hidden"か「シャドウ」場合は、項目の名前で、モジュールまたはスナップイン名を修飾することによりなど、元の項目にアクセスできます。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For example, if you import a function that has the same name as a cmdlet in the session, the cmdlet is hidden (but not replaced) because it was imported from a snap-in or module.</source>
+          <target state="translated">たとえばをセッションでコマンドレットと同じ名前を持つ関数をインポートすると、コマンドレットは非表示に (しかし、置き換えられません) スナップインまたはモジュールからインポートされたためです。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>--  Items are "replaced" or "overwritten" if you can no longer access the original item.</source>
+          <target state="translated">-項目は「置換」または「上書き」、元の項目にアクセスできる不要になった場合です。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For example, if you import a variable that has the same name as a a variable in the session, the original variable is replaced and is no longer accessible.</source>
+          <target state="translated">同じ名前を持つ変数をインポートする場合など、セッション内の変数、元の変数が置き換えられはアクセスできなくします。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You cannot qualify a variable with a module name.</source>
+          <target state="translated">モジュールの名前を持つ変数を修飾することはできません。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Also, if you type a function at the command line and then import a function with the same name, the original function is replaced and is no longer accessible.</source>
+          <target state="translated">また、コマンドラインで関数を入力し、同じ名前の関数をインポートすると、元の関数は置き換えられはアクセスできなくします。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>FINDING HIDDEN COMMANDS</source>
+          <target state="translated">非表示に検索コマンド</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The All parameter of the Get-Command cmdlet gets all commands with the specified name, even if they are hidden or replaced.</source>
+          <target state="translated">非表示または置き換える場合でも、Get-command コマンドレットのすべてのパラメーターは指定の名前を持つすべてのコマンドを取得します。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, by default, Get-Command gets only the commands that run when you type the command name.</source>
+          <target state="translated">Windows PowerShell 3.0 以降で、既定では、Get コマンドは、コマンド名を入力するときに実行されるコマンドのみを取得します。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>In the following examples, the session includes a Get-Date function and a Get-Date cmdlet.</source>
+          <target state="translated">次の例についてには、セッションには、Get-date 関数と、Get-date コマンドレットが含まれています。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The following command gets the Get-Date command that runs when you type "Get-Date".</source>
+          <target state="translated">次のコマンドは、"Get-date"を入力するときに実行される、Get-date コマンドを取得します。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-Command Get-Date</source>
+          <target state="translated">PS c: &gt; Get-date の Get コマンド</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>CommandType     Name                                               ModuleName</source>
+          <target state="translated">CommandType 名前 ModuleName</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Function        get-date</source>
+          <target state="translated">関数、get-date</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The following command uses the All parameter to get all Get-Date commands.</source>
+          <target state="translated">次のコマンドでは、すべてのパラメーターを使用して、すべての Get-date コマンドを取得します。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-Command Get-Date -All</source>
+          <target state="translated">PS c: &gt; Get-command Get-date-すべて</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>CommandType     Name                                               ModuleName</source>
+          <target state="translated">CommandType 名前 ModuleName</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Function        get-date Cmdlet          Get-Date                                           Microsoft.PowerShell.Utility</source>
+          <target state="translated">関数、get-date コマンドレット Get-date Microsoft.PowerShell.Utility</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>RUNNING HIDDEN COMMANDS</source>
+          <target state="translated">実行中の非表示コマンド</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>You can run particular commands by specifying item properties that distinguish the command from other commands that might have the same name.</source>
+          <target state="translated">同じ名前である可能性があるその他のコマンドから、コマンドを識別する項目のプロパティを指定することによって、特定のコマンドを実行できます。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>You can use this method to run any command, but it is especially useful for running hidden commands.</source>
+          <target state="translated">いずれかのコマンドを実行するこのメソッドを使用することができますが、非表示のコマンドを実行している場合に特に便利です。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Use this method as a best practice when writing scripts that you intend to distribute because you cannot predict which commands might be present in the session in which the script runs.</source>
+          <target state="translated">コマンドは、スクリプトが実行されるセッションに存在するのには予測できないために配布するスクリプトを記述するときに、ベスト プラクティスとして、このメソッドを使用します。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>QUALIFIED NAMES</source>
+          <target state="translated">修飾名</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>You can run commands that have been imported from a Windows PowerShell snap-in or module or from another session by qualifying the command name with the name of the module or snap-in in which it originated.</source>
+          <target state="translated">インポートされている Windows PowerShell スナップインまたはモジュールから、または別のセッションからモジュールの名前でコマンド名を修飾することによってコマンドを実行したり、出所のスナップインできます。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>You can qualify commands, but you cannot qualify variables or aliases.</source>
+          <target state="translated">コマンドを修飾することは、変数または別名を修飾することはできません。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>For example, if the Get-Date cmdlet from the Microsoft.PowerShell.Utility snap-in is hidden by an alias, function, or cmdlet with the same name, you can run it by using the snap-in-qualified name of the cmdlet:</source>
+          <target state="translated">たとえば、Microsoft.PowerShell.Utility] スナップインで、Get-date コマンドレットは、エイリアス、関数、または同じ名前のコマンドレットによって非表示に場合、は、コマンドレットのスナップインで修飾の名前を使用して実行できます。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Microsoft.PowerShell.Utility\Get-Date</source>
+          <target state="translated">Microsoft.PowerShell.Utility\Get-Date</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>To run a New-Map command that was added by the MapFunctions module, use its module-qualified name:</source>
+          <target state="translated">MapFunctions モジュールによって追加された新規マップ コマンドを実行するには、そのモジュールで修飾された名前を使用します。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>MapFunctions\New-Map</source>
+          <target state="translated">MapFunctions\New マップ</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>To find the snap-in or module from which a command was imported, use the ModuleName property of commands.</source>
+          <target state="translated">スナップインまたはコマンドのインポート元となるモジュールを検索するには、コマンドの ModuleName プロパティを使用します。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>(Get-Command &lt;command-name&gt;).ModuleName</source>
+          <target state="translated">(Get-command &lt; コマンド名 &gt;)。ModuleName</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>For example, to find the source of the Get-Date cmdlet, type:</source>
+          <target state="translated">たとえば、Get-date コマンドレットのソースを検索するには、次のように入力します。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;(Get-Command Get-Date).ModuleName Microsoft.PowerShell.Utility</source>
+          <target state="translated">PS c: &gt; (Get-command Get-date)。ModuleName Microsoft.PowerShell.Utility</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>CALL OPERATOR</source>
+          <target state="translated">呼び出し演算子</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>You can also use the Call operator (&amp;) to run any command that you can get by using a Get-ChildItem (the alias is "dir"), Get-Command, or Get-Module command.</source>
+          <target state="translated">また、呼び出し演算子を使用することもできます。 ことすることでを使用して取得 Get-childitem (エイリアスは"dir")、Get-command、または、Get-module コマンドを実行する (&amp;) コマンドです。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>To run a command, enclose the Get-Command command in parentheses, and use the Call operator (&amp;) to run the command.</source>
+          <target state="translated">Get-command コマンドをかっこで囲む、呼び出し演算子を使用してコマンドを実行する (&amp;) コマンドを実行します。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>&amp;(Get-Command ...)</source>
+          <target state="translated">&amp; (Get-command...)</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>or -</source>
+          <target state="translated">または、</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>&amp;(dir ... )</source>
+          <target state="translated">&amp;(dir...)</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>For example, if you have a function named Map that is hidden by an alias named Map, use the following command to run the function.</source>
+          <target state="translated">たとえば、という名前のエイリアスのマップで非表示には、マップをという名前の関数がある場合は、その関数を実行に、次のコマンドを使用します。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>&amp;(Get-Command -Name Map -Type function)</source>
+          <target state="translated">&amp; (Get-command - 名のマップでの関数を入力)</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>or -</source>
+          <target state="translated">または、</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>&amp;(dir function:\map)</source>
+          <target state="translated">&amp; (dir 関数: \map)</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>You can also save your hidden command in a variable to make it easier to run.</source>
+          <target state="translated">実行しやすく変数に、非表示のコマンドを保存することもできます。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>For example, the following command saves the Map function in the $myMap variable and then uses the Call operator to run it.</source>
+          <target state="translated">たとえば、次のコマンドは、$myMap 変数に Map 関数を保存し、それを実行する、呼び出し演算子を使用します。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>$myMap = (Get-Command -Name map -Type function)</source>
+          <target state="translated">$myMap = (Get-command - 名マップの種類の関数)</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>&amp;($myMap)</source>
+          <target state="translated">&amp;($myMap)</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>If a command originated in a module, you can use the following format to run it.</source>
+          <target state="translated">場合、モジュール内から送信され、コマンドは、それを実行する、次の形式を使用できます。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>&amp; &lt;PSModuleInfo-object&gt;</source>
+          <target state="translated">&amp; &lt; PSModuleInfo オブジェクト &gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>For example, to run the Add-File cmdlet in the FileCommands module, use the following command sequence.</source>
+          <target state="translated">たとえば、ファイルの追加のコマンドレットを FileCommands モジュールを実行するには、次のコマンド シーケンスを使用します。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>$FileCommands = get-module -name FileCommands</source>
+          <target state="translated">$FileCommands =、get-module-FileCommands という名前を</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>&amp; $FileCommands Add-File</source>
+          <target state="translated">&amp; $FileCommands 追加のファイル</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>REPLACED ITEMS</source>
+          <target state="translated">アイテムを交換してください。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Items that have not been imported from a module or snap-in, such as functions, variables, and aliases that you create in your session or that you add by using a profile can be replaced by commands that have the same name.</source>
+          <target state="translated">モジュールまたはスナップインで、関数、変数、およびプロファイルを使用して追加するそのセッションで作成することも、エイリアスなどからインポートされていない項目は、同じ名前を持つコマンドで置換できます。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>If they are replaced, you cannot access them.</source>
+          <target state="translated">置換される場合は、アクセスすることはできません。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Variables and aliases are always replaced even if they have been imported from a module or snap-in because you cannot use a call operator or a qualified name to run them.</source>
+          <target state="translated">変数およびエイリアスは、モジュールからインポートされたまたはいてスナップインを実行する、呼び出し演算子または修飾名を使用できないために常に置き換えられます。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>For example, if you type a Get-Map function in your session, and you import a function called Get-Map, the original function is replaced.</source>
+          <target state="translated">たとえば、Get マップ関数をセッションで入力する Get マップと呼ばれる関数をインポートして、元の関数が置き換えられます。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>You cannot retrieve it in the current session.</source>
+          <target state="translated">現在のセッションでは、それを取得できません。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>AVOIDING NAME CONFLICTS</source>
+          <target state="translated">名前の競合を避ける</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The best way to manage command name conflicts is to prevent them.</source>
+          <target state="translated">コマンド名の競合を管理する最善の方法では、それらをできません。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>When you name your commands, use a name that is very specific or is likely to be unique.</source>
+          <target state="translated">コマンドの名前を入力するときは、非常に限定されることは一意である可能性があります名を使用します。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>For example, add your initials or company name acronym to the nouns in your commands.</source>
+          <target state="translated">たとえば、コマンドの名詞にイニシャルや会社名の頭字語を追加します。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Also, when you import commands into your session from a Windows PowerShell module or from another session, use the Prefix parameter of the Import-Module or Import-PSSession cmdlet to add a prefix to the nouns in the names of commands.</source>
+          <target state="translated">また、Windows PowerShell モジュールとは別のセッションからのセッションにコマンドをインポートするときにを名詞のコマンドの名前にプレフィックスを追加するのにモジュールのインポートまたは Import-pssession コマンドレットのプレフィックスのパラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>For example, the following command avoids any conflict with the Get-Date and Set-Date cmdlets that come with Windows PowerShell when you import the DateFunctions module.</source>
+          <target state="translated">たとえば、次のコマンドは、Get-date コマンドレットと Set-date コマンドレット DateFunctions モジュールをインポートするときに、Windows PowerShell に付属するいるとの競合を回避できます。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Import-Module -Name DateFunctions -Prefix ZZ</source>
+          <target state="translated">モジュールのインポート-DateFunctions という名前のプレフィックス ZZ</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>For more information, see Import-Module and Import-PSSession.</source>
+          <target state="translated">詳細については、モジュールのインポートと Import-pssession を参照してください。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>SEE ALSO</source>
+          <target state="translated">関連項目</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>about_Path_Syntax about_Aliases about_Functions Alias (provider) Function (provider) Get-Command Import-Module Import-PSSession</source>
+          <target state="translated">about_Path_Syntax about_Aliases about_Functions エイリアス (プロバイダー) 関数 (プロバイダー) Get-command Import-module Import-pssession</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

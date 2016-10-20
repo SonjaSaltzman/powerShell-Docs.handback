@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="es-es">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e3433e63e31b08bab75c20d10dbdbe383fa0a591</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\PowershellGet\Register-PSRepository.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">516757135c841c0f40108a94a9f5127ea2544cdb</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">830ca2685b5950a409508c38b7d0e4c9df16ae4e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">cmdlet de PowerShell</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Register-PSRepository</source>
+          <target state="translated">Register-PSRepository</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Register-PSRepository</source>
+          <target state="translated">Register-PSRepository</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">SINOPSIS</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Registers a PowerShell repository.</source>
+          <target state="translated">Registra un repositorio de PowerShell.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SINTAXIS</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">DESCRIPCIÓN</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Register-PSRepository<ept id="p1">**</ept> cmdlet registers the default repository for PowerShell modules.</source>
+          <target state="translated">El <bpt id="p1">**</bpt>PSRepository registro<ept id="p1">**</ept> cmdlet registra el repositorio predeterminado para módulos de PowerShell.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>After a repository is registered, you can reference it from the Find-Module, Install-Module, and Publish-Module cmdlets.</source>
+          <target state="translated">Una vez registrado un repositorio, puede hacer referencia a él desde los cmdlets Find-Module, Install-Module y Publish-Module.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The registered repository becomes the default repository in <bpt id="p1">**</bpt>Find-Module<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Install-Module<ept id="p2">**</ept>.</source>
+          <target state="translated">El repositorio registrado se convierte en el repositorio predeterminado en <bpt id="p1">**</bpt>Buscar módulo<ept id="p1">**</ept> y <bpt id="p2">**</bpt>instalar módulo<ept id="p2">**</ept>.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Registered repositories are user-specific.</source>
+          <target state="translated">Los repositorios registrados son específicos del usuario.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>They are not registered in a system-wide context.</source>
+          <target state="translated">No se registran en el contexto del sistema.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Each registered repository is associated with a OneGet package provider, which is specified with the <bpt id="p1">*</bpt>PackageManagementProvider<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">Cada repositorio registrado está asociado a un proveedor de paquete OneGet, que se especifica con el <bpt id="p1">*</bpt>PackageManagementProvider<ept id="p1">*</ept> parámetro.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Each OneGet provider is designed to interact with a specific type of repository.</source>
+          <target state="translated">Cada proveedor de OneGet está diseñado para interactuar con un tipo específico de repositorio.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For example, the NuGet provider is designed to interact with NuGet-based repositories.</source>
+          <target state="translated">Por ejemplo, el proveedor de NuGet está diseñado para interactuar con los repositorios de NuGet.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If a OneGet provider is not specified during registration, PowerShellGet attempts to find a OneGet provider that can handle the specified source location.</source>
+          <target state="translated">Si no se especifica un proveedor de OneGet durante el registro, PowerShellGet intenta encontrar un proveedor de OneGet que puede controlar la ubicación de origen especificada.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">EJEMPLOS</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Example 1: Register a repository</source>
+          <target state="translated">Ejemplo 1: Registrar un repositorio</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The first command registers https://www.myget.org/F/powershellgetdemo/ as a repository for the current user.</source>
+          <target state="translated">El primer comando registra https://www.myget.org/F/powershellgetdemo/ como un repositorio para el usuario actual.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>After myNuGetSource is registered, you can explicitly reference it when searching for, installing, and publishing modules.</source>
+          <target state="translated">Una vez registrado myNuGetSource, puede hacer referencia explícitamente al buscar, instalar y módulos de publicación.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Because the <bpt id="p1">*</bpt>PackageManamentProvider<ept id="p1">*</ept> parameter isn't specified, the repository is not explicitly associated with a OneGet packkage provider, so PowerShellGet polls available package providers and associates it with the NuGet provider.</source>
+          <target state="translated">Dado que la <bpt id="p1">*</bpt>PackageManamentProvider<ept id="p1">*</ept> parámetro no se especifica, el repositorio no está explícitamente asociado con un proveedor de packkage OneGet, para PowerShellGet sondea los proveedores de paquete disponible y lo asocia con el proveedor de NuGet.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The second command gets registered repositories and displays the results.</source>
+          <target state="translated">El segundo comando obtiene repositorios registrados y muestra los resultados.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARÁMETROS</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>-InstallationPolicy</source>
+          <target state="translated">-InstallationPolicy</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Specifies the installation policy.</source>
+          <target state="translated">Especifica la directiva de instalación.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Valid values are: Trusted, UnTrusted.</source>
+          <target state="translated">Los valores válidos son: confianza UnTrusted.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The default value is UnTrusted.</source>
+          <target state="translated">El valor predeterminado es UnTrusted.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A repository's installation policy specifies PowerShell behavior when installing from that repository.</source>
+          <target state="translated">Directiva de instalación de un repositorio especifica el comportamiento de PowerShell al instalar desde ese repositorio.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>When installing modules from an UnTrusted repository, the user is prompted for confirmation.</source>
+          <target state="translated">Cuando instale los módulos desde un repositorio de confianza, se solicita al usuario confirmación.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You can set the <bpt id="p1">*</bpt>InstallationPolicy<ept id="p1">*</ept> with the Set-PSRepository cmdlet.</source>
+          <target state="translated">Puede establecer la <bpt id="p1">*</bpt>InstallationPolicy<ept id="p1">*</ept> con el cmdlet Set-PSRepository.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the repository to register.</source>
+          <target state="translated">Especifica el nombre del repositorio que se va a registrar.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You can use this name to specify the repository in cmdlets such as Find-Module and Install-Module.</source>
+          <target state="translated">Puede utilizar este nombre para especificar el repositorio en cmdlets como módulo de buscar y módulo de la instalación.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-PackageManagementProvider</source>
+          <target state="translated">-PackageManagementProvider</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Specifies a OneGet package provider.</source>
+          <target state="translated">Especifica un proveedor de paquete OneGet.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>If you don't specify a value for this parameter, PowerShellGet polls available package providers and associates this repository with the first package provider that indicates it can handle the repository.</source>
+          <target state="translated">Si no especifica un valor para este parámetro, PowerShellGet sondea proveedores de paquetes disponibles y asocia el primer proveedor de paquete que indica que puede controlar el repositorio en este repositorio.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-PublishLocation</source>
+          <target state="translated">-PublishLocation</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Specifies the URI of the publish location.</source>
+          <target state="translated">Especifica el URI de la ubicación de publicación.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For example, for NuGet-based repositories, the publish location is similar to http://someNuGetUrl.com/api/v2/Packages.</source>
+          <target state="translated">Por ejemplo, para los repositorios basados en NuGet, la ubicación de publicación es similar a http://someNuGetUrl.com/api/v2/Packages.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>-SourceLocation</source>
+          <target state="translated">-SourceLocation</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Specifies the URI for discovering and installing modules from this repository.</source>
+          <target state="translated">Especifica el URI para detectar e instalar los módulos de este repositorio.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>For example, for NuGet-based repositories, the source location is similar to http://someNuGetUrl.com/api/v2.</source>
+          <target state="translated">Por ejemplo, para los repositorios basados en NuGet, la ubicación de origen es similar a http://someNuGetUrl.com/api/v2.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Este cmdlet admite los parámetros comunes:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction y - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Para obtener más información, consulte about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ENTRADAS</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">SALIDAS</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTAS</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">VÍNCULOS RELACIONADOS</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Get-PSRepository</source>
+          <target state="translated">Get-PSRepository</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Set-PSRepository</source>
+          <target state="translated">Set-PSRepository</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Unregister-PSRepository</source>
+          <target state="translated">Unregister-PSRepository</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4c482e1bd2eaf796ec09e9cbed7883083356ebc5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\Receive-Job.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b3f80553dd9d13a0cf1d0f11906f77c39259bb09</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">153c392b5013fa4165ecf17635cc055d426daff2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell 指令程式</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Receive-Job</source>
+          <target state="translated">接收工作</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Receive-Job</source>
+          <target state="translated">接收工作</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Gets the results of the Windows PowerShell background jobs in the current session.</source>
+          <target state="translated">取得目前工作階段中 Windows PowerShell 背景工作的結果。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">語法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Location (Default)</source>
+          <target state="translated">位置 （預設值）</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>ComputerName</source>
+          <target state="translated">ComputerName</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Session</source>
+          <target state="translated">工作階段</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>NameParameterSet</source>
+          <target state="translated">NameParameterSet</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>InstanceIdParameterSet</source>
+          <target state="translated">InstanceIdParameterSet</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>SessionIdParameterSet</source>
+          <target state="translated">SessionIdParameterSet</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">描述</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Receive-Job<ept id="p1">**</ept> cmdlet gets the results of Windows PowerShell background jobs, such as those started by using the Start-Job cmdlet or the <bpt id="p2">*</bpt>AsJob<ept id="p2">*</ept> parameter of any cmdlet.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Receive-job<ept id="p1">**</ept> cmdlet 會取得 Windows PowerShell 背景工作，例如藉由使用 Start-job cmdlet 的結果或 <bpt id="p2">*</bpt>AsJob<ept id="p2">*</ept> 任何 cmdlet 的參數。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can get the results of all jobs or identify jobs by their name, ID, instance ID, computer name, location, or session, or by submitting a job object.</source>
+          <target state="translated">您可以取得所有工作的結果，或是依據工作的名稱、識別碼、執行個體識別碼、電腦名稱、位置或工作階段，或藉由送出工作物件，來識別工作。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When you start a Windows PowerShell background job, the job starts, but the results do not appear immediately.</source>
+          <target state="translated">啟動 Windows PowerShell 背景工作時，工作會啟動，但是結果不會立即顯示。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Instead, the command returns an object that represents the background job.</source>
+          <target state="translated">取而代之的是，命令會傳回代表背景工作的物件。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The job object contains useful information about the job, but it does not contain the results.</source>
+          <target state="translated">工作物件包含工作的相關實用資訊，但是不包含結果。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This method lets you continue to work in the session while the job runs.</source>
+          <target state="translated">這個方法可讓您可以繼續在工作執行時，工作階段中。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For more information about background jobs in Windows PowerShell, see about_Jobs.</source>
+          <target state="translated">如需 Windows PowerShell 中的背景工作的詳細資訊，請參閱 about_Jobs。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Receive-Job<ept id="p1">**</ept> cmdlet gets the results that have been generated by the time that the <bpt id="p2">**</bpt>Receive-Job<ept id="p2">**</ept> command is submitted.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Receive-job<ept id="p1">**</ept> cmdlet 會取得結果所產生的時間， <bpt id="p2">**</bpt>Receive-job<ept id="p2">**</ept> 提交命令。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If the results are not yet complete, you can run additional <bpt id="p1">**</bpt>Receive-Job<ept id="p1">**</ept> commands to get the remaining results.</source>
+          <target state="translated">如果結果尚未完成後，您可以執行其他 <bpt id="p1">**</bpt>Receive-job<ept id="p1">**</ept> 命令來取得其餘的結果。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>By default, job results are deleted from the system when you receive them, but you can use the <bpt id="p1">*</bpt>Keep<ept id="p1">*</ept> parameter to save the results so that you can receive them again.</source>
+          <target state="translated">根據預設，工作結果從系統中刪除時，您會看到它們，但您可以使用 <bpt id="p1">*</bpt>保留<ept id="p1">*</ept> ，儲存結果，讓您一次接收的參數。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>To delete the job results, run the <bpt id="p1">**</bpt>Receive-Job<ept id="p1">**</ept> command again without the <bpt id="p2">*</bpt>Keep<ept id="p2">*</ept> parameter, close the session, or use the Remove-Job cmdlet to delete the job from the session.</source>
+          <target state="translated">若要刪除工作結果，請執行 <bpt id="p1">**</bpt>Receive-job<ept id="p1">**</ept> 命令一次省略 <bpt id="p2">*</bpt>保留<ept id="p2">*</ept> 參數關閉工作階段，或使用 Remove-job cmdlet 從工作階段刪除作業。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Starting in Windows PowerShell 3.0, <bpt id="p1">**</bpt>Receive-Job<ept id="p1">**</ept> also gets the results of custom job types, such as workflow jobs and instances of scheduled jobs.</source>
+          <target state="translated">在 Windows PowerShell 3.0 中，啟動 <bpt id="p1">**</bpt>Receive-job<ept id="p1">**</ept> 也會取得自訂工作類型，例如工作流程工作和排程工作的執行個體的結果。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To enable <bpt id="p1">**</bpt>Receive-Job<ept id="p1">**</ept> to get the results a custom job type, import the module that supports the custom job type into the session before it runs a <bpt id="p2">**</bpt>Receive-Job<ept id="p2">**</ept> command, either by using the Import-Module cmdlet or by using or getting a cmdlet in the module.</source>
+          <target state="translated">若要啟用 <bpt id="p1">**</bpt>接收工作<ept id="p1">**</ept> 取得結果的自訂工作類型的模組匯入支援工作階段之前執行的自訂工作類型， <bpt id="p2">**</bpt>Receive-job<ept id="p2">**</ept> 命令，使用 Import-module cmdlet 或使用或 cmdlet 取得模組中。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For information about a particular custom job type, see the documentation of the custom job type feature.</source>
+          <target state="translated">如需有關特定自訂工作類型的資訊，請參閱自訂工作類型功能的文件。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">範例</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Example 1: Get results for a particular job</source>
+          <target state="translated">範例 1︰ 取得特定作業的結果</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>These commands use the <bpt id="p1">*</bpt>Job<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>Receive-Job<ept id="p2">**</ept> to get the results of a particular job.</source>
+          <target state="translated">這些命令會使用 <bpt id="p1">*</bpt>工作<ept id="p1">*</ept> 參數 <bpt id="p2">**</bpt>Receive-job<ept id="p2">**</ept> 以取得特定工作的結果。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The first command uses the Start-Job cmdlet to start a job that runs a Get-Process command.</source>
+          <target state="translated">第一個命令使用 Start-job cmdlet 來啟動執行 Get-process 命令的工作。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The command uses the assignment operator (=) to save the resulting job object in the $job variable.</source>
+          <target state="translated">此命令使用指派運算子 (=) 將產生的工作物件儲存在 $job 變數中。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">**</bpt>Receive-Job<ept id="p1">**</ept> cmdlet to get the results of the job.</source>
+          <target state="translated">第二個命令會使用 <bpt id="p1">**</bpt>Receive-job<ept id="p1">**</ept> cmdlet 來取得工作的結果。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>Job<ept id="p1">*</ept> parameter to specify the job.</source>
+          <target state="translated">它會使用 <bpt id="p1">*</bpt>工作<ept id="p1">*</ept> 參數來指定工作。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Example 2: Get results for a particular job by using the pipeline</source>
+          <target state="translated">範例 2︰ 取得特定作業的結果，使用管線</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This example is the same as the previous example, except that the command uses a pipeline operator (|) to send the job object to <bpt id="p1">**</bpt>Receive-Job<ept id="p1">**</ept>.</source>
+          <target state="translated">此範例與上述範例中，相同之處在於命令使用管線運算子 (|) 將工作物件傳送至 <bpt id="p1">**</bpt>Receive-job<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>As a result, the command does not need a <bpt id="p1">*</bpt>Job<ept id="p1">*</ept> parameter to specify the job.</source>
+          <target state="translated">此命令不需要的結果， <bpt id="p1">*</bpt>工作<ept id="p1">*</ept> 參數來指定工作。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Example 3: Get results of several background jobs</source>
+          <target state="translated">範例 3︰ 取得數個背景工作的結果</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>These commands get the results of one of several background jobs run on remote computers.</source>
+          <target state="translated">這些命令會取得在遠端電腦上執行的數個背景工作之一的結果。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Example 4: Get results of background jobs on multiple remote computers</source>
+          <target state="translated">範例 4︰ 取得多部遠端電腦上的背景工作的結果</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This example shows how to get the results of background jobs run on three remote computers.</source>
+          <target state="translated">這個範例示範如何取得在三部遠端電腦上執行之背景工作的結果。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">參數</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>-AutoRemoveJob</source>
+          <target state="translated">-AutoRemoveJob</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet deletes the job after it returns the job results.</source>
+          <target state="translated">指出這個指令程式，會傳回工作結果之後刪除工作。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>If the job has more results, the job is still deleted, but <bpt id="p1">**</bpt>Receive-Job<ept id="p1">**</ept> displays a message.</source>
+          <target state="translated">如果作業有更多結果，仍然會刪除工作，但 <bpt id="p1">**</bpt>Receive-job<ept id="p1">**</ept> 會顯示訊息。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This parameter works only on custom job types.</source>
+          <target state="translated">這個參數只適用於自訂工作類型。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>It is designed for instances of job types that save the job or the type outside of the session, such as instances of scheduled jobs.</source>
+          <target state="translated">它是專為儲存工作的工作類型執行個體或工作階段外的類型 (例如排程工作的執行個體) 而設計。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此參數是在 Windows PowerShell 3.0 引進。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>-ComputerName</source>
+          <target state="translated">-ComputerName</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Specifies an array of names of computers.</source>
+          <target state="translated">指定電腦名稱的陣列。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This cmdlet gets the results of jobs that were run on the specified computers.</source>
+          <target state="translated">此 cmdlet 會取得所指定的電腦上執行作業的結果。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Enter the computer names.</source>
+          <target state="translated">請輸入電腦名稱。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are supported.</source>
+          <target state="translated">支援使用萬用字元。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The default is all jobs in the current session.</source>
+          <target state="translated">預設為目前工作階段中的所有工作。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This parameter selects from among the job results that are stored on the local computer.</source>
+          <target state="translated">這個參數會從儲存在本機電腦上的工作結果中選取。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>It does not get data from remote computers.</source>
+          <target state="translated">它不會從遠端電腦取得資料。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>To get job results that are stored on remote computers, use the Invoke-Command cmdlet to run a <bpt id="p1">**</bpt>Receive-Job<ept id="p1">**</ept> command remotely.</source>
+          <target state="translated">若要取得遠端電腦所儲存的工作結果，請使用 Invoke-command cmdlet 執行 <bpt id="p1">**</bpt>Receive-job<ept id="p1">**</ept> 遠端命令。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet continues waiting if jobs are in the Suspended or Disconnected state.</source>
+          <target state="translated">指出工作是否已暫停或中斷連線的狀態在這個指令程式會繼續等候。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>By default, the <bpt id="p1">*</bpt>Wait<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>Receive-Job<ept id="p2">**</ept> returns, or terminates the wait, when jobs are in one of the following states:  Completed, Failed, Stopped, Suspended, or Disconnected.</source>
+          <target state="translated">根據預設， <bpt id="p1">*</bpt>等候<ept id="p1">*</ept> 參數 <bpt id="p2">**</bpt>Receive-job<ept id="p2">**</ept> 傳回，或終止等待，當工作處於下列狀態之一︰ 已完成、 失敗、 已停止、 已暫停或已中斷連接。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>Force<ept id="p1">*</ept> parameter is valid only when the <bpt id="p2">*</bpt>Wait<ept id="p2">*</ept> parameter is also used in the command.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>Force<ept id="p1">*</ept> 參數是時才有效 <bpt id="p2">*</bpt>等候<ept id="p2">*</ept> 命令中也使用參數。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此參數是在 Windows PowerShell 3.0 引進。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>-Id</source>
+          <target state="translated">識別碼</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Specifies an array of IDs.</source>
+          <target state="translated">指定識別碼的陣列。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This cmdlet gets the results of jobs with the specified IDs.</source>
+          <target state="translated">此 cmdlet 會取得具有指定識別碼之工作的結果。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The default is all jobs in the current session.</source>
+          <target state="translated">預設為目前工作階段中的所有工作。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The ID is an integer that uniquely identifies the job in the current session.</source>
+          <target state="translated">整數，可唯一識別目前工作階段中的 [工作 ID。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>It is easier to remember and type than the instance ID, but it is unique only in the current session.</source>
+          <target state="translated">很容易記得和輸入與執行個體識別碼，但只在目前工作階段中是唯一。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>You can type one or more IDs separated by commas.</source>
+          <target state="translated">您可以輸入一個或多個以逗號分隔的識別碼。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>To find the ID of a job, type <ph id="ph1">`Get-Job`</ph> without parameters.</source>
+          <target state="translated">若要尋找工作識別碼，請輸入 <ph id="ph1">`Get-Job`</ph> 不加任何參數。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>-InstanceId</source>
+          <target state="translated">-執行個體識別碼</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Specifies an array of instance IDs.</source>
+          <target state="translated">指定執行個體識別碼的陣列。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>This cmdlet gets the results of jobs with the specified instance IDs.</source>
+          <target state="translated">此 cmdlet 會取得具有指定的執行個體識別碼之工作的結果。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The default is all jobs in the current session.</source>
+          <target state="translated">預設為目前工作階段中的所有工作。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>An instance ID is a GUID that uniquely identifies the job on the computer.</source>
+          <target state="translated">執行個體識別碼是 GUID，可唯一識別電腦上的工作。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>To find the instance ID of a job, use the Get-Job cmdlet.</source>
+          <target state="translated">若要尋找工作的執行個體識別碼，請使用 Get-Job Cmdlet。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>-Job</source>
+          <target state="translated">作業</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Specifies the job for which results are being retrieved.</source>
+          <target state="translated">指定要為其抓取結果的工作。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This parameter is required in a <bpt id="p1">**</bpt>Receive-Job<ept id="p1">**</ept> command.</source>
+          <target state="translated">這必要參數在 <bpt id="p1">**</bpt>Receive-job<ept id="p1">**</ept> 命令。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the job or a command that gets the job.</source>
+          <target state="translated">請輸入包含工作的變數，或輸入可取得工作的命令。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>You can also pipe a job object to <bpt id="p1">**</bpt>Receive-Job<ept id="p1">**</ept>.</source>
+          <target state="translated">您也可以使用管線的工作物件 <bpt id="p1">**</bpt>Receive-job<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>-Keep</source>
+          <target state="translated">-保留</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet saves the job results in the system, even after you have received them.</source>
+          <target state="translated">表示，此指令程式將工作結果儲存在系統中，即使您收到。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>By default, the job results are deleted when they are retrieved.</source>
+          <target state="translated">預設是在抓取工作結果之後，就將工作結果刪除。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>To delete the results, use <bpt id="p1">**</bpt>Receive-Job<ept id="p1">**</ept> to receive them again without specifying <bpt id="p2">*</bpt>Keep<ept id="p2">*</ept> parameter, close the session, or use the <bpt id="p3">**</bpt>Remove-Job<ept id="p3">**</ept> cmdlet to delete the job from the session.</source>
+          <target state="translated">若要刪除的結果，請使用 <bpt id="p1">**</bpt>Receive-job<ept id="p1">**</ept> 再次接收但未指定 <bpt id="p2">*</bpt>保留<ept id="p2">*</ept> 參數關閉工作階段，或使用 <bpt id="p3">**</bpt>Remove-job<ept id="p3">**</ept> 指令程式可從工作階段刪除工作。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>-Location</source>
+          <target state="translated">位置</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Specifies an array of locations.</source>
+          <target state="translated">指定位置的陣列。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>This cmdlet gets only the results of jobs in the specified locations.</source>
+          <target state="translated">此 cmdlet 會取得工作的結果，在指定的位置。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The default is all jobs in the current session.</source>
+          <target state="translated">預設為目前工作階段中的所有工作。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Specifies an array of friendly names.</source>
+          <target state="translated">指定好記名稱的陣列。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>This cmdlet gets the results of jobs that have the specified names.</source>
+          <target state="translated">此 cmdlet 會取得具有指定的名稱之作業的結果。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are supported.</source>
+          <target state="translated">支援使用萬用字元。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The default is all jobs in the current session.</source>
+          <target state="translated">預設為目前工作階段中的所有工作。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>-NoRecurse</source>
+          <target state="translated">-NoRecurse</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet gets results only from the specified job.</source>
+          <target state="translated">指出此 cmdlet 會取得只從指定作業的結果。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Receive-Job<ept id="p1">**</ept> also gets the results of all child jobs of the specified job.</source>
+          <target state="translated">根據預設， <bpt id="p1">**</bpt>Receive-job<ept id="p1">**</ept> 也會取得指定工作的所有子工作的結果。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>-Session</source>
+          <target state="translated">工作階段</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Specifies an array of sessions.</source>
+          <target state="translated">指定工作階段的陣列。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>This cmdlet gets the results of jobs that were run in the specified Windows PowerShell session (<bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept>).</source>
+          <target state="translated">此 cmdlet 會取得指定的 Windows PowerShell 工作階段中執行的工作結果 (<bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept>)。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> or a command that gets the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>, such as a Get-PSSession command.</source>
+          <target state="translated">輸入變數，其中包含 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 或取得命令 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>, ，例如 Get-pssession 命令。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The default is all jobs in the current session.</source>
+          <target state="translated">預設為目前工作階段中的所有工作。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>-Wait</source>
+          <target state="translated">-Wait</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet suppresses the command prompt until all job results are received.</source>
+          <target state="translated">指出這個指令程式會抑制命令提示字元，直到所有的工作結果都收到為止。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Receive-Job<ept id="p1">**</ept> immediately returns the available results.</source>
+          <target state="translated">根據預設， <bpt id="p1">**</bpt>Receive-job<ept id="p1">**</ept> 立即傳回可用的結果。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>By default, the <bpt id="p1">*</bpt>Wait<ept id="p1">*</ept> parameter waits until the job is in one of the following states: Completed, Failed, Stopped, Suspended, or Disconnected.</source>
+          <target state="translated">根據預設， <bpt id="p1">*</bpt>等候<ept id="p1">*</ept> 參數會等到工作處於下列狀態之一︰ 已完成、 失敗、 已停止、 已暫停或已中斷連接。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>To direct the <bpt id="p1">*</bpt>Wait<ept id="p1">*</ept> parameter to continue waiting if the job state is Suspended or Disconnected, use the <bpt id="p2">*</bpt>Force<ept id="p2">*</ept> parameter together with the <bpt id="p3">*</bpt>Wait<ept id="p3">*</ept> parameter.</source>
+          <target state="translated">導向 <bpt id="p1">*</bpt>等候<ept id="p1">*</ept> 參數來繼續等待，如果暫止工作的狀態或已中斷連接，使用 <bpt id="p2">*</bpt>Force<ept id="p2">*</ept> 參數搭配 <bpt id="p3">*</bpt>等候<ept id="p3">*</ept> 參數。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此參數是在 Windows PowerShell 3.0 引進。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>-WriteEvents</source>
+          <target state="translated">-WriteEvents</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet reports changes in the job state while it waits for the job to finish.</source>
+          <target state="translated">指出此 cmdlet 會報告工作狀態的變更，同時等候工作完成。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when the <bpt id="p1">*</bpt>Wait<ept id="p1">*</ept> parameter is used in the command and the <bpt id="p2">*</bpt>Keep<ept id="p2">*</ept> parameter is omitted.</source>
+          <target state="translated">這個參數是時才有效 <bpt id="p1">*</bpt>等候<ept id="p1">*</ept> 命令中使用參數和 <bpt id="p2">*</bpt>保留<ept id="p2">*</ept> 省略參數。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此參數是在 Windows PowerShell 3.0 引進。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>-WriteJobInResults</source>
+          <target state="translated">-WriteJobInResults</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet returns the job object followed by the results.</source>
+          <target state="translated">指出此 cmdlet 會傳回工作物件，後面接著結果。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when the <bpt id="p1">*</bpt>Wait<ept id="p1">*</ept> parameter is used in the command and the <bpt id="p2">*</bpt>Keep<ept id="p2">*</ept> parameter is omitted.</source>
+          <target state="translated">這個參數是時才有效 <bpt id="p1">*</bpt>等候<ept id="p1">*</ept> 命令中使用參數和 <bpt id="p2">*</bpt>保留<ept id="p2">*</ept> 省略參數。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此參數是在 Windows PowerShell 3.0 引進。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">這個 cmdlet 支援一般參數:-偵錯、-ErrorAction、-ErrorVariable、-InformationAction-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 以及-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">如需詳細資訊，請參閱 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">輸入</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.Job</source>
+          <target state="translated">System.Management.Automation.Job</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>You can pipe job objects to this cmdlet.</source>
+          <target state="translated">您可以透過管道傳送到此指令程式的工作物件。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">輸出</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>PSObject</source>
+          <target state="translated">PSObject</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>This cmdlet returns the results of the commands in the job.</source>
+          <target state="translated">此 cmdlet 會傳回工作中命令的結果。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">附註</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相關的連結</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Get-Job</source>
+          <target state="translated">取得工作</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Invoke-Command</source>
+          <target state="translated">Invoke-Command</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Remove-Job</source>
+          <target state="translated">移除工作</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Resume-Job</source>
+          <target state="translated">Resume-Job</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Start-Job</source>
+          <target state="translated">啟動工作</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Stop-Job</source>
+          <target state="translated">停止工作</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Suspend-Job</source>
+          <target state="translated">Suspend-Job</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Wait-Job</source>
+          <target state="translated">等候工作</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>about_Jobs</source>
+          <target state="translated">about_Jobs</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>about_Job_Details</source>
+          <target state="translated">about_Job_Details</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>about_Remote_Jobs</source>
+          <target state="translated">about_Remote_Jobs</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>about_Remote_Variables</source>
+          <target state="translated">about_Remote_Variables</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>about_Scopes</source>
+          <target state="translated">about_Scopes</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

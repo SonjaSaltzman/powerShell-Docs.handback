@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3477e1c213de5436e48d4a0ac4790675f11a2d5a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Utility\Add-Type.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2ffcff4b17d50fd06b8fc92524b33b41f681634a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">19a9847c5552b076d1bbec6a9620b9f687c78dc1</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell 指令程式</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Add-Type</source>
+          <target state="translated">加入類型</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Add-Type</source>
+          <target state="translated">加入類型</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Adds a Microsoft .NET Framework type (a class) to a Windows PowerShell session.</source>
+          <target state="translated">新增 Microsoft .NET Framework 類型 (類別) 至 Windows PowerShell 工作階段。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">語法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>FromSource (Default)</source>
+          <target state="translated">[FromSource （預設值）</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>FromMember</source>
+          <target state="translated">FromMember</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>FromPath</source>
+          <target state="translated">Swift_attachment</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>FromLiteralPath</source>
+          <target state="translated">FromLiteralPath</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>FromAssemblyName</source>
+          <target state="translated">FromAssemblyName</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">描述</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet lets you define a .NET Framework class in your Windows PowerShell session.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>加入型別<ept id="p1">**</ept> 指令程式可讓您在 Windows PowerShell 工作階段中定義的.NET Framework 類別。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can then instantiate objects (by using the New-Object cmdlet) and use the objects, just as you would use any .NET Framework object.</source>
+          <target state="translated">然後物件具現化 （藉由使用 New-object cmdlet），及使用物件，就像您會使用任何.NET Framework 物件。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If you add an <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> command to your Windows PowerShell profile, the class is available in all Windows PowerShell sessions.</source>
+          <target state="translated">如果您將加入 <bpt id="p1">**</bpt>加入型別<ept id="p1">**</ept> 命令您的 Windows PowerShell 設定檔的類別是所有的 Windows PowerShell 工作階段中可用。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can specify the type by specifying an existing assembly or source code files, or you can specify the source code inline or saved in a variable.</source>
+          <target state="translated">您可以透過指定現有組件或原始程式碼檔案來指定類型，或者指定變數中內嵌或預存的原始程式碼。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can even specify only a method and <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> will define and generate the class.</source>
+          <target state="translated">您甚至可以指定只有方法和 <bpt id="p1">**</bpt>加入型別<ept id="p1">**</ept> 會定義並產生類別。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can use this feature to make Platform Invoke (P/Invoke) calls to unmanaged functions in Windows PowerShell.</source>
+          <target state="translated">您可以使用此功能，向 Windows PowerShell 中未受管理的函式發出「平台叫用」(P/Invoke) 呼叫。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If you specify source code, <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> compiles the specified source code and generates an in-memory assembly that contains the new .NET Framework types.</source>
+          <target state="translated">如果您指定的原始程式碼， <bpt id="p1">**</bpt>加入型別<ept id="p1">**</ept> 會將指定的原始程式碼，並產生記憶體中組件，其中包含新的.NET Framework 型別。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can use the parameters of <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> to specify an alternate language and compiler (CSharp is the default), compiler options, assembly dependencies, the class namespace, the names of the type, and the resulting assembly.</source>
+          <target state="translated">您可以使用的參數 <bpt id="p1">**</bpt>加入型別<ept id="p1">**</ept> 來指定替代語言和編譯器 （CSharp 是預設值）、 編譯器選項、 組件相依性、 類別命名空間、 類型和產生的組件的名稱。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">範例</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 範例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>These commands add the BasicTest class to the session by specifying source code that is stored in a variable.</source>
+          <target state="translated">這些命令會透過指定儲存在變數中的原始程式碼，將 BasicTest 類別新增至工作階段。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The type has a static method called Add and a non-static method called Multiply.</source>
+          <target state="translated">類型擁有名為 Add 的靜態方法，和名為 Multiply 的非靜態方法。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The first command stores the source code for the class in the $source variable.</source>
+          <target state="translated">第一個命令將類別的原始程式碼儲存在 $source 變數中。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet to add the class to the session.</source>
+          <target state="translated">第二個命令會使用 <bpt id="p1">**</bpt>加入型別<ept id="p1">**</ept> 指令程式可將類別加入至工作階段。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Because it is using inline source code, the command uses the <bpt id="p1">**</bpt>TypeDefinition<ept id="p1">**</ept> parameter to specify the code in the $source variable.</source>
+          <target state="translated">因為它使用內嵌程式碼，此命令會使用 <bpt id="p1">**</bpt>TypeDefinition<ept id="p1">**</ept> $source 變數中指定的程式碼的參數。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The remaining commands use the new class.</source>
+          <target state="translated">其餘的命令會使用新的類別。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The third command calls the Add static method of the BasicTest class.</source>
+          <target state="translated">第三個命令呼叫 BasicTest 類別的 Add 靜態方法。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>It uses the double-colon characters (::) to specify a static member of the class.</source>
+          <target state="translated">它使用雙冒號字元 (::) 指定類別的靜態成員。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The fourth command uses the <bpt id="p1">**</bpt>New-Object<ept id="p1">**</ept> cmdlet to instantiate an instance of the BasicTest class.</source>
+          <target state="translated">第四個命令會使用 <bpt id="p1">**</bpt>New-object<ept id="p1">**</ept> cmdlet 來具現化 BasicTest 類別的執行個體。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>It saves the new object in the $basicTestObject variable.</source>
+          <target state="translated">它會將新的物件儲存在 $basicTestObject 變數中。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The fifth command uses the Multiply method of $basicTestObject.</source>
+          <target state="translated">第五個命令使用 $basicTestObject 的 Multiply 方法。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>These commands use the Get-Member cmdlet to examine the objects that the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> and New-Object cmdlets created in the previous example.</source>
+          <target state="translated">這些命令使用 Get-member 指令程式來檢查的物件， <bpt id="p1">**</bpt>加入型別<ept id="p1">**</ept> 和前一個範例中所建立的新物件指令程式。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept> cmdlet to get the type and members of the BasicTest class that <bpt id="p2">**</bpt>Add-Type<ept id="p2">**</ept> added to the session.</source>
+          <target state="translated">第一個命令使用 <bpt id="p1">**</bpt>Get-member<ept id="p1">**</ept> cmdlet 來取得型別和成員之 basictest 類別 (class) <bpt id="p2">**</bpt>加入型別<ept id="p2">**</ept> 新增至工作階段。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept> command reveals that it is a <bpt id="p2">**</bpt>System.RuntimeType<ept id="p2">**</ept> object, which is derived from the System.Object class.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Get-member<ept id="p1">**</ept> 命令會顯示它是 <bpt id="p2">**</bpt>System.RuntimeType<ept id="p2">**</ept> 衍生自 System.Object 類別的物件。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">**</bpt>Static<ept id="p1">**</ept> parameter of the <bpt id="p2">**</bpt>Get-Member<ept id="p2">**</ept> cmdlet to get the static properties and methods of the BasicTest class.</source>
+          <target state="translated">第二個命令會使用 <bpt id="p1">**</bpt>靜態<ept id="p1">**</ept> 參數 <bpt id="p2">**</bpt>Get-member<ept id="p2">**</ept> cmdlet 來取得靜態屬性和 BasicTest 類別的方法。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The output shows that the Add method is included.</source>
+          <target state="translated">輸出會顯示已包含 Add 方法。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The third command uses the <bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept> cmdlet to get the members of the object stored in the $BasicTestObject variable.</source>
+          <target state="translated">第三個命令會使用 <bpt id="p1">**</bpt>Get-member<ept id="p1">**</ept> cmdlet 來取得儲存在 $BasicTestObject 變數物件的成員。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This was the object instance that was created by using the <bpt id="p1">**</bpt>New-Object<ept id="p1">**</ept> cmdlet with the $BasicType class.</source>
+          <target state="translated">這是使用所建立的物件執行個體 <bpt id="p1">**</bpt>New-object<ept id="p1">**</ept> 指令程式搭配 $BasicType 類別。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The output reveals that the value of the $BasicTestObject variable is an instance of the BasicTest class and that it includes a member called Multiply.</source>
+          <target state="translated">輸出會顯示 $BasicTestObject 變數的值是 BasicTest 類別的執行個體，且其中包含稱為 Multiply 的成員。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This command adds the classes from the Accessibility assembly to the current session.</source>
+          <target state="translated">此命令會將來自 Accessibility 組件的類別新增至目前的工作階段。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>AssemblyName<ept id="p1">**</ept> parameter to specify the name of the assembly.</source>
+          <target state="translated">此命令會使用 <bpt id="p1">**</bpt>AssemblyName<ept id="p1">**</ept> 參數來指定組件的名稱。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The wildcard character allows you to get the correct assembly even when you are not sure of the name or its spelling.</source>
+          <target state="translated">萬用字元可讓您在不確定名稱或拼法的時候，也能取得正確的組件。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter to generate objects that represent the classes that are added to the session, and it saves the objects in the $accType variable.</source>
+          <target state="translated">此命令會使用 <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> 參數產生物件，代表工作階段中，加入的類別，並將物件儲存在 $accType 變數。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This example uses the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet to add the VBFromFile class that is defined in the Hello.vb file to the current session.</source>
+          <target state="translated">這個範例會使用 <bpt id="p1">**</bpt>加入型別<ept id="p1">**</ept> cmdlet 將 Hello.vb 檔案目前的工作階段中定義的 VBFromFile 類別。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The text of the Hello.vb file is shown in the command output.</source>
+          <target state="translated">命令輸出中顯示 Hello.vb 檔案的文字。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet to add the type defined in the Hello.vb file to the current session.</source>
+          <target state="translated">第一個命令使用 <bpt id="p1">**</bpt>加入型別<ept id="p1">**</ept> cmdlet 將 Hello.vb 檔案目前的工作階段中定義的類型。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter to specify the source file.</source>
+          <target state="translated">此命令會使用 <bpt id="p1">**</bpt>路徑<ept id="p1">**</ept> 參數來指定原始程式檔。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The second command calls the SayHello function as a static method of the VBFromFile class.</source>
+          <target state="translated">第二個命令呼叫 SayHello 函式作為 VBFromFile 類別的靜態方法。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The commands in this example demonstrate how to call native Windows APIs in Windows PowerShell.</source>
+          <target state="translated">此範例中的命令示範如何在 Windows PowerShell 中呼叫原生 Windows API。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> uses the Platform Invoke (P/Invoke) mechanism to call a function in User32.dll from Windows PowerShell.</source>
+          <target state="translated"><bpt id="p1">**</bpt>加入類型<ept id="p1">**</ept> User32.dll 中呼叫的函式，從 Windows PowerShell 中使用的平台叫用 (P/Invoke) 機制。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The first command stores the C# signature of the <bpt id="p1">**</bpt>ShowWindowAsync<ept id="p1">**</ept> function in the $signature variable.</source>
+          <target state="translated">第一個命令會將 C# 簽章的 <bpt id="p1">**</bpt>ShowWindowAsync<ept id="p1">**</ept> $signature 變數中的函式。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>(For more information, see "ShowWindowAsync Function" in the MSDN library at http://go.microsoft.com/fwlink/?LinkId=143643.) To ensure that the resulting method will be visible in a Windows PowerShell session, the "public" keyword has been added to the standard signature.</source>
+          <target state="translated">(如需詳細資訊，請參閱 MSDN 文件庫中的＜ShowWindowAsync 函式＞，網址為 http://go.microsoft.com/fwlink/?LinkId=143643。)為了確定可在 Windows PowerShell 工作階段中看見產生的方法，已將 "public" 關鍵字加到標準簽章。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet to add the ShowWindowAsync function to the Windows PowerShell session as a static method of a class that <bpt id="p2">**</bpt>Add-Type<ept id="p2">**</ept> creates.</source>
+          <target state="translated">第二個命令會使用 <bpt id="p1">**</bpt>加入型別<ept id="p1">**</ept> cmdlet 將 ShowWindowAsync 函式新增至 Windows PowerShell 工作階段為類別的靜態方法， <bpt id="p2">**</bpt>加入型別<ept id="p2">**</ept> 建立。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>MemberDefinition<ept id="p1">**</ept> parameter to specify the method definition saved in the $signature variable.</source>
+          <target state="translated">此命令會使用 <bpt id="p1">**</bpt>MemberDefinition<ept id="p1">**</ept> 參數來指定 $signature 變數中儲存的方法定義。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Namespace<ept id="p2">**</ept> parameters to specify a name and namespace for the class.</source>
+          <target state="translated">此命令會使用 <bpt id="p1">**</bpt>名稱<ept id="p1">**</ept> 和 <bpt id="p2">**</bpt>命名空間<ept id="p2">**</ept> 指定參數名稱和命名空間的類別。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter to generate an object that represents the types, and it saves the object in the $showWindowAsync variable.</source>
+          <target state="translated">它會使用 <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> 參數產生的型別和它所代表的物件會將物件儲存在 $showWindowAsync 變數。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The third and fourth commands use the new ShowWindowAsync static method.</source>
+          <target state="translated">第三和第四個命令使用新的 ShowWindowAsync 靜態方法。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The method takes two parameters, the window handle, and an integer specifies how the window is to be shown.</source>
+          <target state="translated">方法接受兩個參數、視窗控制代碼及一個指定視窗顯示方式的整數。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The third command calls ShowWindowAsync.</source>
+          <target state="translated">第三個命令呼叫 ShowWindowAsync。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>It uses the Get-Process cmdlet with the $pid automatic variable to get the process that is hosting the current Windows PowerShell session.</source>
+          <target state="translated">它使用 Get-process cmdlet 搭配 $pid 自動變數來取得裝載目前 Windows PowerShell 工作階段的程序。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Then it uses the <bpt id="p1">**</bpt>MainWindowHandle<ept id="p1">**</ept> property of the current process and a value of "2", which represents the SW_MINIMIZE value.</source>
+          <target state="translated">接著，它會使用 <bpt id="p1">**</bpt>MainWindowHandle<ept id="p1">**</ept> 屬性目前的程序，以及代表 SW_MINIMIZE 值"2"的值。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>To restore the window, the fourth command use a value of "4" for the window position, which represents the SW_RESTORE value.</source>
+          <target state="translated">為了還原視窗，第四個命令會使用 "4" 作為視窗位置的值，這個值代表 SW_RESTORE 值。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>(SW_MAXIMIZE is 3.)</source>
+          <target state="translated">(SW_MAXIMIZE 為 3。)</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 6 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 6 --------------------------</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet to add a method from inline JScript code to the Windows PowerShell session.</source>
+          <target state="translated">此命令會使用 <bpt id="p1">**</bpt>加入型別<ept id="p1">**</ept> cmdlet 將方法從內嵌 JScript 程式碼新增至 Windows PowerShell 工作階段。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>MemberDefinition<ept id="p1">**</ept> parameter to submit source code stored in the $jsMethod variable.</source>
+          <target state="translated">它會使用 <bpt id="p1">**</bpt>MemberDefinition<ept id="p1">**</ept> 參數來送出原始碼儲存在 $jsMethod 變數中。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> parameter to specify a name for the class that <bpt id="p2">**</bpt>Add-Type<ept id="p2">**</ept> creates for the method and the <bpt id="p3">**</bpt>Language<ept id="p3">**</ept> parameter to specify the JScript language.</source>
+          <target state="translated">它會使用 <bpt id="p1">**</bpt>名稱<ept id="p1">**</ept> 參數來指定類別的名稱， <bpt id="p2">**</bpt>加入型別<ept id="p2">**</ept> 方法會建立和 <bpt id="p3">**</bpt>語言<ept id="p3">**</ept> 參數來指定 JScript 語言。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 7 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 7 --------------------------</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet to add an FSharp code compiler to your Windows PowerShell session.</source>
+          <target state="translated">這個範例示範如何使用 <bpt id="p1">**</bpt>加入型別<ept id="p1">**</ept> cmdlet 將 FSharp 程式碼編譯器新增至您的 Windows PowerShell 工作階段。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>To run this example in Windows PowerShell, you must have the FSharp.Compiler.CodeDom.dll that is installed with the FSharp language.</source>
+          <target state="translated">若要在 Windows PowerShell 中執行此範例，您必須有和 FSharp 語言一起安裝的 FSharp.Compiler.CodeDom.dll。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The first command in the example uses the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet with the <bpt id="p2">**</bpt>Path<ept id="p2">**</ept> parameter to specify an assembly.</source>
+          <target state="translated">在範例中的第一個命令會使用 <bpt id="p1">**</bpt>加入型別<ept id="p1">**</ept> 指令程式搭配 <bpt id="p2">**</bpt>路徑<ept id="p2">**</ept> 參數來指定組件。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> gets the types in the assembly.</source>
+          <target state="translated"><bpt id="p1">**</bpt>加入類型<ept id="p1">**</ept> 取得組件中的型別。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The second command uses the New-Object cmdlet to create an instance of the FSharp code provider and saves the result in the $Provider variable.</source>
+          <target state="translated">第二個命令使用 New-object cmdlet 來建立 FSharp 程式碼提供者的執行個體，並將結果儲存在 $Provider 變數中。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The third command saves the FSharp code that defines the Loop method in the $FSharpCode variable.</source>
+          <target state="translated">第三個命令將定義 Loop 方法的 FSharp 程式碼儲存在 $FSharpCode 變數中。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The fourth command uses the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet to save the public types defined in $fSharpCode in the $fSharpType variable.</source>
+          <target state="translated">第四個命令會使用 <bpt id="p1">**</bpt>Add-type<ept id="p1">**</ept> $fSharpCode $fSharpType 變數中所定義的公用類型儲存的指令程式。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>TypeDefinition<ept id="p1">**</ept> parameter specifies the source code that defines the types.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>TypeDefinition<ept id="p1">**</ept> 參數會指定定義類型的原始程式碼。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>CodeDomProvider<ept id="p1">**</ept> parameter specifies the source code compiler.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>CodeDomProvider<ept id="p1">**</ept> 參數會指定原始程式碼編譯器。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter directs <bpt id="p2">**</bpt>Add-Type<ept id="p2">**</ept> to return a <bpt id="p3">**</bpt>Runtime<ept id="p3">**</ept> object that represents the types and a pipeline operator (|) sends the <bpt id="p4">**</bpt>Runtime<ept id="p4">**</ept> object to the Where-Object cmdlet, which returns only the public types.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> 參數會指示 <bpt id="p2">**</bpt>加入型別<ept id="p2">**</ept> 傳回 <bpt id="p3">**</bpt>Runtime<ept id="p3">**</ept> 物件，代表的類型，以及管線運算子 (|) 會傳送 <bpt id="p4">**</bpt>Runtime<ept id="p4">**</ept> Where-object 指令程式，它會傳回公用型別物件。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Where-Object<ept id="p1">**</ept> cmdlet is used because the FSharp provider generates non-public types to support the resulting public type.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Where-object<ept id="p1">**</ept> 指令程式會使用，因為 FSharp 提供者會產生非公用類型，以支援產生的公用型別。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The fifth command calls the Loop method as a static method of the type stored in the $fSharpType variable.</source>
+          <target state="translated">第五個命令呼叫 Loop 靜態方法作為 $fSharpType 變數中儲存之類型的靜態方法。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">參數</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>-AssemblyName</source>
+          <target state="translated">-AssemblyName</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Specifies the name of an assembly that includes the types.</source>
+          <target state="translated">指定包含類型之組件的名稱。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> takes the types from the specified assembly.</source>
+          <target state="translated"><bpt id="p1">**</bpt>加入類型<ept id="p1">**</ept> 會從指定的組件取得類型。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>This parameter is required when you are creating types based on an assembly name.</source>
+          <target state="translated">當您根據組件名稱建立類型時，此參數是必要的。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Enter the full or simple name (also known as the "partial name") of an assembly.</source>
+          <target state="translated">輸入組件的完整或簡單名稱 (也稱為「部分名稱」)。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are permitted in the assembly name.</source>
+          <target state="translated">組件名稱允許使用萬用字元。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>If you enter a simple or partial name, <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> resolves it to the full name, and then uses the full name to load the assembly.</source>
+          <target state="translated">如果您輸入的簡單或部分名稱， <bpt id="p1">**</bpt>加入型別<ept id="p1">**</ept> 解析的完整的名稱，然後再使用的完整名稱載入組件。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>This parameter does not accept a path or file name.</source>
+          <target state="translated">此參數不接受路徑或檔案名稱。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>To enter the path to the assembly dynamic-link library (DLL) file, use the Path parameter.</source>
+          <target state="translated">若要輸入組件動態連結程式庫 (DLL) 檔的路徑，請使用 Path 參數。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>-CodeDomProvider</source>
+          <target state="translated">-CodeDomProvider</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Specifies a code generator or compiler.</source>
+          <target state="translated">指定程式碼產生器或編譯器。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> uses the specified compiler to compile the source code.</source>
+          <target state="translated"><bpt id="p1">**</bpt>加入類型<ept id="p1">**</ept> 會使用指定的編譯器來編譯原始程式碼。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The default is the CSharp compiler.</source>
+          <target state="translated">預設為 CSharp 編譯器。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Use this parameter if you are using a language that cannot be specified by using the Language parameter.</source>
+          <target state="translated">如果您正在使用的語言無法以 Language 參數指定，請使用此參數。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The CodeDomProvider that you specify must be able to generate assemblies from source code.</source>
+          <target state="translated">您指定的 CodeDomProvider 必須能從原始程式碼產生組件。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>-CompilerParameters</source>
+          <target state="translated">-CompilerParameters</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Specifies the options for the source code compiler.</source>
+          <target state="translated">指定原始程式碼編譯器的選項。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>These options are sent to the compiler without revision.</source>
+          <target state="translated">這些選項會在不經過修訂的情況下傳送至編譯器。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>This parameter allows you to direct the compiler to generate an executable file, embed resources, or set command-line options, such as the "/unsafe" option.</source>
+          <target state="translated">此參數可讓您指示編譯器產生可執行檔、內嵌資源，或設定命令列選項，例如 "/unsafe" 選項。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>This parameter implements the <bpt id="p1">**</bpt>CompilerParameters<ept id="p1">**</ept> class (System.CodeDom.Compiler.CompilerParameters).</source>
+          <target state="translated">此參數會實作 <bpt id="p1">**</bpt>CompilerParameters<ept id="p1">**</ept> 類別 (System.CodeDom.Compiler.CompilerParameters)。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>You cannot use the <bpt id="p1">**</bpt>CompilerParameters<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ReferencedAssemblies<ept id="p2">**</ept> parameters in the same command.</source>
+          <target state="translated">您不能使用 <bpt id="p1">**</bpt>CompilerParameters<ept id="p1">**</ept> 和 <bpt id="p2">**</bpt>ReferencedAssemblies<ept id="p2">**</ept> 同一個命令中的參數。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>-IgnoreWarnings</source>
+          <target state="translated">-IgnoreWarnings</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Ignores compiler warnings.</source>
+          <target state="translated">忽略編譯器警告。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Use this parameter to prevent <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> from handling compiler warnings as errors.</source>
+          <target state="translated">使用這個參數來防止 <bpt id="p1">**</bpt>加入型別<ept id="p1">**</ept> 處理編譯器警告視為錯誤。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>-Language</source>
+          <target state="translated">語言</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Specifies the language that is used in the source code.</source>
+          <target state="translated">指定在原始程式碼中使用的語言。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet uses the value of this parameter to select the appropriate CodeDomProvider.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>加入型別<ept id="p1">**</ept> 指令程式會使用此參數的值選取適當的 CodeDomProvider。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Valid values are "CSharp", "CSharpVersion3", "VisualBasic", and "JScript".</source>
+          <target state="translated">有效值包括 "CSharp"、"CSharpVersion3"、"VisualBasic" 及 "JScript"。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>"CSharp" is the default value.</source>
+          <target state="translated">"CSharp" 為預設值。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>-LiteralPath</source>
+          <target state="translated">-LiteralPath</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Specifies the path to source code files or assembly DLL files that contain the types.</source>
+          <target state="translated">指定包含類型之原始程式碼檔案或組件 DLL 檔案的路徑。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Unlike <bpt id="p1">**</bpt>Path<ept id="p1">**</ept>, the value of the <bpt id="p2">**</bpt>LiteralPath<ept id="p2">**</ept> parameter is used exactly as it is typed.</source>
+          <target state="translated">不同於 <bpt id="p1">**</bpt>路徑<ept id="p1">**</ept>, ，值 <bpt id="p2">**</bpt>LiteralPath<ept id="p2">**</ept> 完全依照其輸入，使用參數。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>No characters are interpreted as wildcards.</source>
+          <target state="translated">沒有字元會被視為萬用字元。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>If the path includes escape characters, enclose it in single quotation marks.</source>
+          <target state="translated">如果路徑包含逸出字元，請將它括在單引號中。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Single quotation marks tell Windows PowerShell not to interpret any characters as escape sequences.</source>
+          <target state="translated">單引號告知 Windows PowerShell 不要將任何字元視為逸出序列。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>-MemberDefinition</source>
+          <target state="translated">-MemberDefinition</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Specifies new properties or methods for the class.</source>
+          <target state="translated">為類別指定新的屬性或方法。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> generates the template code that is required to support the properties or methods.</source>
+          <target state="translated"><bpt id="p1">**</bpt>加入類型<ept id="p1">**</ept> 產生範本程式碼所需支援的屬性或方法。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>You can use this feature to make Platform Invoke (P/Invoke) calls to unmanaged functions in Windows PowerShell.</source>
+          <target state="translated">您可以使用此功能，向 Windows PowerShell 中未受管理的函式發出「平台叫用」(P/Invoke) 呼叫。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>For more information, see the examples.</source>
+          <target state="translated">如需詳細資訊，請參閱範例。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the class to create.</source>
+          <target state="translated">指定要建立之類別的名稱。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>This parameter is required when generating a type from a member definition.</source>
+          <target state="translated">從成員定義產生類型時，此參數是必要的。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The type name and namespace must be unique within a session.</source>
+          <target state="translated">類別名稱和命名空間在工作階段中必須是唯一的。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>You cannot unload a type or change it.</source>
+          <target state="translated">您無法卸載或變更類型。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>If you need to change the code for a type, you must change the name or start a new Windows PowerShell session.</source>
+          <target state="translated">如果您需要變更類型的程式碼，您必須變更名稱或啟動新的 Windows PowerShell 工作階段。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Otherwise, the command fails.</source>
+          <target state="translated">否則命令會失敗。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>-Namespace</source>
+          <target state="translated">命名空間</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Specifies a namespace for the type.</source>
+          <target state="translated">指定類型的命名空間。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>If this parameter is not included in the command, the type is created in the <bpt id="p1">**</bpt>Microsoft.PowerShell.Commands.AddType.AutoGeneratedTypes<ept id="p1">**</ept> namespace.</source>
+          <target state="translated">如果在命令中未包含此參數，則會建立在 <bpt id="p1">**</bpt>Microsoft.PowerShell.Commands.AddType.AutoGeneratedTypes<ept id="p1">**</ept> 命名空間。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>If the parameter is included in the command with an empty string value or a value of $null, the type is generated in the global namespace.</source>
+          <target state="translated">如果命令中已包含參數，且值為空字串或 $null，則會在全域命名空間中產生類型。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>-OutputAssembly</source>
+          <target state="translated">-OutputAssembly</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Generates a DLL file for the assembly with the specified name in the location.</source>
+          <target state="translated">使用位置中的指定名稱來產生組件的 DLL 檔。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Enter a path (optional) and file name.</source>
+          <target state="translated">輸入路徑 (選擇性) 和檔案名稱。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are permitted.</source>
+          <target state="translated">允許使用萬用字元。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> generates the assembly only in memory.</source>
+          <target state="translated">根據預設， <bpt id="p1">**</bpt>加入型別<ept id="p1">**</ept> 只在記憶體中產生組件。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>-OutputType</source>
+          <target state="translated">-OutputType</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Specifies the output type of the output assembly.</source>
+          <target state="translated">指定輸出組件的輸出類型。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Valid values are <bpt id="p1">**</bpt>Library<ept id="p1">**</ept>, <bpt id="p2">**</bpt>ConsoleApplication<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>WindowsApplication<ept id="p3">**</ept>.</source>
+          <target state="translated">有效值為 <bpt id="p1">**</bpt>程式庫<ept id="p1">**</ept>, ，<bpt id="p2">**</bpt>主控台應用程式<ept id="p2">**</ept>, ，和 <bpt id="p3">**</bpt>WindowsApplication<ept id="p3">**</ept>。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>For more information about the values, see "OutputAssemblyType Enumeration" in MSDN.</source>
+          <target state="translated">如需值的詳細資訊，請參閱 MSDN 中的＜OutputAssemblyType 列舉＞。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>By default, no output type is specified.</source>
+          <target state="translated">預設不會指定任何輸出類型。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when an output assembly is specified in the command.</source>
+          <target state="translated">此參數只有在命令中已指定輸出組件時才有效。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>-PassThru</source>
+          <target state="translated">-PassThru</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">**</bpt>System.Runtime<ept id="p1">**</ept> object that represents the types that were added.</source>
+          <target state="translated">傳回 <bpt id="p1">**</bpt>System.Runtime<ept id="p1">**</ept> 物件，表示已加入的類型。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>By default, this cmdlet does not generate any output.</source>
+          <target state="translated">根據預設，此 Cmdlet 不會產生任何輸出。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>-Path</source>
+          <target state="translated">-Path</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Specifies the path to source code files or assembly DLL files that contain the types.</source>
+          <target state="translated">指定包含類型之原始程式碼檔案或組件 DLL 檔案的路徑。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>If you submit source code files, <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> compiles the code in the files and creates an in-memory assembly of the types.</source>
+          <target state="translated">如果您送出原始程式碼檔案中， <bpt id="p1">**</bpt>加入型別<ept id="p1">**</ept> 會編譯檔案中的程式碼並建立記憶體中組件的類型。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The file name extension specified in the value of Path determines the compiler that <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> uses.</source>
+          <target state="translated">指定值路徑的副檔名會決定編譯器， <bpt id="p1">**</bpt>加入型別<ept id="p1">**</ept> 使用。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>If you submit an assembly file, <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> takes the types from the assembly.</source>
+          <target state="translated">如果您送出組件檔案， <bpt id="p1">**</bpt>加入型別<ept id="p1">**</ept> 會從組件取得類型。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>To specify an in-memory assembly or the global assembly cache, use the <bpt id="p1">**</bpt>AssemblyName<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">若要指定記憶體中組件或全域組件快取，請使用 <bpt id="p1">**</bpt>AssemblyName<ept id="p1">**</ept> 參數。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>-ReferencedAssemblies</source>
+          <target state="translated">-ReferencedAssemblies</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Specifies the assemblies upon which the type depends.</source>
+          <target state="translated">指定類型相依的組件。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> references System.dll and System.Management.Automation.dll.</source>
+          <target state="translated">根據預設， <bpt id="p1">**</bpt>加入型別<ept id="p1">**</ept> 參照 System.dll 和 System.Management.Automation.dll。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The assemblies that you specify by using this parameter are referenced in addition to the default assemblies.</source>
+          <target state="translated">除了參照預設組件之外，也會參照您使用此參數指定的組件。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>You cannot use the <bpt id="p1">**</bpt>CompilerParameters<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ReferencedAssemblies<ept id="p2">**</ept> parameters in the same command.</source>
+          <target state="translated">您不能使用 <bpt id="p1">**</bpt>CompilerParameters<ept id="p1">**</ept> 和 <bpt id="p2">**</bpt>ReferencedAssemblies<ept id="p2">**</ept> 同一個命令中的參數。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>-TypeDefinition</source>
+          <target state="translated">-TypeDefinition</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Specifies the source code that contains the type definitions.</source>
+          <target state="translated">指定包含類型定義的原始程式碼。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Enter the source code in a string or here-string, or enter a variable that contains the source code.</source>
+          <target state="translated">以字串或 here-string 輸入原始程式碼，或者輸入包含原始程式碼的變數。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>For more information about here-strings, see about_Quoting_Rules (http://go.microsoft.com/fwlink/?LinkID=113253).</source>
+          <target state="translated">如需 here-string 的詳細資訊，請參閱 about_Quoting_Rules (http://go.microsoft.com/fwlink/?LinkID=113253)。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Include a namespace declaration in your type definition.</source>
+          <target state="translated">在您的類型定義中包含命名空間宣告。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>If you omit the namespace declaration, your type might have the same name as another type or the shortcut for another type, causing an unintentional overwrite.</source>
+          <target state="translated">如果您省略命名空間宣告，您的類型的名稱可能會與其他類型或其他類型的捷徑名稱相同，這會造成意外覆寫。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>For example, if you define a type called "Exception", scripts that use "Exception" as the shortcut for <bpt id="p1">**</bpt>System.Exception<ept id="p1">**</ept> will fail.</source>
+          <target state="translated">例如，如果您定義一個名為 「 例外狀況 」 類型，指令碼，使用"Exception"做為快速鍵的 <bpt id="p1">**</bpt>System.Exception<ept id="p1">**</ept> 將會失敗。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>-UsingNamespace</source>
+          <target state="translated">-UsingNamespace</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Specifies other namespaces that are required for the class.</source>
+          <target state="translated">指定類別需要的其他命名空間。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>This is much like the Using keyword in C#.</source>
+          <target state="translated">這類似於 C# 中的 Using 關鍵字。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> references the <bpt id="p2">**</bpt>System<ept id="p2">**</ept> namespace.</source>
+          <target state="translated">根據預設， <bpt id="p1">**</bpt>加入型別<ept id="p1">**</ept> 參考 <bpt id="p2">**</bpt>系統<ept id="p2">**</ept> 命名空間。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>When the <bpt id="p1">**</bpt>MemberDefinition<ept id="p1">**</ept> parameter is used, <bpt id="p2">**</bpt>Add-Type<ept id="p2">**</ept> also references the <bpt id="p3">**</bpt>System.Runtime.InteropServices<ept id="p3">**</ept> namespace by default.</source>
+          <target state="translated">當 <bpt id="p1">**</bpt>MemberDefinition<ept id="p1">**</ept> 使用參數， <bpt id="p2">**</bpt>加入型別<ept id="p2">**</ept> 也會參考 <bpt id="p3">**</bpt>System.Runtime.InteropServices<ept id="p3">**</ept> 預設命名空間。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>The namespaces that you add by using the <bpt id="p1">**</bpt>UsingNamespace<ept id="p1">**</ept> parameter are referenced in addition to the default namespaces.</source>
+          <target state="translated">您使用新增的命名空間 <bpt id="p1">**</bpt>UsingNamespace<ept id="p1">**</ept> 除了預設的命名空間參考參數。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">這個 cmdlet 支援一般參數:-偵錯、-ErrorAction、-ErrorVariable、-InformationAction-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 以及-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">如需詳細資訊，請參閱 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">輸入</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">無</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>You cannot pipe objects to Add-Type.</source>
+          <target state="translated">您不能使用管線將物件傳送至 Add-Type。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">輸出</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>None or System.Type</source>
+          <target state="translated">無或 System.Type</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>When you use the <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter, <bpt id="p2">**</bpt>Add-Type<ept id="p2">**</ept> returns a <bpt id="p3">**</bpt>System.Type<ept id="p3">**</ept> object that represents the new type.</source>
+          <target state="translated">當您使用 <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> 參數， <bpt id="p2">**</bpt>加入型別<ept id="p2">**</ept> 傳回 <bpt id="p3">**</bpt>System.Type<ept id="p3">**</ept> 代表新類型的物件。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Otherwise, this cmdlet does not generate any output.</source>
+          <target state="translated">否則，此 Cmdlet 不會產生任何輸出。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">附註</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The types that you add exist only in the current session.</source>
+          <target state="translated">您新增的類型只存在於目前的工作階段。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>To use the types in all sessions, add them to your Windows PowerShell profile.</source>
+          <target state="translated">若要在所有工作階段中使用類型，請將它們新增至 Windows PowerShell 設定檔。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>For more information about the profile, see about_Profiles (http://go.microsoft.com/fwlink/?LinkID=113729).</source>
+          <target state="translated">如需有關設定檔的詳細資訊，請參閱 about_Profiles (http://go.microsoft.com/fwlink/?LinkID=113729)。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Type names (and namespaces) must be unique within a session.</source>
+          <target state="translated">類型名稱 (與命名空間) 在工作階段中必須是唯一的。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>You cannot unload a type or change it.</source>
+          <target state="translated">您無法卸載或變更類型。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>If you need to change the code for a type, you must change the name or start a new Windows PowerShell session.</source>
+          <target state="translated">如果您需要變更類型的程式碼，您必須變更名稱或啟動新的 Windows PowerShell 工作階段。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Otherwise, the command fails.</source>
+          <target state="translated">否則命令會失敗。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>The CodeDomProvider class for some languages, such as IronPython and JSharp, does not generate output.</source>
+          <target state="translated">某些語言 (例如 IronPython 與 JSharp) 中的 CodeDomProvider 類別不會產生輸出。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>As a result, types written in these languages cannot be used with <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept>.</source>
+          <target state="translated">如此一來，這些語言所撰寫的型別不能與 <bpt id="p1">**</bpt>加入型別<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>This cmdlet is based on the <bpt id="p1">**</bpt>CodeDomProvider<ept id="p1">**</ept> class.</source>
+          <target state="translated">這個指令程式根據 <bpt id="p1">**</bpt>CodeDomProvider<ept id="p1">**</ept> 類別。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>For more information about this class, see the Microsoft .NET Framework SDK.</source>
+          <target state="translated">如需此類別的詳細資訊，請參閱《Microsoft .NET Framework SDK》。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相關的連結</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Add-Member</source>
+          <target state="translated">Add-Member</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>New-Object</source>
+          <target state="translated">新物件</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

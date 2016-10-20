@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0adf786493379be06aedccc60fc5275ab6dc40cd</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Core\New-PSTransportOption.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4e9ffb3992e1aa57b3cde41c591346ee2d9f7709</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ec9e92321b43c0f290cd3d8e68f87fb3f158a19e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>New-PSTransportOption</source>
+          <target state="translated">New-PSTransportOption</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>New-PSTransportOption</source>
+          <target state="translated">New-PSTransportOption</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">요약</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Creates an object that contains advanced options for a session configuration.</source>
+          <target state="translated">세션 구성에 대한 고급 옵션을 포함하는 개체를 만듭니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">구문</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">설명</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-PSTransportOption<ept id="p1">**</ept> cmdlet creates an object that contains transport options for session configurations.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>New-pstransportoption<ept id="p1">**</ept> cmdlet은 세션 구성에 대 한 전송 옵션을 포함 하는 개체를 만듭니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can use the object as the value of the <bpt id="p1">**</bpt>TransportOption<ept id="p1">**</ept> parameter of cmdlets that create or change a session configuration, such as the Register-PSSessionConfiguration and Set-PSSessionConfiguration cmdlets.</source>
+          <target state="translated">값으로 개체를 사용할 수는 <bpt id="p1">**</bpt>TransportOption<ept id="p1">**</ept> Register-pssessionconfiguration 및 Set-pssessionconfiguration cmdlet 처럼는 세션 구성을 만들거나 변경 하는 cmdlet의 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can also change the transport option settings by editing the values of the session configuration properties in the WSMan: drive.</source>
+          <target state="translated">WSMan: 드라이브에서 세션 구성 속성 값을 편집하여 전송 옵션 설정을 변경할 수도 있습니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For more information, see WSMan Provider.</source>
+          <target state="translated">자세한 내용은 WSMan 공급자를 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The session configuration options represent the session values set on the "server-side," or receiving end of a remote connection.</source>
+          <target state="translated">세션 구성 옵션은 원격 연결의 "서버 쪽" 또는 수신 끝에서 설정된 세션 값을 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The "client-side," or sending end of the connection, can set session option values when the session is created, or when the client disconnects from or reconnects to the session.</source>
+          <target state="translated">연결의 "클라이언트 쪽" 또는 전송 끝에서는 세션을 만들 때 또는 클라이언트가 세션에서 연결을 끊거나 세션에 다시 연결할 때 세션 옵션 값을 설정할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Unless stated otherwise, when the setting values conflict, the client-side values take precedence.</source>
+          <target state="translated">달리 명시되지 않은 한 설정 값이 충돌할 경우 클라이언트 쪽 값이 우선합니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>However, the client-side values cannot violate maximum values and quotas set in the session configuration.</source>
+          <target state="translated">그러나 클라이언트 쪽 값은 세션 구성에서 설정된 최대값 및 할당량을 위반할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Without parameters, <bpt id="p1">**</bpt>New-PSTransportOption<ept id="p1">**</ept> generates a transport option object with null values for all of the options.</source>
+          <target state="translated">매개 변수 없이 <bpt id="p1">**</bpt>New-pstransportoption<ept id="p1">**</ept> 모든 옵션에 대 한 null 값을 가진 전송 옵션 개체를 생성 합니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If you omit a parameter, the object has a null value for the property that the parameter represents.</source>
+          <target state="translated">매개 변수를 생략하면 해당 매개 변수가 나타내는 개체의 속성 값은 null이 됩니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A null value has no effect on the session configuration.</source>
+          <target state="translated">null 값은 세션 구성에 영향을 주지 않습니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For more information about session options, see New-PSSessionOption.</source>
+          <target state="translated">세션 옵션에 대 한 자세한 내용은 New-pssessionoption를 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For more information about session configurations, see about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152).</source>
+          <target state="translated">세션 구성에 대한 자세한 내용은 about_Session_Configurations(http://go.microsoft.com/fwlink/?LinkID=145152)를 참조하세요.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This cmdlet is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">이 cmdlet은 Windows PowerShell 3.0에서 도입되었습니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">예제</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Example 1</source>
+          <target state="translated">예제 1</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This command runs the <bpt id="p1">**</bpt>New-PSTransportOption<ept id="p1">**</ept> with no parameters.</source>
+          <target state="translated">이 명령이 실행 되는 <bpt id="p1">**</bpt>New-pstransportoption<ept id="p1">**</ept> 매개 변수 없이 합니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The output shows that the cmdlet generates a transport option object with null values for all properties.</source>
+          <target state="translated">출력은 cmdlet에서 모든 속성에 null 값을 사용하여 전송 옵션 개체를 생성함을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Example 2</source>
+          <target state="translated">예 2</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This example shows how to use a transport options object to set session configuration options</source>
+          <target state="translated">이 예제에서는 전송 옵션 개체를 사용하여 세션 구성 옵션을 설정하는 방법을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Example 3</source>
+          <target state="translated">예제 3</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This command shows the effect of setting a transport option in a session configuration on the sessions that use the session configuration.</source>
+          <target state="translated">이 명령은 세션 구성에서 전송 옵션을 설정할 경우 세션 구성을 사용하는 세션에 미치는 영향을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">매개 변수</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-IdleTimeoutSec</source>
+          <target state="translated">-IdleTimeoutSec</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Determines how long each session stays open if the remote computer does not receive any communication from the local computer, including the heartbeat signal.</source>
+          <target state="translated">원격 컴퓨터가 하트비트 신호를 포함하여 로컬 컴퓨터의 통신을 받지 않을 경우 각 세션이 열려 있는 기간을 결정합니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>When the interval expires, the session closes.</source>
+          <target state="translated">간격이 만료되면 세션이 닫힙니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The idle timeout value is of significant importance when the user intends to disconnect and reconnect to a session.</source>
+          <target state="translated">유휴 시간 제한 값은 사용자가 세션에서 연결을 끊고 다시 연결하려는 경우에 중요합니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The user can reconnect only if the session has not timed out.</source>
+          <target state="translated">사용자는 세션이 시간 초과되지 않은 경우에만 다시 연결할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>IdleTimeoutSec<ept id="p1">**</ept> parameter corresponds to the <bpt id="p2">**</bpt>IdleTimeoutMs<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>IdleTimeoutSec<ept id="p1">**</ept> 에 해당 하는 매개 변수는 <bpt id="p2">**</bpt>IdleTimeoutMs<ept id="p2">**</ept> 세션 구성의 속성입니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Enter a value in seconds.</source>
+          <target state="translated">값을 초 단위로 입력하세요.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The default value is 7200 (2 hours).</source>
+          <target state="translated">기본값은 7200(2시간)입니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The minimum value is 60 (1 minute).</source>
+          <target state="translated">최소값은 60 (1 분)입니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The maximum is the value of the <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> property of Shell objects in the WSMan configuration (WSMan:<ph id="ph1">\\\&lt;</ph>ComputerName<ph id="ph2">\&gt;</ph>\Shell\IdleTimeout).</source>
+          <target state="translated">최대값은의 값은 <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> WSMan 구성에서 Shell 개체의 속성 (WSMan:<ph id="ph1">\\\&lt;</ph>ComputerName<ph id="ph2">\&gt;</ph>\Shell\IdleTimeout).</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The default value is 7200000 milliseconds (2 hours).</source>
+          <target state="translated">기본값은 7200000밀리초(2시간)입니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>If an idle timeout value is set in the session options and in the session configuration, value set in the session options takes precedence, but it cannot exceed the value of the <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> property of the session configuration.</source>
+          <target state="translated">유휴 시간 제한 값은 세션 옵션에서 설정 및 세션 구성에서 세션 옵션에 설정 된 값이 우선 하지만 값을 초과할 수 없습니다 하는 경우는 <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> 세션 구성의 속성입니다.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To set the value of the <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> property, use the <bpt id="p2">**</bpt>MaxIdleTimeoutSec<ept id="p2">**</ept> parameter.</source>
+          <target state="translated">값을 설정 하는 <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> 속성을 사용 하 여는 <bpt id="p2">**</bpt>MaxIdleTimeoutSec<ept id="p2">**</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-MaxConcurrentCommandsPerSession</source>
+          <target state="translated">-MaxConcurrentCommandsPerSession</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Limits the number of commands that can run concurrently in each session to the specified value.</source>
+          <target state="translated">각 세션에서 동시에 실행할 수 있는 명령 수를 지정된 값으로 제한합니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The default value is 1000.</source>
+          <target state="translated">기본값은 1000입니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>MaxConcurrentCommandsPerSession<ept id="p1">**</ept> parameter corresponds to the <bpt id="p2">**</bpt>MaxConcurrentCommandsPerShell<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>MaxConcurrentCommandsPerSession<ept id="p1">**</ept> 에 해당 하는 매개 변수는 <bpt id="p2">**</bpt>MaxConcurrentCommandsPerShell<ept id="p2">**</ept> 세션 구성의 속성입니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>-MaxConcurrentUsers</source>
+          <target state="translated">-MaxConcurrentUsers</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Limits the number of users who can run commands concurrently in each session to the specified value.</source>
+          <target state="translated">각 세션에서 동시에 명령을 실행할 수 있는 사용자 수를 지정된 값으로 제한합니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The default value is 5.</source>
+          <target state="translated">기본값은 5입니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>-MaxIdleTimeoutSec</source>
+          <target state="translated">-MaxIdleTimeoutSec</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Limits the idle timeout set for each session to the specified value.</source>
+          <target state="translated">각 세션에 대해 설정된 유휴 시간 제한을 지정된 값으로 제한합니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The default value is <ph id="ph1">\[</ph>Int<ph id="ph2">\]</ph>::MaxValue (~25 days).</source>
+          <target state="translated">기본값은 <ph id="ph1">\[</ph>Int<ph id="ph2">\]</ph>:: MaxValue (~ 25 일)입니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The idle timeout value is of significant importance when the user intends to disconnect and reconnect to a session.</source>
+          <target state="translated">유휴 시간 제한 값은 사용자가 세션에서 연결을 끊고 다시 연결하려는 경우에 중요합니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The user can reconnect only if the session has not timed out.</source>
+          <target state="translated">사용자는 세션이 시간 초과되지 않은 경우에만 다시 연결할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>MaxIdleTimeoutSec<ept id="p1">**</ept> parameter corresponds to the <bpt id="p2">**</bpt>MaxIdleTimeoutMs<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>MaxIdleTimeoutSec<ept id="p1">**</ept> 에 해당 하는 매개 변수는 <bpt id="p2">**</bpt>MaxIdleTimeoutMs<ept id="p2">**</ept> 세션 구성의 속성입니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>-MaxMemoryPerSessionMB</source>
+          <target state="translated">-MaxMemoryPerSessionMB</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Limits the memory used by each session to the specified value.</source>
+          <target state="translated">각 세션에서 사용하는 메모리를 지정된 값으로 제한합니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Enter a value in megabytes.</source>
+          <target state="translated">값을 메가바이트 단위로 입력합니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The default value is 1024 megabytes (1 GB).</source>
+          <target state="translated">기본값은 1024메가바이트(1GB)입니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>MaxMemoryPerSessionMB<ept id="p1">**</ept> parameter corresponds to the <bpt id="p2">**</bpt>MaxMemoryPerShellMB<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>MaxMemoryPerSessionMB<ept id="p1">**</ept> 에 해당 하는 매개 변수는 <bpt id="p2">**</bpt>MaxMemoryPerShellMB<ept id="p2">**</ept> 세션 구성의 속성입니다.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>-MaxProcessesPerSession</source>
+          <target state="translated">-MaxProcessesPerSession</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Limits the number of processes running in each session to the specified value.</source>
+          <target state="translated">각 세션에서 실행되는 프로세스 수를 지정된 값으로 제한합니다.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The default value is 15.</source>
+          <target state="translated">기본값은 15입니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>MaxProcessesPerSession<ept id="p1">**</ept> parameter corresponds to the <bpt id="p2">**</bpt>MaxProcessesPerShell<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>MaxProcessesPerSession<ept id="p1">**</ept> 에 해당 하는 매개 변수는 <bpt id="p2">**</bpt>MaxProcessesPerShell<ept id="p2">**</ept> 세션 구성의 속성입니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>-MaxSessions</source>
+          <target state="translated">-MaxSessions</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Limits the number of sessions that use the session configuration.</source>
+          <target state="translated">세션 구성을 사용하는 세션 수를 제한합니다.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The default value is 25.</source>
+          <target state="translated">기본값은 25입니다.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>MaxSessions<ept id="p1">**</ept> parameter corresponds to the <bpt id="p2">**</bpt>MaxShells<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>MaxSessions<ept id="p1">**</ept> 에 해당 하는 매개 변수는 <bpt id="p2">**</bpt>MaxShells<ept id="p2">**</ept> 세션 구성의 속성입니다.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>-MaxSessionsPerUser</source>
+          <target state="translated">-MaxSessionsPerUser</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Limits the number of sessions that use the session configuration and run with the credentials of a given user to the specified value.</source>
+          <target state="translated">세션 구성을 사용하고 지정된 사용자의 자격 증명으로 실행되는 세션 수를 지정된 값으로 제한합니다.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The default value is 25.</source>
+          <target state="translated">기본값은 25입니다.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>When setting this value, consider that many users might be using the credentials of a "run as" user.</source>
+          <target state="translated">이 값을 설정할 때는 많은 사용자가 "다음 계정으로 실행" 사용자의 자격 증명을 사용할 수 있음을 고려합니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>MaxSessionsPerUser<ept id="p1">**</ept> parameter corresponds to the <bpt id="p2">**</bpt>MaxShellsPerUser<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>MaxSessionsPerUser<ept id="p1">**</ept> 에 해당 하는 매개 변수는 <bpt id="p2">**</bpt>MaxShellsPerUser<ept id="p2">**</ept> 세션 구성의 속성입니다.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>-OutputBufferingMode</source>
+          <target state="translated">-OutputBufferingMode</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Determines how command output is managed in disconnected sessions when the output buffer becomes full.</source>
+          <target state="translated">출력 버퍼가 가득 찰 경우 연결이 끊긴 세션에서 명령 출력을 관리하는 방법을 결정합니다.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The default value of the <bpt id="p1">**</bpt>OutputBufferingMode<ept id="p1">**</ept> property of sessions is <bpt id="p2">**</bpt>Block<ept id="p2">**</ept>.</source>
+          <target state="translated">기본값은 <bpt id="p1">**</bpt>OutputBufferingMode<ept id="p1">**</ept> 세션의 속성은 <bpt id="p2">**</bpt>블록<ept id="p2">**</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Valid values are:</source>
+          <target state="translated">유효한 값은</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Block<ept id="p1">**</ept>: When the output buffer is full, execution is suspended until the buffer is clear.</source>
+          <target state="translated"><bpt id="p1">**</bpt>블록<ept id="p1">**</ept>: 버퍼가 사라질 때까지 실행이 일시 중단 출력 버퍼가 꽉 차면 합니다.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Drop<ept id="p1">**</ept>: When the output buffer is full, execution continues.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Drop<ept id="p1">**</ept>: 출력 버퍼가 꽉 차면 계속 실행 됩니다.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>As new output is saved, the oldest output is discarded.</source>
+          <target state="translated">새 출력이 저장되면 가장 오래된 출력을 버립니다.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>None<ept id="p1">**</ept>: No output buffering mode is specified.</source>
+          <target state="translated"><bpt id="p1">**</bpt>None<ept id="p1">**</ept>: 없음 출력 버퍼링 모드를 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>-ProcessIdleTimeoutSec</source>
+          <target state="translated">-ProcessIdleTimeoutSec</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Limits the timeout for each host process to the specified value.</source>
+          <target state="translated">각 호스트 프로세스에 대한 시간 제한을 지정된 값으로 제한합니다.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The default value, 0, means that there is no timeout value for the process.</source>
+          <target state="translated">기본값 0은 프로세스에 대한 시간 제한 값이 없음을 의미합니다.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Other session configurations have per-process timeout values.</source>
+          <target state="translated">다른 세션 구성에는 프로세스별 시간 제한 값이 있습니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>For example, the Microsoft.PowerShell.Workflow session configuration has a per-process timeout value of 28800 seconds (8 hours).</source>
+          <target state="translated">예를 들어 Microsoft.PowerShell.Workflow 세션 구성에는 프로세스별 시간 제한 값 28800초(8시간)가 있습니다.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">이 cmdlet은 공통 매개 변수:-디버그,-ErrorAction,-ErrorVariable,-InformationAction,-InformationVariable,-OutVariable,-OutBuffer,-PipelineVariable,-Verbose,-WarningAction 및-warningvariable을 지원 합니다.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">자세한 내용은 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)를 참조 합니다.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">입력</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>This cmdlet does not take input from the pipeline.</source>
+          <target state="translated">이 cmdlet은 파이프라인에서 입력을 가져오지 않습니다.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">출력</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Microsoft.PowerShell.Commands.WSManConfigurationOption</source>
+          <target state="translated">Microsoft.PowerShell.Commands.WSManConfigurationOption</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">참고 사항</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The properties of a session configuration object vary with the options set for the session configuration and the values of those options.</source>
+          <target state="translated">세션 구성 개체의 속성은 세션 구성에 대해 설정된 옵션과 해당 옵션 값에 따라 달라집니다.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Also, session configurations that use a session configuration file have additional properties.</source>
+          <target state="translated">또한 세션 구성 파일을 사용하는 세션 구성에는 추가 속성이 있습니다.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">관련된 링크</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>about_Session_Configurations</source>
+          <target state="translated">about_Session_Configurations</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>New-PSSession</source>
+          <target state="translated">New-PSSession</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>New-PSSessionOption</source>
+          <target state="translated">New-PSSessionOption</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Register-PSSessionConfiguration</source>
+          <target state="translated">Register-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Set-PSSessionConfiguration</source>
+          <target state="translated">Set-pssessionconfiguration</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c700fd077931ced242e4661f63f3543ba5347a83</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Utility\Export-Alias.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cc1e570b29b8da867e4ce127fee67fbb0b78a6ee</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">175c98b0da065febe076c8467455cc211d55755e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell, командлет</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Export-Alias</source>
+          <target state="translated">Export-Alias</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Export-Alias</source>
+          <target state="translated">Export-Alias</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">КРАТКИЙ ОБЗОР</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Exports information about currently defined aliases to a file.</source>
+          <target state="translated">Экспортирует сведения об определенных на текущий момент псевдонимах в файл.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">СИНТАКСИС</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>ByPath (Default)</source>
+          <target state="translated">ByPath (по умолчанию)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>ByLiteralPath</source>
+          <target state="translated">ByLiteralPath</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">ОПИСАНИЕ</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Export-Alias<ept id="p1">**</ept> cmdlet exports the aliases in the current session to a file.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Export-Alias<ept id="p1">**</ept> экспортирует псевдонимы в текущем сеансе в файл.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If the output file does not exist, the cmdlet will create it.</source>
+          <target state="translated">Если файл вывода не существует, командлет его создаст.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Export-Alias<ept id="p1">**</ept> can export the aliases in a particular scope or all scopes, it can generate the data in CSV format or as a series of Set-Alias commands that you can add to a session or to a Windows PowerShell profile.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Export-Alias<ept id="p1">**</ept> можно экспортировать псевдонимы в определенной области или все области, он может сформировать данные в формате CSV или в виде набора псевдоним набора команд, которые можно добавить к сеансу или профиль Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">ПРИМЕРЫ</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Example 1: Export an alias</source>
+          <target state="translated">Пример 1: Экспорт псевдоним</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This command exports current alias information to a file named Alias.csv in the current directory.</source>
+          <target state="translated">Эта команда экспортирует текущие сведения о псевдонимах в файл Alias.csv, находящийся в текущем каталоге.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Example 2: Export an alias unless the export file already exists</source>
+          <target state="translated">Пример 2: Экспорт псевдоним, если файл экспорта уже существует</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This command exports the aliases in the current session to an Alias.csv file.</source>
+          <target state="translated">Эта команда экспортирует псевдонимы текущего сеанса в файл Alias.csv.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Because the <bpt id="p1">*</bpt>NoClobber<ept id="p1">*</ept> parameter is specified, the command will fail if an Alias.csv file already exists in the current directory.</source>
+          <target state="translated">Поскольку <bpt id="p1">*</bpt>NoClobber<ept id="p1">*</ept> параметр указан, команда завершится ошибкой, если файл Alias.csv уже существует в текущем каталоге.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Example 3: Append aliases to a file</source>
+          <target state="translated">Пример 3: Добавление псевдонимы в файл</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This command appends the aliases in the current session to the Alias.csv file.</source>
+          <target state="translated">Эта команда добавляет псевдонимы текущего сеанса в файл Alias.csv.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>Description<ept id="p1">*</ept> parameter to add a description to the comments at the top of the file.</source>
+          <target state="translated">Команда использует <bpt id="p1">*</bpt>Описание<ept id="p1">*</ept> параметр, чтобы добавить описание к комментариям в верхней части файла.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The command also uses the <bpt id="p1">*</bpt>Force<ept id="p1">*</ept> parameter to overwrite any existing Alias.csv files, even if they have the read-only attribute.</source>
+          <target state="translated">Команда также использует <bpt id="p1">*</bpt>Force<ept id="p1">*</ept> файлы параметров, чтобы перезаписать все существующие Alias.csv, даже если они имеют атрибут только для чтения.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Example 4: Export aliases as a script</source>
+          <target state="translated">Пример 4: Экспорт псевдонимы как сценарий</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the script file format that <bpt id="p1">**</bpt>Export-Alias<ept id="p1">**</ept> generates.</source>
+          <target state="translated">В этом примере показано, как использовать файл сценария формат <bpt id="p1">**</bpt>Export-Alias<ept id="p1">**</ept> приводит к возникновению ошибки.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The first command exports the aliases in the session to the Alias.ps1 file.</source>
+          <target state="translated">Первая команда экспортирует псевдонимы текущего сеанса в файл Alias.ps1.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>As<ept id="p1">*</ept> parameter with a value of Script to generate a file that contains a Set-Alias command for each alias.</source>
+          <target state="translated">Он использует <bpt id="p1">*</bpt>как<ept id="p1">*</ept> параметр со значением сценарий для создания файла, который содержит команду Set-Alias для каждого псевдонима.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The second command adds the aliases in the Alias.ps1 file to the CurrentUser-CurrentHost profile.</source>
+          <target state="translated">Вторая команда добавляет псевдонимы из файла Alias.ps1 к профилю CurrentUser-CurrentHost.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The path to the profile is saved in the $Profile variable.</source>
+          <target state="translated">Путь к профилю сохраняется в переменной $Profile.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The command uses the Get-Content cmdlet to get the aliases from the Alias.ps1 file and the Add-Content cmdlet to add them to the profile.</source>
+          <target state="translated">Команда использует командлет Get-Content, чтобы получить псевдонимы из файла Alias.ps1, и командлет Add-Content, чтобы добавить их к профилю.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Profiles.</source>
+          <target state="translated">Дополнительные сведения см. в разделе about_Profiles.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The third and fourth commands add the aliases in the Alias.ps1 file to a remote session on the Server01 computer.</source>
+          <target state="translated">Третья и четвертая команды добавляют псевдонимы из файла Alias.ps1 в удаленный сеанс на сервере server01.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The third command uses the New-PSSession cmdlet to create the session.</source>
+          <target state="translated">Третья команда создает сеанс с помощью командлета New-PSSession.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The fourth command uses the <bpt id="p1">*</bpt>FilePath<ept id="p1">*</ept> parameter of the Invoke-Command cmdlet to run the Alias.ps1 file in the new session.</source>
+          <target state="translated">Четвертая команда использует <bpt id="p1">*</bpt>FilePath<ept id="p1">*</ept> командлета Invoke-Command для запуска файла Alias.ps1 в новом сеансе.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">ПАРАМЕТРЫ</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>-Append</source>
+          <target state="translated">-Добавление</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet appends the output to the specified file, rather than overwriting the existing contents of that file.</source>
+          <target state="translated">Указывает, что этот командлет добавляет выходные данные указанного файла вместо перезаписи содержимого этого файла.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-As</source>
+          <target state="translated">-Как</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Specifies the output format.</source>
+          <target state="translated">Задает выходной формат.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>CSV is the default.</source>
+          <target state="translated">По умолчанию используется формат CSV.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">Ниже указаны допустимые значения этого параметра.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>CSV.</source>
+          <target state="translated">CSV-ФАЙЛ.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Comma-separated value (CSV) format.</source>
+          <target state="translated">формат значений, разделенных запятыми (CSV).</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Script.</source>
+          <target state="translated">Скрипт.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">**</bpt>Set-Alias<ept id="p1">**</ept> command for each exported alias.</source>
+          <target state="translated">Создает <bpt id="p1">**</bpt>псевдоним набора<ept id="p1">**</ept> команды для каждого псевдонима экспортированы.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>If you name the output file with a .ps1 file name extension, you can run it as a script to add the aliases to any session.</source>
+          <target state="translated">Если выходной файл имеет расширение PS1, его можно запускать в качестве скрипта для добавления псевдонимов к любому сеансу.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">Запрашивает подтверждение перед запуском командлета. Запрашивает подтверждение перед запуском командлета.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>-Description</source>
+          <target state="translated">-Описание</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the exported file.</source>
+          <target state="translated">Указывает описание экспортируемого файла.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The description appears as a comment at the top of the file, following the header information.</source>
+          <target state="translated">Описание добавляется в виде комментария в начало файла после заголовка.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Forces the command to run without asking for user confirmation.</source>
+          <target state="translated">Принудительное выполнение команды без запроса на подтверждение пользователем.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Export-Alias<ept id="p1">**</ept> overwrites files without warning, unless the read-only or hidden attribute is set or the <bpt id="p2">*</bpt>NoClobber<ept id="p2">*</ept> parameter is used in the command.</source>
+          <target state="translated">По умолчанию <bpt id="p1">**</bpt>Export-Alias<ept id="p1">**</ept> перезаписывает файлы без предупреждения, если не установлен атрибут только для чтения или скрытые или <bpt id="p2">*</bpt>NoClobber<ept id="p2">*</ept> в команде используется параметр.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>NoClobber<ept id="p1">*</ept> parameter takes precedence over the <bpt id="p2">*</bpt>Force<ept id="p2">*</ept> parameter when both are used in a command.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>NoClobber<ept id="p1">*</ept> имеет приоритет над <bpt id="p2">*</bpt>Force<ept id="p2">*</ept> параметр при использовании обоих в команде.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>Force<ept id="p1">*</ept> parameter cannot force <bpt id="p2">**</bpt>Export-Alias<ept id="p2">**</ept> to overwrite files with the hidden attribute.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>Принудительно<ept id="p1">*</ept> параметра не может заставить <bpt id="p2">**</bpt>Export-Alias<ept id="p2">**</ept> перезаписывать файлы с атрибутом «скрытый».</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>-LiteralPath</source>
+          <target state="translated">-LiteralPath</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Specifies the path to the output file.</source>
+          <target state="translated">Указывает путь к выходному файлу.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Unlike <bpt id="p1">*</bpt>Path<ept id="p1">*</ept>, the value of the <bpt id="p2">*</bpt>LiteralPath<ept id="p2">*</ept> parameter is used exactly as it is typed.</source>
+          <target state="translated">В отличие от <bpt id="p1">*</bpt>путь<ept id="p1">*</ept>, значение <bpt id="p2">*</bpt>LiteralPath<ept id="p2">*</ept> параметр используется точно так, как оно указано.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>No characters are interpreted as wildcards.</source>
+          <target state="translated">Никакие символы не интерпретируются как знаки подстановки.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If the path includes escape characters, enclose it in single quotation marks.</source>
+          <target state="translated">Если путь содержит escape-символы, заключите его в одинарные кавычки.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Single quotation marks tell Windows PowerShell not to interpret any characters as escape sequences.</source>
+          <target state="translated">Это позволит Windows PowerShell не интерпретировать какие-либо символы как символы Escape-последовательности.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Specifies the names as an array of the aliases to export.</source>
+          <target state="translated">Задает имена как массив псевдонимы для экспорта.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">Разрешено использовать подстановочные знаки.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Export-Alias<ept id="p1">**</ept> exports all aliases in the session or scope.</source>
+          <target state="translated">По умолчанию <bpt id="p1">**</bpt>Export-Alias<ept id="p1">**</ept> экспортирует все псевдонимы в сеансе или области.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>-NoClobber</source>
+          <target state="translated">-NoClobber</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet prevents <bpt id="p1">**</bpt>Export-Alias<ept id="p1">**</ept> from overwriting any files, even if the <bpt id="p2">*</bpt>Force<ept id="p2">*</ept> parameter is used in the command.</source>
+          <target state="translated">Указывает, что этот командлет не позволит <bpt id="p1">**</bpt>Export-Alias<ept id="p1">**</ept> перезаписывать файлы, даже если <bpt id="p2">*</bpt>Force<ept id="p2">*</ept> в команде используется параметр.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">*</bpt>NoClobber<ept id="p1">*</ept> parameter is omitted, <bpt id="p2">**</bpt>Export-Alias<ept id="p2">**</ept> will overwrite an existing file without warning, unless the read-only attribute is set on the file.</source>
+          <target state="translated">Если <bpt id="p1">*</bpt>NoClobber<ept id="p1">*</ept> параметр пропущен, <bpt id="p2">**</bpt>Export-Alias<ept id="p2">**</ept> приведет к перезаписи существующего файла без предупреждения, если не установлен атрибут только для чтения файла.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>NoClobber<ept id="p1">*</ept> takes precedence over the <bpt id="p2">*</bpt>Force<ept id="p2">*</ept> parameter, which permits <bpt id="p3">**</bpt>Export-Alias<ept id="p3">**</ept> to overwrite a file with the read-only attribute.</source>
+          <target state="translated"><bpt id="p1">*</bpt>NoClobber<ept id="p1">*</ept> имеет приоритет над <bpt id="p2">*</bpt>Force<ept id="p2">*</ept> параметр, который позволяет <bpt id="p3">**</bpt>Export-Alias<ept id="p3">**</ept> для перезаписи файла с атрибутом только для чтения.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>NoClobber<ept id="p1">*</ept> does not prevent the <bpt id="p2">*</bpt>Append<ept id="p2">*</ept> parameter from adding content to an existing file.</source>
+          <target state="translated"><bpt id="p1">*</bpt>NoClobber<ept id="p1">*</ept> не препятствует <bpt id="p2">*</bpt>Append<ept id="p2">*</ept> параметр добавлять содержимое в существующий файл.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>-PassThru</source>
+          <target state="translated">-PassThru</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Returns an object representing the item with which you are working.</source>
+          <target state="translated">Возвращает объект, представляющий элемент, с которым вы работаете.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>By default, this cmdlet does not generate any output.</source>
+          <target state="translated">По умолчанию этот командлет не создает выходные данные.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>-Path</source>
+          <target state="translated">-Path</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Specifies the path to the output file.</source>
+          <target state="translated">Указывает путь к выходному файлу.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted, but the resulting path value must resolve to a single file name.</source>
+          <target state="translated">Знаки подстановки использовать можно, но итоговое значение пути должно указывать только на одно имя файла.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>-Scope</source>
+          <target state="translated">-Область</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Specifies the scope from which the aliases should be exported.</source>
+          <target state="translated">Задает область, из которой должны быть экспортированы псевдонимы.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">Ниже указаны допустимые значения этого параметра.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Global</source>
+          <target state="translated">Глобальная</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Local</source>
+          <target state="translated">Локальная</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Script</source>
+          <target state="translated">Скрипт</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>A number relative to the current scope (0 through the number of scopes where 0 is the current scope and 1 is its parent)</source>
+          <target state="translated">Номер относительно текущей области (от 0 до количества областей, где 0 — текущая область, а 1 — ее родительская)</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The default value is Local.</source>
+          <target state="translated">Значение по умолчанию — Local.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Scopes.</source>
+          <target state="translated">Дополнительные сведения см. в разделе about_Scopes.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Показывает, что произойдет при запуске командлета.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Командлет не запущен. Показывает, что произойдет при запуске командлета.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">Командлет не запущен.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Этот командлет поддерживает общие параметры:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction и - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Дополнительные сведения см. в разделе about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ВХОДНЫЕ ДАННЫЕ</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>None.</source>
+          <target state="translated">Нет.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>You cannot pipe objects to this cmdlet.</source>
+          <target state="translated">Нельзя передать объекты в этот командлет с помощью конвейера.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">ВЫХОДНЫЕ ДАННЫЕ</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>None or System.Management.Automation.AliasInfo</source>
+          <target state="translated">None или System.Management.Automation.AliasInfo</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>When you use the <bpt id="p1">*</bpt>Passthru<ept id="p1">*</ept> parameter, <bpt id="p2">**</bpt>Export-Alias<ept id="p2">**</ept> returns a <bpt id="p3">**</bpt>System.Management.Automation.AliasInfo<ept id="p3">**</ept> object that represents the alias.</source>
+          <target state="translated">При использовании <bpt id="p1">*</bpt>Passthru<ept id="p1">*</ept> параметр <bpt id="p2">**</bpt>Export-Alias<ept id="p2">**</ept> возвращает <bpt id="p3">**</bpt>System.Management.Automation.AliasInfo<ept id="p3">**</ept> представляющий псевдоним.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Otherwise, this cmdlet does not generate any output.</source>
+          <target state="translated">В противном случае командлет не формирует никаких выходных данных.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ПРИМЕЧАНИЯ</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>You can only Export-Aliases to a file.</source>
+          <target state="translated">Командлет Export-Alias можно применять только для экспорта в файл.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">СВЯЗАННЫЕ ССЫЛКИ</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Get-Alias</source>
+          <target state="translated">Get-Alias</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Import-Alias</source>
+          <target state="translated">Import-Alias</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>New-Alias</source>
+          <target state="translated">New-Alias</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Set-Alias</source>
+          <target state="translated">Set-Alias</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

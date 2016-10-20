@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d05b4d7855c1f83ca44962681ea26c8d44d937d1</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\PSScheduledJob\Get-JobTrigger.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b2aae6da698bc12003b0d8175e55367862b1459e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c22394efb4e762c923197232a46f3f48056105a3</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Get-JobTrigger</source>
+          <target state="translated">Get-JobTrigger</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Get-JobTrigger</source>
+          <target state="translated">Get-JobTrigger</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Gets the job triggers of scheduled jobs.</source>
+          <target state="translated">スケジュールされたジョブのジョブ トリガーを取得します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">構文</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>JobDefinition (Default)</source>
+          <target state="translated">JobDefinition (既定値)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>JobDefinitionName</source>
+          <target state="translated">JobDefinitionName</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>JobDefinitionId</source>
+          <target state="translated">JobDefinitionId</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">説明</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-JobTrigger<ept id="p1">**</ept> cmdlet gets the job triggers of scheduled jobs.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Get-jobtrigger<ept id="p1">**</ept> コマンドレットは、スケジュールされたジョブのジョブ トリガーを取得します。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can use this command to examine the job triggers or to pipe the job triggers to other cmdlets.</source>
+          <target state="translated">このコマンドを使用すると、ジョブ トリガーを確認することや、パイプを使用してジョブ トリガーを他のコマンドレットに渡すことができます。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A job trigger defines a recurring schedule or conditions for starting a scheduled job.</source>
+          <target state="translated">ジョブ トリガーは、定期的なスケジュールまたはスケジュールされたジョブを開始するための条件を定義します。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Job triggers are not saved to disk independently; they are part of a scheduled job.</source>
+          <target state="translated">ジョブ トリガーは、スケジュールされたジョブの一部であり、ディスクに単独で保存されるわけではありません。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To get a job trigger, specify the scheduled job that the trigger starts.</source>
+          <target state="translated">ジョブ トリガーを取得するには、そのトリガーによって開始されるスケジュールされたジョブを指定します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Use the parameters of the <bpt id="p1">**</bpt>Get-JobTrigger<ept id="p1">**</ept> cmdlet to identify the scheduled jobs.</source>
+          <target state="translated">パラメーターを使用して、 <bpt id="p1">**</bpt>Get-jobtrigger<ept id="p1">**</ept> 、スケジュールされたジョブを識別するコマンドレットです。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can identify the scheduled jobs by their names or identification numbers, or by entering or piping <bpt id="p1">**</bpt>ScheduledJob<ept id="p1">**</ept> objects, such as those that are returned by the Get-ScheduledJob cmdlet, to <bpt id="p2">**</bpt>Get-JobTrigger<ept id="p2">**</ept>.</source>
+          <target state="translated">スケジュールされたジョブを名前または id 番号またはかがわかります。 <bpt id="p1">**</bpt>ScheduledJob<ept id="p1">**</ept> などに Get-scheduledjob コマンドレットによって返されるオブジェクト <bpt id="p2">**</bpt>Get-jobtrigger<ept id="p2">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get-JobTrigger<ept id="p1">**</ept> is one of a collection of job scheduling cmdlets in the PSScheduledJob module that is included in Windows PowerShell.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get-jobtrigger<ept id="p1">**</ept> ジョブのスケジューリングの Windows PowerShell に含まれている PSScheduledJob モジュールのコマンドレットのコレクションの 1 つです。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For more information about Scheduled Jobs, see the About topics in the PSScheduledJob module.</source>
+          <target state="translated">スケジュールされたジョブの詳細については、PSScheduledJob モジュールの概要トピックを参照してください。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Import the PSScheduledJob module and then type: <ph id="ph1">`Get-Help about_Scheduled*`</ph> or see about_Scheduled_Jobs.</source>
+          <target state="translated">PSScheduledJob モジュールをインポートし、入力: <ph id="ph1">`Get-Help about_Scheduled*`</ph> か about_Scheduled_Jobs を参照してください。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This cmdlet was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このコマンドレットは、Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Example 1: Get a job trigger by scheduled job name</source>
+          <target state="translated">例 1: スケジュールされたジョブの名前でジョブ トリガーを取得します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>Name<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>Get-JobTrigger<ept id="p2">**</ept> to get the job triggers of the BackupJob scheduled job.</source>
+          <target state="translated">このコマンドは、 <bpt id="p1">*</bpt>名前<ept id="p1">*</ept> のパラメーター <bpt id="p2">**</bpt>Get-jobtrigger<ept id="p2">**</ept> スケジュールされたジョブ BackupJob のジョブ トリガーを取得します。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Example 2: Get a job trigger by ID</source>
+          <target state="translated">例 2: ID でジョブ トリガーを取得します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The example uses the <bpt id="p1">*</bpt>ID<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>Get-JobTrigger<ept id="p2">**</ept> to get the job triggers of a scheduled job.</source>
+          <target state="translated">例では、 <bpt id="p1">*</bpt>ID<ept id="p1">*</ept> のパラメーター <bpt id="p2">**</bpt>Get-jobtrigger<ept id="p2">**</ept> スケジュールされたジョブのジョブ トリガーを取得します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Example 3: Get job triggers by piping a job</source>
+          <target state="translated">例 3: ジョブをパイプしてジョブ トリガーを取得します。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This command gets the job triggers of all jobs that have Backup or Archive in their names.</source>
+          <target state="translated">このコマンドは、バックアップまたはアーカイブが、名前にあるすべてのジョブのジョブ トリガーを取得します。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Example 4: Get the job trigger of a job on a remote computer</source>
+          <target state="translated">例 4: リモート コンピューターで、ジョブのジョブ トリガーを取得します。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This command gets one of the two job triggers of a scheduled job on a remote computer.</source>
+          <target state="translated">このコマンドは、リモート コンピューター上のスケジュールされたジョブの 2 つのジョブ トリガーのうちの 1 つを取得します。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The command uses the Invoke-Command cmdlet to run a command on the Server01 computer.</source>
+          <target state="translated">コマンドでは、Invoke-command コマンドレットを使用して、Server01 コンピューターでコマンドを実行します。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>It uses the Get-ScheduledJob cmdlet to get the Backup scheduled job, which it pipes to the <bpt id="p1">**</bpt>Get-JobTrigger<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">パイプを使用するバックアップのスケジュールされたジョブを取得する Get-scheduledjob コマンドレットを使用して、 <bpt id="p1">**</bpt>Get-jobtrigger<ept id="p1">**</ept> コマンドレットです。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>TriggerID<ept id="p1">*</ept> parameter to get only the second trigger.</source>
+          <target state="translated">使用して、 <bpt id="p1">*</bpt>TriggerID<ept id="p1">*</ept> パラメーターを 2 番目のトリガーのみを取得します。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Example 5: Get all job triggers</source>
+          <target state="translated">例 5: すべてのジョブ トリガーを取得します。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This command gets all job triggers of all scheduled jobs on the local computer.</source>
+          <target state="translated">このコマンドは、ローカル コンピューター上のスケジュールされたすべてのジョブのすべてのジョブ トリガーを取得します。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The command uses the Get-ScheduledJob to get the scheduled jobs on the local computer and pipes them to <bpt id="p1">**</bpt>Get-JobTrigger<ept id="p1">**</ept>, which gets the job trigger of each scheduled job (if any).</source>
+          <target state="translated">コマンドは、Get ScheduledJob を使用して、ローカル コンピューター上のスケジュールされたジョブを取得し、パイプを使用して <bpt id="p1">**</bpt>Get-jobtrigger<ept id="p1">**</ept>, 、スケジュールされた各ジョブのジョブ トリガーを取得する (存在する場合)。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To add the name of the scheduled job to the job trigger display, the command uses the calculated property feature of the Format-Table cmdlet.</source>
+          <target state="translated">ジョブ トリガーの表示には、スケジュールされたジョブの名前を追加するには、コマンドは、Format-table コマンドレットの計算されたプロパティ機能を使用します。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>In addition to the job trigger properties that are displayed by default, the command creates a new ScheduledJob property that displays the name of the scheduled job.</source>
+          <target state="translated">既定で表示されるジョブ トリガーのプロパティだけでなく、コマンドは、スケジュールされたジョブの名前を表示する新しい ScheduledJob プロパティを作成します。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Example 6: Get the job trigger property of a scheduled job</source>
+          <target state="translated">例 6: スケジュールされたジョブのジョブ トリガーのプロパティを取得します。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The job triggers of a scheduled job are stored in the JobTriggers property of the job.</source>
+          <target state="translated">スケジュールされたジョブのジョブ トリガーは、ジョブの JobTriggers プロパティに格納されます。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This example shows alternatives to using the <bpt id="p1">**</bpt>Get-JobTrigger<ept id="p1">**</ept> cmdlet to get job triggers.</source>
+          <target state="translated">この例は、使用に代わる方法を示しています、 <bpt id="p1">**</bpt>Get-jobtrigger<ept id="p1">**</ept> ジョブ トリガーを取得するコマンドレットです。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The results are identical to using the <bpt id="p1">**</bpt>Get-JobTrigger<ept id="p1">**</ept> cmdlet and the techniques can be used interchangeably.</source>
+          <target state="translated">結果を使用するのと同じ、 <bpt id="p1">**</bpt>Get-jobtrigger<ept id="p1">**</ept> コマンドレットと手法を同じ意味で使用することができます。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Example 7: Compare job triggers</source>
+          <target state="translated">例 7: ジョブ トリガーを比較します。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This example shows how to compare the job triggers of two scheduled jobs.</source>
+          <target state="translated">この例では、スケジュールされた 2 つのジョブのジョブ トリガーを比較する方法を示します。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">パラメータ</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>-Id</source>
+          <target state="translated">-Id</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Specifies the identification number of a scheduled job.</source>
+          <target state="translated">スケジュールされたジョブの識別番号を指定します。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get-JobTrigger<ept id="p1">**</ept> gets the job trigger of the specified scheduled job.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get-jobtrigger<ept id="p1">**</ept> 、指定したスケジュールされたジョブのジョブ トリガーを取得します。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To get the identification number of scheduled jobs on the local computer or a remote computer, use the Get-ScheduledJob cmdlet.</source>
+          <target state="translated">ローカル コンピューターまたはリモート コンピューターでスケジュールされたジョブの識別番号を取得するには、Get-scheduledjob コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-Inputobject</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Specifies a scheduled job.</source>
+          <target state="translated">スケジュールされたジョブを指定します。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains  <bpt id="p1">**</bpt>ScheduledJob<ept id="p1">**</ept> objects or type a command or expression that gets <bpt id="p2">**</bpt>ScheduledJob<ept id="p2">**</ept> objects, such as a Get-ScheduledJob command.</source>
+          <target state="translated">含む変数を入力して  <bpt id="p1">**</bpt>ScheduledJob<ept id="p1">**</ept> オブジェクトか、コマンドまたは式を取得する入力 <bpt id="p2">**</bpt>ScheduledJob<ept id="p2">**</ept> Get-scheduledjob コマンドなどのオブジェクト。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>You can also pipe <bpt id="p1">**</bpt>ScheduledJob<ept id="p1">**</ept> objects to <bpt id="p2">**</bpt>Get-JobTrigger<ept id="p2">**</ept>.</source>
+          <target state="translated">パイプを使用する <bpt id="p1">**</bpt>ScheduledJob<ept id="p1">**</ept> にオブジェクトを <bpt id="p2">**</bpt>Get-jobtrigger<ept id="p2">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Specifies the name of a scheduled job.</source>
+          <target state="translated">スケジュールされたジョブの名前を指定します。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get-JobTrigger<ept id="p1">**</ept> gets the job trigger of the specified scheduled job.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get-jobtrigger<ept id="p1">**</ept> 、指定したスケジュールされたジョブのジョブ トリガーを取得します。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Wildcards are supported.</source>
+          <target state="translated">ワイルド カードがサポートされます。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>To get the names of scheduled jobs on the local computer or a remote computer, use the Get-ScheduledJob cmdlet.</source>
+          <target state="translated">ローカル コンピューターまたはリモート コンピューターでスケジュールされたジョブの名前を取得するには、Get-scheduledjob コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>-TriggerId</source>
+          <target state="translated">-TriggerId</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Gets the specified job triggers.</source>
+          <target state="translated">指定されたジョブ トリガーを取得します。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Enter the trigger IDs of one or more job triggers of a scheduled job.</source>
+          <target state="translated">スケジュールされたジョブの 1 つまたは複数のジョブ トリガーの ID を入力します。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Use this parameter when the scheduled job that is specified by the <bpt id="p1">*</bpt>Name<ept id="p1">*</ept>, <bpt id="p2">*</bpt>ID<ept id="p2">*</ept>, or <bpt id="p3">*</bpt>InputObject<ept id="p3">*</ept> parameters has multiple job triggers.</source>
+          <target state="translated">使用すると、スケジュールされたジョブは、このパラメーターが指定され、 <bpt id="p1">*</bpt>名前<ept id="p1">*</ept>, 、<bpt id="p2">*</bpt>ID<ept id="p2">*</ept>, 、または <bpt id="p3">*</bpt>InputObject<ept id="p3">*</ept> パラメーターが複数のジョブ トリガーします。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">このコマンドレットは、共通のパラメーターをサポートしています:-デバッグ、-erroraction、-errorvariable、- InformationAction-InformationVariable、- OutVariable、-OutBuffer、- PipelineVariable、- Verbose、および - WarningVariable です。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">詳細については、about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">入力</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Microsoft.PowerShell.ScheduledJob.ScheduledJobDefinition</source>
+          <target state="translated">Microsoft.PowerShell.ScheduledJob.ScheduledJobDefinition</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>You can pipe a scheduled job from Get-ScheduledJob to <bpt id="p1">**</bpt>Get-JobTrigger<ept id="p1">**</ept>.</source>
+          <target state="translated">スケジュールされたジョブに Get-scheduledjob をパイプ処理できます <bpt id="p1">**</bpt>Get-jobtrigger<ept id="p1">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">出力</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Microsoft.PowerShell.ScheduledJob.ScheduledJobTrigger</source>
+          <target state="translated">Microsoft.PowerShell.ScheduledJob.ScheduledJobTrigger</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ノート</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">関連リンク</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>about_Scheduled_Jobs</source>
+          <target state="translated">about_Scheduled_Jobs</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Add-JobTrigger</source>
+          <target state="translated">Add-JobTrigger</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Disable-JobTrigger</source>
+          <target state="translated">Disable-JobTrigger</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Disable-ScheduledJob</source>
+          <target state="translated">Disable-ScheduledJob</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Enable-JobTrigger</source>
+          <target state="translated">Enable-JobTrigger</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Enable-ScheduledJob</source>
+          <target state="translated">Enable-ScheduledJob</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Get-JobTrigger</source>
+          <target state="translated">Get-JobTrigger</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Get-ScheduledJob</source>
+          <target state="translated">Get-ScheduledJob</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Get-ScheduledJobOption</source>
+          <target state="translated">Get-ScheduledJobOption</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>New-JobTrigger</source>
+          <target state="translated">New-JobTrigger</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>New-ScheduledJobOption</source>
+          <target state="translated">New-ScheduledJobOption</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Register-ScheduledJob</source>
+          <target state="translated">Register-ScheduledJob</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Remove-JobTrigger</source>
+          <target state="translated">Remove-jobtrigger</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Set-JobTrigger</source>
+          <target state="translated">Set-JobTrigger</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Set-ScheduledJob</source>
+          <target state="translated">Set-ScheduledJob</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Set-ScheduledJobOption</source>
+          <target state="translated">Set-ScheduledJobOption</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Unregister-ScheduledJob</source>
+          <target state="translated">Unregister-ScheduledJob</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

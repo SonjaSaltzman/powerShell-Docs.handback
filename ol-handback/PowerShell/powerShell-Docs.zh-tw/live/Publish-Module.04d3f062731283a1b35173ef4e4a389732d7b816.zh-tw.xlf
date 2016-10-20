@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">38902c9cb066b23cf26b27274a3e600e74b15603</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\PowershellGet\Publish-Module.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">000537706504f3982d39398e368787cdc1986642</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1963439932de24fca6d6594d14d5368a2516ed67</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell 指令程式</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Publish-Module</source>
+          <target state="translated">Publish-Module</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Publish-Module</source>
+          <target state="translated">Publish-Module</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Publishes a specified module from the local computer to an online gallery.</source>
+          <target state="translated">將指定的模組從本機電腦發行至線上組件庫。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">語法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>ModuleNameParameterSet (Default)</source>
+          <target state="translated">ModuleNameParameterSet （預設值）</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>ModulePathParameterSet</source>
+          <target state="translated">ModulePathParameterSet</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">描述</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Publish-Module<ept id="p1">**</ept> cmdlet publishes a module to an online NuGet-based gallery by using an API key, stored as part of a user's profile in the gallery.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Publish-Module<ept id="p1">**</ept> Cmdlet 會使用 API 金鑰將模組發行至線上 NuGet 型組件庫，而這個 API 金鑰儲存為組件庫中使用者設定檔的一部分)。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can specify the module to publish either by the module's name, or by the path to the folder containing the module.</source>
+          <target state="translated">您可以指定依模組名稱，或依包含模組之資料夾的路徑來發行模組。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>When you specify a module by name, <bpt id="p1">**</bpt>Publish-Module<ept id="p1">**</ept> publishes the first module that would be found by running <ph id="ph1">`Get-Module -ListAvailable`</ph> <ph id="ph2">\&lt;</ph>Name<ph id="ph3">\&gt;</ph>.</source>
+          <target state="translated">當您依名稱指定模組 <bpt id="p1">**</bpt>發行模組<ept id="p1">**</ept> 發行第一個模組發現執行 <ph id="ph1">`Get-Module -ListAvailable`</ph> <ph id="ph2">\&lt;</ph>名稱<ph id="ph3">\&gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If you specify a minimum version of a module to publish, <bpt id="p1">**</bpt>Publish-Module<ept id="p1">**</ept> publishes the first module with a version that is greater than or equal to the minimum version that you have specified.</source>
+          <target state="translated">如果您指定發行模組的最小版本，則 <bpt id="p1">**</bpt>Publish-Module<ept id="p1">**</ept> 發行版本大於或等於所指定最小版本的第一個模組。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Publishing a module requires metadata that is displayed on the gallery page for the module.</source>
+          <target state="translated">發行模組時需要在模組之組件庫頁面上所顯示的中繼資料。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Required metadata includes the module name, version, description, and author.</source>
+          <target state="translated">必要的中繼資料包含模組名稱、版本、描述和作者。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Although most metadata is taken from the module manifest, some metadata must be specified in <bpt id="p1">**</bpt>Publish-Module<ept id="p1">**</ept> parameters, such as <bpt id="p2">*</bpt>Tag<ept id="p2">*</ept>,  <bpt id="p3">*</bpt>ReleaseNote<ept id="p3">*</ept>, <bpt id="p4">*</bpt>IconUri<ept id="p4">*</ept>, <bpt id="p5">*</bpt>ProjectUri<ept id="p5">*</ept>, and <bpt id="p6">*</bpt>LicenseUri<ept id="p6">*</ept>, because these parameters match fields in a NuGet-based gallery.</source>
+          <target state="translated">雖然大部分的中繼資料來自模組資訊清單，必須指定一些中繼資料中 <bpt id="p1">**</bpt>發行模組<ept id="p1">**</ept> 參數，例如 <bpt id="p2">*</bpt>標記<ept id="p2">*</ept>,  ，<bpt id="p3">*</bpt>ReleaseNote<ept id="p3">*</ept>, ，<bpt id="p4">*</bpt>IconUri<ept id="p4">*</ept>, ，<bpt id="p5">*</bpt>ProjectUri<ept id="p5">*</ept>, ，和 <bpt id="p6">*</bpt>LicenseUri<ept id="p6">*</ept>, ，因為這些參數符合 NuGet 圖庫中的欄位。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">範例</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Example 1: Publish a module</source>
+          <target state="translated">範例 1︰ 發行模組</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In this example, MyDscModule is published to the online gallery by using the API key to indicate the module owner's online gallery account.</source>
+          <target state="translated">在此範例中，MyDscModule 會發佈到線上組件庫來指出模組擁有者的線上組件庫帳戶使用的 API 金鑰。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If MyDscModule is not a valid manifest module that specifies a name, version, description, and author, an error occurs.</source>
+          <target state="translated">如果 MyDscModule 不是有效的資訊清單模組指定名稱、 版本、 描述和作者，就會發生錯誤。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Example 2: Publish a module with gallery metadata</source>
+          <target state="translated">範例 2︰ 發行具有組件庫的中繼資料的模組</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>In this example, MyDscModule is published to the online gallery by using the API key to indicate the module owner's gallery account.</source>
+          <target state="translated">在此範例中，MyDscModule 會發佈到線上組件庫來指出模組擁有者的組件庫帳戶使用的 API 金鑰。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The additional metadata provided is displayed on the webpage for the module in the gallery.</source>
+          <target state="translated">提供的其他中繼資料會顯示網頁上的組件庫中的模組。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The owner adds two search tags for the module, relating it to Active Directory; a brief release note is also added.</source>
+          <target state="translated">擁有者新增模組，這兩個搜尋標籤與 Active Directory。也會加入簡短版本的附註。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If MyDscModule is not a valid manifest module that specifies a name, version, description, and author, an error occurs.</source>
+          <target state="translated">如果 MyDscModule 不是有效的資訊清單模組指定名稱、 版本、 描述和作者，就會發生錯誤。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">參數</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">會提示您進行確認，然後再執行此指令程式。會提示您進行確認，然後再執行此指令程式。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>-FormatVersion</source>
+          <target state="translated">-FormatVersion</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>@{Text=}</source>
+          <target state="translated">@{文字 =}</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-IconUri</source>
+          <target state="translated">-設定 IconUri</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Specifies the URL of an icon for the module.</source>
+          <target state="translated">指定模組圖示的 URL。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The specified icon is displayed on the gallery webpage for the module.</source>
+          <target state="translated">指定的圖示會顯示組件庫網頁上的模組。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-LicenseUri</source>
+          <target state="translated">-LicenseUri</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Specifies the URL of licensing terms for the module you want to publish.</source>
+          <target state="translated">指定的 URL 授權條款，您想要發佈的模組。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the module that you want to publish.</source>
+          <target state="translated">指定您想要發佈的模組名稱。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Publish-Module<ept id="p1">**</ept> searches for the specified module name in $Env:PSModulePath.</source>
+          <target state="translated"><bpt id="p1">**</bpt>發行模組<ept id="p1">**</ept> 搜尋指定的模組中的名稱 $Env: PSModulePath。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>-NuGetApiKey</source>
+          <target state="translated">-NuGetApiKey</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Specifies the API key that you want to use to publish a module to the online gallery.</source>
+          <target state="translated">指定您想要用來將模組發佈到線上組件庫的 API 金鑰。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The API key is part of your profile in the online gallery, and can be found on your user account page in the gallery.</source>
+          <target state="translated">API 金鑰是您在線上組件庫中的設定檔的一部分，並可以在使用者帳戶] 頁面上，在組件庫中找到。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The API key is NuGet-specific functionality.</source>
+          <target state="translated">API 金鑰是 NuGet 特有的功能。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>-Path</source>
+          <target state="translated">-Path</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Specifies the path to the module that you want to publish.</source>
+          <target state="translated">指定您想要發佈之模組的路徑。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This parameter accepts either the path to the folder that contains the module, or the module manifest (.psd1) file.</source>
+          <target state="translated">此參數可接受包含模組資料夾的路徑，或是模組資訊清單 (.psd1) 檔案。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The parameter accepts piped values from Get-Module.</source>
+          <target state="translated">參數會接受管線的取得模組中的值。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>-ProjectUri</source>
+          <target state="translated">-ProjectUri</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Specifies the URL of a webpage about this project.</source>
+          <target state="translated">指定此專案的相關網頁的 URL。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>-ReleaseNotes</source>
+          <target state="translated">-ReleaseNotes</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Specifies a string containing release notes or comments that you want to be available to users of this version of the module.</source>
+          <target state="translated">指定字串，包含版本資訊或想要讓此版本之模組的使用者可以使用的註解。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>-Repository</source>
+          <target state="translated">-儲存機制</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Specifies the friendly name of a repository that has been registered by running Register-PSRepository.</source>
+          <target state="translated">指定的儲存機制，藉由執行註冊 PSRepository 已經登錄的易記名稱。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The repository must have a PublishLocation, which is a valid NuGet URI.</source>
+          <target state="translated">儲存機制必須 PublishLocation，也就是有效的 NuGet URI。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The PublishLocation can be set by running Set-PSRepository.</source>
+          <target state="translated">PublishLocation 可以設定執行設定 PSRepository。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The default value of this parameter is PSGallery.</source>
+          <target state="translated">這個參數的預設值是 PSGallery。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>-RequiredVersion</source>
+          <target state="translated">-RequiredVersion</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Specifies the exact version of a single module to publish.</source>
+          <target state="translated">指定發行的單一模組的正確版本。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>-Tags</source>
+          <target state="translated">-標記</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Adds one or more tags to the module that you are publishing.</source>
+          <target state="translated">將一個或多個標記加入至您要發行的模組。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Example tags include DesiredStateConfiguration, DSC, DSCResourceKit, or PSModule.</source>
+          <target state="translated">DesiredStateConfiguration、 DSC、 DSCResourceKit 或 PSModule，就會包含範例標記。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Separate multiple tags with commas.</source>
+          <target state="translated">以逗號分隔多個標記。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">顯示執行 Cmdlet 後會發生的情況。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">無法執行此指令程式。顯示執行此指令程式會發生什麼事。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">未執行 Cmdlet。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">這個 cmdlet 支援一般參數:-偵錯、-ErrorAction、-ErrorVariable、-InformationAction-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 以及-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">如需詳細資訊，請參閱 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">輸入</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>PSModuleInfo</source>
+          <target state="translated">PSModuleInfo</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">輸出</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">附註</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>This cmdlet runs on Windows PowerShell 3.0 or later releases of Windows PowerShell, on Windows 7 or Windows 2008 R2 and later releases of Windows.</source>
+          <target state="translated">這個 Cmdlet 會在 Windows PowerShell 3.0 或更新版本的 Windows PowerShell、Windows 7 或 Windows 2008 R2 和更新版本的 Windows 上執行。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Publish-Module<ept id="p1">**</ept> shows no output if a module is published successfully.</source>
+          <target state="translated"><bpt id="p1">**</bpt>發行模組<ept id="p1">**</ept> 會顯示任何輸出如果模組已成功發佈。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相關的連結</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Find-Module</source>
+          <target state="translated">Find-Module</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Install-Module</source>
+          <target state="translated">Install-Module</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Uninstall-Module</source>
+          <target state="translated">Uninstall-Module</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Update-Module</source>
+          <target state="translated">Update-Module</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

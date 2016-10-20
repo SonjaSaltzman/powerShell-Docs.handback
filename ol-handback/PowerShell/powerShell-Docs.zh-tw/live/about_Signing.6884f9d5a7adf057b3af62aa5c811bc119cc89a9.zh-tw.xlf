@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ec4641eeec550639d74dc41b448d2a375b080377</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Core\About\about_Signing.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4536f40fa8d2f58ecbc1d15f54830820c6612baa</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4e3f2a1ca6568e3429ba0c8a73ad62f95f3dd28e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>about_Signing</source>
+          <target state="translated">about_Signing</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell 指令程式</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>About Signing</source>
+          <target state="translated">有關簽署</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>about_Signing</source>
+          <target state="translated">about_Signing</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>about_Signing</source>
+          <target state="translated">about_Signing</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">簡短描述</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Explains how to sign scripts so that they comply with the Windows PowerShell execution policies.</source>
+          <target state="translated">說明如何簽署指令碼，使其符合 Windows PowerShell 執行原則。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>LONG DESCRIPTION</source>
+          <target state="translated">詳細描述</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The Restricted execution policy does not permit any scripts to run.</source>
+          <target state="translated">受限的執行原則不允許執行任何指令碼。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The AllSigned and RemoteSigned execution policies prevent Windows PowerShell from running scripts that do not have a digital signature.</source>
+          <target state="translated">AllSigned 和 RemoteSigned 執行原則可防止 Windows PowerShell 執行指令碼，並沒有數位簽章。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This topic explains how to run selected scripts that are not signed, even while the execution policy is RemoteSigned, and how to sign scripts for your own use.</source>
+          <target state="translated">本主題說明如何執行所選的指令碼未簽署，即使執行原則是 RemoteSigned，以及如何簽署指令碼供自己使用。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For more information about Windows PowerShell execution policies, see about_Execution_Policy.</source>
+          <target state="translated">如需有關 Windows PowerShell 執行原則的詳細資訊，請參閱 about_Execution_Policy。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>TO PERMIT SIGNED SCRIPTS TO RUN</source>
+          <target state="translated">若要允許簽署的指令碼執行</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>When you start Windows PowerShell on a computer for the first time, the Restricted execution policy (the default) is likely to be in effect.</source>
+          <target state="translated">第一次在電腦上啟動 Windows PowerShell，受限的執行原則 （預設值） 時，可能是作用中。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The Restricted policy does not permit any scripts to run.</source>
+          <target state="translated">限制的原則不允許執行任何指令碼。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To find the effective execution policy on your computer, type:</source>
+          <target state="translated">若要在電腦上找到有效的執行原則，請輸入︰</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Get-ExecutionPolicy</source>
+          <target state="translated">Get-executionpolicy</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To run unsigned scripts that you write on your local computer and signed scripts from other users, start Windows PowerShell with the Run as Administrator option and then use the following command to change the execution policy on the computer to RemoteSigned:</source>
+          <target state="translated">在本機電腦上簽署的指令碼執行未簽署的指令碼撰寫的其他使用者，啟動 Windows PowerShell 中使用 「 系統管理員身分執行，然後使用下列命令將變更為 RemoteSigned 執行原則的電腦上︰</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Set-ExecutionPolicy RemoteSigned</source>
+          <target state="translated">Set-executionpolicy RemoteSigned</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For more information, see the help topic for the Set-ExecutionPolicy cmdlet.</source>
+          <target state="translated">如需詳細資訊，請參閱 Set-executionpolicy 指令程式的 [說明] 主題。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>RUNNING UNSIGNED SCRIPTS (REMOTESIGNED EXECUTION POLICY)</source>
+          <target state="translated">執行未簽署指令碼 （REMOTESIGNED 執行原則）</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If your Windows PowerShell execution policy is RemoteSigned, Windows PowerShell will not run unsigned scripts that are downloaded from the Internet, including unsigned scripts you receive through e-mail and instant messaging programs.</source>
+          <target state="translated">如果您的 Windows PowerShell 執行原則是 RemoteSigned，Windows PowerShell 不會執行未簽署的指令碼經由網際網路時，包括您透過電子郵件和立即訊息程式收到不帶正負號的指令碼下載。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If you try to run a downloaded script, Windows PowerShell displays the following error message:</source>
+          <target state="translated">如果您嘗試執行下載的指令碼，Windows PowerShell 會顯示下列錯誤訊息︰</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The file &lt;file-name&gt; cannot be loaded.</source>
+          <target state="translated">無法載入檔案 &lt; 檔名 &gt;。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The file &lt;file-name&gt; is not digitally signed.</source>
+          <target state="translated">檔案 &lt; 檔名 &gt; 未經過數位簽署。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The script will not execute on the system.</source>
+          <target state="translated">系統不會執行指令碼。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Please see "Get-Help about_Signing" for more details.</source>
+          <target state="translated">請參閱"Get-help about_Signing"，如需詳細資訊。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Before you run the script, review the code to be sure that you trust it.</source>
+          <target state="translated">執行指令碼之前，請再次檢查以確定您信任的程式碼。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Scripts have the same effect as any executable program.</source>
+          <target state="translated">指令碼有任何可執行的程式相同的效果。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To run an unsigned script, use the Unblock-File cmdlet or use the Following procedure.</source>
+          <target state="translated">若要執行未簽署的指令碼，請使用 Unblock-file cmdlet 或使用下列程序。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Save the script file on your computer.</source>
+          <target state="translated">儲存您的電腦上的指令碼檔案。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Click Start, click My Computer, and locate the saved script file.</source>
+          <target state="translated">按一下 [開始]、 [我的電腦，並尋找儲存指令碼檔案。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Right-click the script file, and then click Properties.</source>
+          <target state="translated">以滑鼠右鍵按一下 [指令碼檔案，然後按一下 [屬性。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Click Unblock.</source>
+          <target state="translated">按一下 [解除封鎖。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>If a script that was downloaded from the Internet is digitally signed, but you have not yet chosen to trust its publisher, Windows PowerShell displays the following message:</source>
+          <target state="translated">如果數位簽章從網際網路下載的指令碼，但尚未選擇信任其發行者，Windows PowerShell 會顯示下列訊息︰</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Do you want to run software from this untrusted publisher?</source>
+          <target state="translated">您要從這個不受信任的發行者執行軟體嗎？</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The file &lt;file-name&gt; is published by CN=&lt;publisher-name&gt;.</source>
+          <target state="translated">檔案 &lt; 檔名 &gt; 發行的 CN = &lt; 發行者名稱 &gt;。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This publisher is not trusted on your system.</source>
+          <target state="translated">這個發行者不信任您的系統上。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Only run scripts from trusted publishers.</source>
+          <target state="translated">只從信任的發行者執行指令碼。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>[V] Never run  [D] Do not run  [R] Run once  [A] Always run [?] Help (default is "D"):</source>
+          <target state="translated">[V] 永遠不會執行 [D] 不會執行 [R] 執行一次 [A] 永遠執行 [？]（預設值為"D"） 的說明︰</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If you trust the publisher, select "Run once" or "Always run."</source>
+          <target state="translated">如果您信任的發行者，請選取 「 執行一次 」 或 「 永遠執行 」。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>If you do not trust the publisher, select either "Never run" or "Do not run."</source>
+          <target state="translated">如果您不信任的發行者，選取 「 永不執行 」 或 「 執行未執行 」。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If you select "Never run" or "Always run," Windows PowerShell will not prompt you again for this publisher.</source>
+          <target state="translated">如果您選取 「 永不執行 」 或 「 永遠執行 」，Windows PowerShell 不會提示您一次這個 「 發行者 」。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>METHODS OF SIGNING SCRIPTS</source>
+          <target state="translated">簽署指令碼的方法</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You can sign the scripts that you write and the scripts that you obtain from other sources.</source>
+          <target state="translated">您可以簽署您撰寫的指令碼和您從其他來源取得的指令碼。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Before you sign any script, examine each command to verify that it is safe to run.</source>
+          <target state="translated">您登入的任何指令碼之前，檢查每個命令，確認能夠安全地執行。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>For best practices about code signing, see "Code-Signing Best Practices" at http://go.microsoft.com/fwlink/?LinkId=119096.</source>
+          <target state="translated">如需程式碼簽署最佳作法，請參閱在 http://go.microsoft.com/fwlink/?LinkId=119096 的 「 程式碼簽署最佳作法 」。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For more information about how to sign a script file, see Set-AuthenticodeSignature.</source>
+          <target state="translated">如需如何簽署指令碼檔案的詳細資訊，請參閱 Set-authenticodesignature。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The New-SelfSignedCertificate cmdlet, introduced in the PKI module in Windows PowerShell 3.0, creates a self-signed certificate that is Appropriate for testing.</source>
+          <target state="translated">在 Windows PowerShell 3.0 中，PKI 單元導入的新增 SelfSignedCertificate 指令程式會建立是適用於測試的自我簽署的憑證。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>For more information, see the help topic for the New-SelfSignedCertificate cmdlet.</source>
+          <target state="translated">如需詳細資訊，請參閱 &lt; 新增 SelfSignedCertificate 指令程式的 [說明] 主題。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To add a digital signature to a script, you must sign it with a code signing certificate.</source>
+          <target state="translated">若要新增指令碼的數位簽章，您必須使用程式碼簽署憑證簽署。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Two types of certificates are suitable for signing a script file:</source>
+          <target state="translated">適用於簽署的指令碼檔案時，有兩種憑證類型︰</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>-- Certificates that are created by a certification authority:</source>
+          <target state="translated">--由憑證授權單位的憑證︰</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>For a fee, a public certification authority verifies your identity and gives you a code signing certificate.</source>
+          <target state="translated">付費，公開憑證授權單位驗證您的身分識別，並可讓您的程式碼簽署憑證。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>When you purchase your certificate from a reputable certification authority, you are able to share your script with users on other computers that are running Windows because those other computers trust the certification authority.</source>
+          <target state="translated">當您購買的聲譽良好的憑證授權單位憑證時，您就可以與其他正在執行 Windows，因為其他電腦所信任的憑證授權單位的電腦上的使用者共用您的指令碼。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>-- Certificates that you create:</source>
+          <target state="translated">--您建立的憑證︰</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>You can create a self-signed certificate for which your computer is the authority that creates the certificate.</source>
+          <target state="translated">您可以建立自我簽署的憑證，您的電腦是會建立憑證授權單位。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>This certificate is free of charge and enables you to write, sign, and run scripts on your computer.</source>
+          <target state="translated">此憑證是免費的而且可讓您撰寫、 登入，並在電腦上執行指令碼。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>However, a script signed by a self-signed certificate will not run on other computers.</source>
+          <target state="translated">不過，自我簽署憑證簽署的指令碼會在其他電腦上執行。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Typically, you would use a self-signed certificate only to sign scripts that you write for your own use and to sign scripts that you get from other sources that you have verified to be safe.</source>
+          <target state="translated">一般而言，您要用於自我簽署的憑證只簽署指令碼，您撰寫供自己使用，並以您從其他來源取得的簽署指令碼驗證安全。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>It is not appropriate for scripts that will be shared, even within an enterprise.</source>
+          <target state="translated">不適合將會共用，甚至在企業中的指令碼。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>If you create a self-signed certificate, be sure to enable strong private key protection on your certificate.</source>
+          <target state="translated">如果您建立自我簽署的憑證，請務必啟用加強私密金鑰保護您的憑證。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>This prevents malicious programs from signing scripts on your behalf.</source>
+          <target state="translated">這可防止惡意程式簽署您的名義上的指令碼。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The instructions are included at the end of this topic.</source>
+          <target state="translated">本主題結尾的指示。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>CREATE A SELF-SIGNED CERTIFICATE</source>
+          <target state="translated">建立自我簽署的憑證</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>To create a self-signed certificate in use the New-SelfSignedCertificate cmdlet in the PKI module.</source>
+          <target state="translated">若要建立自我簽署的憑證中使用 PKI 模組中的新增 SelfSignedCertificate 指令程式。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>This module is introduced in Windows PowerShell 3.0 and is included in Windows 8 and Windows Server 2012.</source>
+          <target state="translated">此模組在 Windows PowerShell 3.0 引進，而且包含在 Windows 8 和 Windows Server 2012。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>For more information, see the help topic for the New-SelfSignedCertificate cmdlet.</source>
+          <target state="translated">如需詳細資訊，請參閱 &lt; 新增 SelfSignedCertificate 指令程式的 [說明] 主題。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>To create a self-signed certificate in earlier versions of Windows, use the Certificate Creation tool (MakeCert.exe).</source>
+          <target state="translated">若要建立自我簽署的憑證，在舊版 Windows 中，使用憑證建立工具 (MakeCert.exe)。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This  tool is included in the Microsoft .NET Framework SDK (versions 1.1 and later) and in the Microsoft Windows SDK.</source>
+          <target state="translated">這項工具就會包含在 Microsoft.NET Framework SDK （版本 1.1 及更新版本） 和 Microsoft Windows SDK 中。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>For more information about the syntax and the parameter descriptions of the MakeCert.exe tool, see "Certificate Creation Tool (MakeCert.exe)" in the MSDN (Microsoft Developer Network) library at http://go.microsoft.com/fwlink/?LinkId=119097.</source>
+          <target state="translated">如需語法和參數描述的 MakeCert.exe 工具的詳細資訊，請參閱 &lt; 憑證建立工具 (MakeCert.exe) 」 在 http://go.microsoft.com/fwlink/?LinkId=119097 MSDN (Microsoft Developer Network) 文件庫中。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>To use the MakeCert.exe tool to create a certificate, run the following commands in an SDK Command Prompt window.</source>
+          <target state="translated">若要使用 MakeCert.exe 工具建立的憑證，請在 [SDK 命令提示字元] 視窗中執行下列命令。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Note: The first command creates a local certification authority for your computer.</source>
+          <target state="translated">注意︰ 第一個命令會建立您的電腦的本機憑證授權單位。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The second command generates a personal certificate from the certification authority.</source>
+          <target state="translated">第二個命令會從憑證授權單位產生的個人憑證。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Note: You can copy or type the commands exactly as they appear.</source>
+          <target state="translated">注意︰ 您可以複製或完全依照顯示輸入命令。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>No substitutions are necessary, although you can change the certificate name.</source>
+          <target state="translated">雖然您可以變更憑證名稱，是有必要，沒有替代項目。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>makecert -n "CN=PowerShell Local Certificate Root" -a sha1 <ph id="ph1">`
+-eku 1.3.6.1.5.5.7.3.3 -r -sv root.pvk root.cer `</ph> -ss Root -sr localMachine</source>
+          <target state="translated">makecert-n"CN = PowerShell 本機根憑證 」-sha1 <ph id="ph1">`
+-eku 1.3.6.1.5.5.7.3.3 -r -sv root.pvk root.cer `</ph> -ss 根-sr localMachine</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>makecert -pe -n "CN=PowerShell User" -ss MY -a sha1 ` -eku 1.3.6.1.5.5.7.3.3 -iv root.pvk -ic root.cer</source>
+          <target state="translated">makecert-pe-n"CN = PowerShell User"-ss MY-sha1 '-eku 1.3.6.1.5.5.7.3.3-iv root.pvk-ic root.cer</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The MakeCert.exe tool will prompt you for a private key password.</source>
+          <target state="translated">MakeCert.exe 工具會提示您輸入私密金鑰密碼。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The password ensures that no one can use or access the certificate without your consent.</source>
+          <target state="translated">密碼可確保沒有人可以使用或存取未經您同意的憑證。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Create and enter a password that you can remember.</source>
+          <target state="translated">建立並輸入可以記住的密碼。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>You will use this password later to retrieve the certificate.</source>
+          <target state="translated">您稍後將使用此密碼擷取憑證。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>To verify that the certificate was generated correctly, use the following command to get the certificate in the certificate store on the computer.</source>
+          <target state="translated">若要確認憑證已正確產生，使用下列命令來取得憑證的電腦上的憑證存放區。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>(You will not find a certificate file in the file system directory.)</source>
+          <target state="translated">（您將會找不到憑證檔案的檔案系統目錄中。）</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>At the Windows PowerShell prompt, type:</source>
+          <target state="translated">在 Windows PowerShell 提示字元中，輸入︰</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>get-childitem cert:\CurrentUser\my -codesigning</source>
+          <target state="translated">-get-childitem cert: \CurrentUser\my-程式碼設計</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>This command uses the Windows PowerShell Certificate provider to view information about the certificate.</source>
+          <target state="translated">此命令會使用 Windows PowerShell 憑證提供者來檢視憑證的相關資訊。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>If the certificate was created, the output shows the thumbprint that identifies the certificate in a display that resembles the following:</source>
+          <target state="translated">如果建立憑證時，輸出會顯示識別在顯示類似下列的憑證指紋︰</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Directory: Microsoft.PowerShell.Security\Certificate::CurrentUser\My</source>
+          <target state="translated">目錄︰ Microsoft.PowerShell.Security\Certificate::CurrentUser\My</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Thumbprint                                Subject</source>
+          <target state="translated">憑證指紋主體</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>4D4917CB140714BA5B81B96E0B18AAF2C4564FDF  CN=PowerShell User ]</source>
+          <target state="translated">4D4917CB140714BA5B81B96E0B18AAF2C4564FDF CN = PowerShell 使用者]</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>SIGN A SCRIPT</source>
+          <target state="translated">簽署指令碼</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>After you create a self-signed certificate, you can sign scripts.</source>
+          <target state="translated">建立自我簽署的憑證之後，您可以簽署指令碼。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>If you use the AllSigned execution policy, signing a script permits you to run the script on your computer.</source>
+          <target state="translated">如果您使用 AllSigned 執行原則，簽署指令碼可讓您在電腦上執行指令碼。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The following sample script, Add-Signature.ps1, signs a script.</source>
+          <target state="translated">下列的範例指令碼，加入 Signature.ps1，簽署指令碼。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>However, if you are using the AllSigned execution policy, you must sign the Add-Signature.ps1 script before you run it.</source>
+          <target state="translated">不過，如果您使用 AllSigned 執行原則，您必須先簽署新增 Signature.ps1 指令碼，才能執行這個。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>To use this script, copy the following text into a text file, and name it Add-Signature.ps1.</source>
+          <target state="translated">若要使用這個指令碼，將下列文字複製到文字檔案，並將它加入 Signature.ps1。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Note: Be sure that the script file does not have a .txt file name extension.</source>
+          <target state="translated">注意︰ 請確定指令碼檔案，並沒有.txt 副檔名。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>If your text editor appends ".txt", enclose the file name in quotation marks: "add-signature.ps1".</source>
+          <target state="translated">如果您的文字編輯器會附加".txt"，將檔案名稱括在引號:"加入 signature.ps1 」。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>add-signature.ps1</source>
+          <target state="translated">新增 signature.ps1</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Signs a file</source>
+          <target state="translated">簽署檔案</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>param([string] $file=$(throw "Please specify a filename.")) $cert = @(Get-ChildItem cert:\CurrentUser\My -codesigning)[0] Set-AuthenticodeSignature $file $cert</source>
+          <target state="translated">param ([string] $file = $（擲回，請指定檔案名稱。 」）) $cert = @(Get-childitem cert: \CurrentUser\My-程式碼設計) [0] Set-authenticodesignature $file $cert</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>To sign the Add-Signature.ps1 script file, type the following commands at the Windows PowerShell command prompt:</source>
+          <target state="translated">若要簽署新增 Signature.ps1 指令碼檔案，請在 Windows PowerShell 命令提示字元中輸入下列命令︰</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>$cert = @(Get-ChildItem cert:\CurrentUser\My -codesigning)[0]</source>
+          <target state="translated">$cert = @(Get-childitem cert: \CurrentUser\My-程式碼設計) [0]</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Set-AuthenticodeSignature add-signature.ps1 $cert</source>
+          <target state="translated">Set-authenticodesignature 加入-signature.ps1 $cert</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>After the script is signed, you can run it on the local computer.</source>
+          <target state="translated">簽署指令碼之後，您可以在本機電腦上執行它。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>However, the script will not run on computers on which the Windows PowerShell execution policy requires a digital signature from a trusted authority.</source>
+          <target state="translated">不過，指令碼不會在其的 Windows PowerShell 執行原則需要受信任的授權單位的數位簽章的電腦上執行。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>If you try, Windows PowerShell displays the following error message:</source>
+          <target state="translated">如果您嘗試，Windows PowerShell 會顯示下列錯誤訊息︰</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The file C:\remote_file.ps1 cannot be loaded.</source>
+          <target state="translated">無法載入檔案 C:\remote_file.ps1。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The signature of the certificate cannot be verified.</source>
+          <target state="translated">無法驗證憑證的簽章。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>At line:1 char:15</source>
+          <target state="translated">在行︰ 1 char: 15</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>.\ remote_file.ps1 &lt;&lt;&lt;&lt;</source>
+          <target state="translated">。 \ remote_file.ps1 &lt;&lt;&lt;&lt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>If Windows PowerShell displays this message when you run a script that you did not write, treat the file as you would treat any unsigned script.</source>
+          <target state="translated">如果您並未撰寫的指令碼執行時，Windows PowerShell 就會顯示此訊息，將檔案和您處理任何不帶正負號的指令碼處理。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Review the code to determine whether you can trust the script.</source>
+          <target state="translated">檢閱程式碼以判斷您是否可以信任的指令碼。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>ENABLE STRONG PRIVATE KEY PROTECTION FOR YOUR CERTIFICATE</source>
+          <target state="translated">啟用強式私密金鑰保護您的憑證</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>If you have a private certificate on your computer, malicious programs might be able to sign scripts on your behalf, which authorizes Windows PowerShell to run them.</source>
+          <target state="translated">如果您有私人憑證在您的電腦上時，惡意程式可能可以簽署您的名義，授權來執行這些 Windows PowerShell 指令碼。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>To prevent automated signing on your behalf, use Certificate Manager (Certmgr.exe) to export your signing certificate to a .pfx file.</source>
+          <target state="translated">若要避免代替您自動簽章，使用憑證管理員 (Certmgr.exe) 將您的簽署憑證匯出至.pfx 檔案。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Certificate Manager is included in the Microsoft .NET Framework SDK, the Microsoft Windows SDK, and in Internet Explorer 5.0 and later versions.</source>
+          <target state="translated">憑證管理員是包含在 Microsoft.NET Framework SDK，請在 Microsoft Windows SDK 中，並在 Internet Explorer 5.0 或更新版本的版本。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>To export the certificate:</source>
+          <target state="translated">若要將憑證匯出︰</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Start Certificate Manager.</source>
+          <target state="translated">啟動憑證管理員]。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Select the certificate issued by PowerShell Local Certificate Root.</source>
+          <target state="translated">選取 PowerShell 本機的根憑證所發出的憑證。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Click Export to start the Certificate Export Wizard.</source>
+          <target state="translated">按一下 [匯出]，啟動 [憑證匯出精靈]。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Select "Yes, export the private key", and then click Next.</source>
+          <target state="translated">選取 [是，匯出私密金鑰 」，然後按一下 [下一步]。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Select "Enable strong protection."</source>
+          <target state="translated">選取 [啟用加強保護]。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Type a password, and then type it again to confirm.</source>
+          <target state="translated">輸入密碼，然後按一次，以確認。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Type a file name that has the .pfx file name extension.</source>
+          <target state="translated">輸入具有.pfx 副檔名的檔案名稱。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Click Finish.</source>
+          <target state="translated">按一下 [完成]。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>To re-import the certificate:</source>
+          <target state="translated">若要重新匯入憑證︰</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Start Certificate Manager.</source>
+          <target state="translated">啟動憑證管理員]。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Click Import to start the Certificate Import Wizard.</source>
+          <target state="translated">按一下 [匯入] 以啟動 [憑證匯入精靈]。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Open to the location of the .pfx file that you created during the export process.</source>
+          <target state="translated">開啟您在匯出程序期間建立的.pfx 檔案的位置。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>On the Password page, select "Enable strong private key protection", and then enter the password that you assigned during the export process.</source>
+          <target state="translated">在 [密碼] 頁面上選取 [啟用加強私密金鑰保護]，然後輸入您在匯出程序期間指派的密碼。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Select the Personal certificate store.</source>
+          <target state="translated">選取 [個人憑證存放區。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Click Finish.</source>
+          <target state="translated">按一下 [完成]。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>PREVENT THE SIGNATURE FROM EXPIRING</source>
+          <target state="translated">防止簽章過期</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The digital signature in a script is valid until the signing certificate expires or as long as a time stamp server can verify that the script was signed while the signing certificate was valid.</source>
+          <target state="translated">在指令碼的數位簽章無效，直到簽署憑證到期或認證，只要時間戳記伺服器可以驗證指令碼已簽署時的簽章有效。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Because most signing certificates are valid for one year only, using a time stamp server ensures that users can use your script for many years to come.</source>
+          <target state="translated">由於大部分的簽署憑證一年只是有效的使用時間戳記伺服器可確保使用者可以用來有多年的指令碼。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>SEE ALSO</source>
+          <target state="translated">另請參閱</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>about_Execution_Policies about_Profiles Get-ExecutionPolicy New-SelfSignedCertificate Set-ExecutionPolicy Set-AuthenticodeSignature "Introduction to Code Signing" (http://go.microsoft.com/fwlink/?LinkId=106296)</source>
+          <target state="translated">about_Execution_Policies about_Profiles Get-executionpolicy 新增 SelfSignedCertificate Set-executionpolicy Set-authenticodesignature 「 簡介至程式碼簽署 」 (http://go.microsoft.com/fwlink/?LinkId=106296)</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

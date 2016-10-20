@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0aff51210cc9ca69affb4e9b2cd0818d4a091b4d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Management\New-PSDrive.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">31d8dd98bfa70057ae75af322a984646ede4c004</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b032483bd569fcccb6fd12bee40b55523af35691</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>New-PSDrive</source>
+          <target state="translated">New-PSDrive</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>New-PSDrive</source>
+          <target state="translated">New-PSDrive</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">요약</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Creates temporary and persistent mapped network drives.</source>
+          <target state="translated">임시 및 영구 매핑된 네트워크 드라이브를 만듭니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">구문</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">설명</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-PSDrive<ept id="p1">**</ept> cmdlet creates temporary and persistent drives that are "mapped" to or associated with a location in a data store, such as a network drive, a directory on the local computer, or a registry key, and persistent Windows mapped network drives that are associated with a file system location on a remote computer.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>New-psdrive<ept id="p1">**</ept> cmdlet "매핑" 되거나 네트워크 드라이브, 디렉터리는 로컬 컴퓨터 또는 레지스트리 키에 같은 데이터 저장소에의 한 위치와 연결 된 임시 및 영구적 드라이브를 만들고 영구 Windows 매핑 네트워크 드라이브를 원격 컴퓨터에서 파일 시스템 위치와 연결 합니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Temporary drives exist only in the current Windows PowerShell session and in sessions that you create in the current session.</source>
+          <target state="translated">임시 드라이브는 현재 Windows PowerShell 세션 및 현재 세션에서 만든 세션에만 있습니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>They can have any name that is valid in Windows PowerShell and can be mapped to any local or remote resource.</source>
+          <target state="translated">이러한 드라이브는 Windows PowerShell에서 유효한 임의의 이름을 가질 수 있고 모든 로컬 또는 원격 리소스에 매핑될 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can use temporary Windows PowerShell drives to access data in the associated data store, just like you would do with any mapped network drive.</source>
+          <target state="translated">임시 Windows PowerShell 드라이브를 사용하여 매핑된 네트워크 드라이브에서와 마찬가지 방식으로 연결된 데이터 저장소의 데이터에 액세스할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can change locations into the drive (using "set-location", "cd", or "chdir") and access the contents of the drive (using "get-item", "get-childitem", or "dir").</source>
+          <target state="translated">위치를 드라이브로 변경하고("set-location", "cd" 또는 "chdir") 드라이브 내용에 액세스할 수 있습니다("get-item", "get-childitem" 또는 "dir").</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>However, because temporary drives are known only to Windows PowerShell, you cannot access them by using File Explorer, Windows Management Instrumentation (WMI), Component Object Model (COM), or the Microsoft .NET Framework, or by using tools such as Net Use.</source>
+          <target state="translated">그러나 임시 드라이브는 Windows PowerShell에서만 인식되므로, 파일 탐색기, WMI(Windows Management Instrumentation), COM(Component Object Model) 또는 Microsoft .NET Framework를 사용하거나 Net Use와 같은 도구를 사용하여 액세스할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>New features are added to New-PSDrive in Windows PowerShell 3.0.</source>
+          <target state="translated">새 기능이 Windows PowerShell 3.0의 New-PSDrive에 추가되었습니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Mapped network drives: You can use the <bpt id="p1">**</bpt>Persist<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>New-PSDrive<ept id="p2">**</ept> to create Windows mapped network drives.</source>
+          <target state="translated">매핑된 네트워크 드라이브: 사용할 수는 <bpt id="p1">**</bpt>Persist<ept id="p1">**</ept> 의 매개 변수 <bpt id="p2">**</bpt>New-psdrive<ept id="p2">**</ept> 매핑된 네트워크 드라이브 창을 만들 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Unlike temporary Windows PowerShell drives, Windows mapped network drives are not session-specific; they are saved in Windows and they can be managed by using standard Windows tools, such as File Explorer and Net Use.</source>
+          <target state="translated">임시 Windows PowerShell 드라이브와 달리 Windows 매핑된 네트워크 드라이브는 특정 세션에 제한되지 않으며 Windows에 저장되므로 파일 탐색기나 Net Use와 같은 표준 Windows 도구를 사용하여 관리할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Mapped network drives must have a drive-letter name and be connected to a remote file system location.</source>
+          <target state="translated">매핑된 네트워크 드라이브는 드라이브 문자 이름을 가져야 하며 원격 파일 시스템 위치에 연결되어야 합니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>When your command is scoped locally (no dot-sourcing), the <bpt id="p1">**</bpt>Persist<ept id="p1">**</ept> parameter doesn't persist the creation of a PSDrive beyond the scope in which the command is running.</source>
+          <target state="translated">명령을 로컬로 범위는 (없습니다 도트 소싱), <bpt id="p1">**</bpt>지속<ept id="p1">**</ept> 매개 변수는 명령이 실행 되는 범위를 벗어나 PSDrive 생성 유지 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If you are running New-PSDrive inside of a script, and you want the drive to persist indefinitely, you must dot-source the script.</source>
+          <target state="translated">New-psdrive는 스크립트 내에서 실행 하는 경우 무기한 유지 하는 드라이브 점 소스 스크립트 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For best results, to force a new drive to persist indefinitely, add the <bpt id="p1">**</bpt>Scope<ept id="p1">**</ept> parameter to your command, and set its value to <bpt id="p2">**</bpt>Global<ept id="p2">**</ept>.</source>
+          <target state="translated">최상의 결과 무기한으로 유지 하기 위해 새 드라이브를 강제 하려면 추가 <bpt id="p1">**</bpt>범위<ept id="p1">**</ept> 프로그램 명령 매개 변수를 해당 값을 설정 하 고 <bpt id="p2">**</bpt>Global<ept id="p2">**</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>External drives: When an external drive is connected to the computer, Windows PowerShell automatically adds a PSDrive to the file system that represents the new drive.</source>
+          <target state="translated">외부 드라이브: Windows PowerShell 파일 시스템에 새 드라이브를 나타내는 PSDrive를 자동으로 추가 외장형 드라이브가 컴퓨터에 연결 된 경우.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You do not need to restart Windows PowerShell.</source>
+          <target state="translated">Windows PowerShell을 다시 시작하지 않아도 됩니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Similarly, when an external drive is disconnected from the computer, Windows PowerShell automatically deletes the PSDrive that represents the removed drive.</source>
+          <target state="translated">마찬가지로 컴퓨터에서 외장형 드라이브의 연결이 끊기면 Windows PowerShell에서 제거된 드라이브를 나타내는 PSDrive를 자동으로 삭제합니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Credentials for UNC Paths: When the value of the <bpt id="p1">**</bpt>Root<ept id="p1">**</ept> parameter is a UNC path, such as <ph id="ph1">\\\\</ph>Server\Share, the credential specified in the value of the <bpt id="p2">**</bpt>Credential<ept id="p2">**</ept> parameter is used to create the PSDrive.</source>
+          <target state="translated">UNC 경로 대 한 자격 증명: 때의 값은 <bpt id="p1">**</bpt>루트<ept id="p1">**</ept> 매개 변수는 UNC 경로, 예: <ph id="ph1">\\\\</ph>느릴의 값에 지정 된 자격 증명은 <bpt id="p2">**</bpt>자격 증명<ept id="p2">**</ept> 매개 변수는 PSDrive를 만드는 데 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Otherwise, the <bpt id="p1">**</bpt>Credential<ept id="p1">**</ept> parameter is not effective when creating new file system drives.</source>
+          <target state="translated">그렇지 않은 경우는 <bpt id="p1">**</bpt>자격 증명<ept id="p1">**</ept> 새 파일 시스템 드라이브를 만들 때이 매개 변수는 유효 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">예제</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 예제 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This command creates a temporary Windows PowerShell drive named P: that is mapped to the <ph id="ph1">\\\\</ph>Server01\Public network share.</source>
+          <target state="translated">이 명령은 만듭니다에 매핑된 p: 라는 임시 Windows PowerShell 드라이브는 <ph id="ph1">\\\\</ph>Server01\Public 네트워크 공유입니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> parameter to specify a name for the drive, the <bpt id="p2">**</bpt>PSProvider<ept id="p2">**</ept> parameter to specify the Windows PowerShell FileSystem provider, and the <bpt id="p3">**</bpt>Root<ept id="p3">**</ept> parameter to specify the network share.</source>
+          <target state="translated">사용 하 여는 <bpt id="p1">**</bpt>이름<ept id="p1">**</ept> 드라이브의 이름을 지정 하려면 매개 변수는 <bpt id="p2">**</bpt>PSProvider<ept id="p2">**</ept> Windows PowerShell FileSystem 공급자를 지정 하려면 매개 변수 및 <bpt id="p3">**</bpt>루트<ept id="p3">**</ept> 매개 변수를 네트워크 공유를 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>When the command completes, the contents of the <ph id="ph1">\\\\</ph>Server01\Public share appear in the P: drive.</source>
+          <target state="translated">명령이 완료 될 때의 콘텐츠는 <ph id="ph1">\\\\</ph>Server01\Public 공유 p: 드라이브에 표시 합니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To see them, type: "<ph id="ph1">`dir P:`</ph>".</source>
+          <target state="translated">입력 하십시오: "<ph id="ph1">`dir P:`</ph>"입니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This command creates a temporary Windows PowerShell drive that provides quick access to a local directory.</source>
+          <target state="translated">이 명령은 로컬 디렉터리에 빠르게 액세스할 수 있는 임시 Windows PowerShell 드라이브를 만듭니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>It creates a drive named MyDocs: that is mapped to the "C:\Documents and Settings\User01\My Documents" directory on the local computer.</source>
+          <target state="translated">MyDocs:라는 드라이브가 생성되며, 이 드라이브는 로컬 컴퓨터의 "C:\Documents and Settings\User01\My Documents" 디렉터리에 매핑됩니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> parameter to specify a name for the drive, the <bpt id="p2">**</bpt>PSProvider<ept id="p2">**</ept> parameter to specify the Windows PowerShell FileSystem provider, the <bpt id="p3">**</bpt>Root<ept id="p3">**</ept> parameter to specify the path to the My Documents folder, and the <bpt id="p4">**</bpt>Description<ept id="p4">**</ept> parameter to create a description of the drive.</source>
+          <target state="translated">사용 하 여는 <bpt id="p1">**</bpt>이름<ept id="p1">**</ept> 매개 변수는 드라이브에 대 한 이름을 지정할 수는 <bpt id="p2">**</bpt>PSProvider<ept id="p2">**</ept> Windows PowerShell FileSystem 공급자를 지정 하려면 매개 변수는 <bpt id="p3">**</bpt>루트<ept id="p3">**</ept> 내 문서 폴더의 경로를 지정 하려면 매개 변수 및 <bpt id="p4">**</bpt>설명<ept id="p4">**</ept> 를 드라이브에 대 한 설명을 만드는 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>When the command completes, the contents of the My Documents folder appear in the MyDocs: drive.</source>
+          <target state="translated">명령이 완료되면 My Documents 폴더의 내용이 MyDocs: 드라이브에 표시됩니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To see them, type: "dir MyDocs:".</source>
+          <target state="translated">입력 하십시오: "dir MyDocs:"입니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This command creates a temporary Windows PowerShell drive that provides quick access to a frequently checked registry key.</source>
+          <target state="translated">이 명령은 자주 확인되는 레지스트리 키에 빠르게 액세스할 수 있는 임시 Windows PowerShell 드라이브를 만듭니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>It creates a drive named MyCompany that is mapped to the HKLM\Software\MyCompany registry key.</source>
+          <target state="translated">HKLM\Software\MyCompany 레지스트리 키에 매핑된 MyCompany라는 드라이브를 만듭니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> parameter to specify a name for the drive, the <bpt id="p2">**</bpt>PSProvider<ept id="p2">**</ept> parameter to specify the Windows PowerShell Registry provider, and the <bpt id="p3">**</bpt>Root<ept id="p3">**</ept> parameter to specify the registry key.</source>
+          <target state="translated">사용 하 여는 <bpt id="p1">**</bpt>이름<ept id="p1">**</ept> 드라이브의 이름을 지정 하려면 매개 변수는 <bpt id="p2">**</bpt>PSProvider<ept id="p2">**</ept> Windows PowerShell 레지스트리 공급자를 지정 하려면 매개 변수 및 <bpt id="p3">**</bpt>루트<ept id="p3">**</ept> 매개 변수를 레지스트리 키를 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>When the command completes, the contents of the MyCompany key appear in the MyCompany: drive.</source>
+          <target state="translated">명령이 완료되면 MyCompany 키의 내용이 MyCompany: 드라이브에 표시됩니다.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To see them, type: "<ph id="ph1">`dir MyCompany:`</ph>".</source>
+          <target state="translated">입력 하십시오: "<ph id="ph1">`dir MyCompany:`</ph>"입니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This command creates the "S" mapped network drive on the local computer.</source>
+          <target state="translated">이 명령은 로컬 컴퓨터의 "S" 매핑된 네트워크 드라이브를 만듭니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The "S" drive is mapped to the <ph id="ph1">\\\\</ph>Server01\Scripts network share.</source>
+          <target state="translated">"S" 드라이브 매핑되는 <ph id="ph1">\\\\</ph>Server01\Scripts 네트워크 공유입니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>New-PSDrive<ept id="p1">**</ept> cmdlet to create the mapped network drive.</source>
+          <target state="translated">이 명령은 <bpt id="p1">**</bpt>New-psdrive<ept id="p1">**</ept> 매핑된 네트워크 드라이브를 만드는 cmdlet입니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>Persist<ept id="p1">**</ept> parameter to create a Windows mapped network drive that is saved on the local computer.</source>
+          <target state="translated">사용 하 여는 <bpt id="p1">**</bpt>Persist<ept id="p1">**</ept> 매개 변수를 만들려면 Windows 매핑된 네트워크 드라이브는 로컬 컴퓨터에 저장 됩니다.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> parameter to specify a letter name that Windows accepts and the <bpt id="p2">**</bpt>Root<ept id="p2">**</ept> parameter to specify a location on a remote computer.</source>
+          <target state="translated">명령을 사용 하 여는 <bpt id="p1">**</bpt>이름<ept id="p1">**</ept> 매개 변수는 문자 이름을 해당 Windows 허용 및 <bpt id="p2">**</bpt>루트<ept id="p2">**</ept> 매개 변수를 원격 컴퓨터의 위치를 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>PSProvider<ept id="p1">**</ept> parameter to specify the FileSystem provider.</source>
+          <target state="translated">사용 하 여는 <bpt id="p1">**</bpt>PSProvider<ept id="p1">**</ept> 매개 변수를 파일 시스템 공급자를 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The resulting drive can be viewed in other Windows PowerShell sessions on the local computer, in Windows Explorer, and in other tools, such as Net Use.</source>
+          <target state="translated">생성된 드라이브는 Windows 탐색기 및 기타 도구(예: Net Use)를 통해 로컬 컴퓨터의 다른 Windows PowerShell 세션에서 볼 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This example shows the difference between a persistent mapped network drive and a temporary Windows PowerShell drive that is mapped to the same network share.</source>
+          <target state="translated">이 예제에서는 영구 매핑된 네트워크 드라이브와 동일한 네트워크 공유에 매핑된 임시 Windows PowerShell 드라이브 간의 차이점을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">매개 변수</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>-Credential</source>
+          <target state="translated">-Credential</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Specifies a user account that has permission to perform this action.</source>
+          <target state="translated">이 작업을 수행할 권한이 있는 사용자 계정을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The default is the current user.</source>
+          <target state="translated">기본값은 현재 사용자입니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Type a user name, such as "User01" or "Domain01\User01".</source>
+          <target state="translated">"User01" 또는 "Domain01\User01"과 같은 사용자 이름을</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Or, enter a <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> object, such as one generated by the Get-Credential cmdlet.</source>
+          <target state="translated">또는 입력 한 <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> Get-credential cmdlet에서 생성 된 것과 같은 개체입니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If you type a user name, you will be prompted for a password.</source>
+          <target state="translated">사용자 이름을 입력하면 암호를 입력하라는 메시지가 표시됩니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, when the value of the <bpt id="p1">**</bpt>Root<ept id="p1">**</ept> parameter is a UNC path, you can use credentials to create file system drives.</source>
+          <target state="translated">Windows PowerShell 3.0 부터는 때의 값은 <bpt id="p1">**</bpt>루트<ept id="p1">**</ept> 매개 변수는 UNC 경로, 파일 시스템 드라이브를 만드는 데 자격 증명을 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This parameter is not supported by all Windows PowerShell providers.</source>
+          <target state="translated">이 매개 변수는 일부 Windows PowerShell 공급자에서 지원되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>-Description</source>
+          <target state="translated">-Description</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Specifies a brief text description of the drive.</source>
+          <target state="translated">드라이브에 대한 간단한 텍스트 설명을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Type any string.</source>
+          <target state="translated">문자열을 입력합니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>To see the descriptions of all of the drives in the session, type "<ph id="ph1">`Get-PSDrive | Format-Table Name, Description`</ph>".</source>
+          <target state="translated">모든 세션에서 드라이브의 설명을 보려면 "<ph id="ph1">`Get-PSDrive | Format-Table Name, Description`</ph>"입니다.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>To see the description of a particular drives, type "<ph id="ph1">`(Get-PSDrive \&lt;DriveName\&gt;).Description`</ph>".</source>
+          <target state="translated">특정 드라이브에 대 한 설명을 보려면 "<ph id="ph1">`(Get-PSDrive \&lt;DriveName\&gt;).Description`</ph>"입니다.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Specifies a name for the new drive.</source>
+          <target state="translated">새 드라이브의 이름을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>For persistent mapped network drives, type a drive letter.</source>
+          <target state="translated">영구 매핑된 네트워크 드라이브의 경우 드라이브 문자를 입력합니다.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>For temporary Windows PowerShell drives, type any valid string; you are not limited to drive letters.</source>
+          <target state="translated">임시 Windows PowerShell 드라이브의 경우에는 유효한 문자열을 입력합니다. 드라이브 문자로만 제한되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-Persist</source>
+          <target state="translated">-유지</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Creates a Windows mapped network drive.</source>
+          <target state="translated">Windows 매핑된 네트워크 드라이브를 만듭니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Mapped network drives are saved in Windows on the local computer.</source>
+          <target state="translated">매핑된 네트워크 드라이브는 로컬 컴퓨터의 Windows에 저장됩니다.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>They are persistent, not session-specific, and can be viewed and managed in File Explorer and other tools.</source>
+          <target state="translated">이러한 드라이브는 특정 세션으로만 제한되지 않고 영구적이며 파일 탐색기 및 기타 도구에서 보고 관리할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>When you scope the command locally (that is, without dot-sourcing), the Persist parameter won't persist the creation of a PSDrive beyond the scope in which you run the command.</source>
+          <target state="translated">로컬로 명령을 범위 있습니다 (즉, 없이 도트 소싱), Persist 매개 변수는 명령을 실행 하는 범위를 벗어나는 PSDrive 생성 유지 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>If you run the New-PSDrive cmdlet inside of a script, and you want the new drive to persist indefinitely, you must dot-source the script.</source>
+          <target state="translated">스크립트 내에서 New-psdrive cmdlet을 실행 하는 경우 무기한 유지 하 여 새 드라이브 점 소스 스크립트 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>For best results, to force a new drive to persist, specify Global as the value of the <bpt id="p1">**</bpt>Scope<ept id="p1">**</ept> parameter, as well as adding the Persist parameter to your command.</source>
+          <target state="translated">최상의 결과 유지 하기 위해 새 드라이브를 강제로 지정 Global의 값으로는 <bpt id="p1">**</bpt>범위<ept id="p1">**</ept> 매개 변수를 추가 함은 물론 비지 속성 매개 변수를 명령입니다.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The name of the drive must be a letter, such as D or E. The value of the <bpt id="p1">**</bpt>Root<ept id="p1">**</ept> parameter must be a UNC path to a different computer.</source>
+          <target state="translated">드라이브의 이름은 D 또는 E와 같은 문자를 해야 합니다. 값은 <bpt id="p1">**</bpt>루트<ept id="p1">**</ept> 매개 변수는 다른 컴퓨터의 UNC 경로 여야 합니다.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">**</bpt>PSProvider<ept id="p1">**</ept> parameter must be FileSystem.</source>
+          <target state="translated">값은 <bpt id="p1">**</bpt>PSProvider<ept id="p1">**</ept> 매개 변수는 파일 시스템 이어야 합니다.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>To disconnect a Windows mapped network drive, use the Remove-PSDrive cmdlet.</source>
+          <target state="translated">매핑된 네트워크 드라이브 연결을 끊으려면 Windows Remove-psdrive cmdlet을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>When you disconnect a Windows mapped network drive, the mapping is permanently deleted from the computer, not just deleted from the current session.</source>
+          <target state="translated">Windows 매핑된 네트워크 드라이브 연결을 끊으면 매핑이 현재 세션에서 삭제될 뿐만 아니라 컴퓨터에서도 영구적으로 삭제됩니다.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>NOTE: Mapped network drives are specific to a user account.</source>
+          <target state="translated">참고: 매핑된 네트워크 드라이브는 사용자 계정에 적용 됩니다.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Mapped network drives that you create in sessions that are started with the "Run as administrator" option or with the credential of another user are not visible in a session that you started without explicit credentials, or with the credentials of the current user.</source>
+          <target state="translated">"관리자 권한으로 실행" 옵션으로 시작 하거나 다른 사용자의 자격 증명으로 표시 되지 않습니다 명시적 자격 증명 없이 또는 현재 사용자의 자격 증명을 시작 하는 세션에 있는 세션에서 만든 매핑된 네트워크 드라이브입니다.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>-PSProvider</source>
+          <target state="translated">-PSProvider</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Specifies the Windows PowerShell provider that supports drives of this type.</source>
+          <target state="translated">이 유형의 드라이브를 지원하는 Windows PowerShell 공급자를 지정합니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>For example, if the drive is associated with a network share or file system directory, the Windows PowerShell provider is "FileSystem".</source>
+          <target state="translated">예를 들어 드라이브가 네트워크 공유 또는 파일 시스템 디렉터리에 연결 된 Windows PowerShell 공급자는 "FileSystem"입니다.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>If the drive is associated with a registry key, the provider is "Registry".</source>
+          <target state="translated">드라이브가 레지스트리 키에 연결되어 있으면 공급자는 "Registry"입니다.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Temporary Windows PowerShell drives can be associated with any Windows PowerShell provider.</source>
+          <target state="translated">임시 Windows PowerShell 드라이브는 어떤 Windows PowerShell 공급자에든 연결할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Mapped network drives can be associated only with the FileSystem provider.</source>
+          <target state="translated">매핑된 네트워크 드라이브는 FileSystem 공급자에만 연결할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>To see a list of the providers in your Windows PowerShell session, use the Get-PSProvider cmdlet.</source>
+          <target state="translated">Windows PowerShell 세션에서 공급자의 목록을 보려면, Get-psprovider cmdlet을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>-Root</source>
+          <target state="translated">-루트</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Specifies the data store location to which a Windows PowerShell drive is mapped.</source>
+          <target state="translated">Windows PowerShell 드라이브가 매핑된 데이터 저장소 위치를 지정합니다.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>For example, specify a network share (such as <ph id="ph1">\\\\</ph>Server01\Public), a local directory (such as C:\Program Files), or a registry key (such as HKLM:\Software\Microsoft).</source>
+          <target state="translated">예를 들어 네트워크 공유를 지정 (예: <ph id="ph1">\\\\</ph>Server01\Public), (예: C:\Program Files)의 로컬 디렉터리 또는 레지스트리 키 (예: hklm: \ software\microsoft).</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Temporary Windows PowerShell drives can be associated with a local or remote location on any supported provider drive.</source>
+          <target state="translated">임시 Windows PowerShell 드라이브는 지원되는 임의의 공급자 드라이브에 있는 로컬 또는 원격 위치에 연결할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Mapped network drives can be associated only with a file system location on a remote computer.</source>
+          <target state="translated">매핑된 네트워크 드라이브는 원격 컴퓨터의 파일 시스템 위치에만 연결할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>-Scope</source>
+          <target state="translated">범위</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Specifies a scope for the drive.</source>
+          <target state="translated">드라이브의 범위를 지정합니다.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Valid values are "<bpt id="p1">**</bpt>Global<ept id="p1">**</ept>", "<bpt id="p2">**</bpt>Local<ept id="p2">**</ept>", or "<bpt id="p3">**</bpt>Script<ept id="p3">**</ept>", or a number relative to the current scope (0 through the number of scopes, where 0 is the current scope and 1 is its parent).</source>
+          <target state="translated">유효한 값은 "<bpt id="p1">**</bpt>Global<ept id="p1">**</ept>","<bpt id="p2">**</bpt>로컬<ept id="p2">**</ept>", 또는 "<bpt id="p3">**</bpt>스크립트<ept id="p3">**</ept>", 또는 숫자 (0부터 여기서 0은 현재 범위가 고 1은 그 상위 범위 수까지) 현재 범위를 기준으로 합니다.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>"<bpt id="p1">**</bpt>Local<ept id="p1">**</ept>" is the default.</source>
+          <target state="translated">"<bpt id="p1">**</bpt>로컬<ept id="p1">**</ept>" 값이 기본값입니다.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Scopes (http://go.microsoft.com/fwlink/?LinkID=113260).</source>
+          <target state="translated">자세한 내용은 about_Scopes (http://go.microsoft.com/fwlink/?LinkID=113260)을 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">이 cmdlet을 실행 하기 전에 확인 하면 메시지를 표시 합니다. 이 cmdlet을 실행 하기 전에 확인 하면 메시지를 표시 합니다.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">cmdlet이 실행될 경우 결과 동작을 표시합니다.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Cmdlet은 실행 되지 않습니다. Cmdlet이 실행 되 면 어떻게 되는지를 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">cmdlet이 실행되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>-UseTransaction</source>
+          <target state="translated">-UseTransaction</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Includes the command in the active transaction.</source>
+          <target state="translated">활성 트랜잭션에 명령을 포함합니다.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when a transaction is in progress.</source>
+          <target state="translated">이 매개 변수는 트랜잭션이 진행 중인 경우에만 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>For more information, see Includes the command in the active transaction.</source>
+          <target state="translated">자세한 내용은 활성 트랜잭션에 명령을 포함 합니다.를 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when a transaction is in progress.</source>
+          <target state="translated">이 매개 변수는 트랜잭션이 진행 중인 경우에만 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>For more information, see</source>
+          <target state="translated">자세한 내용은  항목을 참조하세요.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">이 cmdlet은 공통 매개 변수:-디버그,-ErrorAction,-ErrorVariable,-InformationAction,-InformationVariable,-OutVariable,-OutBuffer,-PipelineVariable,-Verbose,-WarningAction 및-warningvariable을 지원 합니다.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">자세한 내용은 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)를 참조 합니다.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">입력</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">없음</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>You cannot pipe input to this cmdlet.</source>
+          <target state="translated">이 cmdlet에 입력을 파이프할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">출력</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSDriveInfo</source>
+          <target state="translated">System.Management.Automation.PSDriveInfo</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">참고 사항</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-PSDrive<ept id="p1">**</ept> cmdlet is designed to work with the data exposed by any provider.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>New-psdrive<ept id="p1">**</ept> cmdlet은 모든 공급자가 제공 하는 데이터를 사용 하도록 설계 되었습니다.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>To list the providers available in your session, use the Get-PSProvider cmdlet.</source>
+          <target state="translated">세션에서 사용할 수 있는 공급자를 나열 하려면 Get-psprovider cmdlet을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>For more information about providers, see about_Providers (http://go.microsoft.com/fwlink/?LinkID=113250).</source>
+          <target state="translated">공급자에 대 한 자세한 내용은 about_Providers (http://go.microsoft.com/fwlink/?LinkID=113250)를 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Mapped network drives are specific to a user account.</source>
+          <target state="translated">매핑된 네트워크 드라이브는 특정 사용자 계정에만 적용됩니다.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Mapped network drives that you create in sessions that are started with the "Run as administrator" option or with the credential of another user are not visible in a session that you started without explicit credentials, or with the credentials of the current user.</source>
+          <target state="translated">"관리자 권한으로 실행" 옵션으로 시작 하거나 다른 사용자의 자격 증명으로 표시 되지 않습니다 명시적 자격 증명 없이 또는 현재 사용자의 자격 증명을 시작 하는 세션에 있는 세션에서 만든 매핑된 네트워크 드라이브입니다.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">관련된 링크</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Get-PSDrive</source>
+          <target state="translated">Get-PSDrive</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Remove-PSDrive</source>
+          <target state="translated">Remove-PSDrive</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>about_Providers</source>
+          <target state="translated">about_Providers</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

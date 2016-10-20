@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6dac8caf8ef0b6e70ddaf8b8807cd05545499711</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Core\About\about_Parsing.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e7a2907f3a9e5ceeda611b7e2de5c0d379093515</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">755fe011c1c3563ab1fb61ad1889ea72a7ea0ed9</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>about_Parsing</source>
+          <target state="translated">about_Parsing</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell 指令程式</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>About Parsing</source>
+          <target state="translated">關於剖析</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>about_Parsing</source>
+          <target state="translated">about_Parsing</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>TOPIC</source>
+          <target state="translated">主題</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>about_Parsing</source>
+          <target state="translated">about_Parsing</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">簡短描述</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Describes how Windows PowerShell parses commands.</source>
+          <target state="translated">說明 Windows PowerShell 如何剖析命令。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>LONG DESCRIPTION</source>
+          <target state="translated">詳細描述</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>When you enter a command at the command prompt, Windows PowerShell breaks the command text into a series of segments called "tokens" and then determines how to interpret each "token."</source>
+          <target state="translated">當您輸入的命令在命令提示字元中時，Windows PowerShell 命令文字分成一連串的區段，稱為 「 權杖 」，並接著會判斷如何解譯每個 「 權杖 」。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For example, if you type:</source>
+          <target state="translated">例如，如果您輸入︰</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Write-Host book</source>
+          <target state="translated">寫入主機活頁簿</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell breaks the following command into two tokens, "Write-Host" and "book", and interprets each token independently.</source>
+          <target state="translated">Windows PowerShell 分成兩個語彙基元，「 寫入主機 」 和 「 書籍 」，下列命令，然後單獨解譯每個語彙基元。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>When processing a command, the Windows PowerShell parser operates in expression mode or in argument mode:</source>
+          <target state="translated">當處理命令，Windows PowerShell 剖析器的運作方式運算式模式或引數的模式︰</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>In expression mode, character string values must be contained in quotation marks.</source>
+          <target state="translated">在運算式模式中，字元的字串值必須包含在引號內。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Numbers not enclosed in quotation marks are treated as numerical values (rather than as a series of characters).</source>
+          <target state="translated">沒有用引號括住的數字被視為數值 （而不是一串字元）。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In argument mode, each value is treated as an expandable string unless it begins with one of the following special characters: dollar sign ($), at sign (@), single quotation mark ('), double quotation mark ("), or an opening parenthesis (().</source>
+          <target state="translated">在引數模式中，每個值視為可擴充的字串開頭下列特殊字元的其中一個，除非︰ 錢幣符號 （$）、 at 符號 (@)，單一引號 （'）、 雙引號引號 （"） 或左括號 （（）。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If preceded by one of these characters, the value is treated as a value expression.</source>
+          <target state="translated">如果前面有其中一個字元，值會被視為值運算式中。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The following table provides several examples of commands processed in expression mode and argument mode and the results produced by those commands.</source>
+          <target state="translated">下表提供數個範例運算式模式和引數的模式和這些命令所產生的結果中所處理的命令。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Example            Mode         Result</source>
+          <target state="translated">範例模式結果</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>2+2                Expression   4 (integer) Write-Output 2+2   Argument     "2+2" (string) Write-Output (2+2) Expression   4 (integer) $a = 2+2           Expression   $a = 4 (integer) Write-Output $a    Expression   4 (integer) Write-Output $a/H  Argument     "4/H" (string)</source>
+          <target state="translated">2 + 2 運算式 4 （整數） 寫入輸出 2 + 2 引數"2 + 2"（字串） 寫入輸出 (2 + 2) 運算式 4 （整數） $ = 2 + 2 運算式 $ = 4 （整數） 寫入輸出 $ 運算式 4 （整數） 寫入輸出 $/ H a 引數"4/H"（字串）</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Every token can be interpreted as some kind of object type, such as Boolean or string.</source>
+          <target state="translated">每個權杖可以解譯為某種類型的物件類型，例如布林或字串。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell attempts to determine the object type from the expression.</source>
+          <target state="translated">Windows PowerShell 會嘗試判斷運算式的物件型別。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The object type depends on the type of parameter a command expects and on whether Windows PowerShell knows how to convert the argument to the correct type.</source>
+          <target state="translated">物件類型取決於預期的命令參數的型別以及 Windows PowerShell 是否知道如何將引數轉換為正確的型別。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The following table shows several examples of the types assigned to values returned by the expressions.</source>
+          <target state="translated">下表顯示指派給運算式所傳回的值類型的數個範例。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Example            Mode         Result</source>
+          <target state="translated">範例模式結果</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Write-Output !1    argument     "!1" (string) Write-Output (!1)  expression   False (Boolean) Write-Output (2)   expression   2 (integer)</source>
+          <target state="translated">寫入輸出 ！ 1 個引數 」 ！ 1 」 （字串） 寫入輸出 (！ 1) 運算式，則為 False （布林值） 的寫入輸出 （2） 運算式 2 （整數）</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>STOP PARSING:  --% The stop-parsing symbol (--%), introduced in Windows PowerShell 3.0, directs Windows PowerShell to refrain from interpreting input as Windows PowerShell commands or expressions.</source>
+          <target state="translated">停止剖析:-%停止剖析符號 (-%)，在 Windows PowerShell 3.0 引進，會指示 Windows PowerShell，以避免解譯輸入為 Windows PowerShell 命令或運算式。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>When calling an executable program in Windows PowerShell, place the stop-parsing symbol before the program arguments.</source>
+          <target state="translated">在 Windows PowerShell 中呼叫的可執行程式時，將停止剖析符號之前的程式引數。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This technique is much easier than using escape characters to prevent misinterpretation.</source>
+          <target state="translated">這項技術就能輕鬆比使用以避免錯誤解譯逸出字元。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>When it encounters a stop-parsing symbol, Windows PowerShell treats the remaining characters in the line as a literal.</source>
+          <target state="translated">它遇到停止剖析符號時，Windows PowerShell 會將其餘字元一行中視為常值。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The only interpretation it performs is to substitute values for environment variables that use standard Windows notation, such as %USERPROFILE%.</source>
+          <target state="translated">換成使用標準的 Windows 標記法，例如 %USERPROFILE%環境變數的值是唯一的解譯方式，它會執行。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The stop-parsing symbol is effective only until the next newline or pipeline character.</source>
+          <target state="translated">停止剖析符號只到下一個新行字元或管線字元是有效的。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You cannot use a continuation character (`) to extend its effect or use a command delimiter (;) to terminate its effect.</source>
+          <target state="translated">您無法使用為接續字元 （'） 來擴充其效果或使用命令分隔符號 （;），終止其效果。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For example, the following command calls the Icacls program.</source>
+          <target state="translated">例如，下列命令會呼叫 Icacls 程式。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>icacls X:\VMS /grant Dom\HVAdmin:(CI)(OI)F</source>
+          <target state="translated">icacls X:\VMS /grant Dom\HVAdmin:(CI) (OI) F</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To run this command in Windows PowerShell 2.0, you must use escape characters to prevent Windows PowerShell from misinterpreting the parentheses.</source>
+          <target state="translated">若要執行此命令在 Windows PowerShell 2.0 中，您必須使用逸出字元，以防止 Windows PowerShell 解譯括號。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>icacls X:\VMS /grant Dom\HVAdmin:<ph id="ph1">`(CI`</ph>)<ph id="ph2">`(OI`</ph>)F</source>
+          <target state="translated">icacls X:\VMS /grant Dom\HVAdmin:<ph id="ph1">`(CI`</ph>)<ph id="ph2">`(OI`</ph>) F</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, you can use the stop-parsing symbol.</source>
+          <target state="translated">從 Windows PowerShell 3.0 開始，您可以使用停止剖析的符號。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>icacls X:\VMS --% /grant Dom\HVAdmin:(CI)(OI)F</source>
+          <target state="translated">icacls X:\VMS-%/grant Dom\HVAdmin:(CI) (OI) F</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell sends the following command string to the Icacls  program: X:\VMS /grant Dom\HVAdmin:(CI)(OI)F</source>
+          <target state="translated">Windows PowerShell 會將下列的命令字串傳送至 Icacls 程式︰ X:\VMS /grant Dom\HVAdmin:(CI) (OI) F</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>SEE ALSO</source>
+          <target state="translated">另請參閱</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>about_Command_Syntax</source>
+          <target state="translated">about_Command_Syntax</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
