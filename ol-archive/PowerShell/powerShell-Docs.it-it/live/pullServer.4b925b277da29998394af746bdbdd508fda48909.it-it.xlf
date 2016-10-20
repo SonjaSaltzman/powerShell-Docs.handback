@@ -2,12 +2,13 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7bbfc31fdebdde83ac1784373b51af40b1dc9492</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4ab20cdcac6f10dc9ecab6d85b38f413e0ade8b0</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\pullServer.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">45f73da9a65989e1340e96033c42361fa0644b8e</xliffext:olskeletonhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">33a192c34278fce539fb1023b4e9a1ee8ede8c34</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ab304cdddcf3a726f5e9cc66f2e871079b83128e</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -180,75 +181,78 @@
           <source>With this change, zip the folder as described above and place these zip files in the <bpt id="p1">**</bpt>ModulePath<ept id="p1">**</ept> folder.</source>
           <target state="translated">Con questa modifica, comprimere la cartella come descritto in precedenza e posizionare i file ZIP nella cartella <bpt id="p1">**</bpt>ModulePath<ept id="p1">**</ept>.</target>       </trans-unit>
         <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Use <ph id="ph1">`new-dscchecksum {module zip file}`</ph> to create a checksum file for the newly-added module.</source>
+          <target state="translated">Usare <ph id="ph1">`new-dscchecksum {module zip file}`</ph> per creare un file di checksum per il modulo appena aggiunto.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
           <source>Configuration MOF format</source>
           <target state="translated">Formato del file MOF di configurazione</target>       </trans-unit>
-        <trans-unit id="158" translate="yes" xml:space="preserve">
+        <trans-unit id="159" translate="yes" xml:space="preserve">
           <source>A configuration MOF file needs to be paired with a checksum file so that an LCM on a target node can validate the configuration.</source>
           <target state="translated">Un file MOF di configurazione deve essere associato a un file di checksum in modo che Gestione configurazione locale in un nodo di destinazione possa convalidare la configurazione.</target>       </trans-unit>
-        <trans-unit id="159" translate="yes" xml:space="preserve">
+        <trans-unit id="160" translate="yes" xml:space="preserve">
           <source>To create a checksum, call the <bpt id="p1">[</bpt>New-DSCCheckSum<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521622.aspx)</ept> cmdlet.</source>
           <target state="translated">Per creare un checksum, chiamare il cmdlet <bpt id="p1">[</bpt>New-DSCCheckSum<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521622.aspx)</ept>.</target>       </trans-unit>
-        <trans-unit id="160" translate="yes" xml:space="preserve">
+        <trans-unit id="161" translate="yes" xml:space="preserve">
           <source>The cmdlet takes a <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter that specifies the folder where the configuration MOF is located.</source>
           <target state="translated">Il cmdlet accetta un parametro <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> che specifica la cartella in cui si trova il file MOF di configurazione.</target>       </trans-unit>
-        <trans-unit id="161" translate="yes" xml:space="preserve">
+        <trans-unit id="162" translate="yes" xml:space="preserve">
           <source>The cmdlet creates a checksum file named <ph id="ph1">`ConfigurationMOFName.mof.checksum`</ph>, where <ph id="ph2">`ConfigurationMOFName`</ph> is the name of the configuration mof file.</source>
           <target state="translated">Il cmdlet crea un file di checksum denominato <ph id="ph1">`ConfigurationMOFName.mof.checksum`</ph>, in cui <ph id="ph2">`ConfigurationMOFName`</ph> è il nome del file MOF di configurazione.</target>       </trans-unit>
-        <trans-unit id="162" translate="yes" xml:space="preserve">
+        <trans-unit id="163" translate="yes" xml:space="preserve">
           <source>If there are more than one configuration MOF files in the specified folder, a checksum is created for each configuration in the folder.</source>
           <target state="translated">Se nella cartella specificata sono presenti più file MOF di configurazione, viene creato un checksum per ogni configurazione nella cartella.</target>       </trans-unit>
-        <trans-unit id="163" translate="yes" xml:space="preserve">
+        <trans-unit id="164" translate="yes" xml:space="preserve">
           <source>Place the MOF files and their associated checksum files in the the <bpt id="p1">**</bpt>ConfigurationPath<ept id="p1">**</ept> folder.</source>
           <target state="translated">Posizionare i file MOF e i file di checksum associati nella cartella <bpt id="p1">**</bpt>ConfigurationPath<ept id="p1">**</ept>.</target>       </trans-unit>
-        <trans-unit id="164" translate="yes" xml:space="preserve">
+        <trans-unit id="165" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: If you change the configuration MOF file in any way, you must also recreate the checksum file.</source>
           <target state="translated"><bpt id="p1">**</bpt>Nota<ept id="p1">**</ept>: se si modifica il file MOF di configurazione in qualsiasi modo, è necessario ricreare anche il file di checksum.</target>       </trans-unit>
-        <trans-unit id="165" translate="yes" xml:space="preserve">
+        <trans-unit id="166" translate="yes" xml:space="preserve">
           <source>Tooling</source>
           <target state="translated">Strumenti</target>       </trans-unit>
-        <trans-unit id="166" translate="yes" xml:space="preserve">
+        <trans-unit id="167" translate="yes" xml:space="preserve">
           <source>In order to make setting up, validating and managing the pull server easier, the following tools are included as examples in the latest version of the xPSDesiredStateConfiguration module:</source>
           <target state="translated">Per facilitare la configurazione, la convalida e la gestione del server di pull, gli strumenti seguenti sono inclusi come esempi nella versione più recente del modulo xPSDesiredStateConfiguration:</target>       </trans-unit>
-        <trans-unit id="167" translate="yes" xml:space="preserve">
+        <trans-unit id="168" translate="yes" xml:space="preserve">
           <source>A module that will help with packaging DSC resource modules and configuration files for use on the pull server.</source>
           <target state="translated">Un modulo che facilita la creazione di pacchetti per i moduli di risorse DSC e i file di configurazione per l'uso nel server di pull.</target>       </trans-unit>
-        <trans-unit id="168" translate="yes" xml:space="preserve">
+        <trans-unit id="169" translate="yes" xml:space="preserve">
           <source><bpt id="p1">[</bpt>PublishModulesAndMofsToPullServer.psm1<ept id="p1">](https://github.com/PowerShell/xPSDesiredStateConfiguration/blob/dev/DSCPullServerSetup/PublishModulesAndMofsToPullServer.psm1)</ept>.</source>
           <target state="translated"><bpt id="p1">[</bpt>PublishModulesAndMofsToPullServer.psm1<ept id="p1">](https://github.com/PowerShell/xPSDesiredStateConfiguration/blob/dev/DSCPullServerSetup/PublishModulesAndMofsToPullServer.psm1)</ept>.</target>       </trans-unit>
-        <trans-unit id="169" translate="yes" xml:space="preserve">
+        <trans-unit id="170" translate="yes" xml:space="preserve">
           <source>Examples below:</source>
           <target state="translated">Ecco alcuni esempi:</target>       </trans-unit>
-        <trans-unit id="170" translate="yes" xml:space="preserve">
+        <trans-unit id="171" translate="yes" xml:space="preserve">
           <source>A script that validates the Pull Server is configured correctly.</source>
           <target state="translated">Uno script che convalida la corretta configurazione del server di pull.</target>       </trans-unit>
-        <trans-unit id="171" translate="yes" xml:space="preserve">
+        <trans-unit id="172" translate="yes" xml:space="preserve">
           <source><bpt id="p1">[</bpt>PullServerSetupTests.ps1<ept id="p1">](https://github.com/PowerShell/xPSDesiredStateConfiguration/blob/dev/Examples/PullServerDeploymentVerificationTest/PullServerSetupTests.ps1)</ept>.</source>
           <target state="translated"><bpt id="p1">[</bpt>PullServerSetupTests.ps1<ept id="p1">](https://github.com/PowerShell/xPSDesiredStateConfiguration/blob/dev/Examples/PullServerDeploymentVerificationTest/PullServerSetupTests.ps1)</ept>.</target>       </trans-unit>
-        <trans-unit id="172" translate="yes" xml:space="preserve">
+        <trans-unit id="173" translate="yes" xml:space="preserve">
           <source>Pull client configuration</source>
           <target state="translated">Configurazione dei client di pull</target>       </trans-unit>
-        <trans-unit id="173" translate="yes" xml:space="preserve">
+        <trans-unit id="174" translate="yes" xml:space="preserve">
           <source>The following topics describe setting up pull clients in detail:</source>
           <target state="translated">Gli argomenti seguenti descrivono in modo dettagliato la configurazione dei client di pull:</target>       </trans-unit>
-        <trans-unit id="174" translate="yes" xml:space="preserve">
+        <trans-unit id="175" translate="yes" xml:space="preserve">
           <source>Setting up a DSC pull client using a configuration ID</source>
           <target state="translated">Configurazione di un client di pull DSC usando un ID configurazione</target>       </trans-unit>
-        <trans-unit id="175" translate="yes" xml:space="preserve">
+        <trans-unit id="176" translate="yes" xml:space="preserve">
           <source>Setting up a DSC pull client using configuration names</source>
           <target state="translated">Configurazione di un client di pull DSC usando nomi di configurazione</target>       </trans-unit>
-        <trans-unit id="176" translate="yes" xml:space="preserve">
+        <trans-unit id="177" translate="yes" xml:space="preserve">
           <source>Partial configurations</source>
           <target state="translated">Configurazioni parziali</target>       </trans-unit>
-        <trans-unit id="177" translate="yes" xml:space="preserve">
+        <trans-unit id="178" translate="yes" xml:space="preserve">
           <source>See also</source>
           <target state="translated">Vedere anche</target>       </trans-unit>
-        <trans-unit id="178" translate="yes" xml:space="preserve">
+        <trans-unit id="179" translate="yes" xml:space="preserve">
           <source>Windows PowerShell Desired State Configuration Overview</source>
           <target state="translated">Panoramica di Windows PowerShell DSC (Desired State Configuration)</target>       </trans-unit>
-        <trans-unit id="179" translate="yes" xml:space="preserve">
+        <trans-unit id="180" translate="yes" xml:space="preserve">
           <source>Enacting configurations</source>
           <target state="translated">Applicazione delle configurazioni</target>       </trans-unit>
-        <trans-unit id="180" translate="yes" xml:space="preserve">
+        <trans-unit id="181" translate="yes" xml:space="preserve">
           <source>Using a DSC report server</source>
           <target state="translated">Uso di un server di report DSC</target>       </trans-unit>
       </group>
