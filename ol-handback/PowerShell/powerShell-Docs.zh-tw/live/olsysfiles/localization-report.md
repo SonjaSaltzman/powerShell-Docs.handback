@@ -4013,9 +4013,9 @@
 * Archive Datetime: 2016-10-18 19:22:14
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [scripting\core-powershell\ise\The-ISESnippetCollection-Object.md](https://github.com/PowerShell/powerShell-Docs.zh-tw/blob/a73003a8a750305f63bd5498413c9534c645b544/scripting/core-powershell/ise/The-ISESnippetCollection-Object.md)
-* Current Handback File: [The-ISESnippetCollection-Object.4366858d555daebfa9f274764bbadc76be4fb650.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/25564961931d373fb917541f5b866cfaeac2af85/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/The-ISESnippetCollection-Object.4366858d555daebfa9f274764bbadc76be4fb650.zh-tw.xlf)
-* Current Handback Datetime: 2016-09-06 21:47:05
+* Current Target File: [scripting\core-powershell\ise\The-ISESnippetCollection-Object.md](https://github.com/PowerShell/powerShell-Docs.zh-tw/blob/dbd3cc0fdba336d610671f95f6173f1f5de6a797/scripting/core-powershell/ise/The-ISESnippetCollection-Object.md)
+* Current Handback File: [The-ISESnippetCollection-Object.4366858d555daebfa9f274764bbadc76be4fb650.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/be1377a000fff960ab1609bfc9dc6410fa26717d/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/The-ISESnippetCollection-Object.4366858d555daebfa9f274764bbadc76be4fb650.zh-tw.xlf)
+* Current Handback Datetime: 2016-10-20 08:19:16
 * Bilingual File: [The-ISESnippetCollection-Object.4366858d555daebfa9f274764bbadc76be4fb650.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/25564961931d373fb917541f5b866cfaeac2af85/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/The-ISESnippetCollection-Object.4366858d555daebfa9f274764bbadc76be4fb650.zh-tw.xlf)
 * Bilingual Datetime: 2016-09-06 21:48:10
 * [Back to Top](#report-top)
@@ -4047,9 +4047,9 @@
 * Archive Datetime: 2016-10-18 19:22:14
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [scripting\core-powershell\ise\The-ObjectModelRoot-Object.md](https://github.com/PowerShell/powerShell-Docs.zh-tw/blob/a73003a8a750305f63bd5498413c9534c645b544/scripting/core-powershell/ise/The-ObjectModelRoot-Object.md)
-* Current Handback File: [The-ObjectModelRoot-Object.a169b6b5ad03bb7bd4958b09a1583849d2d65179.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/25564961931d373fb917541f5b866cfaeac2af85/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/The-ObjectModelRoot-Object.a169b6b5ad03bb7bd4958b09a1583849d2d65179.zh-tw.xlf)
-* Current Handback Datetime: 2016-09-06 21:47:05
+* Current Target File: [scripting\core-powershell\ise\The-ObjectModelRoot-Object.md](https://github.com/PowerShell/powerShell-Docs.zh-tw/blob/dbd3cc0fdba336d610671f95f6173f1f5de6a797/scripting/core-powershell/ise/The-ObjectModelRoot-Object.md)
+* Current Handback File: [The-ObjectModelRoot-Object.a169b6b5ad03bb7bd4958b09a1583849d2d65179.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/be1377a000fff960ab1609bfc9dc6410fa26717d/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/The-ObjectModelRoot-Object.a169b6b5ad03bb7bd4958b09a1583849d2d65179.zh-tw.xlf)
+* Current Handback Datetime: 2016-10-20 08:19:16
 * Bilingual File: [The-ObjectModelRoot-Object.a169b6b5ad03bb7bd4958b09a1583849d2d65179.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/25564961931d373fb917541f5b866cfaeac2af85/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/The-ObjectModelRoot-Object.a169b6b5ad03bb7bd4958b09a1583849d2d65179.zh-tw.xlf)
 * Bilingual Datetime: 2016-09-06 21:48:10
 * [Back to Top](#report-top)
